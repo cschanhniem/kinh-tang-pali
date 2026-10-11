@@ -120,16 +120,13 @@ mark { color: var(--ink); background: var(--accent-soft); }
 .sutta-summary h2 { font-family: var(--font-ui); font-size: .8125rem; font-weight: 600; color: var(--accent); }
 .sutta-summary p { max-width: 80ch; font-size: .9375rem; line-height: 1.85; }
 .sutta-summary .summary-note { margin-bottom: 0; border-top: 1px solid var(--line); padding-top: var(--space-4); color: var(--muted); font-size: .75rem; }
-.citation-panel { margin-block: var(--space-4); color: var(--muted); font-size: .8125rem; }
-.citation-panel p { max-width: 85ch; }
-.citation-panel a { overflow-wrap: anywhere; }
 summary { cursor: pointer; padding-block: var(--space-3); color: var(--ink); }
 details > :last-child:not(summary) { margin-bottom: var(--space-4); }
 @media (min-width: 1101px) {
   .reader-shell[data-reader-mode="compare"][data-focus] .segment { grid-template-columns: 5.5rem minmax(0, 1fr); max-width: calc(var(--reading-measure) + 7rem); margin-inline: auto; }
   .reader-shell[data-reader-mode="compare"][data-focus] .cell:not(.is-shown) { display: none; }
 }
-/* Four-layer provenance remains visible, even when scripture columns are collapsed. */
+/* Four-layer selectors and statuses remain available when scripture columns are collapsed. */
 .reader-toolbar { position: sticky; top: var(--space-2); z-index: 5; display: flex; justify-content: space-between; gap: var(--space-4); align-items: center; flex-wrap: wrap; padding: var(--space-3); background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-md); margin: var(--space-6) 0; }
 .mode-switch { display: flex; gap: var(--space-1); flex-wrap: wrap; }
 .mode-switch button { appearance: none; border: 0; min-height: var(--control-height); background: transparent; padding: var(--space-2) var(--space-3); border-radius: var(--radius-sm); cursor: pointer; font-size: .8125rem; color: var(--muted); }
@@ -142,7 +139,7 @@ details > :last-child:not(summary) { margin-bottom: var(--space-4); }
 .column-tab .tab-title { font-size: .75rem; font-weight: 600; }
 .column-tab .tab-count { font-size: .6875rem; color: var(--muted); font-variant-numeric: tabular-nums; }
 .column-tab.unavailable { color: var(--muted); cursor: not-allowed; border-style: dashed; background: var(--surface-soft); }
-.layer-legend { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: var(--space-4); margin-bottom: var(--space-5); }
+.layer-legend { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: var(--space-4); margin: var(--space-7) 0 var(--space-5); }
 .layer-card { border-top: 2px solid var(--line); padding-top: var(--space-2); min-width: 0; }
 .layer-card.standing-authority { border-top-color: var(--accent); }
 .layer-card.standing-reference { border-top-color: var(--reference); }
