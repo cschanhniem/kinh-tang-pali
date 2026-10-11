@@ -232,3 +232,23 @@ Nhật ký append-only. Registry `content/audio/progress.json` được đối s
 - MN19 generated11chunks/121canonical segments; final MP3 duration1021.94s,20,439,840bytes; scripture begins160.51s. R2 uploader verified MIME/hash/bytes/range206; key `vi/mn/mn19/2dc6ff7a2edc9a49.mp3`.
 - Full localASR11chunks similarity0.9013–0.9848. Index8 had a generic outro insertion in full ASR; valid final25s and12s windows on MN19 chunk8 did not reproduce it. Window check uses the correct artifact and is stored in that artifact folder. This is machine evidence only; review pending and no human listening/voice approval claimed.
 - Local reader playback with actual R2 URL: play entered pause, +15s advanced timeline to0:17, scripturejump161s/2:40, pause returned to play at2:44. Marked uploaded-verified; merge and production verification pending.
+
+### MN19 PR merge checkpoint
+
+- PR492 merged2026-10-11T07:29:08Z; exacthead `e2bf7b395413e3727f204ef45f3497cf1648c418`, squash `21554b4ddcdcd3d822fd54b6556ee174dbf4b878`. CIruns38120467196/38120463314both succeeded. Latestmain fetched; squash required a fresh branch. Pages38121521152 pending; MN19 marked merged, notlive untilproduction playback verification. Review pending.
+
+### MN19 production verification
+
+- PR492 squash `21554b4ddcdcd3d822fd54b6556ee174dbf4b878`; Pages workflow38121521152 succeeded. Production page `/sutta/mn/mn19/` showed the R2 player URL `vi/mn/mn19/2dc6ff7a2edc9a49.mp3`. Browser play entered pause, +15s advanced to about0:21, scripture selector moved to2:40 (161s), pause returned to play at2:44. Markedlive. Human full listening and voice comparison remain incomplete; reviewpending.
+
+### MN20 bounded-retry blocker checkpoint
+
+- MN20 generated9chunks/85canonical segments, MP3 approx773.0s. Full offlineASR flagged indexes4/7 with long differences; one bounded retry each preserves originals and reuses7WAVs. Final fullASR still shows substantial long differences in both dense repetitive chunks (similarity range0.5803–0.9821). This is not proof of TTS error; human listening/content verification required. MN20blocked, reviewpending, noR2upload/player registration.
+- Small checkpoint follows frequentPR cadence: zero new successful audio, one blocked UID (MN20). Continue sequentially with MN21; do not count blocked texts as complete.
+
+### MN19 live and MN20 blocked checkpoint
+
+- PR494 registers MN19 metadata; CI is being rerun on the updated checkpoint head. MN19 production player was verified after Pages38121521152: actual R2 play/pause, +15s and scripture jump at2:40 worked. Human review remains pending.
+- MN20:9 chunks/85 canonical segments, MP3 about773.0s. One bounded retry each of indexes4/7 preserved originals and reused7 WAVs. Full local ASR still reports long omitted/extra repetitive passages in both chunks; this is not conclusive TTS evidence. MN20 blocked for human listening, no R2 upload/player; review pending.
+- MN21 source prepared and exact normalized production text comparison passed for all225 canonical cells and5 summary paragraphs. SourceSHA256 `e77c5b673b56c7317ae836246af0c63929999a6a309454c309e34b3e512cd6da`; plan `1b3d87d338f4562b` has16 chunks, max1394 chars. No TTS started.
+- Current checkpoint updates1 live item, records1 blocker and source-preparesMN21; zero newly uploaded files. Tests404/404, validate, Astrocheck, `audio:check` 186/0 and production build passed on this state.
