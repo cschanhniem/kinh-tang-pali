@@ -282,3 +282,66 @@ Nhật ký append-only. Registry `content/audio/progress.json` được đối s
 - Final MP3 SHA-256 `6fa53ffdd30fbd0863e94834fc0b8445ddb0f03cd0e93360936ece26bfa7068f`, 12.569.760 bytes, 628,42 s; scripture begins at 149,83 s. R2 MIME/hash/bytes/range 206 passed; final key `vi/mn/mn23/6fa53ffdd30fbd08.mp3`.
 - Full `npm run build` passed; 6.146 static pages built and Pagefind indexed 6.137 pages. Local preview played the final R2 source, the “Kinh văn 2:29” selector sought to slider 150 s (rounding from 149,83), and pause worked. Progress is `uploaded-verified`, review pending; production awaits the checkpoint PR and Pages deployment.
 - This checkpoint contains 2 newly uploaded-verified files (MN22 and MN23) and 1 blocked UID (MN21, not counted). PR cadence is shortened so each small audio batch reaches production sooner; no MP3/WAV/cache is in Git. Detailed QC: `docs/audio-qc-mn23.md`.
+
+### MN22–MN23 production checkpoint — PR #510
+
+- Checkpoint PR [#510](https://github.com/streamentry/kinh-tang-pali/pull/510) contains two newly uploaded-verified files: MN22 and MN23. Exact head `2ec3517aba5c0c88381f0ae4d48b4cf4de450472`; push CI run `38142440539` and pull-request CI run `38142444009` both succeeded on that head. Local validation, 404 unit tests, Astro check, audio integrity check, and full build also passed.
+- Squash merge commit `a5c57c9b2da2d72cf9a7c013c73a381990152251` was read back from remote `main`. Pages run [#655](https://github.com/streamentry/kinh-tang-pali/actions/runs/38143787220) succeeded for that exact merge commit.
+- Production MN22: [reader page](https://streamentry.github.io/kinh-tang-pali/sutta/mn/mn22/) exposes final R2 key `vi/mn/mn22/f062adda04f29ab2.mp3`. Browser playback started, +15s seek advanced to slider 20s, “Kinh văn 2:51” jumped to 171.87s (slider rounded to 172), and pause returned to Play. Duration display 41:33.
+- Production MN23: [reader page](https://streamentry.github.io/kinh-tang-pali/sutta/mn/mn23/) exposes final R2 key `vi/mn/mn23/6fa53ffdd30fbd08.mp3`. Browser playback started, +15s seek advanced to slider 17s, “Kinh văn 2:29” jumped to 149.83s (slider rounded to 150), and pause returned to Play. Duration display 10:28.
+- Registry now marks MN22/MN23 `live` and keeps both `review_status: pending`; production playback does not replace full human content review. `npm run audio:check` passes for all 186 catalog texts.
+- Two public R2 objects exist for MN22 because a superseded intermediate attempt was retained: the player uses only the final hash-key. No media/cache was added to Git. Next audio UID remains MN24; batch mn-017 starts from merge SHA above.
+
+### MN24 source preparation and first provider stall — batch mn-017
+
+- Started from latest merged `main` at `a5c57c9b2da2d72cf9a7c013c73a381990152251`. MN1 baseline source/profile hashes matched their pins; public R2 returned HTTP 200, `audio/mpeg`, 34,696,800 bytes, and the exact pinned SHA-256. MN1 was not regenerated.
+- MN24 (`Kinh Trạm Xe`) source `ebf39859bc3d4d7269589e95dabfe15eac6d557ef010d637b3697840c8b39014`; summary 2,253 characters, 137 scripture segments, 12 planned chunks (2 summary, 10 scripture), maximum 1,394 characters. Profile remains `vi-charon-mn1-v1`.
+- The checkout Python initially lacked `lameenc`, so it failed before sending a request or writing a WAV. Resumed with the documented `uv run --with lameenc`; chunks 0–2 are valid cached WAVs. Chunk index 3 then stalled in `socket.connect` for more than 7 minutes; the connection remained in `CLOSE_WAIT`. The process was interrupted after confirming it had no child process; no WAV/tmp for index 3, no complete MP3, and no R2 upload or audio metadata exist. No second TTS request was sent.
+- Progress remains `generating` with checkpoint `audio/mn24/c16821460dcece30`; preserve these three valid WAVs. The observed connect stall exposed that the current generator retries provider HTTP errors but lets network connection exceptions escape; add bounded network-error retries and fail closed on quota/auth errors before resuming. MN24 is not counted as generated or uploaded.
+
+### Pipeline retry foundation merge — PR #515
+
+- PR [#515](https://github.com/streamentry/kinh-tang-pali/pull/515) fixes the provider path found during MN24: connection/time-out/incomplete-response failures retry at most five times with backoff; HTTP 429 and auth/other 4xx stop immediately; no provider fallback. Deterministic tests cover network retry, 5xx retry, 429 stop and the five-request limit.
+- Final exact head `366d828af7994380e1837419678b8fe3deaa4ee2`; push CI run `38153893816` and pull-request CI run `38153897911` both succeeded. Local gates on the rebased head: validate, 411 tests, Astro check (0 errors), audio check (186 texts/0 errors), and full build/Pagefind passed.
+- Squash merge commit `1bc0d3cdad52d1cf93eb1c99fadf8285fde7df0d` was read back from latest remote `main`. The MN24 branch was rebased onto that merge before resuming its cache.
+
+### MN24 R2/local-player checkpoint — batch mn-017
+
+- MN24 source `ebf39859bc3d4d7269589e95dabfe15eac6d557ef010d637b3697840c8b39014`; summary2.253 chars, 137 canonical scripture segments, 12 chunks (2 summary +10 scripture), maximum1.394 chars. Profile `vi-charon-mn1-v1` unchanged; current source still matches the cached plan.
+- The default Python lacked `lameenc` and stopped before any TTS request. Resumed with documented `uv run --with lameenc`. One request at chunk index3 stalled in `socket.connect` for more than7 minutes and produced no WAV; after PR #515 merged, the network-retry fix was available. Resumed by verifying/reusing cached chunks0–2 and synthesizing chunks3–11 sequentially; all12 WAV hashes, frames and formats pass. No other TTS process ran.
+- MP3 SHA-256 `d0593754aa09776b7769b66f16bf3a7eeb6da0ddd03ba809a0d0563da5104b71`, 21.022.080bytes, 43.796 MPEG frames, 1.051,104s by MP3 frame count; metadata duration1.051,05s; scripture begins153,71s. R2 object `vi/mn/mn24/d0593754aa09776b.mp3` passed full public MIME/hash/bytes readback and range206.
+- Local player preview loaded that exact R2 URL; play, +15s seek, “Kinh văn 2:33” jump to153,71s and pause worked. Progress is `uploaded-verified`, reviewpending; production awaits the MN24 PR and Pages deployment.
+- No full ASR or human listening is claimed. The transcription skill key was absent locally; an async request asked the editor to configure it without sharing the key in chat. Keep `review_status: pending` regardless.
+- MN24 is the first sutta in this per-article PR cadence. The upcoming PR will contain only MN24 metadata/progress/QC and the live evidence from #515; no MP3/WAV/cache is staged.
+
+### MN25 generated checkpoint — R2 authorization pending in batch mn-017
+
+- MN25 (`Kinh Nơi Gieo Mồi`) source `d334fad2cd6549242c27575220519f158ca32d4c438ec4d8ad8621752e29f242`; summary2.171 chars,197 canonical scripture segments,18 chunks (2 summary +16 scripture), maximum1.396 chars. Approved profile `vi-charon-mn1-v1` unchanged.
+- All18 WAVs pass checkpoint/text hash, sample-format, frame-count and completeness checks. Final MP3 SHA-256 `c719587d60efaf40e49da764b70de3a482e1ef6b31b6b93c2752da2aab131267`,33.521.760bytes, duration1.676,088s by MPEG frame count, scripture starts154,91s. No ASR or human full listening; reviewpending.
+- The R2 uploader returned HTTP401 while fetching the pinned bucket, before any object PUT. It did not write `content/audio/mn25.json`, URL or R2 success fields; progress remains `generated` with the failure recorded. The complete MP3 and all WAVs remain in ignored local cache. A Wrangler login refresh is currently waiting for Cloudflare browser authorization; no token or authorization URL has been exposed.
+- Current three-sutta group: MN24 `uploaded-verified` (included in open PR #529), MN25 `generated` but not uploaded, MN26 `not-started`. Do not start MN26 until MN25 upload and player verification complete. Do not merge PR #529 until three suttas have completed upload/player verification.
+
+### 2026-10-12 — Editor workflow change
+
+- Editor explicitly removed transcription/ASR from the workflow and will listen manually on the live website. Continue source/profile, WAV/MP3 integrity, R2 verification and player checks; keep review pending. No speech-content approval is inferred.
+- Release cadence remains three successfully uploaded suttas per PR/merge; current batch is MN24–MN26 in PR #529. Historical QC evidence and existing known flags remain recorded.
+
+### MN25 R2/player checkpoint — batch mn-017
+
+- User renewed Wrangler login; upload succeeded using the same generated MP3. Public SHA/bytes/range verified. Prior auth error cleared from current entry; historical failure retained above.
+- Browser verified play, +15s, scripture jump154.91s, pause, duration1676.088s, readyState4/no error. Status uploaded-verified; manual review pending, ASR skipped by editor.
+- MN24 and MN25 are two successful files in the three-file batch. MN26 source preparation passed:27 chunks/363 scripture segments.
+
+### Previously held ASR artifacts — release handling
+
+- Following the editor instruction to upload/publish for manual website listening, prior ASR flags are listening-review information rather than a publication gate. Before registering each held artifact, recheck current canonical source/profile, WAV/MP3 integrity and R2/player. Preserve all historical QC flags; never infer content approval. Source/profile drift and corrupt/incomplete artifacts still block release.
+- Finish active MN26 and deliver MN24–MN26 first, then revisit earlier held MN artifacts in numeric order without duplicate TTS.
+
+- Read-only audit found all twelve held artifacts: MN2/4/5/6 in `/Volumes/SSD/symlinks/james-home/codex/worktrees/mn1-audio-profile/kinh-tang-pali/audio/`, MN11 in `/private/tmp/kinh-tang-pali-audio-live/audio/`, MN13/14/15/17/18/20/21 in the active audio worktree. Every source hash matches current canonical source, profile metadata matches the approved pin, every planned WAV matches its checkpoint, and each MP3 hash matches its manifest. No regeneration or ASR request was made. Upload/player/release checks remain to be performed individually after the active batch.
+
+### MN26 R2/player checkpoint — batch mn-017 ready for release
+
+- Sequential synthesis completed27/27chunks without provider errors. Source6065eec995b2395aad4488ef334d6fe5f983b524c48235b786a4638ec52ed25a; MP3 9c1d5f8627988cffe65326750a479cdbcd9aa3c3aa1a4026fc979833d9b86618,53,260,800bytes,2663.04seconds.
+- Source/plan reconstruction,27 WAV checkpoint checks,MP3 frame/hash/duration and R2 public hash/bytes/range pass. Local browser play,+15s,scripture174.39s,pause pass; readyState4/no media error. ASR skipped by editor; manual reviewpending.
+- MN24–MN26 now provide three uploaded-verified suttas, total5390.232seconds (about89m50s). Stop new synthesis for PR #529 delivery.
+- Local tests rerun after TTS released its lock:411/411pass. Earlier CLI-override test failure came from the active global TTS lock; no test or gate was weakened.
