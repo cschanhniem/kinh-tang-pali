@@ -345,3 +345,32 @@ Nhật ký append-only. Registry `content/audio/progress.json` được đối s
 - Source/plan reconstruction,27 WAV checkpoint checks,MP3 frame/hash/duration and R2 public hash/bytes/range pass. Local browser play,+15s,scripture174.39s,pause pass; readyState4/no media error. ASR skipped by editor; manual reviewpending.
 - MN24–MN26 now provide three uploaded-verified suttas, total5390.232seconds (about89m50s). Stop new synthesis for PR #529 delivery.
 - Local tests rerun after TTS released its lock:411/411pass. Earlier CLI-override test failure came from the active global TTS lock; no test or gate was weakened.
+
+### Batch mn-017 merged — PR #529
+
+- MN24–MN26: three newly uploaded-verified suttas, review pending, ASR skipped by editor. Exact head `a318406665ef65e70e94147f2800ecbfd60c98f7`; push CI38193237780 and PR CI38193240034 both completed success. Local validate/tests411/check/audio-check/build passed.
+- Squash merge `8fe38ddfa6864e44f40f716f7e0e1286bd79049d` from PR https://github.com/streamentry/kinh-tang-pali/pull/529; fetched remote main and verified merge ancestry. Metadata for all three is on main.
+- Pages workflow38194672655 was pending when checked; do not infer production-live from merge. Main CI38194672616 is separate. New isolated worktree branch `codex/audio-mn-batch-018` starts at the merged main.
+
+### Batch mn-017 production verified
+
+- Pages38194672655 at merge commit8fe38ddfa6864e44f40f716f7e0e1286bd79049d: build114634683640 and deploy114637130525 both completed success.
+- Production MN24/MN25/MN26 each returnedHTTP200 and an audio element referencing the exact final R2 object in metadata. Browser representative MN26 played the real R2 file, +15s seek, scripture jump174.39s and pause; duration2663.04s,readyState4,media errornull. Review remainspending; no full listening approval.
+- Marked all three live. Continue previously held artifacts in numeric order under the editor manual-listening workflow.
+
+### Batch mn-018 — MN2 held artifact released for manual review
+
+- Reused existing final MP3 `d4b228a02455b58b99a8e4b560ca28588b6fc2333a488db513fdbb46b1cf4689`,21,573,600bytes. No TTS/ASR request. Current source/profile/WAV/MP3 integrity already audited; R2 public hash/bytes/range reverified.
+- First upload check stoppedHTTP401 before PUT because OAuth expired. Wrangler R2 bucket info refreshed the same OAuth session successfully; retry upload verified without user login or credentials in logs.
+- Local browser play,+15s,scripture selector,pause pass; readyState4/media errornull. One repaired UID in batch. Historical ASR flag moved to manual_review_flags, not discarded; reviewpending.
+
+### Batch mn-018 — MN4 registered for manual listening
+
+- Reused final cached MP3 `0c0fc4cfa8f26e85c1a6c31345e435e4850b3076cb974fb82b76bd6659da03a4`,29573760bytes; no TTS/ASR. Source/profile/WAV/MP3 checks and R2 hash/bytes/range verified.
+- Local browser play,+15s,scripture jump161.26999999999998s,pause pass; readyState4,no media error. Historical flags preserved in manual_review_flags/QC doc; reviewpending. Two repaired UIDs in batch.
+
+### Batch mn-018 — MN5 registered; three repaired UIDs ready
+
+- Reused final cached MP3 `fdd25b26457f6630a5babe01dfeeda069b66afbc288f7eeaa2b0b3d22470297c`,30017280bytes; no TTS/ASR. Source/profile/WAV/MP3 and R2 hash/bytes/range verified.
+- Local browser play,+15s,scripture jump158.23s,pause pass; readyState4,no media error. Historical flags retained; reviewpending.
+- Batch MN2/MN4/MN5 contains three repaired UIDs, total4058.232seconds (67m38s). MN2 re-registers the same public artifact; MN4 and MN5 gain player metadata. Stop at this three-file release gate for checks, PR/merge and live verification.
