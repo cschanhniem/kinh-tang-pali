@@ -3,7 +3,9 @@ status: published
 translationTitle: "Chuyện Tiền Thân Sīlavīmaṁsa"
 translators:
   - "OpenCode Space Bunny Free (agent)"
-reviewers: []
+reviewers:
+  - OpenCode Space Bunny Free (agent)
+  - Claude Sonnet 5.5 (Claude Code)
 tags:
   - "kn"
   - "khuddaka-nikaya"
@@ -14,7 +16,7 @@ quality:
     source_provenance: 9.5
     semantic_fidelity: 9.3
     grammar_logic: 9.3
-    segment_alignment: 10.0
+    segment_alignment: 10
     terminology: 9.2
     triangulation: 7.5
     vietnamese_clarity: 9.3
@@ -38,9 +40,10 @@ quality:
       Pāli root ⇒ blocker thật, và đây là **giới hạn upstream**, không phải lỗi
       của người dịch. Vì vậy `triangulation` bị chặn ở 7.5 (≤ 8.0) chứ không
       nâng để né blocker."
-  assessed_at: "2026-10-04"
+  assessed_at: 2026-10-15
   assessed_by:
-    - "OpenCode Space Bunny Free (agent)"
+    - Claude Sonnet 5.5 (Claude Code)
+  assessment_id: 63763b0f-89fa-4d0d-bf23-be9e72210f79
   waiver:
     id: no-upstream-english
     blockers:
@@ -64,3 +67,7 @@ notes: |-
   Đối chiếu văn cảnh và chú giải để xác định ngữ nghĩa các từ cổ và cấu trúc đối thoại.
   Bảo toàn niêm luật kệ ngôn / cấu trúc văn xuôi, danh từ riêng giữ nguyên ký tự Pāli có dấu phụ.
   Toàn bộ 27 khoá được kiểm tra cẩn thận về phân đoạn, cân bằng dấu ngoặc kép và chuẩn hóa Unicode NFC.
+
+  Lượt rà soát 2026-10-15 (Claude Sonnet 5.5, Claude Code): đối chiếu lại toàn bộ khoá với Pāli ghim.
+  Sửa ja330:2.3 (saṅgamma = tụ lại, không phải bay lượn) và ja330:7.3 (kepuka là tên hồ ở ja327, không
+  phải quả). Các khoá còn lại giữ nguyên; uddāna kāyasa chưa phân xử được.

@@ -3,7 +3,9 @@ status: published
 translationTitle: "Kinh Avāriya"
 translators:
   - "OpenCode Space Bunny Free (agent)"
-reviewers: []
+reviewers:
+  - OpenCode Space Bunny Free (agent)
+  - Claude Sonnet 5.5 (Claude Code)
 tags:
   - "khuddaka-nikaya"
   - "jataka"
@@ -13,16 +15,16 @@ tags:
 quality:
   scores:
     source_provenance: 9.5
-    semantic_fidelity: 9.1
-    grammar_logic: 9.1
-    segment_alignment: 10.0
+    semantic_fidelity: 8.9
+    grammar_logic: 8.9
+    segment_alignment: 10
     terminology: 8.9
     triangulation: 7.5
     vietnamese_clarity: 9.1
     han_viet_balance: 9.3
     ambiguity_integrity: 8.7
     technical_integrity: 9.6
-  final_score: 9.08
+  final_score: 9.04
   blocking_errors:
     - "Không có tầng tham khảo tiếng Anh tại commit đã ghim: tệp
       `translation/en/sujato/sutta/kn/.../ja376_translation-en-sujato.json`
@@ -41,9 +43,10 @@ quality:
       Pāli root ⇒ blocker thật, và đây là **giới hạn upstream**, không phải lỗi
       của người dịch. Vì vậy `triangulation` bị chặn ở 7.5 (≤ 8.0) chứ không
       nâng để né blocker."
-  assessed_at: "2026-10-04"
+  assessed_at: 2026-10-15
   assessed_by:
-    - "OpenCode Space Bunny Free (agent)"
+    - Claude Sonnet 5.5 (Claude Code)
+  assessment_id: 470d44e1-8139-414d-a2a1-3c66e68963a4
   waiver:
     id: no-upstream-english
     blockers:
@@ -76,3 +79,22 @@ notes: |-
   ĐỌC `pitā` ĐÚNG CHỖ. `3.1` `Avāriyapitā nāma` — `pitā` là **cha**, không phải tính từ; câu chuyện nói vị vua trong truyện có người cha là kẻ lái đò ngu dốt. Vì vậy dịch *Có một người mà người cha là kẻ ngu dốt,* chứ không phải *có kẻ ngu dốt*. `7.3` `Migova jātarūpena` đọc là *Cái thai của Migo cũng rơi xuống như thế*, nối thẳng với `7.2` `Gabbho ca patito chamā`; đây là cách hiểu, `jātarūpena` còn có thể đọc theo nghĩa *lượng* — ghi lại để người điều phối phán nếu tìm được chú giải.
 
   Bốn cổng kỹ thuật theo `AGENTS.md`: `npm run validate`, `npm test`, `npm run check`, `npm run build`. Lát này **không** chạy bốn lệnh đó — BRIEF cấm `npm run validate|test|build|check` trong từng lát, nên để CI hoặc người điều phối chạy. `technical_integrity` đặt **9.6** vì mọi chốt tự động của `_hvi.kiểm` đã xanh (thiếu khoá, thừa khoá, ngoặc kép cân trên cả bài, NFC, không trùng nguyên văn Pāli, không lọt Pāli, khớp số dấu lược) và 35/35 khoá của chính bài này; chưa đủ 10.0 vì cổng `npm` và lượt rà của người chưa chạy.
+
+  Lượt rà soát 2026-10-15 (kiểm toán lại từng khoá bằng Pāli, Claude Sonnet 5.5 (Claude Code)). Mục
+  này THAY các khẳng định cũ ở trên về «kujjha = giữ lời», «Avāriyapitā = người có cha là kẻ ngu»,
+  «đòi tiền cướp đò», «Migo» và «ra lệnh». Sửa 24 khoá so với bản trước, trong đó 17 khoá sai nghĩa
+  thật. 1.1–1.4 và 2.4, 5.4: `kujjha/kujjhittha` là «giận» (mā kujjha = chớ giận), không phải «giữ
+  lời»; `kuddhaṁ appaṭikujjhanto` = không giận đáp lại kẻ đang giận. 2.3, 5.3, 6.1, 6.3:
+  `anusāsāmi/anusāsanī` là khuyên dạy, không phải ra lệnh. 3.1: `Avāriyapitā nāma` là tên người lái đò
+  (cha của Avāriya), không phải «người có cha ngu dốt». 3.3–3.4: `tāretvāna` chở qua sông, `yācati
+  vetanaṁ` đòi tiền công (bản cũ «cướp đò» không có trong Pāli). 4.1–4.2: `atiṇṇaṁyeva yācassu,
+  apāraṁ` = chỉ đòi khi chưa qua sông, chưa tới bờ bên kia; `tāta` là hô ngữ thân mật, không dịch «đứa
+  con». 6.2: `gāmavaraṁ` = ngôi làng tốt đẹp; 6.4: `nāviko paharī mukhaṁ` = người lái đò đánh vào mặt
+  (bản cũ «Đánh cho ta một cái!» bịa lời thoại). 7.1: `bhattaṁ bhinnaṁ` = cơm bị đổ/vỡ; 7.3–7.4:
+  `migova jātarūpena, na tenatthaṁ abandhi` = như con thú với vàng, y không đạt được ích lợi gì từ đó
+  (không còn «cái thai của Migo»). Người nói suy từ truyện dẫn (ancient-buddhist-texts.net, bản
+  Francis–Neil, chỉ để biết người nói): 1–2 và 4–5 là vị ẩn sĩ (Bồ-tát) nói; 3, 6, 7 là Bậc Đạo Sư.
+  Bất định, không đưa vào thân kinh: `migova jātarūpena` (so sánh con thú với vàng) đọc theo truyện
+  dẫn; `sū` ở 7.4 là tiểu từ nhấn, không dịch. Điểm đặt lại theo bản đã sửa: semantic_fidelity và
+  grammar_logic 8,9 (bản cũ sai hơn một nửa số khoá kệ); các điểm khác giữ nguyên. Cổng npm chưa chạy;
+  technical_integrity giữ nguyên.

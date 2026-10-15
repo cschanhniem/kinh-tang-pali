@@ -3,7 +3,9 @@ status: published
 translationTitle: "Chuyện Tiền Thân Mūsika"
 translators:
   - "OpenCode Space Bunny Free (agent)"
-reviewers: []
+reviewers:
+  - OpenCode Space Bunny Free (agent)
+  - Claude Sonnet 5.5 (Claude Code)
 tags:
   - "kn"
   - "khuddaka-nikaya"
@@ -14,7 +16,7 @@ quality:
     source_provenance: 9.5
     semantic_fidelity: 9.3
     grammar_logic: 9.3
-    segment_alignment: 10.0
+    segment_alignment: 10
     terminology: 9.2
     triangulation: 7.5
     vietnamese_clarity: 9.3
@@ -38,9 +40,10 @@ quality:
       Pāli root ⇒ blocker thật, và đây là **giới hạn upstream**, không phải lỗi
       của người dịch. Vì vậy `triangulation` bị chặn ở 7.5 (≤ 8.0) chứ không
       nâng để né blocker."
-  assessed_at: "2026-10-04"
+  assessed_at: 2026-10-15
   assessed_by:
-    - "OpenCode Space Bunny Free (agent)"
+    - Claude Sonnet 5.5 (Claude Code)
+  assessment_id: 64ff3bdc-ff84-41c8-b222-e5026af98cb4
   waiver:
     id: no-upstream-english
     blockers:
@@ -64,3 +67,5 @@ notes: |-
   Đối chiếu văn cảnh và chú giải để xác định ngữ nghĩa các từ cổ và cấu trúc đối thoại.
   Bảo toàn niêm luật kệ ngôn / cấu trúc văn xuôi, danh từ riêng giữ nguyên ký tự Pāli có dấu phụ.
   Toàn bộ 27 khoá được kiểm tra cẩn thận về phân đoạn, cân bằng dấu ngoặc kép và chuẩn hóa Unicode NFC.
+
+  Kiểm toán Jātaka chỉ có Pāli 2026-10-15 (Claude Sonnet 5.5 (Claude Code)): đọc lại đủ khoá; sửa 3.3 (`dīghañcetaṁ samāsajja` = cầm vật dài này xông tới, bản cũ đoán "vướng vào tội lỗi to lớn"; theo bối cảnh Chalmers là cái muôi dài), 3.2 (bỏ "chưa có kinh nghiệm"), 2.2 (`nivattasi` = quay đi quay lại, không phải "đứng khựng"), 1.4 (`hatā` = bị giết), 4.4 (bỏ "vua"), 5.4 (bỏ "cùng lúc"). Bất định, giữ nguyên: `nāṅgaputtapinena` (4.2) "con trai của vua Aṅga", chữ hiếm chưa phân xử được. Điểm giữ nguyên.

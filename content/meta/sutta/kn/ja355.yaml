@@ -14,8 +14,8 @@ tags:
 quality:
   scores:
     source_provenance: 9.5
-    semantic_fidelity: 9.4
-    grammar_logic: 9.3
+    semantic_fidelity: 9.5
+    grammar_logic: 9.4
     segment_alignment: 10
     terminology: 9.2
     triangulation: 7.5
@@ -23,7 +23,7 @@ quality:
     han_viet_balance: 9.4
     ambiguity_integrity: 9.2
     technical_integrity: 9.6
-  final_score: 9.24
+  final_score: 9.26
   blocking_errors:
     - "Không có tầng tham khảo tiếng Anh tại commit đã ghim: tệp
       `translation/en/sujato/sutta/kn/ja/ja355_translation-en-sujato.json` không
@@ -43,7 +43,7 @@ quality:
   assessed_at: 2026-10-15
   assessed_by:
     - Claude Sonnet 5.5 (Claude Code)
-  assessment_id: f3d0cdad-0b69-491e-be03-cde18f5368e3
+  assessment_id: efe0df0f-7fb0-4152-96ba-80c5e9e65f89
   waiver:
     id: no-upstream-english
     blockers:
@@ -71,3 +71,5 @@ notes: |-
   Lô G7 2026-10-15: kiểm lại lỗi lặp bằng Pāli đã ghim, Claude Sonnet 5.5 (Claude Code). 5.2
   `sabbakāmarasāharo`: "thâu góp" đổi "mang đến" theo ja536:96.4, ja547:44.4 (`-āhara` là mang đến).
   Điểm giữ nguyên, trừ semantic_fidelity +0,1 do sửa lỗi nghĩa; technical_integrity giữ nguyên.
+
+  Đợt kiểm toán Jātaka chỉ có Pāli 2026-10-15, Claude Sonnet 5.5 (Claude Code): sửa 2.3 (`dhaṅka` là hô ngữ, giữ nguyên chữ, bỏ 'kẻ ngu dốt') và 4.3–4.4 (`nāgamissati` là phủ định: sẽ chẳng đến; bỏ chủ ngữ 'cái chết' tự thêm). Bất định: 5.1–5.2 `nālamekova`, `sabbakāmarasāharo`; 1.1 vai người hỏi.

@@ -3,7 +3,9 @@ status: published
 translationTitle: "Kinh Parosahassa"
 translators:
   - "OpenCode Space Bunny Free (agent)"
-reviewers: []
+reviewers:
+  - OpenCode Space Bunny Free (agent)
+  - Claude Sonnet 5.5 (Claude Code)
 tags:
   - khuddaka-nikaya
   - jataka
@@ -15,22 +17,23 @@ quality:
     source_provenance: 9.5
     semantic_fidelity: 9.4
     grammar_logic: 9.4
-    segment_alignment: 10.0
+    segment_alignment: 10
     terminology: 9.3
     triangulation: 7.5
     vietnamese_clarity: 9.4
     han_viet_balance: 9.3
     ambiguity_integrity: 9.2
-    technical_integrity: 10.0
+    technical_integrity: 10
   final_score: 9.3
   blocking_errors:
-    - "Không có tầng tham khảo English Sujato tại commit đã ghin (0/9 khoá có
+    - Không có tầng tham khảo English Sujato tại commit đã ghin (0/9 khoá có
       prose, đã đếm trong cache đã ghin) và cũng không có bản Việt hiện hành cho
       Khuddaka Nikāya; bài này dịch chỉ từ Pāli, chưa đối chiếu được tầng tham
-      khảo nào nên chưa đủ điều kiện published, giữ draft."
-  assessed_at: "2026-10-01"
+      khảo nào nên chưa đủ điều kiện published, giữ draft.
+  assessed_at: 2026-10-15
   assessed_by:
-    - "OpenCode Space Bunny Free (agent)"
+    - Claude Sonnet 5.5 (Claude Code)
+  assessment_id: b7153a58-2944-46c6-ba55-d484860a3247
   waiver:
     id: no-upstream-english
     blockers:
@@ -55,3 +58,5 @@ notes: |-
   đã là tên riêng, đúng như ja101 (Kinh Parosata).
   Pāli 1.1 không mở nháy kép còn 1.4 đóng; đã mở nháy ở 1.1 cho khớp quy ước, vì bản
   chụp ở khoá này thiếu dấu mở.
+
+  Kiểm toán 2026-10-15 (kiểm toán Jātaka chỉ có Pāli), Claude Sonnet 5.5 (Claude Code): Sửa 1/4 khoá kệ: 1.2 kandeyyuṁ là than khóc (kandati), bản cũ "nấu" là sai nghĩa động từ. Tên phẩm Littavagga (khoá 0.3) đổi thành "Phẩm Litta" cho thống nhất với ja91. Các khoá khác đọc lại, giữ.

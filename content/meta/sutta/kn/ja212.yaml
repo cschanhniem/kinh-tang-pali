@@ -1,9 +1,11 @@
 uid: ja212
 status: published
-translationTitle: "2. Kinh Người Bán Hạt Bị Đâm"
+translationTitle: "2. Kinh Cơm Thừa"
 translators:
   - "OpenCode Space Bunny Free (agent)"
-reviewers: []
+reviewers:
+  - OpenCode Space Bunny Free (agent)
+  - Claude Sonnet 5.5 (Claude Code)
 tags:
   - "jataka"
   - "dukanipata"
@@ -11,16 +13,16 @@ tags:
 quality:
   scores:
     source_provenance: 9.4
-    semantic_fidelity: 9.0
-    grammar_logic: 9.0
-    segment_alignment: 10.0
+    semantic_fidelity: 9
+    grammar_logic: 9
+    segment_alignment: 10
     terminology: 9.2
     triangulation: 7.8
     vietnamese_clarity: 9.3
     han_viet_balance: 9.2
     ambiguity_integrity: 8.8
     technical_integrity: 9.6
-  final_score: 9.13
+  final_score: 9.129999999999999
   blocking_errors:
     - "Tầng Anh Sujato không có ở commit đã ghim
       11c9d708978cde8ba61096d8a75f7ddfb846f639:
@@ -31,9 +33,10 @@ quality:
       phép sửa content/meta/reference-gaps.yaml trong phạm vi lát này. Đây là
       giới hạn của bản chụp upstream, không phải thiếu sót của kho, nhưng vẫn là
       lý do giữ bài ở draft."
-  assessed_at: "2026-10-02"
+  assessed_at: 2026-10-15
   assessed_by:
-    - "OpenCode Space Bunny Free (agent)"
+    - Claude Sonnet 5.5 (Claude Code)
+  assessment_id: 6c0da855-c5ce-4456-b71c-fc9a20d1e03e
   waiver:
     id: no-upstream-english
     blockers:
@@ -76,6 +79,12 @@ notes: |-
   Kshatriya, Brahmana); đã thay bằng từ Việt hoặc dạng đã dùng ở toàn tầng (rượu men / rượu nấu / các
   chất say; rựa; gỗ tếch; beluva; āmalaka; Sát-đế-lợi; dạ-xoa; Nandamātā; Trúc Lâm; Sát-đế-lợi; Bà-la-
   môn). Giữ nguyên phần còn lại của khoá.
+
+  Lượt kiểm toán Jātaka chỉ có Pāli (đợt 7) 2026-10-15, Claude Sonnet 5.5 (Claude Code): đọc đủ mọi
+  khoá Pāli↔Việt, tham chiếu PED. Cả 8 khoá kệ sửa theo Pāli: 1.1–1.4 người chồng hỏi vợ `kiṁ heṭṭhā
+  kiñca uppari` (bản cũ: hỏi về "tộc"); 2.1–2.4 người làm trò `naṭo`, `bhikkhako`, `koṭṭhamotiṇṇo`
+  (người tình chui xuống kho; bản cũ: "tỳ-kheo… đóng một cọc"). Tiêu đề: `ucchiṭṭhabhatta` là cơm
+  thừa; "Người Bán Hạt Bị Đâm" không có căn cứ, đổi ở 0.4, 3.1 và meta.
 
 # final_score = trung bình số học thô của 10 tiêu chí = 9.1300 (tính bằng script).
 # Có blocking_error thật (thiếu tầng Anh Sujato ở commit đã ghim) nên status là draft,

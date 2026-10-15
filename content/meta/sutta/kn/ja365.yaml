@@ -3,7 +3,9 @@ status: published
 translationTitle: "Chuyện Tiền Thân Người Thao Diễn Rắn"
 translators:
   - "OpenCode Space Bunny Free (agent)"
-reviewers: []
+reviewers:
+  - OpenCode Space Bunny Free (agent)
+  - Claude Sonnet 5.5 (Claude Code)
 tags:
   - "khuddaka-nikaya"
   - "jataka"
@@ -12,16 +14,16 @@ tags:
 quality:
   scores:
     source_provenance: 9.5
-    semantic_fidelity: 9.3
+    semantic_fidelity: 9.4
     grammar_logic: 9.3
-    segment_alignment: 10.0
+    segment_alignment: 10
     terminology: 9.2
     triangulation: 7.5
     vietnamese_clarity: 9.3
     han_viet_balance: 9.4
     ambiguity_integrity: 9.2
     technical_integrity: 9.6
-  final_score: 9.23
+  final_score: 9.24
   blocking_errors:
     - "Không có tầng tham khảo tiếng Anh tại commit đã ghim: tệp
       `translation/en/sujato/sutta/kn/ja/ja365_translation-en-sujato.json` không
@@ -38,9 +40,10 @@ quality:
       Pāli root ⇒ blocker thật, và đây là **giới hạn upstream**, không phải lỗi
       của người dịch. Vì vậy `triangulation` bị chặn ở 7.5 (≤ 8.0) chứ không
       nâng để né blocker."
-  assessed_at: "2026-10-03"
+  assessed_at: 2026-10-15
   assessed_by:
-    - "OpenCode Space Bunny Free (agent)"
+    - Claude Sonnet 5.5 (Claude Code)
+  assessment_id: 42d1237c-b873-4c79-acc8-66ba174d8846
   waiver:
     id: no-upstream-english
     blockers:
@@ -64,3 +67,5 @@ notes: |-
   Đối chiếu văn cảnh và chú giải để xác định ngữ nghĩa các từ cổ và cấu trúc đối thoại.
   Bảo toàn niêm luật kệ ngôn / cấu trúc văn xuôi, danh từ riêng giữ nguyên ký tự Pāli có dấu phụ.
   Toàn bộ 25 khoá được kiểm tra cẩn thận về phân đoạn, cân bằng dấu ngoặc kép và chuẩn hóa Unicode NFC.
+
+  Kiểm toán Jātaka chỉ có Pāli 2026-10-15 (Claude Sonnet 5.5 (Claude Code)): đọc lại đủ khoá; sửa 4.2 (`api rajjampi kāraye` là ngôi thứ nhất "dù ta cai trị cả vương quốc", bản cũ gán cho người múa rắn nhường ngôi), 5.2 (`gabbhe tittaṁ` = hài lòng ở nhà, không phải "tâm tánh thuần hậu"), 4.4 và 3.4 (bỏ "sự bạo tàn của ngươi", "tàn nhẫn" không có trong Pāli). Đối chiếu bản Chalmers (Cowell, Jātaka III). semantic_fidelity +0,1 do sửa lỗi nghĩa thật; technical_integrity giữ nguyên.
