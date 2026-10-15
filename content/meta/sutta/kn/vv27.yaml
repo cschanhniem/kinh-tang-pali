@@ -3,7 +3,8 @@ status: published
 translationTitle: "Phẩm Cây Hoa Cittalatā"
 translators:
   - "OpenCode Space Bunny Free (agent)"
-reviewers: []
+reviewers:
+  - Claude Sonnet 5.5 (Claude Code)
 tags:
   - "kn"
   - "khuddaka-nikaya"
@@ -13,12 +14,12 @@ quality:
     source_provenance: 9.5
     semantic_fidelity: 8.8
     grammar_logic: 9.2
-    segment_alignment: 10.0
+    segment_alignment: 10
     terminology: 8.6
     triangulation: 7.5
     vietnamese_clarity: 9.2
     han_viet_balance: 9.4
-    ambiguity_integrity: 9.0
+    ambiguity_integrity: 9
     technical_integrity: 9.6
   final_score: 9.08
   blocking_errors:
@@ -37,9 +38,10 @@ quality:
       Pāli root ⇒ blocker thật, và đây là **giới hạn upstream**, không phải lỗi
       của người dịch. Vì vậy `triangulation` bị chặn ở 7.5 (≤ 8.0) chứ không
       nâng để né blocker."
-  assessed_at: "2026-10-11"
+  assessed_at: 2026-10-15
   assessed_by:
-    - "Claude Sonnet 5.5 (Claude Code)"
+    - Claude Sonnet 5.5 (Claude Code)
+  assessment_id: 90ca1232-f7e5-47f5-9e61-a0bbc785f79c
   waiver:
     id: no-upstream-english
     blockers:
@@ -67,3 +69,7 @@ notes: |-
   Điểm: semantic_fidelity 9.3 → 8.8 (tiêu đề :0.2 còn sai nghĩa, :3.3 là dạng lỗi lan cả họ); terminology 9.2 → 8.6 (:0.2 "Hư Không" không có `ākāsa` trong Pāli; :0.3 "Cây Hoa" cho `latā` chưa kiểm chứng); grammar_logic 9.3 → 9.2; vietnamese_clarity 9.3 → 9.2; ambiguity_integrity 9.2 → 9.0; các tiêu chí còn lại giữ nguyên. final_score 9.23 → 9.08.
   Lỗi còn lại, không sửa riêng một tệp để khỏi lệch cả bộ: tiêu đề phẩm `Itthivimāna` hiện dịch "Chuyện Cung Điện Nữ Hư Không" ở :0.2 (sai: Pāli không có `ākāsa`; lặp ở hàng chục tệp vv) — cần sửa đồng loạt; `Cittalatāvagga` dịch "Phẩm Cây Hoa Cittalatā" (11 tệp cùng cách) cũng cần xem xét đồng loạt. Phép 4.1 (`manussabhūtā` giữ nghĩa "đã làm người") không kết luận gì về giới tính ngoài dạng nữ của Pāli.
   Bất định còn lại: `osadhī` dịch "sao mai" (tiền lệ 22/24) — chưa kiểm chứng riêng; không có tầng tham khảo Anh (blocker upstream giữ nguyên). Năm phép: tập khoá 24 = 24 và đúng thứ tự; nháy/ngoặc kép khớp Pāli từng khoá (4 khoá có nháy); Pāli trùng nguyên văn trong bài chỉ là `…pe…` ×3, Việt đều là `…`; không `…` thừa; NFC, không khoảng trắng thừa, không Pāli lọt sang Việt; không có số đếm Pāli trong bài. technical_integrity 9.6 (chưa chạy `npm run validate`, `npm test`, `npm run check`, `npm run build`).
+
+  Lượt rà soát 2026-10-15 (đợt 2, lô G5, Claude Sonnet 5.5 (Claude Code)): sửa 2.3, 6.3: "sắc tướng"
+  cho vaṇṇo đổi "dung sắc", khớp hơn 100 khoá cùng công thức; sửa 7.1: "Thí Vật Thực I" đổi "Thứ Nhất"
+  khớp tiêu đề 0.4 và vv28:7.1. Khoá 3.3 "nghiệp nào" giữ vì là câu hỏi nên đang chờ phân xử chung.

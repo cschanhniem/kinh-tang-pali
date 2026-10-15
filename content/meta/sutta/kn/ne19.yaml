@@ -5,6 +5,7 @@ translators:
   - "Claude Sonnet 5.5 (Claude Code)"
 reviewers:
   - Claude Sonnet 5.5 (Claude Code)
+  - Claude Opus 5.5 (Claude Code)
 tags:
   - "kn"
   - "khuddaka-nikaya"
@@ -36,10 +37,10 @@ quality:
       vắng ⇒ dịch chỉ từ Pāli root, đối chiếu thuật ngữ với các bài Netti và
       Pháp Cú/Trường Bộ/Tương Ưng Bộ đã dịch trong tầng dự án; đây là giới hạn
       upstream, không phải lỗi của người dịch."
-  assessed_at: 2026-10-14
+  assessed_at: 2026-10-15
   assessed_by:
-    - Claude Sonnet 5.5 (Claude Code)
-  assessment_id: 7a036acc-2223-4c3c-b2eb-5d0f53a7e4a9
+    - Claude Opus 5.5 (Claude Code)
+  assessment_id: 9ed7d9c7-06a3-4fc5-b563-1ccdb4d542a4
   waiver:
     id: no-upstream-english
     blockers:
@@ -74,3 +75,11 @@ notes: |-
   Không đổi dù nghi ngờ: `:7.11` `hirī` "sự hổ thẹn" (Pāli có thật, nghĩa không phân xử được); `:6.9` "sáu nội xứ và ngoại xứ" (có thể đọc 6 hoặc 12, Pāli `cha ajjhattikabāhirāni` không phân xử); `:2.2` "Như trong nhóm quy căn hướng dẫn" (định sở cách có thể là nơi chốn hoặc đích đến, không có căn cứ chọn); `:8.13` "Cứ như thế với tất cả"; `:14.6` "phần phân tích các hướng dẫn". Các bất định (1)–(11) ở trên vẫn còn, nên `semantic_fidelity`, `ambiguity_integrity`, `triangulation` (không có bản Anh độc lập) và các điểm khác không đổi; blocker `noEnglishEditionUpstream` giữ nguyên.
 
   **Đối chiếu bản dịch mù độc lập 2026-10-14.** Một dịch giả khác (cùng họ công cụ) dịch lại bài từ Pāli, không xem bản dự án; so 23 khoá chênh lệch lớn nhất → khác nghĩa 0 chỗ, 1 chỗ bất định: sửa 0, giữ 22, bất định 1. Giữ 22: chênh lệch đều là cách chọn thuật ngữ, cùng nghĩa: `padaṭṭhāna` *nền tảng ứng với* so với bản mù *cận nhân* (`3.1`, `5.1`, `5.4`, `5.10`, `6.1`, `6.5`, `6.8`, `6.11`, `6.14`, `6.16`, `2.2`, `2.3`), giữ theo tầng Netti, nơi các bài `ne1`–`ne37` có 96 lần *nền tảng ứng với*, 24 lần *nền tảng*, 0 lần *cận nhân*; `samāropana`/`hāra` *nhóm gom góp hướng dẫn* so với *phương thức gom nhập* (`0.4`, `1.1`, `14.4`, `14.5`), theo cùng khuôn *nhóm … hướng dẫn* của `ne10`–`ne12`; `vevacana` *ngữ đồng nghĩa* so với *đồng nghĩa*; `indriya` *căn* so với *quyền* (`8.6`, `8.9`); `0.2` *Phần Giải Thích* so với *Phần Trình bày Lại*. Bất định 1: `7.11` `hirī` (*sự hổ thẹn*, bản mù *tàm* kèm ⟦?⟧): Pāli có thật nhưng lạ ở một danh sách đồng nghĩa của tuệ, giữ nghĩa từ vựng. Các bất định (1)–(11) ở trên (như `6.9`, `2.2`) vẫn còn nguyên. Đọc đối kháng lại 81 cặp Pāli↔Việt, không thấy lỗi số, phủ định hay danh sách mới. Không có bản Anh hay bản Việt độc lập khác; đối chiếu chỉ bằng Pāli, ngữ cảnh bài và tiền lệ trong tầng dự án.
+
+  Lượt rà soát 2026-10-15 (Claude Opus 5.5, đọc đối kháng Pāli↔Việt; đoạn song song iti65:2.3,
+  dn33:1.10.11, an3.17:2.3, ne35:4.1, dhp183): sửa 0 khoá; đọc lại 81 cặp, kiểm bốn vế `9.2`–`12.1` (4
+  vipallāsa, 4 āhāra, 4 upādāna, 4 yoga, 4 gantha, 4 āsava, 4 ogha, 4 salla, 4 viññāṇaṭṭhiti, 4 agati)
+  đủ và đúng thứ tự theo từng niệm xứ. Giữ `padaṭṭhāna` trơn *nền tảng* ở lời chốt `idaṁ padaṭṭhānaṁ`
+  (quyết định đã ghi, theo ne7:4.3). Ghi nhận: `9.2`–`12.1` *không còn chấp thủ đối với dục thủ* là
+  cách nói lặp cho `kāmupādānena anupādāno` (nghĩa: không còn dục thủ), giữ vì nghĩa không sai. Bất
+  định còn: `7.11` `hirī`, `6.9`, `2.2`.

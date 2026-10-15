@@ -1,10 +1,11 @@
 uid: tha-ap542
-status: review
+status: published
 translationTitle: "Ký Sự Về Trưởng Lão Mogharāja"
 translators:
   - "Claude Sonnet 5.5 (Claude Code)"
 reviewers:
   - Claude Sonnet 5.5 (Claude Code)
+  - Claude Opus 5.5 (Claude Code)
 tags:
   - "kn"
   - "khuddaka-nikaya"
@@ -14,7 +15,7 @@ tags:
 quality:
   scores:
     source_provenance: 9.5
-    semantic_fidelity: 8.7
+    semantic_fidelity: 8.8
     grammar_logic: 8.8
     segment_alignment: 9.8
     terminology: 8.8
@@ -23,7 +24,7 @@ quality:
     han_viet_balance: 9.3
     ambiguity_integrity: 8.3
     technical_integrity: 9.6
-  final_score: 8.999999999999998
+  final_score: 9.01
   blocking_errors:
     - "Không có tầng tham khảo tiếng Anh tại commit đã ghim: thư mục
       `translation/en/sujato/sutta/kn/` chỉ có chín nhóm (cp, dhp, iti, ja, kp,
@@ -40,10 +41,10 @@ quality:
       và các bài tha-ap khác. Đây là giới hạn của upstream, không phải lỗi của
       người dịch; `triangulation` vì thế bị chặn ở 7.5 (không quá 8.0) và bài
       giữ `draft`."
-  assessed_at: 2026-10-14
+  assessed_at: 2026-10-15
   assessed_by:
     - Claude Sonnet 5.5 (Claude Code)
-  assessment_id: 60659879-c3d3-48ec-92f4-1c46218e3bfe
+  assessment_id: 92e6df17-3007-43dc-94ff-865624bb9012
   waiver:
     id: no-upstream-english
     blockers:
@@ -74,3 +75,21 @@ notes: |-
   Lượt cải thiện 2026-10-13: đọc đối kháng lại đủ 156 cặp Pāli với Việt, đo tiền lệ trên toàn tầng, đổi 7 khoá trên 156 (10.3, 13.3, 17.4, 24.4, 29.1, 32.1, 32.2), giữ nguyên tập khoá và thứ tự; các mục (17) và (20) ở trên về 24.4 và 32.1 đến 32.2 được thay bằng chữ dưới đây. (a) 10.3: Lūkhacīvaradhāraggaṁ là danh từ trung tính, đối cách, đồng vị với ṭhānamuttamaṁ ở 10.4 (vị trí tối thượng); bản cũ viết Vị tối thắng trong những vị mang y thô, đọc như chỉ một người, nay là Sự tối thắng trong những vị mang y thô (semantic_fidelity 8.6 sang 8.7, grammar_logic 8.6 sang 8.8). (b) 13.3: Lūkhacīvaradhārissa ở sở hữu cách, cùng cách với bhikkhuno ở 13.2 và tassa ở 13.4, còn người ước nguyện (eso, 13.1) ở chủ cách; bản cũ viết người mang y thô, dễ bị đọc thành tả người ước nguyện, nay là vị mang y thô, đọc theo Saccasena (grammar_logic). Cách ghép 13.3 với 13.4 (tassa vaṇṇasitāsayo, tassa là của vị mang y thô ấy hay của vị Saccasena) và nghĩa của vaṇṇasita vẫn chưa phân xử được, giữ như bất định (2). (c) 24.3 và 24.4: apucchiṁ có hai tân ngữ (câu hỏi ở 24.3, người được hỏi là taṁ vīraṁ ở 24.4); bản cũ để vị Anh Hùng ấy đứng như đồng vị của câu hỏi, nay là với vị Anh Hùng ấy; đồng thời vādisūdana đổi từ nhà luận thuyết (1 khoá, chỉ ở đây) sang nhà tranh luận theo tiền lệ cùng gốc (tha-ap546:10.4, 17.3 và 19.4, 3 khoá vādisūda-, và tha-ap546:14.1 vādimaddana, cùng dịch nhà tranh luận) (grammar_logic, terminology 8.7 sang 8.8). (d) 17.4: dấu ấn (hiếm gặp, hàm ý di sản hay ấn tượng) đổi dấu hiệu theo thag5.2:1.4 (lakkhaṇa dịch dấu hiệu); 63 khoá có lakkhaṇa trong các bài kệ Tiểu Bộ dịch tướng (đếm thô), phần lớn là ba mươi hai tướng của Đức Phật nên không dùng ở đây; lakkhaṇa ở 17.4 là dấu hiệu gì (bệnh hay một tướng khác) vẫn không rõ, không thêm chữ bệnh. (e) 29.1: Saha gāthāvasānena viết Cùng với lúc dứt bài kệ (gượng) nay Cùng lúc bài kệ kết thúc, không đổi nghĩa (vietnamese_clarity 8.8 sang 8.9). (f) 32.1 và 32.2: tasmiṁ me guṇe bị chẻ giữa hai khoá, bản cũ viết đối với điều ấy nơi ta rồi hài lòng với phẩm hạnh (điều ấy lặp với phẩm hạnh); nay đối với ta rồi hài lòng về phẩm hạnh ấy, ăn khớp với 10.1 (Hài lòng về phẩm hạnh ấy). Không đổi gì ở các tiêu chí source_provenance, segment_alignment, han_viet_balance, triangulation (7.5, không có bản Anh độc lập), ambiguity_integrity (8.3, các bất định ở mục trên còn nguyên) và technical_integrity (9.6, chưa chạy lại bốn lệnh của kho). Đo lại sau khi sửa: 156 khoá khớp Pāli, nháy kép và nháy đơn khớp Pāli từng khoá (0 lệch trên 156), dấu lược …pe… giữ một …, NFC sạch, 9 cặp Pāli trùng trong chính bài, 1 cặp Việt khác có chủ ý (26.4 và 28.2, câu hỏi và câu trả lời), không có chữ Pāli ngoài tên riêng. Đọc nhưng không đổi dù còn nghi: nhà nghỉ ở 8.1 và 16.1 (paṭikkamanasālā, 0 tiền lệ, và nhà nghỉ trong tiếng Việt hiện đại gợi nhà trọ; chưa có căn cứ để thay chữ khác), nghĩa năm trăm lần sinh ở 17.2 và 18.1 là cùng một chuỗi hay hai chuỗi (eva ở 18.1 có thể là chính những lần ấy; Cũng trong năm trăm lần sinh giữ được cả hai cách hiểu, chưa phân xử được), sālapiṇḍita ở 12.4 (0 khoá khác trong toàn Pāli), samasahassaṁ ở 16.3 (0 khoá khác), saccasena ở 13.2.
 
   Đối chiếu độc lập 2026-10-14: với bản Việt nguyên bài của Bhikkhu Indacanda (dòng đầu tệp ghi tác giả; dịch 2008). 6 khoá bất đồng nghĩa → sửa 0, giữ 4 (8.4 `daḷhaṁ kaṇhāsi`: bản nguyên bài đen và cứng, bản này đen sạm hẳn vì `daḷhaṁ` là trạng từ chỉ mức độ; 19.2 `upariṭṭhaṁ yasassinaṁ`: bản nguyên bài hiểu là tính từ có danh vọng tối cao, bản này tên riêng Upariṭṭha theo `thag16.9`; 25.3 `diṭṭhiṁ no nābhijānāmi`: bản nguyên bài cho các thế giới là chủ ngữ không biết rõ quan điểm, nhưng `nābhijānāmi` là ngôi thứ nhất số ít nên người nói (Mogharāja) là chủ ngữ, khớp `snp5.16`; 26.3 `lokaṁ avekkhantaṁ`: bản nguyên bài diễn thành suy xét về thân này, Pāli là `loka` thế gian), bất định 2 (12.4 `acalaṁ sālapiṇḍitaṁ`: bản nguyên bài nhúm bông sālā, bản này khối cây sāla, `sālapiṇḍita` không có chỗ nào khác trong toàn Pāli; 13.2 `saccasenassa bhikkhuno`: bản nguyên bài có đạo binh về sự chân thật, bản này tên riêng Saccasena, chưa phân xử). Các số (58 ratana, 100.000 kiếp, một ngàn năm, năm trăm lần sinh, ba trăm cộng 62 bài kệ) hai bản cùng. Lượt review đối kháng riêng đọc lại 156 cặp: không đổi khoá nào. Bản nguyên bài không phân đoạn nên đối chiếu ở mức đoạn, không phải mức khoá; không có bản Anh. Điểm triangulation 7.5 → 8.3, các tiêu chí khác giữ nguyên.
+
+  Lượt rà soát 2026-10-15 (Claude Opus 5.5, đọc đối kháng Pāli↔Việt 156 khoá, đối chiếu bản nguyên bài
+  Bhikkhu Indacanda; không có đoạn song song published): sửa 0 khoá, không tìm thấy lỗi nghĩa mới. Đã
+  đọc lại các khoá dễ sai chủ thể và ngữ pháp: 3.3 đến 3.4, 4.1 đến 4.4 (chủ ngữ là cõi hoặc giáo hội
+  của Đức Padumuttara), 7.1 `ahuṁ`, 12.3 đến 13.4, 16.1 đến 16.4, 22.3 đến 22.4 (chơi chữ
+  `mogharājā`), 24.1 đến 24.4 (gerund `upecca`, hai tân ngữ của `apucchiṁ`), 25.3 `no` (chưa dịch, giữ
+  như đã ghi; snp5.16 viết `te`, nhưng không sửa chữ ghim, chỉ đề xuất người biên tập xét `no`), 29.4
+  `tathārahā`, 30.3 đến 30.4 `vātarogehi` ("phong hàn" theo thag5.8 và thag6.11; nghĩa "hàn" không có
+  trong Pāli, đề xuất người biên tập cân nhắc "bệnh phong" hay "bệnh do gió" cho cả cụm), 33.4
+  `nibbāyissaṁ` tương lai. Giữ các chỗ khác với bản nguyên bài như ghi 2026-10-14 (8.4, 19.2, 25.3,
+  26.3). Bất định giữ nguyên: 12.4 `sālapiṇḍitaṁ`, 13.2 và 13.4 `saccasenassa` / `vaṇṇasitāsayo`, 16.3
+  `samasahassaṁ`, 17.4 `lakkhaṇaṅkito`. Tiêu đề "Ký Sự" và xưng hô ta/tôi thuộc quyết định chung chờ
+  người biên tập, không sửa lẻ. Không đổi điểm.
+
+  Rà soát lỗi lặp 2026-10-15 (đợt 2, đối chiếu Pāli đã ghim; không có bản Anh hay Việt độc lập cho
+  tầng này): sửa 30.4 `vātarogehi` đổi "bệnh phong hàn" thành "bệnh gió", vì Pāli chỉ có `vāta` (gió),
+  không có yếu tố "hàn" (lạnh); "bệnh phong" thường được hiểu là bệnh cùi nên tránh. Cùng chữ "phong
+  hàn" còn ở thag5.8:1.1 và thag6.11:1.1, chưa sửa ở đó. Các khoá khác của bài không đổi.
