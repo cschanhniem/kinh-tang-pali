@@ -981,6 +981,18 @@ Fresh production readback on `2026-10-15T00:53:42Z` confirms MN90–MN94 pages r
 ### Batch mn-043 merge and production readback — PR #677
 
 - Exact PR head `b70fe9c33654d874255a22964040317083ae4905`; push CI `38736423989` and PR CI `38736464213` passed. Squash merge `dde2d42668c9e9600508b9de29956f78dbc555e2` at `2026-10-15T13:08:33Z`.
-- Direct main CI/Pages runs `38740210465` and `38740210581` were canceled by higher-priority pushes. Descendant Pages deployment `38743308692` succeeded on `855c20feee4ca1c7fe17fbddbf852626c18fde19`, which contains the merge; descendant main CI `38743309088` was canceled.
+- Direct main CI `38740210465` was canceled by a higher-priority push. Direct Pages deployment `38740210581` succeeded on the merge commit. A later descendant Pages deployment `38743308692` also succeeded on `855c20feee4ca1c7fe17fbddbf852626c18fde19`, which contains the merge; descendant main CI `38743309088` was canceled.
 - Production readback at `2026-10-15T13:56:54Z`: each MN110–MN114 page returned HTTP 200 with one matching player URL and “Chờ nghe duyệt”; each R2 range returned 206 `audio/mpeg`, 1,024 bytes, with total size equal to metadata.
 - This verifies deployed markup and ranged delivery, not interactive playback or content listening. `review_status` remains pending.
+
+### Batch mn-044 — MN115–MN119 generated and uploaded to R2
+
+| UID | Source SHA-256 | MP3 SHA-256 | Bytes | Duration | Scripture starts | Chunks | Audio |
+|---|---|---|---:|---:|---:|---:|---|
+| MN115 | `e50680e1af30a1b04fce5f8144ddc4a2f78b18f3ffc63f148e9fca6be904ecca` | `e40c2499180db994523ee433f13ed613a67d006f31f85c0f81b5df7666368a60` | 20,844,480 | 1042.17 s | 167.79 s | 12 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/mn/mn115/e40c2499180db994.mp3) |
+| MN116 | `d1a5dcd9f5b57619b37dc8d97dbb49a4bf46651faf3d5e4173b20d6adfe59fd7` | `27f5fed72bcc61240e6964a42111c8f453776bd4a6a3d83112d46dd5e049001a` | 11,091,840 | 554.54 s | 135.51 s | 7 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/mn/mn116/27f5fed72bcc6124.mp3) |
+| MN117 | `dd112ee56b033dea1abd9d66b99485f18f42a5f9086ef0489ad0bbfbf1dc7800` | `60a6c61c0e076ac6bcd54250a2d3ce44128d41880a975cf52e0ec8118f42808f` | 21,646,080 | 1082.25 s | 158.83 s | 12 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/mn/mn117/60a6c61c0e076ac6.mp3) |
+| MN118 | `723bd6a750fa78d48f13089b4ca0eff18a81fc2d3fa5b31592cc1ad2918b3e1b` | `84fd608044cb59b4ea817e71132ed3932924f0742cbe3c08a77e9cf19dfde755` | 29,310,240 | 1465.46 s | 167.03 s | 15 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/mn/mn118/84fd608044cb59b4.mp3) |
+| MN119 | `8d8376f7c3c63f421719a19d35e20d5d6644a80d561e30c1dc9e2f5257c0e61a` | `a891a880205343f53dfa29952c5dd0044432f5c427cd6994d919a719de50869b` | 36,840,000 | 1841.94 s | 163.11 s | 17 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/mn/mn119/a891a880205343f5.mp3) |
+
+- Total audio duration: 5986.36 seconds / 119,732,640 bytes. All five use the pinned `vi-charon-mn1-v1` profile (`a384c5852585077c32e1348a6ada5cfc70a69c989ad705b8b5129fef3e1c9a71`), summary first then canonical Vietnamese 2026. Source/profile pins, sequential chunk plan, MP3 hash/frame/byte checks and public R2 object/range verification passed. ASR and interactive browser playback were skipped; all five remain `generated` with `review_status: pending`. MP3/WAV/cache files remain outside Git.
