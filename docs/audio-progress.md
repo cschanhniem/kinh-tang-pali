@@ -965,3 +965,22 @@ Fresh production readback on `2026-10-15T00:53:42Z` confirms MN90–MN94 pages r
 - Direct CI and Pages runs on the merge SHA (`38720837935`, `38720837805`) were canceled by higher-priority requests. Main CI on descendant `dbe86623e558035c15797fd05a6c6479c0410766` (`38721717405`) was also canceled; Pages deployment `38721717190` succeeded on that descendant, which contains the merge.
 - Production readback at `2026-10-15T11:11:09Z`: MN105–MN109 pages each returned HTTP 200 with exactly one player and matching R2 audio URL, plus the “Chờ nghe duyệt” label. Each R2 range returned 206 `audio/mpeg`, 1,024 bytes, and total object size matched metadata.
 - No interactive browser playback or full listening is claimed; ASR was skipped. All five remain `generated` and `review_status: pending`.
+
+### Batch mn-043 — MN110–MN114 generated and uploaded to R2
+
+| UID | Source SHA-256 | MP3 SHA-256 | Bytes | Duration | Scripture starts | Chunks | Audio |
+|---|---|---|---:|---:|---:|---:|---|
+| MN110 | `354ae6de9b5d49cfb3ed92981229e9abdbe9d38fb52b3ece3bdac5f7533c73da` | `c4253185b8205364b0f2d824ffe8359e44d6334ba50076615e0ffeb543456ac0` | 16,025,280 | 801.20 s | 157.35 s | 9 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/mn/mn110/c4253185b8205364.mp3) |
+| MN111 | `f5563acb31a66b5e6cdfafde30a819019665565453306462de084d8bd493ded9` | `99919d00789be58f77c6db08971631ea5ca13ef6fca01e962982fd66158477d3` | 17,823,360 | 891.12 s | 156.63 s | 9 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/mn/mn111/99919d00789be58f.mp3) |
+| MN112 | `7bea01a4146293b54b6ddc57bb488132589fa0876c8b66653dac2c61ae10f904` | `1b7f14df8fcf38ab7f7fee84068418507677702f2ab0fe0dd399160739523a03` | 26,182,560 | 1309.07 s | 162.35 s | 14 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/mn/mn112/1b7f14df8fcf38ab.mp3) |
+| MN113 | `ae5e12797f22184308bb6a4d8b11bf8dc3610894b2c6837a0a927e773e24bb73` | `fb257a0b489d990c5cb17fd85a305bcf11a2cdd21134a7eae41098b0ef818cbb` | 27,408,000 | 1370.34 s | 158.27 s | 15 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/mn/mn113/fb257a0b489d990c.mp3) |
+| MN114 | `c48639eb2fa56233cd45e87462f7a00ad7137012af236a118e65a08e0dc99abc` | `42adf3088c1675fc95d0e8868c6ba43ec98520dcd46f8561397eff60dfe14758` | 46,604,160 | 2330.15 s | 176.07 s | 26 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/mn/mn114/42adf3088c1675fc.mp3) |
+
+- Total audio duration: 6701.88 seconds / 134,043,360 bytes. All five use pinned profile `vi-charon-mn1-v1` (`a384c5852585077c32e1348a6ada5cfc70a69c989ad705b8b5129fef3e1c9a71`), summary first and canonical Vietnamese 2026 second. Source/profile, chunk ordering, MP3 frame/hash/bytes and public R2 object/range checks passed. ASR was skipped. Interactive browser playback and full listening remain unverified; all five remain `generated` with `review_status: pending`.
+
+### Batch mn-043 merge and production readback — PR #677
+
+- Exact PR head `b70fe9c33654d874255a22964040317083ae4905`; push CI `38736423989` and PR CI `38736464213` passed. Squash merge `dde2d42668c9e9600508b9de29956f78dbc555e2` at `2026-10-15T13:08:33Z`.
+- Direct main CI/Pages runs `38740210465` and `38740210581` were canceled by higher-priority pushes. Descendant Pages deployment `38743308692` succeeded on `855c20feee4ca1c7fe17fbddbf852626c18fde19`, which contains the merge; descendant main CI `38743309088` was canceled.
+- Production readback at `2026-10-15T13:56:54Z`: each MN110–MN114 page returned HTTP 200 with one matching player URL and “Chờ nghe duyệt”; each R2 range returned 206 `audio/mpeg`, 1,024 bytes, with total size equal to metadata.
+- This verifies deployed markup and ranged delivery, not interactive playback or content listening. `review_status` remains pending.
