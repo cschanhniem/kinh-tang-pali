@@ -83,3 +83,68 @@ DPD và chính nguồn chú giải được dẫn, rồi chấm delta theo mục
 - Sau thi hành và một lượt rà lỗi còn sót (mỗi bài đọc hết mọi khoá, mỗi sửa có kiểm độc lập), 8 bài review còn lại nằm ở 8,94–9,00. Phần trừ chung là `triangulation` 8,4–8,7, vì không có bản Anh hay bản Việt độc lập để đối chiếu. Mục 2 không cho tăng tiêu chí này khi không có bản dịch độc lập mới. Không còn lỗi nghĩa nào đã biết mà chưa sửa.
 - 12 bài draft: ở 4 bài tha-ap, blocker là chữ ghim mà chú giải không giải; muốn gỡ thì phải dịch theo dị bản BJT, tức là đổi chính sách D. Ở 8 bài pe, Pāli hỏng nhiều chỗ và điểm thấp (mục 1).
 - Ghi để người biên tập xét, chưa làm: `gāmaṇīyehi` ở `ja529`, `ja539` dịch «đội trưởng» (khớp DPD «squadron leader», khác lời giải «ācariya» của chú giải); `cnd19:7.2` còn chuỗi danh hiệu cũ; `mnd8:77.11` «tám ngành», `78.15` «bốn điều không run sợ» (mỗi chữ chỉ xuất hiện một lần trong bài, khác đa số cnd/mnd).
+
+## 5. Quyết định bổ sung (uỷ quyền lần hai, 2026-10-17)
+
+Người biên tập uỷ quyền tiếp: «can you make decisions for me and finish the job?». Hai việc mục 1
+và mục 4 để lại cho người biên tập được quyết như sau.
+
+### 5.1 Dị bản khi Pāli ghim hỏng (thay mục D của hội đồng và mục 1 ở trên, trong phạm vi hẹp)
+
+Pāli ghim **vẫn là authority**; tệp root không đổi; lock và layers không đổi. Ngoại lệ có tên:
+một khoá được dịch theo dị bản khi **đủ cả ba** điều kiện:
+
+1. Chữ ghim **hỏng có chứng minh**: không đọc ra được về ngữ pháp hay từ vựng (hapax không có
+   lời giải), **hoặc** trái với câu kệ do chính chú giải của văn bản đó trích dẫn và trái mạch văn.
+2. Cách đọc thay thế được **ít nhất một ấn bản có tên** ghi nhận: ưu tiên lớp `variant/pli/ms`
+   của bilara-data **tại đúng commit đã ghim** (`11c9d708…`, có ký hiệu `bj`, `si`, `sya1ed`,
+   `pts-vp-pli1`…); hoặc ấn bản in có trang (Fausbøll, Pāli Thái…).
+3. Cách đọc đó **đọc ra được** (DPD/ngữ pháp) và được ít nhất một nguồn giải nghĩa độc lập ủng
+   hộ (chú giải, câu song song, bản dịch có tên).
+
+Khi đủ: dịch theo dị bản; chú thích người đọc ở đúng khoá nêu chữ ghim, dị bản, ký hiệu ấn bản
+và nguồn; chỗ ấy không còn là blocker «chưa phân xử». Thiếu một điều kiện: giữ như cũ.
+Peṭakopadesa không thuộc đợt này (xem 5.3).
+
+### 5.2 Đối chiếu nguồn (`triangulation`)
+
+**Không đổi** cách chấm. Đo trên kho: 1.987 bài đã published không có bản Anh có `triangulation`
+trung bình 8,04; 8 bài review còn lại ở 8,4–8,7, tức đã cao hơn mức chung. Tiêu chí kìm các bài
+này là `vietnamese_clarity` (8,3–8,6) và `terminology` (8,4–8,8), đúng như người chấm đã phê.
+Vì vậy việc tiếp theo là một lượt sửa văn phong tiếng Việt theo đúng các chỗ người chấm phê (giữ
+đủ từng chữ của chuỗi đồng nghĩa Niddesa), có người kiểm độc lập; điểm chỉ đổi theo delta ở
+`vietnamese_clarity`/`terminology`/`han_viet_balance` khi người kiểm xác nhận cải thiện thật.
+
+### 5.3 Peṭakopadesa
+
+`pe1`–`pe6`, `pe8`, `pe9` (8,24–8,77) **giữ draft**. Mỗi bài có 6–60 chỗ Pāli hỏng; kể cả gỡ hết
+bằng 5.1 thì `semantic_fidelity`, `grammar_logic` (6,8–8,1) và `vietnamese_clarity` (6,5–8,2) vẫn
+cần tăng vài điểm mỗi tiêu chí, việc chỉ làm được bằng một bản dịch lại toàn bộ có đối chiếu một
+bản dịch độc lập (Ñāṇamoli, *The Piṭaka-Disclosure*, PTS 1964 — chưa có quyền dùng). Không làm
+trong đợt này.
+
+### 5.4 Kết quả thi hành §5.1–§5.2 (2026-10-17)
+
+Mỗi sửa có một người kiểm độc lập tự mở lại nguồn (lớp variant tại commit ghim, DPD, PED,
+chú giải CST, Walters qua SuttaCentral, Indacanda trong `sc-data` đã ghim). Bảng §4 ở trên là
+trạng thái trước §5; bảng này thay nó cho các bài dưới đây.
+
+| Bài | Đã làm | Điểm | Trạng thái |
+| --- | --- | --- | --- |
+| `tha-ap3` | 223.2 theo `purisuttamagāravā` (si, sya, pts); 223.1 `phussa` «tốt lành» theo chữ ghim (DPD) | 9,04 → 9,06 | **published** |
+| `tha-ap345` | 1.3 theo bj `tassopadhikkhaye` | 9,12 → 9,13 | **published** |
+| `tha-ap548` | 4.2 giữ câu chữ, căn cứ là bj `anantajanasaṁsadi` (PED *saṃsad*) | 9,12 → 9,13 | **published** |
+| `tha-ap114` | 8.2 không đủ §5.1 (không có dị bản; chữ ghim đọc được, chỉ mơ hồ 11/18) | 9,21 (giữ) | draft |
+| `ja110` | 1.3 theo `bhāsati` (Fausbøll, Pāli Thái, câu kệ do chú giải trích) | 8,94 → 8,97 | review |
+| `mnd13` | đồng bộ 21 dòng kệ với snp4.13 theo lời giải (101 khoá) | 8,96 → 8,97 | review |
+| `mnd8` | văn phong 78.x, 19.6, 25.6 | 8,99 → 9,00 | review (đúng 9,0) |
+| `ja526` | văn phong 41.2, 29.2 | 8,97 → 8,98 | review |
+| `mnd2` | văn phong `vipphandati` | 8,99 (giữ) | review |
+| `mnd14`, `mnd16` | văn phong lẻ bị người kiểm phán lệch, đã hoàn nguyên | giữ | review |
+| `mnd3` | 0 khoá đổi (mọi lời phê nằm ở kệ/công thức chung) | 9,00 (giữ) | review |
+
+**Còn lại sau đợt này:** 8 review (8,93–9,00) và 9 draft (`pe1`–`pe6`, `pe8`, `pe9`,
+`tha-ap114`). Những gì còn có thể nâng các bài review đều là việc **cấp kho**, không phải sửa lẻ:
+thống nhất công thức Niddesa dùng chung với bài đã published (ví dụ «mạng sống là một, thân thể
+là một khác», «đối với người nào những vị…»), họ động từ *sam-* theo B19 kể cả `snp4.14`, và các
+dòng kệ mà lời giải Niddesa trái bản Snp đã published (`kamma`, `vivāda`, `jappa`… ở snp4.13).
