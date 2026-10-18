@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn1",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "f001c9dc-e14a-4c4e-9f0f-92d44404f89f"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "7b696c64-cbfe-4cd9-86ae-a0bf2c329bf6"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "306aaf1c-1a10-459a-b060-edaefde6b376"
+    }
+  },
+  "reviews": [
+    {
+      "id": "f001c9dc-e14a-4c4e-9f0f-92d44404f89f",
+      "audience": "children",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.3,
+        "core_coverage": 9.5,
+        "logic_context": 9.4,
+        "terminology": 9.2,
+        "audience_fit": 9,
+        "clarity": 9,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.4,
+        "technical_integrity": 9.3
+      },
+      "rationale": {
+        "source_fidelity": "Đã đối chiếu đủ 334 khóa Pāli với Việt dự án và Sujato, đọc trọn HTML Thích Minh Châu, hai tệp chú thích và biên bản thuật ngữ. Đã sửa đúng một câu bối cảnh: bỏ gần và tư thế ngồi không được mn1:1.2 nêu. Các phần khác giữ chủ thể và nguồn đúng; không nhận chín ô Anh trống hoặc 22 công thức Anh rút gọn là đối chiếu độc lập đầy đủ.",
+        "semantic_fidelity": "Giữ nhận biết khác trực tiếp biết và hiểu thấu; nhận ra đất đúng chưa hết quan niệm. Đủ bốn quan hệ maññati và ham thích; mô hình chỉ soi một mặt. Niết-bàn không bị xóa hay coi là điều xấu; nandī được đặt trong ái, và mục tiêu chấm dứt ràng buộc sinh tử vẫn rõ. Cách diễn giải tự quy chiếu là một lựa chọn có chú thích, không giải quyết dứt điểm mọi cấu trúc Pāli.",
+        "core_coverage": "Mỗi một trong 19 đơn vị nghĩa được trình bày bởi phần teaching hoặc clarification; có đủ 24 đối tượng, tám cách trình bày, bốn lý do A-la-hán, hai lý do Như Lai, phủ định ở kết thúc và chức năng nhãn của ấn bản. Đọc gộp các lượt lặp vẫn nêu phạm vi trở lại toàn danh sách, không dùng ví dụ thay phần khó.",
+        "logic_context": "Phần hữu học giữ chưa đạt mục tiêu và không nên; A-la-hán giữ không như trạng thái đã hoàn tất. Bốn phần A-la-hán không bị biến thành bốn mức còn ô nhiễm. Giữ do hữu có sinh rồi người đã sinh có già chết; không tự mở đủ mười hai chi và không bịa lý do các tỳ-kheo không hoan hỷ.",
+        "terminology": "Các từ khó như hữu học, tham/sân/si, ái và hữu được giải nghĩa tại chỗ; giữ cảm nhận rộng ở muta và ghi cách đọc khác. Các tên cõi vô sắc vẫn khó cho trẻ, được đặt trong phạm vi thiền định và cho phép đọc lại cùng người lớn, thay vì gán một nghĩa dễ nhưng sai.",
+        "audience_fit": "Mô hình bị góp ý, chiếc cặp, bạn bè và câu hỏi ngắn tạo lối vào cụ thể; phần thực hành tôn trọng quyền nhờ giúp và giữ đồ của trẻ. Lời mời chia bài để đọc cùng người lớn phù hợp độ khó còn lại. Không có bằng chứng từ thử hiểu với trẻ, nên đây là nhận định biên tập chứ chưa phải kiểm chứng trải nghiệm độc giả.",
+        "clarity": "Các đoạn theo mạch đối tượng rồi tình trạng tu học, có một tình huống trở lại ở cuối và chú thích khó nằm sau. Người đọc được nhắc rõ phần nào là lặp. Danh sách 24 mục và các quan hệ trong/từ vẫn đòi đọc chậm; không chấm cao hơn chỉ vì câu ngắn và có ví dụ.",
+        "editorial_separation": "Mở đầu nhận diện chuyện và việc thử là do người biên soạn; mô hình không được kể như sự kiện thời Phật. Phần cuối phân biệt giải thích trong/từ với nghĩa chưa được giải mã hết; tên trời không được nâng thành chứng cứ về đấng sáng tạo. Không tìm thấy trích dẫn giả hoặc lời động cơ bị gán cho nguồn.",
+        "practical_integrity": "Bài tập dừng và kiểm lời góp ý có giới hạn rõ, không yêu cầu trẻ phục tùng, nhường hết đồ hoặc báo cáo mọi ý nghĩ. Không biến thấy phản ứng thành đạt hữu học/A-la-hán, không cấm niềm vui hay dùng sinh tử để dọa. Các bảo vệ này gắn trực tiếp với ví dụ và chủ đề, không thay mục tiêu giải thoát.",
+        "technical_integrity": "auditExplanations(mn,mn1) sau sửa trả errors=[] và sourceErrors=[]; 334 khóa nguồn nằm trong bản đồ, mọi tham chiếu đơn vị hợp lệ, chuỗi NFC và tác giả registry được validator chấp nhận. Hash nội dung và bảy hash nguồn kèm đúng bản đã đọc. Chưa lấy kết quả này làm bằng chứng giao diện published hoặc CI đã thành công."
+      },
+      "blockingErrors": [],
+      "notes": "Đánh giá toàn bộ bản diễn giải của nhóm độc giả này sau lượt đối chiếu toàn bài. Agent kiểm khác agent soạn, nhưng cùng công cụ GPT-6 Astra Pro; đây không phải nguồn học thuật độc lập hay chuyên gia Pāli xác nhận. Chưa có thử hiểu với độc giả thật. Điểm kỹ thuật chỉ nói về bản ghi, nguồn và cấu trúc đã kiểm; chưa thay nghiệm thu giao diện nội dung published hoặc cổng build/CI của lô. Các phân tích lịch sử, Upaniṣad và song hành được chú thích Sujato dẫn không được kiểm riêng và không được nhập thành dữ kiện của phần diễn giải.",
+      "contentHash": "b363f5992d9fdd28e9a27641b35e4ec7b21289cd118990e827d593aa997f50e7",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn1.html",
+          "sha256": "1154af692653c8e273f73b77b885c941a82db510568e40abf64907eb705b819d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/comment/en/sujato/sutta/mn/mn1_comment-en-sujato.json",
+          "sha256": "a69e7f4c77ec2e441d49c0f183108630f75e4955f6a35d182c8336c084976d31"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn1_root-pli-ms.json",
+          "sha256": "bee49a5461f36eea8b0c3895a8cb5ff77353134b763898a8c9bf83248757f9ee"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn1_translation-en-sujato.json",
+          "sha256": "3190ebe594f0f47d973f3b1165f8c4987e9f09a2bf294d2673c96fc62bfc3824"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn1_comment-vi-project.json",
+          "sha256": "96f73110854ebd6c0b4d5d41b8519f38de85ea94e906a476d3d01770340019a2"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn1_translation-vi-project.json",
+          "sha256": "27ffe971a20809aa1f3832c0fb8f2f132f0c02f9e078dbb14684f5b89fa4edea"
+        },
+        {
+          "path": "docs/editorial-council-2026-10.md",
+          "sha256": "896cba5956371a3a3bac83bed396be59b5bbd768a7742028b58d271b3b144c66"
+        }
+      ]
+    },
+    {
+      "id": "7b696c64-cbfe-4cd9-86ae-a0bf2c329bf6",
+      "audience": "adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.4,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.2,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.4,
+        "technical_integrity": 9.3
+      },
+      "rationale": {
+        "source_fidelity": "Đọc toàn bộ Pāli, hai bản segmented, HTML Việt nguyên bài và các chú thích dùng cho MN1; các đoạn nguồn được kiểm qua bản đồ 334 khóa và hash hiện hành. Bản giữ nguồn Pāli khi HTML Việt khác ở mā/na và kết thúc; nhận diện muta và chuỗi trường cách là nơi có nhiều cách giải, không biến chú giải thành từ hiển ngôn của kinh.",
+        "semantic_fidelity": "Ví dụ phản biện công việc không thu bài thành quản trị cái tôi: đủ danh sách tới Niết-bàn, khác biệt nhận biết/trực tiếp biết/hiểu thấu, bốn kiểu quan niệm, tình trạng giải thoát và sinh tử. Lời nhắc mọi mong muốn tu học không đồng nhất với ái có căn cứ ngay ở hữu học đang hướng mục tiêu, nhưng không mở thành một lý thuyết ngoài bài.",
+        "core_coverage": "Đối chiếu từng đơn vị trong bản đồ: đủ bối cảnh, phàm phu, sáu nhóm đối tượng gồm 24 mục, hữu học, bốn phần A-la-hán, hai phần Như Lai, kết thúc và apparatus. Các phần lặp được gộp có nêu rõ áp dụng toàn danh sách; không mất phần về sinh tử hoặc Niết-bàn vì khó liên hệ công việc.",
+        "logic_context": "Modality không nên của người đang tu và không của bậc đã viên mãn được phân biệt trực tiếp. Bốn phần A-la-hán được giải là các lý do cùng trạng thái, không tiến cấp. Đoạn nandī nối với chấm dứt mọi ái; không đảo nhân quả thành Niết-bàn gây khổ hoặc nhập lý do cho kết thúc mà nguồn không kể.",
+        "terminology": "Giữ các động từ Pāli có chức năng phân biệt và giải nghĩa bằng tiếng Việt; không ép muta thành cảm xúc/xúc giác. Nhãn cõi/xứ vô sắc được giải trong phạm vi tu tập, tên Abhibhū không có căn cước bịa thêm. Trong/từ còn trừu tượng nhưng được giữ thận trọng thay vì tạo một bảng giải mã chắc chắn giả.",
+        "audience_fit": "Tình huống phương án bị phản biện và việc kiểm chứng trách nhiệm phù hợp đời sống trưởng thành. Bản giữ quyền phản bác điều bất công và mục tiêu giải thoát, không biến buông chấp thành mất năng lực phán đoán. Đánh giá theo đọc biên tập, chưa có thử hiểu độc lập với người trưởng thành.",
+        "clarity": "Phân đoạn theo chức năng của từng nhóm, rồi trở lại cuộc trao đổi công việc, giúp người đọc theo một bài lặp nhiều. Phần thuật ngữ và lịch sử đọc nằm cuối; các câu chính diễn được cơ chế mà không bê toàn bộ chú giải. Một số đoạn vẫn có giọng học thuật và nhiều danh từ trừu tượng, là hạn chế nhỏ còn được nêu rõ.",
+        "editorial_separation": "Phần giới thiệu gắn nhãn tình huống, trải nghiệm và việc thử là biên tập; source-notes phân biệt attā không hiển ngôn với cách đọc tự quy chiếu. Các quan niệm vũ trụ và động cơ người nghe không được thêm như sự kiện. Ví dụ không dùng dấu lời Phật cho một câu mới.",
+        "practical_integrity": "Bài tập tách lời thực sự được nói, suy luận về bản thân và nhiệm vụ cần kiểm chứng; không lấy buông giữ làm cớ bỏ trách nhiệm hay không bảo vệ người bị ảnh hưởng. Có giới hạn rõ giữa một lần tự quan sát và hiểu thấu của A-la-hán, giữa minh họa tâm lý và mạch tái sinh.",
+        "technical_integrity": "Kiểm trực tiếp loader trên đúng tệp: không lỗi schema, nguồn, Unicode, ID hoặc coverage; từng đơn vị được phần teaching/clarification xử lý, và hash của riêng adults được ghi. Các score đề xuất chưa ghi metadata và chưa tự mở nội dung ra UI; cổng build/CI và nghiệm thu published vẫn là việc riêng của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Đánh giá toàn bộ bản diễn giải của nhóm độc giả này sau lượt đối chiếu toàn bài. Agent kiểm khác agent soạn, nhưng cùng công cụ GPT-6 Astra Pro; đây không phải nguồn học thuật độc lập hay chuyên gia Pāli xác nhận. Chưa có thử hiểu với độc giả thật. Điểm kỹ thuật chỉ nói về bản ghi, nguồn và cấu trúc đã kiểm; chưa thay nghiệm thu giao diện nội dung published hoặc cổng build/CI của lô. Các phân tích lịch sử, Upaniṣad và song hành được chú thích Sujato dẫn không được kiểm riêng và không được nhập thành dữ kiện của phần diễn giải.",
+      "contentHash": "3eefebd08e914d542a3508f95e8fcfce0af587adad4feea095e1c38a304d9f4e",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn1.html",
+          "sha256": "1154af692653c8e273f73b77b885c941a82db510568e40abf64907eb705b819d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/comment/en/sujato/sutta/mn/mn1_comment-en-sujato.json",
+          "sha256": "a69e7f4c77ec2e441d49c0f183108630f75e4955f6a35d182c8336c084976d31"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn1_root-pli-ms.json",
+          "sha256": "bee49a5461f36eea8b0c3895a8cb5ff77353134b763898a8c9bf83248757f9ee"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn1_translation-en-sujato.json",
+          "sha256": "3190ebe594f0f47d973f3b1165f8c4987e9f09a2bf294d2673c96fc62bfc3824"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn1_comment-vi-project.json",
+          "sha256": "96f73110854ebd6c0b4d5d41b8519f38de85ea94e906a476d3d01770340019a2"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn1_translation-vi-project.json",
+          "sha256": "27ffe971a20809aa1f3832c0fb8f2f132f0c02f9e078dbb14684f5b89fa4edea"
+        },
+        {
+          "path": "docs/editorial-council-2026-10.md",
+          "sha256": "896cba5956371a3a3bac83bed396be59b5bbd768a7742028b58d271b3b144c66"
+        }
+      ]
+    },
+    {
+      "id": "306aaf1c-1a10-459a-b060-edaefde6b376",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.4,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.2,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.4,
+        "technical_integrity": 9.3
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu toàn bộ nguồn MN1 và các chú thích liên quan; phần bối cảnh ở đúng Ukkaṭṭhā/rừng Subhaga, đối tượng nghe là tỳ-kheo. Giữ lựa chọn canonical có căn cứ Pāli ở phủ định, tên đối tượng và mạch hữu-sinh-già chết. Ghi khác biệt muta và chú thích sửa phủ định của HTML Việt, không tuyên bố các bản phụ đồng thuận tuyệt đối.",
+        "semantic_fidelity": "Chuyện tủ sách giúp thấy nắm giữ vai trò nhưng không thay giáo lý thành bỏ kinh nghiệm hoặc nhường lớp trẻ. Toàn mạch biết/quan niệm/ham thích, lý do chưa hoặc đã hiểu thấu, Niết-bàn và chấm dứt mọi ái được giữ. Đoạn sinh tử nói rõ không thu hữu thành vai trò xã hội, không biến nhẹ lòng thành ngăn thân lão hóa.",
+        "core_coverage": "Đã kiểm 19 đơn vị: cả 24 đối tượng hiện diện, đủ tám cách trình bày và những lý do khác nhau, giữ nhãn biên tập và kết thúc không hoan hỷ. Những lần lặp được gom thành đoạn đọc vừa phải nhưng không bỏ chức năng của bất kỳ phần chính nào.",
+        "logic_context": "Giữ khác biệt đang hướng mục tiêu với đã làm xong; không nên của hữu học với không của A-la-hán; tham/sân/si đã chấm dứt với tạm nén. Kết thúc để nguyên điều chưa được giải thích, không suy từ tuổi, kinh nghiệm hay một phản ứng chấp ý sang mức chứng ngộ.",
+        "terminology": "Các thuật ngữ lậu hoặc, tham/sân/si, hữu, ái được giải theo vai trò trong bài; nhận biết và trực tiếp biết không bị đồng nhất. Muta được giữ rộng và đối chiếu ở cuối. Các danh xưng cao tầng vẫn có độ khó nhưng không bị thay bằng khái niệm đời thường thiếu chính xác.",
+        "audience_fit": "Tủ sách cộng đồng đặt người lớn tuổi vào vai có kinh nghiệm và còn quyền quyết định, không mặc định yếu bệnh hay bảo thủ. Các đoạn mời đọc từng phần, dùng xưng hô bình đẳng và giữ quyền xem xét đề nghị mới. Chưa có thử hiểu hoặc đánh giá với độc giả lớn tuổi thật; điểm là nhận xét biên tập có giới hạn.",
+        "clarity": "Đoạn văn có điểm dừng rõ, thuật ngữ được lồng ngay nơi dùng và các câu hỏi vận dụng trở lại cùng tình huống tủ sách. Bản nhiều nội dung, cần đọc theo phần; lời giải quan niệm trong/từ vẫn khó và được tách thành ghi chú thay vì kéo cả mạch chính thành tranh luận.",
+        "editorial_separation": "Mở đầu nêu câu chuyện/gợi ý do người biên soạn, lời kết đánh dấu không phải chỉ dẫn nguyên văn hoặc phép đo chứng đắc. Các cách đọc tự ngã và muta được nhận diện là giải thích/khác biệt, không đưa nhân vật hay động cơ ngoài root vào câu chuyện kinh.",
+        "practical_integrity": "Gợi ý nghe đề nghị khác vẫn cho phép giữ điều có căn cứ, giải thích kinh nghiệm và không bỏ trách nhiệm. Không hứa thanh thản chữa bệnh, hết lão hóa hoặc chứng đắc; không áp đặt người lớn tuổi phải đổi vai hay thuận theo người khác. Liên hệ đời sống được giữ nhỏ hơn mục tiêu toàn bài.",
+        "technical_integrity": "Đã kiểm nguồn hiện hành, 334 khóa trong bản đồ, ID phần/đơn vị, chuẩn chuỗi và tác giả qua auditExplanations không lỗi. Hash riêng older-adults cùng bảy nguồn được gắn với bản đã đọc. Chấm tính toàn vẹn bản ghi, không dùng nó để khẳng định đã thử màn hình published hay đã vượt toàn bộ kiểm tra của PR."
+      },
+      "blockingErrors": [],
+      "notes": "Đánh giá toàn bộ bản diễn giải của nhóm độc giả này sau lượt đối chiếu toàn bài. Agent kiểm khác agent soạn, nhưng cùng công cụ GPT-6 Astra Pro; đây không phải nguồn học thuật độc lập hay chuyên gia Pāli xác nhận. Chưa có thử hiểu với độc giả thật. Điểm kỹ thuật chỉ nói về bản ghi, nguồn và cấu trúc đã kiểm; chưa thay nghiệm thu giao diện nội dung published hoặc cổng build/CI của lô. Các phân tích lịch sử, Upaniṣad và song hành được chú thích Sujato dẫn không được kiểm riêng và không được nhập thành dữ kiện của phần diễn giải.",
+      "contentHash": "eff8661182bdd28700a195361dde07ab4430c88b2b0e784181e2e41427f2808d",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn1.html",
+          "sha256": "1154af692653c8e273f73b77b885c941a82db510568e40abf64907eb705b819d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/comment/en/sujato/sutta/mn/mn1_comment-en-sujato.json",
+          "sha256": "a69e7f4c77ec2e441d49c0f183108630f75e4955f6a35d182c8336c084976d31"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn1_root-pli-ms.json",
+          "sha256": "bee49a5461f36eea8b0c3895a8cb5ff77353134b763898a8c9bf83248757f9ee"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn1_translation-en-sujato.json",
+          "sha256": "3190ebe594f0f47d973f3b1165f8c4987e9f09a2bf294d2673c96fc62bfc3824"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn1_comment-vi-project.json",
+          "sha256": "96f73110854ebd6c0b4d5d41b8519f38de85ea94e906a476d3d01770340019a2"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn1_translation-vi-project.json",
+          "sha256": "27ffe971a20809aa1f3832c0fb8f2f132f0c02f9e078dbb14684f5b89fa4edea"
+        },
+        {
+          "path": "docs/editorial-council-2026-10.md",
+          "sha256": "896cba5956371a3a3bac83bed396be59b5bbd768a7742028b58d271b3b144c66"
+        }
+      ]
+    }
+  ]
+}

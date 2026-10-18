@@ -1,0 +1,291 @@
+---
+import { AUDIENCES } from '../lib/canon/explanations';
+import type { Audience, ExplanationBundle, ExplanationSection } from '../lib/canon/explanations';
+
+interface Props {
+  bundle: ExplanationBundle | null;
+}
+
+const { bundle } = Astro.props;
+const audienceLabels: Record<Audience, { title: string; anchor: string }> = {
+  children: { title: 'Diễn giải dành cho trẻ em', anchor: 'dien-giai-tre-em' },
+  adults: { title: 'Diễn giải dành cho người trưởng thành', anchor: 'dien-giai-nguoi-truong-thanh' },
+  'older-adults': { title: 'Diễn giải dành cho người lớn tuổi', anchor: 'dien-giai-nguoi-lon-tuoi' },
+};
+const kindLabels: Record<ExplanationSection['kind'], string> = {
+  teaching: 'Tìm hiểu bài kinh',
+  example: 'Ví dụ trong đời sống hôm nay',
+  clarification: 'Chỗ dễ hiểu sai',
+  practice: 'Gợi ý suy xét và thực hành',
+};
+const statusLabels = {
+  'not-started': 'Chưa có bản đã duyệt',
+  draft: 'Đang biên soạn',
+  review: 'Đang kiểm tra',
+  published: 'Đã duyệt',
+  stale: 'Đang rà soát',
+};
+const statusMessages = {
+  'not-started': 'Chưa có bản diễn giải đã duyệt cho nhóm độc giả này.',
+  draft: 'Bản diễn giải đang được biên soạn. Nội dung sẽ có mặt sau khi hoàn tất kiểm tra.',
+  review: 'Bản diễn giải đang được kiểm tra trước khi đưa đến người đọc.',
+  published: 'Bản diễn giải đang được kiểm tra trước khi đưa đến người đọc.',
+  stale: 'Đang rà soát bản diễn giải theo nội dung hoặc nguồn cập nhật.',
+};
+const meaningUnits = new Map((bundle?.meaningUnits ?? []).map((unit) => [unit.id, unit]));
+const sourceSegments = (section: ExplanationSection) => [...new Set(
+  section.meaningUnits.flatMap((id) => meaningUnits.get(id)?.segments ?? []),
+)];
+const formatDate = (date: string) => date.slice(0, 10).split('-').reverse().join('/');
+---
+
+<section class="modern-explanations" aria-labelledby="dien-giai-hien-dai" data-pagefind-ignore>
+  <header class="modern-explanations-heading">
+    <h2 id="dien-giai-hien-dai">Diễn giải hiện đại</h2>
+    <p>
+      Ba cách tìm hiểu cùng một bài kinh, với ngôn ngữ và ví dụ phù hợp từng nhóm độc giả.
+      Bạn có thể chọn bất kỳ bản nào.
+    </p>
+    <p class="explanation-editorial-note">
+      Phần diễn giải do dự án biên soạn để hỗ trợ tìm hiểu; đây không phải nguyên văn lời Phật.
+      Các ví dụ đời sống và gợi ý thực hành là lời của người biên soạn.
+    </p>
+  </header>
+
+  <div class="explanation-audiences">
+    {AUDIENCES.map((audience) => {
+      const view = bundle?.audiences[audience];
+      // The loader verifies the selected review against the exact content and source hashes.
+      // Keep this guard as well: never render a draft or a stale review's prose.
+      const content = view?.status === 'published' ? view.content : undefined;
+      const status = content ? 'published' : view?.status === 'published' ? 'review' : view?.status ?? 'not-started';
+      const { title, anchor } = audienceLabels[audience];
+      return (
+        <details class="explanation-audience" data-audience={audience} data-explanation-status={status}>
+          <summary>
+            <span class="explanation-audience-title">{title}</span>
+            <span class:list={['explanation-status', { 'is-published': status === 'published' }]}>
+              {statusLabels[status]}
+            </span>
+          </summary>
+          {/* A fragment target inside the disclosure lets native navigation reveal its contents. */}
+          <div id={anchor} class="explanation-body" tabindex="-1">
+            {content ? (
+              <>
+                <div class="explanation-title-row">
+                  <h3>{content.title}</h3>
+                  <a class="explanation-permalink" href={`#${anchor}`} aria-label={`Liên kết trực tiếp: ${title}`}>
+                    Liên kết mục này
+                  </a>
+                </div>
+                {content.sections.map((section) => {
+                  const sources = sourceSegments(section);
+                  const headingId = `${anchor}-${section.id}`;
+                  return (
+                    <section class="explanation-section" data-explanation-kind={section.kind} aria-labelledby={headingId}>
+                      {section.heading ? (
+                        <>
+                          <p class="explanation-kind">{kindLabels[section.kind]}</p>
+                          <h4 id={headingId}>{section.heading}</h4>
+                        </>
+                      ) : <h4 id={headingId}>{kindLabels[section.kind]}</h4>}
+                      {section.kind === 'example' && (
+                        <p class="explanation-section-note">Tình huống minh họa do người biên soạn đặt ra.</p>
+                      )}
+                      {section.kind === 'practice' && (
+                        <p class="explanation-section-note">Gợi ý vận dụng của người biên soạn.</p>
+                      )}
+                      {section.paragraphs.map((paragraph) => <p class="explanation-paragraph">{paragraph}</p>)}
+                      {sources.length > 0 && (
+                        <details class="explanation-sources">
+                          <summary>Đối chiếu với kinh văn <span>({sources.length} đoạn)</span></summary>
+                          <ul aria-label={`Các đoạn kinh làm căn cứ cho ${section.heading ?? kindLabels[section.kind]}`}>
+                            {sources.map((segment) => <li><a href={`#${segment}`}>{segment}</a></li>)}
+                          </ul>
+                        </details>
+                      )}
+                    </section>
+                  );
+                })}
+                <footer class="explanation-review">
+                  {view?.score != null && <p>Điểm đánh giá bản diễn giải: <strong>{view.score.toFixed(2)}/10</strong>.</p>}
+                  {view && view.reviewers.length > 0 && <p>Người/công cụ kiểm tra: {view.reviewers.join(', ')}.</p>}
+                  {view?.reviewedAt && <p>Ngày đánh giá: <time datetime={view.reviewedAt}>{formatDate(view.reviewedAt)}</time>.</p>}
+                  <p>Đánh giá này dành riêng cho phần diễn giải; không thay thế đánh giá bản dịch kinh.</p>
+                </footer>
+              </>
+            ) : <p class="explanation-unavailable">{statusMessages[status]}</p>}
+          </div>
+        </details>
+      );
+    })}
+  </div>
+</section>
+
+<style>
+  .modern-explanations {
+    margin-block: var(--space-7);
+    border-top: 1px solid var(--line);
+    padding-top: var(--space-6);
+  }
+  .modern-explanations-heading {
+    max-width: var(--reading-measure);
+    margin-bottom: var(--space-5);
+  }
+  .modern-explanations-heading h2 {
+    font-family: var(--font-ui);
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  .modern-explanations-heading p {
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+  .explanation-editorial-note {
+    color: var(--muted);
+  }
+  .explanation-audiences {
+    border-top: 1px solid var(--line);
+  }
+  .explanation-audience {
+    border-bottom: 1px solid var(--line);
+  }
+  .explanation-audience > summary {
+    min-height: var(--control-height);
+    padding: var(--space-4) var(--space-2);
+    overflow-wrap: anywhere;
+  }
+  .explanation-audience > summary::marker {
+    color: var(--accent);
+  }
+  .explanation-audience > summary:hover {
+    background: var(--surface-soft);
+  }
+  .explanation-audience-title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.8;
+  }
+  .explanation-status {
+    display: inline-block;
+    margin-inline-start: var(--space-3);
+    color: var(--muted);
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.8;
+  }
+  .explanation-status.is-published {
+    color: var(--accent);
+  }
+  .explanation-body {
+    max-width: var(--reading-measure);
+    margin: var(--space-4) auto var(--space-6);
+    scroll-margin-top: var(--space-6);
+    overflow-wrap: anywhere;
+  }
+  .explanation-body:target {
+    border-inline-start: 2px solid var(--accent);
+    padding-inline-start: var(--space-4);
+  }
+  .explanation-title-row {
+    margin-bottom: var(--space-6);
+  }
+  .explanation-title-row h3 {
+    margin-block: 0 var(--space-2);
+    font-size: 1.375rem;
+    line-height: 1.6;
+  }
+  .explanation-permalink {
+    display: inline-flex;
+    align-items: center;
+    min-height: var(--control-height);
+    font-size: .875rem;
+  }
+  .explanation-section {
+    margin-block: var(--space-6);
+  }
+  .explanation-section h4 {
+    margin-block: 0 var(--space-4);
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.75;
+  }
+  .explanation-kind,
+  .explanation-section-note {
+    margin-bottom: var(--space-3);
+    color: var(--muted);
+    font-size: .875rem;
+    line-height: 1.85;
+  }
+  .explanation-kind {
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .explanation-paragraph {
+    font-family: var(--font-ui);
+    font-size: 1.0625rem;
+    line-height: 1.95;
+  }
+  [data-audience='older-adults'] .explanation-paragraph {
+    font-size: 1.125rem;
+    line-height: 2;
+  }
+  .explanation-sources {
+    margin-block: var(--space-3) var(--space-5);
+  }
+  .explanation-sources > summary {
+    min-height: var(--control-height);
+    color: var(--accent);
+    font-size: .875rem;
+    line-height: 1.8;
+  }
+  .explanation-sources > summary span {
+    color: var(--muted);
+  }
+  .explanation-sources ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2) var(--space-4);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .explanation-sources a {
+    display: inline-flex;
+    align-items: center;
+    min-height: var(--control-height);
+    font-family: var(--font-mono);
+    font-size: .8125rem;
+  }
+  .explanation-review {
+    margin-top: var(--space-6);
+    border-top: 1px solid var(--line);
+    padding-top: var(--space-4);
+    color: var(--muted);
+  }
+  .explanation-review p {
+    margin-bottom: var(--space-2);
+    font-size: .875rem;
+    line-height: 1.85;
+  }
+  .explanation-unavailable {
+    color: var(--muted);
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+  @media (max-width: 760px) {
+    .explanation-status {
+      display: block;
+      margin-inline-start: var(--space-5);
+      margin-top: var(--space-1);
+    }
+    .explanation-body {
+      padding-inline: var(--space-2);
+    }
+  }
+  @media print {
+    .modern-explanations {
+      display: none;
+    }
+  }
+</style>

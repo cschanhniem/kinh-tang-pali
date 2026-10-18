@@ -1,0 +1,1184 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn1",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn1_root-pli-ms.json",
+      "sha256": "bee49a5461f36eea8b0c3895a8cb5ff77353134b763898a8c9bf83248757f9ee",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn1_translation-vi-project.json",
+      "sha256": "27ffe971a20809aa1f3832c0fb8f2f132f0c02f9e078dbb14684f5b89fa4edea",
+      "commit": "d61c3d79c73aee87f34cbbed1e96b134d95e72cb"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn1_translation-en-sujato.json",
+      "sha256": "3190ebe594f0f47d973f3b1165f8c4987e9f09a2bf294d2673c96fc62bfc3824",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn1.html",
+      "sha256": "1154af692653c8e273f73b77b885c941a82db510568e40abf64907eb705b819d",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn1_comment-vi-project.json",
+      "sha256": "96f73110854ebd6c0b4d5d41b8519f38de85ea94e906a476d3d01770340019a2",
+      "commit": "d61c3d79c73aee87f34cbbed1e96b134d95e72cb"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/comment/en/sujato/sutta/mn/mn1_comment-en-sujato.json",
+      "sha256": "a69e7f4c77ec2e441d49c0f183108630f75e4955f6a35d182c8336c084976d31",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": "docs/editorial-council-2026-10.md",
+      "sha256": "896cba5956371a3a3bac83bed396be59b5bbd768a7742028b58d271b3b144c66",
+      "commit": "d61c3d79c73aee87f34cbbed1e96b134d95e72cb"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Tên bài và bộ kinh",
+      "segments": [
+        "mn1:0.1",
+        "mn1:0.2"
+      ],
+      "summary": "MN1; Kinh Pháp Môn Căn Bản"
+    },
+    {
+      "id": "setting",
+      "title": "Bối cảnh và lời mời lắng nghe",
+      "segments": [
+        "mn1:1.1",
+        "mn1:1.2",
+        "mn1:1.3",
+        "mn1:1.4",
+        "mn1:1.5",
+        "mn1:1.6",
+        "mn1:2.1",
+        "mn1:2.2",
+        "mn1:2.3",
+        "mn1:2.4"
+      ],
+      "summary": "Đức Phật tại rừng Subhaga, Ukkaṭṭhā, dưới cây sāla; nói với các tỳ-kheo. Giảng pháp môn về căn bản của mọi pháp, yêu cầu lắng nghe và chú tâm."
+    },
+    {
+      "id": "ordinary-person",
+      "title": "Người phàm chưa được học và rèn luyện",
+      "segments": [
+        "mn1:3.1"
+      ],
+      "summary": "Chưa được thấy, chưa thành thạo và chưa được rèn luyện với bậc Thánh/chân nhân và giáo pháp."
+    },
+    {
+      "id": "recognition-conceiving",
+      "title": "Nhận biết đất rồi quan niệm và ham thích",
+      "segments": [
+        "mn1:3.2",
+        "mn1:3.3",
+        "mn1:3.4",
+        "mn1:3.5"
+      ],
+      "summary": "sañjānāti: nhận biết đất là đất. Bốn cấu trúc maññati: đối tượng; trong đối tượng; từ đối tượng; đối tượng là của tôi. Sau đó abhinandati. Lý do nêu rõ: chưa hiểu thấu đáo."
+    },
+    {
+      "id": "physical-elements",
+      "title": "Nước, lửa, gió cùng công thức với đất",
+      "segments": [
+        "mn1:4.1",
+        "mn1:4.2",
+        "mn1:4.3",
+        "mn1:4.4",
+        "mn1:5.1",
+        "mn1:5.2",
+        "mn1:5.3",
+        "mn1:5.4",
+        "mn1:6.1",
+        "mn1:6.2",
+        "mn1:6.3",
+        "mn1:6.4"
+      ],
+      "summary": "Giữ ba đối tượng và toàn bộ công thức năm vế; ghép với đất thành nhóm bốn."
+    },
+    {
+      "id": "beings-deities",
+      "title": "Chúng sinh và các danh xưng/cõi trời",
+      "segments": [
+        "mn1:7.1",
+        "mn1:7.2",
+        "mn1:7.3",
+        "mn1:7.4",
+        "mn1:8.1",
+        "mn1:8.2",
+        "mn1:8.3",
+        "mn1:8.4",
+        "mn1:9.1",
+        "mn1:9.2",
+        "mn1:9.3",
+        "mn1:9.4",
+        "mn1:10.1",
+        "mn1:10.2",
+        "mn1:10.3",
+        "mn1:10.4",
+        "mn1:11.1",
+        "mn1:11.2",
+        "mn1:11.3",
+        "mn1:11.4",
+        "mn1:12.1",
+        "mn1:12.2",
+        "mn1:12.3",
+        "mn1:12.4",
+        "mn1:13.1",
+        "mn1:13.2",
+        "mn1:13.3",
+        "mn1:13.4",
+        "mn1:14.1",
+        "mn1:14.2",
+        "mn1:14.3",
+        "mn1:14.4"
+      ],
+      "summary": "Chúng sinh; các vị trời; Sanh chủ; Phạm thiên; Quang Âm; Biến Tịnh; Quảng Quả; Thắng giả. Công thức áp dụng cho mỗi đối tượng."
+    },
+    {
+      "id": "formless-domains",
+      "title": "Bốn xứ/cõi vô sắc",
+      "segments": [
+        "mn1:15.1",
+        "mn1:15.2",
+        "mn1:15.3",
+        "mn1:15.4",
+        "mn1:16.1",
+        "mn1:16.2",
+        "mn1:16.3",
+        "mn1:16.4",
+        "mn1:17.1",
+        "mn1:17.2",
+        "mn1:17.3",
+        "mn1:17.4",
+        "mn1:18.1",
+        "mn1:18.2",
+        "mn1:18.3",
+        "mn1:18.4"
+      ],
+      "summary": "Không vô biên; Thức vô biên; Vô sở hữu; Phi tưởng phi phi tưởng. Ngay đối tượng rất vi tế cũng được đưa vào cùng phép phân biệt."
+    },
+    {
+      "id": "modes-of-experience",
+      "title": "Điều thấy, nghe, cảm nhận, nhận biết",
+      "segments": [
+        "mn1:19.1",
+        "mn1:19.2",
+        "mn1:19.3",
+        "mn1:19.4",
+        "mn1:20.1",
+        "mn1:20.2",
+        "mn1:20.3",
+        "mn1:20.4",
+        "mn1:21.1",
+        "mn1:21.2",
+        "mn1:21.3",
+        "mn1:21.4",
+        "mn1:22.1",
+        "mn1:22.2",
+        "mn1:22.3",
+        "mn1:22.4"
+      ],
+      "summary": "Bốn đối tượng diṭṭha/suta/muta/viññāta đều thuộc phép phân biệt này. Giữ lựa chọn của canonical ở muta và ghi bất đồng khi giải nghĩa."
+    },
+    {
+      "id": "unity-diversity-all",
+      "title": "Đồng nhất, đa dạng và tất cả",
+      "segments": [
+        "mn1:23.1",
+        "mn1:23.2",
+        "mn1:23.3",
+        "mn1:23.4",
+        "mn1:24.1",
+        "mn1:24.2",
+        "mn1:24.3",
+        "mn1:24.4",
+        "mn1:25.1",
+        "mn1:25.2",
+        "mn1:25.3",
+        "mn1:25.4"
+      ],
+      "summary": "Ba phạm trù khác nhau; nhận biết và quan niệm áp dụng cả ý niệm bao quát."
+    },
+    {
+      "id": "nibbana-ordinary",
+      "title": "Ngay cả Niết-bàn vẫn nằm trong chuỗi",
+      "segments": [
+        "mn1:26.1",
+        "mn1:26.2",
+        "mn1:26.3",
+        "mn1:26.4"
+      ],
+      "summary": "Pinned root có Niết-bàn rõ ràng; phàm phu vẫn nhận biết, quan niệm, nhận là của mình và ham thích do chưa hiểu thấu."
+    },
+    {
+      "id": "trainee",
+      "title": "Bậc hữu học: cần tiếp tục tu học",
+      "segments": [
+        "mn1:27.1",
+        "mn1:27.2",
+        "mn1:27.3",
+        "mn1:27.4",
+        "mn1:28.1",
+        "mn1:29.1",
+        "mn1:30.1",
+        "mn1:31.1",
+        "mn1:32.1",
+        "mn1:33.1",
+        "mn1:34.1",
+        "mn1:35.1",
+        "mn1:36.1",
+        "mn1:37.1",
+        "mn1:38.1",
+        "mn1:39.1",
+        "mn1:40.1",
+        "mn1:41.1",
+        "mn1:42.1",
+        "mn1:43.1",
+        "mn1:44.1",
+        "mn1:45.1",
+        "mn1:46.1",
+        "mn1:47.1",
+        "mn1:48.1",
+        "mn1:49.1",
+        "mn1:50.1",
+        "mn1:50.2",
+        "mn1:50.3",
+        "mn1:50.4"
+      ],
+      "summary": "Chưa đạt mục tiêu, hướng sự an ổn tối thượng thoát ràng buộc. abhijānāti: trực tiếp biết, khác sañjānāti. mā maññi/mābhinandi: không nên; pariññeyya: còn cần hiểu thấu. Đi qua đủ 24 đối tượng, đất tới Niết-bàn."
+    },
+    {
+      "id": "arahant-understanding",
+      "title": "A-la-hán: đã hiểu thấu",
+      "segments": [
+        "mn1:51.1",
+        "mn1:51.2",
+        "mn1:51.3",
+        "mn1:51.4",
+        "mn1:52.1",
+        "mn1:53.1",
+        "mn1:54.1",
+        "mn1:55.1",
+        "mn1:56.1",
+        "mn1:57.1",
+        "mn1:58.1",
+        "mn1:59.1",
+        "mn1:60.1",
+        "mn1:61.1",
+        "mn1:62.1",
+        "mn1:63.1",
+        "mn1:64.1",
+        "mn1:65.1",
+        "mn1:66.1",
+        "mn1:67.1",
+        "mn1:68.1",
+        "mn1:69.1",
+        "mn1:70.1",
+        "mn1:71.1",
+        "mn1:72.1",
+        "mn1:73.1",
+        "mn1:74.1",
+        "mn1:74.2",
+        "mn1:74.3",
+        "mn1:74.4"
+      ],
+      "summary": "Lậu hoặc đã tận; phạm hạnh viên mãn; việc đã làm; gánh nặng đã đặt xuống; mục tiêu đã đạt; hữu kiết sử đã tận; chánh trí giải thoát. Trực tiếp biết nhưng không quan niệm/ham thích (na, mô tả); vì đã hiểu thấu. Toàn bộ 24 đối tượng."
+    },
+    {
+      "id": "arahant-greed",
+      "title": "A-la-hán: tham đã chấm dứt",
+      "segments": [
+        "mn1:75.1",
+        "mn1:75.2",
+        "mn1:75.3",
+        "mn1:75.4",
+        "mn1:76.1",
+        "mn1:77.1",
+        "mn1:78.1",
+        "mn1:79.1",
+        "mn1:80.1",
+        "mn1:81.1",
+        "mn1:82.1",
+        "mn1:83.1",
+        "mn1:84.1",
+        "mn1:85.1",
+        "mn1:86.1",
+        "mn1:87.1",
+        "mn1:88.1",
+        "mn1:89.1",
+        "mn1:90.1",
+        "mn1:91.1",
+        "mn1:92.1",
+        "mn1:93.1",
+        "mn1:94.1",
+        "mn1:95.1",
+        "mn1:96.1",
+        "mn1:97.1",
+        "mn1:98.1",
+        "mn1:98.2",
+        "mn1:98.3",
+        "mn1:98.4"
+      ],
+      "summary": "Cùng mô tả A-la-hán, cùng 24 đối tượng; lý do nhấn riêng rāga đã tận."
+    },
+    {
+      "id": "arahant-hate",
+      "title": "A-la-hán: sân đã chấm dứt",
+      "segments": [
+        "mn1:99.1",
+        "mn1:99.2",
+        "mn1:99.3",
+        "mn1:99.4",
+        "mn1:100.1",
+        "mn1:101.1",
+        "mn1:102.1",
+        "mn1:103.1",
+        "mn1:104.1",
+        "mn1:105.1",
+        "mn1:106.1",
+        "mn1:107.1",
+        "mn1:108.1",
+        "mn1:109.1",
+        "mn1:110.1",
+        "mn1:111.1",
+        "mn1:112.1",
+        "mn1:113.1",
+        "mn1:114.1",
+        "mn1:115.1",
+        "mn1:116.1",
+        "mn1:117.1",
+        "mn1:118.1",
+        "mn1:119.1",
+        "mn1:120.1",
+        "mn1:121.1",
+        "mn1:122.1",
+        "mn1:122.2",
+        "mn1:122.3",
+        "mn1:122.4"
+      ],
+      "summary": "Cùng mô tả A-la-hán, cùng 24 đối tượng; lý do nhấn riêng dosa đã tận."
+    },
+    {
+      "id": "arahant-delusion",
+      "title": "A-la-hán: si đã chấm dứt",
+      "segments": [
+        "mn1:123.1",
+        "mn1:123.2",
+        "mn1:123.3",
+        "mn1:123.4",
+        "mn1:124.1",
+        "mn1:125.1",
+        "mn1:126.1",
+        "mn1:127.1",
+        "mn1:128.1",
+        "mn1:129.1",
+        "mn1:130.1",
+        "mn1:131.1",
+        "mn1:132.1",
+        "mn1:133.1",
+        "mn1:134.1",
+        "mn1:135.1",
+        "mn1:136.1",
+        "mn1:137.1",
+        "mn1:138.1",
+        "mn1:139.1",
+        "mn1:140.1",
+        "mn1:141.1",
+        "mn1:142.1",
+        "mn1:143.1",
+        "mn1:144.1",
+        "mn1:145.1",
+        "mn1:146.1",
+        "mn1:146.2",
+        "mn1:146.3",
+        "mn1:146.4"
+      ],
+      "summary": "Cùng mô tả A-la-hán, cùng 24 đối tượng; lý do nhấn riêng moha đã tận."
+    },
+    {
+      "id": "tathagata-understanding",
+      "title": "Như Lai: hiểu thấu đến tận cùng",
+      "segments": [
+        "mn1:147.1",
+        "mn1:147.2",
+        "mn1:147.3",
+        "mn1:147.4",
+        "mn1:148.1",
+        "mn1:149.1",
+        "mn1:150.1",
+        "mn1:151.1",
+        "mn1:152.1",
+        "mn1:153.1",
+        "mn1:154.1",
+        "mn1:155.1",
+        "mn1:156.1",
+        "mn1:157.1",
+        "mn1:158.1",
+        "mn1:159.1",
+        "mn1:160.1",
+        "mn1:161.1",
+        "mn1:162.1",
+        "mn1:163.1",
+        "mn1:164.1",
+        "mn1:165.1",
+        "mn1:166.1",
+        "mn1:167.1",
+        "mn1:168.1",
+        "mn1:169.1",
+        "mn1:170.1",
+        "mn1:170.2",
+        "mn1:170.3",
+        "mn1:170.4"
+      ],
+      "summary": "Như Lai là A-la-hán, Chánh Đẳng Giác; trực tiếp biết, không quan niệm/ham thích. pariññātanta: hiểu thấu đến tận cùng; toàn bộ 24 đối tượng."
+    },
+    {
+      "id": "tathagata-root",
+      "title": "Như Lai: gốc của khổ và chấm dứt mọi ái",
+      "segments": [
+        "mn1:171.1",
+        "mn1:171.2",
+        "mn1:171.3",
+        "mn1:171.4",
+        "mn1:171.5",
+        "mn1:171.6",
+        "mn1:172.1",
+        "mn1:173.1",
+        "mn1:174.1",
+        "mn1:175.1",
+        "mn1:176.1",
+        "mn1:177.1",
+        "mn1:178.1",
+        "mn1:179.1",
+        "mn1:180.1",
+        "mn1:181.1",
+        "mn1:182.1",
+        "mn1:183.1",
+        "mn1:184.1",
+        "mn1:185.1",
+        "mn1:186.1",
+        "mn1:187.1",
+        "mn1:188.1",
+        "mn1:189.1",
+        "mn1:190.1",
+        "mn1:191.1",
+        "mn1:192.1",
+        "mn1:193.1",
+        "mn1:194.1",
+        "mn1:194.2",
+        "mn1:194.3",
+        "mn1:194.4",
+        "mn1:194.5",
+        "mn1:194.6"
+      ],
+      "summary": "Cùng 24 đối tượng, không quan niệm/ham thích. nandī là gốc của khổ trong ngữ cảnh nối với taṇhā. Do hữu có sinh; người đã sinh có già và chết. Chấm dứt, ly tham, đoạn diệt, buông bỏ, xả ly mọi ái và giác ngộ Vô thượng Chánh Đẳng Giác."
+    },
+    {
+      "id": "ending",
+      "title": "Kết thúc không hoan hỷ",
+      "segments": [
+        "mn1:194.8",
+        "mn1:194.9"
+      ],
+      "summary": "Đức Phật kết lời; các tỳ-kheo không hoan hỷ lời ấy."
+    },
+    {
+      "id": "apparatus",
+      "title": "Nhãn kết phần và kết kinh",
+      "segments": [
+        "mn1:26.5",
+        "mn1:50.5",
+        "mn1:74.5",
+        "mn1:98.5",
+        "mn1:122.5",
+        "mn1:146.5",
+        "mn1:170.5",
+        "mn1:194.7",
+        "mn1:194.10"
+      ],
+      "summary": "Tám nhãn kết phần, một nhãn kết kinh thuộc edition apparatus."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Em biết một điều, rồi tâm làm gì?",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "before-reading",
+          "kind": "clarification",
+          "heading": "Cùng đọc Kinh Pháp Môn Căn Bản",
+          "paragraphs": [
+            "Em có bao giờ biết rõ một món đồ, nhưng lại khó nhận ra mình đang bám vào nó thế nào? Kinh Pháp Môn Căn Bản, bài đầu của Trung Bộ Kinh, đưa người nghe nhìn sâu vào việc ấy. Bài có tám phần và nhiều tên chưa quen; em có thể đọc từng đoạn cùng một người lớn, rồi quay lại chỗ còn khó.",
+            "Những câu chuyện và việc thử làm dưới đây do người biên soạn đặt ra để giúp em tìm hiểu. Các dòng ghi kết phần trong kinh chỉ giúp theo dõi bài, không thêm một lời dạy mới."
+          ],
+          "meaningUnits": [
+            "identity",
+            "apparatus"
+          ]
+        },
+        {
+          "id": "model-story",
+          "kind": "example",
+          "heading": "Một mô hình và một lời nhận xét",
+          "paragraphs": [
+            "Em vừa ghép xong một mô hình. Một bạn nói mái nhà hơi lệch. Em nghe lời ấy, rồi nghĩ: bạn chê mô hình tức là bạn chê mình; mô hình của mình phải đẹp nhất. Em muốn cãi ngay, dù chưa nhìn lại cái mái.",
+            "Mô hình, lời bạn nói và câu chuyện em vừa nghĩ thêm không hoàn toàn giống nhau. Ví dụ này giúp nhìn một phần điều bài kinh nói: sau khi nhận ra một thứ, tâm còn có thể dựng nhiều điều quanh nó, nhận nó là của mình và muốn giữ chặt."
+          ],
+          "meaningUnits": [
+            "recognition-conceiving"
+          ]
+        },
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Đức Phật nói với ai?",
+          "paragraphs": [
+            "Đức Phật ở Ukkaṭṭhā, trong rừng Subhaga, dưới gốc một cây sāla lớn. Ngài gọi các tỳ-kheo, tức những vị đã xuất gia, và báo sẽ giảng về căn bản của mọi pháp. Ngài mời các vị lắng nghe, chú tâm kỹ. Bài giảng sau đó so sánh những cách biết và những tình trạng tu học khác nhau."
+          ],
+          "meaningUnits": [
+            "setting"
+          ]
+        },
+        {
+          "id": "recognizing-and-adding",
+          "kind": "teaching",
+          "heading": "Nhận ra đất chưa phải đã hiểu thấu",
+          "paragraphs": [
+            "Trước hết, kinh nói về người phàm chưa được học và rèn luyện theo giáo pháp của các bậc Thánh, các bậc chân nhân. Đây là sự học để hiểu và tu tập trong Phật pháp. Điểm số ở trường không cho biết một người đã có sự học ấy hay chưa.",
+            "Người ấy nhận biết đất là đất. Nhưng sau đó còn quan niệm về đất, quan niệm “trong đất”, “từ đất”, nghĩ “đất là của tôi”, rồi ham thích đất. Kinh nêu lý do: người ấy chưa hiểu thấu đáo.",
+            "“Quan niệm” ở đây có thể tạm hiểu là dựng một cách nghĩ rồi nắm giữ cách nghĩ ấy. Câu kinh đi qua nhiều quan hệ: chính thứ ấy, trong nó, từ nó, và nó thuộc về mình. Ta vừa nhận ra một thứ, rồi tâm đã có thể dựng thêm nhiều điều quanh nó. Chuyện mô hình giúp em thấy rõ một phần: từ việc nhận ra mô hình thành ý nghĩ phải bảo vệ nó như bảo vệ cả con người mình."
+          ],
+          "meaningUnits": [
+            "ordinary-person",
+            "recognition-conceiving"
+          ]
+        },
+        {
+          "id": "elements",
+          "kind": "teaching",
+          "heading": "Từ những thứ gần gũi",
+          "paragraphs": [
+            "Sau đất, kinh nói đến nước, lửa và gió. Với mỗi thứ, chuỗi nhận biết, quan niệm và ham thích đều được nhắc lại; lý do vẫn là chưa hiểu thấu.",
+            "Vì thế, bài học không dừng ở một món đồ của em. Kinh đang xem cách tâm đối với nhiều điều khác nhau. Nhận ra một thứ và gọi đúng tên nó chưa có nghĩa ta đã biết rõ mọi điều liên quan đến cách mình bám vào nó."
+          ],
+          "meaningUnits": [
+            "physical-elements"
+          ]
+        },
+        {
+          "id": "beings-and-deities",
+          "kind": "teaching",
+          "heading": "Có cả những tên em chưa quen",
+          "paragraphs": [
+            "Chuỗi ấy tiếp tục với các chúng sinh, các vị trời, Sanh chủ, Phạm thiên, chư thiên Quang Âm, Biến Tịnh, Quảng Quả và Thắng giả. Đây là những đối tượng và danh xưng có mặt trong bài kinh. Em có thể trở lại các tên này khi đọc sâu hơn.",
+            "Ngay cả những gì được xem là lớn lao hay cao quý cũng được xét đến. Với từng đối tượng, người chưa hiểu thấu vẫn nhận biết, dựng quan niệm, nhận là của mình và ham thích. Đó là điều chung nối các tên lạ này với phần về đất, nước, lửa và gió."
+          ],
+          "meaningUnits": [
+            "beings-deities"
+          ]
+        },
+        {
+          "id": "formless-domains",
+          "kind": "teaching",
+          "heading": "Những phạm vi rất vi tế",
+          "paragraphs": [
+            "Kinh còn nêu bốn tên: Không vô biên, Thức vô biên, Vô sở hữu và Phi tưởng phi phi tưởng. “Vô biên” gợi nghĩa không có giới hạn; các tên còn lại cũng chỉ những phạm vi rất vi tế. Đây là những xứ hay cõi liên hệ đến thiền định được nói trong kinh. Hiểu sâu các tên ấy cần thêm sự học.",
+            "Cả bốn đều được đưa vào cùng chuỗi xem xét. Một điều khác thường chưa tự chứng minh rằng người biết nó đã hiểu thấu và hết bám giữ. Em chỉ cần nhận ra bước mở rộng ở đây: lời giảng đi từ điều gần gũi đến cả những điều rất khó hình dung. Bài này chưa hướng dẫn cách đạt các trạng thái thiền ấy."
+          ],
+          "meaningUnits": [
+            "formless-domains"
+          ]
+        },
+        {
+          "id": "experience-and-ideas",
+          "kind": "teaching",
+          "heading": "Cả điều mình thấy và điều mình biết",
+          "paragraphs": [
+            "Tiếp theo là điều được thấy, được nghe, được cảm nhận và được nhận biết. Những gì em gặp, nghe kể hay biết được cũng có thể trở thành điều tâm dựng quan niệm rồi bám vào. “Cảm nhận” trong bản này có nghĩa rộng, không chỉ riêng cảm xúc vui buồn.",
+            "Rồi đến tính đồng nhất, tính đa dạng và “tất cả”. Ta có thể nghĩ nhiều điều là một, thấy chúng khác nhau, hoặc dùng một ý rất lớn để nói về tất cả. Kinh tiếp tục xem cách người ta quan niệm và ham thích các ý ấy. Ngay một ý nghĩ rất bao quát cũng có thể thành điều mình nắm giữ."
+          ],
+          "meaningUnits": [
+            "modes-of-experience",
+            "unity-diversity-all"
+          ]
+        },
+        {
+          "id": "nibbana",
+          "kind": "teaching",
+          "heading": "Ngay cả ý nghĩ về Niết-bàn",
+          "paragraphs": [
+            "Đối tượng cuối danh sách là Niết-bàn, sự giải thoát mà Phật pháp hướng tới. Kinh nói người chưa hiểu thấu vẫn có thể nhận biết, dựng quan niệm về Niết-bàn, nghĩ là của mình và ham thích.",
+            "Nghe biết một tên cao quý không giống với đã tự mình đạt được điều ấy. Nếu chỉ nghĩ mình phải có một điều thật đặc biệt để hơn người khác, ta vẫn cần nhìn lại cách mình đang níu giữ. Điều bị xem xét ở đây là sự quan niệm và ham thích khi chưa hiểu thấu, không phải bảo Niết-bàn là điều xấu."
+          ],
+          "meaningUnits": [
+            "nibbana-ordinary"
+          ]
+        },
+        {
+          "id": "trainee",
+          "kind": "teaching",
+          "heading": "Người còn đang tu học",
+          "paragraphs": [
+            "Phần thứ hai nói về bậc hữu học: một vị tỳ-kheo còn đang tu học, chưa đạt mục tiêu nhưng hướng đến sự an ổn tối thượng, thoát mọi ràng buộc. Đây là một tên gọi trong việc tu học Phật pháp, không phải tên gọi tất cả người đang đi học.",
+            "Ở đây, kinh dùng cách nói “trực tiếp biết”, khác với “nhận biết” ở phần trước. Đây là cái biết trong sự tu học sâu, không chỉ là nhìn thấy bằng mắt hoặc nhớ đúng tên. Vị ấy được dạy không nên quan niệm và không nên ham thích theo chuỗi ấy, để có thể hiểu thấu. Chữ “không nên” cho thấy còn việc phải tu học. Lời hướng dẫn đi qua lại đủ hai mươi bốn đối tượng vừa kể, từ đất cho tới Niết-bàn."
+          ],
+          "meaningUnits": [
+            "trainee"
+          ]
+        },
+        {
+          "id": "arahant",
+          "kind": "teaching",
+          "heading": "Bậc đã hoàn tất: bốn lần nhìn lại",
+          "paragraphs": [
+            "Bốn phần kế nói về bậc A-la-hán. Kinh mô tả vị ấy đã chấm dứt những nguồn làm tâm ô nhiễm, hoàn tất đời sống tu hành, làm xong việc cần làm, đặt gánh nặng xuống và đạt mục tiêu. Những ràng buộc dẫn đến tiếp tục sinh tử đã dứt; vị ấy giải thoát nhờ hiểu biết đúng đắn.",
+            "Vị ấy vẫn trực tiếp biết, nhưng không còn quan niệm và ham thích theo chuỗi ấy. Bây giờ kinh nói “không”, chứ không chỉ dạy “không nên”. Lần trình bày đầu nêu lý do là đã hiểu thấu. Ba lần sau làm rõ thêm: tham, sự thèm muốn bám giữ, đã hết; sân, sự thù ghét, đã hết; si, sự mê mờ không thấy đúng, đã hết.",
+            "Đó là bốn cách làm rõ cùng bậc đã hoàn tất, không phải bốn hạng người lần lượt còn tham hay còn sân. Mỗi lần đều trở lại toàn bộ danh sách, từ những thứ quen thuộc đến Niết-bàn."
+          ],
+          "meaningUnits": [
+            "arahant-understanding",
+            "arahant-greed",
+            "arahant-hate",
+            "arahant-delusion"
+          ]
+        },
+        {
+          "id": "tathagata-understanding",
+          "kind": "teaching",
+          "heading": "Như Lai hiểu thấu đến tận cùng",
+          "paragraphs": [
+            "Phần thứ bảy nói về Như Lai, tức Đức Phật được gọi là bậc A-la-hán, Chánh Đẳng Giác. Với tất cả những đối tượng ấy, Ngài trực tiếp biết mà không quan niệm, không nhận là của mình và không ham thích theo chuỗi đã nói. Lý do được nhấn mạnh là Ngài đã hiểu thấu đến tận cùng."
+          ],
+          "meaningUnits": [
+            "tathagata-understanding"
+          ]
+        },
+        {
+          "id": "root-of-suffering",
+          "kind": "teaching",
+          "heading": "Vì sao việc này quan trọng?",
+          "paragraphs": [
+            "Phần thứ tám trở lại Như Lai và cả danh sách lần nữa. Kinh nêu sự ham thích là gốc của khổ, rồi nói: do hữu có sinh; người đã sinh thì có già và chết. Với từ khó “hữu”, em hãy nhớ bài đang nói đến sự tiếp diễn hiện hữu trong vòng sinh, già và chết.",
+            "Ngay sau đó, kinh nói Như Lai giác ngộ nhờ chấm dứt, lìa bỏ, đoạn diệt và xả bỏ mọi ái. Ái là sự khát khao níu giữ được nói đến ở đây. Vì vậy bài kinh hướng xa hơn việc bớt bực mình với một người bạn: lời dạy hướng đến giải thoát khỏi sự ràng buộc trong vòng sinh, già và chết.",
+            "Đừng hiểu thành em không được vui khi chơi, khi học hay khi giúp ai. Trong mạch này, ham thích nối với ái và sự níu giữ. Niềm vui của một việc tốt không phải lý do để em tự trách mình."
+          ],
+          "meaningUnits": [
+            "tathagata-root"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Một kết thúc khác thường",
+          "paragraphs": [
+            "Đức Phật kết thúc lời giảng. Bài kinh ghi rằng các tỳ-kheo không hoan hỷ với lời Ngài. Vì sao lại như vậy? Đoạn kinh không kể thêm, nên chúng ta để câu hỏi ấy còn mở."
+          ],
+          "meaningUnits": [
+            "ending"
+          ]
+        },
+        {
+          "id": "everyday-boundaries",
+          "kind": "clarification",
+          "heading": "Biết dùng một thứ mà không lấy nó làm toàn bộ mình",
+          "paragraphs": [
+            "Em vẫn có thể nói chiếc cặp là của em, giữ đồ cẩn thận và nhờ giúp khi ai làm điều gây hại. Ví dụ về bám giữ không bảo em phải nhường mọi thứ hoặc im lặng trước người khác.",
+            "Điều có thể tập nhận ra là lúc tâm đi thêm quá xa: từ một lời góp ý về mô hình thành kết luận rằng cả con người mình bị chê, rồi phải thắng bằng được. Nhận ra điều đó không có nghĩa em đã đạt bậc hữu học hay A-la-hán. Đó chỉ là một cửa nhỏ để bắt đầu tìm hiểu."
+          ],
+          "meaningUnits": [
+            "recognition-conceiving",
+            "trainee",
+            "arahant-understanding"
+          ]
+        },
+        {
+          "id": "small-practice",
+          "kind": "practice",
+          "heading": "Lần tới, thử nhìn thêm một chút",
+          "paragraphs": [
+            "Khi nghe một lời góp ý, em có thể dừng một chút và hỏi: bạn đã nói điều gì? Mình đang nghĩ thêm điều gì? Mình có đang muốn bảo vệ một câu chuyện về mình đến mức không còn nghe nữa không?",
+            "Sau đó nhìn lại việc cụ thể: cái mái có lệch không, mình có thể hỏi bạn điều gì, cần sửa hay cần giải thích ra sao? Đây là gợi ý của người biên soạn để thử trong đời sống. Em không cần ép đầu óc trống rỗng hoặc kể mọi ý nghĩ cho ai."
+          ],
+          "meaningUnits": [
+            "recognition-conceiving"
+          ]
+        },
+        {
+          "id": "words-to-revisit",
+          "kind": "clarification",
+          "heading": "Nếu em muốn tìm hiểu thêm về hai chữ khó",
+          "paragraphs": [
+            "Các cách nói “quan niệm trong” và “quan niệm từ” rất ngắn và khó. Việc giải thích chúng như dựng thêm chuyện về mình là một cách giúp đọc câu kinh; chuyện mô hình chưa giải thích hết mọi mặt của câu ấy. Em có thể cùng người lớn mở đoạn nguồn để hỏi tiếp.",
+            "Chữ được dịch là “cảm nhận” cũng có cách hiểu khác: một số bản dịch dùng nghĩa điều được suy nghĩ. Vì vậy, khi đọc bản này, em đừng chỉ hình dung một cảm giác vui hay buồn. Các danh xưng về trời và các ý “một”, “nhiều”, “tất cả” nằm trong danh sách được xem xét; riêng việc nêu tên chưa phải lời khẳng định ai đã tạo ra mọi vật hoặc mọi vật thật sự là một."
+          ],
+          "meaningUnits": [
+            "recognition-conceiving",
+            "modes-of-experience",
+            "beings-deities",
+            "unity-diversity-all"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Biết một điều, rồi biến nó thành chỗ bám",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "before-reading",
+          "kind": "clarification",
+          "heading": "Cách đọc bài kinh này",
+          "paragraphs": [
+            "Kinh Pháp Môn Căn Bản mở đầu Trung Bộ Kinh. Bài giảng lặp một chuỗi đối tượng qua tám cách trình bày, để làm rõ khác biệt trong cái biết và sự tu học. Những dòng báo kết phần hoặc kết kinh thuộc cách ghi của bản Pāli; không phải các luận điểm mới trong lời giảng.",
+            "Phần dưới giữ toàn mạch bài nhưng gộp những lần lặp. Các tình huống công việc, trải nghiệm đời thường và việc thử làm là minh họa của người biên soạn; không phải sự kiện hay chỉ dẫn nguyên văn của MN1."
+          ],
+          "meaningUnits": [
+            "identity",
+            "apparatus"
+          ]
+        },
+        {
+          "id": "work-example",
+          "kind": "example",
+          "heading": "Khi một ý kiến trở thành chính mình",
+          "paragraphs": [
+            "Bạn trình bày một phương án đã bỏ nhiều công sức xây dựng. Đồng nghiệp chỉ ra một điểm yếu. Đáng lẽ có thể xem chứng cứ và sửa phương án, bạn lại nghe thành: năng lực của mình đang bị phủ nhận. Cuộc trao đổi dần chuyển từ việc phương án có đúng sang việc mình có thua hay không.",
+            "Không phải mọi phản biện đều công bằng, cũng không phải bạn phải nhượng bộ. Ví dụ chỉ chỉ ra một bước dễ bị bỏ qua: giữa điều được nghe và phản ứng của mình có thêm cách diễn giải, nhận làm của mình và muốn bảo vệ nó. Đó là một lối vào để đọc MN1."
+          ],
+          "meaningUnits": [
+            "recognition-conceiving"
+          ]
+        },
+        {
+          "id": "setting-and-ordinary-person",
+          "kind": "teaching",
+          "heading": "Từ lời mời lắng nghe đến trường hợp đầu tiên",
+          "paragraphs": [
+            "Đức Phật ở rừng Subhaga, tại Ukkaṭṭhā, dưới gốc một cây sāla lớn. Ngài gọi các tỳ-kheo, báo sẽ giảng pháp môn về căn bản của mọi pháp và yêu cầu lắng nghe, chú tâm kỹ.",
+            "Trường hợp đầu là người phàm chưa được học hỏi, chưa thấy và chưa được rèn luyện trong giáo pháp của các bậc Thánh, các bậc chân nhân. Sự phân biệt này thuộc đường tu học trong kinh; không đánh giá trình độ học vấn, nghề nghiệp hay trí thông minh."
+          ],
+          "meaningUnits": [
+            "setting",
+            "ordinary-person"
+          ]
+        },
+        {
+          "id": "recognition-and-conceiving",
+          "kind": "teaching",
+          "heading": "Gọi đúng tên vẫn chưa phải hiểu thấu",
+          "paragraphs": [
+            "Người ấy nhận biết đất là đất. Kinh không nói họ nhìn sai đối tượng. Nhưng sau nhận biết là một chuỗi khác: quan niệm đất, quan niệm trong đất, quan niệm từ đất, quan niệm đất là của tôi, rồi ham thích đất. Lý do được nêu: chưa hiểu thấu đáo.",
+            "Bốn kiểu quan niệm và vế ham thích mở ra một phạm vi rộng hơn sở hữu đồ vật. Đối tượng còn trở thành nơi để dựng cách nhìn về chính nó, về quan hệ trong nó hoặc từ nó, trước khi được nhận là của tôi. Nhận ra đúng đối tượng là một việc; hiểu thấu cách tâm quan hệ với nó là một việc sâu hơn."
+          ],
+          "meaningUnits": [
+            "recognition-conceiving"
+          ]
+        },
+        {
+          "id": "physical-elements",
+          "kind": "teaching",
+          "heading": "Bốn yếu tố và cùng một cơ chế",
+          "paragraphs": [
+            "Công thức được triển khai đầy đủ với đất, nước, lửa và gió. Mỗi lần đều có nhận biết, các kiểu quan niệm, nhận là của mình, ham thích và lý do chưa hiểu thấu. Phần lặp giữ cho người đọc thấy vấn đề không chỉ nằm ở một đối tượng.",
+            "Đất ở đây không đơn thuần là một thửa đất đang tranh chấp; bài kinh cũng không đề nghị một lý thuyết vật lý mới. Điều được xem xét là cách biết và quan niệm đối với những gì người ta nhận biết."
+          ],
+          "meaningUnits": [
+            "physical-elements"
+          ]
+        },
+        {
+          "id": "beings-and-deities",
+          "kind": "teaching",
+          "heading": "Từ chúng sinh tới những đối tượng được tôn cao",
+          "paragraphs": [
+            "Danh sách tiếp tục với các chúng sinh; các vị trời; Sanh chủ, tức Pajāpati; Phạm thiên; chư thiên Quang Âm, Biến Tịnh, Quảng Quả; và Thắng giả, tức Abhibhū. Mỗi đối tượng đều đi qua cùng công thức.",
+            "Các tên này thuộc bối cảnh tư tưởng và đời sống tôn giáo của bài kinh. Vai trò của chúng ở đây là mở rộng phạm vi xem xét: điều được cho là thiêng liêng hoặc cao quý vẫn có thể thành nơi người chưa hiểu thấu dựng quan niệm và bám giữ. Việc nêu một danh xưng không tự đồng nghĩa Đức Phật xác nhận người mang danh xưng ấy là đấng tạo hóa tối cao."
+          ],
+          "meaningUnits": [
+            "beings-deities"
+          ]
+        },
+        {
+          "id": "formless-domains",
+          "kind": "teaching",
+          "heading": "Cả những phạm vi thiền định vi tế",
+          "paragraphs": [
+            "Tiếp đó là Không vô biên xứ, Thức vô biên xứ, Vô sở hữu xứ và Phi tưởng phi phi tưởng xứ; bản dịch dự án dùng cách gọi “cõi”. Đây là bốn phạm vi gắn với thiền định vô sắc trong cách trình bày kinh điển, không thể quy thành bốn cảm xúc thư giãn.",
+            "Kinh đặt cả bốn vào cùng chuỗi. Bởi vậy, sự tinh tế hoặc khác thường của một đối tượng không tự loại bỏ khả năng bị quan niệm hóa và ham thích. Đoạn này không phải hướng dẫn đạt các trạng thái ấy, cũng không nói rằng có một trải nghiệm rộng lớn là đã hoàn tất giải thoát."
+          ],
+          "meaningUnits": [
+            "formless-domains"
+          ]
+        },
+        {
+          "id": "experience-and-abstractions",
+          "kind": "teaching",
+          "heading": "Điều biết được cũng cần được xem xét",
+          "paragraphs": [
+            "Bốn mục kế là điều được thấy, được nghe, được cảm nhận và được nhận biết. Cái biết không đứng ngoài bài kinh: chính những gì đã thấy, đã học hoặc đã biết cũng có thể thành đối tượng của quan niệm và ham thích.",
+            "“Được cảm nhận” ở đây theo lựa chọn của bản Việt dự án và được dùng với nghĩa rộng. Những khác biệt trong cách dịch chữ này được ghi ở cuối phần diễn giải; điểm đang theo dõi là cả bốn loại kinh nghiệm đều có thể trở thành đối tượng được quan niệm và ham thích.",
+            "Rồi kinh nêu tính đồng nhất, tính đa dạng và tất cả. Đây là những cách nhìn rất bao quát: theo sự thống nhất, theo khác biệt, hoặc theo toàn thể. Bài kinh tiếp tục xem cách người ta quan niệm và bám vào chúng. Vì vậy một cách nhìn rộng lớn vẫn cần được soi xét như các đối tượng trước."
+          ],
+          "meaningUnits": [
+            "modes-of-experience",
+            "unity-diversity-all"
+          ]
+        },
+        {
+          "id": "nibbana",
+          "kind": "teaching",
+          "heading": "Niết-bàn không bị bỏ ngoài danh sách",
+          "paragraphs": [
+            "Mục cuối là Niết-bàn. Người chưa hiểu thấu vẫn có thể nhận biết, quan niệm về Niết-bàn, quan niệm trong hoặc từ đó, nghĩ Niết-bàn là của mình, rồi ham thích.",
+            "Biết tên gọi, ôm một quan niệm về giải thoát và trực tiếp thực chứng là những việc khác nhau. Mạch kinh đang xét cách tiếp cận khi chưa hiểu thấu; chính sự quan niệm và ham thích ấy cần được nhận ra. Người nghe vì thế có thể hướng đến giải thoát mà vẫn phải nhìn lại cách mình đang hướng đến.",
+            "Điểm này làm bài kinh khó hơn một lời khuyên bỏ vật chất: ngay điều được xem là mục tiêu cao nhất vẫn có thể bị đưa vào khuôn “của tôi”. Tuy vậy, đây không phải lý do để kết luận mọi mong muốn tu học đều cần bị loại bỏ; phần tiếp theo nói đến người đang hướng tới mục tiêu giải thoát."
+          ],
+          "meaningUnits": [
+            "nibbana-ordinary",
+            "trainee"
+          ]
+        },
+        {
+          "id": "trainee",
+          "kind": "teaching",
+          "heading": "Còn việc phải làm: trường hợp bậc hữu học",
+          "paragraphs": [
+            "Phần thứ hai nói về vị tỳ-kheo hữu học, chưa đạt mục tiêu nhưng sống hướng đến sự an ổn tối thượng thoát khỏi ràng buộc. Kinh chuyển từ sañjānāti, nhận biết, sang abhijānāti, trực tiếp biết. Đây là khác biệt của cái biết trong đường tu học, không chỉ thay một từ để văn phong hay hơn.",
+            "Vị ấy được dạy không nên quan niệm và không nên ham thích theo chuỗi đã nêu, vì còn cần hiểu thấu. Dạng “không nên” là điều phải tiếp tục thực hiện; không được kể như một sự hoàn tất đã có.",
+            "Toàn bộ hai mươi bốn đối tượng trở lại, từ đất đến Niết-bàn. “Hữu học” là tên một bậc tu học trong Phật pháp, không phải nhãn để tự gắn sau một lần nhận ra phản ứng của mình trong cuộc họp."
+          ],
+          "meaningUnits": [
+            "trainee"
+          ]
+        },
+        {
+          "id": "arahant",
+          "kind": "teaching",
+          "heading": "Đã hiểu thấu: bốn cách trình bày về A-la-hán",
+          "paragraphs": [
+            "Bốn phần kế tiếp cùng nói về bậc A-la-hán: lậu hoặc đã tận, đời sống phạm hạnh viên mãn, việc cần làm đã làm, gánh nặng đã đặt xuống, mục tiêu đã đạt, ràng buộc dẫn đến tiếp tục hiện hữu đã chấm dứt, giải thoát đúng đắn nhờ chánh trí.",
+            "Vị ấy trực tiếp biết nhưng không còn quan niệm và ham thích theo chuỗi ấy. Khác với bậc hữu học, đây là mô tả “không”, không phải lời nhắc “không nên”. Phần đầu nêu lý do đã hiểu thấu đáo.",
+            "Ba phần sau lần lượt nhấn mạnh tham đã chấm dứt, sân đã chấm dứt và si đã chấm dứt. Chúng không mô tả bốn hạng A-la-hán với mức ô nhiễm còn sót khác nhau. Đó là bốn cách làm rõ cùng sự viên mãn. Mỗi phần vẫn đi qua đủ danh sách đối tượng.",
+            "Không ham thích ở đây cũng không đồng nghĩa chuyển sang căm ghét: chính sân được nêu là đã hết. Và không quan niệm theo chuỗi ấy không có nghĩa mất khả năng biết: kinh tiếp tục nói vị ấy trực tiếp biết."
+          ],
+          "meaningUnits": [
+            "arahant-understanding",
+            "arahant-greed",
+            "arahant-hate",
+            "arahant-delusion"
+          ]
+        },
+        {
+          "id": "tathagata-understanding",
+          "kind": "teaching",
+          "heading": "Như Lai: hiểu thấu đến tận cùng",
+          "paragraphs": [
+            "Phần thứ bảy nêu Như Lai, bậc A-la-hán, Chánh Đẳng Giác. Ngài trực tiếp biết các đối tượng, không quan niệm và không ham thích theo chuỗi đã nói. Lý do được diễn đạt là Như Lai đã hiểu thấu đến tận cùng.",
+            "“Đến tận cùng” nhấn mạnh sự hiểu thấu của Như Lai đối với toàn bộ các đối tượng đã được triển khai. Từ đầu đến đây, bài giảng giữ cùng danh sách để làm sáng tỏ những khác biệt trong cách biết và tình trạng tu học."
+          ],
+          "meaningUnits": [
+            "tathagata-understanding"
+          ]
+        },
+        {
+          "id": "root-of-suffering",
+          "kind": "teaching",
+          "heading": "Ham thích, hữu và chấm dứt mọi ái",
+          "paragraphs": [
+            "Phần thứ tám trở lại Như Lai và đưa ra lý do ở gốc: sự ham thích là gốc của khổ; do hữu có sinh; người đã sinh thì có già và chết. Sau đó là lời về giác ngộ Vô thượng Chánh Đẳng Giác nhờ chấm dứt, ly tham, đoạn diệt, buông bỏ và xả ly mọi ái.",
+            "Ở đây, ham thích cần được đọc trong mạch nối với ái, tức sự khát khao níu giữ. Không có căn cứ để biến đoạn thành một lệnh cấm mọi niềm vui hoặc mọi sở thích. Đồng thời, nếu chỉ nói bớt bám để sống thoải mái hơn thì cũng thu hẹp mục tiêu được kinh nêu.",
+            "Hữu, sinh, già và chết đặt lời dạy trong mạch sinh tử. Một vòng phản ứng tâm lý trong công việc chỉ là ví dụ nhỏ; không thay toàn bộ mạch ấy bằng chuyện một ý nghĩ về cái tôi xuất hiện rồi biến mất. Kinh ở đây nêu các mắt xích này, không giảng đủ mười hai chi duyên khởi trong đoạn ấy."
+          ],
+          "meaningUnits": [
+            "tathagata-root"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Giữ nguyên kết thúc chưa được giải thích",
+          "paragraphs": [
+            "Kinh kết rằng các tỳ-kheo không hoan hỷ với lời Đức Phật. Bài không kể nguyên nhân. Kết thúc này để lại một câu hỏi, và phần diễn giải cũng giữ câu hỏi ấy mở.",
+            "Người đọc có thể cần trở lại nhiều lần với một bài khó. Điều có thể làm ngay là theo dõi từng bước: nhận biết, dựng quan niệm, ham thích; việc cần tu học; và sự hiểu thấu đã hoàn tất. Đó là mạch bài vừa đưa chúng ta đi qua."
+          ],
+          "meaningUnits": [
+            "ending"
+          ]
+        },
+        {
+          "id": "return-to-work",
+          "kind": "practice",
+          "heading": "Trở lại một cuộc trao đổi cụ thể",
+          "paragraphs": [
+            "Lần tới khi ý kiến của mình bị phản bác, thử tách ba việc: điều người kia thực sự nói; phần mình đang suy ra về giá trị bản thân; việc cụ thể cần kiểm chứng hoặc làm tiếp. Sau đó hỏi: tôi đang bảo vệ một chứng cứ, một trách nhiệm, hay đang cần ý kiến của mình phải thắng?",
+            "Đây là gợi ý thực hành của người biên soạn, không phải một phương pháp được MN1 trình bày nguyên văn. Bạn vẫn cần đánh giá phản biện đúng sai, giữ cam kết và bảo vệ người có thể bị ảnh hưởng. Buông sự bám giữ không tự quyết định thay các việc ấy, và một lần nhìn rõ phản ứng chưa phải sự hiểu thấu của A-la-hán."
+          ],
+          "meaningUnits": [
+            "recognition-conceiving",
+            "trainee",
+            "arahant-understanding"
+          ]
+        },
+        {
+          "id": "source-notes",
+          "kind": "clarification",
+          "heading": "Ghi chú cho người muốn đối chiếu sâu hơn",
+          "paragraphs": [
+            "Chuỗi Pāli rất cô đọng. Khi giải thích nó như việc lấy điều được biết làm nền để quy về mình, ta đang dùng một cách đọc có trong chú giải. Từ “tự ngã” không được ghi trực tiếp trong câu Pāli này. Ví dụ công việc soi rõ sự đồng nhất và bám giữ, nhưng không phải bản giải mã đầy đủ cho từng cấu trúc “trong” hay “từ”.",
+            "Ở muta, dự án chọn “được cảm nhận”, Sujato dùng nghĩa điều được suy nghĩ, và Thích Minh Châu dùng “sở tư niệm”. Chưa thu sự khác biệt này thành một nghĩa hẹp chỉ về cảm xúc hoặc xúc giác. Việc nêu tính đồng nhất hay một danh xưng như Sanh chủ cũng chưa tự xác nhận một học thuyết về toàn thể vũ trụ hay một đấng tạo hóa.",
+            "Câu kết “không hoan hỷ” theo Pāli. Có bản Việt tham khảo in câu chính thiếu phủ định nhưng sửa trong chú thích. Nguồn không nêu động cơ của các tỳ-kheo; mọi cách giải thích động cơ ấy cần được nhận diện là cách đọc thêm."
+          ],
+          "meaningUnits": [
+            "recognition-conceiving",
+            "modes-of-experience",
+            "beings-deities",
+            "unity-diversity-all",
+            "ending"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Hiểu điều mình biết, nhìn lại điều mình đang giữ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "before-reading",
+          "kind": "clarification",
+          "heading": "Đọc theo từng phần",
+          "paragraphs": [
+            "Kinh Pháp Môn Căn Bản là bài đầu của Trung Bộ Kinh. Bài giảng có nhiều lần lặp, mỗi lần làm rõ một trường hợp hoặc một lý do. Có thể đọc từng phần, dừng lại suy xét rồi đọc tiếp, không cần vội đi hết những tên và thuật ngữ chưa quen.",
+            "Toàn bài có tám cách trình bày. Những dòng ghi một phần hoặc bài kinh đã kết thúc là phần giúp theo dõi bản văn, không phải lời giảng thêm. Các câu chuyện và gợi ý vận dụng trong phần này do người biên soạn đặt ra."
+          ],
+          "meaningUnits": [
+            "identity",
+            "apparatus"
+          ]
+        },
+        {
+          "id": "shared-library",
+          "kind": "example",
+          "heading": "Một tủ sách chung",
+          "paragraphs": [
+            "Hãy hình dung chúng ta đã nhiều năm chăm một tủ sách của khu dân cư. Một người mới tham gia đề nghị đổi cách sắp xếp cho trẻ em dễ tìm. Ta có những lý do đáng nghe từ kinh nghiệm lâu năm. Nhưng trong lúc trao đổi, có thể nảy thêm ý nghĩ: nếu cách cũ bị đổi, công sức và vai trò của mình cũng bị xem nhẹ.",
+            "Đề nghị mới có thể hợp lý, cũng có thể chưa tính hết việc. Điều cần nhìn là sự khác nhau giữa góp ý từ kinh nghiệm và phải giữ bằng được một cách làm để giữ hình ảnh về mình. Kinh nghiệm vẫn quý; chính kinh nghiệm ấy cũng có thể trở thành điều tâm níu giữ."
+          ],
+          "meaningUnits": [
+            "recognition-conceiving"
+          ]
+        },
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Lời giảng dưới gốc cây sāla",
+          "paragraphs": [
+            "Đức Phật ở rừng Subhaga, tại Ukkaṭṭhā, dưới gốc một cây sāla lớn. Ngài gọi các tỳ-kheo và cho biết sẽ giảng pháp môn về căn bản của mọi pháp. Các vị được nhắc lắng nghe, chú tâm kỹ.",
+            "Bài kinh không bắt đầu bằng một lời khuyên riêng cho một lứa tuổi. Nó lần lượt xem cách người chưa được tu học, bậc còn đang tu học, bậc A-la-hán và Như Lai biết và đối với cùng những đối tượng."
+          ],
+          "meaningUnits": [
+            "setting"
+          ]
+        },
+        {
+          "id": "ordinary-person-and-knowing",
+          "kind": "teaching",
+          "heading": "Biết tên một điều và hiểu thấu điều ấy",
+          "paragraphs": [
+            "Trường hợp đầu là người phàm chưa được học hỏi, chưa thấy và chưa được rèn luyện theo giáo pháp của các bậc Thánh, các bậc chân nhân. Đây là một cách phân biệt trong việc tu học, không dùng tuổi tác, học vấn hoặc địa vị làm thước đo.",
+            "Người ấy nhận biết đất là đất. Sau đó, người ấy quan niệm đất, quan niệm trong đất, quan niệm từ đất, quan niệm đất là của tôi, rồi ham thích đất. Kinh nói nguyên nhân là chưa hiểu thấu đáo.",
+            "Nhận ra đúng một thứ chưa đồng nghĩa đã thấy rõ cách tâm dựng quan niệm và bám vào thứ ấy. Bốn kiểu quan niệm mở rộng vấn đề từ chuyện sở hữu sang những cách nhìn về đối tượng và những quan hệ được dựng quanh nó. Kinh mời nhìn kỹ bước chuyển từ biết sang nắm giữ ấy."
+          ],
+          "meaningUnits": [
+            "ordinary-person",
+            "recognition-conceiving"
+          ]
+        },
+        {
+          "id": "conceiving-clarified",
+          "kind": "clarification",
+          "heading": "Câu chữ cô đọng cần được đọc cẩn thận",
+          "paragraphs": [
+            "Ta có thể tạm hiểu “quan niệm” ở đây là dựng một cách nhìn rồi bám vào cách nhìn ấy. Điều đã biết trở thành chỗ dựa cho nhiều điều nghĩ thêm. Khi quy về mình, nó còn có thể thành điều cần bảo vệ bằng mọi giá.",
+            "Chuyện tủ sách cho thấy một mặt dễ nhận ra: cách sắp xếp do mình chăm chút lâu năm dần gắn với cảm nhận về vai trò của mình. Khi có đề nghị thay đổi, xem lại điều ấy giúp ta dùng kinh nghiệm rõ ràng hơn. Bản thân kinh nghiệm vẫn có giá trị, và đề nghị mới vẫn cần được cân nhắc."
+          ],
+          "meaningUnits": [
+            "recognition-conceiving"
+          ]
+        },
+        {
+          "id": "elements-and-beings",
+          "kind": "teaching",
+          "heading": "Phạm vi rộng hơn chuyện sở hữu",
+          "paragraphs": [
+            "Từ đất, kinh triển khai cùng công thức với nước, lửa và gió. Ở mỗi đối tượng đều có nhận biết, các kiểu quan niệm, nhận là của mình, ham thích và lý do chưa hiểu thấu. Những lần lặp giữ cho mạch ấy hiện rõ.",
+            "Sau đó là các chúng sinh, các vị trời, Sanh chủ hay Pajāpati, Phạm thiên, chư thiên Quang Âm, Biến Tịnh, Quảng Quả và Thắng giả hay Abhibhū. Đây là những đối tượng và danh xưng trong bối cảnh kinh. Không cần dựng thêm một câu chuyện về từng vị để thấy vai trò chung: ngay điều được tôn cao vẫn có thể trở thành chỗ quan niệm và bám giữ."
+          ],
+          "meaningUnits": [
+            "physical-elements",
+            "beings-deities"
+          ]
+        },
+        {
+          "id": "formless-domains",
+          "kind": "teaching",
+          "heading": "Những đối tượng vi tế vẫn được xét đến",
+          "paragraphs": [
+            "Bốn mục tiếp là Không vô biên xứ, Thức vô biên xứ, Vô sở hữu xứ và Phi tưởng phi phi tưởng xứ. Bản Việt của dự án dùng cách gọi “cõi”. Đây là các phạm vi liên hệ thiền định vô sắc được nói đến trong kinh, không phải bốn tâm trạng bình thường.",
+            "Điểm cần theo dõi là cả bốn đều đi vào cùng chuỗi. Một kinh nghiệm đặc biệt, vi tế hay được đánh giá cao không tự chứng minh rằng mọi quan niệm và ham thích đã hết. Bài này không hướng dẫn đạt các trạng thái ấy; nó tiếp tục phân biệt cái biết với việc dựng thêm và níu giữ."
+          ],
+          "meaningUnits": [
+            "formless-domains"
+          ]
+        },
+        {
+          "id": "experience-and-abstractions",
+          "kind": "teaching",
+          "heading": "Cả điều đã thấy, đã nghe và đã biết",
+          "paragraphs": [
+            "Rồi đến điều được thấy, được nghe, được cảm nhận và được nhận biết. Những gì mình đã gặp trong đời không nằm ngoài mạch kinh. Ta có thể biết một điều, rồi dựng quan niệm quanh điều ấy, nhận nó là của mình và ham thích.",
+            "“Cảm nhận” theo bản Việt dự án được dùng với nghĩa rộng. Nó nằm cùng điều được thấy, nghe và nhận biết trong chuỗi đang xét. Những khác biệt giữa các bản dịch ở chữ này được ghi ở cuối, để người muốn đọc sâu có thể đối chiếu.",
+            "Kinh tiếp tục với tính đồng nhất, tính đa dạng và tất cả. Đó là những cách nhìn rất bao quát. Bài vẫn xét cùng một việc: người chưa hiểu thấu dựng quan niệm, nhận là của mình và ham thích chúng. Ngay cả điều mình tưởng đã hiểu về toàn thể cũng được đưa vào sự xem xét ấy."
+          ],
+          "meaningUnits": [
+            "modes-of-experience",
+            "unity-diversity-all"
+          ]
+        },
+        {
+          "id": "nibbana",
+          "kind": "teaching",
+          "heading": "Không lấy cả giải thoát làm điều để chiếm giữ",
+          "paragraphs": [
+            "Đối tượng cuối cùng là Niết-bàn. Kinh nêu rõ người chưa hiểu thấu vẫn có thể quan niệm về Niết-bàn, trong Niết-bàn, từ Niết-bàn, nghĩ Niết-bàn là của mình, rồi ham thích.",
+            "Nghe biết hoặc có một ý niệm về Niết-bàn chưa đồng nghĩa đã thực chứng. Điều được xét ở đây là cách người ấy tiếp cận khi chưa hiểu thấu, không phải lời bảo rằng Niết-bàn là điều gây khổ.",
+            "Như vậy, việc học đạo cũng cần được nhìn lại ở cách tâm đang hướng tới mục tiêu. Ta có thể quý trọng con đường tu học mà không biến một ý niệm về thành tựu thành điều để so hơn kém. Đây là lời giải thích giúp liên hệ, không phải phép tự xác nhận một quả vị."
+          ],
+          "meaningUnits": [
+            "nibbana-ordinary"
+          ]
+        },
+        {
+          "id": "trainee",
+          "kind": "teaching",
+          "heading": "Bậc hữu học: đang hướng tới, chưa hoàn tất",
+          "paragraphs": [
+            "Phần thứ hai nói về một vị tỳ-kheo hữu học, chưa đạt mục tiêu, sống hướng đến sự an ổn tối thượng thoát mọi ràng buộc. Ở đây, kinh dùng “trực tiếp biết”, khác với “nhận biết” trong trường hợp người phàm. Sự khác nhau thuộc cái biết trong đường tu học, không chỉ là biết thêm vài tên hoặc nhớ thêm nhiều kinh nghiệm.",
+            "Vị ấy được dạy không nên quan niệm và không nên ham thích theo chuỗi ấy, để có thể hiểu thấu. Chữ “không nên” giữ rõ phần việc còn phải thực hiện. Không đổi nó thành lời kể rằng vị ấy đã hoàn tất mọi việc.",
+            "Công thức lại đi qua đủ hai mươi bốn đối tượng, từ đất tới Niết-bàn. Hữu học là tên một bậc tu học trong kinh, không phải kết luận có thể tự rút ra chỉ vì mình đã thấy một lần chấp ý riêng."
+          ],
+          "meaningUnits": [
+            "trainee"
+          ]
+        },
+        {
+          "id": "arahant",
+          "kind": "teaching",
+          "heading": "A-la-hán: bốn lý do làm rõ sự viên mãn",
+          "paragraphs": [
+            "Bốn phần kế cùng mô tả bậc A-la-hán: các lậu hoặc đã chấm dứt, đời sống phạm hạnh viên mãn, việc cần làm đã làm, gánh nặng đã đặt xuống, mục đích đã đạt. Những ràng buộc dẫn đến tiếp tục hiện hữu đã tận; vị ấy giải thoát đúng đắn nhờ chánh trí.",
+            "Lậu hoặc ở đây nói đến những nguồn ô nhiễm và ràng buộc trong tâm. Vị ấy vẫn trực tiếp biết, nhưng không quan niệm và không ham thích theo chuỗi đã nêu. Đây là mô tả thực tế “không”, khác lời hướng dẫn “không nên” dành cho bậc còn tu học.",
+            "Lần trình bày đầu nêu lý do đã hiểu thấu đáo. Ba lần sau lần lượt nhấn mạnh tham đã tận, sân đã tận và si đã tận. Tham là sự ham muốn bám giữ; sân là sự thù ghét; si là sự mê mờ không thấy đúng. Kinh nói chúng đã chấm dứt, không chỉ tạm được nén xuống.",
+            "Đó là bốn cách soi rõ cùng bậc viên mãn, không phải bốn nấc A-la-hán còn sót những ô nhiễm khác nhau. Mỗi lần đều trở lại toàn bộ danh sách. Không ham thích cũng không có nghĩa ghét bỏ cuộc đời: ngay sân đã được nói là chấm dứt."
+          ],
+          "meaningUnits": [
+            "arahant-understanding",
+            "arahant-greed",
+            "arahant-hate",
+            "arahant-delusion"
+          ]
+        },
+        {
+          "id": "tathagata-understanding",
+          "kind": "teaching",
+          "heading": "Như Lai: hiểu thấu đến tận cùng",
+          "paragraphs": [
+            "Phần thứ bảy nói về Như Lai, bậc A-la-hán, Chánh Đẳng Giác. Với các đối tượng đã nêu, Ngài trực tiếp biết mà không quan niệm và ham thích theo chuỗi ấy. Kinh nhấn mạnh rằng Như Lai đã hiểu thấu đến tận cùng.",
+            "Điểm nhấn “đến tận cùng” gắn với toàn bộ danh sách từ đất cho đến Niết-bàn. Những đối tượng ấy vẫn được biết; sự quan niệm và ham thích theo cách trình bày ở đầu bài đã chấm dứt."
+          ],
+          "meaningUnits": [
+            "tathagata-understanding"
+          ]
+        },
+        {
+          "id": "root-of-suffering",
+          "kind": "teaching",
+          "heading": "Từ gốc của khổ đến việc chấm dứt ái",
+          "paragraphs": [
+            "Phần thứ tám lại nói về Như Lai và cùng các đối tượng. Lý do lần này đi sâu vào gốc: sự ham thích là gốc của khổ; do hữu có sinh; người đã sinh thì có già và chết. “Hữu” được hiểu trong mạch tiếp diễn hiện hữu và sinh tử, không chỉ một vai trò xã hội còn được giữ hay đã mất.",
+            "Kinh tiếp rằng Như Lai giác ngộ Vô thượng Chánh Đẳng Giác nhờ chấm dứt, ly tham, đoạn diệt, buông bỏ và xả ly mọi ái. Mục tiêu ấy rộng hơn sự nhẹ lòng sau một cuộc bất đồng, dù việc nhìn lại một bất đồng có thể giúp chúng ta bắt đầu học.",
+            "Không lấy câu về ham thích để kết luận rằng vui khi gặp bạn, học một điều mới hay làm việc lành đều là lỗi. Trong mạch này, ham thích nối với ái và sự níu giữ. Nhưng cũng không bỏ phần sinh tử để biến lời dạy thành một mẹo giữ tâm dễ chịu. Đoạn kinh không hứa một thái độ nhẹ nhàng sẽ làm thân hiện tại không già."
+          ],
+          "meaningUnits": [
+            "tathagata-root"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Kết thúc được giữ như trong nguồn",
+          "paragraphs": [
+            "Kinh ghi rằng các tỳ-kheo không hoan hỷ với lời Đức Phật. Kết thúc ấy khác với điều quen gặp trong nhiều bài kinh. Bản văn không nói thêm vì sao.",
+            "Ta có thể để điều chưa được kể ấy còn mở và trở lại mạch chính: biết một điều chưa chắc đã hiểu thấu cách tâm nắm giữ nó; còn tu học thì tiếp tục việc cần làm; khi đã giải thoát, tham, sân và si thực sự chấm dứt."
+          ],
+          "meaningUnits": [
+            "ending"
+          ]
+        },
+        {
+          "id": "small-practice",
+          "kind": "practice",
+          "heading": "Một cách thử trong sinh hoạt hằng ngày",
+          "paragraphs": [
+            "Khi nghe một đề nghị khác với điều mình đã quen, thử chậm lại một chút. Điều người kia đề nghị thực sự là gì? Kinh nghiệm của mình giúp thấy điều gì? Có phần nào trong phản ứng đang xuất phát từ nỗi cần giữ hình ảnh hoặc vai trò của mình?",
+            "Sau đó chọn một việc cụ thể: giải thích một lý do, hỏi thêm, thử một thay đổi nhỏ hoặc giữ điều có căn cứ để giữ. Không cần tự phủ nhận kinh nghiệm, bỏ trách nhiệm hay chiều theo người khác. Câu chuyện tủ sách có thể kết thúc bằng một cách sắp xếp mới, cũng có thể giữ cách cũ sau khi cùng xem xét.",
+            "Đây là gợi ý vận dụng của người biên soạn, không phải chỉ dẫn nguyên văn hoặc phép đo chứng đắc. Giá trị trước mắt là nhìn rõ hơn điều mình biết và điều mình đang níu giữ, để việc tiếp tục học không bị chặn bởi sự khăng khăng về mình."
+          ],
+          "meaningUnits": [
+            "recognition-conceiving",
+            "trainee",
+            "arahant-understanding"
+          ]
+        },
+        {
+          "id": "source-notes",
+          "kind": "clarification",
+          "heading": "Đối chiếu thêm khi muốn đọc sâu",
+          "paragraphs": [
+            "Các cấu trúc về đất, trong đất và từ đất rất ngắn. Một cách giải thích trong chú giải là tâm lấy điều được biết làm nền để quy về một cái tôi, rồi nhận là của mình và muốn níu giữ. Bản Pāli không ghi trực tiếp từ “tự ngã” trong câu này; cần phân biệt câu kinh với phần giải thích ấy.",
+            "Ở chữ muta, bản dự án dùng “điều được cảm nhận”; Sujato hiểu là điều được suy nghĩ, còn Thích Minh Châu dùng “sở tư niệm”. Bản diễn giải giữ nghĩa rộng và ghi lại sự khác biệt. Danh xưng Sanh chủ và các ý “đồng nhất”, “đa dạng”, “tất cả” là các đối tượng được nêu; riêng việc nêu chúng chưa xác nhận một đấng tạo hóa hoặc một học thuyết về vũ trụ.",
+            "Phủ định ở câu kết được xác minh theo Pāli. Bản Việt tham khảo có chú thích sửa câu chính đã in thiếu phủ định. Vì kinh không kể động cơ của người nghe, phần này không kết luận về tính cách hay mức tu chứng của các vị ấy."
+          ],
+          "meaningUnits": [
+            "recognition-conceiving",
+            "modes-of-experience",
+            "beings-deities",
+            "unity-diversity-all",
+            "ending"
+          ]
+        }
+      ]
+    }
+  }
+}

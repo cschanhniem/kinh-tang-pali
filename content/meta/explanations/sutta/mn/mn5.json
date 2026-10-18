@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn5",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "4c81c060-e1c8-4b72-86d3-e2388869a0ac"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "75c3359e-436b-4390-a18a-e0d45fa17b2f"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "fb444f5e-eec1-4435-83f4-d35feacfdeec"
+    }
+  },
+  "reviews": [
+    {
+      "id": "4c81c060-e1c8-4b72-86d3-e2388869a0ac",
+      "audience": "children",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.2,
+        "audience_fit": 9.3,
+        "clarity": 9.2,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đủ 203 Pāli segment và Việt dự án, toàn chú thích và các đối chiếu EN/legacy liên quan. 20 đơn vị theo đúng Sāriputta/Mahāmoggallāna; không quy cả bài thành Đức Phật trực tiếp nói.",
+        "semantic_fidelity": "Bốn trường hợp và sự biết đúng dẫn đến công phu được giữ; không cho rằng nhận lỗi tự động thanh tịnh. Uế nhiễm được giới hạn ở ham muốn xấu, không phủ nhận mong muốn sửa mình. Đã mở rộng viễn ly khỏi nghĩa chỉ yên tiếng.",
+        "core_coverage": "Đủ bốn bát/điều kiện chăm, các nhóm mong độc chiếm, bốn chúng, bốn vật dụng, hai nếp sống, hai bát có vật chứa, vành xe, hai nhóm người tu và vòng hoa kết. Đã thêm tâm chuyên nhất ở nhóm tích cực theo 32.2/33.2.",
+        "logic_context": "Giữ so sánh trong từng cặp, dự đoán có hướng nỗ lực và kết cục cuối đời; không lập thứ hạng toàn bộ bốn người. Các tình huống tỳ-kheo là giả định, thợ xe chỉ như thể hiểu tâm, cuối bài hai vị tán đồng nhau.",
+        "terminology": "Uế nhiễm, tham/sân/si, tùy hỷ được giải nghĩa ngắn; phân biệt tốt nhất ở 15 với tốt đẹp ở 25–27. Viễn ly đã sửa thành có sự yên tĩnh và rời vướng mắc để tu, tránh thu hẹp vào tiếng ồn.",
+        "audience_fit": "Ví dụ lượt kể chuyện giúp trẻ nhìn ý muốn độc chiếm và vẫn được hỏi về lượt mình; bảo vệ quyền yêu cầu tôn trọng. Hình ảnh xác trong bát được giữ trung tính, có giới thiệu là hình ảnh mạnh, không thêm chi tiết; chưa thử đọc với trẻ.",
+        "clarity": "Các cặp bát và phần tiếp theo có tiêu đề rõ, câu tương đối ngắn; danh sách được chia nhóm. Đoạn các phẩm chất cuối vẫn dày và có thể cần người lớn hỗ trợ nhưng không bị biến thành danh sách rời nghĩa.",
+        "editorial_separation": "Chuyện lớp học và bài thử có nhãn rõ; không bịa sự kiện, lời nói hay quyền đọc tâm. Clarification giữ giới hạn của người ngang hàng và phép so sánh biết tâm.",
+        "practical_integrity": "Không coi trẻ là xấu vì có cảm xúc, không buộc chịu nhục, không cấm nhận chăm sóc. Bước thử nhận ra nhu cầu/độc chiếm và sửa một hành động, không gán chứng quả.",
+        "technical_integrity": "AuditExplanations không lỗi; 203 segment phân hoạch 20 đơn vị, tất cả được teaching/clarification bao phủ, năm hashes và manifest blob đúng, NFC/IDs/tác giả hợp lệ. Vẫn draft, chưa ghi điểm; không thay build/UI."
+      },
+      "blockingErrors": [],
+      "notes": "Lượt đọc biên tập bởi tác tử khác với tác tử soạn ban đầu nhưng cùng công cụ gpt-6-astra-pro; không phải chuyên gia Pāli độc lập hoặc thử nghiệm với người đọc thật. Đã đọc toàn Pāli, bản Việt dự án và chú thích; đối chiếu chọn lọc EN/legacy tại các khác biệt có liên quan; xác minh snapshot/hash và chạy auditExplanations. Không ghi hoặc áp dụng đánh giá vào metadata. Hash nội dung đã đọc: f35c7cd60b5c2aac7b89042d2ca736ed2629c9e9d0087f883e907624044fc555. Sửa nhỏ: child what-needs-smoothing/welcoming-help mở nghĩa viễn ly khỏi chỉ tiếng ồn; thêm tâm chuyên nhất theo 32.2/33.2.",
+      "contentHash": "f35c7cd60b5c2aac7b89042d2ca736ed2629c9e9d0087f883e907624044fc555",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn5.html",
+          "sha256": "ec3934cb964950d8256e94c0fdcba83128da586b2d0709af8802eaa5ddfe22c8"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn5_root-pli-ms.json",
+          "sha256": "2597573cc92df66dceeda5a3aeb7d72806c0d0d8001ec879036bd178b34bf0b9"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn5_translation-en-sujato.json",
+          "sha256": "064748f7149a71025e98b8207e60e3dc01a618ba793317c377e5749ccab16b06"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn5_comment-vi-project.json",
+          "sha256": "a6138c966df6c324b7799a170a20a6b048fbe042a9baaef342536b78dc303b6a"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn5_translation-vi-project.json",
+          "sha256": "2d3b310c0ce340e541cc9694f905116acb795f452b34e093852849ec70202c0d"
+        }
+      ]
+    },
+    {
+      "id": "75c3359e-436b-4390-a18a-e0d45fa17b2f",
+      "audience": "adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.7,
+        "logic_context": 9.7,
+        "terminology": 9.4,
+        "audience_fit": 9.4,
+        "clarity": 9.4,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Toàn văn Pāli/Việt và chú thích đã đọc; các khác biệt ngang hàng, bát đậy bát, chủ thể mở và phép so sánh biết tâm được kiểm với nguồn phụ chọn lọc. Người nói và khóa nguồn đúng.",
+        "semantic_fidelity": "Giữ mối quan hệ biết đúng–mong muốn–nỗ lực–đoạn trừ, không nói chỉ tự nhận sạch là sạch. Các ước muốn bất thiện tách khỏi nhu cầu chính đáng; hạnh khắc khổ không tự chứng minh thanh tịnh.",
+        "core_coverage": "Đủ 20 đơn vị, mọi nhánh của bốn trường hợp, danh sách ưu tiên/giảng/kính trọng/vật dụng, hai ví dụ vật chứa, chuyện thợ và hai nhóm người học cuối. Không có phần chính chỉ được gắn mã qua ví dụ đời thường.",
+        "logic_context": "Giữ cả hai phép so sánh từng cặp, điều kiện thấy/nghe đã hoặc chưa bỏ ham muốn, giả định ở loạt tỳ-kheo, và phạm vi như thể của chuyện người thợ. Kết bài đúng hai vị tán đồng.",
+        "terminology": "Uế nhiễm, tướng đẹp và động lực sửa tâm phân biệt rõ; giữ agga/tốt nhất khác paṇīta/tốt đẹp. Ngang hàng không bị thu vào chức vụ hay tuổi; cái tâm trong phép so sánh được nêu là có lựa chọn cách đọc.",
+        "audience_fit": "Ví dụ cơ hội trình bày công việc tách yêu cầu được ghi nhận công bằng khỏi độc chiếm; phù hợp trách nhiệm và quan hệ. Không coi nhu cầu đời sống là uế nhiễm tự thân; chưa thử với người đọc thật.",
+        "clarity": "Lập luận từ ma trận bốn trường hợp đến ví dụ, hình thức/bên trong và tiếp nhận chỉ lỗi rõ. Các đoạn liệt kê vẫn tương đối dài nhưng nhóm ý có điểm nối; ít lời cảnh báo lặp.",
+        "editorial_separation": "Ví dụ dự án và thực hành nhận diện; lựa chọn dịch bất định nằm trong note, không giả lời kinh. Ranh giới nguồn và diễn giải không bị đánh tráo qua các dấu trích.",
+        "practical_integrity": "Không cổ vũ bêu lỗi công khai, không bỏ nhu cầu thật hay dùng cái biết để tự chứng. Bước ứng dụng có căn cứ, phân biệt nhu cầu có thể trao đổi với độc chiếm và hướng sửa thực tế.",
+        "technical_integrity": "Đã chạy audit không lỗi, kiểm toàn bộ hashes, Pāli manifest, map, các kinds, NFC và authors; trạng thái còn draft. Không tuyên bố CI/build hoặc thử UI đã chạy."
+      },
+      "blockingErrors": [],
+      "notes": "Lượt đọc biên tập bởi tác tử khác với tác tử soạn ban đầu nhưng cùng công cụ gpt-6-astra-pro; không phải chuyên gia Pāli độc lập hoặc thử nghiệm với người đọc thật. Đã đọc toàn Pāli, bản Việt dự án và chú thích; đối chiếu chọn lọc EN/legacy tại các khác biệt có liên quan; xác minh snapshot/hash và chạy auditExplanations. Không ghi hoặc áp dụng đánh giá vào metadata. Hash nội dung đã đọc: 18697c150263f4b7e87fc765b86b5c54e7823abfeea0248dd58a820ad4b3dfd5. Sửa nhỏ: child what-needs-smoothing/welcoming-help mở nghĩa viễn ly khỏi chỉ tiếng ồn; thêm tâm chuyên nhất theo 32.2/33.2.",
+      "contentHash": "18697c150263f4b7e87fc765b86b5c54e7823abfeea0248dd58a820ad4b3dfd5",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn5.html",
+          "sha256": "ec3934cb964950d8256e94c0fdcba83128da586b2d0709af8802eaa5ddfe22c8"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn5_root-pli-ms.json",
+          "sha256": "2597573cc92df66dceeda5a3aeb7d72806c0d0d8001ec879036bd178b34bf0b9"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn5_translation-en-sujato.json",
+          "sha256": "064748f7149a71025e98b8207e60e3dc01a618ba793317c377e5749ccab16b06"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn5_comment-vi-project.json",
+          "sha256": "a6138c966df6c324b7799a170a20a6b048fbe042a9baaef342536b78dc303b6a"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn5_translation-vi-project.json",
+          "sha256": "2d3b310c0ce340e541cc9694f905116acb795f452b34e093852849ec70202c0d"
+        }
+      ]
+    },
+    {
+      "id": "fb444f5e-eec1-4435-83f4-d35feacfdeec",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.7,
+        "logic_context": 9.7,
+        "terminology": 9.3,
+        "audience_fit": 9.4,
+        "clarity": 9.3,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đầy đủ nguồn chính và chú thích, kiểm các khác biệt nguồn phụ liên quan; đúng 203 khóa và vai trò hai vị. Những lựa chọn không chắc không được biến thành khẳng định mới.",
+        "semantic_fidelity": "Giữ cả việc bỏ điều xấu và gìn giữ khi điều xấu đang vắng; không coi kinh nghiệm hay sự nhận lỗi là thành tựu đủ. Giữ đối chiếu hạnh sống bên ngoài với ham muốn thực tế được thấy/nghe.",
+        "core_coverage": "20 đơn vị đều hiện diện trong giảng/làm rõ, kể cả tất cả đối tượng của ham muốn, hai bát tương phản, việc bào vành, đầy đủ nhóm phẩm chất trái chiều và vòng hoa.",
+        "logic_context": "Không xếp bốn trường hợp thành một thang chung; đúng điều kiện, phủ định, tương phản tốt nhất/tốt đẹp, giả định về tỳ-kheo và lời như thể ở ví dụ. Hai vị cuối cùng tán đồng nhau đúng nguồn.",
+        "terminology": "Các từ uế nhiễm, tướng đẹp, ngang hàng, tùy hỷ được giữ theo nghĩa trong bài hoặc ngữ cảnh. Viễn ly ở bản này không bị định nghĩa hẹp; một số từ tu học vẫn đòi nền đọc kinh.",
+        "audience_fit": "Ví dụ người trẻ chỉ khoản ghi trùng vừa có việc cụ thể vừa giữ quyền sửa và yêu cầu cách góp ý phù hợp; không hạ thấp tuổi tác hoặc ép phục tùng. Đánh giá biên tập, chưa có thử đọc thực tế.",
+        "clarity": "Nhịp vừa phải, từng cặp bát dễ theo; phần phẩm chất dài nhưng chia hai hướng có đối chiếu. Một vài câu hướng dẫn cách hiểu trong mạch chính có thể rút thêm để tăng tự nhiên.",
+        "editorial_separation": "Ví dụ gia đình và gợi ý nhìn lại có nhãn, không thêm chứng ngộ hay khả năng đọc tâm. Chú thích về các lựa chọn từ ngữ giữ đúng giới hạn nguồn.",
+        "practical_integrity": "Cho phép xét góp ý theo sự thật và tôn trọng, không bỏ nhu cầu chăm sóc, không xem một lời thú nhận là hết uế nhiễm. Người đọc tự chọn điều phù hợp, không bị áp khuôn tuổi.",
+        "technical_integrity": "Kiểm thực tế audit, hashes, manifest, 203/20 coverage, Unicode, IDs và authors đều đạt; không ghi/apply grade. Build/UI của PR chưa nằm trong phạm vi kiểm này."
+      },
+      "blockingErrors": [],
+      "notes": "Lượt đọc biên tập bởi tác tử khác với tác tử soạn ban đầu nhưng cùng công cụ gpt-6-astra-pro; không phải chuyên gia Pāli độc lập hoặc thử nghiệm với người đọc thật. Đã đọc toàn Pāli, bản Việt dự án và chú thích; đối chiếu chọn lọc EN/legacy tại các khác biệt có liên quan; xác minh snapshot/hash và chạy auditExplanations. Không ghi hoặc áp dụng đánh giá vào metadata. Hash nội dung đã đọc: ce7790cf384e8637f8766d5a45ed5dee0157124b8442d41346e03fd1419336d4. Sửa nhỏ: child what-needs-smoothing/welcoming-help mở nghĩa viễn ly khỏi chỉ tiếng ồn; thêm tâm chuyên nhất theo 32.2/33.2.",
+      "contentHash": "ce7790cf384e8637f8766d5a45ed5dee0157124b8442d41346e03fd1419336d4",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn5.html",
+          "sha256": "ec3934cb964950d8256e94c0fdcba83128da586b2d0709af8802eaa5ddfe22c8"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn5_root-pli-ms.json",
+          "sha256": "2597573cc92df66dceeda5a3aeb7d72806c0d0d8001ec879036bd178b34bf0b9"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn5_translation-en-sujato.json",
+          "sha256": "064748f7149a71025e98b8207e60e3dc01a618ba793317c377e5749ccab16b06"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn5_comment-vi-project.json",
+          "sha256": "a6138c966df6c324b7799a170a20a6b048fbe042a9baaef342536b78dc303b6a"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn5_translation-vi-project.json",
+          "sha256": "2d3b310c0ce340e541cc9694f905116acb795f452b34e093852849ec70202c0d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,807 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn11",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn11_root-pli-ms.json",
+      "sha256": "3c551b396f317c013f233ba11eb5c9493f3e36160603aca6ee20e926a443b718",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn11_translation-vi-project.json",
+      "sha256": "57f16c00d1ddd90d43c7c397354e060169e40461ef49bebb75d98116d800818d"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn11_translation-en-sujato.json",
+      "sha256": "be2476008c1cc357cf3b374fd49c9871f48ac963c0da8bb4fde5dcc2b90ed684",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn11.html",
+      "sha256": "72f3c45aa90fae13b4b3d1afc160a1d94f12140fa6dadb11ee37a3824d55ae30",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn11_comment-vi-project.json",
+      "sha256": "f32a6d5204b2d0f602421be227bfc422362bb421239f105532a2703050b9c500"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "setting",
+      "title": "Bối cảnh và nhãn bài",
+      "segments": [
+        "mn11:0.1",
+        "mn11:0.2",
+        "mn11:1.1",
+        "mn11:1.2",
+        "mn11:1.3",
+        "mn11:1.4",
+        "mn11:1.5",
+        "mn11:1.6"
+      ],
+      "summary": "Đức Phật tại Sāvatthī, Jetavana, tu viện Anāthapiṇḍika, gọi các tỳ-kheo và giảng."
+    },
+    {
+      "id": "lion-roar",
+      "title": "Lời tuyên bố sư tử hống",
+      "segments": [
+        "mn11:2.1",
+        "mn11:2.2",
+        "mn11:2.3"
+      ],
+      "summary": "Chỉ ở đây có Sa-môn thứ nhất, hai, ba, tư; các giáo phái khác vắng những bậc ấy; nên tuyên bố chính đáng."
+    },
+    {
+      "id": "four-grounds",
+      "title": "Bốn căn cứ được thấy nơi mình",
+      "segments": [
+        "mn11:3.1",
+        "mn11:3.2",
+        "mn11:3.3",
+        "mn11:3.4",
+        "mn11:3.5",
+        "mn11:3.6",
+        "mn11:3.7",
+        "mn11:3.8",
+        "mn11:3.9",
+        "mn11:3.10",
+        "mn11:3.11",
+        "mn11:3.12",
+        "mn11:3.13",
+        "mn11:3.14",
+        "mn11:3.15"
+      ],
+      "summary": "Đối thoại giả định: du sĩ có thể hỏi căn cứ tin chắc. Bốn điều: tin bậc Đạo sư, tin Pháp, viên mãn giới, quý mến pháp hữu cả tại gia/xuất gia; lời tuyên bố lặp đầy đủ."
+    },
+    {
+      "id": "shared-claims",
+      "title": "Phản biện giả định của du sĩ",
+      "segments": [
+        "mn11:4.1",
+        "mn11:4.2",
+        "mn11:4.3",
+        "mn11:4.4",
+        "mn11:4.5"
+      ],
+      "summary": "Họ cũng có bốn điều đối với thầy/pháp/giới/pháp hữu của mình; hỏi khác biệt nằm ở đâu."
+    },
+    {
+      "id": "goal-criteria",
+      "title": "Một cứu cánh và tám phương diện",
+      "segments": [
+        "mn11:5.1",
+        "mn11:5.2",
+        "mn11:5.3",
+        "mn11:5.4",
+        "mn11:5.5",
+        "mn11:5.6",
+        "mn11:5.7",
+        "mn11:5.8",
+        "mn11:5.9",
+        "mn11:5.10",
+        "mn11:5.11",
+        "mn11:5.12",
+        "mn11:5.13",
+        "mn11:5.14",
+        "mn11:5.15",
+        "mn11:5.16",
+        "mn11:5.17",
+        "mn11:5.18",
+        "mn11:5.19",
+        "mn11:5.20",
+        "mn11:5.21",
+        "mn11:5.22",
+        "mn11:5.23",
+        "mn11:5.24",
+        "mn11:5.25",
+        "mn11:5.26",
+        "mn11:5.27",
+        "mn11:5.28"
+      ],
+      "summary": "Hỏi và đáp có điều kiện nếu trả lời đúng: một mục tiêu, không nhiều; dành cho không tham/sân/si/ái/thủ, có hiểu biết, không thiên vị-chống đối, ưa thích không phóng diễn; giữ cả vế khẳng định và phủ định."
+    },
+    {
+      "id": "opposed-views",
+      "title": "Hai kiến chấp đối nghịch",
+      "segments": [
+        "mn11:6.1",
+        "mn11:6.2",
+        "mn11:6.3",
+        "mn11:6.4"
+      ],
+      "summary": "Bám chặt hữu kiến thì chống phi hữu kiến và ngược lại; không hòa chúng thành một chân lý thỏa hiệp."
+    },
+    {
+      "id": "not-understood",
+      "title": "Không hiểu hai kiến nên chưa giải thoát",
+      "segments": [
+        "mn11:7.1",
+        "mn11:7.2",
+        "mn11:7.3"
+      ],
+      "summary": "Không như thật biết sinh, diệt, vị ngọt, nguy hại, lối thoát của hai kiến: còn đủ tám phương diện xấu, không thoát sinh già chết sầu bi khổ ưu não."
+    },
+    {
+      "id": "understood",
+      "title": "Hiểu như thật và giải thoát",
+      "segments": [
+        "mn11:8.1",
+        "mn11:8.2",
+        "mn11:8.3"
+      ],
+      "summary": "Biết như thật đủ năm mặt hai kiến: hết tham/sân/si/ái/thủ, có hiểu biết, không thuận-chống, ưa thích không phóng diễn; thoát sinh già chết và khổ."
+    },
+    {
+      "id": "four-clingings",
+      "title": "Bốn loại thủ",
+      "segments": [
+        "mn11:9.1",
+        "mn11:9.2",
+        "mn11:9.3"
+      ],
+      "summary": "Dục thủ, kiến thủ, giới cấm thủ, ngã luận thủ; phải mở nghĩa từng loại khi diễn giải."
+    },
+    {
+      "id": "partial-one",
+      "title": "Chỉ hiểu dục thủ",
+      "segments": [
+        "mn11:10.1",
+        "mn11:10.2",
+        "mn11:10.3",
+        "mn11:10.4",
+        "mn11:10.5",
+        "mn11:10.6",
+        "mn11:10.7",
+        "mn11:10.8"
+      ],
+      "summary": "Tuyên bố hiểu hết nhưng chỉ mô tả đúng dục thủ, chưa hiểu ba loại còn lại; giữ lý do không biết ba điều."
+    },
+    {
+      "id": "partial-two",
+      "title": "Hiểu hai loại đầu",
+      "segments": [
+        "mn11:11.1",
+        "mn11:11.2",
+        "mn11:11.3",
+        "mn11:11.4",
+        "mn11:11.5",
+        "mn11:11.6",
+        "mn11:11.7",
+        "mn11:11.8"
+      ],
+      "summary": "Hiểu dục thủ và kiến thủ nhưng chưa giới cấm thủ/ngã luận thủ; lý do không biết hai điều."
+    },
+    {
+      "id": "partial-three",
+      "title": "Hiểu ba loại đầu",
+      "segments": [
+        "mn11:12.1",
+        "mn11:12.2",
+        "mn11:12.3",
+        "mn11:12.4",
+        "mn11:12.5",
+        "mn11:12.6",
+        "mn11:12.7",
+        "mn11:12.8"
+      ],
+      "summary": "Hiểu dục/kiến/giới cấm thủ nhưng chưa ngã luận thủ; lý do không biết một điều."
+    },
+    {
+      "id": "misplaced-confidence",
+      "title": "Bốn sự tin cậy đặt không đúng chỗ",
+      "segments": [
+        "mn11:13.1",
+        "mn11:13.2",
+        "mn11:13.3",
+        "mn11:13.4",
+        "mn11:13.5",
+        "mn11:13.6"
+      ],
+      "summary": "Trong giáo pháp/giới luật giảng không khéo, không giải thoát/an tịnh, không do Chánh Đẳng Giác: bốn phẩm chất mở đầu không đặt đúng chỗ; không chỉ gọi chưa hoàn toàn."
+    },
+    {
+      "id": "complete-understanding",
+      "title": "Như Lai giảng đúng cả bốn thủ",
+      "segments": [
+        "mn11:14.1",
+        "mn11:14.2"
+      ],
+      "summary": "Như Lai A-la-hán Chánh Đẳng Giác tuyên bố và mô tả đúng sự hiểu thấu mọi thủ, nêu đủ cả bốn; giữ vế sammā mà English lược."
+    },
+    {
+      "id": "rightly-placed-confidence",
+      "title": "Bốn sự tin cậy đặt đúng chỗ",
+      "segments": [
+        "mn11:15.1",
+        "mn11:15.2",
+        "mn11:15.3",
+        "mn11:15.4",
+        "mn11:15.5",
+        "mn11:15.6"
+      ],
+      "summary": "Bốn phẩm chất ở trong giáo pháp/giới luật được giảng khéo, giải thoát, an tịnh, do Chánh Đẳng Giác công bố thì đặt đúng chỗ."
+    },
+    {
+      "id": "conditioned-chain",
+      "title": "Lần theo nguồn gốc chấp thủ",
+      "segments": [
+        "mn11:16.1",
+        "mn11:16.2",
+        "mn11:16.3",
+        "mn11:16.4",
+        "mn11:16.5",
+        "mn11:16.6",
+        "mn11:16.7",
+        "mn11:16.8",
+        "mn11:16.9",
+        "mn11:16.10",
+        "mn11:16.11",
+        "mn11:16.12",
+        "mn11:16.13",
+        "mn11:16.14",
+        "mn11:16.15",
+        "mn11:16.16"
+      ],
+      "summary": "Thủ do ái; ái do thọ; thọ do xúc; xúc do sáu xứ; sáu xứ do danh-sắc; danh-sắc do thức; thức do hành; hành do vô minh. Mỗi quan hệ có bốn cách nói nguồn/sinh/khởi, không bốn nguyên nhân riêng."
+    },
+    {
+      "id": "liberation-ending",
+      "title": "Đoạn vô minh, không thủ và kết thúc",
+      "segments": [
+        "mn11:17.1",
+        "mn11:17.2",
+        "mn11:17.3",
+        "mn11:17.4",
+        "mn11:17.5",
+        "mn11:17.6"
+      ],
+      "summary": "Vô minh đoạn, minh sinh thì không nắm cả bốn thủ; không thủ nên không dao động/lo âu, tự chứng Niết-bàn, biết sinh tận/phạm hạnh hoàn tất/việc xong/không trở lại hiện hữu ấy. Tỳ-kheo hoan hỷ; nhãn bài thứ nhất của phẩm, UID vẫn MN11."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Tin điều gì, hiểu điều ấy đến đâu?",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một lời nói cần có căn cứ",
+          "paragraphs": [
+            "Trong Tiểu Kinh Sư Tử Hống, MN11, Đức Phật đang ở rừng Jeta, trong tu viện của ông Anāthapiṇḍika tại Sāvatthī. Ngài gọi các tỳ-kheo và nói về một lời tuyên bố mạnh mẽ: chỉ trong Giáo pháp này có bốn bậc Sa-môn, tức những người sống đời tu hành, được gọi là bậc thứ nhất, thứ hai, thứ ba và thứ tư; các giáo pháp khác vắng những bậc ấy.",
+            "Ngài gọi cách tuyên bố chính đáng ấy là tiếng sư tử hống. Em có thể hiểu đó là nói vững vàng về điều có căn cứ. Muốn biết căn cứ nằm ở đâu, ta cần theo hết lời giảng phía sau."
+          ],
+          "meaningUnits": [
+            "setting",
+            "lion-roar"
+          ]
+        },
+        {
+          "id": "questions",
+          "kind": "teaching",
+          "heading": "Nếu có người hỏi lại",
+          "paragraphs": [
+            "Đức Phật nêu một cuộc hỏi đáp có thể xảy ra. Nếu những du sĩ theo con đường khác hỏi vì sao các thầy tin chắc như vậy, các thầy có thể nói đến bốn điều mình nhận thấy: tin bậc Thầy, tin lời dạy, giữ giới đầy đủ, và yêu quý những người cùng học Pháp, cả người sống tại gia lẫn người xuất gia.",
+            "Nhưng các du sĩ cũng có thể đáp rằng họ tin thầy và lời dạy của họ, giữ giới và yêu quý bạn cùng tu. Vậy hai bên khác nhau ở đâu? Lời tự nhận giống nhau khiến cuộc hỏi đáp phải đi xa hơn."
+          ],
+          "meaningUnits": [
+            "four-grounds",
+            "shared-claims"
+          ]
+        },
+        {
+          "id": "teams",
+          "kind": "example",
+          "heading": "Ví dụ: hai nhóm cùng nói mình chơi đẹp",
+          "paragraphs": [
+            "Hai nhóm bạn đều nói: nhóm mình có người hướng dẫn giỏi, có luật và ai cũng quý nhau. Chừng ấy chưa cho em biết lúc tranh lượt chơi, các bạn có thật sự làm đúng điều đã nói hay không. Đây là ví dụ do người biên soạn đặt ra để giúp hiểu vì sao một lời tự nhận cần được xem kỹ."
+          ],
+          "meaningUnits": [
+            "shared-claims"
+          ]
+        },
+        {
+          "id": "destination",
+          "kind": "teaching",
+          "heading": "Điều người tu hướng đến",
+          "paragraphs": [
+            "Đức Phật dạy các thầy hỏi tiếp về mục tiêu cuối cùng. Nếu trả lời đúng, các du sĩ sẽ nói mục tiêu ấy là một, không phải nhiều. Rồi từng câu hỏi làm rõ người đạt mục tiêu ấy đã thoát điều gì.",
+            "Người ấy không còn tham, sân hay si: không bị ham chiếm, giận dữ và mê lầm trói buộc. Người ấy hết ái, tức sự khát khao bám víu, và hết thủ, tức nắm chặt không buông. Đó là người có hiểu biết, không phải thiếu hiểu biết.",
+            "Người ấy cũng không bị sự bênh vực và chống đối kéo qua kéo lại. Người ấy vui thích trong việc không phóng diễn: tâm không mê thêm thắt, kéo dài những ý nghĩ rối rắm. Mỗi câu trả lời đều phân biệt người đã thoát một sự trói buộc với người còn mắc trong đó."
+          ],
+          "meaningUnits": [
+            "goal-criteria"
+          ]
+        },
+        {
+          "id": "views",
+          "kind": "teaching",
+          "heading": "Khi một quan điểm trở thành điều nắm chặt",
+          "paragraphs": [
+            "Ngài nêu hai quan điểm về sự hiện hữu và sự không hiện hữu, gọi là hữu kiến và phi hữu kiến. Người tu bám chặt quan điểm này thì chống quan điểm kia; người bám quan điểm kia lại chống quan điểm này. Bài kinh đang nói đến những quan điểm sâu về hiện hữu, không chỉ chuyện em thích trò chơi nào."
+          ],
+          "meaningUnits": [
+            "opposed-views"
+          ]
+        },
+        {
+          "id": "look-carefully",
+          "kind": "teaching",
+          "heading": "Hiểu cả điều hấp dẫn lẫn nguy hại",
+          "paragraphs": [
+            "Với cả hai quan điểm, cần hiểu đúng năm mặt: nó sinh từ đâu, chấm dứt ra sao, có điều gì hấp dẫn, có nguy hại gì và có lối thoát nào. Chỉ chọn một phía để cãi chưa phải hiểu đủ.",
+            "Người chưa hiểu như thật vẫn còn tham, sân, si, ái, thủ, thiếu hiểu biết, còn thiên vị bên này, chống bên kia và mê phóng diễn. Đức Phật nói họ chưa thoát sinh, già, chết, buồn thương, than khóc, đau đớn, buồn phiền và khốn khổ.",
+            "Người hiểu như thật năm mặt ấy thì thoát các trói buộc vừa kể, có hiểu biết, không còn bị thiên vị và chống đối kéo đi, vui trong không phóng diễn. Ngài nói họ giải thoát khỏi sinh, già, chết cùng những khổ đau ấy. Đây là sự hiểu thấu trong đường tu, sâu hơn việc chỉ thuộc năm câu hỏi."
+          ],
+          "meaningUnits": [
+            "not-understood",
+            "understood"
+          ]
+        },
+        {
+          "id": "four-holds",
+          "kind": "teaching",
+          "heading": "Bốn cách nắm chặt",
+          "paragraphs": [
+            "Để nhìn rõ hơn, Đức Phật nêu bốn loại thủ. Dục thủ là bám chặt những vui thích qua giác quan. Kiến thủ là bám chặt quan điểm. Giới cấm thủ là bám chặt các điều lệ và cách thực hành. Ngã luận thủ là bám chặt những lý thuyết về một cái tôi.",
+            "Những tên gọi này giúp em thấy rằng người ta không chỉ nắm chặt đồ vật. Một cách nghĩ hay một cách làm cũng có thể trở thành điều mình nhất quyết không chịu xét lại. Bài kinh vẫn quý việc giữ giới đầy đủ. Điều cần hiểu để buông là sự bám chặt vào giới lệ và cách làm, không phải bỏ sống có giới."
+          ],
+          "meaningUnits": [
+            "four-clingings"
+          ]
+        },
+        {
+          "id": "not-yet-all",
+          "kind": "teaching",
+          "heading": "Biết một phần chưa phải biết hết",
+          "paragraphs": [
+            "Có người nói mình giảng sự hiểu thấu mọi loại thủ, nhưng chỉ giảng đúng dục thủ. Ba loại còn lại họ chưa biết, nên chưa thể giảng đúng toàn bộ.",
+            "Có người hiểu thêm kiến thủ, nhưng vẫn thiếu giới cấm thủ và ngã luận thủ. Có người hiểu được ba loại đầu, nhưng còn bỏ sót ngã luận thủ. Đức Phật lần lượt chỉ ra ba phần thiếu, hai phần thiếu rồi một phần thiếu. Còn sót một loại thì lời tuyên bố hiểu hết vẫn chưa đúng."
+          ],
+          "meaningUnits": [
+            "partial-one",
+            "partial-two",
+            "partial-three"
+          ]
+        },
+        {
+          "id": "trust",
+          "kind": "teaching",
+          "heading": "Đặt lòng tin vào đâu?",
+          "paragraphs": [
+            "Nếu một giáo pháp được trình bày không khéo, không đưa đến giải thoát và an tịnh, do người chưa giác ngộ trọn vẹn công bố, thì lòng tin vào thầy, tin lời dạy, giữ giới và tình quý mến người cùng tu được nói là đặt không đúng chỗ.",
+            "Đức Phật nói Như Lai là bậc A-la-hán, đã giải thoát, và Chánh Đẳng Giác, tự giác ngộ trọn vẹn. Ngài giảng đúng sự hiểu thấu cả bốn loại thủ: dục, quan điểm, giới lệ-cách thực hành và lý thuyết về cái tôi. Trong Pháp-Luật, tức lời dạy và giới luật, được giảng khéo và đưa đến giải thoát, an tịnh ấy, bốn điều tin cậy được đặt đúng chỗ. Vấn đề là con đường ấy có thật sự đi đến nơi nó hướng tới hay không."
+          ],
+          "meaningUnits": [
+            "misplaced-confidence",
+            "complete-understanding",
+            "rightly-placed-confidence"
+          ]
+        },
+        {
+          "id": "causes",
+          "kind": "teaching",
+          "heading": "Lần về gốc của sự bám víu",
+          "paragraphs": [
+            "Ngài không dừng ở việc gọi tên chấp thủ. Ngài hỏi chúng bắt nguồn từ đâu, rồi lần ngược từng bước: thủ bắt nguồn từ ái; ái từ thọ, tức cảm giác dễ chịu, khó chịu hoặc không dễ chịu cũng không khó chịu; thọ từ xúc, sự tiếp xúc trong kinh nghiệm; xúc từ sáu xứ, tức mắt, tai, mũi, lưỡi, thân và ý.",
+            "Rồi sáu xứ bắt nguồn từ danh-sắc, phần tâm và phần vật chất; danh-sắc từ thức, sự nhận biết; thức từ hành, những hoạt động tạo tác; hành từ vô minh, sự không biết đúng. Đây là phần sâu, em có thể đọc chậm cùng người lớn. Kinh nhắc nguồn, chỗ sinh và sự khởi lên để soi rõ từng mối liên hệ."
+          ],
+          "meaningUnits": [
+            "conditioned-chain"
+          ]
+        },
+        {
+          "id": "free",
+          "kind": "teaching",
+          "heading": "Khi không còn nắm chặt",
+          "paragraphs": [
+            "Khi vô minh được đoạn trừ và minh, sự hiểu biết sáng rõ, sinh khởi nơi người tu, vị ấy không còn nắm bất kỳ loại nào trong bốn thủ. Không chấp thủ thì không còn dao động lo âu; vị ấy tự mình chứng Niết-bàn.",
+            "Vị ấy biết sự sinh lại đã hết, đời sống tu tập đã hoàn tất, việc cần làm đã xong, không còn trở lại sự hiện hữu này. Các tỳ-kheo hoan hỷ với lời Phật dạy."
+          ],
+          "meaningUnits": [
+            "liberation-ending"
+          ]
+        },
+        {
+          "id": "try",
+          "kind": "practice",
+          "heading": "Một câu hỏi nhỏ khi bất đồng",
+          "paragraphs": [
+            "Khi em và bạn không đồng ý, em có thể dừng một lúc và tự hỏi: mình đang muốn hiểu điều gì, hay chỉ muốn ý mình thắng? Sau đó nghe bạn nói hết một câu. Đây là gợi ý biên tập để tập quan sát sự nắm chặt; một lần bình tĩnh chưa phải thành tựu giải thoát mà kinh nói."
+          ],
+          "meaningUnits": [
+            "four-clingings",
+            "goal-criteria"
+          ]
+        },
+        {
+          "id": "reading",
+          "kind": "clarification",
+          "heading": "Đọc tiếp cùng người lớn",
+          "paragraphs": [
+            "Cuộc đối đáp với du sĩ trong bài là tình huống Đức Phật đặt ra, không phải chuyện một nhóm đã đến rồi chịu thua. “Không phóng diễn” vẫn để chỗ cho em hỏi và tìm hiểu. Tên bốn bậc Sa-môn được giữ như cách kinh nêu; dòng kết “bài thứ nhất” là vị trí trong phẩm, còn mã bài vẫn là MN11. Các đoạn lặp được gộp nhưng các phần thay đổi vẫn được giữ."
+          ],
+          "meaningUnits": [
+            "setting",
+            "lion-roar",
+            "goal-criteria",
+            "liberation-ending"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Lòng tin cần đi cùng sự hiểu thấu",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Từ lời tuyên bố đến căn cứ",
+          "paragraphs": [
+            "Tiểu Kinh Sư Tử Hống, MN11, được Đức Phật giảng cho các tỳ-kheo tại Jetavana, tu viện Anāthapiṇḍika ở Sāvatthī. Ngài mở đầu bằng một tuyên bố dứt khoát: chỉ trong Giáo pháp này có Sa-môn thứ nhất, thứ hai, thứ ba, thứ tư; các giáo pháp khác vắng những bậc ấy. Ngài cho phép các thầy tuyên bố chính đáng như tiếng sư tử hống.",
+            "Phần còn lại làm sáng căn cứ của sự tự tin đó. Cuộc bàn luận đi từ lòng tin và nếp sống của một cộng đồng đến khả năng hiểu thấu chấp thủ, rồi đến nguồn gốc và sự chấm dứt của nó."
+          ],
+          "meaningUnits": [
+            "setting",
+            "lion-roar"
+          ]
+        },
+        {
+          "id": "grounds",
+          "kind": "teaching",
+          "heading": "Bốn điều mà nhiều bên có thể cùng nhận",
+          "paragraphs": [
+            "Đức Phật hướng dẫn một cuộc đối đáp giả định. Nếu du sĩ thuộc đạo khác hỏi dựa vào đâu mà tuyên bố như vậy, các tỳ-kheo có thể nêu bốn pháp đã thấy nơi mình: tin bậc Đạo sư, tin Pháp, giữ giới viên mãn, và quý mến những người cùng đi con đường ấy, cả tại gia lẫn xuất gia.",
+            "Nhưng du sĩ có thể đáp rằng họ cũng có đủ bốn điều đối với thầy, giáo pháp và cộng đồng của họ. Họ sẽ hỏi: khác biệt ở đâu? Chính phản biện này mở đường cho việc xét cứu cánh, thay vì dừng ở sự gắn bó với một nhóm."
+          ],
+          "meaningUnits": [
+            "four-grounds",
+            "shared-claims"
+          ]
+        },
+        {
+          "id": "course",
+          "kind": "example",
+          "heading": "Ví dụ: điều một khóa học hứa hẹn",
+          "paragraphs": [
+            "Hai khóa học đều có người hướng dẫn được kính trọng, quy tắc rõ và học viên gắn bó. Khi chọn học, ta còn cần hỏi nội dung có giải quyết được điều khóa học hứa hay không. Ví dụ biên tập này chỉ làm rõ cách kiểm tra một lời tự nhận; cứu cánh giải thoát trong bài kinh có phạm vi sâu rộng hơn kết quả một khóa học."
+          ],
+          "meaningUnits": [
+            "shared-claims"
+          ]
+        },
+        {
+          "id": "goal",
+          "kind": "teaching",
+          "heading": "Cứu cánh được nhận ra qua những gì đã buông",
+          "paragraphs": [
+            "Câu hỏi đầu tiên là cứu cánh một hay nhiều. Theo Phật, nếu đáp đúng, du sĩ sẽ nói là một. Tám câu hỏi tiếp xác định cứu cánh ấy thuộc về người đã hết tham, hết sân, hết si, hết ái và hết chấp thủ; không thuộc về người vẫn còn năm điều ấy.",
+            "Ba phương diện nữa là có hiểu biết thay cho thiếu hiểu biết; không thiên vị và chống đối; vui thích trong không phóng diễn, thay vì say mê phóng diễn của tâm. Phóng diễn ở đây gợi sự triển khai rối rắm mà tâm ham thích; điều được nêu tích cực là niềm vui khi không còn bị cuốn vào đó. Toàn chuỗi hướng tới phẩm chất thực chứng, không chỉ ý kiến người ta tán thành."
+          ],
+          "meaningUnits": [
+            "goal-criteria"
+          ]
+        },
+        {
+          "id": "views",
+          "kind": "teaching",
+          "heading": "Hai phía đối nghịch của chấp kiến",
+          "paragraphs": [
+            "Ngài xét hữu kiến và phi hữu kiến: quan điểm thiên về hiện hữu và quan điểm thiên về không hiện hữu. Sa-môn hay bà-la-môn nương theo, gần gũi, bám chặt phía này thì chống phía kia. Đổi từ một phía sang phía đối lập vẫn có thể giữ nguyên thói chấp chặt."
+          ],
+          "meaningUnits": [
+            "opposed-views"
+          ]
+        },
+        {
+          "id": "five-faces",
+          "kind": "teaching",
+          "heading": "Thấy đủ năm mặt của một kiến chấp",
+          "paragraphs": [
+            "Điều cần biết như thật ở cả hai quan điểm là sự sinh khởi, biến mất, vị ngọt, nguy hại và lối thoát. Người chưa biết đủ còn tham, sân, si, ái, thủ và thiếu hiểu biết; còn thuận-chống và say mê phóng diễn. Họ chưa thoát sinh, già, chết, sầu thương, than khóc, đau đớn, buồn phiền và khốn quẫn.",
+            "Người biết như thật năm mặt ấy thì có các phẩm chất ngược lại: không còn tham, sân, si, ái, thủ; có hiểu biết; không thuận-chống; vui thích không phóng diễn. Phật nói họ thoát sinh, già, chết cùng các khổ đau vừa nêu. “Biết” trong mạch này là hiểu thấu đưa đến buông chấp, vượt xa khả năng phân tích một lập luận trên giấy."
+          ],
+          "meaningUnits": [
+            "not-understood",
+            "understood"
+          ]
+        },
+        {
+          "id": "four",
+          "kind": "teaching",
+          "heading": "Đủ bốn loại chấp thủ",
+          "paragraphs": [
+            "Bài kinh gọi tên dục thủ, kiến thủ, giới cấm thủ và ngã luận thủ. Có thể mở nghĩa lần lượt là bám vào dục lạc; bám vào quan điểm; bám vào các giới lệ và phép thực hành; bám vào lý thuyết về bản ngã.",
+            "Bốn tên gọi làm rõ vì sao bỏ một đối tượng ham thích chưa đồng nghĩa với hết chấp thủ. Sự bám chặt còn có thể trú trong điều mình tin đúng, trong cách mình thực hành, và trong quan niệm về cái tôi. Chính bài kinh vẫn coi trọng giữ giới viên mãn; giới cấm thủ chỉ sự chấp chặt vào giới lệ và phép thực hành, không đồng nhất với mọi việc giữ giới."
+          ],
+          "meaningUnits": [
+            "four-clingings"
+          ]
+        },
+        {
+          "id": "partial",
+          "kind": "teaching",
+          "heading": "Ba mức hiểu chưa trọn",
+          "paragraphs": [
+            "Phật lần lượt xét ba trường hợp tuyên bố giảng sự hiểu thấu mọi thủ nhưng chưa trình bày đúng toàn bộ. Trường hợp đầu chỉ mô tả đúng dục thủ, còn ba loại chưa biết. Trường hợp hai hiểu thêm kiến thủ, nhưng chưa biết giới cấm thủ và ngã luận thủ.",
+            "Trường hợp ba đã hiểu dục, kiến và giới cấm thủ, song vẫn chưa biết ngã luận thủ. Mỗi lần, lý do của phần giảng thiếu là chưa hiểu chính các loại còn lại. Số phần thiếu giảm từ ba xuống hai rồi một; yêu cầu hiểu thấu mọi thủ vẫn không được đáp ứng khi bản ngã còn nằm ngoài cuộc khảo sát."
+          ],
+          "meaningUnits": [
+            "partial-one",
+            "partial-two",
+            "partial-three"
+          ]
+        },
+        {
+          "id": "confidence",
+          "kind": "teaching",
+          "heading": "Tin cậy có đúng chỗ hay không",
+          "paragraphs": [
+            "Trong một Pháp-Luật được giảng và trình bày không khéo, không dẫn đến giải thoát hay an tịnh, không do bậc Chánh Đẳng Giác công bố, bốn điều ban đầu được xem là đặt không đúng chỗ: tin thầy, tin giáo pháp, giữ giới đầy đủ, quý mến pháp hữu.",
+            "Ngược lại, Như Lai A-la-hán Chánh Đẳng Giác tuyên bố và giảng đúng sự hiểu thấu cả dục thủ, kiến thủ, giới cấm thủ lẫn ngã luận thủ. Trong Pháp-Luật được giảng khéo, dẫn đến giải thoát và an tịnh, do bậc Chánh Đẳng Giác công bố, cả bốn điều tin cậy ấy được đặt đúng chỗ. Lập luận xét khả năng dẫn đến cứu cánh của giáo pháp, cùng sự hiểu trọn các ràng buộc."
+          ],
+          "meaningUnits": [
+            "misplaced-confidence",
+            "complete-understanding",
+            "rightly-placed-confidence"
+          ]
+        },
+        {
+          "id": "chain",
+          "kind": "teaching",
+          "heading": "Truy ngược các điều kiện của thủ",
+          "paragraphs": [
+            "Bốn thủ lấy ái làm nguồn. Ái lấy thọ làm nguồn; thọ từ xúc; xúc từ sáu xứ; sáu xứ từ danh-sắc; danh-sắc từ thức; thức từ hành; hành từ vô minh. Bài kinh lần lượt hỏi nguồn, sự sinh khởi, nơi sinh và khởi điểm để nhấn từng mối liên hệ này.",
+            "Đọc chậm các từ sẽ thấy mạch: ái là khát khao; thọ là cảm thọ dễ chịu, khó chịu hoặc trung tính; xúc là tiếp xúc trong kinh nghiệm. Sáu xứ gồm mắt, tai, mũi, lưỡi, thân, ý. Danh-sắc chỉ phương diện tâm và vật chất; thức là nhận biết; hành là các tạo tác; vô minh là không biết đúng. Đây là chuỗi điều kiện của sự ràng buộc mà kinh đang lần về gốc."
+          ],
+          "meaningUnits": [
+            "conditioned-chain"
+          ]
+        },
+        {
+          "id": "release",
+          "kind": "teaching",
+          "heading": "Minh sinh, không còn nắm cả bốn thủ",
+          "paragraphs": [
+            "Khi vị tỳ-kheo đoạn vô minh và minh sinh khởi, do sự chuyển đổi ấy vị này không nắm dục thủ, kiến thủ, giới cấm thủ hay ngã luận thủ. Không chấp thủ nên không dao động lo âu; không dao động nên tự mình chứng Niết-bàn.",
+            "Vị ấy biết sinh đã tận, đời phạm hạnh hoàn tất, việc cần làm đã làm, không còn trở lại trạng thái hiện hữu này. Các tỳ-kheo hoan hỷ với lời dạy. Như vậy lời mở đầu về sự tự tin được nối tới một mục đích giải thoát trọn vẹn, bao gồm sinh tử."
+          ],
+          "meaningUnits": [
+            "liberation-ending"
+          ]
+        },
+        {
+          "id": "reflection",
+          "kind": "practice",
+          "heading": "Gợi ý quan sát một cuộc tranh luận",
+          "paragraphs": [
+            "Trong một bất đồng, thử ghi riêng điều mình muốn tìm hiểu và điều mình sợ mất nếu nhận sai. Đó có thể là kết quả mong muốn, quan điểm, một nếp làm hay hình ảnh về bản thân. Gợi ý biên tập này giúp bắt đầu quan sát; nó không thay thế sự hiểu thấu và đoạn vô minh được kinh nói tới."
+          ],
+          "meaningUnits": [
+            "opposed-views",
+            "four-clingings"
+          ]
+        },
+        {
+          "id": "source-note",
+          "kind": "clarification",
+          "heading": "Vài điểm cần giữ khi đọc nguồn",
+          "paragraphs": [
+            "Đối đáp với du sĩ là giả định, kèm điều kiện “nếu trả lời đúng”. Các đoạn tiếng Anh lược không được coi là phần Pāli đã bỏ. Bản diễn giải giữ nghĩa tích cực “vui thích không phóng diễn” và việc Như Lai trình bày đúng cả bốn thủ. Chuỗi ở đây kết ở vô minh khi lần ngược; không thêm các mắt xích khác như thể chúng được liệt kê trong đoạn ấy. “Bài thứ nhất” ở cuối là nhãn phẩm, không đổi UID MN11."
+          ],
+          "meaningUnits": [
+            "setting",
+            "goal-criteria",
+            "complete-understanding",
+            "conditioned-chain",
+            "liberation-ending"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Giữ lòng tin sáng rõ, nhìn điều còn nắm chặt",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một lời khẳng định được giải thích đến nơi",
+          "paragraphs": [
+            "Ở Sāvatthī, trong tu viện Anāthapiṇḍika giữa rừng Jeta, Đức Phật giảng Tiểu Kinh Sư Tử Hống cho các tỳ-kheo. Ngài nói chỉ trong Giáo pháp này có bốn bậc Sa-môn, từ bậc thứ nhất đến bậc thứ tư; các giáo pháp khác không có những bậc ấy. Các thầy có thể tuyên bố chính đáng như tiếng sư tử hống.",
+            "Lời khẳng định mạnh ấy đi cùng một mạch giải thích. Đức Phật dẫn người nghe xem xét từ căn cứ của lòng tin đến việc hiểu hết các dạng chấp thủ. Có thể đọc bài theo từng chặng, không cần vội qua những thuật ngữ còn mới."
+          ],
+          "meaningUnits": [
+            "setting",
+            "lion-roar"
+          ]
+        },
+        {
+          "id": "four-grounds",
+          "kind": "teaching",
+          "heading": "Tin thầy, tin Pháp và quý bạn đồng tu",
+          "paragraphs": [
+            "Ngài đặt tình huống: nếu các du sĩ đạo khác hỏi lý do của lời tuyên bố, các thầy nêu bốn điều đã nhận thấy nơi mình. Đó là lòng tin nơi Đạo sư, lòng tin nơi Pháp, sự giữ giới trọn vẹn và tình quý mến pháp hữu, gồm cả cư sĩ và người xuất gia.",
+            "Những du sĩ ấy cũng có thể nói mình tin thầy, tin pháp, giữ giới và quý người cùng học như vậy. Câu hỏi còn lại là điều gì thật sự phân biệt hai bên. Đây là cuộc đối đáp được Phật nêu để hướng dẫn, chưa phải một cuộc gặp đã xảy ra."
+          ],
+          "meaningUnits": [
+            "four-grounds",
+            "shared-claims"
+          ]
+        },
+        {
+          "id": "association",
+          "kind": "example",
+          "heading": "Ví dụ: tình nghĩa trong một nhóm học",
+          "paragraphs": [
+            "Một nhóm bạn đọc đã sinh hoạt nhiều năm có thể rất quý nhau và tin người hướng dẫn. Khi một điều chưa sáng tỏ xuất hiện, tình nghĩa ấy vẫn có thể đi cùng việc cùng nhau hỏi lại và tìm hiểu. Ví dụ của người biên soạn gợi một cách giữ sự gắn bó mà không bỏ phần suy xét."
+          ],
+          "meaningUnits": [
+            "shared-claims"
+          ]
+        },
+        {
+          "id": "goal",
+          "kind": "teaching",
+          "heading": "Cứu cánh không còn các ràng buộc",
+          "paragraphs": [
+            "Đức Phật dạy hỏi cứu cánh là một hay nhiều. Nếu trả lời đúng, du sĩ sẽ nói là một. Ngài tiếp tục xét tám phương diện của người đạt cứu cánh ấy.",
+            "Năm điều đầu là hết tham, hết sân, hết si, hết ái và hết thủ. Ái là sự khát khao bám víu; thủ là nắm chặt. Ở mỗi điều, người đã thoát được phân biệt với người còn mắc. Tiếp đó là có hiểu biết, không phải thiếu hiểu biết; không còn thiên vị và chống đối; vui thích trong không phóng diễn, không say mê tâm thêm thắt rối rắm.",
+            "Mạch hỏi ấy mời ta chú ý vào sự chuyển hóa mà con đường nhắm tới. Việc tuyên bố thuộc một nhóm chưa thay cho việc hiểu rõ cứu cánh."
+          ],
+          "meaningUnits": [
+            "goal-criteria"
+          ]
+        },
+        {
+          "id": "views",
+          "kind": "teaching",
+          "heading": "Hai quan điểm và sự chống đối",
+          "paragraphs": [
+            "Hữu kiến và phi hữu kiến là hai quan điểm thiên về hiện hữu và không hiện hữu. Người tu bám vào hữu kiến chống phi hữu kiến; người bám phi hữu kiến lại chống hữu kiến. Kinh đặt vấn đề ở sự nương theo và chấp chặt mỗi phía."
+          ],
+          "meaningUnits": [
+            "opposed-views"
+          ]
+        },
+        {
+          "id": "five-faces",
+          "kind": "teaching",
+          "heading": "Năm mặt cần hiểu như thật",
+          "paragraphs": [
+            "Đối với cả hai quan điểm ấy, cần thấy chúng sinh khởi thế nào, biến mất thế nào, có vị ngọt gì, nguy hại gì và lối thoát nào. “Vị ngọt” là điều làm người ta bị hấp dẫn và muốn giữ lấy.",
+            "Người chưa hiểu như thật vẫn còn tham, sân, si, ái, thủ và thiếu hiểu biết; còn bênh-chống và vui trong phóng diễn. Ngài nói người ấy chưa thoát sinh, già, chết; chưa thoát buồn thương, than khóc, đau đớn, buồn phiền và bức bách.",
+            "Người hiểu như thật thì hết những ràng buộc đó, có hiểu biết, không còn bênh-chống và vui trong không phóng diễn. Đức Phật nói họ được giải thoát khỏi sinh, già, chết cùng các khổ ấy. Đây là tầm hiểu biết dẫn đến buông tận gốc, không chỉ việc nhớ tên năm mặt."
+          ],
+          "meaningUnits": [
+            "not-understood",
+            "understood"
+          ]
+        },
+        {
+          "id": "four-holds",
+          "kind": "teaching",
+          "heading": "Không chỉ bám vào những gì mình có",
+          "paragraphs": [
+            "Đức Phật nêu bốn thủ. Dục thủ là nắm chặt dục lạc. Kiến thủ là nắm chặt quan điểm. Giới cấm thủ là nắm chặt các giới lệ và phép thực hành. Ngã luận thủ là nắm chặt những lý thuyết về một bản ngã, một cái tôi.",
+            "Như vậy phạm vi xem xét khá rộng. Ngoài những điều dễ chịu muốn giữ, còn có những điều mình tin, cách mình làm và quan niệm về bản thân. Giữ tên bốn thủ giúp chúng ta không bỏ sót phần nào. Việc giữ giới đầy đủ vẫn được bài kinh quý trọng; điều cần buông là sự chấp chặt vào giới lệ, không phải từ bỏ đời sống có giới."
+          ],
+          "meaningUnits": [
+            "four-clingings"
+          ]
+        },
+        {
+          "id": "partial",
+          "kind": "teaching",
+          "heading": "Còn thiếu một phần vẫn chưa hiểu toàn bộ",
+          "paragraphs": [
+            "Có người nhận rằng mình giảng sự hiểu thấu mọi thủ, nhưng chỉ hiểu và trình bày đúng dục thủ. Vì chưa biết ba thủ kia, lời giảng chưa trọn. Có người hiểu cả dục thủ và kiến thủ, song chưa biết giới cấm thủ cùng ngã luận thủ.",
+            "Lại có người hiểu ba loại đầu, nhưng chưa biết ngã luận thủ. Đức Phật đi hết ba trường hợp: thiếu ba, thiếu hai rồi thiếu một. Cách triển khai thong thả cho thấy điều chưa được hiểu không biến mất chỉ vì phần đã hiểu nhiều hơn."
+          ],
+          "meaningUnits": [
+            "partial-one",
+            "partial-two",
+            "partial-three"
+          ]
+        },
+        {
+          "id": "trust",
+          "kind": "teaching",
+          "heading": "Lòng tin được đặt đúng chỗ",
+          "paragraphs": [
+            "Với một Pháp-Luật giảng không khéo, không dẫn đến giải thoát và an tịnh, không do bậc Chánh Đẳng Giác công bố, lòng tin nơi thầy và Pháp, sự giữ giới đầy đủ cùng tình quý pháp hữu được gọi là đặt không đúng chỗ.",
+            "Đức Phật nói Như Lai A-la-hán Chánh Đẳng Giác giảng đúng sự hiểu thấu cả bốn: dục thủ, kiến thủ, giới cấm thủ, ngã luận thủ. Pháp-Luật ấy được giảng khéo, đưa đến giải thoát, an tịnh và do bậc Chánh Đẳng Giác công bố. Trong đó, cả bốn điều tin cậy ban đầu được đặt đúng chỗ. Sự đánh giá gắn với hướng đi và khả năng giải thoát của giáo pháp."
+          ],
+          "meaningUnits": [
+            "misplaced-confidence",
+            "complete-understanding",
+            "rightly-placed-confidence"
+          ]
+        },
+        {
+          "id": "chain-first",
+          "kind": "teaching",
+          "heading": "Từ thủ lần về những điều làm nó sinh",
+          "paragraphs": [
+            "Bốn loại thủ lấy ái làm nguồn. Ái lấy thọ làm nguồn, thọ lấy xúc làm nguồn, xúc lấy sáu xứ làm nguồn. Thọ là cảm giác dễ chịu, khó chịu hoặc trung tính; xúc là sự tiếp xúc trong kinh nghiệm; sáu xứ là mắt, tai, mũi, lưỡi, thân và ý.",
+            "Kinh còn lần tiếp: sáu xứ từ danh-sắc; danh-sắc từ thức; thức từ hành; hành từ vô minh. Danh-sắc chỉ phần tâm và vật chất, thức là nhận biết, hành là các tạo tác, vô minh là không biết đúng. Mỗi chặng đều được hỏi về nguồn, sự khởi, nơi sinh và khởi điểm. Có thể đọc từng mối liên hệ để theo được đường lần về gốc này."
+          ],
+          "meaningUnits": [
+            "conditioned-chain"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Không còn chấp thủ và tự mình chứng biết",
+          "paragraphs": [
+            "Khi vô minh được đoạn trừ và minh sinh khởi, vị tỳ-kheo không còn nắm một loại nào trong bốn thủ. Không chấp thủ thì không dao động lo âu; không dao động thì tự mình chứng Niết-bàn.",
+            "Vị ấy biết sinh đã tận, đời phạm hạnh đã hoàn tất, việc cần làm đã làm, không còn trở lại sự hiện hữu này. Kinh kết với sự hoan hỷ của các tỳ-kheo. Sự an ổn ở đây đi cùng giải thoát trọn vẹn khỏi ràng buộc sinh tử."
+          ],
+          "meaningUnits": [
+            "liberation-ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Dành một khoảng để xét lại điều mình giữ",
+          "paragraphs": [
+            "Có thể chọn một bất đồng nhỏ gần đây và tự hỏi mình đang giữ chặt điều gì: điều dễ chịu, một nhận định, một nếp làm, hay hình ảnh về mình? Chỉ cần nhìn cho rõ trước khi trả lời người khác. Đây là gợi ý thực hành của người biên soạn, không phải phép đo chứng đắc hay lời hứa hết mọi lo âu."
+          ],
+          "meaningUnits": [
+            "four-clingings"
+          ]
+        },
+        {
+          "id": "source-note",
+          "kind": "clarification",
+          "heading": "Lưu ý khi đối chiếu bản kinh",
+          "paragraphs": [
+            "Bản diễn giải gộp lời lặp nhưng giữ đủ tám phương diện cứu cánh và ba mức hiểu thủ còn thiếu. Không phóng diễn vẫn bao gồm sự hiểu biết, không phải ngừng mọi suy xét. Tên bốn bậc Sa-môn giữ theo cách kinh nêu. Chuỗi lần ngược dừng ở vô minh như văn bản; nhãn “bài thứ nhất” cuối kinh chỉ thứ tự trong phẩm, mã bài là MN11."
+          ],
+          "meaningUnits": [
+            "setting",
+            "lion-roar",
+            "goal-criteria",
+            "conditioned-chain",
+            "liberation-ending"
+          ]
+        }
+      ]
+    }
+  }
+}

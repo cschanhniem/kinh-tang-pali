@@ -1,0 +1,910 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn2",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
+      "sha256": "bf242d57e2167daf7aa94b368b31743fde392caaccfe5c488a13c89887872420",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn2_translation-en-sujato.json",
+      "sha256": "e307bba5aa45101db03707d85b852668d7eeeb63eb9f4f111bbdabcc87edf25d",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn2_translation-vi-project.json",
+      "sha256": "c50dfa9311e11f3099925ff5e8800fcf30cf3f557fea961976eef7bbf550f663",
+      "commit": "d61c3d79c73aee87f34cbbed1e96b134d95e72cb"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn2.html",
+      "sha256": "76c500119a1c87c62284905aac296900a91e2a99112f34971e530fdb17d3e722",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn2_comment-vi-project.json",
+      "sha256": "9e0559d96aa2c87d85be2a3801283cfe2e380d611af811a8d3f60ed1fb3c1dd6",
+      "commit": "d61c3d79c73aee87f34cbbed1e96b134d95e72cb"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity-apparatus",
+      "title": "Tên bài, các đề mục và dòng kết",
+      "segments": [
+        "mn2:0.1",
+        "mn2:0.2",
+        "mn2:5.0",
+        "mn2:12.0",
+        "mn2:13.0",
+        "mn2:18.0",
+        "mn2:19.0",
+        "mn2:20.0",
+        "mn2:21.0",
+        "mn2:22.5"
+      ],
+      "summary": "MN2, Kinh Tất Cả Các Lậu Hoặc; bảy đề mục và colophon thuộc cấu trúc bản văn, không phải luận điểm mới."
+    },
+    {
+      "id": "setting",
+      "title": "Bối cảnh và lời mời lắng nghe",
+      "segments": [
+        "mn2:1.1",
+        "mn2:1.2",
+        "mn2:1.3",
+        "mn2:1.4",
+        "mn2:1.5",
+        "mn2:1.6",
+        "mn2:2.1",
+        "mn2:2.2",
+        "mn2:2.3",
+        "mn2:2.4"
+      ],
+      "summary": "Đức Phật tại rừng Jeta, tu viện Anāthapiṇḍika ở Sāvatthī, giảng cho tỳ-kheo pháp môn phòng hộ mọi lậu hoặc; mời lắng nghe, chú tâm kỹ."
+    },
+    {
+      "id": "wise-attention",
+      "title": "Biết và thấy cách chú tâm",
+      "segments": [
+        "mn2:3.1",
+        "mn2:3.2",
+        "mn2:3.3",
+        "mn2:3.4",
+        "mn2:3.5"
+      ],
+      "summary": "Lậu hoặc chấm dứt đối với người biết/thấy chú tâm đúng và sai cách. Sai cách khiến cái chưa sinh sinh, cái đã sinh tăng; đúng cách khiến chưa sinh không sinh, đã sinh được đoạn trừ."
+    },
+    {
+      "id": "seven-methods",
+      "title": "Bảy phương thức khác nhau",
+      "segments": [
+        "mn2:4.1"
+      ],
+      "summary": "Những lậu hoặc cần được đoạn trừ bằng thấy biết, phòng hộ, sử dụng, chịu đựng, tránh né, loại bỏ hoặc tu tập; không áp một phương thức cho tất cả."
+    },
+    {
+      "id": "untrained-attention",
+      "title": "Người chưa tu học chú tâm lạc hướng",
+      "segments": [
+        "mn2:5.1",
+        "mn2:5.2",
+        "mn2:5.3",
+        "mn2:5.4",
+        "mn2:6.1",
+        "mn2:6.2",
+        "mn2:6.3",
+        "mn2:6.4",
+        "mn2:6.5",
+        "mn2:6.6",
+        "mn2:6.7",
+        "mn2:6.8",
+        "mn2:6.9",
+        "mn2:6.10"
+      ],
+      "summary": "Người phàm chưa học/rèn theo Thánh/chân nhân không biết điều nên/không nên chú tâm, nên chú tâm sai chỗ. Ba loại nêu rõ: lậu hoặc về dục, hiện hữu, vô minh. Phân biệt hai chiều phát sinh/tăng trưởng với không phát sinh/được đoạn trừ."
+    },
+    {
+      "id": "self-questions",
+      "title": "Lẩn quẩn về mình qua ba thời",
+      "segments": [
+        "mn2:7.1",
+        "mn2:7.2",
+        "mn2:7.3",
+        "mn2:7.4",
+        "mn2:7.5",
+        "mn2:7.6"
+      ],
+      "summary": "Tác ý sai dẫn đến các câu hỏi chấp về mình: quá khứ có/không, là gì, thế nào, từ gì thành gì; tương lai có/không, là gì, thế nào, từ gì thành gì; hiện tại có/không, là gì, thế nào, từ đâu đến, đi đâu."
+    },
+    {
+      "id": "six-views",
+      "title": "Sáu kiến chấp và hậu quả",
+      "segments": [
+        "mn2:8.1",
+        "mn2:8.2",
+        "mn2:8.3",
+        "mn2:8.4",
+        "mn2:8.5",
+        "mn2:8.6",
+        "mn2:8.7",
+        "mn2:8.8",
+        "mn2:8.9",
+        "mn2:8.10",
+        "mn2:8.11"
+      ],
+      "summary": "Sáu quan điểm: có tự ngã; không có tự ngã; nhận biết tự ngã bằng tự ngã; nhận biết không phải tự ngã bằng tự ngã; nhận biết tự ngã bằng không phải tự ngã; tự ngã nói/cảm nhận/trải nghiệm quả nghiệp thiện ác và thường còn bất biến. Các quan điểm là rừng rậm, hoang mạc, quanh co, dao động, trói buộc; người mắc chưa thoát sinh, già, chết, sầu bi khổ ưu não."
+    },
+    {
+      "id": "trained-attention",
+      "title": "Thánh đệ tử biết hướng chú tâm",
+      "segments": [
+        "mn2:9.1",
+        "mn2:9.2",
+        "mn2:9.3",
+        "mn2:9.4",
+        "mn2:10.1",
+        "mn2:10.2",
+        "mn2:10.3",
+        "mn2:10.4",
+        "mn2:10.5",
+        "mn2:10.6",
+        "mn2:10.7",
+        "mn2:10.8",
+        "mn2:10.9",
+        "mn2:10.10",
+        "mn2:10.11"
+      ],
+      "summary": "Thánh đệ tử có học/rèn luyện biết điều nên chú tâm, không nuôi điều làm ba lậu hoặc sinh/tăng, chú tâm vào điều khiến chưa sinh không sinh, đã sinh được đoạn trừ."
+    },
+    {
+      "id": "seeing",
+      "title": "Thấy bốn sự thật, đoạn ba kiết sử",
+      "segments": [
+        "mn2:11.1",
+        "mn2:11.2",
+        "mn2:11.3",
+        "mn2:11.4"
+      ],
+      "summary": "Tác ý đúng đến khổ, nguồn gốc, sự chấm dứt, đường thực hành chấm dứt khổ; đoạn thân kiến, nghi hoặc, chấp thủ giới cùng nghi thức. Không hạ thành tự đọc bốn câu là chứng đắc."
+    },
+    {
+      "id": "restraint",
+      "title": "Phòng hộ đủ sáu căn",
+      "segments": [
+        "mn2:12.1",
+        "mn2:12.2",
+        "mn2:12.3",
+        "mn2:12.4",
+        "mn2:12.5",
+        "mn2:12.6",
+        "mn2:12.7",
+        "mn2:12.8",
+        "mn2:12.9",
+        "mn2:12.10",
+        "mn2:12.11"
+      ],
+      "summary": "Sau suy xét đúng cách, phòng hộ mắt, tai, mũi, lưỡi, thân, ý. Các lậu hoặc gây khổ sở/nóng bức có thể sinh khi không phòng hộ không sinh nhờ phòng hộ."
+    },
+    {
+      "id": "using",
+      "title": "Sử dụng bốn nhu yếu có suy xét",
+      "segments": [
+        "mn2:13.1",
+        "mn2:13.2",
+        "mn2:13.3",
+        "mn2:14.1",
+        "mn2:14.2",
+        "mn2:15.1",
+        "mn2:15.2",
+        "mn2:16.1",
+        "mn2:16.2",
+        "mn2:17.1",
+        "mn2:17.2"
+      ],
+      "summary": "Y phục để chống lạnh/nóng, ruồi muỗi gió nắng bò sát, che chỗ cần kín; thức ăn để duy trì thân, tránh hại, hỗ trợ phạm hạnh, không chơi/đắm hưởng/làm đẹp, chấm dứt cảm thọ cũ không sinh mới, duy trì/an ổn/không lỗi; chỗ ở chống thời tiết/sinh vật và vui tĩnh cư; thuốc/vật dụng người bệnh giảm đau bệnh. Không dùng những thứ cần thiết có thể làm lậu hoặc gây khổ sinh; dùng có suy xét ngăn chúng."
+    },
+    {
+      "id": "enduring",
+      "title": "Kham nhẫn",
+      "segments": [
+        "mn2:18.1",
+        "mn2:18.2",
+        "mn2:18.3",
+        "mn2:18.4"
+      ],
+      "summary": "Chịu lạnh/nóng, đói/khát, ruồi muỗi gió nắng bò sát, lời thô bạo khó chịu, đau thân dữ dội cả nguy hiểm tính mạng sau suy xét đúng cách; không để lậu hoặc tương ứng sinh. Không tách khỏi thuốc men và tránh nguy hiểm để áp thành bỏ chăm sóc."
+    },
+    {
+      "id": "avoiding",
+      "title": "Tránh nguy hiểm và môi trường bất thiện",
+      "segments": [
+        "mn2:19.1",
+        "mn2:19.2",
+        "mn2:19.3",
+        "mn2:19.4",
+        "mn2:19.5"
+      ],
+      "summary": "Tránh voi/ngựa/bò/chó dữ, rắn, gốc cây, gai, hố, vách dốc, đầm lầy, cống; tránh chỗ ngồi/phạm vi không thích hợp và bạn xấu mà người đồng tu có trí có thể cho liên can điều xấu. Ngăn lậu hoặc do không biết tránh."
+    },
+    {
+      "id": "dispelling",
+      "title": "Loại bỏ điều bất thiện đã sinh",
+      "segments": [
+        "mn2:20.1",
+        "mn2:20.2",
+        "mn2:20.3",
+        "mn2:20.4"
+      ],
+      "summary": "Không chấp nhận nuôi ý nghĩ dục, sân, gây hại, và mọi trạng thái ác/bất thiện mới sinh; từ bỏ, loại bỏ, chấm dứt, không để tiếp tục tồn tại. Khác với kham nhẫn đau thân; không biến thành ghét bản thân vì có ý nghĩ."
+    },
+    {
+      "id": "developing",
+      "title": "Tu tập đủ bảy giác chi",
+      "segments": [
+        "mn2:21.1",
+        "mn2:21.2",
+        "mn2:21.3",
+        "mn2:21.4",
+        "mn2:21.5",
+        "mn2:21.6",
+        "mn2:21.7",
+        "mn2:21.8",
+        "mn2:21.9",
+        "mn2:21.10"
+      ],
+      "summary": "Tu niệm, trạch pháp, tinh tấn, hỷ, khinh an, định, xả; tất cả dựa viễn ly, ly tham, đoạn diệt, hướng buông bỏ. Không chỉ làm mình bình tĩnh hoặc tăng chú ý; có cả yếu tố hỷ."
+    },
+    {
+      "id": "completion",
+      "title": "Hoàn tất, giải thoát và kết thúc hoan hỷ",
+      "segments": [
+        "mn2:22.1",
+        "mn2:22.2",
+        "mn2:22.3",
+        "mn2:22.4"
+      ],
+      "summary": "Khi mỗi loại lậu hoặc được đoạn đúng phương thức, vị ấy phòng hộ tất cả, cắt ái, tháo kiết sử, nhờ thấu hiểu đúng ngã mạn chấm dứt khổ. Các tỳ-kheo hoan hỷ, tán đồng."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Gặp chuyện khó, em có hơn một cách",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening-example",
+          "kind": "example",
+          "heading": "Không phải chuyện nào cũng chỉ cần cố chịu",
+          "paragraphs": [
+            "Em đang cùng bạn làm một món đồ thủ công. Bạn nói một câu khiến em bực. Em muốn nói lại cho bạn đau lòng. Lúc ấy, có thể em cần dừng ý muốn trả đũa, xem mình vừa nghe gì và tìm cách nói rõ điều mình cần.",
+            "Nhưng nếu gần đó có một con chó dữ, việc cần làm lại là tránh xa. Hai chuyện đều khó chịu, mà cách xử lý khác nhau. Bài kinh này giúp chúng ta học cách nhận ra sự khác nhau ấy."
+          ],
+          "meaningUnits": [
+            "seven-methods",
+            "enduring",
+            "avoiding",
+            "dispelling"
+          ]
+        },
+        {
+          "id": "setting-and-taints",
+          "kind": "teaching",
+          "heading": "Những điều làm tâm bị ràng buộc",
+          "paragraphs": [
+            "Kinh Tất Cả Các Lậu Hoặc là bài thứ hai trong Trung Bộ, mang mã MN2. Đức Phật giảng cho các tỳ-kheo tại rừng Jeta, tu viện của ông Anāthapiṇḍika ở Sāvatthī. Ngài mời các vị lắng nghe và chú tâm kỹ.",
+            "Lậu hoặc là tên gọi những điều làm tâm ô nhiễm và bị ràng buộc trong khổ. Bài kinh nêu ba loại: ham muốn chạy theo điều các giác quan thích; sự bám vào hiện hữu trong vòng sinh tử; và vô minh, sự không thấy rõ. Những điều này sâu hơn một lần bực mình."
+          ],
+          "meaningUnits": [
+            "identity-apparatus",
+            "setting",
+            "untrained-attention"
+          ]
+        },
+        {
+          "id": "attention",
+          "kind": "teaching",
+          "heading": "Tâm đang nhìn về phía nào?",
+          "paragraphs": [
+            "Đức Phật nói việc chấm dứt lậu hoặc gắn với biết và thấy cách mình chú tâm. Chú tâm sai cách làm những điều ấy sinh ra hoặc lớn thêm. Chú tâm đúng cách giúp điều chưa sinh không sinh và điều đã sinh được từ bỏ.",
+            "Vì thế, câu hỏi không chỉ là em nghĩ lâu hay nhanh. Cần nhìn xem cách nghĩ ấy đang đưa tâm tới đâu. Kinh kể bảy cách: thấy biết, phòng hộ, sử dụng, chịu đựng, tránh né, loại bỏ và tu tập."
+          ],
+          "meaningUnits": [
+            "wise-attention",
+            "seven-methods"
+          ]
+        },
+        {
+          "id": "seeing-questions",
+          "kind": "teaching",
+          "heading": "1. Thấy biết: đừng mắc mãi trong câu chuyện về mình",
+          "paragraphs": [
+            "Người chưa học và rèn luyện theo giáo pháp của các bậc Thánh có thể không biết điều gì nên chú tâm. Họ nhìn mãi vào điều làm ham muốn, bám giữ và mê mờ tăng lên, nhưng bỏ qua điều giúp những thứ ấy chấm dứt.",
+            "Kinh kể những câu hỏi lẩn quẩn về mình: trước kia mình có tồn tại không, là gì, như thế nào, từ gì thành gì; về sau mình sẽ có hay không, là gì, thế nào, từ gì thành gì; ngay bây giờ mình có hay không, là gì, thế nào, từ đâu đến và sẽ đi đâu.",
+            "Vấn đề ở đây là tâm bị cuốn vào cách hỏi khiến nó ràng buộc thêm. Sự tò mò giúp học hỏi vẫn có chỗ của nó. Khi muốn biết một điều, em có thể nhìn cả câu hỏi lẫn điều nó đang làm cho tâm."
+          ],
+          "meaningUnits": [
+            "untrained-attention",
+            "self-questions"
+          ]
+        },
+        {
+          "id": "six-views",
+          "kind": "teaching",
+          "heading": "Sáu câu trả lời có thể thành dây trói",
+          "paragraphs": [
+            "Người ấy muốn chốt chắc một câu về “cái tôi”, trong kinh gọi là tự ngã. Hai cách đầu là cho rằng mình có tự ngã hoặc không có tự ngã. Ba cách tiếp xoay quanh cái biết: biết tự ngã bằng tự ngã; biết cái không phải tự ngã bằng tự ngã; biết tự ngã bằng cái không phải tự ngã.",
+            "Cách thứ sáu cho rằng có một cái tôi nói, cảm nhận và nhận kết quả của việc thiện ác, rồi cái tôi ấy sẽ tồn tại mãi, không thay đổi. Đây là những ý rất trừu tượng. Kinh ví sự mắc vào chúng như lạc giữa rừng rậm và bị dây trói: người ấy vẫn chưa thoát sinh, già, chết, buồn đau và khổ.",
+            "Chỉ chọn một câu nghe chắc chắn chưa làm người ấy hết khổ. Bài kinh chuyển sang một cách nhìn khác."
+          ],
+          "meaningUnits": [
+            "six-views"
+          ]
+        },
+        {
+          "id": "seeing-four-truths",
+          "kind": "teaching",
+          "heading": "Nhìn vào khổ và đường ra khỏi khổ",
+          "paragraphs": [
+            "Người đã học và rèn luyện theo giáo pháp biết tránh cách chú tâm nuôi lậu hoặc, và chú tâm vào điều giúp chúng chấm dứt. Vị ấy nhìn bốn điều: đây là khổ; đây là điều làm khổ sinh ra; đây là sự chấm dứt khổ; đây là con đường thực hành để chấm dứt khổ.",
+            "Kinh nói nhờ thấy biết như vậy, ba sợi dây được tháo bỏ: thân kiến, sự chấp thân tâm làm cái tôi; nghi hoặc trên đường tu học; và chấp rằng giới cùng nghi thức tự chúng có thể đưa mình đến giải thoát. Đó là việc thấy biết sâu trong tu tập, không chỉ đọc thuộc bốn câu.",
+            "Với em, một bước tìm hiểu nhỏ là đổi từ “mình là người thế nào mãi mãi?” sang nhìn việc đang xảy ra, điều gì đang nuôi khổ và điều gì cần được học để bớt gây khổ."
+          ],
+          "meaningUnits": [
+            "trained-attention",
+            "seeing"
+          ]
+        },
+        {
+          "id": "restraint",
+          "kind": "teaching",
+          "heading": "2. Phòng hộ: giữ gìn những cửa đi vào tâm",
+          "paragraphs": [
+            "Mắt thấy, tai nghe, mũi ngửi, lưỡi nếm, thân cảm nhận và ý nghĩ đều cần được gìn giữ. Vị tỳ-kheo suy xét rồi phòng hộ cả sáu nơi ấy, để các lậu hoặc gây khổ sở, nóng bức không sinh lên như khi không phòng hộ.",
+            "Phòng hộ không phải làm mình không thấy, không nghe gì nữa. Đó là biết giữ gìn khi tiếp xúc, thay vì cứ để ham muốn và phản ứng lôi đi."
+          ],
+          "meaningUnits": [
+            "restraint"
+          ]
+        },
+        {
+          "id": "using",
+          "kind": "teaching",
+          "heading": "3. Sử dụng: có những thứ cần được dùng",
+          "paragraphs": [
+            "Vị tỳ-kheo dùng y phục để chống lạnh nóng, tránh ruồi muỗi, gió nắng, các loài bò sát và che kín những phần cần kín đáo. Y phục có việc của y phục.",
+            "Thức ăn được dùng để nuôi thân, tránh tổn hại và giúp việc tu hành, thay vì vui chơi, đắm hưởng hay làm đẹp. Kinh nói đến chấm dứt cảm thọ cũ, không gây thêm cảm thọ mới, để duy trì sự sống, không có lỗi và sống an ổn. Trong việc ăn uống, có thể hiểu điều này là giảm sự khó chịu đang có mà không làm thân khó chịu thêm.",
+            "Chỗ ở giúp tránh thời tiết khắc nghiệt, sự quấy nhiễu của ruồi muỗi và các loài vật, đồng thời có nơi vui sống tĩnh lặng. Thuốc men và vật dụng cho người bệnh được dùng để giảm đau bệnh đã phát sinh.",
+            "Như vậy, bỏ hết những thứ cần thiết không phải cách được dạy ở đây. Chính việc sử dụng chúng sau khi suy xét giúp ngăn những lậu hoặc có thể sinh khi không sử dụng."
+          ],
+          "meaningUnits": [
+            "using"
+          ]
+        },
+        {
+          "id": "enduring",
+          "kind": "teaching",
+          "heading": "4. Chịu đựng: đừng để khó chịu kéo tâm đi",
+          "paragraphs": [
+            "Có những điều khó chịu cần được kham nhẫn: lạnh nóng, đói khát, ruồi muỗi, gió nắng, các loài bò sát, lời nói thô bạo và đau nơi thân. Kinh kể cả cơn đau rất nặng, có thể nguy hiểm đến tính mạng.",
+            "Vị tỳ-kheo suy xét rồi chịu đựng, để không phát sinh thêm những lậu hoặc gây khổ sở và nóng bức. Rèn sức chịu đựng của tâm đi cùng với việc biết dùng thuốc và biết tránh nguy hiểm, như các phần khác của bài kinh chỉ ra."
+          ],
+          "meaningUnits": [
+            "enduring"
+          ]
+        },
+        {
+          "id": "avoiding",
+          "kind": "teaching",
+          "heading": "5. Tránh né: có chỗ không cần bước vào",
+          "paragraphs": [
+            "Kinh kể những thứ nên tránh: voi, ngựa, bò, chó dữ; rắn; gốc cây, nơi có gai, hố sâu, vách dốc, đầm lầy và cống rãnh. Biết tránh giúp không tự đưa mình vào điều gây hại.",
+            "Vị tỳ-kheo cũng tránh chỗ ngồi, nơi lui tới không thích hợp và bạn xấu. Đó là những hoàn cảnh khiến người cùng tu có trí có thể cho rằng vị ấy liên can đến việc xấu. Ở đây, việc chọn nơi ở, nơi đi và người gần gũi cũng là một phần tu học."
+          ],
+          "meaningUnits": [
+            "avoiding"
+          ]
+        },
+        {
+          "id": "dispelling",
+          "kind": "teaching",
+          "heading": "6. Loại bỏ: không tiếp tục nuôi điều gây hại",
+          "paragraphs": [
+            "Khi ý nghĩ chạy theo dục, sân hận hoặc làm hại đã sinh, vị tỳ-kheo không giữ chúng lại để nuôi lớn. Vị ấy từ bỏ, loại bỏ, chấm dứt chúng. Cách ấy cũng áp dụng với những trạng thái xấu, bất thiện khác vừa sinh.",
+            "Điều này khác với chịu đựng cơn nóng hay một lời khó nghe. Ta có thể kham nhẫn sự khó chịu, đồng thời dứt ý muốn trả đũa. Một ý nghĩ vừa xuất hiện không phải mệnh lệnh em phải làm theo, cũng không phải tên gọi của cả con người em."
+          ],
+          "meaningUnits": [
+            "dispelling"
+          ]
+        },
+        {
+          "id": "developing",
+          "kind": "teaching",
+          "heading": "7. Tu tập: nuôi lớn điều giúp sáng ra",
+          "paragraphs": [
+            "Kinh nêu bảy giác chi, tức bảy yếu tố giúp giác ngộ. Niệm giữ sự chú tâm và không quên việc tu học; trạch pháp là xem xét để hiểu rõ; tinh tấn là bền bỉ thực hành. Hỷ là niềm vui trong tu tập; khinh an là sự lắng dịu; định là tâm vững và tập trung; xả là sự quân bình, không bị thích ghét làm nghiêng ngả.",
+            "Cả bảy được tu dựa trên viễn ly, ly tham và đoạn diệt, hướng đến buông bỏ: rời sự vướng mắc, bớt rồi dứt tham, chấm dứt những điều trói buộc. Như vậy, tu tập có cả niềm vui, sự sáng rõ và sự vững vàng, chứ không chỉ cố chịu hoặc cố đè mọi ý nghĩ xuống."
+          ],
+          "meaningUnits": [
+            "developing"
+          ]
+        },
+        {
+          "id": "completion",
+          "kind": "teaching",
+          "heading": "Bảy cách cùng hướng tới đâu?",
+          "paragraphs": [
+            "Khi những lậu hoặc cần được xử lý bằng từng cách đã được đoạn trừ bằng chính cách ấy, kinh nói vị tỳ-kheo đã phòng hộ mọi lậu hoặc, cắt đứt ái và tháo bỏ những ràng buộc. Nhờ thấu hiểu đúng ngã mạn, sự chấp và so đo về mình, vị ấy chấm dứt khổ.",
+            "Đó là mục tiêu giải thoát của bài kinh, rộng hơn việc làm xong một món đồ thủ công trong yên ổn. Các tỳ-kheo nghe xong hoan hỷ, tán đồng lời Đức Phật."
+          ],
+          "meaningUnits": [
+            "completion"
+          ]
+        },
+        {
+          "id": "small-practice",
+          "kind": "practice",
+          "heading": "Chọn một việc để thử hôm nay",
+          "paragraphs": [
+            "Nghĩ lại một chuyện nhỏ vừa làm em bực. Em cần hiểu rõ điều gì, tránh điều gì, hay dừng nuôi một ý muốn làm hại? Chọn một việc nhìn thấy được: hỏi lại cho rõ, rời chỗ nguy hiểm, hoặc dừng lời trả đũa để nói điều mình cần.",
+            "Sau đó nhìn xem việc ấy đã diễn ra thế nào. Bảy cách giúp mình biết lựa chọn; em không cần làm cả bảy thành một bài kiểm tra mỗi khi gặp chuyện."
+          ],
+          "meaningUnits": [
+            "seven-methods",
+            "wise-attention"
+          ]
+        },
+        {
+          "id": "reading-boundaries",
+          "kind": "clarification",
+          "heading": "Một vài điều cần phân biệt",
+          "paragraphs": [
+            "Những câu chuyện và việc thử làm là gợi ý của người biên soạn. Hướng dẫn về ăn uống, y phục trong kinh được nói với tỳ-kheo; em không cần tự nhịn ăn hoặc tự nhận lỗi vì thấy bữa ăn ngon. Nếu ai làm hại em, em có thể rời đi và nhờ người lớn đáng tin giúp; kham nhẫn không buộc em giấu chuyện ấy.",
+            "Đoạn về kiến chấp không cấm đặt câu hỏi, và đoạn về giới cùng nghi thức không bảo bỏ mọi việc giữ giới. Điều được xem xét là cách bám chặt làm khổ tăng.",
+            "Tên bài, bảy đề mục và dòng báo kết thúc giúp em biết đang đọc phần nào. Chúng là nhãn của bản văn, không phải những lời dạy mới được thêm vào bài kinh."
+          ],
+          "meaningUnits": [
+            "identity-apparatus",
+            "six-views",
+            "seeing",
+            "using",
+            "enduring",
+            "avoiding"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Không phải mọi ràng buộc đều được tháo bằng một cách",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening-example",
+          "kind": "example",
+          "heading": "Một tin nhắn lúc đang bực",
+          "paragraphs": [
+            "Bạn nhận một tin nhắn thiếu tôn trọng. Bạn đọc đi đọc lại, nghĩ cách đáp cho người kia mất mặt. Có thể việc cần làm là ngừng nuôi ý trả đũa, tìm hiểu điều thực sự đã xảy ra và chọn một cách trả lời.",
+            "Nhưng nếu đang ở một tình huống nguy hiểm, chỉ ngồi quan sát cảm xúc chưa đủ. Nếu thiếu những điều cần thiết để sống, chỉ cố chịu cũng chưa phải giải pháp. MN2 phân biệt bảy cách xử lý, tùy điều đang cần được đoạn trừ."
+          ],
+          "meaningUnits": [
+            "seven-methods",
+            "dispelling",
+            "avoiding",
+            "using"
+          ]
+        },
+        {
+          "id": "setting-and-principle",
+          "kind": "teaching",
+          "heading": "Điều cần biết và thấy",
+          "paragraphs": [
+            "Kinh Tất Cả Các Lậu Hoặc là bài thứ hai trong Trung Bộ, mang mã MN2. Đức Phật giảng cho các tỳ-kheo tại rừng Jeta, tu viện của Anāthapiṇḍika ở Sāvatthī. Ngài mở đầu bằng lời mời lắng nghe, chú tâm kỹ, rồi nói sự chấm dứt lậu hoặc thuộc về người biết và thấy.",
+            "Lậu hoặc là những ô nhiễm trói buộc tâm trong khổ. Ba loại được nêu là lậu hoặc về dục, về sự hiện hữu và về vô minh: sự chạy theo dục lạc, bám vào hiện hữu trong sinh tử và không thấy rõ.",
+            "Điều cần biết là chú tâm đúng cách và sai cách. Sai cách làm lậu hoặc chưa sinh phát sinh, đã sinh tăng trưởng. Đúng cách khiến cái chưa sinh không sinh và cái đã sinh được đoạn trừ. Như vậy, độ dài của suy nghĩ hoặc vẻ hợp lý của một lập luận chưa phải tiêu chuẩn cuối; phải thấy hướng tác động của nó."
+          ],
+          "meaningUnits": [
+            "identity-apparatus",
+            "setting",
+            "wise-attention"
+          ]
+        },
+        {
+          "id": "seven-methods",
+          "kind": "teaching",
+          "heading": "Bảy việc không thay nhau hoàn toàn",
+          "paragraphs": [
+            "Kinh nêu bảy phương thức: thấy biết, phòng hộ, sử dụng, chịu đựng, tránh né, loại bỏ và tu tập. Có điều cần được hiểu thấu; có điều cần ngăn từ cửa vào; có nhu yếu phải được dùng; có khó chịu phải kham nhẫn; có nguy hiểm nên tránh; có trạng thái đã sinh cần chấm dứt; và có phẩm chất cần nuôi lớn.",
+            "Điểm chung là suy xét đúng cách. Sự phân biệt giữa các phương thức giúp không đem một thái độ áp lên mọi hoàn cảnh."
+          ],
+          "meaningUnits": [
+            "seven-methods"
+          ]
+        },
+        {
+          "id": "seeing-attention",
+          "kind": "teaching",
+          "heading": "1. Thấy biết: nhìn ra cách mình tự mắc vào",
+          "paragraphs": [
+            "Người phàm chưa được học và rèn luyện theo giáo pháp của các bậc Thánh, các bậc chân nhân không biết điều gì nên chú tâm. Họ nuôi những hướng làm dục lậu, hữu lậu và vô minh lậu tăng lên, đồng thời bỏ qua những hướng có thể làm chúng chấm dứt.",
+            "Kinh lấy ví dụ sự lẩn quẩn quanh mình trong cả ba thời: quá khứ mình có hay không, là gì, như thế nào, từ gì trở thành gì; tương lai mình có hay không, sẽ là gì, ra sao, từ gì trở thành gì; hiện tại mình có hay không, là gì, như thế nào, từ đâu đến và đi đâu.",
+            "Những câu hỏi này được đặt trong mạch chú tâm sai cách, dẫn tới kiến chấp. Trọng tâm không phải cấm học lịch sử, lập kế hoạch hay suy xét một vấn đề khó; đó là thấy khi nào việc hỏi chỉ làm tâm ràng buộc thêm vào một quan niệm về mình."
+          ],
+          "meaningUnits": [
+            "untrained-attention",
+            "self-questions"
+          ]
+        },
+        {
+          "id": "six-views",
+          "kind": "teaching",
+          "heading": "Sáu kiến chấp về tự ngã",
+          "paragraphs": [
+            "Sáu quan điểm được nêu: tôi có một tự ngã; tôi không có tự ngã; tôi nhận biết tự ngã bằng tự ngã; tôi nhận biết cái không phải tự ngã bằng tự ngã; tôi nhận biết tự ngã bằng cái không phải tự ngã.",
+            "Quan điểm thứ sáu cho rằng tự ngã là chủ thể nói, cảm nhận, trải nghiệm quả nghiệp thiện ác, và chủ thể ấy thường còn, bất biến mãi mãi. Đó là sáu cách tâm kết thành một quan điểm để bám lấy, không phải sáu lời giải đáp được Đức Phật trao cho người nghe.",
+            "Kinh ví chúng bằng rừng rậm, hoang mạc, sự quanh co, dao động và dây trói của kiến chấp. Người bị trói vẫn không thoát sinh, già, chết và sầu, bi, khổ, ưu, não. Có được cảm giác chắc chắn về một học thuyết chưa đồng nghĩa đã thoát khổ."
+          ],
+          "meaningUnits": [
+            "six-views"
+          ]
+        },
+        {
+          "id": "seeing-four-truths",
+          "kind": "teaching",
+          "heading": "Hướng cái thấy vào Bốn Sự Thật",
+          "paragraphs": [
+            "Thánh đệ tử có học hỏi và được rèn luyện biết điều gì nên chú tâm: không nuôi những hướng làm ba loại lậu hoặc sinh và tăng, mà chú tâm vào những hướng khiến chúng không sinh hoặc được đoạn trừ.",
+            "Cụ thể, vị ấy chú tâm đến khổ, nguồn gốc của khổ, sự chấm dứt khổ và con đường thực hành đưa đến chấm dứt khổ. Đây là hướng thấy biết đưa người tu ra khỏi vòng kết luận về một tự ngã.",
+            "Kinh nêu ba kiết sử được đoạn trừ: thân kiến, sự chấp thân tâm thành tự ngã; nghi hoặc; và chấp thủ giới cùng nghi thức. Điều được nói là chuyển biến sâu trong cái thấy, không phải hiệu quả tự động của việc nhắc lại bốn mệnh đề."
+          ],
+          "meaningUnits": [
+            "trained-attention",
+            "seeing"
+          ]
+        },
+        {
+          "id": "restraint",
+          "kind": "teaching",
+          "heading": "2. Phòng hộ: không để mọi tiếp xúc nuôi lậu hoặc",
+          "paragraphs": [
+            "Vị tỳ-kheo suy xét rồi phòng hộ mắt, tai, mũi, lưỡi, thân và ý. Sáu cửa tiếp xúc ấy đều được kể, gồm cả hoạt động của tâm.",
+            "Phòng hộ giúp những lậu hoặc gây khổ sở, nóng bức có thể sinh khi buông thả không sinh. Khả năng nhìn, nghe và suy nghĩ vẫn được sử dụng; điều được giữ gìn là cách sống giữa các tiếp xúc, để chúng không tự kéo mình vào ham muốn và ràng buộc."
+          ],
+          "meaningUnits": [
+            "restraint"
+          ]
+        },
+        {
+          "id": "using",
+          "kind": "teaching",
+          "heading": "3. Sử dụng: biết mục đích của vật dụng",
+          "paragraphs": [
+            "Với người xuất gia, y phục được dùng để chống lạnh nóng, ruồi muỗi, gió nắng và các loài bò sát, đồng thời che kín phần thân cần kín đáo. Thức ăn được dùng để duy trì thân, tránh tổn hại và hỗ trợ phạm hạnh, không nhằm vui chơi, đắm hưởng, trang sức hay làm đẹp.",
+            "Trong việc ăn, kinh nêu mục đích chấm dứt cảm thọ cũ, không làm sinh cảm thọ mới, duy trì sự sống, không lỗi và an ổn. Đó là cách dùng có suy xét, hướng về chức năng nuôi sống và tu học.",
+            "Chỗ ở giúp tránh thời tiết khắc nghiệt và sự quấy nhiễu của các loài vật, đồng thời tạo nơi vui sống tĩnh lặng. Thuốc men và vật dụng cho người bệnh nhằm giảm những đau đớn do bệnh đã sinh.",
+            "Có những lậu hoặc có thể sinh vì không sử dụng những điều cần thiết ấy. Kinh vì vậy đưa việc sử dụng vào con đường tu, thay vì coi thiếu thốn tự nó là một thành tựu."
+          ],
+          "meaningUnits": [
+            "using"
+          ]
+        },
+        {
+          "id": "enduring",
+          "kind": "teaching",
+          "heading": "4. Kham nhẫn: ở với khó chịu mà không nuôi thêm ràng buộc",
+          "paragraphs": [
+            "Vị tỳ-kheo suy xét rồi chịu được lạnh nóng, đói khát, ruồi muỗi, gió nắng, các loài bò sát, lời thô bạo và cảm thọ đau nơi thân. Kinh kể cả đau dữ dội, đến mức nguy hiểm tính mạng.",
+            "Đối tượng kham nhẫn ở đây là điều khó chịu đang được trải nghiệm, để không phát sinh thêm những lậu hoặc gây khổ sở, nóng bức. Phần này đứng cạnh việc dùng thuốc và phần tránh nguy hiểm; cả ba cùng thuộc bài giảng."
+          ],
+          "meaningUnits": [
+            "enduring"
+          ]
+        },
+        {
+          "id": "avoiding",
+          "kind": "teaching",
+          "heading": "5. Tránh né: đừng tự bước vào điều gây hại",
+          "paragraphs": [
+            "Voi, ngựa, bò, chó dữ; rắn; gốc cây, nơi có gai, hố sâu, vách dốc, đầm lầy và cống rãnh là những nguy hiểm cụ thể được kể. Vị tỳ-kheo suy xét rồi tránh chúng.",
+            "Vị ấy cũng tránh chỗ ngồi, phạm vi lui tới không thích hợp và bạn xấu: những hoàn cảnh khiến các bạn đồng tu có trí có thể cho rằng vị ấy liên can đến việc xấu. Việc chọn môi trường và sự giao du có vai trò thực tế trong ngăn lậu hoặc.",
+            "Tránh như vậy không phải một thất bại của sức chịu đựng. Nó xử lý một loại điều kiện khác với điều cần kham nhẫn."
+          ],
+          "meaningUnits": [
+            "avoiding"
+          ]
+        },
+        {
+          "id": "dispelling",
+          "kind": "teaching",
+          "heading": "6. Loại bỏ: không tiếp tục nuôi điều bất thiện",
+          "paragraphs": [
+            "Với ý nghĩ về dục, sân hận, gây hại đã sinh, vị tỳ-kheo không chấp nhận nuôi chúng, mà từ bỏ, loại bỏ, chấm dứt và không để tiếp tục tồn tại. Điều này cũng áp dụng cho những trạng thái xấu, bất thiện khác vừa sinh.",
+            "Như vậy, không phải mọi thứ trong tâm đều được đối xử bằng chịu đựng. Có thể kham nhẫn lời khó nghe, đồng thời dứt việc nuôi một dự định trả đũa. Phân biệt được hai việc ấy là một nét rõ của bài kinh."
+          ],
+          "meaningUnits": [
+            "dispelling"
+          ]
+        },
+        {
+          "id": "developing",
+          "kind": "teaching",
+          "heading": "7. Tu tập: phát triển đủ bảy giác chi",
+          "paragraphs": [
+            "Bảy yếu tố giác ngộ là niệm, trạch pháp, tinh tấn, hỷ, khinh an, định và xả. Có sự ghi nhớ, chú tâm không quên đường tu; có xem xét để hiểu rõ; có nỗ lực bền bỉ; có niềm vui; có lắng dịu; có tâm vững, tập trung; và có sự quân bình.",
+            "Tất cả được tu dựa trên viễn ly, ly tham và đoạn diệt, hướng đến buông bỏ. Các điều kiện ấy đặt bảy yếu tố trong mục tiêu giải thoát. Chỉ tăng tập trung để đạt thành tích, hoặc chỉ làm mình dễ chịu, chưa diễn hết điều được nói ở đây.",
+            "Kinh nêu cả hỷ. Con đường vì thế bao gồm sự sáng rõ và niềm vui trong tu tập, đồng thời rời tham và hướng đến buông bỏ."
+          ],
+          "meaningUnits": [
+            "developing"
+          ]
+        },
+        {
+          "id": "completion",
+          "kind": "teaching",
+          "heading": "Mỗi việc được làm bằng cách thích hợp",
+          "paragraphs": [
+            "Khi những lậu hoặc thuộc từng phương thức đã được đoạn trừ bằng phương thức ấy, vị tỳ-kheo được nói là sống phòng hộ mọi lậu hoặc, cắt đứt ái, tháo bỏ kiết sử và nhờ thấu hiểu đúng ngã mạn mà chấm dứt khổ.",
+            "Ngã mạn ở đây rộng hơn thái độ khoe khoang thông thường; lời kết vẫn hướng đến sự ràng buộc quanh mình và toàn bộ khổ trong sinh tử. Các tỳ-kheo hoan hỷ, tán đồng lời Đức Phật."
+          ],
+          "meaningUnits": [
+            "completion"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Chọn đúng việc cho một tình huống thật",
+          "paragraphs": [
+            "Lấy một tình huống còn vướng và hỏi: tôi cần hiểu điều gì; cần phòng hộ tiếp xúc nào; cần dùng nguồn lực thiết yếu nào; điều gì phải kham nhẫn; điều gì nên tránh; trạng thái nào cần chấm dứt; phẩm chất nào cần rèn?",
+            "Không cần biến bảy câu thành thủ tục kéo dài. Chọn một hành động phù hợp nhất rồi thực hiện: dừng đọc lại một tin nhắn để nuôi sân, hỏi một dữ kiện chưa rõ, rời môi trường kéo mình vào việc xấu hoặc dành thời gian tu tập. Sau đó xem điều gì thực sự đã thay đổi."
+          ],
+          "meaningUnits": [
+            "seven-methods",
+            "wise-attention"
+          ]
+        },
+        {
+          "id": "clarification",
+          "kind": "clarification",
+          "heading": "Giới hạn khi vận dụng",
+          "paragraphs": [
+            "Các tình huống và câu hỏi thực hành là đề xuất của người biên soạn. Hướng dẫn bốn vật dụng được nói với tỳ-kheo; vận dụng cho đời sống cư sĩ cần giữ đúng hoàn cảnh. Kham nhẫn không phải lý do bỏ chăm sóc bệnh hoặc chấp nhận người khác gây hại.",
+            "Đoạn về kiến chấp không phủ nhận việc tìm hiểu, và đoạn về giới cùng nghi thức không phủ nhận giới hạnh. Việc dùng một cách hữu ích hôm nay là bước học, không phải bằng chứng đã đạt giải thoát như lời kết của kinh.",
+            "Tên bài, bảy đề mục và dòng kết thuộc phần nhãn của bản văn. Chúng tổ chức việc đọc, không tạo thêm một luận điểm ngoài bài giảng."
+          ],
+          "meaningUnits": [
+            "identity-apparatus",
+            "six-views",
+            "seeing",
+            "using",
+            "enduring",
+            "completion"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Bảy cách tháo gỡ những ràng buộc trong tâm",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening-example",
+          "kind": "example",
+          "heading": "Khi một ý kiến của mình không được chọn",
+          "paragraphs": [
+            "Trong buổi bàn việc của một nhóm thiện nguyện, bạn đưa ra cách làm đã từng có kết quả tốt. Lần này, những người khác chọn cách mới. Bạn có thể hỏi lý do và góp thêm kinh nghiệm. Nhưng nếu cứ nhắc lại rằng mình đã đóng góp bao nhiêu năm, cuộc trao đổi dễ chuyển thành việc bảo vệ vị trí của mình.",
+            "Có lúc cần nhìn rõ điều đang làm mình vướng. Có lúc cần ngừng nuôi ý trách móc. Có tình huống lại cần tránh hẳn vì có sự lừa dối hoặc gây hại. Kinh Tất Cả Các Lậu Hoặc phân biệt những việc ấy, để mỗi khó khăn được xử lý bằng cách thích hợp."
+          ],
+          "meaningUnits": [
+            "seven-methods",
+            "wise-attention",
+            "dispelling",
+            "avoiding"
+          ]
+        },
+        {
+          "id": "setting-and-principle",
+          "kind": "teaching",
+          "heading": "Biết cách mình đang chú tâm",
+          "paragraphs": [
+            "MN2 là bài thứ hai trong Trung Bộ. Đức Phật giảng bài này cho các tỳ-kheo tại rừng Jeta, tu viện của Anāthapiṇḍika ở Sāvatthī. Ngài mời các vị lắng nghe, chú tâm kỹ, rồi dạy rằng lậu hoặc được chấm dứt nơi người biết và thấy.",
+            "Lậu hoặc là những ô nhiễm làm tâm bị ràng buộc trong khổ. Bài kinh nêu ba loại: dục lậu, sự chạy theo dục lạc; hữu lậu, sự bám vào hiện hữu trong sinh tử; và vô minh lậu, sự không thấy rõ. Mục tiêu của bài giảng là tháo bỏ những ràng buộc sâu ấy.",
+            "Điều cần biết và thấy ở đây là chú tâm đúng cách và sai cách. Sai cách khiến lậu hoặc chưa có sinh ra, đã có thì tăng lên. Đúng cách khiến cái chưa sinh không sinh và cái đã sinh được đoạn trừ. Sự chú tâm được xem xét qua hướng đi và kết quả của nó."
+          ],
+          "meaningUnits": [
+            "identity-apparatus",
+            "setting",
+            "wise-attention",
+            "untrained-attention"
+          ]
+        },
+        {
+          "id": "seven-methods",
+          "kind": "teaching",
+          "heading": "Bảy cách có công việc riêng",
+          "paragraphs": [
+            "Bảy phương thức là thấy biết, phòng hộ, sử dụng, chịu đựng, tránh né, loại bỏ và tu tập. Có ràng buộc cần được tháo bằng hiểu biết; có ràng buộc được ngăn nhờ giữ gìn khi tiếp xúc. Có nhu yếu cần dùng, có khó chịu cần chịu, có nguy hiểm cần tránh.",
+            "Với điều bất thiện đã sinh, việc cần làm là từ bỏ. Với những phẩm chất đưa đến giác ngộ, việc cần làm là phát triển. Các cách ấy cùng dựa vào suy xét đúng đắn, nhưng không thể tùy tiện đổi chỗ cho nhau."
+          ],
+          "meaningUnits": [
+            "seven-methods"
+          ]
+        },
+        {
+          "id": "seeing-attention",
+          "kind": "teaching",
+          "heading": "1. Thấy biết: nhận ra vòng suy nghĩ đang trói mình",
+          "paragraphs": [
+            "Người chưa học và rèn luyện theo giáo pháp của các bậc Thánh, các bậc chân nhân không biết điều gì nên chú tâm. Họ chú tâm vào điều làm dục lậu, hữu lậu và vô minh lậu sinh hoặc tăng, còn điều giúp chúng không sinh hoặc được đoạn trừ thì bị bỏ qua.",
+            "Kinh kể một vòng câu hỏi về mình. Trong quá khứ, mình có hay không, là gì, như thế nào, từ gì thành gì? Trong tương lai, mình có hay không, sẽ là gì, ra sao, từ gì thành gì? Ngay hiện tại, mình có hay không, là gì, thế nào, từ đâu đến và sẽ đi đâu?",
+            "Các câu hỏi được xét trong hoàn cảnh chúng kéo tâm vào kiến chấp. Nhìn lại một việc để học từ kinh nghiệm vẫn có ý nghĩa. Nhưng cứ tìm một kết luận đóng kín về con người mình có thể khiến tâm càng vướng."
+          ],
+          "meaningUnits": [
+            "untrained-attention",
+            "self-questions"
+          ]
+        },
+        {
+          "id": "six-views",
+          "kind": "teaching",
+          "heading": "Sáu cách bám vào một quan niệm về tự ngã",
+          "paragraphs": [
+            "Tự ngã là cái tôi mà người ấy cho là có thể xác định chắc chắn. Sáu quan điểm được nêu gồm: mình có tự ngã; mình không có tự ngã; mình nhận biết tự ngã bằng tự ngã; mình nhận biết cái không phải tự ngã bằng tự ngã; mình nhận biết tự ngã bằng cái không phải tự ngã.",
+            "Quan điểm thứ sáu cho rằng tự ngã là chủ thể nói, cảm nhận và hưởng kết quả của nghiệp thiện ác, rồi chủ thể ấy thường còn, không thay đổi. Những cách lập luận khác nhau này đều có thể trở thành chỗ để tâm bám cứng.",
+            "Bài kinh ví chúng như rừng rậm, hoang mạc, sự quanh co, dao động và dây trói của kiến chấp. Bị mắc trong đó, người ấy vẫn chưa thoát sinh, già, chết, sầu, bi, khổ, ưu, não. Sự chắc chắn trong suy nghĩ chưa phải sự giải thoát."
+          ],
+          "meaningUnits": [
+            "six-views"
+          ]
+        },
+        {
+          "id": "seeing-four-truths",
+          "kind": "teaching",
+          "heading": "Quay sang khổ và con đường chấm dứt khổ",
+          "paragraphs": [
+            "Thánh đệ tử có học hỏi và được rèn luyện biết điều nên chú tâm. Vị ấy không nuôi những hướng làm ba loại lậu hoặc sinh và tăng; thay vào đó, chú tâm vào điều giúp chúng không sinh và được từ bỏ.",
+            "Cụ thể, vị ấy chú tâm đúng cách đến bốn điều: khổ, nguồn gốc của khổ, sự chấm dứt khổ và con đường thực hành đưa đến sự chấm dứt ấy. Việc thấy biết có một hướng thực hành rõ ràng.",
+            "Kinh nói nhờ vậy ba kiết sử được đoạn trừ: thân kiến, sự chấp thân tâm thành tự ngã; nghi hoặc; và chấp thủ giới cùng nghi thức. Đây là sự thay đổi sâu trong cái thấy của người tu, không phải chỉ đổi sang thuộc một bộ câu trả lời khác."
+          ],
+          "meaningUnits": [
+            "trained-attention",
+            "seeing"
+          ]
+        },
+        {
+          "id": "restraint",
+          "kind": "teaching",
+          "heading": "2. Phòng hộ: giữ gìn giữa những tiếp xúc",
+          "paragraphs": [
+            "Vị tỳ-kheo suy xét rồi phòng hộ cả mắt, tai, mũi, lưỡi, thân và ý. Những gì nhìn, nghe, ngửi, nếm, cảm nhận nơi thân, cùng hoạt động của tâm đều có mặt trong việc tu tập.",
+            "Không phòng hộ, các lậu hoặc gây khổ sở và nóng bức có thể sinh. Có phòng hộ, chúng không sinh như thế. Người tu vẫn sống giữa các tiếp xúc, nhưng biết giữ gìn để không bị mỗi điều vừa đến dẫn mình vào ham muốn và ràng buộc."
+          ],
+          "meaningUnits": [
+            "restraint"
+          ]
+        },
+        {
+          "id": "using",
+          "kind": "teaching",
+          "heading": "3. Sử dụng: hiểu mục đích của điều đang dùng",
+          "paragraphs": [
+            "Bài kinh nói đến bốn nhu yếu của người xuất gia. Y phục dùng để chống lạnh nóng, tránh ruồi muỗi, gió nắng và các loài bò sát, đồng thời che kín những phần cần kín đáo.",
+            "Thức ăn dùng để duy trì và nuôi sống thân, tránh tổn hại, hỗ trợ phạm hạnh, không nhằm vui chơi, đắm hưởng, trang sức hay làm đẹp. Kinh nêu việc chấm dứt cảm thọ cũ, không làm sinh cảm thọ mới, để tiếp tục sống, không có lỗi và an ổn.",
+            "Chỗ ở bảo vệ trước lạnh nóng, thời tiết khắc nghiệt, ruồi muỗi, gió nắng và các loài bò sát, đồng thời có nơi vui sống tĩnh lặng. Thuốc men và vật dụng cho người bệnh giúp giảm những đau đớn do bệnh đã sinh, giảm đau bệnh hết mức.",
+            "Những vật dụng ấy được dùng sau suy xét. Có lậu hoặc gây khổ sở sẽ sinh nếu không sử dụng, nhưng được ngăn khi sử dụng. Biết nhận và dùng điều cần thiết cũng nằm trong con đường tu."
+          ],
+          "meaningUnits": [
+            "using"
+          ]
+        },
+        {
+          "id": "enduring",
+          "kind": "teaching",
+          "heading": "4. Kham nhẫn: sức vững của tâm trước khó chịu",
+          "paragraphs": [
+            "Vị tỳ-kheo suy xét rồi chịu đựng lạnh nóng, đói khát, ruồi muỗi, gió nắng và các loài bò sát; chịu lời thô bạo, khó nghe; chịu cảm thọ đau nơi thân, kể cả đau dữ dội và nguy hiểm tính mạng.",
+            "Mục đích là không để những lậu hoặc gây khổ sở và nóng bức phát sinh vì không kham nhẫn. Bài giảng đặt việc ấy bên cạnh dùng thuốc và tránh nguy hiểm. Sức chịu đựng của tâm có chỗ đứng cùng với sự chăm sóc và lựa chọn hoàn cảnh."
+          ],
+          "meaningUnits": [
+            "enduring"
+          ]
+        },
+        {
+          "id": "avoiding",
+          "kind": "teaching",
+          "heading": "5. Tránh né: lựa chọn nơi mình không bước vào",
+          "paragraphs": [
+            "Những điều được kể rất cụ thể: voi, ngựa, bò, chó dữ; rắn; gốc cây, nơi có gai, hố sâu, vách dốc, đầm lầy và cống rãnh. Sau khi suy xét, vị tỳ-kheo tránh chúng.",
+            "Vị ấy cũng tránh chỗ ngồi không thích hợp, nơi không nên lui tới và bạn xấu. Đó là những hoàn cảnh khiến các bạn đồng tu có trí có thể cho rằng vị ấy liên can đến điều xấu.",
+            "Nhờ biết tránh, các lậu hoặc có thể sinh khi không tránh sẽ không sinh. Tu tập bao gồm việc biết lựa chọn nơi chốn và sự giao du; không phải lúc nào cũng ở lại rồi thử sức chịu đựng."
+          ],
+          "meaningUnits": [
+            "avoiding"
+          ]
+        },
+        {
+          "id": "dispelling",
+          "kind": "teaching",
+          "heading": "6. Loại bỏ: dừng nuôi điều đang làm tâm bất thiện",
+          "paragraphs": [
+            "Ý nghĩ về dục, sân hận hoặc gây hại đã sinh thì không được giữ lại để nuôi lớn. Vị tỳ-kheo suy xét rồi từ bỏ, loại bỏ, chấm dứt và không để chúng tiếp tục tồn tại. Cách ấy áp dụng với mọi trạng thái xấu, bất thiện vừa sinh.",
+            "Điều được kham nhẫn và điều được loại bỏ có thể cùng có mặt trong một hoàn cảnh. Một lời khó nghe có thể cần kham nhẫn; ý muốn làm người nói phải đau khổ là điều cần từ bỏ. Nhìn rõ hai việc giúp tâm không lấy sự tổn thương làm lý do tiếp tục nuôi sân."
+          ],
+          "meaningUnits": [
+            "dispelling"
+          ]
+        },
+        {
+          "id": "developing",
+          "kind": "teaching",
+          "heading": "7. Tu tập: nuôi lớn bảy yếu tố giác ngộ",
+          "paragraphs": [
+            "Bảy giác chi là niệm, trạch pháp, tinh tấn, hỷ, khinh an, định và xả. Niệm giúp nhớ và giữ sự chú tâm trong tu học; trạch pháp là xem xét để hiểu rõ; tinh tấn là nỗ lực bền bỉ. Hỷ là niềm vui, khinh an là lắng dịu, định là tâm vững và tập trung, xả là sự quân bình.",
+            "Cả bảy được tu dựa trên viễn ly, ly tham, đoạn diệt và hướng đến buông bỏ. Nghĩa là việc tu đi về sự rời vướng mắc, dứt tham và chấm dứt ràng buộc. Có niềm vui trong con đường ấy; sự quân bình cũng không phải thái độ mặc kệ mọi điều.",
+            "Đây là các phẩm chất được phát triển để giác ngộ. Sự yên ổn trong sinh hoạt có thể giúp người học bước đầu, còn mục tiêu của bài kinh đi đến giải thoát khỏi khổ."
+          ],
+          "meaningUnits": [
+            "developing"
+          ]
+        },
+        {
+          "id": "completion",
+          "kind": "teaching",
+          "heading": "Khi những ràng buộc đã được tháo bỏ",
+          "paragraphs": [
+            "Khi mỗi loại lậu hoặc được đoạn trừ bằng đúng phương thức dành cho nó, kinh gọi vị tỳ-kheo ấy là người đã sống phòng hộ mọi lậu hoặc, cắt đứt ái và tháo bỏ kiết sử.",
+            "Nhờ thấu hiểu đúng ngã mạn, vị ấy chấm dứt khổ. Ngã mạn rộng hơn sự khoe khoang; nó còn liên quan đến chấp và so đo quanh mình. Lời kết hướng đến sự giải thoát ấy. Nghe xong, các tỳ-kheo hoan hỷ, tán đồng lời Đức Phật."
+          ],
+          "meaningUnits": [
+            "completion"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một việc có thể làm trong lần gặp tới",
+          "paragraphs": [
+            "Trở lại buổi bàn việc của nhóm thiện nguyện. Bạn có thể chọn một việc: hỏi rõ lý do đổi cách làm, nói phần kinh nghiệm còn hữu ích, hoặc dừng kể lại chuyện ấy chỉ để nuôi sự bất mãn. Nếu có dấu hiệu lừa dối hay gây hại, việc cần xem xét có thể là rời khỏi hoàn cảnh đó.",
+            "Sau lần gặp, nhìn lại: mình đã thấy rõ thêm điều gì, đã nuôi điều gì và đã thôi nuôi điều gì? Dùng một tình huống thật để học cách lựa chọn sẽ cụ thể hơn tự đòi phải chịu hết mọi chuyện."
+          ],
+          "meaningUnits": [
+            "wise-attention",
+            "seven-methods",
+            "enduring",
+            "avoiding",
+            "dispelling"
+          ]
+        },
+        {
+          "id": "clarification",
+          "kind": "clarification",
+          "heading": "Phân biệt lời kinh và gợi ý vận dụng",
+          "paragraphs": [
+            "Tình huống nhóm thiện nguyện và các câu hỏi thực hành là ví dụ của người biên soạn. Lời dạy về bốn nhu yếu có hoàn cảnh người xuất gia. Vận dụng vào đời sống gia đình cần hiểu mục đích ấy, không tự biến việc thiếu thốn hay bỏ chăm sóc thành yêu cầu tu học.",
+            "Đoạn về kiến chấp không cấm học hỏi; đoạn về giới cùng nghi thức không phủ nhận giá trị giữ giới. Kham nhẫn cũng không buộc phải để người khác gây hại. Những bước thực hành trong đời sống là việc học dần, không tự xác nhận thành tựu giải thoát được nói ở cuối kinh.",
+            "Bản văn có tên bài, bảy đề mục và dòng báo bài thứ hai đã kết thúc. Đây là các nhãn giúp theo dõi cấu trúc, không phải một phần lời dạy bổ sung."
+          ],
+          "meaningUnits": [
+            "identity-apparatus",
+            "six-views",
+            "seeing",
+            "using",
+            "enduring",
+            "avoiding",
+            "completion"
+          ]
+        }
+      ]
+    }
+  }
+}

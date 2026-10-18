@@ -1,0 +1,917 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn5",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn5_root-pli-ms.json",
+      "sha256": "2597573cc92df66dceeda5a3aeb7d72806c0d0d8001ec879036bd178b34bf0b9",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn5_translation-vi-project.json",
+      "sha256": "2d3b310c0ce340e541cc9694f905116acb795f452b34e093852849ec70202c0d"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn5_translation-en-sujato.json",
+      "sha256": "064748f7149a71025e98b8207e60e3dc01a618ba793317c377e5749ccab16b06",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn5_comment-vi-project.json",
+      "sha256": "a6138c966df6c324b7799a170a20a6b048fbe042a9baaef342536b78dc303b6a"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn5.html",
+      "sha256": "ec3934cb964950d8256e94c0fdcba83128da586b2d0709af8802eaa5ddfe22c8",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Tên bài và nhãn kết kinh",
+      "segments": [
+        "mn5:0.1",
+        "mn5:0.2",
+        "mn5:33.5"
+      ],
+      "summary": "MN5 là Kinh Không Uế Nhiễm. Dòng cuối ghi kết bài thứ năm là nhãn bản văn, không thêm lời dạy hay đổi người nói."
+    },
+    {
+      "id": "setting",
+      "title": "Sāriputta nói với các tỳ-kheo",
+      "segments": [
+        "mn5:1.1",
+        "mn5:1.2",
+        "mn5:1.3",
+        "mn5:1.4",
+        "mn5:1.5",
+        "mn5:1.6"
+      ],
+      "summary": "Trong thời Đức Phật ở tu viện Anāthapiṇḍika, rừng Jeta tại Sāvatthī, Sāriputta gọi các tỳ-kheo, họ đáp và Ngài giảng. Bài này trực tiếp ghi lời Sāriputta và đối thoại với Mahāmoggallāna, không phải Đức Phật trực tiếp nói mọi lời."
+    },
+    {
+      "id": "four-cases",
+      "title": "Bốn trường hợp và hai cặp so sánh",
+      "segments": [
+        "mn5:2.1",
+        "mn5:2.2",
+        "mn5:2.3",
+        "mn5:2.4",
+        "mn5:2.5",
+        "mn5:2.6",
+        "mn5:2.7",
+        "mn5:2.8",
+        "mn5:2.9",
+        "mn5:2.10",
+        "mn5:3.1",
+        "mn5:3.2",
+        "mn5:3.3",
+        "mn5:8.1",
+        "mn5:8.2"
+      ],
+      "summary": "Bốn hạng: có uế nhiễm không biết đúng; có uế nhiễm biết đúng; không uế nhiễm không biết đúng; không uế nhiễm biết đúng. Trong từng cặp cùng có hoặc cùng không có, người biết đúng được nói là tốt hơn. Mahāmoggallāna hỏi nguyên nhân, Sāriputta giải thích và kết lại hai cặp. Không lập một thứ hạng toàn bộ bốn người hoặc đồng nhất không biết với tự nhận là sạch."
+    },
+    {
+      "id": "unaware-blemished",
+      "title": "Có uế nhiễm mà không biết: bát bẩn bị bỏ mặc",
+      "segments": [
+        "mn5:4.1",
+        "mn5:4.2",
+        "mn5:4.3",
+        "mn5:4.4",
+        "mn5:4.5",
+        "mn5:4.6",
+        "mn5:4.7",
+        "mn5:4.8"
+      ],
+      "summary": "Có thể trông đợi người có uế nhiễm mà không biết đúng sẽ không khởi mong muốn, không nỗ lực, không phát tinh tấn đoạn trừ; chết còn tham sân si, tâm ô nhiễm. Ví bát đồng bụi ố từ cửa hàng hoặc lò rèn, chủ không dùng không lau và để nơi bụi, càng bẩn. Moggallāna đồng ý với ví dụ; công thức lập lại cùng kết luận."
+    },
+    {
+      "id": "aware-blemished",
+      "title": "Có uế nhiễm và biết: bát bẩn được làm sạch",
+      "segments": [
+        "mn5:5.1",
+        "mn5:5.2",
+        "mn5:5.3",
+        "mn5:5.4",
+        "mn5:5.5",
+        "mn5:5.6",
+        "mn5:5.7",
+        "mn5:5.8"
+      ],
+      "summary": "Có thể trông đợi người có uế nhiễm biết đúng sẽ muốn, nỗ lực, khởi tinh tấn đoạn trừ; chết không tham sân si, tâm không ô nhiễm. Ví bát bẩn được dùng, lau, không để chỗ bụi, càng sáng sạch; Moggallāna xác nhận. Nhận biết là đầu mối nỗ lực, không được nói chỉ thừa nhận là lập tức hết uế nhiễm."
+    },
+    {
+      "id": "unaware-unblemished",
+      "title": "Không uế nhiễm nhưng không biết: bát sạch bỏ nơi bụi",
+      "segments": [
+        "mn5:6.1",
+        "mn5:6.2",
+        "mn5:6.3",
+        "mn5:6.4",
+        "mn5:6.5",
+        "mn5:6.6",
+        "mn5:6.7",
+        "mn5:6.8"
+      ],
+      "summary": "Người không uế nhiễm nhưng không biết đúng được dự đoán sẽ chú tâm tướng đẹp, từ đó tham dục xâm chiếm, rồi chết còn tham sân si và ô nhiễm. Ví bát đồng sạch sáng mà không dùng không lau, đặt nơi bụi, trở bẩn; Moggallāna đồng ý. Không biến tướng đẹp thành mọi giá trị tốt là xấu."
+    },
+    {
+      "id": "aware-unblemished",
+      "title": "Không uế nhiễm và biết: giữ gìn bát sạch",
+      "segments": [
+        "mn5:7.1",
+        "mn5:7.2",
+        "mn5:7.3",
+        "mn5:7.4",
+        "mn5:7.5",
+        "mn5:7.6",
+        "mn5:7.7",
+        "mn5:7.8"
+      ],
+      "summary": "Người không uế nhiễm và biết đúng được dự đoán không tác ý tướng đẹp, nên tham dục không xâm chiếm, chết không tham sân si, tâm không ô nhiễm. Ví bát sạch được dùng lau và không để chỗ bụi, càng sáng sạch; Moggallāna xác nhận. Không gán tình trạng ban đầu thành chứng quả vĩnh viễn."
+    },
+    {
+      "id": "definition",
+      "title": "Uế nhiễm là phạm vi ham muốn xấu, bất thiện",
+      "segments": [
+        "mn5:9.1",
+        "mn5:9.2",
+        "mn5:9.3",
+        "mn5:28.1"
+      ],
+      "summary": "Mahāmoggallāna hỏi uế nhiễm gọi điều gì. Sāriputta định nghĩa là các phạm vi ham muốn xấu, bất thiện và nhắc lại sau các ví dụ. Không đánh đồng mọi ước muốn, nhất là mong muốn tu sửa vốn được tán thành trước đó."
+    },
+    {
+      "id": "concealment",
+      "title": "Muốn che giấu lỗi vi phạm",
+      "segments": [
+        "mn5:10.1",
+        "mn5:10.2",
+        "mn5:10.3",
+        "mn5:10.4",
+        "mn5:10.5",
+        "mn5:10.6",
+        "mn5:10.7",
+        "mn5:10.8"
+      ],
+      "summary": "Có thể một tỳ-kheo muốn khi mình phạm lỗi các tỳ-kheo không biết. Nếu họ biết, vị ấy giận và bất mãn; cả giận lẫn bất mãn đều uế nhiễm. Giữ bối cảnh giả định và phạm lỗi tu học, không biến thành sự kiện về một người được nêu tên."
+    },
+    {
+      "id": "terms-of-correction",
+      "title": "Muốn được sửa lỗi theo điều kiện riêng",
+      "segments": [
+        "mn5:11.1",
+        "mn5:11.2",
+        "mn5:11.3",
+        "mn5:11.4",
+        "mn5:11.5",
+        "mn5:11.6",
+        "mn5:11.7",
+        "mn5:12.1",
+        "mn5:12.2",
+        "mn5:12.3",
+        "mn5:12.4",
+        "mn5:12.5",
+        "mn5:12.6",
+        "mn5:12.7"
+      ],
+      "summary": "Có thể muốn được nhắc lỗi riêng thay vì giữa Tăng đoàn, hoặc chỉ bởi người ngang hàng chứ không phải người không ngang hàng. Khi thực tế trái mong muốn thì giận và bất mãn, cả hai uế nhiễm. Ngang hàng là cách dịch có độ mở; không khẳng định chỉ tuổi đời. Bài không quy định phải bêu xấu hay nhục mạ mọi người."
+    },
+    {
+      "id": "prominence-meal",
+      "title": "Muốn là người được chọn và hưởng phần hơn",
+      "segments": [
+        "mn5:13.1",
+        "mn5:13.2",
+        "mn5:13.3",
+        "mn5:13.4",
+        "mn5:13.5",
+        "mn5:13.6",
+        "mn5:13.7",
+        "mn5:14.1",
+        "mn5:14.2",
+        "mn5:14.3",
+        "mn5:14.4",
+        "mn5:14.5",
+        "mn5:14.6",
+        "mn5:14.7",
+        "mn5:15.1",
+        "mn5:15.2",
+        "mn5:15.3",
+        "mn5:15.4",
+        "mn5:15.5",
+        "mn5:15.6",
+        "mn5:15.7",
+        "mn5:16.1",
+        "mn5:16.2",
+        "mn5:16.3",
+        "mn5:16.4",
+        "mn5:16.5",
+        "mn5:16.6",
+        "mn5:16.7"
+      ],
+      "summary": "Bốn tình huống: chỉ mình được Đạo sư hỏi đi hỏi lại để giảng; được đi đầu khi vào làng ăn; được chỗ ngồi, nước, thức ăn khất thực tốt nhất; được nói lời tùy hỷ sau bữa ăn. Nếu người khác được, vị ấy giận bất mãn, cả hai uế nhiễm. Giữ chữ tốt nhất ở nhóm agga và chức năng giảng qua hỏi đáp."
+    },
+    {
+      "id": "exclusive-teaching",
+      "title": "Muốn độc quyền thuyết Pháp cho bốn chúng",
+      "segments": [
+        "mn5:17.1",
+        "mn5:17.2",
+        "mn5:17.3",
+        "mn5:17.4",
+        "mn5:17.5",
+        "mn5:17.6",
+        "mn5:17.7",
+        "mn5:18-20.1",
+        "mn5:18-20.2",
+        "mn5:18-20.3",
+        "mn5:18-20.4",
+        "mn5:18-20.5",
+        "mn5:18-20.6",
+        "mn5:18-20.7",
+        "mn5:18-20.8",
+        "mn5:18-20.9"
+      ],
+      "summary": "Muốn chỉ mình thuyết Pháp trong tu viện cho tỳ-kheo, tỳ-kheo-ni, nam cư sĩ, nữ cư sĩ; khi người khác được giảng thì giận và bất mãn, đều uế nhiễm. Pāli có dấu lược ở một số nhóm; gộp danh sách được, không bỏ đối tượng."
+    },
+    {
+      "id": "exclusive-honors",
+      "title": "Muốn bốn chúng chỉ tôn kính mình",
+      "segments": [
+        "mn5:21.1",
+        "mn5:21.2",
+        "mn5:21.3",
+        "mn5:21.4",
+        "mn5:21.5",
+        "mn5:21.6",
+        "mn5:21.7",
+        "mn5:22-24.1",
+        "mn5:22-24.2",
+        "mn5:22-24.3",
+        "mn5:22-24.4",
+        "mn5:22-24.5",
+        "mn5:22-24.6",
+        "mn5:22-24.7",
+        "mn5:22-24.8",
+        "mn5:22-24.9"
+      ],
+      "summary": "Muốn tỳ-kheo, tỳ-kheo-ni, nam nữ cư sĩ chỉ tôn kính, trọng, kính lễ, cúng dường mình chứ không vị khác. Khi vị khác được những điều ấy thì giận bất mãn, đều uế nhiễm; công thức có dấu lược thật ở một số nhóm."
+    },
+    {
+      "id": "exclusive-requisites",
+      "title": "Muốn chỉ mình nhận vật dụng tốt",
+      "segments": [
+        "mn5:25.1",
+        "mn5:25.2",
+        "mn5:25.3",
+        "mn5:25.4",
+        "mn5:25.5",
+        "mn5:25.6",
+        "mn5:25.7",
+        "mn5:26-27.1",
+        "mn5:26-27.2",
+        "mn5:26-27.3",
+        "mn5:26-27.4",
+        "mn5:26-27.5",
+        "mn5:26-27.6",
+        "mn5:26-27.7",
+        "mn5:26-27.8",
+        "mn5:26-27.9"
+      ],
+      "summary": "Muốn chỉ mình nhận y phục, đồ khất thực, trú xứ, thuốc và vật dụng cho người bệnh tốt đẹp. Khi người khác nhận, giận và bất mãn, cả hai uế nhiễm. Paṇīta là tốt đẹp, không tự nâng thành siêu cấp tốt nhất như agga ở đoạn 15. Không hiểu thành cấm đáp ứng nhu cầu chăm sóc thật."
+    },
+    {
+      "id": "outward-austerity",
+      "title": "Hạnh sống khắc khổ không che được ham muốn xấu",
+      "segments": [
+        "mn5:29.1",
+        "mn5:29.2",
+        "mn5:29.3",
+        "mn5:29.4",
+        "mn5:29.5",
+        "mn5:29.6",
+        "mn5:29.7",
+        "mn5:29.8",
+        "mn5:29.9",
+        "mn5:29.10",
+        "mn5:29.11",
+        "mn5:29.12",
+        "mn5:29.13"
+      ],
+      "summary": "Nếu thấy nghe một vị chưa bỏ các ham muốn ấy, dù sống rừng nơi vắng, chỉ khất thực không chọn nhà, y giẻ bỏ thô xấu, đồng tu không tôn kính. Ví bát đồng sạch sáng đựng xác rắn, chó hoặc người, đậy bằng bát đồng khác, mang qua chợ. Người hỏi vật quý đẹp, mở thấy không ưa ghê kinh, ngay đói không muốn ăn, huống no. Điểm chính là cái chứa bên trong, không phải khinh thân người hay người nghèo. Không khẳng định ai mở khi nguồn không rõ."
+    },
+    {
+      "id": "inner-purity",
+      "title": "Đã từ bỏ uế nhiễm thì vẫn được kính trọng",
+      "segments": [
+        "mn5:30.1",
+        "mn5:30.2",
+        "mn5:30.3",
+        "mn5:30.4",
+        "mn5:30.5",
+        "mn5:30.6",
+        "mn5:30.7",
+        "mn5:30.8",
+        "mn5:30.9",
+        "mn5:30.10",
+        "mn5:30.11",
+        "mn5:30.12",
+        "mn5:30.13"
+      ],
+      "summary": "Nếu thấy nghe đã bỏ ham muốn xấu, dù ở làng, nhận mời ăn, mặc y gia chủ cúng, đồng tu kính trọng. Ví bát đồng sạch sáng đựng cơm ngon nhặt hạt đen, nhiều canh và món, đậy bằng bát khác, mang qua chợ; người nhìn thích, không ghê, ngay no muốn ăn huống đói. Không hứa sự nổi tiếng, không kết luận một nếp sống bên ngoài tự nó đủ chứng thanh tịnh."
+    },
+    {
+      "id": "wheelwright",
+      "title": "Moggallāna kể chuyện bào vành bánh xe",
+      "segments": [
+        "mn5:31.1",
+        "mn5:31.2",
+        "mn5:31.3",
+        "mn5:31.4",
+        "mn5:31.5",
+        "mn5:31.6",
+        "mn5:31.7",
+        "mn5:31.8",
+        "mn5:31.9",
+        "mn5:31.10",
+        "mn5:31.11",
+        "mn5:31.12"
+      ],
+      "summary": "Moggallāna xin kể ví dụ, Sāriputta mời nói. Khi đi khất thực buổi sáng tại Rājagaha giữa núi, Moggallāna thấy Samīti nhà thợ xe bào vành, Ājīvaka Paṇḍuputta từng nhà thợ xe đứng cạnh. Ông mong bào hết cong vênh khuyết để sạch chắc lõi; thợ bào đúng từng điều ông nghĩ. Ông vui nói như thể thợ biết tâm mình. Giữ như thể, không chứng nhận đọc tâm thật."
+    },
+    {
+      "id": "wayward-practitioners",
+      "title": "Bài giảng chạm đúng các lệch lạc",
+      "segments": [
+        "mn5:32.1"
+      ],
+      "summary": "Moggallāna ví Sāriputta bào bỏ đúng những khuyết điểm của người không tin, xuất gia kiếm sống; gian dối xảo quyệt, kiêu hỗn dao động thô lỗ lắm lời; không giữ căn, ăn không độ, không chuyên tỉnh thức; xem nhẹ Sa-môn và tu học; hưởng thụ buông thả, dẫn đầu thối lui bỏ viễn ly; lười thiếu tinh tấn, thất niệm thiếu tỉnh giác, thiếu định tán tâm, thiếu tuệ ngu muội. Câu như biết tâm có sở hữu không tường minh; bản dự án theo cách Moggallāna nói Sāriputta đúng ý mình."
+    },
+    {
+      "id": "sincere-practitioners",
+      "title": "Người chân thành đón nhận lời giúp sửa",
+      "segments": [
+        "mn5:32.2",
+        "mn5:32.3",
+        "mn5:33.2",
+        "mn5:33.3"
+      ],
+      "summary": "Người vì tin xuất gia, không gian xảo kiêu hỗn dao động thô lỗ lắm lời; giữ căn, ăn điều độ, chuyên tỉnh thức; quý Sa-môn kính học, không hưởng thụ buông thả, rũ bỏ đà thối lui và dẫn đầu viễn ly; nỗ lực quyết chí, niệm tỉnh giác, định nhất tâm, trí sáng. Họ như uống nuốt lời giảng cả lời lẫn tâm, khen Sāriputta giúp đồng tu vượt bất thiện an trú thiện. Phần này được lặp sau ví dụ vòng hoa."
+    },
+    {
+      "id": "garland-ending",
+      "title": "Đón lời giảng như vòng hoa, hai vị tán đồng nhau",
+      "segments": [
+        "mn5:33.1",
+        "mn5:33.4"
+      ],
+      "summary": "Ví người nam nữ trẻ thích trang sức vừa gội đầu nhận vòng sen, nhài hay hoa leo, nâng hai tay đặt lên đỉnh đầu; tương ứng người chân thành đón lời giảng quý trọng. Người kể kết hai bậc lớn Sāriputta và Mahāmoggallāna hoan hỷ với lời khéo nói của nhau, không phải chuyển thành lời Phật khen trực tiếp."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Nhìn thấy một điều chưa tốt để biết cách sửa",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một bài học qua chuyện cái bát",
+          "paragraphs": [
+            "Kinh Không Uế Nhiễm là bài thứ năm của Trung Bộ Kinh. Khi Đức Phật ở tu viện Anāthapiṇḍika, rừng Jeta tại Sāvatthī, Tôn giả Sāriputta nói chuyện với các vị tỳ-kheo, tức người đã xuất gia. Tôn giả Mahāmoggallāna hỏi thêm để lời giảng được rõ.",
+            "Uế nhiễm là một từ khó. Trong bài này, Sāriputta dùng nó cho những ham muốn xấu làm tâm không trong sạch. Thí dụ, muốn chỉ mình được phần hơn, rồi tức giận khi bạn được. Mong hiểu bài hoặc mong sửa lỗi không phải loại ham muốn bị chê ở đây."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "definition"
+          ]
+        },
+        {
+          "id": "four-possibilities",
+          "kind": "teaching",
+          "heading": "Có điều chưa tốt và có biết điều ấy không?",
+          "paragraphs": [
+            "Ngài nêu bốn trường hợp. Một người có uế nhiễm nhưng không nhận biết đúng. Một người cũng có, nhưng biết đúng mình có. Người thứ ba không có uế nhiễm, nhưng không biết rõ điều ấy. Người thứ tư không có và biết rõ là không có.",
+            "Trong hai người cùng có, người biết rõ được nói là tốt hơn. Trong hai người cùng không có, người biết rõ cũng tốt hơn. Mahāmoggallāna hỏi vì sao. Để trả lời, Sāriputta kể bốn cách chăm một cái bát đồng."
+          ],
+          "meaningUnits": [
+            "four-cases"
+          ]
+        },
+        {
+          "id": "dirty-bowls",
+          "kind": "teaching",
+          "heading": "Hai cái bát đang bẩn",
+          "paragraphs": [
+            "Cái bát đầu được mang từ cửa hàng hay lò rèn về, còn bụi và vết ố. Chủ không dùng, không lau, lại để chỗ bụi; nó càng bẩn. Với người không biết tâm mình có điều xấu, Sāriputta nói có thể trông đợi người ấy sẽ không khởi ý muốn và nỗ lực bỏ nó. Đến cuối đời, người ấy vẫn còn tham, sân, si: ham giữ, giận ghét và không biết đúng.",
+            "Cái bát thứ hai cũng bẩn, nhưng được dùng, lau và để tránh bụi nên sáng sạch hơn. Người thấy đúng uế nhiễm của mình được trông đợi sẽ muốn sửa, cố gắng bỏ nó và đến cuối đời không còn tham, sân, si. Nhìn thấy là điểm bắt đầu cho việc sửa, không phải vừa nhận lỗi thì mọi lỗi đã hết."
+          ],
+          "meaningUnits": [
+            "unaware-blemished",
+            "aware-blemished"
+          ]
+        },
+        {
+          "id": "clean-bowls",
+          "kind": "teaching",
+          "heading": "Hai cái bát đang sạch",
+          "paragraphs": [
+            "Một cái bát sạch mà không được dùng, lau, lại bỏ nơi bụi cũng sẽ bẩn. Người không có uế nhiễm nhưng không biết rõ điều ấy được trông đợi sẽ chăm chú vào nét hấp dẫn của sự vật, để lòng tham xâm chiếm. Hướng ấy được nói sẽ đi đến cuối đời còn tham, sân, si và tâm ô nhiễm.",
+            "Cái bát sạch còn lại được dùng và chăm lau, không để chỗ bụi nên càng sáng. Người biết rõ mình không có uế nhiễm được trông đợi sẽ không chăm chú nuôi tham bằng nét hấp dẫn ấy, nên tham không xâm chiếm; cuối đời tâm không còn tham, sân, si. Mahāmoggallāna đồng ý với các ví dụ. Tâm cần được chăm cả khi một điều xấu đang vắng mặt."
+          ],
+          "meaningUnits": [
+            "unaware-unblemished",
+            "aware-unblemished"
+          ]
+        },
+        {
+          "id": "hiding-errors",
+          "kind": "teaching",
+          "heading": "Khi chỉ muốn mọi việc theo ý mình",
+          "paragraphs": [
+            "Sāriputta kể những tình huống có thể xảy ra trong đời sống tu viện. Một vị phạm lỗi nhưng muốn các vị khác không biết. Hoặc vị ấy chỉ muốn được nhắc riêng, không giữa Tăng đoàn; chỉ muốn người ngang hàng nhắc. Khi sự việc không theo ý, vị ấy giận và bất mãn. Cả hai đều được gọi là uế nhiễm.",
+            "Điều cần thấy là tâm bực tức vì không được như ý. Khi áp dụng cho mình, em vẫn có thể xin được nói chuyện một cách tôn trọng và nhờ giúp nếu bị làm nhục hay bắt nạt."
+          ],
+          "meaningUnits": [
+            "concealment",
+            "terms-of-correction"
+          ]
+        },
+        {
+          "id": "being-chosen",
+          "kind": "teaching",
+          "heading": "Muốn mình luôn là người được chọn",
+          "paragraphs": [
+            "Có vị mong chỉ mình được bậc Đạo sư hỏi nhiều lần khi giảng; được đi đầu vào làng dùng bữa; được chỗ ngồi, nước uống và thức ăn tốt nhất; được nói lời tùy hỷ sau bữa ăn, tức lời vui theo việc lành.",
+            "Có vị muốn chỉ mình giảng Pháp cho người tu nam, người tu nữ, người tại gia nam và nữ trong tu viện. Vị ấy cũng muốn cả bốn nhóm ấy chỉ kính trọng, kính lễ, cúng dường mình. Lại có mong muốn chỉ mình được y áo, thức ăn, chỗ ở, thuốc và vật dụng khi bệnh tốt đẹp.",
+            "Trong mỗi tình huống, một người khác có thể được điều ấy. Nếu vị kia tức giận và bất mãn vì thế, cả hai trạng thái đều là uế nhiễm. Bài kinh chỉ rõ sự đòi phần riêng ấy, không bảo người đang cần thuốc phải thôi nói nhu cầu của mình."
+          ],
+          "meaningUnits": [
+            "prominence-meal",
+            "exclusive-teaching",
+            "exclusive-honors",
+            "exclusive-requisites"
+          ]
+        },
+        {
+          "id": "classroom-example",
+          "kind": "example",
+          "heading": "Ví dụ: lượt kể chuyện của lớp",
+          "paragraphs": [
+            "Em rất muốn kể câu chuyện đã chuẩn bị. Hôm nay cô mời bạn khác trước, em liền nghĩ bạn không xứng đáng và muốn phá phần kể của bạn. Mong có lượt tham gia khác với muốn chỉ mình được tham gia. Em có thể nhận ra sự bực bội, chờ nghe bạn và hỏi về lượt của mình. Đây là ví dụ hiện đại, không phải chuyện trong kinh."
+          ],
+          "meaningUnits": [
+            "prominence-meal",
+            "definition"
+          ]
+        },
+        {
+          "id": "outside-inside",
+          "kind": "teaching",
+          "heading": "Bên ngoài đẹp chưa nói hết bên trong",
+          "paragraphs": [
+            "Sāriputta nói: một vị có thể ở rừng xa, chỉ ăn đồ khất thực, đi từng nhà không chọn, mặc y nhặt từ giẻ bỏ và y thô. Nhưng nếu mọi người thấy và nghe vị ấy chưa bỏ ham muốn xấu, các bạn đồng tu vẫn không kính trọng chỉ vì nếp sống ấy.",
+            "Kinh dùng một hình ảnh mạnh: bát đồng sạch đẹp, đậy bằng một bát khác, nhưng bên trong có xác rắn, chó hoặc người. Khi mở ra ở chợ, người ta không ưa và ghê sợ; ngay người đói cũng không muốn ăn, huống chi người no. Hình ảnh nhấn vào điều thật sự ở bên trong.",
+            "Ngược lại, một vị ở làng, nhận lời mời ăn, mặc y do gia chủ tặng vẫn được kính trọng nếu đã bỏ ham muốn xấu và điều ấy được thấy, được nghe. Vị ấy được ví với bát đựng cơm ngon đã nhặt hạt đen, có canh và các món ăn. Bát cũng đậy bằng bát khác, mang qua chợ; khi mở, người ta thích, không thấy ghê, ngay người no còn muốn ăn."
+          ],
+          "meaningUnits": [
+            "outward-austerity",
+            "inner-purity"
+          ]
+        },
+        {
+          "id": "wheel-story",
+          "kind": "teaching",
+          "heading": "Người thợ bào đúng chỗ cần sửa",
+          "paragraphs": [
+            "Sau đó, Mahāmoggallāna xin kể một ví dụ, và Sāriputta mời Ngài nói. Một buổi sáng đi khất thực ở thành Rājagaha giữa các dãy núi, Ngài thấy Samīti bào vành bánh xe. Paṇḍuputta, một du sĩ thuộc nhóm Ājīvaka từng ở nhà thợ xe, đứng cạnh.",
+            "Ông thầm mong người thợ bào hết chỗ cong, vênh và khuyết cho vành chắc, sạch đến lõi. Người thợ làm đúng những chỗ ấy. Ông vui mừng nói người thợ làm như thể hiểu tâm mình. Lời “như thể” là một cách so sánh; câu chuyện không khẳng định người thợ có phép đọc ý nghĩ."
+          ],
+          "meaningUnits": [
+            "wheelwright"
+          ]
+        },
+        {
+          "id": "what-needs-smoothing",
+          "kind": "teaching",
+          "heading": "Lời giảng giúp sửa chỗ nào?",
+          "paragraphs": [
+            "Mahāmoggallāna ví bài giảng như việc bào đúng chỗ lệch của người xuất gia chỉ để kiếm sống, không vì lòng tin: gian dối, xảo quyệt, kiêu căng, hỗn xược, dao động, nói thô và lắm lời.",
+            "Ngài còn kể việc để mắt tai và các giác quan cuốn đi; ăn không chừng mực; không chuyên tỉnh thức; coi nhẹ đời tu và việc học; thích hưởng thụ, buông thả, sa sút, bỏ việc sống yên tĩnh và rời vướng mắc để tu tập. Lười biếng, thiếu nỗ lực, quên điều đang làm, thiếu tỉnh giác, tâm tán loạn không có định và thiếu trí tuệ cũng cần được sửa."
+          ],
+          "meaningUnits": [
+            "wayward-practitioners"
+          ]
+        },
+        {
+          "id": "welcoming-help",
+          "kind": "teaching",
+          "heading": "Đón lời giúp mình tốt hơn",
+          "paragraphs": [
+            "Người xuất gia vì lòng tin, sống thật thà, không kiêu hỗn, dao động, nói thô hay lắm lời, sẽ đón lời giảng khác hẳn. Họ giữ các giác quan, ăn điều độ, chuyên tỉnh thức, quý đời tu và việc học; không chạy theo hưởng thụ hay buông thả. Họ bỏ đà sa sút, đi đầu trong sống viễn ly: tìm sự yên tĩnh và rời những điều làm tâm vướng mắc để tu tập. Họ có nỗ lực, quyết tâm, niệm, tỉnh giác, định, tâm chuyên nhất và trí tuệ.",
+            "Họ như uống lấy lời giảng bằng lời nói và tâm, mừng vì Sāriputta giúp bạn đồng tu rời điều xấu, đứng vững trong điều lành. Mahāmoggallāna ví họ với người trẻ vừa gội đầu, thích trang sức, nhận vòng hoa sen, nhài hay hoa leo, nâng bằng hai tay đặt lên đầu. Hai vị cùng vui và tán đồng lời khéo nói của nhau."
+          ],
+          "meaningUnits": [
+            "sincere-practitioners",
+            "garland-ending"
+          ]
+        },
+        {
+          "id": "try-it",
+          "kind": "practice",
+          "heading": "Một lần nhìn lại nhẹ nhàng",
+          "paragraphs": [
+            "Em có thể nhớ một lần không được phần mình muốn. Gọi tên điều em đã muốn và cảm giác đi theo nó. Nếu có hành động làm bạn buồn, tìm cách sửa. Nếu em đã biết vui cho bạn, nhận ra điều tốt ấy và tiếp tục chăm nó. Đây là gợi ý của người biên soạn, không phải bài kiểm tra xem em là người tốt hay xấu."
+          ],
+          "meaningUnits": [
+            "definition",
+            "aware-blemished",
+            "aware-unblemished"
+          ]
+        },
+        {
+          "id": "source-note",
+          "kind": "clarification",
+          "heading": "Đọc thêm cùng người lớn",
+          "paragraphs": [
+            "Bản này gộp các lần lặp theo Pāli. “Người ngang hàng” không chỉ có nghĩa là cùng tuổi. Khi nối chuyện vành xe với lời giảng, các bản dịch hiểu khác nhau về tâm của ai; phần này giữ hình ảnh biết đúng điều cần sửa. Dòng báo hết bài thứ năm là nhãn kết bản văn."
+          ],
+          "meaningUnits": [
+            "identity",
+            "terms-of-correction",
+            "wheelwright"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Biết rõ mình để thôi đòi mọi việc theo ý mình",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Người có lỗi và khả năng nhận biết lỗi",
+          "paragraphs": [
+            "Kinh Không Uế Nhiễm, MN5, ghi lời Sāriputta nói với các tỳ-kheo và đối thoại cùng Mahāmoggallāna, trong thời Đức Phật ở rừng Jeta, tu viện Anāthapiṇḍika tại Sāvatthī. Chính Sāriputta triển khai bài giảng, rồi Mahāmoggallāna đóng góp hình ảnh ở phần cuối.",
+            "Uế nhiễm ở đây được định nghĩa là những phạm vi của ham muốn xấu, bất thiện. Vấn đề không phải loại bỏ mọi động lực: ước muốn sửa tâm được bài kinh khuyến khích. Điều bị soi xét là các đòi hỏi vị kỷ và giận dữ, bất mãn khi thực tế không chiều chúng."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "definition"
+          ]
+        },
+        {
+          "id": "four-cases",
+          "kind": "teaching",
+          "heading": "Hai câu hỏi tạo thành bốn trường hợp",
+          "paragraphs": [
+            "Sāriputta phân biệt: có uế nhiễm mà không biết đúng; có và biết đúng; không có nhưng không biết đúng; không có và biết đúng. Trong hai người cùng có, người biết được nói là tốt hơn. Trong hai người cùng không có cũng vậy.",
+            "Mahāmoggallāna hỏi nguyên nhân của từng cặp so sánh. Lời đáp xét điều có thể trông đợi từ mỗi cách nhận biết và chăm tâm. Đây không phải một bảng xếp hạng chung cả bốn người, càng không phải lời cho phép tự nhận mình thanh tịnh mà không xét sự thật."
+          ],
+          "meaningUnits": [
+            "four-cases"
+          ]
+        },
+        {
+          "id": "with-blemish",
+          "kind": "teaching",
+          "heading": "Nhận ra để bắt đầu công việc cần làm",
+          "paragraphs": [
+            "Người có uế nhiễm nhưng không biết được dự đoán sẽ không khởi ý muốn, không nỗ lực và tinh tấn để bỏ nó; đến khi chết vẫn còn tham, sân, si và tâm ô nhiễm. Sāriputta ví như bát đồng từ cửa hàng hay lò rèn, còn bụi ố, bị bỏ không dùng, không lau, để nơi bụi nên ngày càng bẩn.",
+            "Người có uế nhiễm và biết đúng được trông đợi sẽ muốn, cố gắng và khởi tinh tấn đoạn trừ; khi chết không còn tham, sân, si, tâm không ô nhiễm. Cũng là bát bẩn, nhưng được dùng, lau và giữ tránh bụi nên sáng sạch dần. Nhận ra mở đường cho nỗ lực; nó không thay thế việc từ bỏ."
+          ],
+          "meaningUnits": [
+            "unaware-blemished",
+            "aware-blemished"
+          ]
+        },
+        {
+          "id": "without-blemish",
+          "kind": "teaching",
+          "heading": "Điều xấu đang vắng vẫn cần sự biết rõ",
+          "paragraphs": [
+            "Người không có uế nhiễm nhưng không biết đúng được dự đoán sẽ chú tâm vào tướng đẹp, tức nét hấp dẫn của đối tượng, rồi tham dục xâm chiếm tâm. Đến khi chết, người ấy vẫn có tham, sân, si và ô nhiễm. Hình ảnh tương ứng là bát sạch sáng bị bỏ không dùng, không lau, đặt trong bụi, rồi thành bẩn.",
+            "Người không có uế nhiễm và biết đúng được trông đợi không tác ý tướng đẹp ấy, nên tham không xâm chiếm; đến khi chết không còn tham, sân, si. Như bát sạch vẫn được dùng, lau và giữ tránh bụi, tâm được chăm giữ. Mahāmoggallāna xác nhận các ví dụ, và Sāriputta kết lại lý do trong hai cặp. Bài giảng nói về cách chú tâm nuôi tham, không kết án mọi cái đẹp."
+          ],
+          "meaningUnits": [
+            "unaware-unblemished",
+            "aware-unblemished"
+          ]
+        },
+        {
+          "id": "correction",
+          "kind": "teaching",
+          "heading": "Muốn kiểm soát cả cách mình được nhắc lỗi",
+          "paragraphs": [
+            "Các ví dụ tiếp theo đều là tình huống có thể xảy ra ở một tỳ-kheo. Vị ấy muốn khi mình phạm lỗi thì đồng tu không biết. Hoặc chỉ được nhắc riêng, không giữa Tăng đoàn; chỉ người ngang hàng được nhắc, không phải người không ngang hàng. Nếu thực tế ngược lại, vị ấy giận và bất mãn. Sāriputta gọi cả hai là uế nhiễm.",
+            "Điểm cần nhận ra là sự bám chặt vào điều kiện có lợi cho mình. Đoạn này không trình bày quy trình xử lý mọi tranh chấp, cũng không cho phép người góp ý bỏ sự thật và sự tôn trọng để làm nhục người khác."
+          ],
+          "meaningUnits": [
+            "concealment",
+            "terms-of-correction"
+          ]
+        },
+        {
+          "id": "special-place",
+          "kind": "teaching",
+          "heading": "Từ vị trí nổi bật đến quyền được ưu tiên",
+          "paragraphs": [
+            "Sự đòi hỏi ấy còn có nhiều dạng: mong chỉ mình được Đạo sư hỏi đi hỏi lại khi giảng, được đi đầu vào làng dùng bữa, được chỗ ngồi, nước uống, thức ăn khất thực tốt nhất, được nói lời tùy hỷ sau bữa ăn.",
+            "Có người muốn chỉ mình thuyết Pháp trong tu viện cho tỳ-kheo, tỳ-kheo-ni, nam cư sĩ và nữ cư sĩ. Cũng với bốn nhóm ấy, họ muốn sự tôn kính, tôn trọng, kính lễ, cúng dường chỉ dành cho mình. Hoặc họ muốn riêng mình nhận y phục, đồ khất thực, chỗ ở, thuốc và vật dụng cho người bệnh tốt đẹp.",
+            "Ở mỗi trường hợp, người khác có thể được điều mình muốn. Lời giảng lặp lại cùng một chuyển biến: vị ấy giận, bất mãn, và cả hai là uế nhiễm. Cần thấy chữ “chỉ mình” cùng mong muốn người khác không được; đừng đổi bài này thành lệnh cấm trình bày nhu cầu thiết thực."
+          ],
+          "meaningUnits": [
+            "prominence-meal",
+            "exclusive-teaching",
+            "exclusive-honors",
+            "exclusive-requisites"
+          ]
+        },
+        {
+          "id": "project-example",
+          "kind": "example",
+          "heading": "Ví dụ: ai được trình bày kết quả?",
+          "paragraphs": [
+            "Bạn đã làm nhiều việc trong một dự án, nhưng một đồng nghiệp được mời trình bày. Bạn có thể cần trao đổi để công sức được ghi nhận đúng. Tuy nhiên, trong lúc ấy cũng có thể xuất hiện ý muốn: chỉ tôi được đứng trước mọi người, người kia đừng có cơ hội. Nhìn rõ hai điều giúp cuộc trao đổi bớt bị sự hơn thua dẫn đi. Đây là minh họa hiện đại, không phải sự kiện trong kinh."
+          ],
+          "meaningUnits": [
+            "prominence-meal",
+            "exclusive-teaching"
+          ]
+        },
+        {
+          "id": "appearance",
+          "kind": "teaching",
+          "heading": "Nếp sống bên ngoài và điều đã thật sự từ bỏ",
+          "paragraphs": [
+            "Nếu đồng tu thấy và nghe một vị chưa bỏ các ham muốn xấu ấy, thì dù vị đó ở rừng xa, chỉ khất thực, đi từng nhà không lựa chọn, mặc y từ giẻ bỏ và y thô, họ vẫn không tôn kính. Lý do là những ham muốn chưa được bỏ, không phải bản thân nếp sống rừng đáng chê.",
+            "Ví dụ trong kinh là bát đồng sạch sáng, đựng xác rắn, chó hoặc người, đậy bằng một bát đồng khác và mang qua chợ. Vẻ quý đẹp khiến người ta hỏi; khi mở nhìn, họ không ưa, ghê tởm, kinh tởm. Người đói còn không muốn ăn, huống người no.",
+            "Ngược lại, vị ở làng, nhận lời mời ăn và mặc y gia chủ cúng vẫn được kính trọng nếu sự từ bỏ ham muốn xấu được thấy, được nghe. Vị ấy giống bát đựng cơm ngon đã nhặt hạt đen, nhiều canh và món ăn, cũng đậy bằng bát khác và mang qua chợ. Người nhìn ưa thích, không ghê tởm; người no còn muốn ăn, huống người đói. Sự đối chiếu đặt trọng tâm vào phẩm chất bên trong."
+          ],
+          "meaningUnits": [
+            "outward-austerity",
+            "inner-purity"
+          ]
+        },
+        {
+          "id": "wheelwright",
+          "kind": "teaching",
+          "heading": "Mahāmoggallāna kể chuyện người thợ xe",
+          "paragraphs": [
+            "Mahāmoggallāna xin kể ví dụ và được Sāriputta mời nói. Một buổi sáng đi khất thực ở Rājagaha, thành giữa các dãy núi, Ngài thấy Samīti nhà thợ xe bào vành bánh. Paṇḍuputta, du sĩ Ājīvaka từng thuộc nhà thợ xe, đứng cạnh, mong Samīti bào hết chỗ cong, vênh, khuyết để vành sạch và chắc tận lõi.",
+            "Samīti bào đúng những chỗ người kia đang nghĩ. Paṇḍuputta vui mừng, ví việc ấy như người thợ biết tâm mình. Phép so sánh giữ chữ “như thể”; không cần biến nó thành khẳng định về khả năng đọc tâm."
+          ],
+          "meaningUnits": [
+            "wheelwright"
+          ]
+        },
+        {
+          "id": "faults",
+          "kind": "teaching",
+          "heading": "Bài giảng chạm đúng những lệch lạc",
+          "paragraphs": [
+            "Mahāmoggallāna áp dụng hình ảnh ấy cho bài giảng của Sāriputta. Có người xuất gia để kiếm sống, không vì lòng tin; quanh co, giả dối, xảo quyệt; kiêu căng, hỗn xược, dao động, nói thô và lắm lời. Họ không giữ các căn, không điều độ ăn uống, không chuyên tỉnh thức, xem nhẹ đời Sa-môn và việc tu học.",
+            "Họ ham hưởng thụ, buông thả, đi đầu trong sa sút và bỏ viễn ly; lười, thiếu nỗ lực, thất niệm, thiếu tỉnh giác, thiếu định, tâm tán loạn, thiếu tuệ. Lời giảng như bào vào đúng những chỗ ấy. Đây là nhận định của Mahāmoggallāna về tác dụng của bài Pháp, không phải bản án về một người được gọi tên."
+          ],
+          "meaningUnits": [
+            "wayward-practitioners"
+          ]
+        },
+        {
+          "id": "receiving-teaching",
+          "kind": "teaching",
+          "heading": "Người nghiêm túc có thể quý lời chỉ lỗi",
+          "paragraphs": [
+            "Ngược lại, người xuất gia vì lòng tin, không gian xảo, kiêu hỗn, dao động, thô lời hay lắm lời, giữ các căn, ăn điều độ, chuyên tỉnh thức, quý đời tu và kính sự học, sẽ đón lời giảng sâu sắc. Họ không chạy theo hưởng thụ, không buông thả; rũ bỏ đà sa sút và đi đầu trong viễn ly. Họ có nỗ lực, quyết chí, niệm, tỉnh giác, định, nhất tâm và trí tuệ.",
+            "Họ như uống lấy, nuốt lấy lời giảng, trong lời nói và tâm nghĩ đều mừng vì Sāriputta giúp đồng tu vượt bất thiện, đứng vững trong thiện. Mahāmoggallāna ví sự đón nhận ấy với người nam hay nữ trẻ, thích trang sức, vừa gội đầu, nhận vòng hoa sen, nhài hay hoa leo, nâng hai tay đặt lên đầu. Người kể kết rằng hai bậc lớn hoan hỷ tán đồng lời khéo nói của nhau."
+          ],
+          "meaningUnits": [
+            "sincere-practitioners",
+            "garland-ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Nhận ra trước khi phân xử",
+          "paragraphs": [
+            "Có thể nhìn lại một lần mình giận vì không được chọn. Viết rõ điều mong muốn, dữ kiện thực tế và phản ứng của mình. Xem đâu là nhu cầu có thể trao đổi, đâu là ý muốn độc chiếm. Chọn một việc cần sửa và một phẩm chất đang có cần giữ. Đây là gợi ý biên tập, không phải bằng chứng mình đã hết uế nhiễm."
+          ],
+          "meaningUnits": [
+            "aware-blemished",
+            "aware-unblemished",
+            "definition"
+          ]
+        },
+        {
+          "id": "source-note",
+          "kind": "clarification",
+          "heading": "Ghi chú đối chiếu",
+          "paragraphs": [
+            "Các công thức được gộp theo Pāli, gồm đủ bốn chúng và bốn vật dụng. “Người ngang hàng” là cách dịch có độ mở, không riêng tuổi hay chức vụ. Khi áp dụng ví dụ biết tâm cho Sāriputta, Pāli không nêu rõ sở hữu; dự án và bản Thích Minh Châu chọn khác nhau. Phần này giữ tác dụng của phép so sánh mà không xác quyết người có tâm được đọc. Dòng kết bài thứ năm thuộc nhãn bản văn."
+          ],
+          "meaningUnits": [
+            "identity",
+            "terms-of-correction",
+            "wheelwright",
+            "wayward-practitioners"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Giữ lòng trong sáng bằng sự nhìn lại thành thật",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Biết điều đang có trong lòng",
+          "paragraphs": [
+            "Kinh Không Uế Nhiễm, bài thứ năm của Trung Bộ, mời ta nhìn lại không chỉ điều đang có trong lòng mà cả việc mình có nhận biết đúng điều ấy hay không. Người trực tiếp giảng là Tôn giả Sāriputta; Tôn giả Mahāmoggallāna hỏi thêm và góp lời ở cuối.",
+            "Cuộc nói chuyện diễn ra khi Đức Phật ở tu viện Anāthapiṇḍika, rừng Jeta tại Sāvatthī. Uế nhiễm trong bài là tên cho những phạm vi ham muốn xấu, bất thiện. Ước muốn học và sửa mình vẫn có chỗ quý: chính mong muốn từ bỏ uế nhiễm được lời giảng khuyến khích."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "definition"
+          ]
+        },
+        {
+          "id": "four-cases",
+          "kind": "teaching",
+          "heading": "Hai cặp người để cùng suy xét",
+          "paragraphs": [
+            "Sāriputta nêu bốn trường hợp: có uế nhiễm mà không biết đúng; có và biết đúng; không có nhưng không biết đúng; không có và biết đúng. Trong hai người cùng có, người biết rõ được xem là tốt hơn; trong hai người cùng không có cũng vậy.",
+            "Mahāmoggallāna hỏi vì sao có sự phân biệt ấy. Lời đáp sẽ theo hai hướng: thấy điều cần bỏ để nỗ lực bỏ, và biết điều đang trong sạch để giữ gìn. Không cần ép bốn trường hợp thành một thứ bậc chung rồi tìm cách đặt mình cao hơn người khác."
+          ],
+          "meaningUnits": [
+            "four-cases"
+          ]
+        },
+        {
+          "id": "cleaning",
+          "kind": "teaching",
+          "heading": "Cái bát đã bẩn vẫn có thể được chăm",
+          "paragraphs": [
+            "Bát đồng mang từ cửa hàng hay lò rèn về còn bụi ố, nếu chủ không dùng, không lau, lại để nơi bụi thì sẽ càng bẩn. Người có uế nhiễm mà không biết được trông đợi sẽ không muốn, không nỗ lực, không khơi dậy tinh tấn để đoạn trừ; đến khi chết vẫn còn tham, sân, si và tâm ô nhiễm.",
+            "Cũng một cái bát bẩn, nếu được dùng, lau và giữ tránh bụi thì sẽ sáng sạch dần. Với người biết đúng mình có uế nhiễm, Sāriputta nêu điều có thể trông đợi: khởi mong muốn và nỗ lực từ bỏ, để đến khi chết không còn tham, sân, si. Điều quyết định gồm cả sự biết và công phu tiếp theo, không chỉ lời thú nhận."
+          ],
+          "meaningUnits": [
+            "unaware-blemished",
+            "aware-blemished"
+          ]
+        },
+        {
+          "id": "preserving",
+          "kind": "teaching",
+          "heading": "Cái bát sạch cũng cần được giữ",
+          "paragraphs": [
+            "Một bát vốn sạch mà bị bỏ không dùng, không lau, đặt vào nơi bụi vẫn thành bẩn. Người không có uế nhiễm nhưng không biết đúng được dự đoán sẽ tác ý tướng đẹp, nghĩa là chăm chú vào nét hấp dẫn của đối tượng; từ đó tham dục xâm chiếm. Hướng ấy đi đến cuối đời còn tham, sân, si, tâm ô nhiễm.",
+            "Bát sạch được dùng, lau, giữ tránh bụi thì càng sáng sạch. Người không có uế nhiễm và biết rõ được trông đợi sẽ không tác ý tướng đẹp ấy, nên tham không xâm chiếm; cuối đời không còn tham, sân, si. Mahāmoggallāna đồng ý với các ví dụ. Sự biết rõ không đòi ta nghĩ xấu về mọi cái đẹp; điều được xét là cách tâm nuôi tham."
+          ],
+          "meaningUnits": [
+            "unaware-unblemished",
+            "aware-unblemished"
+          ]
+        },
+        {
+          "id": "correction",
+          "kind": "teaching",
+          "heading": "Khi lời nhắc không đến theo cách mình muốn",
+          "paragraphs": [
+            "Sāriputta nêu các tình huống giả định của một tỳ-kheo. Vị ấy có thể muốn lỗi vi phạm của mình không bị biết đến. Nếu được nhắc, lại muốn chỉ nhắc riêng, không trước Tăng đoàn; chỉ người ngang hàng nhắc, không người không ngang hàng. Khi điều trái ý xảy ra, giận dữ và bất mãn xuất hiện. Cả hai được gọi là uế nhiễm.",
+            "Ta có thể nhận ra lòng mình trong mạch ấy mà vẫn xét việc góp ý có đúng và tôn trọng hay không. Lời giảng không biến sự nhục mạ thành điều phải chấp nhận, cũng không nói tuổi tác quyết định ai có thể chỉ một sai sót."
+          ],
+          "meaningUnits": [
+            "concealment",
+            "terms-of-correction"
+          ]
+        },
+        {
+          "id": "wanting-preference",
+          "kind": "teaching",
+          "heading": "Những mong muốn được dành riêng",
+          "paragraphs": [
+            "Một vị có thể mong chỉ mình được Đạo sư hỏi đi hỏi lại lúc giảng, được đi đầu vào làng dùng bữa, được chỗ ngồi, nước uống, thức ăn khất thực tốt nhất, được nói lời tùy hỷ sau bữa ăn.",
+            "Có vị muốn chỉ mình giảng Pháp trong tu viện cho tỳ-kheo, tỳ-kheo-ni, nam cư sĩ, nữ cư sĩ; hoặc muốn cả bốn nhóm chỉ tôn kính, tôn trọng, kính lễ và cúng dường mình. Có vị muốn riêng mình nhận y, đồ khất thực, nơi ở, thuốc và vật dụng cho người bệnh tốt đẹp.",
+            "Người khác có thể nhận những điều ấy. Nếu vị kia vì thế mà giận và bất mãn, cả hai vẫn là uế nhiễm. Những ví dụ khác nhau cùng làm rõ sự muốn độc chiếm. Xin được chăm sóc đúng nhu cầu khác với đòi người khác không được chăm sóc."
+          ],
+          "meaningUnits": [
+            "prominence-meal",
+            "exclusive-teaching",
+            "exclusive-honors",
+            "exclusive-requisites"
+          ]
+        },
+        {
+          "id": "family-example",
+          "kind": "example",
+          "heading": "Ví dụ: một lời nhắc trong việc chung",
+          "paragraphs": [
+            "Ta giữ sổ chi tiêu cho một sinh hoạt gia đình. Một người trẻ chỉ ra khoản đã ghi hai lần. Có thể thoáng nghĩ: mình làm bao năm, sao người ấy dám nhắc? Nếu nhìn lại con số, ta vẫn giữ được kinh nghiệm và sự chủ động sửa sai. Cũng có thể đề nghị cách nói dễ nghe hơn, mà không vì người nhắc ít tuổi hơn nên bỏ qua điều đúng. Đây là ví dụ do người biên soạn đặt ra."
+          ],
+          "meaningUnits": [
+            "terms-of-correction",
+            "definition"
+          ]
+        },
+        {
+          "id": "what-matters",
+          "kind": "teaching",
+          "heading": "Nếp sống và phẩm chất cần được nhìn cùng nhau",
+          "paragraphs": [
+            "Một vị có thể sống nơi rừng xa, chỉ khất thực, đi từng nhà không lựa chọn, mặc y từ giẻ bỏ và y thô. Nếu mọi người thấy và nghe vị ấy chưa bỏ những ham muốn xấu, các bạn đồng tu vẫn không tôn kính chỉ vì nếp sống khắc khổ ấy.",
+            "Sāriputta ví như bát đồng sạch đẹp, bên trong đựng xác rắn, chó hoặc người, được đậy bằng bát khác và mang qua chợ. Người ta hỏi vật quý đẹp gì; khi mở nhìn thì không ưa, ghê tởm, kinh tởm. Người đang đói còn không muốn ăn, huống người đã no. Ví dụ mạnh ấy đưa sự chú ý từ bề ngoài vào cái chứa bên trong.",
+            "Ngược lại, vị ở làng, nhận lời mời dùng bữa, mặc y gia chủ cúng vẫn được kính trọng khi việc từ bỏ ham muốn xấu được thấy, được nghe. Ví như bát đựng cơm ngon nhặt hạt đen, nhiều canh và món ăn, cũng đậy bằng bát khác rồi mang qua chợ. Mở ra, người ta ưa thích, không ghê tởm; người no còn muốn ăn, huống người đói. Nếp sống bên ngoài tự nó chưa quyết định sự thanh tịnh."
+          ],
+          "meaningUnits": [
+            "outward-austerity",
+            "inner-purity"
+          ]
+        },
+        {
+          "id": "craftsmanship",
+          "kind": "teaching",
+          "heading": "Một người thợ biết bào đúng chỗ",
+          "paragraphs": [
+            "Mahāmoggallāna xin kể một ví dụ và Sāriputta mời Ngài nói. Buổi sáng đi khất thực ở Rājagaha giữa các dãy núi, Ngài thấy Samīti, con nhà thợ xe, bào vành bánh. Du sĩ Ājīvaka Paṇḍuputta, từng thuộc nhà thợ xe, đứng bên cạnh.",
+            "Người xem mong bào hết chỗ cong, vênh, khuyết cho vành sạch và chắc tận lõi. Người thợ làm đúng từng chỗ ông đang nghĩ. Ông vui nói người thợ làm như thể hiểu tâm mình. Đây là phép ví về sự hiểu đúng chỗ cần sửa, không phải lời xác nhận rằng nghề thợ xe cho khả năng đọc tâm."
+          ],
+          "meaningUnits": [
+            "wheelwright"
+          ]
+        },
+        {
+          "id": "faults-and-training",
+          "kind": "teaching",
+          "heading": "Điều được bào gọt trong đời tu",
+          "paragraphs": [
+            "Mahāmoggallāna ví lời giảng của Sāriputta với việc bào những lệch lạc của người xuất gia kiếm sống, không vì lòng tin: quanh co, giả dối, xảo quyệt; kiêu căng, hỗn xược, dao động, nói thô và lắm lời. Họ không giữ các căn, ăn uống không điều độ, không chuyên tỉnh thức, không quý đời Sa-môn và sự tu học.",
+            "Họ ham hưởng thụ, buông thả, dẫn đầu sự sa sút và bỏ viễn ly; lười, thiếu nỗ lực; thất niệm, thiếu tỉnh giác, không có định, tâm tản mác, thiếu trí tuệ. Bài giảng chạm vào các chỗ cần sửa ấy, để con đường tu không chỉ còn hình thức."
+          ],
+          "meaningUnits": [
+            "wayward-practitioners"
+          ]
+        },
+        {
+          "id": "grateful-listening",
+          "kind": "teaching",
+          "heading": "Quý một lời giúp mình ngay thẳng hơn",
+          "paragraphs": [
+            "Người vì lòng tin mà xuất gia, không gian xảo, kiêu hỗn, dao động, thô lời hay lắm lời, giữ các căn, ăn điều độ, chuyên tỉnh thức, quý đời tu và kính sự học, đón lời ấy với lòng trân trọng. Họ không ham hưởng thụ, không buông thả; rũ bỏ đà sa sút, đi đầu trong viễn ly. Họ nỗ lực, quyết chí, có niệm, tỉnh giác, định, nhất tâm và trí tuệ.",
+            "Họ như uống lấy, nuốt lấy lời Pháp, trong lời nói và tâm nghĩ đều mừng vì Sāriputta giúp đồng tu vượt điều bất thiện, an trú trong điều thiện. Mahāmoggallāna ví sự tiếp nhận ấy với người trẻ nam hay nữ thích trang sức, vừa gội đầu, nhận vòng sen, nhài hoặc hoa leo, nâng hai tay đặt lên đầu. Cuối bài, người kể nói hai bậc lớn hoan hỷ tán đồng lời khéo nói của nhau."
+          ],
+          "meaningUnits": [
+            "sincere-practitioners",
+            "garland-ending"
+          ]
+        },
+        {
+          "id": "reflection",
+          "kind": "practice",
+          "heading": "Giữ một chỗ cho sự nhìn lại",
+          "paragraphs": [
+            "Có thể chọn một lời góp ý gần đây, tự hỏi điều nào có căn cứ, điều nào cần hỏi thêm, và lòng mình đã muốn được đối xử ra sao. Nhận một điểm cần sửa không xóa công sức đã có. Nhận một phẩm chất tốt cũng nhắc mình chăm giữ nó. Đây là gợi ý biên tập; mỗi người tự chọn điều phù hợp để suy xét."
+          ],
+          "meaningUnits": [
+            "aware-blemished",
+            "aware-unblemished",
+            "terms-of-correction"
+          ]
+        },
+        {
+          "id": "source-note",
+          "kind": "clarification",
+          "heading": "Ghi chú đọc sâu",
+          "paragraphs": [
+            "Các đoạn lặp được gộp theo Pāli, giữ đủ các nhóm người và vật dụng. “Ngang hàng” không được thu hẹp thành tuổi đời. Khi ví Sāriputta như người biết tâm, câu Pāli được dự án và Thích Minh Châu hiểu khác nhau về tâm của ai; bản này giữ ý bào đúng chỗ cần sửa, không xác định thêm năng lực đặc biệt. Dòng báo kết bài thứ năm là nhãn của bản văn."
+          ],
+          "meaningUnits": [
+            "identity",
+            "terms-of-correction",
+            "wheelwright",
+            "wayward-practitioners"
+          ]
+        }
+      ]
+    }
+  }
+}

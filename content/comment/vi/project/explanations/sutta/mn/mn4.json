@@ -1,0 +1,896 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn4",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
+      "sha256": "e281badbc9911d50d658a337318af4d2c759e97f45bca5f50f75e1bc7ca70154",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn4_translation-vi-project.json",
+      "sha256": "5ac805532513f0fe7f0c12ca4506abd4a0f2f3ca472c6e80b8d10a4fede15403"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json",
+      "sha256": "9ac991bebd0560f67f5dc4d175f30abe859da53727ca14627cd4ac1521fb86bc",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn4_comment-vi-project.json",
+      "sha256": "3266757cdb88db2de5f99a55a1f57061ea8623e73d002fd8b0fb586434412f8e"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn4.html",
+      "sha256": "6fb4a0e8afb7bd778ce727a1cf49c91dba90d456c0d1532099b57faf6c97b65b",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Tên bài và các nhãn kết phần",
+      "segments": [
+        "mn4:0.1",
+        "mn4:0.2",
+        "mn4:19.7",
+        "mn4:35.6"
+      ],
+      "summary": "MN4 là Kinh Sợ Hãi và Khiếp Đảm. Dòng kết mười sáu phương diện và kết bài thứ tư là nhãn của bản văn, không phải lời đối thoại hay một luận điểm mới."
+    },
+    {
+      "id": "setting",
+      "title": "Jānussoṇi hỏi về việc sống nơi rừng vắng",
+      "segments": [
+        "mn4:1.1",
+        "mn4:1.2",
+        "mn4:2.1",
+        "mn4:2.2",
+        "mn4:2.3",
+        "mn4:2.4",
+        "mn4:2.5",
+        "mn4:2.6",
+        "mn4:2.7",
+        "mn4:2.8",
+        "mn4:2.9",
+        "mn4:2.10",
+        "mn4:2.11",
+        "mn4:2.12",
+        "mn4:3.1",
+        "mn4:3.2",
+        "mn4:3.3"
+      ],
+      "summary": "Tại rừng Jeta, tu viện Anāthapiṇḍika ở Sāvatthī, Jānussoṇi đến chào hỏi, nói Đức Phật dẫn đường, giúp đỡ, khích lệ và làm gương cho người vì lòng tin mà xuất gia; Ngài xác nhận. Ông nêu sự khó kham của rừng vắng, viễn ly và độc cư đối với vị chưa có định. Đức Phật đồng ý và kể trước giác ngộ, khi còn là Bồ-tát, Ngài cũng từng suy xét như vậy."
+    },
+    {
+      "id": "conduct",
+      "title": "Bốn phương diện hành vi và sinh kế",
+      "segments": [
+        "mn4:4.1",
+        "mn4:4.2",
+        "mn4:4.3",
+        "mn4:4.4",
+        "mn4:4.5",
+        "mn4:4.6",
+        "mn4:5.1",
+        "mn4:5.2",
+        "mn4:5.3",
+        "mn4:5.4",
+        "mn4:6.1",
+        "mn4:6.2",
+        "mn4:7.1",
+        "mn4:7.2"
+      ],
+      "summary": "Người tu sống trong rừng với thân hành chưa thanh tịnh chuốc lấy sợ hãi bất thiện do lỗi ấy; Ngài nhận thấy mình thân hành thanh tịnh, thuộc những bậc Thánh sống trong rừng như vậy, nên càng vững tâm. Khẩu hành, ý hành được nêu với dấu lược có thật; sinh kế được trình bày đủ công thức tương ứng. Không nhập cả thân, khẩu, ý vào riêng đoạn 4 theo cách gộp của bản Anh."
+    },
+    {
+      "id": "desire-goodwill",
+      "title": "Không tham đắm và có lòng từ",
+      "segments": [
+        "mn4:8.1",
+        "mn4:8.2",
+        "mn4:8.3",
+        "mn4:8.4",
+        "mn4:8.5",
+        "mn4:8.6",
+        "mn4:9.1",
+        "mn4:9.2",
+        "mn4:9.3",
+        "mn4:9.4",
+        "mn4:9.5",
+        "mn4:9.6"
+      ],
+      "summary": "Hai phương diện tiếp theo là tham muốn và dục mạnh; sân hận và ác ý. Những tình trạng ấy khiến người tu trong rừng chuốc sợ hãi bất thiện. Ngài nhận mình không tham muốn, có tâm từ, thuộc các bậc Thánh có những phẩm chất ấy, nên vững tâm hơn."
+    },
+    {
+      "id": "hindrances",
+      "title": "Hôn trầm, trạo động và nghi hoặc",
+      "segments": [
+        "mn4:10.1",
+        "mn4:10.2",
+        "mn4:10.3",
+        "mn4:10.4",
+        "mn4:10.5",
+        "mn4:10.6",
+        "mn4:11.1",
+        "mn4:11.2",
+        "mn4:11.3",
+        "mn4:11.4",
+        "mn4:11.5",
+        "mn4:11.6",
+        "mn4:12.1",
+        "mn4:12.2",
+        "mn4:12.3",
+        "mn4:12.4",
+        "mn4:12.5",
+        "mn4:12.6"
+      ],
+      "summary": "Cùng công thức nguyên nhân, đối chiếu và vững tâm được dùng cho hôn trầm buồn ngủ, trạo động với tâm không lắng, nghi ngờ do dự. Ngài đã thoát hôn trầm, tâm an tịnh và vượt nghi hoặc. Đây là các tình trạng trong tu tập, không phải cấm người học đặt câu hỏi."
+    },
+    {
+      "id": "comparison-reputation",
+      "title": "Tự tôn, run sợ và ham danh lợi",
+      "segments": [
+        "mn4:13.1",
+        "mn4:13.2",
+        "mn4:13.3",
+        "mn4:13.4",
+        "mn4:13.5",
+        "mn4:13.6",
+        "mn4:14.1",
+        "mn4:14.2",
+        "mn4:14.3",
+        "mn4:14.4",
+        "mn4:14.5",
+        "mn4:14.6",
+        "mn4:15.1",
+        "mn4:15.2",
+        "mn4:15.3",
+        "mn4:15.4",
+        "mn4:15.5",
+        "mn4:15.6"
+      ],
+      "summary": "Ba phương diện là tự nâng mình hạ người, run sợ nhút nhát, ham lợi dưỡng sự kính trọng và danh tiếng; mỗi thứ được nêu là lỗi chuốc sợ hãi bất thiện trong hoàn cảnh rừng vắng. Ngài không tự nâng mình hạ người, không còn rợn sợ, ít ham muốn; tự thấy như vậy nên càng vững tâm."
+    },
+    {
+      "id": "cultivated-capacities",
+      "title": "Nỗ lực, niệm, định và trí tuệ",
+      "segments": [
+        "mn4:16.1",
+        "mn4:16.2",
+        "mn4:16.3",
+        "mn4:16.4",
+        "mn4:16.5",
+        "mn4:16.6",
+        "mn4:17.1",
+        "mn4:17.2",
+        "mn4:17.3",
+        "mn4:17.4",
+        "mn4:17.5",
+        "mn4:17.6",
+        "mn4:18.1",
+        "mn4:18.2",
+        "mn4:18.3",
+        "mn4:18.4",
+        "mn4:18.5",
+        "mn4:18.6",
+        "mn4:19.1",
+        "mn4:19.2",
+        "mn4:19.3",
+        "mn4:19.4",
+        "mn4:19.5",
+        "mn4:19.6"
+      ],
+      "summary": "Bốn phương diện cuối: lười biếng thiếu tinh tấn; thất niệm thiếu tỉnh giác; không có định tâm tán loạn; kém trí ngu độn. Ngài phủ định những khuyết điểm ấy, nhận tinh tấn được khơi dậy, niệm hiện tiền, thành tựu định và trí tuệ, nên vững tâm. Riêng câu khẳng định 17.4 chỉ nói niệm hiện tiền. Toàn bộ phần gồm mười sáu phương diện."
+    },
+    {
+      "id": "fear-setting",
+      "title": "Chủ động gặp sợ hãi ở nơi đáng sợ",
+      "segments": [
+        "mn4:20.1",
+        "mn4:20.2",
+        "mn4:20.3",
+        "mn4:20.4",
+        "mn4:20.5",
+        "mn4:20.6",
+        "mn4:20.7",
+        "mn4:20.8",
+        "mn4:20.9",
+        "mn4:20.10",
+        "mn4:20.11",
+        "mn4:20.12",
+        "mn4:20.13"
+      ],
+      "summary": "Vào những đêm được đánh dấu là mùng tám, mười bốn, mười lăm của mỗi nửa tháng, Bồ-tát chọn miếu thờ ở vườn, rừng và dưới cây đáng sợ để gặp nỗi sợ. Nai đến, công làm rơi cành hay gió lay lá làm Ngài nghĩ nỗi sợ đang đến. Ngài xét vì sao cứ chờ sợ và quyết loại bỏ ngay khi nó đến, trong tư thế hiện có. Không thêm chuyện ma hoặc khẳng định các đêm tự có quyền năng."
+    },
+    {
+      "id": "four-postures",
+      "title": "Loại bỏ nỗi sợ ngay trong từng tư thế",
+      "segments": [
+        "mn4:20.14",
+        "mn4:20.15",
+        "mn4:20.16",
+        "mn4:20.17",
+        "mn4:20.18",
+        "mn4:20.19",
+        "mn4:20.20",
+        "mn4:20.21"
+      ],
+      "summary": "Khi sợ xuất hiện lúc đi, đứng, ngồi, nằm, Ngài không đổi sang ba tư thế kia trước khi loại bỏ được nó ngay trong tư thế ấy. Đây là lời kể sự tu tập của Ngài, không phải mệnh lệnh buộc mọi người ở lại trong nguy hiểm hay chịu đau."
+    },
+    {
+      "id": "clear-knowing",
+      "title": "Biết đêm là đêm, ngày là ngày",
+      "segments": [
+        "mn4:21.1",
+        "mn4:21.2",
+        "mn4:21.3",
+        "mn4:21.4",
+        "mn4:21.5",
+        "mn4:21.6"
+      ],
+      "summary": "Ngài nói có người tu đang đêm tưởng ngày, đang ngày tưởng đêm: đó là mê lầm. Ngài biết đúng đêm và ngày; lời nói về một chúng sinh không bị mê lầm xuất hiện vì lợi ích, hạnh phúc của nhiều người, vì thương đời, vì chư thiên và loài người là đúng khi nói về Ngài. Giữ lời tự xác nhận ấy và lợi ích cho cả trời người."
+    },
+    {
+      "id": "meditation-basis",
+      "title": "Nền tảng cho thiền định",
+      "segments": [
+        "mn4:22-26.1"
+      ],
+      "summary": "Nỗ lực không chùng, niệm thiết lập không quên, thân an tịnh không căng thẳng, tâm định và nhất tâm. Sự tu tập được kể có nền tảng này, không chỉ một động tác giữ yên."
+    },
+    {
+      "id": "first-two-jhanas",
+      "title": "Sơ thiền và nhị thiền",
+      "segments": [
+        "mn4:22-26.2",
+        "mn4:22-26.3"
+      ],
+      "summary": "Ly dục và bất thiện, Ngài vào và an trú sơ thiền có tầm tứ, hỷ lạc do viễn ly. Tầm tứ lắng, Ngài vào nhị thiền, nội tâm trong sáng nhất tâm, không tầm tứ, hỷ lạc do định."
+    },
+    {
+      "id": "last-two-jhanas",
+      "title": "Tam thiền và tứ thiền",
+      "segments": [
+        "mn4:22-26.4",
+        "mn4:22-26.5"
+      ],
+      "summary": "Hỷ phai, Ngài an trú tam thiền với xả, niệm, tỉnh giác, tự thân cảm nhận lạc như lời bậc Thánh về người có xả niệm sống an lạc. Bỏ khổ lạc, hỷ ưu trước đó chấm dứt, tứ thiền không khổ không lạc, niệm thanh tịnh nhờ xả."
+    },
+    {
+      "id": "first-knowledge",
+      "title": "Minh thứ nhất: nhớ các đời trước",
+      "segments": [
+        "mn4:27.1",
+        "mn4:27.2",
+        "mn4:28.1",
+        "mn4:28.2"
+      ],
+      "summary": "Tâm có định thanh tịnh trong sáng không tì vết hết cấu uế, mềm dẻo dễ sử dụng vững bất động được hướng đến các đời sống quá khứ. Nhớ nhiều đời từ một đến trăm ngàn, nhiều kiếp thế giới co giãn; có tên, dòng họ, hình dáng, thức ăn, khổ lạc, tuổi thọ, chuyển từ đời này đến đời kia. Minh đầu ở canh đầu; vô minh và tối bị xua, minh và sáng sinh nơi người không phóng dật, nhiệt tâm, quyết chí. Không đổi thành hồi ức tuổi thơ."
+    },
+    {
+      "id": "second-knowledge",
+      "title": "Minh thứ hai: chết, tái sinh và nghiệp",
+      "segments": [
+        "mn4:29.1",
+        "mn4:29.2",
+        "mn4:30.1",
+        "mn4:30.2"
+      ],
+      "summary": "Với tâm đã được rèn như trên, Ngài hướng đến chết và tái sinh của chúng sinh; thiên nhãn thanh tịnh vượt mắt người thấy các khác biệt thấp cao, đẹp xấu, cảnh tốt xấu theo nghiệp. Một phía có ác hạnh thân khẩu ý, phỉ báng Thánh, tà kiến và hành động theo tà kiến, sau chết vào cảnh xấu địa ngục; phía kia có thiện hạnh, không phỉ báng Thánh, chánh kiến và hành động tương ứng, sau chết vào cảnh tốt cõi trời. Minh thứ hai ở canh giữa với điệp khúc vô minh bị xua, minh sinh do tu tập nhiệt tâm. Không biến thành quyền đoán nghiệp người khác theo ngoại hình."
+    },
+    {
+      "id": "third-knowledge",
+      "title": "Minh thứ ba: chấm dứt lậu hoặc",
+      "segments": [
+        "mn4:31.1",
+        "mn4:31.2",
+        "mn4:31.3",
+        "mn4:32.1",
+        "mn4:32.2",
+        "mn4:32.3",
+        "mn4:33.1",
+        "mn4:33.2"
+      ],
+      "summary": "Với tâm đã rèn, Ngài hướng đến đoạn tận lậu hoặc, biết đúng khổ, nguồn khổ, khổ diệt, đường diệt; và lậu hoặc, nguồn, diệt, đường diệt lậu hoặc. Biết thấy như vậy tâm giải thoát dục lậu, hữu lậu, vô minh lậu; biết đã giải thoát, sinh tận, phạm hạnh hoàn tất, việc phải làm xong, không trở lại hiện hữu này. Minh cuối ở canh cuối cùng với điệp khúc ánh sáng thay tối nơi người không phóng dật, nhiệt tâm, quyết chí."
+    },
+    {
+      "id": "ongoing-forest-life",
+      "title": "Hai lý do vẫn ở rừng sau giác ngộ",
+      "segments": [
+        "mn4:34.1",
+        "mn4:34.2",
+        "mn4:34.3",
+        "mn4:34.4",
+        "mn4:34.5"
+      ],
+      "summary": "Ngài bác giả thuyết do mình còn tham sân si nên vẫn vào rừng. Hai lý do được nêu là an trú an lạc ngay đời này và thương tưởng các thế hệ tương lai; không thêm mục đích riêng chưa có trong lời kinh."
+    },
+    {
+      "id": "response",
+      "title": "Jānussoṇi xin quy y làm cư sĩ",
+      "segments": [
+        "mn4:35.1",
+        "mn4:35.2",
+        "mn4:35.3",
+        "mn4:35.4",
+        "mn4:35.5"
+      ],
+      "summary": "Jānussoṇi xác nhận sự thương tưởng thế hệ sau của bậc A-la-hán Chánh Đẳng Giác; ca ngợi cách giảng như dựng vật đổ, mở điều che, chỉ đường người lạc, cầm đèn trong tối. Ông quy y Phật Pháp Tăng và xin được ghi nhận là nam cư sĩ quy y trọn đời; không kể ông xuất gia hay chứng quả."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Khi nỗi sợ xuất hiện, em có thể hiểu điều gì?",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một cuộc trò chuyện về rừng vắng",
+          "paragraphs": [
+            "Kinh Sợ Hãi và Khiếp Đảm là bài thứ tư của Trung Bộ Kinh. Khi Đức Phật ở tu viện trong rừng Jeta, tại Sāvatthī, Bà-la-môn Jānussoṇi đến thăm. Ông nói Ngài dẫn đường, giúp đỡ, khích lệ những người tin Ngài mà xuất gia; họ noi theo gương Ngài. Đức Phật xác nhận điều ấy.",
+            "Jānussoṇi hỏi về một việc khó: sống một mình nơi rừng vắng. Với người tu chưa có định, tức tâm chưa vững và tập trung, rừng có thể làm tâm rối loạn. Đức Phật đồng ý. Ngài kể rằng trước khi giác ngộ, lúc còn đang tìm đường giác ngộ, Ngài cũng từng nghĩ như vậy."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting"
+          ]
+        },
+        {
+          "id": "conduct",
+          "kind": "teaching",
+          "heading": "Điều mình mang theo vào rừng",
+          "paragraphs": [
+            "Ngài bắt đầu bằng việc xem lại chính mình. Người tu mang cách làm, lời nói, ý nghĩ hoặc cách nuôi sống mình chưa trong sạch vào rừng có thể chuốc lấy nỗi sợ bất thiện từ những lỗi ấy. Đổi chỗ ở chưa làm những lỗi ấy biến mất.",
+            "Ngài thấy hành động của mình trong sạch. Lời nói, tâm ý và cách sống cũng được xét đến. Thấy mình thuộc những người tu sống trong sạch nơi rừng vắng, Ngài càng vững tâm. Bốn điều này mở đầu phần suy xét gồm mười sáu mặt."
+          ],
+          "meaningUnits": [
+            "conduct"
+          ]
+        },
+        {
+          "id": "inner-weather",
+          "kind": "teaching",
+          "heading": "Tâm còn bị điều gì kéo đi?",
+          "paragraphs": [
+            "Ngài xét cả sự tham đắm những điều dễ chịu và ý muốn làm hại. Ngài nhận thấy mình không bị tham muốn ấy kéo đi, và có lòng từ: mong người khác được an lành.",
+            "Ngài cũng xét sự lờ đờ buồn ngủ, bồn chồn không yên, và nghi ngờ do dự trong đường tu. Nơi mình, Ngài thấy đã thoát sự lờ đờ, tâm lắng yên và vượt qua nghi hoặc. Mỗi điều ấy làm Ngài thêm vững. Vượt nghi hoặc ở đây không có nghĩa là em phải giấu câu hỏi của mình."
+          ],
+          "meaningUnits": [
+            "desire-goodwill",
+            "hindrances"
+          ]
+        },
+        {
+          "id": "confidence",
+          "kind": "teaching",
+          "heading": "Vững vàng không phải khoe mình giỏi",
+          "paragraphs": [
+            "Những điều tiếp theo là nâng mình lên rồi chê người khác; run rẩy sợ hãi; ham được cho nhiều, kính trọng và nổi tiếng. Ngài thấy mình không nâng mình hạ người, không rợn sợ và ít ham muốn.",
+            "Bốn mặt cuối là lười biếng; quên điều đang làm, thiếu tỉnh giác; tâm tản mác không có định; thiếu trí tuệ. Ngài thấy mình có nỗ lực, có niệm luôn hiện diện, đã có định và trí tuệ. Như vậy, sự vững vàng được kể cùng cả cách sống lẫn việc rèn tâm. Bài kinh không cho phép ta kết luận một bạn đang sợ là bạn xấu."
+          ],
+          "meaningUnits": [
+            "comparison-reputation",
+            "cultivated-capacities"
+          ]
+        },
+        {
+          "id": "borrowed-book",
+          "kind": "example",
+          "heading": "Ví dụ: cuốn sách bị rách",
+          "paragraphs": [
+            "Em mượn sách của bạn rồi vô ý làm rách một trang. Nếu giấu đi, em có thể thấp thỏm mỗi khi bạn nhắc cuốn sách. Khi nói thật và cùng tìm cách sửa, em bắt đầu giải quyết điều gây lo ấy. Đây là ví dụ do người biên soạn đặt ra, giúp hiểu vì sao nhìn lại việc mình làm có ích; không phải mọi nỗi sợ đều bắt đầu từ một lỗi như vậy."
+          ],
+          "meaningUnits": [
+            "conduct"
+          ]
+        },
+        {
+          "id": "forest-night",
+          "kind": "teaching",
+          "heading": "Tiếng động trong đêm",
+          "paragraphs": [
+            "Ngài kể đã chọn những đêm mùng tám, mười bốn, mười lăm của mỗi nửa tháng để ở các miếu thờ trong vườn, rừng hoặc dưới cây, những nơi khiến người ta rợn sợ. Có lúc nai đến, công làm rơi cành, hoặc gió lay lá. Ngài nghĩ nỗi sợ đang tới.",
+            "Rồi Ngài tự hỏi vì sao cứ chờ đợi nỗi sợ. Ngài quyết giải quyết nó ngay khi nó xuất hiện, trong tư thế mình đang có."
+          ],
+          "meaningUnits": [
+            "fear-setting"
+          ]
+        },
+        {
+          "id": "postures",
+          "kind": "teaching",
+          "heading": "Đi, đứng, ngồi, nằm",
+          "paragraphs": [
+            "Sợ đến khi đang đi, Ngài tiếp tục đi cho đến khi loại bỏ được sợ, rồi mới đổi tư thế. Khi đang đứng, ngồi hoặc nằm, Ngài cũng làm như thế trong đúng tư thế ấy. Đây là câu chuyện về sự tu tập của Ngài. Em không cần tự vào nơi vắng đáng sợ, cố chịu đau hay ở lại chỗ nguy hiểm để làm giống."
+          ],
+          "meaningUnits": [
+            "four-postures"
+          ]
+        },
+        {
+          "id": "day-night",
+          "kind": "teaching",
+          "heading": "Ngày là ngày, đêm là đêm",
+          "paragraphs": [
+            "Có người tu tưởng đêm là ngày và ngày là đêm. Đức Phật gọi đó là mê lầm. Ngài biết đêm là đêm, ngày là ngày. Ngài nói thật đúng khi gọi mình là người không bị mê lầm chi phối, xuất hiện vì lòng thương thế gian, vì lợi ích và hạnh phúc của nhiều người, của chư thiên và loài người."
+          ],
+          "meaningUnits": [
+            "clear-knowing"
+          ]
+        },
+        {
+          "id": "meditation",
+          "kind": "teaching",
+          "heading": "Tâm được rèn sâu dần",
+          "paragraphs": [
+            "Tiếp đó là một phần sâu hơn về thiền. Ngài có nỗ lực không chùng xuống, niệm không quên mất, thân yên không căng và tâm tập trung vững. Ngài kể bốn tầng thiền, gọi là bốn thiền.",
+            "Ở sơ thiền, Ngài rời những vui thích giác quan và điều bất thiện; có niềm hân hoan và an lạc do rời xa ấy. Tâm còn có tầm và tứ, có thể hiểu sơ bộ là hướng tâm và giữ tâm theo sát đề mục. Ở nhị thiền, tầm tứ lắng xuống, tâm trong sáng và thống nhất; hân hoan, an lạc sinh từ định.",
+            "Ở tam thiền, hân hoan lắng, vẫn có an lạc nơi thân, niệm và tỉnh giác; tâm có xả, tức giữ sự quân bình. Ở tứ thiền, khổ và lạc được buông, vui buồn trước đó đã dứt; không khổ không lạc, niệm trong sạch nhờ xả. Đây là những thành tựu thiền sâu, em có thể đọc từng bước cùng người lớn."
+          ],
+          "meaningUnits": [
+            "meditation-basis",
+            "first-two-jhanas",
+            "last-two-jhanas"
+          ]
+        },
+        {
+          "id": "past-lives",
+          "kind": "teaching",
+          "heading": "Hiểu biết thứ nhất trong đêm",
+          "paragraphs": [
+            "Với tâm trong sạch, sáng, mềm dẻo, dễ sử dụng và vững chắc ấy, Ngài hướng đến nhớ các đời trước. Kinh kể Ngài nhớ từ một đời đến rất nhiều đời, tới trăm ngàn đời và những thời kỳ thế giới co lại, giãn ra. Ngài nhớ tên, dòng họ, hình dáng, thức ăn, vui khổ, tuổi thọ và việc chuyển từ đời này sang đời khác. Đó là minh thứ nhất, đạt trong canh đầu, tức phần đầu của đêm."
+          ],
+          "meaningUnits": [
+            "first-knowledge"
+          ]
+        },
+        {
+          "id": "rebirth",
+          "kind": "teaching",
+          "heading": "Hiểu biết thứ hai",
+          "paragraphs": [
+            "Trong canh giữa, Ngài đạt minh thứ hai. Bằng thiên nhãn, khả năng thấy vượt mắt người được kinh mô tả, Ngài thấy chúng sinh chết và tái sinh, có hoàn cảnh, hình dáng và nơi đến khác nhau theo nghiệp, tức việc họ làm.",
+            "Kinh nói đến người làm điều xấu bằng thân, lời và ý, phỉ báng bậc Thánh, hiểu sai rồi hành động theo cái hiểu sai: sau chết họ đến cảnh khổ, địa ngục. Người làm điều lành, không phỉ báng bậc Thánh, hiểu đúng và hành động theo đó đến cảnh tốt, cõi trời. Đây là lời kể về sự thấy biết của Ngài, không phải cách để em nhìn vẻ ngoài mà đoán một người tốt hay xấu."
+          ],
+          "meaningUnits": [
+            "second-knowledge"
+          ]
+        },
+        {
+          "id": "liberation",
+          "kind": "teaching",
+          "heading": "Hiểu biết thứ ba đưa đến giải thoát",
+          "paragraphs": [
+            "Trong canh cuối, Ngài hướng tâm đến chấm dứt lậu hoặc, những điều làm tâm ô nhiễm và ràng buộc. Ngài biết rõ khổ, nguồn khổ, sự hết khổ và đường thực hành đưa đến hết khổ. Ngài cũng biết bốn điều tương ứng về lậu hoặc: chúng là gì, từ đâu sinh, sự chấm dứt của chúng và đường đưa đến chấm dứt.",
+            "Nhờ biết và thấy như vậy, tâm Ngài thoát ràng buộc về dục, về sự hiện hữu và về vô minh, tức không biết đúng. Ngài biết mình đã giải thoát: sự sinh lại đã hết, đời tu hoàn tất, việc cần làm đã xong. Với mỗi minh, kinh kể vô minh bị xua, hiểu biết và ánh sáng xuất hiện nhờ tu tập không buông lung, nhiệt tâm, quyết chí."
+          ],
+          "meaningUnits": [
+            "third-knowledge",
+            "first-knowledge",
+            "second-knowledge"
+          ]
+        },
+        {
+          "id": "why-return",
+          "kind": "teaching",
+          "heading": "Vì sao Đức Phật vẫn ở rừng?",
+          "paragraphs": [
+            "Ngài nhắc Jānussoṇi đừng nghĩ rằng Ngài vẫn còn tham, sân, si nên phải ở rừng. Hai lý do Ngài nêu là sống an lạc ngay hiện tại và thương tưởng các thế hệ sau.",
+            "Jānussoṇi tán thán bậc giác ngộ thương người đời sau. Ông ví lời giảng như dựng lại vật đổ, mở điều bị che, chỉ đường người lạc và thắp đèn trong tối. Ông xin nương tựa Phật, Pháp, Tăng và làm người học tại gia trọn đời."
+          ],
+          "meaningUnits": [
+            "ongoing-forest-life",
+            "response"
+          ]
+        },
+        {
+          "id": "small-step",
+          "kind": "practice",
+          "heading": "Một việc em có thể thử",
+          "paragraphs": [
+            "Khi lo một việc, em có thể kể rõ với người lớn đáng tin: chuyện gì đã xảy ra, em biết chắc điều gì, đang tưởng thêm điều gì. Nếu có lỗi, cùng tìm cách sửa; nếu cần giúp đỡ, cứ nhờ giúp. Đây là gợi ý của người biên soạn để tập thành thật và biết rõ tình huống."
+          ],
+          "meaningUnits": [
+            "conduct",
+            "clear-knowing"
+          ]
+        },
+        {
+          "id": "reading-note",
+          "kind": "clarification",
+          "heading": "Khi mở kinh để đọc tiếp",
+          "paragraphs": [
+            "Bản này gộp các câu lặp theo nguồn Pāli; bản tiếng Anh có nhiều chỗ lược ngắn hơn. Các dòng báo hết phần và hết bài là nhãn giúp đọc. Các đời trước, tái sinh và cõi trời được giữ theo nội dung kinh, không đổi thành chuyện tưởng tượng hoặc ký ức tuổi nhỏ."
+          ],
+          "meaningUnits": [
+            "identity",
+            "conduct",
+            "first-knowledge",
+            "second-knowledge"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Sự vững tâm được xây dựng bằng cách nào?",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Câu hỏi về người sống trong rừng",
+          "paragraphs": [
+            "Kinh Sợ Hãi và Khiếp Đảm, MN4, bắt đầu ở tu viện Anāthapiṇḍika trong rừng Jeta, Sāvatthī. Bà-la-môn Jānussoṇi đến thăm và nhận xét rằng những người vì lòng tin nơi Đức Phật mà xuất gia có Ngài dẫn đường, giúp đỡ, khích lệ và làm gương. Ngài xác nhận.",
+            "Từ đó ông nêu một khó khăn thực tế: trú xứ xa vắng khó kham, sống tách khỏi sự náo động và tìm niềm vui trong độc cư đều khó. Rừng dường như cuốn mất tâm trí vị tu sĩ chưa có định. Đức Phật đồng ý, rồi kể quá trình của chính mình trước giác ngộ, khi còn là Bồ-tát."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting"
+          ]
+        },
+        {
+          "id": "ethical-foundation",
+          "kind": "teaching",
+          "heading": "Mang cách sống nào vào sự yên tĩnh?",
+          "paragraphs": [
+            "Ngài trước hết xem xét hành vi. Người tu ở rừng với thân hành chưa thanh tịnh chuốc lấy sợ hãi bất thiện do chính lỗi ấy. Ngài nhận thấy thân hành mình thanh tịnh, thuộc những bậc Thánh sống trong rừng với phẩm chất ấy, nên thêm vững tâm. Khẩu hành, ý hành và sinh kế được xét theo cùng hướng: việc làm, lời nói, tâm ý và cách nuôi sống mình đều quan trọng.",
+            "Đây là bốn mặt đầu của mười sáu mặt suy xét. Rời môi trường quen thuộc chưa tự làm nội tâm trong sạch; sự tự tin được kể có căn cứ nơi điều Ngài thực sự nhận thấy ở mình."
+          ],
+          "meaningUnits": [
+            "conduct"
+          ]
+        },
+        {
+          "id": "mental-obstacles",
+          "kind": "teaching",
+          "heading": "Những nguồn bất an còn lại",
+          "paragraphs": [
+            "Ngài lần lượt xét tham muốn với sự đắm nhiễm mạnh vào dục; sân hận và ác ý; hôn trầm buồn ngủ; trạo động khiến tâm không lắng; nghi ngờ do dự. Trong hoàn cảnh tu tập ở rừng, những tình trạng ấy được nêu là nguyên nhân chuốc lấy sợ hãi bất thiện.",
+            "Ngài thấy mình không bị tham muốn chi phối, có tâm từ, đã thoát hôn trầm, có tâm an tịnh và vượt nghi hoặc. Với từng phẩm chất, Ngài nhận mình thuộc những người tu cao quý có phẩm chất ấy, nên càng vững. Vượt nghi hoặc trong đường tu không đồng nghĩa với chấm dứt việc hỏi cho rõ."
+          ],
+          "meaningUnits": [
+            "desire-goodwill",
+            "hindrances"
+          ]
+        },
+        {
+          "id": "further-qualities",
+          "kind": "teaching",
+          "heading": "Không dựng sự tự tin trên hơn thua",
+          "paragraphs": [
+            "Bảy mặt tiếp theo là tự đề cao và hạ thấp người khác; run sợ nhút nhát; cầu lợi dưỡng, kính trọng, danh tiếng; lười biếng thiếu nỗ lực; thất niệm thiếu tỉnh giác; thiếu định với tâm tán loạn; thiếu trí tuệ.",
+            "Ngài thấy mình không nâng mình hạ người, không rợn sợ, ít ham muốn, nỗ lực được khơi dậy, niệm hiện tiền, thành tựu định và trí tuệ. Mỗi đối chiếu dẫn đến sự vững tâm hơn. Toàn phần cho thấy cả đạo đức lẫn việc rèn tâm cần được xét. Không thể đảo chiều lập luận để kết tội mọi người đang sợ hãi là sống sai."
+          ],
+          "meaningUnits": [
+            "comparison-reputation",
+            "cultivated-capacities"
+          ]
+        },
+        {
+          "id": "work-example",
+          "kind": "example",
+          "heading": "Ví dụ: trước một cuộc trao đổi khó",
+          "paragraphs": [
+            "Bạn sắp báo một sai sót trong công việc. Nếu cố giấu phần trách nhiệm rồi giữ hình ảnh mình luôn đúng, cuộc gặp có thể càng đáng sợ. Chuẩn bị dữ kiện, nhận phần mình và đề xuất sửa giúp giải quyết một nguồn bất an. Đây là minh họa hiện đại về việc xem lại hành vi và nhu cầu giữ danh tiếng; nó không giải thích mọi nỗi lo hay bảo đảm người khác sẽ phản ứng công bằng."
+          ],
+          "meaningUnits": [
+            "conduct",
+            "comparison-reputation"
+          ]
+        },
+        {
+          "id": "meeting-fear",
+          "kind": "teaching",
+          "heading": "Không chỉ ngồi chờ sợ hãi",
+          "paragraphs": [
+            "Bồ-tát chủ động ở những miếu thờ đáng sợ trong vườn, rừng và dưới cây, vào các đêm được đánh dấu: mùng tám, mười bốn, mười lăm của mỗi nửa tháng. Nai đến, công làm rơi cành, gió lay lá khiến Ngài nghĩ sợ hãi đang đến. Ngài hỏi vì sao cứ chờ sợ, rồi quyết loại bỏ nó ngay khi đến, trong tư thế hiện có.",
+            "Sợ xuất hiện lúc đi, Ngài không chuyển sang đứng, ngồi, nằm cho đến khi loại bỏ được nó trong lúc đi. Với đứng, ngồi và nằm cũng vậy. Kinh kể sự kiên trì cụ thể của Ngài; không mô tả một liệu trình áp dụng cho mọi người hay yêu cầu bỏ qua nguy hiểm thực tế."
+          ],
+          "meaningUnits": [
+            "fear-setting",
+            "four-postures"
+          ]
+        },
+        {
+          "id": "not-delusion",
+          "kind": "teaching",
+          "heading": "Sự vững tâm đi cùng biết đúng",
+          "paragraphs": [
+            "Ngài phân biệt mình với người tu nhận đêm thành ngày, ngày thành đêm, gọi tình trạng ấy là mê lầm. Ngài nhận đêm đúng là đêm, ngày đúng là ngày. Ngài xác nhận rằng lời nói về một chúng sinh không bị mê lầm, xuất hiện vì lợi ích và hạnh phúc của nhiều người, vì thương tưởng thế gian, vì chư thiên và loài người, là lời nói đúng về mình."
+          ],
+          "meaningUnits": [
+            "clear-knowing"
+          ]
+        },
+        {
+          "id": "jhanas",
+          "kind": "teaching",
+          "heading": "Bốn thiền và sự tinh luyện của tâm",
+          "paragraphs": [
+            "Lời kể tiếp sang thiền định: nỗ lực không chùng xuống, niệm được thiết lập không quên mất, thân an tịnh không căng, tâm có định và nhất tâm. Trên nền ấy, Ngài chứng và an trú bốn thiền.",
+            "Sơ thiền có hỷ lạc do rời dục và các pháp bất thiện, còn tầm và tứ, có thể hiểu sơ bộ là hướng tâm và duy trì sự gắn bó với đề mục. Khi tầm tứ lắng, nhị thiền có nội tâm trong sáng, thống nhất và hỷ lạc do định, không còn tầm tứ.",
+            "Khi hỷ phai, tam thiền có xả, niệm, tỉnh giác và lạc được tự thân cảm nhận; các bậc Thánh gọi đó là sống an lạc với xả và niệm. Ở tứ thiền, khổ và lạc được từ bỏ, hỷ ưu trước đó chấm dứt, không khổ không lạc, niệm thanh tịnh nhờ xả. Xả ở đây là sự quân bình của tâm, không phải thờ ơ."
+          ],
+          "meaningUnits": [
+            "meditation-basis",
+            "first-two-jhanas",
+            "last-two-jhanas"
+          ]
+        },
+        {
+          "id": "first-knowledge",
+          "kind": "teaching",
+          "heading": "Canh đầu: nhớ những đời sống trước",
+          "paragraphs": [
+            "Với tâm định, thanh tịnh, sáng, hết cấu uế, mềm dẻo, dễ sử dụng, vững và bất động, Ngài hướng đến nhớ các đời quá khứ. Kinh kể từ một đời đến hàng trăm ngàn đời, qua nhiều thời kỳ thế giới co lại và giãn ra. Sự nhớ lại có đặc điểm và chi tiết: tên, dòng họ, hình dáng, thức ăn, khổ lạc, tuổi thọ và sự chuyển sinh. Đây là minh thứ nhất, đạt trong canh đầu; không chỉ là khả năng nhớ rõ tiểu sử đời hiện tại."
+          ],
+          "meaningUnits": [
+            "first-knowledge"
+          ]
+        },
+        {
+          "id": "second-knowledge",
+          "kind": "teaching",
+          "heading": "Canh giữa: chúng sinh đi theo nghiệp",
+          "paragraphs": [
+            "Cũng với tâm đã được rèn ấy, Ngài hướng đến biết sự chết và tái sinh. Bằng thiên nhãn thanh tịnh vượt mắt người, Ngài thấy chúng sinh thấp cao, đẹp xấu, đến cảnh tốt xấu và hiểu họ đi theo nghiệp.",
+            "Kinh trình bày hai hướng: người có ác hạnh thân, lời, ý, phỉ báng bậc Thánh, có tà kiến và hành động theo tà kiến, sau chết tái sinh vào cảnh khổ, địa ngục; người có thiện hạnh, không phỉ báng bậc Thánh, có chánh kiến và hành động theo chánh kiến, tái sinh vào cảnh tốt, cõi trời. Đó là minh thứ hai ở canh giữa. Đoạn này thuật sự thấy biết của Ngài; không trao cho người đọc quyền suy đoán nghiệp của người khác từ địa vị hay ngoại hình."
+          ],
+          "meaningUnits": [
+            "second-knowledge"
+          ]
+        },
+        {
+          "id": "third-knowledge",
+          "kind": "teaching",
+          "heading": "Canh cuối: biết và đoạn tận lậu hoặc",
+          "paragraphs": [
+            "Ngài hướng tâm đến chấm dứt lậu hoặc, những ô nhiễm ràng buộc tâm. Ngài biết như thật khổ, nguồn gốc khổ, sự diệt khổ và con đường đưa đến diệt khổ; đồng thời biết lậu hoặc, nguồn gốc, sự chấm dứt và đường đưa đến chấm dứt chúng.",
+            "Do biết và thấy như vậy, tâm giải thoát khỏi dục lậu, hữu lậu và vô minh lậu: ràng buộc về dục, hiện hữu và không biết đúng. Ngài biết tâm đã giải thoát, sinh đã tận, phạm hạnh viên mãn, việc cần làm đã xong, không còn trở lại hiện hữu này. Đây là minh thứ ba, trong canh cuối.",
+            "Cả ba lần đều có điệp khúc: vô minh bị xua, minh sinh; tối bị xua, sáng sinh, nơi người không buông lung, nhiệt tâm và quyết chí. Bài kinh đi đến giải thoát khỏi tái sinh, chứ không dừng ở việc cảm thấy bớt căng thẳng."
+          ],
+          "meaningUnits": [
+            "third-knowledge",
+            "first-knowledge",
+            "second-knowledge"
+          ]
+        },
+        {
+          "id": "continuing",
+          "kind": "teaching",
+          "heading": "An lạc hiện tại và người đời sau",
+          "paragraphs": [
+            "Đức Phật ngăn một cách hiểu sai: việc Ngài vẫn ở rừng không có nghĩa là tham, sân, si chưa được loại trừ. Ngài nêu hai lý do: an trú an lạc ngay đời này và thương tưởng các thế hệ tương lai.",
+            "Jānussoṇi tán thán lòng thương ấy của bậc A-la-hán, Chánh Đẳng Giác. Ông ví lời giảng như dựng vật bị lật, mở điều bị che, chỉ đường cho người lạc và cầm đèn trong tối. Ông quy y Phật, Pháp, Tăng và xin được ghi nhận là nam cư sĩ quy y trọn đời."
+          ],
+          "meaningUnits": [
+            "ongoing-forest-life",
+            "response"
+          ]
+        },
+        {
+          "id": "application",
+          "kind": "practice",
+          "heading": "Một bước nhìn lại trong đời sống",
+          "paragraphs": [
+            "Có thể chọn một việc đang khiến mình bất an, ghi riêng dữ kiện, điều mình suy đoán và phần hành vi mình có thể sửa. Xem thêm mình đang cần giải quyết việc hay đang cần giữ hình ảnh. Đây là gợi ý biên tập; thực hiện với sự quan tâm đến hoàn cảnh và nhu cầu hỗ trợ của chính mình."
+          ],
+          "meaningUnits": [
+            "conduct",
+            "comparison-reputation",
+            "clear-knowing"
+          ]
+        },
+        {
+          "id": "source-note",
+          "kind": "clarification",
+          "heading": "Ghi chú khi đối chiếu",
+          "paragraphs": [
+            "Các câu lặp được gộp theo Pāli. Bản Anh gộp thân, khẩu, ý ở một chỗ và lược nhiều lần lặp; Pāli vẫn phân biệt chúng, có dấu lược riêng ở khẩu và ý. “Noi theo gương” được chọn theo cách đọc diṭṭhānugati trong ghi chú dự án. Các dòng kết phần, kết bài thuộc cách ghi bản văn."
+          ],
+          "meaningUnits": [
+            "identity",
+            "conduct"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Một nền vững để sống an tĩnh",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Sự an tĩnh có nền tảng",
+          "paragraphs": [
+            "Có những lúc cảnh quanh đã yên mà lòng vẫn chưa yên. Kinh Sợ Hãi và Khiếp Đảm, bài thứ tư của Trung Bộ, mở một cuộc suy xét về việc ấy qua câu chuyện tu tập của Đức Phật.",
+            "Tại tu viện Anāthapiṇḍika trong rừng Jeta, Sāvatthī, Bà-la-môn Jānussoṇi đến chào hỏi. Ông nói những người vì lòng tin mà xuất gia có Đức Phật dẫn đường, trợ giúp, khích lệ và làm gương. Ngài đồng ý. Khi ông nói ở rừng vắng, sống độc cư thật khó đối với vị chưa có định, Ngài cũng xác nhận. Trước giác ngộ, lúc còn là Bồ-tát, Ngài từng suy nghĩ như vậy."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting"
+          ]
+        },
+        {
+          "id": "conduct",
+          "kind": "teaching",
+          "heading": "Nhìn lại điều mình đã làm và đang nuôi dưỡng",
+          "paragraphs": [
+            "Ngài kể đã tự xét hành vi thân. Người tu mang thân hành chưa thanh tịnh vào rừng chuốc lấy nỗi sợ bất thiện do lỗi ấy. Còn Ngài thấy thân hành mình thanh tịnh; nhận mình thuộc những bậc Thánh sống trong rừng với phẩm chất ấy, Ngài càng vững lòng.",
+            "Lời nói, tâm ý và cách nuôi sống cũng được xét đến. Đó là bốn mặt đầu trong mười sáu mặt được trình bày. Sự yên tĩnh của nơi ở cần đi cùng sự trong sạch của cách sống. Nhìn lại ở đây là để nhận rõ, không phải để kể công hoặc chỉ chăm tìm lỗi người khác."
+          ],
+          "meaningUnits": [
+            "conduct"
+          ]
+        },
+        {
+          "id": "obstacles",
+          "kind": "teaching",
+          "heading": "Để lòng nhẹ hơn, cần biết điều đang nặng",
+          "paragraphs": [
+            "Ngài xét sự tham muốn và đắm nhiễm mạnh vào dục; sân hận, ác ý; lờ đờ buồn ngủ; bồn chồn khiến tâm không lắng; nghi ngờ do dự trong đường tu. Những tình trạng ấy, trong cảnh tu tập ở rừng, được nói là có thể chuốc lấy sợ hãi bất thiện.",
+            "Ngài thấy mình không tham muốn, có lòng từ, thoát hôn trầm, tâm an tịnh và vượt nghi hoặc. Mỗi lần tự nhận rõ một phẩm chất ấy, Ngài thêm vững tâm. Người đang học vẫn có thể đặt câu hỏi để hiểu; việc vượt nghi hoặc không được hiểu thành phải nhận điều mình chưa rõ."
+          ],
+          "meaningUnits": [
+            "desire-goodwill",
+            "hindrances"
+          ]
+        },
+        {
+          "id": "dignity",
+          "kind": "teaching",
+          "heading": "Không lấy danh tiếng làm chỗ dựa",
+          "paragraphs": [
+            "Phần tiếp xét việc đề cao mình và hạ người; run sợ; ham lợi dưỡng, sự kính trọng, danh tiếng. Ngài nhận thấy mình không nâng mình hạ người, không còn rợn sợ và ít ham muốn.",
+            "Bốn mặt cuối là lười biếng thiếu nỗ lực; thất niệm thiếu tỉnh giác; tâm tán loạn không có định; kém trí tuệ. Ngài thấy nỗ lực đã được khơi dậy, niệm luôn hiện diện, định và trí tuệ đã thành tựu. Nhờ thế sự vững tâm có căn cứ. Không nên dùng đoạn này để phán rằng người đang sợ, đang mệt hay còn cần giúp đỡ hẳn có lỗi đạo đức."
+          ],
+          "meaningUnits": [
+            "comparison-reputation",
+            "cultivated-capacities"
+          ]
+        },
+        {
+          "id": "community-example",
+          "kind": "example",
+          "heading": "Ví dụ: cùng lo một việc chung",
+          "paragraphs": [
+            "Hình dung một nhóm cùng giữ quỹ đọc sách. Khi giao việc cho người mới, ta lo người ấy không coi trọng công sức lâu năm của mình. Có thể xem lại sổ sách cho minh bạch, nói rõ điều cần bàn giao, đồng thời nhận ra lòng đang muốn giữ sự kính nể. Kinh nghiệm vẫn có ích; chỉ cần đừng biến nó thành lý do hạ thấp người đến sau. Đây là tình huống minh họa của người biên soạn."
+          ],
+          "meaningUnits": [
+            "conduct",
+            "comparison-reputation"
+          ]
+        },
+        {
+          "id": "forest",
+          "kind": "teaching",
+          "heading": "Khi nỗi sợ đến, Ngài làm gì?",
+          "paragraphs": [
+            "Bồ-tát đã chọn ở những miếu thờ trong vườn, rừng và dưới cây khiến người ta rợn sợ, vào các đêm mùng tám, mười bốn, mười lăm của mỗi nửa tháng. Một con nai đến, công làm rơi cành, gió lay lá khô có thể khiến Ngài nghĩ sợ hãi đang tới. Rồi Ngài tự hỏi vì sao cứ chờ nỗi sợ, và quyết loại bỏ nó trong đúng tư thế lúc nó xuất hiện.",
+            "Nếu đang đi, Ngài tiếp tục đi đến khi loại bỏ được sợ. Với đứng, ngồi, nằm cũng vậy; Ngài không đổi sang tư thế khác trước khi làm được việc ấy. Đó là lời kể sự tu tập của Ngài. Khi vận dụng hôm nay, cần tôn trọng tình trạng thân tâm và sự an toàn, không lấy việc cố chịu đau hoặc ở lại nơi nguy hiểm làm thước đo tu tập."
+          ],
+          "meaningUnits": [
+            "fear-setting",
+            "four-postures"
+          ]
+        },
+        {
+          "id": "clear-perception",
+          "kind": "teaching",
+          "heading": "Giữ sự nhận biết ngay thẳng",
+          "paragraphs": [
+            "Đức Phật nói có người tu đang đêm tưởng ngày, đang ngày tưởng đêm; Ngài gọi đó là mê lầm. Ngài biết đêm là đêm, ngày là ngày. Ngài xác nhận lời nói về một chúng sinh không bị mê lầm chi phối, xuất hiện vì lòng thương thế gian, vì lợi ích và hạnh phúc của nhiều người, của chư thiên và loài người, là nói đúng về mình."
+          ],
+          "meaningUnits": [
+            "clear-knowing"
+          ]
+        },
+        {
+          "id": "meditative-progress",
+          "kind": "teaching",
+          "heading": "Bốn thiền, đọc chậm từng bước",
+          "paragraphs": [
+            "Sau phần ấy, Ngài kể việc thiền định với nỗ lực không chùng, niệm không quên, thân an tịnh không căng, tâm có định và nhất tâm. Đây là sự tu tập sâu, có thể đọc từng bước để thấy rõ các chuyển biến.",
+            "Trong sơ thiền, Ngài rời dục và các pháp bất thiện, có hỷ lạc do viễn ly; còn tầm và tứ, có thể hiểu sơ bộ là hướng tâm và theo sát đề mục. Ở nhị thiền, tầm tứ lắng, nội tâm trong sáng và thống nhất; hỷ lạc do định sinh.",
+            "Sang tam thiền, hỷ phai, Ngài an trú với xả, niệm và tỉnh giác, tự thân cảm nhận lạc. Các bậc Thánh nói đến sống an lạc với xả và niệm. Trong tứ thiền, khổ lạc được buông, hỷ ưu trước đó đã dứt; không khổ không lạc, niệm thanh tịnh nhờ xả. Sự quân bình ấy không phải lạnh nhạt với người và việc."
+          ],
+          "meaningUnits": [
+            "meditation-basis",
+            "first-two-jhanas",
+            "last-two-jhanas"
+          ]
+        },
+        {
+          "id": "first-knowledge",
+          "kind": "teaching",
+          "heading": "Minh thứ nhất: những đời sống trước",
+          "paragraphs": [
+            "Với tâm định, trong sạch, sáng, hết cấu uế, mềm dẻo, dễ sử dụng, vững và bất động, Ngài hướng đến nhớ nhiều đời trước. Lời kể đi từ một đời đến trăm ngàn đời, qua nhiều thời kỳ thế giới co lại và giãn ra. Có những chi tiết về tên, dòng họ, hình dáng, thức ăn, khổ lạc, tuổi thọ và chuyển sinh.",
+            "Đây là minh thứ nhất, đạt trong canh đầu của đêm. Chữ minh chỉ sự biết được thuật trong kinh; riêng phần này nói các đời sống trước, không phải việc ôn lại kỷ niệm của đời hiện tại."
+          ],
+          "meaningUnits": [
+            "first-knowledge"
+          ]
+        },
+        {
+          "id": "second-knowledge",
+          "kind": "teaching",
+          "heading": "Minh thứ hai: sự chết và tái sinh",
+          "paragraphs": [
+            "Cũng với tâm đã rèn ấy, Ngài hướng đến biết sự chết và tái sinh của chúng sinh. Thiên nhãn thanh tịnh, vượt mắt người, thấy các khác biệt thấp cao, đẹp xấu, cảnh đến tốt xấu theo nghiệp.",
+            "Ngài kể người làm ác bằng thân, lời và ý, phỉ báng bậc Thánh, có tà kiến và hành động theo tà kiến, sau chết đến cảnh khổ, địa ngục. Người làm lành, không phỉ báng bậc Thánh, có chánh kiến và hành động tương ứng, đến cảnh tốt, cõi trời. Minh này đạt trong canh giữa. Ta giữ nội dung ấy khi đọc, nhưng không tự nhận khả năng đoán nghiệp một người qua hoàn cảnh hay dáng vẻ của họ."
+          ],
+          "meaningUnits": [
+            "second-knowledge"
+          ]
+        },
+        {
+          "id": "third-knowledge",
+          "kind": "teaching",
+          "heading": "Minh thứ ba: việc cần làm đã hoàn tất",
+          "paragraphs": [
+            "Trong canh cuối, Ngài hướng tâm đến đoạn tận lậu hoặc, những ô nhiễm ràng buộc tâm. Ngài biết đúng như thật khổ, nguồn khổ, khổ chấm dứt và con đường thực hành đưa đến chấm dứt. Cũng vậy, Ngài biết lậu hoặc, nguồn phát sinh, sự chấm dứt và đường đưa đến chấm dứt chúng.",
+            "Từ sự biết và thấy ấy, tâm giải thoát khỏi ràng buộc về dục, về hiện hữu và về vô minh. Ngài biết mình đã giải thoát: sinh đã tận, đời sống phạm hạnh viên mãn, việc cần làm đã xong, không còn trở lại trạng thái hiện hữu này.",
+            "Sau mỗi minh, lời kinh lặp lại việc vô minh và bóng tối bị xua tan, minh và ánh sáng sinh khởi nơi người không buông lung, nhiệt tâm, quyết chí. Đích đến được kể là giải thoát, vượt xa một khoảnh khắc thư thái."
+          ],
+          "meaningUnits": [
+            "third-knowledge",
+            "first-knowledge",
+            "second-knowledge"
+          ]
+        },
+        {
+          "id": "future-generations",
+          "kind": "teaching",
+          "heading": "Vẫn ở rừng, vẫn nghĩ đến người sau",
+          "paragraphs": [
+            "Vì sao đã giải thoát mà Ngài còn sống nơi rừng vắng? Đức Phật bác ý nghĩ rằng do Ngài chưa hết tham, sân, si. Ngài nêu hai lý do: an trú an lạc ngay đời này và thương tưởng các thế hệ tương lai.",
+            "Jānussoṇi tán thán sự thương tưởng ấy của bậc A-la-hán, Chánh Đẳng Giác. Ông ví lời giảng như dựng lại vật bị lật, mở điều bị che, chỉ lối cho người lạc và mang đèn vào bóng tối. Ông quy y Phật, Pháp, Tăng, xin làm nam cư sĩ đã quy y trọn đời. Câu chuyện kết ở sự nương tựa ấy, không kể ông xuất gia."
+          ],
+          "meaningUnits": [
+            "ongoing-forest-life",
+            "response"
+          ]
+        },
+        {
+          "id": "daily-reflection",
+          "kind": "practice",
+          "heading": "Một khoảng nhìn lại vừa sức",
+          "paragraphs": [
+            "Có thể dành một khoảng yên để nhìn một việc còn vướng: lời nào cần nói thật hơn, việc nào có thể sửa, sự kính trọng nào mình đang đòi giữ. Chọn một bước vừa sức, hoặc trao đổi với người đáng tin. Đây là gợi ý biên tập để liên hệ bài đọc; mỗi người chủ động chọn cách phù hợp."
+          ],
+          "meaningUnits": [
+            "conduct",
+            "comparison-reputation"
+          ]
+        },
+        {
+          "id": "reading-note",
+          "kind": "clarification",
+          "heading": "Ghi chú đối chiếu",
+          "paragraphs": [
+            "Bản diễn giải gộp công thức lặp theo Pāli. Bản Anh rút gọn nhiều chỗ; bản Pāli phân biệt thân, khẩu, ý và có dấu lược riêng ở khẩu, ý. Cách nói “noi theo gương” theo ghi chú dự án. Những dòng báo kết mười sáu phương diện và kết bài thứ tư là nhãn của bản văn."
+          ],
+          "meaningUnits": [
+            "identity",
+            "conduct"
+          ]
+        }
+      ]
+    }
+  }
+}
