@@ -1,0 +1,850 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn3",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn3_root-pli-ms.json",
+      "sha256": "da4c60a6fbf1c7635f7afb8cd89da158b46b0b9d46b768f8cdbd8b57f1603b42",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn3_translation-en-sujato.json",
+      "sha256": "4fee1c4d2dfea08296ca54301f933abf35c9a3552e2bdeafd1f9ed49ad456d0b",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn3_translation-vi-project.json",
+      "sha256": "47dc1163c29df075937546e937502d39f69bd1b5d2b5039c0a2e6873c6585b66",
+      "commit": "d61c3d79c73aee87f34cbbed1e96b134d95e72cb"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn3.html",
+      "sha256": "391340d0eaa61a6415ebdb6fe53a3f4cb54f53dfaa87d8206dbff51fdc312858",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn3_comment-vi-project.json",
+      "sha256": "0a53b71f5b45abba97aea6056456731b12d026a7b6409bb7c93898699928fcca",
+      "commit": "d61c3d79c73aee87f34cbbed1e96b134d95e72cb"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Tên bài và vị trí trong Trung Bộ",
+      "segments": [
+        "mn3:0.1",
+        "mn3:0.2",
+        "mn3:9-15.15"
+      ],
+      "summary": "MN3 là Kinh Thừa Tự Pháp, bài thứ ba trong Trung Bộ; dòng kết xác nhận tên và thứ tự."
+    },
+    {
+      "id": "setting",
+      "title": "Bối cảnh bài giảng",
+      "segments": [
+        "mn3:1.1",
+        "mn3:1.2",
+        "mn3:1.3",
+        "mn3:1.4",
+        "mn3:1.5",
+        "mn3:1.6"
+      ],
+      "summary": "Đức Phật tại rừng Jeta, tu viện Anāthapiṇḍika ở Sāvatthī; Ngài gọi và nói với các tỳ-kheo."
+    },
+    {
+      "id": "heritage",
+      "title": "Thừa tự Pháp vì lòng thương tưởng",
+      "segments": [
+        "mn3:2.1",
+        "mn3:2.2",
+        "mn3:2.3",
+        "mn3:2.4",
+        "mn3:2.5",
+        "mn3:2.6",
+        "mn3:2.7",
+        "mn3:2.8",
+        "mn3:2.9",
+        "mn3:2.10",
+        "mn3:2.11",
+        "mn3:2.12",
+        "mn3:2.13",
+        "mn3:2.14"
+      ],
+      "summary": "Đức Phật mong đệ tử thừa tự Pháp, không tài vật, vì lòng thương tưởng. Nếu chỉ thừa tự tài vật, đệ tử và Đạo sư đều bị quy trách vì cách sống ấy; thừa tự Pháp thì cả hai không bị quy trách như vậy. Lời nhắc và lòng thương được lặp."
+    },
+    {
+      "id": "food-offer",
+      "title": "Ví dụ giả định và lời mời ăn",
+      "segments": [
+        "mn3:3.1",
+        "mn3:3.2",
+        "mn3:3.3",
+        "mn3:3.4",
+        "mn3:3.5",
+        "mn3:3.6",
+        "mn3:3.7"
+      ],
+      "summary": "Giả sử Đức Phật ăn đủ, không nhận thêm nhưng còn thức ăn khất thực dư sắp bỏ. Hai tỳ-kheo đói yếu đến; Ngài cho phép ăn nếu muốn, nếu không sẽ bỏ ở nơi ít cây cỏ hoặc nước không sinh vật. Không kể như biến cố có thật hoặc lệnh cấm ăn."
+    },
+    {
+      "id": "first-monk",
+      "title": "Lựa chọn của vị thứ nhất",
+      "segments": [
+        "mn3:3.8",
+        "mn3:3.9",
+        "mn3:3.10",
+        "mn3:3.11",
+        "mn3:3.12",
+        "mn3:3.13",
+        "mn3:3.14",
+        "mn3:3.15",
+        "mn3:3.16"
+      ],
+      "summary": "Vị thứ nhất biết hoàn cảnh thức ăn dư và nơi bỏ, nhớ lời thừa tự Pháp, nhận thức ăn là tài vật, chọn không ăn và chịu đói yếu suốt ngày đêm ấy. Lựa chọn trong ví dụ vẫn ở thể giả định."
+    },
+    {
+      "id": "second-monk",
+      "title": "Lựa chọn của vị thứ hai",
+      "segments": [
+        "mn3:3.17",
+        "mn3:3.18",
+        "mn3:3.19",
+        "mn3:3.20",
+        "mn3:3.21",
+        "mn3:3.22"
+      ],
+      "summary": "Vị thứ hai cũng biết thức ăn dư sẽ bị bỏ, chọn ăn để xua đói yếu, trải qua ngày đêm không còn đói yếu. Không thêm ý đồ tham lam, phạm giới hoặc bị quở trách mà nguồn không nêu."
+    },
+    {
+      "id": "comparison",
+      "title": "Lý do vị thứ nhất được kính trọng hơn",
+      "segments": [
+        "mn3:3.23",
+        "mn3:3.24",
+        "mn3:3.25",
+        "mn3:3.26",
+        "mn3:3.27",
+        "mn3:3.28"
+      ],
+      "summary": "Dù vị thứ hai đã ăn và hết đói yếu, Đức Phật kính trọng, khen vị thứ nhất hơn: lựa chọn ấy lâu dài dẫn đến ít ham muốn, biết đủ, đoạn giảm, dễ nuôi và khởi tinh tấn. Không biến đoạn giảm thành tự hành hạ; không biến sự so sánh thành lệnh mọi người nhịn ăn. Lặp lời thừa tự Pháp và lòng thương tưởng."
+    },
+    {
+      "id": "sariputta-turn",
+      "title": "Chuyển lời giảng sang Sāriputta",
+      "segments": [
+        "mn3:4.1",
+        "mn3:4.2",
+        "mn3:4.3",
+        "mn3:4.4",
+        "mn3:4.5",
+        "mn3:4.6",
+        "mn3:5.1",
+        "mn3:5.2",
+        "mn3:5.3",
+        "mn3:5.4",
+        "mn3:5.5",
+        "mn3:5.6",
+        "mn3:5.7"
+      ],
+      "summary": "Đức Phật vào nơi ở. Sau đó Sāriputta hỏi vì sao đệ tử có hay không học theo viễn ly của Đạo sư. Các tỳ-kheo muốn được giải thích, sẵn lòng đi xa để nghe; vị ấy mời nghe/chú tâm và giảng tiếp. Giữ đúng người nói."
+    },
+    {
+      "id": "not-training",
+      "title": "Ba mặt không học theo viễn ly",
+      "segments": [
+        "mn3:6.1",
+        "mn3:6.2",
+        "mn3:6.3",
+        "mn3:6.4",
+        "mn3:6.22"
+      ],
+      "summary": "Không học viễn ly khi Đạo sư viễn ly; không từ bỏ điều được dạy phải từ bỏ; ham hưởng thụ, buông thả, đi đầu thối lui, bỏ bê viễn ly. Viễn ly không chỉ cô lập vật lý."
+    },
+    {
+      "id": "criticism-ranks",
+      "title": "Ba căn cứ phê bình ở cả ba nhóm thâm niên",
+      "segments": [
+        "mn3:6.5",
+        "mn3:6.6",
+        "mn3:6.7",
+        "mn3:6.8",
+        "mn3:6.9",
+        "mn3:6.10",
+        "mn3:6.11",
+        "mn3:6.12",
+        "mn3:6.13",
+        "mn3:6.14",
+        "mn3:6.15",
+        "mn3:6.16",
+        "mn3:6.17",
+        "mn3:6.18",
+        "mn3:6.19",
+        "mn3:6.20",
+        "mn3:6.21"
+      ],
+      "summary": "Cả tỳ-kheo trưởng lão, thâm niên bậc trung và mới tu đều bị phê bình trên đủ ba căn cứ trên. Ba nhóm theo thâm niên xuất gia, không theo tuổi đời; nguồn chỉ lược nhóm giữa, không được bỏ nhóm hoặc điều kiện."
+    },
+    {
+      "id": "training",
+      "title": "Ba mặt học theo viễn ly",
+      "segments": [
+        "mn3:7.1",
+        "mn3:7.2",
+        "mn3:7.3",
+        "mn3:7.4",
+        "mn3:7.22"
+      ],
+      "summary": "Học theo viễn ly; từ bỏ điều cần từ bỏ; không ham hưởng thụ/buông thả, gác bỏ sự thối lui và đi đầu viễn ly. Giữ phép đảo hai vế cuối ở Pāli, không chỉ phủ định máy móc đoạn trước."
+    },
+    {
+      "id": "praise-ranks",
+      "title": "Ba căn cứ khen ngợi ở cả ba nhóm thâm niên",
+      "segments": [
+        "mn3:7.5",
+        "mn3:7.6",
+        "mn3:7.7",
+        "mn3:7.8",
+        "mn3:7.9",
+        "mn3:7.10",
+        "mn3:7.11",
+        "mn3:7.12",
+        "mn3:7.13",
+        "mn3:7.14",
+        "mn3:7.15",
+        "mn3:7.16",
+        "mn3:7.17",
+        "mn3:7.18",
+        "mn3:7.19",
+        "mn3:7.20",
+        "mn3:7.21"
+      ],
+      "summary": "Đủ ba nhóm trưởng lão, thâm niên bậc trung và mới tu được khen khi thực hành đủ ba mặt tích cực. Lời khen dựa việc thực hành, không tự động từ thâm niên."
+    },
+    {
+      "id": "greed-hate-path",
+      "title": "Tham, sân và Thánh đạo tám ngành",
+      "segments": [
+        "mn3:8.1",
+        "mn3:8.2",
+        "mn3:8.3",
+        "mn3:8.4",
+        "mn3:8.5",
+        "mn3:8.6"
+      ],
+      "summary": "Tham và sân là bất thiện; trung đạo để từ bỏ chúng đem lại cái thấy và tri kiến, đưa an tịnh, thắng trí, giác ngộ, Niết-bàn. Trung đạo được xác định là chánh kiến, tư duy, ngữ, nghiệp, mạng, tinh tấn, niệm, định; không phải một thỏa hiệp hoặc chỉ giảm căng thẳng."
+    },
+    {
+      "id": "seven-other-pairs",
+      "title": "Bảy cặp bất thiện tiếp theo",
+      "segments": [
+        "mn3:9-15.1",
+        "mn3:9-15.2",
+        "mn3:9-15.3",
+        "mn3:9-15.4",
+        "mn3:9-15.5",
+        "mn3:9-15.6",
+        "mn3:9-15.7"
+      ],
+      "summary": "Giữ đủ bảy cặp còn lại: giận dữ/oán hận; gièm pha/hơn thua; ganh tị/keo kiệt; giả dối/xảo trá; bướng bỉnh/hung hăng; ngã mạn/ngạo mạn; tự mãn/buông lung. Cộng tham/sân thành tám cặp, 16 phẩm chất. Không san thành nhãn xấu hay vài điều đại diện."
+    },
+    {
+      "id": "path-repeated",
+      "title": "Cùng một trung đạo cho những điều cần từ bỏ",
+      "segments": [
+        "mn3:9-15.8",
+        "mn3:9-15.9",
+        "mn3:9-15.10",
+        "mn3:9-15.11",
+        "mn3:9-15.12"
+      ],
+      "summary": "Sau các cặp bất thiện, nguồn lặp công thức trung đạo, đầy đủ tám ngành và sáu kết quả (cái thấy, tri kiến, an tịnh, thắng trí, giác ngộ, Niết-bàn), khép chuỗi từ bỏ; phép lược liên kết các cặp với cùng con đường."
+    },
+    {
+      "id": "ending",
+      "title": "Các tỳ-kheo tán đồng Sāriputta",
+      "segments": [
+        "mn3:9-15.13",
+        "mn3:9-15.14"
+      ],
+      "summary": "Sāriputta kết lời giảng; các tỳ-kheo hoan hỷ tán đồng lời của vị ấy. Không quy đoạn kết này cho Đức Phật trực tiếp nói."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Điều quý nhất mình nhận được là gì?",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening-example",
+          "kind": "example",
+          "heading": "Chiếc áo và cách chơi đẹp",
+          "paragraphs": [
+            "Em học đá bóng với một người hướng dẫn. Sau một thời gian, em được tặng một chiếc áo của đội. Em rất thích chiếc áo. Nhưng còn một điều khác em có thể mang theo: biết dừng lại giúp khi bạn ngã, biết nhận lỗi và tập lại một động tác chưa làm được.",
+            "Chiếc áo là món đồ được nhận. Cách em học rồi thực hành lại có thể đi cùng em lâu hơn. Bài kinh này đặt một câu hỏi sâu hơn: người học từ Đức Phật sẽ tiếp nối điều gì?"
+          ],
+          "meaningUnits": [
+            "heritage"
+          ]
+        },
+        {
+          "id": "setting-and-heritage",
+          "kind": "teaching",
+          "heading": "Thừa tự Pháp là nhận lấy và sống theo lời dạy",
+          "paragraphs": [
+            "MN3, Kinh Thừa Tự Pháp, là bài thứ ba trong Trung Bộ. Đức Phật giảng cho các tỳ-kheo tại rừng Jeta, tu viện của ông Anāthapiṇḍika ở Sāvatthī.",
+            "Thừa tự nghĩa là tiếp nhận điều được trao lại và tiếp nối điều ấy. Đức Phật mong các đệ tử tiếp nối Pháp, tức lời dạy và con đường thực hành của Ngài, thay vì chỉ mong nhận tài vật. Tài vật là những thứ dùng được như thức ăn và đồ dùng.",
+            "Ngài nói điều ấy vì thương các đệ tử. Nếu họ chỉ sống để nhận tài vật, cả họ và bậc Đạo sư đều bị chê trách về cách sống ấy. Khi họ thật sự tiếp nối Pháp, cả hai không bị chê trách vì điều ấy. Điều quý nằm ở sự học và thực hành."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "heritage"
+          ]
+        },
+        {
+          "id": "food-offer",
+          "kind": "teaching",
+          "heading": "Một ví dụ về hai vị tỳ-kheo",
+          "paragraphs": [
+            "Đức Phật đưa ra một tình huống giả sử. Ngài đã ăn xong, đã no và không nhận thêm, nhưng vẫn còn thức ăn khất thực dư sắp phải bỏ. Hai vị tỳ-kheo đang đói và yếu đi đến.",
+            "Ngài cho phép các vị ăn nếu muốn. Nếu không ăn, thức ăn sẽ được bỏ ở nơi ít cây cỏ hoặc xuống nước không có sinh vật. Như vậy, trong ví dụ này, thức ăn được cho phép dùng."
+          ],
+          "meaningUnits": [
+            "food-offer"
+          ]
+        },
+        {
+          "id": "two-choices",
+          "kind": "teaching",
+          "heading": "Hai lựa chọn trong cùng một hoàn cảnh",
+          "paragraphs": [
+            "Vị thứ nhất nhớ lời dạy về thừa tự Pháp. Vị ấy biết thức ăn cũng là tài vật, và biết phần dư sẽ bị bỏ nếu không ai ăn. Vị ấy chọn không ăn, chấp nhận vẫn đói và yếu suốt ngày đêm ấy.",
+            "Vị thứ hai cũng biết thức ăn đang dư và sẽ bị bỏ. Vị ấy chọn ăn để hết đói, hết yếu rồi sống qua ngày đêm đó. Cùng được mời ăn, hai vị có hai lựa chọn."
+          ],
+          "meaningUnits": [
+            "first-monk",
+            "second-monk"
+          ]
+        },
+        {
+          "id": "five-qualities",
+          "kind": "teaching",
+          "heading": "Vì sao vị thứ nhất được khen hơn?",
+          "paragraphs": [
+            "Đức Phật nói vị thứ nhất đáng được kính trọng và khen ngợi hơn. Ngài nêu năm điều mà lựa chọn ấy sẽ giúp nuôi lớn về lâu dài: ít ham muốn, biết đủ, đoạn giảm, dễ nuôi và tinh tấn.",
+            "Ít ham muốn là bớt đòi thêm. Biết đủ là không cứ thấy mình thiếu dù đã có điều cần thiết. Đoạn giảm là rèn để những thói bất thiện mòn bớt. Dễ nuôi là không đòi hỏi cầu kỳ ở người hỗ trợ. Tinh tấn là chịu khó thực hành. Đây là những phẩm chất của người tu được nhấn mạnh qua ví dụ.",
+            "Đức Phật khép ví dụ bằng cách nhắc lại lời mong đệ tử tiếp nối Pháp và lòng thương của Ngài."
+          ],
+          "meaningUnits": [
+            "comparison"
+          ]
+        },
+        {
+          "id": "food-boundary",
+          "kind": "clarification",
+          "heading": "Em không cần làm theo bằng cách bỏ bữa",
+          "paragraphs": [
+            "Ví dụ kể lựa chọn của người xuất gia trong hoàn cảnh được nêu. Nó không phải bài tập nhịn ăn dành cho em. Vị thứ hai đã được phép ăn; bài kinh không nói vị ấy phạm lỗi vì ăn. Em có thể học cách bớt đòi hỏi và biết đủ trong việc khác, trong khi vẫn ăn uống và chăm sóc mình."
+          ],
+          "meaningUnits": [
+            "food-offer",
+            "second-monk",
+            "comparison"
+          ]
+        },
+        {
+          "id": "sariputta-turn",
+          "kind": "teaching",
+          "heading": "Sāriputta giải thích tiếp",
+          "paragraphs": [
+            "Sau khi nói, Đức Phật đứng dậy và đi vào nơi ở. Tôn giả Sāriputta tiếp tục nói với các tỳ-kheo. Vị ấy hỏi: vì sao có người học theo đời sống viễn ly của bậc Đạo sư, còn có người không học theo?",
+            "Các tỳ-kheo muốn nghe giải thích, nói rằng họ sẵn lòng đi xa để hiểu lời ấy. Sāriputta mời mọi người lắng nghe và chú tâm. Viễn ly là rời những điều làm mình vướng mắc để tu tập; nó có sự yên tĩnh, nhưng không chỉ là ngồi một mình."
+          ],
+          "meaningUnits": [
+            "sariputta-turn"
+          ]
+        },
+        {
+          "id": "not-training",
+          "kind": "teaching",
+          "heading": "Ở gần lời dạy mà chưa sống theo",
+          "paragraphs": [
+            "Sāriputta nêu ba điều đáng phê bình. Thứ nhất, bậc Đạo sư sống viễn ly nhưng đệ tử không học theo. Thứ hai, những điều được dạy phải từ bỏ thì họ vẫn giữ. Thứ ba, họ ham hưởng thụ, buông thả, dẫn đầu trong việc thối lui và bỏ bê viễn ly.",
+            "Cả ba điều được xét với tỳ-kheo trưởng lão, tỳ-kheo có thâm niên bậc trung và người mới tu. Ba nhóm nói về thời gian đã sống đời xuất gia, không phải chia người theo tuổi. Tu lâu hay mới tu đều cần nhìn vào việc mình đang làm."
+          ],
+          "meaningUnits": [
+            "not-training",
+            "criticism-ranks"
+          ]
+        },
+        {
+          "id": "training",
+          "kind": "teaching",
+          "heading": "Học theo bằng việc làm",
+          "paragraphs": [
+            "Ba điều đáng khen đi theo hướng ngược lại: học theo viễn ly của bậc Đạo sư; từ bỏ điều được dạy phải từ bỏ; không ham hưởng thụ, không buông thả, gác bỏ sự thối lui và đi đầu trong viễn ly.",
+            "Cả người xuất gia lâu năm, người ở bậc trung và người mới tu đều đáng khen khi thực hành như vậy. Lời khen dựa vào cách sống. Chỉ đứng trong nhóm người học chưa làm thay phần thực hành của mình."
+          ],
+          "meaningUnits": [
+            "training",
+            "praise-ranks"
+          ]
+        },
+        {
+          "id": "qualities-to-abandon",
+          "kind": "teaching",
+          "heading": "Những điều nào cần được từ bỏ?",
+          "paragraphs": [
+            "Trước hết là tham và sân: muốn nắm lấy cho mình và ghét bỏ, chống đối. Tiếp theo là giận dữ và oán hận: nổi giận rồi giữ mãi sự hằn học.",
+            "Còn có gièm pha và hơn thua: hạ thấp điều tốt của người khác, mải tranh phần hơn. Ganh tị và keo kiệt là khó chịu khi người khác có điều tốt, rồi giữ rịt, không muốn chia sẻ. Giả dối và xảo trá là che giấu, bày cách đánh lừa.",
+            "Bướng bỉnh và hung hăng khiến mình không chịu nghe rồi lấn át người khác. Ngã mạn và ngạo mạn là bám vào việc so đo về mình, đến mức xem thường người khác. Tự mãn và buông lung là say sưa với điều mình có rồi lơi việc giữ gìn, tu học.",
+            "Có tất cả tám cặp trong bài kinh. Chúng là những điều cần nhận ra và từ bỏ, không phải tên để em dán vào cả con người mình hoặc bạn."
+          ],
+          "meaningUnits": [
+            "greed-hate-path",
+            "seven-other-pairs"
+          ]
+        },
+        {
+          "id": "eightfold-path",
+          "kind": "teaching",
+          "heading": "Một con đường có tám phần cùng nâng đỡ nhau",
+          "paragraphs": [
+            "Sāriputta nói có con đường trung đạo để từ bỏ những điều ấy. Bài kinh gọi rõ đó là Thánh đạo tám ngành. Đây là tám phần của một con đường tu tập.",
+            "Chánh kiến là học cách hiểu đúng; chánh tư duy là hướng ý nghĩ theo điều thiện. Chánh ngữ là giữ lời nói chân thật, lành; chánh nghiệp là giữ hành động đúng đắn, không gây hại.",
+            "Chánh mạng là sinh sống bằng cách chân chính. Em chưa phải kiếm sống, nhưng có thể hiểu rằng cách mình làm ra và nhận được của cải cũng cần được xem xét. Chánh tinh tấn là nỗ lực bỏ điều bất thiện và phát triển điều thiện.",
+            "Chánh niệm là nhớ giữ sự chú tâm trong tu tập; chánh định là rèn tâm vững và tập trung đúng hướng. Cả tám được nêu lại ở cuối chuỗi các điều cần từ bỏ. Chúng đi cùng nhau, không chỉ có phần nào làm mình thấy dễ chịu."
+          ],
+          "meaningUnits": [
+            "greed-hate-path",
+            "path-repeated"
+          ]
+        },
+        {
+          "id": "goal-and-ending",
+          "kind": "teaching",
+          "heading": "Điều người tu đang hướng đến",
+          "paragraphs": [
+            "Con đường ấy đem lại cái thấy và tri kiến, tức sự hiểu biết; đưa đến an tịnh, thắng trí, giác ngộ và Niết-bàn. Thắng trí là sự biết trực tiếp trong tu tập. Niết-bàn là mục tiêu giải thoát, sâu hơn một lúc vui hay yên lòng.",
+            "Sāriputta kết thúc lời giảng. Các tỳ-kheo hoan hỷ và tán đồng lời của vị ấy. Nhờ phần giải thích này, việc thừa tự Pháp hiện rõ qua những điều được bỏ và con đường được thực hành."
+          ],
+          "meaningUnits": [
+            "path-repeated",
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Mang theo một điều đã học",
+          "paragraphs": [
+            "Nhớ lại một điều tốt em đã được học. Hôm nay em có thể làm điều gì để nó trở thành cách sống của mình? Khi chơi cùng bạn, em có thể thử thôi giành phần hơn, nói thật khi mắc lỗi hoặc vui với điều bạn làm tốt.",
+            "Chọn một việc nhỏ, làm rồi nhìn lại. Nếu chưa làm được, xem điều gì đã cản mình và thử lại. Bước học này không đòi em phải trở thành người luôn đúng."
+          ],
+          "meaningUnits": [
+            "heritage",
+            "training",
+            "seven-other-pairs",
+            "greed-hate-path"
+          ]
+        },
+        {
+          "id": "clarification",
+          "kind": "clarification",
+          "heading": "Về những ví dụ trong bản diễn giải",
+          "paragraphs": [
+            "Câu chuyện sân bóng và việc thử làm là gợi ý hiện đại của người biên soạn. Chúng giúp em bước đầu hiểu chuyện học rồi sống theo. Con đường trong kinh còn gồm cả đời sống tu tập và mục tiêu giác ngộ, giải thoát.",
+            "Những lời giải nghĩa ngắn về tám ngành giúp em bắt đầu đọc; chúng chưa trình bày hết mỗi phần của Thánh đạo. Tên bài và dòng báo Kinh Thừa Tự Pháp, bài thứ ba, đã kết thúc là nhãn của bản văn, không phải lời dạy mới."
+          ],
+          "meaningUnits": [
+            "identity",
+            "heritage",
+            "greed-hate-path",
+            "path-repeated"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Tiếp nối lời dạy bằng cách sống",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening-example",
+          "kind": "example",
+          "heading": "Khi được trao lại một công việc",
+          "paragraphs": [
+            "Một người hướng dẫn giao lại cho bạn công việc họ đã xây dựng nhiều năm. Bạn nhận tài liệu, công cụ và một vị trí thuận lợi. Nhưng bạn còn phải chọn cách làm: có nói thật khi gặp sai sót, có giữ sự công bằng và có tiếp tục học hay không.",
+            "Nhận được lợi ích từ một người chưa có nghĩa đã tiếp nối điều họ coi trọng. MN3 đưa sự phân biệt ấy vào đời sống đệ tử của Đức Phật: điều họ thừa tự cần trở thành sự thực hành."
+          ],
+          "meaningUnits": [
+            "heritage"
+          ]
+        },
+        {
+          "id": "setting-and-heritage",
+          "kind": "teaching",
+          "heading": "Lời nhắc xuất phát từ lòng thương tưởng",
+          "paragraphs": [
+            "MN3 là Kinh Thừa Tự Pháp, bài thứ ba trong Trung Bộ. Đức Phật giảng cho các tỳ-kheo tại rừng Jeta, tu viện của Anāthapiṇḍika ở Sāvatthī. Ngài mong đệ tử là người thừa tự Pháp, thay vì chỉ thừa tự tài vật.",
+            "Thừa tự Pháp là tiếp nhận và tiếp nối lời dạy, con đường thực hành. Tài vật là những lợi ích vật chất, trong ví dụ tiếp theo có cả thức ăn khất thực. Sự phân biệt liên quan đến hướng sống của người đệ tử.",
+            "Đức Phật nói Ngài có lòng thương tưởng các vị và mong họ trở thành người thừa tự Pháp. Nếu chỉ thừa tự tài vật, đệ tử và bậc Đạo sư đều bị chê trách vì cách sống ấy; nếu thừa tự Pháp, cả hai không bị chê trách vì điều ấy. Ngài nhắc lại lời kêu gọi cùng lòng thương tưởng này."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "heritage"
+          ]
+        },
+        {
+          "id": "food-offer",
+          "kind": "teaching",
+          "heading": "Một tình huống giả định về thức ăn dư",
+          "paragraphs": [
+            "Đức Phật nêu trường hợp giả sử Ngài đã ăn đủ, không nhận thêm, nhưng còn thức ăn khất thực dư sắp phải bỏ. Hai tỳ-kheo đói và yếu đến. Ngài cho phép họ ăn nếu muốn; nếu không, Ngài sẽ bỏ thức ăn ở nơi ít cây cỏ hoặc xuống nước không có sinh vật.",
+            "Vị thứ nhất nhớ lời dạy về thừa tự Pháp. Biết thức ăn là tài vật và phần dư sẽ bị bỏ, vị ấy chọn không ăn, sống qua ngày đêm đó trong đói yếu.",
+            "Vị thứ hai cũng biết thức ăn đang dư và sẽ bị bỏ. Vị ấy chọn ăn để xua cơn đói và sự yếu sức, rồi sống qua ngày đêm đó. Đây là hai lựa chọn trong ví dụ giả định, với lời cho phép ăn được nêu ngay từ đầu."
+          ],
+          "meaningUnits": [
+            "food-offer",
+            "first-monk",
+            "second-monk"
+          ]
+        },
+        {
+          "id": "comparison",
+          "kind": "teaching",
+          "heading": "Lý do của sự kính trọng hơn",
+          "paragraphs": [
+            "Đức Phật nói vị thứ nhất đáng được kính trọng và khen ngợi hơn, dù vị thứ hai đã ăn và không còn đói yếu. Lý do được nêu là ảnh hưởng lâu dài của lựa chọn ấy đối với năm phẩm chất: ít ham muốn, biết đủ, đoạn giảm, dễ nuôi và khởi tinh tấn.",
+            "Ít ham muốn và biết đủ giúp người tu bớt đòi hỏi. Đoạn giảm là rèn để các khuynh hướng bất thiện mòn đi. Dễ nuôi nói đến đời sống không cầu kỳ, không đặt nhiều đòi hỏi lên người hỗ trợ. Khởi tinh tấn là chủ động nỗ lực thực hành.",
+            "Phần so sánh hướng vào những phẩm chất ấy. Kinh không nói vị thứ hai phạm một điều cấm vì ăn. Đức Phật kết ví dụ bằng cách nhắc lại lời mong đệ tử thừa tự Pháp và lòng thương tưởng của Ngài."
+          ],
+          "meaningUnits": [
+            "comparison",
+            "second-monk",
+            "heritage"
+          ]
+        },
+        {
+          "id": "sariputta-turn",
+          "kind": "teaching",
+          "heading": "Sāriputta đặt câu hỏi về sự học theo",
+          "paragraphs": [
+            "Đức Phật nói xong rồi vào nơi ở. Không lâu sau, Tôn giả Sāriputta hỏi các tỳ-kheo: khi bậc Đạo sư sống viễn ly, thế nào là đệ tử không học theo viễn ly, và thế nào là có học theo?",
+            "Các vị muốn được giải thích, nói họ sẵn lòng đi xa để hiểu lời này. Sāriputta mời lắng nghe và chú tâm rồi giảng tiếp. Từ đây, người nói trực tiếp là Sāriputta.",
+            "Viễn ly có sự rời xa những vướng mắc để tu tập, không chỉ khoảng cách vật lý với người khác. Câu hỏi chuyển từ việc nhận được gì sang việc có học theo hướng sống của bậc Đạo sư hay không."
+          ],
+          "meaningUnits": [
+            "sariputta-turn"
+          ]
+        },
+        {
+          "id": "not-training",
+          "kind": "teaching",
+          "heading": "Ba căn cứ phê bình",
+          "paragraphs": [
+            "Thứ nhất, đệ tử không học theo viễn ly khi bậc Đạo sư sống viễn ly. Thứ hai, họ không từ bỏ những điều được dạy phải từ bỏ. Thứ ba, họ ham hưởng thụ, buông thả, đi đầu trong sự thối lui và bỏ bê viễn ly.",
+            "Sāriputta áp dụng đủ ba căn cứ cho tỳ-kheo trưởng lão, tỳ-kheo có thâm niên bậc trung và người mới tu. Đó là ba nhóm theo thâm niên xuất gia, không phải ba độ tuổi. Không nhóm nào được miễn việc xem xét cách thực hành."
+          ],
+          "meaningUnits": [
+            "not-training",
+            "criticism-ranks"
+          ]
+        },
+        {
+          "id": "training",
+          "kind": "teaching",
+          "heading": "Ba căn cứ khen ngợi",
+          "paragraphs": [
+            "Ở chiều ngược lại, đệ tử học theo viễn ly; từ bỏ những điều được dạy phải từ bỏ; không ham hưởng thụ, không buông thả, gác bỏ sự thối lui và đi đầu trong viễn ly.",
+            "Cả ba nhóm thâm niên đều đáng khen trên ba căn cứ ấy. Việc gác bỏ sự thối lui và đi đầu trong viễn ly cho thấy một hướng sống chủ động. Thời gian ở trong cộng đồng tu học cần được thể hiện bằng điều đã được học và làm."
+          ],
+          "meaningUnits": [
+            "training",
+            "praise-ranks"
+          ]
+        },
+        {
+          "id": "qualities-to-abandon",
+          "kind": "teaching",
+          "heading": "Đủ tám cặp cần từ bỏ",
+          "paragraphs": [
+            "Tham và sân được nêu trước: sự muốn nắm lấy và sự ghét bỏ. Tiếp đến là giận dữ và oán hận, gồm cả cơn giận nổi lên và việc tiếp tục giữ hận.",
+            "Gièm pha và hơn thua hướng vào hạ thấp giá trị người khác, tranh phần hơn. Ganh tị và keo kiệt là khó chịu trước điều tốt của người khác, giữ chặt những gì mình có. Giả dối và xảo trá là che giấu, đánh lừa và dùng sự quanh co.",
+            "Bướng bỉnh và hung hăng làm mình cứng lại, chống đối và lấn át. Ngã mạn và ngạo mạn gồm sự chấp, so đo quanh mình và thái độ tự đặt mình cao hơn người khác. Tự mãn và buông lung là say sưa với lợi thế của mình rồi lơi việc giữ gìn, tu học.",
+            "Sāriputta gọi những điều này là bất thiện. Toàn bộ tám cặp, mười sáu phẩm chất, nằm trong mạch điều cần được từ bỏ để thật sự học theo."
+          ],
+          "meaningUnits": [
+            "greed-hate-path",
+            "seven-other-pairs"
+          ]
+        },
+        {
+          "id": "eightfold-path",
+          "kind": "teaching",
+          "heading": "Trung đạo được xác định bằng tám ngành",
+          "paragraphs": [
+            "Sāriputta chỉ rõ con đường để từ bỏ tham, sân và các điều bất thiện ấy: Thánh đạo tám ngành. Vì đã được xác định bằng một con đường thực hành cụ thể, trung đạo ở đây không có nghĩa chỉ chọn một điểm nằm giữa hai ý kiến.",
+            "Chánh kiến là hiểu đúng; chánh tư duy là hướng suy nghĩ, ý định theo điều thiện. Chánh ngữ là lời nói đúng đắn, chân thật; chánh nghiệp là hành động đúng đắn, tránh gây hại.",
+            "Chánh mạng là sinh sống chân chính. Chánh tinh tấn là nỗ lực ngăn và từ bỏ điều bất thiện, phát triển điều thiện. Chánh niệm là giữ sự ghi nhớ và chú tâm trong tu học; chánh định là tâm được rèn cho vững, tập trung đúng hướng.",
+            "Con đường liên quan đến hiểu biết, ý định, lời nói, hành động, sinh kế và sự rèn tâm. Tám ngành được nêu đầy đủ rồi lặp ở cuối chuỗi các cặp bất thiện."
+          ],
+          "meaningUnits": [
+            "greed-hate-path",
+            "path-repeated"
+          ]
+        },
+        {
+          "id": "goal",
+          "kind": "teaching",
+          "heading": "Mục tiêu của con đường",
+          "paragraphs": [
+            "Con đường đem lại cái thấy và tri kiến; đưa đến an tịnh, thắng trí, giác ngộ và Niết-bàn. Tri kiến nhấn vào sự hiểu biết, còn thắng trí ở đây là sự biết trực tiếp trong tu tập. Niết-bàn là mục tiêu giải thoát của con đường.",
+            "Như vậy, việc thừa tự Pháp có cả điều cần bỏ và phương hướng cần phát triển. Nó vượt quá sự thành thạo công việc hay khả năng điều chỉnh một cảm xúc nhất thời. Sự an tịnh được đặt cùng với hiểu biết, giác ngộ và giải thoát."
+          ],
+          "meaningUnits": [
+            "greed-hate-path",
+            "path-repeated"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Lời giảng được tiếp nhận",
+          "paragraphs": [
+            "Sāriputta kết thúc lời giải thích. Các tỳ-kheo hoan hỷ và tán đồng lời của vị ấy. Từ lời nhắc ban đầu của Đức Phật, bài kinh đã làm rõ cách người đệ tử có thể tiếp nối Pháp qua đời sống và con đường tu."
+          ],
+          "meaningUnits": [
+            "ending",
+            "heritage"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Xem điều đã học có mặt trong một lựa chọn hay chưa",
+          "paragraphs": [
+            "Chọn một việc đang có quyền lợi hoặc sự hơn thua. Bạn đang chỉ muốn giữ phần lợi của mình, hay đang thực hành điều mình biết là đúng? Có thể bắt đầu bằng một việc: nói rõ sai sót thuộc trách nhiệm mình, thôi hạ thấp người khác hoặc chọn cách kiếm sống phù hợp với giới hạnh.",
+            "Đừng chỉ hỏi mình đã đọc hay nghe bao nhiêu. Hãy nhìn một hành động thực tế, điều bất thiện đã thôi được nuôi và điều thiện được làm. Đó là một cách tự xem xét việc học trong đời sống hằng ngày."
+          ],
+          "meaningUnits": [
+            "heritage",
+            "training",
+            "seven-other-pairs",
+            "greed-hate-path"
+          ]
+        },
+        {
+          "id": "clarification",
+          "kind": "clarification",
+          "heading": "Khi vận dụng vào đời sống hiện nay",
+          "paragraphs": [
+            "Ví dụ về công việc và các câu hỏi tự xem xét là gợi ý của người biên soạn. Các giải nghĩa ngắn cho tám ngành giúp đọc đoạn này; chúng không thay thế việc học đầy đủ về Thánh đạo.",
+            "Ví dụ thức ăn có hoàn cảnh người xuất gia và mục đích được nêu rõ. Không nên biến nó thành quy tắc nhịn ăn cho mọi người, từ chối nhu yếu hoặc bỏ trách nhiệm chăm sóc. Việc lựa chọn ít ham muốn và biết đủ cần đi cùng hiểu biết, thay vì lấy thiếu thốn làm thước đo tu tập.",
+            "Tên bài và dòng kết xác nhận Kinh Thừa Tự Pháp là bài thứ ba. Đây là nhãn cấu trúc của bản văn, không thêm một luận điểm vào lời giảng."
+          ],
+          "meaningUnits": [
+            "identity",
+            "food-offer",
+            "comparison",
+            "greed-hate-path",
+            "path-repeated"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Tiếp nhận Pháp trong từng việc mình làm",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening-example",
+          "kind": "example",
+          "heading": "Một cuốn sổ được trao lại",
+          "paragraphs": [
+            "Một người thân tặng bạn cuốn sổ ghi những điều họ đã học trong các buổi nghe pháp. Bạn quý cuốn sổ và giữ cẩn thận. Rồi trong một cuộc trò chuyện, có người làm bạn phật ý. Lúc ấy, điều đã đọc có thể trở thành một câu nói biết cân nhắc, hoặc vẫn chỉ nằm trên trang giấy.",
+            "Có những thứ ta nhận bằng tay, và có những điều chỉ thật sự được tiếp nhận khi đi vào cách sống. Kinh Thừa Tự Pháp mời người học nhìn vào sự tiếp nối ấy."
+          ],
+          "meaningUnits": [
+            "heritage",
+            "training"
+          ]
+        },
+        {
+          "id": "setting-and-heritage",
+          "kind": "teaching",
+          "heading": "Lòng thương tưởng của bậc Đạo sư",
+          "paragraphs": [
+            "Đây là MN3, bài thứ ba trong Trung Bộ. Tại rừng Jeta, tu viện của Anāthapiṇḍika ở Sāvatthī, Đức Phật nói với các tỳ-kheo rằng Ngài mong họ thừa tự Pháp, thay vì chỉ thừa tự tài vật.",
+            "Thừa tự Pháp là tiếp nhận và tiếp nối lời dạy cùng con đường thực hành. Tài vật chỉ những lợi ích vật chất; trong ví dụ ngay sau đó, thức ăn khất thực cũng thuộc tài vật. Người học được nhắc xem điều gì đang dẫn đường cho đời sống mình.",
+            "Đức Phật nói Ngài có lòng thương tưởng các đệ tử. Nếu các vị chỉ thừa tự tài vật, cả họ và bậc Đạo sư đều bị chê trách về cách sống ấy. Nếu các vị thừa tự Pháp, cả hai không bị chê trách vì điều ấy. Ngài nhắc lại lời mong mỏi này cùng lòng thương tưởng."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "heritage"
+          ]
+        },
+        {
+          "id": "food-offer",
+          "kind": "teaching",
+          "heading": "Hai lựa chọn trong một ví dụ giả định",
+          "paragraphs": [
+            "Đức Phật nêu tình huống giả sử Ngài đã ăn xong, no đủ và không nhận thêm, nhưng vẫn còn thức ăn khất thực dư sắp phải bỏ. Hai tỳ-kheo đang đói và yếu đi đến. Ngài cho phép họ ăn nếu muốn. Nếu họ không ăn, thức ăn sẽ được bỏ ở nơi ít cây cỏ hoặc xuống nước không có sinh vật.",
+            "Vị thứ nhất nhớ lời dạy về thừa tự Pháp. Vị ấy biết thức ăn cũng là tài vật, biết phần dư sẽ bị bỏ, rồi chọn không ăn. Vị ấy sẽ sống qua ngày đêm đó trong tình trạng đói và yếu.",
+            "Vị thứ hai cũng hiểu hoàn cảnh ấy. Vị ấy chọn ăn để xua đói và yếu, rồi sống qua ngày đêm đó. Hai lựa chọn đều được kể trong tình huống giả định; lời cho phép ăn là một phần rõ ràng của câu chuyện."
+          ],
+          "meaningUnits": [
+            "food-offer",
+            "first-monk",
+            "second-monk"
+          ]
+        },
+        {
+          "id": "comparison",
+          "kind": "teaching",
+          "heading": "Năm phẩm chất được nhấn mạnh",
+          "paragraphs": [
+            "Đức Phật nói vị thứ nhất đáng được kính trọng và khen ngợi hơn. Ngài nêu lý do: về lâu dài, lựa chọn ấy giúp vị tỳ-kheo ít ham muốn, biết đủ, thực hành đoạn giảm, dễ nuôi và khởi tinh tấn.",
+            "Ít ham muốn và biết đủ làm giảm sự đòi hỏi không ngừng. Đoạn giảm là làm mòn những khuynh hướng bất thiện qua thực hành. Dễ nuôi nói đến đời sống xuất gia không cầu kỳ, không chất thêm đòi hỏi lên người hỗ trợ. Khởi tinh tấn là bắt tay vào việc tu tập.",
+            "Sự khen ngợi hơn có lý do cụ thể ấy. Kinh không nói vị thứ hai phạm lỗi vì nhận thức ăn đã được cho phép. Cuối ví dụ, Đức Phật lại nhắc mong đệ tử thừa tự Pháp và lòng thương tưởng của Ngài."
+          ],
+          "meaningUnits": [
+            "comparison",
+            "second-monk",
+            "heritage"
+          ]
+        },
+        {
+          "id": "sariputta-turn",
+          "kind": "teaching",
+          "heading": "Lời giải thích của Sāriputta",
+          "paragraphs": [
+            "Nói xong, Đức Phật đứng dậy, đi vào nơi ở. Tôn giả Sāriputta sau đó hỏi các tỳ-kheo: khi bậc Đạo sư sống viễn ly, thế nào là đệ tử không học theo viễn ly, và thế nào là có học theo?",
+            "Các vị muốn nghe nghĩa ấy, nói họ sẵn lòng đi xa để được giải thích. Sāriputta mời mọi người lắng nghe và chú tâm kỹ rồi nói tiếp.",
+            "Viễn ly là rời những điều làm tâm vướng mắc để tu tập. Nó có sự yên tĩnh nhưng rộng hơn việc ở riêng. Từ lời nhắc về thừa tự, Sāriputta đưa người nghe đến câu hỏi về cách thực hành."
+          ],
+          "meaningUnits": [
+            "sariputta-turn"
+          ]
+        },
+        {
+          "id": "not-training",
+          "kind": "teaching",
+          "heading": "Ba điều khiến người học đáng bị phê bình",
+          "paragraphs": [
+            "Điều thứ nhất là không học theo viễn ly khi bậc Đạo sư sống viễn ly. Điều thứ hai là không từ bỏ những điều được dạy phải từ bỏ. Điều thứ ba là ham hưởng thụ, buông thả, đi đầu trong sự thối lui và bỏ bê viễn ly.",
+            "Đủ ba điều ấy được áp dụng cho tỳ-kheo trưởng lão, tỳ-kheo có thâm niên bậc trung và người mới tu. Các nhóm được tính theo thời gian xuất gia, không phải tuổi đời. Người tuổi cao vẫn có thể là người mới bước vào đời sống xuất gia.",
+            "Điều được xét là cách sống thực tế của từng nhóm. Sự kính trọng đối với thâm niên không làm mất phần trách nhiệm học và thực hành."
+          ],
+          "meaningUnits": [
+            "not-training",
+            "criticism-ranks"
+          ]
+        },
+        {
+          "id": "training",
+          "kind": "teaching",
+          "heading": "Ba điều khiến người học đáng được khen",
+          "paragraphs": [
+            "Ở chiều tích cực, người đệ tử học theo viễn ly; từ bỏ điều được dạy phải từ bỏ; không ham hưởng thụ, không buông thả, gác bỏ sự thối lui và đi đầu trong viễn ly.",
+            "Cả ba nhóm thâm niên đều đáng khen khi thực hành như vậy. Người học có việc cần chủ động làm, có việc cần dừng lại. Con đường tiếp tục mở ra trong cách sống hiện tại, không chỉ nằm ở những điều đã từng biết."
+          ],
+          "meaningUnits": [
+            "training",
+            "praise-ranks"
+          ]
+        },
+        {
+          "id": "qualities-to-abandon",
+          "kind": "teaching",
+          "heading": "Tám cặp điều bất thiện cần buông bỏ",
+          "paragraphs": [
+            "Sāriputta nêu tham và sân trước tiên: muốn nắm lấy và ghét bỏ. Rồi đến giận dữ và oán hận, gồm cơn giận đang nổi và sự giữ hận kéo dài.",
+            "Gièm pha và hơn thua làm mình hạ thấp điều tốt của người khác, tranh phần hơn. Ganh tị và keo kiệt là khó chịu trước điều người khác có, giữ chặt phần mình. Giả dối và xảo trá là che giấu, dùng sự quanh co để đánh lừa.",
+            "Bướng bỉnh và hung hăng là cứng lại, không chịu nghe, rồi lấn át. Ngã mạn và ngạo mạn liên quan đến chấp, so đo quanh mình và đặt mình cao hơn người khác. Tự mãn và buông lung là say sưa với điều mình có rồi lơi việc giữ gìn, tu học.",
+            "Có tất cả tám cặp, mười sáu phẩm chất. Nhận ra điều nào đang có mặt là để từ bỏ nó; việc đã có kinh nghiệm trong đời không tự làm những điều ấy chấm dứt."
+          ],
+          "meaningUnits": [
+            "greed-hate-path",
+            "seven-other-pairs"
+          ]
+        },
+        {
+          "id": "eightfold-path",
+          "kind": "teaching",
+          "heading": "Thánh đạo tám ngành là con đường được chỉ rõ",
+          "paragraphs": [
+            "Có một trung đạo để từ bỏ tham, sân và những điều bất thiện đã kể. Sāriputta xác định rõ đó là Thánh đạo tám ngành, một con đường thực hành cụ thể.",
+            "Chánh kiến là hiểu đúng; chánh tư duy là hướng suy nghĩ, ý định theo điều thiện. Chánh ngữ là giữ lời nói đúng đắn, chân thật; chánh nghiệp là giữ hành động đúng đắn, tránh gây hại.",
+            "Chánh mạng là sinh sống chân chính. Chánh tinh tấn là nỗ lực ngăn và bỏ điều bất thiện, phát triển điều thiện. Chánh niệm là giữ sự ghi nhớ và chú tâm trong tu học; chánh định là rèn tâm vững, tập trung đúng hướng.",
+            "Tám ngành bao gồm từ cái hiểu, ý định đến lời nói, hành động, cách sinh sống và sự rèn tâm. Công thức ấy được lặp ở cuối chuỗi các cặp bất thiện, cho thấy cùng một con đường được hướng đến khi nói về những điều cần từ bỏ."
+          ],
+          "meaningUnits": [
+            "greed-hate-path",
+            "path-repeated"
+          ]
+        },
+        {
+          "id": "goal-and-ending",
+          "kind": "teaching",
+          "heading": "Hướng đến giác ngộ và giải thoát",
+          "paragraphs": [
+            "Con đường này đem lại cái thấy và tri kiến, đưa đến an tịnh, thắng trí, giác ngộ và Niết-bàn. Tri kiến là sự hiểu biết; thắng trí ở đây là sự biết trực tiếp trong tu tập. Niết-bàn là mục tiêu giải thoát, không chỉ một cảm giác yên lòng trong sinh hoạt.",
+            "Sāriputta kết thúc lời giảng. Các tỳ-kheo hoan hỷ và tán đồng lời của vị ấy. Pháp được thừa tự qua sự từ bỏ điều bất thiện và thực hành con đường đã được chỉ rõ."
+          ],
+          "meaningUnits": [
+            "greed-hate-path",
+            "path-repeated",
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một điều đã học, một việc đang làm",
+          "paragraphs": [
+            "Chọn một cuộc trò chuyện gần đây khiến mình còn vướng. Có phải mình đang giữ hận, muốn phần hơn hoặc không muốn nhìn nhận điều tốt của người kia? Chọn một việc có thể làm trong lần gặp tới: nói thẳng điều cần nói mà không gièm pha, thừa nhận phần đúng của người khác hoặc dừng nhắc lại chuyện cũ để nuôi oán.",
+            "Bạn vẫn có thể trình bày kinh nghiệm, nhu cầu và sự bất đồng. Điều cần xem xét là cách mình làm việc ấy. Sau cuộc gặp, nhìn lại điều đã được thôi nuôi và điều tốt đã được thực hành."
+          ],
+          "meaningUnits": [
+            "heritage",
+            "training",
+            "seven-other-pairs",
+            "greed-hate-path"
+          ]
+        },
+        {
+          "id": "clarification",
+          "kind": "clarification",
+          "heading": "Giữ đúng hoàn cảnh khi vận dụng",
+          "paragraphs": [
+            "Cuốn sổ và các tình huống trò chuyện là gợi ý của người biên soạn. Phần giải nghĩa ngắn về tám ngành giúp theo dõi bài này; việc học đầy đủ con đường còn cần tiếp tục.",
+            "Ví dụ thức ăn nói về lựa chọn của tỳ-kheo trong hoàn cảnh cụ thể. Nó không đặt ra quy tắc nhịn ăn cho mọi người. Chữ dễ nuôi cũng không yêu cầu người cần chăm sóc phải giấu nhu cầu của mình. Có thể học ít ham muốn và biết đủ trong khi vẫn dùng những điều thiết yếu và thực hiện trách nhiệm chăm sóc.",
+            "Bản văn có tên bài và dòng báo Kinh Thừa Tự Pháp, bài thứ ba, đã kết thúc. Các nhãn ấy giúp nhận diện bài đang đọc, không phải lời dạy bổ sung."
+          ],
+          "meaningUnits": [
+            "identity",
+            "food-offer",
+            "comparison",
+            "greed-hate-path",
+            "path-repeated"
+          ]
+        }
+      ]
+    }
+  }
+}

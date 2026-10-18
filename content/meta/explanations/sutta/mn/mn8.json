@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn8",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "bb6db506-4c86-4df2-ab60-49a172eb0621"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "f590cdc4-e678-480e-bd54-013a5d632b86"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "ee567352-96a0-46c2-abfc-13585ada22e6"
+    }
+  },
+  "reviews": [
+    {
+      "id": "bb6db506-4c86-4df2-ab60-49a172eb0621",
+      "audience": "children",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.3,
+        "core_coverage": 9.4,
+        "logic_context": 9.4,
+        "terminology": 9.1,
+        "audience_fit": 9.1,
+        "clarity": 9.1,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đúng Mahācunda và lời Phật đáp tại Sāvatthī; câu hỏi 3.3 được giữ dưới dạng có/không, nhãn cuối bài được nhận diện. Năm nguồn hiện hành đối chiếu được; bản English im lặng ở chỗ lặp không được dùng làm chứng cứ giả.",
+        "semantic_fidelity": "Giữ ba cách thấy không phải của tôi/tôi/tự ngã và sự phân biệt đoạn giảm với tám sự an trú; không đồng nhất việc không trêu bạn với giải thoát. Công thức các vô sắc sau sửa giữ những vế chính (8.1–11.1).",
+        "core_coverage": "Đủ toàn bộ 44 mục theo các nhóm dễ đọc, cả năm cách trình bày, ví dụ đường/bến và bùn, lời nhắc tu tập cùng phần nhãn cuối. Việc rút gọn lời lặp vẫn giữ từng đối tượng và hướng đối trị.",
+        "logic_context": "Phủ định không gọi là đoạn giảm đã được nói thẳng; ý định thiện được phân biệt với việc thực hiện. Ở ví dụ bùn, tự rèn là điều kiện có thể giúp người khác, không biến thành bảo đảm giúp thành công.",
+        "terminology": "Giải thích tầm, tứ, xả và các tên thiền; celibacy giữ đúng bối cảnh người xuất gia. Các mục định/tùy miên vẫn là ngôn ngữ mới với trẻ, nhưng có lời giải và không thay bằng thuật ngữ tâm lý quá hẹp.",
+        "audience_fit": "Xưng em, tình huống trêu bạn, lựa chọn nhờ người đáng tin và một việc nhỏ cụ thể phù hợp cách đọc của trẻ. Không đòi phục tùng người lớn; bài dài nên phù hợp đọc từng phần cùng người lớn hơn đọc liền.",
+        "clarity": "Tiến trình từ câu chuyện quen tới các nhóm phẩm chất và quay lại hành động dễ theo. Các tầng thiền và danh mục 44 mục còn cần chậm lại; không đánh giá mức hiểu như đã được kiểm với trẻ thật.",
+        "editorial_separation": "group-story ghi rõ chuyện minh họa hôm nay; try nhận diện lời gợi ý của người biên soạn. Không đặt lời hiện đại vào miệng Đức Phật hoặc gọi nhãn cuối là lời dạy mới.",
+        "practical_integrity": "Gợi ý không góp lời trêu bạn vừa sức, cho phép nhờ trợ giúp và nhìn lại điều cần sửa. Không hứa thiền chứng, chữa bệnh hay toàn bộ đoạn giảm từ một hành động nhỏ.",
+        "technical_integrity": "Audit sau sửa: không lỗi cấu trúc/nguồn, đủ 170 khóa và 16 đơn vị, ba audience có tác giả đăng ký; năm SHA-256 nguồn khớp. Nội dung NFC, văn bản thuần, draft/null đúng khi chưa ghi đánh giá; chưa thay cho CI."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc toàn bộ khóa Pāli, toàn bộ bản Việt dự án và English Sujato, toàn văn Thích Minh Châu dạng HTML và mọi chú thích dự án của từng bài; đọc toàn bộ bản đồ ý và cả ba bản diễn giải. Kiểm lại các đoạn sửa và chạy auditExplanations sau sửa.\nTác giả và người kiểm đều là tác tử của cùng công cụ gpt-6-astra-pro. Đây không phải thẩm định độc lập của học giả Pāli con người.\nPhù hợp lứa tuổi và độ rõ được nhận định qua đọc biên tập, chưa có thử nghiệm với trẻ em, người trưởng thành hoặc người lớn tuổi thực tế.\nĐiểm technical_integrity dựa trên cấu trúc, tác giả, mã ý, nguồn và hash hiện tại; không tuyên bố đã chạy lại browser, build hoặc toàn bộ CI của PR.\nKiểm đủ 44 phẩm chất và cả năm cách trình bày: đoạn giảm, khởi tâm, đường tránh, hướng lên và tắt lửa; không bỏ các mục trong đoạn lặp hoặc xem English trống là đồng thuận.\nKiểm riêng phủ định đối với bốn thiền và bốn vô sắc (mn8:4.4–11.5), công thức Không vô biên xứ (8.1), câu hỏi của Mahācunda (3.3) và ba cách thấy vô ngã (3.6).\nGiữ phạm vi phạm hạnh của tỳ-kheo, điều kiện trong ví dụ bùn (16.1–4), ý hướng thiện chưa thay cho thực hành, lời kết cùng nhãn/thi kệ của ấn bản.\nCác điểm đã sửa và kiểm lại: Làm rõ câu hỏi có/không ở children/opening, bổ sung liên kết đơn vị views. Nói rõ cả ba bản rằng các trạng thái thiền này không được gọi là đoạn giảm trong đoạn kinh; giữ tên hiện tại lạc trú/tịch tĩnh trú. Mở đúng các vế đi vào Không vô biên xứ và nhận thức của ba xứ đầu, không chỉ nêu tên các tầng. Sửa mục children/clear-mind từ bớt xao động sang hướng rèn tâm không xao động.\nGiới hạn còn lại: Danh sách 44 mục vẫn đòi hỏi đọc từng phần, nhất là với trẻ; cần thử nghiệm người đọc thật nếu muốn xác nhận mức hiểu thay vì chỉ phán đoán biên tập.",
+      "contentHash": "44f97907f2587425a3b3901427bde64807bd689a4eff813edeee0c8d7436772a",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn8.html",
+          "sha256": "8709cd3b069a6ea6d77ba02b948595e40518265ee2acc4c841460d6206db2ee2"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn8_root-pli-ms.json",
+          "sha256": "539142bed99656b16b9a115d3e41dc397b5d7cfaebf5c688af0f46a485e6e46d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn8_translation-en-sujato.json",
+          "sha256": "ad3ab7c0189b1f65ec2e1fa03f6bb48193e85d2f15eb98671b8d28480248d6bb"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn8_comment-vi-project.json",
+          "sha256": "77b3cbe215dd573e7a60003011f0c04d066ef2b254d01e8756443ab454c5cf6f"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn8_translation-vi-project.json",
+          "sha256": "faa5546d8eae7561c29c0bc80ea648a8c4fdbef2f9f003abaaf4e887f2c761bb"
+        }
+      ]
+    },
+    {
+      "id": "f590cdc4-e678-480e-bd54-013a5d632b86",
+      "audience": "adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.4,
+        "logic_context": 9.4,
+        "terminology": 9.2,
+        "audience_fit": 9.3,
+        "clarity": 9.3,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Giữ đúng người hỏi/người đáp và bối cảnh; source-note nói sự khác nhau quanh ādi và English để trống đoạn lặp. Mọi nguồn của bài đã đọc và hash xác minh; không bịa một nguồn thống nhất.",
+        "semantic_fidelity": "Nhận rõ an lạc/tịch tĩnh của thiền không tự là đoạn giảm; giữ đối trị 44 nết và mục tiêu tắt lửa. Ví dụ công việc không thu hẹp giáo pháp thành kỹ thuật giữ thành tích.",
+        "core_coverage": "Toàn bộ danh sách 44 mục và năm cách thực hành đều hiện diện; các vô sắc giữ công thức ý thức tương ứng sau sửa. Kết luận và phần chép cuối của ấn bản đều có nơi giải thích.",
+        "logic_context": "Đúng mức khẳng định: khởi thiện tâm có ích nhưng phải làm theo; mình chưa thuần thục thì không thể dẫn người tới thuần thục, mình thuần thục thì có thể. Không đảo điều kiện hay biến có thể thành chắc chắn.",
+        "terminology": "tầm/tứ/xả được mở nghĩa ngay ở meditative-joy; các tên vô sắc được giải thay vì chỉ liệt kê. Phạm hạnh và các cặp tà/chánh giữ khác biệt, không lược thành một khẩu hiệu làm tốt.",
+        "audience_fit": "Ví dụ che lỗi tập thể, trách nhiệm cá nhân và áp lực nhóm phù hợp đời trưởng thành. Dành chỗ cho khó khăn thực tế mà vẫn giữ quyền chọn đạo đức; không hứa thành công nghề nghiệp.",
+        "clarity": "Các nhóm hành vi, quan hệ và phẩm chất nối thành một lộ trình; các heading cho phép đọc một phần rồi quay lại. Đoạn nguồn ở cuối không chen quá nhiều kỹ thuật vào mạch chính.",
+        "editorial_separation": "workplace và practice được đánh dấu độc lập; source-note nhận diện lựa chọn đọc. Không gán chuyện nhóm làm việc hoặc cách ghi chép quyết định thành thủ tục nguyên văn của MN8.",
+        "practical_integrity": "Thực hành chọn một tình huống cụ thể, xét cả ý định lẫn hành động và điều còn phải sửa. Không biến tự rèn thành quyền kiểm soát đồng nghiệp hay yêu cầu chứng đắc tức thời.",
+        "technical_integrity": "Bản adults bao phủ đủ 16 đơn vị bằng teaching/clarification, nguồn và hash đều hợp lệ; audit không lỗi, mọi đoạn là plain text. Gate còn giữ draft/null; đánh giá này không thay kiểm tra PR."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc toàn bộ khóa Pāli, toàn bộ bản Việt dự án và English Sujato, toàn văn Thích Minh Châu dạng HTML và mọi chú thích dự án của từng bài; đọc toàn bộ bản đồ ý và cả ba bản diễn giải. Kiểm lại các đoạn sửa và chạy auditExplanations sau sửa.\nTác giả và người kiểm đều là tác tử của cùng công cụ gpt-6-astra-pro. Đây không phải thẩm định độc lập của học giả Pāli con người.\nPhù hợp lứa tuổi và độ rõ được nhận định qua đọc biên tập, chưa có thử nghiệm với trẻ em, người trưởng thành hoặc người lớn tuổi thực tế.\nĐiểm technical_integrity dựa trên cấu trúc, tác giả, mã ý, nguồn và hash hiện tại; không tuyên bố đã chạy lại browser, build hoặc toàn bộ CI của PR.\nKiểm đủ 44 phẩm chất và cả năm cách trình bày: đoạn giảm, khởi tâm, đường tránh, hướng lên và tắt lửa; không bỏ các mục trong đoạn lặp hoặc xem English trống là đồng thuận.\nKiểm riêng phủ định đối với bốn thiền và bốn vô sắc (mn8:4.4–11.5), công thức Không vô biên xứ (8.1), câu hỏi của Mahācunda (3.3) và ba cách thấy vô ngã (3.6).\nGiữ phạm vi phạm hạnh của tỳ-kheo, điều kiện trong ví dụ bùn (16.1–4), ý hướng thiện chưa thay cho thực hành, lời kết cùng nhãn/thi kệ của ấn bản.\nCác điểm đã sửa và kiểm lại: Làm rõ câu hỏi có/không ở children/opening, bổ sung liên kết đơn vị views. Nói rõ cả ba bản rằng các trạng thái thiền này không được gọi là đoạn giảm trong đoạn kinh; giữ tên hiện tại lạc trú/tịch tĩnh trú. Mở đúng các vế đi vào Không vô biên xứ và nhận thức của ba xứ đầu, không chỉ nêu tên các tầng. Sửa mục children/clear-mind từ bớt xao động sang hướng rèn tâm không xao động.\nGiới hạn còn lại: Danh sách 44 mục vẫn đòi hỏi đọc từng phần, nhất là với trẻ; cần thử nghiệm người đọc thật nếu muốn xác nhận mức hiểu thay vì chỉ phán đoán biên tập.",
+      "contentHash": "3f9344e53f4a14e43c64a559e6f4379052d4ae6d0303e507e1a8817e712d4ac9",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn8.html",
+          "sha256": "8709cd3b069a6ea6d77ba02b948595e40518265ee2acc4c841460d6206db2ee2"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn8_root-pli-ms.json",
+          "sha256": "539142bed99656b16b9a115d3e41dc397b5d7cfaebf5c688af0f46a485e6e46d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn8_translation-en-sujato.json",
+          "sha256": "ad3ab7c0189b1f65ec2e1fa03f6bb48193e85d2f15eb98671b8d28480248d6bb"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn8_comment-vi-project.json",
+          "sha256": "77b3cbe215dd573e7a60003011f0c04d066ef2b254d01e8756443ab454c5cf6f"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn8_translation-vi-project.json",
+          "sha256": "faa5546d8eae7561c29c0bc80ea648a8c4fdbef2f9f003abaaf4e887f2c761bb"
+        }
+      ]
+    },
+    {
+      "id": "ee567352-96a0-46c2-abfc-13585ada22e6",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.4,
+        "logic_context": 9.4,
+        "terminology": 9.2,
+        "audience_fit": 9.4,
+        "clarity": 9.3,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu trọn Pāli và bốn lớp tham khảo; nhận diện đúng lời Mahācunda, lời Phật và phần cuối ấn bản. Ghi chú không che khác biệt cách hỏi hoặc các đoạn English rỗng.",
+        "semantic_fidelity": "Giữ an lạc/tịch tĩnh của tám tầng đúng phạm vi và giữ đoạn giảm nhắm các nết xấu; không bảo tuổi cao hay kinh nghiệm tự bảo đảm thành tựu. Các công thức vô sắc được nói đủ vế quan trọng.",
+        "core_coverage": "Mọi 44 đối trị đều được giải, không bỏ tà giải thoát, nhận góp ý hoặc nắm chặt quan điểm. Đủ ý định, đường tránh, hướng lên, tắt lửa và lời kết; các phần lặp được gộp có kiểm.",
+        "logic_context": "Quan hệ tự rèn rồi có thể hướng dẫn bảo toàn tính điều kiện của ví dụ bùn. Không suy từ thời gian tu lâu tới khả năng hướng dẫn; lời nhắc không chậm trễ không thành đe dọa tuổi già.",
+        "terminology": "Các tên thiền, tầm/tứ và sự không nắm giữ quan điểm được giải chậm. Dùng thuật ngữ truyền thống khi cần và giữ phạm vi phạm hạnh của tỳ-kheo; người mới vẫn phải đọc từng đoạn để nắm các tầng.",
+        "audience_fit": "Ví dụ bàn việc gia đình tôn trọng kinh nghiệm nhưng giữ khả năng tự xét, nghe và đổi ý. Không mặc định yếu bệnh, cô đơn hoặc gần chết; giọng người lớn đối với người lớn.",
+        "clarity": "Nhịp đoạn thong thả và các nhóm tiêu đề rõ giúp theo một bài nhiều danh mục. Lời kết quay về việc có thể làm thay vì chất thêm bảng kiểm; chưa có bằng chứng thử nghiệm đọc thật.",
+        "editorial_separation": "family-example nêu rõ là tình huống biên soạn; practice nói không phải bài kiểm tra giá trị con người hay tuổi tác. Ghi chú nguồn được tách khỏi lời giảng chính.",
+        "practical_integrity": "Gợi ý soi lại một cuộc trao đổi có tính tự nguyện và giữ quyền chủ động. Không quy hết trách nhiệm hòa thuận cho một thế hệ hoặc hứa người khác sẽ thay đổi khi mình sửa lời nói.",
+        "technical_integrity": "Đủ cấu trúc, 16 đơn vị được liên kết bằng nội dung giảng/làm rõ; nguồn thực và mã segment hợp lệ, năm SHA-256 hiện hành khớp. Audit không lỗi; metadata chưa bị nâng trạng thái."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc toàn bộ khóa Pāli, toàn bộ bản Việt dự án và English Sujato, toàn văn Thích Minh Châu dạng HTML và mọi chú thích dự án của từng bài; đọc toàn bộ bản đồ ý và cả ba bản diễn giải. Kiểm lại các đoạn sửa và chạy auditExplanations sau sửa.\nTác giả và người kiểm đều là tác tử của cùng công cụ gpt-6-astra-pro. Đây không phải thẩm định độc lập của học giả Pāli con người.\nPhù hợp lứa tuổi và độ rõ được nhận định qua đọc biên tập, chưa có thử nghiệm với trẻ em, người trưởng thành hoặc người lớn tuổi thực tế.\nĐiểm technical_integrity dựa trên cấu trúc, tác giả, mã ý, nguồn và hash hiện tại; không tuyên bố đã chạy lại browser, build hoặc toàn bộ CI của PR.\nKiểm đủ 44 phẩm chất và cả năm cách trình bày: đoạn giảm, khởi tâm, đường tránh, hướng lên và tắt lửa; không bỏ các mục trong đoạn lặp hoặc xem English trống là đồng thuận.\nKiểm riêng phủ định đối với bốn thiền và bốn vô sắc (mn8:4.4–11.5), công thức Không vô biên xứ (8.1), câu hỏi của Mahācunda (3.3) và ba cách thấy vô ngã (3.6).\nGiữ phạm vi phạm hạnh của tỳ-kheo, điều kiện trong ví dụ bùn (16.1–4), ý hướng thiện chưa thay cho thực hành, lời kết cùng nhãn/thi kệ của ấn bản.\nCác điểm đã sửa và kiểm lại: Làm rõ câu hỏi có/không ở children/opening, bổ sung liên kết đơn vị views. Nói rõ cả ba bản rằng các trạng thái thiền này không được gọi là đoạn giảm trong đoạn kinh; giữ tên hiện tại lạc trú/tịch tĩnh trú. Mở đúng các vế đi vào Không vô biên xứ và nhận thức của ba xứ đầu, không chỉ nêu tên các tầng. Sửa mục children/clear-mind từ bớt xao động sang hướng rèn tâm không xao động.\nGiới hạn còn lại: Danh sách 44 mục vẫn đòi hỏi đọc từng phần, nhất là với trẻ; cần thử nghiệm người đọc thật nếu muốn xác nhận mức hiểu thay vì chỉ phán đoán biên tập.",
+      "contentHash": "0e5a76b89c6303eefb08cf1495d2adca2ea183624139261b122abcda6f553f2b",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn8.html",
+          "sha256": "8709cd3b069a6ea6d77ba02b948595e40518265ee2acc4c841460d6206db2ee2"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn8_root-pli-ms.json",
+          "sha256": "539142bed99656b16b9a115d3e41dc397b5d7cfaebf5c688af0f46a485e6e46d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn8_translation-en-sujato.json",
+          "sha256": "ad3ab7c0189b1f65ec2e1fa03f6bb48193e85d2f15eb98671b8d28480248d6bb"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn8_comment-vi-project.json",
+          "sha256": "77b3cbe215dd573e7a60003011f0c04d066ef2b254d01e8756443ab454c5cf6f"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn8_translation-vi-project.json",
+          "sha256": "faa5546d8eae7561c29c0bc80ea648a8c4fdbef2f9f003abaaf4e887f2c761bb"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn10",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "f9cd73c3-5045-401c-835c-2d141f09d096"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "b9c6d2d0-0c25-4cb1-a3a9-1bfa9864781c"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "eeca6f6c-0421-49b3-8e43-69281f0801b7"
+    }
+  },
+  "reviews": [
+    {
+      "id": "f9cd73c3-5045-401c-835c-2d141f09d096",
+      "audience": "children",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.3,
+        "core_coverage": 9.5,
+        "logic_context": 9.4,
+        "terminology": 9.1,
+        "audience_fit": 9.1,
+        "clarity": 9,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đúng Đức Phật giảng cho tỳ-kheo tại Kuru/Kammāsadhamma. Đọc đủ 235 khóa Pāli, Việt dự án, English, 19 chú thích và toàn văn legacy; danh sách thân theo đúng 31 phần của 10.2, không theo chú thích ghi nhầm 32. Năm nguồn và hash thực đều khớp.",
+        "semantic_fidelity": "Giữ bốn niệm xứ hướng thanh tịnh và Niết-bàn, không giảm thành mẹo hết lo trước lớp. Thọ trung tính đã sửa từ không rõ hai bên thành không dễ chịu cũng không khó chịu; thọ thế tục không bị đồng nhất với thể chất, không dùng một phút dễ chịu để tự nhận quả vị.",
+        "core_coverage": "Đủ năm nhóm quán thân đầu và chín quán nghĩa địa thành 14, mọi phần của danh mục 31 thân phần và xương rời; đủ 16 trạng thái tâm, năm triền cái, năm thủ uẩn, sáu cặp xứ, bảy giác chi, bốn đế, các điệp khúc và kệ cuối phẩm.",
+        "logic_context": "Ba dạng xương tại 18-23.1–3 đã làm rõ đều còn gân nối. Triền cái/kiết sử được biết và đoạn trừ, giác chi được biết và nuôi đầy đủ; điều kiện evaṁ ở 46.1–23 giữ cùng tất cả khoảng thời gian và hai kết quả, không biến bảy ngày thành bảo đảm cho bài tập ngắn.",
+        "terminology": "Mở nghĩa thọ, si, triền cái, kiết sử, giác chi và năm thủ uẩn; thêm giải thích ngắn cơ hoành/màng treo ruột/dịch khớp. Chánh trí/Bất lai có giải thích; dư y chỉ được diễn thận trọng là phần dư, không ép thành một phân loại chấp thủ chưa được xác minh. Thuật ngữ thiền sâu vẫn cần đọc thêm.",
+        "audience_fit": "Tình huống đọc bài trước lớp, xưng em, cho phép nhờ cô/người lớn và thực tập ngắn tạo điểm vào phù hợp. Phần nghĩa địa viết nhẹ và giữ bối cảnh tu tập, không yêu cầu đi xem tử thi. Toàn bài vẫn nhiều danh mục, nên cần đọc từng phần cùng người lớn; chưa thử với trẻ thật.",
+        "clarity": "Trình tự thân rồi thọ/tâm/pháp và heading cụ thể giúp theo dõi. Ba dạng xương nay có chung điều kiện gân nối rõ; đoạn về kết quả mở nghĩa từ khó. Phần thân phần và các nhóm tâm/pháp còn dày với trẻ mới đọc nên điểm phản ánh giới hạn nhịp, không tuyên bố hiểu dễ với mọi trẻ.",
+        "editorial_separation": "example và practice nhận diện là biên tập; những ví dụ thợ tiện, túi hạt, đồ tể được giữ là ví dụ trong kinh. source-note tách lựa chọn ekāyano/dài-ngắn/thọ, các nhãn và kệ cuối được gọi đúng vai trò, không gán thành lời khuyên hiện đại của Phật.",
+        "practical_integrity": "Chỉ gợi ý nhận tư thế và vài hơi thở tự nhiên, không ép nín/kéo hơi, không đánh đổi chăm sóc thân để quán bất tịnh. Nhận khó chịu không phải giả vờ vui hoặc hứa lo biến mất; không gán chứng quả cho việc ngắn. Hướng dẫn đọc phần nghĩa địa không thúc trẻ tìm hình ảnh gây xáo động.",
+        "technical_integrity": "Audit sau tất cả sửa: errors=[] và sourceErrors=[], đủ 235 khóa/18 đơn vị, mỗi đơn vị có teaching hoặc clarification, authors đăng ký và năm SHA-256 nguồn khớp. ContentHash đúng byte sửa cuối, plain text/NFC; metadata vẫn draft/null. Không tuyên bố đã chạy lại browser hoặc CI."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc toàn bộ 235 khóa Pāli, toàn bộ English Sujato và Việt dự án; toàn văn Thích Minh Châu trong HTML gồm provenance, cùng 19 chú thích dự án. Đọc toàn bộ 18 đơn vị nghĩa và ba audience, đối chiếu từng danh mục/điệp khúc/điều kiện, đọc lại năm đoạn và một heading sau sửa, chạy auditExplanations ở byte cuối.\nTác giả và người kiểm là tác tử của cùng công cụ; lượt độc lập giữa tác tử không phải thẩm định của học giả Pāli con người.\nChưa có thử đọc trực tiếp với ba nhóm tuổi; audience_fit/clarity là nhận định biên tập có ghi giới hạn.\nKhông chạy mới browser, build hoặc toàn bộ CI; chỉ nhận xét technical_integrity bằng nguồn, hash và kiểm dữ liệu hiện tại.\nDư y được diễn literal là phần dư, không tuyên bố một hệ phân loại cụ thể của phần dư đó. Các thuật ngữ sâu vẫn cần học tiếp.\n31 mục thân tại 10.2 được giữ đúng; chú thích dự án 10.5 nói 32 là sai nhưng không được đưa vào diễn giải.\nĐủ chín quán nghĩa địa, gồm ba giai đoạn còn gân và danh sách xương rời, cùng điệp khúc so lại thân mình.\nĐủ 16 trạng thái tâm; mọi trường hợp sāmisa/nirāmisa không chỉ là thân/tâm; công thức đoạn trừ triền cái/kiết sử khác công thức viên mãn giác chi.\nBốn Thánh đế giữ phần ngắn của MN10, không nhập phân tích dài của DN22; ekāyano không bị dùng để suy độc quyền của mọi con đường.\nToàn bộ thời hạn ở 46.1–23 giữ cùng điều kiện evaṁ và hai quả; nhãn/kệ của ấn bản không thành lời Phật mới.\nCác điểm đã sửa và kiểm lại: children/opening: thọ trung tính là không khổ không lạc, không phải không rõ hai bên. children/mortality: nói rõ cả ba bộ xương đều còn gân nối. children/fruits heading: dùng Kết quả thay Lời hứa, phù hợp kỳ vọng có điều kiện. fruits cả ba audience: mở nghĩa chánh trí/phần dư/Bất lai bằng lời giải ngắn có giới hạn.\nGiới hạn còn lại: Nên thử đọc thực tế từng phần với các nhóm tuổi để kiểm nhịp của các danh mục dài; hiện chưa có bằng chứng đó. Có thể chuyển câu thiên biên tập về phạm vi MN10 khỏi adults/truths sang ghi chú cuối nếu chỉnh văn phong lần tới; hiện câu không làm sai nội dung.",
+      "contentHash": "085fe07453b62ca9ef2b6341d84f2e7c5dd2e193c1f1273224d038295d7be1e3",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn10.html",
+          "sha256": "7d6189d8df0f544e8ead17aa6e92a9d5b58db80420b6fa94089bca3587d683ae"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
+          "sha256": "34c9a49a84a76d70fc366529973cfe8d1627728f38057de9117e67328fea745b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
+          "sha256": "42978efcb72b20be12180a9f76d22431016f19fdcc3c5962f9db27de0684f50e"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn10_comment-vi-project.json",
+          "sha256": "4995310cd11f390a9876ab17a8da8fde924a890c620d5cf79fdb1766ea308ebd"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn10_translation-vi-project.json",
+          "sha256": "cc44b212f04df4ae5907bef67721e89f5c4336992cae54be1b9439be3d98d7a2"
+        }
+      ]
+    },
+    {
+      "id": "b9c6d2d0-0c25-4cb1-a3a9-1bfa9864781c",
+      "audience": "adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.4,
+        "terminology": 9.2,
+        "audience_fit": 9.3,
+        "clarity": 9.2,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Giữ đúng bối cảnh và diễn giả; bản nguồn đủ Pāli và các chỗ English lược đã được đọc trực tiếp. source-note nêu lựa chọn ekāyano, dài/ngắn so với nặng/nhẹ, lúa so với lúa mì, không thêm não và không gắn cứng tuổi xương. Cả năm dependency được xác minh bằng SHA-256.",
+        "semantic_fidelity": "Giữ mục tiêu giải thoát, sự không chấp thủ và việc đoạn trừ/phát triển thay vì biến niệm thành thư giãn. Thọ không quy vào thân/tâm, trạng thái tâm cao không bị diễn thành quả vị do một lúc yên, ví dụ đồ tể không trở thành chỉ dẫn sát sinh.",
+        "core_coverage": "Bao quát đủ 14 quán thân kể cả cả ba bộ xương còn gân và danh mục xương rời; đủ ba loại thọ với hai phạm vi, 16 tâm, năm phần quán pháp và toàn bộ công thức kết. Phần bốn đế giữ quy mô ngắn của MN10; kệ mười bài và nhãn phẩm được nhận diện.",
+        "logic_context": "Giữ biết dài/ngắn rồi tập cảm nhận/lắng dịu, khác biệt công thức đoạn triền cái với làm viên mãn giác chi, kiết sử duyên cả nội/ngoại xứ. Cả hai kết quả và mọi khoảng thời gian đều gắn tu theo cách này; không đảo kỳ vọng có điều kiện thành chắc chắn cho mọi lịch tập chú ý.",
+        "terminology": "Các nhóm uẩn, giác chi có giải sơ; kiết sử đặt trong mục sự trói buộc, thọ và thân hành giữ phạm vi. Chánh trí/Bất lai đã thêm lời giải; dư y giữ mức literal phần dư, chưa tự phân loại phần dư ấy. Bốn giới và vài trạng thái tâm vẫn là thuật ngữ cần học sâu, đã không hiện đại hóa sai.",
+        "audience_fit": "Ví dụ tin nhắn phê bình gắn trách nhiệm, kiểm chứng và lựa chọn lời nói phù hợp đời trưởng thành. Nội dung vẫn yêu cầu hiểu và rèn theo hướng giải thoát, không bán hiệu quả nghề nghiệp hoặc trị căng thẳng. Mạch lý giải phù hợp đọc đào sâu hơn đọc lướt.",
+        "clarity": "Heading từ hơi thở/sinh hoạt sang cấu thành, hoại diệt rồi tâm/pháp và kết quả cho đường đi rõ. Các danh mục dài được nhóm dấu chấm phẩy; phần nguồn cuối giúp kiểm. Câu về không nhập phân tích một bài khác vào truths hơi thiên biên tập, nhưng không gây hiểu sai hay làm mất mạch chính.",
+        "editorial_separation": "Tình huống tin nhắn và bước quan sát trước trao đổi được đánh dấu; cổ dụ được gắn đúng kinh. Phân biệt phần ghi nhớ của ấn bản, các lựa chọn dịch và nội dung quán; không đặt câu chuyện hiện đại vào lời Phật hoặc coi bài tập gợi ý là bốn niệm xứ trọn vẹn.",
+        "practical_integrity": "Liên hệ trước một cuộc trao đổi khó vừa phải, tiếp tục học có hướng dẫn; không hứa kết quả y tế hay chứng đắc. Đoạn về nghi/nghỉ ngơi và giác quan tránh áp dụng máy móc, phần nghĩa địa không khuyến khích thử sức chịu đựng bằng cảnh tượng.",
+        "technical_integrity": "Đủ mapping 18 đơn vị và 235 segment thực, phụ thuộc năm nguồn hiện hành, tác giả hợp lệ và văn bản thuần. Audit sau gloss cuối không lỗi; dấu lược/lặp được cấu trúc gắn đúng nguồn, contentHash được ghi ở đây. Metadata draft/null đúng; CI của PR là cổng riêng do root xử lý."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc toàn bộ 235 khóa Pāli, toàn bộ English Sujato và Việt dự án; toàn văn Thích Minh Châu trong HTML gồm provenance, cùng 19 chú thích dự án. Đọc toàn bộ 18 đơn vị nghĩa và ba audience, đối chiếu từng danh mục/điệp khúc/điều kiện, đọc lại năm đoạn và một heading sau sửa, chạy auditExplanations ở byte cuối.\nTác giả và người kiểm là tác tử của cùng công cụ; lượt độc lập giữa tác tử không phải thẩm định của học giả Pāli con người.\nChưa có thử đọc trực tiếp với ba nhóm tuổi; audience_fit/clarity là nhận định biên tập có ghi giới hạn.\nKhông chạy mới browser, build hoặc toàn bộ CI; chỉ nhận xét technical_integrity bằng nguồn, hash và kiểm dữ liệu hiện tại.\nDư y được diễn literal là phần dư, không tuyên bố một hệ phân loại cụ thể của phần dư đó. Các thuật ngữ sâu vẫn cần học tiếp.\n31 mục thân tại 10.2 được giữ đúng; chú thích dự án 10.5 nói 32 là sai nhưng không được đưa vào diễn giải.\nĐủ chín quán nghĩa địa, gồm ba giai đoạn còn gân và danh sách xương rời, cùng điệp khúc so lại thân mình.\nĐủ 16 trạng thái tâm; mọi trường hợp sāmisa/nirāmisa không chỉ là thân/tâm; công thức đoạn trừ triền cái/kiết sử khác công thức viên mãn giác chi.\nBốn Thánh đế giữ phần ngắn của MN10, không nhập phân tích dài của DN22; ekāyano không bị dùng để suy độc quyền của mọi con đường.\nToàn bộ thời hạn ở 46.1–23 giữ cùng điều kiện evaṁ và hai quả; nhãn/kệ của ấn bản không thành lời Phật mới.\nCác điểm đã sửa và kiểm lại: children/opening: thọ trung tính là không khổ không lạc, không phải không rõ hai bên. children/mortality: nói rõ cả ba bộ xương đều còn gân nối. children/fruits heading: dùng Kết quả thay Lời hứa, phù hợp kỳ vọng có điều kiện. fruits cả ba audience: mở nghĩa chánh trí/phần dư/Bất lai bằng lời giải ngắn có giới hạn.\nGiới hạn còn lại: Nên thử đọc thực tế từng phần với các nhóm tuổi để kiểm nhịp của các danh mục dài; hiện chưa có bằng chứng đó. Có thể chuyển câu thiên biên tập về phạm vi MN10 khỏi adults/truths sang ghi chú cuối nếu chỉnh văn phong lần tới; hiện câu không làm sai nội dung.",
+      "contentHash": "5677e3a7a0e86c29c4500025b7f0f164981e775f7f6213584f7c554e70ce8965",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn10.html",
+          "sha256": "7d6189d8df0f544e8ead17aa6e92a9d5b58db80420b6fa94089bca3587d683ae"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
+          "sha256": "34c9a49a84a76d70fc366529973cfe8d1627728f38057de9117e67328fea745b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
+          "sha256": "42978efcb72b20be12180a9f76d22431016f19fdcc3c5962f9db27de0684f50e"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn10_comment-vi-project.json",
+          "sha256": "4995310cd11f390a9876ab17a8da8fde924a890c620d5cf79fdb1766ea308ebd"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn10_translation-vi-project.json",
+          "sha256": "cc44b212f04df4ae5907bef67721e89f5c4336992cae54be1b9439be3d98d7a2"
+        }
+      ]
+    },
+    {
+      "id": "eeca6f6c-0421-49b3-8e43-69281f0801b7",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.4,
+        "terminology": 9.2,
+        "audience_fit": 9.4,
+        "clarity": 9.2,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đủ toàn bộ năm nguồn và từng khóa, không chỉ kiểm file có mặt. Đúng bối cảnh Kuru, câu kết tỳ-kheo hoan hỷ, nhãn phẩm/kệ; source-note giữ khác biệt dịch và không theo lỗi 32 phần trong chú thích. Nguồn thực khớp cả năm hash.",
+        "semantic_fidelity": "Giữ bốn niệm xứ và buông chấp hướng Niết-bàn; kinh nghiệm tuổi đời không thay tu tập hoặc là chứng cớ nhanh/chậm. Thân hoại diệt được nêu là đặc tính chung, không là lời nhắm riêng người lớn tuổi; không dùng an tĩnh tạm thời để tự xác nhận mức cao.",
+        "core_coverage": "Đủ 31 thân phần, ví thợ tiện/túi hạt/đồ tể, chín nghĩa địa với gân còn nối và xương rời; thọ, 16 trạng thái tâm, đủ năm nhóm quán pháp và mọi điệp khúc. Lời kết giữ các thời hạn, hai quả và kệ cuối mười bài, không chỉ tóm thông điệp sống tỉnh thức.",
+        "logic_context": "Cùng đối tượng được biết trong/ngoài, sinh/diệt, rồi không chấp thủ; triền cái cần bỏ còn giác chi cần phát triển, không dùng một công thức cho cả hai. Điều kiện tu theo cách này đi với 7–1 năm, 7–1 tháng, nửa tháng, 7 ngày và phần dư của kết quả thứ hai.",
+        "terminology": "Mở nghĩa uẩn, kiết sử và bảy giác chi, giữ thọ khác với đối lập thể chất/tinh thần. Các kết quả được thêm giải thích ngắn, riêng dư y vẫn literal phần dư vì nguồn của lượt này không xác minh chi tiết một hệ phân loại. Một số tên thiền cần học tiếp nhưng không bị đổi nghĩa để làm nhẹ.",
+        "audience_fit": "Ví dụ học viết chữ đặt người lớn tuổi trong vai người học chủ động, không đồng nhất khó ban đầu với hết khả năng. Giọng điềm tĩnh, cho tự chọn tư thế và nhịp đọc; không mặc định yếu bệnh/cô đơn/sắp chết hoặc quy kết tiến độ theo tuổi.",
+        "clarity": "Các đoạn tương đối ngắn, heading theo từng bước, lời ví dụ nối việc quen với quán sát cụ thể. Danh mục thân và tâm/pháp vẫn yêu cầu đọc chậm, song nhóm rõ và giải nghĩa đủ để trở lại; chưa có người đọc thật kiểm nghiệm độ thuận.",
+        "editorial_separation": "Ví dụ buổi viết chữ và thực tập đời sống nhận diện là biên tập. Việc chọn tư thế phù hợp được nói thẳng là gợi ý, không đổi tư thế của câu kinh. Nhãn cuối/kệ và ghi chú nguồn được đặt đúng vai trò.",
+        "practical_integrity": "Đề nghị một khoảng quan sát trong sinh hoạt vừa sức, tiếp tục việc cần làm và học sâu, không hứa thời hạn chứng quả. Không thúc tìm ảnh nghĩa địa gây xáo động, không biến quán bất tịnh thành bỏ chăm thân hoặc dùng triền cái để trách người máy móc.",
+        "technical_integrity": "Audits nguồn/cấu trúc sau sửa đều sạch; đầy đủ 18 đơn vị và toàn bộ khóa, năm source SHA-256 đúng, authors có trong registry, text/NFC hợp lệ. ContentHash là bản có gloss cuối; status vẫn draft và score null. Không đồng nhất kiểm dữ liệu với kiểm UI/build/CI."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc toàn bộ 235 khóa Pāli, toàn bộ English Sujato và Việt dự án; toàn văn Thích Minh Châu trong HTML gồm provenance, cùng 19 chú thích dự án. Đọc toàn bộ 18 đơn vị nghĩa và ba audience, đối chiếu từng danh mục/điệp khúc/điều kiện, đọc lại năm đoạn và một heading sau sửa, chạy auditExplanations ở byte cuối.\nTác giả và người kiểm là tác tử của cùng công cụ; lượt độc lập giữa tác tử không phải thẩm định của học giả Pāli con người.\nChưa có thử đọc trực tiếp với ba nhóm tuổi; audience_fit/clarity là nhận định biên tập có ghi giới hạn.\nKhông chạy mới browser, build hoặc toàn bộ CI; chỉ nhận xét technical_integrity bằng nguồn, hash và kiểm dữ liệu hiện tại.\nDư y được diễn literal là phần dư, không tuyên bố một hệ phân loại cụ thể của phần dư đó. Các thuật ngữ sâu vẫn cần học tiếp.\n31 mục thân tại 10.2 được giữ đúng; chú thích dự án 10.5 nói 32 là sai nhưng không được đưa vào diễn giải.\nĐủ chín quán nghĩa địa, gồm ba giai đoạn còn gân và danh sách xương rời, cùng điệp khúc so lại thân mình.\nĐủ 16 trạng thái tâm; mọi trường hợp sāmisa/nirāmisa không chỉ là thân/tâm; công thức đoạn trừ triền cái/kiết sử khác công thức viên mãn giác chi.\nBốn Thánh đế giữ phần ngắn của MN10, không nhập phân tích dài của DN22; ekāyano không bị dùng để suy độc quyền của mọi con đường.\nToàn bộ thời hạn ở 46.1–23 giữ cùng điều kiện evaṁ và hai quả; nhãn/kệ của ấn bản không thành lời Phật mới.\nCác điểm đã sửa và kiểm lại: children/opening: thọ trung tính là không khổ không lạc, không phải không rõ hai bên. children/mortality: nói rõ cả ba bộ xương đều còn gân nối. children/fruits heading: dùng Kết quả thay Lời hứa, phù hợp kỳ vọng có điều kiện. fruits cả ba audience: mở nghĩa chánh trí/phần dư/Bất lai bằng lời giải ngắn có giới hạn.\nGiới hạn còn lại: Nên thử đọc thực tế từng phần với các nhóm tuổi để kiểm nhịp của các danh mục dài; hiện chưa có bằng chứng đó. Có thể chuyển câu thiên biên tập về phạm vi MN10 khỏi adults/truths sang ghi chú cuối nếu chỉnh văn phong lần tới; hiện câu không làm sai nội dung.",
+      "contentHash": "55398de8e3a1d236f31cdd59ee1fcc5d88387ce2cacd50648b07201d41b262f6",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn10.html",
+          "sha256": "7d6189d8df0f544e8ead17aa6e92a9d5b58db80420b6fa94089bca3587d683ae"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
+          "sha256": "34c9a49a84a76d70fc366529973cfe8d1627728f38057de9117e67328fea745b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
+          "sha256": "42978efcb72b20be12180a9f76d22431016f19fdcc3c5962f9db27de0684f50e"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn10_comment-vi-project.json",
+          "sha256": "4995310cd11f390a9876ab17a8da8fde924a890c620d5cf79fdb1766ea308ebd"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn10_translation-vi-project.json",
+          "sha256": "cc44b212f04df4ae5907bef67721e89f5c4336992cae54be1b9439be3d98d7a2"
+        }
+      ]
+    }
+  ]
+}

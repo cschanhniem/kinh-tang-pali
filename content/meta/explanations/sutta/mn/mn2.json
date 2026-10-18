@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn2",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "6c12a1ef-bc5e-4f4b-b6aa-3a1a44b4fe34"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "8d72da2b-9221-4d53-80d4-1b8acaeb1e46"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "4e78967c-85c8-4b5e-851e-714797d9ed2c"
+    }
+  },
+  "reviews": [
+    {
+      "id": "6c12a1ef-bc5e-4f4b-b6aa-3a1a44b4fe34",
+      "audience": "children",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.4,
+        "semantic_fidelity": 9.3,
+        "core_coverage": 9.4,
+        "logic_context": 9.4,
+        "terminology": 9.1,
+        "audience_fit": 9.1,
+        "clarity": 9,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.3
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc đủ 125 khóa Pāli, Việt dự án và Anh; đọc trọn HTML Việt cùng chú thích. Bối cảnh, người nghe và bảy phương thức đúng nguồn. Ô Anh mn2:9.1 được gộp ý tại 9.2; dòng kết 22.5 trống, nên không coi cả hai ô là xác nhận độc lập của Anh.",
+        "semantic_fidelity": "Giữ lậu hoặc về dục, hiện hữu và vô minh, cùng mục tiêu thoát sinh tử; không đồng nhất toàn bài với giải quyết một cuộc cãi nhau. Đủ sáu kiến chấp, Bốn Sự Thật, ba kiết sử, bảy giác chi và điều kiện hướng giải thoát. Đã bỏ định nghĩa quá rộng của cảm thọ cũ; cách hiểu khó chịu nay được giới hạn rõ trong việc ăn uống.",
+        "core_coverage": "Đã kiểm đủ 16 đơn vị nghĩa, toàn bộ 125 khóa và phần giảng thực sự tương ứng. Có các câu hỏi ba thời, sáu cửa phòng hộ, bốn nhu yếu, các nguy hiểm, điều bất thiện cần dứt và kết luận. Một câu cuối nhận diện tên bài, bảy đề mục, colophon là nhãn, khép khoảng trống nhỏ của bản trước.",
+        "logic_context": "Hai chiều chú tâm giữ rõ cái chưa sinh và cái đã sinh; người học biết Bốn Sự Thật khác với người mắc kiến chấp. Kham nhẫn đau thân không lẫn với nuôi ý gây hại; dùng thuốc và tránh nguy hiểm được đặt cạnh chịu đựng. Đoạn trừ kiết sử không bị hứa như kết quả tự động của việc thuộc lời.",
+        "terminology": "Từ lậu hoặc, ba loại lậu hoặc, thân kiến và từng giác chi được giải ngay nơi dùng. Cảm thọ vẫn được giữ theo Pāli và thêm cách đọc có giới hạn theo văn cảnh, không gán mọi cảm giác là cần chấm dứt. Sáu lập trường về tự ngã còn khó với trẻ nhỏ; danh sách được chia thành hai đoạn nhưng cần đọc chậm.",
+        "audience_fit": "Chuyện làm đồ thủ công, phản ứng khi bị chê và con chó dữ cho trẻ những tình huống cụ thể để phân biệt cách xử lý. Xưng em và hướng dẫn nhờ người lớn đáng tin giữ quyền tự bảo vệ. Đây là nhận xét của lượt đọc biên tập; chưa kiểm trực tiếp mức hiểu hoặc hứng thú của trẻ.",
+        "clarity": "Bảy đề mục đánh số giúp theo một bài nhiều danh sách; ví dụ ban đầu trở lại trong thực hành ngắn. Phần chính nói cụ thể trước, giới hạn đặt cuối. Những đoạn sáu quan điểm và công thức cảm thọ vẫn đòi đọc kỹ, nên điểm dừng ở mức đạt, không coi sự ngắn gọn là bằng chứng dễ hiểu tuyệt đối.",
+        "editorial_separation": "Câu chuyện đầu là example, việc thử cuối là practice; clarification nêu chúng do người biên soạn. Cách đọc cảm thọ có cụm có thể hiểu và phạm vi ăn uống, tránh đưa sự thu hẹp vào lời kinh. Nhãn ấn bản được nhận diện riêng; không tìm thấy lời Phật hoặc sự kiện lịch sử được bịa thêm.",
+        "practical_integrity": "Trẻ không bị yêu cầu nhịn ăn, xấu hổ vì bữa ăn ngon hoặc chịu người khác làm hại; việc rời đi và tìm người giúp được nói trực tiếp. Tình huống chỉ là một bước học, không được coi là chứng đắc. Phần tránh nguy hiểm và dùng nhu yếu giữ cân bằng với lời kham nhẫn.",
+        "technical_integrity": "auditExplanations(mn,mn2) sau sửa trả errors=[] và sourceErrors=[]; mã ý, chuỗi, tác giả và liên kết nguồn hợp lệ. Hash children cùng năm hash nguồn được lưu theo đúng bản đã đọc. Chưa dùng kết quả này để khẳng định nội dung published đã qua UI, build hoặc CI."
+      },
+      "blockingErrors": [],
+      "notes": "Lượt đọc toàn bài và toàn bộ lời diễn giải, đối chiếu Pāli, Việt dự án, Sujato, toàn văn HTML Thích Minh Châu và chú thích dự án. Agent kiểm khác agent soạn nhưng cùng công cụ GPT-6 Astra Pro; không phải thẩm định học thuật độc lập. Chưa thử hiểu với trẻ em, người trưởng thành hoặc người lớn tuổi thật. Điểm kỹ thuật chỉ đánh giá cấu trúc và nguồn của bản ghi, không thay nghiệm thu UI published, build hoặc CI. Liên kết từ điển DPD được nhắc trong chú thích không được mở lại độc lập trong lượt này.",
+      "contentHash": "6a7cb5ea3ad9a61ec8d8c37f4f6327650cddea24669695d79ea2c65815be2001",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn2.html",
+          "sha256": "76c500119a1c87c62284905aac296900a91e2a99112f34971e530fdb17d3e722"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
+          "sha256": "bf242d57e2167daf7aa94b368b31743fde392caaccfe5c488a13c89887872420"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn2_translation-en-sujato.json",
+          "sha256": "e307bba5aa45101db03707d85b852668d7eeeb63eb9f4f111bbdabcc87edf25d"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn2_comment-vi-project.json",
+          "sha256": "9e0559d96aa2c87d85be2a3801283cfe2e380d611af811a8d3f60ed1fb3c1dd6"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn2_translation-vi-project.json",
+          "sha256": "c50dfa9311e11f3099925ff5e8800fcf30cf3f557fea961976eef7bbf550f663"
+        }
+      ]
+    },
+    {
+      "id": "8d72da2b-9221-4d53-80d4-1b8acaeb1e46",
+      "audience": "adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.4,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.4,
+        "logic_context": 9.4,
+        "terminology": 9.2,
+        "audience_fit": 9.3,
+        "clarity": 9.2,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.4,
+        "technical_integrity": 9.3
+      },
+      "rationale": {
+        "source_fidelity": "Nguồn được kiểm toàn bài, gồm 125 khóa segmented, HTML Việt và chú thích về các lựa chọn khó. Sáu quan điểm theo Pāli có/không có tự ngã, không tự chuyển thành khẳng định sống sau chết theo cách diễn đạt Anh. Nguồn phụ trống/gộp và khác cách hiểu cảm thọ được giới hạn trong hồ sơ đối chiếu.",
+        "semantic_fidelity": "Tin nhắn và trách nhiệm đời thường dẫn vào ý chính nhưng không thay mục tiêu diệt lậu hoặc, cắt ái và kiết sử. Tự ngã nói/cảm nhận/trải nghiệm quả nghiệp là quan điểm của người mắc chấp, không phải lời xác nhận của Đức Phật. Giác chi đủ bảy, dựa viễn ly, ly tham, đoạn diệt và hướng buông bỏ.",
+        "core_coverage": "Tất cả 16 đơn vị đều được phần teaching/clarification xử lý, không chỉ được liên kết từ ví dụ. Bốn nhu yếu có mục đích sử dụng, các nguy hiểm có đủ nhóm và cả tiêu chuẩn bạn đồng tu có trí ở 19.3. Lượt lặp nhân quả được gộp nhưng vẫn giữ cả phòng ngừa và đoạn trừ; nhãn ấn bản được bổ sung ở cuối.",
+        "logic_context": "Bản phân biệt điều cần biết, điều phải phòng hộ, vật cần dùng, khó chịu cần kham nhẫn, nguy hiểm cần tránh, tâm bất thiện cần dứt và phẩm chất cần phát triển. Không lấy độ dài hoặc độ chắc của suy nghĩ thay tác ý đúng, và không suy từ một kỹ thuật hữu ích sang đoạn hết kiết sử.",
+        "terminology": "Lậu hoặc và ba loại được giải theo sự trói buộc trong sinh tử; ngã mạn cuối bài rộng hơn khoe khoang. Giữ từ cảm thọ của bản Việt và nêu rõ ngữ cảnh ăn, không ép toàn bộ thuật ngữ thành khó chịu. Một số từ như phạm hạnh, viễn ly vẫn mang giọng Phật học nhưng được ngữ cảnh xuất gia và mục tiêu giải thoát làm rõ.",
+        "audience_fit": "Tin nhắn thiếu tôn trọng, phản ứng trả đũa và lựa chọn môi trường là vấn đề người trưởng thành có thể nhận ra. Cách hỏi hướng vào dữ kiện, hành động và trách nhiệm; không biến giáo pháp thành mẹo thắng tranh luận hay tăng hiệu suất. Chưa có thử đọc với độc giả thật, nên không tuyên bố hiệu quả đã được xác nhận.",
+        "clarity": "Mạch từ chú tâm đến bảy cách thực hành rõ, đề mục có công việc riêng và đoạn cuối trở lại một tình huống cụ thể. Danh sách được giữ vì có ý nghĩa thay vì kéo dài bằng diễn đạt đồng nghĩa. Đoạn sáu kiến chấp và những từ giải thoát còn cần chú tâm, là giới hạn nhỏ của một bản dễ đọc nhưng bao quát toàn bài.",
+        "editorial_separation": "Ví dụ và câu hỏi thực hành được đánh dấu bằng kind, đồng thời có lời phân biệt ở cuối. Những câu nối vào đời sống được viết như ứng dụng, không đặt trong lời trích của Phật. Câu bổ sung về đề mục/colophon nhận diện cấu trúc bản văn mà không nâng nó thành luận điểm mới.",
+        "practical_integrity": "Bản tránh hai cách áp dụng lệch: chỉ chịu khi cần dùng thuốc/tránh nguy hiểm, hoặc chỉ quan sát khi cần từ bỏ ý trả đũa. Không buộc người đọc chịu gây hại, không phủ định giới hạnh, học hỏi hoặc nhu yếu. Một hành động hôm nay được giữ ở quy mô bước học, không hứa kết quả chứng đắc.",
+        "technical_integrity": "Đọc cùng bản đã chạy audit không lỗi; đủ 125 khóa nguồn, đúng 16 mã ý và năm phụ thuộc thực sự dùng. Hash riêng adults kèm hồ sơ hiện hành cho phép root ghi đánh giá đúng nội dung. Đây là kiểm toàn vẹn dữ liệu, không nhận thay kết quả trình duyệt hoặc cổng CI của PR."
+      },
+      "blockingErrors": [],
+      "notes": "Lượt đọc toàn bài và toàn bộ lời diễn giải, đối chiếu Pāli, Việt dự án, Sujato, toàn văn HTML Thích Minh Châu và chú thích dự án. Agent kiểm khác agent soạn nhưng cùng công cụ GPT-6 Astra Pro; không phải thẩm định học thuật độc lập. Chưa thử hiểu với trẻ em, người trưởng thành hoặc người lớn tuổi thật. Điểm kỹ thuật chỉ đánh giá cấu trúc và nguồn của bản ghi, không thay nghiệm thu UI published, build hoặc CI. Liên kết từ điển DPD được nhắc trong chú thích không được mở lại độc lập trong lượt này.",
+      "contentHash": "868c7fab745a2ac89114c8bc7e9b69b6bc5b61af123604405653c8636d487c2b",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn2.html",
+          "sha256": "76c500119a1c87c62284905aac296900a91e2a99112f34971e530fdb17d3e722"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
+          "sha256": "bf242d57e2167daf7aa94b368b31743fde392caaccfe5c488a13c89887872420"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn2_translation-en-sujato.json",
+          "sha256": "e307bba5aa45101db03707d85b852668d7eeeb63eb9f4f111bbdabcc87edf25d"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn2_comment-vi-project.json",
+          "sha256": "9e0559d96aa2c87d85be2a3801283cfe2e380d611af811a8d3f60ed1fb3c1dd6"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn2_translation-vi-project.json",
+          "sha256": "c50dfa9311e11f3099925ff5e8800fcf30cf3f557fea961976eef7bbf550f663"
+        }
+      ]
+    },
+    {
+      "id": "4e78967c-85c8-4b5e-851e-714797d9ed2c",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.4,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.4,
+        "logic_context": 9.4,
+        "terminology": 9.2,
+        "audience_fit": 9.3,
+        "clarity": 9.2,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.3
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu toàn bộ năm nguồn thực dùng, không chỉ tóm tắt MN2; bối cảnh rừng Jeta và đối tượng tỳ-kheo giữ đúng. Pāli là căn cứ cho nhãn kết thúc không có lời Anh, sáu lập trường tự ngã và mục đích thuốc men. Không tự căn chỉnh HTML Việt thành segment hoặc tuyên bố mọi nguồn đồng thuận ở từ khó.",
+        "semantic_fidelity": "Câu chuyện nhóm thiện nguyện làm rõ bám vào vị trí mà không hạ bài thành lời khuyên nhường người khác. Giữ ba lậu hoặc, cả khổ trong sinh tử, sáu quan điểm, ba kiết sử và đích giải thoát. Ngã mạn được giải rộng hơn khoe khoang, xả không thành mặc kệ và hỷ được giữ như yếu tố tu tập.",
+        "core_coverage": "Đủ 16 đơn vị nghĩa ở phần giảng/làm rõ, có toàn bộ bảy phương thức, các danh sách quan trọng và kết thúc hoan hỷ. Bốn nhu yếu được nói đầy đủ, cả vui sống tĩnh lặng và giảm đau bệnh hết mức. Thêm nhận diện các nhãn và dòng kết, để phần apparatus không chỉ có mã liên kết mà thiếu lời giải.",
+        "logic_context": "Quan hệ tác ý với lậu hoặc chưa sinh/đã sinh được giữ hai chiều; đoạn về Thánh đệ tử đối ứng với người chưa học. Biết tránh có chức năng riêng cạnh sức chịu đựng; lời gây khó chịu khác với ý làm người kia đau khổ. Tu giác chi vẫn có điều kiện viễn ly, ly tham, đoạn diệt, không bị lẫn với một tâm trạng dễ chịu.",
+        "terminology": "Giải lậu hoặc, dục/hữu/vô minh, tự ngã, từng giác chi và ngã mạn tại chỗ. Cụm cảm thọ cũ/mới vẫn giữ trong bối cảnh ăn uống theo nguồn; thuốc men chỉ có mục đích giảm đau bệnh, không được đọc thành bảo đảm chữa khỏi. Một vài danh từ Phật học còn cần đọc lại nhưng không bị đơn giản hóa sai.",
+        "audience_fit": "Người lớn tuổi có vai góp kinh nghiệm, hỏi lý do và tự chọn cách ứng xử trong nhóm thiện nguyện. Bản không mặc định bệnh yếu, cô đơn hoặc phải rút lui, và không lên giọng dạy trẻ. Nhịp đoạn vừa phải; kết luận này dựa trên đọc biên tập chứ chưa thử hiểu với người lớn tuổi thật.",
+        "clarity": "Các tiêu đề đánh số và đoạn định nghĩa ngắn giúp đi từng phương thức; ví dụ trở lại trong gợi ý lần gặp sau làm mạch bài liền. Những đoạn nhiều thuật ngữ về kiến chấp và giác chi vẫn cần đọc thong thả. Không chấm tối đa chỉ vì người biên soạn đã chia đoạn và giải từ.",
+        "editorial_separation": "Nhóm thiện nguyện là example, kế hoạch lần gặp tới là practice; phần làm rõ nêu chúng do biên soạn. Lời kinh về nhu yếu được đặt trong xuất gia và các nhãn cấu trúc được phân biệt riêng. Không tạo lời trích, động cơ người trong kinh hoặc quan hệ nhân quả mới như thể có trong nguồn.",
+        "practical_integrity": "Gợi ý hỏi rõ, đóng góp kinh nghiệm hoặc rời hoàn cảnh có lừa dối giữ quyền chủ động. Kham nhẫn không buộc chấp nhận gây hại, bỏ chăm sóc hoặc tự tạo thiếu thốn; đời sống gia đình được phân biệt với kỷ luật người xuất gia. Không biến một cuộc gặp thuận lợi thành dấu hiệu đã giải thoát.",
+        "technical_integrity": "Sau bổ sung câu apparatus và mã ý tại clarification, auditExplanations vẫn không lỗi schema/nguồn/coverage; năm phụ thuộc đều khớp byte được đọc. Hash older-adults được lưu cùng snapshot để tránh chấm sang bản khác. Chưa tuyên bố phần published của UI, build và CI đã được nghiệm thu qua bước này."
+      },
+      "blockingErrors": [],
+      "notes": "Lượt đọc toàn bài và toàn bộ lời diễn giải, đối chiếu Pāli, Việt dự án, Sujato, toàn văn HTML Thích Minh Châu và chú thích dự án. Agent kiểm khác agent soạn nhưng cùng công cụ GPT-6 Astra Pro; không phải thẩm định học thuật độc lập. Chưa thử hiểu với trẻ em, người trưởng thành hoặc người lớn tuổi thật. Điểm kỹ thuật chỉ đánh giá cấu trúc và nguồn của bản ghi, không thay nghiệm thu UI published, build hoặc CI. Liên kết từ điển DPD được nhắc trong chú thích không được mở lại độc lập trong lượt này.",
+      "contentHash": "ad4e8213c29983345077df20b550dea5d753060314b2ebc5f29840c1ca20af02",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn2.html",
+          "sha256": "76c500119a1c87c62284905aac296900a91e2a99112f34971e530fdb17d3e722"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
+          "sha256": "bf242d57e2167daf7aa94b368b31743fde392caaccfe5c488a13c89887872420"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn2_translation-en-sujato.json",
+          "sha256": "e307bba5aa45101db03707d85b852668d7eeeb63eb9f4f111bbdabcc87edf25d"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn2_comment-vi-project.json",
+          "sha256": "9e0559d96aa2c87d85be2a3801283cfe2e380d611af811a8d3f60ed1fb3c1dd6"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn2_translation-vi-project.json",
+          "sha256": "c50dfa9311e11f3099925ff5e8800fcf30cf3f557fea961976eef7bbf550f663"
+        }
+      ]
+    }
+  ]
+}
