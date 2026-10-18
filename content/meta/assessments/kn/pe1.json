@@ -231,6 +231,90 @@
       "content_sha256": "de648fec5a09a8a789a13ff115c56bb36879a59ab9c24c8461d2ead2467bfea0",
       "source_commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
       "final_score": 8.989999999999998
+    },
+    {
+      "target": "translation",
+      "scope": "full",
+      "assessed_at": "2026-10-18",
+      "assessed_by": [
+        "Claude Opus 5.5 (Claude Code)"
+      ],
+      "scores": {
+        "source_provenance": 9.4,
+        "semantic_fidelity": 8.9,
+        "grammar_logic": 8.9,
+        "segment_alignment": 9.8,
+        "terminology": 8.9,
+        "triangulation": 8.4,
+        "vietnamese_clarity": 8.3,
+        "han_viet_balance": 9,
+        "ambiguity_integrity": 8.8,
+        "technical_integrity": 9.5
+      },
+      "blocking_errors": [
+        "noEnglishEditionUpstream: Thiếu bản dịch tiếng Anh đối chiếu"
+      ],
+      "notes": "Chấm delta sau thi hành quyết định biên tập 2026-10-17, có kiểm độc lập: Kiểm độc lập lượt hoàn thiện thứ hai: hoàn nguyên chú thích mới 140.7 vì trái chú thích 140.6 và Ñāṇamoli n. 61/2 về phép đếm mười hai; 140.4 và 143.5 đủ chữ, không sai, nhưng chỉ chỉnh cú pháp bề mặt, chỗ tối vẫn nguyên, còn 32.2, 113.1, 140.5–140.8, 143.21 chỉ có chú thích hoặc không đổi, nên không cộng vietnamese_clarity. ambiguity_integrity và terminology đã đủ trần +0,2 sau lượt một; lời phê source_provenance chỉ là người chấm chưa tự kiểm được số trang, không phải nguồn thiếu hay sai. Delta lượt hai: không tiêu chí nào đổi (8,99, vẫn review); còn phải sửa hai trích dẫn trong chú thích 143.5 và 150.1. Hai mục must_fix (chú thích 143.5: otaraṇa 1 chỉ là «sự đi xuống», nghĩa «đi vào» thuộc otaraṇa 2; chú thích 150.1: Ñāṇamoli n. 71/8 chỉ ghi cách hiểu của chú giải dẫn tới nghĩa «ấn») đã được điều phối viên sửa đúng như người kiểm nêu. Tiêu chí đổi: không; các tiêu chí khác giữ nguyên.",
+      "id": "7c526683-b59a-4518-aec4-d8ede608f049",
+      "content_sha256": "7d06fa08ec770f25618e3ec8cc2ac08720800e7861d93b9abe59a2a55856665f",
+      "source_commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "final_score": 8.989999999999998
+    },
+    {
+      "target": "translation",
+      "scope": "full",
+      "assessed_at": "2026-10-18",
+      "assessed_by": [
+        "Claude Opus 5.5 (Claude Code)"
+      ],
+      "scores": {
+        "source_provenance": 9.4,
+        "semantic_fidelity": 8.9,
+        "grammar_logic": 8.9,
+        "segment_alignment": 9.8,
+        "terminology": 8.9,
+        "triangulation": 8.4,
+        "vietnamese_clarity": 8.3,
+        "han_viet_balance": 9,
+        "ambiguity_integrity": 8.8,
+        "technical_integrity": 9.6
+      },
+      "blocking_errors": [
+        "noEnglishEditionUpstream: Thiếu bản dịch tiếng Anh đối chiếu"
+      ],
+      "notes": "Đo lại technical_integrity theo §6.1 (docs/editorial-decisions-2026-10-17.md), có người kiểm độc lập chạy lại các lệnh: Lý do 9,5 cũ (lượt chấm lại toàn bài 1a47d89e ngày 2026-10-18, score/pe3/pe1.md; hai lượt delta 358daa53, 7c526683 giữ nguyên): «validate/quality:check exit 1 vì «official quality does not match its current saved full assessment» — trạng thái chờ ghi lượt chấm sau khi lời kinh đổi, không phải lỗi bản dịch; test/check/build do CI, không chạy»; mức khi lệnh pass trước đó 9,6 (legacy_quality và sáu lượt full 2026-10-15 → 2026-10-17). Người kiểm độc lập chạy lại ngày 2026-10-18 tại commit 7eecddc2 (cây sạch, git status trước/sau không đổi): npm run -s quality:check exit 0 (5839 lịch sử, 0 lỗi), npm run -s validate exit 0 (cảnh báo duy nhất của pe1 là thiếu bản Anh Sujato, đúng not-published-upstream: manifest chỉ có tệp Pāli root), npm test exit 0 (424 test: 423 pass, 0 fail, 1 skip), npm run check exit 0 (0 lỗi, 0 cảnh báo), npm run build exit 0 (validate trong build pass, astro build Complete, pagefind 6137 trang, có dist/sutta/kn/pe1) — đây là đo lại tiêu chí 10, không sửa bản dịch. Các tiêu chí khác giữ nguyên.",
+      "id": "6dd03f6c-0358-4abe-9d9e-cb94c51f47e8",
+      "content_sha256": "7d06fa08ec770f25618e3ec8cc2ac08720800e7861d93b9abe59a2a55856665f",
+      "source_commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "final_score": 8.999999999999998
+    },
+    {
+      "target": "translation",
+      "scope": "full",
+      "assessed_at": "2026-10-18",
+      "assessed_by": [
+        "Claude Opus 5.5 (Claude Code)"
+      ],
+      "scores": {
+        "source_provenance": 9.4,
+        "semantic_fidelity": 8.9,
+        "grammar_logic": 9,
+        "segment_alignment": 9.8,
+        "terminology": 8.9,
+        "triangulation": 8.4,
+        "vietnamese_clarity": 8.3,
+        "han_viet_balance": 9,
+        "ambiguity_integrity": 8.8,
+        "technical_integrity": 9.6
+      },
+      "blocking_errors": [
+        "noEnglishEditionUpstream: Thiếu bản dịch tiếng Anh đối chiếu"
+      ],
+      "notes": "Chấm delta sau thi hành quyết định biên tập 2026-10-17, có kiểm độc lập: Kiểm độc lập lượt rà lỗi còn sót 2026-10-18: 45.2 (kumbhakārassa sở hữu cách chỉ tác nhân của kataṁ, DPD masc gen; bản cũ để «người thợ gốm» treo thành vế so sánh) và 130.4 (cụm dẫn an4.1:2.1 = dn16:4.2.4, BJT TTPV 44 tr. 24 và Indacanda tr. 25 đặt trong dấu trích; bản cũ nối dấu phẩy thành lý do của «cần được trình bày chi tiết») là lỗi thật, sửa đúng, giữ đúng dòng, khớp mnd6:24.1–24.2, snp3.8:4.1–4.2 và khuôn 139.4. Cả hai thuộc quan hệ so sánh và nhân quả của grammar_logic nên chỉ cộng grammar_logic +0,1 (trần lượt này), không cộng semantic_fidelity; triangulation, technical_integrity không đổi. Tiêu chí đổi: grammar_logic +0.1; các tiêu chí khác giữ nguyên.",
+      "id": "bda09651-2455-4a86-a270-0462ef82d56c",
+      "content_sha256": "824a5be67cb10dc000b3806bc38124f6ec0635f45ec9ecdd4d54a506811b369a",
+      "source_commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "final_score": 9.01
     }
   ],
   "legacy_quality": {
