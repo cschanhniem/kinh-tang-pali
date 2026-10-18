@@ -1227,3 +1227,46 @@ Three sequential current-source UIDs were narrated with the project summary firs
 | MN151 | `095e6128333f6572906a05306e2bac71cb3fc51ccda17fdb5dd1711d03520a11` | `d1bb570ecfaf36776069559bbbc8a59ffa8373ef5b4436bd029bfa72940178dd` | 17,486,400 | 874.27 s | 118.31 s | 10 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/mn/mn151/d1bb570ecfaf3677.mp3) |
 
 Local gates on this batch: `design:check` passed (6,137 unique WebP covers verified); `validate` passed (2,272 existing advisories; 5,836 quality histories, zero errors); `test` passed (423 passed, one skipped); `check` passed (zero errors/warnings, five hints); `build` passed (6,204 pages; Pagefind indexed 6,137 pages / 467,616 words); `seo:check` passed (6,203 indexable pages); `audio:check` passed (186 catalog entries, zero errors). Batch 050 live evidence is recorded above. PR/merge/Pages evidence for batch 051 will be appended after remote verification.
+
+
+#### Batch mn-051 merge and production readback
+
+- PR [#766](https://github.com/streamentry/kinh-tang-pali/pull/766), exact head 6bb2e10fda1eb00ec7639536395a7a1f9896867d, squash-merged as 9a84665d31985fb74d2eb2b04bc10c7c65768364 at 2026-10-17T01:26:55Z. The current main branch is descendant 359f7ddeff0fe8dc87a98dadcfbda37643f43cba; main CI run [#39101935011](https://github.com/streamentry/kinh-tang-pali/actions/runs/39101935011) and Pages run [#39101935019](https://github.com/streamentry/kinh-tang-pali/actions/runs/39101935019) succeeded on that deployment commit.
+- At 2026-10-18T07:39:24.307Z, production Chrome checks passed for MN149–MN151: each page returned HTTP 200 with one player and the exact current R2 URL; playback advanced at 1×, +15-second seek, paused scripture jump, and keyboard timeline passed with no media errors. Public R2 ranges returned HTTP 206 audio/mpeg, 1,024 bytes, with totals matching metadata.
+- All three registry states are live. Auto-next default is enabled. Review status remains pending; ASR and full human content listening were not performed.
+
+
+### Batch mn-052 local release checkpoint — MN152 (final Majjhima item)
+
+The catalog contains 152 Majjhima Nikāya UIDs; MN152 is the final item, and MN153 is not in the catalog. This one-UID checkpoint closes MN at the collection boundary. MN153 was not sent to Gemini.
+
+MN152 reads the project summary first and canonical Vietnamese 2026 prose second. Audio duration is 1,125.58 seconds / 22,512,960 bytes in 11 chunks (2 summary chunks), using pinned profile vi-charon-mn1-v1 (SHA-256 a384c5852585077c32e1348a6ada5cfc70a69c989ad705b8b5129fef3e1c9a71). Source/profile hash, WAV checkpoints, MP3 frames/hash/bytes, public R2 full/range readback and local Chrome player checks passed. Status is uploaded-verified; review_status remains pending. ASR and full human content listening were not performed.
+
+| UID | Source SHA-256 | MP3 SHA-256 | Bytes | Duration | Scripture start | Chunks | Audio |
+|---|---|---|---:|---:|---:|---:|---|
+| MN152 | bc9c6011353409a44b0a03c81327b7772ade5dfda1924edada9d756217d6755d | eb75ff569a7f954a73e012ac465f29af0812ad5aa3e10e6dd740b3c3e5c5eb81 | 22,512,960 | 1125.58 s | 136.63 s | 11 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/mn/mn152/eb75ff569a7f954a.mp3) |
+
+The next collection begins with DN1.
+
+Local gates for batch mn-052 passed: design:check verified 6,137 unique WebP covers; validate passed with 2,275 existing advisories and 5,839 quality histories without errors; npm test passed (423 passed, one skipped); npm run check reported zero errors/warnings and five hints; build generated 6,204 pages; Pagefind indexed 6,137 pages / 467,607 words; seo:check verified 6,203 indexable pages; audio:check found 186 catalog texts and zero errors. Local Chrome verified MN152 at 1×, +15-second seek, scripture jump and keyboard timeline; public R2 Range returned HTTP 206 audio/mpeg with 1,024 bytes matching metadata. Full human content listening remains pending.
+
+
+### Batch audio-052 — MN152 và DN1–DN4
+
+Năm audio mới: **MN152, DN1, DN2, DN3, DN4**. Tổng thời lượng **18046.57 giây**, **360,937,440 byte**, 192 chunk (trong đó 10 chunk tóm tắt). Mỗi bài đọc tóm tắt trước, sau đó nguyên văn bản Việt 2026; không đọc segment ID hoặc notes. Tất cả dùng profile `vi-charon-mn1-v1`, model `gemini-3.8-flash-tts`, giọng `Charon`, profile SHA-256 `a384c5852585077c32e1348a6ada5cfc70a69c989ad705b8b5129fef3e1c9a71`.
+
+| UID | Source SHA-256 | MP3 SHA-256 | Bytes | Duration | Scripture start | Chunks | Audio |
+|---|---|---|---:|---:|---:|---:|---|
+| MN152 | `bc9c6011353409a44b0a03c81327b7772ade5dfda1924edada9d756217d6755d` | `eb75ff569a7f954a73e012ac465f29af0812ad5aa3e10e6dd740b3c3e5c5eb81` | 22,512,960 | 1125.58 s | 136.63 s | 11 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/mn/mn152/eb75ff569a7f954a.mp3) |
+| DN1 | `587b17efbb196bbb3ab80951866f2973e3a311cbe02b6894aa76c907e112efa1` | `2a3321187fda2d8e2bbcd8d5a75ebbb972a058343c7cffba818350fbec579544` | 128,828,160 | 6441.34 s | 153.15 s | 71 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/dn/dn1/2a3321187fda2d8e.mp3) |
+| DN2 | `d8019e190ce21c54c69799e202f9e516d35138acb01c48837de7f922dd52c323` | `657936c02f745073ef0a3bb3aabcb42bc5a934d28b5fdfa59d170f79b9bff44e` | 111,946,560 | 5597.27 s | 183.23 s | 58 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/dn/dn2/657936c02f745073.mp3) |
+| DN3 | `f93307da67f53cf0f58b9712e02a1fe986bbc1840e8ef7801ebcd610846bab53` | `795f95171aef74e7e01e5f88460e409bed200f804682cefe732c84554fbfcf7c` | 55,304,160 | 2765.16 s | 155.99 s | 29 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/dn/dn3/795f95171aef74e7.mp3) |
+| DN4 | `d6f5643ca64eee3795109862a6ec6a8d1292cd6b9367f21710c72a15a345c07f` | `788877ce81fb04fe3616a0d404fd41f8693237d3d1e00e7641ef1e28a91a72bf` | 42,345,600 | 2117.22 s | 158.07 s | 23 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/dn/dn4/788877ce81fb04fe.mp3) |
+
+Cả năm source/profile hash, chunk checkpoints, MP3 frame/hash/byte integrity và public R2 full-object/range readback đều khớp. Chrome local kiểm từng trang: HTTP 200, đúng R2 source, player hiển thị, phát/dừng ở 1×, auto-next mặc định bật, nhảy đến kinh văn, tua +15 giây, timeline/phím mũi tên, R2 range HTTP 206 `audio/mpeg` đủ 1,024 byte; viewport 320 px không tràn ngang và không có lỗi JavaScript. `audio:check` báo 186 mục catalog, 0 lỗi.
+
+Local gates: `npm run validate` pass (2,275 advisory hiện có, không lỗi); `npm test` pass (423 pass, 1 skipped, 0 fail); `npm run check` pass (0 lỗi, 0 warning, 5 hint); `npm run build` pass (6.204 trang, Pagefind index 6.137 trang / 467.607 từ); `git diff --check` pass.
+
+Đây là bằng chứng preview local và public R2; production Pages chưa được kiểm cho DN1–DN4 tại checkpoint này. Cả năm `review_status` vẫn `pending`; không chạy ASR và chưa nghe duyệt toàn văn thủ công. MP3/WAV/cache không được đưa vào Git.
+
+Cadence repository được cập nhật lên năm audio mỗi PR; CI đúng head vẫn là cổng merge. Sau merge, có thể bắt đầu TTS batch kế tiếp mà không chờ build/CI/Pages hậu merge.
