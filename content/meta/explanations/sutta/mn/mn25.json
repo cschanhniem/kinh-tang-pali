@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn25",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "fd1dad89-5517-4507-8a11-82bf1767a8ff"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "22313a38-85b7-4c9d-8454-9383e1b8f091"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "cd3dace9-b700-4e90-a6fd-fc58d488b9d0"
+    }
+  },
+  "reviews": [
+    {
+      "id": "fd1dad89-5517-4507-8a11-82bf1767a8ff",
+      "audience": "children",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.4,
+        "terminology": 9.1,
+        "audience_fit": 9,
+        "clarity": 9.2,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.4,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc toàn bộ 199 khóa Pāli, Việt dự án và Sujato, toàn HTML Minh Châu cùng 9 chú thích. Bản trẻ giữ đúng ánh xạ mồi–năm dục, người gieo–Māra, nai–người tu tại 7.1–7.6. Phủ định ananupakhajja được giữ ở đàn ba/bốn dù một số câu Anh bỏ phủ định; 75 ô Anh trống không được xem là xác nhận độc lập.",
+        "semantic_fidelity": "Bốn đàn vẫn có bốn kết quả khác nhau; nhóm thứ ba thận trọng khi hưởng dụng nhưng còn mắc kiến. Phần cuối giữ thấy bằng trí tuệ và lậu tận, không biến tắt trò chơi thành một chứng đạt. Sau sửa, safe-place nói hưởng dụng những thứ hấp dẫn của đời sống, đủ rộng hơn chỉ vật dụng thiết yếu.",
+        "core_coverage": "Đã đối chiếu cả 22 đơn vị với đủ 199 khóa: có ý đồ gieo mồi, bốn đàn, bốn nhóm người tu, mười lập trường, bốn thiền, bốn xứ và diệt thọ tưởng cùng lời kết. Các lời ôn ba nhóm trước được gộp có nhận diện, không tạo thêm nhóm từ đoạn lặp 9.6–9.7. Danh sách món ăn cổ vẫn được giữ với giới hạn tên gọi.",
+        "logic_context": "Giữ thứ tự mê mải, say sưa, phóng dật, bị tùy ý xử trí; nhóm hai còn bước suy giảm tâm giải thoát, khác đàn nai. Phép lạ là suy nghĩ của người gieo mồi. Mười kiến thuộc nhóm ba, còn đoạn chuyển bốn xứ giữ việc vượt trạng thái trước. Những câu hỏi để học được phân biệt với nắm chặt một lập trường.",
+        "terminology": "Phóng dật, tầm/tứ, hỷ, xả, định, lậu hoặc và diệt thọ tưởng được giải bằng lời gần gũi. Thức và tưởng được đặt trong mô tả từng chứng đạt. Các lời giải này ở mức nhập môn; quan hệ giữa thức và tưởng cùng tên Phi tưởng phi phi tưởng xứ vẫn cần người hướng dẫn nếu trẻ muốn hiểu sâu.",
+        "audience_fit": "Bốn đàn nai tạo một mạch kể dễ theo; ví dụ trò chơi và lời nhờ người lớn giúp sắp xếp giờ chơi phù hợp đời sống trẻ. Các đoạn khá ngắn và có chia tầng. Mười lập trường và chín chứng đạt vẫn là phần khó với trẻ nhỏ; điểm này là lượt đọc biên tập, chưa có trẻ thật thử đọc và không bảo đảm tự đọc hiểu mọi đoạn.",
+        "clarity": "Nhịp kể từ từng đàn đến lời giải của Đức Phật giúp người đọc biết đang ở phần nào. Các tiêu đề như Niềm vui cũng được làm lắng nối được với tiến trình thiền. Phần tên các xứ vẫn dày thuật ngữ và nên đọc từng đoạn; độ rõ không được suy từ số lượng liên kết.",
+        "editorial_separation": "Tình huống trò chơi và gợi ý sinh hoạt nằm trong example/practice, được gọi rõ là do người biên soạn đặt ra. Các lời về thần lực thuộc suy nghĩ nhân vật. Hình ảnh làm Māra mù mắt được nhận diện là phép diễn đạt; không dựng thêm lời Phật hoặc kể việc trẻ tắt máy như một đoạn của kinh.",
+        "practical_integrity": "Gợi ý chỉ giúp nhận ra mê mải và tìm trợ giúp sắp xếp giờ chơi; không hứa hết tham, đạt thiền hoặc giải thoát. Đoạn khổ hạnh không thành hướng dẫn bỏ bữa; ví dụ nêu giới hạn của việc áp các nhóm người tu vào một trò chơi. Chưa có quan sát thực nghiệm về hiệu quả gợi ý này.",
+        "technical_integrity": "auditExplanations của bản cuối không có lỗi cấu trúc hay nguồn; đủ ba đối tượng, 22 mã ý và 199 khóa được đối chiếu. Năm hash nguồn khớp các tệp đã đọc; fingerprint trẻ khớp bản sau sửa 627179a4…87a1. Điểm này xác nhận bản ghi và liên kết logic dữ liệu; kiểm build production của lô được thực hiện riêng trước PR."
+      },
+      "blockingErrors": [],
+      "notes": "Tác giả writer_b và người kiểm root là hai tác tử khác nhau của cùng GPT-6 Astra Pro; đây là kiểm biên tập riêng, chưa có học giả Pāli con người hoặc người đọc thật phê chuẩn. Root đọc đủ 199 khóa của mỗi JSON Pāli/Việt/Sujato, 75 ô Anh trống được nhận diện, toàn HTML Minh Châu và 9 chú thích; đọc đủ bản đồ và cả ba bản, rồi đọc trọn các phần thay đổi sau phản hồi, gồm hai phần được chỉnh tiêu đề ở lượt duyệt cuối. Giữ ananupakhajja theo root thay câu Anh encroach/intrude; giữ có ăn thận trọng thay câu không ăn lẻ ở HTML SC13. gāha và tên vài thức ăn cổ còn cách hiểu khác; theo cách đọc dự án/Sujato có giới hạn, không tự xác quyết hết dị giải. Dòng lặp 9.6–9.7 không thành nhóm mới. Không nhận đã mở các từ điển, chú giải hoặc kho buddhanussati chỉ vì chú thích cũ nhắc tới. Kiểm dữ liệu sạch tại fingerprint được khóa; việc kiểm build/HTML production thuộc cổng lô, không được suy từ điểm này.",
+      "contentHash": "627179a43cfb3b9c29a2c01d9261c6058e1ac765dac923e55fd6a27ea7ce87a1",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn25.html",
+          "sha256": "856d62ad3cd4d3d26971d8a94c067f47729bd938dad54d415569c6d9ec587ba1"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn25_root-pli-ms.json",
+          "sha256": "aa58e10b05a702e8f16a1472600ec41302cf7d2c5fabc5492252b5bf00118e59"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn25_translation-en-sujato.json",
+          "sha256": "267205efaedc9033fa035e540e1c3410c8e729adf4c3002ffb75f58c822d815e"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn25_comment-vi-project.json",
+          "sha256": "bec265c53c26eb0c6f0c16becf90d46749ab1ca9e387e6d4804dac45720eda63"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn25_translation-vi-project.json",
+          "sha256": "559b109e25a01482f65f1625ca245527edccf3c9f6c527fca0a3dac18ac806ae"
+        }
+      ]
+    },
+    {
+      "id": "22313a38-85b7-4c9d-8454-9383e1b8f091",
+      "audience": "adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.2,
+        "audience_fit": 9.3,
+        "clarity": 9.3,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.4,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc trọn năm nguồn thực khai báo và toàn bản trưởng thành. Lối ăn thận trọng ở 5.16, 6.28, 10.16 và 11.28 giữ cả không xông vào và không mê đắm theo Pāli. Câu không ăn đơn lẻ ở HTML Minh Châu SC13 không được dùng để đảo bhuñjiṃsu. Các nguồn được chú thích cũ nhắc tới không được tính là đã mở trong lượt này.",
+        "semantic_fidelity": "Bản giữ sự khác nhau giữa tránh bị cuốn theo hưởng thụ và thoát hoàn toàn khỏi quyền Māra. Cetovimutti suy giảm của nhóm hai không bị gọi là giải thoát lậu tận. Chín chứng đạt và phần thấy bằng trí tuệ giữ trọng tâm tu tập; liên hệ dịch vụ số không thu bài thành mẹo năng suất.",
+        "core_coverage": "Đủ 22 đơn vị của 199 khóa, gồm lý do người gieo mồi để yên đàn bốn, danh sách thức ăn khổ hạnh, mười lập trường với cấu trúc 2+2+2+4, từng tầng định và câu vượt bám víu cuối bài. Công thức lặp Māra không thấy được gộp nhưng áp dụng rõ cho từng chứng đạt, không chỉ cho tầng cuối.",
+        "logic_context": "Giữ quan hệ giảm sức lực và tinh tấn rồi giảm tâm giải thoát, sau đó trở lại mê mải; không suy mọi đời sống trong rừng đều thất bại. Chỗ hồi tưởng quan điểm ở phần nhóm bốn được trả đúng về nhóm ba. Việc không tìm được chỗ trú và quyết định không quấy nhiễu thuộc người gieo mồi, không gán họ chứng xả.",
+        "terminology": "Sau chỉnh sửa, hỷ/lạc và diệt thọ tưởng có nghĩa ngắn ngay khi dùng; tầm/tứ, xả, lậu hoặc và tưởng có giải thích theo bối cảnh. Đã thay cụm xóa dấu mắt Māra bằng hình ảnh đầy đủ, dễ theo hơn. Nghĩa một số món ăn cổ và cách giải tầm/tứ vẫn được giới hạn, không trình bày như đã giải quyết mọi truyền thống diễn giải.",
+        "audience_fit": "Giọng phân tích về chỗ nương dựa và sự tiết chế hợp người trưởng thành; tình huống dịch vụ số gắn với công việc và lựa chọn thực tế. Không giả định người đọc đã biết thuật ngữ sau các sửa vừa nêu. Chưa có nhóm độc giả trưởng thành thử đọc; đoạn liệt kê các xứ vẫn cần đọc chậm.",
+        "clarity": "Bố cục bốn đàn, bốn nhóm, rồi định và trí tuệ nhất quán; phần nối cho biết vì sao một mức tự chủ chưa đủ. Đã sửa lỗi các mười kiến và câu mơ hồ về mắt Māra. Một số đoạn có nhiều thuật ngữ liên tiếp, nên điểm không hàm ý bài đã giản lược hết độ khó của đề tài. Hai tiêu đề đã được làm rõ: câu hỏi mở đầu tự nhiên hơn và tiêu đề khổ hạnh chỉ nói về nhóm thứ hai, tránh khái quát mọi hình thức khổ hạnh.",
+        "editorial_separation": "Ví dụ dịch vụ và câu hỏi tự xét thuộc example/practice với nhãn biên tập rõ. Bản phân biệt suy nghĩ nhân vật về thần lực và phép giải nghĩa Đức Phật thực nêu. Mười lập trường không bị đặt vào miệng Phật như đáp án; không có lời trích dẫn hiện đại giả làm kinh.",
+        "practical_integrity": "Ví dụ thừa nhận dùng có giới hạn là tiến bộ nhưng không đồng nhất nó với nơi Māra không tới. Gợi ý xem lại điều nuôi mê mải giữ phạm vi đời sống, không hứa kết quả chứng đạt và không khuyên hành xác. Việc liên hệ cơ chế thu hút của dịch vụ chỉ minh họa một phần, giới hạn ấy được nói rõ.",
+        "technical_integrity": "Audit bản cuối trả errors=[] và sourceErrors=[]; mã ý, loại mục, NFC, tác giả và năm nguồn hợp lệ. Fingerprint trưởng thành được tính lại sau khi đọc trọn các phần sửa và hai tiêu đề được tinh chỉnh ở lượt duyệt cuối. Điểm dữ liệu này không thay kết quả build hoặc triển khai; PR phải ghi kết quả production riêng."
+      },
+      "blockingErrors": [],
+      "notes": "Tác giả writer_b và người kiểm root là hai tác tử khác nhau của cùng GPT-6 Astra Pro; đây là kiểm biên tập riêng, chưa có học giả Pāli con người hoặc người đọc thật phê chuẩn. Root đọc đủ 199 khóa của mỗi JSON Pāli/Việt/Sujato, 75 ô Anh trống được nhận diện, toàn HTML Minh Châu và 9 chú thích; đọc đủ bản đồ và cả ba bản, rồi đọc trọn các phần thay đổi sau phản hồi, gồm hai phần được chỉnh tiêu đề ở lượt duyệt cuối. Giữ ananupakhajja theo root thay câu Anh encroach/intrude; giữ có ăn thận trọng thay câu không ăn lẻ ở HTML SC13. gāha và tên vài thức ăn cổ còn cách hiểu khác; theo cách đọc dự án/Sujato có giới hạn, không tự xác quyết hết dị giải. Dòng lặp 9.6–9.7 không thành nhóm mới. Không nhận đã mở các từ điển, chú giải hoặc kho buddhanussati chỉ vì chú thích cũ nhắc tới. Kiểm dữ liệu sạch tại fingerprint được khóa; việc kiểm build/HTML production thuộc cổng lô, không được suy từ điểm này.",
+      "contentHash": "cff8e7c41f8027e33d40f7181ded04be7d17b9f0fce2500c4980e2ba5380d84b",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn25.html",
+          "sha256": "856d62ad3cd4d3d26971d8a94c067f47729bd938dad54d415569c6d9ec587ba1"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn25_root-pli-ms.json",
+          "sha256": "aa58e10b05a702e8f16a1472600ec41302cf7d2c5fabc5492252b5bf00118e59"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn25_translation-en-sujato.json",
+          "sha256": "267205efaedc9033fa035e540e1c3410c8e729adf4c3002ffb75f58c822d815e"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn25_comment-vi-project.json",
+          "sha256": "bec265c53c26eb0c6f0c16becf90d46749ab1ca9e387e6d4804dac45720eda63"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn25_translation-vi-project.json",
+          "sha256": "559b109e25a01482f65f1625ca245527edccf3c9f6c527fca0a3dac18ac806ae"
+        }
+      ]
+    },
+    {
+      "id": "cd3dace9-b700-4e90-a6fd-fc58d488b9d0",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.4,
+        "terminology": 9.2,
+        "audience_fit": 9.3,
+        "clarity": 9.3,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.4,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Toàn bộ Pāli, Việt dự án, Sujato, HTML Minh Châu và chú thích đã được đọc trực tiếp trước khi kiểm bản lớn tuổi. Bản giữ Māra, tùy tùng và các sa-môn bà-la-môn theo ánh xạ 7.3–7.6; các phủ định ở nhóm ba/bốn theo root. HTML được dùng như toàn văn liên tục, không tạo căn chỉnh Bilara giả.",
+        "semantic_fidelity": "Bài không xem kinh nghiệm sống hoặc sự tiết chế là bảo đảm giải thoát. Đàn bốn khác đàn ba ở nơi nương trú; phần tương ứng dẫn tiếp tới chín chứng đạt và trí tuệ đoạn lậu hoặc. Sau sửa, việc hưởng dụng được diễn đủ rộng, còn trạng thái tâm suy giảm của nhóm hai vẫn khác đích cuối.",
+        "core_coverage": "Đủ 22 đơn vị bao phủ 199 khóa: mở bài, ý đồ và bốn đàn, bốn nhóm tu, các món khổ hạnh, mười kiến, chín chứng đạt và đoạn kết. Có lý do náo động dây chuyền khiến người gieo mồi để yên; giữ những điều đổi giữa các tầng thay vì gộp mọi tầng thành yên tâm.",
+        "logic_context": "Các nhóm sau nhìn lại nhóm trước rồi đổi cách sống, đúng lớp kể của nguồn. Mười quan điểm không thành kết luận Đức Phật xác nhận. Từ Không vô biên xứ tới diệt thọ tưởng vẫn có bước vượt tầng trước; sự thấy bằng trí tuệ và lậu tận được nói riêng khỏi các trạng thái trước đó.",
+        "terminology": "Hỷ/lạc và diệt thọ tưởng đã được giải ngay trong đoạn dùng; phóng dật, tầm/tứ, xả, niệm tỉnh giác, thức/tưởng và lậu hoặc có lời dẫn nhập. Các giải nghĩa vừa đủ cho dòng đọc, chưa phải khảo luận đầy đủ về các phạm trù thiền. Tên thức ăn cổ vẫn giữ sự chưa chắc, không tự gán tên hiện đại.",
+        "audience_fit": "Ví dụ niềm vui được nhóm hỏi ý kiến tôn trọng vai trò và kinh nghiệm của người lớn tuổi. Giọng đọc thong thả, chia các tầng thành phần nhỏ; không mặc định bệnh, yếu, cô đơn hoặc gần chết. Đánh giá phù hợp tuổi là nhận xét biên tập, chưa có dữ liệu thử đọc trực tiếp với nhóm này.",
+        "clarity": "Các tiêu đề theo một mạch nhìn lại chỗ nương tựa, từ chuỗi ham thích đến trí tuệ. Những phần riêng về Không/Thức vô biên giúp theo dõi thứ tự; từ khó được giải tại chỗ sau sửa. Mười kiến và tên các xứ vẫn có mật độ cao, nên gợi đọc từng phần có cơ sở.",
+        "editorial_separation": "Liên hệ nhóm sinh hoạt và lời tự xét nằm riêng ở example/practice, có ghi người biên soạn đề xuất. Nhận xét thần lực của người gieo mồi được giữ là ý nghĩ nhân vật; không gán ví dụ công nhận xã hội cho Đức Phật. Phần khép lại chỉ kể sự tán đồng, không thêm chứng đắc cho người nghe.",
+        "practical_integrity": "Lời gợi không yêu cầu bỏ vai trò, tự hành hạ hoặc cắt mọi niềm vui. Câu chuyện chỉ mở việc nhận ra sự nắm giữ; bài nói rõ rời một vai trò chưa phải đạt nơi Māra không tới. Không có lời hứa trị bệnh, bình an chắc chắn hoặc giải thoát do một bước quan sát đời thường.",
+        "technical_integrity": "Bản cuối có audit cấu trúc/nguồn sạch; năm SHA-256 và fingerprint lớn tuổi 9e558160…612f0 khớp sau lượt đọc lại practice-path/wisdom. Tất cả đơn vị có phần teaching/clarification thực triển khai. Đây là tính toàn vẹn bản ghi; HTML và build của lô còn được kiểm riêng để quyết định PR."
+      },
+      "blockingErrors": [],
+      "notes": "Tác giả writer_b và người kiểm root là hai tác tử khác nhau của cùng GPT-6 Astra Pro; đây là kiểm biên tập riêng, chưa có học giả Pāli con người hoặc người đọc thật phê chuẩn. Root đọc đủ 199 khóa của mỗi JSON Pāli/Việt/Sujato, 75 ô Anh trống được nhận diện, toàn HTML Minh Châu và 9 chú thích; đọc đủ bản đồ và cả ba bản, rồi đọc trọn các phần thay đổi sau phản hồi, gồm hai phần được chỉnh tiêu đề ở lượt duyệt cuối. Giữ ananupakhajja theo root thay câu Anh encroach/intrude; giữ có ăn thận trọng thay câu không ăn lẻ ở HTML SC13. gāha và tên vài thức ăn cổ còn cách hiểu khác; theo cách đọc dự án/Sujato có giới hạn, không tự xác quyết hết dị giải. Dòng lặp 9.6–9.7 không thành nhóm mới. Không nhận đã mở các từ điển, chú giải hoặc kho buddhanussati chỉ vì chú thích cũ nhắc tới. Kiểm dữ liệu sạch tại fingerprint được khóa; việc kiểm build/HTML production thuộc cổng lô, không được suy từ điểm này.",
+      "contentHash": "9e5581600ebb94c7646ad71c4a0710813a2a7303fafd64e6db23bf22ee9612f0",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn25.html",
+          "sha256": "856d62ad3cd4d3d26971d8a94c067f47729bd938dad54d415569c6d9ec587ba1"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn25_root-pli-ms.json",
+          "sha256": "aa58e10b05a702e8f16a1472600ec41302cf7d2c5fabc5492252b5bf00118e59"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn25_translation-en-sujato.json",
+          "sha256": "267205efaedc9033fa035e540e1c3410c8e729adf4c3002ffb75f58c822d815e"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn25_comment-vi-project.json",
+          "sha256": "bec265c53c26eb0c6f0c16becf90d46749ab1ca9e387e6d4804dac45720eda63"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn25_translation-vi-project.json",
+          "sha256": "559b109e25a01482f65f1625ca245527edccf3c9f6c527fca0a3dac18ac806ae"
+        }
+      ]
+    }
+  ]
+}

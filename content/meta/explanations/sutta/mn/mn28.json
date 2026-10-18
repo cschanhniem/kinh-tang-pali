@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn28",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "d592a46e-cc2d-4b86-bcde-44c168a82473"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "3923824b-ec52-4f32-aeaf-12ad857acf1d"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "a6d5b0ae-7425-41c9-9d51-2d8159f4726b"
+    }
+  },
+  "reviews": [
+    {
+      "id": "d592a46e-cc2d-4b86-bcde-44c168a82473",
+      "audience": "children",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.6,
+        "logic_context": 9.5,
+        "terminology": 9.2,
+        "audience_fit": 9.1,
+        "clarity": 9.1,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Bản trẻ nhận diện Sāriputta là người giảng và phân biệt lời ông nhắc lại của Đức Phật trong ví dụ cái cưa. Các danh sách cơ thể, sự rút cạn của biển và ba trường hợp sinh khởi của thức bám Pāli đã khóa; bảy ô Anh trống không được dùng như chứng cứ xác nhận thêm.",
+        "semantic_fidelity": "Quán bốn đại dẫn tới không nhận là của tôi, là tôi hay tự ngã, rồi yểm ly và ly tham; không thành ghét hoặc bỏ chăm sóc thân. Phần duyên khởi và năm thủ uẩn giữ vai trò của tham luyến đối với khổ, không biến bài thành mẹo hết buồn khi bị chê.",
+        "core_coverage": "Đủ 25 đơn vị, bao trùm 166 khóa: bốn Thánh đế, năm thủ uẩn, bốn đại trong ngoài, phản ứng trước tổn thương, hai nhánh xả, nhà và thân, sáu cửa nhận biết và lời kết. Mười chín bộ phận địa đại và các mức nước rút được giữ; lỗi đếm trong bản đồ đã được sửa, không thêm một bộ phận ngoài nguồn.",
+        "logic_context": "Lời xúc phạm được phân tích qua xúc ở tai và những hiện tượng sinh khởi, giữ tính có điều kiện và vô thường. Khi xả chưa vững, người tu nhận điều còn thiếu; khi xả vững, vị ấy hoan hỷ vì đã làm được nhiều, không bị kể thành đã giải thoát; ba trường hợp đủ hoặc thiếu điều kiện của thức đều hiện diện.",
+        "terminology": "Bốn đại được mở bằng tính cứng, ướt, nóng và chuyển động; năm uẩn, thọ và thủ được giải gần gũi trước khi dùng sâu hơn. Cách gọi yếu tố đang quán giữ độ mở của dhātārammaṇa; các danh mục sinh học và tên các uẩn vẫn cần đọc chậm với trẻ ít vốn từ.",
+        "audience_fit": "Tình huống bức vẽ bị bạn chê và cách tìm người lớn đáng tin phù hợp đời sống trẻ, không biến không sân thành phục tùng hay chịu bắt nạt. Mười bốn mục chia được bài dài thành từng lượt đọc, nhưng các danh sách và phép phân tích thức còn dày; chưa có trẻ thật thử đọc.",
+        "clarity": "Dấu chân voi, thân gồm bốn đại và hình ảnh căn nhà tạo các điểm tựa cụ thể để theo bài. Đã bỏ câu mô tả thao tác biên soạn ở mục harm; phần liệt kê bộ phận và các mức biển rút vẫn làm nhịp chậm hơn các đoạn kể và ví dụ.",
+        "editorial_separation": "Ví dụ bức vẽ và phần tập quan sát được nhận diện là lời biên soạn; lời cho phép rời nơi nguy hiểm không bị đặt vào miệng Sāriputta hay Đức Phật. Nhãn cuối ấn bản được tách khỏi lời giảng, và đoạn cái cưa giữ lớp Sāriputta dẫn lời Phật.",
+        "practical_integrity": "Gợi ý chỉ hướng trẻ nhận biết cảm giác, ý muốn phản ứng, bớt gây hại và tìm trợ giúp khi cần. Không hứa nhờ một bài tập mà xả lập tức vững, hiểu trọn duyên khởi hoặc đạt giải thoát; việc chăm thân và bảo vệ bản thân vẫn có chỗ rõ ràng.",
+        "technical_integrity": "Audit của bản đã sửa không có lỗi cấu trúc hoặc nguồn; đủ 25 mã ý và toàn bộ 166 khóa trong ánh xạ. Fingerprint và năm sourceHashes được lấy từ audit của chính bản freeze; kiểm tra này chưa phải kiểm build và giao diện của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Tác giả writer_c và người kiểm writer_b là hai tác tử riêng của cùng GPT-6 Astra Pro; không có phê chuẩn của học giả Pāli con người hoặc thử đọc với độc giả thật. Đã đọc toàn bộ 166 khóa Pāli, 166 khóa Việt dự án, 166 khóa Sujato, toàn HTML Minh Châu và 9 chú thích dự án, rồi đủ 25 đơn vị ý và cả ba bản. Bảy ô Anh trống (10.6, 10.7, 25.6–25.9, 38.15) được nhận diện, không tự điền như một bản dịch đã có. Đã kiểm các điều kiện ở sáu cửa, hai nhánh xả, các danh sách và lượng biến đổi, cùng lớp Sāriputta dẫn lời Đức Phật. dhātārammaṇa có phạm vi giải thích chưa duy nhất; giữ cách diễn mở theo nguồn hiện có. Các khác biệt HTML về mức biển, gió và cưa không thắng Pāli. Không nhận đã mở các từ điển hoặc kho khác chỉ vì chú thích dẫn tên. Sau phản hồi, đã đọc lại đầy đủ earth trong bản đồ, children/harm và adults/fire; lấy lại fingerprint và sourceHashes từ audit sạch của bản freeze. Metadata, build và PR do root xử lý riêng.",
+      "contentHash": "231a9ffc0e3025ae66a6b8d018da59f4904510ab45e9da854c93b0f4301aafd2",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn28.html",
+          "sha256": "9c457df5dda27f3b627cf06eca5e3dce68a9844de1eb3aa28ff2f7741c642407"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn28_root-pli-ms.json",
+          "sha256": "c9f92823f155dc48e6a0ef7d754dbc0766ba05f5b13c305aef5ddb6779046e53"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn28_translation-en-sujato.json",
+          "sha256": "7857b23ea36f98c4e1d0771096c415140297bc0393b4aaced44f86b0f7595012"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn28_comment-vi-project.json",
+          "sha256": "a1468a237c5e85854221029d3234de8fc1bed879ac32c1501d82ad092c7ecb43"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn28_translation-vi-project.json",
+          "sha256": "9c51f1649983a012e45b52e728464ea7fe982bf8adfd28ae7aef8db118a6df0c"
+        }
+      ]
+    },
+    {
+      "id": "3923824b-ec52-4f32-aeaf-12ad857acf1d",
+      "audience": "adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.1,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Bản trưởng thành giữ Sāriputta là diễn giả, đúng hai lần dẫn lời Đức Phật và phạm vi nguồn Pāli của các danh mục. Nước biển rút xuống, gió lặng và cưa hai cán được giữ theo Pāli khi HTML Minh Châu có cách diễn đạt khác; không coi các chỗ Anh lược trống là một bản dịch độc lập đầy đủ.",
+        "semantic_fidelity": "Lập luận từ lời xúc phạm tới các hiện tượng có điều kiện, rồi từ bốn đại tới không chấp thủ, giữ hướng yểm ly và ly tham. Phần cuối nối tham luyến năm thủ uẩn với khổ và sự chấm dứt tham với diệt khổ, không quy cả bài về giảm căng thẳng trong công việc.",
+        "core_coverage": "Mười ba mục giảng đủ bản đồ 25 ý: từ ví dụ dấu chân voi đến bốn đại, hai nhánh xả và ba trường hợp của thức ở sáu cửa. Danh sách 19 phần cứng, 12 dịch thể, các mức nước rút, nơi lửa dừng và các trạng thái gió đều có nội dung thực, không chỉ được gắn mã.",
+        "logic_context": "Bản giữ rõ hai nhánh nếu xả dựa trên thiện chưa vững hoặc đã vững; hoan hỷ ở nhánh sau có mức độ làm được nhiều. Điều kiện căn nguyên vẹn, đối tượng hiện vào phạm vi và sự chú tâm được phân biệt ở ba trường hợp, rồi mới quy các hiện tượng vào năm thủ uẩn.",
+        "terminology": "Địa, thủy, hỏa, phong được giải theo tính chất; uẩn, thủ và các yếu tố tâm được đặt trong tiến trình nhận biết. Lựa chọn dịch dhātārammaṇa được nói có giới hạn, không gắn chắc một nghĩa duy nhất; nhiều từ Hán Việt vẫn đòi hỏi đọc kỹ hơn văn đời thường.",
+        "audience_fit": "Tình huống đồng nghiệp phê bình công việc đặt cạnh trách nhiệm kiểm tra sự thật và cách đáp lại, phù hợp người trưởng thành. Bản không dùng giáo pháp để buộc im lặng trước bất công hay chỉ tăng hiệu suất; chưa có thử đọc với người trưởng thành ngoài nhóm biên tập.",
+        "clarity": "Mở đầu từ cảm giác bị đụng chạm rồi phân tích điều kiện giúp người đọc theo quan hệ giữa quán thân và ứng xử. Mục fire đã được viết lại trực tiếp, không còn câu nói về việc chép công thức; các danh sách và lời làm rõ nguồn vẫn khiến vài đoạn nặng hơn mạch chính.",
+        "editorial_separation": "Ví dụ nơi làm việc và gợi ý quan sát có nhãn riêng; lựa chọn thuật ngữ và giới hạn của phép liên hệ được thể hiện là lời giải. Lời kinh về cái cưa và duyên khởi được đặt đúng người nói; không thêm một kết luận của người biên soạn như lời Đức Phật.",
+        "practical_integrity": "Bản khuyến khích nhận biết phản ứng, xem xét lời phê bình và giữ ranh giới cần thiết, không bỏ trách nhiệm đối với hoàn cảnh thật. Gợi ý không hứa giải thoát từ một lần dừng phản ứng và không đồng nhất sự yên tạm thời với xả thiện đã an trú.",
+        "technical_integrity": "Đã kiểm fingerprint sau sửa bản đồ earth và mục fire; audit không báo lỗi cấu trúc, liên kết ý hoặc nguồn. Năm hash nguồn khớp tệp được đọc, và ánh xạ đủ 166 khóa; kết quả này không tự chứng nhận build production hoặc khả năng sử dụng giao diện."
+      },
+      "blockingErrors": [],
+      "notes": "Tác giả writer_c và người kiểm writer_b là hai tác tử riêng của cùng GPT-6 Astra Pro; không có phê chuẩn của học giả Pāli con người hoặc thử đọc với độc giả thật. Đã đọc toàn bộ 166 khóa Pāli, 166 khóa Việt dự án, 166 khóa Sujato, toàn HTML Minh Châu và 9 chú thích dự án, rồi đủ 25 đơn vị ý và cả ba bản. Bảy ô Anh trống (10.6, 10.7, 25.6–25.9, 38.15) được nhận diện, không tự điền như một bản dịch đã có. Đã kiểm các điều kiện ở sáu cửa, hai nhánh xả, các danh sách và lượng biến đổi, cùng lớp Sāriputta dẫn lời Đức Phật. dhātārammaṇa có phạm vi giải thích chưa duy nhất; giữ cách diễn mở theo nguồn hiện có. Các khác biệt HTML về mức biển, gió và cưa không thắng Pāli. Không nhận đã mở các từ điển hoặc kho khác chỉ vì chú thích dẫn tên. Sau phản hồi, đã đọc lại đầy đủ earth trong bản đồ, children/harm và adults/fire; lấy lại fingerprint và sourceHashes từ audit sạch của bản freeze. Metadata, build và PR do root xử lý riêng.",
+      "contentHash": "aecbbc5c1251e48dfc819afb550b8d26e6c4623b19be222069e9ebeb580c5000",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn28.html",
+          "sha256": "9c457df5dda27f3b627cf06eca5e3dce68a9844de1eb3aa28ff2f7741c642407"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn28_root-pli-ms.json",
+          "sha256": "c9f92823f155dc48e6a0ef7d754dbc0766ba05f5b13c305aef5ddb6779046e53"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn28_translation-en-sujato.json",
+          "sha256": "7857b23ea36f98c4e1d0771096c415140297bc0393b4aaced44f86b0f7595012"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn28_comment-vi-project.json",
+          "sha256": "a1468a237c5e85854221029d3234de8fc1bed879ac32c1501d82ad092c7ecb43"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn28_translation-vi-project.json",
+          "sha256": "9c51f1649983a012e45b52e728464ea7fe982bf8adfd28ae7aef8db118a6df0c"
+        }
+      ]
+    },
+    {
+      "id": "a6d5b0ae-7425-41c9-9d51-2d8159f4726b",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.5,
+        "terminology": 9.2,
+        "audience_fit": 9.3,
+        "clarity": 9.2,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Bản lớn tuổi kể đúng bối cảnh và người giảng Sāriputta, giữ những lời dẫn của Đức Phật trong đúng lớp đối thoại. Các hiện tượng nước rút, lửa tắt, gió lặng cùng danh mục cơ thể theo nguồn đã khóa; các cách diễn khác ở HTML được xem là giới hạn đối chiếu.",
+        "semantic_fidelity": "Ý thân do những điều kiện hợp thành được nối với không nhận là tôi hay của tôi, không hạ thấp thân hoặc giá trị đời sống. Khổ và sự chấm dứt khổ vẫn gắn với tham chấp năm thủ uẩn; ví dụ thay đổi vai trò không thay thế đích giải thoát của bài.",
+        "core_coverage": "Mười bốn mục giữ đủ 25 đơn vị, gồm cả những chi tiết dễ lược mất: 19 bộ phận địa đại, hai nhánh xả khi nhớ ba ngôi báu và ba trường hợp nhận biết. Phần sáu cửa, năm thủ uẩn, duyên khởi, lời hoan hỷ cuối bài và nhãn ấn bản đều được giải thích.",
+        "logic_context": "Sự bất an khi xả chưa vững được đặt như điều nhận ra để tiếp tục tu, không thành tự trách hoặc giả vờ bình thản. Nhánh xả vững không được nâng thành mục tiêu cuối; các điều kiện của nhận biết và sự đoạn trừ tham luyến giữ đúng quan hệ của bài.",
+        "terminology": "Cách giải bốn đại và năm nhóm được chấp thủ giúp người đọc đi từ thân quen thuộc tới thuật ngữ. Thọ, tưởng và thức được phân biệt trong mạch nhận biết; nhãn uẩn và các danh mục cổ vẫn có độ khó, còn dhātārammaṇa không được xác quyết quá phạm vi nguồn đã đọc.",
+        "audience_fit": "Tình huống góp kinh nghiệm trong sinh hoạt cộng đồng rồi được góp ý về cách làm tôn trọng quyền suy xét và khả năng điều chỉnh của người lớn tuổi. Nhịp đoạn thong thả, không mặc định bệnh, yếu hay sắp chết; nhận xét này dựa trên đọc biên tập, chưa có thử với độc giả thật.",
+        "clarity": "Bài đi từ cách gọi thân tôi tới những điều kiện của thân và của phản ứng, rồi kết ở tham chấp và giải thoát. Tiêu đề và các đoạn ngắn giúp giữ hướng đọc; phần danh sách cơ thể, các mức nước biển và công thức nhận biết vẫn cần chia lượt đọc.",
+        "editorial_separation": "Ví dụ sinh hoạt cộng đồng và phần thực hành được nhận diện là gợi ý hiện đại, không là câu chuyện gốc. Bản phân biệt lời Sāriputta, lời ông dẫn từ Đức Phật và nhãn của ấn bản; không gán suy đoán về người lớn tuổi vào lời kinh.",
+        "practical_integrity": "Gợi ý cho phép nhận rõ xả chưa vững, tìm sự nâng đỡ và xem xét góp ý, không ép người đọc phải nuốt cảm xúc hoặc chấp nhận sự tổn hại. Chăm sóc thân và hành động có trách nhiệm vẫn được giữ, còn chứng đạt không được hứa qua một tình huống đời thường.",
+        "technical_integrity": "Fingerprint bản lớn tuổi đã được tính lại sau khi bản đồ ý sửa 20 thành 19, dù prose của bản này không cần đổi. Audit sạch với năm hash nguồn đúng tệp đọc và 166 khóa được bao phủ; việc thử giao diện hoặc build của lô không nằm trong điểm này."
+      },
+      "blockingErrors": [],
+      "notes": "Tác giả writer_c và người kiểm writer_b là hai tác tử riêng của cùng GPT-6 Astra Pro; không có phê chuẩn của học giả Pāli con người hoặc thử đọc với độc giả thật. Đã đọc toàn bộ 166 khóa Pāli, 166 khóa Việt dự án, 166 khóa Sujato, toàn HTML Minh Châu và 9 chú thích dự án, rồi đủ 25 đơn vị ý và cả ba bản. Bảy ô Anh trống (10.6, 10.7, 25.6–25.9, 38.15) được nhận diện, không tự điền như một bản dịch đã có. Đã kiểm các điều kiện ở sáu cửa, hai nhánh xả, các danh sách và lượng biến đổi, cùng lớp Sāriputta dẫn lời Đức Phật. dhātārammaṇa có phạm vi giải thích chưa duy nhất; giữ cách diễn mở theo nguồn hiện có. Các khác biệt HTML về mức biển, gió và cưa không thắng Pāli. Không nhận đã mở các từ điển hoặc kho khác chỉ vì chú thích dẫn tên. Sau phản hồi, đã đọc lại đầy đủ earth trong bản đồ, children/harm và adults/fire; lấy lại fingerprint và sourceHashes từ audit sạch của bản freeze. Metadata, build và PR do root xử lý riêng.",
+      "contentHash": "fa2b552796b42e2de9e7dad12d81939b669c94ef250e7b1f1c52192a688be31d",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn28.html",
+          "sha256": "9c457df5dda27f3b627cf06eca5e3dce68a9844de1eb3aa28ff2f7741c642407"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn28_root-pli-ms.json",
+          "sha256": "c9f92823f155dc48e6a0ef7d754dbc0766ba05f5b13c305aef5ddb6779046e53"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn28_translation-en-sujato.json",
+          "sha256": "7857b23ea36f98c4e1d0771096c415140297bc0393b4aaced44f86b0f7595012"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn28_comment-vi-project.json",
+          "sha256": "a1468a237c5e85854221029d3234de8fc1bed879ac32c1501d82ad092c7ecb43"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn28_translation-vi-project.json",
+          "sha256": "9c51f1649983a012e45b52e728464ea7fe982bf8adfd28ae7aef8db118a6df0c"
+        }
+      ]
+    }
+  ]
+}

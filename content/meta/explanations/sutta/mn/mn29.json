@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn29",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "741093a9-940e-4999-ba71-ce2be6479e40"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "56af0b81-d9c0-4821-924f-7cbd081840bb"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "36f19ef2-9106-4586-a819-d39a2aca8f81"
+    }
+  },
+  "reviews": [
+    {
+      "id": "741093a9-940e-4999-ba71-ce2be6479e40",
+      "audience": "children",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.2,
+        "audience_fit": 9.2,
+        "clarity": 9.3,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.4,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đủ năm nguồn rồi kiểm toàn bản. Giữ bối cảnh Devadatta mới bỏ đi, không bịa nguyên nhân hoặc câu chuyện tiểu sử. papaṭikā dùng chồi non nhưng nói rõ còn cách dịch vỏ ngoài; 88 ô Sujato trống không được dùng làm bằng chứng xác nhận riêng.",
+        "semantic_fidelity": "Giữ cùng nguyện vọng xuất gia để chấm dứt toàn khối khổ cho cả năm trường hợp. Phân biệt vật được lấy nhầm với lõi thật, sự tự cao với tiến bộ trong tu và giải thoát không tạm thời với một buổi bình tĩnh. Giới/định/tri kiến không bị dạy phải bỏ.",
+        "core_coverage": "Map 19 đơn vị phủ đủ 181 khóa, gồm lời dẫn, từng nhánh và phần áp dụng thí dụ được lặp, lời người mắt sáng và kết. Có bốn chỗ dừng, năm phần cây, ba thành tựu tiếp tục và giải thoát; không chỉ rút thành đừng ham danh tiếng.",
+        "logic_context": "Với lợi danh, nhánh tiến tiếp giữ không vui/không mãn nguyện; với giới, định, tri kiến giữ vui mà chưa mãn nguyện. Mỗi nhánh còn khen/chê, mê say, buông lung và sống khổ, hoặc không buông lung rồi tiến tiếp. Người cuối biết là lõi khác người trước tưởng là lõi.",
+        "terminology": "Giới, định, tri kiến, giác cây và phạm hạnh có lời giải gần gũi. Các tên riêng cùng phạm trù giải thoát không tạm thời vẫn vượt trải nghiệm trực tiếp của trẻ nhỏ; phần giải chỉ là nhập môn. Hai thuật ngữ giải thoát không bị hòa thành tâm yên.",
+        "audience_fit": "Bó lá mở bài và quyển vở được khen đẹp tạo tình huống cụ thể; cách nói em và hỏi còn gì cần tập phù hợp tuổi. Danh mục năm trường hợp khá dài, có lặp theo nguồn, nên trẻ nhỏ có thể cần đọc từng phần với người lớn; chưa có thử đọc thực tế.",
+        "clarity": "Tiêu đề theo năm chỗ dừng, mỗi đoạn nối thành tựu và phép ví cây tương ứng. Phần giải riêng bảo vệ niềm vui trước điều thiện giúp tránh hiểu phải ghét mọi tiến bộ. Lặp nhiều công thức vẫn làm nhịp kể chậm ở giữa bài, dù ý được phân biệt rõ.",
+        "editorial_separation": "Quyển vở và lời tập hiện đại thuộc example/practice, có lời nhận là người biên soạn đặt ra. Hình ảnh cây giữ là ví dụ kinh dùng; không thêm lời đối thoại giả. Lời làm rõ về cách dịch phần cây cho biết đây là một lựa chọn diễn đạt.",
+        "practical_integrity": "Gợi hỏi mình còn gì cần học và không chê bạn, không tự cấp mức tu tập. Bài nêu rõ học viết không tương đương giải thoát và lời khen không biến trẻ thành xấu. Không lấy năm trường hợp làm nhãn xếp hạng bạn học.",
+        "technical_integrity": "Audit cuối không có lỗi cấu trúc/nguồn, 19 mã ý và 181 khóa phủ đúng một lần; mọi ý có mục teaching/clarification. Năm hash nguồn và fingerprint trẻ khớp tệp đã đọc. Điểm này là toàn vẹn bản ghi, chưa tự chứng minh build hoặc triển khai."
+      },
+      "blockingErrors": [],
+      "notes": "Root đọc toàn bộ 181 khóa của từng JSON Pāli/Việt dự án/Sujato, nhận diện 88 ô Anh trống và không có khóa dư; đọc toàn HTML Minh Châu SC1–13 gồm đầu/cuối và ghi công, đủ 7 chú thích, map 19 ý và toàn văn ba bản. Các phần adults/status, ethics, concentration, goal và older-adults/ethics đã được đọc trọn sau chỉnh. Tác giả writer_c và người kiểm root là tác tử riêng cùng GPT-6 Astra Pro, không chuyên gia Pāli con người độc lập; chưa có người đọc thật thử nghiệm. papaṭikā theo lựa chọn chồi non của dự án/Sujato, giữ khác biệt vỏ ngoài của Minh Châu; không khẳng định đã giải quyết ngữ nghĩa từ điển. Các từ điển/bản Bodhi/kho buddhanussati chỉ được chú thích nhắc tới không được tính là đã mở. asamayavimokkha và akuppā cetovimutti giữ hai cách nói; không hạ khẳng định không thể thoái chuyển thành khả năng tạm thời. Kết quả audit dữ liệu sạch được tính tại fingerprint cuối; build/HTML là cổng riêng của lô.",
+      "contentHash": "f8a2f4bafc888253b7611d8e108bfcfe8769ca741ddb713cb667a14b7516ac6b",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn29.html",
+          "sha256": "171943740fd539456b114c7c41109ec3da00b551e7c60b575786c3ecd565422b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn29_root-pli-ms.json",
+          "sha256": "72c149d95acd9f937140a12436fc5400e6ccbd88a2b5578fad516aa3158264bb"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn29_translation-en-sujato.json",
+          "sha256": "8d55b5063d7a38e86924b018d1a251e8b314c0885d7881319a7bba9076611410"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn29_comment-vi-project.json",
+          "sha256": "4baa9b8716702f536206e8aa0e4aaa5a32981bb690086764b2f754b8b145f2c6"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn29_translation-vi-project.json",
+          "sha256": "f820787466c7ce731cbc0954672a722841d12bc65ac39254546d00d608a8a531"
+        }
+      ]
+    },
+    {
+      "id": "56af0b81-d9c0-4821-924f-7cbd081840bb",
+      "audience": "adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.4,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.4,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu đầy đủ năm tệp thực dùng với 181 khóa Pāli. Giữ lời nguyện xuất gia và bối cảnh nhân Devadatta, không mượn tiểu sử ngoài bài. Chồi non/vỏ ngoài được quy đúng dự án/Sujato và Minh Châu; nguồn HTML không bị căn chỉnh giả thành khóa Bilara.",
+        "semantic_fidelity": "Bản giữ mục tiêu giải thoát khỏi toàn khối khổ cùng vai trò giới, định và tri kiến. Thành tựu trung gian có thể bị dùng cho tự tôn, nhưng không vì vậy mất giá trị tu tập. Tri kiến không bị đồng nhất kiến thức sách vở hoặc tự gán một quả vị.",
+        "core_coverage": "Đủ 19 đơn vị và toàn 181 khóa qua năm trường hợp, các đối ứng cây, lời người mắt sáng và kết. Những công thức lặp có biến đổi đều được triển khai, gồm không thể thoái chuyển ở hai lần 6.17/6.39. Không thay phần cuối bằng đạo đức nghề nghiệp.",
+        "logic_context": "Bản phân biệt minh thị na attamano/na paripuṇṇasaṅkappo đối với lợi danh với attamano/no paripuṇṇasaṅkappo ở các bậc được tiếp tục. Quan hệ chuyên cần rồi đạt bậc sau, hoặc tự mãn rồi buông lung/sống khổ giữ đúng chủ thể; tưởng lầm và biết đúng cũng tách rõ.",
+        "terminology": "Sau sửa, lợi dưỡng, phạm hạnh, giới và định được giải ngay lần đầu; tri kiến có nghĩa trong mạch tu. Giữ asamayavimokkha khác akuppā cetovimutti với nghĩa Việt kèm theo. papaṭikā vẫn có bất đồng đã nêu; đây chưa phải khảo cứu từ điển độc lập.",
+        "audience_fit": "Ví dụ nhóm thiện nguyện đi vào trách nhiệm, động cơ và sự ghi nhận hợp độc giả trưởng thành. Giọng phân tích câu điều kiện giúp người tự đọc xét mục đích của mình. Chưa có độc giả thật thử đọc, và các đoạn nhiều lớp vẫn cần thời gian đọc.",
+        "clarity": "Các tiêu đề nối từng chỗ dừng tới cứu cánh; phần vui nhưng chưa mãn nguyện được nói rõ ở whole. Đã bỏ câu chỉ nói về thao tác giữ hai thuật ngữ, giúp đoạn kết gọn hơn. Mật độ công thức lặp và tên Pāli còn cao nhưng không làm lẫn các nhánh.",
+        "editorial_separation": "Ví dụ thiện nguyện và gợi ý kiểm lại thành tựu ở đúng loại mục biên tập; nói rõ giới hạn phép liên hệ. Không gán lời nói hiện đại cho Phật. Khác biệt bản dịch được nêu như khác biệt, không trình bày lựa chọn chồi non là duy nhất chắc chắn.",
+        "practical_integrity": "Gợi xem tiến bộ có giảm bất thiện không và có nuôi xem thường ai không; không yêu cầu phủ nhận công sức. Hiệu quả dự án thiện nguyện không bị gọi tâm giải thoát bất động. Không có lời hứa chứng đắc hoặc công cụ tự xếp tầng giải thoát.",
+        "technical_integrity": "Audit cuối sạch lỗi, các mã ý hợp lệ và đủ khóa; fingerprint được tính lại sau bổ sung thuật ngữ và đọc lại các phần sửa. Năm SHA-256 khớp nguồn thực đọc. Kiểm dữ liệu này tách khỏi kiểm HTML/build production của cả lô."
+      },
+      "blockingErrors": [],
+      "notes": "Root đọc toàn bộ 181 khóa của từng JSON Pāli/Việt dự án/Sujato, nhận diện 88 ô Anh trống và không có khóa dư; đọc toàn HTML Minh Châu SC1–13 gồm đầu/cuối và ghi công, đủ 7 chú thích, map 19 ý và toàn văn ba bản. Các phần adults/status, ethics, concentration, goal và older-adults/ethics đã được đọc trọn sau chỉnh. Tác giả writer_c và người kiểm root là tác tử riêng cùng GPT-6 Astra Pro, không chuyên gia Pāli con người độc lập; chưa có người đọc thật thử nghiệm. papaṭikā theo lựa chọn chồi non của dự án/Sujato, giữ khác biệt vỏ ngoài của Minh Châu; không khẳng định đã giải quyết ngữ nghĩa từ điển. Các từ điển/bản Bodhi/kho buddhanussati chỉ được chú thích nhắc tới không được tính là đã mở. asamayavimokkha và akuppā cetovimutti giữ hai cách nói; không hạ khẳng định không thể thoái chuyển thành khả năng tạm thời. Kết quả audit dữ liệu sạch được tính tại fingerprint cuối; build/HTML là cổng riêng của lô.",
+      "contentHash": "a74709731d60ebb1569bfb1dff4d508691576de4e0bf882b48eebc4cfb06d2e9",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn29.html",
+          "sha256": "171943740fd539456b114c7c41109ec3da00b551e7c60b575786c3ecd565422b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn29_root-pli-ms.json",
+          "sha256": "72c149d95acd9f937140a12436fc5400e6ccbd88a2b5578fad516aa3158264bb"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn29_translation-en-sujato.json",
+          "sha256": "8d55b5063d7a38e86924b018d1a251e8b314c0885d7881319a7bba9076611410"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn29_comment-vi-project.json",
+          "sha256": "4baa9b8716702f536206e8aa0e4aaa5a32981bb690086764b2f754b8b145f2c6"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn29_translation-vi-project.json",
+          "sha256": "f820787466c7ce731cbc0954672a722841d12bc65ac39254546d00d608a8a531"
+        }
+      ]
+    },
+    {
+      "id": "36f19ef2-9106-4586-a819-d39a2aca8f81",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.4,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.4,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc Pāli, Việt dự án, Sujato, Minh Châu và bảy chú thích đầy đủ rồi kiểm bản lớn tuổi. Giữ năm người như năm trường hợp trong bài, không bịa thêm sự kiện. Đã sửa bản Việt truyền thống thành đúng tên bản Thích Minh Châu ở khác biệt papaṭikā.",
+        "semantic_fidelity": "Giữ giá trị điều đã thành tựu và nguyện vọng chấm dứt khổ; không xem tuổi tác hay công sức đã qua tự bảo đảm giải thoát. Cả năm mức và lời giải thoát không tạm thời/tâm không thể lay chuyển hiện rõ. Bình yên thoáng qua vẫn khác cứu cánh.",
+        "core_coverage": "Đủ 19 đơn vị phủ toàn 181 khóa. Bố cục đưa hai đầu phép ví lên trước rồi kể năm trường hợp vẫn giữ từng phần được lấy, sự không biết/biết đủ năm phần và việc cần lõi thất bại/thành. Có cả lời hoan hỷ và nhãn cuối của ấn bản.",
+        "logic_context": "Giữ không vui vì lợi danh và vui mà chưa tự mãn ở giới, định, tri kiến. Khen mình/chê người đi cùng từng bậc dừng; chuyên cần dẫn tiếp ở bậc được vượt. Câu không thể thoái khỏi đúng sự giải thoát ấy được giữ, không mở rộng sang mọi cảm giác tốt.",
+        "terminology": "Giới, định, tri kiến, giác cây và hai cách gọi giải thoát đều có lời dẫn nghĩa. Năm phần cây không lẫn vào năm thành tựu, dù papaṭikā còn hai cách dịch. Một số thuật ngữ chỉ được giải ở mức căn bản, chưa thay được việc học sâu riêng.",
+        "audience_fit": "Ví dụ học bản đàn tôn trọng khả năng tiếp tục học và niềm vui trước tiến bộ ở người lớn tuổi. Giọng từ tốn và không mặc định suy yếu, bệnh hoặc phải rời vai trò. Đánh giá này là đọc biên tập, chưa có nhóm người lớn tuổi trực tiếp thử đọc.",
+        "clarity": "Phần tree đặt lấy nhầm/lấy đúng cạnh nhau để người đọc có trục theo dõi trước các nhánh. Các đoạn về giữ giới và tự mãn được tách rõ, lời thực hành ngắn và cụ thể. Chuỗi lặp khá dài vẫn đòi hỏi tập trung, nên chưa xem độ dễ đọc là đã kiểm nghiệm.",
+        "editorial_separation": "Bản đàn là ví dụ người biên soạn đặt, phần thực hành có nhãn riêng; không trở thành một việc Đức Phật kể. Lời về tên phần cây chỉ đúng bản Minh Châu sau sửa, tránh gán cho mọi bản Việt. Không biến lời suy xét về thành tựu thành trích dẫn nguyên văn.",
+        "practical_integrity": "Gợi tôn trọng công sức đồng thời nhìn phần còn phải học, bỏ ý so hơn nếu có. Việc chơi nhạc không được gọi tri kiến trong kinh và chơi hết bản không thành giải thoát. Bài không đòi tự phủ nhận đời sống đã qua để tỏ khiêm nhường.",
+        "technical_integrity": "Audit và sourceErrors đều rỗng; đủ mã ý, Unicode và nguồn khai báo. Fingerprint lớn tuổi tính sau sửa tên bản Minh Châu và đọc lại ethics; map phủ đúng một lần 181 khóa. Kết quả này phục vụ khóa đánh giá, còn cổng HTML/build được kiểm riêng."
+      },
+      "blockingErrors": [],
+      "notes": "Root đọc toàn bộ 181 khóa của từng JSON Pāli/Việt dự án/Sujato, nhận diện 88 ô Anh trống và không có khóa dư; đọc toàn HTML Minh Châu SC1–13 gồm đầu/cuối và ghi công, đủ 7 chú thích, map 19 ý và toàn văn ba bản. Các phần adults/status, ethics, concentration, goal và older-adults/ethics đã được đọc trọn sau chỉnh. Tác giả writer_c và người kiểm root là tác tử riêng cùng GPT-6 Astra Pro, không chuyên gia Pāli con người độc lập; chưa có người đọc thật thử nghiệm. papaṭikā theo lựa chọn chồi non của dự án/Sujato, giữ khác biệt vỏ ngoài của Minh Châu; không khẳng định đã giải quyết ngữ nghĩa từ điển. Các từ điển/bản Bodhi/kho buddhanussati chỉ được chú thích nhắc tới không được tính là đã mở. asamayavimokkha và akuppā cetovimutti giữ hai cách nói; không hạ khẳng định không thể thoái chuyển thành khả năng tạm thời. Kết quả audit dữ liệu sạch được tính tại fingerprint cuối; build/HTML là cổng riêng của lô.",
+      "contentHash": "2eea423eb2234b4d7c722ffcbcd6a5b1b053b024f7897a2bb6d04e6b091bb4c9",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn29.html",
+          "sha256": "171943740fd539456b114c7c41109ec3da00b551e7c60b575786c3ecd565422b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn29_root-pli-ms.json",
+          "sha256": "72c149d95acd9f937140a12436fc5400e6ccbd88a2b5578fad516aa3158264bb"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn29_translation-en-sujato.json",
+          "sha256": "8d55b5063d7a38e86924b018d1a251e8b314c0885d7881319a7bba9076611410"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn29_comment-vi-project.json",
+          "sha256": "4baa9b8716702f536206e8aa0e4aaa5a32981bb690086764b2f754b8b145f2c6"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn29_translation-vi-project.json",
+          "sha256": "f820787466c7ce731cbc0954672a722841d12bc65ac39254546d00d608a8a531"
+        }
+      ]
+    }
+  ]
+}

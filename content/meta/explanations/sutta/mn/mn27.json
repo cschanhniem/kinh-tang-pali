@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn27",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "6fde5998-a48e-4aad-b9fe-d7ddb6a9d667"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "f76a9160-67f1-40bc-988e-aa2e42bae449"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "e031372b-cc02-471d-b103-99df053e3d45"
+    }
+  },
+  "reviews": [
+    {
+      "id": "6fde5998-a48e-4aad-b9fe-d7ddb6a9d667",
+      "audience": "children",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.4,
+        "logic_context": 9.5,
+        "terminology": 9.2,
+        "audience_fit": 9.3,
+        "clarity": 9.2,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đọc trọn năm nguồn rồi đối chiếu bản trẻ em: giữ giữa ban ngày, xe ngựa cái, cùng một Pilotika/Vacchāyana và vàng tiền trong giới dù HTML lệch hoặc thiếu. Hai mươi khóa English trống không được coi là chứng cứ độc lập.",
+        "semantic_fidelity": "Niềm tin từ dấu hiệu dẫn tới thực hành và tự biết giải thoát; không bị biến thành ghét niềm tin, thắng tranh luận hay học một kỹ năng. Ba mức chưa kết, đang đi tới, đã kết được giữ; lời kể về Jānussoṇi chỉ kết ở quy y cư sĩ.",
+        "core_coverage": "Đủ 37 ý qua 201 khóa: bốn nhóm, ba lần theo dấu còn bất định, thấy voi thật, toàn giới và sáu căn, năm triền cái, bốn thiền, hai minh, hai bộ bốn sự thật và giải thoát. Nét học rộng, biện luận tinh vi vừa được phục hồi; những công thức lặp được gộp có chỉ dẫn.",
+        "logic_context": "Kết luận vội thuộc Pilotika; Đức Phật mới mở rộng phép ví. Chỉ nhóm sa-môn được kể tiếp xuất gia và tự chứng. Cả sáu chứng đạt đầu chưa kết luận, 25.5 đang đi tới, 26.5 đã kết sau lậu tận; không gắn tên quả vị ngoài nguồn.",
+        "terminology": "Pháp, Tăng, bà-la-môn, sa-môn, A-la-hán và tỳ-kheo có lời giải gần chỗ dùng. Ý căn sau sửa không còn thu hẹp thành một ý nghĩ. Danh hiệu Phật và thuật ngữ thiền vẫn dày, nên có thể cần người hướng dẫn đọc cùng.",
+        "audience_fit": "Câu hỏi về dấu chân, hình ảnh voi và ví dụ tự gấp hạc giấy giúp trẻ theo tiến trình từ dấu hiệu đến điều tự biết. Bài khuyến khích hỏi phần chưa hiểu. Văn dài và phần thiền khá trừu tượng; chưa thử với trẻ thật.",
+        "clarity": "Các tiêu đề chia việc theo dấu, rèn cách sống, nhận biết và giải thoát thành chặng rõ. Giới và các chứng đạt không bị lược thành khẩu hiệu; đổi lại, các danh sách tạo mật độ cao ở nửa sau.",
+        "editorial_separation": "Gấp hạc có kind example và tự nhận là ví dụ biên tập; lời nói về phần mình đã hiểu có kind practice. Cách giải thuật ngữ nằm cạnh mạch kinh, không có lời thoại mới gán cho Phật hoặc thành tựu của trẻ gán vào nguồn.",
+        "practical_integrity": "Không bảo trẻ tự rời nhà, theo giờ ăn tu sĩ hoặc tự thử chứng thiền; việc áp dụng là hỏi thành thật, nói dịu và không giả vờ hiểu hết. Gấp giấy thành thạo được giới hạn rõ, không đổi thành chứng ngộ.",
+        "technical_integrity": "Audit sạch cả errors/sourceErrors, map phủ 201 khóa thật. Đã đọc lại four-visitors, body và six-doors trước khi lấy contentHash ba7cec… bằng explanationContentHash; cả năm sourceHashes khớp bản đọc đầy đủ."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root/writer_a với bản của /root/writer_b: đã đọc trọn năm nguồn, map và ba bản; đóng bốn nhóm phát hiện bằng đọc lại cả tám mục sửa trước khi chốt hash. Hai tác tử cùng công cụ AI, không phải xác nhận của chuyên gia con người hay thử nghiệm độc giả.",
+      "contentHash": "ba7cec99facf3f4ae9b738a8fb146449ec36ff085851da94c68dd8bcac923bcd",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn27.html",
+          "sha256": "2dbed674b6bfa55cc6a4445ea97a8aeeb7461c262a57e01573513d22b8cad550"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn27_root-pli-ms.json",
+          "sha256": "f3e75fa1585ca7679d9f1cb6569a7828aa2cd8beeec2bf17756936a273db4d15"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn27_translation-en-sujato.json",
+          "sha256": "13e9820b6fdf7394dec213debdc4001d35b0bb49691a428966d383c38b248412"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn27_comment-vi-project.json",
+          "sha256": "d602b9eefc5e584e66adb8c48e3e7427f8c504b18a7fc9190c372d9a064eba2b"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn27_translation-vi-project.json",
+          "sha256": "74570daffda5128326a0cc1514b48c91aa3ae52325b4bfb8448d7719434a95ba"
+        }
+      ]
+    },
+    {
+      "id": "f76a9160-67f1-40bc-988e-aa2e42bae449",
+      "audience": "adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.6,
+        "terminology": 9.3,
+        "audience_fit": 9.4,
+        "clarity": 9.3,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc đủ Pāli, Sujato, Việt dự án, 12 chú thích và toàn HTML. Bản giữ người từ gia đình nào đó, tri túc trước chỗ vắng, vàng tiền và mệnh đề đang đi tới ở 25.5, tránh các lệch hoặc lược trong bản phụ.",
+        "semantic_fidelity": "Giữ vai trò của tín, giới, định và trí lậu tận trong cùng con đường; năng lực biết đời trước hay tái sinh chưa thành giải thoát. Hai bộ bốn sự thật và ba lậu được nói rõ, không thu đích Phật dạy về hiệu suất hoặc thành tích.",
+        "core_coverage": "Bao quát 37 đơn vị với đủ các danh mục thân, lời, tiếp nhận, sinh kế, sáu căn, tỉnh giác và chỗ vắng; bốn thiền khác nhau và hai minh vẫn còn ba dấu cùng lời chưa kết. Không tự bung các danh sách đời/kiếp đã lược trong Pāli.",
+        "logic_context": "Phân biệt lời Pilotika, kết quả riêng của nhóm sa-môn và con đường giả định Phật đang giảng; Jānussoṇi không bị gán chứng quả. Câu hộ căn sau sửa nêu rõ không giữ thì bất thiện có thể tràn vào, vì vậy vị ấy bảo hộ từng căn.",
+        "terminology": "Sát-đế-lị và phạm hạnh đã được mở nghĩa ngay lần đầu; tầm tứ, hỷ lạc, xả, lậu hoặc được giải theo chặng. Một số danh hiệu và từ như thiện pháp, tri túc vẫn cần đọc kỹ, nhưng không bị chuyển sang nghĩa nghề nghiệp hiện đại.",
+        "audience_fit": "Ví dụ lời giới thiệu một lớp học, những buổi học và điều tự làm được sát trải nghiệm trưởng thành. Câu hỏi về cơ sở của nhận định giữ trách nhiệm tự kiểm chứng mà vẫn cho niềm tin ban đầu có vai trò; chưa có thử nghiệm độc giả.",
+        "clarity": "Mạch từ ba loại dấu qua sáu chặng chưa kết tới hai bước cuối rõ, đoạn phân biệt người nghe quy y với đệ tử giải thoát đặc biệt hữu ích. Câu hộ căn đã hết nguy cơ đọc ngược; danh mục giới còn dày nhưng được chia theo công dụng.",
+        "editorial_separation": "Ví dụ lớp học và suy xét được phân loại riêng, tự nhận là liên hệ biên tập. Không dựng cuộc đối thoại hiện đại giả làm lời kinh; điều được học trong lớp không được xem là tương đương lậu tận.",
+        "practical_integrity": "Không dùng sự xuất gia của nhân vật để bắt người đọc bỏ trách nhiệm, không hứa thực hành ngắn sẽ có thiên nhãn. Bước áp dụng là nhận đúng mức hiểu biết và nói thật, có ích, không chia rẽ trong hướng tu tập rộng hơn.",
+        "technical_integrity": "Đã đọc lại first-three, fourth và faculties sau sửa. Audit hiện hành không lỗi nội dung hoặc nguồn; hash fc3f529… lấy đúng bản adults đã đọc, cả năm fingerprint khớp nguồn, không có ghi metadata hay tuyên bố kiểm build."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root/writer_a với bản của /root/writer_b: đã đọc trọn năm nguồn, map và ba bản; đóng bốn nhóm phát hiện bằng đọc lại cả tám mục sửa trước khi chốt hash. Hai tác tử cùng công cụ AI, không phải xác nhận của chuyên gia con người hay thử nghiệm độc giả.",
+      "contentHash": "fc3f52984d5224c15820cd27ab6faea99fd90112c5ea5c97d7b0a5c74c8ec5c0",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn27.html",
+          "sha256": "2dbed674b6bfa55cc6a4445ea97a8aeeb7461c262a57e01573513d22b8cad550"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn27_root-pli-ms.json",
+          "sha256": "f3e75fa1585ca7679d9f1cb6569a7828aa2cd8beeec2bf17756936a273db4d15"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn27_translation-en-sujato.json",
+          "sha256": "13e9820b6fdf7394dec213debdc4001d35b0bb49691a428966d383c38b248412"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn27_comment-vi-project.json",
+          "sha256": "d602b9eefc5e584e66adb8c48e3e7427f8c504b18a7fc9190c372d9a064eba2b"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn27_translation-vi-project.json",
+          "sha256": "74570daffda5128326a0cc1514b48c91aa3ae52325b4bfb8448d7719434a95ba"
+        }
+      ]
+    },
+    {
+      "id": "e031372b-cc02-471d-b103-99df053e3d45",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.4,
+        "logic_context": 9.5,
+        "terminology": 9.3,
+        "audience_fit": 9.4,
+        "clarity": 9.3,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu toàn năm nguồn với bản lớn tuổi; giữ ngựa cái và thời điểm giữa ngày, không theo hạ tiện của HTML, không bỏ vàng tiền hoặc tri túc. Hai loại voi cái cao lớn được giữ khác nhau mà không khẳng định tên loài còn bất định.",
+        "semantic_fidelity": "Niềm tin được tiếp nối bằng học và tự chứng, không bị thay bằng hoài nghi mọi lời kể. Đích là thoát dục lậu, hữu lậu, vô minh lậu và biết đã giải thoát; không thu bài thành lời an ủi tuổi già hay sự yên tâm trong gia đình.",
+        "core_coverage": "Đủ 37 ý, cả câu chuyện trước cuộc gặp, ba lần đảnh lễ, giới đầy đủ, sáu cửa, hoạt động thường ngày, chỗ vắng, năm triền cái và các chặng tu chứng. Các mục ngắn gộp lặp vẫn giữ sáu lần chưa kết, bước đang tới và kết luận cuối.",
+        "logic_context": "Lời tự nhận xưa chưa thật và nay mới thật thuộc nhóm sa-môn, không thành lời Phật kết án mọi truyền thống. Việc thấy voi thật khác thêm dấu; kết quả quy y của người nghe khác giải thoát trong bài giảng. Quan hệ hộ căn và bất thiện giữ đúng.",
+        "terminology": "Bà-la-môn và tỳ-kheo đã có lời giải lần đầu; phạm hạnh, A-la-hán, tri túc, hỷ lạc và các lậu được mở nghĩa. Một số từ thiền như xả niệm thanh tịnh còn cô đọng; không giả định mọi độc giả lớn tuổi đã quen thuật ngữ.",
+        "audience_fit": "Ví dụ nghe chuyện bất hòa từ người thân giữ lòng thương cùng việc hỏi điều chưa rõ, tôn trọng kinh nghiệm và khả năng tiếp tục học. Hai minh tách thành mục riêng giúp dừng đọc. Chưa có phản hồi từ người đọc lớn tuổi thật.",
+        "clarity": "Hai mươi lăm mục tạo nhịp nghỉ rõ, đặc biệt giữa dấu voi, sinh hoạt và tu chứng. Phần chưa đến/đang tới/đã đến dễ phân biệt. Các đoạn danh mục và tên Pāli vẫn có mật độ, nên cần đọc từng chặng như thiết kế.",
+        "editorial_separation": "Câu chuyện gia đình ghi rõ là ví dụ biên tập; phần suy xét có kind practice. Không gán lời bênh người thân hoặc cách giải quyết bất hòa cho Phật, không dùng quan hệ gia đình để thay nội dung về tái sinh và giải thoát.",
+        "practical_integrity": "Thực hành khuyến khích hỏi hòa nhã, nói rõ điều chưa biết và học theo khả năng; không tạo áp lực phải chứng đạt vì tuổi tác. Ví dụ không yêu cầu cắt tình thân, không hứa hóa giải mọi bất hòa hoặc thay thế tu chứng bằng hiểu một câu chuyện.",
+        "technical_integrity": "Đã đọc lại conversation và choice cùng các lời giải mới, rồi audit sạch nội dung và nguồn. Hash d155fd… gắn đúng bản lớn tuổi đã đọc; cả năm hash nguồn kiểm với checkpoint đọc trực tiếp, không tự nhận đã kiểm Actions hoặc xuất bản."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root/writer_a với bản của /root/writer_b: đã đọc trọn năm nguồn, map và ba bản; đóng bốn nhóm phát hiện bằng đọc lại cả tám mục sửa trước khi chốt hash. Hai tác tử cùng công cụ AI, không phải xác nhận của chuyên gia con người hay thử nghiệm độc giả.",
+      "contentHash": "d155fd2feb5f475d5bc0480c727be7e1f4f2425feec354a9a3834ce3db02623e",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn27.html",
+          "sha256": "2dbed674b6bfa55cc6a4445ea97a8aeeb7461c262a57e01573513d22b8cad550"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn27_root-pli-ms.json",
+          "sha256": "f3e75fa1585ca7679d9f1cb6569a7828aa2cd8beeec2bf17756936a273db4d15"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn27_translation-en-sujato.json",
+          "sha256": "13e9820b6fdf7394dec213debdc4001d35b0bb49691a428966d383c38b248412"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn27_comment-vi-project.json",
+          "sha256": "d602b9eefc5e584e66adb8c48e3e7427f8c504b18a7fc9190c372d9a064eba2b"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn27_translation-vi-project.json",
+          "sha256": "74570daffda5128326a0cc1514b48c91aa3ae52325b4bfb8448d7719434a95ba"
+        }
+      ]
+    }
+  ]
+}
