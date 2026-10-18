@@ -8,7 +8,7 @@ Thực hiện theo yêu cầu ngày 2026-10-18: `mn1` đến `mn152`, sau đó `
 
 Một bài hoàn tất khi ba bản `children`, `adults`, `older-adults` đều có nội dung đầy đủ, qua đối chiếu nguồn, có đánh giá còn hiệu lực và đạt ngưỡng xuất bản. Một bản đạt điểm cao không bù cho bản còn thiếu hoặc sai nghĩa.
 
-Mỗi lô gồm 10 bài liên tiếp trong thứ tự này. Sau khi kiểm tra, tạo PR, đợi các kiểm tra của đúng commit trên PR thành công rồi merge. Tại ranh giới hai bộ, lô tiếp tục từ MN152 sang DN1, không bỏ hoặc đảo bài. Lô cuối chứa số bài còn lại. Phần nền tảng kỹ thuật đi cùng lô đầu; việc thêm công cụ tự nó không được tính là đã hoàn thành một bài.
+Mỗi lô gồm 10 bài liên tiếp trong thứ tự này. Sau khi đối chiếu, chấm điểm và kiểm tra local, tạo PR rồi merge đúng nội dung đã kiểm. Theo chỉ dẫn bổ sung của người dùng ngày 2026-10-18 (“don't need to check actions, just continue next 10 texts”), công việc này không kiểm tra hoặc chờ GitHub Actions. Tại ranh giới hai bộ, lô tiếp tục từ MN152 sang DN1, không bỏ hoặc đảo bài. Lô cuối chứa số bài còn lại. Phần nền tảng kỹ thuật đi cùng lô đầu; việc thêm công cụ tự nó không được tính là đã hoàn thành một bài.
 
 ## 2. Ba nhóm độc giả
 
@@ -111,15 +111,17 @@ Ghi công tác giả và người đánh giá bằng ID trong `source/tooling.ya
 
 ## 8. Cổng kiểm tra của lô và PR
 
-Mỗi lô phải có đủ các bài theo thứ tự, mỗi bài đủ ba bản đã duyệt. Kiểm tra dữ liệu diễn giải được tích hợp vào validation của dự án. Chạy các cổng hiện có được quy định trong `AGENTS.md` và CI; thay đổi giao diện phải có kiểm tra thực tế trang, thao tác bàn phím và màn hình hẹp.
+Mỗi lô phải có đủ các bài theo thứ tự, mỗi bài đủ ba bản đã duyệt. Kiểm tra dữ liệu diễn giải được tích hợp vào validation của dự án. Giữ các kiểm tra nội dung và local phù hợp được quy định trong `AGENTS.md`; thay đổi giao diện phải có kiểm tra thực tế trang, thao tác bàn phím và màn hình hẹp. Chỉ dẫn bổ sung ở mục 1 bỏ việc kiểm tra và chờ GitHub Actions, không bỏ việc đối chiếu nguồn hoặc chấm điểm.
 
-PR cần nêu phạm vi bài, điểm của ba nhóm và điểm thấp nhất của mỗi bài, những quyết định diễn giải đáng chú ý, nguồn và giới hạn của lượt đánh giá, cùng kết quả kiểm tra thực tế. Phân biệt rõ kiểm tra thành công, bị bỏ qua và chưa chạy. Merge đúng commit đã kiểm tra; nếu commit thay đổi, kiểm tra lại phần liên quan và CI của commit mới.
+PR cần nêu phạm vi bài, điểm của ba nhóm và điểm thấp nhất của mỗi bài, những quyết định diễn giải đáng chú ý, nguồn và giới hạn của lượt đánh giá, cùng kết quả kiểm tra thực tế. Phân biệt rõ kiểm tra thành công, bị bỏ qua và chưa chạy; không ghi GitHub Actions đã đạt khi không kiểm tra. Merge đúng commit đã kiểm tra; nếu commit thay đổi, kiểm tra lại phần liên quan.
 
-Theo dõi bằng nội dung và lịch sử đánh giá trong kho cùng PR đã merge. Bài chưa làm không được xuất bản bằng văn mẫu, mô tả chờ hoặc điểm ước lượng. Nếu nguồn, quyền truy cập hoặc CI chặn tiến độ, ghi bài/lô đang dừng và lý do cụ thể để tiếp tục đúng chỗ.
+Theo dõi bằng nội dung và lịch sử đánh giá trong kho cùng PR đã merge. Bài chưa làm không được xuất bản bằng văn mẫu, mô tả chờ hoặc điểm ước lượng. Nếu nguồn, quyền truy cập hoặc lỗi kiểm tra nội dung/local chặn tiến độ, ghi bài/lô đang dừng và lý do cụ thể để tiếp tục đúng chỗ.
 
 ## Tài liệu liên quan
 
 - [Kế hoạch diễn giải theo ba nhóm độc giả](plan/mordern-explaination.md)
+- [Báo cáo lô 01 — MN1–MN10](modern-explanations/batch-01-mn1-mn10.md)
+- [Báo cáo lô 02 — MN11–MN20](modern-explanations/batch-02-mn11-mn20.md)
 - [Hướng dẫn đóng góp](../AGENTS.md)
 - [Quy trình dịch và đối chiếu nguồn](../skill/translation.md)
 - [Đánh giá bản dịch và tóm tắt hiện có](quality-assessments.md)

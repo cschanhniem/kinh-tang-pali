@@ -320,10 +320,14 @@ Các kiểm tra mới nối vào validator/tests/CI qua `explanations:check`; `e
 
 ## 8. Lộ trình triển khai
 
+**Cập nhật theo chỉ dẫn ngày 2026-10-18:** người dùng yêu cầu “don't need to check actions, just continue next 10 texts”. Vì vậy, tiếp tục các lô 10 bài, đối chiếu và chấm điểm từng bản, tạo PR và merge sau kiểm tra local; không kiểm tra hoặc chờ GitHub Actions. Báo cáo chỉ ghi những kết quả thực sự đã kiểm.
+
+**Tiến độ khi đóng lô 02 (2026-10-18):** [MN1–MN10](../modern-explanations/batch-01-mn1-mn10.md) và [MN11–MN20](../modern-explanations/batch-02-mn11-mn20.md) có đủ ba bản đã duyệt: **20/186 bài, 60/558 bản**. Báo cáo CLI không có bản lỗi thời hoặc không hợp lệ; lô kế tiếp theo thứ tự là **MN21–MN30**. Điểm và phạm vi kiểm thực tế được ghi trong từng báo cáo lô.
+
 | Chặng | Công việc và đầu ra | Điều kiện đi tiếp |
 | --- | --- | --- |
 | 1. Nền tảng và MN1 | Schema, rubric, nguồn, bản đồ ý và ba bản MN1; loader, review/hash, component và kiểm tra. | MN1 có đủ ba bản được đối chiếu và chấm riêng; cơ chế không tác động kinh văn. |
-| 2. Lô đầu MN1–MN10 | Tiếp tục MN2 đến MN10, sửa sau review, lập bảng điểm; tạo PR và kiểm CI. | Cả 10 bài hoàn tất, kiểm tra đúng commit thành công, merge PR. |
+| 2. Lô đầu MN1–MN10 | Tiếp tục MN2 đến MN10, sửa sau review, lập bảng điểm; kiểm tra local và tạo PR. | Cả 10 bài hoàn tất, kiểm tra đúng nội dung thành công, merge PR. |
 | 3. Tiếp tục Trung Bộ | Các lô kế tiếp giữ thứ tự catalog và cùng ngưỡng điểm. | Mỗi lô 10 bài đạt chuẩn được tạo PR, kiểm tra và merge. |
 | 4. Chuyển sang Trường Bộ | Sau MN152 đến DN1; lô tại ranh giới hai bộ tiếp tục đủ 10 bài. | Không bỏ hoặc lặp bài; bài dài vẫn đủ mạch nghĩa và chia phần đọc phù hợp. |
 | 5. Hoàn thiện DN34 | Tiếp tục theo thứ tự; lô cuối chứa số bài còn lại. | Đủ 186 bài và 558 bản hiện hành được kiểm từ catalog, các PR đã merge. |
@@ -336,7 +340,7 @@ Quy mô lô là 10 bài theo yêu cầu; chất lượng từng bài không gi�
 - Chốt hồ sơ nghĩa MN1, trường dữ liệu, rubric số và cách ghi căn cứ; liệt kê những chỗ chưa phân xử.
 - Viết đủ ba bản MN1, đối chiếu và sửa trong lượt review tách khỏi lượt soạn.
 - Kiểm trang đọc, nguồn, trạng thái và hash; tiếp tục từng bài MN2–MN10 theo cùng quy trình.
-- Lập báo cáo điểm thật của 10 bài; kiểm tra, tạo PR, đợi CI của đúng commit rồi merge.
+- Lập báo cáo điểm thật của 10 bài; kiểm tra local, tạo PR rồi merge đúng commit đã kiểm.
 
 Đây là thứ tự công việc, không phải hạn buộc xuất bản. **Hành động đầu tiên:** lập hồ sơ nghĩa đầy đủ của MN1, sau đó viết ba bản từ hồ sơ ấy. Không bắt đầu bằng sinh hàng loạt 558 bản rồi mới tìm người kiểm.
 

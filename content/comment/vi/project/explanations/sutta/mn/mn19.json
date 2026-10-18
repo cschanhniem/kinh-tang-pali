@@ -1,0 +1,948 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn19",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
+      "sha256": "fa1449e3407028f03f61f89492c6a83242896d5c63279ba1bdf8de3892568dcc",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json",
+      "sha256": "9e490c450402083fbcf82626c3d031cd57bf1fa75e5509c14d2d2beb81881cd1",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn19_translation-vi-project.json",
+      "sha256": "ee08f07ecf75cb1dd1cce4680461d27a988ceec2f0b258e4056da0f35f8905ee",
+      "commit": "d61c3d79c73aee87f34cbbed1e96b134d95e72cb"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn19.html",
+      "sha256": "249055db7ac61ec375a24f6d2f00dd904738dfa1917445228e83d947f11248ff",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn19_comment-vi-project.json",
+      "sha256": "94140903fb87caab3fdbad957a7347dcd8590cab0359690b91eaef6ef091eac1",
+      "commit": "d61c3d79c73aee87f34cbbed1e96b134d95e72cb"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Nhận diện Kinh Song Tầm",
+      "segments": [
+        "mn19:0.1",
+        "mn19:0.2"
+      ],
+      "summary": "MN19, Dvedhāvitakkasutta, Kinh Song Tầm."
+    },
+    {
+      "id": "setting",
+      "title": "Đức Phật dạy tại Jeta",
+      "segments": [
+        "mn19:1.1",
+        "mn19:1.2",
+        "mn19:1.3",
+        "mn19:1.4",
+        "mn19:1.5",
+        "mn19:1.6"
+      ],
+      "summary": "Tại Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika, Đức Phật gọi các tỳ-kheo và bắt đầu thuyết."
+    },
+    {
+      "id": "two-kinds",
+      "title": "Hai nhóm suy nghĩ trước giác ngộ",
+      "segments": [
+        "mn19:2.1",
+        "mn19:2.2",
+        "mn19:2.3",
+        "mn19:2.4",
+        "mn19:2.5",
+        "mn19:2.6"
+      ],
+      "summary": "Khi còn Bồ-tát chưa giác ngộ, Ngài liên tục chia tầm thành dục/sân/hại và ly dục/không sân/không hại."
+    },
+    {
+      "id": "unskillful-examination",
+      "title": "Nhận ra và từ bỏ tầm bất thiện",
+      "segments": [
+        "mn19:3.1",
+        "mn19:3.2",
+        "mn19:3.3",
+        "mn19:3.4",
+        "mn19:3.5",
+        "mn19:3.6",
+        "mn19:3.7",
+        "mn19:3.8",
+        "mn19:3.9",
+        "mn19:4-5.1",
+        "mn19:4-5.2",
+        "mn19:4-5.3",
+        "mn19:4-5.4",
+        "mn19:4-5.5",
+        "mn19:4-5.6",
+        "mn19:4-5.7",
+        "mn19:4-5.8",
+        "mn19:4-5.9",
+        "mn19:4-5.10"
+      ],
+      "summary": "Dù không phóng dật, nhiệt tâm, kiên quyết, tầm bất thiện vẫn khởi; xét hại mình/người/cả hai, cản trí tuệ/nghiêng phiền não/không đến Niết-bàn thì lắng; Ngài từ bỏ, xua, chấm dứt mỗi khi khởi. Sân được lược theo mẫu, dục và hại viết đầy đủ."
+    },
+    {
+      "id": "unskillful-habit",
+      "title": "Tâm nghiêng theo điều lặp",
+      "segments": [
+        "mn19:6.1",
+        "mn19:6.2",
+        "mn19:6.3",
+        "mn19:6.4"
+      ],
+      "summary": "Thường suy nghĩ nghiền ngẫm dục/sân/hại, bỏ hướng đối nghịch và nuôi hướng ấy thì tâm nghiêng về nó; không chỉ một ý thoáng qua."
+    },
+    {
+      "id": "cowherd-crops",
+      "title": "Canh bò khi ruộng còn hoa màu",
+      "segments": [
+        "mn19:7.1",
+        "mn19:7.2",
+        "mn19:7.3",
+        "mn19:7.4",
+        "mn19:7.5"
+      ],
+      "summary": "Cuối mùa mưa, thu, ruộng ken, người chăn dùng gậy gõ/thúc/ngăn bò vì thấy nguy giết/bắt/phạt tiền/trách. Tương tự thấy bất thiện nguy/thấp/ô nhiễm, thiện có ích xuất ly và hướng thanh tịnh."
+    },
+    {
+      "id": "skillful-and-settling",
+      "title": "Thiện không gây hại, suy tư lâu vẫn cần lắng",
+      "segments": [
+        "mn19:8.1",
+        "mn19:8.2",
+        "mn19:8.3",
+        "mn19:8.4",
+        "mn19:8.5",
+        "mn19:8.6",
+        "mn19:8.7",
+        "mn19:8.8",
+        "mn19:8.9",
+        "mn19:8.10",
+        "mn19:8.11",
+        "mn19:8.12",
+        "mn19:8.13",
+        "mn19:9-10.1",
+        "mn19:9-10.2",
+        "mn19:9-10.3",
+        "mn19:9-10.4",
+        "mn19:9-10.5",
+        "mn19:9-10.6",
+        "mn19:9-10.7",
+        "mn19:9-10.8",
+        "mn19:9-10.9",
+        "mn19:9-10.10",
+        "mn19:9-10.11",
+        "mn19:9-10.12",
+        "mn19:9-10.13",
+        "mn19:9-10.14"
+      ],
+      "summary": "Tầm ly dục/không sân/không hại không hại mình/người/cả hai, tăng tuệ, không phiền, đến Niết-bàn; đêm/ngày/cả hai không nguy ấy. Nhưng nghĩ quá lâu làm thân mệt, tâm xao, xa định, nên an trú/lắng/nhất/định bên trong."
+    },
+    {
+      "id": "skillful-habit",
+      "title": "Nuôi hướng thiện",
+      "segments": [
+        "mn19:11.1",
+        "mn19:11.2",
+        "mn19:11.3",
+        "mn19:11.4"
+      ],
+      "summary": "Thường suy nghĩ/nghiền ngẫm ly dục/không sân/không hại, bỏ hướng đối nghịch và nuôi hướng thiện thì tâm nghiêng thiện."
+    },
+    {
+      "id": "cowherd-harvest",
+      "title": "Canh bò khi mùa màng đã thu",
+      "segments": [
+        "mn19:12.1",
+        "mn19:12.2",
+        "mn19:12.3",
+        "mn19:12.4"
+      ],
+      "summary": "Cuối mùa nóng, lúa đã thu về làng, người chăn dưới gốc cây hoặc ngoài trời chỉ cần niệm đàn bò ở đó; tương tự niệm các pháp ấy ở đó, không bỏ chú ý."
+    },
+    {
+      "id": "meditative-foundation",
+      "title": "Tinh tấn, niệm, thân an, tâm định",
+      "segments": [
+        "mn19:13.1"
+      ],
+      "summary": "Tinh tấn khởi không chùng, niệm thiết lập không mất, thân an không căng, tâm định nhất."
+    },
+    {
+      "id": "first-second-jhanas",
+      "title": "Sơ thiền và nhị thiền",
+      "segments": [
+        "mn19:14.1",
+        "mn19:15.1"
+      ],
+      "summary": "Sơ: ly dục/bất thiện, hỷ lạc do viễn ly, còn tầm/tứ; nhị: tầm/tứ lắng, nội sáng nhất tâm, hỷ lạc do định, không tầm/tứ."
+    },
+    {
+      "id": "third-fourth-jhanas",
+      "title": "Tam thiền và tứ thiền",
+      "segments": [
+        "mn19:16.1",
+        "mn19:17.1"
+      ],
+      "summary": "Tam: hỷ phai, xả/niệm/tỉnh giác, thân cảm lạc, bậc Thánh khen; tứ: bỏ lạc/khổ, hỷ/ưu trước chấm, không khổ-lạc, niệm sạch nhờ xả."
+    },
+    {
+      "id": "first-knowledge",
+      "title": "Minh nhớ đời quá khứ",
+      "segments": [
+        "mn19:18.1",
+        "mn19:18.2",
+        "mn19:19.1",
+        "mn19:19.2"
+      ],
+      "summary": "Tâm định thanh tịnh/sáng/không uế/hết cấu/mềm/đắc dụng/vững/bất động hướng tiền kiếp với đặc điểm/chi tiết, nguồn lược sau một đời. Canh đầu minh thứ nhất, vô minh/tối tan, minh/sáng sinh, không phóng dật nhiệt tâm kiên quyết."
+    },
+    {
+      "id": "second-knowledge",
+      "title": "Minh thấy chết và tái sinh",
+      "segments": [
+        "mn19:20.1",
+        "mn19:20.2",
+        "mn19:21.1",
+        "mn19:21.2"
+      ],
+      "summary": "Trên cùng phẩm chất tâm, thiên nhãn thanh tịnh siêu nhân thấy chết/sinh, thấp/cao, đẹp/xấu, tốt/xấu theo nghiệp; phần thân ác hạnh nằm trong công thức lược. Canh giữa minh thứ hai, vô minh/tối tan minh/sáng sinh."
+    },
+    {
+      "id": "third-knowledge",
+      "title": "Minh lậu tận và biết giải thoát",
+      "segments": [
+        "mn19:22.1",
+        "mn19:22.2",
+        "mn19:23.1",
+        "mn19:23.2",
+        "mn19:23.3",
+        "mn19:24.1",
+        "mn19:24.2"
+      ],
+      "summary": "Trên cùng tâm định, biết khổ/tập/diệt/đường và lậu/tập/diệt/đường; tâm thoát dục/hữu/vô minh lậu, biết đã thoát, sinh tận phạm hạnh xong việc làm xong không trở lại. Canh cuối minh thứ ba, vô minh/tối tan minh/sáng sinh."
+    },
+    {
+      "id": "deer-story",
+      "title": "Hai người đối với đàn nai",
+      "segments": [
+        "mn19:25.1",
+        "mn19:25.2",
+        "mn19:25.3",
+        "mn19:25.4",
+        "mn19:25.5",
+        "mn19:25.6",
+        "mn19:25.7",
+        "mn19:25.8"
+      ],
+      "summary": "Đàn nai ở đầm rừng; kẻ hại đóng đường an toàn/hạnh phúc, mở sai, đặt nai đực/cái nhử khiến suy vong. Người tốt mở đúng/đóng sai/loại mồi đực/tiêu hủy mồi cái, đàn tăng trưởng."
+    },
+    {
+      "id": "deer-meaning",
+      "title": "Các đối ứng do kinh giải",
+      "segments": [
+        "mn19:26.1",
+        "mn19:26.2",
+        "mn19:26.3",
+        "mn19:26.4",
+        "mn19:26.5",
+        "mn19:26.6",
+        "mn19:26.7",
+        "mn19:26.8",
+        "mn19:26.9",
+        "mn19:26.10"
+      ],
+      "summary": "Đầm=dục, đàn=chúng sinh, kẻ hại=Māra, đường sai=tám tà, mồi đực=thích thú tham đắm, mồi cái=vô minh, người lợi=Như Lai A-la-hán Chánh Đẳng Giác. Không gán phẩm chất xã hội cho nam/nữ."
+    },
+    {
+      "id": "noble-path",
+      "title": "Đường an toàn tám ngành",
+      "segments": [
+        "mn19:26.11",
+        "mn19:26.12",
+        "mn19:26.13"
+      ],
+      "summary": "Đường an toàn vững hạnh phúc=Thánh đạo tám ngành chánh kiến/tư duy/ngữ/nghiệp/mạng/tinh tấn/niệm/định. Phật đã mở đúng đóng sai loại mồi đực tiêu mồi cái."
+    },
+    {
+      "id": "instruction-ending",
+      "title": "Lòng thương và lời mời thực hành",
+      "segments": [
+        "mn19:27.1",
+        "mn19:27.2",
+        "mn19:27.3",
+        "mn19:27.4"
+      ],
+      "summary": "Thầy vì thương đã làm điều lợi; có gốc cây/nhà trống, hãy thiền không buông lung/hối tiếc, lời chỉ dạy kết; các tỳ-kheo hoan hỷ."
+    },
+    {
+      "id": "colophon",
+      "title": "Dòng kết của ấn bản",
+      "segments": [
+        "mn19:27.5"
+      ],
+      "summary": "Kinh Song Tầm thứ chín trong phẩm, UID toàn bộ MN19; nhãn ấn bản không giáo lý riêng."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Chọn điều mình nuôi trong tâm",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Một câu hỏi trước khi đi theo ý nghĩ",
+          "paragraphs": [
+            "Có ý nghĩ khiến em muốn giành cho được một thứ. Có ý nghĩ khiến em muốn giúp ai đó. Mình có cần đi theo cả hai không? Kinh Song Tầm, bài 19 của Trung Bộ, mở ra cách nhìn kỹ những hướng khác nhau trong tâm.",
+            "Tại rừng Jeta, ở Sāvatthī, trong tu viện của ông Anāthapiṇḍika, Đức Phật kể với các tỳ-kheo — những vị nam đã xuất gia — về thời Ngài còn là Bồ-tát, chưa giác ngộ. Khi ấy, Ngài thường xuyên chia suy nghĩ thành hai nhóm. Một nhóm gồm nghĩ về dục — ham muốn những thú vui giác quan —, nghĩ sân hận và nghĩ gây hại. Nhóm kia gồm nghĩ rời sự ham mê ấy, không sân hận và không gây hại."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "two-kinds"
+          ]
+        },
+        {
+          "id": "paper-plane",
+          "kind": "example",
+          "heading": "Chiếc máy bay giấy bị làm hỏng",
+          "paragraphs": [
+            "Em vừa làm xong một chiếc máy bay giấy thì bạn vô ý giẫm lên. Em nghĩ: “Mình sẽ xé vở của bạn cho bõ tức.” Em có thể nhận ra ý nghĩ ấy mà chưa làm theo. Nếu xé vở, bạn bị hại; em cũng phải gánh chuyện mình làm, và hai bạn đều thêm buồn. Em chọn nói rõ điều vừa xảy ra, rồi cùng bạn tìm cách sửa.",
+            "Đây là tình huống do người biên soạn đặt ra. Nó giúp em tập nhìn hướng gây hại và chọn một việc khác, không có nghĩa chỉ làm vậy là đã đạt những thành tựu sâu được kể trong kinh."
+          ],
+          "meaningUnits": [
+            "unskillful-examination",
+            "skillful-habit"
+          ]
+        },
+        {
+          "id": "recognize-harm",
+          "kind": "teaching",
+          "heading": "Nhận ra để thôi nuôi điều gây hại",
+          "paragraphs": [
+            "Điều đáng chú ý là lúc Bồ-tát đang hết sức chuyên cần, một suy nghĩ bất thiện vẫn có thể xuất hiện. Bài không bảo rằng ý nghĩ vừa khởi đã quyết định em là người thế nào. Ngài nhận rõ nó, rồi xem nó sẽ dẫn đi đâu.",
+            "Ngài xét từng mặt: suy nghĩ về dục, sân hay hại ấy dẫn đến hại mình, hại người, hại cả hai. Nó còn cản trí tuệ, làm phiền não tăng và không đưa đến Niết-bàn, đích giải thoát của việc tu. Khi Ngài xem rõ những điều ấy, suy nghĩ lắng xuống. Mỗi khi nó lại khởi, Ngài từ bỏ, xua tan và chấm dứt nó. Nhận ra là khởi đầu cho lựa chọn tiếp theo, chứ không chỉ đứng nhìn rồi tiếp tục nuôi ý gây hại."
+          ],
+          "meaningUnits": [
+            "unskillful-examination"
+          ]
+        },
+        {
+          "id": "habit",
+          "kind": "teaching",
+          "heading": "Điều mình lặp lại sẽ thành một hướng quen",
+          "paragraphs": [
+            "Đức Phật dạy: tâm nghiêng theo điều ta thường nghĩ và nghiền ngẫm. Cứ nuôi ham mê mà bỏ hướng rời ham mê, tâm nghiêng về dục. Cứ nuôi sân mà bỏ không sân, hoặc nuôi gây hại mà bỏ không gây hại, tâm cũng đi theo hướng ấy.",
+            "Chiều tốt cũng có thể được tập. Khi bỏ suy nghĩ về dục để thường nghĩ về ly dục, bỏ sân để nuôi không sân, bỏ hại để nuôi không hại, tâm dần nghiêng về những hướng đó. Kinh nói đến điều được lặp đi lặp lại, không nói một ý nghĩ thoáng qua sẽ quyết định cả cuộc đời."
+          ],
+          "meaningUnits": [
+            "unskillful-habit",
+            "skillful-habit"
+          ]
+        },
+        {
+          "id": "guard-crops",
+          "kind": "teaching",
+          "heading": "Người chăn bò bên ruộng lúa",
+          "paragraphs": [
+            "Đức Phật ví việc canh giữ tâm với một người chăn bò. Cuối mùa mưa, vào mùa thu, lúa mọc ken dày. Người chăn dùng gậy gõ, thúc, chặn và ngăn bò khỏi ruộng. Trong phép ví, nếu để đàn bò phá ruộng, người ấy có thể bị giết, bắt giữ, phạt tiền hoặc trách mắng. Đây là hình ảnh nghiêm khắc trong câu chuyện, không phải lời bảo em đánh người hay động vật.",
+            "Ý chính là người chăn thấy nguy cơ nên canh giữ. Bồ-tát cũng thấy điều bất thiện có nguy hại, thấp kém và làm tâm ô nhiễm; còn điều thiện giúp rời ham mê và hướng về trong sạch."
+          ],
+          "meaningUnits": [
+            "cowherd-crops"
+          ]
+        },
+        {
+          "id": "good-thoughts",
+          "kind": "teaching",
+          "heading": "Điều thiện cần được nhận ra",
+          "paragraphs": [
+            "Khi suy nghĩ ly dục, không sân hoặc không hại xuất hiện, Ngài cũng nhận rõ. Những hướng ấy không dẫn đến hại mình, hại người hay hại cả hai. Chúng giúp trí tuệ lớn lên, hướng về không phiền não và đưa đến Niết-bàn.",
+            "Ngài nói rằng dù suy nghĩ những điều ấy suốt đêm, suốt ngày hay cả ngày đêm, Ngài không thấy loại nguy hại vừa kể. Nhưng suy nghĩ mãi vẫn có giới hạn: quá lâu thì thân mệt; thân mệt làm tâm xao động; tâm xao động thì xa định, tức sự an trú vững vàng của tâm. Vì thế, Ngài để tâm an trú bên trong, lắng lại, quy về một mối và định tĩnh. Điều thiện không trở thành xấu; chỉ là có lúc không cần tiếp tục nghiền ngẫm."
+          ],
+          "meaningUnits": [
+            "skillful-and-settling"
+          ]
+        },
+        {
+          "id": "harvest",
+          "kind": "teaching",
+          "heading": "Khi lúa đã thu về",
+          "paragraphs": [
+            "Phép ví thứ hai đổi hẳn cảnh. Vào tháng cuối mùa nóng, mùa màng đã thu về làng. Người chăn ở dưới gốc cây hoặc ngoài trời, chỉ cần nhớ biết đàn bò đang ở đó. Người ấy vẫn canh, nhưng không còn phải luôn chặn bò khỏi lúa.",
+            "Tương tự, lúc ấy Bồ-tát chỉ cần giữ niệm, nhớ biết rằng các pháp ấy đang có mặt. Sự nhẹ nhàng này đi cùng tinh tấn không chùng, niệm không mất, thân an tịnh không căng và tâm định, nhất tâm. Nó khác với bỏ mặc hoặc lơ đãng."
+          ],
+          "meaningUnits": [
+            "cowherd-harvest",
+            "meditative-foundation"
+          ]
+        },
+        {
+          "id": "first-two-jhanas",
+          "kind": "teaching",
+          "heading": "Tâm đi vào định sâu",
+          "paragraphs": [
+            "Bài kinh đi tiếp xa hơn việc chọn một ý nghĩ tốt. Đức Phật kể Ngài chứng bốn tầng thiền. Ở sơ thiền, Ngài rời dục và các điều bất thiện, có hỷ — niềm vui hân hoan — và lạc — sự dễ chịu — do viễn ly. Khi ấy vẫn còn tầm và tứ, những hoạt động hướng tâm và giữ tâm ở đề mục.",
+            "Đến nhị thiền, tầm và tứ lắng xuống. Nội tâm trong sáng, quy về một mối; hỷ và lạc lúc này sinh từ định. Đây là những mức tu tập sâu trong lời kinh, không chỉ là cảm giác thoải mái sau khi giải quyết xong một chuyện."
+          ],
+          "meaningUnits": [
+            "first-second-jhanas"
+          ]
+        },
+        {
+          "id": "last-two-jhanas",
+          "kind": "teaching",
+          "heading": "Từ hân hoan đến bình thản sáng rõ",
+          "paragraphs": [
+            "Ở tam thiền, hỷ phai đi nhưng vẫn còn lạc. Ngài có xả, nghĩa là sự quân bình, cùng niệm và tỉnh giác; tự thân cảm nhận an lạc. Kinh nhắc lời các bậc Thánh khen người sống xả, có niệm và an trú trong lạc.",
+            "Ở tứ thiền, lạc và khổ được bỏ, những vui buồn trước đó đã chấm dứt. Trạng thái ấy không khổ không lạc, với niệm trong sạch nhờ xả. “Yên” ở đây không phải ngủ quên; bài vẫn nói đến niệm thanh tịnh."
+          ],
+          "meaningUnits": [
+            "third-fourth-jhanas"
+          ]
+        },
+        {
+          "id": "first-two-knowledges",
+          "kind": "teaching",
+          "heading": "Hai điều biết sâu trong đêm giác ngộ",
+          "paragraphs": [
+            "Tâm dùng cho ba minh sau đó đã có định, thanh tịnh, sáng rõ, không uế nhiễm, hết cấu uế. Tâm ấy mềm dẻo, dùng được vào việc cần làm, vững chắc và không lay động. Bài nhắc nền tâm này trước mỗi minh.",
+            "Trong canh đầu của đêm, Ngài nhớ nhiều đời sống quá khứ, có đặc điểm và chi tiết. Trong canh giữa, bằng thiên nhãn thanh tịnh vượt mắt người, Ngài thấy chúng sinh chết và tái sinh: thấp kém hay cao quý, đẹp hay xấu, tới nơi tốt hay xấu, tùy theo nghiệp của họ. Đây là lời kể về nhiều đời sống, không chỉ chuyện nhớ tuổi thơ hay đoán người khác qua vẻ ngoài.",
+            "Mỗi lần ấy được gọi là một minh: vô minh bị xua tan, sự biết sáng rõ sinh lên, như bóng tối nhường chỗ cho ánh sáng, trong sự tu tập không buông lung, nhiệt tâm và kiên quyết."
+          ],
+          "meaningUnits": [
+            "first-knowledge",
+            "second-knowledge"
+          ]
+        },
+        {
+          "id": "third-knowledge",
+          "kind": "teaching",
+          "heading": "Biết con đường chấm dứt khổ",
+          "paragraphs": [
+            "Đến canh cuối, cũng với tâm định ấy, Ngài hướng đến việc đoạn tận lậu hoặc, những ô nhiễm sâu trong tâm. Ngài biết đúng như thật bốn mặt: khổ là gì, khổ từ đâu sinh, sự chấm dứt khổ và con đường đưa đến chấm dứt khổ. Với lậu hoặc cũng vậy: biết chúng, nguồn của chúng, sự chấm dứt và con đường chấm dứt chúng.",
+            "Khi biết và thấy như vậy, tâm Ngài thoát khỏi dục lậu, hữu lậu và vô minh lậu — sự ô nhiễm về ham mê dục, về hiện hữu và về không biết đúng. Ngài biết mình đã giải thoát: sinh đã tận, đời phạm hạnh hoàn thành, việc cần làm đã làm, không còn trở lại trạng thái hiện hữu này. Đó là minh thứ ba, khi vô minh và bóng tối bị xua tan. Đích của bài vì thế rộng và sâu hơn việc bớt giận trong một ngày."
+          ],
+          "meaningUnits": [
+            "third-knowledge"
+          ]
+        },
+        {
+          "id": "deer",
+          "kind": "teaching",
+          "heading": "Đàn nai và hai con đường",
+          "paragraphs": [
+            "Cuối bài, Đức Phật kể một phép ví nữa. Trong rừng có đầm lầy thấp rộng, đàn nai lớn sống nhờ đó. Một người muốn hại chúng đóng con đường an toàn dẫn đến hạnh phúc, mở đường sai và đặt một nai đực cùng một nai cái làm mồi nhử. Theo cách ấy, đàn nai sẽ gặp tai họa và suy vong.",
+            "Rồi một người muốn lợi ích và an toàn cho đàn nai đến. Người ấy mở đường tốt, đóng đường sai, loại bỏ mồi nhử đực và tiêu hủy mồi nhử cái. Đàn nai nhờ đó phát triển, lớn mạnh. Đó là phép ví nguyên bản; chúng ta cần nghe tiếp phần Đức Phật tự giải nghĩa để hiểu điều Ngài muốn chỉ."
+          ],
+          "meaningUnits": [
+            "deer-story"
+          ]
+        },
+        {
+          "id": "deer-explained",
+          "kind": "teaching",
+          "heading": "Phép ví đang nói về điều gì?",
+          "paragraphs": [
+            "Đầm lầy chỉ dục lạc; đàn nai chỉ các chúng sinh. Người gây hại chỉ Māra Ác ma. Nai đực làm mồi nhử chỉ sự thích thú và tham đắm; nai cái làm mồi nhử chỉ vô minh. Các đối ứng ấy nói về những gì trói buộc tâm, không gán tính xấu cho con trai hay con gái. Loại mồi trong phép ví là cách nói về dứt sự trói buộc, không bảo em làm hại con vật.",
+            "Người mở lối an toàn chỉ Như Lai, một danh xưng của Đức Phật. Ngài là bậc A-la-hán đã dứt lậu hoặc, bậc Chánh Đẳng Giác đã tự mình giác ngộ trọn vẹn. Đường sai gồm tám mặt sai lệch: tà kiến, tà tư duy, tà ngữ, tà nghiệp, tà mạng, tà tinh tấn, tà niệm, tà định. Đường an toàn gồm tám mặt đúng đắn: chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm, chánh định.",
+            "Em có thể bước đầu hiểu tám mặt ấy liên quan đến cách hiểu, hướng suy nghĩ, lời nói, hành động, cách kiếm sống, sự cố gắng, niệm và định. Đức Phật nói Ngài đã mở đường đúng, đóng đường sai và dứt các mồi nhử. Đường đúng được gọi là dẫn đến hạnh phúc: bài không bảo mọi niềm vui đều là bẫy."
+          ],
+          "meaningUnits": [
+            "deer-meaning",
+            "noble-path"
+          ]
+        },
+        {
+          "id": "invitation",
+          "kind": "teaching",
+          "heading": "Người thầy chỉ đường, người học bước đi",
+          "paragraphs": [
+            "Đức Phật nói vì thương và muốn lợi ích cho đệ tử, Ngài đã làm điều người thầy cần làm. Ngài chỉ những gốc cây, những căn nhà trống và mời các tỳ-kheo tu thiền, đừng buông lung để sau phải hối tiếc. Các vị hoan hỷ đón nhận lời dạy.",
+            "Bài khép lại bằng việc thực hành. Nhìn được hai hướng của suy nghĩ là một cửa vào; con đường còn có đào luyện tâm, trí tuệ và giải thoát."
+          ],
+          "meaningUnits": [
+            "instruction-ending"
+          ]
+        },
+        {
+          "id": "small-practice",
+          "kind": "practice",
+          "heading": "Một lần chọn hướng không gây hại",
+          "paragraphs": [
+            "Gợi ý hiện đại: khi nhận ra mình muốn nói một câu để làm bạn đau, em có thể dừng trước khi nói và hỏi câu ấy sẽ làm hại ai. Rồi chọn lời diễn đạt điều mình cần mà không cố trả đũa. Nếu chuyện khó hoặc em đang bị bắt nạt, em có thể nhờ một người lớn đáng tin giúp giải quyết.",
+            "Em đang tập một lựa chọn nhỏ. Không cần tự mắng mình vì ý nghĩ đã khởi, cũng không cần ngồi nghĩ mãi về lần mắc lỗi ấy."
+          ],
+          "meaningUnits": [
+            "unskillful-examination",
+            "skillful-habit"
+          ]
+        },
+        {
+          "id": "reading-notes",
+          "kind": "clarification",
+          "heading": "Một vài điều để đọc đúng",
+          "paragraphs": [
+            "Bản này là diễn giải hiện đại. Chuyện máy bay giấy và gợi ý thực hành do người biên soạn viết; hai cảnh người chăn bò và đàn nai là phép ví có sẵn trong kinh. Các chú thích dự án giúp đối chiếu cách đọc, không phải lời Đức Phật.",
+            "Lời giải ngắn về tầm, tứ và tám ngành chỉ giúp em bắt đầu hiểu; các thuật ngữ có phạm vi sâu hơn. Bản Pāli lược một phần về đời quá khứ và nghiệp; bản Việt Thích Minh Châu kể rộng hơn. Diễn giải giữ phần cốt lõi và không thêm chi tiết bị lược như thể từng chữ đều còn trong nguồn. Vế biết đã giải thoát được giữ theo Pāli, dù bản Anh rút mất vế này.",
+            "Dòng kết gọi đây là bài thứ chín trong một phẩm. Số toàn bộ của Kinh Song Tầm vẫn là MN19; đó là hai cách đánh số, không phải hai bài khác nhau."
+          ],
+          "meaningUnits": [
+            "identity",
+            "colophon",
+            "first-second-jhanas",
+            "first-knowledge",
+            "second-knowledge",
+            "third-knowledge",
+            "deer-meaning"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Tâm nghiêng theo điều ta thường nghĩ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Tâm đang quen đi về hướng nào?",
+          "paragraphs": [
+            "Một suy nghĩ vừa xuất hiện và một suy nghĩ được ta nuôi đi nuôi lại có sức nặng khác nhau. Kinh Song Tầm, MN19, giúp nhìn ra hướng đang được nuôi, rồi đặt việc ấy trong con đường đi tới định, trí tuệ và giải thoát.",
+            "Tại tu viện Anāthapiṇḍika, rừng Jeta ở Sāvatthī, Đức Phật kể với các tỳ-kheo thời Ngài còn là Bồ-tát chưa giác ngộ. Ngài quyết định thường xuyên phân suy nghĩ thành hai nhóm: dục, sân hận, gây hại; và ly dục, không sân, không gây hại. Ly dục ở đây là rời ham mê dục lạc; phân nhóm không chỉ dựa vào điều đang khiến mình dễ chịu hay khó chịu."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "two-kinds"
+          ]
+        },
+        {
+          "id": "meeting-example",
+          "kind": "example",
+          "heading": "Sau một cuộc họp căng thẳng",
+          "paragraphs": [
+            "Một đồng nghiệp bác ý kiến của bạn trước cả nhóm. Buổi tối, bạn soạn trong đầu nhiều cách khiến người ấy bẽ mặt ở cuộc họp sau. Bạn vẫn có thể cần làm rõ dữ kiện hoặc phản biện. Nhưng khi nhận ra mình đang tập trả đũa, bạn chọn viết lại vấn đề cần giải quyết và cách nói thẳng mà không nhằm gây tổn thương.",
+            "Tình huống này do người biên soạn đặt ra. Nó minh họa việc đổi hướng nuôi dưỡng của tâm, không đồng nhất giải quyết một bất đồng với thành tựu giải thoát trong bài."
+          ],
+          "meaningUnits": [
+            "unskillful-examination",
+            "skillful-habit"
+          ]
+        },
+        {
+          "id": "unskillful",
+          "kind": "teaching",
+          "heading": "Xét đủ sự tổn hại, rồi từ bỏ",
+          "paragraphs": [
+            "Trong lời kể, một tầm bất thiện có thể khởi ngay khi Bồ-tát đang không phóng dật, nhiệt tâm và kiên quyết. Trọng tâm của đoạn kể là việc Ngài nhận diện đúng loại tầm và xét hệ quả.",
+            "Tầm dục, sân và hại dẫn đến hại mình, hại người, hại cả hai; cản trở trí tuệ, nghiêng về phiền não, không dẫn đến Niết-bàn. Ngài xét từng hướng tổn hại và những trở ngại ấy; khi quán xét, tầm lắng xuống. Mỗi khi nó sinh, Ngài từ bỏ, xua tan, chấm dứt. Mạch bài gồm cả thấy rõ lẫn chủ động đoạn trừ, không chỉ quan sát mà tiếp tục nuôi điều gây hại."
+          ],
+          "meaningUnits": [
+            "unskillful-examination"
+          ]
+        },
+        {
+          "id": "habit",
+          "kind": "teaching",
+          "heading": "Sự lặp lại có cả hai chiều",
+          "paragraphs": [
+            "Tâm nghiêng theo điều thường được suy nghĩ và nghiền ngẫm. Kinh nói cụ thể cả phần bỏ và phần nuôi: bỏ tầm ly dục, nuôi tầm dục thì tâm nghiêng về dục; bỏ không sân để nuôi sân, bỏ không hại để nuôi hại cũng vậy.",
+            "Ở chiều ngược lại, bỏ dục và thường nuôi ly dục; bỏ sân và thường nuôi không sân; bỏ hại và thường nuôi không hại thì tâm nghiêng theo ba hướng thiện ấy. Đây là quan hệ giữa sự huân tập và khuynh hướng của tâm, không phải khẳng định một ý nghĩ bất chợt tạo ra số phận hay cứ nghĩ điều gì thì thế giới phải thành như vậy."
+          ],
+          "meaningUnits": [
+            "unskillful-habit",
+            "skillful-habit"
+          ]
+        },
+        {
+          "id": "crops",
+          "kind": "teaching",
+          "heading": "Có lúc phải canh giữ kỹ",
+          "paragraphs": [
+            "Ví dụ thứ nhất là người chăn bò vào tháng cuối mùa mưa, mùa thu, khi ruộng lúa ken dày. Người ấy dùng gậy gõ, thúc, chặn giữ đàn bò vì thấy hậu quả nếu bò vào phá ruộng: có thể bị giết, bắt giữ, phạt tiền hoặc trách mắng.",
+            "Hình ảnh nghiêm khắc ấy diễn tả sự canh giữ trước nguy cơ. Bồ-tát thấy bất thiện có nguy hại, thấp kém và ô nhiễm; nơi thiện có lợi ích của xuất ly và khuynh hướng thanh tịnh. Gậy và hình phạt thuộc phép ví, không trở thành phương pháp trừng phạt bản thân hay người khác vì những ý nghĩ vừa khởi."
+          ],
+          "meaningUnits": [
+            "cowherd-crops"
+          ]
+        },
+        {
+          "id": "skillful-and-rest",
+          "kind": "teaching",
+          "heading": "Thiện vẫn cần đi cùng sự lắng tâm",
+          "paragraphs": [
+            "Với tầm ly dục, không sân, không hại, Ngài thấy chiều đối ứng đầy đủ: không dẫn đến hại mình, hại người hay cả hai; tăng trưởng trí tuệ, hướng về không phiền não và đưa đến Niết-bàn. Dù suy tư suốt đêm, suốt ngày hoặc cả ngày đêm, Ngài không thấy từ nội dung ấy phát sinh loại nguy hại đã nói.",
+            "Tuy vậy, hoạt động suy tư kéo quá lâu có thể làm thân mệt; thân mệt khiến tâm xao động; tâm xao động thì xa định. Vì thế Ngài làm tâm an trú bên trong, lắng, nhất tâm và định tĩnh. Bài phân biệt tính chất thiện của một hướng nghĩ với mức hoạt động suy tư thích hợp. Nó không yêu cầu nghiền ngẫm điều tốt không ngừng, cũng không xếp điều thiện ngang với tầm gây hại."
+          ],
+          "meaningUnits": [
+            "skillful-and-settling"
+          ]
+        },
+        {
+          "id": "harvest",
+          "kind": "teaching",
+          "heading": "Có lúc chỉ cần biết rõ đang có gì",
+          "paragraphs": [
+            "Ví dụ thứ hai diễn ra vào tháng cuối mùa nóng, khi mùa màng đã thu về làng. Người chăn ở gốc cây hay ngoài trời chỉ cần giữ niệm rằng đàn bò đang ở đó. Điều kiện đã khác nên cách canh cũng nhẹ hơn.",
+            "Ngài nói lúc ấy chỉ cần niệm rằng các pháp ấy ở đó. Đây vẫn là biết rõ, không bỏ việc canh tâm. Ngay sau đó, kinh xác nhận tinh tấn được khơi dậy không chùng, niệm được thiết lập không mất, thân an tịnh không căng, tâm định và nhất tâm. Sự nhẹ nhàng có nền tảng này không phải phóng dật."
+          ],
+          "meaningUnits": [
+            "cowherd-harvest",
+            "meditative-foundation"
+          ]
+        },
+        {
+          "id": "jhanas",
+          "kind": "teaching",
+          "heading": "Bốn tầng thiền và những thay đổi cụ thể",
+          "paragraphs": [
+            "Từ nền ấy, Ngài chứng sơ thiền: ly dục, ly bất thiện, còn tầm và tứ, có hỷ lạc do viễn ly. Có thể bước đầu hiểu tầm, tứ là hướng tâm và giữ tâm ở đề mục; hỷ là niềm vui hân hoan, lạc là sự dễ chịu. Sang nhị thiền, tầm và tứ lắng xuống; nội tâm trong sáng, nhất tâm, hỷ lạc do định sinh, không còn tầm tứ.",
+            "Ở tam thiền, hỷ phai nhạt nhưng lạc còn được tự thân cảm nhận. Ngài sống xả, có niệm và tỉnh giác, đúng trạng thái các bậc Thánh gọi là sống xả, có niệm, an trú trong lạc. Sang tứ thiền, lạc và khổ được bỏ, vui buồn trước đó chấm dứt, không khổ không lạc, niệm thanh tịnh nhờ xả.",
+            "Cần giữ hỷ và lạc riêng để thấy sự chuyển này. Việc tầm tứ có mặt ở sơ thiền cũng cho thấy bài không bắt đầu bằng yêu cầu xóa mọi hoạt động tâm. Các tầng thiền ở đây là chứng đạt thiền định sâu, vượt mức thư giãn thông thường."
+          ],
+          "meaningUnits": [
+            "first-second-jhanas",
+            "third-fourth-jhanas"
+          ]
+        },
+        {
+          "id": "knowledges-one-two",
+          "kind": "teaching",
+          "heading": "Tâm định được hướng đến hai minh đầu",
+          "paragraphs": [
+            "Trước mỗi minh, kinh nhắc cùng một nền tâm: có định, thanh tịnh, trong sáng, không uế nhiễm, hết cấu uế, mềm dẻo, đắc dụng, vững chắc và bất động. Trên nền ấy, trong canh đầu Ngài hướng đến nhớ nhiều đời sống quá khứ với đặc điểm và chi tiết.",
+            "Trong canh giữa, Ngài hướng đến biết chúng sinh chết và tái sinh. Bằng thiên nhãn thanh tịnh vượt mắt người, Ngài thấy các khác biệt thấp kém/cao quý, đẹp/xấu, sinh nơi tốt/xấu, và biết chúng sinh đi theo nghiệp. Phần này nói về nghiệp và tái sinh, không thể đổi thành chỉ hiểu lịch sử cá nhân hoặc có năng lực đọc tâm lý người đối diện.",
+            "Mỗi minh được diễn tả là vô minh bị xua, minh sinh; bóng tối bị xua, ánh sáng sinh, trong đời sống không phóng dật, nhiệt tâm, kiên quyết. Lời kể ấy không trao cho người đọc căn cứ nhìn ngoại hình hay địa vị một cá nhân rồi phán nghiệp của họ."
+          ],
+          "meaningUnits": [
+            "first-knowledge",
+            "second-knowledge"
+          ]
+        },
+        {
+          "id": "knowledge-three",
+          "kind": "teaching",
+          "heading": "Minh thứ ba: khổ, lậu hoặc và giải thoát",
+          "paragraphs": [
+            "Trong canh cuối, cũng với tâm định đầy đủ những phẩm chất ấy, Ngài hướng đến trí đoạn tận lậu hoặc. Ngài biết như thật khổ, nguồn gốc khổ, sự diệt khổ và con đường diệt khổ. Đồng thời, Ngài biết như thật các lậu hoặc, nguồn gốc của chúng, sự diệt và con đường diệt chúng. Hai nhóm bốn mặt đều có trong lời kinh.",
+            "Khi biết và thấy như vậy, tâm được giải thoát khỏi dục lậu, hữu lậu, vô minh lậu: những ô nhiễm về dục, hiện hữu và vô minh. Ngài biết đã giải thoát, biết sinh đã tận, phạm hạnh hoàn thành, việc cần làm đã làm, không còn trở lại trạng thái hiện hữu này. Đây là minh thứ ba, cũng được diễn tả bằng sự tan đi của vô minh và bóng tối.",
+            "Nhờ phần này, ta thấy việc phân hai nhóm tầm phục vụ đích chấm dứt khổ và vòng tái sinh. Sự bình tĩnh hoặc một thói quen tốt là điều có ích, nhưng không tự chứng minh đã đạt đích đó."
+          ],
+          "meaningUnits": [
+            "third-knowledge"
+          ]
+        },
+        {
+          "id": "deer-story",
+          "kind": "teaching",
+          "heading": "Kẻ dựng bẫy và người mở lối",
+          "paragraphs": [
+            "Phép ví cuối kể một đàn nai sống nhờ vùng đầm lầy thấp rộng trong rừng. Kẻ muốn hại đàn nai đóng con đường an toàn, vững chắc, dẫn đến hạnh phúc, mở đường sai, đặt nai đực và nai cái làm mồi nhử. Về sau, đàn nai gặp tai họa và suy vong.",
+            "Một người muốn lợi ích và an toàn cho chúng làm điều ngược lại: mở đường an toàn, đóng đường sai, loại bỏ mồi nhử đực, tiêu hủy mồi nhử cái. Đàn nai nhờ đó tăng trưởng và lớn mạnh. Cả hướng hại lẫn hướng bảo hộ, cả lối đi lẫn mồi nhử đều cần được giữ để hiểu cấu trúc phép ví."
+          ],
+          "meaningUnits": [
+            "deer-story"
+          ]
+        },
+        {
+          "id": "deer-mapping",
+          "kind": "teaching",
+          "heading": "Đức Phật tự giải nghĩa phép ví",
+          "paragraphs": [
+            "Đầm lầy là dục lạc; đàn nai là các chúng sinh; người gây hại là Māra Ác ma. Mồi nhử đực chỉ thích thú và tham đắm; mồi nhử cái chỉ vô minh. Đây là các đối ứng của hình ảnh với sự trói buộc, không phải nhận định về phẩm chất của nam hay nữ. Những động từ loại bỏ, tiêu hủy trong câu chuyện phục vụ nghĩa đoạn trừ ấy, không phải lời chỉ dẫn làm hại động vật.",
+            "Đường sai có tám ngành: tà kiến, tà tư duy, tà ngữ, tà nghiệp, tà mạng, tà tinh tấn, tà niệm, tà định. Người muốn lợi ích chỉ Như Lai, bậc A-la-hán, Chánh Đẳng Giác. Đường an toàn là Thánh đạo tám ngành: chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm, chánh định.",
+            "Tám ngành chạm đến cách hiểu, hướng tâm, lời nói, hành động, sinh kế, nỗ lực, niệm và định; toàn con đường rộng hơn một kỹ thuật đổi suy nghĩ. Đức Phật nói Ngài đã mở lối an toàn, đóng đường sai, loại và diệt các mồi nhử. Lối an toàn dẫn đến hạnh phúc; vì vậy đừng đồng nhất mọi niềm vui với tham đắm."
+          ],
+          "meaningUnits": [
+            "deer-meaning",
+            "noble-path"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Điều người thầy làm vì thương",
+          "paragraphs": [
+            "Đức Phật nói Ngài đã làm điều một người thầy muốn lợi ích cho đệ tử cần làm, vì lòng thương. Ngài nhắc gốc cây và căn nhà trống, khuyên các tỳ-kheo tu thiền, không phóng dật để sau không hối tiếc. Các vị hoan hỷ tán đồng.",
+            "Lời kết nối lòng bi của người chỉ đường với phần thực hành của người học. Thấy tâm nghiêng theo điều thường nghĩ là điều để đem vào tu tập, không chỉ một nhận xét thú vị về tâm lý."
+          ],
+          "meaningUnits": [
+            "instruction-ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Nhận diện một vòng suy nghĩ đang được nuôi",
+          "paragraphs": [
+            "Gợi ý hiện đại: chọn một chuyện đang được nhắc lại nhiều lần trong đầu. Tự hỏi mình đang cần giải quyết điều gì, và hướng nghĩ hiện tại có nuôi ham mê, sân hay ý gây hại không. Xét sự tổn hại cho mình, người khác và cả hai, rồi chọn một hành động thích hợp theo hướng ly dục, không sân, không hại.",
+            "Khi việc cần làm đã rõ, có thể thôi tiếp tục dựng những cuộc đối thoại trả đũa trong đầu. Việc ngừng nghiền ngẫm không thay nghĩa vụ sửa sai, kiểm dữ kiện hoặc bảo vệ người đang bị hại. Đây là vận dụng giới hạn của người biên soạn, không một quy trình được kinh ấn định số phút hay hứa kết quả giải thoát."
+          ],
+          "meaningUnits": [
+            "unskillful-examination",
+            "skillful-and-settling",
+            "skillful-habit"
+          ]
+        },
+        {
+          "id": "notes",
+          "kind": "clarification",
+          "heading": "Phạm vi lời diễn giải và nguồn",
+          "paragraphs": [
+            "Các thuật ngữ thiền và tám ngành ở trên được giải ở mức nhập môn, không phải định nghĩa đầy đủ. Tầm trong phần phân loại suy nghĩ và tầm trong công thức sơ thiền có ngữ cảnh khác nhau; không lấy một nghĩa đơn giản để suy rằng kinh phủ nhận mọi tư duy.",
+            "Pāli là nền đối chiếu. Các đoạn lặp về sân/không sân và một phần công thức tiền kiếp/nghiệp được nguồn lược; bản Việt Thích Minh Châu có phần khai triển rộng hơn. Bản Anh cũng rút một số vế, trong đó có biết đã giải thoát; diễn giải giữ vế ấy theo Pāli. Hình ảnh mồi nhử không thêm chi tiết đã thuần hóa chỉ vì một bản tham khảo dùng từ ấy.",
+            "Chuyện cuộc họp và mục thực hành là biên tập hiện đại. Các chú thích dự án là nguồn đối chiếu hiện đại, không lời kinh. Dòng kết thứ chín là vị trí trong phẩm, còn MN19 là số trong toàn Trung Bộ; các nhãn này không bổ sung một lời dạy riêng."
+          ],
+          "meaningUnits": [
+            "identity",
+            "colophon",
+            "first-second-jhanas",
+            "first-knowledge",
+            "second-knowledge",
+            "third-knowledge",
+            "deer-meaning"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Nuôi dưỡng sự sáng và yên của tâm",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Điều ta thường trở lại trong tâm",
+          "paragraphs": [
+            "Có những chuyện đã qua nhưng tâm vẫn trở lại nhiều lần. Cũng có những điều lành càng nhớ càng muốn làm tiếp. Kinh Song Tầm, bài 19 của Trung Bộ, mời người đọc xem hướng nào đang được nuôi, rồi theo dõi con đường làm tâm sáng và yên sâu hơn.",
+            "Đức Phật dạy bài này cho các tỳ-kheo tại rừng Jeta, tu viện Anāthapiṇḍika ở Sāvatthī. Ngài kể thời còn là Bồ-tát chưa giác ngộ: Ngài thường chia suy nghĩ thành hai nhóm. Một bên là dục, sân hận, gây hại; bên kia là ly dục, không sân, không gây hại. Ly dục là rời ham mê dục lạc, không phải mất khả năng quan tâm cuộc sống."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "two-kinds"
+          ]
+        },
+        {
+          "id": "family-example",
+          "kind": "example",
+          "heading": "Khi ý kiến của mình chưa được lắng nghe",
+          "paragraphs": [
+            "Trong một việc gia đình, ý kiến của bác chưa được mọi người nghe hết. Sau đó, bác có thể cứ nghĩ đến những câu nói thật nặng để họ phải hối hận. Một hướng khác là nhận ra sự bực bội ấy, chọn lúc thích hợp nói rõ điều cần được bàn và yêu cầu mọi người lắng nghe, đồng thời không cố làm ai đau.",
+            "Đây là ví dụ hiện đại do người biên soạn đặt ra. Không nuôi sân hại vẫn đi cùng quyền góp ý và tham gia quyết định; ví dụ không khuyên bác im lặng chịu mọi việc."
+          ],
+          "meaningUnits": [
+            "unskillful-examination",
+            "skillful-habit"
+          ]
+        },
+        {
+          "id": "seeing-harm",
+          "kind": "teaching",
+          "heading": "Biết điều đã khởi, xét điều nó dẫn tới",
+          "paragraphs": [
+            "Bồ-tát đang sống chuyên cần, nhiệt tâm và kiên quyết mà tầm bất thiện vẫn có lúc sinh. Ngài nhận ra điều ấy, rồi xét rõ. Kinh chú trọng cách tiếp tục với suy nghĩ, không kết tội toàn bộ con người chỉ vì một ý vừa hiện.",
+            "Tầm dục, sân hay hại dẫn đến hại mình, hại người, hại cả hai. Chúng cản trở trí tuệ, nghiêng về phiền não và không dẫn đến Niết-bàn. Khi Ngài xét từng hướng tổn hại cùng những trở ngại ấy, tầm lắng xuống. Mỗi lần chúng khởi, Ngài từ bỏ, xua tan và chấm dứt. Đây là sự nhận biết có hướng đi, không phải cố quên rằng chúng đã từng có mặt."
+          ],
+          "meaningUnits": [
+            "unskillful-examination"
+          ]
+        },
+        {
+          "id": "habits",
+          "kind": "teaching",
+          "heading": "Một hướng quen cũng có thể được đổi",
+          "paragraphs": [
+            "Điều thường được nghĩ và nghiền ngẫm làm tâm nghiêng về nó. Bỏ ly dục để nuôi dục thì tâm nghiêng về dục. Bỏ không sân để nuôi sân, bỏ không hại để nuôi hại, kết quả cũng theo hướng ấy.",
+            "Kinh nêu chiều ngược lại đầy đủ: bỏ tầm dục, thường nuôi ly dục; bỏ sân, thường nuôi không sân; bỏ hại, thường nuôi không hại. Tâm có thể nghiêng về điều thiện nhờ việc ấy. Nguyên tắc này nói đến sự thường xuyên nuôi dưỡng, không biến một thoáng bực mình thành bản án cho cả đời người."
+          ],
+          "meaningUnits": [
+            "unskillful-habit",
+            "skillful-habit"
+          ]
+        },
+        {
+          "id": "cowherd-one",
+          "kind": "teaching",
+          "heading": "Người chăn khi đồng lúa còn đầy",
+          "paragraphs": [
+            "Bài dùng cảnh người chăn bò vào cuối mùa mưa, mùa thu, giữa ruộng lúa mọc ken dày. Người ấy phải dùng gậy gõ, thúc, chặn và ngăn đàn bò. Trong phép ví, để bò vào ruộng có thể đưa tới hậu quả rất nặng: bị giết, bắt giữ, phạt tiền hay trách mắng.",
+            "Cảnh ấy làm rõ việc canh giữ vì đã thấy nguy cơ. Bồ-tát thấy bất thiện nguy hại, thấp kém, ô nhiễm; thấy thiện có lợi ích xuất ly và hướng thanh tịnh. Hình ảnh dùng gậy không thành cách đối xử với mình, con cháu hoặc con vật khi có điều không vừa ý."
+          ],
+          "meaningUnits": [
+            "cowherd-crops"
+          ]
+        },
+        {
+          "id": "wholesome",
+          "kind": "teaching",
+          "heading": "Những suy nghĩ đưa tâm về phía lành",
+          "paragraphs": [
+            "Khi tầm ly dục, không sân, không hại xuất hiện, Ngài thấy chúng không dẫn đến hại mình, hại người hay cả hai. Chúng làm trí tuệ tăng trưởng, hướng về không phiền não và đưa tới Niết-bàn. Ngài không thấy loại nguy hại nói trên dù suy tư về chúng suốt đêm, suốt ngày hay cả ngày đêm.",
+            "Nhưng kinh cũng nhận rõ giới hạn của việc nghĩ mãi: suy tư quá lâu khiến thân mệt; thân mệt làm tâm xao; tâm xao thì xa định. Vì vậy Ngài để tâm an trú bên trong, lắng xuống, nhất tâm và định tĩnh. Có thể giữ hướng thiện mà không phải tiếp tục mọi vòng suy nghĩ. Đây không phải lời bảo người đọc ngừng học hỏi hay thôi nhớ cuộc đời mình."
+          ],
+          "meaningUnits": [
+            "skillful-and-settling"
+          ]
+        },
+        {
+          "id": "cowherd-two",
+          "kind": "teaching",
+          "heading": "Khi mùa màng đã thu về làng",
+          "paragraphs": [
+            "Ở phép ví sau, tháng cuối mùa nóng đã tới, mùa màng đã thu về làng. Người chăn ở gốc cây hay ngoài trời chỉ cần niệm rằng đàn bò đang ở đó. Vẫn có sự trông nom, nhưng không cần ngăn giữ như khi lúa còn ngoài ruộng.",
+            "Ngài ví trạng thái ấy với giữ niệm rằng các pháp ấy đang có mặt. Ngay sau đó là tinh tấn không chùng, niệm không mất, thân an tịnh không căng, tâm định và nhất tâm. Sự biết rõ này không đồng nghĩa lơ đãng hoặc suy giảm trí nhớ. Nó cho thấy canh giữ và lắng yên cần phù hợp với điều kiện của tâm."
+          ],
+          "meaningUnits": [
+            "cowherd-harvest",
+            "meditative-foundation"
+          ]
+        },
+        {
+          "id": "jhanas-first",
+          "kind": "teaching",
+          "heading": "Hai tầng thiền đầu",
+          "paragraphs": [
+            "Đức Phật kể Ngài chứng sơ thiền khi đã ly dục và các pháp bất thiện. Sơ thiền có hỷ và lạc do viễn ly sinh, vẫn còn tầm và tứ. Có thể bước đầu hiểu hỷ là sự hân hoan, lạc là sự dễ chịu; tầm và tứ liên quan đến hướng tâm và giữ tâm nơi đề mục.",
+            "Sang nhị thiền, tầm và tứ lắng xuống. Nội tâm trong sáng, quy về một mối; hỷ và lạc do định sinh, không còn tầm và tứ. Bài đang kể những chứng đạt định sâu; một buổi ngồi thư thái chưa đủ để tự gọi là tầng thiền này."
+          ],
+          "meaningUnits": [
+            "first-second-jhanas"
+          ]
+        },
+        {
+          "id": "jhanas-later",
+          "kind": "teaching",
+          "heading": "Xả, niệm và sự an lạc sâu hơn",
+          "paragraphs": [
+            "Ở tam thiền, hỷ phai đi, nhưng lạc vẫn còn. Ngài sống xả, có niệm và tỉnh giác, tự thân cảm nhận lạc. Kinh dẫn cách các bậc Thánh nói về trạng thái này: sống xả, có niệm và an trú trong lạc.",
+            "Ở tứ thiền, lạc và khổ đều được bỏ, những vui buồn trước đó chấm dứt. Không khổ không lạc, niệm thanh tịnh nhờ xả. Xả ở đây là sự quân bình cùng niệm sáng, không phải lạnh nhạt với người khác."
+          ],
+          "meaningUnits": [
+            "third-fourth-jhanas"
+          ]
+        },
+        {
+          "id": "knowledge-foundation",
+          "kind": "teaching",
+          "heading": "Tâm sáng, mềm và vững",
+          "paragraphs": [
+            "Trước mỗi minh, bài nhắc tâm đã có định, thanh tịnh, trong sáng, không uế nhiễm, hết cấu uế. Tâm ấy mềm dẻo, đắc dụng, vững chắc và không lay động. Những phẩm chất này đi cùng nhau, không chỉ riêng sự tập trung.",
+            "Trong canh đầu của đêm, Ngài hướng tâm nhớ nhiều đời sống quá khứ với đặc điểm và chi tiết. Trong canh giữa, Ngài hướng đến trí thấy chúng sinh chết và tái sinh. Bằng thiên nhãn thanh tịnh vượt mắt người, Ngài thấy các khác biệt thấp kém/cao quý, đẹp/xấu, tới nơi tốt/xấu, và biết chúng sinh theo nghiệp.",
+            "Mỗi minh được kể là vô minh tan và minh sinh, bóng tối tan và ánh sáng sinh, trong sự tu tập không phóng dật, nhiệt tâm, kiên quyết. Lời kể nói về nhiều đời sống và nghiệp, không chỉ hồi tưởng kỷ niệm. Nó cũng không phải căn cứ để người đọc phán xét nghiệp của ai từ sức khỏe, vẻ ngoài hoặc hoàn cảnh của họ."
+          ],
+          "meaningUnits": [
+            "first-knowledge",
+            "second-knowledge"
+          ]
+        },
+        {
+          "id": "third-knowledge",
+          "kind": "teaching",
+          "heading": "Đích đến là giải thoát khỏi các lậu hoặc",
+          "paragraphs": [
+            "Đến canh cuối, cũng trên nền tâm định ấy, Ngài hướng đến trí đoạn tận lậu hoặc. Ngài biết như thật khổ, nguồn gốc khổ, sự chấm dứt và con đường chấm dứt khổ. Ngài cũng biết như thật các lậu hoặc, nguồn gốc của chúng, sự chấm dứt và con đường chấm dứt chúng.",
+            "Khi biết và thấy như vậy, tâm Ngài thoát dục lậu, hữu lậu, vô minh lậu — những ô nhiễm gắn với dục, hiện hữu và vô minh. Ngài biết đã giải thoát, biết sinh đã tận, phạm hạnh hoàn thành, việc cần làm đã làm, không còn trở lại trạng thái hiện hữu này. Minh thứ ba cũng được diễn tả bằng sự tan đi của vô minh và bóng tối.",
+            "Phần ấy giữ nguyên chiều sâu của bài: đào luyện suy nghĩ đi đến định và trí tuệ, hướng tới chấm dứt khổ cùng tái sinh. Sự nhẹ lòng trong sinh hoạt có giá trị, nhưng không được gọi thay cho giải thoát rốt ráo."
+          ],
+          "meaningUnits": [
+            "third-knowledge"
+          ]
+        },
+        {
+          "id": "deer-story",
+          "kind": "teaching",
+          "heading": "Mở lối cho đàn nai",
+          "paragraphs": [
+            "Trong phép ví cuối, một đàn nai lớn sống dựa vào vùng đầm lầy thấp rộng giữa rừng. Người muốn hại chúng đóng đường an toàn, vững chắc, dẫn đến hạnh phúc; mở đường sai và đặt nai đực, nai cái làm mồi nhử. Đàn nai rồi gặp tai họa và suy vong.",
+            "Một người muốn điều tốt và an toàn cho chúng xuất hiện. Người ấy mở đường an toàn, đóng đường sai, loại bỏ mồi đực và tiêu hủy mồi cái. Nhờ vậy đàn nai tăng trưởng, phát triển. Đức Phật nói rõ Ngài đưa ra phép ví để làm sáng nghĩa, rồi tự giải từng đối ứng."
+          ],
+          "meaningUnits": [
+            "deer-story"
+          ]
+        },
+        {
+          "id": "deer-meaning",
+          "kind": "teaching",
+          "heading": "Nhìn rõ mồi nhử và con đường",
+          "paragraphs": [
+            "Đầm lầy chỉ dục lạc, đàn nai chỉ các chúng sinh, người muốn hại chỉ Māra Ác ma. Mồi nhử đực chỉ thích thú và tham đắm; mồi nhử cái chỉ vô minh. Nam/nữ trong hình ảnh không phải lời đánh giá nam giới hoặc phụ nữ. Ý đoạn trừ nằm ở tham đắm và vô minh, không phải làm hại con vật.",
+            "Người muốn bảo hộ là Như Lai, bậc A-la-hán, Chánh Đẳng Giác. Đường sai gồm tà kiến, tà tư duy, tà ngữ, tà nghiệp, tà mạng, tà tinh tấn, tà niệm, tà định. Đường an toàn là Thánh đạo tám ngành: chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm, chánh định.",
+            "Đó là tám phương diện của cách hiểu, hướng nghĩ, lời nói, hành động, sinh kế, nỗ lực, niệm và định. Ngài nói đã mở lối đúng, đóng lối sai và dứt các mồi nhử. Lối đúng dẫn đến hạnh phúc; ngay các tầng thiền cũng có hỷ và lạc. Vì thế, bài không phủ nhận mọi niềm vui, mà chỉ rõ sự tham đắm trói buộc."
+          ],
+          "meaningUnits": [
+            "deer-meaning",
+            "noble-path"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Lời nhắc của người thầy có lòng thương",
+          "paragraphs": [
+            "Đức Phật nói vì thương và muốn lợi ích cho đệ tử, Ngài đã làm điều người thầy cần làm. Ngài chỉ gốc cây, căn nhà trống, khuyên các tỳ-kheo tu thiền, đừng phóng dật để về sau hối tiếc. Các vị vui và tán đồng lời dạy.",
+            "Lời kết không buộc người học dằn vặt về thời gian đã qua. Nó hướng sự chú ý về việc tu tập từ đây, với con đường đã được chỉ rõ."
+          ],
+          "meaningUnits": [
+            "instruction-ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Nhận một ý nghĩ, chọn một việc lành",
+          "paragraphs": [
+            "Gợi ý hiện đại: khi một chuyện cũ khiến bác muốn nói lời làm người khác đau, hãy nhận rõ ý muốn ấy và xét hậu quả cho mình, người kia, cả hai. Có thể chọn nói điều cần thiết bằng giọng rõ ràng, không trả đũa, hoặc hẹn một lúc thích hợp để cùng bàn.",
+            "Sau khi đã biết việc cần làm, bác có thể để tâm nghỉ khỏi việc nhắc đi nhắc lại cuộc cãi vã. Điều này không bắt bác bỏ kinh nghiệm, quyền nêu ý kiến hay trách nhiệm gia đình. Đây là gợi ý của người biên soạn, không lời hứa chỉ một lần thực hành sẽ đạt định hay ba minh."
+          ],
+          "meaningUnits": [
+            "unskillful-examination",
+            "skillful-habit",
+            "skillful-and-settling"
+          ]
+        },
+        {
+          "id": "notes",
+          "kind": "clarification",
+          "heading": "Ghi chú ngắn về cách đọc",
+          "paragraphs": [
+            "Bản diễn giải dùng Pāli làm nền, đối chiếu Việt dự án, Anh Sujato và toàn văn Việt Thích Minh Châu. Các giải ngắn về thuật ngữ giúp đọc bước đầu, không thay toàn bộ nghĩa chuyên môn. Chú thích dự án là văn biên tập hiện đại; những ví dụ gia đình và gợi ý thực hành ở trên cũng là phần do người biên soạn viết.",
+            "Nguồn Pāli có chỗ lược các câu đã lặp và một phần công thức đời trước/nghiệp. Bản Việt tham khảo khai triển rộng hơn; bản Anh có chỗ rút bớt, kể cả vế biết đã giải thoát. Diễn giải giữ vế ấy theo Pāli, đồng thời không nhập mọi chi tiết khai triển thành chữ gốc. Hai người chăn bò và đàn nai thuộc chính bài kinh; mồi nhử không thêm đặc tính đã thuần hóa.",
+            "Dòng kết gọi Kinh Song Tầm là bài thứ chín trong phẩm, còn số toàn bộ là MN19. Đây là nhãn ấn bản, không phải một lời dạy khác."
+          ],
+          "meaningUnits": [
+            "identity",
+            "colophon",
+            "first-second-jhanas",
+            "first-knowledge",
+            "second-knowledge",
+            "third-knowledge",
+            "deer-meaning"
+          ]
+        }
+      ]
+    }
+  }
+}

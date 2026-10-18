@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn18",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "d7d5ce05-61b9-4db5-bf02-760f88129c80"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "43fbe8e3-b31b-4b81-8f91-6a0f5d4b0743"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "c5f01f3f-9842-44f9-883a-32d10d7529d8"
+    }
+  },
+  "reviews": [
+    {
+      "id": "d7d5ce05-61b9-4db5-bf02-760f88129c80",
+      "audience": "children",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.6,
+        "logic_context": 9.5,
+        "terminology": 9,
+        "audience_fit": 9.1,
+        "clarity": 9,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu đủ 150 khóa Pāli, Việt dự án, English Sujato, toàn HTML Thích Minh Châu và 6 chú thích. Bản giữ cuộc gặp Daṇḍapāṇi, lời Phật thuật lại, phần Mahākaccāna giải, Đức Phật xác nhận và ví dụ của Ānanda; không đoán động cơ từ cử chỉ hay kể thêm chứng quả.",
+        "semantic_fidelity": "Giữ chấm dứt hoàn toàn bảy tùy miên và tám loại hành vi, không hạ mục tiêu thành nói nhỏ hoặc bớt căng thẳng. Chuỗi xúc–thọ–tưởng–suy nghĩ–phóng diễn được phân biệt; ghi chú không quy mọi suy nghĩ thành bất thiện. Các cụm khó vẫn theo lựa chọn nguồn dự án có nêu giới hạn.",
+        "core_coverage": "23 đơn vị bao trọn 150 khóa, có đủ sáu cửa với đối tượng/thức tương ứng, quá khứ–tương lai–hiện tại, hai chiều hiện diện/vắng mặt và mọi bước tìm người giải/xác nhận. Bảy khuynh hướng và tám hành vi được nêu bằng văn, không chỉ gắn mã.",
+        "logic_context": "Giữ nguồn ấy nối hai câu mn18:8.1–2; sự chấm dứt gắn điều kiện chứ không là mẹo tự nhủ. Lời Mahākaccāna ban đầu là cách hiểu rồi được Đức Phật xác nhận ở 21; ví dụ mật hoàn gắn người học có năng lực dùng trí tuệ, không hứa ai đọc cũng chứng đạt.",
+        "terminology": "Đã thêm giải khất thực, tỳ-kheo và Như Lai; tưởng, thức, xúc, thọ, các pháp và phóng diễn có lời giải tại chỗ. Bhavābhava, danh xưng Phạm thiên hiện thân và các thuật ngữ giải thoát vẫn trừu tượng với trẻ mới đọc, nhưng bản nêu rõ lựa chọn và giới hạn thay vì ép vào nghĩa quá hẹp.",
+        "audience_fit": "Tình huống bạn không vẫy tay giúp trẻ nhận ra suy đoán, lời thực tập cho phép hỏi và tìm trợ giúp chứ không bắt phục tùng. Các câu phần sáu cửa vẫn cần đọc từng mục hoặc đọc cùng người lớn; chưa có thử với trẻ thật để chứng minh mức phù hợp.",
+        "clarity": "Đầu bài giữ câu chuyện, phần sau đi từ mắt sang các cửa và hai chiều điều kiện, rồi trở về tên kinh; ví dụ bạn bè rõ. Độ dày tên riêng và chuỗi thuật ngữ là hạn chế còn lại, đặc biệt trước ví dụ cuối; không thấy chỗ tối nghĩa làm sai luận điểm chính.",
+        "editorial_separation": "friend-example và practice mang kind riêng, nhận là nội dung hiện đại và chỉ soi một phần. Ví dụ lõi cây thuộc Mahākaccāna, bánh mật thuộc Ānanda được phân vai rõ. Ghi chú các cách đọc khó đứng riêng cuối bài.",
+        "practical_integrity": "Gợi ý phân biệt điều đã thấy với điều suy đoán không phủ nhận cảm xúc hoặc đoán thiện ý thay cho bạn. Không khuyên hủy giác quan, xóa mọi tư duy, cũng không hứa dừng một lần sẽ chấm dứt bảy tùy miên.",
+        "technical_integrity": "auditExplanations(mn,mn18) không có lỗi cấu trúc hay hash nguồn; NFC đúng, 13 section bản trẻ dùng mã thật và authors hợp lệ. Hash chốt sau ba chỗ giải từ; source dependencies thực có và Pāli/EN khớp blob manifest. Kiểm này không phải build/UI."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập đủ 150 khóa Pāli + Việt dự án + English Sujato, toàn HTML Thích Minh Châu (166 dòng trích, 14.172 ký tự), toàn bộ 6 chú thích; đọc 23 đơn vị bản đồ và toàn văn ba bản. Người kiểm là tác tử khác tác giả, cùng công cụ GPT-6 Astra Pro; không phải xác nhận của chuyên gia Pāli hoặc hội đồng độc giả độc lập.\nHash nội dung đã đọc: 81b6405a3943fbdddda7fb068b0575ba441ec4ca2a73ba14126cfdb2fb2e803c\nĐã đọc lại ba lời giải từ ở bản trẻ và câu trình tự khất thực ở bản lớn tuổi; không còn lỗi chặn trong phạm vi trên.\nGiới hạn: chưa thử độc giả thật, chưa tính build/UI; các lựa chọn thuật ngữ nguồn khó được giữ cùng giới hạn của chúng trong bản diễn giải.\nThời điểm lượt đọc độc lập trong đề xuất: 2026-10-18T16:08:34.583Z",
+      "contentHash": "81b6405a3943fbdddda7fb068b0575ba441ec4ca2a73ba14126cfdb2fb2e803c",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn18.html",
+          "sha256": "0b4155aea726c81ab2d5e7f2adb56439585c8b7402ba9d37ed0b12b87b72f75c"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn18_root-pli-ms.json",
+          "sha256": "806a6568e224402315386499416e8f4ee854b18578d6195a7d753ff061004491"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn18_translation-en-sujato.json",
+          "sha256": "5c5baabd52c138fa11d512b869069a14cf01a9205f8eb992309bfa20112c920e"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn18_comment-vi-project.json",
+          "sha256": "87604c90d7b79a7d10c3fb99839bb47d4720a6a3b37e965d06c9d9fb5b779fd6"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn18_translation-vi-project.json",
+          "sha256": "79e4716a6668c3a8f6b6a809f57013e19c02b453d77ea8b6b37801c92a0090b0"
+        }
+      ]
+    },
+    {
+      "id": "43fbe8e3-b31b-4b81-8f91-6a0f5d4b0743",
+      "audience": "adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.6,
+        "logic_context": 9.5,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.2,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đầy đủ năm lớp nguồn, kể cả các đoạn thuật lại Pāli mà Sujato để trống hoặc lược. source-note phân biệt bhavābhava theo Việt/Thích Minh Châu với cách đọc của Sujato và giữ papañcasaññāsaṅkhā theo nguồn dự án; không giả nhận các bản đều dịch giống nhau.",
+        "semantic_fidelity": "Mục tiêu là tận gốc bảy khuynh hướng, không bị thu thành kỹ thuật giao tiếp. Phân biệt nhận biết, xúc, cảm thọ, tưởng, suy nghĩ, phóng diễn; các pháp của ý rộng hơn giáo lý hoặc ý nghĩ sai. Các lời tôn xưng bất tử/brahma được giới hạn để không biến thành thân xác bất tử hay đấng sáng tạo.",
+        "core_coverage": "14 section bao đủ 23 đơn vị/150 khóa: khung truyện, lời tóm tắt, bảy tùy miên/tám hành vi, lõi cây, sáu chuỗi ở ba thời, hai chiều có/không, khuyên hỏi Phật, xác nhận và ví dụ mật hoàn. Các lần dẫn lại được gộp nhưng không mất chủ thể hoặc bước lập luận.",
+        "logic_context": "positive-conditions giữ khả năng nhận ra/chỉ ra các khâu, không biến mọi nhận biết thành tất yếu tranh chấp; negative-conditions giữ phủ định tương ứng. Phần xác nhận không làm mất việc Mahākaccāna là người trực tiếp giải. Điều kiện nguồn ấy vẫn đi trước hệ quả đoạn tận.",
+        "terminology": "Thọ là sắc thái vui/khổ/trung tính; xúc và đối tượng xúc chạm được phân biệt, saṅkhā khác saṅkhāra được nêu ở cuối. Chọn nghĩa cho bhavābhava, papañca và danh xưng brahma còn phạm vi diễn giải đáng bàn, đã trình bày minh bạch chứ không tuyên bố chốt mọi khả năng.",
+        "audience_fit": "Ví dụ tin nhắn sửa tài liệu và dự đoán địa vị phù hợp trách nhiệm, quan hệ công việc của người trưởng thành; lời giải vẫn hướng tuệ và đoạn trừ, không biến thành mẹo thăng tiến. Đây là phán đoán biên tập, không có dữ liệu thử người đọc.",
+        "clarity": "Tách hai chiều điều kiện thành hai mục làm lập luận dễ kiểm, lời giảng theo dòng từ ngoại cảnh đến ý rồi trở lại xác nhận. Công thức sáu cửa khá lặp và chuỗi thuật ngữ cần đọc chậm; ví dụ cuối giúp áp vào tình huống cụ thể mà không thay lời nguồn.",
+        "editorial_separation": "Tình huống đồng nghiệp và phần thực tập được ghi rõ là biên soạn hiện đại, không xuất hiện như lời Phật. Nhãn source-note tách lựa chọn diễn đạt khỏi tiến trình sự kiện; không có trích dẫn hoặc lời nhân vật hiện đại bị gán cho kinh.",
+        "practical_integrity": "Ví dụ không kết luận đồng nghiệp thiện hay ác, khuyến khích kiểm dữ kiện trước phản ứng. Bản phủ định việc hủy giác quan/đè nén cảm giác và không hứa kỹ thuật giao tiếp đoạn tận các tùy miên. Giữ ranh giới giữa gợi ý quan sát với thành tựu giải thoát.",
+        "technical_integrity": "14 section dẫn các ID hiện hữu và bao đủ bản đồ. Cấu trúc, nguồn SHA-256, NFC và git blob Pāli/EN được kiểm; hash người trưởng thành không đổi trong lượt sửa bản trẻ/lớn tuổi. Không tính kết quả audit thành kết quả build hoặc thử độc giả."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập đủ 150 khóa Pāli + Việt dự án + English Sujato, toàn HTML Thích Minh Châu (166 dòng trích, 14.172 ký tự), toàn bộ 6 chú thích; đọc 23 đơn vị bản đồ và toàn văn ba bản. Người kiểm là tác tử khác tác giả, cùng công cụ GPT-6 Astra Pro; không phải xác nhận của chuyên gia Pāli hoặc hội đồng độc giả độc lập.\nHash nội dung đã đọc: 991c9599c210160d9e0d4f7613260fc9751c9b11a914b6cde22520126d37d3de\nĐã đọc lại ba lời giải từ ở bản trẻ và câu trình tự khất thực ở bản lớn tuổi; không còn lỗi chặn trong phạm vi trên.\nGiới hạn: chưa thử độc giả thật, chưa tính build/UI; các lựa chọn thuật ngữ nguồn khó được giữ cùng giới hạn của chúng trong bản diễn giải.\nThời điểm lượt đọc độc lập trong đề xuất: 2026-10-18T16:08:34.583Z",
+      "contentHash": "991c9599c210160d9e0d4f7613260fc9751c9b11a914b6cde22520126d37d3de",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn18.html",
+          "sha256": "0b4155aea726c81ab2d5e7f2adb56439585c8b7402ba9d37ed0b12b87b72f75c"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn18_root-pli-ms.json",
+          "sha256": "806a6568e224402315386499416e8f4ee854b18578d6195a7d753ff061004491"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn18_translation-en-sujato.json",
+          "sha256": "5c5baabd52c138fa11d512b869069a14cf01a9205f8eb992309bfa20112c920e"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn18_comment-vi-project.json",
+          "sha256": "87604c90d7b79a7d10c3fb99839bb47d4720a6a3b37e965d06c9d9fb5b779fd6"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn18_translation-vi-project.json",
+          "sha256": "79e4716a6668c3a8f6b6a809f57013e19c02b453d77ea8b6b37801c92a0090b0"
+        }
+      ]
+    },
+    {
+      "id": "c5f01f3f-9842-44f9-883a-32d10d7529d8",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.6,
+        "logic_context": 9.5,
+        "terminology": 9.2,
+        "audience_fit": 9.4,
+        "clarity": 9.2,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đủ năm nguồn và đối chiếu toàn lời ba bản. Đã làm rõ meeting: vào Đại Lâm khi trở về từ khất thực, không gợi thêm chặng về tu viện. Giữ Daṇḍapāṇi chỉ có cử chỉ được kể, Mahākaccāna giải rộng và Đức Phật xác nhận; đoạn kết chỉ Ānanda hoan hỷ.",
+        "semantic_fidelity": "Bản giữ đủ mục tiêu đoạn tận bất thiện và bảy khuynh hướng, không chỉ một cuộc nói chuyện êm hơn. Có phân biệt thọ, tưởng, suy nghĩ và phóng diễn; ghi chú nhận biết/tư duy không tự là bất thiện. Không phủ nhận kinh nghiệm đã qua khi phân biệt ký ức với điều đang diễn ra.",
+        "core_coverage": "13 section bao đủ 23 đơn vị và 150 khóa, cả sáu giác quan, ba thời, các chiều điều kiện, lời tán thán Đức Phật, ví dụ lõi cây và mật hoàn. Tất cả danh mục có ý nghĩa được giữ trong prose, không chỉ có liên kết cấu trúc.",
+        "logic_context": "Hai chiều hiện diện/vắng mặt đặt đúng điều kiện tương ứng; không đổi thành chỉ thị xóa cảm giác. Phần xác nhận giữ lời khuyên nếu muốn hãy hỏi Phật và lời Ngài xác nhận cách giải. Câu vị ngọt gắn người có năng lực dùng trí tuệ, không thành hứa đọc lướt cũng an lạc.",
+        "terminology": "Tưởng, thức, thọ và xúc được giải; các pháp ở cửa ý không bị giới hạn vào lời tôn giáo. Các thuật ngữ như bhavābhava và danh xưng Phạm thiên hiện thân giữ chú thích giới hạn; vẫn có mức trừu tượng cần người đọc mới tiếp cận từng phần.",
+        "audience_fit": "Ví dụ sinh hoạt nhiếp ảnh cho người lớn tuổi vai trò chủ động học, sáng tạo và giao tiếp; không mặc định bệnh yếu, cô đơn hay lệ thuộc. Lời quan sát nhẹ nhàng, không trách có cảm xúc. Chưa thử đọc thực tế với người lớn tuổi.",
+        "clarity": "Mạch từ câu hỏi tới gốc ràng buộc, sáu cửa, hai chiều rồi xác nhận nối liền; các đoạn vừa phải. Các chuỗi điều kiện dài còn cần đọc chậm, và câu giải thuật ngữ có hơi hướng bài học, nhưng ví dụ nhiếp ảnh làm rõ điều tâm nối thêm.",
+        "editorial_separation": "photo-example và practice được ghi là minh họa/gợi ý hiện đại; không đặt cảnh nhiếp ảnh vào kinh. Những câu minh họa khái niệm ngắn trong eye rõ là lời giải của người biên soạn trong dòng giải thích, còn khác biệt bản dịch đặt ở source-note. Không thấy lời kinh giả tạo.",
+        "practical_integrity": "Không dùng quan sát tâm để phủ nhận kinh nghiệm cũ, tự trách cảm xúc hoặc khẳng định người góp ý luôn đúng. Thực tập hỏi dữ kiện và phân biệt ký ức/dự đoán vừa sức, không hứa hết tùy miên; câu điều kiện không biến thành khuyên làm mất giác quan.",
+        "technical_integrity": "Cấu trúc 13 section, mã ý, tác giả và mọi phụ thuộc đều hợp lệ; audit/sourceErrors rỗng, NFC đúng. Fingerprint đã chốt sau sửa câu trình tự khất thực. Kết quả này giới hạn ở nội dung/cấu trúc local, không thay build/UI của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập đủ 150 khóa Pāli + Việt dự án + English Sujato, toàn HTML Thích Minh Châu (166 dòng trích, 14.172 ký tự), toàn bộ 6 chú thích; đọc 23 đơn vị bản đồ và toàn văn ba bản. Người kiểm là tác tử khác tác giả, cùng công cụ GPT-6 Astra Pro; không phải xác nhận của chuyên gia Pāli hoặc hội đồng độc giả độc lập.\nHash nội dung đã đọc: de33b0731e4eec1f0745f2b2083453811128f312e15ceac61da9e8ff7bf9c157\nĐã đọc lại ba lời giải từ ở bản trẻ và câu trình tự khất thực ở bản lớn tuổi; không còn lỗi chặn trong phạm vi trên.\nGiới hạn: chưa thử độc giả thật, chưa tính build/UI; các lựa chọn thuật ngữ nguồn khó được giữ cùng giới hạn của chúng trong bản diễn giải.\nThời điểm lượt đọc độc lập trong đề xuất: 2026-10-18T16:08:34.583Z",
+      "contentHash": "de33b0731e4eec1f0745f2b2083453811128f312e15ceac61da9e8ff7bf9c157",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn18.html",
+          "sha256": "0b4155aea726c81ab2d5e7f2adb56439585c8b7402ba9d37ed0b12b87b72f75c"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn18_root-pli-ms.json",
+          "sha256": "806a6568e224402315386499416e8f4ee854b18578d6195a7d753ff061004491"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn18_translation-en-sujato.json",
+          "sha256": "5c5baabd52c138fa11d512b869069a14cf01a9205f8eb992309bfa20112c920e"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn18_comment-vi-project.json",
+          "sha256": "87604c90d7b79a7d10c3fb99839bb47d4720a6a3b37e965d06c9d9fb5b779fd6"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn18_translation-vi-project.json",
+          "sha256": "79e4716a6668c3a8f6b6a809f57013e19c02b453d77ea8b6b37801c92a0090b0"
+        }
+      ]
+    }
+  ]
+}

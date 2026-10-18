@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn17",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "dd6152a0-5f6b-4256-a5bc-a9089a144d40"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "9d0e199a-1793-4d91-b3fe-b91fd9205507"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "13b5d63c-9d43-48f0-b02d-6c21a59902c5"
+    }
+  },
+  "reviews": [
+    {
+      "id": "dd6152a0-5f6b-4256-a5bc-a9089a144d40",
+      "audience": "children",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.1,
+        "audience_fit": 9.2,
+        "clarity": 9.1,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu đủ 83 khóa Pāli, Việt dự án, Sujato, toàn HTML Thích Minh Châu và 3 chú thích. Bản trẻ giữ đúng Đức Phật giảng cho tỳ-kheo, sáu phạm vi nương tựa và phân biệt từ biệt ở mn17:23.7/24.9; Pāli thắng chỗ HTML có cách nói khác.",
+        "semantic_fidelity": "four-changes và forest-cases giữ đủ niệm, định, đoạn tận lậu hoặc và an ổn tối thượng; không thay giải thoát bằng học tốt. Các trường hợp giữ thành tựu thực sự, mục đích xuất gia và bốn vật dụng, không tán dương thiếu thốn tự thân.",
+        "core_coverage": "17 đơn vị bao trọn 83 khóa, cả bốn nhánh ở rừng và ở người, bốn địa bàn bị lược, phần kết và nhãn thứ bảy. Mỗi nhánh quan trọng đều được nói bằng văn trong teaching; ví dụ đọc sách không được dùng thay nội dung kinh.",
+        "logic_context": "Giữ rời ngay dù đêm/ngày, cân nhắc rồi rời hoặc ở, suốt đời; phân biệt không cần từ biệt với từ biệt trước. Câu bị xua đuổi đi kèm toàn bộ điều kiện thành tựu, không bịa động cơ thử thách hoặc thành mệnh lệnh cho trẻ.",
+        "terminology": "Giải tỳ-kheo, niệm, định, lậu hoặc và an ổn tối thượng; đã sửa giải khất thực từ vòng tròn sang việc nhận thức ăn tự nguyện cúng. Các thuật ngữ giải thoát vẫn khó với trẻ mới học nhưng được đặt trong đoạn riêng, không bó hẹp thành điểm số hoặc niềm vui ngắn.",
+        "audience_fit": "Ví dụ góc đọc sách và việc trao đổi với người lớn tạo điểm tựa cụ thể, không dọa nạt hay mặc định trẻ phải phục tùng. Bốn nhánh dài cần trẻ đọc từng phần hoặc có người cùng đọc; đây là đánh giá biên tập, chưa thử với nhóm trẻ thực tế.",
+        "clarity": "Tiến trình bốn tiêu chí → bốn nhánh → địa bàn → người nương tựa theo được; phần sau nhắc rõ các từ viết gọn. Lặp đủ các tiêu chí bảo vệ nghĩa nhưng nhịp văn vẫn hơi dày ở forest-cases, là hạn chế nhỏ chứ không thiếu một ý chính.",
+        "editorial_separation": "Ví dụ đọc sách và gợi ý thực tập có kind riêng, tự nhận là ví dụ hiện đại; câu giới hạn không đồng nhất đọc xong sách với đoạn tận lậu hoặc. Ghi chú colophon được tách khỏi lời Đức Phật.",
+        "practical_integrity": "Không biến lời rời ngay thành cho trẻ tự bỏ nhà; không dùng câu theo suốt đời để đòi chịu bị làm hại. Thực tập chỉ hỏi mục đích và điều kiện quan sát được, không hứa thành tựu tâm linh hoặc đặt thời hạn.",
+        "technical_integrity": "auditExplanations(mn,mn17) không có lỗi cấu trúc hoặc hash nguồn; NFC đúng, 9 section bản trẻ dẫn mã thật và authors hợp lệ. Hash được chốt sau sửa khất thực; kiểm này không phải kiểm build hoặc thử giao diện của PR."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập đủ 83 khóa Pāli + Việt dự án + English Sujato, toàn HTML Thích Minh Châu (44 dòng trích, 8.828 ký tự), toàn bộ 3 chú thích; đọc 17 đơn vị bản đồ và toàn văn ba bản. Người kiểm là tác tử khác với tác giả, cùng công cụ GPT-6 Astra Pro; không phải chuyên gia Pāli hoặc hội đồng độc giả độc lập.\nHash nội dung đã đọc: aa1a14e7f6fced4ad37457f13728824e610af6febf834bd925b3372737412384\nĐã đọc lại sửa giải khất thực ở bản trẻ; không còn lỗi chặn trong phạm vi trên.\nGiới hạn: chưa thử độc giả thật hoặc build/UI; nguồn phụ có dấu lược đã đối chiếu Pāli, không tự bịa nội dung thiếu.\nThời điểm lượt đọc độc lập trong đề xuất: 2026-10-18T16:06:27.131Z",
+      "contentHash": "aa1a14e7f6fced4ad37457f13728824e610af6febf834bd925b3372737412384",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn17.html",
+          "sha256": "a2cb976625c3434ee1d2c4c964dfd1add23d90f916ae9f07de711d9601a2c5ea"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn17_root-pli-ms.json",
+          "sha256": "252a32a004ccd0de15df25a5c0af022be7fbc37ce530c99bbcb529307e6f52bb"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn17_translation-en-sujato.json",
+          "sha256": "72df4795fe8ec6e2d888f66f45d134edc5a893de0c1c302881cdbfaf392b58e5"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn17_comment-vi-project.json",
+          "sha256": "9d788dab53da8f6a6c96cceb39a1e8def964d23106c5e01a9d1f895409e0555f"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn17_translation-vi-project.json",
+          "sha256": "45c6995a1742b624020e9767f89fe6ccd046f35cd805f12206f3ccafc95870e7"
+        }
+      ]
+    },
+    {
+      "id": "9d0e199a-1793-4d91-b3fe-b91fd9205507",
+      "audience": "adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.4,
+        "audience_fit": 9.3,
+        "clarity": 9.3,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đọc toàn bộ năm lớp nguồn. source-note nhận đúng chỗ mn17:24.9 có āpucchā, trong khi HTML Thích Minh Châu đang đọc vẫn nói không xin phép; các dấu lược địa bàn không được biến thành segment tự tạo. Pāli và Sujato khớp git blob trong manifest đã khóa.",
+        "semantic_fidelity": "Các trường hợp diễn rõ kết quả chứng đạt và việc tìm vật dụng khó/dễ; criteria phân biệt nhu yếu phẩm với xa hoa hoặc hoàn toàn không có. Bản giữ mục tiêu giải thoát và không biến khó khăn tự nó thành lý do ở lại.",
+        "core_coverage": "Cả 17 đơn vị và 83 khóa có teaching/clarification thật; 12 section bảo toàn hai lần tự nhìn lại ở các nhánh cân nhắc, đủ bốn nơi cư trú mở rộng, bốn loại quan hệ nương tựa, kết và nhãn ấn bản. Không thấy thiếu phần chính.",
+        "logic_context": "Tách rời ngay/cân nhắc/suốt đời, giữ āpucchā khác anāpucchā, và cụm dù bị xua đuổi sau đủ bốn thành tựu cùng điều kiện vật chất. Không bịa lý do xua đuổi. Việc áp bốn nhánh cho các đoạn …pe… đúng khuôn được nguồn chỉ ra.",
+        "terminology": "Giải lậu hoặc và an ổn tối thượng, niệm/định dùng nhất quán với mục tiêu tu học; Pāli ở ghi chú giúp kiểm nét nghĩa từ biệt. Thuật ngữ niệm còn ngắn cho độc giả hoàn toàn mới, nhưng không dẫn đến đổi nghĩa trong lập luận.",
+        "audience_fit": "Ví dụ lựa chọn nơi tu học xét tiện nghi, công phu và hướng dẫn phù hợp trách nhiệm của người trưởng thành. Không biến thành mẹo năng suất hay khuyên đổi nhóm chỉ vì khó chịu. Chưa có thử đọc với người trưởng thành ngoài tác tử.",
+        "clarity": "Mỗi nhánh rừng có mục riêng, giúp theo hai biến số mà không lẫn kết luận. Các lần lặp phục vụ quyết định; vẫn có vài cụm như bốn chiều tu học hơi trừu tượng, nhưng phần criteria làm rõ trước khi viết gọn.",
+        "editorial_separation": "retreat-example và practice có nhãn cấu trúc riêng, nêu rõ không tự xác nhận niệm/định/lậu hoặc tận; source-note phân biệt khác biệt dịch thuật và giới hạn suy diễn. Không gán cảnh hiện đại thành sự kiện trong kinh.",
+        "practical_integrity": "Gợi ý quan sát công phu không đặt hạn chót chứng ngộ, không bỏ nhu cầu chăm sóc thân. Ghi chú ngăn lạm dụng câu bị xua đuổi vào bạo hành hoặc bám theo người không muốn tiếp xúc; đây là giới hạn áp dụng, không xóa câu nguồn.",
+        "technical_integrity": "Đối chiếu 12 section với bản đồ, toàn bộ mã hợp lệ và bao phủ đủ. audit hiện không lỗi, năm nguồn đúng SHA-256, nội dung NFC; fingerprint riêng bản người trưởng thành giữ nguyên qua sửa bản trẻ. Không thay cho cổng build của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập đủ 83 khóa Pāli + Việt dự án + English Sujato, toàn HTML Thích Minh Châu (44 dòng trích, 8.828 ký tự), toàn bộ 3 chú thích; đọc 17 đơn vị bản đồ và toàn văn ba bản. Người kiểm là tác tử khác với tác giả, cùng công cụ GPT-6 Astra Pro; không phải chuyên gia Pāli hoặc hội đồng độc giả độc lập.\nHash nội dung đã đọc: 67ca1851e8b331f21e4d6ce5b21959d6f2c9679a439b009794156897764ea99c\nĐã đọc lại sửa giải khất thực ở bản trẻ; không còn lỗi chặn trong phạm vi trên.\nGiới hạn: chưa thử độc giả thật hoặc build/UI; nguồn phụ có dấu lược đã đối chiếu Pāli, không tự bịa nội dung thiếu.\nThời điểm lượt đọc độc lập trong đề xuất: 2026-10-18T16:06:27.131Z",
+      "contentHash": "67ca1851e8b331f21e4d6ce5b21959d6f2c9679a439b009794156897764ea99c",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn17.html",
+          "sha256": "a2cb976625c3434ee1d2c4c964dfd1add23d90f916ae9f07de711d9601a2c5ea"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn17_root-pli-ms.json",
+          "sha256": "252a32a004ccd0de15df25a5c0af022be7fbc37ce530c99bbcb529307e6f52bb"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn17_translation-en-sujato.json",
+          "sha256": "72df4795fe8ec6e2d888f66f45d134edc5a893de0c1c302881cdbfaf392b58e5"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn17_comment-vi-project.json",
+          "sha256": "9d788dab53da8f6a6c96cceb39a1e8def964d23106c5e01a9d1f895409e0555f"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn17_translation-vi-project.json",
+          "sha256": "45c6995a1742b624020e9767f89fe6ccd046f35cd805f12206f3ccafc95870e7"
+        }
+      ]
+    },
+    {
+      "id": "13b5d63c-9d43-48f0-b02d-6c21a59902c5",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.3,
+        "audience_fit": 9.4,
+        "clarity": 9.3,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu năm nguồn đầy đủ, giữ khung Đức Phật dạy người xuất gia ở Sāvatthī, các chỗ rút gọn và kết thúc đúng. source-note thừa nhận bản Thích Minh Châu có cách nói khác ở nhánh từ biệt; không tuyên bố đồng thuận nguồn khi không có.",
+        "semantic_fidelity": "criteria hướng rõ đến giải thoát sâu hơn một lúc lòng lắng; các nhánh không giảm đoạn tận lậu hoặc thành bớt khó chịu. Bản ghi nhận vật dụng cần thiết, không yêu cầu coi thường việc chăm sóc thân hoặc cho rằng chịu khó tự làm tu tốt.",
+        "core_coverage": "Đủ 17 đơn vị/83 khóa qua 10 section; đủ cả bốn thành tựu, bốn nhóm vật dụng, bốn nhánh rừng/người, bốn phạm vi làng-thị trấn-thành phố-xứ sở, kết và nhãn thứ bảy. Gộp hai nhánh một mục vẫn nêu từng quyết định riêng.",
+        "logic_context": "forest-first-two/last-two bảo toàn rời ngay, cân nhắc rồi ở/rời và suốt đời; persons-leaving làm rõ khác biệt từ biệt. Câu bị xua đuổi được giữ có điều kiện, không dựng chuyện thử học trò hoặc giả định người nương tựa là người thân.",
+        "terminology": "Niệm, định, lậu hoặc, an ổn tối thượng đều được giải ngay trong criteria; từ viết gọn thành tựu tu học được nhắc lại đầy đủ ở places. Khất thực chưa có lời giải riêng như bản trẻ, nhưng nằm trong bốn nhu yếu xuất gia; hạn chế nhỏ về khả năng đọc lần đầu.",
+        "audience_fit": "Nhịp thong thả, ví dụ chọn nhóm tu học và lòng biết ơn đi cùng suy xét tôn trọng quyền chủ động của người lớn tuổi. Có xét đi lại/chăm sóc thân mà không mặc định mọi độc giả yếu bệnh. Chưa thử với người đọc thật.",
+        "clarity": "Mỗi cặp trường hợp có đối chiếu rõ, đoạn mở nối nơi quen với mục đích tu. Bản khá lặp để bảo vệ các điều kiện nhưng không lạc mạch; phần ứng dụng và ghi chú được đưa cuối nên dòng giảng chính liền.",
+        "editorial_separation": "Ví dụ hai nhóm tu học và gợi ý biết ơn mang nhãn riêng, không kể nhóm nào đã đưa đến giải thoát. Ghi chú ranh giới từ biệt và colophon không lẫn với lời giảng; không có trích dẫn giả.",
+        "practical_integrity": "Gợi ý xem việc cụ thể, trao đổi và tính nhu cầu đi lại/thân thể vừa sức. Câu suốt đời không thành nghĩa vụ chịu hại hoặc tiếp tục bám theo người từ chối. Bản không hứa rằng đổi nhóm sẽ đạt các thành tựu trong kinh.",
+        "technical_integrity": "10 section có cấu trúc hợp lệ, mã ý đủ và nguồn thật. Kiểm audit/source hashes không lỗi, NFC đúng; fingerprint chốt cùng bản đồ và năm nguồn. Không tự nhận đã kiểm màn hình, độc giả hay production build."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập đủ 83 khóa Pāli + Việt dự án + English Sujato, toàn HTML Thích Minh Châu (44 dòng trích, 8.828 ký tự), toàn bộ 3 chú thích; đọc 17 đơn vị bản đồ và toàn văn ba bản. Người kiểm là tác tử khác với tác giả, cùng công cụ GPT-6 Astra Pro; không phải chuyên gia Pāli hoặc hội đồng độc giả độc lập.\nHash nội dung đã đọc: c9f57e46a03953d665be58116ab14feed29c20f7d6ce6eeb5fd8b1d587376d6b\nĐã đọc lại sửa giải khất thực ở bản trẻ; không còn lỗi chặn trong phạm vi trên.\nGiới hạn: chưa thử độc giả thật hoặc build/UI; nguồn phụ có dấu lược đã đối chiếu Pāli, không tự bịa nội dung thiếu.\nThời điểm lượt đọc độc lập trong đề xuất: 2026-10-18T16:06:27.131Z",
+      "contentHash": "c9f57e46a03953d665be58116ab14feed29c20f7d6ce6eeb5fd8b1d587376d6b",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn17.html",
+          "sha256": "a2cb976625c3434ee1d2c4c964dfd1add23d90f916ae9f07de711d9601a2c5ea"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn17_root-pli-ms.json",
+          "sha256": "252a32a004ccd0de15df25a5c0af022be7fbc37ce530c99bbcb529307e6f52bb"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn17_translation-en-sujato.json",
+          "sha256": "72df4795fe8ec6e2d888f66f45d134edc5a893de0c1c302881cdbfaf392b58e5"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn17_comment-vi-project.json",
+          "sha256": "9d788dab53da8f6a6c96cceb39a1e8def964d23106c5e01a9d1f895409e0555f"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn17_translation-vi-project.json",
+          "sha256": "45c6995a1742b624020e9767f89fe6ccd046f35cd805f12206f3ccafc95870e7"
+        }
+      ]
+    }
+  ]
+}

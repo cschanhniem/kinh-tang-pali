@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn11",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "676bcae2-0f50-4852-ba90-578fa4384d96"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "1a094b4a-fb52-439e-9f9b-12ea3d2a584e"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "559bf4b4-ed70-43ed-824d-0facda46389b"
+    }
+  },
+  "reviews": [
+    {
+      "id": "676bcae2-0f50-4852-ba90-578fa4384d96",
+      "audience": "children",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.3,
+        "core_coverage": 9.5,
+        "logic_context": 9.4,
+        "terminology": 9.1,
+        "audience_fit": 9,
+        "clarity": 9.1,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu toàn bộ 132 khóa Pāli, Việt dự án, Anh Sujato, toàn văn Việt Thích Minh Châu và chú thích dự án. opening/questions giữ đúng nơi giảng và cuộc hỏi đáp giả định; reading phân biệt số trong phẩm với UID. Không dựa vào nguồn ngoài năm dependency đã đọc.",
+        "semantic_fidelity": "destination/look-carefully giữ cả vui thích không phóng diễn và hai chiều hiểu/chưa hiểu; trust không đổi lòng tin đặt sai chỗ thành chỉ chưa đủ mạnh. four-holds đã làm rõ giữ giới đầy đủ vẫn được kinh coi trọng. Lời giải danh-sắc và hành ở causes là mức nhập môn, chưa trình bày mọi chi tiết học thuật.",
+        "core_coverage": "17 đơn vị ý phủ 132 khóa và được trình bày bằng teaching/clarification: bốn căn cứ, một cứu cánh với tám đặc tính, hai kiến với năm mặt, thiếu ba/hai/một thủ, chuỗi tám quan hệ và kết giải thoát. Các lời lặp gộp có nêu rõ phần thay đổi; không dùng ví dụ teams thay cho kinh.",
+        "logic_context": "questions và reading giữ điều kiện nếu người khác hỏi/đáp đúng; not-yet-all giữ lý do chưa hiểu nên chưa giảng đủ; causes lần ngược đúng từ thủ đến vô minh. free giữ vô minh đoạn/minh sinh, không chấp thủ, không dao động rồi tự chứng Niết-bàn; không suy từ biết tên năm mặt sang giải thoát.",
+        "terminology": "Đã giải Sa-môn, ái, thủ, bốn thủ và các từ trong chuỗi nguồn gốc; trust bổ sung nghĩa A-la-hán, Chánh Đẳng Giác, Pháp-Luật. Khái niệm hữu kiến/phi hữu kiến và phóng diễn vẫn khó với trẻ nhỏ nên bản mời đọc chậm cùng người lớn, không coi các lời giải ngắn là định nghĩa toàn diện. Đã đọc lại sửa định nghĩa thọ trung tính thành không dễ chịu cũng không khó chịu, không phải chưa nhận rõ mình vui hay khổ.",
+        "audience_fit": "teams dùng tranh lượt chơi, try dùng lắng nghe khi bất đồng; câu và đoạn tương đối ngắn, không dọa hoặc buộc trẻ phục tùng. causes vẫn có nhiều từ trừu tượng nối tiếp và phần cứu cánh sâu; mức phù hợp là đánh giá biên tập, chưa thử với trẻ thuộc các độ tuổi cụ thể.",
+        "clarity": "13 mục đi từ tuyên bố đến căn cứ, chấp thủ, nguồn gốc và buông chấp; đoạn nối giúp theo câu hỏi vì sao. Danh mục bốn thủ và chuỗi duyên khởi còn đòi hỏi đọc chậm; chưa có dữ liệu đo khả năng nhớ/hiểu của độc giả.",
+        "editorial_separation": "teams ghi rõ ví dụ người biên soạn, try tự nhận gợi ý biên tập; reading tách tình huống giả định, nhãn ấn bản và lời dạy. Hình ảnh sư tử thuộc kinh được giải như hình ảnh, không bịa một cuộc tranh luận đã diễn ra.",
+        "practical_integrity": "try chỉ đề nghị nhận ra muốn thắng và nghe bạn nói; nhắc rõ một lần bình tĩnh chưa phải giải thoát. four-holds không khuyên bỏ giới; destination/reading không biến không phóng diễn thành cấm hỏi. Liên hệ giới hạn ở bước quan sát đời thường.",
+        "technical_integrity": "auditExplanations của byte đã đọc không có lỗi cấu trúc hoặc lỗi nguồn; 17 mã ý, 132 segment và năm SHA-256 hợp lệ, tác giả có trong registry. Fingerprint nội dung được lưu riêng để CLI từ chối nếu bản đổi trước khi ghi nhận; kiểm này không tự chứng minh nghĩa đúng hoặc thay kết quả build của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Lượt kiểm độc lập với tác tử soạn, cùng công cụ gpt-6-astra-pro; không phải phê chuẩn của chuyên gia Pāli hay thử đọc với người thật. Người kiểm đã đọc toàn bộ năm nguồn và cả ba bản. Đã yêu cầu sửa và kiểm lại sự phân biệt giới cấm thủ/giữ giới, thuật ngữ bản trẻ em và cách nói bênh-chống ở bản trẻ em. Lời giải thuật ngữ là nhập môn, có giới hạn đã ghi theo từng tiêu chí. Kiểm tra cấu trúc/hash hoàn tất; kết quả bản dựng của lô được ghi riêng trước khi merge. Theo chỉ dẫn người dùng, không kiểm tra hoặc chờ GitHub Actions. Sau lượt rà soát MN14, đã tìm cùng cách diễn đạt thọ trung tính trong MN1–MN20, sửa riêng children/causes của MN11 và kiểm lại đúng đoạn thay đổi; bản đồ, nguồn và hai bản còn lại không đổi.",
+      "contentHash": "4ce6659dad276cf4223af6e0d70203cecf22cf19163e69ec0e80767863cea63e",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn11.html",
+          "sha256": "72f3c45aa90fae13b4b3d1afc160a1d94f12140fa6dadb11ee37a3824d55ae30"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn11_root-pli-ms.json",
+          "sha256": "3c551b396f317c013f233ba11eb5c9493f3e36160603aca6ee20e926a443b718"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn11_translation-en-sujato.json",
+          "sha256": "be2476008c1cc357cf3b374fd49c9871f48ac963c0da8bb4fde5dcc2b90ed684"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn11_comment-vi-project.json",
+          "sha256": "f32a6d5204b2d0f602421be227bfc422362bb421239f105532a2703050b9c500"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn11_translation-vi-project.json",
+          "sha256": "57f16c00d1ddd90d43c7c397354e060169e40461ef49bebb75d98116d800818d"
+        }
+      ]
+    },
+    {
+      "id": "1a094b4a-fb52-439e-9f9b-12ea3d2a584e",
+      "audience": "adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.2,
+        "audience_fit": 9.2,
+        "clarity": 9.2,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đọc và đối chiếu đủ năm dependency với 132 khóa Pāli. source-note giữ phần bị Anh lược và nghĩa tích cực không phóng diễn theo Pāli; bối cảnh Jetavana/Sāvatthī, diễn giả và nhãn cuối đúng. Không tuyên bố đã dùng nguồn ngoài hồ sơ.",
+        "semantic_fidelity": "confidence giữ đầy đủ hai Pháp-Luật đối lập và cả bốn điều tin cậy đặt đúng/sai chỗ; release giữ minh, bốn thủ và giải thoát sinh tử. four phân biệt chấp giới lệ với giữ giới; lời giải ngã luận thủ không thu nhỏ thành tự tin hoặc lòng tự trọng.",
+        "core_coverage": "goal giữ một cứu cánh và tám phương diện; five-faces giữ cả hai kiến và hai kết quả; partial nêu đủ ba trường hợp thiếu, chain đủ tám quan hệ. Toàn bộ 17 đơn vị/132 khóa có nội dung giải nghĩa riêng, kể cả công thức giải thoát và nhãn bài thứ nhất.",
+        "logic_context": "grounds nêu phản biện giả định dẫn tới cứu cánh; partial không biến biết ba thủ thành biết đủ; confidence nối sự hiểu trọn với khả năng đưa đến an tịnh. chain đi đúng chiều lần nguồn và release không bỏ điều kiện vô minh đoạn. Phần mở gợi tự tin có căn cứ, không đổi thành bài quảng bá nhóm.",
+        "terminology": "four và chain giải dục/kiến/giới/ngã luận thủ cùng thọ/xúc/sáu xứ/danh-sắc/thức/hành/vô minh. Vị ngọt và các thuật ngữ Sa-môn, Chánh Đẳng Giác chưa được khai triển nhiều; phần giải ở mức đọc nhập môn, không giải quyết mọi cách đọc hữu kiến/phi hữu kiến.",
+        "audience_fit": "course liên hệ đánh giá một khóa học, reflection xét điều sợ mất khi nhận sai, phù hợp người có trách nhiệm tự lựa chọn. Mạch lập luận đủ cho người mới nhưng vẫn cần đọc chậm phần kỹ thuật; chưa thử với độc giả trưởng thành thực tế.",
+        "clarity": "13 phần có trật tự và nối rõ từ bốn lời tự nhận tới kiểm cứu cánh, phân loại thủ và truy nguyên. Số lượng danh mục được báo trước nên dễ theo; một vài cụm thuận-chống và chuỗi tên Pāli-Việt có thể tiếp tục trau chuốt nhịp đọc.",
+        "editorial_separation": "course giới hạn chính xác điều ví dụ minh họa; reflection được ghi gợi ý biên tập; source-note tách cách chọn nghĩa và nhãn ấn bản. Không đặt câu hiện đại vào miệng Phật hoặc kể du sĩ đã thua cuộc.",
+        "practical_integrity": "reflection mời phân biệt điều muốn hiểu với hình ảnh mình giữ, không hứa đoạn vô minh bằng một bài ghi chép. Cứu cánh vẫn gồm chấm dứt tái sinh; không rút thành hiệu quả học tập, chiến thắng tranh luận hay sự tự tin.",
+        "technical_integrity": "Audit thực tế xác nhận năm nguồn đúng hash, 17 mã ý phủ đủ 132 khóa và bản người trưởng thành đầy đủ cấu trúc. Hash riêng của bản được cố định sau lượt sửa, cho phép phát hiện thay đổi; chưa dùng phép kiểm cấu trúc như thay thế kết quả kiểm bản dựng."
+      },
+      "blockingErrors": [],
+      "notes": "Lượt kiểm độc lập với tác tử soạn, cùng công cụ gpt-6-astra-pro; không phải phê chuẩn của chuyên gia Pāli hay thử đọc với người thật. Người kiểm đã đọc toàn bộ năm nguồn và cả ba bản. Đã yêu cầu sửa và kiểm lại sự phân biệt giới cấm thủ/giữ giới, thuật ngữ bản trẻ em và cách nói bênh-chống ở bản trẻ em. Lời giải thuật ngữ là nhập môn, có giới hạn đã ghi theo từng tiêu chí. Kiểm tra cấu trúc/hash hoàn tất; kết quả bản dựng của lô được ghi riêng trước khi merge. Theo chỉ dẫn người dùng, không kiểm tra hoặc chờ GitHub Actions. Sau lượt rà soát MN14, đã tìm cùng cách diễn đạt thọ trung tính trong MN1–MN20, sửa riêng children/causes của MN11 và kiểm lại đúng đoạn thay đổi; bản đồ, nguồn và hai bản còn lại không đổi.",
+      "contentHash": "4a1eb4dfbd3c0a859d92a45237a1270878712e618de2fbb47452156e43df4221",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn11.html",
+          "sha256": "72f3c45aa90fae13b4b3d1afc160a1d94f12140fa6dadb11ee37a3824d55ae30"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn11_root-pli-ms.json",
+          "sha256": "3c551b396f317c013f233ba11eb5c9493f3e36160603aca6ee20e926a443b718"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn11_translation-en-sujato.json",
+          "sha256": "be2476008c1cc357cf3b374fd49c9871f48ac963c0da8bb4fde5dcc2b90ed684"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn11_comment-vi-project.json",
+          "sha256": "f32a6d5204b2d0f602421be227bfc422362bb421239f105532a2703050b9c500"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn11_translation-vi-project.json",
+          "sha256": "57f16c00d1ddd90d43c7c397354e060169e40461ef49bebb75d98116d800818d"
+        }
+      ]
+    },
+    {
+      "id": "559bf4b4-ed70-43ed-824d-0facda46389b",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.4,
+        "terminology": 9.2,
+        "audience_fit": 9.2,
+        "clarity": 9.2,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu đủ Pāli, hai bản Việt, Anh Sujato và chú thích dự án; cả 132 khóa đã đọc. four-grounds xác định đối đáp được nêu để hướng dẫn, source-note giữ nghĩa tích cực không phóng diễn và hai hệ đánh số. Các dependency ghi đúng byte được sử dụng.",
+        "semantic_fidelity": "goal/five-faces giữ tham sân si ái thủ, hiểu biết, thiên vị/chống đối và phóng diễn ở cả hai phía. trust giữ sự đặt lòng tin đúng chỗ trong Pháp-Luật đưa đến giải thoát; ending giữ sinh đã tận, không coi nhẹ lòng tuổi già là cứu cánh.",
+        "core_coverage": "13 mục trình bày đủ 17 đơn vị: ba mức còn thiếu thủ, bốn loại thủ, bốn căn cứ đúng/sai, chuỗi tám quan hệ và kết. association không được dùng để bù độ phủ giáo lý; các đoạn lặp được gộp mà không bỏ nhánh đối lập.",
+        "logic_context": "partial diễn đạt rõ còn thiếu một vẫn chưa trọn; chain-first lần từng cặp về vô minh; ending giữ liên hệ minh sinh, không thủ, không dao động và Niết-bàn. Không thêm sự kiện các du sĩ thực sự có mặt hoặc kết luận mọi cộng đồng tin nhau đều sai.",
+        "terminology": "Giải ái, thủ, vị ngọt, bốn thủ, thọ/xúc/sáu xứ và những từ trong chuỗi; four-holds đã làm rõ giữ giới khác chấp giới lệ. Các danh hiệu và hữu kiến/phi hữu kiến vẫn khá cô đọng, phù hợp bản dẫn đọc hơn là một từ điển thuật ngữ.",
+        "audience_fit": "association dùng nhóm bạn đọc lâu năm, giữ quyền suy xét và tình nghĩa; không mặc định người lớn tuổi yếu bệnh hay mất trí. Nhịp ngắn và lời mời đọc từng chặng tôn trọng người đọc, nhưng chưa có thử đọc với người lớn tuổi thực tế.",
+        "clarity": "Các tiêu đề lần theo một câu hỏi xuyên suốt, phần truy nguyên chia thành hai đoạn và giải từ ngay sau tên. Một vài cụm bênh-chống còn cô đọng, các danh mục dài cần đọc thong thả; không có bằng chứng thực nghiệm về độ dễ hiểu.",
+        "editorial_separation": "association và practice ghi rõ thuộc biên tập, source-note tách nhãn kết và lời lặp. Không nhập ví dụ nhóm bạn đọc thành bối cảnh kinh, cũng không viết lời khuyên hiện đại như trích dẫn của Đức Phật.",
+        "practical_integrity": "practice chỉ gợi xét một bất đồng nhỏ, không đòi phục tùng con cháu hoặc bỏ quan điểm vì tuổi tác. Nêu giới hạn không phải phép đo chứng đắc hay lời hứa hết lo âu; ending vẫn giữ chiều giải thoát sinh tử của nguồn.",
+        "technical_integrity": "Kiểm tra thực tế không có lỗi nguồn/cấu trúc; ba bản đều phủ đủ 17 đơn vị và 132 segment. Hash riêng older-adults gắn với bản đã sửa và năm nguồn hiện hành; lịch sử đánh giá sẽ được ghi qua CLI, không tự sửa điểm bản dịch gốc."
+      },
+      "blockingErrors": [],
+      "notes": "Lượt kiểm độc lập với tác tử soạn, cùng công cụ gpt-6-astra-pro; không phải phê chuẩn của chuyên gia Pāli hay thử đọc với người thật. Người kiểm đã đọc toàn bộ năm nguồn và cả ba bản. Đã yêu cầu sửa và kiểm lại sự phân biệt giới cấm thủ/giữ giới, thuật ngữ bản trẻ em và cách nói bênh-chống ở bản trẻ em. Lời giải thuật ngữ là nhập môn, có giới hạn đã ghi theo từng tiêu chí. Kiểm tra cấu trúc/hash hoàn tất; kết quả bản dựng của lô được ghi riêng trước khi merge. Theo chỉ dẫn người dùng, không kiểm tra hoặc chờ GitHub Actions. Sau lượt rà soát MN14, đã tìm cùng cách diễn đạt thọ trung tính trong MN1–MN20, sửa riêng children/causes của MN11 và kiểm lại đúng đoạn thay đổi; bản đồ, nguồn và hai bản còn lại không đổi.",
+      "contentHash": "ba4bf4f09cfc305890da996dbd722ebd257e8370fadad85b4fcf3ad32f2adf75",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn11.html",
+          "sha256": "72f3c45aa90fae13b4b3d1afc160a1d94f12140fa6dadb11ee37a3824d55ae30"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn11_root-pli-ms.json",
+          "sha256": "3c551b396f317c013f233ba11eb5c9493f3e36160603aca6ee20e926a443b718"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn11_translation-en-sujato.json",
+          "sha256": "be2476008c1cc357cf3b374fd49c9871f48ac963c0da8bb4fde5dcc2b90ed684"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn11_comment-vi-project.json",
+          "sha256": "f32a6d5204b2d0f602421be227bfc422362bb421239f105532a2703050b9c500"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn11_translation-vi-project.json",
+          "sha256": "57f16c00d1ddd90d43c7c397354e060169e40461ef49bebb75d98116d800818d"
+        }
+      ]
+    }
+  ]
+}

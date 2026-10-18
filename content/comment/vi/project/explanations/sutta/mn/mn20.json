@@ -1,0 +1,802 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn20",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn20_root-pli-ms.json",
+      "sha256": "c1f16e9665e7469434c4fbc93a2ab96bf35c86e27cf4cc9d45a720b0b1848a72",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn20_translation-en-sujato.json",
+      "sha256": "614650cad5df636af863076137219bbd49da0a71499747541430db4cb9092fc5",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn20_translation-vi-project.json",
+      "sha256": "bc40c6828ddae441717bd0154f586084310e1453aabbd03d819a9e4fb30c8e51",
+      "commit": "d61c3d79c73aee87f34cbbed1e96b134d95e72cb"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn20.html",
+      "sha256": "a0d18a5a3304d1474b5a6f0ca593a472dd272d53f4467ad8239c8e156b278bfa",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn20_comment-vi-project.json",
+      "sha256": "917111d6df89eeb5e948c063e33021a465bbf0c1a1939cea6b1391624b8fe6ea",
+      "commit": "d61c3d79c73aee87f34cbbed1e96b134d95e72cb"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Nhận diện Kinh An Trú Tầm",
+      "segments": [
+        "mn20:0.1",
+        "mn20:0.2"
+      ],
+      "summary": "MN20, Vitakkasaṇṭhānasutta, Kinh An Trú Tầm."
+    },
+    {
+      "id": "setting",
+      "title": "Đức Phật dạy tại Jeta",
+      "segments": [
+        "mn20:1.1",
+        "mn20:1.2",
+        "mn20:1.3",
+        "mn20:1.4",
+        "mn20:1.5",
+        "mn20:1.6"
+      ],
+      "summary": "Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika; Đức Phật gọi các tỳ-kheo, họ đáp, Ngài giảng."
+    },
+    {
+      "id": "scope",
+      "title": "Năm đề mục cho người tu tăng thượng tâm",
+      "segments": [
+        "mn20:2.1",
+        "mn20:2.2"
+      ],
+      "summary": "Tỳ-kheo chuyên tu tăng thượng tâm chú tâm năm đề mục theo lúc/thỉnh thoảng; không lịch buộc mọi người thực hiện đủ năm hàng ngày."
+    },
+    {
+      "id": "wholesome-object",
+      "title": "Đổi sang đề mục liên hệ thiện",
+      "segments": [
+        "mn20:3.1",
+        "mn20:3.2",
+        "mn20:3.3"
+      ],
+      "summary": "Khi chú tâm một đề mục làm khởi tầm xấu bất thiện liên hệ dục/sân/si, chuyển đề mục khác có liên hệ thiện; tầm được bỏ/chấm, nhờ đó tâm nội trú/lắng/nhất/định."
+    },
+    {
+      "id": "peg-simile",
+      "title": "Chốt nhỏ làm bật chốt lớn",
+      "segments": [
+        "mn20:3.4",
+        "mn20:3.5",
+        "mn20:3.6",
+        "mn20:3.7"
+      ],
+      "summary": "Thợ lành nghề hoặc học việc dùng chốt nhỏ đánh bật/đẩy/rút chốt lớn; nhắc lại đầy đủ phương thức 1, bỏ tầm bất thiện rồi nội trú/lắng/nhất/định."
+    },
+    {
+      "id": "drawbacks",
+      "title": "Xét nguy hại nếu vẫn khởi",
+      "segments": [
+        "mn20:4.1",
+        "mn20:4.2",
+        "mn20:4.3",
+        "mn20:4.4"
+      ],
+      "summary": "Nếu đang đổi sang thiện mà tầm dục/sân/si bất thiện vẫn khởi, xét bất thiện/đáng chê/quả khổ; tầm bỏ/chấm, nhờ đó nội trú/lắng/nhất/định."
+    },
+    {
+      "id": "corpse-simile",
+      "title": "Phép ví người trẻ thích trang điểm",
+      "segments": [
+        "mn20:4.5",
+        "mn20:4.6",
+        "mn20:4.7",
+        "mn20:4.8",
+        "mn20:4.9"
+      ],
+      "summary": "Nam hoặc nữ trẻ thích làm đẹp nếu bị quàng xác rắn/chó/người quanh cổ thì kinh hãi/xấu hổ/ghê tởm; nhắc điều kiện, quán nguy, bỏ tầm, tâm định. Không gán sự ghê tởm cho căn tính người có ý nghĩ."
+    },
+    {
+      "id": "nonattention",
+      "title": "Không nhớ nghĩ và chú tâm",
+      "segments": [
+        "mn20:5.1",
+        "mn20:5.2",
+        "mn20:5.3"
+      ],
+      "summary": "Nếu đang xét nguy mà tầm ấy vẫn khởi, không nhớ nghĩ/không chú tâm chính tầm ấy; tầm bỏ/chấm, nhờ đó tâm nội trú/lắng/nhất/định."
+    },
+    {
+      "id": "looking-away",
+      "title": "Nhắm mắt hoặc nhìn sang chỗ khác",
+      "segments": [
+        "mn20:5.4",
+        "mn20:5.5",
+        "mn20:5.6",
+        "mn20:5.7"
+      ],
+      "summary": "Người có mắt sáng không muốn thấy sắc trong tầm thì nhắm hoặc nhìn khác. Lặp kết quả; 5.6 Pāli lược lời chỉ dẫn không có dấu pe, hiểu nhờ 5.1–2."
+    },
+    {
+      "id": "stilling-formation",
+      "title": "Làm lắng sự tạo tác của tầm",
+      "segments": [
+        "mn20:6.1",
+        "mn20:6.2",
+        "mn20:6.3"
+      ],
+      "summary": "Nếu đang không nhớ/chú mà tầm ấy vẫn khởi, chú tâm vitakkasaṅkhārasaṇṭhāna, canonical chọn làm lắng sự tạo tác; tầm bỏ/chấm, tâm nội trú/lắng/nhất/định."
+    },
+    {
+      "id": "posture-simile",
+      "title": "Từ đi nhanh tới nằm, giảm thô",
+      "segments": [
+        "mn20:6.4",
+        "mn20:6.5",
+        "mn20:6.6",
+        "mn20:6.7",
+        "mn20:6.8",
+        "mn20:6.9",
+        "mn20:6.10",
+        "mn20:6.11",
+        "mn20:6.12",
+        "mn20:6.13",
+        "mn20:6.14",
+        "mn20:6.15",
+        "mn20:6.16",
+        "mn20:6.17",
+        "mn20:6.18",
+        "mn20:6.19",
+        "mn20:6.20",
+        "mn20:6.21",
+        "mn20:6.22",
+        "mn20:6.23"
+      ],
+      "summary": "Người đi nhanh tự hỏi vì sao, chuyển chậm; rồi hỏi và đứng, ngồi, nằm, lần lượt bỏ oai nghi thô hơn sang tế hơn. Nhắc kết quả phương thức; 6.22 Pāli lược lời chỉ dẫn, không tạo nhân quả tự dừng từ việc tầm vẫn khởi."
+    },
+    {
+      "id": "forceful-restraint",
+      "title": "Cách thứ năm có điều kiện",
+      "segments": [
+        "mn20:7.1",
+        "mn20:7.2",
+        "mn20:7.3",
+        "mn20:7.4"
+      ],
+      "summary": "Nếu đang làm lắng tạo tác mà tầm bất thiện vẫn khởi, tỳ-kheo nghiến răng, ép lưỡi nóc miệng, dùng tâm chế ngự/đè nén/áp đảo tâm; tầm bỏ/chấm, tâm nội trú/lắng/nhất/định. Giữ mô tả mạnh và bối cảnh, không chuyển thành chỉ thị tự hại cho các tuổi."
+    },
+    {
+      "id": "strong-man-simile",
+      "title": "Phép ví người mạnh chế ngự người yếu",
+      "segments": [
+        "mn20:7.5",
+        "mn20:7.6",
+        "mn20:7.7",
+        "mn20:7.8",
+        "mn20:7.9"
+      ],
+      "summary": "Người mạnh nắm đầu hoặc cổ hoặc vai người yếu rồi chế/đè/áp đảo; lặp điều kiện/cách năm/kết quả. Đây là phép ví tâm, không cho phép dùng sức với người khác hay một chuỗi bạo lực phải làm."
+    },
+    {
+      "id": "fivefold-recap",
+      "title": "Năm cách và một kết quả lặp",
+      "segments": [
+        "mn20:8.1",
+        "mn20:8.2",
+        "mn20:8.3",
+        "mn20:8.4",
+        "mn20:8.5",
+        "mn20:8.6",
+        "mn20:8.7",
+        "mn20:8.8",
+        "mn20:8.9",
+        "mn20:8.10"
+      ],
+      "summary": "Nhắc lại đổi thiện, xét nguy, không nhớ/chú, lắng tạo tác, chế ngự mạnh; sau mỗi cách, bỏ/chấm tầm dục/sân/si rồi nhờ đoạn trừ tâm nội trú/lắng/nhất/định."
+    },
+    {
+      "id": "mastery-and-release",
+      "title": "Làm chủ đường lối suy nghĩ, chấm dứt khổ",
+      "segments": [
+        "mn20:8.11",
+        "mn20:8.12",
+        "mn20:8.13"
+      ],
+      "summary": "Vị ấy làm chủ, nghĩ điều muốn và không nghĩ điều không muốn, cắt khát ái, tháo kiết sử, nhờ thấu hiểu đúng mạn chấm dứt khổ. Không chỉ bình tĩnh hay không còn mọi suy nghĩ."
+    },
+    {
+      "id": "ending",
+      "title": "Các tỳ-kheo tán đồng",
+      "segments": [
+        "mn20:8.14",
+        "mn20:8.15"
+      ],
+      "summary": "Đức Phật nói; các vị hoan hỷ tán đồng."
+    },
+    {
+      "id": "edition-memory",
+      "title": "Kết bài, kết phẩm và kệ ghi nhớ",
+      "segments": [
+        "mn20:8.16",
+        "mn20:8.17",
+        "mn20:9.0",
+        "mn20:9.1",
+        "mn20:9.2",
+        "mn20:9.3",
+        "mn20:9.4"
+      ],
+      "summary": "Bài thứ mười, phẩm Sư Tử Hống thứ hai kết; uddāna nhắc mười bài MN11–20: Tiểu Sư Tử Hống, Rợn tóc gáy tối thắng, Đại/Tiểu Khổ Uẩn, Tư Lượng, Hoang Vu, Khu Rừng, Mật Hoàn, Song Tầm, năm đề mục. Tên gợi nhắc/nhãn ấn bản, không giáo lý thứ sáu; comment xác định lomahaṁsa với MN12 và pañcanimitta với MN20."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Có thể chọn cách đáp lại một ý nghĩ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Khi một ý nghĩ cứ quay lại",
+          "paragraphs": [
+            "Có khi em biết một ý nghĩ sẽ dẫn đến việc không tốt mà nó vẫn quay lại. Kinh An Trú Tầm, bài 20 của Trung Bộ, kể năm cách Đức Phật dạy để người tu đối diện những suy nghĩ như vậy.",
+            "Tại rừng Jeta, tu viện Anāthapiṇḍika ở Sāvatthī, Ngài dạy các tỳ-kheo chuyên tu tăng thượng tâm, tức chuyên rèn tâm ở mức sâu. Họ chú tâm đến năm đề mục tùy lúc. Đây không phải năm việc mọi người phải làm đủ mỗi ngày; mỗi cách sau được nêu khi cách trước chưa làm những tầm bất thiện ấy dừng lại."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "scope"
+          ]
+        },
+        {
+          "id": "what-thoughts",
+          "kind": "teaching",
+          "heading": "Bài nói đến những suy nghĩ nào?",
+          "paragraphs": [
+            "Những suy nghĩ cần được từ bỏ trong bài là suy nghĩ xấu, bất thiện liên hệ đến dục, sân hoặc si: ham mê, giận ghét hoặc mê lầm. Một câu hỏi để hiểu bài, mong muốn giúp người hay một kỷ niệm buồn không vì thế tự thành điều xấu phải đuổi đi.",
+            "Em có thể biết một ý nghĩ đang có mặt mà chưa chọn làm theo nó. Điều cần học ở đây là không tiếp tục nuôi hướng bất thiện; không phải tự gọi mình là người xấu vì một ý vừa khởi."
+          ],
+          "meaningUnits": [
+            "wholesome-object"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Chuyện trong nhóm chat của lớp",
+          "paragraphs": [
+            "Trong nhóm chat, một bạn viết câu làm em bực. Em muốn gửi lại một câu thật cay để bạn xấu hổ. Em có thể chuyển sang nghĩ cách nói điều đã làm mình buồn mà không công kích. Nếu ý trả đũa cứ quay lại, em nhớ rằng câu cay độc sẽ làm bạn đau và chuyện rối hơn. Em cũng có thể thôi mở lại tin nhắn chỉ để nuôi cơn bực.",
+            "Đây là ví dụ hiện đại. Nếu có bắt nạt hoặc một việc cần giải quyết, em vẫn có thể lưu thông tin cần thiết và nhờ người lớn đáng tin giúp. Thôi nuôi trả đũa không có nghĩa giấu việc bị hại."
+          ],
+          "meaningUnits": [
+            "wholesome-object",
+            "drawbacks",
+            "nonattention"
+          ]
+        },
+        {
+          "id": "method-one",
+          "kind": "teaching",
+          "heading": "Cách thứ nhất: hướng tới điều thiện",
+          "paragraphs": [
+            "Khi chú tâm vào một đề mục khiến các suy nghĩ bất thiện về dục, sân, si xuất hiện, người tu chuyển sang một đề mục khác có liên hệ thiện. Chữ “thiện” rất cần thiết: không chỉ đổi sang bất cứ thứ gì làm mình vui hay bận rộn.",
+            "Đức Phật ví với người thợ lành nghề hoặc người học việc dùng chốt nhỏ đánh bật, đẩy và rút chốt lớn ra. Cách này dùng một hướng thiện để thay hướng đang nuôi điều bất thiện. Kinh nêu kết quả: các suy nghĩ ấy được từ bỏ và chấm dứt; nhờ vậy, tâm an trú bên trong, lắng lại, quy về một mối và vào định."
+          ],
+          "meaningUnits": [
+            "wholesome-object",
+            "peg-simile"
+          ]
+        },
+        {
+          "id": "method-two",
+          "kind": "teaching",
+          "heading": "Cách thứ hai: nhìn rõ điều không muốn mang theo",
+          "paragraphs": [
+            "Nếu đã hướng sang điều thiện mà các suy nghĩ ấy vẫn sinh, người tu xét sự nguy hại của chúng. Có ba mặt được nêu: chúng là bất thiện, đáng chê trách và có kết quả khổ. Điều được xét là suy nghĩ cùng hậu quả của nó, không phải giá trị của người đang có suy nghĩ.",
+            "Nguyên bản dùng một hình ảnh mạnh: một người nam hay nữ còn trẻ, thích làm đẹp, sẽ kinh hãi, xấu hổ và ghê tởm nếu bị quàng quanh cổ xác rắn, chó hoặc người. Phép ví diễn tả sự không muốn tiếp tục mang điều ấy theo. Nó không bảo em ghét cơ thể hoặc trừng phạt mình.",
+            "Nhờ xét rõ nguy hại, các tầm bất thiện được bỏ và chấm dứt. Kinh lại nhắc tâm nhờ đó an trú, lắng, nhất tâm và vào định."
+          ],
+          "meaningUnits": [
+            "drawbacks",
+            "corpse-simile"
+          ]
+        },
+        {
+          "id": "method-three",
+          "kind": "teaching",
+          "heading": "Cách thứ ba: thôi nhớ nghĩ và chú tâm vào nó",
+          "paragraphs": [
+            "Nếu đang xét nguy hại mà những suy nghĩ ấy vẫn tiếp tục khởi, người tu không nhớ nghĩ, không chú tâm đến chính chúng nữa. Đây là thôi tiếp tục hướng tâm vào những tầm đã được nhận ra là bất thiện.",
+            "Phép ví là một người có mắt sáng, không muốn nhìn hình ảnh đang ở trước mắt, thì nhắm mắt hoặc nhìn sang nơi khác. Người ấy vẫn có khả năng thấy và chọn hướng nhìn. Tương tự, bài nói các tầm ấy được bỏ, chấm dứt; tâm nhờ đó an trú bên trong, lắng xuống, nhất tâm và vào định. Không phải quên hết ký ức hay bỏ qua việc thật sự cần làm."
+          ],
+          "meaningUnits": [
+            "nonattention",
+            "looking-away"
+          ]
+        },
+        {
+          "id": "method-four",
+          "kind": "teaching",
+          "heading": "Cách thứ tư: làm dịu hoạt động đang tạo suy nghĩ",
+          "paragraphs": [
+            "Nếu không tiếp tục nhớ nghĩ, chú tâm mà những tầm ấy vẫn khởi, kinh nêu việc làm lắng sự tạo tác của chúng: hướng đến làm dịu hoạt động đang tạo nên những suy nghĩ ấy.",
+            "Đức Phật ví một người đang đi rất nhanh. Người ấy hỏi tại sao mình đi nhanh rồi chọn đi chậm. Sau đó, người ấy lần lượt hỏi vì sao còn đi, còn đứng, còn ngồi, rồi chuyển sang đứng lại, ngồi xuống và nằm xuống. Từng bước, người ấy bỏ tư thế thô hơn để chọn tư thế nhẹ, tế nhị hơn.",
+            "Đó là phép ví cho sự lắng dần, không phải bài tập buộc em đi, đứng, ngồi, nằm đủ lượt. Theo mạch kinh, nhờ làm lắng sự tạo tác, những tầm bất thiện được bỏ và chấm dứt; tâm an trú, yên xuống, nhất tâm và định."
+          ],
+          "meaningUnits": [
+            "stilling-formation",
+            "posture-simile"
+          ]
+        },
+        {
+          "id": "method-five",
+          "kind": "teaching",
+          "heading": "Cách thứ năm trong lời dạy cho người tu",
+          "paragraphs": [
+            "Nếu đang làm lắng sự tạo tác mà những suy nghĩ bất thiện vẫn sinh, bài nêu một cách rất mạnh. Vị tỳ-kheo được hướng dẫn nghiến răng, ép lưỡi lên nóc miệng, dùng tâm chế ngự, đè nén và áp đảo tâm. Đây là mô tả có thật trong kinh, trong lời dạy cho người chuyên tu tâm.",
+            "Phép ví đi kèm là người mạnh nắm đầu, cổ hoặc vai người yếu hơn rồi chế ngự, đè nén, áp đảo người ấy. Ba chỗ ấy là các lựa chọn trong câu ví, không là các bước em phải làm. Điều được nói đến trong việc tu là chế ngự tâm, không phải dùng sức với một người khác.",
+            "Bản diễn giải kể lại để em hiểu đủ năm cách, không biến cách cuối thành yêu cầu em tự nghiến răng, gây đau hay cưỡng ép bạn. Kinh nêu kết quả của phương thức này cũng là các tầm bất thiện được bỏ và chấm dứt, tâm nhờ đó an trú, lắng, nhất tâm, vào định."
+          ],
+          "meaningUnits": [
+            "forceful-restraint",
+            "strong-man-simile"
+          ]
+        },
+        {
+          "id": "recap",
+          "kind": "teaching",
+          "heading": "Năm cách hướng tới cùng một điều",
+          "paragraphs": [
+            "Đức Phật nhắc lại cả năm: đổi sang đề mục thiện; xét nguy hại; không nhớ nghĩ, không chú tâm; làm lắng sự tạo tác; và sự chế ngự mạnh vừa được kể. Sau mỗi cách, kết quả đều là từ bỏ những tầm bất thiện về dục, sân, si, để tâm an trú bên trong, lắng, nhất tâm và định.",
+            "Cách sau xuất hiện với điều kiện những suy nghĩ ấy vẫn khởi khi đang dùng cách trước. Bài không bảo phải tăng sức ép cho đến hết năm dù cách đầu đã giúp chúng chấm dứt. Cũng không đặt thời gian bao nhiêu phút cho mỗi cách."
+          ],
+          "meaningUnits": [
+            "fivefold-recap",
+            "scope"
+          ]
+        },
+        {
+          "id": "freedom",
+          "kind": "teaching",
+          "heading": "Làm chủ không phải là hết mọi suy nghĩ",
+          "paragraphs": [
+            "Vị tu thành tựu như vậy được gọi là người làm chủ các đường lối suy nghĩ: nghĩ điều mình muốn nghĩ và không nghĩ điều mình không muốn. Vì thế đích không phải trở thành người chẳng còn biết suy xét gì.",
+            "Đoạn kết còn nói vị ấy đã cắt khát ái, tháo bỏ kiết sử — những điều trói buộc — và nhờ thấu hiểu đúng kiêu mạn mà chấm dứt khổ. Đây là đích giải thoát sâu, không chỉ yên lòng sau một lần bực. Đức Phật kết lời, các tỳ-kheo hoan hỷ đón nhận."
+          ],
+          "meaningUnits": [
+            "mastery-and-release",
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Bắt đầu với một lựa chọn vừa sức",
+          "paragraphs": [
+            "Gợi ý hiện đại: khi muốn đáp lại ai bằng lời làm đau, em có thể thử nghĩ đến một cách nói thật mà tử tế. Nếu ý trả đũa trở lại, nhận ra nó rồi xem hậu quả, hoặc thôi đọc đi đọc lại điều đang nuôi cơn giận. Em có thể nhờ người lớn đáng tin cùng tìm cách xử lý chuyện khó.",
+            "Việc tập này không phải cuộc thi ai dừng ý nghĩ nhanh hơn. Một ý nghĩ quay lại là điều em có thể nhận biết và tìm sự giúp đỡ, không là lý do tự phạt mình. Gợi ý này do người biên soạn viết, không thay toàn bộ việc tu tăng thượng tâm trong bài."
+          ],
+          "meaningUnits": [
+            "wholesome-object",
+            "drawbacks",
+            "nonattention"
+          ]
+        },
+        {
+          "id": "source-notes",
+          "kind": "clarification",
+          "heading": "Phân biệt lời kinh và lời giải",
+          "paragraphs": [
+            "Các chuyện chốt gỗ, người trẻ, người nhìn sang nơi khác, người đổi tư thế và người mạnh đều là phép ví trong nguồn. Chuyện nhóm chat và gợi ý thực hành là ví dụ hiện đại. Chú thích của dự án cũng là lời biên tập, không phải lời Đức Phật.",
+            "Cụm dùng cho cách thứ tư có nhiều cách dịch. Bản này theo lựa chọn của Việt dự án: làm lắng sự tạo tác của suy nghĩ, đọc cùng phép ví giảm dần hoạt động; không tự thêm một kỹ thuật đếm hơi thở hay phân tích tâm lý. Ở hai câu lặp, Pāli rút mất lời chỉ dẫn, nên phải đọc cùng phần hướng dẫn đầy đủ, không hiểu là cứ có ý bất thiện thì chúng tự hết.",
+            "Kiêu mạn ở đoạn cuối không chỉ là khoe khoang. Lời giải nhập môn có thể giúp em nghĩ đến sự so đo quanh cái tôi, nhưng bài nói đến thấu hiểu mạn để chấm dứt khổ, không chỉ học nói khiêm tốn."
+          ],
+          "meaningUnits": [
+            "stilling-formation",
+            "posture-simile",
+            "looking-away",
+            "mastery-and-release"
+          ]
+        },
+        {
+          "id": "edition-notes",
+          "kind": "clarification",
+          "heading": "Những dòng ghi nhớ cuối bản kinh",
+          "paragraphs": [
+            "Sau lời dạy là nhãn kết bài thứ mười và kết Phẩm Sư Tử Hống, phẩm thứ hai. Số bài trong toàn Trung Bộ vẫn là MN20. Kệ cuối giúp nhớ mười bài của phẩm: Tiểu Sư Tử Hống; Rợn tóc gáy; Đại và Tiểu Khổ Uẩn; Tư Lượng; Hoang Vu; Khu Rừng; Mật Hoàn; Song Tầm; và bài giảng năm đề mục.",
+            "Theo chú thích dự án, “Rợn tóc gáy” gợi bài MN12, còn “năm đề mục” gợi chính bài MN20 này; câu kệ còn dùng chữ “tối thắng” với tên Rợn tóc gáy. Đây là phần ghi nhớ và đánh số của ấn bản, không phải một cách luyện tâm thứ sáu."
+          ],
+          "meaningUnits": [
+            "identity",
+            "edition-memory"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Năm cách làm lắng những tầm bất thiện",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Khi biết là bất thiện mà tâm vẫn trở lại",
+          "paragraphs": [
+            "Biết một dòng suy nghĩ không đưa đến điều lành chưa có nghĩa nó lập tức dừng. Kinh An Trú Tầm, MN20, trình bày năm phương thức với những điều kiện chuyển tiếp rõ ràng, trong việc tu tập tăng thượng tâm.",
+            "Tại rừng Jeta, tu viện Anāthapiṇḍika ở Sāvatthī, Đức Phật dạy các tỳ-kheo chuyên tu tâm chú ý tới năm đề mục theo lúc. Mạch bài không phải lịch làm đủ năm thao tác mỗi ngày. Khi một cách đang được dùng mà những tầm bất thiện ấy vẫn khởi, cách kế tiếp mới được nêu."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "scope"
+          ]
+        },
+        {
+          "id": "scope-thoughts",
+          "kind": "teaching",
+          "heading": "Xác định đúng điều cần từ bỏ",
+          "paragraphs": [
+            "Đối tượng được lặp suốt bài là tầm xấu, bất thiện liên hệ đến dục, sân hoặc si. Không nên mở rộng thành mọi suy nghĩ ngoài ý muốn, mọi nỗi buồn, mọi ký ức hay mọi hoạt động đặt câu hỏi. Tính bất thiện và sự liên hệ dục–sân–si là điều kiện cần giữ.",
+            "Nhận biết có một ý nghĩ khác với đồng ý nuôi nó hoặc hành động theo nó. Bài hướng dẫn cách thôi duy trì những tầm ấy; không lấy một ý thoáng qua làm căn cứ kết tội toàn bộ con người. Ngay cả chữ dục trong mệnh đề này cũng không làm mọi mong muốn học hỏi hoặc giúp người thành điều phải loại bỏ."
+          ],
+          "meaningUnits": [
+            "wholesome-object"
+          ]
+        },
+        {
+          "id": "work-example",
+          "kind": "example",
+          "heading": "Không biến lời phê bình thành kịch bản trả đũa",
+          "paragraphs": [
+            "Bạn nhận một thư phê bình gay gắt. Công việc có thể đòi hỏi trả lời và làm rõ trách nhiệm, nhưng tâm đang soạn nhiều cách làm người gửi mất mặt. Bạn chuyển sang việc chuẩn bị phản hồi đúng dữ kiện, không công kích. Nếu vẫn bị cuốn, bạn xét tác hại của việc trả đũa, rồi ngừng đọc lại bức thư chỉ để làm cơn giận mạnh thêm.",
+            "Đây là tình huống biên tập hiện đại. Việc không nuôi sân không thay nghĩa vụ xử lý sai phạm, lưu dữ kiện cần thiết hoặc bảo vệ người bị hại. Một hướng thiện phải hiện ra trong lựa chọn, không chỉ một sự bận rộn để quên việc."
+          ],
+          "meaningUnits": [
+            "wholesome-object",
+            "drawbacks",
+            "nonattention"
+          ]
+        },
+        {
+          "id": "method-one",
+          "kind": "teaching",
+          "heading": "1. Thay đối tượng bằng một đề mục liên hệ thiện",
+          "paragraphs": [
+            "Nếu chú tâm một đề mục khiến tầm bất thiện về dục, sân, si sinh, vị tu chuyển sang đề mục khác có liên hệ thiện. Sự thay thế được xác định bởi tính thiện, không chỉ bởi cảm giác dễ chịu hoặc khả năng gây xao nhãng.",
+            "Phép ví là người thợ giỏi hoặc học việc dùng chốt nhỏ làm bật, đẩy và rút chốt lớn. Khi hướng thiện thay được hướng đang nuôi bất thiện, những tầm ấy được từ bỏ và chấm dứt. Nhờ đoạn trừ chúng, tâm an trú bên trong, lắng xuống, nhất tâm và vào định. Kinh lặp đủ quan hệ này sau ví dụ."
+          ],
+          "meaningUnits": [
+            "wholesome-object",
+            "peg-simile"
+          ]
+        },
+        {
+          "id": "method-two",
+          "kind": "teaching",
+          "heading": "2. Xét bản chất và hậu quả của những tầm ấy",
+          "paragraphs": [
+            "Nếu đang hướng tới đề mục thiện mà tầm bất thiện vẫn khởi, vị tu xét sự nguy hại của chúng theo ba mặt: bất thiện, đáng chê trách, có quả khổ. Sự đánh giá nhắm vào các tầm và kết quả của chúng, không biến thành một lời hạ nhục bản thân.",
+            "Kinh ví một người nam hoặc nữ trẻ, thích trang điểm, kinh hãi, xấu hổ và ghê tởm khi bị quàng xác rắn, chó hay người quanh cổ. Phép ví mạnh tạo nhận thức về thứ không muốn tiếp tục mang theo. Nó không hướng tới ghét cơ thể hay trừng phạt người đang có ý nghĩ.",
+            "Với sự xét nguy hại ấy, các tầm bất thiện được từ bỏ, chấm dứt; tâm nhờ đó an trú, lắng, nhất tâm và định. Đây không chỉ là biết suy nghĩ ấy không có lợi cho hiệu suất làm việc, mà là thấy tính bất thiện và quả khổ của nó."
+          ],
+          "meaningUnits": [
+            "drawbacks",
+            "corpse-simile"
+          ]
+        },
+        {
+          "id": "method-three",
+          "kind": "teaching",
+          "heading": "3. Không tiếp tục nhớ nghĩ và chú tâm",
+          "paragraphs": [
+            "Nếu trong khi xét nguy hại mà những tầm ấy vẫn khởi, vị tu không nhớ nghĩ và không chú tâm đến chúng. Hai mặt này cùng hướng vào các tầm đã được nhận diện, không phủ nhận một sự kiện đã xảy ra.",
+            "Một người có mắt sáng, không muốn nhìn hình sắc trong tầm mắt, sẽ nhắm mắt hoặc nhìn sang nơi khác: đó là phép ví của bài. Tương tự, khi thôi tiếp tục hướng tâm vào các tầm bất thiện ấy, chúng được bỏ và chấm dứt; tâm an trú bên trong, lắng xuống, nhất tâm và vào định. Không nhớ nghĩ ở đây không phải mất ký ức, cũng không phải tránh mọi nghĩa vụ khó chịu."
+          ],
+          "meaningUnits": [
+            "nonattention",
+            "looking-away"
+          ]
+        },
+        {
+          "id": "method-four",
+          "kind": "teaching",
+          "heading": "4. Làm lắng sự tạo tác của suy nghĩ",
+          "paragraphs": [
+            "Nếu không nhớ nghĩ, không chú tâm mà tầm bất thiện vẫn khởi, kinh nói đến chú tâm làm lắng sự tạo tác của chúng. Cách đọc này chú trọng giảm hoạt động đang hình thành các tầm ấy; không đơn thuần thay nội dung bằng một đề tài khác.",
+            "Phép ví đi từ một người bước rất nhanh. Người ấy hỏi vì sao đang đi nhanh và chọn đi chậm. Rồi lần lượt xét vì sao còn đi, đứng, ngồi để chuyển sang đứng, ngồi, nằm. Mỗi chặng bỏ oai nghi thô hơn để chọn oai nghi tế nhị hơn.",
+            "Bài dùng chuỗi ấy để soi việc làm lắng, với kết quả vẫn là bỏ và chấm dứt các tầm bất thiện, tâm nhờ đó an trú, lắng, nhất tâm và định. Chuỗi tư thế là phép ví, không phải quy trình vận động phải làm đủ; từ ngữ của phương thức này cũng không tự xác định một kỹ thuật thở hay phân tích nguyên nhân tâm lý chi tiết."
+          ],
+          "meaningUnits": [
+            "stilling-formation",
+            "posture-simile"
+          ]
+        },
+        {
+          "id": "method-five",
+          "kind": "teaching",
+          "heading": "5. Sự chế ngự mạnh được đặt ở cuối chuỗi",
+          "paragraphs": [
+            "Nếu đang làm lắng sự tạo tác mà những tầm bất thiện vẫn khởi, nguyên bản nêu một cách có sức cưỡng chế rõ: vị tỳ-kheo nghiến răng, ép lưỡi lên nóc miệng, dùng tâm chế ngự, đè nén và áp đảo tâm. Không thể đổi đoạn này thành chỉ nhẹ nhàng quay lại rồi nói đã giữ nguyên cả năm phương thức.",
+            "Kinh ví với người mạnh nắm đầu, cổ hoặc vai người yếu hơn để chế ngự, đè nén và áp đảo. Đây là phép ví cho việc dùng tâm với tâm, không phải cho phép dùng sức lên một người khác. Đầu, cổ, vai là các lựa chọn, không một chuỗi động tác phải thực hiện.",
+            "Bối cảnh là tỳ-kheo chuyên tu tăng thượng tâm, sau điều kiện các phương thức trước chưa làm những tầm ấy dừng. Bản diễn giải giữ mô tả nguồn, không đặt thành bài tập tự gây đau hay cách ép bất cứ ai phải ngừng nghĩ. Kết quả kinh nêu vẫn là tầm dục–sân–si bất thiện được bỏ, chấm dứt; nhờ đó tâm an trú, lắng, nhất tâm và vào định."
+          ],
+          "meaningUnits": [
+            "forceful-restraint",
+            "strong-man-simile"
+          ]
+        },
+        {
+          "id": "recap",
+          "kind": "teaching",
+          "heading": "Một hướng chung qua năm phương thức",
+          "paragraphs": [
+            "Phần tổng kết lần lượt nhắc đổi đề mục thiện, xét nguy hại, không nhớ nghĩ/chú tâm, làm lắng sự tạo tác và chế ngự mạnh. Sau mỗi phương thức, kinh lại nối hai việc: những tầm bất thiện được đoạn trừ; nhờ sự đoạn trừ ấy, tâm an trú bên trong, lắng xuống, nhất tâm và định.",
+            "Các cách không phải năm mẹo rời nhau, cũng không buộc phải làm hết khi một cách đã có hiệu quả. Văn bản cho điều kiện tiếp tục, nhưng không đặt số phút, số lượt hay lịch tập phổ quát. Đích định tâm được giữ rõ, rộng hơn việc giảm khó chịu tức thời."
+          ],
+          "meaningUnits": [
+            "fivefold-recap",
+            "scope"
+          ]
+        },
+        {
+          "id": "mastery",
+          "kind": "teaching",
+          "heading": "Làm chủ đường lối suy nghĩ và đoạn khổ",
+          "paragraphs": [
+            "Vị thành tựu được gọi là người làm chủ các đường lối của suy nghĩ: sẽ nghĩ điều muốn nghĩ, không nghĩ điều không muốn. Chính câu này cho thấy kinh không tôn vinh sự mất hết khả năng suy nghĩ.",
+            "Lời kết còn nói vị ấy đã cắt khát ái, tháo bỏ kiết sử và nhờ thấu hiểu đúng mạn mà chấm dứt khổ. Kiết sử là những trói buộc; mạn thường dịch là kiêu mạn, có phạm vi sâu hơn tính khoe khoang xã giao. Sự làm chủ trong đoạn này gắn với giải thoát, không chỉ tự kiểm soát tốt hơn trong một tình huống. Các tỳ-kheo hoan hỷ tán đồng khi Đức Phật kết lời."
+          ],
+          "meaningUnits": [
+            "mastery-and-release",
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một vận dụng có giới hạn trong sinh hoạt",
+          "paragraphs": [
+            "Gợi ý hiện đại: khi một vòng suy nghĩ trả đũa xuất hiện, nhận rõ hướng của nó và chọn một đối tượng thiện cụ thể, chẳng hạn cách nói thật, công bằng, không nhằm hạ nhục. Nếu nó vẫn trở lại, xét bản chất gây hại và hậu quả khổ, hoặc thôi tiếp tục đọc lại, dựng lại những chi tiết chỉ để nuôi sân.",
+            "Vận dụng này tập trung vào những cách đầu; không yêu cầu tự thực hiện động tác cưỡng chế của phương thức cuối. Giải quyết việc thực tế và tìm sự hỗ trợ khi cần vẫn có thể tiếp tục. Đây là gợi ý biên tập, không công thức chữa mọi suy nghĩ lặp lại hay chứng nhận đã thành tựu đoạn kết."
+          ],
+          "meaningUnits": [
+            "wholesome-object",
+            "drawbacks",
+            "nonattention"
+          ]
+        },
+        {
+          "id": "text-notes",
+          "kind": "clarification",
+          "heading": "Lựa chọn từ ngữ và phạm vi đối chiếu",
+          "paragraphs": [
+            "Cụm vitakkasaṅkhārasaṇṭhāna của phương thức thứ tư có các cách dịch khác nhau. Bản này theo Việt dự án và mạch phép ví: làm lắng sự tạo tác của tầm. Anh Sujato nhấn dừng hình thành; Việt Thích Minh Châu diễn về hành tướng và an trú. Không nhận rằng mọi bản cùng một nghĩa từng chữ, hoặc biến cách đọc đang chọn thành một hệ kỹ thuật mới.",
+            "Ở mn20:5.6 và mn20:6.22, chính Pāli rút lời chỉ dẫn trong câu lặp dù không đặt dấu lược. Diễn giải đọc cùng lời đầy đủ ở đầu mỗi phương thức; không suy ra rằng tầm cứ sinh thì tự nhiên chấm dứt. Bản Anh còn lược nhiều câu kết quả và phần nhãn, nên phần lặp được đối chiếu theo Pāli và Việt dự án.",
+            "Đối chiếu ở đây gồm Pāli, Việt dự án, Anh Sujato, toàn văn Việt Thích Minh Châu và chú thích dự án. Nguồn khác được chú thích dẫn không vì thế được nhận đã độc lập đọc. Các chú thích cùng ví dụ thư công việc và mục thực hành là văn hiện đại; năm phép ví của bài thuộc kinh văn. Lời giải mạn về so đo quanh cái tôi là lối mở đầu để hiểu, không thay việc thấu hiểu mạn mà kinh đặt trong giải thoát."
+          ],
+          "meaningUnits": [
+            "stilling-formation",
+            "posture-simile",
+            "looking-away",
+            "mastery-and-release"
+          ]
+        },
+        {
+          "id": "apparatus",
+          "kind": "clarification",
+          "heading": "Kết phẩm và kệ nhắc tên bài",
+          "paragraphs": [
+            "Sau lời dạy, bản Pāli ghi Kinh An Trú Tầm là bài thứ mười, kết Phẩm Sư Tử Hống là phẩm thứ hai. Kệ uddāna nhắc đủ mười bài của phẩm: Tiểu Sư Tử Hống; Rợn tóc gáy tối thắng; Đại và Tiểu Khổ Uẩn; Tư Lượng; Hoang Vu; Khu Rừng; Mật Hoàn; Song Tầm; và bài giảng năm đề mục.",
+            "Theo chú thích dự án, Rợn tóc gáy là tên gợi MN12, còn năm đề mục gợi MN20. Đây là tên ghi nhớ và nhãn sắp xếp, không thêm một phương thức tu. Số toàn bộ của bài đang đọc là MN20; số thứ mười nói vị trí trong phẩm."
+          ],
+          "meaningUnits": [
+            "identity",
+            "edition-memory"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Để tâm bớt bị những suy nghĩ bất thiện dẫn đi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Không cần đi theo mọi ý nghĩ trở lại",
+          "paragraphs": [
+            "Một câu nói cũ có thể trở lại trong tâm nhiều lần, kể cả khi ta đã biết nuôi giận sẽ làm lòng nặng hơn. Kinh An Trú Tầm, MN20, trình bày cách người tu ứng xử với những tầm bất thiện còn tiếp tục khởi, từng cách theo điều kiện của nó.",
+            "Đức Phật dạy các tỳ-kheo ở rừng Jeta, tu viện Anāthapiṇḍika tại Sāvatthī. Lời dạy dành cho người chuyên tu tăng thượng tâm, rèn tâm ở mức sâu; năm đề mục được chú tâm tùy lúc. Kinh không đặt ra năm việc mọi người phải làm đủ trong ngày."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "scope"
+          ]
+        },
+        {
+          "id": "scope",
+          "kind": "teaching",
+          "heading": "Điều cần buông phải được nhận đúng",
+          "paragraphs": [
+            "Suốt bài, điều cần đoạn trừ là tầm xấu, bất thiện liên hệ dục, sân, si: ham mê, giận ghét, mê lầm. Không phải mọi ký ức cũ, mọi nỗi buồn hay mọi ý kiến chưa được người khác đồng ý đều thuộc nhóm ấy. Việc học hỏi và suy xét có trách nhiệm vẫn có chỗ đứng.",
+            "Một ý vừa khởi cũng khác với chủ ý tiếp tục nuôi nó. Bài tập trung cách xử lý hướng bất thiện, không lấy ý nghĩ thoáng qua để phủ nhận giá trị của một người. Người đọc không cần biến việc nhìn tâm thành việc tự trách suốt ngày."
+          ],
+          "meaningUnits": [
+            "wholesome-object"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Một chuyện bất đồng trong nhà",
+          "paragraphs": [
+            "Bác nhớ lại một lần người nhà nói điều thiếu tôn trọng. Cần có cuộc trao đổi để việc ấy không lặp, nhưng tâm có thể đang tìm lời khiến họ đau như mình từng đau. Bác thử chuyển sang nghĩ cách trình bày rõ giới hạn và mong muốn của mình, không trả đũa. Nếu cơn bực vẫn trở lại, bác xét việc nuôi nó sẽ đưa đến khổ gì, rồi thôi nhắc lại câu cũ chỉ để giận thêm.",
+            "Đây là ví dụ hiện đại. Buông hướng sân hại không buộc bác từ bỏ quyền quyết định, che giấu việc bị đối xử sai hay thôi nhờ người đáng tin hỗ trợ."
+          ],
+          "meaningUnits": [
+            "wholesome-object",
+            "drawbacks",
+            "nonattention"
+          ]
+        },
+        {
+          "id": "one",
+          "kind": "teaching",
+          "heading": "Hướng sang một điều có liên hệ thiện",
+          "paragraphs": [
+            "Cách thứ nhất bắt đầu khi một đề mục được chú tâm làm sinh tầm bất thiện về dục, sân hoặc si. Vị tu đổi sang một đề mục khác liên hệ thiện. Điều thay thế phải lành, không chỉ thú vị hơn hoặc giúp bận rộn hơn.",
+            "Kinh ví người thợ lành nghề hay học việc dùng chốt nhỏ đánh bật, đẩy và rút chốt lớn. Tương tự, khi chuyển hướng thiện, các tầm bất thiện được từ bỏ và chấm dứt. Nhờ bỏ chúng, tâm an trú bên trong, lắng xuống, quy về một mối và vào định. Đây là quan hệ được nhắc cả trước và sau phép ví."
+          ],
+          "meaningUnits": [
+            "wholesome-object",
+            "peg-simile"
+          ]
+        },
+        {
+          "id": "two",
+          "kind": "teaching",
+          "heading": "Xét rõ điều ấy sẽ đưa tới đâu",
+          "paragraphs": [
+            "Nếu đang hướng sang thiện mà những tầm ấy vẫn sinh, vị tu xét sự nguy hại của chúng: bất thiện, đáng chê trách, có kết quả khổ. Nhận định ấy nói về tầm và hậu quả của tầm, không biến con người thành thứ đáng ghét.",
+            "Phép ví nguyên bản khá mạnh. Một người nam hay nữ trẻ, thích trang điểm, nếu bị quàng xác rắn, chó hoặc người quanh cổ sẽ kinh hãi, xấu hổ, ghê tởm. Hình ảnh diễn tả điều không muốn mang theo; không nhằm khuyên ghét bỏ thân thể hay trừng phạt mình.",
+            "Kinh nói khi xét nguy hại như vậy, các tầm bất thiện được từ bỏ và chấm dứt. Tâm nhờ đó an trú, lắng, nhất tâm và định. Người đọc có thể hiểu ý từ bỏ mà không cần dựng thêm cảnh ghê rợn trong đầu."
+          ],
+          "meaningUnits": [
+            "drawbacks",
+            "corpse-simile"
+          ]
+        },
+        {
+          "id": "three",
+          "kind": "teaching",
+          "heading": "Thôi tiếp tục nhớ nghĩ và chú tâm",
+          "paragraphs": [
+            "Nếu đang xét nguy hại mà các tầm ấy vẫn tiếp tục, vị tu không nhớ nghĩ và không chú tâm vào chính chúng nữa. Đã thấy hướng ấy bất thiện thì không tiếp tục dành sự chú ý cho nó.",
+            "Đức Phật ví một người có mắt sáng không muốn thấy hình sắc trong tầm, nên nhắm mắt hoặc nhìn sang chỗ khác. Đây là lựa chọn hướng nhìn, không phải mất khả năng thấy. Tương tự, các tầm ấy được bỏ và chấm dứt; tâm an trú bên trong, lắng xuống, nhất tâm và định.",
+            "Không nhớ nghĩ trong mạch này không phải xóa các kỷ niệm, làm suy giảm trí nhớ hay bỏ mặc việc cần xử lý. Điều được buông là sự tiếp tục chú tâm nuôi các tầm bất thiện đã nhận diện."
+          ],
+          "meaningUnits": [
+            "nonattention",
+            "looking-away"
+          ]
+        },
+        {
+          "id": "four",
+          "kind": "teaching",
+          "heading": "Làm lắng hoạt động đang tạo tầm",
+          "paragraphs": [
+            "Nếu không nhớ nghĩ, không chú tâm mà những tầm ấy vẫn sinh, bài nêu cách chú tâm làm lắng sự tạo tác của chúng. Có thể hiểu bước đầu là làm dịu hoạt động đang tạo nên dòng suy nghĩ ấy.",
+            "Phép ví là người đang đi nhanh, tự hỏi tại sao đi nhanh rồi chọn đi chậm. Sau đó, người ấy lần lượt hỏi vì sao còn đi, còn đứng, còn ngồi, để chuyển tới đứng lại, ngồi và nằm. Mỗi lần, người ấy rời một tư thế thô hơn, chọn một tư thế tế nhị hơn.",
+            "Hình ảnh cho thấy sự lắng dần; không yêu cầu người đọc phải đi, đứng, ngồi, nằm đủ lượt mới đúng. Khi sự tạo tác của các tầm ấy được làm lắng, chúng được bỏ và chấm dứt; tâm nhờ đó an trú, lắng, nhất tâm và định."
+          ],
+          "meaningUnits": [
+            "stilling-formation",
+            "posture-simile"
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Phương thức mạnh ở cuối chuỗi",
+          "paragraphs": [
+            "Nếu ngay khi làm lắng sự tạo tác, tầm bất thiện vẫn khởi, nguồn nêu cách thứ năm: vị tỳ-kheo nghiến răng, ép lưỡi lên nóc miệng, dùng tâm chế ngự, đè nén và áp đảo tâm. Những động tác và từ ngữ mạnh ấy có thật trong lời kinh.",
+            "Ví dụ đi kèm là người mạnh nắm đầu, cổ hoặc vai một người yếu hơn, rồi chế ngự, đè nén, áp đảo. Đây là phép ví cho dùng tâm với tâm. Đầu, cổ, vai là các khả năng được kể, không một chuỗi động tác để làm với ai.",
+            "Cách này nằm trong bối cảnh người chuyên tu tăng thượng tâm, với điều kiện các tầm vẫn sinh khi phương thức trước đang được dùng. Bản diễn giải giữ lời kể, không đặt thành yêu cầu bác gây đau cho mình, ép người khác hoặc thử sức chịu đựng. Kinh nêu các tầm bất thiện được bỏ và chấm dứt, rồi tâm nhờ đó an trú, lắng, nhất tâm và vào định."
+          ],
+          "meaningUnits": [
+            "forceful-restraint",
+            "strong-man-simile"
+          ]
+        },
+        {
+          "id": "recap",
+          "kind": "teaching",
+          "heading": "Nhớ cả điều kiện lẫn hướng đến",
+          "paragraphs": [
+            "Phần tổng kết nhắc lần lượt năm cách: đổi đề mục thiện; xét nguy hại; không nhớ nghĩ, không chú tâm; làm lắng sự tạo tác; chế ngự mạnh. Sau mỗi cách, kinh lặp cùng kết quả: các tầm bất thiện về dục, sân, si được đoạn trừ, tâm an trú bên trong, lắng, nhất tâm và định.",
+            "Mạch ấy không đòi phải tăng lên cách mạnh hơn khi cách trước đã giúp các tầm chấm dứt. Bài cũng không quy định bao nhiêu phút hay bao nhiêu lần. Điều được giữ là nhận đúng tầm, dùng phương thức theo điều kiện và hướng tới định."
+          ],
+          "meaningUnits": [
+            "fivefold-recap",
+            "scope"
+          ]
+        },
+        {
+          "id": "conclusion",
+          "kind": "teaching",
+          "heading": "Sự tự chủ có chiều sâu giải thoát",
+          "paragraphs": [
+            "Vị thành tựu được gọi là người làm chủ đường lối suy nghĩ: nghĩ điều muốn nghĩ, không nghĩ điều không muốn. Như vậy, bài không lấy sự mất khả năng suy nghĩ làm mục đích.",
+            "Đoạn cuối đi sâu hơn: vị ấy cắt khát ái, tháo bỏ kiết sử, nhờ thấu hiểu đúng mạn mà chấm dứt khổ. Kiết sử là các trói buộc; mạn thường dịch là kiêu mạn, rộng hơn một thái độ khoe khoang. Sự thảnh thơi trong một buổi sinh hoạt chưa tự xác nhận thành tựu ấy. Khi Đức Phật nói xong, các tỳ-kheo hoan hỷ tán đồng."
+          ],
+          "meaningUnits": [
+            "mastery-and-release",
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một bước thực hành trong chuyện thường ngày",
+          "paragraphs": [
+            "Gợi ý hiện đại: với một bất đồng đang trở lại trong tâm, bác có thể nhận rõ ý muốn trả đũa và chuyển sang chuẩn bị lời nói thật, rõ, không làm nhục người kia. Nếu ý ấy vẫn trở lại, xét hậu quả của việc nuôi giận hoặc thôi nhắc lại những câu chỉ làm mình giận thêm.",
+            "Có thể thực hiện việc cần làm, nhờ sự hỗ trợ và giữ giới hạn của mình mà không tiếp tục nuôi sân hại. Gợi ý này tập trung các cách đầu, không yêu cầu tự làm động tác mạnh ở cách cuối. Nó là phần biên tập, không lời hứa chữa mọi suy nghĩ lặp lại hay đạt giải thoát sau một lần thử."
+          ],
+          "meaningUnits": [
+            "wholesome-object",
+            "drawbacks",
+            "nonattention"
+          ]
+        },
+        {
+          "id": "notes",
+          "kind": "clarification",
+          "heading": "Ghi chú để không nhầm cách diễn đạt",
+          "paragraphs": [
+            "Bản này đối chiếu Pāli, Việt dự án, Anh Sujato, toàn văn Việt Thích Minh Châu và chú thích dự án. Cụm của cách thứ tư có các lối dịch khác nhau; ở đây dùng làm lắng sự tạo tác theo lựa chọn dự án và phép ví giảm hoạt động. Không tự thêm một phương pháp đếm thở hay coi các bản đều thống nhất từng chữ.",
+            "Hai câu lặp trong Pāli rút phần chỉ dẫn dù không có dấu lược. Vì vậy bản diễn giải đọc chúng cùng lời hướng dẫn đầy đủ đầu mỗi cách, không hiểu rằng suy nghĩ bất thiện còn khởi thì tự nhiên sẽ hết. Anh Sujato cũng lược một số câu lặp và phần ghi nhớ; đối chiếu toàn mạch cần Pāli.",
+            "Năm phép ví là của kinh. Chuyện gia đình và gợi ý thực hành là văn hiện đại; các chú thích dự án cũng vậy. Cách giải mạn qua sự so đo quanh cái tôi chỉ là lối giúp bắt đầu hiểu; đoạn kết đặt sự thấu hiểu ấy trong việc chấm dứt khổ, không chỉ học cách nói khiêm tốn."
+          ],
+          "meaningUnits": [
+            "stilling-formation",
+            "posture-simile",
+            "looking-away",
+            "mastery-and-release"
+          ]
+        },
+        {
+          "id": "edition",
+          "kind": "clarification",
+          "heading": "Phần kết bài và ghi nhớ của phẩm",
+          "paragraphs": [
+            "Ấn bản ghi Kinh An Trú Tầm là bài thứ mười, kết Phẩm Sư Tử Hống là phẩm thứ hai. Kệ ghi nhớ nhắc mười bài: Tiểu Sư Tử Hống; Rợn tóc gáy tối thắng; Đại và Tiểu Khổ Uẩn; Tư Lượng; Hoang Vu; Khu Rừng; Mật Hoàn; Song Tầm; và bài giảng năm đề mục.",
+            "Theo chú thích dự án, tên Rợn tóc gáy gợi MN12, tên năm đề mục gợi MN20. Những dòng ấy giúp ghi nhớ cách sắp bài, không thêm một lời dạy luyện tâm mới. MN20 là số trong toàn Trung Bộ; thứ mười là vị trí trong phẩm."
+          ],
+          "meaningUnits": [
+            "identity",
+            "edition-memory"
+          ]
+        }
+      ]
+    }
+  }
+}
