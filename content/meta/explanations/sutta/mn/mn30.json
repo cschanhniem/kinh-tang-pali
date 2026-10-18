@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn30",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "83540d90-1486-401c-87d4-d32793a7d00c"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "10012798-f885-4776-9b46-c806a7c64876"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "25befaf0-3fc1-4712-92cc-fbf031d8f8cd"
+    }
+  },
+  "reviews": [
+    {
+      "id": "83540d90-1486-401c-87d4-d32793a7d00c",
+      "audience": "children",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.2,
+        "audience_fit": 9.1,
+        "clarity": 9.2,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.4,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Bản trẻ giữ người hỏi Piṅgalakoccha, đủ sáu đạo sư và ba khả năng ông nêu, rồi việc Đức Phật để câu hỏi ấy sang một bên. Các tầng thiền và phần quy y theo Pāli; chỗ lược ở Sujato không bị xem là lời dịch đầy đủ, và nghĩa papaṭikā được trình bày có lựa chọn.",
+        "semantic_fidelity": "Mục đích tìm lõi vẫn là tâm giải thoát không lay chuyển; lợi danh, giới, định và tri kiến không bị đồng nhất với mục đích ấy. Ở chặng cuối có diệt thọ tưởng, thấy bằng trí tuệ và lậu hoặc đoạn tận; không nói chỉ cần một trạng thái yên lặng hoặc học tốt là giải thoát.",
+        "core_coverage": "Mười lăm mục giải đủ 31 đơn vị và 163 khóa, gồm năm người lấy gỗ, năm trường hợp tu, chín mức cao hơn tri kiến đang bàn, trở lại lõi và lời kết. Liên kết heartwood ở children/release đã được bổ sung đúng phần prose vốn giải việc lấy đúng lõi; hai lần tán thán cũng đã giữ rõ.",
+        "logic_context": "Các trường hợp tách được không vui mừng thỏa mãn với lợi danh khỏi vui vì giới, định, tri kiến nhưng chưa xem là đủ. Mỗi lần dừng đều giữ chuỗi tự nâng mình, hạ người khác, không muốn và không nỗ lực tiến tới pháp cao hơn, trở nên lười; người thứ năm tiếp tục ở từng bước.",
+        "terminology": "Giới, định và tri kiến được giải qua nếp sống, tâm quy tụ và sự biết thấy; hỷ và lạc nay có lời giải khác nhau, không còn lạc là an lạc. Thọ có đủ ba sắc thái và tưởng là sự nhận ra; tên bốn xứ và phạm vi thuật ngữ thiền vẫn cần đọc từng đoạn với trẻ.",
+        "audience_fit": "Phép ví những người lấy nhầm phần cây tạo mạch chuyện cụ thể; ví dụ hai người dạy vẽ trên mạng nối với việc hỏi xem mình thực sự học được gì. Trẻ được quyền hỏi và nhờ người lớn hỗ trợ, không bị yêu cầu tự đánh giá chứng ngộ của thầy; bài vẫn dài và chưa có trẻ thật thử đọc.",
+        "clarity": "Các bước giới, định, tri kiến được tách thành từng mục trước khi chuyển sang các tầng thiền, giúp không lẫn năm trường hợp. Việc giải thọ và tưởng ngay tại lần dùng diệt thọ tưởng tháo một điểm khó; sáu tên riêng và nhiều tên chứng đạt vẫn làm nhịp đọc chậm.",
+        "editorial_separation": "Tình huống học vẽ và gợi ý tự hỏi được gắn nhãn example/practice và nói là liên hệ hiện đại. Câu hỏi ban đầu vẫn thuộc Piṅgalakoccha, lời giải thuộc Đức Phật, nhãn phẩm và kệ ghi nhớ thuộc ấn bản; không dựng đáp án về sáu đạo sư mà kinh không đưa ra.",
+        "practical_integrity": "Gợi ý cho phép vui với điều học được, nhận ra chỗ còn chưa biết và tiếp tục học mà không chê bạn khác. Nó không giao trẻ bài tập để tự đạt các tầng thiền hoặc hứa chứng ngộ từ một việc học; sự hỗ trợ của người lớn không trở thành yêu cầu phục tùng.",
+        "technical_integrity": "Audit sau sửa heartwood không có lỗi; toàn bộ 31 đơn vị và 163 khóa có ánh xạ phù hợp với prose. Fingerprint trẻ cùng năm sourceHashes được khóa từ đúng bản đã đọc lại; kiểm dữ liệu không thay việc build và thử giao diện của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Tác giả writer_c và người kiểm writer_b là hai tác tử khác nhau của cùng GPT-6 Astra Pro; chưa có học giả Pāli con người hoặc độc giả thật phê chuẩn. Đã đọc đủ 163 khóa Pāli, 163 khóa Việt dự án, 163 khóa Sujato, toàn HTML Minh Châu và 8 chú thích; sau đó đọc hết 31 đơn vị ý và cả ba bản. Có 56 ô Anh trống được nhận diện; các công thức lược được đối chiếu từ Pāli và Việt, không gọi là bản Anh đã dịch đủ. Kiểm kỹ năm vật từ cây và năm diễn tiến tu, các phủ định về niềm vui/thỏa mãn, sự tiếp tục nỗ lực, đủ bốn thiền, bốn xứ và diệt thọ tưởng với trí tuệ/lậu tận. papaṭikā còn khác biệt lộc non/vỏ ngoài; chỉ nhận đã đọc chú thích và nguồn hiện có, không nhận đã mở riêng PED hoặc Bodhi. Cách hiểu tri kiến giữ phạm vi đoạn này; không suy ra thứ bậc cho mọi cách dùng thuật ngữ. Lời quy y và kệ ghi nhớ ở cuối không được biến thành thành tựu mới của người hỏi. Sau tác giả sửa, đã đọc trọn tám mục: children/first-two, release; adults/jhanas-a, cessation, response-end; older-adults/first-pair, subtler, goal. Audit sạch của bản cuối cung cấp đúng fingerprint và sourceHashes; metadata, build và PR thuộc bước riêng của root.",
+      "contentHash": "193ce375edf9dca0612fe90440f3ffc9a387957f3a5fb236c03f4161d415e1c0",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn30.html",
+          "sha256": "490e36ca2b51db5baa14386811c921b4abdaa0189c87a780e48b7a52784b070f"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn30_root-pli-ms.json",
+          "sha256": "78eab779e8056ad61034b944c07803dbb74c7045cadeeb659c51b3e2faefb0ef"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn30_translation-en-sujato.json",
+          "sha256": "f59dc29318b0723925d0e30178bde4b91e4fc056cc8d767f8bec68b7ad7dfdd8"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn30_comment-vi-project.json",
+          "sha256": "565343670a3fe76bb914d0db0f6d0c323fa1c9d770ac39118139932487df01aa"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn30_translation-vi-project.json",
+          "sha256": "7c490965399d9ee7213337464350016e77ac70dc7ff32f2ca000a111f1c952ad"
+        }
+      ]
+    },
+    {
+      "id": "10012798-f885-4776-9b46-c806a7c64876",
+      "audience": "adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.2,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.4,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Bản trưởng thành giữ câu hỏi về tự biết tự thấy theo tuyên bố của sáu đạo sư, không thay thành một kết luận toàn tri hoặc phán xét họ. Năm vật lấy từ cây, lời đáp để sang một bên, chín chứng đạt và phần kết được đối chiếu với Pāli; khác biệt papaṭikā được nêu có giới hạn.",
+        "semantic_fidelity": "Tâm giải thoát không lay chuyển vẫn là cứu cánh, trong khi thành tựu giới, định và tri kiến có giá trị nhưng chưa phải điểm cuối của bài. Phần diệt thọ tưởng giữ riêng yếu tố thấy bằng trí tuệ và đoạn tận lậu hoặc; lời so sánh cao hơn tri kiến được giới hạn ở tri kiến đang được bàn.",
+        "core_coverage": "Mười sáu mục bao phủ đủ 31 ý: khung hỏi, năm ví dụ vật liệu, năm diễn tiến tu, bốn thiền, bốn xứ, diệt thọ tưởng, lõi cây và quy y. Những chỗ lặp được triển khai theo thay đổi về vui, đủ hay chưa đủ và tiếp tục nỗ lực, không chỉ ghi một công thức chung cho cả năm người.",
+        "logic_context": "Bản giữ phân biệt niềm vui với việc cho rằng nguyện vọng đã hoàn thành; sự không ham muốn và không nỗ lực đến pháp cao hơn được đặt đúng sau tự mãn ở từng mức. Các trạng thái sau tri kiến có điều kiện vượt mức trước, nhưng mỗi lời so sánh vẫn quy chiếu về tri kiến trong đoạn này.",
+        "terminology": "Giới, định, tri kiến, tầm, tứ, hỷ và lạc có lời giải theo mạch tu, không thu tri kiến thành kiến thức sách vở. Diệt thọ tưởng nay được mở bằng ba loại cảm nhận và sự nhận diện dừng trong chứng đạt; các giải nghĩa là nhập môn, không xác quyết một hệ chú giải ngoài nguồn đã đọc.",
+        "audience_fit": "Ví dụ lựa chọn người hướng dẫn thiền tập đặt trọng tâm vào nội dung được dạy, điều kiện, giới hạn và thái độ đối với thành tựu, phù hợp việc cân nhắc của người trưởng thành. Bản không hứa nhận ra ai giác ngộ chỉ qua danh tiếng hoặc một trải nghiệm; chưa có thử đọc với độc giả thật.",
+        "clarity": "Các tiêu đề giúp theo từng chỗ có thể dừng và lý do cần tiếp tục, trước khi đọc danh sách chứng đạt. Lời giải về tri kiến đang bàn ngăn một khái quát sai nhưng tăng độ nặng; vài đoạn làm rõ lựa chọn nguồn và công thức vẫn cần nhịp đọc chậm.",
+        "editorial_separation": "Ví dụ tìm người hướng dẫn và câu hỏi tự xét nằm trong phần biên tập riêng; cách đọc papaṭikā được công khai là một lựa chọn. Phần kết không gán cho Piṅgalakoccha thành tựu thiền hay giải thoát, cũng không biến lời quy y của ông thành phán quyết về sáu đạo sư.",
+        "practical_integrity": "Gợi ý xem lại nguyện vọng sau một thành tựu giữ được cả niềm vui học hỏi lẫn việc không tự tôn, không coi thường người khác. Nó không biến tiếp tục tu thành chạy theo thành tích, không cho rằng trạng thái tâm nhất thời là cứu cánh và không bỏ nền tảng đạo đức.",
+        "technical_integrity": "Đã lấy fingerprint sau khi đọc lại jhanas-a, cessation và response-end; audit cấu trúc và năm phụ thuộc nguồn đều sạch. Ba mươi mốt mã ý và các khóa được kiểm cùng nội dung, còn build production và việc ghi metadata là bước riêng của root."
+      },
+      "blockingErrors": [],
+      "notes": "Tác giả writer_c và người kiểm writer_b là hai tác tử khác nhau của cùng GPT-6 Astra Pro; chưa có học giả Pāli con người hoặc độc giả thật phê chuẩn. Đã đọc đủ 163 khóa Pāli, 163 khóa Việt dự án, 163 khóa Sujato, toàn HTML Minh Châu và 8 chú thích; sau đó đọc hết 31 đơn vị ý và cả ba bản. Có 56 ô Anh trống được nhận diện; các công thức lược được đối chiếu từ Pāli và Việt, không gọi là bản Anh đã dịch đủ. Kiểm kỹ năm vật từ cây và năm diễn tiến tu, các phủ định về niềm vui/thỏa mãn, sự tiếp tục nỗ lực, đủ bốn thiền, bốn xứ và diệt thọ tưởng với trí tuệ/lậu tận. papaṭikā còn khác biệt lộc non/vỏ ngoài; chỉ nhận đã đọc chú thích và nguồn hiện có, không nhận đã mở riêng PED hoặc Bodhi. Cách hiểu tri kiến giữ phạm vi đoạn này; không suy ra thứ bậc cho mọi cách dùng thuật ngữ. Lời quy y và kệ ghi nhớ ở cuối không được biến thành thành tựu mới của người hỏi. Sau tác giả sửa, đã đọc trọn tám mục: children/first-two, release; adults/jhanas-a, cessation, response-end; older-adults/first-pair, subtler, goal. Audit sạch của bản cuối cung cấp đúng fingerprint và sourceHashes; metadata, build và PR thuộc bước riêng của root.",
+      "contentHash": "054383bcb3124081cac0c0ceb7b672f22e00bc36653f9cfcd8c4a876ca097fea",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn30.html",
+          "sha256": "490e36ca2b51db5baa14386811c921b4abdaa0189c87a780e48b7a52784b070f"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn30_root-pli-ms.json",
+          "sha256": "78eab779e8056ad61034b944c07803dbb74c7045cadeeb659c51b3e2faefb0ef"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn30_translation-en-sujato.json",
+          "sha256": "f59dc29318b0723925d0e30178bde4b91e4fc056cc8d767f8bec68b7ad7dfdd8"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn30_comment-vi-project.json",
+          "sha256": "565343670a3fe76bb914d0db0f6d0c323fa1c9d770ac39118139932487df01aa"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn30_translation-vi-project.json",
+          "sha256": "7c490965399d9ee7213337464350016e77ac70dc7ff32f2ca000a111f1c952ad"
+        }
+      ]
+    },
+    {
+      "id": "25befaf0-3fc1-4712-92cc-fbf031d8f8cd",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.2,
+        "audience_fit": 9.3,
+        "clarity": 9.3,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.4,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Người hỏi, tên sáu đạo sư, ba khả năng và cách Đức Phật chuyển sang ví dụ đều được giữ đúng nguồn. Cách gọi phần cây có nhận diện khác biệt, các chỗ lược không được giả thành toàn văn đã xác nhận; hai lần tán thán ở cuối đã được sửa theo mn30:24.2.",
+        "semantic_fidelity": "Bản giữ trục từ nguyện vọng chấm dứt khổ đến tâm giải thoát không lay chuyển, không biến bài thành khuyên bớt tham vọng ở tuổi cao. Niềm vui với giới, định và tri kiến có chỗ đứng, nhưng trí tuệ và lậu tận vẫn cần được đọc cùng chứng đạt cuối.",
+        "core_coverage": "Mười lăm mục triển khai đủ 31 ý và 163 khóa, không bỏ các lần tiếp tục nỗ lực sau thành tựu ở người thứ năm. Cả chín mức sau tri kiến, việc trở lại người lấy đúng lõi, lời quy y và kệ ghi nhớ các bài của phẩm đều được phân biệt trong mạch đọc.",
+        "logic_context": "Sự khác nhau giữa vui vì đã tiến và dừng vì cho là đủ được giữ ở từng chặng; lợi danh không nhận cùng công thức với thành tựu giới. Mỗi trạng thái thiền vượt mức trước theo điều kiện được kể, và mục tiêu cuối vẫn là tâm giải thoát, không phải niềm vui hay sự định tĩnh tự nó.",
+        "terminology": "Giới, định và tri kiến được đặt trong nếp sống và việc tu; hỷ là hân hoan, lạc đã được mở thành an vui, dễ chịu. Thọ và tưởng được giải ngay tại diệt thọ tưởng với giới hạn trong chứng đạt ấy; tên các xứ vẫn giữ độ khó vốn có, không đổi thành các khái niệm hiện đại sai phạm vi.",
+        "audience_fit": "Ví dụ người có kinh nghiệm làm vườn đang học một loại cây mới giữ cả năng lực đã có lẫn quyền tiếp tục học hỏi. Đoạn văn có nhịp vừa phải và không mặc định suy yếu, cô đơn hay gần chết; đây là nhận xét biên tập, chưa có nhóm người lớn tuổi thực tế đọc thử.",
+        "clarity": "Hình ảnh trở lại lõi cây giúp nối các chặng thiền dài với nguyện vọng ban đầu, còn từng cặp tầng thiền được tách gọn. Lời giải thọ, tưởng và lạc đã giảm các vòng giải nghĩa; danh mục tên riêng và trạng thái vi tế vẫn đòi hỏi đọc lại khi chưa quen.",
+        "editorial_separation": "Câu chuyện làm vườn và phần tự xét được ghi như liên hệ hiện đại, không lẫn vào lời Phật. Lời quy y được kể đúng là lựa chọn của Piṅgalakoccha; phần nhãn phẩm và kệ ghi nhớ được nhận là lời của ấn bản, không dùng để gán thêm giáo nghĩa.",
+        "practical_integrity": "Gợi ý lựa chọn một việc đang học, nhớ lại mục đích và nhận ra khi bắt đầu tự hơn thua tôn trọng quyền chủ động của người đọc. Bản không hạ thấp kinh nghiệm lâu năm, không ép buông trách nhiệm đời sống và không hứa giải thoát từ thành công trong việc làm vườn.",
+        "technical_integrity": "Đã đọc lại toàn first-pair, subtler và goal sau sửa, rồi kiểm đúng fingerprint cùng năm hash nguồn của bản freeze. Audit không báo lỗi cấu trúc hay ánh xạ; kết quả này không được dùng như bằng chứng đã thử đọc trên giao diện hoặc build toàn lô."
+      },
+      "blockingErrors": [],
+      "notes": "Tác giả writer_c và người kiểm writer_b là hai tác tử khác nhau của cùng GPT-6 Astra Pro; chưa có học giả Pāli con người hoặc độc giả thật phê chuẩn. Đã đọc đủ 163 khóa Pāli, 163 khóa Việt dự án, 163 khóa Sujato, toàn HTML Minh Châu và 8 chú thích; sau đó đọc hết 31 đơn vị ý và cả ba bản. Có 56 ô Anh trống được nhận diện; các công thức lược được đối chiếu từ Pāli và Việt, không gọi là bản Anh đã dịch đủ. Kiểm kỹ năm vật từ cây và năm diễn tiến tu, các phủ định về niềm vui/thỏa mãn, sự tiếp tục nỗ lực, đủ bốn thiền, bốn xứ và diệt thọ tưởng với trí tuệ/lậu tận. papaṭikā còn khác biệt lộc non/vỏ ngoài; chỉ nhận đã đọc chú thích và nguồn hiện có, không nhận đã mở riêng PED hoặc Bodhi. Cách hiểu tri kiến giữ phạm vi đoạn này; không suy ra thứ bậc cho mọi cách dùng thuật ngữ. Lời quy y và kệ ghi nhớ ở cuối không được biến thành thành tựu mới của người hỏi. Sau tác giả sửa, đã đọc trọn tám mục: children/first-two, release; adults/jhanas-a, cessation, response-end; older-adults/first-pair, subtler, goal. Audit sạch của bản cuối cung cấp đúng fingerprint và sourceHashes; metadata, build và PR thuộc bước riêng của root.",
+      "contentHash": "3fad2842b5274c0f3c9bcb1c7b4476b20e43c7d19b3818a2a408f93c35bac0b6",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn30.html",
+          "sha256": "490e36ca2b51db5baa14386811c921b4abdaa0189c87a780e48b7a52784b070f"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn30_root-pli-ms.json",
+          "sha256": "78eab779e8056ad61034b944c07803dbb74c7045cadeeb659c51b3e2faefb0ef"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn30_translation-en-sujato.json",
+          "sha256": "f59dc29318b0723925d0e30178bde4b91e4fc056cc8d767f8bec68b7ad7dfdd8"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn30_comment-vi-project.json",
+          "sha256": "565343670a3fe76bb914d0db0f6d0c323fa1c9d770ac39118139932487df01aa"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn30_translation-vi-project.json",
+          "sha256": "7c490965399d9ee7213337464350016e77ac70dc7ff32f2ca000a111f1c952ad"
+        }
+      ]
+    }
+  ]
+}

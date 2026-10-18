@@ -1,0 +1,1458 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn22",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
+      "sha256": "d8b06b3d82b0d49eb465fcb1712c69f489103928696ad08d142647b104457a64",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json",
+      "sha256": "28be395adcf6b1ac28facd1067d221c3078281c1a53bfec01574a0e4ca96300a",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn22_translation-vi-project.json",
+      "sha256": "bffac93329b38e4c6071b44c77a189c52cb158a4669d5170c4da8a3af2a4176a",
+      "commit": "cac22dc9d18cfc1960413c1188129c796a37e935"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn22.html",
+      "sha256": "e73194886e28fa2db417f866e340e502265a1908db1ede0c56b4dfaf21659f19",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn22_comment-vi-project.json",
+      "sha256": "1dfd732e253ca96d988c8f6a95aaddd6890c48d4731b5d4fc71e3828540bfc3e",
+      "commit": "cac22dc9d18cfc1960413c1188129c796a37e935"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Nhận diện Kinh Ví Dụ Con Rắn",
+      "segments": [
+        "mn22:0.1",
+        "mn22:0.2"
+      ],
+      "summary": "MN22, Alagaddūpamasutta; tên và số ấn bản."
+    },
+    {
+      "id": "setting",
+      "title": "Đức Phật ở Jeta",
+      "segments": [
+        "mn22:1.1",
+        "mn22:1.2"
+      ],
+      "summary": "Người kể nghe; Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika."
+    },
+    {
+      "id": "aritta",
+      "title": "Ariṭṭha hiểu sai pháp chướng ngại",
+      "segments": [
+        "mn22:2.1",
+        "mn22:2.2",
+        "mn22:2.3",
+        "mn22:2.4",
+        "mn22:2.5"
+      ],
+      "summary": "Tỳ-kheo Ariṭṭha trước bắt kên kên cho rằng pháp bị Phật gọi chướng ngại thực hành không cản trở; các tỳ-kheo nghe tin. Đây là tà kiến được bác."
+    },
+    {
+      "id": "correction",
+      "title": "Các tỳ-kheo chất vấn và mười hình ảnh",
+      "segments": [
+        "mn22:3.1",
+        "mn22:3.2",
+        "mn22:3.3",
+        "mn22:3.4",
+        "mn22:3.5",
+        "mn22:3.6",
+        "mn22:3.7",
+        "mn22:3.8",
+        "mn22:3.9",
+        "mn22:3.10",
+        "mn22:3.11",
+        "mn22:3.12",
+        "mn22:3.13",
+        "mn22:3.14",
+        "mn22:3.15",
+        "mn22:3.16",
+        "mn22:3.17",
+        "mn22:3.18",
+        "mn22:3.19",
+        "mn22:3.20"
+      ],
+      "summary": "Ariṭṭha xác nhận; đồng tu phân tích để bỏ kiến, không xuyên tạc Phật; dục ít vui nhiều khổ/não/nguy. Đủ10ví: xương/thịt/đuốc cỏ/hố than/mộng/đồ mượn/trái cây/dao-thớt/gươm-giáo/đầu rắn. Ariṭṭha vẫn chấp."
+    },
+    {
+      "id": "report",
+      "title": "Trình lại sự việc và gọi Ariṭṭha",
+      "segments": [
+        "mn22:3.21",
+        "mn22:3.22",
+        "mn22:3.23",
+        "mn22:3.24",
+        "mn22:3.25",
+        "mn22:3.26",
+        "mn22:3.27",
+        "mn22:3.28",
+        "mn22:3.29",
+        "mn22:3.30",
+        "mn22:3.31",
+        "mn22:3.32",
+        "mn22:3.33",
+        "mn22:3.34",
+        "mn22:3.35",
+        "mn22:3.36",
+        "mn22:3.37",
+        "mn22:3.38",
+        "mn22:3.39",
+        "mn22:4.1",
+        "mn22:5.1",
+        "mn22:5.2",
+        "mn22:5.3",
+        "mn22:5.4",
+        "mn22:5.5",
+        "mn22:5.6",
+        "mn22:5.7",
+        "mn22:5.8",
+        "mn22:5.9"
+      ],
+      "summary": "Không thuyết phục được nên trình Phật, kể lời hỏi/đáp/tranh luận của mình; Phật sai gọi, Ariṭṭha đến xác nhận lại tà kiến."
+    },
+    {
+      "id": "rebuke",
+      "title": "Phật bác và hỏi đại chúng",
+      "segments": [
+        "mn22:6.1",
+        "mn22:6.2",
+        "mn22:6.3",
+        "mn22:6.4",
+        "mn22:6.5",
+        "mn22:6.6",
+        "mn22:6.7",
+        "mn22:6.8",
+        "mn22:6.9",
+        "mn22:6.10",
+        "mn22:6.11",
+        "mn22:6.12",
+        "mn22:6.13",
+        "mn22:6.14",
+        "mn22:6.15",
+        "mn22:7.1",
+        "mn22:7.2",
+        "mn22:7.3",
+        "mn22:7.4",
+        "mn22:7.5",
+        "mn22:7.6",
+        "mn22:7.7",
+        "mn22:7.8",
+        "mn22:7.9"
+      ],
+      "summary": "Phật quở nắm sai/xuyên tạc/tự hại/tạo vô phước/bất lợi lâu, nhắc10ví. Hỏi đã chút hơi ấm trong Pháp-Luật chưa, đại chúng đáp không. Ariṭṭha im/bối rối/rũ vai/cúi/buồn/không đáp; Phật nói được biết qua kiến ấy rồi hỏi các thầy."
+    },
+    {
+      "id": "affirmation",
+      "title": "Đại chúng xác nhận đúng lời dạy",
+      "segments": [
+        "mn22:8.1",
+        "mn22:8.2",
+        "mn22:8.3",
+        "mn22:8.4",
+        "mn22:8.5",
+        "mn22:8.6",
+        "mn22:8.7",
+        "mn22:8.8",
+        "mn22:8.9",
+        "mn22:8.10",
+        "mn22:8.11",
+        "mn22:8.12",
+        "mn22:8.13",
+        "mn22:8.14",
+        "mn22:8.15",
+        "mn22:9.1"
+      ],
+      "summary": "Các thầy không hiểu như Ariṭṭha, nhắc pháp cản thật/dục ít vui nhiều khổ; Phật tán đồng và nhắc hậu quả Ariṭṭha. Không thể thọ dụng dục ngoài dục/dục tưởng/dục tầm."
+    },
+    {
+      "id": "wrong-study",
+      "title": "Học sai mục đích",
+      "segments": [
+        "mn22:10.1",
+        "mn22:10.2",
+        "mn22:10.3",
+        "mn22:10.4",
+        "mn22:10.5",
+        "mn22:10.6",
+        "mn22:10.7",
+        "mn22:10.8",
+        "mn22:10.9",
+        "mn22:10.17",
+        "mn22:10.18",
+        "mn22:10.19",
+        "mn22:10.20",
+        "mn22:10.21",
+        "mn22:10.22",
+        "mn22:10.23",
+        "mn22:10.24",
+        "mn22:10.25"
+      ],
+      "summary": "Học9thể: sutta/geyya/veyyakarana/gatha/udana/itivuttaka/jataka/abbhutadhamma/vedalla; không xét nghĩa bằng tuệ, không chấp nhận sau suy xét; để chỉ trích/thắng luận, không đạt đích, hại/khổ lâu vì nắm sai; nhắc sau phép ví."
+    },
+    {
+      "id": "wrong-snake",
+      "title": "Nắm rắn sai",
+      "segments": [
+        "mn22:10.10",
+        "mn22:10.11",
+        "mn22:10.12",
+        "mn22:10.13",
+        "mn22:10.14",
+        "mn22:10.15",
+        "mn22:10.16"
+      ],
+      "summary": "Người tìm rắn lớn nắm thân/đuôi; rắn quay cắn tay/cánh tay/phần thân, gây chết/đau gần chết do nắm sai. Alagadda khác cách xác định loài, không rắn lành."
+    },
+    {
+      "id": "right-study",
+      "title": "Học với trí tuệ",
+      "segments": [
+        "mn22:11.1",
+        "mn22:11.2",
+        "mn22:11.3",
+        "mn22:11.4",
+        "mn22:11.5",
+        "mn22:11.6",
+        "mn22:11.7",
+        "mn22:11.8",
+        "mn22:11.9",
+        "mn22:11.17",
+        "mn22:11.18",
+        "mn22:11.19",
+        "mn22:11.20",
+        "mn22:11.21",
+        "mn22:11.22",
+        "mn22:11.23",
+        "mn22:11.24",
+        "mn22:11.25"
+      ],
+      "summary": "Thiện nam tử học cùng9thể, xét nghĩa bằng tuệ, chấp nhận sau cân nhắc; không để chỉ trích/thắng luận, đạt mục đích, lợi/hạnh phúc lâu vì nắm đúng; nhắc sau ví."
+    },
+    {
+      "id": "right-snake",
+      "title": "Nắm rắn đúng trong phép ví",
+      "segments": [
+        "mn22:11.10",
+        "mn22:11.11",
+        "mn22:11.12",
+        "mn22:11.13",
+        "mn22:11.14",
+        "mn22:11.15",
+        "mn22:11.16"
+      ],
+      "summary": "Người tìm rắn dùng gậy chẻ nhánh khéo đè rồi nắm cổ; dù rắn quấn tay/cánh tay/thân không chết/đau gần chết do việc ấy. Đây là kể phép ví, không khuyến nghị độc giả bắt rắn."
+    },
+    {
+      "id": "ask",
+      "title": "Hiểu rồi nhớ, chưa hiểu thì hỏi",
+      "segments": [
+        "mn22:12.1",
+        "mn22:12.2"
+      ],
+      "summary": "Hiểu lời dạy thì ghi nhớ đúng; chưa hiểu thì hỏi Phật hoặc tỳ-kheo thông thạo."
+    },
+    {
+      "id": "raft",
+      "title": "Bè để vượt qua",
+      "segments": [
+        "mn22:13.1",
+        "mn22:13.2",
+        "mn22:13.3",
+        "mn22:13.4",
+        "mn22:13.5",
+        "mn22:13.6",
+        "mn22:13.7",
+        "mn22:13.8",
+        "mn22:13.9",
+        "mn22:13.10",
+        "mn22:13.11",
+        "mn22:13.12",
+        "mn22:13.13",
+        "mn22:13.14",
+        "mn22:13.15",
+        "mn22:13.16",
+        "mn22:13.17",
+        "mn22:13.18",
+        "mn22:13.19",
+        "mn22:13.20",
+        "mn22:13.21",
+        "mn22:13.22",
+        "mn22:13.23",
+        "mn22:13.24",
+        "mn22:13.25",
+        "mn22:13.26"
+      ],
+      "summary": "Người gặp nước lớn bờ gần nguy/bờ xa an; không thuyền/cầu; gom cỏ/cây/cành/lá kết bè, dùng tay chân sang an toàn. Biết ơn nhưng không đội/vác đi; kéo bờ khô hoặc thả nước rồi đi. Pháp để vượt không ôm."
+    },
+    {
+      "id": "release-teachings",
+      "title": "Buông cả pháp, huống phi pháp",
+      "segments": [
+        "mn22:14.1"
+      ],
+      "summary": "Hiểu ví bè thì các pháp còn cần buông huống phi pháp; bối cảnh dùng vượt rồi không ôm, không cho phép hưởng chướng ngại như Ariṭṭha."
+    },
+    {
+      "id": "six-views",
+      "title": "Sáu kiến xứ, hai cách nhìn",
+      "segments": [
+        "mn22:15.1",
+        "mn22:15.2",
+        "mn22:15.3",
+        "mn22:15.4",
+        "mn22:15.5",
+        "mn22:15.6",
+        "mn22:15.7",
+        "mn22:15.8",
+        "mn22:15.9",
+        "mn22:15.10",
+        "mn22:15.11",
+        "mn22:16.1",
+        "mn22:16.2",
+        "mn22:16.3",
+        "mn22:16.4",
+        "mn22:16.5",
+        "mn22:16.6",
+        "mn22:16.7",
+        "mn22:16.8",
+        "mn22:16.9"
+      ],
+      "summary": "Phàm phu chưa gặp/học/rèn Thánh và chân nhân chấp của tôi/tôi/tự ngã với sắc/thọ/tưởng/hành; điều thấy-nghe-cảm-biết-đạt-tìm-suy; kiến thế giới=tự ngã/sau chết thường mãi. Thánh đệ tử học/rèn thấy phủ định cả3 đối với đủ6nhóm."
+    },
+    {
+      "id": "external-anxiety",
+      "title": "Lo và không lo về điều bên ngoài vắng",
+      "segments": [
+        "mn22:17.1",
+        "mn22:18.1",
+        "mn22:18.2",
+        "mn22:18.3",
+        "mn22:18.4",
+        "mn22:18.5",
+        "mn22:18.6",
+        "mn22:18.7",
+        "mn22:18.8",
+        "mn22:19.1",
+        "mn22:19.2",
+        "mn22:19.3",
+        "mn22:19.4",
+        "mn22:19.5",
+        "mn22:19.6",
+        "mn22:19.7"
+      ],
+      "summary": "Thấy vậy không lo vì điều không thật có/vắng; tỳ-kheo hỏi. Có: từng là của tôi nay không/có thể là của tôi mà không được→sầu/mệt/than/đấm ngực/mê. Không nghĩ vậy→không các phản ứng ấy. Asati có cách đọc về vắng mặt."
+    },
+    {
+      "id": "internal-anxiety",
+      "title": "Lo và không lo về tự ngã tưởng tượng",
+      "segments": [
+        "mn22:20.1",
+        "mn22:20.2",
+        "mn22:20.3",
+        "mn22:20.4",
+        "mn22:20.5",
+        "mn22:20.6",
+        "mn22:20.7",
+        "mn22:20.8",
+        "mn22:20.9",
+        "mn22:21.1",
+        "mn22:21.2",
+        "mn22:21.3",
+        "mn22:21.4",
+        "mn22:21.5",
+        "mn22:21.6",
+        "mn22:21.7",
+        "mn22:21.8",
+        "mn22:21.9"
+      ],
+      "summary": "Chấp thế giới=tự ngã vĩnh cửu nghe Phật/đệ tử dạy nhổ mọi kiến xứ/chỗ bám/ám ảnh/cố chấp/tùy miên, lắng mọi hành/bỏ sanh y/ái tận/ly tham/diệt/Nibbana thì tưởng mình bị diệt, sầu/mệt/than/đấm/mê. Không chấp ấy thì nghe cùng lời không nghĩ/khổ vậy."
+    },
+    {
+      "id": "three-challenges",
+      "title": "Ba thử thách về chấp giữ",
+      "segments": [
+        "mn22:22.1",
+        "mn22:22.2",
+        "mn22:22.3",
+        "mn22:22.4",
+        "mn22:22.5",
+        "mn22:23.1",
+        "mn22:23.2",
+        "mn22:23.3",
+        "mn22:23.4",
+        "mn22:23.5",
+        "mn22:24.1",
+        "mn22:24.2",
+        "mn22:24.3",
+        "mn22:24.4",
+        "mn22:24.5"
+      ],
+      "summary": "Giả định sở hữu thường hằng; ngã luận thủ không sinh sầu/bi/khổ/ưu/não; nương kiến không sinh như vậy: các thầy và Phật đều không thấy trường hợp thỏa, không cấp giấy phép chấp."
+    },
+    {
+      "id": "self-and-mine",
+      "title": "Ngã và ngã sở",
+      "segments": [
+        "mn22:25.1",
+        "mn22:25.2",
+        "mn22:25.3",
+        "mn22:25.4",
+        "mn22:25.5",
+        "mn22:25.6",
+        "mn22:25.7",
+        "mn22:25.8"
+      ],
+      "summary": "Nếu ngã có thì có của ngã, và ngược lại; đáp có. Nhưng không tìm được cả hai như sự thật chắc chắn, kiến vĩnh cửu thế giới/ngã bị hỏi là hoàn toàn ngu muội, các thầy đồng ý."
+    },
+    {
+      "id": "impermanence",
+      "title": "Năm uẩn vô thường và không thích hợp chấp ngã",
+      "segments": [
+        "mn22:26.1",
+        "mn22:26.2",
+        "mn22:26.3",
+        "mn22:26.4",
+        "mn22:26.5",
+        "mn22:26.6",
+        "mn22:26.7",
+        "mn22:26.8",
+        "mn22:26.9",
+        "mn22:26.10",
+        "mn22:26.11",
+        "mn22:26.12",
+        "mn22:26.13",
+        "mn22:26.14",
+        "mn22:26.15",
+        "mn22:26.16",
+        "mn22:26.17",
+        "mn22:26.18",
+        "mn22:26.19"
+      ],
+      "summary": "Hỏi sắc, rồi thọ/tưởng/hành/thức: vô thường→khổ→biến hoại không hợp xem của tôi/tôi/ngã; đối thoại đáp không."
+    },
+    {
+      "id": "all-aggregates",
+      "title": "Không chừa một phạm vi của uẩn",
+      "segments": [
+        "mn22:27.1",
+        "mn22:27.2",
+        "mn22:27.3",
+        "mn22:27.4",
+        "mn22:27.5"
+      ],
+      "summary": "Mọi5uẩn quá khứ/tương lai/hiện tại, trong/ngoài, thô/tế, thấp/cao, xa/gần phải được thấy đúng bằng tuệ là không của tôi/không tôi/không ngã."
+    },
+    {
+      "id": "liberation",
+      "title": "Yểm ly đến giải thoát",
+      "segments": [
+        "mn22:28.1",
+        "mn22:29.1",
+        "mn22:29.2"
+      ],
+      "summary": "Thấy→nhàm chán5uẩn→ly tham→giải thoát→biết đã thoát; sinh tận/phạm hạnh thành/việc xong/không trở lại hiện hữu này."
+    },
+    {
+      "id": "fortress",
+      "title": "Năm cụm hình ảnh về bậc giải thoát",
+      "segments": [
+        "mn22:30.1",
+        "mn22:31.1",
+        "mn22:31.2",
+        "mn22:31.3",
+        "mn22:32.1",
+        "mn22:32.2",
+        "mn22:32.3",
+        "mn22:33.1",
+        "mn22:33.2",
+        "mn22:33.3",
+        "mn22:34.1",
+        "mn22:34.2",
+        "mn22:34.3",
+        "mn22:35.1",
+        "mn22:35.2",
+        "mn22:35.3"
+      ],
+      "summary": "Nhấc thanh chắn=vô minh; lấp hào=vòng sinh tử tái hữu; nhổ cột=ái; không ngăn=năm hạ phần kiết sử; hạ cờ/bỏ gánh/hết hệ lụy=mạn tôi là. Mỗi thứ đã cắt gốc như gốc cọ, không sinh lại."
+    },
+    {
+      "id": "untraceable",
+      "title": "Không truy được chỗ nương của thức vị giải thoát",
+      "segments": [
+        "mn22:36.1",
+        "mn22:36.2",
+        "mn22:36.3",
+        "mn22:36.4"
+      ],
+      "summary": "Chư thiên cùng Indra/Brahma/Pajapati không tìm được thức của vị này nương đây; ngay hiện tại tathagata không truy được. Tathagata ở đây là vị tỳ-kheo giải thoát, không riêng Phật; không tàng hình/không khẳng định đoạn diệt."
+    },
+    {
+      "id": "misrepresentation",
+      "title": "Không dạy tiêu diệt hữu tình",
+      "segments": [
+        "mn22:37.1",
+        "mn22:37.2",
+        "mn22:37.3",
+        "mn22:37.4",
+        "mn22:37.5"
+      ],
+      "summary": "Một số sa-mon/ba-la-mon vu Phật đoạn diệt hữu tình có thật; Ngài bác sai/rỗng/giả/không thật, từ trước đến nay dạy khổ và diệt khổ."
+    },
+    {
+      "id": "praise-blame",
+      "title": "Chê và kính trọng không làm tâm chao đảo",
+      "segments": [
+        "mn22:37.6",
+        "mn22:38.1",
+        "mn22:38.2",
+        "mn22:38.3",
+        "mn22:39.1",
+        "mn22:39.2",
+        "mn22:39.3",
+        "mn22:39.4"
+      ],
+      "summary": "Phật không hận/bất mãn khi bị mắng/công kích/quấy/phiền; không hân hoan/hớn hở vì được tôn/kính/lễ/cúng. Nghĩ việc này làm đối với điều đã liễu tri từ trước; dạy các thầy tương tự, không tự điền đối tượng chưa nêu của pariññata."
+    },
+    {
+      "id": "not-yours",
+      "title": "Bỏ cái không của mình và cỏ lá Jeta",
+      "segments": [
+        "mn22:40.1",
+        "mn22:40.2",
+        "mn22:41.1",
+        "mn22:41.2",
+        "mn22:41.3",
+        "mn22:41.4",
+        "mn22:41.5",
+        "mn22:41.6",
+        "mn22:41.7",
+        "mn22:41.8",
+        "mn22:41.9",
+        "mn22:41.10",
+        "mn22:41.11",
+        "mn22:41.12",
+        "mn22:41.13",
+        "mn22:41.14",
+        "mn22:41.15",
+        "mn22:41.16",
+        "mn22:41.17",
+        "mn22:41.18",
+        "mn22:41.19",
+        "mn22:41.20",
+        "mn22:41.21",
+        "mn22:41.22",
+        "mn22:41.23",
+        "mn22:41.24",
+        "mn22:41.25",
+        "mn22:41.26",
+        "mn22:41.27",
+        "mn22:41.28"
+      ],
+      "summary": "Bỏ từng5uẩn không phải của mình vì lợi/hạnh phúc lâu; nếu người lấy/đốt cỏ/cây/cành/lá Jeta, các thầy không nghĩ mình bị vậy vì không ngã/ngã sở; nhắc bỏ5uẩn, không phá thân."
+    },
+    {
+      "id": "clear-teaching",
+      "title": "Pháp khéo giảng và mở bày",
+      "segments": [
+        "mn22:42.1",
+        "mn22:43.1",
+        "mn22:44.1",
+        "mn22:45.1",
+        "mn22:46.1",
+        "mn22:47.1"
+      ],
+      "summary": "Sáu lần nhắc Pháp khéo giảng, sáng rõ/mở/hiển lộ/không chắp vá che; làm nền cho6nhóm kết quả, không đồng nhất họ."
+    },
+    {
+      "id": "arahants",
+      "title": "Không còn vòng sinh tử cho A-la-hán",
+      "segments": [
+        "mn22:42.2"
+      ],
+      "summary": "Arahant lậu tận/phạm hạnh xong/việc xong/bỏ gánh/đạt đích/đoạn hữu kiết/giải thoát chánh trí không vòngluân đểchỉ."
+    },
+    {
+      "id": "nonreturners",
+      "title": "Năm trói buộc thấp đã bỏ",
+      "segments": [
+        "mn22:43.2"
+      ],
+      "summary": "Bỏ5hạ phần kiết sử→hóa sinh, Nibbana tại đó, không trở lại từ thế giới ấy; không nhậpdiệt tạiđây."
+    },
+    {
+      "id": "oncereturners",
+      "title": "Một lần trở lại",
+      "segments": [
+        "mn22:44.2"
+      ],
+      "summary": "Bỏ3kiết sử, tham/sân/si mỏng→Nhấtlai, đến thế giới này một lần rồi khổtận."
+    },
+    {
+      "id": "streamenterers",
+      "title": "Dự lưu",
+      "segments": [
+        "mn22:45.2"
+      ],
+      "summary": "Đoạn3kiết sử→Dựlưu, không đọa cõi thấp, chắc chắn hướng giácngộ."
+    },
+    {
+      "id": "followers",
+      "title": "Theo Pháp và theo niềm tin",
+      "segments": [
+        "mn22:46.2"
+      ],
+      "summary": "Tỳ-kheo tùy Pháp/tùy tín đều hướng giácngộ, chưa đồng nhất với Arahant hay chỉ tình cảm chung."
+    },
+    {
+      "id": "faith",
+      "title": "Một mức tin và thương kính",
+      "segments": [
+        "mn22:47.2"
+      ],
+      "summary": "Những ai có một mức tin/thương kính đối với Phật trong Pháp đã khéo giảng đều hướng cõi trời; không đổi cõi trời thành giácngộ."
+    },
+    {
+      "id": "ending",
+      "title": "Tán đồng và kết bài",
+      "segments": [
+        "mn22:47.3",
+        "mn22:47.4",
+        "mn22:47.5"
+      ],
+      "summary": "Phật nói xong, tỳ-kheo vui/tán đồng; colophon thứ2trongphẩm, UID22."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Hiểu lời dạy để bớt khổ, không để thắng người khác",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "example",
+          "heading": "Một câu đúng cũng có thể bị dùng sai",
+          "paragraphs": [
+            "Em nghe rằng cần biết tha thứ. Lần sau em lấy đồ của bạn rồi nói: bạn phải tha thứ, đừng nhắc nữa. Câu về tha thứ đã bị dùng để né việc nhận lỗi. Đây là ví dụ hôm nay, không phải chuyện trong kinh.",
+            "Kinh Ví Dụ Con Rắn hỏi ta học lời dạy bằng cách nào. Nhớ được một câu chưa đủ; còn cần hiểu nghĩa và dùng đúng hướng."
+          ],
+          "meaningUnits": [
+            "wrong-study",
+            "ask"
+          ]
+        },
+        {
+          "id": "aritta",
+          "kind": "teaching",
+          "heading": "Người học khăng khăng rằng mình đã hiểu",
+          "paragraphs": [
+            "MN22 kể Đức Phật đang ở rừng Jeta, tu viện Anāthapiṇḍika tại Sāvatthī. Tỳ-kheo Ariṭṭha, trước kia làm nghề bắt chim kên kên, cho rằng những điều Đức Phật gọi là chướng ngại không thực sự cản trở người làm chúng. Tỳ-kheo là người nam xuất gia tu học.",
+            "Các thầy khác đến hỏi; Ariṭṭha nhận đúng ý mình. Các thầy giải thích rằng điều gây cản trở thì thực sự gây cản trở. Riêng dục lạc, tức vui thích do hưởng những thứ hấp dẫn giác quan, được dạy là ít vui, nhiều khổ, nhiều phiền và nguy hiểm. Nhưng Ariṭṭha vẫn giữ ý cũ. Các thầy trình lại với Đức Phật; Ngài cho mời Ariṭṭha đến và hỏi, ông lại xác nhận."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "aritta",
+            "correction",
+            "report"
+          ]
+        },
+        {
+          "id": "images",
+          "kind": "teaching",
+          "heading": "Mười hình ảnh nhắc về sự nguy hiểm",
+          "paragraphs": [
+            "Các thầy và Đức Phật nhắc mười hình ảnh từng được dùng về dục: khúc xương, miếng thịt, đuốc cỏ, hố than, giấc mộng, đồ đi mượn, trái trên cây, dao và thớt, gươm và giáo, đầu rắn. Bài này nêu tên các phép ví để nhắc cái vui ít mà khổ, phiền và nguy nhiều; không kể lại thành mười truyện riêng.",
+            "Đức Phật quở Ariṭṭha rất nghiêm: nắm sai rồi gán cho Ngài như vậy là tự làm hại, tạo điều vô phước, đưa đến khổ lâu dài. Khi Ngài hỏi ông đã có chút hơi ấm trong Pháp và Luật chưa, các thầy đáp không. Ariṭṭha im lặng, bối rối, rũ vai, cúi đầu, buồn và không biết đáp.",
+            "Ngài nói ông sẽ được biết qua chính ý sai ấy, rồi hỏi đại chúng. Các thầy xác nhận điều cản trở thực sự cản trở; Đức Phật tán đồng. Ngài còn nói không thể hưởng dục mà hoàn toàn không có ham muốn dục, nhận biết về dục và suy nghĩ về dục."
+          ],
+          "meaningUnits": [
+            "correction",
+            "rebuke",
+            "affirmation"
+          ]
+        },
+        {
+          "id": "learning",
+          "kind": "teaching",
+          "heading": "Học nhiều để làm gì?",
+          "paragraphs": [
+            "Bài kể chín dạng lời dạy được học: kinh văn, văn xuôi xen kệ, giải thích, kệ tụng, lời cảm hứng, lời được nói như vậy, chuyện tiền thân, chuyện kỳ diệu và bài giảng mở rộng. Tiền thân là những đời trước được kể trong các chuyện ấy.",
+            "Có người học mà không dùng trí tuệ xét nghĩa. Họ chưa hiểu qua suy nghĩ cẩn thận, chỉ muốn bắt lỗi và thắng tranh luận. Như vậy họ không đạt mục đích học và tự chuốc khổ. Người học đúng cũng học những dạng lời dạy ấy, nhưng xem xét ý nghĩa, hiểu rồi chấp nhận, không lấy việc hạ người khác làm đích. Cách nắm đúng đưa đến lợi ích, hạnh phúc lâu dài."
+          ],
+          "meaningUnits": [
+            "wrong-study",
+            "right-study"
+          ]
+        },
+        {
+          "id": "snake",
+          "kind": "teaching",
+          "heading": "Vì sao ví với con rắn?",
+          "paragraphs": [
+            "Người đi tìm rắn thấy một con lớn, nắm vào thân hoặc đuôi. Rắn quay lại cắn tay, cánh tay hoặc phần khác của người ấy, có thể gây chết hoặc đau gần chết. Trong phép ví, nguy hiểm đến vì cách nắm sai.",
+            "Người biết cách thì dùng gậy chẻ nhánh giữ rắn xuống trước, rồi mới nắm chắc cổ. Dù rắn quấn tay hay thân, người ấy không vì thế bị chết hoặc đau gần chết. Kinh ví việc hiểu đúng lời dạy với cách nắm đúng ấy. Đây là chuyện minh họa, không bài hướng dẫn để em đi bắt rắn."
+          ],
+          "meaningUnits": [
+            "wrong-snake",
+            "right-snake"
+          ]
+        },
+        {
+          "id": "ask",
+          "kind": "teaching",
+          "heading": "Chưa hiểu thì có thể hỏi",
+          "paragraphs": [
+            "Đức Phật dạy: điều đã hiểu thì ghi nhớ đúng; điều chưa hiểu thì hỏi Ngài hoặc những thầy thông thạo. Vậy câu chuyện Ariṭṭha không có nghĩa em phải giả vờ hiểu hay không được hỏi khó. Cần để việc hỏi giúp mình thấy rõ, thay vì bám một ý sai chỉ vì đó là ý mình."
+          ],
+          "meaningUnits": [
+            "ask"
+          ]
+        },
+        {
+          "id": "raft",
+          "kind": "teaching",
+          "heading": "Chiếc bè đưa người qua nước",
+          "paragraphs": [
+            "Một người đi đường gặp vùng nước lớn. Bờ đang đứng nguy hiểm, bờ kia an toàn; không có thuyền hay cầu. Người ấy gom cỏ, cây, cành, lá buộc thành bè, nhờ bè và dùng tay chân mà vượt qua an toàn.",
+            "Qua rồi, người ấy quý chiếc bè. Nhưng đội nó trên đầu hoặc vác theo mãi có phải dùng đúng không? Các thầy đáp không. Kéo bè lên bờ khô hoặc thả lại trên nước rồi tiếp tục đi mới đúng việc cần làm.",
+            "Đức Phật ví Pháp như bè: để vượt qua, không để ôm giữ. Hiểu vậy thì ngay các pháp còn phải buông, huống điều phi pháp, tức điều không đúng Pháp. Người trong ví dụ đã dùng bè để qua; chưa qua mà bỏ mọi việc học, mọi việc lành thì không phải ý ấy."
+          ],
+          "meaningUnits": [
+            "raft",
+            "release-teachings"
+          ]
+        },
+        {
+          "id": "six",
+          "kind": "teaching",
+          "heading": "Sáu nơi ta có thể bám vào chữ tôi",
+          "paragraphs": [
+            "Phần sau khó hơn, em có thể đọc từng đoạn cùng người lớn. Đức Phật kể người chưa được gặp, học và rèn theo bậc Thánh, người chân chính, nhận sáu nhóm làm của tôi, là tôi, là tự ngã của tôi. Tự ngã ở đây là cái tôi mà người ấy xem như nền tảng thật chắc.",
+            "Bốn nhóm đầu là sắc, thọ, tưởng, hành: phần vật chất như thân; cảm giác dễ chịu, khó chịu hoặc không cả hai; sự nhận ra; các hoạt động tạo tác của tâm như ý định. Nhóm thứ năm là mọi điều được thấy, nghe, cảm nhận, biết, đạt được, tìm cầu hay suy xét.",
+            "Nhóm thứ sáu là ý kiến rằng thế giới và tự ngã là một, sau khi chết mình sẽ tồn tại mãi, không đổi. Người đệ tử đã gặp, học và được rèn theo bậc Thánh, người chân chính thì nhìn cả sáu nhóm theo ba điều ngược lại: không phải của tôi, không phải là tôi, không phải tự ngã của tôi."
+          ],
+          "meaningUnits": [
+            "six-views"
+          ]
+        },
+        {
+          "id": "outside",
+          "kind": "teaching",
+          "heading": "Vì điều đã mất hoặc chưa có",
+          "paragraphs": [
+            "Một tỳ-kheo hỏi về lo âu khi điều gì đó không thật có hoặc vắng mặt. Đức Phật nêu chuyện bên ngoài: một người nghĩ cái trước kia của mình nay không còn, cái có thể là của mình mà lại không được. Người ấy sầu, mệt, than khóc, đấm ngực và rối trí.",
+            "Người không bám vào cách nghĩ ấy thì không chịu chuỗi khổ ấy. Đoạn này cho thấy cách chấp của mình nuôi lo âu; không nói mọi mất mát là giả hoặc người đang buồn đáng bị chê."
+          ],
+          "meaningUnits": [
+            "external-anxiety"
+          ]
+        },
+        {
+          "id": "inside",
+          "kind": "teaching",
+          "heading": "Vì sợ cái tôi bị xóa mất",
+          "paragraphs": [
+            "Chuyện bên trong khác hơn. Người tin cái tôi của mình là một với thế giới và sẽ sống mãi nghe Đức Phật hay đệ tử dạy buông các chỗ bám, sự ám ảnh, cố chấp và thói quen sâu kín về quan điểm. Lời dạy còn hướng đến lắng mọi hành, buông các nền tảng nuôi sự bám víu, hết khát ái, hết tham, chấm dứt và Niết-bàn.",
+            "Người ấy hoảng vì tưởng mình sắp bị tiêu diệt, không còn tồn tại, rồi sầu, mệt, than khóc, đấm ngực, rối trí. Người không ôm ý kiến về cái tôi vĩnh viễn kia nghe cùng lời dạy thì không nghĩ và khổ như vậy. Niết-bàn ở đây là mục tiêu chấm dứt khổ, không lời đe dọa rằng học Phật làm em biến mất."
+          ],
+          "meaningUnits": [
+            "internal-anxiety"
+          ]
+        },
+        {
+          "id": "three",
+          "kind": "teaching",
+          "heading": "Có gì thật sự giữ mãi được không?",
+          "paragraphs": [
+            "Đức Phật cho các thầy thử nghĩ: nếu có vật sở hữu thường còn, không bao giờ đổi, thì giữ nó làm của mình còn có lý. Nếu bám vào một quan niệm về tự ngã mà không sinh sầu, than, đau, buồn, khốn khổ, thì sự bám ấy còn có lý. Nếu nương giữ một quan điểm mà không sinh những điều ấy, thì sự nương giữ ấy còn có lý. Nhưng có thứ nào thật sự thỏa từng điều kiện không? Ngài lần lượt hỏi, các thầy đều nói không thấy; Ngài cũng không thấy.",
+            "Ngài hỏi thêm: nếu có tự ngã thì sẽ có ý niệm cái thuộc về nó, và nếu có cái thuộc về nó thì sẽ có ý niệm tự ngã, phải không? Các thầy đồng ý. Nhưng không tìm được cả hai như một sự thật chắc chắn. Vì vậy, ý kiến rằng mình sẽ thành cái tôi vĩnh cửu cùng thế giới là một cách hiểu ngu muội. Điều bị xét là cách chấp, không phải giá trị của một con người."
+          ],
+          "meaningUnits": [
+            "three-challenges",
+            "self-and-mine"
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Nhìn kỹ thân và tâm đang đổi",
+          "paragraphs": [
+            "Tiếp theo là năm uẩn: sắc, thọ, tưởng, hành vừa nói, cùng thức, là sự biết đối tượng. Đừng lẫn danh sách năm uẩn này với sáu chỗ chấp ở trên.",
+            "Đức Phật lần lượt hỏi: chúng thường còn hay thay đổi? Các thầy đáp thay đổi. Điều thay đổi là khổ, có thể biến hoại, nên không hợp để bám làm của tôi, là tôi, là tự ngã của tôi. Khổ trong lập luận này không chỉ là một cơn đau; thứ luôn đổi không làm chỗ bảo đảm yên ổn mãi.",
+            "Cách thấy bằng trí tuệ ấy áp dụng cho tất cả năm uẩn: quá khứ, tương lai, hiện tại; bên trong, bên ngoài; thô, tế; thấp, cao; xa, gần. Không giữ lại một phần đặc biệt làm cái tôi chắc chắn."
+          ],
+          "meaningUnits": [
+            "impermanence",
+            "all-aggregates"
+          ]
+        },
+        {
+          "id": "release",
+          "kind": "teaching",
+          "heading": "Đích đến sâu hơn một lần bớt buồn",
+          "paragraphs": [
+            "Nhờ thấy như vậy, vị đệ tử yểm ly năm uẩn, tức không còn mê đắm chúng. Từ đó tham ái phai nhạt, gọi là ly tham, rồi vị ấy đi đến giải thoát và biết đã giải thoát. Vị ấy biết sinh đã tận, đời tu thanh tịnh hoàn thành, việc phải làm đã xong, không còn trở lại sự hiện hữu ấy.",
+            "Kinh đang nói một thành tựu sâu của tu tập. Việc em nhận ra một ý nghĩ đang đổi có thể giúp bắt đầu học; nó không tự chứng minh đã đạt thành tựu này."
+          ],
+          "meaningUnits": [
+            "liberation"
+          ]
+        },
+        {
+          "id": "barriers",
+          "kind": "teaching",
+          "heading": "Những hình ảnh của điều đã được tháo bỏ",
+          "paragraphs": [
+            "Bài gọi vị giải thoát là người đã nhấc thanh chắn: vô minh, tức sự không hiểu đúng, đã được bỏ. Đã lấp hào là hết vòng sinh tử dẫn đến tái sinh. Đã nhổ cột trụ là hết khát ái, sự thèm khát bám víu.",
+            "Không còn bị ngăn trở nói năm kiết sử thuộc phần dưới đã được bỏ; kiết sử là các mối trói buộc vào vòng khổ. Hạ cờ, đặt gánh xuống, hết hệ lụy nói mạn tôi là đã được bỏ: sự dựng mình thành một cái tôi để nương giữ và so đo.",
+            "Ở mỗi điều, kinh nhấn mạnh đã cắt tận gốc, như gốc cọ bị chặt, không thể mọc lại về sau. Đây không phải công việc đào hào hay phá cổng thật."
+          ],
+          "meaningUnits": [
+            "fortress"
+          ]
+        },
+        {
+          "id": "gods",
+          "kind": "teaching",
+          "heading": "Không tìm được chỗ để gán một cái tôi",
+          "paragraphs": [
+            "Kinh nói chư thiên, kể cả các vị mang tên Indra, Brahmā và Pajāpati, tìm mà không xác định được thức của vị giải thoát đang nương vào đây. Ngay hiện tại cũng không truy được vị ấy theo cách đó. Chư thiên là những chúng sinh ở các cõi trời được kinh kể, không phải hình ảnh do bản này tự đặt ra.",
+            "Đoạn này gọi vị tu đã giải thoát là Như Lai; ở đây không chỉ riêng Đức Phật. Nó không kể vị ấy tàng hình. Ngay sau đó, Đức Phật bác lời một số người tu và bà-la-môn gán rằng Ngài dạy tiêu diệt một chúng sinh đang có. Ngài nói trước kia cũng như bây giờ, Ngài dạy khổ và sự chấm dứt khổ."
+          ],
+          "meaningUnits": [
+            "untraceable",
+            "misrepresentation"
+          ]
+        },
+        {
+          "id": "praise",
+          "kind": "teaching",
+          "heading": "Khen hay chê đều được nhìn rõ",
+          "paragraphs": [
+            "Đức Phật không oán hận, cay cú, bất mãn khi bị chửi mắng, công kích hay gây phiền. Khi được kính trọng, lễ bái, cúng dường, Ngài cũng không vì thế mà hớn hở, thích thú. Ngài dạy các thầy tập như vậy.",
+            "Về việc được kính trọng, bài nói các việc ấy được làm đối với điều đã được hiểu rõ từ trước. Điều dễ thấy trong mạch bài là người tu không lấy khen hay chê làm lý do để bám chặt một cái tôi."
+          ],
+          "meaningUnits": [
+            "praise-blame"
+          ]
+        },
+        {
+          "id": "leaves",
+          "kind": "teaching",
+          "heading": "Cỏ và lá trong rừng Jeta",
+          "paragraphs": [
+            "Đức Phật dạy bỏ cái không phải của mình: sắc, thọ, tưởng, hành, thức, vì lợi ích và hạnh phúc lâu dài. Ngài hỏi: nếu người ta mang cỏ, cây, cành, lá của rừng Jeta đi, đốt hoặc dùng theo ý, các thầy có nghĩ chính mình đang bị đem đi hay đốt không? Các thầy đáp không, vì những thứ ấy không phải mình hay thứ thuộc về tự ngã của mình.",
+            "Ngài dùng điều ấy để nhắc lại việc buông năm uẩn. Buông trong mạch này là thôi chấp chúng làm tôi và của tôi; không phải phá thân, làm mất khả năng cảm nhận hoặc bỏ việc chăm sóc bản thân."
+          ],
+          "meaningUnits": [
+            "not-yours"
+          ]
+        },
+        {
+          "id": "fruits-one",
+          "kind": "teaching",
+          "heading": "Những kết quả khác nhau của con đường",
+          "paragraphs": [
+            "Cuối bài, Đức Phật nhiều lần nhấn Pháp đã được giảng rõ, mở bày, làm sáng, không chắp vá che giấu. Trong Pháp ấy, kinh nêu từng nhóm có kết quả khác nhau.",
+            "Bậc A-la-hán đã hết lậu hoặc, tức những dòng ô nhiễm trói tâm, hoàn tất đời tu và việc cần làm, bỏ gánh, đạt mục đích, hết trói buộc vào hiện hữu, giải thoát bằng hiểu biết đúng: không còn vòng sinh tử để chỉ ra.",
+            "Các thầy đã bỏ năm kiết sử phần dưới thì hóa sinh, tức tự hiện ra trong một đời sống mới, đạt Niết-bàn tại đó và không trở về từ thế giới ấy. Các thầy bỏ ba kiết sử, làm mỏng tham, sân, si là bậc Nhất lai: trở lại thế giới này một lần rồi hết khổ."
+          ],
+          "meaningUnits": [
+            "clear-teaching",
+            "arahants",
+            "nonreturners",
+            "oncereturners"
+          ]
+        },
+        {
+          "id": "fruits-two",
+          "kind": "teaching",
+          "heading": "Không gộp mọi bước thành một kết quả",
+          "paragraphs": [
+            "Các thầy đã đoạn ba kiết sử là bậc Dự lưu, nghĩa là vào dòng tu giải thoát: không còn rơi vào cõi thấp, chắc chắn hướng đến giác ngộ. Các vị đi theo Pháp hoặc đi theo niềm tin cũng được nói là hướng đến giác ngộ.",
+            "Những ai có một mức tin và lòng thương kính Đức Phật trong Pháp ấy thì được nói là hướng đến cõi trời. Cõi trời và giác ngộ là hai kết quả khác nhau; không phải cứ thích một lời dạy là đã thành A-la-hán.",
+            "Các tỳ-kheo vui mừng tán đồng khi Đức Phật kết lời. Ấn bản ghi bài thứ hai trong phẩm; mã của bài là MN22."
+          ],
+          "meaningUnits": [
+            "streamenterers",
+            "followers",
+            "faith",
+            "ending"
+          ]
+        },
+        {
+          "id": "try",
+          "kind": "practice",
+          "heading": "Hỏi lại một câu em tưởng mình hiểu",
+          "paragraphs": [
+            "Gợi ý hôm nay: chọn một lời dạy em hay nhắc. Em thử nói ý nghĩa bằng lời mình, tìm đoạn làm căn cứ, rồi hỏi người hiểu biết nếu còn vướng. Nếu em đã dùng câu ấy để trốn nhận lỗi, hãy sửa việc đó. Đây là việc tập học đúng, không bài kiểm tra để chứng minh em hơn ai."
+          ],
+          "meaningUnits": [
+            "ask",
+            "right-study",
+            "raft"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Nắm đúng giáo pháp, rồi học cách không chấp giữ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "example",
+          "heading": "Dùng một ý đúng để bảo vệ một việc sai",
+          "paragraphs": [
+            "Một người nghe về không chấp rồi dùng chính điều ấy để gạt lời nhắc về hành vi gây hại của mình. Người ấy có thể viện dẫn lời dạy rất trôi chảy, nhưng việc hiểu phải được xét qua ngữ cảnh và mục đích. Đây là tình huống hiện đại; MN22, Kinh Ví Dụ Con Rắn, bắt đầu từ một sự xuyên tạc cụ thể rồi đi sâu đến những nền tảng của chấp ngã."
+          ],
+          "meaningUnits": [
+            "aritta",
+            "wrong-study",
+            "ask"
+          ]
+        },
+        {
+          "id": "aritta",
+          "kind": "teaching",
+          "heading": "Sai lầm được giữ dưới tên hiểu lời Phật",
+          "paragraphs": [
+            "Ở rừng Jeta, tu viện Anāthapiṇḍika tại Sāvatthī, tỳ-kheo Ariṭṭha, trước làm nghề bắt kên kên, cho rằng những pháp Đức Phật gọi là chướng ngại thực ra không cản người thực hành chúng. Nghe tin, các tỳ-kheo đến hỏi; ông xác nhận. Họ chất vấn, phân tích để giúp ông bỏ ý ấy, nhắc không xuyên tạc lời Phật.",
+            "Các pháp gây chướng ngại thực sự cản trở; dục lạc được nói là ít vui, nhiều khổ, nhiều ưu não, nguy hại còn nhiều hơn. Mười hình ảnh được nhắc là xương, miếng thịt, đuốc cỏ, hố than, mộng, đồ đi mượn, trái cây, dao và thớt, gươm và giáo, đầu rắn. Bài chỉ dẫn tên các phép ví, không triển khai thành mười truyện chi tiết.",
+            "Ariṭṭha vẫn bám quan điểm. Các thầy trình Đức Phật, thuật lại lời hỏi, lời đáp và việc không thuyết phục được. Ngài sai gọi Ariṭṭha; ông đến và lại nhận quan điểm đó."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "aritta",
+            "correction",
+            "report"
+          ]
+        },
+        {
+          "id": "rebuke",
+          "kind": "teaching",
+          "heading": "Lời quở gắn với một nội dung xác định",
+          "paragraphs": [
+            "Đức Phật quở nghiêm, nhắc chính những chướng ngại và hình ảnh về dục ấy. Nắm sai rồi xuyên tạc Ngài là tự hại, tạo nhiều vô phước, dẫn đến bất lợi và khổ lâu dài. Ngài hỏi đại chúng Ariṭṭha có dù chút hơi ấm trong Pháp và Luật không; họ đáp không. Ông ngồi im, bối rối, rũ vai, cúi đầu, buồn và không biết nói gì.",
+            "Đức Phật nói ông sẽ được biết qua ý sai ấy, rồi hỏi các tỳ-kheo có hiểu như ông không. Họ phủ nhận, nhắc pháp chướng ngại thực sự chướng ngại và nguy hại của dục; Ngài tán đồng. Sau đó Ngài khẳng định không thể thọ dụng dục mà tách khỏi dục, dục tưởng và dục tầm: sự ham muốn, nhận thức và suy nghĩ liên hệ dục. Bài không biến việc gắn một nhãn không chấp lên sự hưởng thụ thành tự do khỏi dục."
+          ],
+          "meaningUnits": [
+            "rebuke",
+            "affirmation"
+          ]
+        },
+        {
+          "id": "learning",
+          "kind": "teaching",
+          "heading": "Học thuộc khác với khảo sát bằng trí tuệ",
+          "paragraphs": [
+            "Chín thể loại được kể là kinh văn, văn xuôi xen kệ, giải thích, kệ tụng, cảm hứng ngữ, lời được nói như vậy, chuyện tiền thân, chuyện kỳ diệu và những bài giảng mở rộng. Cả người nắm sai lẫn người nắm đúng đều có thể học cùng nội dung ấy.",
+            "Người nắm sai không xét nghĩa bằng tuệ, không đi đến sự chấp nhận sau cân nhắc, học để bắt lỗi và thắng biện luận. Họ không đạt mục tiêu của sự học; điều nắm sai đưa đến khổ lâu dài. Người học đúng xét nghĩa bằng tuệ, chấp nhận qua cân nhắc, không lấy việc chỉ trích hay thắng luận làm đích; nhờ nắm đúng, đạt mục đích, lợi ích và hạnh phúc lâu dài. Mỗi vế được nhắc lại sau phép ví tương ứng."
+          ],
+          "meaningUnits": [
+            "wrong-study",
+            "right-study"
+          ]
+        },
+        {
+          "id": "snake",
+          "kind": "teaching",
+          "heading": "Cùng một con rắn, khác cách nắm",
+          "paragraphs": [
+            "Người tìm rắn thấy con lớn rồi chộp thân hoặc đuôi. Rắn quay cắn tay, cánh tay hay một phần thân thể, có thể gây chết hoặc đau gần chết. Người khác khéo dùng gậy chẻ nhánh ghìm xuống rồi nắm cổ; dù rắn quấn quanh tay hay thân, người ấy không vì thế chịu kết quả kia.",
+            "Căn nguyên khác nhau là nắm sai hay nắm đúng. Phép ví không được chuyển thành hướng dẫn thực hành bắt rắn."
+          ],
+          "meaningUnits": [
+            "wrong-snake",
+            "right-snake"
+          ]
+        },
+        {
+          "id": "ask",
+          "kind": "teaching",
+          "heading": "Hiểu rồi thọ trì; chưa hiểu thì hỏi",
+          "paragraphs": [
+            "Đức Phật dạy ghi nhớ đúng điều đã hiểu, và hỏi Ngài hoặc tỳ-kheo thông thạo về điều chưa hiểu. Cửa hỏi vẫn mở. Điểm sai của Ariṭṭha không phải có câu hỏi khác số đông, mà là giữ một nội dung xuyên tạc dù đã được chỉ rõ."
+          ],
+          "meaningUnits": [
+            "ask"
+          ]
+        },
+        {
+          "id": "raft",
+          "kind": "teaching",
+          "heading": "Chiếc bè hoàn thành công dụng",
+          "paragraphs": [
+            "Một người đi đường gặp vùng nước lớn, bờ gần nguy hiểm, bờ xa an toàn, không có cầu hay thuyền. Người ấy gom cỏ, cây, cành và lá thành bè, nương bè và nỗ lực bằng tay chân mà sang an toàn. Khi đã sang, nghĩ bè hữu ích rồi đội lên đầu hay vác trên vai để đi tiếp không phải dùng đúng công dụng.",
+            "Cách đúng là kéo bè lên bờ khô hoặc để lại trên nước rồi đi. Pháp được ví là phương tiện để vượt, không để ôm giữ. Vì thế ngay các pháp còn phải buông, huống phi pháp. Điều này phải được đọc cùng trình tự dùng bè rồi sang; nó không hủy lời bác bỏ hành vi chướng ngại ở đầu bài."
+          ],
+          "meaningUnits": [
+            "raft",
+            "release-teachings"
+          ]
+        },
+        {
+          "id": "grounds",
+          "kind": "teaching",
+          "heading": "Sáu nền tảng của kiến chấp",
+          "paragraphs": [
+            "Người phàm chưa được gặp, hiểu và rèn trong pháp của bậc Thánh và người chân chính xem sáu nhóm là của tôi, là tôi, là tự ngã của tôi. Bốn nhóm đầu là sắc, thọ, tưởng và hành: vật chất; cảm thọ; nhận diện; các hoạt động tạo tác. Nhóm thứ năm gồm điều được thấy, nghe, cảm nhận, biết, đạt, tìm cầu và suy xét bằng tâm.",
+            "Nhóm thứ sáu là kiến cho rằng thế giới và tự ngã đồng nhất, sau chết mình sẽ là như thế mãi, thường hằng, bất biến. Vị Thánh đệ tử đã gặp, học và rèn thì đối với đủ sáu nhóm thấy không phải của tôi, không phải tôi, không phải tự ngã của tôi. Không thay danh sách này bằng năm uẩn: cấu trúc của đoạn có chủ ý riêng."
+          ],
+          "meaningUnits": [
+            "six-views"
+          ]
+        },
+        {
+          "id": "external",
+          "kind": "teaching",
+          "heading": "Hai nhánh lo âu về điều bên ngoài",
+          "paragraphs": [
+            "Thấy như vậy thì không lo vì điều không thật có hoặc vắng mặt. Một tỳ-kheo hỏi để làm rõ. Ở bên ngoài, người nghĩ cái từng của mình nay không còn, cái có thể của mình mà mình không được, có thể sầu, mệt, than khóc, đấm ngực và mê loạn. Người không vận hành theo lối nghĩ ấy thì không có chuỗi khổ đó.",
+            "Asati được đọc trong các bản tham khảo là về điều không thật có; cũng có sắc thái khi điều ấy không có. Mạch ví dụ cụ thể là cái đã mất hay không đạt được. Không cần biến nó thành khẳng định rằng toàn bộ ngoại giới không tồn tại."
+          ],
+          "meaningUnits": [
+            "external-anxiety"
+          ]
+        },
+        {
+          "id": "internal",
+          "kind": "teaching",
+          "heading": "Hai nhánh lo âu về điều bên trong",
+          "paragraphs": [
+            "Người chấp thế giới và tự ngã là một, tồn tại vĩnh cửu sau chết, nghe Như Lai hoặc đệ tử giảng nhằm nhổ tận mọi nền tảng, chỗ bám, ám ảnh, cố chấp và khuynh hướng ngầm của kiến. Lời giảng còn hướng đến lắng mọi hành, buông mọi sanh y, đoạn ái, ly tham, chấm dứt, Niết-bàn. Sanh y ở đây được diễn giải bước đầu là những nền tảng nuôi sự bám giữ và hiện hữu.",
+            "Người ấy lại nghe thành bản án mình sẽ bị tiêu diệt, hủy diệt, không tồn tại, rồi sầu khổ, than khóc, đấm ngực, mê loạn. Người không giữ kiến vĩnh cửu kia nghe đúng cùng lời giảng thì không có ý nghĩ và chuỗi lo ấy. Bài giữ hai điều riêng: mục tiêu của lời dạy và điều người chấp ngã tưởng lời dạy đang làm với mình."
+          ],
+          "meaningUnits": [
+            "internal-anxiety"
+          ]
+        },
+        {
+          "id": "tests",
+          "kind": "teaching",
+          "heading": "Ba chỗ bám được đưa ra xét",
+          "paragraphs": [
+            "Đức Phật lần lượt đặt ba giả định: nếu một sở hữu thường còn bất biến thì chấp nó làm của mình còn có lý; nếu chấp một thuyết về tự ngã mà không sinh sầu, bi, khổ, ưu, não thì sự chấp ấy còn có lý; nếu nương một quan điểm mà không sinh các hệ quả ấy thì sự nương giữ ấy còn có lý. Nhưng hỏi có thấy trường hợp nào thỏa từng giả định không, các tỳ-kheo đều đáp không; Ngài cũng không thấy. Lập luận đưa chấp giữ ra xét và cho thấy điều kiện làm chỗ dựa cho nó không tìm được.",
+            "Ngài hỏi quan hệ hai chiều: có tự ngã thì có ý niệm cái thuộc tự ngã, và có cái thuộc tự ngã thì có ý niệm tự ngã. Sau khi các thầy đồng ý, Ngài chỉ ra không tìm được cả ngã lẫn ngã sở như một sự thật chắc chắn. Vì vậy, kiến tự ngã–thế giới vĩnh cửu bị xác định là một giáo thuyết hoàn toàn ngu muội."
+          ],
+          "meaningUnits": [
+            "three-challenges",
+            "self-and-mine"
+          ]
+        },
+        {
+          "id": "aggregates",
+          "kind": "teaching",
+          "heading": "Lập luận từ vô thường đến không chấp ngã",
+          "paragraphs": [
+            "Với sắc, rồi thọ, tưởng, hành, thức, Đức Phật hỏi thường hay vô thường; câu đáp là vô thường. Cái vô thường là khổ, chịu biến hoại, nên không thích hợp nhìn thành của tôi, là tôi, tự ngã của tôi. Thức là sự nhận biết đối tượng; nó cũng nằm trong phạm vi bị xét, không được giữ lại làm một chủ thể bất biến.",
+            "Mọi uẩn đều phải được thấy đúng như thật bằng tuệ theo ba phủ định ấy, ở đủ các chiều quá khứ–tương lai–hiện tại, trong–ngoài, thô–tế, thấp–cao, xa–gần. Cách đọc khổ ở đây cần giữ sức nặng bất toại của cái chịu đổi thay; không rút thành khẳng định mọi khoảnh khắc đều có cảm giác đau."
+          ],
+          "meaningUnits": [
+            "impermanence",
+            "all-aggregates"
+          ]
+        },
+        {
+          "id": "liberation",
+          "kind": "teaching",
+          "heading": "Biết đã giải thoát",
+          "paragraphs": [
+            "Thấy như thế dẫn đến yểm ly năm uẩn, ly tham, giải thoát và tri kiến đã giải thoát. Yểm ly là hết say đắm, không đồng nghĩa khinh ghét con người hay phá bỏ thân. Vị ấy biết sinh đã tận, phạm hạnh hoàn thành, việc cần làm đã làm, không còn trở lại trạng thái hiện hữu này. Đây là hướng giải thoát của toàn bài, vượt xa kỹ năng tranh luận hợp lý."
+          ],
+          "meaningUnits": [
+            "liberation"
+          ]
+        },
+        {
+          "id": "fortress",
+          "kind": "teaching",
+          "heading": "Hình ảnh thành lũy đã mở",
+          "paragraphs": [
+            "Năm cụm danh xưng được giải nghĩa ngay trong kinh. Nhấc thanh chắn là bỏ vô minh. Lấp hào là bỏ vòng sinh tử dẫn đến tái hữu. Nhổ cột trụ là bỏ khát ái. Không còn ngăn trở là bỏ năm kiết sử phần dưới. Bậc Thánh hạ cờ, bỏ gánh, hết hệ lụy là bỏ mạn tôi là.",
+            "Kiết sử là những trói buộc vào vòng khổ; mạn tôi là sâu hơn việc khoe khoang trong giao tiếp. Mỗi phần nhấn đã cắt gốc, làm như gốc cọ bị chặt, không sinh lại trong tương lai. Không lấy một lần bớt kiêu hay bớt ham làm bằng chứng đạt những danh xưng này."
+          ],
+          "meaningUnits": [
+            "fortress"
+          ]
+        },
+        {
+          "id": "trace",
+          "kind": "teaching",
+          "heading": "Không truy tìm được, và không phải đoạn diệt",
+          "paragraphs": [
+            "Với tỳ-kheo đã giải thoát tâm như vậy, chư thiên cùng Indra, Brahmā, Pajāpati tìm mà không xác định được thức của vị ấy nương vào đây. Ngay hiện tại, Đức Phật nói vị tathāgata ấy không thể truy tìm. Theo chủ thể của đoạn, thuật ngữ này chỉ vị giải thoát đang được nói, không riêng danh xưng Đức Phật.",
+            "Một số sa-môn và bà-la-môn lại gán cho Đức Phật chủ trương hủy diệt một hữu tình có thật. Ngài bác sự gán ghép đó là sai và tuyên bố trước kia cũng như hiện nay dạy khổ và diệt khổ. Đặt hai đoạn cạnh nhau ngăn việc dùng không truy tìm để dựng thuyết hư vô, tàng hình hoặc một linh hồn tồn tại bí mật."
+          ],
+          "meaningUnits": [
+            "untraceable",
+            "misrepresentation"
+          ]
+        },
+        {
+          "id": "praise",
+          "kind": "teaching",
+          "heading": "Phản ứng trước sự công kích và tôn kính",
+          "paragraphs": [
+            "Đức Phật không vì bị mắng, công kích, quấy nhiễu, gây phiền mà oán giận, cay cú, bất mãn. Khi được tôn kính, coi trọng, lễ bái, cúng dường, Ngài cũng không vì thế hân hoan, thích thú, hớn hở. Ngài dạy các tỳ-kheo tập cùng cách ấy.",
+            "Với sự tôn kính, lời nghĩ được nêu là những việc ấy được làm đối với cái đã được liễu tri từ trước. Phản ứng không chao đảo vì khen–chê phải được hiểu trong mạch liễu tri và không chấp."
+          ],
+          "meaningUnits": [
+            "praise-blame"
+          ]
+        },
+        {
+          "id": "leave",
+          "kind": "teaching",
+          "heading": "Buông cái không phải của mình",
+          "paragraphs": [
+            "Đức Phật bảo bỏ cái không phải của mình, rồi gọi đủ sắc, thọ, tưởng, hành, thức. Lợi ích và hạnh phúc lâu dài được nhắc với từng uẩn. Nếu người ta mang cỏ, cây, cành, lá trong rừng Jeta đi, đốt hoặc tùy ý sử dụng, các thầy không cho rằng chính mình bị đem đi, đốt hay sử dụng: chúng không là tự ngã hoặc thuộc tự ngã.",
+            "Phép ví trở lại việc buông cả năm uẩn. Trong mạch không nhận là tôi/của tôi, từ bỏ không có nghĩa hủy hoại các năng lực thân tâm hay phủi trách nhiệm đối với tài sản và người được mình chăm sóc."
+          ],
+          "meaningUnits": [
+            "not-yours"
+          ]
+        },
+        {
+          "id": "fruits-a",
+          "kind": "teaching",
+          "heading": "Pháp được mở bày và ba nhóm thành tựu",
+          "paragraphs": [
+            "Sáu lần ở cuối, kinh nhắc Pháp khéo giảng, sáng rõ, mở bày, hiển lộ, không chắp vá che giấu. Các kết quả được nêu theo từng nhóm, không gộp thành một lời hứa như nhau cho bất kỳ người đọc nào.",
+            "A-la-hán đã tận lậu hoặc, hoàn thành đời tu, làm xong việc, đặt gánh, đạt mục đích, dứt kiết sử dẫn đến hữu, giải thoát nhờ chánh trí: không còn vòng luân hồi để nêu. Lậu hoặc là các dòng ô nhiễm duy trì sự trói buộc, không chỉ một thói quen xấu vừa sửa.",
+            "Người bỏ năm hạ phần kiết sử hóa sinh, nghĩa là tự hiện ra trong đời sống mới, đạt Niết-bàn ở đó, không trở lại từ thế giới ấy. Người bỏ ba kiết sử, làm mỏng tham sân si là Nhất lai: trở lại thế giới này một lần rồi dứt khổ. Kinh nói về tái sinh và giải thoát, không chỉ những mức cải thiện cảm xúc."
+          ],
+          "meaningUnits": [
+            "clear-teaching",
+            "arahants",
+            "nonreturners",
+            "oncereturners"
+          ]
+        },
+        {
+          "id": "fruits-b",
+          "kind": "teaching",
+          "heading": "Ba nhóm tiếp theo cần được phân biệt",
+          "paragraphs": [
+            "Người đoạn ba kiết sử là Dự lưu, không rơi cõi thấp, chắc chắn hướng đến giác ngộ. Tỳ-kheo tùy Pháp hoặc tùy tín, nghĩa là đi theo Pháp hoặc theo niềm tin trong con đường đang nói, cũng hướng đến giác ngộ. Các từ này không phải giấy chứng nhận cho một sự đồng ý bằng trí óc hay một tình cảm tự nhận.",
+            "Những ai có một mức niềm tin và thương kính đối với Đức Phật trong Pháp được khéo giảng ấy được nói là hướng cõi trời. Cõi trời khác giác ngộ và càng không đồng nhất A-la-hán. Khi Ngài kết lời, các thầy vui mừng tán đồng. Nhãn thứ hai thuộc thứ tự trong phẩm; mã là MN22."
+          ],
+          "meaningUnits": [
+            "streamenterers",
+            "followers",
+            "faith",
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Kiểm cách mình đang dùng một lời dạy",
+          "paragraphs": [
+            "Gợi ý hiện đại: lấy một câu Phật học bạn đang dùng để quyết định. Tìm cả đoạn trước sau, viết điều câu ấy thực sự nói và điều bạn đã thêm. Nếu nó đang giúp bạn né trách nhiệm hoặc thắng người khác, thử trở lại việc cần sửa. Có chỗ không hiểu, hỏi người thông thạo; sự tự tin không thay được căn cứ.",
+            "Gợi ý này luyện cách học và vận dụng; không tự xác nhận đã vượt bờ hay đủ điều kiện bỏ phương tiện tu tập."
+          ],
+          "meaningUnits": [
+            "ask",
+            "right-study",
+            "raft",
+            "release-teachings"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Học cho hiểu, dùng để vượt qua, rồi thôi ôm giữ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "example",
+          "heading": "Một lời mình đã quen nhắc",
+          "paragraphs": [
+            "Ta có thể đã nhớ một câu kinh nhiều năm. Khi có người hỏi về ngữ cảnh của câu ấy, ta thấy khó chịu: điều quen thuộc với mình sao còn bị hỏi? Một cách đọc MN22 là dừng ở chỗ ấy và xem mình đang quý sự hiểu đúng hay đang bảo vệ tiếng biết của mình. Đây là tình huống hiện đại để soi việc học, không phải nhân vật trong kinh."
+          ],
+          "meaningUnits": [
+            "wrong-study",
+            "ask",
+            "right-study"
+          ]
+        },
+        {
+          "id": "aritta",
+          "kind": "teaching",
+          "heading": "Cách hiểu cần được kiểm bằng lời dạy",
+          "paragraphs": [
+            "Kinh Ví Dụ Con Rắn, MN22, diễn ra ở rừng Jeta, tu viện Anāthapiṇḍika tại Sāvatthī. Tỳ-kheo Ariṭṭha, trước kia bắt chim kên kên, giữ ý kiến rằng những pháp Đức Phật gọi là chướng ngại thực ra không cản trở người làm chúng.",
+            "Các tỳ-kheo nghe tin, đến hỏi, rồi giải thích để giúp ông bỏ quan điểm ấy. Điều chướng ngại thực sự gây chướng ngại; dục lạc ít vui mà nhiều khổ, phiền và nguy hại. Ariṭṭha vẫn khăng khăng. Các thầy trình lại đầy đủ việc đã hỏi, đã khuyên và không thành; Đức Phật sai gọi ông. Đến gặp Ngài, ông lại nhận quan điểm ấy."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "aritta",
+            "correction",
+            "report"
+          ]
+        },
+        {
+          "id": "images",
+          "kind": "teaching",
+          "heading": "Những hình ảnh và lời quở nghiêm",
+          "paragraphs": [
+            "Mười hình ảnh về dục được nhắc cả trong lời các tỳ-kheo lẫn lời Đức Phật: xương, miếng thịt, đuốc cỏ, hố than, giấc mộng, đồ mượn, trái cây, dao và thớt, gươm và giáo, đầu rắn. Trong bài này, chúng là lời gợi lại nguy hại, không mười câu chuyện được kể đầy đủ.",
+            "Đức Phật quở Ariṭṭha vì hiểu sai rồi xuyên tạc Ngài, tự làm hại, tạo nhiều vô phước, đưa đến bất lợi và khổ lâu dài. Ngài hỏi ông đã có chút hơi ấm trong Pháp và Luật chưa; các thầy đáp không. Ariṭṭha im, bối rối, vai rũ, cúi đầu, buồn và không biết đáp. Ngài nói ông sẽ được biết qua chính ý sai ấy.",
+            "Khi Ngài hỏi đại chúng, họ không nhận cách hiểu của Ariṭṭha mà xác nhận điều chướng ngại thực sự cản trở; Ngài tán đồng. Ngài còn nói không thể hưởng dục mà không có dục, dục tưởng, dục tầm: sự ham muốn, nhận biết và suy nghĩ liên hệ dục. Một lời tuyên bố mình không dính mắc không tự thay đổi bản chất của việc đang làm."
+          ],
+          "meaningUnits": [
+            "correction",
+            "rebuke",
+            "affirmation"
+          ]
+        },
+        {
+          "id": "study",
+          "kind": "teaching",
+          "heading": "Cùng học, nhưng khác cách nắm",
+          "paragraphs": [
+            "Kinh nêu chín dạng lời dạy: kinh văn, văn xuôi xen kệ, giải thích, kệ tụng, lời cảm hứng, lời được nói như vậy, chuyện tiền thân, chuyện kỳ diệu và giảng giải mở rộng. Người học nhiều vẫn có thể nắm sai nếu không dùng trí tuệ xem nghĩa và không đi đến sự chấp nhận qua suy xét.",
+            "Học để bắt lỗi và thắng tranh luận thì không đạt mục tiêu của sự học, còn đưa đến khổ lâu dài. Người học đúng khảo sát ý nghĩa, chấp nhận sau cân nhắc, không nhằm hạ người hay thắng lời; nhờ thế đạt mục đích, lợi ích và hạnh phúc lâu dài. Hai cách được nhắc lại để người nghe nhớ rằng kiến thức giống nhau chưa có nghĩa sự tu học giống nhau."
+          ],
+          "meaningUnits": [
+            "wrong-study",
+            "right-study"
+          ]
+        },
+        {
+          "id": "snake",
+          "kind": "teaching",
+          "heading": "Cách nắm quyết định trong phép ví",
+          "paragraphs": [
+            "Người đi tìm rắn gặp một con lớn, nắm thân hoặc đuôi, bị nó quay lại cắn tay, cánh tay hay phần thân khác. Kết quả có thể là chết hoặc đau gần chết. Người nắm đúng dùng gậy chẻ nhánh giữ xuống trước, rồi nắm chắc cổ; dù rắn quấn tay hay người, không vì thế chịu kết quả ấy.",
+            "Bài dùng sự khác nhau đó để giảng nắm Pháp sai và đúng. Không biến phép ví thành một việc nên tự thử với rắn thật."
+          ],
+          "meaningUnits": [
+            "wrong-snake",
+            "right-snake"
+          ]
+        },
+        {
+          "id": "ask",
+          "kind": "teaching",
+          "heading": "Còn chỗ để hỏi là còn chỗ để học",
+          "paragraphs": [
+            "Đức Phật dạy điều đã hiểu thì ghi nhớ đúng như vậy. Điều chưa hiểu hãy hỏi Ngài hoặc những tỳ-kheo thông thạo. Lời này đi ngay sau hình ảnh con rắn: khả năng hỏi và sửa cách hiểu có mặt trong chính việc học đúng."
+          ],
+          "meaningUnits": [
+            "ask"
+          ]
+        },
+        {
+          "id": "raft",
+          "kind": "teaching",
+          "heading": "Biết ơn chiếc bè mà không vác theo mãi",
+          "paragraphs": [
+            "Người đi đường gặp vùng nước rộng, bờ gần nguy hiểm, bờ xa yên ổn, không cầu không thuyền. Người ấy gom cỏ, cây, cành, lá thành bè, nương bè và dùng tay chân vượt sang an toàn.",
+            "Đến bờ rồi, bè thật hữu ích. Nhưng nếu vì quý bè mà đội lên đầu hoặc vác trên vai đi tiếp, các tỳ-kheo nói người ấy chưa dùng đúng. Kéo nó lên bờ khô hoặc để lại trên nước rồi đi mới đúng công dụng.",
+            "Giáo pháp cũng được dạy để vượt qua, không để ôm giữ. Ngay các pháp còn phải buông, huống phi pháp, tức điều không đúng Pháp. Không vì câu cuối mà bỏ việc tu khi chưa vượt; mạch ví dụ vừa tôn trọng công dụng của bè vừa chỉ ra giới hạn của sự giữ mãi."
+          ],
+          "meaningUnits": [
+            "raft",
+            "release-teachings"
+          ]
+        },
+        {
+          "id": "views",
+          "kind": "teaching",
+          "heading": "Sáu chỗ có thể thành chỗ chấp",
+          "paragraphs": [
+            "Đức Phật nói người chưa được gặp, học và rèn theo bậc Thánh cùng người chân chính nhận sáu nhóm làm của tôi, là tôi, tự ngã của tôi. Bốn nhóm đầu: sắc, phần vật chất; thọ, cảm giác dễ chịu, khó chịu hay không cả hai; tưởng, sự nhận ra; hành, các hoạt động tạo tác của tâm.",
+            "Nhóm thứ năm là mọi điều được thấy, nghe, cảm nhận, nhận biết, đạt đến, tìm cầu, suy xét. Nhóm thứ sáu là kiến rằng thế giới và tự ngã là một; sau chết mình sẽ tồn tại như vậy mãi, thường còn và không đổi.",
+            "Người đệ tử đã học và rèn trong pháp của bậc Thánh, người chân chính nhìn đủ sáu nhóm bằng ba phủ định: không phải của tôi, không phải tôi, không phải tự ngã của tôi. Tự ngã là cái tôi bị nắm như một nền tảng chắc thật; cách thấy này không phải chê bai giá trị của bản thân."
+          ],
+          "meaningUnits": [
+            "six-views"
+          ]
+        },
+        {
+          "id": "outside",
+          "kind": "teaching",
+          "heading": "Lo âu quanh cái đã mất hay chưa được",
+          "paragraphs": [
+            "Một tỳ-kheo hỏi rõ lời không lo âu vì điều không thật có hoặc vắng mặt. Đức Phật nói ở bên ngoài có người nghĩ: cái trước thuộc mình nay đã mất, cái có thể thuộc mình mà không được. Từ đó sầu muộn, mệt mỏi, than khóc, đấm ngực, mê loạn.",
+            "Với người không khởi cách nghĩ ấy, chuỗi lo âu kia không có. Phần này cho thấy sự bám vào sở hữu trong nỗi lo; không tuyên bố mất mát chưa từng xảy ra hay bảo người đang buồn phải xấu hổ vì buồn."
+          ],
+          "meaningUnits": [
+            "external-anxiety"
+          ]
+        },
+        {
+          "id": "inside",
+          "kind": "teaching",
+          "heading": "Khi lời buông được nghe thành lời hủy diệt",
+          "paragraphs": [
+            "Ở bên trong, một người tin tự ngã đồng nhất thế giới và vĩnh viễn sau chết. Người ấy nghe Phật hoặc đệ tử dạy nhổ gốc các nền tảng, chỗ bám, ám ảnh, cố chấp, khuynh hướng ngầm của kiến; lắng mọi hành, bỏ mọi sanh y, hết ái, ly tham, chấm dứt, Niết-bàn. Sanh y được diễn giải bước đầu là nền tảng nuôi sự bám giữ và hiện hữu.",
+            "Người ấy tưởng mình sẽ bị tiêu diệt, hủy diệt, không còn, nên sầu, mệt, khóc than, đấm ngực, rối loạn. Người không giữ ý kiến vĩnh cửu ấy nghe cùng lời dạy thì không tưởng và khổ như vậy. Điều kinh đang tháo là chỗ bám của kiến; không thể gán nỗi sợ của người nghe thành mục tiêu Phật dạy."
+          ],
+          "meaningUnits": [
+            "internal-anxiety"
+          ]
+        },
+        {
+          "id": "questions",
+          "kind": "teaching",
+          "heading": "Thử nhìn tận chỗ mình muốn giữ",
+          "paragraphs": [
+            "Đức Phật đưa ba giả định để xét. Nếu có sở hữu thường còn mãi, không biến đổi, thì giữ nó làm của mình còn có lý. Nếu chấp một thuyết về tự ngã mà không sinh sầu, than, đau, buồn, khốn khổ, thì sự chấp ấy còn có lý. Nếu nương giữ một quan điểm mà không sinh những điều ấy, thì sự nương giữ ấy còn có lý. Với mỗi giả định, Ngài hỏi có thấy trường hợp nào như thế không. Cả các thầy lẫn Ngài đều không thấy.",
+            "Ngài xét tiếp mối liên hệ: nếu có tự ngã thì có cái thuộc về nó; nếu có cái thuộc về tự ngã thì có ý niệm tự ngã. Các thầy đồng ý. Nhưng ngã và ngã sở không tìm được như sự thật chắc chắn. Vì vậy, chủ trương mình và thế giới là một cái tôi vĩnh cửu bị xác định là ngu muội, không phải một chỗ bảo đảm an ổn."
+          ],
+          "meaningUnits": [
+            "three-challenges",
+            "self-and-mine"
+          ]
+        },
+        {
+          "id": "aggregates",
+          "kind": "teaching",
+          "heading": "Không chừa một phần thân tâm để bám giữ",
+          "paragraphs": [
+            "Danh sách kế tiếp là năm uẩn: sắc, thọ, tưởng, hành và thức, tức sự biết đối tượng. Các thầy xác nhận từng uẩn là vô thường, là khổ, chịu biến hoại, nên không thích hợp xem là của tôi, là tôi, tự ngã của tôi. Danh sách này khác sáu kiến xứ ở phần trước.",
+            "Cách thấy đúng bằng trí tuệ áp dụng trọn phạm vi: quá khứ, tương lai, hiện tại; trong, ngoài; thô, tế; thấp, cao; xa, gần. Những gì đẹp, tinh tế hay quen thuộc cũng không được giữ lại làm ngoại lệ. Khổ trong mạch này có chiều sâu của cái không thể làm nơi yên ổn bền chắc, không chỉ cơn đau đang cảm thấy."
+          ],
+          "meaningUnits": [
+            "impermanence",
+            "all-aggregates"
+          ]
+        },
+        {
+          "id": "release",
+          "kind": "teaching",
+          "heading": "Từ hết say đắm đến giải thoát",
+          "paragraphs": [
+            "Nhờ thấy, vị Thánh đệ tử yểm ly năm uẩn, rồi ly tham, giải thoát và biết đã giải thoát. Yểm ly là không còn say đắm, không phải ghét bỏ thân hay sự sống. Vị ấy biết sinh đã tận, đời phạm hạnh đã thành, việc cần làm đã làm, không trở lại sự hiện hữu này nữa.",
+            "Bài giữ đích giải thoát rõ ràng. Một lần lòng nhẹ đi khi buông chuyện cũ có thể đáng quý, nhưng không đồng nghĩa đã hoàn thành toàn bộ con đường ấy."
+          ],
+          "meaningUnits": [
+            "liberation"
+          ]
+        },
+        {
+          "id": "barriers",
+          "kind": "teaching",
+          "heading": "Những hình ảnh chỉ sự đoạn tận",
+          "paragraphs": [
+            "Nhấc thanh chắn nghĩa là đoạn vô minh, sự không hiểu đúng. Lấp hào nghĩa là dứt vòng sinh tử đưa đến tái sinh. Nhổ cột trụ là đoạn khát ái. Không còn ngăn trở là bỏ năm kiết sử thuộc phần dưới, các trói buộc mà bài gọi như thế.",
+            "Bậc Thánh hạ cờ, đặt gánh xuống và không hệ lụy là vị đã bỏ mạn tôi là, sự dựng một cái tôi để nương giữ và so đo. Mỗi điều được diễn tả cắt tận gốc như gốc cọ bị chặt, không sinh lại. Những hình ảnh nói sự đoạn tận, không chỉ một thời gian tâm lắng."
+          ],
+          "meaningUnits": [
+            "fortress"
+          ]
+        },
+        {
+          "id": "trace",
+          "kind": "teaching",
+          "heading": "Không truy dấu, nhưng không phải hư vô",
+          "paragraphs": [
+            "Kinh nói chư thiên cùng Indra, Brahmā, Pajāpati tìm mà không thể chỉ thức của vị giải thoát nương vào đây. Ngay hiện tại cũng không truy được vị tathāgata ấy; thuật ngữ Như Lai ở đoạn này đang nói vị tỳ-kheo đã giải thoát, không riêng Đức Phật.",
+            "Ngay sau đó, Đức Phật bác những sa-môn và bà-la-môn gán rằng Ngài chủ trương tiêu diệt một chúng sinh có thật. Từ trước đến nay, Ngài dạy khổ và diệt khổ. Vì vậy, không đọc đoạn trên thành việc biến mất thân thể, tàng hình hoặc một lời chứng thực hư vô."
+          ],
+          "meaningUnits": [
+            "untraceable",
+            "misrepresentation"
+          ]
+        },
+        {
+          "id": "praise",
+          "kind": "teaching",
+          "heading": "Trước sự kính trọng và trước lời công kích",
+          "paragraphs": [
+            "Bị chửi mắng, công kích, quấy nhiễu, gây phiền, Đức Phật không oán, cay cú, bất mãn. Được tôn trọng, kính lễ, cúng dường, Ngài không vì thế hân hoan, hớn hở. Các tỳ-kheo được dạy tập như vậy.",
+            "Với sự kính trọng, bài nói những việc ấy được làm đối với điều đã được hiểu thấu từ trước. Trong toàn mạch, liễu tri và buông chấp giúp thấy việc khen chê mà không dựng lại một cái tôi để giữ."
+          ],
+          "meaningUnits": [
+            "praise-blame"
+          ]
+        },
+        {
+          "id": "leaves",
+          "kind": "teaching",
+          "heading": "Cỏ lá không phải là mình",
+          "paragraphs": [
+            "Đức Phật bảo từ bỏ cái không phải của mình, kể đủ sắc, thọ, tưởng, hành, thức, và nhắc lợi ích, hạnh phúc lâu dài. Ngài hỏi nếu người ta mang cỏ, cây, cành, lá trong rừng Jeta đi, đốt hay sử dụng, các thầy có nghĩ mình đang bị đem đi, đốt, sử dụng không? Họ đáp không, vì đó không phải tự ngã hoặc thứ thuộc tự ngã.",
+            "Từ phép ví, Ngài nhắc lại việc buông năm uẩn. Hiểu trong mạch cả bài, buông không phải bỏ chăm thân tâm hay chối trách nhiệm; đó là không nắm chúng làm tôi và của tôi."
+          ],
+          "meaningUnits": [
+            "not-yours"
+          ]
+        },
+        {
+          "id": "fruits-one",
+          "kind": "teaching",
+          "heading": "Những thành tựu được nêu ở cuối bài",
+          "paragraphs": [
+            "Pháp được nhắc sáu lần là khéo giảng, sáng rõ, mở bày, hiển lộ, không chắp vá che giấu. Trong Pháp ấy, mỗi nhóm tu có kết quả riêng.",
+            "A-la-hán tận lậu hoặc, các dòng ô nhiễm trói tâm; hoàn thành đời tu và việc cần làm, đặt gánh, đạt mục tiêu, đoạn kiết sử dẫn đến hiện hữu, giải thoát bằng chánh trí. Với các vị ấy không còn vòng sinh tử để nêu.",
+            "Các thầy bỏ năm hạ phần kiết sử thì hóa sinh, nghĩa là tự hiện ra trong đời sống mới, đạt Niết-bàn tại đó, không trở lại từ thế giới ấy. Bỏ ba kiết sử và làm mỏng tham, sân, si thì là Nhất lai, trở lại thế giới này một lần rồi dứt khổ. Đây là lời kinh về tái sinh và giải thoát, không chỉ ví dụ tâm lý."
+          ],
+          "meaningUnits": [
+            "clear-teaching",
+            "arahants",
+            "nonreturners",
+            "oncereturners"
+          ]
+        },
+        {
+          "id": "fruits-two",
+          "kind": "teaching",
+          "heading": "Niềm tin, con đường và kết quả",
+          "paragraphs": [
+            "Người đã đoạn ba kiết sử là Dự lưu: không rơi cõi thấp, chắc chắn hướng đến giác ngộ. Các tỳ-kheo tùy Pháp và tùy tín, đi theo Pháp hoặc theo niềm tin trên con đường ấy, cũng được nói là hướng đến giác ngộ.",
+            "Những ai có một mức niềm tin và lòng thương kính Đức Phật trong Pháp đã khéo giảng được nói là hướng cõi trời. Không đổi kết quả này thành giác ngộ hay cho rằng mọi nhóm đã đoạn tận như A-la-hán. Nghe xong, các thầy hoan hỷ tán đồng. Ấn bản ghi bài thứ hai trong phẩm; mã toàn bộ là MN22."
+          ],
+          "meaningUnits": [
+            "streamenterers",
+            "followers",
+            "faith",
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Trở lại một điều mình đã thuộc",
+          "paragraphs": [
+            "Gợi ý hôm nay: chọn một câu mình thường nhắc, đọc lại cả đoạn và tự hỏi câu đó đang giúp hiểu, sửa mình hay dùng để khỏi phải nghe người khác. Một câu hỏi thật và một việc sửa cụ thể có thể mở đường học tiếp. Không cần biến việc này thành cuộc thi kiến thức hoặc tự đánh giá mức chứng đắc."
+          ],
+          "meaningUnits": [
+            "ask",
+            "right-study",
+            "raft"
+          ]
+        }
+      ]
+    }
+  }
+}
