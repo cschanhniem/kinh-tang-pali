@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn15",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "5eb4cc1c-572a-422f-85bb-c51814216ba9"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "cc3f3dfc-bba4-4811-8b40-df5e93235fb1"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "22b51798-82a4-41e6-b5e1-87f27b616ba7"
+    }
+  },
+  "reviews": [
+    {
+      "id": "5eb4cc1c-572a-422f-85bb-c51814216ba9",
+      "audience": "children",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.4,
+        "terminology": 9.1,
+        "audience_fit": 9.2,
+        "clarity": 9.1,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.4
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc trọn 263 khóa Pāli, Việt dự án và Anh, 85 khối HTML cùng 5 chú thích. Giữ đúng Mahāmoggallāna là người giảng, đúng nơi và người nghe. Có 201 ô Anh trống; nội dung lặp được kiểm theo Pāli đầy đủ, không nhận phần trống làm xác nhận. Hash Pāli và Anh khớp manifest tại pin.",
+        "semantic_fidelity": "Giữ việc tự xét phẩm chất để bỏ bất thiện và tiếp tục rèn thiện, không biến thành cuộc thi được người lớn khen. Đủ cả điều khiến khó tiếp nhận và mặt đối lại; không có lời hứa chứng đắc. Đã chỉnh lời nói từ mức đầy giận thành nhuốm giận và bỏ quan hệ nhân quả thêm giữa bướng bỉnh với ngạo mạn.",
+        "core_coverage": "Đối chiếu đủ 24 đơn vị và 263 khóa. Cả mười sáu điều, mặt đối lại, phép suy từ người về mình, kiểm có/không và kiểm cả danh sách đều được trình bày. Giữ gương hoặc nước, hai phản ứng, sự lặp sau ví dụ, kết tán đồng và nhãn thứ năm. Các công thức gộp có nói rõ áp dụng cho từng điều.",
+        "logic_context": "Hai giả định dù mời mà khó nghe/dù không mời mà dễ nghe đúng chiều. Phân biệt suy nên làm gì với kiểm điều thật đang có; không suy ai nói chậm là có lỗi. Câu hỏi về khả năng giải trình giữ đúng phủ định và nhánh tích cực. Bản sửa không còn nói ngạo mạn là nguyên nhân bắt buộc của bướng bỉnh.",
+        "terminology": "Tỳ-kheo được giải ngay đầu; hằn học, cố chấp vì giận, bướng bỉnh và giữ quan điểm có nét phân biệt. Cặp makkhī/paḷāsī theo bản Việt dự án và có lưu ý khác bản dịch, chưa phải giải quyết độc lập toàn bộ nghĩa từ. Một số từ như cay cú, ngạo mạn vẫn có thể cần người lớn giải thêm.",
+        "audience_fit": "Ví dụ máy bay giấy và câu hỏi về một việc trong ngày gần đời sống trẻ, cho trẻ khả năng kiểm nếp gấp, hỏi rõ và giải thích. Không đòi nhận mọi lời trách hoặc gán toàn bộ con người là xấu. Danh sách mười sáu điều vẫn dài; mức phù hợp được đánh giá qua biên tập, chưa có trẻ đọc thử.",
+        "clarity": "Bài chia mười sáu điều thành nhóm có chức năng rõ rồi chuyển sang suy xét, kiểm và gương. Ví dụ kết lại bằng việc xem điều cụ thể, không cần thắng người góp ý. Những đoạn về năm phản ứng hoặc nhóm cuối còn nhiều thông tin nối nhau, nên cần đọc từng phần; chưa có bằng chứng hiểu qua thử nghiệm.",
+        "editorial_separation": "Máy bay giấy mang loại example và nói rõ được thêm; gợi ý hôm nay mang practice và tách khỏi lời dạy xuất gia. Gương/nước được nhận diện là ví dụ của kinh. Lưu ý cuối ghi lựa chọn dịch và phân biệt số nhóm với số toàn bộ; không bịa lời nói hoặc chứng đắc của người nghe.",
+        "practical_integrity": "Có việc sửa nhỏ, niềm vui khi đã sửa, quyền hỏi hoặc trình bày một buộc lỗi sai và nhờ người lớn đáng tin. Không dùng tự xét để ép phục tùng hoặc dằn vặt. Lời ngày đêm rèn luyện vẫn ở ngữ cảnh người tu; phần áp dụng trẻ chọn một việc vừa sức, không bảo bỏ ngủ hoặc nhận mọi lỗi.",
+        "technical_integrity": "Audit hiện hành không lỗi cấu trúc hay nguồn; 263 khóa được bản đồ ghi đúng một lần, các mã ý hợp lệ và toàn bộ ý có phần giảng/làm rõ. Snapshot cùng hash riêng children và năm nguồn được lưu. Điểm này đánh giá toàn vẹn dữ liệu đã đọc, không tuyên bố đã kiểm giao diện xuất bản, build hay CI."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc đủ năm tệp nguồn và toàn văn ba bản diễn giải; người kiểm là tác tử khác người soạn nhưng cùng công cụ GPT-6 Astra Pro. Không có chuyên gia Pāli độc lập hoặc nhóm độc giả thật tham gia. Bản HTML là toàn văn tham khảo, không được căn chỉnh thành segment. Trang Budsas và các nguồn khác chỉ được chú thích dự án nhắc tới không được mở riêng trong lượt này. Điểm kỹ thuật chỉ thuộc dữ liệu và nguồn; không thay kiểm giao diện, build hoặc quy trình xuất bản của người phụ trách lô.",
+      "contentHash": "f70f003ba3db701684130f0ef5b591edc33a21f1d32e2e6c4916d1d9448f4d14",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn15.html",
+          "sha256": "e24c5735b4b44d2eb6c191464e6a9bc887e3c06ff30e57589e5201d1f18792c5"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn15_root-pli-ms.json",
+          "sha256": "aa9567754aac4815799ba23ca7e04ea0f4143b4fc8bee9158ae322f847968cfe"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn15_translation-en-sujato.json",
+          "sha256": "716c62feaaf0de30dbb1b6ff973c1a65b673939493f656f9248869ab3bef6568"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn15_comment-vi-project.json",
+          "sha256": "16bc08aadad0daff4b48ad20da1f1e10c5cb745a8bbe79d70e3ef71ec86e438e"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn15_translation-vi-project.json",
+          "sha256": "7b18608261befc1cb48f9b7bc9c997415ca2e1166d0c46925ae5ee1991056106"
+        }
+      ]
+    },
+    {
+      "id": "cc3f3dfc-bba4-4811-8b40-df5e93235fb1",
+      "audience": "adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.4,
+        "terminology": 9.2,
+        "audience_fit": 9.3,
+        "clarity": 9.3,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.4
+      },
+      "rationale": {
+        "source_fidelity": "Trọn năm nguồn đã được đọc, kể cả đầy đủ các câu lặp Pāli mà Anh để trống. Người giảng, khung bạn đồng tu, địa điểm và colophon khớp nguồn. Pāli/Anh khớp blob manifest cùng pin; Việt, chú thích và HTML có hash thực. HTML không bị giả lập thành segment, các nguồn trong chú thích chưa được mở riêng.",
+        "semantic_fidelity": "Tự xét giữ mục đích từ bỏ bất thiện và học thiện trong đời tu, vượt hiệu quả quản trị dự án. Mười sáu phẩm chất được đối lại đầy đủ, niềm vui khi không có bất thiện không thành tự tôn. Giữ định hướng khuyên dạy mà không suy nhận mọi cáo buộc là đúng; mức lời giận đã sửa sát nguồn.",
+        "core_coverage": "Giữ đủ lời mời có/không, mười sáu cặp, phép suy cho từng điều và hai nhánh kiểm cho từng điều, rồi toàn danh sách. Hai vật soi, hai phản ứng, công thức nhắc lại trước/sau gương, kết người nghe tán đồng và nhãn số được giữ. Không bỏ việc tiếp tục ngày đêm học thiện ở nhánh đã từ bỏ.",
+        "logic_context": "Phân biệt lời tuyên bố muốn nghe với phẩm chất thực tế, phản đối người với giải trình sự việc, và suy luận với quan sát mình. Có đủ ba phản ứng chống/trách/tố ngược cùng phản ứng né chuyện và giải trình. Không biến ngài Mục-kiền-liên thành Đức Phật, không thêm thành tựu của người nghe.",
+        "terminology": "Giận, hằn học, cố chấp do giận, bướng bỉnh và bám quan điểm được tách rõ. Tư lượng có hai thao tác được phân biệt. Cặp makkhī/paḷāsī ghi lựa chọn Việt dự án và cách TMC khác; đây vẫn là lựa chọn tham chiếu, không phải một tra cứu từ vựng mới có quyền quyết định mọi cách dịch.",
+        "audience_fit": "Tình huống nhìn lại dự án, trách nhiệm quyết định và dữ kiện đúng với công việc người trưởng thành. Người đọc còn quyền phân định và yêu cầu làm rõ; mục tiêu tu học không bị đổi thành năng suất. Nhận định độ phù hợp dựa trên đọc biên tập, chưa có phản hồi từ độc giả thật.",
+        "clarity": "Mạch từ tiếp nhận sang phẩm chất, suy về mình, kiểm rồi hành động có chuyển đoạn rõ. Giải trình chậm nhưng thật so với biện hộ khéo làm sáng trọng tâm. Có nhiều danh mục nhưng được nhóm theo vai trò; một số cụm như niềm hỷ/pháp thiện vẫn đòi người mới chú ý thêm.",
+        "editorial_separation": "Ví dụ quản lý dự án và cách ghi phản hồi mang nhãn riêng; không đặt lời hiện đại vào miệng vị giảng. Khác biệt từ ngữ và nhãn ấn bản được ghi là lưu ý đọc. Phần kết nêu đúng chỉ có sự tán đồng, không thêm lời chứng một thành tựu mà nguồn không kể.",
+        "practical_integrity": "Bài tập yêu cầu phân biệt dữ kiện với suy thêm, chọn một việc sửa và ghi nhận điều đã tốt. Quyền bác một buộc lỗi sai, không chấp nhận xúc phạm và yêu cầu trao đổi tôn trọng được giữ như gợi ý hiện đại. Không hứa giải thoát hay sự tin tưởng chắc chắn sau một lần nhận lỗi.",
+        "technical_integrity": "Audit không lỗi; bản đồ bao phủ 263 khóa đúng một lần, ba bản đều có giảng/làm rõ cho các ý. Hash adults và các nguồn hiện hành đi cùng snapshot, có kiểm lại sau chỉnh chữ. Kiểm dữ liệu này không thay kiểm build hoặc trình duyệt của lô; không ghi đã kiểm Actions."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc đủ năm tệp nguồn và toàn văn ba bản diễn giải; người kiểm là tác tử khác người soạn nhưng cùng công cụ GPT-6 Astra Pro. Không có chuyên gia Pāli độc lập hoặc nhóm độc giả thật tham gia. Bản HTML là toàn văn tham khảo, không được căn chỉnh thành segment. Trang Budsas và các nguồn khác chỉ được chú thích dự án nhắc tới không được mở riêng trong lượt này. Điểm kỹ thuật chỉ thuộc dữ liệu và nguồn; không thay kiểm giao diện, build hoặc quy trình xuất bản của người phụ trách lô.",
+      "contentHash": "7455f83589e78d0c7591b4707e96ca5af8804a41d458187b425fb0b9085c69e0",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn15.html",
+          "sha256": "e24c5735b4b44d2eb6c191464e6a9bc887e3c06ff30e57589e5201d1f18792c5"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn15_root-pli-ms.json",
+          "sha256": "aa9567754aac4815799ba23ca7e04ea0f4143b4fc8bee9158ae322f847968cfe"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn15_translation-en-sujato.json",
+          "sha256": "716c62feaaf0de30dbb1b6ff973c1a65b673939493f656f9248869ab3bef6568"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn15_comment-vi-project.json",
+          "sha256": "16bc08aadad0daff4b48ad20da1f1e10c5cb745a8bbe79d70e3ef71ec86e438e"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn15_translation-vi-project.json",
+          "sha256": "7b18608261befc1cb48f9b7bc9c997415ca2e1166d0c46925ae5ee1991056106"
+        }
+      ]
+    },
+    {
+      "id": "22b51798-82a4-41e6-b5e1-87f27b616ba7",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.4,
+        "terminology": 9.2,
+        "audience_fit": 9.4,
+        "clarity": 9.3,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.4
+      },
+      "rationale": {
+        "source_fidelity": "Đã đối chiếu cả 263 khóa Pāli/Việt/Anh, toàn HTML và năm chú thích với bản lớn tuổi. Lời Mahāmoggallāna, đối tượng tỳ-kheo, Bhagga và dòng thứ năm khớp nguồn. 201 ô Anh trống không gây thiếu phần lặp, vì đã đọc Pāli toàn bộ. Năm phụ thuộc có hash đúng; Pāli và Anh khớp manifest pin.",
+        "semantic_fidelity": "Kinh nghiệm không bị quy là lỗi; điều cần xem là tự tôn, cố chấp và những bất thiện cụ thể. Giữ đủ mặt xấu/tốt và cả niềm vui tiếp tục tu khi đã bỏ, không chỉ nhấn sửa thiếu sót. Mục tiêu là học và tu, sự quý mến của người khác không thay công việc ấy.",
+        "core_coverage": "Đủ 24 đơn vị: bối cảnh, hai tình huống mời/không mời, mười sáu phẩm chất và đối lại, phép suy, tự kiểm từng điều/cả danh sách, gương hoặc nước và hai nhánh. Giữ đoạn nhắc lại sau gương, tán đồng và nhãn ấn bản. Gộp phần lặp có nêu rõ phạm vi toàn bộ danh sách.",
+        "logic_context": "Suy ra điều nên làm được phân biệt với nhìn điều thật đang có; thấy không có bất thiện vẫn tiếp tục học. Giải trình dựa trên sự việc không bị biến thành thi trí nhớ hay tốc độ nói. Ba loại phản ứng với người chỉ lỗi được giữ riêng, lời tán đồng kết bài không thành chứng ngộ.",
+        "terminology": "Phân biệt hằn học, cố chấp do giận, bướng bỉnh/ngạo mạn và chấp quan điểm, không gom thành tính xấu tuổi già. Có lưu ý khác biệt makkhī/paḷāsī trong hai bản Việt. Một vài thuật ngữ hỷ, thiện pháp không giải dài; ngữ cảnh giúp hiểu nhưng chưa thay một giải thích học thuật đầy đủ.",
+        "audience_fit": "Người có kinh nghiệm trong nhóm sửa đồ vẫn là người chủ động hướng dẫn và xem xét. Quyền giữ điều có căn cứ và tiếp tục học được tôn trọng, không mặc định sức khỏe yếu hay trí nhớ kém. Nhịp đọc tương đối thong thả; chưa có thử nghiệm với người lớn tuổi nên không khẳng định hiệu quả thực tế.",
+        "clarity": "Từng nhóm phẩm chất nối sang suy, kiểm và niềm vui, cho thấy bước tiếp theo sau nhận lỗi. Ví dụ thanh đỡ làm rõ vai trò căn cứ mà không quá dài. Mười sáu điều có lượng thông tin lớn, nhưng những nét gần nhau được giải khác biệt; đây là đánh giá biên tập, không số đo đọc hiểu.",
+        "editorial_separation": "Nhóm sửa đồ và bước nhìn lại một cuộc trao đổi được đánh dấu là hiện đại. Gương/nước nằm đúng vai trò ví dụ gốc; cách dịch cặp khó và dòng số cuối được nhận diện ở ghi chú. Bản không thêm câu nói lịch sử hoặc kết quả đạt đạo của người nghe.",
+        "practical_integrity": "Người đọc được chọn việc sửa vừa sức, vui khi đã bỏ phản ứng xấu, đồng thời giữ quyền không nhận lỗi không có. Không dùng kinh nghiệm hoặc tuổi để buộc im lặng hay làm vừa lòng người khác. Việc tự xét được đặt cùng niềm vui tiếp tục học, tránh biến thành kết án bản thân kéo dài.",
+        "technical_integrity": "Bản ghi, mã ý, Unicode và năm nguồn qua audit không lỗi; hash older-adults khớp snapshot đã đọc. Phạm vi kỹ thuật là tính toàn vẹn dữ liệu và nguồn, chưa bao gồm kiểm trang xuất bản hoặc cổng build của lô. Không sửa trạng thái hoặc metadata trong lượt kiểm này."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc đủ năm tệp nguồn và toàn văn ba bản diễn giải; người kiểm là tác tử khác người soạn nhưng cùng công cụ GPT-6 Astra Pro. Không có chuyên gia Pāli độc lập hoặc nhóm độc giả thật tham gia. Bản HTML là toàn văn tham khảo, không được căn chỉnh thành segment. Trang Budsas và các nguồn khác chỉ được chú thích dự án nhắc tới không được mở riêng trong lượt này. Điểm kỹ thuật chỉ thuộc dữ liệu và nguồn; không thay kiểm giao diện, build hoặc quy trình xuất bản của người phụ trách lô.",
+      "contentHash": "1301cc4b46d4e77752480b3a0ed7586a4acc051ce6112d07dadacc8b075d2d58",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn15.html",
+          "sha256": "e24c5735b4b44d2eb6c191464e6a9bc887e3c06ff30e57589e5201d1f18792c5"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn15_root-pli-ms.json",
+          "sha256": "aa9567754aac4815799ba23ca7e04ea0f4143b4fc8bee9158ae322f847968cfe"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn15_translation-en-sujato.json",
+          "sha256": "716c62feaaf0de30dbb1b6ff973c1a65b673939493f656f9248869ab3bef6568"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn15_comment-vi-project.json",
+          "sha256": "16bc08aadad0daff4b48ad20da1f1e10c5cb745a8bbe79d70e3ef71ec86e438e"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn15_translation-vi-project.json",
+          "sha256": "7b18608261befc1cb48f9b7bc9c997415ca2e1166d0c46925ae5ee1991056106"
+        }
+      ]
+    }
+  ]
+}

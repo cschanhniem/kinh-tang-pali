@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn13",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "eab71f80-6796-40cd-aac3-de4f2137534f"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "a186a403-ef9a-4883-87df-b1867ac45148"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "a7a3ab6e-1253-490c-a6d4-5cdea14417f2"
+    }
+  },
+  "reviews": [
+    {
+      "id": "eab71f80-6796-40cd-aac3-de4f2137534f",
+      "audience": "children",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.4,
+        "logic_context": 9.5,
+        "terminology": 9.2,
+        "audience_fit": 9.1,
+        "clarity": 9.1,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu toàn bộ 152 khóa của Pāli, Việt và Anh, toàn HTML cùng 14 chú thích. Đúng địa điểm, các tỳ-kheo là người thuật ở 5.1, Đức Phật giải từ đoạn 6. Các ô Anh trống được kiểm bằng Pāli; không dùng lỗi người nói trong Anh để đổi chủ thể. Năm hash nguồn đúng, Pāli/Anh khớp blob của manifest tại pin.",
+        "semantic_fidelity": "Giữ vị ngọt thực có, nguy hại hiện đời và đời sau, lối thoát là điều phục và từ bỏ tham đắm đối với cả dục, sắc, thọ. Heading đã sửa từ bớt sang từ bỏ, khớp 16.2 và thân đoạn. Không biến vui thích thành tội, già bệnh thành mất phẩm giá, hoặc nhường đồ chơi thành chứng đắc.",
+        "core_coverage": "Đủ 25 đơn vị phủ 152 khóa. Giữ câu hỏi ba đề tài, các loại khổ do dục, sắc qua già/bệnh và đủ chín tình trạng sau chết, bốn thiền, vô thường của thọ và ba cặp không thể/có thể. Chi tiết hình phạt, loài chim và những từ gần nghĩa được gom cho trẻ nhưng vẫn giữ các nhóm và chức năng lập luận; không bỏ một phần chính.",
+        "logic_context": "Đúng chiều không tán thành cũng không bác bỏ, dự báo các du sĩ sẽ bối rối chưa phải cuộc chất vấn đã xảy ra. Giữ đủ ngoại lệ Như Lai, đệ tử, người nghe từ họ. Phân biệt cãi nhau với tấn công, giả định cùng người với tiểu sử thật, và khẳng định vô hại trong lúc an trú thiền với điều kiện nếu của bản Việt cũ.",
+        "terminology": "Bản sửa giải tỳ-kheo, khất thực, Như Lai, Māra và Phạm thiên; thay cụm ác thú/đọa xứ bằng ngôn ngữ cõi tái sinh xấu và khổ đau. Dục/sắc/thọ, tầm/tứ và xả có giải nghĩa. Một số từ niệm, tỉnh giác và phẩm vẫn cần ngữ cảnh hoặc người lớn hỗ trợ; chưa có kiểm nghiệm đọc hiểu với trẻ.",
+        "audience_fit": "Ví dụ đồ chơi và nhường một lượt cho trẻ quyền quan sát sự muốn giữ, không chỉ vâng lời hoặc làm người lớn vui. Mô tả hình phạt được gom nhẹ, chuỗi sau chết trình bày bình thản, có gợi ý đọc cùng người lớn. Nội dung cổ về chết và thiền vẫn đòi đọc từng phần, nên đánh giá này là nhận xét biên tập, không cam kết phù hợp mọi trẻ.",
+        "clarity": "Các đề tài có tiêu đề và thứ tự rõ; mỗi nhánh dẫn từ điều hấp dẫn đến nguy hại rồi lối thoát. Ví dụ đồ chơi được đặt trước phần xung đột giúp nối ý. Đoạn chín tình trạng thân và ba tầng thiền sau chứa nhiều danh mục; không tìm thấy lẫn nghĩa nhưng cần nhịp đọc chậm. Chưa thử với độc giả thật.",
+        "editorial_separation": "Đồ chơi là example và nói rõ do biên soạn; phần thử quan sát là practice, không được gán cho Phật. Phần dẫn sắc chỉ là giả định thời cổ, chú thích cuối nhận diện sự gom hình phạt, nguồn của chuẩn vẻ ngoài và nhãn thứ ba. Không có lời kinh hiện đại bịa trong ngoặc kép.",
+        "practical_integrity": "Gợi ý quan sát niềm vui, sợ mất và thử nhường vừa sức; nói rõ không đo chứng thiền hay giải thoát. Không dùng địa ngục đe trẻ theo lời người lớn, không hướng dẫn tra tấn hoặc buộc xem hình xác chết. Buông tham đắm được tách khỏi làm hại thân, bỏ chăm sóc và ép mất cảm giác.",
+        "technical_integrity": "Audit sau sửa không có errors hoặc sourceErrors. Bản đồ dùng 152 khóa đúng một lần, 25 đơn vị đều được giảng/làm rõ, tác giả hợp lệ, chuỗi Unicode và nguồn đúng cấu trúc. Fingerprint của bản trẻ cùng năm sourceHashes được gắn vào đề xuất này; không có điểm hoặc trạng thái được ghi vào metadata."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc toàn bộ 152 khóa Pāli, Việt dự án và Anh, toàn văn HTML Thích Minh Châu và 14 chú thích, rồi cả ba bản diễn giải. Người kiểm là tác tử /root/editorial_review, khác tác tử biên soạn nhưng cùng công cụ GPT-6 Astra Pro. Không có chuyên gia Pāli độc lập hoặc nhóm độc giả thật tham gia. Các từ điển và trang Budsas được chú thích nhắc đến không được mở riêng trong lượt này. Điểm kỹ thuật chỉ kiểm tính toàn vẹn dữ liệu và nguồn, không thay kiểm build, giao diện hoặc các bước xuất bản của người phụ trách lô.",
+      "contentHash": "33e82883bea2839d6b5b7b56077ee4fed55db1d021e9b19287d12afd12fe7948",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn13.html",
+          "sha256": "7e52b127a7c2615b14fa79c80faf3715c301da31ab4e82772662878fc3af72e3"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn13_root-pli-ms.json",
+          "sha256": "9d2e34d4bd0d75ddb27aab72442f82f94b0552f9754db73b5939630002f8ca07"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn13_translation-en-sujato.json",
+          "sha256": "d4bbce1a0bd1a5f210f97e1ccaece12b00a1f615720adbe9a0f7c41597e56091"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn13_comment-vi-project.json",
+          "sha256": "0110c7ffdf6f78b45d2a232c1290e257d7ba96ced79b6a53b697cb1eeecc858b"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn13_translation-vi-project.json",
+          "sha256": "068ba25b5f5ba0c2a267d6a7ea856622232d473f4c54fa6aa8a98d0eee462850"
+        }
+      ]
+    },
+    {
+      "id": "a186a403-ef9a-4883-87df-b1867ac45148",
+      "audience": "adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.2,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đã đối chiếu toàn văn năm nguồn với bản người trưởng thành. Bối cảnh, diễn giả, lời thuật và colophon đúng; nêu khác biệt người nói ở bản Anh và chữ nếu trong HTML. Pāli và Anh có blob khớp manifest cùng pin; các sourceHashes thực khớp khai báo. Không coi nguồn phụ đã được căn segment khi đó là HTML liên tục.",
+        "semantic_fidelity": "Giữ riêng ba đề tài và ba mặt, công nhận lạc/hỷ của dục và sắc, rồi giải lối thoát bằng từ bỏ tham đắm. Khổ hiện đời không làm mất phần tái sinh sau chết. Bốn thiền vẫn là thành tựu tu, vô hại được khẳng định đúng lúc an trú; không đổi mục tiêu sang mua sắm hiệu quả hoặc chống lão hóa.",
+        "core_coverage": "Đủ các khối triển khai: kiếm sống/thất bại/thành công giữ của, cãi vã/chiến trận/công thành/phạm pháp/hình phạt/đời sau; sắc từ ví dụ ban đầu đến già, bệnh và chín tình trạng sau chết; bốn thiền và nguy hại/lối thoát của thọ. Mỗi đề tài giữ cả nhánh không biết và biết đúng. Danh sách hình phạt cổ được gom có khai báo, không thêm cơ chế chưa có trong Pāli.",
+        "logic_context": "Giữ các du sĩ tự nhận tương đồng là lời của họ, không kết luận của Đức Phật. Đoạn 6 là lời chỉ cách hỏi và dự báo, không chuyện gặp lại. Các nguy hại hiện đời/đời sau tách đúng; cùng người phụ nữ là giả định xuyên suốt. Không biến thiền thành một ví dụ đời thường hay khả năng hiểu thấu thành bảo đảm đọc xong đã đạt.",
+        "terminology": "Dục được phân biệt với nghĩa chỉ tình dục và với mọi thấy nghe; sắc được triển khai qua hình thể, thọ qua thiền và tính đổi khác. Tầm/tứ được ghi là cách hiểu sơ bộ, xả có nghĩa quân bình. Một số từ hỷ/ưu, nhất tâm, thân hoại mạng chung còn mang sắc thái kinh văn; nội dung đủ ngữ cảnh nhưng chưa phải bảng thuật ngữ chuyên sâu.",
+        "audience_fit": "Ví dụ món đồ đắt tiền, làm thêm và lo bảo quản phù hợp lựa chọn, trách nhiệm của người trưởng thành. Người đọc được tự xem điều đang nắm giữ, không bị ra lệnh bỏ mọi tài sản hoặc đánh giá người nghèo. Bản có chiều suy luận phù hợp hơn bản trẻ; nhận xét dựa vào đọc biên tập, chưa có nhóm người đọc thử.",
+        "clarity": "Mạch ba đề tài rõ, phần kiếm sống gộp ba tình huống vẫn tách được chưa đạt và đã đạt. Chuỗi sắc và bốn thiền không bị làm mờ bằng một khẩu hiệu. Một vài đoạn kết dùng lời dẫn kiểm nguồn và công thức nhiều lần, làm nhịp hơi trang trọng; đó là giới hạn nhỏ về độ cuốn hút, không lỗi hiểu nghĩa.",
+        "editorial_separation": "Ví dụ mua đồ và bài ba dòng được đánh dấu riêng, không giả là lời kinh. Nguồn của giả định tuổi/vóc dáng và sự gom tên hình phạt được ghi rõ. Ghi chú cuối nói đúng lỗi người nói của Anh, khác biệt nếu của HTML và nhãn bài thứ ba; không thêm động cơ du sĩ hoặc thành tựu người nghe.",
+        "practical_integrity": "Gợi ý đặt ba câu hỏi cho một sự việc cụ thể, nêu rõ khác với hiểu thấu trọn vẹn và các tầng thiền. Không coi mô tả hình phạt là tán thành, không lấy thân đổi để bỏ chăm sóc hay phá hủy thân, không đòi loại mọi cảm giác. Không đưa lời hứa y tế hoặc kết quả chắc chắn từ thực tập ngắn.",
+        "technical_integrity": "Audit dữ liệu và nguồn không lỗi; map phủ đủ 152 khóa, cả ba bản có semantic coverage, tác giả và sourceDependencies hợp lệ. Hash người trưởng thành giữ ổn định trong sửa bản trẻ và được lấy lại từ hàm chính thức sau cùng. Phạm vi này không bao gồm build hay kiểm giao diện xuất bản của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc toàn bộ 152 khóa Pāli, Việt dự án và Anh, toàn văn HTML Thích Minh Châu và 14 chú thích, rồi cả ba bản diễn giải. Người kiểm là tác tử /root/editorial_review, khác tác tử biên soạn nhưng cùng công cụ GPT-6 Astra Pro. Không có chuyên gia Pāli độc lập hoặc nhóm độc giả thật tham gia. Các từ điển và trang Budsas được chú thích nhắc đến không được mở riêng trong lượt này. Điểm kỹ thuật chỉ kiểm tính toàn vẹn dữ liệu và nguồn, không thay kiểm build, giao diện hoặc các bước xuất bản của người phụ trách lô.",
+      "contentHash": "15f70a01cbd8c3f38cd4fc85de86ca69699d1125cdb9e36d5212af6d6f0a9fcb",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn13.html",
+          "sha256": "7e52b127a7c2615b14fa79c80faf3715c301da31ab4e82772662878fc3af72e3"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn13_root-pli-ms.json",
+          "sha256": "9d2e34d4bd0d75ddb27aab72442f82f94b0552f9754db73b5939630002f8ca07"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn13_translation-en-sujato.json",
+          "sha256": "d4bbce1a0bd1a5f210f97e1ccaece12b00a1f615720adbe9a0f7c41597e56091"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn13_comment-vi-project.json",
+          "sha256": "0110c7ffdf6f78b45d2a232c1290e257d7ba96ced79b6a53b697cb1eeecc858b"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn13_translation-vi-project.json",
+          "sha256": "068ba25b5f5ba0c2a267d6a7ea856622232d473f4c54fa6aa8a98d0eee462850"
+        }
+      ]
+    },
+    {
+      "id": "a7a3ab6e-1253-490c-a6d4-5cdea14417f2",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.2,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc cả năm nguồn và đối chiếu bản lớn tuổi với 152 khóa, gồm các phần Pāli viết đủ trong khi Anh/HTML lược. Địa điểm, người kể, lời dự báo và sự tán đồng kết bài đúng. Cả năm nguồn có hash đúng; Pāli/Anh khớp manifest pin. Chú thích từ điển được đọc như chú thích dự án, không giả đã kiểm độc lập từ điển.",
+        "semantic_fidelity": "Giữ niềm vui có thật và sự từ bỏ tham đắm, không đánh đồng buông với vứt kỷ vật, bỏ thân hoặc ngừng quý người. Ví dụ người phụ nữ giữ tính giả định, không quy tuổi cao thành mất giá trị. Dục vẫn có khổ đời sau, sắc có chuỗi tan rã, thọ có bốn thiền/vô hại và tính vô thường; mục tiêu không bị thu hẹp thành an ủi tâm lý.",
+        "core_coverage": "Đủ 25 đơn vị cùng các danh mục chính: năm đối tượng dục, đủ khổ kiếm/giữ/tranh chấp/chiến tranh/phạm pháp, già và bệnh, chín tình trạng sau chết, bốn thiền, ba lần không thể/có thể và kết bài. Các tên hình phạt được gom, nhưng hậu quả chết/đau gần chết và việc không tán thành hành hạ được giữ. Các công thức lặp có đủ biến đổi ý nghĩa.",
+        "logic_context": "Giữ hai phía của mọi kết luận về hiểu biết và khả năng hướng dẫn, không nâng thành bảo đảm chứng ngộ. Phân biệt người chưa đồng ý/bác bỏ với lời Phật, cãi với đánh, khổ hiện tại với tái sinh, giả định với tiểu sử. Câu vô hại là điều xảy ra lúc trú thiền, không một điều kiện đạo đức mới được thêm.",
+        "terminology": "Thọ được giải khi đến phần thiền; tầm/tứ và xả có cách hiểu sơ bộ, giữ hỷ/lạc và bốn thiền khác nhau. Dục, sắc có ngữ cảnh đầy đủ, vị ngọt được giải ngay. Niệm, tỉnh giác, hỷ ưu và các tên cõi vẫn dùng từ kinh tương đối trang trọng; chưa có nghiên cứu đọc hiểu xác nhận người mới đều hiểu ngay.",
+        "audience_fit": "Ví dụ kỷ vật tôn trọng quan hệ và quyền chăm giữ, không đòi vứt bỏ vì tuổi tác. Những đoạn già/bệnh nói rõ không đại diện mọi người lớn tuổi; lời thực tập là tự chọn, không infantilize hoặc coi người đọc đều yếu bệnh. Nhịp chia đoạn đủ thong thả, nhưng chuỗi thân sau chết có thể cần đọc từng phần; chưa thử với độc giả thật.",
+        "clarity": "Mạch từ câu hỏi đến vị ngọt, nguy hại, lối thoát được giữ xuyên ba đề tài; ví dụ kỷ vật làm sáng một chỗ bám víu. Những phần gần nhau về xương được tách hai mục để dễ đọc. Lượng danh mục và thuật ngữ thiền vẫn lớn, nên độ cuốn hút được đánh giá vừa phải dù ý chính không bị che.",
+        "editorial_separation": "Kỷ vật và việc nhớ một niềm vui gần đây đều ghi rõ là gợi ý biên soạn. Chuyện giả định về sắc, các chuẩn vẻ ngoài và phần hình phạt được đặt trong bối cảnh nguồn; nhãn thứ ba được tách khỏi UID. Không sáng tác lời lịch sử, một trường hợp đời thật hoặc thành tựu vượt phần kinh ghi.",
+        "practical_integrity": "Người đọc được chăm kỷ vật và thân, tiếp tục quý mến người, đồng thời nhận ra sự đòi hỏi điều phải bất biến. Phần thực tập không ép thôi vui, tê cảm giác hoặc tự xác nhận giải thoát. Mô tả già, bệnh, chết phục vụ hiểu sắc, không suy thành lời chẩn đoán hoặc lời yêu cầu bỏ điều trị.",
+        "technical_integrity": "Audit sau lần sửa của tác giả không có lỗi cấu trúc/nguồn; mapping đầy đủ, tác giả và Unicode hợp lệ. Fingerprint của đúng bản lớn tuổi và năm nguồn được lấy bằng hàm chính thức, nguồn được kiểm hash thực. Đề xuất nằm ngoài metadata; chưa tuyên bố đã chạy cổng build hoặc kiểm trang xuất bản."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc toàn bộ 152 khóa Pāli, Việt dự án và Anh, toàn văn HTML Thích Minh Châu và 14 chú thích, rồi cả ba bản diễn giải. Người kiểm là tác tử /root/editorial_review, khác tác tử biên soạn nhưng cùng công cụ GPT-6 Astra Pro. Không có chuyên gia Pāli độc lập hoặc nhóm độc giả thật tham gia. Các từ điển và trang Budsas được chú thích nhắc đến không được mở riêng trong lượt này. Điểm kỹ thuật chỉ kiểm tính toàn vẹn dữ liệu và nguồn, không thay kiểm build, giao diện hoặc các bước xuất bản của người phụ trách lô.",
+      "contentHash": "59c03bee77662a6c4ec57d61dbc034dd8bf621ae5b14d9adf7b64e554dab79bd",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn13.html",
+          "sha256": "7e52b127a7c2615b14fa79c80faf3715c301da31ab4e82772662878fc3af72e3"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn13_root-pli-ms.json",
+          "sha256": "9d2e34d4bd0d75ddb27aab72442f82f94b0552f9754db73b5939630002f8ca07"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn13_translation-en-sujato.json",
+          "sha256": "d4bbce1a0bd1a5f210f97e1ccaece12b00a1f615720adbe9a0f7c41597e56091"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn13_comment-vi-project.json",
+          "sha256": "0110c7ffdf6f78b45d2a232c1290e257d7ba96ced79b6a53b697cb1eeecc858b"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn13_translation-vi-project.json",
+          "sha256": "068ba25b5f5ba0c2a267d6a7ea856622232d473f4c54fa6aa8a98d0eee462850"
+        }
+      ]
+    }
+  ]
+}
