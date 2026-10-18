@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import QualityHistory from '../../../components/QualityHistory.astro';
+import ModernExplanations from '../../../components/ModernExplanations.astro';
 import SuttaReader from '../../../components/SuttaReader.astro';
 import SuttaAudio from '../../../components/SuttaAudio.astro';
 import SuttaMasthead from '../../../components/SuttaMasthead.astro';
@@ -13,6 +14,7 @@ import { adjacentTexts } from '../../../lib/audio/navigation';
 import { COLLECTIONS, listCollection, loadCatalog, loadMeta } from '../../../lib/canon/load';
 import { composeDocument } from '../../../lib/canon/document';
 import { loadAssessmentHistory } from '../../../lib/canon/quality';
+import { loadExplanations } from '../../../lib/canon/explanations';
 import type { CollectionCode, TranslationQualityAssessment } from '../../../lib/canon/types';
 import { withBase } from '../../../lib/url';
 
@@ -39,6 +41,7 @@ const legacyScores = [history.legacy_quality, selectedIsSaved ? undefined : meta
   .filter((quality): quality is TranslationQualityAssessment => Boolean(quality))
   .filter((quality, index, all) => all.findIndex(item => JSON.stringify(item) === JSON.stringify(quality)) === index);
 const supportsSummary = ['mn', 'dn'].includes(collection.code);
+const explanations = supportsSummary ? loadExplanations(collection.code as CollectionCode, uid) : null;
 const hasSummary = supportsSummary && Boolean(document.summary);
 const statusLabel = document.hasProjectData ? document.status : 'not-started';
 const summaryParagraphs = (document.summary ?? '').split(/\n{2,}/).filter((para) => para.trim() !== '');
@@ -85,6 +88,7 @@ const socialImage = cover
       </section>
     )}
     {supportsSummary && !hasSummary && <p data-pagefind-ignore>Chưa có nội dung tóm tắt cho bài kinh này.</p>}
+    {supportsSummary && <ModernExplanations bundle={explanations} />}
     {audio && <SuttaAudio audio={audio} title={document.viTitle} previous={previous} next={next} />}
     <SuttaReader document={document} />
     <SuttaNeighbours previous={neighbourLink(neighbours.previous)} next={neighbourLink(neighbours.next)}

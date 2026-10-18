@@ -1,6 +1,8 @@
 # Kế hoạch diễn giải hiện đại theo lứa tuổi — Trung Bộ Kinh và Trường Bộ Kinh
 
-**Trạng thái:** kế hoạch triển khai. Tài liệu này xác định nội dung, cách biên soạn, cách kiểm chứng và hướng tích hợp; chưa phải bộ diễn giải đã hoàn tất.
+**Trạng thái:** đang triển khai theo yêu cầu ngày 2026-10-18. Đi lần lượt từ MN1 đến hết MN152, rồi DN1 đến hết DN34; chấm từng bản và từng bài, tạo PR và merge sau mỗi 10 bài đạt chuẩn. Tài liệu này không phải báo cáo rằng toàn bộ diễn giải đã hoàn tất.
+
+**Quy trình hiện hành:** [Biên soạn và chấm điểm diễn giải hiện đại](../modern-explanation-quality.md) cụ thể hóa rubric số, cấu trúc JSON, hiệu lực đánh giá và cổng của từng lô. Yêu cầu triển khai tuần tự thay cho thứ tự làm thử MN61/DN31 trong đề xuất ban đầu; các ví dụ ở §5 vẫn chỉ là minh họa giọng viết.
 
 **Mục tiêu:** mỗi bài kinh có thêm ba mục bằng tiếng Việt — dành cho trẻ em, người trưởng thành và người lớn tuổi. Người đọc thấy bài kinh liên quan đến đời sống của mình, hiểu đúng mạch nghĩa và có đường trở lại kinh văn để tìm hiểu sâu hơn.
 
@@ -26,7 +28,7 @@ Ba tên mục thống nhất:
 
 Một bài chỉ được tính là hoàn tất khi cả ba bản đã qua kiểm tra riêng và còn khớp với phiên bản nguồn được dùng. Có thể phát hành từng bản đạt yêu cầu trước; mục còn thiếu hiển thị đúng trạng thái, không lấy bản của nhóm khác để điền vào.
 
-Phạm vi lần này là kế hoạch cho MN và DN. Việc tạo 558 bản, xây giao diện, thêm tìm kiếm diễn giải hoặc xuất bản sách diễn giải thuộc các đợt triển khai tiếp theo.
+Phạm vi triển khai gồm biên soạn ba bản cho từng bài MN/DN, hiển thị trên trang đọc, chấm điểm và kiểm chứng theo lô. Tìm kiếm riêng và sách diễn giải vẫn là các đầu ra cần yêu cầu triển khai riêng.
 
 ### 1.2. Thế nào là thành công?
 
@@ -206,17 +208,16 @@ Các điểm dưới được đối chiếu tại commit dự án ghi ở §1:
 
 Căn cứ kỹ thuật: [types](../../src/lib/canon/types.ts), [trang bài kinh](../../src/pages/sutta/%5Bcollection%5D/%5Buid%5D.astro), [mô hình đánh giá](../../src/lib/canon/quality.ts), [CLI đánh giá](../../scripts/assess-quality.ts) và [package.json](../../package.json).
 
-### 6.2. Cấu trúc dữ liệu đề xuất
+### 6.2. Cấu trúc dữ liệu triển khai
 
-**Các đường dẫn và trường dưới đây là thiết kế mới, chưa phải schema hoặc công cụ đã tồn tại.** Đơn vị biên soạn và duyệt là cặp `(uid, audience)`.
+Đơn vị biên soạn và duyệt là cặp `(uid, audience)`. Triển khai dùng JSON có cấu trúc để kiểm tra và hiển thị đoạn văn thuần. Namespace mới nằm trong phạm vi bình giải của dự án đã được khai báo giấy phép; không trộn với các tệp chú thích theo segment.
 
-| Đường dẫn đề xuất, tương đối từ gốc kho | Vai trò |
+| Đường dẫn, tương đối từ gốc kho | Vai trò |
 | --- | --- |
-| `content/explanations/vi/sutta/<collection>/<uid>/map.yaml` | Hồ sơ nghĩa chung; nguồn, các đơn vị nội dung và đối chiếu độ phủ. |
-| `content/explanations/vi/sutta/<collection>/<uid>/children.md` | Bản trẻ em, kèm metadata riêng. |
-| `content/explanations/vi/sutta/<collection>/<uid>/adults.md` | Bản người trưởng thành, kèm metadata riêng. |
-| `content/explanations/vi/sutta/<collection>/<uid>/older-adults.md` | Bản người lớn tuổi, kèm metadata riêng. |
-| `content/explanations/vi/sutta/<collection>/<uid>/reviews.json` | Lịch sử đánh giá của từng bản; chỉ thêm lượt mới, không ghi đè lượt cũ. |
+| `content/comment/vi/project/explanations/sutta/<collection>/<uid>.json` | Nguồn và hash, hồ sơ nghĩa chung, ba bản độc giả; từng phần có loại, đoạn văn và mã ý. |
+| `content/meta/explanations/sutta/<collection>/<uid>.json` | Trạng thái từng nhóm và lịch sử đánh giá có điểm, căn cứ và hash; giữ các lượt cũ. |
+| `src/lib/canon/explanations.ts` | Schema, kiểm nguồn, độ phủ, hiệu lực đánh giá và điều kiện hiển thị. |
+| `scripts/explanations.ts` | Ghi đánh giá, áp dụng kết quả đủ điều kiện, kiểm tra và báo cáo tiến độ từ catalog. |
 
 Metadata tối thiểu của mỗi bản: `uid`, `audience`, `status`, người/công cụ soạn, ID lượt duyệt được chọn và thông tin phiên bản nội dung. Lượt duyệt lưu người/công cụ thực sự kiểm, ngày, tiêu chí, lỗi còn tồn tại và các dấu vân tay sau:
 
@@ -274,7 +275,7 @@ Agent có thể hỗ trợ soạn và kiểm theo quy định của kho. Không 
 
 ### 7.2. Rubric riêng cho diễn giải
 
-Đây là rubric **đề xuất cho nội dung mới**; không thay rubric hoặc ngưỡng chấm bản dịch ở `docs/quality-assessments.md`. Ban đầu dùng kết quả từng tiêu chí: `đạt`, `cần sửa`, `chưa kiểm`, kèm căn cứ. Không lấy điểm trung bình để che lỗi nghĩa.
+Rubric riêng cho nội dung mới không thay rubric hoặc ngưỡng chấm bản dịch ở `docs/quality-assessments.md`. Theo yêu cầu triển khai, chấm 10 tiêu chí từ 0 đến 10, có nhận xét cụ thể cho từng điểm. Mã tiêu chí, mốc điểm và công thức nằm trong [quy trình chấm điểm](../modern-explanation-quality.md#4-rubric-10-tiêu-chí). Các câu hỏi dưới đây tiếp tục dùng khi rà soát.
 
 | Tiêu chí | Câu hỏi nghiệm thu |
 | --- | --- |
@@ -291,11 +292,11 @@ Agent có thể hỗ trợ soạn và kiểm theo quy định của kho. Không 
 
 **Lỗi chặn phát hành:** sai nghĩa trọng yếu; thiếu một phần có ý nghĩa mà chưa xử lý; bịa nguồn/lời Phật; ví dụ dẫn đến kết luận ngược bài; bất định trọng yếu chưa giải quyết; nguồn hoặc đánh giá không còn hiện hành; dữ liệu/kiểm tra kỹ thuật áp dụng bị lỗi; chưa xác định được phạm vi quyền sử dụng cần thiết. Văn hay hoặc độ dễ đọc không bù được những lỗi này.
 
-`published` cần tất cả tiêu chí đạt và không còn lỗi chặn. `chưa kiểm` là chưa có bằng chứng, không được quy thành đạt. Khi phát hiện lỗi sau phát hành, ngừng phục vụ bản lỗi như bản đã duyệt, lưu vấn đề, sửa và tạo lượt kiểm mới.
+`published` cần trung bình thô ít nhất 9,0/10; từng tiêu chí nguồn, trung thành ngữ nghĩa, độ phủ và logic/ngữ cảnh đều ít nhất 9,0; không còn lỗi chặn và đánh giá còn hiệu lực. Điểm hoàn tất bài là điểm thấp nhất của ba bản. `chưa kiểm` là chưa có bằng chứng, không được quy thành đạt. Khi phát hiện lỗi sau phát hành, ngừng phục vụ bản lỗi như bản đã duyệt, lưu vấn đề, sửa và tạo lượt kiểm mới.
 
 ### 7.3. Kiểm khả năng hiểu bằng phản hồi thật
 
-Trong pilot, thử ít nhất ba độc giả cho mỗi nhóm; với trẻ em có sự đồng ý của người chăm sóc, không thu thập thông tin cá nhân không cần thiết. Mỗi bản trong pilot cần được đọc thử; có thể chia các bài thành nhiều buổi ngắn.
+Khi tổ chức thử với độc giả thật, đề xuất ít nhất ba độc giả cho mỗi nhóm; với trẻ em có sự đồng ý của người chăm sóc, không thu thập thông tin cá nhân không cần thiết. Có thể chia các bài thành nhiều buổi ngắn. Đợt triển khai tuần tự hiện tại ghi riêng review biên tập và phản hồi độc giả; không ghi đã thử với người đọc khi việc đó chưa xảy ra, và không dùng điểm do agent chấm thay cho kết quả thử này.
 
 Chuẩn bị ba câu hỏi từ hồ sơ nghĩa của từng bài, trước khi thử. Ghi kèm đáp án chấp nhận được: hai hoặc ba ý cốt lõi cần nghe thấy và ít nhất một hiểu sai trọng yếu cần phát hiện. Chấp nhận lời kể phù hợp lứa tuổi, không đòi đúng thuật ngữ hoặc nhớ UID/Pāli. Người thử có thể giúp thao tác mở nguồn khi cần, nhưng không gợi đáp án về nghĩa.
 
@@ -303,7 +304,7 @@ Chuẩn bị ba câu hỏi từ hồ sơ nghĩa của từng bài, trước khi 
 2. Ví dụ hôm nay giúp hiểu điều gì; có điều gì không nên suy ra từ ví dụ?
 3. Đâu là lời giải thích của người biên soạn? Nếu muốn kiểm lại ý này trong kinh, tìm ở đâu?
 
-**Ngưỡng thử ban đầu:** với mỗi bản, ít nhất hai trong ba độc giả trả lời đúng cả ba câu hỏi cốt lõi mà không cần người thử giảng lại; bất kỳ hiểu sai nghiêm trọng nào do câu chữ gợi ra đều phải được sửa và thử lại. Đây là điều kiện mở rộng pilot, không phải bằng chứng thống kê về toàn bộ độc giả. Nếu chưa đạt, sửa cách trình bày trước khi tăng số bài.
+**Ngưỡng thử ban đầu:** với mỗi bản, ít nhất hai trong ba độc giả trả lời đúng cả ba câu hỏi cốt lõi mà không cần người thử giảng lại; bất kỳ hiểu sai nghiêm trọng nào do câu chữ gợi ra đều phải được sửa và thử lại. Đây là mốc đánh giá của hoạt động thử đọc, không phải bằng chứng thống kê về toàn bộ độc giả. Phản hồi cho thấy một hiểu sai trọng yếu phải làm bài quay lại bước sửa và đánh giá.
 
 ### 7.4. Kiểm kỹ thuật cần xây khi triển khai
 
@@ -315,29 +316,29 @@ Chuẩn bị ba câu hỏi từ hồ sơ nghĩa của từng bài, trước khi 
 - Từ chỉ có trong ví dụ không lọt vào chỉ mục kinh văn; diễn giải không lọt vào sách/audio hiện hành.
 - Không thay đổi translation JSON, UID, segment, provenance, điểm chất lượng hoặc coverage kinh văn chỉ vì thêm diễn giải.
 
-Các kiểm tra mới cần nối vào validator/tests/CI; hiện chưa có lệnh `explanations:*`. Khi triển khai, dùng các cổng có thật `npm run validate`, `npm test`, `npm run check`; phần giao diện/build chạy thêm `npm run build`, `npm run design:check`, `npm run seo:check` và kiểm browser theo `DESIGN.md`. Viết xong tài liệu kế hoạch không đồng nghĩa các cổng của tính năng đã được chạy hoặc đã đạt.
+Các kiểm tra mới nối vào validator/tests/CI qua `explanations:check`; `explanations:report` báo tiến độ từ catalog và những đánh giá hiện hành. Dùng các cổng `npm run validate`, `npm test`, `npm run check`; phần giao diện/build chạy thêm `npm run build`, `npm run design:check`, `npm run seo:check` và kiểm browser theo `DESIGN.md`. Viết xong tài liệu hoặc công cụ không đồng nghĩa các cổng đã được chạy hoặc đã đạt.
 
 ## 8. Lộ trình triển khai
 
 | Chặng | Công việc và đầu ra | Điều kiện đi tiếp |
 | --- | --- | --- |
-| 1. Hiệu chỉnh hai bài đầu | MN61 và DN31; hai hồ sơ nghĩa, sáu bản diễn giải hoàn chỉnh; thử tiếng Việt và kiểm nguồn. | Cả sáu qua review nghĩa; ghi được khác biệt thật giữa ba nhóm và các lỗi từ đọc thử. |
-| 2. Thử bài khó và bài dài | Thêm MN19, MN10, DN2, DN16: kiểm khả năng giải thích thuật ngữ, mạch tu tập và cách chia phần dài. Tổng pilot là sáu bài, 18 bản. | Toàn bộ phần khó được xử lý; đạt tiêu chí §7, không chỉ đạt ở hai bài dễ tiếp cận đầu tiên. |
-| 3. Hoàn thiện cơ chế | Schema, loader, review/hash, component ba mục, validator, quyết định giấy phép và CI; đưa pilot vào preview. | Kiểm kỹ thuật đạt; nhãn/nguồn rõ; không ảnh hưởng kinh văn, tìm kiếm và các đầu ra hiện hữu. |
-| 4. Mở rộng MN | Theo thứ tự catalog, theo lô ban đầu khoảng năm bài; có thể ưu tiên điểm khó để giải quyết sớm. | Lô trước không còn lỗi chặn; mọi bài hoàn tất có đủ ba bản hiện hành. |
-| 5. Hoàn thiện DN | Dùng quy trình đã hiệu chỉnh cho bài dài; tiếp tục theo thứ tự catalog sau các bài pilot. | Cùng tiêu chuẩn, không giảm độ phủ để chạy kịp số lượng. |
+| 1. Nền tảng và MN1 | Schema, rubric, nguồn, bản đồ ý và ba bản MN1; loader, review/hash, component và kiểm tra. | MN1 có đủ ba bản được đối chiếu và chấm riêng; cơ chế không tác động kinh văn. |
+| 2. Lô đầu MN1–MN10 | Tiếp tục MN2 đến MN10, sửa sau review, lập bảng điểm; tạo PR và kiểm CI. | Cả 10 bài hoàn tất, kiểm tra đúng commit thành công, merge PR. |
+| 3. Tiếp tục Trung Bộ | Các lô kế tiếp giữ thứ tự catalog và cùng ngưỡng điểm. | Mỗi lô 10 bài đạt chuẩn được tạo PR, kiểm tra và merge. |
+| 4. Chuyển sang Trường Bộ | Sau MN152 đến DN1; lô tại ranh giới hai bộ tiếp tục đủ 10 bài. | Không bỏ hoặc lặp bài; bài dài vẫn đủ mạch nghĩa và chia phần đọc phù hợp. |
+| 5. Hoàn thiện DN34 | Tiếp tục theo thứ tự; lô cuối chứa số bài còn lại. | Đủ 186 bài và 558 bản hiện hành được kiểm từ catalog, các PR đã merge. |
 | 6. Duy trì | Theo dõi thay đổi nguồn và phản hồi; sửa, duyệt lại, giữ lịch sử. | Báo cáo phản ánh phiên bản hiện hành và những bản đang cần rà soát. |
 
-Quy mô lô và số người đọc thử là điểm khởi đầu, điều chỉnh theo lỗi và thời gian review thực tế. Không cam kết ngày hoàn tất 558 bản trước khi đo được công sức tạo ra một bản **đã đạt**. Ghi riêng thời gian đọc nguồn, soạn, review và sửa để ước lượng phần còn lại.
+Quy mô lô là 10 bài theo yêu cầu; chất lượng từng bài không giảm để đạt số lượng. Không cam kết ngày hoàn tất 558 bản trước khi đo được công sức tạo ra một bản **đã đạt**. Ghi riêng việc đọc nguồn, soạn, review và sửa để theo dõi phần còn lại.
 
-### 8.1. Việc làm trong bảy ngày đầu
+### 8.1. Thứ tự công việc trong lô đầu
 
-- **Ngày 1:** chốt hồ sơ nghĩa MN61/DN31, trường dữ liệu và cách ghi căn cứ; liệt kê những chỗ chưa phân xử.
-- **Ngày 2–3:** viết đủ sáu bản của hai bài, đối chiếu và sửa trong lượt review độc lập.
-- **Ngày 4–5:** đọc thử theo nhóm, thu lại cách người đọc hiểu và sửa phần gây nhầm; thử lại chỗ quan trọng.
-- **Ngày 6–7:** làm một lát cắt preview với ba mục, nguồn, trạng thái và kiểm hash; nếu còn lỗi nghĩa hoặc đọc hiểu thì ưu tiên sửa lỗi trước khi mở rộng.
+- Chốt hồ sơ nghĩa MN1, trường dữ liệu, rubric số và cách ghi căn cứ; liệt kê những chỗ chưa phân xử.
+- Viết đủ ba bản MN1, đối chiếu và sửa trong lượt review tách khỏi lượt soạn.
+- Kiểm trang đọc, nguồn, trạng thái và hash; tiếp tục từng bài MN2–MN10 theo cùng quy trình.
+- Lập báo cáo điểm thật của 10 bài; kiểm tra, tạo PR, đợi CI của đúng commit rồi merge.
 
-Đây là nhịp dự kiến, không phải hạn buộc xuất bản. **Hành động đầu tiên:** lập hồ sơ nghĩa đầy đủ của MN61, sau đó viết ba bản từ hồ sơ ấy. Không bắt đầu bằng sinh hàng loạt 558 bản rồi mới tìm người kiểm.
+Đây là thứ tự công việc, không phải hạn buộc xuất bản. **Hành động đầu tiên:** lập hồ sơ nghĩa đầy đủ của MN1, sau đó viết ba bản từ hồ sơ ấy. Không bắt đầu bằng sinh hàng loạt 558 bản rồi mới tìm người kiểm.
 
 ### 8.2. Điều kiện tạm dừng mở rộng
 

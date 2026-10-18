@@ -1,0 +1,959 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn8",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn8_root-pli-ms.json",
+      "sha256": "539142bed99656b16b9a115d3e41dc397b5d7cfaebf5c688af0f46a485e6e46d",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn8_translation-vi-project.json",
+      "sha256": "faa5546d8eae7561c29c0bc80ea648a8c4fdbef2f9f003abaaf4e887f2c761bb",
+      "commit": "d61c3d79c73aee87f34cbbed1e96b134d95e72cb"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn8_translation-en-sujato.json",
+      "sha256": "ad3ab7c0189b1f65ec2e1fa03f6bb48193e85d2f15eb98671b8d28480248d6bb",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn8.html",
+      "sha256": "8709cd3b069a6ea6d77ba02b948595e40518265ee2acc4c841460d6206db2ee2",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn8_comment-vi-project.json",
+      "sha256": "77b3cbe215dd573e7a60003011f0c04d066ef2b254d01e8756443ab454c5cf6f",
+      "commit": "d61c3d79c73aee87f34cbbed1e96b134d95e72cb"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "setting",
+      "title": "Bối cảnh, tên bài và câu hỏi của Mahācunda",
+      "summary": "Tại Jetavana ở Sāvatthī, Mahācunda đến sau độc cư, hỏi việc buông các kiến về tự ngã và thế giới khi tác ý từ đầu.",
+      "segments": [
+        "mn8:0.1",
+        "mn8:0.2",
+        "mn8:1.1",
+        "mn8:1.2",
+        "mn8:2.1"
+      ]
+    },
+    {
+      "id": "views",
+      "title": "Thấy chỗ các kiến phát sinh, tiềm ẩn và hoạt động",
+      "summary": "Ba vị trí và ba phủ định: không phải của tôi, tôi không phải cái này, không phải tự ngã của tôi; thấy đúng như thật bằng chánh trí tuệ.",
+      "segments": [
+        "mn8:3.1",
+        "mn8:3.2",
+        "mn8:3.3",
+        "mn8:3.4",
+        "mn8:3.5",
+        "mn8:3.6"
+      ]
+    },
+    {
+      "id": "jhanas",
+      "title": "Bốn thiền là hiện tại lạc trú",
+      "summary": "Đủ sơ thiền còn tầm tứ; nhị thiền nhất tâm; tam thiền xả niệm và lạc; tứ thiền không khổ lạc, niệm thanh tịnh nhờ xả. Không tự đồng nhất các chứng đắc với đoạn giảm.",
+      "segments": [
+        "mn8:4.1",
+        "mn8:4.2",
+        "mn8:4.3",
+        "mn8:4.4",
+        "mn8:4.5",
+        "mn8:5.1",
+        "mn8:5.2",
+        "mn8:5.3",
+        "mn8:5.4",
+        "mn8:5.5",
+        "mn8:6.1",
+        "mn8:6.2",
+        "mn8:6.3",
+        "mn8:6.4",
+        "mn8:6.5",
+        "mn8:7.1",
+        "mn8:7.2",
+        "mn8:7.3",
+        "mn8:7.4",
+        "mn8:7.5"
+      ]
+    },
+    {
+      "id": "formless",
+      "title": "Bốn xứ vô sắc là tịch tịnh trú",
+      "summary": "Không vô biên, Thức vô biên, Vô sở hữu, Phi tưởng phi phi tưởng, lần lượt vượt phạm vi trước; cũng không gọi là đoạn giảm ở đây.",
+      "segments": [
+        "mn8:8.1",
+        "mn8:8.2",
+        "mn8:8.3",
+        "mn8:8.4",
+        "mn8:8.5",
+        "mn8:9.1",
+        "mn8:9.2",
+        "mn8:9.3",
+        "mn8:9.4",
+        "mn8:9.5",
+        "mn8:10.1",
+        "mn8:10.2",
+        "mn8:10.3",
+        "mn8:10.4",
+        "mn8:10.5",
+        "mn8:11.1",
+        "mn8:11.2",
+        "mn8:11.3",
+        "mn8:11.4",
+        "mn8:11.5"
+      ]
+    },
+    {
+      "id": "conduct",
+      "title": "Các mục 1–10: không hại, phạm hạnh, lời nói, tham và sân",
+      "summary": "Giữ không tàn nhẫn, sát sinh, trộm cắp; phạm hạnh có nghĩa tiết dục trong bối cảnh tỳ-kheo; bốn nghiệp lời; không tham muốn và sân hận.",
+      "segments": [
+        "mn8:12.0",
+        "mn8:12.1",
+        "mn8:12.2",
+        "mn8:12.3",
+        "mn8:12.4",
+        "mn8:12.5",
+        "mn8:12.6",
+        "mn8:12.7",
+        "mn8:12.8",
+        "mn8:12.9",
+        "mn8:12.10",
+        "mn8:12.11"
+      ]
+    },
+    {
+      "id": "right-path",
+      "title": "Các mục 11–20: mười chi chân chánh",
+      "summary": "Từ chánh kiến đến chánh định, thêm chánh trí và chánh giải thoát; giữ đối trị từng dạng sai tương ứng.",
+      "segments": [
+        "mn8:12.12",
+        "mn8:12.13",
+        "mn8:12.14",
+        "mn8:12.15",
+        "mn8:12.16",
+        "mn8:12.17",
+        "mn8:12.18",
+        "mn8:12.19",
+        "mn8:12.20",
+        "mn8:12.21"
+      ]
+    },
+    {
+      "id": "hindrances",
+      "title": "Các mục 21–23: tâm cần được rèn luyện",
+      "summary": "Thoát hôn trầm buồn ngủ, không trạo cử, vượt nghi hoặc; không biến thành lệnh cấm nghỉ ngơi hay đặt câu hỏi.",
+      "segments": [
+        "mn8:12.22",
+        "mn8:12.23",
+        "mn8:12.24"
+      ]
+    },
+    {
+      "id": "defilements",
+      "title": "Các mục 24–33: mười nết bất thiện",
+      "summary": "Giận, hằn học, gièm pha, hơn thua, ganh tị, keo kiệt, quanh co, giả dối, bướng bỉnh, ngạo mạn; đối trị riêng từng nết.",
+      "segments": [
+        "mn8:12.25",
+        "mn8:12.26",
+        "mn8:12.27",
+        "mn8:12.28",
+        "mn8:12.29",
+        "mn8:12.30",
+        "mn8:12.31",
+        "mn8:12.32",
+        "mn8:12.33",
+        "mn8:12.34"
+      ]
+    },
+    {
+      "id": "companions",
+      "title": "Các mục 34–36: góp ý, bạn lành, không buông lung",
+      "summary": "Dễ được góp ý, kết bạn lành, không buông lung; không phải phục tùng bất kỳ yêu cầu nào.",
+      "segments": [
+        "mn8:12.35",
+        "mn8:12.36",
+        "mn8:12.37"
+      ]
+    },
+    {
+      "id": "supports",
+      "title": "Các mục 37–43: những phẩm chất hỗ trợ",
+      "summary": "Lòng tin, biết hổ thẹn, biết sợ điều ác, học rộng, tinh tấn, niệm được an trú, thành tựu trí tuệ.",
+      "segments": [
+        "mn8:12.38",
+        "mn8:12.39",
+        "mn8:12.40",
+        "mn8:12.41",
+        "mn8:12.42",
+        "mn8:12.43",
+        "mn8:12.44"
+      ]
+    },
+    {
+      "id": "release-views",
+      "title": "Mục 44: không nắm cứng ý riêng",
+      "summary": "Không chấp quan điểm của mình, không nắm cứng, dễ buông bỏ; giữ khác biệt với việc bỏ hết suy xét.",
+      "segments": [
+        "mn8:12.45"
+      ]
+    },
+    {
+      "id": "intention",
+      "title": "Khởi tâm thiện có lợi ích",
+      "summary": "Ngay ý hướng thiện có lợi, huống chi thực hiện bằng thân lời; công thức áp dụng lại cả 44 mục, Pāli có peyyāla.",
+      "segments": [
+        "mn8:13.0",
+        "mn8:13.1",
+        "mn8:13.2",
+        "mn8:13.3",
+        "mn8:13.4"
+      ]
+    },
+    {
+      "id": "bypass",
+      "title": "Lối đi và bến qua sông bằng phẳng",
+      "summary": "Hai ví dụ trong kinh; phẩm chất thiện tương ứng là đường tránh bất thiện, đủ 44 cặp được triển khai.",
+      "segments": [
+        "mn8:14.0",
+        "mn8:14.1",
+        "mn8:14.2",
+        "mn8:14.3",
+        "mn8:14.4",
+        "mn8:14.5"
+      ]
+    },
+    {
+      "id": "upwards",
+      "title": "Thiện dẫn lên, bất thiện dẫn xuống",
+      "summary": "Cùng 44 cặp hướng thượng; không hứa địa vị, thắng lợi hay ưu thế xã hội.",
+      "segments": [
+        "mn8:15.0",
+        "mn8:15.1",
+        "mn8:15.2",
+        "mn8:15.3"
+      ]
+    },
+    {
+      "id": "quenching",
+      "title": "Tự thoát bùn và hướng đến tịch diệt",
+      "summary": "Tự mắc bùn không kéo được người cùng mắc; tự được điều phục/rèn luyện/tịch diệt mới có thể dẫn người khác như vậy. 44 đối trị đưa đến tịch diệt, không tự nhận viên mãn sau một hành vi.",
+      "segments": [
+        "mn8:16.0",
+        "mn8:16.1",
+        "mn8:16.2",
+        "mn8:16.3",
+        "mn8:16.4",
+        "mn8:16.5",
+        "mn8:16.6",
+        "mn8:16.7",
+        "mn8:16.8",
+        "mn8:16.9",
+        "mn8:16.10",
+        "mn8:16.11",
+        "mn8:16.12",
+        "mn8:16.13",
+        "mn8:16.14",
+        "mn8:16.15",
+        "mn8:16.16",
+        "mn8:16.17",
+        "mn8:16.18",
+        "mn8:16.19",
+        "mn8:16.20",
+        "mn8:16.21",
+        "mn8:16.22",
+        "mn8:16.23",
+        "mn8:16.24",
+        "mn8:16.25",
+        "mn8:16.26",
+        "mn8:16.27",
+        "mn8:16.28",
+        "mn8:16.29",
+        "mn8:16.30",
+        "mn8:16.31",
+        "mn8:16.32",
+        "mn8:16.33",
+        "mn8:16.34",
+        "mn8:16.35",
+        "mn8:16.36",
+        "mn8:16.37",
+        "mn8:16.38",
+        "mn8:16.39",
+        "mn8:16.40",
+        "mn8:16.41",
+        "mn8:16.42",
+        "mn8:16.43",
+        "mn8:16.44",
+        "mn8:16.45",
+        "mn8:16.46",
+        "mn8:16.47"
+      ]
+    },
+    {
+      "id": "ending",
+      "title": "Năm phương pháp, lời nhắc tu tập và kết",
+      "summary": "Đủ năm phương pháp, lòng thương của thầy, gốc cây nhà trống, hãy tu thiền không buông lung để tránh hối tiếc; Mahācunda hoan hỷ; kệ cuối 44 mục, năm phần, sâu như biển và nhãn kết.",
+      "segments": [
+        "mn8:17.1",
+        "mn8:17.2",
+        "mn8:17.3",
+        "mn8:17.4",
+        "mn8:17.5",
+        "mn8:17.6",
+        "mn8:17.7",
+        "mn8:17.8",
+        "mn8:17.9",
+        "mn8:17.10"
+      ]
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Mình có thể chọn một cách khác",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Đổi một cách làm, bắt đầu từ mình",
+          "paragraphs": [
+            "Kinh Đoạn Giảm kể cuộc gặp giữa Đức Phật và Tôn giả Mahācunda ở tu viện trong rừng Jeta, tại Sāvatthī. Cuối buổi chiều, sau thời gian ở riêng tu tập, Mahācunda đến đảnh lễ rồi hỏi về những quan điểm liên quan đến cái tôi và thế giới. Chỉ mới chú tâm ngay từ đầu đã đủ để bỏ chúng hay chưa? “Đoạn giảm” trong bài là làm giảm, bỏ những điều bất thiện qua sự rèn luyện."
+          ],
+          "meaningUnits": [
+            "setting",
+            "views"
+          ]
+        },
+        {
+          "id": "group-story",
+          "kind": "example",
+          "heading": "Khi cả nhóm cùng trêu một bạn",
+          "paragraphs": [
+            "Cả nhóm đang cười một bạn vừa làm sai. Em cũng muốn cười theo để khỏi bị lạc lõng. Nhưng em nhận ra bạn kia đang buồn và chọn dừng lại. Có thể em nhắc cả nhóm quay lại trò chơi hoặc nhờ một người đáng tin giúp đỡ.",
+            "Đây là chuyện minh họa hôm nay. Nó mở một cửa vào bài kinh: người khác làm điều gây hại không buộc mình cũng làm như vậy. Ta có thể bắt đầu một hướng khác ngay từ lựa chọn của mình."
+          ],
+          "meaningUnits": [
+            "conduct",
+            "intention"
+          ]
+        },
+        {
+          "id": "seeing-views",
+          "kind": "teaching",
+          "heading": "Nhìn lại điều mình nắm rất chặt",
+          "paragraphs": [
+            "Đức Phật hướng người nghe nhìn đúng bằng trí tuệ vào nơi các quan điểm phát sinh, còn nằm ẩn và hoạt động. Ở đó, quán sát: điều này không phải của tôi; tôi không phải điều này; điều này không phải tự ngã của tôi.",
+            "Có những điều ta rất tin và cứ giữ như thể hễ buông nó thì mất cả mình. Lời dạy mời nhìn sâu vào chỗ ấy. Đây là sự hiểu biết cần tu tập, không phải chỉ đọc ba câu rồi coi như mọi bám giữ đã hết."
+          ],
+          "meaningUnits": [
+            "views"
+          ]
+        },
+        {
+          "id": "four-meditations",
+          "kind": "teaching",
+          "heading": "Sự yên ổn cũng có nhiều mức",
+          "paragraphs": [
+            "Kinh nói đến bốn thiền. Ở thiền thứ nhất, vị tu tập rời dục và những điều bất thiện, có vui và an lạc do viễn ly, còn hướng tâm và duy trì tâm trên đối tượng, gọi là tầm và tứ. Ở thiền thứ hai, tầm tứ lắng xuống, tâm trong sáng, thống nhất, có hỷ lạc do định.",
+            "Ở thiền thứ ba, hỷ lắng xuống, vị ấy có xả, niệm và tỉnh giác, vẫn cảm nhận lạc. Xả là sự quân bình; niệm và tỉnh giác giúp không quên và biết rõ điều đang diễn ra. Ở thiền thứ tư, khổ lạc cùng hỷ ưu đã lắng, còn niệm thanh tịnh nhờ xả.",
+            "Một vị có thể nghĩ mình đang đoạn giảm khi ở trong các thiền ấy. Đức Phật nói chúng không được gọi là đoạn giảm ở đây, mà là những sự an trú an lạc ngay hiện tại. Bài kinh tiếp tục chỉ ra việc rèn những phẩm chất cụ thể trong đời sống tu học."
+          ],
+          "meaningUnits": [
+            "jhanas"
+          ]
+        },
+        {
+          "id": "subtle-meditations",
+          "kind": "teaching",
+          "heading": "Bốn tên khó nhưng có một điểm cần nhớ",
+          "paragraphs": [
+            "Kinh tiếp tục với Không vô biên xứ: vượt tưởng về hình sắc, tưởng về xúc chạm đã lắng, không chú tâm sự đa dạng, nhận biết không gian vô biên, tức không có giới hạn. Vượt phạm vi ấy, vị tu tập đến Thức vô biên xứ, với nhận biết thức là vô biên. Vượt nữa là Vô sở hữu xứ, với nhận biết không có gì; rồi Phi tưởng phi phi tưởng xứ: không phải có tưởng, cũng không phải hoàn toàn không có tưởng. Ở đây, tưởng là sự nhận ra đối tượng.",
+            "Đây là những chứng đắc thiền sâu, cần học thêm để hiểu. Đức Phật gọi chúng là tịch tịnh trú, tức những sự an trú yên tĩnh. Ngài vẫn phân biệt chúng với đoạn giảm trong bài này. Kết bài còn khuyên tu thiền, nên sự phân biệt ấy không phải bảo bỏ thiền."
+          ],
+          "meaningUnits": [
+            "formless"
+          ]
+        },
+        {
+          "id": "first-ten",
+          "kind": "teaching",
+          "heading": "Từ việc làm và lời nói gần gũi",
+          "paragraphs": [
+            "Đức Phật nêu 44 điều để rèn. Bắt đầu là không tàn nhẫn, không giết hại sinh vật, không lấy thứ chưa được cho, và sống phạm hạnh. Với các tỳ-kheo trong bài, phạm hạnh bao gồm sống độc thân, không có quan hệ tình dục; đó là nếp sống họ đã chọn khi xuất gia.",
+            "Tiếp theo, rời nói dối, lời gây chia rẽ, lời làm đau người khác và lời vô ích; rời sự tham muốn lấy về mình và tâm muốn hại người. Với mỗi điều, dù người khác làm ngược lại, người tu vẫn chọn điều thiện. Em có thể bắt đầu từ lời nói chân thật và cách đối xử không làm bạn tổn thương."
+          ],
+          "meaningUnits": [
+            "conduct"
+          ]
+        },
+        {
+          "id": "ten-right-directions",
+          "kind": "teaching",
+          "heading": "Cả cách hiểu và hướng đi cũng cần đúng",
+          "paragraphs": [
+            "Mười điều tiếp là chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm, chánh định, chánh trí và chánh giải thoát. Có thể nhớ hướng chung: hiểu đúng, chủ tâm đúng, nói và làm đúng, nuôi sống mình chân chánh, cố gắng đúng, có niệm và định đúng, biết đúng và giải thoát đúng.",
+            "Kinh đặt từng điều đúng bên cạnh điều sai tương ứng để người nghe chọn hướng rèn luyện. Danh sách đi xa hơn việc cư xử cho được khen: nó còn hướng đến hiểu biết và giải thoát thực sự."
+          ],
+          "meaningUnits": [
+            "right-path"
+          ]
+        },
+        {
+          "id": "clear-mind",
+          "kind": "teaching",
+          "heading": "Giữ tâm đủ sáng để học",
+          "paragraphs": [
+            "Ba điều nữa là thoát sự mờ mệt và buồn ngủ đang chế ngự tâm, rèn tâm không xao động, và vượt nghi hoặc trong tu học. Điều cần nuôi là sự tỉnh thức, vững vàng và hiểu biết rõ. Khi chưa hiểu, em vẫn có thể hỏi; khi cần nghỉ, em vẫn cần nghỉ. Ta đang học cách nhận ra điều cản trở sự tu tập."
+          ],
+          "meaningUnits": [
+            "hindrances"
+          ]
+        },
+        {
+          "id": "ten-habits",
+          "kind": "teaching",
+          "heading": "Những nết nhỏ làm quan hệ khó đi",
+          "paragraphs": [
+            "Kinh tiếp tục với mười nết cần rời bỏ: hay nổi giận; ôm hằn học; gièm pha người khác; tranh hơn thua; ganh tị; keo kiệt; quanh co; giả dối; bướng bỉnh; và ngạo mạn. Mỗi nết có hướng rèn đối lại: không nuôi nết ấy.",
+            "Em có thể nhận ra một việc nhỏ trước: bạn làm tốt thì vui cùng bạn; được góp ý thì nghe cho rõ; đã sai thì nói thật. Những ví dụ ấy giúp mình hiểu danh sách, chứ chưa phải đã làm xong cả con đường."
+          ],
+          "meaningUnits": [
+            "defilements"
+          ]
+        },
+        {
+          "id": "people-around",
+          "kind": "teaching",
+          "heading": "Có người cùng giúp mình học",
+          "paragraphs": [
+            "Ba điều tiếp là dễ đón nhận góp ý, chọn bạn lành và không buông lung. Bạn lành giúp nhau làm điều tốt. Dễ được góp ý là sẵn lòng xem xét điều có lý, không phải làm theo mọi lời sai hoặc gây hại. Không buông lung là nhớ chăm việc cần làm."
+          ],
+          "meaningUnits": [
+            "companions"
+          ]
+        },
+        {
+          "id": "growing-strength",
+          "kind": "teaching",
+          "heading": "Bảy phẩm chất để tiếp tục",
+          "paragraphs": [
+            "Kinh còn nhắc lòng tin; biết hổ thẹn với điều sai; biết sợ làm điều ác; học rộng; siêng năng; an trú niệm; và thành tựu trí tuệ. Hổ thẹn ở đây giúp mình nhận lỗi và sửa, không bảo mình là một người chẳng có giá trị. Biết sợ điều ác là thấy tác hại để tránh làm.",
+            "Lòng tin giúp bước vào việc học; nghe học thêm, cố gắng, có niệm và suy xét giúp việc học sâu dần. Bảy điều cùng hỗ trợ nhau."
+          ],
+          "meaningUnits": [
+            "supports"
+          ]
+        },
+        {
+          "id": "last-item",
+          "kind": "teaching",
+          "heading": "Ý mình cũng có thể cần đổi",
+          "paragraphs": [
+            "Điều cuối trong 44 mục là không chấp cứng ý kiến của mình, không nắm giữ khư khư và dễ buông khi cần. Có thể lắng nghe một ý khác mà vẫn suy xét cẩn thận. Bỏ sự khăng khăng giúp mình học thêm."
+          ],
+          "meaningUnits": [
+            "release-views"
+          ]
+        },
+        {
+          "id": "intention",
+          "kind": "teaching",
+          "heading": "Ý định tốt là bước mở đầu",
+          "paragraphs": [
+            "Đức Phật nói ngay việc khởi tâm hướng đến điều thiện đã có nhiều lợi ích; làm theo bằng thân và lời nói còn có ích hơn nữa. Với cả 44 điều, hãy bắt đầu bằng ý hướng: dù người khác làm điều bất thiện, mình sẽ rèn điều thiện tương ứng. Ý hướng ấy cần đi vào việc làm."
+          ],
+          "meaningUnits": [
+            "intention"
+          ]
+        },
+        {
+          "id": "another-way",
+          "kind": "teaching",
+          "heading": "Đường bằng và bến dễ qua",
+          "paragraphs": [
+            "Trong kinh có ví dụ: cạnh con đường gồ ghề có thể có đường bằng để đi vòng qua; cạnh bến sông khó qua có thể có bến bằng phẳng hơn. Cũng vậy, không tàn nhẫn là lối tránh sự tàn nhẫn; không nói dối là lối tránh nói dối. Cách này áp dụng lại đủ 44 cặp vừa học.",
+            "Bài còn nói điều bất thiện dẫn xuống, điều thiện dẫn lên. Đó là hướng tốt hay xấu của sự tu tập; làm thiện không phải cuộc thi để thấy mình cao hơn bạn."
+          ],
+          "meaningUnits": [
+            "bypass",
+            "upwards"
+          ]
+        },
+        {
+          "id": "mud",
+          "kind": "teaching",
+          "heading": "Muốn giúp người, mình cũng cần chỗ đứng",
+          "paragraphs": [
+            "Đức Phật dùng hình ảnh một người đang chìm trong bùn: tự mình còn chìm thì không thể kéo người cũng đang chìm lên; mình không chìm thì mới có thể kéo người khác. Ngài nối hình ảnh ấy với việc tự được điều phục, rèn luyện và tịch diệt trước khi dẫn người khác đến những điều ấy.",
+            "Cùng 44 điều thiện được trình bày như cách dập tắt những điều bất thiện tương ứng, hướng đến tịch diệt. Một lần nhịn nói lời ác là việc tốt để tiếp tục; chưa phải lời xác nhận rằng mình đã giải thoát hoàn toàn. Khi gặp người cần giúp ngoài khả năng, em có thể gọi người biết cách giúp."
+          ],
+          "meaningUnits": [
+            "quenching"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Từ nghe đến tu tập",
+          "paragraphs": [
+            "Cuối bài, Đức Phật nhắc đủ năm cách vừa giảng: đoạn giảm, khởi tâm, đi vòng qua, đi lên và tịch diệt. Vì thương và muốn điều tốt cho đệ tử, Ngài đã chỉ đường; Ngài nhắc các vị đến gốc cây, căn nhà trống để tu thiền, sống không buông lung, tránh hối tiếc về sau. Mahācunda vui nhận lời dạy.",
+            "Các dòng cuối bản kinh nhắc 44 mục trong năm phần, ví bài kinh sâu như biển. Em có thể quay lại từng nhóm, không cần học thuộc mọi tên một lúc."
+          ],
+          "meaningUnits": [
+            "ending"
+          ]
+        },
+        {
+          "id": "try",
+          "kind": "practice",
+          "heading": "Chọn một việc nhỏ để thực hiện",
+          "paragraphs": [
+            "Hôm nay, chọn một điều như không góp lời trêu bạn. Khi tình huống xuất hiện, nhớ ý định và chọn một việc làm cụ thể. Sau đó nhìn lại mình đã làm thế nào, điều gì cần sửa. Đây là gợi ý của người biên soạn để bắt đầu học ý kinh."
+          ],
+          "meaningUnits": [
+            "conduct",
+            "intention",
+            "release-views"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Từ ý hướng thiện đến sự thay đổi trong cách sống",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Sự đổi hướng bắt đầu ở phần mình",
+          "paragraphs": [
+            "Ở Jetavana, sau thời gian độc cư, Mahācunda đến hỏi Đức Phật về việc buông các kiến liên quan đến tự ngã và thế giới: chỉ tác ý từ đầu đã đủ để từ bỏ chúng hay chưa? Đức Phật chỉ vào nơi các kiến phát sinh, tiềm ẩn và vận hành. Thấy nơi ấy đúng như thật bằng trí tuệ rằng không phải của tôi, tôi không phải cái này, không phải tự ngã của tôi, mới có sự buông bỏ được nói đến.",
+            "Bài mở bằng cái nhìn sâu ấy rồi đi vào những phẩm chất phải rèn. Đoạn giảm không chỉ là một ý niệm mình tán thành; nó liên quan đến cách mình sống."
+          ],
+          "meaningUnits": [
+            "setting",
+            "views"
+          ]
+        },
+        {
+          "id": "workplace",
+          "kind": "example",
+          "heading": "Khi ai cũng cho rằng phải làm thế mới tồn tại",
+          "paragraphs": [
+            "Một nhóm làm việc quen che lỗi để giữ thành tích. Bạn thấy bất an nhưng sợ nói thật sẽ gây bất lợi. Một lựa chọn có thể là ghi lại điều chính xác, nhận phần trách nhiệm của mình và cùng tìm cách sửa phù hợp. Khó khăn vẫn cần xử lý, nhưng sự gian dối của người khác không tự thành lý do để mình tiếp tục nó.",
+            "Tình huống này do người biên soạn đặt ra. Nó minh họa thế chủ động về đạo đức trong bài: quyết định rèn phẩm chất thiện ở phần mình, ngay khi xung quanh chưa đổi."
+          ],
+          "meaningUnits": [
+            "conduct",
+            "intention"
+          ]
+        },
+        {
+          "id": "meditative-joy",
+          "kind": "teaching",
+          "heading": "Phân biệt chứng đắc và đoạn giảm",
+          "paragraphs": [
+            "Đức Phật lần lượt nêu bốn thiền: sơ thiền ly dục, ly bất thiện, còn tầm tứ và hỷ lạc do viễn ly; nhị thiền tầm tứ lắng, tâm trong sáng nhất tâm, hỷ lạc do định; tam thiền hỷ phai nhạt, có xả, niệm, tỉnh giác và lạc; tứ thiền vượt khổ lạc, hỷ ưu, niệm thanh tịnh nhờ xả. Có thể hiểu sơ bộ tầm tứ là hướng và duy trì tâm trên đối tượng, xả là sự quân bình.",
+            "Một vị an trú trong từng thiền có thể nghĩ mình đang đoạn giảm. Đức Phật nói ở đây chúng không được gọi là đoạn giảm, mà là hiện tại lạc trú. Sự an lạc thiền định được nhận diện đúng tên; công việc đoạn giảm mà bài sắp nêu cần được nhận diện qua những phẩm chất được rèn."
+          ],
+          "meaningUnits": [
+            "jhanas"
+          ]
+        },
+        {
+          "id": "peaceful-abidings",
+          "kind": "teaching",
+          "heading": "Bốn sự an trú vi tế",
+          "paragraphs": [
+            "Tiếp theo là vượt tưởng về sắc, tưởng về xúc chạm đã lắng, không chú tâm đến tưởng đa dạng, nhận biết không gian vô biên để an trú Không vô biên xứ. Vượt xứ ấy, vị tu tập nhận biết thức vô biên, an trú Thức vô biên xứ; vượt tiếp, nhận biết không có gì, an trú Vô sở hữu xứ; rồi vượt đến Phi tưởng phi phi tưởng xứ, không phải có tưởng cũng không phải hoàn toàn không có tưởng. Các phạm vi ấy lần lượt vượt phạm vi trước.",
+            "Đức Phật gọi chúng là tịch tịnh trú, cũng phân biệt với đoạn giảm. Bài không hạ thấp tu thiền: lời kết chính là lời nhắc hãy tu thiền. Điểm cần giữ là không lấy tên gọi của một chứng đắc để thay cho toàn bộ công việc rèn luyện."
+          ],
+          "meaningUnits": [
+            "formless"
+          ]
+        },
+        {
+          "id": "conduct",
+          "kind": "teaching",
+          "heading": "Mười mục đầu: thân, lời và ý hướng",
+          "paragraphs": [
+            "Danh sách 44 mục bắt đầu với không tàn nhẫn, không sát sinh, không trộm cắp và sống phạm hạnh. Phạm hạnh ở đối lập với abrahmacariya trong bối cảnh tỳ-kheo bao gồm tiết dục, không chỉ chung thủy trong hôn nhân. Khi liên hệ với đời sống cư sĩ, cần giữ rõ phạm vi lời kinh.",
+            "Tiếp đó là từ bỏ nói dối, lời chia rẽ, lời thô ác và lời vô ích; không tham muốn và không có tâm sân hận. Từng mục mang cùng quyết tâm: người khác có thể làm ngược lại, còn mình rèn điều thiện. Trách nhiệm ấy không chờ cả tập thể tốt lên trước."
+          ],
+          "meaningUnits": [
+            "conduct"
+          ]
+        },
+        {
+          "id": "right-path",
+          "kind": "teaching",
+          "heading": "Mười hướng chân chánh",
+          "paragraphs": [
+            "Các mục kế đối lại tà kiến bằng chánh kiến; tà tư duy bằng chánh tư duy; tà ngữ, tà nghiệp, tà mạng bằng lời nói, hành động và sinh kế chân chánh; tà tinh tấn, tà niệm, tà định bằng sự nỗ lực, niệm và định chân chánh; tà trí, tà giải thoát bằng chánh trí và chánh giải thoát.",
+            "Như vậy, sức tập trung hoặc sự tự tin rằng mình biết chưa tự quyết định hướng đi đã đúng. Danh sách bao gồm cả cách hiểu, ý hướng, việc sống và thành tựu giải thoát. Một cách hiểu sai vẫn cần được sửa, dù nó giúp ta cảm thấy chắc chắn."
+          ],
+          "meaningUnits": [
+            "right-path"
+          ]
+        },
+        {
+          "id": "hindrances",
+          "kind": "teaching",
+          "heading": "Tâm sáng và vững để thực hành",
+          "paragraphs": [
+            "Ba mục tiếp là thoát hôn trầm và buồn ngủ đang chế ngự; không trạo cử; vượt nghi hoặc. Chúng nói đến những cản trở cần được vượt trong tu tập. Việc làm rõ điều chưa hiểu giúp vượt nghi; đặt câu hỏi chân thành không bị đồng nhất với cố giữ nghi hoặc."
+          ],
+          "meaningUnits": [
+            "hindrances"
+          ]
+        },
+        {
+          "id": "defilements",
+          "kind": "teaching",
+          "heading": "Mười điều dễ len vào quan hệ",
+          "paragraphs": [
+            "Bài nêu tiếp giận dữ, hằn học, gièm pha, tranh hơn thua, ganh tị, keo kiệt, quanh co, giả dối, bướng bỉnh và ngạo mạn. Mỗi điều có sự không nuôi dưỡng nó làm hướng thực hành đối lại.",
+            "Ta có thể nhận ra khác biệt giữa nói rõ một sai sót và gièm pha một người; giữa kiên trì vì có căn cứ và bướng bỉnh vì không muốn mất mặt. Những phân biệt đời thường ấy giúp đọc danh sách thành việc có thể quan sát, thay vì nhãn để dán lên người khác."
+          ],
+          "meaningUnits": [
+            "defilements"
+          ]
+        },
+        {
+          "id": "relationships",
+          "kind": "teaching",
+          "heading": "Góp ý, bạn lành và sự cẩn trọng",
+          "paragraphs": [
+            "Ba mục sau là dễ được góp ý, kết bạn lành và không buông lung. Có người giúp mình thấy điểm mù là một hỗ trợ cho việc rèn luyện. Tiếp nhận góp ý cần sự lắng nghe và suy xét, không phải nhường quyền quyết định cho mọi người phê bình."
+          ],
+          "meaningUnits": [
+            "companions"
+          ]
+        },
+        {
+          "id": "supports",
+          "kind": "teaching",
+          "heading": "Bảy phẩm chất nuôi sự tu học",
+          "paragraphs": [
+            "Lòng tin, biết hổ thẹn với điều sai, biết sợ điều ác, học rộng, tinh tấn, có niệm được an trú và thành tựu trí tuệ là bảy mục tiếp. Hổ thẹn và sợ điều ác đặt trách nhiệm vào hành vi cùng tác hại của nó, hướng người biết lỗi đến việc sửa.",
+            "Nghe học và suy xét giúp lòng tin không chỉ là một lời tự nhận. Tinh tấn và niệm giúp hướng đã thấy được đi vào nếp sống, còn trí tuệ tiếp tục soi xét cách hiểu."
+          ],
+          "meaningUnits": [
+            "supports"
+          ]
+        },
+        {
+          "id": "views-again",
+          "kind": "teaching",
+          "heading": "Mục cuối quay về sự nắm giữ quan điểm",
+          "paragraphs": [
+            "Mục 44 là không chấp chặt quan điểm của mình, không nắm cứng và dễ buông. Nó nối danh sách trở lại vấn đề mở bài: chính cách ta nắm một quan điểm cũng cần được thấy và rèn. Buông sự chấp cứng không đồng nghĩa bỏ tiêu chuẩn đúng sai."
+          ],
+          "meaningUnits": [
+            "release-views"
+          ]
+        },
+        {
+          "id": "intention",
+          "kind": "teaching",
+          "heading": "Khởi ý thiện rồi thực hiện",
+          "paragraphs": [
+            "Đức Phật đánh giá cao cả việc khởi tâm hướng thiện, huống chi làm theo bằng thân và lời. Cả 44 hướng rèn luyện được đưa vào bước khởi tâm ấy. Ý định là một khởi đầu có giá trị; lời kinh còn nhấn mạnh việc thực hiện, nên không dừng ở lời hứa về con người mình muốn trở thành."
+          ],
+          "meaningUnits": [
+            "intention"
+          ]
+        },
+        {
+          "id": "bypass",
+          "kind": "teaching",
+          "heading": "Có lối khác để đi",
+          "paragraphs": [
+            "Hai ví dụ kinh điển là đường bằng giúp tránh đường gồ ghề và bến bằng giúp tránh bến sông khó qua. Từng phẩm chất thiện tương ứng là lối đi tránh phẩm chất bất thiện: không làm hại đối lại làm hại, chân thật đối lại dối trá, cho đến dễ buông quan điểm đối lại chấp cứng. Toàn bộ 44 cặp được dùng lại.",
+            "Ở cách trình bày kế, bất thiện dẫn xuống, thiện dẫn lên. Hướng thượng ở đây thuộc sự tu tập. Nó không bảo đảm một người sẽ thắng tranh luận, thăng tiến hay được xã hội tán thưởng."
+          ],
+          "meaningUnits": [
+            "bypass",
+            "upwards"
+          ]
+        },
+        {
+          "id": "quenching",
+          "kind": "teaching",
+          "heading": "Tự rèn trước khi hướng dẫn",
+          "paragraphs": [
+            "Người tự chìm trong bùn không kéo được người cùng chìm lên; người không chìm mới có thể kéo. Đức Phật dùng ví dụ ấy cho việc tự được điều phục, rèn luyện và tịch diệt trước khi dẫn người khác đến điều phục, rèn luyện và tịch diệt.",
+            "Rồi cả 44 cặp được trình bày theo hướng tịch diệt: mỗi thiện pháp dập tắt hoặc đưa đến sự tắt của bất thiện tương ứng. Bỏ một hành vi xấu là một phần của việc ấy; không vì thế tự tuyên bố đã hoàn tất giải thoát. Lời dạy về năng lực dẫn người khác cũng không phủ nhận mọi giúp đỡ thực tế của người còn đang học."
+          ],
+          "meaningUnits": [
+            "quenching"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Lời thầy và việc người học phải làm",
+          "paragraphs": [
+            "Đức Phật tổng kết năm phương pháp: đoạn giảm, khởi tâm, đi vòng qua, đi lên và tịch diệt. Ngài nói đã làm việc của người thầy mong lợi ích và thương đệ tử; giờ có gốc cây, có nhà trống, hãy tu thiền, đừng buông lung và để hối tiếc về sau. Mahācunda hoan hỷ tán đồng.",
+            "Các dòng kết bản kinh nhắc 44 mục trong năm phần, ví độ sâu bài kinh với đại dương. Danh sách có thể được đọc lại nhiều lần, mỗi lần soi vào một chỗ cụ thể trong việc sống và tu học."
+          ],
+          "meaningUnits": [
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một lựa chọn có thể kiểm lại",
+          "paragraphs": [
+            "Chọn một tình huống thường làm mình thuận theo thói quen xấu của tập thể. Ghi rõ phẩm chất muốn rèn, việc thân hoặc lời có thể thực hiện và căn cứ để biết mình đã làm. Sau tình huống, xem lại cả ý định và hành động. Đây là gợi ý biên tập, không phải thủ tục được MN8 chỉ định nguyên văn."
+          ],
+          "meaningUnits": [
+            "conduct",
+            "intention",
+            "release-views"
+          ]
+        },
+        {
+          "id": "source-note",
+          "kind": "clarification",
+          "heading": "Hai điểm khi đối chiếu bản dịch",
+          "paragraphs": [
+            "Câu hỏi mở đầu có khác biệt giữa các bản: Sujato diễn thành câu hỏi cách làm, trong khi Pāli và Việt dự án giữ nét hỏi có hay không của nu kho; ādi cũng có cách đọc là ngay từ đầu hoặc điểm khởi đầu. Câu trả lời nhấn việc thấy đúng như thật bằng trí tuệ. Các đoạn hướng đến tịch diệt được đọc theo từng đối trị, không rút thành lời hứa giải thoát hoàn toàn chỉ với một việc thiện."
+          ],
+          "meaningUnits": [
+            "views",
+            "quenching"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Tiếp tục rèn mình, vững vàng khi giúp người",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Kinh nghiệm trở thành việc rèn hằng ngày",
+          "paragraphs": [
+            "Kinh Đoạn Giảm ghi cuộc gặp ở rừng Jeta, tại Sāvatthī. Tôn giả Mahācunda, sau thời gian độc cư vào buổi chiều, đến đảnh lễ và hỏi Đức Phật về cách từ bỏ những quan điểm liên quan đến tự ngã và thế giới, khi mới tác ý từ đầu.",
+            "Đức Phật hướng người nghe đến chỗ các quan điểm sinh ra, tiềm ẩn và hoạt động. Thấy đúng như thật bằng trí tuệ rằng điều này không phải của tôi, tôi không phải điều này, điều này không phải tự ngã của tôi, thì có sự buông bỏ. Bài từ đó đi vào những điều rất cụ thể cần rèn trong thân, lời và tâm."
+          ],
+          "meaningUnits": [
+            "setting",
+            "views"
+          ]
+        },
+        {
+          "id": "family-example",
+          "kind": "example",
+          "heading": "Khi muốn dạy người khác cách hòa thuận",
+          "paragraphs": [
+            "Trong một cuộc họp gia đình, ta muốn con cháu nói với nhau cho ôn hòa. Nhưng càng nói, chính mình càng lớn tiếng và nhắc lại chuyện cũ. Nhận ra điều ấy, ta có thể dừng, nói lại điều cần bàn và nghe câu trả lời. Kinh nghiệm sống vẫn hữu ích, đồng thời cách mình đang nói cũng cần được soi xét.",
+            "Đây là tình huống do người biên soạn đặt ra. Nó giúp nhìn một điều của bài: trước khi dẫn người khác trong một việc tu dưỡng, chính mình cần rèn ở chỗ ấy."
+          ],
+          "meaningUnits": [
+            "defilements",
+            "companions",
+            "quenching"
+          ]
+        },
+        {
+          "id": "jhanas",
+          "kind": "teaching",
+          "heading": "An lạc thiền định được gọi đúng tên",
+          "paragraphs": [
+            "Bài lần lượt nêu bốn thiền. Sơ thiền có sự rời dục và bất thiện, hỷ lạc do viễn ly, còn tầm và tứ. Nhị thiền có tầm tứ lắng xuống, tâm trong sáng, nhất tâm, hỷ lạc do định. Tam thiền có hỷ phai nhạt, xả, niệm và tỉnh giác, thân vẫn cảm nhận lạc. Tứ thiền vượt khổ lạc và hỷ ưu, niệm thanh tịnh nhờ xả.",
+            "Tầm tứ có thể hiểu sơ bộ là sự hướng và duy trì tâm trên đối tượng; xả là sự quân bình. Một vị ở từng thiền có thể nghĩ mình đang đoạn giảm. Đức Phật nói các chứng đắc này không được gọi là đoạn giảm ở đây, mà là hiện tại lạc trú, sự an trú an lạc ngay trong đời này. Bài tiếp tục làm rõ những phẩm chất phải được rèn để đoạn giảm."
+          ],
+          "meaningUnits": [
+            "jhanas"
+          ]
+        },
+        {
+          "id": "formless",
+          "kind": "teaching",
+          "heading": "Cả sự tịch tĩnh sâu cũng có phạm vi",
+          "paragraphs": [
+            "Tiếp đó là bốn xứ vô sắc. Vượt tưởng về sắc, tưởng về xúc chạm đã lắng, không chú tâm sự đa dạng, vị tu tập nhận biết không gian vô biên và an trú Không vô biên xứ. Vượt xứ ấy, vị ấy nhận biết thức vô biên, đến Thức vô biên xứ. Vượt nữa, với nhận biết không có gì, vị ấy đến Vô sở hữu xứ; rồi đến Phi tưởng phi phi tưởng xứ, không phải có tưởng cũng không phải hoàn toàn không có tưởng. Mỗi phạm vi kế vượt phạm vi trước.",
+            "Kinh gọi chúng là tịch tịnh trú. Chúng cũng được phân biệt với đoạn giảm ở đây. Điều này giúp người học không lấy một kinh nghiệm an tĩnh làm kết luận rằng mọi việc tu dưỡng đã xong. Lời khuyên tu thiền ở cuối bài cho thấy thiền vẫn được tiếp tục."
+          ],
+          "meaningUnits": [
+            "formless"
+          ]
+        },
+        {
+          "id": "conduct",
+          "kind": "teaching",
+          "heading": "Mười điều đầu của một danh sách dài",
+          "paragraphs": [
+            "Có 44 điều rèn luyện. Trước hết là không tàn nhẫn, không sát sinh, không lấy của chưa được cho và sống phạm hạnh. Trong lời giảng cho các tỳ-kheo, phạm hạnh bao gồm nếp sống tiết dục của người xuất gia. Khi đọc trong đời sống gia đình, ta nhận biết đúng phạm vi ấy.",
+            "Tiếp theo là rời nói dối, lời chia rẽ, lời thô ác, lời vô ích, sự tham muốn và tâm sân hận. Với từng điều, người tu hướng mình đến phẩm chất thiện dù người khác còn làm điều ngược lại. Việc rèn phần mình có thể bắt đầu ngay, không cần đợi người khác thay đổi trước."
+          ],
+          "meaningUnits": [
+            "conduct"
+          ]
+        },
+        {
+          "id": "path",
+          "kind": "teaching",
+          "heading": "Mười hướng từ hiểu biết đến giải thoát",
+          "paragraphs": [
+            "Kinh đặt chánh kiến đối lại tà kiến, chánh tư duy đối lại tà tư duy. Lời nói, hành động và cách nuôi sống chân chánh đối lại tà ngữ, tà nghiệp, tà mạng. Chánh tinh tấn, chánh niệm, chánh định đối lại sự nỗ lực, niệm, định sai hướng. Chánh trí và chánh giải thoát đối lại tà trí và tà giải thoát.",
+            "Danh sách bao gồm tám chi từ chánh kiến đến chánh định, cùng chánh trí và chánh giải thoát. Nó nhắc rằng sống lâu hay biết nhiều điều chưa tự thay cho cái biết chân chánh và sự giải thoát mà việc tu tập hướng đến."
+          ],
+          "meaningUnits": [
+            "right-path"
+          ]
+        },
+        {
+          "id": "hindrances",
+          "kind": "teaching",
+          "heading": "Tỉnh thức và hiểu rõ thêm",
+          "paragraphs": [
+            "Ba mục kế là thoát hôn trầm và buồn ngủ đang chế ngự tâm, không trạo cử và vượt nghi hoặc. Đây là những điều cản trở trong tu tập cần được nhận ra và vượt qua. Việc chăm nghỉ ngơi khi cần và hỏi rõ điều chưa hiểu có thể đi cùng sự rèn luyện ấy; không lấy một cảm giác mệt hoặc một câu hỏi để phán xét cả con người."
+          ],
+          "meaningUnits": [
+            "hindrances"
+          ]
+        },
+        {
+          "id": "habits",
+          "kind": "teaching",
+          "heading": "Mười nết cần nhìn thẳng",
+          "paragraphs": [
+            "Kinh nêu giận dữ, hằn học, gièm pha, tranh hơn thua, ganh tị, keo kiệt, quanh co, giả dối, bướng bỉnh và ngạo mạn. Với mỗi nết, hướng thực hành là rời nết ấy. Các điều này được nêu riêng vì một người có thể đã bớt điều này mà vẫn còn cần nhìn điều khác.",
+            "Trong quan hệ gần gũi, đôi khi lời góp ý lẫn với mong muốn hơn thua hoặc nhắc công của mình. Nhìn rõ phần đó giúp lời nói trở lại đúng việc cần nói, thay vì tiếp tục nuôi một mối hằn học."
+          ],
+          "meaningUnits": [
+            "defilements"
+          ]
+        },
+        {
+          "id": "companions",
+          "kind": "teaching",
+          "heading": "Đón nhận góp ý và giữ bạn lành",
+          "paragraphs": [
+            "Dễ được góp ý, kết bạn lành và không buông lung là ba mục tiếp. Sẵn lòng nghe giúp kinh nghiệm tiếp tục được bổ sung. Bạn lành có thể ở nhiều lứa tuổi; điều đáng quý là cùng giúp nhau hướng thiện. Sự lắng nghe vẫn đi cùng suy xét điều đúng và điều có hại."
+          ],
+          "meaningUnits": [
+            "companions"
+          ]
+        },
+        {
+          "id": "supports",
+          "kind": "teaching",
+          "heading": "Bảy phẩm chất giúp việc học không dừng",
+          "paragraphs": [
+            "Lòng tin, biết hổ thẹn, biết sợ điều ác, học rộng, tinh tấn, an trú niệm và thành tựu trí tuệ được nêu tiếp theo. Hổ thẹn với việc sai và thấy tác hại của điều ác giúp ta tự điều chỉnh. Chúng hướng đến việc sửa, không phải mãi tự buộc mình vào lỗi cũ.",
+            "Học rộng trong mạch này là tiếp tục nghe và học điều có ích cho tu tập. Niệm giúp giữ điều cần nhớ trong sự tu học; tinh tấn giúp thực hiện. Trí tuệ là điều tiếp tục được nuôi dưỡng bằng sự hiểu và thấy đúng."
+          ],
+          "meaningUnits": [
+            "supports"
+          ]
+        },
+        {
+          "id": "views",
+          "kind": "teaching",
+          "heading": "Để một quan điểm có thể được soi lại",
+          "paragraphs": [
+            "Mục cuối là không chấp cứng ý riêng, không nắm khư khư và dễ buông. Điều đã quen từ nhiều năm vẫn có thể được xét lại khi có căn cứ. Ta có thể giữ điều đúng mà bớt biến nó thành điều phải thắng bằng mọi giá."
+          ],
+          "meaningUnits": [
+            "release-views"
+          ]
+        },
+        {
+          "id": "intention",
+          "kind": "teaching",
+          "heading": "Khởi tâm hướng thiện có giá trị",
+          "paragraphs": [
+            "Đức Phật nói ngay việc khởi tâm về điều thiện đã nhiều lợi ích, huống chi thực hiện bằng thân và lời. Toàn bộ 44 mục trở lại trong lời khuyên khởi tâm ấy. Ý hướng là bước bắt đầu; hành động giúp nó thành sự rèn luyện thực tế."
+          ],
+          "meaningUnits": [
+            "intention"
+          ]
+        },
+        {
+          "id": "bypass",
+          "kind": "teaching",
+          "heading": "Chọn đường có thể đi được",
+          "paragraphs": [
+            "Hai hình ảnh trong kinh là con đường bằng để tránh đường gồ ghề, và bến bằng để tránh bến sông khó qua. Cũng vậy, mỗi điều thiện là đường tránh điều bất thiện tương ứng. Cả 44 cặp được trình bày lại theo cách này: từ không làm hại cho đến không chấp cứng quan điểm.",
+            "Kinh tiếp rằng thiện dẫn lên, bất thiện dẫn xuống. Đó là hướng của phẩm chất và sự tu tập. Một việc thiện có thể âm thầm, không cần mang lại lời khen hoặc vị trí cao hơn trong gia đình."
+          ],
+          "meaningUnits": [
+            "bypass",
+            "upwards"
+          ]
+        },
+        {
+          "id": "quenching",
+          "kind": "teaching",
+          "heading": "Chỗ đứng của người muốn hướng dẫn",
+          "paragraphs": [
+            "Tự chìm trong bùn thì không thể kéo người cũng chìm lên; không chìm thì mới có thể kéo. Đức Phật dùng hình ảnh ấy để nói người tự được điều phục, rèn luyện và tịch diệt mới có thể dẫn người khác đến những điều ấy.",
+            "Cùng các phẩm chất thiện trong 44 mục được trình bày theo hướng dập tắt bất thiện và đi đến tịch diệt. Điều này nhắc ta rèn ngay nơi mình muốn khuyên người khác. Một sự thay đổi tốt cần được nuôi tiếp, chưa phải căn cứ tự nhận đã giải thoát viên mãn; người còn đang học vẫn có thể giúp nhau trong phần mình hiểu và làm được."
+          ],
+          "meaningUnits": [
+            "quenching"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Lời nhắc đầy thương tưởng",
+          "paragraphs": [
+            "Cuối bài, Đức Phật nhắc năm phương pháp: đoạn giảm, khởi tâm, đi vòng qua, đi lên và tịch diệt. Ngài nói đã làm việc của người thầy mong lợi ích và thương tưởng đệ tử. Có gốc cây, có nhà trống; các vị hãy tu thiền, đừng buông lung để rồi hối tiếc. Mahācunda hoan hỷ nhận lời.",
+            "Kệ cuối bản văn nhắc 44 mục trong năm phần và ví bài kinh sâu như đại dương. Có thể đọc chậm, trở lại một nhóm đang cần thực hành, rồi mở rộng dần."
+          ],
+          "meaningUnits": [
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một việc để soi lại hôm nay",
+          "paragraphs": [
+            "Chọn một cuộc trao đổi gần đây. Mình muốn khuyên điều gì? Chính mình đã thực hiện điều ấy ra sao? Lần tới có thể thay một lời hoặc một việc cụ thể nào? Đây là gợi ý của người biên soạn để liên hệ bài kinh, không phải bài kiểm tra giá trị con người hay tuổi tác."
+          ],
+          "meaningUnits": [
+            "defilements",
+            "companions",
+            "intention"
+          ]
+        },
+        {
+          "id": "note",
+          "kind": "clarification",
+          "heading": "Ghi chú khi đọc các bản khác nhau",
+          "paragraphs": [
+            "Cách dịch câu hỏi đầu bài khác nhau ở nét hỏi có hay không và chữ chỉ thời điểm bắt đầu; phần trả lời cùng đặt trọng tâm vào thấy đúng bằng trí tuệ. Những câu về tịch diệt được giữ trong mạch từng đối trị. Một số bản tham khảo rút gọn danh sách, còn bản Pāli và hồ sơ ý ở đây giữ đầy đủ các mục có mặt trong nguồn."
+          ],
+          "meaningUnits": [
+            "views",
+            "quenching"
+          ]
+        }
+      ]
+    }
+  }
+}

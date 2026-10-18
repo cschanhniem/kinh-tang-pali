@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn3",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "23f7427b-f355-4988-bc16-26c6d184a7b2"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "334b5f8d-3582-4459-b96c-3474150acd0f"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "eb1e0936-57d3-4158-b250-b56a24fd32c0"
+    }
+  },
+  "reviews": [
+    {
+      "id": "23f7427b-f355-4988-bc16-26c6d184a7b2",
+      "audience": "children",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.3,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.1,
+        "audience_fit": 9.2,
+        "clarity": 9.1,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.3
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc đủ 128 khóa Pāli/Việt/Anh, toàn văn HTML Việt và chú thích dự án. Bản giữ phần Pāli đầy đủ ở những câu lặp Anh rút gọn; 15 ô Anh trống không được nhận làm nguồn xác nhận riêng. Giả định hai tỳ-kheo và chuyển sang lời Sāriputta đều được kiểm đúng người nói, đúng hoàn cảnh.",
+        "semantic_fidelity": "Thừa tự Pháp là tiếp nối lời dạy bằng thực hành, không chỉ nhận chiếc áo hoặc được khen. Giữ lời cho phép ăn, việc vị thứ hai không bị kết tội và năm lý do kính trọng vị thứ nhất hơn; không xóa đoạn khó về đói yếu. Tám cặp bất thiện cùng Thánh đạo và đích Niết-bàn vẫn có mặt, vượt quá một tình huống chơi đẹp.",
+        "core_coverage": "Đã đối chiếu 16 đơn vị nghĩa và 128 khóa, gồm cả lý do chê/khen, ba nhóm thâm niên, hai vế đào luyện viễn ly, tám cặp và tám ngành. Bổ sung một câu lời nhắc/lòng thương lặp cuối ví dụ và nhận diện nhãn kết. Các danh sách khó được giải từng nhóm, không dùng câu chuyện bóng đá thay các phần còn lại.",
+        "logic_context": "Tình huống ăn được giới thiệu rõ là giả sử, không biến thành sự kiện lịch sử; cả hai lựa chọn vẫn trong khung ấy. Có thể ăn khác với được khen hơn. Phép đảo gác bỏ thối lui/đi đầu viễn ly đúng Pāli 7.4, ba nhóm theo thâm niên thay vì tuổi, và đoạn kết thuộc lời Sāriputta.",
+        "terminology": "Thừa tự, tài vật, đoạn giảm, dễ nuôi, tinh tấn và viễn ly được giải tại chỗ; đoạn giảm không thành tự hành hạ. Tám ngành có giải nghĩa bước đầu, phần cuối nói rõ chưa diễn hết từng ngành. Một số cặp như ngã mạn/ngạo mạn vẫn trừu tượng, nên không coi bản này đã loại hết nhu cầu người lớn hỗ trợ.",
+        "audience_fit": "Áo đội bóng, giúp bạn ngã, nhận lỗi và luyện lại động tác tạo lối vào gần đời sống trẻ; câu hỏi thực hành chọn một việc nhỏ. Lời về bữa ăn nói trực tiếp em không cần bắt chước nhịn, và không dán nhãn cả người là xấu. Chưa có quan sát trẻ đọc thật, nên đây là nhận định phù hợp qua biên tập.",
+        "clarity": "Bài đi từ điều nhận được sang hai lựa chọn, năm phẩm chất, cách sống viễn ly rồi con đường; mỗi đoạn có một việc rõ. Từ khó thường được giải ngay sau khi nêu và ví dụ trở lại ở phần thử làm. Danh sách mười sáu phẩm chất và tám ngành còn nhiều thông tin, cần đọc theo từng đoạn.",
+        "editorial_separation": "Câu chuyện sân bóng mang nhãn example, việc thử mang nhãn practice; cuối bài phân biệt cả các giải nghĩa ngắn với trình bày đầy đủ Thánh đạo. Câu chuyện hai tỳ-kheo được đánh dấu giả định của chính bài kinh, không nhầm với ví dụ hiện đại hoặc một sự kiện đã xảy ra. Nhãn tên/kết được nhận diện riêng.",
+        "practical_integrity": "Giới hạn bỏ bữa đặt ngay sau phần thức ăn, trước khi chuyển mạch, để trẻ không tự dùng nhịn ăn làm phép đo tu tập. Bước học là nói thật hoặc thôi giành phần hơn, không cần luôn đúng, không hứa chứng đắc. Biết đủ đi cùng ăn uống/chăm sóc bản thân, giữ nguyên phạm vi lời dạy người xuất gia.",
+        "technical_integrity": "auditExplanations(mn,mn3) sau các chỉnh nhỏ có errors=[] và sourceErrors=[]; đủ 128 khóa, mã ý, tác giả và chuỗi hợp lệ. Hash riêng children và năm nguồn hiện hành được kèm snapshot. Chưa lấy audit dữ liệu làm bằng chứng đã thử published UI hoặc qua cổng PR."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc trọn nguồn Pāli, Việt dự án, Sujato, HTML Thích Minh Châu, chú thích dự án và đủ ba bản diễn giải. Agent kiểm khác agent soạn nhưng cùng công cụ GPT-6 Astra Pro; đây không phải đối chiếu học thuật độc lập hay ý kiến một chuyên gia Pāli. Chưa thử hiểu với độc giả thật ở bất kỳ nhóm tuổi nào. Các định nghĩa từ điển, chú giải và nguồn Sujato được chú thích dự án dẫn không được mở lại riêng trong lượt này. Điểm kỹ thuật chỉ thuộc tính toàn vẹn bản ghi và nguồn; nghiệm thu published UI, build/CI của lô là công việc riêng.",
+      "contentHash": "453e7a88a3118b41970c98b46ef25c5dcb4411275e77afe81dd41f32b07b2dc0",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn3.html",
+          "sha256": "391340d0eaa61a6415ebdb6fe53a3f4cb54f53dfaa87d8206dbff51fdc312858"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn3_root-pli-ms.json",
+          "sha256": "da4c60a6fbf1c7635f7afb8cd89da158b46b0b9d46b768f8cdbd8b57f1603b42"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn3_translation-en-sujato.json",
+          "sha256": "4fee1c4d2dfea08296ca54301f933abf35c9a3552e2bdeafd1f9ed49ad456d0b"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn3_comment-vi-project.json",
+          "sha256": "0a53b71f5b45abba97aea6056456731b12d026a7b6409bb7c93898699928fcca"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn3_translation-vi-project.json",
+          "sha256": "47dc1163c29df075937546e937502d39f69bd1b5d2b5039c0a2e6873c6585b66"
+        }
+      ]
+    },
+    {
+      "id": "334b5f8d-3582-4459-b96c-3474150acd0f",
+      "audience": "adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.3,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.4,
+        "technical_integrity": 9.3
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu trọn năm nguồn thực dùng, kể cả các điểm canonical sửa so với bản tham khảo: không bị quy trách ở 2.8, thể giả định ở 3.16/3.22 và phép đảo ở 7.4. Không căn chỉnh HTML thành segment. Những chỗ từ điển được chú thích dẫn chỉ được dùng với giới hạn của chú thích, không nhận là lượt tra cứu độc lập mới.",
+        "semantic_fidelity": "Ví dụ nhận công việc giữ sự phân biệt giữa lợi ích nhận được và con đường cần thực hành. Đoạn thức ăn giữ cả giá trị lựa chọn thứ nhất lẫn việc không kết tội người thứ hai; danh sách đoạn giảm không thành khổ hạnh cực đoan. Trung đạo được xác định là tám ngành, không thành thỏa hiệp hay kỹ năng điều chỉnh cảm xúc.",
+        "core_coverage": "Đủ 16 đơn vị, 128 khóa, cả lời nhắc/lòng thương lặp, năm phẩm chất, ba căn cứ cho từng nhóm và tám cặp cần bỏ. Sáu kết quả cái thấy/tri kiến/an tịnh/thắng trí/giác ngộ/Niết-bàn không bị rút còn bình an. Nhãn tên và colophon được bổ sung ở cuối; việc lặp con đường được nói rõ.",
+        "logic_context": "Phủ định không bị chê trách khi thừa tự Pháp đúng chủ thể cả đệ tử và Đạo sư. Khung giả định, lời cho phép ăn và mức kính trọng hơn không bị đổi thành mệnh lệnh tuyệt đối. Các nhóm là thâm niên; lời Sāriputta bắt đầu sau khi Đức Phật rời đi và kết thúc với sự tán đồng của tỳ-kheo.",
+        "terminology": "Giữ sắc thái của thừa tự/tài vật, đoạn giảm, viễn ly và ngã mạn; tri kiến khác thắng trí. Cặp gièm pha/hơn thua theo lựa chọn có chú thích của dự án, không khẳng định đã giải quyết mọi bất định từ vựng. Định nghĩa tám ngành là lời giúp đọc và được giới hạn, tránh giả bộ toàn bài MN3 tự cung cấp định nghĩa đầy đủ.",
+        "audience_fit": "Việc kế thừa công việc, quyền lợi, nhận sai sót và sinh kế chân chính phù hợp trách nhiệm trưởng thành. Đoạn vận dụng hướng vào hành động cụ thể mà không biến thừa tự thành thước đo thành công nghề nghiệp. Chưa có thử đọc với người trưởng thành thật; điểm phản ánh chất lượng biên tập quan sát được.",
+        "clarity": "Mạch từ di sản sang lựa chọn, phẩm chất rồi đường thực hành có chuyển ý rõ; các điều kiện và vai người nói không chìm trong danh sách. Năm phẩm chất và tám cặp đều có lời giải ngắn, đoạn thực hành trở lại vấn đề lợi ích. Nội dung Phật học vẫn đáng kể, nhưng được chia theo chức năng thay vì chỉ lặp công thức nguồn.",
+        "editorial_separation": "Tình huống công việc và tự xem xét mang nhãn riêng; phần làm rõ chỉ ra các định nghĩa tám ngành là hỗ trợ đọc, không thay toàn bộ giáo lý. Lời giải nghĩa viễn ly không được gán là nguyên văn; nhãn ấn bản và tình huống giả định được phân biệt. Không tìm thấy lời trích hoặc động cơ nhân vật được bịa thêm.",
+        "practical_integrity": "Không biến lời khen hơn thành yêu cầu mọi người nhịn ăn, từ chối nhu yếu hay bỏ chăm sóc. Ví dụ công việc hỏi hành động thuộc trách nhiệm, không buộc người đọc từ bỏ quyền lợi hợp pháp để được coi là tu tốt. Mục tiêu giải thoát được giữ, không được hứa sau một lần kiểm điểm.",
+        "technical_integrity": "Bản adults hiện hành qua audit không lỗi nguồn, cấu trúc, chuỗi, tác giả hoặc coverage; mọi mã ý đều được phần giảng/làm rõ xử lý. Nội dung đã đọc được chụp lại và hash theo chính bản ấy. Kiểm toàn vẹn dữ liệu không thay bước build, trình duyệt và CI của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc trọn nguồn Pāli, Việt dự án, Sujato, HTML Thích Minh Châu, chú thích dự án và đủ ba bản diễn giải. Agent kiểm khác agent soạn nhưng cùng công cụ GPT-6 Astra Pro; đây không phải đối chiếu học thuật độc lập hay ý kiến một chuyên gia Pāli. Chưa thử hiểu với độc giả thật ở bất kỳ nhóm tuổi nào. Các định nghĩa từ điển, chú giải và nguồn Sujato được chú thích dự án dẫn không được mở lại riêng trong lượt này. Điểm kỹ thuật chỉ thuộc tính toàn vẹn bản ghi và nguồn; nghiệm thu published UI, build/CI của lô là công việc riêng.",
+      "contentHash": "5f5c7e887e91f70dc51737c5da40583fd1261bd3dca4d8afbf8aeceaa0c89c26",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn3.html",
+          "sha256": "391340d0eaa61a6415ebdb6fe53a3f4cb54f53dfaa87d8206dbff51fdc312858"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn3_root-pli-ms.json",
+          "sha256": "da4c60a6fbf1c7635f7afb8cd89da158b46b0b9d46b768f8cdbd8b57f1603b42"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn3_translation-en-sujato.json",
+          "sha256": "4fee1c4d2dfea08296ca54301f933abf35c9a3552e2bdeafd1f9ed49ad456d0b"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn3_comment-vi-project.json",
+          "sha256": "0a53b71f5b45abba97aea6056456731b12d026a7b6409bb7c93898699928fcca"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn3_translation-vi-project.json",
+          "sha256": "47dc1163c29df075937546e937502d39f69bd1b5d2b5039c0a2e6873c6585b66"
+        }
+      ]
+    },
+    {
+      "id": "eb1e0936-57d3-4158-b250-b56a24fd32c0",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.3,
+        "audience_fit": 9.4,
+        "clarity": 9.3,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.3
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đủ Pāli và hai bản segmented, HTML Việt nguyên bài và chú thích; kiểm khác biệt về các câu rút gọn, thể giả định và phủ định. Bản giữ đúng người nghe, nơi chốn, lời Đức Phật rồi lời Sāriputta. Mười lăm ô Anh trống được ghi như chỗ trống của nguồn phụ, không coi là bản Pāli thiếu.",
+        "semantic_fidelity": "Cuốn sổ là một lối vào việc sống theo Pháp, không biến việc đọc thành vô ích hoặc kinh nghiệm tuổi cao thành lỗi. Giữ chuyện thức ăn và năm lý do so sánh, sự học viễn ly, tất cả điều cần bỏ và con đường tới Niết-bàn. Phần dễ nuôi giải trong đời sống xuất gia, không chuyển thành yêu cầu người cần chăm sóc im lặng.",
+        "core_coverage": "Toàn bộ 16 đơn vị được trình bày, từ bối cảnh và lòng thương tưởng đến colophon, đủ 128 khóa. Ba nhóm thâm niên, ba căn cứ khen/chê, năm phẩm chất, tám cặp và tám ngành đều có mặt. Sáu kết quả con đường và kết thúc Sāriputta được giữ, không chỉ kể thông điệp tiếp nối kinh nghiệm.",
+        "logic_context": "Cả hai tỳ-kheo được kể trong một giả định có lời cho phép ăn; vị thứ nhất được kính trọng hơn vì lý do nêu trong nguồn, vị thứ hai không bị đặt thêm tội. Thâm niên xuất gia khác tuổi đời được nói rõ, không tạo ưu tiên mặc nhiên cho tuổi cao. Giữ đảo chiều thối lui/viễn ly và đúng người kết giảng.",
+        "terminology": "Các từ thừa tự, đoạn giảm, dễ nuôi, khởi tinh tấn, viễn ly và nhóm tâm bất thiện có lời giải. Tri kiến/thắng trí không bị nhập làm một, Niết-bàn không thành một cảm giác yên lòng. Tám ngành được giải ngắn kèm giới hạn về phạm vi; một số từ khó còn cần đọc lại nhưng không bị thay bằng một nghĩa đời thường sai.",
+        "audience_fit": "Người lớn tuổi được đặt vào vai người đọc, người đối thoại và người còn chủ động thực hành. Có quyền nêu kinh nghiệm, nhu cầu và bất đồng; không mặc định yếu bệnh hay phải thuận theo người khác. Nhịp từng đoạn vừa phải, nhưng chưa thử trực tiếp với độc giả lớn tuổi nên không tuyên bố hiệu quả thực nghiệm.",
+        "clarity": "Cuốn sổ và cuộc trò chuyện nối phần đầu với việc làm cuối; đề mục tách rõ câu chuyện, lý do, thâm niên và con đường. Các cặp bất thiện được giải theo những phản ứng dễ nhận ra, vẫn giữ đủ tên. Bài có lượng thuật ngữ khá lớn; nhịp thong thả làm dễ theo hơn mà không giả vờ đây là bài chỉ có một thông điệp đơn giản.",
+        "editorial_separation": "Cuốn sổ và tình huống trò chuyện được đánh dấu là biên tập, còn câu chuyện hai tỳ-kheo là ví dụ giả định của kinh. Phần định nghĩa tám ngành không nhận là đầy đủ và nhãn tên/kết không được gán thành lời dạy thêm. Không bịa nguyên nhân, lời nhân vật hoặc một sự kiện lịch sử ngoài nguồn.",
+        "practical_integrity": "Người đọc vẫn được trình bày nhu cầu và bất đồng; dừng nuôi oán không thành phải im lặng trước vấn đề. Đoạn chăm sóc ngăn cách hiểu dễ nuôi là giấu bệnh hoặc làm nhẹ gánh cho người khác bằng tự bỏ nhu yếu. Nhịn ăn không được đặt làm bài tập; một lần ứng xử tốt không bị đánh đồng với giải thoát.",
+        "technical_integrity": "auditExplanations không lỗi sau bổ sung lời nhận diện dòng kết và mã identity tại clarification. Hash riêng older-adults khớp snapshot đã đọc, năm hash nguồn khớp dữ liệu hiện hành và toàn bộ mã ý hợp lệ. Kết quả này không tự chứng minh published UI hoặc các kiểm tra của PR thành công."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc trọn nguồn Pāli, Việt dự án, Sujato, HTML Thích Minh Châu, chú thích dự án và đủ ba bản diễn giải. Agent kiểm khác agent soạn nhưng cùng công cụ GPT-6 Astra Pro; đây không phải đối chiếu học thuật độc lập hay ý kiến một chuyên gia Pāli. Chưa thử hiểu với độc giả thật ở bất kỳ nhóm tuổi nào. Các định nghĩa từ điển, chú giải và nguồn Sujato được chú thích dự án dẫn không được mở lại riêng trong lượt này. Điểm kỹ thuật chỉ thuộc tính toàn vẹn bản ghi và nguồn; nghiệm thu published UI, build/CI của lô là công việc riêng.",
+      "contentHash": "35f28b5f35f9386cbb21e949a5e776f7c886b7c3b50ff8b2a36f2123f1e77102",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn3.html",
+          "sha256": "391340d0eaa61a6415ebdb6fe53a3f4cb54f53dfaa87d8206dbff51fdc312858"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn3_root-pli-ms.json",
+          "sha256": "da4c60a6fbf1c7635f7afb8cd89da158b46b0b9d46b768f8cdbd8b57f1603b42"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn3_translation-en-sujato.json",
+          "sha256": "4fee1c4d2dfea08296ca54301f933abf35c9a3552e2bdeafd1f9ed49ad456d0b"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn3_comment-vi-project.json",
+          "sha256": "0a53b71f5b45abba97aea6056456731b12d026a7b6409bb7c93898699928fcca"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn3_translation-vi-project.json",
+          "sha256": "47dc1163c29df075937546e937502d39f69bd1b5d2b5039c0a2e6873c6585b66"
+        }
+      ]
+    }
+  ]
+}

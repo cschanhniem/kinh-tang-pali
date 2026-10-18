@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn7",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "5bc8ac48-813d-4677-b7ce-0f5227d35600"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "75d926af-2e0c-4613-9830-8d44f974c0fe"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "6912c0cb-fa7f-45b0-9c0e-c36310befc81"
+    }
+  },
+  "reviews": [
+    {
+      "id": "5bc8ac48-813d-4677-b7ce-0f5227d35600",
+      "audience": "children",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.7,
+        "logic_context": 9.7,
+        "terminology": 9.2,
+        "audience_fit": 9.3,
+        "clarity": 9.2,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc trọn 147 Pāli/Việt dự án, chú thích, legacy và đối chiếu chọn lọc EN; đúng snapshot và năm hashes. Phân biệt lời Đức Phật với niềm tin về sông do Bhāradvāja thuật ở 19.6; giữ nhãn kết là nhãn.",
+        "semantic_fidelity": "Giữ tâm ô nhiễm/nẻo tái sinh, nhận biết rồi từ bỏ, niềm tin và công phu cho tới giải thoát. Không dùng vải bẩn để hạ giá trẻ hoặc xem cảm xúc vừa khởi là bản chất con người. Nước tắm không được dùng thay việc sống lành.",
+        "core_coverage": "25 đơn vị bao phủ 147 khóa; đủ 16 ô nhiễm và hai lượt từ bỏ, phẩm chất Phật/Pháp/Tăng, chuỗi vui-hỷ-an tịnh-lạc-định, bốn tâm vô lượng, ba lậu, bảy tên địa điểm và toàn kết chuyện. Đã giữ tối thượng ở ruộng phước 7.2 và đủ công thức cuối 22.3.",
+        "logic_context": "Giữ đến mức ấy ở 8.1/11.1, điều kiện giới/phẩm chất/tuệ của 12.1, bốn mệnh đề 17.1 và sự biết/thấy dẫn tới giải thoát 18.1. Sửa 2.5/2.10 thành điều có thể chờ đợi, làm rõ vata ở 20.15 là điều nguyện tu; Bhāradvāja tu sau thọ giới rồi thành tựu.",
+        "terminology": "16 từ được chia nhóm và có lời giải cụ thể; pīti và muditā được phân biệt, xả không là bỏ mặc. Đã giải chư thiên/cúng dường và viễn ly, giữ phạm vi tưởng này. Danh hiệu Thiện Thệ còn trang trọng nhưng phần giải chung đặt trong các phẩm chất người thầy.",
+        "audience_fit": "Chuyện tranh vẽ đúng trải nghiệm bạn bè, bảo vệ việc quý công sức bản thân và không ép phải vui tức thì. Đọc chia lượt và hỏi người lớn được gợi mở; từ khó giảm nhưng đoạn danh hiệu vẫn cần dừng đọc. Chưa thử với trẻ thật.",
+        "clarity": "Từ tranh của bạn đến vải, từ bỏ, niềm tin, tắm bên trong và sông có mạch rõ. Đã gỡ hai lời nhắc kỹ thuật lặp trong đoạn hỷ/giặt vải; các danh sách được chia nhóm. Bài vẫn dài do giữ cả lộ trình, có các điểm dừng rõ.",
+        "editorial_separation": "Ví dụ/gợi ý có nhãn; các niềm tin về sông là lời nhân vật, hình ảnh gốc và liên hệ hiện đại được phân biệt. Không thêm trích dẫn giả, thần tích hay cách chứng quả. Chỗ khác biệt nguồn được đưa vào clarification.",
+        "practical_integrity": "Không đe trẻ bằng tái sinh, không gán trẻ xấu mãi vì ganh tị, không ép cảm xúc. Việc thử là dừng gièm pha, ghi nhận và học tiếp; không coi một lần làm được là hết ô nhiễm hay giải thoát. Không đưa lời khuyên thử tắm/luyện vải nguy hiểm.",
+        "technical_integrity": "AuditExplanations không lỗi nội dung/nguồn; 147 khóa phân hoạch 25 đơn vị, đủ teaching/clarification, năm SHA-256 và blob manifest đúng, Unicode NFC/IDs/tác giả hợp lệ. Chưa ghi hoặc áp dụng điểm; không thay kiểm build/UI của PR."
+      },
+      "blockingErrors": [],
+      "notes": "Lượt đọc biên tập bởi tác tử khác với tác tử soạn ban đầu nhưng cùng công cụ gpt-6-astra-pro; không phải chứng nhận Pāli độc lập hoặc thử nghiệm người đọc thật. Đã đọc toàn 147 Pāli segment, Việt dự án, chú thích và legacy; đối chiếu chọn lọc EN tại các đoạn khó, mức lược và khoảng trống. Xác minh blob Pāli e187c31bb0a4115df266a4587f75d492a9d98381 với manifest và năm SHA-256; auditExplanations không lỗi. Không ghi hoặc áp dụng đánh giá vào metadata. Hash nội dung đã đọc: 49841b8794d75bd6dcfe8bfe517264ebebedeea5e169397bbccaa93f17458174. Sửa nhỏ: cloth-and-destiny giữ sắc thái có thể chờ đợi; kiêu mạn gồm cả so bằng; gloss chư thiên/cúng dường, giữ ruộng phước tối thượng; bỏ nhắc kỹ thuật lặp ở hỷ/vải; 20.15 nói điều nguyện tu; kết giữ viễn ly/biết trực tiếp/đủ bốn vế. Không thay nguồn hoặc bản đồ ý.",
+      "contentHash": "49841b8794d75bd6dcfe8bfe517264ebebedeea5e169397bbccaa93f17458174",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn7.html",
+          "sha256": "c5c8910e418e636e1f9b9ae15673d55da0cab8d6c6643e9c24007e6305b424a4"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn7_root-pli-ms.json",
+          "sha256": "d4fbe118ee7b3e4467be11df44f8226e82030468226602d5af4e3aff42bb472b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn7_translation-en-sujato.json",
+          "sha256": "e8835404633bd7cb739d8754677c8a96277900b2d11ece04f036408d3bbe32e2"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn7_comment-vi-project.json",
+          "sha256": "0679ef7f40cd1df1692aac9ebd83bd54210f5f6657dc44abb0b4a2046ec2d5b2"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn7_translation-vi-project.json",
+          "sha256": "026cdca2724618a5e06f8d932508f89f78f1e5cd75f7d9fe65df22835e435e2c"
+        }
+      ]
+    },
+    {
+      "id": "75d926af-2e0c-4613-9830-8d44f974c0fe",
+      "audience": "adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.5,
+        "audience_fit": 9.4,
+        "clarity": 9.2,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đủ Pāli/Việt dự án/chú thích và legacy, đối chiếu EN tại các điểm khó/công thức; mọi nguồn byte/snapshot hợp lệ. Nhận rõ EN để trống 8.2/10.2 và nhiều lượt lặp, legacy làm mờ vàng ở 12.2, Bāhukā dẫn trời ở 19.6 giữ theo Pāli/Việt dự án.",
+        "semantic_fidelity": "Giữ cả nhận diện, từ bỏ thực tế, niềm tin xác chứng, định, vô lượng, lối thoát và ba lậu tận. Ví dụ làm việc cộng đồng không thay giải thoát bằng danh tiếng; thân phận hay nghi lễ không tự thanh tịnh người có hành vi xấu.",
+        "core_coverage": "Đủ 16 mục cùng hai lần triển khai, ba nhóm phẩm chất được kính tin, bốn nguồn suy niệm và chuỗi đến định, hai ví dụ thanh lọc, bốn vô lượng, bốn mệnh đề, hai phần giải thoát và đối thoại/kết. 25 đơn vị/147 khóa đầy đủ; đã thêm rõ phạm hạnh đã thành ở kết Bhāradvāja.",
+        "logic_context": "Giữ mức độ yathodhi, điều kiện evaṁsīlo/evaṁdhammo/evaṁpañño, thứ tự biết-thấy rồi giải thoát, lời người hỏi và lời bác của Đức Phật. 20.15 không thành hứa mọi ước muốn; 22.2 giữ xuất gia và công phu trước thành A-la-hán.",
+        "terminology": "Chú thích lựa chọn makkha/paḷāsa rõ, giữ khác nhau của giận/hằn học và kiêu/ngạo/tự mãn/phóng dật. Giải pīti/muditā, giới hạn của saññāgata và xả; các thuật ngữ khó có chức năng cụ thể trong lập luận.",
+        "audience_fit": "Tình huống giúp cộng đồng có công sức, phần ghi nhận và trách nhiệm cụ thể; không đòi phải hoàn hảo trước khi làm thiện hoặc phủ nhận đóng góp bản thân. Hợp người lớn tự xét động cơ; chưa thử với độc giả thật.",
+        "clarity": "Tiến trình dễ lần theo và danh sách có giải nghĩa, kết nối tốt tới câu hỏi thanh tịnh bằng điều gì. Một số lời thận trọng kỹ thuật còn chen trong mạch chính, khiến nhịp nặng hơn bản chỉ kể chuyện, nhưng không làm mất quan hệ ý.",
+        "editorial_separation": "Nhận diện rõ ví dụ hiện đại, thực hành do biên tập, lời kinh và lựa chọn dịch. Nêu trung thực khoảng trống EN và chỗ legacy khác; không bịa lý do hoặc câu nói nhân vật hay ép một tầng chứng vào 17.1.",
+        "practical_integrity": "Gợi ý chỉnh lời gièm pha/ghi công cụ thể, giữ nhu cầu được ghi nhận hợp lý. Không coi việc thiện là giao dịch, không hứa giác ngộ tức thì hay dùng nghi lễ xóa nghiệp; giữ hậu quả việc làm và điều kiện tu tập.",
+        "technical_integrity": "Audit không lỗi; full 147 khóa/25 đơn vị và teaching coverage được kiểm, năm hashes/blob commit manifest đúng, NFC/IDs/authors hợp lệ. Đề xuất không ghi metadata hoặc áp dụng xuất bản và không tuyên bố đã build/UI."
+      },
+      "blockingErrors": [],
+      "notes": "Lượt đọc biên tập bởi tác tử khác với tác tử soạn ban đầu nhưng cùng công cụ gpt-6-astra-pro; không phải chứng nhận Pāli độc lập hoặc thử nghiệm người đọc thật. Đã đọc toàn 147 Pāli segment, Việt dự án, chú thích và legacy; đối chiếu chọn lọc EN tại các đoạn khó, mức lược và khoảng trống. Xác minh blob Pāli e187c31bb0a4115df266a4587f75d492a9d98381 với manifest và năm SHA-256; auditExplanations không lỗi. Không ghi hoặc áp dụng đánh giá vào metadata. Hash nội dung đã đọc: a7ce90823bf3ce64f86c4d57458d835a380de4429c46965273dfc9e054bd4c42. Sửa the-final-story để giữ rõ phạm hạnh đã thành cùng các vế của 22.3. Không thay nguồn hoặc bản đồ ý.",
+      "contentHash": "a7ce90823bf3ce64f86c4d57458d835a380de4429c46965273dfc9e054bd4c42",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn7.html",
+          "sha256": "c5c8910e418e636e1f9b9ae15673d55da0cab8d6c6643e9c24007e6305b424a4"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn7_root-pli-ms.json",
+          "sha256": "d4fbe118ee7b3e4467be11df44f8226e82030468226602d5af4e3aff42bb472b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn7_translation-en-sujato.json",
+          "sha256": "e8835404633bd7cb739d8754677c8a96277900b2d11ece04f036408d3bbe32e2"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn7_comment-vi-project.json",
+          "sha256": "0679ef7f40cd1df1692aac9ebd83bd54210f5f6657dc44abb0b4a2046ec2d5b2"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn7_translation-vi-project.json",
+          "sha256": "026cdca2724618a5e06f8d932508f89f78f1e5cd75f7d9fe65df22835e435e2c"
+        }
+      ]
+    },
+    {
+      "id": "6912c0cb-fa7f-45b0-9c0e-c36310befc81",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.3,
+        "audience_fit": 9.4,
+        "clarity": 9.3,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đọc toàn Pāli/Việt dự án/chú thích và legacy, đối chiếu EN các điểm dị biệt; nguồn đúng pin/năm hashes. Phân biệt rõ hai người nói trong đối thoại, bản kệ, chuyện tu sau đó và nhãn ấn bản; không suy diễn chỗ tham khảo lược.",
+        "semantic_fidelity": "Giữ mục tiêu giải thoát và toàn mạch tái sinh, không đổi thành nhẹ lòng hoặc kinh nghiệm tuổi đời. Ganh tị được nhìn như phản ứng cần hiểu/từ bỏ, không là định kiến về tuổi. Hai hình ảnh nước/vải và lò/vàng đúng nguồn.",
+        "core_coverage": "25 đơn vị/147 khóa đủ: cả 16 ô nhiễm, các phẩm chất Phật/Pháp/Tăng, nhìn lại niềm tin và từ bỏ, chuỗi đến định, bốn vô lượng, ba lậu, bảy tên nơi tắm, năm phẩm chất và kết Bhāradvāja. Đã giữ rõ bốn vế chứng tri cuối.",
+        "logic_context": "Điều kiện, mức đã từ bỏ và trình tự thực hành còn nguyên. Niềm tin nước rửa nghiệp thuộc lời Bà-la-môn, lời Phật đưa về an toàn cho mọi loài. Đã làm rõ điều nguyện tu ở 20.15 và biết trực tiếp của 22.2, không gán thành quả cho nghi thức.",
+        "terminology": "Giải các ô nhiễm bằng nếp phản ứng gần gũi; kiêu mạn đã nêu cả hơn/bằng/kém, hỷ pīti và muditā rõ, xả không lạnh nhạt. Giữ từ tưởng/lậu/phạm hạnh có giải theo mạch; danh hiệu truyền thống được giải chung bằng phẩm chất.",
+        "audience_fit": "Ví dụ bữa cơm chung tôn trọng công sức, quyền nêu nhu cầu và khả năng học tiếp; không giả định bệnh yếu/cô đơn hoặc dùng giọng dạy trẻ. Nhịp đọc có điểm dừng, không coi mọi phản ứng là đặc tính tuổi tác; chưa thử với người thật.",
+        "clarity": "Các nhóm 16 ô nhiễm có đoạn vừa phải, mạch đi từ hình ảnh quen tới định/giải thoát và trở lại cách sống rõ. Phần kinh khó vẫn giữ tên và nghĩa, còn vài nhắc nguồn lặp nhưng không cản theo dõi.",
+        "editorial_separation": "Ví dụ và câu hỏi nhìn lại được ghi là biên tập, các hình ảnh/công thức của kinh có ranh giới rõ. Không thêm động cơ nhân vật, lời khen Phật ngoài nguồn hoặc quyền phán xét người khác.",
+        "practical_integrity": "Không ép vui trước thành công người khác, không phủ nhận phần mình hoặc coi một lần vấp là toàn con người. Bước thực hành hướng hành động/lời nói có thể sửa; không tự nhận giải thoát từ trải nghiệm bình an hay nghi lễ.",
+        "technical_integrity": "Không lỗi audit; kiểm trọn phân hoạch 147/25, teaching coverage, năm hashes, blob manifest, NFC và mã tác giả. Chưa ghi/applied điểm; kiểm này không thay cổng build và giao diện của PR."
+      },
+      "blockingErrors": [],
+      "notes": "Lượt đọc biên tập bởi tác tử khác với tác tử soạn ban đầu nhưng cùng công cụ gpt-6-astra-pro; không phải chứng nhận Pāli độc lập hoặc thử nghiệm người đọc thật. Đã đọc toàn 147 Pāli segment, Việt dự án, chú thích và legacy; đối chiếu chọn lọc EN tại các đoạn khó, mức lược và khoảng trống. Xác minh blob Pāli e187c31bb0a4115df266a4587f75d492a9d98381 với manifest và năm SHA-256; auditExplanations không lỗi. Không ghi hoặc áp dụng đánh giá vào metadata. Hash nội dung đã đọc: 0e7cd6ffa35d67529b0f0b78eb087c11d10b36856e3b7d266662b12700bfa9fc. Sửa names-for-what-arises (kiêu mạn gồm so bằng), safety-as-purity (điều nguyện tu), from-refuge-to-practice (biết trực tiếp và đủ vế cuối). Không thay nguồn hoặc bản đồ ý.",
+      "contentHash": "0e7cd6ffa35d67529b0f0b78eb087c11d10b36856e3b7d266662b12700bfa9fc",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn7.html",
+          "sha256": "c5c8910e418e636e1f9b9ae15673d55da0cab8d6c6643e9c24007e6305b424a4"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn7_root-pli-ms.json",
+          "sha256": "d4fbe118ee7b3e4467be11df44f8226e82030468226602d5af4e3aff42bb472b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn7_translation-en-sujato.json",
+          "sha256": "e8835404633bd7cb739d8754677c8a96277900b2d11ece04f036408d3bbe32e2"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn7_comment-vi-project.json",
+          "sha256": "0679ef7f40cd1df1692aac9ebd83bd54210f5f6657dc44abb0b4a2046ec2d5b2"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn7_translation-vi-project.json",
+          "sha256": "026cdca2724618a5e06f8d932508f89f78f1e5cd75f7d9fe65df22835e435e2c"
+        }
+      ]
+    }
+  ]
+}

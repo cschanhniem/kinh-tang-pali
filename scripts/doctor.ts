@@ -137,8 +137,8 @@ function reconcile(manifest: { editions: Array<{ layerId: string; path: string; 
   });
 }
 
-/** Files in the cache that no declared layer reads — inert leftovers from a bad download. */
-function unmanagedFiles(editionRoots: string[]): string[] {
+/** Files neither a reading layer nor a declared explanation reference uses. */
+function unmanagedFiles(editionRoots: string[], explanationFiles: ReadonlySet<string>): string[] {
   const out: string[] = [];
   const walk = (dir: string): void => {
     let entries: Dirent[];
@@ -158,7 +158,7 @@ function unmanagedFiles(editionRoots: string[]): string[] {
           continue; // a ghost, already reported by scan()
         }
         const relative = path.relative(UPSTREAM, full);
-        if (!editionRoots.some((root) => relative.startsWith(`${root}/`))) out.push(relative);
+        if (!explanationFiles.has(relative) && !editionRoots.some((root) => relative.startsWith(`${root}/`))) out.push(relative);
       }
     }
   };
@@ -266,12 +266,28 @@ if (existsSync(UPSTREAM)) {
   }
 }
 
-// --- 3. files no layer reads ---------------------------------------------------
+// --- 3. files no layer or explanation reads ------------------------------------
 
-const unmanaged = unmanagedFiles(editionRoots);
+const explanationManifestFile = path.join(ROOT, 'source/explanation-references.json');
+const explanationFiles = new Set<string>();
+if (existsSync(explanationManifestFile)) {
+  const references = JSON.parse(readFileSync(explanationManifestFile, 'utf8')) as {
+    schemaVersion: number; commit: string; files: Record<string, string>;
+  };
+  if (references.schemaVersion !== 1 || references.commit !== lock.commit || !references.files
+    || typeof references.files !== 'object' || Array.isArray(references.files)) {
+    throw new Error('Explanation reference manifest must match the source lock before cache cleanup.');
+  }
+  for (const [file, hash] of Object.entries(references.files)) {
+    if (!/^comment\/en\/sujato\/sutta\/(mn|dn)\/\1[1-9]\d*_comment-en-sujato\.json$/.test(file)
+      || !/^[a-f0-9]{40}$/.test(hash)) throw new Error(`Invalid explanation reference: ${file}`);
+    explanationFiles.add(file);
+  }
+}
+const unmanaged = unmanagedFiles(editionRoots, explanationFiles);
 if (unmanaged.length > 0) {
   notes += 1;
-  console.log(`\n  UNMANAGED CACHE FILES  ${unmanaged.length} file(s) belong to no declared layer`);
+  console.log(`\n  UNMANAGED CACHE FILES  ${unmanaged.length} file(s) belong to no declared layer or explanation reference`);
   const byDir = new Map<string, number>();
   for (const file of unmanaged) {
     const dir = file.split('/').slice(0, 2).join('/');

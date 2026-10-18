@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn9",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "61e6c843-bb4b-4a44-b54d-0c1a0f79a30e"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "0a3f8ca4-25e0-4944-a575-da96588f21c2"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "033ec011-2be1-47e1-a693-c8df94b26578"
+    }
+  },
+  "reviews": [
+    {
+      "id": "61e6c843-bb4b-4a44-b54d-0c1a0f79a30e",
+      "audience": "children",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.3,
+        "core_coverage": 9.4,
+        "logic_context": 9.4,
+        "terminology": 9.1,
+        "audience_fit": 9,
+        "clarity": 9,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Giữ đúng Sāriputta là người giảng và phản hồi của các tỳ-kheo. Đọc toàn bộ năm nguồn; danh sách khổ theo Pāli chứ không tự thêm bệnh từ legacy; nguồn dẫn và 234 khóa được kiểm.",
+        "semantic_fidelity": "Không thu hẹp sinh tử thành cuộc cãi nhau: ba hữu, sinh, già chết và sự tận diệt khổ còn rõ. Vô minh/lậu hoặc nuôi nhau được giữ cả hai chiều, không bịa một điểm đầu tuyệt đối.",
+        "core_coverage": "Đủ 16 cửa vào qua 17 đơn vị; đủ 10 hành vi và gốc, bốn thực, ba ái, bốn thủ, sáu nhóm, danh-sắc/hành và Bát chánh đạo xuyên suốt. Mục ending giữ điệp kết tùy miên, ngã mạn, minh và dứt khổ.",
+        "logic_context": "Diệt được mô tả là điều phải hiểu chứ không câu hỏi về một ngày hẹn; các quan hệ nguồn gốc/diệt giữ nguyên. Hiểu trọn vẹn đi đến giải thoát được phân biệt với nhớ danh sách hoặc làm bài tập nhỏ.",
+        "terminology": "Các từ như tà hạnh, thọ, danh-sắc, hữu, ý tư, tùy miên có lời giải trực tiếp; danh không gồm thức. Dù vậy nhiều thuật ngữ trừu tượng trong cùng bài vẫn cần người lớn đọc cùng, đã nêu đúng giới hạn.",
+        "audience_fit": "Ví dụ tranh đồ chơi và câu hỏi em cảm thấy/đang muốn gì cho trẻ một điểm vào cụ thể. Không ép trẻ nhận lỗi để phục tùng hay dọa bằng tái sinh; phần danh mục sâu đòi hỏi chia buổi đọc, chưa có thử nghiệm trẻ thật.",
+        "clarity": "Đường đi từ việc gần gũi đến điều kiện sâu hơn có heading rõ. Từ name-form tới taints khá dày với người mới; các câu ngắn và ghi chú đọc cùng người lớn giúp nhưng không bảo đảm trẻ tự đọc liền hiểu hết.",
+        "editorial_separation": "story nói rõ là ví dụ hiện nay và chỉ một góc của kinh; practice nhận diện gợi ý chưa phải thực hành trọn vẹn. Không giả lời Sāriputta hoặc dùng câu chuyện như bằng chứng về tái sinh.",
+        "practical_integrity": "Quan sát một chuyện bực và nhờ người tin cậy hỗ trợ là bước vừa sức, không hứa dứt tùy miên. Giải về thực không biến thành nhịn ăn, và về diệt già chết không phủ nhận việc thân còn phải già chết.",
+        "technical_integrity": "Audit sau các sửa không lỗi: đủ 234 khóa/17 đơn vị, mỗi đơn vị có teaching/clarification, tác giả có đăng ký, năm source SHA-256 khớp; văn bản thuần/NFC, trạng thái draft và score null đúng."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc toàn bộ khóa Pāli, toàn bộ bản Việt dự án và English Sujato, toàn văn Thích Minh Châu dạng HTML và mọi chú thích dự án của từng bài; đọc toàn bộ bản đồ ý và cả ba bản diễn giải. Kiểm lại các đoạn sửa và chạy auditExplanations sau sửa.\nTác giả và người kiểm đều là tác tử của cùng công cụ gpt-6-astra-pro. Đây không phải thẩm định độc lập của học giả Pāli con người.\nPhù hợp lứa tuổi và độ rõ được nhận định qua đọc biên tập, chưa có thử nghiệm với trẻ em, người trưởng thành hoặc người lớn tuổi thực tế.\nĐiểm technical_integrity dựa trên cấu trúc, tác giả, mã ý, nguồn và hash hiện tại; không tuyên bố đã chạy lại browser, build hoặc toàn bộ CI của PR.\nKiểm đủ 16 cửa vào chánh kiến cùng phần mở đầu: thiện/bất thiện; thực; khổ; già chết; sinh; hữu; thủ; ái; thọ; xúc; sáu xứ; danh-sắc; thức; hành; vô minh; lậu hoặc.\nKiểm cùng Bát chánh đạo ở 15 cửa từ thực trở đi, cùng công thức đối tượng/nguồn gốc/diệt/con đường, và điệp kết về tận tùy miên, sinh minh, dứt khổ ngay đời này.\nKiểm danh gồm đúng năm thành phần và không lẫn thức (54.2), ba hữu, bốn thủ, sáu nhóm liên quan và hai chiều vô minh/lậu hoặc (66.1;70.4).\nĐối chiếu danh sách khổ Pāli không có byādhi tại 15.2; không theo phần thêm bệnh của bản legacy, không thu sinh tử thành ẩn dụ tâm lý.\nCác điểm đã sửa và kiểm lại: children/path và adults/four-truths: thay câu hỏi thời điểm bằng sự chấm dứt như đối tượng hiểu biết. children/ending: làm rõ các tùy miên và sinh minh; children/good-roots: mở nghĩa tà hạnh phù hợp giới hạn tuổi. adults/nutriment: làm rõ ý tư và từng phần Bát chánh đạo; adults/four-truths và craving-feeling: định nghĩa ba ái và thọ cùng sáu lớp. Sửa summary aging-death: mạng căn kết thúc thuộc chết (22.5), không đồng nhất với suy giảm căn khi già; thêm liên kết name-form cho source-note adults.\nGiới hạn còn lại: MN9 có nhiều phân loại khó mà không thể xóa cho nhẹ; nên đọc theo từng cửa vào và cần người đọc thật góp ý về nhịp, đặc biệt ở children/name-form và formations.",
+      "contentHash": "38bb035f0c25c1972657293ea5b7671aed84ce093b9fae325525da2a813f02e2",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn9.html",
+          "sha256": "b157ea10658ef1eb6b747092e2c3c94ba68560380439b8b4fea9ade1d280cacc"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn9_root-pli-ms.json",
+          "sha256": "cbd4cd8a3e327da1fe7a20a88b44fd6576f9130234d54f3d9b31fe9d7fb1ef32"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn9_translation-en-sujato.json",
+          "sha256": "b7c35473227c215bbbbcd9fbb96e2feb4ac9d5f37300ab5db901b78cc926305b"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn9_comment-vi-project.json",
+          "sha256": "0a9311ad528ecdf23b1b9cd443d8021b943615344265f0ce46015e780e2a57f8"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn9_translation-vi-project.json",
+          "sha256": "1efa13b3913e272ca1e4dd136b94124d2319fef24b3ac844e407dc6b1fce52e2"
+        }
+      ]
+    },
+    {
+      "id": "0a3f8ca4-25e0-4944-a575-da96588f21c2",
+      "audience": "adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.4,
+        "logic_context": 9.5,
+        "terminology": 9.2,
+        "audience_fit": 9.2,
+        "clarity": 9.2,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đúng diễn giả, bối cảnh và 16 lối triển khai; source-note minh bạch chỗ Pāli không có bệnh dù legacy có và tính tổng hợp của đoạn lặp. Năm nguồn đã đọc toàn bộ, không chỉ kiểm sự tồn tại file.",
+        "semantic_fidelity": "Giữ tái sinh, ba hữu, nguồn gốc và tận diệt khổ; ví dụ mua sắm chỉ soi một góc thọ/ái/thủ. Không biến hữu thành trạng thái vai trò xã hội hay lậu hoặc thành stress, và không đồng nhất danh với ý thức.",
+        "core_coverage": "Từng cửa từ thiện/bất thiện đến lậu hoặc đủ định nghĩa và quan hệ chính; Bát chánh đạo được giải các nhánh và tái dùng rõ. Các phân loại ba ái/bốn thủ/sáu xúc-thọ-thức và điệp kết không bị mất khi gộp.",
+        "logic_context": "Cả chiều lậu hoặc sinh vô minh (66.1) và vô minh sinh lậu hoặc (70.4) được nói rõ mà không áp mô hình một nguyên nhân đầu. Câu về cessation đã sửa để tách điều được biết khỏi quan hệ có điều kiện.",
+        "terminology": "ý tư mở đúng manosañcetanā, thọ không bị coi là toàn bộ cảm xúc, ba loại ái được giải. Danh-sắc giữ năm yếu tố danh và bốn đại/được tạo từ chúng; không đồng nhất bốn đại với bảng nguyên tố hiện đại.",
+        "audience_fit": "Mua sắm, quảng cáo, động lực và lựa chọn có liên hệ đời trưởng thành; không rút mục đích về quản trị tiêu dùng. Trình bày logic phù hợp người muốn đào sâu, song bảng phân loại vẫn cần đọc từng đoạn.",
+        "clarity": "Từ gốc hành động tới các điều kiện ngày càng sâu là tuyến lập luận dễ theo; headings gộp các cặp có quan hệ, source-note ở cuối. Một số đoạn danh-sắc/hành còn đậm nội dung nhưng đã có định nghĩa đủ để đọc lại.",
+        "editorial_separation": "example và practice phân biệt với kinh; phần ghi chú nguồn nói lựa chọn Pāli và giới hạn thuật ngữ. Không tuyên bố bài ghi chép quyết định là phương pháp nguyên văn hoặc thành tựu được Sāriputta xác nhận.",
+        "practical_integrity": "Đề nghị xét động lực và sửa một việc cụ thể gắn đạo đức/tâm/hiểu biết, không phải mẹo tăng hiệu suất hoặc phép đo chứng đắc. Đoạn thực và diệt sinh tử không đưa mệnh lệnh nhịn ăn hay hứa bất tử.",
+        "technical_integrity": "Liên kết name-form của source-note đã bổ sung; các đơn vị, segment, authors và nguồn đều hợp lệ; audit không lỗi và năm hash thực khớp. Không có điểm/publication trong metadata từ lượt này; full CI do parent xử lý."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc toàn bộ khóa Pāli, toàn bộ bản Việt dự án và English Sujato, toàn văn Thích Minh Châu dạng HTML và mọi chú thích dự án của từng bài; đọc toàn bộ bản đồ ý và cả ba bản diễn giải. Kiểm lại các đoạn sửa và chạy auditExplanations sau sửa.\nTác giả và người kiểm đều là tác tử của cùng công cụ gpt-6-astra-pro. Đây không phải thẩm định độc lập của học giả Pāli con người.\nPhù hợp lứa tuổi và độ rõ được nhận định qua đọc biên tập, chưa có thử nghiệm với trẻ em, người trưởng thành hoặc người lớn tuổi thực tế.\nĐiểm technical_integrity dựa trên cấu trúc, tác giả, mã ý, nguồn và hash hiện tại; không tuyên bố đã chạy lại browser, build hoặc toàn bộ CI của PR.\nKiểm đủ 16 cửa vào chánh kiến cùng phần mở đầu: thiện/bất thiện; thực; khổ; già chết; sinh; hữu; thủ; ái; thọ; xúc; sáu xứ; danh-sắc; thức; hành; vô minh; lậu hoặc.\nKiểm cùng Bát chánh đạo ở 15 cửa từ thực trở đi, cùng công thức đối tượng/nguồn gốc/diệt/con đường, và điệp kết về tận tùy miên, sinh minh, dứt khổ ngay đời này.\nKiểm danh gồm đúng năm thành phần và không lẫn thức (54.2), ba hữu, bốn thủ, sáu nhóm liên quan và hai chiều vô minh/lậu hoặc (66.1;70.4).\nĐối chiếu danh sách khổ Pāli không có byādhi tại 15.2; không theo phần thêm bệnh của bản legacy, không thu sinh tử thành ẩn dụ tâm lý.\nCác điểm đã sửa và kiểm lại: children/path và adults/four-truths: thay câu hỏi thời điểm bằng sự chấm dứt như đối tượng hiểu biết. children/ending: làm rõ các tùy miên và sinh minh; children/good-roots: mở nghĩa tà hạnh phù hợp giới hạn tuổi. adults/nutriment: làm rõ ý tư và từng phần Bát chánh đạo; adults/four-truths và craving-feeling: định nghĩa ba ái và thọ cùng sáu lớp. Sửa summary aging-death: mạng căn kết thúc thuộc chết (22.5), không đồng nhất với suy giảm căn khi già; thêm liên kết name-form cho source-note adults.\nGiới hạn còn lại: MN9 có nhiều phân loại khó mà không thể xóa cho nhẹ; nên đọc theo từng cửa vào và cần người đọc thật góp ý về nhịp, đặc biệt ở children/name-form và formations.",
+      "contentHash": "eecf1912ed9e2ae27e5dfa63dadae71646468d25d79e5a7a4dd021f3cb138189",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn9.html",
+          "sha256": "b157ea10658ef1eb6b747092e2c3c94ba68560380439b8b4fea9ade1d280cacc"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn9_root-pli-ms.json",
+          "sha256": "cbd4cd8a3e327da1fe7a20a88b44fd6576f9130234d54f3d9b31fe9d7fb1ef32"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn9_translation-en-sujato.json",
+          "sha256": "b7c35473227c215bbbbcd9fbb96e2feb4ac9d5f37300ab5db901b78cc926305b"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn9_comment-vi-project.json",
+          "sha256": "0a9311ad528ecdf23b1b9cd443d8021b943615344265f0ce46015e780e2a57f8"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn9_translation-vi-project.json",
+          "sha256": "1efa13b3913e272ca1e4dd136b94124d2319fef24b3ac844e407dc6b1fce52e2"
+        }
+      ]
+    },
+    {
+      "id": "033ec011-2be1-47e1-a693-c8df94b26578",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.3,
+        "core_coverage": 9.4,
+        "logic_context": 9.4,
+        "terminology": 9.2,
+        "audience_fit": 9.2,
+        "clarity": 9.2,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Giữ lời Sāriputta và sự tiếp nhận của các tỳ-kheo, dùng đúng nguồn bài MN9 đã khóa. Lưu ý khổ không thêm bệnh theo legacy và đúng phạm vi các yếu tố được kinh liệt kê; mọi nguồn đã đọc, hash khớp.",
+        "semantic_fidelity": "Già/chết/sinh không bị biến thành điều chỉ liên quan người lớn tuổi; mục tiêu giải thoát còn nguyên. Quan hệ hữu/thủ/ái và vô minh/lậu hoặc không bị giảm thành tự ái trong cuộc họp.",
+        "core_coverage": "Đủ 16 cách thấy đúng và công thức chung; giữ 10 thiện/bất thiện, bốn thực, ba hữu, bốn thủ, sáu xứ/xúc/thọ/ái/thức, danh-sắc và ba hành. Phần ending có ngã mạn/tùy miên/vô minh-minh và tận khổ.",
+        "logic_context": "Con đường tám phần gắn mọi cửa từ thực trở đi; nguồn gốc và sự diệt được tách rõ. Không suy rằng một lần hòa thuận đã dứt tùy miên; quan hệ vô minh/lậu hoặc là tương duyên chứ không một nguyên nhân khởi đầu.",
+        "terminology": "Dùng từ truyền thống kèm mở nghĩa, đặc biệt nāma gồm năm yếu tố và thức là mục riêng. Thọ/xúc/lậu hoặc giữ nghĩa theo kinh; một số thuật ngữ sâu cần trở lại đọc kỹ nhưng không được đơn giản hóa sai.",
+        "audience_fit": "Buổi chăm vườn chung đặt người có kinh nghiệm trong vai chủ động, vẫn có thể góp lý lẽ và soi sự nắm giữ. Không mặc định mọi người lớn tuổi đều yếu bệnh, cô đơn hoặc sợ chết; đoạn đọc có nhịp bình tĩnh.",
+        "clarity": "Các heading dẫn từ điều quen tới quan hệ sâu hơn; ví dụ rồi lời giảng và gợi ý kết nối rõ. Những nhóm sáu pháp/danh-sắc dày nhưng được chia đoạn, tránh tuôn một danh sách liên tục không giải.",
+        "editorial_separation": "Tình huống hàng xóm và gợi ý cuối đều nêu là biên tập; ghi chú nguồn tách riêng. Không biến kinh nghiệm cộng đồng thành câu chuyện được kể trong kinh hoặc bằng chứng đã giải thoát.",
+        "practical_integrity": "Chọn một việc trong gia đình/cộng đồng, nghe thêm hoặc sửa lời chia rẽ là gợi ý mở, không bắt buộc theo tuổi. Nói rõ một lần làm được chỉ là dịp học tiếp, không kết luận đã đoạn hết tùy miên.",
+        "technical_integrity": "Toàn bộ 17 đơn vị được phủ bằng phần giảng/làm rõ, 234 khóa và năm nguồn đều kiểm được. Audit hiện tại không lỗi; contentHash đã tính sau thay đổi bản đồ, trạng thái draft/null được giữ; không thay kiểm thử UI/CI."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc toàn bộ khóa Pāli, toàn bộ bản Việt dự án và English Sujato, toàn văn Thích Minh Châu dạng HTML và mọi chú thích dự án của từng bài; đọc toàn bộ bản đồ ý và cả ba bản diễn giải. Kiểm lại các đoạn sửa và chạy auditExplanations sau sửa.\nTác giả và người kiểm đều là tác tử của cùng công cụ gpt-6-astra-pro. Đây không phải thẩm định độc lập của học giả Pāli con người.\nPhù hợp lứa tuổi và độ rõ được nhận định qua đọc biên tập, chưa có thử nghiệm với trẻ em, người trưởng thành hoặc người lớn tuổi thực tế.\nĐiểm technical_integrity dựa trên cấu trúc, tác giả, mã ý, nguồn và hash hiện tại; không tuyên bố đã chạy lại browser, build hoặc toàn bộ CI của PR.\nKiểm đủ 16 cửa vào chánh kiến cùng phần mở đầu: thiện/bất thiện; thực; khổ; già chết; sinh; hữu; thủ; ái; thọ; xúc; sáu xứ; danh-sắc; thức; hành; vô minh; lậu hoặc.\nKiểm cùng Bát chánh đạo ở 15 cửa từ thực trở đi, cùng công thức đối tượng/nguồn gốc/diệt/con đường, và điệp kết về tận tùy miên, sinh minh, dứt khổ ngay đời này.\nKiểm danh gồm đúng năm thành phần và không lẫn thức (54.2), ba hữu, bốn thủ, sáu nhóm liên quan và hai chiều vô minh/lậu hoặc (66.1;70.4).\nĐối chiếu danh sách khổ Pāli không có byādhi tại 15.2; không theo phần thêm bệnh của bản legacy, không thu sinh tử thành ẩn dụ tâm lý.\nCác điểm đã sửa và kiểm lại: children/path và adults/four-truths: thay câu hỏi thời điểm bằng sự chấm dứt như đối tượng hiểu biết. children/ending: làm rõ các tùy miên và sinh minh; children/good-roots: mở nghĩa tà hạnh phù hợp giới hạn tuổi. adults/nutriment: làm rõ ý tư và từng phần Bát chánh đạo; adults/four-truths và craving-feeling: định nghĩa ba ái và thọ cùng sáu lớp. Sửa summary aging-death: mạng căn kết thúc thuộc chết (22.5), không đồng nhất với suy giảm căn khi già; thêm liên kết name-form cho source-note adults.\nGiới hạn còn lại: MN9 có nhiều phân loại khó mà không thể xóa cho nhẹ; nên đọc theo từng cửa vào và cần người đọc thật góp ý về nhịp, đặc biệt ở children/name-form và formations.",
+      "contentHash": "95e901a682a0ab917b250af1b3fe0fe613a07849a64732d76d109c15635743de",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn9.html",
+          "sha256": "b157ea10658ef1eb6b747092e2c3c94ba68560380439b8b4fea9ade1d280cacc"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn9_root-pli-ms.json",
+          "sha256": "cbd4cd8a3e327da1fe7a20a88b44fd6576f9130234d54f3d9b31fe9d7fb1ef32"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn9_translation-en-sujato.json",
+          "sha256": "b7c35473227c215bbbbcd9fbb96e2feb4ac9d5f37300ab5db901b78cc926305b"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn9_comment-vi-project.json",
+          "sha256": "0a9311ad528ecdf23b1b9cd443d8021b943615344265f0ce46015e780e2a57f8"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn9_translation-vi-project.json",
+          "sha256": "1efa13b3913e272ca1e4dd136b94124d2319fef24b3ac844e407dc6b1fce52e2"
+        }
+      ]
+    }
+  ]
+}
