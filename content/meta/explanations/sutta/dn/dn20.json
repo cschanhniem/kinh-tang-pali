@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn20",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "61d22594-3d90-4435-881c-2ff07036d56b"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "2df39330-8e20-4088-ab85-99b276e38fd1"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "07cc0c95-7dc4-43d9-8015-0e79ff0f6986"
+    }
+  },
+  "reviews": [
+    {
+      "id": "61d22594-3d90-4435-881c-2ff07036d56b",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.1,
+        "audience_fit": 8.9,
+        "clarity": 9.1,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đọc trực tiếp đủ năm nguồn DN20, giữ mười thế giới thay diễn thành hệ Mặt Trời; etapparamā là mức tối đa. Phần vượt sợ, số 100.000, người nói với Rāhu, thứ tự Hóa Lạc/Tha Hóa Tự Tại và danh tiếng ở kết đều theo Pāli, không theo các chỗ lệch trong HTML.",
+        "semantic_fidelity": "Bốn kệ giữ riêng người nói và quả đời sau của quy y. Tân ngữ số ít đoạn 19 hướng Phật; Māra muốn trói bằng tham là ý đồ của Māra, trong khi Tăng đã A-la-hán từ đầu. Nāga được bảo đảm an toàn rồi cùng Supaṇṇa quy y, không giản lược thành kỹ năng nói chuyện.",
+        "core_coverage": "38 đơn vị phủ đủ 337 khóa một lần theo đúng trật tự. Đủ số lượng các đoàn, bốn vua với từng phương và loại chúng, các con Inda, toàn bộ tên trong sáu nhóm mười cùng điệp khúc và tổng sáu mươi, các Phạm thiên và tùy tùng, cảnh Māra, lời cảnh báo, tinh cần, ly tham, kết bài thứ bảy.",
+        "logic_context": "Giữ hai lượt nhắc khoảng 500 và mười thế giới của bốn thiên, mức hơn 500 trong kệ, sự khác nhau của tri kiến đệ tử và Phật phân định tất cả. Lời các con Bali thưa với Rāhu giữ đúng hướng. Sự rút quân được kể cùng lời Phật nhận biết và các vị tinh cần, không tạo chuyện họ mới chứng quả tại đại hội.",
+        "editorial_separation": "Các ví dụ và bài tập có kind riêng, tự ghi do biên soạn. Dị giải Māyā, Citrā Supaṇṇā, Dānaveghasā, Asamā/đôi Yamā và Vicakkhaṇa được ghi rõ. Không biến thế giới quan, thiên chúng hay hình ảnh long tượng thành kết quả thực nghiệm hoặc một học thuyết tâm lý thay nguồn.",
+        "practical_integrity": "Liên hệ chỉ là nhận biết lòng tham, hộ trì và lời nói trong hoàn cảnh an toàn. Không hứa A-la-hán, thấy phi nhân hoặc không bị lay động sau một bài tập; ví dụ quy y hai loài được giữ phạm vi tôn giáo riêng. Không khuyên bắt chước hành vi Ma quân.",
+        "terminology": "Có giải nghĩa A-la-hán, quy y, căn, Dạ-xoa, các tên loài truyền thống và chỉ rõ chữ cổ còn bất định. Thuật ngữ tinh cần và danh mục dài vẫn cần người lớn cùng đọc; không chấm mức dễ hiểu gần tuyệt đối.",
+        "audience_fit": "33 phần, 60 đoạn ngắn, theo từng đoàn; lời em và gợi ý đọc từng nhóm phù hợp tiếp cận trẻ. Tuy vậy khoảng 2.300 từ theo khoảng trắng với dày tên Pāli và dị giải còn quá nhiều cho một lượt đọc độc lập; chưa có trẻ thật thử đọc, nên điểm này dưới 9.",
+        "clarity": "Bốn kệ, các nhóm mười và bước Ma quân đều có tiêu đề riêng; số 16.000 tách rõ nhóm 500 sau đó. Câu c27 đã thêm sinh đến để không bỏ upapanno. Tên dài ở thuộc hạ và Nāga còn làm nhịp đọc chậm.",
+        "technical_integrity": "Audit cuối errors/sourceErrors rỗng; 5 SHA, 2 manifest blobs, 2 project git blobs khớp. Đã kiểm map không thiếu/thừa/lặp và đọc lại sửa duy nhất c27 trước khóa hash. 33 phần có mapping đúng và kind hợp lệ. Cổng toàn kho do root thực hiện sau đủ lô, không tuyên bố trước."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập bài của agent A: thực đọc đủ 337 khóa Pāli, raw EN Sujato (334 có văn, 3 trống), Việt dự án, 16 comments và toàn HTML Minh Châu 483 mảnh chữ gồm credits; toàn map 38 ý và cả ba bản 33/28/34 phần. Các phần đọc ở root-dn20-read. Không sử dụng EN điền ghép làm nguồn độc lập, không nhập danh mục từ bài khác. Sau kiểm bổ sung duy nhất sinh đến ở children c27 cho 20.7; hai bản khác đã có. Tác giả đã xác nhận giữ sửa và không chạy lại generator. Audit và source proof cuối đúng; chưa ghi metadata hoặc áp điểm trước khi đọc xong. Pāli/Sujato pin 11c9d708978cde8ba61096d8a75f7ddfb846f639, HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457, project/comments pin 6fdace1cae33e80cf082c4027c78d543f5eb48b1. Cùng GPT-6 Astra Pro ở tác giả và người kiểm; chưa có chuyên gia Pāli con người hoặc độc giả thật trong ba nhóm thử đọc. Giới hạn chính là mật độ tên và dị giải, được phản ánh ở điểm audience_fit/clarity. Hash nội dung children đã đọc và khóa: c400ea196c267ce2f20f558fa42e2e602a5936e294747e0561366359e515d25b.",
+      "contentHash": "c400ea196c267ce2f20f558fa42e2e602a5936e294747e0561366359e515d25b",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn20.html",
+          "sha256": "60142c19c4f281174246d7145abf193370c91ebf330352115cd675043efdb595"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
+          "sha256": "da56cfe154c64e5bee8ee0de6be4fa2504f94bfc9415b09a86fb1650bba7fe51"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn20_translation-en-sujato.json",
+          "sha256": "0562b4981d66862570e85ad815a7d324a41662276f6cd12efdfffb30d8c1fc01"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn20_comment-vi-project.json",
+          "sha256": "a59a419169c5cb7d45892296ec66bbcae8146b5a5c38a1d9197c2c690599bd7f"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn20_translation-vi-project.json",
+          "sha256": "2c5b80163356b5bb0e4f639c8ce2e02ebbb6e29653ef1f178a772ed691f3a544"
+        }
+      ]
+    },
+    {
+      "id": "2df39330-8e20-4088-ab85-99b276e38fd1",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.6,
+        "logic_context": 9.7,
+        "terminology": 9.4,
+        "audience_fit": 9.4,
+        "clarity": 9.4,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đọc trực tiếp đủ năm nguồn DN20, giữ mười thế giới thay diễn thành hệ Mặt Trời; etapparamā là mức tối đa. Phần vượt sợ, số 100.000, người nói với Rāhu, thứ tự Hóa Lạc/Tha Hóa Tự Tại và danh tiếng ở kết đều theo Pāli, không theo các chỗ lệch trong HTML.",
+        "semantic_fidelity": "Bốn kệ giữ riêng người nói và quả đời sau của quy y. Tân ngữ số ít đoạn 19 hướng Phật; Māra muốn trói bằng tham là ý đồ của Māra, trong khi Tăng đã A-la-hán từ đầu. Nāga được bảo đảm an toàn rồi cùng Supaṇṇa quy y, không giản lược thành kỹ năng nói chuyện.",
+        "core_coverage": "38 đơn vị phủ đủ 337 khóa một lần theo đúng trật tự. Đủ số lượng các đoàn, bốn vua với từng phương và loại chúng, các con Inda, toàn bộ tên trong sáu nhóm mười cùng điệp khúc và tổng sáu mươi, các Phạm thiên và tùy tùng, cảnh Māra, lời cảnh báo, tinh cần, ly tham, kết bài thứ bảy.",
+        "logic_context": "Giữ hai lượt nhắc khoảng 500 và mười thế giới của bốn thiên, mức hơn 500 trong kệ, sự khác nhau của tri kiến đệ tử và Phật phân định tất cả. Lời các con Bali thưa với Rāhu giữ đúng hướng. Sự rút quân được kể cùng lời Phật nhận biết và các vị tinh cần, không tạo chuyện họ mới chứng quả tại đại hội.",
+        "editorial_separation": "Các ví dụ và bài tập có kind riêng, tự ghi do biên soạn. Dị giải Māyā, Citrā Supaṇṇā, Dānaveghasā, Asamā/đôi Yamā và Vicakkhaṇa được ghi rõ. Không biến thế giới quan, thiên chúng hay hình ảnh long tượng thành kết quả thực nghiệm hoặc một học thuyết tâm lý thay nguồn.",
+        "practical_integrity": "Liên hệ chỉ là nhận biết lòng tham, hộ trì và lời nói trong hoàn cảnh an toàn. Không hứa A-la-hán, thấy phi nhân hoặc không bị lay động sau một bài tập; ví dụ quy y hai loài được giữ phạm vi tôn giáo riêng. Không khuyên bắt chước hành vi Ma quân.",
+        "terminology": "Giải rõ lokadhātu, etapparamā, các dạng Virūḷha/Virūḷhaka, Māyā và những từ khó; giữ Mahāsamana đúng Pāli thay dạng kéo dài của các bản dịch. Không đồng nhất Āsava trong tên nhóm thành lời kết tội lậu hoặc hoặc chúa tể thành toàn năng.",
+        "audience_fit": "28 phần nối danh mục với chức năng của lời tán thán, giữ chi tiết và những lựa chọn nguồn người lớn có thể kiểm. Ví cuộc họp và gợi ý nhìn lại lòng muốn thắng gần trải nghiệm; vẫn cần nhiều lượt vì mật độ tên, chưa có thử đọc thật.",
+        "clarity": "Các nhóm được phân theo nơi, số, phương, loại và quan hệ, giúp đọc một bản danh mục mà không tạo sơ đồ sai. Dị giải nêu tại chỗ và nhắc ở clarification. Một số câu về văn bản học dày nhưng không làm mất diễn tiến.",
+        "technical_integrity": "Audit cuối không lỗi nội dung hay nguồn, 5 SHA/2 manifest/2 project blobs đúng; map đủ 337 khóa/38 ý. 28 phần, 51 đoạn đã đọc trọn, hash không đổi so tác giả khóa. Không lấy kiểm kỹ thuật thay kiểm ý nghĩa hoặc giả rằng cổng toàn kho đã chạy."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập bài của agent A: thực đọc đủ 337 khóa Pāli, raw EN Sujato (334 có văn, 3 trống), Việt dự án, 16 comments và toàn HTML Minh Châu 483 mảnh chữ gồm credits; toàn map 38 ý và cả ba bản 33/28/34 phần. Các phần đọc ở root-dn20-read. Không sử dụng EN điền ghép làm nguồn độc lập, không nhập danh mục từ bài khác. Sau kiểm bổ sung duy nhất sinh đến ở children c27 cho 20.7; hai bản khác đã có. Tác giả đã xác nhận giữ sửa và không chạy lại generator. Audit và source proof cuối đúng; chưa ghi metadata hoặc áp điểm trước khi đọc xong. Pāli/Sujato pin 11c9d708978cde8ba61096d8a75f7ddfb846f639, HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457, project/comments pin 6fdace1cae33e80cf082c4027c78d543f5eb48b1. Cùng GPT-6 Astra Pro ở tác giả và người kiểm; chưa có chuyên gia Pāli con người hoặc độc giả thật trong ba nhóm thử đọc. Giới hạn chính là mật độ tên và dị giải, được phản ánh ở điểm audience_fit/clarity. Hash nội dung adults đã đọc và khóa: fcb8cf2461e6c99d41bf311db833e73150c9ed69318dcbc2901fa17d2ac9b8d5.",
+      "contentHash": "fcb8cf2461e6c99d41bf311db833e73150c9ed69318dcbc2901fa17d2ac9b8d5",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn20.html",
+          "sha256": "60142c19c4f281174246d7145abf193370c91ebf330352115cd675043efdb595"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
+          "sha256": "da56cfe154c64e5bee8ee0de6be4fa2504f94bfc9415b09a86fb1650bba7fe51"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn20_translation-en-sujato.json",
+          "sha256": "0562b4981d66862570e85ad815a7d324a41662276f6cd12efdfffb30d8c1fc01"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn20_comment-vi-project.json",
+          "sha256": "a59a419169c5cb7d45892296ec66bbcae8146b5a5c38a1d9197c2c690599bd7f"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn20_translation-vi-project.json",
+          "sha256": "2c5b80163356b5bb0e4f639c8ce2e02ebbb6e29653ef1f178a772ed691f3a544"
+        }
+      ]
+    },
+    {
+      "id": "07cc0c95-7dc4-43d9-8015-0e79ff0f6986",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.4,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đọc trực tiếp đủ năm nguồn DN20, giữ mười thế giới thay diễn thành hệ Mặt Trời; etapparamā là mức tối đa. Phần vượt sợ, số 100.000, người nói với Rāhu, thứ tự Hóa Lạc/Tha Hóa Tự Tại và danh tiếng ở kết đều theo Pāli, không theo các chỗ lệch trong HTML.",
+        "semantic_fidelity": "Bốn kệ giữ riêng người nói và quả đời sau của quy y. Tân ngữ số ít đoạn 19 hướng Phật; Māra muốn trói bằng tham là ý đồ của Māra, trong khi Tăng đã A-la-hán từ đầu. Nāga được bảo đảm an toàn rồi cùng Supaṇṇa quy y, không giản lược thành kỹ năng nói chuyện.",
+        "core_coverage": "38 đơn vị phủ đủ 337 khóa một lần theo đúng trật tự. Đủ số lượng các đoàn, bốn vua với từng phương và loại chúng, các con Inda, toàn bộ tên trong sáu nhóm mười cùng điệp khúc và tổng sáu mươi, các Phạm thiên và tùy tùng, cảnh Māra, lời cảnh báo, tinh cần, ly tham, kết bài thứ bảy.",
+        "logic_context": "Giữ hai lượt nhắc khoảng 500 và mười thế giới của bốn thiên, mức hơn 500 trong kệ, sự khác nhau của tri kiến đệ tử và Phật phân định tất cả. Lời các con Bali thưa với Rāhu giữ đúng hướng. Sự rút quân được kể cùng lời Phật nhận biết và các vị tinh cần, không tạo chuyện họ mới chứng quả tại đại hội.",
+        "editorial_separation": "Các ví dụ và bài tập có kind riêng, tự ghi do biên soạn. Dị giải Māyā, Citrā Supaṇṇā, Dānaveghasā, Asamā/đôi Yamā và Vicakkhaṇa được ghi rõ. Không biến thế giới quan, thiên chúng hay hình ảnh long tượng thành kết quả thực nghiệm hoặc một học thuyết tâm lý thay nguồn.",
+        "practical_integrity": "Liên hệ chỉ là nhận biết lòng tham, hộ trì và lời nói trong hoàn cảnh an toàn. Không hứa A-la-hán, thấy phi nhân hoặc không bị lay động sau một bài tập; ví dụ quy y hai loài được giữ phạm vi tôn giáo riêng. Không khuyên bắt chước hành vi Ma quân.",
+        "terminology": "Giải các căn qua cửa tiếp xúc, quy y là nương Phật, tên long tượng và các loài theo truyền thống. Giữ chữ Pāli khó cùng mức chưa chắc; vài nhóm tên vẫn phải đọc chậm, không khẳng định người mới đọc đã hiểu hết.",
+        "audience_fit": "34 phần, 60 đoạn, tách riêng các Phạm thiên và Đại Phạm, khuyến khích nghỉ rồi đọc tiếp. Ví gia đình và gợi ý một khoảng dừng phù hợp nhịp đọc; mật độ tên vẫn lớn và chưa có người lớn tuổi thật thử đọc.",
+        "clarity": "Trình tự bốn kệ, các đoàn, sáu nhóm mười, tổng sáu mươi và Ma quân được giữ dễ lần. Các con số được phân đoạn, lời kết thứ bảy không lẫn mã DN20. Một số chú giải chữ cổ vẫn đòi hỏi đọc lại.",
+        "technical_integrity": "Audit cuối errors/sourceErrors rỗng, 5 SHA/2 manifest/2 project blobs đúng; 38 ý phủ 337 khóa, 34 phần mapping hợp lệ, hash còn đúng khóa tác giả. Đã đọc toàn bản và kiểm nguồn, chưa gán trước kết quả cổng toàn lô."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập bài của agent A: thực đọc đủ 337 khóa Pāli, raw EN Sujato (334 có văn, 3 trống), Việt dự án, 16 comments và toàn HTML Minh Châu 483 mảnh chữ gồm credits; toàn map 38 ý và cả ba bản 33/28/34 phần. Các phần đọc ở root-dn20-read. Không sử dụng EN điền ghép làm nguồn độc lập, không nhập danh mục từ bài khác. Sau kiểm bổ sung duy nhất sinh đến ở children c27 cho 20.7; hai bản khác đã có. Tác giả đã xác nhận giữ sửa và không chạy lại generator. Audit và source proof cuối đúng; chưa ghi metadata hoặc áp điểm trước khi đọc xong. Pāli/Sujato pin 11c9d708978cde8ba61096d8a75f7ddfb846f639, HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457, project/comments pin 6fdace1cae33e80cf082c4027c78d543f5eb48b1. Cùng GPT-6 Astra Pro ở tác giả và người kiểm; chưa có chuyên gia Pāli con người hoặc độc giả thật trong ba nhóm thử đọc. Giới hạn chính là mật độ tên và dị giải, được phản ánh ở điểm audience_fit/clarity. Hash nội dung older-adults đã đọc và khóa: 173d38d8cd3c43018bc8a38596821157bab327a89a52aea41271b4773c0faebc.",
+      "contentHash": "173d38d8cd3c43018bc8a38596821157bab327a89a52aea41271b4773c0faebc",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn20.html",
+          "sha256": "60142c19c4f281174246d7145abf193370c91ebf330352115cd675043efdb595"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
+          "sha256": "da56cfe154c64e5bee8ee0de6be4fa2504f94bfc9415b09a86fb1650bba7fe51"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn20_translation-en-sujato.json",
+          "sha256": "0562b4981d66862570e85ad815a7d324a41662276f6cd12efdfffb30d8c1fc01"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn20_comment-vi-project.json",
+          "sha256": "a59a419169c5cb7d45892296ec66bbcae8146b5a5c38a1d9197c2c690599bd7f"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn20_translation-vi-project.json",
+          "sha256": "2c5b80163356b5bb0e4f639c8ce2e02ebbb6e29653ef1f178a772ed691f3a544"
+        }
+      ]
+    }
+  ]
+}

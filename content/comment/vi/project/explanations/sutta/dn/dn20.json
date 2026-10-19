@@ -1,0 +1,1834 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn20",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "da56cfe154c64e5bee8ee0de6be4fa2504f94bfc9415b09a86fb1650bba7fe51"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn20_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "0562b4981d66862570e85ad815a7d324a41662276f6cd12efdfffb30d8c1fc01"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/dn/dn20_translation-vi-project.json",
+      "commit": "6fdace1cae33e80cf082c4027c78d543f5eb48b1",
+      "sha256": "2c5b80163356b5bb0e4f639c8ce2e02ebbb6e29653ef1f178a772ed691f3a544"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn20.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "60142c19c4f281174246d7145abf193370c91ebf330352115cd675043efdb595"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/dn/dn20_comment-vi-project.json",
+      "commit": "6fdace1cae33e80cf082c4027c78d543f5eb48b1",
+      "sha256": "a59a419169c5cb7d45892296ec66bbcae8146b5a5c38a1d9197c2c690599bd7f"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Tên và vị trí bài kinh",
+      "segments": [
+        "dn20:0.1",
+        "dn20:0.2"
+      ],
+      "summary": "Trường Bộ 20, Mahāsamayasutta, Kinh Đại Hội; bài có phần văn xuôi và phần kệ dài gọi tên các chúng đến hội."
+    },
+    {
+      "id": "assembly",
+      "title": "Đại Lâm và cuộc tụ hội",
+      "segments": [
+        "dn20:1.1",
+        "dn20:1.2",
+        "dn20:1.3"
+      ],
+      "summary": "Lời Tôi được nghe như vầy: Phật ở Đại Lâm gần Kapilavatthu giữa dân Sakya, với khoảng 500 tỳ-kheo đều là A-la-hán. Phần lớn thiên từ mười thế giới tụ hội để thấy Phật và Tăng; không đổi mười thế giới thành mười phương hoặc hệ Mặt Trời."
+    },
+    {
+      "id": "pure-abodes",
+      "title": "Bốn thiên Tịnh Cư tới",
+      "segments": [
+        "dn20:2.1",
+        "dn20:2.2",
+        "dn20:2.3",
+        "dn20:2.4",
+        "dn20:3.1",
+        "dn20:3.2",
+        "dn20:3.3"
+      ],
+      "summary": "Bốn thiên Tịnh Cư nghĩ về Phật, khoảng 500 A-la-hán và thiên từ mười thế giới đang tụ hội, muốn tới và mỗi vị nói một kệ. Nhanh như người khỏe co duỗi tay, họ biến mất Tịnh Cư hiện trước Phật, đảnh lễ, đứng một bên; một vị mở lời. Hai ô Anh lược không bỏ ý lặp Pāli."
+    },
+    {
+      "id": "verse-meeting",
+      "title": "Kệ về Tăng bất bại",
+      "segments": [
+        "dn20:3.4",
+        "dn20:3.5",
+        "dn20:3.6",
+        "dn20:3.7"
+      ],
+      "summary": "Vị thiên thứ nhất nói đại hội trong rừng có các thiên chúng tụ lại, họ đến pháp hội để thấy Tăng bất bại."
+    },
+    {
+      "id": "verse-senses",
+      "title": "Kệ về hộ căn",
+      "segments": [
+        "dn20:3.8",
+        "dn20:3.9",
+        "dn20:3.10",
+        "dn20:3.11",
+        "dn20:3.12"
+      ],
+      "summary": "Vị thứ hai nói các tỳ-kheo định tâm, làm tâm ngay thẳng; bậc trí hộ trì các căn như người đánh xe giữ cương."
+    },
+    {
+      "id": "verse-freed",
+      "title": "Kệ phá các chướng ngại",
+      "segments": [
+        "dn20:3.13",
+        "dn20:3.14",
+        "dn20:3.15",
+        "dn20:3.16",
+        "dn20:3.17"
+      ],
+      "summary": "Vị thứ ba nói chặt cọc, phá then, nhổ trụ Inda, không dao động, sống sạch không cấu nhiễm, được Bậc Có Mắt khéo điều phục như những long tượng. Giữ hình ảnh susunāgā có dị giải, không gán từng vật với một phiền não chưa được nêu."
+    },
+    {
+      "id": "verse-refuge",
+      "title": "Kệ quy y Phật",
+      "segments": [
+        "dn20:3.18",
+        "dn20:3.19",
+        "dn20:3.20",
+        "dn20:3.21",
+        "dn20:3.22"
+      ],
+      "summary": "Vị thứ tư nói người quy y Phật không đi cảnh đọa lạc; bỏ thân người thì làm đầy các thiên chúng. Giữ chủ thể vị thiên nói và kết quả đời sau, không thay thành một cảm giác an toàn tâm lý."
+    },
+    {
+      "id": "declaration",
+      "title": "Phật báo sẽ nêu tên",
+      "segments": [
+        "dn20:4.0",
+        "dn20:4.1",
+        "dn20:4.2",
+        "dn20:4.3",
+        "dn20:4.4",
+        "dn20:4.5",
+        "dn20:4.6",
+        "dn20:4.7",
+        "dn20:4.8",
+        "dn20:4.9",
+        "dn20:4.10"
+      ],
+      "summary": "Tiêu đề chư thiên tụ hội; Phật nhắc phần lớn thiên trong mười thế giới đến thấy Như Lai và Tăng. Các Phật quá khứ, vị lai có cuộc tụ hội nhiều nhất ngang lần này. Ngài sẽ nói, kể, trình bày tên thiên chúng, bảo lắng nghe khéo tác ý; các tỳ-kheo vâng và Phật nói."
+    },
+    {
+      "id": "forest-verse",
+      "title": "Những vị định tĩnh trong rừng",
+      "segments": [
+        "dn20:5.1",
+        "dn20:5.2",
+        "dn20:5.3",
+        "dn20:5.4",
+        "dn20:5.5",
+        "dn20:5.6",
+        "dn20:5.7",
+        "dn20:5.8"
+      ],
+      "summary": "Kệ ca ngợi mở nơi địa thần nương trú, các vị quyết tâm định tĩnh ở hang núi, ẩn cư như nhiều sư tử, đã vượt sợ dựng tóc; tâm sáng sạch, trong rõ không vẩn. Không đổi vượt sợ thành khiến chúng sinh khác sợ."
+    },
+    {
+      "id": "first-instruction",
+      "title": "Lời nhắc nhận biết chư thiên",
+      "segments": [
+        "dn20:5.9",
+        "dn20:5.10",
+        "dn20:5.11",
+        "dn20:5.12",
+        "dn20:5.13",
+        "dn20:5.14",
+        "dn20:5.15",
+        "dn20:5.16"
+      ],
+      "summary": "Biết hơn 500 vị trong rừng Kapilavatthu, Đạo Sư gọi các đệ tử thích giáo pháp: thiên chúng đã đến, hãy nhận biết. Nghe lời Phật, các vị khởi tinh cần. Giữ hơn 500 trong kệ bên cạnh khoảng 500 ở văn xuôi."
+    },
+    {
+      "id": "vision",
+      "title": "Mức nhìn thấy khác nhau",
+      "segments": [
+        "dn20:6.1",
+        "dn20:6.2",
+        "dn20:6.3",
+        "dn20:6.4",
+        "dn20:6.5",
+        "dn20:6.6",
+        "dn20:6.7",
+        "dn20:6.8"
+      ],
+      "summary": "Tri kiến thấy phi nhân hiện nơi các vị: có vị thấy 100, 1.000, 70.000, có vị thấy 100.000, có vị thấy vô số khắp các phương. Không lược số 100.000."
+    },
+    {
+      "id": "discernment",
+      "title": "Phật biết rõ tất cả",
+      "segments": [
+        "dn20:6.9",
+        "dn20:6.10",
+        "dn20:6.11",
+        "dn20:6.12",
+        "dn20:6.13",
+        "dn20:6.14",
+        "dn20:6.15",
+        "dn20:6.16"
+      ],
+      "summary": "Bậc Có Mắt biết rõ và phân định tất cả, lại bảo đệ tử vui với giáo pháp nhận biết thiên đã đến; ngài sẽ kể bằng kệ theo thứ tự."
+    },
+    {
+      "id": "yakkhas",
+      "title": "Mười sáu ngàn Dạ-xoa",
+      "segments": [
+        "dn20:7.1",
+        "dn20:7.2",
+        "dn20:7.3",
+        "dn20:7.4",
+        "dn20:7.5",
+        "dn20:7.6",
+        "dn20:7.7",
+        "dn20:7.8",
+        "dn20:7.9",
+        "dn20:7.10",
+        "dn20:7.11",
+        "dn20:7.12",
+        "dn20:7.13",
+        "dn20:7.14",
+        "dn20:7.15",
+        "dn20:7.16",
+        "dn20:7.17",
+        "dn20:7.18",
+        "dn20:7.19",
+        "dn20:7.20",
+        "dn20:7.21",
+        "dn20:7.22",
+        "dn20:7.23",
+        "dn20:7.24"
+      ],
+      "summary": "7.000 Dạ-xoa địa thần Kapilavatthu, 6.000 từ Himavanta nhiều sắc, 3.000 từ Sātāgiri nhiều sắc, tổng 16.000. Từng nhóm và lời tổng đều có thần lực, hào quang, sắc đẹp, danh tiếng, vui tới hội tỳ-kheo trong rừng."
+    },
+    {
+      "id": "vessamitta",
+      "title": "Năm trăm Vessāmitta",
+      "segments": [
+        "dn20:8.1",
+        "dn20:8.2",
+        "dn20:8.3",
+        "dn20:8.4",
+        "dn20:8.5",
+        "dn20:8.6"
+      ],
+      "summary": "500 Dạ-xoa Vessāmitta nhiều sắc, có thần lực, hào quang, sắc đẹp, danh tiếng, vui đến hội tỳ-kheo trong rừng; đây là nhóm tiếp sau tổng 16.000."
+    },
+    {
+      "id": "kumbhira",
+      "title": "Kumbhīra và đoàn hầu",
+      "segments": [
+        "dn20:8.7",
+        "dn20:8.8",
+        "dn20:8.9",
+        "dn20:8.10",
+        "dn20:8.11",
+        "dn20:8.12"
+      ],
+      "summary": "Kumbhīra thuộc Rājagaha, trú núi Vepulla, có hơn 100.000 Dạ-xoa hầu quanh, cũng đến hội trong rừng."
+    },
+    {
+      "id": "east",
+      "title": "Đại vương phương đông",
+      "segments": [
+        "dn20:9.1",
+        "dn20:9.2",
+        "dn20:9.3",
+        "dn20:9.4",
+        "dn20:9.5",
+        "dn20:9.6",
+        "dn20:9.7",
+        "dn20:9.8",
+        "dn20:9.9",
+        "dn20:9.10"
+      ],
+      "summary": "Dhataraṭṭha cai quản đông, chúa gandhabba, đại vương danh tiếng. Nhiều con trai tên Inda đầy đại lực, thần lực, hào quang, sắc đẹp, danh tiếng, vui tới hội tỳ-kheo trong rừng."
+    },
+    {
+      "id": "south",
+      "title": "Đại vương phương nam",
+      "segments": [
+        "dn20:9.11",
+        "dn20:9.12",
+        "dn20:9.13",
+        "dn20:9.14",
+        "dn20:9.15",
+        "dn20:9.16",
+        "dn20:9.17",
+        "dn20:9.18",
+        "dn20:9.19",
+        "dn20:9.20"
+      ],
+      "summary": "Virūḷha cai quản nam, chúa kumbhaṇḍa, đại vương danh tiếng. Nhiều con trai tên Inda đầy đại lực, thần lực, hào quang, sắc đẹp, danh tiếng, vui tới hội tỳ-kheo trong rừng."
+    },
+    {
+      "id": "west",
+      "title": "Đại vương phương tây",
+      "segments": [
+        "dn20:9.21",
+        "dn20:9.22",
+        "dn20:9.23",
+        "dn20:9.24",
+        "dn20:9.25",
+        "dn20:9.26",
+        "dn20:9.27",
+        "dn20:9.28",
+        "dn20:9.29",
+        "dn20:9.30"
+      ],
+      "summary": "Virūpakkha cai quản tây, chúa nāga, đại vương danh tiếng. Nhiều con trai tên Inda đầy đại lực, thần lực, hào quang, sắc đẹp, danh tiếng, vui tới hội tỳ-kheo trong rừng."
+    },
+    {
+      "id": "north",
+      "title": "Đại vương phương bắc",
+      "segments": [
+        "dn20:9.31",
+        "dn20:9.32",
+        "dn20:9.33",
+        "dn20:9.34",
+        "dn20:9.35",
+        "dn20:9.36",
+        "dn20:9.37",
+        "dn20:9.38",
+        "dn20:9.39",
+        "dn20:9.40"
+      ],
+      "summary": "Kuvera cai quản bắc, chúa yakkha, đại vương danh tiếng. Nhiều con trai tên Inda đầy đại lực, thần lực, hào quang, sắc đẹp, danh tiếng, vui tới hội tỳ-kheo trong rừng."
+    },
+    {
+      "id": "four-kings",
+      "title": "Bốn vị cùng đứng rực sáng",
+      "segments": [
+        "dn20:9.41",
+        "dn20:9.42",
+        "dn20:9.43",
+        "dn20:9.44",
+        "dn20:9.45",
+        "dn20:9.46",
+        "dn20:9.47",
+        "dn20:9.48"
+      ],
+      "summary": "Nhắc Dhataraṭṭha đông, Virūḷhaka nam, Virūpakkha tây, Kuvera bắc. Bốn đại vương ở khắp bốn phía, đứng rực sáng trong rừng Kapilavatthu. Virūḷha/Virūḷhaka là hai dạng tên vị phương nam trong chính đoạn."
+    },
+    {
+      "id": "retainers",
+      "title": "Thuộc hạ và người đánh xe",
+      "segments": [
+        "dn20:10.1",
+        "dn20:10.2",
+        "dn20:10.3",
+        "dn20:10.4",
+        "dn20:10.5",
+        "dn20:10.6",
+        "dn20:10.7",
+        "dn20:10.8"
+      ],
+      "summary": "Các thuộc hạ huyễn thuật, lừa lọc xảo trá đến: Māyā, Kuṭeṇḍu, Viṭeṇḍu, Viṭucca, Viṭuṭa; Candana, Kāmaseṭṭha, Kinnighaṇḍu, Nighaṇḍu; Panāda, Opamañña và Mātali người đánh xe thiên. Māyā cũng có thể là tính từ kẻ lừa dối bổ nghĩa tên sau."
+    },
+    {
+      "id": "gandhabbas",
+      "title": "Các vị gandhabba và vua",
+      "segments": [
+        "dn20:10.9",
+        "dn20:10.10",
+        "dn20:10.11",
+        "dn20:10.12",
+        "dn20:10.13",
+        "dn20:10.14",
+        "dn20:10.15",
+        "dn20:10.16"
+      ],
+      "summary": "Cittasena là gandhabba, vua Naḷa, Janesabha, Pañcasikha, Timbarū, Sūriyavacchasā đến. Các vị ấy, những vua khác và các gandhabba cùng chư vương đều vui tới hội tỳ-kheo trong rừng."
+    },
+    {
+      "id": "nagas",
+      "title": "Các đoàn Nāga",
+      "segments": [
+        "dn20:11.1",
+        "dn20:11.2",
+        "dn20:11.3",
+        "dn20:11.4",
+        "dn20:11.5",
+        "dn20:11.6",
+        "dn20:11.7",
+        "dn20:11.8"
+      ],
+      "summary": "Nāga từ Nāgasā, Vesālī cùng Tacchaka; Kambala, Assatara, Pāyāga với quyến thuộc; Yāmunā/Yamunā, Dhataraṭṭha danh tiếng; Đại Nāga Erāvaṇa cùng đến hội rừng. Giữ dạng Nāgasā của Pāli, không tự thay hồ Nābhasa hay đổi Tacchaka thành Takkasilā."
+    },
+    {
+      "id": "birds",
+      "title": "Nāga được an toàn trước thiên điểu",
+      "segments": [
+        "dn20:11.9",
+        "dn20:11.10",
+        "dn20:11.11",
+        "dn20:11.12",
+        "dn20:11.13",
+        "dn20:11.14",
+        "dn20:11.15",
+        "dn20:11.16"
+      ],
+      "summary": "Các thiên điểu hai lần sinh, có cánh, mắt thanh tịnh, vốn dùng sức bắt Nāga vương, bay từ trời vào rừng, được gọi Citrā Supaṇṇā. Cụm có thể hai tên Citra/Supaṇṇa hoặc các Supaṇṇa nhiều màu. Phật làm Nāga an toàn trước Supaṇṇa; hai loài dùng lời dịu dàng với nhau, cùng quy y Phật."
+    },
+    {
+      "id": "asuras",
+      "title": "Các A-tu-la đến gặp Rāhu",
+      "segments": [
+        "dn20:12.1",
+        "dn20:12.2",
+        "dn20:12.3",
+        "dn20:12.4",
+        "dn20:12.5",
+        "dn20:12.6",
+        "dn20:12.7",
+        "dn20:12.8",
+        "dn20:12.9",
+        "dn20:12.10",
+        "dn20:12.11",
+        "dn20:12.12",
+        "dn20:12.13",
+        "dn20:12.14"
+      ],
+      "summary": "A-tu-la bị vị Cầm Kim Cang thắng nên ở biển, anh em Vāsava, có thần lực danh tiếng. Kālakañca kinh sợ, Dānaveghasā (Anh tách Dānava/Ghasa), Vepacitti, Sucitti, Pahārāda, Namuci; 100 con Bali tên Verocana sửa soạn quân Bali rồi đến Rāhu nói giờ đã tới lúc dự hội tỳ-kheo trong rừng. Không chuyển lời này thành Rāhu chúc hội an toàn."
+    },
+    {
+      "id": "elements",
+      "title": "Nhóm mười thiên thứ nhất",
+      "segments": [
+        "dn20:13.1",
+        "dn20:13.2",
+        "dn20:13.3",
+        "dn20:13.4",
+        "dn20:13.5",
+        "dn20:13.6",
+        "dn20:13.7",
+        "dn20:13.8",
+        "dn20:13.9",
+        "dn20:13.10",
+        "dn20:13.11",
+        "dn20:13.12"
+      ],
+      "summary": "Thiên nước, đất, lửa, gió; Varuṇa, Vāraṇa, Soma, Yasa; thiên thuộc từ và bi. Kệ gọi mười thiên chúng nhiều sắc, thần lực, hào quang, sắc đẹp, danh tiếng, vui đến hội tỳ-kheo trong rừng."
+    },
+    {
+      "id": "luminaries",
+      "title": "Nhóm mười thiên thứ hai",
+      "segments": [
+        "dn20:14.1",
+        "dn20:14.2",
+        "dn20:14.3",
+        "dn20:14.4",
+        "dn20:14.5",
+        "dn20:14.6",
+        "dn20:14.7",
+        "dn20:14.8",
+        "dn20:14.9",
+        "dn20:14.10",
+        "dn20:14.11",
+        "dn20:14.12",
+        "dn20:14.13",
+        "dn20:14.14",
+        "dn20:14.15",
+        "dn20:14.16"
+      ],
+      "summary": "Veṇḍu, Sahali, Asamā và đôi Yamā; thiên nương mặt trăng với mặt trăng dẫn đầu, thiên nương mặt trời với mặt trời dẫn đầu, Mandavalāhaka theo các tinh tú; Vāsava đứng đầu Vasu, cũng gọi Sakka/Purindada. Kệ gọi mười thiên chúng và nhắc đầy đủ điệp khúc nhiều sắc, thần lực, hào quang, sắc đẹp, danh tiếng, vui đến hội. Asamā/Yamā có dị giải đôi song sinh vô song, không đồng nhất Yamā với Yāma sau."
+    },
+    {
+      "id": "flame",
+      "title": "Nhóm mười thiên thứ ba",
+      "segments": [
+        "dn20:15.1",
+        "dn20:15.2",
+        "dn20:15.3",
+        "dn20:15.4",
+        "dn20:15.5",
+        "dn20:15.6",
+        "dn20:15.7",
+        "dn20:15.8",
+        "dn20:15.9",
+        "dn20:15.10",
+        "dn20:15.11",
+        "dn20:15.12",
+        "dn20:15.13",
+        "dn20:15.14"
+      ],
+      "summary": "Sahabhū như ngọn lửa; Ariṭṭhaka, Roja sáng như hoa umā; Varuṇa, Sahadhamma, Accuta, Anejaka, Sūleyya, Rucira, Vāsavanesi. Mười thiên chúng đa sắc, thần lực, hào quang, sắc đẹp, danh tiếng, vui tới hội tỳ-kheo trong rừng. Không tạo tên trời mới từ ví hoa."
+    },
+    {
+      "id": "samana-groups",
+      "title": "Nhóm mười thiên thứ tư",
+      "segments": [
+        "dn20:16.1",
+        "dn20:16.2",
+        "dn20:16.3",
+        "dn20:16.4",
+        "dn20:16.5",
+        "dn20:16.6",
+        "dn20:16.7",
+        "dn20:16.8",
+        "dn20:16.9",
+        "dn20:16.10",
+        "dn20:16.11",
+        "dn20:16.12",
+        "dn20:16.13",
+        "dn20:16.14"
+      ],
+      "summary": "Samāna, Mahāsamana, Mānusa, Mānusuttama, Khiḍḍāpadosika, Manopadosika, Haraya, Lohitavāsī, Pāraga, Mahāpāraga. Các thiên danh tiếng; mười chúng nhiều sắc, thần lực, sáng, đẹp, danh, vui tới hội tỳ-kheo trong rừng. Giữ tên Pāli, không áp thành Mercury/Mars."
+    },
+    {
+      "id": "rain",
+      "title": "Nhóm mười thiên thứ năm",
+      "segments": [
+        "dn20:17.1",
+        "dn20:17.2",
+        "dn20:17.3",
+        "dn20:17.4",
+        "dn20:17.5",
+        "dn20:17.6",
+        "dn20:17.7",
+        "dn20:17.8",
+        "dn20:17.9",
+        "dn20:17.10",
+        "dn20:17.11",
+        "dn20:17.12",
+        "dn20:17.13",
+        "dn20:17.14"
+      ],
+      "summary": "Sukka, Karambha, Aruṇa, Veghanasa; Odātagayha dẫn đầu, các thiên Vicakkhaṇa (cũng có cách đọc tính từ sáng suốt); Sadāmatta, Hāragaja, Missaka danh tiếng; Pajjunna đến sấm vang, mưa khắp phương. Mười chúng nhiều sắc, thần lực, sáng, đẹp, danh, vui tới hội. Không đồng nhất các tên với hành tinh theo diễn giải Anh."
+    },
+    {
+      "id": "heavens",
+      "title": "Nhóm mười thiên thứ sáu",
+      "segments": [
+        "dn20:18.1",
+        "dn20:18.2",
+        "dn20:18.3",
+        "dn20:18.4",
+        "dn20:18.5",
+        "dn20:18.6",
+        "dn20:18.7",
+        "dn20:18.8",
+        "dn20:18.9",
+        "dn20:18.10",
+        "dn20:18.11",
+        "dn20:18.12"
+      ],
+      "summary": "Khemiya, Tusita, Yāma, Kaṭṭhaka danh tiếng, Lambītaka, Lāmaseṭṭha, Jotināma, Āsava, Nimmānarati/Hóa Lạc rồi Paranimmitā/Tha Hóa Tự Tại. Mười chúng nhiều sắc, thần lực, sáng, đẹp, danh, vui đến hội tỳ-kheo trong rừng. Giữ đúng thứ tự hai nhóm cuối, khác HTML đảo."
+    },
+    {
+      "id": "sixty",
+      "title": "Sáu mươi nhóm cùng hướng về một bậc",
+      "segments": [
+        "dn20:19.1",
+        "dn20:19.2",
+        "dn20:19.3",
+        "dn20:19.4",
+        "dn20:19.5",
+        "dn20:19.6",
+        "dn20:19.7",
+        "dn20:19.8"
+      ],
+      "summary": "Sáu mươi thiên chúng đa sắc đến theo tên, cùng nhiều vị tương tự khác. Họ muốn thấy bậc đã dứt sinh, không chướng ngại, vượt lũ, vô lậu, Long Tượng vượt dòng như trăng qua tối. Tân ngữ Pāli số ít hướng về Phật, không đổi thành nhiều đệ tử như cách dịch Anh."
+    },
+    {
+      "id": "brahmas",
+      "title": "Các Phạm thiên được nêu tên",
+      "segments": [
+        "dn20:20.1",
+        "dn20:20.2",
+        "dn20:20.3",
+        "dn20:20.4"
+      ],
+      "summary": "Subrahmā, Paramatta cùng các con của bậc có thần lực; Sanaṅkumāra và Tissa cũng đến hội trong rừng. Không tự xác định cha của từng vị con ngoài câu kệ."
+    },
+    {
+      "id": "great-brahma",
+      "title": "Đại Phạm, mười chúa tể và Hārita",
+      "segments": [
+        "dn20:20.5",
+        "dn20:20.6",
+        "dn20:20.7",
+        "dn20:20.8",
+        "dn20:20.9",
+        "dn20:20.10",
+        "dn20:20.11",
+        "dn20:20.12"
+      ],
+      "summary": "Đại Phạm đứng đầu ngàn Phạm giới, sinh đến đầy hào quang, thân uy nghi và danh tiếng. Mười chúa tể đến, mỗi vị có quyền riêng; giữa họ Hārita cùng tùy tùng đến. Không đổi quyền từng vị thành toàn năng tuyệt đối."
+    },
+    {
+      "id": "mara",
+      "title": "Māra sai quân bao vây",
+      "segments": [
+        "dn20:21.1",
+        "dn20:21.2",
+        "dn20:21.3",
+        "dn20:21.4",
+        "dn20:21.5",
+        "dn20:21.6",
+        "dn20:21.7",
+        "dn20:21.8",
+        "dn20:21.9",
+        "dn20:21.10",
+        "dn20:21.11",
+        "dn20:21.12",
+        "dn20:21.13",
+        "dn20:21.14",
+        "dn20:21.15",
+        "dn20:21.16"
+      ],
+      "summary": "Khi các thiên cùng Inda và Phạm thiên đã đến, Ma quân tiến vào; kệ gọi sự ngu si của Kẻ Đen Tối. Māra bảo bắt trói bằng tham, bao vây không để ai thoát; sai quân, vỗ tay xuống đất tiếng kinh khiếp như mây mùa mưa sấm chớp. Rồi quay lui giận, không tự chủ; mệnh lệnh không chứng minh A-la-hán còn tham."
+    },
+    {
+      "id": "warning",
+      "title": "Phật nhận biết và Tăng tinh cần",
+      "segments": [
+        "dn20:22.1",
+        "dn20:22.2",
+        "dn20:22.3",
+        "dn20:22.4",
+        "dn20:22.5",
+        "dn20:22.6",
+        "dn20:22.7",
+        "dn20:22.8",
+        "dn20:22.9",
+        "dn20:22.10"
+      ],
+      "summary": "Phật biết rõ, phân định, gọi đệ tử thích giáo pháp: Ma quân đến, hãy nhận biết. Các vị nghe khởi tinh cần; quân rời các vị ly tham, không một sợi lông của họ lay động."
+    },
+    {
+      "id": "victory",
+      "title": "Những đệ tử thắng trận và hoan hỷ",
+      "segments": [
+        "dn20:22.11",
+        "dn20:22.12",
+        "dn20:22.13",
+        "dn20:22.14"
+      ],
+      "summary": "Các đệ tử đều thắng trận, vượt sợ, danh tiếng, hoan hỷ cùng các chúng sinh, được người đời biết đến. Giữ cả danh tiếng và vui cùng chúng sinh, không theo chữ vô xưng của HTML."
+    },
+    {
+      "id": "ending",
+      "title": "Lời kết thứ bảy",
+      "segments": [
+        "dn20:22.15"
+      ],
+      "summary": "Kinh Đại Hội kết thúc, bài thứ bảy trong phẩm; mã toàn Trường Bộ vẫn DN20. Ô Anh trống không phải bỏ lời kết Pāli."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Đại hội trong rừng và những người không còn bị tham trói",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "c01",
+          "kind": "teaching",
+          "heading": "Một đại hội trong rừng",
+          "meaningUnits": [
+            "title",
+            "assembly"
+          ],
+          "paragraphs": [
+            "Kinh Đại Hội, bài 20 của Trường Bộ, bắt đầu bằng lời “Tôi được nghe như vầy”. Phật ở Đại Lâm gần Kapilavatthu, giữa dân Sakya, cùng khoảng 500 tỳ-kheo. Tất cả các vị đều đã là A-la-hán, những người đã hoàn thành việc giải thoát.",
+            "Phần lớn chư thiên từ mười thế giới đến gặp Phật và Tăng. “Thế giới” ở đây thuộc cách kinh kể về vũ trụ; em không cần đổi nó thành mười hành tinh hay mười hướng. Danh sách người đến rất dài, nên có thể đọc từng nhóm."
+          ]
+        },
+        {
+          "id": "c02",
+          "kind": "teaching",
+          "heading": "Bốn vị thiên muốn nói bốn bài kệ",
+          "meaningUnits": [
+            "pure-abodes"
+          ],
+          "paragraphs": [
+            "Bốn vị thiên ở Tịnh Cư biết Phật đang cùng khoảng 500 A-la-hán trong rừng và các thiên từ mười thế giới đang tụ hội. Họ nghĩ mình cũng nên đến, mỗi vị nói một bài kệ trước Phật.",
+            "Nhanh như người khỏe co hoặc duỗi cánh tay, họ biến mất ở Tịnh Cư rồi hiện trước Phật, đảnh lễ và đứng một bên. Từng vị lần lượt cất lời."
+          ]
+        },
+        {
+          "id": "c03",
+          "kind": "teaching",
+          "heading": "Bài kệ thứ nhất: đến thấy Tăng",
+          "meaningUnits": [
+            "verse-meeting"
+          ],
+          "paragraphs": [
+            "Vị thiên đầu nói đây là đại hội trong rừng, các thiên chúng đã cùng đến. Họ đến pháp hội để thấy Tăng chúng bất bại, nghĩa là đoàn thể không bị đánh bại được nhắc trong bài."
+          ]
+        },
+        {
+          "id": "c04",
+          "kind": "teaching",
+          "heading": "Bài kệ thứ hai: giữ tâm như giữ cương",
+          "meaningUnits": [
+            "verse-senses"
+          ],
+          "paragraphs": [
+            "Vị thứ hai nói các tỳ-kheo đã định tâm, làm tâm ngay thẳng. Bậc trí giữ các căn như người đánh xe nắm dây cương. Hình ảnh ấy giúp em nghĩ tới việc biết giữ mình khi mắt thấy, tai nghe và các giác quan gặp cảnh, để tâm không chạy theo tùy tiện."
+          ]
+        },
+        {
+          "id": "c05",
+          "kind": "teaching",
+          "heading": "Bài kệ thứ ba: những chướng ngại đã được phá",
+          "meaningUnits": [
+            "verse-freed"
+          ],
+          "paragraphs": [
+            "Vị thứ ba kể việc chặt cọc, phá then, nhổ trụ Inda. Các vị không dao động, sống thanh tịnh, không dơ nhiễm; được Bậc Có Mắt, tức Phật, khéo điều phục như những long tượng.",
+            "“Long tượng” là hình ảnh bậc lớn được thuần luyện; có bản dịch từ cổ ấy thành những bậc khổng lồ trẻ. Cọc, then và trụ gợi chướng ngại đã bị phá. Bài không tự nói mỗi vật ấy nhất định là một điều xấu riêng nào."
+          ]
+        },
+        {
+          "id": "c06",
+          "kind": "teaching",
+          "heading": "Bài kệ thứ tư: quy y và đời sau",
+          "meaningUnits": [
+            "verse-refuge"
+          ],
+          "paragraphs": [
+            "Vị thiên thứ tư nói những ai quy y Phật sẽ không đi vào cảnh giới đọa lạc. Sau khi bỏ thân người, họ làm đầy các thiên chúng. Quy y là tìm chỗ nương nơi Phật. Câu kệ này nói cả kết quả đời sau; nó không trình bày thêm một danh sách chi tiết về việc tu học."
+          ]
+        },
+        {
+          "id": "c07",
+          "kind": "teaching",
+          "heading": "Phật sẽ gọi tên các đoàn",
+          "meaningUnits": [
+            "declaration"
+          ],
+          "paragraphs": [
+            "Phật bảo các tỳ-kheo: phần lớn thiên trong mười thế giới đã đến thấy Như Lai và Tăng. Với chư Phật quá khứ và tương lai, cuộc tụ hội chư thiên nhiều nhất cũng chỉ ngang cuộc này.",
+            "Ngài nói mình sẽ nói tên, kể tên và trình bày tên các thiên chúng. Ngài bảo lắng nghe, chú ý cho kỹ. Các tỳ-kheo thưa vâng, rồi nghe kệ."
+          ]
+        },
+        {
+          "id": "c08",
+          "kind": "teaching",
+          "heading": "Các vị tu trong rừng",
+          "meaningUnits": [
+            "forest-verse"
+          ],
+          "paragraphs": [
+            "Kệ mở cảnh địa thần nương trú và những vị tu quyết tâm, định tĩnh ở hang núi. Các vị ở yên như nhiều sư tử, đã vượt nỗi sợ dựng tóc gáy. Tâm họ sáng sạch, trong rõ, không vẩn đục.",
+            "Ở đây lời ca ngợi là đã vượt sợ hãi. Hình ảnh sư tử không bảo các vị đi làm loài khác hoảng sợ."
+          ]
+        },
+        {
+          "id": "c09",
+          "kind": "teaching",
+          "heading": "Nhận biết những vị đang đến",
+          "meaningUnits": [
+            "first-instruction",
+            "vision",
+            "discernment"
+          ],
+          "paragraphs": [
+            "Kệ nói Phật biết hơn 500 vị trong rừng Kapilavatthu; văn xuôi mở bài đã nói khoảng 500. Ngài gọi những đệ tử yêu thích giáo pháp: các thiên chúng đã đến, hãy nhận biết. Nghe lời, các vị khởi sự tinh cần.",
+            "Tri kiến thấy các loài phi nhân hiện nơi họ. Có vị thấy 100, có vị thấy 1.000, rồi 70.000; có vị thấy 100.000; có vị thấy vô số, đầy khắp mọi phương. Các mức nhìn thấy khác nhau được kể đủ.",
+            "Phật, Bậc Có Mắt, biết rõ và phân biệt tất cả. Ngài lại nhắc nhận biết chư thiên, rồi sẽ kể bằng kệ theo thứ tự."
+          ]
+        },
+        {
+          "id": "c10",
+          "kind": "teaching",
+          "heading": "Ba đoàn Dạ-xoa, tổng là 16.000",
+          "meaningUnits": [
+            "yakkhas"
+          ],
+          "paragraphs": [
+            "Trước hết có 7.000 Dạ-xoa là địa thần Kapilavatthu; 6.000 Dạ-xoa từ Himavanta; 3.000 từ Sātāgiri. Hai đoàn sau được nói có nhiều sắc tướng. Kệ cộng lại thành 16.000 Dạ-xoa nhiều sắc.",
+            "Với mỗi đoàn và cả lời tổng, kệ đều nói họ có thần lực, hào quang, sắc đẹp, danh tiếng và vui đến hội tỳ-kheo trong rừng. Dạ-xoa là một loại phi nhân trong thế giới của kinh."
+          ]
+        },
+        {
+          "id": "c11",
+          "kind": "teaching",
+          "heading": "Vessāmitta và Kumbhīra",
+          "meaningUnits": [
+            "vessamitta",
+            "kumbhira"
+          ],
+          "paragraphs": [
+            "Tiếp đó là 500 Dạ-xoa Vessāmitta nhiều sắc, có thần lực, hào quang, sắc đẹp, danh tiếng, vui tới hội. Đây là đoàn tiếp theo sau tổng 16.000 vừa kể.",
+            "Kumbhīra ở Rājagaha, có chỗ ở trên núi Vepulla, cũng đến. Vị ấy có hơn 100.000 Dạ-xoa hầu quanh."
+          ]
+        },
+        {
+          "id": "c12",
+          "kind": "teaching",
+          "heading": "Hai vị vua ở đông và nam",
+          "meaningUnits": [
+            "east",
+            "south"
+          ],
+          "paragraphs": [
+            "Dhataraṭṭha cai quản phương đông, đứng đầu gandhabba, thường gọi Càn-thát-bà. Virūḷha cai quản phương nam, đứng đầu kumbhaṇḍa, thường gọi Cưu-bàn-trà. Cả hai là đại vương danh tiếng.",
+            "Mỗi vị có nhiều con trai đều mang tên Inda, sức lực lớn. Các người con có thần lực, hào quang, sắc đẹp, danh tiếng, cùng vui đến hội tỳ-kheo trong rừng."
+          ]
+        },
+        {
+          "id": "c13",
+          "kind": "teaching",
+          "heading": "Hai vị vua ở tây và bắc",
+          "meaningUnits": [
+            "west",
+            "north"
+          ],
+          "paragraphs": [
+            "Virūpakkha cai quản phương tây, đứng đầu các Nāga, thường gọi loài rồng trong lời dịch Việt. Kuvera cai quản phương bắc, đứng đầu Dạ-xoa. Cả hai cũng là đại vương danh tiếng.",
+            "Mỗi vị có nhiều con trai tên Inda, đầy đại lực, thần lực, hào quang, sắc đẹp và danh tiếng. Các người con hoan hỷ đến hội tỳ-kheo trong rừng."
+          ]
+        },
+        {
+          "id": "c14",
+          "kind": "teaching",
+          "heading": "Bốn vị đứng sáng ở bốn phương",
+          "meaningUnits": [
+            "four-kings"
+          ],
+          "paragraphs": [
+            "Kệ nhắc lại Dhataraṭṭha ở đông, Virūḷhaka ở nam, Virūpakkha ở tây và Kuvera ở bắc. Virūḷhaka là dạng tên được dùng ở lần nhắc lại của Virūḷha. Bốn Đại Thiên Vương đứng rực sáng khắp bốn phía trong rừng Kapilavatthu."
+          ]
+        },
+        {
+          "id": "c15",
+          "kind": "teaching",
+          "heading": "Các thuộc hạ cũng tới",
+          "meaningUnits": [
+            "retainers"
+          ],
+          "paragraphs": [
+            "Thuộc hạ của các vị vua được kể có người giỏi huyễn thuật, lừa lọc và xảo trá. Tên trong đoạn gồm Māyā, Kuṭeṇḍu, Viṭeṇḍu, Viṭucca, Viṭuṭa; rồi Candana, Kāmaseṭṭha, Kinnighaṇḍu, Nighaṇḍu; Panāda, Opamañña và Mātali, người đánh xe của chư thiên.",
+            "Có mặt tại hội không khiến các lời mô tả khác nhau ấy biến thành giống hệt nhau. Chỗ Māyā còn có cách đọc là “những kẻ lừa dối”, được nói rõ ở phần giải tên sau."
+          ]
+        },
+        {
+          "id": "c16",
+          "kind": "teaching",
+          "heading": "Càn-thát-bà cùng các vị vua",
+          "meaningUnits": [
+            "gandhabbas"
+          ],
+          "paragraphs": [
+            "Cittasena là một Càn-thát-bà; vua Naḷa và Janesabha cũng được nêu. Pañcasikha, Timbarū và Sūriyavacchasā cùng đến. Những vị này, các vua khác và các Càn-thát-bà cùng chư vương đều vui tới hội tỳ-kheo trong rừng."
+          ]
+        },
+        {
+          "id": "c17",
+          "kind": "teaching",
+          "heading": "Các đoàn Nāga",
+          "meaningUnits": [
+            "nagas"
+          ],
+          "paragraphs": [
+            "Kệ kể Nāga từ Nāgasā, các vị từ Vesālī cùng Tacchaka; Kambala, Assatara; đoàn Pāyāga cùng quyến thuộc; các vị Yāmunā từ Yamunā và Dhataraṭṭha danh tiếng. Đại Nāga Erāvaṇa cũng đến hội trong rừng.",
+            "Em có thể theo từng đoàn thay vì cố nhớ hết tên ngay. Dhataraṭṭha ở danh sách Nāga được giữ tại đây như kinh nêu; bài chưa bảo em gộp mọi người trùng tên làm một."
+          ]
+        },
+        {
+          "id": "c18",
+          "kind": "teaching",
+          "heading": "Hai loài nói với nhau dịu dàng",
+          "meaningUnits": [
+            "birds"
+          ],
+          "paragraphs": [
+            "Từ không trung bay vào rừng là những thiên điểu hai lần sinh, có cánh, mắt thanh tịnh, vốn dùng sức bắt các Nāga vương. Cụm gọi tên trong kệ là Citrā Supaṇṇā. Supaṇṇa thường được gọi Kim Sí Điểu; cách chia tên trong cụm còn khác nhau.",
+            "Lúc ấy Phật làm cho các Nāga an toàn trước Supaṇṇa, nên các Nāga vương không sợ. Hai loài gọi nhau bằng lời dịu dàng, cùng quy y Phật. Cảnh này có cả việc bảo đảm an toàn và sự thay đổi trong cách đối xử."
+          ]
+        },
+        {
+          "id": "c19",
+          "kind": "teaching",
+          "heading": "Các A-tu-la và lời thưa với Rāhu",
+          "meaningUnits": [
+            "asuras"
+          ],
+          "paragraphs": [
+            "A-tu-la đã bị vị Cầm Kim Cang, Vajirahattha, đánh bại nên nương ở biển. Họ là anh em của Vāsava, có thần lực và danh tiếng. Những tên được kể là Kālakañca đáng sợ, Dānaveghasā, Vepacitti, Sucitti, Pahārāda và Namuci.",
+            "Một trăm người con của Bali đều tên Verocana sửa soạn quân của Bali rồi đến Rāhu, thưa rằng giờ đã tới lúc dự hội tỳ-kheo trong rừng. Đây là lời họ nói với Rāhu."
+          ]
+        },
+        {
+          "id": "c20",
+          "kind": "teaching",
+          "heading": "Nhóm mười thứ nhất: nước, đất và các thiên khác",
+          "meaningUnits": [
+            "elements"
+          ],
+          "paragraphs": [
+            "Các thiên thuộc nước, đất, lửa, gió đến; cùng Varuṇa, Vāraṇa, Soma, Yasa và các thiên chúng thuộc từ, bi, tức lòng thương và lòng muốn giúp chúng sinh thoát khổ.",
+            "Kệ gọi đây là mười thiên chúng. Họ nhiều sắc tướng, có thần lực, hào quang, sắc đẹp, danh tiếng và hoan hỷ tới hội tỳ-kheo trong rừng. Sáu đoạn liền nhau, bắt đầu tại đây, đều kết bằng lời ca ngợi ấy."
+          ]
+        },
+        {
+          "id": "c21",
+          "kind": "teaching",
+          "heading": "Nhóm mười thứ hai: mặt trăng, mặt trời và tinh tú",
+          "meaningUnits": [
+            "luminaries"
+          ],
+          "paragraphs": [
+            "Đoạn tiếp gọi Veṇḍu, Sahali, Asamā và đôi Yamā. Thiên nương mặt trăng đi với mặt trăng dẫn đầu; thiên nương mặt trời đi với mặt trời dẫn đầu. Các tinh tú đi trước đoàn Mandavalāhaka.",
+            "Vāsava đứng đầu các Vasu cũng đến; vị ấy còn được gọi Sakka, Purindada. Kệ gọi những đoàn trong đoạn là mười thiên chúng, rồi nhắc đủ nhiều sắc, thần lực, hào quang, sắc đẹp, danh tiếng và niềm vui đến hội trong rừng."
+          ]
+        },
+        {
+          "id": "c22",
+          "kind": "teaching",
+          "heading": "Nhóm mười thứ ba: sáng như lửa và hoa",
+          "meaningUnits": [
+            "flame"
+          ],
+          "paragraphs": [
+            "Sahabhū đến, sáng rực như ngọn lửa. Có Ariṭṭhaka và Roja sáng như hoa umā; Varuṇa, Sahadhamma, Accuta, Anejaka; Sūleyya, Rucira và Vāsavanesi.",
+            "Mười thiên chúng này có nhiều sắc, thần lực, hào quang, sắc đẹp, danh tiếng, hoan hỷ tới hội tỳ-kheo trong rừng. Lửa và hoa là những hình ảnh trong lời kệ miêu tả ánh sắc."
+          ]
+        },
+        {
+          "id": "c23",
+          "kind": "teaching",
+          "heading": "Nhóm mười thứ tư",
+          "meaningUnits": [
+            "samana-groups"
+          ],
+          "paragraphs": [
+            "Các tên tiếp là Samāna, Mahāsamana, Mānusa, Mānusuttama; Khiḍḍāpadosika, Manopadosika; Haraya, Lohitavāsī; Pāraga và Mahāpāraga.",
+            "Đó là mười thiên chúng danh tiếng, nhiều sắc, có thần lực, hào quang, sắc đẹp, vui đến hội tỳ-kheo trong rừng. Các tên được giữ theo lời kinh; bài không đổi họ thành các hành tinh hiện đại."
+          ]
+        },
+        {
+          "id": "c24",
+          "kind": "teaching",
+          "heading": "Nhóm mười thứ năm và vị làm mưa",
+          "meaningUnits": [
+            "rain"
+          ],
+          "paragraphs": [
+            "Sukka, Karambha, Aruṇa, Veghanasa đến. Odātagayha dẫn đầu; các thiên được gọi Vicakkhaṇa cũng đến. Rồi Sadāmatta, Hāragaja, Missaka danh tiếng. Pajjunna đến trong tiếng sấm và làm mưa khắp mọi phương.",
+            "Mười thiên chúng ấy nhiều sắc, có thần lực, hào quang, sắc đẹp, danh tiếng, hoan hỷ tới hội tỳ-kheo trong rừng. Chữ Vicakkhaṇa còn có cách hiểu là lời tả sự sáng suốt."
+          ]
+        },
+        {
+          "id": "c25",
+          "kind": "teaching",
+          "heading": "Nhóm mười thứ sáu",
+          "meaningUnits": [
+            "heavens"
+          ],
+          "paragraphs": [
+            "Khemiya, Tusita, Yāma và Kaṭṭhaka danh tiếng; Lambītaka, Lāmaseṭṭha, Jotināma và Āsava cùng đến. Tiếp là Nimmānarati, thường dịch Hóa Lạc, rồi Paranimmitā, thường dịch Tha Hóa Tự Tại.",
+            "Kệ gọi đây là mười thiên chúng nhiều sắc, có thần lực, hào quang, sắc đẹp, danh tiếng, cùng vui tới hội tỳ-kheo trong rừng. Thứ tự hai đoàn cuối được giữ là Hóa Lạc trước, Tha Hóa Tự Tại sau."
+          ]
+        },
+        {
+          "id": "c26",
+          "kind": "teaching",
+          "heading": "Sáu mươi nhóm muốn thấy ai?",
+          "meaningUnits": [
+            "sixty"
+          ],
+          "paragraphs": [
+            "Sáu đoạn mỗi đoạn gọi mười thiên chúng được tổng lại thành 60 nhóm nhiều sắc. Họ đến theo tên cùng nhiều vị tương tự khác.",
+            "Lời kệ nói mong thấy một bậc đã hết sinh, không còn chướng ngại, vượt dòng lũ, hết lậu hoặc. Bậc Long Tượng ấy vượt dòng như trăng vượt bóng tối. Ở đây lời hướng tới Phật; “dòng lũ” cũng là hình ảnh về điều đã được vượt qua trên đường giải thoát."
+          ]
+        },
+        {
+          "id": "c27",
+          "kind": "teaching",
+          "heading": "Các Phạm thiên cũng đến",
+          "meaningUnits": [
+            "brahmas",
+            "great-brahma"
+          ],
+          "paragraphs": [
+            "Subrahmā và Paramatta đến cùng các con của bậc có thần lực; Sanaṅkumāra và Tissa cũng tới hội trong rừng. Kệ không kể riêng ai là cha của từng người con.",
+            "Đại Phạm đứng đầu một ngàn Phạm giới, sinh đến đầy hào quang, thân uy nghi, danh tiếng. Mười chúa tể đến, mỗi vị có quyền riêng; giữa họ có Hārita cùng đoàn tùy tùng. Đây là những vị được kinh kể cùng đến hội."
+          ]
+        },
+        {
+          "id": "c28",
+          "kind": "teaching",
+          "heading": "Ma quân tiến đến",
+          "meaningUnits": [
+            "mara"
+          ],
+          "paragraphs": [
+            "Khi các thiên cùng Inda và Phạm thiên đã tới, Ma quân cũng tiến đến. Kệ gọi đó là sự ngu si của Kẻ Đen Tối, một cách gọi Māra. Māra ra lệnh: hãy bắt, trói họ bằng tham, bao vây mọi phía, đừng để ai thoát.",
+            "Māra sai quân, vỗ bàn tay xuống đất, phát tiếng kinh khiếp như mây mùa mưa có sấm chớp. Rồi nó quay lui, giận dữ và mất tự chủ. Lời muốn trói bằng tham là ý của Māra; từ đầu bài, các tỳ-kheo đã được nói là A-la-hán."
+          ]
+        },
+        {
+          "id": "c29",
+          "kind": "teaching",
+          "heading": "Các vị ly tham không bị lay động",
+          "meaningUnits": [
+            "warning",
+            "victory"
+          ],
+          "paragraphs": [
+            "Phật biết rõ và phân định tất cả, bảo đệ tử yêu thích giáo pháp rằng Ma quân đã tới, hãy nhận biết. Các tỳ-kheo nghe thì khởi tinh cần. Ma quân rút khỏi các vị đã lìa tham; ngay một sợi lông của các vị cũng không lay.",
+            "Kệ cuối ca ngợi các đệ tử đã thắng trận, vượt sợ, có danh tiếng, được người đời biết đến và hoan hỷ cùng các chúng sinh. Sự vững vàng của họ được đặt cạnh việc đã lìa tham."
+          ]
+        },
+        {
+          "id": "c30",
+          "kind": "clarification",
+          "heading": "Một vài tên cổ có hơn một cách đọc",
+          "meaningUnits": [
+            "retainers",
+            "birds",
+            "asuras",
+            "luminaries",
+            "rain"
+          ],
+          "paragraphs": [
+            "Phần giải thích thêm về chữ cổ: Māyā có thể là một tên, hoặc chữ tả “những kẻ lừa dối”. Citrā Supaṇṇā có thể được tách thành Citra và Supaṇṇa, hoặc hiểu là những Supaṇṇa nhiều màu. Dānaveghasā được một bản tách thành Dānava và Ghasa.",
+            "Asamā và đôi Yamā cũng được đọc là “đôi song sinh vô song”; Yamā này khác Yāma ở nhóm thứ sáu. Vicakkhaṇa có thể là tên hoặc lời tả các thiên sáng suốt. Vì các nguồn còn khác, bài giữ cách gọi cùng chỗ chưa chắc; em chưa cần tự chọn một lời giải duy nhất."
+          ]
+        },
+        {
+          "id": "c31",
+          "kind": "teaching",
+          "heading": "Lời kết của bài",
+          "meaningUnits": [
+            "ending"
+          ],
+          "paragraphs": [
+            "Dòng cuối nói Kinh Đại Hội kết thúc, bài thứ bảy. Đó là vị trí trong phẩm đang xếp, còn số của bài trong toàn Trường Bộ là 20."
+          ]
+        },
+        {
+          "id": "c32",
+          "kind": "example",
+          "heading": "Ví dụ: giúp cuộc gặp được yên",
+          "meaningUnits": [
+            "birds"
+          ],
+          "paragraphs": [
+            "Ví dụ do người biên soạn thêm: hai nhóm bạn từng tranh giành cùng vào một buổi sinh hoạt. Người hướng dẫn lo để không ai bị bắt nạt, rồi giúp họ nói với nhau nhẹ nhàng. Ví dụ chỉ gợi liên hệ về sự an toàn và lời nói; cảnh Nāga, Supaṇṇa quy y Phật trong kinh vẫn có nội dung riêng."
+          ]
+        },
+        {
+          "id": "c33",
+          "kind": "practice",
+          "heading": "Một việc em có thể tập",
+          "meaningUnits": [
+            "verse-senses",
+            "warning"
+          ],
+          "paragraphs": [
+            "Gợi ý do người biên soạn thêm: khi muốn giành một món đồ hoặc cãi thật to, em thử nhận ra mình đang muốn gì, dừng một chút rồi nói bằng lời rõ và nhẹ. Nếu cần, nhờ người lớn giúp giữ an toàn. Bài tập gợi việc giữ mình và nhận biết điều đang tác động tới tâm.",
+            "Một lần dừng lại chưa làm em thành A-la-hán hoặc thấy chư thiên. Trong bài kinh, sự không lay động cuối cùng thuộc về các vị đã lìa tham."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Đại Hội: các chúng tụ về và sự vững vàng của người ly tham",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "a01",
+          "kind": "teaching",
+          "heading": "Đại hội có trung tâm là Phật và Tăng",
+          "meaningUnits": [
+            "title",
+            "assembly"
+          ],
+          "paragraphs": [
+            "Mahāsamayasutta, Kinh Đại Hội, là Trường Bộ 20. Sau lời truyền “Tôi được nghe như vầy”, kinh đặt Phật tại Đại Lâm gần Kapilavatthu, giữa dân Sakya, cùng khoảng 500 tỳ-kheo đều là A-la-hán. Phần lớn chư thiên từ mười thế giới tới để gặp Phật và Tăng.",
+            "Danh mục dài là phần thực của bài: nhiều cộng đồng trong thế giới quan kinh cùng hướng tới cuộc hội. Lokadhātu được giữ là thế giới, không áp đặt nghĩa thiên văn hệ Mặt Trời hoặc đổi số mười thành mười phương."
+          ]
+        },
+        {
+          "id": "a02",
+          "kind": "teaching",
+          "heading": "Bốn thiên Tịnh Cư chủ động đến",
+          "meaningUnits": [
+            "pure-abodes"
+          ],
+          "paragraphs": [
+            "Bốn vị thiên thuộc Tịnh Cư nghĩ đến Phật, khoảng 500 A-la-hán và cuộc tụ hội chư thiên từ mười thế giới. Họ quyết tới, mỗi người đọc một kệ trước ngài. Nhanh như người khỏe co duỗi tay, họ biến mất Tịnh Cư rồi hiện trước Phật, đảnh lễ, đứng một bên và lần lượt nói. Những câu nhắc lại ở đoạn này vẫn có trong Pāli dù bản Anh để hai ô trống."
+          ]
+        },
+        {
+          "id": "a03",
+          "kind": "teaching",
+          "heading": "Hai kệ đầu: cuộc gặp và tâm được giữ",
+          "meaningUnits": [
+            "verse-meeting",
+            "verse-senses"
+          ],
+          "paragraphs": [
+            "Kệ thứ nhất gọi đây là đại hội trong rừng, các thiên chúng cùng tới pháp hội để thấy Tăng bất bại. Kệ thứ hai hướng vào phẩm chất các tỳ-kheo: định tâm, làm tâm ngay thẳng, hộ trì các căn như người đánh xe nắm cương.",
+            "Như vậy lời ca ngợi cuộc tụ hội đặt cạnh sự điều phục của những người được đến thăm. Hình ảnh giữ cương làm rõ việc hộ trì, không miêu tả việc chạy theo mọi điều giác quan mang tới."
+          ]
+        },
+        {
+          "id": "a04",
+          "kind": "teaching",
+          "heading": "Kệ thứ ba và thứ tư: giải thoát và quy y",
+          "meaningUnits": [
+            "verse-freed",
+            "verse-refuge"
+          ],
+          "paragraphs": [
+            "Vị thiên thứ ba nói các vị đã chặt cọc, phá then, nhổ trụ Inda, không dao động, sống thanh tịnh không cấu nhiễm, được Bậc Có Mắt khéo điều phục như long tượng. Từ susunāgā được bản Anh đọc thành những bậc khổng lồ trẻ, bản Việt dùng hình ảnh voi hoặc long tượng được thuần luyện; giữ giới hạn ấy và không tự gán cọc, then, trụ cho ba phiền não xác định.",
+            "Vị thứ tư nói người quy y Phật không đi cảnh đọa lạc; sau khi bỏ thân người thì làm đầy các thiên chúng. Đây là lời thiên trong bài kệ, có kết quả đời sau. Câu kệ không triển khai thêm toàn bộ lộ trình hoặc các điều kiện chi tiết của sự tu học."
+          ]
+        },
+        {
+          "id": "a05",
+          "kind": "teaching",
+          "heading": "Lời báo tên và mức so sánh với các Phật",
+          "meaningUnits": [
+            "declaration"
+          ],
+          "paragraphs": [
+            "Phật nhắc phần lớn thiên trong mười thế giới đã đến thấy Như Lai và Tăng. Các Phật quá khứ hay tương lai có cuộc tụ hội nhiều nhất cũng chỉ ngang cuộc hiện tại. Etapparamā diễn tả giới hạn so sánh ấy; cách dịch chỉ thành một thiên chúng tối thắng bỏ sắc thái tối đa.",
+            "Ngài nói sẽ tuyên bố, kể và trình bày tên các thiên chúng, dặn nghe và khéo tác ý. Các tỳ-kheo vâng, rồi Phật đọc kệ. Phần mang tên chư thiên tụ hội bắt đầu ở đây."
+          ]
+        },
+        {
+          "id": "a06",
+          "kind": "teaching",
+          "heading": "Tâm trong rừng và tri kiến về phi nhân",
+          "meaningUnits": [
+            "forest-verse",
+            "first-instruction",
+            "vision",
+            "discernment"
+          ],
+          "paragraphs": [
+            "Kệ ca ngợi nơi địa thần nương trú, các vị quyết tâm định tĩnh ở hang núi, ẩn cư như nhiều sư tử, vượt nỗi sợ dựng tóc. Tâm họ trắng trong, thanh tịnh, sáng rõ, không vẩn. Không đổi sự vượt sợ của họ thành gây sợ cho loài khác.",
+            "Biết hơn 500 vị trong rừng Kapilavatthu, Đạo Sư gọi các đệ tử yêu giáo pháp: thiên chúng đã đến, hãy nhận biết. Các vị nghe, khởi tinh cần, tri kiến thấy phi nhân xuất hiện: có vị thấy 100, 1.000, 70.000; có vị thấy 100.000; có vị thấy vô số đầy mọi phương.",
+            "Bậc Có Mắt biết và phân định tất cả, lại nhắc các đệ tử nhận biết chư thiên, hứa kể bằng kệ theo thứ tự. Kinh có cả số khoảng 500 ở văn xuôi và hơn 500 trong kệ, giữ tại hai vị trí của chúng."
+          ]
+        },
+        {
+          "id": "a07",
+          "kind": "teaching",
+          "heading": "Các đoàn Dạ-xoa được phân theo nơi và số",
+          "meaningUnits": [
+            "yakkhas",
+            "vessamitta",
+            "kumbhira"
+          ],
+          "paragraphs": [
+            "Bảy ngàn Dạ-xoa địa thần Kapilavatthu, sáu ngàn từ Himavanta và ba ngàn từ Sātāgiri hợp thành 16.000 Dạ-xoa nhiều sắc. Mỗi nhóm và lời tổng đều mang bốn nét thần lực, hào quang, sắc đẹp, danh tiếng; họ hoan hỷ đến hội tỳ-kheo trong rừng.",
+            "Đoạn sau có 500 Dạ-xoa Vessāmitta, cũng nhiều sắc và đủ các nét ấy, vui đến hội. Kumbhīra ở Rājagaha, trú Vepulla, có hơn 100.000 Dạ-xoa hầu cận, cũng tới. Không cộng nhóm Vessāmitta vào con số 16.000 đã được chốt trước."
+          ]
+        },
+        {
+          "id": "a08",
+          "kind": "teaching",
+          "heading": "Bốn phương và bốn loại chúng thuộc quyền",
+          "meaningUnits": [
+            "east",
+            "south",
+            "west",
+            "north"
+          ],
+          "paragraphs": [
+            "Phương đông do Dhataraṭṭha cai quản, đứng đầu gandhabba, Càn-thát-bà; phương nam do Virūḷha, đứng đầu kumbhaṇḍa, Cưu-bàn-trà. Phương tây là Virūpakkha, chúa Nāga; phương bắc là Kuvera, chúa yakkha, Dạ-xoa. Mỗi vị được gọi là đại vương danh tiếng.",
+            "Từng vị đều có nhiều con trai tên Inda, đại lực, có thần lực, hào quang, sắc đẹp và danh tiếng. Các con hoan hỷ tới hội tỳ-kheo trong rừng. Câu lặp áp dụng cho từng vị vua, không chỉ vị cuối."
+          ]
+        },
+        {
+          "id": "a09",
+          "kind": "teaching",
+          "heading": "Bốn Đại Thiên Vương trong rừng",
+          "meaningUnits": [
+            "four-kings"
+          ],
+          "paragraphs": [
+            "Lời kệ điểm lại Dhataraṭṭha đông, Virūḷhaka nam, Virūpakkha tây, Kuvera bắc. Virūḷha và Virūḷhaka là các dạng dùng trong cùng nguồn cho vị phương nam. Bốn Đại Thiên Vương đứng rực sáng khắp bốn phương tại rừng Kapilavatthu."
+          ]
+        },
+        {
+          "id": "a10",
+          "kind": "teaching",
+          "heading": "Các thuộc hạ có huyễn thuật",
+          "meaningUnits": [
+            "retainers"
+          ],
+          "paragraphs": [
+            "Thuộc hạ của họ đến, được mô tả giỏi huyễn thuật, lừa lọc, xảo trá: Māyā, Kuṭeṇḍu, Viṭeṇḍu, Viṭucca, Viṭuṭa; Candana, Kāmaseṭṭha, Kinnighaṇḍu, Nighaṇḍu; Panāda, Opamañña và Mātali, người đánh xe chư thiên.",
+            "Māyā được giữ như một tên theo cách đọc Việt, đồng thời có cách đọc là tính từ chỉ các kẻ lừa dối. Danh mục không đồng hóa mọi người dự hội thành cùng một phẩm chất đạo đức."
+          ]
+        },
+        {
+          "id": "a11",
+          "kind": "teaching",
+          "heading": "Gandhabba và chư vương",
+          "meaningUnits": [
+            "gandhabbas",
+            "retainers"
+          ],
+          "paragraphs": [
+            "Cittasena là gandhabba, cùng vua Naḷa và Janesabha; Pañcasikha, Timbarū, Sūriyavacchasā cũng tới. Các vị ấy, các vua khác và gandhabba cùng chư vương hoan hỷ đến hội tỳ-kheo trong rừng. Mātali ở đoạn trước là một nhân vật với chức năng đánh xe, không tách devasūto thành tên một vị nữa."
+          ]
+        },
+        {
+          "id": "a12",
+          "kind": "teaching",
+          "heading": "Danh sách Nāga trước cảnh hòa giải",
+          "meaningUnits": [
+            "nagas"
+          ],
+          "paragraphs": [
+            "Nāga từ Nāgasā; các vị từ Vesālī với Tacchaka; Kambala và Assatara; Pāyāga cùng quyến thuộc; Yāmunā từ Yamunā và Dhataraṭṭha danh tiếng; Đại Nāga Erāvaṇa, tất cả được kể tới hội rừng. Giữ Nāgasā đúng chữ gốc, không tự thay thành hồ Nābhasa, cũng không đổi Tacchaka thành địa danh Takkasilā."
+          ]
+        },
+        {
+          "id": "a13",
+          "kind": "teaching",
+          "heading": "Nāga và thiên điểu cùng quy y",
+          "meaningUnits": [
+            "birds"
+          ],
+          "paragraphs": [
+            "Các thiên điểu có cánh, hai lần sinh, mắt thanh tịnh, vốn bắt mạnh các Nāga vương, từ trời bay vào rừng. Cụm tên Citrā Supaṇṇā được giữ; truyền thống Việt gọi Supaṇṇa là Kim Sí Điểu. Có thể đọc cụm như hai tên Citra và Supaṇṇa, hoặc như các Supaṇṇa nhiều màu.",
+            "Lúc ấy Phật khiến các Nāga vương an toàn trước Supaṇṇa, nên họ không sợ. Nāga và Supaṇṇa gọi nhau bằng lời dịu, cùng quy y Phật. Việc nương tựa diễn ra cùng một hoàn cảnh an toàn, không chỉ bằng thay đổi giọng nói."
+          ]
+        },
+        {
+          "id": "a14",
+          "kind": "teaching",
+          "heading": "A-tu-la và lời gọi tới hội",
+          "meaningUnits": [
+            "asuras"
+          ],
+          "paragraphs": [
+            "A-tu-la bị Vajirahattha, vị Cầm Kim Cang, đánh bại nên ở biển; họ là anh em Vāsava, có thần lực và danh tiếng. Đoạn nêu Kālakañca đáng kinh sợ, Dānaveghasā, Vepacitti, Sucitti, Pahārāda, Namuci. Dānaveghasā được giữ theo chữ liền; Sujato tách Dānava và Ghasa.",
+            "Một trăm con Bali, tất cả tên Verocana, sửa soạn quân Bali rồi đến Rāhu thưa đã tới lúc dự hội tỳ-kheo trong rừng. Chủ thể thưa là đoàn đến gặp Rāhu; không theo dị dịch biến đoạn này thành lời Rāhu chúc pháp hội an toàn."
+          ]
+        },
+        {
+          "id": "a15",
+          "kind": "teaching",
+          "heading": "Mười thiên chúng thứ nhất",
+          "meaningUnits": [
+            "elements"
+          ],
+          "paragraphs": [
+            "Thiên thuộc nước, đất, lửa, gió; Varuṇa, Vāraṇa, Soma, Yasa; các chúng thuộc từ và bi đều đến. Kệ gọi mười chúng, nhiều sắc tướng, có thần lực, hào quang, sắc đẹp, danh tiếng, hoan hỷ dự hội tỳ-kheo trong rừng.",
+            "Đây là đoạn đầu trong sáu đoạn được gọi mỗi đoạn mười thiên chúng. Cách kể giữ từng tên và từng quan hệ, cả khi một chữ cổ còn nhiều lối phân tích."
+          ]
+        },
+        {
+          "id": "a16",
+          "kind": "teaching",
+          "heading": "Mười thiên chúng thứ hai",
+          "meaningUnits": [
+            "luminaries"
+          ],
+          "paragraphs": [
+            "Veṇḍu, Sahali, Asamā và đôi Yamā; thiên nương mặt trăng với mặt trăng đi trước; thiên nương mặt trời với mặt trời đi trước; Mandavalāhaka đến theo các tinh tú dẫn đầu. Vāsava đứng đầu Vasu cũng đến, được gọi Sakka, Purindada.",
+            "Kệ gọi mười thiên chúng, nhắc họ đa sắc, có thần lực, hào quang, sắc đẹp, danh tiếng, hoan hỷ tới hội tỳ-kheo trong rừng. Asamā/đôi Yamā còn có cách đọc là đôi song sinh vô song; Yamā này khác Yāma ở đoạn sau."
+          ]
+        },
+        {
+          "id": "a17",
+          "kind": "teaching",
+          "heading": "Mười thiên chúng thứ ba",
+          "meaningUnits": [
+            "flame"
+          ],
+          "paragraphs": [
+            "Sahabhū rực như ngọn lửa; Ariṭṭhaka và Roja sáng như hoa umā; Varuṇa, Sahadhamma, Accuta, Anejaka, Sūleyya, Rucira, Vāsavanesi. Lời ví hoa miêu tả ánh sắc, không tự tạo thêm một tên trời.",
+            "Đoạn lại gọi mười chúng nhiều sắc, có thần lực, hào quang, sắc đẹp, danh tiếng. Các vị hoan hỷ tới hội tỳ-kheo trong rừng."
+          ]
+        },
+        {
+          "id": "a18",
+          "kind": "teaching",
+          "heading": "Mười thiên chúng thứ tư",
+          "meaningUnits": [
+            "samana-groups"
+          ],
+          "paragraphs": [
+            "Các nhóm được nêu: Samāna, Mahāsamana, Mānusa, Mānusuttama, Khiḍḍāpadosika, Manopadosika, Haraya, Lohitavāsī, Pāraga, Mahāpāraga. Các thiên danh tiếng này được gọi thành mười chúng nhiều sắc, có thần lực, hào quang, sắc đẹp; vui đến hội tỳ-kheo trong rừng.",
+            "Đây là các tên trong lời kệ. Cách Sujato liên hệ một số tên với Mercury hoặc Mars không được áp thành nội dung chắc chắn của Pāli."
+          ]
+        },
+        {
+          "id": "a19",
+          "kind": "teaching",
+          "heading": "Mười thiên chúng thứ năm",
+          "meaningUnits": [
+            "rain"
+          ],
+          "paragraphs": [
+            "Sukka, Karambha, Aruṇa, Veghanasa; Odātagayha dẫn đầu, các thiên Vicakkhaṇa; Sadāmatta, Hāragaja, Missaka danh tiếng; Pajjunna đến trong tiếng sấm, làm mưa khắp các phương.",
+            "Mười chúng đa sắc, có thần lực, hào quang, sắc đẹp, danh tiếng, hoan hỷ tới hội tỳ-kheo trong rừng. Vicakkhaṇa cũng có thể là tính từ sáng suốt; tên các nhóm không bị đổi sang định danh các hành tinh."
+          ]
+        },
+        {
+          "id": "a20",
+          "kind": "teaching",
+          "heading": "Mười thiên chúng thứ sáu",
+          "meaningUnits": [
+            "heavens"
+          ],
+          "paragraphs": [
+            "Khemiya, Tusita, Yāma, Kaṭṭhaka danh tiếng; Lambītaka, Lāmaseṭṭha, Jotināma, Āsava; rồi Nimmānarati, Hóa Lạc, và Paranimmitā, Tha Hóa Tự Tại.",
+            "Đủ lời điệp về mười chúng nhiều sắc, thần lực, hào quang, sắc đẹp, danh tiếng, vui tới hội tỳ-kheo trong rừng. Hai tên cuối giữ thứ tự Hóa Lạc trước Tha Hóa Tự Tại, dù HTML đảo chúng. Āsava tại đây là cách gọi trong danh mục, không tự trở thành một kết luận về lậu hoặc của từng vị."
+          ]
+        },
+        {
+          "id": "a21",
+          "kind": "teaching",
+          "heading": "Sáu mươi chúng hướng về bậc vượt dòng",
+          "meaningUnits": [
+            "sixty"
+          ],
+          "paragraphs": [
+            "Sáu mươi thiên chúng đa sắc đến theo tên, cùng những vị khác tương tự. Lời tiếp hướng tới việc thấy một bậc đã dứt sinh, không chướng ngại, đã vượt dòng lũ, không lậu hoặc; bậc Long Tượng vượt dòng như trăng qua bóng tối.",
+            "Các tân ngữ Pāli ở số ít, tự nhiên hướng về Phật. Vì vậy bản giữ một bậc được chiêm ngưỡng, không mở thành cả nhóm đệ tử theo cách chuyển câu của Anh. Hình ảnh Long Tượng và dòng lũ được giữ như lời kệ."
+          ]
+        },
+        {
+          "id": "a22",
+          "kind": "teaching",
+          "heading": "Từ các tên Phạm thiên đến mười vị chúa tể",
+          "meaningUnits": [
+            "brahmas",
+            "great-brahma"
+          ],
+          "paragraphs": [
+            "Subrahmā, Paramatta cùng các con của bậc thần lực; Sanaṅkumāra và Tissa cũng tới hội rừng. Câu kệ chưa cho cơ sở xác định cha của từng người con.",
+            "Đại Phạm đứng đầu một ngàn Phạm giới, sinh đến đầy hào quang, thân uy nghi, danh tiếng. Mười chúa tể, mỗi vị có quyền riêng, cùng đến; giữa họ Hārita hiện diện với tùy tùng. Quyền được nêu theo từng vị, không đổi thành một học thuyết toàn năng."
+          ]
+        },
+        {
+          "id": "a23",
+          "kind": "teaching",
+          "heading": "Māra muốn biến cuộc hội thành sự bắt trói",
+          "meaningUnits": [
+            "mara"
+          ],
+          "paragraphs": [
+            "Khi các thiên cùng Inda và Phạm thiên đã tới, Ma quân tiến đến. Kệ bảo xem sự ngu si của Kẻ Đen Tối. Lệnh Māra là bắt, trói bằng tham, bao vây mọi phía và không để ai thoát.",
+            "Vị đại tướng ấy sai quân, vỗ tay xuống đất, phát âm kinh khiếp như mây mùa mưa sấm chớp. Rồi quay lui giận dữ, mất tự chủ. Đây là ý đồ của Māra đối với những vị mà đoạn mở đầu đã xác định là A-la-hán, không phải bằng chứng các vị vẫn bị tham trói."
+          ]
+        },
+        {
+          "id": "a24",
+          "kind": "teaching",
+          "heading": "Sự nhận biết và tinh cần của người đã ly tham",
+          "meaningUnits": [
+            "warning",
+            "victory"
+          ],
+          "paragraphs": [
+            "Bậc Có Mắt biết rõ, phân định mọi việc, nói với các đệ tử thích giáo pháp: Ma quân đã đến, hãy nhận biết. Họ nghe lời Phật, khởi tinh cần. Ma quân rút khỏi các vị đã ly tham; ngay một sợi lông của họ cũng không lay.",
+            "Kệ kết ca ngợi tất cả đã thắng trận, vượt sợ, có danh tiếng, được người đời biết và hoan hỷ cùng các chúng sinh. Chiến thắng được kể gắn với trạng thái đã lìa tham; phần việc được nói về các tỳ-kheo là nhận biết và tinh cần."
+          ]
+        },
+        {
+          "id": "a25",
+          "kind": "clarification",
+          "heading": "Đọc các tên cổ đúng mức chắc chắn",
+          "meaningUnits": [
+            "retainers",
+            "birds",
+            "asuras",
+            "luminaries",
+            "rain"
+          ],
+          "paragraphs": [
+            "Các tên ở đây là một phần di sản của bài kệ. Những chỗ Māyā, Citrā Supaṇṇā, Dānaveghasā, Asamā/đôi Yamā, Vicakkhaṇa có hơn một cách chia hoặc hiểu đã được nêu ngay trong phần tương ứng. Giữ cả giới hạn ấy cho phép đọc trọn danh mục mà không giả rằng mọi tên đã được giải nghĩa cuối cùng.",
+            "Danh mục thiên, Nāga, Supaṇṇa, A-tu-la và Phạm thiên thuộc thế giới quan của kinh. Liên hệ hiện đại, nếu dùng, chỉ giải một thao tác hoặc quan hệ; không thay toàn bộ cuộc hội thành một ẩn dụ tâm lý."
+          ]
+        },
+        {
+          "id": "a26",
+          "kind": "teaching",
+          "heading": "Lời kết trong phẩm",
+          "meaningUnits": [
+            "ending"
+          ],
+          "paragraphs": [
+            "Dòng cuối nói Kinh Đại Hội kết thúc, bài thứ bảy. Đây là thứ tự trong phẩm, còn mã của toàn Trường Bộ vẫn DN20. Dòng Anh trống không làm mất lời kết Pāli này."
+          ]
+        },
+        {
+          "id": "a27",
+          "kind": "example",
+          "heading": "Ví dụ: sự an toàn trước đối thoại",
+          "meaningUnits": [
+            "birds"
+          ],
+          "paragraphs": [
+            "Ví dụ biên soạn thêm: trong một cuộc gặp giữa hai nhóm từng xung đột, người điều phối cần bảo đảm không có ai bị đe dọa rồi mới mời họ nói với nhau bình tĩnh. Liên hệ nằm ở việc an toàn và lời dịu cùng hiện diện. Cảnh hai loài quy y Phật trong kinh có nội dung tôn giáo riêng, không đồng nhất với quy trình hòa giải của tổ chức."
+          ]
+        },
+        {
+          "id": "a28",
+          "kind": "practice",
+          "heading": "Thực hành nhận ra lực kéo của lòng tham",
+          "meaningUnits": [
+            "verse-senses",
+            "warning",
+            "victory"
+          ],
+          "paragraphs": [
+            "Gợi ý do người biên soạn thêm: trong một cuộc trao đổi căng, nhận ra điều mình đang muốn chiếm giữ, thắng hoặc ép người khác nhận. Chú ý phản ứng của các căn, tạm dừng trước khi đáp, rồi chọn lời ít gây tổn hại hơn. Đó là một điểm khởi đầu để học nhận biết và hộ trì.",
+            "Việc nhỏ không tự xác nhận giải thoát hoặc năng lực thấy phi nhân. Kết quả không lay động trong kinh thuộc những vị đã ly tham; mục tiêu học không dừng ở có vẻ bình tĩnh trong một cuộc họp."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Đọc Đại Hội từng chặng: gặp gỡ, nhận biết và tâm ly tham",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "o01",
+          "kind": "teaching",
+          "heading": "Đọc Đại Hội theo từng đoàn đến",
+          "meaningUnits": [
+            "title",
+            "assembly"
+          ],
+          "paragraphs": [
+            "Kinh Đại Hội là bài 20 trong Trường Bộ. Bài có nhiều tên cổ; ta có thể đọc từng đoàn, dừng lại rồi tiếp tục. Lời mở đầu “Tôi được nghe như vầy” kể Phật ở Đại Lâm gần Kapilavatthu, giữa dân Sakya, cùng khoảng 500 tỳ-kheo đều là A-la-hán.",
+            "Phần lớn chư thiên từ mười thế giới tụ về để gặp Phật và Tăng. Mười thế giới là cách gọi trong kinh, không cần đổi sang mười phương hoặc mười hệ Mặt Trời."
+          ]
+        },
+        {
+          "id": "o02",
+          "kind": "teaching",
+          "heading": "Bốn vị Tịnh Cư thiên",
+          "meaningUnits": [
+            "pure-abodes"
+          ],
+          "paragraphs": [
+            "Bốn vị thiên ở Tịnh Cư nghĩ tới Phật, khoảng 500 A-la-hán và các thiên từ mười thế giới đang gặp nhau trong rừng. Họ muốn cùng đến, mỗi người đọc một bài kệ.",
+            "Nhanh như người khỏe co duỗi tay, họ biến mất từ Tịnh Cư, hiện trước Phật, đảnh lễ rồi đứng một bên. Một vị nói trước, rồi từng vị khác tiếp lời."
+          ]
+        },
+        {
+          "id": "o03",
+          "kind": "teaching",
+          "heading": "Kệ thứ nhất: vui đến pháp hội",
+          "meaningUnits": [
+            "verse-meeting"
+          ],
+          "paragraphs": [
+            "Vị thứ nhất nói đại hội đang ở trong rừng, các thiên chúng đã cùng tụ lại. Họ đến pháp hội để thấy Tăng chúng bất bại. Sự kính trọng ở đây hướng đến đoàn thể các vị tu đang hiện diện."
+          ]
+        },
+        {
+          "id": "o04",
+          "kind": "teaching",
+          "heading": "Kệ thứ hai: giữ các căn",
+          "meaningUnits": [
+            "verse-senses"
+          ],
+          "paragraphs": [
+            "Vị thứ hai nói các tỳ-kheo đã định tâm, tự làm tâm ngay thẳng. Bậc trí giữ các căn như người đánh xe giữ cương. Các căn là những cửa tiếp xúc như mắt, tai; người tu có sự hộ trì khi tiếp xúc, thay vì để tâm bị kéo đi."
+          ]
+        },
+        {
+          "id": "o05",
+          "kind": "teaching",
+          "heading": "Kệ thứ ba: chướng ngại đã bỏ",
+          "meaningUnits": [
+            "verse-freed"
+          ],
+          "paragraphs": [
+            "Vị thứ ba nói chặt cọc, phá then, nhổ trụ Inda, không dao động; sống trong sạch, không cấu nhiễm. Các vị được Bậc Có Mắt, tức Phật, khéo điều phục như những long tượng.",
+            "Long tượng là hình ảnh bậc lớn đã thuần luyện. Chữ susunāgā còn được bản Anh dịch thành những bậc khổng lồ trẻ; giữ chỗ khác ấy, không tự chia mỗi cọc, then, trụ thành tên một phiền não riêng."
+          ]
+        },
+        {
+          "id": "o06",
+          "kind": "teaching",
+          "heading": "Kệ thứ tư: nương Phật và sinh thiên",
+          "meaningUnits": [
+            "verse-refuge"
+          ],
+          "paragraphs": [
+            "Vị thiên cuối nói người quy y Phật không đi vào cảnh đọa lạc; bỏ thân người rồi thì làm đầy các thiên chúng. Quy y là nhận Phật làm nơi nương. Bài kệ nói cả đời sau, còn ở đây chưa triển khai mọi bước và điều kiện tu học."
+          ]
+        },
+        {
+          "id": "o07",
+          "kind": "teaching",
+          "heading": "Phật bảo nghe tên các thiên chúng",
+          "meaningUnits": [
+            "declaration"
+          ],
+          "paragraphs": [
+            "Phật nhắc phần lớn thiên trong mười thế giới đã đến nhìn Như Lai và Tăng. Cuộc tụ hội nơi các Phật quá khứ và tương lai nhiều nhất cũng chỉ bằng cuộc này. Giữ ý so sánh tối đa của lời ấy.",
+            "Ngài sẽ nói tên, kể tên, trình bày tên các thiên chúng; hãy nghe và khéo chú ý. Các tỳ-kheo thưa vâng. Đoạn có tên Chư thiên tụ hội mở phần kệ dài."
+          ]
+        },
+        {
+          "id": "o08",
+          "kind": "teaching",
+          "heading": "Những vị tu đã vượt nỗi sợ",
+          "meaningUnits": [
+            "forest-verse"
+          ],
+          "paragraphs": [
+            "Kệ ca ngợi nơi địa thần nương trú và những vị quyết tâm, định tĩnh ở hang núi. Các vị ẩn cư như nhiều sư tử, vượt nỗi sợ dựng tóc gáy; tâm trắng trong, thanh tịnh, sáng rõ, không vẩn.",
+            "Vẻ mạnh của hình ảnh sư tử đi với việc đã vượt sợ. Không cần biến nó thành việc làm loài khác hoảng hốt."
+          ]
+        },
+        {
+          "id": "o09",
+          "kind": "teaching",
+          "heading": "Lời dạy nhận biết và các mức thấy",
+          "meaningUnits": [
+            "first-instruction",
+            "vision",
+            "discernment"
+          ],
+          "paragraphs": [
+            "Kệ nói Phật biết hơn 500 vị trong rừng Kapilavatthu. Văn xuôi mở đầu nói khoảng 500; hai cách nói được để đúng chỗ. Ngài bảo đệ tử yêu giáo pháp rằng thiên chúng đã đến, hãy nhận biết. Nghe lời, các vị khởi tinh cần.",
+            "Tri kiến thấy phi nhân hiện ra nơi họ. Có người thấy 100, người thấy 1.000, rồi 70.000; có người thấy 100.000; có người thấy vô số khắp các phương.",
+            "Phật biết rõ và phân biệt tất cả, lại bảo nhận biết chư thiên; ngài sẽ dùng lời kệ kể theo thứ tự. Sự nhận biết của các vị được nói tới trước khi tên các đoàn được đọc."
+          ]
+        },
+        {
+          "id": "o10",
+          "kind": "teaching",
+          "heading": "Ba đoàn hợp thành 16.000",
+          "meaningUnits": [
+            "yakkhas"
+          ],
+          "paragraphs": [
+            "Có 7.000 Dạ-xoa địa thần Kapilavatthu, 6.000 từ Himavanta, 3.000 từ Sātāgiri. Các đoàn sau nhiều sắc tướng; lời tổng nói 16.000 Dạ-xoa nhiều sắc.",
+            "Từng đoàn và cả lời tổng đều được nói có thần lực, hào quang, sắc đẹp, danh tiếng, vui đến hội tỳ-kheo trong rừng. Dạ-xoa là một loại phi nhân được kinh kể."
+          ]
+        },
+        {
+          "id": "o11",
+          "kind": "teaching",
+          "heading": "Hai đoàn được kể tiếp",
+          "meaningUnits": [
+            "vessamitta",
+            "kumbhira"
+          ],
+          "paragraphs": [
+            "Tiếp theo là 500 Dạ-xoa Vessāmitta, nhiều sắc, có thần lực, hào quang, sắc đẹp, danh tiếng, hoan hỷ đến hội tỳ-kheo trong rừng. Họ được kể sau tổng 16.000 ở đoạn trước.",
+            "Kumbhīra thuộc Rājagaha, ở núi Vepulla, được hơn 100.000 Dạ-xoa hầu quanh. Vị ấy cũng tới hội rừng."
+          ]
+        },
+        {
+          "id": "o12",
+          "kind": "teaching",
+          "heading": "Đông và nam",
+          "meaningUnits": [
+            "east",
+            "south"
+          ],
+          "paragraphs": [
+            "Dhataraṭṭha cai quản đông, đứng đầu gandhabba, thường gọi Càn-thát-bà. Virūḷha cai quản nam, đứng đầu kumbhaṇḍa, thường gọi Cưu-bàn-trà. Cả hai đều là đại vương danh tiếng.",
+            "Mỗi vị có nhiều con trai tên Inda, đại lực, có thần lực, hào quang, sắc đẹp, danh tiếng. Các người con vui tới hội tỳ-kheo trong rừng. Lời lặp áp dụng đủ cho cả hai vị."
+          ]
+        },
+        {
+          "id": "o13",
+          "kind": "teaching",
+          "heading": "Tây và bắc",
+          "meaningUnits": [
+            "west",
+            "north"
+          ],
+          "paragraphs": [
+            "Virūpakkha cai quản tây, chúa Nāga, thường được gọi loài rồng. Kuvera cai quản bắc, chúa Dạ-xoa. Cả hai là đại vương danh tiếng.",
+            "Mỗi vị cũng có nhiều con trai tên Inda, đại lực, có thần lực, hào quang, sắc đẹp, danh tiếng, hoan hỷ đến hội tỳ-kheo trong rừng."
+          ]
+        },
+        {
+          "id": "o14",
+          "kind": "teaching",
+          "heading": "Bốn vị đứng rực sáng",
+          "meaningUnits": [
+            "four-kings"
+          ],
+          "paragraphs": [
+            "Kệ gọi lại Dhataraṭṭha phương đông, Virūḷhaka phương nam, Virūpakkha phương tây, Kuvera phương bắc. Virūḷhaka là dạng tên được dùng khi nhắc lại vị Virūḷha phương nam. Bốn Đại Thiên Vương đứng rực sáng khắp bốn phía trong rừng Kapilavatthu."
+          ]
+        },
+        {
+          "id": "o15",
+          "kind": "teaching",
+          "heading": "Tên các thuộc hạ",
+          "meaningUnits": [
+            "retainers"
+          ],
+          "paragraphs": [
+            "Các thuộc hạ giỏi huyễn thuật, lừa lọc, xảo trá cũng đến. Danh sách là Māyā, Kuṭeṇḍu, Viṭeṇḍu, Viṭucca, Viṭuṭa; Candana, Kāmaseṭṭha, Kinnighaṇḍu, Nighaṇḍu; Panāda, Opamañña và Mātali, người đánh xe của chư thiên.",
+            "Māyā có thể là tên như cách đọc Việt, cũng có thể là chữ “những kẻ lừa dối” tả các tên tiếp theo. Bài ghi cả giới hạn ấy."
+          ]
+        },
+        {
+          "id": "o16",
+          "kind": "teaching",
+          "heading": "Các gandhabba và vua",
+          "meaningUnits": [
+            "gandhabbas"
+          ],
+          "paragraphs": [
+            "Có Cittasena là gandhabba, vua Naḷa, Janesabha; Pañcasikha, Timbarū, Sūriyavacchasā cũng tới. Những vị này, các vua khác và các gandhabba cùng chư vương vui tới hội tỳ-kheo trong rừng."
+          ]
+        },
+        {
+          "id": "o17",
+          "kind": "teaching",
+          "heading": "Các Nāga được gọi tên",
+          "meaningUnits": [
+            "nagas"
+          ],
+          "paragraphs": [
+            "Nāga từ Nāgasā; các vị từ Vesālī cùng Tacchaka; Kambala, Assatara; Pāyāga với quyến thuộc; Yāmunā từ Yamunā và Dhataraṭṭha danh tiếng đều đến. Đại Nāga Erāvaṇa cũng tới hội trong rừng.",
+            "Tên Nāgasā giữ theo chữ Pāli của bài, dù nguồn đối chiếu khác gọi Nābhasa. Tacchaka cũng được giữ, không tự đổi thành địa danh khác."
+          ]
+        },
+        {
+          "id": "o18",
+          "kind": "teaching",
+          "heading": "An toàn và lời dịu",
+          "meaningUnits": [
+            "birds"
+          ],
+          "paragraphs": [
+            "Những thiên điểu có cánh, hai lần sinh, mắt thanh tịnh, vốn dùng sức bắt Nāga vương, bay từ không trung xuống rừng. Kệ gọi Citrā Supaṇṇā; Supaṇṇa thường dịch Kim Sí Điểu. Có cách chia thành hai tên Citra và Supaṇṇa, có cách hiểu Supaṇṇa nhiều màu.",
+            "Phật làm các Nāga vương an toàn trước Supaṇṇa, nên họ không sợ. Nāga và Supaṇṇa gọi nhau bằng lời nhẹ nhàng, cùng quy y Phật. Từ nơi có đe dọa, câu chuyện đưa tới sự an toàn và cùng nương tựa."
+          ]
+        },
+        {
+          "id": "o19",
+          "kind": "teaching",
+          "heading": "Các A-tu-la ở biển",
+          "meaningUnits": [
+            "asuras"
+          ],
+          "paragraphs": [
+            "A-tu-la bị Vajirahattha, vị Cầm Kim Cang, đánh bại nên nương nơi biển. Họ là anh em Vāsava, có thần lực và danh tiếng. Các tên là Kālakañca đáng sợ, Dānaveghasā, Vepacitti, Sucitti, Pahārāda, Namuci. Dānaveghasā có nguồn tách thành Dānava và Ghasa.",
+            "Một trăm con Bali đều mang tên Verocana, sửa soạn quân Bali rồi tới Rāhu thưa đã đến lúc dự hội tỳ-kheo trong rừng. Giữ rõ họ nói với Rāhu, không đổi người nói."
+          ]
+        },
+        {
+          "id": "o20",
+          "kind": "teaching",
+          "heading": "Mười chúng thứ nhất",
+          "meaningUnits": [
+            "elements"
+          ],
+          "paragraphs": [
+            "Thiên nước, đất, lửa, gió; Varuṇa, Vāraṇa, Soma, Yasa; các thiên chúng thuộc từ và bi, tức lòng thương và lòng mong chúng sinh thoát khổ, cùng đến.",
+            "Kệ gọi mười chúng nhiều sắc, có thần lực, hào quang, sắc đẹp, danh tiếng, vui tới hội tỳ-kheo trong rừng. Đây là đoạn đầu của sáu đoạn mỗi đoạn gọi mười chúng."
+          ]
+        },
+        {
+          "id": "o21",
+          "kind": "teaching",
+          "heading": "Mười chúng thứ hai",
+          "meaningUnits": [
+            "luminaries"
+          ],
+          "paragraphs": [
+            "Veṇḍu, Sahali, Asamā và đôi Yamā đến. Thiên nương mặt trăng có mặt trăng dẫn đầu; thiên nương mặt trời có mặt trời dẫn đầu. Các tinh tú đi trước đoàn Mandavalāhaka.",
+            "Vāsava là bậc đứng đầu Vasu, cũng gọi Sakka, Purindada, cùng đến. Mười chúng trong đoạn nhiều sắc, có thần lực, hào quang, sắc đẹp, danh tiếng, hoan hỷ dự hội tỳ-kheo trong rừng."
+          ]
+        },
+        {
+          "id": "o22",
+          "kind": "teaching",
+          "heading": "Mười chúng thứ ba",
+          "meaningUnits": [
+            "flame"
+          ],
+          "paragraphs": [
+            "Sahabhū sáng như ngọn lửa; Ariṭṭhaka và Roja sáng như hoa umā; Varuṇa, Sahadhamma, Accuta, Anejaka; Sūleyya, Rucira, Vāsavanesi cũng tới.",
+            "Mười chúng có nhiều sắc, thần lực, hào quang, sắc đẹp, danh tiếng; vui đến hội tỳ-kheo trong rừng. Ví lửa và hoa được giữ để thấy vẻ sáng của lời kệ."
+          ]
+        },
+        {
+          "id": "o23",
+          "kind": "teaching",
+          "heading": "Mười chúng thứ tư",
+          "meaningUnits": [
+            "samana-groups"
+          ],
+          "paragraphs": [
+            "Samāna, Mahāsamana, Mānusa, Mānusuttama; Khiḍḍāpadosika, Manopadosika; Haraya, Lohitavāsī; Pāraga, Mahāpāraga là các nhóm được gọi tiếp.",
+            "Đó là mười thiên chúng nhiều sắc, danh tiếng, có thần lực, hào quang, sắc đẹp, hoan hỷ tới hội tỳ-kheo trong rừng. Các tên cổ được giữ, không đồng nhất với hành tinh ngày nay."
+          ]
+        },
+        {
+          "id": "o24",
+          "kind": "teaching",
+          "heading": "Mười chúng thứ năm",
+          "meaningUnits": [
+            "rain"
+          ],
+          "paragraphs": [
+            "Có Sukka, Karambha, Aruṇa, Veghanasa. Odātagayha dẫn đầu, các thiên Vicakkhaṇa cùng tới; rồi Sadāmatta, Hāragaja, Missaka danh tiếng. Pajjunna đến với tiếng sấm, làm mưa mọi phương.",
+            "Kệ gọi mười chúng nhiều sắc, có thần lực, hào quang, sắc đẹp, danh tiếng, vui đến hội tỳ-kheo trong rừng. Vicakkhaṇa còn có cách đọc như lời tả sự sáng suốt."
+          ]
+        },
+        {
+          "id": "o25",
+          "kind": "teaching",
+          "heading": "Mười chúng thứ sáu",
+          "meaningUnits": [
+            "heavens"
+          ],
+          "paragraphs": [
+            "Khemiya, Tusita, Yāma, Kaṭṭhaka danh tiếng; Lambītaka, Lāmaseṭṭha, Jotināma, Āsava; Nimmānarati, tức Hóa Lạc, rồi Paranimmitā, tức Tha Hóa Tự Tại, cùng tới.",
+            "Mười chúng nhiều sắc, có thần lực, hào quang, sắc đẹp, danh tiếng, hoan hỷ đến hội tỳ-kheo trong rừng. Thứ tự hai nhóm cuối là Hóa Lạc rồi Tha Hóa Tự Tại."
+          ]
+        },
+        {
+          "id": "o26",
+          "kind": "teaching",
+          "heading": "Sáu mươi nhóm và bậc họ muốn thấy",
+          "meaningUnits": [
+            "sixty"
+          ],
+          "paragraphs": [
+            "Sáu đoạn vừa kể được tổng thành 60 thiên chúng có nhiều sắc, tới theo tên gọi cùng các vị khác tương tự.",
+            "Lời kệ mong thấy một bậc đã hết sinh, không chướng ngại, vượt dòng lũ, không còn lậu hoặc; Long Tượng vượt dòng như mặt trăng vượt tối. Pāli dùng số ít, ở đây hướng tới Phật. Hình ảnh dòng lũ giữ ý nghĩa vượt qua trong lời ca ngợi giải thoát."
+          ]
+        },
+        {
+          "id": "o27",
+          "kind": "teaching",
+          "heading": "Các vị Phạm thiên",
+          "meaningUnits": [
+            "brahmas"
+          ],
+          "paragraphs": [
+            "Subrahmā, Paramatta cùng các con của bậc thần lực, rồi Sanaṅkumāra và Tissa cũng đến hội rừng. Đoạn kệ không nói riêng cha của từng người con, nên không tự thêm một gia phả."
+          ]
+        },
+        {
+          "id": "o28",
+          "kind": "teaching",
+          "heading": "Đại Phạm và những chúa tể khác",
+          "meaningUnits": [
+            "great-brahma"
+          ],
+          "paragraphs": [
+            "Đại Phạm đứng đầu một ngàn Phạm giới, sinh đến đầy hào quang, thân uy nghi và danh tiếng. Mười chúa tể tới, mỗi vị có quyền riêng; giữa họ Hārita đi cùng tùy tùng. Các vị có địa vị cao ấy cũng được kể trong cuộc hội."
+          ]
+        },
+        {
+          "id": "o29",
+          "kind": "teaching",
+          "heading": "Māra sai quân bắt trói",
+          "meaningUnits": [
+            "mara"
+          ],
+          "paragraphs": [
+            "Khi các thiên cùng Inda, Phạm thiên đã đến, Ma quân tiến lên. Kệ gọi sự ngu si của Kẻ Đen Tối, tức Māra. Māra bảo hãy bắt, trói bằng tham, bao vây khắp nơi, không để ai thoát.",
+            "Nó sai quân, vỗ tay xuống đất tiếng kinh khiếp như mây mùa mưa có sấm chớp. Rồi quay lui giận dữ, không tự chủ. Ý muốn trói bằng tham thuộc Māra; các tỳ-kheo trong bài đã được nói là A-la-hán."
+          ]
+        },
+        {
+          "id": "o30",
+          "kind": "teaching",
+          "heading": "Nhận biết rồi không bị lay",
+          "meaningUnits": [
+            "warning",
+            "victory"
+          ],
+          "paragraphs": [
+            "Phật biết rõ, phân định mọi việc và nói với đệ tử yêu giáo pháp: Ma quân tới, hãy nhận biết. Các vị nghe, khởi tinh cần. Quân rút khỏi các vị ly tham; một sợi lông của họ cũng không lay.",
+            "Kệ cuối nói các đệ tử đều thắng trận, vượt sợ, có danh tiếng, được người đời biết; họ vui cùng các chúng sinh. Sự vững vàng ấy đi cùng việc đã lìa tham, không chỉ với việc có nhiều người vây quanh."
+          ]
+        },
+        {
+          "id": "o31",
+          "kind": "clarification",
+          "heading": "Những chỗ tên còn có cách hiểu khác",
+          "meaningUnits": [
+            "retainers",
+            "birds",
+            "asuras",
+            "luminaries",
+            "rain"
+          ],
+          "paragraphs": [
+            "Māyā, Citrā Supaṇṇā và Dānaveghasā đã được ghi các cách đọc ở đoạn tương ứng. Với Asamā và đôi Yamā, một cách đọc khác là đôi song sinh vô song; Yamā ấy khác Yāma ở nhóm trời thứ sáu. Vicakkhaṇa có thể là tên hoặc lời tả các thiên sáng suốt.",
+            "Ta có thể giữ nguyên tên và nhận phần chưa chắc, không cần tự ép mọi chữ vào một lời giải. Các đoàn vẫn được kể đủ theo thứ tự và theo số mười, sáu mươi của kinh."
+          ]
+        },
+        {
+          "id": "o32",
+          "kind": "teaching",
+          "heading": "Lời kết thứ bảy trong phẩm",
+          "meaningUnits": [
+            "ending"
+          ],
+          "paragraphs": [
+            "Nguồn kết: Kinh Đại Hội đã xong, bài thứ bảy. Số ấy là vị trí trong phẩm, còn trong toàn Trường Bộ bài vẫn mang số 20."
+          ]
+        },
+        {
+          "id": "o33",
+          "kind": "example",
+          "heading": "Ví dụ về lời nói có chỗ an toàn",
+          "meaningUnits": [
+            "birds"
+          ],
+          "paragraphs": [
+            "Ví dụ do người biên soạn thêm: trong gia đình, hai người từng làm nhau sợ được người đáng tin giúp giữ an toàn và có dịp nói chuyện nhẹ nhàng. Liên hệ là sự an toàn cùng lời dịu; câu chuyện Nāga và Supaṇṇa cùng quy y Phật vẫn là nội dung tôn giáo riêng của kinh."
+          ]
+        },
+        {
+          "id": "o34",
+          "kind": "practice",
+          "heading": "Một lần nhận biết trong ngày",
+          "meaningUnits": [
+            "verse-senses",
+            "warning",
+            "victory"
+          ],
+          "paragraphs": [
+            "Gợi ý do người biên soạn thêm: khi nghe điều trái ý, thử nhận ra thân đang căng và tâm đang muốn đáp trả ra sao. Cho mình một khoảng dừng, rồi nói lời rõ, dịu nếu có thể; cần giúp đỡ thì tìm người tin cậy. Đó là cơ hội học nhận biết và giữ mình.",
+            "Bài tập nhỏ không dùng để tự nhận chứng quả hoặc năng lực thấy chư thiên. Những người không lay động ở cuối kinh là các vị đã lìa tham; người đang học vẫn có phần việc tu tập tiếp theo."
+          ]
+        }
+      ]
+    }
+  }
+}
