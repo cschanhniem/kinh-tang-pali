@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn131",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "3b1fd8a4-055c-4852-87d1-f2e1570667e6"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "31356b84-8ba7-447c-a8e8-07d94327101e"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "df5220d5-9720-4687-8b18-31d9794285f5"
+    }
+  },
+  "reviews": [
+    {
+      "id": "3b1fd8a4-055c-4852-87d1-f2e1570667e6",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 10,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Giữ cả hai lần bài kệ với quá khứ đã qua, tương lai chưa tới, người thấy rõ hiện tại, việc tu hôm nay và tử thần có đại quân. Không nhập chữ chỉ ở hiện tại từ dị bản HTML vào lời diễn.",
+        "semantic_fidelity": "Hai nhánh không chạy theo vẫn giữ ý nghĩ về năm uẩn đã có hoặc mong sẽ có; chỗ thay đổi là không tìm sự say thích nơi chúng. Vì vậy bản trẻ không biến lời dạy thành lệnh cấm nhớ chuyện cũ hoặc chuẩn bị tương lai.",
+        "core_coverage": "Đủ năm uẩn trong cả ba cặp phân tích và đủ năm nhóm nhân bốn quan hệ nhận làm ngã, cùng hai mươi phủ định tương ứng. Khung đã nghe, lời gọi các vị và sự tán đồng cuối bài cũng có nội dung riêng.",
+        "logic_context": "Phân biệt rõ người không được học với vị đệ tử được học qua quan hệ với cả bậc Thánh và bậc chân nhân. Các bước từ lời kệ tới cách nhớ, mong và nhận làm ngã nối đúng mạch giải thích của Phật.",
+        "terminology": "Năm tên sắc, thọ, tưởng, hành, thức đều được mở bằng lời quen thuộc; ba sắc thái của thọ không bị gộp thành vui buồn. Sau sửa, phần vật chất giữ phạm vi rộng hơn thân thể; các quan hệ ngã vẫn là khái niệm khó đối với trẻ.",
+        "audience_fit": "Giấy khen cũ, lời khen sắp tới và bài đang học tạo tình huống gần với trẻ, còn lời mời đọc cùng người hướng dẫn phù hợp độ khó. Dù có chia mục, hai mươi quan hệ về tự ngã vẫn đòi hỏi năng lực trừu tượng đáng kể.",
+        "clarity": "Mười tám mục chia được phần kệ, thuật ngữ và từng nhóm chấp ngã, giúp trẻ dừng ở từng bước. Sự lặp đủ bốn quan hệ trong năm nhóm giữ độ rõ về cấu trúc nhưng chưa làm toàn bộ phần triết lý trở nên dễ đọc độc lập.",
+        "editorial_separation": "Giấy khen nằm trong mục example và việc nghe bạn, đọc bài nằm trong practice, tách khỏi lời kinh. Bản còn nói rõ ví dụ trở lại làm bài chỉ mở đầu cho việc hiểu năm uẩn và chấp ngã.",
+        "practical_integrity": "Gợi ý chọn một việc nhỏ, nhận ra sự say thích rồi tiếp tục việc thiện vừa sức, không đặt thời hạn chứng đạt. Lời tinh cần ngày đêm không bị chuyển thành bài tập thức trắng hay yêu cầu trẻ tự thực hành phần khó.",
+        "technical_integrity": "Audit độc lập của bản cuối có 30 ý phủ đúng thứ tự 77 khóa Pāli; cả 18 mục dùng tham chiếu hợp lệ. Năm SHA, hai blob manifest và hai nguồn dự án ở pin đã đọc đều khớp; không có lỗi cấu trúc hoặc nguồn."
+      },
+      "blockingErrors": [],
+      "notes": "Reviewer độc lập đã đọc đủ 77 khóa Pāli/Việt/Anh, kiểm cả 2 ô Anh trống, 4 chú thích và toàn HTML 74 khối đến SC14 cùng phần ghi công cuối; toàn bản đồ và 18 mục của bản này đã đọc. Mọi mục sửa được đọc lại từ JSON cuối. Điểm gắn đúng fingerprint canonical đã audit, nối nguyên văn từ prepared sau kiểm năm SHA và hai git show pin65eb7ce. Chưa có thử nghiệm với độc giả thật hoặc xác nhận của chuyên gia Pāli.",
+      "contentHash": "c3ba77a93baabd262d3531bda442ab87090aff0cba0224b2f946a32172815726",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn131.html",
+          "sha256": "055f6ccad9d5d7d146c63a0838ae23fb23d88fe51d5b06ff6a6b526a26bd51d1"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn131_root-pli-ms.json",
+          "sha256": "8dcac53332b2553c4711dfafac46f057f66debbb5102b4d5ef32edd04b4a30ff"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn131_translation-en-sujato.json",
+          "sha256": "be3e1d842a27ba81046264e7d691a4b2cd411379bbdf15a9c215aa148f27c675"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn131_comment-vi-project.json",
+          "sha256": "7c3a7a45fb3359908621cc0fb7a7230b61baedad0fabddb2707efc6f35c4cf11"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn131_translation-vi-project.json",
+          "sha256": "b0401aab0a9b2d201cbeb8a009cccce430780e47706a84dec87897777df25e66"
+        }
+      ]
+    },
+    {
+      "id": "31356b84-8ba7-447c-a8e8-07d94327101e",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.8,
+        "audience_fit": 9.6,
+        "clarity": 9.7,
+        "editorial_separation": 10,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Bản giữ nội dung trọn hai lượt kệ, bao gồm người thấy rõ từng pháp, sự không dao động cần nuôi dưỡng và bất định của cái chết ngày mai. Hai ô Anh trống không được dùng làm chứng cứ đồng thuận cho các câu lược.",
+        "semantic_fidelity": "Sự theo đuổi hỉ lạc được đặt đúng nơi năm uẩn nhớ lại hay mong có, trong khi không theo đuổi vẫn có thể có cùng lời nghĩ ấy. Hiện tại được phân tích bằng nhận làm ngã, không rút thành một khẩu hiệu tập trung công việc.",
+        "core_coverage": "Cả năm nhóm kinh nghiệm hiện diện trong bốn nhánh quá khứ, tương lai; phần hiện tại có đủ bốn quan hệ và bốn phủ định cho từng uẩn. Lượt kệ kết và niềm vui của các tỳ-kheo được giữ, không tự thêm kết quả chứng đắc.",
+        "logic_context": "Sáu nét thiếu học và sáu nét có học đối với hai nhóm người hướng dẫn dẫn tới hai cách nhìn hiện tại tương ứng. Bài đi từ tóm lược sang phân tích rồi trở lại tóm lược, giúp người trưởng thành theo được lập luận.",
+        "terminology": "Sắc được giải là phương diện vật chất, thọ đủ ba loại, hành là hoạt động tạo tác của tâm và ngã được mở nghĩa trước phân tích. Tinh cần và ẩn sĩ an tịnh đã có lời giải ngay lần đầu, trong khi các câu về tự ngã vẫn giữ thuật ngữ cần học.",
+        "audience_fit": "Ví dụ chức danh cũ và hình ảnh vị trí tương lai sát kinh nghiệm nghề nghiệp mà không đồng nhất thành công công việc với tu tập. Mười ba mục khá gọn cho người lớn, nhưng phần hai mươi quan hệ cần đọc chậm hơn phần kể.",
+        "clarity": "Cặp câu nhớ hoặc mong rồi tìm hay không tìm say thích được đặt gần nhau, làm rõ điểm khác nhau. Cách gom phần kệ và thuật ngữ giảm sự ngắt mạch; danh sách các quan hệ về ngã vẫn có độ dày khái niệm nhất định.",
+        "editorial_separation": "Tình huống đổi công việc và bước nhìn lại trong ngày đều có loại mục riêng và lời chỉ rõ là minh họa hiện đại. Không biến ví dụ chức danh thành một sự kiện thời Phật hoặc thêm lời trích không có nguồn.",
+        "practical_integrity": "Thực hành đề nghị gọi đúng sự say thích, chọn hành động thiện và hỏi điều chưa hiểu, không tuyên bố đã hết chấp ngã. Người đọc được hướng về toàn mạch lời dạy thay vì một mẹo năng suất hứa giải thoát.",
+        "technical_integrity": "Bản cuối có 13 mục, dùng đúng bản đồ 30 ý và toàn 77 khóa nguồn; audit không báo lỗi. Fingerprint sau hai lời giải thuật ngữ được tính lại từ nội dung thật và gắn với đúng năm SHA nguồn đã kiểm."
+      },
+      "blockingErrors": [],
+      "notes": "Reviewer độc lập đã đọc đủ 77 khóa Pāli/Việt/Anh, kiểm cả 2 ô Anh trống, 4 chú thích và toàn HTML 74 khối đến SC14 cùng phần ghi công cuối; toàn bản đồ và 13 mục của bản này đã đọc. Mọi mục sửa được đọc lại từ JSON cuối. Điểm gắn đúng fingerprint canonical đã audit, nối nguyên văn từ prepared sau kiểm năm SHA và hai git show pin65eb7ce. Chưa có thử nghiệm với độc giả thật hoặc xác nhận của chuyên gia Pāli.",
+      "contentHash": "e761392dffa6059b1e62e05e8c910c2c26c3dba3467b89e6586c98cb8fb2ddd9",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn131.html",
+          "sha256": "055f6ccad9d5d7d146c63a0838ae23fb23d88fe51d5b06ff6a6b526a26bd51d1"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn131_root-pli-ms.json",
+          "sha256": "8dcac53332b2553c4711dfafac46f057f66debbb5102b4d5ef32edd04b4a30ff"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn131_translation-en-sujato.json",
+          "sha256": "be3e1d842a27ba81046264e7d691a4b2cd411379bbdf15a9c215aa148f27c675"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn131_comment-vi-project.json",
+          "sha256": "7c3a7a45fb3359908621cc0fb7a7230b61baedad0fabddb2707efc6f35c4cf11"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn131_translation-vi-project.json",
+          "sha256": "b0401aab0a9b2d201cbeb8a009cccce430780e47706a84dec87897777df25e66"
+        }
+      ]
+    },
+    {
+      "id": "df5220d5-9720-4687-8b18-31d9794285f5",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.8,
+        "audience_fit": 9.7,
+        "clarity": 9.7,
+        "editorial_separation": 10,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Giữ hai lần kệ cùng hình ảnh tử thần có đại quân, lời nhắc hôm nay và tính không biết trước ngày mai. Phần kết vẫn là các vị hoan hỷ tán đồng, không tự suy ra họ đã hoàn tất con đường.",
+        "semantic_fidelity": "Kỷ niệm và dự tính không bị coi tự thân là lỗi; từng nhánh chỉ rõ việc theo đuổi hoặc không theo đuổi say thích nơi năm uẩn. Phần hiện tại còn phân biệt đủ nhận là ngã, ngã có uẩn, uẩn trong ngã và ngã trong uẩn.",
+        "core_coverage": "Hai mươi quan hệ chấp ngã và hai mươi phủ định được trình bày đầy đủ, cùng cả năm uẩn trong những đoạn đã qua và chưa đến. Bản giữ hai nhóm bậc Thánh, chân nhân và đủ các nét thấy, thiện xảo, huấn luyện ở hai phía.",
+        "logic_context": "Các mục quá khứ, tương lai và hiện tại đi theo đúng thứ tự câu hỏi của bài kinh; kệ được nhắc lại sau phân tích. Không lấy lời nói về tuổi thọ làm một dự đoán dành riêng cho người lớn tuổi.",
+        "terminology": "Lời giải từng uẩn, ngã, tinh cần và ẩn sĩ an tịnh giúp người chưa quen chữ Hán Việt đi tiếp. Chỗ thân vật chất đã đổi thành phần vật chất, giữ nghĩa sắc; những quan hệ tự ngã vẫn cần suy xét hơn một lời giải ngắn.",
+        "audience_fit": "Buổi họp mặt, lời khen và người đang ở cạnh tạo ví dụ quen thuộc mà không giả định người lớn tuổi chỉ sống với tiếc nuối. Mười chín mục và gợi ý việc thiện vừa sức hỗ trợ nhịp đọc thong thả.",
+        "clarity": "Bài tách lời nhắc về hôm nay khỏi phần thuật ngữ và chia các quan hệ chấp ngã thành từng bước. Có lặp để người đọc nhận ra cấu trúc, song chuỗi phủ định dài vẫn cần tập trung và có thể đọc thành nhiều lượt.",
+        "editorial_separation": "Ví dụ họp mặt và gợi ý lắng nghe, nói thật, giúp việc nhỏ nằm ngoài phần teaching. Bản nêu giới hạn minh họa với hai mươi quan hệ về ngã, không gán câu chuyện hiện đại cho Đức Phật.",
+        "practical_integrity": "Người đọc có thể chọn một việc thiện vừa sức và hỏi một đoạn còn khó; không bị yêu cầu thực hành nghi thức hoặc chế độ sinh hoạt cực đoan. Lời nhắc cái chết chung cho mọi người được diễn điềm tĩnh, không thúc ép người già bằng sợ hãi.",
+        "technical_integrity": "Toàn 19 mục nối đúng 30 ý và 77 khóa; nguồn được xác minh bằng SHA cùng pin dự án đã đọc. Audit mới sạch và fingerprint phản ánh đủ hai mục sửa của bản lớn tuổi, không có metadata chính thức bị ghi bởi reviewer."
+      },
+      "blockingErrors": [],
+      "notes": "Reviewer độc lập đã đọc đủ 77 khóa Pāli/Việt/Anh, kiểm cả 2 ô Anh trống, 4 chú thích và toàn HTML 74 khối đến SC14 cùng phần ghi công cuối; toàn bản đồ và 19 mục của bản này đã đọc. Mọi mục sửa được đọc lại từ JSON cuối. Điểm gắn đúng fingerprint canonical đã audit, nối nguyên văn từ prepared sau kiểm năm SHA và hai git show pin65eb7ce. Chưa có thử nghiệm với độc giả thật hoặc xác nhận của chuyên gia Pāli.",
+      "contentHash": "d16762bb24779408988eb7f60d314fe9b3fbbe2cdbe8b5e777ab0e8a42baba11",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn131.html",
+          "sha256": "055f6ccad9d5d7d146c63a0838ae23fb23d88fe51d5b06ff6a6b526a26bd51d1"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn131_root-pli-ms.json",
+          "sha256": "8dcac53332b2553c4711dfafac46f057f66debbb5102b4d5ef32edd04b4a30ff"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn131_translation-en-sujato.json",
+          "sha256": "be3e1d842a27ba81046264e7d691a4b2cd411379bbdf15a9c215aa148f27c675"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn131_comment-vi-project.json",
+          "sha256": "7c3a7a45fb3359908621cc0fb7a7230b61baedad0fabddb2707efc6f35c4cf11"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn131_translation-vi-project.json",
+          "sha256": "b0401aab0a9b2d201cbeb8a009cccce430780e47706a84dec87897777df25e66"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1490 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn139",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn139_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "08335004dd5a592a00cf0c853ed0129cd4a9afee571d135a5a756dd92a906b51"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn139_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "d7f4b2bdaa707c65e9c789fd5f8968d743a611ffa8cec241f47db8377293a831"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn139_translation-vi-project.json",
+      "commit": "65eb7cebf4888967bb7e85aabf01fa29b7534cd6",
+      "sha256": "3900018e959860ea2518affbe94af790f27d1e5975d64a19b6484db81b30ece6"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn139.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "b6ef7d67fd161804abbdb7cd07eb5f74ece9d4cdb658f79f5d3d7108bfd6cd09"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn139_comment-vi-project.json",
+      "commit": "65eb7cebf4888967bb7e85aabf01fa29b7534cd6",
+      "sha256": "8e54a69ca039e897d2ec510eac3e9963141e337a41d2960ff9ef75a315d4cecb"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Tên bài",
+      "segments": [
+        "mn139:0.1",
+        "mn139:0.2"
+      ],
+      "summary": "Trung Bộ 139, Kinh Phân Biệt Không Tranh Chấp; giữ tên root/dự án thực, không theo tên vắng lặng cũ trong chú thích."
+    },
+    {
+      "id": "opening",
+      "title": "Lời đã nghe và nơi giảng",
+      "segments": [
+        "mn139:1.1",
+        "mn139:1.2",
+        "mn139:1.3",
+        "mn139:1.4",
+        "mn139:1.5",
+        "mn139:1.6"
+      ],
+      "summary": "Người truyền kể đã nghe; Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika; gọi tỳ-kheo, các vị đáp rồi Ngài nói."
+    },
+    {
+      "id": "promise",
+      "title": "Lắng nghe và chú tâm",
+      "segments": [
+        "mn139:2.1",
+        "mn139:2.2",
+        "mn139:2.3",
+        "mn139:2.4"
+      ],
+      "summary": "Phật sẽ dạy phân biệt không tranh chấp, bảo nghe/chú tâm kỹ; các vị vâng, Ngài giảng."
+    },
+    {
+      "id": "outline",
+      "title": "Bản tóm lược",
+      "segments": [
+        "mn139:3.1",
+        "mn139:3.2",
+        "mn139:3.3",
+        "mn139:3.4",
+        "mn139:3.5",
+        "mn139:3.6",
+        "mn139:3.7",
+        "mn139:3.8",
+        "mn139:3.9",
+        "mn139:3.10"
+      ],
+      "summary": "Không theo lạc dục đủ năm nét hoặc tự hành khổ đủ ba nét; trung đạo Phật giác ngộ đem mắt/trí, tới an tịnh/thắng trí/chánh giác/Niết-bàn. Biết tâng bốc/chê bai để chỉ giảng Pháp, biết lạc để theo lạc bên trong, không nói bí mật/gay gắt thẳng mặt, không vội, không chấp địa phương ngữ/vượt danh xưng; phần sau giải từng điều kiện."
+    },
+    {
+      "id": "extremes-question",
+      "title": "Vì sao tránh hai cực đoan",
+      "segments": [
+        "mn139:4.1",
+        "mn139:4.2"
+      ],
+      "summary": "Nhắc toàn lời tránh hai cực đoan, hỏi vì sao nói như vậy."
+    },
+    {
+      "id": "sensual-wrong",
+      "title": "Theo hỷ lạc do dục",
+      "segments": [
+        "mn139:4.3"
+      ],
+      "summary": "Hỷ lạc do duyên dục có năm nét hạ liệt/thô tục/phàm phu/không Thánh/không lợi; việc theo có khổ/hại/ưu não/nhiệt não, là tà hạnh."
+    },
+    {
+      "id": "sensual-right",
+      "title": "Không theo hỷ lạc do dục",
+      "segments": [
+        "mn139:4.4"
+      ],
+      "summary": "Không chuyên theo lạc dục loại đã nêu: pháp không khổ/không hại/không ưu não/không nhiệt não, chánh hạnh. Các nét thấp kém quy về lạc dục, không quy về sự từ bỏ."
+    },
+    {
+      "id": "mortification-wrong",
+      "title": "Theo tự hành khổ",
+      "segments": [
+        "mn139:4.5"
+      ],
+      "summary": "Tự hành khổ là đau khổ/không Thánh/không lợi; theo nó là có khổ/hại/ưu não/nhiệt não, tà hạnh."
+    },
+    {
+      "id": "mortification-right",
+      "title": "Không theo tự hành khổ",
+      "segments": [
+        "mn139:4.6"
+      ],
+      "summary": "Không theo tự hành khổ loại ấy: không khổ/hại/ưu não/nhiệt não, chánh hạnh; không đảo thành bản thân sự không theo là không Thánh."
+    },
+    {
+      "id": "extremes-close",
+      "title": "Khép lời giải hai cực đoan",
+      "segments": [
+        "mn139:4.7",
+        "mn139:4.8"
+      ],
+      "summary": "Nhắc lại đầy đủ lời tránh hai cực đoan, xác nhận chính các lý do ấy giải điều đã nói."
+    },
+    {
+      "id": "middle",
+      "title": "Trung đạo là Thánh đạo tám chi",
+      "segments": [
+        "mn139:5.1",
+        "mn139:5.2",
+        "mn139:5.3",
+        "mn139:5.4",
+        "mn139:5.5",
+        "mn139:5.6"
+      ],
+      "summary": "Nhắc trung đạo Phật giác ngộ, mắt/trí và bốn hướng; hỏi lý do, giải chính tám chi kiến/tư duy/ngữ/nghiệp/mạng/tinh tấn/niệm/định đều chánh, rồi nhắc/xác nhận lời tóm lược."
+    },
+    {
+      "id": "praise-question",
+      "title": "Phân biệt tâng bốc và chê bai",
+      "segments": [
+        "mn139:6.1",
+        "mn139:6.2",
+        "mn139:6.3",
+        "mn139:7.1"
+      ],
+      "summary": "Nhắc phải biết hai cách để không làm hai cách, chỉ giảng Pháp; hỏi vì sao, rồi hỏi thế nào tâng bốc/chê bai mà không giảng Pháp."
+    },
+    {
+      "id": "sensual-people",
+      "title": "Gán lời khen chê cho người theo dục",
+      "segments": [
+        "mn139:7.2",
+        "mn139:7.3",
+        "mn139:7.4",
+        "mn139:7.5"
+      ],
+      "summary": "Nói tất cả người theo hỷ lạc dục năm nét đều có bốn khổ/hại/ưu/nhiệt và tà là chê bai; nói tất cả người không theo đều không bốn ấy và chánh là tâng bốc."
+    },
+    {
+      "id": "mortification-people",
+      "title": "Gán lời khen chê cho người hành khổ",
+      "segments": [
+        "mn139:7.6",
+        "mn139:7.7",
+        "mn139:7.8",
+        "mn139:7.9"
+      ],
+      "summary": "Với người theo tự hành khổ ba nét, gán tất cả có bốn hệ quả và tà là chê; với người không theo, gán tất cả không bốn hệ quả và chánh là tâng bốc."
+    },
+    {
+      "id": "fetter-people",
+      "title": "Gán lời khen chê theo hữu kiết sử",
+      "segments": [
+        "mn139:7.10",
+        "mn139:7.11",
+        "mn139:7.12",
+        "mn139:7.13",
+        "mn139:7.14"
+      ],
+      "summary": "Ai chưa bỏ hữu kiết sử: nói tất cả có bốn hệ quả và tà là chê; ai đã bỏ: nói tất cả không bốn ấy và chánh là tâng. Khép cả ba cặp là khen chê chứ không thuyết Pháp."
+    },
+    {
+      "id": "teach-question",
+      "title": "Thế nào là chỉ giảng Pháp",
+      "segments": [
+        "mn139:8.1"
+      ],
+      "summary": "Hỏi nhánh không tâng bốc, không chê bai, mà thuyết Pháp."
+    },
+    {
+      "id": "sensual-principle",
+      "title": "Nói về việc theo hay không theo dục",
+      "segments": [
+        "mn139:8.2",
+        "mn139:8.3",
+        "mn139:8.4",
+        "mn139:8.5",
+        "mn139:8.6",
+        "mn139:8.7",
+        "mn139:8.8",
+        "mn139:8.9",
+        "mn139:8.10",
+        "mn139:8.11"
+      ],
+      "summary": "Không nói hai lời tất cả người theo/không theo như trước. Nói việc theo lạc dục có khổ/hại/ưu/nhiệt, tà; việc không theo không bốn ấy, chánh; mỗi câu là chỉ thuyết Pháp."
+    },
+    {
+      "id": "mortification-principle",
+      "title": "Nói về việc hành khổ hay không hành khổ",
+      "segments": [
+        "mn139:8.12",
+        "mn139:8.13",
+        "mn139:8.14",
+        "mn139:8.15",
+        "mn139:8.16",
+        "mn139:8.17",
+        "mn139:8.18",
+        "mn139:8.19",
+        "mn139:8.20",
+        "mn139:8.21"
+      ],
+      "summary": "Không nói hai lời tất cả người theo/không theo khổ hạnh như trước. Nói việc theo có bốn hệ quả và tà; việc không theo không bốn ấy và chánh; cả hai là chỉ giảng Pháp."
+    },
+    {
+      "id": "fetter-principle",
+      "title": "Hai điều kiện về hữu kiết sử",
+      "segments": [
+        "mn139:8.22",
+        "mn139:8.23",
+        "mn139:8.24",
+        "mn139:8.25",
+        "mn139:8.26",
+        "mn139:8.27",
+        "mn139:8.28",
+        "mn139:8.29"
+      ],
+      "summary": "Không nói hai lời về tất cả người chưa/đã bỏ hữu kiết sử. Nói khi hữu kiết sử chưa bỏ thì hữu cũng chưa bỏ; khi hữu kiết sử đã bỏ thì hữu cũng đã bỏ. Hai câu đều là chỉ thuyết Pháp; không rút thành nhận xét tính cách."
+    },
+    {
+      "id": "teach-close",
+      "title": "Khép phân biệt lời khen chê",
+      "segments": [
+        "mn139:8.30",
+        "mn139:8.31",
+        "mn139:8.32",
+        "mn139:8.33"
+      ],
+      "summary": "Kết đây là không tâng bốc/chê bai, chỉ thuyết Pháp; nhắc lời tóm lược và xác nhận lý do."
+    },
+    {
+      "id": "pleasure-question",
+      "title": "Vì sao phân biệt lạc",
+      "segments": [
+        "mn139:9.1",
+        "mn139:9.2",
+        "mn139:9.3"
+      ],
+      "summary": "Nhắc biết phân biệt lạc rồi chuyên lạc nội tại, hỏi lý do."
+    },
+    {
+      "id": "five",
+      "title": "Năm đối tượng dục và sáu nét",
+      "segments": [
+        "mn139:9.4",
+        "mn139:9.5",
+        "mn139:9.6",
+        "mn139:9.7",
+        "mn139:9.8",
+        "mn139:9.9",
+        "mn139:9.10",
+        "mn139:9.11"
+      ],
+      "summary": "Năm cặp mắt/sắc tai/tiếng mũi/hương lưỡi/vị thân/xúc; mỗi đối tượng đáng ưa/đáng thích/dễ chịu/hấp dẫn/liên hệ dục/khơi ham muốn, đủ sáu nét."
+    },
+    {
+      "id": "sensual-pleasure",
+      "title": "Loại lạc không nên nuôi lớn",
+      "segments": [
+        "mn139:9.12",
+        "mn139:9.13"
+      ],
+      "summary": "Lạc/hỷ do duyên năm dục gọi lạc dục/uế trược/phàm phu/không Thánh. Không thân cận/không tu tập/không làm tăng trưởng; nên sợ lạc ấy, không lược hoặc đảo lời nên sợ."
+    },
+    {
+      "id": "first",
+      "title": "Thiền thứ nhất",
+      "segments": [
+        "mn139:9.14"
+      ],
+      "summary": "Xa dục và bất thiện, chứng/an trú thiền một với tầm/tứ, hỷ lạc do xa dục."
+    },
+    {
+      "id": "second",
+      "title": "Thiền thứ hai",
+      "segments": [
+        "mn139:9.15"
+      ],
+      "summary": "Tầm/tứ lắng, nội tâm lắng trong/tâm hợp nhất, không tầm/tứ, hỷ lạc do định; chứng/an trú thiền hai."
+    },
+    {
+      "id": "latter",
+      "title": "Thiền thứ ba và thứ tư",
+      "segments": [
+        "mn139:9.16",
+        "mn139:9.17"
+      ],
+      "summary": "Hỷ phai, sống xả, thiền ba; chứng/an trú thiền bốn. Cả Pāli/dự án/Sujato và HTML thực đọc đều lược, không tự nhập công thức từ bài khác."
+    },
+    {
+      "id": "inner-pleasure",
+      "title": "Lạc bên trong nên tu tập",
+      "segments": [
+        "mn139:9.18",
+        "mn139:9.19",
+        "mn139:9.20",
+        "mn139:9.21",
+        "mn139:9.22"
+      ],
+      "summary": "Bốn thiền được gọi lạc ly dục/độc cư/an tịnh/chánh giác. Nên thân cận/tu tập/làm tăng trưởng/không sợ. Nhắc lời phân biệt lạc và xác nhận lý do."
+    },
+    {
+      "id": "speech-question",
+      "title": "Lời bí mật và lời gay gắt",
+      "segments": [
+        "mn139:10.1",
+        "mn139:10.2",
+        "mn139:10.3"
+      ],
+      "summary": "Nhắc không nói bí mật, không nói gay gắt thẳng mặt, rồi hỏi lý do; phần giải có ba nhánh nên không biến tóm lược thành cấm tuyệt đối mọi lời riêng."
+    },
+    {
+      "id": "private-false",
+      "title": "Lời bí mật sai và vô ích",
+      "segments": [
+        "mn139:10.4"
+      ],
+      "summary": "Biết lời bí mật không thật/không đúng/không lợi thì cố hết sức không nói; giữ mức cố hết sức của sasakkaṁ theo dự án/EN."
+    },
+    {
+      "id": "private-useless",
+      "title": "Lời bí mật đúng mà vô ích",
+      "segments": [
+        "mn139:10.5"
+      ],
+      "summary": "Biết thật/đúng nhưng không lợi thì tập không nói."
+    },
+    {
+      "id": "private-useful",
+      "title": "Lời bí mật đúng và có ích",
+      "segments": [
+        "mn139:10.6"
+      ],
+      "summary": "Biết thật/đúng/có lợi thì biết đúng thời để nói; đủ cả ba điều kiện và thời."
+    },
+    {
+      "id": "direct-false",
+      "title": "Lời gay gắt sai và vô ích",
+      "segments": [
+        "mn139:10.7"
+      ],
+      "summary": "Lời gay gắt thẳng mặt biết không thật/không đúng/không lợi thì cố hết sức không nói."
+    },
+    {
+      "id": "direct-useless",
+      "title": "Lời gay gắt đúng mà vô ích",
+      "segments": [
+        "mn139:10.8"
+      ],
+      "summary": "Lời gay gắt thẳng mặt biết thật/đúng nhưng không lợi thì tập không nói."
+    },
+    {
+      "id": "direct-useful",
+      "title": "Lời gay gắt đúng và có ích",
+      "segments": [
+        "mn139:10.9"
+      ],
+      "summary": "Lời gay gắt thẳng mặt biết thật/đúng/có lợi thì biết đúng thời để nói; không thay bằng phải luôn nói ngay."
+    },
+    {
+      "id": "speech-close",
+      "title": "Khép lời giải về nói năng",
+      "segments": [
+        "mn139:10.10",
+        "mn139:10.11"
+      ],
+      "summary": "Nhắc lời tóm lược, xác nhận ba nhánh ở mỗi loại là lý do nói như vậy."
+    },
+    {
+      "id": "speed-question",
+      "title": "Vì sao không nói vội",
+      "segments": [
+        "mn139:11.1",
+        "mn139:11.2"
+      ],
+      "summary": "Nhắc không vội vàng, hỏi lý do; không đòi nói chậm đến mức khó giao tiếp."
+    },
+    {
+      "id": "hurried",
+      "title": "Sáu bất lợi khi nói vội",
+      "segments": [
+        "mn139:11.3"
+      ],
+      "summary": "Thân mệt/tâm tổn/giọng tổn/họng đau/lời không rõ/không dễ hiểu. Phân biệt rõ giọng và họng."
+    },
+    {
+      "id": "unhurried",
+      "title": "Sáu mặt khi không nói vội",
+      "segments": [
+        "mn139:11.4"
+      ],
+      "summary": "Thân không mệt/tâm không tổn/giọng không tổn/họng không đau/lời rõ/dễ hiểu. Giữ chiều đối xứng của lời giảng, không biến thành lời hứa chữa bệnh cổ họng."
+    },
+    {
+      "id": "speed-close",
+      "title": "Khép lời giải nói không vội",
+      "segments": [
+        "mn139:11.5",
+        "mn139:11.6"
+      ],
+      "summary": "Nhắc lời không vội và xác nhận lý do."
+    },
+    {
+      "id": "names-question",
+      "title": "Ngôn từ địa phương và danh xưng",
+      "segments": [
+        "mn139:12.1",
+        "mn139:12.2",
+        "mn139:12.3"
+      ],
+      "summary": "Nhắc không bám địa phương ngữ/không vượt danh xưng thông thường, hỏi vì sao và thế nào là bám/vượt."
+    },
+    {
+      "id": "names-bound",
+      "title": "Bảy tên với lời chấp chỉ đây thật",
+      "segments": [
+        "mn139:12.4",
+        "mn139:12.5",
+        "mn139:12.6",
+        "mn139:12.7"
+      ],
+      "summary": "Cùng một vật ở các vùng gọi pātī/patta/vitta/sarāva/dhāropa/poṇa/pisīlava; cứ dùng tên địa phương nhưng bám chặt/chấp thủ/chấp trước, nói chỉ đây thật ngoài ra hư. Đó là chấp ngôn từ và vượt danh xưng."
+    },
+    {
+      "id": "names-free",
+      "title": "Cũng bảy tên mà không chấp",
+      "segments": [
+        "mn139:12.8",
+        "mn139:12.9",
+        "mn139:12.10",
+        "mn139:12.11"
+      ],
+      "summary": "Hỏi nhánh không bám/không vượt; vẫn cùng vật/bảy tên, nghĩ các vị dường như dùng từ để chỉ vật này, nói theo mà không chấp. Không coi bảy tên là bảy đồ vật khác."
+    },
+    {
+      "id": "names-close",
+      "title": "Khép lời giải về tên gọi",
+      "segments": [
+        "mn139:12.12",
+        "mn139:12.13"
+      ],
+      "summary": "Nhắc hai điều không bám/không vượt, xác nhận lý do."
+    },
+    {
+      "id": "sum-sensual",
+      "title": "Tổng kết theo và không theo dục",
+      "segments": [
+        "mn139:13.1",
+        "mn139:13.2",
+        "mn139:13.3",
+        "mn139:13.4",
+        "mn139:13.5",
+        "mn139:13.6"
+      ],
+      "summary": "Hai trường hợp hỷ lạc dục năm nét: theo có bốn khổ/hại/ưu/nhiệt, tà nên có tranh chấp; không theo không bốn ấy, chánh nên không tranh chấp."
+    },
+    {
+      "id": "sum-mortification",
+      "title": "Tổng kết theo và không theo hành khổ",
+      "segments": [
+        "mn139:13.7",
+        "mn139:13.8",
+        "mn139:13.9",
+        "mn139:13.10",
+        "mn139:13.11",
+        "mn139:13.12"
+      ],
+      "summary": "Tự hành khổ ba nét: theo có bốn hệ quả, tà, có tranh; không theo không bốn ấy, chánh, không tranh."
+    },
+    {
+      "id": "sum-middle",
+      "title": "Tổng kết trung đạo",
+      "segments": [
+        "mn139:13.13",
+        "mn139:13.14",
+        "mn139:13.15"
+      ],
+      "summary": "Trung đạo Phật giác ngộ đem mắt/trí, tới an tịnh/thắng trí/chánh giác/Niết-bàn; không bốn hệ quả, chánh, không tranh."
+    },
+    {
+      "id": "sum-teaching",
+      "title": "Tổng kết lời khen chê và Pháp",
+      "segments": [
+        "mn139:13.16",
+        "mn139:13.17",
+        "mn139:13.18",
+        "mn139:13.19",
+        "mn139:13.20",
+        "mn139:13.21"
+      ],
+      "summary": "Tâng bốc/chê bai không giảng Pháp: bốn hệ quả, tà, có tranh. Không hai việc ấy, chỉ giảng Pháp: không bốn hệ quả, chánh, không tranh."
+    },
+    {
+      "id": "sum-pleasures",
+      "title": "Tổng kết hai loại lạc",
+      "segments": [
+        "mn139:13.22",
+        "mn139:13.23",
+        "mn139:13.24",
+        "mn139:13.25",
+        "mn139:13.26",
+        "mn139:13.27"
+      ],
+      "summary": "Lạc dục/uế trược/phàm phu/không Thánh: bốn hệ quả, tà, có tranh. Lạc ly dục/độc cư/an tịnh/chánh giác: không bốn hệ quả, chánh, không tranh. HTML SC43 thiếu chánh giác, vẫn giữ root."
+    },
+    {
+      "id": "sum-private",
+      "title": "Tổng kết ba lời bí mật",
+      "segments": [
+        "mn139:13.28",
+        "mn139:13.29",
+        "mn139:13.30",
+        "mn139:13.31",
+        "mn139:13.32",
+        "mn139:13.33",
+        "mn139:13.34",
+        "mn139:13.35",
+        "mn139:13.36"
+      ],
+      "summary": "Không thật/không đúng/không lợi và thật/đúng/không lợi: từng loại có bốn hệ quả, tà, có tranh. Thật/đúng/có lợi: không bốn hệ quả, chánh, không tranh."
+    },
+    {
+      "id": "sum-direct",
+      "title": "Tổng kết ba lời thẳng mặt",
+      "segments": [
+        "mn139:13.37",
+        "mn139:13.38",
+        "mn139:13.39",
+        "mn139:13.40",
+        "mn139:13.41",
+        "mn139:13.42",
+        "mn139:13.43",
+        "mn139:13.44",
+        "mn139:13.45"
+      ],
+      "summary": "Lời gay gắt thẳng mặt không thật/không đúng/không lợi và thật/đúng/không lợi: từng loại có bốn hệ quả, tà, có tranh. Thật/đúng/có lợi: không bốn hệ quả, chánh, không tranh."
+    },
+    {
+      "id": "sum-speed",
+      "title": "Tổng kết nhịp nói",
+      "segments": [
+        "mn139:13.46",
+        "mn139:13.47",
+        "mn139:13.48",
+        "mn139:13.49",
+        "mn139:13.50",
+        "mn139:13.51"
+      ],
+      "summary": "Vội: bốn hệ quả, tà, có tranh. Không vội: không bốn hệ quả, chánh, không tranh."
+    },
+    {
+      "id": "sum-names",
+      "title": "Tổng kết việc bám tên",
+      "segments": [
+        "mn139:13.52",
+        "mn139:13.53",
+        "mn139:13.54",
+        "mn139:13.55",
+        "mn139:13.56",
+        "mn139:13.57"
+      ],
+      "summary": "Bám ngôn từ địa phương/vượt danh xưng: bốn hệ quả, tà, có tranh. Không bám/không vượt: không bốn hệ quả, chánh, không tranh. Cùng các đơn vị tổng kết trước giữ đủ 19 trường hợp."
+    },
+    {
+      "id": "training",
+      "title": "Biết hai phía rồi tu không tranh chấp",
+      "segments": [
+        "mn139:14.1",
+        "mn139:14.2",
+        "mn139:14.3"
+      ],
+      "summary": "Học biết pháp có tranh và không tranh; biết cả hai rồi hành trì không tranh. Subhūti đang hành trì hạnh ấy, không thêm một kết quả chứng đắc."
+    },
+    {
+      "id": "ending",
+      "title": "Hoan hỷ và kết bài",
+      "segments": [
+        "mn139:14.4",
+        "mn139:14.5",
+        "mn139:14.6"
+      ],
+      "summary": "Phật nói xong, tỳ-kheo hoan hỷ/tán đồng; kinh kết, bài thứ chín trong nhóm, không lẫn UID139."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Diễn giải dành cho trẻ em",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Học cách sống không tranh chấp",
+          "meaningUnits": [
+            "title",
+            "opening",
+            "promise"
+          ],
+          "paragraphs": [
+            "Kinh Phân Biệt Không Tranh Chấp là bài 139 của Trung Bộ. Người truyền kinh kể điều đã nghe: Phật ở Sāvatthī, trong rừng Jeta, tu viện Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những nam tu sĩ đã thọ giới đầy đủ. Các thầy kính đáp.",
+            "Phật nói sẽ giảng cách phân biệt không tranh chấp, bảo các thầy lắng nghe và chú tâm kỹ. Các thầy vâng lời."
+          ]
+        },
+        {
+          "id": "outline",
+          "kind": "teaching",
+          "heading": "Phật nêu những điều sẽ giải thích",
+          "meaningUnits": [
+            "outline"
+          ],
+          "paragraphs": [
+            "Trước hết, không nên chuyên theo lạc dục, sự vui thích do các giác quan: loại thấp kém, thô tục, thuộc lối phàm phu thường tình, không thuộc bậc Thánh, không đem lại lợi ích. Cũng không chuyên tự làm khổ mình, điều đau khổ, không thuộc bậc Thánh, không đem lợi ích. Tránh hai cực đoan ấy là trung đạo Phật đã giác ngộ, đem lại cái thấy và hiểu biết, dẫn tới lắng yên, biết trực tiếp, giác ngộ và Niết-bàn, sự chấm dứt khát ái (lòng khao khát bám víu) và khổ.",
+            "Phải biết thế nào là tâng bốc và chê bai, rồi không làm hai việc ấy mà chỉ giảng Pháp. Phải biết phân biệt các loại lạc, sự an vui, để chuyên tâm vào lạc bên trong. Không nói lời bí mật, không nói gay gắt thẳng mặt; nói không vội; không bám chặt cách gọi của một địa phương hay vượt quá tên gọi thông thường. Đây là lời tóm lược, được Phật giải rõ từng phần sau đó."
+          ]
+        },
+        {
+          "id": "extremes",
+          "kind": "teaching",
+          "heading": "Hai cách theo đuổi dẫn sai đường",
+          "meaningUnits": [
+            "extremes-question",
+            "sensual-wrong",
+            "sensual-right",
+            "mortification-wrong",
+            "mortification-right",
+            "extremes-close"
+          ],
+          "paragraphs": [
+            "Phật nhắc đầy đủ lời tránh hai cực đoan và hỏi vì sao. Hỷ lạc là niềm vui và sự dễ chịu. Theo đuổi hỷ lạc do dục, loại có năm nét vừa nói, là một việc có đau khổ, tổn hại, buồn lo và nóng bức trong tâm; đó là tà hạnh, cách thực hành sai. Không theo đuổi nó thì không có bốn điều ấy, là chánh hạnh, cách thực hành đúng.",
+            "Theo đuổi việc tự làm khổ mình, loại đau khổ, không thuộc bậc Thánh, không đem lợi ích, cũng có đau khổ, tổn hại, buồn lo, nóng bức trong tâm và là cách thực hành sai. Không theo đuổi nó thì không có bốn điều ấy, là cách thực hành đúng. Phật nhắc lại lời tránh hai cực đoan: chính vì những lý do này Ngài đã dạy như vậy."
+          ]
+        },
+        {
+          "id": "middle",
+          "kind": "teaching",
+          "heading": "Con đường có tám phần",
+          "meaningUnits": [
+            "middle"
+          ],
+          "paragraphs": [
+            "Nhắc lời trung đạo rồi hỏi vì sao nói vậy, Phật giải: đó chính là Thánh đạo tám chi. Chánh kiến là thấy hiểu đúng; chánh tư duy là hướng nghĩ đúng; chánh ngữ là nói đúng; chánh nghiệp là hành động đúng; chánh mạng là kiếm sống đúng; chánh tinh tấn là nỗ lực đúng; chánh niệm là nhớ biết đúng; chánh định là tập trung tâm đúng.",
+            "Đó là trung đạo Phật đã giác ngộ, cho cái thấy, cho hiểu biết, đưa tới lắng yên, biết trực tiếp, giác ngộ và Niết-bàn. Ngài nhắc lại lời ấy và xác nhận: tám chi này giải thích điều đã nói."
+          ]
+        },
+        {
+          "id": "people",
+          "kind": "teaching",
+          "heading": "Khi lời nói chỉ còn khen chê người khác",
+          "meaningUnits": [
+            "praise-question",
+            "sensual-people",
+            "mortification-people",
+            "fetter-people"
+          ],
+          "paragraphs": [
+            "Vì sao phải biết tâng bốc, chê bai rồi chỉ giảng Pháp? Phật nêu cách nói về người. Nói “Tất cả người chuyên theo hỷ lạc do dục loại ấy đều có đau khổ, tổn hại, buồn lo, nóng bức trong tâm và đang thực hành sai” là chê bai một số người. Nói “Tất cả người không chuyên theo loại ấy đều không có bốn điều đó và đang thực hành đúng” là tâng bốc một số người.",
+            "Với người chuyên tự hành khổ cũng vậy: gán cho tất cả họ bốn điều khổ, hại, buồn lo, nóng bức và đường sai là chê bai. Với người không chuyên tự hành khổ, gán cho tất cả họ sự không có bốn điều ấy và đường đúng là tâng bốc.",
+            "Một cặp nữa nói về hữu kiết sử, sự trói buộc vào đời sống tiếp nối trong tái sinh. Gán cho tất cả người chưa dứt trói buộc ấy bốn điều khổ, hại, buồn lo, nóng bức cùng đường sai là chê bai; gán cho tất cả người đã dứt nó sự không có bốn điều ấy cùng đường đúng là tâng bốc. Những cách nói này là khen chê, chưa phải chỉ giảng Pháp."
+          ]
+        },
+        {
+          "id": "principles",
+          "kind": "teaching",
+          "heading": "Nói rõ việc gì dẫn tới điều gì",
+          "meaningUnits": [
+            "teach-question",
+            "sensual-principle",
+            "mortification-principle",
+            "fetter-principle",
+            "teach-close"
+          ],
+          "paragraphs": [
+            "Thế nào là không tâng bốc, không chê bai, chỉ giảng Pháp? Không nói hai câu về “tất cả những người” theo hay không theo dục như trên. Hãy nói về việc theo đuổi lạc dục: việc ấy có đau khổ, tổn hại, buồn lo, nóng bức, là đường sai; việc không theo đuổi thì không có bốn điều ấy, là đường đúng. Đó là giảng Pháp.",
+            "Với tự hành khổ, cũng không dùng hai câu gán cho tất cả người theo hay không theo. Nói rằng việc theo đuổi tự hành khổ có bốn điều khổ, hại, buồn lo, nóng bức và là đường sai; không theo thì không có bốn điều ấy và là đường đúng. Đó cũng là giảng Pháp.",
+            "Với hữu kiết sử, không nói hai câu khen chê tất cả người chưa dứt hoặc đã dứt như trước. Hãy nói: khi sự trói buộc vào hữu chưa dứt, hữu, đời sống tiếp nối trong tái sinh, cũng chưa dứt; khi sự trói buộc ấy đã dứt, hữu cũng dứt. Hai lời này đều giảng Pháp. Phật nhắc lại lời tóm lược và xác nhận đây là cách không tâng bốc, không chê bai, chỉ giảng Pháp."
+          ]
+        },
+        {
+          "id": "school-example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: góp ý một bài làm",
+          "meaningUnits": [
+            "sensual-principle",
+            "mortification-principle"
+          ],
+          "paragraphs": [
+            "Một bạn cộng nhầm. Em có thể chỉ ra “Ở dòng này còn thiếu một số” và cùng bạn sửa. Cách ấy giúp nhìn rõ việc cần làm. Ví dụ hiện đại này gợi cách nói về hành động và kết quả, thay vì gắn một nhãn khen chê lên cả con người."
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Có những niềm vui cần được xét kỹ",
+          "meaningUnits": [
+            "pleasure-question",
+            "five",
+            "sensual-pleasure"
+          ],
+          "paragraphs": [
+            "Phật nhắc việc phân biệt lạc rồi giải về năm đối tượng dục: hình sắc do mắt biết, âm thanh do tai biết, hương do mũi biết, vị do lưỡi biết, xúc chạm do thân biết. Mỗi loại có các nét đáng ưa, đáng thích, dễ chịu, hấp dẫn, liên hệ đến dục và khơi ham muốn.",
+            "Lạc và hỷ, sự dễ chịu và vui mừng, sinh nhờ năm đối tượng ấy được gọi là lạc dục, lạc uế trược (nhơ bẩn), lạc phàm phu, lạc không thuộc bậc Thánh. Với loại lạc này, Phật dạy không nên gần gũi, tu tập hay làm cho lớn thêm; nên sợ hãi nó."
+          ]
+        },
+        {
+          "id": "inner",
+          "kind": "teaching",
+          "heading": "Niềm an vui bên trong nên được nuôi dưỡng",
+          "meaningUnits": [
+            "first",
+            "second",
+            "latter",
+            "inner-pleasure"
+          ],
+          "paragraphs": [
+            "Một vị tu xa dục và pháp bất thiện, những điều không lành, chứng rồi sống trong thiền thứ nhất. Có tầm và tứ, đưa tâm đến rồi giữ tâm với đối tượng, cùng hỷ lạc do xa dục sinh.",
+            "Tầm tứ lắng xuống, nội tâm trong yên, hợp nhất, không còn tầm tứ; vị ấy chứng và sống trong thiền thứ hai, có hỷ lạc do định (sự tập trung vững vàng của tâm) sinh ra. Bài kinh nói tiếp đến thiền thứ ba khi hỷ phai và vị ấy sống với xả, tâm quân bình; rồi đến việc chứng và sống trong thiền thứ tư.",
+            "Đây là lạc ly dục, do xa dục; lạc độc cư, do ở riêng; lạc an tịnh, lắng yên; lạc chánh giác, giác ngộ. Nên gần gũi, tu tập, làm lớn thêm và không sợ hãi loại lạc này. Phật trở lại lời phân biệt lạc và chuyên vào lạc bên trong: đó là lý do Ngài dạy như vậy."
+          ]
+        },
+        {
+          "id": "private",
+          "kind": "teaching",
+          "heading": "Lời nói kín: xét ba trường hợp",
+          "meaningUnits": [
+            "speech-question",
+            "private-false",
+            "private-useless",
+            "private-useful"
+          ],
+          "paragraphs": [
+            "Phật nhắc lời không nói bí mật, không nói gay gắt thẳng mặt, rồi giải theo từng trường hợp. Với lời bí mật, lời nói kín, nếu biết nó không thật, không đúng, không đem lợi ích, hãy cố hết sức không nói.",
+            "Nếu biết lời ấy thật và đúng nhưng không đem lợi ích, hãy tập không nói. Nếu biết lời ấy thật, đúng và có lợi ích, hãy biết đúng lúc để nói."
+          ]
+        },
+        {
+          "id": "direct",
+          "kind": "teaching",
+          "heading": "Lời gay gắt nói trước mặt",
+          "meaningUnits": [
+            "direct-false",
+            "direct-useless",
+            "direct-useful",
+            "speech-close"
+          ],
+          "paragraphs": [
+            "Với lời gay gắt nói thẳng mặt người khác, cũng có ba trường hợp. Biết lời ấy không thật, không đúng và không ích lợi thì cố hết sức không nói. Biết lời ấy thật, đúng nhưng không ích lợi thì tập không nói.",
+            "Biết lời ấy thật, đúng và có ích thì biết đúng lúc để nói. Phật nhắc lại lời tóm lược: chính những phân biệt này giải thích điều Ngài dạy."
+          ]
+        },
+        {
+          "id": "pace",
+          "kind": "teaching",
+          "heading": "Nói thong thả để lời được hiểu",
+          "meaningUnits": [
+            "speed-question",
+            "hurried",
+            "unhurried",
+            "speed-close"
+          ],
+          "paragraphs": [
+            "Vì sao nên nói không vội? Phật nói khi nói vội, thân mệt, tâm bị tổn hại, giọng bị tổn hại, cổ họng đau; lời không rõ và khó hiểu.",
+            "Khi nói không vội, thân không mệt, tâm và giọng không bị tổn hại, cổ họng không đau; lời rõ ràng và dễ hiểu. Ngài nhắc lại lời không nói vội và xác nhận lý do ấy."
+          ]
+        },
+        {
+          "id": "names",
+          "kind": "teaching",
+          "heading": "Một vật có thể mang nhiều tên",
+          "meaningUnits": [
+            "names-question",
+            "names-bound",
+            "names-free",
+            "names-close"
+          ],
+          "paragraphs": [
+            "Vì sao không bám vào ngôn từ địa phương, không đi quá tên gọi thông thường? Cùng một vật, các nơi gọi là pātī, patta, vitta, sarāva, dhāropa, poṇa hoặc pisīlava — bảy tên. Nếu người nói giữ chặt cách gọi của địa phương ấy, chấp thủ và nhất quyết “Chỉ cách này thật, mọi cách khác đều sai”, đó là chấp vào từ ngữ, đi quá tên gọi.",
+            "Ở chiều không chấp, vẫn cùng vật ấy và đủ bảy tên ấy. Người ấy hiểu: “Hình như các vị dùng chữ đó để chỉ vật này”, rồi nói theo cách gọi ấy mà không nắm chặt. Như vậy là không chấp từ ngữ địa phương, không vượt danh xưng thông thường. Phật nhắc lại và xác nhận lý do của lời dạy."
+          ]
+        },
+        {
+          "id": "bowl-example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: bát hay chén?",
+          "meaningUnits": [
+            "names-bound",
+            "names-free"
+          ],
+          "paragraphs": [
+            "Ở nhà em quen nói “bát”, bạn lại quen nói “chén”. Hai bạn có thể nhìn vật đang được chỉ để hiểu nhau. Đây là ví dụ hiện đại về tên gọi; không cần giành phần thắng chỉ vì một từ quen thuộc."
+          ]
+        },
+        {
+          "id": "recap-practice",
+          "kind": "teaching",
+          "heading": "Nhận ra hai phía trong cách tu",
+          "meaningUnits": [
+            "sum-sensual",
+            "sum-mortification",
+            "sum-middle"
+          ],
+          "paragraphs": [
+            "Phật tổng kết lại từng trường hợp. Chuyên theo hỷ lạc do dục loại có năm nét đã nêu, và chuyên tự làm khổ mình loại đau khổ, không Thánh, không ích lợi: mỗi việc đều có đau khổ, tổn hại, buồn lo, nóng bức trong tâm, là đường sai; vì thế là pháp có tranh chấp.",
+            "Không chuyên theo loại lạc dục ấy, không chuyên tự hành khổ, và trung đạo Phật đã giác ngộ: mỗi điều đều không có bốn mặt khổ, hại, buồn lo, nóng bức, là đường đúng; vì thế là pháp không tranh chấp. Trung đạo cho cái thấy và hiểu biết, đưa tới lắng yên, biết trực tiếp, giác ngộ và Niết-bàn."
+          ]
+        },
+        {
+          "id": "recap-teaching",
+          "kind": "teaching",
+          "heading": "Nhận ra hai phía trong lời giảng và niềm vui",
+          "meaningUnits": [
+            "sum-teaching",
+            "sum-pleasures"
+          ],
+          "paragraphs": [
+            "Tâng bốc, chê bai mà không giảng Pháp, và lạc dục được gọi uế trược, phàm phu, không Thánh: mỗi điều có khổ, hại, buồn lo, nóng bức, là đường sai, nên có tranh chấp.",
+            "Không tâng bốc, không chê bai mà chỉ giảng Pháp, và lạc ly dục, độc cư, an tịnh, chánh giác: mỗi điều không có bốn mặt ấy, là đường đúng, nên không tranh chấp."
+          ]
+        },
+        {
+          "id": "recap-speech",
+          "kind": "teaching",
+          "heading": "Nhận ra hai phía trong từng loại lời nói",
+          "meaningUnits": [
+            "sum-private",
+            "sum-direct"
+          ],
+          "paragraphs": [
+            "Với lời nói kín: không thật, không đúng, không ích lợi là một trường hợp; thật, đúng nhưng không ích lợi là trường hợp thứ hai. Mỗi trường hợp có khổ, hại, buồn lo, nóng bức, là đường sai nên có tranh chấp. Lời kín thật, đúng, có lợi ích thì không có bốn mặt ấy, là đường đúng nên không tranh chấp.",
+            "Với lời gay gắt thẳng mặt cũng đủ ba trường hợp. Không thật, không đúng, không ích lợi; hoặc thật, đúng nhưng không ích lợi: mỗi loại có bốn mặt khổ, hại, buồn lo, nóng bức, là đường sai nên có tranh chấp. Lời thật, đúng, có ích thì không có bốn mặt ấy, là đường đúng nên không tranh chấp."
+          ]
+        },
+        {
+          "id": "recap-pace",
+          "kind": "teaching",
+          "heading": "Nhận ra hai phía trong nhịp nói và tên gọi",
+          "meaningUnits": [
+            "sum-speed",
+            "sum-names"
+          ],
+          "paragraphs": [
+            "Nói vội, và chấp vào ngôn từ địa phương rồi vượt quá danh xưng thông thường: mỗi việc có khổ, hại, buồn lo, nóng bức, là đường sai nên có tranh chấp.",
+            "Nói không vội, và không chấp từ ngữ địa phương, không vượt danh xưng: mỗi việc không có bốn mặt ấy, là đường đúng nên không tranh chấp. Các phần tổng kết vừa qua gồm đủ mười chín trường hợp Phật phân biệt."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Trước khi em góp một lời",
+          "meaningUnits": [
+            "private-useful",
+            "direct-useful",
+            "unhurried",
+            "names-free"
+          ],
+          "paragraphs": [
+            "Em có thể dừng một nhịp, hỏi lời mình định nói có thật, đúng và giúp ích không; nếu có, lúc nào phù hợp để nói cho rõ? Đây là gợi ý thực hành hiện đại để tập nhìn kỹ lời nói của mình."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Biết rồi đem vào thực hành",
+          "meaningUnits": [
+            "training",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật dạy các thầy học: “Chúng ta sẽ biết pháp có tranh chấp và pháp không tranh chấp; biết cả hai rồi sẽ thực hành con đường không tranh chấp.” Ngài nêu thiện nam tử Subhūti, một người con nhà lành, đang thực hành con đường ấy.",
+            "Nghe Phật nói, các tỳ-kheo hoan hỷ tán đồng. Kinh Phân Biệt Không Tranh Chấp kết thúc, là bài thứ chín trong nhóm kinh này."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Diễn giải dành cho người trưởng thành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Không tranh chấp bắt đầu từ cách thực hành",
+          "meaningUnits": [
+            "title",
+            "opening",
+            "promise",
+            "outline"
+          ],
+          "paragraphs": [
+            "Kinh Phân Biệt Không Tranh Chấp, Trung Bộ 139, mở bằng lời người truyền kinh thuật điều đã nghe. Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những nam tu sĩ đã thọ giới đầy đủ; họ kính đáp. Ngài báo sẽ giảng sự phân biệt không tranh chấp, dặn nghe và chú tâm kỹ. Họ vâng lời.",
+            "Lời tóm lược mở với hai cực đoan cần tránh: chuyên theo lạc dục, niềm vui giác quan thấp kém, thô tục, thuộc phàm phu thường tình, không thuộc bậc Thánh, không đem lợi ích; và chuyên tự hành khổ, điều đau khổ, không Thánh, không ích lợi. Trung đạo Phật đã giác ngộ tránh cả hai, đem lại cái thấy và trí hiểu, hướng tới an tịnh (lắng yên), thắng trí (biết trực tiếp), chánh giác và Niết-bàn, sự chấm dứt khát ái (lòng khao khát bám víu) và khổ.",
+            "Cũng cần biết tâng bốc và chê bai để không làm hai việc ấy mà chỉ giảng Pháp; biết phân biệt lạc để chuyên vào lạc nội tại. Không nói lời bí mật, không nói gay gắt thẳng mặt; nói không vội; không chấp vào ngôn từ địa phương, không vượt quá danh xưng thông thường. Các phần sau lần lượt giải ý của lời tóm lược này."
+          ]
+        },
+        {
+          "id": "extremes",
+          "kind": "teaching",
+          "heading": "Xét việc theo đuổi và việc từ bỏ",
+          "meaningUnits": [
+            "extremes-question",
+            "sensual-wrong",
+            "sensual-right",
+            "mortification-wrong",
+            "mortification-right",
+            "extremes-close"
+          ],
+          "paragraphs": [
+            "Phật nhắc lại đầy đủ lời tránh hai cực đoan, rồi hỏi vì sao. Ở đây, hỷ lạc là niềm vui và sự dễ chịu. Chuyên theo hỷ lạc do dục, loại có năm nét vừa nêu, là pháp có khổ, có hại, có ưu não và nhiệt não — buồn lo, nóng bức trong tâm. Đó là tà hạnh, cách thực hành sai. Không chuyên theo loại hỷ lạc ấy là pháp không khổ, không hại, không ưu não, không nhiệt não; là chánh hạnh, cách thực hành đúng.",
+            "Chuyên tự làm khổ mình, điều đau khổ, không Thánh, không ích lợi, cũng có đủ bốn mặt khổ, hại, ưu não, nhiệt não và là tà hạnh. Không chuyên theo điều ấy thì không có bốn mặt ấy, là chánh hạnh. Phật nhắc lại lời tránh hai cực đoan và xác nhận chính các lý do này giải thích lời đã nói."
+          ]
+        },
+        {
+          "id": "path",
+          "kind": "teaching",
+          "heading": "Trung đạo có nội dung rõ ràng",
+          "meaningUnits": [
+            "middle"
+          ],
+          "paragraphs": [
+            "Với lời trung đạo, Phật cũng nhắc rồi giải lý do: đây chính là Thánh đạo tám chi. Đó là chánh kiến, thấy hiểu đúng; chánh tư duy, hướng nghĩ đúng; chánh ngữ, nói đúng; chánh nghiệp, hành động đúng; chánh mạng, kiếm sống đúng; chánh tinh tấn, nỗ lực đúng; chánh niệm, nhớ biết đúng; chánh định, tập trung tâm đúng.",
+            "Ngài trở lại lời xác nhận: tránh hai cực đoan, trung đạo mà Như Lai — một danh hiệu của Phật — đã giác ngộ làm phát sinh cái thấy và hiểu biết, hướng tới lắng yên, biết trực tiếp, giác ngộ, Niết-bàn. Tám chi ấy là nghĩa cụ thể của lời tóm lược."
+          ]
+        },
+        {
+          "id": "labels",
+          "kind": "teaching",
+          "heading": "Ba cặp lời nói chuyển thành khen chê con người",
+          "meaningUnits": [
+            "praise-question",
+            "sensual-people",
+            "mortification-people",
+            "fetter-people"
+          ],
+          "paragraphs": [
+            "Phật giải lời phải biết tâng bốc và chê bai bằng ba cặp. Cặp đầu nói về người chuyên theo hay không chuyên theo hỷ lạc do dục loại đã mô tả. Nói tất cả người theo đều có khổ, hại, ưu não, nhiệt não và đang thực hành sai là chê bai một số người; nói tất cả người không theo đều không có bốn mặt ấy và đang thực hành đúng là tâng bốc một số người.",
+            "Cặp thứ hai nói về người chuyên tự hành khổ, loại đau khổ, không Thánh, không ích lợi, và người không chuyên theo nó. Gán tất cả nhóm thứ nhất bốn mặt khổ, hại, ưu não, nhiệt não cùng đường sai là chê bai; gán tất cả nhóm thứ hai sự không có bốn mặt ấy cùng đường đúng là tâng bốc.",
+            "Cặp thứ ba nói về người chưa dứt hoặc đã dứt hữu kiết sử, sự trói buộc vào hữu, đời sống tiếp nối trong tái sinh. Nói tất cả người chưa dứt đều có bốn mặt khổ, hại, ưu não, nhiệt não và đi đường sai là chê bai; nói tất cả người đã dứt đều không có bốn mặt ấy và đi đường đúng là tâng bốc. Cả ba cặp là khen chê mà chưa phải chỉ giảng Pháp."
+          ]
+        },
+        {
+          "id": "dhamma",
+          "kind": "teaching",
+          "heading": "Chỉ ra pháp và điều kiện của nó",
+          "meaningUnits": [
+            "teach-question",
+            "sensual-principle",
+            "mortification-principle",
+            "fetter-principle",
+            "teach-close"
+          ],
+          "paragraphs": [
+            "Ở nhánh chỉ giảng Pháp, người nói không dùng hai lời về tất cả người theo hoặc không theo dục như trước. Họ nói: việc chuyên theo lạc dục có khổ, hại, ưu não, nhiệt não, là tà hạnh; việc không chuyên theo không có bốn mặt ấy, là chánh hạnh. Mỗi câu hướng thẳng vào việc thực hành.",
+            "Với tự hành khổ cũng vậy: không dùng hai lời gán cho tất cả người theo hoặc không theo. Nói việc chuyên theo có bốn mặt khổ, hại, ưu não, nhiệt não và là tà hạnh; việc không theo không có bốn mặt ấy và là chánh hạnh. Đó là chỉ giảng Pháp.",
+            "Với hữu kiết sử, bỏ cả hai lời khen chê tất cả người chưa dứt hoặc đã dứt. Hãy nói: khi hữu kiết sử chưa được đoạn trừ, hữu cũng chưa được đoạn trừ; khi hữu kiết sử đã được đoạn trừ, hữu cũng được đoạn trừ. Phật kết rằng đây là không tâng bốc, không chê bai, chỉ giảng Pháp, rồi nhắc và xác nhận nghĩa của lời tóm lược."
+          ]
+        },
+        {
+          "id": "feedback",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: một cuộc duyệt công việc",
+          "meaningUnits": [
+            "sensual-principle",
+            "mortification-principle",
+            "fetter-principle"
+          ],
+          "paragraphs": [
+            "“Bản này thiếu căn cứ ở phần kết luận, hãy bổ sung dữ kiện” giúp người làm biết cần sửa gì. Một nhãn chung về năng lực hay phẩm chất của họ dễ kéo cuộc trao đổi sang việc bảo vệ bản thân. Đây là ví dụ trong công việc hôm nay, gợi cách đưa sự chú ý về hành động và điều kiện cụ thể."
+          ]
+        },
+        {
+          "id": "sensual",
+          "kind": "teaching",
+          "heading": "Lạc do giác quan và cách đối xử với nó",
+          "meaningUnits": [
+            "pleasure-question",
+            "five",
+            "sensual-pleasure"
+          ],
+          "paragraphs": [
+            "Để giải việc phân biệt lạc rồi chuyên lạc nội tại, Phật nêu năm đối tượng dục: sắc do mắt biết, tiếng do tai biết, hương do mũi biết, vị do lưỡi biết, xúc chạm do thân biết. Mỗi loại đáng ưa, đáng thích, dễ chịu, hấp dẫn, liên hệ dục và khơi ham muốn.",
+            "Lạc và hỷ, sự dễ chịu và vui mừng, sinh từ năm đối tượng ấy gọi là lạc dục, lạc uế trược (nhơ bẩn), lạc phàm phu, lạc không Thánh. Phật dạy không thân cận, không tu tập, không làm tăng trưởng và nên sợ loại lạc này."
+          ]
+        },
+        {
+          "id": "inner",
+          "kind": "teaching",
+          "heading": "Bốn thiền và lạc nội tại",
+          "meaningUnits": [
+            "first",
+            "second",
+            "latter",
+            "inner-pleasure"
+          ],
+          "paragraphs": [
+            "Xa dục và các pháp bất thiện, những trạng thái không lành, vị tu chứng và an trú, sống trong thiền thứ nhất: có tầm, tứ, đưa tâm đến và giữ tâm với đối tượng; có hỷ lạc do xa dục sinh. Khi tầm tứ lắng, nội tâm lắng trong, hợp nhất, không tầm không tứ, vị ấy chứng và sống trong thiền thứ hai với hỷ lạc do định (sự tập trung vững vàng của tâm) sinh ra.",
+            "Tiếp đó là thiền thứ ba, hỷ phai nhạt, vị ấy sống với xả, sự quân bình; rồi việc chứng và sống trong thiền thứ tư. Đây được gọi là lạc ly dục, lạc độc cư, lạc an tịnh, lạc chánh giác: an vui của xa dục, ở riêng, lắng yên và giác ngộ.",
+            "Loại lạc này nên được thân cận, tu tập, làm tăng trưởng; không nên sợ. Phật nhắc lại và xác nhận đó là nghĩa của việc biết phân biệt lạc rồi chuyên tâm vào lạc bên trong."
+          ]
+        },
+        {
+          "id": "private",
+          "kind": "teaching",
+          "heading": "Lời nói kín cần sự thật, lợi ích và thời điểm",
+          "meaningUnits": [
+            "speech-question",
+            "private-false",
+            "private-useless",
+            "private-useful"
+          ],
+          "paragraphs": [
+            "Lời tóm lược về không nói bí mật, không nói gay gắt thẳng mặt được giải bằng các điều kiện. Với lời nói kín, nếu biết là không thật, không đúng, không có lợi, hãy cố hết sức không nói. Nếu biết thật và đúng nhưng không có lợi, hãy tập không nói.",
+            "Nếu biết lời ấy thật, đúng và có lợi, cần biết đúng lúc để nói. Ba trường hợp giữ riêng việc xác định sự thật, ích lợi và thời điểm."
+          ]
+        },
+        {
+          "id": "direct",
+          "kind": "teaching",
+          "heading": "Lời gay gắt trước mặt cũng cần được xét",
+          "meaningUnits": [
+            "direct-false",
+            "direct-useless",
+            "direct-useful",
+            "speech-close"
+          ],
+          "paragraphs": [
+            "Với lời gay gắt nói trực diện, biết không thật, không đúng, không ích lợi thì cố hết sức không nói. Biết thật, đúng nhưng không ích lợi thì tập không nói. Biết thật, đúng và ích lợi thì biết đúng thời để nói.",
+            "Phật nhắc lại lời không nói bí mật, không nói gay gắt thẳng mặt và xác nhận chính sự phân biệt này giải thích lời ấy."
+          ]
+        },
+        {
+          "id": "pace",
+          "kind": "teaching",
+          "heading": "Nhịp nói có hệ quả",
+          "meaningUnits": [
+            "speed-question",
+            "hurried",
+            "unhurried",
+            "speed-close"
+          ],
+          "paragraphs": [
+            "Vì sao nói không vội? Trong lời giảng, người nói vội có thân mệt, tâm bị tổn hại, giọng bị tổn hại, cổ họng đau; lời không rõ và khó hiểu. Người nói không vội thì thân không mệt, tâm và giọng không bị tổn hại, cổ họng không đau; lời rõ và dễ hiểu.",
+            "Đó là lý do Phật nhắc lại việc nói không vội vàng."
+          ]
+        },
+        {
+          "id": "names",
+          "kind": "teaching",
+          "heading": "Dùng tên để hiểu nhau",
+          "meaningUnits": [
+            "names-question",
+            "names-bound",
+            "names-free",
+            "names-close"
+          ],
+          "paragraphs": [
+            "Đến chuyện ngôn từ địa phương và danh xưng thông thường, Phật đưa cùng một vật được các nơi gọi bằng bảy tên: pātī, patta, vitta, sarāva, dhāropa, poṇa, pisīlava. Người dùng cách gọi của địa phương rồi giữ cứng, chấp thủ, nhất quyết “Chỉ đây là thật, ngoài ra đều hư vọng” đã bám vào từ ngữ và vượt quá danh xưng.",
+            "Ở nhánh không bám, cũng vật ấy, cũng bảy tên ấy. Người nói hiểu “Hình như các vị dùng từ ấy để chỉ vật này”, rồi dùng theo mà không chấp thủ. Như vậy là không chấp ngôn từ địa phương, không vượt danh xưng. Phật nhắc lại lời dạy và xác nhận lý do."
+          ]
+        },
+        {
+          "id": "recap-practice",
+          "kind": "teaching",
+          "heading": "Các lựa chọn thực hành được phân về hai phía",
+          "meaningUnits": [
+            "sum-sensual",
+            "sum-mortification",
+            "sum-middle"
+          ],
+          "paragraphs": [
+            "Phần tổng kết nêu lại mười chín trường hợp. Chuyên theo hỷ lạc dục có năm nét đã nói, và chuyên tự hành khổ có ba nét đã nói: mỗi việc có khổ, hại, ưu não, nhiệt não; là tà hạnh, vì thế là pháp có tranh chấp.",
+            "Không chuyên theo lạc dục ấy, không chuyên tự hành khổ, và trung đạo Phật đã giác ngộ: mỗi điều không khổ, không hại, không ưu não, không nhiệt não; là chánh hạnh, vì thế không tranh chấp. Trung đạo cho cái thấy, trí hiểu, đưa tới lắng yên, biết trực tiếp, giác ngộ và Niết-bàn."
+          ]
+        },
+        {
+          "id": "recap-teaching",
+          "kind": "teaching",
+          "heading": "Lời giảng và hai loại lạc",
+          "meaningUnits": [
+            "sum-teaching",
+            "sum-pleasures"
+          ],
+          "paragraphs": [
+            "Tâng bốc, chê bai mà không giảng Pháp, và lạc dục được gọi uế trược, phàm phu, không Thánh: mỗi điều có khổ, hại, ưu não, nhiệt não; là tà hạnh nên có tranh chấp.",
+            "Không tâng bốc, không chê bai mà chỉ giảng Pháp, và lạc ly dục, độc cư, an tịnh, chánh giác: mỗi điều không có bốn mặt ấy, là chánh hạnh nên không tranh chấp."
+          ]
+        },
+        {
+          "id": "recap-words",
+          "kind": "teaching",
+          "heading": "Sáu trường hợp lời nói",
+          "meaningUnits": [
+            "sum-private",
+            "sum-direct"
+          ],
+          "paragraphs": [
+            "Với lời nói kín, không thật, không đúng, không lợi là một trường hợp; thật và đúng nhưng không lợi là trường hợp nữa. Mỗi loại có khổ, hại, ưu não, nhiệt não, là tà hạnh nên có tranh chấp. Lời kín thật, đúng, có lợi thì không có bốn mặt ấy, là chánh hạnh nên không tranh chấp.",
+            "Với lời gay gắt thẳng mặt, cũng phân riêng lời không thật, không đúng, không lợi; và lời thật, đúng nhưng không lợi. Mỗi loại có bốn mặt khổ, hại, ưu não, nhiệt não, là tà hạnh nên có tranh chấp. Lời gay gắt thẳng mặt thật, đúng, có lợi thì không có bốn mặt ấy, là chánh hạnh nên không tranh chấp."
+          ]
+        },
+        {
+          "id": "recap-usage",
+          "kind": "teaching",
+          "heading": "Nhịp nói và sự bám vào tên",
+          "meaningUnits": [
+            "sum-speed",
+            "sum-names"
+          ],
+          "paragraphs": [
+            "Nói vội, và chấp địa phương ngữ rồi vượt danh xưng thông thường: mỗi việc có khổ, hại, ưu não, nhiệt não, là tà hạnh nên có tranh chấp.",
+            "Nói không vội, và không chấp địa phương ngữ, không vượt danh xưng: mỗi việc không có bốn mặt ấy, là chánh hạnh nên không tranh chấp."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý trước một cuộc trao đổi khó",
+          "meaningUnits": [
+            "private-useful",
+            "direct-useful",
+            "unhurried",
+            "names-free"
+          ],
+          "paragraphs": [
+            "Bạn có thể viết ra điều cần trao đổi, kiểm lại dữ kiện và ích lợi, chọn thời điểm, rồi nói đủ thong thả để người nghe hiểu. Nếu bất đồng do một thuật ngữ, hãy hỏi người kia đang dùng từ ấy để chỉ điều gì. Đây là gợi ý thực hành hiện đại, nối với các phân biệt về lời nói trong bài."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Biết hai phía để thực hành",
+          "meaningUnits": [
+            "training",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật dạy các tỳ-kheo học như sau: sẽ biết pháp có tranh chấp, biết pháp không tranh chấp; biết cả hai rồi thực hành con đường không tranh chấp. Ngài nêu thiện nam tử Subhūti, người con nhà lành, đang thực hành con đường ấy.",
+            "Phật nói xong, các vị hoan hỷ tán đồng. Kinh Phân Biệt Không Tranh Chấp kết thúc, là bài thứ chín trong nhóm kinh này."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Diễn giải dành cho người lớn tuổi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Một lời dạy về không tranh chấp",
+          "meaningUnits": [
+            "title",
+            "opening",
+            "promise"
+          ],
+          "paragraphs": [
+            "Kinh Phân Biệt Không Tranh Chấp là bài 139 trong Trung Bộ. Người truyền kinh kể điều đã nghe: Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những nam tu sĩ đã thọ giới đầy đủ, và các vị kính đáp.",
+            "Ngài nói sẽ giảng về phân biệt không tranh chấp, bảo hãy nghe, chú tâm kỹ. Các vị vâng lời, Phật bắt đầu."
+          ]
+        },
+        {
+          "id": "outline",
+          "kind": "teaching",
+          "heading": "Hướng đi được nêu trước",
+          "meaningUnits": [
+            "outline"
+          ],
+          "paragraphs": [
+            "Không nên chuyên tâm theo lạc dục, niềm vui giác quan thấp kém, thô tục, thuộc phàm phu thường tình, không thuộc bậc Thánh, không đem lợi ích. Cũng không chuyên tâm tự làm khổ mình, điều đau khổ, không Thánh, không ích lợi. Tránh hai cực đoan ấy là trung đạo Phật đã giác ngộ: đem lại cái thấy và trí hiểu, dẫn tới an tịnh (lắng yên), thắng trí (biết trực tiếp), giác ngộ và Niết-bàn, sự chấm dứt khát ái (lòng khao khát bám víu) và khổ.",
+            "Phải biết tâng bốc và chê bai, rồi không làm hai việc ấy, chỉ giảng Pháp. Phải phân biệt lạc, sự an vui, để chuyên vào lạc bên trong. Không nói lời bí mật, không nói gay gắt thẳng mặt; nói không vội vàng. Không chấp chặt ngôn từ của địa phương, không đi quá danh xưng thông thường. Phật lần lượt giải rõ bản tóm lược ấy."
+          ]
+        },
+        {
+          "id": "sensual",
+          "kind": "teaching",
+          "heading": "Theo dục lạc và không theo dục lạc",
+          "meaningUnits": [
+            "extremes-question",
+            "sensual-wrong",
+            "sensual-right"
+          ],
+          "paragraphs": [
+            "Nhắc lại đầy đủ lời tránh hai cực đoan, Phật hỏi vì sao nói vậy. Niềm vui và sự dễ chịu được gọi là hỷ lạc. Việc chuyên theo hỷ lạc do dục, với năm nét đã nêu, có đau khổ, tổn hại, ưu não và nhiệt não — buồn lo, nóng bức trong tâm. Đó là tà hạnh, cách thực hành sai.",
+            "Không chuyên theo loại hỷ lạc ấy thì không khổ, không hại, không ưu não, không nhiệt não. Đó là chánh hạnh, cách thực hành đúng."
+          ]
+        },
+        {
+          "id": "mortification",
+          "kind": "teaching",
+          "heading": "Tự hành khổ cũng không phải lối đi đúng",
+          "meaningUnits": [
+            "mortification-wrong",
+            "mortification-right",
+            "extremes-close"
+          ],
+          "paragraphs": [
+            "Việc chuyên tự làm khổ mình, điều đau khổ, không Thánh, không ích lợi, cũng có khổ, hại, ưu não và nhiệt não; là tà hạnh. Không chuyên theo nó thì không có bốn mặt ấy, là chánh hạnh.",
+            "Phật nhắc lại lời không chuyên theo cả hai cực đoan. Chính những lý do vừa giải khiến Ngài nói như vậy."
+          ]
+        },
+        {
+          "id": "middle",
+          "kind": "teaching",
+          "heading": "Trung đạo là tám chi của con đường Thánh",
+          "meaningUnits": [
+            "middle"
+          ],
+          "paragraphs": [
+            "Đến lời trung đạo, Phật nhắc lại rồi giải: đó chính là Thánh đạo tám chi. Chánh kiến là thấy hiểu đúng; chánh tư duy là hướng nghĩ đúng; chánh ngữ là lời nói đúng; chánh nghiệp là hành động đúng. Chánh mạng là cách kiếm sống đúng; chánh tinh tấn là nỗ lực đúng; chánh niệm là nhớ biết đúng; chánh định là tập trung tâm đúng.",
+            "Như Lai, một danh hiệu của Phật, đã giác ngộ trung đạo tránh hai cực đoan. Con đường này cho cái thấy, cho hiểu biết, đưa tới lắng yên, biết trực tiếp, giác ngộ và Niết-bàn. Phật nhắc lại lời ấy và xác nhận tám chi là phần giải thích."
+          ]
+        },
+        {
+          "id": "judging",
+          "kind": "teaching",
+          "heading": "Khi người nói chỉ khen chê người khác",
+          "meaningUnits": [
+            "praise-question",
+            "sensual-people",
+            "mortification-people",
+            "fetter-people"
+          ],
+          "paragraphs": [
+            "Phật tiếp tục giải lời nên biết tâng bốc và chê bai để chỉ giảng Pháp. Với người chuyên theo hỷ lạc dục loại đã nêu, nói tất cả họ đều có khổ, hại, ưu não, nhiệt não và đi đường sai là chê bai. Với người không chuyên theo, nói tất cả họ đều không có bốn mặt ấy và đi đường đúng là tâng bốc.",
+            "Với người chuyên tự hành khổ loại đau khổ, không Thánh, không ích lợi, gán cho tất cả họ bốn mặt khổ, hại, ưu não, nhiệt não cùng đường sai cũng là chê bai. Với người không chuyên tự hành khổ, gán cho tất cả họ sự không có bốn mặt ấy cùng đường đúng là tâng bốc.",
+            "Cũng vậy, hữu kiết sử là sự trói buộc vào hữu, đời sống tiếp nối trong tái sinh. Nói tất cả người chưa dứt trói buộc ấy đều có bốn mặt khổ, hại, ưu não, nhiệt não và đi đường sai là chê bai; nói tất cả người đã dứt đều không có bốn mặt ấy và đi đường đúng là tâng bốc. Cả ba cặp ấy đều là khen chê mà chưa phải chỉ giảng Pháp."
+          ]
+        },
+        {
+          "id": "teaching",
+          "kind": "teaching",
+          "heading": "Để người nghe hiểu việc và điều kiện",
+          "meaningUnits": [
+            "teach-question",
+            "sensual-principle",
+            "mortification-principle",
+            "fetter-principle",
+            "teach-close"
+          ],
+          "paragraphs": [
+            "Cách chỉ giảng Pháp không nói hai lời về tất cả người theo hoặc không theo dục như trước. Nó chỉ rõ: việc theo đuổi hỷ lạc dục có khổ, hại, ưu não, nhiệt não và là tà hạnh; việc không theo đuổi không có bốn mặt ấy và là chánh hạnh.",
+            "Với tự hành khổ, cũng không nói hai lời gán cho tất cả người theo hoặc không theo. Nói về việc thực hành ấy có khổ, hại, ưu não, nhiệt não và là tà hạnh; việc không theo nó không có bốn mặt ấy và là chánh hạnh. Cả hai cách trình bày đều giảng Pháp.",
+            "Với hữu kiết sử, không dùng hai lời khen chê tất cả người chưa dứt hay đã dứt. Hãy chỉ rõ: khi hữu kiết sử chưa được dứt bỏ, hữu cũng chưa dứt bỏ; khi hữu kiết sử đã dứt bỏ, hữu cũng dứt bỏ. Phật nhắc lại lời tóm lược và kết rằng đây chính là không tâng bốc, không chê bai, chỉ giảng Pháp."
+          ]
+        },
+        {
+          "id": "family-example",
+          "kind": "example",
+          "heading": "Ví dụ gần gũi: cùng sửa một việc",
+          "meaningUnits": [
+            "sensual-principle",
+            "mortification-principle"
+          ],
+          "paragraphs": [
+            "Trong nhà có việc chưa ổn, câu “Việc này cần làm lại cho chắc” có thể giúp mọi người cùng nhìn vào cách làm. Một lời gán cả con người là tốt hay dở lại dễ khiến cuộc nói chuyện rời khỏi việc cần giải quyết. Đây là ví dụ hiện đại để gợi cách góp lời cụ thể."
+          ]
+        },
+        {
+          "id": "pleasure",
+          "kind": "teaching",
+          "heading": "Phân biệt niềm vui do giác quan",
+          "meaningUnits": [
+            "pleasure-question",
+            "five",
+            "sensual-pleasure"
+          ],
+          "paragraphs": [
+            "Phật nhắc lời biết phân biệt lạc rồi chuyên lạc nội tại. Ngài nêu năm đối tượng dục: sắc do mắt biết, tiếng do tai biết, hương do mũi biết, vị do lưỡi biết, xúc chạm do thân biết. Mỗi đối tượng đáng ưa, đáng thích, dễ chịu, hấp dẫn, liên hệ dục và khơi ham muốn.",
+            "Lạc và hỷ, sự dễ chịu và niềm vui, sinh nhờ năm đối tượng ấy gọi là lạc dục, lạc uế trược (nhơ bẩn), lạc phàm phu, lạc không Thánh. Phật dạy không nên thân cận, không tu tập, không làm lớn thêm, nên sợ loại lạc ấy."
+          ]
+        },
+        {
+          "id": "inner",
+          "kind": "teaching",
+          "heading": "Niềm an vui nên được tu tập",
+          "meaningUnits": [
+            "first",
+            "second",
+            "latter",
+            "inner-pleasure"
+          ],
+          "paragraphs": [
+            "Xa dục và các pháp bất thiện, những điều không lành, vị tu chứng và an trú, sống trong thiền thứ nhất. Có tầm và tứ, đưa tâm đến rồi giữ tâm với đối tượng, cùng hỷ lạc do xa dục sinh.",
+            "Tầm tứ lắng, nội tâm lắng trong, hợp nhất, không còn tầm tứ. Vị ấy chứng và sống trong thiền thứ hai, có hỷ lạc do định (sự tập trung vững vàng của tâm) sinh ra. Tiếp đến là thiền thứ ba, hỷ phai nhạt và vị ấy sống với xả, tâm quân bình; rồi chứng và sống trong thiền thứ tư.",
+            "Đây là lạc ly dục, an vui của xa dục; lạc độc cư, an vui của ở riêng; lạc an tịnh, an vui lắng yên; lạc chánh giác, an vui giác ngộ. Nên thân cận, tu tập, làm lớn thêm và không sợ loại lạc này. Phật nhắc lại và xác nhận đó là nghĩa của việc phân biệt lạc để chuyên vào lạc bên trong."
+          ]
+        },
+        {
+          "id": "private",
+          "kind": "teaching",
+          "heading": "Lời nói kín cần được cân nhắc",
+          "meaningUnits": [
+            "speech-question",
+            "private-false",
+            "private-useless",
+            "private-useful"
+          ],
+          "paragraphs": [
+            "Phật trở lại lời không nói bí mật, không nói gay gắt thẳng mặt, rồi phân biệt rõ. Với lời bí mật, lời nói kín, biết nó không thật, không đúng, không có lợi ích thì cố hết sức không nói.",
+            "Biết lời ấy thật, đúng nhưng không có lợi ích thì tập không nói. Biết lời ấy thật, đúng, có lợi ích thì biết đúng thời để nói."
+          ]
+        },
+        {
+          "id": "direct",
+          "kind": "teaching",
+          "heading": "Xét một lời nói trực diện",
+          "meaningUnits": [
+            "direct-false",
+            "direct-useless",
+            "direct-useful",
+            "speech-close"
+          ],
+          "paragraphs": [
+            "Đối với lời gay gắt thẳng mặt, biết không thật, không đúng, không ích lợi thì cố hết sức không nói. Biết thật, đúng nhưng không ích lợi thì tập không nói.",
+            "Biết thật, đúng và ích lợi thì biết đúng lúc để nói. Phật nhắc lại lời đã nêu, xác nhận chính các trường hợp ấy giải thích ý của Ngài."
+          ]
+        },
+        {
+          "id": "unhurried",
+          "kind": "teaching",
+          "heading": "Thêm sự thong thả trong lời nói",
+          "meaningUnits": [
+            "speed-question",
+            "hurried",
+            "unhurried",
+            "speed-close"
+          ],
+          "paragraphs": [
+            "Vì sao không nói vội? Phật nói khi vội, thân mệt, tâm bị tổn hại, giọng bị tổn hại, cổ họng đau; lời không rõ, khó hiểu.",
+            "Khi không vội, thân không mệt, tâm và giọng không bị tổn hại, cổ họng không đau; lời rõ và dễ hiểu. Phật nhắc lại lời nói không vội vàng và xác nhận lý do này."
+          ]
+        },
+        {
+          "id": "names",
+          "kind": "teaching",
+          "heading": "Hiểu người ta đang chỉ điều gì",
+          "meaningUnits": [
+            "names-question",
+            "names-bound",
+            "names-free",
+            "names-close"
+          ],
+          "paragraphs": [
+            "Phật giải chuyện ngôn từ địa phương và danh xưng thông thường bằng một vật có nhiều tên. Nơi này gọi pātī, nơi khác gọi patta, vitta, sarāva, dhāropa, poṇa hoặc pisīlava. Nếu dùng cách gọi của địa phương ấy rồi giữ cứng, chấp thủ, nhất quyết “Chỉ đây thật, ngoài ra đều hư vọng”, đó là chấp từ ngữ và đi quá danh xưng.",
+            "Không chấp là thế nào? Vẫn cùng vật ấy và bảy tên ấy, người ấy nghĩ “Hình như các vị dùng chữ này để chỉ vật ấy”, rồi nói theo mà không nắm giữ. Như vậy là không chấp địa phương ngữ, không vượt danh xưng thông thường. Phật nhắc lại và xác nhận lời đã dạy."
+          ]
+        },
+        {
+          "id": "dialect",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: những tiếng quen khác nhau",
+          "meaningUnits": [
+            "names-bound",
+            "names-free"
+          ],
+          "paragraphs": [
+            "Người quen nói “ngô”, người quen nói “bắp”. Khi biết hai người đang chỉ cùng một thứ, cuộc chuyện trò có thể tiếp tục nhẹ nhàng. Ví dụ hiện đại này giúp thấy lợi ích của việc hiểu ý qua tên gọi, thay vì giữ tên quen như điều phải thắng."
+          ]
+        },
+        {
+          "id": "recap-way",
+          "kind": "teaching",
+          "heading": "Phần tổng kết về con đường tu",
+          "meaningUnits": [
+            "sum-sensual",
+            "sum-mortification",
+            "sum-middle"
+          ],
+          "paragraphs": [
+            "Phật tổng kết mười chín trường hợp. Chuyên theo hỷ lạc dục với năm nét đã nói, và chuyên tự hành khổ với ba nét đã nói: mỗi việc có khổ, hại, ưu não, nhiệt não, là tà hạnh; vì thế là pháp có tranh chấp.",
+            "Không chuyên theo loại hỷ lạc ấy, không chuyên tự hành khổ, và trung đạo Phật đã giác ngộ: mỗi điều không khổ, không hại, không ưu não, không nhiệt não, là chánh hạnh; vì thế không tranh chấp. Trung đạo đem cái thấy và hiểu biết, đưa tới lắng yên, biết trực tiếp, giác ngộ, Niết-bàn."
+          ]
+        },
+        {
+          "id": "recap-teaching",
+          "kind": "teaching",
+          "heading": "Phần tổng kết về lời giảng và lạc",
+          "meaningUnits": [
+            "sum-teaching",
+            "sum-pleasures"
+          ],
+          "paragraphs": [
+            "Tâng bốc, chê bai mà không giảng Pháp, và lạc dục được gọi uế trược, phàm phu, không Thánh: mỗi điều có khổ, hại, ưu não, nhiệt não, là tà hạnh nên có tranh chấp.",
+            "Không tâng bốc, không chê bai, chỉ giảng Pháp, và lạc ly dục, độc cư, an tịnh, chánh giác: mỗi điều không có bốn mặt ấy, là chánh hạnh nên không tranh chấp."
+          ]
+        },
+        {
+          "id": "recap-private",
+          "kind": "teaching",
+          "heading": "Phần tổng kết về lời nói kín",
+          "meaningUnits": [
+            "sum-private"
+          ],
+          "paragraphs": [
+            "Lời nói kín không thật, không đúng, không có lợi ích; hoặc thật, đúng nhưng không có lợi ích: từng trường hợp có khổ, hại, ưu não, nhiệt não, là tà hạnh nên có tranh chấp.",
+            "Lời nói kín thật, đúng, có lợi ích thì không có bốn mặt ấy, là chánh hạnh nên không tranh chấp."
+          ]
+        },
+        {
+          "id": "recap-direct",
+          "kind": "teaching",
+          "heading": "Phần tổng kết về lời thẳng mặt",
+          "meaningUnits": [
+            "sum-direct"
+          ],
+          "paragraphs": [
+            "Lời gay gắt thẳng mặt không thật, không đúng, không có lợi ích; hoặc thật, đúng nhưng không có lợi ích: từng trường hợp có khổ, hại, ưu não, nhiệt não, là tà hạnh nên có tranh chấp.",
+            "Lời gay gắt thẳng mặt thật, đúng, có lợi ích thì không có bốn mặt ấy, là chánh hạnh nên không tranh chấp."
+          ]
+        },
+        {
+          "id": "recap-usage",
+          "kind": "teaching",
+          "heading": "Phần tổng kết về nhịp nói và tên gọi",
+          "meaningUnits": [
+            "sum-speed",
+            "sum-names"
+          ],
+          "paragraphs": [
+            "Nói vội, và bám ngôn từ địa phương rồi vượt danh xưng thông thường: mỗi việc có khổ, hại, ưu não, nhiệt não, là tà hạnh nên có tranh chấp.",
+            "Nói không vội, và không bám ngôn từ địa phương, không vượt danh xưng: mỗi việc không có bốn mặt ấy, là chánh hạnh nên không tranh chấp."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một việc nhỏ có thể tập trong ngày",
+          "meaningUnits": [
+            "private-useful",
+            "direct-useful",
+            "unhurried",
+            "names-free"
+          ],
+          "paragraphs": [
+            "Trước một lời góp ý, ta có thể xét lại điều mình biết có thật, đúng và ích lợi không, rồi chọn lúc thích hợp, nói đủ thong thả. Gặp một tiếng gọi lạ, ta hỏi xem người kia đang chỉ điều gì. Đây là gợi ý thực hành hiện đại từ những phân biệt trong bài kinh."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Biết rõ để sống theo hạnh không tranh chấp",
+          "meaningUnits": [
+            "training",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật dạy các vị học rằng sẽ biết pháp có tranh chấp, biết pháp không tranh chấp; sau khi biết cả hai thì thực hành con đường không tranh chấp. Thiện nam tử Subhūti, người con nhà lành, được Ngài nêu là đang thực hành con đường ấy.",
+            "Phật nói xong, các tỳ-kheo hoan hỷ tán đồng. Kinh Phân Biệt Không Tranh Chấp kết thúc, là bài thứ chín trong nhóm kinh này."
+          ]
+        }
+      ]
+    }
+  }
+}

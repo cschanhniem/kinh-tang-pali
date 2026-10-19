@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn139",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "b522b62c-649c-4793-b54c-8a0b49e1f9db"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "031d4a87-8765-4438-81fb-237b5e3055c2"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "5e4e9945-3a16-4b8c-8db9-23f649aa326e"
+    }
+  },
+  "reviews": [
+    {
+      "id": "b522b62c-649c-4793-b54c-8a0b49e1f9db",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.6,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Đã đối chiếu đủ 201 khóa Pāli, Việt dự án và Sujato cùng toàn HTML và năm chú thích. Bản trẻ giữ hỷ phai, sống xả ở thiền ba và chỉ nêu thiền bốn theo mức lược thực có; không nhập công thức từ bài khác.",
+        "semantic_fidelity": "Phần đầu giữ cả năm nét của lạc dục và ba nét của tự hành khổ; các nét ấy thuộc điều được từ bỏ. Trung đạo vẫn hướng đến Niết-bàn, và hữu kiết sử vẫn gắn với đời sống tiếp nối trong tái sinh, không bị rút về giao tiếp khéo.",
+        "core_coverage": "Đủ 54 đơn vị ý: tám chi, ba cặp lời khen chê, sáu lời không nói như vậy, năm dục với sáu nét, bốn thiền và đủ 19 trường hợp kết. Các đoạn tổng kết dùng mỗi việc hoặc mỗi điều để giữ phạm vi khi gộp công thức.",
+        "logic_context": "Bản trẻ phân biệt nói về tất cả người với nói về việc thực hành; hai điều kiện chưa dứt và đã dứt hữu kiết sử giữ đủ kết quả. Lời kín và lời gay gắt đều có ba nhánh riêng, không biến nhánh có ích thành phải nói ngay.",
+        "terminology": "Tà hạnh, chánh hạnh, hữu kiết sử, Niết-bàn, tầm tứ và định đều được giải gần chỗ dùng. Tám chi có lời mở ngắn; các từ như Pháp và phàm phu vẫn cần trẻ đọc trong mạch giải thích, nên mức dễ hiểu chưa tuyệt đối.",
+        "audience_fit": "Ví góp ý bài cộng và cách gọi bát/chén gần trải nghiệm học tập, giúp trẻ hiểu việc gắn nhãn và bám tên. Bài vẫn có nhiều khái niệm trừu tượng cùng các nhóm bốn hệ quả lặp lại, phù hợp đọc từng phần hơn đọc nhanh liên tục.",
+        "clarity": "Hai mươi mục chia rõ vấn đề, lời giải và tổng kết; các tiêu đề lời nói kín, lời gay gắt, một vật nhiều tên giúp theo được mạch. Một số đoạn về tất cả người và hữu kiết sử dài, đòi hỏi dừng lại để nhận ra phạm vi phủ định.",
+        "editorial_separation": "Hai ví dụ hiện đại và một mục thực hành mang nhãn riêng. Câu chuyện bài làm, bát/chén không bị trình thành lời kinh; các diễn giải về lạc và thiền vẫn nằm trong phần giảng, không thêm chuyện minh họa vào lời Phật.",
+        "practical_integrity": "Gợi ý dừng một nhịp, xét thật–đúng–ích lợi và thời điểm vừa sức trẻ. Bản không dùng lời nên sợ lạc dục để đe trẻ phục tùng, cũng không hứa luyện nói sẽ hoàn tất tám chi hoặc chữa tình trạng đau họng.",
+        "technical_integrity": "Audit canonical độc lập sạch với 20 mục, 40 đoạn, 54 ý và 201 khóa; năm SHA khớp các byte đã đọc, ba fingerprint khớp handoff. Nội dung không đổi kể từ snapshot đọc trọn; đây là kiểm dữ liệu, chưa phải kiểm render hay chọn đánh giá chính thức."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi writer_a sau khi đọc đủ năm nguồn thực, toàn 54 ý và cả ba bản. Không yêu cầu sửa mới; fingerprint và nguồn đúng freeze. Đây là đánh giá bằng AI, chưa thử với người đọc thật và chưa ghi/chọn review chính thức.",
+      "contentHash": "c54b6f969b4eed6187b9f0598da1db43962421dd64efcd365b273b0f310aa835",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn139.html",
+          "sha256": "b6ef7d67fd161804abbdb7cd07eb5f74ece9d4cdb658f79f5d3d7108bfd6cd09"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn139_root-pli-ms.json",
+          "sha256": "08335004dd5a592a00cf0c853ed0129cd4a9afee571d135a5a756dd92a906b51"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn139_translation-en-sujato.json",
+          "sha256": "d7f4b2bdaa707c65e9c789fd5f8968d743a611ffa8cec241f47db8377293a831"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn139_comment-vi-project.json",
+          "sha256": "8e54a69ca039e897d2ec510eac3e9963141e337a41d2960ff9ef75a315d4cecb"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn139_translation-vi-project.json",
+          "sha256": "3900018e959860ea2518affbe94af790f27d1e5975d64a19b6484db81b30ece6"
+        }
+      ]
+    },
+    {
+      "id": "031d4a87-8765-4438-81fb-237b5e3055c2",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.6,
+        "clarity": 9.7,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc trọn năm nguồn thực trước khi kiểm bản trưởng thành. Các lựa chọn lời nói kín, lời gay gắt, tổn hại và cố hết sức bám Pāli/dự án; phần chánh giác trong tổng kết vẫn được giữ dù HTML SC43 thiếu.",
+        "semantic_fidelity": "Bản phân tích đúng sự theo đuổi và sự không theo đuổi, không gán thấp kém cho từ bỏ. Lạc nội tại có đủ bốn tên và hướng được tu tập; gọi lạc chánh giác không bị diễn thành mọi người chứng thiền đã hoàn toàn giải thoát.",
+        "core_coverage": "Mười tám mục giữ trọn 54 ý, kể cả phần nhắc lời tóm lược và xác nhận lý do sau từng giải thích. Mười chín trường hợp cuối có đủ bốn hệ quả, tà/chánh và có/không tranh chấp; không chỉ còn tên nhóm.",
+        "logic_context": "Ba cặp nhãn người chuyển thành ba cặp pháp có quan hệ rõ. Sáu lời không dùng được nêu theo từng cặp; hai mệnh đề về hữu giữ điều kiện, và ba nhánh lời nói giữ khác nhau giữa cố hết sức, tập không nói và biết đúng thời.",
+        "terminology": "Như Lai, an tịnh, thắng trí, hữu, tà/chánh hạnh và các thuật ngữ thiền được mở nghĩa tại chỗ. Tên tám chi giữ phân biệt hành động với nghề sống, nhớ biết với tập trung; một vài cách gọi Pháp và lạc vẫn mang độ nén cần đọc chậm.",
+        "audience_fit": "Ví duyệt công việc nêu một kết luận thiếu dữ kiện, hợp trách nhiệm trong trao đổi của người trưởng thành. Bản gộp các cặp để nhìn cấu trúc, nhưng lượng công thức lặp ở nửa sau còn lớn và giảm phần nào sức cuốn hút của mạch văn.",
+        "clarity": "Các mục labels, dhamma rồi hai loại lạc và lời nói có trình tự dễ theo. Tên người, tác động lên thân/tâm/giọng/họng và chủ thể nói về thực hành đều rõ; các phần tổng kết dùng nhãn phạm vi nhất quán nên không mất điều kiện khi rút gọn.",
+        "editorial_separation": "Ví phản hồi công việc và mục chuẩn bị cuộc trao đổi khó được ghi là hiện đại. Những câu hướng dẫn kiểm dữ kiện không lẫn với công thức tu thiền hoặc hai điều kiện về hữu; bản không tạo trích dẫn ngoài nguồn.",
+        "practical_integrity": "Gợi ý kiểm lại dữ kiện, ích lợi, thời điểm và nghĩa của thuật ngữ bám phần lời nói, có thể làm được. Nó không biến không tranh chấp thành né tránh mọi lời trực diện, cũng không coi hiệu quả công việc là mục tiêu giải thoát của toàn bài.",
+        "technical_integrity": "Audit canonical xác nhận 18 mục, 38 đoạn, tham chiếu đủ 54 ý và đúng 201 khóa. Năm nguồn hiện tại khớp checkpoint cùng pin dự án 65eb7ce; fingerprint giữ nguyên từ lần đọc đầy đủ, không ghi metadata hoặc chạy cổng xuất bản."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi writer_a sau khi đọc đủ năm nguồn thực, toàn 54 ý và cả ba bản. Không yêu cầu sửa mới; fingerprint và nguồn đúng freeze. Đây là đánh giá bằng AI, chưa thử với người đọc thật và chưa ghi/chọn review chính thức.",
+      "contentHash": "0eec9ad27d6f13b13f9ba2c9518bf95cecd985fd037f3d6f777b52b2520fa9a8",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn139.html",
+          "sha256": "b6ef7d67fd161804abbdb7cd07eb5f74ece9d4cdb658f79f5d3d7108bfd6cd09"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn139_root-pli-ms.json",
+          "sha256": "08335004dd5a592a00cf0c853ed0129cd4a9afee571d135a5a756dd92a906b51"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn139_translation-en-sujato.json",
+          "sha256": "d7f4b2bdaa707c65e9c789fd5f8968d743a611ffa8cec241f47db8377293a831"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn139_comment-vi-project.json",
+          "sha256": "8e54a69ca039e897d2ec510eac3e9963141e337a41d2960ff9ef75a315d4cecb"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn139_translation-vi-project.json",
+          "sha256": "3900018e959860ea2518affbe94af790f27d1e5975d64a19b6484db81b30ece6"
+        }
+      ]
+    },
+    {
+      "id": "5e4e9945-3a16-4b8c-8db9-23f649aa326e",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.7,
+        "clarity": 9.7,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Kiểm trên đủ năm nguồn và toàn văn HTML đến ghi công; bản lớn tuổi giữ Subhūti đang thực hành theo Pāli, không đổi thành sự kiện chứng quả. Bảy tên theo root và cùng một vật được giữ, không theo phiên dạng tên khác của HTML.",
+        "semantic_fidelity": "Các phần theo dục, tự hành khổ và từ bỏ giữ đủ hai chiều, cùng bốn mặt khổ/hại/ưu não/nhiệt não. Bản vừa giữ đích Niết-bàn của trung đạo vừa phân biệt niềm vui giác quan với lạc của xa dục, ở riêng, lắng yên, giác ngộ.",
+        "core_coverage": "Hai mươi hai mục phủ toàn 54 ý; lời kín và lời thẳng mặt ở tổng kết được tách riêng, mỗi loại đủ ba trường hợp. Các cặp nhịp nói và bám tên cũng giữ hai phía, làm đủ 19 trường hợp chứ không bỏ các nhánh lặp.",
+        "logic_context": "Nhánh không bám tên vẫn nói theo cách người địa phương dùng, không đòi họ đổi tên. Nhánh lời có ích vẫn cần đúng lúc; sự biết cả có tranh và không tranh dẫn tới việc thực hành, không bị kể thành kết quả mọi người đã đạt.",
+        "terminology": "Hữu kiết sử, hỷ lạc, tà/chánh hạnh, an trú, định và xả đều có lời giải trong câu. Hai từ ưu não/nhiệt não được phân rõ thành buồn lo/nóng bức trong tâm; các thuật ngữ còn dày ở phần tổng kết nhưng có điểm tựa ở đoạn trước.",
+        "audience_fit": "Ví cùng sửa một việc trong nhà và cách gọi ngô/bắp tôn trọng kinh nghiệm sống, không mặc định người lớn tuổi yếu, bệnh hay cô đơn. Tách từng phía dục, hành khổ và từng loại lời nói giúp có chỗ dừng, dù tổng lượng liệt kê vẫn đáng kể.",
+        "clarity": "Các câu giải về thân, tâm, giọng, cổ họng không nhập các đối tượng; phần tên gọi cũng phân rõ người nói, vật và từ. Các đoạn tổng kết ngắn hơn hai bản kia ở phần lời nói, giữ được nhịp đọc chậm và thứ tự nguyên nhân–đánh giá.",
+        "editorial_separation": "Ví dụ gia đình, ngô/bắp và gợi ý trong ngày được đánh nhãn riêng. Lời khuyên hiện tại không xen vào công thức Phật dạy, còn chuyện Subhūti và niềm hoan hỷ cuối bài vẫn được thuật đúng lớp kể.",
+        "practical_integrity": "Tập xét một lời góp ý và hỏi nghĩa một tiếng lạ là việc nhỏ có giới hạn, không hứa xóa hết tranh chấp hoặc đổi sức khỏe. Bản không buộc im lặng trước vấn đề cần nói, vì giữ rõ nhánh thật, đúng, có ích và đúng thời.",
+        "technical_integrity": "Audit độc lập sạch với 22 mục, 44 đoạn và đủ các liên kết của 54 ý/201 khóa. Byte năm nguồn, pin dự án và fingerprint đều khớp freeze; kiểm này không thay thế cổng build, lựa chọn review hoặc thử với độc giả thật."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi writer_a sau khi đọc đủ năm nguồn thực, toàn 54 ý và cả ba bản. Không yêu cầu sửa mới; fingerprint và nguồn đúng freeze. Đây là đánh giá bằng AI, chưa thử với người đọc thật và chưa ghi/chọn review chính thức.",
+      "contentHash": "b76741e8203e819f8caad95edf1fb28b19042e150e2b6291a293a6c57d30e2a4",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn139.html",
+          "sha256": "b6ef7d67fd161804abbdb7cd07eb5f74ece9d4cdb658f79f5d3d7108bfd6cd09"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn139_root-pli-ms.json",
+          "sha256": "08335004dd5a592a00cf0c853ed0129cd4a9afee571d135a5a756dd92a906b51"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn139_translation-en-sujato.json",
+          "sha256": "d7f4b2bdaa707c65e9c789fd5f8968d743a611ffa8cec241f47db8377293a831"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn139_comment-vi-project.json",
+          "sha256": "8e54a69ca039e897d2ec510eac3e9963141e337a41d2960ff9ef75a315d4cecb"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn139_translation-vi-project.json",
+          "sha256": "3900018e959860ea2518affbe94af790f27d1e5975d64a19b6484db81b30ece6"
+        }
+      ]
+    }
+  ]
+}

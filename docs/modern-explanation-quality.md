@@ -133,6 +133,7 @@ Theo dõi bằng nội dung và lịch sử đánh giá trong kho cùng PR đã 
 - [Báo cáo lô 11 — MN101–MN110](modern-explanations/batch-11-mn101-mn110.md)
 - [Báo cáo lô 12 — MN111–MN120](modern-explanations/batch-12-mn111-mn120.md)
 - [Báo cáo lô 13 — MN121–MN130](modern-explanations/batch-13-mn121-mn130.md)
+- [Báo cáo lô 14 — MN131–MN140](modern-explanations/batch-14-mn131-mn140.md)
 - [Hướng dẫn đóng góp](../AGENTS.md)
 - [Quy trình dịch và đối chiếu nguồn](../skill/translation.md)
 - [Đánh giá bản dịch và tóm tắt hiện có](quality-assessments.md)

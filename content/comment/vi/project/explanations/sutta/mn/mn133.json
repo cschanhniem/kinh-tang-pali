@@ -1,0 +1,1460 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn133",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn133_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "da56ced7d90eed92b259993695c4b9949d3d3e414a33e9a01d5ba24f71efab02"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn133_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "7bba1ce2d7d7a0f4f97d8974014f59f59a05b3e9f0c14232c1a6b5478ca99e4f"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn133_translation-vi-project.json",
+      "commit": "65eb7cebf4888967bb7e85aabf01fa29b7534cd6",
+      "sha256": "2b7fa307373b3ae08753b09a0083c4c5e29351042ede20341be3befc7a0b42ce"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn133.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "eeac0d437477d9351683f03a35549b2fafa7e55df201bd4a97be9964c74dcdd0"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn133_comment-vi-project.json",
+      "commit": "65eb7cebf4888967bb7e85aabf01fa29b7534cd6",
+      "sha256": "d4bed84ed803482e2e039b603482891c4d46c89db1796f871bdcb4a3baf34cac"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Tên bài và số kinh",
+      "segments": [
+        "mn133:0.1",
+        "mn133:0.2"
+      ],
+      "summary": "Trung Bộ Kinh 133, Kinh Một Đêm Có Lành cho Mahākaccāna."
+    },
+    {
+      "id": "spring",
+      "title": "Samiddhi bên suối nóng",
+      "segments": [
+        "mn133:1.1",
+        "mn133:1.2",
+        "mn133:1.3",
+        "mn133:1.4"
+      ],
+      "summary": "Lời đã nghe: Phật ở Rājagaha, tu viện Suối Nước Nóng. Cuối đêm gần sáng, Samiddhi thức dậy đến suối tắm, bước lên mặc một y chờ thân khô."
+    },
+    {
+      "id": "visitor",
+      "title": "Một vị thiên đến",
+      "segments": [
+        "mn133:1.5"
+      ],
+      "summary": "Một vị thiên rực rỡ, vào đêm sâu, chiếu sáng cả suối nóng, đến đứng một bên hỏi Samiddhi. Không xác định giới tính vị thiên."
+    },
+    {
+      "id": "questions",
+      "title": "Cả hai đều chưa thuộc",
+      "segments": [
+        "mn133:2.1",
+        "mn133:2.2",
+        "mn133:2.3",
+        "mn133:2.4",
+        "mn133:2.5",
+        "mn133:2.6",
+        "mn133:2.7",
+        "mn133:2.8"
+      ],
+      "summary": "Vị thiên hỏi Samiddhi có nhớ bản tóm lược và phần phân tích Một đêm có lành không; Samiddhi không nhớ và hỏi lại, vị thiên cũng không. Hỏi tương tự về riêng các bài kệ, cả hai cũng không nhớ."
+    },
+    {
+      "id": "advice",
+      "title": "Học, thuộc và giữ",
+      "segments": [
+        "mn133:2.9",
+        "mn133:2.10",
+        "mn133:2.11",
+        "mn133:2.12",
+        "mn133:2.13",
+        "mn133:2.14"
+      ],
+      "summary": "Vị thiên khuyên học lấy, học thuộc, ghi giữ cả tóm lược và phân tích, vì có ích và là căn bản đời tu thanh tịnh; nói xong biến mất tại đó."
+    },
+    {
+      "id": "report",
+      "title": "Samiddhi trình lại",
+      "segments": [
+        "mn133:3.1",
+        "mn133:3.2",
+        "mn133:3.3",
+        "mn133:3.4",
+        "mn133:3.5",
+        "mn133:4.1",
+        "mn133:4.2",
+        "mn133:4.3",
+        "mn133:4.4",
+        "mn133:4.5",
+        "mn133:4.6",
+        "mn133:4.7",
+        "mn133:4.8",
+        "mn133:4.9",
+        "mn133:4.10",
+        "mn133:4.11",
+        "mn133:4.12",
+        "mn133:4.13",
+        "mn133:4.14"
+      ],
+      "summary": "Qua đêm ấy, Samiddhi đến lễ Phật, ngồi bên, thuật lại việc tắm, một y, vị thiên sáng rực, đầy đủ hai lượt hỏi đáp đều không thuộc, ba lời khuyên và lý do, rồi vị thiên biến mất."
+    },
+    {
+      "id": "invitation",
+      "title": "Xin được nghe giảng",
+      "segments": [
+        "mn133:4.15",
+        "mn133:4.16",
+        "mn133:4.17",
+        "mn133:4.18"
+      ],
+      "summary": "Samiddhi thỉnh Phật giảng tóm lược và phân tích; Phật bảo nghe, khéo chú tâm, sẽ nói. Samiddhi vâng đáp; Phật giảng."
+    },
+    {
+      "id": "verse-times",
+      "title": "Quá khứ và tương lai",
+      "segments": [
+        "mn133:5.1",
+        "mn133:5.2",
+        "mn133:5.3",
+        "mn133:5.4"
+      ],
+      "summary": "Kệ: không chạy về quá khứ, không mong chờ vị lai; quá khứ đã bỏ lại, tương lai chưa tới."
+    },
+    {
+      "id": "verse-present",
+      "title": "Thấy rõ hiện tại",
+      "segments": [
+        "mn133:5.5",
+        "mn133:5.6",
+        "mn133:5.7",
+        "mn133:5.8"
+      ],
+      "summary": "Người thấy rõ từng pháp hiện tại ở mỗi trường hợp, biết điều không lung lay, không dao động, hãy vun bồi điều ấy. Không thêm chỉ có hiện tại tồn tại."
+    },
+    {
+      "id": "verse-urgency",
+      "title": "Việc cần làm hôm nay",
+      "segments": [
+        "mn133:5.9",
+        "mn133:5.10",
+        "mn133:5.11",
+        "mn133:5.12"
+      ],
+      "summary": "Hôm nay nhiệt tâm tinh cần, ai biết ngày mai có chết; không mặc cả được với tử thần cùng đại quân."
+    },
+    {
+      "id": "verse-night",
+      "title": "Một đêm có lành",
+      "segments": [
+        "mn133:5.13",
+        "mn133:5.14",
+        "mn133:5.15",
+        "mn133:5.16"
+      ],
+      "summary": "Bậc hiền lắng yên gọi người sống nhiệt tâm như vậy, ngày đêm không mỏi mệt, là người có một đêm lành."
+    },
+    {
+      "id": "withdraw",
+      "title": "Phật vào nơi ở",
+      "segments": [
+        "mn133:6.1",
+        "mn133:6.2"
+      ],
+      "summary": "Nói kệ xong, Phật đứng dậy khỏi chỗ ngồi và vào nơi ở/tịnh phòng."
+    },
+    {
+      "id": "consider",
+      "title": "Các thầy tìm người giải rộng",
+      "segments": [
+        "mn133:7.1",
+        "mn133:7.2",
+        "mn133:7.3",
+        "mn133:7.4",
+        "mn133:7.5",
+        "mn133:7.6",
+        "mn133:7.7",
+        "mn133:7.8",
+        "mn133:7.9",
+        "mn133:7.10",
+        "mn133:7.11",
+        "mn133:7.12",
+        "mn133:7.13",
+        "mn133:7.14",
+        "mn133:7.15",
+        "mn133:7.16",
+        "mn133:7.17",
+        "mn133:7.18",
+        "mn133:7.19"
+      ],
+      "summary": "Không lâu sau Phật đi, các tỳ-kheo nhắc đầy đủ bài kệ, nhận Ngài chỉ giảng tóm tắt chưa phân tích rộng, tự hỏi ai có thể giảng rộng."
+    },
+    {
+      "id": "choose",
+      "title": "Chọn Mahākaccāna",
+      "segments": [
+        "mn133:7.20",
+        "mn133:7.21",
+        "mn133:7.22",
+        "mn133:7.23"
+      ],
+      "summary": "Họ nghĩ Mahākaccāna được Phật khen, bạn đồng tu có trí kính trọng, đủ sức phân tích rộng bản tóm lược; quyết đến hỏi."
+    },
+    {
+      "id": "meet",
+      "title": "Chào hỏi và ngồi bên",
+      "segments": [
+        "mn133:7.24",
+        "mn133:7.25"
+      ],
+      "summary": "Các tỳ-kheo đến Mahākaccāna, trao lời chào hỏi thân hữu, rồi ngồi một bên và thưa chuyện."
+    },
+    {
+      "id": "retell",
+      "title": "Thuật cả lời kệ và suy nghĩ",
+      "segments": [
+        "mn133:7.26",
+        "mn133:7.27",
+        "mn133:7.28",
+        "mn133:7.29",
+        "mn133:7.30",
+        "mn133:7.31",
+        "mn133:7.32",
+        "mn133:7.33",
+        "mn133:7.34",
+        "mn133:7.35",
+        "mn133:7.36",
+        "mn133:8.1",
+        "mn133:8.2",
+        "mn133:8.3",
+        "mn133:8.4",
+        "mn133:8.5",
+        "mn133:8.6"
+      ],
+      "summary": "Các thầy kể Phật nói kệ tóm tắt rồi vào nơi ở, nhắc kệ trong lời kể và trong suy nghĩ của họ, nêu việc tự hỏi ai giải rộng và lý do chọn Mahākaccāna, rồi thỉnh ông giảng."
+    },
+    {
+      "id": "heartwood",
+      "title": "Lõi cây ở đâu",
+      "segments": [
+        "mn133:9.1",
+        "mn133:9.2"
+      ],
+      "summary": "Mahākaccāna ví người tìm lõi ở cây lớn có lõi lại bỏ rễ và thân để tìm trong nhánh lá; các thầy cũng đã gặp trực tiếp Phật nhưng bỏ qua Ngài để hỏi đệ tử."
+    },
+    {
+      "id": "teacher",
+      "title": "Phẩm chất của bậc Thầy",
+      "segments": [
+        "mn133:9.3",
+        "mn133:9.4"
+      ],
+      "summary": "Phật là người thật biết, thật thấy, hiện thân mắt/trí/Pháp/Phạm; người nói, truyền dạy, làm rõ nghĩa, ban bất tử, chủ Pháp, Như Lai. Khi trực diện Phật là lúc nên hỏi và nhớ theo câu trả lời của Ngài."
+    },
+    {
+      "id": "assent",
+      "title": "Các thầy vẫn thỉnh giảng",
+      "segments": [
+        "mn133:10.1",
+        "mn133:10.2",
+        "mn133:10.3",
+        "mn133:10.4",
+        "mn133:10.5",
+        "mn133:10.6"
+      ],
+      "summary": "Các thầy xác nhận lại đủ lời tán thán Phật và lẽ nên hỏi, ghi nhớ lời Ngài; vẫn thỉnh Mahākaccāna, người được khen/kính và đủ khả năng, nếu ông không phiền."
+    },
+    {
+      "id": "hear",
+      "title": "Sẵn sàng lắng nghe",
+      "segments": [
+        "mn133:11.1",
+        "mn133:11.2",
+        "mn133:11.3"
+      ],
+      "summary": "Mahākaccāna bảo nghe và khéo chú tâm; các thầy vâng; ông bắt đầu giảng."
+    },
+    {
+      "id": "basis",
+      "title": "Nêu cách hiểu bài kệ",
+      "segments": [
+        "mn133:12.1",
+        "mn133:12.2",
+        "mn133:12.3",
+        "mn133:12.4",
+        "mn133:12.5",
+        "mn133:12.6"
+      ],
+      "summary": "Mahākaccāna nhắc bài kệ Phật chỉ tóm lược trước khi vào nơi ở, rồi nói đây là cách ông hiểu nghĩa rộng."
+    },
+    {
+      "id": "past-eyes",
+      "title": "Mắt và sắc trong quá khứ",
+      "segments": [
+        "mn133:13.1",
+        "mn133:13.2",
+        "mn133:13.3"
+      ],
+      "summary": "Nghĩ mắt và các sắc của tôi đã như vậy; thức bị dục và tham ái trói, do đó thích thú mê đắm trong đó, do thích thú ấy chạy theo quá khứ."
+    },
+    {
+      "id": "past-all",
+      "title": "Đủ sáu cặp quá khứ",
+      "segments": [
+        "mn133:13.4",
+        "mn133:13.5",
+        "mn133:13.6",
+        "mn133:13.7",
+        "mn133:13.8",
+        "mn133:13.9",
+        "mn133:13.10"
+      ],
+      "summary": "Cùng cơ chế cho tai/tiếng, mũi/mùi, lưỡi/vị, thân/xúc chạm, ý/pháp. Nhắc lại trói thức → thích thú → chạy quá khứ, kết luận đủ sáu cặp."
+    },
+    {
+      "id": "no-past-eyes",
+      "title": "Nhớ mà thức không bị trói",
+      "segments": [
+        "mn133:14.1",
+        "mn133:14.2",
+        "mn133:14.3"
+      ],
+      "summary": "Vẫn nêu mắt/sắc quá khứ như vậy nhưng thức không bị dục và tham ái trói; do đó không thích thú mê đắm ấy, do đó không chạy theo quá khứ."
+    },
+    {
+      "id": "no-past-all",
+      "title": "Không chạy theo ở sáu cặp",
+      "segments": [
+        "mn133:14.4",
+        "mn133:14.5",
+        "mn133:14.6",
+        "mn133:14.7",
+        "mn133:14.8",
+        "mn133:14.9",
+        "mn133:14.10"
+      ],
+      "summary": "Đủ tai/tiếng, mũi/mùi, lưỡi/vị, thân/xúc, ý/pháp; cùng ba phủ định: không trói thức, không thích thú bám theo, không chạy quá khứ."
+    },
+    {
+      "id": "future-eyes",
+      "title": "Hướng tâm tới điều chưa đạt",
+      "segments": [
+        "mn133:15.1",
+        "mn133:15.2",
+        "mn133:15.3"
+      ],
+      "summary": "Ước mắt và sắc tương lai như vậy, đặt tâm vào đạt điều chưa đạt; do đặt tâm nên thích thú với nó, do thích thú nên mong đợi tương lai."
+    },
+    {
+      "id": "future-all",
+      "title": "Mong tương lai ở sáu cặp",
+      "segments": [
+        "mn133:15.4",
+        "mn133:15.5",
+        "mn133:15.6",
+        "mn133:15.7",
+        "mn133:15.8",
+        "mn133:15.9",
+        "mn133:15.10"
+      ],
+      "summary": "Cùng mong ước cho tai/tiếng, mũi/mùi, lưỡi/vị, thân/xúc, ý/pháp; đặt tâm đạt điều chưa đạt → thích thú → mong đợi tương lai."
+    },
+    {
+      "id": "no-future-eyes",
+      "title": "Không đặt tâm chiếm lấy",
+      "segments": [
+        "mn133:16.1",
+        "mn133:16.2",
+        "mn133:16.3"
+      ],
+      "summary": "Vẫn câu mong mắt/sắc tương lai như vậy nhưng không đặt tâm đạt điều chưa đạt; do không đặt tâm nên không thích thú bám vào, do đó không mong chờ tương lai."
+    },
+    {
+      "id": "no-future-all",
+      "title": "Không mong chờ ở sáu cặp",
+      "segments": [
+        "mn133:16.4",
+        "mn133:16.5",
+        "mn133:16.6",
+        "mn133:16.7",
+        "mn133:16.8",
+        "mn133:16.9",
+        "mn133:16.10"
+      ],
+      "summary": "Đủ năm cặp còn lại tai/tiếng, mũi/mùi, lưỡi/vị, thân/xúc, ý/pháp với cùng ba phủ định và kết không mong đợi tương lai."
+    },
+    {
+      "id": "present-eyes",
+      "title": "Nếu trói thức trong hiện tại",
+      "segments": [
+        "mn133:17.1",
+        "mn133:17.2",
+        "mn133:17.3",
+        "mn133:17.4"
+      ],
+      "summary": "Mắt và sắc đều hiện tại. Nếu thức tại đó bị dục và tham ái trói thì thích thú, do thích thú bị lung lay giữa pháp hiện tại. Giữ điều kiện nếu."
+    },
+    {
+      "id": "present-all",
+      "title": "Hiện tại của sáu cặp",
+      "segments": [
+        "mn133:17.5",
+        "mn133:17.6",
+        "mn133:17.7",
+        "mn133:17.8",
+        "mn133:17.9",
+        "mn133:17.10",
+        "mn133:17.11",
+        "mn133:17.12"
+      ],
+      "summary": "Tai/tiếng, mũi/mùi, lưỡi/vị, thân/xúc, ý/pháp đều là hai phía hiện tại; nếu trói thức → thích thú → lung lay, kết luận đủ sáu cặp."
+    },
+    {
+      "id": "no-present-eyes",
+      "title": "Nếu thức không bị trói",
+      "segments": [
+        "mn133:18.1",
+        "mn133:18.2",
+        "mn133:18.3",
+        "mn133:18.4"
+      ],
+      "summary": "Mắt và sắc đều hiện tại. Nếu thức không bị dục và tham ái trói thì không thích thú bám vào, do đó không lung lay hiện tại. Giữ điều kiện nếu và các phủ định."
+    },
+    {
+      "id": "no-present-all",
+      "title": "Không lung lay ở sáu cặp",
+      "segments": [
+        "mn133:18.5",
+        "mn133:18.6",
+        "mn133:18.7",
+        "mn133:18.8",
+        "mn133:18.9",
+        "mn133:18.10",
+        "mn133:18.11",
+        "mn133:18.12"
+      ],
+      "summary": "Đủ năm cặp còn lại, cả hai phía đều hiện tại; nếu không trói thức → không thích thú bám vào → không lung lay. Không bỏ căn để chỉ còn đối tượng."
+    },
+    {
+      "id": "conclusion",
+      "title": "Khép phần giải nghĩa",
+      "segments": [
+        "mn133:19.1",
+        "mn133:19.2",
+        "mn133:19.3",
+        "mn133:19.4",
+        "mn133:19.5",
+        "mn133:19.6"
+      ],
+      "summary": "Mahākaccāna nhắc lại bài kệ và bối cảnh Phật chỉ tóm lược rồi vào nơi ở; xác nhận đây là cách ông hiểu rộng nghĩa."
+    },
+    {
+      "id": "invitation-check",
+      "title": "Mời hỏi lại Đức Phật",
+      "segments": [
+        "mn133:19.7",
+        "mn133:19.8"
+      ],
+      "summary": "Nếu các thầy muốn thì đến hỏi chính Phật, rồi nhớ theo cách Ngài đáp. Đây là lời mời có điều kiện."
+    },
+    {
+      "id": "return",
+      "title": "Tán đồng rồi trở về",
+      "segments": [
+        "mn133:20.1"
+      ],
+      "summary": "Các thầy vui lòng tán đồng Mahākaccāna, đứng dậy, đến lễ Phật rồi ngồi một bên và trình."
+    },
+    {
+      "id": "report-verse",
+      "title": "Thưa lại bản tóm lược",
+      "segments": [
+        "mn133:20.2",
+        "mn133:20.3",
+        "mn133:20.4",
+        "mn133:20.5",
+        "mn133:20.6"
+      ],
+      "summary": "Các thầy thưa Phật đã nói bài kệ tóm lược chưa phân tích rồi đứng dậy vào nơi ở, và nhắc lại bài kệ ấy."
+    },
+    {
+      "id": "report-thought",
+      "title": "Thuật suy nghĩ có nguyên bài kệ",
+      "segments": [
+        "mn133:20.7",
+        "mn133:20.8",
+        "mn133:20.9",
+        "mn133:20.10",
+        "mn133:20.11",
+        "mn133:20.12",
+        "mn133:20.13",
+        "mn133:20.14",
+        "mn133:20.15",
+        "mn133:20.16",
+        "mn133:20.17",
+        "mn133:20.18",
+        "mn133:20.19",
+        "mn133:20.20",
+        "mn133:20.21",
+        "mn133:20.22",
+        "mn133:20.23",
+        "mn133:20.24",
+        "mn133:20.25"
+      ],
+      "summary": "Các thầy kể chính suy nghĩ sau Phật đi: nhắc nguyên 16 câu bài kệ và hỏi ai giải rộng. Giữ lớp lời nghĩ được thuật, không thành Phật giảng bài kệ lần mới."
+    },
+    {
+      "id": "report-choice",
+      "title": "Thuật việc hỏi Mahākaccāna",
+      "segments": [
+        "mn133:20.26",
+        "mn133:20.27",
+        "mn133:20.28",
+        "mn133:20.29",
+        "mn133:20.30",
+        "mn133:20.31"
+      ],
+      "summary": "Kể lý do chọn Mahākaccāna, được Phật khen, bạn tu có trí kính, đủ khả năng; họ đến hỏi và ông giải bằng những cách, từ, câu chữ cụ thể ấy."
+    },
+    {
+      "id": "approval",
+      "title": "Phật xác nhận nghĩa",
+      "segments": [
+        "mn133:21.1",
+        "mn133:21.2",
+        "mn133:21.3"
+      ],
+      "summary": "Phật khen Mahākaccāna hiền trí, đại tuệ; nếu họ hỏi Phật, Ngài cũng đáp đúng như vậy. Đó chính là nghĩa, hãy nhớ như thế."
+    },
+    {
+      "id": "ending",
+      "title": "Hoan hỷ và kết bài",
+      "segments": [
+        "mn133:21.4",
+        "mn133:21.5",
+        "mn133:21.6"
+      ],
+      "summary": "Phật nói xong, các tỳ-kheo vui lòng tán đồng. Kinh Một Đêm Có Lành cho Mahākaccāna kết thúc, bài thứ ba trong nhóm."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Dành cho trẻ em",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Một cuộc gặp bên suối nước nóng",
+          "meaningUnits": [
+            "title",
+            "spring",
+            "visitor"
+          ],
+          "paragraphs": [
+            "MN133 thuộc Trung Bộ Kinh, kể việc Mahākaccāna giảng về “một đêm có lành”. Người truyền kinh mở đầu bằng điều mình đã nghe: Phật ở Rājagaha, tại tu viện Suối Nước Nóng. Cuối đêm, gần sáng, Samiddhi thức dậy đi tắm ở suối. Thầy là một tỳ-kheo, nam tu sĩ theo Phật. Tắm xong, thầy bước lên, đứng mặc một tấm y, áo của người tu, chờ thân khô.",
+            "Đêm đã khuya, một vị trời có ánh sáng rực rỡ làm sáng cả vùng suối nóng. Vị ấy đến đứng một bên và hỏi Samiddhi một điều về học Pháp, lời Phật dạy."
+          ]
+        },
+        {
+          "id": "questions",
+          "kind": "teaching",
+          "heading": "Cả hai cùng nói: chưa thuộc",
+          "meaningUnits": [
+            "questions"
+          ],
+          "paragraphs": [
+            "Vị trời hỏi thầy có nhớ phần tóm lược và phần giải thích rộng về “một đêm có lành” không. Samiddhi đáp chưa thuộc, rồi hỏi lại. Vị trời cũng chưa thuộc. Đến những câu kệ, tức lời dạy được nói thành những dòng thơ ngắn, hai bên lại hỏi nhau và đều nói mình chưa thuộc."
+          ]
+        },
+        {
+          "id": "learn",
+          "kind": "teaching",
+          "heading": "Ba việc cần làm với lời dạy",
+          "meaningUnits": [
+            "advice"
+          ],
+          "paragraphs": [
+            "Vị trời khuyên Samiddhi hãy học lấy, học cho thuộc và giữ nhớ cả phần tóm lược lẫn phần giải thích. Lời dạy ấy có ích và thuộc nền tảng của đời tu thanh tịnh, đời sống tu học trong sạch. Nói xong, vị trời biến mất ngay tại đó."
+          ]
+        },
+        {
+          "id": "ask",
+          "kind": "teaching",
+          "heading": "Samiddhi đến gặp Phật",
+          "meaningUnits": [
+            "report",
+            "invitation"
+          ],
+          "paragraphs": [
+            "Khi đêm ấy qua, Samiddhi đến lễ Phật, rồi ngồi một bên. Thầy kể lại đầy đủ: đã tắm và đứng một y bên suối, vị trời sáng rực đến, hai bên không thuộc cả phần giảng lẫn bài kệ, rồi có ba lời khuyên học lấy, học thuộc và giữ nhớ, vì lời dạy có ích và là nền tảng của đời tu thanh tịnh. Thầy cũng kể việc vị trời biến mất.",
+            "Samiddhi xin Phật giảng cho mình. Phật bảo thầy lắng nghe, chú tâm cho khéo; Ngài sẽ nói. Thầy vâng lời."
+          ]
+        },
+        {
+          "id": "verse-time",
+          "kind": "teaching",
+          "heading": "Chuyện đã qua, việc chưa tới",
+          "meaningUnits": [
+            "verse-times",
+            "verse-present"
+          ],
+          "paragraphs": [
+            "Bài kệ Phật dạy có ý thế này: đừng chạy theo chuyện đã qua, đừng mải mong chờ chuyện chưa tới. Quá khứ đã ở lại phía sau; tương lai còn chưa đến.",
+            "Người thấy rõ từng điều đang có mặt, biết sự không lung lay, không dao động, hãy nuôi dưỡng sự vững vàng ấy. Phần sau của kinh sẽ chỉ rõ điều gì làm tâm lung lay."
+          ]
+        },
+        {
+          "id": "verse-today",
+          "kind": "teaching",
+          "heading": "Việc tu học bắt đầu hôm nay",
+          "meaningUnits": [
+            "verse-urgency",
+            "verse-night"
+          ],
+          "paragraphs": [
+            "Hôm nay cần nhiệt tâm tu tập, vì không ai biết ngày mai mình có chết hay không. Bài kệ dùng hình ảnh Tử thần cùng một đạo quân lớn: ta không thể mặc cả để cái chết nghe theo ý mình.",
+            "Người sống và tu tập như vậy, nhiệt tình, bền bỉ cả ngày lẫn đêm, được bậc hiền lắng yên gọi là người có “một đêm có lành”. Lời kệ nhắc đến một cách sống có tu tập xuyên suốt ngày đêm."
+          ]
+        },
+        {
+          "id": "choose",
+          "kind": "teaching",
+          "heading": "Ai giúp hiểu bài kệ?",
+          "meaningUnits": [
+            "withdraw",
+            "consider",
+            "choose"
+          ],
+          "paragraphs": [
+            "Nói kệ xong, Phật đứng dậy đi vào nơi ở của Ngài. Ít lâu sau, các tỳ-kheo nhắc lại trọn bài kệ và tự hỏi: Phật mới nói vắn tắt, vậy ai sẽ giải rộng ý nghĩa?",
+            "Họ nghĩ đến Mahākaccāna: vị thầy được Phật khen, được những bạn đồng tu có trí kính trọng, và có khả năng giảng rõ. Họ quyết định đến hỏi."
+          ]
+        },
+        {
+          "id": "meeting",
+          "kind": "teaching",
+          "heading": "Lời thỉnh cầu với Mahākaccāna",
+          "meaningUnits": [
+            "meet",
+            "retell"
+          ],
+          "paragraphs": [
+            "Các thầy đến chào hỏi thân tình, rồi ngồi một bên. Họ kể chuyện Phật nói bài kệ và đi vào nơi ở. Họ cũng thuật lại chính suy nghĩ của mình, trong đó có bài kệ ấy và câu hỏi tìm người giải nghĩa, rồi nói vì sao chọn Mahākaccāna. Cuối cùng, họ xin ông giảng."
+          ]
+        },
+        {
+          "id": "tree",
+          "kind": "teaching",
+          "heading": "Tìm lõi cây ở nhánh lá",
+          "meaningUnits": [
+            "heartwood"
+          ],
+          "paragraphs": [
+            "Mahākaccāna đưa ra một ví dụ: một người cần lõi gỗ, phần gỗ chắc bên trong, gặp một cây lớn có lõi. Người ấy lại bỏ qua rễ, bỏ qua thân để tìm lõi ở nhánh và lá. Các thầy vừa được gặp Phật mà lại bỏ qua cơ hội hỏi Ngài, tìm đến hỏi đệ tử, cũng giống như vậy."
+          ]
+        },
+        {
+          "id": "teacher",
+          "kind": "teaching",
+          "heading": "Trở về với bậc Thầy",
+          "meaningUnits": [
+            "teacher",
+            "assent"
+          ],
+          "paragraphs": [
+            "Ông tán thán Phật là người thật biết, thật thấy; là hiện thân của sự thấy rõ, trí tuệ, Pháp và phẩm chất cao quý, được gọi là bậc Phạm. Phật là người nói, truyền dạy, làm rõ ý nghĩa, ban sự bất tử — sự thoát khỏi sinh tử — và làm chủ Pháp. Ngài còn được gọi là Như Lai. Các thầy lẽ ra nên hỏi ngay lúc gặp Ngài và nhớ đúng lời Ngài đáp.",
+            "Các thầy đồng ý với toàn bộ lời tán thán ấy và nhận rằng mình nên hỏi Phật. Nhưng vì Mahākaccāna được Phật khen, bạn tu có trí kính trọng và có khả năng giải rộng, họ vẫn xin ông giảng, nếu việc ấy không làm phiền ông."
+          ]
+        },
+        {
+          "id": "ready",
+          "kind": "teaching",
+          "heading": "Cùng nghe cho rõ",
+          "meaningUnits": [
+            "hear",
+            "basis"
+          ],
+          "paragraphs": [
+            "Mahākaccāna bảo mọi người nghe và chú tâm cho khéo. Các thầy vâng lời. Ông nhắc lại bài kệ Phật vừa nói vắn tắt, rồi bắt đầu giải: đây là cách ông hiểu ý nghĩa rộng của lời ấy."
+          ]
+        },
+        {
+          "id": "past",
+          "kind": "teaching",
+          "heading": "Khi ký ức kéo tâm chạy theo",
+          "meaningUnits": [
+            "past-eyes",
+            "past-all"
+          ],
+          "paragraphs": [
+            "Một người nghĩ: “Ngày trước, mắt tôi như thế, những hình ảnh tôi thấy như thế.” Nếu sự nhận biết, kinh gọi là thức, bị ham muốn và tham luyến trói lại nơi đó, người ấy thích thú bám vào nó. Chính sự thích thú ấy khiến tâm chạy theo quá khứ.",
+            "Điều này có đủ sáu cặp: mắt với hình sắc; tai với âm thanh; mũi với mùi; lưỡi với vị; thân với cái chạm; ý với những điều tâm nhận biết, chẳng hạn ý nghĩ. Ở cả sáu cặp, ham muốn trói sự nhận biết, rồi người ấy mê thích, rồi chạy theo chuyện đã qua."
+          ]
+        },
+        {
+          "id": "past-free",
+          "kind": "teaching",
+          "heading": "Ký ức có mặt, sự trói buộc không có",
+          "meaningUnits": [
+            "no-past-eyes",
+            "no-past-all"
+          ],
+          "paragraphs": [
+            "Vẫn nhớ rằng mắt và cảnh thấy trước kia như vậy, nhưng sự nhận biết không bị ham muốn, tham luyến trói. Vì không bị trói, người ấy không mê thích bám theo; vì không mê thích ấy, không chạy theo quá khứ.",
+            "Cách này cũng đúng với tai và tiếng, mũi và mùi, lưỡi và vị, thân và cái chạm, ý và điều tâm nhận biết. Cả sáu cặp đều có thể được nhớ lại với tâm không vướng theo."
+          ]
+        },
+        {
+          "id": "memory-example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: bức tranh được khen",
+          "meaningUnits": [
+            "past-eyes",
+            "no-past-eyes"
+          ],
+          "paragraphs": [
+            "Hôm qua, em vẽ một bức tranh và được khen. Hôm nay, em cứ muốn cảnh ấy trở lại, đến nỗi không nhìn được bức tranh đang làm. Em có thể nhận ra: mình đang bám vào điều đã qua. Nhớ lại lời khen, rồi trở về nhìn màu sắc và nét vẽ trước mắt, là một cách thử quan sát sự bám víu ấy."
+          ]
+        },
+        {
+          "id": "future",
+          "kind": "teaching",
+          "heading": "Đặt cả tâm vào điều chưa có",
+          "meaningUnits": [
+            "future-eyes",
+            "future-all"
+          ],
+          "paragraphs": [
+            "Một người ước: “Mai sau, mong mắt tôi như thế và những cảnh tôi thấy như thế.” Người ấy đặt tâm vào việc lấy cho được điều chưa có. Do đặt tâm như vậy, người ấy thích thú với điều tưởng tới; do thích thú ấy, cứ mong đợi tương lai.",
+            "Cùng một việc xảy ra với mong ước về tai và tiếng, mũi và mùi, lưỡi và vị, thân và cái chạm, ý và những điều tâm biết. Mahākaccāna chỉ rõ cả ba chặng: hướng tâm muốn đạt, thích thú trong đó, rồi mong chờ."
+          ]
+        },
+        {
+          "id": "future-free",
+          "kind": "teaching",
+          "heading": "Không buộc tâm vào một điều phải có",
+          "meaningUnits": [
+            "no-future-eyes",
+            "no-future-all"
+          ],
+          "paragraphs": [
+            "Kinh vẫn nêu câu mong: ước gì mắt và cảnh thấy của mình mai sau như vậy. Nhưng người ấy không đặt tâm vào việc lấy cho được điều chưa có. Vì không đặt tâm như thế, không mê thích bám vào; vì không mê thích ấy, không mong chờ tương lai.",
+            "Cả sáu cặp đều được xét như vậy, kể cả tai–tiếng, mũi–mùi, lưỡi–vị, thân–cái chạm và ý–điều tâm biết."
+          ]
+        },
+        {
+          "id": "future-example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: mong một món quà",
+          "meaningUnits": [
+            "future-eyes",
+            "no-future-eyes"
+          ],
+          "paragraphs": [
+            "Em mong sinh nhật sẽ có hộp màu mới. Khi cả buổi học chỉ còn là việc tưởng tượng hộp màu, em có thể xem tâm đang bám vào điều chưa có ra sao. Em vẫn có thể nói điều mình mong với gia đình, rồi chú ý việc cần làm bây giờ. Đây là ví dụ để nhìn sự bám víu trong tâm."
+          ]
+        },
+        {
+          "id": "present",
+          "kind": "teaching",
+          "heading": "Ngay bây giờ vẫn có thể bị cuốn đi",
+          "meaningUnits": [
+            "present-eyes",
+            "present-all"
+          ],
+          "paragraphs": [
+            "Mắt đang có mặt, cảnh nhìn cũng đang có mặt: cả hai đều thuộc hiện tại. Nếu sự nhận biết bị ham muốn, tham luyến trói ngay nơi đó, ta thích thú bám vào; vì thích thú ấy, tâm bị lung lay giữa điều đang xảy ra.",
+            "Tai và tiếng, mũi và mùi, lưỡi và vị, thân và cái chạm, ý và điều tâm biết cũng đều có hai phía đang hiện diện. Trong từng cặp, nếu tâm bị trói, rồi mê thích, thì bị cuốn theo hiện tại."
+          ]
+        },
+        {
+          "id": "present-free",
+          "kind": "teaching",
+          "heading": "Thấy rõ mà không bị trói",
+          "meaningUnits": [
+            "no-present-eyes",
+            "no-present-all"
+          ],
+          "paragraphs": [
+            "Mắt và cảnh vẫn đang hiện diện. Nếu sự nhận biết không bị ham muốn và tham luyến trói, ta không mê thích bám vào; nhờ vậy không bị lung lay. Cùng cách ấy áp dụng cho cả năm cặp còn lại: tai–tiếng, mũi–mùi, lưỡi–vị, thân–cái chạm, ý–điều tâm biết."
+          ]
+        },
+        {
+          "id": "now-example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: tiếng nhạc đang nghe",
+          "meaningUnits": [
+            "present-all",
+            "no-present-all"
+          ],
+          "paragraphs": [
+            "Em đang nghe một đoạn nhạc mình thích và chỉ muốn nó tiếp tục mãi. Khi người nhà gọi, em cáu lên. Em thử nhận ra ham muốn đang kéo mình, rồi nghe người nhà nói trước khi quyết định có nghe nhạc tiếp. Ví dụ này giúp quan sát cái tai, âm thanh và sự bám víu ngay lúc chúng đang có mặt."
+          ]
+        },
+        {
+          "id": "check",
+          "kind": "teaching",
+          "heading": "Đem lời giải trở lại hỏi Phật",
+          "meaningUnits": [
+            "conclusion",
+            "invitation-check",
+            "return"
+          ],
+          "paragraphs": [
+            "Mahākaccāna khép phần giảng bằng cách nhắc lại bài kệ và nói đó là cách ông hiểu rộng ý Phật. Nếu các thầy muốn, họ có thể đến hỏi chính Phật và nhớ theo lời Ngài đáp. Các thầy vui lòng tán đồng, đứng dậy, đến lễ Phật rồi ngồi một bên."
+          ]
+        },
+        {
+          "id": "retell-buddha",
+          "kind": "teaching",
+          "heading": "Kể rõ mình đã học thế nào",
+          "meaningUnits": [
+            "report-verse",
+            "report-thought",
+            "report-choice"
+          ],
+          "paragraphs": [
+            "Họ thưa lại rằng Phật đã nói bài kệ rồi vào nơi ở; kể cả suy nghĩ sau đó của mình, có trọn bài kệ và câu hỏi tìm người giảng rộng. Họ trình vì sao đã chọn Mahākaccāna, rồi đã đến hỏi ông.",
+            "Họ còn thuật cho Phật những cách giải, từ ngữ và câu chữ Mahākaccāna dùng. Các thầy đang đưa điều đã học trở lại để được bậc Thầy xác nhận."
+          ]
+        },
+        {
+          "id": "approval",
+          "kind": "teaching",
+          "heading": "Lời xác nhận cuối bài",
+          "meaningUnits": [
+            "approval",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật khen Mahākaccāna là người hiền trí, có trí tuệ lớn. Nếu các thầy hỏi Ngài, Ngài cũng sẽ giải đúng như vậy. Đó chính là ý nghĩa bài kệ, hãy nhớ như thế. Các thầy vui lòng đón nhận lời Phật. Kinh về Mahākaccāna và một đêm có lành khép lại, là bài thứ ba trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Thử nhìn một lần tâm bị kéo",
+          "meaningUnits": [
+            "past-eyes",
+            "no-past-eyes",
+            "future-eyes",
+            "no-future-eyes",
+            "present-eyes",
+            "no-present-eyes",
+            "verse-present",
+            "verse-urgency",
+            "teacher"
+          ],
+          "paragraphs": [
+            "Hôm nay, khi nhận ra mình bị cuốn đi, em thử hỏi: mình đang níu một chuyện đã qua, mong lấy cho được điều chưa có, hay bám vào điều đang xảy ra? Nhẹ nhàng gọi tên sự ham muốn ấy rồi quay lại nhìn rõ việc trước mắt.",
+            "Đây là một bài tập nhỏ để quan sát tâm. Cách tu được kinh chỉ dạy còn hướng đến sự vững vàng không bị tham luyến trói, và sự thoát khỏi sinh tử được nhắc trong lời tán thán Phật."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Dành cho người trưởng thành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một câu hỏi trước bình minh",
+          "meaningUnits": [
+            "title",
+            "spring",
+            "visitor"
+          ],
+          "paragraphs": [
+            "MN133 của Trung Bộ Kinh trình bày lời Mahākaccāna giải rộng về “một đêm có lành”. Theo lời người truyền kinh thuật điều đã nghe, Phật ở Rājagaha, tại tu viện Suối Nước Nóng. Samiddhi, một tỳ-kheo, nam tu sĩ theo Phật, thức dậy vào cuối đêm gần sáng và đi tắm ở suối. Sau khi bước lên, ông đứng chỉ mặc một y, tấm áo tu, để thân khô.",
+            "Trong đêm đã khuya, một vị thiên rực rỡ làm sáng toàn vùng suối, đến đứng một bên. Vị trời ấy hỏi Samiddhi có thuộc phần tóm lược và phần phân tích của lời dạy Một đêm có lành không."
+          ]
+        },
+        {
+          "id": "learning",
+          "kind": "teaching",
+          "heading": "Biết mình chưa biết để bắt đầu học",
+          "meaningUnits": [
+            "questions",
+            "advice"
+          ],
+          "paragraphs": [
+            "Samiddhi đáp không và hỏi lại vị thiên; vị ấy cũng không thuộc. Khi chuyển sang hỏi riêng các câu kệ, lời dạy dạng thơ, hai bên lại đều nhận không thuộc. Vị thiên khuyên Samiddhi học lấy, học thuộc và giữ nhớ phần tóm lược cùng phần phân tích: chúng có ích, thuộc nền tảng phạm hạnh, tức đời tu thanh tịnh. Nói rồi vị ấy biến mất ngay tại chỗ."
+          ]
+        },
+        {
+          "id": "request",
+          "kind": "teaching",
+          "heading": "Từ lời nhắc đến lời thỉnh giảng",
+          "meaningUnits": [
+            "report",
+            "invitation"
+          ],
+          "paragraphs": [
+            "Khi đêm ấy qua, Samiddhi đến lễ Phật, ngồi một bên và thuật toàn bộ cuộc gặp: việc tắm, đứng một y chờ khô, vị thiên chiếu sáng đến, cả hai lần hỏi đều chưa thuộc, ba lời khuyên học lấy, học thuộc và giữ nhớ, vì lời dạy có ích và là nền tảng của đời tu thanh tịnh, rồi vị ấy biến mất. Ông thỉnh Phật dạy phần tóm lược và phân tích.",
+            "Phật bảo hãy lắng nghe, chú tâm cho khéo; Ngài sẽ nói. Samiddhi vâng đáp, rồi nghe bài kệ."
+          ]
+        },
+        {
+          "id": "recital",
+          "kind": "teaching",
+          "heading": "Bốn nét của bài kệ",
+          "meaningUnits": [
+            "verse-times",
+            "verse-present",
+            "verse-urgency",
+            "verse-night"
+          ],
+          "paragraphs": [
+            "Đừng chạy theo quá khứ, đừng mong chờ tương lai: điều đã qua đã ở lại phía sau, điều sắp tới còn chưa đến. Người thấy rõ từng pháp đang hiện diện ngay nơi ấy, biết sự không lung lay, không dao động, hãy vun bồi điều ấy.",
+            "Hãy tinh cần, chăm chỉ tu tập ngay hôm nay, vì ai biết cái chết có đến ngày mai? Không thể mặc cả với Tử thần cùng đại quân. Người nhiệt tâm sống như vậy, ngày đêm không mỏi mệt, được bậc hiền an tịnh, lắng yên, gọi là người có một đêm lành."
+          ]
+        },
+        {
+          "id": "seeking",
+          "kind": "teaching",
+          "heading": "Một bản tóm lược cần được hiểu rộng",
+          "meaningUnits": [
+            "withdraw",
+            "consider",
+            "choose",
+            "meet",
+            "retell"
+          ],
+          "paragraphs": [
+            "Phật đứng dậy vào nơi ở. Ít lâu sau, các tỳ-kheo nhắc nguyên bài kệ, nghĩ rằng Ngài mới tóm lược mà chưa giải rộng. Họ tự hỏi ai có thể giúp, rồi chọn Mahākaccāna vì ông được Phật tán thán, bạn đồng tu có trí kính trọng và đủ khả năng phân tích.",
+            "Họ đến chào hỏi thân hữu, ngồi một bên, thuật việc nghe kệ cùng toàn suy nghĩ đã đưa mình đến đây. Bài kệ được nhắc trong lời kể và trong suy nghĩ được thuật. Các thầy thỉnh Mahākaccāna giải nghĩa."
+          ]
+        },
+        {
+          "id": "heartwood",
+          "kind": "teaching",
+          "heading": "Lời nhắc về nguồn của lời dạy",
+          "meaningUnits": [
+            "heartwood",
+            "teacher"
+          ],
+          "paragraphs": [
+            "Mahākaccāna ví họ với người tìm lõi gỗ ở một cây lớn có lõi: bỏ qua rễ và thân để đi tìm trong nhánh lá. Đang được trực tiếp gặp Phật mà bỏ qua Ngài để hỏi đệ tử cũng giống vậy.",
+            "Ông tán thán Phật thật biết, thật thấy, là hiện thân của sự thấy, trí, Pháp (lời dạy) và phẩm chất cao quý, được gọi là bậc Phạm. Ngài nói, truyền dạy, làm sáng nghĩa, ban sự bất tử — sự giải thoát khỏi sinh tử — làm chủ Pháp và là Như Lai. Lúc đứng trước Ngài chính là lúc nên hỏi và ghi nhớ đúng lời Ngài đáp."
+          ]
+        },
+        {
+          "id": "accepts",
+          "kind": "teaching",
+          "heading": "Mahākaccāna nhận lời",
+          "meaningUnits": [
+            "assent",
+            "hear",
+            "basis"
+          ],
+          "paragraphs": [
+            "Các thầy xác nhận toàn bộ lời tán thán Phật và nhận mình nên hỏi, nhớ theo lời Ngài. Tuy vậy, họ nhắc lại sự tín nhiệm của Phật và những bạn tu có trí dành cho Mahākaccāna, cùng khả năng giải rộng của ông, rồi xin ông giảng nếu không phiền.",
+            "Ông bảo nghe và khéo chú tâm; các thầy vâng đáp. Nhắc lại bài kệ Phật vừa tóm lược rồi vào nơi ở, ông nói đây là cách mình hiểu ý nghĩa rộng."
+          ]
+        },
+        {
+          "id": "past",
+          "kind": "teaching",
+          "heading": "Quá khứ: sự nhận biết bị buộc vào đâu?",
+          "meaningUnits": [
+            "past-eyes",
+            "past-all"
+          ],
+          "paragraphs": [
+            "Người ấy nghĩ mắt mình trước kia như thế, các hình sắc trước kia như thế. Thức, sự nhận biết, bị ham muốn và tham luyến trói nơi đó. Vì bị trói, người ấy thích thú đắm vào; vì thích thú ấy, chạy theo quá khứ.",
+            "Phân tích này bao trùm sáu cặp: mắt–hình sắc, tai–âm thanh, mũi–mùi, lưỡi–vị, thân–sự xúc chạm, ý–các pháp, tức những điều tâm nhận biết. Với mỗi cặp của quá khứ, sự trói buộc dẫn tới thích thú, rồi chạy theo."
+          ]
+        },
+        {
+          "id": "past-free",
+          "kind": "teaching",
+          "heading": "Không chạy theo điều đã qua",
+          "meaningUnits": [
+            "no-past-eyes",
+            "no-past-all"
+          ],
+          "paragraphs": [
+            "Trong trường hợp ngược lại, người ấy vẫn nêu mắt và cảnh quá khứ như thế, nhưng thức không bị ham muốn, tham luyến trói. Vì không bị trói nên không thích thú bám vào; không thích thú như vậy nên không chạy theo quá khứ.",
+            "Tai và tiếng, mũi và mùi, lưỡi và vị, thân và cái chạm, ý và điều tâm biết đều có cùng ba bước phủ định ấy. Điều cần nhận ra là quan hệ của tâm với điều được nhớ."
+          ]
+        },
+        {
+          "id": "example-past",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: bức ảnh ở công việc cũ",
+          "meaningUnits": [
+            "past-eyes",
+            "no-past-eyes"
+          ],
+          "paragraphs": [
+            "Xem một bức ảnh về thành công trước đây, ta có thể mắc vào ý muốn mọi việc hôm nay phải giống ngày ấy. Nhận ra sự níu giữ giúp ta nhìn ảnh như một ký ức và dành lại sự chú ý cho người đang nói chuyện với mình. Ví dụ này minh họa việc xem sự bám víu đang tham dự vào hồi tưởng ra sao."
+          ]
+        },
+        {
+          "id": "future",
+          "kind": "teaching",
+          "heading": "Tương lai: lấy cho được điều chưa có",
+          "meaningUnits": [
+            "future-eyes",
+            "future-all"
+          ],
+          "paragraphs": [
+            "Người ấy mong mắt và cảnh tương lai sẽ như vậy, rồi đặt tâm vào việc đạt điều chưa đạt. Do tâm hướng tới việc ấy, người ấy thích thú trong đó; do thích thú, mong đợi tương lai.",
+            "Cùng mong ước ấy được xét với tai–tiếng, mũi–mùi, lưỡi–vị, thân–xúc chạm và ý–điều tâm biết. Mỗi trường hợp giữ đủ hướng tâm tới điều chưa có, thích thú với nó, rồi mong chờ."
+          ]
+        },
+        {
+          "id": "future-free",
+          "kind": "teaching",
+          "heading": "Không đặt tâm vào sự chiếm lấy",
+          "meaningUnits": [
+            "no-future-eyes",
+            "no-future-all"
+          ],
+          "paragraphs": [
+            "Kinh vẫn nêu câu mong mắt và cảnh tương lai như thế, nhưng ở nhánh này người ấy không đặt tâm vào đạt điều chưa đạt. Vì không đặt tâm như vậy nên không thích thú bám vào, rồi không mong chờ tương lai.",
+            "Cũng vậy với tai và tiếng, mũi và mùi, lưỡi và vị, thân và sự chạm, ý và các điều tâm nhận biết. Các phủ định tạo thành một chuỗi có lý do, không phải một mệnh lệnh xóa sạch mọi ý nghĩ về ngày mai."
+          ]
+        },
+        {
+          "id": "example-future",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: một kết quả đang chờ",
+          "meaningUnits": [
+            "future-eyes",
+            "no-future-eyes"
+          ],
+          "paragraphs": [
+            "Một người đã làm phần việc của mình nhưng cả ngày bị hút vào hình ảnh được thăng chức: nơi làm việc, những lời khen, cảm giác thành công. Họ có thể tự hỏi mình đang xem kết quả chưa có là thứ nhất định phải nắm lấy đến mức nào. Sau đó, họ trở lại công việc cụ thể hiện có và làm phần thuộc trách nhiệm của mình."
+          ]
+        },
+        {
+          "id": "present",
+          "kind": "teaching",
+          "heading": "Hiện tại cũng có thể làm tâm lung lay",
+          "meaningUnits": [
+            "present-eyes",
+            "present-all"
+          ],
+          "paragraphs": [
+            "Mắt và cảnh thấy đều đang hiện diện. Nếu thức bị ham muốn, tham luyến trói ngay nơi đó, người ấy thích thú bám vào; vì thích thú, bị lung lay giữa các pháp hiện tại.",
+            "Tương tự, tai và âm thanh, mũi và mùi, lưỡi và vị, thân và cái chạm, ý và điều tâm biết đều có cả hai phía hiện tại. Trong từng cặp, điều kiện là thức bị trói, rồi thích thú, rồi bị cuốn đi. Chỉ chú ý đến một đối tượng đang có chưa giải quyết sự trói buộc ấy."
+          ]
+        },
+        {
+          "id": "present-free",
+          "kind": "teaching",
+          "heading": "Không bị cuốn theo điều đang có",
+          "meaningUnits": [
+            "no-present-eyes",
+            "no-present-all"
+          ],
+          "paragraphs": [
+            "Mắt cùng hình sắc vẫn hiện diện, nhưng nếu thức không bị ham muốn và tham luyến trói, người ấy không thích thú bám vào; vì vậy không lung lay giữa các pháp hiện tại. Cả tai–tiếng, mũi–mùi, lưỡi–vị, thân–sự chạm, ý–điều tâm biết cũng được xét đủ như thế."
+          ]
+        },
+        {
+          "id": "example-present",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: lời khen trong cuộc họp",
+          "meaningUnits": [
+            "present-all",
+            "no-present-all"
+          ],
+          "paragraphs": [
+            "Khi nghe lời khen, ta có thể ham giữ cảm giác ấy đến mức chỉ muốn cuộc họp xoay quanh mình. Thử nhận biết âm thanh, sự thích thú và ý muốn níu giữ đang cùng có mặt, rồi lắng nghe ý kiến tiếp theo, là cách dùng tình huống nhỏ để quan sát tâm."
+          ]
+        },
+        {
+          "id": "return",
+          "kind": "teaching",
+          "heading": "Một lời giải được đưa lại để xác nhận",
+          "meaningUnits": [
+            "conclusion",
+            "invitation-check",
+            "return",
+            "report-verse",
+            "report-thought",
+            "report-choice"
+          ],
+          "paragraphs": [
+            "Mahākaccāna kết lại bằng bài kệ và cách ông hiểu rộng lời tóm lược. Ông mời: nếu muốn, các thầy hãy hỏi chính Phật và nhớ đúng điều Ngài đáp. Các thầy vui lòng tán đồng, đứng dậy đến lễ Phật, rồi ngồi một bên.",
+            "Họ thuật việc Phật nói kệ rồi vào nơi ở; thuật suy nghĩ của mình có đầy đủ bài kệ và câu hỏi tìm người giải rộng; kể vì sao chọn và đến hỏi Mahākaccāna. Sau cùng, họ trình các cách giải, từ và câu chữ mà ông đã dùng."
+          ]
+        },
+        {
+          "id": "verified",
+          "kind": "teaching",
+          "heading": "Phật xác nhận đúng ý nghĩa",
+          "meaningUnits": [
+            "approval",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật khen Mahākaccāna hiền trí và có trí tuệ lớn. Nếu các thầy hỏi Ngài, Ngài cũng sẽ đáp đúng như Mahākaccāna. Đây chính là nghĩa của bài kệ, nên hãy ghi nhớ như vậy. Các thầy vui lòng tán đồng lời Phật. Kinh về Mahākaccāna và một đêm có lành kết thúc, là bài thứ ba trong nhóm này."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Quan sát một chỗ tâm đang bị buộc",
+          "meaningUnits": [
+            "past-eyes",
+            "no-past-eyes",
+            "future-eyes",
+            "no-future-eyes",
+            "present-eyes",
+            "no-present-eyes",
+            "verse-present",
+            "verse-urgency",
+            "teacher"
+          ],
+          "paragraphs": [
+            "Trong ngày, chọn một lần tâm bị cuốn mạnh và xác định: chuyện đã qua, điều chưa đạt, hay điều đang có? Nhìn thêm sự ham muốn, tham luyến và thích thú bám theo, rồi thử làm việc trước mắt với sự nhận biết rõ hơn.",
+            "Bài tập chỉ là một bước quan sát. Hướng của lời dạy là vun bồi sự không lung lay, không dao động, trong đời tu đưa đến sự thoát khỏi sinh tử; không dừng ở hiệu quả công việc hay tâm trạng dễ chịu."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Dành cho người lớn tuổi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Một lời nhắc học Pháp",
+          "meaningUnits": [
+            "title",
+            "spring",
+            "visitor"
+          ],
+          "paragraphs": [
+            "Trong Trung Bộ Kinh, MN133 kể lời Mahākaccāna giảng về một đêm có lành. Người truyền kinh thuật điều đã nghe: Phật ở Rājagaha, tại tu viện Suối Nước Nóng. Vào cuối đêm gần sáng, Samiddhi thức dậy đến suối tắm. Ông là một tỳ-kheo, nam tu sĩ theo Phật. Tắm xong, ông bước lên, đứng chỉ mặc một y, tấm áo tu, chờ thân khô.",
+            "Đêm đã khuya, một vị trời có dung sắc rực rỡ, chiếu sáng khắp suối nóng, đến đứng một bên và hỏi ông về lời dạy Một đêm có lành."
+          ]
+        },
+        {
+          "id": "not-learned",
+          "kind": "teaching",
+          "heading": "Nhận rằng mình chưa thuộc",
+          "meaningUnits": [
+            "questions"
+          ],
+          "paragraphs": [
+            "Vị trời hỏi Samiddhi có thuộc phần tóm lược và phần phân tích không. Samiddhi nhận mình chưa thuộc và hỏi lại. Vị trời cũng chưa thuộc. Họ hỏi nhau thêm về riêng bài kệ, lời dạy thành những dòng thơ ngắn; một lần nữa, cả hai đều chưa thuộc."
+          ]
+        },
+        {
+          "id": "remember",
+          "kind": "teaching",
+          "heading": "Học, thuộc rồi giữ nhớ",
+          "meaningUnits": [
+            "advice"
+          ],
+          "paragraphs": [
+            "Vị trời khuyên Samiddhi học lấy, học thuộc và giữ nhớ cả phần tóm lược lẫn phân tích. Chúng có ích và là căn bản của phạm hạnh, đời tu thanh tịnh. Dứt lời, vị ấy biến mất ngay tại đó."
+          ]
+        },
+        {
+          "id": "request",
+          "kind": "teaching",
+          "heading": "Samiddhi thỉnh Phật giảng",
+          "meaningUnits": [
+            "report",
+            "invitation"
+          ],
+          "paragraphs": [
+            "Khi đêm ấy qua, Samiddhi đến lễ Phật, ngồi một bên, thuật đầy đủ cuộc gặp bên suối. Ông kể việc tắm rồi đứng một y, vị trời sáng rực đến, hai lượt hỏi đáp đều chưa thuộc, ba lời khuyên học lấy, học thuộc và giữ nhớ, vì lời dạy có ích và là nền tảng của đời tu thanh tịnh, cùng việc vị trời biến mất.",
+            "Ông thỉnh Phật giảng. Phật bảo hãy nghe và chú tâm cho khéo; Ngài sẽ nói. Samiddhi vâng đáp."
+          ]
+        },
+        {
+          "id": "verse-time",
+          "kind": "teaching",
+          "heading": "Thấy rõ điều đang hiện diện",
+          "meaningUnits": [
+            "verse-times",
+            "verse-present"
+          ],
+          "paragraphs": [
+            "Phật dạy bằng kệ: đừng chạy theo quá khứ, đừng mong chờ tương lai. Quá khứ đã ở lại phía sau; tương lai còn chưa đến.",
+            "Người thấy rõ từng điều đang hiện diện tại chính nơi ấy, biết sự không lung lay, không dao động, hãy tiếp tục vun bồi điều ấy. Cách nhìn này sẽ được Mahākaccāna phân tích cụ thể qua các giác quan và tâm."
+          ]
+        },
+        {
+          "id": "verse-effort",
+          "kind": "teaching",
+          "heading": "Nhiệt tâm ngay hôm nay",
+          "meaningUnits": [
+            "verse-urgency",
+            "verse-night"
+          ],
+          "paragraphs": [
+            "Ngay hôm nay, hãy tinh cần, chăm chỉ tu tập; ai biết cái chết có đến ngày mai? Với hình ảnh Tử thần cùng đại quân, bài kệ nhắc rằng con người không thể mặc cả với cái chết.",
+            "Ai sống nhiệt tâm như thế, ngày đêm không mỏi mệt, được bậc hiền an tịnh, lắng yên, gọi là người có một đêm lành."
+          ]
+        },
+        {
+          "id": "seeking",
+          "kind": "teaching",
+          "heading": "Mong hiểu rộng lời kệ",
+          "meaningUnits": [
+            "withdraw",
+            "consider",
+            "choose"
+          ],
+          "paragraphs": [
+            "Nói xong, Phật đứng dậy vào nơi ở. Không lâu sau, các tỳ-kheo nhắc lại nguyên bài kệ và tự hỏi: lời mới được tóm lược, ai có thể giải rộng nghĩa?",
+            "Họ chọn Mahākaccāna vì ông được Phật khen, được những bạn đồng tu có trí kính trọng và có khả năng giảng rộng lời tóm tắt ấy."
+          ]
+        },
+        {
+          "id": "meeting",
+          "kind": "teaching",
+          "heading": "Các thầy đến hỏi",
+          "meaningUnits": [
+            "meet",
+            "retell"
+          ],
+          "paragraphs": [
+            "Họ đến trao lời chào hỏi thân hữu với Mahākaccāna rồi ngồi một bên. Các thầy thuật việc nghe Phật giảng kệ rồi Ngài vào nơi ở, nhắc bài kệ trong lời kể cũng như trong suy nghĩ của mình. Họ trình câu hỏi ai giải rộng và lý do đã chọn ông, rồi thỉnh ông giảng."
+          ]
+        },
+        {
+          "id": "heartwood",
+          "kind": "teaching",
+          "heading": "Đừng bỏ qua rễ và thân cây",
+          "meaningUnits": [
+            "heartwood"
+          ],
+          "paragraphs": [
+            "Mahākaccāna ví họ với người đang cần tìm lõi gỗ. Trước mặt có một cây lớn có lõi, nhưng người ấy bỏ qua rễ và thân, nghĩ rằng nên tìm lõi ở nhánh lá. Các thầy đã trực tiếp gặp Phật, lại bỏ qua Ngài để hỏi một người đệ tử, cũng giống như vậy."
+          ]
+        },
+        {
+          "id": "teacher",
+          "kind": "teaching",
+          "heading": "Nhớ đúng lời bậc Thầy",
+          "meaningUnits": [
+            "teacher",
+            "assent"
+          ],
+          "paragraphs": [
+            "Ông nhắc những phẩm chất của Phật: thật biết và thật thấy; là hiện thân của sự thấy, trí, Pháp (lời dạy) và phẩm chất cao quý, được gọi là bậc Phạm; là người nói, truyền dạy, làm rõ ý nghĩa, ban sự bất tử — giải thoát khỏi sinh tử — làm chủ Pháp, là Như Lai. Lúc được gặp Ngài là lúc nên hỏi và ghi nhớ theo lời Ngài đáp.",
+            "Các thầy xác nhận lại toàn bộ những phẩm chất ấy và nhận mình nên hỏi Phật. Nhưng họ vẫn thỉnh Mahākaccāna, vị được Phật khen và các bạn tu có trí kính trọng, đủ khả năng giảng rộng; mong ông giúp nếu không phiền."
+          ]
+        },
+        {
+          "id": "listen",
+          "kind": "teaching",
+          "heading": "Bắt đầu phần phân tích",
+          "meaningUnits": [
+            "hear",
+            "basis"
+          ],
+          "paragraphs": [
+            "Mahākaccāna bảo mọi người nghe và chú tâm cho khéo. Các thầy vâng đáp. Ông nhắc bài kệ Phật đã nói vắn tắt trước khi vào nơi ở, rồi trình bày cách mình hiểu nghĩa rộng."
+          ]
+        },
+        {
+          "id": "past",
+          "kind": "teaching",
+          "heading": "Tâm đi theo điều đã qua",
+          "meaningUnits": [
+            "past-eyes",
+            "past-all"
+          ],
+          "paragraphs": [
+            "Người ấy nhớ: mắt tôi thuở trước như vậy, các hình sắc tôi thấy như vậy. Thức, tức sự nhận biết, bị ham muốn và tham luyến trói ở đó. Vì bị trói, người ấy thích thú đắm vào; vì thích thú, chạy theo quá khứ.",
+            "Cả sáu cặp đều được xét: mắt và hình sắc; tai và tiếng; mũi và mùi; lưỡi và vị; thân và sự xúc chạm; ý và các pháp, những điều tâm nhận biết. Trong từng cặp của quá khứ, sự bị trói dẫn đến mê thích, rồi chạy theo."
+          ]
+        },
+        {
+          "id": "past-free",
+          "kind": "teaching",
+          "heading": "Nhìn lại với tâm không bị trói",
+          "meaningUnits": [
+            "no-past-eyes",
+            "no-past-all"
+          ],
+          "paragraphs": [
+            "Người ấy vẫn nhận mắt và cảnh thuở trước như thế, nhưng thức không bị ham muốn, tham luyến trói. Vì không bị trói, không thích thú bám vào; vì không thích thú ấy, không chạy theo quá khứ.",
+            "Tai và tiếng, mũi và mùi, lưỡi và vị, thân và cái chạm, ý và điều tâm biết cũng có đủ ba vế không bị trói, không mê thích bám theo, không chạy về quá khứ."
+          ]
+        },
+        {
+          "id": "album",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: mở một cuốn ảnh",
+          "meaningUnits": [
+            "past-eyes",
+            "no-past-eyes"
+          ],
+          "paragraphs": [
+            "Xem ảnh một buổi sum họp cũ, ta có thể thấy lòng cứ muốn mọi người hôm nay phải ở bên nhau như khi ấy. Khi nhận ra sự níu giữ, ta thử nhìn lại bức ảnh với sự biết rõ và lắng nghe người đang ngồi cạnh. Tình huống này giúp xem ký ức và sự bám víu có đang đi cùng nhau không."
+          ]
+        },
+        {
+          "id": "future",
+          "kind": "teaching",
+          "heading": "Mong lấy cho được điều chưa có",
+          "meaningUnits": [
+            "future-eyes",
+            "future-all"
+          ],
+          "paragraphs": [
+            "Người ấy mong mắt và hình sắc mai sau sẽ như thế, rồi đặt tâm vào việc đạt điều chưa đạt. Do đặt tâm, người ấy thích thú trong đó; do thích thú, mong đợi tương lai.",
+            "Những mong ước về tai và tiếng, mũi và mùi, lưỡi và vị, thân và cái chạm, ý và các điều tâm biết cũng theo cùng ba chặng. Đây là điều Mahākaccāna gọi là mong chờ tương lai."
+          ]
+        },
+        {
+          "id": "future-free",
+          "kind": "teaching",
+          "heading": "Không đặt tâm vào điều phải chiếm được",
+          "meaningUnits": [
+            "no-future-eyes",
+            "no-future-all"
+          ],
+          "paragraphs": [
+            "Ở nhánh ngược lại, vẫn có câu mong: ước gì mắt và cảnh thấy của mình trong tương lai như thế, nhưng người ấy không đặt tâm vào việc đạt điều chưa đạt. Vì không đặt tâm như vậy, không thích thú bám vào; vì không thích thú ấy, không mong chờ tương lai.",
+            "Cách xét này có đủ với tai–tiếng, mũi–mùi, lưỡi–vị, thân–xúc chạm và ý–điều tâm biết. Mỗi cặp giữ nguyên mối liên hệ giữa ba điều không ấy."
+          ]
+        },
+        {
+          "id": "visit",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: chờ ngày gặp người thân",
+          "meaningUnits": [
+            "future-all",
+            "no-future-all"
+          ],
+          "paragraphs": [
+            "Một người mong nghe tiếng người thân trong chuyến về thăm sắp tới, rồi cả ngày chỉ sống trong cảnh mình tưởng tượng. Có thể thử nhận ra ý muốn mọi chuyện phải đúng như đã hình dung, làm phần chuẩn bị cần thiết, rồi dành tâm cho người và việc đang có mặt. Ví dụ chỉ giúp quan sát sự níu giữ điều chưa tới."
+          ]
+        },
+        {
+          "id": "present",
+          "kind": "teaching",
+          "heading": "Điều đang có cũng có thể cuốn tâm",
+          "meaningUnits": [
+            "present-eyes",
+            "present-all"
+          ],
+          "paragraphs": [
+            "Mắt đang có mặt, các hình sắc cũng đang có mặt: cả hai đều hiện tại. Nếu thức bị ham muốn và tham luyến trói nơi ấy, người ấy thích thú bám vào; vì thích thú ấy, bị lung lay giữa các pháp hiện tại.",
+            "Tai cùng tiếng, mũi cùng mùi, lưỡi cùng vị, thân cùng cái chạm, ý cùng điều tâm biết cũng đều có hai phía hiện tại. Ở mỗi cặp, nếu thức bị trói, sự thích thú bám vào làm tâm bị cuốn theo."
+          ]
+        },
+        {
+          "id": "present-free",
+          "kind": "teaching",
+          "heading": "Vững giữa điều đang hiện diện",
+          "meaningUnits": [
+            "no-present-eyes",
+            "no-present-all"
+          ],
+          "paragraphs": [
+            "Mắt và hình sắc đều hiện tại, nhưng nếu thức không bị ham muốn, tham luyến trói thì không thích thú bám vào, nên không lung lay. Với tai–tiếng, mũi–mùi, lưỡi–vị, thân–xúc chạm, ý–điều tâm biết cũng vậy. Sự vững vàng được giải bằng từng điều kiện cụ thể ấy."
+          ]
+        },
+        {
+          "id": "sound",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: một bản nhạc quen",
+          "meaningUnits": [
+            "present-all",
+            "no-present-all"
+          ],
+          "paragraphs": [
+            "Đang nghe bản nhạc mình yêu thích, ta bực khi có người muốn hỏi chuyện. Thử nhận biết âm thanh, sự thích thú và ý muốn giữ riêng khoảnh khắc ấy, rồi nghe người kia, là cách tìm hiểu sự bám víu ngay lúc đang nghe."
+          ]
+        },
+        {
+          "id": "ask-again",
+          "kind": "teaching",
+          "heading": "Mahākaccāna mời kiểm lại",
+          "meaningUnits": [
+            "conclusion",
+            "invitation-check",
+            "return"
+          ],
+          "paragraphs": [
+            "Kết phần phân tích, ông nhắc bài kệ và nói đó là cách mình hiểu rộng lời Phật. Nếu các thầy muốn, họ hãy hỏi chính Phật, rồi ghi nhớ đúng lời Ngài đáp. Các thầy hoan hỷ, tán đồng, đứng dậy đến lễ Phật và ngồi một bên."
+          ]
+        },
+        {
+          "id": "report-back",
+          "kind": "teaching",
+          "heading": "Trình lại cả việc học hỏi",
+          "meaningUnits": [
+            "report-verse",
+            "report-thought",
+            "report-choice"
+          ],
+          "paragraphs": [
+            "Họ kể lại việc Phật nói kệ rồi vào nơi ở. Họ thuật chính suy nghĩ sau đó, có nguyên bài kệ và câu hỏi tìm người giải rộng; kể vì sao chọn Mahākaccāna, người được khen và kính trọng, rồi đã đến hỏi ông.",
+            "Họ trình rõ Mahākaccāna đã giải bằng những cách, những từ và câu chữ nào. Câu chuyện trở về với bậc Thầy đã dạy bài kệ ban đầu."
+          ]
+        },
+        {
+          "id": "approval",
+          "kind": "teaching",
+          "heading": "Lời Phật xác nhận",
+          "meaningUnits": [
+            "approval",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật khen Mahākaccāna là người hiền trí, có trí tuệ lớn. Nếu các thầy hỏi Ngài, Ngài cũng giải đúng như thế. Đó chính là nghĩa, các thầy nên ghi nhớ. Họ vui lòng tán đồng lời Phật. Kinh về Mahākaccāna và một đêm có lành khép lại, là bài thứ ba trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một lần quay lại nhìn tâm",
+          "meaningUnits": [
+            "past-eyes",
+            "no-past-eyes",
+            "future-eyes",
+            "no-future-eyes",
+            "present-eyes",
+            "no-present-eyes",
+            "verse-present",
+            "verse-urgency",
+            "teacher"
+          ],
+          "paragraphs": [
+            "Khi có chút yên tĩnh, thử nhận ra một điều đang kéo tâm: ký ức đã qua, mong ước chưa đạt, hay cảm giác đang có. Xem sự ham muốn và bám víu góp phần ra sao. Rồi nhẹ nhàng trở lại với việc đang làm, bằng sự nhận biết rõ hơn.",
+            "Việc thực tập nhỏ này nhắc đến hướng tu rộng hơn của bài kinh: vun bồi sự không lung lay và tiến về sự thoát khỏi sinh tử. Có thể bắt đầu bằng một lần thấy rõ trong hôm nay."
+          ]
+        }
+      ]
+    }
+  }
+}

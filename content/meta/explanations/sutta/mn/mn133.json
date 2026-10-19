@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn133",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "e969f343-40d8-4477-ad51-217fda9aabf4"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "b397c663-0bec-4b34-b74f-3b223a340e65"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "cdad2a8d-dd0a-4366-abfa-ecc72e33bb4e"
+    }
+  },
+  "reviews": [
+    {
+      "id": "e969f343-40d8-4477-ad51-217fda9aabf4",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.5,
+        "clarity": 9.6,
+        "editorial_separation": 10,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Giữ cuộc gặp bên suối với một y, ánh sáng khắp vùng và cả hai người chưa thuộc ở cả hai lượt hỏi. Sau sửa, lời Samiddhi thuật lại vẫn đủ học lấy, học thuộc, giữ nhớ cùng hai lý do có ích và nền tảng đời tu.",
+        "semantic_fidelity": "Quá khứ có chuỗi thức bị trói, thích thú rồi chạy theo; tương lai có hướng tâm đạt điều chưa đạt, thích thú rồi mong chờ. Nhánh không hướng tâm vẫn giữ câu mong, còn hiện tại có điều kiện nếu và cả hai phía giác quan, đối tượng.",
+        "core_coverage": "Mỗi một trong sáu nhánh đều nêu đủ mắt–sắc đến ý–pháp, với các bước thuận hoặc phủ định tương ứng. Tám lượt kệ có mặt đúng trong sự kiện, suy nghĩ được thuật, lời thỉnh và lời giải; không bỏ đoạn hỏi lại Phật cuối bài.",
+        "logic_context": "Trẻ theo được Samiddhi hỏi Phật, các thầy tự tìm Mahākaccāna, vị này nêu cách mình hiểu rồi mời trở lại hỏi nếu muốn. Câu Phật sẽ giải giống như vậy vẫn là lời có điều kiện, không bị kể như Ngài đã giảng lại cả phân tích.",
+        "terminology": "Tỳ-kheo, y, kệ và thức được mở ngắn; ý–pháp giữ nghĩa những điều tâm nhận biết sau chỉnh past-free. Bậc Phạm được giải trong lời tôn xưng cao quý, bất tử gắn thoát sinh tử; nhiều danh hiệu cổ vẫn cần đọc chậm.",
+        "audience_fit": "Bức tranh được khen, hộp màu sinh nhật và đoạn nhạc đang nghe phù hợp trải nghiệm trẻ, tương ứng ba thời của bài. Câu chuyện hỏi để hiểu khá gần gũi, nhưng các danh hiệu dài và nhiều lớp thuật vẫn vượt mức dễ đọc của trẻ nhỏ.",
+        "clarity": "Hai mươi bốn mục ngắn đánh dấu người hỏi, người giảng và từng nhánh có hoặc không bám theo. Gom những lần nhắc cùng bài kệ giữ mạch kể, trong khi các tên riêng và chuỗi nguyên nhân vẫn đòi hỏi chú ý.",
+        "editorial_separation": "Cả ba cảnh bức tranh, món quà, âm nhạc đều ở mục example, và bài tập cuối mang loại practice. Phép ví lõi cây có nguồn nằm trong teaching, nên người đọc phân biệt được ví dụ trong kinh với minh họa do người viết thêm.",
+        "practical_integrity": "Bài tập chỉ mời nhận ra tâm níu chuyện đã qua, điều chưa có hay điều hiện diện; không bảo rằng trở lại làm bài là đã giải thoát. Lời nói với gia đình về món quà vẫn được cho phép, tránh biến nhánh không mong chờ thành cấm trẻ bày tỏ nhu cầu.",
+        "technical_integrity": "Audit cuối xác nhận 41 ý phủ đúng thứ tự 232 khóa Pāli và 24 mục tham chiếu hợp lệ. Mười mục sửa cùng một summary đã được kiểm equality với after; đảo các sửa trả đúng hash cũ và canonical nối nguyên nội dung sau hai commit nguồn đổi."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ 232 khóa Pāli/Việt/Anh, cả 86 ô Anh trống, 4 chú thích và toàn 266 khối HTML đến SC47 cùng ghi công; đủ 41 ý, 27 ghi chú tác giả và cả ba bản. Đọc lại trọn mười mục sửa và một summary; JSON hiện hành bằng các after, phép đảo tái tạo ba hash cũ. Audit prepared và canonical độc lập sạch, năm SHA và hai git show ở pin706/65eb khớp. Không có thử nghiệm độc giả hoặc xác nhận chuyên gia Pāli.",
+      "contentHash": "beb8dccdc625b22b6473aec1666bc42290a6695cea12044d300f82f57add1787",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn133.html",
+          "sha256": "eeac0d437477d9351683f03a35549b2fafa7e55df201bd4a97be9964c74dcdd0"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn133_root-pli-ms.json",
+          "sha256": "da56ced7d90eed92b259993695c4b9949d3d3e414a33e9a01d5ba24f71efab02"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn133_translation-en-sujato.json",
+          "sha256": "7bba1ce2d7d7a0f4f97d8974014f59f59a05b3e9f0c14232c1a6b5478ca99e4f"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn133_comment-vi-project.json",
+          "sha256": "d4bed84ed803482e2e039b603482891c4d46c89db1796f871bdcb4a3baf34cac"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn133_translation-vi-project.json",
+          "sha256": "2b7fa307373b3ae08753b09a0083c4c5e29351042ede20341be3befc7a0b42ce"
+        }
+      ]
+    },
+    {
+      "id": "b397c663-0bec-4b34-b74f-3b223a340e65",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.8,
+        "audience_fit": 9.7,
+        "clarity": 9.7,
+        "editorial_separation": 10,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Bản giữ khung đã nghe, hai lượt chưa thuộc, ba lời khuyên và hai cơ sở của lời khuyên trong cả sự kiện lẫn lời thuật lại. Không dùng 86 ô Anh trống như đồng thuận, cũng không tự tạo một đêm khác để giải khác biệt cách ghi thời gian.",
+        "semantic_fidelity": "Thức bị buộc ở quá khứ khác với việc đặt tâm đạt cái chưa đạt ở tương lai, và cả hai được phân biệt với điều kiện của hiện tại. Câu kệ sau sửa có người thấy rõ làm chủ thể; nhánh không mong vẫn còn lời mong về mắt và cảnh.",
+        "core_coverage": "Đủ sáu cặp giác quan–đối tượng trong ba cặp phân tích; mỗi nhánh ngược giữ chuỗi phủ định chứ không chỉ kết luận tâm bình an. Các phẩm chất Phật, ví rễ–thân–nhánh–lá và tám lượt hiện diện của bài kệ đều được giữ trong cấu trúc kể.",
+        "logic_context": "Mạch tự chọn người giải nghĩa, chào hỏi, thỉnh nếu không phiền, nghe cách ông hiểu và quay lại xác nhận có liên kết rõ. Bản giữ thời đã qua ở lời nhắc lẽ ra nên hỏi Phật và điều kiện nếu hỏi trong lời xác nhận cuối.",
+        "terminology": "Thức là sự nhận biết, pháp ở ý–pháp là điều tâm nhận biết, còn Pháp trong lời tôn xưng được giải theo ngữ cảnh lời dạy. Tinh cần, phạm hạnh và bất tử có lời mở; danh hiệu bậc Phạm vẫn được trình bày thận trọng trong giới hạn nguồn đã đọc.",
+        "audience_fit": "Ảnh thành công cũ, chờ thăng chức và lời khen trong cuộc họp đưa ba thời vào các tình huống người trưởng thành dễ hình dung. Bài không lấy công việc làm toàn bộ ý nghĩa kinh và giữ mục tiêu thoát sinh tử ở phần khép.",
+        "clarity": "Mười chín mục chia tương đối cân giữa truyện và sáu nhánh phân tích; câu nối nêu rõ quan hệ vì thế, do đó. Việc tóm những lần thuật lại cùng một bài kệ giúp đọc liền, dù đoạn phẩm chất Phật vẫn khá dày danh xưng.",
+        "editorial_separation": "Các ví dụ nghề nghiệp có nhãn riêng, tách khỏi lời kể thời Phật và cách Mahākaccāna giảng. Bài tập cuối tự giới hạn là bước quan sát, không đặt những lời hiện đại vào miệng người nói trong kinh.",
+        "practical_integrity": "Người đọc được mời nhận ra ham muốn, tham luyến rồi làm phần việc thuộc trách nhiệm hiện tại. Lời khép giữ hướng không lung lay và thoát sinh tử, tránh hứa một cách điều chỉnh chú ý sẽ thay thế toàn bộ con đường tu.",
+        "technical_integrity": "Bản 19 mục qua audit cùng 41 ý và 232 khóa; năm SHA, hai blob manifest và hai nguồn dự án ở cả pin đã đọc lẫn pin canonical khớp. Hai mục nội dung của bản lớn sửa đã được đọc trọn, và hash mới phản ánh thêm đúng một summary chung."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ 232 khóa Pāli/Việt/Anh, cả 86 ô Anh trống, 4 chú thích và toàn 266 khối HTML đến SC47 cùng ghi công; đủ 41 ý, 27 ghi chú tác giả và cả ba bản. Đọc lại trọn mười mục sửa và một summary; JSON hiện hành bằng các after, phép đảo tái tạo ba hash cũ. Audit prepared và canonical độc lập sạch, năm SHA và hai git show ở pin706/65eb khớp. Không có thử nghiệm độc giả hoặc xác nhận chuyên gia Pāli.",
+      "contentHash": "3e9c7ab2beae57dd7d8e34120167cff144b7082c2baadabb7e08811137b23c67",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn133.html",
+          "sha256": "eeac0d437477d9351683f03a35549b2fafa7e55df201bd4a97be9964c74dcdd0"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn133_root-pli-ms.json",
+          "sha256": "da56ced7d90eed92b259993695c4b9949d3d3e414a33e9a01d5ba24f71efab02"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn133_translation-en-sujato.json",
+          "sha256": "7bba1ce2d7d7a0f4f97d8974014f59f59a05b3e9f0c14232c1a6b5478ca99e4f"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn133_comment-vi-project.json",
+          "sha256": "d4bed84ed803482e2e039b603482891c4d46c89db1796f871bdcb4a3baf34cac"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn133_translation-vi-project.json",
+          "sha256": "2b7fa307373b3ae08753b09a0083c4c5e29351042ede20341be3befc7a0b42ce"
+        }
+      ]
+    },
+    {
+      "id": "cdad2a8d-dd0a-4366-abfa-ecc72e33bb4e",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.8,
+        "audience_fit": 9.7,
+        "clarity": 9.6,
+        "editorial_separation": 10,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Giữ người truyền kinh thuật đã nghe, Samiddhi bên suối, vị trời không được gán giới tính và cả hai cùng chưa thuộc. Phần trình lại sau sửa vẫn nêu đủ ba việc học và cả lợi ích lẫn nền tảng đời tu thanh tịnh.",
+        "semantic_fidelity": "Ký ức có thể còn nhưng thức không bị trói; câu mong tương lai vẫn có trong nhánh không đặt tâm chiếm lấy. Hiện tại giữ mắt cùng cảnh và điều kiện nếu, nên không đồng nhất sự có mặt của một trải nghiệm với hết tham luyến.",
+        "core_coverage": "Sáu cặp được nhắc đủ ở từng hướng, gồm cả ý và điều tâm biết; các phủ định không bị gộp mất mắt xích. Bản kể đủ tám lượt bài kệ trong các lớp lời, việc lựa chọn Mahākaccāna và hai phẩm chất hiền trí, đại tuệ ở kết.",
+        "logic_context": "Những mục gặp, nghe, hỏi lại và trình lại giúp tách lời Mahākaccāna hiểu rộng khỏi lời Phật xác nhận. Cả lời mời nếu muốn và lời Phật nếu được hỏi đều giữ điều kiện, không thêm động cơ cho việc Phật vào nơi ở.",
+        "terminology": "Y, tỳ-kheo, kệ, phạm hạnh và thức có lời mở phù hợp nhịp đọc; bất tử được gắn với giải thoát khỏi sinh tử. Các thuật ngữ không làm đổi phạm vi ý–pháp hoặc biến bậc Phạm thành khẳng định Phật là một thần tạo hóa.",
+        "audience_fit": "Ảnh sum họp, chuyến thăm người thân và bản nhạc quen tạo tình huống gần gũi mà không mặc định người lớn tuổi chỉ tiếc nuối quá khứ. Mời bắt đầu bằng một lần quan sát giúp người đọc chủ động chọn nhịp học.",
+        "clarity": "Hai mươi bốn mục giữ đoạn ngắn và tiêu đề rõ từng cặp có hoặc không bị trói. Các lần thuật lại được gom để dễ theo, nhưng chuỗi danh hiệu và những bước phủ định vẫn cần đọc thong thả hơn phần ví dụ.",
+        "editorial_separation": "Ảnh, chuyến thăm và âm nhạc ở ba mục example độc lập; phép ví lõi cây giữ trong lời giảng có nguồn. Practice không tự nhận là câu Phật đã nói hoặc một phương pháp chứng đạt được kinh cam kết.",
+        "practical_integrity": "Gợi ý vẫn cho phép chuẩn bị chuyến thăm và lắng nghe người đang ở cạnh, trong khi quan sát sự níu giữ. Lời khép nói hướng tu thoát sinh tử nhưng không hứa một lần nhận ra cảm giác sẽ hoàn tất việc ấy.",
+        "technical_integrity": "Toàn 24 mục nối đúng bản đồ 41 ý và 232 khóa, audit canonical sạch. Ba mục sửa của bản lớn tuổi và một summary đã được đọc lại, phép đảo cho đúng fingerprint đã đọc trước; source hashes không thay đổi khi chuyển pin dự án."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ 232 khóa Pāli/Việt/Anh, cả 86 ô Anh trống, 4 chú thích và toàn 266 khối HTML đến SC47 cùng ghi công; đủ 41 ý, 27 ghi chú tác giả và cả ba bản. Đọc lại trọn mười mục sửa và một summary; JSON hiện hành bằng các after, phép đảo tái tạo ba hash cũ. Audit prepared và canonical độc lập sạch, năm SHA và hai git show ở pin706/65eb khớp. Không có thử nghiệm độc giả hoặc xác nhận chuyên gia Pāli.",
+      "contentHash": "e44ed23442464aa506f280df5e00f94b1c53c030aed26f94114e0164308d77be",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn133.html",
+          "sha256": "eeac0d437477d9351683f03a35549b2fafa7e55df201bd4a97be9964c74dcdd0"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn133_root-pli-ms.json",
+          "sha256": "da56ced7d90eed92b259993695c4b9949d3d3e414a33e9a01d5ba24f71efab02"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn133_translation-en-sujato.json",
+          "sha256": "7bba1ce2d7d7a0f4f97d8974014f59f59a05b3e9f0c14232c1a6b5478ca99e4f"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn133_comment-vi-project.json",
+          "sha256": "d4bed84ed803482e2e039b603482891c4d46c89db1796f871bdcb4a3baf34cac"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn133_translation-vi-project.json",
+          "sha256": "2b7fa307373b3ae08753b09a0083c4c5e29351042ede20341be3befc7a0b42ce"
+        }
+      ]
+    }
+  ]
+}

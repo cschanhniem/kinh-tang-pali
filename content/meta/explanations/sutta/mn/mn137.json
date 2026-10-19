@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn137",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "43935058-feae-49e7-8cd7-61cb34f2adcc"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "a8d8f506-0a80-4715-bd3b-3d239023841a"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "f1c82dd7-878b-4712-a2e9-fab5380aafa1"
+    }
+  },
+  "reviews": [
+    {
+      "id": "43935058-feae-49e7-8cd7-61cb34f2adcc",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 10,
+        "logic_context": 9.9,
+        "terminology": 9.6,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 10,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Đọc trọn 195 khóa Pāli, Việt dự án, Sujato, sáu chú thích và HTML đến SC30 cùng ghi công. Bản trẻ theo Pāli ở xả vượt đối tượng và không bất mãn, không theo hai chỗ HTML lược hoặc khác nghĩa; hai ô Anh trống không được dùng làm chứng cứ.",
+        "semantic_fidelity": "Giữ niềm vui do được hoặc nhớ điều đã được, nỗi buồn do không được hoặc nhớ điều không được; mỗi nhánh đủ sáu cửa. Nỗi buồn xuất ly vẫn do khát ngưỡng giải thoát sau thấy như thật, không bị gọi thành mọi mong muốn của trẻ.",
+        "core_coverage": "Đủ 48 đơn vị nghĩa: chín đầu mục, bốn nhóm sáu, 18 ý hành, 36 vị trí, bảy quan hệ nương để bỏ, ba trường hợp của thầy và tám hướng tu chứng. Phần kết còn người tán đồng và thứ bảy trong nhóm.",
+        "logic_context": "Các mục first-steps, further-steps, last-steps giữ đúng điều nương và điều bị bỏ, cả bỏ lẫn vượt. Ba trường hợp người nghe giữ bốn hành vi từng phía; trường hợp cuối có hài lòng, không san thành cùng một tâm trạng.",
+        "terminology": "Mở xứ bằng sáu cửa, thức bằng nhận biết, hỷ/ưu/xả bằng vui/buồn/bình thản; phân biệt hai nghĩa xúc. Những từ hiếm về giới hạn và quả hành động được giữ thận trọng; atammayatā không bị rút thành riêng việc hết tham dục.",
+        "audience_fit": "Ví dụ buổi học gồm tranh, chuông, cam, mặt bàn và ký ức gần với trẻ; 27 mục giúp chia lần đọc. Bốn chứng đạt vô sắc và thuật ngữ quả hành động vẫn khó, nên điểm này phản ánh nhu cầu có người hướng dẫn, chưa có trẻ thử đọc.",
+        "clarity": "Mỗi nhóm sáu được nói trước rồi quay về tên kinh, các bước cao hơn tách thành mục ngắn. Các công thức tu chứng dài còn cần đọc chậm; không làm ngắn bằng cách bỏ các điều kiện hoàn toàn vượt, đạt và ở vững.",
+        "editorial_separation": "Mục school mang loại example, mục practice mang loại practice; lời giải bài kinh nằm trong teaching. Ví dụ hiện đại tự nhận là ví dụ ngày nay, không được kể như sự việc Phật đã nói hoặc chứng cứ về thiền.",
+        "practical_integrity": "Gợi ý chỉ yêu cầu nhận ra cửa tiếp nhận và nền của vui, buồn, bình thản rồi học lại với người hướng dẫn. Không hướng trẻ tự làm diệt tưởng thọ hay coi một lần nhận biết cảm xúc là đã đạt xả xuất ly.",
+        "technical_integrity": "Audit riêng xác nhận 195 khóa có vị trí duy nhất trong 48 ý, cả 27 mục có liên kết hợp lệ, đủ phạm vi giảng. Năm SHA khớp byte thực, hai blob khớp manifest, hai tệp Việt khớp commit đã khai báo; hash bản trẻ được lấy sau lượt đọc trọn."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập bản do writer_b soạn: đọc toàn 195 khóa Pāli/Việt/Anh, sáu chú thích, HTML SC1–SC30 và toàn ghi công, 48 ý, 28 ghi chú tác giả và cả ba bản 27/20/29 mục. Năm nguồn, hai blob manifest và hai git show đã xác minh; không cần sửa thêm sau lượt kiểm này. Kiểm biên tập AI, chưa có học giả Pāli hoặc độc giả thật xác nhận.",
+      "contentHash": "bd27fc6f152102b8a0e8573447b98b321ccd24f67d059ca165b79005aaed9bae",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn137.html",
+          "sha256": "a5402ae782d8c849ee07cae3234697ccd12836471c1620bbd5c4c08e45bb2d28"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn137_root-pli-ms.json",
+          "sha256": "4abf0c6b6a7cde4843bcb9b3ab5338cf9e4a35aef109a54f04b88d0821347906"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn137_translation-en-sujato.json",
+          "sha256": "99b54198c52bcf7f4760a638415ce69d3ebf6912f368c6189d284181564e51a3"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn137_comment-vi-project.json",
+          "sha256": "ad662d3fbc7bb33d5ee3fd35bf6d8f35ccaca7f698bda79aa98cab37a343199e"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn137_translation-vi-project.json",
+          "sha256": "d8fda29cdfa2f7ce5ec0704759825cd9022633a53dc64dc4eab204fff06400b2"
+        }
+      ]
+    },
+    {
+      "id": "a8d8f506-0a80-4715-bd3b-3d239023841a",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 10,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.6,
+        "clarity": 9.7,
+        "editorial_separation": 10,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc đầy đủ năm nguồn cùng UID và 20 mục bản trưởng thành. Chọn không đạt được cho appaṭilābha thay vì chỉ mất thứ đã có của Anh; giữ câu xả vượt đối tượng theo Pāli dù HTML thiếu, với hai ô Anh trống được ghi rõ.",
+        "semantic_fidelity": "Phân biệt đạt/nhớ đã đạt và không đạt/nhớ không đạt; cả ba nhóm xuất ly giữ trí tuệ đúng, tất cả đối tượng trước và nay vô thường, khổ, đổi thay. Mong giải thoát gồm chứng và an trú ở xứ các bậc Thánh hiện chứng và an trú.",
+        "core_coverage": "Bản trưởng thành triển khai toàn 48 ý trong 20 mục: từ bốn danh mục sáu qua các loại phản ứng và bảy bước buông, đến ba niệm xứ cùng tám hướng. Không mất danh mục năm đối tượng của xả đa dạng hoặc bốn nơi nương của xả thuần nhất.",
+        "logic_context": "Đủ thứ tự năm bước đầu và hai bước sau; mọi quan hệ giữ điều nương, đoạn bỏ, vượt qua. Ba phản ứng của Như Lai giữ các phủ định khác nhau và niềm vui ở trường hợp thứ ba; tám hướng cuối giữ từng điều kiện vượt tầng trước.",
+        "terminology": "Thức thân và xúc thân được giải là nhóm, đối tượng xúc chạm tách khỏi xúc qua sáu cửa. Hữu tình, y cứ, xuất ly, tác ý, chứng và an trú đều được mở nghĩa; atammayatā giữ tính không bị trạng thái ấy quy định, không tự giải thêm từ nguyên.",
+        "audience_fit": "Ví dụ thông báo khen thưởng giúp người trưởng thành tự nhìn nền của phản ứng trong việc làm mà vẫn chỉ là ví dụ. Cách gộp hai loại hỷ/ưu tại gia và ba phản ứng người học phù hợp đọc phân tích; chưa có thử nghiệm với độc giả thật.",
+        "clarity": "Các tiêu đề dẫn mạch từ đối tượng, hoạt động tâm, nền phản ứng tới cách buông. Mục về ba phản ứng chia ba đoạn tương ứng, cho phép so các phủ định; đoạn thuật ngữ thiền vẫn dày nhưng đủ lời mở để theo dõi.",
+        "editorial_separation": "Ví dụ công việc và gợi ý quan sát có loại mục riêng, nói rõ cần trở lại toàn bộ quán chiếu mới hiểu xả xuất ly. Nội dung giải kinh không viện tình huống khen thưởng như lời giảng trực tiếp của Phật.",
+        "practical_integrity": "Thực hành đề nghị xác định phản ứng và cửa liên quan, ghi câu hỏi để học với người hướng dẫn. Không hứa quản trị cảm xúc lập tức, không bảo loại bỏ mọi niềm vui và không biến tám hướng tu chứng thành kỹ năng công việc.",
+        "technical_integrity": "Đối chiếu đủ 38 đoạn trong 20 mục với 48 ý; fixture audit không có lỗi cấu trúc hoặc nguồn. Năm nguồn có SHA hiện hành, Pāli/Sujato có blob manifest xác nhận; fingerprint trưởng thành gắn đúng bản đã đọc, không lấy hash bản khác."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập bản do writer_b soạn: đọc toàn 195 khóa Pāli/Việt/Anh, sáu chú thích, HTML SC1–SC30 và toàn ghi công, 48 ý, 28 ghi chú tác giả và cả ba bản 27/20/29 mục. Năm nguồn, hai blob manifest và hai git show đã xác minh; không cần sửa thêm sau lượt kiểm này. Kiểm biên tập AI, chưa có học giả Pāli hoặc độc giả thật xác nhận.",
+      "contentHash": "14c53d0b03fca43a4cd0353a85a816277bc09fb6f53e7bad1ecec006e1887a4f",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn137.html",
+          "sha256": "a5402ae782d8c849ee07cae3234697ccd12836471c1620bbd5c4c08e45bb2d28"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn137_root-pli-ms.json",
+          "sha256": "4abf0c6b6a7cde4843bcb9b3ab5338cf9e4a35aef109a54f04b88d0821347906"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn137_translation-en-sujato.json",
+          "sha256": "99b54198c52bcf7f4760a638415ce69d3ebf6912f368c6189d284181564e51a3"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn137_comment-vi-project.json",
+          "sha256": "ad662d3fbc7bb33d5ee3fd35bf6d8f35ccaca7f698bda79aa98cab37a343199e"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn137_translation-vi-project.json",
+          "sha256": "d8fda29cdfa2f7ce5ec0704759825cd9022633a53dc64dc4eab204fff06400b2"
+        }
+      ]
+    },
+    {
+      "id": "f1c82dd7-878b-4712-a2e9-fab5380aafa1",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 10,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.5,
+        "clarity": 9.6,
+        "editorial_separation": 10,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Đọc trọn năm tệp nguồn, 195 khóa và 29 mục bản lớn tuổi. Ba niệm xứ theo đúng Pāli: đầu không bất mãn, giữa tránh bất mãn lẫn hài lòng, cuối có hài lòng mà không ô nhiễm; HTML không hoan hỷ ở trường hợp đầu không được dùng thay.",
+        "semantic_fidelity": "Giữ rõ hai cách khởi vui và hai cách khởi buồn đối với đủ sáu đối tượng; xả tại gia không vượt đối tượng còn xả xuất ly vượt. Tất cả quán xuất ly có quá khứ/hiện tại và vô thường/khổ/đổi thay, không chỉ lời an ủi về tuổi già.",
+        "core_coverage": "Đủ 48 ý, từ lời xác nhận đã nghe và chín đầu mục đến bảy quan hệ buông cùng tám hướng. Cả ba con vật, bốn hướng lựa chọn, ba phẩm xưng của Phật, người nghe tán đồng và thứ tự bài trong nhóm đều được giữ.",
+        "logic_context": "Những mục ba bước, hai bước và hai bước cuối làm rõ bảy quan hệ; không đảo ưu xuất ly thành đích cuối. Ở hướng thứ tư có đủ ba điều kiện về tưởng; hướng năm đến tám đều hoàn toàn vượt, chứng và an trú, không chỉ kể tên tầng.",
+        "terminology": "Mở y cứ, hữu tình, xúc thân, thức thân, niệm/tỉnh giác và chứng/an trú gần nơi xuất hiện. Giữ số năm ở xả đa dạng, bốn ở xả thuần nhất; từ khó về quả dị thục có lời mở ngắn nhưng không khẳng định một cách giải từ nguyên ngoài nguồn.",
+        "audience_fit": "Ví dụ ảnh sum họp dùng kinh nghiệm quen thuộc mà không giả định mọi người lớn tuổi cô đơn hoặc mất mát. 29 mục, phần lớn một hoặc hai đoạn, cho phép đọc từng nhóm; các thuật ngữ thiền sâu còn cần người hướng dẫn và chưa có độc giả thử đọc.",
+        "clarity": "Sự lặp có chủ ý giữ tên nhóm cùng điều kiện trước khi kết tổng số; các mục về ba phản ứng và tám hướng chia rõ. Lời văn đi từng bước và mở thuật ngữ, trong khi phần nhiều tên chứng đạt vẫn cần đọc chậm.",
+        "editorial_separation": "Mục photograph tự ghi là ví dụ hiện đại, mục practice ghi là gợi ý ngày nay; cả hai tách loại khỏi phần giảng. Không kể cuộc sum họp như chuyện kinh hoặc dùng sự xúc động trước ảnh làm bằng chứng về giải thoát.",
+        "practical_integrity": "Gợi ý quan sát một phản ứng và đọc một nhóm mỗi lần không thành yêu cầu dẹp hết buồn vui hay chịu đựng thụ động. Bản vẫn giữ lòng thương và lợi ích khi giảng dạy, đồng thời không hứa việc tự quan sát là thành tựu thiền.",
+        "technical_integrity": "Audit ghi 52 đoạn trong 29 mục, phủ đủ 48 ý và toàn 195 khóa Pāli, nguồn không lỗi. Năm tệp nguồn đã đối SHA, hai blob và hai git show được xác minh; fingerprint lớn tuổi đúng toàn văn đã đọc, đánh giá chưa được ghi vào metadata trong lượt kiểm này."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập bản do writer_b soạn: đọc toàn 195 khóa Pāli/Việt/Anh, sáu chú thích, HTML SC1–SC30 và toàn ghi công, 48 ý, 28 ghi chú tác giả và cả ba bản 27/20/29 mục. Năm nguồn, hai blob manifest và hai git show đã xác minh; không cần sửa thêm sau lượt kiểm này. Kiểm biên tập AI, chưa có học giả Pāli hoặc độc giả thật xác nhận.",
+      "contentHash": "6d2221831652a6ab0db57ae37ade3caadaa9cc1d2f740a55fb4476ee51682b2d",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn137.html",
+          "sha256": "a5402ae782d8c849ee07cae3234697ccd12836471c1620bbd5c4c08e45bb2d28"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn137_root-pli-ms.json",
+          "sha256": "4abf0c6b6a7cde4843bcb9b3ab5338cf9e4a35aef109a54f04b88d0821347906"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn137_translation-en-sujato.json",
+          "sha256": "99b54198c52bcf7f4760a638415ce69d3ebf6912f368c6189d284181564e51a3"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn137_comment-vi-project.json",
+          "sha256": "ad662d3fbc7bb33d5ee3fd35bf6d8f35ccaca7f698bda79aa98cab37a343199e"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn137_translation-vi-project.json",
+          "sha256": "d8fda29cdfa2f7ce5ec0704759825cd9022633a53dc64dc4eab204fff06400b2"
+        }
+      ]
+    }
+  ]
+}
