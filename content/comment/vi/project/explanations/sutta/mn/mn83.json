@@ -1,0 +1,1502 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn83",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn83_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "e8a527534735f5cbb4541aa0b6e0d535f94798589a5503c747aa7e0344bbbb6c"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn83_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "47716f07fdf2c11603f5165d6d981a9331d82d1c4c80142bba97bd8a93499da8"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn83_translation-vi-project.json",
+      "commit": "35309d257c04d74d87f2838da349f5bcbe9f28ed",
+      "sha256": "7a2245d3a7f42185c5dc25643b9c2acd6c96bb7865b2c1eda96525fa80247a5c"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn83.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "3fde9244e76904ea9891d6dd5392f97b58a3bf3da293de96a8f5662b11205c42"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn83_comment-vi-project.json",
+      "commit": "35309d257c04d74d87f2838da349f5bcbe9f28ed",
+      "sha256": "3bdfdc844e79e706c089310f7867dc0a4e6bb4712590251c1bfe14dd25ec6969"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Tên bài kinh",
+      "segments": [
+        "mn83:0.1",
+        "mn83:0.2"
+      ],
+      "summary": "Trung Bộ 83, Kinh Makhādeva."
+    },
+    {
+      "id": "setting",
+      "title": "Điều đã nghe tại vườn xoài",
+      "segments": [
+        "mn83:1.1",
+        "mn83:1.2"
+      ],
+      "summary": "Người truyền kinh nói đã nghe: Phật trú Mithilā tại vườn xoài Makhādeva."
+    },
+    {
+      "id": "smile",
+      "title": "Nụ cười và câu hỏi của Ānanda",
+      "segments": [
+        "mn83:2.1",
+        "mn83:2.2",
+        "mn83:2.3",
+        "mn83:2.4",
+        "mn83:2.5",
+        "mn83:2.6",
+        "mn83:2.7"
+      ],
+      "summary": "Phật mỉm cười tại một chỗ; Ānanda nghĩ nhân duyên nào, các Như Lai không cười vô cớ. Ông phủ y một vai, chắp tay hướng Phật, hỏi đủ nhân duyên và nói Như Lai không cười vô cớ."
+    },
+    {
+      "id": "king",
+      "title": "Vị vua sống theo lẽ phải",
+      "segments": [
+        "mn83:3.1",
+        "mn83:3.2",
+        "mn83:3.3"
+      ],
+      "summary": "Thuở xưa ngay Mithilā có vua Makhādeva chân chánh, trị vì theo pháp, cư xử đúng với bà-la-môn/gia chủ và dân thành/dân quê; giữ Bố-tát ngày 14, 15, 8 mỗi nửa tháng."
+    },
+    {
+      "id": "barber-request",
+      "title": "Lời dặn thợ cạo",
+      "segments": [
+        "mn83:4.1",
+        "mn83:4.2",
+        "mn83:4.3"
+      ],
+      "summary": "Sau nhiều năm, trăm năm, nghìn năm, vua dặn khi có tóc bạc hãy báo; thợ cạo vâng lời."
+    },
+    {
+      "id": "grey-hairs",
+      "title": "Tóc bạc được đặt lên tay vua",
+      "segments": [
+        "mn83:4.4",
+        "mn83:4.5",
+        "mn83:4.6",
+        "mn83:4.7",
+        "mn83:4.8"
+      ],
+      "summary": "Sau nhiều năm/trăm/nghìn nữa, thợ thấy tóc bạc, báo Thiên sứ hiện ra. Vua bảo khéo nhổ bằng nhíp đặt vào tay chắp; thợ vâng và làm như vậy."
+    },
+    {
+      "id": "handover",
+      "title": "Trao việc trị vì cho con trưởng",
+      "segments": [
+        "mn83:4.9",
+        "mn83:4.10",
+        "mn83:4.11",
+        "mn83:4.12",
+        "mn83:4.13",
+        "mn83:4.14",
+        "mn83:4.15"
+      ],
+      "summary": "Vua thưởng thợ một làng tốt, gọi con trưởng. Nói Thiên sứ là tóc bạc đã tới, đã hưởng dục loài người, đến lúc tìm thiên dục; con trị quốc, cha cạo râu tóc, đắp cà-sa, xuất gia từ nhà đến không nhà."
+    },
+    {
+      "id": "instruction",
+      "title": "Dặn con lặp lại khi tóc bạc",
+      "segments": [
+        "mn83:4.16"
+      ],
+      "summary": "Khi chính con có tóc bạc, hãy thưởng thợ làng tốt, khéo dạy con trưởng trị quốc, cạo râu tóc, mặc cà-sa và xuất gia."
+    },
+    {
+      "id": "continuity",
+      "title": "Hai lần dặn đừng là người cuối",
+      "segments": [
+        "mn83:4.17",
+        "mn83:4.18",
+        "mn83:4.19",
+        "mn83:4.20"
+      ],
+      "summary": "Vua hai lần dặn tiếp tục truyền thống tốt do mình lập, đừng làm người cuối. Giữa hai lời dặn giải thích: ở đời người nào nếp tốt bị cắt đứt, người ấy là người cuối của dòng ấy."
+    },
+    {
+      "id": "departure",
+      "title": "Vua thực hiện lời đã nói",
+      "segments": [
+        "mn83:5.1"
+      ],
+      "summary": "Thưởng làng cho thợ, khéo chỉ dạy con trưởng trị quốc, ngay vườn xoài này vua cạo râu tóc, khoác cà-sa, rời nhà xuất gia."
+    },
+    {
+      "id": "four-hearts",
+      "title": "Bốn tâm lan tỏa không giới hạn",
+      "segments": [
+        "mn83:5.2",
+        "mn83:5.3",
+        "mn83:5.4",
+        "mn83:5.5"
+      ],
+      "summary": "Vua an trú từ/bi/hỷ/xả. Mỗi tâm trùm một phương rồi hai/ba/bốn, trên/dưới/ngang/khắp nơi, tất cả như chính mình, cả thế giới; rộng lớn/cao cả/vô lượng/không thù/không ác ý."
+    },
+    {
+      "id": "lifespans",
+      "title": "Bốn thời kỳ tám mươi bốn nghìn năm",
+      "segments": [
+        "mn83:6.1"
+      ],
+      "summary": "Vua có 84.000 năm tuổi thơ vui chơi, 84.000 năm phó vương, 84.000 năm trị quốc, 84.000 năm sống phạm hạnh sau xuất gia ở chính vườn xoài."
+    },
+    {
+      "id": "rebirth",
+      "title": "Quả sinh cõi Phạm thiên",
+      "segments": [
+        "mn83:6.2"
+      ],
+      "summary": "Tu bốn Phạm trú, khi thân hoại sau chết vua sinh cõi Phạm thiên."
+    },
+    {
+      "id": "son-hairs",
+      "title": "Người con cũng gặp Thiên sứ",
+      "segments": [
+        "mn83:7.1",
+        "mn83:7.2",
+        "mn83:7.3",
+        "mn83:7.4",
+        "mn83:7.5",
+        "mn83:7.6",
+        "mn83:7.7",
+        "mn83:7.8",
+        "mn83:7.9"
+      ],
+      "summary": "Con vua sau nhiều năm/trăm/nghìn dặn thợ báo tóc bạc, thợ vâng. Sau nhiều năm/trăm/nghìn nữa thấy, báo Thiên sứ/tóc bạc; theo lệnh vua, thợ vâng khéo nhíp tóc vào tay chắp."
+    },
+    {
+      "id": "son-handover",
+      "title": "Người con trao ngôi và dặn con mình",
+      "segments": [
+        "mn83:8.1",
+        "mn83:8.2",
+        "mn83:8.3",
+        "mn83:8.4",
+        "mn83:8.5",
+        "mn83:8.6",
+        "mn83:8.7",
+        "mn83:8.8"
+      ],
+      "summary": "Con Makhādeva thưởng làng tốt, gọi con trưởng; nói tóc bạc/Thiên sứ, đã hưởng dục người, tìm thiên dục, giao trị quốc, mình cạo tóc râu/mặc cà-sa/xuất gia. Dặn con khi tóc bạc cũng thưởng thợ, dạy con trưởng trị quốc và xuất gia như vậy."
+    },
+    {
+      "id": "son-continuity",
+      "title": "Lời giữ nếp tốt qua đời thứ hai",
+      "segments": [
+        "mn83:8.9",
+        "mn83:8.10",
+        "mn83:8.11",
+        "mn83:8.12"
+      ],
+      "summary": "Hai lần dặn duy trì nếp tốt đã lập, đừng làm người cuối; xen định nghĩa đời nào làm nếp bị đứt thì người ấy là cuối."
+    },
+    {
+      "id": "son-departure",
+      "title": "Con vua xuất gia tại cùng vườn",
+      "segments": [
+        "mn83:9.1"
+      ],
+      "summary": "Con vua thưởng thợ làng tốt, khéo dạy con trưởng trị quốc, tại vườn xoài Makhādeva cạo râu tóc/khoác cà-sa/xuất gia."
+    },
+    {
+      "id": "son-practice",
+      "title": "Người con tu bốn tâm",
+      "segments": [
+        "mn83:9.2",
+        "mn83:9.3",
+        "mn83:9.4",
+        "mn83:9.5"
+      ],
+      "summary": "Con vua tu từ/bi/hỷ/xả đầy đủ bốn phương, trên/dưới/ngang/khắp nơi/tất cả như mình/toàn thế giới, rộng lớn/cao cả/vô lượng/không thù/không ác ý."
+    },
+    {
+      "id": "son-years",
+      "title": "Bốn thời kỳ và quả của người con",
+      "segments": [
+        "mn83:9.6",
+        "mn83:9.7"
+      ],
+      "summary": "Con vua mỗi thời 84.000 năm: tuổi thơ, phó vương, vua, phạm hạnh tại vườn xoài; tu bốn Phạm trú, sau thân hoại mạng chung sinh Phạm thiên."
+    },
+    {
+      "id": "lineage",
+      "title": "Tám mươi bốn nghìn vị vua kế tiếp",
+      "segments": [
+        "mn83:10.1"
+      ],
+      "summary": "Dòng con cháu nối tiếp Makhādeva gồm 84.000 vua tại chính vườn xoài cạo râu tóc/khoác cà-sa/xuất gia."
+    },
+    {
+      "id": "lineage-practice",
+      "title": "Bốn tâm trong dòng vua",
+      "segments": [
+        "mn83:10.2",
+        "mn83:11.1",
+        "mn83:11.2",
+        "mn83:11.3"
+      ],
+      "summary": "Các vua tu từ/bi/hỷ/xả theo toàn công thức bốn hướng/trên/dưới/ngang/khắp nơi/tất cả như mình/toàn thế giới, rộng lớn/cao cả/vô lượng/không thù/không ác ý."
+    },
+    {
+      "id": "lineage-years",
+      "title": "Năm tháng và quả của dòng vua",
+      "segments": [
+        "mn83:11.4",
+        "mn83:11.5"
+      ],
+      "summary": "Các vua mỗi thời 84.000 năm tuổi thơ/phó vương/trị quốc/phạm hạnh tại vườn xoài; tu bốn Phạm trú rồi thân hoại chết, sinh cõi Phạm thiên."
+    },
+    {
+      "id": "nimi",
+      "title": "Nimi giữ nếp trị vì đúng pháp",
+      "segments": [
+        "mn83:12.1",
+        "mn83:12.2",
+        "mn83:12.3"
+      ],
+      "summary": "Nimi cuối dòng vua ấy, vua chân chánh/đúng pháp, cư xử đúng với bà-la-môn/gia chủ/dân thành/dân quê, giữ Bố-tát 14, 15, 8 mỗi nửa tháng."
+    },
+    {
+      "id": "gods-praise",
+      "title": "Các vị trời muốn gặp vua",
+      "segments": [
+        "mn83:13.1",
+        "mn83:13.2",
+        "mn83:13.3",
+        "mn83:13.4",
+        "mn83:13.5",
+        "mn83:13.6",
+        "mn83:13.7",
+        "mn83:13.8"
+      ],
+      "summary": "Trời Ba Mươi Ba hội họp Sudhammā, khen Videha may mắn hai lần vì vua Nimi chính trực, đúng pháp với bốn nhóm người, giữ ba ngày Bố-tát. Sakka Thiên chủ hỏi muốn gặp vua không; chư thiên đáp muốn."
+    },
+    {
+      "id": "visit",
+      "title": "Sakka hiện trước vua Nimi",
+      "segments": [
+        "mn83:13.9",
+        "mn83:13.10"
+      ],
+      "summary": "Ngày rằm Bố-tát vua gội đầu, giữ lễ, ngồi lầu trên. Sakka từ Trời Ba Mươi Ba hiện trước vua như người mạnh duỗi tay co hoặc co tay duỗi."
+    },
+    {
+      "id": "invitation",
+      "title": "Lời mời và cỗ xe nghìn ngựa",
+      "segments": [
+        "mn83:13.11",
+        "mn83:13.12",
+        "mn83:13.13",
+        "mn83:13.14",
+        "mn83:13.15",
+        "mn83:13.16",
+        "mn83:13.17",
+        "mn83:13.18",
+        "mn83:13.19",
+        "mn83:13.20"
+      ],
+      "summary": "Sakka nói vua thật may mắn hai lần, thuật trọn lời khen Videha/vua chính trực/bốn nhóm dân/ba ngày Bố-tát, báo chư thiên muốn gặp. Sẽ gửi cỗ xe nghìn tuấn mã, mời lên thiên xa không do dự."
+    },
+    {
+      "id": "assent",
+      "title": "Im lặng nhận và Sakka trở lại",
+      "segments": [
+        "mn83:13.21",
+        "mn83:13.22"
+      ],
+      "summary": "Nimi im lặng nhận lời; biết vua nhận, Sakka biến khỏi trước vua hiện giữa Trời Ba Mươi Ba như người mạnh duỗi/co cánh tay."
+    },
+    {
+      "id": "chariot-order",
+      "title": "Sakka sai người điều xe",
+      "segments": [
+        "mn83:14.1",
+        "mn83:14.2",
+        "mn83:14.3",
+        "mn83:14.4"
+      ],
+      "summary": "Sakka dặn Mātali thắng xe nghìn tuấn mã, đến Nimi, nói xe do Sakka gửi và mời lên thiên xa không do dự."
+    },
+    {
+      "id": "chariot-arrival",
+      "title": "Mātali làm đúng lời dặn",
+      "segments": [
+        "mn83:14.5",
+        "mn83:14.6",
+        "mn83:14.7"
+      ],
+      "summary": "Mātali vâng, thắng xe nghìn tuấn mã, đến vua, báo xe Sakka gửi và mời lên không do dự."
+    },
+    {
+      "id": "routes",
+      "title": "Vua muốn đi cả hai lối",
+      "segments": [
+        "mn83:14.8",
+        "mn83:14.9"
+      ],
+      "summary": "Mātali hỏi đi lối người làm ác cảm quả ác hay người làm thiện cảm quả thiện; vua yêu cầu cả hai."
+    },
+    {
+      "id": "welcome",
+      "title": "Đón ở giảng đường Sudhammā",
+      "segments": [
+        "mn83:15.1",
+        "mn83:15.2",
+        "mn83:15.3",
+        "mn83:15.4",
+        "mn83:15.5",
+        "mn83:15.6",
+        "mn83:15.7",
+        "mn83:15.8",
+        "mn83:15.9",
+        "mn83:15.10",
+        "mn83:15.11",
+        "mn83:15.12"
+      ],
+      "summary": "Mātali đưa vua vào hội đường; Sakka thấy từ xa, mời vào/chào mừng, thuật trọn lời chư thiên khen Videha vì vua đúng pháp với bốn nhóm và ba ngày Bố-tát; nói họ muốn gặp, mời hưởng vinh quang trời giữa chư thiên."
+    },
+    {
+      "id": "return-wish",
+      "title": "Xin trở về để sống đúng pháp",
+      "segments": [
+        "mn83:15.13",
+        "mn83:15.14",
+        "mn83:15.15"
+      ],
+      "summary": "Vua từ chối ở lại vui hưởng, xin về Mithilā để sống đúng pháp với bốn nhóm dân và giữ Bố-tát 14, 15, 8 mỗi nửa tháng."
+    },
+    {
+      "id": "return",
+      "title": "Về nước và tiếp tục nếp sống",
+      "segments": [
+        "mn83:16.1",
+        "mn83:16.2",
+        "mn83:16.3",
+        "mn83:16.4"
+      ],
+      "summary": "Sakka dặn Mātali thắng xe nghìn ngựa đưa vua về; Mātali vâng làm. Ở Mithilā vua thật sự sống đúng pháp với bà-la-môn/gia chủ/dân thành/dân quê, giữ đủ ba ngày Bố-tát."
+    },
+    {
+      "id": "nimi-hairs",
+      "title": "Nimi sau này nhận tóc bạc",
+      "segments": [
+        "mn83:16.5",
+        "mn83:16.6",
+        "mn83:16.7",
+        "mn83:16.8",
+        "mn83:16.9",
+        "mn83:16.10",
+        "mn83:16.11",
+        "mn83:16.12",
+        "mn83:16.13"
+      ],
+      "summary": "Sau nhiều năm/trăm/nghìn Nimi dặn báo tóc bạc, thợ vâng. Lại nhiều năm/trăm/nghìn mới thấy/báo Thiên sứ; vua bảo khéo nhíp tóc vào tay chắp, thợ vâng làm."
+    },
+    {
+      "id": "nimi-handover",
+      "title": "Lời trao ngôi của Nimi",
+      "segments": [
+        "mn83:16.14",
+        "mn83:16.15",
+        "mn83:16.16",
+        "mn83:16.17",
+        "mn83:16.18",
+        "mn83:16.19",
+        "mn83:16.20",
+        "mn83:16.21"
+      ],
+      "summary": "Nimi thưởng thợ làng tốt/gọi con trưởng, nói tóc bạc/Thiên sứ, đã hưởng dục người/đến lúc tìm dục trời, giao con trị quốc, mình xuất gia cạo râu tóc/mặc cà-sa. Dặn con khi tóc bạc cũng thưởng thợ/dạy con trưởng trị quốc/xuất gia."
+    },
+    {
+      "id": "nimi-continuity",
+      "title": "Nimi nhắc hai lần chớ cắt đứt",
+      "segments": [
+        "mn83:16.22",
+        "mn83:16.23",
+        "mn83:16.24",
+        "mn83:16.25"
+      ],
+      "summary": "Nimi hai lần dặn duy trì nếp tốt do mình lập, đừng làm người cuối; giải thích đời nào làm nếp bị đứt là người cuối."
+    },
+    {
+      "id": "nimi-departure",
+      "title": "Nimi xuất gia tại vườn xoài",
+      "segments": [
+        "mn83:17-19.1"
+      ],
+      "summary": "Nimi thưởng thợ làng tốt, khéo dạy con trưởng trị quốc, tại chính vườn xoài cạo râu tóc/khoác cà-sa/xuất gia."
+    },
+    {
+      "id": "nimi-practice",
+      "title": "Nimi tu bốn tâm vô lượng",
+      "segments": [
+        "mn83:17-19.2",
+        "mn83:17-19.3",
+        "mn83:17-19.4",
+        "mn83:17-19.5"
+      ],
+      "summary": "Nimi tu từ/bi/hỷ/xả đủ toàn công thức hướng/phạm vi/phẩm chất như vua trước: bốn hướng/trên/dưới/ngang/khắp nơi/tất cả như mình/toàn thế giới, rộng lớn/cao cả/vô lượng/không thù/không ác ý."
+    },
+    {
+      "id": "nimi-years",
+      "title": "Bốn thời và quả của Nimi",
+      "segments": [
+        "mn83:17-19.6",
+        "mn83:17-19.7"
+      ],
+      "summary": "Nimi mỗi thời 84.000 năm tuổi thơ/phó vương/trị quốc/phạm hạnh tại vườn xoài; tu bốn Phạm trú rồi thân hoại sau chết sinh Phạm thiên."
+    },
+    {
+      "id": "break",
+      "title": "Người con cắt đứt truyền thống",
+      "segments": [
+        "mn83:20.1",
+        "mn83:20.2",
+        "mn83:20.3",
+        "mn83:20.4"
+      ],
+      "summary": "Con Nimi là Kaḷāra Janaka không xuất gia, cắt đứt truyền thống tốt và là người cuối của dòng nếp ấy."
+    },
+    {
+      "id": "identity",
+      "title": "Phật là vị vua Makhādeva thuở ấy",
+      "segments": [
+        "mn83:21.1",
+        "mn83:21.2",
+        "mn83:21.3",
+        "mn83:21.4",
+        "mn83:21.5",
+        "mn83:21.6"
+      ],
+      "summary": "Ānanda có thể nghĩ Makhādeva là người khác; Phật bảo không nên thấy vậy: chính Ngài là vua ấy, lập nếp tốt ấy và người đời sau đã tiếp tục."
+    },
+    {
+      "id": "limit",
+      "title": "Giới hạn của truyền thống cũ",
+      "segments": [
+        "mn83:21.7"
+      ],
+      "summary": "Nếp cũ không đưa tới yểm ly/ly tham/chấm dứt/an tịnh/thắng trí/giác ngộ/Niết-bàn; chỉ tới sinh cõi Phạm thiên."
+    },
+    {
+      "id": "new-practice",
+      "title": "Truyền thống tốt đẹp bây giờ",
+      "segments": [
+        "mn83:21.8",
+        "mn83:21.9",
+        "mn83:21.10"
+      ],
+      "summary": "Nếp mới Phật lập nhất định hướng trọn bảy mục tiêu ấy; hỏi nếp ấy là gì và đáp chính Thánh đạo tám phần."
+    },
+    {
+      "id": "eightfold",
+      "title": "Đủ tám phần của con đường",
+      "segments": [
+        "mn83:21.11",
+        "mn83:21.12"
+      ],
+      "summary": "Chánh kiến/tư duy/ngữ/nghiệp/mạng/tinh tấn/niệm/định; xác nhận nếp này đưa đến hoàn toàn yểm ly/ly tham/chấm dứt/an tịnh/thắng trí/giác ngộ/Niết-bàn."
+    },
+    {
+      "id": "appeal",
+      "title": "Lời dặn hướng đến tất cả đệ tử",
+      "segments": [
+        "mn83:21.13",
+        "mn83:21.14",
+        "mn83:21.15",
+        "mn83:21.16",
+        "mn83:21.17"
+      ],
+      "summary": "Phật hai lần nói với các ông hãy duy trì nếp tốt Ngài lập, đừng là những người cuối; giữa hai lời dặn giải thích đời nào nếp bị cắt đứt, người ấy là cuối."
+    },
+    {
+      "id": "ending",
+      "title": "Ānanda vui nhận lời dạy",
+      "segments": [
+        "mn83:21.18",
+        "mn83:21.19",
+        "mn83:21.20"
+      ],
+      "summary": "Phật nói xong, Ānanda hoan hỷ/tán đồng; Kinh Makhādeva thứ ba trong nhóm kết thúc."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Diễn giải dành cho trẻ em",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Một nụ cười mở đầu câu chuyện",
+          "paragraphs": [
+            "Kinh Makhādeva là bài 83 của Trung Bộ, được người truyền kinh kể lại với lời đã nghe. Phật đang ở Mithilā, trong vườn xoài Makhādeva. Tại một chỗ, Ngài mỉm cười.",
+            "Như Lai là một danh hiệu của Phật. Ānanda nghĩ: vì nhân gì, duyên gì Phật cười? Các bậc Như Lai không cười vô cớ. Ông sửa y phủ một vai, chắp tay hướng về Phật rồi hỏi đúng điều đang nghĩ: do đâu Ngài cười, vì các bậc Như Lai không cười không có lý do."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting",
+            "smile"
+          ]
+        },
+        {
+          "id": "king",
+          "kind": "teaching",
+          "heading": "Một vị vua biết giữ điều lành",
+          "paragraphs": [
+            "Phật kể: thuở xưa, ngay tại Mithilā này, có vua Makhādeva. Ông là vị vua chân chính, giữ lẽ phải và trị vì theo lẽ phải. Ông cư xử đúng với bà-la-môn, người thuộc truyền thống kinh điển và nghi lễ; với gia chủ, người chủ gia đình; với dân thành thị và dân quê.",
+            "Vua giữ Bố-tát, những ngày giữ giới và tu tập, vào ngày 14, ngày 15 và ngày 8 của mỗi nửa tháng."
+          ],
+          "meaningUnits": [
+            "king"
+          ]
+        },
+        {
+          "id": "hairs",
+          "kind": "teaching",
+          "heading": "Khi thợ cạo thấy tóc bạc",
+          "paragraphs": [
+            "Sau nhiều năm, nhiều trăm năm, nhiều nghìn năm, vua dặn thợ cạo: khi thấy tóc bạc mọc trên đầu ta, hãy báo. Người thợ vâng lời. Lại qua nhiều năm, nhiều trăm năm, nhiều nghìn năm, ông mới thấy và báo: các Thiên sứ đã hiện ra, tóc bạc đã mọc.",
+            "Thiên sứ ở đây là cách gọi những sợi tóc báo tuổi già. Vua bảo dùng nhíp khéo nhổ chúng, đặt vào đôi tay đang chắp của mình. Người thợ vâng lời, làm cẩn thận như vua dặn."
+          ],
+          "meaningUnits": [
+            "barber-request",
+            "grey-hairs"
+          ]
+        },
+        {
+          "id": "handover",
+          "kind": "teaching",
+          "heading": "Giao việc và dặn người tiếp nối",
+          "paragraphs": [
+            "Vua thưởng cho thợ cạo một làng tốt, gọi người con trai trưởng đến. Ông nói: tóc bạc, những Thiên sứ, đã xuất hiện; ta đã hưởng thú vui loài người, nay đến lúc tìm thú vui cõi trời. Con hãy trị vì nước này. Ta sẽ cạo râu tóc, mặc áo cà-sa của người xuất gia, rời đời sống gia đình để xuất gia.",
+            "Ông dặn con: khi chính con có tóc bạc, hãy thưởng thợ cạo một làng tốt, khéo dạy con trai trưởng việc trị nước, rồi cạo râu tóc, mặc cà-sa và xuất gia như vậy."
+          ],
+          "meaningUnits": [
+            "handover",
+            "instruction"
+          ]
+        },
+        {
+          "id": "promise",
+          "kind": "teaching",
+          "heading": "Đừng để nếp tốt dừng ở mình",
+          "paragraphs": [
+            "Vua nhắc hai lần: hãy tiếp tục nếp tốt ta đã đặt ra, đừng thành người cuối cùng. Ông giải thích: ở đời người nào mà nếp tốt ấy bị cắt đứt, người ấy là người cuối của dòng tiếp nối.",
+            "Vua làm như đã nói: thưởng làng cho thợ, cẩn thận dạy con trưởng trị nước. Tại chính vườn xoài này, ông cạo râu tóc, khoác áo cà-sa, rời gia đình sống đời xuất gia."
+          ],
+          "meaningUnits": [
+            "continuity",
+            "departure"
+          ]
+        },
+        {
+          "id": "hearts",
+          "kind": "teaching",
+          "heading": "Bốn cách mở rộng lòng mình",
+          "paragraphs": [
+            "Vua tu tâm từ, mong điều lành cho người khác; tâm bi, thương trước nỗi khổ; tâm hỷ, vui với niềm vui của người khác; tâm xả, giữ lòng quân bình, không thiên lệch.",
+            "Với mỗi tâm ấy, ông lan tỏa đến phương thứ nhất, thứ hai, thứ ba, thứ tư, rồi trên, dưới, ngang, khắp mọi nơi. Ông hướng đến tất cả như chính mình, trùm cả thế giới bằng tâm rộng lớn, cao cả, không giới hạn, không thù hận, không ác ý."
+          ],
+          "meaningUnits": [
+            "four-hearts"
+          ]
+        },
+        {
+          "id": "years",
+          "kind": "teaching",
+          "heading": "Bốn thời kỳ rất dài",
+          "paragraphs": [
+            "Trong câu chuyện Phật kể, vua có 84.000 năm tuổi thơ vui chơi, 84.000 năm làm phó vương, phụ giúp việc cai trị, 84.000 năm làm vua, và 84.000 năm sống phạm hạnh, đời tu thanh tịnh, tại vườn xoài ấy.",
+            "Nhờ tu bốn tâm vừa nói, còn gọi là bốn Phạm trú, sau khi thân hoại và chết, ông tái sinh vào cõi Phạm thiên, một cõi trời."
+          ],
+          "meaningUnits": [
+            "lifespans",
+            "rebirth"
+          ]
+        },
+        {
+          "id": "son-hairs",
+          "kind": "teaching",
+          "heading": "Người con làm theo lời cha",
+          "paragraphs": [
+            "Con trai Makhādeva cũng vậy. Qua nhiều năm, nhiều trăm năm, nhiều nghìn năm, ông dặn thợ cạo báo khi có tóc bạc; thợ nhận lời. Lại qua những khoảng thời gian dài ấy, thợ thấy tóc bạc, báo các Thiên sứ đã đến.",
+            "Vua bảo khéo dùng nhíp nhổ tóc bạc vào đôi tay chắp của mình. Người thợ vâng lời và làm đúng."
+          ],
+          "meaningUnits": [
+            "son-hairs"
+          ]
+        },
+        {
+          "id": "son-promise",
+          "kind": "teaching",
+          "heading": "Một lời dặn được truyền tiếp",
+          "paragraphs": [
+            "Người con thưởng thợ một làng tốt, gọi con trưởng của mình. Ông nói đủ ý: tóc bạc đã tới, đã hưởng thú vui người, nay tìm thú vui trời; con trị nước, cha cạo râu tóc, khoác cà-sa, xuất gia. Khi con có tóc bạc, cũng hãy thưởng thợ, khéo dạy con trưởng trị nước rồi xuất gia như thế.",
+            "Ông hai lần dặn giữ nếp tốt, đừng làm người cuối, và giải thích người làm nếp bị đứt ở đời mình là người cuối. Rồi ông thưởng làng cho thợ, khéo dạy con trưởng, cạo râu tóc, mặc cà-sa và xuất gia ngay vườn xoài Makhādeva."
+          ],
+          "meaningUnits": [
+            "son-handover",
+            "son-continuity",
+            "son-departure"
+          ]
+        },
+        {
+          "id": "son-life",
+          "kind": "teaching",
+          "heading": "Cách tu và kết quả của người con",
+          "paragraphs": [
+            "Người con cũng tu từ, bi, hỷ, xả. Mỗi tâm trùm bốn phương, trên, dưới, ngang, khắp nơi, hướng tất cả như mình, đến cả thế giới; rộng lớn, cao cả, vô lượng, không thù hận, không ác ý.",
+            "Bốn thời kỳ của ông cũng mỗi thời 84.000 năm: tuổi thơ, phó vương, trị nước, đời tu thanh tịnh tại vườn xoài. Tu bốn Phạm trú, sau khi thân hoại và chết, ông tái sinh cõi Phạm thiên."
+          ],
+          "meaningUnits": [
+            "son-practice",
+            "son-years"
+          ]
+        },
+        {
+          "id": "lineage",
+          "kind": "teaching",
+          "heading": "Một dòng vua tiếp tục nếp ấy",
+          "paragraphs": [
+            "Dòng con cháu Makhādeva có 84.000 vị vua tiếp nối. Các vị cạo râu tóc, mặc cà-sa, xuất gia tại chính vườn xoài này. Các vị tu từ, bi, hỷ, xả, mỗi tâm đến bốn phương, trên, dưới, ngang, khắp nơi, tất cả như mình, toàn thế giới; rộng lớn, cao cả, vô lượng, không thù hận, không ác ý.",
+            "Mỗi vị có bốn thời kỳ, mỗi thời 84.000 năm: tuổi thơ, phó vương, làm vua và tu thanh tịnh ở vườn xoài. Sau khi tu bốn Phạm trú, thân hoại và chết, các vị tái sinh cõi Phạm thiên."
+          ],
+          "meaningUnits": [
+            "lineage",
+            "lineage-practice",
+            "lineage-years"
+          ]
+        },
+        {
+          "id": "nimi",
+          "kind": "teaching",
+          "heading": "Vua Nimi được các vị trời nhắc đến",
+          "paragraphs": [
+            "Nimi là vị cuối của dòng vua ấy. Ông chính trực, giữ lẽ phải, cư xử đúng với bà-la-môn, gia chủ, dân thành thị, dân quê; giữ Bố-tát ngày 14, 15 và 8 mỗi nửa tháng.",
+            "Các vị trời Ba Mươi Ba hội họp tại giảng đường Sudhammā. Họ khen hai lần dân Videha thật may mắn, vì có vua chính trực, cư xử đúng với bốn nhóm người ấy và giữ ba ngày Bố-tát. Sakka, vị chủ của cõi trời ấy, hỏi có muốn gặp Nimi không. Họ đáp muốn."
+          ],
+          "meaningUnits": [
+            "nimi",
+            "gods-praise"
+          ]
+        },
+        {
+          "id": "visit",
+          "kind": "teaching",
+          "heading": "Một lời mời từ cõi trời",
+          "paragraphs": [
+            "Đúng ngày rằm Bố-tát, vua Nimi đã gội đầu, đang giữ lễ và ngồi trên lầu. Kinh kể Sakka biến khỏi cõi Ba Mươi Ba, hiện trước vua, dễ như người khỏe duỗi cánh tay đang co hoặc co cánh tay đang duỗi.",
+            "Sakka nói hai lần vua thật may mắn, kể lại đầy đủ lời các vị trời khen dân Videha vì vua chính trực, đối xử đúng với bốn nhóm người và giữ Bố-tát ngày 14, 15, 8 mỗi nửa tháng. Các vị ấy muốn gặp vua. Sakka sẽ gửi cỗ xe với một nghìn tuấn mã, những con ngựa quý, mời vua lên xe trời không do dự.",
+            "Nimi im lặng nhận lời. Biết vua đồng ý, Sakka biến khỏi trước vua, trở về giữa các vị trời, cũng dễ như người khỏe duỗi tay co hoặc co tay duỗi."
+          ],
+          "meaningUnits": [
+            "visit",
+            "invitation",
+            "assent"
+          ]
+        },
+        {
+          "id": "chariot",
+          "kind": "teaching",
+          "heading": "Đi cả hai con đường",
+          "paragraphs": [
+            "Sakka sai người điều xe Mātali mắc nghìn ngựa quý vào cỗ xe, đến báo Nimi rằng Sakka gửi xe và mời lên không do dự. Mātali vâng, chuẩn bị đúng cỗ xe ấy, đến trình đủ lời và mời vua lên.",
+            "Ông hỏi nên đi lối những người làm ác đang chịu quả việc ác, hay lối những người làm lành đang nhận quả việc lành. Nimi muốn đi cả hai lối."
+          ],
+          "meaningUnits": [
+            "chariot-order",
+            "chariot-arrival",
+            "routes"
+          ]
+        },
+        {
+          "id": "welcome",
+          "kind": "teaching",
+          "heading": "Lời mời vui hưởng và lời xin trở về",
+          "paragraphs": [
+            "Mātali đưa vua vào giảng đường Sudhammā. Sakka thấy vua từ xa, mời đến, chào mừng. Ông nhắc lại các vị trời muốn gặp và đã hai lần khen dân Videha may mắn vì vua chính trực, đối xử đúng với bà-la-môn, gia chủ, dân thành, dân quê, giữ Bố-tát ba ngày đã kể. Ông mời vua hưởng vinh quang cõi trời giữa chư thiên.",
+            "Nimi đáp thôi, xin đưa mình về Mithilā. Ở đó, ông sẽ cư xử đúng với bốn nhóm người ấy, giữ Bố-tát ngày 14, 15, 8 mỗi nửa tháng."
+          ],
+          "meaningUnits": [
+            "welcome",
+            "return-wish"
+          ]
+        },
+        {
+          "id": "return",
+          "kind": "teaching",
+          "heading": "Trở về và làm đúng điều đã nói",
+          "paragraphs": [
+            "Sakka sai Mātali mắc nghìn ngựa quý vào xe đưa vua về Mithilā. Mātali vâng lời, làm đúng. Về nước, Nimi cư xử theo lẽ phải với bà-la-môn, gia chủ, dân thành thị, dân quê, và giữ đủ ba ngày Bố-tát trong mỗi nửa tháng."
+          ],
+          "meaningUnits": [
+            "return"
+          ]
+        },
+        {
+          "id": "nimi-hairs",
+          "kind": "teaching",
+          "heading": "Rồi tóc bạc cũng đến với Nimi",
+          "paragraphs": [
+            "Sau nhiều năm, nhiều trăm năm, nhiều nghìn năm, Nimi dặn thợ cạo báo tóc bạc; thợ vâng. Lại qua những khoảng thời gian dài ấy, thợ thấy, báo Thiên sứ đã đến. Theo lời vua, thợ vâng, khéo nhíp tóc bạc vào đôi tay chắp của ông.",
+            "Vua thưởng một làng tốt, gọi con trưởng: ta đã thấy tóc bạc, đã hưởng vui người, nay tìm vui trời; con trị nước, ta cạo râu tóc, mặc cà-sa, xuất gia. Ông dặn con khi tóc bạc cũng thưởng thợ, khéo dạy con trưởng trị nước rồi xuất gia như vậy."
+          ],
+          "meaningUnits": [
+            "nimi-hairs",
+            "nimi-handover"
+          ]
+        },
+        {
+          "id": "nimi-promise",
+          "kind": "teaching",
+          "heading": "Nimi cũng nhắc lời giữ nếp tốt",
+          "paragraphs": [
+            "Nimi hai lần dặn: giữ truyền thống tốt đã lập, đừng làm người cuối. Ông giải thích ở đời nào làm nếp ấy đứt thì người ấy là người cuối.",
+            "Rồi ông thưởng làng cho thợ, khéo dạy con trưởng trị nước; tại chính vườn xoài Makhādeva, ông cạo râu tóc, mặc cà-sa, xuất gia."
+          ],
+          "meaningUnits": [
+            "nimi-continuity",
+            "nimi-departure"
+          ]
+        },
+        {
+          "id": "nimi-life",
+          "kind": "teaching",
+          "heading": "Bốn tâm và bốn thời của Nimi",
+          "paragraphs": [
+            "Nimi tu từ, bi, hỷ, xả. Mỗi tâm đến bốn phương, trên, dưới, ngang, khắp nơi, hướng tất cả như mình, trùm cả thế giới; rộng lớn, cao cả, vô lượng, không thù hận, không ác ý.",
+            "Ông có bốn thời kỳ, mỗi thời 84.000 năm: tuổi thơ, phó vương, trị nước, sống thanh tịnh sau xuất gia tại vườn xoài. Tu bốn Phạm trú, sau khi thân hoại và chết, ông tái sinh cõi Phạm thiên."
+          ],
+          "meaningUnits": [
+            "nimi-practice",
+            "nimi-years"
+          ]
+        },
+        {
+          "id": "break",
+          "kind": "teaching",
+          "heading": "Người không tiếp tục nếp ấy",
+          "paragraphs": [
+            "Con Nimi tên Kaḷāra Janaka không xuất gia. Ông cắt đứt truyền thống tốt ấy, trở thành người cuối của dòng tiếp nối.",
+            "Phật bảo Ānanda đừng nghĩ Makhādeva thuở đó là người khác: chính Ngài là vị vua ấy, đã lập nếp tốt ấy và được những người sau tiếp tục."
+          ],
+          "meaningUnits": [
+            "break",
+            "identity"
+          ]
+        },
+        {
+          "id": "limit",
+          "kind": "teaching",
+          "heading": "Một nếp tốt vẫn có giới hạn",
+          "paragraphs": [
+            "Phật nói nếp tu khi ấy chỉ đưa đến tái sinh cõi Phạm thiên. Nó không đưa đến yểm ly, thôi say đắm; ly tham, tham ái phai nhạt; chấm dứt; an tịnh; thắng trí, biết trực tiếp; giác ngộ; Niết-bàn, sự chấm dứt khát ái và khổ."
+          ],
+          "meaningUnits": [
+            "limit"
+          ]
+        },
+        {
+          "id": "path",
+          "kind": "teaching",
+          "heading": "Con đường tám phần được đặt ra bây giờ",
+          "paragraphs": [
+            "Nếp tốt Phật thiết lập bây giờ nhất định đưa đến trọn bảy mục tiêu ấy. Nếp đó là gì? Chính là Thánh đạo tám phần, con đường cao thượng gồm tám phần đúng đắn.",
+            "Đó là chánh kiến, hiểu đúng; chánh tư duy, hướng nghĩ đúng; chánh ngữ, nói đúng; chánh nghiệp, hành động đúng; chánh mạng, cách nuôi sống đúng; chánh tinh tấn, nỗ lực tu đúng; chánh niệm, ghi nhớ tỉnh thức đúng; chánh định, tập trung tâm đúng.",
+            "Phật xác nhận đây là nếp tốt đưa đến hoàn toàn yểm ly, ly tham, chấm dứt, an tịnh, thắng trí, giác ngộ và Niết-bàn."
+          ],
+          "meaningUnits": [
+            "new-practice",
+            "eightfold"
+          ]
+        },
+        {
+          "id": "keep",
+          "kind": "teaching",
+          "heading": "Lời dặn dành cho các đệ tử",
+          "paragraphs": [
+            "Phật hai lần dặn các đệ tử hãy duy trì nếp tốt Ngài đã đặt ra, đừng trở thành những người cuối. Ngài giải thích: ở đời người nào nếp tốt bị cắt đứt thì người ấy là người cuối của dòng tiếp nối.",
+            "Phật nói xong, Ānanda vui mừng và tán đồng. Kinh Makhādeva, bài thứ ba trong nhóm kinh này, kết thúc."
+          ],
+          "meaningUnits": [
+            "appeal",
+            "ending"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: nếp giúp bạn mới",
+          "paragraphs": [
+            "Lớp em có nếp hướng dẫn bạn mới tìm sách và làm quen. Khi lớp trưởng đổi, người trước chỉ lại cho người sau cách giúp bạn. Nếp tốt được tiếp tục bằng hành động. Đây là ví dụ hiện đại để hiểu việc giữ một nếp lành qua người tiếp nối; trong kinh, lời dặn cuối hướng đến con đường tám phần."
+          ],
+          "meaningUnits": [
+            "continuity",
+            "appeal"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: một việc lành được tiếp nối",
+          "paragraphs": [
+            "Em có thể chọn một việc tốt đã được người khác dạy, như nói thật hay giúp bạn, rồi tự làm và chỉ lại bằng lời dịu dàng khi bạn cần. Đó là gợi ý nhỏ của người diễn giải. Con đường Phật dạy còn đủ tám phần, hướng đến sự giải thoát, cần được học và thực hành trọn vẹn."
+          ],
+          "meaningUnits": [
+            "appeal",
+            "eightfold"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Diễn giải dành cho người trưởng thành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một nơi chốn gợi lại truyền thống",
+          "paragraphs": [
+            "MN83, Kinh Makhādeva, được người truyền kinh thuật lại điều đã nghe. Phật đang trú ở Mithilā, trong vườn xoài Makhādeva. Ngài mỉm cười tại một khoảng đất.",
+            "Như Lai là một danh hiệu của Phật. Ānanda nghĩ về nhân và duyên của nụ cười: các bậc Như Lai không mỉm cười vô cớ. Ông sửa y phủ một vai, chắp tay về phía Phật và hỏi đủ điều ấy: vì nhân duyên gì Ngài cười, vì Như Lai không cười không có lý do."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting",
+            "smile"
+          ]
+        },
+        {
+          "id": "king",
+          "kind": "teaching",
+          "heading": "Vị vua trị vì theo lẽ phải",
+          "paragraphs": [
+            "Phật kể thuở xưa ngay Mithilā có vua Makhādeva, vị vua chân chính, lấy pháp, lẽ phải, làm nền cho việc trị nước. Ông cư xử đúng với bà-la-môn, những người thuộc truyền thống kinh điển nghi lễ, và gia chủ, người chủ gia đình, với dân thành thị lẫn dân quê.",
+            "Ông giữ Bố-tát, những ngày giữ giới tu tập, vào ngày 14, 15 và 8 của mỗi nửa tháng."
+          ],
+          "meaningUnits": [
+            "king"
+          ]
+        },
+        {
+          "id": "signal",
+          "kind": "teaching",
+          "heading": "Lời dặn về những sợi tóc bạc",
+          "paragraphs": [
+            "Sau nhiều năm, nhiều trăm năm, nhiều nghìn năm, vua bảo thợ cạo hãy báo khi thấy tóc bạc mọc trên đầu; người thợ nhận lời. Lại qua nhiều năm, trăm năm, nghìn năm, thợ thấy tóc bạc và báo các Thiên sứ đã xuất hiện.",
+            "Đó là hình ảnh tóc bạc báo tuổi già. Vua bảo khéo nhổ bằng nhíp, đặt vào đôi tay chắp của mình. Người thợ vâng, thực hiện đúng lời dặn."
+          ],
+          "meaningUnits": [
+            "barber-request",
+            "grey-hairs"
+          ]
+        },
+        {
+          "id": "succession",
+          "kind": "teaching",
+          "heading": "Chuẩn bị người nhận việc trước khi rời ngôi",
+          "paragraphs": [
+            "Vua ban cho thợ cạo một làng tốt, gọi con trai trưởng. Ông nói Thiên sứ tóc bạc đã đến; đã hưởng dục, thú vui loài người, nay là lúc tìm thú vui cõi trời. Con sẽ trị quốc; cha cạo râu tóc, khoác cà-sa (áo của người xuất gia), rời gia đình để sống không nhà.",
+            "Khi con cũng có tóc bạc, hãy thưởng thợ một làng tốt, khéo chỉ dạy con trưởng về việc trị nước, rồi cạo râu tóc, mặc cà-sa và xuất gia. Vua hai lần dặn tiếp tục nếp tốt mình lập, đừng làm người cuối. Giữa hai lời dặn, ông giải thích đời nào cắt đứt nếp ấy thì người ấy là người cuối.",
+            "Vua thực hiện: ban làng cho thợ, khéo dạy con trưởng trị quốc; tại chính vườn xoài Makhādeva, ông cạo râu tóc, mặc cà-sa, rời gia đình xuất gia."
+          ],
+          "meaningUnits": [
+            "handover",
+            "instruction",
+            "continuity",
+            "departure"
+          ]
+        },
+        {
+          "id": "hearts",
+          "kind": "teaching",
+          "heading": "Bốn tâm và phạm vi không giới hạn",
+          "paragraphs": [
+            "Ông tu từ, mong chúng sinh được an lành; bi, thương trước khổ; hỷ, vui với niềm vui của người khác; xả, quân bình không thiên lệch. Với mỗi tâm, ông lan tỏa một phương, rồi thứ hai, thứ ba, thứ tư; trên, dưới, ngang, khắp nơi, đối với tất cả như mình, trùm toàn thế giới. Tâm rộng lớn, cao cả, vô lượng, không thù hận, không ác ý.",
+            "Bài kinh kể bốn thời kỳ, mỗi thời 84.000 năm: vui chơi tuổi thơ, làm phó vương phụ giúp việc cai trị, trị vì quốc gia, và sống phạm hạnh, đời tu thanh tịnh, ở vườn xoài. Tu bốn Phạm trú ấy, khi thân hoại sau chết, vua tái sinh vào cõi Phạm thiên, một cõi trời."
+          ],
+          "meaningUnits": [
+            "four-hearts",
+            "lifespans",
+            "rebirth"
+          ]
+        },
+        {
+          "id": "son-signal",
+          "kind": "teaching",
+          "heading": "Người con tiếp tục việc đã được dặn",
+          "paragraphs": [
+            "Con trai Makhādeva sau nhiều năm, nhiều trăm năm, nhiều nghìn năm cũng yêu cầu thợ báo tóc bạc; thợ vâng. Lại qua những khoảng năm dài ấy, thợ thấy và báo Thiên sứ đã hiện, tóc bạc đã mọc. Vua bảo dùng nhíp khéo nhổ những sợi ấy vào đôi tay chắp; thợ vâng và làm đúng."
+          ],
+          "meaningUnits": [
+            "son-hairs"
+          ]
+        },
+        {
+          "id": "son-succession",
+          "kind": "teaching",
+          "heading": "Lời truyền lại ở thế hệ kế tiếp",
+          "paragraphs": [
+            "Người con ban thợ một làng tốt, gọi con trưởng: tóc bạc đã xuất hiện, đã hưởng vui người, nay tìm vui trời; con trị nước, mình cạo râu tóc, mặc cà-sa, xuất gia. Ông dặn con khi tóc bạc cũng thưởng thợ, khéo dạy con trưởng trị nước rồi xuất gia với râu tóc cạo, áo cà-sa.",
+            "Hai lần ông nhắc giữ nếp tốt mình lập, đừng thành người cuối, xen lời giải thích đời nào để nếp bị đứt thì người ấy là cuối. Sau đó, ông thực hiện việc ban làng, dạy người kế vị, cạo râu tóc, khoác cà-sa và xuất gia ngay vườn xoài Makhādeva."
+          ],
+          "meaningUnits": [
+            "son-handover",
+            "son-continuity",
+            "son-departure"
+          ]
+        },
+        {
+          "id": "son-practice",
+          "kind": "teaching",
+          "heading": "Người con có cùng cách tu và quả",
+          "paragraphs": [
+            "Người con tu từ, bi, hỷ, xả; mỗi tâm trùm bốn phương, trên, dưới, ngang, mọi nơi, tất cả như mình, toàn thế giới, rộng lớn, cao cả, vô lượng, không thù hận và không ác ý.",
+            "Bốn thời kỳ tuổi thơ, phó vương, trị quốc và phạm hạnh tại vườn xoài đều mỗi thời 84.000 năm. Tu bốn Phạm trú, thân hoại mạng chung, ông tái sinh cõi Phạm thiên."
+          ],
+          "meaningUnits": [
+            "son-practice",
+            "son-years"
+          ]
+        },
+        {
+          "id": "lineage",
+          "kind": "teaching",
+          "heading": "Dòng vua duy trì nếp cũ",
+          "paragraphs": [
+            "Dòng con cháu kế tiếp Makhādeva gồm 84.000 vị vua. Các vị tại chính vườn xoài này cạo râu tóc, khoác cà-sa, xuất gia. Các vị tu từ, bi, hỷ, xả với trọn phạm vi: bốn hướng, trên, dưới, ngang, khắp nơi, tất cả như mình, toàn thế giới; rộng lớn, cao cả, vô lượng, không thù hận, không ác ý.",
+            "Mỗi vị có bốn thời 84.000 năm: tuổi thơ, phó vương, vua, phạm hạnh tại vườn xoài. Sau khi tu bốn Phạm trú, thân hoại sau chết, các vị sinh cõi Phạm thiên."
+          ],
+          "meaningUnits": [
+            "lineage",
+            "lineage-practice",
+            "lineage-years"
+          ]
+        },
+        {
+          "id": "nimi",
+          "kind": "teaching",
+          "heading": "Danh tiếng của vua Nimi",
+          "paragraphs": [
+            "Nimi là vị cuối trong dòng vua ấy, chân chính, đứng vững ở lẽ phải. Ông đối xử đúng với bà-la-môn, gia chủ, dân thành và dân quê, giữ Bố-tát ngày 14, 15, 8 mỗi nửa tháng.",
+            "Trời Ba Mươi Ba hội họp ở giảng đường Sudhammā. Chư thiên hai lần khen dân Videha thật may mắn vì vua Nimi chính trực, cư xử đúng với các nhóm người vừa nêu và giữ ba ngày Bố-tát. Sakka, vị chủ cõi trời ấy, hỏi có muốn gặp vua không; họ đáp muốn."
+          ],
+          "meaningUnits": [
+            "nimi",
+            "gods-praise"
+          ]
+        },
+        {
+          "id": "invitation",
+          "kind": "teaching",
+          "heading": "Sakka chuyển lời các vị trời",
+          "paragraphs": [
+            "Vào ngày rằm Bố-tát, vua đã gội đầu, đang giữ lễ, ngồi trên lầu. Sakka biến khỏi cõi Ba Mươi Ba và hiện trước vua, dễ như người lực mạnh duỗi cánh tay co hoặc co cánh tay duỗi.",
+            "Sakka nói hai lần vua thật may mắn, thuật trọn lời khen dân Videha vì vua chính trực, đúng pháp với bà-la-môn, gia chủ, dân thành, dân quê, giữ Bố-tát ngày 14, 15, 8 mỗi nửa tháng. Chư thiên muốn gặp vua. Sakka sẽ gửi xe nghìn tuấn mã, những con ngựa quý, mời lên thiên xa không do dự.",
+            "Vua im lặng nhận lời. Biết vua nhận, Sakka biến khỏi trước vua và hiện giữa chư thiên Ba Mươi Ba, cũng như người khỏe duỗi tay co hoặc co tay duỗi."
+          ],
+          "meaningUnits": [
+            "visit",
+            "invitation",
+            "assent"
+          ]
+        },
+        {
+          "id": "carriage",
+          "kind": "teaching",
+          "heading": "Lời dặn, việc thực hiện và hai lối đi",
+          "paragraphs": [
+            "Sakka dặn người điều xe Mātali thắng xe nghìn tuấn mã, đến Nimi, nói xe do Sakka gửi và mời vua lên không do dự. Mātali vâng, chuẩn bị xe, đến trình đúng lời về xe Sakka gửi và lời mời ấy.",
+            "Mātali hỏi nên đưa vua qua lối những người làm ác đang chịu quả ác, hay lối người làm thiện đang hưởng quả thiện. Nimi chọn cả hai lối."
+          ],
+          "meaningUnits": [
+            "chariot-order",
+            "chariot-arrival",
+            "routes"
+          ]
+        },
+        {
+          "id": "heaven",
+          "kind": "teaching",
+          "heading": "Sự đón tiếp và quyết định của Nimi",
+          "paragraphs": [
+            "Mātali đưa vua vào giảng đường Sudhammā. Sakka thấy ông từ xa, gọi đến, chào mừng, nhắc chư thiên mong gặp và đã hai lần khen dân Videha may mắn vì có vua chính trực, cư xử đúng với bà-la-môn, gia chủ, dân thành, dân quê, giữ ba ngày Bố-tát. Sakka mời vua hưởng vinh quang trời giữa chư thiên.",
+            "Nimi nói thôi, xin trở lại Mithilā. Ông sẽ cư xử đúng với những nhóm người ấy, giữ Bố-tát ngày 14, 15 và 8 mỗi nửa tháng."
+          ],
+          "meaningUnits": [
+            "welcome",
+            "return-wish"
+          ]
+        },
+        {
+          "id": "home",
+          "kind": "teaching",
+          "heading": "Việc làm sau khi trở về",
+          "paragraphs": [
+            "Sakka bảo Mātali thắng xe nghìn tuấn mã đưa vua về Mithilā. Mātali vâng và thực hiện. Tại quê nhà, Nimi thực sự sống đúng pháp với bà-la-môn, gia chủ, dân thành, dân quê, giữ đủ ba ngày Bố-tát trong mỗi nửa tháng."
+          ],
+          "meaningUnits": [
+            "return"
+          ]
+        },
+        {
+          "id": "nimi-signal",
+          "kind": "teaching",
+          "heading": "Nimi cũng nhận lời báo tuổi già",
+          "paragraphs": [
+            "Sau nhiều năm, nhiều trăm năm, nhiều nghìn năm, Nimi yêu cầu thợ báo khi tóc bạc; thợ vâng. Lại qua những khoảng thời gian ấy, thợ thấy, báo Thiên sứ xuất hiện qua tóc bạc. Vua bảo dùng nhíp khéo nhổ vào đôi tay chắp; thợ nhận lệnh và làm như vậy."
+          ],
+          "meaningUnits": [
+            "nimi-hairs"
+          ]
+        },
+        {
+          "id": "nimi-succession",
+          "kind": "teaching",
+          "heading": "Nimi truyền lời rồi rời ngôi",
+          "paragraphs": [
+            "Nimi thưởng một làng tốt cho thợ, gọi con trưởng. Ông nói tóc bạc đã tới, đã hưởng vui người, đến lúc tìm vui trời; con trị nước, mình cạo râu tóc, khoác cà-sa, xuất gia. Khi chính con có tóc bạc, cũng thưởng thợ, khéo dạy con trưởng trị quốc rồi xuất gia như thế.",
+            "Hai lần Nimi dặn giữ nếp tốt, đừng là người cuối; giữa hai lần nêu rõ đời nào làm nếp bị đứt thì người ấy là cuối. Ông ban làng, dạy con trưởng chu đáo, tại chính vườn xoài cạo râu tóc, khoác cà-sa và xuất gia."
+          ],
+          "meaningUnits": [
+            "nimi-handover",
+            "nimi-continuity",
+            "nimi-departure"
+          ]
+        },
+        {
+          "id": "nimi-practice",
+          "kind": "teaching",
+          "heading": "Quả tu tập của Nimi",
+          "paragraphs": [
+            "Nimi tu từ, bi, hỷ, xả lan đến bốn phương, trên, dưới, ngang, mọi nơi, tất cả như mình, trùm toàn thế giới; rộng lớn, cao cả, vô lượng, không thù hận, không ác ý.",
+            "Bốn thời kỳ của ông, tuổi thơ, phó vương, trị quốc, phạm hạnh ở vườn xoài, mỗi thời 84.000 năm. Tu bốn Phạm trú, thân hoại sau chết, ông sinh lên cõi Phạm thiên."
+          ],
+          "meaningUnits": [
+            "nimi-practice",
+            "nimi-years"
+          ]
+        },
+        {
+          "id": "break",
+          "kind": "teaching",
+          "heading": "Truyền thống bị dừng lại",
+          "paragraphs": [
+            "Con của Nimi là Kaḷāra Janaka không xuất gia. Vị ấy cắt đứt nếp tốt, thành người cuối của dòng tiếp nối.",
+            "Phật nói Ānanda có thể nghĩ người lập nếp ấy, Makhādeva, là một người khác. Không nên hiểu vậy: chính Ngài là vua Makhādeva thuở ấy, đã lập nếp đó, và những người sau tiếp tục duy trì."
+          ],
+          "meaningUnits": [
+            "break",
+            "identity"
+          ]
+        },
+        {
+          "id": "limit",
+          "kind": "teaching",
+          "heading": "Giới hạn của nếp tu trước kia",
+          "paragraphs": [
+            "Phật xác định nếp tốt cũ không đưa đến yểm ly, thấy rõ để thôi say đắm; ly tham, tham ái phai nhạt; chấm dứt; an tịnh; thắng trí, hiểu biết trực tiếp; giác ngộ; Niết-bàn, chấm dứt khát ái và khổ. Nó chỉ đưa đến tái sinh cõi Phạm thiên.",
+            "Còn nếp tốt Ngài lập bây giờ nhất định đưa đến hoàn toàn các mục tiêu ấy. Nếp đó là gì? Chính là Thánh đạo tám phần."
+          ],
+          "meaningUnits": [
+            "limit",
+            "new-practice"
+          ]
+        },
+        {
+          "id": "eightfold",
+          "kind": "teaching",
+          "heading": "Con đường được trao lại cho các đệ tử",
+          "paragraphs": [
+            "Tám phần là chánh kiến, thấy hiểu đúng; chánh tư duy, hướng nghĩ đúng; chánh ngữ, nói đúng; chánh nghiệp, hành động đúng; chánh mạng, nuôi sống đúng; chánh tinh tấn, nỗ lực tu đúng; chánh niệm, ghi nhớ tỉnh thức đúng; chánh định, định tâm đúng. Phật xác nhận đây là nếp tốt đưa đến hoàn toàn yểm ly, ly tham, chấm dứt, an tịnh, thắng trí, giác ngộ, Niết-bàn.",
+            "Ngài hai lần dặn các đệ tử hãy duy trì nếp tốt Ngài đã lập, đừng là những người cuối. Giữa hai lời dặn, Ngài giải thích đời nào làm truyền thống đứt thì người ấy là cuối của dòng ấy.",
+            "Phật nói xong, Ānanda hoan hỷ, tán đồng. Kinh Makhādeva, bài thứ ba trong nhóm kinh này, kết thúc."
+          ],
+          "meaningUnits": [
+            "eightfold",
+            "appeal",
+            "ending"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: bàn giao một công việc",
+          "paragraphs": [
+            "Một người phụ trách công việc đã tạo được nếp minh bạch và giúp đồng nghiệp. Trước khi chuyển vai trò, người ấy dành thời gian chỉ lại cho người tiếp nhận cách thực hiện. Ví dụ hiện đại này soi việc giữ một nếp lành qua sự bàn giao. Lời dặn cuối của kinh có đích cụ thể hơn: duy trì con đường tám phần hướng đến giải thoát."
+          ],
+          "meaningUnits": [
+            "instruction",
+            "continuity",
+            "appeal"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: giữ điều lành bằng việc làm",
+          "paragraphs": [
+            "Có thể chọn một nếp tốt đã được học, nhìn lại mình đang thực hiện và truyền lại nó thế nào. Chẳng hạn, trong việc nói đúng sự thật, hãy xét cả lời mình nói và cách hướng dẫn người khác. Đây là gợi ý đời thường; tám phần của con đường vẫn cần được học và tu tập đầy đủ để hướng đến mục tiêu kinh nêu."
+          ],
+          "meaningUnits": [
+            "appeal",
+            "eightfold"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Diễn giải dành cho người lớn tuổi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "meeting",
+          "kind": "teaching",
+          "heading": "Nụ cười trong vườn xoài",
+          "paragraphs": [
+            "Người truyền Kinh Makhādeva, bài 83 của Trung Bộ, kể điều đã nghe. Phật ở Mithilā, trong vườn xoài Makhādeva. Tại một khoảng đất, Ngài mỉm cười.",
+            "Như Lai là một danh hiệu của Phật. Ānanda tự hỏi nhân duyên nào khiến Phật cười, vì các bậc Như Lai không mỉm cười vô cớ. Ông chỉnh y phủ một vai, chắp tay về phía Phật rồi hỏi nhân gì, duyên gì có nụ cười ấy; các Như Lai không cười không có lý do."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting",
+            "smile"
+          ]
+        },
+        {
+          "id": "king",
+          "kind": "teaching",
+          "heading": "Nếp sống của vua Makhādeva",
+          "paragraphs": [
+            "Phật kể thuở xưa chính Mithilā có vua Makhādeva. Ông là vua chân chính, lấy pháp, lẽ phải, làm chỗ đứng trong việc cai trị. Ông đối xử đúng với bà-la-môn, người thuộc truyền thống kinh điển nghi lễ; gia chủ, người chủ gia đình; dân thành thị và dân quê.",
+            "Vua giữ Bố-tát, ngày giữ giới tu tập, vào ngày 14, 15 và 8 trong mỗi nửa tháng."
+          ],
+          "meaningUnits": [
+            "king"
+          ]
+        },
+        {
+          "id": "hair",
+          "kind": "teaching",
+          "heading": "Lời báo từ những sợi tóc bạc",
+          "paragraphs": [
+            "Qua nhiều năm, nhiều trăm năm, nhiều nghìn năm, vua dặn thợ cạo khi thấy tóc bạc hãy báo. Thợ nhận lời. Lại nhiều năm, nhiều trăm năm, nhiều nghìn năm sau, thợ thấy và thưa: các Thiên sứ đã xuất hiện, tóc bạc đã mọc trên đầu.",
+            "Những sợi tóc báo tuổi già được gọi là Thiên sứ. Vua bảo khéo nhổ bằng nhíp, đặt vào đôi tay chắp của mình. Thợ vâng lời, làm như đã dặn."
+          ],
+          "meaningUnits": [
+            "barber-request",
+            "grey-hairs"
+          ]
+        },
+        {
+          "id": "handover",
+          "kind": "teaching",
+          "heading": "Trao ngôi và chỉ dạy người nhận ngôi",
+          "paragraphs": [
+            "Vua thưởng thợ cạo một làng tốt, gọi con trai trưởng. Ông nói tóc bạc, những Thiên sứ, đã tới. Đã hưởng thú vui loài người, nay ông tìm thú vui cõi trời; con hãy trị nước, cha sẽ cạo râu tóc, mặc cà-sa (áo của người xuất gia), rời đời sống gia đình đi tu.",
+            "Vua dặn con: khi con cũng có tóc bạc, hãy thưởng thợ một làng tốt, khéo dạy con trưởng của mình việc trị quốc, rồi cạo râu tóc, khoác cà-sa và xuất gia."
+          ],
+          "meaningUnits": [
+            "handover",
+            "instruction"
+          ]
+        },
+        {
+          "id": "continuing",
+          "kind": "teaching",
+          "heading": "Nếp tốt được giữ qua người tiếp nối",
+          "paragraphs": [
+            "Ông hai lần dặn hãy tiếp tục nếp tốt mình đã lập, chớ làm người cuối. Giữa hai lần, ông giải thích: ở đời nào nếp tốt bị đứt thì người làm đứt ấy là người cuối của dòng tiếp nối.",
+            "Vua thực hiện lời đã nói: thưởng làng cho thợ, khéo chỉ dạy con trưởng trị nước. Tại chính vườn xoài Makhādeva, ông cạo râu tóc, mặc cà-sa và rời gia đình xuất gia."
+          ],
+          "meaningUnits": [
+            "continuity",
+            "departure"
+          ]
+        },
+        {
+          "id": "hearts",
+          "kind": "teaching",
+          "heading": "Bốn tâm rộng lớn",
+          "paragraphs": [
+            "Ông tu tâm từ, mong người được an lành; tâm bi, thương trước nỗi khổ; tâm hỷ, vui cùng niềm vui của người khác; tâm xả, giữ lòng quân bình, không thiên lệch.",
+            "Mỗi tâm lan từ một phương đến phương thứ hai, thứ ba, thứ tư; trên, dưới, ngang, khắp mọi nơi. Hướng đến tất cả như chính mình, ông trùm cả thế giới bằng tâm rộng lớn, cao cả, vô lượng, không thù hận, không ác ý."
+          ],
+          "meaningUnits": [
+            "four-hearts"
+          ]
+        },
+        {
+          "id": "years",
+          "kind": "teaching",
+          "heading": "Bốn thời kỳ và kết quả tu tập",
+          "paragraphs": [
+            "Trong lời kinh, Makhādeva có 84.000 năm tuổi thơ vui chơi, 84.000 năm làm phó vương phụ giúp cai trị, 84.000 năm trị quốc, và 84.000 năm sống phạm hạnh, đời tu thanh tịnh, ở vườn xoài ấy.",
+            "Tu bốn tâm ấy, còn gọi là bốn Phạm trú, khi thân hoại sau chết, ông sinh lên cõi Phạm thiên, một cõi trời."
+          ],
+          "meaningUnits": [
+            "lifespans",
+            "rebirth"
+          ]
+        },
+        {
+          "id": "son-hair",
+          "kind": "teaching",
+          "heading": "Người con cũng nhận tóc bạc",
+          "paragraphs": [
+            "Người con kế vị sau nhiều năm, nhiều trăm năm, nhiều nghìn năm cũng dặn thợ cạo báo tóc bạc; thợ vâng lời. Lại qua những quãng năm dài ấy, thợ thấy tóc bạc, báo các Thiên sứ đã hiện ra. Vua bảo dùng nhíp khéo nhổ, đặt vào đôi tay chắp; thợ nhận lời và làm đúng."
+          ],
+          "meaningUnits": [
+            "son-hairs"
+          ]
+        },
+        {
+          "id": "son-handover",
+          "kind": "teaching",
+          "heading": "Lời dặn được nói lại với con trưởng",
+          "paragraphs": [
+            "Người con thưởng thợ một làng tốt và gọi con trưởng của mình. Ông nói tóc bạc đã tới, đã hưởng vui người, nay tìm vui trời; con trị quốc, mình cạo râu tóc, khoác cà-sa và xuất gia. Khi con có tóc bạc, hãy thưởng thợ, khéo dạy con trưởng trị quốc rồi xuất gia với áo cà-sa, râu tóc đã cạo.",
+            "Ông hai lần dặn giữ nếp tốt đã lập, chớ là người cuối; giải thích đời nào làm nếp ấy đứt thì người ấy là cuối. Rồi ông thực hiện việc thưởng làng, dạy con trưởng, cạo râu tóc, mặc cà-sa, xuất gia ngay vườn xoài Makhādeva."
+          ],
+          "meaningUnits": [
+            "son-handover",
+            "son-continuity",
+            "son-departure"
+          ]
+        },
+        {
+          "id": "son-practice",
+          "kind": "teaching",
+          "heading": "Bốn tâm được tu tập ở đời kế tiếp",
+          "paragraphs": [
+            "Người con tu từ, bi, hỷ, xả trùm bốn phương, trên, dưới, ngang, khắp nơi, tất cả như mình, toàn thế giới; rộng lớn, cao cả, vô lượng, không thù hận, không ác ý.",
+            "Bốn thời kỳ của ông cũng mỗi thời 84.000 năm: tuổi thơ, phó vương, làm vua, phạm hạnh tại vườn xoài. Tu bốn Phạm trú, thân hoại sau chết, ông sinh cõi Phạm thiên."
+          ],
+          "meaningUnits": [
+            "son-practice",
+            "son-years"
+          ]
+        },
+        {
+          "id": "lineage",
+          "kind": "teaching",
+          "heading": "Một dòng vua dài tiếp nối",
+          "paragraphs": [
+            "Dòng con cháu Makhādeva gồm 84.000 vị vua tiếp nối, tại chính vườn xoài cạo râu tóc, khoác cà-sa và xuất gia. Các vị tu từ, bi, hỷ, xả với đủ bốn phương, trên, dưới, ngang, khắp nơi, tất cả như mình, cả thế giới; rộng lớn, cao cả, vô lượng, không thù hận, không ác ý.",
+            "Mỗi vị có bốn thời 84.000 năm: tuổi thơ, phó vương, trị quốc và phạm hạnh ở vườn xoài. Tu bốn Phạm trú, khi thân hoại sau chết, các vị sinh cõi Phạm thiên."
+          ],
+          "meaningUnits": [
+            "lineage",
+            "lineage-practice",
+            "lineage-years"
+          ]
+        },
+        {
+          "id": "nimi",
+          "kind": "teaching",
+          "heading": "Nimi và lời khen của chư thiên",
+          "paragraphs": [
+            "Nimi là vị cuối của dòng vua ấy. Ông chân chính, đứng vững trên lẽ phải, đối xử đúng với bà-la-môn, gia chủ, dân thành, dân quê; giữ Bố-tát ngày 14, 15, 8 mỗi nửa tháng.",
+            "Tại giảng đường Sudhammā, chư thiên Trời Ba Mươi Ba hội họp, hai lần khen dân Videha may mắn vì có Nimi chính trực, cư xử đúng với các nhóm người ấy và giữ ba ngày Bố-tát. Sakka, Thiên chủ của cõi trời ấy, hỏi có muốn gặp vua không; họ đáp muốn."
+          ],
+          "meaningUnits": [
+            "nimi",
+            "gods-praise"
+          ]
+        },
+        {
+          "id": "guest",
+          "kind": "teaching",
+          "heading": "Lời mời đến gặp các vị trời",
+          "paragraphs": [
+            "Vào ngày rằm Bố-tát, Nimi đã gội đầu, đang giữ lễ và ngồi trên lầu. Sakka biến khỏi cõi Ba Mươi Ba, hiện trước vua, dễ như người khỏe duỗi tay đang co hoặc co tay đang duỗi.",
+            "Sakka nói hai lần vua thật may mắn, thuật đầy đủ lời chư thiên khen dân Videha vì vua chính trực, đúng pháp với bà-la-môn, gia chủ, dân thành, dân quê, giữ Bố-tát ngày 14, 15, 8 mỗi nửa tháng. Chư thiên muốn gặp vua. Sakka sẽ gửi cỗ xe nghìn tuấn mã, ngựa quý, mời vua lên xe trời không do dự.",
+            "Vua im lặng nhận lời. Biết vua đã nhận, Sakka biến khỏi trước mặt ông, hiện lại giữa chư thiên Ba Mươi Ba, cũng như người khỏe duỗi tay co hay co tay duỗi."
+          ],
+          "meaningUnits": [
+            "visit",
+            "invitation",
+            "assent"
+          ]
+        },
+        {
+          "id": "carriage",
+          "kind": "teaching",
+          "heading": "Người điều xe và hai lối đi",
+          "paragraphs": [
+            "Sakka sai Mātali, người điều xe, thắng cỗ xe nghìn tuấn mã, đến báo vua xe do Sakka gửi và mời lên không do dự. Mātali vâng, chuẩn bị xe, đến nói đúng lời về người gửi và lời mời lên xe.",
+            "Mātali hỏi nên đưa vua qua lối những người làm ác chịu quả ác, hay những người làm lành nhận quả lành. Nimi bảo đưa mình qua cả hai lối."
+          ],
+          "meaningUnits": [
+            "chariot-order",
+            "chariot-arrival",
+            "routes"
+          ]
+        },
+        {
+          "id": "welcome",
+          "kind": "teaching",
+          "heading": "Lời mời vui hưởng tại Sudhammā",
+          "paragraphs": [
+            "Mātali đưa vua vào giảng đường Sudhammā. Sakka thấy vua từ xa, mời đến, chào mừng, nhắc chư thiên mong gặp và đã hai lần khen dân Videha may mắn vì vua chính trực, cư xử đúng với bà-la-môn, gia chủ, dân thành, dân quê, giữ đủ ba ngày Bố-tát. Sakka mời vua hưởng vinh quang trời giữa chư thiên.",
+            "Nimi xin thôi, hãy đưa mình về Mithilā. Ông sẽ sống đúng pháp với các nhóm người ấy, giữ Bố-tát ngày 14, 15, 8 mỗi nửa tháng."
+          ],
+          "meaningUnits": [
+            "welcome",
+            "return-wish"
+          ]
+        },
+        {
+          "id": "return",
+          "kind": "teaching",
+          "heading": "Về nước và giữ lời",
+          "paragraphs": [
+            "Sakka dặn Mātali thắng xe nghìn tuấn mã đưa vua về Mithilā. Mātali vâng, làm đúng như dặn. Ở quê nhà, Nimi đối xử đúng với bà-la-môn, gia chủ, dân thành, dân quê và giữ đủ ba ngày Bố-tát mỗi nửa tháng."
+          ],
+          "meaningUnits": [
+            "return"
+          ]
+        },
+        {
+          "id": "nimi-hair",
+          "kind": "teaching",
+          "heading": "Nimi nhận lời báo của thợ cạo",
+          "paragraphs": [
+            "Rồi nhiều năm, nhiều trăm năm, nhiều nghìn năm trôi qua, Nimi dặn thợ báo tóc bạc; thợ nhận lời. Lại qua những quãng thời gian dài ấy, thợ thấy và báo các Thiên sứ đã xuất hiện qua tóc bạc. Vua yêu cầu dùng nhíp khéo nhổ chúng vào đôi tay chắp; thợ vâng và thực hiện."
+          ],
+          "meaningUnits": [
+            "nimi-hairs"
+          ]
+        },
+        {
+          "id": "nimi-transfer",
+          "kind": "teaching",
+          "heading": "Nimi chuẩn bị con trai tiếp quản",
+          "paragraphs": [
+            "Vua thưởng thợ một làng tốt, gọi con trưởng: tóc bạc đã đến, đã hưởng vui người, nay tìm vui trời; con trị nước, ta cạo râu tóc, mặc cà-sa, xuất gia. Ông dặn con khi có tóc bạc cũng thưởng thợ, khéo dạy con trưởng trị quốc, rồi xuất gia như thế.",
+            "Hai lần Nimi dặn duy trì nếp tốt đã lập, đừng thành người cuối, xen lời giải thích đời nào làm nếp tốt đứt thì người ấy là cuối. Ông thực hiện việc thưởng làng, dạy con trưởng chu đáo; tại chính vườn xoài Makhādeva cạo râu tóc, mặc cà-sa và xuất gia."
+          ],
+          "meaningUnits": [
+            "nimi-handover",
+            "nimi-continuity",
+            "nimi-departure"
+          ]
+        },
+        {
+          "id": "nimi-life",
+          "kind": "teaching",
+          "heading": "Cách tu và quả của Nimi",
+          "paragraphs": [
+            "Nimi tu từ, bi, hỷ, xả với đủ bốn phương, trên, dưới, ngang, khắp nơi, đối với tất cả như mình, trùm cả thế giới; rộng lớn, cao cả, vô lượng, không thù hận, không ác ý.",
+            "Ông có bốn thời, mỗi thời 84.000 năm: tuổi thơ, phó vương, vua, phạm hạnh tại vườn xoài. Tu bốn Phạm trú, khi thân hoại sau chết, ông sinh cõi Phạm thiên."
+          ],
+          "meaningUnits": [
+            "nimi-practice",
+            "nimi-years"
+          ]
+        },
+        {
+          "id": "break",
+          "kind": "teaching",
+          "heading": "Nếp tốt bị cắt đứt ở người con",
+          "paragraphs": [
+            "Con Nimi tên Kaḷāra Janaka không xuất gia. Vị ấy cắt đứt truyền thống tốt và là người cuối trong dòng tiếp nối ấy.",
+            "Phật nói với Ānanda: đừng nghĩ vua Makhādeva thuở đó là ai khác. Chính Ngài là vị vua ấy, đã thiết lập nếp tốt ấy, được những người đời sau tiếp tục duy trì."
+          ],
+          "meaningUnits": [
+            "break",
+            "identity"
+          ]
+        },
+        {
+          "id": "limit",
+          "kind": "teaching",
+          "heading": "Một giới hạn cần thấy rõ",
+          "paragraphs": [
+            "Nếp tu cũ tốt đẹp nhưng không đưa đến yểm ly, thôi say đắm; ly tham, tham ái phai nhạt; chấm dứt; an tịnh; thắng trí, hiểu biết trực tiếp; giác ngộ; Niết-bàn, chấm dứt khát ái và khổ. Nó chỉ đưa đến tái sinh cõi Phạm thiên.",
+            "Nếp tốt Phật lập bây giờ nhất định đưa đến hoàn toàn bảy mục tiêu ấy. Ngài hỏi nếp ấy là gì và đáp: chính là Thánh đạo tám phần."
+          ],
+          "meaningUnits": [
+            "limit",
+            "new-practice"
+          ]
+        },
+        {
+          "id": "eightfold",
+          "kind": "teaching",
+          "heading": "Tám phần của con đường",
+          "paragraphs": [
+            "Đó là chánh kiến, hiểu đúng; chánh tư duy, hướng nghĩ đúng; chánh ngữ, nói đúng; chánh nghiệp, làm đúng; chánh mạng, nuôi sống đúng; chánh tinh tấn, nỗ lực tu đúng; chánh niệm, ghi nhớ tỉnh thức đúng; chánh định, định tâm đúng.",
+            "Phật xác nhận nếp tốt này đưa đến hoàn toàn yểm ly, ly tham, chấm dứt, an tịnh, thắng trí, giác ngộ và Niết-bàn."
+          ],
+          "meaningUnits": [
+            "eightfold"
+          ]
+        },
+        {
+          "id": "keep",
+          "kind": "teaching",
+          "heading": "Lời dặn các đệ tử tiếp tục duy trì",
+          "paragraphs": [
+            "Phật hai lần dặn các đệ tử duy trì nếp tốt Ngài lập, chớ trở thành những người cuối. Giữa hai lần, Ngài nói đời nào làm nếp ấy bị đứt thì người ấy là người cuối của dòng tiếp nối.",
+            "Khi Phật nói xong, Ānanda hoan hỷ và tán đồng. Kinh Makhādeva, bài thứ ba trong nhóm kinh này, kết thúc."
+          ],
+          "meaningUnits": [
+            "appeal",
+            "ending"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: truyền lại cách đối đãi",
+          "paragraphs": [
+            "Một gia đình giữ nếp thăm hỏi người gặp khó. Người lớn kể lại ý nghĩa của nếp ấy và cùng người trẻ làm một việc giúp đỡ cụ thể. Đây là ví dụ hiện đại về việc tiếp nối điều lành bằng cả lời và việc. Trong lời dặn cuối kinh, điều cần tiếp nối là con đường tám phần hướng đến giải thoát."
+          ],
+          "meaningUnits": [
+            "continuity",
+            "appeal"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: điều đang được gìn giữ",
+          "paragraphs": [
+            "Có thể nhớ một điều lành từng được người khác chỉ dạy và xem mình đang sống theo điều ấy ra sao. Nếu có dịp truyền lại, hãy nói rõ ý nghĩa và làm gương bằng một việc vừa sức. Đây là gợi ý của người diễn giải; việc tu con đường Phật dạy vẫn gồm đầy đủ tám phần và hướng đến Niết-bàn."
+          ],
+          "meaningUnits": [
+            "appeal",
+            "eightfold"
+          ]
+        }
+      ]
+    }
+  }
+}

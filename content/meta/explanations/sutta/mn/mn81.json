@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn81",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "1ee5d192-8378-4a1a-9683-1ba3cf41f6f5"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "b2534a9d-4e2c-4c0f-900e-906636c3efd8"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "1f975e22-6eb0-4000-bbd3-eeff3f391de6"
+    }
+  },
+  "reviews": [
+    {
+      "id": "1ee5d192-8378-4a1a-9683-1ba3cf41f6f5",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.8,
+        "logic_context": 9.6,
+        "terminology": 9.5,
+        "audience_fit": 9.3,
+        "clarity": 9.4,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Giữ hai câu chuyện bữa cơm và bữa cháo riêng, các lần vui nửa tháng/bảy ngày, ba tháng mái xưởng không bị mưa vào và khoảng năm trăm gánh quà. Những chỗ HTML gộp chuyện hoặc khác con vật đào đất, việc cha mẹ mời và tên thức ăn không kéo bản trẻ lệch khỏi các nguồn đã đối chiếu.",
+        "semantic_fidelity": "Trách nhiệm chăm cha mẹ đã được làm rõ là điều Jotipāla biết về bạn mình. Năm hạ phần kiết sử, sự hóa sinh và cứu cánh về sau vẫn có quan hệ điều kiện; câu chuyện không biến sự biết đủ hằng ngày thành một chứng quả tự động.",
+        "core_coverage": "Bản trẻ giải thích đủ 37 ý từ nụ cười và chỗ ngồi tới sự nhận diện Jotipāla cuối kinh. Ba lời rủ ở mỗi chặng, ba lần từ chối an cư, hai bữa ăn và việc dùng mái xưởng sửa cốc đều có nội dung, không chỉ được đánh dấu trong bản đồ.",
+        "logic_context": "Người kể hiện tại là Đức Phật, còn phần chuyện nhà vua nghe do Kassapa thuật vẫn được giữ rõ. Trình tự nắm áo, nắm tóc, tự đồng ý đi nghe, xuất gia và chuyến đến Bārāṇasī không bị rút thành một bước đổi ý tức thì.",
+        "terminology": "Các từ tỳ-kheo, Như Lai và hóa sinh có lời mở nghĩa vừa sức; hóa sinh không còn gợi ý người thợ gốm tự làm phép biến đổi. Nhiều tên cổ và nhóm năm kiết sử vẫn là phần khó, nên chưa xem bản này là đã dễ đọc đồng đều cho mọi trẻ.",
+        "audience_fit": "Câu chuyện tình bạn, làm gốm và chăm cha mẹ cho trẻ những điểm bám cụ thể; ví dụ buổi đọc sách gần với trải nghiệm học hỏi. Mười sáu mục vẫn chứa nhiều nghi thức và con số của chuyện dài, chưa có thử đọc với trẻ để xác nhận mức độ tiếp nhận.",
+        "clarity": "Các tiêu đề theo câu hỏi và hành động giúp theo mạch kể, đặc biệt đoạn người bạn chịu ngồi nghe và đoạn nhận ra người bạn ấy là ai. Mục hai bữa ăn cùng mục mái xưởng dày sự kiện, đòi hỏi người đọc chú ý các mốc niềm vui khác nhau.",
+        "editorial_separation": "Ví dụ buổi đọc sách và việc giúp người thân được ghi rõ là liên hệ hoặc gợi ý do người biên soạn. Cách ứng xử hôm nay không được gán thành lời Đức Phật, và chi tiết nắm tóc trong chuyện không chuyển thành quyền ép bạn.",
+        "practical_integrity": "Thực hành chọn việc vừa sức, quan sát mong đợi được ưu tiên và nói thật nhu cầu đồ dùng có thể thực hiện mà không hứa kết quả tu chứng. Phần liên hệ giữ quyền quyết định của người được mời, phù hợp với chính chi tiết dễ bị bắt chước sai trong câu chuyện.",
+        "technical_integrity": "Audit canonical không có lỗi cấu trúc hoặc nguồn; 198 khóa Pāli được ánh xạ đủ, cả 37 ý có mặt trong bản trẻ. Fingerprint cuối khớp bản đã đọc lại các sửa và năm hash nguồn thực, các trường tác giả và loại mục đúng schema."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập đã đọc trọn năm nguồn thực, 37 ý và cả ba bản; đọc lại toàn bảy mục cùng hai ý bản đồ sau bốn nhóm sửa. Canonical được so hash với bản đã đọc, audit chỉ đọc không ghi metadata. Chưa thử độc giả và chưa có chuyên gia Pāli kiểm riêng.",
+      "contentHash": "35ee0d0f313623f07d312be655839aaf5b6b4ebd58a40bb089c1393105574510",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn81.html",
+          "sha256": "80516dc437c2e866a4b3bb2446f7936c33d8f615c54edbe5fe9522fb99f2626e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn81_root-pli-ms.json",
+          "sha256": "23bb7579d38a9981003666719e9c718d049bfd764d464a5dacdf7dc34ec00d91"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn81_translation-en-sujato.json",
+          "sha256": "d02cc722e6a6907a8140db99c83be8babe856f19bf435a524935ea791c669576"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn81_comment-vi-project.json",
+          "sha256": "213b4be7bbaadce0e8fe29455e54963acc98f8be1754d232019fd327653b4e3f"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn81_translation-vi-project.json",
+          "sha256": "a14553e21f7c1c1be0d9b418174148f37bcd09fd5dbf8e8719342b52c64b0a8d"
+        }
+      ]
+    },
+    {
+      "id": "b2534a9d-4e2c-4c0f-900e-906636c3efd8",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.6,
+        "audience_fit": 9.6,
+        "clarity": 9.6,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Những chi tiết kiểm chứng được như hai chuyến nghe Pháp, nửa tháng từ khi Jotipāla thọ giới trước chuyến đi, ba lần xin an cư và hai lần nhận bữa ăn tại nhà người thợ gốm được phân biệt đầy đủ. Bản này không theo các dị biệt HTML về chó đào đất, lời dặn sẵn của chủ nhà hoặc sự gộp hai bữa thành một.",
+        "semantic_fidelity": "Độ vững của người thợ gốm được gắn với đời sống giới hạnh, lòng tin và đoạn năm kiết sử, không chỉ với việc không buồn vì một lời mời bị từ chối. Việc Kassapa đã nhận lời an cư nơi khác là lý do thực tế, không bị diễn thành chê nhà vua hoặc xem quà tặng tự thân là xấu.",
+        "core_coverage": "Mười bảy mục triển khai đủ bản đồ 37 ý, gồm các chi tiết dễ mất như y và bát, tự tay dâng đến đủ, cơm và cháo riêng, mái xưởng cùng ba tháng không bị mưa và lời từ chối quà cuối. Cả khung kể hiện tại lẫn quá khứ, các phẩm chất tu học và lời nhận diện Jotipāla đều được giải thích.",
+        "logic_context": "Các cấp lời kể được nối rõ: Ānanda hỏi Đức Phật, Đức Phật kể chuyện Kassapa, rồi Kassapa nói với vua về Ghaṭikāra. Sự chuyển từ thành kiến của Jotipāla sang tự quyết đi nghe không được dùng để hợp thức hóa cách cưỡng ép người khác trong hiện tại.",
+        "terminology": "Từ hộ độ được đặt trong quan hệ hỗ trợ cụ thể; đoạn sinh kế đã mở nghĩa hóa sinh và giữ điều kiện tu chứng của nó. Các danh xưng, tên đậu cổ và hệ thuật ngữ kiết sử còn đòi hỏi một mức chú ý, dù không bị thay bằng những khẳng định thực vật học thiếu căn cứ.",
+        "audience_fit": "Ví dụ giúp một nhóm rồi chờ ý mình được ưu tiên làm rõ mong đợi ngầm trong việc cho đi, sát hoàn cảnh của người trưởng thành. Phần sinh kế và chăm cha mẹ trình bày trách nhiệm trong hoàn cảnh cụ thể, không áp một lựa chọn xuất gia hay ở nhà cho mọi độc giả.",
+        "clarity": "Việc chia riêng cơm, cháo và mái xưởng giúp theo dõi ba lần niềm vui cùng hai độ dài thời gian. Các đoạn về phẩm chất người hộ trì và đời sống giản dị có mật độ thông tin cao, nhưng quan hệ nguyên nhân và các người nói vẫn dễ nhận ra.",
+        "editorial_separation": "Phần liên hệ và thực hành đứng ở các mục có nhãn biên soạn riêng, tách khỏi sự kiện nhà vua và người thợ gốm. Những suy xét về điều kiện ngầm khi giúp nhóm được trình bày là cách soi lại đời sống hôm nay, không phải lời trích hoặc động cơ được gán thêm cho nhân vật cổ.",
+        "practical_integrity": "Gợi ý hỏi nhu cầu, nêu giới hạn và quan sát mong đợi sau khi giúp giữ được tính khả thi trong quan hệ trưởng thành. Bản này xử lý trực tiếp hai điểm dễ áp dụng sai là ép người bằng việc giữ tóc và tự lấy vật liệu từ mái xưởng, đồng thời không hứa biết đủ sẽ tạo ra sự kiện kỳ diệu.",
+        "technical_integrity": "Cấu trúc 17 mục và các liên kết với 37 ý qua audit sạch; fingerprint không đổi khi chỉ repin nguồn dự án sang commit mới. Năm nguồn đã kiểm byte, các sửa trong lời mời/bữa ăn/sinh kế được đọc lại toàn mục trước khi khóa hash."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập đã đọc trọn năm nguồn thực, 37 ý và cả ba bản; đọc lại toàn bảy mục cùng hai ý bản đồ sau bốn nhóm sửa. Canonical được so hash với bản đã đọc, audit chỉ đọc không ghi metadata. Chưa thử độc giả và chưa có chuyên gia Pāli kiểm riêng.",
+      "contentHash": "4dffb07f63f1494af56f4652c14e98aaaccdf68f36293410881f383be480dbce",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn81.html",
+          "sha256": "80516dc437c2e866a4b3bb2446f7936c33d8f615c54edbe5fe9522fb99f2626e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn81_root-pli-ms.json",
+          "sha256": "23bb7579d38a9981003666719e9c718d049bfd764d464a5dacdf7dc34ec00d91"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn81_translation-en-sujato.json",
+          "sha256": "d02cc722e6a6907a8140db99c83be8babe856f19bf435a524935ea791c669576"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn81_comment-vi-project.json",
+          "sha256": "213b4be7bbaadce0e8fe29455e54963acc98f8be1754d232019fd327653b4e3f"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn81_translation-vi-project.json",
+          "sha256": "a14553e21f7c1c1be0d9b418174148f37bcd09fd5dbf8e8719342b52c64b0a8d"
+        }
+      ]
+    },
+    {
+      "id": "1f975e22-6eb0-4000-bbd3-eeff3f391de6",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.6,
+        "audience_fit": 9.6,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Bản lớn tuổi giữ riêng hai bữa ăn, lời cha mẹ mời trong mỗi lần và các mốc nửa tháng/bảy ngày, rồi thêm đúng lần vui vì mái xưởng. Số quà được giữ ở mức khoảng năm trăm, đồ vật là mái xưởng và việc mưa không rơi vào đó kéo dài ba tháng đều được giữ đúng phạm vi nguồn.",
+        "semantic_fidelity": "Trách nhiệm với cha mẹ già mù và lựa chọn xuất gia của người bạn được trình bày như hai hoàn cảnh trong câu chuyện. Phần hóa sinh giữ sự xuất hiện tự nhiên khi tái sinh, điều kiện đoạn năm kiết sử và cứu cánh ở đó, không biến thành sự tự hóa phép hoặc phần thưởng vì giàu lòng hiếu kính.",
+        "core_coverage": "Hai mươi ba mục bao quát đủ 37 ý và 198 khóa, gồm nụ cười, các lần rủ bạn, việc vua đón và mời, giới hạnh, sinh kế, ba chuyện được tin cậy, quà tặng và kết bài. Các lần lặp còn giữ giá trị câu chuyện riêng thay vì dồn thành một lời ca ngợi người thợ gốm.",
+        "logic_context": "Việc tách cuộc gặp, nghe Pháp, chăm cha mẹ và xuất gia làm rõ ai làm gì vào lúc nào. Đoạn kết mới xác nhận Jotipāla là tiền thân của Đức Phật; các nhân vật, lời tán thán của vua và lời thuật của Kassapa không bị lẫn vai.",
+        "terminology": "Lời giải hóa sinh sau góp ý giúp câu về đích tu học dễ theo hơn, còn các phẩm chất giới hạnh được nối với việc làm cụ thể. Tên người và một số danh mục tu học vẫn nhiều, nhưng bản không thêm các giải nghĩa hiếm vượt quá bằng chứng đã đọc.",
+        "audience_fit": "Những mục ngắn và ví dụ từ chối món quà khi đã đủ tôn trọng khả năng quyết định của người lớn tuổi. Chăm người thân được gợi như một việc tùy khả năng, không giả định độc giả đều yếu, phụ thuộc hoặc chỉ có mối quan tâm gia đình.",
+        "clarity": "Nhịp chia 23 mục giúp dừng và đọc tiếp, các tiêu đề chỉ rõ diễn biến thay vì buộc nhớ thuật ngữ. Mục kể hai bữa ăn vẫn tương đối dày các mốc thời gian và chủ thể; chưa có thử đọc với độc giả lớn tuổi để kiểm chứng nhịp thực tế.",
+        "editorial_separation": "Món quà vừa nhu cầu và việc nghe thêm trước khi kết luận được đánh dấu là liên hệ, thực hành do người biên soạn. Giới hạn của liên hệ với mái xưởng và thời tiết được nêu tại đúng phần áp dụng, không nhập cách suy diễn hiện đại vào sự kiện kinh.",
+        "practical_integrity": "Các gợi ý chọn việc trong khả năng, hỏi nhu cầu và quan sát mong được đáp ứng yêu cầu riêng giữ được tính tự nguyện. Bản này không xem một vài việc giúp đỡ là đủ thành tựu giải thoát và không dùng chuyện kỳ diệu để bảo đảm kết quả cho người đọc.",
+        "technical_integrity": "Audit canonical và nguồn đều sạch, toàn bộ các mục phủ đủ bản đồ đã kiểm với 198 khóa Pāli. Hash hiện tại trùng bản đã đọc lại mục bữa ăn và làm gốm; năm dependency đều có byte và pin phù hợp, không thêm khóa nguồn giả."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập đã đọc trọn năm nguồn thực, 37 ý và cả ba bản; đọc lại toàn bảy mục cùng hai ý bản đồ sau bốn nhóm sửa. Canonical được so hash với bản đã đọc, audit chỉ đọc không ghi metadata. Chưa thử độc giả và chưa có chuyên gia Pāli kiểm riêng.",
+      "contentHash": "55bac931d75ba55b2d08960a7099682859db8b728f497cad2f8b6019830b9177",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn81.html",
+          "sha256": "80516dc437c2e866a4b3bb2446f7936c33d8f615c54edbe5fe9522fb99f2626e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn81_root-pli-ms.json",
+          "sha256": "23bb7579d38a9981003666719e9c718d049bfd764d464a5dacdf7dc34ec00d91"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn81_translation-en-sujato.json",
+          "sha256": "d02cc722e6a6907a8140db99c83be8babe856f19bf435a524935ea791c669576"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn81_comment-vi-project.json",
+          "sha256": "213b4be7bbaadce0e8fe29455e54963acc98f8be1754d232019fd327653b4e3f"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn81_translation-vi-project.json",
+          "sha256": "a14553e21f7c1c1be0d9b418174148f37bcd09fd5dbf8e8719342b52c64b0a8d"
+        }
+      ]
+    }
+  ]
+}

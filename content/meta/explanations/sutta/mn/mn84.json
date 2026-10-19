@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn84",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "ae5a767e-1eed-4bb4-86fc-55ce3906b24c"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "7cb4cfa9-ba1d-4900-b35e-46071d016d14"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "9be7f1c9-1c6c-4609-aa5f-62134ad3382f"
+    }
+  },
+  "reviews": [
+    {
+      "id": "ae5a767e-1eed-4bb4-86fc-55ce3906b24c",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.3,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đã đối chiếu đủ năm nguồn thực tế. Bản trẻ giữ việc không ăn ban đêm và khoảng cách một trăm do-tuần có trong Pāli, không để các chỗ lược của HTML làm mất nội dung.",
+        "semantic_fidelity": "Lời tự nhận trắng, thanh tịnh và con Phạm thiên thuộc người bà-la-môn; tôn giả gọi đó là lời đồn. Quả sau chết của mười ác và mười thiện vẫn rõ, không bị đổi thành chỉ được người khác khen chê.",
+        "core_coverage": "Mười chín mục giữ đủ năm cách xét, bốn chủ giàu với bốn nhóm phục dịch và năm hành vi, hai lượt quy y, bốn hình ảnh tán thán cùng nhãn bài thứ tư trong nhóm.",
+        "logic_context": "Mỗi kết luận bình đẳng gắn với trường hợp đang xét. Người xuất gia được kính trọng có đủ nếp sống và phẩm hạnh; vua chỉ nói sẽ đi xa nếu còn có thể gặp Phật, không có hành trình thật được thêm vào.",
+        "terminology": "A-la-hán đã mở rõ thoát những trói buộc gây khổ, thức ăn được cúng giúp đọc ngay phần vật dụng. Chánh kiến, tà kiến, quy y và nhập diệt có lời giải; danh mục phù phiếm và các tên đẳng cấp vẫn cần đọc chậm.",
+        "audience_fit": "Các tiêu đề hỏi về dòng họ, việc làm và chọn bạn tạo nhịp gần trẻ. Ví nhóm học tập dễ hình dung; phần mười hành vi cùng năm lần kết luận vẫn đòi hỏi sự chú ý, nhất là với trẻ nhỏ.",
+        "clarity": "Hai lượt tốt/xấu và hai lượt tội/phẩm hạnh được tách mục ngắn. Việc lặp đủ mười hành vi rồi dùng lại danh mục đã nêu vừa giữ nghĩa vừa tránh làm câu quá dài.",
+        "editorial_separation": "Ví nhóm học tập và bài tự xét có nhãn riêng; bốn hình ảnh trong lời vua vẫn thuộc câu chuyện kinh. Các hình phạt được trình bày đúng là lời vua kể trong giả định.",
+        "practical_integrity": "Việc trả đồ, nói thật và ngừng chia rẽ là ứng dụng nhỏ, cụ thể. Đoạn thực hành giữ tầm nhìn về tái sinh và đời tu, không đồng nhất sự công bằng khi chọn bạn với giải thoát hoàn toàn.",
+        "technical_integrity": "Audit độc lập không có lỗi nội dung hay nguồn; 36 ý phủ đủ 171 khóa. Hash 19 mục khớp bản cuối sau đọc lại trọn begin và respect, cùng năm hash nguồn đã thực đọc."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập đủ năm nguồn, 36 ý/171 khóa và cả ba bản. Ba nhóm lời giải đã sửa ở tám mục, mọi mục đọc lại trọn; audit sạch và hash đúng freeze cuối.",
+      "contentHash": "27116155f9f5bb04a047a4278af1a43d945684d8159b22931559ae8a06607d8f",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn84.html",
+          "sha256": "d10c21aa724771f99caf06c94f49e7ba785a1851cd6b1a0940412f7826686394"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn84_root-pli-ms.json",
+          "sha256": "50d16708facdd6c2f6adb87b731375b10f6477fe1b0ce06d54482dd36f7e2605"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn84_translation-en-sujato.json",
+          "sha256": "6b081711d0e760f2ec1e60131e490cca582a35cfd87dc2c1b0f9efea2cf08a5f"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn84_comment-vi-project.json",
+          "sha256": "6e6d4913cfa67ec282a8b3bc60d0a720f37a7ec7f0021ae96172428a174aebd2"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn84_translation-vi-project.json",
+          "sha256": "015d08b820116a9128209e8b4b20ade46a646b1c3dc1417fe02c6cde67c237a2"
+        }
+      ]
+    },
+    {
+      "id": "7cb4cfa9-ba1d-4900-b35e-46071d016d14",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.8,
+        "terminology": 9.6,
+        "audience_fit": 9.6,
+        "clarity": 9.6,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc Pāli, Sujato thật, Việt dự án, toàn HTML và chú thích. Tịch thu tài sản theo jāpeyyāma, tên Sát-đế-lợi ở lượt xuất gia đầu và quãng một trăm do-tuần đều tránh các lệch hoặc thiếu của HTML.",
+        "semantic_fidelity": "Phân biệt lợi thế của cải, quả hành vi, việc xử tội và phẩm hạnh. Không biến việc có người phục dịch thành sự thanh tịnh; người xuất gia trong lập luận vẫn phải đủ các điều kiện thực hành.",
+        "core_coverage": "Mười lăm mục bao quát 36 ý: bốn đổi vai người chủ, mười ác/thiện, bốn lần tán đồng cả hai căn cứ, năm kết luận, bốn loại vật dụng và hai lời xin nương tựa trọn đời.",
+        "logic_context": "Mỗi câu trả lời của vua được dẫn bằng giả định tương ứng. Chỗ quy y đổi đối tượng từ Kaccāna sang Phật đã nhập diệt đúng lời hướng dẫn, còn lời sẵn sàng đi xa được giữ là điều kiện.",
+        "terminology": "Lần đầu A-la-hán, thừa tự và thức ăn cúng đã dễ hiểu hơn sau sửa. Phạm hạnh, quy y, cư sĩ và do-tuần đều được mở nghĩa trong câu; vẫn còn một số từ kinh điển như đọa xứ cần đọc cùng danh mục giải thích.",
+        "audience_fit": "Cách phân tích địa vị và hành vi phù hợp người trưởng thành. Ví trao trách nhiệm dùng tiêu chí trung thực, nhận lỗi và giữ lời, không thu hẹp bài kinh thành một nguyên tắc tuyển người trong công việc.",
+        "clarity": "Đoạn mở chỉ rõ năm lượt, sau đó mỗi kết luận trở về điều vừa chứng minh. Mục bad và good chứa nhiều ý nhưng chia ba đoạn, giữ được đường đi của hỏi, đáp, tán đồng và kết luận.",
+        "editorial_separation": "Ví trao trách nhiệm và phần viết lại nhận định là biên soạn hiện đại, được đánh dấu. Những hình phạt vẫn nằm trong lời đáp của nhà vua; không được trình bày như lời khuyên áp dụng hôm nay.",
+        "practical_integrity": "Gợi ý phân biệt hành động đã biết với suy đoán từ xuất thân và tự xét lời nói có thể thực hiện ngay. Phần thực hành vẫn nhắc quả tái sinh và đời sống thanh tịnh, giữ phạm vi giáo lý rộng hơn mẹo giao tiếp.",
+        "technical_integrity": "Audit sạch và năm hash nguồn trùng checkpoint độc lập. Đã đọc lại đầy đủ opening, claim, renounce sau tám lời giải của toàn bài; fingerprint 15 mục khớp freeze cuối và không ghi metadata."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập đủ năm nguồn, 36 ý/171 khóa và cả ba bản. Ba nhóm lời giải đã sửa ở tám mục, mọi mục đọc lại trọn; audit sạch và hash đúng freeze cuối.",
+      "contentHash": "b5a2165e92945e7ceb85a6f58217aca7662aa7b2b7420ab60b938d1f30827d48",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn84.html",
+          "sha256": "d10c21aa724771f99caf06c94f49e7ba785a1851cd6b1a0940412f7826686394"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn84_root-pli-ms.json",
+          "sha256": "50d16708facdd6c2f6adb87b731375b10f6477fe1b0ce06d54482dd36f7e2605"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn84_translation-en-sujato.json",
+          "sha256": "6b081711d0e760f2ec1e60131e490cca582a35cfd87dc2c1b0f9efea2cf08a5f"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn84_comment-vi-project.json",
+          "sha256": "6e6d4913cfa67ec282a8b3bc60d0a720f37a7ec7f0021ae96172428a174aebd2"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn84_translation-vi-project.json",
+          "sha256": "015d08b820116a9128209e8b4b20ade46a646b1c3dc1417fe02c6cde67c237a2"
+        }
+      ]
+    },
+    {
+      "id": "9be7f1c9-1c6c-4609-aa5f-62134ad3382f",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.8,
+        "terminology": 9.6,
+        "audience_fit": 9.5,
+        "clarity": 9.6,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Năm nguồn đã đọc đầy đủ, kể cả SC1–SC46 và credits. Bản lớn tuổi giữ hình phạt tịch thu, không ăn đêm và một trăm do-tuần theo Pāli/Việt, không tiếp nhận các lệch tương ứng trong nguồn phụ.",
+        "semantic_fidelity": "Địa vị không xóa quả ác hạnh và không độc quyền quả thiện được trình bày bằng các trường hợp cụ thể. Nhập diệt được giải là đã qua đời, không còn tái sinh; việc quy y vẫn hướng về chính Đức Phật ấy.",
+        "core_coverage": "Hai mươi mốt mục giữ đủ năm lượt xét, bốn nhóm phục dịch, các nhóm mười hành vi, hai căn cứ của vua trong cả bốn lần tán đồng, bốn hình ảnh và cả hai lời xin ghi nhận cư sĩ trọn đời.",
+        "logic_context": "Sự kính trọng gắn với đời tu có giới, phạm hạnh và nếp ăn cụ thể. Năm lần nói bình đẳng đều giữ trong việc đang xét; lời vua muốn đi mười đến một trăm do-tuần không bị biến thành sự kiện đã làm.",
+        "terminology": "Lời mở A-la-hán và thừa tự đã cụ thể, thức ăn được cúng thuận đọc. Sa-môn, phạm hạnh, quy y, cư sĩ, nhập diệt và do-tuần có nghĩa ngay trong mạch, giúp người chưa quen kinh không phải dừng tra liên tục.",
+        "audience_fit": "Các mục ngắn, tách riêng lời quy y và tin Phật nhập diệt, hợp nhịp đọc thong thả. Ví cách nhìn người trẻ tôn trọng kinh nghiệm người lớn tuổi mà vẫn mời quan sát phẩm chất hiện tại.",
+        "clarity": "Hai trường hợp người chủ được chia trước và sau, giúp theo dõi đủ bốn đẳng cấp. Các lời khen lặp lại có căn cứ rõ, dù số lượng danh mục và tên riêng vẫn làm bài cần sự tập trung.",
+        "editorial_separation": "Liên hệ với người trẻ và gợi ý dừng trước khi đánh giá có nhãn riêng. Các hình phạt được giữ là lời nhà vua trong giả định, không thành lời chỉ dẫn của người biên soạn.",
+        "practical_integrity": "Dừng một nhịp trước lời khen chê, nói thật, bỏ chia rẽ và ác ý là gợi ý vừa sức. Văn không hứa kết quả tâm linh nhờ một thao tác nhỏ và không xem tuổi cao là dấu hiệu thiếu hiểu biết.",
+        "technical_integrity": "Đã đọc trọn meeting, claim và respect sau sửa, kiểm đúng hash 21 mục cuối. Audit không lỗi, 36 ý phủ hết 171 khóa và năm nguồn khớp byte với checkpoint thực đọc."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập đủ năm nguồn, 36 ý/171 khóa và cả ba bản. Ba nhóm lời giải đã sửa ở tám mục, mọi mục đọc lại trọn; audit sạch và hash đúng freeze cuối.",
+      "contentHash": "66327eda94a0689e25345875da9d7e011923be2dfe4ae3a69484a40b22943574",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn84.html",
+          "sha256": "d10c21aa724771f99caf06c94f49e7ba785a1851cd6b1a0940412f7826686394"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn84_root-pli-ms.json",
+          "sha256": "50d16708facdd6c2f6adb87b731375b10f6477fe1b0ce06d54482dd36f7e2605"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn84_translation-en-sujato.json",
+          "sha256": "6b081711d0e760f2ec1e60131e490cca582a35cfd87dc2c1b0f9efea2cf08a5f"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn84_comment-vi-project.json",
+          "sha256": "6e6d4913cfa67ec282a8b3bc60d0a720f37a7ec7f0021ae96172428a174aebd2"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn84_translation-vi-project.json",
+          "sha256": "015d08b820116a9128209e8b4b20ade46a646b1c3dc1417fe02c6cde67c237a2"
+        }
+      ]
+    }
+  ]
+}
