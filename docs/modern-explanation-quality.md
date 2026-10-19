@@ -143,3 +143,5 @@ Theo dõi bằng nội dung và lịch sử đánh giá trong kho cùng PR đã 
 - [Báo cáo lô 16 — MN151–MN152 và DN1–DN8](modern-explanations/batch-16-mn151-mn152-dn1-dn8.md)
 - [Báo cáo lô 17 — DN9–DN18](modern-explanations/batch-17-dn9-dn18.md)
 - [Báo cáo lô 18 — DN19–DN28](modern-explanations/batch-18-dn19-dn28.md)
+- [Báo cáo lô 19 — DN29–DN34](modern-explanations/batch-19-dn29-dn34.md)
+- [Bảng điểm hoàn tất 186 bài — Trung Bộ và Trường Bộ](modern-explanations/completion-mn-dn.md)
