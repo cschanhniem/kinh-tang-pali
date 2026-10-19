@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn65",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "17ff5893-c086-4778-96f1-a0dad81f1246"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "f52d66c0-a6a9-415a-90a9-afb5cedf6d22"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "43d1452e-693e-4cbf-ad43-3617f9aebe1b"
+    }
+  },
+  "reviews": [
+    {
+      "id": "17ff5893-c086-4778-96f1-a0dad81f1246",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.5,
+        "audience_fit": 9.2,
+        "clarity": 9.3,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đọc trọn năm nguồn; giữ ekāsano ở lời dung thông, suy xét lỗi thay dịp đặc biệt của HTML, tắm gội/xoa bóp thay trang sức. Các số đời được mở theo Sujato thật, không thêm chi tiết đang lược.",
+        "semantic_fidelity": "Ba lần nhận lỗi đi tới thấy lỗi, sửa đúng Pháp, giữ gìn về sau; không thu thành chỉ nói xin lỗi. Việc học dẫn qua thiền và ba trí đến tận lậu hoặc, không dừng ở ngoan ngoãn hay sống khỏe.",
+        "core_coverage": "Đủ sáu hoàn cảnh, bảy hạng người, chín trú xứ, bốn phía trách/không trách, bốn thiền, ba trí, bốn ca kỷ luật, ví một mắt và mười pháp vô học.",
+        "logic_context": "Hai lần có thể hối/ân hận không thành điều chắc chắn; ba tháng tránh gặp không là hình phạt. Bốn ca xử lý có phản ứng, quyết định và kết quả, còn chút lòng tin là một nhánh cân nhắc riêng.",
+        "terminology": "Tỳ-kheo, cư sĩ, học giới, các từ thiền, lậu hoặc và vô học đều được mở nghĩa. Bảy tên hạng người chỉ được giải theo nhóm, giúp giữ giới hạn nguồn nhưng vẫn khá mới với trẻ.",
+        "audience_fit": "Quyển vở bị rách và việc quên trả đồ tạo hai điểm gần đời sống trẻ. Bài đủ ý nên dài 25 mục; các số đời và thuật ngữ chứng đạt còn cần người lớn đọc cùng với trẻ nhỏ.",
+        "clarity": "Mạch kể theo ba lần nhận lỗi, rồi cách tu và cách nâng đỡ rõ ràng. Những lần lặp được gộp có nội dung đối chiếu, nhưng độ dày toàn bài khiến việc đọc chia lượt hữu ích.",
+        "editorial_separation": "Ví dụ vở và phần tập sửa lỗi có nhãn biên soạn riêng. Chiếc cầu giữ là giả định của cuộc đối thoại; hướng dẫn ăn được đặt trong sinh hoạt xuất gia, không biến thành lời khuyên ăn uống cho trẻ.",
+        "practical_integrity": "Nhận lỗi, trả đồ, đặt dấu nhắc và tập thường xuyên là việc vừa sức. Phần thực hành không yêu cầu trẻ áp dụng hình thức chế tài của Tăng đoàn hoặc lấy phản ứng chống đối để tự kết tội mình.",
+        "technical_integrity": "Audit sạch cả nguồn và nội dung, 53 ý liên kết đủ 211 khóa; hash 25 mục khớp bản freeze đã đọc. Bản trẻ không đổi sau review, nguồn cũng khớp checkpoint độc lập."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ năm nguồn, toàn 53 ý/211 khóa và cả ba bản; một nhóm mở nghĩa ở ba mục đã sửa và được đọc lại trọn. Audit cuối sạch, năm source hash khớp checkpoint độc lập và fingerprint đúng freeze tác giả.",
+      "contentHash": "eb50515f1d98e4b084aec6f2bf0c8e8c8049b16b43b05bbdc3cebd0e78f052e6",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn65.html",
+          "sha256": "b30643e5a694b2a1f2bf8b6ac70912661327425684660e26a785e03a1e5c45af"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
+          "sha256": "9e6981a3f59b9230642d0308b3da5f3b22445114838be6ff3eee6b95435c2eef"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json",
+          "sha256": "db857e82e1d5598d21d0005febb328d8aa24a3b68f541b354a8209b0aa8dcb23"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn65_comment-vi-project.json",
+          "sha256": "527d4d906d5b83b9fdf981a9671851d3472a251aba55cb4a4d47e3be71932beb"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn65_translation-vi-project.json",
+          "sha256": "321604070aad9f95b108dd8ed6d77b0c1fffcb973fb40e238a97b576bda84dec"
+        }
+      ]
+    },
+    {
+      "id": "f52d66c0-a6a9-415a-90a9-afb5cedf6d22",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.6,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Năm nguồn đủ phạm vi và hash, 15 ô Anh trống không được thay bằng fill. Lời một lần ngồi, các lần nhận lỗi, bốn thiếu sót nghe Pháp và hai chuẩn bị của ngựa được giữ theo root.",
+        "semantic_fidelity": "Phân biệt nhận lỗi với sửa và tự chế, sống viễn ly với hoàn thành sự học, xử lý vụ việc với gìn giữ chút lòng tin. Đích giải thoát giữ hai bộ bốn sự thật, ba lậu và bốn vế hoàn tất.",
+        "core_coverage": "Bản 23 mục giữ đủ cả ý định và hành động ở hai cảnh viễn ly, từng tầng thiền và ba trí, bốn tổ hợp tần suất lỗi/phản ứng, các chặng phát triển của Tăng cùng mười pháp vô học.",
+        "logic_context": "Bảy hạng trong giả định và câu tự xét không lẫn với thành tựu của Bhaddāli. Điều kiện chưa xuất hiện/đã xuất hiện nền lậu hoặc và mệnh đề riêng về kỳ cựu không bị gộp quá phạm vi root.",
+        "terminology": "Đã đọc lại lời mở cư sĩ và tỉnh giác sau sửa. Giải tội được giải là giải quyết lỗi giới và chế tài, vô học là hoàn tất tu học, nên các từ không bị kéo sang nghĩa dân sự hoặc thiếu học thức.",
+        "audience_fit": "Ví dụ gửi nhầm thông tin và ba dòng khắc phục phù hợp trách nhiệm người trưởng thành. Cách trình bày hai trục của bốn ca giúp suy nghĩ về tiếp nhận góp ý mà không làm nhẹ lỗi đã phạm.",
+        "clarity": "Tiêu đề tách nhận lỗi, viễn ly, thiền, xử lý và đào luyện; các lần nhắc điều kiện có điểm tựa rõ. Một số đoạn liệt kê dài do giữ toàn danh sách của bài, chưa phải văn đọc lướt.",
+        "editorial_separation": "Sai sót công việc được gọi rõ là tình huống thêm, và gợi ý thực hành tách khỏi lời kinh. Các quyết định khác nguồn nằm trong hồ sơ biên tập, không tạo lời Phật mới hoặc một đoạn audit trong bản đọc.",
+        "practical_integrity": "Gợi ý ở lại với vấn đề, sửa cụ thể và lưu ý sức tiếp nhận người khác nối đúng cả trách nhiệm lẫn nhánh lòng tin. Không hứa hết lậu hoặc chỉ từ việc biết nhận góp ý.",
+        "technical_integrity": "Fingerprint bản 23 mục khớp audit sau đọc trọn hai mục sửa; cả năm nguồn khớp hồ sơ đọc độc lập. Audit không lỗi, không ghi metadata hay suy diễn kết quả cổng tích hợp toàn lô."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ năm nguồn, toàn 53 ý/211 khóa và cả ba bản; một nhóm mở nghĩa ở ba mục đã sửa và được đọc lại trọn. Audit cuối sạch, năm source hash khớp checkpoint độc lập và fingerprint đúng freeze tác giả.",
+      "contentHash": "34118dfbb7a94e3c9b58dd8877e41a7aabf85f81e859fba0ab6f513c4b0e0c93",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn65.html",
+          "sha256": "b30643e5a694b2a1f2bf8b6ac70912661327425684660e26a785e03a1e5c45af"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
+          "sha256": "9e6981a3f59b9230642d0308b3da5f3b22445114838be6ff3eee6b95435c2eef"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json",
+          "sha256": "db857e82e1d5598d21d0005febb328d8aa24a3b68f541b354a8209b0aa8dcb23"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn65_comment-vi-project.json",
+          "sha256": "527d4d906d5b83b9fdf981a9671851d3472a251aba55cb4a4d47e3be71932beb"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn65_translation-vi-project.json",
+          "sha256": "321604070aad9f95b108dd8ed6d77b0c1fffcb973fb40e238a97b576bda84dec"
+        }
+      ]
+    },
+    {
+      "id": "43d1452e-693e-4cbf-ad43-3617f9aebe1b",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.5,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu trọn Pāli/Anh/Việt, 17 chú thích và HTML tới SC56. Giữ lời thuật đã nghe, đúng ba tháng và chuyến du hóa, không theo các khác biệt HTML về dịp đặc biệt, đồ trang sức hoặc báu vật của vua.",
+        "semantic_fidelity": "Lỗi đã làm được đặt thành điều cần sửa, không thành căn tính bất biến. Cùng lúc, bốn thiền, trí biết tái sinh và tận lậu hoặc giữ chiều sâu của lời dạy thay vì chỉ đem lại hòa thuận gia đình.",
+        "core_coverage": "Hai mươi bảy mục giữ đầy đủ ba lần nhận lỗi, sáu hoàn cảnh, bảy hạng, chín nơi, bốn phía, bốn ca xử lý và năm chặng phát triển của Tăng; mười bài ngựa nối đúng mười pháp vô học.",
+        "logic_context": "Mọi cặp phủ định và khẳng định trong viễn ly, xử lý và đặt giới còn đủ. Lòng tin ít ỏi được bảo vệ vì nguy cơ mất nốt khi gây sức ép, không được diễn thành miễn mọi trách nhiệm.",
+        "terminology": "Cư sĩ đã mở nghĩa ở lần đầu; tầm/tứ, hỷ/lạc, xả/niệm/tỉnh giác, ba lậu, chánh trí và vô học đều có lời giải trong mạch. Hàm móc cũng được giải để ví ngựa không thành một tên đồ vật xa lạ.",
+        "audience_fit": "Đính chính một chuyện gia đình là ví dụ cụ thể, không giả định mọi người cao tuổi có cùng hoàn cảnh. Nhịp 27 mục hỗ trợ đọc thong thả; phần liệt kê chứng đạt vẫn có độ khó đáng kể.",
+        "clarity": "Hai cảnh viễn ly và hai nhóm thiền được tách rõ, các ca ít lỗi chỉ nối về phần đã giải đầy đủ. Mạch sửa sai mở tới tiếp tục học tạo sự liền ý, dù toàn bài còn dài.",
+        "editorial_separation": "Ví dụ gia đình và gợi ý chọn việc còn sửa được có nhãn riêng. Không dùng câu chuyện ngựa để áp cách đối xử cưỡng ép lên người có tuổi, không thêm lời hứa chữa bệnh vào năm lợi ích Phật nêu.",
+        "practical_integrity": "Khắc phục việc nhỏ, tự giữ gìn và góp ý rõ mà giữ thiện chí của người khác bảo toàn quyền chủ động. Phần thực hành không gieo mặc cảm vì tuổi tác, cũng không đồng nhất hòa thuận với giải thoát.",
+        "technical_integrity": "Đã đọc trọn mục six sau sửa, hash bản 27 mục khớp audit cuối, năm nguồn đúng checkpoint. Không còn lỗi cấu trúc hoặc nguồn; mức đánh giá là biên tập AI độc lập, chưa là thử nghiệm độc giả thật."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ năm nguồn, toàn 53 ý/211 khóa và cả ba bản; một nhóm mở nghĩa ở ba mục đã sửa và được đọc lại trọn. Audit cuối sạch, năm source hash khớp checkpoint độc lập và fingerprint đúng freeze tác giả.",
+      "contentHash": "03af15eac1410a36f6ba3b049959282f11c08b602c069a14276433efe97a0566",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn65.html",
+          "sha256": "b30643e5a694b2a1f2bf8b6ac70912661327425684660e26a785e03a1e5c45af"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
+          "sha256": "9e6981a3f59b9230642d0308b3da5f3b22445114838be6ff3eee6b95435c2eef"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json",
+          "sha256": "db857e82e1d5598d21d0005febb328d8aa24a3b68f541b354a8209b0aa8dcb23"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn65_comment-vi-project.json",
+          "sha256": "527d4d906d5b83b9fdf981a9671851d3472a251aba55cb4a4d47e3be71932beb"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn65_translation-vi-project.json",
+          "sha256": "321604070aad9f95b108dd8ed6d77b0c1fffcb973fb40e238a97b576bda84dec"
+        }
+      ]
+    }
+  ]
+}
