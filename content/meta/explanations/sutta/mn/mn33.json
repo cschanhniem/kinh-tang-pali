@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn33",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "beb3c551-cb3d-4714-90df-97cb029cb356"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "9ba26685-d3f8-4402-9e2c-8a388beb8141"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "35452489-f220-4066-a6ec-b3cc53fa62ef"
+    }
+  },
+  "reviews": [
+    {
+      "id": "beb3c551-cb3d-4714-90df-97cb029cb356",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9,
+        "audience_fit": 9.2,
+        "clarity": 9.4,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Giữ đủ mười một việc chăm bò và ý tu học tương ứng, bao gồm bốn nhóm vật dụng, sáu căn và ba hành vi từ ái. Sau sửa, lời người truyền kinh và khả năng đàn bò tăng trưởng ở chiều tích cực đều hiện rõ.",
+        "semantic_fidelity": "Không đổi không dung chứa bất thiện thành tự kết tội bản thân; việc phòng hộ vẫn giữ quan hệ giữa nắm tướng/chi tiết và tham muốn, bực buồn. Biết uống vẫn có đủ hứng khởi từ nghĩa, từ Pháp và niềm vui gắn với Pháp.",
+        "core_coverage": "Mười lăm mục giải thích đủ 31 ý; mười một cặp được đánh số để trẻ theo dõi cả thiếu sót và khả năng cần vun bồi. Phần hỏi học giữ người được hỏi, hai nội dung hỏi và ba kết quả làm sáng nghĩa.",
+        "logic_context": "Nói rõ cách đọc từng cặp là cách trình bày của người biên soạn, trong khi mở và kết vẫn giữ hai chiều không thể/có thể phát triển. Kết kinh không gán thêm chứng quả hay nhầm nhãn thứ ba với mã MN33.",
+        "terminology": "Mở nghĩa tỳ-kheo, Pháp và Luật, sắc, căn, bất thiện, Như Lai và lòng từ. Lời giải bốn đại, Thánh đạo tám ngành và bốn niệm xứ còn ở mức giới thiệu tên/phạm vi, nên trẻ chưa biết trước có thể cần người hướng dẫn giải thêm.",
+        "audience_fit": "Hộp bút màu và câu hỏi thành thật phù hợp trẻ; mỗi phần tập trung một hình ảnh và dùng động từ dễ hình dung. Các khái niệm sắc, nghiệp và niệm xứ vẫn khiến một số đoạn khó hơn phần ví dụ đời thường.",
+        "clarity": "Mười một tiêu đề số thứ tự tạo mạch ổn định, mỗi mục nối hình ảnh với ý học cụ thể. Đoạn sáu cửa được tách khỏi phần cơ chế phòng hộ nên danh sách không làm mất quan hệ nguyên nhân.",
+        "editorial_separation": "Ví dụ hộp bút tự nhận là của người biên soạn, bài tập có kind riêng và không được gán cho Đức Phật. Việc ghép hai nửa kinh được thông báo ngay đầu, còn nhãn kết chỉ có một câu ngắn.",
+        "practical_integrity": "Bài tập yêu cầu hỏi người giải thích được, kể lại và kiểm điều mình hiểu; thực hành chừng mực không thành sự ép buộc cho hết đồ. Câu về ý muốn làm hại giúp trẻ dừng nuôi ý ấy mà không dán nhãn bản thân là người xấu.",
+        "technical_integrity": "Đọc lại toàn begin và practice sau sửa, kiểm eggs-care đã được gắn đúng; bản đồ bao phủ đủ 118 khóa. Audit cuối không có lỗi cấu trúc/nguồn và hash bản trẻ khớp chính tệp đã đọc."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập đủ năm nguồn, 31 đơn vị ý và cả ba bản trước khi gửi bốn yêu cầu sửa; sau đó đọc lại trọn sáu mục thay đổi và đơn vị eggs-fail, lấy lại audit đúng freeze. Các phát hiện đã khép. Chưa có thử đọc với độc giả thật hay xác nhận chuyên gia Pāli.",
+      "contentHash": "9d084cd402b39e913e40b7782f756f9b921d47d3b1dfda32814255504a425081",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn33.html",
+          "sha256": "40ffa265428cdd8e26bf93f01a06231622db2fdf4c121cd2e20f72f892c62efd"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn33_root-pli-ms.json",
+          "sha256": "bcf313a74c6438144d65168d8e9f418df0a9f876994e32c404a8559c32552f68"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn33_translation-en-sujato.json",
+          "sha256": "66590dd758a553f4082f525243d5c05cd09eeabf32cf93d3447318e47cdcf80e"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn33_comment-vi-project.json",
+          "sha256": "4a75124a26c9362a682948be5555459cace515d725e4cdbfd71bb9f48451947a"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn33_translation-vi-project.json",
+          "sha256": "7f347bb9a8303e30fc8e2f104c1fcff93858a298526bbfc417d1555fe8d15a3f"
+        }
+      ]
+    },
+    {
+      "id": "9ba26685-d3f8-4402-9e2c-8a388beb8141",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.2,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Bám đúng mười một đối chiếu, không bỏ ý căn, tâm từ hay các chi tiết về người thông hiểu Pháp/Luật/đề mục khi nguồn Anh gộp câu. Cặp nhận có mức/không có mức giữ cùng hoàn cảnh được gia chủ có lòng tin mời nhận.",
+        "semantic_fidelity": "Giữ cả dung chứa/từ bỏ và đầy đủ chuỗi từ bỏ, xua tan, chấm dứt, làm không còn; giữ điều kiện phòng hộ trước nguy cơ tham muốn, bực buồn. Đặc điểm người ngu/trí vẫn là hành động, còn niềm vui học Pháp không bị biến thành sự giải trí.",
+        "core_coverage": "Mười một mục bao phủ 31 ý, ghép hợp lý 1–2, 3–4, 5–6 và 8–9 mà không rơi mất cặp nào. Mười một việc chăm bò, lời áp vào người tu và hai kết quả khả năng phát triển đều có nội dung rõ.",
+        "logic_context": "Mở đầu báo cách ghép các cặp, phần giữa đi theo đúng thứ tự, phần kết nối kết quả người chăn với người tu. Lớp người truyền kinh đã được sửa rõ; không bịa lý do người học không hỏi hoặc động cơ nhận quá mức.",
+        "terminology": "Dục/sân/hại tầm, sáu đối tượng giác quan, ba nghiệp và từ ái được giải ngay trong đoạn liên quan. Các tên bốn đại, tám ngành, bốn niệm xứ được giới thiệu đúng phạm vi nhưng chưa đủ cho người muốn một bài nhập môn riêng về chúng.",
+        "audience_fit": "Tình huống thiện nguyện gắn sự biết mức với trách nhiệm của người nhận và lời hỏi về điều mình đang truyền đạt chưa chắc. Cách ghép mục giảm lặp cho người trưởng thành, vẫn dành chỗ cho quan hệ với người dẫn dắt.",
+        "clarity": "Các tiêu đề nêu hai việc liên quan, danh sách sáu căn đủ mà không kéo dài, đoạn nhận hỗ trợ nêu rõ biến số cần xét. Câu kết về khả năng trưởng thành được hiểu theo cặp đối chiếu đã trình bày, không thành lời hứa tự động.",
+        "editorial_separation": "Liên hệ thiện nguyện tự nhận là biên tập và phần suy xét được tách khỏi teaching. Không thêm diễn giải nguồn lạ về hun khói hay coi ví dụ quản lý hỗ trợ là một lời kinh nguyên văn.",
+        "practical_integrity": "Gợi ý kiểm điều chưa chắc, hỏi người có hiểu biết và điều chỉnh mức nhận hỗ trợ là việc có thể làm cụ thể. Lòng từ với người hướng dẫn đi cùng giữ sự thật, không thành yêu cầu phục tùng mù quáng.",
+        "technical_integrity": "Đã đọc lại begin và close sau sửa tham chiếu; mọi khóa Pāli và đơn vị ý có bao phủ hợp lệ. Audit cuối sạch, source hashes và content hash bản trưởng thành trùng trạng thái đã duyệt."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập đủ năm nguồn, 31 đơn vị ý và cả ba bản trước khi gửi bốn yêu cầu sửa; sau đó đọc lại trọn sáu mục thay đổi và đơn vị eggs-fail, lấy lại audit đúng freeze. Các phát hiện đã khép. Chưa có thử đọc với độc giả thật hay xác nhận chuyên gia Pāli.",
+      "contentHash": "26a5e77b93705512fe635b8cc6818e80d6ea66144881b80127c175d64bb79242",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn33.html",
+          "sha256": "40ffa265428cdd8e26bf93f01a06231622db2fdf4c121cd2e20f72f892c62efd"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn33_root-pli-ms.json",
+          "sha256": "bcf313a74c6438144d65168d8e9f418df0a9f876994e32c404a8559c32552f68"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn33_translation-en-sujato.json",
+          "sha256": "66590dd758a553f4082f525243d5c05cd09eeabf32cf93d3447318e47cdcf80e"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn33_comment-vi-project.json",
+          "sha256": "4a75124a26c9362a682948be5555459cace515d725e4cdbfd71bb9f48451947a"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn33_translation-vi-project.json",
+          "sha256": "7f347bb9a8303e30fc8e2f104c1fcff93858a298526bbfc417d1555fe8d15a3f"
+        }
+      ]
+    },
+    {
+      "id": "35452489-f220-4066-a6ec-b3cc53fa62ef",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.1,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Giữ đầy đủ 11 khả năng của người chăn và các pháp tương ứng, kể cả tư cách trưởng lão kỳ cựu/xuất gia lâu/cha và người dẫn Tăng. Sau sửa, chiều tích cực của đàn bò và lớp người truyền kinh đều được nói rõ.",
+        "semantic_fidelity": "Vế dung chứa bất thiện nay có đủ bốn phủ định, không còn cách đọc lẫn với hành động từ bỏ. Sáu căn vẫn tiếp xúc nhưng được rèn phòng hộ; lòng từ giữ đủ thân, lời nói, ý nghĩ ở cả công khai và riêng tư.",
+        "core_coverage": "Mười lăm mục bao phủ đủ 31 ý, chia từng hình ảnh để người đọc theo trọn 11 cặp. Hứng khởi từ nghĩa, từ Pháp, niềm vui gắn Pháp và các bước hỏi/được khai mở đều không bị gom thành một lời khuyên chung.",
+        "logic_context": "Cách đặt hai chiều cạnh nhau được giải thích đầu bài; kết quả không thể/có thể lớn mạnh được giữ đúng điều kiện mười một pháp. Không đổi phép ví về người dẫn đàn thành đặc quyền của mọi người cao tuổi.",
+        "terminology": "Mở nghĩa căn, Pháp và Luật, từ ái, Thánh đạo tám ngành và niệm xứ bằng câu ngắn. Bốn đại và các phạm vi tu tập chỉ có lời mở nghĩa căn bản, nên độc giả mới học vẫn có thể cần đọc thêm bài chuyên đề.",
+        "audience_fit": "Ví dụ nhóm đọc kinh tôn trọng khả năng học tiếp và hỏi về câu đã thuộc; không gắn người lớn tuổi với suy giảm hoặc phụ thuộc. Mỗi mục một hình ảnh giúp nhịp đọc chậm rãi và dễ quay lại đối chiếu.",
+        "clarity": "Các câu về ngừng nuôi bất thiện, tiếp xúc được rèn và nhận có chừng mực đi thẳng vào ý. Chỉnh phủ định ở eggs làm rõ ranh giới hai chiều; 11 mục đánh số giữ mạch tốt dù nhiều thuật ngữ.",
+        "editorial_separation": "Ví dụ nhóm đọc kinh và phần suy xét có nhãn riêng, không chen câu hư cấu vào lời Phật. Phần giải nghĩa chỉ mở nét cần hiểu, không chèn hồ sơ đối chiếu kỹ thuật vào mạch đọc.",
+        "practical_integrity": "Gợi ý hỏi một câu muốn hiểu sâu, xem mức hỗ trợ mình nhận và giữ lòng từ khi người hướng dẫn vắng mặt là vừa sức và có nội dung rõ. Không hứa rằng niềm vui học hỏi tự nó đồng nghĩa với thành tựu giải thoát.",
+        "technical_integrity": "Đã đọc lại toàn begin, eggs và phần bản đồ eggs-fail sau sửa; kiểm đủ các tham chiếu và 118 khóa nguồn. Audit không có lỗi và dấu vân tay bản lớn tuổi khớp bản freeze cuối cùng."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập đủ năm nguồn, 31 đơn vị ý và cả ba bản trước khi gửi bốn yêu cầu sửa; sau đó đọc lại trọn sáu mục thay đổi và đơn vị eggs-fail, lấy lại audit đúng freeze. Các phát hiện đã khép. Chưa có thử đọc với độc giả thật hay xác nhận chuyên gia Pāli.",
+      "contentHash": "fdf7b6c7a4e7be1f9b5dba57360f65a7b50a8f25620b8c99e784215bfc8b22f6",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn33.html",
+          "sha256": "40ffa265428cdd8e26bf93f01a06231622db2fdf4c121cd2e20f72f892c62efd"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn33_root-pli-ms.json",
+          "sha256": "bcf313a74c6438144d65168d8e9f418df0a9f876994e32c404a8559c32552f68"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn33_translation-en-sujato.json",
+          "sha256": "66590dd758a553f4082f525243d5c05cd09eeabf32cf93d3447318e47cdcf80e"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn33_comment-vi-project.json",
+          "sha256": "4a75124a26c9362a682948be5555459cace515d725e4cdbfd71bb9f48451947a"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn33_translation-vi-project.json",
+          "sha256": "7f347bb9a8303e30fc8e2f104c1fcff93858a298526bbfc417d1555fe8d15a3f"
+        }
+      ]
+    }
+  ]
+}
