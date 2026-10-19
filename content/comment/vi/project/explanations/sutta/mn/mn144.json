@@ -1,0 +1,741 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn144",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn144_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "24305edd78e65e8cddda90b7d939f9486756dcd14a9ac3ef65034ae1d5333c0c"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn144_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "1ca61823a75dbf6e154ab92f1596912c80ebe1c5665e63d57e5dafc8192c3faa"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn144_translation-vi-project.json",
+      "commit": "0d8afd630e483d8cfee098cbb2f75a58da5fede8",
+      "sha256": "9bc49f99dfaa4a1052597a3cd0849c32b5eebbf30b0143d807aaf0a2d1402ff7"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn144.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "80a87560d67b59b1c64f85080eeb9969a4c077bb83d326b5e4ac7d07fdc0a73b"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn144_comment-vi-project.json",
+      "commit": "0d8afd630e483d8cfee098cbb2f75a58da5fede8",
+      "sha256": "c3bf1101945ec90db2b1c1aa855be6ea7f077cf14d3981b1174b8922a19354d6"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Tên bài",
+      "segments": [
+        "mn144:0.1",
+        "mn144:0.2"
+      ],
+      "summary": "Nhãn ấn bản: Trung Bộ 144, Channovādasutta, Kinh Giáo Hóa Channa."
+    },
+    {
+      "id": "setting",
+      "title": "Hai nơi ở và ba vị tôn giả",
+      "segments": [
+        "mn144:1.1",
+        "mn144:1.2",
+        "mn144:2.1"
+      ],
+      "summary": "Lời người truyền kinh: Phật ở Trúc Lâm, khu nuôi sóc tại Rājagaha; Sāriputta, Mahācunda, Channa ở núi Gijjhakūṭa."
+    },
+    {
+      "id": "visit",
+      "title": "Đến thăm và hỏi về bệnh",
+      "segments": [
+        "mn144:3.1",
+        "mn144:3.2",
+        "mn144:3.3",
+        "mn144:3.4",
+        "mn144:4.1",
+        "mn144:4.2",
+        "mn144:4.3"
+      ],
+      "summary": "Channa trọng bệnh. Buổi chiều Sāriputta rời chỗ thiền tịnh, rủ Mahācunda thăm bệnh, vị ấy đồng ý; hai vị chào hỏi, ngồi một bên. Sāriputta hỏi chịu được, sống được, đau giảm chứ không tăng và có thấy rõ giảm không."
+    },
+    {
+      "id": "pain",
+      "title": "Bốn nét đau và lời lặp",
+      "segments": [
+        "mn144:5.1",
+        "mn144:5.2",
+        "mn144:5.3",
+        "mn144:5.4",
+        "mn144:5.5",
+        "mn144:5.6",
+        "mn144:5.7",
+        "mn144:5.8",
+        "mn144:5.9"
+      ],
+      "summary": "Channa không chịu nổi, không sống dễ dàng; đau tăng rõ, không giảm. Bốn ví diễn tả luồng gió xuyên đỉnh đầu, đầu bị siết, đau xé bụng, thân nóng dữ dội; sau từng ví lặp tình trạng tăng. Diễn giải giảm chi tiết gây choáng, giữ bốn nét và lời lặp; không coi ví là sự kiện người khác gây hại."
+    },
+    {
+      "id": "intention",
+      "title": "Ý định của Channa",
+      "segments": [
+        "mn144:5.10"
+      ],
+      "summary": "Channa nói không còn muốn sống và định tự kết liễu. Đây là lời Channa, chưa phải nhận định của Phật; không mô tả phương thức trong bản diễn giải."
+    },
+    {
+      "id": "care",
+      "title": "Ngăn lại và hứa chăm sóc",
+      "segments": [
+        "mn144:6.1",
+        "mn144:6.2",
+        "mn144:6.3",
+        "mn144:6.4",
+        "mn144:6.5",
+        "mn144:6.6",
+        "mn144:6.7"
+      ],
+      "summary": "Sāriputta hai lần ngăn Channa tự kết liễu, mong vị ấy sống. Nếu thiếu thức ăn thích hợp sẽ tìm, thiếu thuốc thích hợp sẽ tìm, thiếu người chăm sóc thích hợp thì Sāriputta tự chăm sóc. Pāli ahaṁ ... upaṭṭhahissāmi, không chỉ tìm một người khác như Sujato diễn đạt."
+    },
+    {
+      "id": "declaration",
+      "title": "Channa tự nói về mình",
+      "segments": [
+        "mn144:7.1",
+        "mn144:7.2",
+        "mn144:7.3",
+        "mn144:7.4",
+        "mn144:7.5",
+        "mn144:7.6"
+      ],
+      "summary": "Channa phủ nhận thiếu thức ăn, thuốc hoặc người chăm sóc; nói đã lâu phụng sự Đạo Sư theo cách làm đẹp lòng, không trái lòng, đó là điều thích đáng của đệ tử. Vị ấy xin ghi nhớ lời tự tuyên bố sẽ tự kết liễu mà không đáng trách. Không biến tự tuyên bố thành giấy phép chung."
+    },
+    {
+      "id": "permission",
+      "title": "Xin phép hỏi",
+      "segments": [
+        "mn144:8.1",
+        "mn144:8.2"
+      ],
+      "summary": "Sāriputta muốn hỏi một điểm nếu Channa dành cơ hội trả lời; Channa mời hỏi, nghe rồi sẽ biết."
+    },
+    {
+      "id": "six-question",
+      "title": "Sáu nhóm và ba cách đồng nhất",
+      "segments": [
+        "mn144:9.1",
+        "mn144:9.2",
+        "mn144:9.3",
+        "mn144:9.4",
+        "mn144:9.5",
+        "mn144:9.6"
+      ],
+      "summary": "Hỏi về mắt, tai, mũi, lưỡi, thân, ý; mỗi nhóm gồm căn, thức tương ứng và pháp được thức ấy biết: có xem là của mình, mình là nó, nó là tự ngã của mình không? TMC HTML cuối câu về ý có phủ định lạc chỗ; theo câu hỏi khẳng định của Pāli 9.6."
+    },
+    {
+      "id": "six-answer",
+      "title": "Ba phủ định cho đủ sáu nhóm",
+      "segments": [
+        "mn144:9.7",
+        "mn144:9.8",
+        "mn144:9.9",
+        "mn144:9.10",
+        "mn144:9.11",
+        "mn144:9.12"
+      ],
+      "summary": "Channa đáp không phải của mình, mình không phải nó, nó không phải tự ngã của mình; áp dụng cho từng căn, thức và pháp được thức ấy biết trong sáu nhóm. Các đoạn lược giữ cùng cấu trúc."
+    },
+    {
+      "id": "ground-question",
+      "title": "Hỏi căn cứ đã thấy biết",
+      "segments": [
+        "mn144:10.1",
+        "mn144:10.2",
+        "mn144:10.3",
+        "mn144:10.4",
+        "mn144:10.5",
+        "mn144:10.6"
+      ],
+      "summary": "Với đủ sáu nhóm căn, thức, pháp tương ứng, Sāriputta hỏi đã thấy gì, trực tiếp biết gì mà thấy ba phủ định ấy; không chỉ kiểm thuộc công thức."
+    },
+    {
+      "id": "cessation",
+      "title": "Thấy và trực tiếp biết sự diệt",
+      "segments": [
+        "mn144:10.7",
+        "mn144:10.8",
+        "mn144:10.9",
+        "mn144:10.10",
+        "mn144:10.11",
+        "mn144:10.12"
+      ],
+      "summary": "Channa nêu căn cứ: đã thấy, trực tiếp biết sự diệt nơi từng căn, thức và pháp tương ứng từ mắt đến ý nên không xem là của mình, là mình, tự ngã mình. Sujato để trống 10.8–12; đọc từ Pāli và Việt, không nhận có sáu câu Anh độc lập."
+    },
+    {
+      "id": "reminder",
+      "title": "Mahācunda dẫn lời Phật",
+      "segments": [
+        "mn144:11.1",
+        "mn144:11.2"
+      ],
+      "summary": "Mahācunda khuyên Channa thường xuyên chú tâm lời giáo huấn này của Phật; người đang nói là Mahācunda."
+    },
+    {
+      "id": "chain",
+      "title": "Chuỗi nương bám đến chấm dứt khổ",
+      "segments": [
+        "mn144:11.3",
+        "mn144:11.4",
+        "mn144:11.5",
+        "mn144:11.6",
+        "mn144:11.7",
+        "mn144:11.8",
+        "mn144:11.9"
+      ],
+      "summary": "Có nương bám thì lay động; không nương bám không lay động. Không lay động thì lắng tịnh; có lắng tịnh không khuynh hướng; không khuynh hướng không đến đi; không đến đi không chết đi sinh lại; không chết đi sinh lại không ở đây, kia hay giữa hai bên: hết khổ. Nương bám thuộc mạch chấp thủ, không phải lời cấm nhận hỗ trợ."
+    },
+    {
+      "id": "departure",
+      "title": "Hai vị rời đi",
+      "segments": [
+        "mn144:11.10"
+      ],
+      "summary": "Sau khi giáo giới Channa như vậy, Sāriputta và Mahācunda đứng dậy ra đi; không thêm lý do ra đi hoặc diễn biến tâm Channa."
+    },
+    {
+      "id": "death",
+      "title": "Cái chết được người kể thuật",
+      "segments": [
+        "mn144:12.1"
+      ],
+      "summary": "Không lâu sau khi hai vị rời đi, Channa tự kết liễu đời mình. Chỉ thuật sự kiện, không chi tiết phương thức, không lý tưởng hóa."
+    },
+    {
+      "id": "report",
+      "title": "Hỏi Phật về đời sau",
+      "segments": [
+        "mn144:13.1",
+        "mn144:13.2",
+        "mn144:13.3",
+        "mn144:13.4"
+      ],
+      "summary": "Sāriputta đến lễ Phật, ngồi một bên, báo sự việc và hỏi chỗ đi đến, đời sau Channa. Phật nhắc Channa đã trực tiếp tuyên bố không đáng trách trước Sāriputta."
+    },
+    {
+      "id": "families",
+      "title": "Những gia đình ở Pubbajira",
+      "segments": [
+        "mn144:13.5",
+        "mn144:13.6",
+        "mn144:13.7",
+        "mn144:13.8"
+      ],
+      "summary": "Sāriputta nêu làng Pubbajira của Vajji, các gia đình bạn bè, thân hữu, thường lui tới của Channa. Phật nhận có các gia đình ấy nhưng chừng đó không đủ để Ngài gọi là đáng trách; không suy ra giao tiếp cư sĩ là lỗi. upavajjakulāni có cách dịch hospitable/đáng thăm, dùng thường lui tới theo ngữ cảnh."
+    },
+    {
+      "id": "bounded-conclusion",
+      "title": "Tiêu chuẩn trong lời kết",
+      "segments": [
+        "mn144:13.9",
+        "mn144:13.10",
+        "mn144:13.11"
+      ],
+      "summary": "Phật gọi người bỏ thân này rồi chấp thủ thân khác là đáng trách; điều ấy không có nơi Channa; bảo Sāriputta ghi nhớ Channa đã tự kết liễu mà không đáng trách. Giữ đủ kết luận và phạm vi cụ thể về không thọ thân khác, không tổng quát thành lời khuyên tự hại hoặc tự đoán quả vị/thời điểm chứng đắc."
+    },
+    {
+      "id": "ending",
+      "title": "Lời tán đồng và nhãn cuối",
+      "segments": [
+        "mn144:13.12",
+        "mn144:13.13",
+        "mn144:13.14"
+      ],
+      "summary": "Người kể xác nhận Phật nói vậy; Sāriputta vui mừng tán đồng; nhãn kết bài Channovāda, bài thứ hai trong nhóm, không phải lời Phật."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Diễn giải dành cho trẻ em",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "entry",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: hỏi rồi lắng nghe",
+          "meaningUnits": [
+            "care",
+            "visit"
+          ],
+          "paragraphs": [
+            "Một bạn nghỉ học vì đang mệt. Em hỏi bạn đỡ chưa. Nếu bạn nói vẫn rất khó chịu, em có thể nghe lời bạn kể, thay vì đoán rằng bạn chỉ làm quá. Đây là ví dụ của người biên soạn về sự quan tâm. Bài kinh sau kể một chuyện nghiêm trọng hơn nhiều; em có thể đọc cùng người lớn."
+          ]
+        },
+        {
+          "id": "visiting",
+          "kind": "teaching",
+          "heading": "Hai người bạn tu đến thăm",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "visit"
+          ],
+          "paragraphs": [
+            "Kinh Giáo Hóa Channa là bài 144 của Trung Bộ. Người truyền kinh kể điều mình đã nghe. Khi ấy, Phật ở rừng tre Trúc Lâm, khu nuôi sóc, tại Rājagaha. Ba vị tu sĩ Sāriputta, Mahācunda và Channa ở núi Gijjhakūṭa.",
+            "Channa bị bệnh rất nặng. Chiều ấy, sau giờ ở riêng tu tập, Sāriputta rủ Mahācunda cùng đến thăm. Mahācunda đồng ý. Hai vị chào hỏi Channa rồi ngồi xuống một bên. Sāriputta hỏi ông có chịu được không, có đủ sức sống tiếp không, cơn đau có giảm rõ hay vẫn tăng."
+          ]
+        },
+        {
+          "id": "hard-day",
+          "kind": "teaching",
+          "heading": "Channa nói thật về cơn đau",
+          "meaningUnits": [
+            "pain",
+            "intention"
+          ],
+          "paragraphs": [
+            "Channa trả lời rằng ông không chịu nổi. Cơn đau đang tăng rõ, không giảm. Ông kể bốn cảm giác: đau dữ dội ở đỉnh đầu, đầu như bị siết chặt, đau dữ dội trong bụng và nóng rát khắp thân. Sau mỗi hình ảnh, ông lại nói cơn đau tăng lên. Những hình ảnh ấy giúp người nghe hiểu ông đang đau đến mức nào.",
+            "Channa còn nói ông không muốn sống nữa và định tự làm mình chết. Đó là ý định ông nói với bạn tu. Phần kể này đã giảm các chi tiết dữ dội của bản kinh."
+          ]
+        },
+        {
+          "id": "help",
+          "kind": "teaching",
+          "heading": "Sāriputta muốn Channa sống",
+          "meaningUnits": [
+            "care",
+            "declaration"
+          ],
+          "paragraphs": [
+            "Sāriputta ngăn ông lại, nói mình và các bạn tu đều muốn ông sống. Nếu thiếu món ăn phù hợp, Sāriputta sẽ tìm. Nếu thiếu thuốc phù hợp, ông cũng sẽ tìm. Nếu thiếu người chăm sóc tốt, chính Sāriputta sẽ chăm sóc. Ông nhắc lại lời ngăn cản và mong Channa sống.",
+            "Channa đáp rằng mình có đủ cả thức ăn, thuốc và người chăm sóc. Ông nói đã lâu mình phụng sự Phật, bậc Thầy của mình, theo cách làm Ngài hài lòng chứ không trái lòng. Ông cho rằng người học trò nên phụng sự thầy như vậy. Rồi Channa tự nói rằng khi mình làm điều đã định thì sẽ không đáng trách. Đây vẫn là lời Channa nói về mình; ta cần đọc tiếp cuộc hỏi đáp và lời kết."
+          ]
+        },
+        {
+          "id": "six-doors",
+          "kind": "teaching",
+          "heading": "Mắt, tai và điều được biết",
+          "meaningUnits": [
+            "permission",
+            "six-question",
+            "six-answer"
+          ],
+          "paragraphs": [
+            "Sāriputta xin phép hỏi một điều, nếu Channa có thể trả lời. Channa mời ông hỏi và nói nghe rồi mình sẽ biết. Sāriputta nhắc sáu nhóm: mắt, tai, mũi, lưỡi, thân và ý. Ý là tâm. Mỗi nhóm có ba phần: nơi nhận biết, sự nhận biết tương ứng và điều được nhận biết. Chẳng hạn có mắt, sự thấy của mắt và những gì sự thấy ấy biết.",
+            "Câu hỏi cho từng nhóm là: ông có xem chúng là của mình, xem mình chính là chúng, xem chúng là cái tôi của mình không? Channa nói không. Với mắt, tai, mũi, lưỡi, thân, ý, cùng sự biết và những điều được biết tương ứng, ông thấy: không phải của mình; mình không phải chúng; chúng không phải cái tôi của mình."
+          ]
+        },
+        {
+          "id": "seen",
+          "kind": "teaching",
+          "heading": "Vì sao Channa trả lời như thế?",
+          "meaningUnits": [
+            "ground-question",
+            "cessation"
+          ],
+          "paragraphs": [
+            "Sāriputta hỏi thêm. Channa đã thấy điều gì, trực tiếp biết điều gì để trả lời như vậy? Câu hỏi đi đủ từ mắt đến ý, gồm cả sự biết và đối tượng được biết của mỗi nhóm.",
+            "Channa nói mình đã thấy và trực tiếp biết sự diệt, nghĩa là sự chấm dứt, nơi những điều ấy. Vì vậy, với cả sáu nhóm, ông không nhận chúng là của mình, là chính mình hay là cái tôi của mình. Đây là lời ông kể về điều đã thấy biết, không chỉ là nhắc lại một câu để nhớ."
+          ]
+        },
+        {
+          "id": "reminder",
+          "kind": "teaching",
+          "heading": "Lời nhắc của Mahācunda",
+          "meaningUnits": [
+            "reminder",
+            "chain",
+            "departure"
+          ],
+          "paragraphs": [
+            "Mahācunda nhắc Channa thường xuyên chú ý đến một lời dạy của Phật. Ai còn nương bám thì còn lay động. Ai không nương bám thì không lay động. Khi không lay động thì có sự lắng yên. Khi có lắng yên thì không còn nghiêng tới để nắm giữ.",
+            "Không còn khuynh hướng ấy thì không có đến và đi. Không có đến và đi thì không chết đi rồi sinh lại. Không chết đi sinh lại thì không còn đời này, đời kia hay khoảng giữa hai đời. Lời dạy gọi đó là chấm dứt khổ. Sau lời nhắc ấy, hai vị đứng dậy ra về."
+          ]
+        },
+        {
+          "id": "loss",
+          "kind": "teaching",
+          "heading": "Chuyện xảy ra sau buổi thăm",
+          "meaningUnits": [
+            "death",
+            "report",
+            "families"
+          ],
+          "paragraphs": [
+            "Không lâu sau khi hai vị đi, Channa đã tự làm mình chết. Kinh kể sự việc này mà không nói thêm ông đã nghĩ gì trong khoảng thời gian ấy.",
+            "Sāriputta đến lễ Phật, ngồi một bên và báo tin. Ông hỏi Channa sẽ đi về đâu, đời sau thế nào. Phật nhắc rằng Channa đã nói trực tiếp trước ông về việc mình không đáng trách.",
+            "Sāriputta nhắc làng Pubbajira của người Vajji. Ở đó, Channa có những gia đình bạn bè, thân thiết và thường tới thăm. Phật xác nhận điều ấy, nhưng nói chỉ có những mối quan hệ đó thì chưa đủ để Ngài gọi là đáng trách."
+          ]
+        },
+        {
+          "id": "conclusion",
+          "kind": "teaching",
+          "heading": "Lời Phật nói riêng về Channa",
+          "meaningUnits": [
+            "bounded-conclusion",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật giải thích ý Ngài đang dùng: người bỏ thân này rồi chấp giữ một thân khác thì Ngài gọi là đáng trách. Điều ấy không có nơi Channa. Ngài bảo Sāriputta ghi nhớ rằng Channa đã tự kết liễu mà không đáng trách. Lời kết nói về Channa và việc không còn chấp giữ một thân khác sau khi chết.",
+            "Sāriputta vui mừng, tán đồng lời Phật. Cuối bản kinh có dòng ghi bài Giáo Hóa Channa đã hết, là bài thứ hai trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "careful",
+          "kind": "clarification",
+          "heading": "Đọc lời kết cho đúng",
+          "meaningUnits": [
+            "care",
+            "chain",
+            "bounded-conclusion"
+          ],
+          "paragraphs": [
+            "Lời kết ấy không bảo em làm hại bản thân, cũng không bảo một người đang đau phải từ chối chăm sóc. Ngay trong bài, Sāriputta đã mong Channa sống và muốn tìm đồ ăn, thuốc, tự chăm sóc ông. Nương bám trong lời Mahācunda là sự bám chặt của tâm, không phải nhận sự giúp đỡ.",
+            "Nếu chính em hoặc một người bạn nói không muốn sống, việc cần làm là nói ngay với người lớn đáng tin để được giúp giữ an toàn. Đây là gợi ý chăm sóc của người biên soạn, không phải cách bắt chước chuyện Channa."
+          ]
+        },
+        {
+          "id": "question",
+          "kind": "practice",
+          "heading": "Câu hỏi để đọc lại",
+          "meaningUnits": [
+            "care",
+            "six-question"
+          ],
+          "paragraphs": [
+            "Em có thể tìm lại ba điều Sāriputta hứa giúp. Sau đó, cùng người lớn đọc lại sáu nhóm mắt, tai, mũi, lưỡi, thân, ý. Trong mỗi nhóm, đâu là nơi nhận biết, đâu là sự biết và đâu là điều được biết? Nếu còn khó hiểu, cứ nói rõ mình chưa hiểu."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Diễn giải dành cho người trưởng thành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một cuộc thăm bệnh và giới hạn của lời phán xét",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "visit"
+          ],
+          "paragraphs": [
+            "Kinh Giáo Hóa Channa, Trung Bộ 144, mở bằng lời người truyền kinh thuật điều đã nghe. Phật đang ở Trúc Lâm, khu nuôi sóc tại Rājagaha. Sāriputta, Mahācunda và Channa trú trên núi Gijjhakūṭa; Channa mắc trọng bệnh.",
+            "Vào buổi chiều, rời chỗ thiền tịnh, Sāriputta rủ Mahācunda đi thăm người bệnh. Mahācunda nhận lời. Sau cuộc chào hỏi thân hữu, hai vị ngồi một bên. Sāriputta hỏi Channa có chịu đựng được, có duy trì được sự sống, có thấy đau giảm rõ chứ không tăng không. Câu trả lời của người bệnh dẫn toàn bộ cuộc đối thoại."
+          ]
+        },
+        {
+          "id": "pain",
+          "kind": "teaching",
+          "heading": "Nỗi đau được kể bằng bốn hình ảnh",
+          "meaningUnits": [
+            "pain",
+            "intention"
+          ],
+          "paragraphs": [
+            "Channa nói mình không kham nổi, không đủ sức; đau tăng rõ rệt chứ không giảm. Bốn hình ảnh diễn tả lần lượt những luồng đau xuyên đỉnh đầu, đầu bị siết, đau xé trong bụng và thân nóng rát. Sau mỗi hình ảnh, ông trở lại cùng lời xác nhận bệnh đang nặng hơn. Đây là các so sánh về cảm giác, không phải lời kể ông đang bị những người trong ví dụ hành hạ.",
+            "Ông nói không còn muốn sống và định tự kết liễu. Phần diễn giải ghi nhận ý định cùng mức nghiêm trọng của nỗi đau, giảm chi tiết dữ dội của các ví và không trình bày phương thức tự hại."
+          ]
+        },
+        {
+          "id": "practical-care",
+          "kind": "teaching",
+          "heading": "Sự chăm sóc được nói bằng việc cụ thể",
+          "meaningUnits": [
+            "care",
+            "declaration"
+          ],
+          "paragraphs": [
+            "Sāriputta cản ngăn và khẳng định các bạn tu muốn Channa sống. Ba lời hứa đều có điều kiện rõ: thiếu thức ăn thích hợp thì ông tìm thức ăn; thiếu thuốc thích hợp thì ông tìm thuốc; thiếu người chăm sóc thích hợp thì chính ông chăm sóc. Ông lặp lại lời ngăn cản cùng mong muốn Channa tiếp tục sống.",
+            "Channa phủ nhận cả ba sự thiếu thốn. Ông nói từ lâu đã phụng sự Đạo Sư theo cách làm Ngài hài lòng, không trái lòng, và xem đó là cách thích đáng của một đệ tử. Ông còn yêu cầu Sāriputta ghi nhớ lời mình tuyên bố: việc tự kết liễu sắp tới sẽ không đáng trách. Đến đây, chủ thể của tuyên bố vẫn là Channa; không được gán câu ấy thành sự chấp thuận trước của Phật."
+          ]
+        },
+        {
+          "id": "questioning",
+          "kind": "teaching",
+          "heading": "Ba cách nhận làm mình được chất vấn",
+          "meaningUnits": [
+            "permission",
+            "six-question",
+            "six-answer"
+          ],
+          "paragraphs": [
+            "Sāriputta xin phép hỏi một điểm nếu Channa dành cơ hội giải đáp. Channa mời hỏi và nói nghe rồi mình sẽ biết. Sāriputta xét đủ sáu nhóm: mắt, tai, mũi, lưỡi, thân và ý. Mỗi nhóm gồm căn, thức tương ứng và các pháp được thức ấy nhận biết. Vì thế câu hỏi không chỉ nhắm cơ quan cảm giác, mà còn sự nhận biết và đối tượng của nó.",
+            "Channa có xem mỗi nhóm là của mình, xem mình là nó, xem nó là tự ngã của mình không? Channa phủ định cả ba: không phải của mình; mình không phải nó; nó không phải tự ngã của mình. Câu trả lời áp dụng đầy đủ từ mắt, thức mắt, điều được thức mắt biết, cho đến ý, thức ý, điều được thức ý biết, gồm cả tai, mũi, lưỡi và thân ở giữa."
+          ]
+        },
+        {
+          "id": "ground",
+          "kind": "teaching",
+          "heading": "Căn cứ nằm ở sự diệt đã thấy biết",
+          "meaningUnits": [
+            "ground-question",
+            "cessation"
+          ],
+          "paragraphs": [
+            "Sāriputta không dừng ở một công thức đúng. Ông hỏi Channa đã thấy gì, trực tiếp biết gì nơi từng căn, thức và đối tượng để có thể nhìn chúng bằng ba phủ định đó.",
+            "Channa nêu sự diệt: đã thấy và trực tiếp biết sự chấm dứt nơi mắt, thức mắt, các pháp do thức mắt biết; tương tự với tai, mũi, lưỡi, thân và ý, cùng thức và pháp tương ứng. Trên căn cứ ấy, ông không xem chúng là của mình, chính mình hay tự ngã của mình. Bài kinh ghi lời xác nhận của Channa; nó không cho phép người đọc suy đoán thêm thời điểm chứng đắc của ông."
+          ]
+        },
+        {
+          "id": "conditions",
+          "kind": "teaching",
+          "heading": "Mahācunda nhắc chuỗi điều kiện",
+          "meaningUnits": [
+            "reminder",
+            "chain",
+            "departure"
+          ],
+          "paragraphs": [
+            "Mahācunda nhắc Channa thường xuyên tác ý, hướng tâm xem xét, lời giáo huấn này của Phật: nương bám thì có lay động; không nương bám thì không lay động. Không lay động thì có lắng tịnh. Có lắng tịnh thì không có khuynh hướng nghiêng tới. Không có khuynh hướng thì không có đến và đi.",
+            "Không có đến và đi thì không có chết đi sinh lại. Khi không chết đi sinh lại, không có ở đây, ở kia hay giữa hai bên; đó là chấm dứt khổ. Chuỗi này đi đến sự chấm dứt tái sinh, nên không thể thu hẹp thành cách bình tĩnh trước một cơn đau. Sau lời giáo giới, Sāriputta và Mahācunda đứng dậy ra đi."
+          ]
+        },
+        {
+          "id": "afterward",
+          "kind": "teaching",
+          "heading": "Sāriputta trình sự việc với Phật",
+          "meaningUnits": [
+            "death",
+            "report",
+            "families"
+          ],
+          "paragraphs": [
+            "Không lâu sau khi hai vị rời đi, Channa tự kết liễu đời mình. Sāriputta đến lễ Phật, ngồi một bên, báo tin rồi hỏi chỗ đi đến và đời sau của Channa. Phật nhắc rằng Channa đã trực tiếp tuyên bố sự không đáng trách trước mặt Sāriputta.",
+            "Sāriputta nêu làng Pubbajira thuộc Vajji, nơi Channa có các gia đình bạn bè, thân hữu và thường lui tới. Phật xác nhận những mối quan hệ đó, nhưng nói chừng ấy không đủ để Ngài gọi một người là đáng trách. Vì vậy, việc có những gia đình thân thiết không tự chứng minh chấp thủ mà lời kết đang xét."
+          ]
+        },
+        {
+          "id": "judgment",
+          "kind": "teaching",
+          "heading": "Lời kết gắn với việc không chấp thủ thân khác",
+          "meaningUnits": [
+            "bounded-conclusion",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật nêu rõ tiêu chuẩn trong câu trả lời này: người buông thân này rồi chấp thủ một thân khác thì Ngài gọi là đáng trách. Điều ấy không có nơi Channa. Ngài bảo Sāriputta ghi nhớ rằng Channa đã tự kết liễu mà không đáng trách. Lời xác nhận ấy phải được giữ nguyên cùng phạm vi vừa nêu, thay vì tách riêng để xây một quy tắc chung về cái chết.",
+            "Người kể xác nhận Phật nói như vậy; Sāriputta hoan hỷ và tán đồng. Dòng cuối xác định Kinh Giáo Hóa Channa đã kết thúc, là bài thứ hai trong nhóm."
+          ]
+        },
+        {
+          "id": "bounds",
+          "kind": "clarification",
+          "heading": "Hai giới hạn cần giữ khi vận dụng",
+          "meaningUnits": [
+            "care",
+            "chain",
+            "bounded-conclusion"
+          ],
+          "paragraphs": [
+            "Không nương bám trong chuỗi giáo huấn là sự hết chấp giữ, không đồng nghĩa với tự cô lập hoặc từ chối chữa trị. Chính phần đầu bảo toàn sự quan tâm đến thức ăn, thuốc và người chăm sóc. Lời kết riêng về Channa cũng không phải hướng dẫn tự hại hay căn cứ để tự xác nhận mình đã đạt trạng thái của ông.",
+            "Tình trạng đau đớn của một người cần được lắng nghe mà không dùng một suy đoán về nghiệp, chấp thủ hay thành tựu tu tập để phán xét họ. Đó là giới hạn biên tập khi liên hệ câu chuyện với đời sống hôm nay."
+          ]
+        },
+        {
+          "id": "modern",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: một lời đề nghị có nội dung",
+          "meaningUnits": [
+            "care",
+            "visit"
+          ],
+          "paragraphs": [
+            "Khi thăm một người đang điều trị, ta có thể hỏi họ đang thiếu điều gì, rồi nhận một phần việc cụ thể như mang bữa ăn phù hợp với hướng dẫn họ đang theo hoặc thay người nhà một buổi. Ví dụ hiện đại này minh họa cách Sāriputta nối lời quan tâm với việc chăm sóc. Nó không mô phỏng quyết định của Channa và không đưa ra kết luận về bệnh hay quả vị của người được thăm."
+          ]
+        },
+        {
+          "id": "reread",
+          "kind": "practice",
+          "heading": "Đọc lại trước khi kết luận",
+          "meaningUnits": [
+            "six-question",
+            "ground-question",
+            "bounded-conclusion"
+          ],
+          "paragraphs": [
+            "Khi đọc lại, thử ghi ba cột: ai nói, điều người ấy khẳng định, căn cứ hoặc điều kiện đi kèm. Kiểm riêng lời tự tuyên bố của Channa, câu hỏi kiểm chứng của Sāriputta và tiêu chuẩn trong lời kết của Phật. Đây là gợi ý đọc kinh, giúp tránh biến một câu tách khỏi ngữ cảnh thành lời khuyên cho mọi người."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Diễn giải dành cho người lớn tuổi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "entry",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: để người được thăm tự kể",
+          "meaningUnits": [
+            "visit",
+            "care"
+          ],
+          "paragraphs": [
+            "Đến thăm một người quen, chúng ta thường muốn nói một lời cho họ vững lòng. Đôi khi điều cần trước tiên là hỏi rồi để họ kể hết: hôm nay điều gì dễ hơn, điều gì vẫn khó, họ muốn được giúp việc nào. Đây là tình huống do người biên soạn đặt ra để bước vào một cuộc thăm bệnh trong kinh."
+          ]
+        },
+        {
+          "id": "where",
+          "kind": "teaching",
+          "heading": "Cuộc thăm trên núi Gijjhakūṭa",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "visit"
+          ],
+          "paragraphs": [
+            "Bài 144 của Trung Bộ mang tên Kinh Giáo Hóa Channa. Người truyền kinh mở đầu bằng điều đã nghe: Phật trú tại Trúc Lâm, khu nuôi sóc ở Rājagaha; Sāriputta, Mahācunda và Channa ở núi Gijjhakūṭa.",
+            "Channa lâm trọng bệnh. Chiều ấy, rời chỗ thiền tịnh, Sāriputta đến rủ Mahācunda đi hỏi thăm, và được đồng ý. Hai vị chào hỏi thân hữu rồi ngồi một bên. Sāriputta hỏi Channa còn chịu đựng được, còn đủ sức duy trì sự sống không; đau có giảm chứ không tăng, và sự giảm có rõ không."
+          ]
+        },
+        {
+          "id": "answer",
+          "kind": "teaching",
+          "heading": "Lắng nghe câu trả lời khó nghe",
+          "meaningUnits": [
+            "pain",
+            "intention"
+          ],
+          "paragraphs": [
+            "Channa trả lời rằng mình không chịu nổi. Đau đớn tăng rõ ràng chứ không thuyên giảm. Ông mô tả bốn nét: đau xuyên nơi đỉnh đầu, đau như đầu bị siết chặt, đau xé trong bụng, nóng rát dữ dội khắp thân. Giữa các hình ảnh ấy, ông nhắc lại cùng một tình trạng: không chịu nổi, đau tăng.",
+            "Ông nói không còn muốn sống và định tự kết liễu đời mình. Ở đây, chúng ta ghi nhận lời ông nói cùng mức độ nghiêm trọng của cơn đau; các chi tiết gây choáng và phương thức tự hại không được thuật lại trong phần diễn giải."
+          ]
+        },
+        {
+          "id": "support",
+          "kind": "teaching",
+          "heading": "Lời chăm sóc và lời tự tuyên bố",
+          "meaningUnits": [
+            "care",
+            "declaration"
+          ],
+          "paragraphs": [
+            "Sāriputta ngăn Channa lại, khẩn thiết mong ông sống và cho biết các bạn tu đều muốn như vậy. Nếu Channa thiếu thức ăn thích hợp, Sāriputta sẽ tìm. Nếu thiếu thuốc thích hợp, ông sẽ tìm thuốc. Nếu thiếu người chăm sóc thích hợp, chính ông sẽ chăm sóc. Ông nhắc lại mong muốn ấy lần nữa.",
+            "Channa nói cả ba thứ đều không thiếu. Ông đã lâu phụng sự Đạo Sư, tức Phật, theo cách làm Ngài hài lòng chứ không trái lòng. Theo ông, đó là điều thích đáng của một đệ tử. Ông còn đề nghị ghi nhớ lời mình nói rằng việc tự kết liễu sắp tới sẽ không đáng trách. Cần nhận đúng người nói: đây là Channa tự tuyên bố về mình."
+          ]
+        },
+        {
+          "id": "six",
+          "kind": "teaching",
+          "heading": "Nhìn đủ sáu phạm vi nhận biết",
+          "meaningUnits": [
+            "permission",
+            "six-question",
+            "six-answer"
+          ],
+          "paragraphs": [
+            "Sāriputta xin được hỏi một điều nếu Channa có thể dành cơ hội trả lời. Channa mời ông hỏi, nói rằng nghe rồi mình sẽ biết. Cuộc hỏi đáp đi qua mắt, tai, mũi, lưỡi, thân, ý. Trong mỗi phạm vi có căn, có thức là sự nhận biết tương ứng, và có những pháp được thức ấy biết.",
+            "Sāriputta hỏi Channa có xem những điều ấy là của mình, xem mình chính là chúng, xem chúng là tự ngã của mình không. Channa trả lời theo ba phủ định: không phải của mình; mình không phải chúng; chúng không phải tự ngã của mình. Điều ấy áp dụng cho cả sáu căn, sáu loại nhận biết và các đối tượng tương ứng, không chỉ riêng thân đang bệnh."
+          ]
+        },
+        {
+          "id": "knowing",
+          "kind": "teaching",
+          "heading": "Từ lời đáp trở về căn cứ",
+          "meaningUnits": [
+            "ground-question",
+            "cessation"
+          ],
+          "paragraphs": [
+            "Sāriputta hỏi tiếp: đã thấy gì, trực tiếp biết gì mà ông có cái nhìn ấy? Câu hỏi lại đi đủ sáu phạm vi từ mắt đến ý, mỗi phạm vi gồm căn, thức và điều được thức biết.",
+            "Channa trả lời rằng đã thấy sự diệt, trực tiếp biết sự diệt trong các phạm vi ấy. Sự diệt là sự chấm dứt. Vì căn cứ đó, ông không nhận chúng là của mình, là mình hoặc tự ngã của mình. Kinh ghi điều ông xác nhận đã thấy biết; bản diễn giải không bổ sung một câu chuyện về lúc ông chứng đắc."
+          ]
+        },
+        {
+          "id": "stilling",
+          "kind": "teaching",
+          "heading": "Chuỗi lời nhắc của Mahācunda",
+          "meaningUnits": [
+            "reminder",
+            "chain"
+          ],
+          "paragraphs": [
+            "Đến đây Mahācunda nhắc Channa thường xuyên chú tâm lời Phật dạy. Còn nương bám thì còn lay động; không nương bám thì không lay động. Không lay động thì lắng tịnh. Khi có lắng tịnh, không có khuynh hướng nghiêng tới. Không có khuynh hướng thì không có đến và đi.",
+            "Không đến và đi thì không chết đi sinh lại. Không chết đi sinh lại thì không còn đời này, đời kia hay khoảng giữa hai đời. Đó là sự chấm dứt khổ được lời dạy nói đến. Mạch này bàn tới giải thoát và tái sinh, rộng hơn một khoảng tâm dễ chịu trong đời thường."
+          ]
+        },
+        {
+          "id": "news",
+          "kind": "teaching",
+          "heading": "Sau khi hai vị ra về",
+          "meaningUnits": [
+            "departure",
+            "death",
+            "report"
+          ],
+          "paragraphs": [
+            "Sau khi giáo giới như vậy, Sāriputta và Mahācunda đứng dậy ra đi. Không lâu sau, Channa tự kết liễu đời mình. Người kể không cho biết thêm diễn biến tâm của ông giữa hai sự việc.",
+            "Sāriputta đến lễ Phật, ngồi một bên, báo sự việc rồi hỏi về nơi Channa đi đến và đời sau. Phật nhắc rằng Channa đã trực tiếp tuyên bố trước mặt Sāriputta về việc mình không đáng trách."
+          ]
+        },
+        {
+          "id": "friends",
+          "kind": "teaching",
+          "heading": "Có thân hữu không tự thành lỗi",
+          "meaningUnits": [
+            "families"
+          ],
+          "paragraphs": [
+            "Sāriputta nêu làng Pubbajira của người Vajji. Channa có những gia đình bạn bè, thân thiết và thường lui tới ở đó. Phật xác nhận những gia đình ấy có quan hệ như vậy với Channa.",
+            "Nhưng chỉ chừng ấy, Ngài không gọi là đáng trách. Chi tiết này cần được giữ: quan hệ thân hữu không tự nó đủ để chứng minh điều mà lời kết của Ngài đang xét."
+          ]
+        },
+        {
+          "id": "last-word",
+          "kind": "teaching",
+          "heading": "Phạm vi của lời xác nhận",
+          "meaningUnits": [
+            "bounded-conclusion",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật giải thích: người bỏ thân này rồi chấp thủ một thân khác thì Ngài gọi là đáng trách. Điều ấy không có nơi Channa. Vì vậy, Ngài bảo Sāriputta ghi nhớ rằng Channa đã tự kết liễu mà không đáng trách. Đây là lời xác nhận về trường hợp Channa trong quan hệ với việc không còn nắm giữ một thân khác.",
+            "Sāriputta hoan hỷ, tán đồng lời Phật. Nhãn cuối bản cho biết Kinh Giáo Hóa Channa đã hết, là bài thứ hai của nhóm này."
+          ]
+        },
+        {
+          "id": "limits",
+          "kind": "clarification",
+          "heading": "Giữ sự chăm sóc trong cách đọc",
+          "meaningUnits": [
+            "care",
+            "chain",
+            "bounded-conclusion"
+          ],
+          "paragraphs": [
+            "Không nương bám không có nghĩa phải sống không cần ai. Ngay trong cuộc thăm, thức ăn, thuốc và người chăm sóc đều được xem xét nghiêm túc. Buông chấp và nhận sự hỗ trợ không bị bài kinh đặt thành hai lựa chọn loại trừ nhau.",
+            "Lời kết về Channa cũng không phải chỉ dẫn để một người đang đau noi theo việc tự hại, hoặc tự suy đoán mình đã có cùng thành tựu. Khi liên hệ hôm nay, ta có thể học sự lắng nghe và quan tâm cụ thể, đồng thời giữ riêng câu hỏi sâu của kinh về chấp thủ, sự diệt và tái sinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một việc nhỏ còn trong tầm tay",
+          "meaningUnits": [
+            "visit",
+            "care"
+          ],
+          "paragraphs": [
+            "Nếu đang muốn thăm một người quen, có thể hỏi họ thích được gặp lúc nào và có việc cụ thể nào cần giúp. Hãy nghe câu trả lời của chính người ấy. Gợi ý này thuộc phần vận dụng của người biên soạn; nó không đòi chúng ta phán đoán mức tu tập hay ý nghĩa cái chết của bất cứ ai."
+          ]
+        }
+      ]
+    }
+  }
+}

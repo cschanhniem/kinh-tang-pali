@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn148",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "5c9932b8-640b-47f0-95da-6f28a9a1fb77"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "f0f49f7c-d7e1-4ab1-a092-e5f492d48b81"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "60d58440-9de0-4127-a1f2-5de0f7da9fc1"
+    }
+  },
+  "reviews": [
+    {
+      "id": "5c9932b8-640b-47f0-95da-6f28a9a1fb77",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.3,
+        "audience_fit": 9.2,
+        "clarity": 9.2,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đã truy các nhóm 4–9, vô ngã 10–15, hai nhánh tùy miên 28–39 và kết 41 về Pāli cùng nguồn tham khảo thực. Năm dependency đúng hash/pin; các câu Anh trống được đọc từ Pāli, không điền phỏng đoán. Khác biệt về hữu thân và con số được xử lý theo nguồn, chưa có thẩm định ngoài nhóm tác tử.",
+        "semantic_fidelity": "Sáu nhóm thọ theo cửa khác ba sắc thái thọ; đã sửa trung tính thành không khó chịu cũng không dễ chịu để tránh nghĩa không biết cảm giác gì. Giữ sinh/diệt→nhận ngã không hợp lý, đủ ba tùy miên và khả năng tận khổ có điều kiện. Bản trẻ giản lược từ chuyên môn nhưng không giản lược đích giải thoát.",
+        "core_coverage": "20 ý bao phủ đủ 227 khóa; từ phần tốt đầu/giữa/cuối đến đủ sáu nhóm, hai lối hữu thân, ba thọ/năm mặt thọ trung tính, hai nhánh không thể/có thể, ly tham và khoảng sáu mươi vị. Lặp được gộp có nêu đủ sáu cửa; các câu nhắc tên nhóm không cần sao lại từng chữ.",
+        "logic_context": "Three-traps giữ các điều chưa đoạn và chưa sinh minh trước kết luận không thể; another-way giữ điều kiện đã đoạn, đã sinh minh trước có thể. Đã làm rõ ba chữ không ở mừng đón/tán thưởng/bám. Không dùng biểu hiện khóc riêng lẻ để suy thành sân hay dùng giả vờ bình thản làm quả chứng.",
+        "terminology": "Nội/ngoại xứ, thức, xúc, thọ, ái, tùy miên được giải lần lượt; ngoại xứ không bị hiểu là chỉ ở ngoài cơ thể. Hữu thân được neo vào cách nhận mình/của mình, không thành hủy thân. Đây vẫn là nhiều từ khó cho trẻ; giải ngắn ở phạm vi bài, chưa phải định nghĩa đầy đủ các thuật ngữ.",
+        "audience_fit": "Ví dụ lời khen chơi đàn và quyền tìm giúp khi bị chê phù hợp trẻ; câu hỏi thực hành cụ thể, không ép hết buồn. Tuy nhiên khoảng 1.400 từ và nhiều bảng phân loại bằng lời khiến bản cần chia lượt đọc với người lớn. Chưa có trẻ thật thử đọc để kiểm khả năng theo các chuỗi.",
+        "clarity": "Các mục đánh số nhóm theo trình tự rồi mới hỏi về ngã giúp định hướng; đối chiếu số sáu và số ba rõ. Câu định nghĩa trung tính đã bớt mơ hồ. Phần điều kiện năm vế và các nhóm lặp khá nặng về trí nhớ, nên độ cuốn hút chưa được xem là đã tối ưu cho trẻ đọc một lượt.",
+        "editorial_separation": "Ví dụ khen đàn và gợi ý nhận cảm giác được gắn example/practice, tự nhận do biên soạn. Nhãn kết được tách. Các câu như không có người nhỏ núp trong đầu là lời giải thích rõ ý thức, không giả lời Phật; một số lời giúp trẻ nằm trong teaching nên ranh giới được nhận qua văn cảnh.",
+        "practical_integrity": "Bài cho trẻ phân biệt cảm giác dễ chịu với đòi được nữa; không chê niềm vui hay yêu cầu ép cảm giác mất. Có lời rõ rằng giấu nước mắt không chứng minh hết sân và một tình huống không đủ nhận tận khổ. Đây là liên hệ để hiểu, chưa có thử nghiệm hiệu quả thực hành.",
+        "technical_integrity": "Audit hiện tại không lỗi nội dung/nguồn; 227 khóa có thật phủ đúng một lần, đủ 20 ý trong phần teaching/clarification của children. NFC, ID tác giả và năm phụ thuộc đều hợp lệ. Metadata còn draft đúng lúc chưa ghi review; tính toàn vẹn này không bao gồm build và thử UI."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm chéo MN148 bởi author_b sau author_c, hai agent khác nhau nhưng cùng công cụ/mô hình gpt-6-astra-pro; chưa có chuyên gia Pāli độc lập hay độc giả thật. Đã đọc toàn bộ Pāli, Sujato, Việt dự án, chú thích dự án và HTML Thích Minh Châu, toàn bản đồ 20 ý cùng cả ba bản. Pin bilara 11c9d708978cde8ba61096d8a75f7ddfb846f639, HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457, Việt/chú thích 0d8afd630e483d8cfee098cbb2f75a58da5fede8. Sujato có 206/227 giá trị không trống; 20 khóa lặp trong 12–15 và nhãn 41.11 trống. Giữ hữu thân theo dự án, đối chiếu cách gọi thân kiến trong HTML và substantial reality ở Sujato; giải bằng cơ chế nhận của ta/ta/ngã ta của chính đoạn 16–27. Khoảng sáu mươi theo saṭṭhimattānaṁ ở 41.10, dù nguồn Anh và HTML không giữ khoảng. Đã sửa chỗ trung tính của bản trẻ và làm rõ ba phủ định trước lạc thọ trong cả ba bản. Audit sau sửa không có errors/sourceErrors, tất cả còn draft; chưa record/apply và không dùng kiểm dữ liệu thay đọc nghĩa. Bản trẻ được kiểm lại sau hai sửa chính xác ngôn ngữ: neutral và phạm vi phủ định; không còn lỗi chặn phát hiện trong phạm vi đã đọc.",
+      "contentHash": "d67b853b9f048b90850cfe0019471ca0b2b5c55e5bb0de76ac985409cdce2b03",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn148.html",
+          "sha256": "18834385f4bed549f466a6e70f55c4bbc8f35f70976520ed2f3c2005e3e1580c"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn148_root-pli-ms.json",
+          "sha256": "817b5ca1fadd1d7c9973387b5d6ba1ff1470e7e2b6defc3e26a9cf99dc8e927e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn148_translation-en-sujato.json",
+          "sha256": "a91b0e1663a968db5496ee4b1d4b3886d30c36501972031a45ba72ee12d5c0fd"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn148_comment-vi-project.json",
+          "sha256": "cde5cc7e1e9eb68a0dde5d7609f5c4a3394e48e5713554d64045f1903b942b90"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn148_translation-vi-project.json",
+          "sha256": "c9bef18a5d28ed210dad632ec1f88fcd41d2de9a4e5f42db677da5f3b7239643"
+        }
+      ]
+    },
+    {
+      "id": "f0f49f7c-d7e1-4ab1-a092-e5f492d48b81",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.6,
+        "terminology": 9.4,
+        "audience_fit": 9.4,
+        "clarity": 9.3,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Các đoạn về sáu nhóm và mạch vô ngã được đối chiếu từng lớp với 4–15; hai nhánh thọ với 28–39; khoảng sáu mươi với 41.10. Bản nêu đúng Sujato bỏ trống lặp và khác biệt hữu thân/thân kiến. Cả năm hồ sơ khớp nguồn pin; chưa có khảo sát bản Pāli khác ngoài snapshot dự án.",
+        "semantic_fidelity": "Nonself giữ lý sinh diệt dẫn đến việc nhận tự ngã không đứng vững, không chuyển thành phủ nhận kinh nghiệm. Identity giữ ba cách nhận và phủ nhận ở sáu cửa. Wise giữ cảm thọ có mặt mà ba tùy miên không nằm ngầm, không đánh đồng giải thoát với kiểm soát vẻ ngoài.",
+        "core_coverage": "Bản đồ 20 ý bao đủ 227 khóa, và adults có phần giảng cho từng ý: nhóm/công thức, lập luận mắt và ý, hữu thân, ba phản ứng và năm mặt trung tính, điều kiện hai chiều, kết quả giải thoát. Các lượt lược tai đến thân được gọi rõ, tránh để người đọc chỉ hiểu áp dụng mắt/ý.",
+        "logic_context": "Trật tự căn-cảnh→thức, ba gặp→xúc, xúc→thọ, thọ→ái không bị đọc thành mọi thọ bắt buộc sinh ái. Hai kết luận không thể/có thể có đủ điều kiện bỏ tham, xua sân, nhổ vô minh, bỏ vô minh/sinh minh. Từ có thể không bị nâng thành bảo đảm; đã tách rõ ba phủ định ở lạc thọ.",
+        "terminology": "Thuật ngữ thọ theo sáu cửa khác ba sắc thái; xúc khác đối tượng xúc chạm; hữu thân được giải theo cơ chế của đoạn kinh và báo cách dịch khác. Tùy miên được giữ là khuynh hướng tiềm phục. Các tên như minh, vị ngọt có giải qua ngữ cảnh nhưng vẫn cần người đọc có chút vốn Phật học.",
+        "audience_fit": "Ví dụ theo dõi phản hồi công việc và gợi ý ghi thời điểm đòi giữ phù hợp người trưởng thành; không biến bài thành mẹo năng suất hay kiểm soát người khác. Giọng phân tích lập luận hợp đối tượng. Đánh giá này do đọc biên tập, chưa kiểm với nhóm độc giả ngoài tác tử.",
+        "clarity": "Mục sáu cặp, thức/xúc, thọ/ái, vô ngã, hữu thân và hai nhánh tạo đường đọc rõ. Tuy nhiên câu điều kiện dài và nhận xét đối chiếu nguồn đan vào prose khiến nhịp chậm; không có minh chứng đọc thành tiếng hay khảo sát người đọc để chấm cao hơn.",
+        "editorial_separation": "Phần identity báo rõ lựa chọn hữu thân giữa các bản dịch; ví dụ màn hình và practice được gắn nhãn do biên soạn. Các giải thích không dùng ngoặc kép giả lời kinh, nhãn thứ sáu ở kết được phân biệt. Nhận xét học thuật trong teaching vẫn phục vụ việc hiểu sai khác thực tế.",
+        "practical_integrity": "Quan sát phản hồi không suy mọi dùng điện thoại là tham; không suy khó chịu là lỗi đạo đức hay tư thế điềm tĩnh là hết tùy miên. Practice tự nhận chưa thay việc tu đủ và chưa xác nhận nhổ gốc. Liên hệ ở mức tự xét, không có dữ liệu chứng minh kết quả tu tập của người dùng.",
+        "technical_integrity": "Đã chạy audit sau chỉnh, errors/sourceErrors rỗng; nguồn và SHA-256 hợp lệ, mã ý phủ đủ phần adults, văn bản NFC. Năm phụ thuộc nguồn không đổi, không sửa kinh văn hay metadata. Bản còn draft để điều phối record/apply đúng nội dung; chưa lấy kiểm dữ liệu làm điểm build."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm chéo MN148 bởi author_b sau author_c, hai agent khác nhau nhưng cùng công cụ/mô hình gpt-6-astra-pro; chưa có chuyên gia Pāli độc lập hay độc giả thật. Đã đọc toàn bộ Pāli, Sujato, Việt dự án, chú thích dự án và HTML Thích Minh Châu, toàn bản đồ 20 ý cùng cả ba bản. Pin bilara 11c9d708978cde8ba61096d8a75f7ddfb846f639, HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457, Việt/chú thích 0d8afd630e483d8cfee098cbb2f75a58da5fede8. Sujato có 206/227 giá trị không trống; 20 khóa lặp trong 12–15 và nhãn 41.11 trống. Giữ hữu thân theo dự án, đối chiếu cách gọi thân kiến trong HTML và substantial reality ở Sujato; giải bằng cơ chế nhận của ta/ta/ngã ta của chính đoạn 16–27. Khoảng sáu mươi theo saṭṭhimattānaṁ ở 41.10, dù nguồn Anh và HTML không giữ khoảng. Đã sửa chỗ trung tính của bản trẻ và làm rõ ba phủ định trước lạc thọ trong cả ba bản. Audit sau sửa không có errors/sourceErrors, tất cả còn draft; chưa record/apply và không dùng kiểm dữ liệu thay đọc nghĩa. Riêng adults sửa câu phủ định ở wise cho rõ không hoan hỷ, không chào đón, không bám chặt; đọc lại cả đoạn trước chấm.",
+      "contentHash": "c8148339f7e1e12ecf5a3c5e1c93846229756842827312feea84b0107e6017f1",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn148.html",
+          "sha256": "18834385f4bed549f466a6e70f55c4bbc8f35f70976520ed2f3c2005e3e1580c"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn148_root-pli-ms.json",
+          "sha256": "817b5ca1fadd1d7c9973387b5d6ba1ff1470e7e2b6defc3e26a9cf99dc8e927e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn148_translation-en-sujato.json",
+          "sha256": "a91b0e1663a968db5496ee4b1d4b3886d30c36501972031a45ba72ee12d5c0fd"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn148_comment-vi-project.json",
+          "sha256": "cde5cc7e1e9eb68a0dde5d7609f5c4a3394e48e5713554d64045f1903b942b90"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn148_translation-vi-project.json",
+          "sha256": "c9bef18a5d28ed210dad632ec1f88fcd41d2de9a4e5f42db677da5f3b7239643"
+        }
+      ]
+    },
+    {
+      "id": "60d58440-9de0-4127-a1f2-5de0f7da9fc1",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.2,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu toàn văn nguồn pin xác nhận danh mục sáu nhóm, lập luận 10–15, hai hướng 16–39 và đoạn khoảng sáu mươi. Source audit khớp năm đường dẫn và hash. Bản Anh có khoảng trống lặp, HTML có cách gọi hữu thân khác; lời giải theo Pāli và cơ chế đang được trình bày.",
+        "semantic_fidelity": "Bản giữ vô ngã ở toàn bộ sáu yếu tố, không giữ một cái biết thường còn. Cảm thọ vẫn có ở nhánh tu tập; năm mặt trung tính và ba tùy miên không bị giản thành cố bình tĩnh. Completion giữ sinh đã tận và không còn trở lại, không hạ đích xuống bớt buồn sau một cuộc gặp.",
+        "core_coverage": "Tất cả 20 ý của 227 khóa có mặt: lời mở, sáu nhóm, công thức duyên, vô ngã, tập khởi/đoạn hữu thân, ba thọ và hai nhánh, ly tham và tận lậu hoặc. Các cửa còn lại được gọi đủ ở cả hai nhánh; phần lặp được gom có giải thích, không bù nội dung bằng ví dụ.",
+        "logic_context": "Latent và change giữ các điều kiện chưa/đã bỏ ba tùy miên cùng vô minh/minh; mức không thể và có thể được phân biệt. Đã làm rõ ba phủ định trước lạc thọ. Bài phân biệt mô tả tu tập với bắt người đau buồn nén khóc; sự khác biệt ấy hợp phạm vi đoạn 28–39.",
+        "terminology": "Nhớ biết, thọ, ái, hữu thân và tùy miên được giải theo đoạn; nội/ngoại không lẫn vị trí trong/ngoài cơ thể. Thức nhận biết có điều kiện, không thành linh hồn. Một số từ như vị ngọt, thoát ly xuất hiện trong danh mục cô đọng, nên mức giải từ còn cần đọc chậm.",
+        "audience_fit": "Bản mời đọc từng nhóm và dừng, ví dụ sum họp bạn cũ giữ quan hệ lành và quyền chủ động; không mặc định độc giả yếu hay cô độc. Nhiều tên nhóm vẫn làm tải đọc khá cao dù giọng thong thả. Chưa có độc giả lớn tuổi thật đánh giá tốc độ hoặc độ dễ theo.",
+        "clarity": "Thứ tự hai phía→sự biết/gặp→thọ/ái→vô ngã→hai hướng hợp logic, ví dụ gợi ký ức như đối tượng ý. Nhưng các đoạn liệt kê sáu cặp và năm điều kiện còn dày, nhịp chưa được kiểm qua đọc thực tế. Không có lỗi câu gây đảo nghĩa còn lại sau sửa phủ định.",
+        "editorial_separation": "Example nói rõ buổi gặp bạn cũ do người biên soạn; practice báo không thay năm mặt cần biết; nhãn thứ sáu được tách. Các lời đọc chậm và không bỏ chăm sóc thân là giải thích trong teaching, không câu nguồn. Ranh giới đủ dùng nhưng đôi chỗ được chỉ bằng văn cảnh hơn nhãn riêng.",
+        "practical_integrity": "Liên hệ không chê tình bạn, không yêu cầu tránh sum họp hoặc ép buồn mất đi. Gợi ý nhận thọ trung tính chỉ quan sát sự xuất hiện/thay đổi, nói rõ chưa thay đủ năm mặt và điều kiện giải thoát. Không hứa chữa bệnh hay tự chứng hết tùy miên từ một lần quan sát.",
+        "technical_integrity": "Audit sau sửa xác nhận dữ liệu hợp lệ, không sourceErrors; 227 khóa phủ đúng một lần, 20 ý đủ phần giảng bản cao tuổi, chuỗi NFC và tác giả hợp lệ. Trạng thái vẫn draft, chưa có review được chọn. Tiêu chí này chỉ kiểm bản ghi, không thay local build của PR."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm chéo MN148 bởi author_b sau author_c, hai agent khác nhau nhưng cùng công cụ/mô hình gpt-6-astra-pro; chưa có chuyên gia Pāli độc lập hay độc giả thật. Đã đọc toàn bộ Pāli, Sujato, Việt dự án, chú thích dự án và HTML Thích Minh Châu, toàn bản đồ 20 ý cùng cả ba bản. Pin bilara 11c9d708978cde8ba61096d8a75f7ddfb846f639, HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457, Việt/chú thích 0d8afd630e483d8cfee098cbb2f75a58da5fede8. Sujato có 206/227 giá trị không trống; 20 khóa lặp trong 12–15 và nhãn 41.11 trống. Giữ hữu thân theo dự án, đối chiếu cách gọi thân kiến trong HTML và substantial reality ở Sujato; giải bằng cơ chế nhận của ta/ta/ngã ta của chính đoạn 16–27. Khoảng sáu mươi theo saṭṭhimattānaṁ ở 41.10, dù nguồn Anh và HTML không giữ khoảng. Đã sửa chỗ trung tính của bản trẻ và làm rõ ba phủ định trước lạc thọ trong cả ba bản. Audit sau sửa không có errors/sourceErrors, tất cả còn draft; chưa record/apply và không dùng kiểm dữ liệu thay đọc nghĩa. Riêng older-adults sửa ba phủ định trước cảm thọ dễ chịu, đọc lại đoạn change và các điều kiện hai nhánh; không còn lỗi chặn phát hiện.",
+      "contentHash": "18ae7d51c8bff1a081cee040e62066f6e065a9320bc11aa81fc70e82339bbe9e",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn148.html",
+          "sha256": "18834385f4bed549f466a6e70f55c4bbc8f35f70976520ed2f3c2005e3e1580c"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn148_root-pli-ms.json",
+          "sha256": "817b5ca1fadd1d7c9973387b5d6ba1ff1470e7e2b6defc3e26a9cf99dc8e927e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn148_translation-en-sujato.json",
+          "sha256": "a91b0e1663a968db5496ee4b1d4b3886d30c36501972031a45ba72ee12d5c0fd"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn148_comment-vi-project.json",
+          "sha256": "cde5cc7e1e9eb68a0dde5d7609f5c4a3394e48e5713554d64045f1903b942b90"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn148_translation-vi-project.json",
+          "sha256": "c9bef18a5d28ed210dad632ec1f88fcd41d2de9a4e5f42db677da5f3b7239643"
+        }
+      ]
+    }
+  ]
+}

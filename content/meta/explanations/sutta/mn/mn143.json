@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn143",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "7dbbbb14-0e4a-42d2-a6fb-11403bb2dc94"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "65d86564-9888-4a4c-af60-28562ffbf76f"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "5bd0afbf-082e-4252-a18c-352314a529c5"
+    }
+  },
+  "reviews": [
+    {
+      "id": "7dbbbb14-0e4a-42d2-a6fb-11403bb2dc94",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.3,
+        "core_coverage": 9.5,
+        "logic_context": 9.4,
+        "terminology": 9.1,
+        "audience_fit": 8.9,
+        "clarity": 9,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.5
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc trọn Pāli, Sujato, Việt dự án, HTML Minh Châu và chú thích MN143. Năm dependency khớp byte đã kiểm; Pāli/Anh theo pin 11c9d708. Anh chỉ có 140/193 ô không trống, gồm nhiều câu lặp và 19.2–21 bị lược; không gọi ô trống là chứng cứ độc lập. Giữ Pāli khi Minh Châu khác ở hình ảnh khoan đầu, hai phủ định 15.4 và so sánh về Sāriputta.",
+        "semantic_fidelity": "Giữ hai vế không chấp và không có thức của mình nương vào từng đối tượng, kể cả chính thức và bốn vô sắc xứ. Cách mở nghĩa nương như bám tựa được nhận là lựa chọn theo mạch bài. Không biến lời dạy thành tắt nhận biết, chữa bệnh hoặc bảo đảm A-la-hán; giữ việc chết rồi sinh Tusita trong lời kể.",
+        "core_coverage": "Đã so hai chiều 44 đơn vị với 193 khóa Pāli và đọc đủ toàn bài. Có 55 đối tượng trong 11 nhóm, bốn ví đau cùng những lượt báo đau tăng, hai lần trình bày bốn khổ kệ, lễ đi quanh rồi biến mất và kết luận. Sau góp ý, tác giả phục hồi kết quả thanh tịnh của khổ thứ ba ở lần thuật lại 19.15; đã đọc lại.",
+        "logic_context": "Lời nhờ lễ Phật tách khỏi lời thỉnh Sāriputta đến nhà; người đưa tin làm đủ hai lần và Sāriputta nhận im lặng. Gia chủ phủ định cả chùn xuống lẫn suy sụp; không tự gán động cơ cho nước mắt. Giữ tỳ-kheo qua bờ cũng tối đa ngang Sāriputta, rồi phân biệt Ānanda suy ra với Phật xác nhận.",
+        "terminology": "Đã mở chấp thủ, thức, các uẩn, giới và bốn vô sắc xứ trong mạch. Theo góp ý, xúc chạm được nói thành đối tượng thân chạm tới, giới thêm giữ điều lành và tránh làm hại. Những danh xưng như tỳ-kheo và các tên thiền vẫn tạo độ khó; điểm không coi bản này hoàn toàn tự đủ cho mọi trẻ.",
+        "audience_fit": "20 mục giúp đọc từng phần; bốn ví đau được kể giảm chi tiết bạo lực và báo rõ là kể gọn. Ví dụ lời chê bài vẽ cùng việc nhờ người lớn khi thăm bệnh phù hợp trải nghiệm trẻ. Mật độ giáo nghĩa và tên riêng còn cao, nhất là đối với trẻ ít nền tảng; điểm 8,9 phản ánh giới hạn này, chưa có thử đọc thật.",
+        "clarity": "Tiến trình từ cuộc thăm hỏi tới từng lớp kinh nghiệm, nước mắt và phần kết theo được; hai vế được nhắc nhất quán, không chỉ nói chung buông bỏ. Một số câu kể lại kệ dài và các nhận xét về nguồn làm nhịp đọc chậm hơn. Đã đọc lại dấu câu phần giải nghĩa giới để tránh nhập lầm mục thứ năm vào điều cần tránh.",
+        "editorial_separation": "Các mục example và practice mang nhãn riêng, tự nhận là gợi ý biên soạn; ví dụ không được đặt vào miệng nhân vật kinh. Giải nghĩa nương, yếu tố, cõi và danh xưng được trình bày như lời giúp đọc. Những bất đồng nguồn không được giấu thành một sự đồng thuận; chưa kiểm chứng bằng học giả con người.",
+        "practical_integrity": "Liên hệ chỉ hướng quan sát chỗ bám và tôn trọng lời người đang đau. Không quy nước mắt thành thất bại, không đòi bệnh nhân tỏ ra bình thản, không hứa một bài tập đem lại giải thoát hay chữa bệnh. Lời thỉnh nghe Pháp không thay chăm sóc và không biến thành chỉ dẫn tu tập bắt buộc cho mọi tình trạng.",
+        "technical_integrity": "Đã chạy auditExplanations(\"mn\", \"mn143\") trên bản chốt; errors=[] và sourceErrors=[]. Bản đồ, ID, tác giả, cấu trúc, NFC và hash năm nguồn hợp lệ; hash từng audience được ghi trong notes. Đây là kiểm toàn vẹn bản ghi, không tuyên bố đã chạy build hoặc toàn bộ cổng kiểm tra của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm /root/author_c khác tác tử soạn /root/audit_progress, cùng GPT-6 Astra Pro. Đã đọc toàn bộ năm nguồn thực, bản đồ và cả ba bản MN143, đối chiếu hai chiều và đọc lại phần tác giả sửa theo phản hồi. Chưa có học giả Pāli con người hoặc thử đọc với các nhóm tuổi. Pāli/Anh 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt dự án/chú thích tại 0d8afd630e483d8cfee098cbb2f75a58da5fede8. Không nhận pin HTML cũ trong chú thích lịch sử làm nguồn mới đã mở; không tuyên bố đọc những tác phẩm khác chỉ được chú thích dẫn tên. Hash nội dung đã đọc cho children: 57d934d63dc804a200522e1e20c92c21f26fcaa6f93457d4d017b59255fe3f1a.",
+      "contentHash": "57d934d63dc804a200522e1e20c92c21f26fcaa6f93457d4d017b59255fe3f1a",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn143.html",
+          "sha256": "c2f9a72ccdb514fab6e34ea9f5f923cc73d68f621af02fe755a5da33770cc22b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn143_root-pli-ms.json",
+          "sha256": "b8e49b024c2bfdfe9efdd059b155f6346976974d251cf10fa45500a91a879d06"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn143_translation-en-sujato.json",
+          "sha256": "92cb8e08002a69a385e9ac2e8abc43ce9d140c09b4081b4ff686638dd7cf1d14"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn143_comment-vi-project.json",
+          "sha256": "1ee8fea1f078d653b3a612300242683bf5b965f12c0e9b33c241a20a891bef94"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn143_translation-vi-project.json",
+          "sha256": "01dd50fd999dcfc7faba8c472e7be858de09218d2cc5cfc64519807578c04c25"
+        }
+      ]
+    },
+    {
+      "id": "65d86564-9888-4a4c-af60-28562ffbf76f",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.3,
+        "audience_fit": 9.2,
+        "clarity": 9.2,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.5
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc trọn Pāli, Sujato, Việt dự án, HTML Minh Châu và chú thích MN143. Năm dependency khớp byte đã kiểm; Pāli/Anh theo pin 11c9d708. Anh chỉ có 140/193 ô không trống, gồm nhiều câu lặp và 19.2–21 bị lược; không gọi ô trống là chứng cứ độc lập. Giữ Pāli khi Minh Châu khác ở hình ảnh khoan đầu, hai phủ định 15.4 và so sánh về Sāriputta.",
+        "semantic_fidelity": "Giữ hai vế không chấp và không có thức của mình nương vào từng đối tượng, kể cả chính thức và bốn vô sắc xứ. Cách mở nghĩa nương như bám tựa được nhận là lựa chọn theo mạch bài. Không biến lời dạy thành tắt nhận biết, chữa bệnh hoặc bảo đảm A-la-hán; giữ việc chết rồi sinh Tusita trong lời kể.",
+        "core_coverage": "Đã so hai chiều 44 đơn vị với 193 khóa Pāli và đọc đủ toàn bài. Có 55 đối tượng trong 11 nhóm, bốn ví đau cùng những lượt báo đau tăng, hai lần trình bày bốn khổ kệ, lễ đi quanh rồi biến mất và kết luận. Sau góp ý, tác giả phục hồi kết quả thanh tịnh của khổ thứ ba ở lần thuật lại 19.15; đã đọc lại.",
+        "logic_context": "Lời nhờ lễ Phật tách khỏi lời thỉnh Sāriputta đến nhà; người đưa tin làm đủ hai lần và Sāriputta nhận im lặng. Gia chủ phủ định cả chùn xuống lẫn suy sụp; không tự gán động cơ cho nước mắt. Giữ tỳ-kheo qua bờ cũng tối đa ngang Sāriputta, rồi phân biệt Ānanda suy ra với Phật xác nhận.",
+        "terminology": "Phân biệt sáu cảnh với xúc, thọ chia theo cửa với ba sắc thái, sắc cảnh với sắc uẩn, giới yếu tố với giới hạnh. Giữ đời sống tối thượng rộng hơn sinh kế và mở nghĩa nương trong ngữ cảnh. Các tên vô sắc xứ được giải thích vừa đủ, vẫn cần đọc chậm để không xem giải nghĩa ngắn là định nghĩa đầy đủ.",
+        "audience_fit": "17 mục tổ chức theo lớp lập luận; ví dụ chuyển việc gắn trách nhiệm sinh kế với nhận diện sự bám vào chức danh, không hứa thành công. Phần đồng hành với người bệnh tôn trọng mong muốn và sức tiếp nhận. Chưa thử đọc với người trưởng thành thực tế; mật độ giải thích nguồn còn làm một số đoạn nặng hơn cần thiết.",
+        "clarity": "Các mục phân biệt giác quan, cảnh, thức, xúc, thọ và những chỗ nương tinh tế; ví dụ đến sau phần kinh để giữ mạch. Phần Sāriputta và suy luận có quan hệ rõ. Một vài đoạn ghép cả danh mục và ghi chú đối chiếu, nên độ trôi chảy tốt nhưng chưa tối ưu.",
+        "editorial_separation": "Các mục example và practice mang nhãn riêng, tự nhận là gợi ý biên soạn; ví dụ không được đặt vào miệng nhân vật kinh. Giải nghĩa nương, yếu tố, cõi và danh xưng được trình bày như lời giúp đọc. Những bất đồng nguồn không được giấu thành một sự đồng thuận; chưa kiểm chứng bằng học giả con người.",
+        "practical_integrity": "Liên hệ chỉ hướng quan sát chỗ bám và tôn trọng lời người đang đau. Không quy nước mắt thành thất bại, không đòi bệnh nhân tỏ ra bình thản, không hứa một bài tập đem lại giải thoát hay chữa bệnh. Lời thỉnh nghe Pháp không thay chăm sóc và không biến thành chỉ dẫn tu tập bắt buộc cho mọi tình trạng.",
+        "technical_integrity": "Đã chạy auditExplanations(\"mn\", \"mn143\") trên bản chốt; errors=[] và sourceErrors=[]. Bản đồ, ID, tác giả, cấu trúc, NFC và hash năm nguồn hợp lệ; hash từng audience được ghi trong notes. Đây là kiểm toàn vẹn bản ghi, không tuyên bố đã chạy build hoặc toàn bộ cổng kiểm tra của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm /root/author_c khác tác tử soạn /root/audit_progress, cùng GPT-6 Astra Pro. Đã đọc toàn bộ năm nguồn thực, bản đồ và cả ba bản MN143, đối chiếu hai chiều và đọc lại phần tác giả sửa theo phản hồi. Chưa có học giả Pāli con người hoặc thử đọc với các nhóm tuổi. Pāli/Anh 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt dự án/chú thích tại 0d8afd630e483d8cfee098cbb2f75a58da5fede8. Không nhận pin HTML cũ trong chú thích lịch sử làm nguồn mới đã mở; không tuyên bố đọc những tác phẩm khác chỉ được chú thích dẫn tên. Hash nội dung đã đọc cho adults: 6a85c2d7c0ab6978d554f68c08bdd7bc1c683d4faabf5f53daa3cffa4ab5014f.",
+      "contentHash": "6a85c2d7c0ab6978d554f68c08bdd7bc1c683d4faabf5f53daa3cffa4ab5014f",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn143.html",
+          "sha256": "c2f9a72ccdb514fab6e34ea9f5f923cc73d68f621af02fe755a5da33770cc22b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn143_root-pli-ms.json",
+          "sha256": "b8e49b024c2bfdfe9efdd059b155f6346976974d251cf10fa45500a91a879d06"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn143_translation-en-sujato.json",
+          "sha256": "92cb8e08002a69a385e9ac2e8abc43ce9d140c09b4081b4ff686638dd7cf1d14"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn143_comment-vi-project.json",
+          "sha256": "1ee8fea1f078d653b3a612300242683bf5b965f12c0e9b33c241a20a891bef94"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn143_translation-vi-project.json",
+          "sha256": "01dd50fd999dcfc7faba8c472e7be858de09218d2cc5cfc64519807578c04c25"
+        }
+      ]
+    },
+    {
+      "id": "5bd0afbf-082e-4252-a18c-352314a529c5",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.3,
+        "audience_fit": 9.2,
+        "clarity": 9.3,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.5
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc trọn Pāli, Sujato, Việt dự án, HTML Minh Châu và chú thích MN143. Năm dependency khớp byte đã kiểm; Pāli/Anh theo pin 11c9d708. Anh chỉ có 140/193 ô không trống, gồm nhiều câu lặp và 19.2–21 bị lược; không gọi ô trống là chứng cứ độc lập. Giữ Pāli khi Minh Châu khác ở hình ảnh khoan đầu, hai phủ định 15.4 và so sánh về Sāriputta.",
+        "semantic_fidelity": "Giữ hai vế không chấp và không có thức của mình nương vào từng đối tượng, kể cả chính thức và bốn vô sắc xứ. Cách mở nghĩa nương như bám tựa được nhận là lựa chọn theo mạch bài. Không biến lời dạy thành tắt nhận biết, chữa bệnh hoặc bảo đảm A-la-hán; giữ việc chết rồi sinh Tusita trong lời kể.",
+        "core_coverage": "Đã so hai chiều 44 đơn vị với 193 khóa Pāli và đọc đủ toàn bài. Có 55 đối tượng trong 11 nhóm, bốn ví đau cùng những lượt báo đau tăng, hai lần trình bày bốn khổ kệ, lễ đi quanh rồi biến mất và kết luận. Sau góp ý, tác giả phục hồi kết quả thanh tịnh của khổ thứ ba ở lần thuật lại 19.15; đã đọc lại.",
+        "logic_context": "Lời nhờ lễ Phật tách khỏi lời thỉnh Sāriputta đến nhà; người đưa tin làm đủ hai lần và Sāriputta nhận im lặng. Gia chủ phủ định cả chùn xuống lẫn suy sụp; không tự gán động cơ cho nước mắt. Giữ tỳ-kheo qua bờ cũng tối đa ngang Sāriputta, rồi phân biệt Ānanda suy ra với Phật xác nhận.",
+        "terminology": "Tách riêng sáu xúc, sáu thọ, sáu giới, năm uẩn để mở nghĩa theo nhịp chậm. Phân biệt vật chất với cảnh sắc, giới yếu tố với giới hạnh; không giữ thức làm chỗ tựa bất biến. Các vô sắc xứ và như lý thẩm xét có lời giải, nhưng cách hiểu sâu vẫn vượt ngoài những định nghĩa ngắn này.",
+        "audience_fit": "24 mục ngắn dành chỗ cho từng lớp kinh nghiệm, tôn trọng người đọc tự suy xét. Ví dụ chia việc và thay đổi vai trò giữ quyền chủ động và khả năng đóng góp, không đồng nhất tuổi cao với yếu bệnh. Bối cảnh bệnh nặng là của bài kinh, không bị biến thành dự đoán cho độc giả; chưa có thử đọc thật.",
+        "clarity": "Các tiêu đề và đoạn ngắn tạo chỗ dừng; lời thỉnh tại gia, sự qua đời, kệ và nhận diện thiên tử tách thành những bước rõ. Đã bỏ từ thừa trong tiêu đề sáu cảnh, thêm vế thanh tịnh trong phần lặp. Lời chú về nguồn có ích nhưng vẫn khiến vài đoạn nhiều tầng thông tin.",
+        "editorial_separation": "Các mục example và practice mang nhãn riêng, tự nhận là gợi ý biên soạn; ví dụ không được đặt vào miệng nhân vật kinh. Giải nghĩa nương, yếu tố, cõi và danh xưng được trình bày như lời giúp đọc. Những bất đồng nguồn không được giấu thành một sự đồng thuận; chưa kiểm chứng bằng học giả con người.",
+        "practical_integrity": "Liên hệ chỉ hướng quan sát chỗ bám và tôn trọng lời người đang đau. Không quy nước mắt thành thất bại, không đòi bệnh nhân tỏ ra bình thản, không hứa một bài tập đem lại giải thoát hay chữa bệnh. Lời thỉnh nghe Pháp không thay chăm sóc và không biến thành chỉ dẫn tu tập bắt buộc cho mọi tình trạng.",
+        "technical_integrity": "Đã chạy auditExplanations(\"mn\", \"mn143\") trên bản chốt; errors=[] và sourceErrors=[]. Bản đồ, ID, tác giả, cấu trúc, NFC và hash năm nguồn hợp lệ; hash từng audience được ghi trong notes. Đây là kiểm toàn vẹn bản ghi, không tuyên bố đã chạy build hoặc toàn bộ cổng kiểm tra của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm /root/author_c khác tác tử soạn /root/audit_progress, cùng GPT-6 Astra Pro. Đã đọc toàn bộ năm nguồn thực, bản đồ và cả ba bản MN143, đối chiếu hai chiều và đọc lại phần tác giả sửa theo phản hồi. Chưa có học giả Pāli con người hoặc thử đọc với các nhóm tuổi. Pāli/Anh 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt dự án/chú thích tại 0d8afd630e483d8cfee098cbb2f75a58da5fede8. Không nhận pin HTML cũ trong chú thích lịch sử làm nguồn mới đã mở; không tuyên bố đọc những tác phẩm khác chỉ được chú thích dẫn tên. Hash nội dung đã đọc cho older-adults: d2bf731595e9080b8e241306750a014b27bfc8d77ac98be15aa6ca3e5e96c1d4.",
+      "contentHash": "d2bf731595e9080b8e241306750a014b27bfc8d77ac98be15aa6ca3e5e96c1d4",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn143.html",
+          "sha256": "c2f9a72ccdb514fab6e34ea9f5f923cc73d68f621af02fe755a5da33770cc22b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn143_root-pli-ms.json",
+          "sha256": "b8e49b024c2bfdfe9efdd059b155f6346976974d251cf10fa45500a91a879d06"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn143_translation-en-sujato.json",
+          "sha256": "92cb8e08002a69a385e9ac2e8abc43ce9d140c09b4081b4ff686638dd7cf1d14"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn143_comment-vi-project.json",
+          "sha256": "1ee8fea1f078d653b3a612300242683bf5b965f12c0e9b33c241a20a891bef94"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn143_translation-vi-project.json",
+          "sha256": "01dd50fd999dcfc7faba8c472e7be858de09218d2cc5cfc64519807578c04c25"
+        }
+      ]
+    }
+  ]
+}
