@@ -126,6 +126,7 @@ Theo dõi bằng nội dung và lịch sử đánh giá trong kho cùng PR đã 
 - [Báo cáo lô 04 — MN31–MN40](modern-explanations/batch-04-mn31-mn40.md)
 - [Báo cáo lô 05 — MN41–MN50](modern-explanations/batch-05-mn41-mn50.md)
 - [Báo cáo lô 06 — MN51–MN60](modern-explanations/batch-06-mn51-mn60.md)
+- [Báo cáo lô 07 — MN61–MN70](modern-explanations/batch-07-mn61-mn70.md)
 - [Hướng dẫn đóng góp](../AGENTS.md)
 - [Quy trình dịch và đối chiếu nguồn](../skill/translation.md)
 - [Đánh giá bản dịch và tóm tắt hiện có](quality-assessments.md)

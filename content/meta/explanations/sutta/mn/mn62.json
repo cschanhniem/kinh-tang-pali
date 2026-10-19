@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn62",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "f275fa7a-227f-4b8e-8f6e-be0af943c73b"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "a0e1bfb6-fde9-45b2-886e-7e07948e2686"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "51e889b1-1e2d-4707-a58a-d6f1706a6dda"
+    }
+  },
+  "reviews": [
+    {
+      "id": "f275fa7a-227f-4b8e-8f6e-be0af943c73b",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.3,
+        "audience_fit": 9.2,
+        "clarity": 9.3,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Giữ đúng 19 phần đất, 12 phần nước, các tác dụng của lửa, các luồng gió và hơi vào ra; không thay các danh mục bằng danh sách HTML khác. Cụm hư không 12.5 giữ phần dài của Pāli và được đối chiếu thêm bằng chú thích Sujato đúng bản ghim.",
+        "semantic_fidelity": "Ba vế không phải của ta, ta không phải cái này, không phải tự ngã được giữ cho mọi giới cùng hướng hết mê đắm và rời tham bám. Mười sáu bước vẫn phân biệt hai bước biết dài/ngắn với các bước tập, và kết quả hơi cuối giữ điều kiện đã tu đầy đủ.",
+        "core_coverage": "22 mục có nội dung cho toàn 44 ý: năm nhóm, năm giới, năm phép ví, sáu cặp tu và đối trị, đủ 16 bước và kết thúc. Các ví dụ nước, lửa, gió gộp gọn nhưng vẫn có riêng rửa, đốt, thổi cùng lời nhắc trước và sau.",
+        "logic_context": "Giữ Rāhula tự quyết quay lại gốc cây, Sāriputta khuyên niệm hơi thở và Đức Phật trả lời buổi chiều. Không lấy tuổi, chuyện sắc đẹp hay thành tựu trong chú thích bổ sung làm sự kiện của lời kể Pāli.",
+        "terminology": "Sắc, thọ, tưởng, hành, thức, chấp thủ, hỷ, lạc và các bước quán có lời giải ngắn. Đã mở tham ái và động tác kính lễ; các danh mục thân thể cùng cụm thịt máu chấp giữ vẫn là phần khó với trẻ.",
+        "audience_fit": "Ví dụ bức vẽ bị góp ý và việc nhận biết trước khi đáp gần trải nghiệm của trẻ; lời gợi ý nhẹ, có người hướng dẫn. Khối thuật ngữ về giới và mười sáu bước dài nên bản vẫn hợp việc đọc từng phần hơn một lượt nhanh; chưa thử với trẻ thật.",
+        "clarity": "Các tiêu đề theo yếu tố thân và nhóm bốn bước tạo trật tự rõ; số bước không bị nhảy. Một số câu danh mục dài và phần hư không giữ cấu trúc cổ khiến độ dễ đọc chưa đồng đều.",
+        "editorial_separation": "Ví dụ bức vẽ, phần làm rõ và gợi ý chú tâm được tách loại rõ, không kể như lời Phật hay sự việc trong kinh. Hồ sơ nguồn giữ các suy đoán lịch sử ngoài dòng đọc.",
+        "practical_integrity": "Gợi ý chú ý hơi tự nhiên và nhận ra thích/không thích chỉ là bước làm quen, không hứa hoàn thành mười sáu bước ngay. Cách nói chăm sóc thân đi cùng bớt tham bám giúp tránh biến quán bất tịnh thành ghét thân.",
+        "technical_integrity": "Audit nội dung và sáu nguồn đều sạch, đủ 122 khóa và 44 ý được liên kết trong bản trẻ. Hash cuối được chốt sau khi đọc lại under-tree, balance và phần bản đồ sửa; tệp chú thích thêm khớp byte đã đọc."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập thực tế: đọc trọn 122 khóa Pāli/Việt/Sujato (một ô Anh trống), toàn HTML Minh Châu tới credits, 12 chú thích dự án, toàn 122 ô chú thích Sujato với 12 ô có chữ; đọc toàn 44 ý và ba bản. Lượt output bị cắt ở phần cuối ba JSON đã được đọc lại trọn [90,122) riêng trước khi tiếp tục. Sau GO7 đọc lại sáu mục sửa và map morning, kiểm byte nguồn bổ sung tại cache chính thức; audit chỉ đọc sạch. Không ghi metadata, không thử độc giả hay nhận đã được Pāli expert kiểm.",
+      "contentHash": "1833eb8531cf2f99b8f9fb503fc15c26a5c88669b9a2b9aa1317936041abc623",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn62.html",
+          "sha256": "b115882dbc7643b8f4020e280b751080098b7ca6b10d125a756136c2d05f5a2d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/comment/en/sujato/sutta/mn/mn62_comment-en-sujato.json",
+          "sha256": "0ff6448d96d25210b36a6acd00fec4609b282b2679e594ac9d9ed417b3b0b75f"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn62_root-pli-ms.json",
+          "sha256": "e7af98c00e8a6ed3c8e99bd83f791acf01a4207b5dcfcaeef8a36b32968d5433"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn62_translation-en-sujato.json",
+          "sha256": "cd9cd858b44dc8c768b864614ac155f0746861f8683326044d72fae7225919c9"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn62_comment-vi-project.json",
+          "sha256": "83061e5843f861e83266e3913749cd71ebf97583266df9e846419461a4de2886"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn62_translation-vi-project.json",
+          "sha256": "65c0fbd954fbec9b9c724cf6fc9a303bc8d1166daede9c8279dd72f2560398ff"
+        }
+      ]
+    },
+    {
+      "id": "a0e1bfb6-fde9-45b2-886e-7e07948e2686",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Các danh mục giới và cụm nội/ngoại đi đúng Pāli; đoạn 12.5 không bị rút theo bản Anh hay HTML. Chú thích Sujato được đọc toàn bộ và chỉ dùng để xác nhận cụm khó, không xem các giả thuyết trong đó như lời kinh.",
+        "semantic_fidelity": "Bản giữ liên hệ thấy như thật với nhàm chán và ly tham ở cả năm giới; các xúc vừa ý và trái ý không chiếm ngự tâm là kết quả của tu tập. Sáu cách tu có đúng sáu điều được từ bỏ, và 16 bước không bị thu thành cách thư giãn.",
+        "core_coverage": "Toàn 44 ý xuất hiện trong 20 mục, đủ các phạm vi của sắc và năm nhóm sau câu hỏi Rāhula. Có 19/12 phần thân, cả hai chiều thở ở từng bước, bốn phép quán cuối và phủ định biết rõ/chứ không không biết ở hơi cuối.",
+        "logic_context": "Lời khuyên ban đầu của Sāriputta khác lời giải thích tiếp theo của Phật; câu hỏi về hơi thở nối qua các giới và cách rèn tâm theo đúng mạch nguồn. Bản không dựng lệnh nhịn ăn hay quan hệ nhân quả từ những chuyện bình giải ngoài lời kể.",
+        "terminology": "Tự ngã và ly tham đã được giải ngay nơi đầu dùng; thọ, tưởng, hành, thức và hỷ/lạc cũng được mở. Thân hành, tâm hành được diễn ở mức khái quát phù hợp nguồn đã đọc; nghĩa kỹ thuật sâu và cụm thịt máu chấp giữ còn là giới hạn.",
+        "audience_fit": "Ví dụ nhận phản hồi công việc và nhận biết trước khi đáp phù hợp đời sống trưởng thành. Cách nhóm phép ví và bốn nhóm hơi thở giúp đọc có chủ đích, nhưng nội dung phân tích giới vẫn dày đối với người hoàn toàn mới học.",
+        "clarity": "Dàn mục đi từ nhìn thân đến rèn tâm rồi niệm hơi thở, làm rõ vai trò từng phần. Mỗi nhóm bốn bước có số và hai chiều thở; đôi chỗ lời diễn vẫn mang cấu trúc danh mục cổ.",
+        "editorial_separation": "Phần ví dụ công việc, scope và practice có loại mục và giới hạn rõ. Cách mở nghĩa không đưa điều người biên soạn suy ra thành lời nói mới của Phật; thông tin thao tác kiểm nguồn ở hồ sơ riêng.",
+        "practical_integrity": "Phần áp dụng giới thiệu một lúc nhận biết hơi tự nhiên và phản ứng khi nghe nhận xét, đồng thời giữ yêu cầu học tiếp có hướng dẫn. Lợi ích sâu và hơi thở cuối gắn với tu tập sung mãn, không bị biến thành cam kết cho bài tập ngắn.",
+        "technical_integrity": "Audit chỉ đọc sạch, nguồn bổ sung đúng UID được khai báo và kiểm hash; đủ liên kết 44 ý trong bản trưởng thành. Đã đọc lại toàn aggregates và earth sau sửa trước khi chốt fingerprint."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập thực tế: đọc trọn 122 khóa Pāli/Việt/Sujato (một ô Anh trống), toàn HTML Minh Châu tới credits, 12 chú thích dự án, toàn 122 ô chú thích Sujato với 12 ô có chữ; đọc toàn 44 ý và ba bản. Lượt output bị cắt ở phần cuối ba JSON đã được đọc lại trọn [90,122) riêng trước khi tiếp tục. Sau GO7 đọc lại sáu mục sửa và map morning, kiểm byte nguồn bổ sung tại cache chính thức; audit chỉ đọc sạch. Không ghi metadata, không thử độc giả hay nhận đã được Pāli expert kiểm.",
+      "contentHash": "49b25a5083efb6c017a1ff91b19584b208ec61de28f4c2c270e903f72be7fc65",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn62.html",
+          "sha256": "b115882dbc7643b8f4020e280b751080098b7ca6b10d125a756136c2d05f5a2d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/comment/en/sujato/sutta/mn/mn62_comment-en-sujato.json",
+          "sha256": "0ff6448d96d25210b36a6acd00fec4609b282b2679e594ac9d9ed417b3b0b75f"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn62_root-pli-ms.json",
+          "sha256": "e7af98c00e8a6ed3c8e99bd83f791acf01a4207b5dcfcaeef8a36b32968d5433"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn62_translation-en-sujato.json",
+          "sha256": "cd9cd858b44dc8c768b864614ac155f0746861f8683326044d72fae7225919c9"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn62_comment-vi-project.json",
+          "sha256": "83061e5843f861e83266e3913749cd71ebf97583266df9e846419461a4de2886"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn62_translation-vi-project.json",
+          "sha256": "65c0fbd954fbec9b9c724cf6fc9a303bc8d1166daede9c8279dd72f2560398ff"
+        }
+      ]
+    },
+    {
+      "id": "51e889b1-1e2d-4707-a58a-d6f1706a6dda",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.4,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Danh sách đất, nước và thứ tự gió bụng/ruột giữ theo Pāli và Việt dự án, không lấy các thay đổi trong HTML. Phần khoảng không có đủ lỗ tai, mũi, miệng, chỗ nuốt/lưu/thoát cùng cụm khó 12.5 đã đối chiếu chú thích ghim.",
+        "semantic_fidelity": "Giữ ba vế không nhận làm ta và tiến trình hết mê đắm, rời tham bám qua năm giới. Hỷ, lạc, tâm hành và tâm là các bước riêng; các phép quán cuối vẫn hướng đến ly tham, chấm dứt và buông bỏ.",
+        "core_coverage": "23 mục trình bày đủ 44 ý, không bỏ bớt danh mục hoặc hai chiều thở vì đổi nhóm tuổi. Năm ví dụ rèn tâm, sáu cặp đối trị, 16 bước, kết quả có điều kiện và Rāhula tán đồng đều còn.",
+        "logic_context": "Giữ đúng vai Rāhula, Sāriputta, Đức Phật và các thời điểm sáng/chiều. Nội dung hơi thở cuối nằm trong lời dạy chung có điều kiện, không bị chuyển thành lời dự báo về tuổi thọ của người đọc.",
+        "terminology": "Chánh trí, tự ngã, ly tham, niệm, hỷ và lạc có giải thích trong dòng đọc; các sửa ở seeing và earth đã làm rõ lần đầu. Thuật ngữ hư không cùng thân hành/tâm hành vẫn cần học thêm để hiểu hết chiều sâu.",
+        "audience_fit": "Các mục ngắn, tách câu hỏi buổi chiều và bốn nhóm bước rõ; ví dụ cùng bạn chuẩn bị buổi gặp không áp định người lớn tuổi là yếu hay lệ thuộc. Bản giữ mật độ danh mục khá cao và chưa được thử với độc giả thật.",
+        "clarity": "Tiêu đề rõ và số bước nhất quán giúp quay lại từng phần; các câu gợi ý không quá dồn dập. Các công thức năm giới lặp và một vài cụm nguồn khó làm việc đọc chậm vẫn cần thiết.",
+        "editorial_separation": "Ví dụ gặp gỡ cùng phần gợi ý làm quen được ghi rõ do người biên soạn đặt thêm. Các chi tiết tuổi, cha con, sắc đẹp và chứng quả từ bình giải không chen vào phần kể.",
+        "practical_integrity": "Gợi ý tư thế thoải mái và hơi thở tự nhiên có phạm vi vừa phải; việc học sâu tiếp tục từng phần với người hướng dẫn. Bản giữ sự quân bình đi cùng quan tâm, không bảo người đọc thờ ơ hoặc bỏ chăm sóc thân.",
+        "technical_integrity": "Audit nguồn/nội dung sạch và đủ 44 ý liên kết trên bản cuối; sáu sourceHashes gồm cả commentary bổ sung đúng byte. Toàn hai mục seeing và earth sau sửa đã được đọc lại trước khi lấy hash."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập thực tế: đọc trọn 122 khóa Pāli/Việt/Sujato (một ô Anh trống), toàn HTML Minh Châu tới credits, 12 chú thích dự án, toàn 122 ô chú thích Sujato với 12 ô có chữ; đọc toàn 44 ý và ba bản. Lượt output bị cắt ở phần cuối ba JSON đã được đọc lại trọn [90,122) riêng trước khi tiếp tục. Sau GO7 đọc lại sáu mục sửa và map morning, kiểm byte nguồn bổ sung tại cache chính thức; audit chỉ đọc sạch. Không ghi metadata, không thử độc giả hay nhận đã được Pāli expert kiểm.",
+      "contentHash": "5d15d4bfcc92f7289307281bc56f8521823dcbff297881472e082232012edca6",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn62.html",
+          "sha256": "b115882dbc7643b8f4020e280b751080098b7ca6b10d125a756136c2d05f5a2d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/comment/en/sujato/sutta/mn/mn62_comment-en-sujato.json",
+          "sha256": "0ff6448d96d25210b36a6acd00fec4609b282b2679e594ac9d9ed417b3b0b75f"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn62_root-pli-ms.json",
+          "sha256": "e7af98c00e8a6ed3c8e99bd83f791acf01a4207b5dcfcaeef8a36b32968d5433"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn62_translation-en-sujato.json",
+          "sha256": "cd9cd858b44dc8c768b864614ac155f0746861f8683326044d72fae7225919c9"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn62_comment-vi-project.json",
+          "sha256": "83061e5843f861e83266e3913749cd71ebf97583266df9e846419461a4de2886"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn62_translation-vi-project.json",
+          "sha256": "65c0fbd954fbec9b9c724cf6fc9a303bc8d1166daede9c8279dd72f2560398ff"
+        }
+      ]
+    }
+  ]
+}

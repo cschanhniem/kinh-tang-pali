@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn70",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "39443b29-0909-4ed0-9d8b-4b2314a405f0"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "6716dc45-2c17-46a5-bac0-ad8dfe12a738"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "18083549-2285-44fd-84b2-a84dfbaf167e"
+    }
+  },
+  "reviews": [
+    {
+      "id": "39443b29-0909-4ed0-9d8b-4b2314a405f0",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.4,
+        "audience_fit": 9.2,
+        "clarity": 9.2,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu đủ 203 khóa của ba JSON, 16 chú thích và toàn HTML. Bản trẻ giữ nhóm Assaji–Punabbasuka, ba lớp khuyên–báo–xác nhận, năm lợi ích được thuật và kệ mục lục mà Anh/HTML không có.",
+        "semantic_fidelity": "Bảy hạng được phân biệt bằng thân chứng vô sắc, mức đoạn lậu hoặc và điều kiện riêng. Hai hạng cuối giữ một số lậu hoặc đã tận theo Pāli ghim 20.2/21.2; mục tiêu của lời dạy vẫn là giải thoát, không chỉ cảm thấy dễ chịu.",
+        "core_coverage": "Đủ 39 đơn vị nghĩa qua 22 mục. Sáu trường hợp cảm thọ có cả hai chiều thiện/bất thiện, sáu giả định và sáu câu đáp không; năm hạng còn tu có đủ ba điều kiện và khả năng tự chứng ngay hiện tại.",
+        "logic_context": "Hai phủ định không phải tất cả được tách rõ. Mười hai điều chưa có là lời Phật nói về nhóm, khác giả định; câu 25.2 vẫn là câu hỏi. Bốn nhận định cuối đều gắn với đệ tử có tin, đã thâm nhập và sống theo lời dạy.",
+        "terminology": "Đã mở nghĩa cảm thọ, bất thiện, chánh trí, lậu hoặc, vô sắc, các căn và dư y. Các tên bảy hạng được giải bằng đặc điểm ngay sau tên; lượng thuật ngữ vẫn nhiều đối với trẻ mới đọc.",
+        "audience_fit": "Lời kể dùng cảm giác dễ chịu/khó chịu, ví dụ giấu đồ hỏng và nhận lỗi hợp kinh nghiệm trẻ. Hệ thống bảy hạng và các giả định về trí tuệ còn trừu tượng, nên chưa xem là dễ đọc độc lập ở mọi độ tuổi nhỏ.",
+        "clarity": "Các nhãn thứ nhất đến thứ bảy và mục tiếp tục chung giúp thấy cấu trúc. Mục understanding vẫn dày sáu nhánh tăng/giảm; phần danh hiệu đòi hỏi đọc chậm dù được chia đoạn và giải nghĩa.",
+        "editorial_separation": "Ví dụ đồ hỏng và bài tập có nhãn biên soạn, không được đặt vào lời Phật. Câu về giữ gìn thân được đánh dấu là cách ứng dụng cho em, giữ nguyên lời nguyện cổ trước đó.",
+        "practical_integrity": "Bài tập quan sát cảm giác rồi sửa một lời nói không đúng có bước cụ thể, vừa sức. Không yêu cầu trẻ ăn theo quy định tu sĩ, làm thân suy kiệt, hay tự suy ra mình đã đạt quả vị.",
+        "technical_integrity": "Đã đọc trọn map và 22 mục; audit độc lập không lỗi, đủ 203 khóa và năm SHA256 đúng với lượt đọc. Fingerprint canonical khớp bản giao, chưa thay thế kiểm HTML chung của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root/writer_a sau khi /root/writer_c biên soạn; đã đọc đầy đủ năm nguồn thực, toàn map và cả ba bản. Không phát hiện chỉnh nội dung mới cần yêu cầu trước chốt. Không có thử đọc với người thật hoặc phê chuẩn chuyên gia Pāli.",
+      "contentHash": "c1a11c25c564a658f5d1294a36ab89be7713e14c1716916c1ffb84b114f40c95",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn70.html",
+          "sha256": "552b7fd8007f2a9a60fbb394887e4f6ef052eb7b47d6ef4d3d811a49bdb556bb"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn70_root-pli-ms.json",
+          "sha256": "bd6838a240290152f163aee3169711491f47c0ec493f8fbd5d665842e20336d6"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn70_translation-en-sujato.json",
+          "sha256": "8e3f952ba68de47c61925ce2880d89b9d08159a2c11aebf71af7b1dd4e9f4b56"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn70_comment-vi-project.json",
+          "sha256": "5b8c0d105d0dda02a43086ea567d5403a7793e98ca7a890cb36ab6a67d1e889a"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn70_translation-vi-project.json",
+          "sha256": "97903be8b84df0eeef85d73c4d42d1fc298f756e9e3a347ac002e26664881538"
+        }
+      ]
+    },
+    {
+      "id": "6716dc45-2c17-46a5-bac0-ad8dfe12a738",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.5,
+        "clarity": 9.4,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Năm nguồn thực được đọc trọn. Phần báo cáo giữ cả lời khuyên lẫn phản đối về điều thấy ngay/kết quả về sau; các khác biệt HTML ở vô sắc, tín giải thoát và chuỗi phủ định không đi vào bản diễn giải.",
+        "semantic_fidelity": "Không đồng nhất cảm thọ dễ chịu với thiện hay khó chịu với bất thiện. Có đủ thân chứng/không thân chứng, toàn phần/một phần đoạn lậu hoặc, cùng trí tuệ hoặc lòng tin riêng của từng hạng; dị bản hai hạng cuối theo đúng Pāli ghim.",
+        "core_coverage": "Hai mươi mục có nội dung thật cho toàn 39 ý. Tám nét A-la-hán, bảy hạng, ba điều kiện tu tiếp, mười ba bước, mười hai thiếu vắng, hai nhánh mặc cả và hai quả có điều kiện đều được giữ.",
+        "logic_context": "Căn cứ năm mặt biết bằng trí tuệ được áp dụng rõ cho từng lời khuyên trong sáu trường hợp. Người hữu học chỉ được nêu khả năng chứng đích ngay hiện tại; không bị viết thành đã chứng hoặc phải đợi đời sau.",
+        "terminology": "Phạm hạnh, kiết sử hữu, chánh trí, thọ trung tính, năm căn và dư y có lời mở nghĩa. Phụng sự còn mang sắc thái văn kinh, nhưng chuỗi đến gần–lắng nghe làm chức năng của từ đủ rõ.",
+        "audience_fit": "Tình huống nhận góp ý và lời khen nuôi tự mãn phù hợp đời sống người trưởng thành. Bản đi thẳng vào căn cứ hành động và trách nhiệm học; các phần phân loại tu chứng vẫn cần sự chú ý hơn một bài phổ thông ngắn.",
+        "clarity": "Mục completed đối chiếu người hoàn tất với trainees, rồi mục further gom lý do tu tiếp mà chỉ rõ áp dụng từng hạng. Một số câu về sáu cảm thọ và mục đích phạm hạnh dài, khiến nhịp đọc chưa hoàn toàn nhẹ.",
+        "editorial_separation": "Hai mục example/practice tách rõ khỏi teaching. Lời giải về ứng dụng chăm sóc thân sau lời nguyện không bị gán là nguyên văn kinh; phần so sánh nguồn chỉ nằm trong hồ sơ kiểm.",
+        "practical_integrity": "Gợi ý nghe, ghi nhớ, xét nghĩa rồi thử làm nối đúng chuỗi tu học. Ví dụ nói rõ không biến mọi khó chịu thành điều phải chịu; không hứa kết quả giải thoát từ việc nhận góp ý ở nơi làm việc.",
+        "technical_integrity": "Đọc toàn 20 mục cùng map trước lấy fingerprint. Audit sạch và sourceHashes khớp đủ năm tệp đã đọc; các tham chiếu chung của năm hạng tu tiếp hợp lệ. Kiểm trang xuất bản do root thực hiện khi tích hợp."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root/writer_a sau khi /root/writer_c biên soạn; đã đọc đầy đủ năm nguồn thực, toàn map và cả ba bản. Không phát hiện chỉnh nội dung mới cần yêu cầu trước chốt. Không có thử đọc với người thật hoặc phê chuẩn chuyên gia Pāli.",
+      "contentHash": "203004302b9c42aece077a5c52985bf9aeba6afe988a09d8b148c85af6ea2a4d",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn70.html",
+          "sha256": "552b7fd8007f2a9a60fbb394887e4f6ef052eb7b47d6ef4d3d811a49bdb556bb"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn70_root-pli-ms.json",
+          "sha256": "bd6838a240290152f163aee3169711491f47c0ec493f8fbd5d665842e20336d6"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn70_translation-en-sujato.json",
+          "sha256": "8e3f952ba68de47c61925ce2880d89b9d08159a2c11aebf71af7b1dd4e9f4b56"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn70_comment-vi-project.json",
+          "sha256": "5b8c0d105d0dda02a43086ea567d5403a7793e98ca7a890cb36ab6a67d1e889a"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn70_translation-vi-project.json",
+          "sha256": "97903be8b84df0eeef85d73c4d42d1fc298f756e9e3a347ac002e26664881538"
+        }
+      ]
+    },
+    {
+      "id": "18083549-2285-44fd-84b2-a84dfbaf167e",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.4,
+        "audience_fit": 9.5,
+        "clarity": 9.4,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Bản lớn tuổi được đối chiếu toàn năm nguồn và 203 khóa. Không biến nhóm Assaji–Punabbasuka thành chỉ hai người, giữ đủ ba lượt sự việc và mười mốc mục lục cuối phẩm.",
+        "semantic_fidelity": "Cả bảy hạng giữ đúng quan hệ với vô sắc và lậu hoặc; quán đạt khác tín giải thoát, tùy pháp hành khác tùy tín hành. Hai loại sau theo chữ một số của nguồn ghim, với bất đồng bản tham khảo ghi ở checkpoint.",
+        "core_coverage": "Hai mươi lăm mục bao phủ 39 ý. Giữ năm động từ biết/thấy/hiểu/chứng ngộ/chạm bằng tuệ, đủ sáu lời khuyên, tám nét người hoàn tất, mười ba bước và cả mười hai điều nhóm chưa có.",
+        "logic_context": "Các câu về chưa biết là giả định, các câu về nhóm chưa học là khẳng định; người có tin ở cuối đã thâm nhập và sống theo. Giữ điều kiện còn dư y trước Bất hoàn và lý do không thể buông lung của hai hạng đã hoàn tất.",
+        "terminology": "Phạm hạnh, lậu hoặc, hữu, chánh trí, thân chứng và năm căn có giải nghĩa trong mạch. Niệm/định/tinh tấn được gọi trước khi mở đầy đủ ở mục tùy pháp hành; người mới học vẫn có thể cần nhìn lại đoạn giải.",
+        "audience_fit": "Bảy hạng được chia thành từng mục riêng, giọng điềm tĩnh và ví dụ trò chuyện tránh chê bai người vắng mặt phù hợp việc suy ngẫm đời thường. Không mặc định người lớn tuổi kém khả năng hay đã có nền giáo lý.",
+        "clarity": "Các đoạn ngắn hơn ở phần phân loại giúp lần theo từng hạng. Hai đoạn về sáu cảm thọ vẫn chứa nhiều vế tăng/giảm, còn các danh từ gần nghĩa đòi hỏi đọc chậm; chưa có người đọc thật xác nhận nhịp tiếp nhận.",
+        "editorial_separation": "Chuyện trò hằng ngày và bài tập một việc nhỏ có nhãn hiện đại. Lời nhắc chăm thân nằm ở câu ứng dụng sau lời nguyện, không thay hoặc làm mất các hình ảnh da, gân, xương, thịt, máu của kinh.",
+        "practical_integrity": "Thực hành hướng đến quan sát cách nói và sự chân thật, không ép thay lịch ăn hay sức khỏe. Người đọc được mời học một ý rồi ứng dụng nhỏ; các chứng đạt và hai quả được giữ trong phạm vi tu hành của nguồn.",
+        "technical_integrity": "Đã đọc toàn 25 mục và map 39 ý; audit canonical sạch, 203 khóa đầy đủ, hash nội dung và năm hash nguồn đúng bản freeze. Không ghi metadata hay nhận là đã kiểm bản dựng HTML."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root/writer_a sau khi /root/writer_c biên soạn; đã đọc đầy đủ năm nguồn thực, toàn map và cả ba bản. Không phát hiện chỉnh nội dung mới cần yêu cầu trước chốt. Không có thử đọc với người thật hoặc phê chuẩn chuyên gia Pāli.",
+      "contentHash": "fc00b5163e64437139bd0613cad64495bec32db06aa58aa5f931d051ffb4f8c6",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn70.html",
+          "sha256": "552b7fd8007f2a9a60fbb394887e4f6ef052eb7b47d6ef4d3d811a49bdb556bb"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn70_root-pli-ms.json",
+          "sha256": "bd6838a240290152f163aee3169711491f47c0ec493f8fbd5d665842e20336d6"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn70_translation-en-sujato.json",
+          "sha256": "8e3f952ba68de47c61925ce2880d89b9d08159a2c11aebf71af7b1dd4e9f4b56"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn70_comment-vi-project.json",
+          "sha256": "5b8c0d105d0dda02a43086ea567d5403a7793e98ca7a890cb36ab6a67d1e889a"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn70_translation-vi-project.json",
+          "sha256": "97903be8b84df0eeef85d73c4d42d1fc298f756e9e3a347ac002e26664881538"
+        }
+      ]
+    }
+  ]
+}

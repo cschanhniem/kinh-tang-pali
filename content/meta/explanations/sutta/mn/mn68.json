@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn68",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "1499e468-67db-4031-91a5-f885452cd457"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "52dbac90-ed90-4205-b492-5d44f2e910d3"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "93977668-f6c7-491a-979b-05c645971470"
+    }
+  },
+  "reviews": [
+    {
+      "id": "1499e468-67db-4031-91a5-f885452cd457",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.5,
+        "audience_fit": 9.2,
+        "clarity": 9.3,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu đủ năm nguồn và 177 khóa. Bảy tên theo Pāli, bảy trạng thái tâm và bốn điều riêng tại18.7 đều được giữ; chín ô Anh trống không làm bằng chứng. Câu hướng tâm đến mục đích ấy tránh cách ghép Tathata của HTML.",
+        "semantic_fidelity": "Bản trẻ giữ động lực thoát khổ, niềm vui do tu tập và lý do Phật nói về đệ tử qua đời. Noi gương phẩm chất hướng đến mục tiêu, không phải nghe tên người tốt là có cùng thành tựu; hỷ lạc viễn ly không bị biến thành vui vì đồ chơi.",
+        "core_coverage": "Toàn14 mục có nội dung cho đủ37 ý. Các nhóm tu sĩ nam/nữ mỗi nhóm bốn trường hợp, cư sĩ nam/nữ mỗi nhóm ba; đủ thấy hoặc nghe, năm nét được biết và các điều hồi tưởng, kể cả ngoại lệ bốn điều.",
+        "logic_context": "Phân biệt giả định lậu hoặc chưa hết bị bác với lời đã hết được xác nhận. Tịch diệt nơi ấy vẫn ở tương lai, Nhất lai còn một lần, Dự lưu chắc hướng giác ngộ. Lời cuối chỉ nêu Anuruddha vui mừng.",
+        "terminology": "Hỷ lạc, dục, chánh trí, kiết sử và các mức tu được mở vừa đủ trong mạch. Đã yêu cầu thêm bất thiện là không lành rồi đọc lại trọn mục joy; xả trong danh mục noi gương không bị lẫn với sự quân bình.",
+        "audience_fit": "Lời kể và chuyện bạn nhận lỗi tạo điểm gần kinh nghiệm trẻ. Tuy vậy14 trường hợp cùng nhiều mức thành tựu còn xa vốn sống và cần đọc từng đoạn; chưa có trẻ thật thử đọc để xác nhận mức tiếp nhận.",
+        "clarity": "Phần hỏi, im lặng, hỏi trực tiếp và nguyên do xuất gia dễ theo. Các trường hợp sau được nhóm theo người nghe nên đỡ rời rạc, nhưng mục về tu sĩ và cư sĩ vẫn chứa nhiều danh mục; độ nhẹ của nhịp đọc chưa đồng đều.",
+        "editorial_separation": "Chuyện bạn nói thật và gợi ý thực hành có nhãn biên soạn. Không thêm lời hiện đại vào miệng Phật, không coi người bạn trong ví dụ là vị đã chứng quả hoặc dùng ví dụ thay các trường hợp gốc.",
+        "practical_integrity": "Gợi ý nhớ một phẩm chất tốt và thực hiện một việc nhỏ hướng trẻ tới hành động cụ thể. Không hứa được sinh nơi nào từ một lần noi gương, không ép trẻ tự nhận hoặc đánh giá quả vị của người khác.",
+        "technical_integrity": "Đọc toàn37 ý và14 mục, đọc lại toàn joy sau sửa. Audit canonical không lỗi, năm SHA256 khớp lượt đọc,177 khóa phủ đúng thứ tự và hash cuối6af0ca36 được kiểm; build sẽ kiểm riêng khi tích hợp."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm đọc độc lập bởi tác tử /root sau tác tử soạn; chưa có thử đọc với người thật hoặc phê chuẩn học giả Pāli. Giới hạn mật độ danh mục và thuật ngữ được phản ánh trong điểm.",
+      "contentHash": "6af0ca36442ba4e02d2b88e7c50a87e0d389f1d9dd285d3e2504b319e4277220",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn68.html",
+          "sha256": "cae1832cdaefc9ab64bddac9652087fc15cc587d9d54e507ac4f2e19ad900cad"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn68_root-pli-ms.json",
+          "sha256": "b6fda091668a4e603f8792ddfff5d8121ad44cbe1fc6414ef6bb1471dac0a51a"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn68_translation-en-sujato.json",
+          "sha256": "fe3a286ea40ed6ec1a27fb5b19e7b110219dd6bc91b373278862f35e6488b53e"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn68_comment-vi-project.json",
+          "sha256": "1701a6faf013c794642611a355421f6200fce9b22ef9ace3caadf6481cdde585"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn68_translation-vi-project.json",
+          "sha256": "0850a2b198b8514080eb24cb736b98bea54217e4c8b141df90613280fb228f8a"
+        }
+      ]
+    },
+    {
+      "id": "52dbac90-ed90-4205-b492-5d44f2e910d3",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.6,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đọc trọn Pāli/Việt/Sujato,12 chú thích và HTML SC1–36 cùng credits. Giữ các tên theo Pāli, ngoại lệ18.7 và hướng nghĩa tadatthāya; không nhập lối mở của bản Anh hoặc HTML khi khác văn bản gốc đang dùng.",
+        "semantic_fidelity": "Động lực xuất gia, thành tựu hỷ lạc và tình trạng đã đoạn lậu được phân biệt. Lời báo nơi đến của người quá cố phục vụ việc hướng tâm và sống an lạc lâu dài, không thành thủ thuật gây danh tiếng hay lời xác nhận mọi người nghe đều chứng đắc.",
+        "core_coverage": "Mười bốn mục bao phủ37 ý: ba lượt hỏi/im, năm lý do bị phủ định, bảy điều trong hai trạng thái tâm, bốn cách suy xét, hai dạng hình ảnh thốt nốt và đủ14 trường hợp. Các danh mục lặp có nội dung thực, không chỉ trỏ liên kết.",
+        "logic_context": "Tách rõ điều Phật hỏi họ có nghĩ hay không với câu họ trả lời và lời Phật xác nhận. Năm nét người nghe biết về người đã mất khác danh mục hồi tưởng;18.6 giữ giới còn18.7 chỉ bốn điều. Điều kiện và thời của từng mức tu không bị gộp.",
+        "terminology": "Bất thiện đã được mở là không lành trong mục joy sau yêu cầu đọc chéo. Các thuật ngữ hỷ lạc, lậu hoặc, chánh trí, hóa sinh, Nhất lai/Dự lưu có lời giải; cāga được giữ về buông giữ, chia sẻ thay vì trạng thái xả trong định.",
+        "audience_fit": "Liên hệ người hướng dẫn có phẩm chất và việc nhận trách nhiệm phù hợp đời sống trưởng thành. Mục đích chấm dứt khổ vẫn hiện rõ bên cạnh ví dụ công việc; khối danh mục tu học đòi hỏi sự chú ý và chưa được thử đọc đại diện.",
+        "clarity": "Lý do tu, các trở ngại, lời về Phật và tác dụng của gương đệ tử được nối thành mạch. Việc nhóm14 trường hợp theo bốn loại người giúp so sánh, dù phần nhắc nhiều tầng thành tựu vẫn cần đọc chậm.",
+        "editorial_separation": "Ví dụ người hướng dẫn và gợi ý chọn phẩm chất đứng trong mục biên soạn. Những mô tả thành tựu ở phần giảng bám lời kinh; ví dụ hiện đại không được dùng để khẳng định chứng quả hay đổi lời kể về tái sinh thành ẩn dụ đơn thuần.",
+        "practical_integrity": "Gợi ý học từ một phẩm chất rồi thực hiện trách nhiệm cụ thể có thể áp dụng vừa sức. Giữ ranh giới giữa noi gương hằng ngày và thành tựu giải thoát; không biến sự ngưỡng mộ người quá cố thành tin theo mọi việc họ từng làm.",
+        "technical_integrity": "Đã đọc toàn37 ý và14 mục, sau sửa đọc lại trọn adults/joy. Nguồn và cấu trúc sạch,177 khóa đầy đủ, hashf4b66c91 hiện hành; hồ sơ chấm lấy sourceHashes từ audit, không tuyên bố đã kiểm trang trước bước dựng."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm đọc độc lập bởi tác tử /root sau tác tử soạn; chưa có thử đọc với người thật hoặc phê chuẩn học giả Pāli. Giới hạn mật độ danh mục và thuật ngữ được phản ánh trong điểm.",
+      "contentHash": "f4b66c91c6d3a56fa4378836aaaeb607d5ca5b6f9c4c89f07d7eadce0fb0dca5",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn68.html",
+          "sha256": "cae1832cdaefc9ab64bddac9652087fc15cc587d9d54e507ac4f2e19ad900cad"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn68_root-pli-ms.json",
+          "sha256": "b6fda091668a4e603f8792ddfff5d8121ad44cbe1fc6414ef6bb1471dac0a51a"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn68_translation-en-sujato.json",
+          "sha256": "fe3a286ea40ed6ec1a27fb5b19e7b110219dd6bc91b373278862f35e6488b53e"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn68_comment-vi-project.json",
+          "sha256": "1701a6faf013c794642611a355421f6200fce9b22ef9ace3caadf6481cdde585"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn68_translation-vi-project.json",
+          "sha256": "0850a2b198b8514080eb24cb736b98bea54217e4c8b141df90613280fb228f8a"
+        }
+      ]
+    },
+    {
+      "id": "93977668-f6c7-491a-979b-05c645971470",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đủ năm nguồn thực với177 khóa và12 chú thích, không suy nội dung từ chín ô Anh trống. Bản giữ bảy tên theo Pāli, bốn điều ở18.7 và mục đích của tadatthāya, tránh cả việc trộn dị bản tên lẫn thêm một điều theo mẫu Anh.",
+        "semantic_fidelity": "Sự an vui trong tu tập, bốn cách suy xét và việc học từ phẩm chất người mất đều giữ mục tiêu riêng. Bản không đồng nhất tưởng nhớ với đã giải thoát, không rút lời kinh về nơi đến thành lời an ủi chung thiếu điều kiện.",
+        "core_coverage": "Mười sáu mục bao phủ37 ý; tách chưa có và đã có niềm vui để theo rõ hai nhánh. Đủ bốn nhóm người với14 trường hợp, các mức chứng đạt, biết nhờ thấy hoặc nghe và ngoại lệ trong danh mục hồi tưởng.",
+        "logic_context": "Các điều Phật không nhằm tới khi nói về đệ tử được tách khỏi lợi ích thật. Hóa sinh rồi sẽ tịch diệt tại đó, một lần trở lại rồi hết khổ, và Dự lưu chắc hướng giác ngộ có mức và thời riêng; không thêm sự kiện thành tựu cho người nghe.",
+        "terminology": "Mở hỷ lạc, dục, lậu hoặc, chánh trí và các mức tu gần chỗ dùng. Đã đọc lại toàn not-yet sau khi thêm bất thiện là không lành. Nhiều thuật ngữ cổ vẫn cần ghi nhớ giữa các mục, nhưng cāga và xả quân bình không bị đánh đồng.",
+        "audience_fit": "Nhịp16 mục và chuyện nhớ phẩm chất của người bạn phù hợp đọc thong thả và kinh nghiệm cộng đồng. Người đọc vẫn được xem là có khả năng học và hành động, không mặc định tuổi cao đi cùng bệnh yếu; chưa có thử đọc người thật.",
+        "clarity": "Hai trạng thái niềm vui được chia riêng, sau đó nối bốn cách suy xét và lý do nói về người mất. Các trường hợp lặp được nhóm nhất quán; vài đoạn về quả vị vẫn dày thông tin nên cần dừng sau từng mục.",
+        "editorial_separation": "Việc nhớ bạn và giữ phẩm chất đáng học là liên hệ biên soạn có nhãn, không phải sự kiện trong kinh. Mục làm rõ không suy diễn phẩm giá hay quả vị từ tuổi tác và không đổi mô tả trong nguồn thành lời hứa cho người đọc.",
+        "practical_integrity": "Gợi ý chọn một phẩm chất và một việc trong tầm tay giữ quyền chủ động, có cả học hỏi và rộng lòng giúp người. Không hứa tránh mọi đau buồn hoặc được cùng nơi tái sinh với người được tưởng nhớ.",
+        "technical_integrity": "Đọc toàn37 ý và16 mục, đọc lại not-yet sau sửa. Năm dấu nguồn khớp, map177 khóa đúng thứ tự, audit sạch và hash0699efd1 được chốt trên bản đã đọc; kiểm HTML thuộc chứng cứ tích hợp riêng."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm đọc độc lập bởi tác tử /root sau tác tử soạn; chưa có thử đọc với người thật hoặc phê chuẩn học giả Pāli. Giới hạn mật độ danh mục và thuật ngữ được phản ánh trong điểm.",
+      "contentHash": "0699efd15653c7a653c169213f7a91fb3f0aa4dd05807bd249164d59d9702527",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn68.html",
+          "sha256": "cae1832cdaefc9ab64bddac9652087fc15cc587d9d54e507ac4f2e19ad900cad"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn68_root-pli-ms.json",
+          "sha256": "b6fda091668a4e603f8792ddfff5d8121ad44cbe1fc6414ef6bb1471dac0a51a"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn68_translation-en-sujato.json",
+          "sha256": "fe3a286ea40ed6ec1a27fb5b19e7b110219dd6bc91b373278862f35e6488b53e"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn68_comment-vi-project.json",
+          "sha256": "1701a6faf013c794642611a355421f6200fce9b22ef9ace3caadf6481cdde585"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn68_translation-vi-project.json",
+          "sha256": "0850a2b198b8514080eb24cb736b98bea54217e4c8b141df90613280fb228f8a"
+        }
+      ]
+    }
+  ]
+}
