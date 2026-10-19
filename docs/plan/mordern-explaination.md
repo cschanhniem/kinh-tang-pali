@@ -322,7 +322,7 @@ Các kiểm tra mới nối vào validator/tests/CI qua `explanations:check`; `e
 
 **Cập nhật theo chỉ dẫn ngày 2026-10-18:** người dùng yêu cầu “don't need to check actions, just continue next 10 texts”. Vì vậy, tiếp tục các lô 10 bài, đối chiếu và chấm điểm từng bản, tạo PR và merge sau kiểm tra local; không kiểm tra hoặc chờ GitHub Actions. Báo cáo chỉ ghi những kết quả thực sự đã kiểm.
 
-**Tiến độ khi đóng lô 16 (2026-10-19):** Đã có đủ ba bản được duyệt cho **160/186 bài, 480/558 bản** theo thứ tự kế hoạch. [Báo cáo lô 16 — MN151–MN152 và DN1–DN8](../modern-explanations/batch-16-mn151-mn152-dn1-dn8.md) ghi điểm và phạm vi kiểm thực tế. Báo cáo CLI không có lỗi diễn giải; đánh giá hiện hành khớp nội dung và nguồn. Lô kế tiếp là **DN9–DN18**.
+**Tiến độ khi đóng lô 17 (2026-10-19):** Đã có đủ ba bản được duyệt cho **170/186 bài, 510/558 bản** theo thứ tự kế hoạch. [Báo cáo lô 17 — DN9–DN18](../modern-explanations/batch-17-dn9-dn18.md) ghi điểm và phạm vi kiểm thực tế. Báo cáo CLI không có lỗi diễn giải; đánh giá hiện hành khớp nội dung và nguồn. Lô kế tiếp là **DN19–DN28**.
 
 | Chặng | Công việc và đầu ra | Điều kiện đi tiếp |
 | --- | --- | --- |

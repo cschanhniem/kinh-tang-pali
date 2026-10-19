@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn18",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "abba741f-75c4-4f2d-957c-ac663ad49051"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "194b3ff5-bbc2-4597-8133-12932409a1f9"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "1ab0e210-c657-4414-a538-5e944ba49c67"
+    }
+  },
+  "reviews": [
+    {
+      "id": "abba741f-75c4-4f2d-957c-ac663ad49051",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.5,
+        "terminology": 9.2,
+        "audience_fit": 9.1,
+        "clarity": 9.2,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đủ năm nguồn và toàn bản trẻ. concern sau sửa giữ Đức Phật chưa tuyên bố ở 4.5, không chỉ Ānanda chưa nghe; reading ghi rõ hai cách hiểu suññā ở Việt dự án/HTML và Sujato. bimbisara giữ chiều có thể làm vua người sau đời Vessavaṇa ở 10.5; forms giữ 33 theo 20.1, không theo HTML ghi 30.",
+        "semantic_fidelity": "Ba nhóm Nātika giữ điều đã đoạn, điều làm yếu và kết quả khác nhau; Janavasabha còn mong Nhất lai. forms có cả quy y và giới hạnh; dhamma giữ hơn 2.400.000 Dự lưu rồi nói riêng ở đây có Nhất lai. Thần thông, tri kiến và giải thoát vẫn là thành tựu tôn giáo, không biến thành kỹ năng giao tiếp.",
+        "core_coverage": "47 đơn vị phủ đủ 299 khóa đúng một lần. 25 phần giữ mười xứ, ba nhóm với chữ hơn và các lần thuật, Bimbisāra, bốn vua cùng phương/hướng, hai lần kệ đủ nội dung, tám phẩm giọng, 33 thân, sáu nhóm trời và Càn-thát-bà. Đủ bốn như ý túc, ba cơ hội, bốn niệm xứ, bảy trợ duyên, mười chi và chuỗi truyền cho bốn chúng.",
+        "logic_context": "Phân biệt Ānanda suy nghĩ/thưa, Phật kể, Janavasabha thuật và Phạm thiên giảng; transmission giữ phần Phật tự thắng trí. Ba cơ hội đều có nghe, suy xét, thực hành trước kết quả; sau sửa không ép mức hỷ duyệt hơn lạc thành trình tự thời gian. Niệm xứ giữ chiều nội quán, định-trong sáng rồi tri kiến người khác.",
+        "terminology": "Có mở nghĩa Dạ-xoa, kiết sử, Nhất lai, Dự lưu, phạm hạnh, hỷ duyệt, các chi hỗ trợ và thắng trí. Tâm chuyên nhất thay tâm nhất trí giúp giữ ekaggatā. Nhiều tên trời và các căn vẫn đòi hỏi trợ giúp khi trẻ đọc; không giả nhận mọi thuật ngữ đã hoàn toàn dễ hiểu.",
+        "audience_fit": "25 phần kể chuyện bằng người nói và các nhóm nhỏ, ví chen ngang gần trải nghiệm trẻ. Bài tập tên người truyền giúp theo dõi câu chuyện nhiều tầng. Số tên riêng và danh mục vẫn cao, phù hợp đọc nhiều lượt với người lớn hơn đọc liền một lần; chưa có trẻ thật thử đọc.",
+        "clarity": "Các đoạn tên, tự xưng, nguồn biết và hội trời đi theo trật tự rõ; bimbisara nhắc mong đạt khác đã đạt. Câu người chưa được tuyên bố và việc không lạ đã có chủ thể cụ thể. Các đoạn về bảy trợ duyên và con số Magadha vẫn tương đối dày, nên chưa chấm độ rõ gần tuyệt đối.",
+        "editorial_separation": "reading là clarification, example tự nhận do biên soạn, practice là bài tập riêng. Hai cách hiểu suññā được công khai, các hiện tượng siêu thường được kể trong nguồn và không bị thêm xác nhận thực nghiệm. Ví đời thường không đặt vào miệng Phật hoặc lấy thay toàn bộ phạm hạnh.",
+        "practical_integrity": "Ví nói chuyện chỉ gợi nghe, nghĩ và thực hành, không hứa thần thông hoặc biết tái sinh. Bài tập giữ năm tên truyền đạt và ghi thêm tự thắng trí bên Đức Phật; không dạy trẻ đoán cảnh giới người mất. Phần niệm xứ phân biệt tri kiến nguồn nêu với phỏng đoán về bạn mình.",
+        "technical_integrity": "Audit cuối errors/sourceErrors rỗng; năm SHA đúng; 299 khóa map không thiếu/thừa/lặp, 47 dải khóa đều liên tục, 25 phần hợp schema. Diff --check sạch, mọi sửa đã đọc lại trước tính hash. Review không thay thế thử đọc với trẻ hoặc gate toàn kho của root."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập của agent B đối với bản do agent C soạn; khác agent nhưng cùng GPT-6 Astra Pro, chưa có chuyên gia Pāli con người hoặc thử đọc với ba nhóm độc giả thật. Đã đọc đủ năm nguồn DN18: toàn bộ 299 khóa Pāli, Anh Sujato thô (251/299 ô có văn), Việt dự án, toàn HTML Minh Châu kể cả ghi công (446 nút văn bản trích ra), 11 comments; toàn bộ 47 đơn vị ý và ba bản gồm 25/26/35 phần. Không dùng phần Anh ghép như nguồn đọc độc lập, không nhập công thức niệm xứ hoặc chú giải từ bài khác. Sau kiểm đã giữ đúng việc Đức Phật chưa tuyên bố ở trẻ/lớn tuổi, làm rõ phạm vi anacchariyaṁ, đổi tâm nhất trí thành tâm chuyên nhất ở trẻ, thêm tư thế kiết-già ở vài lần ngồi, sửa lỗi thiếu đại từ và nêu đích danh nguồn HTML ở câu đảo chiều. Các cơ hội an lạc giữ bhiyyo là mức hơn, không thêm diễn tiến lạc rồi hỷ duyệt. Đã đọc lại mọi phần sửa, không còn lỗi chặn được phát hiện. Pin Pāli/Sujato 11c9d708978cde8ba61096d8a75f7ddfb846f639, HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457, Việt/chú thích 640b1410c7b2b50ee81d417886b75605189ea0a2. Lựa chọn suññā theo cách đọc Sujato được ghi minh bạch, không coi là dữ kiện dân số. Nhận định độ dễ đọc là đánh giá biên tập, không phải khảo sát. Root ghi review/apply và chạy gate toàn lô. Hash nội dung children đã đọc và chốt: 66bd101b4289f0eed88660a5f7e94f72e5a4a9cff0ff097996908d1a1285341e.",
+      "contentHash": "66bd101b4289f0eed88660a5f7e94f72e5a4a9cff0ff097996908d1a1285341e",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn18.html",
+          "sha256": "e84ec435bfc15115cea80d25d23922f9e88e9a7a678432e8e929bef1f56b774b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+          "sha256": "ee23e439307ae0016af71ba727ac67b43516f4aaedf6eec7749b203322ac0078"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
+          "sha256": "cd7e9e45f07bccce867331b5e83c8aeddaaddefef496eb95f091c6808dd0dcc9"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn18_comment-vi-project.json",
+          "sha256": "3c692685db1851fdcca1b75727dab59b84a301bdd148f0f3b169ce86eee709a9"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn18_translation-vi-project.json",
+          "sha256": "60b24368dd1791efc5ef8afecc7ef6d3f12fc78738cfa37deed9a6385cb7b4ca"
+        }
+      ]
+    },
+    {
+      "id": "194b3ff5-bbc2-4597-8133-12932409a1f9",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.4,
+        "audience_fit": 9.3,
+        "clarity": 9.4,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đã đối chiếu toàn Pāli, raw Sujato, Việt dự án, HTML Minh Châu và 11 comments. text-notes nhận diện lựa chọn suññā, 10.5, anacchariyaṁ, thân thô và 33 hóa thân; supporting-samadhi nêu đúng HTML đảo chiều 27.8. Không lấy dạng TMC về thô xấu, không ngồi hoặc đen-trắng đồng đều làm nghĩa nguồn Pāli.",
+        "semantic_fidelity": "Giữ ba nhóm quả ở đầu và Janavasabha biết không đọa nhưng chưa tự nói đã Nhất lai. magadhans không dùng hóa sinh để đổi Dự lưu thành Bất lai, giữ hơn 2.400.000 và nhóm Nhất lai riêng. mindfulness-body không bỏ người khác khỏi đối tượng tri kiến; cửa bất tử và chánh giải thoát không bị hạ thành sự thoải mái thông thường.",
+        "core_coverage": "26 phần giữ đủ 47 đơn vị và 299 khóa: mười địa phương, các lần nghe/thuật, đủ bốn nhóm được vua làm lợi, hội trời và vị trí, kệ của hai người, tám phẩm giọng, sáu cảnh giới và mức Càn-thát-bà. Bốn nền đều có định và hành tinh cần; ba thời thần thông, ba cơ hội, niệm xứ, bảy/mười chi và bốn chúng ở kết đủ.",
+        "logic_context": "Điểm mạnh là nhận rõ lời đang ở tầng nào và phạm vi người nói biết: Phật tự biết trước và sau lời thuật, Janavasabha trực tiếp nghe Vessavaṇa, Phạm thiên không đếm nhóm khác vì ngại nói dối. Ba cơ hội giữ đủ điều kiện, năm cặp biết/không biết ở cơ hội ba; chuỗi chánh kiến tới chánh giải thoát đi đúng một chiều.",
+        "terminology": "Như lý tác ý, hành thô, dục trong như ý túc, định với hành tinh cần, nhất tâm, y chỉ/tư lương và thắng trí đều có giải thích. Không lẫn tham dục với dục tu tập hoặc hành thô với một danh mục nghiệp ác. Sau sửa bhiyyo giữ so sánh hơn lạc; vài thuật ngữ cảnh giới vẫn cô đọng, không giả coi là từ phổ thông.",
+        "audience_fit": "Mạch theo luận điểm và tầng truyền đạt phù hợp người lớn đọc đối chiếu; các lưu ý nguồn gắn những chỗ thực sự đổi nghĩa. Ví bất đồng và thực hành nhìn lại lời nói, hành động có giới hạn rõ. Tên riêng cùng các lần thuật lặp còn đòi hỏi chú ý; chưa có độc giả đại diện thử đọc.",
+        "clarity": "Tiêu đề nguồn biết, các cơ hội và giới hạn đếm giúp chia khối văn dài. Đã sửa đại từ thiếu trong niệm xứ, tư thế của 33 thân và phạm vi câu không lạ. Các câu giải thích có điều kiện khá rõ, tuy một số phần phản biện cách đọc làm nhịp chuyện chậm.",
+        "editorial_separation": "Các quyết định đối chiếu nằm ở text-notes với hai cách hiểu suññā có nêu lựa chọn. example/practice tách hẳn lời kinh, không biến các hạn chế ứng dụng thành phát biểu lịch sử. Lời Phạm thiên, Sakka, Janavasabha và sự tự thắng trí của Phật được giữ tên chủ thể, không nhập thành tiếng nói của tác giả.",
+        "practical_integrity": "Ứng dụng chọn lời nói, hành động, sinh sống hoặc chú ý để xem lại, không tự nhận thần thông. Ví đời thường chỉ giúp nhớ nghe-tác ý-thực hành, không thay thành tựu tâm linh hoặc biết nơi tái sinh. Không thấy phần nào khuyến khích áp đặt một phỏng đoán nội tâm lên người khác.",
+        "technical_integrity": "Audit sau sửa sạch errors/sourceErrors và khớp năm dependency SHA; 47 đơn vị phủ 299 khóa đúng một lần, các dải liên tục đúng, 26 phần hợp schema. Diff whitespace sạch; notes gắn hash bản người lớn đã đọc. Người kiểm không ghi/apply metadata hoặc tự nhận đã chạy gate toàn kho."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập của agent B đối với bản do agent C soạn; khác agent nhưng cùng GPT-6 Astra Pro, chưa có chuyên gia Pāli con người hoặc thử đọc với ba nhóm độc giả thật. Đã đọc đủ năm nguồn DN18: toàn bộ 299 khóa Pāli, Anh Sujato thô (251/299 ô có văn), Việt dự án, toàn HTML Minh Châu kể cả ghi công (446 nút văn bản trích ra), 11 comments; toàn bộ 47 đơn vị ý và ba bản gồm 25/26/35 phần. Không dùng phần Anh ghép như nguồn đọc độc lập, không nhập công thức niệm xứ hoặc chú giải từ bài khác. Sau kiểm đã giữ đúng việc Đức Phật chưa tuyên bố ở trẻ/lớn tuổi, làm rõ phạm vi anacchariyaṁ, đổi tâm nhất trí thành tâm chuyên nhất ở trẻ, thêm tư thế kiết-già ở vài lần ngồi, sửa lỗi thiếu đại từ và nêu đích danh nguồn HTML ở câu đảo chiều. Các cơ hội an lạc giữ bhiyyo là mức hơn, không thêm diễn tiến lạc rồi hỷ duyệt. Đã đọc lại mọi phần sửa, không còn lỗi chặn được phát hiện. Pin Pāli/Sujato 11c9d708978cde8ba61096d8a75f7ddfb846f639, HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457, Việt/chú thích 640b1410c7b2b50ee81d417886b75605189ea0a2. Lựa chọn suññā theo cách đọc Sujato được ghi minh bạch, không coi là dữ kiện dân số. Nhận định độ dễ đọc là đánh giá biên tập, không phải khảo sát. Root ghi review/apply và chạy gate toàn lô. Hash nội dung adults đã đọc và chốt: 4692085ae1c42a460c73b7bc7deccc64fcecc3135712f09f02223046de8b95a4.",
+      "contentHash": "4692085ae1c42a460c73b7bc7deccc64fcecc3135712f09f02223046de8b95a4",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn18.html",
+          "sha256": "e84ec435bfc15115cea80d25d23922f9e88e9a7a678432e8e929bef1f56b774b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+          "sha256": "ee23e439307ae0016af71ba727ac67b43516f4aaedf6eec7749b203322ac0078"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
+          "sha256": "cd7e9e45f07bccce867331b5e83c8aeddaaddefef496eb95f091c6808dd0dcc9"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn18_comment-vi-project.json",
+          "sha256": "3c692685db1851fdcca1b75727dab59b84a301bdd148f0f3b169ce86eee709a9"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn18_translation-vi-project.json",
+          "sha256": "60b24368dd1791efc5ef8afecc7ef6d3f12fc78738cfa37deed9a6385cb7b4ca"
+        }
+      ]
+    },
+    {
+      "id": "1ab0e210-c657-4414-a538-5e944ba49c67",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.4,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc trọn năm nguồn thực cùng 47 ý và toàn bản lớn tuổi. hear sau sửa theo 4.5 về Đức Phật chưa tuyên bố; notes phân biệt hai cách hiểu suññā có nêu tên nguồn. identity giữ chiều 10.5, why-visit giữ việc trực tiếp nghe không lạ; forms và sequence giữ 33 thân và chiều 27.8 theo Pāli.",
+        "semantic_fidelity": "Ba nhóm Nātika giữ đủ điều kiện và kết quả; việc biết không đọa và mong đạt của Janavasabha không nhập thành quả Nhất lai đã đạt. number giữ hơn 2.400.000 Dự lưu, thêm riêng các vị Nhất lai và nhóm không đếm, không tự xếp quả. Quán nội thọ/tâm/pháp vẫn đưa đến tri kiến người khác theo điều kiện, không đổi thành suy đoán tâm lý.",
+        "core_coverage": "35 phần đầy đủ 299 khóa/47 ý, gồm ba lần thuật nội dung Nātika, hai lần trình bày về vua, bốn vị trí hội, kệ và các ví tượng vàng/vua quán đảnh/người ngồi vững. Có đủ tám phẩm giọng, sáu nhóm trời, bốn như ý túc, ba cơ hội với năm cặp phẩm chất, bốn niệm xứ, bảy hỗ trợ, chuỗi mười và bốn chúng.",
+        "logic_context": "Từng lượt kể ghi rõ người nói, giữ Phật đã tự thấy đời sau và còn tự thắng trí khi thuật cho Ānanda. Cơ hội thứ hai không tự quy hành thô thành ác; cơ hội thứ ba giữ vô minh bỏ, minh sinh và so sánh hỷ duyệt hơn lạc sau sửa. Nhất tâm cần bảy hỗ trợ; không thêm chi chánh ngữ từ câu nói đúng ở 27.9.",
+        "terminology": "Kiết sử, dục tu tập, tinh cần, nhất tâm, y chỉ/tư lương và thắng trí được mở nghĩa ngắn. Tái sinh, cảnh giới, tri kiến và chánh giải thoát vẫn dùng theo kinh; ba mươi ba thân khác ba mươi ba nội dung. Hỷ duyệt và một số danh từ nội quán còn tương đối chuyên môn, cần đối chiếu hoặc người hướng dẫn nếu chưa quen.",
+        "audience_fit": "35 phần nhỏ cho phép ngừng và đọc lại theo nhóm; tách riêng ba quả, nguồn biết, hội trời, bảy hỗ trợ và chuỗi mười giúp nhịp chậm. Ví cuộc trò chuyện không gán tuổi cao với yếu kém hoặc sẵn đạo quả. Vẫn có nhiều tên riêng và chưa có người lớn tuổi thực đọc để xác nhận mức phù hợp.",
+        "clarity": "Câu ngắn hơn hai bản còn lại, các đoạn truyền đạt và các con số có chỗ riêng. Đã làm rõ chủ thể chưa tuyên bố, việc không lạ và tư thế sau khi thu hóa thân. Vài câu như các mặt đen-trắng và hỷ duyệt hơn lạc vẫn cần đọc chậm nhưng không còn mơ hồ đảo nghĩa được phát hiện.",
+        "editorial_separation": "notes nêu lựa chọn nguồn riêng; example và practice có nhãn và tự nói giới hạn. Các cảnh giới/thần thông được thuật theo người nói trong kinh, không khẳng định đã kiểm chứng bằng phương pháp khác. Việc Phật tự thắng trí không bị gộp vào chuỗi nghe kể, và các liên hệ gia đình không được trình bày như lời Phật.",
+        "practical_integrity": "Ví đổi cách nói chỉ giúp nhớ ba việc nghe-tác ý-thực hành, không coi cuộc chuyện trò êm là toàn bộ thành tựu. Bài tập chia lượt đọc và chọn điều gần việc làm hôm nay, không đòi hỏi kỹ thuật định sâu. Không khuyến khích đoán tái sinh hay tâm của người thân từ trực giác.",
+        "technical_integrity": "Audit cuối có errors/sourceErrors rỗng, đúng năm SHA nguồn, 47 dải phủ 299 khóa đúng một lần không thiếu/thừa/lặp; 35 phần hợp schema và diff --check sạch. Đã đọc lại mọi thay đổi trước chốt hash. Kết quả này là kiểm biên tập/nguồn/kỹ thuật của agent, không giả đại diện người đọc thật."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập của agent B đối với bản do agent C soạn; khác agent nhưng cùng GPT-6 Astra Pro, chưa có chuyên gia Pāli con người hoặc thử đọc với ba nhóm độc giả thật. Đã đọc đủ năm nguồn DN18: toàn bộ 299 khóa Pāli, Anh Sujato thô (251/299 ô có văn), Việt dự án, toàn HTML Minh Châu kể cả ghi công (446 nút văn bản trích ra), 11 comments; toàn bộ 47 đơn vị ý và ba bản gồm 25/26/35 phần. Không dùng phần Anh ghép như nguồn đọc độc lập, không nhập công thức niệm xứ hoặc chú giải từ bài khác. Sau kiểm đã giữ đúng việc Đức Phật chưa tuyên bố ở trẻ/lớn tuổi, làm rõ phạm vi anacchariyaṁ, đổi tâm nhất trí thành tâm chuyên nhất ở trẻ, thêm tư thế kiết-già ở vài lần ngồi, sửa lỗi thiếu đại từ và nêu đích danh nguồn HTML ở câu đảo chiều. Các cơ hội an lạc giữ bhiyyo là mức hơn, không thêm diễn tiến lạc rồi hỷ duyệt. Đã đọc lại mọi phần sửa, không còn lỗi chặn được phát hiện. Pin Pāli/Sujato 11c9d708978cde8ba61096d8a75f7ddfb846f639, HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457, Việt/chú thích 640b1410c7b2b50ee81d417886b75605189ea0a2. Lựa chọn suññā theo cách đọc Sujato được ghi minh bạch, không coi là dữ kiện dân số. Nhận định độ dễ đọc là đánh giá biên tập, không phải khảo sát. Root ghi review/apply và chạy gate toàn lô. Hash nội dung older-adults đã đọc và chốt: dd829f01c74f98065f4cde6e87bbe2c3733f029e84af274a0d9e3ba1caa22268.",
+      "contentHash": "dd829f01c74f98065f4cde6e87bbe2c3733f029e84af274a0d9e3ba1caa22268",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn18.html",
+          "sha256": "e84ec435bfc15115cea80d25d23922f9e88e9a7a678432e8e929bef1f56b774b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+          "sha256": "ee23e439307ae0016af71ba727ac67b43516f4aaedf6eec7749b203322ac0078"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
+          "sha256": "cd7e9e45f07bccce867331b5e83c8aeddaaddefef496eb95f091c6808dd0dcc9"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn18_comment-vi-project.json",
+          "sha256": "3c692685db1851fdcca1b75727dab59b84a301bdd148f0f3b169ce86eee709a9"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn18_translation-vi-project.json",
+          "sha256": "60b24368dd1791efc5ef8afecc7ef6d3f12fc78738cfa37deed9a6385cb7b4ca"
+        }
+      ]
+    }
+  ]
+}

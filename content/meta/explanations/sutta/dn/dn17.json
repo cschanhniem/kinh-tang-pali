@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn17",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "a5ea5846-6b3b-4dcc-b6c9-8e76d09cd803"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "0b06a6dd-1d5e-45ef-a03c-c286fe918085"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "6d4db00a-44ff-458c-a46d-e4db6f836957"
+    }
+  },
+  "reviews": [
+    {
+      "id": "a5ea5846-6b3b-4dcc-b6c9-8e76d09cd803",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.2,
+        "audience_fit": 9.1,
+        "clarity": 9.1,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc toàn bộ 444 khóa Pāli, mọi ô Anh gốc và Việt dự án, 194 khối HTML gồm ghi công, ba comments. Bản trẻ giữ thành rộng bảy, cột cao mười hai, giường bạc khi tu Phạm trú và bốn Phạm trú cuối bài. Năm nguồn khớp byte; 87 ô Anh trống không được tính là đối chứng riêng.",
+        "semantic_fidelity": "Giữ lời kể đời trước, tu bốn thiền và bốn Phạm trú, vua sinh Phạm thiên rồi lời Phật hướng nhàm chán, ly tham, giải thoát. Không biến toàn bài thành chỉ cần ít đồ hoặc cho quà để được giàu. Câu sáu/bảy được gắn cách đọc của bản Việt; bất định ngữ pháp ở đây chưa được một chuyên gia con người phân xử.",
+        "core_coverage": "Đủ 68 ý qua 43 phần: sáu thành, toàn chuỗi âm thanh, bảy báu/bốn thành tựu, các vật liệu và cặp phối, mười bốn nhóm với riêng vải 84.000 koṭi, ba lượt đối thoại, bốn chặng đời và mười đối chiếu chỉ dùng một. Các lượt lặp quy chiếu rõ mô tả trước, người đọc có thể phải quay lại danh mục dài.",
+        "logic_context": "Giữ nữ báu chưa đạt sắc trời, điều kiện nếu voi/ngựa được thuần, sự quý mến hai chiều và hai lời xin đi chậm. Phân biệt hoàng hậu khuyên bám, vua dạy đổi lời, hoàng hậu thực nói sau lau nước mắt. Đã đọc lại sửa lời Ānanda sẽ lo lễ và Phật không thấy nơi nào cho lần thứ tám, đúng mức nguồn.",
+        "terminology": "Do-tuần, tầm người, tầm cung, koṭi và nāḷi được nhận là đơn vị cổ; tầm/tứ có giải nghĩa, hỷ/lạc được thêm mở nghĩa rồi đọc lại. Các hành, nhàm chán, ly tham và bốn Phạm trú có giải thích. Thiên nhãn, dạ-xoa và nhiều tên cổ vẫn dày với trẻ; chưa có kiểm đọc thực tế.",
+        "audience_fit": "Chia 43 phần với các hình ảnh voi, ngựa, hồ, chiếc hộp đồ chơi giúp theo câu chuyện. Ứng dụng cho phép nói về cảm giác tiếc, không bắt trẻ phủ nhận cảm xúc hoặc phục tùng lời người lớn. Phần kiến trúc dài và những danh mục nhiều lượt khó đọc một lần; phù hợp chia lượt, chưa thử với nhóm trẻ thật.",
+        "clarity": "Tiêu đề theo diễn biến, mỗi báu được tách và ba lần khuyên có tên khác nhau. Phần lâm chung tách lời trong truyện khỏi ứng dụng nên tránh hiểu lẫn. Tuy vậy đoạn vật liệu, số lượng và lời quy chiếu về danh mục trước vẫn nặng; không thể chấm như một truyện ngắn dễ nhớ hoàn toàn.",
+        "editorial_separation": "Các ví hiện đại và gợi ý tặng đồ có kind riêng, giới hạn không thay đời trước hoặc giải thoát. Mục phụ nữ trong bố thí và nữ báu được giữ như lời kể cổ, kèm lời biên tập không áp thành quy tắc hiện đại. Nhãn phần tụng và kinh thứ tư trong phẩm được nêu là nhãn văn bản.",
+        "practical_integrity": "Bản trẻ không biến buông quyến luyến thành bỏ chăm sóc hay làm hại, không chê người khóc; câu chuyện vẫn giữ nước mắt Subhaddā. Cảm thọ êm của vua không được hứa cho mọi người. Gợi ý chia sẻ vừa sức, không giao dịch lấy giàu có/thần lực; hiệu quả ngoài văn bản chưa được kiểm.",
+        "technical_integrity": "Audit cấu trúc/nguồn rỗng lỗi, 68 ý phủ đúng một lần 444 khóa. Mọi ý có phần dạy/làm rõ, nguồn và tooling hợp lệ; hash mới của bản trẻ được đọc lại sau ba sửa. Đây là kiểm bản ghi và input review, không thay build, HTML hay record/apply của root."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm chéo độc lập về vai trò: tác giả B và người kiểm C đều dùng GPT-6 Astra Pro (gpt-6-astra-pro), không phải hai mô hình hay hội đồng con người. Người kiểm thực đọc trọn năm nguồn DN17, đủ 68 ý/444 khóa, cả ba bản; đọc lại ba phần trẻ đã sửa về sẽ lo lễ, không thấy nơi nào và nghĩa hỷ/lạc. Pāli/Sujato pin 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457; project/comments pin 640b1410c7b2b50ee81d417886b75605189ea0a2. Không thử với độc giả thật, không chuyên gia Pāli con người, không tự chấm bài mình soạn. Hash children cuối đã đọc: b807ff609c91c67b434b536d6d43a1176b3b24ac773f6ecfb39da663bd722d58. Chỉ gắn điểm với đúng nội dung và nguồn này; root ghi/apply qua cổng riêng.",
+      "contentHash": "b807ff609c91c67b434b536d6d43a1176b3b24ac773f6ecfb39da663bd722d58",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn17.html",
+          "sha256": "db283500e4b172ea9452f3adddfada6943095747c7b7ca2ccf38300d34f56fa0"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
+          "sha256": "cd14733c1b1818e024d96a74cee5400de4c1b3f8e939f995c291fe57f9d7352c"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
+          "sha256": "ed1fade554a02558225c5baa09f52360745a5fb5a6ef0e064016e748cd5138ab"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn17_comment-vi-project.json",
+          "sha256": "cb627466a09c90004d8330bced425e2daf57aeab5b264741dc50f97bfa95ebe4"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn17_translation-vi-project.json",
+          "sha256": "2c86e393e7b6e69c398c879b6c6baa704b2ae7e4a09d3bfe238b12f19842e4ac"
+        }
+      ]
+    },
+    {
+      "id": "0b06a6dd-1d5e-45ef-a03c-c286fe918085",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.2,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu đủ năm nguồn thật, bao gồm Sujato thô 357/444 ô có văn và HTML toàn bài. Phần làm rõ giữ các khác biệt chiều rộng thành, cột, nữ báu, vật liệu nền/sàn/giường, bốn Phạm trú; từ tả bò và cách gắn lần thứ bảy được trình bày như lựa chọn chưa hết bất định. Không ghép các nguồn thành một sự kiện mới.",
+        "semantic_fidelity": "Bản trưởng thành không thế tục hóa năng lực siêu thường hoặc đời trước, đồng thời không thêm ngã thường còn vào câu Phật nhận từng là vua. Vua đạt tái sinh Phạm thiên sau bốn Phạm trú; lời kết về mọi hành có mục tiêu ly tham và giải thoát. Không phát hiện sai nghĩa chính sau đọc ngược từng phần.",
+        "core_coverage": "Bốn mươi phần giữ toàn mạch của 68 ý: quyền và lễ, bảy báu, bốn thuận lợi, công trình, ba nghiệp vua tự nghĩ, bốn thiền, bốn Phạm trú, 14 nhóm qua các vòng và 10 đối chiếu sử dụng. Cả màn/gối/đồ vàng/các loại vải và bữa chiều sáng được nêu rồi quy chiếu trong phần lặp. Danh mục dài là giới hạn nhịp, không bỏ phần chính.",
+        "logic_context": "Các suy nghĩ về nghiệp được gán vua, không thành lời hứa của Phật; các danh hiệu báu và nguồn lực không được dùng để chứng nhận giác ngộ. Lần khuyên tăng ham muốn, lời vua yêu cầu đảo hướng, lời hoàng hậu thực đổi phân biệt rõ. Các con số/đơn vị, lựa chọn vật liệu bằng hoặc và mốc thời ấy được giữ.",
+        "terminology": "Phân biệt bốn thành tựu thuận lợi với bốn Phạm trú; các đơn vị cổ được giữ thay vì quy đổi thiếu nguồn. Từ hỷ ở thiền và trong bốn Phạm trú nằm đúng công thức; phần giải từ thiền ở bản trưởng thành ngắn, còn cần nền học. Duhasandana và cách hiểu chỉ huy được báo có dị dịch, không ép một nghĩa chắc tuyệt đối.",
+        "audience_fit": "Có lập luận về quyền sở hữu, lượng sử dụng và sự bám giữ phù hợp trách nhiệm người trưởng thành. Ví nhiều nhà/phương tiện chỉ soi phần đối chiếu, không thu hẹp kết luận toàn bài. Bốn mươi phần và nhiều tên Pāli đòi hỏi thời gian; chưa có độc giả thật hoặc thử độ dễ đọc.",
+        "clarity": "Mạch chuyển từ kinh đô rực rỡ sang tu tập, cuộc thăm, đối thoại và nhìn lại được chỉ rõ. Các mô tả vật liệu được gộp theo quy tắc cặp giúp giảm lặp. Tuy nhiên nhiều câu bình về cách giữ nguồn và danh mục khiến văn nặng hơn lời kể thuần; giới hạn độ gọn vẫn còn.",
+        "editorial_separation": "Hai phần clarification về danh mục người và lời lúc lâm chung tách rõ cách đọc hiện đại. Ví sở hữu và ứng dụng có nhãn, lời tự xưng/ý nghĩ nhân vật và nhãn kết kinh có chủ thể. Bất định nguồn được nêu đúng nơi, không trình bày một lựa chọn chú giải thành nguyên văn chắc chắn.",
+        "practical_integrity": "Ứng dụng phân biệt công dụng hiện tại với đòi nó còn mãi, vẫn chăm nom trách nhiệm và chia sẻ khi có thể. Không hứa bố thí đổi quyền lực, thành tựu thiền, lâm chung êm hoặc yêu cầu bỏ chăm sóc. Tính phù hợp được xét từ văn bản, chưa có theo dõi người thực hành.",
+        "technical_integrity": "Audit nội dung và source hashes sạch; 444 khóa nằm đúng một lần trong 68 đơn vị, liên kết 40 phần đầy đủ. Hash trưởng thành giữ nguyên sau sửa riêng trẻ và được kiểm lại. Unicode, tác giả/tooling, dependency hợp lệ; việc xuất bản vẫn qua CLI và cổng build riêng do root thực hiện."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm chéo độc lập về vai trò: tác giả B và người kiểm C đều dùng GPT-6 Astra Pro (gpt-6-astra-pro), không phải hai mô hình hay hội đồng con người. Người kiểm thực đọc trọn năm nguồn DN17, đủ 68 ý/444 khóa, cả ba bản; đọc lại ba phần trẻ đã sửa về sẽ lo lễ, không thấy nơi nào và nghĩa hỷ/lạc. Pāli/Sujato pin 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457; project/comments pin 640b1410c7b2b50ee81d417886b75605189ea0a2. Không thử với độc giả thật, không chuyên gia Pāli con người, không tự chấm bài mình soạn. Hash adults cuối đã đọc: d9cf70959e1567f01ca254b77f92e738916681301453dec41dad840f169eedba. Chỉ gắn điểm với đúng nội dung và nguồn này; root ghi/apply qua cổng riêng.",
+      "contentHash": "d9cf70959e1567f01ca254b77f92e738916681301453dec41dad840f169eedba",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn17.html",
+          "sha256": "db283500e4b172ea9452f3adddfada6943095747c7b7ca2ccf38300d34f56fa0"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
+          "sha256": "cd14733c1b1818e024d96a74cee5400de4c1b3f8e939f995c291fe57f9d7352c"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
+          "sha256": "ed1fade554a02558225c5baa09f52360745a5fb5a6ef0e064016e748cd5138ab"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn17_comment-vi-project.json",
+          "sha256": "cb627466a09c90004d8330bced425e2daf57aeab5b264741dc50f97bfa95ebe4"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn17_translation-vi-project.json",
+          "sha256": "2c86e393e7b6e69c398c879b6c6baa704b2ae7e4a09d3bfe238b12f19842e4ac"
+        }
+      ]
+    },
+    {
+      "id": "6d4db00a-44ff-458c-a46d-e4db6f836957",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.3,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đã thực đọc Pāli, Anh gốc, Việt, toàn HTML và ba comments. Bản lớn tuổi giữ bảy loại vật liệu, đủ chuỗi âm thanh, số 12/7, giường bạc và bốn Phạm trú thay các chỗ lệch ở tham khảo. Cách hiểu chỉ huy, bò sữa và sáu/bảy được ghi nhận có lựa chọn; nguồn không được giả là đồng thuận hoàn toàn.",
+        "semantic_fidelity": "Giữ sự sang giàu như bối cảnh nhìn lại, không đổi đời trước thành ẩn dụ thuần. Kết quả của vua là cõi Phạm thiên, không được tự thêm A-la-hán; lời Phật cuối hướng ra khỏi tham luyến mọi hành. Tâm buông được phân biệt với bỏ chăm sóc, nước mắt vẫn hiện diện. Không thấy lỗi nghĩa chặn trong phạm vi đã đọc.",
+        "core_coverage": "51 phần chia nhỏ vẫn đủ 68 ý, các tầng vật liệu/công trình, bảy báu, bốn thành tựu, bốn thiền/bốn Phạm trú, 14 nhóm, ba lượt lời khuyên, bốn chặng 84.000 năm và 10 đối chiếu dùng một. Tên, số, lớp phủ lặp được quy chiếu rõ; người đọc vẫn cần nhớ hoặc xem lại danh mục ban đầu.",
+        "logic_context": "Không nhập câu hoàng hậu khuyên quyến luyến vào lời Phật. Lời vua chỉ cách nói có trước, lời bà thực nói có sau khóc và lau nước mắt. Giữ dự đoán Ānanda, điều kiện thuần voi/ngựa, hai chiều quý mến, mốc không lâu vua mất và không thấy nơi cho lần thứ tám. Không đảo phạm vi nguồn trong các chỗ đã kiểm.",
+        "terminology": "Có mở nghĩa tầm/tứ, các hành, nhàm chán, các đơn vị cổ và bốn Phạm trú. Nāḷi được giữ như đơn vị, không thành khẩu phần dinh dưỡng đề nghị. Nhiều từ Hán Việt, danh hiệu và tên Pāli vẫn yêu cầu nền đọc; chưa có người lớn tuổi thật xác nhận độ quen thuộc của từng từ.",
+        "audience_fit": "Nhịp 51 phần, nhiều đoạn ngắn, giúp dừng và nối lại. Ví mái nhà thay đổi theo năm tháng không mặc định tuổi già là cô đơn hoặc yếu bệnh; gợi ý quan sát giữ quyền chủ động. Chiều dài toàn bài và phần vật liệu dày khiến điểm phù hợp chưa ở mức gần tuyệt đối.",
+        "clarity": "Ba lượt đối thoại có tiêu đề riêng, mạch từ việc có nhiều sang dùng ít rồi vô thường được nối rõ. Các câu chỉ thời ấy giúp giữ phạm vi. Một số phần liệt kê và quy chiếu trang trí tương tự nhau còn đơn điệu; đánh giá này là đọc biên tập, không kết quả thử đọc thực.",
+        "editorial_separation": "Phần difficult-readings ghi dị dịch thực, phần care giải ngữ cảnh; ví mái nhà và thực hành có loại riêng. Không dùng câu bị chê trách trong truyện để gán lời trách cho người đọc, không biến nhãn kết phẩm thành lời nói của nhân vật. Lời giải thêm được nhận diện thay vì giả thành trích dẫn.",
+        "practical_integrity": "Ứng dụng nhận biết công dụng hiện tại và ý muốn giữ nguyên, chăm sóc đồ và chia sẻ khi phù hợp vừa sức. Không hứa hết tham, thiền chứng hay cách mất êm; không lấy lời lâm chung thành chỉ thị rút ngắn đời sống. Chưa có kết quả thực hành ngoài phạm vi văn bản.",
+        "technical_integrity": "Kiểm nguồn và bản ghi không lỗi; 68 ý bao phủ 444 khóa duy nhất, 51 phần liên kết đầy đủ. Hash lớn tuổi đối chiếu lại trùng bản đã đọc, không đổi theo sửa riêng trẻ. Input review hợp schema sau validation; cổng build/HTML và selected review do root xử lý riêng."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm chéo độc lập về vai trò: tác giả B và người kiểm C đều dùng GPT-6 Astra Pro (gpt-6-astra-pro), không phải hai mô hình hay hội đồng con người. Người kiểm thực đọc trọn năm nguồn DN17, đủ 68 ý/444 khóa, cả ba bản; đọc lại ba phần trẻ đã sửa về sẽ lo lễ, không thấy nơi nào và nghĩa hỷ/lạc. Pāli/Sujato pin 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457; project/comments pin 640b1410c7b2b50ee81d417886b75605189ea0a2. Không thử với độc giả thật, không chuyên gia Pāli con người, không tự chấm bài mình soạn. Hash older-adults cuối đã đọc: f81807125ca25652e8ca94d3c3d10bde4e9fdf329544aa4e60245a6af78e56d6. Chỉ gắn điểm với đúng nội dung và nguồn này; root ghi/apply qua cổng riêng.",
+      "contentHash": "f81807125ca25652e8ca94d3c3d10bde4e9fdf329544aa4e60245a6af78e56d6",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn17.html",
+          "sha256": "db283500e4b172ea9452f3adddfada6943095747c7b7ca2ccf38300d34f56fa0"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
+          "sha256": "cd14733c1b1818e024d96a74cee5400de4c1b3f8e939f995c291fe57f9d7352c"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
+          "sha256": "ed1fade554a02558225c5baa09f52360745a5fb5a6ef0e064016e748cd5138ab"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn17_comment-vi-project.json",
+          "sha256": "cb627466a09c90004d8330bced425e2daf57aeab5b264741dc50f97bfa95ebe4"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn17_translation-vi-project.json",
+          "sha256": "2c86e393e7b6e69c398c879b6c6baa704b2ae7e4a09d3bfe238b12f19842e4ac"
+        }
+      ]
+    }
+  ]
+}

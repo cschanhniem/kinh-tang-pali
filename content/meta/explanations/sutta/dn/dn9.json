@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn9",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "09e0c544-d140-4359-8a5d-95cdfca446bf"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "a522f2da-634b-43fc-b0de-34994220da58"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "5a85ba99-ff32-49f2-b860-cb737a0a7ce8"
+    }
+  },
+  "reviews": [
+    {
+      "id": "09e0c544-d140-4359-8a5d-95cdfca446bf",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.6,
+        "logic_context": 9.7,
+        "terminology": 9.2,
+        "audience_fit": 9.1,
+        "clarity": 9.2,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc đủ 474 khóa Pāli, mọi ô Sujato gốc và Việt dự án, 126 khối HTML kể cả ghi công, cùng sáu comments. Bản trẻ giữ mấy hôm trước ở 6.4, không lấy luminous tại 14.2 hoặc nhận định sản phẩm sữa cuối tốt nhất từ Anh. Năm nguồn có pin và hash đối chiếu; 99 ô Anh trống không được nhận là xác nhận độc lập.",
+        "semantic_fidelity": "Giữ tưởng thay đổi do nhân duyên và tu tập, bảy mức được gọi tên rồi tiến trình chấm dứt với tỉnh giác. Ba giả định tự ngã được giữ bằng chữ nếu; lời đáp được gọi ở 49 khác câu hỏi thật/hư ở 48. Không thấy sự biến giải thoát thành kỹ năng học tập; các thuật ngữ thiền sâu vẫn cần người đọc học tiếp.",
+        "core_coverage": "Đối chiếu 61 ý với toàn bài: đủ hội chúng, bốn lối giải, các yếu tố từng thiền, mười mệnh đề và bốn sự thật, ba lượt bốn câu hỏi, ba dạng hiện hữu, năm sản phẩm sữa và hai lời xin khác nhau. Kết chỉ Citta thành A-la-hán. Những lượt lặp được dẫn lại rõ, đôi chỗ trẻ phải quay nhìn danh mục trước.",
+        "logic_context": "Lời chủ hội mong Phật tới không thành điều kiện Phật đặt; câu không tuyên bố không bị hiểu là không biết; bốn câu thẩm xét chủ trương sau chết giữ điều kiện người kia nhận chủ trương. Ba thời đều có mốc vào lúc ấy, và Citta có hai mốc chẳng bao lâu. Phủ định hậu tử trong map đã được viết đủ thay viết tắt dễ lẫn.",
+        "terminology": "Tưởng, tầm, tứ, xả, triền cái, tự ngã, cụ túc và bốn đại có lời mở nghĩa trong ngữ cảnh. Dạng hiện hữu không bị rút thành cảm xúc, không khổ không lạc giữ đúng trung tính. Thắng trí, phạm hạnh cùng tên xứ thiền vẫn có mật độ cao với trẻ; chưa có kiểm đọc thật xác nhận mức dễ hiểu.",
+        "audience_fit": "34 phần chia từng mức thiền thành đoạn nhỏ, dùng em ở ví dụ học bài và bài tập nêu điều mình chưa biết. Trẻ được quyền hỏi và không bị yêu cầu phục tùng hoặc tự ép tâm trống. Bài dài và phần tự ngã/thời gian trừu tượng, phù hợp đọc thành nhiều lượt; chưa thử với nhóm trẻ cụ thể.",
+        "clarity": "Tiêu đề hỏi cụ thể, các đoạn giải thích nối sự thay thế tưởng trước với tưởng hiện có, rồi nối tên gọi tới mốc thời gian. Câu văn đã ngắt tương đối vừa; các danh sách đầy đủ và nhiều lời nhắc không suy quá phạm vi khiến một số phần vẫn nặng, nên chưa chấm mức gần tuyệt đối.",
+        "editorial_separation": "Hai phần cuối mang kind example và practice, nói thẳng đó là liên hệ nhỏ và không giải thích thay dạng hiện hữu hoặc quả chứng. Các thuyết của du sĩ, ví dụ người phụ nữ/thang và lời Phật được quy thuộc rõ. Lời mở nghĩa biên tập xen trong teaching được báo bằng cách gọi ở đây, không giả thành trích dẫn Pāli.",
+        "practical_integrity": "Gợi ý hỏi căn cứ và chấp nhận chưa biết vừa sức, không hứa thiền chứng, không hướng dẫn đình chỉ nhận thức. Ví học bài chỉ minh họa thời điểm; không biến dạy từ bỏ dạng hiện hữu thành gây hại thân hay phủ nhận quá khứ. Giá trị thực hành mới được đọc xét trên văn bản, chưa có theo dõi thực tế.",
+        "technical_integrity": "Audit nội dung và nguồn không có lỗi; 61 ý phủ đúng một lần 474 khóa, đủ liên kết dạy/làm rõ ở bản trẻ, Unicode và tooling ID hợp lệ. Hash sau hai chỉnh rõ đã được lấy lại để gắn đúng nội dung. Lượt này kiểm bản ghi, không thay kiểm build, HTML hoặc record/apply của điều phối."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm chéo độc lập về vai trò: tác giả B và người kiểm C đều là tác tử của cùng công cụ GPT-6 Astra Pro (gpt-6-astra-pro), không phải hai mô hình hoặc hội đồng con người. Người kiểm đã thực đọc đủ năm nguồn DN9, toàn bộ 61 ý và cả ba bản; đọc lại đoạn sửa map phủ định hậu tử cùng phần bốn đại ở bản trẻ. Pāli/Sujato pin 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457; project/comments pin 640b1410c7b2b50ee81d417886b75605189ea0a2. Không thử với độc giả thật, không chuyên gia Pāli con người, không tự chấm bài mình soạn. Hash nội dung children đã đọc và chốt: 1377aa2de3334c2d2d1a7b21b43915f6c0238dae8cb9e594ae5730a13cccf6da. Điểm chỉ có hiệu lực với hash và nguồn này; root ghi/apply sau cổng kiểm riêng.",
+      "contentHash": "1377aa2de3334c2d2d1a7b21b43915f6c0238dae8cb9e594ae5730a13cccf6da",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn9.html",
+          "sha256": "c7c8763dd776b85f0e5f8ca4b484f5b5fbdc721d4efcfbfa44eda5e59efe9e39"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+          "sha256": "4d9e529571d37709b5059b8c592909580066de1da46154ac6471cfdd29588b06"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
+          "sha256": "7779ec3d48f4dbcd92622b2e265b31d0fa4dfdb6a9f3d55752ff34cdb0d93d6e"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn9_comment-vi-project.json",
+          "sha256": "4bb03945d1254f8d8e8a8db66f39bc420070c84bfd9b6307f7a719221f62ef02"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn9_translation-vi-project.json",
+          "sha256": "e5d90147df8c2d95011c36e7c6b7123af3c098d904a7b752bbe8b89de966e12e"
+        }
+      ]
+    },
+    {
+      "id": "a522f2da-634b-43fc-b0de-34994220da58",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.6,
+        "logic_context": 9.7,
+        "terminology": 9.4,
+        "audience_fit": 9.4,
+        "clarity": 9.3,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đã đối chiếu toàn bộ năm nguồn khai báo, gồm Sujato thô 375/474 ô có văn, không dùng phần ghép thay nguồn Anh. Bản trưởng thành nhận diện lược 7–8, cách đọc sakasaññī và attapaṭilābha, bỏ phần phát sáng và đánh giá bơ cuối không có ở Pāli. Phạm vi đọc đủ DN9, không tuyên bố đã đọc DN2.",
+        "semantic_fidelity": "Phân biệt hỷ lạc do ly với do định, xả lạc với không khổ không lạc, cả ba dạng được dạy từ bỏ cùng bỏ nhiễm/tăng tịnh/tự chứng tuệ hiện đời. Phần 48–53 giữ chuyển từ câu thật-hư sang cách gọi và quy ước không chấp. Không thấy bổ sung một linh hồn hay phủ định mọi tồn tại ngoài ý kinh.",
+        "core_coverage": "33 phần giữ đủ những danh mục và kết luận của 61 ý, kể cả sáu phẩm tính an lạc, bốn hỏi lặp sau hai ví dụ, thang biết nơi và chưa biết nơi, ba thời, năm tên từ sữa và hai người kết thúc khác nhau. Các lần lặp đôi chỗ quy chiếu về danh mục trước nhưng nói rõ chủ thể và kết quả, không dùng một khẩu hiệu thay toàn bài.",
+        "logic_context": "Các giả định 21–23 giữ chữ nếu và đối tượng do Poṭṭhapāda đề xuất; 34/36/38 giữ chủ trương được xác nhận trước khi truy vấn. Hỏi biết thế giới, trải nghiệm bốn khoảng, biết đường và nghe lời trời không bị gộp. Ba thời của Citta giữ thật tại thời điểm, và phủ định không tuyên bố không bị nâng thành bác tất cả các mệnh đề.",
+        "terminology": "Thuật ngữ được đặt trong lập luận: ekaṁsika, sakasaññī, attapaṭilābha có lý do dùng; tưởng không đồng nhất trí; dạng tâm tạo ở 39 có hình sắc, ở giả định 22 không tự thêm thuộc tính thiếu. Những cụm tuệ, phạm hạnh và xứ vô sắc vẫn đòi hỏi nền học, nên chưa coi phần mở nghĩa đã thay được chú giải chuyên sâu.",
+        "audience_fit": "Bản trưởng thành phân chia chứng cứ, điều kiện và kết luận rõ, có ví dụ kế hoạch làm việc hợp bối cảnh trách nhiệm người lớn. Nội dung tu tập và mục tiêu giải thoát được bảo toàn. Chưa thử với độc giả thật; 33 phần cùng mười câu hỏi triết học vẫn cần thời gian đọc tập trung.",
+        "clarity": "Mạch hai cuộc gặp, các nhánh hỏi, việc quay lại ví thang và chuyển sang Citta đều có biển chỉ ngôn ngữ rõ. Một số câu nhắc phạm vi nguồn và các đoạn liệt kê dài làm nhịp đọc chậm; đây là giới hạn độ gọn, không thấy quan hệ lý luận bị che khuất sau đối chiếu.",
+        "editorial_separation": "Ví công việc và bài tập ghi điều kiện có nhãn riêng, giới hạn rõ không tương đương giải thoát hoặc thử nghiệm hiện đại. Lời các du sĩ, Poṭṭhapāda, Phật, Citta và nhãn kết kinh được tách. Các lựa chọn từ dịch được nói là cách diễn của bản dự án hoặc bản tham khảo, không trình bày như sự đồng thuận mọi nguồn.",
+        "practical_integrity": "Bài tập xem lại điều kiện, thời điểm và mức biết của một khẳng định phục vụ lời nói có căn cứ. Không hứa công việc thành công, xóa khổ tức thì, chứng nirodha hoặc tự công nhận quả. Liên hệ vẫn ở mức biên tập đời thường, chưa được kiểm nghiệm với người thực hành.",
+        "technical_integrity": "Cấu trúc schema, 61 ý/474 khóa và mọi liên kết được audit sạch; năm dependency khớp byte hiện có và bản chấm nhận hash mới sau chỉnh map. Rationale ghi phạm vi kiểm thực, không đổi metadata hoặc tự áp published. Build và kiểm HTML là cổng riêng do root thực hiện."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm chéo độc lập về vai trò: tác giả B và người kiểm C đều là tác tử của cùng công cụ GPT-6 Astra Pro (gpt-6-astra-pro), không phải hai mô hình hoặc hội đồng con người. Người kiểm đã thực đọc đủ năm nguồn DN9, toàn bộ 61 ý và cả ba bản; đọc lại đoạn sửa map phủ định hậu tử cùng phần bốn đại ở bản trẻ. Pāli/Sujato pin 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457; project/comments pin 640b1410c7b2b50ee81d417886b75605189ea0a2. Không thử với độc giả thật, không chuyên gia Pāli con người, không tự chấm bài mình soạn. Hash nội dung adults đã đọc và chốt: 1f0c1bd3ed4cc1204597e2f5cc78a33e96d54765c5df0d2cfb303f679bea5bc9. Điểm chỉ có hiệu lực với hash và nguồn này; root ghi/apply sau cổng kiểm riêng.",
+      "contentHash": "1f0c1bd3ed4cc1204597e2f5cc78a33e96d54765c5df0d2cfb303f679bea5bc9",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn9.html",
+          "sha256": "c7c8763dd776b85f0e5f8ca4b484f5b5fbdc721d4efcfbfa44eda5e59efe9e39"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+          "sha256": "4d9e529571d37709b5059b8c592909580066de1da46154ac6471cfdd29588b06"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
+          "sha256": "7779ec3d48f4dbcd92622b2e265b31d0fa4dfdb6a9f3d55752ff34cdb0d93d6e"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn9_comment-vi-project.json",
+          "sha256": "4bb03945d1254f8d8e8a8db66f39bc420070c84bfd9b6307f7a719221f62ef02"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn9_translation-vi-project.json",
+          "sha256": "e5d90147df8c2d95011c36e7c6b7123af3c098d904a7b752bbe8b89de966e12e"
+        }
+      ]
+    },
+    {
+      "id": "5a85ba99-ff32-49f2-b860-cb737a0a7ce8",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.6,
+        "logic_context": 9.7,
+        "terminology": 9.3,
+        "audience_fit": 9.4,
+        "clarity": 9.4,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc trọn Pāli, Sujato gốc, Việt dự án, HTML Minh Châu và comments của DN9; những nguồn có lược được nhận là lược. Bản lớn tuổi giữ thời mấy hôm, hai hoặc ba ngày, sắc tưởng không thêm phát sáng, và kết Citta riêng. Nguồn có năm dependency, không nhận chính English được điền là nguồn độc lập.",
+        "semantic_fidelity": "Giữ điều kiện tu tập trong sinh-diệt tưởng, sự chứng nhập với tỉnh giác, sáu phẩm tính cùng bỏ nhiễm/tăng tịnh/tuệ viên mãn. Tên gọi ba dạng theo lúc và ví sữa không bị chuyển thành ngã cố định đổi vỏ; ví quan hệ gia đình được giới hạn. Không phát hiện đảo nghĩa chính, nhưng phần tâm tạo và vô sắc vẫn cần học sâu ngoài lượt đọc này.",
+        "core_coverage": "42 phần triển khai cả câu chuyện, bốn thuyết, bảy mức thiền, đỉnh, tưởng-trí, ba giả định, mười mệnh đề/bốn sự thật, các ví dụ và ba lượt thẩm xét, rồi ba dạng/ba thời/quy ước. Hai lời quy y và hai bước thời gian Citta được giữ. Việc tách nhỏ tăng khả năng dừng đọc nhưng vẫn còn nhiều danh mục phải theo dõi.",
+        "logic_context": "Tách rõ điều Poṭṭhapāda tin với giả định Phật xét; lời đáp khó hiểu không biến thành không thể hiểu vĩnh viễn. Bốn kiểm tra chủ trương hoàn toàn vui giữ đủ thời lượng và lời trời giả định; câu tại thời điểm ấy được lặp cho cả ba thời. Đoạn cuối gắn quả A-la-hán với Citta sau tu tập, không người nghe nói chung.",
+        "terminology": "Giải nghĩa tưởng, triền cái, tầm/tứ, xả và cụ túc gần lần dùng; lưu ý khác biệt tự chủ tưởng/tự khởi tưởng và dạng hiện hữu/ngã chấp. Từ Hán Việt như thắng trí, phạm hạnh, nội tĩnh còn đậm, chưa được một độc giả lớn tuổi thật đánh giá độ quen thuộc; không chấm như đã kiểm khả năng tiếp nhận thực tế.",
+        "audience_fit": "Nhịp 42 phần ngắn, nhiều đoạn hai câu, giữ vai người đọc chủ động xét điều mình biết. Ví quan hệ con-cha-mẹ gần kinh nghiệm mà không gán bệnh tật, cô đơn hay khả năng suy giảm cho tuổi. Phù hợp biên tập, song độ dài toàn bài và thuật ngữ sâu vẫn là giới hạn cần nêu.",
+        "clarity": "Các tiêu đề theo bước giúp người đọc nghỉ rồi nối lại, đặc biệt bảy mức thiền tách riêng và ba thời có đoạn rõ. Danh sách được nhóm theo nội dung, các lượt lặp báo đang trở lại. Đôi câu chú ý nguồn/cảnh báo suy diễn khiến văn chậm, nhưng mạch chính vẫn theo được khi đọc trọn.",
+        "editorial_separation": "Phần reflection và example có kind phù hợp và tuyên bố là gợi ý/việc đời nay, không giả làm sự kiện trong kinh. Các nhãn kinh thứ chín, lời du sĩ, lời xác nhận của Phật và lời Citta đều quy thuộc đúng. Không thấy câu trích biên tập được gán thành nguyên văn nguồn.",
+        "practical_integrity": "Ứng dụng hỏi lại căn cứ và nuôi lời nói chính xác vừa sức, cho phép nói chưa biết; không hứa quả chứng hoặc yêu cầu trống tâm. Ví vai trong gia đình chỉ giải phạm vi gọi tên, không thay lời về hiện hữu và giải thoát. Chưa có trải nghiệm người dùng thực để kết luận hơn phạm vi văn bản.",
+        "technical_integrity": "Audit nội dung/nguồn sạch, 61 ý bao phủ đúng 474 khóa và 42 phần có mọi liên kết cần thiết. Review gắn hash sau sửa map, nguồn byte hiện hành và tooling ID đã đăng ký. Không tự sửa trạng thái; kiểm build/trang xuất bản chưa thuộc lượt đánh giá này."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm chéo độc lập về vai trò: tác giả B và người kiểm C đều là tác tử của cùng công cụ GPT-6 Astra Pro (gpt-6-astra-pro), không phải hai mô hình hoặc hội đồng con người. Người kiểm đã thực đọc đủ năm nguồn DN9, toàn bộ 61 ý và cả ba bản; đọc lại đoạn sửa map phủ định hậu tử cùng phần bốn đại ở bản trẻ. Pāli/Sujato pin 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457; project/comments pin 640b1410c7b2b50ee81d417886b75605189ea0a2. Không thử với độc giả thật, không chuyên gia Pāli con người, không tự chấm bài mình soạn. Hash nội dung older-adults đã đọc và chốt: fb7472efee7fe05c25e46e38509f1ce57e8464ae0737e923589709bd3eb19910. Điểm chỉ có hiệu lực với hash và nguồn này; root ghi/apply sau cổng kiểm riêng.",
+      "contentHash": "fb7472efee7fe05c25e46e38509f1ce57e8464ae0737e923589709bd3eb19910",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn9.html",
+          "sha256": "c7c8763dd776b85f0e5f8ca4b484f5b5fbdc721d4efcfbfa44eda5e59efe9e39"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+          "sha256": "4d9e529571d37709b5059b8c592909580066de1da46154ac6471cfdd29588b06"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
+          "sha256": "7779ec3d48f4dbcd92622b2e265b31d0fa4dfdb6a9f3d55752ff34cdb0d93d6e"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn9_comment-vi-project.json",
+          "sha256": "4bb03945d1254f8d8e8a8db66f39bc420070c84bfd9b6307f7a719221f62ef02"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn9_translation-vi-project.json",
+          "sha256": "e5d90147df8c2d95011c36e7c6b7123af3c098d904a7b752bbe8b89de966e12e"
+        }
+      ]
+    }
+  ]
+}
