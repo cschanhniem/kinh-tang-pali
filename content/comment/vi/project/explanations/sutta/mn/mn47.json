@@ -1,0 +1,887 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn47",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn47_root-pli-ms.json",
+      "sha256": "695b012ee1a7060d3ae02a4e51317922999bf6208baaa2152942a3c9420c7a16",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn47_translation-vi-project.json",
+      "sha256": "9e4a74741cdf1370b5cb6c7627da1b9f1dd4f13afb75aa47bd6750cda0905104",
+      "commit": "787eb38e2ccf406b14d281e8e297c9f52c027cc7"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn47_translation-en-sujato.json",
+      "sha256": "b3eda6e29d137c6e2a587c3fcfd9c6be7a1e10c32c744aca097c69d4186afd19",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn47.html",
+      "sha256": "ffc18db7eb0ff660feb3c72d9200904e6dd25610eb80226fe5a095397b33a50c",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn47_comment-vi-project.json",
+      "sha256": "c41a8ce321d3f3e10ec21251a850e6f0942cdd4098b2efa7af69de3cf20ee089",
+      "commit": "787eb38e2ccf406b14d281e8e297c9f52c027cc7"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Kinh Tư Sát",
+      "segments": [
+        "mn47:0.1",
+        "mn47:0.2"
+      ],
+      "summary": "MN47 thuộc Trung Bộ, Vīmaṁsakasutta, Kinh Tư Sát; không đặt nhãn bài vào lời Phật trong đối thoại."
+    },
+    {
+      "id": "setting",
+      "title": "Điều đã nghe ở rừng Jeta",
+      "segments": [
+        "mn47:1.1",
+        "mn47:1.2",
+        "mn47:1.3",
+        "mn47:1.4",
+        "mn47:1.5",
+        "mn47:1.6"
+      ],
+      "summary": "Người truyền kinh đã nghe; Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika, gọi các tỳ-kheo; các vị đáp, Ngài nói."
+    },
+    {
+      "id": "inquiry",
+      "title": "Khảo sát khi không biết trực tiếp tâm người khác",
+      "segments": [
+        "mn47:2.1"
+      ],
+      "summary": "Vị biết xem xét nhưng không biết trực tiếp tâm người khác nên khảo sát Như Lai để biết Ngài có phải bậc Chánh Đẳng Giác hay không. Đây là phương pháp được hướng dẫn, không phải một người khảo sát có tên đã làm xong."
+    },
+    {
+      "id": "hearing",
+      "title": "Xin giải thích và nghe kỹ",
+      "segments": [
+        "mn47:3.1",
+        "mn47:3.2",
+        "mn47:3.3",
+        "mn47:3.4"
+      ],
+      "summary": "Các vị lấy Phật làm gốc/người dẫn/chỗ nương, xin giải nghĩa để nghe và nhớ; Phật bảo nghe và chú tâm kỹ; các vị vâng, Ngài nói."
+    },
+    {
+      "id": "corrupt",
+      "title": "Xem điều ô nhiễm qua mắt và tai",
+      "segments": [
+        "mn47:4.1",
+        "mn47:4.2",
+        "mn47:4.3",
+        "mn47:4.4"
+      ],
+      "summary": "Vị không trực tiếp biết tâm dùng hai phạm vi thấy/nghe, hỏi có điều ô nhiễm hay không và qua xem xét biết không có nơi Như Lai."
+    },
+    {
+      "id": "mixed",
+      "title": "Xem tiếp điều pha trộn",
+      "segments": [
+        "mn47:5.1",
+        "mn47:5.2",
+        "mn47:5.3",
+        "mn47:5.4",
+        "mn47:5.5"
+      ],
+      "summary": "Sau khi biết điều ô nhiễm không có, khảo sát thêm điều pha trộn có thể thấy/nghe, biết không có; giữ bước trung gian."
+    },
+    {
+      "id": "pure",
+      "title": "Xem tiếp điều trong sạch",
+      "segments": [
+        "mn47:6.1",
+        "mn47:6.2",
+        "mn47:6.3",
+        "mn47:6.4",
+        "mn47:6.5"
+      ],
+      "summary": "Sau khi biết không có điều pha trộn, hỏi có điều trong sạch thấy/nghe được không; qua xem xét biết có."
+    },
+    {
+      "id": "duration",
+      "title": "Thiện pháp đã thành tựu từ lâu",
+      "segments": [
+        "mn47:7.1",
+        "mn47:7.2",
+        "mn47:7.3",
+        "mn47:7.4",
+        "mn47:7.5"
+      ],
+      "summary": "Sau khi biết điều trong sạch có mặt, hỏi thiện pháp thành tựu lâu hay mới; biết từ lâu, không chỉ mới đây."
+    },
+    {
+      "id": "fame",
+      "title": "Kiểm tra sau khi có danh tiếng",
+      "segments": [
+        "mn47:8.1",
+        "mn47:8.2",
+        "mn47:8.3",
+        "mn47:8.4",
+        "mn47:8.5",
+        "mn47:8.6",
+        "mn47:8.7"
+      ],
+      "summary": "Sau khi biết đã lâu, hỏi nguy hiểm nơi vị đã nổi tiếng/có danh vọng; Phật giải một số nguy hiểm chưa xuất hiện trước danh tiếng nhưng xuất hiện sau đó. Người khảo sát biết Như Lai đã nổi tiếng mà những nguy hiểm ấy không có."
+    },
+    {
+      "id": "fear",
+      "title": "Từ bỏ không vì sợ; không hưởng dục vì hết tham",
+      "segments": [
+        "mn47:9.1",
+        "mn47:9.2",
+        "mn47:9.3",
+        "mn47:9.4",
+        "mn47:9.5",
+        "mn47:9.6",
+        "mn47:9.7"
+      ],
+      "summary": "Sau kết quả về danh tiếng, hỏi rồi biết sự từ bỏ là do không sợ hãi, không phải sợ hãi; không tìm hưởng dục vì đã ly tham, tham đã tận. Giữ cả đối lập và quan hệ nguyên nhân."
+    },
+    {
+      "id": "evidence-question",
+      "title": "Nếu bị hỏi căn cứ của nhận định ấy",
+      "segments": [
+        "mn47:10.1",
+        "mn47:10.2",
+        "mn47:10.3",
+        "mn47:10.4",
+        "mn47:10.5"
+      ],
+      "summary": "Nếu người khác hỏi dấu hiệu/bằng chứng cho cả không vì sợ lẫn không hưởng dục do hết tham, người khảo sát trả lời đúng nên giải như sau; giữ lời hướng dẫn giả định."
+    },
+    {
+      "id": "conduct",
+      "title": "Không khinh người trong các hoàn cảnh",
+      "segments": [
+        "mn47:10.6"
+      ],
+      "summary": "Trong câu trả lời: dù sống giữa cộng đồng hay một mình; quanh có người sống tốt/không tốt, hướng dẫn hội chúng, vướng lợi dưỡng hoặc không bị lợi dưỡng hoen ố; Ngài không vì những điều ấy mà khinh họ."
+    },
+    {
+      "id": "direct-hearing",
+      "title": "Chính mình nghe và tiếp nhận trước Phật",
+      "segments": [
+        "mn47:10.7",
+        "mn47:10.8"
+      ],
+      "summary": "Người khảo sát còn nên nói chính mình đã nghe/tiếp nhận trực tiếp trước Phật lời Ngài: Ta từ bỏ do không sợ, không phải do sợ; vì ly tham/tham tận không hưởng dục. Giữ lời Phật nằm trong lời đáp giả định của vị ấy."
+    },
+    {
+      "id": "ask-corrupt",
+      "title": "Hỏi chính Như Lai về điều ô nhiễm",
+      "segments": [
+        "mn47:11.1",
+        "mn47:11.2",
+        "mn47:11.3",
+        "mn47:11.4"
+      ],
+      "summary": "Phải hỏi thêm chính Như Lai: có điều ô nhiễm thấy/nghe được không; Ngài sẽ đáp không có."
+    },
+    {
+      "id": "ask-mixed",
+      "title": "Hỏi chính Như Lai về điều pha trộn",
+      "segments": [
+        "mn47:12.1",
+        "mn47:12.2",
+        "mn47:12.3"
+      ],
+      "summary": "Hỏi có điều pha trộn thấy/nghe được không; Ngài sẽ đáp không có."
+    },
+    {
+      "id": "ask-pure",
+      "title": "Hỏi chính Như Lai về điều trong sạch",
+      "segments": [
+        "mn47:13.1",
+        "mn47:13.2",
+        "mn47:13.3"
+      ],
+      "summary": "Hỏi có điều trong sạch thấy/nghe được không; Ngài sẽ đáp có."
+    },
+    {
+      "id": "nonidentification",
+      "title": "Con đường và phạm vi, không đồng hóa",
+      "segments": [
+        "mn47:13.4"
+      ],
+      "summary": "Trong lời đáp, những điều trong sạch là con đường/phạm vi sống của Ngài, nhưng Ngài không đồng hóa với chúng. Theo Pāli và dự án, không lấy dị bản không ai giống Ta."
+    },
+    {
+      "id": "approach",
+      "title": "Đến nghe một vị thầy nói như vậy",
+      "segments": [
+        "mn47:14.1"
+      ],
+      "summary": "Người đệ tử nên đến gần vị thầy nói như vậy để nghe Pháp."
+    },
+    {
+      "id": "teaching",
+      "title": "Giảng sâu, tinh tế, đối chiếu tối và sáng",
+      "segments": [
+        "mn47:14.2"
+      ],
+      "summary": "Vị thầy giảng ngày càng cao/sâu và tinh tế, trình bày mặt tối, mặt sáng và đối chiếu giữa chúng."
+    },
+    {
+      "id": "direct-knowledge",
+      "title": "Tự biết một số pháp và có ba niềm tin",
+      "segments": [
+        "mn47:14.3",
+        "mn47:14.4"
+      ],
+      "summary": "Qua cách được dạy, vị đệ tử trực tiếp biết một số pháp, kết luận chắc chắn và tin sáng nơi thầy: Phật Chánh Đẳng Giác, Pháp khéo thuyết, Tăng thực hành đúng. Không đổi một số thành mọi pháp."
+    },
+    {
+      "id": "confidence-question",
+      "title": "Nếu bị hỏi căn cứ của ba niềm tin",
+      "segments": [
+        "mn47:15.1",
+        "mn47:15.2",
+        "mn47:15.3",
+        "mn47:15.4"
+      ],
+      "summary": "Nếu người khác hỏi dấu hiệu/bằng chứng của ba nhận định Phật/Pháp/Tăng, người đệ tử trả lời đúng nên nói như sau."
+    },
+    {
+      "id": "retelling",
+      "title": "Tự thuật việc học và tự hiểu",
+      "segments": [
+        "mn47:15.5",
+        "mn47:15.6",
+        "mn47:15.7",
+        "mn47:15.8"
+      ],
+      "summary": "Câu đáp ngôi tôi: đã đến Phật nghe, được giảng sâu/tinh tế/tối-sáng-đối chiếu, trực tiếp biết một số pháp, kết luận/tin; nhắc đủ ba nhận định Phật giác ngộ, Pháp khéo thuyết, Tăng hành đúng."
+    },
+    {
+      "id": "grounded-faith",
+      "title": "Lòng tin có gốc là sự thấy biết",
+      "segments": [
+        "mn47:16.1"
+      ],
+      "summary": "Lòng tin nơi Như Lai được an lập/bén rễ/đứng vững qua những dấu hiệu, lời và cách trình bày ấy gọi là lòng tin có căn cứ, bắt rễ từ sự thấy biết."
+    },
+    {
+      "id": "unshakable",
+      "title": "Sức vững chắc của lòng tin ấy",
+      "segments": [
+        "mn47:16.2"
+      ],
+      "summary": "Lòng tin có điều kiện vừa nêu vững chắc, không thể bị lay chuyển bởi sa-môn, bà-la-môn, vị trời, Māra, Brahmā hay bất kỳ ai trên đời; không giảm thành chỉ khó lay chuyển."
+    },
+    {
+      "id": "method",
+      "title": "Hai kết luận về khảo sát đúng Pháp",
+      "segments": [
+        "mn47:16.3",
+        "mn47:16.4"
+      ],
+      "summary": "Đó là cách khảo sát Như Lai đúng Pháp; bằng cách ấy Như Lai được khảo sát kỹ lưỡng đúng Pháp. Giữ cả phương pháp lẫn việc đã được khảo sát."
+    },
+    {
+      "id": "ending",
+      "title": "Hoan hỷ và dòng kết",
+      "segments": [
+        "mn47:16.5",
+        "mn47:16.6",
+        "mn47:16.7"
+      ],
+      "summary": "Phật kết lời, tỳ-kheo hoan hỷ tán đồng; nhãn cuối bài thứ bảy trong nhóm, khác mã MN47. Không kể thêm chứng quả."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Tìm hiểu bằng mắt, tai và sự tự mình hiểu",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Muốn hiểu một người, bắt đầu từ đâu?",
+          "paragraphs": [
+            "Kinh Tư Sát, MN47, là bài kinh về việc xem xét kỹ. Người truyền kinh kể điều đã nghe: Đức Phật ở rừng Jeta, tu viện Anāthapiṇḍika tại Sāvatthī. Ngài gọi các tỳ-kheo, những nhà sư theo Phật. Các thầy đáp lời, rồi Ngài dạy.",
+            "Một thầy biết xem xét nhưng không trực tiếp biết tâm người khác nên tìm hiểu Như Lai, danh xưng Đức Phật dùng ở đây, để biết Ngài có thật là bậc Chánh Đẳng Giác, người giác ngộ hoàn toàn, hay không.",
+            "Các thầy xin Đức Phật giải thích. Lời học của các thầy lấy Ngài làm gốc, người dẫn đường và nơi nương tựa; nghe rồi các thầy sẽ ghi nhớ. Ngài bảo hãy lắng nghe, chú tâm kỹ. Các thầy vâng lời. Tiếp theo là cách xem xét Ngài hướng dẫn."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "inquiry",
+            "hearing"
+          ]
+        },
+        {
+          "id": "eyes-and-ears",
+          "kind": "teaching",
+          "heading": "Có ba câu hỏi, không nhảy qua bước nào",
+          "paragraphs": [
+            "Vì không trực tiếp biết tâm người khác, thầy bắt đầu bằng hai điều: những gì mắt thấy được và những gì tai nghe được. Có điều ô nhiễm, tức biểu hiện xấu, nơi Như Lai không? Khi xem xét, thầy biết không có những điều như vậy.",
+            "Từ đó, thầy tìm hiểu thêm: có biểu hiện pha trộn, lẫn giữa trong sạch và không trong sạch, thấy hoặc nghe được không? Qua xem xét, thầy biết cũng không có.",
+            "Rồi thầy hỏi tiếp: có biểu hiện trong sạch thấy và nghe được không? Lần này, thầy biết có. Như vậy, thầy đã xem cả điều xấu, điều lẫn lộn và điều trong sạch."
+          ],
+          "meaningUnits": [
+            "corrupt",
+            "mixed",
+            "pure"
+          ]
+        },
+        {
+          "id": "time",
+          "kind": "teaching",
+          "heading": "Điều lành ấy đã có từ bao giờ?",
+          "paragraphs": [
+            "Biết có những điều trong sạch, thầy vẫn xem xét thêm: Đức Phật đã thành tựu phẩm chất lành ấy từ lâu hay chỉ mới gần đây? Thầy tìm hiểu và biết: đã từ lâu, không phải chỉ mới đây.",
+            "Bài kinh cho việc tìm hiểu đi qua thời gian, thay vì dừng ở một lần gặp dễ chịu."
+          ],
+          "meaningUnits": [
+            "duration"
+          ]
+        },
+        {
+          "id": "fame",
+          "kind": "teaching",
+          "heading": "Khi nhiều người đã biết đến Ngài",
+          "paragraphs": [
+            "Bước kế tiếp nhìn đến danh tiếng. Đức Phật giải thích: một số nguy hiểm chưa xuất hiện nơi một thầy khi thầy chưa nổi tiếng, chưa có danh vọng; đến khi nổi tiếng và có danh vọng, chúng mới xuất hiện.",
+            "Thầy xem xét Đức Phật trong chính hoàn cảnh đã nổi tiếng ấy. Kết quả thầy biết là: Ngài đã được biết đến, có danh vọng, nhưng những nguy hiểm ấy không có nơi Ngài."
+          ],
+          "meaningUnits": [
+            "fame"
+          ]
+        },
+        {
+          "id": "fear",
+          "kind": "teaching",
+          "heading": "Từ bỏ có phải chỉ vì sợ?",
+          "paragraphs": [
+            "Sau đó, thầy xét thêm hai điều: có phải Ngài từ bỏ do không sợ hãi, không phải vì sợ hãi mới từ bỏ? Có phải Ngài không tìm hưởng những thú vui của giác quan vì đã hết tham muốn, tham đã chấm dứt?",
+            "Qua xem xét, thầy biết cả hai đều đúng như vậy. Bài kinh nối việc không tìm hưởng các dục với sự hết tham, chứ không chỉ nhìn dáng vẻ bên ngoài."
+          ],
+          "meaningUnits": [
+            "fear"
+          ]
+        },
+        {
+          "id": "reasons",
+          "kind": "teaching",
+          "heading": "Nếu có người hỏi: thầy dựa vào đâu?",
+          "paragraphs": [
+            "Đức Phật nói tiếp: nếu người khác hỏi thầy dựa vào dấu hiệu và bằng chứng nào để nhận định rằng Ngài từ bỏ không vì sợ và không tìm hưởng dục vì hết tham, thì thầy nên trả lời đúng bằng những điều sau.",
+            "Quanh Ngài có người sống tốt, người sống không tốt, người hướng dẫn một nhóm, người vướng vào lợi dưỡng và người không bị lợi dưỡng làm tâm vẩn đục. Lợi dưỡng là các lợi ích vật chất được cung cấp. Dù sống cùng cộng đồng hay sống một mình, Ngài không vì những điều ấy mà coi thường họ.",
+            "Thầy còn nên nói rằng chính mình đã nghe và tiếp nhận trực tiếp trước Đức Phật lời Ngài xác nhận: Ngài từ bỏ do không sợ hãi, không phải do sợ hãi; vì đã hết tham, tham đã chấm dứt, Ngài không tìm hưởng các dục. Đây là lời người xem xét được hướng dẫn dùng khi giải thích căn cứ của mình."
+          ],
+          "meaningUnits": [
+            "evidence-question",
+            "conduct",
+            "direct-hearing"
+          ]
+        },
+        {
+          "id": "asking",
+          "kind": "teaching",
+          "heading": "Còn cần hỏi chính Đức Phật",
+          "paragraphs": [
+            "Người xem xét nên hỏi thêm chính Như Lai. Có điều ô nhiễm thấy hoặc nghe được nơi Ngài không? Ngài sẽ đáp không có. Có điều pha trộn thấy hoặc nghe được không? Ngài sẽ đáp không có.",
+            "Có điều trong sạch thấy hoặc nghe được không? Ngài sẽ đáp có. Ba câu hỏi được đem đến chính người đang được tìm hiểu, sau phần quan sát trước đó."
+          ],
+          "meaningUnits": [
+            "ask-corrupt",
+            "ask-mixed",
+            "ask-pure"
+          ]
+        },
+        {
+          "id": "not-identifying",
+          "kind": "teaching",
+          "heading": "Sống trong sạch và không nhận đó là bản thân",
+          "paragraphs": [
+            "Trong lời đáp ấy, Đức Phật còn nói những điều trong sạch là con đường Ngài đi và phạm vi Ngài sống, nhưng Ngài không đồng hóa mình với chúng. Nghĩa là Ngài sống trong những phẩm chất ấy mà không xem bản thân là chính những phẩm chất ấy."
+          ],
+          "meaningUnits": [
+            "nonidentification"
+          ]
+        },
+        {
+          "id": "learning",
+          "kind": "teaching",
+          "heading": "Đến nghe rồi tự mình hiểu",
+          "paragraphs": [
+            "Đệ tử nên đến gần một vị thầy nói như vậy để nghe Pháp, lời dạy về con đường tu học. Vị thầy giảng ngày càng sâu, càng tinh tế; nêu mặt tối, mặt sáng và đặt chúng bên nhau để thấy sự khác biệt.",
+            "Được dạy như thế, người học trực tiếp biết một số điều trong giáo pháp, đi đến kết luận chắc chắn và có lòng tin trong sáng nơi thầy: Đức Phật giác ngộ hoàn toàn; lời Phật dạy được trình bày khéo léo; Tăng chúng, cộng đồng các vị xuất gia tu học, thực hành đúng đắn.",
+            "Kinh nói tự biết một số điều. Bước học ấy có phần hiểu thật của chính người học, không chỉ có lời khen của người khác."
+          ],
+          "meaningUnits": [
+            "approach",
+            "teaching",
+            "direct-knowledge"
+          ]
+        },
+        {
+          "id": "telling-the-basis",
+          "kind": "teaching",
+          "heading": "Giải thích lòng tin bằng việc mình đã học",
+          "paragraphs": [
+            "Nếu có người hỏi căn cứ nào để tin cả ba điều về Phật, Pháp và Tăng, Đức Phật hướng dẫn thầy trả lời bằng chính việc mình đã trải qua.",
+            "Thầy nên kể: mình đã đến gặp Đức Phật để nghe; Ngài giảng ngày càng sâu, tinh tế, nêu mặt tối, mặt sáng và sự đối chiếu. Theo cách được dạy, mình trực tiếp biết một số điều, có kết luận chắc chắn và lòng tin trong sáng.",
+            "Từ đó, thầy nhắc lại đủ ba điều mình tin: Đức Phật giác ngộ hoàn toàn; Pháp được Ngài khéo giảng; Tăng chúng thực hành đúng đắn. Lần trả lời này nói rõ con đường từ nghe đến tự hiểu của người học."
+          ],
+          "meaningUnits": [
+            "confidence-question",
+            "retelling"
+          ]
+        },
+        {
+          "id": "roots",
+          "kind": "teaching",
+          "heading": "Lòng tin có rễ",
+          "paragraphs": [
+            "Đức Phật gọi lòng tin được đặt vững, bén rễ và đứng chắc nhờ những dấu hiệu, những lời và cách trình bày vừa nêu là lòng tin có căn cứ, có gốc từ sự thấy biết.",
+            "Ngài nói lòng tin ấy vững chắc, không thể bị lay chuyển bởi sa-môn, bà-la-môn, vị trời, Māra, Phạm thiên hay bất cứ ai trên đời. Sa-môn là người tu; bà-la-môn thuộc một truyền thống tôn giáo ở Ấn Độ. Māra là Ác Ma, còn Phạm thiên là một vị trời trong kinh.",
+            "Đây là lòng tin đi qua cả quá trình xem xét, hỏi, nghe và tự hiểu mà bài kinh vừa hướng dẫn."
+          ],
+          "meaningUnits": [
+            "grounded-faith",
+            "unshakable"
+          ]
+        },
+        {
+          "id": "close",
+          "kind": "teaching",
+          "heading": "Một cách tìm hiểu đến nơi đến chốn",
+          "paragraphs": [
+            "Đức Phật kết luận cả hai điều: đó là cách tìm hiểu Như Lai đúng Pháp, và bằng cách ấy, Như Lai được tìm hiểu kỹ lưỡng đúng Pháp. Các thầy vui mừng, tán đồng lời Ngài.",
+            "Dòng cuối ghi Kinh Tư Sát là bài thứ bảy trong nhóm; mã của bài là MN47."
+          ],
+          "meaningUnits": [
+            "method",
+            "ending"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: tự hiểu một cách gấp giấy",
+          "paragraphs": [
+            "Một ví dụ của người biên soạn: em học gấp giấy từ một người hướng dẫn. Em nhìn cách người ấy làm, nghe lời giải thích, hỏi vì sao cần nếp gấp đó, rồi tự gấp và nhận ra nếp ấy giúp hai mép trùng nhau. Khi bạn hỏi vì sao em tin cách làm, em kể được điều mình đã nhìn, nghe và tự hiểu.",
+            "Ví dụ nhỏ này giúp hình dung việc học có căn cứ. Sự khéo tay trong gấp giấy không phải là sự giác ngộ được nói trong kinh."
+          ],
+          "meaningUnits": [
+            "approach",
+            "teaching",
+            "direct-knowledge",
+            "retelling"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Ba điều có thể ghi lại sau khi học",
+          "paragraphs": [
+            "Gợi ý thực hành: sau một buổi học, em thử ghi một điều mình thấy, một điều nghe trực tiếp và một điều đã tự hiểu. Chỗ chưa hiểu thì ghi thành câu hỏi để hỏi người dạy.",
+            "Em không cần giả vờ biết người khác đang nghĩ gì. Bắt đầu từ điều mình thật sự biết và hỏi rõ điều còn thiếu là một việc vừa sức."
+          ],
+          "meaningUnits": [
+            "inquiry",
+            "corrupt",
+            "ask-pure",
+            "direct-knowledge"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Khảo sát, tự biết và lòng tin có căn cứ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Lòng tin được xây dựng qua việc khảo sát",
+          "paragraphs": [
+            "Kinh Tư Sát, MN47, mở bằng lời người truyền kinh đã nghe. Đức Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika; Ngài gọi các tỳ-kheo, những người xuất gia theo giới pháp. Các vị đáp lời, rồi Ngài nêu một yêu cầu đáng chú ý.",
+            "Một tỳ-kheo biết xem xét, khi không trực tiếp biết tâm người khác, nên khảo sát Như Lai để xác định Ngài có phải bậc Chánh Đẳng Giác hay không. Như Lai là danh xưng Đức Phật dùng ở đây; Chánh Đẳng Giác nghĩa là giác ngộ hoàn toàn.",
+            "Các vị thưa rằng pháp mình học lấy Phật làm gốc, người dẫn đường và nơi nương tựa; xin Ngài giải nghĩa để nghe và ghi nhớ. Ngài bảo nghe, chú tâm kỹ; các vị vâng lời. Phần tiếp theo trình bày phương pháp cho người khảo sát ấy."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "inquiry",
+            "hearing"
+          ]
+        },
+        {
+          "id": "three-observations",
+          "kind": "teaching",
+          "heading": "Phân biệt ba loại biểu hiện thấy và nghe được",
+          "paragraphs": [
+            "Không có khả năng biết trực tiếp tâm người khác, người khảo sát dùng hai phạm vi có thể tiếp cận: những điều thấy được và những điều nghe được. Trước hết, có điều ô nhiễm nơi Như Lai hay không? Qua khảo sát, vị ấy biết không có.",
+            "Biết điều ô nhiễm không có, vị ấy khảo sát tiếp những biểu hiện pha trộn, lẫn giữa trong sạch và ô nhiễm. Kết quả vẫn là không có những biểu hiện ấy qua điều thấy và nghe.",
+            "Từ đó mới hỏi tiếp về những điều trong sạch: chúng có mặt qua điều thấy và nghe hay không? Vị ấy biết có. Mỗi kết quả mở sang một câu hỏi kế tiếp; sự vắng mặt của điều xấu chưa khép lại việc khảo sát."
+          ],
+          "meaningUnits": [
+            "corrupt",
+            "mixed",
+            "pure"
+          ]
+        },
+        {
+          "id": "time-and-renown",
+          "kind": "teaching",
+          "heading": "Quan sát qua thời gian và khi đã có danh vọng",
+          "paragraphs": [
+            "Sau khi biết những điều trong sạch có mặt, vị ấy xem thiện pháp này đã thành tựu từ lâu hay chỉ gần đây. Kết luận qua khảo sát là đã từ lâu, không phải mới đây.",
+            "Tiếp đến là danh tiếng. Đức Phật giải thích rằng một số nguy hiểm chưa xuất hiện nơi tỳ-kheo lúc chưa nổi tiếng, chưa có danh vọng; khi danh tiếng và danh vọng đến, những nguy hiểm ấy xuất hiện. Vì vậy, cần khảo sát vị đã được nhiều người biết đến trong chính hoàn cảnh ấy.",
+            "Đối với Như Lai, người khảo sát biết: Ngài đã nổi tiếng và có danh vọng, nhưng những nguy hiểm ấy không có nơi Ngài."
+          ],
+          "meaningUnits": [
+            "duration",
+            "fame"
+          ]
+        },
+        {
+          "id": "renunciation",
+          "kind": "teaching",
+          "heading": "Sự từ bỏ không do sợ hãi thúc đẩy",
+          "paragraphs": [
+            "Từ kết quả trên, vị ấy khảo sát thêm: có phải Ngài từ bỏ do không sợ hãi, không phải từ bỏ vì sợ hãi; và không tìm hưởng dục lạc vì đã ly tham, tham đã tận? Ly tham ở đây là thoát khỏi tham muốn; dục lạc là các khoái lạc giác quan.",
+            "Qua khảo sát, vị ấy biết: Ngài từ bỏ do không sợ hãi, không phải vì sợ; không tìm hưởng dục lạc vì đã ly tham, tham đã chấm dứt."
+          ],
+          "meaningUnits": [
+            "fear"
+          ]
+        },
+        {
+          "id": "grounds",
+          "kind": "teaching",
+          "heading": "Căn cứ từ cách ứng xử và lời nghe trực tiếp",
+          "paragraphs": [
+            "Nếu người khác hỏi dấu hiệu và bằng chứng nào cho nhận định rằng Ngài từ bỏ không vì sợ, không tìm hưởng dục vì hết tham, Đức Phật hướng dẫn người khảo sát trả lời đúng bằng hai phần.",
+            "Phần thứ nhất là cách Ngài sống: dù ở giữa cộng đồng hay ở một mình, quanh có người sống tốt hoặc không tốt, người hướng dẫn hội chúng, người vướng lợi dưỡng hoặc người không bị lợi dưỡng làm hoen ố, Ngài không vì những điều ấy mà khinh thường họ. Lợi dưỡng là những lợi ích vật chất được cung cấp.",
+            "Phần thứ hai là điều người khảo sát chính mình đã nghe và tiếp nhận trực tiếp trước Đức Phật: Ngài xác nhận mình từ bỏ do không sợ hãi, không phải do sợ hãi; vì đã ly tham, tham đã tận, nên không tìm hưởng dục. Lời xác nhận của Ngài được người khảo sát dẫn lại khi giải thích căn cứ của mình."
+          ],
+          "meaningUnits": [
+            "evidence-question",
+            "conduct",
+            "direct-hearing"
+          ]
+        },
+        {
+          "id": "ask-the-teacher",
+          "kind": "teaching",
+          "heading": "Đem ba câu hỏi đến chính Như Lai",
+          "paragraphs": [
+            "Sau phần ấy, chính Như Lai nên được hỏi thêm: có những điều ô nhiễm thấy hoặc nghe được nơi Ngài không? Ngài sẽ đáp không có. Có những điều pha trộn thấy hoặc nghe được không? Ngài sẽ đáp không có. Có những điều trong sạch thấy hoặc nghe được không? Ngài sẽ đáp có.",
+            "Trong câu trả lời cuối, Ngài còn nói những điều trong sạch là con đường Ngài đi, phạm vi Ngài sống, nhưng Ngài không đồng hóa mình với chúng, tức không lấy chúng làm chính mình."
+          ],
+          "meaningUnits": [
+            "ask-corrupt",
+            "ask-mixed",
+            "ask-pure",
+            "nonidentification"
+          ]
+        },
+        {
+          "id": "study",
+          "kind": "teaching",
+          "heading": "Việc khảo sát dẫn tới nghe và tự biết",
+          "paragraphs": [
+            "Đệ tử nên đến gần một vị thầy nói như vậy để nghe Pháp. Vị thầy giảng ngày càng sâu hơn, tinh tế hơn, trình bày mặt tối, mặt sáng và đối chiếu giữa chúng.",
+            "Theo cách được dạy, người học trực tiếp biết một số pháp trong giáo pháp, đi đến kết luận chắc chắn và có lòng tin trong sáng nơi thầy: Đức Phật là bậc giác ngộ hoàn toàn; Pháp được Ngài khéo thuyết; Tăng chúng thực hành đúng đắn."
+          ],
+          "meaningUnits": [
+            "approach",
+            "teaching",
+            "direct-knowledge"
+          ]
+        },
+        {
+          "id": "account",
+          "kind": "teaching",
+          "heading": "Người học có thể trình bày đường đi tới kết luận",
+          "paragraphs": [
+            "Nếu người khác hỏi căn cứ nào để nói đủ ba nhận định về Phật, Pháp và Tăng, câu trả lời đúng được Đức Phật hướng dẫn là một lời tự thuật.",
+            "Người học nên nói mình đã đến gặp Đức Phật để nghe giáo pháp; Ngài giảng ngày càng sâu, tinh tế, với mặt tối, mặt sáng và sự đối chiếu. Theo cách được dạy, chính mình trực tiếp biết một số pháp, đạt kết luận chắc chắn và khởi lòng tin trong sáng nơi bậc Đạo Sư.",
+            "Lời tự thuật kết bằng cùng ba nhận định: Đức Phật giác ngộ hoàn toàn, giáo pháp được Ngài khéo giảng, Tăng chúng thực hành đúng đắn. Người học nêu được căn cứ của lòng tin bằng việc đã nghe và đã trực tiếp hiểu."
+          ],
+          "meaningUnits": [
+            "confidence-question",
+            "retelling"
+          ]
+        },
+        {
+          "id": "firm-faith",
+          "kind": "teaching",
+          "heading": "Vững chắc nhờ có gốc trong sự thấy biết",
+          "paragraphs": [
+            "Lòng tin nơi Như Lai được an lập, bén rễ và đứng vững bằng những dấu hiệu, những lời và cách trình bày ấy được gọi là lòng tin có căn cứ, bắt rễ từ sự thấy biết.",
+            "Đức Phật nói lòng tin ấy vững chắc, không thể bị lay chuyển bởi sa-môn, bà-la-môn, vị trời, Māra, Phạm thiên hay bất kỳ ai trên đời. Sa-môn là người tu; bà-la-môn thuộc truyền thống tôn giáo Bà-la-môn; Māra là Ác Ma, Phạm thiên là Brahmā trong các cõi trời được kinh nói đến.",
+            "Sức vững chắc này gắn với toàn bộ căn cứ và quá trình vừa nêu. Đó là cách khảo sát Như Lai đúng Pháp; bằng cách ấy Như Lai được khảo sát kỹ lưỡng đúng Pháp.",
+            "Đức Phật kết lời, các tỳ-kheo hoan hỷ tán đồng. Dòng kết gọi đây là bài thứ bảy trong nhóm, còn mã bài là MN47."
+          ],
+          "meaningUnits": [
+            "grounded-faith",
+            "unshakable",
+            "method",
+            "ending"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: đánh giá một người hướng dẫn",
+          "paragraphs": [
+            "Một liên hệ của người biên soạn: khi học một kỹ năng nghề nghiệp, ta có thể quan sát cách người hướng dẫn giải thích và làm việc qua thời gian, hỏi trực tiếp về điều chưa rõ, rồi thực hành để hiểu một nguyên tắc cụ thể. Khi đồng nghiệp hỏi vì sao tin cách hướng dẫn ấy, ta trình bày được điều đã quan sát và tự kiểm tra.",
+            "Đó là ví dụ giới hạn về căn cứ trong học tập. Uy tín nghề nghiệp và kết luận về sự giác ngộ trong MN47 không phải cùng một mức nhận định."
+          ],
+          "meaningUnits": [
+            "duration",
+            "ask-pure",
+            "direct-knowledge",
+            "retelling"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Phân biệt phần đã biết với phần đang suy đoán",
+          "paragraphs": [
+            "Gợi ý thực hành: chọn một điều đang học, ghi rõ đâu là điều đã thấy hoặc nghe trực tiếp, đâu là điều mình tự hiểu, đâu vẫn là suy đoán. Đặt một câu hỏi cụ thể về phần còn thiếu và lắng nghe câu trả lời.",
+            "Khi trình bày nhận định với người khác, nêu cả căn cứ và phạm vi mình thực sự biết. Cách làm ấy giúp lời tin cậy có nội dung rõ ràng."
+          ],
+          "meaningUnits": [
+            "inquiry",
+            "evidence-question",
+            "confidence-question",
+            "retelling"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Lòng tin bén rễ từ điều đã thấy và hiểu",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Tìm hiểu cho rõ trước khi lòng tin đứng vững",
+          "paragraphs": [
+            "Kinh Tư Sát, MN47, kể điều người truyền kinh đã nghe. Đức Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những người xuất gia sống theo giới pháp. Các vị đáp lời rồi lắng nghe.",
+            "Ngài nói một vị biết xem xét nhưng không biết trực tiếp tâm người khác nên tìm hiểu Như Lai để biết Ngài có phải bậc Chánh Đẳng Giác hay không. Như Lai là danh xưng Đức Phật dùng ở đây; Chánh Đẳng Giác là giác ngộ hoàn toàn.",
+            "Các vị xin Ngài giải thích: pháp mình học lấy Ngài làm gốc, người dẫn đường, nơi nương tựa; nghe rồi sẽ ghi nhớ. Ngài bảo hãy lắng nghe, chú tâm kỹ; các vị vâng lời. Ngài bắt đầu chỉ cách tìm hiểu."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "inquiry",
+            "hearing"
+          ]
+        },
+        {
+          "id": "corruption",
+          "kind": "teaching",
+          "heading": "Bắt đầu bằng điều mắt thấy, tai nghe",
+          "paragraphs": [
+            "Vị chưa biết trực tiếp tâm người khác có hai phạm vi để xem xét: những điều mắt nhận biết được và những điều tai nhận biết được. Có điều ô nhiễm nơi Như Lai qua những biểu hiện ấy hay không? Qua xem xét, vị ấy biết không có.",
+            "Ô nhiễm ở đây là những biểu hiện xấu, không trong sạch. Việc tìm hiểu còn tiếp tục sau kết quả đầu tiên này."
+          ],
+          "meaningUnits": [
+            "corrupt"
+          ]
+        },
+        {
+          "id": "mixed-and-clean",
+          "kind": "teaching",
+          "heading": "Từ điều pha trộn đến điều trong sạch",
+          "paragraphs": [
+            "Biết không có điều ô nhiễm, vị ấy xem tiếp: có điều pha trộn, lẫn giữa trong sạch và ô nhiễm, qua điều thấy và nghe hay không? Vị ấy biết không có.",
+            "Biết không có điều pha trộn, vị ấy lại hỏi: có điều trong sạch qua điều thấy và nghe hay không? Qua xem xét, vị ấy biết có."
+          ],
+          "meaningUnits": [
+            "mixed",
+            "pure"
+          ]
+        },
+        {
+          "id": "long-established",
+          "kind": "teaching",
+          "heading": "Phẩm chất lành đã được thành tựu từ lâu",
+          "paragraphs": [
+            "Sau đó, cần xem phẩm chất lành này có từ lâu hay chỉ mới gần đây. Người tìm hiểu biết Đức Phật đã thành tựu từ lâu, không phải mới đây. Thời gian cũng nằm trong điều được xem xét."
+          ],
+          "meaningUnits": [
+            "duration"
+          ]
+        },
+        {
+          "id": "renown",
+          "kind": "teaching",
+          "heading": "Khi danh tiếng đã đến",
+          "paragraphs": [
+            "Đức Phật đưa việc tìm hiểu sang một hoàn cảnh khác: vị tỳ-kheo đã nổi tiếng, có danh vọng. Một số nguy hiểm chưa xuất hiện khi chưa có danh tiếng; khi nổi tiếng và có danh vọng, những nguy hiểm ấy xuất hiện.",
+            "Người tìm hiểu xem xét Như Lai trong hoàn cảnh đã được biết đến ấy và biết: Ngài có danh tiếng, có danh vọng, nhưng những nguy hiểm ấy không có nơi Ngài."
+          ],
+          "meaningUnits": [
+            "fame"
+          ]
+        },
+        {
+          "id": "freedom-from-fear",
+          "kind": "teaching",
+          "heading": "Không vì sợ hãi mà từ bỏ",
+          "paragraphs": [
+            "Từ kết quả trên, vị ấy xem thêm: Ngài từ bỏ do không sợ hãi, không phải vì sợ hãi; và không tìm hưởng các dục vì đã ly tham, tham đã hết, có đúng như vậy không? Các dục ở đây là những khoái lạc giác quan; ly tham là rời khỏi tham muốn.",
+            "Qua tìm hiểu, vị ấy biết đúng như vậy: sự từ bỏ không do sợ hãi, và việc không tìm hưởng dục là vì tham đã chấm dứt."
+          ],
+          "meaningUnits": [
+            "fear"
+          ]
+        },
+        {
+          "id": "conduct",
+          "kind": "teaching",
+          "heading": "Câu trả lời về cách Ngài đối xử với người",
+          "paragraphs": [
+            "Đức Phật đặt trường hợp người khác hỏi người tìm hiểu: dấu hiệu và bằng chứng nào cho biết Ngài từ bỏ không vì sợ, không hưởng dục vì đã hết tham? Người ấy nên trả lời đúng bằng những điều sau.",
+            "Dù sống giữa cộng đồng hay ở một mình, quanh Ngài có người sống tốt, người sống không tốt, người hướng dẫn hội chúng, người vướng vào lợi dưỡng và người không bị lợi dưỡng làm hoen ố. Lợi dưỡng là các lợi ích vật chất được cung cấp. Ngài không vì những điều ấy mà khinh thường họ."
+          ],
+          "meaningUnits": [
+            "evidence-question",
+            "conduct"
+          ]
+        },
+        {
+          "id": "heard-directly",
+          "kind": "teaching",
+          "heading": "Điều chính mình đã nghe trước Đức Phật",
+          "paragraphs": [
+            "Trong cùng câu trả lời, người tìm hiểu còn nên nói rằng chính mình đã nghe và tiếp nhận trực tiếp trước Đức Phật lời Ngài xác nhận: Ngài từ bỏ do không sợ hãi, không phải do sợ hãi; vì đã ly tham, tham đã tận, Ngài không tìm hưởng các dục.",
+            "Đây là lời Đức Phật được vị ấy dẫn lại khi giải thích căn cứ, bên cạnh việc quan sát cách Ngài sống."
+          ],
+          "meaningUnits": [
+            "direct-hearing"
+          ]
+        },
+        {
+          "id": "three-questions",
+          "kind": "teaching",
+          "heading": "Hỏi trực tiếp đủ ba điều",
+          "paragraphs": [
+            "Chính Như Lai nên được hỏi thêm. Có điều ô nhiễm thấy hoặc nghe được nơi Ngài không? Ngài sẽ đáp không có. Có điều pha trộn thấy hoặc nghe được không? Ngài sẽ đáp không có. Có điều trong sạch thấy hoặc nghe được không? Ngài sẽ đáp có.",
+            "Trong lời đáp cuối, Ngài nói những điều trong sạch ấy là con đường Ngài đi, phạm vi Ngài sống, nhưng không đồng hóa mình với chúng, nghĩa là không lấy chúng làm chính bản thân mình."
+          ],
+          "meaningUnits": [
+            "ask-corrupt",
+            "ask-mixed",
+            "ask-pure",
+            "nonidentification"
+          ]
+        },
+        {
+          "id": "learning",
+          "kind": "teaching",
+          "heading": "Người học còn có phần tự hiểu của mình",
+          "paragraphs": [
+            "Đệ tử nên đến gần một vị thầy nói như vậy để nghe Pháp. Vị thầy giảng ngày càng sâu hơn, tinh tế hơn, nêu mặt tối, mặt sáng và đối chiếu giữa chúng.",
+            "Theo cách được dạy, người học trực tiếp biết một số pháp trong giáo pháp, đi đến kết luận chắc chắn và có lòng tin trong sáng nơi thầy: Đức Phật giác ngộ hoàn toàn; Pháp được Ngài khéo giảng; Tăng chúng thực hành đúng đắn.",
+            "Một số pháp được tự mình biết rõ là phần có thật trong tiến trình này. Người học đến nghe rồi cũng tham dự bằng sự hiểu của chính mình."
+          ],
+          "meaningUnits": [
+            "approach",
+            "teaching",
+            "direct-knowledge"
+          ]
+        },
+        {
+          "id": "recounting",
+          "kind": "teaching",
+          "heading": "Khi được hỏi vì sao có lòng tin ấy",
+          "paragraphs": [
+            "Nếu người khác hỏi căn cứ nào cho cả ba nhận định về Phật, Pháp và Tăng, Đức Phật hướng dẫn người học trả lời bằng việc đã trải qua.",
+            "Vị ấy nên kể mình đã đến gặp Đức Phật để nghe; được Ngài giảng sâu dần, tinh tế dần, nêu mặt tối, mặt sáng và sự đối chiếu. Theo lời dạy ấy, mình trực tiếp biết một số pháp, có kết luận chắc chắn và lòng tin trong sáng nơi bậc Đạo Sư.",
+            "Vị ấy xác nhận lại: Đức Phật giác ngộ hoàn toàn, Pháp được Ngài khéo thuyết, Tăng chúng thực hành đúng đắn. Người hỏi được nghe cả điều vị ấy tin và kinh nghiệm học hỏi đưa đến lòng tin ấy."
+          ],
+          "meaningUnits": [
+            "confidence-question",
+            "retelling"
+          ]
+        },
+        {
+          "id": "rooted",
+          "kind": "teaching",
+          "heading": "Bén rễ từ sự thấy biết",
+          "paragraphs": [
+            "Khi lòng tin nơi Như Lai được an lập, bén rễ và đứng vững bằng những dấu hiệu, những lời và cách trình bày như vậy, Đức Phật gọi đó là lòng tin có căn cứ, bắt rễ từ sự thấy biết.",
+            "Lòng tin ấy vững chắc, không thể bị lay chuyển bởi sa-môn, bà-la-môn, vị trời, Māra, Phạm thiên hay bất kỳ ai trên đời. Sa-môn là người tu; bà-la-môn thuộc truyền thống tôn giáo Bà-la-môn. Māra là Ác Ma, Phạm thiên là Brahmā trong các cõi trời kinh đề cập.",
+            "Sức vững này gắn với việc đã xem xét, đã nghe và tự biết, theo toàn bộ tiến trình vừa được giảng."
+          ],
+          "meaningUnits": [
+            "grounded-faith",
+            "unshakable"
+          ]
+        },
+        {
+          "id": "close",
+          "kind": "teaching",
+          "heading": "Khảo sát đúng và được khảo sát kỹ",
+          "paragraphs": [
+            "Đức Phật kết luận: đó là cách khảo sát Như Lai đúng Pháp; và bằng cách ấy, Như Lai được khảo sát kỹ lưỡng đúng Pháp. Các tỳ-kheo hoan hỷ, tán đồng lời Ngài.",
+            "Dòng kết ghi bài thứ bảy trong nhóm. Đây là MN47, Kinh Tư Sát."
+          ],
+          "meaningUnits": [
+            "method",
+            "ending"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: học một nghề thủ công",
+          "paragraphs": [
+            "Một liên hệ của người biên soạn: khi cùng người quen học một cách đan mới, ta nhìn thao tác của người hướng dẫn, nghe họ giải thích, hỏi chỗ vướng rồi tự thử. Đến lúc hiểu vì sao cần đổi mũi ở chỗ ấy, ta có thể chỉ lại cho người khác bằng căn cứ mình đã thấy và hiểu.",
+            "Đây chỉ là ví dụ đời thường về học hỏi có căn cứ; tay nghề khéo không đồng nghĩa với giác ngộ. Việc tiếp tục hỏi và hiểu vẫn có ý nghĩa ở bất kỳ tuổi nào."
+          ],
+          "meaningUnits": [
+            "approach",
+            "teaching",
+            "direct-knowledge",
+            "retelling"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Giữ lại một câu hỏi rõ ràng",
+          "paragraphs": [
+            "Gợi ý suy xét: với một điều đang học hoặc vẫn băn khoăn, hãy phân biệt phần mình đã thấy, đã nghe trực tiếp, đã tự hiểu và phần còn chưa rõ. Có thể chọn một câu hỏi ngắn, cụ thể để trao đổi thêm.",
+            "Khi kể lại điều mình tin, nói rõ điều gì đã dẫn mình đến nhận định ấy. Việc trình bày căn cứ giúp cuộc trò chuyện sáng tỏ hơn và giữ chỗ cho học hỏi tiếp."
+          ],
+          "meaningUnits": [
+            "inquiry",
+            "evidence-question",
+            "confidence-question",
+            "retelling"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1549 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn50",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "809de380fa0572949079916773431260181ffac18b9bceaf9cdfed7b8ec3cc22"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "3063124cdaded2be7311872489023059b62a509a068457f40c5d5906ccffa8b0"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn50_translation-vi-project.json",
+      "commit": "787eb38e2ccf406b14d281e8e297c9f52c027cc7",
+      "sha256": "27dbc27e82df90d73989d1c941905601f29a61c0dd573b9b11e306083d30f2a7"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn50.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "71b6cf3daac8f8eae8144e2fb528f8c3bfc9795d5c635b6d443301ccdc14480f"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn50_comment-vi-project.json",
+      "commit": "787eb38e2ccf406b14d281e8e297c9f52c027cc7",
+      "sha256": "22ae6b42e7a31fc5bf34a965938e3b29c1e8b94be0cb6ecdf22a746b2e1d6c23"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Kinh Hàng Ma",
+      "segments": [
+        "mn50:0.1",
+        "mn50:0.2"
+      ],
+      "summary": "Trung Bộ50, Māratajjanīyasutta, Kinh Hàng Ma."
+    },
+    {
+      "id": "setting",
+      "title": "Mahāmoggallāna ở vườn nai",
+      "segments": [
+        "mn50:1.1",
+        "mn50:1.2"
+      ],
+      "summary": "Lời truyền tụng: Mahāmoggallāna ở Bhagga, Susumāragira, rừng Bhesakaḷā vườn nai."
+    },
+    {
+      "id": "belly",
+      "title": "Bụng nặng khi kinh hành",
+      "segments": [
+        "mn50:2.1",
+        "mn50:2.2",
+        "mn50:2.3",
+        "mn50:2.4",
+        "mn50:2.5",
+        "mn50:2.6"
+      ],
+      "summary": "Kinh hành ngoài trời; Māra vào bụng/vùng ruột; nghĩ bụng nặng như đầy đậu, rời đường vào chỗ ở ngồi ghế chuẩn bị."
+    },
+    {
+      "id": "see-inside",
+      "title": "Tác ý như lý, thấy và cảnh cáo",
+      "segments": [
+        "mn50:3.1",
+        "mn50:3.2",
+        "mn50:3.3",
+        "mn50:3.4",
+        "mn50:3.5",
+        "mn50:3.6",
+        "mn50:3.7"
+      ],
+      "summary": "Xét như lý bên trong, thấy Māra; hai lần bảo ra; đừng quấy Như Lai/đệ tử, đừng gây bất lợi khổ lâu dài cho chính Māra."
+    },
+    {
+      "id": "denial",
+      "title": "Māra tưởng chưa bị biết",
+      "segments": [
+        "mn50:4.1",
+        "mn50:4.2",
+        "mn50:4.3",
+        "mn50:4.4",
+        "mn50:4.5",
+        "mn50:4.6",
+        "mn50:4.7"
+      ],
+      "summary": "Māra nghĩ vị ấy không biết/thấy khi bảo ra và cảnh cáo đủ lời; ngay Thầy không biết nhanh, huống đệ tử."
+    },
+    {
+      "id": "thought-known",
+      "title": "Đọc đúng ý nghĩ Māra",
+      "segments": [
+        "mn50:5.1",
+        "mn50:5.2",
+        "mn50:5.3",
+        "mn50:5.4",
+        "mn50:5.5",
+        "mn50:5.6",
+        "mn50:5.7",
+        "mn50:5.8",
+        "mn50:5.9",
+        "mn50:5.10",
+        "mn50:5.11"
+      ],
+      "summary": "Mahāmoggallāna nói biết đó là Māra, đừng nghĩ không biết, nhắc đúng toàn suy nghĩ vừa nêu gồm lời ra hai lần/cảnh báo/so với Thầy."
+    },
+    {
+      "id": "exit",
+      "title": "Māra nhận ra rồi rời bụng",
+      "segments": [
+        "mn50:6.1",
+        "mn50:6.2",
+        "mn50:6.3",
+        "mn50:6.4",
+        "mn50:6.5",
+        "mn50:6.6",
+        "mn50:6.7"
+      ],
+      "summary": "Māra biết bị biết/thấy qua lời cảnh cáo, từ miệng ra đứng ngạch cửa, không cửa miệng."
+    },
+    {
+      "id": "threshold",
+      "title": "Ngay ở cửa vẫn bị thấy",
+      "segments": [
+        "mn50:7.1",
+        "mn50:7.2",
+        "mn50:7.3",
+        "mn50:7.4",
+        "mn50:7.5"
+      ],
+      "summary": "Mahāmoggallāna thấy và nói ngay ở ngạch cửa vẫn thấy, đừng tưởng không bị thấy."
+    },
+    {
+      "id": "family",
+      "title": "Tiền thân Dūsī và Kāḷī",
+      "segments": [
+        "mn50:8.1",
+        "mn50:8.2",
+        "mn50:8.3"
+      ],
+      "summary": "Mahāmoggallāna từng là Māra Dūsī, có chị/em gái Kāḷī; Māra hiện tại con Kāḷī, cháu gọi Dūsī bằng cậu."
+    },
+    {
+      "id": "chiefs",
+      "title": "Kakusandha và hai đại đệ tử",
+      "segments": [
+        "mn50:9.1",
+        "mn50:9.2",
+        "mn50:9.3",
+        "mn50:9.4",
+        "mn50:9.5"
+      ],
+      "summary": "Phật Kakusandha A-la-hán Chánh Đẳng Giác xuất hiện; đôi tối thắng hiền thiện Vidhura/Sañjīva; không đệ tử nào bằng Vidhura thuyết Pháp, vì vậy tên Vidhura."
+    },
+    {
+      "id": "cessation",
+      "title": "Sañjīva dễ nhập diệt thọ tưởng",
+      "segments": [
+        "mn50:10.1"
+      ],
+      "summary": "Sañjīva ở rừng/gốc cây/nhà trống dễ nhập diệt thọ tưởng; giải thọ và tưởng, không coi chết thật."
+    },
+    {
+      "id": "mistaken-death",
+      "title": "Người qua đường tưởng đã chết",
+      "segments": [
+        "mn50:10.2",
+        "mn50:10.3",
+        "mn50:10.4",
+        "mn50:10.5",
+        "mn50:10.6",
+        "mn50:10.7",
+        "mn50:10.8"
+      ],
+      "summary": "Ngồi diệt thọ tưởng dưới cây; chăn bò/chăn gia súc/nông dân/người đi đường thấy, ngạc nhiên tưởng chết khi ngồi; gom cỏ/củi/phân bò lên thân, đốt rồi đi."
+    },
+    {
+      "id": "alive",
+      "title": "Hôm sau đi khất thực",
+      "segments": [
+        "mn50:11.1",
+        "mn50:11.2",
+        "mn50:11.3",
+        "mn50:11.4",
+        "mn50:11.5",
+        "mn50:11.6"
+      ],
+      "summary": "Qua đêm Sañjīva xuất định, giũ y; sáng mặc y/mang bát y vào làng khất thực; cùng nhóm người ngạc nhiên tưởng sống lại, do vậy tên Sañjīva."
+    },
+    {
+      "id": "attack-plan",
+      "title": "Dūsī xúi bốn cách quấy nhiễu",
+      "segments": [
+        "mn50:12.1",
+        "mn50:12.2",
+        "mn50:12.3",
+        "mn50:12.4",
+        "mn50:12.5",
+        "mn50:12.6",
+        "mn50:12.7",
+        "mn50:12.8"
+      ],
+      "summary": "Không biết nơi đến/nơi đi trong vòng tái sinh của tỳ-kheo có giới/tốt, Dūsī nghĩ rồi nhập bà-la-môn/gia chủ xúi mắng/sỉ/chọc giận/quấy để tâm biến đổi tìm kẽ hở. Đủ ý định và thực hiện."
+    },
+    {
+      "id": "abuse",
+      "title": "Mỉa mai người tu thiền",
+      "segments": [
+        "mn50:13.1",
+        "mn50:13.2"
+      ],
+      "summary": "Người bị nhập làm bốn việc, nhục mạ đầu trọc/sa-môn giả/thấp/đen/sinh từ chân; nhại hai lần tu thiền, vai rũ/mặt cúi/ngẩn/chăm chú đăm chiêu nghiền ngẫm thẫn thờ. Giữ là lời ác của họ."
+    },
+    {
+      "id": "owl",
+      "title": "Cú rình chuột",
+      "segments": [
+        "mn50:13.3",
+        "mn50:13.4"
+      ],
+      "summary": "Mỉa như cú trên cành rình chuột; lặp lời hạ nhục và nhại thiền."
+    },
+    {
+      "id": "jackal",
+      "title": "Chó rừng rình cá",
+      "segments": [
+        "mn50:13.5",
+        "mn50:13.6"
+      ],
+      "summary": "Mỉa như chó rừng bờ sông rình cá; lặp lời hạ nhục và nhại thiền."
+    },
+    {
+      "id": "cat",
+      "title": "Mèo rình chuột",
+      "segments": [
+        "mn50:13.7",
+        "mn50:13.8"
+      ],
+      "summary": "Mỉa như mèo lối đi/cống/rác rình chuột; lặp lời hạ nhục và nhại thiền."
+    },
+    {
+      "id": "donkey",
+      "title": "Lừa vừa tháo gánh",
+      "segments": [
+        "mn50:13.9",
+        "mn50:13.10"
+      ],
+      "summary": "Mỉa như lừa tháo gánh ở lối đi/cống/rác, không thêm săn mồi; lặp lời hạ nhục/nhại thiền."
+    },
+    {
+      "id": "bad-destiny",
+      "title": "Phần lớn sinh vào cõi dữ",
+      "segments": [
+        "mn50:13.11"
+      ],
+      "summary": "Phần lớn người chết thời ấy, thân hoại mạng chung sinh cõi dữ/xấu/đọa xứ/địa ngục; không nói mọi người."
+    },
+    {
+      "id": "four-hearts",
+      "title": "Dạy bốn tâm vô lượng",
+      "segments": [
+        "mn50:14.1",
+        "mn50:14.2",
+        "mn50:14.3",
+        "mn50:14.4",
+        "mn50:14.5",
+        "mn50:14.6",
+        "mn50:14.7"
+      ],
+      "summary": "Kakusandha gọi tỳ-kheo, vạch rõ nhập/bốn quấy/tâm đổi/kẽ hở; dạy từ bi hỷ xả, mỗi tâm đủ bốn phương/trên dưới ngang/khắp thế giới/đối tất cả như mình/rộng cao vô lượng/không thù ác ý."
+    },
+    {
+      "id": "hearts-practice",
+      "title": "Thực hành ở ba chỗ vắng",
+      "segments": [
+        "mn50:15.1",
+        "mn50:15.2",
+        "mn50:15.3",
+        "mn50:15.4"
+      ],
+      "summary": "Được Phật chỉ, các vị ở rừng/gốc cây/nhà trống thực hành đủ bốn tâm với toàn phạm vi và tính chất đã dạy."
+    },
+    {
+      "id": "honor-plan",
+      "title": "Đổi sang sự tôn kính",
+      "segments": [
+        "mn50:16.1",
+        "mn50:16.2",
+        "mn50:16.3",
+        "mn50:16.4"
+      ],
+      "summary": "Dūsī vẫn không biết đường tái sinh của các vị, nghĩ nhập bà-la-môn/gia chủ xúi kính trọng/tôn kính/coi trọng/cúng dường để tâm đổi, có kẽ hở."
+    },
+    {
+      "id": "honor-result",
+      "title": "Thực hiện và phần lớn sinh trời",
+      "segments": [
+        "mn50:17.1",
+        "mn50:17.2",
+        "mn50:17.3",
+        "mn50:17.4",
+        "mn50:17.5"
+      ],
+      "summary": "Dūsī nhập/xúi đủ bốn việc với mục tiêu ấy; người làm đủ bốn; phần lớn người chết thời đó sau thân hoại sinh cõi lành/trời."
+    },
+    {
+      "id": "four-contemplations",
+      "title": "Dạy bốn phép quán",
+      "segments": [
+        "mn50:18.1",
+        "mn50:18.2",
+        "mn50:18.3",
+        "mn50:18.4",
+        "mn50:18.5"
+      ],
+      "summary": "Kakusandha chỉ rõ âm mưu kính trọng làm tâm đổi; dạy bất tịnh thân, đáng chán thức ăn, không đáng say mê toàn thế giới, vô thường tất cả hành."
+    },
+    {
+      "id": "contemplation-practice",
+      "title": "Các vị thực hành bốn quán",
+      "segments": [
+        "mn50:19.1"
+      ],
+      "summary": "Được Phật dạy, ở rừng/gốc cây/nhà trống các vị thực hành đủ bốn quán, không thay bằng bốn tâm trước."
+    },
+    {
+      "id": "alms",
+      "title": "Phật và Vidhura vào làng",
+      "segments": [
+        "mn50:20.1"
+      ],
+      "summary": "Sáng Kakusandha mặc y/mang bát y vào làng khất thực, Vidhura tùy tùng đi sau."
+    },
+    {
+      "id": "injury",
+      "title": "Dūsī gây thương tích Vidhura",
+      "segments": [
+        "mn50:21.1",
+        "mn50:21.2"
+      ],
+      "summary": "Dūsī nhập cậu bé, nhặt đá đánh đầu Vidhura làm vỡ; vị ấy đầu thương chảy máu vẫn theo sau Kakusandha."
+    },
+    {
+      "id": "fall",
+      "title": "Không biết giới hạn",
+      "segments": [
+        "mn50:21.3",
+        "mn50:21.4",
+        "mn50:21.5"
+      ],
+      "summary": "Kakusandha ngoái như voi lớn, nói Dūsī không biết giới hạn; ngay khi ngoái Dūsī chết khỏi chỗ ấy sinh Đại Địa Ngục. Không tự gán Phật cố trừng phạt."
+    },
+    {
+      "id": "hell-names",
+      "title": "Ba tên Đại Địa Ngục",
+      "segments": [
+        "mn50:22.1",
+        "mn50:22.2"
+      ],
+      "summary": "Ba tên: Liên hệ Sáu Xứ Xúc; Bị Đâm Bằng Cọc; Tự Mình Cảm Thọ, không thêm mô tả ngoài nguồn."
+    },
+    {
+      "id": "thousand",
+      "title": "Dấu mốc đã một ngàn năm",
+      "segments": [
+        "mn50:22.3",
+        "mn50:22.4",
+        "mn50:22.5",
+        "mn50:22.6"
+      ],
+      "summary": "Người canh nói khi cọc gặp cọc ở tim thì biết đã bị nung một ngàn năm, không tương lai."
+    },
+    {
+      "id": "durations",
+      "title": "Đau lâu dài và phần phụ",
+      "segments": [
+        "mn50:23.1",
+        "mn50:23.2",
+        "mn50:23.3",
+        "mn50:23.4"
+      ],
+      "summary": "Dūsī bị nung nhiều năm/trăm/ngàn;10.000 năm ở phần phụ với đau tên vuṭṭhānima chưa giải chắc; thân người/đầu cá."
+    },
+    {
+      "id": "hell-verse",
+      "title": "Kệ nhắc một trăm cọc sắt",
+      "segments": [
+        "mn50:24.1",
+        "mn50:24.2",
+        "mn50:24.3",
+        "mn50:24.4",
+        "mn50:24.5",
+        "mn50:24.6",
+        "mn50:24.7",
+        "mn50:24.8",
+        "mn50:24.9",
+        "mn50:24.10"
+      ],
+      "summary": "Hỏi đáp địa ngục Dūsī chịu vì xúc phạm Vidhura và Kakusandha Phạm chí;100 cọc sắt mỗi cọc đau riêng. Không100 loại."
+    },
+    {
+      "id": "refrain-one",
+      "title": "Điệp khúc một",
+      "segments": [
+        "mn50:24.11",
+        "mn50:24.12",
+        "mn50:24.13",
+        "mn50:24.14"
+      ],
+      "summary": "Tỳ-kheo trực tiếp biết điều này là đệ tử Phật; nếu Māra/Kẻ Đen Tối xúc phạm vị như thế sẽ chịu khổ."
+    },
+    {
+      "id": "lake",
+      "title": "Lâu đài giữa hồ",
+      "segments": [
+        "mn50:25.1",
+        "mn50:25.2",
+        "mn50:25.3",
+        "mn50:25.4",
+        "mn50:25.5",
+        "mn50:25.6"
+      ],
+      "summary": "Lâu đài giữa hồ tồn tại một kiếp, màu lưu ly/rực/chói/phát quang, thiên nữ múa với nhiều sắc vẻ. Không biển/nhiều kiếp."
+    },
+    {
+      "id": "refrain-two",
+      "title": "Điệp khúc hai",
+      "segments": [
+        "mn50:25.7",
+        "mn50:25.8",
+        "mn50:25.9",
+        "mn50:25.10"
+      ],
+      "summary": "Lặp đầy đủ biết trực tiếp/đệ tử Phật/điều kiện xúc phạm/Kẻ Đen Tối chịu khổ, gắn chuyện hồ."
+    },
+    {
+      "id": "migara",
+      "title": "Rung lâu đài mẹ Migāra",
+      "segments": [
+        "mn50:26.1",
+        "mn50:26.2",
+        "mn50:26.3",
+        "mn50:26.4"
+      ],
+      "summary": "Được Phật thúc giục, trước Tăng chúng, tỳ-kheo rung lâu đài mẹ Migāra bằng ngón chân cái. Không lẫn Vejayanta."
+    },
+    {
+      "id": "refrain-three",
+      "title": "Điệp khúc ba",
+      "segments": [
+        "mn50:26.5",
+        "mn50:26.6",
+        "mn50:26.7",
+        "mn50:26.8"
+      ],
+      "summary": "Lặp đầy đủ biết trực tiếp/đệ tử Phật/điều kiện xúc phạm/Kẻ Đen Tối chịu khổ, gắn mẹ Migāra."
+    },
+    {
+      "id": "vejayanta",
+      "title": "Rung cung Vejayanta",
+      "segments": [
+        "mn50:27.1",
+        "mn50:27.2",
+        "mn50:27.3",
+        "mn50:27.4"
+      ],
+      "summary": "Rung cung Vejayanta bằng ngón chân cái, nương thần thông, khiến chư thiên kinh động."
+    },
+    {
+      "id": "refrain-four",
+      "title": "Điệp khúc bốn",
+      "segments": [
+        "mn50:27.5",
+        "mn50:27.6",
+        "mn50:27.7",
+        "mn50:27.8"
+      ],
+      "summary": "Lặp đầy đủ biết trực tiếp/đệ tử Phật/điều kiện xúc phạm/Kẻ Đen Tối chịu khổ, gắn Vejayanta."
+    },
+    {
+      "id": "sakka",
+      "title": "Hỏi Sakka về ái tận giải thoát",
+      "segments": [
+        "mn50:28.1",
+        "mn50:28.2",
+        "mn50:28.3",
+        "mn50:28.4",
+        "mn50:28.5",
+        "mn50:28.6"
+      ],
+      "summary": "Tại Vejayanta hỏi Sakka/Vāsava có biết giải thoát do đoạn tận ái không; Sakka đáp đúng thật, không thêm toàn lời đáp ngoài bài."
+    },
+    {
+      "id": "refrain-five",
+      "title": "Điệp khúc năm",
+      "segments": [
+        "mn50:28.7",
+        "mn50:28.8",
+        "mn50:28.9",
+        "mn50:28.10"
+      ],
+      "summary": "Lặp đầy đủ biết trực tiếp/đệ tử Phật/điều kiện xúc phạm/Kẻ Đen Tối chịu khổ, gắn Sakka."
+    },
+    {
+      "id": "brahma",
+      "title": "Phạm thiên bỏ quan điểm cũ",
+      "segments": [
+        "mn50:29.1",
+        "mn50:29.2",
+        "mn50:29.3",
+        "mn50:29.4",
+        "mn50:29.5",
+        "mn50:29.6",
+        "mn50:29.7",
+        "mn50:29.8",
+        "mn50:29.9",
+        "mn50:29.10",
+        "mn50:29.11",
+        "mn50:29.12",
+        "mn50:29.13",
+        "mn50:29.14"
+      ],
+      "summary": "Hỏi Phạm thiên vô danh ở Sudhammā trước hội chúng về kiến cũ và ánh sáng vượt Phạm thiên; trả lời theo thứ tự không còn kiến cũ, thấy ánh sáng vượt nên không thể xưng thường/vĩnh cửu."
+    },
+    {
+      "id": "refrain-six",
+      "title": "Điệp khúc sáu",
+      "segments": [
+        "mn50:29.15",
+        "mn50:29.16",
+        "mn50:29.17",
+        "mn50:29.18"
+      ],
+      "summary": "Lặp đầy đủ biết trực tiếp/đệ tử Phật/điều kiện xúc phạm/Kẻ Đen Tối chịu khổ, gắn Phạm thiên."
+    },
+    {
+      "id": "meru",
+      "title": "Meru và Pubbavideha",
+      "segments": [
+        "mn50:30.1",
+        "mn50:30.2",
+        "mn50:30.3",
+        "mn50:30.4"
+      ],
+      "summary": "Bằng sức giải thoát chạm đỉnh Meru, rừng Pubbavideha và người cư trú trên đất ấy; không thêm địa lý hiện đại."
+    },
+    {
+      "id": "refrain-seven",
+      "title": "Điệp khúc bảy",
+      "segments": [
+        "mn50:30.5",
+        "mn50:30.6",
+        "mn50:30.7",
+        "mn50:30.8"
+      ],
+      "summary": "Lặp đầy đủ biết trực tiếp/đệ tử Phật/điều kiện xúc phạm/Kẻ Đen Tối chịu khổ, gắn Meru."
+    },
+    {
+      "id": "fire",
+      "title": "Lửa không có ý đốt nhưng chạm thì cháy",
+      "segments": [
+        "mn50:31.1",
+        "mn50:31.2",
+        "mn50:31.3",
+        "mn50:31.4",
+        "mn50:31.5",
+        "mn50:31.6",
+        "mn50:31.7",
+        "mn50:31.8"
+      ],
+      "summary": "Lửa không nghĩ đốt kẻ ngu, kẻ chạm lửa tự cháy; cũng vậy Māra xúc phạm Như Lai tự chuốc thiêu khổ. Không Phật cố trừng phạt."
+    },
+    {
+      "id": "deeds",
+      "title": "Thôi tạo ác nghiệp và thôi nuôi hy vọng",
+      "segments": [
+        "mn50:31.9",
+        "mn50:31.10",
+        "mn50:31.11",
+        "mn50:31.12",
+        "mn50:31.13",
+        "mn50:31.14",
+        "mn50:31.15",
+        "mn50:31.16"
+      ],
+      "summary": "Māra xúc phạm Như Lai tạo vô phước; hỏi tưởng ác không quả sao; làm ác tích lâu/Kẻ Chấm Dứt; thôi bám Phật, đừng hy vọng chi phối tỳ-kheo."
+    },
+    {
+      "id": "departure",
+      "title": "Dạ xoa buồn rồi biến mất",
+      "segments": [
+        "mn50:31.17",
+        "mn50:31.18",
+        "mn50:31.19",
+        "mn50:31.20",
+        "mn50:31.21",
+        "mn50:31.22"
+      ],
+      "summary": "Tỳ-kheo cảnh cáo ở Bhesakaḷā; dạ xoa buồn biến ngay; Kinh Hàng Ma bài10, Tiểu Phẩm Song Đối phẩm5 kết."
+    },
+    {
+      "id": "chapter-recollection",
+      "title": "Kệ mục lục phẩm",
+      "segments": [
+        "mn50:32.0",
+        "mn50:32.1",
+        "mn50:32.2",
+        "mn50:32.3",
+        "mn50:32.4"
+      ],
+      "summary": "Nhắc Sāleyya/Verañja/hai bài/hài lòng;Tiểu/Đại Pháp Hành;Tư Sát/Kosambī/Phạm thiên;Dūsī và Māra bài10 thành phẩm. Giữ các từ khó, không tự gán hai/hài lòng vào43/44."
+    },
+    {
+      "id": "fifty",
+      "title": "Kệ năm phẩm và kết năm mươi đầu",
+      "segments": [
+        "mn50:33.0",
+        "mn50:33.1",
+        "mn50:33.2",
+        "mn50:33.3",
+        "mn50:33.4",
+        "mn50:33.5"
+      ],
+      "summary": "Mục lục năm phẩm: Pháp Môn Căn Bản;Sư Tử Hống tối thượng;Ví Dụ Cái Cưa;Gosiṅga;Sāleyya. Năm Mươi Kinh Căn Bản kết thúc."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Giữ lòng sáng trước lời chê và lời khen",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Một vị tỳ-kheo nhận ra Māra",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "belly"
+          ],
+          "paragraphs": [
+            "Người truyền Kinh Hàng Ma, MN50 trong Trung Bộ, kể lại điều đã nghe: Tôn giả Mahāmoggallāna ở xứ Bhagga, tại Susumāragira, trong vườn nai của rừng Bhesakaḷā. Tôn giả là một vị tỳ-kheo, người xuất gia và là đệ tử Đức Phật.",
+            "Khi ngài đang đi kinh hành, tức đi bộ để tu tập, ngoài trời, kinh kể Māra Ác Ma đi vào bụng, tận vùng ruột ngài. Ngài cảm thấy bụng nặng như vừa ăn đầy đậu. Ngài rời đường kinh hành, vào chỗ ở và ngồi xuống nơi đã chuẩn bị."
+          ]
+        },
+        {
+          "id": "seen",
+          "kind": "teaching",
+          "heading": "Lời bảo ra ngoài",
+          "meaningUnits": [
+            "see-inside",
+            "denial",
+            "thought-known",
+            "exit",
+            "threshold"
+          ],
+          "paragraphs": [
+            "Ngài chú ý xét bên trong một cách đúng đắn và thấy Māra. Hai lần ngài bảo: “Ra đi, Ác Ma!” Ngài dặn đừng quấy Như Lai — tức Đức Phật — hoặc đệ tử của Như Lai, vì việc đó sẽ khiến chính Māra chịu hại và khổ lâu dài.",
+            "Māra nghĩ ngài không biết, không thấy mình: ngay cả bậc Thầy cũng không thể nhận ra nhanh thế, làm sao người đệ tử biết được? Tôn giả liền nói rõ đó là Māra và nhắc đúng cả ý nghĩ ấy, gồm lời đuổi ra cùng lời cảnh cáo mà Māra vừa nghe. Māra phải nhận ngài thật sự biết và thấy.",
+            "Māra đi ra từ miệng ngài, đứng ở ngạch cửa. Tôn giả lại nói: ngay ở đó ngài cũng thấy; đừng tưởng trốn được ở cửa."
+          ]
+        },
+        {
+          "id": "family",
+          "kind": "teaching",
+          "heading": "Chuyện xưa của chính Tôn giả",
+          "meaningUnits": [
+            "family",
+            "chiefs"
+          ],
+          "paragraphs": [
+            "Tôn giả kể rằng thuở xưa chính mình từng là Māra tên Dūsī. Dūsī và Kāḷī là anh chị em ruột; Māra đang đứng trước ngài là con của Kāḷī, nên từng gọi Dūsī bằng cậu.",
+            "Thời ấy, Đức Phật Kakusandha, bậc A-la-hán, Chánh Đẳng Giác — đã giải thoát và giác ngộ trọn vẹn — xuất hiện ở đời. Ngài có hai đệ tử đứng đầu, hiền thiện là Vidhura và Sañjīva. Không đệ tử nào ngang Vidhura về giảng Pháp, lời dạy của Phật; vì vậy vị ấy được gọi là Vidhura."
+          ]
+        },
+        {
+          "id": "stillness",
+          "kind": "teaching",
+          "heading": "Sañjīva và một sự hiểu lầm",
+          "meaningUnits": [
+            "cessation",
+            "mistaken-death",
+            "alive"
+          ],
+          "paragraphs": [
+            "Sañjīva ở rừng, dưới gốc cây hay trong nhà trống đều dễ nhập diệt thọ tưởng. Thọ là những cảm giác dễ chịu, khó chịu hoặc trung tính; tưởng là sự nhận diện. Trong chứng đạt ấy, thọ và tưởng dừng lại.",
+            "Một lần, ngài đang ngồi như vậy dưới cây. Người chăn bò, chăn gia súc, nông dân và người đi đường kinh ngạc, tưởng ngài đã chết khi ngồi, nên gom cỏ, củi, phân bò chất lên thân, châm lửa hỏa táng rồi bỏ đi.",
+            "Qua đêm, Sañjīva ra khỏi chứng đạt ấy, giũ y; sáng mặc y, mang bát và y vào làng khất thực, nhận thức ăn được cho. Chính những người hôm trước thấy ngài thì kinh ngạc, tưởng người chết đã sống lại. Do chuyện này, ngài được gọi là Sañjīva. Kinh kể một chứng đạt đặc biệt; việc đốt lửa vào người là điều nguy hiểm không được làm theo."
+          ]
+        },
+        {
+          "id": "first-plan",
+          "kind": "teaching",
+          "heading": "Dūsī muốn tìm một chỗ yếu",
+          "meaningUnits": [
+            "attack-plan"
+          ],
+          "paragraphs": [
+            "Dūsī không biết nơi đến, nơi đi của những tỳ-kheo có giới hạnh và phẩm chất tốt ấy trong vòng tái sinh. Ông nghĩ đến việc nhập vào các bà-la-môn, người thuộc truyền thống kinh điển và nghi lễ cổ Ấn Độ, cùng các gia chủ, người sống đời gia đình.",
+            "Ông muốn họ mắng nhiếc, sỉ nhục, chọc giận và quấy nhiễu các vị. Biết đâu tâm các vị đổi khác, ông sẽ tìm được kẽ hở để chi phối. Nghĩ vậy, Dūsī thực hiện việc nhập và xúi đủ bốn điều ấy."
+          ]
+        },
+        {
+          "id": "mockery",
+          "kind": "teaching",
+          "heading": "Bốn hình ảnh bị dùng để chế giễu",
+          "meaningUnits": [
+            "abuse",
+            "owl",
+            "jackal",
+            "cat",
+            "donkey",
+            "bad-destiny"
+          ],
+          "paragraphs": [
+            "Những người bị nhập làm theo. Họ chê đầu trọc, gọi các vị là người tu giả, dùng dòng dõi, màu da và lời “sinh từ chân” để hạ nhục. Họ nhại hai lần “Chúng tôi tu thiền!”, rồi chế giễu dáng vai rũ, mặt cúi, vẻ ngẩn ngơ, chăm chú, đăm chiêu, nghiền ngẫm, thẫn thờ của người ngồi thiền.",
+            "Họ lặp lời chế giễu qua bốn hình ảnh: cú trên cành rình chuột; chó rừng bên sông rình cá; mèo ở lối đi, cống rãnh hay đống rác rình chuột; lừa vừa tháo gánh đứng ở những chỗ ấy. Các con vật được đưa ra để mỉa mai người tu.",
+            "Tôn giả kể: phần lớn người chết vào thời đó, sau khi thân tan, mạng sống hết, sinh vào cõi dữ, nơi xấu, đọa xứ, địa ngục."
+          ]
+        },
+        {
+          "id": "four-hearts",
+          "kind": "teaching",
+          "heading": "Đáp lại bằng một tấm lòng rộng",
+          "meaningUnits": [
+            "four-hearts",
+            "hearts-practice"
+          ],
+          "paragraphs": [
+            "Đức Phật Kakusandha gọi các tỳ-kheo, chỉ rõ Dūsī đã nhập vào những người ấy và dùng bốn cách quấy nhiễu để mong tâm các vị dao động. Ngài dạy các vị mở rộng bốn tâm: từ là mong người được an vui; bi là thương trước nỗi khổ; hỷ là vui với điều tốt của người; xả là giữ lòng quân bình, không bị yêu ghét kéo lệch.",
+            "Với từng tâm, các vị lần lượt lan tỏa đến bốn phương, rồi trên, dưới, ngang, khắp toàn thế giới; đối với tất cả như đối với chính mình. Tâm ấy rộng lớn, cao cả, không giới hạn, không thù hận, không ác ý.",
+            "Các vị nghe lời, ở rừng, dưới gốc cây hoặc trong nhà trống, thực hành đủ cả từ, bi, hỷ, xả với toàn phạm vi ấy."
+          ]
+        },
+        {
+          "id": "second-plan",
+          "kind": "teaching",
+          "heading": "Khi bị chê không lay chuyển, Dūsī đổi cách",
+          "meaningUnits": [
+            "honor-plan",
+            "honor-result"
+          ],
+          "paragraphs": [
+            "Dūsī thấy làm thế vẫn không biết được đường tái sinh của các vị. Ông nghĩ kế khác: nhập vào các bà-la-môn và gia chủ, xúi họ kính trọng, tôn kính, coi trọng và cúng dường các tỳ-kheo có giới, phẩm hạnh tốt. Ông mong khi được đối đãi như vậy, tâm các vị sẽ đổi khác và lộ kẽ hở.",
+            "Dūsī làm đúng kế đó, những người bị nhập cũng thực hiện đủ bốn việc. Tôn giả kể phần lớn người chết vào thời ấy, sau khi thân tan, mạng sống hết, sinh vào cõi lành, cõi trời. Ý định xấu của Dūsī và việc kính trọng người tu là hai điều cần phân biệt trong câu chuyện."
+          ]
+        },
+        {
+          "id": "four-looks",
+          "kind": "teaching",
+          "heading": "Bốn cách nhìn để bớt say mê",
+          "meaningUnits": [
+            "four-contemplations",
+            "contemplation-practice"
+          ],
+          "paragraphs": [
+            "Đức Phật Kakusandha lại gọi các vị, chỉ rõ kế dùng sự kính trọng và cúng dường để làm tâm dao động. Lần này Ngài dạy bốn phép quán: nhìn mặt bất tịnh, không sạch đẹp của thân; thấy mặt đáng chán của thức ăn; thấy toàn thế giới không đáng để say mê; thấy tất cả các hành là vô thường.",
+            "Các hành là những hiện tượng do điều kiện tạo thành; vô thường nghĩa là luôn thay đổi. Bốn cách nhìn giúp bớt tô vẽ và bám chặt vào những điều dễ làm mình mê thích. Thân vẫn cần được chăm sóc, thức ăn vẫn có việc nuôi sống thân.",
+            "Ở rừng, gốc cây hoặc nhà trống, các tỳ-kheo thực hành đủ bốn phép quán đúng như Ngài dạy."
+          ]
+        },
+        {
+          "id": "stone",
+          "kind": "teaching",
+          "heading": "Dūsī đi đến hành động làm hại",
+          "meaningUnits": [
+            "alms",
+            "injury",
+            "fall"
+          ],
+          "paragraphs": [
+            "Một sáng, Đức Phật Kakusandha mặc y, mang bát và y vào làng khất thực, Vidhura đi theo sau. Dūsī nhập vào một cậu bé, nhặt đá đánh đầu Vidhura, làm đầu ngài bị vỡ, chảy máu. Vidhura vẫn tiếp tục theo sau Đức Phật.",
+            "Đức Phật quay lại nhìn theo cách voi lớn ngoái nhìn và nói Dūsī thật không biết giới hạn. Ngay khi Ngài ngoái nhìn, Dūsī chết khỏi nơi ấy và sinh vào Đại Địa Ngục."
+          ]
+        },
+        {
+          "id": "long-pain",
+          "kind": "teaching",
+          "heading": "Tôn giả nhắc nỗi khổ mình từng chịu",
+          "meaningUnits": [
+            "hell-names",
+            "thousand",
+            "durations"
+          ],
+          "paragraphs": [
+            "Đại Địa Ngục ấy có ba tên cổ: “Liên hệ Sáu Xứ Xúc”, “Bị Đâm Bằng Cọc”, “Tự Mình Cảm Thọ”. Những người canh nói với Dūsī: khi cọc này gặp cọc kia tại tim, ông sẽ biết mình đã bị nung ở đó một ngàn năm.",
+            "Tôn giả kể đã chịu khổ nhiều năm, nhiều trăm năm, nhiều ngàn năm trong Đại Địa Ngục. Riêng ở phần phụ của nơi ấy là mười ngàn năm, chịu một loại đau gọi là vuṭṭhānima. Khi ấy, thân ngài có dạng người, đầu có dạng cá. Lời kể nhắc Māra đến hậu quả rất lâu dài của việc cố ý làm hại."
+          ]
+        },
+        {
+          "id": "refrain",
+          "kind": "teaching",
+          "heading": "Lời nhắc trở lại bảy lần",
+          "meaningUnits": [
+            "refrain-one",
+            "refrain-two",
+            "refrain-three",
+            "refrain-four",
+            "refrain-five",
+            "refrain-six",
+            "refrain-seven"
+          ],
+          "paragraphs": [
+            "Tiếp đó là bảy đoạn kệ, mỗi đoạn đều trở lại cùng một lời nhắc: vị tỳ-kheo trực tiếp biết điều đang kể là đệ tử Đức Phật; nếu Māra xúc phạm một vị như vậy, Māra sẽ đi đến đau khổ. Kệ gọi Māra là “Kẻ Đen Tối”. Những việc dưới đây đi kèm lời cảnh tỉnh ấy."
+          ]
+        },
+        {
+          "id": "hell-verse",
+          "kind": "teaching",
+          "heading": "Đoạn thứ nhất: một trăm cọc sắt",
+          "meaningUnits": [
+            "hell-verse"
+          ],
+          "paragraphs": [
+            "Kệ hỏi địa ngục Dūsī từng chịu là thế nào, rồi đáp có một trăm cọc sắt, mỗi cọc đem một nỗi đau riêng. Đó là nơi Dūsī chịu khổ sau khi xúc phạm Vidhura, vị đệ tử, và Kakusandha, bậc Phạm chí thanh tịnh."
+          ]
+        },
+        {
+          "id": "lake",
+          "kind": "teaching",
+          "heading": "Đoạn thứ hai: những lâu đài giữa hồ",
+          "meaningUnits": [
+            "lake"
+          ],
+          "paragraphs": [
+            "Giữa một hồ có những lâu đài tồn tại suốt một kiếp, một khoảng thời gian cực kỳ dài theo kinh. Chúng có màu lưu ly, rực rỡ, chói sáng, phát quang; thiên nữ với nhiều sắc vẻ múa ở đó. Người trực tiếp biết cảnh ấy cũng là vị được nói đến trong lời nhắc."
+          ]
+        },
+        {
+          "id": "palaces",
+          "kind": "teaching",
+          "heading": "Đoạn thứ ba và thứ tư: hai lâu đài khác nhau",
+          "meaningUnits": [
+            "migara",
+            "vejayanta"
+          ],
+          "paragraphs": [
+            "Được Đức Phật thúc giục, Tôn giả làm rung lâu đài của mẹ Migāra bằng ngón chân cái, trước mắt Tăng chúng, cộng đồng những người xuất gia.",
+            "Đoạn kế là cung Vejayanta. Nhờ sức thần thông, ngài cũng dùng ngón chân cái làm cung này rung chuyển, khiến chư thiên kinh động. Sau mỗi việc, lời cảnh tỉnh Māra lại được nhắc."
+          ]
+        },
+        {
+          "id": "sakka",
+          "kind": "teaching",
+          "heading": "Đoạn thứ năm: hỏi về giải thoát",
+          "meaningUnits": [
+            "sakka"
+          ],
+          "paragraphs": [
+            "Ở cung Vejayanta, Tôn giả hỏi Sakka, cũng được gọi là Vāsava: ông có biết sự giải thoát do đoạn tận ái không? Ái là lòng khát khao bám giữ; đoạn tận ái là làm nó chấm dứt hoàn toàn. Sakka trả lời câu hỏi đúng như thật."
+          ]
+        },
+        {
+          "id": "brahma",
+          "kind": "teaching",
+          "heading": "Đoạn thứ sáu: một Phạm thiên đổi cách hiểu",
+          "meaningUnits": [
+            "brahma"
+          ],
+          "paragraphs": [
+            "Trước hội chúng tại giảng đường Sudhammā, Tôn giả hỏi một Phạm thiên: ông còn giữ quan điểm cũ không, và có thấy ánh sáng vượt lên trên cõi Phạm thiên không?",
+            "Vị ấy lần lượt trả lời đúng sự thật: không còn giữ quan điểm cũ; thấy ánh sáng vượt lên trên cõi Phạm thiên. Vì vậy, sao còn nói mình thường hằng, vĩnh cửu được?"
+          ]
+        },
+        {
+          "id": "meru",
+          "kind": "teaching",
+          "heading": "Đoạn thứ bảy: Meru và Pubbavideha",
+          "meaningUnits": [
+            "meru"
+          ],
+          "paragraphs": [
+            "Kệ nhắc Tôn giả chạm đỉnh núi Meru bằng sức mạnh của thiền giải thoát, đến rừng của người Pubbavideha và những người sống trên vùng đất ấy. Lời cảnh tỉnh về xúc phạm vị tỳ-kheo trực tiếp biết lại kết đoạn này."
+          ]
+        },
+        {
+          "id": "fire",
+          "kind": "teaching",
+          "heading": "Lửa không có ý định làm hại",
+          "meaningUnits": [
+            "fire",
+            "deeds"
+          ],
+          "paragraphs": [
+            "Tôn giả ví: lửa không nghĩ “Ta sẽ đốt người này”, nhưng người không hiểu mà chạm lửa đang cháy thì tự bị bỏng. Cũng vậy, Māra xúc phạm Như Lai sẽ tự chuốc khổ. Lời ví nhắm vào người đang cố ý gây hại, không nói Đức Phật muốn trừng phạt ai.",
+            "Māra đã làm điều vô phước, điều ác; sao lại tưởng nó không có quả? Cứ làm ác thì điều ác tích tụ lâu dài. Tôn giả gọi Māra là “Kẻ Chấm Dứt”, bảo hãy thôi bám theo Đức Phật và đừng hy vọng chi phối các tỳ-kheo."
+          ]
+        },
+        {
+          "id": "departure",
+          "kind": "teaching",
+          "heading": "Māra buồn rồi biến mất",
+          "meaningUnits": [
+            "departure"
+          ],
+          "paragraphs": [
+            "Như vậy, Tôn giả trong rừng Bhesakaḷā cảnh cáo Māra. Dạ xoa ấy buồn bã và biến mất ngay tại chỗ. Kinh Hàng Ma kết thúc, là bài thứ mười của Tiểu Phẩm Song Đối, phẩm thứ năm."
+          ]
+        },
+        {
+          "id": "remember",
+          "kind": "teaching",
+          "heading": "Những câu ghi nhớ ở cuối bản",
+          "meaningUnits": [
+            "chapter-recollection",
+            "fifty"
+          ],
+          "paragraphs": [
+            "Cuối bản có kệ mục lục để nhớ các bài: Sāleyya, Verañja, những chữ “hai bài” và “hài lòng”; Tiểu và Đại Pháp Hành; Tư Sát, Kosambī, Phạm thiên; Dūsī và Māra ở bài thứ mười. Đây là những tên và chữ nhắc ngắn khi truyền tụng.",
+            "Kệ tiếp nhắc năm phẩm: Pháp Môn Căn Bản, Sư Tử Hống tối thượng, Ví Dụ Cái Cưa, Gosiṅga và Sāleyya. Đến đây, Năm Mươi Kinh Căn Bản kết thúc."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: hai cách kéo em khỏi điều đúng",
+          "meaningUnits": [
+            "attack-plan",
+            "honor-plan",
+            "four-hearts",
+            "four-contemplations"
+          ],
+          "paragraphs": [
+            "Ví dụ hiện đại: em đang làm bài nhóm. Một bạn chê em để em nổi giận bỏ việc; sau đó lại tâng bốc để em làm hộ cả phần của bạn ấy. Em có thể giữ lời nói tử tế, vui với điều bạn làm tốt, và vẫn chia việc công bằng. Lời chê lẫn lời khen đều cần được nghe bằng một cái đầu tỉnh.",
+            "Đây là ví dụ hiện đại về hai hướng làm tâm dao động. Nó giúp em soi việc thường ngày, trong khi kinh còn nói đến tu tập và sự giải thoát sâu xa."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: giữ lòng tốt và biết dừng",
+          "meaningUnits": [
+            "four-hearts",
+            "fire",
+            "deeds"
+          ],
+          "paragraphs": [
+            "Khi bị chê, em thử dừng một nhịp rồi chọn lời không làm đau người khác. Khi được khen, em có thể cảm ơn và tiếp tục việc đúng, không vì muốn được thích mà nhận làm điều xấu. Nếu ai đe dọa hoặc đánh, hãy rời chỗ nguy hiểm và tìm người lớn đáng tin giúp.",
+            "Giữ lòng từ không buộc em ở lại để bị hại. Hãy chăm việc mình làm, vì mỗi lựa chọn đang góp phần tạo nên điều sẽ đến sau."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Không mở cửa cho sân hận và sự say mê danh dự",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "encounter",
+          "kind": "teaching",
+          "heading": "Nhận rõ điều đang quấy nhiễu",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "belly"
+          ],
+          "paragraphs": [
+            "MN50, Kinh Hàng Ma, mở bằng lời người truyền kinh thuật điều đã nghe. Tôn giả Mahāmoggallāna, một đệ tử xuất gia của Đức Phật, đang ở xứ Bhagga, tại Susumāragira, vườn nai trong rừng Bhesakaḷā.",
+            "Khi ngài kinh hành ngoài trời, đi bộ để tu tập, Māra Ác Ma đi vào bụng và vùng ruột ngài. Ngài cảm thấy bụng nặng như vừa ăn đầy đậu, bèn rời đường kinh hành, vào chỗ ở, ngồi xuống chỗ đã chuẩn bị."
+          ]
+        },
+        {
+          "id": "recognition",
+          "kind": "teaching",
+          "heading": "Biết rõ Māra và ý nghĩ của Māra",
+          "meaningUnits": [
+            "see-inside",
+            "denial",
+            "thought-known",
+            "exit",
+            "threshold"
+          ],
+          "paragraphs": [
+            "Tôn giả tác ý như lý vào bên trong, nghĩa là chú tâm xem xét đúng đắn, và thấy Māra. Ngài hai lần yêu cầu ra ngoài, cảnh cáo đừng quấy Như Lai — Đức Phật — hay đệ tử Như Lai, đừng tạo bất lợi và đau khổ lâu dài cho chính mình.",
+            "Māra nghĩ người tu này không biết, không thấy mình: ngay bậc Thầy cũng không nhận ra nhanh như vậy, huống người đệ tử. Tôn giả nói rõ ngài biết đó là Māra, nhắc lại đúng ý nghĩ ấy, kể cả lời yêu cầu ra hai lần, lời cảnh cáo và sự so sánh với bậc Thầy.",
+            "Māra nhận ra mình thật sự bị biết, bị thấy, đi ra từ miệng Tôn giả và đứng ở ngạch cửa. Tôn giả tiếp tục chỉ rõ: ngay tại ngạch cửa ngài vẫn thấy; Māra đừng tưởng đã thoát khỏi sự nhận biết ấy."
+          ]
+        },
+        {
+          "id": "past",
+          "kind": "teaching",
+          "heading": "Lời cảnh cáo dựa trên chính một tiền thân",
+          "meaningUnits": [
+            "family",
+            "chiefs"
+          ],
+          "paragraphs": [
+            "Mahāmoggallāna thuật rằng mình từng là Māra Dūsī. Dūsī và Kāḷī là anh chị em ruột; Māra đang nghe là con Kāḷī, từng là cháu gọi Dūsī bằng cậu.",
+            "Thuở ấy, Đức Phật Kakusandha, bậc A-la-hán Chánh Đẳng Giác, đã giải thoát và giác ngộ trọn vẹn, xuất hiện ở đời. Hai đại đệ tử hiền thiện, tối thắng của Ngài là Vidhura và Sañjīva. Vidhura không có người ngang bằng trong hàng đệ tử về thuyết Pháp; vì vậy vị ấy được gọi là Vidhura."
+          ]
+        },
+        {
+          "id": "sanjiva",
+          "kind": "teaching",
+          "heading": "Sañjīva và sự lầm tưởng về một chứng đạt",
+          "meaningUnits": [
+            "cessation",
+            "mistaken-death",
+            "alive"
+          ],
+          "paragraphs": [
+            "Ở rừng, gốc cây hay nhà trống, Sañjīva dễ dàng nhập diệt thọ tưởng. Thọ là cảm giác dễ chịu, khó chịu hoặc trung tính; tưởng là sự nhận diện. Trong chứng đạt này, thọ và tưởng dừng lại.",
+            "Một lần ngài ngồi dưới cây trong chứng đạt ấy. Người chăn bò, chăn gia súc, nông dân và người đi đường kinh ngạc, cho rằng vị sa-môn đã chết khi đang ngồi. Họ gom cỏ, củi, phân bò, chất lên thân ngài, châm lửa hỏa táng rồi bỏ đi.",
+            "Qua đêm, Sañjīva xuất khỏi chứng đạt, giũ y; sáng mặc y, mang bát và y vào làng khất thực, nhận thức ăn được cho. Những người hôm trước thấy ngài nhận thức ăn thì kinh ngạc, tưởng người đã chết nay sống lại. Do đó có tên Sañjīva. Những người chứng kiến đã nhầm thiền chứng của ngài với cái chết."
+          ]
+        },
+        {
+          "id": "hostility",
+          "kind": "teaching",
+          "heading": "Mưu kế thứ nhất: làm tâm dao động bằng sự chống đối",
+          "meaningUnits": [
+            "attack-plan",
+            "abuse",
+            "owl",
+            "jackal",
+            "cat",
+            "donkey",
+            "bad-destiny"
+          ],
+          "paragraphs": [
+            "Dūsī không biết nơi đến, nơi đi của các tỳ-kheo có giới hạnh, phẩm chất tốt trong vòng tái sinh. Ông nghĩ rồi thực hiện việc nhập vào các bà-la-môn, người thuộc truyền thống kinh điển và nghi lễ cổ Ấn Độ, cùng gia chủ, những người sống đời gia đình. Ông xúi họ mắng nhiếc, sỉ nhục, chọc giận, quấy nhiễu, hy vọng tâm các vị đổi khác để mình tìm được kẽ hở.",
+            "Những người bị nhập hạ nhục các vị là đầu trọc, sa-môn giả, thấp kém; dùng màu da và lời “sinh từ chân” để khinh miệt. Họ nhại hai lần lời tự xưng tu thiền, chế giễu vai rũ, mặt cúi, vẻ ngẩn ngơ, chăm chú, đăm chiêu, nghiền ngẫm, thẫn thờ.",
+            "Bốn lần mỉa mai đi với bốn hình ảnh: cú trên cành rình chuột; chó rừng bên sông rình cá; mèo ở lối đi, cống rãnh hoặc đống rác rình chuột; lừa đã tháo gánh ở các chỗ ấy. Tôn giả kể phần lớn người chết thời đó, sau thân hoại mạng chung, sinh vào cõi dữ, nơi xấu, đọa xứ, địa ngục."
+          ]
+        },
+        {
+          "id": "boundless",
+          "kind": "teaching",
+          "heading": "Cách đáp thứ nhất: mở rộng bốn tâm",
+          "meaningUnits": [
+            "four-hearts",
+            "hearts-practice"
+          ],
+          "paragraphs": [
+            "Đức Phật Kakusandha gọi các tỳ-kheo, chỉ rõ việc Dūsī nhập vào những người ấy, dùng bốn cách công kích để mong tìm kẽ hở khi tâm các vị dao động. Ngài dạy an trú với từ, bi, hỷ, xả: mong chúng sinh an vui, thương trước khổ đau, vui với điều tốt của người, và giữ tâm quân bình không thiên lệch.",
+            "Mỗi tâm lan tỏa lần lượt một phương, rồi phương thứ hai, ba, bốn; trên, dưới, ngang, khắp mọi nơi, đối với tất cả như với chính mình. Tâm rộng lớn, cao cả, vô lượng, không thù hận, không ác ý, bao trùm toàn thế giới.",
+            "Các vị thực hiện lời chỉ dạy ở rừng, gốc cây, nhà trống: đủ từ, bi, hỷ, xả với toàn phạm vi và tính chất ấy. Tâm không bị thu hẹp thành sự đối đầu với người đang công kích."
+          ]
+        },
+        {
+          "id": "honor",
+          "kind": "teaching",
+          "heading": "Mưu kế thứ hai: tìm kẽ hở trong sự được trọng vọng",
+          "meaningUnits": [
+            "honor-plan",
+            "honor-result"
+          ],
+          "paragraphs": [
+            "Dūsī vẫn không biết đường tái sinh của những vị có giới hạnh. Ông chuyển sang kế nhập bà-la-môn và gia chủ, xúi kính trọng, tôn kính, coi trọng, cúng dường các vị, hy vọng tâm đổi khác dưới sự trọng vọng.",
+            "Ông thực hiện đúng ý định, người bị nhập làm đủ bốn việc. Phần lớn người chết thời ấy, sau thân hoại mạng chung, sinh vào cõi lành, cõi trời. Bài kinh đồng thời cho thấy ý định chi phối của Dūsī và quả lành gắn với việc kính trọng; không thể lấy ý định của Dūsī để gán cho mọi người cúng dường."
+          ]
+        },
+        {
+          "id": "contemplations",
+          "kind": "teaching",
+          "heading": "Cách đáp thứ hai: nhìn điều đáng say mê bằng trí xét rõ",
+          "meaningUnits": [
+            "four-contemplations",
+            "contemplation-practice"
+          ],
+          "paragraphs": [
+            "Đức Phật Kakusandha lại chỉ rõ kế làm tâm biến đổi bằng danh dự và cúng dường. Ngài dạy bốn phép quán: bất tịnh nơi thân, sự đáng chán của thức ăn, sự không đáng say mê đối với toàn thế giới, và vô thường trong tất cả các hành.",
+            "Bất tịnh chỉ mặt không sạch đẹp mà tâm say mê thường bỏ qua. Các hành là những hiện tượng do điều kiện tạo thành; quán vô thường là thấy chúng thay đổi. Những phép quán này hướng đến bớt tô vẽ và nắm giữ. Việc chăm sóc thân, dùng thức ăn để nuôi thân vẫn có vị trí đúng của nó.",
+            "Được chỉ dạy như vậy, các tỳ-kheo ở rừng, gốc cây hoặc nhà trống thực hành đủ cả bốn phép quán. Hai cách đáp trong bài tương ứng với hai hướng Dūsī tìm cách làm tâm dao động."
+          ]
+        },
+        {
+          "id": "violence",
+          "kind": "teaching",
+          "heading": "Hành động làm hại và hậu quả",
+          "meaningUnits": [
+            "alms",
+            "injury",
+            "fall"
+          ],
+          "paragraphs": [
+            "Một sáng, Đức Phật Kakusandha mặc y, mang bát và y, vào làng khất thực, Vidhura đi theo sau. Dūsī nhập một cậu bé, nhặt hòn đá đánh đầu Vidhura làm vỡ đầu. Dù đầu bị thương, máu chảy, Vidhura vẫn theo sau Đức Phật.",
+            "Đức Phật ngoái lại theo cách voi lớn quay nhìn và nói Dūsī thật không biết giới hạn. Ngay khi Ngài ngoái nhìn, Dūsī chết khỏi nơi ấy và sinh vào Đại Địa Ngục. Phần kệ cuối sẽ làm rõ hình ảnh tự chuốc quả khổ của người chủ động gây hại."
+          ]
+        },
+        {
+          "id": "hell",
+          "kind": "teaching",
+          "heading": "Nỗi khổ được chính người từng trải thuật lại",
+          "meaningUnits": [
+            "hell-names",
+            "thousand",
+            "durations"
+          ],
+          "paragraphs": [
+            "Đại Địa Ngục được gọi bằng ba tên: “Liên hệ Sáu Xứ Xúc”, “Bị Đâm Bằng Cọc”, “Tự Mình Cảm Thọ”. Người canh nói khi cọc này gặp cọc kia ngay nơi tim, Dūsī sẽ biết mình đã bị nung ở đó một ngàn năm.",
+            "Tôn giả kể mình chịu nung nhiều năm, nhiều trăm năm, nhiều ngàn năm trong Đại Địa Ngục; riêng tại phần phụ là mười ngàn năm, với một loại đau tên vuṭṭhānima. Thân khi ấy giống thân người, đầu giống đầu cá. Những tên và thời lượng thuộc lời kể về hậu quả mà ngài dùng để cảnh tỉnh Māra."
+          ]
+        },
+        {
+          "id": "seven",
+          "kind": "teaching",
+          "heading": "Bảy đoạn kệ cùng một lời cảnh tỉnh",
+          "meaningUnits": [
+            "hell-verse",
+            "refrain-one",
+            "refrain-two",
+            "refrain-three",
+            "refrain-four",
+            "refrain-five",
+            "refrain-six",
+            "refrain-seven"
+          ],
+          "paragraphs": [
+            "Đoạn kệ đầu hỏi đáp về địa ngục Dūsī chịu sau khi xúc phạm cả Vidhura, vị đệ tử, và Kakusandha, bậc Phạm chí thanh tịnh. Có một trăm cọc sắt, mỗi cọc mang một nỗi đau riêng.",
+            "Sau đoạn này và sau mỗi đoạn trong sáu đoạn tiếp, điệp khúc đều trở lại: vị tỳ-kheo trực tiếp biết điều ấy là đệ tử Đức Phật; nếu Māra xúc phạm một vị như thế, Māra sẽ đi đến đau khổ. “Kẻ Đen Tối” trong điệp khúc là lời gọi Māra. Điều kiện gây hại và hậu quả được giữ xuyên suốt bảy lần nhắc."
+          ]
+        },
+        {
+          "id": "palaces",
+          "kind": "teaching",
+          "heading": "Lâu đài giữa hồ và hai lần làm rung chuyển",
+          "meaningUnits": [
+            "lake",
+            "migara",
+            "vejayanta"
+          ],
+          "paragraphs": [
+            "Đoạn thứ hai nói những lâu đài giữa hồ, tồn tại suốt một kiếp, một thời gian rất dài trong cách kể của kinh. Chúng mang màu lưu ly, rực rỡ, chói sáng, phát quang; thiên nữ với nhiều sắc vẻ múa ở đó.",
+            "Đoạn thứ ba nhắc Tôn giả được Đức Phật thúc giục, trước mắt Tăng chúng, cộng đồng xuất gia, làm rung lâu đài mẹ Migāra bằng ngón chân cái. Đoạn thứ tư là một việc khác: nương sức thần thông, ngài dùng ngón chân cái làm cung Vejayanta rung chuyển, khiến chư thiên kinh động. Mỗi đoạn kết với cùng lời cảnh tỉnh đã nêu."
+          ]
+        },
+        {
+          "id": "questions",
+          "kind": "teaching",
+          "heading": "Hai cuộc hỏi đáp về sự giải thoát và quan điểm thường còn",
+          "meaningUnits": [
+            "sakka",
+            "brahma"
+          ],
+          "paragraphs": [
+            "Đoạn thứ năm nhắc tại Vejayanta, Tôn giả hỏi Sakka, cũng gọi Vāsava, có biết sự giải thoát do đoạn tận ái không. Ái là lòng khát khao bám giữ; sự giải thoát ở đây gắn với việc chấm dứt hoàn toàn ái. Sakka trả lời đúng như thật.",
+            "Đoạn thứ sáu nhắc cuộc hỏi Phạm thiên trước hội chúng ở giảng đường Sudhammā: còn giữ quan điểm cũ không, có thấy ánh sáng vượt lên cõi Phạm thiên không? Phạm thiên lần lượt đáp đúng sự thật: đã bỏ quan điểm cũ, thấy ánh sáng vượt cõi ấy, nên không thể còn nói “Ta thường hằng, ta vĩnh cửu”. Sau mỗi cuộc hỏi đáp lại có điệp khúc cảnh tỉnh Māra."
+          ]
+        },
+        {
+          "id": "meru",
+          "kind": "teaching",
+          "heading": "Đoạn thứ bảy: Meru và Pubbavideha",
+          "meaningUnits": [
+            "meru"
+          ],
+          "paragraphs": [
+            "Kệ nhắc người đã chạm đỉnh Meru bằng sức mạnh của thiền giải thoát, đến rừng của người Pubbavideha cùng những người cư trú trên đất ấy. Lời cảnh tỉnh về xúc phạm vị tỳ-kheo trực tiếp biết khép lại đoạn thứ bảy."
+          ]
+        },
+        {
+          "id": "causality",
+          "kind": "teaching",
+          "heading": "Lửa không có ý trừng phạt",
+          "meaningUnits": [
+            "fire",
+            "deeds"
+          ],
+          "paragraphs": [
+            "Lửa không nghĩ “Ta sẽ đốt kẻ ngu”, nhưng người ngu chạm vào lửa đang cháy thì tự bị thiêu. Cũng vậy, Māra xúc phạm Như Lai sẽ tự thiêu mình bằng hành động ấy. Hình ảnh nhắm vào người đang chủ động gây hại; nó không gán ý định trả thù cho Đức Phật.",
+            "Māra đã tạo điều vô phước khi xúc phạm Như Lai; sao lại nghĩ điều ác sẽ không trổ quả? Cứ làm ác thì điều ác tích tụ lâu dài. Tôn giả gọi Māra là “Kẻ Chấm Dứt”, bảo hãy thôi bám lấy Đức Phật, đừng nuôi hy vọng nơi các tỳ-kheo để chi phối họ."
+          ]
+        },
+        {
+          "id": "departure",
+          "kind": "teaching",
+          "heading": "Cuộc quấy nhiễu chấm dứt",
+          "meaningUnits": [
+            "departure"
+          ],
+          "paragraphs": [
+            "Như vậy, Mahāmoggallāna cảnh cáo Māra tại rừng Bhesakaḷā. Dạ xoa ấy buồn bã, biến mất ngay tại chỗ. Bài Hàng Ma, bài thứ mười, kết thúc Tiểu Phẩm Song Đối, phẩm thứ năm."
+          ]
+        },
+        {
+          "id": "recollection",
+          "kind": "teaching",
+          "heading": "Kệ mục lục và dấu kết năm mươi kinh đầu",
+          "meaningUnits": [
+            "chapter-recollection",
+            "fifty"
+          ],
+          "paragraphs": [
+            "Kệ mục lục của phẩm ghi những từ nhắc: Sāleyya, Verañja, “hai bài” và “hài lòng”; Tiểu, Đại Pháp Hành; Tư Sát, Kosambī, Phạm thiên; Dūsī và Māra ở bài thứ mười. Đây là lối ghi nhớ ngắn để truyền tụng các bài trong phẩm.",
+            "Kệ tiếp liệt kê năm phẩm: Pháp Môn Căn Bản; Sư Tử Hống tối thượng; Ví Dụ Cái Cưa; Gosiṅga; Sāleyya. Lời cuối xác nhận Năm Mươi Kinh Căn Bản đã kết thúc."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: áp lực từ chê bai rồi tâng bốc",
+          "meaningUnits": [
+            "attack-plan",
+            "honor-plan",
+            "four-hearts",
+            "four-contemplations"
+          ],
+          "paragraphs": [
+            "Ví dụ hiện đại: một người muốn bạn bỏ nguyên tắc chung. Trước hết họ công kích để bạn nóng giận và quyết định vội; không thành, họ tâng bốc, tặng lợi ích để bạn nể mà nhượng bộ. Bạn vẫn có thể cư xử tử tế, đồng thời xét việc ấy theo trách nhiệm và sự công bằng.",
+            "Liên hệ này làm rõ hai đường tâm có thể dao động. Các sự kiện về Māra, thiền chứng và tái sinh trong kinh được giữ trong phạm vi lời kể của kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: nhận biết tác động của khen chê",
+          "meaningUnits": [
+            "four-hearts",
+            "four-contemplations",
+            "fire"
+          ],
+          "paragraphs": [
+            "Sau một lời chê hoặc lời khen mạnh, thử nhận biết điều đang nổi lên: muốn trả đũa, muốn được chấp thuận, hay muốn giữ lợi ích vừa nhận? Chậm quyết định một nhịp, nhớ thiện chí với người và kiểm tra lại điều mình định làm có đúng hay không.",
+            "Nếu có đe dọa hay hành hung, cần bảo vệ an toàn và tìm sự hỗ trợ thích hợp. Giữ tâm không thù hận đi cùng hành động ngăn việc gây hại; không cần tiếp tục ở trong một tình huống nguy hiểm để chứng tỏ mình đang tu."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Giữ tâm quân bình trước chống đối và trọng vọng",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Một lời cảnh tỉnh trong rừng Bhesakaḷā",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "belly"
+          ],
+          "paragraphs": [
+            "Kinh Hàng Ma, MN50 thuộc Trung Bộ, mở bằng lời kể điều người truyền kinh đã nghe. Tôn giả Mahāmoggallāna, một vị đệ tử xuất gia của Đức Phật, ở giữa dân Bhagga, tại Susumāragira, vườn nai trong rừng Bhesakaḷā.",
+            "Ngài đang kinh hành ngoài trời, đi bộ để tu tập. Kinh kể lúc ấy Māra Ác Ma vào trong bụng, tận vùng ruột ngài. Cảm thấy bụng nặng như ăn đầy đậu, ngài rời đường kinh hành, vào chỗ ở, ngồi xuống nơi đã chuẩn bị."
+          ]
+        },
+        {
+          "id": "inside",
+          "kind": "teaching",
+          "heading": "Nhìn rõ việc xảy ra bên trong",
+          "meaningUnits": [
+            "see-inside",
+            "denial",
+            "thought-known"
+          ],
+          "paragraphs": [
+            "Ngài tác ý như lý vào bên trong, chú tâm xem xét đúng đắn, rồi thấy Māra. Hai lần ngài bảo hãy ra ngoài; đừng quấy Như Lai, tức Đức Phật, hoặc đệ tử của Như Lai; đừng tự gây bất lợi và khổ lâu dài.",
+            "Māra nghĩ Tôn giả chưa biết, chưa thấy mình. Ngay bậc Thầy cũng không thể nhận ra nhanh vậy, làm sao người đệ tử biết? Tôn giả nói rõ ngài biết đó là Māra và nhắc lại đúng toàn bộ ý nghĩ ấy: lời bảo ra hai lần, lời cảnh cáo và cả sự so sánh với bậc Thầy. Māra không giấu được ý mình."
+          ]
+        },
+        {
+          "id": "door",
+          "kind": "teaching",
+          "heading": "Ra ngoài vẫn bị thấy",
+          "meaningUnits": [
+            "exit",
+            "threshold"
+          ],
+          "paragraphs": [
+            "Māra nhận rằng người tu này thật sự biết và thấy mình khi đưa lời cảnh cáo. Ông ra từ miệng Tôn giả, đứng ở ngạch cửa. Tôn giả lại chỉ rõ ngài thấy ông ngay ở đó; đừng tưởng đứng bên cửa là không bị thấy."
+          ]
+        },
+        {
+          "id": "past",
+          "kind": "teaching",
+          "heading": "Người cảnh cáo từng chịu hậu quả ấy",
+          "meaningUnits": [
+            "family",
+            "chiefs"
+          ],
+          "paragraphs": [
+            "Tôn giả kể: thuở xưa chính ngài là một Māra tên Dūsī. Dūsī và Kāḷī là anh chị em ruột. Māra hiện tại là con Kāḷī, nên từng là cháu gọi Dūsī bằng cậu.",
+            "Thời ấy Đức Phật Kakusandha, bậc A-la-hán, Chánh Đẳng Giác, đã giải thoát và giác ngộ trọn vẹn, xuất hiện ở đời. Ngài có đôi đệ tử tối thắng, hiền thiện là Vidhura và Sañjīva. Không đệ tử nào ngang Vidhura về thuyết Pháp; do đó có tên Vidhura."
+          ]
+        },
+        {
+          "id": "sanjiva",
+          "kind": "teaching",
+          "heading": "Một người nhập định bị tưởng là đã chết",
+          "meaningUnits": [
+            "cessation",
+            "mistaken-death",
+            "alive"
+          ],
+          "paragraphs": [
+            "Sañjīva ở rừng, dưới gốc cây hoặc trong nhà trống đều dễ nhập diệt thọ tưởng. Thọ là cảm giác dễ chịu, khó chịu hay trung tính; tưởng là sự nhận diện. Trong chứng đạt ấy, hai hoạt động này dừng lại.",
+            "Một lần ngài ngồi như vậy dưới cây. Người chăn bò, chăn gia súc, nông dân và người đi đường kinh ngạc, nghĩ ngài chết khi đang ngồi. Họ gom cỏ, củi, phân bò chất lên thân, châm lửa hỏa táng rồi rời đi.",
+            "Qua đêm, ngài xuất khỏi chứng đạt, giũ y. Buổi sáng ngài mặc y, mang bát và y vào làng khất thực. Chính những người trước đó thấy ngài đi nhận thức ăn thì hết sức ngạc nhiên, tưởng người chết sống lại. Vì vậy ngài được gọi là Sañjīva. Lời kể phân biệt chứng đạt của ngài với điều người ngoài lầm tưởng."
+          ]
+        },
+        {
+          "id": "hostility",
+          "kind": "teaching",
+          "heading": "Khi Dūsī chọn cách gây giận",
+          "meaningUnits": [
+            "attack-plan",
+            "abuse"
+          ],
+          "paragraphs": [
+            "Dūsī không biết nơi đến, nơi đi của các tỳ-kheo có giới hạnh và phẩm chất tốt trong vòng tái sinh. Ông nghĩ rồi thực hiện việc nhập vào bà-la-môn, người thuộc truyền thống kinh điển và nghi lễ cổ Ấn Độ, cùng gia chủ, người sống đời gia đình. Ông xúi họ mắng nhiếc, sỉ nhục, chọc giận và quấy nhiễu các vị, mong tâm đổi khác để có chỗ chen vào.",
+            "Người bị nhập làm theo. Họ nhục mạ đầu trọc, sa-môn giả, dùng lời thấp hèn, màu da và chuyện “sinh từ chân” để khinh miệt. Họ nhại hai lần “Chúng tôi tu thiền!”, rồi chế giễu vai rũ, mặt cúi, vẻ ngẩn ngơ, chăm chú, đăm chiêu, nghiền ngẫm, thẫn thờ."
+          ]
+        },
+        {
+          "id": "animals",
+          "kind": "teaching",
+          "heading": "Bốn lần so sánh để hạ nhục",
+          "meaningUnits": [
+            "owl",
+            "jackal",
+            "cat",
+            "donkey",
+            "bad-destiny"
+          ],
+          "paragraphs": [
+            "Lời nhục mạ lặp lại với bốn hình ảnh: cú trên cành rình chuột; chó rừng bên bờ sông rình cá; mèo ở lối đi, cống rãnh hay đống rác rình chuột; lừa đã tháo gánh ở những chỗ ấy. Họ lấy dáng chăm chú của các con vật để mỉa mai người tu.",
+            "Tôn giả kể rằng phần lớn người chết vào thời ấy, sau thân hoại mạng chung, sinh vào cõi dữ, nơi xấu, đọa xứ, địa ngục."
+          ]
+        },
+        {
+          "id": "hearts",
+          "kind": "teaching",
+          "heading": "Lời dạy về từ, bi, hỷ, xả",
+          "meaningUnits": [
+            "four-hearts",
+            "hearts-practice"
+          ],
+          "paragraphs": [
+            "Đức Phật Kakusandha gọi các tỳ-kheo, chỉ rõ Dūsī đã nhập vào những người ấy và dùng bốn cách quấy nhiễu để mong tâm các vị biến đổi. Ngài dạy mở rộng từ, bi, hỷ, xả: mong người an vui; thương nỗi khổ của người; vui với điều tốt của người; giữ lòng quân bình, không thiên lệch vì yêu ghét.",
+            "Với từng tâm, các vị lan tỏa đến phương thứ nhất, thứ hai, thứ ba, thứ tư; rồi trên, dưới, ngang, khắp mọi nơi, đối với tất cả như với chính mình. Tâm ấy rộng lớn, cao cả, không giới hạn, không thù hận, không ác ý, bao trùm toàn thế giới.",
+            "Các vị nghe lời và thực hành ở rừng, gốc cây, nhà trống. Cả bốn tâm đều được mở rộng với đầy đủ phạm vi và tính chất như vậy."
+          ]
+        },
+        {
+          "id": "honor",
+          "kind": "teaching",
+          "heading": "Dūsī đổi sang sự kính trọng",
+          "meaningUnits": [
+            "honor-plan",
+            "honor-result"
+          ],
+          "paragraphs": [
+            "Kế trước không thành; Dūsī vẫn không biết đường tái sinh của các vị có giới hạnh. Ông nghĩ đến việc nhập bà-la-môn và gia chủ, xúi họ kính trọng, tôn kính, coi trọng, cúng dường các vị. Ông mong được đề cao như vậy sẽ làm tâm các vị đổi khác, để mình tìm thấy kẽ hở.",
+            "Dūsī thực hiện kế ấy; những người bị nhập làm đủ bốn việc. Phần lớn người chết thời đó, sau thân hoại mạng chung, sinh vào cõi lành, cõi trời. Lời kể vẫn nhận rõ việc kính trọng có quả lành, trong khi Dūsī muốn dùng nó để chi phối tâm người nhận."
+          ]
+        },
+        {
+          "id": "contemplations",
+          "kind": "teaching",
+          "heading": "Nhìn cho bớt tô vẽ, bớt nắm giữ",
+          "meaningUnits": [
+            "four-contemplations",
+            "contemplation-practice"
+          ],
+          "paragraphs": [
+            "Đức Phật Kakusandha lại gọi các vị và nói rõ mưu kế dùng kính trọng, danh dự, cúng dường để tâm dao động. Ngài dạy quán bốn điều: sự bất tịnh nơi thân; sự đáng chán của thức ăn; sự không đáng say mê của toàn thế giới; và vô thường trong tất cả các hành.",
+            "Bất tịnh là mặt không sạch đẹp của thân mà tâm say mê dễ bỏ qua. Các hành là những hiện tượng do điều kiện tạo thành; vô thường là không đứng yên, luôn thay đổi. Cách quán ấy giúp giảm tô vẽ, giảm nắm giữ. Ta vẫn chăm thân và dùng thức ăn để nuôi thân cho đúng.",
+            "Được giáo giới như vậy, các tỳ-kheo ở rừng, gốc cây hoặc nhà trống thực hành đủ bốn điều ấy."
+          ]
+        },
+        {
+          "id": "injury",
+          "kind": "teaching",
+          "heading": "Vidhura bị đánh trên đường khất thực",
+          "meaningUnits": [
+            "alms",
+            "injury",
+            "fall"
+          ],
+          "paragraphs": [
+            "Vào một buổi sáng, Đức Phật Kakusandha mặc y, mang bát và y vào làng khất thực, có Vidhura đi theo sau. Dūsī nhập vào một cậu bé, nhặt đá đánh đầu Vidhura, làm vỡ đầu. Máu chảy, vị ấy vẫn tiếp tục theo sau Đức Phật.",
+            "Đức Phật quay lại nhìn theo cách voi lớn ngoái nhìn và nói Dūsī thật không biết giới hạn. Ngay khi Ngài ngoái nhìn, Dūsī chết khỏi nơi ấy, tái sinh vào Đại Địa Ngục."
+          ]
+        },
+        {
+          "id": "hell",
+          "kind": "teaching",
+          "heading": "Nỗi khổ kéo dài trong lời kể",
+          "meaningUnits": [
+            "hell-names",
+            "thousand",
+            "durations"
+          ],
+          "paragraphs": [
+            "Đại Địa Ngục ấy mang ba tên cổ: “Liên hệ Sáu Xứ Xúc”, “Bị Đâm Bằng Cọc”, “Tự Mình Cảm Thọ”. Người canh nói với Dūsī: khi cọc này gặp cọc kia tại tim, khi ấy sẽ biết mình đã bị nung trong địa ngục một ngàn năm.",
+            "Tôn giả kể mình bị nung ở đó nhiều năm, nhiều trăm năm, nhiều ngàn năm. Ở phần phụ của Đại Địa Ngục, ngài chịu mười ngàn năm với một loại đau tên vuṭṭhānima. Thân khi ấy hình người, đầu hình cá. Đây là quá khứ được ngài nhắc để Māra biết dừng việc làm hại."
+          ]
+        },
+        {
+          "id": "refrain",
+          "kind": "teaching",
+          "heading": "Một lời nhắc đi qua bảy đoạn kệ",
+          "meaningUnits": [
+            "hell-verse",
+            "refrain-one",
+            "refrain-two",
+            "refrain-three",
+            "refrain-four",
+            "refrain-five",
+            "refrain-six",
+            "refrain-seven"
+          ],
+          "paragraphs": [
+            "Đoạn kệ đầu hỏi đáp về địa ngục Dūsī chịu vì xúc phạm Vidhura, vị đệ tử, và Kakusandha, bậc Phạm chí thanh tịnh. Có một trăm cọc sắt, mỗi cọc là một nỗi đau riêng.",
+            "Sau đoạn ấy và sau từng đoạn trong sáu đoạn kế, cùng một lời cảnh tỉnh trở lại: vị tỳ-kheo trực tiếp biết điều vừa kể là đệ tử Đức Phật; nếu Māra xúc phạm vị như vậy thì sẽ đi đến đau khổ. “Kẻ Đen Tối” trong lời kệ là tên gọi Māra. Đủ bảy đoạn đều giữ mối liên hệ này."
+          ]
+        },
+        {
+          "id": "lake",
+          "kind": "teaching",
+          "heading": "Đoạn thứ hai: cảnh lâu đài giữa hồ",
+          "meaningUnits": [
+            "lake"
+          ],
+          "paragraphs": [
+            "Kệ kể những lâu đài giữa hồ, tồn tại suốt một kiếp, một thời gian rất dài theo cách tính trong kinh. Chúng có màu lưu ly, rực rỡ, chói sáng, phát quang. Thiên nữ với nhiều sắc vẻ múa tại đó. Lời cảnh tỉnh nhắc vị tỳ-kheo trực tiếp biết cảnh này."
+          ]
+        },
+        {
+          "id": "two-palaces",
+          "kind": "teaching",
+          "heading": "Đoạn thứ ba và thứ tư: hai nơi rung chuyển",
+          "meaningUnits": [
+            "migara",
+            "vejayanta"
+          ],
+          "paragraphs": [
+            "Được Đức Phật thúc giục, Tôn giả dùng ngón chân cái làm rung lâu đài của mẹ Migāra, ngay trước mắt Tăng chúng, cộng đồng xuất gia.",
+            "Đoạn tiếp nói ngài nương sức thần thông, dùng ngón chân cái làm rung cung Vejayanta, khiến chư thiên kinh động. Mỗi việc đều đi với lời cảnh tỉnh chung."
+          ]
+        },
+        {
+          "id": "sakka",
+          "kind": "teaching",
+          "heading": "Đoạn thứ năm: ái tận giải thoát",
+          "meaningUnits": [
+            "sakka"
+          ],
+          "paragraphs": [
+            "Tại Vejayanta, Tôn giả hỏi Sakka, còn gọi Vāsava, có biết sự giải thoát do đoạn tận ái không. Ái là lòng khát khao bám giữ; đoạn tận là chấm dứt hoàn toàn. Sakka trả lời câu hỏi đúng như thật."
+          ]
+        },
+        {
+          "id": "brahma",
+          "kind": "teaching",
+          "heading": "Đoạn thứ sáu: thôi nhận mình thường hằng",
+          "meaningUnits": [
+            "brahma"
+          ],
+          "paragraphs": [
+            "Ở giảng đường Sudhammā, trước hội chúng, Tôn giả hỏi một Phạm thiên: còn giữ quan điểm ngày trước không, có thấy ánh sáng vượt lên trên cõi Phạm thiên không?",
+            "Phạm thiên lần lượt đáp đúng thật: không còn quan điểm cũ; thấy ánh sáng vượt lên trên cõi ấy. Vì thế, hôm nay sao còn nói mình thường hằng và vĩnh cửu được? Sau cuộc đối đáp, lời cảnh tỉnh Māra lại trở về."
+          ]
+        },
+        {
+          "id": "meru",
+          "kind": "teaching",
+          "heading": "Đoạn thứ bảy: Meru và vùng Pubbavideha",
+          "meaningUnits": [
+            "meru"
+          ],
+          "paragraphs": [
+            "Kệ nhắc người chạm đến đỉnh Meru bằng sức mạnh thiền giải thoát, đến rừng của người Pubbavideha và những người sống trên đất ấy. Điệp khúc về vị tỳ-kheo trực tiếp biết khép lại đoạn thứ bảy."
+          ]
+        },
+        {
+          "id": "fire",
+          "kind": "teaching",
+          "heading": "Như người chạm vào lửa",
+          "meaningUnits": [
+            "fire",
+            "deeds"
+          ],
+          "paragraphs": [
+            "Lửa không nghĩ mình sẽ đốt kẻ ngu. Nhưng kẻ ngu chạm vào lửa cháy thì tự bị thiêu. Cũng vậy, Māra xúc phạm Như Lai sẽ tự chuốc quả khổ như tự thiêu mình. Hình ảnh ấy nói về hậu quả của người cố ý gây hại, không phải ý muốn trừng phạt của Đức Phật.",
+            "Māra đã tạo việc vô phước; sao lại nghĩ điều ác không trổ quả? Cứ làm ác thì điều ác tích tụ lâu dài. Tôn giả gọi Māra là “Kẻ Chấm Dứt”, bảo thôi bám lấy Đức Phật, thôi hy vọng chi phối các tỳ-kheo."
+          ]
+        },
+        {
+          "id": "departure",
+          "kind": "teaching",
+          "heading": "Lời cảnh cáo khép lại",
+          "meaningUnits": [
+            "departure"
+          ],
+          "paragraphs": [
+            "Trong rừng Bhesakaḷā, Tôn giả Mahāmoggallāna cảnh cáo Māra như vậy. Dạ xoa ấy buồn bã, biến mất ngay ở đó. Kinh Hàng Ma là bài thứ mười, kết Tiểu Phẩm Song Đối, phẩm thứ năm."
+          ]
+        },
+        {
+          "id": "recollection",
+          "kind": "teaching",
+          "heading": "Những tên được ghi nhớ ở cuối",
+          "meaningUnits": [
+            "chapter-recollection",
+            "fifty"
+          ],
+          "paragraphs": [
+            "Kệ mục lục của phẩm nhắc Sāleyya, Verañja, “hai bài” và “hài lòng”; Tiểu và Đại Pháp Hành; Tư Sát, Kosambī, Phạm thiên; Dūsī và Māra ở bài thứ mười. Những chữ ngắn ấy dùng để nhớ lại các bài khi truyền tụng.",
+            "Kệ về các phẩm nhắc đủ năm: Pháp Môn Căn Bản, Sư Tử Hống tối thượng, Ví Dụ Cái Cưa, Gosiṅga, Sāleyya. Lời cuối ghi Năm Mươi Kinh Căn Bản kết thúc."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: giữ việc chung khi được khen hoặc chê",
+          "meaningUnits": [
+            "attack-plan",
+            "honor-plan",
+            "four-hearts",
+            "four-contemplations"
+          ],
+          "paragraphs": [
+            "Ví dụ hiện đại: trong một buổi sinh hoạt chung, có người chê trách rồi lại ca ngợi để thúc ta nhận một việc trái với nguyên tắc đã thống nhất. Ta có thể nghe bình tĩnh, cảm ơn điều góp ý đúng và nói rõ phần mình có thể nhận. Lòng tốt vẫn đi cùng sự tỉnh táo.",
+            "Ví dụ chỉ soi một việc gần gũi. Lời kinh còn mở tới sự tu tập tâm và con đường giải thoát, cùng những chuyện về Māra được thuật lại ở trên."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: đừng để khen chê quyết định thay mình",
+          "meaningUnits": [
+            "four-hearts",
+            "four-contemplations",
+            "fire"
+          ],
+          "paragraphs": [
+            "Khi nghe lời làm mình nóng lên hoặc vui quá mức, có thể chậm lại trước khi trả lời. Nhớ lòng từ với người đối diện, rồi xét việc cần làm: điều gì đúng, điều gì chưa đúng, điều gì đang bị lòng muốn hơn thua hoặc được trọng vọng che lấp?",
+            "Nếu có hành vi đe dọa hay gây thương tích, hãy tìm sự hỗ trợ và bảo vệ an toàn. Tâm không thù hận có thể đi cùng việc đặt giới hạn rõ để ngăn gây hại."
+          ]
+        }
+      ]
+    }
+  }
+}

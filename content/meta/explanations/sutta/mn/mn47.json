@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn47",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "8ed6d487-c92d-42cc-b70e-76b2cf9958d9"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "16f79400-fafa-4a16-869c-b01c88c96c12"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "c4775e69-dbe2-41c0-8fd3-789c8a3cf572"
+    }
+  },
+  "reviews": [
+    {
+      "id": "8ed6d487-c92d-42cc-b70e-76b2cf9958d9",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.3,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đọc trọn năm nguồn và toàn văn; bản trẻ giữ việc vị khảo sát không biết trực tiếp tâm người khác theo Pāli, không theo chỗ HTML thiếu phủ định. Chín ô Anh trống không được tính là đồng thuận.",
+        "semantic_fidelity": "Phân biệt điều ô nhiễm, pha trộn và trong sạch; giữ sự từ bỏ không do sợ và không tìm hưởng dục vì tham đã hết. Niềm tin là kết quả của toàn tiến trình, không là yêu cầu trẻ đoán tâm hoặc tin mọi lời tự nhận.",
+        "core_coverage": "Đủ 26 ý và 84 khóa: mở bài, ba lượt quan sát, thời gian, danh tiếng, từ bỏ, hai căn cứ, ba câu hỏi trực tiếp, không đồng hóa, nghe và tự biết, hai lần ba nhận định, lòng tin và kết bài.",
+        "logic_context": "Các bước trước mở sang bước sau; lời người khảo sát được đặt trong tình huống nếu bị hỏi, không dựng thêm nhân vật đã chứng ngộ. Giữ một số điều trực tiếp biết và sức không thể lay chuyển của niềm tin có điều kiện ấy.",
+        "terminology": "Giải nghĩa tư sát, tỳ-kheo, Như Lai, Chánh Đẳng Giác, lợi dưỡng và các danh xưng cuối. Không đồng hóa vẫn là khái niệm khó với trẻ, được mở bằng câu gần nghĩa nhưng có thể cần đọc cùng người lớn.",
+        "audience_fit": "Ví dụ gấp giấy có thao tác nhìn, nghe, hỏi, tự hiểu vừa sức; gợi ý ba điều ghi lại cụ thể. Mười bốn mục chia được nhiều lần đọc, nhưng vài đoạn nghi thức và căn cứ vẫn đòi chú ý lâu.",
+        "clarity": "Tiêu đề theo câu hỏi và tiến trình; ba kết quả không/không/có được nói riêng. Các đoạn nhắc lại lời hướng dẫn hơi trang trọng, song giúp người đọc giữ đúng ai nói và ai đang được giả định.",
+        "editorial_separation": "Gấp giấy tự nhận là ví dụ người biên soạn, không gán cho kinh; sự khác nhau giữa hiểu kỹ năng và giác ngộ được nói rõ. Gợi ý có mục riêng, không dùng ví dụ thế chỗ phần trực tiếp biết trong giáo pháp.",
+        "practical_integrity": "Trẻ được khuyến khích hỏi và ghi điều chưa hiểu; không đòi đọc tâm, tự chứng nhận một người là Phật hay phục tùng vô điều kiện. Không hứa một buổi thực hành tạo ra niềm tin bất động.",
+        "technical_integrity": "Đọc toàn bộ 14 mục và map; audit nguồn/cấu trúc sạch, 84 khóa đúng một lần, hash khớp bản đã đọc. Kiểm này chưa thay build HTML của lô hoặc thử đọc với trẻ thật."
+      },
+      "blockingErrors": [],
+      "notes": "Root đọc đủ năm nguồn, toàn bộ bản đồ và ba bản sau author-freeze; không thấy lỗi chặn phải sửa. Độ khó còn lại của thuật ngữ và giới hạn thử nghiệm người đọc được ghi trong điểm.",
+      "contentHash": "5e12644ee52fa95785946e3188cc65f71b07799f4c5075d57145a24eed96c07a",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn47.html",
+          "sha256": "ffc18db7eb0ff660feb3c72d9200904e6dd25610eb80226fe5a095397b33a50c"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn47_root-pli-ms.json",
+          "sha256": "695b012ee1a7060d3ae02a4e51317922999bf6208baaa2152942a3c9420c7a16"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn47_translation-en-sujato.json",
+          "sha256": "b3eda6e29d137c6e2a587c3fcfd9c6be7a1e10c32c744aca097c69d4186afd19"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn47_comment-vi-project.json",
+          "sha256": "c41a8ce321d3f3e10ec21251a850e6f0942cdd4098b2efa7af69de3cf20ee089"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn47_translation-vi-project.json",
+          "sha256": "9e4a74741cdf1370b5cb6c7627da1b9f1dd4f13afb75aa47bd6750cda0905104"
+        }
+      ]
+    },
+    {
+      "id": "16f79400-fafa-4a16-869c-b01c88c96c12",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.4,
+        "audience_fit": 9.5,
+        "clarity": 9.6,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu đủ Pāli, Việt dự án, Anh, chú thích và HTML liên tục. Giữ phủ định không trực tiếp biết tâm, kết quả khi đã có danh và không đồng hóa ở 13.4 theo Pāli/dự án, không lấy các cách diễn khác trong HTML.",
+        "semantic_fidelity": "Không rút MN47 thành kiểm chứng uy tín nghề nghiệp: vẫn khảo sát Như Lai có giác ngộ hoàn toàn, nghe giáo pháp sâu dần và trực tiếp biết một số pháp, rồi tin đủ Phật, Pháp, Tăng. Câu không đồng hóa tránh lời khoe không ai giống mình.",
+        "core_coverage": "Đủ toàn bộ 26 ý: ba loại biểu hiện qua hai cửa, hai phép thử thời gian/danh tiếng, từ bỏ với nguyên nhân, ứng xử và lời nghe trực tiếp, hỏi thầy, học, tự thuật căn cứ, kết luận về niềm tin và khảo sát đúng Pháp.",
+        "logic_context": "Giữ hai phần căn cứ ở 10 và lời tự thuật có điều kiện ở 15; không đổi lời hướng dẫn thành sự kiện một người khảo sát cụ thể. Một số nguy hiểm khi nổi tiếng không biến thành mọi nguy hiểm, một số pháp tự biết không thành toàn tri.",
+        "terminology": "Các thuật ngữ Như Lai, Chánh Đẳng Giác, ly tham, dục lạc, lợi dưỡng và không đồng hóa được giải khi dùng. Pháp trong một số pháp còn cần dựa vào mạch giáo pháp để hiểu, nên không chấm tuyệt đối.",
+        "audience_fit": "Liên hệ người hướng dẫn nghề nghiệp và việc giải trình căn cứ sát nhu cầu trưởng thành; ranh giới của phép liên hệ được giữ. Mười một mục khá gọn mà vẫn đủ chuỗi lập luận, chưa có thử nghiệm người đọc.",
+        "clarity": "Bố cục ba biểu hiện, thời gian/danh vọng, căn cứ, hỏi, học, kể lại tạo mạch dễ theo. Việc nhắc lại ba nhận định được giữ có mục đích; câu danh xưng tôn giáo ở cuối vẫn tương đối dày.",
+        "editorial_separation": "Phần nghề nghiệp và gợi ý suy xét được ghi là liên hệ biên soạn, tách khỏi các đoạn giảng. Không dùng thành công kỹ năng để thay cho giác ngộ; không chèn tranh luận thời sự hoặc khẳng định ngoài nguồn.",
+        "practical_integrity": "Bài tập phân biệt điều thấy/nghe, tự hiểu và suy đoán, nêu phạm vi hiểu biết khi giải thích cho người khác. Không xem vài biểu hiện tốt hoặc một lời tự nhận là đã đủ toàn bộ căn cứ được kinh mô tả.",
+        "technical_integrity": "Map đủ 84 khóa không trùng, toàn bộ 11 mục đã đọc; audit và nguồn hiện hành không lỗi, hash khớp bản cuối. Chưa suy kết quả dữ liệu thành đã chạy giao diện hoặc đã được học giả xác nhận."
+      },
+      "blockingErrors": [],
+      "notes": "Root đọc đủ năm nguồn, toàn bộ bản đồ và ba bản sau author-freeze; không thấy lỗi chặn phải sửa. Độ khó còn lại của thuật ngữ và giới hạn thử nghiệm người đọc được ghi trong điểm.",
+      "contentHash": "98ccbb1056d978950f922e0b52fc466aef68aae2972df7f6f60077c5cfd2f33d",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn47.html",
+          "sha256": "ffc18db7eb0ff660feb3c72d9200904e6dd25610eb80226fe5a095397b33a50c"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn47_root-pli-ms.json",
+          "sha256": "695b012ee1a7060d3ae02a4e51317922999bf6208baaa2152942a3c9420c7a16"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn47_translation-en-sujato.json",
+          "sha256": "b3eda6e29d137c6e2a587c3fcfd9c6be7a1e10c32c744aca097c69d4186afd19"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn47_comment-vi-project.json",
+          "sha256": "c41a8ce321d3f3e10ec21251a850e6f0942cdd4098b2efa7af69de3cf20ee089"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn47_translation-vi-project.json",
+          "sha256": "9e4a74741cdf1370b5cb6c7627da1b9f1dd4f13afb75aa47bd6750cda0905104"
+        }
+      ]
+    },
+    {
+      "id": "c4775e69-dbe2-41c0-8fd3-789c8a3cf572",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.4,
+        "audience_fit": 9.5,
+        "clarity": 9.6,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đủ năm nguồn; bản lớn tuổi giữ phủ định đầu, bối cảnh danh tiếng và vế không đồng hóa theo Pāli cùng Việt dự án. HTML được đối chiếu liên tục, không giả có căn chỉnh khóa; chín ô Anh trống không dùng làm xác nhận.",
+        "semantic_fidelity": "Niềm tin bén rễ từ quan sát, hỏi, nghe và tự biết, vẫn hướng tới ba nhận định về Phật, Pháp, Tăng. Không đổi sự vững chắc thành cố chấp, không đổi việc biết một số pháp thành khẳng định đã đạt toàn bộ giáo pháp.",
+        "core_coverage": "Mười lăm mục bao phủ đủ 26 ý, gồm cả ba câu hỏi trực tiếp, hai phần căn cứ về từ bỏ và cả hai câu kết luận khảo sát đúng/được khảo sát kỹ. Lời vui mừng cuối không được thêm thành chứng quả.",
+        "logic_context": "Những kết quả khảo sát xuất hiện theo đúng thứ tự, sau đó là tình huống trả lời người hỏi. Các điều kiện của danh tiếng và hết tham được giữ; lòng tin không thể lay chuyển gắn với căn cứ đã nêu, không áp cho mọi lòng tin.",
+        "terminology": "Giải nghĩa tỳ-kheo, Như Lai, Chánh Đẳng Giác, dục, ly tham, lợi dưỡng và không đồng hóa bằng lời gần gũi. Một vài từ như pháp và an lập vẫn còn sắc thái kinh điển, giới hạn nhẹ với người mới đọc.",
+        "audience_fit": "Chia nhỏ thời gian, danh tiếng, ứng xử và nghe trực tiếp giúp đọc chậm từng phần; ví dụ nghề thủ công tôn trọng khả năng tiếp tục học. Không mặc định tuổi cao đồng nghĩa suy yếu, bệnh tật hoặc đã có kinh nghiệm tôn giáo.",
+        "clarity": "Nhịp câu rõ, ba câu hỏi và ba nhận định hiện đầy đủ; hình ảnh bén rễ nối tự nhiên với đoạn cuối. Có đôi câu nhắc lại phạm vi một số pháp để giữ nghĩa, làm tốc độ đọc chậm thêm nhưng không gây đảo ý.",
+        "editorial_separation": "Ví dụ học đan nhận là liên hệ người biên soạn, chỉ minh họa cách học có căn cứ. Gợi ý suy xét tách riêng, không đặt lời nói mới vào miệng Đức Phật hoặc biến người quen thành nhân vật trong kinh.",
+        "practical_integrity": "Gợi ý chọn câu hỏi ngắn và nói rõ căn cứ giữ quyền tiếp tục tìm hiểu ở mọi tuổi. Không khuyên phán xét tâm người khác, không hứa kết quả chứng ngộ từ bài tập đời thường hay dùng danh vọng làm bảo chứng.",
+        "technical_integrity": "Đã đọc trọn 15 mục, kiểm map và nguồn; audit sạch, 84 khóa đủ và fingerprint đúng văn bản đã đọc. Kiểm HTML và các cổng dự án vẫn do bước tích hợp lô thực hiện sau."
+      },
+      "blockingErrors": [],
+      "notes": "Root đọc đủ năm nguồn, toàn bộ bản đồ và ba bản sau author-freeze; không thấy lỗi chặn phải sửa. Độ khó còn lại của thuật ngữ và giới hạn thử nghiệm người đọc được ghi trong điểm.",
+      "contentHash": "267d2a61b0a0ca4a73afbf379f608e79f46dda356014002ab6055b19df8cdfd1",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn47.html",
+          "sha256": "ffc18db7eb0ff660feb3c72d9200904e6dd25610eb80226fe5a095397b33a50c"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn47_root-pli-ms.json",
+          "sha256": "695b012ee1a7060d3ae02a4e51317922999bf6208baaa2152942a3c9420c7a16"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn47_translation-en-sujato.json",
+          "sha256": "b3eda6e29d137c6e2a587c3fcfd9c6be7a1e10c32c744aca097c69d4186afd19"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn47_comment-vi-project.json",
+          "sha256": "c41a8ce321d3f3e10ec21251a850e6f0942cdd4098b2efa7af69de3cf20ee089"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn47_translation-vi-project.json",
+          "sha256": "9e4a74741cdf1370b5cb6c7627da1b9f1dd4f13afb75aa47bd6750cda0905104"
+        }
+      ]
+    }
+  ]
+}

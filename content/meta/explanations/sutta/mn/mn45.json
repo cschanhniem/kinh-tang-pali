@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn45",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "08eff7d9-af5d-4061-a199-6a53383f0fdd"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "ecbe4c7e-a8ca-4d9a-8b28-3584ebe05adf"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "c1286ffd-7e42-4315-9b5a-db9d61360d23"
+    }
+  },
+  "reviews": [
+    {
+      "id": "08eff7d9-af5d-4061-a199-6a53383f0fdd",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.7,
+        "logic_context": 9.7,
+        "terminology": 9.3,
+        "audience_fit": 9.2,
+        "clarity": 9.3,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đủ năm nguồn đã đọc; bối cảnh và lời truyền kinh đúng. Giữ một thần cây, cánh tay và cành nứt theo Pāli; phần thiền được mở đủ từ HTML SC10 thực sự đã đọc, không giả nhận phần lược là văn Pāli đầy đủ.",
+        "semantic_fidelity": "Bốn cách thực hành vẫn gắn cảm nhận hiện tại với quả về sau, kể cả tái sinh. Đời tu khó vì tham sân si khác hành xác; cõi trời không bị gọi là hết mọi khổ.",
+        "core_coverage": "Đủ sáu hy vọng về hạt, diễn tiến dây leo và lần nối lại dụ; các nhóm nhận thức ăn, lượng ăn, kỳ hạn, đồ ăn, y phục, hành xác và bốn thiền đều có. Nhãn kết bài thứ năm đã được thêm.",
+        "logic_context": "Phân biệt năm tác nhân không xảy ra với hạt có sức mọc; giữ thường và không thường ở từng gốc tham sân si. Không kết tội một món kiêng riêng hoặc lấy mọi cảm giác dễ chịu làm điều xấu.",
+        "terminology": "Pháp hành, dục, du sĩ, phạm hạnh, tham sân si và tầm/tứ được giải bằng lời gần gũi. Các tên cây và vật liệu cổ được giữ có chừng mực, dù danh sách còn khó nhớ đối với trẻ.",
+        "audience_fit": "Chuyện hạt leo, câu hỏi ngắn và ví dụ giành lượt chơi phù hợp trẻ; 19 mục cho phép đọc từng phần. Danh mục khổ hạnh dài vẫn cần người cùng đọc ở một số lứa tuổi.",
+        "clarity": "Bốn trường hợp có mốc rõ; câu chuyện dây leo giữ sức kể rồi trở lại ý chính. Phần kê vật liệu khá dày nhưng không làm mất sự phân biệt giữa gian khó và tự làm khổ.",
+        "editorial_separation": "Ví dụ lượt chơi mang nhãn ví dụ hiện đại, tự nói rõ giới hạn của so sánh. Gợi ý cuối ở mục thực hành riêng, không được đặt vào lời Phật hay thay quả tái sinh bằng mất lòng bạn.",
+        "practical_integrity": "Nói rõ các kỳ hạn ăn không phải bài tập cho trẻ, không cần tự gây đau; câu hỏi thực hành đi với người lớn đáng tin và một lựa chọn tử tế, không hứa chứng đạt.",
+        "technical_integrity": "Audit sạch nội dung/nguồn; 29 ý bao phủ 97 khóa thực, 19 mục và fingerprint đúng bản sau đọc lại ending. Cổng build không được suy ra từ audit này."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc đủ năm nguồn, 29 ý/97 khóa và ba bản đầy đủ; sau góp ý đọc lại trọn ba ending. Năm hash nguồn khớp checkpoint độc lập, audit cuối sạch và nội dung đúng freeze tác giả.",
+      "contentHash": "17b04e4ecec4950de88fc5ca451f1cff2afda46358c55892966d9f564caa77a7",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn45.html",
+          "sha256": "cbbc4f17996ee3405f27c2cf827101156b87a308f633bf067df02fd252615351"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn45_root-pli-ms.json",
+          "sha256": "8b8629a4763b37cc15da9de18454dfd86505abb5b3e2ec0d088c622f3521d132"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn45_translation-en-sujato.json",
+          "sha256": "14a3841999e527ab8b491107db65ed7dbf2e6c3d5f8f188b974cbf92f8068daa"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn45_comment-vi-project.json",
+          "sha256": "40c96b57ee72523e80484c44a06b5f76e616bdf69a25be1b290811a2a8729446"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn45_translation-vi-project.json",
+          "sha256": "4a8ec46f900477e44689af7566c9a0ea952cb3acee36874ffbd6e9acfd4b5d5e"
+        }
+      ]
+    },
+    {
+      "id": "ecbe4c7e-a8ca-4d9a-8b28-3584ebe05adf",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.7,
+        "logic_context": 9.7,
+        "terminology": 9.4,
+        "audience_fit": 9.5,
+        "clarity": 9.5,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đã đối chiếu đủ năm tệp đúng pin; giữ các chi tiết khác HTML ở cánh tay, số ít thần cây, nứt cành và tắm ba lần mỗi ngày. Bất đồng từ cổ được ghi trung thực trong hồ sơ nguồn riêng.",
+        "semantic_fidelity": "Giữ quan điểm của một số người tu bảo vệ việc đắm dục, không biến nó thành lời của Phật. Khổ hạnh, phạm hạnh giữa khó khăn và an vui do thiền là ba trường hợp khác nhau.",
+        "core_coverage": "Mười ba mục gộp vẫn giữ cả bốn cách, đủ sáu hy vọng, các lượt nhận ra nguy cơ, ba loại số quanh ăn uống, danh mục khổ hạnh, bốn thiền và hai kết quả cõi trời.",
+        "logic_context": "Lời về hạt giữ giả định khác sự việc đã xảy ra; ba gốc không mạnh không bị diễn thành đã hết sạch. Kết quả đánh giá cả lối thực hành, không quy lỗi cho việc kiêng rượu hay một loại áo.",
+        "terminology": "Mở nghĩa dục theo giác quan, phạm hạnh theo đời tu thanh tịnh, tầm/tứ và các yếu tố thiền; hỷ/lạc/xả không bị trộn với kích thích thông thường. Những tên cổ còn khó được giữ thay vì định danh giả.",
+        "audience_fit": "Ví dụ trách nhiệm khi sai sót công việc và việc xét thói quen theo động lực phù hợp người trưởng thành. Cách trình bày không giả định phải có một nghề hoặc một hoàn cảnh gia đình nhất định.",
+        "clarity": "Nhóm lượng ăn, loại thức ăn và việc hành xác có ranh giới rõ. Mạch từ quan điểm hiện tại đến kết quả giúp ví dụ công việc làm sáng cách đánh giá mà không lấn câu chuyện kinh.",
+        "editorial_separation": "Ví dụ công việc được gọi rõ là hiện đại, với giới hạn không thay trường hợp tu và tái sinh. Nhận định về thực hành không được trình bày như một câu Phật nguyên văn mới.",
+        "practical_integrity": "Gợi ý xét tham sân si, trung thực và hành động cụ thể giữ đúng chiều bài; nước mắt không thành kỹ thuật tạo đau, mức chịu đựng không thành chứng nhận thành tựu.",
+        "technical_integrity": "Schema, liên kết ý và năm source hash không lỗi; fingerprint bản 13 mục khớp lần đọc cuối. Không ghi metadata hoặc tự thực hiện duyệt thay root."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc đủ năm nguồn, 29 ý/97 khóa và ba bản đầy đủ; sau góp ý đọc lại trọn ba ending. Năm hash nguồn khớp checkpoint độc lập, audit cuối sạch và nội dung đúng freeze tác giả.",
+      "contentHash": "e1a290c869f04415f6efaf5c36d4432cf832a4442c427bc5069c9b66c0a1c7f5",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn45.html",
+          "sha256": "cbbc4f17996ee3405f27c2cf827101156b87a308f633bf067df02fd252615351"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn45_root-pli-ms.json",
+          "sha256": "8b8629a4763b37cc15da9de18454dfd86505abb5b3e2ec0d088c622f3521d132"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn45_translation-en-sujato.json",
+          "sha256": "14a3841999e527ab8b491107db65ed7dbf2e6c3d5f8f188b974cbf92f8068daa"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn45_comment-vi-project.json",
+          "sha256": "40c96b57ee72523e80484c44a06b5f76e616bdf69a25be1b290811a2a8729446"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn45_translation-vi-project.json",
+          "sha256": "4a8ec46f900477e44689af7566c9a0ea952cb3acee36874ffbd6e9acfd4b5d5e"
+        }
+      ]
+    },
+    {
+      "id": "c1286ffd-7e42-4315-9b5a-db9d61360d23",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.7,
+        "logic_context": 9.7,
+        "terminology": 9.4,
+        "audience_fit": 9.5,
+        "clarity": 9.4,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Nguồn Pāli, Việt dự án, Sujato, toàn HTML và chú thích được đọc đủ; các điểm lệch của bản HTML không làm đổi số thần, cánh tay, hành động nứt cành hay thời gian tắm.",
+        "semantic_fidelity": "Đời tu được trình bày theo bốn loại, với quả tái sinh nguyên nghĩa. Sự bền lòng lúc khó không thành ca ngợi đau khổ, và niềm an vui thiền không được gọi là giải thoát hoàn toàn.",
+        "core_coverage": "Đủ ba chặng lời trấn an và hiểu nguy, các điều kiện nhận/không nhận thức ăn, số lượng và kỳ hạn, áo mặc, hành xác, cả ba gốc và bốn tầng thiền. Nhãn kết thứ năm nay có trong ending.",
+        "logic_context": "Các khả năng về hạt là hy vọng trước khi mưa làm mọc; sự thường/không thường chịu khổ do mỗi gốc giữ đúng mức. Lời về từng người tu không được áp dụng máy móc cho mọi người dùng vật liệu hay kiêng ăn tương tự.",
+        "terminology": "Tham, sân, si, phạm hạnh, hỷ, lạc, xả, chánh niệm và tỉnh giác có lời giải gần chỗ dùng. Các tên thực vật và vật liệu truyền thống vẫn cần đọc chậm, không bị biến thành tên loài chắc chắn.",
+        "audience_fit": "Nhịp 17 mục và ví dụ chuyện trò với bạn thân hợp người lớn tuổi, giữ phẩm giá và khả năng lựa chọn. Không mặc định tuổi già đồng nghĩa bệnh tật, cô đơn hoặc phải chịu đựng.",
+        "clarity": "Diễn tiến từ hạt nhỏ đến cành nứt dễ theo, rồi mỗi loại thực hành có kết quả rõ. Một số danh sách giữ dài để đủ nguồn, nhưng được tách thành những đoạn có trọng tâm.",
+        "editorial_separation": "Ví dụ chuyện trò có nhãn hiện đại và nói rõ phạm vi; gợi ý nhìn lại một việc tách khỏi các lời Phật. Không biến các hình ảnh tái sinh thành một ẩn dụ tâm lý duy nhất.",
+        "practical_integrity": "Gợi ý điều chỉnh bước vừa sức và không tự trách phạt phù hợp nội dung; không đòi nhịn ăn, hành xác hay lấy gian nan để tự khẳng định đã tu tốt.",
+        "technical_integrity": "Audit cuối rỗng lỗi; 17 mục và toàn mã ý đúng cấu trúc, hash khớp các đoạn đã đọc lại, nguồn không đổi. Build và ghi đánh giá chính thức vẫn là bước tích hợp riêng."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc đủ năm nguồn, 29 ý/97 khóa và ba bản đầy đủ; sau góp ý đọc lại trọn ba ending. Năm hash nguồn khớp checkpoint độc lập, audit cuối sạch và nội dung đúng freeze tác giả.",
+      "contentHash": "0bcf202824e2463a7672f0052fecc95816594bb02cd9838541ef03c3be0731ef",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn45.html",
+          "sha256": "cbbc4f17996ee3405f27c2cf827101156b87a308f633bf067df02fd252615351"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn45_root-pli-ms.json",
+          "sha256": "8b8629a4763b37cc15da9de18454dfd86505abb5b3e2ec0d088c622f3521d132"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn45_translation-en-sujato.json",
+          "sha256": "14a3841999e527ab8b491107db65ed7dbf2e6c3d5f8f188b974cbf92f8068daa"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn45_comment-vi-project.json",
+          "sha256": "40c96b57ee72523e80484c44a06b5f76e616bdf69a25be1b290811a2a8729446"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn45_translation-vi-project.json",
+          "sha256": "4a8ec46f900477e44689af7566c9a0ea952cb3acee36874ffbd6e9acfd4b5d5e"
+        }
+      ]
+    }
+  ]
+}

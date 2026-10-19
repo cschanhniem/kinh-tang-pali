@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn42",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "df4347de-8672-43ca-9c1e-ba9cae9957d6"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "4e184b94-2e96-4f14-a05c-d60ce2b111a2"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "7d4253dd-f3f6-4d52-923e-92709a340ff4"
+    }
+  },
+  "reviews": [
+    {
+      "id": "df4347de-8672-43ca-9c1e-ba9cae9957d6",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.7,
+        "logic_context": 9.6,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.2,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đúng bối cảnh người Verañjā đang ở Sāvatthī vì một công việc không rõ, không biến họ thành khách hành hương hay thương nhân. Các đoạn triển khai có căn cứ từ năm nguồn MN41 thực và HTML MN42; ghi chú phân biệt rõ phần triển khai với dấu lược của kinh văn.",
+        "semantic_fidelity": "Người hành xử là chủ thể xuyên suốt ba thân, bốn lời, ba tâm; cả bỏ điều xấu lẫn nuôi lòng thương/hòa hợp được kể. Câu đáp sau sửa nêu nguyên nhân của tái sinh, còn nguyện cuối giữ tự biết, chứng và an trú giải thoát vô lậu ngay đời này.",
+        "core_coverage": "40 nhóm ý được triển khai trong 18 mục, đủ 11 trường hợp tà hạnh, năm nơi làm chứng, hai mặt của kiến, ba nguyện làm người và 24 cõi. Lời tán thán hai lần, bốn phép ví và xin quy y trọn đời không bị bỏ khi rút các công thức dài.",
+        "logic_context": "Khâu chưa hiểu rồi xin giảng rõ được giữ đúng giữa câu đáp ngắn và phần triển khai. Cả các nguyện cõi trời lẫn nguyện giải thoát đều là khả năng có nền ở nếp sống đúng, không phải kết quả chắc chắn chỉ từ việc ước.",
+        "terminology": "Bà-la-môn, gia chủ, tà hạnh, hóa sinh và lậu hoặc được giải trong mạch; Māra/Phạm thiên đã thêm nghĩa ở lần đầu. Bốn xứ cuối có giải ngắn nhưng chuỗi tên truyền thống vẫn là phần khó đối với trẻ.",
+        "audience_fit": "Ví dụ làm bảng cho lớp lấy việc hỏi rõ mức hoàn thành để soi lời thật và hòa hợp, phù hợp trải nghiệm của trẻ. Phần hỏi người lớn và chọn một hành vi vừa sức tránh việc gán trẻ một nhãn tốt/xấu cố định.",
+        "clarity": "Bố cục chia riêng nói dối, các lời gây hại, lời đúng và các nguyện giúp theo bài dài. Đã bỏ câu yêu cầu người đọc giữ mạch ở cuối danh sách; độ dày thuật ngữ và mục giải dấu lược vẫn khiến bản cần đọc thong thả.",
+        "editorial_separation": "Mục clarification nhận rõ lời biên soạn về mở dấu lược; ví dụ và practice có loại riêng. Ghi chú chi tiết lưu nơi các câu được mở, không giả rằng 106 ô Anh trống xác nhận những câu ấy và không gán ví dụ lớp học vào lịch sử Verañjā.",
+        "practical_integrity": "Việc hỏi lại, nghe rồi báo chính xác cho nhóm liên hệ trực tiếp với xin giảng rõ, lời thật và hòa hợp. Các bước nhỏ không hứa đổi quả tái sinh hoặc xác nhận một tầng tu tập.",
+        "technical_integrity": "Audit cuối không có lỗi; 122 khóa của chính MN42 được giữ trong bản đồ, không ghép khóa MN41. Sáu hash khai báo gồm năm nguồn riêng và ghi chú; năm hash MN41 trong ghi chú đã được kiểm riêng bằng byte thực, đúng giới hạn của công cụ."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc đủ mười tệp nguồn thực, toàn ghi chú, 40 ý/122 khóa và ba bản; bản trưởng thành được đọc lại toàn bộ riêng khi lần xuất gộp bị cắt. Sau sửa đã đọc lại đủ 12 mục, kiểm byte năm nguồn MN41 trong note và lấy fingerprint từ audit cuối sạch.",
+      "contentHash": "dcab0cdd36df51a679eae8dfd95330d814c6d4a27fc3e2d91be69451dc198fd9",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn42.html",
+          "sha256": "5d49753de6dcb80af1f3fd053da8f2ca01b442bf98d9262a898e0a6aefe6574b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn42_root-pli-ms.json",
+          "sha256": "43cf7751c1a259637768efbe48a178cc725f7f1411d2bd8fcf70677a2e88e2ed"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn42_translation-en-sujato.json",
+          "sha256": "a866f3e6ef174f41184370f17c99846c2a9924fbf039e1edf8d85f8d32011119"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn42_comment-vi-project.json",
+          "sha256": "f693f802be3155d62b47ac214f6d5bde73252fd184d8be0608f764b2db35eac7"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn42_translation-vi-project.json",
+          "sha256": "b0437e4accecd78625d93690aec4dc7a5f90436276ad8c50b6a719e905f8352b"
+        },
+        {
+          "path": "docs/editorial-mn42-parallel-formulas.md",
+          "sha256": "237b3aa43ae607245492dd6bc7b00249234454e75ff1f839be07629aaea47624"
+        }
+      ]
+    },
+    {
+      "id": "4e184b94-2e96-4f14-a05c-d60ce2b111a2",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.7,
+        "logic_context": 9.6,
+        "terminology": 9.4,
+        "audience_fit": 9.4,
+        "clarity": 9.3,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đã kiểm đủ mười nguồn thực và toàn ghi chú trước chấm; phần danh từ chỉ người của MN42 không bị chép thành cấu trúc chỉ sự hành xử của MN41. Bối cảnh lưu trú, nơi Phật ở, 24 tên cõi và nhãn kết thứ hai đều theo đúng bài.",
+        "semantic_fidelity": "Việc mở công thức làm rõ các hành vi và điều kiện mà dấu lược chỉ tới, không thay bằng một thông điệp đạo đức chung. Bản vẫn giữ đời này/đời sau, hóa sinh, hai giải thoát do lậu tận và mốc hiện tại trong lời nguyện cuối.",
+        "core_coverage": "16 mục bao quát toàn 40 ý, gồm từng loại lời nói với dấu hiệu và động cơ, phần kiến phủ định/khẳng định, nguyện ở ba nhóm gia đình và toàn danh sách cõi. Mức có khả năng và lý do sống đúng được nhắc cho toàn chuỗi, không chỉ câu đầu.",
+        "logic_context": "Đã sửa câu kết phần tâm lệch lạc thành quan hệ nhân trực tiếp. Phần nguyện không suy ngược từ giàu nghèo sang phẩm hạnh, và ví dụ xác nhận công việc không được dùng để đoán mục đích chuyến đi của người Verañjā.",
+        "terminology": "Chánh Đẳng Giác, minh-hạnh và Thiện Thệ được mở nghĩa ở đoạn danh tiếng; phạm hạnh, hóa sinh và lậu hoặc có lời giải. Thuật ngữ các xứ được giữ trong ngữ cảnh tái sinh, không hiểu như tên của trạng thái thư giãn thông thường.",
+        "audience_fit": "Tình huống đi phối hợp công việc và xác nhận khi chưa hiểu rõ mức hoàn thành phù hợp trách nhiệm người trưởng thành. Các đoạn xét ý hướng, căn cứ và tác dụng của lời đưa tới việc tự xem lại một lựa chọn cụ thể.",
+        "clarity": "Đã thay lời thao tác ở danh sách tà hạnh, tiêu đề cảnh giới và kết giải thoát bằng lời trình bày cho độc giả. Mục giải dấu lược được rút phần nói về khóa dữ liệu; những công thức dài còn dày nhưng có cấu trúc đối chiếu rõ.",
+        "editorial_separation": "Lời giải công thức tỉnh lược có nhãn clarification và phụ thuộc ghi chú riêng, tách với lời dạy và ví dụ. Các giới hạn nguồn được công khai mà không giả làm một bản dịch Pāli mới; ví dụ công việc được xác nhận là do người biên soạn đặt.",
+        "practical_integrity": "Đề nghị hỏi cụ thể, nêu phần biết và đính chính điều sai bám bốn loại lời nói đúng. Không biến việc xác nhận có căn cứ thành giấy chứng nhận đủ điều kiện giải thoát hoặc thành phương tiện bảo đảm kết quả đời sau.",
+        "technical_integrity": "Fingerprint cuối lấy sau khi đọc lại đủ sáu mục trưởng thành sửa; audit xác nhận nguồn và cấu trúc sạch. Hash của ghi chú không tự xác nhận năm đường dẫn bên trong, nên người kiểm đã đối chiếu riêng năm tệp MN41 thực và lưu bằng chứng đọc."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc đủ mười tệp nguồn thực, toàn ghi chú, 40 ý/122 khóa và ba bản; bản trưởng thành được đọc lại toàn bộ riêng khi lần xuất gộp bị cắt. Sau sửa đã đọc lại đủ 12 mục, kiểm byte năm nguồn MN41 trong note và lấy fingerprint từ audit cuối sạch.",
+      "contentHash": "ebbccecd62b3b86cf09ff6bd6596de68622c25ec32bfb5ecf9a74ab4a112f481",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn42.html",
+          "sha256": "5d49753de6dcb80af1f3fd053da8f2ca01b442bf98d9262a898e0a6aefe6574b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn42_root-pli-ms.json",
+          "sha256": "43cf7751c1a259637768efbe48a178cc725f7f1411d2bd8fcf70677a2e88e2ed"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn42_translation-en-sujato.json",
+          "sha256": "a866f3e6ef174f41184370f17c99846c2a9924fbf039e1edf8d85f8d32011119"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn42_comment-vi-project.json",
+          "sha256": "f693f802be3155d62b47ac214f6d5bde73252fd184d8be0608f764b2db35eac7"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn42_translation-vi-project.json",
+          "sha256": "b0437e4accecd78625d93690aec4dc7a5f90436276ad8c50b6a719e905f8352b"
+        },
+        {
+          "path": "docs/editorial-mn42-parallel-formulas.md",
+          "sha256": "237b3aa43ae607245492dd6bc7b00249234454e75ff1f839be07629aaea47624"
+        }
+      ]
+    },
+    {
+      "id": "7d4253dd-f3f6-4d52-923e-92709a340ff4",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.7,
+        "logic_context": 9.6,
+        "terminology": 9.3,
+        "audience_fit": 9.4,
+        "clarity": 9.3,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Lời đã nghe và cuộc gặp ở Sāvatthī giữ đúng MN42, không nhập cuộc du hành Sālā của bài trước. Nội dung mở lược được đối chiếu với toàn năm nguồn MN41 đã đọc và toàn năm nguồn MN42; không coi phần trống ở Sujato là một chứng cứ mới.",
+        "semantic_fidelity": "Bản diễn giải giữ cả người gây hại và người từ bỏ hành vi ấy, cùng mặt tích cực của lòng thương, hòa giải và thiện ý. Giải thoát hiện tại do đoạn tận lậu hoặc được nêu với tự biết, chứng, an trú; không đồng nhất với một cảnh tái sinh tốt.",
+        "core_coverage": "19 mục giữ đủ 40 ý và các điểm thường bị rút: động cơ nói dối, hai chiều chia rẽ, các phủ định của tà kiến, mặt khẳng định của chánh kiến, ba nguyện gia đình và 24 cõi. Đoạn kết giữ cả tán thán, bốn hình ảnh, quy y và vị trí bài trong nhóm.",
+        "logic_context": "Mỗi chuỗi nguyện có điều kiện người sống đúng và mức có khả năng; không cho phép dùng cảnh ngộ để phán xét người khác. Phần chủ thể người hành xử và lời đáp của người Verañjā được giữ riêng với lời giải thích của người biên soạn.",
+        "terminology": "Đã đọc lại phần mở nghĩa bà-la-môn/gia chủ/sa-môn và minh-hạnh/Thiện Thệ. Lậu hoặc, hóa sinh và các xứ được giải ngắn, trong khi thuật ngữ truyền thống vẫn giúp nhận ra lời kinh; tên cõi dài còn là giới hạn đọc.",
+        "audience_fit": "Ví dụ chăm vườn chung đặt người có kinh nghiệm vào việc hỏi để hiểu rồi hợp tác, không giả định tuổi già đồng nghĩa bất lực hay thiếu hiểu biết. Bài tập cho phép thực hiện theo hoàn cảnh và chỉ chủ động trong phần lời nói của mình.",
+        "clarity": "Các cặp thân, lời và tâm được chia thành những mục nhỏ; bốn xứ cuối có mục riêng trước đích giải thoát. Câu yêu cầu giữ riêng nghĩa đã được thay bằng lời diễn thẳng khác biệt trước/sau, giúp mạch đọc tự nhiên hơn.",
+        "editorial_separation": "Mục giải dấu lược nêu đúng nguồn của việc diễn rộng, còn ví dụ vườn và gợi ý thực hành ghi rõ là hiện đại. Nguồn phụ chứa thêm Tịnh Thiên không được nhập vào chuỗi 24 tên của Pāli, và lời kết không gán thêm chứng quả.",
+        "practical_integrity": "Hỏi lại việc chưa làm rõ, nói trong phạm vi biết và tìm cách hợp tác thể hiện lời thật, hòa hợp và có ích. Gợi ý không yêu cầu người đọc gánh cả nhóm, không hứa đoán được đời sau hay đạt giải thoát từ một cuộc trò chuyện.",
+        "technical_integrity": "Audit cuối rỗng lỗi, cấu trúc và các tham chiếu 40 ý hợp lệ; hash lấy sau khi đọc trọn ba mục lớn tuổi sửa, gồm câu arrival được tác giả gọt lại lần cuối. Giới hạn kiểm tự động của ghi chú được bù bằng kiểm byte thủ công, không bằng sửa validator."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc đủ mười tệp nguồn thực, toàn ghi chú, 40 ý/122 khóa và ba bản; bản trưởng thành được đọc lại toàn bộ riêng khi lần xuất gộp bị cắt. Sau sửa đã đọc lại đủ 12 mục, kiểm byte năm nguồn MN41 trong note và lấy fingerprint từ audit cuối sạch.",
+      "contentHash": "716809c0637732ad5041ce12bb88df353570b6064f3ba9b85ef85344c774043a",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn42.html",
+          "sha256": "5d49753de6dcb80af1f3fd053da8f2ca01b442bf98d9262a898e0a6aefe6574b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn42_root-pli-ms.json",
+          "sha256": "43cf7751c1a259637768efbe48a178cc725f7f1411d2bd8fcf70677a2e88e2ed"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn42_translation-en-sujato.json",
+          "sha256": "a866f3e6ef174f41184370f17c99846c2a9924fbf039e1edf8d85f8d32011119"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn42_comment-vi-project.json",
+          "sha256": "f693f802be3155d62b47ac214f6d5bde73252fd184d8be0608f764b2db35eac7"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn42_translation-vi-project.json",
+          "sha256": "b0437e4accecd78625d93690aec4dc7a5f90436276ad8c50b6a719e905f8352b"
+        },
+        {
+          "path": "docs/editorial-mn42-parallel-formulas.md",
+          "sha256": "237b3aa43ae607245492dd6bc7b00249234454e75ff1f839be07629aaea47624"
+        }
+      ]
+    }
+  ]
+}

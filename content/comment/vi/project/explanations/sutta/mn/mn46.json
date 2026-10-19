@@ -1,0 +1,1202 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn46",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn46_root-pli-ms.json",
+      "sha256": "8bf865f45acaac5509dccf5b041760d63f9d7bd2bed121650661ca120cf7a7db",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn46_translation-vi-project.json",
+      "sha256": "a19f86ba7c54c73edb50c2067d9184faa5794f3969a57cfec23dc024292446b8",
+      "commit": "787eb38e2ccf406b14d281e8e297c9f52c027cc7"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn46_translation-en-sujato.json",
+      "sha256": "e309b98696a408e20ad11fc7f6824ab3d51211bef078dfe5f0192e46f870022c",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn46.html",
+      "sha256": "6de2ec0162fd2555d1190a957d7d046acee701bba0df0497fe07db281e9db56d",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn46_comment-vi-project.json",
+      "sha256": "5cbb3b000f592f103cea77ab49a2d062ba187e2a418e00a229487a28a721179c",
+      "commit": "787eb38e2ccf406b14d281e8e297c9f52c027cc7"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Đại Kinh Pháp Hành",
+      "segments": [
+        "mn46:0.1",
+        "mn46:0.2"
+      ],
+      "summary": "MN46 thuộc Trung Bộ, Mahādhammasamādānasutta; nhãn bài không phải lời Phật tự đặt trong đối thoại."
+    },
+    {
+      "id": "setting",
+      "title": "Lời đã nghe tại rừng Jeta",
+      "segments": [
+        "mn46:1.1",
+        "mn46:1.2",
+        "mn46:1.3",
+        "mn46:1.4",
+        "mn46:1.5",
+        "mn46:1.6"
+      ],
+      "summary": "Người truyền kinh đã nghe; Phật ở Sāvatthī, Jeta, tu viện Anāthapiṇḍika, gọi các tỳ-kheo; họ đáp rồi Ngài nói."
+    },
+    {
+      "id": "wish",
+      "title": "Mong muốn và kết quả ngược lại",
+      "segments": [
+        "mn46:2.1",
+        "mn46:2.2",
+        "mn46:2.3",
+        "mn46:2.4"
+      ],
+      "summary": "Phần lớn chúng sinh muốn, mong và hướng ý cho ba nét không đáng ưa/thích/vừa ý giảm, ba nét đáng ưa/thích/vừa ý tăng; thực tế ngược lại; Phật hỏi nguyên nhân."
+    },
+    {
+      "id": "hearing",
+      "title": "Xin giải thích và nghe kỹ",
+      "segments": [
+        "mn46:2.5",
+        "mn46:2.6",
+        "mn46:2.7",
+        "mn46:2.8"
+      ],
+      "summary": "Các vị lấy Phật làm gốc, người dẫn, chỗ nương, xin Ngài giải nghĩa và hứa nghe nhớ; Phật bảo nghe/chú tâm kỹ, các vị đồng ý, Ngài nói."
+    },
+    {
+      "id": "unlearned",
+      "title": "Người ít nghe không phân biệt",
+      "segments": [
+        "mn46:3.1",
+        "mn46:3.2"
+      ],
+      "summary": "Phàm phu ít nghe không thấy/không thông hiểu/không được rèn trong pháp các bậc Thánh; đủ ba thiếu ấy với chân nhân. Không biết điều nên/không thực hành và nên/không gần gũi."
+    },
+    {
+      "id": "unlearned-choice",
+      "title": "Thực hành và gần gũi sai hướng",
+      "segments": [
+        "mn46:3.3",
+        "mn46:3.4",
+        "mn46:3.5",
+        "mn46:3.6"
+      ],
+      "summary": "Vì không biết cả bốn, làm điều không nên, bỏ điều nên, gần điều không nên, bỏ điều nên gần; ba điều không vừa ý tăng, ba điều vừa ý giảm; lý do là không hiểu biết."
+    },
+    {
+      "id": "learned",
+      "title": "Thánh đệ tử nghe và được rèn",
+      "segments": [
+        "mn46:4.1",
+        "mn46:4.2"
+      ],
+      "summary": "Thánh đệ tử nghe nhiều, thấy/hiểu/được rèn trong pháp bậc Thánh, đủ ba với chân nhân; biết cả điều nên/không thực hành và nên/không gần gũi."
+    },
+    {
+      "id": "learned-choice",
+      "title": "Chọn đúng điều nên thực hành và gần",
+      "segments": [
+        "mn46:4.3",
+        "mn46:4.4",
+        "mn46:4.5",
+        "mn46:4.6"
+      ],
+      "summary": "Do biết cả bốn, không làm điều không nên, làm điều nên, không gần điều không nên, gần điều nên; ba điều không vừa ý giảm, ba điều vừa ý tăng; lý do là có hiểu biết."
+    },
+    {
+      "id": "four",
+      "title": "Bốn tổ hợp hiện tại và quả về sau",
+      "segments": [
+        "mn46:5.1",
+        "mn46:5.2",
+        "mn46:5.3",
+        "mn46:5.4",
+        "mn46:5.5",
+        "mn46:5.6"
+      ],
+      "summary": "Theo thứ tự Pāli: khổ/khổ; vui/khổ; khổ/vui; vui/vui. Không đổi thứ tự theo danh sách đầu HTML."
+    },
+    {
+      "id": "ignorant-hard-harm",
+      "title": "Không biết: khổ nay, khổ sau",
+      "segments": [
+        "mn46:6.1",
+        "mn46:6.2",
+        "mn46:6.3",
+        "mn46:6.4",
+        "mn46:6.5",
+        "mn46:6.6"
+      ],
+      "summary": "Không hiểu đúng khổ hiện tại/khổ quả sau nên thực hành, không tránh; điều không ưa/thích/vừa ý tăng, điều ưa/thích/vừa ý giảm vì không hiểu biết."
+    },
+    {
+      "id": "ignorant-pleasant-harm",
+      "title": "Không biết: vui nay, khổ sau",
+      "segments": [
+        "mn46:7.1",
+        "mn46:7.2",
+        "mn46:7.3",
+        "mn46:7.4",
+        "mn46:7.5",
+        "mn46:7.6"
+      ],
+      "summary": "Không hiểu đúng vui hiện tại/khổ quả sau nên thực hành, không tránh; cả ba nét không vừa ý tăng và ba nét vừa ý giảm vì không hiểu biết."
+    },
+    {
+      "id": "ignorant-hard-good",
+      "title": "Không biết: khổ nay, vui sau",
+      "segments": [
+        "mn46:8.1",
+        "mn46:8.2",
+        "mn46:8.3",
+        "mn46:8.4",
+        "mn46:8.5",
+        "mn46:8.6"
+      ],
+      "summary": "Không hiểu đúng khổ hiện tại/vui quả sau nên không thực hành, tránh đi; ba nét không vừa ý tăng, ba nét vừa ý giảm vì không hiểu biết."
+    },
+    {
+      "id": "ignorant-pleasant-good",
+      "title": "Không biết: vui nay, vui sau",
+      "segments": [
+        "mn46:9.1",
+        "mn46:9.2",
+        "mn46:9.3",
+        "mn46:9.4",
+        "mn46:9.5",
+        "mn46:9.6"
+      ],
+      "summary": "Không hiểu đúng vui hiện tại/vui quả sau, vẫn không thực hành và tránh đi; ba nét không vừa ý tăng, ba nét vừa ý giảm vì không hiểu biết. Không suy thành chỉ chạy theo vui trước mắt."
+    },
+    {
+      "id": "wise-hard-harm",
+      "title": "Có hiểu biết: tránh khổ nay, khổ sau",
+      "segments": [
+        "mn46:10.1",
+        "mn46:10.2",
+        "mn46:10.3",
+        "mn46:10.4",
+        "mn46:10.5",
+        "mn46:10.6"
+      ],
+      "summary": "Có minh, hiểu đúng khổ hiện tại/khổ quả sau, không thực hành và tránh; ba nét không vừa ý giảm, ba nét vừa ý tăng vì có hiểu biết."
+    },
+    {
+      "id": "wise-pleasant-harm",
+      "title": "Có hiểu biết: tránh vui nay, khổ sau",
+      "segments": [
+        "mn46:11.1",
+        "mn46:11.2",
+        "mn46:11.3",
+        "mn46:11.4",
+        "mn46:11.5",
+        "mn46:11.6"
+      ],
+      "summary": "Có minh, hiểu đúng vui hiện tại/khổ quả sau, không thực hành và tránh; ba nét không vừa ý giảm, ba nét vừa ý tăng vì có hiểu biết."
+    },
+    {
+      "id": "wise-hard-good",
+      "title": "Có hiểu biết: theo khổ nay, vui sau",
+      "segments": [
+        "mn46:12.1",
+        "mn46:12.2",
+        "mn46:12.3",
+        "mn46:12.4",
+        "mn46:12.5",
+        "mn46:12.6"
+      ],
+      "summary": "Có minh, hiểu đúng khổ hiện tại/vui quả sau, thực hành và không tránh; ba nét không vừa ý giảm, ba nét vừa ý tăng vì có hiểu biết."
+    },
+    {
+      "id": "wise-pleasant-good",
+      "title": "Có hiểu biết: theo vui nay, vui sau",
+      "segments": [
+        "mn46:13.1",
+        "mn46:13.2",
+        "mn46:13.3",
+        "mn46:13.4",
+        "mn46:13.5",
+        "mn46:13.6"
+      ],
+      "summary": "Có minh, hiểu đúng vui hiện tại/vui quả sau, thực hành và không tránh; ba nét không vừa ý giảm, ba nét vừa ý tăng vì có hiểu biết."
+    },
+    {
+      "id": "hard-harm-body",
+      "title": "Ba việc về thân: khổ hiện tại, quả khổ",
+      "segments": [
+        "mn46:14.1",
+        "mn46:14.2",
+        "mn46:14.3",
+        "mn46:14.4"
+      ],
+      "summary": "Hỏi định nghĩa loại này; từng việc sát sinh, lấy của không được cho, tà hạnh trong dục đều diễn ra với khổ và ưu, và do từng hành vi ấy lại cảm nhận khổ và ưu."
+    },
+    {
+      "id": "hard-harm-speech",
+      "title": "Bốn việc về lời: khổ hiện tại, quả khổ",
+      "segments": [
+        "mn46:14.5",
+        "mn46:14.6",
+        "mn46:14.7",
+        "mn46:14.8"
+      ],
+      "summary": "Từng việc nói dối, chia rẽ, thô ác, vô ích đều với khổ và ưu; do từng hành vi ấy lại cảm nhận khổ và ưu. Giữ đủ bốn."
+    },
+    {
+      "id": "hard-harm-mind",
+      "title": "Ba mặt tâm: khổ hiện tại, quả khổ",
+      "segments": [
+        "mn46:14.9",
+        "mn46:14.10",
+        "mn46:14.11"
+      ],
+      "summary": "Từng mặt tham của người khác, tâm sân hại, tà kiến đều với khổ và ưu; do từng mặt ấy lại cảm nhận khổ và ưu."
+    },
+    {
+      "id": "hard-harm-result",
+      "title": "Kết quả: khổ hiện tại, quả khổ",
+      "segments": [
+        "mn46:14.12",
+        "mn46:14.13"
+      ],
+      "summary": "Sau thân hoại chết, tái sinh cõi dữ/nơi xấu/đọa xứ/địa ngục; kết đúng tổ hợp hiện tại và tương lai. Không thay tái sinh bằng tâm trạng đời này."
+    },
+    {
+      "id": "pleasant-harm-body",
+      "title": "Ba việc về thân: vui hiện tại, quả khổ",
+      "segments": [
+        "mn46:15.1",
+        "mn46:15.2",
+        "mn46:15.3",
+        "mn46:15.4"
+      ],
+      "summary": "Hỏi định nghĩa loại này; từng việc sát sinh, lấy của không được cho, tà hạnh trong dục đều diễn ra với vui sướng và hân hoan, và do từng hành vi ấy lại cảm nhận vui sướng và hân hoan."
+    },
+    {
+      "id": "pleasant-harm-speech",
+      "title": "Bốn việc về lời: vui hiện tại, quả khổ",
+      "segments": [
+        "mn46:15.5",
+        "mn46:15.6",
+        "mn46:15.7",
+        "mn46:15.8"
+      ],
+      "summary": "Từng việc nói dối, chia rẽ, thô ác, vô ích đều với vui sướng và hân hoan; do từng hành vi ấy lại cảm nhận vui sướng và hân hoan. Giữ đủ bốn."
+    },
+    {
+      "id": "pleasant-harm-mind",
+      "title": "Ba mặt tâm: vui hiện tại, quả khổ",
+      "segments": [
+        "mn46:15.9",
+        "mn46:15.10",
+        "mn46:15.11"
+      ],
+      "summary": "Từng mặt tham của người khác, tâm sân hại, tà kiến đều với vui sướng và hân hoan; do từng mặt ấy lại cảm nhận vui sướng và hân hoan."
+    },
+    {
+      "id": "pleasant-harm-result",
+      "title": "Kết quả: vui hiện tại, quả khổ",
+      "segments": [
+        "mn46:15.12",
+        "mn46:15.13"
+      ],
+      "summary": "Sau thân hoại chết, tái sinh cõi dữ/nơi xấu/đọa xứ/địa ngục; kết đúng tổ hợp hiện tại và tương lai. Không thay tái sinh bằng tâm trạng đời này."
+    },
+    {
+      "id": "hard-good-body",
+      "title": "Ba việc về thân: khổ hiện tại, quả vui",
+      "segments": [
+        "mn46:16.1",
+        "mn46:16.2",
+        "mn46:16.3",
+        "mn46:16.4"
+      ],
+      "summary": "Hỏi định nghĩa loại này; từng việc từ bỏ sát sinh, từ bỏ lấy của không cho, từ bỏ tà hạnh trong dục đều diễn ra với khổ và ưu, và do từng sự kiêng tránh ấy lại cảm nhận khổ và ưu."
+    },
+    {
+      "id": "hard-good-speech",
+      "title": "Bốn việc về lời: khổ hiện tại, quả vui",
+      "segments": [
+        "mn46:16.5",
+        "mn46:16.6",
+        "mn46:16.7",
+        "mn46:16.8"
+      ],
+      "summary": "Từng việc từ bỏ nói dối, từ bỏ lời chia rẽ, từ bỏ lời thô ác, từ bỏ lời vô ích đều với khổ và ưu; do từng sự kiêng tránh ấy lại cảm nhận khổ và ưu. Giữ đủ bốn."
+    },
+    {
+      "id": "hard-good-mind",
+      "title": "Ba mặt tâm: khổ hiện tại, quả vui",
+      "segments": [
+        "mn46:16.9",
+        "mn46:16.10",
+        "mn46:16.11"
+      ],
+      "summary": "Từng mặt không tham của người khác, không sân hại, có chánh kiến đều với khổ và ưu; do từng mặt ấy lại cảm nhận khổ và ưu."
+    },
+    {
+      "id": "hard-good-result",
+      "title": "Kết quả: khổ hiện tại, quả vui",
+      "segments": [
+        "mn46:16.12",
+        "mn46:16.13"
+      ],
+      "summary": "Sau thân hoại chết, tái sinh cõi lành/cõi trời; kết đúng tổ hợp hiện tại và tương lai. Không thay tái sinh bằng tâm trạng đời này."
+    },
+    {
+      "id": "pleasant-good-body",
+      "title": "Ba việc về thân: vui hiện tại, quả vui",
+      "segments": [
+        "mn46:17.1",
+        "mn46:17.2",
+        "mn46:17.3",
+        "mn46:17.4"
+      ],
+      "summary": "Hỏi định nghĩa loại này; từng việc từ bỏ sát sinh, từ bỏ lấy của không cho, từ bỏ tà hạnh trong dục đều diễn ra với vui sướng và hân hoan, và do từng sự kiêng tránh ấy lại cảm nhận vui sướng và hân hoan."
+    },
+    {
+      "id": "pleasant-good-speech",
+      "title": "Bốn việc về lời: vui hiện tại, quả vui",
+      "segments": [
+        "mn46:17.5",
+        "mn46:17.6",
+        "mn46:17.7",
+        "mn46:17.8"
+      ],
+      "summary": "Từng việc từ bỏ nói dối, từ bỏ lời chia rẽ, từ bỏ lời thô ác, từ bỏ lời vô ích đều với vui sướng và hân hoan; do từng sự kiêng tránh ấy lại cảm nhận vui sướng và hân hoan. Giữ đủ bốn."
+    },
+    {
+      "id": "pleasant-good-mind",
+      "title": "Ba mặt tâm: vui hiện tại, quả vui",
+      "segments": [
+        "mn46:17.9",
+        "mn46:17.10",
+        "mn46:17.11"
+      ],
+      "summary": "Từng mặt không tham của người khác, không sân hại, có chánh kiến đều với vui sướng và hân hoan; do từng mặt ấy lại cảm nhận vui sướng và hân hoan."
+    },
+    {
+      "id": "pleasant-good-result",
+      "title": "Kết quả: vui hiện tại, quả vui",
+      "segments": [
+        "mn46:17.12",
+        "mn46:17.13",
+        "mn46:17.14"
+      ],
+      "summary": "Sau thân hoại chết, tái sinh cõi lành/cõi trời; kết đúng tổ hợp hiện tại và tương lai. Khép danh sách bốn cách thực hành."
+    },
+    {
+      "id": "gourd",
+      "title": "Bầu đắng pha độc",
+      "segments": [
+        "mn46:18.1",
+        "mn46:18.2",
+        "mn46:18.3",
+        "mn46:18.4",
+        "mn46:18.5",
+        "mn46:18.6",
+        "mn46:18.7",
+        "mn46:18.8",
+        "mn46:18.9"
+      ],
+      "summary": "Bầu đắng trộn độc; người muốn sống/không chết/vui/ghét khổ được báo nếu muốn uống thì màu-mùi-vị không hấp dẫn, sau chết/khổ gần chết. Không suy xét vẫn uống, không bỏ; đúng cả hai hậu quả. Phật áp vào khổ nay/khổ sau."
+    },
+    {
+      "id": "sweet-poison",
+      "title": "Cốc đồng có đồ uống ngon pha độc",
+      "segments": [
+        "mn46:19.1",
+        "mn46:19.2",
+        "mn46:19.3",
+        "mn46:19.4",
+        "mn46:19.5",
+        "mn46:19.6",
+        "mn46:19.7",
+        "mn46:19.8",
+        "mn46:19.9",
+        "mn46:19.10",
+        "mn46:19.11"
+      ],
+      "summary": "Cốc đồng, đồ uống màu/mùi/vị đẹp thơm ngon nhưng có độc; người có đủ bốn mong muốn được báo nếu muốn uống thì hấp dẫn lúc uống, sau chết/khổ gần chết. Không suy xét, uống, không bỏ, đúng hai hậu quả. Phật áp vào vui nay/khổ sau."
+    },
+    {
+      "id": "bitter-medicine",
+      "title": "Thuốc cổ khó uống",
+      "segments": [
+        "mn46:20.1",
+        "mn46:20.2",
+        "mn46:20.3",
+        "mn46:20.4",
+        "mn46:20.5",
+        "mn46:20.6",
+        "mn46:20.7",
+        "mn46:20.8"
+      ],
+      "summary": "Nước tiểu đã ủ trộn nhiều thuốc, người bệnh vàng da; được báo nếu muốn uống thì màu/mùi/vị không hấp dẫn nhưng sau an vui. Có suy xét, uống và không bỏ; đúng cả hai. Phật áp vào khổ nay/vui sau; đây là ví dụ cổ, không hướng dẫn y khoa."
+    },
+    {
+      "id": "pleasant-medicine",
+      "title": "Bốn thứ trộn chung dễ uống",
+      "segments": [
+        "mn46:21.1",
+        "mn46:21.2",
+        "mn46:21.3",
+        "mn46:21.4",
+        "mn46:21.5",
+        "mn46:21.6",
+        "mn46:21.7",
+        "mn46:21.8"
+      ],
+      "summary": "Sữa chua, mật ong, bơ sữa, mật mía; người bệnh kiết lỵ ra máu được báo nếu muốn uống thì màu/mùi/vị hấp dẫn và sau an vui. Có suy xét, uống, không bỏ; đúng cả hai. Phật áp vào vui nay/vui sau; không đổi thành lời khuyên điều trị."
+    },
+    {
+      "id": "sun",
+      "title": "Mặt trời và sự vượt trội của pháp hành thứ tư",
+      "segments": [
+        "mn46:22.1",
+        "mn46:22.2"
+      ],
+      "summary": "Tháng cuối mùa mưa, mùa thu, trời trong không mây, mặt trời lên xua tan hết tối rồi chiếu/tỏa/rực sáng. Pháp hành vui nay/vui sau cũng vượt và xua các học thuyết khác của nhiều sa-môn, bà-la-môn; giữ sức so sánh."
+    },
+    {
+      "id": "ending",
+      "title": "Hoan hỷ và nhãn kết",
+      "segments": [
+        "mn46:22.3",
+        "mn46:22.4",
+        "mn46:22.5"
+      ],
+      "summary": "Phật kết lời; các tỳ-kheo hoan hỷ/tán đồng; nhãn bài thứ sáu trong nhóm, mã MN46. Không có chứng quả mới được kể."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Vui lúc này, rồi điều gì sẽ đến?",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Mong điều vui, vì sao lại gặp thêm khổ?",
+          "paragraphs": [
+            "Đại Kinh Pháp Hành, MN46, kể điều người truyền kinh đã nghe. Đức Phật ở rừng Jeta, tu viện Anāthapiṇḍika tại Sāvatthī. Ngài gọi các tỳ-kheo, những nhà sư theo Phật; các thầy đáp lời rồi lắng nghe.",
+            "Đức Phật nói phần lớn chúng sinh đều muốn, mong mỏi và hướng lòng tới điều này: những gì không đáng ưa, không đáng thích, không vừa ý hãy giảm đi; những gì đáng ưa, đáng thích, vừa ý hãy tăng lên. Thế mà điều xảy ra lại ngược hẳn: điều không vừa ý tăng, điều vừa ý giảm. Ngài hỏi các thầy nghĩ nguyên nhân là gì.",
+            "Các thầy thưa rằng lời học của mình lấy Đức Phật làm gốc, người dẫn đường và nơi nương tựa. Các thầy xin Ngài giải thích, hứa sẽ nghe và ghi nhớ. Ngài bảo hãy nghe và chú tâm kỹ; các thầy vâng lời."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "wish",
+            "hearing"
+          ]
+        },
+        {
+          "id": "learning",
+          "kind": "teaching",
+          "heading": "Điều mình theo làm có quan trọng không?",
+          "paragraphs": [
+            "Đức Phật trước hết nói về người ít được nghe học: chưa gặp các bậc Thánh, chưa hiểu và chưa được rèn trong lời dạy của các vị ấy; với những bậc chân nhân, người sống chân chính, người ấy cũng chưa gặp, chưa hiểu và chưa được rèn. Người ấy không biết điều nên làm, điều không nên làm, điều nên gần gũi và điều không nên gần gũi.",
+            "Vì không biết, người ấy làm điều không nên làm, bỏ điều nên làm; gần gũi điều không nên gần, bỏ điều nên gần. Thế là những điều không đáng ưa, không đáng thích, không vừa ý tăng lên, còn những điều đáng ưa, đáng thích, vừa ý giảm đi. Bài kinh nối kết quả ấy với sự thiếu hiểu biết.",
+            "Thánh đệ tử, người học con đường của các bậc Thánh, có nghe học, đã gặp các bậc Thánh, hiểu và được rèn trong lời dạy của các vị ấy; với các bậc chân nhân cũng vậy. Biết cả bốn điều, người ấy tránh điều không nên làm và làm điều nên làm, không gần điều không nên gần và gần điều nên gần. Nhờ có hiểu biết, ba nét không vừa ý giảm, ba nét vừa ý tăng."
+          ],
+          "meaningUnits": [
+            "unlearned",
+            "unlearned-choice",
+            "learned",
+            "learned-choice"
+          ]
+        },
+        {
+          "id": "four",
+          "kind": "teaching",
+          "heading": "Nhìn cả lúc này và về sau",
+          "paragraphs": [
+            "Pháp hành trong bài là cách mình nhận lấy để thực hành. Đức Phật chia thành bốn loại: hiện tại khổ, về sau cũng cho quả khổ; hiện tại dễ chịu, về sau cho quả khổ; hiện tại khổ, về sau cho quả vui; hiện tại dễ chịu, về sau cũng cho quả vui.",
+            "Quả là kết quả của việc đã làm. Như vậy, chỉ hỏi việc này có làm mình dễ chịu ngay không vẫn chưa đủ để hiểu nó."
+          ],
+          "meaningUnits": [
+            "four"
+          ]
+        },
+        {
+          "id": "not-knowing",
+          "kind": "teaching",
+          "heading": "Không hiểu nên chọn sai ở cả bốn chỗ",
+          "paragraphs": [
+            "Người chưa hiểu đúng cứ theo làm và không tránh cách đang khổ mà sau cũng khổ. Với cách đang dễ chịu nhưng sau cho khổ, người ấy cũng theo làm và không tránh, vì chưa hiểu đúng nó.",
+            "Ngược lại, cách đang khổ nhưng sau cho vui thì người ấy không làm, lại tránh đi. Ngay cả cách vừa dễ chịu hiện tại vừa cho vui về sau, người ấy cũng không làm và tránh đi. Thiếu hiểu biết có thể khiến một người bỏ qua cả điều tốt mà dễ chịu.",
+            "Trong cả bốn trường hợp, những điều không đáng ưa, không đáng thích, không vừa ý tăng; những điều đáng ưa, đáng thích, vừa ý giảm. Đức Phật nhắc lý do: người ấy chưa biết đúng điều mình đang theo hoặc đang tránh."
+          ],
+          "meaningUnits": [
+            "ignorant-hard-harm",
+            "ignorant-pleasant-harm",
+            "ignorant-hard-good",
+            "ignorant-pleasant-good"
+          ]
+        },
+        {
+          "id": "knowing",
+          "kind": "teaching",
+          "heading": "Có hiểu biết thì theo điều cần theo",
+          "paragraphs": [
+            "Người có hiểu biết nhận rõ từng loại. Khổ lúc này mà còn cho khổ về sau thì không theo làm, mà tránh. Dễ chịu lúc này nhưng cho khổ về sau cũng không theo làm, mà tránh.",
+            "Khổ lúc này mà cho vui về sau thì người ấy thực hành và không lánh đi. Dễ chịu lúc này, về sau cũng cho vui, người ấy cũng thực hành và không lánh đi.",
+            "Ở cả bốn lựa chọn ấy, ba nét không đáng ưa, không đáng thích, không vừa ý giảm, còn ba nét đáng ưa, đáng thích, vừa ý tăng. Có hiểu biết giúp việc mình làm đi cùng điều mình thật sự mong."
+          ],
+          "meaningUnits": [
+            "wise-hard-harm",
+            "wise-pleasant-harm",
+            "wise-hard-good",
+            "wise-pleasant-good"
+          ]
+        },
+        {
+          "id": "hard-harm",
+          "kind": "teaching",
+          "heading": "1. Làm việc xấu trong khổ buồn",
+          "paragraphs": [
+            "Đức Phật kể rõ mười điều. Ba điều thuộc việc làm: giết sinh vật, lấy thứ không được cho, và tà hạnh trong dục, tức cư xử sai trái trong quan hệ thân mật. Bốn điều thuộc lời nói: nói dối, nói chia rẽ, nói thô ác, nói chuyện vô ích. Ba điều thuộc tâm: thèm chiếm của người khác, có ý muốn gây hại, có tà kiến, tức cách hiểu sai lệch dẫn đường cho đời sống.",
+            "Trong trường hợp thứ nhất, người ấy làm hoặc mang những điều ấy với khổ đau và buồn phiền. Với từng điều, chính việc ấy lại khiến người ấy cảm nhận khổ đau và buồn phiền.",
+            "Kinh nói sau khi thân hoại, chết đi, người ấy tái sinh vào cõi dữ, nơi xấu, chỗ sa đọa, địa ngục. Đó là cách thực hành đang khổ và về sau cũng cho quả khổ."
+          ],
+          "meaningUnits": [
+            "hard-harm-body",
+            "hard-harm-speech",
+            "hard-harm-mind",
+            "hard-harm-result"
+          ]
+        },
+        {
+          "id": "pleasant-harm",
+          "kind": "teaching",
+          "heading": "2. Thấy vui khi làm chưa đủ để gọi là tốt",
+          "paragraphs": [
+            "Trường hợp thứ hai vẫn có đủ mười điều ấy: giết sinh vật, lấy thứ không được cho, sai trái trong quan hệ thân mật; nói dối, chia rẽ, thô ác, vô ích; tham của người khác, muốn gây hại, có cách hiểu sai lệch. Nhưng người ấy làm với vui sướng, hân hoan, và do từng điều ấy lại thấy vui sướng, hân hoan.",
+            "Niềm thích thú hiện tại không đổi kết quả mà kinh nêu: sau khi thân hoại, chết đi, người ấy tái sinh vào cõi dữ, nơi xấu, chỗ sa đọa, địa ngục. Đây là hiện tại dễ chịu, về sau cho quả khổ."
+          ],
+          "meaningUnits": [
+            "pleasant-harm-body",
+            "pleasant-harm-speech",
+            "pleasant-harm-mind",
+            "pleasant-harm-result"
+          ]
+        },
+        {
+          "id": "hard-good",
+          "kind": "teaching",
+          "heading": "3. Làm điều đúng mà còn thấy khó",
+          "paragraphs": [
+            "Trường hợp thứ ba, người ấy từ bỏ việc giết sinh vật, lấy thứ không được cho, sai trái trong quan hệ thân mật; từ bỏ nói dối, chia rẽ, thô ác, vô ích. Trong tâm, người ấy không tham của người khác, không muốn gây hại và có chánh kiến, cách nhìn hiểu đúng đắn.",
+            "Người ấy thực hành từng điều trong khổ đau, buồn phiền; do chính việc kiêng điều xấu hoặc giữ cách sống ấy, người ấy lại cảm nhận khổ đau, buồn phiền. Khó chịu hiện tại không làm sự từ bỏ điều xấu trở thành sai.",
+            "Kinh nói sau khi thân hoại, chết đi, người ấy tái sinh vào cõi lành, cõi trời. Đó là hiện tại khổ nhưng về sau cho quả vui."
+          ],
+          "meaningUnits": [
+            "hard-good-body",
+            "hard-good-speech",
+            "hard-good-mind",
+            "hard-good-result"
+          ]
+        },
+        {
+          "id": "pleasant-good",
+          "kind": "teaching",
+          "heading": "4. Điều tốt cũng có thể đem niềm vui ngay",
+          "paragraphs": [
+            "Người này cũng từ bỏ giết sinh vật, lấy của không cho, sai trái trong quan hệ thân mật; từ bỏ nói dối, chia rẽ, thô ác, vô ích; không tham của người khác, không muốn gây hại, có cách nhìn đúng đắn. Khác ở chỗ người ấy làm với vui sướng, hân hoan, và do từng điều ấy lại cảm nhận vui sướng, hân hoan.",
+            "Sau khi thân hoại, chết đi, người ấy tái sinh vào cõi lành, cõi trời. Đây là hiện tại dễ chịu và về sau cũng cho quả vui. Đức Phật đã giải đủ bốn loại, không bảo rằng cứ chịu khổ mới là tu tốt."
+          ],
+          "meaningUnits": [
+            "pleasant-good-body",
+            "pleasant-good-speech",
+            "pleasant-good-mind",
+            "pleasant-good-result"
+          ]
+        },
+        {
+          "id": "gourd",
+          "kind": "teaching",
+          "heading": "Bầu đắng đã có lời báo trước",
+          "paragraphs": [
+            "Đức Phật dùng một phép ví: có bầu đắng trộn chất độc. Một người muốn sống, không muốn chết, muốn vui và ghét khổ đi tới. Người ấy được báo rõ: đây có chất độc; nếu muốn thì uống, nhưng màu, mùi, vị đều không hấp dẫn, và sau đó sẽ chết hoặc đau đớn gần chết.",
+            "Người ấy không suy xét, vẫn uống và không bỏ đi. Lúc uống không thích màu, mùi, vị; uống xong chết hoặc đau gần chết. Đức Phật ví trường hợp này với đang khổ mà về sau cũng khổ. Người ấy đã có thông tin, nhưng không suy xét thông tin đó."
+          ],
+          "meaningUnits": [
+            "gourd"
+          ]
+        },
+        {
+          "id": "sweet-poison",
+          "kind": "teaching",
+          "heading": "Một cốc ngon vẫn có thể có độc",
+          "paragraphs": [
+            "Phép ví thứ hai là đồ uống trong cốc đồng, màu đẹp, mùi thơm, vị ngon, nhưng có chất độc. Người tới cũng muốn sống, không muốn chết, muốn vui và ghét khổ. Người ấy được nói rõ có độc: nếu muốn thì uống; lúc uống sẽ thích màu, mùi, vị, nhưng sau đó chết hoặc đau đớn gần chết.",
+            "Không suy xét, người ấy vẫn uống, không bỏ đi. Đồ uống thật dễ chịu lúc dùng, rồi đưa đến chết hoặc khổ gần chết. Đức Phật dùng điều ấy để giải hiện tại dễ chịu nhưng về sau cho khổ."
+          ],
+          "meaningUnits": [
+            "sweet-poison"
+          ]
+        },
+        {
+          "id": "bitter-medicine",
+          "kind": "teaching",
+          "heading": "Khó uống trong một phép ví thuốc cổ",
+          "paragraphs": [
+            "Phép ví tiếp theo dùng thuốc thời xưa: nước tiểu đã ủ trộn với nhiều loại thuốc. Một người bệnh vàng da được báo rằng nếu muốn thì uống; màu, mùi, vị sẽ khó chịu nhưng sau đó được an vui.",
+            "Lần này người ấy suy xét rồi uống, không bỏ đi. Màu, mùi, vị không hấp dẫn, nhưng sau khi uống được an vui, đúng như lời báo. Đức Phật ví với hiện tại khổ mà về sau cho vui. Đây là hình ảnh thuốc cổ trong lời kể; em không tự pha hoặc thử uống theo."
+          ],
+          "meaningUnits": [
+            "bitter-medicine"
+          ]
+        },
+        {
+          "id": "pleasant-medicine",
+          "kind": "teaching",
+          "heading": "Vừa dễ uống, vừa có kết quả tốt trong câu chuyện",
+          "paragraphs": [
+            "Phép ví thứ tư cũng nói về thuốc xưa: sữa chua, mật ong, bơ sữa và mật mía được trộn chung. Một người bệnh kiết lỵ ra máu được nói rằng nếu muốn thì uống; màu, mùi, vị đều hấp dẫn, sau đó được an vui.",
+            "Người ấy suy xét, uống và không bỏ đi. Lúc uống thấy dễ chịu về cả màu, mùi, vị; sau đó được an vui. Đức Phật ví với cách thực hành hiện tại dễ chịu và về sau cũng cho vui. Phần quan trọng để học là suy xét cả lúc dùng lẫn kết quả, không phải bắt chước cách chữa bệnh trong phép ví."
+          ],
+          "meaningUnits": [
+            "pleasant-medicine"
+          ]
+        },
+        {
+          "id": "sun",
+          "kind": "teaching",
+          "heading": "Ánh sáng ở cuối bài",
+          "paragraphs": [
+            "Đức Phật ví thêm: vào tháng cuối mùa mưa, khi mùa thu đến, trời trong không mây, mặt trời lên xua tan mọi bóng tối, chiếu sáng, tỏa sáng, rực rỡ. Cách thực hành vừa dễ chịu hiện tại vừa cho vui về sau cũng vượt lên, xua tan các học thuyết khác của nhiều sa-môn và bà-la-môn rồi tỏa sáng như thế. Sa-môn là người tu; bà-la-môn ở đây là những thầy tôn giáo thuộc truyền thống Bà-la-môn ở Ấn Độ thời ấy.",
+            "Các tỳ-kheo vui mừng và tán đồng lời Phật. Nhãn cuối ghi bài thứ sáu trong nhóm, còn mã bài là MN46."
+          ],
+          "meaningUnits": [
+            "sun",
+            "ending"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: kể một chuyện khiến bạn bị cười",
+          "paragraphs": [
+            "Một ví dụ của người biên soạn: em kể chuyện sai về một bạn để cả nhóm cười. Tiếng cười có thể làm em thích ngay, nhưng bạn bị tổn thương và lòng tin bị hỏng. Nếu em dừng lại, nói thật và sửa điều đã kể, lúc đầu có thể ngượng; về sau các bạn có cơ hội hiểu nhau hơn.",
+            "Ví dụ giúp em nhận ra cảm giác dễ chịu ngay không đủ để xét một việc. Nó chỉ nói một tình huống ở trường, không thay cho toàn bộ lời kinh về hành động và quả tái sinh."
+          ],
+          "meaningUnits": [
+            "pleasant-harm-speech",
+            "hard-good-speech"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Tập nhìn thêm một bước",
+          "paragraphs": [
+            "Gợi ý thực hành: trước một việc, hỏi mình đang làm gì, có làm hại hoặc lừa ai không, và điều ấy có thể đưa tới đâu. Nếu chưa hiểu, hỏi một người lớn đáng tin, có thể giải thích rõ.",
+            "Khi phải sửa một lỗi, em có thể thấy khó chịu mà vẫn làm từng bước vừa sức. Không cần tìm đau đớn để chứng tỏ mình tốt. Bài kinh mời mình học để chọn đúng, và cũng nhìn nhận niềm vui khi làm điều lành."
+          ],
+          "meaningUnits": [
+            "four",
+            "wise-hard-good",
+            "wise-pleasant-good"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Xét một cách sống bằng hiện tại và quả về sau",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Mong kết quả tốt và chọn cách sống",
+          "paragraphs": [
+            "Đại Kinh Pháp Hành, MN46, mở bằng lời người truyền kinh đã nghe. Tại rừng Jeta, tu viện Anāthapiṇḍika ở Sāvatthī, Đức Phật gọi các tỳ-kheo; được các vị đáp lời, Ngài đặt ra một câu hỏi.",
+            "Phần lớn chúng sinh có mong muốn, ước vọng và ý hướng rằng những gì không đáng ưa, không đáng thích, không vừa ý sẽ giảm, còn những gì đáng ưa, đáng thích, vừa ý sẽ tăng. Nhưng điều không vừa ý lại tăng, điều vừa ý lại giảm. Các vị nghĩ nguyên nhân ở đâu?",
+            "Các tỳ-kheo thưa rằng pháp mình học lấy Đức Phật làm gốc, người dẫn đường và nơi nương tựa; xin Ngài giải nghĩa để nghe và ghi nhớ. Ngài bảo lắng nghe, chú tâm kỹ, rồi giảng khi các vị nhận lời. Tỳ-kheo là người xuất gia sống theo giới pháp."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "wish",
+            "hearing"
+          ]
+        },
+        {
+          "id": "two-learners",
+          "kind": "teaching",
+          "heading": "Hiểu biết thể hiện ở điều theo và điều tránh",
+          "paragraphs": [
+            "Người phàm phu ít nghe chưa thấy các bậc Thánh, chưa thông hiểu và chưa được rèn trong pháp của các vị ấy; với các bậc chân nhân, người sống chân chính, cũng thiếu cả ba điều. Người ấy không biết điều nên thực hành, điều không nên thực hành, điều nên gần gũi và điều không nên gần gũi.",
+            "Từ chỗ không biết, người ấy thực hành điều không nên, bỏ điều nên; gần gũi điều không nên gần, bỏ điều nên gần. Kết quả là ba nét không đáng ưa, không đáng thích, không vừa ý tăng, còn ba nét đáng ưa, đáng thích, vừa ý giảm. Đức Phật gắn sự đảo ngược mong muốn ấy với thiếu hiểu biết.",
+            "Thánh đệ tử có nghe học đã thấy các bậc Thánh, hiểu và được rèn trong pháp của các vị ấy; đã thấy các bậc chân nhân, hiểu và được rèn trong pháp của các vị ấy. Biết cả bốn loại, vị ấy không làm điều không nên, làm điều nên; không gần điều không nên gần, gần điều nên gần. Ba nét không vừa ý giảm và ba nét vừa ý tăng vì có hiểu biết."
+          ],
+          "meaningUnits": [
+            "unlearned",
+            "unlearned-choice",
+            "learned",
+            "learned-choice"
+          ]
+        },
+        {
+          "id": "four",
+          "kind": "teaching",
+          "heading": "Hai thời điểm tạo thành bốn trường hợp",
+          "paragraphs": [
+            "Pháp hành, cách nhận lấy một điều để thực hành, được xét theo cảm nhận hiện tại và quả về sau. Bốn trường hợp theo thứ tự bài kinh là: khổ hiện tại, quả khổ về sau; dễ chịu hiện tại, quả khổ về sau; khổ hiện tại, quả vui về sau; dễ chịu hiện tại, quả vui về sau.",
+            "Phân biệt này tách cảm giác lúc làm khỏi việc đánh giá cả hướng đi. Cảm giác dễ chịu hoặc khó chịu tự nó chưa trả lời đầy đủ một cách sống đưa tới đâu."
+          ],
+          "meaningUnits": [
+            "four"
+          ]
+        },
+        {
+          "id": "ignorance",
+          "kind": "teaching",
+          "heading": "Vô minh khiến chọn nhầm ngay trong bốn trường hợp",
+          "paragraphs": [
+            "Vô minh ở đây là không hiểu đúng như thật điều đang thực hành. Với loại khổ hiện tại và khổ về sau, người không hiểu biết vẫn theo làm, không tránh. Với loại dễ chịu hiện tại nhưng khổ về sau, người ấy cũng theo làm, không tránh.",
+            "Với loại khổ hiện tại nhưng cho quả vui, người ấy không theo làm mà tránh. Với loại dễ chịu hiện tại và về sau cũng vui, người ấy vẫn không theo làm mà tránh. Cách lựa chọn được nói rõ ở từng loại; bài không chỉ mô tả một người thích thú vui trước mắt.",
+            "Ở cả bốn nhánh, những điều không đáng ưa, không đáng thích, không vừa ý tăng; những điều đáng ưa, đáng thích, vừa ý giảm. Lý do được nhắc sau mỗi nhánh là người ấy không hiểu biết."
+          ],
+          "meaningUnits": [
+            "ignorant-hard-harm",
+            "ignorant-pleasant-harm",
+            "ignorant-hard-good",
+            "ignorant-pleasant-good"
+          ]
+        },
+        {
+          "id": "knowledge",
+          "kind": "teaching",
+          "heading": "Có minh thì chọn theo quả đã hiểu",
+          "paragraphs": [
+            "Người có minh, có hiểu biết đúng, nhận rõ từng loại. Thấy khổ hiện tại và khổ về sau, vị ấy không thực hành và tránh; thấy dễ chịu hiện tại mà khổ về sau, vị ấy cũng không thực hành và tránh.",
+            "Thấy khổ hiện tại mà quả vui về sau, vị ấy thực hành, không tránh; thấy dễ chịu hiện tại và quả vui về sau, vị ấy cũng thực hành, không tránh. Sự hiểu biết dẫn đến cả việc dừng lại lẫn việc tiếp tục đúng chỗ.",
+            "Cả bốn nhánh này đều làm ba nét không đáng ưa, không đáng thích, không vừa ý giảm, ba nét đáng ưa, đáng thích, vừa ý tăng. Đức Phật giải thích đó là điều xảy ra với người có hiểu biết."
+          ],
+          "meaningUnits": [
+            "wise-hard-harm",
+            "wise-pleasant-harm",
+            "wise-hard-good",
+            "wise-pleasant-good"
+          ]
+        },
+        {
+          "id": "hard-harm",
+          "kind": "teaching",
+          "heading": "Khổ hiện tại và quả khổ: mười nghiệp đạo bất thiện",
+          "paragraphs": [
+            "Đức Phật làm rõ bằng mười hướng hành động, lời nói và tâm ý. Về thân: sát sinh, lấy của không được cho, tà hạnh trong dục, những sai trái trong quan hệ tình dục. Về lời: nói dối, nói chia rẽ, nói thô ác, nói vô ích. Về tâm: tham muốn của người khác, có tâm sân hại, có tà kiến, cách nhìn hiểu sai lệch.",
+            "Người ở trường hợp này làm hoặc mang từng điều trong khổ đau và ưu buồn; do từng điều ấy, lại cảm nhận khổ đau và ưu buồn.",
+            "Sau khi thân hoại mạng chung, người ấy tái sinh vào cõi dữ, nơi xấu, đọa xứ, địa ngục. Đây là pháp hành hiện tại khổ, tương lai cũng cho quả khổ. Nghiệp đạo ở đây là hướng hành động có hệ quả, không phải một danh hiệu gắn cố định vào con người."
+          ],
+          "meaningUnits": [
+            "hard-harm-body",
+            "hard-harm-speech",
+            "hard-harm-mind",
+            "hard-harm-result"
+          ]
+        },
+        {
+          "id": "pleasant-harm",
+          "kind": "teaching",
+          "heading": "Dễ chịu hiện tại và quả khổ: cảm giác không đổi tính chất hành vi",
+          "paragraphs": [
+            "Người thứ hai sát sinh, lấy của không cho, tà hạnh trong dục; nói dối, chia rẽ, thô ác, vô ích; tham của người khác, có tâm sân hại, có tà kiến. Từng điều diễn ra với vui sướng và hân hoan; do từng điều, người ấy lại cảm nhận vui sướng và hân hoan.",
+            "Tuy vậy, sau thân hoại mạng chung, kết quả vẫn là tái sinh vào cõi dữ, nơi xấu, đọa xứ, địa ngục. Đây là dễ chịu hiện tại nhưng cho quả khổ về sau. Cái thích thú khi thực hiện chưa làm hành vi trở thành lành."
+          ],
+          "meaningUnits": [
+            "pleasant-harm-body",
+            "pleasant-harm-speech",
+            "pleasant-harm-mind",
+            "pleasant-harm-result"
+          ]
+        },
+        {
+          "id": "hard-good",
+          "kind": "teaching",
+          "heading": "Khổ hiện tại và quả vui: sự từ bỏ còn khó nhọc",
+          "paragraphs": [
+            "Người này từ bỏ sát sinh, lấy của không cho, tà hạnh trong dục; từ bỏ nói dối, chia rẽ, thô ác, vô ích. Trong tâm, người ấy không tham muốn của người khác, không sân hại và có chánh kiến, cái nhìn hiểu đúng đắn.",
+            "Với từng sự kiêng tránh và từng phẩm chất ấy, người ấy đang khổ đau, ưu buồn; do giữ từng điều ấy lại cảm nhận khổ đau, ưu buồn. Điều lành trong trường hợp này chưa đem cảm giác dễ chịu ngay.",
+            "Sau khi thân hoại mạng chung, người ấy tái sinh vào cõi lành, cõi trời. Đó là khổ hiện tại nhưng cho quả vui về sau. Điều cần giữ là nội dung từ bỏ bất thiện và cái thấy đúng, không phải tìm kiếm đau khổ."
+          ],
+          "meaningUnits": [
+            "hard-good-body",
+            "hard-good-speech",
+            "hard-good-mind",
+            "hard-good-result"
+          ]
+        },
+        {
+          "id": "pleasant-good",
+          "kind": "teaching",
+          "heading": "Dễ chịu hiện tại và quả vui: niềm vui của việc lành",
+          "paragraphs": [
+            "Người ở trường hợp thứ tư cũng từ bỏ sát sinh, lấy của không cho, tà hạnh trong dục; từ bỏ nói dối, chia rẽ, thô ác, vô ích; không tham muốn của người khác, không sân hại, có chánh kiến. Nhưng mỗi điều được thực hiện với vui sướng và hân hoan; do mỗi điều ấy, người ấy lại cảm nhận vui sướng và hân hoan.",
+            "Sau thân hoại mạng chung, người ấy tái sinh vào cõi lành, cõi trời. Đây là pháp hành dễ chịu hiện tại và về sau cũng cho quả vui. Đến đây, bốn tổ hợp đã được giải bằng hành động cụ thể và quả tái sinh, không chỉ bằng cảm xúc trong một ngày."
+          ],
+          "meaningUnits": [
+            "pleasant-good-body",
+            "pleasant-good-speech",
+            "pleasant-good-mind",
+            "pleasant-good-result"
+          ]
+        },
+        {
+          "id": "gourd",
+          "kind": "teaching",
+          "heading": "Phép ví thứ nhất: khó uống, kết quả cũng tai hại",
+          "paragraphs": [
+            "Có bầu đắng trộn với chất độc. Một người muốn sống, không muốn chết, muốn an vui và ghét khổ đi đến. Người ấy được báo đây có độc: nếu muốn thì uống, nhưng màu, mùi, vị đều không hấp dẫn; uống xong sẽ chết hoặc chịu đau đớn gần chết.",
+            "Không suy xét, người ấy uống và không từ chối. Cả hai điều được báo đều xảy ra: lúc uống không thích màu, mùi, vị; sau đó chết hoặc đau gần chết. Đức Phật ví với pháp hành khổ hiện tại và khổ về sau. Lời cảnh báo đã có; thiếu ở việc suy xét để chọn."
+          ],
+          "meaningUnits": [
+            "gourd"
+          ]
+        },
+        {
+          "id": "sweet-poison",
+          "kind": "teaching",
+          "heading": "Phép ví thứ hai: hấp dẫn mà vẫn có độc",
+          "paragraphs": [
+            "Một cốc bằng đồng đựng đồ uống có màu đẹp, mùi thơm, vị ngon nhưng pha độc. Người tới cũng muốn sống, không muốn chết, muốn an vui và ghét khổ. Người ấy được nói đủ hai mặt: nếu muốn thì uống, khi dùng sẽ thích màu, mùi, vị, nhưng sau đó chết hoặc khổ gần chết.",
+            "Người ấy không suy xét, uống, không bỏ đi. Đồ uống đem đúng sự dễ chịu trước mắt rồi đúng hậu quả chết hoặc khổ gần chết. Đây là phép ví cho dễ chịu hiện tại, quả khổ về sau."
+          ],
+          "meaningUnits": [
+            "sweet-poison"
+          ]
+        },
+        {
+          "id": "bitter-medicine",
+          "kind": "teaching",
+          "heading": "Phép ví thứ ba: thuốc cổ khó dùng",
+          "paragraphs": [
+            "Trong phép ví y dược thời xưa, nước tiểu đã ủ được trộn với nhiều loại thuốc. Một người bệnh vàng da được báo: nếu muốn thì uống; màu, mùi, vị đều không hấp dẫn nhưng uống xong sẽ an vui.",
+            "Người ấy suy xét rồi uống, không bỏ đi. Lúc dùng không thích màu, mùi, vị; sau khi dùng được an vui. Đức Phật so sánh với khổ hiện tại nhưng quả vui về sau. Chi tiết thuốc thuộc tình huống cổ mà Ngài kể, không phải chỉ dẫn tự điều trị ngày nay."
+          ],
+          "meaningUnits": [
+            "bitter-medicine"
+          ]
+        },
+        {
+          "id": "pleasant-medicine",
+          "kind": "teaching",
+          "heading": "Phép ví thứ tư: dễ dùng và có kết quả tốt",
+          "paragraphs": [
+            "Sữa chua, mật ong, bơ sữa và mật mía được trộn chung. Một người bệnh kiết lỵ ra máu được báo rằng nếu muốn thì uống; khi dùng màu, mùi, vị sẽ hấp dẫn, sau đó sẽ được an vui.",
+            "Người ấy suy xét, uống, không bỏ đi. Hỗn hợp hấp dẫn ở cả ba mặt, và sau khi dùng người ấy an vui. Trong phép ví thuốc cổ này, cả hiện tại và kết quả đều tốt; Đức Phật áp vào loại dễ chịu hiện tại, quả vui về sau. Hai phép ví cuối cùng có suy xét, khác với hai lần dùng chất độc không suy xét."
+          ],
+          "meaningUnits": [
+            "pleasant-medicine"
+          ]
+        },
+        {
+          "id": "sun",
+          "kind": "teaching",
+          "heading": "Hình ảnh vượt lên như mặt trời",
+          "paragraphs": [
+            "Vào tháng cuối mùa mưa, khi mùa thu đến, trời trong không mây, mặt trời lên, xua tan mọi bóng tối trong không gian, chiếu sáng, tỏa sáng, rực rỡ. Đức Phật dùng sức so sánh ấy cho pháp hành dễ chịu hiện tại và cho quả vui về sau: nó vượt lên, xua tan các học thuyết khác của nhiều sa-môn, bà-la-môn và tỏa sáng. Đây là lời xác nhận mạnh về pháp hành thứ tư. Sa-môn là người tu; bà-la-môn ở đây là những thầy thuộc truyền thống tôn giáo Bà-la-môn.",
+            "Các tỳ-kheo hoan hỷ và tán đồng. Nhãn cuối là bài thứ sáu trong nhóm; mã của Đại Kinh Pháp Hành vẫn là MN46."
+          ],
+          "meaningUnits": [
+            "sun",
+            "ending"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Liên hệ hiện đại: một bản báo cáo có điều cần sửa",
+          "paragraphs": [
+            "Ví dụ biên tập: khi một kết quả công việc không như mong đợi, che giấu một con số có thể đem cảm giác nhẹ nhõm tức thời. Nhưng người khác sẽ ra quyết định dựa trên điều sai. Nói rõ sai sót và sửa báo cáo có thể gây khó chịu, đồng thời tạo điều kiện để cả nhóm xử lý vấn đề thật.",
+            "Tình huống này minh họa việc nhìn qua cảm giác trước mắt. Nó không bảo đảm người nói thật lập tức được khen hoặc thăng tiến, và cũng không thay lời kinh về toàn bộ nghiệp đạo và quả tái sinh."
+          ],
+          "meaningUnits": [
+            "pleasant-harm-speech",
+            "hard-good-speech"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Xem lại một thói quen bằng hai câu hỏi",
+          "paragraphs": [
+            "Gợi ý suy xét: chọn một việc mình thường làm. Hiện tại việc ấy cho cảm giác gì? Nội dung của nó lành hay hại, và đang hướng đến hệ quả nào? Nếu chưa biết rõ, tìm hiểu với người có hiểu biết, thay vì chỉ dựa vào thói quen hoặc cảm giác.",
+            "Có thể dừng một việc biết là sai và kiên trì một việc đúng dù ban đầu còn khó. Cũng có thể nuôi niềm vui khi làm điều lành. Sự suy xét trong bài không đòi tự hành hạ và không hứa rằng mọi kết quả đời thường sẽ lập tức đúng ý mình."
+          ],
+          "meaningUnits": [
+            "four",
+            "wise-hard-harm",
+            "wise-pleasant-harm",
+            "wise-hard-good",
+            "wise-pleasant-good"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Theo điều lành với sự hiểu biết về cả hai thời",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Mong an vui và nhìn lại điều đang làm",
+          "paragraphs": [
+            "Người truyền kinh kể điều mình đã nghe: một thời, Đức Phật ở rừng Jeta, tu viện Anāthapiṇḍika tại Sāvatthī. Ngài gọi các tỳ-kheo, những người xuất gia theo giới pháp; các vị đáp và nghe. Bài này là Đại Kinh Pháp Hành, MN46.",
+            "Đức Phật nói phần lớn chúng sinh có mong muốn, ước vọng và ý hướng: điều không đáng ưa, không đáng thích, không vừa ý hãy giảm; điều đáng ưa, đáng thích, vừa ý hãy tăng. Nhưng những điều không vừa ý lại lớn lên, còn điều vừa ý giảm. Ngài hỏi nguyên nhân vì sao.",
+            "Các vị thưa rằng pháp mình học lấy Phật làm gốc, người hướng dẫn và nơi nương tựa. Xin Ngài giảng ý nghĩa, các vị sẽ nghe và ghi nhớ. Phật bảo hãy lắng nghe và chú tâm kỹ; các vị đồng ý."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "wish",
+            "hearing"
+          ]
+        },
+        {
+          "id": "unlearned",
+          "kind": "teaching",
+          "heading": "Thiếu hiểu biết thì có thể đi ngược điều mình mong",
+          "paragraphs": [
+            "Người phàm phu ít nghe chưa thấy các bậc Thánh, chưa thông hiểu và chưa được rèn trong pháp của các vị ấy; cũng chưa thấy, chưa thông hiểu, chưa được rèn trong pháp của các bậc chân nhân, những người sống chân chính.",
+            "Người ấy không biết điều nên thực hành và điều không nên thực hành, điều nên gần gũi và điều không nên gần gũi. Vì vậy lại làm điều không nên, bỏ điều nên; gần điều không nên gần, bỏ điều nên gần. Ba nét không đáng ưa, không đáng thích, không vừa ý tăng, còn ba nét đáng ưa, đáng thích, vừa ý giảm. Lý do Đức Phật nêu là thiếu hiểu biết."
+          ],
+          "meaningUnits": [
+            "unlearned",
+            "unlearned-choice"
+          ]
+        },
+        {
+          "id": "learned",
+          "kind": "teaching",
+          "heading": "Có nghe học thì biết theo và biết dừng",
+          "paragraphs": [
+            "Thánh đệ tử có nghe học đã thấy các bậc Thánh, hiểu và được rèn trong pháp của các vị ấy; với các bậc chân nhân cũng có đủ ba điều ấy. Vị ấy biết cả điều nên làm, điều không nên làm, điều nên gần và điều không nên gần.",
+            "Do biết, vị ấy không làm điều không nên, làm điều nên; không gần điều không nên gần, gần điều nên gần. Ba nét không vừa ý giảm, ba nét vừa ý tăng. Sự hiểu biết được thể hiện thành cách lựa chọn hằng ngày của người tu."
+          ],
+          "meaningUnits": [
+            "learned",
+            "learned-choice"
+          ]
+        },
+        {
+          "id": "four",
+          "kind": "teaching",
+          "heading": "Bốn cách thực hành",
+          "paragraphs": [
+            "Pháp hành là điều mình nhận lấy để thực hành. Đức Phật nêu bốn loại: hiện tại khổ, về sau quả cũng khổ; hiện tại dễ chịu, về sau quả khổ; hiện tại khổ, về sau quả vui; hiện tại dễ chịu, về sau quả cũng vui.",
+            "Có hai điều cùng cần nhìn: cảm nhận lúc này và kết quả về sau. Một điều đang dễ chịu chưa chắc đã lành; một điều đang khó cũng chưa chắc là vô ích."
+          ],
+          "meaningUnits": [
+            "four"
+          ]
+        },
+        {
+          "id": "ignorance",
+          "kind": "teaching",
+          "heading": "Bốn lựa chọn của người chưa hiểu đúng",
+          "paragraphs": [
+            "Với pháp hành khổ hiện tại và khổ về sau, người vô minh, chưa hiểu đúng, vẫn theo làm, không tránh. Với pháp hành dễ chịu hiện tại mà khổ về sau, người ấy cũng theo làm, không tránh.",
+            "Với pháp hành khổ hiện tại mà vui về sau, người ấy không làm và tránh đi. Với pháp hành dễ chịu hiện tại và vui về sau, người ấy cũng không làm, lại tránh. Ở từng trường hợp, điều thiếu là nhận biết đúng chính pháp hành ấy.",
+            "Cả bốn cách chọn này đều khiến điều không đáng ưa, không đáng thích, không vừa ý tăng; điều đáng ưa, đáng thích, vừa ý giảm. Đức Phật nhắc đó là điều xảy ra với người không hiểu biết."
+          ],
+          "meaningUnits": [
+            "ignorant-hard-harm",
+            "ignorant-pleasant-harm",
+            "ignorant-hard-good",
+            "ignorant-pleasant-good"
+          ]
+        },
+        {
+          "id": "knowledge",
+          "kind": "teaching",
+          "heading": "Bốn lựa chọn của người có hiểu biết",
+          "paragraphs": [
+            "Người có minh nhận rõ từng trường hợp. Khổ hiện tại, khổ về sau thì không theo làm và tránh. Dễ chịu hiện tại, khổ về sau thì cũng không theo làm và tránh.",
+            "Khổ hiện tại, vui về sau thì thực hành và không tránh. Dễ chịu hiện tại, vui về sau thì cũng thực hành và không tránh. Người ấy biết đúng điều đang theo hoặc đang dừng.",
+            "Ở cả bốn nhánh, ba nét không đáng ưa, không đáng thích, không vừa ý giảm; ba nét đáng ưa, đáng thích, vừa ý tăng. Có hiểu biết nên lựa chọn đi đúng hướng hơn mong muốn suông."
+          ],
+          "meaningUnits": [
+            "wise-hard-harm",
+            "wise-pleasant-harm",
+            "wise-hard-good",
+            "wise-pleasant-good"
+          ]
+        },
+        {
+          "id": "hard-harm",
+          "kind": "teaching",
+          "heading": "Khi điều bất thiện đi cùng khổ buồn",
+          "paragraphs": [
+            "Trường hợp thứ nhất được nói bằng mười mặt. Về thân: sát sinh, lấy của không được cho, tà hạnh trong dục, những sai trái trong quan hệ thân mật. Về lời nói: nói dối, chia rẽ, thô ác, vô ích. Về tâm: tham muốn của người khác, có tâm sân hại, có tà kiến, cách nhìn hiểu sai lệch.",
+            "Người ấy làm hoặc mang từng điều với khổ đau và ưu buồn; do từng điều ấy lại cảm nhận khổ đau, ưu buồn. Sau khi thân hoại mạng chung, người ấy tái sinh vào cõi dữ, nơi xấu, đọa xứ, địa ngục. Đó là pháp hành đang khổ, về sau cũng cho quả khổ."
+          ],
+          "meaningUnits": [
+            "hard-harm-body",
+            "hard-harm-speech",
+            "hard-harm-mind",
+            "hard-harm-result"
+          ]
+        },
+        {
+          "id": "pleasant-harm",
+          "kind": "teaching",
+          "heading": "Khi điều bất thiện lại làm người ấy thích thú",
+          "paragraphs": [
+            "Trường hợp thứ hai vẫn gồm sát sinh, lấy của không cho, tà hạnh trong dục; nói dối, chia rẽ, thô ác, vô ích; tham của người khác, sân hại, tà kiến. Nhưng người ấy thực hiện với vui sướng và hân hoan; do từng điều ấy lại cảm nhận vui sướng và hân hoan.",
+            "Sau thân hoại mạng chung, kết quả kinh nêu vẫn là tái sinh vào cõi dữ, nơi xấu, đọa xứ, địa ngục. Đây là hiện tại dễ chịu nhưng quả về sau khổ. Niềm thích thú đang có không đủ để xác nhận một hành động là đúng."
+          ],
+          "meaningUnits": [
+            "pleasant-harm-body",
+            "pleasant-harm-speech",
+            "pleasant-harm-mind",
+            "pleasant-harm-result"
+          ]
+        },
+        {
+          "id": "hard-good",
+          "kind": "teaching",
+          "heading": "Khi từ bỏ điều xấu còn đem khó chịu",
+          "paragraphs": [
+            "Người ở trường hợp thứ ba từ bỏ sát sinh, lấy của không cho, tà hạnh trong dục; từ bỏ nói dối, chia rẽ, thô ác, vô ích. Người ấy không tham muốn của người khác, không có tâm sân hại và có chánh kiến, cái nhìn hiểu đúng đắn.",
+            "Từng sự từ bỏ và từng phẩm chất ấy diễn ra trong khổ đau, ưu buồn; do giữ từng điều ấy, người ấy lại cảm nhận khổ đau, ưu buồn. Cảm giác hiện tại có thể khó dù hướng hành động là lành.",
+            "Sau thân hoại mạng chung, người ấy tái sinh vào cõi lành, cõi trời. Đó là hiện tại khổ nhưng về sau cho quả vui."
+          ],
+          "meaningUnits": [
+            "hard-good-body",
+            "hard-good-speech",
+            "hard-good-mind",
+            "hard-good-result"
+          ]
+        },
+        {
+          "id": "pleasant-good",
+          "kind": "teaching",
+          "heading": "Khi việc lành đi cùng niềm vui",
+          "paragraphs": [
+            "Người thứ tư cũng từ bỏ sát sinh, lấy của không cho, tà hạnh trong dục; từ bỏ nói dối, chia rẽ, thô ác, vô ích; không tham của người khác, không sân hại và có chánh kiến. Mỗi điều được thực hiện với vui sướng, hân hoan, rồi do điều ấy lại cảm nhận vui sướng, hân hoan.",
+            "Sau thân hoại mạng chung, người ấy tái sinh vào cõi lành, cõi trời. Đây là hiện tại dễ chịu và quả về sau cũng vui. Bốn pháp hành đã được nói đủ; sự lành không bị đo bằng mức khó chịu người ta trải qua."
+          ],
+          "meaningUnits": [
+            "pleasant-good-body",
+            "pleasant-good-speech",
+            "pleasant-good-mind",
+            "pleasant-good-result"
+          ]
+        },
+        {
+          "id": "gourd",
+          "kind": "teaching",
+          "heading": "Phép ví bầu đắng pha độc",
+          "paragraphs": [
+            "Có bầu đắng trộn chất độc. Một người muốn sống, không muốn chết, muốn an vui, ghét khổ đi đến. Người ấy được báo rõ: nếu muốn thì uống, nhưng đây có độc; màu, mùi, vị không hấp dẫn và uống xong sẽ chết hoặc khổ gần chết.",
+            "Người ấy không suy xét, vẫn uống và không bỏ. Lúc uống không thích cả màu, mùi, vị; sau đó chết hoặc đau đớn gần chết. Phật ví với pháp hành khổ hiện tại và khổ về sau. Việc được báo trước chưa thay thế được sự suy xét."
+          ],
+          "meaningUnits": [
+            "gourd"
+          ]
+        },
+        {
+          "id": "sweet-poison",
+          "kind": "teaching",
+          "heading": "Phép ví cốc đồ uống thơm ngon",
+          "paragraphs": [
+            "Một cốc đồng đựng đồ uống màu đẹp, mùi thơm, vị ngon nhưng có chất độc. Người tới cũng muốn sống, không muốn chết, muốn an vui và ghét khổ. Người ấy được cho biết cả sự hấp dẫn lẫn chất độc: nếu muốn thì uống; màu, mùi, vị làm thích thú, nhưng sau đó chết hoặc khổ gần chết.",
+            "Người ấy uống không suy xét, không bỏ đi. Sự dễ chịu lúc uống thật có, rồi cái chết hoặc khổ gần chết cũng đến. Đó là phép ví cho dễ chịu hiện tại nhưng quả khổ về sau."
+          ],
+          "meaningUnits": [
+            "sweet-poison"
+          ]
+        },
+        {
+          "id": "bitter-medicine",
+          "kind": "teaching",
+          "heading": "Phép ví thuốc xưa: khó dùng, sau được an vui",
+          "paragraphs": [
+            "Đức Phật kể một tình huống y dược thời xưa: nước tiểu đã ủ trộn nhiều loại thuốc. Người bệnh vàng da được báo rằng nếu muốn thì uống; khi dùng, màu, mùi, vị đều không hấp dẫn, nhưng sau đó được an vui.",
+            "Người ấy suy xét, uống và không bỏ đi. Cả hai điều diễn ra như đã nói: khó chịu về màu, mùi, vị khi uống, an vui sau khi uống. Phật áp vào khổ hiện tại và quả vui về sau. Chi tiết này thuộc phép ví cổ, không phải hướng dẫn chữa bệnh để làm theo ngày nay."
+          ],
+          "meaningUnits": [
+            "bitter-medicine"
+          ]
+        },
+        {
+          "id": "pleasant-medicine",
+          "kind": "teaching",
+          "heading": "Phép ví thuốc xưa: dễ dùng, sau cũng an vui",
+          "paragraphs": [
+            "Sữa chua, mật ong, bơ sữa và mật mía được trộn. Một người bệnh kiết lỵ ra máu được báo: nếu muốn thì uống; màu, mùi, vị đều hấp dẫn, sau đó được an vui.",
+            "Người ấy suy xét rồi uống, không bỏ đi. Lúc uống thích màu, mùi, vị; sau khi uống an vui. Phật ví với pháp hành dễ chịu hiện tại và về sau cũng cho quả vui. Hai hình ảnh thuốc giúp làm rõ việc suy xét cả trước mắt lẫn kết quả, trong bối cảnh các phép ví xưa."
+          ],
+          "meaningUnits": [
+            "pleasant-medicine"
+          ]
+        },
+        {
+          "id": "sun",
+          "kind": "teaching",
+          "heading": "Pháp hành thứ tư được ví với mặt trời",
+          "paragraphs": [
+            "Vào tháng cuối mùa mưa, khi mùa thu đến, trời trong không mây, mặt trời lên xua tan hết bóng tối trong không gian, chiếu sáng, tỏa sáng và rực rỡ. Đức Phật nói pháp hành dễ chịu hiện tại, quả vui về sau cũng vượt lên, xua tan các học thuyết khác của nhiều sa-môn và bà-la-môn rồi tỏa sáng như vậy. Sa-môn là người tu; bà-la-môn ở đây là những thầy thuộc truyền thống tôn giáo Bà-la-môn thời ấy.",
+            "Các vị tỳ-kheo hoan hỷ tán đồng. Dòng kết ghi bài thứ sáu trong nhóm; mã bài là MN46."
+          ],
+          "meaningUnits": [
+            "sun",
+            "ending"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: sửa một lời đã nói với người thân",
+          "paragraphs": [
+            "Một liên hệ của người biên soạn: trong chuyện gia đình, ta nhận ra một lời mình đã nói khiến hai người hiểu lầm nhau. Tiếp tục kể theo ý mình có thể đem cảm giác mình đúng. Dừng lại, nói rõ phần chưa chính xác và nhận lỗi có thể khó lúc đầu, nhưng mở đường cho mọi người hiểu sự việc hơn.",
+            "Đây là một tình huống để suy xét lời nói và hệ quả. Không phải ai cũng đáp lại ngay như ta mong; ví dụ không biến lời kinh thành lời hứa rằng nói đúng thì mọi việc đời thường lập tức thuận lợi."
+          ],
+          "meaningUnits": [
+            "pleasant-harm-speech",
+            "hard-good-speech"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Xem một việc quen bằng sự hiểu biết mới",
+          "paragraphs": [
+            "Gợi ý suy xét: chọn một việc quen làm hoặc quen tránh. Nó đang dễ chịu hay khó chịu? Nó có gắn với điều lành, lời thật, tâm không gây hại không? Có điều gì mình cần tìm hiểu thêm trước khi quyết định?",
+            "Có thể sửa một việc theo từng bước hợp khả năng, đồng thời nhận ra niềm vui đang có trong việc lành. Bài không yêu cầu tìm khổ để chứng minh quyết tâm; nó hướng đến hiểu đúng điều theo làm và điều tránh bỏ."
+          ],
+          "meaningUnits": [
+            "four",
+            "wise-hard-good",
+            "wise-pleasant-good"
+          ]
+        }
+      ]
+    }
+  }
+}

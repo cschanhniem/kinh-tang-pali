@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn49",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "cdd79b95-63da-49f0-b5a7-bde4e64ce83d"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "83e1f869-3424-4958-a0ee-3a82032ee17b"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "59f8898c-4fd3-4274-b9ec-cbcc93600300"
+    }
+  },
+  "reviews": [
+    {
+      "id": "cdd79b95-63da-49f0-b5a7-bde4e64ce83d",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.5,
+        "terminology": 9.2,
+        "audience_fit": 9.3,
+        "clarity": 9.3,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Sau sửa đã có lời người kể đã nghe, hai phủ định mất đi/tái sinh tách rõ; giữ sāla đầu bài, thế giới nghìn phần, Abhibhū và cây cọ chặt ngọn thay các chỗ HTML lệch.",
+        "semantic_fidelity": "Baka và Māra nói điều gì đều được chỉ rõ; trực tri không đồng nhất hay chiếm hữu, hữu tìm phi hữu và việc lậu hoặc đã hết không bị đổi thành một cái ta vĩnh cửu.",
+        "core_coverage": "Có đủ 38 ý/164 khóa, hai lần Māra nhập, hai cặp hứa dọa, tám đối tượng điều kiện, chuỗi mười ba đối tượng và năm phủ định, hai cuộc biến mất và lý do tên bài.",
+        "logic_context": "Phật nhận điều kiện nếu bám chấp, không nhận mình đang bị chi phối; Baka thử biến mất thất bại rồi Phật làm được; động cơ cản dạy người dẫn tới đáp án đoạn tận lậu hoặc.",
+        "terminology": "Vô minh, hữu/phi hữu, thức, lậu hoặc, Như Lai và các danh hiệu có lời mở; bà-la-môn đã hết giải vòng tròn. Đoạn tính của mười ba đối tượng vẫn khó, được giữ có chủ ý.",
+        "audience_fit": "Ví bản đồ khu phố giúp trẻ hiểu giới hạn kiến thức, cùng gợi ý hỏi người lớn khi bị ép tin; truyện nhiều tên và khái niệm vẫn đòi đọc chậm hơn các bài ngắn.",
+        "clarity": "Các cảnh thăm Baka, lời Māra, quên quá khứ và thử biến mất chia rõ; số tám/mười một/mười ba giúp không lạc danh sách, còn câu về thức được báo là chỗ cần dừng đọc.",
+        "editorial_separation": "Ví bản đồ và thực hành có nhãn hiện đại; thần thông và các cõi được giữ là nội dung kinh, không hóa thành một câu chuyện tâm lý mới hay bài thiên văn.",
+        "practical_integrity": "Tập phân biệt điều biết và điều chưa biết, hỏi lý do và sửa ý kiến không mất tự trọng; không khuyên thử thần thông, chống đối người lớn hoặc hủy diệt bản thân.",
+        "technical_integrity": "Audit sau sửa sạch; map đủ 164 khóa, fingerprint và năm SHA256 khớp nguồn đã đọc. Không nhận đã kiểm người đọc hoặc dựng HTML trong hồ sơ này."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root/writer_a đối với bản của /root/writer_c. Đã đọc trọn năm nguồn thực tế, bản đồ ý và cả ba bản; đọc lại toàn các mục tác giả sửa trước chốt dấu vân tay. Không có thử nghiệm độc giả thật hoặc chứng nhận chuyên gia bên ngoài.",
+      "contentHash": "49f8557405c30c4dd822bafa1e789ac096b386066ade988eed7ada909d496176",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn49.html",
+          "sha256": "b72c65400c747e4efba7d2de1ccd2a9b5e11201fcec5695ab9be336776df5fa6"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn49_root-pli-ms.json",
+          "sha256": "76369d1ead3405628c4d3561d3138703b761cdd256ead8fc2ab16fa4291adb03"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn49_translation-en-sujato.json",
+          "sha256": "7dc66c7adcf06c0a12e70605bc84622ad66134974894a5afe5179a89f21763bc"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn49_comment-vi-project.json",
+          "sha256": "ebd5038b4758a402ca7a56cec19c9e145f6259c4e79625049e82ceddee9f2e13"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn49_translation-vi-project.json",
+          "sha256": "207a6372125590c880a8a46c2dcb1fde48ab770ff84afb6a1086d17a68ccae3d"
+        }
+      ]
+    },
+    {
+      "id": "83e1f869-3424-4958-a0ee-3a82032ee17b",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.4,
+        "audience_fit": 9.5,
+        "clarity": 9.4,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu Pāli, Việt dự án, Sujato, toàn HTML và comments; giữ tuổi thọ được Baka viện là tuổi thọ của Phật, nghìn phần và cõi Abhibhū không có ở lượt tương ứng của Anh/HTML.",
+        "semantic_fidelity": "Quan hệ giữa bám chấp và quyền lực được diễn đúng; lời thức không biểu hiện không gán chắc người nói hoặc một linh hồn, lời Như Lai vẫn như vậy có nguyên nhân lậu hoặc tận.",
+        "core_coverage": "Mười ba đối tượng và năm phủ định được triển khai kể cả phần lược; đủ danh xưng Māra gán, hai loại người trong từng lời dụ, những lậu hoặc và các hệ quả sinh già chết.",
+        "logic_context": "Chủ thể tuyên bố quả báo luôn là Māra; Baka viện kinh nghiệm rồi bị chỉ giới hạn; hai lần nhận diện Māra và câu đáp việc dạy/không dạy kết nối chặt với nhau.",
+        "terminology": "Giải trực tri, hữu, phi hữu, tái hữu, Như Lai và lậu hoặc; từ ngữ giữ nhất quán với nguồn. Phạm vi kinh nghiệm của tính đất/tất cả vẫn trừu tượng, không giả giản hóa bằng nghĩa mới.",
+        "audience_fit": "Ví trưởng nhóm viện thâm niên và việc tách dữ kiện khỏi suy đoán hợp trải nghiệm người trưởng thành; cách trình bày cho phép xét quyền uy mà không giản lược thành bác mọi kinh nghiệm.",
+        "clarity": "Tiêu đề nêu từng bước tranh luận; các điều kiện và phạm vi có câu giải riêng. Một vài đoạn nhiều danh hiệu còn dày, song không lẫn lời người nói.",
+        "editorial_separation": "Phân rõ bình luận giải nghĩa, câu trong đối đáp và liên hệ dự án hiện đại; đặc biệt câu thức chỉ được đưa như lời xuất hiện trong cuộc đối đáp, không gắn thêm tác giả.",
+        "practical_integrity": "Ba câu hỏi về điều biết, điều suy và điều đang giữ tạo việc tự xét cụ thể; không tuyên bố đổi ý một lần là giải thoát hoặc coi im lặng là điều xấu trong mọi hoàn cảnh.",
+        "technical_integrity": "Cấu trúc và provenance sạch, hash đúng phiên bản đã đọc lại; hồ sơ độc lập chỉ đề xuất đánh giá cho root, không tự ghi hay áp dụng publication."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root/writer_a đối với bản của /root/writer_c. Đã đọc trọn năm nguồn thực tế, bản đồ ý và cả ba bản; đọc lại toàn các mục tác giả sửa trước chốt dấu vân tay. Không có thử nghiệm độc giả thật hoặc chứng nhận chuyên gia bên ngoài.",
+      "contentHash": "80c466cd0abbb224b3ee67e88e8641ecf4cbfd033a58ddd2de91ff1fdd5dbc6c",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn49.html",
+          "sha256": "b72c65400c747e4efba7d2de1ccd2a9b5e11201fcec5695ab9be336776df5fa6"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn49_root-pli-ms.json",
+          "sha256": "76369d1ead3405628c4d3561d3138703b761cdd256ead8fc2ab16fa4291adb03"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn49_translation-en-sujato.json",
+          "sha256": "7dc66c7adcf06c0a12e70605bc84622ad66134974894a5afe5179a89f21763bc"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn49_comment-vi-project.json",
+          "sha256": "ebd5038b4758a402ca7a56cec19c9e145f6259c4e79625049e82ceddee9f2e13"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn49_translation-vi-project.json",
+          "sha256": "207a6372125590c880a8a46c2dcb1fde48ab770ff84afb6a1086d17a68ccae3d"
+        }
+      ]
+    },
+    {
+      "id": "59f8898c-4fd3-4274-b9ec-cbcc93600300",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.3,
+        "audience_fit": 9.5,
+        "clarity": 9.4,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Các lượng và phạm vi khó giữ đúng: nghìn phần, bốn cõi được nêu ngoài biết thấy của Baka, đủ mười ba đối tượng; lời về ngọn cọ và đoạn cuối không thêm hội chúng tỳ-kheo hoan hỷ.",
+        "semantic_fidelity": "Baka bị chỉ vô minh, Māra dùng lời thưởng phạt, Phật biết mà không nhận mình/của mình; đoạn tận lậu hoặc là giải thích cuối, không suy ra trạng thái bất biến của một linh hồn.",
+        "core_coverage": "Đủ 38 đơn vị nghĩa, kể cả phần lược, cả năm mặt gây hại của lậu hoặc, hai nhóm người được khuyên đừng dạy và hai nhánh dạy/không dạy ở câu trả lời.",
+        "logic_context": "Cách xác nhận có điều kiện ở quyền Baka rõ; câu về hữu tìm phi hữu không biến thành mục tiêu của Phật; lời tên bài giải đúng vì Māra hết lời và Phạm thiên mời.",
+        "terminology": "Bà-la-môn có lời giải mới cụ thể, trực tri/hữu/phi hữu/như lai/lậu hoặc được mở trong câu; chuỗi tính của đối tượng vẫn có độ khó cần giữ khi trung thành nguồn.",
+        "audience_fit": "Các đoạn ngắn, ví nếp quen gia đình và lời đáp chậm không mặc định tuổi cao bảo thủ; khuyến khích giữ điều tốt, sửa điều chưa hợp bằng thái độ tự chủ.",
+        "clarity": "Tách đất, các đối tượng tiếp và tất cả thành ba mục giúp đọc từng nấc; hai lượt Māra và hai lần biến mất đều dễ nhận ra, phần thức có điểm dừng rõ.",
+        "editorial_separation": "Liên hệ gia đình được tách khỏi sự kiện các cõi và giải thoát; không dùng chuyện quên của Baka để tạo suy luận về bệnh tật hoặc suy giảm trí nhớ của độc giả.",
+        "practical_integrity": "Gợi ý nghe hết, thừa nhận điều chưa biết và xem xét lời khuyên phù hợp đời thường; không biến thành tự phủ nhận phẩm giá hay bắt người đọc từ bỏ mọi nếp quen.",
+        "technical_integrity": "Đã đọc lại tất cả mục thay đổi và chốt audit/hash sạch; map và nguồn kiểm được, không ghi metadata, chạy Actions hay nhận kiểm thử độc giả thật."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root/writer_a đối với bản của /root/writer_c. Đã đọc trọn năm nguồn thực tế, bản đồ ý và cả ba bản; đọc lại toàn các mục tác giả sửa trước chốt dấu vân tay. Không có thử nghiệm độc giả thật hoặc chứng nhận chuyên gia bên ngoài.",
+      "contentHash": "9b0b1b7fbc326472bc7a8689b0663008955387d8cc5ecd0fc2dde708252db855",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn49.html",
+          "sha256": "b72c65400c747e4efba7d2de1ccd2a9b5e11201fcec5695ab9be336776df5fa6"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn49_root-pli-ms.json",
+          "sha256": "76369d1ead3405628c4d3561d3138703b761cdd256ead8fc2ab16fa4291adb03"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn49_translation-en-sujato.json",
+          "sha256": "7dc66c7adcf06c0a12e70605bc84622ad66134974894a5afe5179a89f21763bc"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn49_comment-vi-project.json",
+          "sha256": "ebd5038b4758a402ca7a56cec19c9e145f6259c4e79625049e82ceddee9f2e13"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn49_translation-vi-project.json",
+          "sha256": "207a6372125590c880a8a46c2dcb1fde48ab770ff84afb6a1086d17a68ccae3d"
+        }
+      ]
+    }
+  ]
+}

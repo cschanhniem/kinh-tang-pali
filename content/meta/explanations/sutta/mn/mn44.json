@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn44",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "f7e73382-3cb0-48d6-a9ca-f47dbf47e586"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "51fcea39-6fa5-4c5a-ae49-47d279dec428"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "01a64c7a-c5ea-4a11-a1e0-6e64ea9130a1"
+    }
+  },
+  "reviews": [
+    {
+      "id": "f7e73382-3cb0-48d6-a9ca-f47dbf47e586",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.7,
+        "logic_context": 9.6,
+        "terminology": 9.3,
+        "audience_fit": 9.1,
+        "clarity": 9.3,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đã đối chiếu đủ năm nguồn thực; cuộc hỏi đáp của cư sĩ Visākha với nữ tu Dhammadinnā, địa điểm và lời xác nhận cuối của Phật đúng nguồn. Không dựa bản Anh lấp chỗ trống.",
+        "semantic_fidelity": "Giữ hữu thân là năm thủ uẩn, chấp thủ là dục tham đối với chúng, và chấm dứt là buông hết ái. Cảm giác dễ chịu hay buồn không bị đồng nhất máy móc với một phiền não.",
+        "core_coverage": "Đủ bốn cách thân kiến áp dụng từng uẩn, tám ngành đạo, ba hành, nhập/xuất diệt thọ tưởng, hai lượt phủ định về cảm thọ, ba ngoại lệ và toàn chuỗi đối ứng đến giới hạn Niết-bàn.",
+        "logic_context": "Hai phủ định về thủ, chiều con đường nằm trong ba nhóm, thứ tự khẩu–thân–tâm dừng và tâm–thân–khẩu sinh lại đều đúng. Nỗi ưu do mong giải thoát giữ câu hỏi “đến bao giờ”, không thành lời khẳng định đã chứng.",
+        "terminology": "Uẩn, thủ, tự ngã, tầm/tứ và các ngành đạo được mở nghĩa ngắn; Niết-bàn đã được giải nghĩa sau góp ý. Ba loại xúc và định tướng vẫn là các khái niệm khó, được giữ ở mức nguồn cho phép.",
+        "audience_fit": "Ví dụ bức vẽ và việc tìm người lớn đáng tin phù hợp trẻ; 23 mục nhỏ giúp đọc từng phần. Bài hỏi đáp kỹ thuật còn cần đọc chậm hoặc có người cùng đọc, chưa có thử nghiệm độc giả thật.",
+        "clarity": "Mỗi mục theo một câu hỏi, các lần “không phải mọi” được tách rõ rồi giải bằng ba trường hợp. Phần nhiều thuật ngữ thiền vẫn đòi hỏi chú ý nhưng không bị nén thành khẩu hiệu.",
+        "editorial_separation": "Bức vẽ và bài tập nhận biết cảm giác đều được ghi rõ là của người biên soạn. Lời kể, lời nữ tu và lời Phật xác nhận không bị nhập làm một.",
+        "practical_integrity": "Bài tập chỉ nhận cảm giác, sự nắm giữ và lựa chọn cách phản ứng; không yêu cầu trẻ làm chứng đạt diệt thọ tưởng hoặc kết luận mình đã đoạn thân kiến.",
+        "technical_integrity": "Audit không lỗi nội dung hay nguồn; 40 ý bao phủ 138 khóa thực, các liên kết ý và hash ba bản khớp lần đọc cuối. Kiểm cấu trúc này không thay build của root."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ năm nguồn, 40 ý/138 khóa và toàn ba bản; sau góp ý đã đọc lại đầy đủ cả ba mục counterparts. Audit cuối sạch, năm hash nguồn không đổi, fingerprint đúng bản đóng băng.",
+      "contentHash": "e0f6b0a047eead1e20c7db5187248b8f37354f1e23d70a2e4987dc02500073e0",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn44.html",
+          "sha256": "5377225ae200913c910f5e4d67cf8d11c819243703ef71517e05e4d3391b893b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn44_root-pli-ms.json",
+          "sha256": "e0aaac131a23a879d49ef5b173c3eff7fcbcf7a59d81324b31a200627a534f3b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn44_translation-en-sujato.json",
+          "sha256": "c5fbf3bc1525d15f7d8719b0593a1b97e849a5f892da8df55e2b9ab386571e13"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn44_comment-vi-project.json",
+          "sha256": "e6fbe8a0e436e918a69f6609425ad20ebb821fe09f1c616d9875f0c86c708631"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn44_translation-vi-project.json",
+          "sha256": "b8c52db21905133e79f72052ca767b76c4b437988382d5d91aeef75c209558d0"
+        }
+      ]
+    },
+    {
+      "id": "51fcea39-6fa5-4c5a-ae49-47d279dec428",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.7,
+        "logic_context": 9.7,
+        "terminology": 9.4,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Năm tệp nguồn được đọc trọn và kiểm byte; bản giữ người hỏi nam cư sĩ, người đáp nữ tu, và sự xác nhận có điều kiện của Phật. Những phủ định lệch trong HTML không được chép theo.",
+        "semantic_fidelity": "Giải thích mối quan hệ uẩn–thủ mà không biến thủ thành một vật riêng, giữ ái dẫn tái sinh và sự đoạn diệt hoàn toàn. Giải thoát không bị thu nhỏ thành thích nghi với thay đổi vai trò.",
+        "core_coverage": "Các mục gộp vẫn chứa đủ hai câu hỏi về đạo, ba nhóm tu tập, ba hành cùng lý do, ba xúc, ba loại thọ, hai lượt “mọi”, ba ngoại lệ và lời kết của cư sĩ.",
+        "logic_context": "Bác cả đồng nhất lẫn tách rời trong câu hỏi về thủ; ghi đúng chiều bao gồm của giới–định–tuệ. Phân biệt nhận diện tùy miên với điều cần bỏ và giới hạn từng ngoại lệ thiền.",
+        "terminology": "Hữu vi, giới uẩn, nhất tâm, tầm/tứ, tùy miên, hỷ/lạc và xả có lời mở nghĩa phù hợp đoạn. Chuỗi đối ứng không bị diễn thành toàn các cặp trái nghĩa; Niết-bàn nay có nghĩa ngay lần đầu.",
+        "audience_fit": "Tình huống thay đổi vai trò trong nhóm hợp trải nghiệm người trưởng thành và không áp đặt nghề nghiệp hay gia đình. Cách gộp 17 mục giữ đủ chi tiết cho việc tự đọc có suy xét.",
+        "clarity": "Mạch từ điều bị chấp giữ đến quan sát cảm thọ rõ; ba trường hợp thiền đặt chung giúp so sánh. Những câu giải nghĩa ngắn làm câu hỏi kỹ thuật dễ theo hơn mà không cắt mất điều kiện.",
+        "editorial_separation": "Ví dụ vai trò và gợi ý cuối có nhãn biên soạn; cảnh giác về tự nhận thành tựu nằm đúng phần liên hệ. Không thêm tiểu sử quan hệ giữa hai nhân vật ngoài năm nguồn.",
+        "practical_integrity": "Gợi ý tách sự việc, cảm thọ và nắm giữ giúp suy xét đời sống, không suy diễn nhãn cảm giác thành chẩn đoán phiền não hay chứng nhận thiền.",
+        "technical_integrity": "Bản cuối có 17 mục hợp schema; nguồn, mã ý, tác giả và fingerprint được audit sạch, đúng hash đã đọc lại. Chưa lấy kiểm cấu trúc thay cho kiểm trang sau tích hợp."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ năm nguồn, 40 ý/138 khóa và toàn ba bản; sau góp ý đã đọc lại đầy đủ cả ba mục counterparts. Audit cuối sạch, năm hash nguồn không đổi, fingerprint đúng bản đóng băng.",
+      "contentHash": "234ea69a698ae6b3818c2ca385ca9cc68463ade67b60b77c2dbea3878d911ffe",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn44.html",
+          "sha256": "5377225ae200913c910f5e4d67cf8d11c819243703ef71517e05e4d3391b893b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn44_root-pli-ms.json",
+          "sha256": "e0aaac131a23a879d49ef5b173c3eff7fcbcf7a59d81324b31a200627a534f3b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn44_translation-en-sujato.json",
+          "sha256": "c5fbf3bc1525d15f7d8719b0593a1b97e849a5f892da8df55e2b9ab386571e13"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn44_comment-vi-project.json",
+          "sha256": "e6fbe8a0e436e918a69f6609425ad20ebb821fe09f1c616d9875f0c86c708631"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn44_translation-vi-project.json",
+          "sha256": "b8c52db21905133e79f72052ca767b76c4b437988382d5d91aeef75c209558d0"
+        }
+      ]
+    },
+    {
+      "id": "01a64c7a-c5ea-4a11-a1e0-6e64ea9130a1",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.7,
+        "logic_context": 9.6,
+        "terminology": 9.4,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đủ Pāli, Việt dự án, Sujato, toàn HTML và chú thích; diễn tiến Visākha hỏi, Dhammadinnā trả lời, Phật xác nhận giữ đúng chủ thể. Nguồn thực và khoảng trống Anh được ghi riêng.",
+        "semantic_fidelity": "Giữ đủ ái và đoạn ái, thân kiến ở từng uẩn, và sự vắng mặt của tùy miên trong các trường hợp nêu. Nỗi buồn do một cuộc hẹn thay đổi không bị gọi là bằng chứng tu chứng hay bất thiện chắc chắn.",
+        "core_coverage": "Hai mươi cách chấp ngã được diễn qua bốn quan hệ lặp cho từng uẩn; đủ thứ tự nhập/xuất, ba xúc, tính đổi thay của ba thọ, hai lượt phủ định và sáu cặp đối ứng.",
+        "logic_context": "Quan hệ đạo thuộc ba nhóm đúng chiều; hai lượt “không phải mọi” được giữ riêng. Mong giải thoát là điều kiện của nỗi ưu trong ví dụ kinh, không được áp dụng cho mọi nỗi buồn.",
+        "terminology": "Thuật ngữ được nhắc chậm và mở nghĩa tại chỗ: ái, uẩn, tự ngã, tầm/tứ, hữu vi, tùy miên và xả. Bổ sung Niết-bàn khép khoảng trống thuật ngữ cuối chuỗi mà không làm biến nghĩa đối ứng.",
+        "audience_fit": "Nhịp 21 mục, các đoạn hai đến ba câu và ví dụ gặp bạn bè tôn trọng người lớn tuổi, không mặc định bệnh tật hay suy giảm. Chưa có phản hồi từ người đọc thật.",
+        "clarity": "Các câu hỏi được dẫn tuần tự; ba hành và ba cảm thọ có chỗ nghỉ riêng. Việc nhắc lại ngắn hỗ trợ theo mạch mà phần kỹ thuật thiền vẫn giữ độ chính xác cần có.",
+        "editorial_separation": "Ví dụ cuộc hẹn và gợi ý suy xét đều có nhãn người biên soạn; cảnh kể mở đầu, lời đối thoại và lời xác nhận cuối phân biệt rõ.",
+        "practical_integrity": "Đề nghị nhận ra cảm giác và lựa chọn lời nói vừa sức, không đặt áp lực phải đạt thiền, không hứa chữa buồn hoặc giải thoát nhờ một bài tập thường ngày.",
+        "technical_integrity": "Audit sạch cả nguồn và cấu trúc; 21 mục, toàn mã ý và hash sau ba đoạn sửa khớp bản được đọc. Việc ghi đánh giá chính thức và build vẫn do root thực hiện."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ năm nguồn, 40 ý/138 khóa và toàn ba bản; sau góp ý đã đọc lại đầy đủ cả ba mục counterparts. Audit cuối sạch, năm hash nguồn không đổi, fingerprint đúng bản đóng băng.",
+      "contentHash": "3d548bac5d72145384365bfe0e4b842245475debcb9003ebaef34791994d059b",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn44.html",
+          "sha256": "5377225ae200913c910f5e4d67cf8d11c819243703ef71517e05e4d3391b893b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn44_root-pli-ms.json",
+          "sha256": "e0aaac131a23a879d49ef5b173c3eff7fcbcf7a59d81324b31a200627a534f3b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn44_translation-en-sujato.json",
+          "sha256": "c5fbf3bc1525d15f7d8719b0593a1b97e849a5f892da8df55e2b9ab386571e13"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn44_comment-vi-project.json",
+          "sha256": "e6fbe8a0e436e918a69f6609425ad20ebb821fe09f1c616d9875f0c86c708631"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn44_translation-vi-project.json",
+          "sha256": "b8c52db21905133e79f72052ca767b76c4b437988382d5d91aeef75c209558d0"
+        }
+      ]
+    }
+  ]
+}

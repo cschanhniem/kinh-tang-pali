@@ -124,6 +124,7 @@ Theo dõi bằng nội dung và lịch sử đánh giá trong kho cùng PR đã 
 - [Báo cáo lô 02 — MN11–MN20](modern-explanations/batch-02-mn11-mn20.md)
 - [Báo cáo lô 03 — MN21–MN30](modern-explanations/batch-03-mn21-mn30.md)
 - [Báo cáo lô 04 — MN31–MN40](modern-explanations/batch-04-mn31-mn40.md)
+- [Báo cáo lô 05 — MN41–MN50](modern-explanations/batch-05-mn41-mn50.md)
 - [Hướng dẫn đóng góp](../AGENTS.md)
 - [Quy trình dịch và đối chiếu nguồn](../skill/translation.md)
 - [Đánh giá bản dịch và tóm tắt hiện có](quality-assessments.md)
