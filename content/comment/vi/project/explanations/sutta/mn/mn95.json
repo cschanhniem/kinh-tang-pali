@@ -1,0 +1,1805 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn95",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn95_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "7c23ae8c99b0deede9de6ba3a38fa4753eebe299a8a061c91ec82aad0d9d0140"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn95_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "3e9b908bc0b06e7acd379f9e10cd588a99c554e32c95d4f4e142dd0788e58746"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn95_translation-vi-project.json",
+      "commit": "0b4081326ff6f4785ac13f6e2d947ea1e78449df",
+      "sha256": "ea87526fe3a40f1878b57aba57ead298813ac545428b5572fb757a2d615eab3d"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn95.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "1cbfe21c30b98c49fca3da48d3def9250e49433b1dbb07a7d682ec4ecd8c02cd"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn95_comment-vi-project.json",
+      "commit": "0b4081326ff6f4785ac13f6e2d947ea1e78449df",
+      "sha256": "13a974794b9417c78f8da0e67f3cb7c5b54147c9a202cb0771a434f5ace48480"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Tên bài và bộ kinh",
+      "segments": [
+        "mn95:0.1",
+        "mn95:0.2"
+      ],
+      "summary": "Trung Bộ 95, Kinh Caṅkī."
+    },
+    {
+      "id": "setting",
+      "title": "Đi đến Opāsāda",
+      "segments": [
+        "mn95:1.1",
+        "mn95:1.2",
+        "mn95:1.3"
+      ],
+      "summary": "Lời người truyền kinh đã nghe: Phật du hành Kosala cùng Tăng chúng đông đảo, đến làng bà-la-môn Opāsāda, trú rừng thiêng rừng sāla ở phía bắc."
+    },
+    {
+      "id": "estate",
+      "title": "Thái ấp của Caṅkī",
+      "segments": [
+        "mn95:2.1"
+      ],
+      "summary": "Caṅkī sống tại Opāsāda đông dân, đầy cỏ, củi, nước, lúa; đất của vua Pasenadi xứ Kosala ban cho bà-la-môn."
+    },
+    {
+      "id": "reputation",
+      "title": "Dân làng nghe danh Phật",
+      "segments": [
+        "mn95:3.1",
+        "mn95:3.2",
+        "mn95:3.3",
+        "mn95:3.4",
+        "mn95:3.5",
+        "mn95:3.6",
+        "mn95:3.7"
+      ],
+      "summary": "Các bà-la-môn gia chủ nghe Gotama từ họ Sakiya xuất gia đã đến với Tăng chúng; đủ danh hiệu giác ngộ, minh hạnh, điều phục, thầy trời người; tự chứng thế giới cùng thiên, Māra, Phạm thiên, sa-môn, bà-la-môn, trời người rồi giảng; Pháp tốt đầu giữa cuối, nghĩa lời đầy đủ, đời tu trọn vẹn thanh tịnh; gặp bậc ấy là tốt."
+    },
+    {
+      "id": "villagers",
+      "title": "Từng đoàn đi về bắc",
+      "segments": [
+        "mn95:4.1"
+      ],
+      "summary": "Các bà-la-môn gia chủ rời làng thành từng đoàn, đi về bắc đến rừng thiêng rừng sāla."
+    },
+    {
+      "id": "question",
+      "title": "Caṅkī hỏi người hầu",
+      "segments": [
+        "mn95:5.1",
+        "mn95:5.2",
+        "mn95:5.3",
+        "mn95:5.4"
+      ],
+      "summary": "Caṅkī đang nghỉ trưa trên lầu, thấy các đoàn đi về rừng, gọi người hầu hỏi nguyên do."
+    },
+    {
+      "id": "message",
+      "title": "Người hầu chuyển lời chờ",
+      "segments": [
+        "mn95:6.1",
+        "mn95:6.2",
+        "mn95:6.3",
+        "mn95:6.4",
+        "mn95:6.5",
+        "mn95:6.6",
+        "mn95:6.7",
+        "mn95:6.8",
+        "mn95:6.9",
+        "mn95:6.10"
+      ],
+      "summary": "Người hầu báo Phật họ Sakiya đến với Tăng chúng, nhắc đủ danh hiệu tốt và nói dân làng đi gặp; Caṅkī nhờ báo chờ để cùng đi, người hầu vâng và thực sự chuyển đúng lời."
+    },
+    {
+      "id": "visitors",
+      "title": "Năm trăm người đến can",
+      "segments": [
+        "mn95:7.1",
+        "mn95:7.2",
+        "mn95:7.3",
+        "mn95:7.4",
+        "mn95:7.5",
+        "mn95:7.6",
+        "mn95:7.7"
+      ],
+      "summary": "Khoảng năm trăm bà-la-môn từ các xứ khác đang ở Opāsāda vì công việc; nghe tin, đến hỏi Caṅkī, ông xác nhận định đi gặp Gotama."
+    },
+    {
+      "id": "objection",
+      "title": "Lời can và dòng dõi",
+      "segments": [
+        "mn95:8.1",
+        "mn95:8.2",
+        "mn95:8.3",
+        "mn95:8.4",
+        "mn95:8.5",
+        "mn95:8.6"
+      ],
+      "summary": "Họ bảo Caṅkī đừng đi, phải để Gotama đến. Dòng mẹ và cha cao quý, huyết thống không bị chê đến bảy đời tổ phụ là một lý do riêng đã đủ theo họ."
+    },
+    {
+      "id": "qualifications",
+      "title": "Những phẩm chất được viện dẫn tiếp",
+      "segments": [
+        "mn95:8.7",
+        "mn95:8.8",
+        "mn95:8.9",
+        "mn95:8.10",
+        "mn95:8.11",
+        "mn95:8.12"
+      ],
+      "summary": "Cộng với dòng dõi: Caṅkī giàu; thông ba Veda cùng từ vựng nghi lễ ngữ âm phân loại từ phần lịch sử thứ năm, thuộc chữ ngữ pháp thế giới học tướng đại nhân; dung sắc dáng vẻ đẹp như Phạm thiên; giới hạnh trưởng thành; lời nói mượt rõ diễn nghĩa; thầy của thầy, dạy 300 thanh niên bài tụng. Mỗi điểm tiếp công thức không nên tự đi gặp."
+    },
+    {
+      "id": "honors",
+      "title": "Ba lý do còn lại",
+      "segments": [
+        "mn95:8.13",
+        "mn95:8.14",
+        "mn95:8.15",
+        "mn95:8.16",
+        "mn95:8.17"
+      ],
+      "summary": "Được Pasenadi và Pokkharasāti tôn kính quý trọng đề cao cúng dường kính ngưỡng, và sống tại thái ấp Opāsāda đầy tài nguyên vua ban. Từng lý do trong cả mười là cơ sở họ đòi Gotama đến gặp Caṅkī."
+    },
+    {
+      "id": "reply",
+      "title": "Caṅkī đảo chiều lời đề nghị",
+      "segments": [
+        "mn95:9.1",
+        "mn95:9.2",
+        "mn95:9.3",
+        "mn95:9.4",
+        "mn95:9.5",
+        "mn95:9.6"
+      ],
+      "summary": "Caṅkī mời nghe vì sao chính họ nên đến gặp Gotama, không để Gotama đến: dòng mẹ và cha của Ngài cao quý thuần khiết đến bảy đời không bị chê, riêng điểm ấy đã đủ theo ông."
+    },
+    {
+      "id": "renunciation",
+      "title": "Những điều đã từ bỏ",
+      "segments": [
+        "mn95:9.7",
+        "mn95:9.8",
+        "mn95:9.9"
+      ],
+      "summary": "Gotama xuất gia bỏ nhiều vàng bạc trên và dưới đất; ra đi khi trẻ tóc đen ở đầu tuổi đời; dù cha mẹ không muốn khóc đẫm mặt, vẫn cạo râu tóc mặc áo cà-sa bỏ nhà sống không nhà."
+    },
+    {
+      "id": "conduct",
+      "title": "Dáng vẻ, hạnh và lời",
+      "segments": [
+        "mn95:9.10",
+        "mn95:9.11",
+        "mn95:9.12",
+        "mn95:9.13",
+        "mn95:9.14",
+        "mn95:9.15"
+      ],
+      "summary": "Theo Caṅkī, Gotama đẹp khả ái sắc diện dáng vẻ như Phạm thiên; giới hạnh Thánh và thiện; nói khéo rõ diễn nghĩa; thầy của các thầy; hết dục tham và tính xốc nổi; dạy nghiệp, tác dụng của hành động, không gieo ác cho cộng đồng bà-la-môn."
+    },
+    {
+      "id": "standing",
+      "title": "Dòng họ, người tìm đến và danh tiếng",
+      "segments": [
+        "mn95:9.16",
+        "mn95:9.17",
+        "mn95:9.18",
+        "mn95:9.19",
+        "mn95:9.20",
+        "mn95:9.21",
+        "mn95:9.22"
+      ],
+      "summary": "Ngài từ gia tộc Sát-đế-lợi thuần khiết, giàu của cải; người xứ xa đến hỏi; hàng ngàn trời nương tựa suốt đời; đủ danh hiệu Phật như trước, đủ 32 tướng đại nhân. Từng điều nằm trong lập luận họ nên đến gặp."
+    },
+    {
+      "id": "royal-refuges",
+      "title": "Những người đã quy y",
+      "segments": [
+        "mn95:9.23",
+        "mn95:9.24",
+        "mn95:9.25"
+      ],
+      "summary": "Caṅkī nêu Seniya Bimbisāra xứ Magadha, Pasenadi xứ Kosala, Pokkharasāti: riêng từng người cùng vợ con đã quy y Gotama trọn đời."
+    },
+    {
+      "id": "guest",
+      "title": "Bổn phận với khách",
+      "segments": [
+        "mn95:9.26",
+        "mn95:9.27",
+        "mn95:9.28",
+        "mn95:9.29",
+        "mn95:9.30",
+        "mn95:9.31",
+        "mn95:9.32"
+      ],
+      "summary": "Gotama đang ở rừng phía bắc Opāsāda; sa-môn hay bà-la-môn nào đến làng đều là khách cần được tôn kính quý trọng đề cao cúng dường. Gotama là khách của họ, riêng lý do ấy cũng đủ để họ đến gặp, không để Ngài phải đến."
+    },
+    {
+      "id": "limitless",
+      "title": "Lời mời cùng đi",
+      "segments": [
+        "mn95:9.33",
+        "mn95:9.34",
+        "mn95:9.35",
+        "mn95:9.36",
+        "mn95:9.37"
+      ],
+      "summary": "Caṅkī chỉ kể những phẩm chất mình học được, danh đức Gotama không giới hạn chừng ấy; riêng từng điểm đã đủ để họ đi gặp. Ông mời tất cả cùng đi."
+    },
+    {
+      "id": "meeting",
+      "title": "Đến gặp và ngồi một bên",
+      "segments": [
+        "mn95:10.1",
+        "mn95:10.2"
+      ],
+      "summary": "Caṅkī đi cùng đoàn bà-la-môn đông đảo, chào hỏi thân thiện với Phật rồi ngồi một bên."
+    },
+    {
+      "id": "student",
+      "title": "Người trẻ chen ngang",
+      "segments": [
+        "mn95:11.1",
+        "mn95:11.2",
+        "mn95:11.3",
+        "mn95:11.4",
+        "mn95:11.5",
+        "mn95:11.6"
+      ],
+      "summary": "Phật đang trò chuyện với các bà-la-môn cao niên. Kāpaṭika tóc vừa cạo, khoảng 16 tuổi, đầy đủ học vấn ba Veda và phụ môn như nêu, chen lời; Phật gọi cậu Bhāradvāja, quở và yêu cầu đợi các vị nói xong."
+    },
+    {
+      "id": "defense",
+      "title": "Caṅkī nói đỡ",
+      "segments": [
+        "mn95:11.7",
+        "mn95:11.8",
+        "mn95:11.9"
+      ],
+      "summary": "Caṅkī xin không quở Kāpaṭika: cậu là thiện nam tử, đa văn, trí tuệ, nói khéo và đủ sức đối đáp về chuyện này."
+    },
+    {
+      "id": "glance",
+      "title": "Hai ý nghĩ và cái nhìn",
+      "segments": [
+        "mn95:12.1",
+        "mn95:12.2",
+        "mn95:12.3",
+        "mn95:12.4",
+        "mn95:12.5",
+        "mn95:12.6",
+        "mn95:12.7",
+        "mn95:12.8",
+        "mn95:12.9",
+        "mn95:12.10"
+      ],
+      "summary": "Phật nghĩ cậu sẽ bàn ba Veda vì được các bà-la-môn đưa lên trước. Cậu định khi được nhìn sẽ hỏi; Phật biết ý nghĩ rồi nhìn. Cậu biết đã được chú ý, quyết hỏi và nói."
+    },
+    {
+      "id": "claim",
+      "title": "Lời xác quyết về câu tụng cổ",
+      "segments": [
+        "mn95:12.11",
+        "mn95:12.12",
+        "mn95:12.13"
+      ],
+      "summary": "Kāpaṭika hỏi về các câu tụng cổ truyền qua nhiều đời nghe nói, có thẩm quyền kinh tạng, khiến bà-la-môn kết luận chỉ điều này thật ngoài ra hư vọng; xin ý kiến Gotama."
+    },
+    {
+      "id": "witnesses",
+      "title": "Ba lớp người có biết và thấy chăng",
+      "segments": [
+        "mn95:13.1",
+        "mn95:13.2",
+        "mn95:13.3",
+        "mn95:13.4",
+        "mn95:13.5",
+        "mn95:13.6",
+        "mn95:13.7",
+        "mn95:13.8",
+        "mn95:13.9",
+        "mn95:13.10",
+        "mn95:13.11",
+        "mn95:13.12",
+        "mn95:13.13"
+      ],
+      "summary": "Ba câu hỏi: có dù một bà-la-môn hiện tại; một thầy, thầy của thầy đến bảy đời; các tác giả truyền bá câu tụng xưa gồm Aṭṭhaka Vāmaka Vāmadeva Vessāmitta Yamadaggi Aṅgīrasa Bhāradvāja Vāseṭṭha Kassapa Bhagu, mà đời nay vẫn hát tụng giảng theo, tự nói biết và thấy chỉ điều này thật còn lại hư vọng? Mỗi lần đều đáp không."
+    },
+    {
+      "id": "recap",
+      "title": "Nhắc lại cả ba sự thiếu căn cứ",
+      "segments": [
+        "mn95:13.14",
+        "mn95:13.15",
+        "mn95:13.16",
+        "mn95:13.17",
+        "mn95:13.18",
+        "mn95:13.19",
+        "mn95:13.20",
+        "mn95:13.21",
+        "mn95:13.22"
+      ],
+      "summary": "Phật xác nhận không một bà-la-môn, không thầy đến bảy đời, không các ẩn sĩ tác giả truyền bá xưa vừa nêu tự nói biết và thấy rồi xác quyết duy nhất."
+    },
+    {
+      "id": "blind",
+      "title": "Đoàn người mù nối nhau",
+      "segments": [
+        "mn95:13.23",
+        "mn95:13.24",
+        "mn95:13.25",
+        "mn95:13.26"
+      ],
+      "summary": "Phép ví đoàn người mù nối nhau: đầu, giữa, cuối đều không thấy; lời bà-la-môn giống vậy. Phật hỏi chẳng phải niềm tin này trở thành không có căn cứ sao, không ghi thêm lời đáp chưa có."
+    },
+    {
+      "id": "five",
+      "title": "Niềm tin và bốn căn cứ khác",
+      "segments": [
+        "mn95:14.1",
+        "mn95:14.2",
+        "mn95:14.3",
+        "mn95:14.4",
+        "mn95:14.5",
+        "mn95:14.6"
+      ],
+      "summary": "Kāpaṭika nói còn dựa truyền khẩu chứ không chỉ tin; Phật nhắc sự chuyển từ tin sang truyền khẩu, nêu năm thứ có kết quả hai chiều ngay hiện tại: tin, ưa thích, truyền khẩu, suy luận lý lẽ, chấp nhận quan điểm sau suy tầm."
+    },
+    {
+      "id": "two-directions",
+      "title": "Không lấy mức tin làm mức thật",
+      "segments": [
+        "mn95:14.7",
+        "mn95:14.8",
+        "mn95:14.9",
+        "mn95:14.10",
+        "mn95:14.11",
+        "mn95:14.12",
+        "mn95:14.13",
+        "mn95:14.14",
+        "mn95:14.15"
+      ],
+      "summary": "Cả năm căn cứ, dù đầy đủ tốt đẹp vẫn có thể rỗng không sai; dù không đầy đủ vẫn có thể thật đúng không khác. Người có trí gìn giữ sự thật chưa đủ để kết luận chỉ đây thật ngoài ra sai."
+    },
+    {
+      "id": "preserving",
+      "title": "Nói đúng giới hạn điều mình có",
+      "segments": [
+        "mn95:15.1",
+        "mn95:15.2",
+        "mn95:15.3",
+        "mn95:15.4",
+        "mn95:15.5",
+        "mn95:15.6",
+        "mn95:15.7",
+        "mn95:15.8",
+        "mn95:15.9",
+        "mn95:15.10",
+        "mn95:15.11",
+        "mn95:15.12",
+        "mn95:15.13",
+        "mn95:15.14",
+        "mn95:15.15"
+      ],
+      "summary": "Kāpaṭika hỏi thế nào gìn giữ sự thật. Với từng điều trong năm căn cứ, nói niềm tin/ưa thích/truyền khẩu/suy luận/quan điểm sau suy tầm của tôi như vậy; chưa kết luận duy nhất. Đó là gìn giữ sự thật, chưa giác ngộ sự thật."
+    },
+    {
+      "id": "awakening-question",
+      "title": "Hỏi tiếp sự giác ngộ",
+      "segments": [
+        "mn95:16.1",
+        "mn95:16.2",
+        "mn95:16.3"
+      ],
+      "summary": "Kāpaṭika ghi nhận nghĩa gìn giữ sự thật, hỏi tiếp thế nào giác ngộ sự thật và người giác ngộ."
+    },
+    {
+      "id": "greed",
+      "title": "Xét người thầy về tham",
+      "segments": [
+        "mn95:17.1",
+        "mn95:17.2",
+        "mn95:17.3",
+        "mn95:17.4",
+        "mn95:17.5",
+        "mn95:17.6",
+        "mn95:17.7",
+        "mn95:17.8",
+        "mn95:17.9",
+        "mn95:17.10",
+        "mn95:17.11",
+        "mn95:17.12",
+        "mn95:17.13"
+      ],
+      "summary": "Tỳ-kheo sống nương làng hoặc thị trấn; gia chủ hoặc con gia chủ xét ba loại khơi tham/sân/si. Về tham, hỏi có bị chi phối đến không biết nói biết, không thấy nói thấy, khuyên điều hại khổ lâu dài không; xét thấy không, thân khẩu như người không tham. Pháp sâu khó thấy khó hiểu an tịnh cao thượng ngoài suy luận suông tinh tế người trí hiểu, không dễ cho người tham giảng."
+    },
+    {
+      "id": "hate",
+      "title": "Xét tiếp người thầy về sân",
+      "segments": [
+        "mn95:18.1",
+        "mn95:18.2",
+        "mn95:18.3",
+        "mn95:18.4",
+        "mn95:18.5",
+        "mn95:18.6",
+        "mn95:18.7",
+        "mn95:18.8",
+        "mn95:18.9",
+        "mn95:18.10",
+        "mn95:18.11"
+      ],
+      "summary": "Thấy thanh tịnh khỏi tham rồi xét sân theo đủ cùng ba nguy cơ nói biết/nói thấy/khuyên hại khổ lâu dài; thấy không có, thân khẩu như người không sân; đủ tám nét Pháp sâu, người sân không dễ giảng."
+    },
+    {
+      "id": "delusion",
+      "title": "Xét tiếp người thầy về si",
+      "segments": [
+        "mn95:19.1",
+        "mn95:19.2",
+        "mn95:19.3",
+        "mn95:19.4",
+        "mn95:19.5",
+        "mn95:19.6",
+        "mn95:19.7",
+        "mn95:19.8",
+        "mn95:19.9",
+        "mn95:19.10",
+        "mn95:19.11"
+      ],
+      "summary": "Thấy thanh tịnh khỏi sân rồi xét si theo đủ cùng ba nguy cơ, thấy không có; thân khẩu như người không si; đủ tám nét Pháp sâu, người si không dễ giảng."
+    },
+    {
+      "id": "forward-path",
+      "title": "Mười hai bước và tự chứng",
+      "segments": [
+        "mn95:20.1",
+        "mn95:20.2"
+      ],
+      "summary": "Khi xét thấy thanh tịnh khỏi si, đặt lòng tin, đến gần, phụng sự, lắng tai, nghe Pháp, nhớ Pháp, xét nghĩa, chấp nhận sau suy tầm, khát vọng, cố gắng, cân nhắc, gắng sức; quyết chí tự thân chứng chân lý tối thượng và thấy bằng trí tuệ xuyên thấu."
+    },
+    {
+      "id": "awakening-limit",
+      "title": "Thấy sự thật chưa phải đạt sự thật",
+      "segments": [
+        "mn95:20.3",
+        "mn95:20.4"
+      ],
+      "summary": "Phật xác định như vậy là giác ngộ sự thật và người giác ngộ; cho đến đó chưa gọi đạt được sự thật."
+    },
+    {
+      "id": "attainment",
+      "title": "Tu tập chính các pháp ấy",
+      "segments": [
+        "mn95:21.1",
+        "mn95:21.2",
+        "mn95:21.3",
+        "mn95:21.4",
+        "mn95:21.5"
+      ],
+      "summary": "Kāpaṭika ghi nhận giác ngộ rồi hỏi đạt sự thật. Phật xác định đạt sự thật do tập hành, tu tập, làm sung mãn chính các pháp ấy."
+    },
+    {
+      "id": "striving",
+      "title": "Đạt sự thật cần gắng sức",
+      "segments": [
+        "mn95:22.1",
+        "mn95:22.2",
+        "mn95:22.3",
+        "mn95:22.4",
+        "mn95:22.5",
+        "mn95:22.6",
+        "mn95:22.7"
+      ],
+      "summary": "Kāpaṭika ghi nhận đạt sự thật rồi hỏi điều quan trọng. Phật nói gắng sức: không gắng sức thì không đạt, vì gắng sức nên đạt, do đó là điều hỗ trợ quan trọng."
+    },
+    {
+      "id": "weighing",
+      "title": "Gắng sức cần cân nhắc",
+      "segments": [
+        "mn95:23.1",
+        "mn95:23.2",
+        "mn95:23.3",
+        "mn95:23.4",
+        "mn95:23.5",
+        "mn95:23.6"
+      ],
+      "summary": "Hỏi điều quan trọng đối với gắng sức, đáp cân nhắc: không cân nhắc thì không gắng sức, vì cân nhắc nên gắng sức; kết là hỗ trợ quan trọng."
+    },
+    {
+      "id": "attempt",
+      "title": "Cân nhắc cần cố gắng",
+      "segments": [
+        "mn95:24.1",
+        "mn95:24.2",
+        "mn95:24.3",
+        "mn95:24.4",
+        "mn95:24.5",
+        "mn95:24.6"
+      ],
+      "summary": "Hỏi điều quan trọng đối với cân nhắc, đáp cố gắng: không cố gắng thì không cân nhắc, vì cố gắng nên cân nhắc; kết là hỗ trợ quan trọng."
+    },
+    {
+      "id": "enthusiasm",
+      "title": "Cố gắng cần khát vọng",
+      "segments": [
+        "mn95:25.1",
+        "mn95:25.2",
+        "mn95:25.3",
+        "mn95:25.4",
+        "mn95:25.5",
+        "mn95:25.6"
+      ],
+      "summary": "Hỏi điều quan trọng đối với cố gắng, đáp khát vọng: không sinh khát vọng thì không cố gắng, vì khát vọng sinh nên cố gắng; kết là hỗ trợ quan trọng."
+    },
+    {
+      "id": "accepting",
+      "title": "Khát vọng cần chấp nhận sau suy tầm",
+      "segments": [
+        "mn95:26.1",
+        "mn95:26.2",
+        "mn95:26.3",
+        "mn95:26.4",
+        "mn95:26.5",
+        "mn95:26.6"
+      ],
+      "summary": "Hỏi điều quan trọng đối với khát vọng, đáp chấp nhận Pháp sau suy tầm: không chấp nhận vậy thì khát vọng không sinh, vì chấp nhận vậy nên sinh; kết hỗ trợ quan trọng."
+    },
+    {
+      "id": "examining",
+      "title": "Chấp nhận cần xét nghĩa",
+      "segments": [
+        "mn95:27.1",
+        "mn95:27.2",
+        "mn95:27.3",
+        "mn95:27.4",
+        "mn95:27.5",
+        "mn95:27.6"
+      ],
+      "summary": "Hỏi điều quan trọng đối với chấp nhận Pháp sau suy tầm, đáp xét nghĩa: không xét thì không chấp nhận vậy, vì xét nên chấp nhận; kết hỗ trợ quan trọng."
+    },
+    {
+      "id": "remembering",
+      "title": "Xét nghĩa cần nhớ Pháp",
+      "segments": [
+        "mn95:28.1",
+        "mn95:28.2",
+        "mn95:28.3",
+        "mn95:28.4",
+        "mn95:28.5",
+        "mn95:28.6"
+      ],
+      "summary": "Hỏi điều quan trọng đối với xét nghĩa, đáp ghi nhớ Pháp: không nhớ thì không xét nghĩa được, vì nhớ nên xét; kết hỗ trợ quan trọng."
+    },
+    {
+      "id": "hearing",
+      "title": "Nhớ Pháp cần nghe Pháp",
+      "segments": [
+        "mn95:29.1",
+        "mn95:29.2",
+        "mn95:29.3",
+        "mn95:29.4",
+        "mn95:29.5",
+        "mn95:29.6"
+      ],
+      "summary": "Hỏi điều quan trọng đối với nhớ Pháp, đáp nghe Pháp: không nghe thì không nhớ, vì nghe nên nhớ; kết hỗ trợ quan trọng."
+    },
+    {
+      "id": "listening",
+      "title": "Nghe Pháp cần lắng tai",
+      "segments": [
+        "mn95:30.1",
+        "mn95:30.2",
+        "mn95:30.3",
+        "mn95:30.4",
+        "mn95:30.5",
+        "mn95:30.6"
+      ],
+      "summary": "Hỏi điều quan trọng đối với nghe Pháp, đáp lắng tai: không lắng tai thì không nghe, vì lắng tai nên nghe; kết hỗ trợ quan trọng."
+    },
+    {
+      "id": "attendance",
+      "title": "Lắng tai cần phụng sự",
+      "segments": [
+        "mn95:31.1",
+        "mn95:31.2",
+        "mn95:31.3",
+        "mn95:31.4",
+        "mn95:31.5",
+        "mn95:31.6"
+      ],
+      "summary": "Hỏi điều quan trọng đối với lắng tai, đáp phụng sự: không phụng sự thì không lắng tai, vì phụng sự nên lắng tai; kết hỗ trợ quan trọng."
+    },
+    {
+      "id": "approaching",
+      "title": "Phụng sự cần đến gần",
+      "segments": [
+        "mn95:32.1",
+        "mn95:32.2",
+        "mn95:32.3",
+        "mn95:32.4",
+        "mn95:32.5",
+        "mn95:32.6"
+      ],
+      "summary": "Hỏi điều quan trọng đối với phụng sự, đáp đến gần: không đến gần thì không phụng sự, vì đến gần nên phụng sự; kết hỗ trợ quan trọng."
+    },
+    {
+      "id": "faith",
+      "title": "Đến gần cần niềm tin",
+      "segments": [
+        "mn95:33.1",
+        "mn95:33.2",
+        "mn95:33.3",
+        "mn95:33.4",
+        "mn95:33.5",
+        "mn95:33.6"
+      ],
+      "summary": "Hỏi điều quan trọng đối với đến gần, đáp niềm tin: không sinh tin thì không đến gần, vì tin sinh nên đến gần; kết hỗ trợ quan trọng."
+    },
+    {
+      "id": "appreciation",
+      "title": "Năm lần xác nhận hài lòng",
+      "segments": [
+        "mn95:34.1",
+        "mn95:34.2",
+        "mn95:34.3",
+        "mn95:34.4",
+        "mn95:34.5",
+        "mn95:34.6",
+        "mn95:34.7",
+        "mn95:34.8",
+        "mn95:34.9",
+        "mn95:34.10"
+      ],
+      "summary": "Kāpaṭika nhân danh chúng tôi nhắc bốn chủ đề gìn giữ, giác ngộ, đạt, điều hỗ trợ việc đạt và tổng quát mọi điều hỏi; từng lượt nói Gotama đáp, chúng tôi ưa thích, chấp nhận, hài lòng."
+    },
+    {
+      "id": "prejudice",
+      "title": "Thay đổi cái nhìn về sa-môn",
+      "segments": [
+        "mn95:34.11",
+        "mn95:34.12",
+        "mn95:34.13"
+      ],
+      "summary": "Kāpaṭika kể định kiến cũ dùng lời miệt thị sa-môn đầu trọc hèn mọn tôi tớ đen đủi sinh từ chân Đấng Thân tộc, hỏi tu từ sao biết Pháp; nay Gotama gây lòng ưa mến, tịnh tín, tôn kính các sa-môn. Định kiến là lời cậu thuật lại, không phải lời Phật xác nhận."
+    },
+    {
+      "id": "refuge",
+      "title": "Lời quy y của người trẻ",
+      "segments": [
+        "mn95:35.1",
+        "mn95:35.2"
+      ],
+      "summary": "Kāpaṭika tán thán; công thức đầy đủ trong HTML thực đọc: hai lần tán thán, bốn ví dựng đổ/mở che/chỉ lạc/đèn tối cho người có mắt thấy sắc, nhiều cách giải Pháp; quy y Phật, Pháp, Tăng chúng tỳ-kheo, xin làm nam cư sĩ từ hôm ấy trọn đời."
+    },
+    {
+      "id": "ending",
+      "title": "Kết bài thứ năm trong nhóm",
+      "segments": [
+        "mn95:35.3"
+      ],
+      "summary": "Kinh Caṅkī kết thúc, bài thứ năm trong nhóm kinh này."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Diễn giải dành cho trẻ em",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Một buổi trưa có nhiều người ra khỏi làng",
+          "paragraphs": [
+            "Kinh Caṅkī, Trung Bộ 95, bắt đầu bằng lời người truyền kinh kể điều đã nghe. Phật cùng một đoàn tỳ-kheo đông đảo, những người nam xuất gia theo Ngài, đi qua xứ Kosala. Đến làng bà-la-môn Opāsāda, Ngài ở trong rừng thiêng có cây sāla, phía bắc làng. Bà-la-môn là những người thuộc truyền thống kinh điển và nghi lễ trong câu chuyện.",
+            "Tại làng ấy có ông Caṅkī. Nơi ông sống đông dân, đủ cỏ, củi, nước và lúa. Đó là đất của vua Pasenadi xứ Kosala ban cho một bà-la-môn."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting",
+            "estate"
+          ]
+        },
+        {
+          "id": "reputation",
+          "kind": "teaching",
+          "heading": "Vì sao dân làng muốn gặp Phật?",
+          "paragraphs": [
+            "Các bà-la-môn và gia chủ, những người chủ gia đình, nghe rằng Gotama, người đã rời gia đình Sakiya để xuất gia, vừa đến cùng đoàn tỳ-kheo. Họ nghe những lời tán thán: Ngài là A-la-hán, bậc đã thoát trọn vẹn những trói buộc gây khổ; tự giác ngộ hoàn toàn; đầy đủ hiểu biết và nếp sống tốt; đã đi đến tốt lành; hiểu thế gian; dẫn dắt tối cao những người cần rèn luyện; là thầy của trời và người, là Phật, bậc đáng tôn kính.",
+            "Họ còn nghe: Phật tự mình thấy biết thế giới có chư thiên, tức các vị trời, có Māra hay Ma vương, có Phạm thiên, một vị trời, có người tu, bà-la-môn, trời và người, rồi giảng rõ điều đã thấy biết. Pháp, lời dạy của Ngài, tốt ở đầu, giữa và cuối, rõ cả nghĩa lẫn lời; trình bày đời tu hoàn toàn đầy đủ, trong sạch. Họ nghĩ được gặp bậc ấy là điều tốt."
+          ],
+          "meaningUnits": [
+            "reputation"
+          ]
+        },
+        {
+          "id": "groups",
+          "kind": "teaching",
+          "heading": "Xin mọi người chờ một chút",
+          "paragraphs": [
+            "Từng đoàn người rời làng, đi về phía bắc đến rừng. Đang nghỉ trưa trên lầu, Caṅkī trông thấy và hỏi người hầu họ đi đâu. Người hầu kể việc Gotama từ họ Sakiya xuất gia đã đến, nhắc lại các phẩm chất được tán thán, rồi thưa rằng mọi người đang đi gặp Ngài.",
+            "Caṅkī nhờ người hầu báo họ chờ, vì ông cũng muốn đi. Người hầu vâng lời, đến tận nơi và chuyển đúng lời ấy."
+          ],
+          "meaningUnits": [
+            "villagers",
+            "question",
+            "message"
+          ]
+        },
+        {
+          "id": "protest",
+          "kind": "teaching",
+          "heading": "Ai nên đến thăm ai?",
+          "paragraphs": [
+            "Khoảng năm trăm bà-la-môn từ những xứ khác cũng đang ở Opāsāda vì một công việc. Nghe tin, họ đến hỏi Caṅkī có thật định gặp Gotama không. Ông nói có.",
+            "Họ can: ông không nên tự đi; Gotama mới nên đến gặp ông. Họ viện rằng Caṅkī cao quý từ cả phía mẹ và cha, dòng dõi thuần khiết đến bảy đời tổ phụ không bị chê bai. Theo họ, riêng điều ấy đã đủ để ông chờ người kia tới."
+          ],
+          "meaningUnits": [
+            "visitors",
+            "objection"
+          ]
+        },
+        {
+          "id": "qualifications",
+          "kind": "teaching",
+          "heading": "Những điều họ đem ra so sánh",
+          "paragraphs": [
+            "Họ còn kể: Caṅkī giàu có; thông ba bộ Veda, tức kinh điển của họ, cùng từ vựng, nghi lễ, cách phát âm, phân loại từ và phần lịch sử thứ năm. Ông thuộc từng chữ, giỏi ngữ pháp, hiểu việc học về thế giới và những dấu hiệu của bậc đại nhân. Ông đẹp, dễ mến, có sắc diện và dáng vẻ như Phạm thiên; có giới hạnh trưởng thành, nghĩa là nếp sống đúng đắn đã vững; nói trôi chảy, rõ ràng, diễn được ý nghĩa.",
+            "Ông còn là thầy của nhiều bậc thầy, đang dạy ba trăm người trẻ tụng bài. Vua Pasenadi và bà-la-môn Pokkharasāti đều tôn kính, quý trọng, đề cao, cúng dường và kính ngưỡng ông. Ông lại sống trên vùng đất đông dân, đầy cỏ, củi, nước, lúa do vua ban. Với từng lý do trong cả mười lý do ấy, họ đều cho rằng Gotama phải đến gặp Caṅkī."
+          ],
+          "meaningUnits": [
+            "qualifications",
+            "honors"
+          ]
+        },
+        {
+          "id": "leaving",
+          "kind": "teaching",
+          "heading": "Caṅkī nhìn về những điều đã buông bỏ",
+          "paragraphs": [
+            "Caṅkī mời họ nghe vì sao chính họ nên đến gặp Gotama, thay vì chờ Ngài đến. Ông cũng nêu dòng dõi cao quý, thuần khiết cả mẹ lẫn cha, đến bảy đời tổ phụ không bị chê. Nhưng ông còn kể về những điều Gotama đã bỏ lại.",
+            "Ngài từ bỏ rất nhiều vàng bạc, cả cất dưới đất lẫn để bên trên. Khi còn trẻ, tóc đen nhánh, đầy sức sống, Ngài đã rời nhà để xuất gia. Dù cha mẹ không muốn và khóc đẫm mặt, Ngài vẫn cạo râu tóc, mặc áo cà-sa, áo của người xuất gia, sống đời không nhà. Theo Caṅkī, mỗi điều ấy đã là lý do để họ đến gặp."
+          ],
+          "meaningUnits": [
+            "reply",
+            "renunciation"
+          ]
+        },
+        {
+          "id": "qualities",
+          "kind": "teaching",
+          "heading": "Danh tiếng đi cùng cách sống",
+          "paragraphs": [
+            "Caṅkī kể tiếp: Gotama đẹp đẽ, khả ái, sắc diện và dáng vẻ như Phạm thiên. Ngài có giới hạnh cao quý, tốt lành; nói rõ, khéo, diễn được nghĩa; là thầy của nhiều bậc thầy. Ngài đã hết dục tham, sự ham muốn thú vui giác quan, và hết tính xốc nổi. Ngài dạy về nghiệp, những hành động có hệ quả, và về tác dụng của hành động; không muốn gây hại cho cộng đồng bà-la-môn.",
+            "Ngài rời một dòng Sát-đế-lợi, giới quý tộc và chiến sĩ, có dòng dõi cao quý không pha tạp theo lời Caṅkī; cũng rời một gia đình giàu của cải. Người từ những xứ và nước xa đến hỏi Ngài. Hàng ngàn vị trời đã nương tựa Ngài suốt đời. Ngài có đủ các phẩm chất giác ngộ vừa được dân làng tán thán, cùng ba mươi hai dấu hiệu của bậc đại nhân."
+          ],
+          "meaningUnits": [
+            "conduct",
+            "standing"
+          ]
+        },
+        {
+          "id": "guest",
+          "kind": "teaching",
+          "heading": "Người khách đáng được đón tiếp",
+          "paragraphs": [
+            "Caṅkī nêu ba trường hợp: vua Seniya Bimbisāra xứ Magadha, vua Pasenadi xứ Kosala và bà-la-môn Pokkharasāti. Mỗi người cùng vợ con đã quy y, nhận Gotama làm chỗ nương tựa, suốt đời.",
+            "Ông còn nói: người tu hay bà-la-môn nào đến làng đều là khách cần được tôn kính, quý trọng, đề cao và cúng dường. Gotama đang ở rừng sāla phía bắc làng, nên là khách của họ. Chỉ điều ấy đã đủ để họ đến thăm. Những phẩm chất ông kể chỉ là phần ông học được; phẩm chất đáng ca ngợi của Ngài không có giới hạn chừng ấy. Mỗi điều riêng cũng đủ cho việc đi gặp. Ông mời cả nhóm cùng đi."
+          ],
+          "meaningUnits": [
+            "royal-refuges",
+            "guest",
+            "limitless"
+          ]
+        },
+        {
+          "id": "student",
+          "kind": "teaching",
+          "heading": "Người trẻ cần đợi đến lượt",
+          "paragraphs": [
+            "Caṅkī cùng đoàn bà-la-môn đông đảo đến chào hỏi thân thiện rồi ngồi một bên. Phật đang trò chuyện với những bà-la-môn cao niên. Trong hội có Kāpaṭika, khoảng mười sáu tuổi, tóc vừa cạo. Cậu thông ba Veda và đầy đủ các môn vừa kể về Caṅkī: từ vựng, nghi lễ, ngữ âm, phân loại từ, phần lịch sử thứ năm, từng chữ, ngữ pháp, thế giới học và dấu hiệu đại nhân.",
+            "Cậu cứ chen ngang. Phật gọi cậu là Bhāradvāja và bảo chờ các vị nói xong. Caṅkī xin Ngài đừng quở, vì cậu có xuất thân tốt, học nhiều, có trí, nói khéo, đủ sức đối đáp chuyện này."
+          ],
+          "meaningUnits": [
+            "meeting",
+            "student",
+            "defense"
+          ]
+        },
+        {
+          "id": "look",
+          "kind": "teaching",
+          "heading": "Một câu hỏi sau cái nhìn",
+          "paragraphs": [
+            "Phật nghĩ Kāpaṭika hẳn sắp bàn về ba Veda, vì các bà-la-môn đưa cậu lên trước. Cậu nghĩ khi Phật nhìn mình, mình sẽ hỏi. Biết ý nghĩ ấy, Phật nhìn sang. Cậu nhận ra đã được chú ý và bắt đầu hỏi.",
+            "Những câu tụng cổ của bà-la-môn được truyền qua các đời theo lời “nghe nói như thế”, lại có thẩm quyền kinh tạng. Vì vậy, họ quyết rằng chỉ những điều ấy là thật, ngoài ra đều hư vọng. Cậu hỏi Phật nghĩ gì về lời quả quyết đó."
+          ],
+          "meaningUnits": [
+            "glance",
+            "claim"
+          ]
+        },
+        {
+          "id": "witnesses",
+          "kind": "teaching",
+          "heading": "Có ai tự biết và tự thấy?",
+          "paragraphs": [
+            "Phật hỏi lần thứ nhất: có dù một bà-la-môn hiện nay nói mình biết, mình thấy, rồi mới quả quyết chỉ đây là thật, ngoài ra đều sai không? Cậu đáp không. Lần thứ hai, Ngài hỏi về thầy, thầy của thầy, lùi đến bảy đời thầy. Cậu cũng đáp không.",
+            "Lần thứ ba là các ẩn sĩ xưa đã sáng tác, truyền bá và tập hợp những bài mà đời nay vẫn hát, tụng và giảng theo: Aṭṭhaka, Vāmaka, Vāmadeva, Vessāmitta, Yamadaggi, Aṅgīrasa, Bhāradvāja, Vāseṭṭha, Kassapa, Bhagu. Họ có nói chính mình biết và thấy rồi quả quyết như thế không? Cậu lại đáp không. Phật nhắc lại cả ba lớp người đều không có lời tự biết, tự thấy ấy."
+          ],
+          "meaningUnits": [
+            "witnesses",
+            "recap"
+          ]
+        },
+        {
+          "id": "blind",
+          "kind": "teaching",
+          "heading": "Khi người trước cũng chưa thấy đường",
+          "paragraphs": [
+            "Phật đưa hình ảnh một đoàn người mù nối nhau. Người đầu không thấy, người giữa không thấy, người cuối cũng không thấy. Ngài ví lời quả quyết đang bàn với đoàn ấy: được người trước truyền lại chưa có nghĩa người trước đã tự thấy.",
+            "Ngài hỏi: trong trường hợp như vậy, niềm tin của các bà-la-môn chẳng phải thiếu căn cứ sao?"
+          ],
+          "meaningUnits": [
+            "blind"
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Năm điều thường khiến ta tin",
+          "paragraphs": [
+            "Kāpaṭika nói họ còn dựa vào lời truyền khẩu, không chỉ niềm tin. Phật nhắc: lúc đầu cậu nói niềm tin, bây giờ nói truyền khẩu. Rồi Ngài nêu năm điều: tin; ưa thích; nghe truyền lại; suy luận theo lý lẽ; chấp nhận một quan điểm sau khi suy xét.",
+            "Cả năm đều có thể đưa đến hai kết quả ngay trong đời này. Một điều được tin hết lòng vẫn có thể trống rỗng, sai sự thật; một điều chưa được tin hết lòng vẫn có thể thật, đúng như nó là. Điều được rất ưa thích, được truyền khéo, được suy luận khéo, được suy xét kỹ cũng vậy; điều chưa được như thế vẫn có thể đúng. Chừng ấy chưa đủ để người biết gìn giữ sự thật nói: chỉ đây đúng, mọi điều khác sai."
+          ],
+          "meaningUnits": [
+            "five",
+            "two-directions"
+          ]
+        },
+        {
+          "id": "preserve",
+          "kind": "teaching",
+          "heading": "Nói vừa đúng với điều mình có",
+          "paragraphs": [
+            "Cậu hỏi thế nào là gìn giữ sự thật. Phật chỉ cách nói: “Niềm tin của tôi là như vậy.” Cũng thế, người ấy có thể nói đây là điều mình ưa thích, điều mình nghe truyền, điều mình suy luận, hay quan điểm mình chấp nhận sau suy xét. Ở mỗi trường hợp, họ nói đúng căn cứ của mình, chưa quả quyết chỉ điều ấy là thật, mọi điều khác sai.",
+            "Như vậy là gìn giữ sự thật, nhưng chưa phải giác ngộ sự thật, tức tự thấy rõ sự thật. Kāpaṭika ghi nhận điều ấy rồi hỏi tiếp: vậy làm sao tự thấy rõ?"
+          ],
+          "meaningUnits": [
+            "preserving",
+            "awakening-question"
+          ]
+        },
+        {
+          "id": "greed",
+          "kind": "teaching",
+          "heading": "Quan sát người thầy trước khi tin",
+          "paragraphs": [
+            "Phật kể trường hợp một tỳ-kheo sống nương một làng hay thị trấn. Một gia chủ hoặc con của gia chủ đến tìm hiểu vị ấy về những điều khơi tham, sân và si: ham muốn chiếm lấy, giận ghét và mê lầm.",
+            "Trước tiên, người ấy xét về tham. Có điều gì khiến vị thầy bị tham chi phối đến mức không biết mà nói biết, không thấy mà nói thấy, hoặc khuyên người khác làm điều gây hại và khổ lâu dài không? Sau khi xét, người ấy thấy không có những điều ấy. Việc làm và lời nói của vị thầy giống người không tham.",
+            "Người ấy còn xét lời dạy: sâu, khó thấy, khó hiểu, an tịnh tức lắng yên, cao quý, không thể đến được chỉ bằng suy luận suông, tinh tế, người có trí mới hiểu. Một người bị tham chi phối khó giảng được lời dạy như vậy."
+          ],
+          "meaningUnits": [
+            "greed"
+          ]
+        },
+        {
+          "id": "anger",
+          "kind": "teaching",
+          "heading": "Tìm hiểu cả khi có chuyện trái ý",
+          "paragraphs": [
+            "Thấy vị thầy trong sạch về tham rồi, người ấy xét tiếp những điều khơi sân, tức giận ghét. Khi bị chúng chi phối, vị ấy có thể không biết mà nói biết, không thấy mà nói thấy, hoặc khuyên người khác làm điều gây hại và khổ đau lâu dài chăng?",
+            "Qua xem xét, người ấy thấy không có những điều ấy; việc làm và lời nói giống người không sân. Lời dạy có đủ tám nét vừa nêu: sâu, khó thấy, khó hiểu, an tịnh, cao quý, vượt suy luận suông, tinh tế, người trí hiểu được. Người có sân khó giảng được như vậy."
+          ],
+          "meaningUnits": [
+            "hate"
+          ]
+        },
+        {
+          "id": "confusion",
+          "kind": "teaching",
+          "heading": "Tìm hiểu sự mê lầm nữa",
+          "paragraphs": [
+            "Thấy vị thầy trong sạch về sân, người ấy tiếp tục xét si, sự mê lầm. Có điều khơi si nào có thể khiến thầy không biết nói biết, không thấy nói thấy, khuyên điều gây hại và khổ lâu dài không?",
+            "Người ấy xem xét và thấy không có; việc làm và lời nói giống người không si. Lời dạy vẫn đầy đủ tám nét: sâu, khó thấy, khó hiểu, an tịnh, cao quý, vượt suy luận suông, tinh tế, người trí hiểu được. Người mê lầm khó giảng được lời dạy ấy."
+          ],
+          "meaningUnits": [
+            "delusion"
+          ]
+        },
+        {
+          "id": "learning",
+          "kind": "teaching",
+          "heading": "Từ tin cậy đến tự mình hiểu",
+          "paragraphs": [
+            "Sau khi xét thấy vị thầy trong sạch cả về si, người ấy đặt niềm tin. Có tin thì đến gần; đến gần thì phụng sự, tức kính trọng, gần gũi chăm lo người thầy; rồi chú tâm lắng tai, nghe Pháp và ghi nhớ Pháp.",
+            "Nhớ rồi, người ấy tìm hiểu ý nghĩa. Sau suy xét, lời dạy được chấp nhận; từ đó sinh khát vọng muốn thực hiện. Có khát vọng thì cố gắng; cố gắng rồi cân nhắc; cân nhắc rồi gắng sức. Khi quyết chí gắng sức, người ấy tự thân chứng nghiệm chân lý tối thượng, sự thật cao nhất, và thấy bằng trí tuệ xuyên thấu."
+          ],
+          "meaningUnits": [
+            "forward-path"
+          ]
+        },
+        {
+          "id": "more",
+          "kind": "teaching",
+          "heading": "Thấy rồi vẫn tiếp tục tu tập",
+          "paragraphs": [
+            "Phật gọi như vậy là giác ngộ sự thật. Tuy thế, đến đây vẫn chưa gọi là đạt được sự thật. Kāpaṭika ghi nhận rồi hỏi làm sao đạt.",
+            "Ngài đáp: bằng việc tập hành, tu tập và làm cho chính những điều ấy trở nên đầy đủ. Con đường đang nói đến là tu tập để chứng nghiệm chân lý tối thượng, cần tiếp tục thực hành điều đã hiểu."
+          ],
+          "meaningUnits": [
+            "awakening-limit",
+            "attainment"
+          ]
+        },
+        {
+          "id": "back-one",
+          "kind": "teaching",
+          "heading": "Lần ngược những điều giúp ích",
+          "paragraphs": [
+            "Kāpaṭika ghi nhận cách đạt sự thật và lần lượt hỏi điều gì giúp ích quan trọng cho từng bước. Phật đáp: muốn đạt sự thật cần gắng sức. Không gắng sức thì không đạt; nhờ gắng sức mà đạt.",
+            "Điều giúp gắng sức là cân nhắc: thiếu cân nhắc thì không gắng sức, nhờ cân nhắc mà gắng sức. Điều giúp cân nhắc là cố gắng: không cố gắng thì không cân nhắc, nhờ cố gắng mà cân nhắc. Mỗi điều trước vì vậy đều quan trọng cho điều sau."
+          ],
+          "meaningUnits": [
+            "striving",
+            "weighing",
+            "attempt"
+          ]
+        },
+        {
+          "id": "back-two",
+          "kind": "teaching",
+          "heading": "Tìm hiểu nuôi lớn ý muốn thực hành",
+          "paragraphs": [
+            "Cậu hỏi tiếp, Phật đáp: cố gắng cần khát vọng. Không sinh khát vọng thì không cố gắng; nhờ có khát vọng mà cố gắng.",
+            "Khát vọng cần chấp nhận Pháp sau suy xét. Thiếu sự chấp nhận ấy, khát vọng không sinh; có nó, khát vọng sinh. Chấp nhận sau suy xét cần tìm hiểu ý nghĩa: không tìm hiểu thì không chấp nhận như thế, nhờ tìm hiểu mà chấp nhận. Đó là điều giúp ích quan trọng trong từng cặp."
+          ],
+          "meaningUnits": [
+            "enthusiasm",
+            "accepting",
+            "examining"
+          ]
+        },
+        {
+          "id": "back-three",
+          "kind": "teaching",
+          "heading": "Nghe, nhớ rồi tìm hiểu",
+          "paragraphs": [
+            "Với ba câu hỏi kế tiếp, Phật nêu: tìm hiểu ý nghĩa cần ghi nhớ Pháp; ghi nhớ Pháp cần nghe Pháp; nghe Pháp cần chú tâm lắng tai.",
+            "Không nhớ thì không tìm hiểu được nghĩa; nhờ nhớ mà tìm hiểu. Không nghe thì không nhớ; nhờ nghe mà nhớ. Không lắng tai thì không nghe Pháp; nhờ lắng tai mà nghe. Mỗi bước làm chỗ dựa quan trọng cho bước kế."
+          ],
+          "meaningUnits": [
+            "remembering",
+            "hearing",
+            "listening"
+          ]
+        },
+        {
+          "id": "back-four",
+          "kind": "teaching",
+          "heading": "Niềm tin mở lối đến gần",
+          "paragraphs": [
+            "Cậu còn hỏi về lắng tai, phụng sự và đến gần. Phật lần lượt nói: lắng tai cần phụng sự; phụng sự cần đến gần; đến gần cần niềm tin.",
+            "Không phụng sự thì không lắng tai, nhờ phụng sự mà lắng tai. Không đến gần thì không phụng sự, nhờ đến gần mà phụng sự. Không sinh tin thì không đến gần, nhờ sinh tin mà đến gần. Như vậy, cậu đã hỏi ngược đủ mười hai điều hỗ trợ việc đạt sự thật."
+          ],
+          "meaningUnits": [
+            "attendance",
+            "approaching",
+            "faith"
+          ]
+        },
+        {
+          "id": "thanks",
+          "kind": "teaching",
+          "heading": "Năm lần nói đã được giải đáp",
+          "paragraphs": [
+            "Kāpaṭika nhắc từng việc đã hỏi: gìn giữ sự thật, giác ngộ sự thật, đạt sự thật, và điều giúp ích cho việc đạt. Với mỗi việc, cậu nói Phật đã giải đáp, “chúng tôi” ưa thích, chấp nhận và hài lòng.",
+            "Rồi cậu nói lần thứ năm về tất cả những điều mình hỏi nói chung: Ngài đều giải đáp, và họ ưa thích, chấp nhận, hài lòng."
+          ],
+          "meaningUnits": [
+            "appreciation"
+          ]
+        },
+        {
+          "id": "change",
+          "kind": "teaching",
+          "heading": "Một cái nhìn đã đổi",
+          "paragraphs": [
+            "Cậu thú nhận trước đây mình đã nhìn người tu bằng lời khinh miệt: đầu trọc, hèn mọn, hạng tôi tớ đen đủi, sinh từ bàn chân Đấng Thân tộc, tức hình ảnh Phạm thiên trong lời ấy. Cậu từng nghĩ những người như vậy làm sao biết Pháp.",
+            "Giờ đây, cậu nói Phật đã làm mình sinh lòng ưa mến, niềm tin trong sáng và sự tôn kính đối với các sa-môn, những người xuất gia tu hành."
+          ],
+          "meaningUnits": [
+            "prejudice"
+          ]
+        },
+        {
+          "id": "refuge",
+          "kind": "teaching",
+          "heading": "Người trẻ chọn một chỗ nương tựa",
+          "paragraphs": [
+            "Kāpaṭika hai lần tán thán. Cậu ví lời Phật như dựng vật bị đổ, mở điều bị che, chỉ đường cho người lạc, mang đèn vào bóng tối để người có mắt thấy hình sắc. Pháp đã được giảng bằng nhiều cách.",
+            "Cậu xin quy y Phật, Pháp và Tăng chúng tỳ-kheo, nhận ba nơi ấy làm chỗ nương tựa; xin được ghi nhận là người học Phật sống tại gia từ hôm ấy đến trọn đời. Kinh Caṅkī khép lại, là bài thứ năm trong nhóm kinh này."
+          ],
+          "meaningUnits": [
+            "refuge",
+            "ending"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: lời đồn trong lớp",
+          "paragraphs": [
+            "Một bạn nói chuyến đi chơi chắc chắn bị hủy vì bạn ấy nghe một người kể lại. Em cũng buồn nên dễ tin ngay. Em có thể nói: “Mình mới nghe chuyện ấy, chưa biết có đúng không.” Sau đó, em cùng người lớn hỏi người phụ trách. Việc phân biệt nghe kể với điều đã biết giúp câu nói của em ngay thật hơn."
+          ],
+          "meaningUnits": [
+            "five",
+            "two-directions",
+            "preserving"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Thử tập nói đúng điều mình biết",
+          "paragraphs": [
+            "Trong một cuộc trò chuyện hôm nay, em có thể đợi người khác nói xong rồi hỏi một điều mình chưa hiểu. Khi kể lại, hãy phân biệt: điều em tin, điều nghe người khác nói, và điều em đã tìm hiểu. Nếu mới nghe, cứ nói rõ là mới nghe; nếu chưa hiểu ý, hỏi thêm rồi nhớ lại lời giải thích."
+          ],
+          "meaningUnits": [
+            "preserving",
+            "student",
+            "examining",
+            "hearing",
+            "listening"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Diễn giải dành cho người trưởng thành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một cuộc gặp bắt đầu từ chuyện địa vị",
+          "paragraphs": [
+            "Kinh Caṅkī, Trung Bộ 95, được mở bằng lời người truyền kinh thuật điều đã nghe. Phật du hành trong xứ Kosala cùng Tăng chúng tỳ-kheo đông đảo, đến làng bà-la-môn Opāsāda và ở rừng thiêng, rừng sāla phía bắc làng. Tỳ-kheo là người nam xuất gia; bà-la-môn thuộc truyền thống kinh điển và nghi lễ được kể trong kinh.",
+            "Caṅkī sống tại Opāsāda, nơi đông dân và đầy cỏ, củi, nước, lúa. Đây là đất của vua Pasenadi xứ Kosala ban làm thái ấp, vùng đất dành cho bà-la-môn. Địa vị ấy trở thành một phần của cuộc bàn luận trước khi ông đi gặp Phật."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting",
+            "estate"
+          ]
+        },
+        {
+          "id": "visit",
+          "kind": "teaching",
+          "heading": "Danh tiếng khiến dân làng tìm đến",
+          "paragraphs": [
+            "Các bà-la-môn và gia chủ, những người chủ gia đình, nghe Gotama, người xuất gia từ họ Sakiya, vừa đến cùng Tăng chúng. Danh tiếng của Ngài gồm: A-la-hán, bậc đã thoát trọn vẹn những trói buộc gây khổ; tự giác ngộ hoàn toàn; đầy đủ hiểu biết và hạnh sống; đã đi đến tốt lành; hiểu thế gian; người dẫn dắt tối thượng những ai cần rèn luyện; thầy trời người; Phật, bậc đáng tôn kính. Ngài tự chứng biết thế giới cùng chư thiên, Māra, Phạm thiên, người tu, bà-la-môn, trời và người, rồi công bố điều ấy. Māra còn gọi là Ma vương; chư thiên và Phạm thiên thuộc những vị trời được nói trong kinh.",
+            "Họ nghe Pháp của Ngài tốt ở đầu, giữa, cuối, đầy đủ nghĩa và lời; chỉ bày đời tu hoàn toàn viên mãn, thanh tịnh. Cho rằng gặp bậc như vậy là tốt, họ thành từng đoàn rời làng hướng bắc. Caṅkī nghỉ trưa trên lầu, trông thấy và hỏi người hầu. Người hầu báo việc Gotama từ họ Sakiya xuất gia đã đến, nhắc các phẩm chất giác ngộ ấy và nói họ đi yết kiến. Caṅkī nhờ báo mọi người chờ để cùng đi; người hầu vâng, đến nơi chuyển lời."
+          ],
+          "meaningUnits": [
+            "reputation",
+            "villagers",
+            "question",
+            "message"
+          ]
+        },
+        {
+          "id": "status",
+          "kind": "teaching",
+          "heading": "Mười lý do để chờ người khác đến",
+          "paragraphs": [
+            "Khoảng năm trăm bà-la-môn từ xứ khác đang ở làng vì công việc nghe tin, đến hỏi và được Caṅkī xác nhận ý định. Họ phản đối: ông không nên tự đi, phải để Gotama đến. Họ đưa ra mười lý do, mỗi lý do theo họ đã đủ cho cách cư xử ấy.",
+            "Caṅkī có dòng mẹ và cha cao quý, huyết thống thuần khiết đến bảy đời tổ phụ không bị chê; giàu tài sản; thông ba bộ Veda, kinh điển của truyền thống ấy, cùng từ vựng, nghi lễ, ngữ âm, phân loại từ, phần lịch sử thứ năm, thuộc từng chữ, giỏi ngữ pháp, thế giới học và dấu hiệu đại nhân. Ông có vẻ đẹp khả ái, sắc diện và dáng vẻ như Phạm thiên; giới hạnh trưởng thành, nếp sống đúng đắn vững vàng; lời nói trau chuốt, rõ, diễn đạt được nghĩa; làm thầy của nhiều bậc thầy, dạy ba trăm người trẻ tụng bài.",
+            "Hai lý do nữa là được vua Pasenadi và bà-la-môn Pokkharasāti tôn kính, quý trọng, đề cao, cúng dường, kính ngưỡng. Lý do cuối là thái ấp Opāsāda đông dân, đủ cỏ, củi, nước, lúa do vua ban. Họ dùng tất cả những điều ấy để đòi Gotama phải đến gặp ông."
+          ],
+          "meaningUnits": [
+            "visitors",
+            "objection",
+            "qualifications",
+            "honors"
+          ]
+        },
+        {
+          "id": "renunciation",
+          "kind": "teaching",
+          "heading": "Caṅkī nhắc đến sự từ bỏ",
+          "paragraphs": [
+            "Caṅkī mời họ nghe vì sao chính họ nên đi, không để Gotama phải đến. Ông nêu dòng mẹ và cha của Ngài cao quý, thuần khiết đến bảy đời tổ phụ không bị chê, rồi kể: Ngài đã bỏ rất nhiều vàng bạc trên và dưới đất để xuất gia.",
+            "Ngài rời đời tại gia khi còn trẻ, tóc đen nhánh, đầy sức sống, ở buổi đầu đời người. Dù cha mẹ không muốn, khóc với gương mặt đẫm nước mắt, Ngài vẫn cạo râu tóc, mặc cà-sa, áo của người xuất gia, và sống không nhà. Caṅkī xem riêng từng điều đã đủ để họ đi gặp."
+          ],
+          "meaningUnits": [
+            "reply",
+            "renunciation"
+          ]
+        },
+        {
+          "id": "qualities",
+          "kind": "teaching",
+          "heading": "Hạnh sống và tầm ảnh hưởng",
+          "paragraphs": [
+            "Caṅkī còn nêu sắc diện đẹp, khả ái, dáng vẻ như Phạm thiên; giới hạnh cao quý, thiện lành; lời nói khéo, rõ, truyền đạt ý nghĩa; vai trò thầy của các bậc thầy. Gotama đã hết dục tham, ham muốn thú vui giác quan, và tính xốc nổi; dạy nghiệp, những hành động có hệ quả, cùng tác dụng của hành động, không chủ trương gây hại cho cộng đồng bà-la-môn.",
+            "Ngài xuất gia từ dòng Sát-đế-lợi, giới quý tộc và chiến sĩ, được Caṅkī mô tả là cao quý, thuần khiết; từ một gia đình giàu tài vật. Người nhiều xứ, nhiều nước xa tìm đến hỏi. Hàng ngàn vị trời nương tựa Ngài suốt đời. Caṅkī nhắc đầy đủ các danh hiệu giác ngộ đã được dân làng nghe, rồi nêu ba mươi hai tướng đại nhân."
+          ],
+          "meaningUnits": [
+            "conduct",
+            "standing"
+          ]
+        },
+        {
+          "id": "hospitality",
+          "kind": "teaching",
+          "heading": "Chỉ tư cách người khách cũng đã đủ",
+          "paragraphs": [
+            "Ông kể riêng vua Seniya Bimbisāra xứ Magadha, vua Pasenadi xứ Kosala và bà-la-môn Pokkharasāti: mỗi người cùng vợ con đã quy y Gotama trọn đời. Quy y là nhận làm chỗ nương tựa trong đời sống tu học.",
+            "Gotama hiện trú rừng sāla phía bắc Opāsāda. Bất cứ sa-môn, người xuất gia tu hành, hay bà-la-môn nào đến địa phận làng cũng là khách, cần được tôn kính, quý trọng, đề cao, cúng dường. Ngài là khách của họ; riêng điều đó đã đủ để họ tự đến. Caṅkī nói những điều mình học được về Ngài không bao hết các phẩm chất đáng tán thán: chúng không có giới hạn chừng ấy. Mỗi điểm riêng cũng đủ cho quyết định đi thăm.",
+            "Ông mời cả nhóm cùng đi. Đến nơi với đoàn bà-la-môn đông đảo, Caṅkī trao lời chào hỏi thân thiện rồi ngồi một bên."
+          ],
+          "meaningUnits": [
+            "royal-refuges",
+            "guest",
+            "limitless",
+            "meeting"
+          ]
+        },
+        {
+          "id": "young",
+          "kind": "teaching",
+          "heading": "Người trẻ được nhường cơ hội sau khi chờ",
+          "paragraphs": [
+            "Phật đang trò chuyện với các bà-la-môn cao niên. Kāpaṭika, khoảng mười sáu tuổi, tóc vừa cạo, ngồi trong hội. Cậu thông ba Veda và đủ các môn như Caṅkī: từ vựng, nghi lễ, ngữ âm, phân loại từ, phần lịch sử thứ năm, từng chữ, ngữ pháp, thế giới học và dấu hiệu đại nhân. Cậu xen ngang câu chuyện; Phật gọi cậu Bhāradvāja, quở trách và bảo đợi các vị nói xong.",
+            "Caṅkī xin đừng quở, nêu cậu có xuất thân tốt, học rộng, trí tuệ, nói khéo, đủ sức đối đáp. Phật nghĩ cậu sắp bàn về ba Veda, vì được các bà-la-môn đưa lên trước. Kāpaṭika nghĩ khi được Ngài nhìn tới thì sẽ hỏi. Biết ý nghĩ ấy, Phật nhìn sang. Cậu nhận ra đã được chú ý và nêu câu hỏi."
+          ],
+          "meaningUnits": [
+            "student",
+            "defense",
+            "glance"
+          ]
+        },
+        {
+          "id": "claim",
+          "kind": "teaching",
+          "heading": "Truyền thống có đủ cho một kết luận tuyệt đối?",
+          "paragraphs": [
+            "Các câu tụng cổ của bà-la-môn được truyền qua các thế hệ theo lời “nghe nói như thế” và dựa trên thẩm quyền kinh tạng. Từ đó, họ kết luận: chỉ điều này là thật, mọi điều khác đều hư vọng. Kāpaṭika hỏi Gotama đánh giá kết luận ấy thế nào."
+          ],
+          "meaningUnits": [
+            "claim"
+          ]
+        },
+        {
+          "id": "evidence",
+          "kind": "teaching",
+          "heading": "Ba lớp người và một hình ảnh",
+          "paragraphs": [
+            "Phật hỏi lần lượt: có một bà-la-môn hiện tại nào; một vị thầy, thầy của thầy đến bảy đời nào; hay các ẩn sĩ sáng tác và truyền bá bài tụng ngày xưa nào, nói chính mình biết, thấy và vì thế xác quyết chỉ đây thật, ngoài ra sai? Ba lần Kāpaṭika đều trả lời không.",
+            "Các ẩn sĩ được kể đủ tên: Aṭṭhaka, Vāmaka, Vāmadeva, Vessāmitta, Yamadaggi, Aṅgīrasa, Bhāradvāja, Vāseṭṭha, Kassapa, Bhagu. Bài tụng họ hát, nói và tập hợp được người sau tiếp tục hát, tụng, giảng theo. Phật nhắc lại: ở cả người hiện tại, dòng thầy đến bảy đời và các tác giả xưa ấy, đều không có lời xác nhận tự biết, tự thấy như đang hỏi.",
+            "Ngài ví lời xác quyết ấy với một đoàn người mù nối nhau: đầu không thấy, giữa không thấy, cuối không thấy. Truyền nối vẫn có thể tiếp tục khi không người nào trong chuỗi tự thấy. Ngài hỏi: trong trường hợp đó, niềm tin ấy chẳng phải không có căn cứ sao?"
+          ],
+          "meaningUnits": [
+            "witnesses",
+            "recap",
+            "blind"
+          ]
+        },
+        {
+          "id": "grounds",
+          "kind": "teaching",
+          "heading": "Năm căn cứ đều cần biết giới hạn",
+          "paragraphs": [
+            "Kāpaṭika nói các bà-la-môn còn dựa truyền khẩu, không chỉ tin. Phật nhắc sự chuyển từ niềm tin sang truyền khẩu, rồi nêu năm thứ có thể cho kết quả hai chiều ngay hiện tại: niềm tin, sự ưa thích, truyền khẩu, suy luận theo lý lẽ, sự chấp nhận một quan điểm sau suy xét.",
+            "Tin trọn vẹn vẫn có thể nhằm điều rỗng không, sai thật; chưa tin trọn vẹn vẫn có thể nhằm điều thật, đúng, không khác. Tương tự, điều được ưa thích, truyền lại khéo, suy luận khéo, suy xét kỹ vẫn có thể sai; điều chưa được như thế vẫn có thể đúng. Với người có trí gìn giữ sự thật, những căn cứ ấy chưa đủ để kết luận chỉ điều ấy là thật, mọi điều khác sai."
+          ],
+          "meaningUnits": [
+            "five",
+            "two-directions"
+          ]
+        },
+        {
+          "id": "preservation",
+          "kind": "teaching",
+          "heading": "Trung thực về căn cứ mình đang có",
+          "paragraphs": [
+            "Khi Kāpaṭika hỏi cách gìn giữ sự thật, Phật chỉ rõ: người có niềm tin nói “Niềm tin của tôi là vậy”. Người có sự ưa thích, lời truyền nghe, suy luận hay quan điểm đã xét cũng nói đúng như điều mình có. Trong cả năm trường hợp, họ chưa đưa ra kết luận tuyệt đối rằng chỉ đây là thật, mọi điều khác sai.",
+            "Đó là gìn giữ sự thật, chưa phải giác ngộ sự thật. Kāpaṭika ghi nhận ranh giới này rồi hỏi: thế nào là giác ngộ, tự thấy rõ sự thật?"
+          ],
+          "meaningUnits": [
+            "preserving",
+            "awakening-question"
+          ]
+        },
+        {
+          "id": "greed",
+          "kind": "teaching",
+          "heading": "Xét thân, lời và Pháp của người thầy",
+          "paragraphs": [
+            "Phật nêu một tỳ-kheo sống nương làng hoặc thị trấn. Gia chủ hay con gia chủ đến kiểm tra vị ấy về các điều khơi tham, sân, si, tức ham chiếm hữu, giận ghét, mê lầm. Đầu tiên là tham: có những điều mà nếu chế ngự tâm, vị ấy sẽ không biết nói biết, không thấy nói thấy, hoặc khuyến khích người khác làm điều gây bất lợi và khổ lâu dài không?",
+            "Qua xem xét, người ấy thấy không có các điều khơi tham như vậy; hành động và lời nói giống người không tham. Pháp được giảng sâu, khó thấy, khó hiểu, an tịnh (lắng yên), cao thượng, vượt suy luận suông, tinh tế, người có trí hiểu được. Người có tham không dễ giảng Pháp ấy."
+          ],
+          "meaningUnits": [
+            "greed"
+          ]
+        },
+        {
+          "id": "hate",
+          "kind": "teaching",
+          "heading": "Sau tham là sân",
+          "paragraphs": [
+            "Thấy vị thầy trong sạch khỏi những điều khơi tham, người ấy xét tiếp sân. Cùng ba nguy cơ được đặt ra dưới điều kiện tâm bị sân chế ngự: không biết mà xưng biết, không thấy mà xưng thấy, khuyên người khác điều gây hại và khổ đau lâu dài.",
+            "Người kiểm tra thấy không có những điều ấy; việc làm và lời nói như người không sân. Pháp được giảng vẫn có đủ tám tính chất sâu, khó thấy, khó hiểu, an tịnh, cao thượng, vượt suy luận suông, tinh tế, người trí hiểu được. Người có sân không dễ giảng như thế."
+          ],
+          "meaningUnits": [
+            "hate"
+          ]
+        },
+        {
+          "id": "delusion",
+          "kind": "teaching",
+          "heading": "Còn phải xét sự mê lầm",
+          "paragraphs": [
+            "Sau khi thấy trong sạch về sân, người ấy xét si: có điều khơi mê lầm mà khi chi phối tâm sẽ khiến vị thầy không biết nói biết, không thấy nói thấy, hoặc khuyên điều gây hại và khổ đau lâu dài không?",
+            "Người ấy thấy không có; hành động và lời nói giống người không si. Pháp có đủ tám tính chất vừa nêu: sâu, khó thấy, khó hiểu, an tịnh, cao thượng, vượt suy luận suông, tinh tế, người trí hiểu được. Pháp ấy không dễ để người mê lầm giảng dạy."
+          ],
+          "meaningUnits": [
+            "delusion"
+          ]
+        },
+        {
+          "id": "path",
+          "kind": "teaching",
+          "heading": "Niềm tin được đặt sau sự xem xét",
+          "paragraphs": [
+            "Sau khi thấy vị thầy trong sạch khỏi những điều khơi si, người học đặt niềm tin. Từ tin, họ đến gần; đến gần rồi phụng sự, tức kính trọng và gần gũi chăm lo người thầy; từ đó lắng tai, nghe Pháp, ghi nhớ, kiểm tra ý nghĩa. Khi đã xét, lời dạy được chấp nhận; khát vọng thực hiện nảy sinh.",
+            "Có khát vọng thì cố gắng; cố gắng rồi cân nhắc; cân nhắc rồi gắng sức. Quyết chí gắng sức, người ấy tự thân chứng chân lý tối thượng, sự thật cao nhất, và thấy bằng trí tuệ xuyên thấu. Mười hai chặng này đưa việc học đến chỗ tự chứng."
+          ],
+          "meaningUnits": [
+            "forward-path"
+          ]
+        },
+        {
+          "id": "attainment",
+          "kind": "teaching",
+          "heading": "Giác ngộ và đạt được sự thật",
+          "paragraphs": [
+            "Phật gọi sự tự chứng ấy là giác ngộ sự thật, nhưng cho đến đó vẫn chưa gọi đạt được sự thật. Kāpaṭika ghi nhận rồi hỏi về việc đạt.",
+            "Phật trả lời: tập hành, tu tập và làm sung mãn chính những pháp ấy là đạt được sự thật. Sự tu tập tiếp nối với những điều đã đưa người học đến chỗ tự thấy; không dừng ở việc chấp nhận một lời giải thích."
+          ],
+          "meaningUnits": [
+            "awakening-limit",
+            "attainment"
+          ]
+        },
+        {
+          "id": "supports-one",
+          "kind": "teaching",
+          "heading": "Điều giúp ích cho gắng sức",
+          "paragraphs": [
+            "Kāpaṭika xác nhận đã hiểu cách đạt, rồi hỏi ngược từng điều hỗ trợ. Để đạt sự thật, gắng sức là quan trọng: thiếu gắng sức thì không đạt; nhờ gắng sức mà đạt.",
+            "Gắng sức cần cân nhắc: không cân nhắc thì không gắng sức, vì cân nhắc nên gắng sức. Cân nhắc cần cố gắng: không cố gắng thì không cân nhắc, vì cố gắng nên cân nhắc."
+          ],
+          "meaningUnits": [
+            "striving",
+            "weighing",
+            "attempt"
+          ]
+        },
+        {
+          "id": "supports-two",
+          "kind": "teaching",
+          "heading": "Điều giúp ích cho khát vọng",
+          "paragraphs": [
+            "Ba câu hỏi tiếp dẫn đến ba cặp: cố gắng nhờ khát vọng; khát vọng nhờ chấp nhận Pháp sau suy xét; sự chấp nhận ấy nhờ kiểm tra ý nghĩa.",
+            "Không sinh khát vọng thì không cố gắng; có khát vọng nên cố gắng. Pháp chưa được chấp nhận sau suy xét thì khát vọng không sinh; được chấp nhận như vậy thì sinh. Không xét nghĩa thì không có sự chấp nhận ấy; nhờ xét nghĩa mới có. Bởi vậy, từng điều đều giúp ích quan trọng cho bước sau."
+          ],
+          "meaningUnits": [
+            "enthusiasm",
+            "accepting",
+            "examining"
+          ]
+        },
+        {
+          "id": "supports-three",
+          "kind": "teaching",
+          "heading": "Điều giúp ích cho hiểu nghĩa",
+          "paragraphs": [
+            "Phật tiếp tục đáp ba câu hỏi: kiểm tra ý nghĩa nhờ ghi nhớ Pháp; ghi nhớ nhờ nghe Pháp; nghe Pháp nhờ lắng tai.",
+            "Không ghi nhớ thì không xét được nghĩa, nhờ ghi nhớ mà xét được. Không nghe thì không ghi nhớ, nhờ nghe mà ghi nhớ. Không lắng tai thì không nghe Pháp, nhờ lắng tai mà nghe."
+          ],
+          "meaningUnits": [
+            "remembering",
+            "hearing",
+            "listening"
+          ]
+        },
+        {
+          "id": "supports-four",
+          "kind": "teaching",
+          "heading": "Trở về điểm khởi đầu là tin",
+          "paragraphs": [
+            "Ba câu hỏi cuối đưa đến phụng sự, đến gần và niềm tin. Lắng tai nhờ phụng sự: thiếu phụng sự thì không lắng tai, có phụng sự nên lắng tai. Phụng sự nhờ đến gần: không đến gần thì không phụng sự, vì đến gần nên phụng sự.",
+            "Đến gần nhờ niềm tin: không sinh tin thì không đến gần, vì tin sinh nên đến gần. Trong chuỗi mười hai điều hỗ trợ, niềm tin có vị trí mở đường; người học vẫn tiếp tục nghe, xét và thực hành để tự chứng."
+          ],
+          "meaningUnits": [
+            "attendance",
+            "approaching",
+            "faith"
+          ]
+        },
+        {
+          "id": "response",
+          "kind": "teaching",
+          "heading": "Một sự thay đổi được nói thành lời",
+          "paragraphs": [
+            "Kāpaṭika lần lượt nhắc bốn điều đã hỏi: gìn giữ, giác ngộ, đạt sự thật, và điều hỗ trợ việc đạt. Với mỗi điều, cậu nói Gotama đã đáp, “chúng tôi” ưa thích, chấp nhận và hài lòng. Lần thứ năm, cậu nói như vậy về mọi câu hỏi nói chung.",
+            "Cậu kể định kiến cũ bằng những lời miệt thị: sa-môn đầu trọc, hèn mọn, hạng tôi tớ đen đủi, con cháu từ bàn chân Đấng Thân tộc, hình ảnh Phạm thiên trong lời ấy; hạng như vậy làm sao hiểu Pháp? Giờ đây, cậu nói Gotama đã khiến mình có lòng ưa mến, niềm tin trong sáng và sự tôn kính đối với các sa-môn."
+          ],
+          "meaningUnits": [
+            "appreciation",
+            "prejudice"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Kāpaṭika nhận ba nơi nương tựa",
+          "paragraphs": [
+            "Cậu hai lần tán thán, ví lời Phật như dựng vật ngã đổ, mở điều bị che, chỉ đường cho người lạc, thắp đèn trong tối để người có mắt thấy hình sắc. Pháp đã được trình bày bằng nhiều cách.",
+            "Kāpaṭika xin quy y Phật, Pháp và Tăng chúng tỳ-kheo; xin được ghi nhận là người học Phật sống tại gia, nương tựa từ hôm ấy đến trọn đời. Kinh Caṅkī kết thúc, là bài thứ năm trong nhóm kinh này."
+          ],
+          "meaningUnits": [
+            "refuge",
+            "ending"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: một nhận định trong nhóm làm việc",
+          "paragraphs": [
+            "Một đồng nghiệp trình bày một phương án rất mạch lạc, và cả nhóm đã quen làm theo cách ấy nhiều năm. Ta có thể thành thật nói mình tin phương án vì kinh nghiệm trước đây, đồng thời hỏi dữ kiện nào đang ủng hộ nó. Sự quen thuộc, lời truyền lại và lý lẽ hấp dẫn đều là căn cứ cần được nhận diện rõ, để nhóm còn chỗ tìm hiểu và điều chỉnh."
+          ],
+          "meaningUnits": [
+            "two-directions",
+            "preserving",
+            "examining"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một cách tập với cuộc trao đổi gần nhất",
+          "paragraphs": [
+            "Trước một điều mình muốn bảo vệ, hãy nói rõ căn cứ: đang tin, ưa thích, nghe truyền, suy luận hay đã chấp nhận sau xem xét? Trong cuộc trao đổi, dành thời gian lắng nghe và hỏi cho rõ nghĩa. Khi tìm người hướng dẫn tu học, chú ý cả việc làm, lời nói, nội dung giảng dạy và những biểu hiện tham, sân, si; rồi kiên trì thực hành điều đã hiểu thay vì chỉ đồng ý bằng lời."
+          ],
+          "meaningUnits": [
+            "preserving",
+            "greed",
+            "hate",
+            "delusion",
+            "listening",
+            "examining",
+            "attainment"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Diễn giải dành cho người lớn tuổi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Caṅkī muốn đi gặp Phật",
+          "paragraphs": [
+            "Kinh Caṅkī, Trung Bộ 95, mở bằng lời người truyền kinh kể lại điều đã nghe. Một thời, Phật cùng Tăng chúng tỳ-kheo đông đảo du hành xứ Kosala, đến làng Opāsāda của các bà-la-môn. Ngài ở rừng thiêng có cây sāla, phía bắc làng. Tỳ-kheo là người nam xuất gia; bà-la-môn thuộc truyền thống kinh điển và nghi lễ được kể trong bài.",
+            "Caṅkī cư trú tại Opāsāda. Vùng ấy đông dân, đủ cỏ, củi, nước và lúa, vốn là đất của vua Pasenadi xứ Kosala ban cho bà-la-môn."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting",
+            "estate"
+          ]
+        },
+        {
+          "id": "heard",
+          "kind": "teaching",
+          "heading": "Lời tốt đẹp được truyền đến dân làng",
+          "paragraphs": [
+            "Các bà-la-môn và gia chủ, những người chủ gia đình, nghe Gotama đã từ họ Sakiya xuất gia, nay đến cùng Tăng chúng. Người ta tán thán Ngài là A-la-hán, bậc đã thoát trọn vẹn những trói buộc gây khổ; tự giác ngộ hoàn toàn; đầy đủ sự hiểu biết và hạnh sống; đi đến tốt lành; hiểu thế gian; bậc dẫn dắt tối cao những ai cần được rèn luyện; thầy của trời và người; Phật, bậc đáng tôn kính.",
+            "Ngài tự mình chứng biết thế giới có chư thiên, Māra, Phạm thiên, cùng người tu, bà-la-môn, trời và người, rồi nói rõ điều đã chứng. Chư thiên là các vị trời; Māra còn gọi Ma vương; Phạm thiên là một vị trời được nêu trong kinh. Pháp Ngài dạy tốt ở đầu, giữa và cuối, trọn nghĩa trọn lời, chỉ bày đời tu đầy đủ và trong sạch. Dân làng nghĩ được gặp bậc ấy là tốt."
+          ],
+          "meaningUnits": [
+            "reputation"
+          ]
+        },
+        {
+          "id": "waiting",
+          "kind": "teaching",
+          "heading": "Lời nhắn xin chờ được chuyển đi",
+          "paragraphs": [
+            "Mọi người thành từng đoàn đi khỏi làng về phía bắc, hướng đến rừng. Caṅkī đang nghỉ trưa trên lầu, nhìn thấy, liền hỏi người hầu vì sao họ đi như thế.",
+            "Người hầu kể Gotama từ dòng Sakiya xuất gia đã đến, nhắc những phẩm chất giác ngộ được tán thán ấy và nói dân làng đi gặp Ngài. Caṅkī nhờ báo họ chờ vì ông sẽ cùng đi. Người hầu vâng, đến gặp mọi người và chuyển đúng lời nhắn."
+          ],
+          "meaningUnits": [
+            "villagers",
+            "question",
+            "message"
+          ]
+        },
+        {
+          "id": "objection",
+          "kind": "teaching",
+          "heading": "Có địa vị thì phải chờ người khác đến?",
+          "paragraphs": [
+            "Khoảng năm trăm bà-la-môn từ các xứ khác đang ở Opāsāda vì công việc nghe tin, đến hỏi. Caṅkī xác nhận mình muốn gặp Gotama. Họ can ông không nên tự đi, cho rằng Gotama phải đến gặp ông.",
+            "Lý do đầu họ viện là Caṅkī có dòng mẹ và dòng cha cao quý, huyết thống thuần khiết đến bảy đời tổ phụ không bị chê bai. Theo họ, chỉ riêng điều ấy đã đủ để ông không tự đi."
+          ],
+          "meaningUnits": [
+            "visitors",
+            "objection"
+          ]
+        },
+        {
+          "id": "canki-qualities",
+          "kind": "teaching",
+          "heading": "Những điều được dùng để tôn cao Caṅkī",
+          "paragraphs": [
+            "Họ kể tiếp sự giàu có; học vấn ba bộ Veda, kinh điển của truyền thống ấy, cùng từ vựng, nghi lễ, cách phát âm, phân loại từ và phần lịch sử thứ năm. Caṅkī thuộc từng chữ, giỏi ngữ pháp, hiểu thế giới học và những dấu hiệu của bậc đại nhân. Ông có dung sắc đẹp, dễ mến, dáng vẻ như Phạm thiên; giới hạnh trưởng thành, tức nếp sống đúng đắn vững vàng; lời nói trau chuốt, rõ ràng, diễn được nghĩa.",
+            "Ông là thầy của nhiều bậc thầy, dạy ba trăm người trẻ tụng bài. Vua Pasenadi và bà-la-môn Pokkharasāti đều tôn kính, quý trọng, đề cao, cúng dường và kính ngưỡng ông. Sau cùng là thái ấp đông dân, đầy cỏ, củi, nước, lúa vua đã ban. Tính cả dòng dõi, họ viện đủ mười lý do; mỗi lý do theo họ đều đủ để Gotama nên đến."
+          ],
+          "meaningUnits": [
+            "qualifications",
+            "honors"
+          ]
+        },
+        {
+          "id": "leaving",
+          "kind": "teaching",
+          "heading": "Caṅkī kể sự từ bỏ của Gotama",
+          "paragraphs": [
+            "Caṅkī mời họ nghe vì sao chính họ nên đến gặp Gotama, không để Ngài phải đến. Ông nhắc dòng mẹ và cha của Ngài cao quý, thuần khiết đến bảy đời tổ phụ không bị chê. Rồi ông kể Ngài đã bỏ rất nhiều vàng bạc cất dưới đất và để bên trên.",
+            "Ngài ra đi khi còn trẻ, tóc đen nhánh, ở đầu tuổi đời đầy sức sống. Dù cha mẹ không muốn, khóc với khuôn mặt đẫm nước mắt, Ngài vẫn cạo râu tóc, khoác áo cà-sa, áo của người xuất gia, từ đời có nhà bước sang đời không nhà. Caṅkī xem từng điều ấy là lý do đủ để họ tự đi gặp."
+          ],
+          "meaningUnits": [
+            "reply",
+            "renunciation"
+          ]
+        },
+        {
+          "id": "conduct",
+          "kind": "teaching",
+          "heading": "Đẹp trong dáng vẻ, vững trong hạnh sống",
+          "paragraphs": [
+            "Caṅkī nói Gotama đẹp, khả ái, sắc diện và dáng vẻ như Phạm thiên; có giới hạnh cao quý, tốt lành; nói khéo, rõ, diễn được nghĩa; là thầy của các bậc thầy.",
+            "Ngài đã hết dục tham, sự ham thích thú vui giác quan, và tính xốc nổi. Ngài dạy về nghiệp, những hành động có hệ quả, về tác dụng của hành động; không muốn gieo điều hại cho cộng đồng bà-la-môn."
+          ],
+          "meaningUnits": [
+            "conduct"
+          ]
+        },
+        {
+          "id": "standing",
+          "kind": "teaching",
+          "heading": "Những người đã tìm đến",
+          "paragraphs": [
+            "Gotama xuất gia từ dòng Sát-đế-lợi, giới quý tộc và chiến sĩ, mà Caṅkī gọi là cao quý, thuần khiết; cũng từ một gia đình nhiều tiền của. Người từ xứ xa, nước xa đến hỏi Ngài. Hàng ngàn vị trời đã nương tựa Ngài trọn đời. Ngài có đủ các phẩm chất giác ngộ đã kể và ba mươi hai tướng đại nhân.",
+            "Caṅkī nhắc riêng ba người: vua Seniya Bimbisāra xứ Magadha, vua Pasenadi xứ Kosala và bà-la-môn Pokkharasāti. Mỗi người cùng vợ con đã quy y Gotama, nhận Ngài làm nơi nương tựa, suốt đời."
+          ],
+          "meaningUnits": [
+            "standing",
+            "royal-refuges"
+          ]
+        },
+        {
+          "id": "guest",
+          "kind": "teaching",
+          "heading": "Đón người khách bằng sự kính trọng",
+          "paragraphs": [
+            "Caṅkī nói người tu hoặc bà-la-môn nào đến làng cũng là khách, cần được tôn kính, quý trọng, đề cao, cúng dường. Gotama đang ở rừng sāla phía bắc Opāsāda, nên là khách của họ. Chỉ điều ấy cũng đủ để họ đến thăm.",
+            "Những lời tán thán Caṅkī kể là phần ông học được; phẩm chất đáng ca ngợi của Gotama không có giới hạn chừng ấy. Riêng một trong các điều ấy đã đủ để họ đến gặp, không chờ Ngài tới. Ông mời cả nhóm cùng đi. Đến nơi với đông đảo bà-la-môn, ông chào hỏi thân thiện rồi ngồi một bên."
+          ],
+          "meaningUnits": [
+            "guest",
+            "limitless",
+            "meeting"
+          ]
+        },
+        {
+          "id": "young",
+          "kind": "teaching",
+          "heading": "Người trẻ trong cuộc đàm đạo",
+          "paragraphs": [
+            "Phật đang trao đổi với những bà-la-môn cao niên. Kāpaṭika khoảng mười sáu tuổi, tóc vừa cạo, ngồi trong hội. Cậu thông ba Veda và các môn như Caṅkī: từ vựng, nghi lễ, ngữ âm, phân loại từ, lịch sử thứ năm, từng chữ, ngữ pháp, thế giới học và dấu hiệu đại nhân.",
+            "Cậu chen ngang. Phật gọi cậu Bhāradvāja, quở và bảo chờ các vị nói xong. Caṅkī xin đừng quở, vì cậu có xuất thân tốt, học nhiều, có trí, nói khéo, đủ sức bàn luận chuyện này."
+          ],
+          "meaningUnits": [
+            "student",
+            "defense"
+          ]
+        },
+        {
+          "id": "look",
+          "kind": "teaching",
+          "heading": "Cơ hội nêu điều muốn hỏi",
+          "paragraphs": [
+            "Phật nghĩ cậu sẽ bàn về ba Veda, vì được các bà-la-môn đặt lên trước. Kāpaṭika nghĩ khi Phật nhìn tới thì mình sẽ hỏi. Biết ý nghĩ của cậu, Ngài nhìn sang. Nhận ra đã được chú ý, cậu quyết định hỏi.",
+            "Câu hỏi là: những câu tụng cổ của bà-la-môn truyền qua các đời theo lời “nghe nói như thế”, có thẩm quyền kinh tạng, khiến họ quả quyết chỉ điều này thật, ngoài ra đều hư vọng. Gotama nói gì về sự quả quyết ấy?"
+          ],
+          "meaningUnits": [
+            "glance",
+            "claim"
+          ]
+        },
+        {
+          "id": "three",
+          "kind": "teaching",
+          "heading": "Ba lần hỏi về sự tự biết và tự thấy",
+          "paragraphs": [
+            "Phật hỏi có dù một bà-la-môn hiện tại tự nói biết, thấy, rồi xác quyết chỉ đây thật, ngoài ra sai không. Cậu đáp không. Ngài hỏi tiếp về thầy, thầy của thầy, lùi đến bảy đời thầy. Cậu cũng đáp không.",
+            "Lần thứ ba là các ẩn sĩ xưa, người sáng tác, truyền bá và tập hợp bài tụng mà đời nay vẫn hát, tụng, giảng theo: Aṭṭhaka, Vāmaka, Vāmadeva, Vessāmitta, Yamadaggi, Aṅgīrasa, Bhāradvāja, Vāseṭṭha, Kassapa, Bhagu. Họ có tự nói biết và thấy rồi quả quyết như vậy không? Cậu lại đáp không.",
+            "Phật nhắc lại cả ba điều: không người hiện tại, không thầy đến bảy đời, không các tác giả xưa ấy có lời tự biết, tự thấy đang được hỏi."
+          ],
+          "meaningUnits": [
+            "witnesses",
+            "recap"
+          ]
+        },
+        {
+          "id": "blind",
+          "kind": "teaching",
+          "heading": "Một đoàn nối nhau mà chưa ai thấy",
+          "paragraphs": [
+            "Ngài ví lời xác quyết ấy với đoàn người mù nối nhau: người đầu không thấy, người giữa không thấy, người cuối cũng không thấy. Việc nối tiếp qua nhiều người chưa làm nên cái thấy của từng người.",
+            "Phật hỏi: khi sự việc như vậy, niềm tin của các bà-la-môn chẳng phải không có căn cứ sao?"
+          ],
+          "meaningUnits": [
+            "blind"
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Năm căn cứ vẫn có thể đúng hoặc sai",
+          "paragraphs": [
+            "Kāpaṭika nói còn có truyền khẩu, không chỉ lòng tin. Phật nhắc rằng cậu bắt đầu bằng tin, nay chuyển sang truyền khẩu. Ngài nêu năm điều có kết quả hai chiều ngay hiện tại: tin, ưa thích, truyền khẩu, suy luận theo lý lẽ, chấp nhận quan điểm sau suy xét.",
+            "Dù được tin trọn vẹn, một điều vẫn có thể rỗng không, sai thật. Dù chưa được tin trọn vẹn, nó vẫn có thể thật, đúng, không khác. Cũng vậy, sự ưa thích, lời truyền khéo, suy luận khéo, suy xét kỹ không tự bảo đảm điều ấy thật; thiếu những sự đầy đủ ấy cũng chưa khiến điều ấy sai. Người có trí gìn giữ sự thật không lấy đó làm đủ để quả quyết chỉ đây thật, mọi điều khác sai."
+          ],
+          "meaningUnits": [
+            "five",
+            "two-directions"
+          ]
+        },
+        {
+          "id": "preserve",
+          "kind": "teaching",
+          "heading": "Gìn giữ sự thật ngay trong cách nói",
+          "paragraphs": [
+            "Cậu hỏi thế nào là gìn giữ sự thật. Phật dạy người có niềm tin nói niềm tin của mình như vậy. Người có điều ưa thích, nghe truyền, suy luận, hay quan điểm chấp nhận sau suy xét cũng nói rõ đúng căn cứ ấy. Cả năm trường hợp đều chưa kết luận chỉ điều ấy là thật, mọi điều khác sai.",
+            "Phật gọi đó là gìn giữ sự thật, chưa gọi là giác ngộ sự thật. Kāpaṭika nhận ra cách phân biệt ấy rồi hỏi tiếp về giác ngộ, tức tự thấy rõ sự thật."
+          ],
+          "meaningUnits": [
+            "preserving",
+            "awakening-question"
+          ]
+        },
+        {
+          "id": "greed",
+          "kind": "teaching",
+          "heading": "Tìm hiểu người thầy qua hành động và lời nói",
+          "paragraphs": [
+            "Ngài nêu trường hợp một tỳ-kheo sống nương làng hay thị trấn. Gia chủ hoặc con gia chủ đến xem xét vị ấy về những điều khơi tham, sân, si: ham chiếm lấy, giận ghét, mê lầm.",
+            "Trước hết xét tham: có điều nào khi chế ngự tâm sẽ khiến vị ấy không biết mà nói biết, không thấy mà nói thấy, hoặc khuyên người khác điều gây hại và khổ đau lâu dài không? Người tìm hiểu xét và thấy không có; hành động và lời nói như người không tham.",
+            "Pháp vị ấy giảng có tám nét: sâu, khó thấy, khó hiểu, an tịnh (lắng yên), cao quý, vượt suy luận suông, tinh tế, được người trí hiểu. Người có tham không dễ giảng Pháp như thế."
+          ],
+          "meaningUnits": [
+            "greed"
+          ]
+        },
+        {
+          "id": "hate",
+          "kind": "teaching",
+          "heading": "Xét tiếp những điều khơi giận ghét",
+          "paragraphs": [
+            "Sau khi thấy vị ấy trong sạch khỏi các điều khơi tham, người tìm hiểu xét sân. Có điều khơi sân nào, nếu chế ngự tâm, sẽ làm thầy không biết nói biết, không thấy nói thấy, hay khuyên điều gây hại và khổ đau lâu dài không?",
+            "Người ấy thấy không có; việc làm và lời nói như người không sân. Lời dạy vẫn đủ tám nét: sâu, khó thấy, khó hiểu, an tịnh, cao quý, vượt suy luận suông, tinh tế, người trí hiểu được. Người có sân không dễ giảng được như vậy."
+          ],
+          "meaningUnits": [
+            "hate"
+          ]
+        },
+        {
+          "id": "delusion",
+          "kind": "teaching",
+          "heading": "Xét đến sự mê lầm",
+          "paragraphs": [
+            "Thấy thầy trong sạch về sân, người ấy xét si: nếu những điều khơi mê lầm chế ngự tâm, có làm thầy xưng biết điều không biết, xưng thấy điều không thấy, khuyên việc gây hại và khổ đau lâu dài không?",
+            "Qua xét, người ấy thấy không có những điều ấy; hành động và lời nói như người không si. Pháp sâu, khó thấy, khó hiểu, an tịnh, cao quý, vượt suy luận suông, tinh tế, người trí hiểu được; người mê lầm không dễ giảng Pháp ấy."
+          ],
+          "meaningUnits": [
+            "delusion"
+          ]
+        },
+        {
+          "id": "learning",
+          "kind": "teaching",
+          "heading": "Lòng tin dẫn đến học và thực hành",
+          "paragraphs": [
+            "Sau khi xét thấy trong sạch cả về si, người ấy đặt niềm tin nơi thầy. Có tin thì đến gần, đến gần thì phụng sự, tức kính trọng và gần gũi chăm lo người thầy. Rồi lắng tai, nghe Pháp, ghi nhớ và tìm hiểu ý nghĩa.",
+            "Xét nghĩa rồi, Pháp được chấp nhận sau suy xét. Khi ấy sinh khát vọng muốn thực hiện; có khát vọng thì cố gắng; cố gắng rồi cân nhắc; cân nhắc rồi gắng sức. Quyết chí gắng sức, người ấy tự thân chứng chân lý tối thượng, sự thật cao nhất, và thấy bằng trí tuệ xuyên thấu. Đó là đủ mười hai chặng của con đường được nói tới."
+          ],
+          "meaningUnits": [
+            "forward-path"
+          ]
+        },
+        {
+          "id": "attainment",
+          "kind": "teaching",
+          "heading": "Còn phải làm cho việc tu tập đầy đủ",
+          "paragraphs": [
+            "Phật gọi đến đây là giác ngộ sự thật. Nhưng đến đây vẫn chưa gọi đạt được sự thật. Kāpaṭika ghi nhận, rồi hỏi thế nào là đạt.",
+            "Phật đáp: tập hành, tu tập, làm sung mãn chính những điều ấy là đạt sự thật. Việc đã tự thấy được tiếp tục nuôi dưỡng bằng thực hành, trong con đường hướng đến chân lý tối thượng."
+          ],
+          "meaningUnits": [
+            "awakening-limit",
+            "attainment"
+          ]
+        },
+        {
+          "id": "strive",
+          "kind": "teaching",
+          "heading": "Gắng sức, cân nhắc và cố gắng",
+          "paragraphs": [
+            "Sau khi ghi nhận cách đạt sự thật, Kāpaṭika hỏi điều gì giúp ích quan trọng. Phật nói sự gắng sức: không gắng sức thì không đạt; nhờ gắng sức mà đạt.",
+            "Cậu hỏi tiếp về gắng sức, Ngài nói cân nhắc: không cân nhắc thì không gắng sức, nhờ cân nhắc mà gắng sức. Hỏi về cân nhắc, Ngài nói cố gắng: không cố gắng thì không cân nhắc, nhờ cố gắng mà cân nhắc. Từng điều vì vậy đều quan trọng đối với điều sau."
+          ],
+          "meaningUnits": [
+            "striving",
+            "weighing",
+            "attempt"
+          ]
+        },
+        {
+          "id": "wish",
+          "kind": "teaching",
+          "heading": "Điều làm khởi ý muốn tu học",
+          "paragraphs": [
+            "Ba câu hỏi kế tiếp đưa về khát vọng, chấp nhận sau suy xét và kiểm tra ý nghĩa. Cố gắng cần khát vọng: không khởi khát vọng thì không cố gắng, nhờ khát vọng mà cố gắng.",
+            "Khát vọng cần chấp nhận Pháp sau suy xét: chưa có sự chấp nhận ấy thì khát vọng chưa sinh, nhờ có mà sinh. Chấp nhận như vậy cần xét nghĩa: không xét nghĩa thì không chấp nhận sau suy xét, nhờ xét nghĩa mà chấp nhận. Đây là những điều giúp ích quan trọng cho từng bước."
+          ],
+          "meaningUnits": [
+            "enthusiasm",
+            "accepting",
+            "examining"
+          ]
+        },
+        {
+          "id": "remember",
+          "kind": "teaching",
+          "heading": "Nhớ được để xét cho rõ",
+          "paragraphs": [
+            "Hỏi điều giúp xét nghĩa, Phật đáp ghi nhớ Pháp. Không ghi nhớ thì không tìm hiểu được nghĩa; nhờ ghi nhớ mà tìm hiểu được. Vì thế ghi nhớ là quan trọng.",
+            "Hỏi điều giúp ghi nhớ, Ngài đáp nghe Pháp. Không nghe thì không ghi nhớ; nhờ nghe mà ghi nhớ. Vì thế nghe Pháp là quan trọng."
+          ],
+          "meaningUnits": [
+            "remembering",
+            "hearing"
+          ]
+        },
+        {
+          "id": "listen",
+          "kind": "teaching",
+          "heading": "Từ lắng tai trở về niềm tin",
+          "paragraphs": [
+            "Cậu lần lượt hỏi những điều giúp nghe Pháp, lắng tai, phụng sự và đến gần. Phật đáp: nghe Pháp cần lắng tai; lắng tai cần phụng sự; phụng sự cần đến gần; đến gần cần niềm tin.",
+            "Không lắng tai thì không nghe, nhờ lắng tai mà nghe. Không phụng sự thì không lắng tai, nhờ phụng sự mà lắng tai. Không đến gần thì không phụng sự, nhờ đến gần mà phụng sự. Không sinh tin thì không đến gần, nhờ sinh tin mà đến gần. Mỗi điều đều là hỗ trợ quan trọng; như vậy đủ mười hai câu hỏi ngược về con đường."
+          ],
+          "meaningUnits": [
+            "listening",
+            "attendance",
+            "approaching",
+            "faith"
+          ]
+        },
+        {
+          "id": "satisfied",
+          "kind": "teaching",
+          "heading": "Những câu hỏi đã được giải đáp",
+          "paragraphs": [
+            "Kāpaṭika nhắc bốn điều đã hỏi: gìn giữ sự thật, giác ngộ sự thật, đạt sự thật và điều giúp việc đạt. Mỗi lần cậu nói Gotama đã trả lời, “chúng tôi” ưa thích, chấp nhận và hài lòng.",
+            "Rồi cậu nói lần thứ năm: mọi điều hỏi nói chung đều được Ngài giải đáp, họ ưa thích, chấp nhận và hài lòng về những lời đáp ấy."
+          ],
+          "meaningUnits": [
+            "appreciation"
+          ]
+        },
+        {
+          "id": "change",
+          "kind": "teaching",
+          "heading": "Buông được một định kiến cũ",
+          "paragraphs": [
+            "Cậu kể trước kia từng dùng lời khinh miệt người tu: đầu trọc, hèn mọn, hạng tôi tớ đen đủi, con cháu sinh từ chân Đấng Thân tộc, hình ảnh Phạm thiên trong cách nói ấy. Cậu đã nghĩ những người như thế làm sao hiểu Pháp.",
+            "Giờ đây, Kāpaṭika thưa rằng Gotama làm mình sinh lòng ưa mến, niềm tin trong sáng và sự tôn kính đối với các sa-môn, những người xuất gia tu hành."
+          ],
+          "meaningUnits": [
+            "prejudice"
+          ]
+        },
+        {
+          "id": "refuge",
+          "kind": "teaching",
+          "heading": "Lời nương tựa từ hôm ấy đến trọn đời",
+          "paragraphs": [
+            "Cậu hai lần tán thán lời Phật, ví như dựng lại vật bị đổ, mở ra điều bị che, chỉ đường cho người lạc, đưa đèn vào tối để người có mắt thấy hình sắc. Pháp đã được giải bày bằng nhiều cách.",
+            "Cậu xin quy y Phật, Pháp và Tăng chúng tỳ-kheo; xin được ghi nhận là người học Phật sống tại gia, nhận ba nơi nương tựa ấy từ hôm ấy đến trọn đời. Kinh Caṅkī khép lại, là bài thứ năm trong nhóm kinh này."
+          ],
+          "meaningUnits": [
+            "refuge",
+            "ending"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: một chuyện được kể trong gia đình",
+          "paragraphs": [
+            "Một chuyện trong họ được kể lại đã lâu, đến mức ta tưởng ai cũng biết chắc. Khi người trẻ hỏi căn cứ, ta có thể nói: “Đây là điều tôi nghe các cụ kể, tôi chưa tự kiểm chứng.” Câu nói ấy vẫn trân trọng người đi trước và chừa chỗ cho sự tìm hiểu. Ta không cần biến điều được truyền lâu năm thành lời chắc chắn hơn điều mình thực biết."
+          ],
+          "meaningUnits": [
+            "five",
+            "two-directions",
+            "preserving"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Thử dừng lại ở một câu nói hôm nay",
+          "paragraphs": [
+            "Khi sắp quả quyết một điều, thử nhận ra mình dựa vào tin, thích, nghe truyền, suy luận hay quan điểm đã xét. Nói đúng căn cứ ấy. Trong một buổi nghe Pháp hoặc trò chuyện, đợi người nói xong, hỏi một ý chưa rõ, nhớ lại rồi tìm hiểu thêm. Với điều tu học đã hiểu, tiếp tục tập hành để sự hiểu ấy có mặt trong đời sống."
+          ],
+          "meaningUnits": [
+            "preserving",
+            "student",
+            "listening",
+            "examining",
+            "attainment"
+          ]
+        }
+      ]
+    }
+  }
+}

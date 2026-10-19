@@ -1,0 +1,1407 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn96",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn96_root-pli-ms.json",
+      "sha256": "2ec5765634885b57d7d2928005a2334b2f07fa9054db89d9205c47b91734c09f",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn96_translation-vi-project.json",
+      "sha256": "0a2bdd4ecaf8f7af6491231c602cae24f67337b5666f53b593add7ed9592a2ec",
+      "commit": "0b4081326ff6f4785ac13f6e2d947ea1e78449df"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn96_translation-en-sujato.json",
+      "sha256": "754d8e2d86db3074488c739221991afbbcae5a0356eea4a86a597f2201d50aa7",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn96.html",
+      "sha256": "4cc43fa05d561c521bcf3c266e4681bde87ec12d1ec71c8fbcaf0b4b1a774473",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn96_comment-vi-project.json",
+      "sha256": "ede5ed060917744040053af4d192f4b9c58bbc8c653909be917a9ff0058147e4",
+      "commit": "0b4081326ff6f4785ac13f6e2d947ea1e78449df"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Tên bài kinh",
+      "segments": [
+        "mn96:0.1",
+        "mn96:0.2"
+      ],
+      "summary": "Trung Bộ, bài 96, kinh Esukārī."
+    },
+    {
+      "id": "setting",
+      "title": "Khung truyền tụng và nơi ở",
+      "segments": [
+        "mn96:1.1",
+        "mn96:1.2"
+      ],
+      "summary": "Người truyền kinh nói đã nghe như vậy: Đức Phật ở Sāvatthī, vườn Jeta, tinh xá của Anāthapiṇḍika."
+    },
+    {
+      "id": "arrival",
+      "title": "Esukārī đến hỏi",
+      "segments": [
+        "mn96:2.1",
+        "mn96:2.2"
+      ],
+      "summary": "Bà-la-môn Esukārī đến, chào hỏi và chuyện trò thân thiện, rồi ngồi một bên và thưa hỏi Gotama."
+    },
+    {
+      "id": "services-frame",
+      "title": "Bốn sự phục vụ do bà-la-môn đặt ra",
+      "segments": [
+        "mn96:3.1",
+        "mn96:3.2"
+      ],
+      "summary": "Esukārī trình bày bốn quy định phục vụ mà các bà-la-môn đặt cho bà-la-môn, sát-đế-lỵ, phệ-xá và thủ-đà-la."
+    },
+    {
+      "id": "brahmin-service",
+      "title": "Ai được phục vụ bà-la-môn",
+      "segments": [
+        "mn96:3.3",
+        "mn96:3.4",
+        "mn96:3.5"
+      ],
+      "summary": "Theo quy định được Esukārī dẫn lại, cả bà-la-môn, sát-đế-lỵ, phệ-xá và thủ-đà-la đều phục vụ bà-la-môn."
+    },
+    {
+      "id": "noble-service",
+      "title": "Ai được phục vụ sát-đế-lỵ",
+      "segments": [
+        "mn96:3.6",
+        "mn96:3.7",
+        "mn96:3.8"
+      ],
+      "summary": "Theo quy định ấy, sát-đế-lỵ, phệ-xá và thủ-đà-la phục vụ sát-đế-lỵ."
+    },
+    {
+      "id": "vessa-service",
+      "title": "Ai được phục vụ phệ-xá",
+      "segments": [
+        "mn96:3.9",
+        "mn96:3.10",
+        "mn96:3.11"
+      ],
+      "summary": "Theo quy định ấy, phệ-xá và thủ-đà-la phục vụ phệ-xá."
+    },
+    {
+      "id": "sudda-service",
+      "title": "Ai được phục vụ thủ-đà-la",
+      "segments": [
+        "mn96:3.12",
+        "mn96:3.13",
+        "mn96:3.14",
+        "mn96:3.15"
+      ],
+      "summary": "Theo quy định ấy, chỉ thủ-đà-la phục vụ thủ-đà-la; lời trình bày hỏi tu từ còn ai khác phục vụ nhóm này."
+    },
+    {
+      "id": "services-question",
+      "title": "Xin ý kiến về quy định phục vụ",
+      "segments": [
+        "mn96:3.16",
+        "mn96:3.17"
+      ],
+      "summary": "Esukārī nhắc lại bốn sự phục vụ và hỏi Gotama nói thế nào."
+    },
+    {
+      "id": "service-consent",
+      "title": "Thế gian có chấp thuận không",
+      "segments": [
+        "mn96:4.1",
+        "mn96:4.2"
+      ],
+      "summary": "Đức Phật hỏi toàn thể thế gian có đồng ý cho bà-la-môn đặt ra bốn sự phục vụ ấy không; Esukārī đáp không."
+    },
+    {
+      "id": "forced-meat",
+      "title": "Miếng thịt bị ép nhận",
+      "segments": [
+        "mn96:4.3",
+        "mn96:4.4"
+      ],
+      "summary": "Ví người nghèo, không tiền của, bị ép phần thịt dù không muốn, phải ăn và trả tiền. Tương tự, bà-la-môn đặt quy định không được những sa-môn và bà-la-môn ấy chấp thuận."
+    },
+    {
+      "id": "service-test",
+      "title": "Phục vụ làm người phục vụ tiến hay lùi",
+      "segments": [
+        "mn96:5.1",
+        "mn96:5.2",
+        "mn96:5.3"
+      ],
+      "summary": "Đức Phật không chủ trương phục vụ tất cả, cũng không chủ trương không phục vụ ai. Không nên phục vụ người khiến người phục vụ xấu đi, không tốt lên; nên phục vụ người khiến người phục vụ tốt lên, không xấu đi."
+    },
+    {
+      "id": "noble-test",
+      "title": "Câu hỏi giả định với sát-đế-lỵ",
+      "segments": [
+        "mn96:6.1",
+        "mn96:6.2",
+        "mn96:6.3",
+        "mn96:6.4"
+      ],
+      "summary": "Nếu hỏi sát-đế-lỵ nên phục vụ người khiến mình xấu đi hay tốt lên, và người ấy trả lời đúng, họ sẽ không chọn sự phục vụ làm mình xấu đi, mà chọn sự phục vụ làm mình tốt lên."
+    },
+    {
+      "id": "others-test",
+      "title": "Cùng phép xét cho ba nhóm còn lại",
+      "segments": [
+        "mn96:7.1",
+        "mn96:7.2",
+        "mn96:7.3",
+        "mn96:7.4",
+        "mn96:7.5",
+        "mn96:7.6"
+      ],
+      "summary": "Câu hỏi giả định và điều kiện trả lời đúng được áp dụng tương tự cho bà-la-môn, phệ-xá và thủ-đà-la: chọn sự phục vụ làm chính người phục vụ tốt lên, không xấu đi."
+    },
+    {
+      "id": "three-noncriteria",
+      "title": "Dòng dõi, dung sắc và của cải",
+      "segments": [
+        "mn96:7.7",
+        "mn96:7.8",
+        "mn96:7.9"
+      ],
+      "summary": "Đức Phật không nói sinh vào gia đình cao quý, có dung sắc đẹp hay có nhiều của cải tự chúng làm người tốt hơn hoặc xấu hơn."
+    },
+    {
+      "id": "birth-unskillful",
+      "title": "Người dòng dõi cao vẫn có thể làm mười điều xấu",
+      "segments": [
+        "mn96:8.1",
+        "mn96:8.2"
+      ],
+      "summary": "Có người sinh cao quý nhưng sát sinh, lấy của không cho, tà hạnh trong dục, nói dối, chia rẽ, thô ác, phù phiếm, tham của người, ác ý và tà kiến; vì thế dòng dõi không làm họ tốt hơn."
+    },
+    {
+      "id": "birth-skillful",
+      "title": "Người dòng dõi cao vẫn có thể sống tốt",
+      "segments": [
+        "mn96:8.3",
+        "mn96:8.4"
+      ],
+      "summary": "Có người sinh cao quý từ bỏ bảy hành vi xấu của thân và lời nói, không tham của người, không ác ý, có chánh kiến; vì thế dòng dõi không làm họ xấu hơn."
+    },
+    {
+      "id": "beauty",
+      "title": "Dung sắc cũng không quyết định phẩm chất",
+      "segments": [
+        "mn96:8.5",
+        "mn96:8.6"
+      ],
+      "summary": "Cả hai khả năng làm mười điều xấu hay từ bỏ chúng đều áp dụng cho người đẹp; dung sắc không tự khiến họ tốt hơn hay xấu hơn."
+    },
+    {
+      "id": "wealth-actions",
+      "title": "Của cải cũng không quyết định phẩm chất",
+      "segments": [
+        "mn96:8.7",
+        "mn96:8.8",
+        "mn96:8.9",
+        "mn96:8.10",
+        "mn96:8.11",
+        "mn96:8.12"
+      ],
+      "summary": "Người nhiều của có thể làm mười điều xấu hoặc từ bỏ chúng, không tham, không ác ý, thấy hiểu đúng; của cải không tự làm họ tốt hơn hay xấu hơn."
+    },
+    {
+      "id": "five-growth",
+      "title": "Năm điều tăng trưởng khi phục vụ",
+      "segments": [
+        "mn96:9.1",
+        "mn96:9.2",
+        "mn96:9.3"
+      ],
+      "summary": "Nhắc lại không chủ trương phục vụ tất cả hoặc không ai. Nên phục vụ nếu tín, giới, văn, thí, tuệ tăng trưởng; không nên nếu cả năm phẩm chất ấy không tăng trưởng."
+    },
+    {
+      "id": "wealth-frame",
+      "title": "Bốn tài sản do bà-la-môn đặt ra",
+      "segments": [
+        "mn96:10.1",
+        "mn96:10.2",
+        "mn96:10.3"
+      ],
+      "summary": "Esukārī chuyển sang bốn tài sản mà bà-la-môn quy định riêng cho bà-la-môn, sát-đế-lỵ, phệ-xá và thủ-đà-la."
+    },
+    {
+      "id": "brahmin-wealth",
+      "title": "Khất thực được định là tài sản bà-la-môn",
+      "segments": [
+        "mn96:10.4",
+        "mn96:10.5",
+        "mn96:10.6"
+      ],
+      "summary": "Theo Esukārī, sống bằng khất thực là tài sản bà-la-môn. Khinh bỏ nó là bỏ nhiệm vụ, giống người canh giữ lấy của không được cho."
+    },
+    {
+      "id": "noble-wealth",
+      "title": "Cung và bao tên của sát-đế-lỵ",
+      "segments": [
+        "mn96:10.7",
+        "mn96:10.8",
+        "mn96:10.9"
+      ],
+      "summary": "Theo quy định được dẫn, cung và bao tên là tài sản sát-đế-lỵ; khinh bỏ nó là bỏ nhiệm vụ, được ví như người canh giữ lấy của không được cho."
+    },
+    {
+      "id": "vessa-wealth",
+      "title": "Trồng trọt và chăn nuôi của phệ-xá",
+      "segments": [
+        "mn96:10.10",
+        "mn96:10.11",
+        "mn96:10.12"
+      ],
+      "summary": "Theo quy định được dẫn, trồng trọt và chăn nuôi là tài sản phệ-xá; khinh bỏ nó là bỏ nhiệm vụ, cùng ví người canh giữ lấy của không được cho."
+    },
+    {
+      "id": "sudda-wealth",
+      "title": "Liềm và đòn gánh của thủ-đà-la",
+      "segments": [
+        "mn96:10.13",
+        "mn96:10.14",
+        "mn96:10.15"
+      ],
+      "summary": "Theo quy định được dẫn, liềm và đòn gánh là tài sản thủ-đà-la; khinh bỏ nó là bỏ nhiệm vụ, cùng ví người canh giữ lấy của không được cho."
+    },
+    {
+      "id": "wealth-question",
+      "title": "Xin ý kiến về bốn tài sản",
+      "segments": [
+        "mn96:10.16",
+        "mn96:10.17"
+      ],
+      "summary": "Esukārī kết lại bốn tài sản do bà-la-môn quy định và hỏi Gotama nói sao."
+    },
+    {
+      "id": "wealth-consent",
+      "title": "Lần nữa hỏi sự chấp thuận",
+      "segments": [
+        "mn96:11.1",
+        "mn96:11.2"
+      ],
+      "summary": "Đức Phật hỏi cả thế gian có chấp thuận bốn tài sản do bà-la-môn quy định không; Esukārī đáp không."
+    },
+    {
+      "id": "forced-meat-again",
+      "title": "Lặp ví dụ ép phần thịt",
+      "segments": [
+        "mn96:11.3",
+        "mn96:11.4"
+      ],
+      "summary": "Đức Phật lặp ví người nghèo không tiền của bị ép phần thịt phải ăn và trả tiền, để chỉ việc quy định tài sản không được những sa-môn và bà-la-môn ấy đồng ý."
+    },
+    {
+      "id": "true-wealth",
+      "title": "Pháp Thánh xuất thế gian và tên theo gia đình",
+      "segments": [
+        "mn96:12.1",
+        "mn96:12.2",
+        "mn96:12.3",
+        "mn96:12.4",
+        "mn96:12.5",
+        "mn96:12.6"
+      ],
+      "summary": "Đức Phật nêu Pháp Thánh xuất thế gian là tài sản của một người. Nhớ truyền thống gia đình phía mẹ và cha, sinh vào gia đình sát-đế-lỵ, bà-la-môn, phệ-xá hay thủ-đà-la thì được gọi theo gia đình ấy."
+    },
+    {
+      "id": "fire-name",
+      "title": "Tên lửa theo duyên đốt",
+      "segments": [
+        "mn96:12.7",
+        "mn96:12.8",
+        "mn96:12.9",
+        "mn96:12.10",
+        "mn96:12.11"
+      ],
+      "summary": "Lửa sinh do duyên nào được gọi theo duyên ấy: củi, que vụn, cỏ hoặc phân bò. Ví này nói về cách đặt tên theo điều kiện sinh ra."
+    },
+    {
+      "id": "true-wealth-again",
+      "title": "Nhắc lại của cải đích thực và cách gọi",
+      "segments": [
+        "mn96:12.12",
+        "mn96:12.13",
+        "mn96:12.14",
+        "mn96:12.15",
+        "mn96:12.16",
+        "mn96:12.17"
+      ],
+      "summary": "Sau ví tên lửa, Đức Phật nhắc Pháp Thánh xuất thế gian là tài sản, và nhắc truyền thống gia đình bên mẹ, bên cha cùng bốn tên gọi theo nơi sinh."
+    },
+    {
+      "id": "path-for-four",
+      "title": "Bốn xuất thân cùng có thể thành tựu thiện pháp",
+      "segments": [
+        "mn96:13.1",
+        "mn96:13.2",
+        "mn96:13.3",
+        "mn96:13.4"
+      ],
+      "summary": "Người thuộc mỗi trong bốn gia đình, nếu xuất gia, dựa Pháp và Luật Như Lai dạy, từ bỏ sát sinh, trộm cắp, quan hệ tình dục, bốn lời nói xấu, không tham của người, không ác ý, có chánh kiến, thì thành tựu đường lối đúng và thiện pháp. Giới độc thân khác tà hạnh trong dục ở câu 8."
+    },
+    {
+      "id": "lovingkindness",
+      "title": "Ai có thể tu tâm từ",
+      "segments": [
+        "mn96:14.1",
+        "mn96:14.2",
+        "mn96:14.3",
+        "mn96:14.4",
+        "mn96:14.5",
+        "mn96:14.6",
+        "mn96:14.7",
+        "mn96:14.8"
+      ],
+      "summary": "Đức Phật hỏi phải chỉ bà-la-môn có thể phát triển tâm từ không oán, không hại đối với vùng này, còn ba nhóm kia không thể chăng. Esukārī phủ nhận sự độc quyền: từng nhóm và cả bốn đều có thể."
+    },
+    {
+      "id": "path-after-kindness",
+      "title": "Lặp con đường sau ví tâm từ",
+      "segments": [
+        "mn96:14.9",
+        "mn96:14.10",
+        "mn96:14.11",
+        "mn96:14.12"
+      ],
+      "summary": "Áp dụng lại cho đủ bốn xuất thân cùng điều kiện xuất gia, dựa Pháp và Luật Như Lai, mười mặt đời sống thanh tịnh gồm độc thân, để thành tựu đường lối đúng và thiện pháp."
+    },
+    {
+      "id": "washing",
+      "title": "Ai có thể tắm sạch",
+      "segments": [
+        "mn96:15.1",
+        "mn96:15.2",
+        "mn96:15.3",
+        "mn96:15.4",
+        "mn96:15.5",
+        "mn96:15.6",
+        "mn96:15.7",
+        "mn96:15.8"
+      ],
+      "summary": "Đức Phật hỏi chỉ bà-la-môn có thể mang chất tắm rửa tới sông rửa bụi bẩn sao. Esukārī đáp từng nhóm sát-đế-lỵ, bà-la-môn, phệ-xá, thủ-đà-la và cả bốn đều làm được."
+    },
+    {
+      "id": "path-after-washing",
+      "title": "Lặp con đường sau ví tắm rửa",
+      "segments": [
+        "mn96:15.9",
+        "mn96:15.10",
+        "mn96:15.11",
+        "mn96:15.12"
+      ],
+      "summary": "Sau ví tắm sạch, lại nêu đủ bốn nhóm với cùng điều kiện xuất gia, nương Pháp và Luật Như Lai, từ bỏ bảy hành vi xấu gồm mọi quan hệ tình dục, không tham, không ác ý, thấy đúng, thành tựu đường lối đúng và thiện pháp."
+    },
+    {
+      "id": "fire-setup",
+      "title": "Một trăm người làm lửa",
+      "segments": [
+        "mn96:16.1",
+        "mn96:16.2"
+      ],
+      "summary": "Giả sử vua sát-đế-lỵ đã được quán đỉnh tập hợp một trăm người có các xuất thân khác nhau và bảo nhóm xuất thân sát-đế-lỵ, bà-la-môn, vương tộc làm lửa."
+    },
+    {
+      "id": "five-fine-woods",
+      "title": "Năm loại gỗ cho nhóm đầu",
+      "segments": [
+        "mn96:16.3"
+      ],
+      "summary": "Nhóm đầu dùng thanh trên của dụng cụ kéo lửa bằng năm loại gỗ: teak, sāla, salaḷa, chiên-đàn, padumaka; được bảo sinh lửa và tạo nhiệt."
+    },
+    {
+      "id": "four-other-materials",
+      "title": "Năm nhóm còn lại và bốn vật liệu",
+      "segments": [
+        "mn96:16.4"
+      ],
+      "summary": "Nhóm Chiên-đà-la, thợ săn, người làm tre, người làm xe, người dọn rác dùng thanh kéo lửa từ máng chó, máng heo, máng thợ giặt hoặc gỗ thầu dầu; cũng được bảo sinh lửa và tạo nhiệt."
+    },
+    {
+      "id": "fire-question",
+      "title": "Lửa có phân biệt dòng dõi không",
+      "segments": [
+        "mn96:16.5",
+        "mn96:16.6",
+        "mn96:16.7"
+      ],
+      "summary": "Hỏi phải chỉ lửa của nhóm đầu có ngọn, màu sắc, ánh sáng và dùng làm công việc của lửa được, còn lửa nhóm sau thiếu cả bốn khả năng ấy chăng."
+    },
+    {
+      "id": "fire-answer",
+      "title": "Lửa của cả hai nhóm đều có công dụng",
+      "segments": [
+        "mn96:16.8",
+        "mn96:16.9",
+        "mn96:16.10",
+        "mn96:16.11"
+      ],
+      "summary": "Esukārī đáp không; lửa của cả nhóm đầu và nhóm sau đều có ngọn, màu sắc, ánh sáng và công dụng. Mọi ngọn lửa ấy đều có đủ bốn tính chất."
+    },
+    {
+      "id": "path-after-fire",
+      "title": "Kết lại con đường cho đủ bốn xuất thân",
+      "segments": [
+        "mn96:16.12",
+        "mn96:16.13",
+        "mn96:16.14",
+        "mn96:16.15"
+      ],
+      "summary": "Lần cuối Đức Phật áp dụng trọn con đường xuất gia, nương Pháp và Luật Như Lai, mười mặt thanh tịnh gồm sống độc thân, cho cả sát-đế-lỵ, bà-la-môn, phệ-xá và thủ-đà-la, cùng thành tựu đường lối đúng và thiện pháp."
+    },
+    {
+      "id": "close",
+      "title": "Esukārī tán thán và quy y",
+      "segments": [
+        "mn96:17.1",
+        "mn96:17.2",
+        "mn96:17.3"
+      ],
+      "summary": "Esukārī tán thán hai lần. Công thức tỉnh lược được HTML cùng bài mở thành dựng vật úp, bày điều che, chỉ đường người lạc, đem đèn vào tối cho người có mắt thấy; quy y Gotama, Pháp và chúng tỳ-kheo, xin làm cư sĩ từ nay trọn đời."
+    },
+    {
+      "id": "ending",
+      "title": "Dấu kết bài",
+      "segments": [
+        "mn96:17.4"
+      ],
+      "summary": "Dấu kết ghi đây là bài thứ sáu trong nhóm kinh này, không phải MN thứ sáu."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Diễn giải dành cho trẻ em",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "visit",
+          "kind": "teaching",
+          "heading": "Một cuộc trò chuyện về việc giúp người",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "arrival"
+          ],
+          "paragraphs": [
+            "Đây là kinh Esukārī, bài 96 của Trung Bộ. Người truyền kinh kể rằng mình đã nghe câu chuyện này: một thời, Đức Phật ở Sāvatthī, trong vườn Jeta, tinh xá của Anāthapiṇḍika.",
+            "Esukārī đến thăm. Ông là một bà-la-môn, thuộc nhóm người gắn với việc học và nghi lễ trong xã hội Ấn Độ thời ấy. Sau những lời chào hỏi thân thiện, ông ngồi sang một bên và hỏi Đức Phật, người ông gọi là Gotama, về những quy định của các bà-la-môn."
+          ]
+        },
+        {
+          "id": "four-groups",
+          "kind": "teaching",
+          "heading": "Ai phải phục vụ ai?",
+          "meaningUnits": [
+            "services-frame",
+            "brahmin-service",
+            "noble-service",
+            "vessa-service",
+            "sudda-service",
+            "services-question"
+          ],
+          "paragraphs": [
+            "Esukārī nhắc đến bốn nhóm xã hội. Ngoài bà-la-môn, còn có sát-đế-lỵ là giới quý tộc; phệ-xá là nhóm làm những nghề sản xuất, như trồng trọt và chăn nuôi; thủ-đà-la là nhóm lao động bị xếp ở địa vị thấp trong cách chia thời ấy.",
+            "Ông kể bốn quy định: bà-la-môn được cả bốn nhóm phục vụ; sát-đế-lỵ được sát-đế-lỵ, phệ-xá và thủ-đà-la phục vụ; phệ-xá được phệ-xá và thủ-đà-la phục vụ; thủ-đà-la chỉ được thủ-đà-la phục vụ. Lời quy định còn hỏi: ngoài thủ-đà-la ra, ai sẽ phục vụ thủ-đà-la nữa?",
+            "Đó là những điều Esukārī dẫn lại từ các bà-la-môn. Ông nhắc đủ bốn quy định rồi hỏi Gotama nghĩ thế nào."
+          ]
+        },
+        {
+          "id": "unwanted-meat",
+          "kind": "teaching",
+          "heading": "Bị ép nhận rồi phải trả tiền",
+          "meaningUnits": [
+            "service-consent",
+            "forced-meat"
+          ],
+          "paragraphs": [
+            "Đức Phật hỏi: cả thế gian có đồng ý để các bà-la-môn đặt những quy định ấy không? Esukārī đáp không.",
+            "Đức Phật đưa ra một cảnh rất dễ hình dung: một người nghèo, không có tiền của, chẳng muốn nhận phần thịt, nhưng lại bị ép nhận rồi bị bảo phải ăn và trả tiền. Người ấy đâu có tự chọn món hàng! Ngài ví việc đặt ra những quy định mà các sa-môn và bà-la-môn ấy không chấp thuận với cách ép nhận phần thịt đó. Sa-môn là người rời nếp sống gia đình để tu tập."
+          ]
+        },
+        {
+          "id": "choose-service",
+          "kind": "teaching",
+          "heading": "Giúp người ấy có làm mình tốt lên không?",
+          "meaningUnits": [
+            "service-test",
+            "noble-test",
+            "others-test"
+          ],
+          "paragraphs": [
+            "Đức Phật không dạy phải phục vụ tất cả mọi người, cũng không dạy đừng phục vụ bất cứ ai. Ngài xét một điều: khi phục vụ người ấy, chính người phục vụ trở nên thế nào? Nếu mình xấu đi, không tốt lên, sự phục vụ ấy không nên chọn. Nếu mình tốt lên, không xấu đi, sự phục vụ ấy nên chọn.",
+            "Ngài đặt câu hỏi giả sử trước một người sát-đế-lỵ: nên phục vụ người khiến mình xấu đi, hay người khiến mình tốt lên? Nếu trả lời đúng, người ấy sẽ không chọn điều làm mình xấu đi, mà chọn điều làm mình tốt lên. Câu hỏi và cách trả lời đúng ấy cũng áp dụng cho bà-la-môn, phệ-xá và thủ-đà-la. Dù sinh trong nhóm nào, người phục vụ vẫn cần nhìn vào sự thay đổi nơi mình."
+          ]
+        },
+        {
+          "id": "three-labels",
+          "kind": "teaching",
+          "heading": "Ba điều chưa nói lên con người em",
+          "meaningUnits": [
+            "three-noncriteria"
+          ],
+          "paragraphs": [
+            "Sinh trong một gia đình được trọng vọng, có vẻ ngoài đẹp, hay có nhiều của cải: từng điều ấy không tự làm ai tốt hơn. Đức Phật cũng không nói từng điều ấy tự làm ai xấu hơn. Muốn hiểu một người, phải nhìn tiếp vào cách người ấy sống."
+          ]
+        },
+        {
+          "id": "ten-ways",
+          "kind": "teaching",
+          "heading": "Nhìn vào việc làm, lời nói và tâm ý",
+          "meaningUnits": [
+            "birth-unskillful",
+            "birth-skillful"
+          ],
+          "paragraphs": [
+            "Một người có dòng dõi được quý trọng vẫn có thể làm mười điều xấu: giết hại sinh vật; lấy đồ không được cho; làm điều sai trái trong quan hệ tình dục; nói dối; nói khiến người khác chia rẽ; nói lời cay nghiệt; nói chuyện vô ích; thèm lấy của người khác; nuôi ý muốn hại; và thấy hiểu sai. Gia đình nổi tiếng không biến những việc ấy thành tốt.",
+            "Nhưng cũng có người sinh trong gia đình được quý trọng mà không giết hại, không lấy của không cho, không làm điều sai trái trong quan hệ tình dục; không nói dối, chia rẽ, cay nghiệt hay vô ích; không tham lấy của người, không nuôi ý hại và có sự thấy hiểu đúng. Vì vậy, dòng dõi ấy cũng không khiến họ trở thành người xấu."
+          ]
+        },
+        {
+          "id": "appearance-wealth",
+          "kind": "teaching",
+          "heading": "Đẹp và giàu cũng được xét như vậy",
+          "meaningUnits": [
+            "beauty",
+            "wealth-actions"
+          ],
+          "paragraphs": [
+            "Người có vẻ ngoài đẹp có thể làm mười điều xấu vừa kể, hoặc tránh chúng và sống tốt. Người nhiều tiền của cũng có cả hai khả năng ấy. Với mỗi nhóm, Đức Phật đều xét đủ hai chiều: không vì đẹp hoặc giàu mà tự nhiên tốt; cũng không vì đẹp hoặc giàu mà tự nhiên xấu. Việc làm, lời nói và tâm ý mới cho thấy con đường người ấy đang đi."
+          ]
+        },
+        {
+          "id": "five-growths",
+          "kind": "teaching",
+          "heading": "Năm điều nên lớn lên",
+          "meaningUnits": [
+            "five-growth"
+          ],
+          "paragraphs": [
+            "Đức Phật nhắc lại rằng không phải cứ phục vụ tất cả, cũng không phải từ chối tất cả. Ngài nói rõ năm điều cần tăng trưởng nhờ sự phục vụ: niềm tin vào điều lành và việc tu; cách sống có giới, biết giữ mình khỏi điều xấu; hiểu biết do nghe học; lòng sẵn sàng chia sẻ; và trí tuệ, tức khả năng thấy hiểu sáng suốt.",
+            "Nếu phục vụ ai mà năm điều ấy lớn lên, nên phục vụ người ấy. Nếu niềm tin không tăng, cách sống tốt không tăng, hiểu biết không tăng, lòng chia sẻ không tăng và trí tuệ cũng không tăng, Ngài không khuyên phục vụ người ấy."
+          ]
+        },
+        {
+          "id": "school-example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: cùng làm tờ báo lớp",
+          "meaningUnits": [
+            "service-test",
+            "five-growth"
+          ],
+          "paragraphs": [
+            "Giả sử em giúp một bạn làm tờ báo lớp. Khi làm chung, em được nhắc kiểm tra điều mình viết, nói thật, chịu khó học, chia phần việc và chia dụng cụ. Em có thể nhìn xem những điều tốt nào đang lớn lên nơi mình. Nếu một nhóm cứ rủ bịa chuyện để chọc người khác, điều cần xét là cách làm ấy đang đưa mình đi đâu. Đây là ví dụ hiện đại để hiểu việc chọn sự phục vụ, không phải chuyện được kể trong kinh."
+          ]
+        },
+        {
+          "id": "assigned-wealth",
+          "kind": "teaching",
+          "heading": "Esukārī hỏi tiếp về tài sản",
+          "meaningUnits": [
+            "wealth-frame",
+            "brahmin-wealth",
+            "noble-wealth",
+            "vessa-wealth",
+            "sudda-wealth",
+            "wealth-question"
+          ],
+          "paragraphs": [
+            "Esukārī đưa ra một bộ quy định khác. Theo lời ông, các bà-la-môn còn đặt tài sản riêng cho bốn nhóm: bà-la-môn sống bằng khất thực, nghĩa là nhận thức ăn được cho; sát-đế-lỵ có cung và bao đựng tên; phệ-xá có trồng trọt và chăn nuôi; thủ-đà-la có liềm và đòn gánh.",
+            "Với từng nhóm trong cả bốn nhóm, quy định ấy nói rằng ai xem nhẹ và bỏ phần tài sản được ấn định cho mình thì bỏ nhiệm vụ, giống một người canh giữ lại lấy của không được cho. Như thế, cả cách kiếm sống cũng bị buộc vào nơi sinh ra. Esukārī kể đủ bốn phần rồi hỏi Đức Phật nghĩ sao."
+          ]
+        },
+        {
+          "id": "second-meat",
+          "kind": "teaching",
+          "heading": "Miếng thịt ép mua xuất hiện lần nữa",
+          "meaningUnits": [
+            "wealth-consent",
+            "forced-meat-again"
+          ],
+          "paragraphs": [
+            "Đức Phật lại hỏi: cả thế gian có đồng ý cho các bà-la-môn ấn định bốn tài sản này không? Esukārī lại đáp không.",
+            "Ngài kể lại ví dụ người nghèo không tiền của, chẳng muốn phần thịt mà bị ép phải ăn và trả tiền. Lần này, hình ảnh ấy soi vào việc ấn định tài sản: các bà-la-môn đặt quy định khi những sa-môn và bà-la-môn ấy chưa chấp thuận."
+          ]
+        },
+        {
+          "id": "real-wealth",
+          "kind": "teaching",
+          "heading": "Một tài sản không nằm trong kho",
+          "meaningUnits": [
+            "true-wealth"
+          ],
+          "paragraphs": [
+            "Đức Phật nêu tài sản của con người là Pháp Thánh xuất thế gian: lời dạy cao quý dẫn vượt qua những trói buộc của đời sống để đi tới giải thoát. Đây là điều cần thực hành, không phải một món đồ được trao chỉ vì mình sinh trong gia đình nào.",
+            "Khi nhớ lại dòng họ bên mẹ và bên cha theo cách gọi quen thuộc, người sinh vào gia đình sát-đế-lỵ được gọi là sát-đế-lỵ; sinh vào gia đình bà-la-môn, phệ-xá hoặc thủ-đà-la thì được gọi bằng tên của gia đình tương ứng."
+          ]
+        },
+        {
+          "id": "fire-names",
+          "kind": "teaching",
+          "heading": "Tên ngọn lửa đến từ đâu?",
+          "meaningUnits": [
+            "fire-name",
+            "true-wealth-again"
+          ],
+          "paragraphs": [
+            "Đức Phật dùng một ví dụ: lửa sinh nhờ củi thì gọi là lửa củi; nhờ những que vụn thì gọi là lửa que vụn; nhờ cỏ thì gọi là lửa cỏ; nhờ phân bò thì gọi là lửa phân bò. Tên lửa theo thứ đã giúp nó sinh ra.",
+            "Sau ví dụ, Ngài nhắc lại Pháp Thánh xuất thế gian là tài sản của con người. Ngài cũng nhắc lại cách gọi theo dòng họ bên mẹ và bên cha: sát-đế-lỵ, bà-la-môn, phệ-xá, thủ-đà-la. Tên gọi cho biết gia đình người ấy sinh vào; con đường tu tập mới là phần được trình bày tiếp theo."
+          ]
+        },
+        {
+          "id": "shared-path",
+          "kind": "teaching",
+          "heading": "Cùng một con đường tu",
+          "meaningUnits": [
+            "path-for-four"
+          ],
+          "paragraphs": [
+            "Giả sử một người sát-đế-lỵ rời đời sống gia đình để xuất gia, sống đời không nhà. Người ấy nương vào Pháp và Luật do Như Lai, tức Đức Phật, dạy: đó là lời dạy và nếp tu tập. Người ấy không giết hại, không lấy của không cho, không có quan hệ tình dục, nghĩa là giữ đời tu độc thân; không nói dối, chia rẽ, cay nghiệt hay vô ích; không tham lấy của người, không nuôi ý hại và thấy hiểu đúng. Người ấy thành tựu con đường đúng và điều lành.",
+            "Người xuất thân bà-la-môn, phệ-xá hay thủ-đà-la cũng vậy, khi thực hiện chính những điều kiện ấy. Ở đây kinh nói riêng về người xuất gia nên có giới sống độc thân; ở phần trước, khi xét việc làm nói chung, kinh nói đến tránh hành vi sai trái trong quan hệ tình dục."
+          ]
+        },
+        {
+          "id": "kindness",
+          "kind": "teaching",
+          "heading": "Lòng từ dành riêng cho một nhóm sao?",
+          "meaningUnits": [
+            "lovingkindness"
+          ],
+          "paragraphs": [
+            "Đức Phật hỏi Esukārī: chỉ bà-la-môn có thể nuôi tâm từ đối với vùng này, với lòng không thù oán và không muốn gây hại, còn sát-đế-lỵ, phệ-xá, thủ-đà-la thì không thể hay sao? Tâm từ là lòng mong cho người khác được an lành.",
+            "Esukārī đáp không phải vậy. Người sát-đế-lỵ làm được; người bà-la-môn, phệ-xá và thủ-đà-la cũng làm được. Cả bốn nhóm đều có thể nuôi tâm từ không thù oán, không ác ý."
+          ]
+        },
+        {
+          "id": "kindness-path",
+          "kind": "teaching",
+          "heading": "Sau câu trả lời về lòng từ",
+          "meaningUnits": [
+            "path-after-kindness"
+          ],
+          "paragraphs": [
+            "Đức Phật nối ngay điều ấy với việc tu: cả sát-đế-lỵ, bà-la-môn, phệ-xá và thủ-đà-la, khi xuất gia và nương Pháp, Luật của Ngài, đều có thể đi con đường đã nói. Đó là không giết hại, không lấy của không cho, sống độc thân; tránh bốn lời nói xấu; không tham của người, không có ý hại, thấy hiểu đúng. Với những điều kiện ấy, họ thành tựu đường lối đúng và điều lành."
+          ]
+        },
+        {
+          "id": "wash",
+          "kind": "teaching",
+          "heading": "Nước có hỏi dòng họ không?",
+          "meaningUnits": [
+            "washing"
+          ],
+          "paragraphs": [
+            "Đức Phật hỏi thêm: chỉ bà-la-môn có thể đem chất tắm rửa đến sông để rửa bụi bẩn, còn ba nhóm kia không làm được sao?",
+            "Esukārī lại đáp không. Người sát-đế-lỵ, bà-la-môn, phệ-xá và thủ-đà-la đều có thể tắm sạch. Ông kể từng nhóm rồi xác nhận cả bốn nhóm cùng làm được."
+          ]
+        },
+        {
+          "id": "wash-path",
+          "kind": "teaching",
+          "heading": "Điều cần gột rửa trong cách sống",
+          "meaningUnits": [
+            "path-after-washing"
+          ],
+          "paragraphs": [
+            "Sau ví dụ tắm rửa, Đức Phật lại nhắc đủ bốn xuất thân cùng một con đường: rời đời sống gia đình, dựa vào Pháp và Luật Như Lai dạy, không giết hại, trộm lấy hay có quan hệ tình dục; không nói dối, gây chia rẽ, cay nghiệt, vô ích; không tham của người, không nuôi ý hại, thấy hiểu đúng. Người thực hiện như thế thành tựu con đường đúng và điều lành."
+          ]
+        },
+        {
+          "id": "hundred-people",
+          "kind": "teaching",
+          "heading": "Một trăm người và những que làm lửa",
+          "meaningUnits": [
+            "fire-setup",
+            "five-fine-woods"
+          ],
+          "paragraphs": [
+            "Ví dụ tiếp theo lớn hơn: giả sử một vị vua sát-đế-lỵ, đã làm lễ rưới nước lên đầu khi lên ngôi, gọi một trăm người có nhiều xuất thân khác nhau đến.",
+            "Những người sinh trong gia đình sát-đế-lỵ, bà-la-môn hoặc vương tộc được bảo lấy thanh trên của dụng cụ làm lửa bằng một trong năm loại gỗ: tếch, sāla, salaḷa, đàn hương, padumaka. Họ được bảo làm xuất hiện lửa và sức nóng."
+          ]
+        },
+        {
+          "id": "other-fire-sticks",
+          "kind": "teaching",
+          "heading": "Nhóm còn lại cũng được bảo làm lửa",
+          "meaningUnits": [
+            "four-other-materials"
+          ],
+          "paragraphs": [
+            "Nhóm kia gồm người Chiên-đà-la, nhóm thường bị coi thấp trong xã hội ấy; người thợ săn; người làm đồ tre; người làm xe; và người dọn rác. Nhà vua bảo họ dùng thanh làm lửa từ một trong bốn thứ: máng của chó, máng của heo, máng của thợ giặt hoặc gỗ thầu dầu. Họ cũng được bảo làm xuất hiện lửa và sức nóng."
+          ]
+        },
+        {
+          "id": "same-fire",
+          "kind": "teaching",
+          "heading": "Ngọn lửa có giữ sự phân chia ấy không?",
+          "meaningUnits": [
+            "fire-question",
+            "fire-answer"
+          ],
+          "paragraphs": [
+            "Đức Phật hỏi: có phải chỉ lửa do nhóm đầu làm mới có ngọn, có màu, có ánh sáng và làm được công việc của lửa; còn lửa do nhóm sau làm thì không có ngọn, không có màu, không có ánh sáng và không dùng được?",
+            "Esukārī đáp không. Lửa của nhóm đầu có đủ bốn điều ấy, và lửa của nhóm sau cũng có đủ. Tất cả những ngọn lửa đó đều cháy thành ngọn, có màu sắc, tỏa sáng và có công dụng của lửa."
+          ]
+        },
+        {
+          "id": "fire-path",
+          "kind": "teaching",
+          "heading": "Câu kết trở về việc tu tập",
+          "meaningUnits": [
+            "path-after-fire"
+          ],
+          "paragraphs": [
+            "Đức Phật kết lại lần nữa cho đủ bốn nhóm: sát-đế-lỵ, bà-la-môn, phệ-xá, thủ-đà-la. Người thuộc bất cứ nhóm nào, khi xuất gia và theo Pháp, Luật của Như Lai, từ bỏ giết hại, lấy của không cho và quan hệ tình dục; bỏ nói dối, chia rẽ, cay nghiệt, vô ích; không tham của người, không ác ý và thấy hiểu đúng, thì thành tựu con đường đúng, điều lành. Nơi sinh không thay thế những việc người ấy cần thực hành."
+          ]
+        },
+        {
+          "id": "refuge",
+          "kind": "teaching",
+          "heading": "Esukārī chọn một hướng đi",
+          "meaningUnits": [
+            "close",
+            "ending"
+          ],
+          "paragraphs": [
+            "Esukārī thốt lên lời khen hai lần: thật tuyệt diệu! Ông ví lời giảng với việc dựng lại vật bị úp, mở ra điều bị che, chỉ đường cho người lạc và đem đèn vào bóng tối để người có mắt nhìn thấy màu sắc. Gotama đã làm rõ lời dạy bằng nhiều cách.",
+            "Ông xin quy y Gotama, Pháp và chúng tỳ-kheo, tức cộng đồng các vị nam xuất gia. Quy y là chọn nơi nương tựa cho việc học và sống. Ông xin được ghi nhận là người đệ tử tại gia từ hôm ấy cho đến hết đời. Dấu cuối văn bản cho biết đây là bài thứ sáu trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "small-step",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: nhìn việc mình đang làm",
+          "meaningUnits": [
+            "three-noncriteria",
+            "five-growth"
+          ],
+          "paragraphs": [
+            "Sau một lần giúp người, em có thể chọn một câu để tự hỏi: mình có thật thà hơn, hiểu thêm điều gì, hoặc sẵn lòng chia sẻ hơn không? Khi nhận xét một bạn, thử kể một việc bạn đã làm thay vì chỉ nói bạn đẹp, giàu hay thuộc gia đình nào. Đây là bước suy ngẫm nhỏ được gợi ra cho hôm nay; con đường xuất gia trong kinh có những điều kiện riêng đã kể ở trên."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Diễn giải dành cho người trưởng thành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Ai có quyền ấn định đời sống của người khác?",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "arrival"
+          ],
+          "paragraphs": [
+            "Kinh Esukārī là bài 96 của Trung Bộ. Lời mở ghi nhận người truyền kinh đã nghe như sau: Đức Phật đang ở Sāvatthī, tại vườn Jeta, tinh xá của Anāthapiṇḍika. Bà-la-môn Esukārī đến thăm, trao những lời chào hỏi thân thiện rồi ngồi một bên.",
+            "Esukārī đem tới hai vấn đề: ai nên phục vụ ai, và tài sản nào được xem là của mỗi nhóm người. Ông trình bày quan điểm của các bà-la-môn, nhóm gắn với học thuật và nghi lễ trong xã hội thời ấy, rồi xin Gotama nhận định."
+          ]
+        },
+        {
+          "id": "service-rules",
+          "kind": "teaching",
+          "heading": "Bốn quy định phục vụ được dẫn ra",
+          "meaningUnits": [
+            "services-frame",
+            "brahmin-service",
+            "noble-service",
+            "vessa-service",
+            "sudda-service",
+            "services-question"
+          ],
+          "paragraphs": [
+            "Theo các quy định Esukārī nêu, bà-la-môn được bà-la-môn, sát-đế-lỵ, phệ-xá và thủ-đà-la phục vụ. Sát-đế-lỵ, giới quý tộc, được ba nhóm sát-đế-lỵ, phệ-xá và thủ-đà-la phục vụ. Phệ-xá, nhóm làm nghề sản xuất như canh tác và chăn nuôi, được phệ-xá và thủ-đà-la phục vụ. Thủ-đà-la, nhóm lao động bị xếp thấp trong trật tự ấy, chỉ được thủ-đà-la phục vụ; lời quy định còn hỏi: ai khác sẽ phục vụ thủ-đà-la?",
+            "Esukārī kết lại rằng đó là bốn sự phục vụ do bà-la-môn ấn định và hỏi Gotama nói thế nào. Như vậy, điều đang được đưa ra xem xét là một trật tự quy định theo xuất thân."
+          ]
+        },
+        {
+          "id": "consent",
+          "kind": "teaching",
+          "heading": "Một quy định chưa được người liên quan chấp thuận",
+          "meaningUnits": [
+            "service-consent",
+            "forced-meat"
+          ],
+          "paragraphs": [
+            "Đức Phật hỏi liệu toàn thể thế gian có đồng ý để các bà-la-môn đặt ra bốn sự phục vụ ấy không. Esukārī trả lời không.",
+            "Ngài ví việc này với một người nghèo túng, không tiền của, bị ép nhận phần thịt dù không muốn, rồi bị đòi phải ăn và trả tiền. Tương tự, các bà-la-môn đặt quy định khi những sa-môn và bà-la-môn ấy không chấp thuận. Sa-môn là người từ bỏ đời sống gia đình để tu. Ví dụ làm rõ vấn đề ép người khác nhận một nghĩa vụ mà họ không tự chọn."
+          ]
+        },
+        {
+          "id": "consequences",
+          "kind": "teaching",
+          "heading": "Xét điều sự phục vụ làm nơi người phục vụ",
+          "meaningUnits": [
+            "service-test",
+            "noble-test",
+            "others-test"
+          ],
+          "paragraphs": [
+            "Đức Phật không chủ trương phục vụ tất cả, cũng không chủ trương không phục vụ ai. Ngài không khuyên phục vụ một người nếu việc ấy khiến người phục vụ trở nên xấu hơn, không tốt hơn. Ngài khuyên phục vụ khi việc ấy khiến người phục vụ tốt hơn, không xấu hơn.",
+            "Ngài đề nghị một phép hỏi: nếu đặt trước người sát-đế-lỵ hai lựa chọn ấy, người đó, nếu trả lời đúng, sẽ chọn sự phục vụ giúp chính mình tốt lên và từ chối sự phục vụ làm mình xấu đi. Cũng đặt câu hỏi như vậy với bà-la-môn, phệ-xá và thủ-đà-la; với mỗi nhóm, điều kiện trả lời đúng dẫn tới cùng lựa chọn. Trọng tâm ở đây là phẩm chất phát triển nơi người đang phục vụ."
+          ]
+        },
+        {
+          "id": "three-advantages",
+          "kind": "teaching",
+          "heading": "Dòng dõi, ngoại hình, tài sản chưa quyết định phẩm chất",
+          "meaningUnits": [
+            "three-noncriteria",
+            "birth-unskillful",
+            "birth-skillful"
+          ],
+          "paragraphs": [
+            "Đức Phật không cho rằng gia đình cao quý, dung sắc đẹp hay nhiều của cải tự chúng khiến một người tốt hơn; Ngài cũng không xem từng điều ấy tự làm người xấu hơn.",
+            "Ngay trong một dòng họ được trọng vọng, có người giết hại, lấy của không cho, tà hạnh trong dục tức hành vi sai trái trong quan hệ tình dục; nói dối, gây chia rẽ, nói thô ác, nói phù phiếm tức chuyện vô ích; tham muốn chiếm của người, nuôi ác ý và thấy hiểu sai. Đó là đủ mười mặt bất thiện, những điều xấu cần từ bỏ. Xuất thân không biến chúng thành thiện.",
+            "Cũng có người trong gia đình ấy tránh giết hại, trộm lấy và tà hạnh trong dục; tránh bốn loại lời nói dối, chia rẽ, thô ác, phù phiếm; không tham của người, không ác ý, có chánh kiến tức sự thấy hiểu đúng. Vì thế, xuất thân ấy cũng không thể là lý do tự thân làm họ xấu đi."
+          ]
+        },
+        {
+          "id": "beauty-and-money",
+          "kind": "teaching",
+          "heading": "Cùng nhìn đủ hai chiều",
+          "meaningUnits": [
+            "beauty",
+            "wealth-actions"
+          ],
+          "paragraphs": [
+            "Với người có dung sắc đẹp, cả hai khả năng trên đều hiện hữu: họ có thể làm đủ mười điều bất thiện, hoặc từ bỏ chúng và sống với ba phẩm chất không tham của người, không ác ý, thấy đúng. Điều tương tự được xét cho người nhiều của cải. Vẻ đẹp và sự giàu có không tự bảo đảm phẩm hạnh, cũng không tự bác bỏ phẩm hạnh; cần xét chính nếp sống ấy."
+          ]
+        },
+        {
+          "id": "five-measures",
+          "kind": "teaching",
+          "heading": "Năm dấu hiệu của sự tăng trưởng",
+          "meaningUnits": [
+            "five-growth"
+          ],
+          "paragraphs": [
+            "Đức Phật nhắc lại hai cực Ngài không chủ trương: phục vụ tất cả hoặc không ai. Rồi Ngài cụ thể hóa tiêu chuẩn tăng trưởng thành năm phương diện: tín, niềm tin đối với điều lành và việc tu; giới, nếp sống có kỷ luật đạo đức; văn, hiểu biết nhờ nghe học; thí, lòng rộng rãi biết cho; tuệ, sự thấy hiểu sáng suốt.",
+            "Nếu sự phục vụ làm năm điều ấy tăng trưởng, Ngài nói nên phục vụ. Nếu niềm tin không tăng, giới không tăng, điều học không tăng, lòng bố thí không tăng và trí tuệ không tăng, Ngài không nói nên phục vụ người ấy."
+          ]
+        },
+        {
+          "id": "work-example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: chọn một việc để đóng góp",
+          "meaningUnits": [
+            "service-test",
+            "five-growth"
+          ],
+          "paragraphs": [
+            "Khi nhận giúp một nhóm biên soạn tài liệu, ta có thể nhìn xa hơn danh tiếng của người mời. Quá trình làm việc có rèn sự trung thực, mở rộng hiểu biết, khuyến khích chia sẻ và giúp mình xét vấn đề sáng suốt hơn không? Cũng có sự hợp tác thường xuyên đòi mình bóp méo thông tin hoặc nuôi thù ghét. Ví dụ hiện đại này gợi một cách xem phẩm chất của chính mình trong việc phục vụ; bài kinh đưa ra đầy đủ năm tiêu chuẩn và hướng chúng về việc tu tập."
+          ]
+        },
+        {
+          "id": "assigned-livelihoods",
+          "kind": "teaching",
+          "heading": "Bốn tài sản được gắn vào bốn xuất thân",
+          "meaningUnits": [
+            "wealth-frame",
+            "brahmin-wealth",
+            "noble-wealth",
+            "vessa-wealth",
+            "sudda-wealth",
+            "wealth-question"
+          ],
+          "paragraphs": [
+            "Esukārī chuyển sang quy định thứ hai: bà-la-môn ấn định bốn tài sản. Với bà-la-môn là sống nhờ khất thực, nhận thức ăn được cho; với sát-đế-lỵ là cung và bao tên; với phệ-xá là trồng trọt cùng chăn nuôi; với thủ-đà-la là liềm cùng đòn gánh.",
+            "Trong từng trường hợp, quy định đều nói rằng người khinh bỏ tài sản của nhóm mình là bỏ nhiệm vụ, như người canh giữ lại lấy của không được cho. Cả bà-la-môn, sát-đế-lỵ, phệ-xá lẫn thủ-đà-la đều bị buộc bằng cùng lời so sánh ấy. Esukārī nhắc đủ bốn tài sản rồi hỏi ý kiến Gotama."
+          ]
+        },
+        {
+          "id": "second-consent",
+          "kind": "teaching",
+          "heading": "Đức Phật hỏi lại về sự chấp thuận",
+          "meaningUnits": [
+            "wealth-consent",
+            "forced-meat-again"
+          ],
+          "paragraphs": [
+            "Với bốn tài sản này, Đức Phật lại hỏi toàn thể thế gian có chấp thuận cho bà-la-môn đặt ra không. Esukārī đáp không. Ngài dùng lại hình ảnh người nghèo không tiền của, không muốn phần thịt nhưng bị ép phải ăn rồi trả tiền.",
+            "Lần lặp này áp dụng trực tiếp vào sự ấn định tài sản: những sa-môn và bà-la-môn ấy chưa đồng ý mà quy định vẫn được đặt ra. Hai vấn đề phục vụ và tài sản đều phải đối diện câu hỏi về việc áp đặt."
+          ]
+        },
+        {
+          "id": "noble-wealth",
+          "kind": "teaching",
+          "heading": "Tài sản nằm ở Pháp Thánh xuất thế gian",
+          "meaningUnits": [
+            "true-wealth"
+          ],
+          "paragraphs": [
+            "Đức Phật nêu Pháp Thánh xuất thế gian là tài sản của con người: giáo pháp cao quý hướng vượt khỏi các trói buộc thế gian để đi đến giải thoát. Câu trả lời mở sang một giá trị cần chứng nghiệm bằng đời sống tu tập.",
+            "Còn khi nhớ truyền thống gia đình phía mẹ và phía cha, người sinh vào gia đình sát-đế-lỵ thì mang tên sát-đế-lỵ; sinh vào gia đình bà-la-môn, phệ-xá hay thủ-đà-la thì được gọi theo gia đình đó. Những danh xưng ấy được giải thích bằng điều kiện sinh ra."
+          ]
+        },
+        {
+          "id": "naming-fire",
+          "kind": "teaching",
+          "heading": "Ngọn lửa mang tên nhiên liệu của nó",
+          "meaningUnits": [
+            "fire-name",
+            "true-wealth-again"
+          ],
+          "paragraphs": [
+            "Lửa cũng được đặt tên theo điều kiện làm nó sinh: lửa do củi, do que vụn, do cỏ hay do phân bò thì lần lượt mang những tên tương ứng. Ở ví dụ này, Đức Phật dùng cách gọi lửa để làm rõ cách gọi theo xuất thân.",
+            "Sau đó Ngài lặp lại cả hai ý: Pháp Thánh xuất thế gian là tài sản của người; khi lần theo gia đình mẹ và cha, tên sát-đế-lỵ, bà-la-môn, phệ-xá hoặc thủ-đà-la được đặt theo gia đình nơi người ấy sinh ra."
+          ]
+        },
+        {
+          "id": "renunciation",
+          "kind": "teaching",
+          "heading": "Điều kiện chung của con đường tu",
+          "meaningUnits": [
+            "path-for-four"
+          ],
+          "paragraphs": [
+            "Giả sử một người sinh trong gia đình sát-đế-lỵ xuất gia từ đời sống tại gia đến không nhà. Người ấy dựa vào Pháp và Luật do Như Lai, tức Đức Phật, công bố: giáo pháp cùng khuôn phép tu tập. Nếu người ấy từ bỏ sát sinh, lấy của không cho và quan hệ tình dục; từ bỏ nói dối, chia rẽ, thô ác, phù phiếm; không tham của người, không có ác ý, có chánh kiến, thì thành tựu đường lối đúng và thiện pháp.",
+            "Cùng một kết luận được nói với bà-la-môn, phệ-xá và thủ-đà-la khi họ thực hiện đầy đủ những điều kiện ấy. Giới ở đây thuộc đời sống xuất gia thanh tịnh: sống độc thân, không quan hệ tình dục. Nó khác với việc tránh tà hạnh trong dục ở đoạn xét các hành vi nói chung. Xuất thân không miễn trừ ai khỏi các điều kiện tu, cũng không ngăn người thực hành chúng thành tựu."
+          ]
+        },
+        {
+          "id": "loving-kindness",
+          "kind": "teaching",
+          "heading": "Khả năng tu tâm từ",
+          "meaningUnits": [
+            "lovingkindness",
+            "path-after-kindness"
+          ],
+          "paragraphs": [
+            "Đức Phật hỏi có phải chỉ bà-la-môn có thể tu tâm từ, lòng mong an lành, đối với vùng này mà không thù oán, không ác ý, còn sát-đế-lỵ, phệ-xá và thủ-đà-la thì không thể. Esukārī phủ nhận: từng nhóm sát-đế-lỵ, bà-la-môn, phệ-xá, thủ-đà-la đều có thể; cả bốn nhóm đều có thể phát triển tâm như thế.",
+            "Đức Phật nối câu trả lời với con đường vừa nêu cho cả bốn xuất thân. Khi xuất gia và nương Pháp, Luật của Như Lai, từ bỏ giết hại, trộm lấy, quan hệ tình dục và bốn loại lời nói xấu; không tham của người, không ác ý, thấy hiểu đúng, họ thành tựu đường lối đúng và thiện pháp. Khả năng ấy đi cùng thực hành cụ thể."
+          ]
+        },
+        {
+          "id": "washing",
+          "kind": "teaching",
+          "heading": "Khả năng rửa sạch bụi bẩn",
+          "meaningUnits": [
+            "washing",
+            "path-after-washing"
+          ],
+          "paragraphs": [
+            "Ngài hỏi tiếp có phải chỉ bà-la-môn có thể mang chất tắm rửa đến sông tẩy sạch bụi bẩn, còn ba nhóm kia không thể. Esukārī trả lời không: sát-đế-lỵ làm được, bà-la-môn làm được, phệ-xá làm được, thủ-đà-la làm được; cả bốn cùng có khả năng ấy.",
+            "Sau ví dụ tắm sạch, Đức Phật lại trình bày con đường cho đủ bốn nhóm: xuất gia, dựa vào Pháp và Luật Như Lai, tránh sát sinh, lấy của không cho, quan hệ tình dục; tránh lời dối, chia rẽ, thô ác, phù phiếm; không tham của người, không ác ý, có chánh kiến. Người như thế thành tựu đường lối đúng và thiện pháp. Sự thanh tịnh của lối sống cần những điều kiện ấy."
+          ]
+        },
+        {
+          "id": "hundred-fires",
+          "kind": "teaching",
+          "heading": "Một trăm người với vật liệu khác nhau",
+          "meaningUnits": [
+            "fire-setup",
+            "five-fine-woods",
+            "four-other-materials"
+          ],
+          "paragraphs": [
+            "Đức Phật đưa ra giả định một vị vua sát-đế-lỵ đã làm lễ quán đỉnh, nghi thức rưới nước lên đầu khi lên ngôi, tập hợp một trăm người có những xuất thân khác nhau. Người sinh trong gia đình sát-đế-lỵ, bà-la-môn hoặc vương tộc được bảo dùng thanh trên của dụng cụ tạo lửa bằng gỗ tếch, sāla, salaḷa, đàn hương hoặc padumaka: năm loại gỗ, để sinh lửa và làm xuất hiện sức nóng.",
+            "Nhóm Chiên-đà-la, thợ săn, người làm đồ tre, người làm xe và người dọn rác được bảo làm cùng việc ấy. Chiên-đà-la là tên một nhóm bị coi thấp trong trật tự xã hội được dẫn ở đây. Thanh tạo lửa của nhóm sau có thể lấy từ máng chó, máng heo, máng thợ giặt hoặc gỗ thầu dầu: bốn loại vật liệu."
+          ]
+        },
+        {
+          "id": "fire-properties",
+          "kind": "teaching",
+          "heading": "Bốn tính chất của lửa",
+          "meaningUnits": [
+            "fire-question",
+            "fire-answer"
+          ],
+          "paragraphs": [
+            "Câu hỏi là: phải chăng chỉ lửa do nhóm đầu làm mới có ngọn, màu sắc, ánh sáng và khả năng làm công việc của lửa, trong khi lửa của nhóm sau không có ngọn, không màu sắc, không ánh sáng và không thể dùng vào công việc của lửa?",
+            "Esukārī trả lời không. Lửa của nhóm đầu có đủ ngọn, màu sắc, ánh sáng và công dụng; lửa của nhóm sau cũng có đủ. Ông xác nhận tất cả những ngọn lửa ấy đều có bốn tính chất. Ví dụ này xét khả năng của lửa, tiếp nối nhưng khác trọng tâm với ví dụ đặt tên lửa ở trước."
+          ]
+        },
+        {
+          "id": "final-path",
+          "kind": "teaching",
+          "heading": "Kết luận trở lại các điều kiện thực hành",
+          "meaningUnits": [
+            "path-after-fire"
+          ],
+          "paragraphs": [
+            "Từ câu trả lời về lửa, Đức Phật nhắc lại đủ sát-đế-lỵ, bà-la-môn, phệ-xá và thủ-đà-la: người xuất gia, dựa vào Pháp và Luật Như Lai công bố, bỏ sát sinh, lấy của không cho, quan hệ tình dục; bỏ bốn lời nói dối, chia rẽ, thô ác, phù phiếm; không tham của người, không ác ý, thấy hiểu đúng, thì thành tựu đường lối đúng và thiện pháp.",
+            "Vì vậy, lời đáp về tài sản đưa người nghe trở về Pháp Thánh xuất thế gian và cách sống tương ứng với Pháp. Cả bốn xuất thân được xét bằng những điều kiện thực hành chung."
+          ]
+        },
+        {
+          "id": "refuge",
+          "kind": "teaching",
+          "heading": "Sự lựa chọn của Esukārī",
+          "meaningUnits": [
+            "close",
+            "ending"
+          ],
+          "paragraphs": [
+            "Esukārī tán thán hai lần. Ông so lời giảng với dựng lại vật bị úp, bày ra điều bị che, chỉ đường người lạc và thắp đèn trong tối để người có mắt thấy được màu sắc. Ông nhận ra Gotama đã làm rõ Pháp bằng nhiều cách.",
+            "Ông xin quy y Gotama, Pháp và chúng tỳ-kheo, cộng đồng nam xuất gia; xin được nhận là cư sĩ, đệ tử tại gia nương tựa từ hôm ấy cho đến trọn đời. Dấu kết văn bản ghi đây là bài thứ sáu trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "reflection",
+          "kind": "practice",
+          "heading": "Gợi ý suy ngẫm cho một quan hệ phục vụ",
+          "meaningUnits": [
+            "three-noncriteria",
+            "five-growth",
+            "true-wealth"
+          ],
+          "paragraphs": [
+            "Có thể chọn một quan hệ mình đang đóng góp công sức rồi xem lần lượt: niềm tin, đạo đức, việc học, lòng cho đi và sự sáng suốt đã thay đổi ra sao? Cũng nên thử bỏ các nhận định chỉ dựa vào gia đình, vẻ ngoài hay tiền của khi xét người khác. Đây là gợi ý hiện đại để đem một phần câu hỏi của kinh vào đời sống; đích tài sản mà Đức Phật nêu vẫn là giáo pháp hướng đến giải thoát."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Diễn giải dành cho người lớn tuổi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Xét một con người bằng điều gì?",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "arrival"
+          ],
+          "paragraphs": [
+            "Kinh Esukārī, bài 96 của Trung Bộ, bắt đầu bằng lời người truyền kinh xác nhận mình đã nghe. Khi ấy, Đức Phật ở Sāvatthī, trong vườn Jeta, tinh xá của Anāthapiṇḍika.",
+            "Bà-la-môn Esukārī đến thăm. Bà-la-môn là tên nhóm người gắn với học thuật và nghi lễ trong xã hội Ấn Độ thời ấy. Sau khi chào hỏi, chuyện trò thân thiện, ông ngồi một bên và thưa với Gotama, tức Đức Phật."
+          ]
+        },
+        {
+          "id": "four-services",
+          "kind": "teaching",
+          "heading": "Bốn cách phân chia việc phục vụ",
+          "meaningUnits": [
+            "services-frame",
+            "brahmin-service",
+            "noble-service",
+            "vessa-service",
+            "sudda-service",
+            "services-question"
+          ],
+          "paragraphs": [
+            "Esukārī nói các bà-la-môn quy định bốn sự phục vụ theo bốn nhóm xã hội. Sát-đế-lỵ là giới quý tộc. Phệ-xá là nhóm làm những nghề như trồng trọt, chăn nuôi. Thủ-đà-la là nhóm lao động bị đặt ở địa vị thấp trong cách phân chia ấy.",
+            "Bà-la-môn được cả bà-la-môn, sát-đế-lỵ, phệ-xá và thủ-đà-la phục vụ. Sát-đế-lỵ được sát-đế-lỵ, phệ-xá và thủ-đà-la phục vụ. Phệ-xá được phệ-xá và thủ-đà-la phục vụ. Riêng thủ-đà-la chỉ được thủ-đà-la phục vụ; lời quy định còn hỏi ai khác sẽ phục vụ thủ-đà-la.",
+            "Esukārī nhắc lại cả bốn phần và xin Gotama cho ý kiến. Đó là trật tự do các bà-la-môn đưa ra trong lời ông kể."
+          ]
+        },
+        {
+          "id": "forced-portion",
+          "kind": "teaching",
+          "heading": "Không muốn nhận mà vẫn phải trả tiền",
+          "meaningUnits": [
+            "service-consent",
+            "forced-meat"
+          ],
+          "paragraphs": [
+            "Đức Phật hỏi: toàn thể thế gian có đồng ý cho các bà-la-môn quy định bốn sự phục vụ ấy không? Esukārī đáp không.",
+            "Ngài ví như một người nghèo túng, không có tiền của, không muốn nhận phần thịt, nhưng bị ép phải ăn rồi trả tiền. Cũng vậy, các bà-la-môn đặt quy định khi những sa-môn và bà-la-môn ấy không chấp thuận. Sa-môn là người rời nếp sống gia đình để tu tập. Qua hình ảnh phần thịt, có thể thấy rõ sự ép buộc nằm trong quy định ấy."
+          ]
+        },
+        {
+          "id": "service-effect",
+          "kind": "teaching",
+          "heading": "Nhìn sự phục vụ tác động đến mình",
+          "meaningUnits": [
+            "service-test",
+            "noble-test",
+            "others-test"
+          ],
+          "paragraphs": [
+            "Đức Phật không nói phải phục vụ hết mọi người, cũng không nói đừng phục vụ ai. Nếu phục vụ một người mà chính mình trở nên xấu hơn, không tốt hơn, Ngài không khuyên phục vụ người ấy. Nếu nhờ phục vụ mà mình tốt hơn, không xấu hơn, Ngài khuyên nên phục vụ.",
+            "Giả sử hỏi một người sát-đế-lỵ nên chọn sự phục vụ khiến mình xấu đi hay tốt lên. Nếu trả lời đúng, người ấy sẽ từ chối điều làm mình xấu đi và chọn điều làm mình tốt lên. Với bà-la-môn, phệ-xá hay thủ-đà-la, cũng đặt câu hỏi ấy và cũng có điều kiện trả lời đúng ấy. Cả bốn nhóm đều cần xét phẩm chất nơi người đang phục vụ."
+          ]
+        },
+        {
+          "id": "three-outside-things",
+          "kind": "teaching",
+          "heading": "Dòng họ, dung mạo, của cải",
+          "meaningUnits": [
+            "three-noncriteria"
+          ],
+          "paragraphs": [
+            "Một gia đình được trọng vọng, một dung mạo đẹp, một gia sản lớn: mỗi điều ấy tự nó không làm người tốt hơn. Đức Phật cũng không cho rằng mỗi điều ấy tự nó làm người xấu hơn. Phần tiếp theo chỉ rõ cần nhìn vào đâu."
+          ]
+        },
+        {
+          "id": "ten-unskillful",
+          "kind": "teaching",
+          "heading": "Mười mặt có thể làm đời sống xấu đi",
+          "meaningUnits": [
+            "birth-unskillful"
+          ],
+          "paragraphs": [
+            "Người thuộc gia đình cao quý vẫn có thể sát sinh, tức giết hại sinh vật; lấy của không cho; tà hạnh trong dục, tức hành vi sai trái trong quan hệ tình dục. Người ấy có thể nói dối, nói chia rẽ, nói thô ác, nói phù phiếm là những chuyện vô ích. Trong tâm có thể tham muốn lấy của người, ôm ác ý và có tà kiến, tức thấy hiểu sai.",
+            "Đó là mười mặt bất thiện, những điều xấu của thân, lời nói và tâm ý. Nếu sống như vậy, dòng dõi cao quý không khiến người ấy trở thành người tốt."
+          ]
+        },
+        {
+          "id": "ten-skillful",
+          "kind": "teaching",
+          "heading": "Cũng có thể chọn một cách sống khác",
+          "meaningUnits": [
+            "birth-skillful"
+          ],
+          "paragraphs": [
+            "Người sinh trong gia đình cao quý cũng có thể tránh giết hại, tránh lấy của không cho, tránh tà hạnh trong dục; không nói dối, chia rẽ, thô ác, phù phiếm; không tham của người, không có ác ý, có chánh kiến, nghĩa là thấy hiểu đúng.",
+            "Với người sống như thế, cũng không thể nói dòng dõi khiến họ xấu đi. Cần xét trọn những hành vi thực có trong đời sống của họ."
+          ]
+        },
+        {
+          "id": "looks-money",
+          "kind": "teaching",
+          "heading": "Người đẹp, người giàu cũng có hai khả năng",
+          "meaningUnits": [
+            "beauty",
+            "wealth-actions"
+          ],
+          "paragraphs": [
+            "Đức Phật áp dụng cả hai chiều ấy cho người có dung sắc đẹp: có người làm mười điều bất thiện vừa kể, có người từ bỏ chúng. Ngài cũng xét người nhiều của cải theo đủ hai chiều: họ có thể giết hại, lấy của người và làm các điều xấu còn lại; hoặc tránh đủ bảy hành vi xấu, không tham của người, không ác ý và thấy hiểu đúng.",
+            "Vì vậy, dung mạo và tài sản không tự làm ai tốt hơn hay xấu hơn. Cách sống vẫn là điều cần nhìn tới."
+          ]
+        },
+        {
+          "id": "five-qualities",
+          "kind": "teaching",
+          "heading": "Năm điều được nuôi lớn nhờ phục vụ",
+          "meaningUnits": [
+            "five-growth"
+          ],
+          "paragraphs": [
+            "Ngài nhắc lại: không phải phục vụ tất cả, cũng không phải không phục vụ ai. Có năm điều giúp nhận ra sự phục vụ nên chọn: tín là niềm tin vào điều lành và việc tu; giới là nếp sống giữ gìn đạo đức; văn là hiểu biết từ nghe học; thí là lòng sẵn sàng cho đi; tuệ là sự thấy hiểu sáng suốt.",
+            "Nếu nhờ phục vụ người ấy mà cả năm điều tăng trưởng, Ngài nói nên phục vụ. Nếu niềm tin không tăng, giới không tăng, điều học không tăng, lòng cho đi không tăng, trí tuệ cũng không tăng, Ngài không nói nên phục vụ người ấy."
+          ]
+        },
+        {
+          "id": "community-example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: một việc cùng làm",
+          "meaningUnits": [
+            "five-growth",
+            "service-test"
+          ],
+          "paragraphs": [
+            "Có người nhận giúp một nhóm đọc sách ở khu dân cư. Qua việc ấy, họ chịu khó học lại điều chưa rõ, biết nghe ý kiến khác, chia sẻ tài liệu và giữ lời hứa. Khi nhìn lại, họ có thể thấy những phẩm chất nào đang tăng lên. Danh tiếng của người đứng đầu không thay cho việc nhìn vào những đổi thay ấy. Đây là ví dụ gợi suy ngẫm hôm nay, không phải một tình tiết trong kinh."
+          ]
+        },
+        {
+          "id": "four-wealths",
+          "kind": "teaching",
+          "heading": "Esukārī nêu bốn tài sản",
+          "meaningUnits": [
+            "wealth-frame",
+            "brahmin-wealth",
+            "noble-wealth",
+            "vessa-wealth",
+            "sudda-wealth",
+            "wealth-question"
+          ],
+          "paragraphs": [
+            "Esukārī hỏi tiếp về bốn tài sản do bà-la-môn ấn định. Tài sản của bà-la-môn là sống bằng khất thực, nhận thức ăn người khác cho. Tài sản của sát-đế-lỵ là cung và bao đựng tên. Tài sản của phệ-xá là trồng trọt và chăn nuôi. Tài sản của thủ-đà-la là liềm và đòn gánh.",
+            "Đối với từng nhóm, quy định đều xem người khinh bỏ phần tài sản ấy là bỏ nhiệm vụ, giống người canh giữ mà lấy của không được cho. Bà-la-môn, sát-đế-lỵ, phệ-xá và thủ-đà-la đều được gắn với một phần riêng và cùng lời ràng buộc ấy. Esukārī nhắc đủ bốn phần rồi hỏi Gotama nghĩ sao."
+          ]
+        },
+        {
+          "id": "forced-again",
+          "kind": "teaching",
+          "heading": "Câu hỏi về sự chấp thuận được đặt lần nữa",
+          "meaningUnits": [
+            "wealth-consent",
+            "forced-meat-again"
+          ],
+          "paragraphs": [
+            "Đức Phật hỏi toàn thể thế gian có chấp thuận cho các bà-la-môn ấn định bốn tài sản này không. Esukārī đáp không.",
+            "Ngài lại dùng ví dụ người nghèo không tiền của bị ép nhận phần thịt: không muốn mà vẫn bị bảo phải ăn và trả tiền. Lần này, ví dụ chỉ vào việc đặt ra tài sản cho từng nhóm khi những sa-môn và bà-la-môn ấy không đồng ý."
+          ]
+        },
+        {
+          "id": "true-possession",
+          "kind": "teaching",
+          "heading": "Tài sản cao quý của con người",
+          "meaningUnits": [
+            "true-wealth"
+          ],
+          "paragraphs": [
+            "Đức Phật nêu Pháp Thánh xuất thế gian là tài sản của con người. Có thể hiểu là giáo pháp cao quý đưa người tu vượt khỏi những trói buộc thế gian, hướng đến giải thoát. Tài sản ấy gắn với sự tu tập.",
+            "Còn theo truyền thống gia đình bên mẹ và bên cha, người sinh vào nhà sát-đế-lỵ mang tên sát-đế-lỵ. Người sinh vào nhà bà-la-môn, phệ-xá, thủ-đà-la cũng mang tên tương ứng. Tên gọi được đặt theo nơi sinh ra ấy."
+          ]
+        },
+        {
+          "id": "names-of-fire",
+          "kind": "teaching",
+          "heading": "Cách gọi bốn thứ lửa",
+          "meaningUnits": [
+            "fire-name",
+            "true-wealth-again"
+          ],
+          "paragraphs": [
+            "Lửa do củi sinh ra được gọi là lửa củi. Lửa do que vụn, do cỏ, do phân bò được gọi lần lượt là lửa que vụn, lửa cỏ, lửa phân bò. Tên lửa đi theo điều kiện làm lửa sinh.",
+            "Sau ví dụ này, Đức Phật nhắc lại Pháp Thánh xuất thế gian là tài sản. Ngài cũng nhắc lại gia đình phía mẹ, phía cha và bốn tên theo xuất thân: sát-đế-lỵ, bà-la-môn, phệ-xá, thủ-đà-la. Rồi Ngài đi vào những điều người tu thực hành."
+          ]
+        },
+        {
+          "id": "one-training",
+          "kind": "teaching",
+          "heading": "Con đường dành cho người xuất gia",
+          "meaningUnits": [
+            "path-for-four"
+          ],
+          "paragraphs": [
+            "Giả sử một người sát-đế-lỵ rời đời sống gia đình để xuất gia, sống không nhà. Người ấy nương theo Pháp và Luật do Như Lai, tức Đức Phật, dạy. Pháp và Luật là lời dạy và khuôn phép tu tập. Người ấy thực hành như sau: không giết hại, không lấy của không cho, không quan hệ tình dục; không nói dối, chia rẽ, thô ác, phù phiếm; không tham của người, không ác ý, có chánh kiến.",
+            "Người như thế thành tựu đường lối đúng và thiện pháp, những điều lành trong việc tu. Người xuất thân bà-la-môn, phệ-xá hay thủ-đà-la, khi thực hiện cùng điều kiện, cũng thành tựu như vậy.",
+            "Ở đoạn này, vì nói về người xuất gia, điều thứ ba là giữ đời tu độc thân, không có quan hệ tình dục. Trước đó, khi xét hành vi nói chung, bài kinh nói tránh tà hạnh trong dục."
+          ]
+        },
+        {
+          "id": "loving-kindness",
+          "kind": "teaching",
+          "heading": "Ai có thể nuôi lòng từ?",
+          "meaningUnits": [
+            "lovingkindness"
+          ],
+          "paragraphs": [
+            "Đức Phật hỏi: chỉ bà-la-môn có thể tu tâm từ đối với vùng này, không thù oán và không ác ý, còn các nhóm kia thì không thể sao? Tâm từ là lòng mong cho người khác được an lành.",
+            "Esukārī đáp không phải vậy. Sát-đế-lỵ có thể; bà-la-môn, phệ-xá, thủ-đà-la cũng có thể. Ông xác nhận cả bốn nhóm đều có thể phát triển tâm từ không thù oán, không ác ý."
+          ]
+        },
+        {
+          "id": "kindness-lesson",
+          "kind": "teaching",
+          "heading": "Từ lòng từ trở lại việc tu",
+          "meaningUnits": [
+            "path-after-kindness"
+          ],
+          "paragraphs": [
+            "Đức Phật nhắc lại con đường cho đủ bốn nhóm ấy. Khi xuất gia và nương Pháp, Luật của Như Lai, người tu bỏ giết hại, lấy của không cho và quan hệ tình dục; tránh bốn cách nói dối, chia rẽ, thô ác, phù phiếm; không tham của người, không ác ý, thấy hiểu đúng. Có những điều kiện đó thì thành tựu đường lối đúng và thiện pháp, dù xuất thân thuộc nhóm nào."
+          ]
+        },
+        {
+          "id": "river",
+          "kind": "teaching",
+          "heading": "Ai có thể rửa sạch bụi bẩn?",
+          "meaningUnits": [
+            "washing"
+          ],
+          "paragraphs": [
+            "Câu hỏi tiếp theo rất gần với sinh hoạt thường ngày: chỉ bà-la-môn có thể cầm chất tắm rửa ra sông để rửa bụi bẩn hay sao?",
+            "Esukārī đáp không. Người sát-đế-lỵ, bà-la-môn, phệ-xá, thủ-đà-la đều làm được. Từng nhóm và cả bốn nhóm cùng có khả năng tắm sạch."
+          ]
+        },
+        {
+          "id": "river-lesson",
+          "kind": "teaching",
+          "heading": "Làm sạch nếp sống",
+          "meaningUnits": [
+            "path-after-washing"
+          ],
+          "paragraphs": [
+            "Sau ví dụ tắm rửa, Đức Phật lại nói đủ bốn xuất thân với cùng điều kiện: xuất gia từ đời sống gia đình, nương Pháp và Luật Như Lai, tránh giết hại, trộm lấy, quan hệ tình dục; tránh nói dối, chia rẽ, thô ác, phù phiếm; không tham của người, không ác ý, có chánh kiến. Chính người thực hành như vậy thành tựu đường lối đúng và thiện pháp. Ví dụ tắm sạch được nối với việc sửa nếp sống."
+          ]
+        },
+        {
+          "id": "king-and-fire",
+          "kind": "teaching",
+          "heading": "Một trăm người được gọi đến",
+          "meaningUnits": [
+            "fire-setup",
+            "five-fine-woods"
+          ],
+          "paragraphs": [
+            "Đức Phật đưa ra một giả định khác. Một vua sát-đế-lỵ đã làm lễ quán đỉnh, tức nghi lễ rưới nước lên đầu lúc lên ngôi, tập hợp một trăm người thuộc nhiều xuất thân.",
+            "Nhà vua bảo những người sinh trong gia đình sát-đế-lỵ, bà-la-môn hay vương tộc lấy thanh trên của dụng cụ làm lửa bằng một trong năm loại gỗ: tếch, sāla, salaḷa, đàn hương hoặc padumaka. Họ được bảo nhóm lửa và tạo sức nóng."
+          ]
+        },
+        {
+          "id": "other-materials",
+          "kind": "teaching",
+          "heading": "Những xuất thân và vật liệu khác",
+          "meaningUnits": [
+            "four-other-materials"
+          ],
+          "paragraphs": [
+            "Còn nhóm Chiên-đà-la, thợ săn, người làm đồ tre, người làm xe và người dọn rác cũng được bảo nhóm lửa, tạo sức nóng. Chiên-đà-la là tên một nhóm bị coi thấp trong cách phân chia xã hội được kể ở đây.",
+            "Nhóm này dùng thanh tạo lửa làm từ máng của chó, máng của heo, máng của thợ giặt hoặc gỗ thầu dầu. Như vậy, có bốn loại vật liệu dành cho nhóm sau trong ví dụ."
+          ]
+        },
+        {
+          "id": "fire-functions",
+          "kind": "teaching",
+          "heading": "Ngọn, màu sắc, ánh sáng, công dụng",
+          "meaningUnits": [
+            "fire-question",
+            "fire-answer"
+          ],
+          "paragraphs": [
+            "Đức Phật hỏi: phải chăng chỉ lửa của nhóm đầu có ngọn, có màu sắc, có ánh sáng và có thể làm công việc của lửa; còn lửa của nhóm sau thì không có ngọn, không màu sắc, không ánh sáng, cũng không làm được công việc của lửa?",
+            "Esukārī đáp không. Lửa do nhóm đầu làm có đủ bốn tính chất; lửa do nhóm sau làm cũng có đủ. Tất cả các ngọn lửa ấy đều có ngọn, màu sắc, ánh sáng và công dụng. Xuất thân người tạo lửa không làm thay đổi những khả năng ấy."
+          ]
+        },
+        {
+          "id": "fire-lesson",
+          "kind": "teaching",
+          "heading": "Lần cuối nhắc đủ bốn nhóm",
+          "meaningUnits": [
+            "path-after-fire"
+          ],
+          "paragraphs": [
+            "Đức Phật lại kết nối với con đường tu, lần lượt nêu sát-đế-lỵ, bà-la-môn, phệ-xá và thủ-đà-la. Người thuộc nhóm nào, nếu xuất gia, theo Pháp và Luật Như Lai, bỏ giết hại, lấy của không cho, quan hệ tình dục; bỏ nói dối, chia rẽ, thô ác, phù phiếm; không tham của người, không ác ý, thấy hiểu đúng, thì thành tựu đường lối đúng và thiện pháp.",
+            "Qua mỗi câu hỏi về tâm từ, việc tắm rửa và việc tạo lửa, lời giảng đều quay về những điều kiện chung ấy. Chúng giúp hiểu tài sản Pháp Thánh xuất thế gian mà Đức Phật đã nêu."
+          ]
+        },
+        {
+          "id": "refuge",
+          "kind": "teaching",
+          "heading": "Một sự nương tựa được chọn",
+          "meaningUnits": [
+            "close",
+            "ending"
+          ],
+          "paragraphs": [
+            "Esukārī tán thán hai lần. Ông ví lời dạy với dựng lại vật bị úp, mở ra điều bị che, chỉ lối người lạc đường, đem đèn vào tối để người có mắt thấy màu sắc. Ông nói Gotama đã trình bày Pháp bằng nhiều cách.",
+            "Ông xin quy y Gotama, Pháp và chúng tỳ-kheo, cộng đồng các vị nam xuất gia. Ông xin được nhận là cư sĩ, người đệ tử tại gia, nương tựa từ hôm ấy cho đến trọn đời. Dấu kết cho biết đây là bài thứ sáu trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "reflect",
+          "kind": "practice",
+          "heading": "Gợi ý suy ngẫm: điều gì đang tăng trưởng?",
+          "meaningUnits": [
+            "five-growth",
+            "three-noncriteria"
+          ],
+          "paragraphs": [
+            "Trong một việc mình đang giúp người khác, có thể thong thả xét đủ năm điều: niềm tin, nếp sống đạo đức, việc học, lòng chia sẻ và sự sáng suốt. Điều nào đã lớn lên? Khi nhớ đến một người, có thể nhìn vào việc họ thực sự làm thay vì vội kết luận từ dòng họ, dung mạo hay gia sản. Đây là gợi ý thực hành hiện đại, tiếp nối câu hỏi của bài kinh."
+          ]
+        }
+      ]
+    }
+  }
+}

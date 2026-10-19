@@ -1,0 +1,1666 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn92",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn92_root-pli-ms.json",
+      "sha256": "f816141c61082438403a2a21457cddf2e4bde6656bc8ff9bf11dafd86d43391f",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn92_translation-vi-project.json",
+      "sha256": "ce3bce11c6b918c6ffbabeff9a83031fabfed773816a6899f47ff50523f4c571",
+      "commit": "0b4081326ff6f4785ac13f6e2d947ea1e78449df"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn92_translation-en-sujato.json",
+      "sha256": "ccdf61264c23dded5938e1968b81ed3b910674ab62026e1b3d16b60c7d0d6a99",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn92.html",
+      "sha256": "6b10bf0be7a827ffae3d47f17ce441a68bbb9a261dc330aa63eb358886191e25",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn92_comment-vi-project.json",
+      "sha256": "37e30328ffbba78dcaf2210e8890b3825f4460ebf50d7a27f948be1acba41408",
+      "commit": "0b4081326ff6f4785ac13f6e2d947ea1e78449df"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "opening",
+      "title": "Lời nghe và đoàn du hành",
+      "segments": [
+        "mn92:0.1",
+        "mn92:0.2",
+        "mn92:1.1",
+        "mn92:1.2"
+      ],
+      "summary": "Trung Bộ 92, kinh Sela, lời người truyền đã nghe; Phật cùng đúng 1.250 tỳ-kheo du hành Aṅguttarāpa tới thị trấn Āpaṇa. Giữ địa danh theo root, không Apāna của HTML."
+    },
+    {
+      "id": "reputation",
+      "title": "Keṇiya nghe danh tiếng",
+      "segments": [
+        "mn92:2.1",
+        "mn92:2.2",
+        "mn92:2.3",
+        "mn92:2.4",
+        "mn92:2.5",
+        "mn92:2.6",
+        "mn92:2.7"
+      ],
+      "summary": "Đạo sĩ búi tóc Keṇiya nghe Gotama dòng Sakiya xuất gia tới cùng 1.250 vị; đủ toàn bộ danh hiệu, tự chứng thế giới gồm chư thiên, Māra, Phạm thiên, người tu/bà-la-môn/trời/người rồi giảng. Pháp tốt đầu/giữa/cuối đủ nghĩa lời, phạm hạnh hoàn toàn trong sạch; gặp bậc ấy là tốt. HTML thiếu Māra không làm mất chi tiết root."
+    },
+    {
+      "id": "first-talk",
+      "title": "Pháp thoại cho Keṇiya",
+      "segments": [
+        "mn92:3.1",
+        "mn92:3.2",
+        "mn92:3.3",
+        "mn92:3.4"
+      ],
+      "summary": "Keṇiya đến, chào hỏi thân thiện, ngồi một bên; Phật giảng giúp hiểu, khuyến khích, phấn khởi, hoan hỷ. Bốn tác dụng được nêu cả phía lời dạy lẫn phía người nhận."
+    },
+    {
+      "id": "invitations",
+      "title": "Ba lần mời bữa ngày mai",
+      "segments": [
+        "mn92:3.5",
+        "mn92:3.6",
+        "mn92:3.7",
+        "mn92:3.8",
+        "mn92:3.9",
+        "mn92:3.10",
+        "mn92:3.11",
+        "mn92:3.12",
+        "mn92:3.13",
+        "mn92:3.14",
+        "mn92:3.15",
+        "mn92:3.16"
+      ],
+      "summary": "Lần đầu mời Phật và Tăng ngày mai; Phật nêu đoàn 1.250 và người mời tin bà-la-môn. Lần hai và ba Keṇiya nhận cả hai điều nhưng vẫn mời; sau lượt hai Phật nhắc lại, lượt ba im lặng nhận. Ô Anh 3.12 trống không là chứng cứ đối chiếu."
+    },
+    {
+      "id": "preparations",
+      "title": "Cùng chuẩn bị tại am",
+      "segments": [
+        "mn92:4.1",
+        "mn92:4.2",
+        "mn92:4.3",
+        "mn92:4.4",
+        "mn92:4.5",
+        "mn92:4.6"
+      ],
+      "summary": "Biết được nhận, Keṇiya đứng dậy, trở về am, nhờ bạn bè/thân hữu/bà con huyết thống giúp phần việc tay chân cho bữa ngày mai. Họ vâng: đào lò, chẻ củi, rửa đồ đựng, đặt bình nước, trải chỗ ngồi; ông tự dựng lều hội. Không thêm giàn hoa tròn theo HTML."
+    },
+    {
+      "id": "sela",
+      "title": "Sela và các học trò",
+      "segments": [
+        "mn92:5.1",
+        "mn92:6.1"
+      ],
+      "summary": "Sela ở Āpaṇa, thông ba Vệ Đà với từ vựng/nghi lễ/ngữ âm/phân loại từ/truyện xưa thứ năm, từng chữ/ngữ pháp/thế giới học/tướng đại nhân; dạy 300 học trò trẻ tụng. Keṇiya vốn tín kính Sela. Không gọi năm Vệ Đà hoặc biến các học trò thành trẻ nhỏ."
+    },
+    {
+      "id": "visit-questions",
+      "title": "Những câu hỏi ở am",
+      "segments": [
+        "mn92:6.2",
+        "mn92:6.3",
+        "mn92:7.1",
+        "mn92:7.2"
+      ],
+      "summary": "Sela đi dạo với 300 học trò, thấy đủ năm việc và Keṇiya tự dựng lều. Hỏi rước dâu/đưa dâu/đại hiến tế/hay đã mời vua Seniya Bimbisāra Magadha cùng quân ngày mai. Balakāya không tự lược theo Anh."
+    },
+    {
+      "id": "feast-reply",
+      "title": "Bữa cúng được gọi là đại lễ",
+      "segments": [
+        "mn92:8.1",
+        "mn92:8.2",
+        "mn92:8.3",
+        "mn92:8.4",
+        "mn92:8.5",
+        "mn92:8.6"
+      ],
+      "summary": "Keṇiya phủ định hai lễ cưới và lời mời vua cùng quân ngày mai, xác nhận đại lễ hiến tế: Gotama Sakiya xuất gia tới Aṅguttarāpa/Āpaṇa với 1.250; nhắc đầy đủ toàn bộ danh hiệu và đã mời ngày mai cùng Tăng. Không thêm giết vật hoặc nghi lễ chưa kể."
+    },
+    {
+      "id": "buddha-word",
+      "title": "Hai lượt hỏi về chữ Phật",
+      "segments": [
+        "mn92:9.1",
+        "mn92:9.2",
+        "mn92:9.3",
+        "mn92:9.4",
+        "mn92:10.1",
+        "mn92:10.2"
+      ],
+      "summary": "Sela hỏi có nói Phật, Keṇiya xác nhận; cả cặp lặp hai lần. Sela tự nghĩ ngay âm Phật cũng hiếm gặp; không tự biến lời nghĩ thành lời nói."
+    },
+    {
+      "id": "two-paths",
+      "title": "Hai con đường trong bài tụng",
+      "segments": [
+        "mn92:10.3"
+      ],
+      "summary": "Sela nhớ 32 tướng truyền trong bài tụng của họ; người đủ tướng có đúng hai hướng, không hướng khác. Chỉ nêu nhóm 32 ở đây, không nhập danh sách từ MN91."
+    },
+    {
+      "id": "royal-path",
+      "title": "Con đường tại gia",
+      "segments": [
+        "mn92:10.4",
+        "mn92:10.5",
+        "mn92:10.6",
+        "mn92:10.7",
+        "mn92:10.8"
+      ],
+      "summary": "Ở nhà thành Chuyển luân vương chính trực/theo Pháp, thắng bốn phương/đất nước ổn, đủ bảy báu bánh xe/voi/ngựa/ngọc/người nữ/gia chủ/tướng quân. Hơn 1.000 con trai dũng mãnh thắng quân địch. Vua trị đất tới biển bằng Pháp, không gậy/kiếm; là lời Sela nhớ về truyền thống, không kể chiến dịch thực."
+    },
+    {
+      "id": "renunciant-path",
+      "title": "Con đường xuất gia",
+      "segments": [
+        "mn92:10.9"
+      ],
+      "summary": "Nếu rời nhà sống không nhà, thành A-la-hán Chánh Đẳng Giác, gỡ màn che thế gian; giữ điều kiện nếu và phẩm chất giải thoát."
+    },
+    {
+      "id": "direction",
+      "title": "Dãy rừng được chỉ",
+      "segments": [
+        "mn92:11.1",
+        "mn92:11.2",
+        "mn92:11.3"
+      ],
+      "summary": "Sela hỏi nơi Gotama A-la-hán Chánh Đẳng Giác đang ở; Keṇiya giơ tay phải chỉ dãy rừng xanh."
+    },
+    {
+      "id": "quiet-approach",
+      "title": "Dặn học trò trước đối thoại",
+      "segments": [
+        "mn92:12.1",
+        "mn92:12.2",
+        "mn92:12.3",
+        "mn92:12.4",
+        "mn92:12.5",
+        "mn92:12.6"
+      ],
+      "summary": "Sela cùng 300 người tới; dặn im, bước nhẹ, ví bậc Thế Tôn khó đến gần như sư tử sống một mình. Khi ông đối thoại Gotama, không ngắt, chờ nói xong. Lời ví thuộc Sela."
+    },
+    {
+      "id": "first-doubt",
+      "title": "Tìm tướng và còn hai điều nghi",
+      "segments": [
+        "mn92:13.1",
+        "mn92:13.2",
+        "mn92:13.3",
+        "mn92:13.4",
+        "mn92:13.5",
+        "mn92:13.6"
+      ],
+      "summary": "Sela chào thân thiện/ngồi bên/tìm 32 tướng, thấy phần lớn trừ hai; nghi/do dự/chưa tin/chưa sáng về tướng sinh dục che kín và lưỡi rộng dài."
+    },
+    {
+      "id": "known-doubt",
+      "title": "Phật biết điều chưa rõ",
+      "segments": [
+        "mn92:13.7",
+        "mn92:13.8",
+        "mn92:13.9",
+        "mn92:13.10"
+      ],
+      "summary": "Phật nghĩ biết Sela thấy phần lớn, còn đúng hai tướng với đủ bốn sắc thái nghi như đã nêu; không gán mọi nghi của Sela đều hết."
+    },
+    {
+      "id": "display",
+      "title": "Cho thấy hai tướng",
+      "segments": [
+        "mn92:14.1",
+        "mn92:14.2"
+      ],
+      "summary": "Phật dùng thần thông khiến thấy tướng kín; đưa lưỡi qua lại cả hai lỗ tai, hai lỗ mũi, phủ toàn trán. Không thêm phương thức phô bày hoặc thực hành bắt chước."
+    },
+    {
+      "id": "further-question",
+      "title": "Đủ tướng vẫn chưa biết có phải Phật",
+      "segments": [
+        "mn92:15.1",
+        "mn92:15.2",
+        "mn92:15.3",
+        "mn92:15.4",
+        "mn92:15.5",
+        "mn92:15.6",
+        "mn92:15.7"
+      ],
+      "summary": "Sela nghĩ đủ 32 không thiếu nhưng chưa biết có phải Phật; nhớ lời bậc bà-la-môn già/thầy của thầy rằng bậc giác ngộ tự tỏ khi được khen. Ông chọn khen bằng kệ xứng và thực hiện. Là phương cách/lời truyền ông theo, không thành cách kiểm mọi người thời nay."
+    },
+    {
+      "id": "praise-body",
+      "title": "Kệ khen thân và dấu hiệu",
+      "segments": [
+        "mn92:16.1",
+        "mn92:16.2",
+        "mn92:16.3",
+        "mn92:16.4",
+        "mn92:16.5",
+        "mn92:16.6",
+        "mn92:16.7",
+        "mn92:16.8"
+      ],
+      "summary": "Sela khen thân trọn/rạng/đẹp/dễ nhìn, da vàng, răng trắng, mạnh; đủ mọi dấu hiệu bậc nam tử cao quý/đại nhân. Hai khổ đầu giữ đủ; không dùng tướng mạo làm giá trị con người."
+    },
+    {
+      "id": "praise-sun",
+      "title": "Mặt trời giữa hội chúng",
+      "segments": [
+        "mn92:16.9",
+        "mn92:16.10",
+        "mn92:16.11",
+        "mn92:16.12",
+        "mn92:16.13",
+        "mn92:16.14",
+        "mn92:16.15",
+        "mn92:16.16"
+      ],
+      "summary": "Mắt sáng/mặt đẹp/cao/thẳng/oai, rực như mặt trời giữa đoàn sa-môn; vị tỳ-kheo đẹp da vàng, hỏi sống sa-môn ích gì với dung sắc ấy. Chủ thể đề xuất là Sela; thứ tự hai câu cuối theo Pāli, Anh đổi dòng."
+    },
+    {
+      "id": "praise-king",
+      "title": "Đề nghị trị vì",
+      "segments": [
+        "mn92:16.17",
+        "mn92:16.18",
+        "mn92:16.19",
+        "mn92:16.20",
+        "mn92:16.21",
+        "mn92:16.22",
+        "mn92:16.23",
+        "mn92:16.24"
+      ],
+      "summary": "Xứng vua Chuyển luân/đứng đầu chiến xa/thắng bốn phương/chủ xứ Jambu; các vua quý tộc theo phò; mời làm vua trên các vua/chủ loài người và trị nước. Không gán lời mời làm vua cho Đức Phật."
+    },
+    {
+      "id": "dhamma-king",
+      "title": "Vua của Chánh pháp",
+      "segments": [
+        "mn92:17.1",
+        "mn92:17.2",
+        "mn92:17.3",
+        "mn92:17.4"
+      ],
+      "summary": "Phật đáp đã là vua, Pháp vương vô thượng, bằng Pháp chuyển bánh xe không thể quay ngược. Không đổi appaṭivattiya thành chưa từng chuyển của HTML."
+    },
+    {
+      "id": "general-question",
+      "title": "Ai tiếp nối bánh xe",
+      "segments": [
+        "mn92:18.1",
+        "mn92:18.2",
+        "mn92:18.3",
+        "mn92:18.4",
+        "mn92:18.5",
+        "mn92:18.6",
+        "mn92:18.7",
+        "mn92:18.8"
+      ],
+      "summary": "Sela nhắc lời tự nhận giác ngộ/Pháp vương/bằng Pháp chuyển bánh xe, hỏi ai là đại tướng/đệ tử nối bước Thầy/tiếp bánh xe Ngài đã chuyển. Không đổi thành sau khi Phật mất."
+    },
+    {
+      "id": "sariputta",
+      "title": "Sāriputta tiếp nối",
+      "segments": [
+        "mn92:19.1",
+        "mn92:19.2",
+        "mn92:19.3",
+        "mn92:19.4",
+        "mn92:19.5"
+      ],
+      "summary": "Phật nói bánh xe Pháp vô thượng do Ngài chuyển, Sāriputta tiếp tục; nối dõi Như Lai về Pháp, không con sinh học hay tướng chinh chiến."
+    },
+    {
+      "id": "fulfilled",
+      "title": "Ba việc đã hoàn tất",
+      "segments": [
+        "mn92:19.6",
+        "mn92:19.7",
+        "mn92:19.8",
+        "mn92:19.9"
+      ],
+      "summary": "Cần biết trực tiếp đã biết, cần tu đã tu, cần bỏ đã bỏ; vì vậy là Phật. Không thêm danh sách các đối tượng không có ở đoạn này."
+    },
+    {
+      "id": "rare-awakening",
+      "title": "Niềm tin và bậc y sĩ",
+      "segments": [
+        "mn92:19.10",
+        "mn92:19.11",
+        "mn92:19.12",
+        "mn92:19.13",
+        "mn92:19.14",
+        "mn92:19.15",
+        "mn92:19.16",
+        "mn92:19.17"
+      ],
+      "summary": "Phật mời bỏ nghi/tin vững; khó thường xuyên thấy bậc giác ngộ/khó thường xuyên xuất hiện, Ngài là bậc ấy và y sĩ vô thượng. Hai nét hiếm khác nhau đều giữ; không lời chữa bệnh cụ thể."
+    },
+    {
+      "id": "fearless",
+      "title": "Hoan hỷ không sợ",
+      "segments": [
+        "mn92:19.18",
+        "mn92:19.19",
+        "mn92:19.20",
+        "mn92:19.21"
+      ],
+      "summary": "Kệ gọi hiện thân Phạm thiên/vô song, đập tan quân Māra, khuất phục mọi đối nghịch, vui không sợ từ đâu. Giữ ngôn ngữ kệ gắn giải thoát, không nhập thần sáng tạo hoặc cổ vũ bạo lực."
+    },
+    {
+      "id": "sela-exhort",
+      "title": "Sela gọi mọi người nghe",
+      "segments": [
+        "mn92:20.1",
+        "mn92:20.2",
+        "mn92:20.3",
+        "mn92:20.4",
+        "mn92:20.5",
+        "mn92:20.6",
+        "mn92:20.7",
+        "mn92:20.8"
+      ],
+      "summary": "Sela gọi nghe bậc có mắt/y sĩ/anh hùng rống như sư tử rừng; nhắc Phạm thiên vô song/thắng quân Māra, hỏi ai thấy không tin ngay người dòng tối tăm. Giữ cách gọi lịch sử trong lời Sela, không áp nhãn giá trị người đọc; cakkhumā không tự thêm chữ Pháp."
+    },
+    {
+      "id": "choice",
+      "title": "Lựa chọn của thầy và trò",
+      "segments": [
+        "mn92:20.9",
+        "mn92:20.10",
+        "mn92:20.11",
+        "mn92:20.12"
+      ],
+      "summary": "Sela cho ai muốn theo thì theo, không muốn thì đi; mình sẽ xuất gia nơi bậc trí tối thượng. Không ép cả nhóm."
+    },
+    {
+      "id": "students",
+      "title": "Lời đáp của học trò",
+      "segments": [
+        "mn92:21.1",
+        "mn92:21.2",
+        "mn92:21.3",
+        "mn92:21.4"
+      ],
+      "summary": "Học trò nói nếu thầy tán thành giáo pháp bậc Chánh giác, họ cũng sẽ xuất gia nơi bậc trí tối thượng; giữ điều kiện trong lời đáp."
+    },
+    {
+      "id": "request",
+      "title": "Ba trăm người chắp tay xin",
+      "segments": [
+        "mn92:22.1",
+        "mn92:22.2",
+        "mn92:22.3",
+        "mn92:22.4"
+      ],
+      "summary": "Sela trình 300 bà-la-môn chắp tay xin sống phạm hạnh trước Phật; nguyện vọng khác thời điểm được thọ giới."
+    },
+    {
+      "id": "training",
+      "title": "Lời đáp có điều kiện tu học",
+      "segments": [
+        "mn92:23.1",
+        "mn92:23.2",
+        "mn92:23.3",
+        "mn92:23.4",
+        "mn92:23.5"
+      ],
+      "summary": "Phật nói đời tu được khéo giảng, thấy được hiện tại/không chờ thời gian; xuất gia không uổng cho người không buông lung học tập. Điều kiện cuối không bị bỏ để hứa kết quả tức thì cho bất cứ ai."
+    },
+    {
+      "id": "ordination",
+      "title": "Được xuất gia và thọ cụ túc",
+      "segments": [
+        "mn92:24.1"
+      ],
+      "summary": "Sela cùng hội chúng thực sự được xuất gia và thọ cụ túc trước Phật, không chỉ mới xin; giải nghĩa hai bước cho người mới đọc."
+    },
+    {
+      "id": "meal",
+      "title": "Bữa dâng của Keṇiya",
+      "segments": [
+        "mn92:25.1",
+        "mn92:25.2",
+        "mn92:25.3",
+        "mn92:25.4",
+        "mn92:25.5",
+        "mn92:25.6"
+      ],
+      "summary": "Qua đêm chuẩn bị món cứng/mềm ngon tại am, báo đã đến giờ/cơm sẵn. Phật buổi sáng đắp y cầm bát/y, ngồi chỗ soạn cùng Tăng. Keṇiya chính tay dâng/mời no đủ đoàn có Phật đứng đầu; Phật ăn xong tay rời bát, ông lấy chỗ thấp ngồi bên và được kệ tán thán. Giữ tay rời bát theo root/Việt/HTML, không thêm rửa như Anh."
+    },
+    {
+      "id": "appreciation",
+      "title": "Bảy so sánh tán thán",
+      "segments": [
+        "mn92:26.1",
+        "mn92:26.2",
+        "mn92:26.3",
+        "mn92:26.4",
+        "mn92:26.5",
+        "mn92:26.6",
+        "mn92:26.7",
+        "mn92:26.8",
+        "mn92:26.9"
+      ],
+      "summary": "Tế lửa đầu các tế lễ, Sāvitrī đầu thể thi luật, vua đầu loài người, biển đầu sông, trăng đầu sao, mặt trời đầu vật chiếu sáng; với người hiến tế cầu phước, Tăng tối thượng. HTML đảo quan hệ tế lửa và bỏ mặt trời; giữ đủ sáu so sánh dẫn tới kết thứ bảy. Phật tán thán xong đứng đi."
+    },
+    {
+      "id": "realization",
+      "title": "Tự chứng sau khi tu",
+      "segments": [
+        "mn92:27.1",
+        "mn92:27.2",
+        "mn92:27.3"
+      ],
+      "summary": "Sela và hội chúng sống riêng/yên vắng/không buông lung/nhiệt tâm/quyết chí, chẳng lâu tự biết/chứng/an trú mục đích tối thượng của người xuất gia ngay hiện tại. Bốn vế sinh tận/phạm hạnh xong/việc làm xong/không trở lại; họ thành A-la-hán. Không suy chỉ tán thán là chứng quả."
+    },
+    {
+      "id": "return",
+      "title": "Trở lại chắp tay thưa",
+      "segments": [
+        "mn92:28.1"
+      ],
+      "summary": "Sela cùng hội chúng đến Phật, y một vai/chắp tay hướng Ngài/thưa kệ; không thêm ngồi hoặc đã lễ trước khi xin."
+    },
+    {
+      "id": "eighth-day",
+      "title": "Ngày thứ tám và bảy đêm",
+      "segments": [
+        "mn92:28.2",
+        "mn92:28.3",
+        "mn92:28.4",
+        "mn92:28.5"
+      ],
+      "summary": "Hôm nay ngày thứ tám kể từ nương tựa, trong bảy đêm được rèn phục trong giáo pháp. Giữ đêm theo root/Việt/HTML, không đổi thành ngày của Anh hoặc tám ngày đã trôi của HTML."
+    },
+    {
+      "id": "guide",
+      "title": "Bậc dẫn qua bờ",
+      "segments": [
+        "mn92:28.6",
+        "mn92:28.7",
+        "mn92:28.8",
+        "mn92:28.9"
+      ],
+      "summary": "Ngài là Phật/Thầy/Mâu-ni thắng Māra; đã chặt tùy miên, tự qua và đưa người qua. HTML không nêu rõ tùy miên, bản mới mở nghĩa khuynh hướng ẩn sâu nhưng không thêm danh sách."
+    },
+    {
+      "id": "freedom",
+      "title": "Sanh y, lậu hoặc và không chấp",
+      "segments": [
+        "mn92:28.10",
+        "mn92:28.11",
+        "mn92:28.12",
+        "mn92:28.13"
+      ],
+      "summary": "Vượt sanh y, tan lậu hoặc, như sư tử không chấp thủ/hết sợ khiếp; phân biệt upadhi và upādāna theo chú thích thay gộp tất cả thành bám víu. Giải thích vừa đủ chỗ dựa nuôi sinh hữu và nhiễm tâm, không tự quyết toàn hệ thuật ngữ."
+    },
+    {
+      "id": "bow-request",
+      "title": "Lời xin được lễ Thầy",
+      "segments": [
+        "mn92:28.14",
+        "mn92:28.15",
+        "mn92:28.16",
+        "mn92:28.17"
+      ],
+      "summary": "Ba trăm tỳ-kheo đang đứng chắp tay; xin bậc anh hùng duỗi chân để đại tượng đảnh lễ Thầy. Là lời xin, không khẳng định Phật đã làm; đại tượng chỉ các bậc tu, không đàn voi thật."
+    },
+    {
+      "id": "close",
+      "title": "Kết và vị trí trong nhóm",
+      "segments": [
+        "mn92:28.18"
+      ],
+      "summary": "Kinh Sela kết thúc, bài thứ hai trong nhóm; không phải bài thứ hai Trung Bộ. Anh trống, HTML không in nhãn cuối; root/Việt có."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "MN92 cho trẻ em — Từ nghe điều hay đến tự mình học và làm",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một bữa cúng dẫn tới cuộc gặp",
+          "meaningUnits": [
+            "opening"
+          ],
+          "paragraphs": [
+            "Kinh Sela là bài 92 của Trung Bộ. Người truyền kinh mở đầu bằng điều đã nghe: Đức Phật đi trong xứ Aṅguttarāpa cùng 1.250 tỳ-kheo, những người nam xuất gia sống đời tu. Đoàn đến thị trấn Āpaṇa."
+          ]
+        },
+        {
+          "id": "news",
+          "kind": "teaching",
+          "heading": "Keṇiya nghe tin về Đức Phật",
+          "meaningUnits": [
+            "reputation"
+          ],
+          "paragraphs": [
+            "Keṇiya, một đạo sĩ để tóc búi, nghe rằng Gotama đã rời gia đình Sakiya đi tu, nay đến thị trấn cùng đoàn 1.250 vị. Người ta ca ngợi Ngài là A-la-hán, hết những trói buộc gây khổ; Chánh Đẳng Giác, tự giác ngộ trọn vẹn; có hiểu biết và hạnh tốt; Thiện Thệ, khéo đi tới an lành; hiểu thế gian; bậc dẫn dắt tối thượng người có thể rèn luyện; thầy của chư thiên, các vị ở cõi trời, và loài người; Phật, bậc giác ngộ; Thế Tôn, bậc được tôn kính.",
+            "Ngài tự mình biết rõ thế giới cùng chư thiên, Ma vương Māra, vị trời Phạm thiên, các người tu, bà-la-môn, trời và người, rồi giảng cho người khác. Bà-la-môn là người thuộc truyền thống học kinh và nghi lễ. Pháp, lời dạy của Ngài, tốt đẹp ở đầu, giữa và cuối, rõ cả ý lẫn lời, chỉ ra đời tu hoàn toàn trong sạch. Được gặp bậc ấy là điều tốt."
+          ]
+        },
+        {
+          "id": "talk",
+          "kind": "teaching",
+          "heading": "Lời giảng làm người nghe sáng ra",
+          "meaningUnits": [
+            "first-talk"
+          ],
+          "paragraphs": [
+            "Keṇiya tới, chào hỏi thân thiện rồi ngồi bên Phật. Phật giảng giúp ông hiểu, khuyến khích, làm ông phấn khởi và vui. Sau khi nhận đủ những điều ấy, ông ngỏ lời mời."
+          ]
+        },
+        {
+          "id": "invitations",
+          "kind": "teaching",
+          "heading": "Ba lần mời, rồi được nhận",
+          "meaningUnits": [
+            "invitations"
+          ],
+          "paragraphs": [
+            "Ông mời Phật cùng đoàn tỳ-kheo dùng bữa ngày mai. Phật nhắc: đoàn rất đông, 1.250 vị, còn ông vốn tin kính các bà-la-môn.",
+            "Lần thứ hai, Keṇiya nói dù đoàn đông như vậy và dù mình tin kính bà-la-môn, ông vẫn xin mời ngày mai. Phật nhắc lại cả hai điều. Lần thứ ba, ông vẫn nhận cả hai điều ấy và mời như trước. Bấy giờ, Phật im lặng nhận lời."
+          ]
+        },
+        {
+          "id": "work",
+          "kind": "teaching",
+          "heading": "Mỗi người giúp một việc",
+          "meaningUnits": [
+            "preparations"
+          ],
+          "paragraphs": [
+            "Biết Phật nhận lời, Keṇiya đứng dậy về am, nơi mình tu. Ông gọi bạn bè, thân hữu, bà con và người cùng huyết thống, cho biết đã mời Phật cùng Tăng, đoàn tỳ-kheo, ngày mai; nhờ mọi người giúp các việc tay chân.",
+            "Họ đồng ý. Người đào lò, người chẻ củi, người rửa bát nồi, người đặt bình nước, người trải chỗ ngồi. Keṇiya tự dựng lều hội."
+          ]
+        },
+        {
+          "id": "sela",
+          "kind": "teaching",
+          "heading": "Người thầy có ba trăm học trò",
+          "meaningUnits": [
+            "sela"
+          ],
+          "paragraphs": [
+            "Sela là một bà-la-môn ở Āpaṇa, được Keṇiya kính tin. Ông thông ba Vệ Đà, kinh sách của truyền thống mình, cùng từ vựng, nghi lễ, cách phát âm và phân loại từ; truyện xưa được kể là phần thứ năm. Ông rành từng chữ, ngữ pháp, học thuyết thế giới và các tướng đại nhân, những dấu hiệu của người lớn lao. Ông dạy ba trăm học trò trẻ tụng các bài đã học."
+          ]
+        },
+        {
+          "id": "visit",
+          "kind": "teaching",
+          "heading": "Sela ngạc nhiên trước việc chuẩn bị",
+          "meaningUnits": [
+            "visit-questions"
+          ],
+          "paragraphs": [
+            "Khi đi dạo cùng ba trăm học trò, Sela ghé am. Ông thấy đủ năm việc đang làm và Keṇiya tự dựng lều. Ông hỏi: sắp rước dâu, đưa dâu, làm một lễ hiến tế lớn, hay mời vua Seniya Bimbisāra xứ Magadha cùng quân tới ngày mai?"
+          ]
+        },
+        {
+          "id": "answer",
+          "kind": "teaching",
+          "heading": "Người khách được mời là ai?",
+          "meaningUnits": [
+            "feast-reply"
+          ],
+          "paragraphs": [
+            "Keṇiya đáp: không có hai lễ cưới ấy, cũng không mời vua và quân ngày mai; nhưng ông đang chuẩn bị một lễ cúng lớn. Gotama rời gia đình Sakiya xuất gia, đi trong Aṅguttarāpa với 1.250 vị, đã tới Āpaṇa. Ông nhắc đầy đủ những danh hiệu tốt đẹp của Phật đã kể ở trên và nói đã mời Ngài cùng Tăng dùng bữa ngày mai."
+          ]
+        },
+        {
+          "id": "word",
+          "kind": "teaching",
+          "heading": "Một tiếng khiến Sela hỏi lại",
+          "meaningUnits": [
+            "buddha-word"
+          ],
+          "paragraphs": [
+            "Sela hỏi có phải Keṇiya vừa nói bậc Phật không. Keṇiya đáp đúng vậy. Sela hỏi lại lần nữa; Keṇiya lại xác nhận. Sela nghĩ: ngay cả nghe tiếng Phật cũng là điều hiếm có trong đời."
+          ]
+        },
+        {
+          "id": "paths",
+          "kind": "teaching",
+          "heading": "Điều Sela nhớ từ bài tụng",
+          "meaningUnits": [
+            "two-paths",
+            "royal-path",
+            "renunciant-path"
+          ],
+          "paragraphs": [
+            "Ông nhớ lời truyền về ba mươi hai tướng đại nhân: người có đủ chỉ có hai con đường, không có đường thứ ba. Nếu ở nhà, người ấy là vua Chuyển luân chính trực, trị nước theo lẽ phải, thắng bốn phương, làm đất nước vững. Bảy báu gồm bánh xe, voi, ngựa, ngọc, người nữ, gia chủ (người tại gia) và tướng quân.",
+            "Vua ấy có hơn nghìn con trai dũng mãnh, đánh thắng quân địch; trị đất tới biển bằng lẽ phải, không dùng gậy hay kiếm. Nếu rời nhà đi tu, người đủ tướng thành A-la-hán Chánh Đẳng Giác, vén màn che thế gian. Đây là điều Sela đang nhớ từ truyền thống của mình."
+          ]
+        },
+        {
+          "id": "forest",
+          "kind": "teaching",
+          "heading": "Đi nhẹ và chờ người khác nói xong",
+          "meaningUnits": [
+            "direction",
+            "quiet-approach"
+          ],
+          "paragraphs": [
+            "Sela hỏi Phật, bậc A-la-hán Chánh Đẳng Giác, đang ở đâu. Keṇiya giơ tay phải chỉ dãy rừng xanh. Sela cùng ba trăm học trò đi tới.",
+            "Ông dặn đi yên, đặt bước nhẹ, vì những bậc Thế Tôn khó tới gần như sư tử sống một mình. Ông cũng dặn: khi mình trò chuyện với Gotama, đừng ngắt giữa chừng, hãy đợi nói xong."
+          ]
+        },
+        {
+          "id": "marks",
+          "kind": "teaching",
+          "heading": "Hai tướng còn chưa rõ",
+          "meaningUnits": [
+            "first-doubt",
+            "known-doubt"
+          ],
+          "paragraphs": [
+            "Sela chào hỏi thân thiện, ngồi bên rồi tìm các tướng trên thân Phật. Ông thấy phần lớn, còn nghi, do dự, chưa tin chắc, chưa rõ hai điều: bộ phận sinh dục được che kín và lưỡi rộng dài.",
+            "Phật biết Sela thấy những tướng khác mà còn đủ các điều phân vân ấy về đúng hai tướng này."
+          ]
+        },
+        {
+          "id": "display",
+          "kind": "teaching",
+          "heading": "Phật cho Sela thấy",
+          "meaningUnits": [
+            "display"
+          ],
+          "paragraphs": [
+            "Kinh kể Phật dùng thần thông, năng lực đặc biệt, khiến Sela thấy tướng kín. Ngài đưa lưỡi qua lại chạm cả hai lỗ tai, cả hai lỗ mũi và phủ cả trán."
+          ]
+        },
+        {
+          "id": "uncertain",
+          "kind": "teaching",
+          "heading": "Thấy đủ tướng vẫn còn câu hỏi",
+          "meaningUnits": [
+            "further-question"
+          ],
+          "paragraphs": [
+            "Sela nghĩ Gotama đủ ba mươi hai tướng, không thiếu; nhưng ông vẫn chưa biết Ngài có phải bậc Phật không. Ông nhớ các bà-la-môn cao tuổi, những bậc thầy của thầy, nói rằng bậc giác ngộ sẽ tự tỏ khi được ca ngợi. Vì thế ông chọn những câu kệ hợp lẽ để khen ngay trước mặt Phật và bắt đầu đọc."
+          ]
+        },
+        {
+          "id": "praise",
+          "kind": "teaching",
+          "heading": "Những lời khen của Sela",
+          "meaningUnits": [
+            "praise-body",
+            "praise-sun"
+          ],
+          "paragraphs": [
+            "Ông khen thân Phật trọn vẹn, rạng rỡ, đẹp và dễ nhìn; da vàng, răng trắng, đầy sức mạnh. Tất cả dấu hiệu của bậc nam tử cao quý, các tướng đại nhân, đều có nơi Ngài.",
+            "Ông khen mắt sáng, mặt đẹp, dáng cao, thẳng, oai nghiêm; giữa đoàn người tu, Phật sáng như mặt trời. Ông lại khen vị tỳ-kheo đẹp, da như vàng, rồi hỏi: với vẻ đẹp ấy, sống đời sa-môn để làm gì? Sa-môn là người rời nhà tu tập; đây là câu hỏi của Sela."
+          ]
+        },
+        {
+          "id": "king-proposal",
+          "kind": "teaching",
+          "heading": "Ông mời Phật làm vua",
+          "meaningUnits": [
+            "praise-king"
+          ],
+          "paragraphs": [
+            "Sela nói Ngài xứng làm vua Chuyển luân, đứng đầu các chiến xa, thắng bốn phương, làm chủ xứ Jambu. Các vua dòng quý tộc nên theo phò Ngài. Ông mời Gotama trị nước, làm vua trên các vua, người đứng đầu loài người."
+          ]
+        },
+        {
+          "id": "dhamma",
+          "kind": "teaching",
+          "heading": "Phật nói về một bánh xe khác",
+          "meaningUnits": [
+            "dhamma-king",
+            "general-question"
+          ],
+          "paragraphs": [
+            "Phật đáp mình đã là vua: vua Chánh pháp vô thượng, bậc cao nhất về lời dạy đúng. Bằng Pháp, Ngài chuyển bánh xe không thể quay ngược.",
+            "Sela nhắc lời Ngài tự nhận giác ngộ, là vua Chánh pháp và chuyển bánh xe bằng Pháp. Ông hỏi ai là đại tướng, người học trò nối bước Thầy, tiếp tục bánh xe Pháp Ngài đã chuyển."
+          ]
+        },
+        {
+          "id": "sariputta",
+          "kind": "teaching",
+          "heading": "Người tiếp nối lời dạy",
+          "meaningUnits": [
+            "sariputta"
+          ],
+          "paragraphs": [
+            "Phật trả lời: bánh xe Pháp vô thượng do Ngài chuyển, Sāriputta tiếp tục chuyển, nối dõi Như Lai. Như Lai là một cách gọi Đức Phật. Việc nối dõi ở đây là tiếp nối Pháp."
+          ]
+        },
+        {
+          "id": "fulfilled",
+          "kind": "teaching",
+          "heading": "Biết, tu và bỏ",
+          "meaningUnits": [
+            "fulfilled"
+          ],
+          "paragraphs": [
+            "Phật nói điều cần tự mình biết rõ, Ngài đã biết; điều cần tu, Ngài đã tu; điều cần bỏ, Ngài đã bỏ. Vì vậy Ngài là Phật. Lời đáp nói đến những việc đã hoàn thành."
+          ]
+        },
+        {
+          "id": "rare",
+          "kind": "teaching",
+          "heading": "Bậc hiếm gặp trong đời",
+          "meaningUnits": [
+            "rare-awakening"
+          ],
+          "paragraphs": [
+            "Ngài mời Sela bỏ nghi và tin vững. Thật khó thường xuyên thấy bậc giác ngộ; cũng hiếm khi các bậc ấy xuất hiện trong đời. Ngài là bậc giác ngộ ấy, được kệ gọi là y sĩ vô thượng, bậc thầy chữa lành cao nhất."
+          ]
+        },
+        {
+          "id": "fearless",
+          "kind": "teaching",
+          "heading": "Niềm vui không còn sợ hãi",
+          "meaningUnits": [
+            "fearless"
+          ],
+          "paragraphs": [
+            "Kệ tiếp dùng hình ảnh hiện thân Phạm thiên, vị trời cao quý, không ai sánh: đập tan quân Māra, khuất phục mọi đối nghịch, vui mà không sợ từ nơi nào. Những hình ảnh mạnh mẽ ấy nằm trong lời nói về giác ngộ và giải thoát."
+          ]
+        },
+        {
+          "id": "call",
+          "kind": "teaching",
+          "heading": "Sela gọi mọi người lắng nghe",
+          "meaningUnits": [
+            "sela-exhort"
+          ],
+          "paragraphs": [
+            "Sela bảo mọi người nghe lời bậc có mắt, bậc thấy rõ, vị y sĩ và anh hùng rống như sư tử giữa rừng. Ông nhắc hình ảnh Phạm thiên không ai sánh, thắng quân Māra, rồi hỏi: ai thấy lại không tin, ngay cả người thuộc dòng tối tăm?",
+            "Dòng tối tăm là cách gọi trong lời kệ xưa; khi đọc, ta không dùng nó để coi thường hay xếp hạng người quanh mình."
+          ]
+        },
+        {
+          "id": "choice",
+          "kind": "teaching",
+          "heading": "Ai muốn thì theo",
+          "meaningUnits": [
+            "choice",
+            "students",
+            "request"
+          ],
+          "paragraphs": [
+            "Sela nói ai muốn thì theo mình, ai không muốn có thể đi; riêng ông sẽ xuất gia bên bậc trí tuệ tối thượng. Các học trò đáp: nếu thầy tán thành lời dạy của bậc Chánh giác, họ cũng sẽ xuất gia bên Ngài.",
+            "Sela thưa rằng ba trăm bà-la-môn này đang chắp tay xin được sống phạm hạnh, đời tu trong sạch, bên Phật."
+          ]
+        },
+        {
+          "id": "training",
+          "kind": "teaching",
+          "heading": "Lời đáp nhắc việc chuyên tâm học",
+          "meaningUnits": [
+            "training",
+            "ordination"
+          ],
+          "paragraphs": [
+            "Phật nói đời tu đã được giảng rõ, có thể thấy ngay trong hiện tại, không phải chờ thời gian. Việc xuất gia không uổng đối với người chuyên tâm học tập, không buông lung.",
+            "Sela cùng cả nhóm được xuất gia và thọ cụ túc, nhận đầy đủ giới để làm tỳ-kheo. Họ đã bước vào đời tu, rồi còn phải thực hành."
+          ]
+        },
+        {
+          "id": "meal",
+          "kind": "teaching",
+          "heading": "Bữa cúng đúng lời đã mời",
+          "meaningUnits": [
+            "meal"
+          ],
+          "paragraphs": [
+            "Qua đêm ấy, Keṇiya cho soạn món cứng, món mềm ngon ở am rồi báo đã tới giờ, cơm đã sẵn. Buổi sáng, Phật đắp y, cầm bát và y, tới ngồi chỗ soạn cùng Tăng.",
+            "Keṇiya tự tay dâng và mời cho đầy đủ đoàn có Phật đứng đầu. Phật ăn xong, tay rời bát; ông lấy chỗ ngồi thấp, ngồi bên. Phật đọc kệ tán thán."
+          ]
+        },
+        {
+          "id": "thanks",
+          "kind": "teaching",
+          "heading": "Bài kệ nói về điều đứng đầu",
+          "meaningUnits": [
+            "appreciation"
+          ],
+          "paragraphs": [
+            "Kệ nêu sáu hình ảnh: tế lửa đứng đầu các lễ hiến tế; Sāvitrī đứng đầu các thể thơ; vua đứng đầu loài người; biển đứng đầu các dòng sông; trăng đứng đầu các sao; mặt trời đứng đầu những vật chiếu sáng.",
+            "Rồi kệ kết: đối với người dâng cúng mong có phước, Tăng chúng là bậc cao nhất. Phước là điều lành có được từ việc thiện. Tán thán xong, Phật đứng dậy ra đi."
+          ]
+        },
+        {
+          "id": "realization",
+          "kind": "teaching",
+          "heading": "Tự mình thực hành và thấy rõ",
+          "meaningUnits": [
+            "realization"
+          ],
+          "paragraphs": [
+            "Sela cùng các vị trong nhóm sống riêng ở nơi yên vắng, không buông lung, nhiệt tâm và quyết chí. Chẳng bao lâu, họ tự mình biết rõ, chứng đạt và sống trong mục đích cao nhất của đời xuất gia ngay hiện tại.",
+            "Họ biết sinh đã hết, đời tu đã hoàn thành, việc phải làm đã làm, không còn trở lại đời sống ấy nữa. Kinh nói Sela cùng cả nhóm trở thành A-la-hán. Câu chuyện đi qua việc tu, rồi mới tới kết quả này."
+          ]
+        },
+        {
+          "id": "eighth-day",
+          "kind": "teaching",
+          "heading": "Ngày thứ tám trở lại gặp Thầy",
+          "meaningUnits": [
+            "return",
+            "eighth-day"
+          ],
+          "paragraphs": [
+            "Sela cùng các vị tới gặp Phật, khoác y một vai và chắp tay hướng Ngài. Sela thưa bằng kệ: nay là ngày thứ tám từ khi chúng con nương tựa Ngài, bậc thấy rõ; trong bảy đêm ấy, chúng con đã được rèn phục trong giáo pháp."
+          ]
+        },
+        {
+          "id": "guide",
+          "kind": "teaching",
+          "heading": "Bậc đã qua bờ và giúp người khác qua",
+          "meaningUnits": [
+            "guide"
+          ],
+          "paragraphs": [
+            "Ông ca ngợi Ngài là Phật, là Thầy, là Mâu-ni, bậc hiền trí thắng Māra. Ngài đã cắt các tùy miên, những khuynh hướng gây khổ ẩn sâu; đã qua bờ và đưa loài người qua. Hình ảnh qua bờ nói tới sự thoát khỏi sinh tử."
+          ]
+        },
+        {
+          "id": "freedom",
+          "kind": "teaching",
+          "heading": "Những trói buộc đã dứt",
+          "meaningUnits": [
+            "freedom"
+          ],
+          "paragraphs": [
+            "Kệ nói Phật vượt các sanh y, những chỗ dựa nuôi tiếp vòng sinh tử; phá các lậu hoặc, những nhiễm bẩn trong tâm. Ngài như sư tử không chấp thủ, không còn nắm giữ, đã hết sợ hãi và khiếp đảm."
+          ]
+        },
+        {
+          "id": "last",
+          "kind": "teaching",
+          "heading": "Lời xin được tỏ lòng kính",
+          "meaningUnits": [
+            "bow-request",
+            "close"
+          ],
+          "paragraphs": [
+            "Ba trăm tỳ-kheo đứng chắp tay. Sela xin bậc anh hùng duỗi chân để những đại tượng được lễ Thầy. Đại tượng ở đây là lời tôn kính những bậc tu lớn lao. Kinh Sela kết ở lời xin ấy; đây là bài thứ hai trong nhóm."
+          ]
+        },
+        {
+          "id": "meaning",
+          "kind": "clarification",
+          "heading": "Theo câu chuyện tới việc tu",
+          "meaningUnits": [
+            "further-question",
+            "fulfilled",
+            "training",
+            "realization"
+          ],
+          "paragraphs": [
+            "Sela bắt đầu bằng điều mình đã học về tướng mạo, tiếp tục hỏi, nghe Phật nói về điều đã biết, đã tu, đã bỏ, rồi cùng học trò thực hành. Ta cần theo đủ các chặng ấy. Thấy người có vẻ ngoài nổi bật hay nghe một lời khen chưa phải tự mình hiểu và làm được điều họ dạy."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: học gấp giấy",
+          "meaningUnits": [
+            "further-question",
+            "training"
+          ],
+          "paragraphs": [
+            "Một bạn nghe cô hướng dẫn gấp giấy rất giỏi. Bạn xem mẫu đẹp, hỏi chỗ chưa hiểu rồi tự tập từng nếp gấp. Mẫu đẹp khiến bạn muốn học; chính lúc tập, bạn biết mình hiểu đến đâu. Ví dụ này chỉ giúp hình dung việc chuyển từ nghe, nhìn sang học và làm; sự giải thoát trong kinh đi xa hơn một kỹ năng."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: nghe hết rồi thử một việc lành",
+          "meaningUnits": [
+            "quiet-approach",
+            "training"
+          ],
+          "paragraphs": [
+            "Trong cuộc nói chuyện hôm nay, em có thể chờ người khác nói xong, hỏi nhẹ nhàng điều chưa rõ. Sau đó chọn một việc lành vừa sức để tập, như giữ lời đã hứa. Nhìn lại mình đã làm được gì và còn cần học gì. Đây là bước nhỏ để tập lắng nghe và chuyên tâm, không phải cách lặp lại thành tựu được kể trong kinh."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "MN92 cho người trưởng thành — Uy tín, đối thoại và sự tự chứng",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Khởi đầu từ một lời mời",
+          "meaningUnits": [
+            "opening",
+            "reputation"
+          ],
+          "paragraphs": [
+            "Kinh Sela, Trung Bộ 92, được người truyền kể như điều đã nghe. Đức Phật du hành Aṅguttarāpa cùng 1.250 tỳ-kheo, những vị nam xuất gia, tới thị trấn Āpaṇa. Đạo sĩ búi tóc Keṇiya nghe tin Gotama từ gia đình Sakiya xuất gia, nay đến cùng đoàn ấy.",
+            "Danh tiếng gồm A-la-hán, bậc giải thoát; Chánh Đẳng Giác, tự giác ngộ trọn vẹn; đầy đủ minh và hạnh, hiểu biết và đức hạnh; Thiện Thệ, khéo đi tới an lành; hiểu thế gian; người dẫn dắt tối thượng những ai có thể được rèn luyện; thầy của chư thiên, các vị cõi trời, và loài người; Phật; Thế Tôn, bậc được tôn kính. Ngài tự biết và chứng thế giới có chư thiên, Māra, Phạm thiên, sa-môn, bà-la-môn, trời và người, rồi giảng. Māra là Ma vương, Phạm thiên là vị trời; sa-môn là người tu, bà-la-môn thuộc truyền thống kinh sách Vệ Đà. Pháp được giảng tốt ở đầu, giữa, cuối, trọn nghĩa lời, nêu phạm hạnh, đời tu hoàn toàn trong sạch. Gặp bậc như thế là điều tốt."
+          ]
+        },
+        {
+          "id": "welcome",
+          "kind": "teaching",
+          "heading": "Từ nghe Pháp đến ba lần thỉnh mời",
+          "meaningUnits": [
+            "first-talk",
+            "invitations"
+          ],
+          "paragraphs": [
+            "Keṇiya tới chào hỏi thân thiện, ngồi bên. Phật giảng giúp ông hiểu, khuyến khích, làm phấn khởi và hoan hỷ. Được tác động đủ bốn mặt ấy, ông mời Phật cùng Tăng, cộng đoàn tỳ-kheo, dùng bữa ngày mai.",
+            "Phật nhắc đoàn có 1.250 vị và ông vốn tín kính bà-la-môn. Lượt mời thứ hai, Keṇiya thừa nhận cả hai điều nhưng vẫn xin mời ngày mai; Phật nhắc lại. Lượt thứ ba, ông vẫn nhận cả hai điều và mời như trước. Phật im lặng chấp thuận."
+          ]
+        },
+        {
+          "id": "preparation",
+          "kind": "teaching",
+          "heading": "Sự chuẩn bị có người cùng làm",
+          "meaningUnits": [
+            "preparations",
+            "sela"
+          ],
+          "paragraphs": [
+            "Keṇiya biết được nhận lời, đứng dậy về am, nhờ bạn bè, thân hữu, bà con và người cùng huyết thống giúp các việc tay chân cho bữa mai đã mời Phật và Tăng. Họ nhận: đào lò, chẻ củi, rửa bát nồi, đặt bình nước, trải chỗ ngồi. Ông tự dựng lều hội.",
+            "Ở Āpaṇa có Sela, bà-la-môn được Keṇiya kính tin. Ông thông ba Vệ Đà cùng từ vựng, nghi lễ, ngữ âm, phân loại từ, truyện xưa là phần thứ năm; rành từng chữ, ngữ pháp, thế giới học và các tướng đại nhân, những dấu hiệu gắn với bậc lớn lao trong truyền thống ấy. Ông dạy ba trăm học trò trẻ tụng các bài của truyền thống mình."
+          ]
+        },
+        {
+          "id": "guest",
+          "kind": "teaching",
+          "heading": "Người khách nào đáng một cuộc chuẩn bị lớn?",
+          "meaningUnits": [
+            "visit-questions",
+            "feast-reply"
+          ],
+          "paragraphs": [
+            "Sela đi dạo với ba trăm học trò, ghé am, thấy đủ năm việc cùng Keṇiya tự dựng lều. Ông hỏi có rước dâu, đưa dâu, đại hiến tế, hay mời vua Seniya Bimbisāra xứ Magadha cùng quân dùng bữa ngày mai.",
+            "Keṇiya phủ định hai lễ cưới và lời mời vua cùng quân ngày mai; ông xác nhận đang chuẩn bị đại lễ cúng. Ông nhắc Gotama dòng Sakiya xuất gia, tới Āpaṇa trong chuyến Aṅguttarāpa với 1.250 vị, nhắc đủ các danh hiệu đã kể, rồi cho biết đã mời Ngài cùng Tăng ngày mai."
+          ]
+        },
+        {
+          "id": "name",
+          "kind": "teaching",
+          "heading": "Một từ hiếm gặp",
+          "meaningUnits": [
+            "buddha-word",
+            "two-paths"
+          ],
+          "paragraphs": [
+            "Sela hỏi Keṇiya có vừa nói bậc Phật không; được xác nhận. Cả cặp hỏi đáp lặp lại lần thứ hai. Ông nghĩ ngay âm Phật cũng hiếm trong đời. Ông nhớ truyền thống bài tụng về ba mươi hai tướng đại nhân: người đủ tướng chỉ có hai hướng đi, không hướng nào khác."
+          ]
+        },
+        {
+          "id": "destinies",
+          "kind": "teaching",
+          "heading": "Hai hướng của người đủ tướng",
+          "meaningUnits": [
+            "royal-path",
+            "renunciant-path"
+          ],
+          "paragraphs": [
+            "Nếu tại gia, người ấy là Chuyển luân vương chính trực, trị nước theo Pháp, thắng bốn phương, làm đất nước ổn định. Bảy báu là bánh xe, voi, ngựa, ngọc, người nữ, gia chủ (người tại gia) và tướng quân. Hơn nghìn con trai dũng mãnh của vua thắng các đạo quân đối địch; vua trị đất tới biển bằng lẽ phải, không gậy hay kiếm.",
+            "Nếu rời nhà xuất gia, người đủ tướng thành A-la-hán Chánh Đẳng Giác, gỡ màn che thế gian. Những điều này thuộc mạch Sela nhớ lại lời truyền đã học."
+          ]
+        },
+        {
+          "id": "meeting",
+          "kind": "teaching",
+          "heading": "Giữ khoảng lặng cho cuộc đối thoại",
+          "meaningUnits": [
+            "direction",
+            "quiet-approach",
+            "first-doubt",
+            "known-doubt"
+          ],
+          "paragraphs": [
+            "Sela hỏi nơi bậc A-la-hán Chánh Đẳng Giác đang ở. Keṇiya giơ tay phải chỉ dãy rừng xanh. Đi cùng ba trăm học trò, Sela dặn giữ yên, bước nhẹ vì bậc Thế Tôn khó tới gần như sư tử sống riêng; khi ông trao đổi với Gotama, đừng ngắt lời, hãy đợi hết.",
+            "Ông chào hỏi thân thiện, ngồi bên và xem các tướng. Phần lớn đã thấy, còn nghi, do dự, chưa tin chắc, chưa sáng rõ về bộ phận sinh dục được che kín và lưỡi rộng dài. Phật biết ông đã thấy những tướng khác và còn đúng những phân vân ấy về hai tướng này."
+          ]
+        },
+        {
+          "id": "display",
+          "kind": "teaching",
+          "heading": "Điều được thấy chưa kết thúc câu hỏi",
+          "meaningUnits": [
+            "display",
+            "further-question"
+          ],
+          "paragraphs": [
+            "Phật dùng thần thông, năng lực đặc biệt được kinh kể, khiến Sela thấy tướng kín; đưa lưỡi qua lại chạm hai lỗ tai, hai lỗ mũi, phủ toàn trán.",
+            "Sela nghĩ Gotama đủ cả ba mươi hai tướng, không thiếu, nhưng vẫn chưa biết có phải Phật. Ông nhớ lời các bà-la-môn già, những thầy của thầy: bậc giác ngộ tự tỏ khi được tán thán. Vì vậy ông chọn và đọc ngay trước mặt những kệ phù hợp."
+          ]
+        },
+        {
+          "id": "praise",
+          "kind": "teaching",
+          "heading": "Từ vẻ ngoài đến đề nghị làm vua",
+          "meaningUnits": [
+            "praise-body",
+            "praise-sun",
+            "praise-king"
+          ],
+          "paragraphs": [
+            "Sela khen thân trọn vẹn, sáng, đẹp, dễ nhìn; da vàng, răng trắng, đầy dũng lực. Mọi dấu hiệu của nam tử cao quý, các tướng đại nhân, đều hiện diện. Mắt trong, mặt đẹp, cao, thẳng, oai vệ; giữa đoàn sa-môn, Ngài rực như mặt trời. Ông nhắc vẻ đẹp và da như vàng, hỏi đời sa-môn có ích gì với dung sắc ấy.",
+            "Ông mời Gotama làm Chuyển luân vương, bậc đứng đầu các chiến xa, thắng bốn phương, chủ xứ Jambu. Các vua quý tộc nên theo phò; Ngài hãy trị vì, làm vua trên các vua, chủ loài người. Đây là hướng Sela đề nghị."
+          ]
+        },
+        {
+          "id": "dhamma-king",
+          "kind": "teaching",
+          "heading": "Câu trả lời chuyển trọng tâm sang Pháp",
+          "meaningUnits": [
+            "dhamma-king",
+            "general-question",
+            "sariputta"
+          ],
+          "paragraphs": [
+            "Phật đáp Ngài đã là vua, Pháp vương vô thượng. Bằng Pháp, Ngài chuyển bánh xe không thể quay ngược. Sela nhắc lại lời tự nhận giác ngộ, Pháp vương và chuyển bánh xe bằng Pháp, rồi hỏi: ai là đại tướng, đệ tử nối bước Thầy, tiếp tục bánh xe Pháp đã chuyển?",
+            "Phật trả lời bánh xe Pháp vô thượng do Ngài chuyển được Sāriputta tiếp tục. Vị ấy nối dõi Như Lai, một danh xưng của Phật. Sự tiếp nối ở đây là truyền dạy Pháp."
+          ]
+        },
+        {
+          "id": "completion",
+          "kind": "teaching",
+          "heading": "Ba việc đã làm trọn",
+          "meaningUnits": [
+            "fulfilled",
+            "rare-awakening"
+          ],
+          "paragraphs": [
+            "Phật nêu: điều cần biết trực tiếp đã biết; điều cần tu đã tu; điều cần bỏ đã bỏ. Vì vậy Ngài là Phật. Ngài mời Sela bỏ nghi, tin vững: khó thường xuyên được thấy các bậc giác ngộ, và các bậc ấy cũng hiếm xuất hiện trong đời. Ngài là bậc giác ngộ ấy, y sĩ vô thượng, hình ảnh vị thầy thuốc tối thượng trong bài kệ."
+          ]
+        },
+        {
+          "id": "fearlessness",
+          "kind": "teaching",
+          "heading": "Những hình ảnh diễn tả giải thoát",
+          "meaningUnits": [
+            "fearless",
+            "sela-exhort"
+          ],
+          "paragraphs": [
+            "Kệ tiếp gọi Ngài hiện thân Phạm thiên, không ai sánh, đập tan quân Māra, khuất phục mọi đối nghịch, hoan hỷ và không sợ hãi từ đâu.",
+            "Sela bảo mọi người nghe bậc có mắt, bậc thấy rõ, vị y sĩ và đại dũng sĩ rống như sư tử rừng. Ông nhắc hiện thân Phạm thiên vô song, thắng quân Māra; ai thấy lại chẳng tin, ngay người thuộc dòng tối tăm? Cách gọi dòng tối tăm được giữ trong bối cảnh lời kệ xưa, không trở thành thước đo giá trị con người hôm nay."
+          ]
+        },
+        {
+          "id": "choice",
+          "kind": "teaching",
+          "heading": "Lựa chọn đi theo và lời xin tu học",
+          "meaningUnits": [
+            "choice",
+            "students",
+            "request"
+          ],
+          "paragraphs": [
+            "Sela nói ai muốn có thể theo, ai không muốn có thể đi; mình sẽ xuất gia bên bậc trí tuệ tối thượng. Học trò đáp: nếu thầy tán thành giáo pháp bậc Chánh giác, họ cũng sẽ xuất gia bên Ngài.",
+            "Sela trình ba trăm bà-la-môn chắp tay xin được sống phạm hạnh trước Phật. Quyết định của người thầy, lời đáp của học trò và lời xin được kể riêng."
+          ]
+        },
+        {
+          "id": "training",
+          "kind": "teaching",
+          "heading": "Điều kiện không được bỏ quên",
+          "meaningUnits": [
+            "training",
+            "ordination"
+          ],
+          "paragraphs": [
+            "Phật nói đời phạm hạnh được khéo giảng, thấy ngay hiện tại, không phải chờ thời gian; xuất gia không uổng cho người không buông lung tu học. Sela cùng hội chúng được xuất gia và thọ cụ túc, nhận đầy đủ giới tỳ-kheo. Lời dạy gắn giá trị của việc xuất gia với sự chuyên tâm thực hành."
+          ]
+        },
+        {
+          "id": "meal",
+          "kind": "teaching",
+          "heading": "Keṇiya thực hiện lời mời",
+          "meaningUnits": [
+            "meal"
+          ],
+          "paragraphs": [
+            "Qua đêm, Keṇiya cho chuẩn bị thức ăn cứng và mềm ngon tại am, báo đã tới giờ, cơm đã sẵn. Buổi sáng, Phật đắp y, cầm bát và y tới, ngồi chỗ đã soạn cùng Tăng. Keṇiya tự tay dâng, mời cho đầy đủ đoàn do Phật đứng đầu.",
+            "Phật dùng xong, tay rời bát. Keṇiya lấy chỗ ngồi thấp, ngồi bên; Phật tán thán bằng kệ."
+          ]
+        },
+        {
+          "id": "appreciation",
+          "kind": "teaching",
+          "heading": "Sáu hình ảnh và lời kết về Tăng",
+          "meaningUnits": [
+            "appreciation"
+          ],
+          "paragraphs": [
+            "Kệ đặt tế lửa đứng đầu các lễ hiến tế; Sāvitrī đứng đầu các thể thi luật, cách tổ chức câu thơ; vua đứng đầu loài người; đại dương đứng đầu sông; trăng đứng đầu sao; mặt trời đứng đầu vật chiếu sáng. Với người dâng cúng mong cầu phước, Tăng chúng là bậc tối thượng. Phước là kết quả lành của việc thiện. Đọc kệ tán thán xong, Phật đứng dậy đi."
+          ]
+        },
+        {
+          "id": "realization",
+          "kind": "teaching",
+          "heading": "Kết quả đến sau đời sống chuyên tu",
+          "meaningUnits": [
+            "realization"
+          ],
+          "paragraphs": [
+            "Sela cùng hội chúng sống riêng nơi vắng, không buông lung, nhiệt tâm và quyết chí. Chẳng bao lâu, họ tự mình biết trực tiếp, chứng đạt và an trú ngay hiện tại mục tiêu tối thượng mà người chân chính rời nhà xuất gia hướng tới.",
+            "Họ biết sinh đã tận, phạm hạnh đã thành, việc cần làm đã làm, không còn trở lại trạng thái sống ấy. Sela cùng hội chúng trở thành A-la-hán. Mạch kinh đặt sự thực hành và tự chứng sau việc chọn theo học."
+          ]
+        },
+        {
+          "id": "eighth-day",
+          "kind": "teaching",
+          "heading": "Lời thưa ngày thứ tám",
+          "meaningUnits": [
+            "return",
+            "eighth-day"
+          ],
+          "paragraphs": [
+            "Sela cùng các vị tới Phật, khoác y một vai, chắp tay hướng Ngài và thưa bằng kệ. Nay là ngày thứ tám kể từ nương tựa bậc có mắt, bậc thấy rõ; trong bảy đêm ấy, họ đã được rèn phục trong giáo pháp."
+          ]
+        },
+        {
+          "id": "crossing",
+          "kind": "teaching",
+          "heading": "Tự qua bờ rồi giúp người qua",
+          "meaningUnits": [
+            "guide",
+            "freedom"
+          ],
+          "paragraphs": [
+            "Sela ca ngợi Phật là bậc giác ngộ, Thầy, Mâu-ni, bậc hiền trí chiến thắng Māra. Ngài cắt tùy miên, các khuynh hướng gây khổ ẩn sâu; đã qua bờ và đưa loài người qua.",
+            "Ngài vượt các sanh y, những nền tảng nuôi tiếp vòng sinh tử; phá lậu hoặc, những nhiễm bẩn của tâm; như sư tử không chấp thủ và dứt hết sợ hãi, khiếp đảm. Lời kệ giữ riêng sanh y, lậu hoặc và chấp thủ, trong cùng mạch giải thoát khỏi sinh tử."
+          ]
+        },
+        {
+          "id": "closing",
+          "kind": "teaching",
+          "heading": "Lời xin kính lễ",
+          "meaningUnits": [
+            "bow-request",
+            "close"
+          ],
+          "paragraphs": [
+            "Ba trăm tỳ-kheo đứng chắp tay. Sela xin bậc anh hùng duỗi chân để các đại tượng, lời tôn xưng những bậc tu lớn lao, đảnh lễ Đạo sư. Kinh Sela khép ở lời xin này, với ghi nhận bài thứ hai trong nhóm."
+          ]
+        },
+        {
+          "id": "reading",
+          "kind": "clarification",
+          "heading": "Niềm tin được đưa vào việc thực hành",
+          "meaningUnits": [
+            "further-question",
+            "fulfilled",
+            "choice",
+            "training",
+            "realization"
+          ],
+          "paragraphs": [
+            "Sela bước vào cuộc gặp bằng vốn hiểu biết của mình, nhận thấy điều phù hợp, vẫn tiếp tục hỏi, rồi chọn tu học. Lời Phật về biết, tu và bỏ đưa câu chuyện tới điều đã hoàn tất; kết quả của học trò cũng được kể qua đời sống chuyên tu. Mạch ấy giúp người đọc phân biệt danh tiếng, sự kính phục, quyết định theo học và điều tự mình chứng nghiệm."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: một khóa học trong công việc",
+          "meaningUnits": [
+            "further-question",
+            "training"
+          ],
+          "paragraphs": [
+            "Một người chọn khóa học vì uy tín người hướng dẫn. Trong buổi giới thiệu, họ xem sản phẩm mẫu, hỏi điều chưa rõ, rồi làm bài tập thực tế và nhận ra phần mình còn yếu. Uy tín tạo động lực bước vào; việc học cần sự tham gia của chính họ. Ví dụ chỉ soi quan hệ giữa tin, hỏi và thực hành, không đồng nhất năng lực nghề nghiệp với giác ngộ."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: xác định việc cần học và làm",
+          "meaningUnits": [
+            "quiet-approach",
+            "fulfilled",
+            "training"
+          ],
+          "paragraphs": [
+            "Với một điều lành đang học, hãy dành chỗ cho câu hỏi rõ ràng và nghe người khác nói hết. Sau đó chọn một hành động cụ thể, như nói thật trong một việc đang xử lý, và nhìn lại cách mình thực hiện. Có thể dùng ba câu hỏi nhỏ: điều gì cần hiểu hơn, việc tốt nào cần tập, thói quen gây hại nào cần bỏ? Đây là cách gợi nhắc việc tu học trong đời thường, không tự nhận ba việc đã hoàn tất như lời Phật."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "MN92 cho người lớn tuổi — Từ nghe danh đến tự mình thấy rõ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Nghe lại câu chuyện Sela",
+          "meaningUnits": [
+            "opening"
+          ],
+          "paragraphs": [
+            "Đây là kinh Sela, bài 92 của Trung Bộ. Người truyền kinh kể điều đã nghe. Đức Phật du hành trong Aṅguttarāpa cùng 1.250 tỳ-kheo, những vị nam đã xuất gia. Đoàn tới thị trấn Āpaṇa."
+          ]
+        },
+        {
+          "id": "reputation",
+          "kind": "teaching",
+          "heading": "Tin lành Keṇiya được nghe",
+          "meaningUnits": [
+            "reputation"
+          ],
+          "paragraphs": [
+            "Đạo sĩ búi tóc Keṇiya nghe Gotama rời gia đình Sakiya xuất gia, nay đến thị trấn với 1.250 vị. Danh tiếng của Ngài được nhắc là A-la-hán, bậc giải thoát; Chánh Đẳng Giác, tự giác ngộ trọn vẹn; đầy đủ minh và hạnh, hiểu biết và đức hạnh; Thiện Thệ, khéo đi tới an lành; hiểu thế gian; bậc dẫn dắt tối thượng những người có thể rèn luyện; thầy của chư thiên, các vị cõi trời, và loài người; Phật, bậc giác ngộ; Thế Tôn, bậc được tôn kính.",
+            "Ngài tự biết và chứng thế giới cùng chư thiên, Ma vương Māra, vị trời Phạm thiên, các sa-môn tu hành, bà-la-môn thuộc truyền thống Vệ Đà, trời và người, rồi giảng. Pháp tốt đẹp đầu, giữa, cuối, đầy đủ ý nghĩa và lời; nêu phạm hạnh, đời tu hoàn toàn trong sạch. Gặp bậc như thế là điều tốt."
+          ]
+        },
+        {
+          "id": "conversation",
+          "kind": "teaching",
+          "heading": "Được giúp hiểu và khích lệ",
+          "meaningUnits": [
+            "first-talk"
+          ],
+          "paragraphs": [
+            "Keṇiya tới, chào hỏi thân thiện và ngồi bên. Phật giảng giúp ông hiểu, khuyến khích, làm phấn khởi và hoan hỷ. Được đủ những điều ấy, ông thưa lời mời."
+          ]
+        },
+        {
+          "id": "invitations",
+          "kind": "teaching",
+          "heading": "Ba lần thỉnh mời",
+          "meaningUnits": [
+            "invitations"
+          ],
+          "paragraphs": [
+            "Ông mời Phật cùng Tăng chúng tỳ-kheo dùng bữa ngày mai. Phật nhắc đoàn đông 1.250 vị, còn ông có lòng kính tin các bà-la-môn.",
+            "Lần hai, Keṇiya đáp dù đoàn đông như vậy và dù mình kính bà-la-môn, ông vẫn xin mời ngày mai. Phật nhắc lại cả hai điều. Lần ba, ông cũng nhận hai điều ấy rồi mời như trước. Phật im lặng nhận lời."
+          ]
+        },
+        {
+          "id": "preparations",
+          "kind": "teaching",
+          "heading": "Bạn bè và người thân chung tay",
+          "meaningUnits": [
+            "preparations"
+          ],
+          "paragraphs": [
+            "Biết lời mời được nhận, Keṇiya đứng dậy về am tu. Ông gọi bạn bè, thân hữu, bà con và người cùng huyết thống, báo đã mời Phật với Tăng ngày mai, nhờ giúp phần việc tay chân.",
+            "Mọi người vâng lời. Có người đào lò, người chẻ củi, người rửa bát nồi, người đặt bình nước, người trải chỗ ngồi; Keṇiya tự dựng lều hội."
+          ]
+        },
+        {
+          "id": "sela",
+          "kind": "teaching",
+          "heading": "Sela có học vấn rộng",
+          "meaningUnits": [
+            "sela"
+          ],
+          "paragraphs": [
+            "Sela ở Āpaṇa, là bà-la-môn được Keṇiya kính tin. Ông thông ba Vệ Đà, những kinh sách của truyền thống ấy, cùng từ vựng, nghi lễ, ngữ âm và phân loại từ; truyện xưa là phần thứ năm. Ông rành từng chữ, ngữ pháp, học thuyết thế giới, các tướng đại nhân, những dấu hiệu của bậc lớn lao theo truyền thống. Ông dạy ba trăm học trò trẻ tụng những bài đã truyền lại."
+          ]
+        },
+        {
+          "id": "visit",
+          "kind": "teaching",
+          "heading": "Thấy việc chuẩn bị, ông hỏi",
+          "meaningUnits": [
+            "visit-questions"
+          ],
+          "paragraphs": [
+            "Sela đi dạo cùng ba trăm học trò, tới am Keṇiya. Thấy đủ năm việc đang làm và chủ am tự dựng lều, ông hỏi: có rước dâu, đưa dâu, làm đại lễ hiến tế, hay đã mời vua Seniya Bimbisāra xứ Magadha cùng quân đến dùng bữa ngày mai?"
+          ]
+        },
+        {
+          "id": "answer",
+          "kind": "teaching",
+          "heading": "Lời đáp của chủ am",
+          "meaningUnits": [
+            "feast-reply"
+          ],
+          "paragraphs": [
+            "Keṇiya đáp không có hai lễ cưới, không mời vua và quân ngày mai, nhưng đang chuẩn bị một đại lễ cúng. Ông nói Gotama từ gia đình Sakiya xuất gia, cùng 1.250 vị du hành Aṅguttarāpa, đã tới Āpaṇa. Ông nhắc đủ những danh hiệu tốt đẹp đã kể và nói Phật cùng Tăng được mời dùng bữa mai."
+          ]
+        },
+        {
+          "id": "word",
+          "kind": "teaching",
+          "heading": "Hai lần hỏi lại chữ Phật",
+          "meaningUnits": [
+            "buddha-word"
+          ],
+          "paragraphs": [
+            "Sela hỏi có phải Keṇiya vừa nói bậc Phật. Keṇiya xác nhận. Ông hỏi lại lần nữa, lại được xác nhận. Sela nghĩ: ngay âm Phật thôi cũng hiếm có nơi đời."
+          ]
+        },
+        {
+          "id": "paths",
+          "kind": "teaching",
+          "heading": "Hai con đường trong lời truyền",
+          "meaningUnits": [
+            "two-paths",
+            "royal-path",
+            "renunciant-path"
+          ],
+          "paragraphs": [
+            "Ông nhớ trong bài tụng có ba mươi hai tướng đại nhân, dấu hiệu của bậc lớn lao. Người đủ tướng chỉ có hai hướng, không hướng thứ ba. Nếu tại gia, thành Chuyển luân vương, vị vua chính trực trị nước theo lẽ phải, thắng bốn phương, làm đất nước ổn. Bảy báu gồm bánh xe, voi, ngựa, ngọc, người nữ, gia chủ (người tại gia) và tướng quân.",
+            "Vua có hơn nghìn con trai dũng mãnh, thắng quân địch; trị đất tới tận biển bằng lẽ phải, không gậy hay kiếm. Nếu rời nhà đi tu, người đủ tướng thành A-la-hán Chánh Đẳng Giác, vén màn che thế gian. Sela đang nghĩ theo lời truyền mình đã học."
+          ]
+        },
+        {
+          "id": "forest",
+          "kind": "teaching",
+          "heading": "Cùng tới dãy rừng xanh",
+          "meaningUnits": [
+            "direction",
+            "quiet-approach"
+          ],
+          "paragraphs": [
+            "Ông hỏi Gotama, bậc A-la-hán Chánh Đẳng Giác, đang ở đâu. Keṇiya giơ tay phải chỉ dãy rừng xanh. Sela cùng ba trăm học trò đi tới.",
+            "Ông dặn yên lặng, bước nhẹ: những bậc Thế Tôn khó gần như sư tử ở một mình. Khi ông trao đổi với Gotama, mọi người chớ ngắt, hãy chờ nói xong."
+          ]
+        },
+        {
+          "id": "doubts",
+          "kind": "teaching",
+          "heading": "Còn hai điều chưa thấy rõ",
+          "meaningUnits": [
+            "first-doubt",
+            "known-doubt"
+          ],
+          "paragraphs": [
+            "Sela chào hỏi thân thiện, ngồi một bên và xem các tướng. Ông thấy phần lớn, còn nghi, do dự, chưa tin chắc, chưa sáng rõ về hai tướng: bộ phận sinh dục được che kín và lưỡi rộng dài.",
+            "Phật biết ông đã thấy các tướng khác mà còn đúng các phân vân ấy đối với hai tướng này."
+          ]
+        },
+        {
+          "id": "display",
+          "kind": "teaching",
+          "heading": "Đức Phật cho thấy",
+          "meaningUnits": [
+            "display"
+          ],
+          "paragraphs": [
+            "Kinh kể Phật dùng thần thông, năng lực đặc biệt, khiến Sela thấy tướng kín. Ngài đưa lưỡi qua lại chạm cả hai lỗ tai, cả hai lỗ mũi, phủ kín vầng trán."
+          ]
+        },
+        {
+          "id": "question",
+          "kind": "teaching",
+          "heading": "Sela vẫn còn điều muốn biết",
+          "meaningUnits": [
+            "further-question"
+          ],
+          "paragraphs": [
+            "Ông nghĩ Gotama đủ trọn ba mươi hai tướng, không thiếu; nhưng chưa biết Ngài là Phật hay không. Ông nhớ các bà-la-môn cao niên, thầy của những bậc thầy, đã nói: bậc giác ngộ tự tỏ khi được ca ngợi. Ông quyết định và đọc trước mặt Phật những bài kệ xứng đáng."
+          ]
+        },
+        {
+          "id": "praise",
+          "kind": "teaching",
+          "heading": "Những kệ ca ngợi ban đầu",
+          "meaningUnits": [
+            "praise-body",
+            "praise-sun"
+          ],
+          "paragraphs": [
+            "Sela ca ngợi thân trọn vẹn, sáng, đẹp, dễ nhìn; da như vàng, răng trắng, đầy sức mạnh. Mọi dấu hiệu bậc nam tử cao quý, những tướng đại nhân, đều có nơi Ngài.",
+            "Mắt sáng, mặt đẹp, cao lớn, thẳng, oai vệ; giữa đoàn sa-môn, Phật rực như mặt trời. Ông nhắc vị tỳ-kheo đẹp, da vàng, rồi hỏi đời tu có ích gì cho người có dung sắc tốt đến thế."
+          ]
+        },
+        {
+          "id": "kingship",
+          "kind": "teaching",
+          "heading": "Lời đề nghị làm vua",
+          "meaningUnits": [
+            "praise-king"
+          ],
+          "paragraphs": [
+            "Ông nói Ngài xứng Chuyển luân vương, đứng đầu các chiến xa, thắng bốn phương, làm chủ xứ Jambu. Các vua quý tộc hãy theo phò; Gotama hãy trị vì, làm vua trên các vua, đứng đầu loài người."
+          ]
+        },
+        {
+          "id": "dhamma",
+          "kind": "teaching",
+          "heading": "Bánh xe Chánh pháp",
+          "meaningUnits": [
+            "dhamma-king",
+            "general-question"
+          ],
+          "paragraphs": [
+            "Phật đáp Ngài đã là vua, vua Chánh pháp vô thượng. Bằng Pháp, Ngài chuyển bánh xe không thể quay ngược. Ở đây lời đáp hướng tới giáo pháp.",
+            "Sela nhắc Ngài tự nhận giác ngộ, Pháp vương và chuyển bánh xe bằng Pháp. Ông hỏi ai là đại tướng, người học trò nối bước Thầy, tiếp tục bánh xe Pháp Ngài đã chuyển."
+          ]
+        },
+        {
+          "id": "sariputta",
+          "kind": "teaching",
+          "heading": "Người học trò tiếp nối",
+          "meaningUnits": [
+            "sariputta"
+          ],
+          "paragraphs": [
+            "Phật nói bánh xe Pháp vô thượng do Ngài chuyển được Sāriputta tiếp tục. Sāriputta nối dõi Như Lai, danh xưng của Đức Phật. Đó là sự tiếp nối lời dạy."
+          ]
+        },
+        {
+          "id": "fulfilled",
+          "kind": "teaching",
+          "heading": "Điều đã biết, đã tu, đã bỏ",
+          "meaningUnits": [
+            "fulfilled"
+          ],
+          "paragraphs": [
+            "Ngài nói điều cần biết trực tiếp đã biết, điều cần tu đã tu, điều cần bỏ đã bỏ. Vì vậy Ngài là Phật. Những lời này nói sự hoàn thành trọn vẹn."
+          ]
+        },
+        {
+          "id": "rare",
+          "kind": "teaching",
+          "heading": "Lời mời bỏ nghi, tin vững",
+          "meaningUnits": [
+            "rare-awakening"
+          ],
+          "paragraphs": [
+            "Ngài bảo Sela gác bỏ nghi và tin vững. Khó thường xuyên thấy bậc giác ngộ; các bậc ấy cũng hiếm xuất hiện trong đời. Ngài là bậc giác ngộ đó, được kệ gọi là y sĩ vô thượng, bậc chữa lành tối cao."
+          ]
+        },
+        {
+          "id": "fearless",
+          "kind": "teaching",
+          "heading": "Niềm hoan hỷ không sợ hãi",
+          "meaningUnits": [
+            "fearless"
+          ],
+          "paragraphs": [
+            "Kệ dùng hình ảnh hiện thân Phạm thiên không ai sánh, thắng quân Māra, khuất phục mọi đối nghịch; vui mà không sợ từ phương nào. Mạch lời đang nói về giác ngộ, về sự giải thoát."
+          ]
+        },
+        {
+          "id": "invitation",
+          "kind": "teaching",
+          "heading": "Sela mời mọi người lắng nghe",
+          "meaningUnits": [
+            "sela-exhort"
+          ],
+          "paragraphs": [
+            "Sela nói hãy nghe bậc có mắt, bậc thấy rõ, vị y sĩ và anh hùng rống như sư tử giữa rừng. Ông nhắc hiện thân Phạm thiên vô song, đập tan quân Māra, rồi hỏi ai thấy lại chẳng tin, ngay cả người thuộc dòng tối tăm. Cách gọi trong lời kệ xưa được đặt đúng bối cảnh ấy, không dùng để đánh giá phẩm giá ai hôm nay."
+          ]
+        },
+        {
+          "id": "choice",
+          "kind": "teaching",
+          "heading": "Người muốn theo được tự chọn",
+          "meaningUnits": [
+            "choice",
+            "students"
+          ],
+          "paragraphs": [
+            "Sela nói ai muốn thì theo, ai không muốn có thể đi. Ông sẽ xuất gia nơi bậc trí tuệ tối thượng. Các học trò đáp nếu thầy tán thành giáo pháp bậc Chánh giác, họ cũng sẽ xuất gia bên Ngài."
+          ]
+        },
+        {
+          "id": "request",
+          "kind": "teaching",
+          "heading": "Xin được sống đời tu",
+          "meaningUnits": [
+            "request",
+            "training",
+            "ordination"
+          ],
+          "paragraphs": [
+            "Sela trình ba trăm bà-la-môn đang chắp tay xin sống phạm hạnh trước Phật. Phật đáp đời phạm hạnh đã được khéo giảng, thấy được ngay hiện tại, không phải chờ thời gian; xuất gia không uổng với người không buông lung học tập.",
+            "Sela cùng cả nhóm được xuất gia và thọ cụ túc, nhận đầy đủ giới tỳ-kheo. Việc tu học chuyên tâm vẫn là điều kiện lời Phật nhắc."
+          ]
+        },
+        {
+          "id": "offering",
+          "kind": "teaching",
+          "heading": "Bữa ăn ở am Keṇiya",
+          "meaningUnits": [
+            "meal"
+          ],
+          "paragraphs": [
+            "Qua đêm, Keṇiya cho soạn các món cứng, mềm ngon, báo đã tới giờ và cơm đã sẵn. Buổi sáng, Phật đắp y, mang bát và y tới am, ngồi chỗ soạn cùng Tăng.",
+            "Chính tay Keṇiya dâng và mời no đủ đoàn có Phật đứng đầu. Phật ăn xong, tay rời bát; ông lấy chỗ ngồi thấp, ngồi bên. Phật đọc kệ tán thán."
+          ]
+        },
+        {
+          "id": "gratitude",
+          "kind": "teaching",
+          "heading": "Những hình ảnh trong lời tán thán",
+          "meaningUnits": [
+            "appreciation"
+          ],
+          "paragraphs": [
+            "Tế lửa đứng đầu các lễ hiến tế; Sāvitrī đứng đầu các thể thi luật, cách đặt câu thơ; vua đứng đầu loài người; biển đứng đầu sông; trăng đứng đầu sao; mặt trời đứng đầu các vật chiếu sáng.",
+            "Sau sáu hình ảnh ấy, lời kệ kết: với người dâng cúng mong phước, kết quả lành của việc thiện, Tăng chúng là bậc tối thượng. Tán thán xong, Phật đứng dậy ra đi."
+          ]
+        },
+        {
+          "id": "practice-life",
+          "kind": "teaching",
+          "heading": "Sela cùng hội chúng chuyên tu",
+          "meaningUnits": [
+            "realization"
+          ],
+          "paragraphs": [
+            "Sela và các vị sống riêng nơi vắng, không buông lung, nhiệt tâm, quyết chí. Chẳng lâu, họ tự biết trực tiếp, chứng đạt và an trú mục tiêu tối thượng mà người chân chính xuất gia hướng đến, ngay trong hiện tại.",
+            "Họ biết sinh đã tận, đời tu đã xong, việc phải làm đã làm, không còn trở lại trạng thái sống ấy. Sela cùng hội chúng trở thành những bậc A-la-hán. Lời kể cho thấy có đời sống thực hành trước khi tự chứng."
+          ]
+        },
+        {
+          "id": "eighth-day",
+          "kind": "teaching",
+          "heading": "Ngày thứ tám, trở lại thưa chuyện",
+          "meaningUnits": [
+            "return",
+            "eighth-day"
+          ],
+          "paragraphs": [
+            "Sela cùng các vị tới Phật, đắp y một vai, chắp tay hướng Ngài rồi thưa kệ. Hôm nay là ngày thứ tám từ khi nương tựa bậc có mắt, bậc thấy rõ. Trong bảy đêm, họ được rèn phục trong giáo pháp của Ngài."
+          ]
+        },
+        {
+          "id": "guide",
+          "kind": "teaching",
+          "heading": "Bậc đưa người qua bờ",
+          "meaningUnits": [
+            "guide"
+          ],
+          "paragraphs": [
+            "Sela ca ngợi Ngài là Phật, là Thầy, là Mâu-ni, bậc hiền trí thắng Māra. Ngài cắt tùy miên, những khuynh hướng gây khổ ẩn sâu; đã qua bờ và đưa loài người qua. Hình ảnh ấy nói sự vượt thoát sinh tử."
+          ]
+        },
+        {
+          "id": "release",
+          "kind": "teaching",
+          "heading": "Vượt qua những chỗ ràng buộc",
+          "meaningUnits": [
+            "freedom"
+          ],
+          "paragraphs": [
+            "Ngài vượt sanh y, những nền tảng nuôi tiếp vòng sinh tử; phá lậu hoặc, những nhiễm bẩn trong tâm. Như sư tử không chấp thủ, Ngài không còn nắm giữ, đã hết sợ hãi và khiếp đảm."
+          ]
+        },
+        {
+          "id": "reverence",
+          "kind": "teaching",
+          "heading": "Lời xin kính lễ bậc Thầy",
+          "meaningUnits": [
+            "bow-request",
+            "close"
+          ],
+          "paragraphs": [
+            "Ba trăm tỳ-kheo đứng chắp tay. Sela xin bậc anh hùng duỗi chân để các đại tượng, lời tôn kính những bậc tu lớn lao, lễ Đạo sư. Kinh khép ở lời xin ấy. Kinh Sela là bài thứ hai trong nhóm."
+          ]
+        },
+        {
+          "id": "reflection",
+          "kind": "clarification",
+          "heading": "Theo đủ những chặng trong câu chuyện",
+          "meaningUnits": [
+            "further-question",
+            "fulfilled",
+            "training",
+            "realization"
+          ],
+          "paragraphs": [
+            "Nghe danh, gặp gỡ, hỏi, chọn theo học rồi tự tu: các chặng được nối tiếp rõ. Dù thấy đủ tướng, Sela vẫn muốn biết rõ hơn; quyết định xuất gia của ông còn đi cùng việc không buông lung. Khi đọc từng đoạn, có thể dừng để nhận ra ai đang nói, điều gì đã biết, điều gì còn phải thực hành."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: học chăm một chậu cây",
+          "meaningUnits": [
+            "further-question",
+            "training"
+          ],
+          "paragraphs": [
+            "Một người nghe bạn mình chăm cây rất khéo, tới thăm rồi hỏi về điều chưa hiểu. Người ấy học từng việc, tự chăm chậu cây của mình và tiếp tục hỏi khi gặp khó. Sự quý mến người hướng dẫn mở đầu cho việc học; bản thân vẫn cần tham gia. Đây là ví dụ đời thường về tin, hỏi và tập làm; mục tiêu chấm dứt sinh tử trong kinh không được thu lại thành một kỹ năng."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: một điều rõ và vừa sức",
+          "meaningUnits": [
+            "quiet-approach",
+            "training",
+            "preparations"
+          ],
+          "paragraphs": [
+            "Có thể chọn một điều trong ngày: lắng nghe trọn lời người khác, hỏi rõ một đoạn kinh, hoặc san sẻ phần việc vừa sức. Làm xong, nhìn lại ý định và cách mình đã làm. Việc học có thể đi từng bước; các mốc bảy đêm, ngày thứ tám là điều kinh kể về nhóm Sela, không phải lịch hẹn kết quả của người đọc."
+          ]
+        }
+      ]
+    }
+  }
+}
