@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn116",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "824dfe81-13bf-46c7-8cf0-464d20877760"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "5e1bf9ad-9dfe-48f9-a558-46c438e2ce05"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "ef20f9f3-226b-4efc-a638-ea828d8073ab"
+    }
+  },
+  "reviews": [
+    {
+      "id": "824dfe81-13bf-46c7-8cf0-464d20877760",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.6,
+        "audience_fit": 9.3,
+        "clarity": 9.4,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu đủ 96 khóa và toàn HTML xác nhận bốn núi từng đổi tên, riêng Isigili giữ tên; đủ năm trăm vị, mười ba tên văn xuôi và lần xướng lại. Các tên Matula, Dvārabhāja, Upasikhi, Sikhari theo Pāli đã ghim, không bị thay bằng biến thể Anh/HTML.",
+        "semantic_fidelity": "Lời dân nói núi nuốt ẩn sĩ được giữ là cách phát sinh tên, không thành một ngọn núi ăn người. Giải thích độc giác, nhổ mũi tên, dứt dây hữu và thân cuối cùng vẫn hướng về giải thoát, không chỉ sự tự tin hay tiếng tốt.",
+        "core_coverage": "23 ý đều có nội dung; giữ hai vị Jāli, nhóm mười hai Ānanda/Nanda/Upananda, các phẩm chất riêng của Passī, Aparājita, Bandhumā, Ketumā và lời kính lễ cuối. Không bỏ dòng tên dài để chỉ kể một bài học đạo đức chung.",
+        "logic_context": "Mỗi câu hỏi về núi có lời đáp; lời mời nghe đi trước danh sách, văn xuôi đi trước kệ. Không biến mười ba tên lặp thành mười ba vị mới và không tự khẳng định danh sách đã đủ năm trăm người.",
+        "terminology": "Độc Giác Phật, tán thán, kệ, sanh y, mạn, hữu và ái được mở bằng từ gần gũi. Tịch diệt được gắn với Niết-bàn; một số tên và sắc thái vô lượng vẫn cần người đọc nhỏ tuổi đọc chậm.",
+        "audience_fit": "Ví dụ góc sách ở trường và việc nghe bạn không tranh hơn phù hợp trẻ. Mười tám mục chia dòng tên thành nhóm, nhưng bài kinh chuyên xướng danh vẫn có tải đọc cao, nên điểm không giả định trẻ nhỏ dễ nhớ hết.",
+        "clarity": "Tiêu đề bốn núi, tên núi, mười ba vị và các nhóm phẩm chất giúp theo mạch. Những đoạn tên thuần túy vẫn ít điểm tựa tự sự; lời giải không bịa thêm chuyện để làm chúng sinh động.",
+        "editorial_separation": "Góc đọc sách được giới thiệu rõ là ví dụ hôm nay trong mục example; gợi ý nhỏ nằm ở practice. Hình ảnh mũi tên và dây trói được giải từ kệ gốc, không lẫn với bối cảnh trường học.",
+        "practical_integrity": "Việc tập nói thật và lắng nghe được đặt là bước khởi đầu, có giới hạn rõ so với sự giải thoát trọn vẹn trong kinh. Không hứa lợi ích siêu nhiên từ việc nhớ hoặc đọc tên các vị.",
+        "technical_integrity": "Audit canonical không có lỗi nguồn hay cấu trúc; 96 khóa vào 23 ý, bản trẻ sử dụng đủ ý bằng lời dạy. Năm SHA được kiểm lại, hai blob khớp manifest và hai nguồn dự án khớp git show tại pin lô 12; fingerprint là bản đã đọc."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập tác giả writer_b: đọc toàn 96 khóa Pāli/Việt/Anh, ghi nhận một ô Anh trống; bảy chú thích và toàn 97 khối HTML đếnSC 29+credits; đủ 23 ý và cả 18/15/19 mục. Không phát hiện lỗi cần tác giả sửa. AI biên tập, chưa thử người đọc hoặc có chuyên gia Pāli xác nhận.",
+      "contentHash": "197cba4f24b84ca6cc072e658bd35e90acdbde0796c561ee288466d1111a5e3c",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn116.html",
+          "sha256": "9c7d85fb293f35a8b2fec395e553b7dd5cf0d75f65f6b6fca062b9ffb132bd76"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn116_root-pli-ms.json",
+          "sha256": "fab3151e74141a7bcace56375a9b8e6977a81a4209801e234e8aa9bad4e7a8a6"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn116_translation-en-sujato.json",
+          "sha256": "d4dfd94b27ab9e3a06010934d835631ac51fff6a92116b7a536329608969063d"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn116_comment-vi-project.json",
+          "sha256": "24aafc37277553d544b779697f5b96d64b68d71b720be8f4f5b251e998f4e31b"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn116_translation-vi-project.json",
+          "sha256": "43f4c409db08a632624a0baf4525717a549434dad0f717455ef431a0c726a8f0"
+        }
+      ]
+    },
+    {
+      "id": "5e1bf9ad-9dfe-48f9-a558-46c438e2ce05",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.6,
+        "clarity": 9.6,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Bản trưởng thành giữ từng tên cùng chủ thể của lời khen: Bandhumā cắt mạn, Ketumā vô nhiễm, Tissa/Upatissa cắt hữu, Upasikhi/Sikhari cắt ái. Không theo chỗ HTML chuyển phẩm chất sang tên khác hoặc chú thích 6.7 tự mô tả sai bản Việt thực.",
+        "semantic_fidelity": "Địa danh dẫn vào sự tán thán độc giác, sự chấm dứt trói buộc và Niết-bàn; không thu hẹp thành việc tưởng nhớ người nổi tiếng. Sanh y được giải như chỗ tích giữ bám lấy làm nền khổ, giữ quan hệ upadhi–dukkhamūla.",
+        "core_coverage": "Mười lăm mục bao trùm 23 ý: năm núi, nguyên nhân tên, lời kể/tán thán/giảng, hai lần mười ba tên, mọi nhóm kệ và lời kết. Hai vị Jāli và nhóm mười hai được kể đúng lượng, phần vị khác ở cuối vẫn hiện diện.",
+        "logic_context": "Tách rõ lời Phật kể với lời dân gọi, phần văn xuôi với kệ. Đoạn Sundara lặp không được hợp thành một tiểu sử; bản này cũng không tự xác định danh sách là trọn bộ năm trăm vị.",
+        "terminology": "Các từ kệ, độc giác, sanh y, hữu, mạn, ái, ly tham và đảnh lễ có lời mở phù hợp người mới đọc. Ranh giới tên/phẩm chất ở vài câu vẫn có giới hạn văn bản, được giữ trong hồ sơ nguồn thay vì tuyên bố chắc tuyệt đối.",
+        "audience_fit": "Liên hệ việc lập hồ sơ người đóng góp cộng đồng và nhận ra phẩm chất có nội dung cụ thể phù hợp người trưởng thành. Giọng đi từ danh hiệu đến điều đáng học; không dùng ngôn ngữ trẻ hóa.",
+        "clarity": "Nhóm tên được chia theo nét dứt hữu, gốc khổ, mạn, nỗ lực và an tịnh; nhịp văn xuôi rõ. Mật độ tên Pāli vẫn là khó khăn cố hữu, dù không có câu kéo dài mất chủ thể.",
+        "editorial_separation": "Hồ sơ cộng đồng được gọi rõ là liên hệ hiện đại và được giới hạn phạm vi. Mục practice phân biệt học theo phẩm chất với đạt thành tựu, không gán lời khuyên công việc cho Phật.",
+        "practical_integrity": "Gợi ý gọi rõ phẩm chất đáng kính rồi chọn việc trong trách nhiệm hôm nay không khuyến khích tôn sùng danh tiếng hoặc tự nhận chứng ngộ. Kính lễ trong kinh vẫn hướng tới những người đã dứt trói buộc.",
+        "technical_integrity": "Đã đọc đủ ba bản, toàn 23 ý và năm nguồn; audit sạch với fingerprint trưởng thành hiện hành. Các phụ thuộc mang đủ SHA và commit; mọi ý có teaching/clarification thực, không dùng riêng ví dụ để lấp coverage."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập tác giả writer_b: đọc toàn 96 khóa Pāli/Việt/Anh, ghi nhận một ô Anh trống; bảy chú thích và toàn 97 khối HTML đếnSC 29+credits; đủ 23 ý và cả 18/15/19 mục. Không phát hiện lỗi cần tác giả sửa. AI biên tập, chưa thử người đọc hoặc có chuyên gia Pāli xác nhận.",
+      "contentHash": "ef06b4e2ec7bbdca399de8de664c99ac1ec954fe6b8143d54f9a7d659a8b5dfc",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn116.html",
+          "sha256": "9c7d85fb293f35a8b2fec395e553b7dd5cf0d75f65f6b6fca062b9ffb132bd76"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn116_root-pli-ms.json",
+          "sha256": "fab3151e74141a7bcace56375a9b8e6977a81a4209801e234e8aa9bad4e7a8a6"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn116_translation-en-sujato.json",
+          "sha256": "d4dfd94b27ab9e3a06010934d835631ac51fff6a92116b7a536329608969063d"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn116_comment-vi-project.json",
+          "sha256": "24aafc37277553d544b779697f5b96d64b68d71b720be8f4f5b251e998f4e31b"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn116_translation-vi-project.json",
+          "sha256": "43f4c409db08a632624a0baf4525717a549434dad0f717455ef431a0c726a8f0"
+        }
+      ]
+    },
+    {
+      "id": "ef20f9f3-226b-4efc-a638-ea828d8073ab",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.6,
+        "clarity": 9.6,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Giữ tên Isigili không đổi, các tên Pāli khác biến thể nguồn và 13 vị cư trú được nhắc lại trong kệ. Lời cuối vẫn là vượt mọi trói buộc, không đổi thành thắng mọi chiến trận theo HTML.",
+        "semantic_fidelity": "Các hình ảnh nhổ mũi tên, cắt dây hữu và tấm lưới khổ được nối với chấm dứt chấp giữ. Thân cuối cùng được giải là không tiếp tục tái sinh; tịch diệt không bị biến thành lời khuyên rời bỏ sinh hoạt hiện tại.",
+        "core_coverage": "Đủ 23 ý được diễn trong 19 mục, gồm lời hỏi/đáp về mỗi núi, hai Jāli, nhóm mười hai, các nhóm tên cuối và cả những vị khác. Lời mời nghe/tán thán và kính lễ có mặt nên bài không thành danh sách tên rời rạc.",
+        "logic_context": "Phật dẫn người nghe từ điều đang thấy trên núi đến câu chuyện xưa rồi kệ tán thán. Các chủ thể Passī/Aparājita/Bandhumā/Ketumā rõ; không nhập các tên tương tự thành những người được xác minh là một.",
+        "terminology": "Mỗi từ sanh y, mạn, hữu, ái, kệ, độc giác đều có lời giải ngắn tại chỗ. Các danh hiệu xa lạ vẫn được giữ nguyên để có thể đối chiếu, nên cần nhịp đọc thong thả hơn văn kể đời thường.",
+        "audience_fit": "Mười chín mục và ví dụ trò chuyện giữa các thế hệ hợp nhịp đọc người lớn tuổi. Bài không giả định độc giả yếu trí nhớ, cô độc hoặc chỉ quan tâm cái chết; thực hành dựa vào việc đang có.",
+        "clarity": "Các đoạn thường chỉ một nhóm tên và một phẩm chất, dễ dừng rồi đọc tiếp. Đoạn nối danh hiệu với kính trọng giúp giữ mục đích, dù những nhóm chỉ có tên vẫn đòi hỏi tập trung.",
+        "editorial_separation": "Chuyện kể trong gia đình được đánh dấu ví dụ hiện đại, khác phần kệ gốc; mục thực hành có vị trí và nhãn riêng. Không có lời thoại của Phật bị thêm từ kinh nghiệm hiện đại.",
+        "practical_integrity": "Việc nói rõ sự thật hoặc lắng nghe người khác được nêu như học theo phẩm chất, không lấy tuổi tác hay một việc tốt làm bằng chứng đạt giải thoát. Không đặt nghĩa vụ thuộc danh sách hoặc hứa kết quả do đọc danh hiệu.",
+        "technical_integrity": "Năm nguồn đã đọc và xác minh byte, bản đồ phủ đủ 96 khóa một lần; mọi ý có nội dung trong bản lớn tuổi. Audit không lỗi; fingerprint được khóa đúng toàn bộ bản đã kiểm, đề xuất chưa tự ghi metadata."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập tác giả writer_b: đọc toàn 96 khóa Pāli/Việt/Anh, ghi nhận một ô Anh trống; bảy chú thích và toàn 97 khối HTML đếnSC 29+credits; đủ 23 ý và cả 18/15/19 mục. Không phát hiện lỗi cần tác giả sửa. AI biên tập, chưa thử người đọc hoặc có chuyên gia Pāli xác nhận.",
+      "contentHash": "be8519ef3bb6bc0614569ba17d872ee70dc782ec00ff602b8e8a6c942c96c133",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn116.html",
+          "sha256": "9c7d85fb293f35a8b2fec395e553b7dd5cf0d75f65f6b6fca062b9ffb132bd76"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn116_root-pli-ms.json",
+          "sha256": "fab3151e74141a7bcace56375a9b8e6977a81a4209801e234e8aa9bad4e7a8a6"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn116_translation-en-sujato.json",
+          "sha256": "d4dfd94b27ab9e3a06010934d835631ac51fff6a92116b7a536329608969063d"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn116_comment-vi-project.json",
+          "sha256": "24aafc37277553d544b779697f5b96d64b68d71b720be8f4f5b251e998f4e31b"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn116_translation-vi-project.json",
+          "sha256": "43f4c409db08a632624a0baf4525717a549434dad0f717455ef431a0c726a8f0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn118",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "b9ec5f25-1ac6-47d7-a3d1-76d8cfebb569"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "df2f1988-8b0b-45a8-8b23-59a962b477e6"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "3d847c86-9cd7-4461-b370-d20196e963da"
+    }
+  },
+  "reviews": [
+    {
+      "id": "b9ec5f25-1ac6-47d7-a3d1-76d8cfebb569",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.5,
+        "audience_fit": 9.4,
+        "clarity": 9.4,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Giữ mười tên trưởng lão kể cả Mahākassapa, hai đêm rằm và hai vòng nhóm mười/hai mươi/ba mươi/bốn mươi. Dài–ngắn và sự chú tâm kỹ ở 25.6 theo đúng Pāli/Việt, không theo chỗ khác hoặc lược của nguồn phụ.",
+        "semantic_fidelity": "Mười sáu bước có đủ hai chiều vào/ra; biết dài–ngắn khác với tập các bước tiếp. Các yếu tố giác ngộ giữ điều kiện, khơi dậy, tu và đầy đủ; mục tiêu cuối còn là minh và giải thoát.",
+        "core_coverage": "48 ý đều có nội dung trong 28 mục, từ hội chúng đến bốn niệm xứ và bảy giác chi. Bảy nhóm thực hành có số, sáu phép tu khác, bốn mức thành tựu và bốn hướng cuối của từng giác chi đều được trình bày.",
+        "logic_context": "Khuyến tấn diễn ra trước đêm Komudī, lời khen hội chúng gắn với các vị và sự thực hành đang có. Mỗi bước làm đầy đủ bước sau đều tùy việc rèn luyện nhiều; một lần chú ý hơi thở không được kể là đã hoàn tất con đường.",
+        "terminology": "Niệm, thọ, hỷ, lạc, tâm hành, trạch pháp, khinh an và các tên mức thành tựu được mở bằng lời ngắn. Các tên cổ và nhiều nhóm pháp vẫn là phần khó với trẻ, dù đã chia nhỏ và giải trong câu.",
+        "audience_fit": "Ví dụ chờ bạn nói hết và gợi ý nhận biết hơi thở tự nhiên gần với tuổi học sinh. Giọng hướng dẫn nhẹ và từng nhóm bốn bước dễ theo, nhưng toàn bài dài và giàu khái niệm hơn khả năng tự đọc của trẻ nhỏ.",
+        "clarity": "Tiêu đề theo từng chặng, phần đầu tạo bối cảnh người cũ dạy người mới rồi mới vào thực hành. Các công thức niệm xứ và giác chi có sự nhắc lại cần thiết nên nhịp đọc đôi lúc dày.",
+        "editorial_separation": "Ví dụ làm việc nhóm và bài làm quen ở cuối mang loại mục riêng, không gán cho Phật. Lời giải các thuật ngữ nằm trong phần diễn giải; các tình huống trẻ em được nhận diện là hiện đại.",
+        "practical_integrity": "Bài tập chỉ biết hơi tự nhiên, ngồi vững và nhẹ nhàng trở lại khi phân tâm. Không yêu cầu kéo dài, nén hoặc ngừng thở; phần làm quen được đặt trong con đường đầy đủ có trí tuệ và buông bỏ.",
+        "technical_integrity": "Audit nguồn và schema sạch; đủ 154 khóa được ánh xạ vào 48 ý và bản trẻ dùng hết các ý. Hash canonical khớp bản đã đọc trọn, không có yêu cầu chỉnh nội dung trong lượt kiểm."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập đủ 154 khóa Pāli/Việt/Anh, chín ô Anh trống, năm chú thích, toàn HTML SC1–43 đến phần ghi công; toàn 48 ý và cả ba bản. Không yêu cầu tác giả sửa trong lượt này. Chưa thử với độc giả thật hoặc có chuyên gia Pāli xác nhận.",
+      "contentHash": "dc23da87cc0873f23a5f47b896d88c6167cb89554395f37f598c5fd5ebed0e3b",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn118.html",
+          "sha256": "c917c98ff092080cd4a736907874ae80332d2399bc801bb17b13027df78f6782"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn118_root-pli-ms.json",
+          "sha256": "65eeb3cb1e395fa4aa103928c2262e2f50bad8d76b197534746e161ef988c15c"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn118_translation-en-sujato.json",
+          "sha256": "4caea28260de3b8b3943d29441519ac25480cfe54fcd5684d0dce1b5759d3568"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn118_comment-vi-project.json",
+          "sha256": "7b5e198433ff87f3b8b8f4c320f30fdd43093ea4b16e074c3a0966519cdd1263"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn118_translation-vi-project.json",
+          "sha256": "69702d3ef50d36e8c417ab4485635e6556335e3ed564430ef998cd17c53b8c9f"
+        }
+      ]
+    },
+    {
+      "id": "df2f1988-8b0b-45a8-8b23-59a962b477e6",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.6,
+        "clarity": 9.7,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu đủ năm nguồn và chín ô Anh trống; giữ ngày Tự tứ đúng Pāli, đủ mười tên, hình ảnh trấu/lõi và năm nét đáng kính. Câu tác ý kỹ với hơi thở là một thọ được bảo toàn dù HTML lược phần tác ý.",
+        "semantic_fidelity": "Bản giữ sự khác nhau giữa nhận biết và tập luyện, hỷ với lạc, tâm hành với tâm, cùng bốn hướng quán cuối. Hỷ phi vật chất, thân và tâm cùng khinh an, an lạc trước định và nhìn tâm định bằng xả đều đúng mạch.",
+        "core_coverage": "20 mục dùng đủ 48 ý; hai mục về mười sáu bước vẫn giữ đủ bốn nhóm bốn, mỗi bước có hai chiều thở. Mỗi niệm xứ có điều kiện và lý do; từng giác chi có khởi–tu–viên mãn, lặp đủ cho thọ, tâm, pháp.",
+        "logic_context": "Chuỗi niệm hơi thở, bốn niệm xứ, bảy giác chi, minh và giải thoát luôn gắn điều kiện tu tập nhiều. Các nhóm đã chứng quả và nhóm đang chuyên tu không bị đồng nhất; kết bài chỉ có Phật giảng và các vị tán đồng.",
+        "terminology": "Phạm hạnh, chánh trí, hóa sinh, niệm, tỉnh giác và các thuật ngữ về cảm thọ đều được mở nghĩa tại chỗ. Thân hành và tâm hành dùng lời giải đủ gần gũi, giữ độ mở của nguồn mà không thêm thuyết kỹ thuật bên ngoài.",
+        "audience_fit": "Ví dụ trước tin nhắn gây bực nối được việc nhận biết với lựa chọn lời nói trong đời sống trưởng thành. Bố cục hai nhóm tám bước và các câu hỏi vì sao giúp đọc có hệ thống; danh sách dài vẫn đòi hỏi chú tâm.",
+        "clarity": "Mạch câu hỏi dẫn từ cách tu đến cách mỗi nhóm được viên mãn rõ, các khâu trung gian không bị nhảy. Các điều kiện được nhắc bằng cùng từ vựng, hỗ trợ đối chiếu dù các đoạn bảy giác chi còn dày.",
+        "editorial_separation": "Ví dụ tin nhắn và thực hành ở cuối được đánh dấu riêng; không lấy lợi ích ứng xử đời thường thay lời dạy về ly tham và giải thoát. Không có chuyện mới được đưa vào bối cảnh Đông Viên.",
+        "practical_integrity": "Gợi ý ngồi vững, thở tự nhiên, biết dài/ngắn và quan sát sự đổi thay có phạm vi vừa phải. Không hứa chữa bệnh hay đạt quả, và không buộc tạo cảm xúc hỷ lạc theo ý muốn.",
+        "technical_integrity": "Audit sạch và năm hash nguồn đúng byte đã đọc; toàn 154 khóa cùng 48 ý được sử dụng. Fingerprint bản trưởng thành khớp author freeze, không cần sửa sau kiểm độc lập."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập đủ 154 khóa Pāli/Việt/Anh, chín ô Anh trống, năm chú thích, toàn HTML SC1–43 đến phần ghi công; toàn 48 ý và cả ba bản. Không yêu cầu tác giả sửa trong lượt này. Chưa thử với độc giả thật hoặc có chuyên gia Pāli xác nhận.",
+      "contentHash": "88be2d37eed9998ddd2ee991ace9d62fe077bbec50d1655cc22bdc208e8cda57",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn118.html",
+          "sha256": "c917c98ff092080cd4a736907874ae80332d2399bc801bb17b13027df78f6782"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn118_root-pli-ms.json",
+          "sha256": "65eeb3cb1e395fa4aa103928c2262e2f50bad8d76b197534746e161ef988c15c"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn118_translation-en-sujato.json",
+          "sha256": "4caea28260de3b8b3943d29441519ac25480cfe54fcd5684d0dce1b5759d3568"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn118_comment-vi-project.json",
+          "sha256": "7b5e198433ff87f3b8b8f4c320f30fdd43093ea4b16e074c3a0966519cdd1263"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn118_translation-vi-project.json",
+          "sha256": "69702d3ef50d36e8c417ab4485635e6556335e3ed564430ef998cd17c53b8c9f"
+        }
+      ]
+    },
+    {
+      "id": "3d847c86-9cd7-4461-b370-d20196e963da",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.7,
+        "clarity": 9.7,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Giữ hai đêm rằm, hai lần bốn cỡ nhóm, đủ danh sách trưởng lão và lời khen hội chúng. Các nhóm thành tựu giữ đúng điều kiện, kết quả và những số kiết sử nguồn nêu; tháng thứ tư không bị đổi thành tháng tư dương lịch.",
+        "semantic_fidelity": "Mỗi nhóm bốn bước còn đủ chiều vào/ra và bốn niệm xứ giữ nhiệt tâm, biết rõ, niệm, bỏ tham ưu. Cả bảy giác chi được áp dụng cho đủ bốn lĩnh vực, rồi từng chi đều có đủ bốn hướng dẫn đến buông bỏ.",
+        "core_coverage": "28 mục bao phủ 48 ý, chia riêng phần tư thế, thân, thọ, tâm và quán pháp trước khi giải quan hệ với giác chi. Không mất câu hơi thở là một thân hay chú tâm kỹ là một thọ, cùng phủ định về người thất niệm.",
+        "logic_context": "Việc hướng dẫn người mới, tiến bộ rồi tiếp tục tinh tấn được kể đúng thứ tự. Sự quân bình cuối vẫn là khéo quan sát tâm định; trình tự phát triển hướng tới giải thoát chứ không dừng ở cảm giác dễ chịu.",
+        "terminology": "Thọ có ba sắc thái, hỷ và lạc được phân biệt, khinh an nói rõ cả thân lẫn tâm. Các tên như ý túc, căn, lực và các mức chứng quả có lời mở ngắn; người chưa học vẫn cần thời gian với nhiều nhóm pháp.",
+        "audience_fit": "Ví dụ chuyện cũ làm bực rồi nhận ra cảm giác đổi thay hợp sinh hoạt thường ngày mà không định kiến tuổi cao. Tư thế thoải mái và nhịp từng mục ngắn tạo lối đọc dễ tiếp cận hơn; độ dài toàn bài vẫn đáng kể.",
+        "clarity": "Các đề mục theo một trật tự ổn định, phần liên hệ giữa bốn niệm xứ và giác chi được giải sau khi đã giới thiệu từng nhóm. Công thức lặp giúp nhớ nhưng cũng tạo tải đọc, nhất là đoạn tổng hợp cả ba lĩnh vực sau thân.",
+        "editorial_separation": "Câu chuyện nhớ việc cũ được xác định là ví dụ hiện đại, bài làm quen có loại practice riêng. Phần tường thuật và lời Phật giữ bối cảnh ban đầu; không thêm chứng quả ở cuối.",
+        "practical_integrity": "Gợi ý chọn chỗ yên, ngồi vững thoải mái và biết hơi tự nhiên tôn trọng khả năng người đọc. Bài không gắn tuổi với thành tựu hoặc biến hơi thở thành lời khuyên điều trị; trí tuệ, ly tham và buông bỏ vẫn là hướng của toàn bài.",
+        "technical_integrity": "Toàn 154 khóa nằm trong 48 ý, các ý được dùng đầy đủ trong 28 mục và audit không báo lỗi. Hash bản lớn tuổi cùng nguồn đúng freeze đã đọc, chưa có metadata chính thức do người kiểm ghi."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập đủ 154 khóa Pāli/Việt/Anh, chín ô Anh trống, năm chú thích, toàn HTML SC1–43 đến phần ghi công; toàn 48 ý và cả ba bản. Không yêu cầu tác giả sửa trong lượt này. Chưa thử với độc giả thật hoặc có chuyên gia Pāli xác nhận.",
+      "contentHash": "d1429bc6c558e2b8e05eb2698936b63c2caa7b6596e7dd65989e3beb30886dff",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn118.html",
+          "sha256": "c917c98ff092080cd4a736907874ae80332d2399bc801bb17b13027df78f6782"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn118_root-pli-ms.json",
+          "sha256": "65eeb3cb1e395fa4aa103928c2262e2f50bad8d76b197534746e161ef988c15c"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn118_translation-en-sujato.json",
+          "sha256": "4caea28260de3b8b3943d29441519ac25480cfe54fcd5684d0dce1b5759d3568"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn118_comment-vi-project.json",
+          "sha256": "7b5e198433ff87f3b8b8f4c320f30fdd43093ea4b16e074c3a0966519cdd1263"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn118_translation-vi-project.json",
+          "sha256": "69702d3ef50d36e8c417ab4485635e6556335e3ed564430ef998cd17c53b8c9f"
+        }
+      ]
+    }
+  ]
+}
