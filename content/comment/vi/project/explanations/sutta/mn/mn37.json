@@ -1,0 +1,918 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn37",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn37_root-pli-ms.json",
+      "sha256": "9ad65335794b28ea52baa671dbdb7194314fe8d27c37b18da24a1876f15a21e6",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn37_translation-en-sujato.json",
+      "sha256": "4517e5715fa13f158e36e0db12cb470715b8093d8c83e6979e3e8964503b9e24",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn37_translation-vi-project.json",
+      "sha256": "7651d599c43c806d139ca6412e1440193f0f5be4ff5540520e436770884f6553",
+      "commit": "4112d750d88985733bb9a4f0a0dc61d8f035c504"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn37.html",
+      "sha256": "09e2362971f38ac8ca9fcd25fad0e311a19e644591007e8273d92e981782b268",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn37_comment-vi-project.json",
+      "sha256": "5d29f0dc5984ac5ad7955efa9c3ae282e78e2664c0b3a543cd131e84f77e3207",
+      "commit": "4112d750d88985733bb9a4f0a0dc61d8f035c504"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Tên và số kinh",
+      "segments": [
+        "mn37:0.1",
+        "mn37:0.2"
+      ],
+      "summary": "Trung Bộ Kinh 37, Tiểu Kinh Đoạn Tận Ái."
+    },
+    {
+      "id": "setting",
+      "title": "Đông Viên, Sāvatthī",
+      "segments": [
+        "mn37:1.1",
+        "mn37:1.2"
+      ],
+      "summary": "Lời truyền tụng; Đức Phật tại Đông Viên, lâu đài của mẹ Migāra ở Sāvatthī."
+    },
+    {
+      "id": "sakka-question",
+      "title": "Sakka hỏi về ái tận giải thoát",
+      "segments": [
+        "mn37:2.1",
+        "mn37:2.2"
+      ],
+      "summary": "Sakka vua chư thiên đến đảnh lễ, đứng một bên; hỏi ngắn về tỳ-kheo ái tận giải thoát, cứu cánh tối hậu, an ổn tối hậu khỏi ách, phạm hạnh tối hậu, mục tiêu tối hậu, tối thắng giữa trời người."
+    },
+    {
+      "id": "heard-and-known",
+      "title": "Nghe, trực tiếp biết, hiểu thấu",
+      "segments": [
+        "mn37:3.1",
+        "mn37:3.2",
+        "mn37:3.3",
+        "mn37:3.4",
+        "mn37:3.5"
+      ],
+      "summary": "Phật đáp vị tỳ-kheo nghe tất cả pháp không đáng chấp trước, trực tiếp biết rồi hiểu thấu tất cả pháp; không thay biết hiểu bằng tin thuộc câu."
+    },
+    {
+      "id": "feelings",
+      "title": "Ba cảm thọ và bốn cách quán",
+      "segments": [
+        "mn37:3.6",
+        "mn37:3.7"
+      ],
+      "summary": "Bất kỳ cảm thọ dễ chịu, khổ, trung tính nào: sống quán vô thường, ly tham, đoạn diệt, xả bỏ; nhờ vậy không chấp thủ bất kỳ gì trong đời."
+    },
+    {
+      "id": "liberation",
+      "title": "Không chấp thủ đến tự chứng Niết-bàn",
+      "segments": [
+        "mn37:3.8",
+        "mn37:3.9",
+        "mn37:3.10"
+      ],
+      "summary": "Không chấp thủ thì không lo âu, không lo âu thì tự chứng Niết-bàn; biết sinh tận, phạm hạnh thành, việc cần làm xong, không trở lại hiện hữu này; kết đủ phẩm chất câu hỏi về ái tận giải thoát."
+    },
+    {
+      "id": "sakka-departs",
+      "title": "Tán đồng rồi đi",
+      "segments": [
+        "mn37:4.1"
+      ],
+      "summary": "Sakka hoan hỷ tán đồng, đảnh lễ, nhiễu giữ Phật bên phải rồi biến mất."
+    },
+    {
+      "id": "mogg-investigates",
+      "title": "Moggallāna muốn biết mức hiểu",
+      "segments": [
+        "mn37:5.1",
+        "mn37:5.2",
+        "mn37:5.3",
+        "mn37:5.4",
+        "mn37:5.5"
+      ],
+      "summary": "Mahāmoggallāna ngồi gần Phật tự hỏi Sakka thật hiểu trước khi tán đồng hay chưa, muốn tìm biết. Yakkha chỉ vị thiên đang được nói tới."
+    },
+    {
+      "id": "arrival",
+      "title": "Đến cõi Ba Mươi Ba",
+      "segments": [
+        "mn37:6.1"
+      ],
+      "summary": "Nhanh như người khỏe co cánh tay duỗi hoặc duỗi tay co, Moggallāna biến khỏi Đông Viên và xuất hiện ở trời Ba Mươi Ba."
+    },
+    {
+      "id": "welcome",
+      "title": "Vườn Một Hoa Sen và cuộc tiếp đón",
+      "segments": [
+        "mn37:7.1",
+        "mn37:7.2",
+        "mn37:7.3",
+        "mn37:7.4",
+        "mn37:7.5",
+        "mn37:7.6",
+        "mn37:7.7",
+        "mn37:7.8",
+        "mn37:7.9"
+      ],
+      "summary": "Sakka vui với 500 nhạc khí trời tại Ekapuṇḍarīka; thấy Moggallāna từ xa, dừng nhạc, đón mừng lâu không gặp, mời ghế sẵn; tôn giả ngồi, Sakka lấy ghế thấp ngồi bên."
+    },
+    {
+      "id": "busy",
+      "title": "Câu hỏi và lời đáp bận việc",
+      "segments": [
+        "mn37:8.1",
+        "mn37:8.2",
+        "mn37:8.3",
+        "mn37:8.4",
+        "mn37:8.5"
+      ],
+      "summary": "Moggallāna gọi Sakka là Kosiya, hỏi lời giải thích ngắn về ái tận giải thoát để được nghe. Sakka nói bận việc mình và trời Ba Mươi Ba; điều nghe/nắm/chú tâm/ghi nhớ kỹ không mau mất, theo cách đọc no phủ định của Việt/Sujato/Minh Châu."
+    },
+    {
+      "id": "palace",
+      "title": "Chuyển sang chuyện thắng trận và cung điện",
+      "segments": [
+        "mn37:8.6",
+        "mn37:8.7",
+        "mn37:8.8",
+        "mn37:8.9",
+        "mn37:8.10",
+        "mn37:8.11",
+        "mn37:8.12",
+        "mn37:8.13"
+      ],
+      "summary": "Sakka kể trời thắng a-tu-la, về xây Vejayanta: 100 tháp, mỗi tháp 700 phòng, mỗi phòng 7 tiên nữ, mỗi tiên nữ 7 nữ hầu; mời xem vẻ đẹp. Không đổi thành 700 tổng hoặc 7 phòng/tháp."
+    },
+    {
+      "id": "visit",
+      "title": "Im lặng nhận lời và được mời đi trước",
+      "segments": [
+        "mn37:8.14",
+        "mn37:9.1"
+      ],
+      "summary": "Moggallāna im lặng nhận lời; Sakka cùng Đại vương Vessavaṇa để tôn giả đi trước, cùng đến cung điện."
+    },
+    {
+      "id": "maids",
+      "title": "Nữ hầu lui về phòng",
+      "segments": [
+        "mn37:9.2",
+        "mn37:9.3",
+        "mn37:10.1",
+        "mn37:10.2"
+      ],
+      "summary": "Thấy tôn giả từ xa, nữ hầu Sakka hổ thẹn dè dặt lui từng người vào phòng riêng; so với con dâu gặp cha chồng, một hình ảnh xã hội cổ trong kinh."
+    },
+    {
+      "id": "tour",
+      "title": "Vẻ đẹp và phước quá khứ",
+      "segments": [
+        "mn37:10.3",
+        "mn37:10.4",
+        "mn37:10.5",
+        "mn37:10.6",
+        "mn37:10.7",
+        "mn37:10.8",
+        "mn37:10.9"
+      ],
+      "summary": "Sakka và Vessavaṇa đưa đi xem, chỉ vẻ đẹp này rồi vẻ đẹp khác. Lời tiếp theo không nêu người nói, khen cung của Kosiya đẹp xứng phước xưa; người thấy đẹp ví như trời Ba Mươi Ba."
+    },
+    {
+      "id": "shake",
+      "title": "Rung cung điện bằng ngón chân cái",
+      "segments": [
+        "mn37:11.1",
+        "mn37:11.2",
+        "mn37:11.3",
+        "mn37:11.4",
+        "mn37:11.5",
+        "mn37:11.6",
+        "mn37:11.7"
+      ],
+      "summary": "Moggallāna nghĩ vị thiên quá phóng dật, muốn làm chấn động; dùng thần lực ngón chân cái làm cung rung lắc chao đảo rung chuyển. Sakka, Vessavaṇa, trời Ba Mươi Ba kinh ngạc thần lực của sa-môn."
+    },
+    {
+      "id": "second-question",
+      "title": "Hỏi lại khi Sakka chấn động",
+      "segments": [
+        "mn37:12.1",
+        "mn37:12.2",
+        "mn37:12.3",
+        "mn37:12.4",
+        "mn37:12.5"
+      ],
+      "summary": "Biết Sakka chấn động dựng tóc gáy, tôn giả hỏi lại lời ái tận giải thoát. Sakka kể mình tới, đảnh lễ, đứng bên, hỏi Phật đủ câu về tỳ-kheo ái tận và các phẩm chất tối hậu."
+    },
+    {
+      "id": "retold-knowing",
+      "title": "Sakka thuật lời Phật: nghe và hiểu",
+      "segments": [
+        "mn37:13.1",
+        "mn37:13.2",
+        "mn37:13.3",
+        "mn37:13.4",
+        "mn37:13.5",
+        "mn37:13.6"
+      ],
+      "summary": "Sakka dẫn lời Phật, không tự giảng pháp mới: nghe tất cả pháp không đáng chấp trước, trực tiếp biết tất cả rồi hiểu thấu tất cả, gặp bất kỳ dễ chịu/khổ/trung tính."
+    },
+    {
+      "id": "retold-contemplation",
+      "title": "Sakka thuật lời Phật: bốn quán",
+      "segments": [
+        "mn37:13.7",
+        "mn37:13.8"
+      ],
+      "summary": "Trong các cảm thọ sống quán vô thường, ly tham, đoạn diệt, xả bỏ; nhờ vậy không chấp thủ gì trong đời."
+    },
+    {
+      "id": "retold-release",
+      "title": "Sakka thuật lời Phật: kết quả",
+      "segments": [
+        "mn37:13.9",
+        "mn37:13.10",
+        "mn37:13.11",
+        "mn37:13.12"
+      ],
+      "summary": "Không chấp thủ→không lo âu→tự Niết-bàn; biết sinh tận/phạm hạnh thành/việc xong/không hiện hữu này nữa; đủ các phẩm chất cứu cánh của ái tận, Sakka kết đây là lời Phật đã nói với mình."
+    },
+    {
+      "id": "mogg-returns",
+      "title": "Tán đồng và trở về",
+      "segments": [
+        "mn37:14.1"
+      ],
+      "summary": "Moggallāna hoan hỷ tán đồng lời thuật, trở về Đông Viên nhanh như người khỏe co/duỗi cánh tay. Không tuyên bố Sakka đã chứng quả."
+    },
+    {
+      "id": "maids-question",
+      "title": "Các nữ hầu hỏi về vị khách",
+      "segments": [
+        "mn37:14.2",
+        "mn37:14.3",
+        "mn37:14.4",
+        "mn37:14.5",
+        "mn37:14.6",
+        "mn37:14.7",
+        "mn37:14.8"
+      ],
+      "summary": "Nữ hầu hỏi đó có phải Phật, bậc Thầy của Sakka; ông nói không, là Mahāmoggallāna đồng phạm hạnh. Họ mừng ông có bạn tu uy lực và cảm thán về bậc Thầy; câu 14.8 tỉnh lược có hơn một cách hiểu, không tự gán quan hệ xuất gia cho Sakka."
+    },
+    {
+      "id": "buddha-recalls",
+      "title": "Trở lại hỏi Đức Phật",
+      "segments": [
+        "mn37:15.1",
+        "mn37:15.2",
+        "mn37:15.3",
+        "mn37:15.4",
+        "mn37:15.5"
+      ],
+      "summary": "Moggallāna đảnh lễ ngồi bên hỏi Phật nhớ dạy ngắn về ái tận cho vị thiên danh tiếng uy lực không. Phật xác nhận, kể Sakka tới đảnh lễ đứng bên và hỏi đủ các phẩm chất tối hậu."
+    },
+    {
+      "id": "repeated-knowing",
+      "title": "Phật lặp lại lời đã dạy",
+      "segments": [
+        "mn37:15.6",
+        "mn37:15.7",
+        "mn37:15.8",
+        "mn37:15.9",
+        "mn37:15.10"
+      ],
+      "summary": "Phật nhắc đã đáp: nghe tất cả pháp không đáng chấp trước, trực tiếp biết rồi hiểu thấu tất cả; bất kỳ thọ dễ chịu/khổ/trung tính."
+    },
+    {
+      "id": "repeated-contemplation",
+      "title": "Phật lặp đủ bốn quán",
+      "segments": [
+        "mn37:15.11",
+        "mn37:15.12",
+        "mn37:15.13"
+      ],
+      "summary": "Quán vô thường, ly tham, đoạn diệt, xả bỏ trong cảm thọ nên không chấp thủ gì trong đời. Đủ Pāli dù EN để trống nhiều khóa."
+    },
+    {
+      "id": "repeated-release",
+      "title": "Phật lặp đủ kết quả",
+      "segments": [
+        "mn37:15.14",
+        "mn37:15.15",
+        "mn37:15.16",
+        "mn37:15.17"
+      ],
+      "summary": "Không chấp thủ→không lo âu→tự Niết-bàn, biết sinh tận/phạm hạnh thành/việc xong/không hiện hữu này nữa; đủ phẩm chất ái tận giải thoát cứu cánh và tối thắng trời người. Phật xác nhận nhớ đã dạy Sakka như thế."
+    },
+    {
+      "id": "ending",
+      "title": "Moggallāna hoan hỷ và kết kinh",
+      "segments": [
+        "mn37:15.18",
+        "mn37:15.19",
+        "mn37:15.20"
+      ],
+      "summary": "Phật kết lời, Moggallāna hoan hỷ tán đồng; Tiểu Kinh Đoạn Tận Ái thứ bảy trong nhóm, UID37."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Cung điện rung chuyển và lời dạy được nhớ lại",
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Nghe xong rồi đã hiểu chưa?",
+          "paragraphs": [
+            "Có khi em nghe một điều hay, gật đầu, rồi việc khác kéo sự chú ý đi mất. Tiểu Kinh Đoạn Tận Ái, MN37, kể một cuộc gặp giúp ta suy nghĩ về chuyện nghe và hiểu. “Ái” ở đây là sự ham muốn, khát khao và níu bám khiến tâm bị trói.",
+            "Người kể thuật rằng Đức Phật ở Sāvatthī, trong lâu đài của mẹ Migāra tại Đông Viên. Sakka, vua chư thiên, đến lễ Phật rồi đứng sang một bên. Ông xin Ngài nói ngắn gọn về một tỳ-kheo, tức người xuất gia: thế nào là giải thoát nhờ hết ái, đạt đích cuối cùng, an ổn trọn vẹn khỏi trói buộc, hoàn thành đời tu thanh tịnh, làm trọn mục tiêu và là bậc cao quý nhất giữa trời và người?"
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "sakka-question"
+          ]
+        },
+        {
+          "id": "know",
+          "kind": "teaching",
+          "heading": "Không bám chặt cũng cần hiểu rõ",
+          "paragraphs": [
+            "Đức Phật đáp rằng vị ấy được nghe: tất cả các pháp đều không đáng để chấp trước. “Pháp” ở đây là những sự vật, hiện tượng được biết; “chấp trước” là bám chặt, cố giữ chúng làm chỗ dựa không thể rời. Lời dạy không bảo bỏ việc học hay xem mọi thứ là không có thật.",
+            "Vị ấy trực tiếp biết tất cả các pháp, rồi hiểu thấu chúng. Nghe một câu là khởi đầu; bài kinh còn nói đến tự biết và hiểu sâu điều ấy."
+          ],
+          "meaningUnits": [
+            "heard-and-known"
+          ]
+        },
+        {
+          "id": "three-and-four",
+          "kind": "teaching",
+          "heading": "Ba loại cảm thọ, bốn điều để quán sát",
+          "paragraphs": [
+            "Cảm thọ là cái dễ chịu, đau khổ, hoặc không khổ cũng không lạc mà ta cảm nhận. Dù loại nào đến, vị ấy sống quán sát bốn điều: vô thường, nghĩa là không bền nguyên một trạng thái; ly tham, sự phai lìa ham đắm; đoạn diệt, sự chấm dứt; và xả bỏ, buông sự níu giữ.",
+            "Nhờ quán như vậy ngay trong các cảm thọ, vị ấy không chấp thủ bất cứ điều gì ở đời. “Chấp thủ” là nắm giữ chặt, nhận lấy điều ấy làm nơi mình phải bám vào."
+          ],
+          "meaningUnits": [
+            "feelings"
+          ]
+        },
+        {
+          "id": "free",
+          "kind": "teaching",
+          "heading": "Đích đến là giải thoát",
+          "paragraphs": [
+            "Không chấp thủ thì không còn bồn chồn, lo âu do bám víu; không bồn chồn như thế, vị ấy tự mình chứng Niết-bàn, sự giải thoát khỏi các gốc trói buộc. Vị ấy biết sự sinh đã tận, đời tu thanh tịnh đã hoàn thành, việc phải làm đã làm, không còn trở lại trạng thái hiện hữu này.",
+            "Đức Phật nói đó là người giải thoát nhờ đoạn tận ái: đạt cứu cánh, an ổn rốt ráo khỏi trói buộc, đời tu và mục tiêu đều viên mãn, cao quý nhất giữa trời và người. Ngài đang nói sự hoàn thành con đường tu, không phải cuộc thi xem ai có nhiều quyền lực."
+          ],
+          "meaningUnits": [
+            "liberation"
+          ]
+        },
+        {
+          "id": "find-out",
+          "kind": "teaching",
+          "heading": "Tôn giả Moggallāna muốn tìm hiểu",
+          "paragraphs": [
+            "Sakka vui mừng, tán đồng, lễ Phật, đi vòng giữ Đức Phật bên phải mình rồi biến mất. Tôn giả Mahāmoggallāna, thường gọi là Đại Mục-kiền-liên, đang ngồi gần đó. Tôn giả tự hỏi Sakka đã thật sự hiểu rồi mới tán đồng hay chưa. Ngài muốn tìm hiểu.",
+            "Nhanh như một người khỏe duỗi cánh tay đang co hoặc co cánh tay đang duỗi, tôn giả biến khỏi Đông Viên và hiện ở cõi trời Ba Mươi Ba. Đây là sự việc thần thông được câu chuyện kể."
+          ],
+          "meaningUnits": [
+            "sakka-departs",
+            "mogg-investigates",
+            "arrival"
+          ]
+        },
+        {
+          "id": "music",
+          "kind": "teaching",
+          "heading": "Năm trăm nhạc khí dừng lại",
+          "paragraphs": [
+            "Lúc ấy Sakka đang vui chơi tại vườn Một Hoa Sen, với năm trăm nhạc khí trời. Thấy tôn giả từ xa, ông cho dừng cả năm trăm nhạc khí, đến chào mừng, nói đã lâu tôn giả mới ghé và mời ngồi chỗ chuẩn bị sẵn. Tôn giả ngồi; Sakka lấy một ghế thấp ngồi bên.",
+            "Moggallāna gọi ông là Kosiya, một tên gọi khác của Sakka, rồi xin nghe lời Đức Phật đã dạy ngắn gọn về hết ái và giải thoát. Sakka nói mình rất bận, cả việc riêng lẫn việc của chư thiên Ba Mươi Ba. Ông cũng nói điều đã nghe kỹ, nắm kỹ, chú tâm kỹ và ghi nhớ kỹ thì không mau mất đi."
+          ],
+          "meaningUnits": [
+            "welcome",
+            "busy"
+          ]
+        },
+        {
+          "id": "palace",
+          "kind": "teaching",
+          "heading": "Câu chuyện bỗng chuyển sang một cung điện",
+          "paragraphs": [
+            "Rồi Sakka kể trước kia chư thiên giao chiến với a-tu-la, một nhóm chúng sinh khác trong câu chuyện. Chư thiên thắng. Trở về sau trận ấy, ông xây cung điện Vejayanta. Ông kể nó có một trăm tháp, mỗi tháp bảy trăm phòng, mỗi phòng bảy tiên nữ, mỗi tiên nữ có bảy nữ hầu.",
+            "Sakka mời tôn giả xem cung điện đẹp. Moggallāna im lặng nhận lời. Sakka cùng Đại vương Vessavaṇa để tôn giả đi trước, rồi cả ba tới cung điện."
+          ],
+          "meaningUnits": [
+            "palace",
+            "visit"
+          ]
+        },
+        {
+          "id": "tour",
+          "kind": "teaching",
+          "heading": "Những cảnh đẹp nối tiếp nhau",
+          "paragraphs": [
+            "Thấy Moggallāna từ xa, các nữ hầu của Sakka e dè, hổ thẹn, ai về phòng riêng nấy. Kinh so sánh với người con dâu dè dặt khi gặp cha chồng, một hình ảnh từ đời sống thời xưa.",
+            "Sakka và Vessavaṇa đưa tôn giả đi xem khắp nơi, chỉ vẻ đẹp này rồi vẻ đẹp khác. Trong cuộc chuyện trò có lời khen cung điện của Kosiya đẹp, xứng với phước ông từng làm. Người ta cũng nhắc rằng ở cõi người, thấy thứ gì đẹp thì thường ví đẹp như cảnh chư thiên Ba Mươi Ba."
+          ],
+          "meaningUnits": [
+            "maids",
+            "tour"
+          ]
+        },
+        {
+          "id": "shake",
+          "kind": "teaching",
+          "heading": "Chỉ một ngón chân cái",
+          "paragraphs": [
+            "Moggallāna nghĩ Sakka đang sống quá phóng dật, nghĩa là lơ là việc tu tập, nên muốn làm ông chấn động. Tôn giả dùng thần lực, lấy ngón chân cái làm cung điện Vejayanta rung lắc, chao đảo và rung chuyển.",
+            "Sakka, Vessavaṇa cùng chư thiên Ba Mươi Ba kinh ngạc. Họ thán phục vị sa-môn, người xuất gia, có uy lực đến mức làm thiên cung rung chuyển chỉ bằng ngón chân cái."
+          ],
+          "meaningUnits": [
+            "shake"
+          ]
+        },
+        {
+          "id": "tell-again",
+          "kind": "teaching",
+          "heading": "Lần này Sakka kể lại lời đã nghe",
+          "paragraphs": [
+            "Biết Sakka đã chấn động, dựng tóc gáy, tôn giả hỏi lại về lời dạy đoạn tận ái. Sakka kể mình đã lễ Phật, đứng bên và hỏi về người giải thoát: đạt đích cuối cùng, an ổn khỏi trói buộc, đời tu thanh tịnh và mục tiêu viên mãn, cao quý nhất giữa trời người.",
+            "Ông thuật lại lời Đức Phật: người tu nghe tất cả các pháp không đáng bám chặt, rồi trực tiếp biết, hiểu thấu tất cả. Với bất kỳ cảm thọ dễ chịu, đau khổ hay trung tính nào, vị ấy quán vô thường, ly tham, đoạn diệt, xả bỏ. Vì thế vị ấy không chấp thủ gì trong đời, không còn lo âu bồn chồn và tự mình chứng Niết-bàn.",
+            "Ông nhắc cả sự biết rằng sinh đã tận, đời tu đã thành, việc phải làm đã làm, không còn trở lại hiện hữu này. Đó là người ái tận giải thoát, đạt cứu cánh và an ổn rốt ráo, đời tu và mục tiêu hoàn thành, cao quý nhất giữa trời người. Sakka nói rõ mình đang thuật lời Đức Phật đã dạy cho mình."
+          ],
+          "meaningUnits": [
+            "second-question",
+            "retold-knowing",
+            "retold-contemplation",
+            "retold-release"
+          ]
+        },
+        {
+          "id": "who-was-that",
+          "kind": "teaching",
+          "heading": "Vị khách ấy có phải Đức Phật?",
+          "paragraphs": [
+            "Moggallāna vui mừng và tán đồng lời kể, rồi biến khỏi cõi Ba Mươi Ba, trở lại Đông Viên nhanh như người khỏe co hoặc duỗi cánh tay. Sau đó các nữ hầu hỏi Sakka có phải vị khách là Đức Phật, bậc Thầy của ông không.",
+            "Sakka đáp không: đó là Mahāmoggallāna, một vị đồng phạm hạnh, người cùng hướng đến đời tu thanh tịnh. Họ mừng vì Sakka có người bạn tu với thần lực và uy lực lớn như vậy, rồi thốt lời cảm thán về Đức Phật, bậc Đạo sư của ông. Kinh không nói Sakka đã giác ngộ chỉ vì kể lại được lời dạy."
+          ],
+          "meaningUnits": [
+            "mogg-returns",
+            "maids-question"
+          ]
+        },
+        {
+          "id": "back-to-buddha",
+          "kind": "teaching",
+          "heading": "Trở về với điều cốt yếu",
+          "paragraphs": [
+            "Moggallāna đến lễ Phật, ngồi bên và hỏi Ngài có nhớ từng dạy ngắn gọn về đoạn tận ái cho một vị thiên danh tiếng, uy lực lớn không. Đức Phật nói có và kể Sakka đến lễ, đứng bên, hỏi về người đạt giải thoát cùng những phẩm chất rốt ráo ấy.",
+            "Ngài nhắc lại câu trả lời: nghe tất cả các pháp không đáng chấp trước, trực tiếp biết rồi hiểu thấu tất cả; gặp cảm thọ dễ chịu, đau khổ hoặc không khổ không lạc thì quán vô thường, ly tham, đoạn diệt, xả bỏ. Nhờ vậy không chấp thủ gì, không lo âu, tự chứng Niết-bàn; biết sinh đã tận, đời tu đã thành, việc đã làm xong, không còn trở lại hiện hữu này.",
+            "Ngài xác nhận đó là người giải thoát nhờ hết ái, đạt đích cuối, an ổn hoàn toàn khỏi ách trói buộc, hoàn thành đời tu thanh tịnh và mục tiêu, cao quý nhất giữa trời người. Chính lời ấy Ngài đã nói với Sakka. Moggallāna vui mừng tán đồng. Tiểu Kinh Đoạn Tận Ái kết thúc, là bài thứ bảy trong nhóm và mang số MN37 trong Trung Bộ."
+          ],
+          "meaningUnits": [
+            "buddha-recalls",
+            "repeated-knowing",
+            "repeated-contemplation",
+            "repeated-release",
+            "ending"
+          ]
+        },
+        {
+          "id": "game-example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: khi lượt chơi đã hết",
+          "paragraphs": [
+            "Ví dụ hiện đại: em đã đồng ý chia lượt chơi với bạn. Khi đang chơi rất vui, em lại muốn giữ máy mãi. Lời “chia lượt là tốt” đã được nghe; lúc niềm vui kéo mạnh, em mới có cơ hội nhìn xem mình hiểu và làm được đến đâu.",
+            "Em có thể nhận ra niềm vui đang đổi, ham muốn níu lại, sự kết thúc của lượt chơi và khả năng buông tay trao lượt. Ví dụ chỉ giúp hình dung một nét của việc quan sát cảm thọ và tập buông bám, chưa phải toàn bộ sự quán chiếu và giải thoát trong kinh."
+          ],
+          "meaningUnits": [
+            "heard-and-known",
+            "feelings"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Tự nhắc mình bằng câu hỏi nhỏ",
+          "paragraphs": [
+            "Gợi ý thực hành hiện đại: chọn một lúc trong ngày, gọi tên cảm thọ đang có: dễ chịu, khó chịu hay trung tính. Quan sát nó có giữ nguyên không; mình đang thêm ham muốn gì vào đó; khi nó hết thì sao; mình có thể bớt níu giữ thế nào. Hỏi nhẹ nhàng rồi chọn việc tử tế cần làm.",
+            "Khi nhắc bạn, em có thể hỏi và lắng nghe, không lấy chuyện thần thông trong kinh làm cách dọa người khác. Các bước nhỏ này giúp em học, không hứa chỉ cần làm một lần là hết mọi lo âu hay chứng Niết-bàn."
+          ],
+          "meaningUnits": [
+            "heard-and-known",
+            "feelings",
+            "liberation"
+          ]
+        }
+      ],
+      "authors": [
+        "gpt-6-astra-pro"
+      ]
+    },
+    "adults": {
+      "title": "Từ tán đồng đến hiểu thấu và không chấp thủ",
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Tán đồng một lời dạy và hiểu lời dạy ấy",
+          "paragraphs": [
+            "Tiểu Kinh Đoạn Tận Ái, MN37, đặt một lời dạy rất ngắn trong một câu chuyện nhiều chuyển động. Theo lời truyền tụng, Đức Phật ở Sāvatthī, tại Đông Viên, trong lâu đài của mẹ Migāra. Sakka, vua chư thiên, đến đảnh lễ rồi đứng một bên.",
+            "Sakka xin một định nghĩa ngắn về vị tỳ-kheo, người xuất gia, được giải thoát nhờ đoạn tận ái: đạt cứu cánh tối hậu, an ổn tối hậu khỏi các ách trói buộc, hoàn thành phạm hạnh, tức đời tu thanh tịnh, đạt mục tiêu tối hậu và tối thắng giữa chư thiên với loài người. Ái là sự khát khao níu bám; câu hỏi nhắm đến sự kết thúc trói buộc ấy."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "sakka-question"
+          ]
+        },
+        {
+          "id": "knowing",
+          "kind": "teaching",
+          "heading": "Từ nghe đến trực tiếp biết và hiểu thấu",
+          "paragraphs": [
+            "Đức Phật bắt đầu bằng điều vị tỳ-kheo đã nghe: tất cả các pháp không đáng để chấp trước. “Pháp” ở đây chỉ các sự vật, hiện tượng; “chấp trước” là cố bám chặt vào chúng. Mệnh đề này không phủ nhận sự hiện hữu hay giá trị của việc hiểu biết. Ngay sau đó, Ngài nói vị ấy trực tiếp biết tất cả các pháp rồi hiểu thấu tất cả.",
+            "Mạch lời dạy gồm nghe, tự biết rõ và hiểu thấu. Lặp lại đúng câu mở đầu chưa thay thế cho hai bước tiếp theo."
+          ],
+          "meaningUnits": [
+            "heard-and-known"
+          ]
+        },
+        {
+          "id": "contemplating",
+          "kind": "teaching",
+          "heading": "Ba loại cảm thọ đều được quán chiếu",
+          "paragraphs": [
+            "Khi đã hiểu thấu, bất kỳ cảm thọ nào được cảm nhận — dễ chịu, đau khổ, hoặc không khổ không lạc — vị ấy đều sống quán vô thường, ly tham, đoạn diệt và xả bỏ trong những cảm thọ ấy.",
+            "Bốn hướng quán gồm nhận ra tính không bền, sự phai lìa tham đắm, sự chấm dứt và sự buông xả. Chúng đi cùng nhau trong lời dạy. Nhờ vậy vị ấy không chấp thủ, không nắm giữ bất cứ điều gì ở đời làm nơi bám víu."
+          ],
+          "meaningUnits": [
+            "feelings"
+          ]
+        },
+        {
+          "id": "completion",
+          "kind": "teaching",
+          "heading": "Không chấp thủ và sự hoàn tất con đường",
+          "paragraphs": [
+          "Không chấp thủ thì không còn khắc khoải, bồn chồn; không khắc khoải thì tự mình chứng Niết-bàn, sự giải thoát khỏi các gốc trói buộc. Vị ấy biết sinh đã tận, phạm hạnh đã thành, việc cần làm đã làm, không còn trở lại trạng thái hiện hữu này. Chuỗi kết quả được đặt trong toàn bộ sự trực tiếp biết, hiểu thấu và quán chiếu.",
+            "Đức Phật dùng chính các phẩm chất Sakka hỏi để kết: ái tận giải thoát, cứu cánh tối hậu, an ổn tối hậu khỏi ách, phạm hạnh tối hậu, mục tiêu tối hậu, tối thắng giữa trời và người. “Tối thắng” ở đây gắn với sự hoàn thành giải thoát."
+          ],
+          "meaningUnits": [
+            "liberation"
+          ]
+        },
+        {
+          "id": "question-of-understanding",
+          "kind": "teaching",
+          "heading": "Moggallāna tìm hiểu điều đứng sau sự tán đồng",
+          "paragraphs": [
+            "Sakka hoan hỷ tán đồng, lễ Phật, nhiễu quanh giữ Đức Phật bên phải rồi biến mất. Mahāmoggallāna, Đại Mục-kiền-liên, đang ngồi gần đó, tự hỏi vị thiên đã hiểu lời Phật rồi mới tán đồng hay chưa, và muốn tìm biết.",
+            "Tôn giả biến khỏi Đông Viên và xuất hiện ở trời Ba Mươi Ba nhanh như một người khỏe duỗi cánh tay co hoặc co cánh tay duỗi. Kinh kể đây là việc xảy ra bằng thần thông; câu hỏi của tôn giả vẫn là mức hiểu lời dạy."
+          ],
+          "meaningUnits": [
+            "sakka-departs",
+            "mogg-investigates",
+            "arrival"
+          ]
+        },
+        {
+          "id": "reception",
+          "kind": "teaching",
+          "heading": "Sự tiếp đón giữa âm nhạc và công việc",
+          "paragraphs": [
+            "Sakka đang vui chơi tại vườn Một Hoa Sen với năm trăm nhạc khí trời. Thấy Moggallāna từ xa, ông cho dừng năm trăm nhạc khí, đến đón, mừng vì lâu rồi tôn giả mới ghé và mời chỗ đã chuẩn bị. Tôn giả ngồi; Sakka dùng một ghế thấp ngồi bên.",
+            "Gọi Sakka là Kosiya, tôn giả xin nghe lời Đức Phật tóm tắt về giải thoát nhờ đoạn tận ái. Sakka đáp mình bận việc riêng lẫn trách nhiệm của chư thiên Ba Mươi Ba. Ông còn nói điều đã được nghe kỹ, nắm kỹ, chú tâm kỹ và ghi nhớ kỹ không mau chóng biến mất. Tuy vậy, lời tiếp theo chuyển sang chuyện cung điện."
+          ],
+          "meaningUnits": [
+            "welcome",
+            "busy"
+          ]
+        },
+        {
+          "id": "victory-palace",
+          "kind": "teaching",
+          "heading": "Một thành tựu khác chiếm cuộc trò chuyện",
+          "paragraphs": [
+            "Sakka kể trận chiến giữa chư thiên và a-tu-la: chư thiên thắng, a-tu-la bại. Sau khi trở về, ông xây Vejayanta, cung điện có một trăm tháp; mỗi tháp bảy trăm phòng, mỗi phòng bảy tiên nữ và mỗi tiên nữ bảy nữ hầu. Ông mời Moggallāna xem vẻ đẹp; tôn giả im lặng nhận lời.",
+            "Sakka cùng Đại vương Vessavaṇa để Moggallāna đi trước rồi cùng đến cung điện. Các nữ hầu thấy tôn giả thì hổ thẹn, dè dặt, lui vào từng phòng riêng. Kinh dùng hình ảnh con dâu gặp cha chồng để so sánh sự dè dặt ấy, một phép ví thuộc bối cảnh xã hội cổ.",
+            "Hai vị chủ nhà dẫn tôn giả xem khắp, chỉ cảnh đẹp này rồi cảnh đẹp khác. Trong cuộc trò chuyện có lời khen cung của Kosiya đẹp xứng với phước đã làm trong quá khứ, và nhắc rằng con người gặp cảnh đẹp thường ví như cảnh trời Ba Mươi Ba. Câu chuyện về phước và vẻ đẹp vẫn chưa trả lời câu hỏi ban đầu về ái tận."
+          ],
+          "meaningUnits": [
+            "palace",
+            "visit",
+            "maids",
+            "tour"
+          ]
+        },
+        {
+          "id": "urgency",
+          "kind": "teaching",
+          "heading": "Sự chấn động làm cuộc hỏi đáp trở lại",
+          "paragraphs": [
+          "Moggallāna nghĩ vị thiên này sống quá phóng dật, tức lơ là việc tu tập. Muốn làm ông chấn động, tôn giả vận dụng thần lực, dùng ngón chân cái khiến Vejayanta rung lắc, chao đảo, rung chuyển. Sakka, Vessavaṇa và chư thiên Ba Mươi Ba kinh ngạc trước uy lực của vị sa-môn có thể làm thiên cung chuyển động như thế.",
+            "Biết Sakka đã chấn động, dựng tóc gáy, tôn giả hỏi lại lời giải thích ngắn về ái tận giải thoát. Sakka kể đã đến lễ Phật, đứng một bên và hỏi về vị tỳ-kheo giải thoát: cứu cánh, an ổn khỏi ách, phạm hạnh và mục tiêu đều tối hậu, tối thắng giữa trời người."
+          ],
+          "meaningUnits": [
+            "shake",
+            "second-question"
+          ]
+        },
+        {
+          "id": "sakka-recounts",
+          "kind": "teaching",
+          "heading": "Lời Phật được Sakka thuật lại",
+          "paragraphs": [
+            "Sakka thuật lời Đức Phật: vị tỳ-kheo nghe tất cả các pháp không đáng chấp trước, trực tiếp biết tất cả rồi hiểu thấu tất cả. Với bất kỳ thọ dễ chịu, khổ hay trung tính, vị ấy quán vô thường, ly tham, đoạn diệt, xả bỏ; do đó không chấp thủ điều gì ở đời.",
+            "Ông nhắc tiếp chuỗi không chấp thủ, không lo âu, tự chứng Niết-bàn; sự biết sinh tận, phạm hạnh thành, việc đã làm xong, không trở lại hiện hữu này. Đến đó, vị ấy ái tận giải thoát, đạt cứu cánh tối hậu, an ổn tối hậu khỏi trói buộc, hoàn thành đời tu và mục tiêu tối hậu, tối thắng giữa trời người.",
+            "Sakka kết rõ đây là điều Đức Phật đã nói với mình. Phần này là lời ông thuật lại lời Phật; kinh không vì vậy tuyên bố ông đã tự thành tựu sự giải thoát đang được mô tả."
+          ],
+          "meaningUnits": [
+            "retold-knowing",
+            "retold-contemplation",
+            "retold-release"
+          ]
+        },
+        {
+          "id": "departure",
+          "kind": "teaching",
+          "heading": "Vị khách và bậc Đạo sư",
+          "paragraphs": [
+            "Moggallāna hoan hỷ tán đồng rồi trở về Đông Viên, lại nhanh như người khỏe co hay duỗi tay. Sau khi tôn giả rời đi, các nữ hầu hỏi Sakka vị ấy có phải Đức Phật, bậc Thầy của ông không. Sakka đáp không, đó là Mahāmoggallāna, vị đồng phạm hạnh của mình.",
+            "Các nữ hầu mừng Sakka có bạn đồng tu với thần lực và uy lực lớn như vậy, rồi cảm thán về Đức Phật, bậc Đạo sư. Đồng phạm hạnh ở đây là người cùng hướng tới đời tu thanh tịnh."
+          ],
+          "meaningUnits": [
+            "mogg-returns",
+            "maids-question"
+          ]
+        },
+        {
+          "id": "confirmed",
+          "kind": "teaching",
+          "heading": "Đức Phật nhắc lại đầy đủ lời dạy",
+          "paragraphs": [
+            "Moggallāna đến lễ Phật, ngồi bên và hỏi Ngài có nhớ từng nói ngắn về ái tận giải thoát cho một vị thiên danh tiếng, uy lực lớn không. Đức Phật xác nhận, kể Sakka tới lễ, đứng bên và nêu câu hỏi về người đạt cứu cánh, an ổn khỏi ách, phạm hạnh, mục tiêu tối hậu và tối thắng giữa trời người.",
+            "Ngài lặp lại mạch đã dạy: nghe tất cả pháp không đáng chấp trước, trực tiếp biết rồi hiểu thấu tất cả; đối với mọi thọ lạc, khổ, không khổ không lạc, sống quán vô thường, ly tham, đoạn diệt, xả bỏ. Từ đó không chấp thủ, không lo âu, tự chứng Niết-bàn, biết sinh đã tận, phạm hạnh đã thành, việc đã xong, không còn trở lại hiện hữu này.",
+            "Ngài kết đủ các phẩm chất ái tận giải thoát, cứu cánh tối hậu, an ổn tối hậu khỏi ách, đời tu và mục tiêu tối hậu, tối thắng trời người, rồi xác nhận đó là lời đã nói với Sakka. Moggallāna hoan hỷ tán đồng. Kinh kết với vị trí thứ bảy trong nhóm, mang số MN37 trong Trung Bộ."
+          ],
+          "meaningUnits": [
+            "buddha-recalls",
+            "repeated-knowing",
+            "repeated-contemplation",
+            "repeated-release",
+            "ending"
+          ]
+        },
+        {
+          "id": "meeting-example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: trả lời đúng câu hỏi đang được đặt",
+          "paragraphs": [
+            "Ví dụ hiện đại: một nhóm đã đồng ý làm việc minh bạch. Khi được hỏi một quyết định cụ thể dựa vào điều gì, người phụ trách lại kể những thành tích của nhóm và lịch làm việc dày. Các thành tích có thể có thật, nhưng câu hỏi vẫn cần được trả lời. Trở lại bằng cách nói rõ căn cứ, nghe góp ý và sửa điều thiếu là cơ hội biến nguyên tắc đã đồng ý thành thực hành.",
+            "Ví dụ này soi sáng sự chuyển hướng trong cuộc đối thoại, không dùng sự bận rộn để kết luận ai phóng dật hay chưa giác ngộ. Mạch sâu của kinh vẫn là biết rõ cảm thọ và buông chấp thủ đến giải thoát."
+          ],
+          "meaningUnits": [
+            "heard-and-known",
+            "busy",
+            "retold-knowing"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Đưa một điều đã hiểu vào một tình huống nhỏ",
+          "paragraphs": [
+            "Gợi ý thực hành hiện đại: chọn một nguyên tắc mình đã tán đồng và xem lại một tình huống áp dụng. Nhận biết cảm thọ dễ chịu, khó chịu hoặc trung tính; nhìn sự thay đổi của nó, khuynh hướng tham đắm, sự chấm dứt và khả năng buông bớt nắm giữ. Sau đó chọn cách hành xử rõ ràng, có trách nhiệm.",
+            "Nhắc nhau bằng câu hỏi và sự lắng nghe phù hợp hơn việc lấy cảnh rung thiên cung làm mẫu để gây sợ. Bài tập suy xét này không thay thế toàn bộ con đường trong kinh và không phải lời bảo đảm về hết lo âu hay chứng Niết-bàn."
+          ],
+          "meaningUnits": [
+            "heard-and-known",
+            "feelings",
+            "liberation"
+          ]
+        }
+      ],
+      "authors": [
+        "gpt-6-astra-pro"
+      ]
+    },
+    "older-adults": {
+      "title": "Nghe sâu một lời dạy về buông chấp",
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Một lời ngắn có thể cần được nghe sâu",
+          "paragraphs": [
+            "Tiểu Kinh Đoạn Tận Ái, MN37, cho người đọc theo một lời dạy được nghe, được thuật lại rồi được Đức Phật xác nhận. Ái là sự khát khao, níu bám trói buộc tâm. Bài kinh hỏi đến sự chấm dứt tận gốc ấy.",
+            "Theo lời truyền tụng, Đức Phật ở Sāvatthī, tại Đông Viên, trong lâu đài của mẹ Migāra. Sakka, vua chư thiên, đến lễ Ngài rồi đứng bên. Ông hỏi ngắn gọn thế nào một tỳ-kheo, người xuất gia, được ái tận giải thoát: thành tựu cứu cánh, an ổn rốt ráo khỏi mọi ách trói, hoàn thành phạm hạnh, tức đời tu thanh tịnh, đạt mục tiêu tối hậu trọn vẹn, cao quý nhất giữa chư thiên và loài người."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "sakka-question"
+          ]
+        },
+        {
+          "id": "understand",
+          "kind": "teaching",
+          "heading": "Không chấp trước đi cùng biết rõ",
+          "paragraphs": [
+            "Đức Phật đáp: người tu được nghe rằng tất cả các pháp không đáng để chấp trước. Pháp là các sự vật, hiện tượng; chấp trước là bám chặt, nhất quyết níu giữ. Lời ấy hướng đến buông bám, không bảo coi nhẹ việc hiểu biết hay phủ nhận mọi sự vật.",
+            "Vị ấy trực tiếp biết tất cả các pháp, rồi hiểu thấu tất cả. Người đọc có thể nhận ra ba chặng trong lời dạy: đã nghe, tự biết rõ, hiểu thấu. Một câu quen thuộc cần trở thành sự thấy biết nơi chính mình."
+          ],
+          "meaningUnits": [
+            "heard-and-known"
+          ]
+        },
+        {
+          "id": "feelings",
+          "kind": "teaching",
+          "heading": "Đối diện đủ ba loại cảm thọ",
+          "paragraphs": [
+            "Bất cứ cảm thọ nào được cảm nhận, dễ chịu, đau khổ hoặc không khổ không lạc, đều là nơi vị ấy sống quán vô thường, ly tham, đoạn diệt và xả bỏ.",
+            "Vô thường là không bền; ly tham là phai lìa ham đắm; đoạn diệt là chấm dứt; xả bỏ là buông sự níu giữ. Nhờ sống quán bốn điều ấy trong cảm thọ, vị ấy không chấp thủ bất cứ điều gì trong đời. Cả niềm vui, nỗi khổ lẫn cảm nhận trung tính đều có mặt trong phạm vi quán chiếu."
+          ],
+          "meaningUnits": [
+            "feelings"
+          ]
+        },
+        {
+          "id": "freedom",
+          "kind": "teaching",
+          "heading": "Sự an ổn của người không còn chấp thủ",
+          "paragraphs": [
+          "Không chấp thủ thì không còn bồn chồn, khắc khoải; không khắc khoải như thế, vị ấy tự mình chứng Niết-bàn, sự giải thoát khỏi các gốc trói buộc. Vị ấy biết sinh đã tận, phạm hạnh đã thành, việc cần làm đã làm, không còn trở lại trạng thái hiện hữu này. Đây là lời về sự hoàn tất đường tu, không chỉ một lúc tâm được nhẹ nhõm.",
+            "Đức Phật xác nhận đó là người giải thoát nhờ hết ái, đạt cứu cánh tối hậu, an ổn tối hậu khỏi ách, đời tu thanh tịnh và mục tiêu đều viên mãn, cao quý nhất giữa trời người. Sự cao quý được gắn với giải thoát này."
+          ],
+          "meaningUnits": [
+            "liberation"
+          ]
+        },
+        {
+          "id": "enquiry",
+          "kind": "teaching",
+          "heading": "Tôn giả muốn biết Sakka đã hiểu đến đâu",
+          "paragraphs": [
+            "Sakka vui mừng tán đồng, đảnh lễ, nhiễu quanh giữ Đức Phật bên phải rồi biến mất. Tôn giả Mahāmoggallāna, Đại Mục-kiền-liên, đang ngồi gần Phật, tự hỏi vị thiên ấy đã hiểu lời dạy rồi mới tán đồng hay chưa, và muốn tìm hiểu.",
+            "Ngài biến khỏi Đông Viên, hiện ra ở cõi trời Ba Mươi Ba, nhanh như người khỏe duỗi cánh tay đang co hoặc co tay đang duỗi. Chuyện thần thông đưa cuộc tìm hiểu đến nơi Sakka đang sống."
+          ],
+          "meaningUnits": [
+            "sakka-departs",
+            "mogg-investigates",
+            "arrival"
+          ]
+        },
+        {
+          "id": "welcome",
+          "kind": "teaching",
+          "heading": "Cuộc đón tiếp ở vườn Một Hoa Sen",
+          "paragraphs": [
+            "Sakka đang vui chơi trong vườn Một Hoa Sen, có năm trăm nhạc khí trời. Thấy Moggallāna từ xa, ông cho dừng cả năm trăm nhạc khí, đến chào mừng, nói đã lâu tôn giả mới tới và mời ngồi chỗ sẵn. Tôn giả ngồi; Sakka lấy ghế thấp ngồi một bên.",
+            "Moggallāna gọi ông là Kosiya, cũng là Sakka, rồi xin nghe lời Phật tóm tắt về giải thoát nhờ đoạn tận ái. Sakka đáp mình nhiều việc, vừa việc riêng vừa việc chư thiên Ba Mươi Ba. Ông nói điều đã nghe kỹ, nắm kỹ, chú tâm kỹ và ghi nhớ kỹ thì không mau quên."
+          ],
+          "meaningUnits": [
+            "welcome",
+            "busy"
+          ]
+        },
+        {
+          "id": "palace",
+          "kind": "teaching",
+          "heading": "Từ chuyện giáo pháp sang chuyện cung điện",
+          "paragraphs": [
+            "Sakka tiếp bằng chuyện trận chiến giữa chư thiên và a-tu-la. Chư thiên thắng, a-tu-la thua; sau khi trở về ông cho dựng cung điện Vejayanta. Cung có một trăm tháp, mỗi tháp bảy trăm phòng; mỗi phòng bảy tiên nữ, mỗi tiên nữ bảy nữ hầu.",
+            "Ông mời tôn giả xem những vẻ đẹp ấy. Moggallāna im lặng đồng ý. Sakka và Đại vương Vessavaṇa mời Ngài đi trước rồi cùng tới cung điện."
+          ],
+          "meaningUnits": [
+            "palace",
+            "visit"
+          ]
+        },
+        {
+          "id": "walking",
+          "kind": "teaching",
+          "heading": "Vẻ đẹp và phước đã tạo",
+          "paragraphs": [
+            "Những nữ hầu của Sakka thấy Moggallāna từ xa thì e dè, hổ thẹn, lui về phòng riêng. Kinh ví sự dè dặt ấy với người con dâu gặp cha chồng, một hình ảnh ứng xử của thời xưa.",
+            "Sakka và Vessavaṇa đưa tôn giả đi khắp cung, chỉ vẻ đẹp này rồi vẻ đẹp kia. Có lời nhận xét cung của Kosiya đẹp, xứng với phước lành đã làm trong quá khứ. Lời ấy cũng nhắc rằng người đời thấy điều đẹp thường ví đẹp như cảnh chư thiên Ba Mươi Ba. Vẻ đẹp được nhìn nhận, còn câu hỏi về đoạn tận ái vẫn đang đợi trả lời."
+          ],
+          "meaningUnits": [
+            "maids",
+            "tour"
+          ]
+        },
+        {
+          "id": "stirred",
+          "kind": "teaching",
+          "heading": "Cung điện rung chuyển",
+          "paragraphs": [
+            "Moggallāna nghĩ Sakka sống quá phóng dật, lơ là việc cần tu, và muốn làm ông chấn động. Tôn giả dùng thần lực, lấy ngón chân cái khiến cung điện rung lắc, chao đảo, rung chuyển. Sakka, Vessavaṇa và chư thiên Ba Mươi Ba đều kinh ngạc trước thần lực, uy lực của vị sa-môn chỉ dùng ngón chân cái làm thiên cung chuyển động.",
+            "Biết Sakka chấn động và dựng tóc gáy, tôn giả hỏi lại lời Phật về ái tận giải thoát. Sakka thuật mình đến đảnh lễ, đứng bên, hỏi về vị tỳ-kheo được giải thoát, đạt cứu cánh và an ổn rốt ráo khỏi ách, đời phạm hạnh và mục tiêu viên mãn, tối thắng giữa trời người."
+          ],
+          "meaningUnits": [
+            "shake",
+            "second-question"
+          ]
+        },
+        {
+          "id": "recount",
+          "kind": "teaching",
+          "heading": "Sakka trở lại đúng lời đã nghe",
+          "paragraphs": [
+            "Sakka kể lời Đức Phật: người tu nghe tất cả các pháp không đáng chấp trước, trực tiếp biết tất cả rồi hiểu thấu tất cả. Khi có thọ dễ chịu, đau khổ hoặc không khổ không lạc, vị ấy sống quán vô thường, ly tham, đoạn diệt, xả bỏ. Nhờ vậy không chấp thủ điều gì ở đời.",
+            "Ông tiếp tục nhắc không chấp thủ thì không lo âu, không lo âu thì tự chứng Niết-bàn; biết sinh đã tận, phạm hạnh đã thành, việc đã xong, không còn trở lại hiện hữu này. Người ấy ái tận giải thoát, đạt cứu cánh, an ổn khỏi ách, đời tu và mục tiêu đều rốt ráo, tối thắng giữa trời người.",
+            "Sakka kết rằng Đức Phật đã dạy ngắn gọn cho mình như thế. Đây là việc thuật lại lời dạy, chưa phải lời kinh xác nhận Sakka đã tự chứng toàn bộ điều đang nói."
+          ],
+          "meaningUnits": [
+            "retold-knowing",
+            "retold-contemplation",
+            "retold-release"
+          ]
+        },
+        {
+          "id": "companion",
+          "kind": "teaching",
+          "heading": "Người bạn đồng phạm hạnh",
+          "paragraphs": [
+            "Moggallāna hoan hỷ tán đồng, rồi về lại Đông Viên nhanh như người khỏe co hoặc duỗi cánh tay. Các nữ hầu hỏi Sakka vị vừa đi có phải Đức Phật, bậc Đạo sư của ông không. Ông nói không; đó là Mahāmoggallāna, một vị đồng phạm hạnh, người cùng hướng tới đời tu thanh tịnh.",
+            "Họ vui mừng cho Sakka vì có một bạn đồng tu đầy thần lực và uy lực như vậy, rồi cảm thán về Đức Phật, bậc Thầy của ông."
+          ],
+          "meaningUnits": [
+            "mogg-returns",
+            "maids-question"
+          ]
+        },
+        {
+          "id": "confirmation",
+          "kind": "teaching",
+          "heading": "Đức Phật xác nhận lời đã dạy",
+          "paragraphs": [
+            "Moggallāna đến lễ Phật và ngồi một bên, hỏi Ngài có nhớ đã dạy ngắn về đoạn tận ái cho một vị thiên danh tiếng, uy lực lớn không. Ngài xác nhận, kể Sakka đến lễ, đứng bên và hỏi về người giải thoát cùng các phẩm chất tối hậu ấy.",
+            "Ngài nhắc đủ lời đã đáp: nghe tất cả các pháp không đáng chấp trước; trực tiếp biết, hiểu thấu tất cả; trong thọ dễ chịu, khổ, không khổ không lạc, quán vô thường, ly tham, đoạn diệt, xả bỏ. Từ đó không chấp thủ, không lo âu, tự chứng Niết-bàn; biết sinh tận, phạm hạnh thành, việc cần làm đã làm, không còn trở lại hiện hữu này.",
+            "Đức Phật kết đây là ái tận giải thoát, cứu cánh tối hậu, an ổn tối hậu khỏi mọi ách, đời tu thanh tịnh và mục tiêu tối hậu hoàn thành, tối thắng giữa trời người. Ngài xác nhận chính lời ấy đã được nói với Sakka. Moggallāna hoan hỷ tán đồng. Tiểu Kinh Đoạn Tận Ái kết thúc, thứ bảy trong nhóm và là MN37 của Trung Bộ."
+          ],
+          "meaningUnits": [
+            "buddha-recalls",
+            "repeated-knowing",
+            "repeated-contemplation",
+            "repeated-release",
+            "ending"
+          ]
+        },
+        {
+          "id": "family-example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: một cuộc họp mặt thay đổi",
+          "paragraphs": [
+            "Ví dụ hiện đại: người tổ chức mong cuộc họp mặt gia đình diễn ra đúng dự tính, rồi một người báo không thể đến. Niềm vui chờ đợi chuyển thành hụt hẫng. Nhận biết sự chuyển đổi ấy, người tổ chức có thể thấy thêm ham muốn mọi việc phải theo ý mình, để sự bám giữ dịu lại và tìm một cách gặp gỡ khác.",
+            "Ví dụ không bảo tình thân là điều phải bỏ. Nó giúp phân biệt sự quan tâm với việc đòi cảm xúc và hoàn cảnh phải đứng yên. Con đường trong kinh còn bao gồm hiểu thấu và đoạn tận chấp thủ đến Niết-bàn."
+          ],
+          "meaningUnits": [
+            "heard-and-known",
+            "feelings"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một lúc lặng để nhìn lại điều đã nghe",
+          "paragraphs": [
+            "Gợi ý thực hành hiện đại: chọn một lời dạy mình quen nghe, rồi nhớ một việc nhỏ trong ngày. Lúc ấy là dễ chịu, đau khổ hay trung tính? Cảm thọ có đổi không? Có sự ham đắm nào đang phai, có điều đang chấm dứt, có chỗ nào mình có thể buông bớt nắm giữ? Không cần ép ra một cảm giác an ổn theo ý muốn.",
+            "Khi trao đổi với người thân, hỏi nhẹ và nghe kỹ là cách nhắc nhau phù hợp; chuyện thần thông không phải khuôn mẫu gây sợ để người khác nghe lời. Việc suy xét này là bước học gần gũi, không phải lời hứa chấm dứt mọi lo âu hay đạt quả giải thoát chỉ bằng một lần thực hiện."
+          ],
+          "meaningUnits": [
+            "heard-and-known",
+            "feelings",
+            "liberation"
+          ]
+        }
+      ],
+      "authors": [
+        "gpt-6-astra-pro"
+      ]
+    }
+  }
+}
