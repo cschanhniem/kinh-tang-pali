@@ -142,3 +142,4 @@ Theo dõi bằng nội dung và lịch sử đánh giá trong kho cùng PR đã 
 - [Báo cáo lô 15 — MN141–MN150](modern-explanations/batch-15-mn141-mn150.md)
 - [Báo cáo lô 16 — MN151–MN152 và DN1–DN8](modern-explanations/batch-16-mn151-mn152-dn1-dn8.md)
 - [Báo cáo lô 17 — DN9–DN18](modern-explanations/batch-17-dn9-dn18.md)
+- [Báo cáo lô 18 — DN19–DN28](modern-explanations/batch-18-dn19-dn28.md)

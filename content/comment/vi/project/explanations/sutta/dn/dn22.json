@@ -1,0 +1,2850 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn22",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "3872197cb1998b3281225c66c2929bf6a9535654ef630118ab372a6f33385e49"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "c5a8f449251ed64cc34a9eb4b2e20ed1d9982fcecd217c992bced884d465b004"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/dn/dn22_translation-vi-project.json",
+      "commit": "6fdace1cae33e80cf082c4027c78d543f5eb48b1",
+      "sha256": "c08d1fd3974ce91a9714bee81cef5b3b95d30aac9546765145cbcbf52b9f4a08"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn22.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "08ff06b5b7636c5e3d5c30a39c4304ca8367357239441e3ddcbf56c2486003e3"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/dn/dn22_comment-vi-project.json",
+      "commit": "6fdace1cae33e80cf082c4027c78d543f5eb48b1",
+      "sha256": "d6539d242c1446e1bc1a0df3cc19cf86e8c2c86c34bd6acee58ff4f44f4f9965"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "setting",
+      "title": "Kinh Đại Niệm Xứ và hội chúng tại Kammāsadhamma",
+      "segments": [
+        "dn22:0.1",
+        "dn22:0.2",
+        "dn22:1.1",
+        "dn22:1.2",
+        "dn22:1.3",
+        "dn22:1.4",
+        "dn22:1.5",
+        "dn22:1.6"
+      ],
+      "summary": "Trường Bộ 22, Mahāsatipaṭṭhānasutta. Người truyền kinh thuật Phật ở xứ Kuru, thị trấn Kammāsadhamma; Ngài gọi các tỳ-kheo, họ đáp rồi Ngài giảng. Giữ địa danh theo Pāli dù Anh viết Kammāsadamma."
+    },
+    {
+      "id": "aim",
+      "title": "Con đường và năm mục tiêu",
+      "segments": [
+        "dn22:1.7",
+        "dn22:1.8"
+      ],
+      "summary": "Bốn niệm xứ được nêu là ekāyano maggo: giữ lựa chọn con đường trực tiếp của bản Việt, ghi khác biệt quy tụ/độc nhất. Đích: thanh tịnh chúng sinh, vượt sầu và bi, chấm dứt khổ và ưu, đạt con đường chân chánh, chứng ngộ Niết-bàn; câu hỏi bốn gì dẫn phần sau."
+    },
+    {
+      "id": "four-fields",
+      "title": "Bốn lĩnh vực với cùng điều kiện tu tập",
+      "segments": [
+        "dn22:1.9",
+        "dn22:1.10",
+        "dn22:1.11",
+        "dn22:1.12",
+        "dn22:1.13"
+      ],
+      "summary": "Quán thân nơi thân, thọ nơi thọ, tâm nơi tâm, pháp nơi pháp. Cả bốn đều nhiệt tâm, tỉnh giác, có niệm, đã gạt tham và ưu đối với đời. Nhãn kết phần khái quát là của văn bản."
+    },
+    {
+      "id": "breath-seat",
+      "title": "Nơi ngồi và niệm hơi thở",
+      "segments": [
+        "dn22:2.0.1",
+        "dn22:2.0.2",
+        "dn22:2.1",
+        "dn22:2.2",
+        "dn22:2.3"
+      ],
+      "summary": "Mở quán thân/niệm hơi thở. Tỳ-kheo đến rừng hoặc gốc cây hoặc nhà trống, ngồi kiết-già, thân thẳng, thiết lập niệm trước mặt; có niệm khi thở vào và khi thở ra."
+    },
+    {
+      "id": "breath-training",
+      "title": "Biết dài ngắn, tập cảm nhận và làm lắng",
+      "segments": [
+        "dn22:2.4",
+        "dn22:2.5",
+        "dn22:2.6",
+        "dn22:2.7",
+        "dn22:2.8",
+        "dn22:2.9",
+        "dn22:2.10"
+      ],
+      "summary": "Biết thở vào dài/ra dài/vào ngắn/ra ngắn; tập cả vào và ra với cảm nhận toàn thân, làm lắng thân hành. Ví thợ tiện giỏi hoặc học trò biết đường kéo dài hay ngắn; sau ví nhắc đủ bốn biết và hai cặp tập. Không đổi dài/ngắn thành nặng/nhẹ; không tự thu hẹp toàn thân từ nguồn khác."
+    },
+    {
+      "id": "body-refrain",
+      "title": "Điệp khúc quán thân",
+      "segments": [
+        "dn22:2.11",
+        "dn22:2.12",
+        "dn22:2.13",
+        "dn22:2.14",
+        "dn22:2.15"
+      ],
+      "summary": "Quán thân bên trong hoặc bên ngoài hoặc cả hai; quán tính sinh hoặc diệt hoặc sinh-diệt. Hoặc niệm có thân vừa đủ cho hiểu biết và ghi nhận; sống không nương tựa, không chấp thủ bất cứ gì ở đời. Đây là quán thân, kết phần hơi thở. Giữ giới hạn yāvadeva, không đổi thành chỉ hy vọng về sau."
+    },
+    {
+      "id": "postures",
+      "title": "Đi, đứng, ngồi, nằm",
+      "segments": [
+        "dn22:3.0",
+        "dn22:3.1",
+        "dn22:3.2",
+        "dn22:3.3",
+        "dn22:3.4",
+        "dn22:3.5",
+        "dn22:3.6",
+        "dn22:3.7"
+      ],
+      "summary": "Biết rõ đang đi/đứng/ngồi/nằm; thân được đặt thế nào biết thế ấy. Lặp đủ quán trong/ngoài/cả hai, sinh/diệt/cả hai, có thân đủ cho biết và niệm, không nương/chấp. Kết phần tư thế."
+    },
+    {
+      "id": "activities",
+      "title": "Tỉnh giác trong mọi sinh hoạt được nêu",
+      "segments": [
+        "dn22:4.0",
+        "dn22:4.1",
+        "dn22:4.2",
+        "dn22:4.3",
+        "dn22:4.4"
+      ],
+      "summary": "Tỉnh giác khi tới/lui; nhìn trước/sang bên; co/duỗi; mang y ngoài/bát/y; ăn/uống/nhai/nếm; đại/tiểu tiện; đi/đứng/ngồi/ngủ/thức/nói/im lặng. Dấu lược dẫn lại điệp khúc quán thân trong chính bài; câu kết và nhãn tỉnh giác. Không theo chỗ HTML lược ngủ/thức/nói/im."
+    },
+    {
+      "id": "body-parts",
+      "title": "Ba mươi mốt thành phần thân",
+      "segments": [
+        "dn22:5.0",
+        "dn22:5.1",
+        "dn22:5.2"
+      ],
+      "summary": "Xét thân từ bàn chân lên, đỉnh tóc xuống, da bao và đầy các thứ không sạch: tóc, lông, móng, răng, da; thịt, gân, xương, tủy, thận; tim, gan, cơ hoành, lách, phổi; ruột, màng treo ruột, thức ăn chưa tiêu, phân; mật, đờm, mủ, máu, mồ hôi, mỡ; nước mắt, chất nhờn, nước bọt, nước mũi, dịch khớp, nước tiểu. Không thêm não thành 32."
+    },
+    {
+      "id": "grain-bag",
+      "title": "Ví túi hạt mở hai đầu",
+      "segments": [
+        "dn22:5.3",
+        "dn22:5.4",
+        "dn22:5.5",
+        "dn22:5.6",
+        "dn22:5.7",
+        "dn22:5.8"
+      ],
+      "summary": "Người có mắt mở và nhận các hạt trong túi hai đầu: sāli, vīhi, mugga, māsa, tila, taṇḍula. Giữ sáu loại/tên, không tự đồng nhất vīhi với lúa mì. So lại với chính thân từ chân tới tóc, danh mục thân được nhắc có lược; điệp khúc và nhãn kết quán phần không sạch."
+    },
+    {
+      "id": "elements",
+      "title": "Bốn yếu tố và ví người đồ tể",
+      "segments": [
+        "dn22:6.0",
+        "dn22:6.1",
+        "dn22:6.2",
+        "dn22:6.3",
+        "dn22:6.4",
+        "dn22:6.5",
+        "dn22:6.6",
+        "dn22:6.7",
+        "dn22:6.8"
+      ],
+      "summary": "Bất kỳ vị trí/tư thế nào, xét thân theo đất/nước/lửa/gió. Ví người đồ tể giỏi hoặc học trò giết bò, chia phần, ngồi tại ngã tư. Trở lại thân có đủ bốn yếu tố; điệp khúc quán thân có dấu lược, nhãn kết. Ví mô tả không phải chỉ thị giết hại."
+    },
+    {
+      "id": "corpse-first",
+      "title": "Cảnh thứ nhất: một đến ba ngày",
+      "segments": [
+        "dn22:7.0",
+        "dn22:7.1",
+        "dn22:7.2",
+        "dn22:7.3",
+        "dn22:7.4",
+        "dn22:7.5"
+      ],
+      "summary": "Giả sử tỳ-kheo thấy tử thi bỏ nơi nghĩa địa chết một/hai/ba ngày, trương phồng, đổi màu tím, chảy mủ; so thân mình cùng bản chất, sẽ như thế và không vượt khỏi. Lặp điệp khúc có dấu lược và câu kết quán thân."
+    },
+    {
+      "id": "corpse-animals",
+      "title": "Cảnh thứ hai: các loài ăn tử thi",
+      "segments": [
+        "dn22:8.1",
+        "dn22:8.2",
+        "dn22:8.3",
+        "dn22:8.4",
+        "dn22:8.5"
+      ],
+      "summary": "Giả sử thấy tử thi bị quạ, diều hâu, kền kền, cò, chó, hổ, báo, chó rừng hoặc các sinh vật nhỏ ăn. Giữ đủ các loài, so thân mình cùng bản chất/sẽ như thế/không vượt; điệp khúc có lược và câu kết."
+    },
+    {
+      "id": "skeletons",
+      "title": "Cảnh thứ ba đến thứ sáu",
+      "segments": [
+        "dn22:9.1",
+        "dn22:9.2",
+        "dn22:9.3",
+        "dn22:9.4",
+        "dn22:9.5",
+        "dn22:9.6",
+        "dn22:9.7",
+        "dn22:9.8"
+      ],
+      "summary": "Bộ xương có thịt và máu, gân nối; không thịt nhưng vấy máu, gân nối; hết thịt máu, gân nối; xương rời rải các phía. Đủ xương tay/chân/mắt cá/ống chân/đùi/hông/sườn/sống/vai/cổ/hàm/răng/sọ. So thân cùng bản chất/sẽ như thế/không vượt; điệp khúc lược, cuối còn viharati. Không nhập phần lược từ MN10."
+    },
+    {
+      "id": "bones-last",
+      "title": "Cảnh thứ bảy đến thứ chín",
+      "segments": [
+        "dn22:10.1",
+        "dn22:10.2",
+        "dn22:10.3",
+        "dn22:10.4",
+        "dn22:10.5"
+      ],
+      "summary": "Xương trắng như vỏ ốc; xương chất đống qua hơn một năm; xương mục vụn thành bột. Có lược giữa các cảnh, rồi so chính thân cùng bản chất, sẽ như thế và không vượt khỏi."
+    },
+    {
+      "id": "body-close",
+      "title": "Điệp khúc cuối và mười bốn quán thân",
+      "segments": [
+        "dn22:10.6",
+        "dn22:10.7",
+        "dn22:10.8",
+        "dn22:10.9",
+        "dn22:10.10",
+        "dn22:10.11"
+      ],
+      "summary": "Lặp đủ trong/ngoài/cả hai, sinh/diệt/cả hai, có thân đủ biết và niệm, không nương/chấp. Kết quán thân, nhãn kết chín cách quán tử thi và mười bốn quán thân; không gán nhãn là lời chỉ dẫn mới."
+    },
+    {
+      "id": "feelings",
+      "title": "Chín cách nhận biết cảm thọ",
+      "segments": [
+        "dn22:11.0",
+        "dn22:11.1",
+        "dn22:11.2",
+        "dn22:11.3",
+        "dn22:11.4",
+        "dn22:11.5",
+        "dn22:11.6",
+        "dn22:11.7",
+        "dn22:11.8",
+        "dn22:11.9",
+        "dn22:11.10"
+      ],
+      "summary": "Quán thọ: biết khi có lạc, khổ, không khổ không lạc; với từng loại lại biết thuộc thế tục (sāmisa) hoặc không thuộc thế tục (nirāmisa). Đủ chín trường hợp; không đồng nhất cặp sau với thuần thân/tâm hay xúc cảm rõ/không rõ."
+    },
+    {
+      "id": "feeling-refrain",
+      "title": "Điệp khúc quán thọ",
+      "segments": [
+        "dn22:11.11",
+        "dn22:11.12",
+        "dn22:11.13",
+        "dn22:11.14",
+        "dn22:11.15"
+      ],
+      "summary": "Đối với thọ, quán trong/ngoài/cả hai, tính sinh/diệt/cả hai; hoặc niệm có thọ đủ biết và ghi nhận; sống không nương tựa, không chấp gì ở đời. Kết phần thọ."
+    },
+    {
+      "id": "mind-states",
+      "title": "Mười sáu trạng thái tâm",
+      "segments": [
+        "dn22:12.0",
+        "dn22:12.1",
+        "dn22:12.2",
+        "dn22:12.3",
+        "dn22:12.4",
+        "dn22:12.5",
+        "dn22:12.6",
+        "dn22:12.7",
+        "dn22:12.8",
+        "dn22:12.9",
+        "dn22:12.10",
+        "dn22:12.11",
+        "dn22:12.12",
+        "dn22:12.13",
+        "dn22:12.14",
+        "dn22:12.15",
+        "dn22:12.16",
+        "dn22:12.17"
+      ],
+      "summary": "Biết đúng tâm có/không tham, có/không sân, có/không si; co hẹp, tán loạn; rộng lớn/không rộng lớn; còn có mức cao hơn/không còn mức cao hơn; có định/không định; giải thoát/chưa giải thoát. Không nhập tâm co hẹp thành định tốt theo chữ thâu nhiếp trong HTML."
+    },
+    {
+      "id": "mind-refrain",
+      "title": "Điệp khúc quán tâm",
+      "segments": [
+        "dn22:12.18",
+        "dn22:12.19",
+        "dn22:12.20",
+        "dn22:12.21",
+        "dn22:12.22"
+      ],
+      "summary": "Quán tâm trong/ngoài/cả hai, tính sinh/diệt/cả hai; hoặc niệm có tâm đủ biết và ghi nhận; không nương/chấp gì ở đời. Kết quán tâm."
+    },
+    {
+      "id": "hindrances",
+      "title": "Năm triền cái và năm mặt cần biết",
+      "segments": [
+        "dn22:13.0.1",
+        "dn22:13.0.2",
+        "dn22:13.1",
+        "dn22:13.2",
+        "dn22:13.3",
+        "dn22:13.4",
+        "dn22:13.5",
+        "dn22:13.6",
+        "dn22:13.7",
+        "dn22:13.8"
+      ],
+      "summary": "Mở quán pháp với dục tham, sân hận, hôn trầm-buồn ngủ, xao động-hối tiếc, nghi. Với từng triền cái biết có, không có, cách chưa sinh nay sinh, cách đã sinh được bỏ, cách đã bỏ không sinh lại trong tương lai. Không chỉ ghi nhận hiện diện mà bỏ ba mặt chuyển biến."
+    },
+    {
+      "id": "dhamma-refrain",
+      "title": "Điệp khúc quán pháp ở triền cái",
+      "segments": [
+        "dn22:13.9",
+        "dn22:13.10",
+        "dn22:13.11",
+        "dn22:13.12",
+        "dn22:13.13"
+      ],
+      "summary": "Quán pháp trong/ngoài/cả hai, tính sinh/diệt/cả hai; hoặc niệm có pháp đủ biết và niệm; không nương/chấp gì ở đời. Kết phần năm triền cái."
+    },
+    {
+      "id": "aggregates",
+      "title": "Năm thủ uẩn: có, sinh và mất",
+      "segments": [
+        "dn22:14.0",
+        "dn22:14.1",
+        "dn22:14.2",
+        "dn22:14.3",
+        "dn22:14.4",
+        "dn22:14.5",
+        "dn22:14.6",
+        "dn22:14.7",
+        "dn22:14.8",
+        "dn22:14.9",
+        "dn22:14.10",
+        "dn22:14.11",
+        "dn22:14.12",
+        "dn22:14.13"
+      ],
+      "summary": "Sắc, thọ, tưởng, hành, thức là năm thủ uẩn. Với mỗi uẩn biết đây là uẩn ấy, đây là sinh khởi, đây là biến mất. Đủ điệp khúc quán pháp (dù Anh lược): trong/ngoài/cả hai, sinh/diệt/cả hai, biết có pháp đủ biết và niệm, không nương/chấp; nhãn kết uẩn."
+    },
+    {
+      "id": "sense-fields",
+      "title": "Sáu cặp xứ và kiết sử do duyên cả hai",
+      "segments": [
+        "dn22:15.0",
+        "dn22:15.1",
+        "dn22:15.2",
+        "dn22:15.3",
+        "dn22:15.4",
+        "dn22:15.5",
+        "dn22:15.6",
+        "dn22:15.7",
+        "dn22:15.8",
+        "dn22:15.9",
+        "dn22:15.10",
+        "dn22:15.11",
+        "dn22:15.12",
+        "dn22:15.13"
+      ],
+      "summary": "Sáu cặp: mắt-sắc, tai-tiếng, mũi-mùi, lưỡi-vị, thân-xúc, ý-pháp. Với từng cặp biết cả hai và kiết sử nào do duyên chúng phát sinh, biết cách kiết sử chưa sinh được sinh, đã sinh được bỏ, đã bỏ không sinh lại. Lặp đủ điệp khúc quán pháp và kết sáu nội/ngoại xứ."
+    },
+    {
+      "id": "awakening-factors",
+      "title": "Bảy giác chi và sự tu tập viên mãn",
+      "segments": [
+        "dn22:16.0",
+        "dn22:16.1",
+        "dn22:16.2",
+        "dn22:16.3",
+        "dn22:16.4",
+        "dn22:16.5",
+        "dn22:16.6",
+        "dn22:16.7",
+        "dn22:16.8",
+        "dn22:16.9",
+        "dn22:16.10",
+        "dn22:16.11",
+        "dn22:16.12",
+        "dn22:16.13",
+        "dn22:16.14"
+      ],
+      "summary": "Bảy giác chi: niệm, trạch pháp, tinh tấn, hỷ, khinh an, định, xả. Với từng yếu tố biết có/không, cách chưa sinh được sinh, cách đã sinh được tu tập viên mãn. Đủ điệp khúc trong/ngoài/cả hai, sinh/diệt/cả hai, có pháp đủ biết/niệm, không nương/chấp; kết bảy giác chi. Không áp nhầm yêu cầu từ bỏ của triền cái."
+    },
+    {
+      "id": "four-truths",
+      "title": "Biết đúng như thật bốn Thánh đế",
+      "segments": [
+        "dn22:17.0",
+        "dn22:17.1",
+        "dn22:17.2",
+        "dn22:17.3",
+        "dn22:17.4"
+      ],
+      "summary": "Quán pháp nơi bốn Thánh đế: biết như thật khổ, nguồn gốc khổ, diệt khổ, đường thực hành dẫn tới diệt khổ. Nhãn phần tụng thứ nhất kết thúc, sau đó triển khai đầy đủ bốn đế."
+    },
+    {
+      "id": "suffering-list",
+      "title": "Danh mục khổ",
+      "segments": [
+        "dn22:18.0",
+        "dn22:18.1",
+        "dn22:18.2"
+      ],
+      "summary": "Khổ đế gồm sinh, già, chết; sầu, bi, khổ, ưu, não; gặp điều không ưa, lìa điều thương, muốn không được; tóm lại năm thủ uẩn. Không bỏ hai mục gặp/lìa như HTML, không thêm bệnh vào chính danh mục mở đầu này."
+    },
+    {
+      "id": "birth-age-death",
+      "title": "Định nghĩa sinh, già, chết",
+      "segments": [
+        "dn22:18.3",
+        "dn22:18.4",
+        "dn22:18.5",
+        "dn22:18.6",
+        "dn22:18.7",
+        "dn22:18.8",
+        "dn22:18.9",
+        "dn22:18.10",
+        "dn22:18.11"
+      ],
+      "summary": "Sinh của từng loài chúng sinh gồm sinh ra, đi vào, xuất hiện, uẩn hiện khởi và có các xứ. Già gồm suy lão, răng rụng, tóc bạc, da nhăn, tuổi thọ giảm, căn suy yếu. Chết gồm lìa đời/tan rã/mất đi, uẩn tan, bỏ xác, mạng căn đứt; không làm mất ba chi tiết uẩn/xác/mạng căn."
+    },
+    {
+      "id": "five-pains",
+      "title": "Sầu, bi, khổ, ưu, não",
+      "segments": [
+        "dn22:18.12",
+        "dn22:18.13",
+        "dn22:18.14",
+        "dn22:18.15",
+        "dn22:18.16",
+        "dn22:18.17",
+        "dn22:18.18",
+        "dn22:18.19",
+        "dn22:18.20",
+        "dn22:18.21",
+        "dn22:18.22",
+        "dn22:18.23",
+        "dn22:18.24",
+        "dn22:18.25",
+        "dn22:18.26"
+      ],
+      "summary": "Người gặp tai họa hoặc điều khổ có sầu bên trong, thấm sâu; bi là than khóc; não là bức bách/quẫn bách. Khổ ở định nghĩa riêng này là khó chịu nơi thân sinh do xúc thân; ưu là khó chịu tâm sinh do xúc ý. Giữ chủ thể bị tai họa/khổ cho sầu, bi, não và phân biệt thân/tâm."
+    },
+    {
+      "id": "unwanted",
+      "title": "Gặp những gì không đáng ưa",
+      "segments": [
+        "dn22:18.27",
+        "dn22:18.28",
+        "dn22:18.29"
+      ],
+      "summary": "Sáu loại sắc/tiếng/mùi/vị/xúc/pháp không đáng muốn, không dễ chịu; hoặc người muốn bất lợi, tổn hại, làm khó chịu, mất an ổn. Gặp gỡ, hội họp, kết hợp, chung đụng với họ/những thứ ấy là gặp điều không ưa là khổ. Định nghĩa có trong Pāli, vắng HTML."
+    },
+    {
+      "id": "separation",
+      "title": "Xa những gì đáng thương",
+      "segments": [
+        "dn22:18.30",
+        "dn22:18.31",
+        "dn22:18.32"
+      ],
+      "summary": "Sáu loại sắc/tiếng/mùi/vị/xúc/pháp đáng muốn, dễ chịu; hoặc người muốn lợi ích/an lành/an vui/an ổn: mẹ, cha, anh em, chị em, bạn, đồng liêu, bà con huyết thống. Không gặp, không hội họp, không kết hợp, không chung đụng là xa điều thương là khổ. Định nghĩa có trong Pāli, vắng HTML."
+    },
+    {
+      "id": "wishing",
+      "title": "Năm nhóm cầu không thể đạt bằng chỉ mong",
+      "segments": [
+        "dn22:18.33",
+        "dn22:18.34",
+        "dn22:18.35",
+        "dn22:18.36",
+        "dn22:18.37",
+        "dn22:18.38",
+        "dn22:18.39",
+        "dn22:18.40",
+        "dn22:18.41",
+        "dn22:18.42",
+        "dn22:18.43",
+        "dn22:18.44",
+        "dn22:18.45",
+        "dn22:18.46",
+        "dn22:18.47"
+      ],
+      "summary": "Chúng sinh chịu sinh, già, bệnh, chết, sầu-bi-khổ-ưu-não ước không phải chịu bản tính ấy và mong chúng không đến. Mỗi nhóm đều không thể đạt bằng chỉ mong; đây là cầu không được là khổ. Giữ đủ bệnh và cả hai vế mong; không suy mọi hành động chăm sóc đều vô ích."
+    },
+    {
+      "id": "suffering-aggregates",
+      "title": "Khổ đế kết bằng năm thủ uẩn",
+      "segments": [
+        "dn22:18.48",
+        "dn22:18.49",
+        "dn22:18.50",
+        "dn22:18.51"
+      ],
+      "summary": "Nhắc đủ sắc thủ uẩn, thọ thủ uẩn, tưởng thủ uẩn, hành thủ uẩn, thức thủ uẩn; đó là nghĩa tóm lại năm thủ uẩn là khổ và kết khổ đế."
+    },
+    {
+      "id": "craving",
+      "title": "Ái là nguồn gốc khổ",
+      "segments": [
+        "dn22:19.0",
+        "dn22:19.1",
+        "dn22:19.2",
+        "dn22:19.3",
+        "dn22:19.4",
+        "dn22:19.5",
+        "dn22:19.6"
+      ],
+      "summary": "Ái đưa đến tái hữu, kèm hỷ-tham, thích thú chỗ này chỗ kia: dục ái, hữu ái, phi hữu ái. Khi ái sinh/an trú thì ở những gì trong đời đáng yêu/dễ chịu; câu hỏi mở toàn danh mục. Không đồng nhất mọi ý muốn thiện với ái này."
+    },
+    {
+      "id": "arising-bases",
+      "title": "Ái sinh và an trú: sáu căn, sáu cảnh",
+      "segments": [
+        "dn22:19.7",
+        "dn22:19.8",
+        "dn22:19.9",
+        "dn22:19.10",
+        "dn22:19.11",
+        "dn22:19.12",
+        "dn22:19.13",
+        "dn22:19.14",
+        "dn22:19.15",
+        "dn22:19.16",
+        "dn22:19.17",
+        "dn22:19.18"
+      ],
+      "summary": "Mắt, tai, mũi, lưỡi, thân, ý; sắc, tiếng, mùi, vị, xúc, pháp: với mỗi mục đáng yêu/dễ chịu, chính tại đó ái sinh và an trú. Giữ đủ 12 mục dù nhiều đoạn có dấu lược."
+    },
+    {
+      "id": "arising-conscious-contact",
+      "title": "Ái sinh và an trú: sáu thức, sáu xúc",
+      "segments": [
+        "dn22:19.19",
+        "dn22:19.20",
+        "dn22:19.21",
+        "dn22:19.22",
+        "dn22:19.23",
+        "dn22:19.24",
+        "dn22:19.25",
+        "dn22:19.26",
+        "dn22:19.27",
+        "dn22:19.28",
+        "dn22:19.29",
+        "dn22:19.30"
+      ],
+      "summary": "Sáu thức mắt/tai/mũi/lưỡi/thân/ý, sáu xúc mắt/tai/mũi/lưỡi/thân/ý: mỗi mục được nêu đáng yêu/dễ chịu và là nơi ái sinh/an trú. Không nhập thức với xúc."
+    },
+    {
+      "id": "arising-feeling-perception",
+      "title": "Ái sinh và an trú: thọ do xúc, tưởng",
+      "segments": [
+        "dn22:19.31",
+        "dn22:19.32",
+        "dn22:19.33",
+        "dn22:19.34",
+        "dn22:19.35",
+        "dn22:19.36",
+        "dn22:19.37",
+        "dn22:19.38",
+        "dn22:19.39",
+        "dn22:19.40",
+        "dn22:19.41",
+        "dn22:19.42"
+      ],
+      "summary": "Thọ sinh từ xúc mắt/tai/mũi/lưỡi/thân/ý; tưởng về sắc/tiếng/mùi/vị/xúc/pháp. Mỗi mục đáng yêu/dễ chịu là nơi ái sinh và an trú. Đủ 12 mục, phân biệt thọ với tưởng."
+    },
+    {
+      "id": "arising-intention-craving",
+      "title": "Ái sinh và an trú: tư, ái",
+      "segments": [
+        "dn22:19.43",
+        "dn22:19.44",
+        "dn22:19.45",
+        "dn22:19.46",
+        "dn22:19.47",
+        "dn22:19.48",
+        "dn22:19.49",
+        "dn22:19.50",
+        "dn22:19.51",
+        "dn22:19.52",
+        "dn22:19.53",
+        "dn22:19.54"
+      ],
+      "summary": "Tư đối với sắc/tiếng/mùi/vị/xúc/pháp; ái đối với cùng sáu cảnh. Mỗi mục đáng yêu/dễ chịu là nơi ái sinh và an trú. Không bỏ nhóm ái vì thấy tên trùng với điều đang được định nghĩa."
+    },
+    {
+      "id": "arising-thought",
+      "title": "Ái sinh và an trú: tầm, tứ",
+      "segments": [
+        "dn22:19.55",
+        "dn22:19.56",
+        "dn22:19.57",
+        "dn22:19.58",
+        "dn22:19.59",
+        "dn22:19.60",
+        "dn22:19.61",
+        "dn22:19.62",
+        "dn22:19.63",
+        "dn22:19.64",
+        "dn22:19.65",
+        "dn22:19.66",
+        "dn22:19.67"
+      ],
+      "summary": "Tầm về sắc/tiếng/mùi/vị/xúc/pháp; tứ về cùng sáu cảnh. Mỗi mục đáng yêu/dễ chịu là nơi ái sinh/an trú; kết tập đế. Toàn danh mục gồm mười nhóm, sáu mục mỗi nhóm; không nhập tầm và tứ thành một nhóm."
+    },
+    {
+      "id": "cessation",
+      "title": "Chính ái ấy ly tham và diệt không dư",
+      "segments": [
+        "dn22:20.0",
+        "dn22:20.1",
+        "dn22:20.2",
+        "dn22:20.3",
+        "dn22:20.4",
+        "dn22:20.5"
+      ],
+      "summary": "Diệt đế là ly tham/đoạn diệt hoàn toàn chính ái ấy, từ bỏ, buông ra, giải thoát, không bám víu. Ái được bỏ/diệt tại những gì đáng yêu/dễ chịu trong đời; không nói hủy đối tượng, căn hoặc các loại biết."
+    },
+    {
+      "id": "ceasing-bases",
+      "title": "Ái bỏ và diệt: sáu căn, sáu cảnh",
+      "segments": [
+        "dn22:20.6",
+        "dn22:20.7",
+        "dn22:20.8",
+        "dn22:20.9",
+        "dn22:20.10",
+        "dn22:20.11",
+        "dn22:20.12",
+        "dn22:20.13",
+        "dn22:20.14",
+        "dn22:20.15",
+        "dn22:20.16",
+        "dn22:20.17"
+      ],
+      "summary": "Lặp đủ mắt/tai/mũi/lưỡi/thân/ý và sắc/tiếng/mùi/vị/xúc/pháp, nay đổi kết luận: chính tại mỗi mục đáng yêu/dễ chịu ái được bỏ và diệt. Không đổi thành căn/cảnh bị hủy."
+    },
+    {
+      "id": "ceasing-conscious-contact",
+      "title": "Ái bỏ và diệt: sáu thức, sáu xúc",
+      "segments": [
+        "dn22:20.18",
+        "dn22:20.19",
+        "dn22:20.20",
+        "dn22:20.21",
+        "dn22:20.22",
+        "dn22:20.23",
+        "dn22:20.24",
+        "dn22:20.25",
+        "dn22:20.26",
+        "dn22:20.27",
+        "dn22:20.28",
+        "dn22:20.29"
+      ],
+      "summary": "Đủ sáu thức mắt/tai/mũi/lưỡi/thân/ý (kể cả thức thân HTML bỏ) và sáu xúc tương ứng. Mỗi mục là nơi ái được bỏ/diệt. Các ô Anh trống không phải đồng thuận độc lập."
+    },
+    {
+      "id": "ceasing-feeling-perception",
+      "title": "Ái bỏ và diệt: thọ do xúc, tưởng",
+      "segments": [
+        "dn22:20.30",
+        "dn22:20.31",
+        "dn22:20.32",
+        "dn22:20.33",
+        "dn22:20.34",
+        "dn22:20.35",
+        "dn22:20.36",
+        "dn22:20.37",
+        "dn22:20.38",
+        "dn22:20.39",
+        "dn22:20.40",
+        "dn22:20.41"
+      ],
+      "summary": "Thọ do sáu xúc mắt/tai/mũi/lưỡi/thân/ý và tưởng về sáu cảnh sắc/tiếng/mùi/vị/xúc/pháp; mỗi mục đáng yêu/dễ chịu là nơi ái được bỏ/diệt. Đủ từng nhóm của vòng trước với quan hệ mới."
+    },
+    {
+      "id": "ceasing-intention-craving",
+      "title": "Ái bỏ và diệt: tư, ái",
+      "segments": [
+        "dn22:20.42",
+        "dn22:20.43",
+        "dn22:20.44",
+        "dn22:20.45",
+        "dn22:20.46",
+        "dn22:20.47",
+        "dn22:20.48",
+        "dn22:20.49",
+        "dn22:20.50",
+        "dn22:20.51",
+        "dn22:20.52",
+        "dn22:20.53"
+      ],
+      "summary": "Tư về sáu cảnh sắc/tiếng/mùi/vị/xúc/pháp và ái đối với sáu cảnh ấy; tại mỗi mục đáng yêu/dễ chịu ái được bỏ/diệt. Không biến từ bỏ ái thành phải xóa sạch mọi tác ý hay mọi pháp thiện."
+    },
+    {
+      "id": "ceasing-thought",
+      "title": "Ái bỏ và diệt: tầm, tứ",
+      "segments": [
+        "dn22:20.54",
+        "dn22:20.55",
+        "dn22:20.56",
+        "dn22:20.57",
+        "dn22:20.58",
+        "dn22:20.59",
+        "dn22:20.60",
+        "dn22:20.61",
+        "dn22:20.62",
+        "dn22:20.63",
+        "dn22:20.64",
+        "dn22:20.65",
+        "dn22:20.66"
+      ],
+      "summary": "Tầm về sáu cảnh sắc/tiếng/mùi/vị/xúc/pháp và tứ về sáu cảnh; tại đó ái được bỏ/diệt. Kết diệt đế, đủ mười nhóm × sáu như vòng tập; phân biệt lược cách viết với thiếu đối tượng."
+    },
+    {
+      "id": "path",
+      "title": "Thánh đạo tám ngành",
+      "segments": [
+        "dn22:21.0",
+        "dn22:21.1",
+        "dn22:21.2",
+        "dn22:21.3"
+      ],
+      "summary": "Đạo đế là chính Thánh đạo tám ngành: chánh kiến, tư duy, ngữ, nghiệp, mạng, tinh tấn, niệm, định. Không tách niệm ra thành toàn con đường độc lập với bảy ngành kia."
+    },
+    {
+      "id": "view-intention",
+      "title": "Chánh kiến và ba tư duy",
+      "segments": [
+        "dn22:21.4",
+        "dn22:21.5",
+        "dn22:21.6",
+        "dn22:21.7",
+        "dn22:21.8",
+        "dn22:21.9"
+      ],
+      "summary": "Chánh kiến: trí về khổ, nguồn gốc, diệt, đường dẫn diệt. Chánh tư duy: xuất ly, không sân, không hại; hai ngành được định nghĩa riêng."
+    },
+    {
+      "id": "speech-action",
+      "title": "Bốn lời từ bỏ, ba hành vi từ bỏ",
+      "segments": [
+        "dn22:21.10",
+        "dn22:21.11",
+        "dn22:21.12",
+        "dn22:21.13",
+        "dn22:21.14",
+        "dn22:21.15"
+      ],
+      "summary": "Chánh ngữ: bỏ nói dối, chia rẽ, thô ác, phù phiếm. Chánh nghiệp: bỏ sát sinh, lấy của không cho, tà hạnh trong các dục; không bỏ mục tình dục ở bản trẻ hoặc biến nó thành chỉ lễ phép."
+    },
+    {
+      "id": "livelihood",
+      "title": "Chánh mạng theo định nghĩa được nêu",
+      "segments": [
+        "dn22:21.16",
+        "dn22:21.17",
+        "dn22:21.18"
+      ],
+      "summary": "Vị Thánh đệ tử bỏ tà mạng, nuôi sống bằng chánh mạng. DN22 không kê các nghề, không tự nhập danh mục từ kinh khác."
+    },
+    {
+      "id": "effort",
+      "title": "Bốn chánh tinh tấn",
+      "segments": [
+        "dn22:21.19",
+        "dn22:21.20",
+        "dn22:21.21",
+        "dn22:21.22",
+        "dn22:21.23",
+        "dn22:21.24"
+      ],
+      "summary": "Đối với từng việc đều khởi ý muốn, nỗ lực, phát tinh tấn, nâng tâm, cố gắng: ngăn ác/bất thiện chưa sinh, bỏ ác/bất thiện đã sinh, sinh thiện chưa sinh, giữ thiện đã sinh không mất/quên, tăng trưởng, rộng lớn, tu tập, viên mãn. Không coi mọi ý muốn là phải bỏ."
+    },
+    {
+      "id": "path-mindfulness",
+      "title": "Chánh niệm là bốn niệm xứ đủ điều kiện",
+      "segments": [
+        "dn22:21.25",
+        "dn22:21.26",
+        "dn22:21.27",
+        "dn22:21.28",
+        "dn22:21.29",
+        "dn22:21.30"
+      ],
+      "summary": "Lặp quán thân/thọ/tâm/pháp, với từng lĩnh vực đều nhiệt tâm, tỉnh giác, có niệm, đã gạt tham và ưu đối với đời; đây là chánh niệm trong tám ngành."
+    },
+    {
+      "id": "first-jhana",
+      "title": "Chánh định: thiền thứ nhất",
+      "segments": [
+        "dn22:21.31",
+        "dn22:21.32"
+      ],
+      "summary": "Hỏi chánh định. Ly dục, ly các pháp bất thiện, chứng và trú thiền thứ nhất có tầm/tứ, hỷ/lạc do viễn ly; phân biệt nhận biết thường ngày với mô tả thiền chứng."
+    },
+    {
+      "id": "second-jhana",
+      "title": "Thiền thứ hai",
+      "segments": [
+        "dn22:21.33"
+      ],
+      "summary": "Tầm và tứ lắng dịu; chứng/trú thiền hai với nội tâm trong lắng, nhất tâm, không tầm không tứ, hỷ/lạc do định."
+    },
+    {
+      "id": "third-jhana",
+      "title": "Thiền thứ ba",
+      "segments": [
+        "dn22:21.34"
+      ],
+      "summary": "Hỷ phai, trú xả, có niệm/tỉnh giác, cảm lạc bằng thân; bậc Thánh gọi người xả/có niệm/an trú lạc. Chứng và trú thiền ba."
+    },
+    {
+      "id": "fourth-jhana",
+      "title": "Thiền thứ tư và kết đạo đế",
+      "segments": [
+        "dn22:21.35",
+        "dn22:21.36",
+        "dn22:21.37"
+      ],
+      "summary": "Bỏ lạc và khổ, hỷ/ưu thuộc tâm đã hết từ trước; chứng/trú thiền bốn không khổ không lạc, niệm thanh tịnh nhờ xả. Đây là chánh định; kết định nghĩa đường đưa tới diệt khổ."
+    },
+    {
+      "id": "truth-refrain",
+      "title": "Điệp khúc quán pháp cuối bốn đế",
+      "segments": [
+        "dn22:21.38",
+        "dn22:21.39",
+        "dn22:21.40",
+        "dn22:21.41",
+        "dn22:21.42",
+        "dn22:21.43"
+      ],
+      "summary": "Quán pháp trong/ngoài/cả hai, sinh/diệt/cả hai, có pháp đủ cho biết và niệm, không nương/chấp bất cứ gì. Kết quán bốn đế, nhãn kết phần đế và quán pháp."
+    },
+    {
+      "id": "seven-years",
+      "title": "Bảy năm và hai kết quả có điều kiện",
+      "segments": [
+        "dn22:22.1",
+        "dn22:22.2"
+      ],
+      "summary": "Ai tu đủ bốn niệm xứ như vậy bảy năm có thể mong một trong hai: chánh trí ngay đời này; hoặc nếu còn dư y, Bất lai. Không nói mọi bài tập niệm ngắn đều đủ điều kiện."
+    },
+    {
+      "id": "years",
+      "title": "Từ sáu năm tới một năm",
+      "segments": [
+        "dn22:22.3",
+        "dn22:22.4",
+        "dn22:22.5",
+        "dn22:22.6",
+        "dn22:22.7",
+        "dn22:22.8",
+        "dn22:22.9",
+        "dn22:22.10"
+      ],
+      "summary": "Không cần đến bảy năm; nêu sáu, năm, bốn, ba, hai, một năm, với cùng việc tu bốn niệm xứ như vậy; dấu lược quy chiếu hai kết quả. Rồi nói không cần tới một năm."
+    },
+    {
+      "id": "seven-months",
+      "title": "Bảy tháng và cùng hai kết quả",
+      "segments": [
+        "dn22:22.11",
+        "dn22:22.12",
+        "dn22:22.13"
+      ],
+      "summary": "Tu bốn niệm xứ như vậy bảy tháng: chánh trí đời này hoặc nếu còn dư y Bất lai. Không cần tới bảy tháng; giữ lời dẫn rút ngắn."
+    },
+    {
+      "id": "months-week",
+      "title": "Từ sáu tháng đến bảy ngày",
+      "segments": [
+        "dn22:22.14",
+        "dn22:22.15",
+        "dn22:22.16",
+        "dn22:22.17",
+        "dn22:22.18",
+        "dn22:22.19",
+        "dn22:22.20",
+        "dn22:22.21",
+        "dn22:22.22",
+        "dn22:22.23"
+      ],
+      "summary": "Sáu, năm, bốn, ba, hai, một tháng, nửa tháng; rồi không cần nửa tháng, bảy ngày. Với đúng cách tu bốn niệm xứ ấy, cùng hai kết quả chánh trí đời này hoặc nếu dư y Bất lai. Không tự đổi thành hẹn chắc ngày giác ngộ cho ví dụ biên tập."
+    },
+    {
+      "id": "closing",
+      "title": "Lặp mục tiêu, lời tán đồng và nhãn kết",
+      "segments": [
+        "dn22:22.24",
+        "dn22:22.25",
+        "dn22:22.26",
+        "dn22:22.27",
+        "dn22:22.28"
+      ],
+      "summary": "Phật nhắc bốn niệm xứ là con đường trực tiếp: thanh tịnh chúng sinh, vượt sầu/bi, hết khổ/ưu, đạt đường chân chánh, chứng Niết-bàn; đây là lý do đã nói. Phật dạy xong, các tỳ-kheo hoan hỷ tán đồng. Nhãn Đại Niệm Xứ kết thúc, thứ chín trong phần này, không đổi UID DN22."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "DN22 — Nhận biết thân, cảm thọ và tâm từng bước",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Bài học được nói ở đâu?",
+          "meaningUnits": [
+            "setting"
+          ],
+          "paragraphs": [
+            "Kinh Đại Niệm Xứ là bài DN22. Người truyền kinh kể rằng Đức Phật ở thị trấn Kammāsadhamma, trong xứ Kuru. Ngài gọi các tỳ-kheo, tức những người nam đã xuất gia. Các vị đáp lời, rồi nghe Ngài dạy về bốn niệm xứ."
+          ]
+        },
+        {
+          "id": "four-places",
+          "kind": "teaching",
+          "heading": "Bốn lĩnh vực để quan sát rõ",
+          "meaningUnits": [
+            "aim",
+            "four-fields"
+          ],
+          "paragraphs": [
+            "Bốn niệm xứ là quán thân, quán thọ, quán tâm và quán pháp. Quán là theo dõi, xem xét để biết rõ. Thân là cơ thể; thọ là cảm giác dễ chịu, khó chịu hoặc không thuộc hai loại ấy; tâm có các trạng thái khác nhau; các pháp sẽ được giảng bằng những nhóm cụ thể ở phần sau.",
+            "Đức Phật gọi đây là con đường trực tiếp giúp chúng sinh thanh tịnh, vượt sầu muộn và khóc than, chấm dứt đau khổ và buồn phiền, đạt con đường chân chánh và chứng ngộ Niết-bàn. Với cả bốn lĩnh vực, người tu đều nhiệt tâm, tỉnh giác, có niệm và đã gạt tham, ưu đối với đời. Có niệm là giữ điều đang quan sát trong sự nhận biết; tỉnh giác là biết rõ việc đang diễn ra. Phần giới thiệu chung kết thúc tại đây."
+          ]
+        },
+        {
+          "id": "breathing",
+          "kind": "teaching",
+          "heading": "Ngồi yên và nhận biết hơi thở",
+          "meaningUnits": [
+            "breath-seat",
+            "breath-training"
+          ],
+          "paragraphs": [
+            "Ở phần quán thân, kinh nói vị tỳ-kheo đến rừng, gốc cây hoặc căn nhà trống. Vị ấy ngồi xếp chân kiết-già, giữ thân thẳng và đặt niệm trước mặt. Khi thở vào cũng có niệm, khi thở ra cũng có niệm.",
+            "Hơi vào dài thì biết dài; hơi ra dài cũng biết dài. Hơi vào ngắn thì biết ngắn; hơi ra ngắn cũng biết ngắn. Tiếp đó, vị ấy tập thở vào và ra trong khi cảm nhận toàn thân; tập thở vào và ra trong khi làm lắng thân hành, tức tiến trình hoạt động nơi thân được nói đến ở đây.",
+            "Kinh ví với người thợ tiện giỏi hoặc người học nghề: kéo một đường dài thì biết mình kéo dài, kéo ngắn thì biết mình kéo ngắn. Sau ví dụ, bài kinh nhắc lại đủ việc biết hơi vào, hơi ra dài hay ngắn, cùng việc tập cảm nhận toàn thân và làm lắng thân hành."
+          ]
+        },
+        {
+          "id": "body-way",
+          "kind": "teaching",
+          "heading": "Cách quán thân được nhắc nhiều lần",
+          "meaningUnits": [
+            "body-refrain"
+          ],
+          "paragraphs": [
+            "Người tu quán thân từ bên trong, hoặc từ bên ngoài, hoặc cả hai. Vị ấy xem tính sinh khởi của thân, hoặc tính hoại diệt, hoặc cả sinh khởi lẫn hoại diệt. Một cách diễn đạt nữa là thiết lập niệm rằng có thân, vừa đủ cho hiểu biết và ghi nhận.",
+            "Đi cùng sự quan sát ấy là sống không nương tựa, không chấp thủ bất cứ gì ở đời. Chấp thủ là bám giữ. Kinh gọi đó là quán thân nơi thân và kết phần hơi thở. Những phần sau nhiều lần quay về cách quán này."
+          ]
+        },
+        {
+          "id": "positions",
+          "kind": "teaching",
+          "heading": "Biết thân đang ở tư thế nào",
+          "meaningUnits": [
+            "postures"
+          ],
+          "paragraphs": [
+            "Khi đi, vị tỳ-kheo biết đang đi; đứng biết đang đứng; ngồi biết đang ngồi; nằm biết đang nằm. Thân ở tư thế nào thì nhận biết đúng tư thế ấy.",
+            "Với tư thế cũng có đủ cách quán trong, ngoài hoặc cả hai; xem sinh, diệt hoặc cả hai; biết có thân vừa đủ cho hiểu biết và niệm. Vị ấy sống không nương tựa, không bám giữ gì ở đời. Đó là phần quán các tư thế."
+          ]
+        },
+        {
+          "id": "daily",
+          "kind": "teaching",
+          "heading": "Những việc rất gần với đời sống",
+          "meaningUnits": [
+            "activities"
+          ],
+          "paragraphs": [
+            "Tỉnh giác còn có mặt khi đi tới, đi lui; nhìn phía trước, nhìn sang bên; co và duỗi tay chân; mang y ngoài, bình bát và y phục. Vị tỳ-kheo biết rõ khi ăn, uống, nhai, nếm; khi đại tiện, tiểu tiện; khi đi, đứng, ngồi, ngủ, thức, nói và im lặng.",
+            "Sau danh mục ấy, bản Pāli viết lược điệp khúc đã giảng ở trên rồi kết phần tỉnh giác trong sinh hoạt. Vì vậy, những việc thường ngày này vẫn nằm trong cách quán thân, với sự nhận biết và buông chấp vừa nêu."
+          ]
+        },
+        {
+          "id": "parts",
+          "kind": "teaching",
+          "heading": "Nhìn thân qua các thành phần",
+          "meaningUnits": [
+            "body-parts"
+          ],
+          "paragraphs": [
+            "Kinh tiếp tục xét thân từ lòng bàn chân lên đến đỉnh tóc, được da bao bọc và chứa nhiều thứ không sạch. Danh mục có 31 mục. Có tóc, lông, móng, răng, da; thịt, gân, xương, tủy và thận.",
+            "Có tim, gan, cơ hoành, lá lách, phổi; ruột, màng treo ruột, thức ăn chưa tiêu và phân. Có mật, đờm, mủ, máu, mồ hôi, mỡ; nước mắt, chất nhờn, nước bọt, nước mũi, dịch khớp và nước tiểu. Cơ hoành, màng treo ruột và dịch khớp là những tên bộ phận hoặc chất trong cơ thể; ở đây cần nhận ra chúng thuộc danh mục thân."
+          ]
+        },
+        {
+          "id": "bag",
+          "kind": "teaching",
+          "heading": "Một túi có nhiều loại hạt",
+          "meaningUnits": [
+            "grain-bag"
+          ],
+          "paragraphs": [
+            "Bài kinh đưa ra hình ảnh một túi mở được ở hai đầu. Trong đó có sáu loại hạt: lúa sāli, lúa vīhi, đậu xanh, đậu māsa, mè và gạo đã xay. Người có mắt mở túi, xem và nhận ra từng loại. Hai tên lúa và tên đậu cổ được giữ để không nhập các mục làm một.",
+            "Cũng vậy, vị tỳ-kheo nhìn chính thân mình qua các thành phần đã kể. Kinh nhắc lại danh mục thân theo lối viết lược, trở về điệp khúc quán thân rồi kết phần này."
+          ]
+        },
+        {
+          "id": "elements",
+          "kind": "teaching",
+          "heading": "Đất, nước, lửa và gió",
+          "meaningUnits": [
+            "elements"
+          ],
+          "paragraphs": [
+            "Thân đang ở vị trí hay tư thế nào, người tu cũng xét nơi thân có bốn yếu tố: đất, nước, lửa và gió. Đó là bốn tên truyền thống mà bài kinh dùng để nhìn thân theo những yếu tố cấu thành.",
+            "Ví dụ trong kinh là người đồ tể giỏi hoặc người học nghề đã giết một con bò, chia thành từng phần và ngồi ở ngã tư. Điểm của ví dụ là nhìn theo từng phần. Sau đó kinh trở lại đủ bốn yếu tố trong thân, điệp khúc quán thân và lời kết phần này."
+          ]
+        },
+        {
+          "id": "first-two-corpses",
+          "kind": "teaching",
+          "heading": "Hai cảnh đầu ở nghĩa địa",
+          "meaningUnits": [
+            "corpse-first",
+            "corpse-animals"
+          ],
+          "paragraphs": [
+            "Kinh nêu giả sử vị tỳ-kheo thấy một người đã chết, thân bị bỏ nơi nghĩa địa một, hai hoặc ba ngày, trương phồng, tím tái và chảy mủ. Vị ấy so với thân mình: thân này cũng có bản chất ấy, sẽ đi đến như vậy và không vượt khỏi tính chất ấy.",
+            "Cảnh thứ hai là tử thi bị các loài ăn: quạ, diều hâu, kền kền, cò, chó, hổ, báo, chó rừng hoặc nhiều sinh vật nhỏ. Với cảnh này, vị ấy cũng so thân mình theo đủ ba ý: cùng bản chất, sẽ như vậy và không vượt khỏi. Sau mỗi cảnh, kinh trở về điệp khúc quán thân theo lối viết lược."
+          ]
+        },
+        {
+          "id": "skeleton-stages",
+          "kind": "teaching",
+          "heading": "Bốn cảnh tiếp theo về bộ xương",
+          "meaningUnits": [
+            "skeletons"
+          ],
+          "paragraphs": [
+            "Cảnh thứ ba là bộ xương còn thịt và máu, gân nối các phần. Cảnh thứ tư không còn thịt nhưng còn vấy máu, vẫn được gân nối. Cảnh thứ năm hết thịt và máu, các xương vẫn nối bằng gân.",
+            "Cảnh thứ sáu là các xương đã rời, nằm rải rác: xương tay, chân, mắt cá, ống chân, đùi, hông, sườn, sống, vai, cổ, hàm, răng và hộp sọ. Người tu lại so thân mình có cùng tính chất, sẽ như thế, không vượt khỏi; lời điệp khúc và câu kết được viết lược."
+          ]
+        },
+        {
+          "id": "last-bones",
+          "kind": "teaching",
+          "heading": "Ba cảnh cuối và kết phần quán thân",
+          "meaningUnits": [
+            "bones-last",
+            "body-close"
+          ],
+          "paragraphs": [
+            "Cảnh thứ bảy là xương trắng như màu vỏ ốc. Cảnh thứ tám là xương chất đống đã hơn một năm. Cảnh thứ chín là xương mục, vụn thành bột. Với các cảnh ấy, vị tỳ-kheo lại so chính thân mình: cùng bản chất, sẽ như vậy và không vượt khỏi.",
+            "Kinh nhắc đầy đủ việc quán thân trong, ngoài hoặc cả hai; xem sinh, diệt hoặc cả hai; thiết lập niệm có thân vừa đủ cho hiểu biết và ghi nhận. Vị ấy không nương tựa, không chấp gì ở đời. Các nhãn cuối phần ghi rằng chín cách quán tử thi và cả mười bốn cách quán thân đã kết thúc."
+          ]
+        },
+        {
+          "id": "body-care",
+          "kind": "clarification",
+          "heading": "Đọc những hình ảnh khó này thế nào?",
+          "meaningUnits": [
+            "body-parts",
+            "elements",
+            "corpse-first",
+            "corpse-animals",
+            "skeletons",
+            "bones-last"
+          ],
+          "paragraphs": [
+            "Các hình ảnh trên thuộc bài quán được giảng cho tỳ-kheo. Khi đọc cùng người lớn, trẻ có thể dừng lại ở việc hiểu thân có nhiều thành phần và sẽ thay đổi. Việc học không đòi phải đi tìm tử thi hoặc làm theo hành động của người đồ tể trong ví dụ.",
+            "Lời giải ở đây nhằm giúp đọc kinh. Biết thân thay đổi vẫn đi cùng việc chăm sóc thân và tôn trọng người khác; không dùng chữ không sạch để chê giá trị của một người."
+          ]
+        },
+        {
+          "id": "feeling-kinds",
+          "kind": "teaching",
+          "heading": "Cảm thọ đang là loại nào?",
+          "meaningUnits": [
+            "feelings",
+            "feeling-refrain"
+          ],
+          "paragraphs": [
+            "Sang quán thọ, khi có cảm giác dễ chịu thì biết đó là thọ lạc; khó chịu thì biết là thọ khổ; không khổ cũng không lạc thì biết đúng như vậy. Loại thứ ba không có nghĩa là không biết mình đang cảm gì.",
+            "Kinh còn phân biệt lạc thuộc thế tục với lạc không thuộc thế tục; khổ thuộc thế tục với khổ không thuộc thế tục; thọ không khổ không lạc thuộc thế tục với loại không thuộc thế tục. Như vậy có đủ chín trường hợp được nêu. Cặp thuộc hay không thuộc thế tục cần giữ riêng, không chỉ đổi thành cảm giác ở thân hay ở tâm.",
+            "Với thọ, vị ấy quán bên trong, bên ngoài hoặc cả hai; xem sinh, diệt hoặc cả hai. Niệm rằng có thọ được đặt vừa đủ cho hiểu biết và ghi nhận. Vị ấy sống không nương tựa, không bám giữ gì ở đời; phần quán thọ kết thúc."
+          ]
+        },
+        {
+          "id": "mind",
+          "kind": "teaching",
+          "heading": "Nhận ra trạng thái tâm",
+          "meaningUnits": [
+            "mind-states"
+          ],
+          "paragraphs": [
+            "Vị tỳ-kheo nhận biết tâm có tham hay không tham, có sân hay không sân, có si hay không si. Tham là ham giữ lấy; sân là chống đối, giận hờn; si là không thấy rõ. Tâm co hẹp thì biết co hẹp; tâm tán loạn thì biết tán loạn.",
+            "Vị ấy cũng biết tâm rộng lớn hay không rộng lớn; tâm còn có mức cao hơn hay đã không còn mức cao hơn; tâm có định hay không có định; tâm được giải thoát hay chưa được giải thoát. Có định nói tới sự ổn định, tập trung của tâm. Cả danh mục có mười sáu trạng thái; bài học là biết đúng trạng thái hiện có."
+          ]
+        },
+        {
+          "id": "mind-way",
+          "kind": "teaching",
+          "heading": "Quan sát tâm mà không nắm giữ",
+          "meaningUnits": [
+            "mind-refrain"
+          ],
+          "paragraphs": [
+            "Quán tâm cũng có các cách bên trong, bên ngoài hoặc cả hai; quan sát sự sinh, sự diệt hoặc cả hai. Niệm có tâm được giữ vừa đủ cho biết và ghi nhận. Vị ấy không nương tựa, không chấp thủ gì ở đời. Đó là phần quán tâm."
+          ]
+        },
+        {
+          "id": "obstacles",
+          "kind": "teaching",
+          "heading": "Năm điều che lấp tâm",
+          "meaningUnits": [
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Phần quán pháp bắt đầu với năm triền cái, tức những điều che lấp: ham muốn dục lạc; sân hận; hôn trầm và buồn ngủ; xao động và hối tiếc; nghi hoặc. Hôn trầm là tâm uể oải, chìm xuống; xao động là không yên.",
+            "Với từng điều trong năm điều ấy, người tu biết nó đang có hoặc không có. Vị ấy còn hiểu nó sinh bằng cách nào khi trước đó chưa sinh, được từ bỏ bằng cách nào khi đã sinh, và bằng cách nào nó không sinh lại về sau khi đã bỏ. Nhận ra có một điều che lấp mới là một phần của việc quán."
+          ]
+        },
+        {
+          "id": "principles-way",
+          "kind": "teaching",
+          "heading": "Điệp khúc của phần quán pháp",
+          "meaningUnits": [
+            "dhamma-refrain"
+          ],
+          "paragraphs": [
+            "Kinh lại nêu quán pháp bên trong, bên ngoài hoặc cả hai; quán tính sinh khởi, tính hoại diệt hoặc cả hai. Niệm rằng có pháp vừa đủ cho hiểu biết và ghi nhận. Người tu sống không nương tựa, không chấp bất cứ gì ở đời. Đây là cách quán pháp với năm triền cái."
+          ]
+        },
+        {
+          "id": "five-groups",
+          "kind": "teaching",
+          "heading": "Năm nhóm bị bám giữ",
+          "meaningUnits": [
+            "aggregates"
+          ],
+          "paragraphs": [
+            "Năm thủ uẩn là năm nhóm gắn với sự chấp thủ: sắc, thọ, tưởng, hành và thức. Có thể mở nghĩa lần lượt là phần vật chất; cảm thọ; sự nhận ra; các hoạt động tạo tác của tâm; và sự biết đối tượng.",
+            "Với sắc, vị ấy biết sắc ấy, sự sinh khởi và sự biến mất của nó. Với thọ, tưởng, hành và thức cũng nhận biết riêng từng nhóm, cách nhóm ấy sinh và cách nhóm ấy mất. Sau đó kinh nhắc đủ điệp khúc quán pháp trong, ngoài hoặc cả hai; sinh, diệt hoặc cả hai; có pháp đủ cho biết và niệm, sống không nương, không chấp."
+          ]
+        },
+        {
+          "id": "six-pairs",
+          "kind": "teaching",
+          "heading": "Sáu cặp trong việc nhận biết",
+          "meaningUnits": [
+            "sense-fields"
+          ],
+          "paragraphs": [
+            "Sáu cặp được nêu là mắt với hình sắc, tai với tiếng, mũi với mùi, lưỡi với vị, thân với thứ được chạm và ý với các pháp được ý biết. Vị tỳ-kheo hiểu cả hai phía trong từng cặp, và kiết sử nào sinh do duyên cả hai. Kiết sử là sự trói buộc.",
+            "Với sự trói buộc ở từng cặp, vị ấy hiểu cách nó sinh khi chưa sinh, cách bỏ khi đã sinh và cách đã bỏ thì không sinh lại về sau. Cả sáu cặp đều được quán theo điệp khúc trong, ngoài hoặc cả hai; sinh, diệt hoặc cả hai; có pháp đủ cho biết, niệm, không nương và không chấp."
+          ]
+        },
+        {
+          "id": "seven-supports",
+          "kind": "teaching",
+          "heading": "Bảy yếu tố giúp giác ngộ",
+          "meaningUnits": [
+            "awakening-factors"
+          ],
+          "paragraphs": [
+            "Bảy giác chi gồm niệm; trạch pháp, tức tìm hiểu và phân biệt các pháp; tinh tấn, tức nỗ lực; hỷ, sự vui mừng; khinh an, sự lắng dịu; định, tâm tập trung; và xả, sự quân bình.",
+            "Với từng yếu tố, người tu biết đang có hoặc không có, biết cách nó sinh khi chưa sinh và cách tu tập cho đầy đủ khi đã sinh. Cách quán ở đây hướng đến nuôi lớn các yếu tố này. Phần kết vẫn gồm trong, ngoài hoặc cả hai; sinh, diệt hoặc cả hai; biết có pháp vừa đủ cho hiểu biết và niệm, không nương, không chấp gì ở đời."
+          ]
+        },
+        {
+          "id": "truths",
+          "kind": "teaching",
+          "heading": "Bốn sự thật cần biết như thật",
+          "meaningUnits": [
+            "four-truths"
+          ],
+          "paragraphs": [
+            "Quán pháp còn gồm bốn Thánh đế: biết như thật đây là khổ; đây là nguồn gốc của khổ; đây là sự chấm dứt khổ; đây là đường thực hành dẫn tới sự chấm dứt khổ. Nhãn của bản kinh ghi phần tụng thứ nhất kết thúc, rồi giảng từng sự thật."
+          ]
+        },
+        {
+          "id": "what-suffering",
+          "kind": "teaching",
+          "heading": "Những điều được gọi là khổ",
+          "meaningUnits": [
+            "suffering-list",
+            "birth-age-death"
+          ],
+          "paragraphs": [
+            "Danh mục mở đầu nói sinh, già, chết là khổ; sầu, bi, khổ, ưu, não là khổ; gặp điều không ưa, xa điều thương, cầu mà không được là khổ. Kinh kết gọn rằng năm thủ uẩn là khổ.",
+            "Sinh được nói cho từng loài chúng sinh: sinh ra, đi vào đời, xuất hiện, các uẩn hiện khởi và có được các xứ nhận biết. Già là sự suy lão, với những dấu như răng rụng, tóc bạc, da nhăn, tuổi thọ giảm, các căn suy yếu.",
+            "Chết được diễn tả là lìa đời, tan rã, biến mất; các uẩn tan rã, thân xác bị bỏ lại và mạng căn, tức khả năng duy trì sự sống, bị cắt đứt. Kinh đang giải nghĩa những điều ấy, không chỉ gọi chung là một ngày buồn."
+          ]
+        },
+        {
+          "id": "sorrow-pain",
+          "kind": "teaching",
+          "heading": "Sầu, bi, khổ, ưu và não khác nhau",
+          "meaningUnits": [
+            "five-pains"
+          ],
+          "paragraphs": [
+            "Khi một người gặp tai họa hoặc điều khổ, nỗi buồn bên trong, thấm sâu được gọi là sầu. Sự than thở, khóc lóc được gọi là bi. Sự bức bách, quẫn bách trong cảnh ấy được gọi là não.",
+            "Ở định nghĩa riêng này, khổ là đau và khó chịu nơi thân do xúc thân sinh ra. Ưu là đau và khó chịu nơi tâm do xúc ý sinh ra. Bởi vậy, chữ khổ trong cả Khổ đế rộng hơn nghĩa đau thân ở riêng dòng định nghĩa này."
+          ]
+        },
+        {
+          "id": "meeting-parting",
+          "kind": "teaching",
+          "heading": "Gặp điều không ưa, xa người mình thương",
+          "meaningUnits": [
+            "unwanted",
+            "separation"
+          ],
+          "paragraphs": [
+            "Gặp điều không ưa có thể là gặp hình sắc, tiếng, mùi, vị, xúc chạm hoặc điều ý biết không đáng muốn, không dễ chịu. Cũng có thể là phải chung đụng với người muốn điều bất lợi, tổn hại, làm mình khó chịu hoặc mất an ổn. Sự gặp gỡ, hội họp, kết hợp với các điều ấy được gọi là khổ.",
+            "Xa điều thương là lìa các hình sắc, tiếng, mùi, vị, xúc chạm, điều ý biết đáng yêu, dễ chịu; hoặc không còn gặp gỡ, sum họp, kết hợp, chung sống với người muốn mình có lợi ích, an lành, an vui, an ổn. Kinh kể mẹ, cha, anh em, chị em, bạn bè, đồng liêu và bà con huyết thống."
+          ]
+        },
+        {
+          "id": "wishes",
+          "kind": "teaching",
+          "heading": "Có những điều chỉ ước thôi chưa đủ",
+          "meaningUnits": [
+            "wishing",
+            "suffering-aggregates"
+          ],
+          "paragraphs": [
+            "Chúng sinh chịu sinh có thể ước mình không còn thuộc tính phải sinh và sự sinh đừng đến. Người chịu già cũng mong không phải chịu già và tuổi già đừng đến. Với bệnh, chết, rồi sầu, bi, khổ, ưu, não, cả hai mong ước ấy cũng được nêu.",
+            "Kinh nói, với từng nhóm, điều mong ấy không đạt được chỉ nhờ mong. Đó là cầu không được là khổ. Phần Khổ đế khép lại bằng năm nhóm: sắc thủ uẩn, thọ thủ uẩn, tưởng thủ uẩn, hành thủ uẩn và thức thủ uẩn."
+          ]
+        },
+        {
+          "id": "craving",
+          "kind": "teaching",
+          "heading": "Ái tìm chỗ để bám",
+          "meaningUnits": [
+            "craving"
+          ],
+          "paragraphs": [
+            "Nguồn gốc của khổ được giảng là ái đưa tới tái sinh, đi cùng sự thích thú và tham, tìm vui ở chỗ này chỗ kia. Có dục ái, ham các vui thú giác quan; hữu ái, khát khao tiếp tục hiện hữu; và phi hữu ái, khát khao không hiện hữu.",
+            "Ái sinh và bám lại ở đâu? Kinh chỉ tới những gì trong đời được thấy là đáng yêu, dễ chịu. Đoạn sau nêu mười nhóm, mỗi nhóm đủ sáu mục."
+          ]
+        },
+        {
+          "id": "arise-first",
+          "kind": "teaching",
+          "heading": "Hai nhóm đầu: căn và cảnh",
+          "meaningUnits": [
+            "arising-bases"
+          ],
+          "paragraphs": [
+            "Nhóm thứ nhất là mắt, tai, mũi, lưỡi, thân và ý. Nhóm thứ hai là hình sắc, tiếng, mùi, vị, xúc chạm và các pháp được ý biết. Với từng mục được nêu là đáng yêu, dễ chịu, chính ở đó ái sinh và an trú, nghĩa là bám lại."
+          ]
+        },
+        {
+          "id": "arise-second",
+          "kind": "teaching",
+          "heading": "Sự biết và sự tiếp xúc",
+          "meaningUnits": [
+            "arising-conscious-contact"
+          ],
+          "paragraphs": [
+            "Nhóm thứ ba là thức mắt, thức tai, thức mũi, thức lưỡi, thức thân và thức ý: những loại biết tương ứng. Nhóm thứ tư là xúc mắt, xúc tai, xúc mũi, xúc lưỡi, xúc thân và xúc ý. Mỗi mục được nêu là đáng yêu, dễ chịu và là nơi ái sinh, bám lại."
+          ]
+        },
+        {
+          "id": "arise-third",
+          "kind": "teaching",
+          "heading": "Cảm thọ và nhận ra",
+          "meaningUnits": [
+            "arising-feeling-perception"
+          ],
+          "paragraphs": [
+            "Nhóm thứ năm gồm thọ sinh từ xúc mắt, tai, mũi, lưỡi, thân và ý. Nhóm thứ sáu gồm tưởng về hình sắc, tiếng, mùi, vị, xúc chạm và pháp. Tưởng ở đây là sự nhận ra đối tượng. Cả từng thọ và từng tưởng ấy đều được nêu là nơi ái có thể sinh và an trú, với tính đáng yêu, dễ chịu đang nói tới."
+          ]
+        },
+        {
+          "id": "arise-fourth",
+          "kind": "teaching",
+          "heading": "Ý định và ham muốn",
+          "meaningUnits": [
+            "arising-intention-craving"
+          ],
+          "paragraphs": [
+            "Nhóm thứ bảy là tư, tức ý định, đối với hình sắc, tiếng, mùi, vị, xúc chạm và pháp. Nhóm thứ tám là ái đối với hình sắc, tiếng, mùi, vị, xúc chạm và pháp. Kinh giữ riêng hai nhóm và nói với từng mục: chính ở điều đáng yêu, dễ chịu ấy, ái sinh và bám lại."
+          ]
+        },
+        {
+          "id": "arise-fifth",
+          "kind": "teaching",
+          "heading": "Hướng nghĩ và xem xét",
+          "meaningUnits": [
+            "arising-thought"
+          ],
+          "paragraphs": [
+            "Nhóm thứ chín là tầm về hình sắc, tiếng, mùi, vị, xúc chạm và pháp. Nhóm thứ mười là tứ về hình sắc, tiếng, mùi, vị, xúc chạm và pháp. Có thể mở nghĩa tầm ở đây là hướng nghĩ đến, tứ là tiếp tục xem xét. Với từng mục đáng yêu, dễ chịu, ái sinh và an trú. Đủ mười nhóm ấy khép phần nói về nguồn gốc khổ."
+          ]
+        },
+        {
+          "id": "ending-craving",
+          "kind": "teaching",
+          "heading": "Sự chấm dứt của chính ái ấy",
+          "meaningUnits": [
+            "cessation"
+          ],
+          "paragraphs": [
+            "Diệt khổ được giảng là chính ái ấy ly tham và chấm dứt hoàn toàn, không còn dư sót: từ bỏ, buông ra, giải thoát khỏi ái và không còn bám víu. Nơi ái được bỏ và diệt cũng là những điều trong đời được nêu đáng yêu, dễ chịu.",
+            "Đối tượng được buông là ái. Bài kinh không bảo phải làm hỏng con mắt hoặc tiêu diệt mọi cảm giác. Sau đây vẫn là đủ mười nhóm trước, nhưng câu kết đã đổi từ sinh, bám lại sang được bỏ và chấm dứt."
+          ]
+        },
+        {
+          "id": "cease-first",
+          "kind": "teaching",
+          "heading": "Buông ái ở căn, cảnh, thức và xúc",
+          "meaningUnits": [
+            "ceasing-bases",
+            "ceasing-conscious-contact"
+          ],
+          "paragraphs": [
+            "Vòng này lại nêu mắt, tai, mũi, lưỡi, thân, ý; hình sắc, tiếng, mùi, vị, xúc chạm, pháp. Với từng mục đáng yêu, dễ chịu, ái được bỏ và diệt ngay tại đó.",
+            "Rồi tới thức mắt, tai, mũi, lưỡi, thân, ý; xúc mắt, tai, mũi, lưỡi, thân, ý. Từng loại thức và từng loại xúc cũng là nơi ái được bỏ và diệt. Thức thân vẫn có mặt đầy đủ trong danh mục."
+          ]
+        },
+        {
+          "id": "cease-next",
+          "kind": "teaching",
+          "heading": "Buông ái ở thọ, tưởng, tư và ái",
+          "meaningUnits": [
+            "ceasing-feeling-perception",
+            "ceasing-intention-craving"
+          ],
+          "paragraphs": [
+            "Tiếp theo là thọ sinh từ xúc mắt, tai, mũi, lưỡi, thân, ý; tưởng về hình sắc, tiếng, mùi, vị, xúc chạm, pháp. Tại mỗi mục được nêu đáng yêu, dễ chịu, ái được từ bỏ và chấm dứt.",
+            "Tư đối với hình sắc, tiếng, mùi, vị, xúc chạm, pháp; rồi ái đối với hình sắc, tiếng, mùi, vị, xúc chạm, pháp cũng được xét đủ. Lời kết vẫn là ái được bỏ và diệt ở từng mục."
+          ]
+        },
+        {
+          "id": "cease-last",
+          "kind": "teaching",
+          "heading": "Buông ái ở tầm và tứ",
+          "meaningUnits": [
+            "ceasing-thought"
+          ],
+          "paragraphs": [
+            "Sau cùng là tầm về hình sắc, tiếng, mùi, vị, xúc chạm, pháp; và tứ về hình sắc, tiếng, mùi, vị, xúc chạm, pháp. Với từng mục đáng yêu, dễ chịu, ái được bỏ và diệt. Đó là phần giải nghĩa sự chấm dứt khổ."
+          ]
+        },
+        {
+          "id": "path-eight",
+          "kind": "teaching",
+          "heading": "Con đường gồm tám ngành",
+          "meaningUnits": [
+            "path",
+            "view-intention"
+          ],
+          "paragraphs": [
+            "Đường dẫn tới diệt khổ là Thánh đạo tám ngành: chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm và chánh định. Chánh có nghĩa là đúng đắn trong con đường đang giảng.",
+            "Chánh kiến là trí biết khổ, nguồn gốc khổ, sự chấm dứt khổ và đường tới chấm dứt khổ. Chánh tư duy gồm tư duy xuất ly, hướng khỏi sự ham bám; tư duy không sân; và tư duy không làm hại."
+          ]
+        },
+        {
+          "id": "words-deeds",
+          "kind": "teaching",
+          "heading": "Lời nói và việc làm",
+          "meaningUnits": [
+            "speech-action",
+            "livelihood"
+          ],
+          "paragraphs": [
+            "Chánh ngữ là tránh bốn loại lời: nói dối, nói chia rẽ, nói thô ác và nói phù phiếm. Chánh nghiệp là tránh sát sinh, lấy thứ không được cho và tà hạnh trong các dục. Mục cuối nói về cách cư xử sai trái trong quan hệ tình dục.",
+            "Chánh mạng được giảng là vị Thánh đệ tử bỏ cách nuôi sống sai và sống bằng cách nuôi sống đúng. Tại đây kinh không kể danh sách nghề nghiệp cụ thể."
+          ]
+        },
+        {
+          "id": "effort",
+          "kind": "teaching",
+          "heading": "Bốn hướng nỗ lực",
+          "meaningUnits": [
+            "effort"
+          ],
+          "paragraphs": [
+            "Chánh tinh tấn có bốn hướng: ngăn điều ác, bất thiện chưa sinh; bỏ điều ác, bất thiện đã sinh; làm sinh điều thiện chưa có; giữ điều thiện đã có. Với điều thiện đã có, còn làm cho không mất, không quên, tăng trưởng, rộng lớn, được tu tập và đầy đủ.",
+            "Ở cả bốn hướng, vị tỳ-kheo khởi ý muốn, cố gắng, khơi sức tinh tấn, nâng tâm và bền bỉ nỗ lực. Kinh có nói đến ý muốn làm điều thiện; cần phân biệt với sự khát ái đã giảng ở phần trước."
+          ]
+        },
+        {
+          "id": "mindful-path",
+          "kind": "teaching",
+          "heading": "Chánh niệm trở lại bốn niệm xứ",
+          "meaningUnits": [
+            "path-mindfulness"
+          ],
+          "paragraphs": [
+            "Chánh niệm chính là quán thân, quán thọ, quán tâm và quán pháp. Ở từng lĩnh vực, vị tỳ-kheo nhiệt tâm, tỉnh giác, có niệm, đã gạt tham và ưu đối với đời. Như vậy, bốn niệm xứ nằm trong toàn bộ con đường tám ngành."
+          ]
+        },
+        {
+          "id": "first-two-jhanas",
+          "kind": "teaching",
+          "heading": "Hai tầng thiền đầu",
+          "meaningUnits": [
+            "first-jhana",
+            "second-jhana"
+          ],
+          "paragraphs": [
+            "Chánh định được giải bằng bốn thiền. Ở thiền thứ nhất, vị ấy ly dục, lìa các pháp bất thiện, chứng và ở trong thiền có tầm, tứ, hỷ và lạc do viễn ly sinh. Trong ngữ cảnh thiền này, tầm và tứ được mở nghĩa là đưa tâm đến và giữ tâm với đối tượng; hỷ là sự vui mừng, lạc là sự dễ chịu.",
+            "Ở thiền thứ hai, tầm và tứ đã lắng. Vị ấy chứng và ở trong thiền có nội tâm trong lắng, tâm hợp nhất, không tầm, không tứ; hỷ và lạc do định sinh. Đây là các thành tựu thiền kinh mô tả, cần giữ đủ điều kiện của từng tầng."
+          ]
+        },
+        {
+          "id": "last-two-jhanas",
+          "kind": "teaching",
+          "heading": "Thiền thứ ba và thứ tư",
+          "meaningUnits": [
+            "third-jhana",
+            "fourth-jhana"
+          ],
+          "paragraphs": [
+            "Khi hỷ phai, vị ấy trú xả, có niệm, tỉnh giác, cảm nhận lạc bằng thân và chứng, trú thiền thứ ba. Kinh dẫn lời các bậc Thánh gọi đó là người có xả, có niệm, sống trong lạc.",
+            "Ở thiền thứ tư, lạc và khổ được bỏ; niềm vui và buồn nơi tâm đã chấm dứt từ trước. Vị ấy chứng và trú trạng thái không khổ không lạc, niệm thanh tịnh nhờ xả. Đó là chánh định, khép phần giải con đường dẫn tới diệt khổ."
+          ]
+        },
+        {
+          "id": "truths-way",
+          "kind": "teaching",
+          "heading": "Quán bốn sự thật cũng giữ cách quán chung",
+          "meaningUnits": [
+            "truth-refrain"
+          ],
+          "paragraphs": [
+            "Kết phần bốn Thánh đế, kinh trở lại quán pháp bên trong, bên ngoài hoặc cả hai; quán sinh, diệt hoặc cả hai. Niệm rằng có pháp vừa đủ cho hiểu biết và ghi nhận. Người tu sống không nương tựa, không chấp gì ở đời. Các nhãn sau đó ghi kết phần bốn đế và phần quán pháp."
+          ]
+        },
+        {
+          "id": "years",
+          "kind": "teaching",
+          "heading": "Các mốc năm và hai kết quả",
+          "meaningUnits": [
+            "seven-years",
+            "years"
+          ],
+          "paragraphs": [
+            "Đức Phật nói người tu bốn niệm xứ như cách vừa giảng trong bảy năm có thể mong đợi một trong hai kết quả: chánh trí ngay đời này, hoặc nếu còn dư y thì quả Bất lai. Chánh trí ở đây là sự biết giải thoát; Bất lai còn được gọi Bất hoàn, nghĩa là không trở lại. Dư y là phần còn sót lại được nêu trong điều kiện thứ hai.",
+            "Rồi kinh nói không cần tới bảy năm, lần lượt nêu sáu, năm, bốn, ba, hai và một năm, vẫn cùng cách tu và kết quả ấy. Sau đó lại nói không cần tới một năm."
+          ]
+        },
+        {
+          "id": "months-days",
+          "kind": "teaching",
+          "heading": "Từ bảy tháng tới bảy ngày",
+          "meaningUnits": [
+            "seven-months",
+            "months-week"
+          ],
+          "paragraphs": [
+            "Với bảy tháng tu bốn niệm xứ như vậy, hai kết quả vẫn là chánh trí trong đời này, hoặc Bất lai nếu còn dư y. Rồi kinh rút xuống sáu, năm, bốn, ba, hai, một tháng và nửa tháng.",
+            "Cuối cùng, không cần nửa tháng: người tu bốn niệm xứ như vậy trong bảy ngày có thể mong một trong hai kết quả ấy. Các con số luôn đi cùng điều kiện tu đúng cách đã được giảng, gồm nhiều nội dung vừa đọc."
+          ]
+        },
+        {
+          "id": "conclusion",
+          "kind": "teaching",
+          "heading": "Vì sao Đức Phật đã nói như vậy?",
+          "meaningUnits": [
+            "closing"
+          ],
+          "paragraphs": [
+            "Đức Phật nhắc lại: bốn niệm xứ là con đường trực tiếp đưa đến thanh tịnh chúng sinh, vượt sầu và bi, chấm dứt khổ và ưu, đạt đường chân chánh, chứng ngộ Niết-bàn. Phần giảng vừa rồi là lý do của lời nêu ban đầu.",
+            "Ngài dạy xong, các tỳ-kheo hoan hỷ, tán đồng. Dòng kết ghi Kinh Đại Niệm Xứ là bài thứ chín trong phần này; mã của bài trong Trường Bộ vẫn là DN22."
+          ]
+        },
+        {
+          "id": "reading-choices",
+          "kind": "clarification",
+          "heading": "Một vài từ cần đọc cẩn thận",
+          "meaningUnits": [
+            "aim",
+            "breath-training",
+            "body-refrain",
+            "mind-states",
+            "feelings",
+            "years",
+            "months-week"
+          ],
+          "paragraphs": [
+            "Bản giảng dùng con đường trực tiếp theo cách chọn của bản Việt dự án. Bản HTML Minh Châu dùng độc nhất, còn bản Anh Sujato dùng cách nói quy tụ. Dài, ngắn của hơi thở được giữ theo Pāli; co hẹp của tâm được giữ khác với tâm có định. Cặp cảm thọ thuộc hoặc không thuộc thế tục cũng được giữ riêng, thay vì gộp với thân và tâm.",
+            "Sống không nương tựa ở điệp khúc gắn với buông chấp; người đọc vẫn có thể nhờ người khác giúp đỡ. Các mốc ngày, tháng ở cuối thuộc lời kinh về cách tu đầy đủ, không phải lời hứa rằng làm một bài tập nhỏ bên dưới là được quả Thánh."
+          ]
+        },
+        {
+          "id": "ball-example",
+          "kind": "example",
+          "heading": "Khi nhìn thấy món đồ mình thích",
+          "meaningUnits": [
+            "arising-bases",
+            "arising-feeling-perception",
+            "arising-intention-craving",
+            "cessation"
+          ],
+          "paragraphs": [
+            "Ví dụ do người biên soạn đặt ra: trong giờ chơi, em thấy một quả bóng đẹp và thấy vui. Rồi em nhận ra mình muốn giữ quả bóng của bạn cho riêng mình. Em có thể gọi rõ việc nhìn thấy, cảm giác vui và ý muốn chiếm giữ. Khi em tôn trọng đồ của bạn, quả bóng vẫn ở đó; điều em đang tập xem lại là sự bám giữ của mình.",
+            "Tình huống này chỉ làm rõ một phần về cảm thọ và ham bám, không chứa đủ mọi mục của kinh và không được gọi là đã diệt ái hoàn toàn."
+          ]
+        },
+        {
+          "id": "small-practice",
+          "kind": "practice",
+          "heading": "Một lần quan sát vừa sức",
+          "meaningUnits": [
+            "postures",
+            "feelings",
+            "mind-states",
+            "effort",
+            "path-mindfulness",
+            "months-week"
+          ],
+          "paragraphs": [
+            "Em có thể chọn một lúc phù hợp, biết mình đang ngồi hay đứng, nhận ra một hơi thở vào và ra. Sau đó thử gọi đúng cảm thọ dễ chịu, khó chịu hoặc không khổ không lạc, và xem tâm đang yên hay tán loạn. Nếu chưa biết rõ, cứ nhận mình chưa biết và hỏi người hướng dẫn.",
+            "Tiếp theo, chọn một việc thiện cụ thể như nói thật hoặc giữ lời hứa nhỏ. Đây là gợi ý học quan sát và hành động, có thể đọc cùng người lớn; nó không thay toàn bộ việc tu bốn niệm xứ hay các điều kiện về thiền và giải thoát."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "DN22 — Bốn niệm xứ trong con đường chấm dứt khổ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting-purpose",
+          "kind": "teaching",
+          "heading": "Bối cảnh và mục tiêu của bốn niệm xứ",
+          "meaningUnits": [
+            "setting",
+            "aim",
+            "four-fields"
+          ],
+          "paragraphs": [
+            "Tại Kammāsadhamma, một thị trấn của người Kuru, Đức Phật gọi các tỳ-kheo. Sau lời đáp của hội chúng, Ngài trình bày bốn niệm xứ: quán thân nơi thân, thọ nơi thọ, tâm nơi tâm và pháp nơi pháp. Đây là Kinh Đại Niệm Xứ, DN22.",
+            "Bài kinh nêu năm hướng đến: thanh tịnh chúng sinh; vượt qua sầu và bi; chấm dứt khổ và ưu; đạt con đường chân chánh; chứng ngộ Niết-bàn. Cách gọi con đường trực tiếp trong bản giảng theo lựa chọn của bản Việt dự án. Mỗi niệm xứ đều đi cùng nhiệt tâm, tỉnh giác, có niệm, đã gạt tham và ưu đối với đời. Phần khái quát kết thúc trước khi triển khai từng lĩnh vực."
+          ]
+        },
+        {
+          "id": "breath",
+          "kind": "teaching",
+          "heading": "Từ biết hơi thở đến sự tu tập",
+          "meaningUnits": [
+            "breath-seat",
+            "breath-training"
+          ],
+          "paragraphs": [
+            "Quán thân bắt đầu bằng một bối cảnh cụ thể: tỳ-kheo đến rừng, gốc cây hoặc nhà trống, ngồi kiết-già, đặt thân thẳng và thiết lập niệm trước mặt. Vị ấy có niệm khi thở vào và khi thở ra.",
+            "Với hơi thở dài, vị ấy biết rõ vào dài hoặc ra dài; với hơi ngắn, biết vào ngắn hoặc ra ngắn. Tiếp theo là tập thở vào và ra với sự cảm nhận toàn thân, rồi tập thở vào và ra với sự làm lắng thân hành. Bản giảng giữ cách nói toàn thân và thân hành ở đây, không tự quyết một nghĩa hẹp bằng cách mượn phần giải của kinh khác.",
+            "Ví người thợ tiện lành nghề hoặc người học việc làm rõ sự nhận biết: kéo dài biết dài, kéo ngắn biết ngắn. Sau ví này, Pāli nhắc lại đầy đủ các trường hợp vào/ra dài/ngắn và cả hai cặp tu tập. Dīgha và rassa được giữ là dài và ngắn, thay vì cách gọi nặng và nhẹ của bản Anh."
+          ]
+        },
+        {
+          "id": "refrain-body",
+          "kind": "teaching",
+          "heading": "Quán sinh diệt và không chấp thủ",
+          "meaningUnits": [
+            "body-refrain"
+          ],
+          "paragraphs": [
+            "Điệp khúc quán thân mở ba hướng: bên trong, bên ngoài hoặc cả bên trong lẫn bên ngoài. Vị ấy quán tính sinh khởi, tính hoại diệt hoặc cả sinh và diệt nơi thân. Cũng có cách thiết lập niệm rằng có thân, vừa đủ cho hiểu biết và ghi nhận.",
+            "Vị ấy sống không nương tựa và không chấp thủ bất cứ gì ở đời. Hai vế này đi cùng việc quán, không được bỏ khỏi mô tả niệm xứ. Kinh gọi đó là quán thân nơi thân và ghi kết phần niệm hơi thở."
+          ]
+        },
+        {
+          "id": "posture-activity",
+          "kind": "teaching",
+          "heading": "Tư thế và toàn bộ các sinh hoạt được kể",
+          "meaningUnits": [
+            "postures",
+            "activities"
+          ],
+          "paragraphs": [
+            "Vị tỳ-kheo biết rõ khi đi, đứng, ngồi, nằm; thân được đặt thế nào thì biết đúng thế ấy. Phần này lặp đủ điệp khúc trong/ngoài/cả hai, sinh/diệt/cả hai, niệm có thân đủ cho biết và ghi nhận, cùng đời sống không nương tựa, không chấp thủ.",
+            "Tỉnh giác được tiếp tục trong việc tới/lui, nhìn trước/nhìn sang bên, co/duỗi, mang y ngoài/bát/y phục, ăn/uống/nhai/nếm, đại tiện/tiểu tiện. Danh sách còn có đi, đứng, ngồi, ngủ, thức, nói và im lặng. Sau đó kinh lược điệp khúc đã biết và kết phần tỉnh giác trong sinh hoạt."
+          ]
+        },
+        {
+          "id": "components",
+          "kind": "teaching",
+          "heading": "Nhìn thân qua ba mươi mốt thành phần",
+          "meaningUnits": [
+            "body-parts"
+          ],
+          "paragraphs": [
+            "Người tu xét chính thân này từ lòng bàn chân lên, từ đỉnh tóc xuống, được da bao bọc và chứa nhiều thứ không sạch. Danh mục đầu là tóc, lông, móng, răng, da; thịt, gân, xương, tủy, thận; tim, gan, cơ hoành, lá lách, phổi.",
+            "Tiếp đến là ruột, màng treo ruột, thức ăn chưa tiêu, phân; mật, đờm, mủ, máu, mồ hôi, mỡ; nước mắt, chất nhờn, nước bọt, nước mũi, dịch khớp và nước tiểu. Đó là 31 mục được văn bản này nêu. Danh mục được giữ theo đúng bài, không bổ sung thành một danh sách khác."
+          ]
+        },
+        {
+          "id": "parts-and-elements",
+          "kind": "teaching",
+          "heading": "Túi hạt, bốn yếu tố và ví ngã tư",
+          "meaningUnits": [
+            "grain-bag",
+            "elements"
+          ],
+          "paragraphs": [
+            "Ví túi có hai đầu mở chứa sáu loại hạt: lúa sāli, lúa vīhi, đậu xanh, đậu māsa, mè và gạo đã xay. Người có mắt mở ra và xem, nhận từng loại. Kinh trở lại việc xét thân từ chân đến tóc với các thành phần vừa kể, nhắc danh mục theo lối lược và khép bằng điệp khúc quán thân.",
+            "Ở cách quán tiếp, thân dù ở vị trí hay tư thế nào cũng được xét theo bốn yếu tố đất, nước, lửa và gió. Ví trong kinh là người đồ tể giỏi hoặc người học việc, sau khi giết bò, chia thành phần rồi ngồi ở ngã tư. Vị tỳ-kheo cũng nhìn thân theo các yếu tố cấu thành; cả bốn được nhắc lại trước điệp khúc lược và nhãn kết phần."
+          ]
+        },
+        {
+          "id": "corpse-opening",
+          "kind": "teaching",
+          "heading": "Hai cảnh đầu trong chín cách quán tử thi",
+          "meaningUnits": [
+            "corpse-first",
+            "corpse-animals"
+          ],
+          "paragraphs": [
+            "Kinh đặt giả thiết tỳ-kheo thấy tử thi bị bỏ tại nghĩa địa, chết một, hai hoặc ba ngày, trương phồng, tím tái, chảy mủ. Vị ấy liên hệ về chính thân mình: cùng bản chất, sẽ trở thành như vậy và không thể vượt khỏi tính chất ấy.",
+            "Cảnh kế là tử thi bị quạ, diều hâu, kền kền, cò, chó, hổ, báo, chó rừng hoặc các sinh vật nhỏ ăn. Với cảnh này cũng giữ đủ ba vế so sánh về thân mình. Sau từng cảnh, điệp khúc và lời kết quán thân được nhắc theo lối viết lược."
+          ]
+        },
+        {
+          "id": "corpse-bones",
+          "kind": "teaching",
+          "heading": "Từ bộ xương còn nối đến xương vụn",
+          "meaningUnits": [
+            "skeletons",
+            "bones-last"
+          ],
+          "paragraphs": [
+            "Ba cảnh tiếp lần lượt là bộ xương còn thịt máu, có gân nối; bộ xương không thịt nhưng còn vấy máu, có gân nối; bộ xương hết cả thịt máu, vẫn được gân nối. Cảnh thứ sáu là các xương không còn liên kết, rải các hướng.",
+            "Danh mục xương rời gồm tay, chân, mắt cá, ống chân, đùi, hông, sườn, sống, vai, cổ, hàm, răng và hộp sọ. Kinh trở về so thân mình cùng bản chất, sẽ như thế, không vượt khỏi; phần điệp khúc lược kết bằng chữ sống, tiếp nối công thức quán thân.",
+            "Ba cảnh cuối là xương trắng như vỏ ốc; xương chất đống qua hơn một năm; xương mục nát thành bột. Các cảnh cũng dẫn đến cùng sự so sánh với thân đang mang. Những dấu lược nối các cảnh không xóa sự khác nhau giữa chín trường hợp."
+          ]
+        },
+        {
+          "id": "body-completion",
+          "kind": "teaching",
+          "heading": "Kết thúc mười bốn cách quán thân",
+          "meaningUnits": [
+            "body-close"
+          ],
+          "paragraphs": [
+            "Phần cuối lại nói đủ quán thân bên trong, bên ngoài hoặc cả hai; sinh khởi, hoại diệt hoặc cả hai; niệm có thân vừa đủ cho hiểu biết và ghi nhận. Vị ấy không nương tựa, không chấp thủ gì ở đời. Văn bản ghi kết chín cách quán tử thi và toàn bộ mười bốn cách quán thân."
+          ]
+        },
+        {
+          "id": "body-context",
+          "kind": "clarification",
+          "heading": "Phạm vi của những hình ảnh về thân",
+          "meaningUnits": [
+            "body-parts",
+            "grain-bag",
+            "elements",
+            "corpse-first",
+            "corpse-animals",
+            "skeletons",
+            "bones-last"
+          ],
+          "paragraphs": [
+            "Đây là những phép quán được đặt trong lời dạy cho tỳ-kheo. Ví đồ tể làm sáng cách phân tích theo thành phần, không đưa hành vi giết bò thành điều phải thực hiện. Phần tử thi giữ chiều hướng nhận ra bản chất của chính thân, không dùng cái chết của người khác làm cảnh tượng để thỏa tò mò.",
+            "Trong việc đọc và vận dụng hiện nay, chăm sóc thân, kính trọng người đã mất và giúp đỡ người sống vẫn cần được giữ. Những lời phân định này là lời biên tập; chúng không thay các cảnh cụ thể của kinh bằng một thông điệp chung về sức khỏe."
+          ]
+        },
+        {
+          "id": "feeling",
+          "kind": "teaching",
+          "heading": "Quán chín trường hợp cảm thọ",
+          "meaningUnits": [
+            "feelings"
+          ],
+          "paragraphs": [
+            "Với cảm thọ, người tu biết đúng đang cảm nhận lạc, khổ hoặc không khổ không lạc. Kinh tiếp tục phân biệt lạc thuộc thế tục với lạc không thuộc thế tục; khổ thuộc thế tục với khổ không thuộc thế tục; thọ không khổ không lạc thuộc thế tục với loại không thuộc thế tục. Đủ chín trường hợp đều cần được nhận biết đúng.",
+            "Các từ sāmisa và nirāmisa được giữ theo cách gọi thuộc hoặc không thuộc thế tục của bản Việt. Cặp này không được nhập với phân biệt thọ thân và thọ tâm, cũng không làm thọ trung tính thành một cảm giác chưa nhận diện được."
+          ]
+        },
+        {
+          "id": "mind",
+          "kind": "teaching",
+          "heading": "Quán mười sáu trạng thái tâm",
+          "meaningUnits": [
+            "mind-states"
+          ],
+          "paragraphs": [
+            "Tâm có tham được biết là có tham, không tham được biết là không tham; với sân và si cũng vậy. Tâm co hẹp được biết là co hẹp, tán loạn được biết là tán loạn. Tiếp đó là tâm rộng lớn hoặc không rộng lớn, còn có mức cao hơn hoặc không còn mức cao hơn.",
+            "Cuối danh mục là tâm có định hoặc không có định, tâm giải thoát hoặc chưa giải thoát. Mười sáu trạng thái được phân biệt theo thực trạng. Việc gọi đúng có và không ngăn sự nhận biết bị thay bằng điều mình muốn tin về tâm."
+          ]
+        },
+        {
+          "id": "feeling-mind-refrains",
+          "kind": "teaching",
+          "heading": "Cùng khuôn quán, giữ đúng đối tượng",
+          "meaningUnits": [
+            "feeling-refrain",
+            "mind-refrain"
+          ],
+          "paragraphs": [
+            "Trong phần thọ, vị ấy quán các thọ bên trong, bên ngoài hoặc cả hai; quán sinh, diệt hoặc cả hai; thiết lập niệm có thọ vừa đủ cho biết và ghi nhận. Vị ấy sống không nương tựa, không chấp bất cứ gì ở đời. Phần quán thọ kết thúc như vậy.",
+            "Trong phần tâm, cùng các mặt ấy được đặt nơi tâm: trong, ngoài hoặc cả hai; sinh, diệt hoặc cả hai; niệm có tâm đủ cho biết và ghi nhận; không nương, không chấp. Kết cấu lặp không đồng nhất cảm thọ với trạng thái tâm."
+          ]
+        },
+        {
+          "id": "hindrance",
+          "kind": "teaching",
+          "heading": "Nhận biết triền cái và sự chuyển biến của nó",
+          "meaningUnits": [
+            "hindrances",
+            "dhamma-refrain"
+          ],
+          "paragraphs": [
+            "Quán pháp trước hết xét năm triền cái: dục tham, sân hận, hôn trầm-buồn ngủ, xao động-hối tiếc và nghi hoặc. Với từng loại, tỳ-kheo biết nó có hoặc không có trong mình; hiểu cách điều chưa sinh được sinh, điều đã sinh được từ bỏ, và điều đã từ bỏ không sinh lại trong tương lai.",
+            "Đây vừa là nhận diện hiện trạng vừa là hiểu tiến trình sinh và bỏ. Điệp khúc đầy đủ vẫn hiện diện: quán pháp trong, ngoài hoặc cả hai; tính sinh, diệt hoặc cả hai; niệm có pháp vừa đủ cho hiểu biết và ghi nhận; sống không nương tựa, không chấp thủ. Kinh kết phần năm triền cái."
+          ]
+        },
+        {
+          "id": "aggregate",
+          "kind": "teaching",
+          "heading": "Năm thủ uẩn được thấy theo sinh và mất",
+          "meaningUnits": [
+            "aggregates"
+          ],
+          "paragraphs": [
+            "Năm thủ uẩn là sắc, thọ, tưởng, hành và thức gắn với sự chấp thủ. Sắc chỉ phần vật chất; thọ là cảm thọ; tưởng là sự nhận ra; hành nói tới các hoạt động tạo tác; thức là sự biết đối tượng. Với từng uẩn, vị ấy nhận rõ uẩn ấy, sự sinh khởi và sự biến mất của nó.",
+            "Sau cả năm uẩn, kinh lặp quán pháp trong, ngoài hoặc cả hai, quán sinh, diệt hoặc cả hai, và niệm có pháp đủ cho hiểu biết và ghi nhận. Đời sống không nương tựa, không chấp thủ gì ở đời cùng nhãn kết uẩn vẫn được giữ."
+          ]
+        },
+        {
+          "id": "sense",
+          "kind": "teaching",
+          "heading": "Biết hai phía và kiết sử do duyên chúng",
+          "meaningUnits": [
+            "sense-fields"
+          ],
+          "paragraphs": [
+            "Sáu nội xứ và sáu ngoại xứ được xét thành các cặp: mắt–sắc, tai–tiếng, mũi–mùi, lưỡi–vị, thân–xúc chạm, ý–pháp. Với từng cặp, vị ấy biết cả hai và biết kiết sử nào phát sinh do duyên cả hai. Kiết sử là sự ràng buộc; đoạn này không tự đồng nhất mọi nhận biết giác quan với một ràng buộc đã có.",
+            "Vị ấy hiểu cách kiết sử chưa sinh được sinh, cách đã sinh được bỏ, cách đã bỏ thì không sinh lại trong tương lai. Điệp khúc quán pháp trong/ngoài/cả hai, sinh/diệt/cả hai, có pháp đủ biết và niệm, không nương/chấp tiếp tục được nói đầy đủ."
+          ]
+        },
+        {
+          "id": "awakening",
+          "kind": "teaching",
+          "heading": "Bảy giác chi được phát triển",
+          "meaningUnits": [
+            "awakening-factors"
+          ],
+          "paragraphs": [
+            "Bảy yếu tố giác ngộ là niệm, trạch pháp, tinh tấn, hỷ, khinh an, định và xả. Chúng lần lượt nhấn vào ghi nhận, tìm hiểu-phân biệt pháp, nỗ lực, vui mừng, lắng dịu, tập trung và quân bình. Với từng yếu tố, biết có hay không, biết cách chưa sinh được sinh và cách đã sinh được tu tập viên mãn.",
+            "Phương hướng với giác chi là phát triển đến đầy đủ, khác phương hướng từ bỏ triền cái. Kinh vẫn khép bằng trong, ngoài hoặc cả hai; sinh, diệt hoặc cả hai; niệm có pháp đủ cho biết và ghi nhận; không nương tựa, không chấp gì ở đời."
+          ]
+        },
+        {
+          "id": "truth-framework",
+          "kind": "teaching",
+          "heading": "Bốn Thánh đế và danh mục khổ",
+          "meaningUnits": [
+            "four-truths",
+            "suffering-list"
+          ],
+          "paragraphs": [
+            "Quán pháp nơi bốn Thánh đế đòi biết như thật khổ, nguồn gốc khổ, sự chấm dứt khổ và đường thực hành đưa tới chấm dứt khổ. Nhãn phần tụng thứ nhất kết thúc ở đây; phần tiếp theo mở rộng từng đế.",
+            "Khổ đế trước hết nêu sinh, già, chết; sầu, bi, khổ, ưu, não; gặp điều không ưa, xa điều thương, mong cầu không được. Câu thu gọn là năm thủ uẩn là khổ. Hai mục gặp và xa được Pāli nói rõ dù vắng trong danh mục và phần định nghĩa của bản HTML đang tham khảo."
+          ]
+        },
+        {
+          "id": "birth-age-death",
+          "kind": "teaching",
+          "heading": "Sinh, già và chết được định nghĩa cụ thể",
+          "meaningUnits": [
+            "birth-age-death"
+          ],
+          "paragraphs": [
+            "Sinh được xét ở từng loại chúng sinh: sinh ra, đi vào, phát sinh, các uẩn hiện khởi và có được các xứ. Định nghĩa bao gồm việc một đời sống hình thành cùng các thành phần và khả năng nhận biết, không chỉ dùng tên gọi sinh.",
+            "Già gồm suy lão, răng rụng, tóc bạc, da nhăn, tuổi thọ suy giảm và các căn già yếu. Chết gồm qua đời, lìa đời, tan rã, biến mất, mạng chung; đặc biệt là các uẩn tan rã, bỏ lại thân xác và mạng căn bị cắt đứt. Các mô tả thuộc định nghĩa chung cho chúng sinh trong từng loại."
+          ]
+        },
+        {
+          "id": "distress",
+          "kind": "teaching",
+          "heading": "Phân biệt sầu, bi, khổ, ưu và não",
+          "meaningUnits": [
+            "five-pains"
+          ],
+          "paragraphs": [
+            "Nơi người gặp tai họa hoặc bị điều khổ chạm đến, sầu là nỗi sầu bên trong, thấm sâu; bi là sự than, khóc than và tình trạng than khóc; não là sự bức bách, quẫn bách. Kinh giữ bối cảnh bị tai họa hoặc khổ đối với cả ba.",
+            "Khổ trong định nghĩa riêng là sự đau, khó chịu nơi thân, cảm thọ sinh từ xúc thân. Ưu là sự đau, khó chịu nơi tâm, cảm thọ sinh từ xúc ý. Vì thế cần phân biệt nghĩa khổ thân ở đoạn này với phạm vi rộng của toàn Khổ đế."
+          ]
+        },
+        {
+          "id": "meeting-separation",
+          "kind": "teaching",
+          "heading": "Hai định nghĩa về gặp và lìa",
+          "meaningUnits": [
+            "unwanted",
+            "separation"
+          ],
+          "paragraphs": [
+            "Gặp điều không ưa gồm hội họp, kết hợp hoặc chung đụng với sắc, tiếng, mùi, vị, xúc chạm, pháp không đáng muốn và không dễ chịu. Nó cũng gồm gặp những người muốn điều bất lợi, tổn hại, làm khó chịu và mất an ổn cho mình.",
+            "Xa điều thương là không gặp, không hội họp, không kết hợp, không chung đụng với sáu loại đối tượng đáng ưa ấy; hoặc lìa những người muốn lợi ích, an lành, an vui, an ổn cho mình. Danh sách người được nêu là mẹ, cha, anh em, chị em, bạn, đồng liêu và bà con huyết thống. Cả đối tượng lẫn người đều thuộc phạm vi định nghĩa."
+          ]
+        },
+        {
+          "id": "wish",
+          "kind": "teaching",
+          "heading": "Không đạt bằng chỉ mong cầu",
+          "meaningUnits": [
+            "wishing",
+            "suffering-aggregates"
+          ],
+          "paragraphs": [
+            "Chúng sinh vốn chịu sinh mong không còn thuộc tính phải sinh và mong sự sinh đừng đến. Cùng hai vế ấy được nói về già, bệnh, chết, rồi sầu-bi-khổ-ưu-não. Với từng nhóm, kinh nhấn mạnh rằng chỉ mong cầu không đem lại điều mong ấy. Đây là nghĩa được triển khai của cầu không được là khổ.",
+            "Câu kết về năm thủ uẩn nêu lại đầy đủ sắc thủ uẩn, thọ thủ uẩn, tưởng thủ uẩn, hành thủ uẩn, thức thủ uẩn. Đây là Khổ đế; riêng bệnh đã được nêu trong phần mong cầu vừa rồi."
+          ]
+        },
+        {
+          "id": "origin",
+          "kind": "teaching",
+          "heading": "Định nghĩa ái và nơi nó an trú",
+          "meaningUnits": [
+            "craving"
+          ],
+          "paragraphs": [
+            "Tập đế là ái đưa tới tái hữu, đi cùng thích thú và tham, tìm vui tại chỗ này chỗ kia. Ba dạng được nêu là dục ái, hữu ái và phi hữu ái: khát khao dục lạc, khát khao hiện hữu, khát khao không hiện hữu.",
+            "Câu hỏi tiếp theo xác định nơi ái sinh và an trú. Câu trả lời chỉ những gì trong đời đáng yêu, dễ chịu, rồi triển khai bằng mười nhóm, mỗi nhóm sáu mục. Phải giữ cả nơi sinh lẫn nơi an trú, không chỉ nói thoáng rằng con người có ham muốn."
+          ]
+        },
+        {
+          "id": "origin-senses",
+          "kind": "teaching",
+          "heading": "Căn, cảnh, thức và xúc",
+          "meaningUnits": [
+            "arising-bases",
+            "arising-conscious-contact"
+          ],
+          "paragraphs": [
+            "Trước hết là mắt, tai, mũi, lưỡi, thân, ý; tiếp theo là sắc, tiếng, mùi, vị, xúc chạm, pháp. Mỗi mục được nêu với tính đáng yêu, dễ chịu: tại đó ái sinh và an trú.",
+            "Cùng mệnh đề được đặt với thức mắt, thức tai, thức mũi, thức lưỡi, thức thân, thức ý; rồi xúc mắt, xúc tai, xúc mũi, xúc lưỡi, xúc thân, xúc ý. Đây là bốn nhóm riêng, mỗi nhóm đủ sáu mục."
+          ]
+        },
+        {
+          "id": "origin-mental",
+          "kind": "teaching",
+          "heading": "Thọ, tưởng, tư và ái đối với các cảnh",
+          "meaningUnits": [
+            "arising-feeling-perception",
+            "arising-intention-craving"
+          ],
+          "paragraphs": [
+            "Nhóm thứ năm là thọ sinh từ xúc mắt, tai, mũi, lưỡi, thân, ý. Nhóm thứ sáu là tưởng về sắc, tiếng, mùi, vị, xúc chạm, pháp. Từng mục được nêu đáng yêu, dễ chịu, là nơi ái sinh và an trú.",
+            "Nhóm thứ bảy là tư, tức ý định, đối với sắc, tiếng, mùi, vị, xúc chạm, pháp. Nhóm thứ tám là ái đối với sắc, tiếng, mùi, vị, xúc chạm, pháp. Hai nhóm không được nhập với nhau; với từng mục, ái cũng sinh và an trú tại đó."
+          ]
+        },
+        {
+          "id": "origin-thinking",
+          "kind": "teaching",
+          "heading": "Tầm và tứ trong danh mục tập đế",
+          "meaningUnits": [
+            "arising-thought"
+          ],
+          "paragraphs": [
+            "Hai nhóm cuối là tầm về sắc, tiếng, mùi, vị, xúc chạm, pháp; và tứ về sắc, tiếng, mùi, vị, xúc chạm, pháp. Tầm ở ngữ cảnh này có thể mở nghĩa là hướng nghĩ đến, tứ là tiếp tục xem xét. Cả hai nhóm vẫn mang cùng mệnh đề đáng yêu, dễ chịu, là nơi ái sinh và an trú.",
+            "Như vậy có sáu mươi mục được nêu qua mười nhóm. Pāli viết lược nhiều lần nhắc mệnh đề, nhưng tên từng đối tượng vẫn còn. Phần này kết bằng xác định đó là Thánh đế về nguồn gốc khổ."
+          ]
+        },
+        {
+          "id": "cessation",
+          "kind": "teaching",
+          "heading": "Diệt đế: chính ái ấy được buông",
+          "meaningUnits": [
+            "cessation"
+          ],
+          "paragraphs": [
+            "Diệt đế được định nghĩa là sự ly tham và đoạn diệt không dư sót của chính ái ấy: từ bỏ, buông xả, giải thoát và không còn bám víu. Câu hỏi về nơi ái được bỏ, được diệt dẫn về những gì đáng yêu, dễ chịu trong đời.",
+            "Vòng sau giữ nguyên các nhóm đối tượng nhưng đổi quan hệ: tại đó ái được bỏ và diệt. Đối tượng của việc diệt là ái; không được chuyển thành chủ trương hủy giác quan, các cảnh hoặc mọi tiến trình nhận biết."
+          ]
+        },
+        {
+          "id": "cessation-senses",
+          "kind": "teaching",
+          "heading": "Từ bỏ ái ở bốn nhóm đầu",
+          "meaningUnits": [
+            "ceasing-bases",
+            "ceasing-conscious-contact"
+          ],
+          "paragraphs": [
+            "Với mắt, tai, mũi, lưỡi, thân, ý; với sắc, tiếng, mùi, vị, xúc chạm, pháp: tại mỗi mục được nêu đáng yêu, dễ chịu, ái được từ bỏ và đoạn diệt.",
+            "Với thức mắt, tai, mũi, lưỡi, thân, ý; với xúc mắt, tai, mũi, lưỡi, thân, ý: từng loại thức và xúc cũng mang cùng lời xác định ấy. Cả thức thân vẫn phải có trong vòng này dù HTML lược mất tên đó."
+          ]
+        },
+        {
+          "id": "cessation-mental",
+          "kind": "teaching",
+          "heading": "Từ bỏ ái ở thọ, tưởng, tư và ái",
+          "meaningUnits": [
+            "ceasing-feeling-perception",
+            "ceasing-intention-craving"
+          ],
+          "paragraphs": [
+            "Danh sách tiếp tục với thọ sinh từ xúc mắt, tai, mũi, lưỡi, thân, ý; rồi tưởng về sắc, tiếng, mùi, vị, xúc chạm, pháp. Chính tại mỗi mục đáng yêu, dễ chịu ấy, ái được bỏ và diệt.",
+            "Tư đối với sắc, tiếng, mùi, vị, xúc chạm, pháp; và ái đối với sắc, tiếng, mùi, vị, xúc chạm, pháp cũng được nêu riêng. Cùng một quan hệ từ bỏ và chấm dứt ái được áp dụng cho từng mục, không chỉ cho các đối tượng bên ngoài."
+          ]
+        },
+        {
+          "id": "cessation-thinking",
+          "kind": "teaching",
+          "heading": "Từ bỏ ái ở tầm và tứ",
+          "meaningUnits": [
+            "ceasing-thought"
+          ],
+          "paragraphs": [
+            "Tầm về sắc, tiếng, mùi, vị, xúc chạm, pháp; tứ về sắc, tiếng, mùi, vị, xúc chạm, pháp khép danh sách. Ở từng mục được gọi đáng yêu, dễ chịu, ái được bỏ và diệt. Vòng diệt đế vì thế giữ đủ cùng mười nhóm và sáu mươi mục của vòng tập đế, với kết luận đã đổi."
+          ]
+        },
+        {
+          "id": "path-view",
+          "kind": "teaching",
+          "heading": "Tám ngành và hai ngành đầu",
+          "meaningUnits": [
+            "path",
+            "view-intention"
+          ],
+          "paragraphs": [
+            "Đạo đế là chính Thánh đạo tám ngành: chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm, chánh định. Các định nghĩa sau làm rõ nội dung từng ngành trong DN22.",
+            "Chánh kiến là trí về khổ, tập, diệt và đường dẫn tới diệt. Chánh tư duy gồm hướng xuất ly, không sân và không làm hại. Hiểu biết và hướng nghĩ như vậy thuộc cấu trúc giải thoát của bài, không thu gọn vào khả năng tập trung để làm việc."
+          ]
+        },
+        {
+          "id": "ethics",
+          "kind": "teaching",
+          "heading": "Ngữ, nghiệp và mạng",
+          "meaningUnits": [
+            "speech-action",
+            "livelihood"
+          ],
+          "paragraphs": [
+            "Chánh ngữ là tránh nói dối, nói chia rẽ, nói thô ác và nói phù phiếm. Chánh nghiệp là tránh sát sinh, lấy của không cho và tà hạnh trong tình dục. Giữ đủ từng điều từ bỏ giúp thấy niệm xứ được đặt cùng những ràng buộc đạo đức cụ thể.",
+            "Chánh mạng được nêu ở vị Thánh đệ tử: từ bỏ tà mạng và nuôi sống bằng chánh mạng. Bài kinh tại đây không liệt kê các nghề nghiệp, nên bản giảng giữ đúng mức định nghĩa ấy."
+          ]
+        },
+        {
+          "id": "effort-mindfulness",
+          "kind": "teaching",
+          "heading": "Tinh tấn và niệm trong con đường",
+          "meaningUnits": [
+            "effort",
+            "path-mindfulness"
+          ],
+          "paragraphs": [
+            "Chánh tinh tấn có bốn nhiệm vụ: ngăn pháp ác-bất thiện chưa sinh, bỏ pháp ác-bất thiện đã sinh, làm sinh pháp thiện chưa sinh, duy trì pháp thiện đã sinh. Ở nhiệm vụ cuối, kinh còn nêu không để mất hoặc quên, làm tăng trưởng, rộng lớn, được tu tập và viên mãn. Với từng nhiệm vụ, vị ấy khởi ý muốn, nỗ lực, phát tinh tấn, nâng tâm và cố gắng.",
+            "Chánh niệm lại được định nghĩa bằng quán thân, thọ, tâm và pháp. Trong từng lĩnh vực, người tu nhiệt tâm, tỉnh giác, có niệm, đã gạt tham và ưu đối với đời. Việc có ý muốn nuôi thiện trong tinh tấn cần phân biệt với ái đã được định nghĩa ở Tập đế."
+          ]
+        },
+        {
+          "id": "jhana-one-two",
+          "kind": "teaching",
+          "heading": "Chánh định: hai thiền đầu",
+          "meaningUnits": [
+            "first-jhana",
+            "second-jhana"
+          ],
+          "paragraphs": [
+            "Vị tỳ-kheo ly dục, lìa các pháp bất thiện, chứng và trú thiền thứ nhất với tầm, tứ, hỷ và lạc do viễn ly sinh. Trong ngữ cảnh định này, bản Anh diễn đạt tầm/tứ là đặt tâm vào và giữ tâm nối với đối tượng; hỷ là sự vui mừng, lạc là sự dễ chịu.",
+            "Khi tầm, tứ lắng, vị ấy chứng và trú thiền thứ hai: nội tâm trong lắng, tâm hợp nhất, không tầm không tứ, có hỷ và lạc do định sinh. Nguồn sinh hỷ lạc và tình trạng tầm tứ khác tầng trước."
+          ]
+        },
+        {
+          "id": "jhana-three-four",
+          "kind": "teaching",
+          "heading": "Thiền thứ ba, thứ tư và kết đạo đế",
+          "meaningUnits": [
+            "third-jhana",
+            "fourth-jhana"
+          ],
+          "paragraphs": [
+            "Khi hỷ phai, vị ấy trú xả, có niệm, tỉnh giác, cảm nhận lạc bằng thân; chứng và trú thiền thứ ba. Kinh dẫn cách các bậc Thánh nói về người có xả, có niệm, sống trong lạc.",
+            "Với thiền thứ tư, lạc và khổ được bỏ, vui và buồn nơi tâm đã chấm dứt từ trước. Vị ấy chứng và trú trạng thái không khổ không lạc, niệm thanh tịnh nhờ xả. Đó là chánh định; các định nghĩa tám ngành khép lại Đạo đế."
+          ]
+        },
+        {
+          "id": "truth-refrain",
+          "kind": "teaching",
+          "heading": "Điệp khúc vẫn đi cùng bốn đế",
+          "meaningUnits": [
+            "truth-refrain"
+          ],
+          "paragraphs": [
+            "Sau toàn bộ phần bốn Thánh đế, kinh nói quán pháp bên trong, bên ngoài hoặc cả hai; quán tính sinh, tính diệt hoặc cả hai. Niệm có pháp chỉ vừa đủ cho hiểu biết và ghi nhận, cùng việc sống không nương tựa, không chấp thủ bất cứ gì ở đời. Nhãn cuối ghi kết phần bốn đế và phần quán pháp."
+          ]
+        },
+        {
+          "id": "time-results",
+          "kind": "teaching",
+          "heading": "Dãy thời gian và điều kiện của hai kết quả",
+          "meaningUnits": [
+            "seven-years",
+            "years",
+            "seven-months",
+            "months-week"
+          ],
+          "paragraphs": [
+            "Ai phát triển bốn niệm xứ như cách này trong bảy năm có thể mong đợi một trong hai kết quả: chánh trí ngay đời hiện tại; hoặc nếu còn dư y, quả Bất lai. Chánh trí ở đây là sự biết giải thoát, không đồng nhất với hiểu một khái niệm. Bất lai, hay Bất hoàn, mang nghĩa không trở lại; dư y là phần còn sót được nêu trong điều kiện.",
+            "Kinh lần lượt giảm mốc: không cần bảy năm, rồi sáu, năm, bốn, ba, hai, một năm; không cần một năm, rồi bảy tháng với cùng hai kết quả. Tiếp đó là sáu, năm, bốn, ba, hai, một tháng, nửa tháng.",
+            "Không cần tới nửa tháng: bảy ngày tu bốn niệm xứ như vậy cũng được nêu với hai kết quả ấy. Điều kiện như vậy quy chiếu về cả cách tu đã trình bày. Vì thế không thể dùng dãy mốc như cam kết thời hạn cho một bài tập quan sát được tách khỏi toàn bộ nội dung."
+          ]
+        },
+        {
+          "id": "close",
+          "kind": "teaching",
+          "heading": "Trở lại lời mở đầu",
+          "meaningUnits": [
+            "closing"
+          ],
+          "paragraphs": [
+            "Đức Phật nhắc bốn niệm xứ là con đường trực tiếp đưa tới thanh tịnh chúng sinh, vượt sầu-bi, dứt khổ-ưu, đạt đường chân chánh và chứng ngộ Niết-bàn. Chính phần triển khai vừa nói giải thích cho lời mở đầu ấy.",
+            "Các tỳ-kheo hoan hỷ, tán đồng khi Ngài dạy xong. Nhãn kết gọi Đại Niệm Xứ là bài thứ chín trong phần này; đó là nhãn của cấu trúc văn bản, còn UID toàn bộ là DN22."
+          ]
+        },
+        {
+          "id": "source-choices",
+          "kind": "clarification",
+          "heading": "Những lựa chọn cần giữ rõ",
+          "meaningUnits": [
+            "aim",
+            "breath-training",
+            "body-refrain",
+            "grain-bag",
+            "mind-states",
+            "feelings",
+            "unwanted",
+            "separation",
+            "ceasing-conscious-contact"
+          ],
+          "paragraphs": [
+            "Ekāyano được bản Việt chọn là trực tiếp, bản Anh diễn đạt bằng quy tụ, bản HTML Minh Châu gọi độc nhất. Bản giảng giữ lựa chọn của bản Việt và đủ các mục tiêu, không dùng một chữ để tự mở rộng thành kết luận về mọi con đường ngoài phạm vi bài. Các từ toàn thân và thân hành cũng được giữ ở mức nguồn này, không tự lấp bằng một chú giải chưa được dùng.",
+            "Dài/ngắn của hơi thở, co hẹp của tâm, và vừa đủ cho hiểu biết-niệm ở điệp khúc được phân biệt với nặng/nhẹ, thâu nhiếp, hoặc với hy vọng trong các bản tham khảo. Các loại hạt giữ đủ sáu tên; cặp sāmisa/nirāmisa không quy giản thành thân/tâm. Phần gặp điều không ưa, lìa điều thương và mục thức thân của vòng diệt đều có trong Pāli dù HTML thiếu. Những lựa chọn này có nguồn để đọc lại, không giả rằng các bản dịch đồng thuận ở mọi chỗ."
+          ]
+        },
+        {
+          "id": "work-example",
+          "kind": "example",
+          "heading": "Đọc một phản ứng trong công việc",
+          "meaningUnits": [
+            "feelings",
+            "mind-states",
+            "hindrances",
+            "effort"
+          ],
+          "paragraphs": [
+            "Ví dụ biên tập: sau một nhận xét trái ý trong cuộc họp, một người nhận ra cảm giác khó chịu và sân đang có. Họ xem điều gì khiến sân nổi lên, chọn không nói lời làm tổn thương và tìm cách trả lời chính xác. Cảm thọ, trạng thái tâm, điều che lấp và hướng nỗ lực được phân biệt để không lấy một nhãn chung thay tất cả.",
+            "Ví dụ chỉ giúp thấy các câu hỏi cần đặt. Một lần kiềm lời chưa đủ để kết luận sân sẽ không sinh lại, cũng không chứng minh đã hoàn tất niệm xứ hoặc đạt thiền."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một cách đọc rồi tự quan sát",
+          "meaningUnits": [
+            "postures",
+            "feelings",
+            "mind-states",
+            "hindrances",
+            "awakening-factors",
+            "effort",
+            "path-mindfulness"
+          ],
+          "paragraphs": [
+            "Có thể bắt đầu bằng nhận biết một tư thế và một cảm thọ, rồi phân biệt trạng thái tâm với cảm thọ ấy. Khi xét một điều bất thiện, lần lượt hỏi về có/không, cách sinh, cách bỏ và điều kiện không trở lại. Khi xét một phẩm chất thiện, hỏi cách khơi lên và nuôi cho đầy đủ. Giữ khác nhau giữa hai hướng ấy.",
+            "Chọn một việc vừa sức liên quan lời nói hoặc hành vi, ghi điều quan sát được và điều còn chưa rõ. Gợi ý này phục vụ việc học và thực hành có suy xét; giới, định, tuệ và đích giải thoát của kinh vẫn rộng hơn một quy trình cải thiện hiệu suất."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "DN22 — Lần lượt quán thân, thọ, tâm và pháp",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "place",
+          "kind": "teaching",
+          "heading": "Tại thị trấn của người Kuru",
+          "meaningUnits": [
+            "setting"
+          ],
+          "paragraphs": [
+            "Người truyền kinh thuật lại một thời Đức Phật ở Kammāsadhamma, thị trấn trong xứ Kuru. Ngài gọi các tỳ-kheo. Các vị kính đáp, rồi nghe Ngài giảng. Bài này mang tên Đại Niệm Xứ, mã DN22."
+          ]
+        },
+        {
+          "id": "purpose",
+          "kind": "teaching",
+          "heading": "Những đích đến được nói ngay từ đầu",
+          "meaningUnits": [
+            "aim"
+          ],
+          "paragraphs": [
+            "Bốn niệm xứ được gọi là con đường trực tiếp đưa đến thanh tịnh chúng sinh, vượt qua sầu muộn và khóc than, chấm dứt khổ và ưu, đạt con đường chân chánh, chứng ngộ Niết-bàn. Toàn bài triển khai cách tu gắn với những đích đến ấy."
+          ]
+        },
+        {
+          "id": "four-fields",
+          "kind": "teaching",
+          "heading": "Thân, thọ, tâm và pháp",
+          "meaningUnits": [
+            "four-fields"
+          ],
+          "paragraphs": [
+            "Bốn lĩnh vực là quán thân nơi thân, quán thọ nơi thọ, quán tâm nơi tâm và quán pháp nơi pháp. Thọ là cảm giác lạc, khổ hoặc không khổ không lạc; tâm được xét qua các trạng thái; phần pháp sẽ có các nhóm riêng.",
+            "Ở cả bốn, người tu đều nhiệt tâm, tỉnh giác, có niệm, đã gạt tham và ưu đối với đời. Niệm giữ điều đang quán trong sự ghi nhận; tỉnh giác giúp biết rõ. Nhãn văn bản khép phần trình bày chung tại đây."
+          ]
+        },
+        {
+          "id": "seat",
+          "kind": "teaching",
+          "heading": "Nơi ngồi và sự ghi nhận hơi thở",
+          "meaningUnits": [
+            "breath-seat"
+          ],
+          "paragraphs": [
+            "Phần thân mở bằng niệm hơi thở. Vị tỳ-kheo đi đến rừng, gốc cây hoặc nhà trống, ngồi kiết-già, giữ thân thẳng và thiết lập niệm trước mặt. Có niệm, vị ấy thở vào; có niệm, vị ấy thở ra."
+          ]
+        },
+        {
+          "id": "breath-length",
+          "kind": "teaching",
+          "heading": "Biết dài ngắn và tập làm lắng",
+          "meaningUnits": [
+            "breath-training"
+          ],
+          "paragraphs": [
+            "Vào dài thì biết vào dài, ra dài biết ra dài. Vào ngắn thì biết vào ngắn, ra ngắn biết ra ngắn. Vị ấy tập thở vào và ra với sự cảm nhận toàn thân; tập thở vào và ra làm lắng thân hành, tức tiến trình nơi thân đang được nói tới.",
+            "Kinh ví người thợ tiện giỏi hoặc người học việc kéo dài biết dài, kéo ngắn biết ngắn. Rồi kinh nhắc lại đủ bốn trường hợp vào/ra dài/ngắn và cả hai cặp tập cảm nhận toàn thân, làm lắng thân hành. Có sự phân biệt giữa nhận ra điều đang có và việc tu tập tiếp theo."
+          ]
+        },
+        {
+          "id": "body-refrain",
+          "kind": "teaching",
+          "heading": "Một điệp khúc cần giữ trọn",
+          "meaningUnits": [
+            "body-refrain"
+          ],
+          "paragraphs": [
+            "Vị ấy quán thân bên trong, bên ngoài hoặc cả hai. Vị ấy quán tính sinh khởi, tính hoại diệt hoặc cả hai nơi thân. Hoặc thiết lập niệm rằng có thân, vừa đủ cho hiểu biết và ghi nhận.",
+            "Cùng với đó, vị ấy sống không nương tựa, không chấp thủ bất cứ gì ở đời. Chấp thủ là bám giữ. Đó là quán thân nơi thân; phần hơi thở kết thúc. Điệp khúc này sẽ còn trở lại."
+          ]
+        },
+        {
+          "id": "postures",
+          "kind": "teaching",
+          "heading": "Thân đang được đặt thế nào",
+          "meaningUnits": [
+            "postures"
+          ],
+          "paragraphs": [
+            "Đi, đứng, ngồi hoặc nằm, vị tỳ-kheo đều biết rõ tư thế tương ứng. Thân được đặt thế nào thì biết như thế ấy.",
+            "Kinh lặp đủ quán thân trong, ngoài hoặc cả hai; sinh, diệt hoặc cả hai; niệm có thân đủ cho biết và ghi nhận; không nương tựa, không chấp gì ở đời. Phần các tư thế được kết như vậy."
+          ]
+        },
+        {
+          "id": "activities",
+          "kind": "teaching",
+          "heading": "Biết rõ trong các sinh hoạt",
+          "meaningUnits": [
+            "activities"
+          ],
+          "paragraphs": [
+            "Vị ấy tỉnh giác khi bước tới hay lui, nhìn trước hay sang bên, co hay duỗi tay chân; khi mang y ngoài, bình bát và y phục. Ăn, uống, nhai, nếm cũng được biết rõ.",
+            "Danh mục còn có đại tiện, tiểu tiện; đi, đứng, ngồi, ngủ, thức, nói và im lặng. Phần sau viết lược điệp khúc quán thân đã nêu rồi kết phần tỉnh giác trong sinh hoạt."
+          ]
+        },
+        {
+          "id": "parts",
+          "kind": "teaching",
+          "heading": "Các thành phần được nêu trong thân",
+          "meaningUnits": [
+            "body-parts"
+          ],
+          "paragraphs": [
+            "Từ lòng bàn chân trở lên, từ đỉnh tóc trở xuống, thân được da bao bọc và chứa nhiều thứ không sạch. Kinh nêu 31 mục, mở đầu bằng tóc, lông, móng, răng và da.",
+            "Kế đó là thịt, gân, xương, tủy, thận; tim, gan, cơ hoành, lá lách, phổi. Rồi ruột, màng treo ruột, thức ăn chưa tiêu và phân.",
+            "Phần còn lại gồm mật, đờm, mủ, máu, mồ hôi, mỡ; nước mắt, chất nhờn, nước bọt, nước mũi, dịch khớp và nước tiểu. Danh sách giúp nhìn thân qua từng thành phần được kể trong chính bài."
+          ]
+        },
+        {
+          "id": "grains",
+          "kind": "teaching",
+          "heading": "Như mở một túi hạt",
+          "meaningUnits": [
+            "grain-bag"
+          ],
+          "paragraphs": [
+            "Một túi mở hai đầu chứa lúa sāli, lúa vīhi, đậu xanh, đậu māsa, mè và gạo đã xay. Người có mắt mở ra, xem và nhận từng loại. Sáu tên được giữ riêng; các tên cổ của lúa và đậu không bị nhập thành một mục.",
+            "Tương tự, vị tỳ-kheo xét thân từ chân đến tóc với các thành phần vừa kể. Kinh nhắc danh mục theo lối lược, trở lại điệp khúc quán thân và kết phần xem xét những thành phần không sạch."
+          ]
+        },
+        {
+          "id": "elements",
+          "kind": "teaching",
+          "heading": "Xét thân theo bốn yếu tố",
+          "meaningUnits": [
+            "elements"
+          ],
+          "paragraphs": [
+            "Dù thân ở tư thế, vị trí nào, vị ấy xét thân có yếu tố đất, nước, lửa và gió. Đây là bốn tên truyền thống của các yếu tố cấu thành thân.",
+            "Kinh ví người đồ tể lành nghề hoặc học trò đã giết bò, chia thành phần và ngồi ở ngã tư. Lời ví làm rõ cách xét theo phần. Bài kinh trở lại bốn yếu tố, nhắc điệp khúc lược và kết cách quán này."
+          ]
+        },
+        {
+          "id": "corpse-one",
+          "kind": "teaching",
+          "heading": "Cảnh tử thi thứ nhất",
+          "meaningUnits": [
+            "corpse-first"
+          ],
+          "paragraphs": [
+            "Giả sử vị tỳ-kheo thấy tử thi bỏ nơi nghĩa địa, đã chết một, hai hoặc ba ngày, trương phồng, tím tái và chảy mủ. Vị ấy so về thân mình: cũng có bản chất ấy, sẽ trở thành như vậy, không vượt khỏi tính chất ấy.",
+            "Điệp khúc quán thân được nhắc theo lối lược. Cách quán không dừng ở thân người đã chết mà quay về hiểu chính thân mình."
+          ]
+        },
+        {
+          "id": "corpse-two",
+          "kind": "teaching",
+          "heading": "Cảnh tử thi thứ hai",
+          "meaningUnits": [
+            "corpse-animals"
+          ],
+          "paragraphs": [
+            "Một cảnh khác là tử thi bị quạ, diều hâu, kền kền, cò, chó, hổ, báo, chó rừng hoặc các sinh vật nhỏ ăn. Cả các loài ấy có trong danh mục Pāli.",
+            "Vị ấy cũng so thân mình cùng bản chất, sẽ như vậy và không vượt khỏi; sau đó là điệp khúc lược cùng lời kết quán thân."
+          ]
+        },
+        {
+          "id": "corpse-three-six",
+          "kind": "teaching",
+          "heading": "Các cảnh xương còn nối và xương rời",
+          "meaningUnits": [
+            "skeletons"
+          ],
+          "paragraphs": [
+            "Cảnh thứ ba: bộ xương còn thịt và máu, gân nối liền. Thứ tư: không thịt nhưng vấy máu, vẫn có gân nối. Thứ năm: hết thịt và máu, các xương vẫn được gân nối.",
+            "Thứ sáu: xương đã rời, rải các hướng. Kinh kể xương tay, chân, mắt cá, ống chân, đùi, hông, sườn, sống, vai, cổ, hàm, răng và hộp sọ.",
+            "Vị ấy lại so chính thân mình với đủ ba vế cùng bản chất, sẽ như vậy, không vượt khỏi. Phần điệp khúc và câu kết được viết lược, không tạo một cách quán mới ngoài mạch đang nói."
+          ]
+        },
+        {
+          "id": "corpse-seven-nine",
+          "kind": "teaching",
+          "heading": "Ba cảnh cuối",
+          "meaningUnits": [
+            "bones-last"
+          ],
+          "paragraphs": [
+            "Thứ bảy là xương trắng như màu vỏ ốc. Thứ tám là xương chất đống qua hơn một năm. Thứ chín là xương đã mục, vỡ vụn thành bột.",
+            "Kinh trở lại chính thân người quán: thân này cũng có bản chất như thế, sẽ đi tới như thế và không vượt khỏi tính chất ấy."
+          ]
+        },
+        {
+          "id": "fourteen-body",
+          "kind": "teaching",
+          "heading": "Kết chín cảnh và mười bốn quán thân",
+          "meaningUnits": [
+            "body-close"
+          ],
+          "paragraphs": [
+            "Điệp khúc được nói đầy đủ: quán thân trong, ngoài hoặc cả hai; quán tính sinh, diệt hoặc cả hai; niệm có thân vừa đủ cho hiểu biết và ghi nhận. Vị ấy không nương tựa, không chấp bất cứ gì ở đời.",
+            "Nhãn văn bản ghi chín cách quán tử thi kết thúc và mười bốn cách quán thân kết thúc. Như vậy phần thân gồm nhiều cách quán cụ thể, không chỉ riêng hơi thở."
+          ]
+        },
+        {
+          "id": "body-context",
+          "kind": "clarification",
+          "heading": "Giữ ngữ cảnh khi đọc về thân",
+          "meaningUnits": [
+            "body-parts",
+            "elements",
+            "corpse-first",
+            "corpse-animals",
+            "skeletons",
+            "bones-last"
+          ],
+          "paragraphs": [
+            "Các đoạn trên đang thuật phép quán được giảng cho tỳ-kheo. Người đọc có thể tiếp nhận từ tốn, nhận ra tính cấu thành và biến đổi của thân. Ví đồ tể không phải điều cần làm theo; các hình ảnh tử thi không được biến thành yêu cầu bỏ việc chăm sóc.",
+            "Những lời làm rõ này thuộc biên tập. Chúng giữ việc đọc đi cùng sự tôn trọng người sống, người đã mất và khả năng lựa chọn cách học của mỗi người, không mặc định người lớn tuổi đang bệnh hoặc gần chết."
+          ]
+        },
+        {
+          "id": "feelings",
+          "kind": "teaching",
+          "heading": "Ba loại cảm thọ và sáu phân biệt thêm",
+          "meaningUnits": [
+            "feelings"
+          ],
+          "paragraphs": [
+            "Khi cảm thọ lạc, vị ấy biết là lạc; khi khổ, biết là khổ; khi không khổ không lạc, biết đúng loại ấy. Đây là ba trường hợp đầu.",
+            "Sau đó là lạc thuộc thế tục và lạc không thuộc thế tục; khổ thuộc thế tục và khổ không thuộc thế tục; thọ không khổ không lạc thuộc thế tục và loại không thuộc thế tục. Tất cả thành chín trường hợp. Cặp sau được giữ như một phân biệt riêng, không giản lược thành thân đối với tâm."
+          ]
+        },
+        {
+          "id": "feeling-way",
+          "kind": "teaching",
+          "heading": "Cách quán đối với thọ",
+          "meaningUnits": [
+            "feeling-refrain"
+          ],
+          "paragraphs": [
+            "Vị ấy quán thọ trong, ngoài hoặc cả hai; quán sinh, diệt hoặc cả hai. Niệm có thọ vừa đủ cho hiểu biết và ghi nhận. Vị ấy sống không nương tựa, không chấp gì ở đời. Phần quán thọ kết thúc."
+          ]
+        },
+        {
+          "id": "mind-states",
+          "kind": "teaching",
+          "heading": "Nhìn đúng trạng thái của tâm",
+          "meaningUnits": [
+            "mind-states"
+          ],
+          "paragraphs": [
+            "Tâm có tham hoặc không tham, có sân hoặc không sân, có si hoặc không si đều được biết đúng. Tham là ham giữ lấy; sân là chống đối, giận hờn; si là không thấy rõ.",
+            "Vị ấy biết tâm co hẹp hoặc tán loạn; rộng lớn hoặc không rộng lớn; còn có mức cao hơn hoặc không còn mức cao hơn; có định hoặc không định; giải thoát hoặc chưa giải thoát. Định là sự ổn định, tập trung của tâm. Danh mục giữ mười sáu trạng thái, không bỏ những trạng thái mình không muốn nhận."
+          ]
+        },
+        {
+          "id": "mind-way",
+          "kind": "teaching",
+          "heading": "Cách quán đối với tâm",
+          "meaningUnits": [
+            "mind-refrain"
+          ],
+          "paragraphs": [
+            "Với tâm cũng có quán trong, ngoài hoặc cả hai; sinh, diệt hoặc cả hai. Hoặc niệm được đặt rằng có tâm, đủ cho biết và ghi nhận. Không nương tựa, không chấp gì ở đời đi cùng việc quán. Nhãn kết phần tâm đặt ở đây."
+          ]
+        },
+        {
+          "id": "five-hindrances",
+          "kind": "teaching",
+          "heading": "Những điều che lấp",
+          "meaningUnits": [
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Quán pháp trước hết xét năm triền cái: dục tham; sân hận; hôn trầm và buồn ngủ; xao động và hối tiếc; nghi hoặc. Triền cái có thể hiểu là điều che lấp; hôn trầm là sự uể oải của tâm.",
+            "Đối với từng điều, vị tỳ-kheo biết trong mình có hay không. Vị ấy hiểu cách nó sinh khi chưa sinh, cách đã sinh được bỏ, và cách đã bỏ thì không sinh lại trong tương lai. Cả hiện trạng lẫn các mặt chuyển biến đều được biết."
+          ]
+        },
+        {
+          "id": "dhamma-way",
+          "kind": "teaching",
+          "heading": "Điệp khúc quán pháp",
+          "meaningUnits": [
+            "dhamma-refrain"
+          ],
+          "paragraphs": [
+            "Kinh nói quán pháp trong, ngoài hoặc cả hai; quán tính sinh, tính diệt hoặc cả hai. Niệm có pháp vừa đủ cho hiểu biết và ghi nhận. Vị ấy sống không nương tựa và không chấp thủ bất cứ gì ở đời. Đó là quán pháp đối với năm triền cái."
+          ]
+        },
+        {
+          "id": "aggregates",
+          "kind": "teaching",
+          "heading": "Nhìn từng thủ uẩn",
+          "meaningUnits": [
+            "aggregates"
+          ],
+          "paragraphs": [
+            "Năm thủ uẩn gồm sắc, thọ, tưởng, hành và thức, gắn với sự chấp thủ. Có thể mở nghĩa là phần vật chất, cảm thọ, sự nhận ra, các hoạt động tạo tác và sự biết đối tượng.",
+            "Với mỗi nhóm, biết đây là nhóm ấy, đây là sự sinh khởi, đây là sự biến mất. Sắc được quán như vậy; thọ, tưởng, hành, thức cũng đều được quán riêng như vậy.",
+            "Điệp khúc quán pháp vẫn đủ trong, ngoài hoặc cả hai; sinh, diệt hoặc cả hai; có pháp đủ cho biết và niệm; không nương tựa, không chấp gì ở đời. Phần năm thủ uẩn kết thúc."
+          ]
+        },
+        {
+          "id": "sense-pairs",
+          "kind": "teaching",
+          "heading": "Sáu cặp nội xứ và ngoại xứ",
+          "meaningUnits": [
+            "sense-fields"
+          ],
+          "paragraphs": [
+            "Sáu cặp là mắt với hình sắc, tai với tiếng, mũi với mùi, lưỡi với vị, thân với xúc chạm, ý với pháp được ý nhận biết. Vị ấy hiểu từng phía và kiết sử nào phát sinh do duyên cả hai. Kiết sử là sự ràng buộc.",
+            "Với kiết sử ở từng cặp, biết cách chưa sinh được sinh, đã sinh được bỏ, đã bỏ thì không sinh lại. Sau cả sáu cặp, kinh nhắc đủ quán pháp trong/ngoài/cả hai, sinh/diệt/cả hai, có pháp đủ biết và niệm, cùng không nương, không chấp."
+          ]
+        },
+        {
+          "id": "seven-factors",
+          "kind": "teaching",
+          "heading": "Nuôi đủ bảy giác chi",
+          "meaningUnits": [
+            "awakening-factors"
+          ],
+          "paragraphs": [
+            "Bảy giác chi là niệm, trạch pháp, tinh tấn, hỷ, khinh an, định và xả. Niệm ghi nhận; trạch pháp tìm hiểu, phân biệt pháp; tinh tấn nỗ lực; hỷ là vui mừng; khinh an là lắng dịu; định là tập trung; xả là quân bình.",
+            "Với từng yếu tố, vị ấy biết có hay không; biết cách chưa sinh được sinh; biết cách đã sinh được tu tập đến đầy đủ. Phần này có hướng phát triển các yếu tố giác ngộ.",
+            "Điệp khúc vẫn giữ trong, ngoài hoặc cả hai; sinh, diệt hoặc cả hai; biết có pháp đủ cho hiểu biết và niệm; không nương, không chấp gì ở đời. Phần bảy giác chi kết thúc."
+          ]
+        },
+        {
+          "id": "four-truths",
+          "kind": "teaching",
+          "heading": "Biết đúng như thật bốn Thánh đế",
+          "meaningUnits": [
+            "four-truths"
+          ],
+          "paragraphs": [
+            "Vị tỳ-kheo biết như thật đây là khổ, đây là nguồn gốc của khổ, đây là sự chấm dứt khổ, đây là con đường thực hành đưa tới chấm dứt khổ. Đây là quán pháp nơi bốn Thánh đế.",
+            "Nhãn của bản kinh ghi phần tụng thứ nhất kết thúc. Những đoạn tiếp theo giải nghĩa riêng từng đế."
+          ]
+        },
+        {
+          "id": "suffering-list",
+          "kind": "teaching",
+          "heading": "Danh mục mở đầu Khổ đế",
+          "meaningUnits": [
+            "suffering-list"
+          ],
+          "paragraphs": [
+            "Sinh là khổ, già là khổ, chết là khổ. Sầu, bi, khổ, ưu, não là khổ. Gặp điều không ưa, xa điều thương, mong cầu mà không được cũng được nêu. Kinh kết gọn: năm thủ uẩn là khổ."
+          ]
+        },
+        {
+          "id": "birth-aging",
+          "kind": "teaching",
+          "heading": "Sinh và già",
+          "meaningUnits": [
+            "birth-age-death"
+          ],
+          "paragraphs": [
+            "Đối với chúng sinh trong từng loài, sinh gồm sự sinh ra, đi vào, xuất hiện; các uẩn hiện khởi và có được các xứ. Đó là cách kinh diễn tả sự hình thành đời sống.",
+            "Già gồm sự suy lão, răng rụng, tóc bạc, da nhăn, tuổi thọ giảm và các căn suy yếu. Chết gồm lìa đời, tan rã, biến mất, mạng chung; các uẩn tan, bỏ lại thân xác và mạng căn, tức khả năng duy trì sự sống, bị cắt đứt."
+          ]
+        },
+        {
+          "id": "grief",
+          "kind": "teaching",
+          "heading": "Sầu, bi và não trong cảnh gặp khổ",
+          "meaningUnits": [
+            "five-pains"
+          ],
+          "paragraphs": [
+            "Sầu là nỗi buồn bên trong, thấm sâu nơi người gặp tai họa hoặc điều khổ. Bi là sự than khóc trong cảnh ấy. Não là sự bức bách, quẫn bách nơi người bị tai họa hoặc khổ chạm đến.",
+            "Khổ ở định nghĩa riêng là đau và khó chịu thuộc thân, sinh do xúc thân. Ưu là đau và khó chịu thuộc tâm, sinh do xúc ý. Các tên không hoàn toàn đồng nghĩa, nên được giữ riêng khi đọc."
+          ]
+        },
+        {
+          "id": "unwanted",
+          "kind": "teaching",
+          "heading": "Sự gặp gỡ không mong muốn",
+          "meaningUnits": [
+            "unwanted"
+          ],
+          "paragraphs": [
+            "Gặp điều không ưa gồm gặp sắc, tiếng, mùi, vị, xúc chạm, pháp không đáng muốn và không dễ chịu. Cũng gồm gặp người muốn điều bất lợi, tổn hại, làm khó chịu hoặc mất an ổn cho mình.",
+            "Kinh nói tới sự gặp gỡ, hội họp, kết hợp, chung đụng với những điều ấy hoặc người ấy. Đó là ý của gặp điều không ưa là khổ."
+          ]
+        },
+        {
+          "id": "separation",
+          "kind": "teaching",
+          "heading": "Sự chia lìa điều quý mến",
+          "meaningUnits": [
+            "separation"
+          ],
+          "paragraphs": [
+            "Sắc, tiếng, mùi, vị, xúc chạm và pháp cũng có thể đáng yêu, dễ chịu. Người muốn mình có lợi ích, an lành, an vui, an ổn được kể là mẹ, cha, anh em, chị em, bạn bè, đồng liêu và bà con huyết thống.",
+            "Không gặp gỡ, không hội họp, không kết hợp, không chung đụng với các đối tượng hoặc người quý mến ấy là điều kinh gọi xa điều thương là khổ."
+          ]
+        },
+        {
+          "id": "wishing",
+          "kind": "teaching",
+          "heading": "Những mong ước không thành bằng riêng mong ước",
+          "meaningUnits": [
+            "wishing",
+            "suffering-aggregates"
+          ],
+          "paragraphs": [
+            "Chúng sinh chịu sinh ước không còn phải chịu sinh và mong sự sinh đừng đến. Cùng hai mong ước ấy được nói về già, bệnh, chết, rồi sầu, bi, khổ, ưu, não.",
+            "Với cả năm nhóm, kinh nói điều mong không thể đạt chỉ bằng mong. Đó là cầu không được là khổ. Phần khép lại nhắc đủ sắc thủ uẩn, thọ thủ uẩn, tưởng thủ uẩn, hành thủ uẩn và thức thủ uẩn: năm thủ uẩn là khổ."
+          ]
+        },
+        {
+          "id": "craving",
+          "kind": "teaching",
+          "heading": "Khát ái và chỗ nó bám lại",
+          "meaningUnits": [
+            "craving"
+          ],
+          "paragraphs": [
+            "Nguồn gốc khổ được giảng là ái dẫn đến tái sinh, đi cùng hỷ và tham, tìm vui ở chỗ này chỗ kia. Có dục ái, ham dục lạc; hữu ái, ham hiện hữu; phi hữu ái, ham không hiện hữu.",
+            "Ái sinh và an trú tại những gì trong đời đáng yêu, dễ chịu. Kinh triển khai bằng mười nhóm, mỗi nhóm có sáu mục. Có thể đọc từng nhóm rồi tiếp tục."
+          ]
+        },
+        {
+          "id": "origin-one",
+          "kind": "teaching",
+          "heading": "Nơi ái sinh: căn và cảnh",
+          "meaningUnits": [
+            "arising-bases"
+          ],
+          "paragraphs": [
+            "Mắt, tai, mũi, lưỡi, thân, ý là sáu mục đầu. Hình sắc, tiếng, mùi, vị, xúc chạm, pháp là sáu mục tiếp. Tại mỗi mục được nêu đáng yêu, dễ chịu ấy, ái sinh khởi và an trú, tức bám lại."
+          ]
+        },
+        {
+          "id": "origin-two",
+          "kind": "teaching",
+          "heading": "Nơi ái sinh: thức và xúc",
+          "meaningUnits": [
+            "arising-conscious-contact"
+          ],
+          "paragraphs": [
+            "Tiếp theo là thức mắt, tai, mũi, lưỡi, thân và ý: sáu loại biết. Sau đó là xúc mắt, tai, mũi, lưỡi, thân và ý. Mỗi mục đều được nêu đáng yêu, dễ chịu; ái sinh và an trú tại đó."
+          ]
+        },
+        {
+          "id": "origin-three",
+          "kind": "teaching",
+          "heading": "Nơi ái sinh: thọ và tưởng",
+          "meaningUnits": [
+            "arising-feeling-perception"
+          ],
+          "paragraphs": [
+            "Thọ sinh từ xúc mắt, tai, mũi, lưỡi, thân, ý tạo thành một nhóm. Tưởng về sắc, tiếng, mùi, vị, xúc chạm, pháp tạo thành nhóm kế. Tưởng là sự nhận ra. Từng thọ và từng tưởng ấy đều được nói đáng yêu, dễ chịu, là nơi ái sinh và bám lại."
+          ]
+        },
+        {
+          "id": "origin-four",
+          "kind": "teaching",
+          "heading": "Nơi ái sinh: tư và ái",
+          "meaningUnits": [
+            "arising-intention-craving"
+          ],
+          "paragraphs": [
+            "Tư, tức ý định, đối với sắc, tiếng, mùi, vị, xúc chạm, pháp là nhóm thứ bảy. Ái đối với sắc, tiếng, mùi, vị, xúc chạm, pháp là nhóm thứ tám. Từng mục được nêu đáng yêu, dễ chịu và là nơi ái sinh, an trú."
+          ]
+        },
+        {
+          "id": "origin-five",
+          "kind": "teaching",
+          "heading": "Nơi ái sinh: tầm và tứ",
+          "meaningUnits": [
+            "arising-thought"
+          ],
+          "paragraphs": [
+            "Tầm về sắc, tiếng, mùi, vị, xúc chạm, pháp là một nhóm; tứ về cùng sáu loại ấy là nhóm cuối. Có thể hiểu tầm trong đoạn này là hướng nghĩ đến, tứ là tiếp tục xem xét.",
+            "Mỗi mục đáng yêu, dễ chịu vẫn có cùng lời xác định: ái sinh và an trú tại đó. Mười nhóm, sáu mươi mục khép phần nguồn gốc khổ."
+          ]
+        },
+        {
+          "id": "cessation",
+          "kind": "teaching",
+          "heading": "Chấm dứt chính ái ấy",
+          "meaningUnits": [
+            "cessation"
+          ],
+          "paragraphs": [
+            "Thánh đế về diệt nói chính ái ấy được ly tham, đoạn diệt hoàn toàn không dư sót; được từ bỏ, buông ra, giải thoát khỏi và không còn bám víu. Nơi ái được bỏ và diệt cũng là các điều đáng yêu, dễ chịu trong đời.",
+            "Lần liệt kê tiếp theo vẫn đủ các nhóm trước, nhưng điều được nói nay là sự từ bỏ và chấm dứt ái. Căn, cảnh và sự biết không bị biến thành thứ phải phá hủy."
+          ]
+        },
+        {
+          "id": "cease-one",
+          "kind": "teaching",
+          "heading": "Nơi ái diệt: căn và cảnh",
+          "meaningUnits": [
+            "ceasing-bases"
+          ],
+          "paragraphs": [
+            "Mắt, tai, mũi, lưỡi, thân, ý; sắc, tiếng, mùi, vị, xúc chạm, pháp đều được nêu lại. Tại từng mục được nói là đáng yêu, dễ chịu, ái được từ bỏ và đoạn diệt."
+          ]
+        },
+        {
+          "id": "cease-two",
+          "kind": "teaching",
+          "heading": "Nơi ái diệt: thức và xúc",
+          "meaningUnits": [
+            "ceasing-conscious-contact"
+          ],
+          "paragraphs": [
+            "Với thức mắt, tai, mũi, lưỡi, thân, ý; với xúc mắt, tai, mũi, lưỡi, thân, ý, lời xác định cũng là ái được bỏ và diệt tại đó. Từng loại thức, kể cả thức thân, và từng loại xúc đều có mặt."
+          ]
+        },
+        {
+          "id": "cease-three",
+          "kind": "teaching",
+          "heading": "Nơi ái diệt: thọ và tưởng",
+          "meaningUnits": [
+            "ceasing-feeling-perception"
+          ],
+          "paragraphs": [
+            "Thọ sinh từ xúc mắt, tai, mũi, lưỡi, thân, ý; tưởng về sắc, tiếng, mùi, vị, xúc chạm, pháp tiếp tục được nêu. Mỗi mục đáng yêu, dễ chịu là nơi ái được bỏ và chấm dứt."
+          ]
+        },
+        {
+          "id": "cease-four",
+          "kind": "teaching",
+          "heading": "Nơi ái diệt: tư và ái",
+          "meaningUnits": [
+            "ceasing-intention-craving"
+          ],
+          "paragraphs": [
+            "Tư đối với sắc, tiếng, mùi, vị, xúc chạm, pháp; ái đối với sắc, tiếng, mùi, vị, xúc chạm, pháp cũng được quán đủ. Tại từng mục ấy, ái được từ bỏ và đoạn diệt."
+          ]
+        },
+        {
+          "id": "cease-five",
+          "kind": "teaching",
+          "heading": "Nơi ái diệt: tầm và tứ",
+          "meaningUnits": [
+            "ceasing-thought"
+          ],
+          "paragraphs": [
+            "Cuối cùng là tầm về sắc, tiếng, mùi, vị, xúc chạm, pháp; tứ về sắc, tiếng, mùi, vị, xúc chạm, pháp. Với mỗi mục đáng yêu, dễ chịu, ái được bỏ và diệt. Kinh kết phần diệt khổ sau đủ mười nhóm ấy."
+          ]
+        },
+        {
+          "id": "eightfold",
+          "kind": "teaching",
+          "heading": "Tám ngành của con đường",
+          "meaningUnits": [
+            "path"
+          ],
+          "paragraphs": [
+            "Con đường đưa đến chấm dứt khổ là Thánh đạo tám ngành: chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm và chánh định. Phần tiếp theo cho biết nội dung từng ngành."
+          ]
+        },
+        {
+          "id": "view-intention",
+          "kind": "teaching",
+          "heading": "Hiểu đúng và hướng nghĩ đúng",
+          "meaningUnits": [
+            "view-intention"
+          ],
+          "paragraphs": [
+            "Chánh kiến là trí biết khổ, nguồn gốc khổ, sự chấm dứt khổ và đường thực hành tới chấm dứt khổ. Chánh tư duy là tư duy xuất ly, không sân và không hại. Xuất ly hướng khỏi sự ham bám vào dục."
+          ]
+        },
+        {
+          "id": "speech-action",
+          "kind": "teaching",
+          "heading": "Những điều từ bỏ trong lời và hành vi",
+          "meaningUnits": [
+            "speech-action"
+          ],
+          "paragraphs": [
+            "Chánh ngữ bỏ nói dối, nói chia rẽ, nói thô ác và nói phù phiếm. Chánh nghiệp bỏ sát sinh, lấy của không cho và tà hạnh trong quan hệ tình dục. Mỗi danh mục có những điều riêng, cần giữ đủ khi đọc."
+          ]
+        },
+        {
+          "id": "livelihood",
+          "kind": "teaching",
+          "heading": "Nuôi sống bằng chánh mạng",
+          "meaningUnits": [
+            "livelihood"
+          ],
+          "paragraphs": [
+            "Chánh mạng được giảng ở vị Thánh đệ tử: từ bỏ tà mạng, sống bằng chánh mạng. Bài kinh tại đây dừng ở định nghĩa ấy, không nêu thêm danh sách nghề nghiệp."
+          ]
+        },
+        {
+          "id": "effort",
+          "kind": "teaching",
+          "heading": "Bốn việc của chánh tinh tấn",
+          "meaningUnits": [
+            "effort"
+          ],
+          "paragraphs": [
+            "Bốn việc là ngăn ác-bất thiện chưa sinh; bỏ ác-bất thiện đã sinh; làm sinh thiện chưa sinh; gìn giữ thiện đã sinh. Với thiện đã sinh còn làm cho không mất, không quên, tăng trưởng, rộng lớn, được tu tập và viên mãn.",
+            "Ở từng việc, vị ấy khởi ý muốn, nỗ lực, phát tinh tấn, nâng tâm và cố gắng. Ý muốn thực hiện việc thiện này cần giữ khác với khát ái đã nói ở phần nguồn gốc khổ."
+          ]
+        },
+        {
+          "id": "mindfulness",
+          "kind": "teaching",
+          "heading": "Chánh niệm được xác định lại",
+          "meaningUnits": [
+            "path-mindfulness"
+          ],
+          "paragraphs": [
+            "Chánh niệm là quán thân, thọ, tâm, pháp. Trong từng lĩnh vực, vị tỳ-kheo đều nhiệt tâm, tỉnh giác, có niệm, đã gạt tham và ưu đối với đời. Bốn niệm xứ vì vậy có chỗ rõ trong toàn bộ tám ngành đạo."
+          ]
+        },
+        {
+          "id": "jhana-one",
+          "kind": "teaching",
+          "heading": "Thiền thứ nhất",
+          "meaningUnits": [
+            "first-jhana"
+          ],
+          "paragraphs": [
+            "Chánh định được trình bày bằng bốn thiền. Vị ấy ly dục, lìa các pháp bất thiện, chứng và trú thiền thứ nhất, có tầm, tứ, hỷ và lạc do viễn ly sinh.",
+            "Trong đoạn thiền, tầm và tứ được mở nghĩa là đặt tâm vào và duy trì tâm với đối tượng. Hỷ là sự vui mừng, lạc là sự dễ chịu. Cần giữ hai tên ấy riêng."
+          ]
+        },
+        {
+          "id": "jhana-two",
+          "kind": "teaching",
+          "heading": "Thiền thứ hai",
+          "meaningUnits": [
+            "second-jhana"
+          ],
+          "paragraphs": [
+            "Khi tầm và tứ lắng, vị ấy chứng và trú thiền thứ hai. Nội tâm trong lắng, tâm hợp nhất, không tầm không tứ, có hỷ và lạc do định sinh. Điều kiện và nguồn hỷ lạc đã khác thiền đầu."
+          ]
+        },
+        {
+          "id": "jhana-three",
+          "kind": "teaching",
+          "heading": "Thiền thứ ba",
+          "meaningUnits": [
+            "third-jhana"
+          ],
+          "paragraphs": [
+            "Do hỷ phai, vị ấy trú xả, có niệm, tỉnh giác, cảm nhận lạc bằng thân. Kinh dẫn lời các bậc Thánh gọi đó là người có xả, có niệm, sống trong lạc. Vị ấy chứng và trú thiền thứ ba."
+          ]
+        },
+        {
+          "id": "jhana-four",
+          "kind": "teaching",
+          "heading": "Thiền thứ tư",
+          "meaningUnits": [
+            "fourth-jhana"
+          ],
+          "paragraphs": [
+            "Lạc và khổ được từ bỏ; vui và buồn nơi tâm đã chấm dứt từ trước. Vị ấy chứng và trú thiền thứ tư, không khổ không lạc, niệm thanh tịnh nhờ xả.",
+            "Đó là chánh định. Kinh cũng kết phần định nghĩa Thánh đế về đường thực hành dẫn tới chấm dứt khổ."
+          ]
+        },
+        {
+          "id": "end-truths",
+          "kind": "teaching",
+          "heading": "Quán pháp sau khi giải bốn đế",
+          "meaningUnits": [
+            "truth-refrain"
+          ],
+          "paragraphs": [
+            "Vị ấy quán pháp trong, ngoài hoặc cả hai; sinh, diệt hoặc cả hai. Niệm rằng có pháp vừa đủ cho biết và ghi nhận. Vị ấy không nương tựa, không chấp bất cứ gì ở đời.",
+            "Kinh gọi đó là quán pháp nơi bốn Thánh đế. Các nhãn ghi kết phần bốn đế và kết phần quán pháp."
+          ]
+        },
+        {
+          "id": "years",
+          "kind": "teaching",
+          "heading": "Từ bảy năm đến một năm",
+          "meaningUnits": [
+            "seven-years",
+            "years"
+          ],
+          "paragraphs": [
+            "Đức Phật nói ai tu bốn niệm xứ như cách này trong bảy năm có thể mong một trong hai kết quả: chánh trí ngay đời hiện tại, hoặc nếu còn dư y thì Bất lai. Chánh trí là sự biết giải thoát; Bất lai còn gọi Bất hoàn, nghĩa là không trở lại. Dư y là phần còn sót được nêu trong điều kiện thứ hai.",
+            "Rồi kinh nói không cần đến bảy năm, lần lượt nêu sáu, năm, bốn, ba, hai và một năm. Cùng việc tu bốn niệm xứ như vậy và cùng hai kết quả được giữ trong phần lặp."
+          ]
+        },
+        {
+          "id": "months",
+          "kind": "teaching",
+          "heading": "Từ bảy tháng đến nửa tháng",
+          "meaningUnits": [
+            "seven-months",
+            "months-week"
+          ],
+          "paragraphs": [
+            "Không cần một năm, kinh nêu bảy tháng với chánh trí đời này hoặc, nếu còn dư y, Bất lai. Không cần bảy tháng, các mốc sáu, năm, bốn, ba, hai, một tháng và nửa tháng tiếp tục được nêu.",
+            "Sau đó, không cần nửa tháng: bảy ngày tu bốn niệm xứ như vậy có thể mong một trong hai kết quả ấy. Cụm như vậy nối các mốc với toàn cách tu đã giảng, không chỉ với một lúc ngồi yên."
+          ]
+        },
+        {
+          "id": "closing",
+          "kind": "teaching",
+          "heading": "Lý do của lời dạy ban đầu",
+          "meaningUnits": [
+            "closing"
+          ],
+          "paragraphs": [
+            "Đức Phật trở lại năm mục tiêu: thanh tịnh chúng sinh, vượt sầu-bi, chấm dứt khổ-ưu, đạt đường chân chánh, chứng ngộ Niết-bàn. Bốn niệm xứ là con đường trực tiếp được nói với những mục tiêu ấy; phần triển khai chính là lý do Ngài nói như vậy.",
+            "Các tỳ-kheo hoan hỷ, tán đồng sau lời dạy. Nhãn cuối gọi Đại Niệm Xứ là bài thứ chín trong phần này, còn mã toàn bộ vẫn là DN22."
+          ]
+        },
+        {
+          "id": "careful-words",
+          "kind": "clarification",
+          "heading": "Một số chỗ đọc cẩn thận",
+          "meaningUnits": [
+            "aim",
+            "breath-training",
+            "body-refrain",
+            "grain-bag",
+            "mind-states",
+            "feelings",
+            "unwanted",
+            "separation",
+            "ceasing-conscious-contact",
+            "months-week"
+          ],
+          "paragraphs": [
+            "Con đường trực tiếp là lựa chọn theo Việt dự án; HTML Minh Châu dùng độc nhất, bản Anh Sujato dùng cách nói quy tụ. Dài/ngắn của hơi thở được giữ theo Pāli; tâm co hẹp được giữ riêng với tâm có định. Cặp thọ thuộc/không thuộc thế tục cũng không được đổi đơn giản thành thân/tâm.",
+            "Điệp khúc nói vừa đủ cho hiểu biết và niệm, không chỉ hy vọng đạt một điều về sau. Sống không nương tựa được đọc cùng không chấp thủ; người đọc vẫn có quyền nhờ hỗ trợ. Sáu loại hạt được giữ riêng, và các định nghĩa gặp/lìa, mục thức thân được giữ theo Pāli dù có chỗ thiếu trong HTML.",
+            "Các mốc thời gian thuộc điều kiện tu bốn niệm xứ như kinh đã triển khai. Gợi ý đời sống dưới đây không tự có cùng mức đầy đủ hoặc được hứa cùng quả chứng."
+          ]
+        },
+        {
+          "id": "experience-example",
+          "kind": "example",
+          "heading": "Khi chia sẻ một việc đã quen tự làm",
+          "meaningUnits": [
+            "feelings",
+            "mind-states",
+            "arising-intention-craving",
+            "cessation",
+            "effort"
+          ],
+          "paragraphs": [
+            "Ví dụ biên tập: một người đã lâu tự lo việc chung nay chia sẻ việc ấy với người khác. Họ nhận ra cảm giác vui vì được giúp, rồi nhận ra tâm muốn mọi chi tiết vẫn phải theo ý mình. Có thể phân biệt cảm thọ, ý định và sự ham giữ quyền quyết định, rồi trao đổi một việc cụ thể cho rõ.",
+            "Ví dụ này không mặc định tuổi tác làm giảm khả năng. Nó chỉ gợi cách nhận biết và xem lại sự bám giữ trong một tình huống; chưa thể gọi một lần trao đổi thuận lợi là diệt ái hoặc giải thoát."
+          ]
+        },
+        {
+          "id": "reflection",
+          "kind": "practice",
+          "heading": "Một cách đọc theo từng lượt",
+          "meaningUnits": [
+            "postures",
+            "feelings",
+            "mind-states",
+            "hindrances",
+            "awakening-factors",
+            "effort"
+          ],
+          "paragraphs": [
+            "Có thể đọc một phần rồi dừng, nhận ra tư thế hiện tại, một cảm thọ và trạng thái tâm đang có. Khi chưa rõ, giữ câu hỏi để trao đổi với người có hiểu biết. Việc nhận đúng có và không giúp tránh vội nhận mình đã đạt điều kinh mô tả.",
+            "Với một điều bất thiện, suy xét cách nó sinh, cách bỏ và điều kiện không trở lại. Với một điều thiện, suy xét cách khơi lên và nuôi lớn. Chọn một việc phù hợp sức mình để thực hiện, đồng thời giữ mục tiêu tu tập rộng hơn của toàn bài."
+          ]
+        }
+      ]
+    }
+  }
+}
