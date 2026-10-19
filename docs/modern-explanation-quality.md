@@ -139,3 +139,4 @@ Theo dõi bằng nội dung và lịch sử đánh giá trong kho cùng PR đã 
 - [Đánh giá bản dịch và tóm tắt hiện có](quality-assessments.md)
 - [Nguồn được khóa](../source/suttacentral.lock.json)
 - [Khai báo công cụ](../source/tooling.yaml)
+- [Báo cáo lô 15 — MN141–MN150](modern-explanations/batch-15-mn141-mn150.md)
