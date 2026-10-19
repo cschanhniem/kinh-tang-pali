@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn50",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "b2b478e0-d060-44fd-a5ba-3afa07f88f2f"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "9bd50811-efef-4b75-b49c-80cff8dac888"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "73bbe2c2-8f95-460b-9441-a342cbcafdb3"
+    }
+  },
+  "reviews": [
+    {
+      "id": "b2b478e0-d060-44fd-a5ba-3afa07f88f2f",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.7,
+        "logic_context": 9.6,
+        "terminology": 9.3,
+        "audience_fit": 9.2,
+        "clarity": 9.4,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Giữ ngạch cửa, phần lớn người chết ở cả hai thời, cọc chạm nhau báo đã một ngàn năm, mười ngàn năm ở phần phụ và một trăm cọc sắt; không theo các chỗ HTML lệch số hoặc địa điểm.",
+        "semantic_fidelity": "Sañjīva bị tưởng đã chết, không thật chết rồi hồi sinh; hai kế tìm kẽ hở được phân biệt với thiện ý cúng dường, và lửa không trở thành ý Phật muốn trả thù.",
+        "core_coverage": "Đủ 51 ý/239 khóa: bốn lời quấy nhiễu, bốn phép ví con vật, bốn tâm với toàn phạm vi, bốn phép quán, bảy đoạn kệ cùng điệp khúc và cả hai kệ mục lục cuối.",
+        "logic_context": "Đặt rõ Mahāmoggallāna là người kể tiền thân Dūsī, Kakusandha là Phật trong chuyện trước; giữ nghĩ rồi làm trong từng kế và câu hỏi giải thoát do ái tận giữa các cảnh thần thông.",
+        "terminology": "Mở nghĩa tỳ-kheo, kinh hành, thọ, tưởng, từ bi hỷ xả, ái và các hành; sau sửa nơi đến/nơi đi đã rõ vòng tái sinh. Một số tên cổ, nhất là ba tên địa ngục, vẫn còn khó với trẻ.",
+        "audience_fit": "Cảnh ngắn và ví làm bài nhóm giúp trẻ theo hai kiểu kéo tâm lệch; lời nhắc không làm theo việc đốt người rõ. Nhiều tên riêng và phần khổ cảnh vẫn có độ nặng của chính bài kinh.",
+        "clarity": "Đánh số bằng lời từng đoạn kệ, tách hai lâu đài và giải thích điệp khúc một lần rồi gắn đủ bảy cảnh giúp theo dõi; phần kể quá khứ và thuật ngữ vẫn cần đọc chậm.",
+        "editorial_separation": "Ví bài nhóm và gợi ý ứng xử có nhãn riêng; chi tiết thần thông, địa ngục và tái sinh vẫn được thuật là nội dung kinh, không hóa thành chuyện hiện đại để thay nguyên ý.",
+        "practical_integrity": "Khuyên chọn lời không làm đau, không nhận việc xấu vì được tâng bốc, tìm người lớn đáng tin khi bị đe dọa; không biến sự nhẫn của Vidhura thành yêu cầu trẻ chịu đánh.",
+        "technical_integrity": "Map phủ đủ 239 khóa, các mục liên kết được với ý nguồn; đã đọc lại sáu mục sửa và hai summary, audit cuối sạch và năm hash nguồn khớp checkpoint độc lập."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root/writer_a đối với bản của /root/writer_c: đã đọc đủ năm nguồn thật, toàn map và ba bản; đọc lại trọn sáu mục cùng hai summary sau sửa. Không có kiểm nghiệm người đọc thật hoặc xác nhận của chuyên gia Pāli bên ngoài.",
+      "contentHash": "6f26dcea928de7ce80241257e0660237cc711999bbf86e67f10b2e2ce24b171e",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn50.html",
+          "sha256": "71b6cf3daac8f8eae8144e2fb528f8c3bfc9795d5c635b6d443301ccdc14480f"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
+          "sha256": "809de380fa0572949079916773431260181ffac18b9bceaf9cdfed7b8ec3cc22"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json",
+          "sha256": "3063124cdaded2be7311872489023059b62a509a068457f40c5d5906ccffa8b0"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn50_comment-vi-project.json",
+          "sha256": "22ae6b42e7a31fc5bf34a965938e3b29c1e8b94be0cb6ecdf22a746b2e1d6c23"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn50_translation-vi-project.json",
+          "sha256": "27dbc27e82df90d73989d1c941905601f29a61c0dd573b9b11e306083d30f2a7"
+        }
+      ]
+    },
+    {
+      "id": "9bd50811-efef-4b75-b49c-80cff8dac888",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.7,
+        "logic_context": 9.6,
+        "terminology": 9.4,
+        "audience_fit": 9.5,
+        "clarity": 9.5,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Giữ lâu đài giữa hồ tồn tại một kiếp, mẹ Migāra khác Vejayanta, ngón chân cái, Tăng chúng chứng kiến và ánh sáng vượt cõi Phạm thiên; nguồn kệ được ưu tiên đúng trước các sai khác HTML.",
+        "semantic_fidelity": "Chứng diệt thọ tưởng không bị đồng nhất cái chết; sự kính trọng có quả lành vẫn được giữ dù Māra định lợi dụng, còn hai cách tu hướng tới không bị chi phối và giải thoát.",
+        "core_coverage": "Có toàn 51 đơn vị, cả lời Māra nghĩ và bị biết, quan hệ Dūsī–Kāḷī, ba nơi tu, toàn bốn tâm và bốn quán, ba tên địa ngục, hai thời lượng và đủ bảy lời cảnh tỉnh.",
+        "logic_context": "Mưu kế và cách đáp được đặt thành hai cặp rõ; kết quả tái sinh không bị chuyển thành kết quả tâm lý hiện tại. Phần kệ giải hình ảnh tự chuốc quả, không dựng thêm Phật trừng phạt.",
+        "terminology": "Tác ý như lý, thọ/tưởng, các hành, bất tịnh và ái tận đều có lời giải trong mạch; đường tái sinh đã được mở nghĩa. Vuṭṭhānima được giữ tên thay khẳng định một nghĩa còn bất định.",
+        "audience_fit": "Ví người dùng công kích rồi lợi ích để ép bỏ nguyên tắc hợp trách nhiệm của người trưởng thành; câu hỏi thực hành về trả đũa, được chấp thuận và giữ lợi ích tạo điểm tự xét cụ thể.",
+        "clarity": "Mười chín mục theo thứ tự kể và hai cách đáp giúp định hướng; sáu chuyện sau điệp khúc đầu có chỉ dẫn số đoạn nên không lẫn hai lâu đài hoặc hai cuộc hỏi đáp.",
+        "editorial_separation": "Liên hệ áp lực trong đời sống được đánh dấu hiện đại, không tự gán các sự kiện cổ thành ẩn dụ duy nhất; thuật ngữ và những chỗ khác nguồn được xử lý trong lời kể, không chèn nhật ký đối chiếu.",
+        "practical_integrity": "Tập dừng trước khen chê, xét trách nhiệm và giữ thiện chí; giới hạn an toàn đi cùng không thù hận. Không khuyên quán thức ăn để bỏ ăn hay dùng thiền chứng làm phép thử thân thể.",
+        "technical_integrity": "Dấu vân tay đúng bản đã đọc lại sau sửa; audit nội dung và provenance đều sạch, toàn nguồn trùng năm tệp đã đọc. Hồ sơ này không nhận đã kiểm bản HTML dựng của cả lô."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root/writer_a đối với bản của /root/writer_c: đã đọc đủ năm nguồn thật, toàn map và ba bản; đọc lại trọn sáu mục cùng hai summary sau sửa. Không có kiểm nghiệm người đọc thật hoặc xác nhận của chuyên gia Pāli bên ngoài.",
+      "contentHash": "ff0e76cb70b64f2b0cb3df6895bfb0320a13afe12a12a2e576704f309b6b54d8",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn50.html",
+          "sha256": "71b6cf3daac8f8eae8144e2fb528f8c3bfc9795d5c635b6d443301ccdc14480f"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
+          "sha256": "809de380fa0572949079916773431260181ffac18b9bceaf9cdfed7b8ec3cc22"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json",
+          "sha256": "3063124cdaded2be7311872489023059b62a509a068457f40c5d5906ccffa8b0"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn50_comment-vi-project.json",
+          "sha256": "22ae6b42e7a31fc5bf34a965938e3b29c1e8b94be0cb6ecdf22a746b2e1d6c23"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn50_translation-vi-project.json",
+          "sha256": "27dbc27e82df90d73989d1c941905601f29a61c0dd573b9b11e306083d30f2a7"
+        }
+      ]
+    },
+    {
+      "id": "73bbe2c2-8f95-460b-9441-a342cbcafdb3",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.7,
+        "logic_context": 9.6,
+        "terminology": 9.4,
+        "audience_fit": 9.5,
+        "clarity": 9.6,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Các phủ định, phần lớn thay mọi người, hai kế và các lượng địa ngục đều giữ; cảnh hồ một kiếp, hai cung riêng, Sakka và Phạm thiên cũng theo đúng bản Pāli/Việt đã đối chiếu.",
+        "semantic_fidelity": "Lời kể không cho Sañjīva chết thật, không xem việc kính trọng tự nó là xấu, không biến cảnh lửa thành trả thù; đường tái sinh và mục tiêu ái tận được giữ rõ sau lời mở nghĩa.",
+        "core_coverage": "Đủ các ý nguồn, kể cả bốn hình ảnh nhục mạ, bốn tâm lan toàn thế giới, bốn quán tại ba chỗ, sự đau riêng của từng cọc, bảy đoạn và hai kệ ghi nhớ cuối bản.",
+        "logic_context": "Tách hiện tại ở Bhesakaḷā, tiền thân Dūsī và các cảnh trong kệ; giữ đúng Mahāmoggallāna cảnh cáo rồi Māra buồn biến mất, không thêm Phật hoặc hội chúng hoan hỷ ở cuối.",
+        "terminology": "Thọ/tưởng, kinh hành, ái/đoạn tận, các hành và bất tịnh có giải ngắn; tên đau và các chữ khó trong mục lục được giữ nguyên mức biết, không tự tạo nghĩa hoặc gán một bài chắc chắn.",
+        "audience_fit": "Hai mươi ba mục ngắn và ví nhận việc trong buổi sinh hoạt chung giữ sự tự chủ, không gắn tuổi cao với yếu kém; gợi ý chậm trả lời trước trọng vọng hoặc chống đối gần trải nghiệm đời sống.",
+        "clarity": "Các mục ra cửa, bốn con vật, hai lâu đài, hỏi Sakka và hỏi Phạm thiên tách riêng; điệp khúc trình bày một lần đủ điều kiện rồi chỉ rõ tái xuất giúp đọc nối tiếp dễ hơn.",
+        "editorial_separation": "Ví sinh hoạt chung có nhãn và giới hạn liên hệ; lời kể địa ngục, cõi trời và thần thông không bị lẫn với chỉ dẫn thực hành thường ngày hoặc suy diễn về người đọc.",
+        "practical_integrity": "Giữ lòng từ đi cùng xét đúng sai và đặt giới hạn khi bị đe dọa, không khuyên chịu hại để chứng minh mình tu. Chăm thân và ăn nuôi thân không bị bỏ khi giải bốn phép quán.",
+        "technical_integrity": "Toàn bản cùng 51 ý đã được đọc, sáu mục và hai đơn vị sửa đã đọc lại; hash freeze và năm nguồn đã xác nhận bằng audit độc lập sạch, chưa ghi metadata hay publication."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root/writer_a đối với bản của /root/writer_c: đã đọc đủ năm nguồn thật, toàn map và ba bản; đọc lại trọn sáu mục cùng hai summary sau sửa. Không có kiểm nghiệm người đọc thật hoặc xác nhận của chuyên gia Pāli bên ngoài.",
+      "contentHash": "170cfaa09b669609333b021ba3dd7b371c32d9218ece00d7f6aa7709961c4462",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn50.html",
+          "sha256": "71b6cf3daac8f8eae8144e2fb528f8c3bfc9795d5c635b6d443301ccdc14480f"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
+          "sha256": "809de380fa0572949079916773431260181ffac18b9bceaf9cdfed7b8ec3cc22"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json",
+          "sha256": "3063124cdaded2be7311872489023059b62a509a068457f40c5d5906ccffa8b0"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn50_comment-vi-project.json",
+          "sha256": "22ae6b42e7a31fc5bf34a965938e3b29c1e8b94be0cb6ecdf22a746b2e1d6c23"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn50_translation-vi-project.json",
+          "sha256": "27dbc27e82df90d73989d1c941905601f29a61c0dd573b9b11e306083d30f2a7"
+        }
+      ]
+    }
+  ]
+}

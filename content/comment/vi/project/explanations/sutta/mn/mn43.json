@@ -1,0 +1,1361 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn43",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn43_root-pli-ms.json",
+      "sha256": "8d04c656e6a7f455bde6ce7c27980633b0562322162c6c5e968f8e0d34534229",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn43_translation-en-sujato.json",
+      "sha256": "1696b2c8f17e65939628993f2129c9abb789340969a60d9afb14129abe91c692",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn43_translation-vi-project.json",
+      "sha256": "449b02ab77ecbeaf98abc978891b0a9ebdc9fdf989c89f48dc71005be725aa4b",
+      "commit": "787eb38e2ccf406b14d281e8e297c9f52c027cc7"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn43.html",
+      "sha256": "012e3c25da280779e20d94f55d8356848b61bfdf07c3d358c62a9fd29d699335",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn43_comment-vi-project.json",
+      "sha256": "56233bc80f76bfc7575d52f1cc64b2fb9f48b287bf2a48248caaf04ca5c5ef5e",
+      "commit": "787eb38e2ccf406b14d281e8e297c9f52c027cc7"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Đại Kinh Phương Quảng, MN43",
+      "segments": [
+        "mn43:0.1",
+        "mn43:0.2"
+      ],
+      "summary": "Tên bài và mã Trung Bộ 43."
+    },
+    {
+      "id": "setting",
+      "title": "Mahākoṭṭhita hỏi Sāriputta",
+      "segments": [
+        "mn43:1.1",
+        "mn43:1.2",
+        "mn43:1.3",
+        "mn43:1.4"
+      ],
+      "summary": "Người truyền kinh đã nghe: Phật ở Jeta, tu viện Anāthapiṇḍika tại Sāvatthī; chiều Mahākoṭṭhita ra khỏi thiền tịnh, tới Sāriputta, chào hỏi thân thiện rồi ngồi một bên và hỏi."
+    },
+    {
+      "id": "unwise",
+      "title": "Không hiểu bốn sự thật",
+      "segments": [
+        "mn43:2.1",
+        "mn43:2.2",
+        "mn43:2.3",
+        "mn43:2.4",
+        "mn43:2.5",
+        "mn43:2.6"
+      ],
+      "summary": "Người không có trí được gọi vậy vì không hiểu khổ, nguồn khổ, khổ diệt và đường thực hành đưa tới khổ diệt."
+    },
+    {
+      "id": "approval",
+      "title": "Tán đồng rồi hỏi tiếp",
+      "segments": [
+        "mn43:2.7"
+      ],
+      "summary": "Mahākoṭṭhita khen lành thay, hoan hỷ tán đồng lời Sāriputta và tiếp tục đặt câu hỏi."
+    },
+    {
+      "id": "wise",
+      "title": "Hiểu bốn sự thật",
+      "segments": [
+        "mn43:3.1",
+        "mn43:3.2",
+        "mn43:3.3",
+        "mn43:3.4",
+        "mn43:3.5",
+        "mn43:3.6"
+      ],
+      "summary": "Người có trí hiểu đủ khổ, nguồn khổ, khổ diệt, đường thực hành tới khổ diệt; danh xưng dựa việc hiểu ấy."
+    },
+    {
+      "id": "consciousness",
+      "title": "Thức là sự nhận biết",
+      "segments": [
+        "mn43:4.1",
+        "mn43:4.2",
+        "mn43:4.3",
+        "mn43:4.4",
+        "mn43:4.5",
+        "mn43:4.6"
+      ],
+      "summary": "Thức được gọi vậy vì nhận biết; nhận biết lạc, khổ, không khổ không lạc."
+    },
+    {
+      "id": "wisdom-linked",
+      "title": "Trí và thức hòa lẫn",
+      "segments": [
+        "mn43:5.1",
+        "mn43:5.2",
+        "mn43:5.3",
+        "mn43:5.4",
+        "mn43:5.5",
+        "mn43:5.6",
+        "mn43:5.7",
+        "mn43:5.8",
+        "mn43:5.9"
+      ],
+      "summary": "Trí tuệ và thức hòa lẫn, không tách rời để mô tả riêng; điều được hiểu cũng được nhận biết, điều được nhận biết cũng được hiểu. Không tự thêm điều kiện dung hòa ngoài câu kinh."
+    },
+    {
+      "id": "different-tasks",
+      "title": "Tu tập tuệ, liễu tri thức",
+      "segments": [
+        "mn43:6.1",
+        "mn43:6.2",
+        "mn43:6.3",
+        "mn43:6.4",
+        "mn43:6.5"
+      ],
+      "summary": "Dù hòa lẫn, hai pháp khác việc cần làm: trí tuệ cần được tu tập, thức cần được hiểu thấu đáo."
+    },
+    {
+      "id": "feeling",
+      "title": "Thọ cảm nhận ba loại",
+      "segments": [
+        "mn43:7.1",
+        "mn43:7.2",
+        "mn43:7.3",
+        "mn43:7.4",
+        "mn43:7.5",
+        "mn43:7.6"
+      ],
+      "summary": "Thọ là cảm nhận lạc, khổ, không khổ không lạc."
+    },
+    {
+      "id": "perception",
+      "title": "Tưởng nhận ra màu sắc",
+      "segments": [
+        "mn43:8.1",
+        "mn43:8.2",
+        "mn43:8.3",
+        "mn43:8.4",
+        "mn43:8.5",
+        "mn43:8.6"
+      ],
+      "summary": "Tưởng là nhận ra; ví dụ xanh, vàng, đỏ, trắng."
+    },
+    {
+      "id": "three-linked",
+      "title": "Thọ, tưởng, thức không tách rời",
+      "segments": [
+        "mn43:9.1",
+        "mn43:9.2",
+        "mn43:9.3",
+        "mn43:9.4",
+        "mn43:9.5",
+        "mn43:9.6",
+        "mn43:9.7",
+        "mn43:9.8",
+        "mn43:9.9"
+      ],
+      "summary": "Cả ba hòa lẫn, không thể tách để chỉ riêng; điều cảm nhận được nhận ra, điều nhận ra được nhận biết. Giữ thức dù HTML lược bỏ."
+    },
+    {
+      "id": "pure-mind",
+      "title": "Ba xứ thức ý thanh tịnh có thể biết",
+      "segments": [
+        "mn43:10.1",
+        "mn43:10.2"
+      ],
+      "summary": "Thức ý thanh tịnh tách khỏi năm căn biết Không vô biên xứ với không gian vô biên, Thức vô biên xứ với thức vô biên, Vô sở hữu xứ với không có gì; không thêm xứ thứ tư."
+    },
+    {
+      "id": "wisdom-eye",
+      "title": "Con mắt trí tuệ",
+      "segments": [
+        "mn43:11.1",
+        "mn43:11.2"
+      ],
+      "summary": "Pháp có thể được biết thì được hiểu bằng con mắt trí tuệ."
+    },
+    {
+      "id": "wisdom-goal",
+      "title": "Biết trực tiếp, hiểu thấu, từ bỏ",
+      "segments": [
+        "mn43:12.1",
+        "mn43:12.2"
+      ],
+      "summary": "Trí tuệ nhằm trực tiếp biết, hiểu thấu đáo và từ bỏ; không chỉ tích lũy kiến thức."
+    },
+    {
+      "id": "right-view-conditions",
+      "title": "Hai duyên khởi chánh kiến",
+      "segments": [
+        "mn43:13.1",
+        "mn43:13.2",
+        "mn43:13.3",
+        "mn43:13.4"
+      ],
+      "summary": "Hai duyên: tiếng nói người khác và chú tâm đúng cách; không tự giới hạn tiếng người khác bằng lời chú giải không có trong kinh."
+    },
+    {
+      "id": "right-view-supports",
+      "title": "Năm trợ duyên, hai giải thoát",
+      "segments": [
+        "mn43:14.1",
+        "mn43:14.2",
+        "mn43:14.3",
+        "mn43:14.4"
+      ],
+      "summary": "Chánh kiến có tâm giải thoát và tuệ giải thoát làm quả/lợi ích khi được giới, học hỏi, thảo luận, chỉ/an tịnh và quán/minh sát hỗ trợ."
+    },
+    {
+      "id": "three-existences",
+      "title": "Ba loại hữu",
+      "segments": [
+        "mn43:15.1",
+        "mn43:15.2",
+        "mn43:15.3"
+      ],
+      "summary": "Có dục hữu, sắc hữu, vô sắc hữu; đây là các trạng thái hiện hữu, không thu thành ba tâm trạng."
+    },
+    {
+      "id": "future-existence",
+      "title": "Do đâu còn đời sống mới",
+      "segments": [
+        "mn43:16.1",
+        "mn43:16.2",
+        "mn43:16.3"
+      ],
+      "summary": "Hữu tình bị vô minh che, ái trói và vui thích chỗ này chỗ kia nên có sự hình thành đời sống mới tương lai."
+    },
+    {
+      "id": "no-future-existence",
+      "title": "Do đâu không còn tái hữu",
+      "segments": [
+        "mn43:17.1",
+        "mn43:17.2",
+        "mn43:17.3"
+      ],
+      "summary": "Khi vô minh phai, minh sinh, ái diệt thì không còn sự hình thành đời sống mới tương lai."
+    },
+    {
+      "id": "first-jhana",
+      "title": "Sơ thiền do viễn ly",
+      "segments": [
+        "mn43:18.1",
+        "mn43:18.2",
+        "mn43:18.3"
+      ],
+      "summary": "Vị tỳ-kheo ly dục và bất thiện, nhập an trú sơ thiền có tầm, tứ, hỷ, lạc sinh từ viễn ly."
+    },
+    {
+      "id": "five-factors",
+      "title": "Năm chi sơ thiền",
+      "segments": [
+        "mn43:19.1",
+        "mn43:19.2",
+        "mn43:19.3",
+        "mn43:19.4"
+      ],
+      "summary": "Sơ thiền có tầm, tứ, hỷ, lạc và nhất tâm; số lượng năm."
+    },
+    {
+      "id": "five-abandoned",
+      "title": "Bỏ năm, có năm",
+      "segments": [
+        "mn43:20.1",
+        "mn43:20.2",
+        "mn43:20.3",
+        "mn43:20.4",
+        "mn43:20.5"
+      ],
+      "summary": "Sơ thiền bỏ dục tham, sân, hôn trầm buồn ngủ, xao động hối tiếc, nghi; có tầm, tứ, hỷ, lạc, nhất tâm. Hai nhóm năm phân biệt."
+    },
+    {
+      "id": "senses-mind",
+      "title": "Năm căn nương ý",
+      "segments": [
+        "mn43:21.1",
+        "mn43:21.2",
+        "mn43:21.3",
+        "mn43:21.4",
+        "mn43:21.5",
+        "mn43:21.6"
+      ],
+      "summary": "Mắt tai mũi lưỡi thân có miền và phạm vi khác nhau, không trải nghiệm của nhau; nương ý và ý trải nghiệm các miền ấy."
+    },
+    {
+      "id": "vitality-warmth",
+      "title": "Mạng sống và hơi ấm nương nhau",
+      "segments": [
+        "mn43:22.1",
+        "mn43:22.2",
+        "mn43:22.3",
+        "mn43:22.4",
+        "mn43:22.5",
+        "mn43:22.6",
+        "mn43:22.7",
+        "mn43:22.8",
+        "mn43:22.9",
+        "mn43:22.10"
+      ],
+      "summary": "Năm căn nương mạng sống để tồn tại; mạng sống nương hơi ấm và hơi ấm nương mạng sống, đủ hai chiều."
+    },
+    {
+      "id": "lamp",
+      "title": "Ví đèn dầu giải quan hệ hai chiều",
+      "segments": [
+        "mn43:22.11",
+        "mn43:22.12",
+        "mn43:22.13",
+        "mn43:22.14",
+        "mn43:22.15",
+        "mn43:22.16",
+        "mn43:22.17",
+        "mn43:22.18",
+        "mn43:22.19"
+      ],
+      "summary": "Mahākoṭṭhita nhắc lại hai câu để hỏi nghĩa; Sāriputta đưa ví giúp một số người trí hiểu: ánh sáng đèn dầu hiện nương ngọn lửa và ngọn lửa hiện nương ánh sáng, như mạng sống/hơi ấm. Không đổi ngọn lửa thành tim đèn."
+    },
+    {
+      "id": "vital-forces-feeling",
+      "title": "Mạng hành khác pháp được cảm nhận",
+      "segments": [
+        "mn43:23.1",
+        "mn43:23.2",
+        "mn43:23.3",
+        "mn43:23.4"
+      ],
+      "summary": "Nếu các yếu tố duy trì mạng sống chính là các pháp được cảm nhận, người nhập diệt thọ tưởng không thể xuất; vì hai thứ khác nhau nên có thể xuất."
+    },
+    {
+      "id": "abandoned-body",
+      "title": "Ba pháp rời thân",
+      "segments": [
+        "mn43:24.1",
+        "mn43:24.2"
+      ],
+      "summary": "Mạng sống, hơi ấm, thức rời thân thì thân bị bỏ lại vô tri như gỗ; giữ cả ba, không biến thành chẩn đoán y khoa."
+    },
+    {
+      "id": "death-and-cessation",
+      "title": "Cái chết khác diệt thọ tưởng",
+      "segments": [
+        "mn43:25.1",
+        "mn43:25.2",
+        "mn43:25.3",
+        "mn43:25.4"
+      ],
+      "summary": "Cả hai dừng-lắng thân/khẩu/tâm hành; người chết mạng hết, ấm tan, căn hư; người nhập diệt thọ tưởng mạng chưa hết, ấm chưa tan, căn trong sáng."
+    },
+    {
+      "id": "neutral-release",
+      "title": "Bốn duyên tứ thiền",
+      "segments": [
+        "mn43:26.1",
+        "mn43:26.2",
+        "mn43:26.3",
+        "mn43:26.4"
+      ],
+      "summary": "Bỏ lạc, bỏ khổ, hỷ trước dứt, ưu trước dứt; nhập an trú tứ thiền không khổ không lạc, niệm thanh tịnh nhờ xả."
+    },
+    {
+      "id": "signless-entry",
+      "title": "Hai duyên nhập vô tướng",
+      "segments": [
+        "mn43:27.1",
+        "mn43:27.2",
+        "mn43:27.3",
+        "mn43:27.4"
+      ],
+      "summary": "Không chú tâm mọi tướng và chú tâm giới/yếu tố vô tướng là hai duyên nhập vô tướng tâm giải thoát."
+    },
+    {
+      "id": "signless-stay",
+      "title": "Ba duyên duy trì vô tướng",
+      "segments": [
+        "mn43:27.5",
+        "mn43:28.1",
+        "mn43:28.2",
+        "mn43:28.3"
+      ],
+      "summary": "Duy trì nhờ hai duyên trên cộng với sự quyết định trước đó; số ba khác số hai của nhập/xuất."
+    },
+    {
+      "id": "signless-exit",
+      "title": "Hai duyên xuất vô tướng",
+      "segments": [
+        "mn43:29.1",
+        "mn43:29.2",
+        "mn43:29.3",
+        "mn43:29.4"
+      ],
+      "summary": "Chú tâm mọi tướng và không chú tâm giới vô tướng là hai duyên xuất khỏi vô tướng tâm giải thoát."
+    },
+    {
+      "id": "two-perspectives",
+      "title": "Bốn tên và hai cách xét",
+      "segments": [
+        "mn43:29.5",
+        "mn43:30.1",
+        "mn43:30.2"
+      ],
+      "summary": "Hỏi vô lượng/vô sở hữu/không/vô tướng khác nghĩa-tên hay cùng nghĩa-khác tên. Đáp có cách xét đúng cho mỗi vế, không loại một vế."
+    },
+    {
+      "id": "limitless",
+      "title": "Vô lượng tâm giải thoát",
+      "segments": [
+        "mn43:31.1",
+        "mn43:31.2",
+        "mn43:31.3",
+        "mn43:31.4",
+        "mn43:31.5",
+        "mn43:31.6"
+      ],
+      "summary": "Từ bi hỷ xả mỗi tâm lan đủ bốn phương, trên dưới ngang, khắp mọi nơi, đối tất cả như mình, toàn thế giới, rộng lớn cao cả vô lượng không thù hận/ác ý."
+    },
+    {
+      "id": "nothingness",
+      "title": "Vô sở hữu tâm giải thoát",
+      "segments": [
+        "mn43:32.1",
+        "mn43:32.2",
+        "mn43:32.3"
+      ],
+      "summary": "Vượt hẳn Thức vô biên xứ, nhận biết không có gì và nhập an trú Vô sở hữu xứ."
+    },
+    {
+      "id": "emptiness",
+      "title": "Tâm giải thoát qua tính không",
+      "segments": [
+        "mn43:33.1",
+        "mn43:33.2",
+        "mn43:33.3",
+        "mn43:33.4"
+      ],
+      "summary": "Đến rừng/gốc cây/nhà trống, suy xét cái này trống không tự ngã và cái thuộc ngã; không tự định danh cái này thành địa điểm hoặc thế giới."
+    },
+    {
+      "id": "signless",
+      "title": "Vô tướng tâm giải thoát",
+      "segments": [
+        "mn43:34.1",
+        "mn43:34.2",
+        "mn43:34.3",
+        "mn43:34.4"
+      ],
+      "summary": "Không chú tâm mọi tướng, nhập an trú định tâm vô tướng; đây là cách bốn pháp khác nghĩa và tên."
+    },
+    {
+      "id": "no-limits",
+      "title": "Bất động cao nhất trong vô lượng",
+      "segments": [
+        "mn43:35.1",
+        "mn43:35.2",
+        "mn43:35.3",
+        "mn43:35.4",
+        "mn43:35.5"
+      ],
+      "summary": "Tham sân si tạo giới hạn; bậc lậu tận bỏ/cắt gốc như cọ chặt ngọn, không hiện hữu/không sinh tương lai. Bất động cao nhất trong vô lượng và trống không cả ba."
+    },
+    {
+      "id": "no-something",
+      "title": "Bất động cao nhất trong vô sở hữu",
+      "segments": [
+        "mn43:36.1",
+        "mn43:36.2",
+        "mn43:36.3",
+        "mn43:36.4"
+      ],
+      "summary": "Tham sân si là cái gì/vướng mắc; bậc lậu tận đã cắt gốc như cọ, không còn/không sinh lại ba thứ ấy. Bất động cao nhất trong vô sở hữu và trống không cả ba."
+    },
+    {
+      "id": "no-signs",
+      "title": "Bất động cao nhất trong vô tướng",
+      "segments": [
+        "mn43:37.1",
+        "mn43:37.2",
+        "mn43:37.3",
+        "mn43:37.4",
+        "mn43:37.5"
+      ],
+      "summary": "Tham sân si tạo tướng; bậc lậu tận đã cắt gốc như cọ, không còn/không sinh lại. Bất động cao nhất trong vô tướng và trống không cả ba; vì vậy có cách cùng nghĩa khác tên."
+    },
+    {
+      "id": "ending",
+      "title": "Mahākoṭṭhita hoan hỷ",
+      "segments": [
+        "mn43:37.6",
+        "mn43:37.7",
+        "mn43:37.8"
+      ],
+      "summary": "Sāriputta nói xong; Mahākoṭṭhita hoan hỷ tán đồng. Tên cuối Đại Phương Quảng, thứ ba trong nhóm."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Một câu hỏi hay mở thêm điều cần hiểu",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Một cuộc trò chuyện bằng những câu hỏi",
+          "paragraphs": [
+            "Đại Kinh Phương Quảng, MN43, bắt đầu từ lời người truyền kinh kể điều mình đã nghe. Khi ấy, Đức Phật ở rừng Jeta, tu viện Anāthapiṇḍika tại Sāvatthī. Một buổi chiều, Tôn giả Mahākoṭṭhita ra khỏi chỗ thiền tịnh, đến thăm Tôn giả Sāriputta. Hai vị đệ tử chào hỏi thân thiện, rồi Mahākoṭṭhita ngồi một bên và đặt câu hỏi. Sāriputta lần lượt đáp."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting"
+          ]
+        },
+        {
+          "id": "wisdom",
+          "kind": "teaching",
+          "heading": "Có trí là hiểu điều gì?",
+          "paragraphs": [
+            "Câu hỏi đầu là: vì sao gọi một người là không có trí? Sāriputta đáp: vì người ấy không hiểu khổ, điều làm khổ sinh ra, sự chấm dứt khổ và con đường thực hành đưa đến chấm dứt khổ. Đó là bốn sự thật cần hiểu.",
+            "Mahākoṭṭhita khen “Lành thay”, vui lòng tán đồng rồi hỏi tiếp về người có trí. Người có trí hiểu đủ bốn sự thật ấy. Câu trả lời hướng tới việc hiểu khổ để đi đến hết khổ."
+          ],
+          "meaningUnits": [
+            "unwise",
+            "approval",
+            "wise"
+          ]
+        },
+        {
+          "id": "school-example",
+          "kind": "example",
+          "heading": "Một câu hỏi sau giờ chơi",
+          "paragraphs": [
+            "Ví dụ hôm nay: sau khi tranh lượt chơi, một bạn nhớ rất rõ ai đã nói câu nào nhưng vẫn muốn trả đũa. Bạn thử hỏi thêm: “Điều gì đang làm mình khổ? Mình còn nuôi điều gì khiến cơn giận tăng? Có thể tập điều gì để thôi làm khổ nhau?” Tình huống này do người biên soạn đặt ra để gợi hướng tìm hiểu; trả lời vài câu hỏi chưa có nghĩa là đã hiểu thấu bốn sự thật."
+          ],
+          "meaningUnits": [
+            "wise",
+            "wisdom-goal"
+          ]
+        },
+        {
+          "id": "knowing",
+          "kind": "teaching",
+          "heading": "Nhận biết và trí tuệ đi cùng nhau",
+          "paragraphs": [
+            "Thức là sự nhận biết. Trong câu đáp ở đây, thức nhận biết dễ chịu, khó chịu, hoặc không khó chịu cũng không dễ chịu; kinh gọi ba loại ấy là lạc, khổ và không khổ không lạc.",
+            "Trí tuệ và thức hòa lẫn với nhau, không thể tách riêng từng thứ ra để chỉ cho thấy: điều được hiểu cũng được nhận biết, điều được nhận biết cũng được hiểu. Tuy vậy, việc cần làm với mỗi thứ khác nhau. Trí tuệ cần được rèn luyện cho lớn lên; thức cần được hiểu thấu đáo. Kinh dùng chữ tu tập và liễu tri cho hai việc ấy."
+          ],
+          "meaningUnits": [
+            "consciousness",
+            "wisdom-linked",
+            "different-tasks"
+          ]
+        },
+        {
+          "id": "feeling-recognizing",
+          "kind": "teaching",
+          "heading": "Cảm nhận, nhận ra, nhận biết",
+          "paragraphs": [
+            "Thọ là cảm nhận: dễ chịu, khó chịu, hay không thuộc hai loại đó. Tưởng là nhận ra; Sāriputta nêu việc nhận ra màu xanh, vàng, đỏ, trắng. Thức là nhận biết. Ba từ giúp ta gọi tên những mặt khác nhau của kinh nghiệm.",
+            "Khi được hỏi ba thứ có thể tách rời không, Sāriputta đáp rằng chúng hòa lẫn, không tách riêng ra để mô tả được: điều được cảm nhận cũng được nhận ra, điều được nhận ra cũng được nhận biết. Ba từ chỉ những mặt gắn liền trong điều ta trải nghiệm."
+          ],
+          "meaningUnits": [
+            "feeling",
+            "perception",
+            "three-linked"
+          ]
+        },
+        {
+          "id": "beyond-senses",
+          "kind": "teaching",
+          "heading": "Khi thức ý trở nên trong sạch",
+          "paragraphs": [
+            "Thức ý trong sạch, tách khỏi năm giác quan, có thể biết ba trạng thái thiền được nêu ở đây: Không vô biên xứ, với nhận biết “không gian vô biên”; Thức vô biên xứ, với nhận biết “thức vô biên”; và Vô sở hữu xứ, với nhận biết “không có gì cả”. Đây là tên ba trạng thái được hỏi đến trong bài.",
+            "Điều có thể được biết thì được hiểu bằng con mắt trí tuệ, tức khả năng thấy hiểu bằng tuệ. Trí tuệ nhằm ba việc: biết trực tiếp, hiểu thấu đáo và từ bỏ. Vì vậy, câu hỏi không dừng ở việc biết thêm thật nhiều tên gọi."
+          ],
+          "meaningUnits": [
+            "pure-mind",
+            "wisdom-eye",
+            "wisdom-goal"
+          ]
+        },
+        {
+          "id": "right-view",
+          "kind": "teaching",
+          "heading": "Nghe, suy xét và cùng vun bồi",
+          "paragraphs": [
+            "Chánh kiến là cái nhìn đúng. Có hai duyên giúp nó sinh khởi: tiếng nói từ người khác và chú tâm đúng cách. Nghe đi cùng với biết hướng tâm để tìm hiểu.",
+            "Chánh kiến được năm điều nâng đỡ: giới, tức nếp sống có đạo đức; học hỏi; thảo luận; chỉ, làm tâm an tịnh; quán, nhìn để hiểu rõ. Khi có đủ sự hỗ trợ ấy, chánh kiến đem lại tâm giải thoát và tuệ giải thoát làm quả và lợi ích: sự giải thoát của tâm và bằng trí tuệ."
+          ],
+          "meaningUnits": [
+            "right-view-conditions",
+            "right-view-supports"
+          ]
+        },
+        {
+          "id": "future-life",
+          "kind": "teaching",
+          "heading": "Vì sao còn một đời sống mới?",
+          "paragraphs": [
+            "Bài kinh nói ba loại hữu, tức trạng thái hiện hữu: dục hữu, sắc hữu và vô sắc hữu; lần lượt liên hệ đến những thú vui của giác quan, hình sắc và không có hình sắc.",
+            "Vì sao còn hình thành một đời sống mới trong tương lai? Vì chúng sinh bị vô minh che phủ, bị ái trói buộc và vui thích chỗ này chỗ kia. Vô minh là sự không sáng rõ; ái là thèm khát níu giữ. Khi vô minh phai đi, hiểu biết sáng tỏ sinh lên và ái chấm dứt, thì không còn đời sống mới ấy. Đoạn này nói về tái sinh và sự chấm dứt tái sinh."
+          ],
+          "meaningUnits": [
+            "three-existences",
+            "future-existence",
+            "no-future-existence"
+          ]
+        },
+        {
+          "id": "first-absorption",
+          "kind": "teaching",
+          "heading": "Năm điều được bỏ, năm điều có mặt",
+          "paragraphs": [
+            "Sơ thiền là tầng thiền thứ nhất. Vị tỳ-kheo, người đã xuất gia, lìa các dục và điều bất thiện, rồi vào và ở trong sơ thiền, có tầm, tứ, hỷ và lạc sinh từ sự viễn ly, tức rời xa những điều ấy.",
+            "Năm chi có mặt là: tầm, đặt tâm vào; tứ, giữ tâm gắn với; hỷ, niềm hân hoan; lạc, sự dễ chịu; nhất tâm, tâm quy tụ một mối. Còn năm điều được bỏ là tham dục, sân hận, uể oải và buồn ngủ, xao động và hối tiếc, nghi ngờ. Đó là hai nhóm năm khác nhau: một nhóm vắng mặt, một nhóm có mặt."
+          ],
+          "meaningUnits": [
+            "first-jhana",
+            "five-factors",
+            "five-abandoned"
+          ]
+        },
+        {
+          "id": "five-doors",
+          "kind": "teaching",
+          "heading": "Mỗi giác quan có một miền riêng",
+          "paragraphs": [
+            "Mắt, tai, mũi, lưỡi và thân có đối tượng cùng phạm vi riêng; giác quan này không trải nghiệm miền của giác quan kia. Cả năm nương vào ý, và ý trải nghiệm những miền ấy. Bài gọi năm khả năng này là năm căn."
+          ],
+          "meaningUnits": [
+            "senses-mind"
+          ]
+        },
+        {
+          "id": "lamp",
+          "kind": "teaching",
+          "heading": "Ngọn lửa và ánh sáng",
+          "paragraphs": [
+            "Năm căn nương vào mạng sống để tiếp tục tồn tại. Mạng sống nương vào hơi ấm; hơi ấm lại nương vào mạng sống. Mahākoṭṭhita nghe cả hai chiều, liền hỏi phải hiểu thế nào.",
+            "Sāriputta dùng một ví dụ, vì ví dụ giúp một số người có trí hiểu ý: ở ngọn đèn dầu đang cháy, ánh sáng hiện ra nương vào ngọn lửa, ngọn lửa hiện ra nương vào ánh sáng. Cũng vậy, mạng sống và hơi ấm nương vào nhau."
+          ],
+          "meaningUnits": [
+            "vitality-warmth",
+            "lamp"
+          ]
+        },
+        {
+          "id": "life-and-feeling",
+          "kind": "teaching",
+          "heading": "Mạng sống và cảm nhận có khác nhau?",
+          "paragraphs": [
+            "Những yếu tố duy trì mạng sống được gọi là mạng hành. Chúng khác với những gì được cảm nhận. Sāriputta giải thích bằng một chứng đạt thiền sâu, diệt thọ tưởng: sự dừng của cảm nhận và nhận ra. Nếu mạng hành chính là những gì được cảm nhận, người vào chứng đạt ấy sẽ không thể ra khỏi. Vì hai thứ khác nhau, người ấy có thể ra khỏi chứng đạt ấy."
+          ],
+          "meaningUnits": [
+            "vital-forces-feeling"
+          ]
+        },
+        {
+          "id": "death-and-stillness",
+          "kind": "teaching",
+          "heading": "Hai trường hợp cần phân biệt",
+          "paragraphs": [
+            "Theo câu trả lời trong kinh, khi ba điều là mạng sống, hơi ấm và thức rời thân, thân bị bỏ lại, nằm không còn nhận biết như khúc gỗ.",
+            "Người đã chết và vị nhập diệt thọ tưởng đều có thân hành, khẩu hành, tâm hành — những hoạt động thuộc thân, lời và tâm — dừng và lắng. Nhưng người đã chết thì mạng sống hết, hơi ấm tan, các căn hư hoại. Ở vị nhập diệt thọ tưởng, mạng sống chưa hết, hơi ấm chưa tan và các căn vẫn trong sáng. Câu trả lời giữ rõ những điểm khác nhau ấy."
+          ],
+          "meaningUnits": [
+            "abandoned-body",
+            "death-and-cessation"
+          ]
+        },
+        {
+          "id": "neutral",
+          "kind": "teaching",
+          "heading": "Tâm không khổ, không lạc",
+          "paragraphs": [
+            "Để nhập tâm giải thoát không khổ không lạc, có bốn duyên: bỏ lạc, bỏ khổ, niềm vui trước đó trong tâm đã dứt, nỗi buồn trước đó trong tâm đã dứt. Vị tu vào và ở trong tứ thiền, tầng thiền thứ tư, không khổ không lạc, có niệm thanh tịnh nhờ xả. Niệm là sự nhớ biết; xả là sự quân bình của tâm."
+          ],
+          "meaningUnits": [
+            "neutral-release"
+          ]
+        },
+        {
+          "id": "signless-steps",
+          "kind": "teaching",
+          "heading": "Vào, ở lại và ra khỏi vô tướng",
+          "paragraphs": [
+            "Tướng có nghĩa là dấu hiệu. Để vào vô tướng tâm giải thoát, có hai duyên: không chú tâm đến mọi tướng và chú tâm đến yếu tố vô tướng.",
+            "Để ở lại trong đó, có ba duyên: hai điều vừa nói cùng với sự quyết định đã có từ trước. Để ra khỏi, có hai duyên theo chiều ngược lại: chú tâm đến mọi tướng và không chú tâm đến yếu tố vô tướng. Các con số hai, ba, hai giúp phân biệt ba câu hỏi."
+          ],
+          "meaningUnits": [
+            "signless-entry",
+            "signless-stay",
+            "signless-exit"
+          ]
+        },
+        {
+          "id": "four-names",
+          "kind": "teaching",
+          "heading": "Bốn tên, hai cách xem xét",
+          "paragraphs": [
+            "Mahākoṭṭhita hỏi về bốn tên: vô lượng tâm giải thoát, vô sở hữu tâm giải thoát, tâm giải thoát qua tính không và vô tướng tâm giải thoát. Chúng khác cả nghĩa lẫn tên, hay cùng nghĩa và chỉ khác tên? Sāriputta đáp: có một cách xem xét đúng với vế đầu, cũng có một cách đúng với vế sau. Ngài giải thích từng cách."
+          ],
+          "meaningUnits": [
+            "two-perspectives"
+          ]
+        },
+        {
+          "id": "limitless",
+          "kind": "teaching",
+          "heading": "Tâm rộng mở không giới hạn",
+          "paragraphs": [
+            "Trước hết là vô lượng tâm giải thoát. Vị tu làm tâm từ, mong điều lành; tâm bi, thương trước nỗi khổ; tâm hỷ, vui với điều tốt của người; tâm xả, giữ quân bình, lan rộng.",
+            "Với mỗi tâm ấy, vị tu hướng đến phương thứ nhất, thứ hai, thứ ba, thứ tư; trên, dưới, ngang, khắp mọi nơi, đối với tất cả như với chính mình. Tâm lan toàn thế giới, rộng lớn, cao cả, không giới hạn, không thù hận hay ác ý. Bốn tâm đều có phạm vi rộng ấy."
+          ],
+          "meaningUnits": [
+            "limitless"
+          ]
+        },
+        {
+          "id": "nothingness",
+          "kind": "teaching",
+          "heading": "Tên gọi không có gì",
+          "paragraphs": [
+            "Vô sở hữu tâm giải thoát được giải thích bằng một tầng thiền: vị tu vượt hoàn toàn Thức vô biên xứ, nhận biết “không có gì cả”, rồi vào và ở trong Vô sở hữu xứ."
+          ],
+          "meaningUnits": [
+            "nothingness"
+          ]
+        },
+        {
+          "id": "emptiness",
+          "kind": "teaching",
+          "heading": "Trống không cái tôi và của tôi",
+          "paragraphs": [
+            "Với tâm giải thoát qua tính không, vị tu đến rừng, gốc cây hoặc một căn nhà trống, suy xét: “Cái này trống không đối với tự ngã hay cái thuộc về tự ngã.” Tự ngã là cái “tôi”; cái thuộc về tự ngã là cái “của tôi”."
+          ],
+          "meaningUnits": [
+            "emptiness"
+          ]
+        },
+        {
+          "id": "signless",
+          "kind": "teaching",
+          "heading": "Không chú tâm đến các tướng",
+          "paragraphs": [
+            "Vô tướng tâm giải thoát là không chú tâm đến mọi tướng, vào và ở trong định tâm vô tướng. Như vậy, khi nói đến từng cách thực hành và chứng đạt vừa nêu, bốn tên có những ý nghĩa khác nhau."
+          ],
+          "meaningUnits": [
+            "signless"
+          ]
+        },
+        {
+          "id": "unshakable",
+          "kind": "teaching",
+          "heading": "Khi tham, sân, si không còn gốc",
+          "paragraphs": [
+            "Bây giờ Sāriputta nói cách chúng cùng nghĩa. Tham, sân, si — thèm muốn, ghét giận và mê lầm — tạo ra giới hạn. Ở bậc đã hết lậu hoặc, tức những ô nhiễm trói buộc đã được đoạn tận, cả ba bị bỏ và cắt tận gốc, như cây cọ bị chặt ngọn, không còn hiện hữu và không sinh lại trong tương lai. Trong các vô lượng tâm giải thoát, tâm giải thoát bất động là cao nhất. Nó trống không tham, sân, si.",
+            "Tham, sân, si cũng là những “cái gì” làm vướng mắc. Ở bậc hết lậu hoặc, chúng cũng được cắt gốc hoàn toàn như vừa nói, không còn và không sinh lại. Trong các vô sở hữu tâm giải thoát, tâm giải thoát bất động là cao nhất, trống không cả ba.",
+            "Tham, sân, si còn tạo ra tướng. Khi chúng đã bị cắt tận gốc như thế, trong các vô tướng tâm giải thoát, tâm giải thoát bất động là cao nhất, trống không tham, sân, si. Bất động là sự giải thoát vững chắc ấy. Cùng nhìn vào chỗ hoàn toàn sạch ba điều này, những tên vừa nêu cùng một ý nghĩa."
+          ],
+          "meaningUnits": [
+            "no-limits",
+            "no-something",
+            "no-signs"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Hỏi đến nơi, hiểu cho rõ",
+          "paragraphs": [
+            "Sāriputta nói xong, Mahākoṭṭhita vui lòng tán đồng. Dòng cuối gọi bài là Đại Kinh Phương Quảng, bài thứ ba trong nhóm. Cuộc trò chuyện đi từ những điều đang được cảm nhận và nhận biết đến sự giải thoát vững chắc khỏi tham, sân, si."
+          ],
+          "meaningUnits": [
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Giữ một câu hỏi để tìm hiểu",
+          "paragraphs": [
+            "Gợi ý của người biên soạn: em chọn một từ còn khó, chẳng hạn thọ, tưởng hoặc thức, rồi hỏi người có thể giải thích. Nghe xong, thử nói lại bằng lời mình và hỏi xem đã hiểu đúng chưa. Đó là một bước học hỏi và suy xét; các chứng đạt thiền trong bài còn thuộc một quá trình tu tập sâu hơn."
+          ],
+          "meaningUnits": [
+            "different-tasks",
+            "right-view-conditions",
+            "right-view-supports",
+            "wisdom-goal"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Từ nhận biết kinh nghiệm đến tự do của tâm",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Một cuộc đối thoại đi đến tận nghĩa của từ",
+          "paragraphs": [
+            "Đại Kinh Phương Quảng, MN43, mở bằng lời người truyền kinh kể điều mình đã nghe. Đức Phật đang ở rừng Jeta, tu viện Anāthapiṇḍika tại Sāvatthī. Cuối buổi chiều, Tôn giả Mahākoṭṭhita ra khỏi thiền tịnh, đến gặp Tôn giả Sāriputta. Sau lời chào hỏi thân thiện, Mahākoṭṭhita ngồi một bên và lần lượt hỏi. Sāriputta là người giải đáp trong cuộc đối thoại này."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting"
+          ]
+        },
+        {
+          "id": "wisdom",
+          "kind": "teaching",
+          "heading": "Trí tuệ được nhận ra ở việc hiểu khổ",
+          "paragraphs": [
+            "Một người được gọi là không có trí vì không hiểu: đây là khổ, đây là nguồn gốc khổ, đây là sự chấm dứt khổ, đây là con đường thực hành đưa đến chấm dứt khổ. Mahākoṭṭhita khen “Lành thay”, hoan hỷ tán đồng rồi hỏi tiếp về người có trí.",
+            "Sāriputta trả lời theo chiều tương ứng: người có trí hiểu đủ bốn sự thật ấy. Trọng tâm của danh xưng nằm ở sự hiểu có liên hệ trực tiếp đến khổ và con đường chấm dứt khổ."
+          ],
+          "meaningUnits": [
+            "unwise",
+            "approval",
+            "wise"
+          ]
+        },
+        {
+          "id": "wisdom-and-consciousness",
+          "kind": "teaching",
+          "heading": "Đi cùng nhau, khác việc cần làm",
+          "paragraphs": [
+            "Thức được gọi như vậy vì nó nhận biết: nhận biết lạc, khổ và không khổ không lạc. Khi được hỏi trí tuệ và thức hòa lẫn hay tách rời, Sāriputta nói chúng hòa lẫn, không thể tách riêng từng pháp để chỉ ra: điều được hiểu cũng được nhận biết, điều được nhận biết cũng được hiểu.",
+            "Câu hỏi kế tiếp đi vào sự khác biệt dù không tách rời: trí tuệ cần được tu tập, còn thức cần được liễu tri, hiểu thấu đáo. Bài giữ cả sự gắn liền lẫn hai công việc khác nhau này."
+          ],
+          "meaningUnits": [
+            "consciousness",
+            "wisdom-linked",
+            "different-tasks"
+          ]
+        },
+        {
+          "id": "three-aspects",
+          "kind": "teaching",
+          "heading": "Thọ, tưởng, thức trong kinh nghiệm",
+          "paragraphs": [
+            "Thọ là cảm nhận dễ chịu, khó chịu, hoặc không khổ không lạc. Tưởng là nhận ra; các ví dụ trong câu đáp là xanh, vàng, đỏ, trắng. Thức là nhận biết.",
+            "Cả ba pháp hòa lẫn, không tách rời để mô tả riêng: điều được cảm nhận cũng được nhận ra, điều được nhận ra cũng được nhận biết. Có thể gọi tên ba mặt, đồng thời hiểu rằng chúng gắn liền."
+          ],
+          "meaningUnits": [
+            "feeling",
+            "perception",
+            "three-linked"
+          ]
+        },
+        {
+          "id": "meeting-example",
+          "kind": "example",
+          "heading": "Nhìn lại một lần nhận góp ý",
+          "paragraphs": [
+            "Ví dụ do người biên soạn đặt ra: trong cuộc họp, một lời góp ý khiến bạn khó chịu. Bạn nhận ra những lời vừa nghe, cảm thấy khó chịu và biết mình đang khó chịu. Việc gọi tên các mặt ấy giúp bắt đầu quan sát trải nghiệm. Từ đó, bạn có thể hỏi mình đã thật sự hiểu điều gì, còn điều gì cần nhìn kỹ; sự quan sát này chưa phải bằng chứng đã thành tựu trí tuệ hay thiền định."
+          ],
+          "meaningUnits": [
+            "feeling",
+            "perception",
+            "three-linked",
+            "different-tasks"
+          ]
+        },
+        {
+          "id": "scope-and-aim",
+          "kind": "teaching",
+          "heading": "Phạm vi biết và mục đích của tuệ",
+          "paragraphs": [
+            "Thức ý đã thanh tịnh và tách khỏi năm căn có thể biết Không vô biên xứ với nhận biết “không gian là vô biên”; Thức vô biên xứ với “thức là vô biên”; Vô sở hữu xứ với “không có gì cả”.",
+            "Điều có thể được biết thì được hiểu bằng con mắt trí tuệ. Tuệ có mục đích trực tiếp biết, hiểu thấu đáo và từ bỏ. Đích của việc tìm hiểu vì thế có cả sự buông bỏ, cùng với biết và hiểu."
+          ],
+          "meaningUnits": [
+            "pure-mind",
+            "wisdom-eye",
+            "wisdom-goal"
+          ]
+        },
+        {
+          "id": "right-view",
+          "kind": "teaching",
+          "heading": "Hai duyên sinh khởi, năm điều hỗ trợ",
+          "paragraphs": [
+            "Chánh kiến, cái nhìn đúng, sinh khởi nhờ hai duyên: tiếng nói từ người khác và chú tâm đúng cách, hay như lý tác ý. Việc tiếp nhận lời nói và cách hướng tâm tìm hiểu đều có vai trò.",
+            "Để chánh kiến có tâm giải thoát và tuệ giải thoát làm quả, làm lợi ích, cần năm hỗ trợ: giới, học hỏi, thảo luận, chỉ và quán. Giới giữ nếp sống có đạo đức; chỉ làm tâm an tịnh; quán giúp nhìn rõ. Hai kết quả được gọi rõ là sự giải thoát của tâm và sự giải thoát bằng trí tuệ."
+          ],
+          "meaningUnits": [
+            "right-view-conditions",
+            "right-view-supports"
+          ]
+        },
+        {
+          "id": "existence",
+          "kind": "teaching",
+          "heading": "Sự tiếp tục và chấm dứt tái hữu",
+          "paragraphs": [
+            "Có ba loại hữu, sự hiện hữu: dục hữu liên hệ đến những thú vui của giác quan, sắc hữu liên hệ đến hình sắc, vô sắc hữu không có hình sắc.",
+            "Sự hình thành đời sống mới trong tương lai xảy ra khi chúng sinh bị vô minh che phủ, bị ái trói buộc và vui thích chỗ này chỗ kia. Khi vô minh phai đi, minh sinh khởi và ái chấm dứt, sự hình thành ấy không còn. Vô minh là không sáng rõ; ái là thèm khát níu giữ. Cặp trả lời này nói về tái sinh cùng sự chấm dứt tái sinh, giữ đủ những điều kiện ở mỗi chiều."
+          ],
+          "meaningUnits": [
+            "three-existences",
+            "future-existence",
+            "no-future-existence"
+          ]
+        },
+        {
+          "id": "first-jhana",
+          "kind": "teaching",
+          "heading": "Hai nhóm năm của sơ thiền",
+          "paragraphs": [
+            "Sơ thiền là khi một tỳ-kheo lìa dục và các pháp bất thiện, nhập và an trú với tầm, tứ, hỷ lạc sinh từ viễn ly. Tỳ-kheo là người xuất gia; viễn ly ở đây là rời xa dục cùng điều bất thiện.",
+            "Năm chi sơ thiền là tầm, đặt tâm vào; tứ, giữ tâm gắn với; hỷ, niềm hân hoan; lạc, sự dễ chịu; nhất tâm, tâm quy tụ một mối. Năm yếu tố đã từ bỏ là dục tham, sân hận, hôn trầm và buồn ngủ, xao động và hối tiếc, nghi hoặc. Câu hỏi “bỏ bao nhiêu, có bao nhiêu” giữ hai nhóm riêng biệt: bỏ năm chướng ngại, có năm chi thiền."
+          ],
+          "meaningUnits": [
+            "first-jhana",
+            "five-factors",
+            "five-abandoned"
+          ]
+        },
+        {
+          "id": "faculties",
+          "kind": "teaching",
+          "heading": "Năm căn, ý, mạng sống và hơi ấm",
+          "paragraphs": [
+            "Mắt, tai, mũi, lưỡi, thân có đối tượng và phạm vi khác nhau, không trải nghiệm miền của nhau. Năm căn ấy nương vào ý, và ý trải nghiệm các miền của chúng. Để tiếp tục tồn tại, năm căn nương vào mạng sống; mạng sống nương hơi ấm, còn hơi ấm nương mạng sống.",
+            "Mahākoṭṭhita nhắc lại hai chiều nương tựa vừa nghe và hỏi nghĩa. Sāriputta đưa ví dụ vì qua ví dụ một số người có trí hiểu được: ở đèn dầu đang cháy, ánh sáng hiện nương vào ngọn lửa, ngọn lửa hiện nương vào ánh sáng. Cũng vậy, mạng sống và hơi ấm nương nhau. Phép ví giữ đủ cả hai chiều."
+          ],
+          "meaningUnits": [
+            "senses-mind",
+            "vitality-warmth",
+            "lamp"
+          ]
+        },
+        {
+          "id": "vitality-and-experience",
+          "kind": "teaching",
+          "heading": "Mạng hành không đồng nhất với điều được cảm nhận",
+          "paragraphs": [
+            "Mạng hành là những yếu tố duy trì mạng sống; chúng khác các pháp được cảm nhận. Lập luận dựa vào diệt thọ tưởng, chứng đạt trong đó thọ và tưởng dừng: nếu hai thứ là một, tỳ-kheo nhập chứng đạt này sẽ không thể xuất khỏi. Vì mạng hành và các pháp được cảm nhận khác nhau, vị ấy có thể xuất khỏi."
+          ],
+          "meaningUnits": [
+            "vital-forces-feeling"
+          ]
+        },
+        {
+          "id": "death-and-cessation",
+          "kind": "teaching",
+          "heading": "Một sự dừng không có cùng ý nghĩa với mọi sự dừng",
+          "paragraphs": [
+            "Thân bị bỏ lại, nằm vô tri như gỗ khi ba pháp rời khỏi: mạng sống, hơi ấm và thức.",
+            "Ở người chết và vị nhập diệt thọ tưởng, thân hành, khẩu hành, tâm hành đều đã dừng và lắng. Đó là các hoạt động thuộc thân, lời và tâm. Nhưng người chết thì mạng sống đã hết, hơi ấm đã tan, các căn hư hoại. Vị nhập diệt thọ tưởng thì mạng sống chưa hết, hơi ấm chưa tan, các căn vẫn trong sáng. Ba điểm này làm rõ sự khác biệt được hỏi."
+          ],
+          "meaningUnits": [
+            "abandoned-body",
+            "death-and-cessation"
+          ]
+        },
+        {
+          "id": "neutral-release",
+          "kind": "teaching",
+          "heading": "Bốn duyên của tâm không khổ không lạc",
+          "paragraphs": [
+            "Tâm giải thoát không khổ không lạc có bốn duyên: bỏ lạc, bỏ khổ, hỷ trước đó đã dứt, ưu trước đó đã dứt — tức niềm vui và nỗi buồn trong tâm trước đó đã lắng xuống. Vị tu nhập và an trú tứ thiền, không khổ không lạc, có niệm thanh tịnh nhờ xả. Xả là sự quân bình; niệm là sự nhớ biết."
+          ],
+          "meaningUnits": [
+            "neutral-release"
+          ]
+        },
+        {
+          "id": "signless-three-questions",
+          "kind": "teaching",
+          "heading": "Ba câu hỏi về vô tướng",
+          "paragraphs": [
+            "Tướng là dấu hiệu. Nhập vô tướng tâm giải thoát cần hai duyên: không chú tâm đến mọi tướng và chú tâm đến giới vô tướng, tức yếu tố vô tướng.",
+            "Duy trì trạng thái ấy cần ba duyên: hai điều trên cùng sự quyết định đã có từ trước. Xuất khỏi cần hai duyên: chú tâm đến mọi tướng và không chú tâm đến yếu tố vô tướng. Sự quyết định từ trước nằm riêng ở câu trả lời về duy trì."
+          ],
+          "meaningUnits": [
+            "signless-entry",
+            "signless-stay",
+            "signless-exit"
+          ]
+        },
+        {
+          "id": "four-releases",
+          "kind": "teaching",
+          "heading": "Bốn cách gọi có phải một điều?",
+          "paragraphs": [
+            "Mahākoṭṭhita hỏi bốn pháp — vô lượng tâm giải thoát, vô sở hữu tâm giải thoát, tâm giải thoát qua tính không, vô tướng tâm giải thoát — khác nhau cả nghĩa lẫn tên hay cùng nghĩa và chỉ khác tên. Sāriputta giữ cả hai cách xét, rồi trình bày cách chúng khác nhau trước.",
+            "Vô lượng tâm giải thoát: vị tu an trú với từ, bi, hỷ, xả. Từ mong điều lành; bi thương trước khổ; hỷ vui với điều tốt của người; xả giữ quân bình. Mỗi tâm lan phương thứ nhất, thứ hai, thứ ba, thứ tư; trên, dưới, ngang, khắp mọi nơi, đối với tất cả như với chính mình, trùm toàn thế giới, rộng lớn, cao cả, vô lượng, không thù hận, không ác ý.",
+            "Vô sở hữu tâm giải thoát: vượt hoàn toàn Thức vô biên xứ, nhận biết “không có gì cả”, nhập và an trú Vô sở hữu xứ.",
+            "Tâm giải thoát qua tính không: đến rừng, gốc cây hoặc một căn nhà trống và suy xét: “Cái này trống không đối với tự ngã hay cái thuộc về tự ngã.” Tự ngã là cái tôi, cái thuộc về tự ngã là cái của tôi.",
+            "Vô tướng tâm giải thoát: không chú tâm đến mọi tướng, nhập và an trú định tâm vô tướng. Theo cách xét về các sự thực hành và chứng đạt vừa mô tả, bốn pháp khác nhau cả nghĩa lẫn tên."
+          ],
+          "meaningUnits": [
+            "two-perspectives",
+            "limitless",
+            "nothingness",
+            "emptiness",
+            "signless"
+          ]
+        },
+        {
+          "id": "unshakable",
+          "kind": "teaching",
+          "heading": "Một điểm chung ở sự giải thoát bất động",
+          "paragraphs": [
+            "Theo cách xét chúng cùng nghĩa, tham, sân, si tạo ra giới hạn. Lậu hoặc là những ô nhiễm trói buộc sâu. Ở người đã đoạn tận lậu hoặc, cả ba đã được từ bỏ, cắt tận gốc như cây cọ bị chặt ngọn, khiến không còn hiện hữu và không thể sinh lại trong tương lai. Trong mọi vô lượng tâm giải thoát, tâm giải thoát bất động được gọi là cao nhất; nó trống không tham, sân, si.",
+            "Tham, sân, si còn là những “cái gì”, những vướng mắc. Ở bậc lậu tận, cả ba cũng được đoạn tận, cắt gốc hoàn toàn như thế. Trong các vô sở hữu tâm giải thoát, tâm giải thoát bất động là cao nhất, trống không cả ba.",
+            "Tham, sân, si cũng tạo ra tướng. Ở bậc lậu tận, chúng đã được bỏ và cắt gốc như thế, không thể sinh lại. Trong các vô tướng tâm giải thoát, tâm giải thoát bất động là cao nhất, trống không tham, sân, si. Khi xét sự giải thoát vững chắc và hoàn toàn sạch ba điều này, những tên trên cùng một ý nghĩa. Tính không được nêu ngay trong sự trống không tham, sân, si ấy."
+          ],
+          "meaningUnits": [
+            "no-limits",
+            "no-something",
+            "no-signs"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Từ nghĩa của từ đến việc cần tu tập",
+          "paragraphs": [
+            "Sāriputta kết thúc lời đáp; Mahākoṭṭhita hoan hỷ tán đồng. Cuối văn bản ghi Đại Kinh Phương Quảng, bài thứ ba trong nhóm. Các câu hỏi đã nối việc nhận biết kinh nghiệm với điều kiện của thiền định và sự giải thoát bất động."
+          ],
+          "meaningUnits": [
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Thử phân biệt trước khi kết luận",
+          "paragraphs": [
+            "Gợi ý của người biên soạn: chọn một lần mình tưởng đã hiểu rõ vì nhớ nhiều chi tiết. Ghi một điều thật sự biết, một điều còn cần hỏi và một điều cần buông trong cách phản ứng. Tìm lời giải thích đáng tin, thảo luận và xem xét kỹ. Đây là cách khởi đầu học hỏi theo tinh thần bài; nó không thay việc tu tập hoặc xác nhận một chứng đạt thiền."
+          ],
+          "meaningUnits": [
+            "different-tasks",
+            "right-view-conditions",
+            "right-view-supports",
+            "wisdom-goal"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Hỏi cho rõ, nhìn cho thấu, buông cho vững",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "meeting",
+          "kind": "teaching",
+          "heading": "Ngồi lại để hỏi cho rõ",
+          "paragraphs": [
+            "Người truyền kinh kể điều mình đã nghe trong Đại Kinh Phương Quảng, MN43. Một thời, Đức Phật ở Sāvatthī, tại rừng Jeta, tu viện Anāthapiṇḍika. Buổi chiều, Tôn giả Mahākoṭṭhita ra khỏi thiền tịnh, đến gặp Tôn giả Sāriputta. Sau khi chào hỏi thân thiện, Mahākoṭṭhita ngồi một bên và hỏi. Những lời giải thích sau đây là câu đáp của Sāriputta."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting"
+          ]
+        },
+        {
+          "id": "wise",
+          "kind": "teaching",
+          "heading": "Điều hiểu đưa mình đến đâu?",
+          "paragraphs": [
+            "Vì sao gọi một người là không có trí? Vì người ấy không hiểu khổ, nguồn gốc của khổ, sự chấm dứt khổ và con đường thực hành đưa đến chấm dứt khổ. Nghe lời đáp, Mahākoṭṭhita khen “Lành thay”, hoan hỷ tán đồng rồi hỏi tiếp.",
+            "Người có trí được gọi như vậy vì hiểu đủ bốn sự thật ấy. Câu hỏi về trí tuệ đưa việc hiểu về tận vấn đề khổ và sự thoát khổ."
+          ],
+          "meaningUnits": [
+            "unwise",
+            "approval",
+            "wise"
+          ]
+        },
+        {
+          "id": "experience-example",
+          "kind": "example",
+          "heading": "Còn một điều muốn hỏi",
+          "paragraphs": [
+            "Ví dụ hôm nay: khi trò chuyện trong gia đình, ta nhớ rất rõ một câu nói cũ và tin mình đã hiểu hết câu chuyện. Nhưng nhớ được lời nói vẫn còn để ngỏ những câu hỏi: người kia muốn nói gì, vì sao lòng mình còn nặng, điều gì cần nhìn lại? Đây là tình huống của người biên soạn, gợi một thái độ còn muốn nghe và hiểu, chưa phải lời xác nhận đã có trí tuệ giải thoát."
+          ],
+          "meaningUnits": [
+            "wise",
+            "different-tasks",
+            "right-view-conditions"
+          ]
+        },
+        {
+          "id": "consciousness-and-wisdom",
+          "kind": "teaching",
+          "heading": "Nhận biết và hiểu thấu",
+          "paragraphs": [
+            "Thức là sự nhận biết. Sāriputta nêu ba điều thức nhận biết: lạc, khổ và không khổ không lạc; có thể hiểu là dễ chịu, khó chịu và trung tính.",
+            "Trí tuệ và thức hòa lẫn, không tách rời để chỉ riêng từng pháp: điều được hiểu cũng được nhận biết, điều được nhận biết cũng được hiểu. Tuy vậy, công việc cần làm khác nhau. Trí tuệ cần được tu tập; thức cần được liễu tri, tức hiểu thấu đáo."
+          ],
+          "meaningUnits": [
+            "consciousness",
+            "wisdom-linked",
+            "different-tasks"
+          ]
+        },
+        {
+          "id": "three-aspects",
+          "kind": "teaching",
+          "heading": "Ba mặt gắn liền của kinh nghiệm",
+          "paragraphs": [
+            "Thọ là cảm nhận lạc, khổ hoặc không khổ không lạc. Tưởng là nhận ra; câu đáp nêu màu xanh, vàng, đỏ, trắng. Cùng với thức, sự nhận biết, đó là ba pháp được hỏi đến.",
+            "Sāriputta nói cả ba hòa lẫn, không thể tách riêng ra để mô tả: điều được cảm nhận cũng được nhận ra, điều được nhận ra cũng được nhận biết. Ta gọi tên từng mặt để hiểu, đồng thời thấy sự gắn liền của chúng."
+          ],
+          "meaningUnits": [
+            "feeling",
+            "perception",
+            "three-linked"
+          ]
+        },
+        {
+          "id": "mind-and-wisdom",
+          "kind": "teaching",
+          "heading": "Con mắt tuệ và việc từ bỏ",
+          "paragraphs": [
+            "Thức ý trong sạch, tách khỏi năm căn, có thể biết ba xứ: Không vô biên xứ qua nhận biết “không gian vô biên”; Thức vô biên xứ qua “thức vô biên”; Vô sở hữu xứ qua “không có gì cả”. Đây là những trạng thái thiền được cuộc đối thoại nêu tên.",
+            "Điều có thể được biết được hiểu bằng con mắt trí tuệ. Trí tuệ hướng đến biết trực tiếp, hiểu thấu đáo và từ bỏ. Việc biết và hiểu có đích đi tới là buông bỏ."
+          ],
+          "meaningUnits": [
+            "pure-mind",
+            "wisdom-eye",
+            "wisdom-goal"
+          ]
+        },
+        {
+          "id": "right-view",
+          "kind": "teaching",
+          "heading": "Nhờ đâu cái nhìn đúng được nuôi dưỡng?",
+          "paragraphs": [
+            "Chánh kiến, cái nhìn đúng, có hai duyên sinh khởi: tiếng nói từ người khác và chú tâm đúng cách. Nghe và biết hướng tâm suy xét cùng góp phần.",
+            "Chánh kiến có tâm giải thoát và tuệ giải thoát làm quả, làm lợi ích khi được năm điều hỗ trợ: giới, học hỏi, thảo luận, chỉ và quán. Giới là nếp sống đạo đức; chỉ làm tâm an tịnh; quán nhìn để hiểu rõ. Cả sự giải thoát của tâm và sự giải thoát bằng trí tuệ đều được nêu trong lời đáp."
+          ],
+          "meaningUnits": [
+            "right-view-conditions",
+            "right-view-supports"
+          ]
+        },
+        {
+          "id": "becoming",
+          "kind": "teaching",
+          "heading": "Đời sống mới và những điều kiện của nó",
+          "paragraphs": [
+            "Kinh nêu ba hữu, ba loại hiện hữu: dục hữu, sắc hữu và vô sắc hữu, liên hệ đến những thú vui của giác quan, hình sắc và không có hình sắc.",
+            "Một đời sống mới hình thành trong tương lai khi chúng sinh bị vô minh che, bị ái trói và vui thích chỗ này chỗ kia. Vô minh là không sáng rõ, ái là thèm khát níu giữ. Khi vô minh phai, minh sinh và ái diệt, đời sống mới trong tương lai không còn hình thành. Cặp câu hỏi nói đến tái sinh cùng sự chấm dứt tái sinh."
+          ],
+          "meaningUnits": [
+            "three-existences",
+            "future-existence",
+            "no-future-existence"
+          ]
+        },
+        {
+          "id": "first-jhana",
+          "kind": "teaching",
+          "heading": "Sơ thiền và năm chi có mặt",
+          "paragraphs": [
+            "Sơ thiền là tầng thiền thứ nhất. Một vị tỳ-kheo, người đã xuất gia, lìa dục và các pháp bất thiện, nhập và an trú sơ thiền với tầm, tứ, hỷ lạc sinh từ viễn ly, sự rời xa những điều ấy.",
+            "Năm chi sơ thiền là tầm, tứ, hỷ, lạc, nhất tâm: đặt tâm vào, giữ tâm gắn với, niềm hân hoan, sự dễ chịu và tâm quy tụ một mối."
+          ],
+          "meaningUnits": [
+            "first-jhana",
+            "five-factors"
+          ]
+        },
+        {
+          "id": "five-abandoned",
+          "kind": "teaching",
+          "heading": "Năm điều đã được từ bỏ",
+          "paragraphs": [
+            "Sơ thiền đã bỏ năm điều: dục tham; sân hận; hôn trầm và buồn ngủ; xao động và hối tiếc; nghi hoặc. Đồng thời năm chi tầm, tứ, hỷ, lạc, nhất tâm hiện diện. Vì vậy, khi nghe “năm”, cần phân biệt năm điều đã bỏ với năm điều đang có."
+          ],
+          "meaningUnits": [
+            "five-abandoned"
+          ]
+        },
+        {
+          "id": "faculties",
+          "kind": "teaching",
+          "heading": "Mỗi căn có một phạm vi",
+          "paragraphs": [
+            "Mắt, tai, mũi, lưỡi và thân là năm căn được nói ở đây. Chúng có đối tượng và phạm vi khác nhau, không trải nghiệm miền của nhau. Năm căn nương vào ý, và ý trải nghiệm những miền ấy."
+          ],
+          "meaningUnits": [
+            "senses-mind"
+          ]
+        },
+        {
+          "id": "mutual-support",
+          "kind": "teaching",
+          "heading": "Hai chiều nương tựa",
+          "paragraphs": [
+            "Để tiếp tục tồn tại, năm căn nương vào mạng sống. Mạng sống nương hơi ấm; hơi ấm lại nương mạng sống. Mahākoṭṭhita nhắc rõ mình đã nghe cả hai câu và hỏi phải hiểu nghĩa thế nào.",
+            "Sāriputta nói ví dụ giúp một số người có trí hiểu điều được giảng. Ở ngọn đèn dầu đang cháy, ánh sáng hiện ra nương vào ngọn lửa, ngọn lửa hiện ra nương vào ánh sáng. Cũng vậy, mạng sống và hơi ấm nương vào nhau."
+          ],
+          "meaningUnits": [
+            "vitality-warmth",
+            "lamp"
+          ]
+        },
+        {
+          "id": "vital-forces",
+          "kind": "teaching",
+          "heading": "Mạng hành khác những gì được cảm nhận",
+          "paragraphs": [
+            "Mạng hành là những yếu tố duy trì mạng sống. Chúng khác các pháp được cảm nhận. Sāriputta dùng trường hợp diệt thọ tưởng, chứng đạt thiền trong đó thọ và tưởng dừng, để giải thích: nếu hai thứ là một thì người nhập chứng đạt ấy không thể xuất khỏi. Vì hai thứ khác nhau nên vị ấy có thể xuất khỏi."
+          ],
+          "meaningUnits": [
+            "vital-forces-feeling"
+          ]
+        },
+        {
+          "id": "death-and-cessation",
+          "kind": "teaching",
+          "heading": "Phân biệt cái chết với diệt thọ tưởng",
+          "paragraphs": [
+            "Khi ba pháp là mạng sống, hơi ấm và thức rời thân, thân bị bỏ lại, nằm vô tri như khúc gỗ.",
+            "Cả người đã chết và vị nhập diệt thọ tưởng đều có thân hành, khẩu hành, tâm hành dừng và lắng — những hoạt động thuộc thân, lời và tâm. Người đã chết thì mạng sống hết, hơi ấm tan, các căn hư hoại. Vị nhập diệt thọ tưởng thì mạng sống chưa hết, hơi ấm chưa tan và các căn vẫn trong sáng."
+          ],
+          "meaningUnits": [
+            "abandoned-body",
+            "death-and-cessation"
+          ]
+        },
+        {
+          "id": "neutral-release",
+          "kind": "teaching",
+          "heading": "Không khổ không lạc và niệm thanh tịnh",
+          "paragraphs": [
+            "Có bốn duyên để nhập tâm giải thoát không khổ không lạc: bỏ lạc, bỏ khổ, hỷ trước đó đã dứt, ưu trước đó đã dứt. Hỷ và ưu ở câu này là niềm vui, nỗi buồn trong tâm trước đó. Vị tu nhập và an trú tứ thiền, không khổ không lạc, có niệm thanh tịnh nhờ xả. Niệm là sự nhớ biết; xả là sự quân bình của tâm."
+          ],
+          "meaningUnits": [
+            "neutral-release"
+          ]
+        },
+        {
+          "id": "signless",
+          "kind": "teaching",
+          "heading": "Nhập, duy trì và xuất khỏi vô tướng",
+          "paragraphs": [
+            "Tướng có nghĩa là dấu hiệu. Muốn nhập vô tướng tâm giải thoát, có hai duyên: không chú tâm mọi tướng và chú tâm đến giới vô tướng, tức yếu tố vô tướng.",
+            "Để duy trì, có ba duyên: hai điều trên cùng một sự quyết định từ trước. Để xuất khỏi, có hai duyên: chú tâm đến mọi tướng và không chú tâm đến yếu tố vô tướng. Mỗi câu hỏi có một câu trả lời riêng."
+          ],
+          "meaningUnits": [
+            "signless-entry",
+            "signless-stay",
+            "signless-exit"
+          ]
+        },
+        {
+          "id": "two-perspectives",
+          "kind": "teaching",
+          "heading": "Cùng tên gọi giải thoát, xét theo hai cách",
+          "paragraphs": [
+            "Mahākoṭṭhita hỏi về vô lượng tâm giải thoát, vô sở hữu tâm giải thoát, tâm giải thoát qua tính không và vô tướng tâm giải thoát. Bốn pháp khác cả nghĩa lẫn tên, hay cùng nghĩa chỉ khác tên? Sāriputta đáp có một cách xét khiến chúng khác nhau, và cũng có một cách xét khiến chúng cùng nghĩa. Ngài bắt đầu bằng những chỗ khác nhau."
+          ],
+          "meaningUnits": [
+            "two-perspectives"
+          ]
+        },
+        {
+          "id": "limitless",
+          "kind": "teaching",
+          "heading": "Tâm hướng đến toàn thế giới",
+          "paragraphs": [
+            "Vô lượng tâm giải thoát là an trú với từ, bi, hỷ, xả. Từ mong điều lành; bi thương trước khổ; hỷ vui với điều tốt của người; xả giữ quân bình.",
+            "Với mỗi tâm, vị tu lan tỏa phương thứ nhất, thứ hai, thứ ba, thứ tư; trên, dưới, ngang, khắp mọi nơi, đối với tất cả như với chính mình. Tâm lan khắp toàn thế giới, rộng lớn, cao cả, vô lượng, không thù hận và không ác ý."
+          ],
+          "meaningUnits": [
+            "limitless"
+          ]
+        },
+        {
+          "id": "nothingness-emptiness",
+          "kind": "teaching",
+          "heading": "Vô sở hữu và tính không",
+          "paragraphs": [
+            "Vô sở hữu tâm giải thoát là vượt hoàn toàn Thức vô biên xứ, nhận biết “không có gì cả”, rồi nhập và an trú Vô sở hữu xứ.",
+            "Tâm giải thoát qua tính không là đến rừng, gốc cây hoặc một căn nhà trống, rồi suy xét: “Cái này trống không đối với tự ngã hay cái thuộc về tự ngã.” Tự ngã là cái tôi; cái thuộc về tự ngã là cái của tôi."
+          ],
+          "meaningUnits": [
+            "nothingness",
+            "emptiness"
+          ]
+        },
+        {
+          "id": "signless-definition",
+          "kind": "teaching",
+          "heading": "Định tâm vô tướng",
+          "paragraphs": [
+            "Vô tướng tâm giải thoát là không chú tâm đến mọi tướng, nhập và an trú định tâm vô tướng. Qua những sự thực hành và chứng đạt vừa nêu, ta thấy cách bốn pháp khác nhau cả ý nghĩa lẫn tên gọi."
+          ],
+          "meaningUnits": [
+            "signless"
+          ]
+        },
+        {
+          "id": "unshakable",
+          "kind": "teaching",
+          "heading": "Sự vững chắc khi ba gốc bất thiện đã hết",
+          "paragraphs": [
+            "Sāriputta chuyển sang cách chúng cùng nghĩa. Tham, sân, si — thèm muốn, ghét giận và mê lầm — tạo ra giới hạn. Lậu hoặc là những ô nhiễm trói buộc sâu. Ở người đã đoạn tận lậu hoặc, tham, sân, si đã được bỏ, cắt tận gốc như cây cọ bị chặt ngọn, khiến không còn hiện hữu và không thể sinh lại trong tương lai. Trong các vô lượng tâm giải thoát, tâm giải thoát bất động được gọi là cao nhất; nó trống không cả ba.",
+            "Tham, sân, si còn là những “cái gì”, những vướng mắc. Ở người lậu tận, chúng đã được cắt gốc hoàn toàn như vừa nói. Trong các vô sở hữu tâm giải thoát, tâm giải thoát bất động là cao nhất, trống không tham, sân, si.",
+            "Tham, sân, si cũng tạo ra tướng. Ở người lậu tận, chúng đã được bỏ, cắt gốc như thế, không còn và không sinh lại. Trong các vô tướng tâm giải thoát, tâm giải thoát bất động là cao nhất, trống không cả ba. Nhìn vào sự giải thoát vững chắc, hoàn toàn sạch tham, sân, si, những tên này cùng một ý nghĩa."
+          ],
+          "meaningUnits": [
+            "no-limits",
+            "no-something",
+            "no-signs"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Niềm vui của một cuộc đối thoại được làm rõ",
+          "paragraphs": [
+            "Sāriputta nói xong, Mahākoṭṭhita hoan hỷ tán đồng. Dòng cuối ghi Đại Kinh Phương Quảng, bài thứ ba trong nhóm. Cuộc đối thoại vẫn giữ một hướng xuyên suốt: hiểu cho thấu và đi đến từ bỏ, giải thoát."
+          ],
+          "meaningUnits": [
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Tiếp tục nuôi một câu hỏi",
+          "paragraphs": [
+            "Gợi ý của người biên soạn: chọn một chữ trong bài mình đã nghe nhiều lần nhưng muốn hiểu rõ hơn. Có thể ghi lại, hỏi người có khả năng giải thích và đối chiếu câu trả lời với bài kinh. Khi thấy một điều đã hiểu sai, thử vui vì có cơ hội hiểu lại. Đây là một bước học hỏi và suy xét; những chứng đạt sâu được kể trong bài còn cần quá trình tu tập."
+          ],
+          "meaningUnits": [
+            "different-tasks",
+            "wisdom-goal",
+            "right-view-conditions",
+            "right-view-supports"
+          ]
+        }
+      ]
+    }
+  }
+}
