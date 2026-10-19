@@ -1,0 +1,1424 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn138",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn138_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "5d08bc6b6899313247b2c75f5b141b66d26c3122146386f8a7b39eec2637b396"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn138_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "80ed4fd68e857206571270e3344e121b3c8a2cf5ab80e457b8dabdc9fe39a5a3"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn138_translation-vi-project.json",
+      "commit": "65eb7cebf4888967bb7e85aabf01fa29b7534cd6",
+      "sha256": "2a0ad5efa9919a53054b170415c931d49ff25b4920b115b0efbf164aea22f39e"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn138.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "5cd73cd8ea87d5c61a44fb4124ad1793f82531bb8158928729cbc17285e7110b"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn138_comment-vi-project.json",
+      "commit": "65eb7cebf4888967bb7e85aabf01fa29b7534cd6",
+      "sha256": "16145e8da1b615fb4968203ea20a2c4f7e43c98289086e8d9e850a212beb46e7"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Tên bài",
+      "segments": [
+        "mn138:0.1",
+        "mn138:0.2"
+      ],
+      "summary": "Trung Bộ 138, Kinh Phân Biệt Tóm Lược; tóm ý rồi phân tích nghĩa."
+    },
+    {
+      "id": "opening",
+      "title": "Lời truyền, nơi ở và tiếng gọi",
+      "segments": [
+        "mn138:1.1",
+        "mn138:1.2",
+        "mn138:1.3",
+        "mn138:1.4",
+        "mn138:1.5",
+        "mn138:1.6"
+      ],
+      "summary": "Người truyền kinh kể đã nghe; Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika; gọi các tỳ-kheo và được đáp bạch Thế Tôn rồi nói."
+    },
+    {
+      "id": "promise",
+      "title": "Lắng nghe và chú tâm kỹ",
+      "segments": [
+        "mn138:2.1",
+        "mn138:2.2",
+        "mn138:2.3",
+        "mn138:2.4"
+      ],
+      "summary": "Phật hứa dạy phân biệt tóm lược, bảo nghe/chú tâm kỹ vì sẽ nói; các vị vâng, Ngài nói."
+    },
+    {
+      "id": "outline",
+      "title": "Quán sát để không bị cuốn và không bám",
+      "segments": [
+        "mn138:3.1",
+        "mn138:3.2"
+      ],
+      "summary": "Quán sát sao cho thức ở ngoài không tán loạn/không tán phát, bên trong không trú trước, không chấp thủ thì không lo âu. Khi đủ những điều này, tương lai không phát sinh sinh/già/chết và tập khởi khổ; giữ giải thoát, không chỉ bớt căng thẳng."
+    },
+    {
+      "id": "withdraw",
+      "title": "Phật đứng dậy vào phòng",
+      "segments": [
+        "mn138:4.1",
+        "mn138:4.2"
+      ],
+      "summary": "Phật nói xong; Thiện Thệ đứng dậy khỏi chỗ ngồi, vào nơi ở."
+    },
+    {
+      "id": "question",
+      "title": "Nhắc lời ngắn và tìm người giải nghĩa",
+      "segments": [
+        "mn138:5.1",
+        "mn138:5.2",
+        "mn138:5.3",
+        "mn138:5.4",
+        "mn138:5.5"
+      ],
+      "summary": "Không lâu sau, các tỳ-kheo nhắc toàn hai mệnh đề tóm lược, việc Phật chưa giảng rộng đã vào phòng, hỏi ai có thể phân tích nghĩa ấy."
+    },
+    {
+      "id": "choose",
+      "title": "Nghĩ đến Mahākaccāna",
+      "segments": [
+        "mn138:5.6",
+        "mn138:5.7",
+        "mn138:5.8",
+        "mn138:5.9"
+      ],
+      "summary": "Các vị nghĩ Mahākaccāna được Phật khen và bạn đồng tu có trí trọng, có khả năng giải nghĩa rộng; quyết định tới hỏi."
+    },
+    {
+      "id": "visit",
+      "title": "Chào rồi ngồi",
+      "segments": [
+        "mn138:6.1",
+        "mn138:6.2"
+      ],
+      "summary": "Các vị tới Mahākaccāna, trao đổi lời chào thân hữu, ngồi một bên và thưa."
+    },
+    {
+      "id": "report",
+      "title": "Thuật lời Phật và cuộc bàn bạc",
+      "segments": [
+        "mn138:6.3",
+        "mn138:6.4",
+        "mn138:6.5",
+        "mn138:6.6",
+        "mn138:6.7",
+        "mn138:6.8",
+        "mn138:6.9",
+        "mn138:6.10",
+        "mn138:6.11",
+        "mn138:6.12",
+        "mn138:6.13",
+        "mn138:6.14",
+        "mn138:6.15"
+      ],
+      "summary": "Các vị thuật lời tóm lược đủ điều kiện/hệ quả và việc Phật vào phòng; kể lại lúc họ đã nhắc chính lời ấy, hỏi ai giải rộng, nghĩ đến uy tín/khả năng Mahākaccāna và quyết định tới hỏi; xin ông phân tích. Có lớp nhắc lại lồng trong lời kể."
+    },
+    {
+      "id": "tree",
+      "title": "Tìm lõi nơi nhánh lá",
+      "segments": [
+        "mn138:7.1",
+        "mn138:7.2"
+      ],
+      "summary": "Mahākaccāna ví người cần/tìm lõi, gặp cây lớn đứng có lõi, bỏ rễ/thân mà tìm nhánh/lá; các vị đã gặp ngay Phật lại vượt qua Ngài hỏi chúng tôi."
+    },
+    {
+      "id": "teacher",
+      "title": "Những lời tôn kính Đức Phật",
+      "segments": [
+        "mn138:7.3"
+      ],
+      "summary": "Phật biết mà biết/thấy mà thấy, là bậc mắt/trí/Pháp/Phạm thiên, người nói/tuyên dạy/chỉ nghĩa, ban bất tử, chủ Pháp, Như Lai. Không tự đổi các danh xưng thành một thần sáng tạo."
+    },
+    {
+      "id": "right-time",
+      "title": "Lúc ấy nên hỏi chính Phật",
+      "segments": [
+        "mn138:7.4",
+        "mn138:7.5"
+      ],
+      "summary": "Chính lúc ấy là lúc nên hỏi Phật, ghi nhớ đúng lời Ngài giải; giữ thời quá khứ của Pāli/Anh/dự án, không đổi thành bây giờ mới là lúc như HTML."
+    },
+    {
+      "id": "agreement",
+      "title": "Đồng ý rồi vẫn xin giải",
+      "segments": [
+        "mn138:8.1",
+        "mn138:8.2",
+        "mn138:8.3",
+        "mn138:8.4",
+        "mn138:8.5",
+        "mn138:8.6"
+      ],
+      "summary": "Các vị xác nhận đủ lời tôn kính, nhận lúc ấy nên hỏi Phật và ghi nhớ đúng; nhưng Mahākaccāna được Phật khen/bạn trí trọng/có khả năng, nên vẫn xin giải, không ngại bỏ công."
+    },
+    {
+      "id": "listening",
+      "title": "Mahākaccāna nhận giảng",
+      "segments": [
+        "mn138:9.1",
+        "mn138:9.2",
+        "mn138:9.3"
+      ],
+      "summary": "Ông bảo nghe/chú tâm kỹ, sẽ nói; các vị vâng, ông bắt đầu."
+    },
+    {
+      "id": "preface",
+      "title": "Nêu cách mình hiểu bản tóm lược",
+      "segments": [
+        "mn138:9.4",
+        "mn138:9.5",
+        "mn138:9.6"
+      ],
+      "summary": "Mahākaccāna nhắc lời tóm lược và việc Phật chưa giải rộng vào phòng, đủ điều kiện/hệ quả, rồi nói đây là cách ông hiểu nghĩa rộng; giữ lời giải của đệ tử cho tới khi Phật xác nhận cuối."
+    },
+    {
+      "id": "outside",
+      "title": "Thức tán ra bên ngoài",
+      "segments": [
+        "mn138:10.1",
+        "mn138:10.2",
+        "mn138:10.3",
+        "mn138:10.4",
+        "mn138:10.5",
+        "mn138:10.6",
+        "mn138:10.7",
+        "mn138:10.8"
+      ],
+      "summary": "Với mắt/sắc, tai/tiếng, mũi/hương, lưỡi/vị, thân/xúc, ý/pháp: thức chạy theo tướng, bị trói/buộc/kết chặt vào vị ngọt tướng; gọi tán loạn/tán phát bên ngoài. Giữ cả biết pháp bằng ý, không coi bên ngoài chỉ năm giác quan."
+    },
+    {
+      "id": "outside-free",
+      "title": "Thức không tán ra bên ngoài",
+      "segments": [
+        "mn138:11.1",
+        "mn138:11.2",
+        "mn138:11.3",
+        "mn138:11.4",
+        "mn138:11.5",
+        "mn138:11.6",
+        "mn138:11.7",
+        "mn138:11.8"
+      ],
+      "summary": "Cả sáu cặp giác quan/đối tượng vẫn nhận biết, nhưng thức không chạy theo tướng và không trói/không buộc/không kết chặt vào vị ngọt; gọi không tán loạn/không tán phát bên ngoài."
+    },
+    {
+      "id": "inside-question",
+      "title": "Trú trước bên trong là gì",
+      "segments": [
+        "mn138:12.1"
+      ],
+      "summary": "Hỏi về tâm bám lại bên trong; phân biệt với an trú thiền, không đồng nhất có thiền với có chấp."
+    },
+    {
+      "id": "first-state",
+      "title": "Thiền thứ nhất",
+      "segments": [
+        "mn138:12.2"
+      ],
+      "summary": "Xa dục và pháp bất thiện, chứng/an trú thiền một, có tầm/tứ, hỷ lạc do ly dục sinh."
+    },
+    {
+      "id": "first-attachment",
+      "title": "Bám hỷ lạc do ly dục",
+      "segments": [
+        "mn138:12.3"
+      ],
+      "summary": "Thức chạy theo hỷ lạc do ly dục, bị trói/buộc/kết chặt vào vị ngọt của nó; đó là tâm trú trước bên trong."
+    },
+    {
+      "id": "second-state",
+      "title": "Thiền thứ hai",
+      "segments": [
+        "mn138:13.1"
+      ],
+      "summary": "Tầm/tứ lắng, nội tâm lắng trong/hợp nhất, không tầm/tứ, hỷ lạc do định; chứng/an trú thiền hai."
+    },
+    {
+      "id": "second-attachment",
+      "title": "Bám hỷ lạc do định",
+      "segments": [
+        "mn138:13.2"
+      ],
+      "summary": "Thức chạy theo hỷ lạc do định và bị trói/buộc/kết chặt vào vị ngọt của nó, nên trú trước bên trong."
+    },
+    {
+      "id": "third-state",
+      "title": "Thiền thứ ba",
+      "segments": [
+        "mn138:14.1"
+      ],
+      "summary": "Hỷ phai, sống xả, có niệm/tỉnh giác, thân cảm lạc; bậc Thánh gọi có xả/có niệm/sống trong lạc; chứng/an trú thiền ba."
+    },
+    {
+      "id": "third-attachment",
+      "title": "Chạy theo xả và bám vị ngọt lạc xả",
+      "segments": [
+        "mn138:14.2"
+      ],
+      "summary": "Thức chạy theo XẢ; ba sự trói/buộc/kết chặt là vào vị ngọt của LẠC XẢ; giữ hai phạm vi từ ngữ, gọi tâm trú trước."
+    },
+    {
+      "id": "fourth-state",
+      "title": "Thiền thứ tư",
+      "segments": [
+        "mn138:15.1"
+      ],
+      "summary": "Bỏ lạc/khổ, hỷ/ưu trước đã diệt, chứng/an trú thiền bốn không khổ/không lạc, xả niệm thanh tịnh."
+    },
+    {
+      "id": "fourth-attachment",
+      "title": "Bám cái không khổ không lạc",
+      "segments": [
+        "mn138:15.2",
+        "mn138:15.3"
+      ],
+      "summary": "Thức chạy theo không khổ/không lạc và trói/buộc/kết chặt vào vị ngọt; theo mạch 12–15, dự án/Anh/HTML và kết 15.3 là trú trước. Khóa 15.2 thật có asaṇṭhita nghịch mạch, ghi giới hạn nguồn riêng, không sửa root."
+    },
+    {
+      "id": "first-free",
+      "title": "Thiền một mà không bám",
+      "segments": [
+        "mn138:16.1",
+        "mn138:16.2",
+        "mn138:16.3"
+      ],
+      "summary": "Hỏi không trú trước: vẫn xa dục/bất thiện, chứng/an trú thiền một đầy công thức lược; thức không chạy theo hỷ lạc do ly dục, không trói/buộc/kết chặt vị ngọt; gọi không trú trước."
+    },
+    {
+      "id": "second-free",
+      "title": "Thiền hai mà không bám",
+      "segments": [
+        "mn138:17.1",
+        "mn138:17.2"
+      ],
+      "summary": "Vẫn chứng/an trú thiền hai từ tầm/tứ lắng theo công thức đã nêu; không chạy theo hỷ lạc do định, không trói/buộc/kết chặt vị ngọt, không trú trước."
+    },
+    {
+      "id": "third-free",
+      "title": "Thiền ba mà không bám",
+      "segments": [
+        "mn138:18.1",
+        "mn138:18.2"
+      ],
+      "summary": "Vẫn chứng/an trú thiền ba từ hỷ phai với công thức đã nêu; không chạy theo xả, không trói/buộc/kết chặt vị ngọt lạc xả, không trú trước."
+    },
+    {
+      "id": "fourth-free",
+      "title": "Thiền bốn mà không bám",
+      "segments": [
+        "mn138:19.1",
+        "mn138:19.2",
+        "mn138:19.3"
+      ],
+      "summary": "Bỏ lạc/khổ, hỷ/ưu trước diệt, chứng/an trú thiền bốn không khổ/lạc, xả niệm thanh tịnh; không chạy theo/trói/buộc/kết chặt vị ngọt không khổ/lạc; kết không trú trước."
+    },
+    {
+      "id": "anxiety-question",
+      "title": "Lo âu vì chấp thủ",
+      "segments": [
+        "mn138:20.1"
+      ],
+      "summary": "Hỏi lo âu vì chấp thủ; giữ cách hiểu theo mạch chấp năm uẩn và lựa chọn dự án/Anh, ghi anupādā trong notes, không tự đảo thành không chấp vẫn bị lo."
+    },
+    {
+      "id": "unlearned",
+      "title": "Người chưa được học",
+      "segments": [
+        "mn138:20.2"
+      ],
+      "summary": "Phàm phu chưa nghe pháp, không thấy/không khéo pháp/không được rèn pháp của bậc Thánh, và đủ ba điều ấy với người thiện."
+    },
+    {
+      "id": "form-self",
+      "title": "Bốn cách nhận sắc là ngã",
+      "segments": [
+        "mn138:20.3"
+      ],
+      "summary": "Xem sắc là ngã, ngã có sắc, sắc trong ngã hoặc ngã trong sắc; bốn cách riêng, không lặp hai cách như lỗi HTML SC26."
+    },
+    {
+      "id": "form-change",
+      "title": "Sắc đổi và tâm bị chiếm",
+      "segments": [
+        "mn138:20.4",
+        "mn138:20.5",
+        "mn138:20.6",
+        "mn138:20.7"
+      ],
+      "summary": "Sắc biến hoại/khác; thức chạy theo biến hoại; những lo âu và pháp khởi từ chạy theo chiếm trọn tâm; vì vậy kinh hãi/phiền não/khắc khoải/lo âu do chấp thủ. Không nói sắc không đổi mới hết lo."
+    },
+    {
+      "id": "other-self",
+      "title": "Cùng bốn cách ở bốn nhóm còn lại",
+      "segments": [
+        "mn138:20.8",
+        "mn138:20.9",
+        "mn138:20.10",
+        "mn138:20.11"
+      ],
+      "summary": "Thọ/tưởng/hành/thức cũng mỗi nhóm bị xem là ngã/ngã có nhóm/nhóm trong ngã/ngã trong nhóm: đủ hai mươi cách cùng sắc."
+    },
+    {
+      "id": "consciousness-change",
+      "title": "Bốn nhóm đổi và lo âu",
+      "segments": [
+        "mn138:20.12",
+        "mn138:20.13",
+        "mn138:20.14",
+        "mn138:20.15",
+        "mn138:20.16"
+      ],
+      "summary": "Thức biến hoại/khác, thức chạy theo biến hoại của thức; lo âu/pháp khởi chiếm tâm, kinh hãi/phiền não/khắc khoải/lo vì chấp. Các nhóm thọ/tưởng/hành được lược cùng công thức, giữ phạm vi mỗi nhóm; kết lo vì chấp thủ."
+    },
+    {
+      "id": "free-question",
+      "title": "Không bị lo âu vì chấp thủ",
+      "segments": [
+        "mn138:21.1"
+      ],
+      "summary": "Hỏi nhánh không lo âu vì chấp thủ, đối với nhánh vừa nêu."
+    },
+    {
+      "id": "learned",
+      "title": "Đệ tử đã được học",
+      "segments": [
+        "mn138:21.2"
+      ],
+      "summary": "Thánh đệ tử nghe pháp, thấy/khéo biết/được rèn pháp Thánh và thấy/khéo biết/được rèn pháp người thiện; đối xứng đủ hai nhóm ba mặt."
+    },
+    {
+      "id": "form-not-self",
+      "title": "Bốn phủ định đối với sắc",
+      "segments": [
+        "mn138:21.3"
+      ],
+      "summary": "Không xem sắc là ngã, ngã có sắc, sắc trong ngã, ngã trong sắc; cả bốn đều phủ định."
+    },
+    {
+      "id": "form-untroubled",
+      "title": "Sắc vẫn đổi mà tâm không bị chiếm",
+      "segments": [
+        "mn138:21.4",
+        "mn138:21.5",
+        "mn138:21.6",
+        "mn138:21.7"
+      ],
+      "summary": "Sắc vẫn biến hoại/khác; thức không chạy theo biến hoại, lo âu và pháp khởi từ chạy theo không chiếm tâm; không kinh hãi/phiền não/khắc khoải/lo do chấp. 21.7 dự án diễn đủ phủ định theo mạch, không đảo nghĩa do chữ pariyādānā đứng một mình."
+    },
+    {
+      "id": "other-not-self",
+      "title": "Bốn phủ định ở từng nhóm còn lại",
+      "segments": [
+        "mn138:21.8",
+        "mn138:21.9",
+        "mn138:21.10",
+        "mn138:21.11"
+      ],
+      "summary": "Không xem thọ/tưởng/hành/thức theo bốn cách ngã như sắc; đủ hai mươi phủ định, không chỉ phủ định mỗi nhóm là tôi."
+    },
+    {
+      "id": "consciousness-untroubled",
+      "title": "Thức vẫn đổi mà không bị cuốn",
+      "segments": [
+        "mn138:21.12",
+        "mn138:21.13",
+        "mn138:21.14",
+        "mn138:21.15",
+        "mn138:21.16"
+      ],
+      "summary": "Thức vẫn biến hoại/khác, thức không chạy theo sự đổi của thức; lo âu/pháp khởi không chiếm tâm, không kinh hãi/phiền não/khắc khoải/lo do chấp. Thọ/tưởng/hành cùng nhánh công thức; kết không lo vì chấp thủ."
+    },
+    {
+      "id": "summary",
+      "title": "Khép lời phân tích bằng lời tóm lược",
+      "segments": [
+        "mn138:22.1",
+        "mn138:22.2",
+        "mn138:22.3",
+        "mn138:22.4"
+      ],
+      "summary": "Mahākaccāna nhắc đủ quán sát/thức không tán ngoài/không trú trong/không chấp không lo và tương lai không sinh già chết/tập khởi khổ; nói đó là cách ông hiểu nghĩa rộng của lời Phật."
+    },
+    {
+      "id": "invite",
+      "title": "Nếu muốn thì hỏi lại Phật",
+      "segments": [
+        "mn138:22.5",
+        "mn138:22.6"
+      ],
+      "summary": "Nếu muốn, các vị có thể tới hỏi chính Phật; ghi nhớ đúng như Phật giải. Giữ điều kiện nếu muốn."
+    },
+    {
+      "id": "return",
+      "title": "Hoan hỷ rồi đến Phật",
+      "segments": [
+        "mn138:23.1"
+      ],
+      "summary": "Các vị vui mừng/tán đồng lời Kaccāna, đứng dậy tới Phật, đảnh lễ/ngồi một bên rồi thưa."
+    },
+    {
+      "id": "recite",
+      "title": "Thưa lại lời ban đầu",
+      "segments": [
+        "mn138:23.2",
+        "mn138:23.3",
+        "mn138:23.4"
+      ],
+      "summary": "Nhắc Phật đã nói ngắn chưa giải rộng rồi vào phòng; thuật lại đủ lời tóm lược với điều kiện và hệ quả tương lai."
+    },
+    {
+      "id": "recount",
+      "title": "Kể lại đường tới lời giải",
+      "segments": [
+        "mn138:23.5",
+        "mn138:23.6",
+        "mn138:23.7",
+        "mn138:23.8",
+        "mn138:23.9",
+        "mn138:23.10",
+        "mn138:23.11",
+        "mn138:23.12",
+        "mn138:23.13",
+        "mn138:23.14",
+        "mn138:23.15"
+      ],
+      "summary": "Các vị thuật lúc không lâu sau Phật đi, nhắc lại toàn lời ấy và hỏi ai giải; nhận uy tín/khả năng Mahākaccāna nên quyết tới, thực tới hỏi và được phân tích bằng các phương cách/từ ngữ/văn cú ấy."
+    },
+    {
+      "id": "confirmation",
+      "title": "Phật xác nhận nghĩa",
+      "segments": [
+        "mn138:24.1",
+        "mn138:24.2",
+        "mn138:24.3"
+      ],
+      "summary": "Phật khen Mahākaccāna hiền trí/đại tuệ; nếu được hỏi Ngài cũng giải như vậy; đó đúng là nghĩa, nên ghi nhớ như vậy. Không gán lời chứng quả cho người nghe."
+    },
+    {
+      "id": "ending",
+      "title": "Hoan hỷ và kết bài",
+      "segments": [
+        "mn138:24.4",
+        "mn138:24.5",
+        "mn138:24.6"
+      ],
+      "summary": "Phật nói xong, các tỳ-kheo hoan hỷ/tán đồng. Kinh Phân Biệt Tóm Lược kết, bài thứ tám trong nhóm này."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Diễn giải dành cho trẻ em",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Một lời dạy ngắn trong rừng Jeta",
+          "meaningUnits": [
+            "title",
+            "opening",
+            "promise"
+          ],
+          "paragraphs": [
+            "Kinh Phân Biệt Tóm Lược là bài 138 của Trung Bộ. Người truyền kinh kể điều mình đã nghe: Phật ở Sāvatthī, trong rừng Jeta, tại tu viện Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những nam tu sĩ đã thọ giới đầy đủ, tức nhận các giới luật dành cho tỳ-kheo. Các thầy kính đáp.",
+            "Phật nói sẽ dạy bản tóm lược và cách phân tích nghĩa, bảo các thầy lắng nghe, chú tâm kỹ. Các thầy vâng lời, rồi Ngài nói."
+          ]
+        },
+        {
+          "id": "outline",
+          "kind": "teaching",
+          "heading": "Không bị cuốn ra ngoài, không bám lại bên trong",
+          "meaningUnits": [
+            "outline",
+            "withdraw"
+          ],
+          "paragraphs": [
+            "Người tu cần xem xét sao cho thức, hoạt động nhận biết, không tán loạn và tản rộng ra ngoài; bên trong không mắc lại. Không chấp thủ, tức không nắm chặt làm của mình, thì không bị lo âu cuốn lấy.",
+            "Khi đủ những điều ấy, trong tương lai không còn sinh khởi sự tái sinh, già, chết và khổ. Phật nói xong, đứng dậy đi vào phòng ở. Lời ngắn ấy hướng đến một sự giải thoát rất sâu."
+          ]
+        },
+        {
+          "id": "seeking",
+          "kind": "teaching",
+          "heading": "Các thầy đi tìm người giải thích",
+          "meaningUnits": [
+            "question",
+            "choose",
+            "visit",
+            "report"
+          ],
+          "paragraphs": [
+            "Không lâu sau, các thầy nhắc lại cả lời hướng dẫn xem xét lẫn kết quả không phát sinh sinh, già, chết và khổ. Phật đã nói ngắn rồi vào phòng, chưa giải thích rộng. Ai có thể giúp hiểu rõ hơn?",
+            "Các thầy nghĩ đến Mahākaccāna: vị này được Phật khen, được các bạn đồng tu có trí kính trọng và có khả năng giải nghĩa. Họ quyết định đến hỏi. Gặp ông, họ chào hỏi thân tình rồi ngồi một bên.",
+            "Họ thuật lại lời Phật đầy đủ, cả việc đã nhắc lời ấy cho nhau và băn khoăn ai giải được; kể vì sao nghĩ đến Mahākaccāna rồi tới đây. Họ xin ông giải thích."
+          ]
+        },
+        {
+          "id": "heartwood",
+          "kind": "teaching",
+          "heading": "Tìm lõi cây ở đâu?",
+          "meaningUnits": [
+            "tree",
+            "teacher",
+            "right-time"
+          ],
+          "paragraphs": [
+            "Mahākaccāna kể một ví dụ: người cần lõi cây đi tìm, đứng trước cây lớn có lõi, lại bỏ qua rễ và thân để tìm ở cành lá. Các thầy cũng đã ở ngay trước Phật mà đi hỏi ông về ý nghĩa ấy.",
+            "Ông tôn kính Phật là bậc biết rõ, thấy rõ; bậc mắt, bậc trí, bậc Pháp và bậc Phạm thiên. Ba danh xưng bậc mắt, bậc trí, bậc Pháp nói Ngài là hiện thân của sự thấy rõ, trí tuệ và Pháp, lời dạy. Phạm thiên là tên một vị trời, được dùng trong chuỗi danh xưng tôn kính này. Phật là người nói, tuyên dạy, chỉ bày nghĩa, ban sự bất tử — sự giải thoát khỏi sinh tử — là chủ của Pháp, là Như Lai, một danh hiệu của Phật.",
+            "Ngay lúc còn ở trước Phật, các thầy nên hỏi Ngài và ghi nhớ đúng lời Ngài giải thích."
+          ]
+        },
+        {
+          "id": "request",
+          "kind": "teaching",
+          "heading": "Mahākaccāna nhận lời",
+          "meaningUnits": [
+            "agreement",
+            "listening",
+            "preface"
+          ],
+          "paragraphs": [
+            "Các thầy đồng ý với đầy đủ những lời tôn kính ấy, nhận rằng lúc ấy nên hỏi Phật và ghi nhớ lời Ngài. Nhưng họ vẫn xin Mahākaccāna giúp nếu không ngại bỏ công, vì ông được Phật khen, bạn đồng tu có trí trọng và có khả năng giải nghĩa.",
+            "Ông bảo hãy lắng nghe, chú tâm kỹ; các thầy vâng. Nhắc lại lời Phật về không tán ra ngoài, không bám bên trong, không chấp nên không lo và kết quả chấm dứt sinh, già, chết, khổ trong tương lai, cùng việc Phật chưa giảng rộng đã vào phòng, ông nói: đây là cách mình hiểu rộng nghĩa ấy."
+          ]
+        },
+        {
+          "id": "outside",
+          "kind": "teaching",
+          "heading": "Khi sự nhận biết chạy theo một điều hấp dẫn",
+          "meaningUnits": [
+            "outside"
+          ],
+          "paragraphs": [
+            "Mắt thấy hình, tai nghe tiếng, mũi ngửi mùi, lưỡi nếm vị, thân cảm xúc chạm, ý biết những điều hiện trong tâm. Ở từng cửa ấy, thức có thể chạy theo tướng, những nét của điều vừa được biết.",
+            "Khi thức bị trói, bị buộc, bị kết chặt vào “vị ngọt”, sự hấp dẫn dễ chịu của những nét ấy, đó là thức tán loạn, tản rộng ra bên ngoài. Cả điều được ý nhận biết cũng nằm trong phần này."
+          ]
+        },
+        {
+          "id": "outside-free",
+          "kind": "teaching",
+          "heading": "Vẫn thấy và nghe mà không bị kéo đi",
+          "meaningUnits": [
+            "outside-free"
+          ],
+          "paragraphs": [
+            "Cũng mắt thấy hình, tai nghe tiếng, mũi ngửi mùi, lưỡi nếm vị, thân nhận xúc chạm và ý biết điều trong tâm; nhưng thức không chạy theo những nét ấy. Nó không bị trói, không bị buộc, không bị kết chặt vào sự hấp dẫn của chúng. Đó là thức không tán loạn, không tản rộng bên ngoài."
+          ]
+        },
+        {
+          "id": "screen-example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: bài hát cứ chạy trong đầu",
+          "meaningUnits": [
+            "outside",
+            "outside-free"
+          ],
+          "paragraphs": [
+            "Em nghe một bài hát thích quá, cứ nghĩ về đoạn điệp khúc và muốn bật lại mãi. Ví dụ hiện đại này giúp hình dung việc tâm chạy theo một điều dễ chịu. Nhận ra mình đang bị cuốn, em có thể dừng lại và quay về việc đang làm. Phần dạy trong kinh còn đi xa hơn, tới việc buông chấp thủ."
+          ]
+        },
+        {
+          "id": "first",
+          "kind": "teaching",
+          "heading": "Sự dễ chịu bên trong cũng có thể thành chỗ bám",
+          "meaningUnits": [
+            "inside-question",
+            "first-state",
+            "first-attachment"
+          ],
+          "paragraphs": [
+            "Mahākaccāna giải tiếp: thế nào là tâm mắc lại bên trong? Một vị tu xa những thú vui giác quan và những điều bất thiện, không lành, đạt được (chứng) rồi ở trong thiền thứ nhất. Thiền này có tầm và tứ — đưa tâm tới, giữ tâm với đối tượng — cùng hỷ là niềm vui, lạc là sự dễ chịu do xa dục sinh.",
+            "Nếu thức chạy theo hỷ lạc ấy, bị trói, buộc, kết chặt vào vị ngọt của nó, tâm được gọi là mắc lại bên trong."
+          ]
+        },
+        {
+          "id": "second",
+          "kind": "teaching",
+          "heading": "Niềm vui do định",
+          "meaningUnits": [
+            "second-state",
+            "second-attachment"
+          ],
+          "paragraphs": [
+            "Tầm và tứ lắng xuống, nội tâm trong yên, quy tụ, không còn tầm tứ; vị ấy chứng và ở trong thiền thứ hai. Có hỷ lạc do định, sự tập trung vững vàng của tâm, sinh ra.",
+            "Nếu thức chạy theo hỷ lạc do định, bị trói, buộc, kết chặt vào vị ngọt của nó, tâm vẫn mắc lại bên trong."
+          ]
+        },
+        {
+          "id": "third",
+          "kind": "teaching",
+          "heading": "Tâm quân bình và sự an vui",
+          "meaningUnits": [
+            "third-state",
+            "third-attachment"
+          ],
+          "paragraphs": [
+            "Hỷ phai đi, vị ấy giữ xả (tâm quân bình), có niệm (sự nhớ biết) và biết rõ; thân cảm sự dễ chịu. Vị ấy chứng và ở trong thiền thứ ba. Các bậc Thánh gọi đó là người có xả, có niệm, sống an vui.",
+            "Nếu thức chạy theo xả ấy và bị trói, buộc, kết chặt vào vị ngọt của sự an vui cùng xả, tâm cũng mắc lại bên trong."
+          ]
+        },
+        {
+          "id": "fourth",
+          "kind": "teaching",
+          "heading": "Ngay cả trạng thái không khổ không lạc",
+          "meaningUnits": [
+            "fourth-state",
+            "fourth-attachment"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ cả lạc và khổ, tức sự dễ chịu và khó chịu; niềm vui và buồn bực trước đó đã diệt. Chứng và ở trong thiền thứ tư, vị ấy không khổ không lạc, có xả và niệm thanh tịnh.",
+            "Nếu thức chạy theo trạng thái không khổ không lạc, bị trói, buộc, kết chặt vào vị ngọt của nó, đó vẫn là bám lại bên trong. Cả bốn trường hợp vừa kể đều chỉ rõ chỗ tâm còn bám."
+          ]
+        },
+        {
+          "id": "free-first-second",
+          "kind": "teaching",
+          "heading": "Có thiền mà không bám niềm vui",
+          "meaningUnits": [
+            "first-free",
+            "second-free"
+          ],
+          "paragraphs": [
+            "Ở chiều ngược lại, vị ấy vẫn xa dục và điều không lành, chứng và ở trong thiền thứ nhất với tầm tứ, hỷ lạc do xa dục. Nhưng thức không chạy theo hỷ lạc ấy, không bị trói, buộc hay kết chặt vào vị ngọt của nó. Đó là không mắc lại bên trong.",
+            "Ở thiền thứ hai, tầm tứ đã lắng, nội tâm trong yên, hợp nhất, không còn tầm tứ, hỷ lạc do định sinh. Vị ấy chứng và ở trong đó, mà thức không chạy theo hỷ lạc do định, không bị trói, buộc, kết chặt vào vị ngọt ấy. Tâm không mắc lại."
+          ]
+        },
+        {
+          "id": "free-third-fourth",
+          "kind": "teaching",
+          "heading": "Có xả mà không giữ chặt",
+          "meaningUnits": [
+            "third-free",
+            "fourth-free"
+          ],
+          "paragraphs": [
+            "Ở thiền thứ ba, hỷ phai, có xả, niệm, biết rõ và thân cảm lạc. Các bậc Thánh gọi đó là có xả, có niệm, sống an vui. Vị ấy chứng và ở trong thiền ấy, nhưng thức không chạy theo xả, không bị trói, buộc, kết chặt vào vị ngọt của lạc cùng xả.",
+            "Ở thiền thứ tư, bỏ lạc và khổ, vui buồn trước đã diệt, vị ấy chứng và ở trong trạng thái không khổ không lạc, xả niệm thanh tịnh. Thức không chạy theo trạng thái ấy, không bị trói, buộc, kết chặt vào vị ngọt của nó. Như vậy là không mắc lại bên trong."
+          ]
+        },
+        {
+          "id": "self",
+          "kind": "teaching",
+          "heading": "Vì sao sự thay đổi lại gây lo âu?",
+          "meaningUnits": [
+            "anxiety-question",
+            "unlearned",
+            "form-self",
+            "form-change"
+          ],
+          "paragraphs": [
+            "Đến phần lo âu vì chấp thủ, Mahākaccāna nói về người phàm chưa nghe học Pháp. Người ấy chưa thấy bậc Thánh, chưa khéo hiểu và chưa được rèn trong lời dạy của họ; với những người thiện cũng chưa thấy, chưa khéo hiểu và chưa được rèn trong lời dạy.",
+            "Người ấy nhìn sắc, phần thân thể và vật chất, theo bốn cách: sắc là “cái tôi”; một “cái tôi” có sắc; sắc ở trong “cái tôi”; hoặc “cái tôi” ở trong sắc.",
+            "Sắc biến đổi, trở thành khác. Thức chạy theo sự đổi ấy; những lo âu và các trạng thái nảy sinh từ việc chạy theo chiếm trọn tâm. Người ấy kinh hãi, phiền muộn, khắc khoải và lo âu vì bám chấp."
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Cảm giác, nhận ra, ý muốn và nhận biết",
+          "meaningUnits": [
+            "other-self",
+            "consciousness-change"
+          ],
+          "paragraphs": [
+            "Bốn cách nhận làm “cái tôi” cũng được áp vào từng nhóm còn lại: thọ, cảm giác dễ chịu, khó chịu hoặc trung tính, không dễ chịu cũng không khó chịu; tưởng, sự nhận ra; hành, những hoạt động tâm như ý muốn; và thức, sự nhận biết.",
+            "Với mỗi nhóm, người ấy có thể xem nó là cái tôi, cái tôi có nó, nó ở trong cái tôi, hoặc cái tôi ở trong nó. Cùng với sắc, đó là năm nhóm, mỗi nhóm bốn cách bám.",
+            "Cảm giác, tưởng, hành và thức đều đổi khác. Với từng nhóm, thức chạy theo sự đổi ấy; lo âu cùng các trạng thái sinh từ việc chạy theo chiếm trọn tâm, khiến kinh hãi, phiền muộn, khắc khoải, lo âu. Riêng thức cũng đổi và có thể chạy theo chính sự thay đổi của nó."
+          ]
+        },
+        {
+          "id": "learning",
+          "kind": "teaching",
+          "heading": "Sắc vẫn đổi, cách nhìn đã khác",
+          "meaningUnits": [
+            "free-question",
+            "learned",
+            "form-not-self",
+            "form-untroubled"
+          ],
+          "paragraphs": [
+            "Chiều không bị lo âu vì chấp thủ bắt đầu từ một đệ tử bậc Thánh đã nghe học Pháp. Vị ấy đã thấy bậc Thánh, khéo hiểu và được rèn trong lời dạy của họ; cũng đã thấy người thiện, khéo hiểu và được rèn trong lời dạy của những người ấy.",
+            "Vị ấy không xem sắc là cái tôi, không xem cái tôi có sắc, không xem sắc trong cái tôi, không xem cái tôi trong sắc. Sắc vẫn biến đổi và trở thành khác, nhưng thức không chạy theo sự đổi ấy.",
+            "Vì thế, những lo âu và trạng thái sinh từ việc chạy theo không chiếm trọn tâm. Vị ấy không kinh hãi, không phiền muộn, không khắc khoải, không bị lo âu vì chấp thủ."
+          ]
+        },
+        {
+          "id": "other-free",
+          "kind": "teaching",
+          "heading": "Không bám cả những điều trong tâm",
+          "meaningUnits": [
+            "other-not-self",
+            "consciousness-untroubled"
+          ],
+          "paragraphs": [
+            "Với mỗi nhóm thọ, tưởng, hành và thức, vị ấy cũng không nhận nhóm ấy là cái tôi, không nhận cái tôi có nó, không nhận nó trong cái tôi hay cái tôi trong nó. Mỗi nhóm đều có đủ bốn điều không chấp ấy.",
+            "Các nhóm vẫn đổi khác, kể cả sự nhận biết. Với từng nhóm, thức không chạy theo sự đổi; lo âu và những trạng thái sinh từ việc chạy theo không chiếm tâm. Không bị chiếm trọn như vậy, vị ấy không kinh hãi, phiền muộn, khắc khoải hay lo âu vì chấp thủ."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một lần nhìn lại khi việc không như ý",
+          "meaningUnits": [
+            "outside-free",
+            "form-untroubled",
+            "other-not-self"
+          ],
+          "paragraphs": [
+            "Nếu tranh em vẽ bị nhòe, em có thể nhận ra tiếc nuối và ý muốn giữ mọi thứ nguyên như trước, rồi chọn sửa tranh hoặc làm lại. Đây là gợi ý hiện đại để tập nhìn một phản ứng mà không để nó chiếm hết tâm. Việc tu trong kinh hướng tới buông chấp thủ sâu xa, không chỉ vượt qua một lần buồn."
+          ]
+        },
+        {
+          "id": "summary",
+          "kind": "teaching",
+          "heading": "Trở lại lời dạy ban đầu",
+          "meaningUnits": [
+            "summary",
+            "invite"
+          ],
+          "paragraphs": [
+            "Mahākaccāna nhắc lại: xem xét để thức không tán loạn, không tản rộng bên ngoài, không mắc lại bên trong; không chấp thủ thì không lo âu. Khi đủ những điều này, về sau không còn sự tái sinh, già, chết và khổ khởi lên. Đó là cách ông hiểu rộng lời Phật đã nói ngắn.",
+            "Nếu các thầy muốn, họ có thể đến hỏi chính Phật, rồi ghi nhớ đúng như Ngài giải thích."
+          ]
+        },
+        {
+          "id": "return",
+          "kind": "teaching",
+          "heading": "Các thầy trở về hỏi Phật",
+          "meaningUnits": [
+            "return",
+            "recite",
+            "recount"
+          ],
+          "paragraphs": [
+            "Các thầy vui mừng tán đồng, đứng dậy đến Phật, kính lễ rồi ngồi một bên. Họ thưa lại đầy đủ lời tóm lược, cả điều kiện xem xét và kết quả tương lai, cùng việc Ngài đã vào phòng mà chưa giải rộng.",
+            "Họ kể lại lúc đã nhắc những lời ấy cho nhau, hỏi ai giải nghĩa được, nghĩ đến sự kính trọng và khả năng của Mahākaccāna nên quyết định đi hỏi. Họ đã tới hỏi thật và được ông phân tích theo các cách, từ ngữ, văn cú vừa trình bày."
+          ]
+        },
+        {
+          "id": "confirmation",
+          "kind": "teaching",
+          "heading": "Lời giải được xác nhận",
+          "meaningUnits": [
+            "confirmation",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật khen Mahākaccāna hiền trí và có trí tuệ lớn. Nếu các thầy hỏi Ngài, Ngài cũng giải thích đúng như vậy. Đó chính là ý nghĩa, hãy ghi nhớ như thế.",
+            "Nghe Phật nói, các thầy hoan hỷ tán đồng. Kinh Phân Biệt Tóm Lược kết thúc, là bài thứ tám trong nhóm kinh này."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Diễn giải dành cho người trưởng thành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Lời ngắn đặt ra một việc quán sát sâu",
+          "meaningUnits": [
+            "title",
+            "opening",
+            "promise",
+            "outline",
+            "withdraw"
+          ],
+          "paragraphs": [
+            "Kinh Phân Biệt Tóm Lược, Trung Bộ 138, mở bằng lời người truyền kinh thuật điều đã nghe. Tại Sāvatthī, trong rừng Jeta, tu viện Anāthapiṇḍika, Phật gọi các tỳ-kheo, những nam tu sĩ đã thọ giới đầy đủ, tức nhận các giới luật dành cho tỳ-kheo. Họ kính đáp. Ngài báo sẽ giảng bản tóm lược và sự phân tích, dặn lắng nghe, chú tâm kỹ; họ vâng lời.",
+            "Ngài dạy người tu quán sát sao cho thức, hoạt động nhận biết, không tán loạn hay tản rộng bên ngoài, không mắc lại bên trong; không chấp thủ, nắm chặt làm mình hay của mình, thì không lo âu. Khi đủ những điều ấy, về sau không có sự sinh khởi của tái sinh, già, chết và khổ. Nói xong, Ngài đứng dậy khỏi chỗ ngồi, vào phòng ở."
+          ]
+        },
+        {
+          "id": "seeking",
+          "kind": "teaching",
+          "heading": "Vì sao các vị tìm đến Mahākaccāna?",
+          "meaningUnits": [
+            "question",
+            "choose",
+            "visit",
+            "report"
+          ],
+          "paragraphs": [
+            "Không lâu sau, các tỳ-kheo nhắc lại trọn lời dạy, cả các điều kiện quán sát lẫn kết quả trong tương lai. Phật đã vào phòng khi lời ngắn ấy chưa được giải rộng; ai có thể phân tích nghĩa? Họ nghĩ tới Mahākaccāna, người được Phật khen, được những bạn đồng tu có trí kính trọng và có khả năng giải thích, rồi quyết định đến hỏi.",
+            "Họ chào hỏi thân tình, ngồi một bên và thuật lại toàn lời Phật. Trong lời thuật có cả cuộc bàn bạc vừa qua: họ đã nhắc chính lời ấy, tự hỏi ai giải được, nghĩ tới uy tín cùng khả năng của Mahākaccāna và chọn đến đây. Họ đề nghị ông phân tích nghĩa rộng."
+          ]
+        },
+        {
+          "id": "heartwood",
+          "kind": "teaching",
+          "heading": "Người tìm lõi cây lại tìm ở cành lá",
+          "meaningUnits": [
+            "tree",
+            "teacher",
+            "right-time",
+            "agreement",
+            "listening",
+            "preface"
+          ],
+          "paragraphs": [
+            "Mahākaccāna ví việc ấy với người cần và đi tìm lõi cây: gặp một cây lớn đang đứng, có lõi, mà bỏ rễ và thân để tìm ở cành lá. Các vị vừa ở ngay trước Phật, lại vượt qua Ngài để hỏi ông.",
+            "Ông tôn kính Phật là bậc biết rõ, thấy rõ; là bậc mắt, bậc trí, bậc Pháp, bậc Phạm thiên. Ba danh xưng bậc mắt, bậc trí, bậc Pháp nói Ngài là hiện thân của sự thấy rõ, trí tuệ và Pháp, lời dạy. Phạm thiên là tên một vị trời, ở đây nằm trong chuỗi danh xưng tôn kính. Phật là người nói, tuyên dạy, chỉ bày nghĩa, ban sự bất tử — giải thoát khỏi sinh tử — là chủ của Pháp và là Như Lai, một danh hiệu của Phật. Ngay lúc ấy các vị nên hỏi chính Phật, rồi ghi nhớ đúng lời Ngài giải.",
+            "Các vị xác nhận đầy đủ những lời ấy và nhận rằng lúc đó nên hỏi Phật. Tuy vậy, vì Mahākaccāna được Phật khen, bạn đồng tu có trí trọng và có năng lực giải nghĩa, họ vẫn xin ông giúp nếu không ngại bỏ công. Ông bảo nghe và chú tâm kỹ; họ vâng. Ông nhắc lại đủ lời tóm lược, điều kiện và hệ quả, việc Phật vào phòng chưa giảng rộng, rồi nói đây là cách ông hiểu nghĩa ấy."
+          ]
+        },
+        {
+          "id": "outward",
+          "kind": "teaching",
+          "heading": "Thức bị ràng buộc vào sự hấp dẫn của đối tượng",
+          "meaningUnits": [
+            "outside",
+            "outside-free"
+          ],
+          "paragraphs": [
+            "Mahākaccāna bắt đầu với sáu trường hợp: mắt thấy sắc, tai nghe tiếng, mũi ngửi hương, lưỡi nếm vị, thân nhận xúc chạm, ý nhận biết pháp, những đối tượng của tâm. Ở mỗi trường hợp, thức chạy theo tướng, các nét của đối tượng, rồi bị trói, bị buộc, bị kết chặt vào vị ngọt hay sự hấp dẫn của những nét ấy. Đó là thức tán loạn, tản rộng ra ngoài.",
+            "Chiều ngược lại vẫn gồm đủ sáu tiếp nhận ấy. Thức không chạy theo tướng, không bị trói, không bị buộc, không bị kết chặt vào vị ngọt của tướng. Đó là không tán loạn, không tản rộng ra ngoài. Ngay điều được ý biết cũng thuộc phạm vi đang xét."
+          ]
+        },
+        {
+          "id": "notifications",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: một lời khen kéo dài cả buổi",
+          "meaningUnits": [
+            "outside",
+            "outside-free"
+          ],
+          "paragraphs": [
+            "Bạn nhận lời khen cho một bản báo cáo, rồi liên tục mở lại tin nhắn, mong có thêm lời khen, khó tập trung vào phần việc kế tiếp. Ví dụ này làm rõ sức kéo của một nét dễ chịu. Việc nhận lời khen và việc để sức hấp dẫn của nó điều khiển tâm là hai diễn biến có thể quan sát riêng."
+          ]
+        },
+        {
+          "id": "first",
+          "kind": "teaching",
+          "heading": "Bám vào hỷ lạc do xa dục",
+          "meaningUnits": [
+            "inside-question",
+            "first-state",
+            "first-attachment"
+          ],
+          "paragraphs": [
+            "Còn mắc lại bên trong là thế nào? Một vị tu xa dục, những thú vui giác quan, và xa các pháp bất thiện, những trạng thái không lành. Vị ấy đạt được (chứng) rồi an trú, sống trong thiền thứ nhất, có tầm và tứ — đưa tâm đến và giữ tâm với đối tượng — cùng hỷ, niềm vui, và lạc, sự dễ chịu, do sự xa dục sinh ra.",
+            "Nếu thức chạy theo hỷ lạc ấy và bị trói, buộc, kết chặt vào vị ngọt của nó, tâm mắc lại bên trong. Niềm vui trong một thành tựu thiền cũng có thể là chỗ bị nắm giữ."
+          ]
+        },
+        {
+          "id": "second",
+          "kind": "teaching",
+          "heading": "Bám vào hỷ lạc do định",
+          "meaningUnits": [
+            "second-state",
+            "second-attachment"
+          ],
+          "paragraphs": [
+            "Tầm và tứ lắng xuống, nội tâm lắng trong và thống nhất, không còn tầm tứ; vị ấy chứng và sống trong thiền thứ hai, có hỷ lạc do định, sự tập trung vững vàng của tâm, sinh ra.",
+            "Thức chạy theo hỷ lạc do định, bị trói, buộc, kết chặt vào vị ngọt ấy: đây cũng là tâm mắc lại bên trong."
+          ]
+        },
+        {
+          "id": "third",
+          "kind": "teaching",
+          "heading": "Bám vào an vui cùng xả",
+          "meaningUnits": [
+            "third-state",
+            "third-attachment"
+          ],
+          "paragraphs": [
+            "Hỷ phai nhạt, vị ấy sống với xả (sự quân bình), có niệm (sự nhớ biết) và tỉnh giác (biết rõ); thân cảm lạc. Vị ấy chứng và sống trong thiền thứ ba, trạng thái mà các bậc Thánh nói là có xả, có niệm, sống an vui.",
+            "Ở đây thức chạy theo xả, rồi bị trói, buộc, kết chặt vào vị ngọt của lạc cùng xả. Sự quân bình ấy cũng trở thành chỗ tâm mắc lại khi bị bám giữ."
+          ]
+        },
+        {
+          "id": "fourth",
+          "kind": "teaching",
+          "heading": "Bám ngay cả trạng thái trung tính",
+          "meaningUnits": [
+            "fourth-state",
+            "fourth-attachment"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ lạc và khổ, tức sự dễ chịu và khó chịu. Niềm vui và buồn bực trước đó đã diệt; vị ấy chứng và sống trong thiền thứ tư, không khổ không lạc, xả và niệm thanh tịnh.",
+            "Nếu thức chạy theo cái không khổ không lạc ấy, bị trói, buộc, kết chặt vào vị ngọt của nó, tâm vẫn mắc lại bên trong. Bốn trường hợp đã đi từ niềm vui do xa dục đến trạng thái không khổ không lạc, và trường hợp nào cũng xét đúng chỗ thức bám."
+          ]
+        },
+        {
+          "id": "unattached-first-two",
+          "kind": "teaching",
+          "heading": "Cũng hai thiền đầu ấy, thức không bị buộc",
+          "meaningUnits": [
+            "first-free",
+            "second-free"
+          ],
+          "paragraphs": [
+            "Ở nhánh không mắc lại, vị tu vẫn xa dục và pháp bất thiện, chứng và sống trong thiền thứ nhất với tầm tứ, hỷ lạc do xa dục sinh. Thức không chạy theo hỷ lạc ấy, không bị trói, buộc hay kết chặt vào vị ngọt của nó. Đó là không mắc lại bên trong.",
+            "Vị ấy cũng có thể chứng và sống trong thiền thứ hai: tầm tứ lắng, nội tâm lắng trong và thống nhất, không tầm không tứ, hỷ lạc do định sinh. Thức không chạy theo hỷ lạc do định, không bị trói, buộc, kết chặt vào vị ngọt ấy. Tâm không mắc lại."
+          ]
+        },
+        {
+          "id": "unattached-latter-two",
+          "kind": "teaching",
+          "heading": "Cũng xả ấy, không giữ thành chỗ bám",
+          "meaningUnits": [
+            "third-free",
+            "fourth-free"
+          ],
+          "paragraphs": [
+            "Trong thiền thứ ba, hỷ phai, vị ấy có xả, niệm, tỉnh giác, thân cảm lạc; chứng và sống như lời bậc Thánh gọi là có xả, có niệm, sống an vui. Thức không chạy theo xả, không bị trói, buộc, kết chặt vào vị ngọt của lạc cùng xả. Tâm không mắc lại.",
+            "Trong thiền thứ tư, vị ấy bỏ lạc và khổ, vui buồn trước đã diệt; chứng và sống trong trạng thái không khổ không lạc, xả niệm thanh tịnh. Thức không chạy theo trạng thái ấy, không bị trói, buộc, kết chặt vào vị ngọt của nó. Đây cũng là không mắc lại bên trong."
+          ]
+        },
+        {
+          "id": "identity",
+          "kind": "teaching",
+          "heading": "Bốn cách đặt một cái tôi vào sắc",
+          "meaningUnits": [
+            "anxiety-question",
+            "unlearned",
+            "form-self",
+            "form-change"
+          ],
+          "paragraphs": [
+            "Phần kế tiếp giải lo âu vì chấp thủ. Người phàm chưa nghe học Pháp chưa thấy bậc Thánh, chưa khéo hiểu và chưa được rèn trong Pháp của họ; cũng chưa thấy những người thiện, chưa khéo hiểu và chưa được rèn trong Pháp của những người ấy.",
+            "Người ấy nhìn sắc, phần vật chất và thân thể, theo bốn cách: sắc là ngã, cái tôi; cái tôi có sắc; sắc ở trong cái tôi; cái tôi ở trong sắc. Sắc rồi biến đổi, trở thành khác. Thức chạy theo biến đổi ấy. Những lo âu và các trạng thái sinh từ việc chạy theo chiếm trọn tâm, khiến người ấy kinh hãi, phiền não, khắc khoải và lo âu vì chấp thủ."
+          ]
+        },
+        {
+          "id": "five-groups",
+          "kind": "teaching",
+          "heading": "Cả những gì đang diễn ra trong tâm cũng đổi",
+          "meaningUnits": [
+            "other-self",
+            "consciousness-change"
+          ],
+          "paragraphs": [
+            "Cùng bốn cách nhận làm ngã ấy được áp vào thọ, cảm giác dễ chịu, khó chịu hoặc trung tính, không dễ chịu cũng không khó chịu; tưởng, sự nhận diện; hành, các hoạt động tâm như ý muốn; thức, sự nhận biết. Với từng nhóm, người ấy xem nhóm ấy là cái tôi, cái tôi có nhóm ấy, nhóm ấy trong cái tôi, hoặc cái tôi trong nhóm ấy. Kể cả sắc, đó là năm nhóm với bốn cách mỗi nhóm.",
+            "Ở từng nhóm thọ, tưởng, hành và thức, sự biến đổi cũng xảy ra; thức chạy theo biến đổi của nhóm ấy. Lo âu và các trạng thái nảy sinh từ việc chạy theo chiếm tâm, dẫn tới kinh hãi, phiền não, khắc khoải, lo âu vì chấp thủ. Đến trường hợp thức, chính sự nhận biết đổi khác và thức lại chạy theo sự đổi của thức."
+          ]
+        },
+        {
+          "id": "learning",
+          "kind": "teaching",
+          "heading": "Học để thấy sự đổi mà không bị chiếm trọn",
+          "meaningUnits": [
+            "free-question",
+            "learned",
+            "form-not-self",
+            "form-untroubled"
+          ],
+          "paragraphs": [
+            "Nhánh không lo âu vì chấp thủ nói về đệ tử bậc Thánh đã nghe học Pháp. Vị ấy đã thấy bậc Thánh, khéo hiểu và được rèn trong Pháp của họ; đã thấy những người thiện, khéo hiểu và được rèn trong Pháp của họ.",
+            "Vị ấy không xem sắc là cái tôi, không xem cái tôi có sắc, không xem sắc trong cái tôi, không xem cái tôi trong sắc. Sắc vẫn biến đổi, trở thành khác. Thức không chạy theo sự biến đổi; lo âu và các trạng thái khởi sinh từ việc chạy theo không chiếm trọn tâm. Do vậy vị ấy không kinh hãi, không phiền não, không khắc khoải, không lo âu vì chấp thủ."
+          ]
+        },
+        {
+          "id": "all-five-free",
+          "kind": "teaching",
+          "heading": "Bốn điều không chấp ở từng nhóm",
+          "meaningUnits": [
+            "other-not-self",
+            "consciousness-untroubled"
+          ],
+          "paragraphs": [
+            "Với từng nhóm thọ, tưởng, hành và thức, vị ấy cũng không xem nó là cái tôi, không xem cái tôi có nó, không xem nó trong cái tôi, không xem cái tôi trong nó. Cả năm nhóm đều được nhìn theo đầy đủ bốn điều không chấp ấy.",
+            "Từng nhóm vẫn thay đổi. Thức không chạy theo sự đổi của thọ, tưởng, hành hay thức; những lo âu và trạng thái phát sinh từ sự chạy theo không chiếm tâm. Vì tâm không bị chiếm trọn, vị ấy không kinh hãi, phiền não, khắc khoải hay lo âu vì chấp thủ. Điều này áp dụng cả khi chính thức biến đổi."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Nhìn lại lúc thành quả không còn như trước",
+          "meaningUnits": [
+            "form-change",
+            "other-self",
+            "form-untroubled",
+            "other-not-self"
+          ],
+          "paragraphs": [
+            "Một dự án từng làm bạn tự hào nay cần sửa gần hết. Bạn có thể tự hỏi: “Mình đang xử lý công việc, hay đang cố bảo vệ ý nghĩ rằng giá trị của mình phải nằm nguyên trong thành quả này?” Đây là câu hỏi thực hành hiện đại để nhận diện sự bám giữ. Nó mở một lối quan sát trong đời thường; lời dạy của kinh còn hướng tới buông chấp thủ và giải thoát khỏi sinh tử."
+          ]
+        },
+        {
+          "id": "summary",
+          "kind": "teaching",
+          "heading": "Lời phân tích trở về lời tóm lược",
+          "meaningUnits": [
+            "summary",
+            "invite"
+          ],
+          "paragraphs": [
+            "Mahākaccāna nhắc lại hướng quán sát: thức không tán loạn, không tản rộng bên ngoài; bên trong không mắc lại; không chấp thủ nên không lo âu. Khi đủ các điều ấy, về sau không còn sự tái sinh, già, chết và khổ khởi lên. Ông nói đó là cách mình hiểu rộng lời Phật đã nêu ngắn.",
+            "Nếu muốn, các vị có thể đến hỏi Phật về nghĩa ấy, rồi ghi nhớ đúng như Ngài giải thích."
+          ]
+        },
+        {
+          "id": "return",
+          "kind": "teaching",
+          "heading": "Lời giải được trình lại và xác nhận",
+          "meaningUnits": [
+            "return",
+            "recite",
+            "recount",
+            "confirmation",
+            "ending"
+          ],
+          "paragraphs": [
+            "Các tỳ-kheo hoan hỷ tán đồng, đứng dậy tới Phật, kính lễ rồi ngồi một bên. Họ thuật lại đủ lời tóm lược, cả điều kiện và hệ quả tương lai, cùng việc Ngài vào phòng khi chưa giải rộng. Họ kể cả cuộc bàn bạc không lâu sau đó: đã nhắc lại toàn lời ấy, tìm người giải nghĩa, nghĩ đến uy tín và khả năng của Mahākaccāna, quyết định rồi thực sự đến hỏi. Ông đã phân tích bằng các phương cách, từ ngữ và văn cú như họ vừa trình.",
+            "Phật khen Mahākaccāna hiền trí, có trí tuệ lớn. Nếu được hỏi, Ngài cũng giải nghĩa như vậy; đó chính là nghĩa, hãy ghi nhớ như thế. Các tỳ-kheo hoan hỷ tán đồng lời Phật. Kinh Phân Biệt Tóm Lược kết thúc, là bài thứ tám trong nhóm kinh này."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Diễn giải dành cho người lớn tuổi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Lắng nghe lời tóm lược",
+          "meaningUnits": [
+            "title",
+            "opening",
+            "promise"
+          ],
+          "paragraphs": [
+            "Kinh Phân Biệt Tóm Lược thuộc Trung Bộ, bài 138. Người truyền kinh kể lại điều đã nghe: Phật đang ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những nam tu sĩ đã thọ giới đầy đủ, tức nhận các giới luật dành cho tỳ-kheo; các vị kính đáp.",
+            "Phật báo sẽ dạy lời tóm lược và phần phân tích, nhắc các vị lắng nghe, chú tâm kỹ vì Ngài sắp nói. Các vị vâng lời."
+          ]
+        },
+        {
+          "id": "direction",
+          "kind": "teaching",
+          "heading": "Quán sát để buông chấp thủ",
+          "meaningUnits": [
+            "outline",
+            "withdraw"
+          ],
+          "paragraphs": [
+            "Lời dạy là: hãy quán sát sao cho thức, sự nhận biết, không tán loạn, không tản rộng ra ngoài; bên trong không mắc lại. Khi không chấp thủ, tức không nắm chặt làm mình hay của mình, thì không lo âu.",
+            "Với đủ những điều ấy, trong tương lai không còn phát sinh tái sinh, già, chết và khổ. Nói xong, Phật đứng dậy khỏi chỗ ngồi, đi vào phòng ở. Lời tóm lược mở một hướng tu đưa tới giải thoát sinh tử."
+          ]
+        },
+        {
+          "id": "asking",
+          "kind": "teaching",
+          "heading": "Các vị muốn hiểu cho thật rõ",
+          "meaningUnits": [
+            "question",
+            "choose",
+            "visit",
+            "report"
+          ],
+          "paragraphs": [
+            "Không lâu sau khi Phật đi, các tỳ-kheo nhắc lại toàn lời vừa nghe, đủ điều kiện quán sát và kết quả tương lai. Ngài đã vào phòng, chưa giải nghĩa rộng. Các vị cùng hỏi ai có thể làm sáng tỏ lời này.",
+            "Các vị nghĩ đến Mahākaccāna, người được Phật khen, được bạn đồng tu có trí kính trọng và có khả năng phân tích. Quyết định tới hỏi, các vị đến chào hỏi thân tình, rồi ngồi một bên.",
+            "Các vị thuật lại đầy đủ lời Phật; kể cả việc mình đã nhắc lời ấy cho nhau, hỏi ai giải được, nghĩ tới uy tín cùng khả năng của Mahākaccāna và quyết định đến đây. Họ xin ông giải nghĩa rộng."
+          ]
+        },
+        {
+          "id": "tree",
+          "kind": "teaching",
+          "heading": "Người đi tìm lõi cây",
+          "meaningUnits": [
+            "tree",
+            "teacher",
+            "right-time"
+          ],
+          "paragraphs": [
+            "Mahākaccāna đưa hình ảnh một người cần lõi cây và đi tìm lõi. Đứng trước cây lớn có lõi, người ấy bỏ qua rễ và thân mà tìm ở cành lá. Các vị vừa gặp ngay Phật, lại đi qua Ngài để hỏi ông.",
+            "Ông nhắc đủ những lời tôn kính: Phật biết rõ, thấy rõ; là bậc mắt, bậc trí, bậc Pháp, bậc Phạm thiên. Ba danh xưng bậc mắt, bậc trí, bậc Pháp nói Ngài là hiện thân của sự thấy rõ, trí tuệ và Pháp, lời dạy. Phạm thiên là tên một vị trời, được dùng ở đây trong chuỗi danh xưng tôn kính. Ngài là người nói, tuyên dạy, chỉ bày nghĩa, ban sự bất tử, tức giải thoát khỏi sinh tử; là chủ của Pháp và là Như Lai, một danh hiệu của Phật.",
+            "Lúc còn ở trước Phật chính là lúc các vị nên hỏi Ngài, rồi ghi nhớ đúng lời Ngài giải thích."
+          ]
+        },
+        {
+          "id": "acceptance",
+          "kind": "teaching",
+          "heading": "Lời thỉnh cầu được nhận",
+          "meaningUnits": [
+            "agreement",
+            "listening",
+            "preface"
+          ],
+          "paragraphs": [
+            "Các vị xác nhận đầy đủ những lời tôn kính ấy, nhận rằng lúc đó nên hỏi Phật và ghi nhớ lời giải. Nhưng Mahākaccāna được Phật khen, được bạn đồng tu có trí trọng, lại có khả năng giải rộng; các vị vẫn xin ông không ngại bỏ công.",
+            "Ông dặn lắng nghe, chú tâm kỹ; các vị vâng. Ông nhắc lại trọn lời tóm lược cùng kết quả tương lai, việc Phật chưa giải rộng đã vào phòng. Sau đó ông trình bày cách mình hiểu nghĩa ấy."
+          ]
+        },
+        {
+          "id": "outside",
+          "kind": "teaching",
+          "heading": "Khi tâm chạy theo một nét hấp dẫn",
+          "meaningUnits": [
+            "outside"
+          ],
+          "paragraphs": [
+            "Mắt thấy sắc, tai nghe tiếng, mũi ngửi hương, lưỡi nếm vị, thân cảm xúc chạm, ý nhận biết các pháp, những đối tượng của tâm. Với từng trường hợp trong sáu trường hợp ấy, thức chạy theo tướng, những nét của điều được biết.",
+            "Thức bị trói, bị buộc, bị kết chặt vào vị ngọt, sự hấp dẫn của những nét ấy. Như vậy gọi là thức tán loạn, tản rộng bên ngoài. Cả điều được ý biết cũng có thể cuốn thức theo cách này."
+          ]
+        },
+        {
+          "id": "outside-free",
+          "kind": "teaching",
+          "heading": "Tiếp nhận mà không bị ràng buộc",
+          "meaningUnits": [
+            "outside-free"
+          ],
+          "paragraphs": [
+            "Vẫn là mắt thấy sắc, tai nghe tiếng, mũi ngửi hương, lưỡi nếm vị, thân cảm xúc chạm, ý biết điều trong tâm. Nhưng ở từng trường hợp, thức không chạy theo tướng, không bị trói, không bị buộc, không bị kết chặt vào vị ngọt ấy. Đó là thức không tán loạn, không tản rộng ra ngoài."
+          ]
+        },
+        {
+          "id": "album",
+          "kind": "example",
+          "heading": "Ví dụ gần gũi: một tấm ảnh cũ",
+          "meaningUnits": [
+            "outside",
+            "outside-free"
+          ],
+          "paragraphs": [
+            "Một tấm ảnh cũ có thể gợi niềm vui rất đẹp. Xem ảnh rồi nhận biết niềm vui là một việc; cứ muốn mọi người và mọi cảnh phải trở lại y hệt ngày ấy là một diễn biến khác. Ví dụ hiện đại này giúp ta nhận ra lúc tâm bắt đầu bị một điều hấp dẫn níu giữ."
+          ]
+        },
+        {
+          "id": "first",
+          "kind": "teaching",
+          "heading": "Hỷ lạc do xa dục",
+          "meaningUnits": [
+            "inside-question",
+            "first-state",
+            "first-attachment"
+          ],
+          "paragraphs": [
+            "Thế nào là mắc lại bên trong? Vị tu xa dục, những thú vui giác quan, và xa các pháp bất thiện, những điều không lành. Vị ấy đạt được (chứng) rồi an trú, sống trong thiền thứ nhất. Thiền này có tầm và tứ, đưa tâm đến rồi giữ tâm với đối tượng, có hỷ là niềm vui và lạc là sự dễ chịu do xa dục sinh.",
+            "Nếu thức chạy theo hỷ lạc ấy, bị trói, buộc, kết chặt vào vị ngọt của nó, tâm mắc lại bên trong."
+          ]
+        },
+        {
+          "id": "second",
+          "kind": "teaching",
+          "heading": "Hỷ lạc do tâm định",
+          "meaningUnits": [
+            "second-state",
+            "second-attachment"
+          ],
+          "paragraphs": [
+            "Khi tầm tứ lắng xuống, nội tâm lắng trong, thống nhất, không còn tầm và tứ, vị ấy chứng rồi sống trong thiền thứ hai. Hỷ lạc này do định, sự tập trung vững vàng của tâm, sinh ra.",
+            "Nếu thức chạy theo hỷ lạc do định, bị trói, buộc, kết chặt vào vị ngọt ấy, tâm vẫn mắc lại bên trong."
+          ]
+        },
+        {
+          "id": "third",
+          "kind": "teaching",
+          "heading": "Sự quân bình cũng cần được hiểu đúng",
+          "meaningUnits": [
+            "third-state",
+            "third-attachment"
+          ],
+          "paragraphs": [
+            "Hỷ phai nhạt, vị ấy sống với xả (tâm quân bình), có niệm (sự nhớ biết) và tỉnh giác (biết rõ); thân cảm lạc. Vị ấy chứng và sống trong thiền thứ ba, điều mà các bậc Thánh gọi là có xả, có niệm, sống an vui.",
+            "Thức chạy theo xả, bị trói, buộc, kết chặt vào vị ngọt của sự an vui cùng xả. Như vậy tâm cũng mắc lại bên trong."
+          ]
+        },
+        {
+          "id": "fourth",
+          "kind": "teaching",
+          "heading": "Không khổ không lạc vẫn có thể bị bám",
+          "meaningUnits": [
+            "fourth-state",
+            "fourth-attachment"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ lạc và khổ, tức sự dễ chịu và khó chịu; niềm vui cùng buồn bực trước đó đã diệt. Vị ấy chứng và sống trong thiền thứ tư. Ở đây không khổ không lạc, xả và niệm thanh tịnh.",
+            "Nếu thức chạy theo cái không khổ không lạc ấy, bị trói, buộc, kết chặt vào vị ngọt của nó, tâm vẫn mắc lại. Qua cả bốn thiền, Mahākaccāna chỉ đúng điều được chạy theo và sự hấp dẫn mà thức còn bị buộc vào."
+          ]
+        },
+        {
+          "id": "free-first",
+          "kind": "teaching",
+          "heading": "Thiền thứ nhất mà không bám",
+          "meaningUnits": [
+            "first-free"
+          ],
+          "paragraphs": [
+            "Ở chiều không mắc lại, vị ấy cũng xa dục, xa pháp bất thiện, chứng và sống trong thiền thứ nhất với tầm tứ, hỷ lạc do xa dục sinh. Thức không chạy theo hỷ lạc ấy, không bị trói, buộc, kết chặt vào vị ngọt của nó. Tâm không mắc lại bên trong."
+          ]
+        },
+        {
+          "id": "free-second",
+          "kind": "teaching",
+          "heading": "Thiền thứ hai mà không bám",
+          "meaningUnits": [
+            "second-free"
+          ],
+          "paragraphs": [
+            "Vị ấy chứng và sống trong thiền thứ hai: tầm tứ đã lắng, nội tâm lắng trong, thống nhất, không tầm không tứ, có hỷ lạc do định sinh. Thức không chạy theo hỷ lạc này, không bị trói, buộc, kết chặt vào vị ngọt của nó. Như vậy tâm không mắc lại."
+          ]
+        },
+        {
+          "id": "free-third",
+          "kind": "teaching",
+          "heading": "Thiền thứ ba mà không bám",
+          "meaningUnits": [
+            "third-free"
+          ],
+          "paragraphs": [
+            "Hỷ phai, vị ấy có xả, niệm, tỉnh giác, thân cảm lạc; chứng và sống trong thiền thứ ba như lời bậc Thánh gọi: có xả, có niệm, sống an vui. Thức không chạy theo xả, không bị trói, buộc, kết chặt vào vị ngọt của lạc cùng xả. Tâm không mắc lại."
+          ]
+        },
+        {
+          "id": "free-fourth",
+          "kind": "teaching",
+          "heading": "Thiền thứ tư mà không bám",
+          "meaningUnits": [
+            "fourth-free"
+          ],
+          "paragraphs": [
+            "Bỏ lạc, bỏ khổ, vui buồn trước đó đã diệt, vị ấy chứng và sống trong thiền thứ tư không khổ không lạc, xả niệm thanh tịnh. Thức không chạy theo trạng thái này, không bị trói, buộc, kết chặt vào vị ngọt của nó. Đó cũng là không mắc lại bên trong."
+          ]
+        },
+        {
+          "id": "body",
+          "kind": "teaching",
+          "heading": "Sắc đổi khác và sự lo âu vì chấp thủ",
+          "meaningUnits": [
+            "anxiety-question",
+            "unlearned",
+            "form-self",
+            "form-change"
+          ],
+          "paragraphs": [
+            "Mahākaccāna giải tiếp về lo âu vì chấp thủ. Người phàm chưa nghe học Pháp chưa thấy bậc Thánh, chưa khéo hiểu và chưa được rèn trong Pháp của họ; với những người thiện cũng chưa thấy, chưa khéo hiểu, chưa được rèn trong Pháp.",
+            "Người ấy nhận sắc, phần thân thể và vật chất, là cái tôi; hoặc cái tôi có sắc; hoặc sắc nằm trong cái tôi; hoặc cái tôi nằm trong sắc. Đó là bốn cách nhận làm ngã.",
+            "Sắc biến đổi, trở thành khác. Thức chạy theo sự đổi ấy. Lo âu và những trạng thái phát sinh từ việc chạy theo chiếm trọn tâm. Vì tâm bị chiếm, người ấy kinh hãi, phiền não, khắc khoải và lo âu vì bám chấp."
+          ]
+        },
+        {
+          "id": "mental-groups",
+          "kind": "teaching",
+          "heading": "Bốn nhóm còn lại cũng chịu sự thay đổi",
+          "meaningUnits": [
+            "other-self",
+            "consciousness-change"
+          ],
+          "paragraphs": [
+            "Thọ là cảm giác dễ chịu, khó chịu hoặc trung tính, không dễ chịu cũng không khó chịu; tưởng là sự nhận diện; hành là các hoạt động tâm như ý muốn; thức là sự nhận biết. Với từng nhóm trong bốn nhóm này, người ấy cũng xem nó là cái tôi, cái tôi có nó, nó trong cái tôi, hoặc cái tôi trong nó. Cùng với sắc, đủ năm nhóm, mỗi nhóm bốn cách chấp.",
+            "Từng nhóm thọ, tưởng, hành, thức đều đổi khác. Khi thức chạy theo sự đổi của nhóm ấy, lo âu cùng những trạng thái khởi sinh từ việc chạy theo chiếm tâm; người ấy kinh hãi, phiền não, khắc khoải, lo âu vì chấp thủ. Thức cũng có thể chạy theo chính sự biến đổi của thức."
+          ]
+        },
+        {
+          "id": "learned",
+          "kind": "teaching",
+          "heading": "Được học và rèn luyện trong Pháp",
+          "meaningUnits": [
+            "free-question",
+            "learned",
+            "form-not-self",
+            "form-untroubled"
+          ],
+          "paragraphs": [
+            "Thế nào là không lo âu vì chấp thủ? Đệ tử bậc Thánh đã nghe học Pháp, đã thấy bậc Thánh, khéo hiểu và được rèn trong Pháp của họ. Với những người thiện, vị ấy cũng đã thấy, khéo hiểu và được rèn trong Pháp.",
+            "Vị ấy không nhận sắc là cái tôi, không nhận cái tôi có sắc, không nhận sắc trong cái tôi, không nhận cái tôi trong sắc. Sắc vẫn biến đổi, vẫn thành khác. Nhưng thức không chạy theo sự đổi ấy; lo âu và những trạng thái sinh từ việc chạy theo không chiếm trọn tâm.",
+            "Tâm không bị chiếm nên vị ấy không kinh hãi, không phiền não, không khắc khoải, không lo âu vì chấp thủ."
+          ]
+        },
+        {
+          "id": "mental-free",
+          "kind": "teaching",
+          "heading": "Không nhận cả sự nhận biết làm cái tôi",
+          "meaningUnits": [
+            "other-not-self",
+            "consciousness-untroubled"
+          ],
+          "paragraphs": [
+            "Với mỗi nhóm thọ, tưởng, hành và thức, vị ấy cũng không nhận nó là cái tôi, không nhận cái tôi có nó, không nhận nó trong cái tôi, không nhận cái tôi trong nó. Bốn điều không chấp được giữ đủ ở từng nhóm.",
+            "Các nhóm ấy vẫn biến đổi, kể cả thức. Thức không chạy theo sự biến đổi của từng nhóm. Lo âu và những trạng thái khởi sinh từ sự chạy theo không chiếm tâm. Do tâm không bị chiếm trọn, vị ấy không kinh hãi, phiền não, khắc khoải hay lo âu vì chấp thủ."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một gợi ý khi kỷ niệm trở về",
+          "meaningUnits": [
+            "outside-free",
+            "other-not-self",
+            "consciousness-untroubled"
+          ],
+          "paragraphs": [
+            "Khi nhớ một cuộc sum họp đã qua, ta có thể nhận biết sự ấm áp, rồi nhận biết cả mong muốn giữ nguyên khoảnh khắc ấy. Gợi ý thực hành hiện đại này giúp nhìn một điều đang diễn ra trong tâm. Sự thương quý vẫn có thể được bày tỏ hôm nay, qua một lời hỏi thăm hay việc chăm sóc phù hợp; con đường trong kinh đi sâu hơn tới buông chấp thủ và giải thoát sinh tử."
+          ]
+        },
+        {
+          "id": "summary",
+          "kind": "teaching",
+          "heading": "Nhắc lại trọn hướng đi",
+          "meaningUnits": [
+            "summary",
+            "invite"
+          ],
+          "paragraphs": [
+            "Mahākaccāna trở lại lời Phật: quán sát để thức không tán loạn, không tản rộng ra ngoài, không mắc lại bên trong; không chấp thủ nên không lo âu. Khi đủ những điều ấy, về sau không còn sự tái sinh, già, chết và khổ khởi lên. Ông nói đây là cách mình hiểu rộng lời tóm lược.",
+            "Nếu muốn, các vị có thể đến hỏi Phật, rồi ghi nhớ đúng như Ngài giải thích."
+          ]
+        },
+        {
+          "id": "report-back",
+          "kind": "teaching",
+          "heading": "Các vị trình lại toàn việc đã xảy ra",
+          "meaningUnits": [
+            "return",
+            "recite",
+            "recount"
+          ],
+          "paragraphs": [
+            "Vui mừng tán đồng lời Mahākaccāna, các tỳ-kheo đứng dậy tới Phật, kính lễ rồi ngồi một bên. Các vị nhắc lại đầy đủ lời tóm lược, điều kiện cùng kết quả tương lai, và việc Ngài vào phòng chưa giải rộng.",
+            "Các vị kể cuộc bàn bạc không lâu sau đó: đã nhắc lại trọn lời ấy, hỏi ai giải được, nghĩ tới uy tín cùng khả năng của Mahākaccāna và quyết định đi hỏi. Các vị đã đến, đã hỏi, được ông phân tích bằng các phương cách, từ ngữ và văn cú vừa trình bày."
+          ]
+        },
+        {
+          "id": "confirmed",
+          "kind": "teaching",
+          "heading": "Phật xác nhận lời giải",
+          "meaningUnits": [
+            "confirmation",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật khen Mahākaccāna hiền trí và có trí tuệ lớn. Nếu các vị hỏi Ngài, Ngài cũng giải như vậy. Đó chính là nghĩa; hãy ghi nhớ như thế.",
+            "Nghe Phật nói, các tỳ-kheo hoan hỷ tán đồng. Kinh Phân Biệt Tóm Lược kết thúc, là bài thứ tám trong nhóm kinh này."
+          ]
+        }
+      ]
+    }
+  }
+}

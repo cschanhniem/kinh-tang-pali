@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn138",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "9d0c1b68-90cd-4394-8bce-58745fdea6b7"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "d299a573-865f-4702-9195-fbed3097a7d4"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "8e3bc442-3a05-4c6a-a917-4890c2d90571"
+    }
+  },
+  "reviews": [
+    {
+      "id": "9d0c1b68-90cd-4394-8bce-58745fdea6b7",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 10,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 10,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Giữ lời người truyền kinh, việc Phật nói tóm lược rồi vào phòng, lời giải của Mahākaccāna và lời xác nhận có điều kiện ở cuối. Sáu cặp giác quan, bốn thiền ở cả hai phía và quan hệ giữa xả với lạc đi cùng xả đều theo nguồn. Căn cứ diễn câu 15.2 theo nghĩa mắc lại, dù Pāli có asaṇṭhita, được ghi rõ trong hồ sơ và vẫn được nhìn nhận là một giới hạn văn bản.",
+        "semantic_fidelity": "Bản trẻ phân biệt biết một đối tượng với chạy theo vị ngọt và bị buộc vào nó; đạt thiền cũng khác với mắc lại trong niềm vui của thiền. Ở chiều không chấp, cả năm nhóm vẫn biến đổi, kể cả thức, nên không tạo ra một cái tôi hay một sự nhận biết bất biến.",
+        "core_coverage": "Đủ 49 ý qua 22 mục: lời tóm lược và hệ quả về sinh tử, chuyện tìm lõi cây, sáu cặp bên ngoài, bốn thiền có và không mắc, hai mươi cách chấp cùng hai mươi phủ định. Những đặc điểm của người chưa học và người đã học, chuỗi lo âu chiếm tâm, lời trở về trình Phật cũng được giữ.",
+        "logic_context": "Thời điểm nên hỏi Phật được kể là lúc các thầy còn ở trước Ngài; Mahākaccāna trình cách mình hiểu trước khi Phật xác nhận. Các điều kiện không tán loạn, không mắc bên trong và không chấp thủ vẫn dẫn tới đích không sinh khởi tái sinh, già, chết và khổ, không bị đổi thành chỉ tập trung tốt hơn.",
+        "terminology": "Đã mở nghĩa thọ giới, chứng, ba danh xưng bậc mắt/trí/Pháp và cảm giác trung tính ngay nơi dùng. Các từ tầm, tứ, hỷ, lạc, xả và năm nhóm được giải ngắn; chuỗi nhiều thuật ngữ thiền và danh xưng cổ vẫn là phần khó nhất đối với trẻ.",
+        "audience_fit": "Bài hát cứ chạy trong đầu và bức tranh bị nhòe tạo hai điểm tựa quen thuộc, lời xưng em tự nhiên và không quy kết trẻ hư khi bị cuốn theo điều dễ chịu. Tuy vậy, khoảng hơn hai nghìn đơn vị khoảng trắng cùng bốn quan hệ ngã áp lên năm nhóm vẫn cần đọc chậm; chưa có thử đọc với trẻ thật.",
+        "clarity": "Các tiêu đề ngắn dẫn từ câu chuyện sang bên ngoài, bên trong rồi sự nhận làm cái tôi, giúp theo được bài kinh dài. Sau sửa, tiêu đề dùng sắc đúng phạm vi đã giải; các đoạn về danh xưng và năm nhóm vẫn khá dày, nên điểm độ rõ thấp hơn điểm bao phủ.",
+        "editorial_separation": "Bài hát nằm trong mục example và tranh nhòe trong mục practice, đều tự nhận là gợi ý hiện đại. Phép tìm lõi cây và công thức thiền được giữ trong teaching, không nhập ví dụ ngày nay vào lời của Phật hay Mahākaccāna.",
+        "practical_integrity": "Gợi ý nhận ra tiếc nuối rồi sửa hoặc vẽ lại cho trẻ một hành động cụ thể mà không ép phải hết buồn. Cả ví dụ và thực hành đều giữ giới hạn: quan sát một phản ứng thường ngày chỉ giúp làm quen, chưa đồng nghĩa với buông chấp thủ và giải thoát sâu xa trong kinh.",
+        "technical_integrity": "Audit độc lập xác nhận 152 khóa Pāli được nối đúng thứ tự trong 49 ý, cả 22 mục hợp schema và không có lỗi nguồn. Năm SHA khớp nguồn đã đọc; bản chuẩn bị và bản trong repo chỉ khác hai commit nguồn dự án, còn fingerprint cuối khớp bản đóng băng và phép hồi dựng trả đúng hash trước sửa."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc trọn 152 khóa Pāli/Việt/Anh, kiểm 28 ô Anh trống, năm chú thích và toàn HTML đến SC37 cùng phần ghi công cuối; đọc đủ 49 ý, 32 ghi chú và 22 mục bản trẻ. Đọc lại đủ 15 mục thay đổi của ba bản cùng một mục map, so đúng JSON cuối, audit prepared/canonical sạch; điểm tuổi và độ rõ phản ánh độ dày công thức thực tế, không có thử độc giả.",
+      "contentHash": "d38d1badc38ff9d905490fe72afec53ab6ac819e66f2c8839eb691b8b027133a",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn138.html",
+          "sha256": "5cd73cd8ea87d5c61a44fb4124ad1793f82531bb8158928729cbc17285e7110b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn138_root-pli-ms.json",
+          "sha256": "5d08bc6b6899313247b2c75f5b141b66d26c3122146386f8a7b39eec2637b396"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn138_translation-en-sujato.json",
+          "sha256": "80ed4fd68e857206571270e3344e121b3c8a2cf5ab80e457b8dabdc9fe39a5a3"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn138_comment-vi-project.json",
+          "sha256": "16145e8da1b615fb4968203ea20a2c4f7e43c98289086e8d9e850a212beb46e7"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn138_translation-vi-project.json",
+          "sha256": "2a0ad5efa9919a53054b170415c931d49ff25b4920b115b0efbf164aea22f39e"
+        }
+      ]
+    },
+    {
+      "id": "d299a573-865f-4702-9195-fbed3097a7d4",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 10,
+        "logic_context": 9.9,
+        "terminology": 9.8,
+        "audience_fit": 9.7,
+        "clarity": 9.7,
+        "editorial_separation": 10,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Giữ đầy đủ sáu cặp, bốn công thức thiền, các mối buộc vào vị ngọt và sự khác nhau giữa chạy theo xả với buộc vào lạc đi cùng xả. Lời các tỳ-kheo về Mahākaccāna đã giữ bạn đồng tu có trí; các chữ khó ở 15.2 và 20–21 được xử lý theo lựa chọn nguồn có ghi căn cứ, không sửa nguyên văn Pāli.",
+        "semantic_fidelity": "Phân tích rõ việc thức theo dấu tướng rồi bị trói buộc, cùng khả năng một thành tựu thiền trở thành chỗ nắm giữ. Hai mươi cách đặt ngã và hai mươi phủ định vẫn áp vào cả sắc, thọ, tưởng, hành, thức; ngay thức cũng biến đổi và có thể chạy theo biến đổi của chính nó.",
+        "core_coverage": "Mười tám mục vẫn bao phủ đủ 49 ý, gồm cả lời mời nghe kỹ, các lớp thuật lại cuộc trao đổi, toàn phép lõi cây và chuỗi danh xưng. Hai chiều có và không bị kẹt của bốn thiền, các phẩm chất đã học/chưa học và đầy đủ hệ quả cuối đều được giải thực chất, không chỉ gắn mã ý.",
+        "logic_context": "Mạch bên ngoài, bên trong rồi lo âu do nhận làm mình nối rõ các nguyên nhân và hệ quả. Cuối bài vẫn là Mahākaccāna giải theo cách hiểu, các vị có thể hỏi lại Phật, rồi Phật xác nhận rằng nếu được hỏi Ngài cũng sẽ giải như vậy; vai người nói không bị trộn.",
+        "terminology": "Thức, chấp thủ, ngã, các nhóm tâm và những yếu tố thiền đều có lời giải ngắn trong mạch đọc. Chứng và trung tính đã được mở, ba danh xưng đã có nghĩa; tiêu đề dùng sắc phù hợp với phần vật chất và thân thể, tránh thu hẹp vô ý thành riêng thân.",
+        "audience_fit": "Lời khen cho bản báo cáo và dự án phải sửa gần hết gắn trực tiếp với trải nghiệm công việc và sự đồng nhất giá trị bản thân với thành quả. Giọng đối thoại tôn trọng người đọc, không biến mọi niềm vui thành lỗi; các đoạn gộp nhiều ý vẫn đòi hỏi chú ý hơn một bài phổ thông ngắn.",
+        "clarity": "Mỗi cụm lập luận có tiêu đề và đi từ quan sát quen thuộc sang khái niệm khó, còn các câu phủ định đặt gần trường hợp tương ứng nên dễ đối chiếu. Mục lõi cây cùng các mục năm nhóm chứa nhiều quan hệ và danh xưng, tuy đúng nghĩa nhưng vẫn có mật độ cao.",
+        "editorial_separation": "Hai ví dụ về thông báo và dự án được ghi rõ là example hoặc practice, tách khỏi lời kinh và không gán động cơ hiện đại cho các nhân vật. Những nhận xét nối mạch như niềm vui thiền có thể bị nắm giữ theo đúng phép phân tích, không được trình như câu Phật mới nói.",
+        "practical_integrity": "Câu hỏi về đang xử lý công việc hay bảo vệ hình ảnh bản thân đưa ra một lối tự quan sát cụ thể, không bảo bỏ trách nhiệm với dự án. Phần kết của thực hành giữ rõ phạm vi đời thường và đích buông chấp thủ, giải thoát sinh tử rộng hơn; không hứa thành tựu nhờ một mẹo.",
+        "technical_integrity": "Bản 18 mục qua audit độc lập không có lỗi schema hay nguồn, với map đủ 152 khóa thực và mọi ý có chỗ giải trong bản trưởng thành. Năm mã băm nguồn, hai blob và hai lần git show cho pin dự án được đối chiếu; fingerprint canonical đúng bản đã đọc lại, metadata chính thức không do người kiểm này ghi."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập đủ năm nguồn thực, 49 ý, 32 ghi chú và cả 18 mục bản trưởng thành, cùng hai bản còn lại. Mọi mục sửa được đọc trọn, lời bạn đồng tu có trí và phạm vi sắc đã được đối chiếu; giữ nguồn khó và 28 ô Anh trống đúng giới hạn đã ghi. Chỉ lập đề xuất review, chưa ghi metadata chính thức.",
+      "contentHash": "07bd8b4dd2604900a4c614fc610125c9b140a0d4d4db4122215b90f42326aa3e",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn138.html",
+          "sha256": "5cd73cd8ea87d5c61a44fb4124ad1793f82531bb8158928729cbc17285e7110b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn138_root-pli-ms.json",
+          "sha256": "5d08bc6b6899313247b2c75f5b141b66d26c3122146386f8a7b39eec2637b396"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn138_translation-en-sujato.json",
+          "sha256": "80ed4fd68e857206571270e3344e121b3c8a2cf5ab80e457b8dabdc9fe39a5a3"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn138_comment-vi-project.json",
+          "sha256": "16145e8da1b615fb4968203ea20a2c4f7e43c98289086e8d9e850a212beb46e7"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn138_translation-vi-project.json",
+          "sha256": "2a0ad5efa9919a53054b170415c931d49ff25b4920b115b0efbf164aea22f39e"
+        }
+      ]
+    },
+    {
+      "id": "8e3bc442-3a05-4c6a-a917-4890c2d90571",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 10,
+        "logic_context": 9.9,
+        "terminology": 9.8,
+        "audience_fit": 9.6,
+        "clarity": 9.7,
+        "editorial_separation": 10,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Bản lớn tuổi giữ bối cảnh nghe kể, đầy đủ phép tìm lõi ở cành lá, lời tôn kính và thời điểm trước đó có thể hỏi Phật. Bốn thiền được giữ riêng cả hai phía, sáu cặp có ý và pháp, cùng toàn bộ các cách nhận năm nhóm làm ngã; những cách đọc khó của nguồn Pāli được nêu trong hồ sơ với giới hạn thực, không giả vờ mọi nguồn đồng thuận.",
+        "semantic_fidelity": "Đạt rồi sống trong thiền được phân biệt với để thức mắc vào sự dễ chịu, kể cả trường hợp xả ở thiền thứ ba. Khi không chấp, sắc và bốn nhóm tâm vẫn thay đổi; điều khác là thức không chạy theo và những trạng thái lo âu không chiếm tâm, chứ không phải đời sống phải trở về nguyên như trước.",
+        "core_coverage": "Hai mươi bốn mục bao đủ 49 ý, gồm từng thiền trong cả nhánh mắc và nhánh không mắc, hai mươi quan hệ ngã cùng hai mươi phủ định. Các lần nhắc lời tóm lược, điều kiện về sinh tử, lý do nhờ Mahākaccāna, lời trình lại và lời xác nhận cuối đều còn đủ.",
+        "logic_context": "Các bước đổi khác của nhóm, thức chạy theo, tâm bị chiếm và bốn sắc thái lo âu được kể theo trình tự; chiều phủ định cũng giữ đúng các mắt xích ấy. Bản không đưa ví dụ tấm ảnh cũ thành nguyên nhân được kinh nêu, và lời Phật xác nhận lời giải ở cuối vẫn có điều kiện nếu các vị hỏi Ngài.",
+        "terminology": "Đã giải thọ giới, chứng, trung tính và ba danh xưng trong lần xuất hiện đầu; tầm/tứ, hỷ/lạc, xả và định có lời mở dễ theo. Sắc được giữ đúng nghĩa thân thể và vật chất trong cả tiêu đề lẫn câu, còn thức là nhận biết và vẫn biến đổi; một số cụm truyền thống vẫn cần người đọc dừng lại suy xét.",
+        "audience_fit": "Tấm ảnh cũ và một cuộc sum họp gợi tình cảm quen thuộc mà không giả định mọi người lớn tuổi yếu trí, cô đơn hay phải rút khỏi quan hệ. Chia riêng bốn thiền và từng phía không mắc hỗ trợ nhịp đọc chậm; dung lượng và số quan hệ giữa các nhóm vẫn là giới hạn đối với người mới tiếp cận.",
+        "clarity": "Nhiều mục ngắn cho người đọc nghỉ giữa từng trường hợp, các câu giải nghĩa nối ngay sau thuật ngữ và trật tự hai chiều ổn định. Các danh xưng Phật và bốn cách nhận làm ngã cần lặp để giữ đủ ý nên bản chưa phải văn rất nhẹ, dù không có câu thao tác kiểm toán xen vào mạch đọc.",
+        "editorial_separation": "Ảnh cũ và gợi ý về sum họp được ghi rõ là ví dụ, thực hành hiện đại; chuyện lõi cây vẫn thuộc lời Mahākaccāna. Bản giữ sự phân biệt lời kể, lời giảng và cách ứng dụng, không thêm lời Phật về chuyện gia đình hay áp dụng hiện đại.",
+        "practical_integrity": "Thực hành cho phép nhận cả ấm áp lẫn mong muốn giữ nguyên, rồi vẫn bày tỏ thương quý bằng hỏi thăm hoặc chăm sóc phù hợp. Cách diễn này không ép xa gia đình hay chối bỏ ký ức; nó giữ giới hạn một gợi ý quan sát, còn con đường trong kinh hướng tới buông chấp thủ và giải thoát sinh tử.",
+        "technical_integrity": "Audit độc lập xác nhận cả 24 mục hợp schema, 49 ý bao đúng toàn bộ 152 khóa Pāli và không có lỗi nguồn. Những đoạn sau sửa khớp trực tiếp JSON cuối; đảo toàn bộ các thay đổi trả đúng hash đã đọc trước đó, và bản canonical giữ cùng fingerprint sau khi chỉ đổi hai commit nguồn dự án."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ năm nguồn thực cùng phần ghi công HTML, toàn 49 ý và 24 mục bản lớn tuổi; đọc lại các mục sửa và xác nhận hash hiện tại. 28 ô Anh trống không được dùng như xác nhận nghĩa; không có kiểm thử trên độc giả hay thẩm định Pāli của chuyên gia. Các ví dụ gia đình được đánh giá trong phạm vi gợi ý hiện đại.",
+      "contentHash": "26195910e0c42190a72842619f677a5bf3c0ec57124c1795d0d669ce19927440",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn138.html",
+          "sha256": "5cd73cd8ea87d5c61a44fb4124ad1793f82531bb8158928729cbc17285e7110b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn138_root-pli-ms.json",
+          "sha256": "5d08bc6b6899313247b2c75f5b141b66d26c3122146386f8a7b39eec2637b396"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn138_translation-en-sujato.json",
+          "sha256": "80ed4fd68e857206571270e3344e121b3c8a2cf5ab80e457b8dabdc9fe39a5a3"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn138_comment-vi-project.json",
+          "sha256": "16145e8da1b615fb4968203ea20a2c4f7e43c98289086e8d9e850a212beb46e7"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn138_translation-vi-project.json",
+          "sha256": "2a0ad5efa9919a53054b170415c931d49ff25b4920b115b0efbf164aea22f39e"
+        }
+      ]
+    }
+  ]
+}

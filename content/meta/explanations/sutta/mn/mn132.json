@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn132",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "a452904e-67d8-4d74-ae13-29b12c94ffc8"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "63c9aa1d-ca72-4682-8339-df4892b0d99f"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "c97fcb28-a156-4143-8009-6203d1e0acae"
+    }
+  },
+  "reviews": [
+    {
+      "id": "a452904e-67d8-4d74-ae13-29b12c94ffc8",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.3,
+        "clarity": 9.4,
+        "editorial_separation": 10,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Giữ bối cảnh nhà họp, Ānanda đang giảng, Phật đến buổi chiều sau thiền tịnh và hai câu hỏi ai, thế nào. Bốn lượt kệ đều có nội dung, kể cả các lượt lược trong nguồn, nhờ các công thức thật của chính MN132.",
+        "semantic_fidelity": "Sau sửa, cả lời Ānanda nhắc và lời Phật kết đều có người thấy rõ hiện tại làm chủ thể. Ba cặp quá khứ, tương lai, hiện tại phân biệt sự say thích và nhận làm ngã, không biến thành cấm trẻ kể chuyện hoặc mong điều tốt.",
+        "core_coverage": "Bản giữ đủ bốn tác dụng của pháp thoại, phần tóm lược lẫn phân tích, hai mươi chấp và hai mươi phủ định. Cả lượt Ānanda thuật lại và lượt Phật giảng lại đều phủ các nội dung đó, không bỏ lần lặp quan trọng.",
+        "logic_context": "Trẻ nhận ra Ānanda đang kể cho Phật cách mình đã giảng, sau đó Phật tán thán và nói lại lời dạy. Phần kết xác định chính Ānanda vui và tán đồng, không gán hành động ấy nhầm cho cả hội chúng.",
+        "terminology": "Các hiền giả được giải bằng người bạn cùng tu, năm uẩn và ngã có lời mở trước khi dùng nhiều lần. Ngôn ngữ về người hiền trí tĩnh lặng giúp đọc bài kệ; hai mươi quan hệ vẫn mang độ khó khái niệm lớn.",
+        "audience_fit": "Ví dụ kể lại điều đã học cho em mình gần trải nghiệm trẻ và khuyến khích nói rõ chỗ chưa hiểu. Tuy vậy, bốn lượt kệ cùng các lớp lời thuật khiến bài dài và đòi hỏi chú ý hơn một câu chuyện đơn tuyến.",
+        "clarity": "Mười chín mục có tiêu đề đánh dấu người đang nói và các đoạn kệ trở lại, giúp theo mạch. Việc giữ đủ các quan hệ chấp ngã lẫn phủ định làm một số đoạn nặng hơn phần kể và có thể cần người hướng dẫn.",
+        "editorial_separation": "Ví dụ học rồi kể cho em và bài tập diễn lại một đoạn có nhãn example, practice rõ. Chuyện người hướng dẫn hiện đại không được dùng để suy ra Phật đã tìm thấy lỗi trong lời Ānanda; kinh ghi sự tán thán được giữ riêng.",
+        "practical_integrity": "Gợi ý chọn một đoạn ngắn, nhận phần chưa hiểu và trở lại việc thiện vừa sức, không hứa trẻ sẽ hết chấp ngã. Việc cần hỏi người hướng dẫn phù hợp với độ sâu của phần năm uẩn.",
+        "technical_integrity": "Audit độc lập xác nhận 43 ý phủ đúng 104 khóa Pāli, gồm cả những khóa mang dải 13-19 có thật. Mười chín mục hợp lệ, năm SHA và các phép đối chiếu pin sạch; hai mục kệ sửa dùng đúng fingerprint cuối."
+      },
+      "blockingErrors": [],
+      "notes": "Reviewer độc lập đã đọc đủ 104 khóa Pāli/Việt/Anh, kiểm cả 59 ô Anh trống, 4 chú thích và toàn HTML 169 khối đến SC26 cùng phần ghi công cuối; toàn bản đồ và 19 mục của bản này đã đọc. Mọi mục sửa được đọc lại từ JSON cuối. Điểm gắn đúng fingerprint canonical đã audit, nối nguyên văn từ prepared sau kiểm năm SHA và hai git show pin65eb7ce. Chưa có thử nghiệm với độc giả thật hoặc xác nhận của chuyên gia Pāli.",
+      "contentHash": "12d97d2c0c53e84fd0dc7fa42d05c83938e6e022adf52cb632626132699aadff",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn132.html",
+          "sha256": "80586d9fafee194e748b1287faa7f2dd6f3ff89813e447b0472782292a76a549"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn132_root-pli-ms.json",
+          "sha256": "47ae5711ba2d3a9206ecc9980190b93b9933a132e7b7a6a5d9df06af1bb0064a"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn132_translation-en-sujato.json",
+          "sha256": "f1c4d82899a4c16f1874b67e39f5024f7d2d28c6aad95d305bcbed2a05032edc"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn132_comment-vi-project.json",
+          "sha256": "b5a722cb81838d7e1f7bb9ee9cd1e00fddf42d042dd02264c2c147c719266221"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn132_translation-vi-project.json",
+          "sha256": "47aaa8cfb8b0f4c16b2f2a4c842187a5d6fab06f5c401e193d75c585b815716e"
+        }
+      ]
+    },
+    {
+      "id": "63c9aa1d-ca72-4682-8339-df4892b0d99f",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.8,
+        "audience_fit": 9.6,
+        "clarity": 9.6,
+        "editorial_separation": 10,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Bản mở rõ người truyền kinh đã nghe, giữ bốn tác dụng pháp thoại và thứ tự ai giảng rồi giảng thế nào. Không đưa câu hỏi thêm của HTML vào nguồn chính; 59 ô Anh trống được xử lý như thiếu nội dung, không như xác nhận độc lập.",
+        "semantic_fidelity": "Công thức có hoặc không theo đuổi say thích còn giữ cùng điều nhớ hay mong về năm uẩn. Các lần kệ nhắc sau đã có chủ thể người thấy rõ, tránh đổi một mệnh đề mô tả thành chỉ thị khác cấu trúc.",
+        "core_coverage": "Có cả lời thuật của Ānanda, lần Phật tán thán rồi giảng lại, bốn lượt kệ và hai lượt phân tích đủ phạm vi. Cách gom ở lượt sau vẫn áp dụng đủ bốn quan hệ và bốn phủ định cho từng một trong năm uẩn.",
+        "logic_context": "Các tiêu đề ai, thế nào và lời thuật tiếp sau định vị rõ người nói, người nghe, việc quá khứ được kể lại. Phật xác nhận lời Ānanda rồi giảng, không bị diễn thành đang chữa một sai lầm được tác giả tự đặt ra.",
+        "terminology": "Hiền giả được mở là bạn cùng tu; hỉ lạc, ngã và năm uẩn có phần giải riêng đúng ngữ cảnh. Tinh cần và ẩn sĩ an tịnh được giải ngay lần đầu, giúp giữ ngôn ngữ kinh mà vẫn dễ tiếp cận hơn.",
+        "audience_fit": "Tình huống hướng dẫn đồng nghiệp và trình bày lại từng bước phù hợp người trưởng thành. Độ gọn của 14 mục thuận cho đọc liền, nhưng nhiều lần bài kệ và các phép nhận ngã vẫn cần sự kiên nhẫn.",
+        "clarity": "Bài làm rõ sự chuyển từ lời thuật sang lời Phật bằng tiêu đề và câu nối; phần phân tích sau gom được mà không mơ hồ phạm vi. Những chuỗi chấp và phủ định còn đậm tính khái niệm, nên chưa thể coi là hoàn toàn nhẹ với người mới.",
+        "editorial_separation": "Ví dụ đồng nghiệp được giới hạn ở sự minh bạch khi truyền đạt, không coi quan hệ nơi làm việc là bản sao toàn bộ kinh. Phần thực hành hiện đại đứng riêng với việc Phật thực sự tán thán Ānanda.",
+        "practical_integrity": "Đề nghị phân biệt điều đã hiểu với điều cần hỏi, quan sát sự say thích nơi thành quả hay vai trò, rồi tiếp tục học toàn mạch năm uẩn. Không thay giải thoát bằng thành công nghề nghiệp hoặc cho một lần tự xét là đã hết chấp ngã.",
+        "technical_integrity": "Mười bốn mục nối đầy đủ 43 ý và 104 khóa; mọi tham chiếu và nguồn qua audit độc lập. Các mục mở bài, câu hỏi, kệ, tán thán và kết đã được đọc lại từ JSON hiện hành, hash cuối khớp năm nguồn thật."
+      },
+      "blockingErrors": [],
+      "notes": "Reviewer độc lập đã đọc đủ 104 khóa Pāli/Việt/Anh, kiểm cả 59 ô Anh trống, 4 chú thích và toàn HTML 169 khối đến SC26 cùng phần ghi công cuối; toàn bản đồ và 14 mục của bản này đã đọc. Mọi mục sửa được đọc lại từ JSON cuối. Điểm gắn đúng fingerprint canonical đã audit, nối nguyên văn từ prepared sau kiểm năm SHA và hai git show pin65eb7ce. Chưa có thử nghiệm với độc giả thật hoặc xác nhận của chuyên gia Pāli.",
+      "contentHash": "4ee364ef75041ec726f9c7445843d336c42fd2a36351ed3d64aff8eddc317e07",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn132.html",
+          "sha256": "80586d9fafee194e748b1287faa7f2dd6f3ff89813e447b0472782292a76a549"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn132_root-pli-ms.json",
+          "sha256": "47ae5711ba2d3a9206ecc9980190b93b9933a132e7b7a6a5d9df06af1bb0064a"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn132_translation-en-sujato.json",
+          "sha256": "f1c4d82899a4c16f1874b67e39f5024f7d2d28c6aad95d305bcbed2a05032edc"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn132_comment-vi-project.json",
+          "sha256": "b5a722cb81838d7e1f7bb9ee9cd1e00fddf42d042dd02264c2c147c719266221"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn132_translation-vi-project.json",
+          "sha256": "47aaa8cfb8b0f4c16b2f2a4c842187a5d6fab06f5c401e193d75c585b815716e"
+        }
+      ]
+    },
+    {
+      "id": "c97fcb28-a156-4143-8009-6203d1e0acae",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.8,
+        "audience_fit": 9.7,
+        "clarity": 9.6,
+        "editorial_separation": 10,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Giữ cuộc giảng tại nhà họp, thời điểm Phật đến và hai câu hỏi dẫn tới lời thuật của Ānanda. Bốn lượt bài kệ đều còn quá khứ, tương lai, người thấy rõ, tinh cần hôm nay và tử thần có đại quân.",
+        "semantic_fidelity": "Những lần nhớ và mong được xét qua có hay không chạy theo say thích; hiện tại qua đủ các kiểu nhận năm uẩn làm ngã. Hai lượt kệ sửa đã giữ chủ thể người thấy rõ, không làm câu trở thành một khẩu hiệu bắt buộc quên quá khứ.",
+        "core_coverage": "Đủ năm uẩn, hai mươi quan hệ và hai mươi phủ định, cùng cả sáu nét liên hệ với bậc Thánh và chân nhân ở mỗi phía. Lần Phật giảng lại vẫn có nội dung phân tích, không chỉ được báo bằng một câu rằng Ngài đồng ý.",
+        "logic_context": "Hai mươi hai mục lần lượt đánh dấu Ānanda thuật lời, Ānanda kết, Phật tán thán, Phật giảng và Ānanda tán đồng. Cách chia đó giữ các lớp người nói và thời điểm sự việc rõ cho người đọc thong thả.",
+        "terminology": "Năm uẩn được mở bằng từng câu ngắn, thọ đủ ba sắc thái; hỉ lạc và ngã được giải trước các danh sách. Tinh cần và ẩn sĩ an tịnh đã có lời dễ hiểu tại verse-today, trong khi những thuật ngữ liên hệ tự ngã vẫn được giữ đúng phạm vi.",
+        "audience_fit": "Ví dụ kể điều đã hiểu cho người thân tôn trọng vai trò chủ động học và truyền đạt của người lớn tuổi. Gợi ý chọn đoạn vừa sức, nói lại thong thả phù hợp mà không giả định suy giảm trí nhớ hoặc kiến thức của cả nhóm.",
+        "clarity": "Những câu ngắn và tiêu đề theo người nói hỗ trợ việc dừng rồi đọc tiếp. Số lần nhắc kệ và chuỗi quan hệ tự ngã vẫn tạo độ lặp đáng kể, nhưng việc gom lần Phật giảng sau giữ được mạch dễ theo.",
+        "editorial_separation": "Câu chuyện người thân có nhãn ví dụ và nêu giới hạn minh họa về cách truyền đạt. Không có lời khuyên hiện đại nào lẫn thành lời Phật hoặc lời Ānanda đã nói trong nhà họp.",
+        "practical_integrity": "Thực hành chỉ mời học một đoạn, hỏi điều vướng và quan sát sự say thích trong nhớ, mong. Bản không cam kết kết quả thiền hay khuyên bỏ việc chuẩn bị cần thiết của đời sống.",
+        "technical_integrity": "Toàn 22 mục và các lượt kệ nối đúng 43 ý, 104 khóa thật; audit không báo lỗi nguồn hoặc cấu trúc. Fingerprint cuối đã tính lại sau ba mục sửa và kiểm với đầy đủ năm SHA cùng các nguồn dự án đã đọc."
+      },
+      "blockingErrors": [],
+      "notes": "Reviewer độc lập đã đọc đủ 104 khóa Pāli/Việt/Anh, kiểm cả 59 ô Anh trống, 4 chú thích và toàn HTML 169 khối đến SC26 cùng phần ghi công cuối; toàn bản đồ và 22 mục của bản này đã đọc. Mọi mục sửa được đọc lại từ JSON cuối. Điểm gắn đúng fingerprint canonical đã audit, nối nguyên văn từ prepared sau kiểm năm SHA và hai git show pin65eb7ce. Chưa có thử nghiệm với độc giả thật hoặc xác nhận của chuyên gia Pāli.",
+      "contentHash": "2fc936380b3dde622c60ea1609a62e196f031ff02a82d4a71bb74eb10771c889",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn132.html",
+          "sha256": "80586d9fafee194e748b1287faa7f2dd6f3ff89813e447b0472782292a76a549"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn132_root-pli-ms.json",
+          "sha256": "47ae5711ba2d3a9206ecc9980190b93b9933a132e7b7a6a5d9df06af1bb0064a"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn132_translation-en-sujato.json",
+          "sha256": "f1c4d82899a4c16f1874b67e39f5024f7d2d28c6aad95d305bcbed2a05032edc"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn132_comment-vi-project.json",
+          "sha256": "b5a722cb81838d7e1f7bb9ee9cd1e00fddf42d042dd02264c2c147c719266221"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn132_translation-vi-project.json",
+          "sha256": "47aaa8cfb8b0f4c16b2f2a4c842187a5d6fab06f5c401e193d75c585b815716e"
+        }
+      ]
+    }
+  ]
+}
