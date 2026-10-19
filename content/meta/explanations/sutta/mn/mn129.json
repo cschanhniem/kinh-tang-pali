@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn129",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "0a3e2bca-8a7e-49ee-a04f-9a7266783093"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "e66664ac-bc2a-4fa8-b333-594e19f46f6e"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "1348d48c-1ffd-4c76-87a5-42175ae41d28"
+    }
+  },
+  "reviews": [
+    {
+      "id": "0a3e2bca-8a7e-49ee-a04f-9a7266783093",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.5,
+        "audience_fit": 9.3,
+        "clarity": 9.4,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Đã đối chiếu đủ 303 khóa và toàn HTML cùng chú thích; bản trẻ giữ voi trong nhóm ăn cỏ, rùa một mắt và phần trả lời không trước có chăng, không theo những chỗ HTML lược hoặc đổi loài.",
+        "semantic_fidelity": "Người ngu ham hưởng vị và làm ác mới đi vào năm nhóm tái sinh được kể; bản trẻ không biến thích đồ ngon thành nguyên nhân đủ, cũng không lấy hoàn cảnh nghèo hay hình dáng làm dấu hiệu hiền–ngu.",
+        "core_coverage": "Đủ 66 đơn vị ý: ba khổ, ba vui, 26 hình phạt, sáu cảnh khổ, năm nhóm thú, rùa và ách, bảy báu, bốn phước cùng hai ván bạc và nhãn kết. Các lượt công thức gộp vẫn giữ đối tượng và điều kiện.",
+        "logic_context": "Giữ nếu vua biết mới dẫn nỗi sợ bị phạt, hai lần vua hỏi còn sống trước lượt giáo tiếp theo, và người chịu khổ ở mỗi cảnh chưa chết cho tới khi nghiệp ác ấy tận; không đổi các nhánh nếu trở về làm người thành chắc chắn.",
+        "terminology": "Tỳ-kheo, tà dâm, phóng dật, ngục tốt, do-tuần, bố-tát, quán đảnh và thần lực đã có lời giải hoặc ngữ cảnh trực tiếp. Mười ba tên hình phạt cổ còn khó nhưng được nhận diện là tên, không bịa cách thực hiện.",
+        "audience_fit": "Ví làm hỏng đồ rồi nói thật và bù lại phù hợp trải nghiệm của trẻ; các câu hỏi nghĩ–nói–làm cho trẻ quyền tự xét. Bài dài, nhiều cảnh khổ và tên cổ, nên vẫn hợp đọc từng phần cùng người lớn hơn là đọc nhanh một mạch.",
+        "clarity": "Ba mươi bốn mục có tiêu đề chỉ rõ nỗi lo, các cảnh và từng báu; đoạn rùa, các điều kiện thuần voi/ngựa và câu vua đi chậm được diễn đạt cụ thể. Phần danh sách hình phạt và cung đình vẫn đòi hỏi đọc chậm.",
+        "editorial_separation": "Hai mục ví dụ lớp học và thực hành được đánh nhãn riêng; các chi tiết tái sinh và người phụ nữ trong cung đình được giữ trong lời kể của bài kinh, không trình bày như tình huống hiện đại hoặc mệnh lệnh mới.",
+        "practical_integrity": "Gợi ý trả đồ mượn, nói thật, xin lỗi và sửa việc đã làm bám ba hành vi đầu bài; không hứa một việc nhỏ sẽ bảo đảm sinh thiên, không dùng hình phạt trong kinh để đe trẻ phục tùng.",
+        "technical_integrity": "Audit prepared độc lập sạch: 34 mục, 60 đoạn, 66 đơn vị phủ đúng 303 khóa; năm SHA nguồn khớp byte đã đọc. Các sửa ở ba mục trẻ đã đọc lại, hồi dựng sửa khớp hash trước đó; chưa coi đây là kiểm build hay công bố."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi writer_a, một tác nhân khác cùng công cụ với tác giả. Đã đọc đủ năm nguồn, toàn map và cả ba bản; đọc lại sáu mục sau sửa và xác minh không đổi phần ngoài phạm vi. Đây là đánh giá bản chuẩn bị, chưa thử với người đọc thật và chưa công bố canonical.",
+      "contentHash": "8d3a009410f76d4e851d23634e42894f87e037db84c9d4cac71b11334cb4d1e7",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn129.html",
+          "sha256": "c90494c89f903ede1a161868dd7a5ecbf83f66f06a5761c746376caf9ae4bc70"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn129_root-pli-ms.json",
+          "sha256": "393c85db8811fecb13181f2378d68c8229d998f1d045712d83194f91816eecfc"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn129_translation-en-sujato.json",
+          "sha256": "406a413f647f8c58232c17dc9e4a96a4b2e51fede8cf4ab297d2b97140020e8d"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn129_comment-vi-project.json",
+          "sha256": "da8ede806b081d7d30195ad763aa42a4ad5d8d448bdad2da6c7ba531bcf31fc5"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn129_translation-vi-project.json",
+          "sha256": "38cea54717c72fcd42fa023f72716773ebb61cf5ba51e89db66b0a826c9d9fe5"
+        }
+      ]
+    },
+    {
+      "id": "e66664ac-bc2a-4fa8-b333-594e19f46f6e",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.6,
+        "audience_fit": 9.6,
+        "clarity": 9.6,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Bản trưởng thành đã được kiểm trên năm nguồn thực, gồm toàn 12 chú thích và HTML đến ghi công. Lựa chọn hưởng dụng như trước, phương Bắc và người dân nhìn vua lâu hơn theo Pāli được giữ, không nhập thuế hoặc đảo chủ thể từ nguồn phụ.",
+        "semantic_fidelity": "Cả hai phía đều bắt đầu từ nghĩ, nói, làm và đi tới quả sau thân hoại, chết. Hạnh phúc của vua vẫn nhỏ so lạc trời; đoạn kết chỉ nói quả lành cõi trời và không tự gán thành tựu giải thoát tối hậu.",
+        "core_coverage": "Hai mươi tám mục giữ đủ nỗi khổ, niềm vui, các nhóm tái sinh và toàn bảy báu/bốn phước. Năm nhóm không chỉ còn tên loài; mỗi nhóm vẫn có hoàn cảnh sống và chuỗi ham vị, làm ác, chết, tái sinh.",
+        "logic_context": "Các nhánh nếu và trình tự rõ: điều kiện vua nhận ra bánh xe, voi/ngựa chịu thuần rồi được thử, ba hỏi–đáp vàng bạc giữa sông, hai lần cầm đá. Nghề thợ làm xe đã làm rõ đúng bối cảnh, không kéo sang nghề sửa xe hiện nay.",
+        "terminology": "Bản giải sát sinh, tà dâm, phóng dật, ác nghiệp, thiên nhãn và gia chủ ngay gần lần dùng. Các từ chư hầu, quán đảnh và một số tên hình phạt cổ còn cần đọc trong ngữ cảnh cung đình nhưng không làm lệch quan hệ của bài.",
+        "audience_fit": "Ví cân hàng, báo giá và sửa khoản tính nhầm phù hợp trách nhiệm trong giao dịch; lời gợi ý xét một quyết định không biến giáo pháp thành mẹo kinh doanh. Cách gộp voi/ngựa và các báu cho người trưởng thành vẫn có đủ phân biệt.",
+        "clarity": "Lập luận đi từ tự nhận hành vi đến hồi tưởng rồi quả tái sinh, với các mục chuyển phần rõ. Các đoạn hình phạt và vẻ đẹp cung đình vẫn dày dữ kiện, nhưng câu điều kiện và những chuyển tiếp không bị chìm trong liệt kê.",
+        "editorial_separation": "Ví giao dịch và gợi ý thực hành tách thành loại example/practice; lời giải nghĩa nằm trong diễn giải, không dùng trích dẫn giả. Mô tả cổ về gia đình, ngoại hình và nữ báu được đặt trong nhân vật được kể.",
+        "practical_integrity": "Việc xét ý định, lời nói, hành động và sửa bằng việc cụ thể có giới hạn hợp lý. Không coi người có của cải là đương nhiên hiền, không coi người chịu hình phạt là đối tượng để vui mừng, không hứa kết quả nghiệp tức thời.",
+        "technical_integrity": "Audit ghi 28 mục và 55 đoạn với tham chiếu hợp lệ, đủ 66 ý/303 khóa; năm phụ thuộc nguồn còn nguyên. Hai mục trưởng thành sửa đã đọc lại trọn và phép hồi dựng xác nhận không có thay đổi ngoài phạm vi đã kiểm."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi writer_a, một tác nhân khác cùng công cụ với tác giả. Đã đọc đủ năm nguồn, toàn map và cả ba bản; đọc lại sáu mục sau sửa và xác minh không đổi phần ngoài phạm vi. Đây là đánh giá bản chuẩn bị, chưa thử với người đọc thật và chưa công bố canonical.",
+      "contentHash": "8bf51096b9407b68b0b8c9d3a4f662b529db9d80ec6c60eca6d7e80e3827b6e6",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn129.html",
+          "sha256": "c90494c89f903ede1a161868dd7a5ecbf83f66f06a5761c746376caf9ae4bc70"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn129_root-pli-ms.json",
+          "sha256": "393c85db8811fecb13181f2378d68c8229d998f1d045712d83194f91816eecfc"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn129_translation-en-sujato.json",
+          "sha256": "406a413f647f8c58232c17dc9e4a96a4b2e51fede8cf4ab297d2b97140020e8d"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn129_comment-vi-project.json",
+          "sha256": "da8ede806b081d7d30195ad763aa42a4ad5d8d448bdad2da6c7ba531bcf31fc5"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn129_translation-vi-project.json",
+          "sha256": "38cea54717c72fcd42fa023f72716773ebb61cf5ba51e89db66b0a826c9d9fe5"
+        }
+      ]
+    },
+    {
+      "id": "1348d48c-1ffd-4c76-87a5-42175ae41d28",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.6,
+        "audience_fit": 9.7,
+        "clarity": 9.7,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc độc lập năm nguồn trước map và ba bản; bản lớn tuổi giữ ba mốc sinh–già–chết của loài vật, ba câu đủ/làm/dâng ở gia chủ báu và tân ngữ vua trong câu đi chậm, khác các chỗ nguồn phụ rút hoặc đảo nghĩa.",
+        "semantic_fidelity": "Bóng núi về nghiệp lành và nghiệp ác đều giữ nguyên chiều của bài; sự yên lòng dựa vào hành vi, không dựa vào việc người khác bị phạt. Đoạn nghèo, bệnh và hình dáng vẫn là trường hợp trong câu chuyện, không là phán xét người đọc lớn tuổi.",
+        "core_coverage": "Ba mươi bốn mục triển khai trọn hai phía và 66 đơn vị; sáu cảnh địa ngục chia hai nhóm nhưng vẫn giữ bốn tính đau và giới hạn nghiệp ở mỗi cảnh. Hai phép đá/núi và hai phép ván bạc cùng đoạn kết đều có.",
+        "logic_context": "Câu mở chuyện giáo đã nêu người ta đưa phạm nhân đến và xin vua quyết hình phạt, tránh đại từ gán sai người xin. Trình tự sáng–trưa–chiều, hành trình bánh xe qua bốn phương và các nhánh nếu trở lại thân người vẫn được phân biệt.",
+        "terminology": "Các lời giải tà dâm, phóng dật, ác nghiệp, ngục tốt, do-tuần và thiên nhãn đủ để theo mạch. Những tên hình phạt và vật báu đặc thù được giữ như tên cổ, không giải bằng phỏng đoán ngoài nguồn.",
+        "audience_fit": "Nhịp chia ngắn cho phép dừng giữa các nhóm cảnh và từng báu; ví lời hứa trong gia đình hoặc bạn bè tôn trọng khả năng chủ động, không mặc định người lớn tuổi bệnh, yếu hay cô đơn.",
+        "clarity": "Các mục dùng câu ngắn và chỉ rõ thứ nhất, thứ hai, thứ ba; phần yêu quý hai chiều và yêu cầu đi chậm dễ theo. Một số liệt kê cổ vẫn nặng, nhưng không có đại từ quyết định làm lẫn người hỏi hay nhân vật sau lượt sửa.",
+        "editorial_separation": "Mục ví dụ về lời hứa và thực hành nhìn lại có nhãn riêng. Phần nữ báu được giới thiệu rõ là hình ảnh cung đình trong ví dụ; câu về hiện tại không bị trộn với lời kể quả đời sau.",
+        "practical_integrity": "Lời khuyên chọn một việc gần đây và sửa trong khả năng hiện có vừa sức, không ép người đọc hoàn thành một nếp tu không thuộc hoàn cảnh mình. Không biến hồi tưởng điều lành thành bảo đảm hết khổ hay tái sinh theo ý muốn.",
+        "technical_integrity": "Audit prepared sạch với 34 mục, 60 đoạn, đúng toàn bộ khóa và nguồn. Đã đọc lại toàn mục spears, xác minh sáu sửa của cả bài khi đảo ngược cho đúng ba hash cũ; việc chọn đánh giá và build vẫn thuộc bước tích hợp của root."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi writer_a, một tác nhân khác cùng công cụ với tác giả. Đã đọc đủ năm nguồn, toàn map và cả ba bản; đọc lại sáu mục sau sửa và xác minh không đổi phần ngoài phạm vi. Đây là đánh giá bản chuẩn bị, chưa thử với người đọc thật và chưa công bố canonical.",
+      "contentHash": "5a686f9435e6f9d3cc32f8cbd088abdba13e22619bfbe2510a4ca710d994b422",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn129.html",
+          "sha256": "c90494c89f903ede1a161868dd7a5ecbf83f66f06a5761c746376caf9ae4bc70"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn129_root-pli-ms.json",
+          "sha256": "393c85db8811fecb13181f2378d68c8229d998f1d045712d83194f91816eecfc"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn129_translation-en-sujato.json",
+          "sha256": "406a413f647f8c58232c17dc9e4a96a4b2e51fede8cf4ab297d2b97140020e8d"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn129_comment-vi-project.json",
+          "sha256": "da8ede806b081d7d30195ad763aa42a4ad5d8d448bdad2da6c7ba531bcf31fc5"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn129_translation-vi-project.json",
+          "sha256": "38cea54717c72fcd42fa023f72716773ebb61cf5ba51e89db66b0a826c9d9fe5"
+        }
+      ]
+    }
+  ]
+}

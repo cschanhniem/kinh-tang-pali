@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn125",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "d74dd83a-b0fa-4908-868e-840921085527"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "668453d5-cb36-4cfd-bfcf-00ba1df2b019"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "e79d850b-e2c3-4586-beb6-42cc0ed7e40d"
+    }
+  },
+  "reviews": [
+    {
+      "id": "d74dd83a-b0fa-4908-868e-840921085527",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.6,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Đã đối chiếu trọn 145 khóa và HTML; bản trẻ giữ voi lớn, thức ăn bên cạnh cỏ/nước, chín bộ phận có đuôi và tầm liên hệ dục theo nguồn đã ghim, không theo các chỗ HTML lược hoặc diễn khác.",
+        "semantic_fidelity": "Ba điệp khúc giữ năm nét dính dục, bốn việc nhờ ly dục và ba việc chưa thể biết/thấy/chứng; khả năng nhất tâm và niềm tin của vương tử đều giữ đúng điều kiện, không thành kết quả chắc chắn.",
+        "core_coverage": "Đủ 59 ý từ ba lượt xin giảng tới hai nhánh kết; bài học voi có từng điều kiện trước/sau, phần tu có các bước sinh hoạt, ba thiền và cả ba trí, cùng tám phẩm chất tâm áp dụng mỗi trí.",
+        "logic_context": "Bạn trên núi xuống giúp rồi cho nghỉ trước khi hỏi; người săn và người thuần voi khác vai; sau lậu tận mới kể kham nhẫn. Aciravata hoan hỷ, không thêm Jayasena trở lại hoặc chứng quả.",
+        "terminology": "Nhất tâm, ly dục, sa-di, tỳ-kheo, thọ, tầm/tứ, hỷ/lạc và Niết-bàn có lời giải; định đã được mở sau góp ý. Danh hiệu và các nhóm trí vẫn đòi hỏi trẻ đọc chậm cùng ngữ cảnh.",
+        "audience_fit": "Ví học đàn và việc dừng khi bực gần trải nghiệm trẻ, câu chuyện núi và voi có nhịp kể rõ. Ba mươi hai mục cùng nhiều danh sách cổ vẫn phù hợp đọc có người lớn đồng hành hơn là đọc nhanh một lượt.",
+        "clarity": "Tách ăn, tỉnh thức, tỉnh giác, nơi vắng và năm điều che tâm giúp theo từng bước; các phần thế giới, ba trí và kham nhẫn còn dày nhưng không làm lẫn chủ thể hoặc điều kiện.",
+        "editorial_separation": "Ví dụ đàn và gợi ý trong ngày có nhãn riêng; phép thuần voi được đặt trong chuyện cổ. Những câu nhắc mục tiêu giải thoát phân biệt ứng dụng nhỏ với tiến trình của kinh, dù còn hơi mang giọng dẫn đọc.",
+        "practical_integrity": "Gợi ý nhận biết thân/cảm giác rồi chọn lời không gây đau phù hợp việc giữ căn và niệm xứ; không hứa tập một lần đạt thiền, không biến giáo/búa hay chịu đau thành bài tập cho trẻ.",
+        "technical_integrity": "Audit prepared độc lập sạch, 59 ý phủ đúng thứ tự 145 khóa; năm SHA, hai blob manifest và hai nguồn dự án tại pin706 khớp. Hash trẻ đã nối với toàn mục sửa được đọc lại."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc độc lập đủ năm nguồn, toàn 59 ý và cả ba bản; đọc lại trọn ba mục sau khi mở nghĩa định/an trú. Đây là kiểm bởi tác nhân AI khác, chưa thử với độc giả thật. Nội dung vẫn prepared ngoài canonical và cần nối lại byte/hash khi có GO, không phải xác nhận đã công bố.",
+      "contentHash": "be830cab683d793889c83f34ca20c21fc5744cc538e35179a5420d1b6d55e557",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn125.html",
+          "sha256": "e69d10ebb3f0a057d04ab90f1d6d5378d9481d87f80b04461156e040dfd758a7"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn125_root-pli-ms.json",
+          "sha256": "103422c6ee72c694f81908f95d075ecf656cd16ff3d69291937435d3a50974fb"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn125_translation-en-sujato.json",
+          "sha256": "3e514bb86a7704074c993855c043882eab7b14ca444012d51dccd3d1a5b2a159"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn125_comment-vi-project.json",
+          "sha256": "fd30dbe6c06c0f39b0612b63474788ca31eb8d6eab25526f8efa83d7811c8764"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn125_translation-vi-project.json",
+          "sha256": "1bd51c64948c8b5a1d29aa8a6e7ab3d4d8185fcf66bf6141386c7d9b62328c23"
+        }
+      ]
+    },
+    {
+      "id": "668453d5-cb36-4cfd-bfcf-00ba1df2b019",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.8,
+        "clarity": 9.7,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Bản trưởng thành giữ các lựa chọn anacchariyā, mahantassa và gần làng đã ghi; mở phần 17-21.1 bằng chính HTML MN125 đã đọc, không tự nhận đọc MN107 hay dùng bản điền Anh.",
+        "semantic_fidelity": "Không biến lời từ chối của sa-di thành thiếu thiện chí, không biến phủ nhận của Jayasena thành phá lời hứa phải tin; giữ khả năng nhất tâm, hai điều kiện nghe và giả định về hai ví dụ.",
+        "core_coverage": "Hai cặp con vật, bốn cảnh núi, năm mục đích thuần voi, bảy nét lời nói và ba cách nghe đều đủ; giới/sáu căn/các sinh hoạt/bốn niệm xứ, thiền hai đến bốn và lậu tận nối tới kết luận về thâm niên.",
+        "logic_context": "Mỗi bước thuần luyện chỉ đến sau khi voi làm theo bước trước; việc xuất gia có ý muốn rồi thực hiện. Công thức tâm áp dụng cả ba trí, và kết tái sinh thiện/ác được đặt sau thân hoại, chết đi.",
+        "terminology": "Phóng dật, dục, gia chủ, phạm hạnh, tầm/tứ, nghiệp và lậu hoặc được mở nghĩa tại chỗ; định và an trú đã làm rõ sau góp ý. Các chữ căn và pháp còn dùng theo ngữ cảnh nhưng đủ để theo mạch.",
+        "audience_fit": "Ví cuộc họp và gợi ý xem mình có bám một chi tiết để nuôi giận phù hợp quan hệ công việc; giọng trình bày đi thẳng vào điều kiện và thực hành, vẫn giữ phần xuất gia đúng chủ thể.",
+        "clarity": "Hai mươi bốn mục gom việc nghe, phép ví và quá trình tu có trật tự; đoạn ba thiền khá dày nhưng giữ từng chuyển đổi hỷ/xả/lạc/khổ, cùng lời mở nghĩa an trú ngay lần đầu.",
+        "editorial_separation": "Phần họp và gợi ý đặt chỗ dừng được đánh dấu riêng; không gán cho Phật lời của tác giả. Một vài câu nêu hình thức giả định hoặc hai nhánh kết còn mang giọng giải thích cấu trúc, nhưng không thêm nghĩa nguồn.",
+        "practical_integrity": "Ứng dụng nhận biết phản ứng trước lời đáp bám giữ căn và quán thân/thọ; không đổi giải thoát thành thành công công việc, không hứa bỏ bữa, chịu đau hoặc luyện tập cưỡng bức sẽ đạt đạo.",
+        "technical_integrity": "Fingerprint trưởng thành khớp prepared freeze sau khi đọc lại toàn absorptions; audit nội dung và nguồn rỗng lỗi, mọi liên kết ý còn đủ và hồ sơ chỉ là đề xuất, chưa ghi metadata chính thức."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc độc lập đủ năm nguồn, toàn 59 ý và cả ba bản; đọc lại trọn ba mục sau khi mở nghĩa định/an trú. Đây là kiểm bởi tác nhân AI khác, chưa thử với độc giả thật. Nội dung vẫn prepared ngoài canonical và cần nối lại byte/hash khi có GO, không phải xác nhận đã công bố.",
+      "contentHash": "8163125c6a621f8f0c6d14a665924411f8e40b93fc02a2877d47a91ca63c6bbd",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn125.html",
+          "sha256": "e69d10ebb3f0a057d04ab90f1d6d5378d9481d87f80b04461156e040dfd758a7"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn125_root-pli-ms.json",
+          "sha256": "103422c6ee72c694f81908f95d075ecf656cd16ff3d69291937435d3a50974fb"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn125_translation-en-sujato.json",
+          "sha256": "3e514bb86a7704074c993855c043882eab7b14ca444012d51dccd3d1a5b2a159"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn125_comment-vi-project.json",
+          "sha256": "fd30dbe6c06c0f39b0612b63474788ca31eb8d6eab25526f8efa83d7811c8764"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn125_translation-vi-project.json",
+          "sha256": "1bd51c64948c8b5a1d29aa8a6e7ab3d4d8185fcf66bf6141386c7d9b62328c23"
+        }
+      ]
+    },
+    {
+      "id": "e79d850b-e2c3-4586-beb6-42cc0ed7e40d",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.8,
+        "clarity": 9.8,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Bản lớn tuổi giữ đầy đủ bối cảnh, phép ví và các công thức được khai triển từ nguồn thật; không bỏ đuôi như HTML, không đổi dục tầm ở 24.* thành ý nghĩ về thân/thọ/tâm/pháp.",
+        "semantic_fidelity": "Tách rõ còn chưa thuần với đã thuần, ba tuổi voi với ba mức thâm niên tỳ-kheo; tiêu chí của người tu là lậu hoặc đã tận hoặc chưa tận khi chết, không phải tuổi sinh học hay sự vâng lời đơn thuần.",
+        "core_coverage": "Ba mươi bốn mục giữ hai câu hỏi con vật, bốn cảnh núi, năm mục đích cọc, chín chỗ giữ yên, các bước sinh hoạt, thiền hai/ba/bốn và ba trí; bốn vế biết đã giải thoát cùng người tán đồng cuối đều có.",
+        "logic_context": "Giữ lời chúng tôi trong việc nhắc lời bạn mà không thêm nhân vật; việc Jayasena có lòng tin vẫn là giả định. Trình tự nghe/tin/suy xét/xuất gia và mỗi bước rèn tâm nối nhau đúng điều kiện.",
+        "terminology": "Giới bổn, thọ, tầm/tứ, nghiệp, Niết-bàn và ba lậu có lời giải; định và an trú đã được mở ngay mục thiền hai. Các danh hiệu được giữ bằng diễn nghĩa ngắn, không đòi hỏi nhớ thuật ngữ trước.",
+        "audience_fit": "Ví chăm vườn và việc nhớ lại lúc tâm bị kéo đi có nhịp gần đời sống thường ngày; lời kể tôn trọng người lớn tuổi, không giả định yếu bệnh hoặc biến tuổi già thành lý do không thể rèn luyện.",
+        "clarity": "Những đoạn ngắn tách lời dịu, từng bài học, nơi vắng, năm triền cái và ba trí giúp đọc nghỉ từng chặng; kết hai nhánh được nêu riêng nên dễ so sánh mà vẫn đủ các nhóm.",
+        "editorial_separation": "Ví chăm vườn và thực tập trong ngày có dấu hiệu hiện đại rõ; câu nhắc giả định giúp không hiểu Jayasena đã đổi ý. Các khác biệt nguồn nằm trong hồ sơ, không chen thành phần đối chiếu dài trong bài đọc.",
+        "practical_integrity": "Gợi ý biết thân và cảm giác rồi chọn lời lành giữ quy mô nhỏ; lời kham nhẫn nằm trong kết quả người đã giải thoát, không thành chỉ dẫn bỏ nghỉ ngơi hoặc tự gây đau để bắt chước.",
+        "technical_integrity": "Hash lớn tuổi khớp toàn mục second đã đọc lại; audit prepared xác nhận đủ khóa và tham chiếu, cả năm byte nguồn cùng pin dự án đúng. Không có thay đổi canonical hay metadata trong lượt kiểm này."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc độc lập đủ năm nguồn, toàn 59 ý và cả ba bản; đọc lại trọn ba mục sau khi mở nghĩa định/an trú. Đây là kiểm bởi tác nhân AI khác, chưa thử với độc giả thật. Nội dung vẫn prepared ngoài canonical và cần nối lại byte/hash khi có GO, không phải xác nhận đã công bố.",
+      "contentHash": "a3c0d717921309e6224be1804bff1fbc790b2ae4ae0e2f499044a07706fc0e62",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn125.html",
+          "sha256": "e69d10ebb3f0a057d04ab90f1d6d5378d9481d87f80b04461156e040dfd758a7"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn125_root-pli-ms.json",
+          "sha256": "103422c6ee72c694f81908f95d075ecf656cd16ff3d69291937435d3a50974fb"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn125_translation-en-sujato.json",
+          "sha256": "3e514bb86a7704074c993855c043882eab7b14ca444012d51dccd3d1a5b2a159"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn125_comment-vi-project.json",
+          "sha256": "fd30dbe6c06c0f39b0612b63474788ca31eb8d6eab25526f8efa83d7811c8764"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn125_translation-vi-project.json",
+          "sha256": "1bd51c64948c8b5a1d29aa8a6e7ab3d4d8185fcf66bf6141386c7d9b62328c23"
+        }
+      ]
+    }
+  ]
+}

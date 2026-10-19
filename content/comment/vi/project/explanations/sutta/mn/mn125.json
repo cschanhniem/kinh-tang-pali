@@ -1,0 +1,1801 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn125",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn125_root-pli-ms.json",
+      "sha256": "103422c6ee72c694f81908f95d075ecf656cd16ff3d69291937435d3a50974fb",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn125_translation-en-sujato.json",
+      "sha256": "3e514bb86a7704074c993855c043882eab7b14ca444012d51dccd3d1a5b2a159",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn125_translation-vi-project.json",
+      "sha256": "1bd51c64948c8b5a1d29aa8a6e7ab3d4d8185fcf66bf6141386c7d9b62328c23",
+      "commit": "87288fe96fd977f95fc7dee56ab8f41b927176ba"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn125.html",
+      "sha256": "e69d10ebb3f0a057d04ab90f1d6d5378d9481d87f80b04461156e040dfd758a7",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn125_comment-vi-project.json",
+      "sha256": "fd30dbe6c06c0f39b0612b63474788ca31eb8d6eab25526f8efa83d7811c8764",
+      "commit": "87288fe96fd977f95fc7dee56ab8f41b927176ba"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Tên bài",
+      "segments": [
+        "mn125:0.1",
+        "mn125:0.2"
+      ],
+      "summary": "Trung Bộ 125, Kinh Điều Ngự Địa, trình độ của người đã được rèn luyện."
+    },
+    {
+      "id": "setting",
+      "title": "Lời truyền và trú xứ",
+      "segments": [
+        "mn125:1.1",
+        "mn125:1.2"
+      ],
+      "summary": "Người truyền kinh kể điều đã nghe; Phật ở gần Rājagaha, Trúc Lâm, khu nuôi sóc."
+    },
+    {
+      "id": "visit",
+      "title": "Vương tử đến thăm sa-di",
+      "segments": [
+        "mn125:2.1",
+        "mn125:2.2",
+        "mn125:2.3"
+      ],
+      "summary": "Sa-di Aciravata ở túp lều nơi hoang vắng. Vương tử Jayasena đi dạo đến, trao đổi lời chào thân hữu rồi ngồi một bên."
+    },
+    {
+      "id": "possibility",
+      "title": "Ba cách sống và khả năng nhất tâm",
+      "segments": [
+        "mn125:2.4",
+        "mn125:2.5",
+        "mn125:2.6",
+        "mn125:2.7"
+      ],
+      "summary": "Jayasena gọi Aciravata là Aggivessana, nói đã nghe vị tỳ-kheo không phóng dật, nhiệt tâm, quyết chí có thể chạm nhất tâm. Sa-di xác nhận hai lần rồi nhắc đủ mệnh đề ấy; chưa phải chứng đạt chắc chắn."
+    },
+    {
+      "id": "first-request",
+      "title": "Lời xin giảng và sự e ngại",
+      "segments": [
+        "mn125:3.1",
+        "mn125:3.2",
+        "mn125:3.3"
+      ],
+      "summary": "Vương tử xin giảng như điều đã nghe, đã thọ trì. Sa-di nói không đủ khả năng; nếu giảng mà người nghe không hiểu nghĩa thì mệt nhọc và phiền nhiễu cho mình."
+    },
+    {
+      "id": "agreement",
+      "title": "Hai nhánh của thỏa thuận",
+      "segments": [
+        "mn125:4.1",
+        "mn125:4.2",
+        "mn125:4.3",
+        "mn125:4.4",
+        "mn125:4.5",
+        "mn125:4.6",
+        "mn125:4.7",
+        "mn125:4.8"
+      ],
+      "summary": "Vương tử xin lại với hy vọng có thể hiểu. Sa-di nhận giảng: hiểu thì tốt; không hiểu thì để yên, đừng hỏi thêm. Vương tử xin lần nữa, nhắc lại hiểu thì tốt và không hiểu sẽ để yên, không hỏi thêm."
+    },
+    {
+      "id": "denial",
+      "title": "Giảng rồi bị phủ nhận",
+      "segments": [
+        "mn125:5.1",
+        "mn125:5.2",
+        "mn125:5.3",
+        "mn125:5.4"
+      ],
+      "summary": "Aciravata giảng như đã nghe và thọ trì, không nêu chi tiết bài giảng riêng. Vương tử phủ nhận khả năng vị tu đủ ba nét đạt nhất tâm, tuyên bố không thể có/không trường hợp rồi đứng dậy đi."
+    },
+    {
+      "id": "report",
+      "title": "Báo toàn cuộc đối thoại",
+      "segments": [
+        "mn125:6.1",
+        "mn125:6.2"
+      ],
+      "summary": "Không lâu sau vương tử đi, Aciravata đến Phật, đảnh lễ, ngồi một bên và báo toàn cuộc trò chuyện."
+    },
+    {
+      "id": "renunciation",
+      "title": "Điều được biết nhờ ly dục",
+      "segments": [
+        "mn125:7.1",
+        "mn125:7.2",
+        "mn125:7.3"
+      ],
+      "summary": "Phật hỏi làm sao có thể: Jayasena sống giữa dục, hưởng dục, bị dục tầm nuốt chửng, bị nhiệt não dục thiêu đốt, tích cực tìm dục, lại biết/thấy/chứng điều phải nhờ ly dục mới biết/thấy/đạt/chứng. Giữ năm nét, bốn việc và phạm vi tình trạng ấy."
+    },
+    {
+      "id": "trained-pair",
+      "title": "Hai cặp con vật",
+      "segments": [
+        "mn125:8.1",
+        "mn125:8.2",
+        "mn125:8.3",
+        "mn125:8.4",
+        "mn125:8.5",
+        "mn125:8.6"
+      ],
+      "summary": "Hai voi hoặc ngựa hoặc bò được khéo thuần/huấn luyện đối với hai con chưa thuần/huấn luyện. Hỏi cặp đã thuần có làm việc và đạt trình độ đã thuần không: có; cặp chưa thuần khi còn như vậy có làm/đạt như cặp kia không: không."
+    },
+    {
+      "id": "first-return",
+      "title": "Nối phép ví với Jayasena",
+      "segments": [
+        "mn125:8.7"
+      ],
+      "summary": "Phật lặp đủ năm nét Jayasena giữa dục và điều cần ly dục mới biết/thấy/đạt/chứng; trong tình trạng ấy không thể biết/thấy/chứng."
+    },
+    {
+      "id": "hill-start",
+      "title": "Một người dưới và một người trên",
+      "segments": [
+        "mn125:9.1",
+        "mn125:9.2",
+        "mn125:9.3",
+        "mn125:9.4",
+        "mn125:9.5",
+        "mn125:9.6"
+      ],
+      "summary": "Núi lớn gần làng/thị trấn; hai bạn rời nơi ấy, nâng đỡ nhau bằng tay đến núi, một đứng dưới chân, một lên đỉnh. Người dưới hỏi, người trên nói thấy vườn đẹp, rừng đẹp, đất đẹp và hồ sen đẹp."
+    },
+    {
+      "id": "hill-denial",
+      "title": "Người dưới phủ nhận",
+      "segments": [
+        "mn125:9.7",
+        "mn125:9.8"
+      ],
+      "summary": "Người dưới nói không thể có/không trường hợp bạn trên đỉnh thấy bốn loại cảnh đẹp ấy."
+    },
+    {
+      "id": "hill-help",
+      "title": "Đưa bạn lên và cho nghỉ",
+      "segments": [
+        "mn125:9.9",
+        "mn125:9.10",
+        "mn125:9.11",
+        "mn125:9.12"
+      ],
+      "summary": "Bạn trên xuống chân núi, nắm tay đưa bạn lên đỉnh, cho nghỉ một lát rồi hỏi thấy gì; bạn ấy nay thấy đủ bốn loại cảnh đẹp."
+    },
+    {
+      "id": "hill-understanding",
+      "title": "Nhắc lại hai lời và hiểu vật che",
+      "segments": [
+        "mn125:9.13",
+        "mn125:9.14",
+        "mn125:9.15",
+        "mn125:9.16",
+        "mn125:9.17",
+        "mn125:9.18",
+        "mn125:9.19"
+      ],
+      "summary": "Bạn giúp nhắc lời vừa phủ nhận rồi lời nay thấy đủ bốn cảnh, theo điều mình hiểu. Người được giúp nhận vì núi lớn che nên trước không thấy điều có thể thấy."
+    },
+    {
+      "id": "ignorance",
+      "title": "Khối vô minh lớn hơn núi",
+      "segments": [
+        "mn125:10.1",
+        "mn125:10.2"
+      ],
+      "summary": "Jayasena bị khối vô minh lớn hơn núi che lấp, che khuất, bao phủ, vây kín. Phật nhắc đủ năm nét dính dục và điều phải nhờ ly dục mới biết/thấy/đạt/chứng; không thể biết/thấy/chứng khi còn trong tình trạng ấy."
+    },
+    {
+      "id": "conditional-confidence",
+      "title": "Giả định về niềm tin",
+      "segments": [
+        "mn125:11.1",
+        "mn125:11.2"
+      ],
+      "summary": "Nếu hai ví dụ khởi lên nơi Aciravata khi nói với Jayasena, không lạ nếu vương tử tin rồi biểu lộ tin. Sa-di hỏi làm sao hai ví dụ chưa từng nghe có thể tự nhiên khởi như ở Phật; không kể vương tử thật đã đổi ý."
+    },
+    {
+      "id": "capture",
+      "title": "Lệnh vua và người săn voi",
+      "segments": [
+        "mn125:12.1",
+        "mn125:12.2",
+        "mn125:12.3"
+      ],
+      "summary": "Vua Sát-đế-lợi đã quán đảnh bảo người săn cưỡi voi vua, vào rừng voi, gặp voi rừng thì buộc cổ nó với voi vua. Người săn vâng và thực hiện đủ."
+    },
+    {
+      "id": "open",
+      "title": "Ra chỗ trống vẫn còn bám rừng",
+      "segments": [
+        "mn125:12.4",
+        "mn125:12.5",
+        "mn125:12.6",
+        "mn125:12.7",
+        "mn125:12.8"
+      ],
+      "summary": "Voi vua đưa voi rừng ra chỗ trống; đến lúc ấy mới ra chỗ trống, vì voi rừng bám rừng voi. Người săn báo vua voi đã ra."
+    },
+    {
+      "id": "post-training",
+      "title": "Năm mục đích và cọc lớn",
+      "segments": [
+        "mn125:12.9",
+        "mn125:12.10",
+        "mn125:12.11"
+      ],
+      "summary": "Vua giao người thuần voi bỏ tánh rừng, ký ức/tư duy rừng, não hại/mệt/nhiệt não rừng, giúp vui gần làng, quen tánh nết con người ưa. Người ấy vâng, đóng cọc lớn và buộc cổ voi, với đủ năm mục đích này."
+    },
+    {
+      "id": "gentle-words",
+      "title": "Lời dịu và ba cách nghe",
+      "segments": [
+        "mn125:12.12",
+        "mn125:12.13"
+      ],
+      "summary": "Người thuần nói dịu, dễ nghe, thân ái, chạm tim, lễ độ, được nhiều người yêu mến và vừa ý. Khi được nói thế, voi muốn nghe, lắng tai, đặt tâm hiểu."
+    },
+    {
+      "id": "feeding",
+      "title": "Cỏ, thức ăn và nước",
+      "segments": [
+        "mn125:12.14",
+        "mn125:12.15",
+        "mn125:12.16"
+      ],
+      "summary": "Sau khi voi biết nghe, người thuần cho cỏ/thức ăn/nước. Khi voi nhận thì người ấy nghĩ nay voi sẽ sống."
+    },
+    {
+      "id": "lift",
+      "title": "Nhấc và đặt",
+      "segments": [
+        "mn125:12.17",
+        "mn125:12.18",
+        "mn125:12.19"
+      ],
+      "summary": "Tiếp giao nhấc lên/đặt xuống; chỉ khi voi vâng và làm theo mới giao bước kế."
+    },
+    {
+      "id": "forward",
+      "title": "Tới và lui",
+      "segments": [
+        "mn125:12.20",
+        "mn125:12.21"
+      ],
+      "summary": "Giao bước tới/bước lui; chỉ khi voi vâng và làm theo mới giao bước kế."
+    },
+    {
+      "id": "stand-test",
+      "title": "Đứng, ngồi rồi luyện bất động",
+      "segments": [
+        "mn125:12.22",
+        "mn125:12.23"
+      ],
+      "summary": "Giao đứng/ngồi; khi vâng và làm theo mới luyện bất động: buộc ván vào vòi voi lớn, một người cầm giáo trên cổ, các người cầm giáo quanh bốn phía, người thuần cầm giáo dài đứng trước."
+    },
+    {
+      "id": "stillness",
+      "title": "Chín bộ phận không lay động",
+      "segments": [
+        "mn125:12.24"
+      ],
+      "summary": "Voi giữ không động chân trước/chân sau, thân trước/thân sau, đầu, tai, ngà, đuôi và vòi."
+    },
+    {
+      "id": "elephant-result",
+      "title": "Chịu đựng và xứng đáng với vua",
+      "segments": [
+        "mn125:12.25"
+      ],
+      "summary": "Chịu đòn giáo/kiếm/tên/búa và tiếng trống/trống cái/kèn/tù và/mõ. Bỏ cong queo/khuyết điểm, lắng lọc cấu lỗi; xứng vua, để vua dùng, được kể là chi phần của vua."
+    },
+    {
+      "id": "buddha",
+      "title": "Như Lai xuất hiện",
+      "segments": [
+        "mn125:13.1"
+      ],
+      "summary": "Như Lai là A-la-hán, Chánh Đẳng Giác, đủ minh/hạnh, Thiện Thệ, biết thế gian, vô thượng điều phục người đáng điều phục, thầy trời/người, Phật, Thế Tôn."
+    },
+    {
+      "id": "world",
+      "title": "Tự chứng rồi tuyên thuyết",
+      "segments": [
+        "mn125:13.2"
+      ],
+      "summary": "Ngài tự chứng bằng trí trực tiếp thế giới cùng chư thiên/Māra/Phạm thiên, quần chúng sa-môn/bà-la-môn/trời/người rồi tuyên thuyết."
+    },
+    {
+      "id": "dhamma",
+      "title": "Pháp tốt cả ba chặng",
+      "segments": [
+        "mn125:13.3"
+      ],
+      "summary": "Pháp tốt đầu/giữa/cuối, đủ nghĩa/lời; trình bày đời phạm hạnh hoàn toàn viên mãn, hoàn toàn thanh tịnh."
+    },
+    {
+      "id": "faith",
+      "title": "Nghe rồi tin",
+      "segments": [
+        "mn125:14.1",
+        "mn125:14.2",
+        "mn125:14.3"
+      ],
+      "summary": "Gia chủ/con gia chủ/người sinh trong gia đình nào đó nghe Pháp, được lòng tin Như Lai rồi suy xét."
+    },
+    {
+      "id": "resolution",
+      "title": "Suy xét và ý xuất gia",
+      "segments": [
+        "mn125:14.4",
+        "mn125:14.5",
+        "mn125:14.6"
+      ],
+      "summary": "Người ấy thấy nhà chật/bụi, xuất gia rộng, khó sống phạm hạnh trọn/sạch như vỏ ốc đánh bóng tại gia; nghĩ nên cạo tóc râu, khoác cà-sa, rời gia đình sống không nhà."
+    },
+    {
+      "id": "going-forth",
+      "title": "Thật xuất gia và năm chỗ bám",
+      "segments": [
+        "mn125:14.7",
+        "mn125:14.8",
+        "mn125:14.9"
+      ],
+      "summary": "Sau đó bỏ tài sản lớn/nhỏ và vòng thân quyến lớn/nhỏ, cạo tóc râu/khoác cà-sa/xuất gia. Đến đây Thánh đệ tử mới ra chỗ trống; chư thiên và người bám năm đối tượng dục."
+    },
+    {
+      "id": "ethics",
+      "title": "Giới đức trước bước kế",
+      "segments": [
+        "mn125:15.1",
+        "mn125:15.2",
+        "mn125:16.1"
+      ],
+      "summary": "Phật dạy có giới, giữ giới bổn, oai nghi/đường hạnh, thấy nguy hiểm lỗi rất nhỏ, thọ trì/học quy tắc. Khi thành tựu đủ các điều này mới huấn luyện tiếp."
+    },
+    {
+      "id": "sense-doors",
+      "title": "Giữ sáu cửa giác quan",
+      "segments": [
+        "mn125:16.2"
+      ],
+      "summary": "Root mở mắt thấy sắc rồi lược; full HTML SC32 giữ không nắm tướng chung/chi tiết, ngăn tham ưu và bất thiện do không chế ngự, giữ từng mắt/tai/mũi/lưỡi/thân/ý qua sắc/tiếng/hương/vị/xúc/pháp."
+    },
+    {
+      "id": "further-training",
+      "title": "Các bước lược được HTML mở đầy đủ",
+      "segments": [
+        "mn125:17-21.1"
+      ],
+      "summary": "Khóa gốc chỉ dẫn khai triển như MN107. Full HTML SC33–37 thực đọc: tiết độ ăn có bốn phủ định vui đùa/đam mê/trang sức/làm đẹp, nuôi/bảo dưỡng/chống hại/hỗ trợ đời tu, bỏ khó chịu cũ/không gây mới/không lỗi/an ổn; ngày và canh đầu đi/ngồi sạch chướng ngại, canh giữa nằm phải/chân trên chân/niệm/tỉnh giác/nhớ giờ dậy, canh cuối dậy đi/ngồi; tỉnh giác đi tới lui, nhìn thẳng quanh, co duỗi, y kép/bát/thượng y, ăn/uống/nhai/nuốt, đại/tiểu tiện, đi/đứng/ngồi/nằm/thức/nói/im; chọn chín nơi vắng rừng/gốc cây/núi/hoang vu/hang núi/nghĩa địa/khóm rừng/ngoài trời/đống rơm; sau ăn/khất thực về, ngồi kiết già/lưng thẳng/niệm trước; bỏ tham, sân với từ mẫn mọi chúng sinh, hôn trầm ngủ với tưởng sáng/niệm/tỉnh giác, trạo hối với nội tĩnh, nghi với hết phân vân pháp lành. Không tạo khóa mới, không tính MN107 là nguồn đã đọc."
+    },
+    {
+      "id": "hindrances",
+      "title": "Năm triền cái làm yếu trí",
+      "segments": [
+        "mn125:22.1"
+      ],
+      "summary": "Sau khi bỏ năm triền cái, những điều làm tâm ô nhiễm và trí tuệ suy yếu, mới tới bốn quán."
+    },
+    {
+      "id": "body-mindfulness",
+      "title": "Quán thân",
+      "segments": [
+        "mn125:22.2"
+      ],
+      "summary": "An trú quán thân trên thân với tinh cần, tỉnh giác, niệm, bỏ tham ưu nơi đời."
+    },
+    {
+      "id": "other-mindfulness",
+      "title": "Quán thọ, tâm, pháp",
+      "segments": [
+        "mn125:23.1",
+        "mn125:23.2",
+        "mn125:23.3"
+      ],
+      "summary": "Quán thọ trên thọ, tâm trên tâm, pháp trên pháp cùng tinh cần/tỉnh giác/niệm/bỏ tham ưu."
+    },
+    {
+      "id": "mind-tether",
+      "title": "Bốn niệm xứ như cọc giữ tâm",
+      "segments": [
+        "mn125:23.4",
+        "mn125:23.5"
+      ],
+      "summary": "Nhắc cọc voi với đủ năm mục đích. Tương tự bốn niệm xứ buộc tâm đệ tử, dẹp tánh nhà/ký ức và nghĩ về nhà/lo mệt nóng bức liên hệ nhà, đạt đường chân chánh và chứng Niết-bàn."
+    },
+    {
+      "id": "no-sensual-thought",
+      "title": "Quán mà không tầm liên hệ dục",
+      "segments": [
+        "mn125:24.1",
+        "mn125:24.2",
+        "mn125:24.3",
+        "mn125:24.4",
+        "mn125:24.5"
+      ],
+      "summary": "Phật dạy tiếp quán thân/thọ/tâm/pháp nhưng không nghĩ các tầm liên hệ DỤC ở mỗi quán, theo root/Việt/Anh, khác HTML liên hệ chính đối tượng."
+    },
+    {
+      "id": "second-jhana",
+      "title": "Thiền thứ hai",
+      "segments": [
+        "mn125:25.1"
+      ],
+      "summary": "Không chèn sơ thiền: tầm/tứ lắng, nội tâm lắng trong/hợp nhất, không tầm/tứ, hỷ lạc do định; chứng và an trú thiền hai."
+    },
+    {
+      "id": "third-jhana",
+      "title": "Thiền thứ ba",
+      "segments": [
+        "mn125:25.2"
+      ],
+      "summary": "Root lược, HTML SC42: ly hỷ, xả, niệm/tỉnh giác, thân cảm lạc, được bậc Thánh gọi xả niệm lạc trú; chứng/an trú thiền ba."
+    },
+    {
+      "id": "fourth-jhana",
+      "title": "Thiền thứ tư",
+      "segments": [
+        "mn125:25.3"
+      ],
+      "summary": "Root lược, HTML SC42: bỏ lạc/khổ, hỷ/ưu trước diệt, không khổ/lạc, niệm thanh tịnh nhờ xả; chứng/an trú thiền bốn."
+    },
+    {
+      "id": "past-mind",
+      "title": "Tâm hướng trí quá khứ",
+      "segments": [
+        "mn125:26.1"
+      ],
+      "summary": "Tâm định tĩnh, tám nét thanh tịnh/trong sáng/không uế/lìa cấu/mềm/đắc dụng/vững/bất động, hướng trí nhớ đời quá khứ."
+    },
+    {
+      "id": "past-lives",
+      "title": "Nhớ đời với các nét và chi tiết",
+      "segments": [
+        "mn125:26.2"
+      ],
+      "summary": "Nhớ một/hai/nhiều đời, các thời kỳ thế giới hoại/thành; HTML SC43 mở hai chuyển đời với tên/họ/giai cấp/ăn/cảm nhận vui khổ/tuổi thọ. Giữ có nét và chi tiết, không nhập máy móc danh sách số thiếu của HTML."
+    },
+    {
+      "id": "rebirth-mind",
+      "title": "Tâm hướng trí chết và tái sinh",
+      "segments": [
+        "mn125:27-28.1"
+      ],
+      "summary": "Tâm định tĩnh đủ tám nét như ở trí đầu hướng biết chết/tái sinh của hữu tình."
+    },
+    {
+      "id": "rebirth",
+      "title": "Thiên nhãn và hai hướng hành động",
+      "segments": [
+        "mn125:27-28.2"
+      ],
+      "summary": "Mắt trời trong sạch vượt mắt người thấy chết/tái sinh, thấp/cao, đẹp/xấu, nơi tốt/xấu, theo nghiệp. HTML SC44 mở ác thân/khẩu/ý, phỉ báng Thánh/tà kiến/nghiệp tà kiến thì sau chết cõi dữ/đọa xứ/địa ngục; thiện thân/khẩu/ý, không phỉ báng/chánh kiến/nghiệp chánh kiến thì sau chết nơi lành/cõi trời."
+    },
+    {
+      "id": "ending-mind",
+      "title": "Tâm hướng trí lậu tận",
+      "segments": [
+        "mn125:29.1"
+      ],
+      "summary": "Tâm định tĩnh với đủ tám nét như hai trí trước hướng tới biết sự chấm dứt lậu hoặc."
+    },
+    {
+      "id": "suffering",
+      "title": "Bốn hiểu biết về khổ",
+      "segments": [
+        "mn125:29.2"
+      ],
+      "summary": "Biết đúng như thật khổ/nguồn gốc/chấm dứt/con đường chấm dứt khổ."
+    },
+    {
+      "id": "defilements",
+      "title": "Bốn hiểu biết về lậu hoặc",
+      "segments": [
+        "mn125:29.3"
+      ],
+      "summary": "Biết đúng như thật lậu hoặc/nguồn gốc/chấm dứt/con đường chấm dứt chúng."
+    },
+    {
+      "id": "liberation",
+      "title": "Ba giải thoát và tri kiến kết thúc",
+      "segments": [
+        "mn125:29.4",
+        "mn125:29.5",
+        "mn125:29.6"
+      ],
+      "summary": "Biết và thấy vậy nên thoát dục lậu/hữu lậu/vô minh lậu; khi thoát biết đã thoát. Tái sinh tận/đời tu thanh tịnh thành/việc phải làm xong/không trở lại hiện hữu này."
+    },
+    {
+      "id": "endurance",
+      "title": "Kham nhẫn những gì khởi đến",
+      "segments": [
+        "mn125:30.1"
+      ],
+      "summary": "Chịu lạnh/nóng/đói/khát, ruồi/muỗi/gió/nắng/rắn rết, lời thô ác/khó nghe; cảm thọ thân đã sinh khổ/gay gắt/dữ dội/xót xa/không dễ chịu/không vừa ý/đe dọa mạng sống."
+    },
+    {
+      "id": "worthy",
+      "title": "Hết tham sân si, ruộng phước",
+      "segments": [
+        "mn125:30.2"
+      ],
+      "summary": "Bỏ mọi tham/sân/si, sạch cấu lỗi; đáng cúng dường/tiếp đón/hiến tặng/chắp tay kính, ruộng phước vô thượng đời."
+    },
+    {
+      "id": "untamed-elephants",
+      "title": "Ba tuổi voi chưa thuần",
+      "segments": [
+        "mn125:31.1",
+        "mn125:31.2",
+        "mn125:31.3"
+      ],
+      "summary": "Voi vua già/tuổi giữa/non nếu chết khi chưa thuần/chưa huấn luyện đều được gọi chết chưa thuần."
+    },
+    {
+      "id": "untamed-monks",
+      "title": "Ba hạng tỳ-kheo còn lậu hoặc",
+      "segments": [
+        "mn125:31.4",
+        "mn125:31.5",
+        "mn125:31.6"
+      ],
+      "summary": "Tỳ-kheo trưởng thượng/trung gian/mới nếu chết khi lậu hoặc chưa tận đều được gọi chết chưa thuần; phân biệt thâm niên với tuổi sinh học."
+    },
+    {
+      "id": "tamed-elephants",
+      "title": "Ba tuổi voi đã thuần",
+      "segments": [
+        "mn125:32.1",
+        "mn125:32.2",
+        "mn125:32.3"
+      ],
+      "summary": "Voi vua già/tuổi giữa/non nếu chết khi khéo thuần/huấn luyện đều được gọi chết đã thuần."
+    },
+    {
+      "id": "tamed-monks",
+      "title": "Ba hạng tỳ-kheo hết lậu hoặc",
+      "segments": [
+        "mn125:32.4",
+        "mn125:32.5",
+        "mn125:32.6"
+      ],
+      "summary": "Tỳ-kheo trưởng thượng/trung gian/mới nếu chết khi lậu hoặc đã tận đều được gọi chết đã thuần."
+    },
+    {
+      "id": "ending",
+      "title": "Người nghe và kết bài",
+      "segments": [
+        "mn125:32.7",
+        "mn125:32.8",
+        "mn125:32.9"
+      ],
+      "summary": "Phật nói xong; sa-di Aciravata hoan hỷ tán đồng. Kinh Điều Ngự Địa kết, bài thứ năm trong nhóm; không thêm Jayasena trở lại hay chứng quả."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Diễn giải dành cho trẻ em",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Người học tu và vị vương tử",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "visit"
+          ],
+          "paragraphs": [
+            "Kinh Điều Ngự Địa là bài 125 của Trung Bộ, nói về trình độ của người đã được rèn luyện. Người truyền kinh kể điều đã nghe: Phật ở gần Rājagaha, tại Trúc Lâm, khu nuôi sóc.",
+            "Sa-di Aciravata, một nam tu sĩ tập sự, ở trong túp lều nơi hoang vắng. Vương tử Jayasena, con vua, đang đi dạo thì đến thăm. Hai người chào hỏi thân tình, rồi vương tử ngồi một bên."
+          ]
+        },
+        {
+          "id": "heard",
+          "kind": "teaching",
+          "heading": "Tâm có thể quy tụ không?",
+          "meaningUnits": [
+            "possibility"
+          ],
+          "paragraphs": [
+            "Vương tử gọi Aciravata là Aggivessana và nói mình đã nghe: một tỳ-kheo, nam tu sĩ đã thọ giới đầy đủ, sống không lơ là việc tu, hết lòng và giữ vững quyết tâm, có thể chạm đến nhất tâm. Nhất tâm là tâm quy tụ, không tản mác. Aciravata hai lần xác nhận “đúng vậy”, rồi nhắc lại đủ ba cách sống và khả năng ấy."
+          ]
+        },
+        {
+          "id": "agreement",
+          "kind": "teaching",
+          "heading": "Một lời xin và hai điều kiện",
+          "meaningUnits": [
+            "first-request",
+            "agreement"
+          ],
+          "paragraphs": [
+            "Vương tử xin được nghe lời dạy như Aciravata đã nghe và học giữ. Aciravata nói mình không đủ khả năng: nếu giảng mà người nghe không hiểu nghĩa thì sẽ mệt nhọc và phiền lòng.",
+            "Vương tử xin lại: biết đâu mình có thể hiểu. Aciravata đồng ý, với hai nhánh rõ ràng: hiểu được thì tốt; không hiểu thì cứ để yên, đừng hỏi thêm về việc ấy. Vương tử tiếp tục xin giảng và nhận cả hai điều kiện: hiểu thì tốt, không hiểu sẽ để yên và không hỏi thêm."
+          ]
+        },
+        {
+          "id": "denial",
+          "kind": "teaching",
+          "heading": "“Điều ấy không thể có”",
+          "meaningUnits": [
+            "denial",
+            "report"
+          ],
+          "paragraphs": [
+            "Aciravata giảng như mình đã nghe và học giữ. Nhưng vương tử lại tuyên bố không thể có chuyện vị tu sống không lơ là, hết lòng, quyết tâm mà chạm nhất tâm. Nói rằng việc ấy không thể xảy ra, vương tử đứng dậy ra đi.",
+            "Không lâu sau, Aciravata đến Phật, kính lễ, ngồi một bên và kể lại toàn bộ cuộc trò chuyện."
+          ]
+        },
+        {
+          "id": "renunciation",
+          "kind": "teaching",
+          "heading": "Điều cần tự rèn luyện để biết",
+          "meaningUnits": [
+            "renunciation"
+          ],
+          "paragraphs": [
+            "Phật nói Jayasena đang sống giữa các dục, những thú vui giác quan: hưởng thụ chúng, bị ý nghĩ về chúng cuốn lấy, bị sự nóng lòng vì chúng thiêu đốt, luôn cố tìm thêm. Có những điều phải nhờ ly dục, rời sự say đắm ấy, mới biết, thấy, đạt và tự chứng được. Khi vẫn ở trong tình trạng vừa kể, vương tử không thể biết, thấy hay tự chứng những điều đó."
+          ]
+        },
+        {
+          "id": "pairs",
+          "kind": "teaching",
+          "heading": "Hai cặp con vật",
+          "meaningUnits": [
+            "trained-pair",
+            "first-return"
+          ],
+          "paragraphs": [
+            "Phật nêu ví dụ hai con voi, hoặc hai con ngựa, hoặc hai con bò đã được thuần hóa và dạy khéo, bên cạnh hai con cùng loại chưa được thuần hóa, chưa được dạy. Cặp đã được dạy có làm được việc và đạt trình độ của loài đã thuần không? Aciravata đáp có. Cặp chưa được dạy, ngay khi vẫn chưa được dạy, có làm và đạt như cặp kia không? Ông đáp không.",
+            "Phật nối lại với Jayasena: còn sống giữa dục, hưởng dục, bị ý nghĩ dục cuốn lấy, nóng lòng vì dục và tìm thêm dục thì không thể biết, thấy, chứng điều chỉ nhờ ly dục mới biết, thấy, đạt và chứng."
+          ]
+        },
+        {
+          "id": "mountain",
+          "kind": "teaching",
+          "heading": "Một người ở chân núi",
+          "meaningUnits": [
+            "hill-start",
+            "hill-denial"
+          ],
+          "paragraphs": [
+            "Gần một làng hay thị trấn có ngọn núi lớn. Hai người bạn ra đi, đưa tay nâng đỡ nhau tới núi. Một người đứng dưới chân, một người leo lên đỉnh. Người dưới hỏi bạn thấy gì. Người trên đáp: vườn đẹp, rừng đẹp, những vùng đất đẹp và hồ sen đẹp.",
+            "Người dưới nói việc ấy không thể có: đứng trên đó làm sao thấy được đủ những cảnh ấy!"
+          ]
+        },
+        {
+          "id": "climb",
+          "kind": "teaching",
+          "heading": "Đưa bạn lên tận nơi",
+          "meaningUnits": [
+            "hill-help",
+            "hill-understanding"
+          ],
+          "paragraphs": [
+            "Người trên đi xuống, nắm tay đưa bạn lên đỉnh và cho bạn nghỉ một lát. Rồi người ấy hỏi bạn thấy gì. Bây giờ bạn cũng thấy đủ vườn, rừng, vùng đất và hồ sen đẹp.",
+            "Người giúp nhắc lại: lúc nãy bạn nói không thể thấy, bây giờ lại nói thấy. Người bạn được đưa lên hiểu ra: chính ngọn núi lớn đã che mình nên trước đây mình không thấy điều có thể thấy."
+          ]
+        },
+        {
+          "id": "ignorance",
+          "kind": "teaching",
+          "heading": "Vật che còn lớn hơn núi",
+          "meaningUnits": [
+            "ignorance",
+            "conditional-confidence"
+          ],
+          "paragraphs": [
+            "Phật nói khối vô minh, sự không biết đúng, che lấp, che khuất, bao phủ và vây kín Jayasena còn lớn hơn ngọn núi ấy. Vương tử vẫn sống giữa dục, hưởng dục, bị ý nghĩ dục cuốn lấy, bị nóng lòng thiêu đốt và tìm thêm dục. Trong tình trạng ấy, ông không thể biết, thấy, chứng điều cần ly dục mới biết, thấy, đạt và chứng.",
+            "Phật nói: nếu Aciravata nghĩ ra hai ví dụ này khi trò chuyện, không lạ nếu vương tử tin rồi biểu lộ lòng tin. Aciravata hỏi: làm sao hai ví dụ chưa từng nghe lại có thể tự nhiên hiện ra nơi mình như nơi Phật?"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: một bản nhạc khó",
+          "meaningUnits": [
+            "trained-pair",
+            "hill-understanding"
+          ],
+          "paragraphs": [
+            "Nghe nói có người chơi được một đoạn đàn rất khó, một bạn chưa tập đàn nghĩ “không ai làm được đâu”. Sau khi được chỉ từng bước và tập dần, bạn mới hiểu khả năng ấy. Đây là ví dụ hiện đại về việc trải nghiệm có thể thay đổi nhận xét; trong kinh, điều Phật hướng tới là sự tu tập đưa đến giải thoát."
+          ]
+        },
+        {
+          "id": "capture",
+          "kind": "teaching",
+          "heading": "Voi rừng ra chỗ trống",
+          "meaningUnits": [
+            "capture",
+            "open"
+          ],
+          "paragraphs": [
+            "Phật kể tiếp một phép ví cổ. Một vua thuộc giới Sát-đế-lợi, giới quý tộc và chiến sĩ, đã làm lễ quán đảnh xác lập ngôi vua, sai người săn voi cưỡi voi của vua vào rừng. Gặp voi rừng thì buộc cổ nó với voi vua. Người săn vâng lời và làm đúng như vậy.",
+            "Voi vua đưa voi rừng ra chỗ trống. Đến lúc ấy voi rừng mới ra ngoài; nó vẫn bám vào khu rừng voi. Người săn báo với vua rằng voi đã ra chỗ trống."
+          ]
+        },
+        {
+          "id": "post",
+          "kind": "teaching",
+          "heading": "Một quá trình thay đổi nếp quen",
+          "meaningUnits": [
+            "post-training"
+          ],
+          "paragraphs": [
+            "Vua giao người thuần voi việc tiếp theo: bỏ nết rừng, ký ức và ý nghĩ về rừng, những lo lắng, mệt mỏi, nóng bức vì rừng; giúp voi vui ở gần làng và quen nết mà con người ưa. Người ấy vâng, đóng cọc lớn xuống đất rồi buộc cổ voi vào đó, với đủ những mục đích này."
+          ]
+        },
+        {
+          "id": "gentle",
+          "kind": "teaching",
+          "heading": "Lời dịu và việc biết lắng nghe",
+          "meaningUnits": [
+            "gentle-words",
+            "feeding"
+          ],
+          "paragraphs": [
+            "Người thuần nói với voi bằng lời dịu dàng, dễ nghe, thân ái, chạm tới lòng, lễ độ, được nhiều người yêu mến và vừa ý. Khi voi muốn nghe, lắng tai và để tâm hiểu, người ấy cho cỏ, thức ăn và nước. Khi voi nhận, người thuần mới nghĩ: bây giờ nó sẽ sống được."
+          ]
+        },
+        {
+          "id": "tasks",
+          "kind": "teaching",
+          "heading": "Từng bài học nối tiếp nhau",
+          "meaningUnits": [
+            "lift",
+            "forward",
+            "stand-test",
+            "stillness"
+          ],
+          "paragraphs": [
+            "Người thuần dạy nhấc lên, đặt xuống. Khi voi vâng lời và làm được, mới dạy bước tới, bước lui. Khi voi làm được nữa, mới dạy đứng dậy, ngồi xuống.",
+            "Sau khi voi làm theo bài đứng và ngồi, người ấy dạy việc gọi là bất động: buộc một tấm ván vào vòi con voi lớn; một người cầm giáo ngồi trên cổ, những người cầm giáo đứng chung quanh, người thuần cầm giáo dài đứng phía trước. Voi giữ yên chân trước, chân sau, thân trước, thân sau, đầu, tai, ngà, đuôi và vòi."
+          ]
+        },
+        {
+          "id": "elephant-result",
+          "kind": "teaching",
+          "heading": "Con voi đã được thuần luyện",
+          "meaningUnits": [
+            "elephant-result"
+          ],
+          "paragraphs": [
+            "Theo phép ví, voi đã chịu được đòn giáo, kiếm, tên, búa, cùng tiếng trống, trống cái, kèn, tù và và mõ. Những nét cong queo, khuyết điểm và cấu lỗi đã được loại bỏ. Nó xứng với vua, có thể để vua sử dụng, được xem như một phần của nhà vua."
+          ]
+        },
+        {
+          "id": "teacher",
+          "kind": "teaching",
+          "heading": "Người thầy dẫn đường",
+          "meaningUnits": [
+            "buddha",
+            "world",
+            "dhamma"
+          ],
+          "paragraphs": [
+            "Phật chuyển sang người tu. Như Lai, một danh hiệu của Phật, xuất hiện: bậc A-la-hán, đã thoát những trói buộc gây khổ; tự giác ngộ trọn vẹn; đầy đủ trí biết và việc làm; bậc đi đến tốt đẹp; hiểu thế gian; người hướng dẫn cao nhất cho người có thể rèn luyện; thầy của trời và người; bậc Giác Ngộ, Thế Tôn đáng tôn kính.",
+            "Ngài tự chứng bằng trí trực tiếp thế giới cùng chư thiên, những vị trời; Māra, Ma vương; Phạm thiên, một vị trời; cùng sa-môn, người tu, và bà-la-môn theo truyền thống kinh điển và nghi lễ, chư thiên và loài người. Rồi Ngài nói lại điều mình đã biết. Lời dạy tốt ở đầu, giữa và cuối, có ý nghĩa và lời rõ; chỉ bày đời tu thanh tịnh trọn vẹn, trong sạch."
+          ]
+        },
+        {
+          "id": "leaving",
+          "kind": "teaching",
+          "heading": "Từ nghe pháp đến xuất gia",
+          "meaningUnits": [
+            "faith",
+            "resolution",
+            "going-forth"
+          ],
+          "paragraphs": [
+            "Một người sống tại gia, con của người ấy hay người từ một gia đình nào đó nghe pháp và có lòng tin nơi Phật. Người ấy nghĩ đời ở nhà chật hẹp, bụi bặm, đời xuất gia rộng mở; ở nhà khó sống đời tu trọn vẹn, trong sạch như vỏ ốc được đánh bóng. Người ấy muốn cạo tóc râu, mặc cà-sa, áo của người xuất gia, rời gia đình sống không nhà.",
+            "Một thời gian sau, người ấy thật sự bỏ tài sản dù ít hay nhiều, vòng thân quyến dù nhỏ hay lớn, cạo tóc râu, khoác áo tu và xuất gia. Đến đây vị đệ tử mới ra chỗ trống. Phật nói cả chư thiên và con người còn bám vào năm đối tượng dục: hình sắc, tiếng, mùi, vị và sự xúc chạm."
+          ]
+        },
+        {
+          "id": "ethics",
+          "kind": "teaching",
+          "heading": "Giữ giới rồi giữ các cửa giác quan",
+          "meaningUnits": [
+            "ethics",
+            "sense-doors"
+          ],
+          "paragraphs": [
+            "Phật dạy vị ấy giữ giới đức, sống theo giới bổn, những quy tắc tu đã nhận; có cách cư xử và nơi lui tới đúng đắn, thấy nguy hiểm trong cả lỗi nhỏ, nhận và học các điều rèn luyện. Khi vị ấy làm được, Phật dạy bước tiếp.",
+            "Mắt thấy hình, tai nghe tiếng, mũi ngửi mùi, lưỡi nếm vị, thân nhận xúc chạm, ý nhận các điều trong tâm: ở cả sáu cửa ấy, không bám lấy nét chung hay chi tiết khiến tham muốn, buồn bực và điều không lành tràn vào. Vị ấy giữ và rèn từng cửa."
+          ]
+        },
+        {
+          "id": "food",
+          "kind": "teaching",
+          "heading": "Biết mục đích của bữa ăn",
+          "meaningUnits": [
+            "further-training"
+          ],
+          "paragraphs": [
+            "Khi giữ được các giác quan, vị ấy học ăn có chừng mực. Xem xét đúng rồi ăn, không nhằm vui đùa, đam mê, trang sức hay làm đẹp, mà để duy trì và nuôi thân, tránh tổn hại, nâng đỡ đời tu. Vị ấy hướng tới làm dịu cảm giác khó chịu cũ, không gây khó chịu mới, sống không lỗi và an ổn."
+          ]
+        },
+        {
+          "id": "awake",
+          "kind": "teaching",
+          "heading": "Ngày và ba canh đêm",
+          "meaningUnits": [
+            "further-training"
+          ],
+          "paragraphs": [
+            "Khi biết tiết độ ăn, vị ấy học sống tỉnh thức. Ban ngày và canh đầu đêm, lúc đi kinh hành — bước đi chú tâm — hoặc ngồi, vị ấy làm sạch những điều ngăn ngại tâm.",
+            "Canh giữa, vị ấy nằm nghiêng phải như dáng sư tử, chân đặt trên chân, có niệm và biết rõ, nhớ lúc sẽ dậy. Canh cuối, vị ấy thức dậy, lại đi hoặc ngồi làm sạch tâm. Bài kinh giữ cả lúc nghỉ và lúc thức."
+          ]
+        },
+        {
+          "id": "aware",
+          "kind": "teaching",
+          "heading": "Biết rõ việc mình đang làm",
+          "meaningUnits": [
+            "further-training"
+          ],
+          "paragraphs": [
+            "Tiếp theo, vị ấy giữ chánh niệm và tỉnh giác: nhớ việc đang làm và biết rõ nó. Đi tới, đi lui; nhìn thẳng, nhìn quanh; co, duỗi; mang áo tu kép, bát và áo ngoài; ăn, uống, nhai, nuốt; đi tiêu, đi tiểu; đi, đứng, ngồi, nằm, thức, nói hay im lặng — đều biết rõ."
+          ]
+        },
+        {
+          "id": "quiet",
+          "kind": "teaching",
+          "heading": "Chọn nơi vắng và ngồi xuống",
+          "meaningUnits": [
+            "further-training"
+          ],
+          "paragraphs": [
+            "Khi đã sống biết rõ như vậy, vị ấy chọn nơi thanh vắng: rừng, gốc cây, núi, chỗ hoang vu, hang núi, nghĩa địa, khóm rừng, ngoài trời hoặc đống rơm. Sau bữa ăn và khi đã đi nhận thức ăn cúng về, vị ấy ngồi xếp chân kiết già, lưng thẳng, đặt niệm trước mặt."
+          ]
+        },
+        {
+          "id": "hindrances",
+          "kind": "teaching",
+          "heading": "Năm điều che lấp tâm",
+          "meaningUnits": [
+            "further-training",
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ tham muốn, sống với tâm không tham; bỏ sân hận, sự giận ghét, sống thương mọi chúng sinh. Bỏ hôn trầm thụy miên, sự trì trệ buồn ngủ, bằng tâm hướng sáng, có niệm và biết rõ. Bỏ trạo cử hối quá, sự xao động và hối tiếc, sống với nội tâm lắng yên. Bỏ nghi ngờ, không còn phân vân về các điều lành.",
+            "Năm điều che lấp ấy gọi là năm triền cái: chúng làm tâm ô nhiễm và trí tuệ yếu đi. Sau khi bỏ chúng, vị ấy tiến tới quán sát."
+          ]
+        },
+        {
+          "id": "mindfulness",
+          "kind": "teaching",
+          "heading": "Bốn nơi đặt sự chú tâm",
+          "meaningUnits": [
+            "body-mindfulness",
+            "other-mindfulness",
+            "mind-tether"
+          ],
+          "paragraphs": [
+            "Vị ấy quán thân, quán thọ là các cảm giác dễ chịu hay khó chịu hoặc trung tính, quán tâm và quán pháp, những điều cần nhận biết khi tu. Ở cả bốn, vị ấy siêng năng, biết rõ, có niệm và bỏ tham muốn, buồn bực đối với đời.",
+            "Phật nhắc cọc buộc voi: bỏ nết rừng, ký ức và ý nghĩ về rừng, lo lắng, mệt mỏi, nóng bức vì rừng; giúp vui gần làng và quen nết con người ưa. Cũng vậy, bốn niệm xứ là nơi giữ tâm: bỏ các nết, ký ức và ý nghĩ, những lo lắng, mệt mỏi, nóng bức còn bám đời gia đình; đạt con đường đúng và chứng Niết-bàn, sự chấm dứt khát khao bám víu và khổ."
+          ]
+        },
+        {
+          "id": "second",
+          "kind": "teaching",
+          "heading": "Từ quán sát tới thiền thứ hai",
+          "meaningUnits": [
+            "no-sensual-thought",
+            "second-jhana"
+          ],
+          "paragraphs": [
+            "Phật dạy tiếp: quán thân, thọ, tâm và pháp, nhưng trong mỗi cách quán không nuôi các ý nghĩ liên hệ thú vui giác quan.",
+            "Khi tầm và tứ, việc đưa tâm tới và giữ tâm với đối tượng, lắng xuống, nội tâm trong yên và hợp nhất, vị ấy chứng và ở trong thiền thứ hai. Trạng thái này không còn tầm tứ, có hỷ là niềm vui và lạc là sự dễ chịu do định sinh ra. Định là sự tập trung vững vàng của tâm."
+          ]
+        },
+        {
+          "id": "third-fourth",
+          "kind": "teaching",
+          "heading": "Thiền thứ ba và thứ tư",
+          "meaningUnits": [
+            "third-jhana",
+            "fourth-jhana"
+          ],
+          "paragraphs": [
+            "Rời sự hân hoan gọi là hỷ, vị ấy giữ xả, tâm quân bình, có niệm và biết rõ, thân cảm sự dễ chịu. Vị ấy chứng và ở trong thiền thứ ba, được bậc Thánh gọi là sống an vui với xả và niệm.",
+            "Rồi vị ấy bỏ cả lạc và khổ; vui và buồn trước đó đã chấm dứt. Vị ấy chứng và ở trong thiền thứ tư, không khổ không lạc, niệm trong sạch nhờ xả."
+          ]
+        },
+        {
+          "id": "three-knowledges",
+          "kind": "teaching",
+          "heading": "Tâm hướng tới ba sự hiểu biết",
+          "meaningUnits": [
+            "past-mind",
+            "rebirth-mind",
+            "ending-mind",
+            "past-lives"
+          ],
+          "paragraphs": [
+            "Ở mỗi một trong ba sự hiểu biết tiếp theo, tâm vị ấy đều định tĩnh, thanh tịnh, trong sáng, không uế nhiễm, lìa các cấu uế, mềm dẻo, dùng được, vững chắc và bất động.",
+            "Trước hết, vị ấy hướng tâm nhớ các đời sống quá khứ: một đời, hai đời và nhiều đời, qua các thời kỳ thế giới hình thành hay hoại diệt. Vị ấy nhớ tên, họ, vị trí trong xã hội, thức ăn, cảm nhận vui và khổ, tuổi thọ; chết ở nơi này sinh nơi khác, rồi từ nơi ấy sinh ở đây. Những đời sống được nhớ có nét chính và chi tiết."
+          ]
+        },
+        {
+          "id": "rebirth",
+          "kind": "teaching",
+          "heading": "Thấy sự chết và tái sinh",
+          "meaningUnits": [
+            "rebirth",
+            "rebirth-mind"
+          ],
+          "paragraphs": [
+            "Kế đó, với tâm đủ những phẩm chất vừa nói, vị ấy hướng tới biết sự chết và tái sinh. Thiên nhãn, khả năng thấy trong sạch vượt mắt người, thấy chúng sinh thấp hay cao, đẹp hay xấu, tới nơi lành hay dữ theo nghiệp, những hành động đã làm.",
+            "Làm ác bằng thân, lời và ý, chê bai bậc Thánh, giữ cách thấy sai và hành động theo đó thì sau khi thân hoại, chết đi, sinh vào cõi dữ, đọa xứ, địa ngục. Làm lành bằng thân, lời và ý, không chê bai bậc Thánh, giữ cách thấy đúng và hành động theo đó thì sau khi chết sinh nơi lành, cõi trời."
+          ]
+        },
+        {
+          "id": "freedom",
+          "kind": "teaching",
+          "heading": "Biết để chấm dứt khổ",
+          "meaningUnits": [
+            "suffering",
+            "defilements",
+            "liberation",
+            "ending-mind"
+          ],
+          "paragraphs": [
+            "Với tâm ấy, vị ấy hướng tới trí chấm dứt lậu hoặc, những ô nhiễm sâu trong tâm. Vị ấy biết đúng như thật bốn điều về khổ: khổ, nguồn gốc, sự chấm dứt và đường đưa tới chấm dứt. Với lậu hoặc, vị ấy cũng biết đủ chính chúng, nguồn gốc, sự chấm dứt và đường chấm dứt.",
+            "Nhờ biết và thấy vậy, tâm thoát dục lậu, sự ô nhiễm do dục; hữu lậu, do bám vào hiện hữu; và vô minh lậu, do không biết đúng. Đã giải thoát, vị ấy biết mình giải thoát: tái sinh chấm dứt, đời tu thanh tịnh hoàn tất, việc phải làm đã làm, không còn trở lại hiện hữu này."
+          ]
+        },
+        {
+          "id": "endurance",
+          "kind": "teaching",
+          "heading": "Người đã được rèn luyện",
+          "meaningUnits": [
+            "endurance",
+            "worthy"
+          ],
+          "paragraphs": [
+            "Vị ấy chịu được lạnh, nóng, đói, khát; ruồi, muỗi, gió, nắng, rắn rết chạm đến; lời thô ác, khó nghe; những cảm giác thân đã khởi đau khổ, gay gắt, dữ dội, xót xa, không dễ chịu, không vừa ý, đến mức đe dọa mạng sống.",
+            "Mọi tham muốn, giận ghét, mê lầm và cấu lỗi đã được gột sạch. Vị ấy đáng được cúng dường, tiếp đón, hiến tặng và chắp tay kính lễ, là ruộng phước cao nhất của đời — nơi sự kính trọng và cho tặng có thể sinh quả lành."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một bước nhỏ để thử trong ngày",
+          "meaningUnits": [
+            "sense-doors",
+            "body-mindfulness",
+            "other-mindfulness"
+          ],
+          "paragraphs": [
+            "Khi một lời nói làm em bực, em có thể dừng một chút, nhận biết thân và cảm giác đang có, rồi chọn cách đáp không làm đau người khác. Đó là gợi ý tập chú tâm trong đời thường; mục tiêu trọn vẹn của tiến trình trong kinh là giải thoát."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Điều quyết định ở cuối hành trình",
+          "meaningUnits": [
+            "untamed-elephants",
+            "untamed-monks",
+            "tamed-elephants",
+            "tamed-monks",
+            "ending"
+          ],
+          "paragraphs": [
+            "Voi vua dù già, ở tuổi giữa hay còn non, nếu chết khi chưa được thuần và dạy thì được gọi là chết chưa thuần; nếu chết khi đã được thuần và dạy khéo thì được gọi là chết đã thuần.",
+            "Cũng vậy, tỳ-kheo dù tu lâu, ở khoảng giữa hay mới tu, nếu chết khi lậu hoặc chưa hết thì gọi là chết chưa thuần; nếu lậu hoặc đã hết thì gọi là chết đã thuần. Tiêu chí là sự tu tập đã hoàn thành ấy.",
+            "Phật nói xong, sa-di Aciravata vui mừng tán đồng. Kinh Điều Ngự Địa khép lại, là bài thứ năm trong nhóm kinh này."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Diễn giải dành cho người trưởng thành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một khả năng bị phủ nhận",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "visit",
+            "possibility"
+          ],
+          "paragraphs": [
+            "Kinh Điều Ngự Địa, Trung Bộ 125, mở bằng lời người truyền kinh đã nghe. Phật ở gần Rājagaha, tại Trúc Lâm, khu nuôi sóc. Sa-di Aciravata, nam tu sĩ tập sự, ở một túp lều hoang vắng. Vương tử Jayasena đi dạo đến thăm; sau lời chào thân hữu, vương tử ngồi một bên.",
+            "Gọi Aciravata là Aggivessana, vương tử nói đã nghe rằng vị tỳ-kheo, nam tu sĩ đã thọ giới đầy đủ, sống không phóng dật — không lơ là việc tu — nhiệt tâm và quyết chí, có thể chạm nhất tâm, sự quy tụ của tâm. Aciravata xác nhận hai lần rồi nhắc lại đủ điều kiện và khả năng ấy."
+          ]
+        },
+        {
+          "id": "agreement",
+          "kind": "teaching",
+          "heading": "Nhận giảng với hai điều kiện",
+          "meaningUnits": [
+            "first-request",
+            "agreement"
+          ],
+          "paragraphs": [
+            "Jayasena xin Aciravata giảng Pháp như điều đã nghe và thọ trì. Sa-di nói mình không đủ khả năng: nếu giảng mà vương tử không hiểu nghĩa thì mình sẽ mệt nhọc và phiền nhiễu. Vương tử xin lại, hy vọng có thể hiểu.",
+            "Aciravata nhận lời: nếu hiểu thì tốt; nếu không hiểu thì cứ để yên như vậy và đừng hỏi thêm. Vương tử tiếp tục xin giảng, đồng ý hiểu thì tốt, không hiểu sẽ để yên và không hỏi thêm. Những điều kiện này được cả hai người nói rõ."
+          ]
+        },
+        {
+          "id": "report",
+          "kind": "teaching",
+          "heading": "Sau bài giảng, vương tử ra đi",
+          "meaningUnits": [
+            "denial",
+            "report",
+            "renunciation"
+          ],
+          "paragraphs": [
+            "Aciravata giảng như đã nghe và thọ trì. Jayasena lại tuyên bố không thể có, không có trường hợp một vị tu sống không phóng dật, nhiệt tâm, quyết chí mà chạm nhất tâm. Nói vậy rồi ông đứng dậy đi. Không lâu sau, Aciravata đến Phật, đảnh lễ, ngồi và trình bày toàn cuộc đối thoại.",
+            "Phật chỉ ra tình trạng của Jayasena: sống giữa dục, hưởng thụ dục, bị ý nghĩ về dục nuốt chửng, bị nhiệt não dục thiêu đốt, tích cực tìm dục. Dục ở đây là thú vui giác quan. Điều phải nhờ ly dục, rời sự say đắm dục, mới biết, thấy, đạt và chứng thì không thể được vương tử biết, thấy hay chứng khi ông còn sống như vậy."
+          ]
+        },
+        {
+          "id": "pairs",
+          "kind": "teaching",
+          "heading": "Trình độ đi cùng sự huấn luyện",
+          "meaningUnits": [
+            "trained-pair",
+            "first-return"
+          ],
+          "paragraphs": [
+            "Phật hỏi về hai con voi hoặc ngựa hoặc bò đã được khéo thuần và huấn luyện, so với hai con cùng loại chưa thuần và chưa huấn luyện. Cặp đã thuần có làm việc của loài đã thuần và đạt trình độ ấy không? Aciravata đáp có. Cặp chưa thuần, khi vẫn chưa thuần, có làm và đạt như cặp kia không? Ông đáp không.",
+            "Phật nhắc lại đủ năm nét sống giữa, hưởng, nghĩ, nóng lòng và tìm cầu dục của Jayasena. Khi còn như thế, không thể biết, thấy, chứng điều phải nhờ ly dục mới biết, thấy, đạt và chứng."
+          ]
+        },
+        {
+          "id": "mountain",
+          "kind": "teaching",
+          "heading": "Thay đổi chỗ đứng rồi mới thấy",
+          "meaningUnits": [
+            "hill-start",
+            "hill-denial",
+            "hill-help",
+            "hill-understanding"
+          ],
+          "paragraphs": [
+            "Một núi lớn ở gần làng hoặc thị trấn. Hai người bạn rời nơi ấy, đưa tay nâng đỡ nhau đến núi; một ở chân núi, một lên đỉnh. Người dưới hỏi thấy gì, người trên nói thấy vườn đẹp, rừng đẹp, đất đẹp và hồ sen đẹp. Người dưới phủ nhận: điều ấy không thể xảy ra.",
+            "Người trên xuống, nắm tay đưa bạn lên đỉnh, cho nghỉ một lát rồi hỏi. Bạn ấy nay thấy đủ bốn loại cảnh đẹp. Người giúp nhắc lại cả lời phủ nhận trước đó lẫn lời xác nhận bây giờ, theo điều mình hiểu. Người bạn được đưa lên đáp: trước đây núi lớn đã che nên mình không thấy điều có thể thấy."
+          ]
+        },
+        {
+          "id": "ignorance",
+          "kind": "teaching",
+          "heading": "Hai ví dụ và một giả định",
+          "meaningUnits": [
+            "ignorance",
+            "conditional-confidence"
+          ],
+          "paragraphs": [
+            "Phật nói khối vô minh, sự không biết đúng, che lấp, che khuất, bao phủ, vây kín Jayasena còn lớn hơn núi ấy. Phật nhắc lại: sống giữa dục, hưởng dục, bị dục tầm cuốn lấy, bị nhiệt não dục đốt, tìm thêm dục thì không thể biết, thấy, chứng điều nhờ ly dục mới biết, thấy, đạt và chứng.",
+            "Nếu Aciravata đã nghĩ ra hai ví dụ ấy trong cuộc nói chuyện, không lạ nếu Jayasena tin rồi thể hiện lòng tin. Aciravata hỏi làm sao hai ví dụ chưa từng nghe có thể tự nhiên khởi nơi mình như ở Phật. Đoạn này giữ hình thức giả định về phản ứng của vương tử."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: nhận xét từ một buổi họp",
+          "meaningUnits": [
+            "hill-understanding",
+            "renunciation"
+          ],
+          "paragraphs": [
+            "Một người quen đáp trả ngay có thể cho rằng dừng lại để nghe là điều bất khả thi trong cuộc họp căng thẳng. Khi thực sự tập nhận biết phản ứng và nghe hết lời, người ấy có thêm kinh nghiệm để xem lại nhận xét cũ. Ví dụ này gợi quan hệ giữa cách sống và điều có thể thấy; trong kinh, tiến trình được triển khai tới giải thoát."
+          ]
+        },
+        {
+          "id": "capture",
+          "kind": "teaching",
+          "heading": "Ra khỏi rừng là bước đầu",
+          "meaningUnits": [
+            "capture",
+            "open",
+            "post-training"
+          ],
+          "paragraphs": [
+            "Phật kể ví dụ cổ về một vua Sát-đế-lợi, thuộc giới quý tộc và chiến sĩ, đã được quán đảnh, làm lễ xác lập vương vị. Vua sai người săn voi cưỡi voi vua vào rừng voi, gặp voi rừng thì buộc cổ nó với voi vua. Người săn vâng và làm đủ; voi vua đưa voi rừng ra chỗ trống. Đến đó voi rừng mới ra ngoài, trong khi chỗ nó bám vẫn là rừng voi. Người săn báo việc ấy với vua.",
+            "Vua giao người thuần voi bỏ tánh rừng, ký ức và tư duy rừng, lo lắng, mệt mỏi, nóng bức vì rừng; làm voi vui gần làng và quen nết con người ưa. Người thuần vâng, đóng cọc lớn xuống đất, buộc cổ voi với đủ năm mục đích ấy."
+          ]
+        },
+        {
+          "id": "listening",
+          "kind": "teaching",
+          "heading": "Từ chịu nghe đến làm theo",
+          "meaningUnits": [
+            "gentle-words",
+            "feeding",
+            "lift",
+            "forward"
+          ],
+          "paragraphs": [
+            "Người thuần nói dịu, dễ nghe, thân ái, chạm đến lòng, lễ độ, được nhiều người yêu mến và vừa ý. Khi voi muốn nghe, lắng tai, đặt tâm để hiểu, người ấy cho cỏ, thức ăn và nước. Voi nhận thì người thuần mới nghĩ nay nó sẽ sống.",
+            "Tiếp theo là nhấc lên và đặt xuống. Khi voi vâng lời, làm đúng, mới giao bước tới và bước lui. Khi nó làm theo được, người ấy mới tiếp tục bài khác."
+          ]
+        },
+        {
+          "id": "imperturbable",
+          "kind": "teaching",
+          "heading": "Bài bất động và kết quả",
+          "meaningUnits": [
+            "stand-test",
+            "stillness",
+            "elephant-result"
+          ],
+          "paragraphs": [
+            "Bài tiếp là đứng dậy và ngồi xuống; chỉ khi voi vâng và làm theo mới tới việc bất động. Người thuần buộc ván vào vòi voi lớn; một người cầm giáo ngồi trên cổ, những người cầm giáo đứng quanh bốn phía, còn người thuần đứng trước với giáo dài. Voi không lay chân trước, chân sau, thân trước, thân sau, đầu, tai, ngà, đuôi hay vòi.",
+            "Voi chịu được các đòn giáo, kiếm, tên, búa và âm thanh trống, trống cái, kèn, tù và, mõ. Đã bỏ cong queo, khuyết điểm và lắng sạch cấu lỗi, nó xứng với vua, đáng để vua sử dụng, được kể là một phần của nhà vua."
+          ]
+        },
+        {
+          "id": "buddha",
+          "kind": "teaching",
+          "heading": "Như Lai và điều Ngài chỉ dạy",
+          "meaningUnits": [
+            "buddha",
+            "world",
+            "dhamma"
+          ],
+          "paragraphs": [
+            "Phật chuyển sang tiến trình tu học. Như Lai, danh hiệu của Phật, xuất hiện là bậc A-la-hán, đã giải thoát khỏi trói buộc gây khổ; Chánh Đẳng Giác, tự giác ngộ trọn vẹn; đủ trí biết và cách sống; Thiện Thệ, bậc đi đến tốt đẹp; biết thế gian; người dẫn dắt cao nhất cho những người có thể rèn luyện; thầy của trời và người; bậc Giác Ngộ, Thế Tôn đáng tôn kính.",
+            "Ngài tự chứng bằng trí trực tiếp thế giới cùng chư thiên, các vị trời; Māra, Ma vương; Phạm thiên, một vị trời; quần chúng sa-môn, những người tu, và bà-la-môn, những người theo truyền thống kinh điển cùng nghi lễ; chư thiên và loài người. Rồi Ngài tuyên thuyết. Pháp tốt ở đầu, giữa, cuối, có nghĩa và lời hay; trình bày đời phạm hạnh, đời tu thanh tịnh, hoàn toàn viên mãn và trong sạch."
+          ]
+        },
+        {
+          "id": "going-forth",
+          "kind": "teaching",
+          "heading": "Từ lòng tin tới bước xuất gia",
+          "meaningUnits": [
+            "faith",
+            "resolution",
+            "going-forth"
+          ],
+          "paragraphs": [
+            "Một gia chủ (người sống tại gia), người con của gia chủ, hoặc người sinh trong một gia đình nào đó nghe pháp, có lòng tin Như Lai rồi suy xét: đời nhà chật hẹp, bụi bặm; xuất gia rộng mở. Ở nhà khó sống phạm hạnh hoàn toàn trọn vẹn, trong sạch như vỏ ốc đánh bóng. Người ấy nghĩ nên cạo râu tóc, khoác cà-sa, áo của người xuất gia, rời nhà sống không gia đình.",
+            "Sau một thời gian, người ấy thật bỏ tài sản lớn hay nhỏ, vòng thân quyến lớn hay nhỏ, cạo râu tóc, mặc áo tu và xuất gia. Đến đây đệ tử mới ra chỗ trống. Chư thiên và loài người bám vào năm đối tượng dục: hình sắc, âm thanh, mùi, vị, xúc chạm."
+          ]
+        },
+        {
+          "id": "restraint",
+          "kind": "teaching",
+          "heading": "Giới và sáu cửa giác quan",
+          "meaningUnits": [
+            "ethics",
+            "sense-doors"
+          ],
+          "paragraphs": [
+            "Phật dạy có giới đức, giữ giới bổn, các quy tắc tu đã nhận, có cách cư xử đúng và nơi lui tới phù hợp, thấy nguy hiểm trong lỗi rất nhỏ, nhận và học các điều rèn luyện. Khi đệ tử thành tựu các việc ấy, Ngài dạy giữ các cửa giác quan.",
+            "Mắt thấy sắc, tai nghe tiếng, mũi ngửi hương, lưỡi nếm vị, thân xúc chạm, ý nhận các pháp: không nắm giữ tướng chung và chi tiết khiến tham muốn, buồn bực và điều bất thiện — không lành — xâm nhập khi căn không được giữ. Vị ấy chế ngự nguyên nhân ấy và thực hành giữ từng căn."
+          ]
+        },
+        {
+          "id": "food",
+          "kind": "teaching",
+          "heading": "Ăn đúng mục đích",
+          "meaningUnits": [
+            "further-training"
+          ],
+          "paragraphs": [
+            "Khi đã giữ căn, vị ấy được dạy ăn có tiết độ. Suy xét đúng rồi dùng thức ăn, không để vui đùa, đam mê, trang sức hoặc làm đẹp; để duy trì, bảo dưỡng thân, tránh tổn hại và nâng đỡ phạm hạnh. Vị ấy hướng tới dứt cảm giác khó chịu cũ, không gây khó chịu mới, sống không lỗi và an ổn."
+          ]
+        },
+        {
+          "id": "wakefulness",
+          "kind": "teaching",
+          "heading": "Cảnh giác và tỉnh giác trong sinh hoạt",
+          "meaningUnits": [
+            "further-training"
+          ],
+          "paragraphs": [
+            "Sau tiết độ ăn là sống cảnh giác. Ban ngày và canh đầu đêm, lúc đi kinh hành — đi chú tâm — hoặc ngồi, vị ấy gột sạch các chướng ngại của tâm. Canh giữa, nằm nghiêng phải như sư tử, chân trên chân, có niệm, tỉnh giác và nhớ lúc dậy. Canh cuối, thức dậy rồi lại đi hoặc ngồi làm sạch tâm.",
+            "Bước tiếp là chánh niệm tỉnh giác, nhớ và biết rõ: đi tới lui, nhìn thẳng quanh, co duỗi; mang áo tu kép, bình bát, áo ngoài; ăn, uống, nhai, nuốt; đại tiện, tiểu tiện; đi, đứng, ngồi, nằm, thức, nói và im lặng."
+          ]
+        },
+        {
+          "id": "solitude",
+          "kind": "teaching",
+          "heading": "Chỗ vắng và năm triền cái",
+          "meaningUnits": [
+            "further-training",
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Sau đó vị ấy chọn nơi vắng: rừng, gốc cây, núi, chỗ hoang vu, hang núi, nghĩa địa, khóm rừng, ngoài trời hoặc đống rơm. Ăn xong và từ việc đi nhận thức ăn cúng trở về, vị ấy ngồi xếp chân kiết già, giữ lưng thẳng và đặt niệm trước mặt.",
+            "Vị ấy bỏ tham, sống không tham; bỏ sân, sống từ mẫn với mọi chúng sinh; bỏ hôn trầm thụy miên, sự trì trệ buồn ngủ, với tưởng ánh sáng, niệm và tỉnh giác; bỏ trạo cử hối quá, xao động và hối tiếc, với nội tâm lắng yên; bỏ nghi, hết phân vân về pháp lành. Năm triền cái này làm tâm ô nhiễm, trí tuệ suy yếu. Bỏ chúng rồi mới đi tiếp."
+          ]
+        },
+        {
+          "id": "mindfulness",
+          "kind": "teaching",
+          "heading": "Bốn niệm xứ giữ tâm",
+          "meaningUnits": [
+            "body-mindfulness",
+            "other-mindfulness",
+            "mind-tether"
+          ],
+          "paragraphs": [
+            "Vị ấy quán thân, thọ — cảm giác dễ chịu, khó chịu hoặc trung tính — tâm và pháp, các điều cần nhận biết trong tu tập. Mỗi cách quán đều có tinh cần, tỉnh giác, niệm và trừ tham muốn và buồn bực đối với đời.",
+            "Phật nhắc lại cọc giữ voi với năm mục đích: dẹp tánh rừng, ký ức và tư duy rừng, lo lắng, mệt mỏi, nóng bức vì rừng; làm vui gần làng và quen nết con người ưa. Bốn niệm xứ cũng là nơi buộc tâm đệ tử, dẹp ba nhóm còn bám đời gia đình: tánh nết; ký ức và tư duy; lo lắng, mệt mỏi, nóng bức. Mục tiêu là đạt con đường chân chánh và chứng Niết-bàn, sự chấm dứt khát ái và khổ."
+          ]
+        },
+        {
+          "id": "absorptions",
+          "kind": "teaching",
+          "heading": "Không nuôi dục tầm, đi vào các thiền",
+          "meaningUnits": [
+            "no-sensual-thought",
+            "second-jhana",
+            "third-jhana",
+            "fourth-jhana"
+          ],
+          "paragraphs": [
+            "Phật huấn luyện tiếp: quán thân, thọ, tâm, pháp, nhưng ở mỗi quán không nghĩ các tầm liên hệ dục, những ý nghĩ hướng về thú vui giác quan.",
+            "Do tầm và tứ — đưa tâm đến và giữ tâm với đối tượng — lắng xuống, nội tâm lắng trong, hợp nhất, không tầm tứ, vị ấy chứng thiền thứ hai và an trú, tức ở trong trạng thái ấy. Thiền này có hỷ lạc, niềm vui và sự dễ chịu do định — sự tập trung vững vàng của tâm — sinh ra. Rời hỷ, sống xả — quân bình — có niệm, tỉnh giác, thân cảm lạc, vị ấy chứng và an trú thiền thứ ba, được bậc Thánh gọi là sống an vui với xả và niệm. Rồi bỏ lạc, bỏ khổ, niềm vui và buồn bực trước đó đã diệt, vị ấy chứng và an trú thiền thứ tư: không khổ không lạc, niệm thanh tịnh nhờ xả."
+          ]
+        },
+        {
+          "id": "past",
+          "kind": "teaching",
+          "heading": "Trí nhớ đời trước",
+          "meaningUnits": [
+            "past-mind",
+            "past-lives",
+            "rebirth-mind",
+            "ending-mind"
+          ],
+          "paragraphs": [
+            "Ba hướng trí tiếp theo đều được thực hiện với tâm định tĩnh và đủ tám phẩm chất: thanh tịnh, trong sáng, không uế nhiễm, lìa cấu uế, mềm dẻo, đắc dụng — dùng được — vững chắc, bất động.",
+            "Thứ nhất, hướng tới nhớ đời quá khứ: một, hai và nhiều đời, các thời kỳ thế giới hoại diệt và hình thành. Vị ấy nhớ tên, dòng họ, giai cấp, ăn uống, cảm nhận vui khổ, tuổi thọ; chết nơi này sinh nơi khác, từ nơi ấy sinh ở đây. Việc nhớ có các nét chính và chi tiết."
+          ]
+        },
+        {
+          "id": "rebirth",
+          "kind": "teaching",
+          "heading": "Trí về chết và tái sinh",
+          "meaningUnits": [
+            "rebirth",
+            "rebirth-mind"
+          ],
+          "paragraphs": [
+            "Thứ hai, với tâm đủ những phẩm chất ấy, vị ấy hướng tới biết sự chết và tái sinh. Bằng thiên nhãn trong sạch vượt mắt người, vị ấy thấy chúng sinh thấp/cao, đẹp/xấu, đi tới chỗ tốt/xấu, theo nghiệp, hành động đã làm.",
+            "Ác hạnh thân, khẩu, ý; phỉ báng bậc Thánh; tà kiến, cách thấy sai, và hành động theo tà kiến đưa tới tái sinh nơi dữ, đọa xứ, địa ngục sau khi thân hoại mạng chung. Thiện hạnh thân, khẩu, ý; không phỉ báng Thánh; chánh kiến, cách thấy đúng, và hành động theo đó đưa tới nơi lành, cõi trời sau khi chết. Vị ấy thấy và hiểu hai hướng ấy."
+          ]
+        },
+        {
+          "id": "liberation",
+          "kind": "teaching",
+          "heading": "Trí làm các lậu hoặc chấm dứt",
+          "meaningUnits": [
+            "suffering",
+            "defilements",
+            "liberation",
+            "ending-mind"
+          ],
+          "paragraphs": [
+            "Thứ ba, cũng với tâm ấy, vị ấy hướng tới trí đoạn tận lậu hoặc, các ô nhiễm sâu trong tâm. Vị ấy biết đúng như thật khổ, nguồn gốc khổ, sự chấm dứt khổ, con đường chấm dứt khổ; và biết đủ lậu hoặc, nguồn gốc, sự chấm dứt, con đường chấm dứt chúng.",
+            "Biết và thấy vậy, tâm thoát dục lậu — ô nhiễm do dục — hữu lậu — do bám hiện hữu — và vô minh lậu — do không biết đúng. Đã thoát, vị ấy biết đã thoát: tái sinh chấm dứt, đời tu thanh tịnh hoàn thành, việc cần làm đã làm, không còn trở lại hiện hữu này."
+          ]
+        },
+        {
+          "id": "endurance",
+          "kind": "teaching",
+          "heading": "Sự kham nhẫn của người đã giải thoát",
+          "meaningUnits": [
+            "endurance",
+            "worthy"
+          ],
+          "paragraphs": [
+            "Vị tỳ-kheo ấy chịu được lạnh, nóng, đói, khát; ruồi, muỗi, gió, nắng, rắn rết chạm tới; lời thô ác, khó nghe; cảm thọ thân đã sinh khổ, gay gắt, dữ dội, xót xa, không dễ chịu, không vừa ý, tới mức đe dọa mạng sống.",
+            "Mọi tham muốn, giận ghét, mê lầm và cấu lỗi đã được gột sạch. Vị ấy đáng cúng dường, tiếp đón, hiến tặng, chắp tay kính lễ, là ruộng phước vô thượng của đời, nơi sự kính trọng và cho tặng có thể đem lại quả lành."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Đặt một chỗ dừng trước phản ứng",
+          "meaningUnits": [
+            "sense-doors",
+            "body-mindfulness",
+            "other-mindfulness"
+          ],
+          "paragraphs": [
+            "Trong một cuộc trao đổi căng thẳng, có thể thử nhận biết thân và cảm giác trước khi trả lời, rồi xem mình có đang bám một chi tiết để nuôi giận hay không. Chọn lời nói ít gây hại là một bước thực hành nhỏ. Đây là gợi ý hiện đại; toàn tiến trình trong kinh đi tới việc dứt các lậu hoặc."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Tuổi và thâm niên trước tiêu chí hoàn tất",
+          "meaningUnits": [
+            "untamed-elephants",
+            "untamed-monks",
+            "tamed-elephants",
+            "tamed-monks",
+            "ending"
+          ],
+          "paragraphs": [
+            "Voi vua già, ở tuổi giữa hay còn non, nếu chết khi chưa được thuần và huấn luyện thì được gọi chết chưa thuần; nếu chết khi được thuần và huấn luyện khéo thì được gọi chết đã thuần.",
+            "Tương tự, tỳ-kheo trưởng thượng, ở mức thâm niên giữa hay mới tu, nếu chết khi lậu hoặc chưa tận đều gọi chết chưa thuần; nếu chết khi lậu hoặc đã tận đều gọi chết đã thuần. Mỗi nhóm có đủ hai nhánh, với sự hoàn tất rèn luyện làm tiêu chí.",
+            "Phật nói xong, sa-di Aciravata hoan hỷ tán đồng. Kinh Điều Ngự Địa kết thúc, là bài thứ năm trong nhóm kinh này."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Diễn giải dành cho người lớn tuổi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Cuộc gặp trong túp lều vắng",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "visit"
+          ],
+          "paragraphs": [
+            "Kinh Điều Ngự Địa là bài 125 của Trung Bộ, nói về trình độ đã được rèn luyện. Người truyền kinh kể điều đã nghe. Phật ở gần Rājagaha, tại Trúc Lâm, khu nuôi sóc. Sa-di Aciravata, nam tu sĩ tập sự, trú trong túp lều nơi hoang vắng.",
+            "Vương tử Jayasena đang đi dạo thì tới thăm Aciravata. Hai người trao đổi lời chào thân hữu, rồi vương tử ngồi một bên."
+          ]
+        },
+        {
+          "id": "question",
+          "kind": "teaching",
+          "heading": "Điều vương tử đã nghe",
+          "meaningUnits": [
+            "possibility"
+          ],
+          "paragraphs": [
+            "Vương tử gọi Aciravata là Aggivessana và nói đã nghe rằng một tỳ-kheo, nam tu sĩ thọ giới đầy đủ, sống không phóng dật — không lơ là việc tu — nhiệt tâm và quyết chí, có thể chạm đến nhất tâm. Nhất tâm là tâm quy tụ, không tản mác.",
+            "Aciravata hai lần xác nhận là đúng, rồi nhắc lại cả ba nét sống và khả năng đạt nhất tâm ấy."
+          ]
+        },
+        {
+          "id": "agreement",
+          "kind": "teaching",
+          "heading": "Xin nghe và nhận điều kiện",
+          "meaningUnits": [
+            "first-request",
+            "agreement"
+          ],
+          "paragraphs": [
+            "Jayasena xin được nghe pháp như Aciravata đã nghe và thọ trì. Aciravata nói mình không đủ khả năng: nếu nói mà vương tử không hiểu nghĩa, việc ấy sẽ khiến mình mệt nhọc và phiền nhiễu. Vương tử xin lại, mong rằng có thể hiểu.",
+            "Aciravata đồng ý giảng: hiểu thì tốt; nếu không hiểu, hãy để yên và đừng hỏi thêm. Vương tử lại xin giảng, nhận đúng hai nhánh: hiểu thì tốt, không hiểu sẽ để yên và không hỏi thêm."
+          ]
+        },
+        {
+          "id": "leaves",
+          "kind": "teaching",
+          "heading": "Tuyên bố không thể có rồi đi",
+          "meaningUnits": [
+            "denial",
+            "report"
+          ],
+          "paragraphs": [
+            "Aciravata giảng như đã nghe, đã học giữ. Vương tử lại nói không thể có, không có trường hợp vị tu không phóng dật, nhiệt tâm và quyết chí mà chạm nhất tâm. Tuyên bố vậy rồi, vương tử đứng dậy ra đi.",
+            "Không lâu sau, Aciravata đến Phật, đảnh lễ và ngồi một bên. Ông trình bày toàn bộ cuộc trò chuyện đã có."
+          ]
+        },
+        {
+          "id": "desire",
+          "kind": "teaching",
+          "heading": "Nếp sống và điều có thể biết",
+          "meaningUnits": [
+            "renunciation"
+          ],
+          "paragraphs": [
+            "Phật nói Jayasena còn sống giữa các dục, hưởng các dục, bị ý nghĩ dục nuốt chửng, bị nóng lòng vì dục thiêu đốt, tích cực tìm thêm dục. Dục là những thú vui giác quan. Ly dục là rời sự say đắm ấy.",
+            "Điều phải nhờ ly dục mới biết, thấy, đạt và tự chứng thì vương tử không thể biết, thấy hay chứng khi còn sống trong tình trạng vừa nêu."
+          ]
+        },
+        {
+          "id": "pairs",
+          "kind": "teaching",
+          "heading": "Con vật đã học và chưa học",
+          "meaningUnits": [
+            "trained-pair",
+            "first-return"
+          ],
+          "paragraphs": [
+            "Phật đưa ví dụ hai con voi, hoặc ngựa, hoặc bò được thuần hóa và huấn luyện khéo; cùng hai con cùng loại chưa được thuần, chưa được huấn luyện. Cặp đã được dạy có làm được việc và đạt trình độ của loài đã thuần không? Aciravata thưa có. Cặp chưa được dạy, khi còn chưa được dạy, có làm và đạt như cặp kia không? Ông thưa không.",
+            "Phật nhắc lại trường hợp Jayasena: vẫn sống giữa dục, hưởng dục, bị ý nghĩ dục cuốn lấy, nóng lòng vì dục và tìm thêm dục thì không thể biết, thấy, chứng điều nhờ ly dục mới biết, thấy, đạt và chứng."
+          ]
+        },
+        {
+          "id": "hill",
+          "kind": "teaching",
+          "heading": "Hai người bạn dưới và trên núi",
+          "meaningUnits": [
+            "hill-start",
+            "hill-denial"
+          ],
+          "paragraphs": [
+            "Gần làng hay thị trấn có một núi lớn. Hai người bạn ra khỏi nơi ấy, đưa tay nâng đỡ nhau tới núi. Một người đứng dưới chân, người kia lên đỉnh. Bạn ở dưới hỏi thấy gì. Bạn ở trên nói thấy vườn đẹp, rừng đẹp, đất đẹp và hồ sen đẹp.",
+            "Người ở dưới phủ nhận: không thể có chuyện đứng trên núi mà thấy đủ những cảnh ấy."
+          ]
+        },
+        {
+          "id": "help",
+          "kind": "teaching",
+          "heading": "Nắm tay đưa bạn lên",
+          "meaningUnits": [
+            "hill-help",
+            "hill-understanding"
+          ],
+          "paragraphs": [
+            "Người trên đi xuống, nắm tay đưa bạn lên đỉnh và cho nghỉ một lát. Sau đó mới hỏi bạn thấy gì. Người bạn nay thấy đủ vườn, rừng, đất và hồ sen đẹp.",
+            "Người giúp nhắc: vừa rồi bạn phủ nhận, bây giờ bạn lại xác nhận thấy, theo điều chúng tôi hiểu từ lời bạn. Người bạn vừa được đưa lên đáp rằng trước đây núi lớn che nên mình không thấy điều có thể thấy."
+          ]
+        },
+        {
+          "id": "obstruction",
+          "kind": "teaching",
+          "heading": "Sự che khuất lớn hơn",
+          "meaningUnits": [
+            "ignorance",
+            "conditional-confidence"
+          ],
+          "paragraphs": [
+            "Phật nói Jayasena bị khối vô minh, sự không biết đúng, lớn hơn ngọn núi che lấp, che khuất, bao phủ, vây kín. Vương tử sống giữa dục, hưởng dục, bị dục tầm cuốn lấy, bị nhiệt não dục đốt và tìm thêm dục. Trong tình trạng đó, không thể biết, thấy, chứng điều cần ly dục mới biết, thấy, đạt và chứng.",
+            "Phật nói nếu hai ví dụ này đã khởi ra nơi Aciravata khi trò chuyện, không lạ nếu vương tử có lòng tin rồi thể hiện lòng tin. Aciravata hỏi làm sao hai ví dụ chưa từng nghe lại tự nhiên khởi lên nơi mình như nơi Phật. Đây vẫn là lời về một khả năng đã không được thử trong cuộc gặp."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: học một cách làm mới",
+          "meaningUnits": [
+            "trained-pair",
+            "hill-understanding"
+          ],
+          "paragraphs": [
+            "Một người quen chăm vườn theo một cách có thể chưa hiểu vì sao người bạn làm khác. Khi được giải thích và tự quan sát qua công việc, người ấy có thêm căn cứ để xét lại nhận định. Đây là ví dụ đời thường về việc học và trải nghiệm; điều được kinh dẫn tới là sự rèn luyện tâm đến giải thoát."
+          ]
+        },
+        {
+          "id": "capture",
+          "kind": "teaching",
+          "heading": "Voi được đưa ra khỏi rừng",
+          "meaningUnits": [
+            "capture",
+            "open"
+          ],
+          "paragraphs": [
+            "Phật kể phép ví cổ về vị vua Sát-đế-lợi, thuộc giới quý tộc và chiến sĩ, đã làm lễ quán đảnh xác lập vương vị. Vua sai người săn voi cưỡi voi vua, vào rừng voi; gặp voi rừng thì buộc cổ nó với voi vua. Người săn vâng lời, làm đúng từng việc.",
+            "Voi vua đưa voi rừng ra chỗ trống. Đến khi ấy nó mới ra ngoài; chỗ bám của voi rừng vẫn là rừng voi. Người săn báo vua rằng voi đã ra chỗ trống."
+          ]
+        },
+        {
+          "id": "post",
+          "kind": "teaching",
+          "heading": "Năm mục đích của việc thuần luyện",
+          "meaningUnits": [
+            "post-training"
+          ],
+          "paragraphs": [
+            "Vua giao người thuần voi việc tiếp: bỏ nết rừng, ký ức và tư duy rừng, lo lắng, mệt mỏi, nóng bức vì rừng; làm voi vui gần làng và quen nết con người ưa. Người thuần nhận lệnh, đóng cọc lớn xuống đất, buộc cổ voi vào đó với đủ năm mục đích ấy."
+          ]
+        },
+        {
+          "id": "words",
+          "kind": "teaching",
+          "heading": "Dùng lời dịu và quan sát việc nghe",
+          "meaningUnits": [
+            "gentle-words",
+            "feeding"
+          ],
+          "paragraphs": [
+            "Người thuần nói bằng lời dịu dàng, dễ nghe, thân ái, chạm đến lòng, lễ độ, được nhiều người yêu mến và vừa ý. Khi voi muốn nghe, lắng tai và để tâm hiểu, người ấy cho cỏ, thức ăn, nước. Khi voi nhận, người thuần mới nghĩ nó sẽ sống được."
+          ]
+        },
+        {
+          "id": "lessons",
+          "kind": "teaching",
+          "heading": "Từng bước, khi đã làm được bước trước",
+          "meaningUnits": [
+            "lift",
+            "forward",
+            "stand-test"
+          ],
+          "paragraphs": [
+            "Người thuần dạy nhấc lên và đặt xuống. Khi voi vâng lời, làm đúng, mới dạy đi tới và đi lui. Khi nó lại làm được, mới dạy đứng dậy và ngồi xuống.",
+            "Sau khi voi vâng bài đứng/ngồi, mới tới việc bất động. Người thuần buộc ván vào vòi con voi lớn. Một người cầm giáo ngồi trên cổ; những người cầm giáo đứng quanh bốn phía; người thuần đứng trước cầm giáo dài."
+          ]
+        },
+        {
+          "id": "trained",
+          "kind": "teaching",
+          "heading": "Chín chỗ giữ yên và sự kham nhẫn",
+          "meaningUnits": [
+            "stillness",
+            "elephant-result"
+          ],
+          "paragraphs": [
+            "Voi không động chân trước, chân sau, thân trước, thân sau, đầu, tai, ngà, đuôi và vòi. Nó chịu được đòn giáo, kiếm, tên, búa; tiếng trống, trống cái, kèn, tù và, mõ.",
+            "Đã bỏ cong queo và khuyết điểm, lắng sạch cấu lỗi, voi xứng với vua, đáng để vua sử dụng và được kể là một phần của nhà vua."
+          ]
+        },
+        {
+          "id": "teacher",
+          "kind": "teaching",
+          "heading": "Như Lai xuất hiện và giảng Pháp",
+          "meaningUnits": [
+            "buddha",
+            "world",
+            "dhamma"
+          ],
+          "paragraphs": [
+            "Phật nối phép ví với người tu. Như Lai, danh hiệu của Phật, là A-la-hán, người giải thoát khỏi trói buộc gây khổ; Chánh Đẳng Giác, tự giác ngộ hoàn toàn; đủ trí biết và cách sống; Thiện Thệ, bậc đi đến tốt đẹp; biết thế gian; người hướng dẫn cao nhất cho những người có thể rèn luyện; thầy của trời và người; bậc Giác Ngộ, Thế Tôn đáng tôn kính.",
+            "Ngài tự chứng bằng trí trực tiếp thế giới cùng chư thiên, các vị trời; Māra, Ma vương; Phạm thiên, một vị trời; các sa-môn, người tu, và bà-la-môn, người theo truyền thống kinh điển cùng nghi lễ; trời và người. Ngài nói lại điều đã chứng. Lời dạy tốt lành ở đầu, giữa, cuối, có nghĩa và lời hay, chỉ rõ đời phạm hạnh, đời tu thanh tịnh, trọn vẹn và trong sạch."
+          ]
+        },
+        {
+          "id": "faith",
+          "kind": "teaching",
+          "heading": "Nghe, tin và suy xét",
+          "meaningUnits": [
+            "faith",
+            "resolution"
+          ],
+          "paragraphs": [
+            "Một gia chủ (người sống tại gia), người con của gia chủ, hoặc người sinh trong một gia đình nào đó nghe lời dạy, có lòng tin nơi Như Lai. Người ấy suy xét: đời sống nhà chật hẹp, bụi bặm; xuất gia rộng mở. Sống ở nhà khó thực hành đời tu hoàn toàn viên mãn, trong sạch như vỏ ốc đánh bóng.",
+            "Người ấy nghĩ nên cạo râu tóc, khoác cà-sa, áo của người xuất gia, rời gia đình để sống không nhà."
+          ]
+        },
+        {
+          "id": "renounce",
+          "kind": "teaching",
+          "heading": "Thật sự bước ra",
+          "meaningUnits": [
+            "going-forth",
+            "ethics"
+          ],
+          "paragraphs": [
+            "Sau một thời gian, người ấy bỏ tài sản lớn hay nhỏ, thân quyến đông hay ít, cạo râu tóc, khoác áo tu và xuất gia. Đến đây vị đệ tử mới ra chỗ trống. Phật nói cả trời và người bám vào năm đối tượng dục: hình sắc, tiếng, mùi, vị, sự xúc chạm.",
+            "Phật dạy vị ấy có giới đức, giữ giới bổn, những quy tắc tu đã nhận; có cách cư xử đúng và nơi lui tới đúng, thấy nguy hiểm trong lỗi nhỏ nhất, nhận và học các điều rèn luyện. Khi vị ấy thành tựu những điều này, mới được hướng dẫn tiếp."
+          ]
+        },
+        {
+          "id": "doors",
+          "kind": "teaching",
+          "heading": "Giữ sáu cửa của mình",
+          "meaningUnits": [
+            "sense-doors"
+          ],
+          "paragraphs": [
+            "Mắt thấy hình sắc, tai nghe tiếng, mũi ngửi mùi, lưỡi nếm vị, thân xúc chạm, ý nhận các pháp: với từng cửa, không nắm tướng chung hay chi tiết khiến tham muốn, buồn bực và điều bất thiện — không lành — xâm nhập do không được giữ. Vị ấy chế ngự nguyên nhân ấy, giữ và thực hành giữ từng căn."
+          ]
+        },
+        {
+          "id": "food",
+          "kind": "teaching",
+          "heading": "Suy xét khi dùng thức ăn",
+          "meaningUnits": [
+            "further-training"
+          ],
+          "paragraphs": [
+            "Khi đã giữ các căn, vị ấy học tiết độ ăn. Dùng thức ăn sau suy xét đúng, không để vui đùa, đam mê, trang sức hay làm đẹp; để duy trì, bảo dưỡng thân, chống tổn hại và nâng đỡ đời tu. Mục đích là làm dịu cảm giác khó chịu cũ, không gây khó chịu mới, sống không lỗi và an ổn."
+          ]
+        },
+        {
+          "id": "wakefulness",
+          "kind": "teaching",
+          "heading": "Có lúc tỉnh thức và lúc nằm nghỉ",
+          "meaningUnits": [
+            "further-training"
+          ],
+          "paragraphs": [
+            "Tiếp theo, ban ngày và canh đầu đêm, vị ấy đi kinh hành, bước đi chú tâm, hoặc ngồi để làm sạch tâm khỏi chướng ngại. Canh giữa, vị ấy nằm nghiêng phải theo dáng sư tử, chân trên chân, có niệm và tỉnh giác, nhớ lúc sẽ dậy.",
+            "Canh cuối, vị ấy thức dậy, lại đi hoặc ngồi làm sạch tâm. Bước này được dạy sau khi vị ấy đã tiết độ trong ăn uống."
+          ]
+        },
+        {
+          "id": "awareness",
+          "kind": "teaching",
+          "heading": "Biết rõ các việc trong ngày",
+          "meaningUnits": [
+            "further-training"
+          ],
+          "paragraphs": [
+            "Sau đó vị ấy học chánh niệm tỉnh giác, ghi nhớ và biết rõ: đi tới, đi lui; nhìn thẳng, nhìn quanh; co, duỗi; mang áo tu kép, bình bát, áo ngoài; ăn, uống, nhai, nuốt; đại tiện, tiểu tiện; đi, đứng, ngồi, nằm, thức, nói, im lặng. Sự biết rõ đi cùng từng sinh hoạt."
+          ]
+        },
+        {
+          "id": "quiet",
+          "kind": "teaching",
+          "heading": "Nơi vắng và tư thế ngồi",
+          "meaningUnits": [
+            "further-training"
+          ],
+          "paragraphs": [
+            "Khi đã có sự biết rõ ấy, vị ấy chọn nơi thanh vắng: rừng, gốc cây, núi, chỗ hoang vu, hang núi, nghĩa địa, khóm rừng, ngoài trời hoặc đống rơm. Sau khi ăn, từ việc đi nhận thức ăn cúng trở về, vị ấy ngồi xếp chân kiết già, giữ lưng thẳng, đặt niệm trước mặt."
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Bỏ năm điều làm yếu trí tuệ",
+          "meaningUnits": [
+            "further-training",
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ tham, sống không tham; bỏ sân, sự giận ghét, sống thương mọi chúng sinh. Bỏ hôn trầm thụy miên, trì trệ buồn ngủ, với tâm hướng sáng, niệm và tỉnh giác. Bỏ trạo cử hối quá, xao động và hối tiếc, với nội tâm lắng yên. Bỏ nghi ngờ, hết phân vân về các pháp lành.",
+            "Đó là năm triền cái, những điều che lấp làm tâm ô nhiễm, trí tuệ yếu đi. Sau khi bỏ chúng, vị ấy tiếp tục quán sát."
+          ]
+        },
+        {
+          "id": "four",
+          "kind": "teaching",
+          "heading": "Bốn niệm xứ",
+          "meaningUnits": [
+            "body-mindfulness",
+            "other-mindfulness",
+            "mind-tether"
+          ],
+          "paragraphs": [
+            "Vị ấy quán thân, thọ là cảm giác dễ chịu/khó chịu/trung tính, tâm và pháp, các điều cần nhận biết trong tu tập. Ở mỗi cách quán, vị ấy tinh cần, biết rõ, có niệm và bỏ tham muốn, buồn bực nơi đời.",
+            "Phật nhắc cọc buộc voi để bỏ nết rừng, ký ức và tư duy rừng, lo lắng, mệt mỏi, nóng bức vì rừng; làm vui gần làng, quen nết con người ưa. Cũng vậy, bốn niệm xứ giữ tâm vị đệ tử để bỏ những nết, ký ức và tư duy, lo lắng, mệt mỏi, nóng bức còn bám đời nhà. Mục tiêu là đạt đường chân chánh và chứng Niết-bàn, sự chấm dứt khát ái cùng khổ."
+          ]
+        },
+        {
+          "id": "second",
+          "kind": "teaching",
+          "heading": "Không nghĩ dục tầm, thiền thứ hai",
+          "meaningUnits": [
+            "no-sensual-thought",
+            "second-jhana"
+          ],
+          "paragraphs": [
+            "Phật dạy tiếp quán thân, thọ, tâm và pháp, nhưng ở mỗi quán không nghĩ các tầm liên hệ dục, những ý nghĩ về thú vui giác quan.",
+            "Tầm và tứ — đưa tâm đến và giữ tâm với đối tượng — lắng xuống. Nội tâm lắng trong, quy tụ, không tầm tứ. Vị ấy chứng thiền thứ hai và an trú, tức ở trong trạng thái ấy. Thiền này có hỷ lạc, niềm vui và sự dễ chịu do định — sự tập trung vững vàng của tâm — sinh ra."
+          ]
+        },
+        {
+          "id": "third",
+          "kind": "teaching",
+          "heading": "Thiền thứ ba rồi thứ tư",
+          "meaningUnits": [
+            "third-jhana",
+            "fourth-jhana"
+          ],
+          "paragraphs": [
+            "Rời hỷ, vị ấy sống xả, quân bình, có niệm và biết rõ, thân cảm sự dễ chịu. Vị ấy chứng và an trú thiền thứ ba, được bậc Thánh gọi là sống an vui với xả và niệm.",
+            "Bỏ lạc, bỏ khổ, niềm vui và buồn bực trước đó đã diệt, vị ấy chứng và an trú thiền thứ tư. Trạng thái này không khổ không lạc, niệm thanh tịnh nhờ xả."
+          ]
+        },
+        {
+          "id": "mind",
+          "kind": "teaching",
+          "heading": "Tâm dùng cho cả ba trí",
+          "meaningUnits": [
+            "past-mind",
+            "rebirth-mind",
+            "ending-mind"
+          ],
+          "paragraphs": [
+            "Ở từng một trong ba hướng trí sau đây, tâm vị ấy đều định tĩnh, thanh tịnh, trong sáng, không uế nhiễm, lìa cấu uế, mềm dẻo, đắc dụng — dùng được — vững chắc và bất động."
+          ]
+        },
+        {
+          "id": "past",
+          "kind": "teaching",
+          "heading": "Nhớ nhiều đời sống",
+          "meaningUnits": [
+            "past-lives",
+            "past-mind"
+          ],
+          "paragraphs": [
+            "Vị ấy hướng tâm nhớ những đời quá khứ: một đời, hai đời và nhiều đời, các thời kỳ thế giới hoại diệt và hình thành. Vị ấy nhớ tên, họ, giai cấp, ăn uống, cảm nhận vui khổ, tuổi thọ; chết ở nơi này sinh nơi khác, từ nơi ấy sinh ở đây. Việc nhớ có các nét chính và chi tiết."
+          ]
+        },
+        {
+          "id": "rebirth",
+          "kind": "teaching",
+          "heading": "Biết chết và tái sinh theo nghiệp",
+          "meaningUnits": [
+            "rebirth",
+            "rebirth-mind"
+          ],
+          "paragraphs": [
+            "Với tâm đủ những phẩm chất ấy, vị ấy hướng tới biết sự chết và tái sinh. Nhờ thiên nhãn trong sạch vượt mắt người, vị ấy thấy chúng sinh thấp/cao, đẹp/xấu, đến nơi tốt/xấu theo nghiệp, những hành động đã làm.",
+            "Ác hạnh bằng thân, lời, ý; phỉ báng bậc Thánh; tà kiến, cách thấy sai, và hành động theo đó đưa tới cõi dữ, đọa xứ, địa ngục sau khi thân hoại, chết đi. Thiện hạnh bằng thân, lời, ý; không phỉ báng Thánh; chánh kiến, cách thấy đúng, và hành động theo đó đưa tới nơi lành, cõi trời sau khi chết. Vị ấy thấy và biết cả hai hướng."
+          ]
+        },
+        {
+          "id": "ending-defilements",
+          "kind": "teaching",
+          "heading": "Hiểu khổ và dứt lậu hoặc",
+          "meaningUnits": [
+            "suffering",
+            "defilements",
+            "liberation",
+            "ending-mind"
+          ],
+          "paragraphs": [
+            "Với tâm ấy, vị ấy hướng trí tới chấm dứt lậu hoặc, các ô nhiễm sâu trong tâm. Vị ấy biết như thật khổ, nguồn gốc, sự chấm dứt, đường đưa tới chấm dứt khổ. Với lậu hoặc, vị ấy cũng biết chính chúng, nguồn gốc, sự chấm dứt và đường chấm dứt.",
+            "Biết và thấy vậy, tâm thoát dục lậu, ô nhiễm do dục; hữu lậu, do bám hiện hữu; vô minh lậu, do không biết đúng. Khi giải thoát, vị ấy biết đã giải thoát: tái sinh chấm dứt, đời tu thanh tịnh hoàn thành, việc cần làm đã làm, không còn trở lại hiện hữu này."
+          ]
+        },
+        {
+          "id": "endurance",
+          "kind": "teaching",
+          "heading": "Sự kham nhẫn và giá trị của đời tu",
+          "meaningUnits": [
+            "endurance",
+            "worthy"
+          ],
+          "paragraphs": [
+            "Vị ấy chịu được lạnh, nóng, đói, khát; ruồi, muỗi, gió, nắng, rắn rết chạm tới; lời thô ác, khó nghe; những cảm thọ thân đã sinh khổ, gay gắt, dữ dội, xót xa, không dễ chịu, không vừa ý, có thể đe dọa mạng sống.",
+            "Đã bỏ mọi tham muốn, giận ghét, mê lầm và gột sạch cấu lỗi, vị ấy đáng cúng dường, tiếp đón, hiến tặng, chắp tay kính lễ; là ruộng phước vô thượng của đời, nơi sự kính trọng và cho tặng có thể sinh quả lành."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Nhớ lại một lúc tâm bị kéo đi",
+          "meaningUnits": [
+            "sense-doors",
+            "body-mindfulness",
+            "other-mindfulness"
+          ],
+          "paragraphs": [
+            "Ta có thể chọn một tình huống trong ngày, nhận ra mình đã bám vào lời hay hình ảnh nào mà sinh bực. Dừng lại biết thân và cảm giác, rồi chọn lời đáp lành hơn, là một bước nhỏ có thể thực hành. Đây là gợi ý hiện đại; bài kinh dẫn cả tiến trình tới giải thoát hoàn toàn."
+          ]
+        },
+        {
+          "id": "end",
+          "kind": "teaching",
+          "heading": "Ba lứa voi và ba mức thâm niên",
+          "meaningUnits": [
+            "untamed-elephants",
+            "untamed-monks",
+            "tamed-elephants",
+            "tamed-monks",
+            "ending"
+          ],
+          "paragraphs": [
+            "Voi vua dù già, tuổi giữa hay còn non, nếu chết khi chưa được thuần và huấn luyện đều gọi là chết chưa thuần. Nếu chết khi đã được thuần và huấn luyện khéo, cả ba nhóm đều gọi là chết đã thuần.",
+            "Tỳ-kheo trưởng thượng, ở mức thâm niên giữa hay mới tu cũng có hai nhánh. Nếu chết khi lậu hoặc chưa tận, đều gọi là chết chưa thuần. Nếu chết khi lậu hoặc đã tận, đều gọi là chết đã thuần.",
+            "Phật nói xong, sa-di Aciravata hoan hỷ tán đồng. Kinh Điều Ngự Địa kết thúc, là bài thứ năm trong nhóm kinh này."
+          ]
+        }
+      ]
+    }
+  }
+}
