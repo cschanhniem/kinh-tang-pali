@@ -1,0 +1,1417 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn115",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn115_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "68ed107142c266870671b4edb07d87769013b9f94c18a55035c9bb729a69e7a5"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn115_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "a84a97f15d80dcfda7c71c2e4f7a534a1ce72103ba0f297e087f4d2d0e1f6db9"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn115_translation-vi-project.json",
+      "commit": "706653e17256f5911f1545684ef9abd16345f00a",
+      "sha256": "dbdc6951bae3a056d2e3a38526f5dfd943fc52e6ef96b42f4701320c7662444c"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn115.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "15b7117420b8e54285990ab4e8a48aa67484b5759457f843c65fadc5013378e0"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn115_comment-vi-project.json",
+      "commit": "706653e17256f5911f1545684ef9abd16345f00a",
+      "sha256": "1982b987c1e3bbb913386d5a55f950725a5d40bb02861bef6749ba3c49d33cb5"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Kinh Nhiều Giới",
+      "segments": [
+        "mn115:0.1",
+        "mn115:0.2"
+      ],
+      "summary": "Trung Bộ 115, Kinh Nhiều Giới."
+    },
+    {
+      "id": "setting",
+      "title": "Lời đã nghe và lời gọi",
+      "segments": [
+        "mn115:1.1",
+        "mn115:1.2",
+        "mn115:1.3",
+        "mn115:1.4",
+        "mn115:1.5",
+        "mn115:1.6"
+      ],
+      "summary": "Người truyền kinh đã nghe; Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika; gọi các tỳ-kheo, các vị đáp, Phật nói."
+    },
+    {
+      "id": "danger",
+      "title": "Ba loại họa khởi từ kẻ ngu",
+      "segments": [
+        "mn115:2.1",
+        "mn115:2.2",
+        "mn115:2.3"
+      ],
+      "summary": "Mọi nguy hiểm, tai họa và họa hoạn khởi từ kẻ ngu, không từ bậc hiền trí."
+    },
+    {
+      "id": "fire",
+      "title": "Lửa lan sang nhà kiên cố",
+      "segments": [
+        "mn115:2.4"
+      ],
+      "summary": "Lửa thoát từ nhà lau hoặc cỏ đốt cả nhà mái nhọn trát trong/ngoài, kín gió, cửa then đóng và cửa sổ che."
+    },
+    {
+      "id": "danger-repeat",
+      "title": "Nhắc ba loại họa và hai phía",
+      "segments": [
+        "mn115:2.5",
+        "mn115:2.6",
+        "mn115:2.7",
+        "mn115:2.8",
+        "mn115:2.9",
+        "mn115:2.10",
+        "mn115:2.11"
+      ],
+      "summary": "Ví dụ được áp lại cho đủ ba loại họa; kẻ ngu mang từng loại, bậc hiền trí không mang; không có loại nào từ bậc hiền trí."
+    },
+    {
+      "id": "training",
+      "title": "Học làm người hiền trí biết xét",
+      "segments": [
+        "mn115:2.12",
+        "mn115:2.13"
+      ],
+      "summary": "Vì vậy các tỳ-kheo phải học tập: sẽ là bậc hiền trí, là người thẩm sát."
+    },
+    {
+      "id": "four-skills",
+      "title": "Bốn sự khéo biết",
+      "segments": [
+        "mn115:3.1",
+        "mn115:3.2",
+        "mn115:3.3",
+        "mn115:3.4"
+      ],
+      "summary": "Ānanda hỏi điều kiện xứng danh hiền trí/thẩm sát; Phật đáp khéo về giới, xứ, duyên khởi, có thể/không thể."
+    },
+    {
+      "id": "eighteen",
+      "title": "Mười tám giới",
+      "segments": [
+        "mn115:4.1",
+        "mn115:4.2",
+        "mn115:4.3",
+        "mn115:4.4",
+        "mn115:4.5",
+        "mn115:4.6",
+        "mn115:4.7",
+        "mn115:4.8",
+        "mn115:4.9",
+        "mn115:4.10"
+      ],
+      "summary": "Ānanda hỏi khéo về giới; Phật nêu sáu bộ ba: mắt/sắc/thức mắt; tai/tiếng/thức tai; mũi/hương/thức mũi; lưỡi/vị/thức lưỡi; thân/xúc chạm/thức thân; ý/pháp/thức ý. Biết và thấy đủ 18 cũng xứng danh."
+    },
+    {
+      "id": "six-material",
+      "title": "Sáu giới đất đến thức",
+      "segments": [
+        "mn115:5.1",
+        "mn115:5.2",
+        "mn115:5.3",
+        "mn115:5.4",
+        "mn115:5.5",
+        "mn115:5.6"
+      ],
+      "summary": "Ānanda hỏi cách khác, Phật đáp có: đất, nước, lửa, gió, hư không, thức; biết và thấy sáu giới này cũng xứng danh khéo về giới."
+    },
+    {
+      "id": "six-feelings",
+      "title": "Sáu giới lạc đến vô minh",
+      "segments": [
+        "mn115:6.1",
+        "mn115:6.2",
+        "mn115:6.3",
+        "mn115:6.4",
+        "mn115:6.5",
+        "mn115:6.6"
+      ],
+      "summary": "Lượt hỏi cách khác/đáp có: lạc, khổ, hỷ, ưu, xả, vô minh; biết và thấy sáu giới này cũng xứng danh."
+    },
+    {
+      "id": "six-intentions",
+      "title": "Ba cặp tâm đối nhau",
+      "segments": [
+        "mn115:7.1",
+        "mn115:7.2",
+        "mn115:7.3",
+        "mn115:7.4",
+        "mn115:7.5",
+        "mn115:7.6"
+      ],
+      "summary": "Lượt hỏi cách khác/đáp có: dục/ly dục, sân/không sân, hại/không hại; biết và thấy sáu giới này cũng xứng danh."
+    },
+    {
+      "id": "three-realms",
+      "title": "Ba giới dục sắc vô sắc",
+      "segments": [
+        "mn115:8.1",
+        "mn115:8.2",
+        "mn115:8.3",
+        "mn115:8.4",
+        "mn115:8.5",
+        "mn115:8.6"
+      ],
+      "summary": "Lượt hỏi cách khác/đáp có: dục, sắc, vô sắc; biết và thấy ba giới cũng xứng danh."
+    },
+    {
+      "id": "two-elements",
+      "title": "Hữu vi và vô vi",
+      "segments": [
+        "mn115:9.1",
+        "mn115:9.2",
+        "mn115:9.3",
+        "mn115:9.4",
+        "mn115:9.5",
+        "mn115:9.6"
+      ],
+      "summary": "Lượt hỏi cách khác/đáp có: giới hữu vi và giới vô vi; biết và thấy hai giới cũng xứng danh."
+    },
+    {
+      "id": "sense-pairs",
+      "title": "Sáu cặp nội ngoại xứ",
+      "segments": [
+        "mn115:10.1",
+        "mn115:10.2",
+        "mn115:10.3",
+        "mn115:10.4",
+        "mn115:10.5"
+      ],
+      "summary": "Ānanda hỏi khéo về xứ; Phật nêu mắt/sắc, tai/tiếng, mũi/hương, lưỡi/vị, thân/xúc chạm, ý/pháp; biết và thấy sáu cặp nội ngoại xứ thì xứng danh."
+    },
+    {
+      "id": "dependent-principle",
+      "title": "Bốn vế điều kiện",
+      "segments": [
+        "mn115:11.1",
+        "mn115:11.2",
+        "mn115:11.3",
+        "mn115:11.4"
+      ],
+      "summary": "Ānanda hỏi khéo duyên khởi; biết rõ khi cái này có thì cái kia có, do cái này sinh thì cái kia sinh; khi cái này không có thì cái kia không có, do cái này diệt thì cái kia diệt."
+    },
+    {
+      "id": "arising-first",
+      "title": "Vô minh đến thọ",
+      "segments": [
+        "mn115:11.5",
+        "mn115:11.6",
+        "mn115:11.7",
+        "mn115:11.8",
+        "mn115:11.9",
+        "mn115:11.10"
+      ],
+      "summary": "Vô minh duyên hành, hành duyên thức, thức duyên danh-sắc, danh-sắc duyên sáu xứ, sáu xứ duyên xúc, xúc duyên thọ."
+    },
+    {
+      "id": "arising-rest",
+      "title": "Thọ đến toàn khối khổ",
+      "segments": [
+        "mn115:11.11",
+        "mn115:11.12",
+        "mn115:11.13",
+        "mn115:11.14",
+        "mn115:11.15",
+        "mn115:11.16"
+      ],
+      "summary": "Thọ duyên ái, ái duyên thủ, thủ duyên hữu, hữu duyên sinh; sinh duyên già/chết, sầu/bi/khổ/ưu/não; toàn khối khổ sinh khởi."
+    },
+    {
+      "id": "ceasing-first",
+      "title": "Vô minh dứt hết đến thọ diệt",
+      "segments": [
+        "mn115:11.17",
+        "mn115:11.18",
+        "mn115:11.19",
+        "mn115:11.20",
+        "mn115:11.21",
+        "mn115:11.22"
+      ],
+      "summary": "Vô minh ly tham/diệt không dư thì hành diệt; hành diệt thức diệt, thức diệt danh-sắc diệt, danh-sắc diệt sáu xứ diệt, sáu xứ diệt xúc diệt, xúc diệt thọ diệt."
+    },
+    {
+      "id": "ceasing-rest",
+      "title": "Thọ diệt đến toàn khối khổ diệt",
+      "segments": [
+        "mn115:11.23",
+        "mn115:11.24",
+        "mn115:11.25",
+        "mn115:11.26",
+        "mn115:11.27",
+        "mn115:11.28",
+        "mn115:11.29"
+      ],
+      "summary": "Thọ diệt ái diệt, ái diệt thủ diệt, thủ diệt hữu diệt, hữu diệt sinh diệt; sinh diệt già/chết, sầu/bi/khổ/ưu/não diệt. Toàn khối khổ diệt; như vậy xứng danh khéo duyên khởi."
+    },
+    {
+      "id": "possible-question",
+      "title": "Hỏi chỗ có thể và không thể",
+      "segments": [
+        "mn115:12.1"
+      ],
+      "summary": "Ānanda hỏi điều kiện xứng danh khéo về có thể và không thể."
+    },
+    {
+      "id": "permanent",
+      "title": "Không chấp hành là thường",
+      "segments": [
+        "mn115:12.2",
+        "mn115:12.3"
+      ],
+      "summary": "Người thành tựu kiến không thể chấp bất kỳ hành nào là thường; phàm phu có thể chấp một hành là thường. Vị tu biết rõ cả hai."
+    },
+    {
+      "id": "pleasant",
+      "title": "Không chấp hành là lạc",
+      "segments": [
+        "mn115:12.4",
+        "mn115:12.5"
+      ],
+      "summary": "Người thành tựu kiến không thể chấp bất kỳ hành nào là lạc; phàm phu có thể chấp một hành là lạc. Biết rõ cả hai."
+    },
+    {
+      "id": "self",
+      "title": "Không chấp pháp là ngã",
+      "segments": [
+        "mn115:12.6",
+        "mn115:12.7"
+      ],
+      "summary": "Người thành tựu kiến không thể chấp bất kỳ pháp nào là tự ngã; phàm phu có thể chấp một pháp là tự ngã. Biết rõ cả hai."
+    },
+    {
+      "id": "mother",
+      "title": "Giết mẹ",
+      "segments": [
+        "mn115:13.1",
+        "mn115:13.2"
+      ],
+      "summary": "Người thành tựu kiến không thể giết mẹ; phàm phu có thể. Biết rõ hai phía."
+    },
+    {
+      "id": "father-arahant",
+      "title": "Giết cha hoặc A-la-hán",
+      "segments": [
+        "mn115:13.3",
+        "mn115:13.4"
+      ],
+      "summary": "Cùng hai phía không thể/có thể đối với giết cha và giết A-la-hán: người thành tựu kiến/phàm phu."
+    },
+    {
+      "id": "blood",
+      "title": "Ác tâm làm Như Lai chảy máu",
+      "segments": [
+        "mn115:13.5",
+        "mn115:13.6"
+      ],
+      "summary": "Người thành tựu kiến không thể với tâm độc hại làm Như Lai chảy máu; phàm phu có thể làm vậy. Biết rõ hai phía."
+    },
+    {
+      "id": "schism",
+      "title": "Chia rẽ Tăng",
+      "segments": [
+        "mn115:13.7",
+        "mn115:13.8"
+      ],
+      "summary": "Người thành tựu kiến không thể chia rẽ Tăng; phàm phu có thể. Biết rõ hai phía."
+    },
+    {
+      "id": "teacher",
+      "title": "Nhận một Đạo sư khác",
+      "segments": [
+        "mn115:13.9",
+        "mn115:13.10"
+      ],
+      "summary": "Người thành tựu kiến không thể nhận một vị khác làm Đạo sư; phàm phu có thể. Biết rõ hai phía."
+    },
+    {
+      "id": "one-buddha",
+      "title": "Một thế giới và cùng thời",
+      "segments": [
+        "mn115:14.1",
+        "mn115:14.2"
+      ],
+      "summary": "Không thể có hai A-la-hán Chánh Đẳng Giác xuất hiện cùng lúc trong một thế giới; có thể có một vị xuất hiện. Biết rõ hai phía."
+    },
+    {
+      "id": "one-monarch",
+      "title": "Vua Chuyển Luân",
+      "segments": [
+        "mn115:14.3",
+        "mn115:14.4"
+      ],
+      "summary": "Không thể có hai vua Chuyển Luân xuất hiện cùng lúc trong một thế giới; có thể có một vị. Biết rõ hai phía."
+    },
+    {
+      "id": "woman-buddha",
+      "title": "Địa vị Chánh Đẳng Giác",
+      "segments": [
+        "mn115:15.1",
+        "mn115:15.2"
+      ],
+      "summary": "Theo mệnh đề của kinh, nữ nhân không thể là A-la-hán Chánh Đẳng Giác, nam nhân có thể. Biết rõ hai phía."
+    },
+    {
+      "id": "woman-monarch",
+      "title": "Địa vị Chuyển Luân",
+      "segments": [
+        "mn115:15.3",
+        "mn115:15.4"
+      ],
+      "summary": "Theo mệnh đề của kinh, nữ nhân không thể là vua Chuyển Luân, nam nhân có thể. Biết rõ hai phía."
+    },
+    {
+      "id": "woman-gods",
+      "title": "Ba địa vị Sakka Māra Phạm thiên",
+      "segments": [
+        "mn115:15.5",
+        "mn115:15.6"
+      ],
+      "summary": "Theo mệnh đề của kinh, nữ nhân không thể giữ địa vị Sakka, Māra hoặc Phạm thiên; nam nhân có thể giữ từng địa vị ấy. Biết rõ hai phía."
+    },
+    {
+      "id": "bad-body-fruit",
+      "title": "Quả của thân ác hạnh",
+      "segments": [
+        "mn115:16.1",
+        "mn115:16.2"
+      ],
+      "summary": "Thân ác hạnh không thể sinh quả đáng ý/đáng yêu/dễ chịu; có thể sinh quả không đáng ý/không đáng yêu/không dễ chịu. Vị tu biết rõ."
+    },
+    {
+      "id": "bad-voice-mind-fruit",
+      "title": "Quả của khẩu và ý ác hạnh",
+      "segments": [
+        "mn115:16.3",
+        "mn115:16.4",
+        "mn115:16.5",
+        "mn115:16.6"
+      ],
+      "summary": "Mỗi khẩu ác hạnh và ý ác hạnh cùng hai phía: không thể sinh quả đáng ý/đáng yêu/dễ chịu, có thể sinh quả ba tính chất ngược lại. Vị tu biết rõ."
+    },
+    {
+      "id": "good-body-fruit",
+      "title": "Quả của thân thiện hạnh",
+      "segments": [
+        "mn115:17.1",
+        "mn115:17.2"
+      ],
+      "summary": "Thân thiện hạnh không thể sinh quả không đáng ý/không đáng yêu/không dễ chịu; có thể sinh quả đáng ý/đáng yêu/dễ chịu. Vị tu biết rõ."
+    },
+    {
+      "id": "good-voice-mind-fruit",
+      "title": "Quả của khẩu và ý thiện hạnh",
+      "segments": [
+        "mn115:17.3",
+        "mn115:17.4",
+        "mn115:17.5",
+        "mn115:17.6"
+      ],
+      "summary": "Mỗi khẩu thiện hạnh và ý thiện hạnh cùng hai phía: không thể sinh quả ba tính chất không đáng ý/không đáng yêu/không dễ chịu; có thể sinh quả ba tính chất lành tương ứng. Vị tu biết rõ."
+    },
+    {
+      "id": "bad-body-rebirth",
+      "title": "Nhân thân ác hạnh và tái sinh",
+      "segments": [
+        "mn115:18.1",
+        "mn115:18.2"
+      ],
+      "summary": "Người có thân ác hạnh, do chính nhân ấy/duyên ấy, sau thân hoại/chết không thể sinh cõi lành/cõi trời, có thể sinh cõi ác/cảnh xấu/dữ đọa/địa ngục. Vị tu biết rõ."
+    },
+    {
+      "id": "bad-voice-mind-rebirth",
+      "title": "Nhân khẩu ý ác hạnh và tái sinh",
+      "segments": [
+        "mn115:19.1",
+        "mn115:19.2",
+        "mn115:19.3",
+        "mn115:19.4"
+      ],
+      "summary": "Cùng cặp không thể/có thể cho người có khẩu ác hạnh và người có ý ác hạnh: do chính nhân/duyên ấy, sau thân hoại/chết, không cõi lành/trời, có thể cõi ác/cảnh xấu/dữ đọa/địa ngục."
+    },
+    {
+      "id": "good-body-rebirth",
+      "title": "Nhân thân thiện hạnh và tái sinh",
+      "segments": [
+        "mn115:19.5",
+        "mn115:19.6"
+      ],
+      "summary": "Người có thân thiện hạnh, do chính nhân ấy/duyên ấy, sau thân hoại/chết không thể sinh cõi ác/cảnh xấu/dữ đọa/địa ngục, có thể sinh cõi lành/cõi trời. Vị tu biết rõ."
+    },
+    {
+      "id": "good-voice-mind-rebirth",
+      "title": "Nhân khẩu ý thiện hạnh và tái sinh",
+      "segments": [
+        "mn115:19.7",
+        "mn115:19.8",
+        "mn115:19.9",
+        "mn115:19.10"
+      ],
+      "summary": "Cùng cặp không thể/có thể cho người có khẩu thiện hạnh và người có ý thiện hạnh: do chính nhân/duyên ấy, sau thân hoại/chết, không cõi ác/cảnh xấu/dữ đọa/địa ngục, có thể cõi lành/trời."
+    },
+    {
+      "id": "qualified",
+      "title": "Kết phần có thể và không thể",
+      "segments": [
+        "mn115:19.11"
+      ],
+      "summary": "Biết rõ các trường hợp ấy thì xứng danh khéo về có thể và không thể."
+    },
+    {
+      "id": "names",
+      "title": "Năm tên của lời dạy",
+      "segments": [
+        "mn115:20.1",
+        "mn115:20.2",
+        "mn115:20.3",
+        "mn115:20.4"
+      ],
+      "summary": "Ānanda tán thán kỳ diệu/phi thường và hỏi tên. Phật dặn nhớ năm tên: Nhiều Giới, Bốn Vòng Xoay, Gương Pháp, Trống Bất Tử, Chiến Thắng Vô Thượng (trong trận chiến)."
+    },
+    {
+      "id": "ending",
+      "title": "Ānanda hoan hỷ và nhãn thứ năm",
+      "segments": [
+        "mn115:20.5",
+        "mn115:20.6",
+        "mn115:20.7"
+      ],
+      "summary": "Phật nói xong, Ānanda hoan hỷ/tán đồng; Kinh Nhiều Giới kết thúc, bài thứ năm trong nhóm."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Dành cho trẻ em: Học cách nhìn cho rõ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Học cách nhìn cho rõ",
+          "paragraphs": [
+            "Kinh Nhiều Giới là bài 115 trong Trung Bộ. Người truyền kinh kể điều đã nghe: Đức Phật ở Sāvatthī, trong rừng Jeta, tại tu viện Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những người nam xuất gia tu học. Các vị đáp lời, rồi Phật giảng."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting"
+          ]
+        },
+        {
+          "id": "fire",
+          "kind": "teaching",
+          "heading": "Một ngọn lửa có thể lan xa",
+          "paragraphs": [
+            "Phật dạy rằng mọi nguy hiểm, tai họa và họa hoạn đều khởi từ người ngu, người thiếu sáng suốt, không từ bậc hiền trí. Ngài ví với ngọn lửa thoát ra từ nhà làm bằng cây lau hay bằng cỏ. Lửa ấy có thể đốt cả nhà mái nhọn đã trát trong ngoài, kín gió, cửa có then đóng, cửa sổ đã che.",
+            "Phật nhắc lại đủ ba loại họa: người ngu mang đến nguy hiểm, tai họa, họa hoạn; người hiền trí không mang đến chúng. Không có ba loại họa ấy từ bậc hiền trí. Vì vậy, các vị cần học: “Chúng ta sẽ là người hiền trí, biết xem xét kỹ.”"
+          ],
+          "meaningUnits": [
+            "danger",
+            "fire",
+            "danger-repeat",
+            "training"
+          ]
+        },
+        {
+          "id": "four",
+          "kind": "teaching",
+          "heading": "Ānanda hỏi: biết xem xét là thế nào?",
+          "paragraphs": [
+            "Tôn giả Ānanda, một đệ tử của Phật, hỏi đến mức nào một vị tỳ-kheo xứng đáng được gọi là hiền trí, biết thẩm sát, tức xem xét kỹ. Phật nêu bốn sự khéo biết: về giới, các thành phần; về xứ, những nơi nhận biết và điều được nhận biết; về duyên khởi, sự sinh khởi do điều kiện; và về điều có thể, không thể xảy ra."
+          ],
+          "meaningUnits": [
+            "four-skills"
+          ]
+        },
+        {
+          "id": "eighteen",
+          "kind": "teaching",
+          "heading": "Sáu bộ ba thành mười tám giới",
+          "paragraphs": [
+            "Ānanda hỏi thế nào là khéo về giới. Phật kể sáu bộ ba. Mắt, hình sắc, thức mắt — sự biết khi nhìn. Tai, âm thanh, thức tai — sự biết khi nghe. Mũi, mùi hương, thức mũi — sự biết khi ngửi.",
+            "Tiếp đến: lưỡi, vị, thức lưỡi — sự biết khi nếm. Thân, xúc chạm, thức thân — sự biết khi có tiếp xúc. Ý, pháp là những điều tâm ý nhận biết, và thức ý — sự biết của ý. Sáu bộ ba là mười tám giới. Biết và thấy chúng thì cũng xứng đáng gọi là khéo về giới."
+          ],
+          "meaningUnits": [
+            "eighteen"
+          ]
+        },
+        {
+          "id": "bell",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: nghe tiếng chuông",
+          "paragraphs": [
+            "Khi nghe chuông vào lớp, em có thể nhận ra tai đang nghe, âm thanh của chuông và sự biết rằng có tiếng chuông. Ba điều được phân biệt giúp em nhìn kỹ kinh nghiệm đang có. Đây là ví dụ hiện đại để hiểu một bộ ba trong danh sách; các bộ còn lại cũng cần được học và quan sát."
+          ],
+          "meaningUnits": [
+            "eighteen",
+            "sense-pairs"
+          ]
+        },
+        {
+          "id": "six",
+          "kind": "teaching",
+          "heading": "Đất, nước, lửa, gió, khoảng không và sự biết",
+          "paragraphs": [
+            "Ānanda hỏi có cách khác để gọi là khéo về giới không. Phật đáp có, rồi nêu sáu giới: đất, nước, lửa, gió, hư không tức khoảng không, và thức tức sự biết. Biết và thấy sáu giới này cũng đủ để được gọi là khéo về giới."
+          ],
+          "meaningUnits": [
+            "six-material"
+          ]
+        },
+        {
+          "id": "feelings",
+          "kind": "teaching",
+          "heading": "Vui, buồn và điều mình chưa hiểu",
+          "paragraphs": [
+            "Ānanda lại hỏi có cách khác không; Phật đáp có. Sáu giới tiếp theo là lạc, sự dễ chịu; khổ, sự đau đớn; hỷ, niềm vui; ưu, nỗi buồn; xả, trạng thái không nghiêng theo vui hay buồn; và vô minh, sự không thấy hiểu đúng. Biết và thấy sáu giới ấy cũng là khéo về giới."
+          ],
+          "meaningUnits": [
+            "six-feelings"
+          ]
+        },
+        {
+          "id": "pairs",
+          "kind": "teaching",
+          "heading": "Ba cặp khác nhau trong tâm",
+          "paragraphs": [
+            "Trong lượt hỏi khác, Phật cũng đáp có và kể sáu giới thành ba cặp: dục, ham muốn thú vui giác quan, và ly dục, rời những ham muốn ấy; sân, ý giận ghét, và không sân; hại và không hại. Biết và thấy đủ ba cặp này cũng xứng danh khéo về giới."
+          ],
+          "meaningUnits": [
+            "six-intentions"
+          ]
+        },
+        {
+          "id": "realms",
+          "kind": "teaching",
+          "heading": "Ba giới và hai giới",
+          "paragraphs": [
+            "Ānanda hỏi thêm một cách khác; Phật đáp có: dục giới, phạm vi gắn với thú vui giác quan; sắc giới, phạm vi có hình sắc; vô sắc giới, phạm vi không có hình sắc. Biết và thấy ba giới ấy cũng là khéo về giới.",
+            "Ānanda lại hỏi. Phật đáp còn cách xét hai giới: hữu vi, những gì do điều kiện tạo thành; và vô vi, không do điều kiện tạo thành. Biết và thấy hai giới này cũng xứng danh ấy."
+          ],
+          "meaningUnits": [
+            "three-realms",
+            "two-elements"
+          ]
+        },
+        {
+          "id": "doors",
+          "kind": "teaching",
+          "heading": "Sáu cặp bên trong và bên ngoài",
+          "paragraphs": [
+            "Tiếp theo, Ānanda hỏi khéo về xứ là thế nào. Phật nêu sáu cặp nội ngoại xứ: mắt và hình sắc; tai và âm thanh; mũi và mùi hương; lưỡi và vị; thân và xúc chạm; ý và các pháp, những điều ý nhận biết. Biết và thấy sáu cặp ấy thì được gọi là khéo về xứ."
+          ],
+          "meaningUnits": [
+            "sense-pairs"
+          ]
+        },
+        {
+          "id": "conditions",
+          "kind": "teaching",
+          "heading": "Điều này có thì điều kia có",
+          "paragraphs": [
+            "Ānanda hỏi về duyên khởi. Phật dạy vị tu cần biết rõ bốn vế: khi cái này có, cái kia có; do cái này sinh, cái kia sinh. Khi cái này không có, cái kia không có; do cái này chấm dứt, cái kia chấm dứt. Ngài trình bày cụ thể bằng con đường khổ sinh khởi và khổ chấm dứt."
+          ],
+          "meaningUnits": [
+            "dependent-principle"
+          ]
+        },
+        {
+          "id": "arising",
+          "kind": "teaching",
+          "heading": "Những điều kiện nối tiếp nhau",
+          "paragraphs": [
+            "Vô minh, sự không thấy hiểu đúng, làm duyên cho hành, những tác tạo của tâm. Hành làm duyên cho thức, sự biết; thức làm duyên cho danh-sắc, mặt tâm và mặt thân; danh-sắc làm duyên cho sáu xứ đã kể; sáu xứ làm duyên cho xúc, sự tiếp xúc; xúc làm duyên cho thọ, cảm giác dễ chịu, khó chịu hoặc trung tính."
+          ],
+          "meaningUnits": [
+            "arising-first"
+          ]
+        },
+        {
+          "id": "suffering",
+          "kind": "teaching",
+          "heading": "Từ cảm giác đến khối khổ",
+          "paragraphs": [
+            "Thọ làm duyên cho ái, sự khát muốn. Ái làm duyên cho thủ, sự bám giữ. Thủ làm duyên cho hữu, sự tiếp tục hiện hữu; hữu làm duyên cho sinh, sự tái sinh. Sinh làm duyên cho già, chết, sầu, bi, khổ, ưu, não — buồn sầu, than khóc, đau đớn, buồn khổ trong lòng và khốn khó. Đó là sự sinh khởi của toàn bộ khối khổ."
+          ],
+          "meaningUnits": [
+            "arising-rest"
+          ]
+        },
+        {
+          "id": "ceasing",
+          "kind": "teaching",
+          "heading": "Con đường khổ chấm dứt",
+          "paragraphs": [
+            "Khi vô minh phai nhạt và chấm dứt hoàn toàn, không còn sót lại, hành chấm dứt. Hành dứt thì thức dứt; thức dứt thì danh-sắc dứt; danh-sắc dứt thì sáu xứ dứt; sáu xứ dứt thì xúc dứt; xúc dứt thì thọ dứt.",
+            "Thọ dứt thì ái dứt; ái dứt thì thủ dứt; thủ dứt thì hữu dứt; hữu dứt thì tái sinh dứt. Tái sinh dứt thì già, chết, sầu, bi, khổ, ưu, não đều dứt. Như vậy toàn khối khổ chấm dứt. Biết rõ hai chiều ấy thì xứng danh khéo về duyên khởi."
+          ],
+          "meaningUnits": [
+            "ceasing-first",
+            "ceasing-rest"
+          ]
+        },
+        {
+          "id": "view",
+          "kind": "teaching",
+          "heading": "Biết điều không thể và điều có thể",
+          "paragraphs": [
+            "Ānanda hỏi về sự khéo biết điều có thể và không thể. Phật nêu người thành tựu kiến, người đã thành tựu sự thấy hiểu đúng. Người ấy không thể chấp bất kỳ hành nào, điều do duyên tạo thành, là thường còn; không thể chấp bất kỳ hành nào là lạc, là sự dễ chịu; không thể chấp bất cứ pháp nào là tự ngã, một cái tôi.",
+            "Phàm phu, người chưa thành tựu sự thấy hiểu ấy, có thể chấp một hành là thường còn, một hành là lạc, hoặc một pháp là tự ngã. Vị tu cần biết rõ hai phía trong từng trường hợp."
+          ],
+          "meaningUnits": [
+            "possible-question",
+            "permanent",
+            "pleasant",
+            "self"
+          ]
+        },
+        {
+          "id": "understand",
+          "kind": "clarification",
+          "heading": "Phân biệt cảm giác với quan điểm",
+          "paragraphs": [
+            "Ở đây, “chấp là lạc” nói đến quan điểm giữ về một điều do duyên tạo thành. Cần phân biệt nó với việc biết một cảm giác dễ chịu đang có, như phần các giới vừa nêu. Đọc kỹ chữ “chấp” giúp em theo đúng câu hỏi của bài kinh."
+          ],
+          "meaningUnits": [
+            "six-feelings",
+            "pleasant"
+          ]
+        },
+        {
+          "id": "grave",
+          "kind": "teaching",
+          "heading": "Những việc người thành tựu kiến không thể làm",
+          "paragraphs": [
+            "Phật nêu sáu trường hợp. Người thành tựu kiến không thể giết mẹ; giết cha; giết một vị A-la-hán, người đã giải thoát khỏi những trói buộc gây khổ; với tâm độc hại làm Như Lai, danh hiệu của Phật, chảy máu; chia rẽ Tăng, cộng đồng các vị xuất gia; hoặc nhận một người khác làm Đạo sư, bậc dẫn đường tu học.",
+            "Đối với từng việc trong sáu việc ấy, phàm phu có thể làm. Biết rõ sự không thể ở phía đầu và có thể ở phía sau là nội dung lời dạy; “có thể” không có nghĩa mọi người thuộc nhóm ấy đều làm như vậy."
+          ],
+          "meaningUnits": [
+            "mother",
+            "father-arahant",
+            "blood",
+            "schism",
+            "teacher"
+          ]
+        },
+        {
+          "id": "one",
+          "kind": "teaching",
+          "heading": "Trong cùng một thế giới và cùng một lúc",
+          "paragraphs": [
+            "Phật nêu rằng không thể có hai vị A-la-hán Chánh Đẳng Giác, hai vị Phật giác ngộ trọn vẹn, xuất hiện cùng lúc trong một thế giới. Một vị xuất hiện thì có thể.",
+            "Cũng không thể có hai vua Chuyển Luân, vị vua lý tưởng trị vì theo lẽ đúng, xuất hiện cùng lúc trong một thế giới; một vị xuất hiện thì có thể. Cần giữ cả điều kiện “cùng thế giới” lẫn “cùng một lúc”."
+          ],
+          "meaningUnits": [
+            "one-buddha",
+            "one-monarch"
+          ]
+        },
+        {
+          "id": "positions",
+          "kind": "teaching",
+          "heading": "Năm địa vị được kinh nêu",
+          "paragraphs": [
+            "Đoạn kinh tiếp theo nêu năm địa vị: A-la-hán Chánh Đẳng Giác; vua Chuyển Luân; Sakka, vị chủ cõi trời; Māra, Ma vương; và Phạm thiên, một vị trời. Theo đoạn này, một người nữ không thể giữ từng địa vị ấy, còn một người nam có thể.",
+            "“A-la-hán Chánh Đẳng Giác” ở đây là danh hiệu đầy đủ của vị Phật được nói đến. Các mệnh đề giới hạn vào năm địa vị vừa kể; “có thể” cũng không có nghĩa mọi người nam đều đạt chúng."
+          ],
+          "meaningUnits": [
+            "woman-buddha",
+            "woman-monarch",
+            "woman-gods"
+          ]
+        },
+        {
+          "id": "fruit",
+          "kind": "teaching",
+          "heading": "Hành động và quả của chính hành động ấy",
+          "paragraphs": [
+            "Thân ác hạnh là việc không lành bằng thân; khẩu ác hạnh là lời nói không lành; ý ác hạnh là điều không lành trong ý. Với từng loại, quả đáng ý, đáng yêu, dễ chịu không thể sinh ra từ ác hạnh ấy; quả không đáng ý, không đáng yêu, không dễ chịu thì có thể.",
+            "Với thân thiện hạnh, khẩu thiện hạnh và ý thiện hạnh, những việc lành của thân, lời và ý, chiều xét ngược lại: quả không đáng ý, không đáng yêu, không dễ chịu không thể sinh từ thiện hạnh ấy; quả đáng ý, đáng yêu, dễ chịu thì có thể. Vị tu cần biết rõ cả hai phía cho từng loại."
+          ],
+          "meaningUnits": [
+            "bad-body-fruit",
+            "bad-voice-mind-fruit",
+            "good-body-fruit",
+            "good-voice-mind-fruit"
+          ]
+        },
+        {
+          "id": "bad-rebirth",
+          "kind": "teaching",
+          "heading": "Điều không lành và đời sống sau khi chết",
+          "paragraphs": [
+            "Phật còn xét người có thân ác hạnh: do chính việc ấy làm nhân, làm duyên, sau khi thân hoại, sau khi chết, tái sinh vào cõi lành, cõi trời là điều không thể; tái sinh vào cõi ác, cảnh giới xấu, nơi sa đọa, địa ngục thì có thể.",
+            "Cùng hai phía ấy áp dụng riêng cho người có khẩu ác hạnh và người có ý ác hạnh: do chính điều không lành ấy làm nhân, làm duyên, sau khi thân hoại, sau khi chết, không thể sinh cõi lành, cõi trời; có thể sinh vào những cảnh khổ vừa kể."
+          ],
+          "meaningUnits": [
+            "bad-body-rebirth",
+            "bad-voice-mind-rebirth"
+          ]
+        },
+        {
+          "id": "good-rebirth",
+          "kind": "teaching",
+          "heading": "Điều lành và đời sống sau khi chết",
+          "paragraphs": [
+            "Người có thân thiện hạnh, do chính việc lành ấy làm nhân, làm duyên, sau khi thân hoại, sau khi chết, không thể sinh vào cõi ác, cảnh giới xấu, nơi sa đọa, địa ngục; có thể sinh vào cõi lành, cõi trời.",
+            "Người có khẩu thiện hạnh và người có ý thiện hạnh cũng được xét riêng theo hai phía ấy, với cùng điều kiện do chính việc lành ấy làm nhân, làm duyên và sau khi thân hoại, sau khi chết. Biết rõ các trường hợp vừa trình bày thì xứng danh khéo về điều có thể và không thể."
+          ],
+          "meaningUnits": [
+            "good-body-rebirth",
+            "good-voice-mind-rebirth",
+            "qualified"
+          ]
+        },
+        {
+          "id": "names",
+          "kind": "teaching",
+          "heading": "Năm tên để ghi nhớ",
+          "paragraphs": [
+            "Ānanda thưa lời dạy thật kỳ diệu, thật phi thường, rồi hỏi tên. Phật dặn ghi nhớ bằng năm tên: Nhiều Giới; Bốn Vòng Xoay; Gương Pháp, tấm gương của lời dạy; Trống Bất Tử, tiếng trống hướng đến sự giải thoát khỏi sinh tử; và Chiến Thắng Vô Thượng, chiến thắng cao nhất trong trận chiến.",
+            "Phật nói xong, Ānanda vui mừng và tán đồng. Kinh Nhiều Giới khép lại, là bài thứ năm trong nhóm kinh này."
+          ],
+          "meaningUnits": [
+            "names",
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Tập xem xét một điều nhỏ",
+          "paragraphs": [
+            "Em có thể bắt đầu từ một điều vừa thấy hoặc nghe. Gọi tên cơ quan nhận biết, điều được nhận biết và sự biết đang có. Khi kể lại, phân biệt điều em biết với điều chỉ có thể xảy ra. Đây là gợi ý thực hành hiện đại giúp tập nhìn kỹ; bốn phần của bài kinh vẫn cần được học đầy đủ."
+          ],
+          "meaningUnits": [
+            "training",
+            "eighteen",
+            "sense-pairs",
+            "possible-question"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Dành cho người trưởng thành: Biết điều kiện trước khi kết luận",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Hiền trí bắt đầu từ khả năng xem xét",
+          "paragraphs": [
+            "Kinh Nhiều Giới, Trung Bộ 115, được người truyền kinh kể lại như điều đã nghe. Đức Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những người nam xuất gia; các vị đáp lời.",
+            "Phật nói mọi nguy hiểm, tai họa và họa hoạn khởi từ kẻ ngu, người thiếu sáng suốt, không từ bậc hiền trí. Ngài dùng hình ảnh lửa thoát từ nhà lau hay nhà cỏ, đốt cả nhà mái nhọn trát trong ngoài, kín gió, cửa then đóng, cửa sổ che. Hậu quả có thể lan khỏi nơi nó bắt đầu.",
+            "Ngài nhắc lại nguồn gốc của đủ ba loại họa: kẻ ngu mang nguy hiểm, tai họa, họa hoạn; bậc hiền trí không mang chúng, không có loại nào khởi từ bậc hiền trí. Vì vậy các vị phải học tập để trở thành người hiền trí, biết thẩm sát, xem xét kỹ."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting",
+            "danger",
+            "fire",
+            "danger-repeat",
+            "training"
+          ]
+        },
+        {
+          "id": "competence",
+          "kind": "teaching",
+          "heading": "Bốn lĩnh vực cần biết rõ",
+          "paragraphs": [
+            "Tôn giả Ānanda, một đệ tử của Phật, hỏi khi nào một vị tỳ-kheo xứng đáng được gọi là hiền trí, biết thẩm sát. Phật đáp bằng bốn năng lực: khéo về giới, các thành phần; khéo về xứ, các phạm vi nhận biết; khéo về duyên khởi, sự sinh khởi tùy điều kiện; và khéo về điều có thể, không thể xảy ra."
+          ],
+          "meaningUnits": [
+            "four-skills"
+          ]
+        },
+        {
+          "id": "eighteen",
+          "kind": "teaching",
+          "heading": "Phân biệt cơ quan, đối tượng và sự biết",
+          "paragraphs": [
+            "Ānanda hỏi thế nào là khéo về giới. Phật nêu mười tám giới qua sáu bộ ba: mắt, hình sắc, thức mắt; tai, tiếng, thức tai; mũi, hương, thức mũi; lưỡi, vị, thức lưỡi; thân, xúc chạm, thức thân; ý, pháp và thức ý.",
+            "Thức ở đây là sự biết tương ứng: biết khi nhìn, nghe, ngửi, nếm, xúc chạm và nhận biết bằng ý. Pháp trong bộ cuối là các đối tượng của ý. Biết và thấy đủ mười tám giới thì vị tu cũng xứng danh khéo về giới."
+          ],
+          "meaningUnits": [
+            "eighteen"
+          ]
+        },
+        {
+          "id": "six-lists",
+          "kind": "teaching",
+          "heading": "Ba cách xét mỗi cách sáu giới",
+          "paragraphs": [
+            "Ānanda hỏi còn cách khác không; Phật đáp có: đất, nước, lửa, gió, hư không tức khoảng không, và thức tức sự biết. Biết và thấy sáu giới này cũng xứng danh khéo về giới.",
+            "Trong lượt hỏi cách khác tiếp theo, Phật đáp có và nêu lạc, sự dễ chịu; khổ, sự đau đớn; hỷ, niềm vui; ưu, nỗi buồn; xả, sự không nghiêng theo vui buồn; vô minh, không thấy hiểu đúng. Biết và thấy đủ sáu cũng xứng danh ấy.",
+            "Lại được hỏi, Ngài đáp có và nêu ba cặp: dục, ham muốn thú vui giác quan, và ly dục, rời ham muốn ấy; sân, ý giận ghét, và không sân; hại và không hại. Biết và thấy cả sáu là một cách khác để xứng danh khéo về giới."
+          ],
+          "meaningUnits": [
+            "six-material",
+            "six-feelings",
+            "six-intentions"
+          ]
+        },
+        {
+          "id": "three-two",
+          "kind": "teaching",
+          "heading": "Ba giới và hai giới",
+          "paragraphs": [
+            "Lượt hỏi cách khác kế tiếp được Phật trả lời bằng ba giới: dục, phạm vi liên hệ thú vui giác quan; sắc, phạm vi có hình sắc; vô sắc, phạm vi không có hình sắc. Biết và thấy ba giới ấy cũng xứng danh.",
+            "Ānanda hỏi thêm, Phật đáp có hai giới: hữu vi, do điều kiện tạo thành, và vô vi, không do điều kiện tạo thành. Biết và thấy hai giới này cũng được gọi là khéo về giới."
+          ],
+          "meaningUnits": [
+            "three-realms",
+            "two-elements"
+          ]
+        },
+        {
+          "id": "sense-fields",
+          "kind": "teaching",
+          "heading": "Khéo về sáu cặp nội ngoại xứ",
+          "paragraphs": [
+            "Đáp câu hỏi tiếp của Ānanda về xứ, Phật nêu sáu cặp bên trong và bên ngoài: mắt với hình sắc, tai với tiếng, mũi với hương, lưỡi với vị, thân với xúc chạm, ý với các pháp. Biết và thấy các cặp ấy thì xứng danh khéo về xứ."
+          ],
+          "meaningUnits": [
+            "sense-pairs"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: một thông báo trên màn hình",
+          "paragraphs": [
+            "Khi đọc một thông báo, ta có thể phân biệt mắt, hình chữ trên màn hình và sự biết đang diễn ra qua mắt. Những ý tưởng về nội dung lại thuộc điều ý nhận biết. Việc tách rõ các mặt giúp quan sát kỹ trước khi vội coi mọi suy nghĩ của mình là điều trực tiếp nhìn thấy. Đây là ví dụ hiện đại cho phần giới và xứ."
+          ],
+          "meaningUnits": [
+            "eighteen",
+            "sense-pairs"
+          ]
+        },
+        {
+          "id": "dependent",
+          "kind": "teaching",
+          "heading": "Biết điều kiện của sự sinh và diệt",
+          "paragraphs": [
+            "Ānanda hỏi thế nào là khéo về duyên khởi. Phật đáp: biết rõ khi cái này có thì cái kia có; do cái này sinh thì cái kia sinh. Khi cái này không có thì cái kia không có; do cái này diệt thì cái kia diệt.",
+            "Cụ thể, vô minh, không thấy hiểu đúng, làm duyên cho hành, những tác tạo của tâm. Hành duyên thức, sự biết; thức duyên danh-sắc, mặt tâm và mặt thân; danh-sắc duyên sáu xứ; sáu xứ duyên xúc, sự tiếp xúc; xúc duyên thọ, cảm giác dễ chịu, khó chịu hoặc trung tính.",
+            "Thọ duyên ái, khát muốn; ái duyên thủ, bám giữ; thủ duyên hữu, sự tiếp tục hiện hữu; hữu duyên sinh, tái sinh. Sinh duyên già, chết, sầu, bi, khổ, ưu, não — buồn sầu, than khóc, đau đớn, buồn khổ trong lòng và khốn khó. Đó là sự sinh khởi toàn bộ khối khổ."
+          ],
+          "meaningUnits": [
+            "dependent-principle",
+            "arising-first",
+            "arising-rest"
+          ]
+        },
+        {
+          "id": "cessation",
+          "kind": "teaching",
+          "heading": "Đường chấm dứt toàn khối khổ",
+          "paragraphs": [
+            "Do vô minh hoàn toàn phai nhạt và chấm dứt không còn dư, hành diệt. Do hành diệt, thức diệt; do thức diệt, danh-sắc diệt; do danh-sắc diệt, sáu xứ diệt; do sáu xứ diệt, xúc diệt; do xúc diệt, thọ diệt.",
+            "Do thọ diệt, ái diệt; do ái diệt, thủ diệt; do thủ diệt, hữu diệt; do hữu diệt, tái sinh diệt. Do tái sinh diệt, già, chết, sầu, bi, khổ, ưu, não diệt. Như vậy toàn khối khổ chấm dứt. Biết rõ mạch sinh và diệt này thì xứng danh khéo về duyên khởi."
+          ],
+          "meaningUnits": [
+            "ceasing-first",
+            "ceasing-rest"
+          ]
+        },
+        {
+          "id": "view",
+          "kind": "teaching",
+          "heading": "Ba sự chấp không thể có ở người thành tựu kiến",
+          "paragraphs": [
+            "Ānanda hỏi tiếp về điều có thể và không thể. Phật nói vị tu biết rõ rằng người thành tựu kiến, đã thành tựu sự thấy hiểu đúng, không thể chấp bất kỳ hành nào là thường còn, không thể chấp bất kỳ hành nào là lạc, không thể chấp bất kỳ pháp nào là tự ngã.",
+            "Hành trong những câu này chỉ các điều do duyên tạo thành; lạc là sự dễ chịu; tự ngã là một cái tôi. Phàm phu, người chưa thành tựu sự thấy hiểu ấy, có thể chấp một hành là thường, một hành là lạc, hoặc một pháp là tự ngã. Phải biết rõ cả hai phía trong từng cặp."
+          ],
+          "meaningUnits": [
+            "possible-question",
+            "permanent",
+            "pleasant",
+            "self"
+          ]
+        },
+        {
+          "id": "distinguish",
+          "kind": "clarification",
+          "heading": "Chấp một quan điểm và biết một cảm giác",
+          "paragraphs": [
+            "Mệnh đề về “chấp hành là lạc” thuộc phần quan điểm. Nó cần được phân biệt với việc nhận biết lạc, một cảm giác dễ chịu, đã được liệt kê trong phần các giới. Đọc đúng động từ “chấp” giúp giữ đúng phạm vi của lời dạy."
+          ],
+          "meaningUnits": [
+            "pleasant",
+            "six-feelings"
+          ]
+        },
+        {
+          "id": "conduct",
+          "kind": "teaching",
+          "heading": "Sáu trường hợp liên quan sự thành tựu kiến",
+          "paragraphs": [
+            "Người thành tựu kiến không thể giết mẹ, giết cha, giết một vị A-la-hán — người đã giải thoát khỏi những trói buộc gây khổ. Cũng không thể với tâm độc hại làm Như Lai, danh hiệu của Phật, chảy máu; gây chia rẽ Tăng, cộng đồng xuất gia; hoặc nhận một vị khác làm Đạo sư, bậc hướng dẫn đường tu.",
+            "Ở từng trường hợp ấy, phàm phu có thể làm. Vị tu biết rõ cả không thể lẫn có thể. “Có thể” chỉ khả năng, không khẳng định rằng mọi phàm phu đều làm sáu việc ấy."
+          ],
+          "meaningUnits": [
+            "mother",
+            "father-arahant",
+            "blood",
+            "schism",
+            "teacher"
+          ]
+        },
+        {
+          "id": "world",
+          "kind": "teaching",
+          "heading": "Giữ điều kiện về thế giới và thời điểm",
+          "paragraphs": [
+            "Hai vị A-la-hán Chánh Đẳng Giác, hai vị Phật giác ngộ trọn vẹn, không thể xuất hiện cùng một lúc trong một thế giới. Có một vị xuất hiện trong thế giới ấy thì có thể.",
+            "Cùng một thế giới cũng không thể có hai vua Chuyển Luân, những vị vua lý tưởng trị vì theo lẽ đúng, xuất hiện cùng lúc; có một vị thì có thể. Cả phạm vi một thế giới và điều kiện cùng thời đều thuộc mệnh đề."
+          ],
+          "meaningUnits": [
+            "one-buddha",
+            "one-monarch"
+          ]
+        },
+        {
+          "id": "roles",
+          "kind": "teaching",
+          "heading": "Năm địa vị được nêu trong kinh",
+          "paragraphs": [
+            "Kinh tiếp tục với năm địa vị: A-la-hán Chánh Đẳng Giác, vua Chuyển Luân, Sakka — vị chủ cõi trời, Māra — Ma vương, và Phạm thiên — một vị trời. Đối với từng địa vị, lời kinh nói người nữ không thể giữ, người nam có thể giữ.",
+            "Trong câu đầu, A-la-hán Chánh Đẳng Giác là danh hiệu đầy đủ của vị Phật. Phạm vi các mệnh đề là năm địa vị vừa kể; khả năng của người nam không đồng nghĩa mọi người nam đều thành tựu chúng."
+          ],
+          "meaningUnits": [
+            "woman-buddha",
+            "woman-monarch",
+            "woman-gods"
+          ]
+        },
+        {
+          "id": "fruits",
+          "kind": "teaching",
+          "heading": "Quả của ác hạnh và thiện hạnh",
+          "paragraphs": [
+            "Vị tu biết rõ thân ác hạnh, khẩu ác hạnh và ý ác hạnh — điều không lành qua thân, lời nói, ý — mỗi loại không thể sinh quả đáng ý, đáng yêu, dễ chịu; có thể sinh quả không đáng ý, không đáng yêu, không dễ chịu.",
+            "Với thân thiện hạnh, khẩu thiện hạnh và ý thiện hạnh, những điều lành qua thân, lời nói và ý, mỗi loại không thể sinh quả không đáng ý, không đáng yêu, không dễ chịu; có thể sinh quả đáng ý, đáng yêu, dễ chịu. Hai phía cần được biết rõ cho từng loại hành vi."
+          ],
+          "meaningUnits": [
+            "bad-body-fruit",
+            "bad-voice-mind-fruit",
+            "good-body-fruit",
+            "good-voice-mind-fruit"
+          ]
+        },
+        {
+          "id": "bad-destination",
+          "kind": "teaching",
+          "heading": "Tái sinh do chính ác hạnh ấy làm nhân duyên",
+          "paragraphs": [
+            "Người có thân ác hạnh, do chính điều ấy làm nhân và làm duyên, sau khi thân hoại, sau khi chết, không thể tái sinh vào cõi lành, cõi trời; có thể tái sinh vào cõi ác, cảnh giới xấu, nơi sa đọa, địa ngục.",
+            "Cùng cặp không thể/có thể ấy được áp dụng riêng cho người có khẩu ác hạnh và người có ý ác hạnh. Cả hai vẫn có đủ điều kiện: do chính ác hạnh ấy làm nhân, làm duyên; sau khi thân hoại, sau khi chết. Cõi lành, trời không phải quả từ nhân ấy; các cảnh khổ đã nêu có thể là quả ấy."
+          ],
+          "meaningUnits": [
+            "bad-body-rebirth",
+            "bad-voice-mind-rebirth"
+          ]
+        },
+        {
+          "id": "good-destination",
+          "kind": "teaching",
+          "heading": "Tái sinh do chính thiện hạnh ấy làm nhân duyên",
+          "paragraphs": [
+            "Người có thân thiện hạnh, do chính điều ấy làm nhân và làm duyên, sau khi thân hoại, sau khi chết, không thể tái sinh vào cõi ác, cảnh giới xấu, nơi sa đọa, địa ngục; có thể sinh vào cõi lành, cõi trời.",
+            "Cùng hai phía được xét riêng cho người có khẩu thiện hạnh và người có ý thiện hạnh, giữ nguyên điều kiện do chính thiện hạnh ấy làm nhân và duyên, sau khi thân hoại, sau khi chết. Biết rõ tất cả các trường hợp này thì xứng danh khéo về điều có thể và không thể."
+          ],
+          "meaningUnits": [
+            "good-body-rebirth",
+            "good-voice-mind-rebirth",
+            "qualified"
+          ]
+        },
+        {
+          "id": "titles",
+          "kind": "teaching",
+          "heading": "Một lời dạy mang năm tên",
+          "paragraphs": [
+            "Ānanda tán thán thật kỳ diệu, thật phi thường, rồi hỏi tên pháp môn. Phật dặn nhớ năm tên: Nhiều Giới; Bốn Vòng Xoay; Gương Pháp, tấm gương của lời dạy; Trống Bất Tử, tiếng trống hướng đến sự giải thoát khỏi sinh tử; Chiến Thắng Vô Thượng, chiến thắng cao nhất trong trận chiến.",
+            "Phật nói xong, Ānanda hoan hỷ và tán đồng. Kinh Nhiều Giới kết thúc, là bài thứ năm trong nhóm kinh này."
+          ],
+          "meaningUnits": [
+            "names",
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Xét một kết luận trước khi tin chắc",
+          "paragraphs": [
+            "Có thể chọn một nhận định trong ngày và tự hỏi: phần nào trực tiếp được thấy, nghe hay biết bằng ý? Những điều kiện nào đang có? Mình đang nói một việc có thể hay một việc chắc chắn? Đây là gợi ý thực hành hiện đại để rèn sự xem xét. Việc học bốn lĩnh vực trong kinh còn hướng đến biết rõ sự sinh và chấm dứt khổ."
+          ],
+          "meaningUnits": [
+            "training",
+            "sense-pairs",
+            "dependent-principle",
+            "possible-question"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Dành cho người lớn tuổi: Xem xét kỹ từng điều",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "meeting",
+          "kind": "teaching",
+          "heading": "Lời dạy về sự xem xét",
+          "paragraphs": [
+            "Kinh Nhiều Giới là bài 115 của Trung Bộ. Người truyền kinh kể điều đã nghe: Đức Phật ở Sāvatthī, tại rừng Jeta, tu viện Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những người nam xuất gia tu học. Các vị đáp lời, rồi Ngài giảng."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting"
+          ]
+        },
+        {
+          "id": "fire",
+          "kind": "teaching",
+          "heading": "Họa có thể lan từ nơi nó bắt đầu",
+          "paragraphs": [
+            "Phật nói mọi nguy hiểm, tai họa, họa hoạn khởi từ kẻ ngu, người thiếu sáng suốt, không từ người hiền trí. Ngài ví như lửa thoát ra từ nhà lau hoặc nhà cỏ, đốt cả những nhà mái nhọn đã trát trong ngoài, kín gió, cửa then đóng và cửa sổ che.",
+            "Ngài nhắc lại đủ ba loại họa và nguồn khởi của chúng. Kẻ ngu mang nguy hiểm, tai họa, họa hoạn; bậc hiền trí không mang chúng. Không có nguy hiểm, tai họa hay họa hoạn nào khởi từ bậc hiền trí."
+          ],
+          "meaningUnits": [
+            "danger",
+            "fire",
+            "danger-repeat"
+          ]
+        },
+        {
+          "id": "learning",
+          "kind": "teaching",
+          "heading": "Học làm người hiền trí",
+          "paragraphs": [
+            "Vì vậy, Phật dặn các vị học tập: sẽ là người hiền trí, biết thẩm sát, tức suy xét kỹ. Tôn giả Ānanda, một đệ tử của Ngài, hỏi khi nào một vị tỳ-kheo xứng đáng được gọi như thế.",
+            "Phật đáp: khi khéo về giới, các thành phần; về xứ, các phạm vi nhận biết; về duyên khởi, sự sinh khởi do điều kiện; và về điều có thể, không thể xảy ra. Đây là bốn phần Ānanda tiếp tục hỏi rõ."
+          ],
+          "meaningUnits": [
+            "training",
+            "four-skills"
+          ]
+        },
+        {
+          "id": "eighteen",
+          "kind": "teaching",
+          "heading": "Mười tám giới qua sáu bộ ba",
+          "paragraphs": [
+            "Đáp câu hỏi về giới, Phật kể: mắt, hình sắc, thức mắt; tai, tiếng, thức tai; mũi, hương, thức mũi; lưỡi, vị, thức lưỡi; thân, xúc chạm, thức thân; ý, pháp và thức ý.",
+            "Thức là sự biết tương ứng khi thấy, nghe, ngửi, nếm, xúc chạm và nhận biết bằng ý. Pháp ở bộ cuối là điều được ý nhận biết. Có sáu bộ ba, thành mười tám giới. Biết và thấy chúng thì cũng xứng danh khéo về giới."
+          ],
+          "meaningUnits": [
+            "eighteen"
+          ]
+        },
+        {
+          "id": "earth",
+          "kind": "teaching",
+          "heading": "Một cách khác: sáu giới từ đất đến thức",
+          "paragraphs": [
+            "Ānanda hỏi có cách khác không. Phật đáp có: đất, nước, lửa, gió, hư không tức khoảng không, và thức tức sự biết. Khi biết và thấy sáu giới này, vị tu cũng được gọi là khéo về giới."
+          ],
+          "meaningUnits": [
+            "six-material"
+          ]
+        },
+        {
+          "id": "feeling",
+          "kind": "teaching",
+          "heading": "Từ cảm giác đến vô minh",
+          "paragraphs": [
+            "Ānanda lại hỏi có cách khác; Phật đáp có. Ngài nêu lạc, sự dễ chịu; khổ, sự đau đớn; hỷ, niềm vui; ưu, nỗi buồn; xả, sự không nghiêng theo vui buồn; và vô minh, không thấy hiểu đúng. Biết và thấy sáu giới ấy cũng xứng danh khéo về giới."
+          ],
+          "meaningUnits": [
+            "six-feelings"
+          ]
+        },
+        {
+          "id": "intentions",
+          "kind": "teaching",
+          "heading": "Nhận rõ ba cặp trong tâm",
+          "paragraphs": [
+            "Trong lượt hỏi cách khác tiếp theo, Phật đáp có và nêu dục, ham muốn thú vui giác quan, với ly dục, rời ham muốn ấy; sân, ý giận ghét, với không sân; hại với không hại. Biết và thấy đủ sáu giới cũng xứng danh ấy."
+          ],
+          "meaningUnits": [
+            "six-intentions"
+          ]
+        },
+        {
+          "id": "realms",
+          "kind": "teaching",
+          "heading": "Ba giới dục, sắc và vô sắc",
+          "paragraphs": [
+            "Ānanda hỏi thêm; Phật đáp có cách xét ba giới: dục, phạm vi gắn với thú vui giác quan; sắc, phạm vi có hình sắc; và vô sắc, phạm vi không có hình sắc. Biết và thấy ba giới này cũng xứng danh khéo về giới."
+          ],
+          "meaningUnits": [
+            "three-realms"
+          ]
+        },
+        {
+          "id": "conditioned",
+          "kind": "teaching",
+          "heading": "Do điều kiện tạo thành và không do điều kiện tạo thành",
+          "paragraphs": [
+            "Ānanda lại hỏi còn cách khác không. Phật đáp có hai giới: hữu vi, những gì do điều kiện tạo thành; và vô vi, không do điều kiện tạo thành. Biết và thấy cả hai thì cũng xứng danh khéo về giới."
+          ],
+          "meaningUnits": [
+            "two-elements"
+          ]
+        },
+        {
+          "id": "fields",
+          "kind": "teaching",
+          "heading": "Sáu cặp nội ngoại xứ",
+          "paragraphs": [
+            "Ānanda chuyển sang hỏi về xứ. Phật kể sáu cặp bên trong và bên ngoài: mắt và hình sắc; tai và tiếng; mũi và hương; lưỡi và vị; thân và xúc chạm; ý và các pháp. Biết và thấy sáu cặp này thì xứng danh khéo về xứ."
+          ],
+          "meaningUnits": [
+            "sense-pairs"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: nghe một giọng nói",
+          "paragraphs": [
+            "Khi trò chuyện qua điện thoại, ta có thể nhận ra tai, âm thanh nghe được và sự biết đang có khi nghe. Điều mình nghĩ về ý định của người nói lại thuộc phần ý nhận biết. Phân biệt các mặt này giúp lắng nghe kỹ và hỏi lại khi chưa rõ. Đây là ví dụ hiện đại để soi một bộ ba và một cặp nội ngoại xứ."
+          ],
+          "meaningUnits": [
+            "eighteen",
+            "sense-pairs"
+          ]
+        },
+        {
+          "id": "conditions",
+          "kind": "teaching",
+          "heading": "Bốn vế của duyên khởi",
+          "paragraphs": [
+            "Ānanda hỏi về duyên khởi. Phật dạy vị tu biết rõ: khi cái này có, cái kia có; do cái này sinh, cái kia sinh. Khi cái này không có, cái kia không có; do cái này diệt, cái kia diệt. Ngài giải thích bằng mạch khổ sinh khởi và mạch khổ chấm dứt."
+          ],
+          "meaningUnits": [
+            "dependent-principle"
+          ]
+        },
+        {
+          "id": "arising",
+          "kind": "teaching",
+          "heading": "Từ vô minh đến cảm giác",
+          "paragraphs": [
+            "Vô minh, không thấy hiểu đúng, làm duyên cho hành, những tác tạo của tâm. Hành làm duyên cho thức, sự biết. Thức làm duyên cho danh-sắc, mặt tâm và mặt thân. Danh-sắc làm duyên cho sáu xứ; sáu xứ làm duyên cho xúc, sự tiếp xúc; xúc làm duyên cho thọ, cảm giác dễ chịu, khó chịu hoặc trung tính."
+          ],
+          "meaningUnits": [
+            "arising-first"
+          ]
+        },
+        {
+          "id": "suffering",
+          "kind": "teaching",
+          "heading": "Từ khát muốn đến khối khổ",
+          "paragraphs": [
+            "Thọ làm duyên cho ái, sự khát muốn; ái làm duyên cho thủ, bám giữ; thủ làm duyên cho hữu, sự tiếp tục hiện hữu; hữu làm duyên cho sinh, sự tái sinh.",
+            "Sinh làm duyên cho già, chết, sầu, bi, khổ, ưu, não — buồn sầu, than khóc, đau đớn, buồn khổ trong lòng và khốn khó. Như vậy toàn bộ khối khổ sinh khởi."
+          ],
+          "meaningUnits": [
+            "arising-rest"
+          ]
+        },
+        {
+          "id": "ceasing",
+          "kind": "teaching",
+          "heading": "Vô minh dứt thì những điều lệ thuộc nó dứt",
+          "paragraphs": [
+            "Khi vô minh hoàn toàn phai nhạt và chấm dứt không còn dư, hành diệt. Hành diệt thì thức diệt; thức diệt thì danh-sắc diệt; danh-sắc diệt thì sáu xứ diệt; sáu xứ diệt thì xúc diệt; xúc diệt thì thọ diệt."
+          ],
+          "meaningUnits": [
+            "ceasing-first"
+          ]
+        },
+        {
+          "id": "ending-suffering",
+          "kind": "teaching",
+          "heading": "Toàn bộ khối khổ chấm dứt",
+          "paragraphs": [
+            "Thọ diệt thì ái diệt; ái diệt thì thủ diệt; thủ diệt thì hữu diệt; hữu diệt thì tái sinh diệt. Tái sinh diệt thì già, chết, sầu, bi, khổ, ưu, não diệt. Như vậy toàn bộ khối khổ chấm dứt.",
+            "Biết rõ các điều kiện theo cả chiều sinh và chiều diệt ấy thì xứng danh khéo về duyên khởi."
+          ],
+          "meaningUnits": [
+            "ceasing-rest"
+          ]
+        },
+        {
+          "id": "view",
+          "kind": "teaching",
+          "heading": "Người thành tựu kiến và ba sự chấp",
+          "paragraphs": [
+            "Đáp câu hỏi về điều có thể và không thể, Phật nêu người thành tựu kiến, đã thành tựu sự thấy hiểu đúng. Vị ấy không thể chấp bất kỳ hành nào, điều do duyên tạo thành, là thường còn; không thể chấp bất kỳ hành nào là lạc, sự dễ chịu; không thể chấp bất kỳ pháp nào là tự ngã, một cái tôi.",
+            "Phàm phu, người chưa thành tựu sự thấy hiểu ấy, có thể chấp một hành là thường, một hành là lạc, hoặc một pháp là tự ngã. Vị tu cần biết rõ cả hai phía trong từng trường hợp."
+          ],
+          "meaningUnits": [
+            "possible-question",
+            "permanent",
+            "pleasant",
+            "self"
+          ]
+        },
+        {
+          "id": "feeling-view",
+          "kind": "clarification",
+          "heading": "Nhìn đúng phạm vi chữ “chấp”",
+          "paragraphs": [
+            "Câu về “chấp hành là lạc” đang nói một quan điểm. Việc ấy cần được phân biệt với biết một cảm giác dễ chịu, như phần các giới đã nêu. Phân biệt hai việc giúp theo lời dạy mà không nhập cảm giác với sự chấp giữ một quan điểm."
+          ],
+          "meaningUnits": [
+            "pleasant",
+            "six-feelings"
+          ]
+        },
+        {
+          "id": "deeds",
+          "kind": "teaching",
+          "heading": "Sáu điều không thể ở người thành tựu kiến",
+          "paragraphs": [
+            "Người thành tựu kiến không thể giết mẹ, giết cha, giết một vị A-la-hán — người đã giải thoát khỏi những trói buộc gây khổ. Vị ấy cũng không thể với tâm độc hại làm Như Lai, danh hiệu của Phật, chảy máu; chia rẽ Tăng, cộng đồng xuất gia; hoặc nhận một vị khác làm Đạo sư, bậc dẫn đường tu học.",
+            "Đối với từng việc ấy, phàm phu có thể làm. Vị tu biết rõ hai phía. “Có thể” nêu một khả năng, không khẳng định mọi phàm phu đều làm những việc ấy."
+          ],
+          "meaningUnits": [
+            "mother",
+            "father-arahant",
+            "blood",
+            "schism",
+            "teacher"
+          ]
+        },
+        {
+          "id": "same-world",
+          "kind": "teaching",
+          "heading": "Cùng một thế giới, cùng một lúc",
+          "paragraphs": [
+            "Không thể có hai vị A-la-hán Chánh Đẳng Giác, hai vị Phật giác ngộ trọn vẹn, xuất hiện cùng lúc trong một thế giới; một vị xuất hiện thì có thể.",
+            "Cũng không thể có hai vua Chuyển Luân, những vị vua lý tưởng trị vì theo lẽ đúng, xuất hiện cùng lúc trong một thế giới; một vị xuất hiện thì có thể. Lời dạy giữ cả giới hạn thế giới và giới hạn thời điểm."
+          ],
+          "meaningUnits": [
+            "one-buddha",
+            "one-monarch"
+          ]
+        },
+        {
+          "id": "roles",
+          "kind": "teaching",
+          "heading": "Năm địa vị trong đoạn kinh",
+          "paragraphs": [
+            "Năm địa vị tiếp theo là A-la-hán Chánh Đẳng Giác; vua Chuyển Luân; Sakka, vị chủ cõi trời; Māra, Ma vương; và Phạm thiên, một vị trời. Theo đoạn kinh này, đối với từng địa vị, người nữ không thể giữ còn người nam có thể.",
+            "Danh hiệu A-la-hán Chánh Đẳng Giác ở đây được dùng đầy đủ để chỉ vị Phật. Các mệnh đề nói về đúng năm địa vị vừa kể. Khả năng được nêu cho người nam không có nghĩa mọi người nam đều đạt chúng."
+          ],
+          "meaningUnits": [
+            "woman-buddha",
+            "woman-monarch",
+            "woman-gods"
+          ]
+        },
+        {
+          "id": "fruit",
+          "kind": "teaching",
+          "heading": "Quả của việc làm, lời nói và ý nghĩ",
+          "paragraphs": [
+            "Thân ác hạnh, việc không lành qua thân; khẩu ác hạnh, lời nói không lành; ý ác hạnh, điều không lành trong ý: mỗi loại không thể sinh quả đáng ý, đáng yêu, dễ chịu; có thể sinh quả không đáng ý, không đáng yêu, không dễ chịu.",
+            "Thân thiện hạnh, khẩu thiện hạnh và ý thiện hạnh, những điều lành của thân, lời nói và ý, có chiều xét ngược lại. Mỗi loại không thể sinh quả không đáng ý, không đáng yêu, không dễ chịu; có thể sinh quả đáng ý, đáng yêu, dễ chịu. Cả hai phía đều cần được biết rõ."
+          ],
+          "meaningUnits": [
+            "bad-body-fruit",
+            "bad-voice-mind-fruit",
+            "good-body-fruit",
+            "good-voice-mind-fruit"
+          ]
+        },
+        {
+          "id": "bad-after",
+          "kind": "teaching",
+          "heading": "Ác hạnh làm nhân duyên cho tái sinh",
+          "paragraphs": [
+            "Người có thân ác hạnh, do chính điều ấy làm nhân và làm duyên, sau khi thân hoại, sau khi chết, không thể sinh vào cõi lành, cõi trời; có thể sinh vào cõi ác, cảnh giới xấu, nơi sa đọa, địa ngục.",
+            "Cùng hai phía được xét riêng cho người có khẩu ác hạnh và người có ý ác hạnh. Vẫn do chính ác hạnh ấy làm nhân, làm duyên, sau khi thân hoại, sau khi chết: cõi lành, cõi trời là điều không thể; những cảnh khổ đã kể là điều có thể."
+          ],
+          "meaningUnits": [
+            "bad-body-rebirth",
+            "bad-voice-mind-rebirth"
+          ]
+        },
+        {
+          "id": "good-after",
+          "kind": "teaching",
+          "heading": "Thiện hạnh làm nhân duyên cho tái sinh",
+          "paragraphs": [
+            "Người có thân thiện hạnh, do chính điều ấy làm nhân và làm duyên, sau khi thân hoại, sau khi chết, không thể sinh vào cõi ác, cảnh giới xấu, nơi sa đọa, địa ngục; có thể sinh vào cõi lành, cõi trời.",
+            "Điều ấy được xét riêng cho người có khẩu thiện hạnh và người có ý thiện hạnh, đủ cùng điều kiện về nhân, duyên và sau khi thân hoại, sau khi chết. Biết rõ các trường hợp vừa giảng thì xứng danh khéo về điều có thể và không thể."
+          ],
+          "meaningUnits": [
+            "good-body-rebirth",
+            "good-voice-mind-rebirth",
+            "qualified"
+          ]
+        },
+        {
+          "id": "names",
+          "kind": "teaching",
+          "heading": "Ghi nhớ lời dạy bằng năm tên",
+          "paragraphs": [
+            "Ānanda thưa lời dạy thật kỳ diệu, thật phi thường, rồi hỏi pháp môn này tên gì. Phật dặn nhớ bằng năm tên: Nhiều Giới; Bốn Vòng Xoay; Gương Pháp, tấm gương của lời dạy; Trống Bất Tử, tiếng trống hướng đến sự giải thoát khỏi sinh tử; và Chiến Thắng Vô Thượng, chiến thắng cao nhất trong trận chiến.",
+            "Phật nói xong, Ānanda hoan hỷ và tán đồng. Kinh Nhiều Giới khép lại, là bài thứ năm trong nhóm kinh này."
+          ],
+          "meaningUnits": [
+            "names",
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Dành một lúc để xem xét kỹ",
+          "paragraphs": [
+            "Có thể chọn một điều đã thấy hoặc nghe trong ngày. Nhận rõ điều được tiếp nhận và những ý nghĩ mình thêm vào; xem những điều kiện nào đã góp phần làm phản ứng sinh lên. Cách nhìn lại này là gợi ý thực hành hiện đại. Nó hướng về việc học biết rõ, trong khi mạch đầy đủ của kinh còn trình bày sự sinh và chấm dứt toàn khối khổ."
+          ],
+          "meaningUnits": [
+            "training",
+            "sense-pairs",
+            "dependent-principle"
+          ]
+        }
+      ]
+    }
+  }
+}

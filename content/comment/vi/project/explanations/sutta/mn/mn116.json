@@ -1,0 +1,945 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn116",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn116_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "fab3151e74141a7bcace56375a9b8e6977a81a4209801e234e8aa9bad4e7a8a6"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn116_translation-vi-project.json",
+      "commit": "706653e17256f5911f1545684ef9abd16345f00a",
+      "sha256": "43f4c409db08a632624a0baf4525717a549434dad0f717455ef431a0c726a8f0"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn116_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "d4dfd94b27ab9e3a06010934d835631ac51fff6a92116b7a536329608969063d"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn116.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "9c7d85fb293f35a8b2fec395e553b7dd5cf0d75f65f6b6fca062b9ffb132bd76"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn116_comment-vi-project.json",
+      "commit": "706653e17256f5911f1545684ef9abd16345f00a",
+      "sha256": "24aafc37277553d544b779697f5b96d64b68d71b720be8f4f5b251e998f4e31b"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Trung Bộ 116, Kinh Isigili",
+      "segments": [
+        "mn116:0.1",
+        "mn116:0.2"
+      ],
+      "summary": "Tên tập, số 116 và tên Kinh Isigili."
+    },
+    {
+      "id": "setting",
+      "title": "Lời đã nghe trên núi Isigili",
+      "segments": [
+        "mn116:1.1",
+        "mn116:1.2",
+        "mn116:1.3",
+        "mn116:1.4",
+        "mn116:1.5",
+        "mn116:1.6"
+      ],
+      "summary": "Người kể đã nghe: một thời Phật ở Rājagaha trên núi Isigili, gọi các tỳ-kheo, họ kính đáp, Ngài bắt đầu nói."
+    },
+    {
+      "id": "vebhara",
+      "title": "Vebhāra từng có tên khác",
+      "segments": [
+        "mn116:2.1",
+        "mn116:2.2",
+        "mn116:2.3"
+      ],
+      "summary": "Phật hỏi có thấy núi Vebhāra ấy không, các tỳ-kheo đáp có, Ngài nói núi từng có danh xưng và cách gọi khác."
+    },
+    {
+      "id": "pandava",
+      "title": "Paṇḍava từng có tên khác",
+      "segments": [
+        "mn116:2.4",
+        "mn116:2.5",
+        "mn116:2.6"
+      ],
+      "summary": "Phật hỏi có thấy núi Paṇḍava ấy không, các tỳ-kheo đáp có, Ngài nói núi từng có danh xưng và cách gọi khác."
+    },
+    {
+      "id": "vepulla",
+      "title": "Vepulla từng có tên khác",
+      "segments": [
+        "mn116:2.7",
+        "mn116:2.8",
+        "mn116:2.9"
+      ],
+      "summary": "Phật hỏi có thấy núi Vepulla ấy không, các tỳ-kheo đáp có, Ngài nói núi từng có danh xưng và cách gọi khác."
+    },
+    {
+      "id": "vulture",
+      "title": "Gijjhakūṭa từng có tên khác",
+      "segments": [
+        "mn116:2.10",
+        "mn116:2.11",
+        "mn116:2.12"
+      ],
+      "summary": "Phật hỏi có thấy núi Gijjhakūṭa ấy không, các tỳ-kheo đáp có, Ngài nói núi từng có danh xưng và cách gọi khác."
+    },
+    {
+      "id": "isigili",
+      "title": "Isigili vẫn mang tên ấy",
+      "segments": [
+        "mn116:2.13",
+        "mn116:2.14",
+        "mn116:3.1"
+      ],
+      "summary": "Phật hỏi có thấy núi Isigili này không, các tỳ-kheo đáp có; Ngài nói trước kia núi đã có chính danh xưng/cách gọi này. Giữ khác biệt với bốn núi, không theo HTML gọi khác."
+    },
+    {
+      "id": "swallow",
+      "title": "Năm trăm vị và nguồn gốc danh xưng",
+      "segments": [
+        "mn116:3.2",
+        "mn116:3.3",
+        "mn116:3.4",
+        "mn116:3.5",
+        "mn116:3.6"
+      ],
+      "summary": "Thuở trước năm trăm Độc Giác Phật sống lâu trên núi. Người ta thấy các vị vào, nhưng vào rồi thì không thấy. Người thấy nói núi nuốt các ẩn sĩ; danh xưng Isigili phát sinh. Không biến lời dân thành cơ chế núi ăn người."
+    },
+    {
+      "id": "invitation",
+      "title": "Kể, tán thán, giảng các danh hiệu",
+      "segments": [
+        "mn116:3.7",
+        "mn116:3.8",
+        "mn116:3.9",
+        "mn116:3.10",
+        "mn116:3.11",
+        "mn116:3.12"
+      ],
+      "summary": "Phật báo sẽ kể, tán thán, giảng tên các Độc Giác Phật; bảo nghe và chú tâm kỹ, Ngài sẽ nói. Tỳ-kheo vâng, Ngài nói."
+    },
+    {
+      "id": "residents",
+      "title": "Mười ba vị từng trú lâu trên núi",
+      "segments": [
+        "mn116:4.1",
+        "mn116:4.2",
+        "mn116:4.3",
+        "mn116:4.4",
+        "mn116:4.5",
+        "mn116:4.6",
+        "mn116:4.7",
+        "mn116:4.8",
+        "mn116:4.9",
+        "mn116:4.10",
+        "mn116:4.11",
+        "mn116:4.12",
+        "mn116:4.13"
+      ],
+      "summary": "Mỗi vị trong danh sách đều là Độc Giác Phật trú lâu trên chính Isigili: Ariṭṭha, Upariṭṭha, Tagarasikhī, Yasassī, Sudassana, Piyadassī, Gandhāra, Piṇḍola, Upāsabha, Nīta, Tatha, Sutavā, Bhāvitatta."
+    },
+    {
+      "id": "praise",
+      "title": "Những bậc tự mình giác ngộ, nhổ mũi tên",
+      "segments": [
+        "mn116:5.1",
+        "mn116:5.2",
+        "mn116:5.3",
+        "mn116:5.4"
+      ],
+      "summary": "Kệ gọi các bậc tinh hoa chúng sinh, không phiền não/không mong cầu, tự mình độc lập giác ngộ, nhổ mũi tên, tối thượng loài người; mời nghe Phật tán thán tên. Không thêm danh hiệu Chánh Đẳng Giác từ HTML."
+    },
+    {
+      "id": "repeat",
+      "title": "Kệ xướng lại mười ba danh hiệu",
+      "segments": [
+        "mn116:5.5",
+        "mn116:5.6",
+        "mn116:5.7",
+        "mn116:5.8"
+      ],
+      "summary": "Xướng lại Ariṭṭha, Upariṭṭha, Tagarasikhī, Yasassī, Sudassana, Piyadassī khéo giác ngộ, Gandhāra, Piṇḍola, Upāsabha, Nīta, Tatha, Sutavā, Bhāvitatta. Không coi là mười ba người mới."
+    },
+    {
+      "id": "rootless",
+      "title": "Những bậc dứt dây dẫn đến hữu",
+      "segments": [
+        "mn116:6.1",
+        "mn116:6.2",
+        "mn116:6.3",
+        "mn116:6.4"
+      ],
+      "summary": "Sumbha, Subha, Matula, Aṭṭhama; Assumegha, Anīgha, Sudāṭha; Độc Giác Phật dứt dây dẫn đến hữu; Hiṅgū và Hiṅga có đại oai lực. Matula theo root matulo, Aṭṭhama tên riêng."
+    },
+    {
+      "id": "sages",
+      "title": "Hai vị Jāli và các lời khen chân thật",
+      "segments": [
+        "mn116:6.5",
+        "mn116:6.6",
+        "mn116:6.7",
+        "mn116:6.8"
+      ],
+      "summary": "Hai ẩn sĩ Jāli, Aṭṭhaka, Kosalla giác ngộ, Subāhu; Upanemi, Nemi, Santacitta; kệ nêu chân thật, như thật, vô nhiễm, hiền trí. Ranh giới tên/phẩm chất theo Việt thực/Sujato, ghi khác comment trong checkpoint."
+    },
+    {
+      "id": "upadhi",
+      "title": "Từ bỏ gốc khổ, thắng sức Māra",
+      "segments": [
+        "mn116:6.9",
+        "mn116:6.10",
+        "mn116:6.11",
+        "mn116:6.12"
+      ],
+      "summary": "Kāḷa, Upakāḷa, Vijita, Jita, Aṅga, Paṅga, Guttijita; Passī bỏ sanh y/gốc khổ, Aparājita thắng sức Māra. Không tự đặt tiểu sử hoặc chiến trận cụ thể."
+    },
+    {
+      "id": "conceit",
+      "title": "Cắt mạn, không ô nhiễm",
+      "segments": [
+        "mn116:6.13",
+        "mn116:6.14",
+        "mn116:6.15",
+        "mn116:6.16"
+      ],
+      "summary": "Satthā, Pavattā, Sarabhaṅga, Lomahaṁsa, Uccaṅgamāya, Asita, Anāsava, Manomaya; Bandhumā cắt mạn; Adhimutta; Ketumā được gọi là vô nhiễm. Giữ chủ thể Bandhumā/Ketumā theo Việt thực/Sujato, khác HTML."
+    },
+    {
+      "id": "more-names",
+      "title": "Các danh hiệu tiếp nối",
+      "segments": [
+        "mn116:6.17",
+        "mn116:6.18",
+        "mn116:6.19",
+        "mn116:6.20"
+      ],
+      "summary": "Ketumbharāga, Mātaṅga, Ariya; Accuta, Accutagāma, Byāmaka; Sumaṅgala, Dabbila, Supatiṭṭhita; Asayha, Khemābhirata, Sorata."
+    },
+    {
+      "id": "effort",
+      "title": "Nỗ lực, mười hai vị và thân cuối cùng",
+      "segments": [
+        "mn116:6.21",
+        "mn116:6.22",
+        "mn116:6.23",
+        "mn116:6.24"
+      ],
+      "summary": "Durannaya, Saṅgha, Ujjaya; ẩn sĩ khác Sayha có nỗ lực vô song; nhóm Ānanda, Nanda, Upananda là mười hai vị, không mỗi tên mười hai; Bhāradvāja mang thân cuối cùng."
+    },
+    {
+      "id": "bonds",
+      "title": "Cắt trói buộc hữu và ái",
+      "segments": [
+        "mn116:6.25",
+        "mn116:6.26",
+        "mn116:6.27",
+        "mn116:6.28"
+      ],
+      "summary": "Bodhi, Mahānāma, Uttara; Kesī, Sikhī, Sundara, Dvārabhāja; Tissa, Upatissa cắt dây hữu; Upasikhi, Sikhari cắt ái. Tên Dvārabhāja/Upasikhi/Sikhari theo root/Việt khác Anh/HTML."
+    },
+    {
+      "id": "peace",
+      "title": "Ly tham, cắt lưới khổ, đạt an tịnh",
+      "segments": [
+        "mn116:6.29",
+        "mn116:6.30",
+        "mn116:6.31",
+        "mn116:6.32"
+      ],
+      "summary": "Maṅgala giác ngộ/ly tham; Usabha cắt lưới/gốc khổ; Upanīta đạt trạng thái an tịnh; Uposatha, Sundara, Saccanāma. Không nhập tên Sundara lặp thành một người được xác minh."
+    },
+    {
+      "id": "free",
+      "title": "Danh hiệu và tâm khéo giải thoát",
+      "segments": [
+        "mn116:6.33",
+        "mn116:6.34",
+        "mn116:6.35",
+        "mn116:6.36"
+      ],
+      "summary": "Jeta, Jayanta, Paduma, Uppala; Padumuttara, Rakkhita, Pabbata; Mānatthaddha, Sobhita và lời khen ly tham; Kaṇha giác ngộ/tâm khéo giải thoát. Sobhita đọc tên theo Việt thực, không thêm Vītarāga tên riêng từ HTML; giới hạn ghi checkpoint."
+    },
+    {
+      "id": "honor",
+      "title": "Đảnh lễ các bậc vượt mọi trói buộc",
+      "segments": [
+        "mn116:7.1",
+        "mn116:7.2",
+        "mn116:7.3",
+        "mn116:7.4"
+      ],
+      "summary": "Các vị này và những vị khác có đại oai lực, là Độc Giác Phật dứt dây hữu; vượt mọi trói buộc, đã hoàn toàn tịch diệt, vô lượng; Phật mời đảnh lễ. Không khẳng định đã đọc đủ tên năm trăm vị hoặc sửa mọi trói buộc thành mọi trận chiến."
+    },
+    {
+      "id": "ending",
+      "title": "Bài thứ sáu trong nhóm",
+      "segments": [
+        "mn116:7.5"
+      ],
+      "summary": "Kinh Isigili kết, thứ sáu trong nhóm này; ô Anh trống vẫn kiểm."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "MN116 — Tên một ngọn núi và những người đã giác ngộ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Một buổi nghe pháp trên núi",
+          "meaningUnits": [
+            "title",
+            "setting"
+          ],
+          "paragraphs": [
+            "Kinh Isigili là bài 116 của Trung Bộ. Người truyền kinh kể điều đã nghe: một thời, Đức Phật ở trên núi Isigili, gần Rājagaha. Ngài gọi các tỳ-kheo, những người nam xuất gia theo Ngài. Các thầy kính đáp, rồi nghe Ngài nói."
+          ]
+        },
+        {
+          "id": "four-mountains",
+          "kind": "teaching",
+          "heading": "Bốn ngọn núi đã từng đổi tên",
+          "meaningUnits": [
+            "vebhara",
+            "pandava",
+            "vepulla",
+            "vulture"
+          ],
+          "paragraphs": [
+            "Đức Phật lần lượt hỏi các thầy có thấy bốn ngọn núi Vebhāra, Paṇḍava, Vepulla và Gijjhakūṭa không. Với từng ngọn, các thầy đều thưa có. Cũng với từng ngọn, Ngài nói rằng trước kia nó từng có một tên gọi khác, một cách gọi khác."
+          ]
+        },
+        {
+          "id": "this-mountain",
+          "kind": "teaching",
+          "heading": "Tên của chính ngọn núi này",
+          "meaningUnits": [
+            "isigili",
+            "swallow"
+          ],
+          "paragraphs": [
+            "Ngài hỏi tiếp: các thầy có thấy núi Isigili này không? Các thầy thưa có. Riêng ngọn núi này, trước kia cũng đã mang đúng tên Isigili ấy.",
+            "Đức Phật kể rằng thuở xưa, năm trăm vị Độc Giác Phật từng sống lâu trên núi. Độc Giác Phật là bậc tự mình đạt giác ngộ. Người ta thấy các vị đi vào núi, nhưng sau khi vào thì không thấy nữa. Thế là họ nói ngọn núi nuốt các ẩn sĩ, những người sống tu hành. Tên Isigili, nghĩa là nuốt ẩn sĩ, ra đời từ cách người ta nói như vậy."
+          ]
+        },
+        {
+          "id": "listen",
+          "kind": "teaching",
+          "heading": "Những cái tên sắp được nhắc đến",
+          "meaningUnits": [
+            "invitation",
+            "residents"
+          ],
+          "paragraphs": [
+            "Đức Phật báo rằng Ngài sẽ kể, tán thán và giảng tên các vị Độc Giác Phật. Tán thán là nói lên điều đáng quý. Ngài bảo các thầy lắng nghe, chú tâm kỹ; các thầy vâng lời.",
+            "Ngài kể mười ba vị: Ariṭṭha, Upariṭṭha, Tagarasikhī, Yasassī, Sudassana, Piyadassī, Gandhāra, Piṇḍola, Upāsabha, Nīta, Tatha, Sutavā và Bhāvitatta. Mỗi vị trong danh sách đều là một Độc Giác Phật đã sống lâu trên chính núi Isigili này."
+          ]
+        },
+        {
+          "id": "praise",
+          "kind": "teaching",
+          "heading": "Điều đáng quý ở các bậc ấy",
+          "meaningUnits": [
+            "praise"
+          ],
+          "paragraphs": [
+            "Rồi lời kinh chuyển thành kệ, những câu có nhịp để xướng đọc. Các vị được ca ngợi là tinh hoa giữa chúng sinh, những loài biết cảm nhận; không còn phiền não quấy nhiễu, không còn bị mong cầu kéo đi. Mỗi vị đã tự mình đạt giác ngộ.",
+            "Kệ ví các ngài như người đã nhổ hết mũi tên, đã thoát những điều gây khổ; gọi các ngài là những bậc cao quý nhất giữa loài người. Đức Phật mời các thầy nghe Ngài tán thán tên các vị ấy."
+          ]
+        },
+        {
+          "id": "repeat",
+          "kind": "teaching",
+          "heading": "Mười ba tên được xướng lại trong kệ",
+          "meaningUnits": [
+            "repeat"
+          ],
+          "paragraphs": [
+            "Kệ xướng Ariṭṭha, Upariṭṭha, Tagarasikhī, Yasassī; Sudassana và Piyadassī, bậc khéo giác ngộ; rồi Gandhāra, Piṇḍola, Upāsabha, Nīta, Tatha, Sutavā, Bhāvitatta. Đây là những vị vừa được kể trong phần trước, nay được nhắc lại bằng lời tán thán."
+          ]
+        },
+        {
+          "id": "leash",
+          "kind": "teaching",
+          "heading": "Sợi dây dẫn đến đời sống tiếp nối đã đứt",
+          "meaningUnits": [
+            "rootless"
+          ],
+          "paragraphs": [
+            "Tiếp đến là Sumbha, Subha, Matula, Aṭṭhama, rồi Assumegha, Anīgha, Sudāṭha. Các Độc Giác Phật đã dứt sợi dây dẫn đến hữu: sự trói buộc kéo vào những đời sống tiếp nối đã hết. Kệ còn nhắc Hiṅgū và Hiṅga, hai bậc có uy lực lớn."
+          ]
+        },
+        {
+          "id": "truth",
+          "kind": "teaching",
+          "heading": "Hai vị cùng tên và những lời khen",
+          "meaningUnits": [
+            "sages"
+          ],
+          "paragraphs": [
+            "Có hai bậc ẩn sĩ cùng tên Jāli, rồi Aṭṭhaka, Kosalla đã giác ngộ và Subāhu. Tiếp nữa là Upanemi, Nemi, Santacitta. Lời kệ nêu các phẩm chất chân thật, như thật, không ô nhiễm và sáng suốt: sống với sự thật, tâm trong sạch và hiểu biết."
+          ]
+        },
+        {
+          "id": "roots",
+          "kind": "teaching",
+          "heading": "Buông chỗ bám làm nên khổ",
+          "meaningUnits": [
+            "upadhi"
+          ],
+          "paragraphs": [
+            "Kệ gọi Kāḷa, Upakāḷa, Vijita, Jita, Aṅga, Paṅga, Guttijita. Passī đã bỏ sanh y, những gì bị tích giữ và bám lấy làm gốc cho khổ. Aparājita đã thắng sức mạnh của Māra, Ác Ma gây trở ngại cho giải thoát."
+          ]
+        },
+        {
+          "id": "conceit",
+          "kind": "teaching",
+          "heading": "Cắt đứt lòng tự cao",
+          "meaningUnits": [
+            "conceit"
+          ],
+          "paragraphs": [
+            "Những tên tiếp theo là Satthā, Pavattā, Sarabhaṅga, Lomahaṁsa, Uccaṅgamāya, Asita, Anāsava và Manomaya. Bandhumā được tán thán là người đã cắt đứt mạn, lòng tự cao và chấp vào mình; rồi đến Adhimutta và Ketumā. Ketumā được khen là không ô nhiễm."
+          ]
+        },
+        {
+          "id": "names",
+          "kind": "teaching",
+          "heading": "Dòng tên còn tiếp",
+          "meaningUnits": [
+            "more-names"
+          ],
+          "paragraphs": [
+            "Kệ tiếp tục xướng Ketumbharāga, Mātaṅga, Ariya; Accuta, Accutagāma, Byāmaka; Sumaṅgala, Dabbila, Supatiṭṭhita; Asayha, Khemābhirata và Sorata. Những danh hiệu ấy cùng nằm trong lời tán thán các vị Độc Giác Phật."
+          ]
+        },
+        {
+          "id": "effort",
+          "kind": "teaching",
+          "heading": "Nỗ lực lớn và thân cuối cùng",
+          "meaningUnits": [
+            "effort"
+          ],
+          "paragraphs": [
+            "Sau Durannaya, Saṅgha và Ujjaya là một bậc ẩn sĩ khác, Sayha, có nỗ lực không gì sánh. Kệ nhắc nhóm mười hai vị mang các tên Ānanda, Nanda, Upananda.",
+            "Bhāradvāja được gọi là người mang thân cuối cùng: vị ấy đã đi đến chỗ không còn tiếp tục nhận một đời sống khác."
+          ]
+        },
+        {
+          "id": "bonds",
+          "kind": "teaching",
+          "heading": "Những dây trói đã được cắt",
+          "meaningUnits": [
+            "bonds"
+          ],
+          "paragraphs": [
+            "Bodhi, Mahānāma, Uttara; Kesī, Sikhī, Sundara và Dvārabhāja được xướng tên tiếp. Tissa cùng Upatissa đã cắt dây trói của hữu, sự trói buộc vào những đời sống tiếp nối. Upasikhi và Sikhari đã cắt ái, sự thèm khát níu giữ."
+          ]
+        },
+        {
+          "id": "peace",
+          "kind": "teaching",
+          "heading": "Thoát lưới khổ, đến chỗ an tịnh",
+          "meaningUnits": [
+            "peace"
+          ],
+          "paragraphs": [
+            "Maṅgala đã giác ngộ, rời tham, không còn ham chiếm lấy. Usabha đã cắt tấm lưới làm gốc cho khổ. Upanīta đạt trạng thái an tịnh, yên lặng sâu xa. Rồi kệ nhắc Uposatha, Sundara và Saccanāma."
+          ]
+        },
+        {
+          "id": "freedom",
+          "kind": "teaching",
+          "heading": "Tâm được giải thoát",
+          "meaningUnits": [
+            "free"
+          ],
+          "paragraphs": [
+            "Tiếp theo là Jeta, Jayanta, Paduma, Uppala, Padumuttara, Rakkhita, Pabbata; rồi Mānatthaddha, Sobhita cùng lời khen đã lìa tham. Kệ gọi Kaṇha là bậc giác ngộ có tâm được giải thoát trọn vẹn."
+          ]
+        },
+        {
+          "id": "honor",
+          "kind": "teaching",
+          "heading": "Lời mời kính lễ",
+          "meaningUnits": [
+            "honor",
+            "ending"
+          ],
+          "paragraphs": [
+            "Đức Phật kết bằng lời tán thán các vị này cùng những vị khác: các bậc Độc Giác Phật có uy lực lớn, đã dứt dây dẫn đến hữu và vượt qua mọi trói buộc. Các ngài đã hoàn toàn tịch diệt, nghĩa là đạt sự an tịnh trọn vẹn của Niết-bàn, không còn những gì trói vào khổ.",
+            "Ngài mời kính lễ những bậc đại ẩn sĩ không thể đo lường ấy. Kinh Isigili kết thúc; dòng ghi cuối gọi đây là bài thứ sáu trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: một tên gọi nhắc việc tốt",
+          "meaningUnits": [
+            "isigili",
+            "praise"
+          ],
+          "paragraphs": [
+            "Ở trường em, một góc đọc sách có thể mang tên người đã góp công xây dựng nó. Khi nghe kể về tên ấy, em hiểu thêm một việc tốt đáng nhớ. Đó là ví dụ hôm nay về một tên gọi mở ra câu chuyện về con người; trong kinh, câu chuyện Isigili dẫn đến lời kính trọng các bậc giác ngộ."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Chọn một điều đáng quý để nhớ",
+          "meaningUnits": [
+            "sages",
+            "conceit",
+            "peace",
+            "honor"
+          ],
+          "paragraphs": [
+            "Em có thể chọn một phẩm chất vừa nghe, như chân thật hoặc bớt tự cao, rồi thử làm một việc nhỏ phù hợp: nói đúng việc mình đã làm, hoặc nghe bạn mà không tranh hơn. Đó là cách bắt đầu học điều tốt được gợi từ bài; sự giải thoát mà kinh tán thán sâu rộng hơn những bước nhỏ này."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "MN116 — Những danh hiệu đi cùng sự giải thoát",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một địa danh dẫn vào ký ức về các bậc giác ngộ",
+          "meaningUnits": [
+            "title",
+            "setting"
+          ],
+          "paragraphs": [
+            "Kinh Isigili, Trung Bộ 116, bắt đầu bằng lời người truyền kinh thuật điều đã nghe. Đức Phật ở trên núi Isigili gần Rājagaha, gọi các tỳ-kheo, những người nam xuất gia. Các vị kính đáp và nghe Ngài giảng."
+          ]
+        },
+        {
+          "id": "mountains",
+          "kind": "teaching",
+          "heading": "Bốn tên đã đổi, một tên vẫn còn",
+          "meaningUnits": [
+            "vebhara",
+            "pandava",
+            "vepulla",
+            "vulture",
+            "isigili"
+          ],
+          "paragraphs": [
+            "Ngài lần lượt hỏi các vị có thấy Vebhāra, Paṇḍava, Vepulla và Gijjhakūṭa không. Với từng núi, các vị đáp có; với từng núi, Ngài cho biết trước kia danh xưng và cách gọi từng khác.",
+            "Đến Isigili, Ngài cũng hỏi có thấy không và được đáp có. Nhưng ngọn núi này đã mang chính danh xưng, cách gọi ấy từ trước."
+          ]
+        },
+        {
+          "id": "name",
+          "kind": "teaching",
+          "heading": "Vì sao người ta gọi là Isigili?",
+          "meaningUnits": [
+            "swallow",
+            "invitation"
+          ],
+          "paragraphs": [
+            "Đức Phật kể thời trước có năm trăm Độc Giác Phật, những bậc tự mình đạt giác ngộ, cư trú lâu trên Isigili. Người ta thấy các ngài đi vào núi, rồi không còn thấy sau khi đã vào. Họ nói núi nuốt các ẩn sĩ; từ câu nói ấy phát sinh tên Isigili, nuốt ẩn sĩ.",
+            "Ngài báo sẽ kể, tán thán và giảng tên các vị Độc Giác Phật. Các tỳ-kheo được dặn lắng nghe, chú tâm kỹ; họ vâng đáp trước khi Ngài bắt đầu."
+          ]
+        },
+        {
+          "id": "residents",
+          "kind": "teaching",
+          "heading": "Mười ba vị được nêu trước",
+          "meaningUnits": [
+            "residents"
+          ],
+          "paragraphs": [
+            "Ariṭṭha, Upariṭṭha, Tagarasikhī, Yasassī, Sudassana, Piyadassī, Gandhāra, Piṇḍola, Upāsabha, Nīta, Tatha, Sutavā và Bhāvitatta được kể tên. Mỗi vị đều là Độc Giác Phật đã trú lâu ngày trên Isigili."
+          ]
+        },
+        {
+          "id": "verse",
+          "kind": "teaching",
+          "heading": "Danh hiệu đi cùng sự giải thoát",
+          "meaningUnits": [
+            "praise",
+            "repeat"
+          ],
+          "paragraphs": [
+            "Phần kệ, những câu có nhịp để xướng đọc, tán thán các bậc tinh hoa giữa chúng sinh: không phiền não, không còn mong cầu, mỗi vị độc lập đạt giác ngộ. Các ngài đã nhổ những mũi tên, hình ảnh của việc thoát điều gây khổ, và được gọi là những bậc tối thượng giữa loài người. Người nghe được mời chú ý khi Phật xướng danh.",
+            "Kệ nhắc lại Ariṭṭha, Upariṭṭha, Tagarasikhī, Yasassī; Sudassana, Piyadassī khéo giác ngộ; Gandhāra, Piṇḍola, Upāsabha; Nīta, Tatha, Sutavā, Bhāvitatta."
+          ]
+        },
+        {
+          "id": "leash",
+          "kind": "teaching",
+          "heading": "Chấm dứt dây dẫn đến hữu",
+          "meaningUnits": [
+            "rootless",
+            "sages"
+          ],
+          "paragraphs": [
+            "Sumbha, Subha, Matula, Aṭṭhama; Assumegha, Anīgha, Sudāṭha được xướng tiếp. Các bậc Độc Giác đã dứt dây dẫn đến hữu, sự trói buộc đưa đến đời sống tiếp nối. Hiṅgū và Hiṅga có uy lực lớn.",
+            "Hai bậc ẩn sĩ cùng tên Jāli, Aṭṭhaka, Kosalla đã giác ngộ và Subāhu được nhắc đến. Sau Upanemi, Nemi, Santacitta, lời kệ nêu các phẩm chất chân thật, như thật, không ô nhiễm và hiền trí, có sự hiểu biết sáng suốt."
+          ]
+        },
+        {
+          "id": "suffering",
+          "kind": "teaching",
+          "heading": "Gốc khổ, sức Māra và lòng tự cao",
+          "meaningUnits": [
+            "upadhi",
+            "conceit"
+          ],
+          "paragraphs": [
+            "Kāḷa, Upakāḷa, Vijita, Jita, Aṅga, Paṅga, Guttijita đứng trong dòng tên tiếp theo. Passī đã từ bỏ sanh y, những gì được tích giữ và bám lấy làm nền cho khổ. Aparājita thắng sức mạnh Māra, Ác Ma cản trở giải thoát.",
+            "Kệ tiếp nhắc Satthā, Pavattā, Sarabhaṅga, Lomahaṁsa, Uccaṅgamāya, Asita, Anāsava, Manomaya; Bandhumā cắt đứt mạn, sự tự cao và chấp vào mình; Adhimutta và Ketumā. Ketumā được gọi là không ô nhiễm."
+          ]
+        },
+        {
+          "id": "continuing",
+          "kind": "teaching",
+          "heading": "Những danh hiệu tiếp nối",
+          "meaningUnits": [
+            "more-names"
+          ],
+          "paragraphs": [
+            "Ketumbharāga, Mātaṅga, Ariya; Accuta, Accutagāma, Byāmaka; Sumaṅgala, Dabbila, Supatiṭṭhita; Asayha, Khemābhirata, Sorata được xướng trong lời tán thán các vị Độc Giác Phật."
+          ]
+        },
+        {
+          "id": "last-body",
+          "kind": "teaching",
+          "heading": "Nỗ lực vô song và thân cuối cùng",
+          "meaningUnits": [
+            "effort"
+          ],
+          "paragraphs": [
+            "Sau Durannaya, Saṅgha, Ujjaya, kệ nêu một bậc ẩn sĩ khác là Sayha với nỗ lực vô song. Nhóm mang các tên Ānanda, Nanda, Upananda gồm mười hai vị. Bhāradvāja được ca ngợi là người mang thân cuối cùng, không còn tiếp tục một đời sống tái sinh khác."
+          ]
+        },
+        {
+          "id": "cutting",
+          "kind": "teaching",
+          "heading": "Cắt những trói buộc của hữu và ái",
+          "meaningUnits": [
+            "bonds"
+          ],
+          "paragraphs": [
+            "Bodhi, Mahānāma, Uttara, Kesī, Sikhī, Sundara, Dvārabhāja được kể tiếp. Tissa và Upatissa cắt dây trói vào hữu, sự tiếp nối đời sống; Upasikhi và Sikhari cắt ái, sự thèm khát và níu giữ."
+          ]
+        },
+        {
+          "id": "peace",
+          "kind": "teaching",
+          "heading": "Ly tham và đạt an tịnh",
+          "meaningUnits": [
+            "peace"
+          ],
+          "paragraphs": [
+            "Maṅgala đã giác ngộ và ly tham, không còn ham chiếm lấy. Usabha cắt tấm lưới làm gốc cho khổ; Upanīta đạt trạng thái an tịnh, bình an sâu xa. Uposatha, Sundara và Saccanāma tiếp nối trong lời kệ."
+          ]
+        },
+        {
+          "id": "well-freed",
+          "kind": "teaching",
+          "heading": "Tâm khéo giải thoát",
+          "meaningUnits": [
+            "free"
+          ],
+          "paragraphs": [
+            "Kệ xướng Jeta, Jayanta, Paduma, Uppala; Padumuttara, Rakkhita, Pabbata; rồi Mānatthaddha, Sobhita cùng lời khen ly tham. Kaṇha là bậc giác ngộ với tâm khéo giải thoát, thoát trọn vẹn những trói buộc."
+          ]
+        },
+        {
+          "id": "close",
+          "kind": "teaching",
+          "heading": "Kính lễ các bậc vượt mọi trói buộc",
+          "meaningUnits": [
+            "honor",
+            "ending"
+          ],
+          "paragraphs": [
+            "Lời kết hướng đến các vị vừa nêu cùng những vị khác: các Độc Giác Phật có uy lực lớn, đã dứt dây dẫn đến hữu, vượt mọi ràng buộc. Các bậc đại ẩn sĩ ấy đã hoàn toàn tịch diệt, đạt an tịnh trọn vẹn của Niết-bàn, sự giải thoát khỏi những gốc trói buộc.",
+            "Đức Phật mời đảnh lễ, bày tỏ lòng kính trọng, đối với các bậc không thể đo lường ấy. Kinh Isigili khép lại với nhãn bài thứ sáu trong nhóm này."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: điều còn lại sau một cái tên",
+          "meaningUnits": [
+            "isigili",
+            "praise",
+            "honor"
+          ],
+          "paragraphs": [
+            "Một nhóm làm hồ sơ về những người từng góp sức cho cộng đồng. Ngoài ghi tên, họ kể rõ người ấy đã sống chân thật và bền bỉ ra sao, để sự kính trọng có nội dung cụ thể. Đây là liên hệ hiện đại: một tên gọi có thể dẫn tới việc nhận ra phẩm chất. Những thành tựu giác ngộ trong kinh vẫn có phạm vi riêng sâu rộng hơn việc ghi nhận đóng góp xã hội."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Xét điều mình thật sự kính trọng",
+          "meaningUnits": [
+            "praise",
+            "sages",
+            "conceit",
+            "peace"
+          ],
+          "paragraphs": [
+            "Có thể nhìn lại một người mình kính trọng và gọi rõ phẩm chất đáng học, thay vì chỉ dừng ở danh tiếng. Với điều chân thật, bớt tự cao hoặc giảm tham giữ, hãy chọn một việc cụ thể trong trách nhiệm hôm nay. Bài kinh tán thán sự dứt trói buộc hoàn toàn; việc thực tập nhỏ là bước học theo phẩm chất, không phải lời xác nhận đã đạt thành tựu ấy."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "MN116 — Nhớ các bậc đã vượt mọi trói buộc",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Lắng nghe trên núi Isigili",
+          "meaningUnits": [
+            "title",
+            "setting"
+          ],
+          "paragraphs": [
+            "Người truyền Kinh Isigili, bài 116 của Trung Bộ, thuật điều đã nghe. Một thời, Đức Phật ở trên núi Isigili gần Rājagaha. Ngài gọi các tỳ-kheo, những người nam xuất gia; các vị kính đáp, rồi Ngài nói."
+          ]
+        },
+        {
+          "id": "names-change",
+          "kind": "teaching",
+          "heading": "Những ngọn núi từng có cách gọi khác",
+          "meaningUnits": [
+            "vebhara",
+            "pandava",
+            "vepulla",
+            "vulture"
+          ],
+          "paragraphs": [
+            "Ngài lần lượt hỏi về bốn ngọn núi: Vebhāra, Paṇḍava, Vepulla, Gijjhakūṭa. Với từng ngọn, các tỳ-kheo đều thưa có thấy. Ngài cũng lần lượt cho biết mỗi ngọn trước kia từng mang danh xưng khác, cách gọi khác."
+          ]
+        },
+        {
+          "id": "same-name",
+          "kind": "teaching",
+          "heading": "Một tên gọi được giữ từ trước",
+          "meaningUnits": [
+            "isigili"
+          ],
+          "paragraphs": [
+            "Ngài hỏi các vị có thấy Isigili này không. Các vị đáp có. Núi Isigili thì đã mang chính tên ấy, chính cách gọi ấy từ trước."
+          ]
+        },
+        {
+          "id": "seers",
+          "kind": "teaching",
+          "heading": "Câu chuyện đằng sau tên núi",
+          "meaningUnits": [
+            "swallow"
+          ],
+          "paragraphs": [
+            "Đức Phật kể thuở xưa năm trăm vị Độc Giác Phật sống lâu ngày tại đây. Đó là những bậc tự mình đạt giác ngộ. Người ta thấy các ngài đi vào núi, nhưng khi đã vào thì không còn thấy.",
+            "Người chứng kiến nói núi nuốt các ẩn sĩ, những người tu hành. Từ lời nói ấy, tên Isigili, nuốt ẩn sĩ, được hình thành."
+          ]
+        },
+        {
+          "id": "invitation",
+          "kind": "teaching",
+          "heading": "Kể tên để tán thán",
+          "meaningUnits": [
+            "invitation",
+            "residents"
+          ],
+          "paragraphs": [
+            "Đức Phật cho biết sẽ kể, tán thán và giảng tên các vị Độc Giác Phật. Ngài dặn các tỳ-kheo nghe và chú tâm kỹ. Các vị vâng đáp.",
+            "Ngài nêu Ariṭṭha, Upariṭṭha, Tagarasikhī, Yasassī, Sudassana, Piyadassī, Gandhāra, Piṇḍola, Upāsabha, Nīta, Tatha, Sutavā, Bhāvitatta. Với từng vị trong mười ba vị ấy, Ngài nói rõ đó là Độc Giác Phật đã trú lâu trên Isigili."
+          ]
+        },
+        {
+          "id": "praise",
+          "kind": "teaching",
+          "heading": "Những bậc đã nhổ mũi tên",
+          "meaningUnits": [
+            "praise"
+          ],
+          "paragraphs": [
+            "Phần kệ, lời có nhịp để xướng đọc, ca ngợi các bậc tinh hoa giữa chúng sinh: không phiền não, không còn mong cầu, đã tự mình độc lập đạt giác ngộ. Hình ảnh nhổ mũi tên nói lên việc thoát những gì gây khổ. Các ngài là những bậc tối thượng giữa loài người; Đức Phật mời nghe lời tán thán danh hiệu của các vị."
+          ]
+        },
+        {
+          "id": "repeated",
+          "kind": "teaching",
+          "heading": "Danh hiệu được xướng lại",
+          "meaningUnits": [
+            "repeat"
+          ],
+          "paragraphs": [
+            "Kệ nhắc lại Ariṭṭha, Upariṭṭha, Tagarasikhī, Yasassī; Sudassana và Piyadassī khéo giác ngộ; Gandhāra, Piṇḍola, Upāsabha; Nīta, Tatha, Sutavā, Bhāvitatta. Dòng tên nối phần kể về nơi cư trú với lời ca ngợi thành tựu."
+          ]
+        },
+        {
+          "id": "leash",
+          "kind": "teaching",
+          "heading": "Đã dứt dây dẫn đến hữu",
+          "meaningUnits": [
+            "rootless"
+          ],
+          "paragraphs": [
+            "Tiếp đó là Sumbha, Subha, Matula, Aṭṭhama; Assumegha, Anīgha, Sudāṭha. Các Độc Giác Phật được tán thán là đã dứt dây dẫn đến hữu, những trói buộc đưa đến đời sống tiếp nối. Hiṅgū và Hiṅga được gọi là các bậc có uy lực lớn."
+          ]
+        },
+        {
+          "id": "truth",
+          "kind": "teaching",
+          "heading": "Những phẩm chất chân thật, hiền trí",
+          "meaningUnits": [
+            "sages"
+          ],
+          "paragraphs": [
+            "Hai bậc ẩn sĩ cùng tên Jāli được nhắc đến, rồi Aṭṭhaka, Kosalla đã giác ngộ và Subāhu. Kệ kể tiếp Upanemi, Nemi, Santacitta. Lời kệ nêu các phẩm chất chân thật, như thật, không ô nhiễm và hiền trí, có sự hiểu biết sáng suốt."
+          ]
+        },
+        {
+          "id": "roots",
+          "kind": "teaching",
+          "heading": "Không còn chỗ bám làm gốc khổ",
+          "meaningUnits": [
+            "upadhi"
+          ],
+          "paragraphs": [
+            "Kāḷa, Upakāḷa, Vijita, Jita, Aṅga, Paṅga, Guttijita được xướng tên. Passī đã bỏ sanh y, những gì được tích giữ, bám lấy và làm gốc cho khổ. Aparājita thắng sức mạnh của Māra, Ác Ma cản trở con đường giải thoát."
+          ]
+        },
+        {
+          "id": "conceit",
+          "kind": "teaching",
+          "heading": "Từ bỏ mạn và ô nhiễm",
+          "meaningUnits": [
+            "conceit"
+          ],
+          "paragraphs": [
+            "Kệ gọi Satthā, Pavattā, Sarabhaṅga, Lomahaṁsa; Uccaṅgamāya, Asita, Anāsava; Manomaya. Bandhumā đã cắt mạn, lòng tự cao và chấp vào mình. Rồi đến Adhimutta và Ketumā; Ketumā được khen là không ô nhiễm."
+          ]
+        },
+        {
+          "id": "names",
+          "kind": "teaching",
+          "heading": "Các vị được nhắc tiếp",
+          "meaningUnits": [
+            "more-names"
+          ],
+          "paragraphs": [
+            "Ketumbharāga, Mātaṅga, Ariya; Accuta, Accutagāma, Byāmaka; Sumaṅgala, Dabbila, Supatiṭṭhita; Asayha, Khemābhirata, Sorata tiếp nối trong lời tán thán các Độc Giác Phật."
+          ]
+        },
+        {
+          "id": "effort",
+          "kind": "teaching",
+          "heading": "Nỗ lực vô song",
+          "meaningUnits": [
+            "effort"
+          ],
+          "paragraphs": [
+            "Durannaya, Saṅgha và Ujjaya được kể tiếp. Một bậc ẩn sĩ khác là Sayha có nỗ lực vô song. Kệ còn nêu nhóm mười hai vị mang những tên Ānanda, Nanda, Upananda.",
+            "Bhāradvāja là người mang thân cuối cùng: vị ấy không còn tiếp tục một đời sống tái sinh khác."
+          ]
+        },
+        {
+          "id": "bonds",
+          "kind": "teaching",
+          "heading": "Dứt trói buộc và ái",
+          "meaningUnits": [
+            "bonds"
+          ],
+          "paragraphs": [
+            "Bodhi, Mahānāma, Uttara; Kesī, Sikhī, Sundara, Dvārabhāja được xướng tên. Tissa cùng Upatissa cắt dây trói của hữu, sự tiếp nối đời sống. Upasikhi cùng Sikhari cắt ái, sự thèm khát và níu giữ."
+          ]
+        },
+        {
+          "id": "peace",
+          "kind": "teaching",
+          "heading": "Trạng thái an tịnh",
+          "meaningUnits": [
+            "peace"
+          ],
+          "paragraphs": [
+            "Maṅgala đã giác ngộ, ly tham, không còn ham chiếm lấy. Usabha đã cắt tấm lưới làm gốc cho khổ. Upanīta đạt trạng thái an tịnh, bình an sâu xa. Rồi đến Uposatha, Sundara và Saccanāma."
+          ]
+        },
+        {
+          "id": "freed",
+          "kind": "teaching",
+          "heading": "Tâm khéo giải thoát",
+          "meaningUnits": [
+            "free"
+          ],
+          "paragraphs": [
+            "Kệ xướng Jeta, Jayanta, Paduma, Uppala; Padumuttara, Rakkhita, Pabbata; rồi Mānatthaddha, Sobhita cùng lời khen ly tham. Kaṇha được tán thán là bậc giác ngộ với tâm khéo giải thoát, thoát trọn vẹn những trói buộc."
+          ]
+        },
+        {
+          "id": "honor",
+          "kind": "teaching",
+          "heading": "Lòng kính trọng hướng đến điều gì?",
+          "meaningUnits": [
+            "honor",
+            "ending"
+          ],
+          "paragraphs": [
+            "Các vị này cùng những vị khác đều được tán thán là Độc Giác Phật có uy lực lớn, đã dứt dây dẫn đến hữu và vượt mọi trói buộc. Các bậc đại ẩn sĩ đã hoàn toàn tịch diệt, đạt sự an tịnh trọn vẹn của Niết-bàn, sự giải thoát khỏi những gốc trói buộc.",
+            "Đức Phật mời đảnh lễ các bậc không thể đo lường ấy, bày tỏ lòng kính trọng. Kinh Isigili kết thúc với nhãn bài thứ sáu trong nhóm này."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: kể tên cùng điều đáng nhớ",
+          "meaningUnits": [
+            "isigili",
+            "praise",
+            "honor"
+          ],
+          "paragraphs": [
+            "Trong một cuộc trò chuyện giữa các thế hệ, khi nhắc tên một người từng sống chân thật, ta có thể kể một việc cụ thể của người ấy: nhận lỗi, giữ lời, không tranh hơn. Tên người nhờ vậy đi cùng một điều đáng học. Đây là ví dụ hiện đại giúp hình dung việc nhớ tên gắn với phẩm chất; không đặt một thành tựu đời thường ngang với giác ngộ trong kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một phẩm chất để thực hành hôm nay",
+          "meaningUnits": [
+            "sages",
+            "conceit",
+            "peace",
+            "honor"
+          ],
+          "paragraphs": [
+            "Có thể chọn sự chân thật, bớt tự cao hoặc bớt tham giữ làm điều tự nhắc hôm nay. Trong một việc đang có, nói rõ sự thật hoặc lắng nghe người khác là một bước cụ thể. Lời kính lễ trong kinh hướng tới các bậc đã dứt trói buộc hoàn toàn; việc nhỏ của mình là sự học theo, không phải tự nhận đã đạt như các ngài."
+          ]
+        }
+      ]
+    }
+  }
+}
