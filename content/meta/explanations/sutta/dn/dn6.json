@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn6",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "6d7a1159-f6b1-40d3-9a54-9c4fefa3266d"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "9a851f0e-51b1-4c97-987f-4d1e1be277fb"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "8b94a2f9-c336-44a2-b8ae-94c1ebc81336"
+    }
+  },
+  "reviews": [
+    {
+      "id": "6d7a1159-f6b1-40d3-9a54-9c4fefa3266d",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9,
+        "audience_fit": 9.1,
+        "clarity": 9.1,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.5
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc đủ 156 khóa Pāli, Sujato thô, Việt dự án, toàn bộ 61 khối HTML Minh Châu và chín chú thích DN6. Năm nguồn khớp audit byte hiện hành. Anh có 139/156 ô không trống, một số lời lặp bị lược, không coi là xác nhận độc lập. Giữ quả thứ tư mà HTML bỏ, tại đó ở 13.6 và na kallaṁ 19.4 bị HTML mất phủ định.",
+        "semantic_fidelity": "Giữ chuyện khả năng cõi trời theo kinh, không đổi thành tưởng tượng hoặc gán nó cho năng lực đọc nhạc. Mục tiêu cao hơn vẫn gồm Dự lưu, Nhất lai, không trở lại và tâm-tuệ giải thoát hiện đời. Sinh mệnh được đặt trong câu hỏi, không dùng để xác nhận linh hồn bất biến. Một số nghĩa sâu còn được diễn giản lược theo khả năng đọc của trẻ.",
+        "core_coverage": "Đã đọc hai chiều 22 đơn vị với 156 khóa và đủ ba bản. Có hai đoàn khách, tiếng tốt, Nāgita/Kassapa, Sīha trình và sửa chỗ; ba kiểu định với mọi hướng; bốn thành tựu cùng điều kiện, tám chi đạo; chuyện lồng Muṇḍiya/Jāliya qua các chặng giới, bốn thiền, tri kiến và đoạn cuối. Dấu lược cùng lời kết Mahāli vẫn giữ đúng phạm vi.",
+        "logic_context": "Phân biệt tu định theo mặt thấy/nghe với phương hướng; mỗi kiểu đủ mục đích, kết quả và lý do. Mahāli suy mục tiêu phạm hạnh rồi được Phật bác; mỗi quả đều cao/thù thắng hơn. Câu đáp có ở 16.10/17.6/18.5 và không ở 19.4 thuộc hai vị xuất gia, trong khi Phật không tuyên bố hai mệnh đề qua tất cả các chặng.",
+        "terminology": "Đã mở thị giả, sa-di, định, kiết sử, lậu hoặc, tám chi và tri kiến; lần đầu tỳ-kheo thêm nhà sư. Tuy vậy Thiện Thệ, Māra, hóa sinh và hạ phần kiết sử vẫn chưa được giải sâu, đặc biệt lời hóa sinh chỉ xác định đây là cách sinh trong kinh. Điểm phản ánh nhu cầu đọc cùng người có nền tảng, không xem những tên khó đã được giải hết.",
+        "audience_fit": "Mười ba mục kể chuyện rồi đi qua ba khả năng và bốn thành tựu; ví đọc nhạc/nghe giai điệu gần việc học kỹ năng. Không dùng thần thông hoặc tái sinh để hứa thưởng hay dọa trẻ. Hai mệnh đề về sinh mệnh và các tên quả tu vẫn trừu tượng; chưa thử đọc với trẻ thật.",
+        "clarity": "Bố cục ba trường hợp định và hai cặp thành tựu giúp theo dõi; câu đáp có/không được chỉ rõ người nói. Độ dày tên riêng, danh hiệu và chặng tu khiến phần sau cần đọc chậm. Chú thích danh xưng tách ra làm rõ nguồn nhưng cũng thêm một đoạn biên tập ngoài mạch truyện.",
+        "editorial_separation": "Ví dụ nhạc và gợi ý tự hỏi mục đích có nhãn riêng, không được dùng để chứng minh chuyện cõi trời. Cách gọi jīva và cách Sujato mở Dārupattika được nói là lựa chọn đọc; không bịa lai lịch thầy Jāliya. Chuyện lồng và lời kể kết thúc được tách với lời biên tập.",
+        "practical_integrity": "Chỉ mời chọn một hành động giúp hiểu đúng, nói thật hoặc bớt gây hại khi muốn được chú ý. Không hướng dẫn trẻ luyện khả năng cõi trời, không hứa đạt Thánh quả từ việc hỏi một câu hay làm một bài tập, không biến hơn người thành mục tiêu được kinh cổ vũ.",
+        "technical_integrity": "auditExplanations trên bản chốt cho errors=[] và sourceErrors=[]. Đã kiểm cấu trúc, NFC, mã ý, tác giả, nguồn và hash, đọc lại phần sửa Dārupattika cùng lời giải tỳ-kheo bản trẻ. Hash từng audience được ghi trong notes. Đây là kiểm toàn vẹn dữ liệu, không nhận đã chạy build hay toàn bộ cổng local của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm /root/author_c khác tác tử soạn /root, cùng GPT-6 Astra Pro; đây không phải hai công cụ độc lập hoặc kiểm của chuyên gia con người. Đã thực đọc toàn bộ năm nguồn DN6, toàn bộ map và cả ba audience, đọc lại các sửa cuối. Chưa có học giả Pāli con người hoặc thử đọc thật. Pāli/Anh 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt/chú thích a0408ff8d814d796c8b1cf0bbda5dbfaa2849820. Không nhận đã đọc DN2/DN7 chỉ vì HTML hoặc comments dẫn tên. Đã giữ Dārupattika nguyên danh xưng trong map và chuyện kể, đưa cách Sujato mở nghĩa vị tu dùng bát gỗ sang clarification với giới hạn lai lịch; chỉ Jāliya được kể là học trò. Bản trẻ thêm giải nghĩa tỳ-kheo, không sửa canonical hoặc metadata. Hash nội dung đã đọc cho children: 9b7019e83c07eace4b3d9478ecffb722d759a217e2962d68f4ecda7e457b9ad9.",
+      "contentHash": "9b7019e83c07eace4b3d9478ecffb722d759a217e2962d68f4ecda7e457b9ad9",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn6.html",
+          "sha256": "7ce97875435ba969f0f5dc760a15095ae91ce74b7c74edb2df48b30886edc6f5"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn6_root-pli-ms.json",
+          "sha256": "c33c3dc944ec6e3a2f02c59603c77c24edb93ba5072696ffa2e01d27905d3405"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn6_translation-en-sujato.json",
+          "sha256": "ed21f913cb3535e65ea1ff520b9842c77b4a529bc42aacf23d049f6cfecdac53"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn6_comment-vi-project.json",
+          "sha256": "068405824cb615c19be9aebb7ff17ff4f51981c6630afad145a09412f2619c54"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn6_translation-vi-project.json",
+          "sha256": "1e2b61f3a4c81c0e3884572912d5f0563159ff92ad04f6170337cd2e98fe1f67"
+        }
+      ]
+    },
+    {
+      "id": "9a851f0e-51b1-4c97-987f-4d1e1be277fb",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.2,
+        "audience_fit": 9.3,
+        "clarity": 9.3,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.5
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc đủ 156 khóa Pāli, Sujato thô, Việt dự án, toàn bộ 61 khối HTML Minh Châu và chín chú thích DN6. Năm nguồn khớp audit byte hiện hành. Anh có 139/156 ô không trống, một số lời lặp bị lược, không coi là xác nhận độc lập. Giữ quả thứ tư mà HTML bỏ, tại đó ở 13.6 và na kallaṁ 19.4 bị HTML mất phủ định.",
+        "semantic_fidelity": "Giữ quan hệ giữa phương diện định được tu và khả năng tương ứng nhưng không cho đó là mục tiêu cao nhất. Bốn thành tựu còn đủ ý tái sinh, tận khổ và giải thoát vô lậu hiện đời, không bị thu hẹp thành hiệu quả công việc. Không suy việc Phật không nói đồng/khác thành một học thuyết thứ ba do biên tập đặt thêm.",
+        "core_coverage": "Đã đọc hai chiều 22 đơn vị với 156 khóa và đủ ba bản. Có hai đoàn khách, tiếng tốt, Nāgita/Kassapa, Sīha trình và sửa chỗ; ba kiểu định với mọi hướng; bốn thành tựu cùng điều kiện, tám chi đạo; chuyện lồng Muṇḍiya/Jāliya qua các chặng giới, bốn thiền, tri kiến và đoạn cuối. Dấu lược cùng lời kết Mahāli vẫn giữ đúng phạm vi.",
+        "logic_context": "Phân biệt tu định theo mặt thấy/nghe với phương hướng; mỗi kiểu đủ mục đích, kết quả và lý do. Mahāli suy mục tiêu phạm hạnh rồi được Phật bác; mỗi quả đều cao/thù thắng hơn. Câu đáp có ở 16.10/17.6/18.5 và không ở 19.4 thuộc hai vị xuất gia, trong khi Phật không tuyên bố hai mệnh đề qua tất cả các chặng.",
+        "terminology": "Một phương diện/hai phương diện giải rõ công năng thấy và nghe, không lẫn hướng địa lý. Kiết sử, lậu hoặc, tám chi và tri kiến có lời mở nghĩa; jīva và Dārupattika được ghi nhận khác biệt tham khảo. Những tên như hóa sinh, phạm hạnh và các danh hiệu đầu bài vẫn cần nền tảng Phật học hơn một số đoạn đời sống.",
+        "audience_fit": "Mười ba mục ưu tiên lập luận nhân duyên, phân biệt công năng với mục đích, rồi theo sát đối thoại sinh mệnh/thân. Ví năng lực phân tích và trình bày phù hợp công việc mà không đổi giáo pháp thành tối ưu nghề nghiệp. Chưa thử với người mới đọc kinh; phần quả tu và thuật ngữ còn đậm.",
+        "clarity": "Các quan hệ mục đích-kết quả-lý do được diễn theo cùng trật tự; quả thứ ba/thứ tư và các lượt trả lời không bị nhập. Tiến trình cuối vẫn hơi nặng bởi hai mệnh đề lặp, nhưng việc lặp bảo vệ thay đổi quan trọng ở câu đáp cuối. Các dấu lược được báo rõ, không giả vờ đã triển khai cả DN2.",
+        "editorial_separation": "Scope tách cách đọc thuật ngữ với nội dung lời kinh; cách Sujato mở nghĩa bát gỗ không còn là lai lịch khẳng định trong chuyện. Ví chuyên môn và câu hỏi mục đích mang nhãn riêng, không làm bằng chứng khoa học cho cõi trời. Không thêm chứng quả cho Mahāli.",
+        "practical_integrity": "Liên hệ kỹ năng với lời nói, hành động, sinh kế chân chánh có giới hạn rõ. Không đề xuất phương pháp luyện thần thông hoặc tuyên bố một câu hỏi về giá trị đem lại quả giải thoát. Người đọc được xét mục đích mình theo đuổi mà không dùng bài kinh để kiểm soát người khác.",
+        "technical_integrity": "auditExplanations trên bản chốt cho errors=[] và sourceErrors=[]. Đã kiểm cấu trúc, NFC, mã ý, tác giả, nguồn và hash, đọc lại phần sửa Dārupattika cùng lời giải tỳ-kheo bản trẻ. Hash từng audience được ghi trong notes. Đây là kiểm toàn vẹn dữ liệu, không nhận đã chạy build hay toàn bộ cổng local của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm /root/author_c khác tác tử soạn /root, cùng GPT-6 Astra Pro; đây không phải hai công cụ độc lập hoặc kiểm của chuyên gia con người. Đã thực đọc toàn bộ năm nguồn DN6, toàn bộ map và cả ba audience, đọc lại các sửa cuối. Chưa có học giả Pāli con người hoặc thử đọc thật. Pāli/Anh 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt/chú thích a0408ff8d814d796c8b1cf0bbda5dbfaa2849820. Không nhận đã đọc DN2/DN7 chỉ vì HTML hoặc comments dẫn tên. Đã giữ Dārupattika nguyên danh xưng trong map và chuyện kể, đưa cách Sujato mở nghĩa vị tu dùng bát gỗ sang clarification với giới hạn lai lịch; chỉ Jāliya được kể là học trò. Bản trẻ thêm giải nghĩa tỳ-kheo, không sửa canonical hoặc metadata. Hash nội dung đã đọc cho adults: 7865f6f425dfac5117e9cc232b985d4570ce522bf5f1032107b30702fbbda257.",
+      "contentHash": "7865f6f425dfac5117e9cc232b985d4570ce522bf5f1032107b30702fbbda257",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn6.html",
+          "sha256": "7ce97875435ba969f0f5dc760a15095ae91ce74b7c74edb2df48b30886edc6f5"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn6_root-pli-ms.json",
+          "sha256": "c33c3dc944ec6e3a2f02c59603c77c24edb93ba5072696ffa2e01d27905d3405"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn6_translation-en-sujato.json",
+          "sha256": "ed21f913cb3535e65ea1ff520b9842c77b4a529bc42aacf23d049f6cfecdac53"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn6_comment-vi-project.json",
+          "sha256": "068405824cb615c19be9aebb7ff17ff4f51981c6630afad145a09412f2619c54"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn6_translation-vi-project.json",
+          "sha256": "1e2b61f3a4c81c0e3884572912d5f0563159ff92ad04f6170337cd2e98fe1f67"
+        }
+      ]
+    },
+    {
+      "id": "8b94a2f9-c336-44a2-b8ae-94c1ebc81336",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.1,
+        "audience_fit": 9.4,
+        "clarity": 9.3,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.5
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc đủ 156 khóa Pāli, Sujato thô, Việt dự án, toàn bộ 61 khối HTML Minh Châu và chín chú thích DN6. Năm nguồn khớp audit byte hiện hành. Anh có 139/156 ô không trống, một số lời lặp bị lược, không coi là xác nhận độc lập. Giữ quả thứ tư mà HTML bỏ, tại đó ở 13.6 và na kallaṁ 19.4 bị HTML mất phủ định.",
+        "semantic_fidelity": "Không thay cõi trời, hóa sinh hoặc Niết-bàn tại đó bằng thay đổi vai trò hay cảm xúc trong đời này. Giữ tâm giải thoát và tuệ giải thoát ngay hiện đời cùng điều kiện tận lậu hoặc. Cuộc hỏi đáp sinh mệnh/thân được thuật đúng giới hạn, không đồng nhất bình thản tuổi già với một Thánh quả.",
+        "core_coverage": "Đã đọc hai chiều 22 đơn vị với 156 khóa và đủ ba bản. Có hai đoàn khách, tiếng tốt, Nāgita/Kassapa, Sīha trình và sửa chỗ; ba kiểu định với mọi hướng; bốn thành tựu cùng điều kiện, tám chi đạo; chuyện lồng Muṇḍiya/Jāliya qua các chặng giới, bốn thiền, tri kiến và đoạn cuối. Dấu lược cùng lời kết Mahāli vẫn giữ đúng phạm vi.",
+        "logic_context": "Phân biệt tu định theo mặt thấy/nghe với phương hướng; mỗi kiểu đủ mục đích, kết quả và lý do. Mahāli suy mục tiêu phạm hạnh rồi được Phật bác; mỗi quả đều cao/thù thắng hơn. Câu đáp có ở 16.10/17.6/18.5 và không ở 19.4 thuộc hai vị xuất gia, trong khi Phật không tuyên bố hai mệnh đề qua tất cả các chặng.",
+        "terminology": "Định được mở là tập trung của tâm, kiết sử là dây trói, lậu hoặc là ô nhiễm sâu; các chi đạo được đặt cạnh nghĩa chức năng. Hóa sinh được phân biệt với đổi vai trò nhưng chưa giải sâu cơ chế; danh hiệu và từ như thị giả/sa-di vẫn có thể khó với người mới. Cách đọc Dārupattika được giữ thận trọng.",
+        "audience_fit": "Mười lăm mục, đoạn tương đối vừa phải; chuyện chăm cây và học ghi chép tôn trọng kinh nghiệm cùng khả năng học điều mới. Không mặc định người lớn tuổi yếu, bệnh hoặc đã biết mọi thuật ngữ. Độ trừu tượng của đoạn sinh mệnh/thân còn cao và chưa có thử đọc thật.",
+        "clarity": "Ba kiểu định, từng thành tựu và các lần đáp được chia rõ; việc nhắc ai trả lời bảo vệ người đọc khỏi nhầm lời khách với Phật. Phần hướng tâm và tri kiến cuối cần đọc kỹ vì nguồn lược, bản nói rõ giới hạn ấy. Một số đoạn giải nghĩa nguồn làm nhịp kể chậm nhưng không gây lệch mạch.",
+        "editorial_separation": "Ví khu vườn và bài tự xét được ghi là gợi ý nhỏ, không kể như sự kiện kinh. Giữ riêng chú giải sinh mệnh và danh xưng thầy Jāliya; không thêm tiểu sử từ cách dịch bát gỗ. Nhãn kết thứ sáu và lời Mahāli hoan hỷ không bị nhập thành tuyên bố thành tựu.",
+        "practical_integrity": "Gợi người đọc chọn mục đích rồi cân nhắc cách nói, việc làm và nỗ lực trong hoàn cảnh của mình; không áp chỉ tiêu thành tích tâm linh hay chế độ khổ hạnh. Không hứa sức khỏe, thần thông hoặc quả giải thoát; liên hệ giữ tính tự chủ, không coi tuổi tác là lý do phải từ bỏ sở thích.",
+        "technical_integrity": "auditExplanations trên bản chốt cho errors=[] và sourceErrors=[]. Đã kiểm cấu trúc, NFC, mã ý, tác giả, nguồn và hash, đọc lại phần sửa Dārupattika cùng lời giải tỳ-kheo bản trẻ. Hash từng audience được ghi trong notes. Đây là kiểm toàn vẹn dữ liệu, không nhận đã chạy build hay toàn bộ cổng local của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm /root/author_c khác tác tử soạn /root, cùng GPT-6 Astra Pro; đây không phải hai công cụ độc lập hoặc kiểm của chuyên gia con người. Đã thực đọc toàn bộ năm nguồn DN6, toàn bộ map và cả ba audience, đọc lại các sửa cuối. Chưa có học giả Pāli con người hoặc thử đọc thật. Pāli/Anh 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt/chú thích a0408ff8d814d796c8b1cf0bbda5dbfaa2849820. Không nhận đã đọc DN2/DN7 chỉ vì HTML hoặc comments dẫn tên. Đã giữ Dārupattika nguyên danh xưng trong map và chuyện kể, đưa cách Sujato mở nghĩa vị tu dùng bát gỗ sang clarification với giới hạn lai lịch; chỉ Jāliya được kể là học trò. Bản trẻ thêm giải nghĩa tỳ-kheo, không sửa canonical hoặc metadata. Hash nội dung đã đọc cho older-adults: 8747aa93ff5870ea527701b91607a35448ca59be63d9bc7f12f223f4e21fde20.",
+      "contentHash": "8747aa93ff5870ea527701b91607a35448ca59be63d9bc7f12f223f4e21fde20",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn6.html",
+          "sha256": "7ce97875435ba969f0f5dc760a15095ae91ce74b7c74edb2df48b30886edc6f5"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn6_root-pli-ms.json",
+          "sha256": "c33c3dc944ec6e3a2f02c59603c77c24edb93ba5072696ffa2e01d27905d3405"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn6_translation-en-sujato.json",
+          "sha256": "ed21f913cb3535e65ea1ff520b9842c77b4a529bc42aacf23d049f6cfecdac53"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn6_comment-vi-project.json",
+          "sha256": "068405824cb615c19be9aebb7ff17ff4f51981c6630afad145a09412f2619c54"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn6_translation-vi-project.json",
+          "sha256": "1e2b61f3a4c81c0e3884572912d5f0563159ff92ad04f6170337cd2e98fe1f67"
+        }
+      ]
+    }
+  ]
+}
