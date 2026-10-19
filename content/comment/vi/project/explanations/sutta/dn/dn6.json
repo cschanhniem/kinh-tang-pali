@@ -1,0 +1,918 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn6",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn6_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "c33c3dc944ec6e3a2f02c59603c77c24edb93ba5072696ffa2e01d27905d3405"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn6_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "ed21f913cb3535e65ea1ff520b9842c77b4a529bc42aacf23d049f6cfecdac53"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/dn/dn6_translation-vi-project.json",
+      "commit": "a0408ff8d814d796c8b1cf0bbda5dbfaa2849820",
+      "sha256": "1e2b61f3a4c81c0e3884572912d5f0563159ff92ad04f6170337cd2e98fe1f67"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn6.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "7ce97875435ba969f0f5dc760a15095ae91ce74b7c74edb2df48b30886edc6f5"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/dn/dn6_comment-vi-project.json",
+      "commit": "a0408ff8d814d796c8b1cf0bbda5dbfaa2849820",
+      "sha256": "068405824cb615c19be9aebb7ff17ff4f51981c6630afad145a09412f2619c54"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "setting",
+      "title": "Nhan đề và sứ giả đến Vesālī",
+      "segments": [
+        "dn6:0.1",
+        "dn6:0.2",
+        "dn6:1.0",
+        "dn6:1.1",
+        "dn6:1.2",
+        "dn6:1.3",
+        "dn6:1.4",
+        "dn6:1.5"
+      ],
+      "summary": "Trường Bộ 6, Mahāli; nhãn mục sứ giả. Người truyền kinh: Phật ở Vesālī, Đại Lâm, giảng đường Trùng Các. Sứ giả bà-la-môn Kosala/Magadha ở vì công việc, nghe sa-môn Gotama Sakya xuất gia đang ở đó."
+    },
+    {
+      "id": "reputation",
+      "title": "Tiếng tốt và mong gặp",
+      "segments": [
+        "dn6:1.6",
+        "dn6:1.7",
+        "dn6:1.8",
+        "dn6:1.9",
+        "dn6:1.10"
+      ],
+      "summary": "Danh hiệu đầy đủ, tự chứng thế giới với trời/Māra/Phạm thiên/sa-môn/bà-la-môn/trời-người rồi giảng; pháp tốt đầu/giữa/cuối, đủ nghĩa/văn, phạm hạnh viên mãn thanh tịnh. Nghĩ gặp bậc ấy tốt."
+    },
+    {
+      "id": "emissaries",
+      "title": "Sứ giả chờ vì Phật độc cư",
+      "segments": [
+        "dn6:2.1",
+        "dn6:2.2",
+        "dn6:2.3",
+        "dn6:2.4",
+        "dn6:2.5",
+        "dn6:2.6",
+        "dn6:2.7",
+        "dn6:2.8"
+      ],
+      "summary": "Sứ giả đến Nāgita, thị giả, hỏi nơi ở để gặp Phật. Được trả lời chưa phải lúc, Ngài độc cư; ngồi một bên quyết chờ gặp rồi mới đi."
+    },
+    {
+      "id": "licchavis",
+      "title": "Oṭṭhaddha cũng chờ",
+      "segments": [
+        "dn6:3.0",
+        "dn6:3.1",
+        "dn6:3.2",
+        "dn6:3.3",
+        "dn6:3.4",
+        "dn6:3.5",
+        "dn6:3.6"
+      ],
+      "summary": "Nhãn mục; Oṭṭhaddha Licchavi với đông hội chúng lễ Nāgita, đứng một bên hỏi gặp Phật A-la-hán Chánh Đẳng Giác. Được gọi Mahāli, đáp chưa phải lúc; ngồi chờ gặp mới đi."
+    },
+    {
+      "id": "novice",
+      "title": "Sīha thưa và sửa soạn chỗ ngồi",
+      "segments": [
+        "dn6:4.1",
+        "dn6:4.2",
+        "dn6:4.3",
+        "dn6:4.4",
+        "dn6:4.5",
+        "dn6:4.6",
+        "dn6:4.7",
+        "dn6:4.8",
+        "dn6:4.9"
+      ],
+      "summary": "Sa-di Sīha lễ Nāgita, gọi Kassapa, báo hai đoàn và xin gặp. Nāgita bảo tự thưa; Sīha vâng, lễ/thưa Phật. Phật bảo trải chỗ bóng mát trú xá, Sīha làm; Phật ra ngồi. Không thêm trước/sau."
+    },
+    {
+      "id": "question",
+      "title": "Lời Sunakkhatta được thuật lại",
+      "segments": [
+        "dn6:5.1",
+        "dn6:5.2",
+        "dn6:5.3",
+        "dn6:5.4",
+        "dn6:5.5"
+      ],
+      "summary": "Sứ giả chào/ngồi; Oṭṭhaddha và hội chúng lễ/ngồi. Vài ngày trước Sunakkhatta nói sắp ba năm nương Phật: thấy sắc cõi trời đáng ưa/liên hệ dục/gây tham, không nghe âm cùng loại. Mahāli hỏi âm không được nghe có tồn tại không."
+    },
+    {
+      "id": "existence",
+      "title": "Có nhưng không nghe được",
+      "segments": [
+        "dn6:5.6.0",
+        "dn6:5.7",
+        "dn6:6.1"
+      ],
+      "summary": "Nhãn định một phương diện. Phật xác nhận có, Sunakkhatta không nghe, không phải không tồn tại. Mahāli hỏi nhân và duyên."
+    },
+    {
+      "id": "seeing",
+      "title": "Định chỉ nhằm thấy",
+      "segments": [
+        "dn6:6.2",
+        "dn6:6.3",
+        "dn6:6.4",
+        "dn6:6.5",
+        "dn6:6.6",
+        "dn6:7.1",
+        "dn6:7.2",
+        "dn6:7.3",
+        "dn6:7.4",
+        "dn6:7.5",
+        "dn6:7.6",
+        "dn6:7.7",
+        "dn6:7.8"
+      ],
+      "summary": "Hướng Đông tu định một phương diện thấy sắc trời đáng ưa/gắn dục/gây tham, không nhằm nghe: thấy không nghe vì tu như vậy. Lặp Nam/Tây/Bắc/trên/dưới/ngang đủ cùng quan hệ mục đích–kết quả–nguyên nhân."
+    },
+    {
+      "id": "hearing",
+      "title": "Định chỉ nhằm nghe",
+      "segments": [
+        "dn6:8.1",
+        "dn6:8.2",
+        "dn6:8.3",
+        "dn6:8.4",
+        "dn6:8.5",
+        "dn6:9.1",
+        "dn6:9.2",
+        "dn6:9.3",
+        "dn6:9.4",
+        "dn6:9.5",
+        "dn6:9.6",
+        "dn6:9.7",
+        "dn6:9.8"
+      ],
+      "summary": "Hướng Đông tu một phương diện nghe tiếng trời, không nhằm thấy: nghe không thấy do tu vậy. Nam/Tây/Bắc/trên/dưới/ngang cùng mẫu; đối tượng đáng ưa/gắn dục/gây tham."
+    },
+    {
+      "id": "both",
+      "title": "Định nhằm cả thấy và nghe",
+      "segments": [
+        "dn6:10.1",
+        "dn6:10.2",
+        "dn6:10.3",
+        "dn6:10.4",
+        "dn6:10.5",
+        "dn6:11.1",
+        "dn6:11.2",
+        "dn6:11.3",
+        "dn6:11.4",
+        "dn6:11.5",
+        "dn6:11.6",
+        "dn6:11.7",
+        "dn6:11.8",
+        "dn6:11.9"
+      ],
+      "summary": "Hướng Đông tu cả hai phương diện thấy/nghe hai loại đối tượng trời; thấy và nghe do tu vậy. Lặp đủ Nam/Tây/Bắc/trên/dưới/ngang. Kết đây là nhân duyên Sunakkhatta không nghe âm vốn có."
+    },
+    {
+      "id": "purpose",
+      "title": "Mục tiêu phạm hạnh cao hơn",
+      "segments": [
+        "dn6:12.1",
+        "dn6:12.2",
+        "dn6:12.3"
+      ],
+      "summary": "Mahāli suy tỳ-kheo tu vì chứng các định ấy; Phật bác, còn pháp khác cao hơn và thù thắng hơn mới là mục đích phạm hạnh."
+    },
+    {
+      "id": "stream",
+      "title": "Dự lưu",
+      "segments": [
+        "dn6:13.0",
+        "dn6:13.1",
+        "dn6:13.2",
+        "dn6:13.3"
+      ],
+      "summary": "Nhãn bốn Thánh quả; Mahāli hỏi pháp cao hơn. Đoạn ba kiết sử, Dự lưu không đọa thấp, chắc chắn hướng giác ngộ; đây là mục tiêu cao/thù thắng hơn."
+    },
+    {
+      "id": "once",
+      "title": "Nhất lai",
+      "segments": [
+        "dn6:13.4",
+        "dn6:13.5"
+      ],
+      "summary": "Đoạn ba kiết sử, tham/sân/si mỏng; trở lại thế giới này một lần rồi tận khổ; đây cũng cao/thù thắng hơn."
+    },
+    {
+      "id": "nonreturn",
+      "title": "Không trở lại",
+      "segments": [
+        "dn6:13.6",
+        "dn6:13.7"
+      ],
+      "summary": "Đoạn năm hạ phần kiết sử; hóa sinh, nhập Niết-bàn tại đó, không từ thế giới ấy trở lại; cao/thù thắng hơn. Không đổi tại đó thành tại Vesālī."
+    },
+    {
+      "id": "liberation",
+      "title": "Tâm và tuệ giải thoát",
+      "segments": [
+        "dn6:13.8",
+        "dn6:13.9",
+        "dn6:13.10"
+      ],
+      "summary": "Tận lậu hoặc, ngay hiện đời tự thắng tri/chứng và an trú tâm giải thoát vô lậu, tuệ giải thoát; cao/thù thắng hơn. Kết cả các pháp ấy là mục tiêu. HTML bỏ nhánh này nhưng Pāli/EN có."
+    },
+    {
+      "id": "path",
+      "title": "Con đường tám chi",
+      "segments": [
+        "dn6:14.0",
+        "dn6:14.1",
+        "dn6:14.2",
+        "dn6:14.3",
+        "dn6:14.4",
+        "dn6:14.5",
+        "dn6:14.6"
+      ],
+      "summary": "Nhãn; Mahāli hỏi có đường và lối tu không, được có, hỏi đường nào: Thánh đạo tám chi đủ kiến/tư duy/ngữ/nghiệp/mạng/tinh tấn/niệm/định; xác nhận đưa đến chứng các pháp ấy."
+    },
+    {
+      "id": "past",
+      "title": "Cuộc hỏi của hai vị xuất gia",
+      "segments": [
+        "dn6:15.0",
+        "dn6:15.1",
+        "dn6:15.2",
+        "dn6:15.3",
+        "dn6:15.4",
+        "dn6:15.5"
+      ],
+      "summary": "Nhãn; Phật kể tại Ghosita, Kosambī: du sĩ Muṇḍiya và Jāliya học trò Dārupattika đến chào, đứng bên; hỏi jīva/thân cùng một hay khác. Giữ lời hỏi, không tự khẳng định linh hồn. Giữ danh xưng Dārupattika; cách Sujato mở nghĩa là vị tu dùng bát gỗ thuộc nguồn tham khảo, không xác định thêm lai lịch."
+    },
+    {
+      "id": "first-jhana",
+      "title": "Giới và sơ thiền",
+      "segments": [
+        "dn6:16.1",
+        "dn6:16.2",
+        "dn6:16.3",
+        "dn6:16.4",
+        "dn6:16.5",
+        "dn6:16.6",
+        "dn6:16.7",
+        "dn6:16.8",
+        "dn6:16.9",
+        "dn6:16.10",
+        "dn6:16.11",
+        "dn6:16.12",
+        "dn6:16.13",
+        "dn6:16.14"
+      ],
+      "summary": "Phật bảo nghe/chú tâm, hai vị vâng. Như Lai A-la-hán Chánh Đẳng Giác xuất hiện; văn lược tới thành tựu giới, sơ thiền. Hỏi người biết/thấy vậy nói đồng/khác có thích hợp không; hai vị đáp có. Phật biết/thấy nhưng không tuyên bố cả hai. Không gán đáp có cho Phật."
+    },
+    {
+      "id": "later-jhana",
+      "title": "Thiền hai đến bốn",
+      "segments": [
+        "dn6:17.1",
+        "dn6:17.2",
+        "dn6:17.3",
+        "dn6:17.4",
+        "dn6:17.5",
+        "dn6:17.6",
+        "dn6:17.7",
+        "dn6:17.8",
+        "dn6:17.9",
+        "dn6:17.10"
+      ],
+      "summary": "Nêu thiền hai/ba/bốn; cùng câu hỏi có thích hợp tuyên bố đồng/khác, hai vị đáp có; Phật biết/thấy nhưng không tuyên bố cả hai. Không tự mở các chặng lược chưa viện nguồn."
+    },
+    {
+      "id": "knowledge",
+      "title": "Hướng tâm đến tri kiến",
+      "segments": [
+        "dn6:18.1",
+        "dn6:18.2",
+        "dn6:18.3",
+        "dn6:18.4",
+        "dn6:18.5",
+        "dn6:18.6",
+        "dn6:18.7",
+        "dn6:18.8",
+        "dn6:18.9"
+      ],
+      "summary": "Hướng/nghiêng tâm đến tri kiến; lặp hỏi hai mệnh đề, hai vị đáp có, Phật không nói đồng/khác dù biết/thấy. Dấu lược có thật."
+    },
+    {
+      "id": "final-answer",
+      "title": "Đổi sang không thích hợp ở chặng cuối",
+      "segments": [
+        "dn6:19.1",
+        "dn6:19.2",
+        "dn6:19.3",
+        "dn6:19.4",
+        "dn6:19.5",
+        "dn6:19.6",
+        "dn6:19.7",
+        "dn6:19.8"
+      ],
+      "summary": "Biết không còn hiện hữu như thế nữa; hỏi hai mệnh đề, lần này hai vị đáp không thích hợp. Phật vẫn biết/thấy và không tuyên bố cả hai. Pāli na kallaṁ không được bỏ theo HTML."
+    },
+    {
+      "id": "ending",
+      "title": "Mahāli tán đồng",
+      "segments": [
+        "dn6:19.9",
+        "dn6:19.10",
+        "dn6:19.11"
+      ],
+      "summary": "Phật nói xong Oṭṭhaddha hoan hỷ tán đồng; nhãn Kinh Mahāli kết thứ sáu. Không thêm quy y/chứng quả của Mahāli."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "DN6 — Học một khả năng và nhớ mục đích lớn hơn",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Những người đợi gặp Phật",
+          "meaningUnits": [
+            "setting",
+            "reputation"
+          ],
+          "paragraphs": [
+            "Kinh Mahāli là bài 6 của Trường Bộ. Người truyền kinh kể Phật ở giảng đường Trùng Các, một ngôi nhà có mái cao trong Đại Lâm gần Vesālī. Các sứ giả bà-la-môn từ Kosala và Magadha đang ở thành ấy vì công việc. Họ nghe rằng sa-môn Gotama, người xuất gia từ dòng Sakya, đang ở gần đó.",
+            "Tiếng tốt về Ngài kể đủ các phẩm chất: bậc A-la-hán đã giải thoát; Chánh Đẳng Giác giác ngộ trọn vẹn; đầy đủ sự biết và hạnh sống; Thiện Thệ; hiểu thế gian; người hướng dẫn tối cao cho người cần rèn luyện; thầy của trời và người; bậc giác ngộ được tôn kính.",
+            "Họ nghe Ngài tự mình chứng biết thế giới với chư thiên, Māra, Phạm thiên, các sa-môn, bà-la-môn, trời và người, rồi chỉ bày điều đã biết. Pháp Ngài dạy tốt ở đầu, giữa và cuối, đủ nghĩa và lời; đời tu trong sạch được chỉ ra trọn vẹn. Họ nghĩ gặp được bậc như vậy là điều tốt."
+          ]
+        },
+        {
+          "id": "waiting",
+          "kind": "teaching",
+          "heading": "Chờ đúng lúc và nhờ Sīha thưa",
+          "meaningUnits": [
+            "emissaries",
+            "licchavis",
+            "novice"
+          ],
+          "paragraphs": [
+            "Các sứ giả đến hỏi thị giả Nāgita, vị giúp việc cho Phật. Nāgita nói chưa phải lúc, vì Phật đang ở riêng. Họ ngồi một bên và quyết đợi gặp rồi mới đi.",
+            "Oṭṭhaddha, người Licchavi, cũng đến với một đoàn đông. Ông lễ Nāgita rồi đứng một bên xin gặp Phật, bậc A-la-hán Chánh Đẳng Giác. Nāgita gọi ông là Mahāli và trả lời cũng chưa phải lúc. Mahāli ngồi xuống đợi.",
+            "Sa-di Sīha, một người xuất gia còn học, lễ Nāgita và gọi vị ấy là Kassapa khi thưa về cả hai đoàn. Nāgita bảo Sīha tự trình Phật. Sīha vâng, đến lễ rồi thưa. Phật bảo trải chỗ ngồi trong bóng mát của nơi ở. Sīha làm xong, Phật ra ngồi ở đó."
+          ]
+        },
+        {
+          "id": "question",
+          "kind": "teaching",
+          "heading": "Thấy được nhưng chưa nghe được",
+          "meaningUnits": [
+            "question",
+            "existence"
+          ],
+          "paragraphs": [
+            "Các sứ giả đến chào rồi ngồi; Mahāli và đoàn Licchavi đến lễ rồi ngồi. Mahāli kể: vài ngày trước, Sunakkhatta nói đã sống nương Phật sắp được ba năm. Vị ấy thấy sắc tướng cõi trời đáng ưa, gắn với ham thích và dễ làm say đắm, nhưng không nghe được âm thanh cõi trời có những tính chất ấy.",
+            "Mahāli hỏi những âm thanh không được nghe ấy có tồn tại không. Phật đáp có; Sunakkhatta không nghe được, chứ không phải chúng không có. Mahāli hỏi tiếp vì nhân duyên nào. Đây là chuyện cõi trời theo lời kinh, không phải lời diễn giải đổi nó thành một trò tưởng tượng."
+          ]
+        },
+        {
+          "id": "three-cases",
+          "kind": "teaching",
+          "heading": "Ba cách tu định, ba kết quả",
+          "meaningUnits": [
+            "seeing",
+            "hearing",
+            "both"
+          ],
+          "paragraphs": [
+            "Phật giải thích trường hợp một tỳ-kheo, tức một nhà sư, tu định, rèn tâm tập trung, ở phía Đông chỉ để thấy sắc cõi trời đáng ưa, gắn với dục và gây say đắm, không để nghe âm thanh. Vì tu theo một mặt ấy, vị ấy thấy mà không nghe. Cùng cách đó được nói cho phía Nam, Tây, Bắc, trên, dưới và ngang.",
+            "Trường hợp thứ hai cũng ở đủ các hướng ấy, nhưng định chỉ nhằm nghe âm thanh cõi trời, không nhằm thấy sắc. Vì tu một mặt nghe, vị ấy nghe mà không thấy. Trường hợp thứ ba tu cả hai mặt: nhằm thấy sắc lẫn nghe tiếng, nên thấy và nghe; cũng áp dụng từ Đông đến Nam, Tây, Bắc, trên, dưới, ngang.",
+            "Mỗi trường hợp đều có mục đích tu, kết quả tương ứng và lời giải thích vì sao. Phật kết đó là nhân duyên khiến Sunakkhatta không nghe những âm thanh vốn có. Một phương diện ở đây nói mặt thấy hoặc mặt nghe, không chỉ hướng Đông hay hướng Tây."
+          ]
+        },
+        {
+          "id": "greater",
+          "kind": "teaching",
+          "heading": "Những việc cao hơn điều kỳ lạ",
+          "meaningUnits": [
+            "purpose",
+            "stream",
+            "once"
+          ],
+          "paragraphs": [
+            "Mahāli tưởng các tỳ-kheo theo Phật sống đời tu trong sạch là để đạt các cách định ấy. Phật nói mục đích là những pháp khác cao hơn và thù thắng hơn. Khi Mahāli hỏi đó là gì, Ngài lần lượt nêu các thành tựu.",
+            "Thứ nhất là Dự lưu: ba kiết sử, ba dây trói tâm được dứt. Vị ấy không còn rơi vào cảnh giới thấp, chắc chắn hướng đến giác ngộ. Thứ hai là Nhất lai: ba dây trói ấy dứt, tham, sân và si mỏng đi; chỉ trở lại thế giới này một lần nữa rồi chấm dứt khổ. Mỗi thành tựu ấy được Phật gọi là cao hơn và thù thắng hơn các định vừa nói."
+          ]
+        },
+        {
+          "id": "freedom",
+          "kind": "teaching",
+          "heading": "Hai thành tựu tiếp theo",
+          "meaningUnits": [
+            "nonreturn",
+            "liberation"
+          ],
+          "paragraphs": [
+            "Thứ ba, năm hạ phần kiết sử, những dây trói thuộc phần thấp, được dứt. Vị ấy hóa sinh ở một thế giới khác, tức sinh theo cách kinh gọi là hóa sinh, rồi nhập Niết-bàn tại đó và không trở lại từ thế giới ấy. Đây là lời dạy về tái sinh và giải thoát, không chỉ là đổi tâm trạng.",
+            "Thứ tư, các lậu hoặc, những ô nhiễm trói buộc sâu trong tâm, được dứt. Ngay trong đời này, vị ấy tự chứng biết và sống trong tâm giải thoát không còn lậu hoặc cùng tuệ giải thoát. Phật xác nhận cả hai thành tựu này cũng cao hơn, thù thắng hơn; chính các pháp ấy là mục tiêu đời phạm hạnh."
+          ]
+        },
+        {
+          "id": "path",
+          "kind": "teaching",
+          "heading": "Con đường có tám phần",
+          "meaningUnits": [
+            "path"
+          ],
+          "paragraphs": [
+            "Mahāli hỏi có con đường, cách thực hành nào đi đến những thành tựu ấy không. Phật đáp có. Ông hỏi đó là đường nào, và Phật nêu Thánh đạo tám chi.",
+            "Tám phần là chánh kiến, cách thấy hiểu đúng; chánh tư duy, hướng nghĩ đúng; chánh ngữ, lời nói đúng; chánh nghiệp, hành động đúng; chánh mạng, sinh sống đúng; chánh tinh tấn, cố gắng đúng; chánh niệm, ghi nhận đúng; chánh định, tập trung đúng. Đó là con đường Phật xác nhận đưa đến chứng ngộ những pháp ấy."
+          ]
+        },
+        {
+          "id": "old-question",
+          "kind": "teaching",
+          "heading": "Một cuộc hỏi đáp được kể lại",
+          "meaningUnits": [
+            "past",
+            "first-jhana"
+          ],
+          "paragraphs": [
+            "Phật kể tiếp chuyện trước đây tại tu viện Ghosita gần Kosambī. Du sĩ Muṇḍiya và Jāliya, học trò của Dārupattika, đến chào rồi đứng một bên. Họ hỏi: sinh mệnh và thân thể là cùng một hay là hai thứ khác nhau?",
+            "Phật bảo nghe và chú tâm; hai người vâng. Ngài nói về Như Lai, bậc A-la-hán Chánh Đẳng Giác, xuất hiện ở đời. Bản kinh lược phần giữa rồi nêu vị tu thành tựu giới và đạt thiền thứ nhất. Phật hỏi một người biết, thấy như vậy có thích hợp nói sinh mệnh và thân là một, hoặc là khác, không.",
+            "Hai người đáp có. Phật nói Ngài cũng biết và thấy như vậy, nhưng không tuyên bố một trong hai điều ấy. Câu đáp có là của hai người hỏi; đó chưa phải kết luận của Phật."
+          ]
+        },
+        {
+          "id": "stages",
+          "kind": "teaching",
+          "heading": "Qua các chặng mà câu hỏi vẫn được xét",
+          "meaningUnits": [
+            "later-jhana",
+            "knowledge",
+            "final-answer"
+          ],
+          "paragraphs": [
+            "Kinh nhắc thiền thứ hai, thứ ba và thứ tư. Ở chặng này, Phật lại hỏi có thích hợp nói sinh mệnh và thân cùng một hay khác không. Hai người đáp có; Phật vẫn nói Ngài biết, thấy nhưng không tuyên bố hai điều ấy.",
+            "Khi người tu hướng tâm đến tri kiến, sự biết và thấy, cuộc hỏi đáp lặp lại: hai người vẫn đáp có; Phật vẫn không nói cùng một hoặc khác. Các dấu lược được giữ là phần lược, không phải kinh ở đây đã kể đủ mọi chi tiết.",
+            "Đến chặng người tu biết không còn trở lại sự hiện hữu như thế nữa, Phật hỏi lại. Lần này hai người đáp không thích hợp. Phật nói Ngài biết, thấy như vậy và không tuyên bố sinh mệnh với thân là một hay khác. Sự đổi từ có sang không là một phần quan trọng của cuộc đối thoại."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Điều Mahāli nghe được",
+          "meaningUnits": [
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật nói xong, Oṭṭhaddha, tức người được gọi Mahāli trong cuộc chuyện trò, hoan hỷ tán đồng. Dòng kết của ấn bản ghi Kinh Mahāli, bài thứ sáu, đã hết. Bài không kể Mahāli đã chứng quả hay được khả năng thấy nghe cõi trời."
+          ]
+        },
+        {
+          "id": "clarify",
+          "kind": "clarification",
+          "heading": "Giữ câu hỏi đúng phạm vi",
+          "meaningUnits": [
+            "past",
+            "final-answer",
+            "purpose"
+          ],
+          "paragraphs": [
+            "Sinh mệnh là cách bản diễn giải gọi chữ jīva trong câu hỏi của hai vị xuất gia. Việc họ hỏi không tự chứng minh có một linh hồn bất biến. Phật trong chuyện không chọn một trong hai câu trả lời ấy. Mục tiêu được nói rõ trước đó vẫn là đường tu và giải thoát, không phải hơn thua về khả năng lạ.",
+            "Dārupattika là tên gọi được giữ lại khi nói đến thầy của Jāliya. Bản Anh Sujato diễn tên ấy là vị tu dùng bát gỗ; bản này không kể thêm lai lịch người thầy."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ: giỏi một việc chưa phải giỏi mọi việc",
+          "meaningUnits": [
+            "seeing",
+            "hearing",
+            "both",
+            "purpose"
+          ],
+          "paragraphs": [
+            "Một bạn luyện đọc nhạc bằng mắt nhiều, bạn khác luyện nghe giai điệu. Hai người có thể làm tốt những việc khác nhau. Ví dụ này giúp thấy việc rèn mặt nào liên quan đến mặt làm được; nó không giải thích hay chứng minh những khả năng cõi trời trong kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Hỏi mình đang học để làm gì",
+          "meaningUnits": [
+            "purpose",
+            "path"
+          ],
+          "paragraphs": [
+            "Khi muốn một khả năng khiến mọi người chú ý, em có thể tự hỏi nó giúp em hiểu đúng, nói thật hoặc bớt làm hại ra sao. Chọn một hành động nhỏ theo hướng ấy. Đây là liên hệ biên tập, không phải cách đạt Thánh quả bằng một bài tập ngắn."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "DN6 — Từ khả năng của định đến mục tiêu giải thoát",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Các đoàn khách ở Vesālī",
+          "meaningUnits": [
+            "setting",
+            "reputation",
+            "emissaries",
+            "licchavis"
+          ],
+          "paragraphs": [
+            "DN6 mang tên Mahāli. Người truyền kinh kể Phật ở Đại Lâm, giảng đường Trùng Các tại Vesālī. Sứ giả bà-la-môn của Kosala và Magadha có mặt trong thành vì công việc, nghe tiếng tốt về Gotama, người xuất gia từ dòng Sakya.",
+            "Tiếng tốt ấy nói Ngài là A-la-hán, Chánh Đẳng Giác, đầy đủ minh và hạnh, Thiện Thệ, hiểu thế gian, bậc hướng dẫn tối cao cho người cần được điều phục, thầy trời và người, Phật, Thế Tôn. Ngài tự chứng biết thế giới với chư thiên, Māra, Phạm thiên, các sa-môn, bà-la-môn, trời và người rồi tuyên thuyết. Pháp tốt ở đầu, giữa, cuối, đủ nghĩa và lời, chỉ bày phạm hạnh hoàn toàn đầy đủ, thanh tịnh. Nghĩ việc gặp bậc ấy là tốt, các sứ giả tìm đến.",
+            "Thị giả Nāgita cho biết Phật đang độc cư, chưa phải lúc tiếp khách. Họ ngồi một bên, quyết chờ gặp rồi mới đi. Oṭṭhaddha cùng đông người Licchavi cũng đến lễ Nāgita, đứng xin gặp Phật, bậc A-la-hán Chánh Đẳng Giác. Được Nāgita gọi là Mahāli và trả lời tương tự, ông cũng ngồi chờ."
+          ]
+        },
+        {
+          "id": "meeting",
+          "kind": "teaching",
+          "heading": "Sa-di Sīha làm cầu nối cho cuộc gặp",
+          "meaningUnits": [
+            "novice",
+            "question",
+            "existence"
+          ],
+          "paragraphs": [
+            "Sa-di Sīha đến lễ Nāgita, gọi vị ấy là Kassapa khi thưa rằng cả hai đoàn mong gặp Phật. Nāgita bảo Sīha tự trình. Sīha vâng, đến lễ và thưa; Phật bảo trải chỗ ngồi trong bóng mát của trú xá. Sīha làm theo, Phật ra ngồi. Sứ giả đến chào rồi ngồi, còn Mahāli và hội chúng đến lễ rồi ngồi.",
+            "Mahāli thuật lời Sunakkhatta nói vài ngày trước: sống nương Phật sắp được ba năm, vị ấy thấy sắc tướng cõi trời đáng ưa, liên hệ dục và gây say đắm, nhưng chưa nghe âm thanh cõi trời có cùng tính chất. Mahāli hỏi những âm thanh không nghe được ấy có tồn tại không. Phật xác nhận chúng có; sự không nghe của Sunakkhatta không có nghĩa chúng không tồn tại. Mahāli tiếp tục hỏi nhân duyên."
+          ]
+        },
+        {
+          "id": "one-aspect",
+          "kind": "teaching",
+          "heading": "Hai trường hợp định một phương diện",
+          "meaningUnits": [
+            "seeing",
+            "hearing"
+          ],
+          "paragraphs": [
+            "Phật nêu một tỳ-kheo tu định hướng Đông nhằm thấy sắc cõi trời đáng ưa, gắn với dục và khơi say đắm, không nhằm nghe tiếng. Người ấy thấy mà không nghe, vì định đã được tu cho một phương diện ấy. Cùng mối quan hệ giữa mục đích tu, kết quả và nguyên nhân được lặp về Nam, Tây, Bắc, trên, dưới và ngang.",
+            "Trường hợp kế tiếp đảo hai phương diện: ở phía Đông, định nhằm nghe âm thanh cõi trời có các tính chất ấy, không nhằm thấy sắc. Kết quả là nghe mà không thấy, do cách tu tương ứng. Các hướng Nam, Tây, Bắc, trên, dưới và ngang cũng giữ đầy đủ trường hợp này. Một phương diện nói đến công năng thấy hoặc nghe; nó không đồng nghĩa một hướng địa lý."
+          ]
+        },
+        {
+          "id": "two-aspects",
+          "kind": "teaching",
+          "heading": "Định hướng đến cả hai công năng",
+          "meaningUnits": [
+            "both",
+            "purpose"
+          ],
+          "paragraphs": [
+            "Nếu ở phía Đông, vị ấy tu định cho cả thấy sắc lẫn nghe tiếng cõi trời đáng ưa, gắn dục, gây say đắm, thì vị ấy vừa thấy vừa nghe, do tu cả hai phương diện. Nam, Tây, Bắc, trên, dưới và ngang cũng được lặp theo cách ấy. Phật kết đó là nhân duyên khiến Sunakkhatta không nghe những âm thanh vốn có.",
+            "Mahāli suy rằng chứng các loại định ấy hẳn là mục tiêu đời phạm hạnh dưới sự hướng dẫn của Phật. Phật phủ nhận và nêu có những pháp khác cao hơn, thù thắng hơn. Đối thoại chuyển từ phạm vi một khả năng sang điều mà đời tu hướng đến."
+          ]
+        },
+        {
+          "id": "first-fruits",
+          "kind": "teaching",
+          "heading": "Dự lưu và Nhất lai",
+          "meaningUnits": [
+            "stream",
+            "once"
+          ],
+          "paragraphs": [
+            "Khi Mahāli hỏi những pháp cao hơn là gì, Phật trước hết nói Dự lưu: ba kiết sử được đoạn tận; vị ấy không đọa vào cảnh giới thấp, chắc chắn hướng đến giác ngộ. Đây là một pháp cao hơn và thù thắng hơn các định vừa nói.",
+            "Tiếp theo là Nhất lai: ngoài đoạn ba kiết sử, tham, sân và si đã mỏng đi. Vị ấy chỉ trở lại thế giới này một lần nữa rồi chấm dứt khổ. Phật cũng gọi thành tựu này là cao hơn, thù thắng hơn và là mục tiêu phạm hạnh. Kiết sử là các trói buộc; bài nêu số lượng, không giải từng tên trong các nhóm."
+          ]
+        },
+        {
+          "id": "last-fruits",
+          "kind": "teaching",
+          "heading": "Không trở lại và giải thoát ngay hiện đời",
+          "meaningUnits": [
+            "nonreturn",
+            "liberation"
+          ],
+          "paragraphs": [
+            "Thành tựu thứ ba: đoạn năm hạ phần kiết sử, vị ấy hóa sinh, nhập Niết-bàn tại đó và không trở lại từ thế giới ấy. Các mệnh đề chỉ nơi và sự không trở lại thuộc nội dung giải thoát, tái sinh của kinh; không thay bằng một mô tả tâm lý trong ngày.",
+            "Thứ tư: lậu hoặc đã tận, vị ấy tự mình trực tiếp chứng biết và an trú tâm giải thoát vô lậu cùng tuệ giải thoát ngay đời hiện tại. Lậu hoặc chỉ những ô nhiễm trói buộc sâu của tâm. Mỗi thành tựu này đều được gọi là cao hơn, thù thắng hơn; Phật khép phần ấy bằng việc xác nhận các pháp đó là mục đích của đời phạm hạnh."
+          ]
+        },
+        {
+          "id": "path",
+          "kind": "teaching",
+          "heading": "Con đường để chứng ngộ",
+          "meaningUnits": [
+            "path"
+          ],
+          "paragraphs": [
+            "Mahāli hỏi có con đường và phương pháp thực hành đưa đến các pháp ấy không. Sau lời xác nhận có, ông hỏi đó là đường nào. Phật nêu Thánh đạo tám chi: chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm và chánh định.",
+            "Tám chi bao gồm thấy hiểu, định hướng tư duy, lời nói, hành động, sinh kế, nỗ lực, niệm và định theo hướng chân chánh. Phật xác nhận chính con đường ấy đưa đến chứng ngộ những pháp đã nêu. Bài không đưa một con đường tắt chỉ gồm phát triển khả năng thấy hoặc nghe khác thường."
+          ]
+        },
+        {
+          "id": "old-dialogue",
+          "kind": "teaching",
+          "heading": "Câu hỏi sinh mệnh và thân thể",
+          "meaningUnits": [
+            "past",
+            "first-jhana"
+          ],
+          "paragraphs": [
+            "Phật kể một lần ở tu viện Ghosita tại Kosambī. Du sĩ Muṇḍiya và Jāliya, đệ tử Dārupattika, đến chào hỏi rồi đứng một bên. Họ hỏi sinh mệnh và thân thể là một, hay sinh mệnh là một thứ còn thân thể là thứ khác.",
+            "Phật yêu cầu nghe, chú tâm; hai vị vâng. Ngài trình bày việc Như Lai A-la-hán Chánh Đẳng Giác xuất hiện ở đời. Văn bản tại đây lược các chặng rồi nêu thành tựu giới và thiền thứ nhất. Ngài hỏi người biết và thấy như thế có thích hợp tuyên bố sinh mệnh và thân đồng nhất hoặc khác nhau không. Hai người đáp có; Phật nói Ngài biết, thấy như thế mà không tuyên bố một trong hai điều."
+          ]
+        },
+        {
+          "id": "repeated-dialogue",
+          "kind": "teaching",
+          "heading": "Hai lần đáp có và lần cuối đáp không",
+          "meaningUnits": [
+            "later-jhana",
+            "knowledge",
+            "final-answer"
+          ],
+          "paragraphs": [
+            "Đến thiền thứ hai, thứ ba và thứ tư, câu hỏi được lặp: có thích hợp nói sinh mệnh và thân là một hoặc khác không? Hai người vẫn đáp có. Phật vẫn xác nhận Ngài biết, thấy nhưng không phát biểu một trong hai mệnh đề.",
+            "Ở chặng hướng và nghiêng tâm đến tri kiến, sự biết và thấy, cùng cấu trúc tiếp tục: câu hỏi, lời đáp có của hai vị, rồi lời Phật không tuyên bố đồng nhất hay khác biệt. Giữ người nói là cần thiết để không biến câu đáp của khách thành lập trường của Phật.",
+            "Khi đến tri kiến không còn trở lại sự hiện hữu như thế nữa, câu hỏi được đặt lại và hai vị đổi đáp thành không thích hợp. Phật nói Ngài biết, thấy như vậy mà không tuyên bố sinh mệnh và thân là một hoặc khác. Văn bản có các dấu lược; bản diễn giải giữ các mốc được nêu và không tự điền cả một bài giảng khác vào đó."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Kết cuộc với Mahāli",
+          "meaningUnits": [
+            "ending"
+          ],
+          "paragraphs": [
+            "Sau lời Phật, Oṭṭhaddha người Licchavi hoan hỷ tán đồng. Dòng cuối của ấn bản ghi Kinh Mahāli kết thúc, thứ sáu. Không có lời xác nhận Mahāli chứng quả hoặc nhận được các khả năng cõi trời."
+          ]
+        },
+        {
+          "id": "scope",
+          "kind": "clarification",
+          "heading": "Không suy vượt câu trả lời trong kinh",
+          "meaningUnits": [
+            "existence",
+            "past",
+            "final-answer"
+          ],
+          "paragraphs": [
+            "Cõi trời và các khả năng thấy nghe được giữ theo lời kinh, không được đổi thành kết luận khoa học hiện đại. Jīva ở câu hỏi được gọi là sinh mệnh; bản Anh dùng soul, bản Việt truyền thống dùng mạng căn. Việc thuật câu hỏi không mặc nhận một linh hồn bất biến, và việc Phật không tuyên bố hai mệnh đề không tự cho phép người biên tập gán cho Ngài một học thuyết thứ ba.",
+            "Danh xưng Dārupattika được giữ nguyên. Sujato diễn là vị khổ hạnh dùng bát gỗ; đây là cách mở nghĩa tên gọi của bản tham khảo, chưa dùng để xác định thêm lai lịch nhân vật."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ: năng lực chuyên môn và mục đích công việc",
+          "meaningUnits": [
+            "seeing",
+            "hearing",
+            "both",
+            "purpose"
+          ],
+          "paragraphs": [
+            "Một người được đào tạo tốt về phân tích dữ liệu chưa chắc đã giỏi giải thích kết quả trước hội đồng. Đào tạo hai mặt có thể phục vụ cả hai công việc, nhưng mục đích của dự án vẫn cần được hỏi riêng. Ví dụ chỉ minh họa sự phân biệt giữa phạm vi rèn luyện và mục tiêu; không chứng minh hay thay thế chuyện định và cõi trời."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Đặt lại câu hỏi về mục đích",
+          "meaningUnits": [
+            "purpose",
+            "path"
+          ],
+          "paragraphs": [
+            "Có thể xét một kỹ năng mình đang theo đuổi: nó là mục tiêu cuối, hay đang phục vụ một việc có giá trị hơn? Trong liên hệ với bài kinh, thử gắn một lựa chọn cụ thể với lời nói, hành động hoặc sinh kế chân chánh. Đây là gợi ý biên tập hữu hạn, không hứa đạt một quả tu chỉ bằng việc đặt câu hỏi."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "DN6 — Nhìn rõ điều đang tu và điều hướng tới",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Một cuộc gặp có nhiều người chờ đợi",
+          "meaningUnits": [
+            "setting",
+            "reputation"
+          ],
+          "paragraphs": [
+            "Bài 6 của Trường Bộ là Kinh Mahāli. Người truyền kinh thuật Phật ở Đại Lâm, giảng đường Trùng Các gần Vesālī. Các sứ giả bà-la-môn từ Kosala và Magadha đang ở đó vì công việc. Họ nghe về Gotama, người đã xuất gia từ dòng Sakya, và mong được gặp.",
+            "Tiếng tốt họ nghe nhắc Ngài là A-la-hán, Chánh Đẳng Giác, đầy đủ sự biết và hạnh sống, Thiện Thệ, hiểu thế gian, bậc hướng dẫn tối cao cho người cần rèn luyện, thầy của trời và người, Phật và Thế Tôn. Ngài tự mình chứng biết thế giới với chư thiên, Māra, Phạm thiên, sa-môn, bà-la-môn, trời và người, rồi chỉ bày điều đã chứng.",
+            "Pháp được kể là tốt ở đầu, giữa và cuối, có nghĩa, có lời, hiển bày đời phạm hạnh đầy đủ và trong sạch. Các sứ giả nghĩ được gặp một bậc như vậy là điều tốt. Đây là tiếng tốt các nhân vật nghe trước cuộc gặp."
+          ]
+        },
+        {
+          "id": "waiting",
+          "kind": "teaching",
+          "heading": "Từ lời xin gặp đến chỗ ngồi bóng mát",
+          "meaningUnits": [
+            "emissaries",
+            "licchavis",
+            "novice"
+          ],
+          "paragraphs": [
+            "Khi các sứ giả tìm đến, thị giả Nāgita cho biết chưa phải lúc vì Phật đang độc cư. Họ ngồi một bên, quyết đợi gặp rồi mới đi. Oṭṭhaddha cùng đông người Licchavi cũng đến lễ Nāgita, đứng xin gặp Phật, bậc A-la-hán Chánh Đẳng Giác. Nāgita gọi ông là Mahāli, cho biết cũng chưa phải lúc. Ông ngồi xuống chờ.",
+            "Sa-di Sīha đến lễ Nāgita, thưa với tên gọi Kassapa rằng cả hai đoàn đang mong gặp Phật. Được bảo tự trình, Sīha vâng, đến lễ Phật rồi thưa về họ. Phật bảo Sīha trải chỗ ngồi trong bóng mát của trú xá. Sīha làm xong, Phật ra ngồi. Bản kinh nói bóng mát, không xác định thêm trước hay sau nhà."
+          ]
+        },
+        {
+          "id": "question",
+          "kind": "teaching",
+          "heading": "Một điều chưa nghe được có tồn tại không?",
+          "meaningUnits": [
+            "question",
+            "existence"
+          ],
+          "paragraphs": [
+            "Các sứ giả đến chào hỏi rồi ngồi một bên. Mahāli và hội chúng Licchavi đến lễ rồi ngồi. Ông kể vài ngày trước Sunakkhatta nói mình đã sống nương Phật sắp được ba năm: thấy sắc tướng cõi trời đáng ưa, gắn với dục và khiến say đắm, nhưng không nghe những âm thanh cõi trời cũng đáng ưa, gắn dục, gây say đắm.",
+            "Mahāli hỏi những âm thanh Sunakkhatta không nghe có thật không. Phật xác nhận có; không nghe được không có nghĩa chúng không tồn tại. Ông hỏi tiếp do nhân gì, duyên gì. Bài kinh trả lời bằng hướng tu của định, sự tập trung của tâm."
+          ]
+        },
+        {
+          "id": "seeing",
+          "kind": "teaching",
+          "heading": "Khi định chỉ nhằm thấy",
+          "meaningUnits": [
+            "seeing"
+          ],
+          "paragraphs": [
+            "Phật nêu một tỳ-kheo tu định ở phía Đông nhằm thấy sắc cõi trời đáng ưa, gắn dục, gây say đắm, mà không nhằm nghe tiếng cõi trời. Vị ấy thấy nhưng không nghe, vì đã tu định cho mặt thấy ấy.",
+            "Cùng lời giải được nói cho phía Nam, Tây, Bắc, trên, dưới và ngang. Ở mỗi hướng, mục đích tu, kết quả thấy mà không nghe và nguyên nhân tương ứng được giữ đầy đủ. Một phương diện là mặt được rèn luyện, không chỉ tên của hướng."
+          ]
+        },
+        {
+          "id": "hearing-both",
+          "kind": "teaching",
+          "heading": "Khi định nhằm nghe hoặc nhằm cả hai",
+          "meaningUnits": [
+            "hearing",
+            "both"
+          ],
+          "paragraphs": [
+            "Nếu ở phía Đông, định chỉ nhằm nghe những âm thanh cõi trời đáng ưa, gắn dục, gây say đắm, không nhằm thấy sắc, thì người tu nghe nhưng không thấy. Nguyên nhân là định đã tu cho mặt nghe. Nam, Tây, Bắc, trên, dưới và ngang cũng được xét như vậy.",
+            "Nếu định ở phía Đông được tu cả hai mặt thấy sắc và nghe tiếng cõi trời có các tính chất ấy, kết quả là vừa thấy vừa nghe. Cùng trường hợp được nói về Nam, Tây, Bắc, trên, dưới và ngang. Phật kết luận đó là nhân duyên Sunakkhatta không nghe được âm thanh vốn có."
+          ]
+        },
+        {
+          "id": "purpose",
+          "kind": "teaching",
+          "heading": "Đời tu hướng đến những pháp cao hơn",
+          "meaningUnits": [
+            "purpose",
+            "stream"
+          ],
+          "paragraphs": [
+            "Mahāli cho rằng các tỳ-kheo sống phạm hạnh theo Phật hẳn nhằm chứng các loại định ấy. Phật nói có những pháp khác cao hơn, thù thắng hơn mới là mục đích. Khi ông hỏi, Ngài bắt đầu trình bày bốn thành tựu.",
+            "Dự lưu là đoạn ba kiết sử, những dây trói tâm; không rơi vào cảnh giới thấp, chắc chắn hướng đến giác ngộ. Phật gọi đây là một pháp cao hơn và thù thắng hơn các loại định vừa nêu. Bài nói số ba kiết sử, không triển khai danh mục bên trong."
+          ]
+        },
+        {
+          "id": "once-nonreturn",
+          "kind": "teaching",
+          "heading": "Nhất lai và không trở lại",
+          "meaningUnits": [
+            "once",
+            "nonreturn"
+          ],
+          "paragraphs": [
+            "Nhất lai là đoạn ba kiết sử, đồng thời tham, sân, si đã mỏng. Vị ấy chỉ trở lại thế giới này một lần nữa rồi làm khổ chấm dứt. Đây cũng là mục đích cao hơn, thù thắng hơn của phạm hạnh.",
+            "Thành tựu kế tiếp là đoạn năm hạ phần kiết sử. Vị ấy hóa sinh, nhập Niết-bàn tại đó và không trở lại từ thế giới ấy. Hóa sinh là cách sinh được bài kinh nêu, không phải tên một thay đổi vai trò trong đời sống này. Phật cũng gọi thành tựu ấy là cao hơn, thù thắng hơn."
+          ]
+        },
+        {
+          "id": "liberation",
+          "kind": "teaching",
+          "heading": "Giải thoát ngay trong đời hiện tại",
+          "meaningUnits": [
+            "liberation",
+            "path"
+          ],
+          "paragraphs": [
+            "Thứ tư, do lậu hoặc đã tận, vị ấy ngay hiện đời tự mình chứng biết và an trú tâm giải thoát không còn lậu hoặc cùng tuệ giải thoát. Lậu hoặc nói những ô nhiễm trói buộc sâu trong tâm. Phật xác nhận đây cũng là pháp cao hơn, thù thắng hơn; tất cả các thành tựu ấy là điều đời phạm hạnh hướng đến.",
+            "Mahāli hỏi có đường và cách thực hành không. Phật đáp có; khi ông hỏi đường nào, Ngài nêu Thánh đạo tám chi: chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm và chánh định. Đó là thấy hiểu, định hướng nghĩ, lời nói, hành động, sinh kế, nỗ lực, niệm và định chân chánh. Phật xác nhận đây là đường để chứng ngộ các pháp ấy."
+          ]
+        },
+        {
+          "id": "past",
+          "kind": "teaching",
+          "heading": "Phật nhắc lại câu hỏi của hai vị xuất gia",
+          "meaningUnits": [
+            "past"
+          ],
+          "paragraphs": [
+            "Tại đây, Phật kể một lần trước ở tu viện Ghosita gần Kosambī. Du sĩ Muṇḍiya và Jāliya, học trò của Dārupattika, đến chào hỏi thân thiện rồi đứng một bên.",
+            "Hai vị hỏi: sinh mệnh và thân thể là cùng một hay là hai thứ khác nhau? Phật không chọn ngay một trong hai mệnh đề. Ngài dẫn họ qua những chặng của sự tu học."
+          ]
+        },
+        {
+          "id": "first",
+          "kind": "teaching",
+          "heading": "Từ giới đến thiền thứ nhất",
+          "meaningUnits": [
+            "first-jhana"
+          ],
+          "paragraphs": [
+            "Phật bảo hai vị hãy nghe, chú tâm; họ vâng đáp. Ngài nói về Như Lai, A-la-hán, Chánh Đẳng Giác xuất hiện ở đời. Phần giữa được lược, rồi kinh nêu một tỳ-kheo thành tựu giới và chứng trú thiền thứ nhất.",
+            "Phật hỏi người biết và thấy như vậy có thích hợp tuyên bố sinh mệnh với thân là một hoặc khác không. Hai người nói có. Phật đáp Ngài biết và thấy như vậy, nhưng không tuyên bố cả hai điều ấy. Cần giữ riêng lời đáp của khách với lời xác nhận của Phật."
+          ]
+        },
+        {
+          "id": "later",
+          "kind": "teaching",
+          "heading": "Các chặng tiếp tục của cuộc đối thoại",
+          "meaningUnits": [
+            "later-jhana",
+            "knowledge"
+          ],
+          "paragraphs": [
+            "Kinh nêu thiền thứ hai, thứ ba và thứ tư. Cuộc hỏi đáp lại diễn ra: nói sinh mệnh và thân cùng một hoặc khác có thích hợp không? Hai người vẫn nói có; Phật biết, thấy như vậy nhưng vẫn không tuyên bố một trong hai điều.",
+            "Đến chặng hướng tâm, nghiêng tâm về tri kiến, tức sự biết và thấy, lời hỏi được lặp lần nữa. Hai vị nói có; Phật vẫn nói Ngài không tuyên bố đồng nhất hoặc khác biệt dù biết và thấy. Những đoạn lược là đặc điểm của bản nguồn tại đây; bản diễn giải không tự kể đầy đủ các phần không được chép."
+          ]
+        },
+        {
+          "id": "final",
+          "kind": "teaching",
+          "heading": "Câu trả lời đổi ở chặng cuối",
+          "meaningUnits": [
+            "final-answer",
+            "ending"
+          ],
+          "paragraphs": [
+            "Khi người tu biết không còn trở lại sự hiện hữu như thế nữa, Phật hỏi lại về hai mệnh đề. Lần này hai vị đáp không thích hợp. Phật nói Ngài biết, thấy như vậy nhưng không tuyên bố sinh mệnh và thân là một hoặc là khác.",
+            "Sau câu chuyện ấy, Oṭṭhaddha, người được gọi Mahāli, hoan hỷ tán đồng lời Phật. Dòng kết ghi Kinh Mahāli, bài thứ sáu, kết thúc. Không có đoạn xác nhận ông chứng quả hay được khả năng khác thường."
+          ]
+        },
+        {
+          "id": "clarify",
+          "kind": "clarification",
+          "heading": "Đọc câu hỏi mà không gán thêm học thuyết",
+          "meaningUnits": [
+            "existence",
+            "past",
+            "final-answer"
+          ],
+          "paragraphs": [
+            "Chữ jīva được diễn đạt là sinh mệnh trong câu hỏi; các bản tham khảo cũng có cách gọi linh hồn hoặc mạng căn. Không vì thuật câu hỏi mà mặc định kinh đã nhận một linh hồn bất biến. Các khả năng liên quan cõi trời được giữ theo lời kinh; bản diễn giải không dùng chúng để đưa ra kết luận y học, khoa học hay một cách luyện khả năng cho người đọc.",
+            "Dārupattika là tên gọi của thầy Jāliya trong bản Pāli. Bản Anh Sujato diễn là vị tu dùng bát gỗ; ở đây giữ tên gọi và không suy thêm tiểu sử."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ: điều mình đã rèn và điều mình hướng tới",
+          "meaningUnits": [
+            "seeing",
+            "hearing",
+            "both",
+            "purpose"
+          ],
+          "paragraphs": [
+            "Một người có nhiều kinh nghiệm chăm cây nhưng mới bắt đầu học ghi chép về các mùa trong vườn. Thành thạo một việc không tự làm mọi việc khác thành thạo. Họ cũng có thể hỏi mục đích là khoe kỹ năng hay chăm khu vườn chung tốt hơn. Ví dụ chỉ gợi sự phân biệt phạm vi rèn luyện và mục đích, không tương đương chứng nghiệm định trong kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Chọn mục đích trước khi chọn thành tích",
+          "meaningUnits": [
+            "purpose",
+            "path"
+          ],
+          "paragraphs": [
+            "Có thể nhìn lại một việc đang muốn làm tốt hơn và hỏi nó phục vụ điều gì. Nếu liên hệ với lời kinh, chọn một cách nói, việc làm hoặc sự nỗ lực chân chánh trong hoàn cảnh của mình. Đây là gợi ý biên tập nhỏ; những quả giải thoát kinh nêu không được hứa từ một lần suy xét."
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -140,3 +140,4 @@ Theo dõi bằng nội dung và lịch sử đánh giá trong kho cùng PR đã 
 - [Nguồn được khóa](../source/suttacentral.lock.json)
 - [Khai báo công cụ](../source/tooling.yaml)
 - [Báo cáo lô 15 — MN141–MN150](modern-explanations/batch-15-mn141-mn150.md)
+- [Báo cáo lô 16 — MN151–MN152 và DN1–DN8](modern-explanations/batch-16-mn151-mn152-dn1-dn8.md)

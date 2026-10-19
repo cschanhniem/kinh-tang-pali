@@ -1,0 +1,512 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn7",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn7_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "f9bc33094420668e8632a9b71de295378d33026bd6beacd644b61aa81f2fd5f4"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn7_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "c820e74a218632650cdc023b6a32ef90f1f724c6b07f79d76690977c8e3e7694"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/dn/dn7_translation-vi-project.json",
+      "commit": "a0408ff8d814d796c8b1cf0bbda5dbfaa2849820",
+      "sha256": "72acf9b8e6b9f5a7d531ea0f0eae1b93babd9f72618576ce4f1a5c304a89358e"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn7.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "64be02da2a525790a0697cee20c9843d3ade5ba24778f70d118a58983723cd0e"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/dn/dn7_comment-vi-project.json",
+      "commit": "a0408ff8d814d796c8b1cf0bbda5dbfaa2849820",
+      "sha256": "e68c7eb15c56a82ba4c7508871d9a066b8e6d31a6f5d9d10c99d29164c709dd4"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "setting",
+      "title": "Nhan đề và hai khách xuất gia",
+      "segments": [
+        "dn7:0.1",
+        "dn7:0.2",
+        "dn7:1.1",
+        "dn7:1.2",
+        "dn7:1.3",
+        "dn7:1.4",
+        "dn7:1.5"
+      ],
+      "summary": "Trường Bộ 7, Jāliya; người truyền kinh thuật Phật ở Ghosita, Kosambī. Du sĩ Muṇḍiya và Jāliya học trò Dārupattika đến chào hỏi thân thiện, đứng bên. Không đổi cả hai thành học trò cùng thầy."
+    },
+    {
+      "id": "question",
+      "title": "Hai mệnh đề và lời mời nghe",
+      "segments": [
+        "dn7:1.6",
+        "dn7:1.7",
+        "dn7:1.8",
+        "dn7:1.9"
+      ],
+      "summary": "Hai vị hỏi jīva/thân cùng một hay khác; Phật bảo nghe/chú tâm sẽ giảng, hai vị vâng. Câu hỏi không là xác nhận thực thể linh hồn."
+    },
+    {
+      "id": "ethics-first",
+      "title": "Như Lai, giới và sơ thiền",
+      "segments": [
+        "dn7:2.1",
+        "dn7:2.2",
+        "dn7:2.3",
+        "dn7:2.4"
+      ],
+      "summary": "Như Lai A-la-hán Chánh Đẳng Giác ra đời; dấu lược, thành tựu giới, dấu lược, chứng trú sơ thiền. Không bịa chi tiết các khoảng lược."
+    },
+    {
+      "id": "first-response",
+      "title": "Lần đáp có sau sơ thiền",
+      "segments": [
+        "dn7:2.5",
+        "dn7:2.6",
+        "dn7:2.7",
+        "dn7:2.8",
+        "dn7:2.9",
+        "dn7:2.10",
+        "dn7:2.11"
+      ],
+      "summary": "Hỏi người biết/thấy vậy thích hợp nói sinh mệnh/thân đồng hoặc khác không. Hai khách đáp có; Phật biết/thấy nhưng không nói cả hai quan điểm. Giữ speaker Pāli/context/Sujato khác HTML."
+    },
+    {
+      "id": "later-jhana",
+      "title": "Thiền hai, ba, bốn và đáp có",
+      "segments": [
+        "dn7:3.1",
+        "dn7:3.2",
+        "dn7:3.3",
+        "dn7:3.4",
+        "dn7:3.5",
+        "dn7:3.6",
+        "dn7:3.7",
+        "dn7:3.8",
+        "dn7:3.9",
+        "dn7:3.10"
+      ],
+      "summary": "Nêu ba thiền tiếp; hỏi hai mệnh đề, hai khách đáp có; Phật biết/thấy mà không tuyên bố cùng một hoặc khác."
+    },
+    {
+      "id": "knowledge",
+      "title": "Tri kiến và đáp có",
+      "segments": [
+        "dn7:4.1",
+        "dn7:4.2",
+        "dn7:4.3",
+        "dn7:4.4",
+        "dn7:4.5",
+        "dn7:4.6",
+        "dn7:4.7",
+        "dn7:4.8"
+      ],
+      "summary": "Hướng/nghiêng tâm đến tri kiến; hỏi hai mệnh đề, hai khách đáp có; Phật biết/thấy nhưng không nói cả hai. Các chỗ lược được nhận diện."
+    },
+    {
+      "id": "liberation",
+      "title": "Chặng cuối và đáp không",
+      "segments": [
+        "dn7:5.1",
+        "dn7:5.2",
+        "dn7:5.3",
+        "dn7:5.4",
+        "dn7:5.5",
+        "dn7:5.6",
+        "dn7:5.7",
+        "dn7:5.8"
+      ],
+      "summary": "Dấu lược tới tri kiến không còn hiện hữu như thế nữa. Hỏi cùng câu, hai vị đáp không thích hợp; Phật biết/thấy nhưng không tuyên bố cùng một/khác. Na kallaṁ có trong Pāli và EN, thiếu trong HTML."
+    },
+    {
+      "id": "ending",
+      "title": "Hai khách hoan hỷ",
+      "segments": [
+        "dn7:5.9",
+        "dn7:5.10",
+        "dn7:5.11"
+      ],
+      "summary": "Phật nói xong, hai vị xuất gia hoan hỷ tán đồng. Colophon kết kinh thứ bảy. Không tự thêm quy y, xuất gia hay chứng quả."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "DN7 — Nghe hết trước khi chọn một câu trả lời",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một câu hỏi không được đáp vội",
+          "meaningUnits": [
+            "setting",
+            "question"
+          ],
+          "paragraphs": [
+            "Kinh Jāliya là bài 7 của Trường Bộ. Người truyền kinh kể Phật ở tu viện Ghosita gần Kosambī. Có hai người xuất gia đến thăm: du sĩ Muṇḍiya và Jāliya, người học với thầy Dārupattika. Họ chào hỏi thân thiện rồi đứng một bên.",
+            "Hai vị hỏi Phật: sinh mệnh và thân thể là cùng một thứ, hay sinh mệnh là một thứ còn thân thể là thứ khác? Sinh mệnh là cách gọi ở đây cho điều các vị đang hỏi về nguyên lý sống. Phật bảo họ lắng nghe và chú tâm; hai vị kính đáp. Ngài không vội chọn một trong hai câu trả lời."
+          ]
+        },
+        {
+          "id": "first-stage",
+          "kind": "teaching",
+          "heading": "Từ sống có giới đến thiền thứ nhất",
+          "meaningUnits": [
+            "ethics-first",
+            "first-response"
+          ],
+          "paragraphs": [
+            "Phật nói về Như Lai, bậc A-la-hán đã giải thoát, Chánh Đẳng Giác giác ngộ trọn vẹn, xuất hiện ở đời. Bản kinh lược bớt phần kể giữa rồi nêu người tỳ-kheo thành tựu giới, tức nếp sống có kỷ luật đạo đức, và chứng, an trú thiền thứ nhất.",
+            "Phật hỏi: một vị biết và thấy như thế có thích hợp để nói sinh mệnh và thân thể là một hoặc là hai thứ khác nhau không? Hai người khách đáp có.",
+            "Phật nói Ngài biết và thấy như vậy, nhưng không nói rằng sinh mệnh và thân thể là một, cũng không nói chúng là hai thứ khác nhau. Em cần phân biệt câu đáp của hai người hỏi với lời Phật nói sau đó."
+          ]
+        },
+        {
+          "id": "other-jhanas",
+          "kind": "teaching",
+          "heading": "Câu hỏi được đặt lại",
+          "meaningUnits": [
+            "later-jhana"
+          ],
+          "paragraphs": [
+            "Kinh tiếp tục nhắc thiền thứ hai, thiền thứ ba và thiền thứ tư. Đây là những chặng thiền định, tâm được rèn để an trú; bản kinh tại đây không giảng hết đặc điểm từng chặng.",
+            "Phật hỏi lại: biết và thấy như vậy thì nói sinh mệnh với thân là một hoặc khác có thích hợp không? Hai người vẫn đáp có. Phật vẫn nói Ngài biết, thấy như vậy nhưng không tuyên bố một trong hai điều ấy."
+          ]
+        },
+        {
+          "id": "knowing",
+          "kind": "teaching",
+          "heading": "Hướng tâm đến biết và thấy",
+          "meaningUnits": [
+            "knowledge"
+          ],
+          "paragraphs": [
+            "Đến phần người tu hướng tâm, nghiêng tâm về tri kiến, tức sự biết và thấy, câu hỏi lại được nêu. Hai vị vẫn cho rằng nói sinh mệnh với thân là một hoặc khác là thích hợp.",
+            "Phật tiếp tục xác nhận Ngài biết và thấy như vậy mà không nói hai điều ấy. Các câu lặp giúp em theo dõi xem ai đang trả lời và câu trả lời có thay đổi chưa."
+          ]
+        },
+        {
+          "id": "last-stage",
+          "kind": "teaching",
+          "heading": "Lần này câu đáp thay đổi",
+          "meaningUnits": [
+            "liberation"
+          ],
+          "paragraphs": [
+            "Sau một phần được lược, kinh nói người tu biết không còn trở lại sự hiện hữu như thế nữa. Đây là lời biết ở chặng giải thoát, không phải chỉ là chán một sinh hoạt rồi bỏ nó.",
+            "Phật lại hỏi có thích hợp để người biết, thấy như vậy nói sinh mệnh và thân là một hoặc là hai thứ khác nhau không. Lần này hai vị đáp không thích hợp. Phật nói Ngài biết và thấy như vậy, nhưng không tuyên bố một trong hai điều ấy."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Hai người nghe vui lòng",
+          "meaningUnits": [
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật nói xong, hai vị xuất gia hoan hỷ và tán đồng. Dòng cuối của ấn bản ghi Kinh Jāliya kết thúc, bài thứ bảy. Kinh không kể thêm rằng hai vị đã chứng một quả tu."
+          ]
+        },
+        {
+          "id": "clarify",
+          "kind": "clarification",
+          "heading": "Không thêm một câu trả lời thứ ba",
+          "meaningUnits": [
+            "question",
+            "ethics-first",
+            "liberation"
+          ],
+          "paragraphs": [
+            "Bài kể một cuộc hỏi đáp về tu học. Việc Phật không nói hai mệnh đề ấy không có nghĩa người biên tập được tự đặt một câu trả lời khác vào lời Ngài. Những chỗ lược cũng được để đúng là phần lược; lời giải chỉ trình bày các chặng bản kinh thực nêu."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ: nghe hết trước khi chọn",
+          "meaningUnits": [
+            "question",
+            "first-response",
+            "liberation"
+          ],
+          "paragraphs": [
+            "Một bạn hỏi em phải chọn ngay một trong hai cách giải bài. Em có thể xin nghe rõ cách làm và xem đủ các bước trước khi đồng ý rằng chỉ có hai cách ấy. Đây là ví dụ do người biên tập thêm về việc chưa đáp vội; nó không giải thích quan hệ giữa sinh mệnh và thân thể."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Đánh dấu người nói",
+          "meaningUnits": [
+            "first-response",
+            "later-jhana",
+            "knowledge",
+            "liberation"
+          ],
+          "paragraphs": [
+            "Khi đọc, em có thể ghi ba cột: Phật hỏi gì, hai khách đáp gì, Phật nói gì sau đó. Hãy tìm chỗ câu đáp của khách đổi từ có sang không. Đây là gợi ý đọc hiểu, không phải bài tập đạt thiền hay giải thoát."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "DN7 — Tri kiến và hai mệnh đề về sinh mệnh, thân thể",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Từ lựa chọn lý thuyết đến tiến trình tu học",
+          "meaningUnits": [
+            "setting",
+            "question"
+          ],
+          "paragraphs": [
+            "DN7, Kinh Jāliya, thuật một cuộc gặp tại tu viện Ghosita gần Kosambī. Du sĩ Muṇḍiya và Jāliya, đệ tử Dārupattika, đến chào hỏi Phật rồi đứng một bên. Người kể giới thiệu đây là điều mình đã nghe.",
+            "Hai vị hỏi sinh mệnh và thân thể là đồng nhất hay là hai thứ khác nhau. Phật yêu cầu lắng nghe và chú tâm; họ vâng đáp. Thay vì chọn ngay một mệnh đề, Ngài đặt câu hỏi vào tiến trình thành tựu giới, định và tri kiến."
+          ]
+        },
+        {
+          "id": "first",
+          "kind": "teaching",
+          "heading": "Giới, sơ thiền và lời đáp của hai khách",
+          "meaningUnits": [
+            "ethics-first",
+            "first-response"
+          ],
+          "paragraphs": [
+            "Bài bắt đầu phần giảng bằng Như Lai A-la-hán Chánh Đẳng Giác xuất hiện ở đời, rồi lược các chặng để nêu vị tỳ-kheo thành tựu giới và chứng trú thiền thứ nhất. Các dấu lược có trong bản Pāli; đoạn này không cung cấp trọn nội dung từng chặng.",
+            "Phật hỏi người biết và thấy như vậy có thích hợp tuyên bố sinh mệnh và thân là một, hoặc sinh mệnh là một thứ còn thân là thứ khác, không. Hai vị đáp có. Phật nói Ngài biết, thấy như vậy nhưng không tuyên bố một trong hai mệnh đề.",
+            "Cách chia lời thoại theo câu hỏi, câu đáp và câu tự xưng của Phật giữ rõ ba bước. Nếu nhập lời đáp có vào lời Phật, người đọc sẽ nhận sai lập trường được Ngài trình bày."
+          ]
+        },
+        {
+          "id": "jhanas",
+          "kind": "teaching",
+          "heading": "Thiền thứ hai, ba và bốn",
+          "meaningUnits": [
+            "later-jhana"
+          ],
+          "paragraphs": [
+            "Tiếp đó, kinh nhắc thiền thứ hai, thứ ba và thứ tư. Phật lặp câu hỏi về tính thích hợp của hai tuyên bố đồng nhất hoặc khác biệt. Hai vị vẫn trả lời có.",
+            "Lời đáp của Phật cũng vẫn được giữ: Ngài biết và thấy như thế, nhưng không tuyên bố sinh mệnh và thân là một hay là khác. Sự lặp có chức năng lập luận; thành tựu được nêu cao hơn chưa làm Ngài nhận một trong hai mệnh đề."
+          ]
+        },
+        {
+          "id": "knowledge",
+          "kind": "teaching",
+          "heading": "Tri kiến không tự kéo theo hai kết luận ấy",
+          "meaningUnits": [
+            "knowledge"
+          ],
+          "paragraphs": [
+            "Khi vị tu hướng và nghiêng tâm đến tri kiến, sự biết và thấy, câu hỏi lại được đặt ra. Hai vị cho rằng nói đồng nhất hay khác biệt vẫn thích hợp. Phật xác nhận sự biết và thấy của Ngài, đồng thời vẫn không phát biểu hai quan điểm.",
+            "Vì thế, ở lượt này cần phân biệt có tri kiến với việc gán cho tri kiến một kết luận lý thuyết cụ thể. Bản kinh còn những dấu lược; lời diễn giải không tự mở chúng thành nội dung đã được chép đầy đủ ở DN7."
+          ]
+        },
+        {
+          "id": "change",
+          "kind": "teaching",
+          "heading": "Câu đáp cuối chuyển thành phủ định",
+          "meaningUnits": [
+            "liberation"
+          ],
+          "paragraphs": [
+            "Chặng cuối được nêu bằng vế biết rằng không còn trở lại trạng thái hiện hữu như thế nữa. Theo mạch giải thoát mà chú thích của dự án nhận diện, đây là vế cuối công thức giải thoát; bản Pāli tại DN7 chỉ ghi vế ấy sau dấu lược.",
+            "Khi Phật hỏi lại người biết và thấy như thế có thích hợp nói sinh mệnh và thân là một hoặc khác không, hai vị đáp không thích hợp. Phủ định này khác ba lượt đáp trước. Phật kết rằng Ngài biết, thấy như vậy nhưng không tuyên bố một trong hai mệnh đề."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Sự tán đồng được ghi nhận",
+          "meaningUnits": [
+            "ending"
+          ],
+          "paragraphs": [
+            "Hai vị xuất gia hoan hỷ tán đồng sau lời Phật. Dòng kết ấn bản ghi Kinh Jāliya, bài thứ bảy, đã kết thúc. Không có ghi nhận quy y, chứng quả hoặc một câu trả lời lý thuyết mới của hai người."
+          ]
+        },
+        {
+          "id": "terms",
+          "kind": "clarification",
+          "heading": "Jīva và giới hạn của câu hỏi",
+          "meaningUnits": [
+            "question",
+            "liberation"
+          ],
+          "paragraphs": [
+            "Bản này dùng sinh mệnh cho jīva trong chính câu hỏi. Bản Anh Sujato dùng soul; bản Việt Thích Minh Châu dùng mạng căn. Không nên vì chọn một từ tiếng Việt mà xem sự tồn tại của một linh hồn bất biến đã được xác nhận. Bài cũng không cho căn cứ để đổi sự không tuyên bố thành một kết luận khoa học về não và ý thức."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ: hai phương án chưa chắc đã đủ",
+          "meaningUnits": [
+            "question",
+            "first-response",
+            "liberation"
+          ],
+          "paragraphs": [
+            "Trong một cuộc họp, câu hỏi được đặt thành: hoặc quy trình cũ hoàn toàn đúng, hoặc phải bỏ toàn bộ. Người tham gia có thể kiểm cách đặt vấn đề và xem thực tế vận hành trước khi chọn. Đây là ví dụ biên tập về việc không bị ép trả lời quá sớm; không đồng nhất một quyết định quản lý với tri kiến giải thoát."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Đọc bốn lượt hỏi như một lập luận",
+          "meaningUnits": [
+            "first-response",
+            "later-jhana",
+            "knowledge",
+            "liberation"
+          ],
+          "paragraphs": [
+            "Có thể ghi riêng từng chặng tu được nêu, câu hỏi về đồng nhất/khác biệt, câu đáp của khách và lời Phật. Việc đọc lại chỗ có và không giúp nhận ra sự chuyển trong đối thoại. Gợi ý này chỉ hỗ trợ đọc kỹ; không thay thực hành giới, định và tuệ."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "DN7 — Theo từng bước của một cuộc hỏi đáp",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một cuộc thăm hỏi ở Ghosita",
+          "meaningUnits": [
+            "setting",
+            "question"
+          ],
+          "paragraphs": [
+            "Kinh Jāliya, bài thứ bảy của Trường Bộ, kể Phật ở tu viện Ghosita gần Kosambī. Người truyền kinh thuật lại điều đã nghe. Hai vị xuất gia Muṇḍiya, một du sĩ, và Jāliya, học trò Dārupattika, đến chào hỏi thân thiện rồi đứng một bên.",
+            "Họ hỏi sinh mệnh và thân thể là một hay là hai thứ khác nhau. Phật bảo hãy nghe và chú tâm khéo, Ngài sẽ nói. Hai vị vâng đáp. Cuộc trao đổi sau đó đi từng chặng, thay vì chỉ trả lời ngay một câu có hoặc không."
+          ]
+        },
+        {
+          "id": "ethics",
+          "kind": "teaching",
+          "heading": "Nếp sống có giới và thiền thứ nhất",
+          "meaningUnits": [
+            "ethics-first",
+            "first-response"
+          ],
+          "paragraphs": [
+            "Phật nói về Như Lai, bậc A-la-hán Chánh Đẳng Giác, xuất hiện ở đời. Sau những chỗ được lược, kinh nhắc vị tỳ-kheo thành tựu giới và chứng, an trú thiền thứ nhất. Giới là nền kỷ luật đạo đức của đời tu; thiền ở đây là một thành tựu định được bài kinh nêu.",
+            "Ngài hỏi: người biết và thấy như vậy có thích hợp nói sinh mệnh và thân cùng một, hay chúng là hai thứ khác, không? Hai vị khách đáp có. Phật nói Ngài cũng biết và thấy như vậy, nhưng không tuyên bố một trong hai điều ấy."
+          ]
+        },
+        {
+          "id": "jhanas",
+          "kind": "teaching",
+          "heading": "Thiền thứ hai đến thứ tư",
+          "meaningUnits": [
+            "later-jhana"
+          ],
+          "paragraphs": [
+            "Bản kinh nhắc tiếp thiền thứ hai, thứ ba và thứ tư. Sau các chặng này, Phật lại hỏi về việc tuyên bố sinh mệnh và thân là một hay khác. Hai vị vẫn đáp rằng thích hợp.",
+            "Phật vẫn nói Ngài biết và thấy như vậy mà không tuyên bố hai điều ấy. Lời của khách và lời của Phật cần được nghe riêng; chúng không phải một người tự nói cả hai phía."
+          ]
+        },
+        {
+          "id": "knowledge",
+          "kind": "teaching",
+          "heading": "Hướng tâm đến tri kiến",
+          "meaningUnits": [
+            "knowledge"
+          ],
+          "paragraphs": [
+            "Đến chặng hướng tâm, nghiêng tâm về tri kiến, tức sự biết và thấy, cuộc hỏi đáp tiếp tục. Người biết và thấy như thế có thích hợp tuyên bố sinh mệnh và thân là một hoặc khác không? Hai vị lại đáp có.",
+            "Phật xác nhận Ngài biết và thấy, nhưng vẫn không nói một trong hai mệnh đề. Những lần lặp giúp thấy điều ổn định trong lời Ngài, bên cạnh các chặng tu đang được nêu."
+          ]
+        },
+        {
+          "id": "last",
+          "kind": "teaching",
+          "heading": "Lần đáp cuối không còn như trước",
+          "meaningUnits": [
+            "liberation"
+          ],
+          "paragraphs": [
+            "Sau một đoạn lược, kinh nêu người tu biết không còn trở lại sự hiện hữu như thế nữa. Vế này thuộc chặng giải thoát của tiến trình, không chỉ là muốn thay đổi một thói quen hay nơi sinh sống.",
+            "Phật đặt lại câu hỏi về sinh mệnh và thân cùng một hay khác. Lúc này, hai vị trả lời không thích hợp để nói như vậy. Phật kết rằng Ngài biết, thấy như thế nhưng không tuyên bố một trong hai điều ấy. Chữ không ở lần cuối cần được giữ để nghe đúng sự chuyển của đối thoại."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Hai vị vui lòng tán đồng",
+          "meaningUnits": [
+            "ending"
+          ],
+          "paragraphs": [
+            "Khi Phật nói xong, hai vị xuất gia hoan hỷ tán đồng. Dòng kết ấn bản cho biết Kinh Jāliya, bài thứ bảy, kết thúc. Bài chỉ ghi sự tán đồng ấy, không kể thêm một thành tựu chứng quả của họ."
+          ]
+        },
+        {
+          "id": "scope",
+          "kind": "clarification",
+          "heading": "Tôn trọng điều kinh nói và phần được lược",
+          "meaningUnits": [
+            "question",
+            "ethics-first",
+            "liberation"
+          ],
+          "paragraphs": [
+            "Sinh mệnh là cách diễn đạt chữ jīva trong câu hỏi; các bản tham khảo dùng cả linh hồn hoặc mạng căn. Câu hỏi không tự xác nhận một thực thể linh hồn bất biến. Tương tự, việc Phật không tuyên bố đồng nhất hay khác biệt không cho phép người đọc thêm một học thuyết mới vào lời Ngài.",
+            "Các chỗ lược được ghi nhận đúng là lược. Bản diễn giải giữ các mốc giới, bốn thiền, tri kiến và vế giải thoát được nêu, không coi những phần không chép là đã được giảng đầy đủ tại đây."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ: bình tĩnh xem lại một cách hỏi",
+          "meaningUnits": [
+            "question",
+            "first-response",
+            "liberation"
+          ],
+          "paragraphs": [
+            "Trong một chuyện gia đình, có người hỏi phải hoàn toàn theo nếp cũ hay bỏ hết nếp cũ. Ta có thể xin xem rõ điều nào đang giúp ích, điều nào cần thay trước khi nhận hai lựa chọn ấy là đủ. Đây là ví dụ biên tập để gợi việc nghe và xét kỹ câu hỏi, không phải lời giải về sinh mệnh hay giải thoát."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Đọc chậm chỗ lời đáp thay đổi",
+          "meaningUnits": [
+            "first-response",
+            "later-jhana",
+            "knowledge",
+            "liberation"
+          ],
+          "paragraphs": [
+            "Có thể đọc từng lượt hỏi, dừng để nhận ai đang nói và ghi lại khách đáp có hay không. Không cần vội quyết một học thuyết về sinh mệnh. Gợi ý này giúp theo mạch bài kinh; sự tu học được kinh nhắc đến còn cần thực hành sâu hơn một lần đọc."
+          ]
+        }
+      ]
+    }
+  }
+}

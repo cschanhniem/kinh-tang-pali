@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn151",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "73db884b-084f-405a-979a-181df339383f"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "5925dafd-72c7-458a-9e2b-6f74a5cd2a73"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "c95bc724-1073-4062-a71b-7c72ce736ae4"
+    }
+  },
+  "reviews": [
+    {
+      "id": "73db884b-084f-405a-979a-181df339383f",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9,
+        "audience_fit": 9,
+        "clarity": 9.1,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.5
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc trọn Pāli, Sujato thô, Việt dự án, HTML Minh Châu và bốn chú thích MN151; đọc thêm phần B tài liệu hội đồng, dùng B3/B9. Sáu dependency được audit byte hiện tại. Anh có 79/109 giá trị không trống; các ô lược không được tính là đồng thuận. Không chép pin, đường dẫn và tên bản Minh Châu sai trong chú thích lịch sử.",
+        "semantic_fidelity": "Lời giảng giữ việc xét tâm trong đời sống khất thực và hướng tới giải thoát. Không biến an trú không thành đầu óc trống rỗng hay thanh tịnh thức ăn bằng ý nghĩ. Cách nói điều tốt/điều xấu dễ tiếp cận nhưng được neo vào các phản ứng và nhiệm vụ cụ thể; giới hạn của các lời giải nghĩa giản lược được nói rõ.",
+        "core_coverage": "Đối chiếu hai chiều 19 đơn vị với 109 khóa: bối cảnh chiều Sāriputta đến thăm, an trú không, ba chặng, sáu cửa, năm phản ứng, 12 câu tự xét, ba thời và kết thúc đều có. Mỗi nhóm vẫn đủ nhánh chưa làm/đã làm và học thiện pháp ngày đêm. Chỉ nêu tên cùng số lượng các nhóm mà bài thật sự cho; không lấy thành phần từ bài khác để lấp.",
+        "logic_context": "Phân biệt rõ bốn nhiệm vụ: từ bỏ năm dục và năm triền cái; hiểu thấu năm thủ uẩn; tu tập bảy nhóm trợ đạo cùng chỉ-quán; chứng ngộ minh và giải thoát. Đã đạt một nhiệm vụ vẫn có hỷ hoan và tu học, không thành lý do nghỉ rèn luyện. Ba thời quá khứ, tương lai, hiện tại và nhãn thứ chín của nhóm không bị đổi phạm vi.",
+        "terminology": "Mở nghĩa khất thực, triền cái, thủ uẩn, chỉ-quán, minh và giải thoát; phân biệt năm căn tu học với các giác quan. Các tên như bốn niệm xứ, bốn như ý túc và bảy giác chi vẫn dày đối với trẻ chưa quen. Bản nói rõ MN151 chỉ gọi tên nhóm, tránh tự ghép một giáo trình không có trong nguồn.",
+        "audience_fit": "Mười một mục ngắn cùng tình huống được tặng bút nhưng nảy lòng ganh giúp trẻ nhận ra việc tự xét. Không áp kỷ luật người xuất gia lên trẻ, không yêu cầu phục tùng hoặc hứa phần thưởng. Khối tên các nhóm tu tập cần đọc chậm, có thể cùng người lớn; chưa thử đọc với trẻ thật.",
+        "clarity": "Câu hỏi đi qua ba chặng rồi sáu cửa có trình tự cụ thể; phân riêng bỏ, hiểu, tu và chứng để người đọc không nhầm mọi việc thành đè cảm xúc xuống. Phần giữa nhiều danh mục còn làm nhịp đọc nặng hơn phần kể chuyện. Ba từ hân hoan đã được dùng đúng trật tự sau sửa.",
+        "editorial_separation": "Mục làm rõ tự giới hạn lời giải an trú không; ví dụ cây bút và gợi ý ghi nhớ được gắn kind riêng và nhận là lời biên soạn. Không dùng liên hệ hiện đại để giả làm lời Phật hoặc làm thành bằng chứng chứng ngộ.",
+        "practical_integrity": "Bài tập chỉ mời nhớ một việc nhận được, quan sát tâm trước-trong-sau và chọn một cách sửa cụ thể. Không đòi trẻ tự kết luận đã đoạn dục hoặc chứng ngộ minh và giải thoát; khuyên vui khi thấy điều lành mà vẫn học tiếp, không gây tự kết tội.",
+        "technical_integrity": "Đã chạy auditExplanations trên bản chốt, errors=[] và sourceErrors=[]. Mã ý, Unicode NFC, tác giả, cấu trúc ba bản và SHA-256 các nguồn hợp lệ. Ba sửa chính tả hỷ và hân hoan đã đọc lại; hash audience trong notes. Đây là kiểm toàn vẹn bản ghi, không nhận đã chạy build hay toàn bộ cổng kỹ thuật của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm /root/author_c khác tác tử soạn /root, cùng GPT-6 Astra Pro; không coi đây là hai công cụ hay chuyên gia con người độc lập. Đã đọc toàn bộ năm nguồn, phần B hội đồng được dùng, toàn bộ bản đồ và cả ba bản; chưa có người đọc thật hoặc học giả Pāli con người kiểm. Pāli/Anh 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt/chú thích/hội đồng a0408ff8d814d796c8b1cf0bbda5dbfaa2849820. Không tuyên bố đọc MN121/MN122 chỉ vì chú thích dẫn tên. Ba lỗi đảo từ hoan hân đã sửa thành hân hoan, không đổi giáo nghĩa. Hash nội dung đã đọc cho children: f2166e9421f6c873c1f6ad08ce0cd9aabdc82ab2d958cf480fe4edcb3f7d0a04.",
+      "contentHash": "f2166e9421f6c873c1f6ad08ce0cd9aabdc82ab2d958cf480fe4edcb3f7d0a04",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn151.html",
+          "sha256": "c05d447e1f153074d234970f8013eb909e8c2e5b9a61ee268e75206af1fbac5e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn151_root-pli-ms.json",
+          "sha256": "2f59830560f4f540d63a69231d51245dd2a9885fbd4939815fd09306a2377dea"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn151_translation-en-sujato.json",
+          "sha256": "213dd383de4296569bd470d495989cd0853fff9708f6f448d1f59826e6d8df8f"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn151_comment-vi-project.json",
+          "sha256": "6f8f1d90a7c77de09eb0d6b1a84140404fd3a1d1c94e8845455a4d805c31a32f"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn151_translation-vi-project.json",
+          "sha256": "cedc0fd53a11f0588b6e6c8a31a032e5ecdde0ab99fe85b0507b32b1c3f1e588"
+        },
+        {
+          "path": "docs/editorial-council-2026-10.md",
+          "sha256": "896cba5956371a3a3bac83bed396be59b5bbd768a7742028b58d271b3b144c66"
+        }
+      ]
+    },
+    {
+      "id": "5925dafd-72c7-458a-9e2b-6f74a5cd2a73",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.4,
+        "audience_fit": 9.4,
+        "clarity": 9.4,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.5
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc trọn Pāli, Sujato thô, Việt dự án, HTML Minh Châu và bốn chú thích MN151; đọc thêm phần B tài liệu hội đồng, dùng B3/B9. Sáu dependency được audit byte hiện tại. Anh có 79/109 giá trị không trống; các ô lược không được tính là đồng thuận. Không chép pin, đường dẫn và tên bản Minh Châu sai trong chú thích lịch sử.",
+        "semantic_fidelity": "Giữ an trú không là bối cảnh lời dạy cho Sāriputta, không suy một học thuyết tánh không mà bài không triển khai. Nhiệm vụ thanh tịnh khất thực gồm cả từ bỏ, liễu tri, tu tập và chứng ngộ; giải thoát không bị đổi thành hiệu suất công việc hay tâm trạng dễ chịu.",
+        "core_coverage": "Đối chiếu hai chiều 19 đơn vị với 109 khóa: bối cảnh chiều Sāriputta đến thăm, an trú không, ba chặng, sáu cửa, năm phản ứng, 12 câu tự xét, ba thời và kết thúc đều có. Mỗi nhóm vẫn đủ nhánh chưa làm/đã làm và học thiện pháp ngày đêm. Chỉ nêu tên cùng số lượng các nhóm mà bài thật sự cho; không lấy thành phần từ bài khác để lấp.",
+        "logic_context": "Phân biệt rõ bốn nhiệm vụ: từ bỏ năm dục và năm triền cái; hiểu thấu năm thủ uẩn; tu tập bảy nhóm trợ đạo cùng chỉ-quán; chứng ngộ minh và giải thoát. Đã đạt một nhiệm vụ vẫn có hỷ hoan và tu học, không thành lý do nghỉ rèn luyện. Ba thời quá khứ, tương lai, hiện tại và nhãn thứ chín của nhóm không bị đổi phạm vi.",
+        "terminology": "Phân biệt dục/tham/sân/si/chống đối, năm thủ uẩn và năm căn tu tập; như ý túc và liễu tri nhất quán với mục B3/B9 đã đọc. Các nhóm được giải nghĩa ngắn theo chức năng, không tự kê thêm nội dung từ kinh khác. Người mới vẫn cần tìm hiểu thêm các thuật ngữ trợ đạo nếu muốn học chi tiết.",
+        "audience_fit": "Mười mục theo cấu trúc lập luận, đoạn bỏ-hiểu và đoạn tu-chứng tách rõ. Ví dụ đồng nghiệp giúp rồi ta muốn nhận hết công phù hợp trách nhiệm người trưởng thành mà không thu hẹp bài thành mẹo ứng xử. Chưa có kiểm chứng đọc với người dùng thật.",
+        "clarity": "Mạch từ lời hỏi về dung sắc, an trú, kiểm ba chặng đến các tầng nhiệm vụ theo được; không lặp nguyên các công thức dài nhưng nói rõ chúng áp dụng từng nhóm. Các thuật ngữ vẫn cần chú ý ở phần tu tập; câu hỷ và hân hoan đã sửa để dễ đọc hơn.",
+        "editorial_separation": "Giới hạn của cách giải an trú không được đặt trong clarification. Ví dụ công việc và bài tự xét mang nhãn riêng, không đồng nhất lời áp dụng với lời kinh. Chỗ Minh Châu gọi tu tập minh-giải thoát không khiến bản đổi động từ chứng ngộ của Pāli.",
+        "practical_integrity": "Gợi ý tự xét một lần nhận hỗ trợ, phân biệt tâm bám với việc thiện và chọn hành động sửa; không coi một lần soi lại là đủ thanh tịnh hay giải thoát. Không dùng bài kinh để kiểm soát người giúp mình hoặc đo thành tích công sở.",
+        "technical_integrity": "Đã chạy auditExplanations trên bản chốt, errors=[] và sourceErrors=[]. Mã ý, Unicode NFC, tác giả, cấu trúc ba bản và SHA-256 các nguồn hợp lệ. Ba sửa chính tả hỷ và hân hoan đã đọc lại; hash audience trong notes. Đây là kiểm toàn vẹn bản ghi, không nhận đã chạy build hay toàn bộ cổng kỹ thuật của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm /root/author_c khác tác tử soạn /root, cùng GPT-6 Astra Pro; không coi đây là hai công cụ hay chuyên gia con người độc lập. Đã đọc toàn bộ năm nguồn, phần B hội đồng được dùng, toàn bộ bản đồ và cả ba bản; chưa có người đọc thật hoặc học giả Pāli con người kiểm. Pāli/Anh 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt/chú thích/hội đồng a0408ff8d814d796c8b1cf0bbda5dbfaa2849820. Không tuyên bố đọc MN121/MN122 chỉ vì chú thích dẫn tên. Ba lỗi đảo từ hoan hân đã sửa thành hân hoan, không đổi giáo nghĩa. Hash nội dung đã đọc cho adults: 14bdc7bfc9289a07240c82dded14fc88575dff095dc5560b69d2dfeee217a3ae.",
+      "contentHash": "14bdc7bfc9289a07240c82dded14fc88575dff095dc5560b69d2dfeee217a3ae",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn151.html",
+          "sha256": "c05d447e1f153074d234970f8013eb909e8c2e5b9a61ee268e75206af1fbac5e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn151_root-pli-ms.json",
+          "sha256": "2f59830560f4f540d63a69231d51245dd2a9885fbd4939815fd09306a2377dea"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn151_translation-en-sujato.json",
+          "sha256": "213dd383de4296569bd470d495989cd0853fff9708f6f448d1f59826e6d8df8f"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn151_comment-vi-project.json",
+          "sha256": "6f8f1d90a7c77de09eb0d6b1a84140404fd3a1d1c94e8845455a4d805c31a32f"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn151_translation-vi-project.json",
+          "sha256": "cedc0fd53a11f0588b6e6c8a31a032e5ecdde0ab99fe85b0507b32b1c3f1e588"
+        },
+        {
+          "path": "docs/editorial-council-2026-10.md",
+          "sha256": "896cba5956371a3a3bac83bed396be59b5bbd768a7742028b58d271b3b144c66"
+        }
+      ]
+    },
+    {
+      "id": "c95bc724-1073-4062-a71b-7c72ce736ae4",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.2,
+        "audience_fit": 9.5,
+        "clarity": 9.4,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.5
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc trọn Pāli, Sujato thô, Việt dự án, HTML Minh Châu và bốn chú thích MN151; đọc thêm phần B tài liệu hội đồng, dùng B3/B9. Sáu dependency được audit byte hiện tại. Anh có 79/109 giá trị không trống; các ô lược không được tính là đồng thuận. Không chép pin, đường dẫn và tên bản Minh Châu sai trong chú thích lịch sử.",
+        "semantic_fidelity": "Giữ mục tiêu tu học sâu của người xuất gia khi giúp người lớn tuổi liên hệ với việc nhận sự giúp đỡ. An trú không không thành quên chuyện hay làm đầu trống rỗng; niềm vui sau khi xét tâm đi cùng học thiện pháp liên tục. Phân biệt rõ tâm bám và chính sự vật được cảm nhận.",
+        "core_coverage": "Đối chiếu hai chiều 19 đơn vị với 109 khóa: bối cảnh chiều Sāriputta đến thăm, an trú không, ba chặng, sáu cửa, năm phản ứng, 12 câu tự xét, ba thời và kết thúc đều có. Mỗi nhóm vẫn đủ nhánh chưa làm/đã làm và học thiện pháp ngày đêm. Chỉ nêu tên cùng số lượng các nhóm mà bài thật sự cho; không lấy thành phần từ bài khác để lấp.",
+        "logic_context": "Phân biệt rõ bốn nhiệm vụ: từ bỏ năm dục và năm triền cái; hiểu thấu năm thủ uẩn; tu tập bảy nhóm trợ đạo cùng chỉ-quán; chứng ngộ minh và giải thoát. Đã đạt một nhiệm vụ vẫn có hỷ hoan và tu học, không thành lý do nghỉ rèn luyện. Ba thời quá khứ, tương lai, hiện tại và nhãn thứ chín của nhóm không bị đổi phạm vi.",
+        "terminology": "Khất thực, triền cái, thủ uẩn, chỉ-quán, minh-giải thoát được mở nghĩa bằng câu vừa phải; như ý túc giữ thuật ngữ hội đồng. Không nhập năm căn của tu tập vào giác quan. Các danh mục trợ đạo còn nhiều tên Hán-Việt, được báo là chỉ nêu tên trong bài chứ chưa giảng đủ từng thành phần.",
+        "audience_fit": "Mười hai mục chia riêng những việc từ bỏ, hiểu thấu, tu tập và chứng ngộ; nhịp thong thả mà không hạ thấp năng lực. Tình huống con cháu giúp nhưng mình muốn quyết định mọi thứ nêu một khả năng quan sát, không coi người cao tuổi đều phụ thuộc hoặc thích kiểm soát. Chưa thử đọc thật.",
+        "clarity": "Nhắc lại quy tắc hai nhánh giúp theo dõi các nhóm mà không phải giữ toàn bộ công thức trong trí nhớ. Trình tự câu chuyện, nhiệm vụ và kết thúc rõ; phần danh mục cần đọc chậm. Từ hân hoan đã sửa và giải là niềm vui lành ngay tại chỗ.",
+        "editorial_separation": "Phần làm rõ nêu giới hạn của lời giảng an trú không; liên hệ gia đình và gợi ý thực hành được nhận là biên soạn. Không kể tình huống đời nay như sự kiện trong kinh hoặc nhận một thái độ dễ chịu làm thành tựu tâm linh.",
+        "practical_integrity": "Gợi ý chọn một lần nhận sự chăm sóc hay giúp đỡ để quan sát trước-trong-sau, rồi sửa một cách đáp lại. Không áp chế cảm xúc, không dùng tuổi tác để đòi buông bỏ mọi quyết định, không hứa sức khỏe hoặc chứng đắc. Người đọc vẫn giữ quyền chủ động lựa chọn việc vừa sức.",
+        "technical_integrity": "Đã chạy auditExplanations trên bản chốt, errors=[] và sourceErrors=[]. Mã ý, Unicode NFC, tác giả, cấu trúc ba bản và SHA-256 các nguồn hợp lệ. Ba sửa chính tả hỷ và hân hoan đã đọc lại; hash audience trong notes. Đây là kiểm toàn vẹn bản ghi, không nhận đã chạy build hay toàn bộ cổng kỹ thuật của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm /root/author_c khác tác tử soạn /root, cùng GPT-6 Astra Pro; không coi đây là hai công cụ hay chuyên gia con người độc lập. Đã đọc toàn bộ năm nguồn, phần B hội đồng được dùng, toàn bộ bản đồ và cả ba bản; chưa có người đọc thật hoặc học giả Pāli con người kiểm. Pāli/Anh 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt/chú thích/hội đồng a0408ff8d814d796c8b1cf0bbda5dbfaa2849820. Không tuyên bố đọc MN121/MN122 chỉ vì chú thích dẫn tên. Ba lỗi đảo từ hoan hân đã sửa thành hân hoan, không đổi giáo nghĩa. Hash nội dung đã đọc cho older-adults: b63b98232fda902250b3b94f9a5d682fa98f9c10f44d8ae88118c25a369b94b0.",
+      "contentHash": "b63b98232fda902250b3b94f9a5d682fa98f9c10f44d8ae88118c25a369b94b0",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn151.html",
+          "sha256": "c05d447e1f153074d234970f8013eb909e8c2e5b9a61ee268e75206af1fbac5e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn151_root-pli-ms.json",
+          "sha256": "2f59830560f4f540d63a69231d51245dd2a9885fbd4939815fd09306a2377dea"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn151_translation-en-sujato.json",
+          "sha256": "213dd383de4296569bd470d495989cd0853fff9708f6f448d1f59826e6d8df8f"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn151_comment-vi-project.json",
+          "sha256": "6f8f1d90a7c77de09eb0d6b1a84140404fd3a1d1c94e8845455a4d805c31a32f"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn151_translation-vi-project.json",
+          "sha256": "cedc0fd53a11f0588b6e6c8a31a032e5ecdde0ab99fe85b0507b32b1c3f1e588"
+        },
+        {
+          "path": "docs/editorial-council-2026-10.md",
+          "sha256": "896cba5956371a3a3bac83bed396be59b5bbd768a7742028b58d271b3b144c66"
+        }
+      ]
+    }
+  ]
+}

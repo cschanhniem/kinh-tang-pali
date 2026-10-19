@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn4",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "dbdd7e3a-2adf-4d68-8907-0993c1504125"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "c44413ce-9e99-4fee-9705-0f10543ea2ff"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "62df2143-ec80-4e56-a724-99109370cf8b"
+    }
+  },
+  "reviews": [
+    {
+      "id": "dbdd7e3a-2adf-4d68-8907-0993c1504125",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.4,
+        "logic_context": 9.5,
+        "terminology": 9.3,
+        "audience_fit": 9.1,
+        "clarity": 9.2,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc trọn năm nguồn của DN4: 297 khóa Pāli, toàn bộ Sujato gốc và Việt dự án, HTML Minh Châu từ đầu đến credits và 8 chú thích. Bản trẻ giữ giới hạnh5.12 mà HTML lược, ba yếu tố sau bỏ Veda15 dù HTML SC61 còn lặp Veda, và giơ roi/hạ lọng26.12–13 thay vì hạ roi/vẫy tay của HTML. Anh gốc có258/297 ô không trống; không dùng phần fill của dự án làm đối chứng độc lập.",
+        "semantic_fidelity": "Các sections removing, angaka và two-hands bảo toàn thứ tự bỏ dung sắc→thánh chú→dòng dõi, giả định năm việc xấu của Aṅgaka20.10 và quan hệ giới gột tuệ/tuệ gột giới21–22. Chữ nếu không bị đổi thành cáo buộc người cháu đã phạm. Thành tựu của tỳ-kheo23 không bị gán cho Soṇadaṇḍa.",
+        "core_coverage": "Đã đối chiếu đủ40 đơn vị nghĩa với toàn bộ bản trẻ. Hai bộ tán thán,300 học trò, ba nhóm người quy y, hai loại danh giảm→của giảm khi ngồi, năm cách chào, các mốc bốn thiền/tri kiến/không trở lại hiện hữu và bốn lời xin chào cuối đều hiện diện. Vài phẩm tính phụ về dòng dõi được diễn gộp cho dễ đọc, nên không chấm tuyệt đối về độ chi tiết.",
+        "logic_context": "Nguồn lời được phân biệt ở rank, answer và reasons; ba nỗi lo8 là dự đoán của ông, chưa là Phật làm nhục. Câu trả lời hai khả năng18 cho nhóm chọn người đối thoại còn đủ. Phần last-concern giữ quy y rồi vẫn lo danh lợi, không bịa thánh quả hay sự chấp thuận bốn dấu thay.",
+        "terminology": "Veda, Bà-la-môn, giới, tuệ, tri kiến và muỗng tế lễ đều có lời mở nghĩa. Thứ nhất/nhì người cầm muỗng13.9 được giữ trong bối cảnh nghi lễ, rồi phân biệt với tuệ giải thoát23. Danh hiệu và từ phi nhân còn đòi hỗ trợ khi trẻ chưa quen; không kiểm từ vựng bằng độc giả thật.",
+        "audience_fit": "Nhịp kể theo hồ sen, người cháu và các bước5→2; có câu xưng em, giới thiệu Bà-la-môn, không áp hệ giai cấp làm thước đo trẻ. Phần rank và reasons vẫn dài vì phải giữ danh mục, phù hợp đọc từng đoạn cùng người lớn hơn là tự đọc nhanh; đây là giới hạn thực của bản trẻ.",
+        "clarity": "Các heading chỉ rõ cảnh, nỗi lo, phép bỏ và ví rửa tay; ba câu hỏi bỏ điều được kể theo thứ tự nên có thể theo mà không phải suy từ bảng thuật ngữ. Chuỗi danh-của được nhắc vừa đủ. Những đoạn liệt kê môn học và danh hiệu vẫn có mật độ cao, vì vậy điểm rõ ràng không coi là hoàn hảo.",
+        "editorial_separation": "Hai phần cuối có kind example và practice, nêu rõ người biên soạn đặt ví chọn người giữ màu và gợi ý học/sống. Phần path công khai dấu lược thực của Pāli, không viết thêm lời rồi trình như kinh; lời giới thiệu nguồn và suy giải không lẫn vào lời thoại nhân vật.",
+        "practical_integrity": "Ví giữ đồ chung không thay danh xưng Bà-la-môn hay tuệ giải thoát thành kỹ năng đời thường. Gợi ý hỏi người tin cậy, chọn việc tốt phù hợp không đòi trẻ xuất gia, tự chứng hay tu theo nghi lễ cổ. Không có hành động nguy hiểm hoặc bảo đảm đắc quả.",
+        "technical_integrity": "auditExplanations(dn,dn4) errors=[], sourceErrors=[]; năm dependency khớp bytes/pin. Bản đồ phủ297 khóa/40 đơn vị và bản trẻ dùng đủ các đơn vị ở teaching/clarification; JSON hợp lệ, NFC, ID hợp lệ; git diff --check pass. Hash trẻ còn trùng handoff f794e89a10af0ef153082fed36a39d0fe796768399e5fbf8ee4f8716098cebc9; kiểm máy không được tính là kiểm nghĩa."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm là agent B khác agent C tác giả nhưng cùng mô hình GPT-6 Astra Pro; chưa có độc giả trẻ thật hoặc hội đồng con người. Đã đọc toàn bộ bản đồ và cả ba bản để so mức phù hợp riêng, không lấy điểm tác giả. Không thấy lỗi chặn, không sửa nội dung DN4 sau khi nhận khóa; chấm theo bằng chứng hiện có và giới hạn các danh mục dài.",
+      "contentHash": "f794e89a10af0ef153082fed36a39d0fe796768399e5fbf8ee4f8716098cebc9",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn4.html",
+          "sha256": "6be915c147d29172a4acdb0ea5f886ba3b76a8f2f6485424a165280b0cdc54d1"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn4_root-pli-ms.json",
+          "sha256": "d85a5eae768ec702fab84655824a770ed1a3355311623806d22b9f9acbe061c9"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn4_translation-en-sujato.json",
+          "sha256": "59d91a4e175c421bf3da8801f0685f093b23792a84581e011a30624bb6a8f73a"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn4_comment-vi-project.json",
+          "sha256": "e9b095d38b79dab90627a952568604f5d8535d41407822aed867d1020e05e642"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn4_translation-vi-project.json",
+          "sha256": "496fdaf3640d7da553a9331d7148dc5e4839bf74a8b0c40c1f36d4fee5ec1112"
+        }
+      ]
+    },
+    {
+      "id": "c44413ce-9e99-4fee-9705-0f10543ea2ff",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.4,
+        "audience_fit": 9.4,
+        "clarity": 9.4,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đã đối chiếu trọn Pāli297 khóa, Sujato, Việt dự án, HTML Minh Châu và8 chú thích, đọc đủ40 đơn vị và bản trưởng thành. Các chỗ dễ theo nhầm HTML được xử lý đúng: bỏ thánh chú15, hai ví tay/chân và phần Phật lặp22, động tác giơ roi/hạ lọng26.12–13. Không tính39 ô Anh trống thành xác nhận thêm.",
+        "semantic_fidelity": "Bản criteria giữ trí ban đầu với thứ bậc người cầm muỗng tế, development giữ mức tuệ do Phật mở đến giải thoát; hai ý không bị nhập. Reduction nói rõ bỏ khỏi tiêu chuẩn tối thiểu, không phủ nhận mọi giá trị; objection giữ Aṅgaka là giả định, đủ năm hành vi xấu và ba ưu điểm không bù được chúng.",
+        "core_coverage": "Tất cả40 đơn vị có diễn giải: đủ các môn Veda, danh mục can ngăn/khen Phật, ba nhóm gia đình–tùy thuộc–quan quy y và ba lượt kính trọng,100 do-tuần, ba nỗi lo rồi hai lần lặp tại chỗ, năm tiêu chuẩn, chuỗi5/4/3/2, phần lược23, bữa ăn và bốn cử chỉ cuối. Các lặp cùng công thức được gom có nêu lặp, không xóa kết luận.",
+        "logic_context": "Lời của nhóm, lời Soṇadaṇḍa, tri giác và lời Phật đều có chủ thể. Ba nguy cơ là dự tính, danh giảm kéo của giảm vì của nhờ danh; quan hệ này còn sau quy y. Bản không suy rằng Phật đồng ý sự thay lễ bằng dấu hiệu, và không kể thánh quả khi27không có công thức ấy.",
+        "terminology": "Giới-tuệ được giải bằng thanh lọc hai chiều, nơi/người có cái này có cái kia và tối thượng, tránh đồng nhất lanh trí với đạo đức. Lời khó6.16 được ghi có cách dịch khác, chọn hướng không dẫn Bà-la-môn đến ác. Veda/muỗng tế còn đúng ngữ cảnh; dấu lược và tri kiến không bị biến thành câu xác chứng mở rộng.",
+        "audience_fit": "Bản khai triển việc danh tiếng gắn tài sản và sự chuyển từ tiêu chuẩn xã hội sang giới-tuệ, phù hợp người trưởng thành. Ví quản lý quỹ phân biệt giá trị bằng cấp với trung thực mà không xem nghề nghiệp tương đương tuệ giải thoát. Chưa có kiểm tiếp nhận thực tế, nên điểm chỉ phản ánh đánh giá đọc của agent.",
+        "clarity": "Mười hai phần kinh đi từ bối cảnh, lý do thăm, lo, tiêu chuẩn, phản đối, giới-tuệ tới phần kết. Đoạn reduction và remaining nói trực tiếp các chỗ thường hiểu sai. Mật độ cao ở danh mục đầu có lý do nguồn nhưng vẫn làm tốc độ đọc chậm; không có chứng cứ người đọc thực để nâng thành điểm tối đa.",
+        "editorial_separation": "Các chú giải nguồn phụ, phạm vi tự xưng và lược23 được nêu bằng giọng người biên soạn. Example/practice có nhãn và lời xác nhận là liên hệ thêm. Không chép nội dung DN2 vào khoảng lược rồi tự nhận đã đối chiếu DN4 chi tiết.",
+        "practical_integrity": "Gợi ý xét quyết định, nhận giới hạn hiểu biết và nhận nỗi sợ danh không hứa vượt hết chấp giữ. Ví quỹ chung chỉ là liên hệ một phần, không secularize lời Phật về thiền và giải thoát. Không hướng dẫn hành vi gây hại hay thiết lập thước đo giai cấp cho người nay.",
+        "technical_integrity": "Kiểm độc lập audit trả errors=[],sourceErrors=[],5 nguồn khớp; cấu trúc40 đơn vị phủ297 khóa và audience trưởng thành đủ unit links, ID/NFC/plain text hợp lệ, diff-check sạch. Hash trưởng thành 131f799821f9c45d11054f6c9843776d975f45e76b7e7cff1a2c390048134fc2 còn đúng bản tác giả khóa. Đây là bằng chứng tính toàn vẹn, không thay kiểm ngữ nghĩa."
+      },
+      "blockingErrors": [],
+      "notes": "Agent B kiểm độc lập với agent C tác giả, cùng mô hình GPT-6 Astra Pro; chưa có người đọc trưởng thành thật hoặc biên tập viên con người xác nhận. Đã đọc trọn năm nguồn thực và cả ba bản, không chỉ kết quả audit. Không phát hiện blocker; không thay đổi DN4; điểm có giới hạn vì danh mục cổ và chưa có user testing.",
+      "contentHash": "131f799821f9c45d11054f6c9843776d975f45e76b7e7cff1a2c390048134fc2",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn4.html",
+          "sha256": "6be915c147d29172a4acdb0ea5f886ba3b76a8f2f6485424a165280b0cdc54d1"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn4_root-pli-ms.json",
+          "sha256": "d85a5eae768ec702fab84655824a770ed1a3355311623806d22b9f9acbe061c9"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn4_translation-en-sujato.json",
+          "sha256": "59d91a4e175c421bf3da8801f0685f093b23792a84581e011a30624bb6a8f73a"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn4_comment-vi-project.json",
+          "sha256": "e9b095d38b79dab90627a952568604f5d8535d41407822aed867d1020e05e642"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn4_translation-vi-project.json",
+          "sha256": "496fdaf3640d7da553a9331d7148dc5e4839bf74a8b0c40c1f36d4fee5ec1112"
+        }
+      ]
+    },
+    {
+      "id": "62df2143-ec80-4e56-a724-99109370cf8b",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.3,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đầy đủ năm nguồn DN4 cùng297 khóa Pāli,40 đơn vị nghĩa và toàn bản lớn tuổi. So với HTML, bản giữ giới5.12, bỏ Veda thật ở15, giữ Phật nhắc cả tay/chân22, và giơ roi/hạ lọng26.12–13. Sujato258/297 ô có chữ được dùng đúng phạm vi, không thay các lược bằng bản fill rồi coi là đối chứng.",
+        "semantic_fidelity": "Các phần four, three, nephew, mutual diễn đúng việc bỏ ngoại hình, chú thuật, dòng dõi nhưng không bỏ giới và tuệ. Hai chiều gột sạch, nơi có/người có và giá trị tối thượng còn đủ. Aṅgaka chỉ là giả sử; Soṇadaṇḍa được kể quy y, không được gán bốn thiền hay giải thoát của tu sĩ23.",
+        "core_coverage": "Đủ40 đơn vị đi qua23 phần, giữ hai bộ lời tán thán, các môn Veda,300 học trò,32 tướng chỉ ở số nguồn nêu, ba nhóm quy y, lý do tiếp khách, ba rồi hai nỗi lo, năm cách chào, các mốc23, bốn hình ảnh quy y, bữa ăn và bốn lời xin dấu hiệu. Những câu đồng nghĩa được diễn gộp nhưng không mất tầng kết luận.",
+        "logic_context": "Trình tự từ danh vị đến tự nhận chưa biết và cuối vẫn lo mất của được giữ. Khả năng bị khinh/mất danh/mất của là suy nghĩ của nhân vật, không lời Phật trách hay sự việc đã xảy ra. Phần signs và ending nói rõ bốn dấu là xin, chưa có chấp thuận được nguồn ghi; không tô phần kết thành đã buông sạch danh lợi.",
+        "terminology": "Có giải nghĩa do-tuần, giới/tuệ, tri kiến và bối cảnh muỗng tế lễ. Dòng dõi được đặt trong quan điểm xã hội cổ, không thành thước đo người lớn tuổi. Các từ Veda và phi nhân còn đòi nền kiến thức nhất định; diễn giải không giả định đã kiểm hiểu của độc giả thật.",
+        "audience_fit": "Bản tách riêng5→4→3/2 và giới-tuệ→hỏi sâu, câu và đoạn nhìn chung ngắn, nhịp dừng hợp người đọc muốn theo chậm. Không xem tuổi cao tự đồng nghĩa thấu hiểu, không giao bài tu vượt sức. Các danh sách dài ở phần đầu vẫn có tải đọc, nên điểm phù hợp giữ ở mức đánh giá tốt có giới hạn.",
+        "clarity": "Các tiêu đề cho biết đang ở cuộc gặp, nỗi lo, tiêu chuẩn hay phần còn vướng. Phần mutual lặp hai chiều một cách rõ; endings không yêu cầu suy từ việc Phật im lặng. Một số từ ghép truyền thống và tên riêng nối nhau làm bài chưa hoàn toàn nhẹ, dù không có câu tối nghĩa làm lệch nội dung.",
+        "editorial_separation": "Example về trao trách nhiệm và practice tự xét có kind riêng và tuyên bố là của người biên soạn. Phần training nói rõ source lược và không gán chứng đắc cho người nghe. Lời giải thêm về phẩm chất khác với lời trích kinh được nhận diện.",
+        "practical_integrity": "Tình huống bàn giao trách nhiệm tôn trọng người có kinh nghiệm, gợi ý hỏi thêm và cân nhắc ngay thẳng không buộc độc giả theo vai gia đình cố định. Không hứa trí giải thoát từ một khoảng dừng; không biến lời xin giữ thể diện cuối thành mẫu né trách nhiệm nên làm theo.",
+        "technical_integrity": "Audit source/schema độc lập không có errors hoặc sourceErrors, đủ5 dependency và40unit/297 khóa, bản lớn tuổi có đủ links, NFC/ID/plain text hợp lệ; git diff --check pass. Hash 011852d14780bf64b18e2475580700c416deb5bfa35ac670994db944c40a4221 còn khớp lúc khóa. Chưa có kiểm hiển thị bằng người dùng thật; không coi kiểm JSON là thử khả năng đọc."
+      },
+      "blockingErrors": [],
+      "notes": "Agent B khác agent C tác giả nhưng cùng mô hình GPT-6 Astra Pro. Toàn bộ nguồn, bản đồ và ba bản được đọc; không tự nhận đánh giá của người lớn tuổi thật. Không có blocker và không sửa nội dung DN4 trong lần kiểm này. Giới hạn chính là các danh mục tán thán/học thuật cổ vẫn dài dù đã chia nhịp.",
+      "contentHash": "011852d14780bf64b18e2475580700c416deb5bfa35ac670994db944c40a4221",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn4.html",
+          "sha256": "6be915c147d29172a4acdb0ea5f886ba3b76a8f2f6485424a165280b0cdc54d1"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn4_root-pli-ms.json",
+          "sha256": "d85a5eae768ec702fab84655824a770ed1a3355311623806d22b9f9acbe061c9"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn4_translation-en-sujato.json",
+          "sha256": "59d91a4e175c421bf3da8801f0685f093b23792a84581e011a30624bb6a8f73a"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn4_comment-vi-project.json",
+          "sha256": "e9b095d38b79dab90627a952568604f5d8535d41407822aed867d1020e05e642"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn4_translation-vi-project.json",
+          "sha256": "496fdaf3640d7da553a9331d7148dc5e4839bf74a8b0c40c1f36d4fee5ec1112"
+        }
+      ]
+    }
+  ]
+}
