@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn110",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "50789570-4dc2-49da-9c41-d44471c7a3f6"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "7f600932-9878-451f-8ffc-a082093f1d9c"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "c8ed5080-2c12-4839-9295-5401d5c784ca"
+    }
+  },
+  "reviews": [
+    {
+      "id": "50789570-4dc2-49da-9c41-d44471c7a3f6",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.6,
+        "clarity": 9.6,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Giữ đêm rằm ngày mười lăm, hội chúng rất yên và Phật tự mở lời. Danh sách bạn có cả sa-môn lẫn bà-la-môn, khác chỗ HTML lược; mười tên cuối vẫn đủ dù Sujato để trống phần ấy.",
+        "semantic_fidelity": "Hai lần không thể và hai lần có thể không bị nhập thành phán đoán tuyệt đối cho mọi người. Hai nhánh quan điểm giữ cả đời này lẫn đời sau; quả tái sinh gắn toàn nếp sống tám mặt, không chỉ một món quà.",
+        "core_coverage": "19 mục bao phủ đủ 32 ý: bốn lượt hỏi đáp và khen, tám mặt, bảy phẩm chất ở bản thân và bạn, hai lớp hại ba phía, bốn lời, ba hành động, mười quan điểm và năm nét cho tặng.",
+        "logic_context": "Trình tự nhánh bất thiện rồi thiện được giữ, mỗi nhánh có tổng hợp toàn tám mặt trước kết quả. Ý định trong tâm khác việc bàn tính, và lời người giữ quan điểm không lẫn với lời tán đồng của hội chúng.",
+        "terminology": "Bất thiện/thiện mở bằng không chân chánh/chân chánh; thất niệm, bố thí, sa-môn, bà-la-môn và hóa sinh đều được giải. Các cụm cúng tế, lễ vật hiến cúng và quả về sau vẫn khá xa với trẻ mới đọc.",
+        "audience_fit": "Túi sách tặng bạn và lời nói trong nhóm là điểm tựa cụ thể. Nội dung quan hệ thân mật được nói ngắn, đúng chủ đề và không mô tả chi tiết; đoạn mười quan điểm cần trẻ có khả năng đọc khá hoặc được hỗ trợ.",
+        "clarity": "Các tiêu đề theo số lượng giúp theo danh sách song hành, câu thường ngắn và phủ định tách rõ. Phần phủ nhận/thừa nhận nhiều nội dung trong một đoạn vẫn cần đọc chậm để thấy đủ từng điều.",
+        "editorial_separation": "Ví dụ túi sách và thực tập góp lời có kind cùng tiêu đề riêng. Những lời về địa ngục, loài vật và chư thiên được trình trong mạch Phật dạy, không được thêm vào câu chuyện tặng sách.",
+        "practical_integrity": "Gợi ý xét hại mình, người và cả hai trước khi nói bám đúng nội dung. Việc tặng sách không yêu cầu đáp lễ, không hứa đổi lấy cảnh giới tốt; phần kết quả vẫn dành cho toàn nếp sống.",
+        "technical_integrity": "Audit sạch với 100 khóa Pāli đúng thứ tự trong 32 đơn vị, bản trẻ đủ 19 mục/28 đoạn và phủ đủ ý bằng teaching. Năm SHA và fingerprint cuối khớp checkpoint cùng ba mở cảnh đã đọc lại."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đầy đủ năm nguồn, toàn bản đồ ý và bản children; đã đóng phát hiện, đọc lại toàn mục sửa và xác minh fingerprint. Hồ sơ riêng: mn110-writer-a-review-source-checkpoint.json, mn110-writer-a-review-source-notes.json, mn110-writer-a-review-reading-checkpoint.json, mn110-writer-a-review-audit.json.",
+      "contentHash": "8808897af6f98a930b8d755f710e5feae538435ba6d8e405ddb6c7fe3b5c01cf",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn110.html",
+          "sha256": "7b1049e85b00cb7db776d4a5e321e937f97f4dad8cc75c26a3365a6e39a4c27e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn110_root-pli-ms.json",
+          "sha256": "59782ac68f4ce0cbfa166012154009afe02c5b053e72d71c22d94655b9513513"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn110_translation-en-sujato.json",
+          "sha256": "8ddd0ab4cd7e7194ed5d53a9d119432ede5204cd7f187bf765cd831538c0b584"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn110_comment-vi-project.json",
+          "sha256": "c70ba45b30d3a7b0170f816140ebd628f2a7fcf557b25b39e310a34d6bdda371"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn110_translation-vi-project.json",
+          "sha256": "90924c35274f84b12612fbc63614ef2fb726052bbf53ad7a2f2f2be6ee6c0008"
+        }
+      ]
+    },
+    {
+      "id": "7f600932-9878-451f-8ffc-a082093f1d9c",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.6,
+        "audience_fit": 9.7,
+        "clarity": 9.7,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Theo đúng nguồn ở bốn lời khen, cả hai nhóm bạn tôn giáo, mười phủ định/khẳng định và phần kệ cuối. Cảnh ngoài trời đã nêu rõ đêm; không thêm vị đệ tử đứng lên xin hỏi như ở bài trước.",
+        "semantic_fidelity": "Bản phân biệt phẩm chất, sự thân cận, ý định, bàn tính và hành vi. Năm nét bố thí giữ tự tay và niềm tin vào hệ quả, không chuyển quả trở lại thành khoản đáp lễ từ người nhận.",
+        "core_coverage": "14 mục triển khai toàn 32 ý, kể đủ bảy phẩm chất hai chiều và bảy nét của mỗi nhóm bạn. Các mệnh đề về sa-môn/bà-la-môn giữ đúng đường, đúng thực hành, tự biết trực tiếp cả hai đời rồi nói lại.",
+        "logic_context": "Hai giới hạn nhận biết ở người bất thiện được tách khỏi hai khả năng ở người thiện. Hai tổng kết phẩm chất, bạn, dự định, lời bàn, lời nói, hành động, quan điểm và cho tặng đi trước hai loại kết quả tái sinh.",
+        "terminology": "Tín, thất niệm, tinh tấn, niệm, nghiệp, hóa sinh, sa-môn và bà-la-môn có lời giải tại chỗ. Tà hạnh trong dục được mở trực tiếp và ngắn; một số từ nghi lễ còn cần vốn từ tôn giáo cơ bản.",
+        "audience_fit": "Ví dụ một cuộc họp đẩy thiệt hại sang nhóm khác phù hợp trách nhiệm công việc, giúp xét riêng động cơ và lời khuyên. Thực tập cho tặng gần đời sống trưởng thành mà không thu đạo đức vào lợi ích cá nhân.",
+        "clarity": "Gom phẩm chất với thân cận, ý định với hành vi tạo mạch đối chiếu hai nhánh rõ. Phần nhận diện tám mặt và các đoạn mười quan điểm vẫn liệt kê dày nhưng trật tự giữ ổn định.",
+        "editorial_separation": "Ví dụ cuộc họp và hướng dẫn xem lại việc cho tặng tách khỏi phần giảng bằng nhãn. Không đặt lời khuyên mới vào miệng Phật, không kéo kết quả tái sinh của kinh vào một quyết định công việc riêng lẻ.",
+        "practical_integrity": "Bài tập xét chuẩn bị, sự quan tâm, tấm lòng, vật cho và hệ quả giữ tinh thần trân trọng; người nhận không bị đặt nghĩa vụ trả lại. Không có lời bảo đảm giàu có hoặc giải thoát từ một lần bố thí.",
+        "technical_integrity": "Bản 14 mục/26 đoạn qua audit độc lập không có lỗi, toàn 32 ý được phần dạy bao phủ. Đủ 100 khóa ghim, năm byte nguồn không đổi; hash cuối đúng opening đã đọc lại và không có metadata do người kiểm ghi."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đầy đủ năm nguồn, toàn bản đồ ý và bản adults; đã đóng phát hiện, đọc lại toàn mục sửa và xác minh fingerprint. Hồ sơ riêng: mn110-writer-a-review-source-checkpoint.json, mn110-writer-a-review-source-notes.json, mn110-writer-a-review-reading-checkpoint.json, mn110-writer-a-review-audit.json.",
+      "contentHash": "939cd2c7b8d8d8ffeec7b9895b5cdb8017ce6d8055372c9ae0e29ad046c4412f",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn110.html",
+          "sha256": "7b1049e85b00cb7db776d4a5e321e937f97f4dad8cc75c26a3365a6e39a4c27e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn110_root-pli-ms.json",
+          "sha256": "59782ac68f4ce0cbfa166012154009afe02c5b053e72d71c22d94655b9513513"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn110_translation-en-sujato.json",
+          "sha256": "8ddd0ab4cd7e7194ed5d53a9d119432ede5204cd7f187bf765cd831538c0b584"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn110_comment-vi-project.json",
+          "sha256": "c70ba45b30d3a7b0170f816140ebd628f2a7fcf557b25b39e310a34d6bdda371"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn110_translation-vi-project.json",
+          "sha256": "90924c35274f84b12612fbc63614ef2fb726052bbf53ad7a2f2f2be6ee6c0008"
+        }
+      ]
+    },
+    {
+      "id": "c8ed5080-2c12-4839-9295-5401d5c784ca",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.8,
+        "terminology": 9.6,
+        "audience_fit": 9.7,
+        "clarity": 9.6,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Giữ ngày mười lăm trong đêm rằm, sự yên lặng, lời Phật tự gọi và toàn kệ mười bài. Nhánh thân cận có cả người tu và bà-la-môn, không theo đoạn HTML thiếu một nhóm.",
+        "semantic_fidelity": "Ý nghĩ hại mình, người, cả hai và việc bàn tính giữ thành hai lớp riêng ở cả hai chiều. Quả về sau thuộc hành động người cho; địa vị cao trọng giữa trời hoặc người không bị nói thành đã chấm dứt tái sinh.",
+        "core_coverage": "20 mục chứa đủ 32 đơn vị, từ bốn lượt nhận biết đến tám mặt sống và phần kết phẩm. Cả bảy phẩm chất, mười quan điểm và năm nét bố thí đều được trình hai chiều, không bỏ vì các công thức giống nhau.",
+        "logic_context": "Người bất thiện không thể biết và người thiện có thể biết giữ đúng mức khẳng định. Hai đoạn destination/good-destination nhắc toàn tám mặt trước sinh về, nên không làm một thói quen thành phán quyết về cả đời.",
+        "terminology": "Thất niệm được giải trong sống và tu, không gán vào trí nhớ tuổi tác; niệm, nghiệp, hóa sinh và hai nhóm người tu đều được mở. Các thuật ngữ tín và phù phiếm còn dựa một phần vào ngữ cảnh quen thuộc.",
+        "audience_fit": "Giọng bình tĩnh, tách nhiều mục ngắn và dùng chuyện trao vật cho người thân làm ví dụ. Phần góp ý gia đình tôn trọng người đọc, không giả định tuổi lớn phải nhường hết ý kiến hoặc thiếu khả năng phán đoán.",
+        "clarity": "Tám mặt được chia thành các mục nhỏ, giúp đọc lại từng phần trước khi sang nhánh đối ứng. Danh sách mười phủ định và mười khẳng định vẫn cần tập trung, nhưng hai phía có cấu trúc nhất quán.",
+        "editorial_separation": "Việc trao vật trong nhà và dừng trước khi góp ý được ghi riêng là ví dụ/thực hành. Các cảnh giới và kệ nhắc tên vẫn nằm ở phần thuật lời kinh, không có chi tiết kiểm nguồn chen vào mạch đọc.",
+        "practical_integrity": "Thực hành mời xét ảnh hưởng lời khuyên với cả hai phía, giữ nói thật và không chia rẽ. Ví dụ cho tặng nhấn mạnh quan tâm, không kể công hay buộc đáp lại; không hứa quả tốt chỉ nhờ trao một vật.",
+        "technical_integrity": "20 mục/28 đoạn, 32 ý và 100 khóa đều được audit độc lập xác nhận hợp lệ. Ba mở cảnh sửa đã đọc trọn, nguồn và map giữ nguyên; fingerprint mới trùng freeze của tác giả, chưa bao gồm việc dựng giao diện."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đầy đủ năm nguồn, toàn bản đồ ý và bản older-adults; đã đóng phát hiện, đọc lại toàn mục sửa và xác minh fingerprint. Hồ sơ riêng: mn110-writer-a-review-source-checkpoint.json, mn110-writer-a-review-source-notes.json, mn110-writer-a-review-reading-checkpoint.json, mn110-writer-a-review-audit.json.",
+      "contentHash": "8adb94021d057733141bc24bb4fd73c6de26d1cf57e46d4787d7aa1882f2dd94",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn110.html",
+          "sha256": "7b1049e85b00cb7db776d4a5e321e937f97f4dad8cc75c26a3365a6e39a4c27e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn110_root-pli-ms.json",
+          "sha256": "59782ac68f4ce0cbfa166012154009afe02c5b053e72d71c22d94655b9513513"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn110_translation-en-sujato.json",
+          "sha256": "8ddd0ab4cd7e7194ed5d53a9d119432ede5204cd7f187bf765cd831538c0b584"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn110_comment-vi-project.json",
+          "sha256": "c70ba45b30d3a7b0170f816140ebd628f2a7fcf557b25b39e310a34d6bdda371"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn110_translation-vi-project.json",
+          "sha256": "90924c35274f84b12612fbc63614ef2fb726052bbf53ad7a2f2f2be6ee6c0008"
+        }
+      ]
+    }
+  ]
+}

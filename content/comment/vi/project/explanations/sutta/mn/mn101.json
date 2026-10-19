@@ -1,0 +1,2163 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn101",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
+      "sha256": "cbf9a9c0e37fd8ae630a6a7983144599ae60033a69e3699eb0ee937702a8061b",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn101_translation-vi-project.json",
+      "sha256": "dec20a9796cdd51e81496101db43f37ac2ba8ada44f850c8789992fdc432b8a6",
+      "commit": "ecf34c8858883d2136d36ddc59123c09c043cec9"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json",
+      "sha256": "bc7a99a1d4b06d47156014cb562bd39545c2b30a42fb7ddf6b19b4316a3ff598",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn101.html",
+      "sha256": "3b81f92522e4973716b0d3db936fd88afa3e307a4525a3a3f985d1c32478c198",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn101_comment-vi-project.json",
+      "sha256": "3c9eb8cc70686aa061ae1b3d7c01755a817c33e8d71303fdfac482de2858c636",
+      "commit": "ecf34c8858883d2136d36ddc59123c09c043cec9"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Tên bài kinh",
+      "segments": [
+        "mn101:0.1",
+        "mn101:0.2"
+      ],
+      "summary": "Trung Bộ 101, kinh Devadaha."
+    },
+    {
+      "id": "setting",
+      "title": "Lời nghe và lời gọi các tỳ-kheo",
+      "segments": [
+        "mn101:1.1",
+        "mn101:1.2",
+        "mn101:1.3",
+        "mn101:2.1",
+        "mn101:2.2",
+        "mn101:2.3"
+      ],
+      "summary": "Người truyền kinh xác nhận đã nghe: Phật ở xứ Sakiya tại thị trấn Devadaha của người Sakiya, gọi các tỳ-kheo; họ đáp rồi Ngài giảng."
+    },
+    {
+      "id": "doctrine",
+      "title": "Chủ trương được đưa ra xem xét",
+      "segments": [
+        "mn101:2.4",
+        "mn101:2.5",
+        "mn101:2.6",
+        "mn101:2.7",
+        "mn101:2.8"
+      ],
+      "summary": "Một số sa-môn bà-la-môn, cụ thể các Nigaṇṭha, nói mọi cảm thọ lạc/khổ/trung tính đều do việc làm quá khứ. Khổ hạnh làm hết nghiệp cũ, không tạo nghiệp mới, tương lai không hậu quả; từ đó nghiệp tận, khổ tận, cảm thọ tận, toàn khổ tiêu tan. Đây là lời được trích để xét, không lời Phật xác nhận."
+    },
+    {
+      "id": "confirmation",
+      "title": "Phật hỏi lại đúng chủ trương ấy",
+      "segments": [
+        "mn101:3.1",
+        "mn101:3.2",
+        "mn101:3.3",
+        "mn101:3.4",
+        "mn101:3.5",
+        "mn101:3.6"
+      ],
+      "summary": "Phật kể đã gặp Nigaṇṭha, hỏi có thật họ chủ trương toàn chuỗi từ ba cảm thọ do quá khứ, khổ hạnh trừ cũ/không tạo mới, không hậu quả tương lai, nghiệp tận/khổ tận/cảm thọ tận/toàn khổ tiêu tan hay không; họ thừa nhận có."
+    },
+    {
+      "id": "past-existence",
+      "title": "Điều chưa biết thứ nhất",
+      "segments": [
+        "mn101:4.1",
+        "mn101:4.2",
+        "mn101:4.3",
+        "mn101:4.4"
+      ],
+      "summary": "Phật hỏi họ có biết chắc mình từng tồn tại trong quá khứ chứ không phải không tồn tại không; họ đáp không biết."
+    },
+    {
+      "id": "past-bad",
+      "title": "Điều chưa biết thứ hai",
+      "segments": [
+        "mn101:4.5",
+        "mn101:4.6",
+        "mn101:4.7"
+      ],
+      "summary": "Hỏi có biết mình từng làm ác trong quá khứ, chứ không phải không làm không; họ đáp không biết."
+    },
+    {
+      "id": "past-type",
+      "title": "Điều chưa biết thứ ba",
+      "segments": [
+        "mn101:4.8",
+        "mn101:4.9",
+        "mn101:4.10"
+      ],
+      "summary": "Hỏi có biết loại việc ác nào mình đã làm không; họ đáp không biết."
+    },
+    {
+      "id": "past-amount",
+      "title": "Điều chưa biết thứ tư gồm ba lượng",
+      "segments": [
+        "mn101:4.11",
+        "mn101:4.12",
+        "mn101:4.13"
+      ],
+      "summary": "Hỏi biết bao nhiêu khổ đã tiêu, bao nhiêu còn cần tiêu, và tiêu bao nhiêu thì toàn khổ hết không; họ đáp không biết cả điều này."
+    },
+    {
+      "id": "present-training",
+      "title": "Điều chưa biết thứ năm",
+      "segments": [
+        "mn101:4.14",
+        "mn101:4.15",
+        "mn101:4.16"
+      ],
+      "summary": "Hỏi biết việc bỏ các pháp bất thiện và thành tựu pháp thiện ngay hiện tại không; họ đáp không biết."
+    },
+    {
+      "id": "unfounded",
+      "title": "Nhắc đủ năm điều không biết",
+      "segments": [
+        "mn101:5.1",
+        "mn101:5.2",
+        "mn101:5.3",
+        "mn101:5.4",
+        "mn101:5.5",
+        "mn101:5.6",
+        "mn101:5.7",
+        "mn101:5.8",
+        "mn101:5.9",
+        "mn101:5.10"
+      ],
+      "summary": "Phật nhắc đủ năm điều với ba lượng trong điều thứ tư. Khi chưa biết như vậy, không thích đáng tuyên bố toàn chuỗi mọi cảm thọ do quá khứ, khổ hạnh trừ cũ/không tạo mới, không hậu quả rồi nghiệp/khổ/cảm thọ tận/toàn khổ tiêu."
+    },
+    {
+      "id": "if-known",
+      "title": "Giả sử có biết đủ",
+      "segments": [
+        "mn101:6.1",
+        "mn101:6.2",
+        "mn101:6.3",
+        "mn101:6.4",
+        "mn101:6.5",
+        "mn101:6.6",
+        "mn101:6.7",
+        "mn101:6.8",
+        "mn101:6.9",
+        "mn101:6.10"
+      ],
+      "summary": "Ngược lại, nếu biết cả tồn tại quá khứ, đã làm ác, loại ác, ba lượng khổ và bỏ bất thiện/thành thiện hiện tại, lời tuyên bố cùng toàn chuỗi ấy mới thích đáng. Giữ dạng giả định, không khẳng định các vị ấy có tri thức đó."
+    },
+    {
+      "id": "arrow-wound",
+      "title": "Người trúng tên độc",
+      "segments": [
+        "mn101:7.1",
+        "mn101:7.2",
+        "mn101:7.3"
+      ],
+      "summary": "Ví một người bị tên tẩm độc đậm bắn, đau khổ gay gắt dữ dội. Bạn bè/thân hữu và thân tộc mời thầy thuốc giải phẫu."
+    },
+    {
+      "id": "arrow-treatment",
+      "title": "Bốn bước chữa đều đau",
+      "segments": [
+        "mn101:7.4",
+        "mn101:7.5",
+        "mn101:7.6",
+        "mn101:7.7",
+        "mn101:7.8",
+        "mn101:7.9",
+        "mn101:7.10",
+        "mn101:7.11"
+      ],
+      "summary": "Thầy thuốc dùng dao mở vết thương, dụng cụ dò tìm tên, rút tên, đặt than thuốc vào miệng vết thương; mỗi bước có cảm thọ đau gay gắt dữ dội. Không tự thêm vải nóng theo HTML."
+    },
+    {
+      "id": "arrow-healed",
+      "title": "Vết thương lành",
+      "segments": [
+        "mn101:7.12"
+      ],
+      "summary": "Một thời gian sau da lành, người ấy không bệnh, an lạc, tự do, tự làm chủ, đi nơi mình muốn."
+    },
+    {
+      "id": "arrow-memory",
+      "title": "Người lành biết từng việc đã qua",
+      "segments": [
+        "mn101:7.13",
+        "mn101:7.14",
+        "mn101:7.15",
+        "mn101:7.16",
+        "mn101:7.17",
+        "mn101:7.18",
+        "mn101:7.19",
+        "mn101:7.20",
+        "mn101:7.21",
+        "mn101:7.22",
+        "mn101:7.23",
+        "mn101:7.24",
+        "mn101:7.25"
+      ],
+      "summary": "Người ấy nhớ đúng tên độc và đau do tên, người thân mời thầy, dao mở/dò/rút/than thuốc cùng đau riêng do từng bước; nay vết thương/da lành, khỏe, vui, tự do tự chủ, đi nơi muốn. Không chỉ nói quên cơn đau."
+    },
+    {
+      "id": "known-after-example",
+      "title": "Áp ví vào điều kiện biết rõ",
+      "segments": [
+        "mn101:8.1",
+        "mn101:8.2",
+        "mn101:8.3",
+        "mn101:8.4",
+        "mn101:8.5",
+        "mn101:8.6",
+        "mn101:8.7",
+        "mn101:8.8",
+        "mn101:8.9",
+        "mn101:8.10"
+      ],
+      "summary": "Sau ví tên, lặp điều kiện: nếu biết mình đã từng sống, đã làm ác, loại ác ấy, ba lượng đau liên quan và biết hiện bỏ bất thiện/thành tựu thiện, chỉ khi ấy lời tuyên bố khổ hạnh trừ nghiệp cũ, không tạo mới và hết toàn bộ khổ mới có cơ sở. Đây là giả định, không xác nhận họ đã biết."
+    },
+    {
+      "id": "unknown-after-example",
+      "title": "Trở về việc họ không biết",
+      "segments": [
+        "mn101:9.1",
+        "mn101:9.2",
+        "mn101:9.3",
+        "mn101:9.4",
+        "mn101:9.5",
+        "mn101:9.6",
+        "mn101:9.7",
+        "mn101:9.8",
+        "mn101:9.9",
+        "mn101:9.10"
+      ],
+      "summary": "Nhắc thực tế họ không biết đủ năm điều, nên không thích đáng nói toàn chuỗi mọi cảm thọ do quá khứ/khổ hạnh trừ cũ/không làm mới/không hậu quả/nghiệp tận/khổ tận/cảm thọ tận/toàn khổ tiêu."
+    },
+    {
+      "id": "teacher-claim",
+      "title": "Dẫn lời Nāṭaputta",
+      "segments": [
+        "mn101:10.1",
+        "mn101:10.2",
+        "mn101:10.3",
+        "mn101:10.4"
+      ],
+      "summary": "Nigaṇṭha đáp thầy Nāṭaputta toàn tri/toàn kiến, tự nhận biết thấy không sót, liên tục cả đi/đứng/ngủ/thức. Giữ là lời tự nhận được học trò dẫn."
+    },
+    {
+      "id": "teacher-method",
+      "title": "Điều họ ưa thích và chấp nhận",
+      "segments": [
+        "mn101:10.5",
+        "mn101:10.6",
+        "mn101:10.7",
+        "mn101:10.8",
+        "mn101:10.9"
+      ],
+      "summary": "Nāṭaputta bảo họ đã làm ác quá khứ, hãy dùng khổ hạnh khắc nghiệt tiêu nó; hiện thu thúc thân/lời/ý để không làm ác cho tương lai. Lặp trừ cũ/không tạo mới/không hậu quả/nghiệp tận/khổ tận/cảm thọ tận/toàn khổ tiêu. Họ ưa thích, chấp nhận và hài lòng; không thêm nếu vào lời đã làm ác."
+    },
+    {
+      "id": "five-bases",
+      "title": "Năm chỗ dựa có thể cho hai kết quả",
+      "segments": [
+        "mn101:11.1",
+        "mn101:11.2",
+        "mn101:11.3",
+        "mn101:11.4",
+        "mn101:11.5",
+        "mn101:11.6",
+        "mn101:11.7"
+      ],
+      "summary": "Phật nêu niềm tin, sở thích/tán thành, truyền khẩu, suy luận lý lẽ, chấp nhận quan điểm sau suy tầm; mỗi thứ có hai chiều kết quả ngay đời này. Hỏi từng chỗ dựa nơi thầy về điều quá khứ, rồi nói không thấy đáp trả chính đáng. Không nhập phần khai triển của MN95."
+    },
+    {
+      "id": "exertion-observation",
+      "title": "Đau theo chính sự gắng sức hiện tại",
+      "segments": [
+        "mn101:12.1",
+        "mn101:12.2",
+        "mn101:12.3",
+        "mn101:12.4",
+        "mn101:12.5",
+        "mn101:12.6"
+      ],
+      "summary": "Hỏi lúc nỗ lực/tinh tấn mãnh liệt thì có đau gay gắt do nỗ lực, lúc không mãnh liệt thì không có đau ấy không; họ xác nhận đúng cả hai phía."
+    },
+    {
+      "id": "actual-objection",
+      "title": "Thực tế ấy không hỗ trợ tuyên bố",
+      "segments": [
+        "mn101:13.1",
+        "mn101:13.2",
+        "mn101:13.3",
+        "mn101:13.4",
+        "mn101:13.5",
+        "mn101:13.6"
+      ],
+      "summary": "Phật nhắc nỗ lực mạnh có đau do nỗ lực, không mạnh không đau ấy; vì vậy không thích đáng tuyên bố toàn chuỗi mọi cảm thọ do nghiệp quá khứ và khổ hạnh tiêu khổ. Giữ phủ định na, không theo HTML mất không."
+    },
+    {
+      "id": "opposite-hypothesis",
+      "title": "Giả định trái với điều họ vừa nhận",
+      "segments": [
+        "mn101:14.1",
+        "mn101:14.2",
+        "mn101:14.3",
+        "mn101:14.4",
+        "mn101:14.5",
+        "mn101:14.6"
+      ],
+      "summary": "Nếu nỗ lực mạnh mà không đau do nỗ lực, còn không nỗ lực mạnh lại đau, thì lời tuyên bố toàn chuỗi mới thích đáng. Hai vế là phản thực, không đổi thành cả hai lúc đều đau như HTML."
+    },
+    {
+      "id": "self-caused",
+      "title": "Nhầm đau do mình gây với nghiệp cũ",
+      "segments": [
+        "mn101:15.1",
+        "mn101:15.2",
+        "mn101:15.3",
+        "mn101:15.4",
+        "mn101:15.5",
+        "mn101:15.6",
+        "mn101:15.7"
+      ],
+      "summary": "Trở về thực tế có/không nỗ lực mạnh đi cùng có/không đau ấy: họ tự cảm đau do nỗ lực nhưng vì vô minh/vô tri/si mê mà hiểu sai thành toàn chuỗi nghiệp cũ. Phật lần thứ hai nói không thấy đáp trả chính đáng."
+    },
+    {
+      "id": "karma-time",
+      "title": "Cặp hiện tại và đời sau",
+      "segments": [
+        "mn101:16.1",
+        "mn101:16.2",
+        "mn101:16.3",
+        "mn101:16.4",
+        "mn101:16.5"
+      ],
+      "summary": "Hỏi nỗ lực/tinh tấn có đổi nghiệp thọ quả đời này sang đời sau và ngược lại không; Nigaṇṭha đáp không cho cả hai."
+    },
+    {
+      "id": "karma-feeling",
+      "title": "Cặp quả lạc và khổ",
+      "segments": [
+        "mn101:17.1",
+        "mn101:17.2",
+        "mn101:17.3",
+        "mn101:17.4"
+      ],
+      "summary": "Hỏi cùng phương pháp ấy có đổi nghiệp thọ quả lạc thành khổ hoặc khổ thành lạc không; hai lần đáp không."
+    },
+    {
+      "id": "karma-ripening",
+      "title": "Cặp cảm quả khi đã chín và khi chưa chín",
+      "segments": [
+        "mn101:18.1",
+        "mn101:18.2",
+        "mn101:18.3",
+        "mn101:18.4"
+      ],
+      "summary": "Hỏi bằng nỗ lực/tinh tấn có đổi nghiệp cảm quả khi đã thuần thục thành nghiệp cảm quả khi chưa thuần thục, và đổi theo chiều ngược lại, được không; cả hai lần đáp không."
+    },
+    {
+      "id": "karma-amount",
+      "title": "Cặp nhiều và ít",
+      "segments": [
+        "mn101:19.1",
+        "mn101:19.2",
+        "mn101:19.3",
+        "mn101:19.4"
+      ],
+      "summary": "Hỏi có đổi nghiệp cảm quả nhiều thành ít và ít thành nhiều bằng nỗ lực/tinh tấn không; hai lần đáp không."
+    },
+    {
+      "id": "karma-result",
+      "title": "Cặp có và không cảm quả",
+      "segments": [
+        "mn101:20.1",
+        "mn101:20.2",
+        "mn101:20.3",
+        "mn101:20.4"
+      ],
+      "summary": "Hỏi có đổi nghiệp có cảm quả thành không cảm quả và ngược lại bằng nỗ lực/tinh tấn không; hai lần đáp không."
+    },
+    {
+      "id": "karma-recap",
+      "title": "Mười điều không làm được",
+      "segments": [
+        "mn101:21.1",
+        "mn101:21.2"
+      ],
+      "summary": "Phật nhắc đủ hai chiều của năm cặp theo thứ tự hiện/đời sau, lạc/khổ, chín/chưa chín, nhiều/ít, có/không quả. Với lời nhận ấy, nỗ lực và tinh tấn của Nigaṇṭha là vô quả; không biến thành tuyên bố mọi nỗ lực đều vô ích."
+    },
+    {
+      "id": "criticism-intro",
+      "title": "Mười cơ sở chỉ trích",
+      "segments": [
+        "mn101:22.1",
+        "mn101:22.2"
+      ],
+      "summary": "Phật nhắc đó là chủ trương Nigaṇṭha và có mười cơ sở chính đáng đưa tới phê bình."
+    },
+    {
+      "id": "criticism-past",
+      "title": "Giả định việc làm quá khứ",
+      "segments": [
+        "mn101:22.3",
+        "mn101:22.4"
+      ],
+      "summary": "Nếu chúng sinh cảm lạc/khổ do nghiệp quá khứ, thì nỗi đau dữ hiện tại của Nigaṇṭha cho thấy việc làm xấu trong giả định ấy. Không bỏ chữ nếu hoặc suy thành mọi người bệnh có tội."
+    },
+    {
+      "id": "criticism-creator",
+      "title": "Giả định đấng sáng tạo",
+      "segments": [
+        "mn101:22.5",
+        "mn101:22.6"
+      ],
+      "summary": "Nếu lạc/khổ do đấng tối cao tạo, thì họ đã được đấng xấu ác tạo vì đang cảm đau dữ. Đây là lập luận có điều kiện, không xác nhận có đấng sáng tạo."
+    },
+    {
+      "id": "criticism-conditions",
+      "title": "Giả định kết hợp các duyên",
+      "segments": [
+        "mn101:22.7",
+        "mn101:22.8"
+      ],
+      "summary": "Nếu lạc/khổ do sự kết hợp các duyên, thì sự kết hợp của họ xấu vì đang đau dữ. Giữ nghĩa theo dự án/HTML ở saṅgatibhāva."
+    },
+    {
+      "id": "criticism-birth",
+      "title": "Giả định loại tái sinh",
+      "segments": [
+        "mn101:22.9",
+        "mn101:22.10"
+      ],
+      "summary": "Nếu lạc/khổ do loại tái sinh thì loại tái sinh của họ xấu, căn cứ vào đau dữ trong lập luận giả định; không biến thành phán xét xuất thân hiện đại."
+    },
+    {
+      "id": "criticism-effort",
+      "title": "Giả định nỗ lực hiện tại",
+      "segments": [
+        "mn101:22.11",
+        "mn101:22.12"
+      ],
+      "summary": "Nếu lạc/khổ do nỗ lực hiện tại, nỗ lực kiểu ấy đưa họ tới cảm thọ đau dữ đang có."
+    },
+    {
+      "id": "ten-criticisms",
+      "title": "Cả có và không với từng giả định",
+      "segments": [
+        "mn101:22.13",
+        "mn101:22.14",
+        "mn101:22.15",
+        "mn101:22.16",
+        "mn101:22.17",
+        "mn101:22.18",
+        "mn101:22.19",
+        "mn101:22.20",
+        "mn101:22.21",
+        "mn101:22.22",
+        "mn101:22.23",
+        "mn101:22.24",
+        "mn101:22.25"
+      ],
+      "summary": "Lần lượt năm nguyên nhân nghiệp cũ/đấng tạo/duyên/loại tái sinh/nỗ lực hiện tại, mỗi nguyên nhân xét cả có và không, Nigaṇṭha đều đáng phê bình. Nhắc mười căn cứ, chủ trương và kết nỗ lực vô quả; không hòa các giả định thành một học thuyết Phật chủ trương."
+    },
+    {
+      "id": "fruitful-balance",
+      "title": "Ba nét của nỗ lực có quả",
+      "segments": [
+        "mn101:23.1",
+        "mn101:23.2"
+      ],
+      "summary": "Phật hỏi nỗ lực nào có quả: tỳ-kheo không tự đem khổ đè lên mình vốn chưa bị khổ đè; không bỏ niềm vui chân chính; không say đắm niềm vui ấy."
+    },
+    {
+      "id": "effort-equanimity",
+      "title": "Dụng công hoặc tu xả theo nguyên nhân",
+      "segments": [
+        "mn101:23.3",
+        "mn101:23.4",
+        "mn101:23.5",
+        "mn101:23.6",
+        "mn101:23.7",
+        "mn101:23.8",
+        "mn101:23.9",
+        "mn101:23.10"
+      ],
+      "summary": "Biết với nguồn khổ này dụng công có chủ ý giúp ly tham, với nguồn khác bình thản nhìn/tu xả giúp ly tham; làm đúng cách tương ứng. Mỗi cách dẫn ly tham với nguồn ấy rồi khổ ấy tiêu tan. Saṅkhāra ở đây là dụng công, không tự thêm việc khắc phục các hành."
+    },
+    {
+      "id": "attached-man",
+      "title": "Ví người nam đang tham luyến",
+      "segments": [
+        "mn101:24.1",
+        "mn101:24.2",
+        "mn101:24.3",
+        "mn101:24.4",
+        "mn101:24.5",
+        "mn101:24.6",
+        "mn101:24.7",
+        "mn101:24.8"
+      ],
+      "summary": "Người nam say mê người nữ, tâm buộc chặt, ham muốn/ái mộ mạnh; thấy nàng đứng với người nam khác, trò chuyện/cười khẽ/cười lớn. Phật hỏi năm sầu/bi/khổ/ưu/não sinh không; tỳ-kheo đáp có, giải do tham luyến và nhắc cảnh. Không thêm nàng là vợ hay phản bội."
+    },
+    {
+      "id": "letting-go",
+      "title": "Cùng cảnh, tham luyến đã dứt",
+      "segments": [
+        "mn101:25.1",
+        "mn101:25.2",
+        "mn101:25.3",
+        "mn101:25.4",
+        "mn101:25.5",
+        "mn101:25.6",
+        "mn101:25.7",
+        "mn101:25.8",
+        "mn101:25.9",
+        "mn101:25.10",
+        "mn101:25.11",
+        "mn101:25.12"
+      ],
+      "summary": "Người nam nhận ra tham luyến gây năm nỗi khổ ấy, quyết bỏ và thật sự bỏ; sau đó thấy cùng bốn hoạt động với người nam khác. Tỳ-kheo đáp không sinh năm nỗi khổ vì đã ly tham. Không nói đàn áp người nữ hay thay đổi hành vi của nàng."
+    },
+    {
+      "id": "balance-recap",
+      "title": "Áp ví vào nỗ lực đúng",
+      "segments": [
+        "mn101:26.1",
+        "mn101:26.2",
+        "mn101:26.3",
+        "mn101:26.4",
+        "mn101:26.5",
+        "mn101:26.6",
+        "mn101:26.7",
+        "mn101:26.8",
+        "mn101:26.9",
+        "mn101:26.10"
+      ],
+      "summary": "Lặp ba nét không tự hành khổ/không bỏ lạc đúng/không say lạc. Lặp biết hai cách theo nguồn khổ, làm tương ứng và cả hai kết ly tham/khổ ấy tiêu; đó là nỗ lực có quả."
+    },
+    {
+      "id": "painful-effort",
+      "title": "Gắng sức có mục đích rồi ngừng",
+      "segments": [
+        "mn101:27.1",
+        "mn101:27.2",
+        "mn101:27.3",
+        "mn101:27.4",
+        "mn101:27.5",
+        "mn101:27.6",
+        "mn101:27.7",
+        "mn101:27.8",
+        "mn101:27.9",
+        "mn101:27.10"
+      ],
+      "summary": "Tỳ-kheo nhận khi sống theo thích thú thì bất thiện tăng/thiện giảm, còn gắng sức chịu gian khó thì bất thiện giảm/thiện tăng; quyết làm và thấy đúng kết quả. Sau một thời gian không cần gắng khó nữa vì mục đích đã thành, không khổ hạnh vô hạn."
+    },
+    {
+      "id": "fletcher",
+      "title": "Ví người thợ nắn cán tên",
+      "segments": [
+        "mn101:28.1",
+        "mn101:29.1",
+        "mn101:29.2",
+        "mn101:29.3",
+        "mn101:29.4"
+      ],
+      "summary": "Thợ hơ/nung cán tên giữa hai ngọn lửa để thẳng và dùng được. Khi đã đạt, không tiếp tục nung nắn; vì mục đích đã thành. Hai ngọn lửa không đổi thành một."
+    },
+    {
+      "id": "purpose-recap",
+      "title": "Áp ví vào công phu có kết quả",
+      "segments": [
+        "mn101:29.5",
+        "mn101:29.6",
+        "mn101:29.7",
+        "mn101:29.8",
+        "mn101:29.9",
+        "mn101:29.10",
+        "mn101:29.11",
+        "mn101:29.12",
+        "mn101:29.13",
+        "mn101:29.14",
+        "mn101:29.15"
+      ],
+      "summary": "Lặp đủ hai mặt sống theo ý thích và gắng chịu gian khó, quyết làm, thiện tăng/bất thiện giảm, rồi ngừng khi mục đích đạt. Kết nỗ lực và tinh tấn có quả."
+    },
+    {
+      "id": "tathagata",
+      "title": "Như Lai xuất hiện và giảng Pháp",
+      "segments": [
+        "mn101:30.1",
+        "mn101:30.2",
+        "mn101:30.3"
+      ],
+      "summary": "Đủ danh hiệu A-la-hán/Chánh Đẳng Giác/minh hạnh/Thiện Thệ/biết đời/vô thượng điều phục/thầy trời người/Phật/Thế Tôn; tự chứng thế giới trời/Māra/Phạm thiên và sa-môn/bà-la-môn/trời/người, tuyên thuyết. Pháp đầu/giữa/cuối tốt, đủ nghĩa/lời, phạm hạnh viên mãn thanh tịnh."
+    },
+    {
+      "id": "renunciation",
+      "title": "Nghe, tin, suy xét, xuất gia",
+      "segments": [
+        "mn101:31.1",
+        "mn101:31.2",
+        "mn101:31.3",
+        "mn101:31.4",
+        "mn101:31.5",
+        "mn101:31.6",
+        "mn101:31.7"
+      ],
+      "summary": "Gia chủ, con gia chủ hoặc người thuộc gia đình nào đó nghe, tin, thấy đời nhà chật/bụi và xuất gia rộng, khó sống phạm hạnh trọn sạch như vỏ ốc tại gia. Nghĩ rồi thực hiện cạo râu tóc/mặc cà-sa/rời nhà; bỏ của ít/nhiều và quyến thuộc ít/nhiều. Không thêm gia đình tốt hoặc hạ tiện."
+    },
+    {
+      "id": "body-ethics",
+      "title": "Ba mặt thân của người xuất gia",
+      "segments": [
+        "mn101:32.1",
+        "mn101:32.2",
+        "mn101:32.3"
+      ],
+      "summary": "Theo học giới/nếp sống tỳ-kheo: bỏ sát sinh, roi/gươm, biết hổ thẹn, lòng thương lợi ích mọi loài; không lấy của không cho, chỉ nhận/chờ thứ được cho, sống sạch không trộm; sống phạm hạnh xa quan hệ tình dục."
+    },
+    {
+      "id": "speech-ethics",
+      "title": "Bốn mặt lời nói",
+      "segments": [
+        "mn101:32.4",
+        "mn101:32.5",
+        "mn101:32.6",
+        "mn101:32.7"
+      ],
+      "summary": "Bỏ dối, nói thật bền chắc đáng tin không lừa; bỏ chia rẽ cả hai chiều kể chuyện, hòa người chia rẽ/củng cố người hợp, vui yêu thích hòa hợp; lời hiền/êm tai/đáng mến/thấm lòng/lễ phép/được ưa; bỏ phù phiếm, nói đúng lúc/thật/có ích/Pháp/Luật/đáng nhớ/có lý do/giới hạn/lợi ích."
+    },
+    {
+      "id": "simple-life",
+      "title": "Nếp sống giản dị",
+      "segments": [
+        "mn101:32.8",
+        "mn101:32.9",
+        "mn101:32.10",
+        "mn101:32.11",
+        "mn101:32.12"
+      ],
+      "summary": "Không hại hạt giống/cây; ăn một bữa trong ngày theo Việt, không ban đêm/phi thời; không xem múa/hát/nhạc/biểu diễn; không đeo hoa/xức hương/trang điểm; không giường cao/sang. Đây là nếp xuất gia, không giao thành bài tập trẻ."
+    },
+    {
+      "id": "receiving",
+      "title": "Những thứ không nhận",
+      "segments": [
+        "mn101:32.13",
+        "mn101:32.14",
+        "mn101:32.15",
+        "mn101:32.16",
+        "mn101:32.17",
+        "mn101:32.18",
+        "mn101:32.19",
+        "mn101:32.20",
+        "mn101:32.21"
+      ],
+      "summary": "Không nhận vàng bạc, hạt sống, thịt sống, phụ nữ/con gái, đầy tớ nữ/nam, dê/cừu, gà/heo, voi/bò/ngựa/ngựa cái, ruộng/đất. Giữ bối cảnh việc tiếp nhận trong đời xuất gia, không coi con người là đồ vật của người đọc."
+    },
+    {
+      "id": "dealings",
+      "title": "Những việc không tham dự",
+      "segments": [
+        "mn101:32.22",
+        "mn101:32.23",
+        "mn101:32.24",
+        "mn101:32.25",
+        "mn101:32.26"
+      ],
+      "summary": "Không chạy sứ/đưa tin, mua bán, gian cân/kim loại/đo lường, hối lộ/lừa gạt/gian trá/hai mặt; không chặt/giết/trói/cướp bóc/cướp đường/bạo lực. Không theo HTML đổi chạy sứ thành môi giới."
+    },
+    {
+      "id": "contentment",
+      "title": "Biết đủ như chim mang đôi cánh",
+      "segments": [
+        "mn101:33.1",
+        "mn101:33.2",
+        "mn101:33.3",
+        "mn101:33.4"
+      ],
+      "summary": "Đủ y che thân và đồ ăn nuôi bụng, đi đâu mang chừng ấy; ví chim bay chỉ mang đôi cánh, rồi nhắc lại biết đủ. Có giới cao quý thì hưởng an lạc nội tâm không lỗi."
+    },
+    {
+      "id": "sense-guard",
+      "title": "Giữ cả sáu cửa nhận biết",
+      "segments": [
+        "mn101:34.1",
+        "mn101:34.2",
+        "mn101:34.3",
+        "mn101:34.4",
+        "mn101:34.5",
+        "mn101:34.6",
+        "mn101:34.7",
+        "mn101:34.8",
+        "mn101:34.9"
+      ],
+      "summary": "Mắt/sắc, tai/tiếng, mũi/mùi, lưỡi/vị, thân/xúc, ý/pháp: không nắm tướng chung/chi tiết, hộ trì tránh tham và buồn phiền bất thiện tràn vào. Đầy đủ hộ trì cao quý có an lạc nội tâm không uế; mở lược bằng công thức ngay bài."
+    },
+    {
+      "id": "awareness",
+      "title": "Tỉnh giác trong sinh hoạt",
+      "segments": [
+        "mn101:35.1"
+      ],
+      "summary": "Đủ đi tới/lui, nhìn trước/quanh, co/duỗi, mang y ngoài/y/bát, ăn/uống/nhai/nếm, đại/tiểu tiện, đi/đứng/ngồi/ngủ/thức/nói/im. Không theo HTML thay ngủ bằng nằm."
+    },
+    {
+      "id": "seclusion",
+      "title": "Bốn nền và chín chỗ vắng",
+      "segments": [
+        "mn101:36.1",
+        "mn101:36.2",
+        "mn101:36.3"
+      ],
+      "summary": "Đủ giới, biết đủ, hộ căn, niệm/tỉnh giác; tới rừng/gốc cây/núi/khe/hang/nghĩa địa/rừng hoang/ngoài trời/đống rơm. Ăn xong khất thực về ngồi xếp chân thân thẳng/thiết lập niệm. Giữ biết đủ và núi bị HTML lược."
+    },
+    {
+      "id": "hindrances",
+      "title": "Làm sạch năm chướng ngại",
+      "segments": [
+        "mn101:37.1",
+        "mn101:37.2",
+        "mn101:37.3",
+        "mn101:37.4",
+        "mn101:37.5",
+        "mn101:38.1"
+      ],
+      "summary": "Bỏ tham đời; bỏ sân/ác ý với lòng thương mọi loài; bỏ lờ đờ/buồn ngủ, tưởng sáng/niệm/tỉnh; bỏ xao động/hối tiếc, nội tâm lắng; bỏ nghi/phân vân thiện. Năm thứ ô tâm làm yếu tuệ."
+    },
+    {
+      "id": "first-jhana",
+      "title": "Thiền thứ nhất",
+      "segments": [
+        "mn101:38.2",
+        "mn101:38.3"
+      ],
+      "summary": "Ly dục/bất thiện, vào và ở sơ thiền: tầm/tứ, hỷ/lạc do viễn ly. Kết nỗ lực/tinh tấn có quả."
+    },
+    {
+      "id": "second-jhana",
+      "title": "Thiền thứ hai",
+      "segments": [
+        "mn101:39.1",
+        "mn101:39.2"
+      ],
+      "summary": "Tầm/tứ lắng, nội tâm sáng/nhất tâm, không tầm/tứ, hỷ/lạc do định, chứng trú nhị thiền. Kết có quả."
+    },
+    {
+      "id": "third-jhana",
+      "title": "Thiền thứ ba",
+      "segments": [
+        "mn101:40.1",
+        "mn101:40.2"
+      ],
+      "summary": "Hỷ phai, xả/niệm/tỉnh giác, thân nhận lạc; các Thánh gọi xả có niệm sống lạc, chứng trú tam thiền. Kết có quả."
+    },
+    {
+      "id": "fourth-jhana",
+      "title": "Thiền thứ tư",
+      "segments": [
+        "mn101:41.1",
+        "mn101:41.2"
+      ],
+      "summary": "Bỏ lạc/khổ, hỷ/ưu trước đã diệt, không khổ/lạc, xả niệm sạch, chứng trú tứ thiền. Kết có quả."
+    },
+    {
+      "id": "past-lives",
+      "title": "Trí nhớ đời trước",
+      "segments": [
+        "mn101:42.1",
+        "mn101:42.2",
+        "mn101:42.3"
+      ],
+      "summary": "Tâm định/thanh tịnh/trong sáng/không uế/lìa cấu/mềm/dùng được/vững/bất động, hướng nhớ quá khứ:1/2/3/4/5/10/20/30/40/50/100/1.000/100.000 đời, nhiều co/nở/co-nở thế giới. Hai chặng nhớ tên/họ/dung mạo/ăn/lạc khổ/thọ mạng, chết tới nơi khác rồi đây, đủ đại cương/chi tiết. Kết nỗ lực có quả; không bỏ10/30 hoặc co-nở theo HTML."
+    },
+    {
+      "id": "rebirth-knowledge",
+      "title": "Biết chết đi và tái sinh",
+      "segments": [
+        "mn101:43.1",
+        "mn101:43.2",
+        "mn101:43.3"
+      ],
+      "summary": "Cùng tâm đủ chín phẩm chất hướng sinh tử trí. Thiên nhãn sạch vượt mắt người thấy chết/sinh, thấp/cao, đẹp/xấu, cảnh tốt/xấu, theo nghiệp. Đủ thân/lời/ý ác+phỉ báng Thánh+tà kiến+hành theo tà→thân hoại chết cõi ác/địa ngục; phía thiện đủ đảo lại→cõi lành/trời; nhắc khả năng thấy và kết có quả."
+    },
+    {
+      "id": "truth-knowledge",
+      "title": "Biết khổ và các lậu hoặc",
+      "segments": [
+        "mn101:44.1",
+        "mn101:44.2",
+        "mn101:44.3"
+      ],
+      "summary": "Cùng tâm định đủ phẩm chất hướng trí hết lậu hoặc. Biết như thật bốn mặt khổ/gốc/dứt/đường và bốn mặt lậu hoặc/gốc/dứt/đường; không bỏ nhóm thứ hai."
+    },
+    {
+      "id": "liberation",
+      "title": "Tâm giải thoát và biết giải thoát",
+      "segments": [
+        "mn101:45.1",
+        "mn101:45.2",
+        "mn101:45.3",
+        "mn101:45.4"
+      ],
+      "summary": "Biết thấy như vậy, hết dục lậu/hữu lậu/vô minh lậu; biết đã giải thoát, sinh tận/phạm hạnh xong/việc làm xong/không trở lại hiện hữu này. Kết nỗ lực/tinh tấn có quả."
+    },
+    {
+      "id": "praise-intro",
+      "title": "Mười cơ sở tán thán",
+      "segments": [
+        "mn101:46.1",
+        "mn101:46.2"
+      ],
+      "summary": "Đó là lời dạy Như Lai, có mười cơ sở tán thán chính đáng; phần này đối xứng mười cơ sở phê bình trước."
+    },
+    {
+      "id": "praise-past",
+      "title": "Giả định nghiệp quá khứ",
+      "segments": [
+        "mn101:46.3",
+        "mn101:46.4"
+      ],
+      "summary": "Nếu lạc khổ do nghiệp quá khứ, Như Lai đã làm thiện quá khứ vì đang cảm lạc không lậu hoặc. Giữ điều kiện và phẩm chất không lậu hoặc."
+    },
+    {
+      "id": "praise-creator",
+      "title": "Giả định đấng tạo tốt",
+      "segments": [
+        "mn101:46.5",
+        "mn101:46.6"
+      ],
+      "summary": "Nếu do đấng tối cao tạo, Như Lai do đấng tốt tạo vì đang cảm lạc vô lậu. Không biến giả định thành xác nhận Phật do tạo hóa sinh."
+    },
+    {
+      "id": "praise-conditions",
+      "title": "Giả định duyên lành",
+      "segments": [
+        "mn101:46.7",
+        "mn101:46.8"
+      ],
+      "summary": "Nếu lạc khổ do duyên kết hợp, Như Lai có kết hợp duyên thiện vì đang cảm lạc vô lậu."
+    },
+    {
+      "id": "praise-birth",
+      "title": "Giả định loại tái sinh lành",
+      "segments": [
+        "mn101:46.9",
+        "mn101:46.10"
+      ],
+      "summary": "Nếu lạc khổ do loại tái sinh, Như Lai thuộc loại thiện vì đang cảm lạc vô lậu; giữ dạng nếu."
+    },
+    {
+      "id": "praise-effort",
+      "title": "Giả định nỗ lực lành",
+      "segments": [
+        "mn101:46.11",
+        "mn101:46.12"
+      ],
+      "summary": "Nếu lạc khổ do nỗ lực hiện tại, Như Lai có nỗ lực thiện vì đang cảm lạc vô lậu."
+    },
+    {
+      "id": "ten-praises",
+      "title": "Hai trường hợp với đủ năm nguyên nhân",
+      "segments": [
+        "mn101:46.13",
+        "mn101:46.14",
+        "mn101:46.15",
+        "mn101:46.16",
+        "mn101:46.17",
+        "mn101:46.18",
+        "mn101:46.19",
+        "mn101:46.20",
+        "mn101:46.21",
+        "mn101:46.22",
+        "mn101:46.23",
+        "mn101:46.24"
+      ],
+      "summary": "Lần lượt nghiệp cũ/đấng tạo/duyên/loại tái sinh/nỗ lực hiện tại: dù có hay không do nguyên nhân ấy, Như Lai đáng tán thán. Giữ phủ định cuối về nỗ lực bị HTML thiếu; nhắc lời dạy và đủ mười cơ sở."
+    },
+    {
+      "id": "close",
+      "title": "Kết lời dạy",
+      "segments": [
+        "mn101:46.25",
+        "mn101:46.26",
+        "mn101:46.27"
+      ],
+      "summary": "Phật nói, tỳ-kheo vui tán đồng; Devadaha là bài thứ nhất trong nhóm này, không phải bài 1 toàn Trung Bộ."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "MN101 cho trẻ em — Cố gắng sao cho bớt khổ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Đau hơn có phải là tốt hơn?",
+          "meaningUnits": [
+            "identity",
+            "setting"
+          ],
+          "paragraphs": [
+            "Kinh Devadaha là bài 101 của Trung Bộ. Người truyền kinh kể đã nghe như vầy: một lần Đức Phật ở Devadaha, thị trấn của người Sakiya. Ngài gọi các tỳ-kheo, những người nam xuất gia. Các vị đáp lời và lắng nghe một câu hỏi quan trọng: cố gắng theo cách nào mới thật sự giúp hết khổ?"
+          ]
+        },
+        {
+          "id": "claim",
+          "kind": "teaching",
+          "heading": "Một lời giải thích cần được xem xét",
+          "meaningUnits": [
+            "doctrine",
+            "confirmation"
+          ],
+          "paragraphs": [
+            "Một nhóm người tu Nigaṇṭha cho rằng mọi cảm giác vui, đau và không vui không đau đều do việc đã làm trong đời trước. Theo họ, chịu khổ thật nhiều sẽ làm hết nghiệp cũ; không làm nghiệp mới thì không còn kết quả về sau. Nghiệp hết, khổ hết; khổ hết, cảm giác hết; cảm giác hết thì toàn bộ khổ được trừ sạch. Nghiệp ở đây là hành động có tác động về sau.",
+            "Đức Phật kể rằng Ngài đã đến hỏi họ có thật sự chủ trương như vậy không. Họ đáp có. Đây là ý kiến Ngài đang kiểm tra, chưa phải kết luận Ngài dạy các tỳ-kheo làm theo."
+          ]
+        },
+        {
+          "id": "questions",
+          "kind": "teaching",
+          "heading": "Năm điều họ chưa biết",
+          "meaningUnits": [
+            "past-existence",
+            "past-bad",
+            "past-type",
+            "past-amount",
+            "present-training"
+          ],
+          "paragraphs": [
+            "Ngài hỏi lần lượt: các ông biết mình đã từng sống trong quá khứ, chứ không phải chưa từng sống, không? Biết mình đã làm điều xấu, chứ không phải không làm, không? Biết chính xác đã làm điều xấu nào không? Mỗi câu, họ đều đáp không biết.",
+            "Rồi Ngài hỏi: biết bao nhiêu khổ đã được làm tiêu tan, bao nhiêu còn cần làm tiêu tan, và làm tiêu tan bao nhiêu thì hết toàn bộ khổ không? Họ cũng không biết. Sau cùng, biết ngay trong hiện tại cách bỏ điều bất thiện, tức điều gây hại, và làm thành điều thiện không? Họ vẫn đáp không."
+          ]
+        },
+        {
+          "id": "ground",
+          "kind": "teaching",
+          "heading": "Muốn khẳng định, cần biết rõ",
+          "meaningUnits": [
+            "unfounded",
+            "if-known"
+          ],
+          "paragraphs": [
+            "Phật nhắc đủ những điều họ không biết: đời đã sống, việc xấu đã làm, loại việc ấy, ba lượng khổ và việc bỏ xấu làm lành hiện tại. Khi chưa biết, lời khẳng định rằng chịu khổ sẽ trừ nghiệp cũ, tránh nghiệp mới rồi hết toàn bộ khổ chưa có cơ sở.",
+            "Ngài nêu trường hợp ngược lại: nếu thật sự biết rõ tất cả những điều ấy, khi đó lời khẳng định mới có chỗ dựa. Chữ “nếu” rất quan trọng: Ngài chưa nói họ đã biết hoặc cách tự hành hạ ấy đã đúng."
+          ]
+        },
+        {
+          "id": "arrow",
+          "kind": "teaching",
+          "heading": "Ví dụ người bị tên độc",
+          "meaningUnits": [
+            "arrow-wound",
+            "arrow-treatment"
+          ],
+          "paragraphs": [
+            "Phật ví một người bị mũi tên tẩm độc dày bắn trúng, đau đớn dữ dội. Bạn bè, người quen và họ hàng đưa thầy thuốc đến. Thầy rạch quanh vết thương, dùng dụng cụ dò, lấy tên ra rồi dùng than thuốc chữa chỗ bị thương. Mỗi việc ấy lại gây đau: đau khi rạch, khi dò, khi rút tên và khi dùng than thuốc.",
+            "Đây là câu chuyện ví dụ trong kinh về người biết rõ việc đang xảy ra; không phải chỉ dẫn để em tự chữa một vết thương."
+          ]
+        },
+        {
+          "id": "healed",
+          "kind": "teaching",
+          "heading": "Khỏi rồi vẫn biết chuyện đã qua",
+          "meaningUnits": [
+            "arrow-healed",
+            "arrow-memory",
+            "known-after-example",
+            "unknown-after-example"
+          ],
+          "paragraphs": [
+            "Sau đó vết thương lành, da khép lại. Người ấy khỏe, vui, tự do, tự chủ và đi đâu tùy ý. Anh có thể nhớ rõ mình bị tên độc gây đau, những người đã đưa thầy thuốc đến và cả bốn lần chữa gây đau, rồi biết mình hiện đã khỏe.",
+            "Từ ví ấy, Phật nhắc lại điều kiện: nếu biết rõ đời trước, việc xấu và loại việc xấu, ba lượng khổ, cùng việc bỏ xấu làm lành bây giờ, lời nói về trừ nghiệp cũ và hết khổ mới có cơ sở. Nhưng nhóm người tu vừa nhận mình không biết tất cả những điều ấy. Vì thế, lời khẳng định của họ vẫn không đứng vững."
+          ]
+        },
+        {
+          "id": "teacher",
+          "kind": "teaching",
+          "heading": "Tin lời thầy có giống tự biết không?",
+          "meaningUnits": [
+            "teacher-claim",
+            "teacher-method",
+            "five-bases"
+          ],
+          "paragraphs": [
+            "Họ đáp rằng thầy Nātaputta của họ biết hết, thấy hết, luôn có hiểu biết ấy cả khi đi, đứng, ngủ và thức. Theo lời họ kể, thầy nói họ đã làm ác đời trước, nay phải chịu khổ để trừ; giữ thân, lời và ý không làm xấu bây giờ thì không tạo nghiệp mới. Từ đó, thầy nêu lại chuỗi nghiệp hết, khổ hết, cảm giác hết và hết toàn bộ khổ. Họ ưa thích, chấp nhận và hài lòng với lời ấy.",
+            "Phật nêu năm chỗ người ta có thể dựa vào: lòng tin, sự ưa thích, lời được truyền lại, điều tự suy luận và một quan điểm đã cân nhắc rồi chấp nhận. Mỗi chỗ ấy có thể cho hai kết quả khác nhau ngay hiện tại; chỉ dựa vào đó chưa đủ biết đúng. Về chuyện quá khứ, Ngài hỏi niềm tin của họ nơi thầy là gì, họ ưa thích điều gì, dựa vào lời truyền lại nào, suy luận nào và quan điểm đã cân nhắc nào. Họ không có câu trả lời hợp lý."
+          ]
+        },
+        {
+          "id": "pain",
+          "kind": "teaching",
+          "heading": "Nhìn điều đang xảy ra",
+          "meaningUnits": [
+            "exertion-observation",
+            "actual-objection",
+            "opposite-hypothesis",
+            "self-caused"
+          ],
+          "paragraphs": [
+            "Phật hỏi: khi các ông cố sức dữ dội, có cảm giác đau sắc nhói do sự cố sức ấy không? Họ đáp có. Khi không cố sức như vậy, còn cảm giác đau do việc ấy không? Họ đáp không. Như thế, chính điều họ đang làm có liên quan rõ ràng đến cơn đau; lời bảo tất cả chỉ do nghiệp cũ chưa hợp lý.",
+            "Ngài thử đảo tình huống: nếu cố sức thì không đau, còn không cố sức lại đau, lời giải thích ấy mới có thể phù hợp với tình huống giả định. Nhưng điều họ vừa kể là ngược lại. Không nhận ra việc mình đang gây nên, họ bị sự không biết và lầm lẫn dẫn dắt. Câu hỏi về điều họ thật sự biết lại không được đáp thỏa đáng."
+          ]
+        },
+        {
+          "id": "pairs",
+          "kind": "teaching",
+          "heading": "Mười câu hỏi về việc đổi kết quả",
+          "meaningUnits": [
+            "karma-time",
+            "karma-feeling",
+            "karma-ripening",
+            "karma-amount",
+            "karma-result",
+            "karma-recap"
+          ],
+          "paragraphs": [
+            "Ngài hỏi sự cố sức ấy có thể đổi quả nghiệp, kết quả của hành động, phải nhận trong đời này thành đời sau, hoặc đời sau thành đời này không. Có đổi quả vui thành đau, hoặc đau thành vui không? Đổi nghiệp được nhận quả khi đã chín thành nhận quả khi chưa chín, hoặc theo chiều ngược lại, được không? Đổi quả nhiều thành ít, hoặc ít thành nhiều không? Đổi nghiệp có quả thành không quả, hoặc không quả thành có quả không? Cả mười câu đều được đáp không.",
+            "Phật nhắc lại đủ năm cặp ấy theo cả hai chiều, rồi kết luận sự cố sức mà họ đang bảo vệ là không có kết quả. Ngài đang xét cách tu này, không bảo rằng mọi cố gắng sửa mình đều vô ích."
+          ]
+        },
+        {
+          "id": "critique",
+          "kind": "teaching",
+          "heading": "Xem lập luận từ nhiều phía",
+          "meaningUnits": [
+            "criticism-intro",
+            "criticism-past",
+            "criticism-creator",
+            "criticism-conditions",
+            "criticism-birth",
+            "criticism-effort",
+            "ten-criticisms"
+          ],
+          "paragraphs": [
+            "Phật nêu mười căn cứ để phê bình chủ trương đó. Ngài lần lượt thử năm giả định về nguồn của vui và khổ: việc làm đời trước, một đấng tạo ra mọi thứ, các điều kiện gặp nhau, loại tái sinh, tức cách sinh trở lại, và cố gắng trong hiện tại.",
+            "Nếu do việc đời trước, cảnh đau đớn của họ sẽ dẫn tới kết luận họ đã làm ác; nếu do đấng tạo, sẽ là một đấng tạo không tốt; nếu do điều kiện, là những điều kiện không tốt; nếu do loại tái sinh, là loại không tốt; nếu do cố gắng hiện tại, là cố gắng không tốt. Ngài nhắc với từng nguyên nhân: dù có do nó hay không do nó, cách tu đang nêu vẫn có điều đáng phê bình. Năm cặp có và không tạo thành mười căn cứ.",
+            "Đây là những câu “nếu” dùng để xét một lời giải thích. Chúng không cho phép em kết tội bất kỳ ai đang đau ốm, cũng không xác nhận có đấng tạo ra tất cả."
+          ]
+        },
+        {
+          "id": "balance",
+          "kind": "teaching",
+          "heading": "Ba điều giữ cho cố gắng đi đúng hướng",
+          "meaningUnits": [
+            "fruitful-balance",
+            "effort-equanimity"
+          ],
+          "paragraphs": [
+            "Rồi Phật hỏi: cố gắng thế nào mới có kết quả? Người tu không tự chất thêm khổ lên mình khi chưa bị khổ đè nặng; không vứt bỏ niềm vui chân chính; cũng không mê giữ lấy niềm vui ấy.",
+            "Người ấy xem nguồn gây khổ cụ thể: có nguồn cần chủ động rèn tâm để bớt tham luyến, tức ham muốn và bám giữ; có nguồn cần tập xả, tức nhìn bình thản mà không níu kéo, để bớt tham luyến. Biết trường hợp nào, làm đúng cách ấy. Khi tham luyến với nguồn đó hết, nỗi khổ do nó cũng tan."
+          ]
+        },
+        {
+          "id": "attachment",
+          "kind": "teaching",
+          "heading": "Cùng một cảnh, lòng có thể khác",
+          "meaningUnits": [
+            "attached-man",
+            "letting-go",
+            "balance-recap"
+          ],
+          "paragraphs": [
+            "Phật ví một người nam rất say mê một người nữ, tâm cứ buộc vào cô. Khi thấy cô đứng, trò chuyện, cười khẽ và cười lớn với người nam khác, anh có sầu, than, đau, buồn và bức bối không? Các tỳ-kheo đáp có, vì anh còn tham luyến. Kinh không nói cô là vợ anh hoặc đã làm điều sai.",
+            "Anh suy xét: những nỗi khổ ấy đến từ sự tham luyến của mình. Anh quyết bỏ và thật sự bỏ nó. Sau đó, cùng thấy cô đứng, trò chuyện và cười với người kia, anh có còn năm nỗi khổ ấy không? Các vị đáp không, vì tham luyến đã hết.",
+            "Phật trở lại ba điều: không tự hành khổ, không bỏ niềm vui chân chính, không mê giữ niềm vui. Biết lúc nào cần dụng công, lúc nào cần tập xả, rồi làm đúng để hết tham luyến và hết nỗi khổ tương ứng: đó là cố gắng có kết quả."
+          ]
+        },
+        {
+          "id": "purpose",
+          "kind": "teaching",
+          "heading": "Khó nhọc phải có mục đích",
+          "meaningUnits": [
+            "painful-effort",
+            "fletcher",
+            "purpose-recap"
+          ],
+          "paragraphs": [
+            "Có người tu nhận ra: sống tùy ý thích thì điều xấu tăng, điều lành giảm; chịu khó rèn luyện thì điều xấu giảm, điều lành tăng. Vị ấy quyết rèn luyện, thực hiện và thấy đúng kết quả. Sau một thời gian, việc cần làm đã xong nên không phải tiếp tục sự gắng sức nhọc nhằn ấy.",
+            "Giống người làm tên hơ cán tên giữa hai ngọn lửa cho thẳng và dùng được. Khi cán đã đúng, người thợ dừng nung nắn: mục đích đã đạt. Phật áp lại ví ấy vào người tu: nhận ra hai cách sống cho hai kết quả, chọn việc giúp thiện tăng, làm đến khi đạt mục đích rồi ngừng sự khó nhọc ấy. Đây cũng là nỗ lực có quả."
+          ]
+        },
+        {
+          "id": "buddha",
+          "kind": "teaching",
+          "heading": "Con đường được chỉ ra đầy đủ",
+          "meaningUnits": [
+            "tathagata"
+          ],
+          "paragraphs": [
+            "Phật trình bày con đường tu tập khi một Như Lai xuất hiện. Như Lai là cách gọi Đức Phật: A-la-hán, hết trói buộc gây khổ; Chánh Đẳng Giác, tự giác ngộ trọn vẹn; đầy đủ hiểu biết và hạnh tốt; Thiện Thệ, khéo đi tới an lành; hiểu thế gian; bậc dẫn dắt tối thượng những người có thể được rèn luyện; thầy của trời và người; Phật, bậc giác ngộ; Thế Tôn, bậc được tôn kính.",
+            "Ngài tự biết rõ thế giới cùng các vị trời, Ma vương Māra, vị trời Phạm thiên, những người tu và bà-la-môn, trời và người, rồi giảng dạy. Bà-la-môn là người thuộc truyền thống học kinh và nghi lễ. Pháp của Ngài tốt ở đầu, giữa, cuối, đủ ý và lời, chỉ ra đời tu hoàn toàn trong sạch."
+          ]
+        },
+        {
+          "id": "leaving",
+          "kind": "teaching",
+          "heading": "Một người chọn xuất gia",
+          "meaningUnits": [
+            "renunciation"
+          ],
+          "paragraphs": [
+            "Một gia chủ, người sống và chăm lo việc nhà, con của gia chủ hay người thuộc gia đình nào đó nghe và tin. Người ấy nghĩ đời nhà chật hẹp, nhiều bụi bặm, còn xuất gia rộng mở; ở nhà khó sống đời tu trọn sạch như vỏ ốc được đánh bóng. Rồi người ấy thật sự bỏ của cải ít hoặc nhiều, bà con ít hoặc nhiều, cạo râu tóc, mặc cà-sa, áo của người xuất gia, và rời nhà đi tu.",
+            "Đoạn tiếp theo kể nếp sống người xuất gia lựa chọn. Em có thể học lòng tử tế và sự tỉnh táo trong đó, không phải làm theo mọi quy định sinh hoạt của một tỳ-kheo."
+          ]
+        },
+        {
+          "id": "body",
+          "kind": "teaching",
+          "heading": "Không làm hại, không lấy trộm",
+          "meaningUnits": [
+            "body-ethics"
+          ],
+          "paragraphs": [
+            "Người ấy theo học giới và nếp sống tỳ-kheo. Bỏ giết hại, bỏ roi và gươm, biết hổ thẹn trước điều xấu, thương và muốn lợi ích cho mọi loài. Không lấy thứ chưa được cho; chỉ nhận và chờ thứ được cho, sống trong sạch không trộm cắp. Vị ấy giữ đời sống độc thân thanh tịnh, không có quan hệ tình dục."
+          ]
+        },
+        {
+          "id": "speech",
+          "kind": "teaching",
+          "heading": "Bốn cách giữ lời nói",
+          "meaningUnits": [
+            "speech-ethics"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ nói dối, nói thật, giữ sự thật, đáng tin và không lừa người. Không đem chuyện nghe bên này sang bên kia để chia rẽ, cũng không làm ngược lại; giúp người chia rẽ hòa hợp, giúp người đã hòa hợp gắn bó, vui và quý sự hòa hợp.",
+            "Vị ấy bỏ lời thô, nói hiền, êm tai, đáng mến, thấm lòng, lịch sự, được nhiều người yêu thích và hài lòng. Bỏ chuyện vô ích, nói đúng lúc, đúng sự thật, có lợi, hợp Pháp và Luật tu, đáng ghi nhớ, có lý do, chừng mực và giúp ích."
+          ]
+        },
+        {
+          "id": "simple",
+          "kind": "teaching",
+          "heading": "Đời sống ít nhu cầu",
+          "meaningUnits": [
+            "simple-life",
+            "receiving",
+            "dealings"
+          ],
+          "paragraphs": [
+            "Người tu không làm hại hạt giống và cây cối; ăn một bữa trong ngày, không ăn ban đêm hoặc sai giờ quy định. Không xem múa, hát, nhạc, biểu diễn; không dùng vòng hoa, nước thơm, đồ trang điểm; không nằm giường cao sang.",
+            "Vị ấy không nhận vàng bạc, ngũ cốc chưa nấu, thịt sống; không nhận phụ nữ hay con gái, đầy tớ nữ hay nam; không nhận dê, cừu, gà, heo, voi, bò, ngựa, ngựa cái, ruộng hay đất. Việc nói đến nhận người phản ánh nếp xã hội cổ, không phải cách em nhìn người khác như đồ vật.",
+            "Vị ấy tránh việc chạy sứ đưa tin, mua bán; không gian lận cân, kim loại và thước đo; không hối lộ, lừa gạt, gian trá, hai mặt. Không chặt, giết, trói, cướp bóc, cướp đường hoặc dùng bạo lực."
+          ]
+        },
+        {
+          "id": "bird",
+          "kind": "teaching",
+          "heading": "Nhẹ như chim mang đôi cánh",
+          "meaningUnits": [
+            "contentment"
+          ],
+          "paragraphs": [
+            "Vị ấy biết đủ với áo che thân và thức ăn nuôi bụng, đi đâu mang chừng ấy. Như con chim bay đi chỉ mang đôi cánh, người tu đi với những vật cần dùng ít ỏi ấy. Nhờ nếp sống cao quý không lỗi, vị ấy có niềm vui trong lòng."
+          ]
+        },
+        {
+          "id": "doors",
+          "kind": "teaching",
+          "heading": "Sáu cửa cần được giữ gìn",
+          "meaningUnits": [
+            "sense-guard",
+            "awareness"
+          ],
+          "paragraphs": [
+            "Nếu không giữ mắt, lòng tham và buồn bực có thể tràn vào. Vì vậy, khi mắt thấy hình, vị ấy không bám lấy dáng chung hay chi tiết và giữ cửa mắt. Cũng giữ như vậy khi tai nghe tiếng, mũi ngửi mùi, lưỡi nếm vị, thân chạm vật và ý nhận biết đối tượng của tâm, như ý nghĩ hay điều được nhớ lại. Sáu cửa được giữ đem lại niềm vui nội tâm không vẩn đục.",
+            "Vị ấy biết rõ mình đang làm gì khi đi tới, đi lui; nhìn trước, nhìn quanh; co, duỗi; mang áo ngoài, áo và bát; ăn, uống, nhai, nếm; đại tiện, tiểu tiện; đi, đứng, ngồi, ngủ, thức, nói và im lặng. Đó là tỉnh giác trong sinh hoạt."
+          ]
+        },
+        {
+          "id": "quiet",
+          "kind": "teaching",
+          "heading": "Chuẩn bị tâm ở nơi thanh vắng",
+          "meaningUnits": [
+            "seclusion",
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Có giới hạnh, biết đủ, giữ các cửa nhận biết và có niệm, sự chú tâm, cùng tỉnh giác, vị ấy chọn nơi vắng: rừng, gốc cây, núi, khe, hang, nghĩa địa, rừng hoang, ngoài trời hoặc đống rơm. Sau khi đi xin thức ăn và ăn xong, vị ấy ngồi xếp chân, giữ thân thẳng và đặt sự chú ý vững ở trước mình.",
+            "Vị ấy bỏ tham của đời; bỏ ý làm hại với lòng thương mọi loài; bỏ lờ đờ buồn ngủ bằng nhận biết ánh sáng, chú tâm và tỉnh táo; bỏ xao động, hối tiếc để lòng lắng lại; bỏ nghi ngờ và phân vân về điều lành. Năm thứ ấy làm tâm đục và hiểu biết yếu đi."
+          ]
+        },
+        {
+          "id": "meditation",
+          "kind": "teaching",
+          "heading": "Bốn tầng thiền được nói tới",
+          "meaningUnits": [
+            "first-jhana",
+            "second-jhana",
+            "third-jhana",
+            "fourth-jhana"
+          ],
+          "paragraphs": [
+            "Rời ham muốn giác quan và điều xấu, vị ấy vào thiền thứ nhất: có hướng tâm và giữ tâm trên việc đang biết, có niềm hân hoan và an vui do sự xa lìa ấy. Đây là cố gắng có quả.",
+            "Sang thiền thứ hai, hoạt động hướng và giữ tâm ấy lắng xuống; tâm trong sáng, thống nhất, có hân hoan và an vui do định, tức sự vững tụ của tâm. Sang thiền thứ ba, hân hoan lắng, còn bình thản, chú tâm, tỉnh giác và cảm nhận an vui nơi thân; các bậc Thánh gọi đó là sống vui với xả và niệm. Mỗi tầng đều được gọi là nỗ lực có quả.",
+            "Ở thiền thứ tư, vui và đau được buông, mừng và buồn trước đó đã hết; cảm giác không đau không vui, sự bình thản và chú tâm trong sạch. Phật cũng gọi đây là nỗ lực có quả. Các tầng thiền là thành tựu sâu của người tu, không phải trò thử xem ai ngồi giỏi hơn."
+          ]
+        },
+        {
+          "id": "lives",
+          "kind": "teaching",
+          "heading": "Sự biết về những đời đã qua",
+          "meaningUnits": [
+            "past-lives"
+          ],
+          "paragraphs": [
+            "Với tâm định vững, thanh tịnh, trong sáng, không ô nhiễm, sạch những vết bẩn, mềm mại, dễ sử dụng, ổn định và không lay động, người tu hướng đến nhớ những đời trước. Kinh kể một, hai, ba, bốn, năm, mười, hai mươi, ba mươi, bốn mươi, năm mươi, một trăm, một nghìn, một trăm nghìn đời; nhiều thời thế giới co lại, nở ra và cả co rồi nở.",
+            "Vị ấy nhớ ở đời ấy mình tên gì, thuộc họ nào, hình dáng ra sao, ăn gì, vui khổ thế nào, sống bao lâu; chết ở đó rồi sinh nơi khác. Ở nơi khác ấy, lại nhớ đủ tên, họ, hình dáng, thức ăn, vui khổ và tuổi thọ, rồi chết ở đó sinh tới đây. Nhớ cả nét chung lẫn chi tiết như vậy cũng được gọi là nỗ lực có quả."
+          ]
+        },
+        {
+          "id": "rebirth",
+          "kind": "teaching",
+          "heading": "Biết sự chết đi và sinh lại",
+          "meaningUnits": [
+            "rebirth-knowledge"
+          ],
+          "paragraphs": [
+            "Cũng với tâm đủ chín phẩm chất vừa nêu, vị ấy hướng đến biết chúng sinh chết và tái sinh. Bằng thiên nhãn trong sạch, sự thấy vượt mắt thường, vị ấy thấy chúng sinh thấp hay cao, đẹp hay xấu, đến cảnh tốt hay xấu theo hành động của họ.",
+            "Vị ấy thấy người làm xấu bằng thân, lời, ý, chê bai bậc Thánh, giữ cách nhìn sai và làm theo cách nhìn ấy, sau khi thân tan, chết, đi đến cảnh dữ, địa ngục. Còn người làm lành bằng thân, lời, ý, không chê bai bậc Thánh, thấy đúng và làm theo cách thấy đúng, sau khi chết đi đến cảnh lành, cõi trời. Kinh nhắc lại sự thấy trong sạch về sinh tử theo nghiệp này và gọi đó là nỗ lực có quả."
+          ]
+        },
+        {
+          "id": "freedom",
+          "kind": "teaching",
+          "heading": "Đích đến là hết những nguồn gây khổ",
+          "meaningUnits": [
+            "truth-knowledge",
+            "liberation"
+          ],
+          "paragraphs": [
+            "Tâm vẫn định vững, thanh tịnh, trong sáng, không ô nhiễm, sạch cấu bẩn, mềm, dễ dùng, ổn định, không lay động. Vị ấy hướng đến sự biết làm hết lậu hoặc, những dòng ô nhiễm nuôi khổ. Vị ấy biết đúng bốn điều: khổ, nguồn của khổ, khổ chấm dứt và con đường tới chấm dứt. Đồng thời biết bốn điều về lậu hoặc: chúng là gì, nguồn của chúng, sự hết chúng và con đường làm chúng hết.",
+            "Biết và thấy như vậy, tâm thoát ô nhiễm do ham muốn, do muốn tiếp tục hiện hữu và do không biết đúng. Vị ấy biết mình đã giải thoát: sinh đã tận, đời tu trong sạch đã hoàn thành, việc cần làm đã làm, không còn trở lại sự hiện hữu này. Phật lại gọi đó là nỗ lực có quả. Đây là mục đích đầy đủ của con đường, sâu hơn việc chỉ cảm thấy vui một lúc."
+          ]
+        },
+        {
+          "id": "praise",
+          "kind": "teaching",
+          "heading": "Mười căn cứ để tán thán",
+          "meaningUnits": [
+            "praise-intro",
+            "praise-past",
+            "praise-creator",
+            "praise-conditions",
+            "praise-birth",
+            "praise-effort",
+            "ten-praises"
+          ],
+          "paragraphs": [
+            "Với lời dạy như vậy, Phật nêu mười căn cứ tán thán Như Lai. Ngài dùng lại năm giả định: nếu vui khổ do nghiệp cũ, Ngài đã làm thiện; nếu do đấng tạo, là đấng tạo tốt; nếu do các điều kiện, là điều kiện tốt; nếu do loại tái sinh, là loại tốt; nếu do nỗ lực hiện tại, là nỗ lực tốt. Lý do được nhắc trong mỗi trường hợp là Ngài đang có niềm an vui không còn ô nhiễm.",
+            "Rồi với từng nguyên nhân — nghiệp cũ, đấng tạo, điều kiện, loại tái sinh và nỗ lực hiện tại — Ngài nêu cả hai phía: có do nguyên nhân ấy hay không do nguyên nhân ấy, Như Lai vẫn đáng được tán thán. Năm cặp làm đủ mười căn cứ. Các giả định này tiếp tục là cách xét lập luận, không đổi thành lời xác nhận một đấng sáng tạo."
+          ]
+        },
+        {
+          "id": "closing",
+          "kind": "teaching",
+          "heading": "Nghe xong, các vị vui nhận",
+          "meaningUnits": [
+            "close"
+          ],
+          "paragraphs": [
+            "Đức Phật nói xong; các tỳ-kheo vui thích và tán đồng lời Ngài. Bài Devadaha đứng đầu nhóm kinh này trong phần cuối Trung Bộ."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: luyện một đoạn nhạc",
+          "meaningUnits": [
+            "purpose-recap",
+            "fruitful-balance"
+          ],
+          "paragraphs": [
+            "Ví dụ do người biên tập đặt thêm: em tập một đoạn nhạc khó. Tập chậm, sửa đúng chỗ giúp em tiến bộ; đánh thật mạnh đến đau tay không làm đoạn nhạc đúng hơn. Khi đã sửa được một lỗi, em không cần cứ lặp cách tập vất vả dành riêng cho lỗi ấy. Ví dụ chỉ giúp hình dung nỗ lực cần có hướng và kết quả, không thay toàn bộ ý nghĩa tu tập trong kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một việc nhỏ để tập",
+          "meaningUnits": [
+            "effort-equanimity",
+            "speech-ethics"
+          ],
+          "paragraphs": [
+            "Khi sắp nói một câu làm bạn buồn, em có thể dừng, chọn câu thật và hiền hơn. Khi cứ muốn giành phần hơn, thử nhận ra ý muốn ấy mà chưa làm theo. Sau đó nhìn xem lòng bớt nóng và lời nói có bớt làm hại không. Đây là gợi ý nhỏ từ người biên tập, không phải cách tự nhận đã đạt thiền hoặc giải thoát."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "MN101 cho người trưởng thành — Xét nỗ lực bằng sự đoạn giảm khổ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Câu hỏi về giá trị của sự tinh tấn",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "doctrine",
+            "confirmation"
+          ],
+          "paragraphs": [
+            "Kinh Devadaha, MN101, mở bằng lời người truyền kinh đã nghe. Tại thị trấn Devadaha của người Sakiya, Đức Phật gọi các tỳ-kheo, những người nam xuất gia; các vị đáp lời. Ngài trình bày một cuộc đối thoại với nhóm Nigaṇṭha để phân biệt nỗ lực không có quả và nỗ lực có quả.",
+            "Chủ trương được đem ra xét cho rằng mọi cảm thọ — dễ chịu, đau đớn, trung tính — đều bắt nguồn từ nghiệp quá khứ, những hành động đã làm trước kia. Khổ hạnh, tu tập bằng chịu khổ, tiêu trừ nghiệp cũ, không tạo nghiệp mới thì không còn kết quả tương lai; nghiệp hết dẫn đến khổ hết, khổ hết dẫn đến cảm thọ hết, rồi toàn bộ khổ được tiêu trừ. Khi Phật đến hỏi họ có giữ quan điểm ấy không, họ xác nhận có."
+          ]
+        },
+        {
+          "id": "unknowns",
+          "kind": "teaching",
+          "heading": "Những điều chưa được biết mà đã được khẳng định",
+          "meaningUnits": [
+            "past-existence",
+            "past-bad",
+            "past-type",
+            "past-amount",
+            "present-training",
+            "unfounded",
+            "if-known"
+          ],
+          "paragraphs": [
+            "Phật hỏi năm nhóm vấn đề. Họ có biết mình từng tồn tại trong quá khứ, thay vì không tồn tại? Có biết đã làm ác, thay vì không làm ác? Có biết cụ thể đã làm ác gì? Có biết lượng khổ đã được làm tiêu tan, lượng còn cần làm tiêu tan và khi làm tiêu tan bao nhiêu thì toàn bộ khổ tiêu tan? Có biết ngay hiện tại cách từ bỏ bất thiện và thành tựu thiện? Từng nhóm đều được đáp là không biết.",
+            "Ngài nhắc toàn bộ những chỗ chưa biết và chỉ ra lời tuyên bố về trừ nghiệp cũ, ngăn nghiệp mới rồi chấm dứt toàn bộ khổ là không thích đáng trên cơ sở ấy. Ngài cũng nêu điều kiện đối lập: nếu thật sự biết đủ đời trước, nghiệp ác, loại nghiệp, ba lượng khổ và việc bỏ bất thiện làm thành thiện hiện tại, khi ấy lời khẳng định mới có cơ sở. Đây là mệnh đề có điều kiện, không phải sự xác nhận nhóm ấy đã đạt tri kiến, sự biết và thấy rõ."
+          ]
+        },
+        {
+          "id": "arrow",
+          "kind": "teaching",
+          "heading": "Người đã trải qua việc chữa tên độc",
+          "meaningUnits": [
+            "arrow-wound",
+            "arrow-treatment",
+            "arrow-healed",
+            "arrow-memory",
+            "known-after-example",
+            "unknown-after-example"
+          ],
+          "paragraphs": [
+            "Một người bị tên tẩm độc dày bắn trúng, đau dữ dội. Bạn bè, người quen và thân thuộc đưa thầy thuốc đến. Người ấy lần lượt chịu đau khi vết thương bị rạch, khi dụng cụ dò tìm, khi mũi tên được lấy ra và khi than thuốc được dùng chữa vết thương. Sau đó, vết thương lành, da khép; người ấy khỏe, an vui, tự do, tự chủ và có thể đi theo ý muốn.",
+            "Người đã bình phục có thể biết rõ cả chuỗi: vết tên và nỗi đau ban đầu, người đưa thầy thuốc đến, bốn công đoạn đau đớn, rồi tình trạng khỏe mạnh hiện nay. Ví dụ đặt trọng tâm vào sự biết có căn cứ, không xem mọi đau đớn đều tự mang lại thanh tịnh.",
+            "Phật lại áp hai vế vào chủ trương Nigaṇṭha: nếu biết đầy đủ các điều đã hỏi thì lời khẳng định về hết nghiệp, hết khổ mới có cơ sở; thực tế họ không biết đời trước, hành vi và loại ác, ba lượng khổ, cũng không biết việc bỏ xấu làm lành hiện tại, nên lời khẳng định ấy vẫn không thích đáng."
+          ]
+        },
+        {
+          "id": "authority",
+          "kind": "teaching",
+          "heading": "Thẩm quyền của thầy và năm căn cứ tin nhận",
+          "meaningUnits": [
+            "teacher-claim",
+            "teacher-method",
+            "five-bases"
+          ],
+          "paragraphs": [
+            "Họ viện dẫn Nātaputta: thầy biết hết, thấy hết; tri kiến ấy luôn hiện diện khi đi, đứng, ngủ, thức. Theo lời họ thuật, thầy xác định họ đã làm ác trước kia, nay phải chịu khổ để tiêu trừ. Giữ thân, lời, ý không làm ác hiện tại thì không tạo nghiệp mới; không có quả tương lai, nghiệp hết, khổ hết, cảm thọ hết, toàn bộ khổ được trừ. Họ tin nhận, ưa thích và hài lòng với lời ấy.",
+            "Phật chỉ ra năm căn cứ có thể dẫn tới hai kết quả khác nhau ngay hiện tại: lòng tin, sự ưa thích, truyền thừa nghe lại, suy luận và một kiến giải được chấp nhận sau cân nhắc. Ngài hỏi, đối với chuyện quá khứ, niềm tin của họ nơi thầy là gì, sự ưa thích là gì, lời truyền lại là gì, suy luận là gì và quan điểm được chấp nhận sau cân nhắc là gì. Họ không đưa ra được câu trả lời hợp lý."
+          ]
+        },
+        {
+          "id": "observation",
+          "kind": "teaching",
+          "heading": "Đặt lời giải thích cạnh kinh nghiệm hiện tại",
+          "meaningUnits": [
+            "exertion-observation",
+            "actual-objection",
+            "opposite-hypothesis",
+            "self-caused"
+          ],
+          "paragraphs": [
+            "Khi được hỏi về cố sức mãnh liệt, họ thừa nhận lúc ấy có cảm giác đau sắc nhói do sự cố sức. Khi không cố sức mãnh liệt, họ không có cảm giác đau do việc ấy. Vì vậy, lời quy mọi cảm thọ cho nghiệp cũ không thích đáng với điều vừa thừa nhận.",
+            "Phật nêu một giả định ngược: nếu cố sức không gây cảm giác đau, còn ngừng cố sức lại có đau, thì lập luận của họ mới phù hợp với giả định đó. Nhưng điều thực tế họ mô tả là đau khi cố sức và không có đau ấy khi không cố sức. Họ đã nhầm lẫn, không biết rõ điều đang do chính mình gây nên. Khi vấn đề tri kiến được đặt lại, họ vẫn không có lời đáp hợp lý."
+          ]
+        },
+        {
+          "id": "ten-questions",
+          "kind": "teaching",
+          "heading": "Khổ hạnh ấy có thay đổi quả nghiệp không?",
+          "meaningUnits": [
+            "karma-time",
+            "karma-feeling",
+            "karma-ripening",
+            "karma-amount",
+            "karma-result",
+            "karma-recap"
+          ],
+          "paragraphs": [
+            "Phật hỏi mười khả năng theo năm cặp: đổi quả phải nhận trong đời này thành đời sau và ngược lại; đổi quả lạc thành khổ và ngược lại; đổi nghiệp cảm quả khi đã chín thành cảm quả khi chưa chín và ngược lại; đổi nhiều quả thành ít và ngược lại; đổi nghiệp có quả thành không quả và ngược lại. Cả mười đều được họ trả lời là không.",
+            "Ngài nhắc lại đầy đủ hai chiều của từng cặp rồi kết luận sự tinh tấn mà họ vừa bảo vệ là vô quả. Phạm vi kết luận là phương pháp và luận cứ đang được khảo sát; phần tiếp theo sẽ nêu rõ một sự tinh tấn có kết quả."
+          ]
+        },
+        {
+          "id": "criticism",
+          "kind": "teaching",
+          "heading": "Mười cơ sở phê bình trong cấu trúc điều kiện",
+          "meaningUnits": [
+            "criticism-intro",
+            "criticism-past",
+            "criticism-creator",
+            "criticism-conditions",
+            "criticism-birth",
+            "criticism-effort",
+            "ten-criticisms"
+          ],
+          "paragraphs": [
+            "Phật đặt năm giả định về nguyên nhân cảm thọ. Nếu khổ lạc do nghiệp quá khứ, tình trạng đau khổ hiện tại của nhóm ấy kéo theo suy luận họ đã làm ác; nếu do một đấng tạo hóa, là do một đấng không tốt; nếu do tổ hợp duyên, là những duyên bất thiện; nếu do loại tái sinh, là loại bất thiện; nếu do nỗ lực hiện tại, là nỗ lực bất thiện. Cảnh đau khổ của cách tu đang bàn là lý do được lặp trong mỗi suy luận.",
+            "Rồi với từng nguyên nhân — nghiệp trước, đấng tạo, duyên hợp, loại tái sinh, nỗ lực hiện tại — Ngài nêu cả có và không: theo phía nào, chủ trương ấy cũng đáng bị phê bình. Năm cặp tạo thành mười cơ sở. Đây là khảo sát lập luận trong cuộc tranh luận cụ thể, không là xác nhận thuyết sáng tạo hoặc nguyên tắc quy tội cho mọi người đang đau ốm."
+          ]
+        },
+        {
+          "id": "discernment",
+          "kind": "teaching",
+          "heading": "Nỗ lực được chọn theo nguồn gây khổ",
+          "meaningUnits": [
+            "fruitful-balance",
+            "effort-equanimity"
+          ],
+          "paragraphs": [
+            "Nỗ lực có quả bắt đầu bằng ba điểm: không tự chồng khổ lên mình khi chưa bị khổ đè; không từ bỏ niềm vui hợp pháp, chân chính; không đắm nhiễm trong niềm vui ấy.",
+            "Người tu nhận ra có nguồn khổ cần dụng công có chủ ý để ly tham, tức hết bám víu; có nguồn khổ cần tu xả, giữ lòng bình thản không níu kéo, để ly tham. Người ấy thực hiện đúng phương thức tương ứng. Dụng công đưa đến ly tham với nguồn ấy và khổ ấy chấm dứt; tu xả cũng đưa đến ly tham với nguồn tương ứng và khổ do nó chấm dứt. Không phải lúc nào tăng sức ép cũng đúng, cũng không phải mọi việc đều chỉ cần để yên."
+          ]
+        },
+        {
+          "id": "desire",
+          "kind": "teaching",
+          "heading": "Thay đổi nằm ở sự tham luyến",
+          "meaningUnits": [
+            "attached-man",
+            "letting-go",
+            "balance-recap"
+          ],
+          "paragraphs": [
+            "Một người nam say mê một người nữ, tâm bị buộc chặt bởi ham muốn. Thấy nàng đứng, chuyện trò, cười khẽ, cười lớn với người nam khác, anh có sầu, bi, khổ, ưu, não — buồn, than, đau, ưu phiền, bức bối — không? Các tỳ-kheo đáp có, vì anh còn tham luyến. Kinh không xác định nàng là vợ hoặc đã phản bội.",
+            "Người ấy nhận ra nỗi khổ sinh từ tham luyến, quyết từ bỏ rồi thật sự từ bỏ. Trước chính cảnh ấy, năm nỗi khổ có còn sinh không? Các vị đáp không, vì anh đã ly tham. Phật áp ví dụ vào ba điểm không tự hành khổ, không bỏ lạc chân chính, không đắm lạc; cùng hai cách dụng công hoặc tu xả theo nguyên nhân, đều đi đến ly tham và hết khổ tương ứng. Đó là tinh tấn có quả."
+          ]
+        },
+        {
+          "id": "effort",
+          "kind": "teaching",
+          "heading": "Sự khó nhọc chấm dứt khi mục đích đã đạt",
+          "meaningUnits": [
+            "painful-effort",
+            "fletcher",
+            "purpose-recap"
+          ],
+          "paragraphs": [
+            "Người tu thấy rằng sống theo ý thích làm bất thiện tăng, thiện giảm; gắng sức trong khó nhọc lại làm bất thiện giảm, thiện tăng. Vị ấy quyết rèn luyện, thực hiện và nhận được đúng kết quả ấy. Khi điều cần đạt đã hoàn thành, không còn phải duy trì sự gắng sức nhọc nhằn đó.",
+            "Người thợ tên hơ cán tên giữa hai ngọn lửa, nắn cho thẳng và sử dụng được; khi đã đạt, người thợ thôi nung nắn vì mục đích đã xong. Phật nhắc lại tiến trình của người tu: nhận ra hai hệ quả trái nhau, chọn rèn luyện, bất thiện giảm và thiện tăng, rồi ngừng sự khó nhọc khi mục đích hoàn tất. Đây là một dạng nỗ lực có quả."
+          ]
+        },
+        {
+          "id": "path",
+          "kind": "teaching",
+          "heading": "Từ nghe Pháp đến lựa chọn đời xuất gia",
+          "meaningUnits": [
+            "tathagata",
+            "renunciation"
+          ],
+          "paragraphs": [
+            "Phật tiếp tục bằng con đường đầy đủ: Như Lai xuất hiện, là A-la-hán, Chánh Đẳng Giác, đầy đủ minh và hạnh, Thiện Thệ, hiểu thế gian, bậc dẫn dắt tối thượng người có thể được rèn luyện, thầy của trời và người, Phật, Thế Tôn. Những danh hiệu chỉ bậc giác ngộ trọn vẹn, hết ô nhiễm, có hiểu biết và hạnh hoàn thiện, khéo đi tới an lành và đáng tôn kính.",
+            "Ngài tự chứng biết thế giới cùng chư thiên, các vị trời, Ma vương Māra và Phạm thiên, vị trời ở cõi Phạm, giới sa-môn và bà-la-môn, trời và người, rồi tuyên thuyết. Sa-môn là người sống đời tu; bà-la-môn thuộc truyền thống học kinh và nghi lễ. Pháp được giảng tốt đẹp ở đầu, giữa, cuối, đầy đủ nghĩa và lời, trình bày đời phạm hạnh, đời tu trong sạch, một cách viên mãn, thanh tịnh.",
+            "Gia chủ, người sống và chăm lo việc nhà, con gia chủ hoặc người thuộc một gia đình nào đó nghe, khởi lòng tin, suy xét đời nhà chật chội, nhiều bụi và đời xuất gia rộng mở; tại gia khó sống phạm hạnh trọn sạch như vỏ ốc đánh bóng. Người ấy nghĩ rồi thực hiện: bỏ tài sản ít hay nhiều, quyến thuộc ít hay nhiều, cạo râu tóc, khoác cà-sa, áo người tu, rồi xuất gia. Đây là lựa chọn và nếp sống của người trong tiến trình tu được kể."
+          ]
+        },
+        {
+          "id": "conduct",
+          "kind": "teaching",
+          "heading": "Giới hạnh trong thân và lời",
+          "meaningUnits": [
+            "body-ethics",
+            "speech-ethics"
+          ],
+          "paragraphs": [
+            "Theo học giới của tỳ-kheo, vị ấy bỏ sát sinh, bỏ roi gươm, có lòng hổ thẹn và thương tưởng lợi ích mọi loài; bỏ lấy của không cho, chỉ nhận và trông đợi của được cho, sống sạch không trộm; giữ độc thân phạm hạnh, xa quan hệ tình dục.",
+            "Vị ấy bỏ dối trá, nói thật, bền với sự thật, đáng tin, không lừa; không mang chuyện bên này sang bên kia hoặc ngược lại để chia rẽ; hòa giải người chia rẽ, củng cố người hòa hợp, vui, thích và quý hòa hợp. Vị ấy nói hiền, êm tai, đáng mến, thấm lòng, lịch sự, được nhiều người ưa và hài lòng. Thay chuyện phù phiếm bằng lời đúng lúc, thật, có ích, hợp Pháp và Luật, đáng nhớ, có lý do, có chừng mực và lợi ích."
+          ]
+        },
+        {
+          "id": "restraint",
+          "kind": "teaching",
+          "heading": "Những giới hạn của đời sống giản dị",
+          "meaningUnits": [
+            "simple-life",
+            "receiving",
+            "dealings"
+          ],
+          "paragraphs": [
+            "Vị ấy không làm hại hạt giống, cây cối; ăn một bữa trong ngày, tránh ban đêm và ngoài giờ quy định; tránh múa, hát, nhạc, biểu diễn; tránh hoa, hương, trang điểm; tránh giường cao sang.",
+            "Vị ấy không nhận vàng bạc, ngũ cốc chưa nấu, thịt sống; phụ nữ và con gái; đầy tớ nữ và nam; dê cừu; gà heo; voi, bò, ngựa, ngựa cái; ruộng đất. Danh sách phản ánh các hình thức tiếp nhận, sở hữu trong xã hội cổ và sự từ bỏ của người xuất gia.",
+            "Vị ấy không làm việc chạy sứ đưa tin hay mua bán; không gian cân, kim loại, đo lường; không hối lộ, lừa gạt, gian trá, hai mặt; tránh chặt, giết, trói buộc, cướp bóc, cướp đường, bạo lực."
+          ]
+        },
+        {
+          "id": "contentment",
+          "kind": "teaching",
+          "heading": "Biết đủ và niềm vui không lỗi",
+          "meaningUnits": [
+            "contentment"
+          ],
+          "paragraphs": [
+            "Vị ấy bằng lòng với y che thân và thức ăn nuôi bụng, mang theo chừng ấy khi đi. Con chim bay chỉ mang đôi cánh; cũng thế, vị tỳ-kheo biết đủ và đi với những vật cần dùng ấy. Thành tựu giới cao quý đem lại niềm an lạc nội tâm không lỗi."
+          ]
+        },
+        {
+          "id": "senses",
+          "kind": "teaching",
+          "heading": "Hộ trì nhận biết và tỉnh giác hằng ngày",
+          "meaningUnits": [
+            "sense-guard",
+            "awareness"
+          ],
+          "paragraphs": [
+            "Nếu không giữ mắt, tham và buồn phiền bất thiện có thể tràn vào. Vì vậy, khi mắt thấy hình, vị ấy không nắm chặt tướng chung hoặc chi tiết và thực hành hộ trì mắt. Tai với tiếng, mũi với mùi, lưỡi với vị, thân với xúc chạm, ý với đối tượng tâm cũng được hộ trì như vậy. Sáu cửa được giữ cao quý đem lại an lạc nội tâm không vẩn đục.",
+            "Vị ấy tỉnh giác khi tiến, lui; nhìn trước, nhìn quanh; co, duỗi; mang áo ngoài, áo và bát; ăn, uống, nhai, nếm; đại tiện, tiểu tiện; đi, đứng, ngồi, ngủ, thức, nói, im. Tỉnh giác là biết rõ hành động trong các sinh hoạt ấy."
+          ]
+        },
+        {
+          "id": "preparation",
+          "kind": "teaching",
+          "heading": "Bốn nền tảng và năm chướng ngại",
+          "meaningUnits": [
+            "seclusion",
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Đầy đủ giới, biết đủ, hộ trì các căn và niệm, sự chú tâm, cùng tỉnh giác, vị ấy tìm chỗ vắng: rừng, gốc cây, núi, khe, hang, nghĩa địa, rừng hoang, ngoài trời, đống rơm. Khất thực về và ăn xong, vị ấy ngồi xếp chân, thân thẳng, thiết lập niệm ở trước.",
+            "Vị ấy rời tham ở đời; rời sân hại với lòng thương mọi loài; rời hôn trầm, buồn ngủ bằng nhận biết ánh sáng, niệm và tỉnh giác; rời xao động, hối tiếc với nội tâm lắng; rời nghi ngờ, phân vân về thiện. Năm chướng ngại này làm ô tâm và suy yếu trí tuệ."
+          ]
+        },
+        {
+          "id": "jhanas",
+          "kind": "teaching",
+          "heading": "Bốn tầng thiền và kết quả của tinh tấn",
+          "meaningUnits": [
+            "first-jhana",
+            "second-jhana",
+            "third-jhana",
+            "fourth-jhana"
+          ],
+          "paragraphs": [
+            "Xa dục, ham muốn giác quan, và điều bất thiện, vị ấy chứng trú sơ thiền: có tầm, tứ — hướng tâm và duy trì sự hướng tâm — cùng hỷ và lạc do viễn ly, sự xa lìa ấy. Tầm, tứ lắng xuống, nội tâm trong sáng và nhất tâm; nhị thiền không còn tầm tứ, có hỷ lạc do định, sự vững tụ của tâm. Hỷ là niềm hân hoan, lạc là sự an vui.",
+            "Hỷ phai, vị ấy trú xả, có niệm, tỉnh giác, thân cảm nhận lạc; các bậc Thánh nói người xả có niệm sống an lạc: đó là tam thiền. Bỏ lạc, bỏ khổ, mừng buồn trước đã diệt, vị ấy chứng tứ thiền: không khổ không lạc, xả và niệm thanh tịnh. Sau từng tầng, Phật đều kết luận nỗ lực và tinh tấn ấy có quả."
+          ]
+        },
+        {
+          "id": "recollection",
+          "kind": "teaching",
+          "heading": "Trí nhớ các đời sống trước",
+          "meaningUnits": [
+            "past-lives"
+          ],
+          "paragraphs": [
+            "Với tâm định tĩnh, thanh tịnh, trong sáng, không ô nhiễm, lìa cấu uế, mềm mại, dễ sử dụng, vững chắc, bất động, vị ấy hướng đến trí nhớ các đời trước: một, hai, ba, bốn, năm, mười, hai mươi, ba mươi, bốn mươi, năm mươi, một trăm, một nghìn, một trăm nghìn đời; nhiều thời thế giới co, nở, và co rồi nở.",
+            "Vị ấy nhớ tên, họ, dung mạo, thức ăn, cảm thọ vui khổ, tuổi thọ trong đời ấy; chết từ đó sinh nơi khác, lại nhớ đủ các mặt ấy, rồi chết ở đó sinh tới đây. Sự nhớ bao gồm nét khái quát và chi tiết. Đây cũng là tinh tấn có quả."
+          ]
+        },
+        {
+          "id": "beings",
+          "kind": "teaching",
+          "heading": "Trí biết chúng sinh đi theo nghiệp",
+          "meaningUnits": [
+            "rebirth-knowledge"
+          ],
+          "paragraphs": [
+            "Cùng tâm đầy đủ chín phẩm chất ấy, vị ấy hướng đến trí về chết và tái sinh. Thiên nhãn thanh tịnh vượt mắt người thấy chúng sinh chết, sinh, thấp, cao, đẹp, xấu, đến cảnh lành hay dữ theo nghiệp.",
+            "Người làm ác bằng thân, lời, ý, phỉ báng bậc Thánh, giữ tà kiến, cách thấy sai, và hành động theo đó, sau khi thân hoại, chết, đến cõi dữ, địa ngục. Người làm thiện bằng thân, lời, ý, không phỉ báng bậc Thánh, giữ chánh kiến, cách thấy đúng, và hành động theo đó, sau khi chết đến cõi lành, trời. Kinh nhắc lại khả năng thấy sinh tử theo nghiệp bằng thiên nhãn ấy, rồi kết luận tinh tấn có quả."
+          ]
+        },
+        {
+          "id": "release",
+          "kind": "teaching",
+          "heading": "Biết như thật và giải thoát",
+          "meaningUnits": [
+            "truth-knowledge",
+            "liberation"
+          ],
+          "paragraphs": [
+            "Tâm đủ định tĩnh, thanh tịnh, trong sáng, không ô nhiễm, lìa cấu uế, mềm, dễ dùng, vững, bất động được hướng đến trí đoạn tận lậu hoặc, những dòng ô nhiễm kéo dài khổ. Vị ấy biết như thật khổ, nguồn khổ, sự diệt khổ và con đường tới diệt khổ; đồng thời biết lậu hoặc, nguồn của chúng, sự diệt chúng và con đường đoạn diệt.",
+            "Thấy biết như vậy, tâm giải thoát dục lậu, hữu lậu, vô minh lậu: ô nhiễm do dục, do ham muốn và bám vào hiện hữu, và do không biết đúng. Vị ấy biết tâm đã giải thoát, sinh đã tận, phạm hạnh đã thành, việc cần làm đã làm, không còn trở lại hiện hữu này. Nỗ lực và tinh tấn ấy có quả: mục tiêu đi đến tận gốc khổ, không dừng ở một trạng thái dễ chịu."
+          ]
+        },
+        {
+          "id": "praise",
+          "kind": "teaching",
+          "heading": "Mười cơ sở tán thán tương ứng",
+          "meaningUnits": [
+            "praise-intro",
+            "praise-past",
+            "praise-creator",
+            "praise-conditions",
+            "praise-birth",
+            "praise-effort",
+            "ten-praises"
+          ],
+          "paragraphs": [
+            "Với lời dạy ấy, Như Lai đáng tán thán theo mười cơ sở. Nếu vui khổ do nghiệp quá khứ, Ngài đã tạo thiện nghiệp; nếu do đấng tạo, là một đấng tốt; nếu do duyên hợp, là duyên lành; nếu do loại tái sinh, là loại thiện; nếu do nỗ lực hiện tại, là nỗ lực thiện. Trong mỗi mệnh đề, lý do là niềm an lạc Ngài đang có không còn lậu hoặc.",
+            "Ngài lần lượt xét cả có và không đối với đủ năm nguyên nhân — nghiệp cũ, đấng tạo, duyên hợp, loại tái sinh, nỗ lực hiện tại. Ở cả hai phía của từng cặp, Như Lai vẫn đáng tán thán; đó là mười cơ sở gắn với lời dạy này. Cấu trúc giả định được giữ nguyên, không biến phần tranh luận thành sự chấp nhận một học thuyết sáng tạo."
+          ]
+        },
+        {
+          "id": "end",
+          "kind": "teaching",
+          "heading": "Các tỳ-kheo hoan hỷ",
+          "meaningUnits": [
+            "close"
+          ],
+          "paragraphs": [
+            "Đức Phật dạy như vậy; các tỳ-kheo hoan hỷ, tán đồng. Devadaha là bài mở đầu nhóm này trong phần cuối Trung Bộ."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ biên tập: sửa một cách làm gây hại",
+          "meaningUnits": [
+            "painful-effort",
+            "purpose-recap"
+          ],
+          "paragraphs": [
+            "Một người thấy mình thường cắt lời đồng nghiệp. Tập dừng và nghe hết câu ban đầu không dễ, nhưng nếu việc ấy thật sự làm lời nói bớt gây tổn thương, sự rèn luyện có hướng rõ. Tự trách đến mất ngủ không tự động làm giao tiếp tốt hơn. Khi thói quen cắt lời đã được sửa, cách gắng sức dành cho lỗi ấy có thể thay đổi. Ví dụ chỉ minh họa việc xét kết quả cụ thể, không đồng nhất hiệu quả công việc với giải thoát."
+          ]
+        },
+        {
+          "id": "reflection",
+          "kind": "practice",
+          "heading": "Một câu hỏi để tự xét",
+          "meaningUnits": [
+            "effort-equanimity",
+            "fruitful-balance"
+          ],
+          "paragraphs": [
+            "Gợi ý của người biên tập: với một sự cố gắng đang làm, hãy xem nó có giúp tham, ý hại và sự mê mờ giảm đi không. Có nguồn khổ cần hành động sửa đổi; có nguồn cần học cách không tiếp tục bám giữ. Niềm vui chân chính được đón nhận mà không biến thành điều phải níu bằng mọi giá. Đây là bước tự xét, không phải lời xác nhận đã thành tựu các tầng thiền hay giải thoát."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "MN101 cho người lớn tuổi — Gắng sức có hướng, an vui không bám giữ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Bình tâm nhìn lại một cách tu",
+          "meaningUnits": [
+            "identity",
+            "setting"
+          ],
+          "paragraphs": [
+            "Kinh Devadaha là bài 101 trong Trung Bộ. Người truyền kinh kể điều đã nghe: Đức Phật ở Devadaha, một thị trấn của người Sakiya. Ngài gọi các tỳ-kheo, những người nam xuất gia; các vị đáp lời. Lời dạy sau đó giúp phân biệt sự gắng sức làm khổ tăng thêm với sự gắng sức có thể đưa tới hết khổ."
+          ]
+        },
+        {
+          "id": "belief",
+          "kind": "teaching",
+          "heading": "Chủ trương được đem ra đối thoại",
+          "meaningUnits": [
+            "doctrine",
+            "confirmation"
+          ],
+          "paragraphs": [
+            "Nhóm tu Nigaṇṭha chủ trương mọi cảm giác dễ chịu, đau đớn và không dễ chịu không đau đớn đều do nghiệp quá khứ. Họ cho rằng dùng khổ hạnh, tu tập bằng chịu khổ, để trừ nghiệp cũ, không tạo nghiệp mới, thì không còn quả về sau. Nghiệp hết, khổ hết; khổ hết, cảm giác hết; cảm giác hết thì toàn bộ khổ bị tiêu trừ. Nghiệp là hành động có tác động về sau.",
+            "Phật kể rằng Ngài đã gặp và hỏi họ có quan điểm đúng như vậy không. Họ đáp có. Ngài đang xem xét chủ trương này qua đối thoại."
+          ]
+        },
+        {
+          "id": "past",
+          "kind": "teaching",
+          "heading": "Ba câu hỏi về điều đã qua",
+          "meaningUnits": [
+            "past-existence",
+            "past-bad",
+            "past-type"
+          ],
+          "paragraphs": [
+            "Ngài hỏi họ có biết mình từng sống trong quá khứ, thay vì chưa từng sống, không. Họ đáp không biết. Có biết đã làm ác trong quá khứ, thay vì không làm ác, không? Vẫn không biết. Có biết chính xác đã làm điều ác nào không? Họ lại đáp không biết."
+          ]
+        },
+        {
+          "id": "measure",
+          "kind": "teaching",
+          "heading": "Khổ đã hết đến đâu?",
+          "meaningUnits": [
+            "past-amount",
+            "present-training"
+          ],
+          "paragraphs": [
+            "Ngài hỏi tiếp: biết bao nhiêu khổ đã được làm tiêu tan, bao nhiêu còn cần làm tiêu tan, và làm tiêu tan bao nhiêu thì toàn bộ khổ tiêu tan không? Họ không biết cả những điều ấy.",
+            "Ngay hiện tại, họ có biết cách từ bỏ bất thiện và làm thành điều thiện không? Họ cũng không biết. Bất thiện là những điều có tính gây hại; thiện là điều lành cần được vun bồi."
+          ]
+        },
+        {
+          "id": "basis",
+          "kind": "teaching",
+          "heading": "Lời nói cần có chỗ dựa",
+          "meaningUnits": [
+            "unfounded",
+            "if-known"
+          ],
+          "paragraphs": [
+            "Phật nhắc lại đủ những điều chưa biết: đời quá khứ, việc ác đã làm, loại việc ấy, ba lượng khổ và việc bỏ xấu làm lành bây giờ. Từ những chỗ chưa biết ấy, lời khẳng định khổ hạnh trừ nghiệp cũ, không tạo mới rồi hết toàn bộ khổ là không thích đáng.",
+            "Ngài nêu trường hợp có điều kiện: nếu thật sự biết rõ tất cả những điều ấy, khi đó lời khẳng định mới có căn cứ. Điều kiện “nếu biết” chưa có nghĩa những người đối thoại đã biết."
+          ]
+        },
+        {
+          "id": "wound",
+          "kind": "teaching",
+          "heading": "Một ví dụ về sự biết rõ",
+          "meaningUnits": [
+            "arrow-wound",
+            "arrow-treatment"
+          ],
+          "paragraphs": [
+            "Phật kể ví dụ người bị mũi tên tẩm độc dày bắn trúng. Người ấy chịu đau dữ dội. Bạn bè, người quen và thân thuộc đưa thầy thuốc đến. Thầy rạch quanh vết thương, dùng dụng cụ dò tìm, rút mũi tên và dùng than thuốc để chữa. Mỗi công đoạn đều làm người ấy đau: rạch, dò, rút và dùng than thuốc."
+          ]
+        },
+        {
+          "id": "recovery",
+          "kind": "teaching",
+          "heading": "Vết thương lành, điều đã qua vẫn được biết",
+          "meaningUnits": [
+            "arrow-healed",
+            "arrow-memory"
+          ],
+          "paragraphs": [
+            "Sau một thời gian, vết thương lành, da khép lại. Người ấy khỏe mạnh, an vui, tự do, tự chủ, có thể đi theo ý muốn. Anh biết rõ mình từng bị tên độc và đau; biết ai đã đưa thầy thuốc đến, nhớ bốn công đoạn chữa gây đau và biết tình trạng lành mạnh hiện nay.",
+            "Ví dụ nói về sự biết được tiến trình đã trải qua và kết quả hiện có. Những thao tác chữa trị cổ trong câu chuyện không phải hướng dẫn chữa bệnh cho người đọc."
+          ]
+        },
+        {
+          "id": "return",
+          "kind": "teaching",
+          "heading": "Trở lại những điều chưa biết",
+          "meaningUnits": [
+            "known-after-example",
+            "unknown-after-example"
+          ],
+          "paragraphs": [
+            "Phật lại nêu: nếu biết rõ đã từng sống, từng làm ác, loại ác ấy, lượng khổ đã được làm tiêu tan, còn cần làm tiêu tan, và làm tiêu tan bao nhiêu thì toàn bộ khổ tiêu tan, cùng việc bỏ bất thiện, làm thành thiện hiện tại, lời nói về hết nghiệp và hết toàn bộ khổ mới có cơ sở.",
+            "Nhưng nhóm người tu không biết tất cả những điều đó. Vì vậy, Ngài lại chỉ ra sự không thích đáng của lời họ khẳng định về trừ nghiệp cũ bằng khổ hạnh, không tạo mới và hết khổ."
+          ]
+        },
+        {
+          "id": "master",
+          "kind": "teaching",
+          "heading": "Điều nghe từ người thầy",
+          "meaningUnits": [
+            "teacher-claim",
+            "teacher-method"
+          ],
+          "paragraphs": [
+            "Họ viện lời Nātaputta, người thầy mà họ cho là biết hết và thấy hết. Theo họ, sự biết thấy ấy luôn hiện diện khi đi, đứng, ngủ, thức. Thầy nói họ đã làm ác đời trước, nay chịu khổ để trừ; giữ thân, lời, ý không làm ác hiện tại sẽ không tạo nghiệp mới.",
+            "Lời được thuật tiếp: không tạo mới thì không có quả tương lai; nghiệp hết, khổ hết, cảm giác hết, rồi toàn bộ khổ được trừ. Họ tin nhận, yêu thích và hài lòng với lời ấy."
+          ]
+        },
+        {
+          "id": "knowing",
+          "kind": "teaching",
+          "heading": "Năm căn cứ và giới hạn của chúng",
+          "meaningUnits": [
+            "five-bases"
+          ],
+          "paragraphs": [
+            "Phật nêu lòng tin, sự ưa thích, lời truyền lại, suy luận và một quan điểm chấp nhận sau cân nhắc. Năm căn cứ ấy có thể dẫn đến hai kết quả khác nhau ngay hiện tại. Dựa vào chúng chưa đủ tự bảo đảm mình biết đúng.",
+            "Về chuyện quá khứ, Ngài hỏi: niềm tin của họ nơi thầy là gì, họ ưa thích gì, lời truyền lại là gì, suy luận nào và quan điểm đã cân nhắc nào được họ chấp nhận? Họ không có câu trả lời hợp lý."
+          ]
+        },
+        {
+          "id": "present",
+          "kind": "teaching",
+          "heading": "Cơn đau gắn với việc đang làm",
+          "meaningUnits": [
+            "exertion-observation",
+            "actual-objection"
+          ],
+          "paragraphs": [
+            "Khi cố sức mãnh liệt, họ có chịu cảm giác đau sắc nhói do sự cố sức ấy không? Họ đáp có. Khi không cố sức như vậy, có cảm giác đau do việc ấy không? Họ đáp không. Phật chỉ ra lời giải thích mọi cảm giác đều do nghiệp cũ là không thích đáng với chính điều họ vừa kể."
+          ]
+        },
+        {
+          "id": "reverse",
+          "kind": "teaching",
+          "heading": "Thử đổi tình huống để hiểu lập luận",
+          "meaningUnits": [
+            "opposite-hypothesis",
+            "self-caused"
+          ],
+          "paragraphs": [
+            "Ngài nêu tình huống ngược: nếu cố sức không đau, còn không cố sức lại đau, thì lời giải thích ấy mới phù hợp với tình huống giả định. Điều đang xảy ra thì ngược lại: cố sức gây đau, không cố sức thì không có đau do nó.",
+            "Không thấy rõ điều đang do mình gây ra, họ sống trong sự không biết và lầm lẫn. Khi Phật hỏi lại căn cứ tri kiến, họ vẫn không đưa ra lời đáp hợp lý."
+          ]
+        },
+        {
+          "id": "results",
+          "kind": "teaching",
+          "heading": "Năm cặp thay đổi đều được đáp không",
+          "meaningUnits": [
+            "karma-time",
+            "karma-feeling",
+            "karma-ripening",
+            "karma-amount",
+            "karma-result",
+            "karma-recap"
+          ],
+          "paragraphs": [
+            "Sự gắng sức ấy có đổi quả nghiệp đời này thành đời sau và đời sau thành đời này được không? Đổi quả lạc thành khổ và khổ thành lạc được không? Đổi nghiệp cảm quả khi đã chín thành cảm quả khi chưa chín, và đổi theo chiều ngược lại, được không? Đổi nhiều thành ít và ít thành nhiều được không? Đổi nghiệp có quả thành không quả và không quả thành có quả được không?",
+            "Mười câu đều được trả lời là không. Phật nhắc lại đủ năm cặp, mỗi cặp cả hai chiều, rồi kết luận sự tinh tấn ấy không có quả. Sau đó Ngài sẽ chỉ ra nỗ lực nào thật sự có quả."
+          ]
+        },
+        {
+          "id": "conditions",
+          "kind": "teaching",
+          "heading": "Năm giả định để xét chủ trương",
+          "meaningUnits": [
+            "criticism-intro",
+            "criticism-past",
+            "criticism-creator",
+            "criticism-conditions",
+            "criticism-birth",
+            "criticism-effort"
+          ],
+          "paragraphs": [
+            "Phật nêu mười căn cứ phê bình bằng cách xét năm giả định. Nếu vui khổ do nghiệp trước, cảnh chịu khổ ấy dẫn đến kết luận họ đã làm ác; nếu do đấng tạo hóa, là một đấng không tốt; nếu do các duyên hợp, là những duyên không tốt; nếu do loại tái sinh, là loại không tốt; nếu do cố gắng hiện tại, là cố gắng không tốt. Ở mỗi giả định, cảnh đau khổ của phương pháp đang bàn được nêu làm lý do."
+          ]
+        },
+        {
+          "id": "ten",
+          "kind": "teaching",
+          "heading": "Cả phía có và phía không",
+          "meaningUnits": [
+            "ten-criticisms"
+          ],
+          "paragraphs": [
+            "Với từng nguyên nhân trong năm nguyên nhân — nghiệp cũ, đấng tạo, duyên hợp, loại tái sinh, nỗ lực hiện tại — Phật xét cả có và không. Dù theo phía nào, chủ trương ấy cũng có chỗ đáng phê bình; như vậy thành mười căn cứ.",
+            "Đây là cách kiểm tra một lập luận trong cuộc đối thoại. Không nên dùng những mệnh đề có điều kiện ấy để quy tội cho người đau ốm hoặc xem chúng là sự xác nhận một đấng sáng tạo."
+          ]
+        },
+        {
+          "id": "balance",
+          "kind": "teaching",
+          "heading": "Nỗ lực có quả bắt đầu từ sự quân bình",
+          "meaningUnits": [
+            "fruitful-balance",
+            "effort-equanimity"
+          ],
+          "paragraphs": [
+            "Phật dạy người tu không tự đem thêm khổ đè lên mình khi chưa bị khổ đè; không từ bỏ niềm vui chân chính; cũng không say đắm trong niềm vui ấy.",
+            "Vị ấy xem từng nguồn gây khổ. Có nguồn cần chủ động dụng công để ly tham, tức rời bám víu; có nguồn cần tu xả, tập nhìn bình thản, để ly tham. Với nguồn thứ nhất, vị ấy dụng công, hết tham luyến và khổ ấy tiêu tan. Với nguồn thứ hai, vị ấy tu xả, hết tham luyến và khổ tương ứng cũng tiêu tan."
+          ]
+        },
+        {
+          "id": "affection",
+          "kind": "teaching",
+          "heading": "Nhìn thấy mối buộc trong lòng",
+          "meaningUnits": [
+            "attached-man"
+          ],
+          "paragraphs": [
+            "Phật ví một người nam rất say mê một người nữ, tâm bị buộc vào nàng. Khi thấy nàng đứng, trò chuyện, cười khẽ và cười lớn với người nam khác, anh có sầu, than, đau, buồn và bức bối không? Các tỳ-kheo đáp có, vì anh còn tham luyến. Câu chuyện không nói nàng là vợ anh hoặc đã có lỗi."
+          ]
+        },
+        {
+          "id": "letting-go",
+          "kind": "teaching",
+          "heading": "Cùng cảnh ấy khi đã buông tham luyến",
+          "meaningUnits": [
+            "letting-go",
+            "balance-recap"
+          ],
+          "paragraphs": [
+            "Người nam nhận ra năm nỗi khổ của mình bắt nguồn từ tham luyến. Anh quyết bỏ và thực sự bỏ. Sau đó vẫn thấy nàng đứng, chuyện trò, cười khẽ, cười lớn với người kia, anh có còn những nỗi khổ ấy không? Các vị đáp không, vì tham luyến đã hết.",
+            "Phật trở lại ba điểm: không tự hành khổ, không bỏ lạc chân chính, không đắm lạc. Với từng nguồn khổ, biết chọn dụng công hoặc tu xả, thực hiện để ly tham rồi hết khổ tương ứng. Ngài gọi đó là nỗ lực và tinh tấn có quả."
+          ]
+        },
+        {
+          "id": "training",
+          "kind": "teaching",
+          "heading": "Gắng sức vì điều cần được sửa",
+          "meaningUnits": [
+            "painful-effort"
+          ],
+          "paragraphs": [
+            "Có người tu thấy khi sống theo ý thích, bất thiện tăng và thiện giảm; khi chịu khó rèn luyện, bất thiện giảm và thiện tăng. Vị ấy quyết thực hiện sự rèn luyện khó nhọc ấy và thấy kết quả đúng như vậy. Sau một thời gian, khi mục đích đã thành, không còn cần tiếp tục sự khó nhọc đó."
+          ]
+        },
+        {
+          "id": "craft",
+          "kind": "teaching",
+          "heading": "Người thợ biết khi nào dừng",
+          "meaningUnits": [
+            "fletcher",
+            "purpose-recap"
+          ],
+          "paragraphs": [
+            "Người thợ tên hơ cán tên giữa hai ngọn lửa, nắn cho thẳng và có thể dùng được. Khi cán tên đã đạt, người thợ thôi nung nắn, vì điều cần làm đã xong.",
+            "Phật nhắc lại việc người tu so sánh hai nếp sống: chiều ý thích khiến bất thiện tăng, thiện giảm; chịu khó rèn giúp bất thiện giảm, thiện tăng. Vị ấy chọn rèn luyện, đạt kết quả rồi không phải duy trì sự khó nhọc ấy nữa. Đây là tinh tấn có quả, có hướng và có mục đích."
+          ]
+        },
+        {
+          "id": "teacher-path",
+          "kind": "teaching",
+          "heading": "Như Lai chỉ bày con đường trong sạch",
+          "meaningUnits": [
+            "tathagata"
+          ],
+          "paragraphs": [
+            "Khi Như Lai xuất hiện, Ngài được gọi là A-la-hán, Chánh Đẳng Giác, đầy đủ minh hạnh, Thiện Thệ, hiểu thế gian, bậc điều phục tối thượng, thầy của trời và người, Phật, Thế Tôn. Những danh hiệu tôn xưng bậc hết ô nhiễm, giác ngộ trọn vẹn, đủ hiểu biết và hạnh tốt, khéo đi tới an lành, dẫn dắt người có thể được rèn luyện và đáng tôn kính.",
+            "Ngài tự biết rõ thế giới cùng chư thiên, các vị trời, Ma vương Māra, Phạm thiên là vị trời ở cõi Phạm, những người tu và bà-la-môn, trời và người, rồi giảng dạy. Bà-la-môn thuộc truyền thống học kinh và nghi lễ. Pháp tốt đẹp từ đầu, giữa đến cuối, đầy đủ nghĩa và lời, chỉ rõ đời phạm hạnh, đời tu trong sạch, hoàn toàn thanh tịnh."
+          ]
+        },
+        {
+          "id": "home",
+          "kind": "teaching",
+          "heading": "Người nghe chọn đời xuất gia",
+          "meaningUnits": [
+            "renunciation"
+          ],
+          "paragraphs": [
+            "Một gia chủ, người sống và chăm lo việc nhà, con gia chủ hay người thuộc gia đình nào đó nghe rồi tin. Người ấy thấy đời tại gia chật hẹp, nhiều bụi, còn xuất gia rộng mở; ở nhà khó sống đời tu trọn sạch như vỏ ốc được đánh bóng.",
+            "Người ấy nghĩ rồi thực hiện: bỏ của cải ít hoặc nhiều, thân thuộc ít hoặc nhiều, cạo râu tóc, mặc cà-sa, áo người tu, và xuất gia. Những nếp sống sau đây thuộc con đường người ấy đã chọn."
+          ]
+        },
+        {
+          "id": "body",
+          "kind": "teaching",
+          "heading": "Giữ thân không làm hại",
+          "meaningUnits": [
+            "body-ethics"
+          ],
+          "paragraphs": [
+            "Vị ấy theo học giới và nếp sống tỳ-kheo. Bỏ sát sinh, bỏ roi gươm, biết hổ thẹn, thương và muốn lợi ích mọi loài. Bỏ lấy của không cho, chỉ nhận và trông đợi thứ được cho, sống trong sạch không trộm. Vị ấy giữ đời sống độc thân thanh tịnh, xa quan hệ tình dục."
+          ]
+        },
+        {
+          "id": "words",
+          "kind": "teaching",
+          "heading": "Giữ lời chân thật và hòa hợp",
+          "meaningUnits": [
+            "speech-ethics"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ nói dối, nói thật, giữ vững sự thật, đáng tin, không lừa người. Không mang chuyện bên này sang bên kia để gây chia rẽ, cũng không làm theo chiều ngược lại. Người chia rẽ được giúp hòa lại; người hòa hợp được giúp gắn bó; vị ấy vui, thích và quý sự hòa hợp.",
+            "Vị ấy nói hiền, êm tai, đáng mến, thấm lòng, lịch sự, được nhiều người ưa thích và hài lòng. Bỏ lời phù phiếm, nói đúng lúc, chân thật, có ích, hợp Pháp và Luật tu, đáng nhớ, có lý do, có chừng mực và lợi ích."
+          ]
+        },
+        {
+          "id": "simplicity",
+          "kind": "teaching",
+          "heading": "Bớt những nhu cầu và ràng buộc",
+          "meaningUnits": [
+            "simple-life",
+            "receiving",
+            "dealings"
+          ],
+          "paragraphs": [
+            "Vị ấy tránh làm hại hạt giống, cây cối; ăn một bữa trong ngày, không ban đêm hoặc ngoài giờ quy định; tránh múa, hát, nhạc và biểu diễn; tránh hoa, hương, trang điểm; tránh giường cao sang.",
+            "Vị ấy không nhận vàng bạc, ngũ cốc chưa nấu, thịt sống; phụ nữ và con gái; đầy tớ nữ và nam; dê, cừu; gà, heo; voi, bò, ngựa, ngựa cái; ruộng đất. Đây là những hình thức tiếp nhận trong xã hội cổ mà người xuất gia từ bỏ.",
+            "Vị ấy không chạy sứ đưa tin, mua bán, gian lận cân, kim loại hay thước đo; không hối lộ, lừa gạt, gian trá, hai mặt; không chặt, giết, trói, cướp bóc, cướp đường hoặc bạo lực."
+          ]
+        },
+        {
+          "id": "enough",
+          "kind": "teaching",
+          "heading": "Biết đủ như chim mang đôi cánh",
+          "meaningUnits": [
+            "contentment"
+          ],
+          "paragraphs": [
+            "Áo đủ che thân, thức ăn đủ nuôi bụng, vị ấy bằng lòng và đi đâu mang chừng ấy. Con chim bay chỉ mang đôi cánh; vị tỳ-kheo biết đủ cũng đi với những vật cần dùng ấy. Giới hạnh cao quý đem lại niềm vui trong lòng không có lỗi."
+          ]
+        },
+        {
+          "id": "guarding",
+          "kind": "teaching",
+          "heading": "Chăm sóc sáu cửa nhận biết",
+          "meaningUnits": [
+            "sense-guard"
+          ],
+          "paragraphs": [
+            "Nếu không giữ mắt, tham và buồn phiền bất thiện có thể tràn vào. Vì vậy, khi mắt thấy hình, vị ấy không bám lấy dáng chung hoặc chi tiết và giữ cửa mắt. Với tai nghe tiếng, mũi ngửi mùi, lưỡi nếm vị, thân xúc chạm và ý nhận biết đối tượng tâm, vị ấy cũng giữ như vậy. Sự hộ trì cao quý ấy đem lại an lạc nội tâm không vẩn đục."
+          ]
+        },
+        {
+          "id": "awareness",
+          "kind": "teaching",
+          "heading": "Biết rõ sinh hoạt của mình",
+          "meaningUnits": [
+            "awareness"
+          ],
+          "paragraphs": [
+            "Vị ấy tỉnh giác khi đi tới, đi lui; nhìn trước, nhìn quanh; co, duỗi; mang áo ngoài, áo và bát; ăn, uống, nhai, nếm; đại tiện, tiểu tiện; đi, đứng, ngồi, ngủ, thức, nói và im lặng. Tỉnh giác là biết rõ việc đang làm trong các sinh hoạt ấy."
+          ]
+        },
+        {
+          "id": "secluded",
+          "kind": "teaching",
+          "heading": "Nơi vắng và việc làm sạch tâm",
+          "meaningUnits": [
+            "seclusion",
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Đủ giới hạnh, biết đủ, hộ trì giác quan và niệm, sự chú tâm, cùng tỉnh giác, vị ấy tìm chỗ vắng: rừng, gốc cây, núi, khe, hang, nghĩa địa, rừng hoang, ngoài trời hoặc đống rơm. Đi khất thực về và ăn xong, vị ấy ngồi xếp chân, thân thẳng, đặt niệm ở trước.",
+            "Vị ấy bỏ tham của đời; bỏ sân hại bằng lòng thương mọi loài; bỏ lờ đờ buồn ngủ với nhận biết ánh sáng, niệm và tỉnh giác; bỏ xao động hối tiếc với lòng lắng lại; bỏ nghi ngờ, phân vân về điều thiện. Năm chướng ngại ấy làm tâm ô nhiễm và trí tuệ yếu đi."
+          ]
+        },
+        {
+          "id": "first-two",
+          "kind": "teaching",
+          "heading": "Từ thiền thứ nhất sang thiền thứ hai",
+          "meaningUnits": [
+            "first-jhana",
+            "second-jhana"
+          ],
+          "paragraphs": [
+            "Xa ham muốn giác quan và các pháp bất thiện, vị ấy vào và ở trong thiền thứ nhất: có tầm, tứ, tức hướng tâm và tiếp tục giữ sự hướng tâm; có hỷ, niềm hân hoan, và lạc, sự an vui, do sự xa lìa ấy. Đó là tinh tấn có quả.",
+            "Tầm và tứ lắng, tâm trong sáng, thống nhất, vị ấy vào thiền thứ hai: không tầm tứ, có hỷ lạc do định, sự vững tụ của tâm. Phật lại gọi đó là tinh tấn có quả."
+          ]
+        },
+        {
+          "id": "third-fourth",
+          "kind": "teaching",
+          "heading": "Bình thản và chú tâm trong sạch",
+          "meaningUnits": [
+            "third-jhana",
+            "fourth-jhana"
+          ],
+          "paragraphs": [
+            "Hỷ lắng xuống, vị ấy sống bình thản, có niệm và tỉnh giác, thân cảm nhận lạc. Các bậc Thánh nói đó là người có xả, có niệm, sống an lạc: vị ấy chứng trú thiền thứ ba. Nỗ lực ấy có quả.",
+            "Buông lạc và khổ, mừng buồn trước đã hết, vị ấy vào thiền thứ tư: không khổ không lạc, xả và niệm thanh tịnh. Nỗ lực ấy cũng có quả. Những tầng thiền được kể như các thành tựu sâu trong con đường tu."
+          ]
+        },
+        {
+          "id": "past-lives",
+          "kind": "teaching",
+          "heading": "Nhớ những đời sống trước",
+          "meaningUnits": [
+            "past-lives"
+          ],
+          "paragraphs": [
+            "Tâm định tĩnh, thanh tịnh, trong sáng, không ô nhiễm, lìa cấu uế, mềm mại, dễ dùng, vững chắc và bất động. Với tâm ấy, vị ấy hướng đến nhớ đời trước: một, hai, ba, bốn, năm, mười, hai mươi, ba mươi, bốn mươi, năm mươi, một trăm, một nghìn, một trăm nghìn đời; nhiều thời thế giới co lại, nở ra, và cả co rồi nở.",
+            "Vị ấy nhớ tên, họ, dung mạo, thức ăn, vui khổ, thọ mạng ở đời ấy; chết nơi đó sinh nơi khác, lại nhớ đầy đủ những mặt ấy, rồi chết ở đó sinh đến đây. Sự nhớ gồm cả đại cương và chi tiết. Đó là tinh tấn có quả."
+          ]
+        },
+        {
+          "id": "passing",
+          "kind": "teaching",
+          "heading": "Biết chúng sinh chết và tái sinh",
+          "meaningUnits": [
+            "rebirth-knowledge"
+          ],
+          "paragraphs": [
+            "Với tâm đủ chín phẩm chất vừa nêu, vị ấy hướng đến biết sự chết đi và tái sinh. Thiên nhãn thanh tịnh vượt mắt thường thấy chúng sinh thấp, cao, đẹp, xấu, đến nơi lành hoặc dữ theo nghiệp.",
+            "Người làm ác bằng thân, lời, ý, phỉ báng bậc Thánh, giữ tà kiến và làm theo cách nhìn sai ấy, sau khi thân hoại, chết, đến cảnh dữ, địa ngục. Người làm thiện bằng thân, lời, ý, không phỉ báng bậc Thánh, có chánh kiến và làm theo cách nhìn đúng, sau khi chết đến cảnh lành, cõi trời. Kinh nhắc lại sự thấy sinh tử theo nghiệp bằng thiên nhãn, rồi xác nhận tinh tấn ấy có quả."
+          ]
+        },
+        {
+          "id": "truths",
+          "kind": "teaching",
+          "heading": "Biết khổ và điều nuôi dưỡng khổ",
+          "meaningUnits": [
+            "truth-knowledge"
+          ],
+          "paragraphs": [
+            "Tâm vẫn định tĩnh, thanh tịnh, trong sáng, không ô nhiễm, lìa cấu uế, mềm, dễ dùng, vững, bất động. Vị ấy hướng đến trí làm hết lậu hoặc, những dòng ô nhiễm khiến khổ tiếp diễn.",
+            "Vị ấy biết như thật khổ, nguồn khổ, sự hết khổ và đường đưa đến hết khổ. Vị ấy cũng biết như thật lậu hoặc, nguồn của chúng, sự hết chúng và con đường đoạn diệt chúng."
+          ]
+        },
+        {
+          "id": "liberated",
+          "kind": "teaching",
+          "heading": "Biết mình đã được giải thoát",
+          "meaningUnits": [
+            "liberation"
+          ],
+          "paragraphs": [
+            "Nhờ biết và thấy như vậy, tâm giải thoát các ô nhiễm do dục, do muốn hiện hữu và do không biết đúng: dục lậu, hữu lậu, vô minh lậu. Vị ấy biết tâm đã giải thoát: sinh đã tận, phạm hạnh đã thành, việc cần làm đã làm, không còn trở lại hiện hữu này. Đây là tinh tấn có quả đến tận mục đích của con đường."
+          ]
+        },
+        {
+          "id": "praise",
+          "kind": "teaching",
+          "heading": "Năm giả định trong lời tán thán",
+          "meaningUnits": [
+            "praise-intro",
+            "praise-past",
+            "praise-creator",
+            "praise-conditions",
+            "praise-birth",
+            "praise-effort"
+          ],
+          "paragraphs": [
+            "Với lời dạy ấy, Phật nói Như Lai có mười cơ sở đáng được tán thán. Nếu lạc khổ do nghiệp quá khứ, Ngài đã làm thiện; nếu do đấng tạo, là một đấng tốt; nếu do duyên hợp, là duyên lành; nếu do loại tái sinh, là loại thiện; nếu do nỗ lực hiện tại, là nỗ lực thiện. Trong mỗi trường hợp, lý do được nhắc là Ngài đang sống với niềm an vui không còn lậu hoặc."
+          ]
+        },
+        {
+          "id": "both-sides",
+          "kind": "teaching",
+          "heading": "Đủ cả hai phía của từng nguyên nhân",
+          "meaningUnits": [
+            "ten-praises",
+            "close"
+          ],
+          "paragraphs": [
+            "Ngài lần lượt xét: có hoặc không do nghiệp cũ; có hoặc không do đấng tạo; có hoặc không do duyên hợp; có hoặc không do loại tái sinh; có hoặc không do nỗ lực hiện tại. Ở mỗi phía, Như Lai vẫn đáng tán thán. Đó là đủ mười cơ sở gắn với lời dạy này. Những giả định ấy không đổi thành sự xác nhận thuyết sáng tạo.",
+            "Phật giảng xong; các tỳ-kheo hoan hỷ và tán đồng lời dạy. Devadaha là bài thứ nhất trong nhóm kinh này của phần cuối Trung Bộ."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ biên tập: một cuộc chuyện trò trong nhà",
+          "meaningUnits": [
+            "effort-equanimity",
+            "letting-go"
+          ],
+          "paragraphs": [
+            "Trong một cuộc bàn việc gia đình, có điều cần nói rõ để tránh hiểu lầm; cũng có điều chỉ là ý muốn người khác phải theo mình. Bình tâm phân biệt hai điều ấy giúp chọn lúc giải thích và lúc buông sự đòi hỏi. Ví dụ này chỉ gợi cách xét nguồn gây khổ trong một việc gần gũi, không thay thế toàn bộ con đường tu trong kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một điều có thể tự hỏi hôm nay",
+          "meaningUnits": [
+            "fruitful-balance",
+            "purpose-recap"
+          ],
+          "paragraphs": [
+            "Gợi ý của người biên tập: sự gắng sức này đang giúp lòng bớt tham, bớt làm hại và sáng rõ hơn ở đâu? Khi cần sửa một việc, có thể kiên nhẫn làm; khi việc ấy đã xong, có thể thôi giữ sự căng sức dành cho nó. Một niềm vui chân chính được đón nhận nhẹ nhàng, không cần tự làm khổ để chứng tỏ mình tu tốt. Gợi ý này là bước tự xét, không phải lời hứa thành tựu giải thoát."
+          ]
+        }
+      ]
+    }
+  }
+}

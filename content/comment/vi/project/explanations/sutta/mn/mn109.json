@@ -1,0 +1,1155 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn109",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn109_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "28f894bf58f16c4dd72b5cb3ae088008c18d062189fef7ca67b4c7f61ba1db9b"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn109_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "1d9fcaea98e638e5c270fd1a19eec9cd50f2092f8e19b831afec5028916dd07a"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn109_translation-vi-project.json",
+      "commit": "ecf34c8858883d2136d36ddc59123c09c043cec9",
+      "sha256": "21f9686fc18b169b0ca1b039ffbd050a5078b0214f22383d2f163e9670929da4"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn109.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "5366cb30bf5bdf1f849694b8f2dbfeea1f71fa383abd2af688f13210b5234b2b"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn109_comment-vi-project.json",
+      "commit": "ecf34c8858883d2136d36ddc59123c09c043cec9",
+      "sha256": "9417c68f68a6d47eac2d6845197fb4dabfdfde179484267f8c4abbe43fd9107d"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Trung Bộ 109, Đại Kinh Đêm Trăng Tròn",
+      "segments": [
+        "mn109:0.1",
+        "mn109:0.2"
+      ],
+      "summary": "Tên tập Trung Bộ 109 và Đại Kinh Đêm Trăng Tròn."
+    },
+    {
+      "id": "setting",
+      "title": "Đông Viên, lâu đài mẹ Migāra",
+      "segments": [
+        "mn109:1.1",
+        "mn109:1.2"
+      ],
+      "summary": "Người kể đã nghe: Phật ở Sāvatthī, Đông Viên, lâu đài của mẹ Migāra."
+    },
+    {
+      "id": "night",
+      "title": "Ngoài trời đêm rằm ngày mười lăm",
+      "segments": [
+        "mn109:2.1"
+      ],
+      "summary": "Ngày Uposatha thứ mười lăm, đêm trăng tròn, Phật ngồi ngoài trời giữa Tăng tỳ-kheo."
+    },
+    {
+      "id": "request",
+      "title": "Xin hỏi rồi ngồi về chỗ mình",
+      "segments": [
+        "mn109:3.1",
+        "mn109:3.2",
+        "mn109:3.3",
+        "mn109:3.4"
+      ],
+      "summary": "Một tỳ-kheo đứng dậy, chỉnh y một vai/chắp tay hướng Phật, xin cơ hội hỏi một điểm để được đáp. Phật bảo ngồi chỗ mình, hỏi tùy ý; vị ấy ngồi rồi hỏi."
+    },
+    {
+      "id": "five",
+      "title": "Xác nhận năm thủ uẩn",
+      "segments": [
+        "mn109:4.1",
+        "mn109:4.2",
+        "mn109:4.3",
+        "mn109:4.4"
+      ],
+      "summary": "Hỏi có phải năm thủ uẩn sắc/thọ/tưởng/hành/thức? Phật xác nhận đủ cả năm."
+    },
+    {
+      "id": "approval",
+      "title": "Hoan hỷ rồi hỏi thêm",
+      "segments": [
+        "mn109:4.5"
+      ],
+      "summary": "Vị ấy nói lành thay, vui/tán đồng lời Phật, hỏi câu tiếp; không thêm lượt tán đồng cho từng câu sau."
+    },
+    {
+      "id": "root",
+      "title": "Năm thủ uẩn lấy dục làm gốc",
+      "segments": [
+        "mn109:5.1",
+        "mn109:5.2"
+      ],
+      "summary": "Hỏi năm thủ uẩn lấy gì làm gốc; Phật đáp lấy chanda, ham muốn, làm gốc."
+    },
+    {
+      "id": "clinging",
+      "title": "Hai phủ định và lòng dục tham",
+      "segments": [
+        "mn109:6.1",
+        "mn109:6.2",
+        "mn109:6.3"
+      ],
+      "summary": "Hỏi chấp thủ chính là năm thủ uẩn hay ở ngoài? Không đồng nhất chính chúng, cũng không ở ngoài; dục tham đối với năm thủ uẩn là chấp thủ tại đó."
+    },
+    {
+      "id": "future",
+      "title": "Năm ước muốn hướng tương lai",
+      "segments": [
+        "mn109:7.1",
+        "mn109:7.2",
+        "mn109:7.3",
+        "mn109:7.4",
+        "mn109:7.5"
+      ],
+      "summary": "Hỏi dục tham có khác nhau không, đáp có thể có. Có người mong tương lai tôi có sắc/thọ/tưởng/hành/thức như vậy; đó là khác biệt dục tham với năm thủ uẩn."
+    },
+    {
+      "id": "scope",
+      "title": "Mười một phương diện cho mỗi uẩn",
+      "segments": [
+        "mn109:8.1",
+        "mn109:8.2",
+        "mn109:8.3",
+        "mn109:8.4",
+        "mn109:8.5",
+        "mn109:8.6",
+        "mn109:8.7"
+      ],
+      "summary": "Hỏi phạm vi gọi uẩn: bất cứ sắc/thọ/tưởng/hành/thức quá khứ-vị lai-hiện tại, trong-ngoài, thô-tế, thấp kém-cao quý, xa-gần đều thuộc uẩn tương ứng. Đủ 11 phạm vi cho mỗi nhóm."
+    },
+    {
+      "id": "causes",
+      "title": "Nhân và duyên để các uẩn biểu hiện",
+      "segments": [
+        "mn109:9.1",
+        "mn109:9.2",
+        "mn109:9.3",
+        "mn109:9.4",
+        "mn109:9.5",
+        "mn109:9.6",
+        "mn109:9.7",
+        "mn109:9.8",
+        "mn109:9.9",
+        "mn109:9.10"
+      ],
+      "summary": "Hỏi riêng nhân/duyên từng uẩn. Bốn đại là nhân và duyên sắc; xúc là nhân và duyên thọ, tưởng, hành mỗi nhóm; danh-sắc là nhân và duyên thức."
+    },
+    {
+      "id": "self-setup",
+      "title": "Người thiếu nghe học và rèn luyện",
+      "segments": [
+        "mn109:10.1",
+        "mn109:10.2"
+      ],
+      "summary": "Hỏi thân kiến sinh thế nào: phàm phu ít học, chưa thấy/chưa thạo/chưa được huấn luyện pháp Thánh; chưa thấy/chưa thạo/chưa được huấn luyện pháp Thiện nhân."
+    },
+    {
+      "id": "self-form",
+      "title": "Bốn thân kiến nơi sắc",
+      "segments": [
+        "mn109:10.3"
+      ],
+      "summary": "Xem sắc là ngã; ngã có sắc; sắc trong ngã; ngã trong sắc."
+    },
+    {
+      "id": "self-feeling",
+      "title": "Bốn thân kiến nơi thọ",
+      "segments": [
+        "mn109:10.4"
+      ],
+      "summary": "Xem thọ là ngã; ngã có thọ; thọ trong ngã; ngã trong thọ."
+    },
+    {
+      "id": "self-perception",
+      "title": "Bốn thân kiến nơi tưởng",
+      "segments": [
+        "mn109:10.5"
+      ],
+      "summary": "Xem tưởng là ngã; ngã có tưởng; tưởng trong ngã; ngã trong tưởng."
+    },
+    {
+      "id": "self-formations",
+      "title": "Bốn thân kiến nơi hành",
+      "segments": [
+        "mn109:10.6"
+      ],
+      "summary": "Xem các hành là ngã; ngã có hành; hành trong ngã; ngã trong hành."
+    },
+    {
+      "id": "self-consciousness",
+      "title": "Bốn thân kiến nơi thức và lời kết",
+      "segments": [
+        "mn109:10.7",
+        "mn109:10.8"
+      ],
+      "summary": "Xem thức là ngã; ngã có thức; thức trong ngã; ngã trong thức. Kết như vậy thân kiến sinh; đủ 20 cách."
+    },
+    {
+      "id": "trained",
+      "title": "Người nghe học và được rèn tốt",
+      "segments": [
+        "mn109:11.1",
+        "mn109:11.2"
+      ],
+      "summary": "Hỏi thân kiến không sinh thế nào: Thánh đệ tử có nghe học, thấy/thạo/được rèn tốt pháp Thánh; thấy/thạo/được rèn tốt pháp Thiện nhân."
+    },
+    {
+      "id": "not-form",
+      "title": "Bốn điều không nhận nơi sắc",
+      "segments": [
+        "mn109:11.3"
+      ],
+      "summary": "Không xem sắc là ngã; không ngã có sắc; không sắc trong ngã; không ngã trong sắc."
+    },
+    {
+      "id": "not-feeling",
+      "title": "Bốn điều không nhận nơi thọ",
+      "segments": [
+        "mn109:11.4"
+      ],
+      "summary": "Không xem thọ là ngã; không ngã có thọ; không thọ trong ngã; không ngã trong thọ."
+    },
+    {
+      "id": "not-perception",
+      "title": "Bốn điều không nhận nơi tưởng",
+      "segments": [
+        "mn109:11.5"
+      ],
+      "summary": "Không xem tưởng là ngã; không ngã có tưởng; không tưởng trong ngã; không ngã trong tưởng."
+    },
+    {
+      "id": "not-formations",
+      "title": "Bốn điều không nhận nơi hành",
+      "segments": [
+        "mn109:11.6"
+      ],
+      "summary": "Không xem hành là ngã; không ngã có hành; không hành trong ngã; không ngã trong hành."
+    },
+    {
+      "id": "not-consciousness",
+      "title": "Bốn điều không nhận nơi thức và lời kết",
+      "segments": [
+        "mn109:11.7",
+        "mn109:11.8"
+      ],
+      "summary": "Không xem thức là ngã; không ngã có thức; không thức trong ngã; không ngã trong thức. Kết thân kiến không sinh, đủ 20 phủ định."
+    },
+    {
+      "id": "three-question",
+      "title": "Hỏi ba mặt nơi từng uẩn",
+      "segments": [
+        "mn109:12.1",
+        "mn109:12.2",
+        "mn109:12.3",
+        "mn109:12.4",
+        "mn109:12.5"
+      ],
+      "summary": "Hỏi vị ngọt/nguy hiểm/xuất ly của sắc, thọ, tưởng, hành, thức mỗi nhóm."
+    },
+    {
+      "id": "form-three",
+      "title": "Ba mặt nơi sắc",
+      "segments": [
+        "mn109:12.6",
+        "mn109:12.7",
+        "mn109:12.8"
+      ],
+      "summary": "Lạc/vui khởi do sắc là vị ngọt; vô thường/khổ/biến đổi là nguy; nhiếp phục và đoạn bỏ dục tham với sắc là xuất ly."
+    },
+    {
+      "id": "others-three",
+      "title": "Cùng ba mặt nơi thọ, tưởng, hành",
+      "segments": [
+        "mn109:12.9",
+        "mn109:12.10",
+        "mn109:12.11"
+      ],
+      "summary": "Công thức lược áp dụng riêng thọ, tưởng, hành: lạc/vui do uẩn là vị ngọt; vô thường/khổ/biến đổi là nguy; nhiếp phục/đoạn dục tham là xuất ly."
+    },
+    {
+      "id": "consciousness-three",
+      "title": "Ba mặt nơi thức",
+      "segments": [
+        "mn109:12.12",
+        "mn109:12.13",
+        "mn109:12.14"
+      ],
+      "summary": "Lạc/vui do thức là vị ngọt; vô thường/khổ/biến đổi là nguy; nhiếp phục/đoạn dục tham với thức là xuất ly."
+    },
+    {
+      "id": "ego-question",
+      "title": "Biết thấy thế nào không còn chấp tôi",
+      "segments": [
+        "mn109:13.1"
+      ],
+      "summary": "Hỏi cách biết/thấy để thân có thức này và mọi tướng ngoài không còn chấp tôi/chấp của tôi/tùy miên mạn."
+    },
+    {
+      "id": "seeing",
+      "title": "Thấy mọi uẩn bằng ba phủ định",
+      "segments": [
+        "mn109:13.2",
+        "mn109:13.3",
+        "mn109:13.4",
+        "mn109:13.5",
+        "mn109:13.6"
+      ],
+      "summary": "Mọi sắc/thọ/tưởng/hành/thức trong đủ 11 phạm vi, thấy đúng thực bằng trí: không phải của tôi; không phải là tôi; không phải tự ngã tôi."
+    },
+    {
+      "id": "absence",
+      "title": "Ba chấp không có trong cả hai phạm vi",
+      "segments": [
+        "mn109:13.7"
+      ],
+      "summary": "Biết/thấy như vậy, đối với thân có thức này và tất cả tướng ngoài, không có chấp tôi/chấp của tôi/tùy miên mạn."
+    },
+    {
+      "id": "thought",
+      "title": "Một suy nghĩ về nghiệp và tự ngã",
+      "segments": [
+        "mn109:14.1",
+        "mn109:14.2",
+        "mn109:14.3"
+      ],
+      "summary": "Một tỳ-kheo thầm nghĩ cả năm uẩn vô ngã, vậy nghiệp do vô ngã làm chạm tự ngã nào? Không khẳng định là người khác hay cùng người hỏi trước."
+    },
+    {
+      "id": "warning",
+      "title": "Phật biết tâm và nêu sự hiểu sai",
+      "segments": [
+        "mn109:14.4",
+        "mn109:14.5",
+        "mn109:14.6",
+        "mn109:14.7"
+      ],
+      "summary": "Phật biết suy nghĩ bằng tâm, gọi các tỳ-kheo: có người rỗng/không biết/vô minh/tâm do ái thống trị nghĩ vượt lời Thầy, nói cả năm vô ngã rồi hỏi nghiệp vô ngã làm chạm tự ngã nào. Giữ lời cảnh báo và câu hỏi là suy nghĩ đang bị xét."
+    },
+    {
+      "id": "reminder",
+      "title": "Đã được dạy bằng cách hỏi lại",
+      "segments": [
+        "mn109:14.8"
+      ],
+      "summary": "Phật nhắc đã huấn luyện các vị bằng hỏi lại về các pháp ở nhiều chỗ; chuyển hỏi toàn Tăng."
+    },
+    {
+      "id": "form-test",
+      "title": "Hỏi thường, khổ và điều có thể nhận nơi sắc",
+      "segments": [
+        "mn109:15.1",
+        "mn109:15.2",
+        "mn109:15.3",
+        "mn109:15.4",
+        "mn109:15.5",
+        "mn109:15.6",
+        "mn109:15.7",
+        "mn109:15.8"
+      ],
+      "summary": "Hỏi sắc thường/vô thường, đáp vô thường. Vô thường khổ/lạc, đáp khổ. Vô thường/khổ/biến đổi có thích hợp xem của tôi/là tôi/tự ngã tôi không, đáp không."
+    },
+    {
+      "id": "others-test",
+      "title": "Cùng ba câu hỏi nơi bốn uẩn còn lại",
+      "segments": [
+        "mn109:16.1",
+        "mn109:16.2",
+        "mn109:16.3",
+        "mn109:16.4",
+        "mn109:16.5",
+        "mn109:16.6",
+        "mn109:16.7",
+        "mn109:16.8",
+        "mn109:16.9",
+        "mn109:16.10",
+        "mn109:16.11"
+      ],
+      "summary": "Thọ/tưởng/hành/thức theo cùng khuôn thường/vô thường–vô thường; khổ/lạc–khổ; vô thường/khổ/biến đổi đáng xem của tôi/là tôi/tự ngã không–không. Giữ cả hỏi và đáp."
+    },
+    {
+      "id": "form-conclusion",
+      "title": "Vì vậy thấy tất cả sắc không phải tôi",
+      "segments": [
+        "mn109:16.12"
+      ],
+      "summary": "Do đó mọi sắc đủ 11 phương diện phải thấy như thật bằng trí: không của tôi/không là tôi/không tự ngã tôi."
+    },
+    {
+      "id": "other-conclusion",
+      "title": "Cũng thấy bốn uẩn kia như vậy",
+      "segments": [
+        "mn109:17.1",
+        "mn109:17.2",
+        "mn109:17.3",
+        "mn109:17.4"
+      ],
+      "summary": "Mọi thọ/tưởng/hành/thức đủ 11 phương diện, phải thấy như thật bằng trí: không của tôi/không là tôi/không tự ngã tôi."
+    },
+    {
+      "id": "disenchantment",
+      "title": "Yểm ly cả năm nhóm",
+      "segments": [
+        "mn109:17.5"
+      ],
+      "summary": "Thánh đệ tử nghe học thấy vậy, yểm ly sắc, thọ, tưởng, hành, thức; không đổi thành ghét thân hoặc trầm cảm."
+    },
+    {
+      "id": "freedom",
+      "title": "Ly tham, giải thoát và biết đã xong",
+      "segments": [
+        "mn109:18.1",
+        "mn109:18.2"
+      ],
+      "summary": "Yểm ly rồi ly tham, ly tham rồi giải thoát, biết đã giải thoát. Tái sinh tận/phạm hạnh hoàn thành/việc cần làm xong/không trở lại hiện hữu này."
+    },
+    {
+      "id": "response",
+      "title": "Hội chúng hoan hỷ",
+      "segments": [
+        "mn109:18.3",
+        "mn109:18.4"
+      ],
+      "summary": "Phật đã nói vậy, các tỳ-kheo vui và tán đồng lời Ngài."
+    },
+    {
+      "id": "result",
+      "title": "Khoảng sáu mươi tâm được giải thoát",
+      "segments": [
+        "mn109:18.5"
+      ],
+      "summary": "Trong khi lời giải đang nói, tâm khoảng 60 tỳ-kheo thoát lậu hoặc do không chấp thủ. Giữ saṭṭhimattānaṁ là khoảng, không mọi vị hoặc chỉ sau bài."
+    },
+    {
+      "id": "ending",
+      "title": "Bài thứ chín trong nhóm",
+      "segments": [
+        "mn109:18.6"
+      ],
+      "summary": "Đại Kinh Đêm Trăng Tròn kết thúc, bài thứ chín trong nhóm kinh này."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "MN109 — Một cảm giác có phải là cả con người em?",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Những câu hỏi dưới trăng tròn",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "night",
+            "request"
+          ],
+          "paragraphs": [
+            "Đại Kinh Đêm Trăng Tròn là bài 109 của Trung Bộ. Người truyền kinh kể điều đã nghe: Đức Phật ở Đông Viên, trong lâu đài của mẹ Migāra, tại Sāvatthī. Vào ngày Uposatha, ngày sinh hoạt tu học, nhằm ngày mười lăm, trong đêm rằm trăng tròn, Ngài ngồi ngoài trời giữa Tăng chúng tỳ-kheo, những người nam xuất gia.",
+            "Một vị đứng dậy từ chỗ mình, chỉnh y một bên vai, chắp tay hướng về Phật. Vị ấy xin cơ hội hỏi một điều để được giải đáp. Phật bảo hãy ngồi về chỗ mình rồi hỏi điều muốn hỏi. Vị ấy ngồi xuống và bắt đầu."
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Năm nhóm thường bị ta nắm giữ",
+          "meaningUnits": [
+            "five",
+            "approval",
+            "root"
+          ],
+          "paragraphs": [
+            "Vị tỳ-kheo hỏi có phải năm thủ uẩn là sắc, thọ, tưởng, hành và thức không. Phật xác nhận đúng cả năm. “Uẩn” là nhóm; “thủ” là sự chấp giữ. Sắc là thân và phần vật chất; thọ là cảm giác dễ chịu, khó chịu hoặc trung tính; tưởng là sự nhận ra; hành là các ý muốn, tạo tác trong tâm; thức là sự nhận biết khi thấy, nghe và nhận biết những điều khác.",
+            "Vị ấy nói “Lành thay”, vui mừng và tán đồng, rồi hỏi thêm: năm thủ uẩn lấy gì làm gốc? Phật đáp: lấy dục, sự ham muốn, làm gốc."
+          ]
+        },
+        {
+          "id": "holding",
+          "kind": "teaching",
+          "heading": "Nắm giữ nằm ở lòng ham muốn",
+          "meaningUnits": [
+            "clinging",
+            "future"
+          ],
+          "paragraphs": [
+            "Chấp thủ có phải chính là năm nhóm ấy, hay là một thứ riêng bên ngoài chúng? Phật giữ rõ cả hai ý: không phải chính năm thủ uẩn là chấp thủ; chấp thủ cũng không ở ngoài năm thủ uẩn. Lòng ham muốn, tham luyến đối với chúng chính là chấp thủ ở đó.",
+            "Sự ham muốn ấy có khác nhau không? Có thể có. Người ta mong: trong tương lai, mình có sắc như thế, có thọ như thế, có tưởng như thế, có hành như thế, có thức như thế. Năm lời mong về tương lai cho thấy những chỗ khác nhau của lòng ham muốn."
+          ]
+        },
+        {
+          "id": "range",
+          "kind": "teaching",
+          "heading": "Một nhóm gồm cả những gì xa và gần",
+          "meaningUnits": [
+            "scope"
+          ],
+          "paragraphs": [
+            "Vị ấy hỏi khi nào gọi là “uẩn”. Phật nói đến bất cứ sắc nào: quá khứ, tương lai hay hiện tại; bên trong hay bên ngoài; thô hay tinh tế; thấp kém hay cao quý; xa hay gần. Tất cả thuộc sắc uẩn.",
+            "Cũng với đầy đủ mười một phương diện ấy, mọi thọ thuộc thọ uẩn; mọi tưởng thuộc tưởng uẩn; mọi hành thuộc hành uẩn; mọi thức thuộc thức uẩn. Năm nhóm không chỉ gồm những gì đang xảy ra gần mình lúc này."
+          ]
+        },
+        {
+          "id": "conditions",
+          "kind": "teaching",
+          "heading": "Mỗi nhóm có những điều kiện",
+          "meaningUnits": [
+            "causes"
+          ],
+          "paragraphs": [
+            "Hỏi nhân và duyên, những điều kiện giúp từng nhóm biểu hiện, vị tỳ-kheo được nghe: bốn đại là nhân, là duyên của sắc. Bốn đại thường được gọi đất, nước, lửa, gió, nói về các tính chất vật chất.",
+            "Xúc, sự tiếp xúc trong nhận biết, là nhân và duyên của thọ; cũng là nhân và duyên của tưởng; cũng là nhân và duyên của hành. Danh-sắc, mặt tâm lý và vật chất của trải nghiệm, là nhân và duyên của thức."
+          ]
+        },
+        {
+          "id": "self",
+          "kind": "teaching",
+          "heading": "Khi ta dựng lên một cái tôi",
+          "meaningUnits": [
+            "self-setup",
+            "self-form",
+            "self-feeling"
+          ],
+          "paragraphs": [
+            "Thân kiến sinh ra thế nào? Đó là cách chấp một tự ngã, một cái “tôi” làm bản chất của mình, qua năm nhóm. Phật nói đến người ít nghe học: chưa gặp bậc Thánh, chưa hiểu thạo và chưa được rèn trong lời dạy của các vị; cũng chưa gặp người chân chính, chưa hiểu thạo và chưa được rèn trong lời dạy của họ.",
+            "Với sắc, người ấy có thể nghĩ sắc chính là tôi; cái tôi có sắc; sắc nằm trong cái tôi; hoặc cái tôi nằm trong sắc. Với thọ, cũng có bốn cách: thọ là tôi; tôi có thọ; thọ trong tôi; tôi trong thọ."
+          ]
+        },
+        {
+          "id": "more-self",
+          "kind": "teaching",
+          "heading": "Cùng bốn cách nắm giữ ở ba nhóm nữa",
+          "meaningUnits": [
+            "self-perception",
+            "self-formations",
+            "self-consciousness"
+          ],
+          "paragraphs": [
+            "Với tưởng: tưởng là tôi, tôi có tưởng, tưởng trong tôi, tôi trong tưởng. Với hành: các hành là tôi, tôi có hành, hành trong tôi, tôi trong hành. Với thức: thức là tôi, tôi có thức, thức trong tôi, tôi trong thức.",
+            "Đó là hai mươi cách chấp tự ngã: năm nhóm, mỗi nhóm bốn cách. Phật gọi như vậy là thân kiến sinh khởi."
+          ]
+        },
+        {
+          "id": "learning",
+          "kind": "teaching",
+          "heading": "Học để không nắm giữ như thế",
+          "meaningUnits": [
+            "trained",
+            "not-form",
+            "not-feeling"
+          ],
+          "paragraphs": [
+            "Vậy thân kiến không sinh ra thế nào? Người đệ tử của bậc Thánh, có nghe học, đã gặp bậc Thánh, hiểu thạo và được rèn tốt trong lời dạy của các vị; đã gặp người chân chính, hiểu thạo và được rèn tốt trong lời dạy của họ.",
+            "Người ấy không xem sắc là tôi, không xem tôi có sắc, sắc trong tôi hay tôi trong sắc. Với thọ cũng vậy: không xem thọ là tôi; không xem tôi có thọ; không xem thọ trong tôi; không xem tôi trong thọ."
+          ]
+        },
+        {
+          "id": "not-self",
+          "kind": "teaching",
+          "heading": "Không lấy các hoạt động tâm làm bản ngã",
+          "meaningUnits": [
+            "not-perception",
+            "not-formations",
+            "not-consciousness"
+          ],
+          "paragraphs": [
+            "Với tưởng, người ấy không xem tưởng là tôi, tôi có tưởng, tưởng trong tôi hay tôi trong tưởng. Với hành, không xem hành là tôi, tôi có hành, hành trong tôi hay tôi trong hành. Với thức, không xem thức là tôi, tôi có thức, thức trong tôi hay tôi trong thức.",
+            "Cả hai mươi cách chấp ấy không được nhận lấy. Phật gọi như vậy là thân kiến không sinh khởi."
+          ]
+        },
+        {
+          "id": "three",
+          "kind": "teaching",
+          "heading": "Có điều hấp dẫn, có điều không bền",
+          "meaningUnits": [
+            "three-question",
+            "form-three",
+            "others-three",
+            "consciousness-three"
+          ],
+          "paragraphs": [
+            "Vị tỳ-kheo hỏi riêng về sắc, thọ, tưởng, hành và thức: điều gì hấp dẫn, điều gì nguy hiểm, đâu là lối ra? Phật gọi niềm vui và sự dễ chịu sinh nhờ sắc là “vị ngọt” của sắc. Sắc vô thường, không ở mãi như cũ; là khổ, không làm chỗ dựa bền chắc; phải biến đổi. Đó là sự nguy hiểm. Làm chủ và dứt bỏ ham muốn, tham luyến đối với sắc là lối ra.",
+            "Thọ, tưởng và hành, từng nhóm đều theo đủ ba mặt ấy: niềm vui, sự dễ chịu nhờ nó là vị ngọt; vô thường, khổ, biến đổi là nguy hiểm; điều phục và bỏ ham muốn, tham luyến là lối ra. Với thức cũng đủ cả ba: vui và dễ chịu do thức; tính vô thường, khổ, biến đổi; rồi việc điều phục, đoạn bỏ dục tham đối với thức."
+          ]
+        },
+        {
+          "id": "seeing",
+          "kind": "teaching",
+          "heading": "Ba câu để thấy mà không nhận làm tôi",
+          "meaningUnits": [
+            "ego-question",
+            "seeing",
+            "absence"
+          ],
+          "paragraphs": [
+            "Biết và thấy thế nào để đối với thân có thức này cùng mọi tướng, những dấu hiệu bên ngoài, không còn dựng “tôi”, “của tôi”, và mạn tùy miên, khuynh hướng chấp cái tôi nằm ngầm?",
+            "Phật dạy thấy đúng thực bằng trí tuệ. Với mọi sắc, thọ, tưởng, hành và thức, trong đầy đủ các phạm vi quá khứ, tương lai, hiện tại; trong, ngoài; thô, tinh tế; thấp kém, cao quý; xa, gần, đều thấy ba điều: “Cái này không phải của tôi. Cái này không phải là tôi. Cái này không phải tự ngã của tôi.”",
+            "Biết và thấy như vậy thì đối với thân có thức và tất cả dấu hiệu bên ngoài, ba kiểu chấp tôi, chấp của tôi và chấp ngầm ấy không còn."
+          ]
+        },
+        {
+          "id": "question",
+          "kind": "teaching",
+          "heading": "Một suy nghĩ cần được xem lại",
+          "meaningUnits": [
+            "thought",
+            "warning",
+            "reminder"
+          ],
+          "paragraphs": [
+            "Bấy giờ, một tỳ-kheo thầm nghĩ: sắc, thọ, tưởng, hành, thức đều vô ngã, không phải một tự ngã; vậy những nghiệp, những hành động, do vô ngã làm sẽ chạm tới tự ngã nào?",
+            "Phật biết suy nghĩ ấy bằng tâm và nói với các tỳ-kheo. Ngài nhắc có trường hợp người rỗng tuếch, chưa hiểu, còn mê lầm, tâm bị khát ái, sự khao khát, chi phối, lại tưởng mình có thể vượt lời Thầy. Người ấy nói cả năm nhóm vô ngã rồi hỏi hành động do vô ngã làm chạm tự ngã nào. Phật đưa hội chúng trở lại cách hỏi để hiểu những điều đang xét, như Ngài đã hướng dẫn ở nhiều chỗ."
+          ]
+        },
+        {
+          "id": "checking",
+          "kind": "teaching",
+          "heading": "Có thể giữ cái luôn thay đổi làm mình không?",
+          "meaningUnits": [
+            "form-test",
+            "others-test"
+          ],
+          "paragraphs": [
+            "Ngài hỏi sắc là thường hay vô thường. Các vị đáp vô thường. Điều vô thường là khổ hay lạc, sự dễ chịu? Các vị đáp khổ. Điều vô thường, khổ, phải đổi khác có đáng xem là “của tôi, là tôi, tự ngã của tôi” không? Các vị đáp không.",
+            "Với thọ, tưởng, hành và thức, Ngài đặt lại cùng ba bước ấy. Mỗi nhóm đều được nhận là vô thường; điều vô thường là khổ; điều vô thường, khổ, phải đổi khác không thích hợp để chấp là của tôi, là tôi, tự ngã của tôi. Cả hỏi và đáp đưa người nghe nhìn lại năm nhóm."
+          ]
+        },
+        {
+          "id": "release",
+          "kind": "teaching",
+          "heading": "Thấy rõ rồi lòng tham phai đi",
+          "meaningUnits": [
+            "form-conclusion",
+            "other-conclusion",
+            "disenchantment",
+            "freedom"
+          ],
+          "paragraphs": [
+            "Vì vậy, mọi sắc trong quá khứ, tương lai, hiện tại; trong hay ngoài; thô hay tinh tế; thấp kém hay cao quý; xa hay gần, đều cần được thấy bằng trí tuệ đúng thực: không phải của tôi, không phải là tôi, không phải tự ngã của tôi. Với mọi thọ, tưởng, hành, thức trong đủ mười một phạm vi ấy cũng vậy.",
+            "Thấy rõ, người đệ tử của bậc Thánh, có nghe học, yểm ly cả sắc, thọ, tưởng, hành, thức: không còn say mê, bám chặt vào chúng. Từ yểm ly, lòng tham phai đi; từ ly tham, tâm giải thoát. Khi giải thoát, vị ấy biết đã giải thoát: tái sinh chấm dứt, đời tu trong sạch đã hoàn thành, việc cần làm đã làm, không còn trở lại hiện hữu này."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Kết quả ngay trong buổi nghe",
+          "meaningUnits": [
+            "response",
+            "result",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật nói như vậy, các tỳ-kheo vui mừng và tán đồng. Trong khi lời giảng đang được nói, tâm của khoảng sáu mươi vị thoát khỏi lậu hoặc, các dòng ô nhiễm giữ tâm trong sinh tử, do không chấp thủ. Đại Kinh Đêm Trăng Tròn kết thúc, là bài thứ chín trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: sau một lần thua cuộc",
+          "meaningUnits": [
+            "five",
+            "clinging",
+            "scope"
+          ],
+          "paragraphs": [
+            "Sau khi thua một trò chơi, em thấy khó chịu, nhớ rõ lời một bạn nói, rồi muốn bỏ chơi luôn. Một ý nghĩ xuất hiện: “Mình lúc nào cũng tệ.” Em có thể nhận ra cảm giác, sự nhận biết và ý muốn đang thay đổi, cùng hoàn cảnh đã khiến chúng xuất hiện. Một lần khó chịu không cần được giữ thành lời phán quyết về cả con người em."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Nhìn một điều đang đổi khác",
+          "meaningUnits": [
+            "root",
+            "causes",
+            "three-question",
+            "seeing"
+          ],
+          "paragraphs": [
+            "Hôm nay, thử chọn một niềm vui hoặc một điều khó chịu vừa xảy ra. Em nhận ra nó bắt đầu khi nào, thay đổi ra sao, và mình đang muốn giữ hay đẩy nó đi thế nào. Nếu cần, em kể với người lớn để được giúp hiểu. Đây là bước quan sát nhỏ; bài kinh còn dẫn đến việc đoạn chấp thủ và giải thoát khỏi sinh tử."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "MN109 — Từ nhận diện năm uẩn đến buông chấp ngã",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một buổi vấn đáp ngoài trời",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "night",
+            "request"
+          ],
+          "paragraphs": [
+            "Đại Kinh Đêm Trăng Tròn, Trung Bộ 109, mở bằng điều người truyền kinh đã nghe. Phật trú tại Sāvatthī, Đông Viên, trong lâu đài của mẹ Migāra. Ngày Uposatha, ngày sinh hoạt tu học, nhằm ngày mười lăm, trong đêm rằm trăng tròn, Ngài ngồi ngoài trời giữa Tăng chúng tỳ-kheo, những người nam xuất gia.",
+            "Một vị từ chỗ ngồi đứng dậy, chỉnh y một vai, chắp tay về Phật và xin cơ hội hỏi một điểm để được giải đáp. Phật mời vị ấy ngồi lại chỗ mình rồi hỏi tùy ý. Vị ấy làm như vậy."
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Nhận diện điều đang bị chấp giữ",
+          "meaningUnits": [
+            "five",
+            "approval",
+            "root",
+            "clinging"
+          ],
+          "paragraphs": [
+            "Câu hỏi đầu xác nhận năm thủ uẩn: sắc, thọ, tưởng, hành, thức. Phật xác nhận đủ cả năm. Uẩn là nhóm; thủ là chấp giữ. Sắc chỉ thân và vật chất; thọ là cảm giác dễ chịu, khó chịu, trung tính; tưởng là nhận diện; hành là các tác ý, tạo tác trong tâm; thức là nhận biết qua các hoạt động thấy, nghe và những nhận biết khác.",
+            "Vị ấy nói lành thay, hoan hỷ và tán đồng, rồi hỏi gốc của năm thủ uẩn. Phật đáp là dục, sự ham muốn. Chấp thủ có đồng nhất với năm thủ uẩn hay ở ngoài chúng không? Cả hai đều không. Chính ham muốn và tham luyến đối với năm thủ uẩn là sự chấp thủ ở đó."
+          ]
+        },
+        {
+          "id": "future",
+          "kind": "teaching",
+          "heading": "Ham muốn có đối tượng và hướng tương lai",
+          "meaningUnits": [
+            "future",
+            "scope"
+          ],
+          "paragraphs": [
+            "Dục tham với năm thủ uẩn có khác nhau không? Phật đáp có thể có: người ta mong trong tương lai mình có sắc như vậy, thọ như vậy, tưởng như vậy, hành như vậy, thức như vậy. Mỗi nhóm có thể trở thành chỗ đặt một ước vọng về mình.",
+            "Hỏi phạm vi của chữ uẩn, vị ấy được nghe: bất cứ sắc nào thuộc quá khứ, tương lai, hiện tại; trong, ngoài; thô, tế; thấp kém, cao quý; xa, gần đều là sắc uẩn. Tương tự, mọi thọ, tưởng, hành, thức trong đầy đủ mười một phương diện ấy thuộc uẩn tương ứng. Phạm vi ấy gồm cả trong và ngoài, cả điều đã qua lẫn điều chưa tới."
+          ]
+        },
+        {
+          "id": "conditions",
+          "kind": "teaching",
+          "heading": "Nhân duyên của từng nhóm",
+          "meaningUnits": [
+            "causes"
+          ],
+          "paragraphs": [
+            "Nhân nào, duyên nào để từng uẩn biểu hiện? Phật trả lời riêng từng nhóm. Bốn đại, thường gọi đất, nước, lửa, gió, là nhân và duyên của sắc. Xúc, sự tiếp xúc trong nhận biết, là nhân và duyên của thọ; của tưởng; của hành. Danh-sắc, mặt tâm lý và vật chất của trải nghiệm, là nhân và duyên của thức."
+          ]
+        },
+        {
+          "id": "identity",
+          "kind": "teaching",
+          "heading": "Hai mươi cách nhận một tự ngã",
+          "meaningUnits": [
+            "self-setup",
+            "self-form",
+            "self-feeling",
+            "self-perception",
+            "self-formations",
+            "self-consciousness"
+          ],
+          "paragraphs": [
+            "Thân kiến sinh khởi thế nào? Ở đây là cái nhìn chấp tự ngã, cái tôi được nhận làm bản chất của mình, qua cả năm uẩn. Người ít nghe học chưa thấy bậc Thánh, chưa thạo và chưa được rèn trong pháp của các vị; cũng chưa thấy người chân chính, chưa thạo và chưa được rèn trong pháp của họ.",
+            "Người ấy xem sắc là ngã, ngã có sắc, sắc trong ngã hoặc ngã trong sắc. Với thọ: thọ là ngã, ngã có thọ, thọ trong ngã, ngã trong thọ. Với tưởng: tưởng là ngã, ngã có tưởng, tưởng trong ngã, ngã trong tưởng.",
+            "Với hành: các hành là ngã, ngã có hành, hành trong ngã, ngã trong hành. Với thức: thức là ngã, ngã có thức, thức trong ngã, ngã trong thức. Năm nhóm, mỗi nhóm bốn quan hệ, tạo thành hai mươi cách thân kiến được nêu."
+          ]
+        },
+        {
+          "id": "trained",
+          "kind": "teaching",
+          "heading": "Hai mươi cách chấp không được nhận lấy",
+          "meaningUnits": [
+            "trained",
+            "not-form",
+            "not-feeling",
+            "not-perception",
+            "not-formations",
+            "not-consciousness"
+          ],
+          "paragraphs": [
+            "Thân kiến không sinh thế nào? Vị Thánh đệ tử có nghe học đã thấy bậc Thánh, hiểu thạo và được rèn tốt trong pháp của các vị; cũng đã thấy người chân chính, hiểu thạo và được rèn tốt trong pháp của họ.",
+            "Vị ấy không xem sắc là ngã, ngã có sắc, sắc trong ngã hay ngã trong sắc. Không xem thọ là ngã, ngã có thọ, thọ trong ngã hay ngã trong thọ. Không xem tưởng là ngã, ngã có tưởng, tưởng trong ngã hay ngã trong tưởng.",
+            "Với hành, không xem hành là ngã, ngã có hành, hành trong ngã hay ngã trong hành. Với thức, không xem thức là ngã, ngã có thức, thức trong ngã hay ngã trong thức. Đó là thân kiến không sinh: đủ hai mươi quan hệ đều không được chấp nhận."
+          ]
+        },
+        {
+          "id": "three-aspects",
+          "kind": "teaching",
+          "heading": "Thấy đủ vị ngọt, nguy hiểm và lối ra",
+          "meaningUnits": [
+            "three-question",
+            "form-three",
+            "others-three",
+            "consciousness-three"
+          ],
+          "paragraphs": [
+            "Vị tỳ-kheo hỏi ba mặt ấy với từng uẩn. Niềm vui và lạc, sự dễ chịu, khởi nhờ sắc là vị ngọt của sắc. Tính vô thường, khổ và phải biến đổi là nguy hiểm. Nhiếp phục và đoạn bỏ ham muốn, tham luyến đối với sắc là xuất ly, lối thoát khỏi sự trói buộc ấy.",
+            "Với thọ, với tưởng, với hành, mỗi nhóm cũng đầy đủ ba mặt: lạc và vui sinh nhờ nó; vô thường, khổ, biến đổi; điều phục và đoạn bỏ dục tham với nó. Với thức, Phật nhắc rõ cùng ba điều: lạc, vui do thức là vị ngọt; vô thường, khổ, biến đổi là nguy; nhiếp phục, đoạn bỏ dục tham nơi thức là lối ra."
+          ]
+        },
+        {
+          "id": "seeing",
+          "kind": "teaching",
+          "heading": "Không dựng tôi và của tôi trên trải nghiệm",
+          "meaningUnits": [
+            "ego-question",
+            "seeing",
+            "absence"
+          ],
+          "paragraphs": [
+            "Làm sao biết và thấy để ở thân có thức này cùng tất cả các tướng, những dấu hiệu bên ngoài, không có chấp tôi, chấp của tôi và mạn tùy miên, khuynh hướng chấp cái tôi nằm ngầm?",
+            "Phật dạy thấy đúng thực bằng trí tuệ: mọi sắc, thọ, tưởng, hành, thức trong đủ mười một phương diện quá khứ, tương lai, hiện tại; trong, ngoài; thô, tế; thấp kém, cao quý; xa, gần đều được thấy là “không phải của tôi, không phải là tôi, không phải tự ngã của tôi”. Biết và thấy như vậy thì ba sự chấp ấy không có đối với thân có thức và mọi dấu hiệu bên ngoài."
+          ]
+        },
+        {
+          "id": "doubt",
+          "kind": "teaching",
+          "heading": "Một suy luận vẫn tìm nơi đặt tự ngã",
+          "meaningUnits": [
+            "thought",
+            "warning",
+            "reminder"
+          ],
+          "paragraphs": [
+            "Một tỳ-kheo thầm nghĩ: sắc, thọ, tưởng, hành, thức đều vô ngã; vậy nghiệp, hành động, do vô ngã làm sẽ chạm đến tự ngã nào? Câu hỏi vẫn đặt một tự ngã vào nơi nghiệp sẽ chạm đến.",
+            "Phật biết suy nghĩ ấy bằng tâm, gọi các tỳ-kheo và cảnh báo: có trường hợp người rỗng tuếch, không hiểu, chìm trong vô minh, tâm bị khát ái, sự khao khát, chi phối, tưởng có thể vượt lời Thầy bằng suy luận này. Ngài nhắc lại đủ năm uẩn vô ngã và câu hỏi hành động sẽ chạm tự ngã nào, rồi nhắc các vị đã được Ngài hướng dẫn bằng hỏi lại về những pháp này ở nhiều chỗ."
+          ]
+        },
+        {
+          "id": "questioning",
+          "kind": "teaching",
+          "heading": "Trở lại tính chất của chính các uẩn",
+          "meaningUnits": [
+            "form-test",
+            "others-test"
+          ],
+          "paragraphs": [
+            "Phật hỏi hội chúng: sắc thường hay vô thường? Vô thường. Điều vô thường là khổ hay lạc? Khổ. Điều vô thường, khổ, chịu biến đổi có thích hợp để xem “của tôi, là tôi, tự ngã của tôi” không? Không.",
+            "Cùng ba câu hỏi được áp dụng với thọ, tưởng, hành và thức. Mỗi uẩn đều vô thường; điều vô thường là khổ; điều vô thường, khổ, phải đổi khác không đáng chấp là của tôi, là tôi hay tự ngã tôi. Các lời đáp đưa việc hiểu vô ngã về sự thấy rõ tính chất của năm uẩn."
+          ]
+        },
+        {
+          "id": "release",
+          "kind": "teaching",
+          "heading": "Từ trí tuệ như thật đến giải thoát",
+          "meaningUnits": [
+            "form-conclusion",
+            "other-conclusion",
+            "disenchantment",
+            "freedom"
+          ],
+          "paragraphs": [
+            "Vì vậy, tất cả sắc thuộc quá khứ, tương lai, hiện tại; trong, ngoài; thô, tế; thấp kém, cao quý; xa, gần cần được thấy bằng trí tuệ như thật: không phải của tôi, không phải là tôi, không phải tự ngã của tôi. Mọi thọ, tưởng, hành, thức trong cùng đủ mười một phạm vi cũng được thấy như vậy.",
+            "Vị Thánh đệ tử có nghe học thấy vậy thì yểm ly cả năm: sắc, thọ, tưởng, hành, thức. Yểm ly là không còn mê đắm, từ đó tham luyến phai đi; do ly tham mà giải thoát. Đã giải thoát, vị ấy biết mình giải thoát: tái sinh chấm dứt, đời phạm hạnh, đời tu trong sạch, hoàn thành; việc cần làm đã làm; không còn trở lại hiện hữu này."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Những người nghe được giải thoát",
+          "meaningUnits": [
+            "response",
+            "result",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật dạy như vậy, các tỳ-kheo hoan hỷ và tán đồng. Trong khi lời giải đang được nói, tâm khoảng sáu mươi vị được giải thoát khỏi lậu hoặc, các dòng ô nhiễm giữ tâm trong sinh tử, do không chấp thủ. Đại Kinh Đêm Trăng Tròn kết thúc, là bài thứ chín trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: khi một nhận xét chạm vào bản thân",
+          "meaningUnits": [
+            "clinging",
+            "future",
+            "ego-question"
+          ],
+          "paragraphs": [
+            "Một nhận xét về công việc khiến ta khó chịu. Ta không chỉ muốn sửa việc mà còn muốn bảo vệ hình ảnh “tôi luôn có năng lực”. Có thể quan sát riêng cảm giác khó chịu, sự nhận diện lời chê và ý muốn phản ứng. Thấy từng mặt có điều kiện giúp ta đáp lại việc đang xảy ra rõ hơn. Đây là ví dụ hiện đại soi một phần của sự nhận giữ tôi và của tôi."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Quan sát cả hấp dẫn lẫn sự đổi khác",
+          "meaningUnits": [
+            "causes",
+            "three-question",
+            "seeing",
+            "freedom"
+          ],
+          "paragraphs": [
+            "Chọn một trải nghiệm dễ chịu hoặc khó chịu gần đây. Nhận ra điều kiện nào có mặt, niềm vui nào khiến mình muốn giữ, sự thay đổi nào mình không muốn chấp nhận. Khi quan sát, vẫn chăm sóc thân và hành xử có trách nhiệm với người khác. Bài kinh hướng việc thấy rõ tới giảm và đoạn chấp thủ, tiếp tục tu tập đến giải thoát."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "MN109 — Nhìn sâu điều ta gọi là tôi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Đêm trăng tròn ở Đông Viên",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "night",
+            "request"
+          ],
+          "paragraphs": [
+            "Đại Kinh Đêm Trăng Tròn là bài 109 trong Trung Bộ. Người truyền kinh thuật điều đã nghe: Phật trú ở Sāvatthī, tại Đông Viên, trong lâu đài của mẹ Migāra. Đến ngày Uposatha, ngày sinh hoạt tu học, nhằm ngày mười lăm, trong đêm rằm trăng tròn, Ngài ngồi ngoài trời giữa chúng tỳ-kheo, những người nam xuất gia.",
+            "Một vị đứng lên từ chỗ mình, chỉnh y một vai, chắp tay hướng Phật, xin được hỏi một điều nếu Ngài cho cơ hội giải đáp. Phật bảo vị ấy ngồi về chỗ mình rồi hỏi như ý muốn. Vị ấy ngồi xuống và thưa hỏi."
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Năm nhóm được nhận diện",
+          "meaningUnits": [
+            "five",
+            "approval",
+            "root"
+          ],
+          "paragraphs": [
+            "Có phải năm thủ uẩn là sắc, thọ, tưởng, hành và thức? Phật xác nhận đủ cả năm. Uẩn là nhóm; thủ là chấp giữ. Sắc là thân và phần vật chất; thọ là cảm giác dễ chịu, khó chịu hay trung tính; tưởng là sự nhận ra; hành là các tác ý, tạo tác của tâm; thức là sự nhận biết khi thấy, nghe và nhận biết những điều khác.",
+            "Vị tỳ-kheo nói lành thay, hoan hỷ và tán đồng, rồi hỏi năm thủ uẩn lấy gì làm gốc. Phật đáp: lấy dục, sự ham muốn, làm gốc."
+          ]
+        },
+        {
+          "id": "grasping",
+          "kind": "teaching",
+          "heading": "Chấp giữ nơi đâu?",
+          "meaningUnits": [
+            "clinging",
+            "future"
+          ],
+          "paragraphs": [
+            "Vị ấy hỏi chấp thủ có phải chính năm thủ uẩn hay là một điều ở ngoài chúng. Phật đáp cả hai đều không: chấp thủ không chính là năm thủ uẩn, cũng không ở ngoài năm thủ uẩn. Ham muốn và tham luyến đối với chúng là sự chấp thủ tại đó.",
+            "Lòng dục tham có khác nhau không? Có thể có. Phật kể người mong trong tương lai mình có sắc như thế, thọ như thế, tưởng như thế, hành như thế, thức như thế. Năm nhóm là những chỗ người ấy đặt ước muốn về mình trong tương lai."
+          ]
+        },
+        {
+          "id": "scope",
+          "kind": "teaching",
+          "heading": "Phạm vi rộng của mỗi uẩn",
+          "meaningUnits": [
+            "scope"
+          ],
+          "paragraphs": [
+            "Khi hỏi đến ý nghĩa chữ uẩn, vị ấy được nghe: mọi sắc, dù quá khứ, tương lai hay hiện tại; trong hay ngoài; thô hay tinh tế; thấp kém hay cao quý; xa hay gần, đều thuộc sắc uẩn.",
+            "Mọi thọ trong đầy đủ mười một phương diện ấy là thọ uẩn; mọi tưởng là tưởng uẩn; mọi hành là hành uẩn; mọi thức là thức uẩn. Không nhóm nào trong năm bị giới hạn chỉ ở điều đang hiện trước mắt."
+          ]
+        },
+        {
+          "id": "conditions",
+          "kind": "teaching",
+          "heading": "Có nhân, có duyên mới biểu hiện",
+          "meaningUnits": [
+            "causes"
+          ],
+          "paragraphs": [
+            "Vị ấy hỏi nhân và duyên của từng nhóm. Phật nói bốn đại, thường gọi đất, nước, lửa, gió, là nhân và duyên để sắc biểu hiện. Xúc, sự tiếp xúc trong nhận biết, là nhân và duyên của thọ; là nhân và duyên của tưởng; là nhân và duyên của hành.",
+            "Danh-sắc, mặt tâm lý cùng phần vật chất của trải nghiệm, là nhân và duyên để thức biểu hiện. Mỗi nhóm được hỏi và được chỉ rõ điều kiện của mình."
+          ]
+        },
+        {
+          "id": "self-first",
+          "kind": "teaching",
+          "heading": "Bốn cách chấp nơi sắc và thọ",
+          "meaningUnits": [
+            "self-setup",
+            "self-form",
+            "self-feeling"
+          ],
+          "paragraphs": [
+            "Thân kiến sinh khởi ra sao? Thân kiến ở đây là cái nhìn chấp tự ngã, cái tôi được nhận làm bản chất của mình, qua cả năm nhóm. Người ít nghe học chưa thấy bậc Thánh, chưa thạo và chưa được rèn trong pháp của các vị; cũng chưa thấy người chân chính, chưa thạo và chưa được rèn trong pháp của họ.",
+            "Người ấy xem sắc là ngã, ngã có sắc, sắc trong ngã hoặc ngã trong sắc. Với thọ, người ấy xem thọ là ngã, ngã có thọ, thọ trong ngã hoặc ngã trong thọ."
+          ]
+        },
+        {
+          "id": "self-next",
+          "kind": "teaching",
+          "heading": "Bốn cách ấy tiếp tục ở tâm",
+          "meaningUnits": [
+            "self-perception",
+            "self-formations",
+            "self-consciousness"
+          ],
+          "paragraphs": [
+            "Với tưởng, người ấy xem tưởng là ngã, ngã có tưởng, tưởng trong ngã, ngã trong tưởng. Với hành, xem hành là ngã, ngã có hành, hành trong ngã, ngã trong hành. Với thức, xem thức là ngã, ngã có thức, thức trong ngã, ngã trong thức.",
+            "Đủ năm nhóm và bốn cách cho mỗi nhóm, thành hai mươi cách thân kiến sinh khởi."
+          ]
+        },
+        {
+          "id": "not-first",
+          "kind": "teaching",
+          "heading": "Người được học không nhận giữ như thế",
+          "meaningUnits": [
+            "trained",
+            "not-form",
+            "not-feeling"
+          ],
+          "paragraphs": [
+            "Vậy thế nào là thân kiến không sinh? Vị Thánh đệ tử có nghe học đã thấy bậc Thánh, hiểu thạo và được rèn tốt trong pháp của các vị; đã thấy người chân chính, hiểu thạo và được rèn tốt trong pháp của họ.",
+            "Vị ấy không xem sắc là ngã, ngã có sắc, sắc trong ngã hay ngã trong sắc. Với thọ, cũng không xem thọ là ngã, ngã có thọ, thọ trong ngã hay ngã trong thọ."
+          ]
+        },
+        {
+          "id": "not-next",
+          "kind": "teaching",
+          "heading": "Không nhận một ngã trong các hoạt động tâm",
+          "meaningUnits": [
+            "not-perception",
+            "not-formations",
+            "not-consciousness"
+          ],
+          "paragraphs": [
+            "Với tưởng, không xem tưởng là ngã, ngã có tưởng, tưởng trong ngã hay ngã trong tưởng. Với hành, không xem hành là ngã, ngã có hành, hành trong ngã hay ngã trong hành. Với thức, không xem thức là ngã, ngã có thức, thức trong ngã hay ngã trong thức.",
+            "Hai mươi cách chấp ấy đều không được nhận lấy. Phật gọi như vậy là thân kiến không sinh."
+          ]
+        },
+        {
+          "id": "three",
+          "kind": "teaching",
+          "heading": "Vui nơi đâu, nguy nơi đâu, ra khỏi thế nào?",
+          "meaningUnits": [
+            "three-question",
+            "form-three",
+            "others-three",
+            "consciousness-three"
+          ],
+          "paragraphs": [
+            "Câu hỏi tiếp xét vị ngọt, nguy hiểm và xuất ly của từng uẩn. Phật nói niềm vui và lạc, sự dễ chịu, sinh nhờ sắc là vị ngọt của sắc. Sắc vô thường, khổ, phải biến đổi là sự nguy hiểm. Nhiếp phục và đoạn bỏ dục tham, ham muốn cùng tham luyến đối với sắc, là xuất ly, lối ra.",
+            "Với thọ, tưởng và hành, từng nhóm đều có đủ ba mặt như thế: vui và lạc nhờ nó; vô thường, khổ, biến đổi; điều phục và đoạn bỏ dục tham nơi nó. Với thức cũng vậy: niềm vui, lạc do thức là vị ngọt; vô thường, khổ, biến đổi là nguy; nhiếp phục và đoạn bỏ dục tham đối với thức là lối ra."
+          ]
+        },
+        {
+          "id": "seeing",
+          "kind": "teaching",
+          "heading": "Thấy rõ mà không dựng tôi và của tôi",
+          "meaningUnits": [
+            "ego-question",
+            "seeing",
+            "absence"
+          ],
+          "paragraphs": [
+            "Vị ấy hỏi biết, thấy thế nào để đối với thân có thức này và mọi tướng, những dấu hiệu bên ngoài, không còn chấp tôi, chấp của tôi và mạn tùy miên, khuynh hướng chấp cái tôi nằm ngầm.",
+            "Phật dạy thấy đúng thực bằng trí tuệ. Mọi sắc, thọ, tưởng, hành, thức trong đầy đủ quá khứ, tương lai, hiện tại; trong, ngoài; thô, tinh tế; thấp kém, cao quý; xa, gần, đều được thấy với ba điều: không phải của tôi, không phải là tôi, không phải tự ngã của tôi.",
+            "Biết và thấy như vậy thì nơi thân có thức và tất cả dấu hiệu bên ngoài không có ba sự chấp ấy."
+          ]
+        },
+        {
+          "id": "thought",
+          "kind": "teaching",
+          "heading": "Một thắc mắc thầm trong tâm",
+          "meaningUnits": [
+            "thought",
+            "warning",
+            "reminder"
+          ],
+          "paragraphs": [
+            "Một tỳ-kheo khởi ý nghĩ: sắc, thọ, tưởng, hành, thức đều vô ngã, không phải tự ngã; vậy các nghiệp, các hành động, do vô ngã làm sẽ chạm đến tự ngã nào?",
+            "Phật biết suy nghĩ ấy bằng tâm và gọi các tỳ-kheo. Ngài nói có trường hợp người rỗng tuếch, chưa hiểu, chìm trong vô minh, tâm bị khát ái, sự khao khát, chi phối, tưởng có thể vượt lời Thầy bằng cách hỏi ấy. Ngài nhắc lại cả năm uẩn vô ngã và câu hỏi nghiệp chạm tự ngã nào, rồi nhắc rằng các vị đã được hướng dẫn bằng cách hỏi lại về những pháp này ở nhiều chỗ."
+          ]
+        },
+        {
+          "id": "asking",
+          "kind": "teaching",
+          "heading": "Cùng xét điều vô thường",
+          "meaningUnits": [
+            "form-test",
+            "others-test"
+          ],
+          "paragraphs": [
+            "Phật hỏi sắc thường hay vô thường. Hội chúng đáp vô thường. Điều vô thường là khổ hay lạc? Đáp khổ. Điều vô thường, khổ, chịu biến đổi có đáng xem là “của tôi, là tôi, tự ngã của tôi” không? Đáp không.",
+            "Thọ, tưởng, hành và thức cũng được hỏi theo cùng ba bước. Mỗi nhóm đều vô thường; điều vô thường là khổ; điều vô thường, khổ, phải đổi khác không đáng chấp là của tôi, là tôi, tự ngã của tôi. Những lời đáp giữ việc tìm hiểu sát với tính chất của các uẩn."
+          ]
+        },
+        {
+          "id": "all",
+          "kind": "teaching",
+          "heading": "Mọi uẩn đều được thấy như thật",
+          "meaningUnits": [
+            "form-conclusion",
+            "other-conclusion"
+          ],
+          "paragraphs": [
+            "Vì thế, với tất cả sắc, quá khứ, tương lai hay hiện tại; trong hay ngoài; thô hay tinh tế; thấp kém hay cao quý; xa hay gần, cần thấy bằng trí tuệ đúng thực: không phải của tôi, không phải là tôi, không phải tự ngã của tôi.",
+            "Tất cả thọ, tưởng, hành và thức trong đủ mười một phạm vi ấy cũng cần được thấy như vậy, với đủ ba điều không phải của tôi, không phải là tôi, không phải tự ngã của tôi."
+          ]
+        },
+        {
+          "id": "release",
+          "kind": "teaching",
+          "heading": "Không còn mê đắm, rồi tham ái phai đi",
+          "meaningUnits": [
+            "disenchantment",
+            "freedom"
+          ],
+          "paragraphs": [
+            "Vị Thánh đệ tử có nghe học thấy vậy thì yểm ly sắc, thọ, tưởng, hành và thức: không còn mê đắm các nhóm ấy. Do yểm ly mà ly tham, tham luyến phai đi; do ly tham mà giải thoát. Đã giải thoát thì biết đã giải thoát.",
+            "Vị ấy hiểu tái sinh đã chấm dứt; đời phạm hạnh, đời tu trong sạch, đã hoàn thành; việc cần làm đã làm; không còn trở lại trạng thái hiện hữu này."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Khoảng sáu mươi vị được giải thoát",
+          "meaningUnits": [
+            "response",
+            "result",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật giảng như vậy, các tỳ-kheo vui và tán đồng. Trong lúc bài giảng đang được nói, tâm của khoảng sáu mươi vị thoát khỏi lậu hoặc, các dòng ô nhiễm giữ tâm trong sinh tử, do không chấp thủ. Đại Kinh Đêm Trăng Tròn khép lại, là bài thứ chín trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: khi vai trò trong nhà đổi khác",
+          "meaningUnits": [
+            "clinging",
+            "future",
+            "seeing"
+          ],
+          "paragraphs": [
+            "Có thời ta quen được hỏi ý kiến mọi việc trong gia đình. Rồi nếp sống thay đổi, con cháu tự quyết nhiều hơn, và trong lòng sinh buồn hoặc muốn giữ vai trò cũ. Ta có thể nhận ra cảm giác, ý muốn và hình ảnh mình đang nắm lấy. Nhờ vậy, cuộc trò chuyện có thêm chỗ để lắng nghe và tìm cách đóng góp phù hợp. Đây là một ví dụ hiện đại về việc nhìn rõ sự chấp giữ."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một lần quan sát thong thả",
+          "meaningUnits": [
+            "causes",
+            "three-question",
+            "seeing",
+            "freedom"
+          ],
+          "paragraphs": [
+            "Có thể chọn một điều vừa làm mình vui hoặc buồn, nhớ lại những điều kiện đã góp phần tạo nên nó và xem nó đang thay đổi thế nào. Nhận ra mình muốn giữ phần dễ chịu ra sao, muốn gạt phần khó chịu thế nào. Từ việc thấy rõ, tiếp tục học buông chấp; con đường của bài kinh còn hướng đến giải thoát và chấm dứt tái sinh."
+          ]
+        }
+      ]
+    }
+  }
+}
