@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn10",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "6793bda1-8ba3-4f4b-b29c-1cd561c5f455"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "163652ad-ca0d-45d1-9ee8-4bf6d33058d3"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "4ee3ba94-87da-42ec-9bd0-53ccd0b77909"
+    }
+  },
+  "reviews": [
+    {
+      "id": "6793bda1-8ba3-4f4b-b29c-1cd561c5f455",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.5,
+        "terminology": 9.1,
+        "audience_fit": 9,
+        "clarity": 9.1,
+        "editorial_separation": 9.3,
+        "practical_integrity": 9.4,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu trực tiếp đủ năm nguồn đã pin và 285 khóa. visit giữ lời mời đến mai có điều kiện 1.4, không thêm lễ đầu chạm chân từ Anh 1.2.2; sources nhận rõ Cetaka/Cetiya và vassa/vossa còn khác. HTML có lược nhiều, không được dùng thay Pāli.",
+        "semantic_fidelity": "Bản trẻ giữ Phật tự chứng thế giới trời-người, đời xuất gia, các thiền và thắng trí theo kinh. wisdom sau sửa nêu thân vô thường và thức nương, bị buộc; freedom giữ bốn điều về khổ, bốn về lậu, ba lậu và bốn lời hoàn thành. Không rút giải thoát thành vui vẻ hay kỹ năng học.",
+        "core_coverage": "40 đơn vị phủ toàn bộ khóa đúng một lần; các phần teaching giữ 26 việc tà mạng, sáu căn, niệm-tỉnh giác, chín nơi vắng, năm ví nhẹ gánh, bốn thiền kèm ví, tám nhóm tuệ và đủ 16 trạng thái tâm. Khóa lược 1.12.1-1.27 không được tự điền từ DN2. Chạm và vuốt 2.25.2 đã bổ sung trước khóa.",
+        "logic_context": "more-ethics và fourth giữ còn việc cao hơn sau giới và định; freedom chỉ kết không còn sau tận lậu 2.37.2. Các giả định người tu khác hẳn mãn nguyện là lời Subha, không phán quyết của người kể. ending khen Ānanda đúng 2.37.8, quy y Gotama/Pháp/Tăng mà không thêm chứng quả.",
+        "terminology": "Ba nhóm giới-định-tuệ, uẩn, niệm-tỉnh giác, hỷ/lạc, thức và lậu hoặc có lời mở nghĩa. wisdom giải bốn đại ngắn, không bổ sung danh mục ngoài bài. Các tên nhạc cụ Pāli và vài từ như quảng đại vẫn là phần cần người hướng dẫn hỗ trợ, nên điểm thuật ngữ chưa ở mức rất cao.",
+        "audience_fit": "25 phần với tiêu đề hỏi việc cụ thể, câu kể theo Subha và giải nghĩa ngay chỗ dùng phù hợp bản trẻ. Ví dụ làm bài chung gần lứa tuổi và không gắn việc bỏ nhà với trẻ. Danh sách 26 nghề cổ và phần đời trước dài, chưa có thử đọc ở trẻ thật để khẳng định mức dễ hiểu cao hơn.",
+        "clarity": "Các đoạn thiền được tách riêng, hình ảnh bột tắm/hồ/sen/vải giúp theo khác biệt hỷ-lạc-xả; chuỗi vui đến định giữ tuần tự. Đã làm rõ hồ không được mưa từng lúc cấp nước, tránh câu phủ định mưa đều có thể gây hiểu lệch. Các danh sách tâm và đời trước vẫn dày khi đọc liền.",
+        "editorial_separation": "sources là clarification; example và practice có kind riêng, nói rõ do biên tập thêm và giới hạn phép so sánh. Các lời mở nghĩa trong teaching không giả thành câu trích Pāli. Vẫn có vài câu nhắc cách đọc nguồn xen diễn biến, hữu ích cho độ trung thực nhưng làm truyện bớt liền mạch.",
+        "practical_integrity": "Ví làm bài chung phân biệt sống đúng, chú ý, hiểu; practice chỉ đề nghị xét một việc nhỏ và học thêm. Không hứa đạt thiền/thần thông, không bảo trẻ thử các phương thức chữa trị, không cho phép đoán nghiệp bạn qua diện mạo. Phần thực hành vừa sức và không thay mục tiêu giải thoát.",
+        "technical_integrity": "Audit sau sửa không có errors/sourceErrors, năm SHA khớp, 40 đơn vị phủ đủ 285 khóa, liên kết các phần hợp lệ; git diff --check sạch. Review gắn bản trẻ sau sửa qua hash hiện tại. Chưa tự chạy lại giao diện/build toàn lô vì root phụ trách gate đó."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi agent B, khác agent C viết bài nhưng cùng mô hình GPT-6 Astra Pro; không phải kiểm định của chuyên gia Pāli con người hoặc thử đọc với độc giả thật. Đã thực đọc trọn năm nguồn DN10 đã pin: 285 khóa Pāli, Sujato thô (227/285 ô có văn), Việt dự án, toàn HTML Minh Châu kể cả ghi công, 8 chú thích dự án; đọc toàn bộ 40 đơn vị ý và cả ba bản. Không nhận phần Anh ghép trong store là nguồn độc lập, không đọc thêm DN2 từ dẫn chiếu HTML. Sau đối chiếu đã sửa giới hạn mưa ở ví hồ 2.16 trong map và ba bản; thêm tính vô thường rõ ở trẻ 2.21; giữ đủ chạm/vuốt ở map và trẻ 2.25.2. Không còn lỗi chặn được phát hiện. Nguồn Pāli/Sujato pin 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt/chú thích pin 640b1410c7b2b50ee81d417886b75605189ea0a2. Độ dễ đọc là nhận định biên tập của agent; danh mục cổ vẫn đòi hỏi đọc chậm. Root ghi review/apply trên hash hiện tại và chạy kiểm tra toàn lô. Hash nội dung children đã đọc và chốt: 077239e9e392e426658ff56c5a4c60429520f76e85c2700d2852cf5d64dcfd44.",
+      "contentHash": "077239e9e392e426658ff56c5a4c60429520f76e85c2700d2852cf5d64dcfd44",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn10.html",
+          "sha256": "1cc193b2301f75d5285130ae5a2f6076537d5320fe34f7f156b7abd13e4426f0"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+          "sha256": "4319e49abfb0f6a303f1a46a078e56f8f6c3c2cd5f8285acb161339339ffb69e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
+          "sha256": "98f93d3415f4f575d6773e2ed2f032508ff84ca5d75b4bde1213bffe6ec05e51"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn10_comment-vi-project.json",
+          "sha256": "f31d4b1eed745e29e43f3393be972d0e3fbabbfc529cf8c658da36100ef7f313"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn10_translation-vi-project.json",
+          "sha256": "6e992a567aa1fee5e9289b195e51e29345a208d5bbef538691dea1015c1cdde0"
+        }
+      ]
+    },
+    {
+      "id": "163652ad-ca0d-45d1-9ee8-4bf6d33058d3",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.5,
+        "terminology": 9.2,
+        "audience_fit": 9.2,
+        "clarity": 9.3,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.4,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đủ năm nguồn thực của DN10, gồm toàn HTML có lược và 8 comments. context giữ appevanāma ở lời đến hôm sau; limits nêu hai cách hiểu Cetaka và hai nghi lễ vassa/vossa. final theo Pāli 2.37.8 khen Ānanda thay lỗi chủ thể trong HTML. Sujato thô có 227/285 ô có văn, không được giả nhận đầy đủ.",
+        "semantic_fidelity": "body-consciousness giữ bốn đại/cha mẹ/cơm cháo/vô thường và thức bị buộc; mental-body giữ đủ chi/căn, phân biệt thân do ý với suy diễn linh hồn. ending-taints trình đủ hai bộ bốn về khổ/lậu và ba lậu, bốn lời hoàn thành. Các năng lực siêu thường, nghiệp và tái sinh được giữ nguyên phạm vi tôn giáo.",
+        "core_coverage": "40 đơn vị và 27 phần bao quát toàn bộ bài: 26 tà mạng, sáu căn, đủ hoạt động niệm-tỉnh giác, chín nơi vắng, năm ví trước-sau, bốn thiền và tám nhóm tuệ. Trí tâm đủ 16 trạng thái, nhớ đời đủ số đời/kiếp/đặc điểm, thấy nghiệp đủ hai nhánh. Phần lược thực tế không được biến thành toàn giới mục DN2.",
+        "logic_context": "ethics-end và more giữ ranh giới việc còn phải làm, final kết không còn việc cao hơn chỉ sau tận lậu. Nền tâm định được nêu đầy đủ rồi nhắc khi chuyển các trí. Lời giả định về người tu ngoài giáo pháp có chủ thể Subha; tự do khỏi lo vì giới không thành miễn mọi rủi ro.",
+        "terminology": "Phân biệt Thánh giới/định/tuệ uẩn; tầm-tứ, hỷ-lạc, hữu thượng/vô thượng và ba lậu có gỡ nghĩa đúng vai trò. limits công khai bất đồng thuật ngữ cổ. Một số tên như nhạc cụ và phương thức cổ giữ nguyên hoặc gần âm để tránh chắc hóa quá mức, vẫn cần đọc thận trọng.",
+        "audience_fit": "27 phần phân chia theo luận điểm, mỗi ví đi cùng kết luận, ví công việc hợp người lớn và không bỏ chiều sâu xuất gia/giải thoát. Độ dài cần thiết cho danh mục nguồn; chưa có thử nghiệm với người đọc đại diện nên không nhận mức phù hợp hoàn hảo.",
+        "clarity": "Trình tự ba uẩn, năm chướng, bốn thiền, tám trí rõ và có nhắc nền trước bước chuyển. Các ví được giải mục đích mà không ép ánh xạ từng chướng. Đã sửa phủ định về mưa ở hồ thiền thứ hai. Một vài chuỗi danh từ và gạch chéo còn làm nhịp đọc chậm.",
+        "editorial_separation": "limits tách lựa chọn nguồn; example/practice tách khỏi teaching và đều tự xác định là liên hệ biên tập. Không dùng ví quyết định công việc làm định nghĩa hay chứng cứ hoàn tất ba uẩn. Lời giải tầm-tứ được báo là cách mở nghĩa, không tự thêm danh ngôn vào miệng Ānanda.",
+        "practical_integrity": "Gợi ý xét mặt ngay thẳng, chú ý và hiểu biết của một quyết định có tác dụng hạn chế, rõ ràng. Không biến lời tận lậu không còn việc cao hơn thành tự xác nhận thành công, không suy danh sách tà mạng thành cấm mọi chăm sóc bệnh. Không thấy ví dụ gây hiểu ngược giáo nghĩa.",
+        "technical_integrity": "Schema/audit và năm sourceHashes hợp lệ sau sửa; 285 khóa thực có đúng một chỗ trong 40 đơn vị; diff whitespace sạch. Cả nội dung và nguồn được khóa để root record/apply. Việc dựng trang và kiểm toàn lô thuộc root, không được điểm này giả nhận đã chạy riêng."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi agent B, khác agent C viết bài nhưng cùng mô hình GPT-6 Astra Pro; không phải kiểm định của chuyên gia Pāli con người hoặc thử đọc với độc giả thật. Đã thực đọc trọn năm nguồn DN10 đã pin: 285 khóa Pāli, Sujato thô (227/285 ô có văn), Việt dự án, toàn HTML Minh Châu kể cả ghi công, 8 chú thích dự án; đọc toàn bộ 40 đơn vị ý và cả ba bản. Không nhận phần Anh ghép trong store là nguồn độc lập, không đọc thêm DN2 từ dẫn chiếu HTML. Sau đối chiếu đã sửa giới hạn mưa ở ví hồ 2.16 trong map và ba bản; thêm tính vô thường rõ ở trẻ 2.21; giữ đủ chạm/vuốt ở map và trẻ 2.25.2. Không còn lỗi chặn được phát hiện. Nguồn Pāli/Sujato pin 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt/chú thích pin 640b1410c7b2b50ee81d417886b75605189ea0a2. Độ dễ đọc là nhận định biên tập của agent; danh mục cổ vẫn đòi hỏi đọc chậm. Root ghi review/apply trên hash hiện tại và chạy kiểm tra toàn lô. Hash nội dung adults đã đọc và chốt: e8c40a1fe7cd566182db69d6c0a0059ced3982eabfd97cf869195886243572bf.",
+      "contentHash": "e8c40a1fe7cd566182db69d6c0a0059ced3982eabfd97cf869195886243572bf",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn10.html",
+          "sha256": "1cc193b2301f75d5285130ae5a2f6076537d5320fe34f7f156b7abd13e4426f0"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+          "sha256": "4319e49abfb0f6a303f1a46a078e56f8f6c3c2cd5f8285acb161339339ffb69e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
+          "sha256": "98f93d3415f4f575d6773e2ed2f032508ff84ca5d75b4bde1213bffe6ec05e51"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn10_comment-vi-project.json",
+          "sha256": "f31d4b1eed745e29e43f3393be972d0e3fbabbfc529cf8c658da36100ef7f313"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn10_translation-vi-project.json",
+          "sha256": "6e992a567aa1fee5e9289b195e51e29345a208d5bbef538691dea1015c1cdde0"
+        }
+      ]
+    },
+    {
+      "id": "4ee3ba94-87da-42ec-9bd0-53ccd0b77909",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.5,
+        "terminology": 9.2,
+        "audience_fit": 9.1,
+        "clarity": 9.2,
+        "editorial_separation": 9.3,
+        "practical_integrity": 9.4,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu đủ năm nguồn đã pin, toàn Pāli/Anh thô/Việt, toàn HTML và tám comments. appointment không đổi lời dè dặt thành hứa; clarify ghi hai cách hiểu Cetaka và vassa/vossa; completion nhận đúng người được khen là Ānanda. Không lấy dẫn chiếu HTML sang DN2 làm phần đọc độc lập.",
+        "semantic_fidelity": "knowing giữ thân vô thường và thức nương, bị buộc; abilities/hearing/minds/past-lives/rebirth giữ năng lực như kinh thuật. taints đủ khổ và lậu theo bốn mặt, giải thoát ba lậu và biết sinh tận/phạm hạnh thành/việc xong/không hiện hữu như vậy nữa. Không đổi thành an dưỡng hay bình an cuối đời.",
+        "core_coverage": "32 phần chứa đủ 40 đơn vị: giới và chỗ lược, 26 tà mạng, các nền định, năm ví, bốn thiền, tám nhóm tuệ, 16 loại tâm và các số đời. Hai nhánh nghiệp có cả thân-khẩu-ý/Thánh/chánh-tà kiến/cõi sau chết; kết nam cư sĩ trọn đời. Không thấy phần chính nào thiếu sau đối chiếu toàn bài.",
+        "logic_context": "ethics-question và further duy trì còn việc cao hơn dù giới/định trọn; completion chỉ khép sau tận lậu. Giới an ổn theo đúng phạm vi, năm ví nhẹ gánh có trước và sau, Subha là người đưa giả định về các người tu khác. Không gộp hỷ với lạc khi qua thiền thứ ba.",
+        "terminology": "Uẩn được giải là nhóm tu học; niệm-tỉnh giác, tầm-tứ, hỷ/lạc, hữu thượng/vô thượng và lậu được mở nghĩa tại chỗ. Clarify nhận bất đồng nguồn phụ, giữ tên nhạc cụ cổ mà không áp chắc tên nhạc cụ Việt. Vốn thuật ngữ vẫn đáng kể, chưa có chuyên gia con người xác nhận mọi lời gỡ nghĩa.",
+        "audience_fit": "Bản lớn tuổi có 32 phần, nhiều khoảng nghỉ, đi từng điều và không giả định suy giảm hay gán tuổi tác với thành tựu. Ví buổi đọc sách và dự định vừa sức tự nhiên. Nội dung danh mục vẫn dài; nhận định phù hợp chưa được kiểm trên độc giả thật.",
+        "clarity": "Các chặng định tách thành bốn phần, tuệ thành các phần theo khả năng, giúp trở lại đọc từng nhóm. Chuỗi vui-hỷ-thân lắng-lạc-định không bị rút gọn. Sau sửa, câu mưa cấp nước giữ phủ định rõ hơn. Một số đoạn liệt kê trạng thái tâm/đời trước vẫn cần đọc chậm.",
+        "editorial_separation": "clarify phân biệt lựa chọn nguồn, example và practice là phần riêng có nhãn và giới hạn. Các so sánh hiện đại không lẫn với những ví người vay tiền, tù, chim, hồ trong nguyên bài. Một vài lưu ý biên tập xen phần giảng làm nhịp bớt liền, nhưng không đánh tráo nguồn.",
+        "practical_integrity": "Gợi ý chọn dự định vừa sức và học tiếp không hứa quả tu, không thúc ép thành tích theo tuổi, không làm việc chăm bệnh bị hiểu là trái kinh. Những câu giới hạn về thần thông/nghiệp giữ ví dụ hiện đại ở đúng mức hỗ trợ hiểu, không tạo chỉ dẫn nguy hiểm.",
+        "technical_integrity": "Audit hiện tại errors/sourceErrors rỗng, nguồn đủ năm SHA, 40 đơn vị phủ đúng 285 khóa, liên kết audience/meaningUnits hợp lệ; git diff --check sạch. Điểm gắn bản đã sửa câu ví hồ; root sẽ record trên hash hiện tại và kiểm giao diện toàn lô."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi agent B, khác agent C viết bài nhưng cùng mô hình GPT-6 Astra Pro; không phải kiểm định của chuyên gia Pāli con người hoặc thử đọc với độc giả thật. Đã thực đọc trọn năm nguồn DN10 đã pin: 285 khóa Pāli, Sujato thô (227/285 ô có văn), Việt dự án, toàn HTML Minh Châu kể cả ghi công, 8 chú thích dự án; đọc toàn bộ 40 đơn vị ý và cả ba bản. Không nhận phần Anh ghép trong store là nguồn độc lập, không đọc thêm DN2 từ dẫn chiếu HTML. Sau đối chiếu đã sửa giới hạn mưa ở ví hồ 2.16 trong map và ba bản; thêm tính vô thường rõ ở trẻ 2.21; giữ đủ chạm/vuốt ở map và trẻ 2.25.2. Không còn lỗi chặn được phát hiện. Nguồn Pāli/Sujato pin 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt/chú thích pin 640b1410c7b2b50ee81d417886b75605189ea0a2. Độ dễ đọc là nhận định biên tập của agent; danh mục cổ vẫn đòi hỏi đọc chậm. Root ghi review/apply trên hash hiện tại và chạy kiểm tra toàn lô. Hash nội dung older-adults đã đọc và chốt: b19234692b43be7271aa18f8895d912d64523975c24bd2b9d8356e580498be8c.",
+      "contentHash": "b19234692b43be7271aa18f8895d912d64523975c24bd2b9d8356e580498be8c",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn10.html",
+          "sha256": "1cc193b2301f75d5285130ae5a2f6076537d5320fe34f7f156b7abd13e4426f0"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+          "sha256": "4319e49abfb0f6a303f1a46a078e56f8f6c3c2cd5f8285acb161339339ffb69e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
+          "sha256": "98f93d3415f4f575d6773e2ed2f032508ff84ca5d75b4bde1213bffe6ec05e51"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn10_comment-vi-project.json",
+          "sha256": "f31d4b1eed745e29e43f3393be972d0e3fbabbfc529cf8c658da36100ef7f313"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn10_translation-vi-project.json",
+          "sha256": "6e992a567aa1fee5e9289b195e51e29345a208d5bbef538691dea1015c1cdde0"
+        }
+      ]
+    }
+  ]
+}
