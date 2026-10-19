@@ -1,0 +1,1283 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn121",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn121_root-pli-ms.json",
+      "sha256": "d53677b1e9a2156fa2de57a379ef93f7ab0d694134bbc2c7ccbe773c2eea7cf2",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn121_translation-vi-project.json",
+      "sha256": "3bb199736dfe88e500ee0f11034515fa8675b9f0eb1913210a7dfa2ca7e93796",
+      "commit": "87288fe96fd977f95fc7dee56ab8f41b927176ba"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn121_translation-en-sujato.json",
+      "sha256": "34f6122a7d7f59f37d4b7390066b74e74b4529c5f75f49ed409a71ba4a07546f",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn121.html",
+      "sha256": "a00f4e89ef429e44069ecf6c8cacab6cc3305851bfe5695cf06a4b8d8dd7c067",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn121_comment-vi-project.json",
+      "sha256": "0eea4b40987f468bfc00370cfbbb1ac6472c81d409e3f8c8abd3914c28526cbc",
+      "commit": "87288fe96fd977f95fc7dee56ab8f41b927176ba"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Kinh Tiểu Không",
+      "segments": [
+        "mn121:0.1",
+        "mn121:0.2"
+      ],
+      "summary": "Trung Bộ 121, Cūḷasuññatasutta, Kinh Tiểu Không."
+    },
+    {
+      "id": "setting",
+      "title": "Lời đã nghe ở Đông Viên",
+      "segments": [
+        "mn121:1.1",
+        "mn121:1.2"
+      ],
+      "summary": "Người truyền kinh đã nghe: Phật tại Sāvatthī, Đông Viên, lâu đài mẹ Migāra."
+    },
+    {
+      "id": "visit",
+      "title": "Ānanda đến buổi chiều",
+      "segments": [
+        "mn121:2.1"
+      ],
+      "summary": "Chiều ra khỏi thiền tịnh, Ānanda đến, đảnh lễ, ngồi một bên rồi thưa."
+    },
+    {
+      "id": "memory",
+      "title": "Nhớ lời tại Nagaraka",
+      "segments": [
+        "mn121:3.1",
+        "mn121:3.2",
+        "mn121:3.3"
+      ],
+      "summary": "Ānanda nhắc lần Phật ở Nagaraka của dân Sakya, nghe và thọ trì ngay trước mặt Phật lời Ngài nay thường trú pháp không."
+    },
+    {
+      "id": "confirmation",
+      "title": "Bốn sự đúng được xác nhận",
+      "segments": [
+        "mn121:3.4",
+        "mn121:3.5"
+      ],
+      "summary": "Ānanda hỏi đã nghe/thọ trì/tác ý/ghi nhớ đúng chăng; Phật xác nhận đủ bốn."
+    },
+    {
+      "id": "continuity",
+      "title": "Trước và nay đều thường trú",
+      "segments": [
+        "mn121:3.6"
+      ],
+      "summary": "Phật nói cả trước đây lẫn hiện nay thường an trú pháp không."
+    },
+    {
+      "id": "hall",
+      "title": "Lâu đài trống những gì, còn những gì",
+      "segments": [
+        "mn121:4.1",
+        "mn121:4.2"
+      ],
+      "summary": "Trống voi/bò/ngựa/ngựa cái, vàng/bạc, tụ hội nam/nữ; còn tính một do duyên Tăng chúng tỳ-kheo."
+    },
+    {
+      "id": "forest-focus",
+      "title": "Quy tụ nơi tưởng rừng",
+      "segments": [
+        "mn121:4.3",
+        "mn121:4.4"
+      ],
+      "summary": "Không tác ý tưởng làng/người, chú tâm tính một do tưởng rừng; tâm hướng tới/tịnh tín/an trú/quyết định nơi ấy."
+    },
+    {
+      "id": "forest-burden",
+      "title": "Não hại vắng và còn ở bước rừng",
+      "segments": [
+        "mn121:4.5",
+        "mn121:4.6",
+        "mn121:4.7"
+      ],
+      "summary": "Biết não hại do làng/người vắng, còn chút do tính một nương tưởng rừng."
+    },
+    {
+      "id": "forest-empty",
+      "title": "Lĩnh vực tưởng trống làng và người",
+      "segments": [
+        "mn121:4.8",
+        "mn121:4.9"
+      ],
+      "summary": "Biết lĩnh vực tưởng không có làng/người, còn cái không trống là tính một nương tưởng rừng."
+    },
+    {
+      "id": "forest-principle",
+      "title": "Nguyên tắc biết đúng cái vắng/còn",
+      "segments": [
+        "mn121:4.10",
+        "mn121:4.11"
+      ],
+      "summary": "Vắng gì thấy trống cái ấy; còn gì biết thật có; sự hiện khởi pháp không chân thật/không đảo/thuần tịnh."
+    },
+    {
+      "id": "earth-focus",
+      "title": "Quy tụ nơi tưởng đất",
+      "segments": [
+        "mn121:5.1",
+        "mn121:5.2"
+      ],
+      "summary": "Không tác ý người/rừng; chú tâm tính một do tưởng đất; đủ bốn nét tâm hướng tới/tịnh tín/an trú/quyết định."
+    },
+    {
+      "id": "earth-simile",
+      "title": "Da bò phẳng và các địa hình",
+      "segments": [
+        "mn121:5.3",
+        "mn121:5.4",
+        "mn121:5.5"
+      ],
+      "summary": "Da bò đực căng trăm cọc không nhăn; không tác ý cao thấp/sông khó lội/gốc cây gai/núi gồ, chú tính một do đất; nhắc bốn nét tâm lần nữa."
+    },
+    {
+      "id": "earth-burden",
+      "title": "Não hại vắng/còn ở đất",
+      "segments": [
+        "mn121:5.6",
+        "mn121:5.7",
+        "mn121:5.8"
+      ],
+      "summary": "Não hại do người/rừng không có; còn chút do tính một nương tưởng đất."
+    },
+    {
+      "id": "earth-empty",
+      "title": "Tưởng đất còn trong lĩnh vực tưởng",
+      "segments": [
+        "mn121:5.9",
+        "mn121:5.10"
+      ],
+      "summary": "Lĩnh vực tưởng trống người/rừng, còn tính một nương tưởng đất."
+    },
+    {
+      "id": "earth-principle",
+      "title": "Pháp không đúng thật ở đất",
+      "segments": [
+        "mn121:5.11",
+        "mn121:5.12"
+      ],
+      "summary": "Vắng gì biết trống, còn gì biết có; pháp không chân thật/không đảo/thuần tịnh."
+    },
+    {
+      "id": "space-focus",
+      "title": "Quy tụ nơi Không vô biên xứ",
+      "segments": [
+        "mn121:6.1",
+        "mn121:6.2"
+      ],
+      "summary": "Không tác ý tưởng rừng/đất; chú tính một nương tưởng Không vô biên xứ; tâm hướng tới/tịnh tín/an trú/quyết định."
+    },
+    {
+      "id": "space-burden",
+      "title": "Não hại ở Không vô biên xứ",
+      "segments": [
+        "mn121:6.3",
+        "mn121:6.4",
+        "mn121:6.5"
+      ],
+      "summary": "Biết não hại do tưởng rừng/đất vắng; còn chút do tính một nương tưởng Không vô biên xứ."
+    },
+    {
+      "id": "space-empty",
+      "title": "Lĩnh vực tưởng ở Không vô biên xứ",
+      "segments": [
+        "mn121:6.6",
+        "mn121:6.7"
+      ],
+      "summary": "Biết lĩnh vực tưởng trống rừng/đất; còn cái không trống là tính một nương tưởng Không vô biên xứ."
+    },
+    {
+      "id": "space-principle",
+      "title": "Pháp không đúng thật ở Không vô biên xứ",
+      "segments": [
+        "mn121:6.8",
+        "mn121:6.9"
+      ],
+      "summary": "Vắng gì biết trống, còn gì biết thật có; pháp không chân thật/không đảo/thuần tịnh."
+    },
+    {
+      "id": "consciousness-focus",
+      "title": "Quy tụ nơi Thức vô biên xứ",
+      "segments": [
+        "mn121:7.1",
+        "mn121:7.2"
+      ],
+      "summary": "Không tác ý tưởng đất/Không vô biên xứ; chú tính một nương tưởng Thức vô biên xứ; tâm hướng tới/tịnh tín/an trú/quyết định."
+    },
+    {
+      "id": "consciousness-burden",
+      "title": "Não hại ở Thức vô biên xứ",
+      "segments": [
+        "mn121:7.3",
+        "mn121:7.4",
+        "mn121:7.5"
+      ],
+      "summary": "Biết não hại do tưởng đất/Không vô biên xứ vắng; còn chút do tính một nương tưởng Thức vô biên xứ."
+    },
+    {
+      "id": "consciousness-empty",
+      "title": "Lĩnh vực tưởng ở Thức vô biên xứ",
+      "segments": [
+        "mn121:7.6",
+        "mn121:7.7"
+      ],
+      "summary": "Biết lĩnh vực tưởng trống đất/Không vô biên xứ; còn cái không trống là tính một nương tưởng Thức vô biên xứ."
+    },
+    {
+      "id": "consciousness-principle",
+      "title": "Pháp không đúng thật ở Thức vô biên xứ",
+      "segments": [
+        "mn121:7.8",
+        "mn121:7.9"
+      ],
+      "summary": "Vắng gì biết trống, còn gì biết thật có; pháp không chân thật/không đảo/thuần tịnh."
+    },
+    {
+      "id": "nothingness-focus",
+      "title": "Quy tụ nơi Vô sở hữu xứ",
+      "segments": [
+        "mn121:8.1",
+        "mn121:8.2"
+      ],
+      "summary": "Không tác ý tưởng Không vô biên xứ/Thức vô biên xứ; chú tính một nương tưởng Vô sở hữu xứ; tâm hướng tới/tịnh tín/an trú/quyết định."
+    },
+    {
+      "id": "nothingness-burden",
+      "title": "Não hại ở Vô sở hữu xứ",
+      "segments": [
+        "mn121:8.3",
+        "mn121:8.4",
+        "mn121:8.5"
+      ],
+      "summary": "Biết não hại do tưởng Không vô biên xứ/Thức vô biên xứ vắng; còn chút do tính một nương tưởng Vô sở hữu xứ."
+    },
+    {
+      "id": "nothingness-empty",
+      "title": "Lĩnh vực tưởng ở Vô sở hữu xứ",
+      "segments": [
+        "mn121:8.6",
+        "mn121:8.7"
+      ],
+      "summary": "Biết lĩnh vực tưởng trống Không vô biên xứ/Thức vô biên xứ; còn cái không trống là tính một nương tưởng Vô sở hữu xứ."
+    },
+    {
+      "id": "nothingness-principle",
+      "title": "Pháp không đúng thật ở Vô sở hữu xứ",
+      "segments": [
+        "mn121:8.8",
+        "mn121:8.9"
+      ],
+      "summary": "Vắng gì biết trống, còn gì biết thật có; pháp không chân thật/không đảo/thuần tịnh."
+    },
+    {
+      "id": "neither-focus",
+      "title": "Quy tụ nơi Phi tưởng phi phi tưởng xứ",
+      "segments": [
+        "mn121:9.1",
+        "mn121:9.2"
+      ],
+      "summary": "Không tác ý tưởng Thức vô biên xứ/Vô sở hữu xứ; chú tính một nương tưởng Phi tưởng phi phi tưởng xứ; tâm hướng tới/tịnh tín/an trú/quyết định."
+    },
+    {
+      "id": "neither-burden",
+      "title": "Não hại ở Phi tưởng phi phi tưởng xứ",
+      "segments": [
+        "mn121:9.3",
+        "mn121:9.4",
+        "mn121:9.5"
+      ],
+      "summary": "Biết não hại do tưởng Thức vô biên xứ/Vô sở hữu xứ vắng; còn chút do tính một nương tưởng Phi tưởng phi phi tưởng xứ."
+    },
+    {
+      "id": "neither-empty",
+      "title": "Lĩnh vực tưởng ở Phi tưởng phi phi tưởng xứ",
+      "segments": [
+        "mn121:9.6",
+        "mn121:9.7"
+      ],
+      "summary": "Biết lĩnh vực tưởng trống Thức vô biên xứ/Vô sở hữu xứ; còn cái không trống là tính một nương tưởng Phi tưởng phi phi tưởng xứ."
+    },
+    {
+      "id": "neither-principle",
+      "title": "Pháp không đúng thật ở Phi tưởng phi phi tưởng xứ",
+      "segments": [
+        "mn121:9.8",
+        "mn121:9.9"
+      ],
+      "summary": "Vắng gì biết trống, còn gì biết thật có; pháp không chân thật/không đảo/thuần tịnh."
+    },
+    {
+      "id": "signless-focus",
+      "title": "Quy tụ nơi vô tướng tâm định",
+      "segments": [
+        "mn121:10.1",
+        "mn121:10.2"
+      ],
+      "summary": "Không tác ý tưởng Vô sở hữu/Phi tưởng phi phi tưởng; chú tính một do vô tướng tâm định; đủ bốn nét tâm."
+    },
+    {
+      "id": "signless-burden",
+      "title": "Não hại còn nương thân sống",
+      "segments": [
+        "mn121:10.3",
+        "mn121:10.4",
+        "mn121:10.5"
+      ],
+      "summary": "Não hại do hai tưởng trước vắng; còn chút liên hệ sáu xứ nương chính thân, mạng sống làm điều kiện."
+    },
+    {
+      "id": "signless-empty",
+      "title": "Phần không trống ở vô tướng",
+      "segments": [
+        "mn121:10.6",
+        "mn121:10.7"
+      ],
+      "summary": "Lĩnh vực tưởng trống Vô sở hữu/Phi tưởng phi phi tưởng; còn sáu xứ nương thân và mạng sống."
+    },
+    {
+      "id": "signless-principle",
+      "title": "Pháp không đúng thật ở vô tướng",
+      "segments": [
+        "mn121:10.8",
+        "mn121:10.9"
+      ],
+      "summary": "Vắng gì thấy trống, còn gì biết có; pháp không chân thật/không đảo/thuần tịnh."
+    },
+    {
+      "id": "signless-again",
+      "title": "Lại chú tâm vô tướng",
+      "segments": [
+        "mn121:11.1",
+        "mn121:11.2"
+      ],
+      "summary": "Lặp không tác ý Vô sở hữu/Phi tưởng phi phi tưởng, chú tính một do vô tướng; bốn nét tâm giữ đủ."
+    },
+    {
+      "id": "constructed",
+      "title": "Chính định này cũng được tạo tác",
+      "segments": [
+        "mn121:11.3",
+        "mn121:11.4",
+        "mn121:11.5"
+      ],
+      "summary": "Biết vô tướng tâm định do hành và tư tạo tác; mọi cái được hành/tư tạo đều vô thường, có bản chất diệt."
+    },
+    {
+      "id": "release",
+      "title": "Thoát ba lậu và biết giải thoát",
+      "segments": [
+        "mn121:11.6",
+        "mn121:11.7",
+        "mn121:11.8"
+      ],
+      "summary": "Biết/thấy vậy thoát dục/hữu/vô minh lậu; biết đã giải thoát; sinh tận/phạm hạnh thành/việc làm xong/không trở lại hiện hữu này."
+    },
+    {
+      "id": "released-burden",
+      "title": "Sau giải thoát còn phần nương thân",
+      "segments": [
+        "mn121:12.1",
+        "mn121:12.2",
+        "mn121:12.3"
+      ],
+      "summary": "Não hại do cả ba lậu đều không có; còn chút liên hệ sáu xứ nương thân, mạng sống làm điều kiện."
+    },
+    {
+      "id": "released-empty",
+      "title": "Lĩnh vực tưởng trống ba lậu",
+      "segments": [
+        "mn121:12.4",
+        "mn121:12.5"
+      ],
+      "summary": "Trống dục/hữu/vô minh lậu, không chỉ trống tưởng về lậu; còn sáu xứ nương chính thân và mạng sống."
+    },
+    {
+      "id": "supreme",
+      "title": "Pháp không tối thượng",
+      "segments": [
+        "mn121:12.6",
+        "mn121:12.7"
+      ],
+      "summary": "Vắng gì thấy trống, còn gì biết có; pháp không chân thật/không đảo/thuần tịnh và tối thượng vô thượng."
+    },
+    {
+      "id": "past",
+      "title": "Những vị trong quá khứ",
+      "segments": [
+        "mn121:13.1"
+      ],
+      "summary": "Mọi sa-môn/bà-la-môn đã chứng/trú pháp không thuần tịnh tối thượng đều chính pháp không này; Anh gộp ba thời."
+    },
+    {
+      "id": "future",
+      "title": "Những vị trong tương lai",
+      "segments": [
+        "mn121:13.2"
+      ],
+      "summary": "Mọi sa-môn/bà-la-môn sẽ chứng/trú pháp không thuần tịnh tối thượng đều chính pháp không này; ô Anh trống do gộp trước."
+    },
+    {
+      "id": "present",
+      "title": "Những vị trong hiện tại",
+      "segments": [
+        "mn121:13.3"
+      ],
+      "summary": "Mọi sa-môn/bà-la-môn đang chứng/trú pháp không thuần tịnh tối thượng đều chính pháp không này; ô Anh trống do gộp trước."
+    },
+    {
+      "id": "training",
+      "title": "Phải học tập như vậy",
+      "segments": [
+        "mn121:13.4",
+        "mn121:13.5"
+      ],
+      "summary": "Vì thế các thầy học: chúng ta sẽ chứng và trú pháp không thuần tịnh tối thượng; không đổi thành Phật tự hứa."
+    },
+    {
+      "id": "close",
+      "title": "Ānanda hoan hỷ",
+      "segments": [
+        "mn121:13.6",
+        "mn121:13.7",
+        "mn121:13.8"
+      ],
+      "summary": "Phật nói xong, Ānanda hoan hỷ/tán đồng; Tiểu Không bài thứ nhất trong nhóm kết thúc; Anh dòng kết trống."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "MN121 cho trẻ em — Vắng điều gì, còn điều gì?",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một câu hỏi vào buổi chiều",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "visit"
+          ],
+          "paragraphs": [
+            "Kinh Tiểu Không là bài 121 của Trung Bộ. Người truyền kinh kể đã nghe: Đức Phật ở Sāvatthī, tại Đông Viên, trong lâu đài của mẹ Migāra. Một buổi chiều, Tôn giả Ānanda ra khỏi chỗ thiền tịnh, đến gặp Phật, kính lễ rồi ngồi một bên. Ānanda là một vị tỳ-kheo, người nam xuất gia, đang học nơi Đức Phật."
+          ]
+        },
+        {
+          "id": "memory",
+          "kind": "teaching",
+          "heading": "“Con có nhớ đúng không?”",
+          "meaningUnits": [
+            "memory",
+            "confirmation",
+            "continuity"
+          ],
+          "paragraphs": [
+            "Ānanda nhắc lại một lần trước, khi Phật ở Nagaraka, thị trấn của người Sakya. Ngay trước mặt Phật, vị ấy đã nghe và ghi nhận lời Ngài nói rằng hiện nay Ngài thường an trú bằng pháp không, tức ở vững trong cách tu ấy.",
+            "Ānanda hỏi mình đã nghe đúng, học nhận đúng, chú tâm đúng và ghi nhớ đúng điều ấy chăng. Phật xác nhận cả bốn đều đúng. Ngài nói: trước đây cũng như bây giờ, Ngài thường an trú bằng pháp không. Rồi Ngài giúp Ānanda hiểu chữ “không” qua những gì vắng mặt và những gì còn có mặt."
+          ]
+        },
+        {
+          "id": "hall",
+          "kind": "teaching",
+          "heading": "Một nơi có thể trống thứ này, vẫn có thứ khác",
+          "meaningUnits": [
+            "hall"
+          ],
+          "paragraphs": [
+            "Phật lấy chính lâu đài làm ví dụ. Ở đó không có voi, bò, ngựa, ngựa cái; không có vàng bạc; không có một cuộc tụ hội đàn ông, đàn bà. Nhưng vẫn có Tăng chúng tỳ-kheo đang hiện diện. Bản kinh gọi phần còn này là tính một do duyên Tăng chúng: cả sự hiện diện ấy được nhìn theo một mối."
+          ]
+        },
+        {
+          "id": "words",
+          "kind": "clarification",
+          "heading": "Ba từ để đọc tiếp",
+          "meaningUnits": [
+            "forest-focus",
+            "forest-principle"
+          ],
+          "paragraphs": [
+            "Tưởng trong bài là cách nhận biết một điều, như nhận biết làng, người hay rừng. Tác ý là hướng sự chú ý đến điều ấy. Tính một là sự quy tụ về một mối, theo điều đang được chú ý.",
+            "Phật dạy một cách nhìn thật thà: điều nào vắng thì biết nó vắng; điều nào còn thì biết nó còn. Ta sẽ gặp cách nhìn này nhiều lần trong bài."
+          ]
+        },
+        {
+          "id": "forest",
+          "kind": "teaching",
+          "heading": "Chú tâm đến rừng",
+          "meaningUnits": [
+            "forest-focus",
+            "forest-burden",
+            "forest-empty",
+            "forest-principle"
+          ],
+          "paragraphs": [
+            "Một vị tỳ-kheo không chú ý tưởng về làng và tưởng về người, mà chú tâm sự quy tụ theo tưởng rừng. Tâm vị ấy hướng vào đó, có niềm tin trong sáng, ở vững, xác quyết nơi tưởng rừng.",
+            "Vị ấy biết: những não hại, tức sự bức bách, do tưởng làng và người không còn ở đây. Nhưng vẫn còn chút bức bách gắn với sự quy tụ theo tưởng rừng. Lĩnh vực nhận biết này trống tưởng làng, trống tưởng người; phần còn có là sự quy tụ theo tưởng rừng.",
+            "Vắng điều nào thì biết trống điều ấy; còn điều nào thì biết nó có mặt. Nhờ biết đúng như vậy, pháp không hiện khởi chân thật, không bị hiểu đảo ngược và thanh sạch."
+          ]
+        },
+        {
+          "id": "earth",
+          "kind": "teaching",
+          "heading": "Nhìn đất theo một mối",
+          "meaningUnits": [
+            "earth-focus",
+            "earth-simile"
+          ],
+          "paragraphs": [
+            "Tiếp nữa, vị ấy không chú ý tưởng người và tưởng rừng, mà quy tụ theo tưởng đất. Tâm hướng vào đó, có niềm tin trong sáng, ở vững và xác quyết.",
+            "Bản kinh ví như một tấm da bò đực được căng bằng một trăm cây cọc, hết nếp nhăn. Cũng vậy, vị ấy không chú ý các chỗ cao thấp nhấp nhô, sông ngòi khó lội, gốc cây và gai, núi non gồ ghề. Vị ấy chỉ chú ý đất theo một mối. Tâm lại được kể là hướng vào, có niềm tin trong sáng, ở vững và xác quyết nơi tưởng đất."
+          ]
+        },
+        {
+          "id": "earth-check",
+          "kind": "teaching",
+          "heading": "Biết phần nào vẫn còn",
+          "meaningUnits": [
+            "earth-burden",
+            "earth-empty",
+            "earth-principle"
+          ],
+          "paragraphs": [
+            "Sự bức bách do tưởng người và rừng vắng mặt; chút bức bách do sự quy tụ theo tưởng đất vẫn còn. Lĩnh vực nhận biết trống tưởng người và rừng, nhưng còn sự quy tụ theo tưởng đất.",
+            "Vị ấy nhận đúng cái vắng là vắng, cái còn là có mặt. Đó là pháp không chân thật, không đảo ngược và thanh sạch. Chuyển sang một điều yên hơn vẫn cần biết rõ phần đang còn."
+          ]
+        },
+        {
+          "id": "space",
+          "kind": "teaching",
+          "heading": "Không vô biên xứ",
+          "meaningUnits": [
+            "space-focus",
+            "space-burden",
+            "space-empty",
+            "space-principle"
+          ],
+          "paragraphs": [
+            "Vị ấy không chú ý tưởng rừng và tưởng đất, mà quy tụ theo tưởng Không vô biên xứ, tên một trạng thái thiền về không gian không bờ mé. Tâm hướng vào, có niềm tin trong sáng, ở vững và xác quyết nơi tưởng ấy.",
+            "Não hại do tưởng rừng và đất vắng mặt, nhưng còn chút não hại do sự quy tụ theo tưởng Không vô biên xứ. Lĩnh vực nhận biết cũng trống hai tưởng trước, còn sự quy tụ theo tưởng này. Vị ấy biết vắng gì, còn gì; pháp không hiện khởi chân thật, không đảo ngược và thanh sạch."
+          ]
+        },
+        {
+          "id": "consciousness",
+          "kind": "teaching",
+          "heading": "Thức vô biên xứ",
+          "meaningUnits": [
+            "consciousness-focus",
+            "consciousness-burden",
+            "consciousness-empty",
+            "consciousness-principle"
+          ],
+          "paragraphs": [
+            "Vị ấy không chú ý tưởng đất và tưởng Không vô biên xứ, mà quy tụ theo tưởng Thức vô biên xứ, trạng thái nhận biết sự hay biết là vô cùng. Tâm hướng vào, có niềm tin trong sáng, ở vững và xác quyết nơi tưởng ấy.",
+            "Não hại do tưởng đất và Không vô biên xứ không có ở đây. Vẫn còn chút não hại do sự quy tụ theo tưởng Thức vô biên xứ. Lĩnh vực nhận biết trống hai tưởng trước, còn sự quy tụ này. Biết đúng cái vắng và cái còn, vị ấy có sự hiện khởi pháp không chân thật, không đảo ngược, thanh sạch."
+          ]
+        },
+        {
+          "id": "nothing",
+          "kind": "teaching",
+          "heading": "Vô sở hữu xứ",
+          "meaningUnits": [
+            "nothingness-focus",
+            "nothingness-burden",
+            "nothingness-empty",
+            "nothingness-principle"
+          ],
+          "paragraphs": [
+            "Vị ấy không chú ý tưởng Không vô biên xứ và Thức vô biên xứ, mà quy tụ theo tưởng Vô sở hữu xứ, nhận biết “không có gì” trong trạng thái thiền này. Tâm hướng vào, có niềm tin trong sáng, ở vững và xác quyết nơi tưởng ấy.",
+            "Sự bức bách do hai tưởng trước vắng; phần bức bách nhỏ gắn với sự quy tụ theo tưởng Vô sở hữu xứ còn. Lĩnh vực nhận biết trống hai tưởng trước, nhưng còn sự quy tụ đang có. Biết vắng đúng là vắng, còn đúng là còn, pháp không hiện khởi chân thật, không đảo ngược và thanh sạch. Tên trạng thái này không bảo thế giới chẳng tồn tại."
+          ]
+        },
+        {
+          "id": "neither",
+          "kind": "teaching",
+          "heading": "Một trạng thái rất tinh tế",
+          "meaningUnits": [
+            "neither-focus",
+            "neither-burden",
+            "neither-empty",
+            "neither-principle"
+          ],
+          "paragraphs": [
+            "Vị ấy không chú ý tưởng Thức vô biên xứ và Vô sở hữu xứ, mà quy tụ theo tưởng Phi tưởng phi phi tưởng xứ. Tên dài này chỉ một trạng thái không thể gọi là có tưởng, cũng không thể gọi hẳn là không có tưởng. Tâm hướng vào, có niềm tin trong sáng, ở vững và xác quyết nơi ấy.",
+            "Não hại do hai tưởng trước vắng; chút não hại gắn với sự quy tụ theo tưởng hiện tại còn. Lĩnh vực nhận biết trống Thức vô biên xứ và Vô sở hữu xứ, còn sự quy tụ theo tưởng Phi tưởng phi phi tưởng xứ. Vị ấy biết đúng vắng và còn; pháp không hiện khởi chân thật, không đảo ngược, thanh sạch."
+          ]
+        },
+        {
+          "id": "signless",
+          "kind": "teaching",
+          "heading": "Đến vô tướng tâm định",
+          "meaningUnits": [
+            "signless-focus",
+            "signless-burden"
+          ],
+          "paragraphs": [
+            "Tiếp nữa, vị ấy không chú ý tưởng Vô sở hữu xứ và Phi tưởng phi phi tưởng xứ, mà quy tụ theo vô tướng tâm định. Đó là tên sự định tâm không dựa vào các dấu tướng, tức các dấu hiệu hay đặc điểm được nhận biết. Tâm hướng vào, có niềm tin trong sáng, ở vững và xác quyết nơi định ấy.",
+            "Não hại do hai tưởng trước vắng. Lần này phần não hại còn lại được nói khác: nó liên hệ đến sáu xứ, tức sáu cửa mắt, tai, mũi, lưỡi, thân và ý, phụ thuộc chính thân này và có mạng sống làm điều kiện."
+          ]
+        },
+        {
+          "id": "signless-check",
+          "kind": "teaching",
+          "heading": "Thân đang sống vẫn được nhận biết đúng",
+          "meaningUnits": [
+            "signless-empty",
+            "signless-principle"
+          ],
+          "paragraphs": [
+            "Lĩnh vực nhận biết trống tưởng Vô sở hữu xứ và Phi tưởng phi phi tưởng xứ. Phần còn có là sáu xứ nương vào thân này, do mạng sống làm điều kiện.",
+            "Điều vắng được biết là vắng; điều còn được biết là có mặt. Pháp không vẫn được gọi là chân thật, không đảo ngược và thanh sạch. Kinh giữ rõ cả điều đã vắng lẫn phần còn liên hệ với thân đang sống."
+          ]
+        },
+        {
+          "id": "constructed",
+          "kind": "teaching",
+          "heading": "Trạng thái yên sâu cũng có điều kiện",
+          "meaningUnits": [
+            "signless-again",
+            "constructed"
+          ],
+          "paragraphs": [
+            "Phật lại kể vị tỳ-kheo không chú ý hai tưởng Vô sở hữu xứ và Phi tưởng phi phi tưởng xứ, quy tụ theo vô tướng tâm định. Tâm hướng vào, có niềm tin trong sáng, ở vững và xác quyết.",
+            "Lần này vị ấy biết thêm: ngay định vô tướng cũng được tạo thành bởi các hoạt động và ý định của tâm. Bất cứ điều gì được tạo thành như thế đều vô thường, sẽ thay đổi và có bản chất chấm dứt. Vị ấy thấy rõ điều này ngay trong trạng thái thiền sâu."
+          ]
+        },
+        {
+          "id": "release",
+          "kind": "teaching",
+          "heading": "Biết rõ rồi được giải thoát",
+          "meaningUnits": [
+            "release"
+          ],
+          "paragraphs": [
+            "Nhờ biết và thấy như vậy, tâm vị ấy thoát dục lậu, ô nhiễm do ham muốn giác quan; hữu lậu, ô nhiễm do bám vào sự hiện hữu; vô minh lậu, ô nhiễm do không hiểu đúng. Lậu hoặc là những ô nhiễm sâu trói buộc tâm.",
+            "Khi được giải thoát, vị ấy biết đã giải thoát: sinh đã tận; đời tu thanh tịnh đã hoàn thành; việc cần làm đã làm; không còn trở lại sự hiện hữu này."
+          ]
+        },
+        {
+          "id": "released-check",
+          "kind": "teaching",
+          "heading": "Ba nguồn trói buộc đã vắng",
+          "meaningUnits": [
+            "released-burden",
+            "released-empty"
+          ],
+          "paragraphs": [
+            "Vị ấy biết sự bức bách do dục lậu, hữu lậu và vô minh lậu đều không còn. Chỉ còn phần nhỏ liên hệ sáu xứ phụ thuộc thân này, do mạng sống làm điều kiện.",
+            "Lĩnh vực nhận biết trống cả ba lậu ấy. Phần còn có vẫn là sáu xứ nương vào thân và mạng sống. Kinh nói các ô nhiễm đã hết, chứ không chỉ tạm thời không nghĩ đến chúng."
+          ]
+        },
+        {
+          "id": "supreme",
+          "kind": "teaching",
+          "heading": "Pháp không tối thượng",
+          "meaningUnits": [
+            "supreme"
+          ],
+          "paragraphs": [
+            "Vị ấy biết vắng điều nào là trống điều ấy, còn điều nào thì biết rõ nó đang có mặt. Lần này pháp không được gọi là chân thật, không đảo ngược, thanh sạch và tối thượng vô thượng, nghĩa là cao nhất, không có gì hơn. Sự biết đúng đi cùng việc hết những ô nhiễm sâu của tâm."
+          ]
+        },
+        {
+          "id": "times",
+          "kind": "teaching",
+          "heading": "Quá khứ, tương lai và hiện tại",
+          "meaningUnits": [
+            "past",
+            "future",
+            "present"
+          ],
+          "paragraphs": [
+            "Phật nói các sa-môn và bà-la-môn, những người tu được nhắc trong bài, nếu đã chứng và sống trong pháp không thanh tịnh tối thượng ở quá khứ, thì chính là pháp không này. Những người sẽ chứng và sống trong đó ở tương lai cũng vậy. Những người đang chứng và sống trong đó ở hiện tại cũng vậy."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Lời dặn dành cho người học",
+          "meaningUnits": [
+            "training",
+            "close"
+          ],
+          "paragraphs": [
+            "Vì vậy, Phật dạy Ānanda và các thầy hãy học: chúng ta sẽ chứng đạt và an trú pháp không thanh tịnh tối thượng. An trú nghĩa là sống vững trong điều đã chứng đạt.",
+            "Phật giảng xong, Ānanda vui lòng, tán đồng lời Ngài. Kinh Tiểu Không, bài thứ nhất trong nhóm, kết thúc."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: lớp học sau buổi sinh hoạt",
+          "meaningUnits": [
+            "hall",
+            "forest-principle"
+          ],
+          "paragraphs": [
+            "Ví dụ do người biên tập thêm: sau một buổi sinh hoạt, lớp không còn khách và tiếng trống, nhưng vẫn có bàn ghế cùng vài bạn đang xếp sách. Nếu nói “lớp chẳng có gì cả” thì chưa đúng. Có thể nói rõ điều nào đã vắng và điều nào còn. Ví dụ giúp em hiểu cách nhận biết vắng và còn, còn con đường thiền trong kinh sâu hơn việc nhìn quanh một căn phòng."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Thử nói đúng điều đang có",
+          "meaningUnits": [
+            "forest-principle",
+            "released-empty"
+          ],
+          "paragraphs": [
+            "Gợi ý của người biên tập: khi ngồi vào bàn học đã gọn, em nhận ra món đồ nào được cất, món nào còn trên bàn. Trong lòng có bớt vướng hay vẫn có lo nghĩ, cũng chỉ nhận điều mình thật sự biết. Không cần ép tâm thành trống rỗng. Đây là bước nhỏ tập nhìn trung thực, không phải bài tập đưa mình vào các trạng thái thiền hay bằng chứng đã hết lậu hoặc."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "MN121 cho người trưởng thành — Nhìn đúng điều vắng, biết rõ điều còn",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một lời dạy được hỏi lại cho chính xác",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "visit",
+            "memory",
+            "confirmation",
+            "continuity"
+          ],
+          "paragraphs": [
+            "MN121, Kinh Tiểu Không, mở bằng lời người truyền kinh đã nghe. Phật ở Sāvatthī, Đông Viên, lâu đài mẹ Migāra. Chiều ấy, Tôn giả Ānanda, một vị tỳ-kheo, ra khỏi thiền tịnh, đến kính lễ Phật rồi ngồi một bên. Vị ấy nhắc một lần trước ở Nagaraka của người Sakya, khi đã trực tiếp nghe và thọ trì, tiếp nhận gìn giữ, lời Phật rằng Ngài thường an trú pháp không, tức ở vững trong cách tu ấy.",
+            "Ānanda hỏi mình đã nghe, thọ trì, tác ý và ghi nhớ đúng chăng. Phật xác nhận đủ bốn việc; Ngài thường an trú pháp không cả trước đây lẫn hiện nay. Từ sự xác nhận ấy, bài kinh triển khai cách nhận biết điều vắng mặt cùng điều còn hiện diện."
+          ]
+        },
+        {
+          "id": "hall",
+          "kind": "teaching",
+          "heading": "Cái trống không luôn được nhận biết cụ thể",
+          "meaningUnits": [
+            "hall",
+            "forest-principle"
+          ],
+          "paragraphs": [
+            "Lâu đài mẹ Migāra trống voi, bò, ngựa, ngựa cái; trống vàng bạc; trống cuộc tụ hội nam nữ. Tuy vậy vẫn có tính một do duyên Tăng chúng tỳ-kheo, cộng đồng những người nam xuất gia đang hiện diện.",
+            "Hình ảnh mở ra nguyên tắc được lặp trong bài: điều gì không có ở đó thì thấy trống điều ấy; điều gì còn thì biết đúng rằng nó có mặt. Tính một chỉ sự quy tụ theo một duyên, không phải lời khẳng định mọi thứ hòa thành một bản thể."
+          ]
+        },
+        {
+          "id": "forest",
+          "kind": "teaching",
+          "heading": "Từ tưởng làng, tưởng người đến tưởng rừng",
+          "meaningUnits": [
+            "forest-focus",
+            "forest-burden",
+            "forest-empty",
+            "forest-principle"
+          ],
+          "paragraphs": [
+            "Một tỳ-kheo không tác ý tưởng làng và tưởng người, mà chú tâm tính một nương tưởng rừng. Tưởng là cách nhận biết một đối tượng; tác ý là hướng chú ý. Tâm vị ấy hướng vào, có niềm tin trong sáng, an trú và xác quyết nơi tưởng rừng.",
+            "Vị ấy biết những não hại, sự bức bách, do tưởng làng và người không có ở đây; còn chút não hại gắn với tính một nương tưởng rừng. Lĩnh vực tưởng trống hai tưởng trước, nhưng vẫn còn tính một do tưởng rừng. Cái vắng được biết là vắng, cái còn được biết thật có. Sự hiện khởi pháp không ấy chân thật, không đảo ngược và thuần tịnh."
+          ]
+        },
+        {
+          "id": "earth",
+          "kind": "teaching",
+          "heading": "Tưởng đất và hình ảnh tấm da căng phẳng",
+          "meaningUnits": [
+            "earth-focus",
+            "earth-simile",
+            "earth-burden",
+            "earth-empty",
+            "earth-principle"
+          ],
+          "paragraphs": [
+            "Vị ấy không tác ý tưởng người và tưởng rừng, chú tâm tính một nương tưởng đất. Tâm hướng vào, có niềm tin trong sáng, an trú, xác quyết. Phật ví như da bò đực căng bằng một trăm cọc, hết nếp nhăn. Vị ấy không tác ý địa hình cao thấp, sông ngòi khó lội, gốc cây và gai, núi non gồ ghề; chỉ chú tâm đất theo một mối. Bốn nét hướng vào, có niềm tin trong sáng, an trú, xác quyết được nhắc lại.",
+            "Não hại do tưởng người và rừng vắng; chút não hại do tính một nương tưởng đất còn. Lĩnh vực tưởng trống hai tưởng trước, còn tính một nương đất. Biết vắng đúng là vắng, còn đúng là có, đó là sự hiện khởi pháp không chân thật, không đảo ngược, thuần tịnh."
+          ]
+        },
+        {
+          "id": "space",
+          "kind": "teaching",
+          "heading": "Không vô biên xứ: nhận rõ duyên đang còn",
+          "meaningUnits": [
+            "space-focus",
+            "space-burden",
+            "space-empty",
+            "space-principle"
+          ],
+          "paragraphs": [
+            "Không tác ý tưởng rừng và đất, vị ấy chú tâm tính một nương tưởng Không vô biên xứ, trạng thái nhận biết không gian vô biên. Tâm hướng vào, có niềm tin trong sáng, an trú, xác quyết nơi tưởng ấy.",
+            "Não hại do rừng và đất không có; còn chút não hại do tính một nương tưởng Không vô biên xứ. Lĩnh vực tưởng trống hai tưởng trước, còn tính một này. Vắng gì thấy trống, còn gì biết thật có; pháp không hiện khởi chân thật, không đảo ngược, thuần tịnh."
+          ]
+        },
+        {
+          "id": "consciousness",
+          "kind": "teaching",
+          "heading": "Thức vô biên xứ",
+          "meaningUnits": [
+            "consciousness-focus",
+            "consciousness-burden",
+            "consciousness-empty",
+            "consciousness-principle"
+          ],
+          "paragraphs": [
+            "Không tác ý tưởng đất và Không vô biên xứ, vị ấy chú tâm tính một nương tưởng Thức vô biên xứ, trạng thái nhận biết thức, sự hay biết, là vô biên. Tâm hướng vào, có niềm tin trong sáng, an trú, xác quyết.",
+            "Não hại do hai tưởng trước vắng, phần nhỏ nương tính một của tưởng Thức vô biên xứ còn. Lĩnh vực tưởng trống đất và Không vô biên xứ, còn tính một của tưởng đang được chú tâm. Nhận đúng vắng và còn, pháp không hiện khởi chân thật, không đảo ngược, thuần tịnh."
+          ]
+        },
+        {
+          "id": "nothing",
+          "kind": "teaching",
+          "heading": "Vô sở hữu xứ",
+          "meaningUnits": [
+            "nothingness-focus",
+            "nothingness-burden",
+            "nothingness-empty",
+            "nothingness-principle"
+          ],
+          "paragraphs": [
+            "Không tác ý tưởng Không vô biên xứ và Thức vô biên xứ, vị ấy chú tâm tính một nương tưởng Vô sở hữu xứ, nhận thức không có gì trong trạng thái thiền này. Tâm hướng vào, có niềm tin trong sáng, an trú, xác quyết.",
+            "Não hại do hai tưởng trước vắng, chút não hại nương tính một của tưởng Vô sở hữu xứ còn. Lĩnh vực tưởng trống hai tưởng trước, còn tính một đang có. Vắng gì biết trống, còn gì biết có; sự hiện khởi pháp không chân thật, không đảo ngược, thuần tịnh. Nhận thức không có gì ở đây vẫn được xét như một trạng thái có duyên."
+          ]
+        },
+        {
+          "id": "neither",
+          "kind": "teaching",
+          "heading": "Phi tưởng phi phi tưởng xứ",
+          "meaningUnits": [
+            "neither-focus",
+            "neither-burden",
+            "neither-empty",
+            "neither-principle"
+          ],
+          "paragraphs": [
+            "Không tác ý tưởng Thức vô biên xứ và Vô sở hữu xứ, vị ấy chú tâm tính một nương tưởng Phi tưởng phi phi tưởng xứ: trạng thái không thể gọi là có tưởng, cũng không thể gọi hẳn là không có tưởng. Tâm hướng vào, có niềm tin trong sáng, an trú, xác quyết nơi ấy.",
+            "Não hại do hai tưởng trước vắng; phần nhỏ nương tính một của tưởng hiện tại còn. Lĩnh vực tưởng trống Thức vô biên xứ và Vô sở hữu xứ, còn tính một nương tưởng Phi tưởng phi phi tưởng xứ. Biết đúng cái vắng và cái còn, pháp không hiện khởi chân thật, không đảo ngược, thuần tịnh."
+          ]
+        },
+        {
+          "id": "signless",
+          "kind": "teaching",
+          "heading": "Vô tướng tâm định và phần còn liên hệ đến thân",
+          "meaningUnits": [
+            "signless-focus",
+            "signless-burden",
+            "signless-empty",
+            "signless-principle"
+          ],
+          "paragraphs": [
+            "Không tác ý tưởng Vô sở hữu xứ và Phi tưởng phi phi tưởng xứ, vị ấy chú tâm tính một nương vô tướng tâm định, sự định tâm không dựa vào dấu tướng, tức các dấu hiệu hay đặc điểm được nhận biết. Tâm hướng vào, có niềm tin trong sáng, an trú, xác quyết.",
+            "Não hại do hai tưởng trước không có. Phần não hại còn lại liên hệ sáu xứ — mắt, tai, mũi, lưỡi, thân, ý — tùy thuộc chính thân này và được mạng sống làm điều kiện. Lĩnh vực tưởng trống hai tưởng trước; phần không trống cũng chính là sáu xứ nương thân và mạng sống. Cái vắng và cái còn đều được biết đúng; pháp không hiện khởi chân thật, không đảo ngược, thuần tịnh."
+          ]
+        },
+        {
+          "id": "constructed",
+          "kind": "teaching",
+          "heading": "Thấy ngay định vô tướng là được tạo tác",
+          "meaningUnits": [
+            "signless-again",
+            "constructed"
+          ],
+          "paragraphs": [
+            "Phật lại nêu việc không tác ý tưởng Vô sở hữu xứ và Phi tưởng phi phi tưởng xứ, chú tâm tính một nương vô tướng tâm định. Tâm vẫn có đủ bốn nét: hướng vào, có niềm tin trong sáng, an trú, xác quyết.",
+            "Bước biết tiếp theo là: ngay vô tướng tâm định cũng do hành tạo tác, do tư tạo tác, tức được hình thành bởi hoạt động và ý định. Bất cứ gì được tạo tác như vậy đều vô thường, có bản chất chấm dứt. Trạng thái định tinh tế ấy cũng được nhìn thẳng như một pháp có điều kiện."
+          ]
+        },
+        {
+          "id": "release",
+          "kind": "teaching",
+          "heading": "Giải thoát ba lậu và biết đã giải thoát",
+          "meaningUnits": [
+            "release"
+          ],
+          "paragraphs": [
+            "Biết và thấy như thế, tâm vị ấy thoát dục lậu, hữu lậu và vô minh lậu: ô nhiễm sâu do ham muốn giác quan, bám vào hiện hữu và không hiểu đúng. Khi tâm giải thoát, có sự biết rằng đã giải thoát.",
+            "Vị ấy biết sinh đã tận, phạm hạnh — đời tu thanh tịnh — đã hoàn thành, việc cần làm đã làm, không còn trở lại trạng thái hiện hữu này. Sự biết vô thường và chấm dứt ở bước trước dẫn vào sự giải thoát này."
+          ]
+        },
+        {
+          "id": "remaining",
+          "kind": "teaching",
+          "heading": "Sau giải thoát, biết đúng phần còn",
+          "meaningUnits": [
+            "released-burden",
+            "released-empty",
+            "supreme"
+          ],
+          "paragraphs": [
+            "Não hại do dục lậu, hữu lậu, vô minh lậu không còn. Phần nhỏ còn lại liên hệ sáu xứ tùy thuộc chính thân, có mạng sống làm điều kiện. Lĩnh vực tưởng trống cả ba lậu; điều còn có cũng là sáu xứ nương thân và mạng sống.",
+            "Cái không có được thấy là trống; cái còn lại được biết thật có. Sự hiện khởi pháp không này chân thật, không đảo ngược, thuần tịnh, tối thượng vô thượng. Ba lậu đã được đoạn, trong khi điều còn liên hệ đến thân sống vẫn được nhận biết chính xác."
+          ]
+        },
+        {
+          "id": "three-times",
+          "kind": "teaching",
+          "heading": "Một pháp không trong cả ba thời",
+          "meaningUnits": [
+            "past",
+            "future",
+            "present",
+            "training",
+            "close"
+          ],
+          "paragraphs": [
+            "Phật nói mọi sa-môn hay bà-la-môn, những người tu được nhắc trong bài, đã chứng đạt và an trú pháp không thuần tịnh tối thượng trong quá khứ đều an trú chính pháp không này. Những vị sẽ chứng đạt, an trú trong tương lai cũng vậy; những vị đang chứng đạt, an trú trong hiện tại cũng vậy.",
+            "Vì thế, Ngài dạy Ānanda và các thầy học: chúng ta sẽ chứng đạt và an trú pháp không thuần tịnh tối thượng. Phật giảng xong, Ānanda hoan hỷ tán đồng. Kinh Tiểu Không, bài thứ nhất trong nhóm, kết thúc."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: khi công việc đã bớt mà tâm vẫn còn bám",
+          "meaningUnits": [
+            "forest-burden",
+            "forest-empty",
+            "constructed"
+          ],
+          "paragraphs": [
+            "Ví dụ do người biên tập thêm: sau khi hoàn thành một dự án, áp lực thời hạn đã vắng, nhưng ý muốn được khen vẫn còn. Nhận đúng cả hai giúp ta không vội kết luận rằng mình đã hoàn toàn nhẹ lòng. Ví dụ minh họa việc phân biệt điều vắng với điều còn; nó không đồng nhất một trạng thái làm việc thoải mái với những chứng định trong kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một lần nhìn lại có căn cứ",
+          "meaningUnits": [
+            "forest-principle",
+            "supreme"
+          ],
+          "paragraphs": [
+            "Gợi ý của người biên tập: chọn một lúc vừa bớt bận, tự ghi nhận điều gây vướng nào đã vắng và điều nào còn thực sự có mặt. Giữ lời nhận xét trong điều mình biết; không ép mình phải thấy trống rỗng hoặc tuyên bố đã buông hết. Đó là một cách tập quan sát trung thực trong đời sống, trong khi pháp không tối thượng của bài gắn với việc đoạn tận lậu hoặc."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "MN121 cho người lớn tuổi — Biết rõ điều đã vắng và điều đang còn",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một buổi chiều ở Đông Viên",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "visit"
+          ],
+          "paragraphs": [
+            "Kinh Tiểu Không, bài 121 của Trung Bộ, bắt đầu bằng lời người truyền kinh đã nghe. Đức Phật đang ở Sāvatthī, tại Đông Viên, lâu đài mẹ Migāra. Buổi chiều, Tôn giả Ānanda ra khỏi thiền tịnh, đến kính lễ Phật rồi ngồi một bên. Ānanda là một vị tỳ-kheo, người nam xuất gia."
+          ]
+        },
+        {
+          "id": "memory",
+          "kind": "teaching",
+          "heading": "Hỏi lại điều mình đã nghe",
+          "meaningUnits": [
+            "memory",
+            "confirmation",
+            "continuity"
+          ],
+          "paragraphs": [
+            "Ānanda nhớ một lần ở Nagaraka, thị trấn của người Sakya. Vị ấy đã trực tiếp nghe và thọ trì, nghĩa là tiếp nhận gìn giữ, lời Phật nói Ngài hiện nay thường an trú pháp không, tức ở vững trong cách tu ấy.",
+            "Ānanda hỏi mình đã nghe đúng, thọ trì đúng, tác ý đúng và ghi nhớ đúng chăng. Tác ý là hướng sự chú ý. Phật xác nhận cả bốn điều. Ngài thường an trú pháp không cả trước đây lẫn bây giờ. Từ đó, Ngài giảng cách biết rõ điều vắng mặt cùng điều còn hiện diện."
+          ]
+        },
+        {
+          "id": "hall",
+          "kind": "teaching",
+          "heading": "Trống điều gì, vẫn còn điều gì?",
+          "meaningUnits": [
+            "hall"
+          ],
+          "paragraphs": [
+            "Lâu đài mẹ Migāra trống voi, bò, ngựa, ngựa cái; trống vàng bạc; trống cuộc tụ hội nam nữ. Tuy nhiên, vẫn có tính một do duyên Tăng chúng tỳ-kheo: sự hiện diện của cộng đồng ấy được nhìn theo một mối. Cái trống không được nhận biết gắn với từng điều cụ thể."
+          ]
+        },
+        {
+          "id": "words",
+          "kind": "clarification",
+          "heading": "Những từ sẽ gặp nhiều lần",
+          "meaningUnits": [
+            "forest-focus",
+            "forest-principle"
+          ],
+          "paragraphs": [
+            "Tưởng là cách nhận biết một đối tượng, như làng, người hoặc rừng. Tính một nói đến sự quy tụ theo một mối. Khi chú tâm một tưởng, người tu xét rõ điều gì đã vắng, điều gì còn nương nơi tưởng ấy.",
+            "Nguyên tắc Phật dạy là: vắng điều gì thì biết trống điều ấy; còn điều gì thì biết đúng rằng nó có mặt. Cách nhìn này đi suốt các chặng tu trong bài."
+          ]
+        },
+        {
+          "id": "forest",
+          "kind": "teaching",
+          "heading": "Chú tâm tưởng rừng",
+          "meaningUnits": [
+            "forest-focus",
+            "forest-burden"
+          ],
+          "paragraphs": [
+            "Vị tỳ-kheo không tác ý tưởng làng và tưởng người, chỉ chú tâm tính một nương tưởng rừng. Tâm hướng vào, có niềm tin trong sáng, an trú và xác quyết nơi tưởng ấy.",
+            "Vị ấy biết não hại, tức sự bức bách, do tưởng làng và người vắng mặt. Phần bức bách nhỏ còn lại gắn với tính một nương tưởng rừng."
+          ]
+        },
+        {
+          "id": "forest-check",
+          "kind": "teaching",
+          "heading": "Nhận biết không bỏ sót phần còn",
+          "meaningUnits": [
+            "forest-empty",
+            "forest-principle"
+          ],
+          "paragraphs": [
+            "Lĩnh vực tưởng trống tưởng làng và người; điều còn có là tính một nương tưởng rừng. Vắng gì thấy trống điều ấy, còn gì biết thật có. Sự hiện khởi pháp không như vậy chân thật, không đảo ngược và thuần tịnh, nghĩa là thanh sạch."
+          ]
+        },
+        {
+          "id": "earth",
+          "kind": "teaching",
+          "heading": "Chú tâm tưởng đất",
+          "meaningUnits": [
+            "earth-focus",
+            "earth-simile"
+          ],
+          "paragraphs": [
+            "Vị ấy không tác ý tưởng người và tưởng rừng, mà chú tâm tính một nương tưởng đất. Tâm hướng vào, có niềm tin trong sáng, an trú, xác quyết.",
+            "Phật ví như tấm da bò đực căng bằng một trăm cọc, không còn nếp nhăn. Vị ấy không chú ý những chỗ cao thấp nhấp nhô, sông ngòi khó lội, gốc cây và gai, núi non gồ ghề. Chỉ chú tâm đất theo một mối, tâm lại hướng vào, có niềm tin trong sáng, an trú và xác quyết."
+          ]
+        },
+        {
+          "id": "earth-check",
+          "kind": "teaching",
+          "heading": "Biết đúng ở chặng tưởng đất",
+          "meaningUnits": [
+            "earth-burden",
+            "earth-empty",
+            "earth-principle"
+          ],
+          "paragraphs": [
+            "Não hại do tưởng người và rừng không có; chút não hại nương tính một của tưởng đất còn. Lĩnh vực tưởng trống hai tưởng trước, nhưng còn tính một nương tưởng đất.",
+            "Vị ấy thấy cái vắng là trống, biết cái còn là thật có. Pháp không hiện khởi chân thật, không đảo ngược, thuần tịnh. Sự yên lắng vẫn được xem xét cẩn thận trong các điều đang có mặt."
+          ]
+        },
+        {
+          "id": "space",
+          "kind": "teaching",
+          "heading": "Không vô biên xứ",
+          "meaningUnits": [
+            "space-focus",
+            "space-burden",
+            "space-empty",
+            "space-principle"
+          ],
+          "paragraphs": [
+            "Không tác ý tưởng rừng và đất, vị ấy chú tâm tính một nương tưởng Không vô biên xứ, trạng thái nhận biết không gian vô biên. Tâm hướng vào, có niềm tin trong sáng, an trú, xác quyết nơi ấy.",
+            "Não hại do hai tưởng trước vắng; còn chút não hại nương tính một của tưởng Không vô biên xứ. Lĩnh vực tưởng trống rừng và đất, còn tính một nương tưởng đang được chú tâm.",
+            "Vắng gì biết trống, còn gì biết có. Sự hiện khởi pháp không này chân thật, không đảo ngược, thuần tịnh."
+          ]
+        },
+        {
+          "id": "consciousness",
+          "kind": "teaching",
+          "heading": "Thức vô biên xứ",
+          "meaningUnits": [
+            "consciousness-focus",
+            "consciousness-burden",
+            "consciousness-empty",
+            "consciousness-principle"
+          ],
+          "paragraphs": [
+            "Không tác ý tưởng đất và Không vô biên xứ, vị ấy chú tâm tính một nương tưởng Thức vô biên xứ, nhận biết thức, sự hay biết, là vô biên. Tâm hướng vào, có niềm tin trong sáng, an trú, xác quyết.",
+            "Não hại do tưởng đất và Không vô biên xứ vắng; chút não hại do tính một nương tưởng Thức vô biên xứ còn. Lĩnh vực tưởng trống hai tưởng trước, còn tính một nương tưởng này.",
+            "Vắng điều nào thấy trống điều ấy, còn điều nào biết thật có. Pháp không hiện khởi chân thật, không đảo ngược, thuần tịnh."
+          ]
+        },
+        {
+          "id": "nothing",
+          "kind": "teaching",
+          "heading": "Vô sở hữu xứ",
+          "meaningUnits": [
+            "nothingness-focus",
+            "nothingness-burden",
+            "nothingness-empty",
+            "nothingness-principle"
+          ],
+          "paragraphs": [
+            "Không tác ý tưởng Không vô biên xứ và Thức vô biên xứ, vị ấy chú tâm tính một nương tưởng Vô sở hữu xứ. Đó là nhận thức không có gì trong trạng thái thiền này. Tâm hướng vào, có niềm tin trong sáng, an trú, xác quyết.",
+            "Não hại do hai tưởng trước vắng, chút não hại nương tính một của tưởng Vô sở hữu xứ còn. Lĩnh vực tưởng trống hai tưởng trước, vẫn còn tính một nương tưởng hiện tại.",
+            "Vị ấy biết đúng cái vắng, cái còn; pháp không hiện khởi chân thật, không đảo ngược, thuần tịnh. Ngay nhận thức không có gì cũng được xét trong những điều kiện của nó."
+          ]
+        },
+        {
+          "id": "neither",
+          "kind": "teaching",
+          "heading": "Phi tưởng phi phi tưởng xứ",
+          "meaningUnits": [
+            "neither-focus",
+            "neither-burden",
+            "neither-empty",
+            "neither-principle"
+          ],
+          "paragraphs": [
+            "Không tác ý tưởng Thức vô biên xứ và Vô sở hữu xứ, vị ấy chú tâm tính một nương tưởng Phi tưởng phi phi tưởng xứ. Tên này chỉ trạng thái không thể gọi là có tưởng, cũng không thể gọi hẳn là không có tưởng. Tâm hướng vào, có niềm tin trong sáng, an trú, xác quyết.",
+            "Não hại do hai tưởng trước không có; chút não hại nương tính một của tưởng đang được chú tâm còn. Lĩnh vực tưởng trống Thức vô biên xứ và Vô sở hữu xứ, còn tính một nương tưởng Phi tưởng phi phi tưởng xứ.",
+            "Vắng gì thấy trống, còn gì biết có. Pháp không hiện khởi chân thật, không đảo ngược, thuần tịnh."
+          ]
+        },
+        {
+          "id": "signless",
+          "kind": "teaching",
+          "heading": "Chú tâm vô tướng tâm định",
+          "meaningUnits": [
+            "signless-focus",
+            "signless-burden"
+          ],
+          "paragraphs": [
+            "Không tác ý tưởng Vô sở hữu xứ và Phi tưởng phi phi tưởng xứ, vị ấy chú tâm tính một nương vô tướng tâm định, sự định tâm không dựa vào dấu tướng, tức các dấu hiệu hay đặc điểm được nhận biết. Tâm hướng vào, có niềm tin trong sáng, an trú, xác quyết.",
+            "Não hại do hai tưởng trước vắng. Phần nhỏ còn lại liên hệ sáu xứ — mắt, tai, mũi, lưỡi, thân và ý — tùy thuộc chính thân này và được mạng sống làm điều kiện."
+          ]
+        },
+        {
+          "id": "signless-check",
+          "kind": "teaching",
+          "heading": "Sáu xứ nương vào thân sống",
+          "meaningUnits": [
+            "signless-empty",
+            "signless-principle"
+          ],
+          "paragraphs": [
+            "Lĩnh vực tưởng trống Vô sở hữu xứ và Phi tưởng phi phi tưởng xứ. Phần không trống chính là sáu xứ nương thân này, có mạng sống làm điều kiện.",
+            "Cái vắng và cái còn đều được biết đúng. Đó là sự hiện khởi pháp không chân thật, không đảo ngược, thuần tịnh. Phần còn liên hệ đến thân đang sống được nhận biết rõ ràng."
+          ]
+        },
+        {
+          "id": "constructed",
+          "kind": "teaching",
+          "heading": "Ngay định sâu cũng được tạo tác",
+          "meaningUnits": [
+            "signless-again",
+            "constructed"
+          ],
+          "paragraphs": [
+            "Phật lại nêu việc không tác ý tưởng Vô sở hữu xứ và Phi tưởng phi phi tưởng xứ, chú tâm tính một nương vô tướng tâm định. Tâm hướng vào, có niềm tin trong sáng, an trú, xác quyết.",
+            "Vị ấy biết: ngay định vô tướng này cũng do hành và tư tạo tác, nghĩa là được hình thành bởi hoạt động và ý định. Mọi điều được tạo tác như vậy đều vô thường, có bản chất chấm dứt. Sự biết ấy hướng ngay vào trạng thái định đang có."
+          ]
+        },
+        {
+          "id": "release",
+          "kind": "teaching",
+          "heading": "Giải thoát và tự biết đã giải thoát",
+          "meaningUnits": [
+            "release"
+          ],
+          "paragraphs": [
+            "Biết và thấy như vậy, tâm vị ấy thoát dục lậu, hữu lậu, vô minh lậu. Đó là những ô nhiễm sâu do ham muốn giác quan, bám vào hiện hữu và không hiểu đúng. Tâm được giải thoát, có sự biết đã giải thoát.",
+            "Vị ấy biết sinh đã tận, phạm hạnh — đời tu thanh tịnh — đã hoàn thành, việc cần làm đã làm, không còn trở lại trạng thái hiện hữu này."
+          ]
+        },
+        {
+          "id": "released-burden",
+          "kind": "teaching",
+          "heading": "Ba nguồn não hại đã hết",
+          "meaningUnits": [
+            "released-burden"
+          ],
+          "paragraphs": [
+            "Não hại do dục lậu, hữu lậu và vô minh lậu đều không còn. Phần nhỏ còn lại liên hệ sáu xứ tùy thuộc chính thân này, được mạng sống làm điều kiện. Vị đã giải thoát nhận biết đầy đủ cả điều đã hết lẫn phần còn nương thân sống."
+          ]
+        },
+        {
+          "id": "released-empty",
+          "kind": "teaching",
+          "heading": "Pháp không tối thượng",
+          "meaningUnits": [
+            "released-empty",
+            "supreme"
+          ],
+          "paragraphs": [
+            "Lĩnh vực tưởng trống cả ba lậu. Phần không trống vẫn là sáu xứ nương thân này, có mạng sống làm điều kiện. Điều vắng được thấy là trống, điều còn được biết thật có.",
+            "Sự hiện khởi pháp không ấy chân thật, không đảo ngược, thuần tịnh và tối thượng vô thượng: cao nhất, không gì vượt hơn. Đây là sự thanh tịnh gắn với việc hết cả ba lậu đã nói."
+          ]
+        },
+        {
+          "id": "times",
+          "kind": "teaching",
+          "heading": "Điều được nói cho cả ba thời",
+          "meaningUnits": [
+            "past",
+            "future",
+            "present"
+          ],
+          "paragraphs": [
+            "Phật nói mọi sa-môn và bà-la-môn, các hạng người tu được nhắc trong bài, đã chứng đạt và an trú pháp không thuần tịnh tối thượng trong quá khứ đều an trú chính pháp không này.",
+            "Những vị sẽ chứng đạt và an trú pháp không thuần tịnh tối thượng trong tương lai cũng an trú chính pháp không này. Những vị đang chứng đạt và an trú trong hiện tại cũng vậy."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Lời dạy về sự học tập",
+          "meaningUnits": [
+            "training",
+            "close"
+          ],
+          "paragraphs": [
+            "Vì thế, Phật dạy Ānanda và các thầy học tập: chúng ta sẽ chứng đạt và an trú pháp không thuần tịnh tối thượng. An trú là ở vững trong sự chứng đạt ấy.",
+            "Đức Phật giảng xong, Ānanda hoan hỷ, tán đồng lời Ngài. Kinh Tiểu Không, bài thứ nhất trong nhóm, kết thúc."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: khi một việc đã xong",
+          "meaningUnits": [
+            "hall",
+            "forest-principle"
+          ],
+          "paragraphs": [
+            "Ví dụ do người biên tập thêm: sau một buổi họp mặt, khách đã về, việc đón tiếp đã xong, nhưng trong lòng ta còn vui hoặc vẫn vướng một câu nói. Có thể nhận đúng cả phần việc đã vắng lẫn cảm xúc còn lại. Việc ấy giúp hiểu cách xét vắng và còn; các chứng định cùng sự giải thoát trong kinh có phạm vi sâu hơn."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một khoảng nhìn lại thong thả",
+          "meaningUnits": [
+            "forest-principle",
+            "supreme"
+          ],
+          "paragraphs": [
+            "Gợi ý của người biên tập: trong một khoảng yên, nhận ra một mối bận tâm đã lắng và điều đang còn có mặt. Chỉ ghi nhận đến mức mình biết rõ, không tự buộc phải hết mọi suy nghĩ. Đây là cách tập nhìn trung thực trong sinh hoạt; pháp không tối thượng được bài kinh trình bày cùng sự đoạn tận lậu hoặc."
+          ]
+        }
+      ]
+    }
+  }
+}

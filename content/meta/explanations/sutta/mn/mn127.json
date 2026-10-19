@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn127",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "d235b16e-501d-4581-8a6c-ca875673727e"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "31eb60cf-1726-4b46-889d-47e110b30d78"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "a58baa0d-e945-4996-bd15-368174199ca2"
+    }
+  },
+  "reviews": [
+    {
+      "id": "d235b16e-501d-4581-8a6c-ca875673727e",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.6,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đủ năm nguồn: lời mời Anuruddha cùng ba vị nữa được giữ trong cả lời nhờ lẫn lời chuyển; bảy phạm vi và sáu cặp so sánh theo Pāli/Việt, kể cả hai chỗ HTML lược. Ngọn lửa không bị đổi thành màu sắc ở ví đèn tản ra.",
+        "semantic_fidelity": "Hai cách tâm giải thoát vẫn khác cả nghĩa lẫn cách nói trong bài này. Bốn sự tái sinh giữ điều kiện thân hoại sau chết; thô nặng của thân không bị đổi thành dâm hạnh, và thiền không như mờ đục không được nâng thành giải thoát rốt ráo.",
+        "core_coverage": "Hai mươi lăm mục triển khai toàn 48 ý, từ lời truyền và lời mời đến hai lớp hỏi nhân duyên cùng lời xác nhận cuối. Đủ bốn tâm, bảy phạm vi, bốn tái sinh, hai cảnh đèn, ba vế thường tồn, sáu cặp và ba nhóm trở ngại ở cả hai chiều.",
+        "logic_context": "Nhận định ban đầu thuộc Pañcakaṅga, lời giải thuộc Anuruddha, câu hỏi sau thuộc Sabhiya Kaccāna. Nhận xét về kinh nghiệm đi trước phản hồi và xác nhận; lợi ích hết nghi của gia chủ phân biệt với chúng tôi được nghe pháp.",
+        "terminology": "Từ, bi, hỷ, xả và hào quang có nghĩa gần ngay tại chỗ; an trú được mở thêm sau kiểm chéo. Đại hành được giải bằng phạm vi trải tâm; các danh từ tâm giải thoát và tái sinh vẫn đòi trẻ đọc chậm.",
+        "audience_fit": "Ví đọc nhiều và đọc kỹ gần việc học, lời mời hỏi nghĩa từ cùng một việc tử tế vừa sức. Các cảnh gốc cây, ngôi nhà, đèn và ruồi cụ thể; phần cõi trời và các cấp tu vẫn khá trừu tượng đối với trẻ chưa quen.",
+        "clarity": "Hai mươi lăm mục chia sáu cặp so thành ba chặng và tách hai cảnh đèn nên dễ theo sự khác nhau. Các nhịp lặp có quy chiếu rõ, nhưng số tên riêng và công thức khiến bài vẫn cần nhiều lượt đọc.",
+        "editorial_separation": "Ví đọc sách và gợi ý hiện đại nằm trong example/practice; những đèn dầu, ruồi, phạm vi gốc cây và lời nhận xét về chư thiên được giữ như nội dung kinh. Bài không đặt tình huống học sinh vào cuộc đối thoại cổ.",
+        "practical_integrity": "Gợi ý hỏi người biết hướng dẫn và tập lòng từ, bi, hỷ, xả giữ phạm vi nhỏ trong đời sống. Không giao trẻ thực hành thắp đèn hay đuổi bắt ruồi; việc tử tế không được tuyên bố đủ đem lại hào quang hoặc tái sinh đã kể.",
+        "technical_integrity": "Audit prepared độc lập sạch; toàn 147 khóa nằm trong 48 ý, bản trẻ dùng đủ qua phần giảng. Đọc trọn bản trẻ và đọc lại toàn boundless sau mở an trú; năm SHA cùng fingerprint cuối được đối chiếu với bản thực."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm độc lập đọc đủ năm nguồn: 147 khóa Pāli/Việt/Anh, 11 chú thích, 26 ô Anh trống, toàn HTML SC1–41 và ghi công; toàn 48 ý và ba bản. Đã đọc lại trọn ba mục mở an trú, xác minh nguồn và fingerprint cuối. Chưa có thử nghiệm độc giả thật hoặc phê chuẩn học giả Pāli.",
+      "contentHash": "5f00db1ce6fc1565236a4394427345f9a121ebbc7739e688a3a43168d7585910",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn127.html",
+          "sha256": "064ffec8d9dd49e8f50702b79544d5f4f3c79fafc494e98e23d81f881e5a2774"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn127_root-pli-ms.json",
+          "sha256": "86f63e8819441a53464bb885ceb7a0e89e92ec41c9d6bc0785f12ea6ddb72f6a"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn127_translation-en-sujato.json",
+          "sha256": "5ab16d940cdf478f3fc9a257159c391683cfb1d823c7ddf13ea8cc4e91efe1ca"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn127_comment-vi-project.json",
+          "sha256": "d8b483a8a6eb8833c206891a558d46ccf72e467eccfcc86144555d22381d0c15"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn127_translation-vi-project.json",
+          "sha256": "7084611d5246df74419e07934e2f3deda2f36eb569ef9173198fa56f91af8587"
+        }
+      ]
+    },
+    {
+      "id": "31eb60cf-1726-4b46-889d-47e110b30d78",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.6,
+        "clarity": 9.7,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Đủ 147 khóa Pāli/Việt/Anh, 11 chú thích và toàn HTML SC1–41/ghi công đã đọc. Giữ tổng bốn người được mời, rút tay khỏi bát, Sabhiya Kaccāna, bảy phạm vi và đủ sáu so sánh, không theo các chỗ Anh hoặc HTML lược hay khác.",
+        "semantic_fidelity": "Phân biệt vô lượng với đại hành theo đúng định nghĩa tại đây; phạm vi tu và mức thanh tịnh có hai câu hỏi nhân duyên riêng. Bốn tái sinh, sự ưa thích dù không nghĩ thường tồn và ba nhóm trở ngại không bị đổi thành lời khuyên năng suất.",
+        "core_coverage": "Hai mươi mục có toàn 48 ý; phần mở gộp nhưng giữ đủ lời nhờ, lời chuyển và im lặng nhận lời. Bảy phạm vi đều có công thức chung rõ; sáu cặp so sánh, hai loại đèn dầu/bấc và các kết nhân duyên đều hiện diện.",
+        "logic_context": "Giữ thứ tự gia chủ tự nêu suy nghĩ rồi được giảng, Kaccāna hỏi lại về phạm vi và thanh tịnh, sau cùng nhận xét về kinh nghiệm. Anuruddha phản hồi trước khi xác nhận ba việc đã từng trải; kết ông/chúng tôi đúng hai chủ thể.",
+        "terminology": "Tác ý quyết định được giải là hướng tâm xác định; thô trọng, hôn trầm, hào quang và thiên chúng được mở gọn. An trú đã có giải ngay lần đầu sau sửa; chữ đại hành giữ được vai trò tên một cách tu.",
+        "audience_fit": "Ví mở rộng tầm nhìn và giữ thiện ý hợp hoàn cảnh công việc, giúp người trưởng thành thấy cần hỏi rõ nội dung lời khuyên. Hai mươi mục đủ khoảng dừng; phần danh mục lặp vẫn cần tập trung hơn một bài đọc thông thường.",
+        "clarity": "Từ câu hỏi đến định nghĩa, tái sinh, sáu so sánh và ví thanh tịnh có đường dây rõ. Tụ họp/tản ra và nhiễm ô/thanh tịnh được đặt cạnh nhau; các đoạn không quá dài, dù mạch công thức có độ lặp cần thiết.",
+        "editorial_separation": "Tình huống nhóm làm việc có nhãn ví dụ hiện đại, không tự xem hai lời khuyên quản lý là định nghĩa hai tâm giải thoát. Phần thực hành riêng giúp người đọc phân biệt ứng dụng gợi ý với lời giảng của Anuruddha.",
+        "practical_integrity": "Khuyến khích hỏi lại hướng dẫn và nhận biết uể oải, xao động, hối tiếc trong phạm vi quan sát bản thân. Không suy diễn một buổi làm việc sáng rõ hay thiện ý với đồng nghiệp là thành tựu thiền hoặc bằng chứng cõi tái sinh.",
+        "technical_integrity": "Nguồn/schema trong fixture độc lập không lỗi; 147 khóa và 48 ý đủ trong phần triển khai. Toàn bản trưởng thành được đọc, mục immeasurable sau sửa được đọc lại; SHA và dấu nội dung khớp bản cuối còn ngoài canonical."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm độc lập đọc đủ năm nguồn: 147 khóa Pāli/Việt/Anh, 11 chú thích, 26 ô Anh trống, toàn HTML SC1–41 và ghi công; toàn 48 ý và ba bản. Đã đọc lại trọn ba mục mở an trú, xác minh nguồn và fingerprint cuối. Chưa có thử nghiệm độc giả thật hoặc phê chuẩn học giả Pāli.",
+      "contentHash": "5feb6d89065ee62376965ab3199109d6bb09bc00176b1bfa0716beb3e759ee9b",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn127.html",
+          "sha256": "064ffec8d9dd49e8f50702b79544d5f4f3c79fafc494e98e23d81f881e5a2774"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn127_root-pli-ms.json",
+          "sha256": "86f63e8819441a53464bb885ceb7a0e89e92ec41c9d6bc0785f12ea6ddb72f6a"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn127_translation-en-sujato.json",
+          "sha256": "5ab16d940cdf478f3fc9a257159c391683cfb1d823c7ddf13ea8cc4e91efe1ca"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn127_comment-vi-project.json",
+          "sha256": "d8b483a8a6eb8833c206891a558d46ccf72e467eccfcc86144555d22381d0c15"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn127_translation-vi-project.json",
+          "sha256": "7084611d5246df74419e07934e2f3deda2f36eb569ef9173198fa56f91af8587"
+        }
+      ]
+    },
+    {
+      "id": "a58baa0d-e945-4996-bd15-368174199ca2",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.5,
+        "clarity": 9.6,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Năm tệp thực đã được đọc trọn; 26 ô Anh trống không làm chứng cứ đồng thuận. Giữ cả hai lớp chuyển lời lễ chân, mặt đất có biển bao quanh, cặp một vùng/hai ba vùng và hai lợi ích ông/chúng tôi theo Pāli/dự án.",
+        "semantic_fidelity": "Bốn tâm đều giữ phạm vi cùng phẩm chất; đại hành giữ sự trải khắp, xác định và an trú ở từng mức. Hai chiều ba trở ngại giữ mức hoàn toàn, không biến cách tu thanh tịnh ở đoạn ấy thành tuyên bố đã chấm dứt mọi tái sinh.",
+        "core_coverage": "Hai mươi bảy mục bao toàn 48 ý với nhiều chỗ nghỉ. Hai loại tâm, bốn tái sinh, cảnh đèn vào/ra, ruồi, sáu cặp hỏi đáp, hai lần hỏi nhân duyên và ba kinh nghiệm sống chung/trò chuyện/trao đổi đều được giữ.",
+        "logic_context": "Pañcakaṅga hỏi trước, Kaccāna hỏi sau, Anuruddha là người giảng; không gán mọi lời cho Phật. Giữ lời phản hồi xúc phạm/áp đặt trước xác nhận, không thêm tức giận, thời điểm một đời quá khứ cụ thể hoặc cách đi gặp chư thiên.",
+        "terminology": "Tâm từ, bi, hỷ, xả có nghĩa gần, thô trọng và hôn trầm có lời mở riêng. An trú đã được giải ở love sau kiểm chéo; các tên riêng Pāli và cặp vô lượng/đại hành vẫn cần làm quen qua nhịp đọc chậm.",
+        "audience_fit": "Ví họp gia đình, lắng nghe đủ ý và chăm sóc sự bực dọc gần sinh hoạt mà không gán tính cách cho tuổi cao. Hai mươi bảy mục chia ngắn, thực hành tùy sức; nội dung tái sinh và phạm vi tu vẫn có độ trừu tượng.",
+        "clarity": "Các cặp được nhóm thành gốc cây, làng, vương quốc; ba nhóm trở ngại được nói thành câu riêng giúp dễ theo dõi. Tên các mức và công thức lặp còn nhiều, nhưng mỗi phần đều nối được về câu hỏi đang giải.",
+        "editorial_separation": "Cảnh họp gia đình và bài tập hỏi cho rõ mang nhãn hiện đại riêng. Các ví đèn, ruồi và lời Kaccāna vẫn thuộc phần giảng; việc chăm sóc bực dọc không bị gán nguyên văn thành lời cổ.",
+        "practical_integrity": "Gợi ý chọn cơ hội vừa sức để nuôi thiện tâm và thành thật về điều còn phân vân. Không lấy tuổi cao làm lý do buộc phải đạt chứng định, không hứa quan hệ gia đình hòa thuận tự bảo đảm tái sinh hay giải thoát.",
+        "technical_integrity": "Audit độc lập trên bản sao byte nguồn sạch; đủ 147 khóa/48 ý và toàn bản lớn tuổi được đọc. Đọc lại đầy đủ love sau sửa, năm SHA xác minh riêng và fingerprint cuối cùng đúng nội dung đang chấm."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm độc lập đọc đủ năm nguồn: 147 khóa Pāli/Việt/Anh, 11 chú thích, 26 ô Anh trống, toàn HTML SC1–41 và ghi công; toàn 48 ý và ba bản. Đã đọc lại trọn ba mục mở an trú, xác minh nguồn và fingerprint cuối. Chưa có thử nghiệm độc giả thật hoặc phê chuẩn học giả Pāli.",
+      "contentHash": "b42ebf080687439221a515882d6c983d6828d212be3848530eb358ee9f169ea1",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn127.html",
+          "sha256": "064ffec8d9dd49e8f50702b79544d5f4f3c79fafc494e98e23d81f881e5a2774"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn127_root-pli-ms.json",
+          "sha256": "86f63e8819441a53464bb885ceb7a0e89e92ec41c9d6bc0785f12ea6ddb72f6a"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn127_translation-en-sujato.json",
+          "sha256": "5ab16d940cdf478f3fc9a257159c391683cfb1d823c7ddf13ea8cc4e91efe1ca"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn127_comment-vi-project.json",
+          "sha256": "d8b483a8a6eb8833c206891a558d46ccf72e467eccfcc86144555d22381d0c15"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn127_translation-vi-project.json",
+          "sha256": "7084611d5246df74419e07934e2f3deda2f36eb569ef9173198fa56f91af8587"
+        }
+      ]
+    }
+  ]
+}
