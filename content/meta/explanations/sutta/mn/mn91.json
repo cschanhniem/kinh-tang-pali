@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn91",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "4f5bee7a-2103-400d-b61d-33196584a8ed"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "1ec2eaef-95df-4872-85fc-8505f599c945"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "97b5b9a5-4672-454a-8d23-519af747820b"
+    }
+  },
+  "reviews": [
+    {
+      "id": "4f5bee7a-2103-400d-b61d-33196584a8ed",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.8,
+        "terminology": 9.4,
+        "audience_fit": 9.2,
+        "clarity": 9.3,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Bản giữ khoảng năm trăm ở cả tin đầu lẫn lần tới Mithilā, tuổi 120, hơn nghìn con, 32 tướng và bảy ngày tự tay dâng cúng theo Pāli. Những chỗ HTML khác về cảm nhận vị, nhục kế và số lần xưng tên không bị nhập làm sai câu chuyện.",
+        "semantic_fidelity": "Hai con đường là lời truyền Brahmāyu dùng để tìm hiểu; nghi về hai tướng được kể trước lần theo dõi bảy tháng. Câu đáp biết–tu–bỏ và kết năm hạ phần kiết sử không bị đổi thành Brahmāyu đã là A-la-hán.",
+        "core_coverage": "Cả 49 ý có nội dung trong 34 mục, gồm đủ 8+13+11 tướng, mười hoàn cảnh quan sát, tám phẩm chất tiếng và hai lượt rửa bát. Bản cũng giữ năm trạng thái tâm trước Tứ đế, bốn ví lời giảng, ba nơi quy y và lời thỉnh bữa mai.",
+        "logic_context": "Mạch thầy giao việc, học trò báo cáo, thầy gặp trực tiếp rồi nghe Pháp rõ ràng. Những điều Uttara quan sát, lời nghĩ của Brahmāyu, kệ đối thoại và lời Phật xác nhận sau khi ông qua đời không bị trộn người nói hay thời điểm.",
+        "terminology": "Bà-la-môn, tỳ-kheo, gia chủ, thần thông, tam minh, Mâu-ni, pháp nhãn và hóa sinh được mở nghĩa gần nơi dùng. Một số từ hình tướng, tên chim karavīka và lối hỏi giống cái ngữ pháp vẫn khó với trẻ nhỏ; bản không giả vờ giải quyết những từ cổ chưa chắc.",
+        "audience_fit": "Các tiêu đề ngắn dẫn trẻ theo việc hỏi, quan sát, gặp và học; ví dụ anh chị hướng dẫn bạn học có tình huống quen thuộc. Danh sách 32 tướng và nhiều cặp phủ định vẫn tạo tải đọc đáng kể, nên mức phù hợp tuổi thấp hơn mức giữ nguồn.",
+        "clarity": "Các nhóm tướng và từng việc đi, ngồi, rửa, ăn được tách thành đoạn để theo dõi; mục đích dùng bữa nói rõ cảm giác khó chịu cũ và mới. Những đoạn liệt kê dài cần đọc chậm, và cách nói về từ lưỡi thuộc giống cái còn trừu tượng.",
+        "editorial_separation": "Các mục ví dụ, gợi ý và lời giải về cách đọc tướng có loại riêng, không được kể như lời Phật nói. Câu chuyện cổ vẫn hiện diện đầy đủ; phần quan sát đời thường không thế chỗ pháp nhãn, tái sinh hay giải thoát.",
+        "practical_integrity": "Gợi ý cho trẻ chỉ là chú ý khi ăn, san sẻ và xét ý định gây hại theo sức mình. Không biến động tác lưỡi, số lần nhai, tướng mạo hoặc thời hạn trong kinh thành bài tập hay lời hứa thành tựu.",
+        "technical_integrity": "Audit chỉ đọc không có lỗi nội dung hoặc nguồn; 49 đơn vị nối đúng thứ tự đủ 308 khóa Pāli. Ba tệp JSON tham chiếu, HTML và chú thích có hash khớp; bản trẻ dùng mục hợp schema và fingerprint đúng bản đã đọc lại sau sửa."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập đủ năm nguồn, toàn bản đồ và toàn bản diễn giải; các mục sửa đã được đọc lại trọn. Điểm là đánh giá biên tập của AI, chưa có thử nghiệm độc giả hoặc chuyên gia Pāli.",
+      "contentHash": "5ad1220445924fcbc487d8f3be76523d32794b18e25e70aadcc94c8ea26d75f4",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn91.html",
+          "sha256": "584d31fad9ed9b99086fe017d345745bec51b19cee20c3ed6cb6ad48c65b730a"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn91_root-pli-ms.json",
+          "sha256": "87de849eac012747b865637d500c0be37ef7554c238161829ba9f9181706adc7"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn91_translation-en-sujato.json",
+          "sha256": "15a4c20a065f92ce7a4a92fbae408215e4f93d35021a28b8267cc1f51dc5d5a0"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn91_comment-vi-project.json",
+          "sha256": "ba6e325490942c95b0b478573670a64537d47b2b03939a106be7a6f037eb749d"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn91_translation-vi-project.json",
+          "sha256": "acb9ca0bb8b0fbebf5fa0cc322017aca3d59c86a8ad90351a10bf9bc2a8586ea"
+        }
+      ]
+    },
+    {
+      "id": "1ec2eaef-95df-4872-85fc-8505f599c945",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.6,
+        "audience_fit": 9.5,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Các nguồn được đối chiếu tại chỗ khó: Maghadeva theo root, người đưa tin không bị thêm động tác lễ của Anh, hai lần xưng tên và bảy ngày dâng cúng không bị rút theo HTML. Lần nghe tin ở Mithilā đã khôi phục mức khoảng năm trăm; công thức dùng bữa giữ nghĩa khó chịu cũ/mới.",
+        "semantic_fidelity": "Bản phân biệt thấy tướng, kiểm nếp sống, đối thoại và trực nhận Pháp; nội dung giác ngộ quy về biết điều cần biết, tu điều cần tu, bỏ điều cần bỏ. Câu kết giữ hóa sinh rồi sẽ tịch diệt tại đó và không trở lại, không đổi thành giải thoát đã hoàn tất ở thời điểm nghe giảng.",
+        "core_coverage": "28 mục bao trọn 49 ý, từ chương trình học của thầy trò tới tám câu hỏi bằng kệ và lời báo sau khi ông mất. Bảng tướng, hai vòng nước, tám mục đích ăn, mười hoàn cảnh, tám phẩm chất giọng và toàn phần quy y đều có nội dung thực.",
+        "logic_context": "Phần phân tích nối việc đánh giá danh tiếng với quan sát qua thời gian và tự hiểu giáo pháp mà không gán quan điểm mới cho Phật. Sứ giả đứng bên, Brahmāyu xin người khác giữ chỗ, hai lần hiện tướng và thời điểm qua đời được đặt đúng trong chuỗi sự kiện.",
+        "terminology": "Phạm hạnh, tri kiến, viễn ly, thắng trí, pháp nhãn và hạ phần kiết sử có lời giải đủ dùng trong mạch. Cụm về vị giác và cổ vai theo nguồn dự án một cách tiết chế; kệ giống cái và vài danh từ cổ vẫn là giới hạn cần người đọc dừng lại.",
+        "audience_fit": "Bản người trưởng thành dành các mục riêng cho tiêu chuẩn, sự quan sát, lựa chọn câu hỏi và điều được trực nhận. Ví dụ lựa chọn người hướng dẫn và thực hành xét lời nói phù hợp đời sống có trách nhiệm; phần tướng và nghi lễ vẫn dày hơn một bài nhập môn ngắn.",
+        "clarity": "Cấu trúc 28 mục và các câu nối cho thấy vì sao mỗi bước dẫn sang bước sau. Đoạn dùng bữa sau sửa đã trực tiếp, không còn giải cảm thọ quá rộng; vài chuỗi danh sách dài và mô tả bát bằng cặp đối nghĩa vẫn đòi hỏi chú ý.",
+        "editorial_separation": "Nội dung giải thích mạch kinh, ví dụ đánh giá người hướng dẫn và gợi ý hành động được nhận diện riêng. Không đưa dữ liệu hash hay thao tác đối chiếu vào dòng đọc, không dùng ví dụ hiện đại để chứng minh các thành tựu siêu thế.",
+        "practical_integrity": "Thực hành tập trung nhìn lời nói, ý định và sự san sẻ; nó nối được với không hại mình/người/cả hai và bước đầu của bài giảng tuần tự. Bản không hứa rằng một thói quen nhỏ đem ngay kết quả của Brahmāyu hoặc biến mô tả ăn uống thành chỉ dẫn sức khỏe.",
+        "technical_integrity": "Audit canonical sạch, các loại mục và liên kết ý hợp schema; toàn 308 khóa được phân chia đúng thứ tự, không sót hoặc lặp. Fingerprint người trưởng thành được lấy lại sau đọc trọn food và confidence cùng map sửa; đủ năm source hash khớp byte."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập đủ năm nguồn, toàn bản đồ và toàn bản diễn giải; các mục sửa đã được đọc lại trọn. Điểm là đánh giá biên tập của AI, chưa có thử nghiệm độc giả hoặc chuyên gia Pāli.",
+      "contentHash": "07477ce1f1949c862791acdaa09c04c8c501aee504cfeb7a26b5b7720372e3bf",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn91.html",
+          "sha256": "584d31fad9ed9b99086fe017d345745bec51b19cee20c3ed6cb6ad48c65b730a"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn91_root-pli-ms.json",
+          "sha256": "87de849eac012747b865637d500c0be37ef7554c238161829ba9f9181706adc7"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn91_translation-en-sujato.json",
+          "sha256": "15a4c20a065f92ce7a4a92fbae408215e4f93d35021a28b8267cc1f51dc5d5a0"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn91_comment-vi-project.json",
+          "sha256": "ba6e325490942c95b0b478573670a64537d47b2b03939a106be7a6f037eb749d"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn91_translation-vi-project.json",
+          "sha256": "acb9ca0bb8b0fbebf5fa0cc322017aca3d59c86a8ad90351a10bf9bc2a8586ea"
+        }
+      ]
+    },
+    {
+      "id": "97b5b9a5-4672-454a-8d23-519af747820b",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.5,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Bản theo đủ năm nguồn đã đọc, giữ tuổi 120, khoảng năm trăm trong hai lượt tin, 32 tướng và hai mốc bảy tháng/bảy ngày. Cảm vị không bị phủ định theo HTML; hai lần xưng tên và việc chính tay dâng suốt bảy ngày theo Pāli được giữ rõ.",
+        "semantic_fidelity": "Các tướng và tiêu chuẩn thuộc cách Brahmāyu tiếp cận, rồi câu chuyện đi tới học dần và thấy tính sinh diệt. Kết quả năm trói buộc tầng thấp đã dứt, hóa sinh và sẽ tịch diệt tại đó được nói đúng mức, không thêm nơi tái sinh cụ thể hay quả A-la-hán hiện tại.",
+        "core_coverage": "35 mục trình bày đủ 49 ý, bao gồm cả học vấn, lời nhắn báo trước, tám danh xưng được hỏi và phần đáp giải thoát. Những chi tiết dễ bị lược như năm cách chào, hai lượt rửa bát, ba lần kính lễ, hai lần xưng danh và bốn ví tán thán đều còn.",
+        "logic_context": "Các mục ngắn giữ đúng thứ tự người trẻ quan sát, người thầy được báo tin, tự gặp và nghe giảng. Ý định hỏi lợi ích đời sau vẫn là suy nghĩ của Brahmāyu; lời sau khi ông mất thuộc Đức Phật, không biến thành dự đoán của người kể.",
+        "terminology": "Viễn ly, kiết già, phạm hạnh, tam minh, Mâu-ni, pháp nhãn và hóa sinh được diễn bằng từ quen hơn ngay gần nơi xuất hiện. Những tướng như lưới, cổ vai, khăn trên đầu và tên chim vẫn giữ thận trọng, còn một ít gánh nặng thuật ngữ của nguồn cổ.",
+        "audience_fit": "Nhịp 35 mục cho phép dừng sau từng việc; ví dụ nhóm đọc sách và lời mời tiếp tục hỏi, học theo sức mình tôn trọng người lớn tuổi. Độ dài cùng ba nhóm tướng vẫn cần sự tập trung; chưa có dữ liệu thử đọc để xác nhận mức phù hợp cho mọi người cao tuổi.",
+        "clarity": "Câu thường ngắn, mỗi nhóm việc được tách rõ, có nhắc lại chủ thể ở những chỗ đổi cảnh. Phần cảm nhận vị, mục đích bữa ăn và lời thưa cuối dễ theo; đoạn tám tên gọi và lối nói về giống cái ngữ pháp còn là những điểm phải đọc chậm.",
+        "editorial_separation": "Mục theo mạch kinh, ví dụ nhóm đọc sách và thực hành có nhãn riêng; không gán chúng cho lời Phật. Bản đặt tướng mạo trong bối cảnh câu chuyện và giữ sự thấy Pháp vượt khỏi việc quý mến một người đáng tin.",
+        "practical_integrity": "Gợi ý san sẻ vừa sức, giữ lời lành, xét ý định gây hại rồi nhìn lại việc làm có căn cứ trong các đoạn hướng tâm và giảng dần. Không đưa bài tập ép tư thế, thử năng lực đặc biệt hay hứa thành tựu theo tuổi và thời gian.",
+        "technical_integrity": "Audit không có lỗi nguồn hoặc cấu trúc, đủ 49 ý và 308 khóa Pāli theo đúng thứ tự. Đã đọc lại toàn mục mithila sau sửa và đối chiếu fingerprint cuối; năm source hash cùng loại mục teaching/clarification/example/practice hợp lệ."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập đủ năm nguồn, toàn bản đồ và toàn bản diễn giải; các mục sửa đã được đọc lại trọn. Điểm là đánh giá biên tập của AI, chưa có thử nghiệm độc giả hoặc chuyên gia Pāli.",
+      "contentHash": "abd9605161c63c7f246ad47f10e4385d830da3c94097e873c406c833a307609f",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn91.html",
+          "sha256": "584d31fad9ed9b99086fe017d345745bec51b19cee20c3ed6cb6ad48c65b730a"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn91_root-pli-ms.json",
+          "sha256": "87de849eac012747b865637d500c0be37ef7554c238161829ba9f9181706adc7"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn91_translation-en-sujato.json",
+          "sha256": "15a4c20a065f92ce7a4a92fbae408215e4f93d35021a28b8267cc1f51dc5d5a0"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn91_comment-vi-project.json",
+          "sha256": "ba6e325490942c95b0b478573670a64537d47b2b03939a106be7a6f037eb749d"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn91_translation-vi-project.json",
+          "sha256": "acb9ca0bb8b0fbebf5fa0cc322017aca3d59c86a8ad90351a10bf9bc2a8586ea"
+        }
+      ]
+    }
+  ]
+}

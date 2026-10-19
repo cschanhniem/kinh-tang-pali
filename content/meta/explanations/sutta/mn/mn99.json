@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn99",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "7a15aa89-21bb-433c-9b9d-5dff5067bcec"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "e6fb4f7d-ff79-4f8a-a502-b25c5e1c0b75"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "c2c282ac-e1b3-483a-bb14-cb912b4830aa"
+    }
+  },
+  "reviews": [
+    {
+      "id": "7a15aa89-21bb-433c-9b9d-5dff5067bcec",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.5,
+        "clarity": 9.4,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Giữ ba lớp người tự chứng, đúng người khách mong phần riêng rồi giận, làng vừa rời và xe ngựa cái giữa ngày; không nhập các sai khác ở HTML hoặc lời tán thán ba lần riêng của Anh.",
+        "semantic_fidelity": "Hai nếp sống đều được xét theo thực hành đúng/sai; tám nhóm sự vật giữ cả vật và người thấy; quả nghiệp hạn lượng còn đủ hai phủ định và điều kiện tu tâm rộng khắp.",
+        "core_coverage": "Bản trẻ bao trùm đủ 56 đơn vị: bốn phối hợp công việc, năm đức cùng căn cứ thứ sáu, hai thiền, bốn tâm, quy y tại gia và cuộc gặp Jāṇussoṇi; không bỏ phần cuối vì dài.",
+        "logic_context": "Phân biệt nhận xét của Subha với lời Phật; ba lời đáp không dẫn đến ví người mù; giả định về lửa giữ câu nếu có thể và ngoại lệ thần thông trước khi chuyển sang hai nguồn hỷ.",
+        "terminology": "A-la-hán đã được mở nghĩa rõ sau sửa; sa-môn, bà-la-môn, phạm hạnh, tầm/tứ, hỷ/lạc và tù và có lời giải ngắn. Các từ tri kiến thù thắng và nghiệp hạn lượng vẫn cần đọc chậm.",
+        "audience_fit": "Xe đồ chơi và việc nói thật là tình huống gần tuổi học; lời kể gọi em ở phần gợi ý và chia hai tầng thiền riêng. Danh sách mười tên cổ cùng tám nhóm phủ định vẫn đòi hỏi khả năng đọc khá.",
+        "clarity": "Các câu hỏi dẫn mạch từ cách làm đến lòng rộng mở, nhưng witnesses và sight còn là những đoạn liệt kê dài; trẻ mới gặp hệ thuật ngữ thiền có thể cần người lớn đọc cùng.",
+        "editorial_separation": "Ví dụ xe đồ chơi và thực hành nhìn lại lần nói thật có kind, tiêu đề và lời nhận diện riêng; truyện cổ, lời dẫn của Pokkharasāti và lời Phật không bị nhập thành lời khuyên của biên soạn.",
+        "practical_integrity": "Gợi ý chỉ mời nhìn niềm vui sau nói thật và bớt nuôi giận; không hứa đạt thiền, xóa nghiệp hoặc tái sinh nhờ một lần tập. Các điều kiện của bốn tâm ở phần dạy được giữ đầy đủ.",
+        "technical_integrity": "Audit độc lập sạch; 270 khóa Pāli được map đúng thứ tự, đủ liên kết ý cho 22 mục/47 đoạn. Năm SHA nguồn và contentHash đúng freeze sau sửa; chưa lấy kết quả dựng trang làm bằng chứng."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc toàn nguồn/map/bản diễn giải, đóng phát hiện và đọc lại mục sửa; audit độc lập không có lỗi. Hồ sơ đọc và quyết định nguồn: mn99-writer-a-review-source-checkpoint.json, mn99-writer-a-review-reading-checkpoint.json, mn99-writer-a-review-source-notes.json.",
+      "contentHash": "d74ba8482c98de25b3dedda66a169418eecd112f05d8c9c048482e46422cced6",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn99.html",
+          "sha256": "e9e19e925af836bb0c70528dd834b7ec02cba90c2c77d073d66a108c377348b5"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn99_root-pli-ms.json",
+          "sha256": "e8de79b257b74090830a75f706b6d482b740e8db718c5985cf8a506d39000413"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn99_translation-en-sujato.json",
+          "sha256": "9a6fd1ff0c193858c9f7f1bef27fa7815376a6ef0072853d1553c76d98975b5d"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn99_comment-vi-project.json",
+          "sha256": "93b7321f03c6fcd5fca0a32310a9bfbe931aa31afe58c8c367761b3ab503a00c"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn99_translation-vi-project.json",
+          "sha256": "a2e25c5379b5f71d370f99426f384a54e8e921f61e230198e2dfaafe9678ac2f"
+        }
+      ]
+    },
+    {
+      "id": "e6fb4f7d-ff79-4f8a-a502-b25c5e1c0b75",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.7,
+        "clarity": 9.7,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu đủ năm nguồn cho thấy bản giữ nghề nông tại gia, một chủ lễ/hai khách, nước không tự gán công dụng, bốn điều biết về Phạm thiên và lời cuối theo root. Hai ô lược về thiền được mở bằng nguồn thật.",
+        "semantic_fidelity": "Không suy từ quy mô sang kết quả, từ chưa thấy sang không có hay từ năm đức sang thành tựu tự động. Tâm giải thoát được diễn đạt với phạm vi, phẩm chất và hai phủ định về nghiệp hạn lượng có điều kiện.",
+        "core_coverage": "Đủ cả 56 ý trong 19 mục: lời mời nói giữa hội chúng, ba tầng chứng cứ, bốn tiêu chuẩn lời nói, năm cách vướng dục, hai thiền, căn cứ phước thứ sáu, lời từ giã và báo lại đều hiện rõ.",
+        "logic_context": "Mạch lập luận sáng: nêu tiêu chuẩn rồi áp dụng lại cho Pokkharasāti, phân biệt lời Subha về tần suất với lời Phật về trợ duyên, tách nghe biết đường khỏi xin giảng đường và giữ hai lượt hỏi trí tuệ cuối.",
+        "terminology": "Các thuật ngữ A-la-hán, phạm hạnh, triền cái, tầm/tứ, hỷ/lạc, định và bốn tâm đều có lời mở. Những khái niệm quả nghiệp và tri kiến thù thắng vẫn có độ khó nhưng không bị thay bằng mục tiêu đời thường.",
+        "audience_fit": "Ví dụ nhóm làm việc cùng tự xét việc mong được cảm ơn phù hợp trách nhiệm của người trưởng thành. Giọng phân tích tôn trọng người đọc, nối thực hành với việc bớt thù hận mà không biến bài thành kỹ năng hiệu suất.",
+        "clarity": "Cấu trúc hỏi–đáp và các đoạn giải điều kiện giúp theo dõi bài dài. Phần five-practices tập trung nhiều tên, lớp truyền thừa và công thức nên vẫn có mật độ thông tin cao.",
+        "editorial_separation": "Ví dụ nhóm làm việc và gợi ý sau việc tốt được đánh dấu rõ; các lời bình giải mạch đối thoại không được đặt vào miệng Đức Phật. Phần tự thuật của Subha và kinh ví đều giữ lớp người nói.",
+        "practical_integrity": "Phần practice nay trỏ thêm sacrifice đúng chuyện vị khách giành phần; bài tập nhìn động cơ giúp soi niềm vui thiện và lòng thương, không tuyên bố một hành vi nhỏ tương đương chứng đạt bốn tâm.",
+        "technical_integrity": "Audit và kiểm map độc lập đạt: 270 khóa, 56 ý, 19 mục/39 đoạn; tham chiếu sacrifice mới hợp lệ và hash khớp bản đã đọc lại. Năm nguồn còn nguyên byte ở pin đã xác minh, không ghi metadata."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc toàn nguồn/map/bản diễn giải, đóng phát hiện và đọc lại mục sửa; audit độc lập không có lỗi. Hồ sơ đọc và quyết định nguồn: mn99-writer-a-review-source-checkpoint.json, mn99-writer-a-review-reading-checkpoint.json, mn99-writer-a-review-source-notes.json.",
+      "contentHash": "19e18b961d84c405defab6f20dba93806088787970a9c70bb61b1b6dbf5d57c0",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn99.html",
+          "sha256": "e9e19e925af836bb0c70528dd834b7ec02cba90c2c77d073d66a108c377348b5"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn99_root-pli-ms.json",
+          "sha256": "e8de79b257b74090830a75f706b6d482b740e8db718c5985cf8a506d39000413"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn99_translation-en-sujato.json",
+          "sha256": "9a6fd1ff0c193858c9f7f1bef27fa7815376a6ef0072853d1553c76d98975b5d"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn99_comment-vi-project.json",
+          "sha256": "93b7321f03c6fcd5fca0a32310a9bfbe931aa31afe58c8c367761b3ab503a00c"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn99_translation-vi-project.json",
+          "sha256": "a2e25c5379b5f71d370f99426f384a54e8e921f61e230198e2dfaafe9678ac2f"
+        }
+      ]
+    },
+    {
+      "id": "c2c282ac-e1b3-483a-bb14-cb912b4830aa",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.6,
+        "audience_fit": 9.7,
+        "clarity": 9.6,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Bản giữ tên người, thứ tự ba lớp chứng cứ, bảy thế hệ, lòng thương thứ sáu, người vừa rời làng và ngựa cái kéo xe; các chỗ khác HTML đã theo Pāli/dự án, nguồn chữ hiện tại khớp đủ năm SHA.",
+        "semantic_fidelity": "Phủ định của Pokkharasāti được đặt trong tình trạng tâm bị che phủ; thân phận tại gia/xuất gia không thay điều kiện thực hành. Bốn tâm vẫn có đủ giới hạn của mệnh đề về nghiệp, không diễn thành xóa hết hậu quả.",
+        "core_coverage": "24 mục chứa đủ 56 đơn vị; tách bi/hỷ và xả giúp giữ toàn phạm vi, phẩm chất và ví tù và. Cả thầy truyền đời, ba cảm hứng, hai lời hỏi trí tuệ và nhãn thứ chín trong nhóm đều có mặt.",
+        "logic_context": "Các lượt nhắc lại đặt đúng chỗ trong đối thoại: hai nghề dẫn trở lại hai nếp sống, Subha tự xét lời đã viện và kể lại năm trợ duyên sau khi quy y. Không biến quan sát của anh thành phán xét chung về gia đình.",
+        "terminology": "A-la-hán đã được mở bằng giải thoát khỏi trói buộc gây khổ; các từ phạm hạnh, tầm/tứ, hỷ/lạc, định, từ/bi/hỷ/xả được giải tại chỗ. Một số từ như tri kiến và vô lượng vẫn thuộc lớp khái niệm mới.",
+        "audience_fit": "Ví dụ nhận xét người thân và nhớ việc lành tạo điểm tựa phù hợp đời sống nhiều trải nghiệm; giọng bình tĩnh, không giả định bệnh tật hay suy giảm vì tuổi. Chia 24 mục hỗ trợ nhịp đọc chậm.",
+        "clarity": "Các mục ngắn và sự tách từng nhóm thiền/tâm giúp đọc tuần tự. Hai đoạn tên tiên nhân và tám cặp sự vật/người thấy vẫn dài, nhưng không bỏ lô-gic để rút gọn.",
+        "editorial_separation": "Ví dụ gia đình và thực hành nhìn lại việc lành được tách kind/heading; câu nói giận dữ của Subha, lời ông viện dẫn và nhận định của Phật đều nhận rõ chủ thể, không lẫn với giọng khuyên của người viết.",
+        "practical_integrity": "Gợi ý hướng tới lòng bớt căng sau việc chân thật hoặc chia sẻ, không ép bỏ trách nhiệm gia đình, không hứa thiền hay quả tái sinh. Mục tiêu tâm không hận/ác ý được giữ liên tục từ năm đức đến bốn tâm.",
+        "technical_integrity": "Đối chiếu kỹ thuật sạch với 270 khóa theo đúng thứ tự, 56 ý, 24 mục/49 đoạn; contentHash mới khớp ba mở đầu đã đọc lại, năm sourceHash không đổi. Chỉ xác nhận JSON và nguồn, chưa xác nhận dựng giao diện."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc toàn nguồn/map/bản diễn giải, đóng phát hiện và đọc lại mục sửa; audit độc lập không có lỗi. Hồ sơ đọc và quyết định nguồn: mn99-writer-a-review-source-checkpoint.json, mn99-writer-a-review-reading-checkpoint.json, mn99-writer-a-review-source-notes.json.",
+      "contentHash": "0556403b695ee13ac677910be78173f5ac4f8c660cf1843b7e603707eb583ade",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn99.html",
+          "sha256": "e9e19e925af836bb0c70528dd834b7ec02cba90c2c77d073d66a108c377348b5"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn99_root-pli-ms.json",
+          "sha256": "e8de79b257b74090830a75f706b6d482b740e8db718c5985cf8a506d39000413"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn99_translation-en-sujato.json",
+          "sha256": "9a6fd1ff0c193858c9f7f1bef27fa7815376a6ef0072853d1553c76d98975b5d"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn99_comment-vi-project.json",
+          "sha256": "93b7321f03c6fcd5fca0a32310a9bfbe931aa31afe58c8c367761b3ab503a00c"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn99_translation-vi-project.json",
+          "sha256": "a2e25c5379b5f71d370f99426f384a54e8e921f61e230198e2dfaafe9678ac2f"
+        }
+      ]
+    }
+  ]
+}

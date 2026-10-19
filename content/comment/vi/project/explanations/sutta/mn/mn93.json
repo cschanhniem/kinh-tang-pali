@@ -1,0 +1,1519 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn93",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn93_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "f771cf2f86288f17064d1e4389e5324c6e6e4da809537aa5f0347930792c9bc8"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn93_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "d3b89a1716be56b8f0cea6ab2befe48884c7c9747323b37d53c49b594b08ee61"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn93_translation-vi-project.json",
+      "commit": "0b4081326ff6f4785ac13f6e2d947ea1e78449df",
+      "sha256": "a70f40a1153804421703780abfaaa7af396005bfbd45b4c8ae26af74692b050c"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn93.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "6b8ac14b0418a020ac5f6820e78fc016e8995a6976973ea5b471cd972edd194b"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn93_comment-vi-project.json",
+      "commit": "0b4081326ff6f4785ac13f6e2d947ea1e78449df",
+      "sha256": "419aabfbdb9278be8c02f0fd2bacedc6206ceaca5fc26c936475bdeed23ad3bd"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Tên bài",
+      "segments": [
+        "mn93:0.1",
+        "mn93:0.2"
+      ],
+      "summary": "Trung Bộ 93, Kinh Assalāyana."
+    },
+    {
+      "id": "setting",
+      "title": "Lời đã nghe và nơi trú",
+      "segments": [
+        "mn93:1.1",
+        "mn93:1.2"
+      ],
+      "summary": "Người truyền thuật điều đã nghe: Phật tại Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika."
+    },
+    {
+      "id": "delegation",
+      "title": "Khoảng năm trăm bà-la-môn",
+      "segments": [
+        "mn93:2.1",
+        "mn93:2.2",
+        "mn93:2.3",
+        "mn93:2.4"
+      ],
+      "summary": "Khoảng 500 bà-la-môn từ nhiều xứ trú Sāvatthī vì công việc nào đó; nghĩ Gotama chủ trương thanh tịnh cả bốn đẳng cấp, tìm người đủ sức đối chất."
+    },
+    {
+      "id": "student",
+      "title": "Chọn Assalāyana mười sáu tuổi",
+      "segments": [
+        "mn93:3.1",
+        "mn93:3.2",
+        "mn93:3.3",
+        "mn93:3.4"
+      ],
+      "summary": "Assalāyana trẻ, tóc cạo, khoảng 16 tuổi, thông ba Veda/từ vựng/nghi lễ/ngữ âm/phân loại từ/lịch sử thứ năm, từng chữ/ngữ pháp, thế giới học/tướng đại nhân. Nhóm nhắc lại các năng lực, chọn anh có sức đối chất."
+    },
+    {
+      "id": "first-request",
+      "title": "Lời mời lần đầu",
+      "segments": [
+        "mn93:4.1",
+        "mn93:4.2",
+        "mn93:4.3",
+        "mn93:4.4",
+        "mn93:4.5",
+        "mn93:4.6",
+        "mn93:4.7"
+      ],
+      "summary": "Bà-la-môn đến nêu Phật chủ trương thanh tịnh bốn đẳng cấp, mời đối chất. Assalāyana đáp nghe Phật nói đúng pháp, người nói đúng pháp khó đối chất, anh không đủ sức."
+    },
+    {
+      "id": "second-request",
+      "title": "Lần thứ hai thêm kinh nghiệm du sĩ",
+      "segments": [
+        "mn93:4.8",
+        "mn93:4.9",
+        "mn93:4.10",
+        "mn93:4.11",
+        "mn93:4.12",
+        "mn93:4.13",
+        "mn93:4.14",
+        "mn93:4.15"
+      ],
+      "summary": "Nhóm mời lại, thêm anh đã sống du sĩ. Anh lại nêu đủ lời nghe Phật nói đúng pháp/khó đối chất/mình không đủ sức."
+    },
+    {
+      "id": "third-request",
+      "title": "Lần thứ ba anh nhận đi",
+      "segments": [
+        "mn93:4.16",
+        "mn93:4.17",
+        "mn93:4.18",
+        "mn93:4.19",
+        "mn93:4.20",
+        "mn93:4.21",
+        "mn93:4.22",
+        "mn93:4.23",
+        "mn93:4.24",
+        "mn93:4.25",
+        "mn93:4.26"
+      ],
+      "summary": "Lặp lời mời, kinh nghiệm du sĩ và đừng thua trước trận. Assalāyana nói họ chưa nghe lọt ý mình, nhắc đủ ba lý do từ chối, nhưng sẽ đi theo yêu cầu."
+    },
+    {
+      "id": "visit",
+      "title": "Đến chào hỏi Phật",
+      "segments": [
+        "mn93:5.1",
+        "mn93:5.2"
+      ],
+      "summary": "Assalāyana cùng đông bà-la-môn đến, chào hỏi thân thiện, ngồi một bên rồi thưa."
+    },
+    {
+      "id": "claim",
+      "title": "Bốn lời tự tôn",
+      "segments": [
+        "mn93:5.3",
+        "mn93:5.4",
+        "mn93:5.5",
+        "mn93:5.6",
+        "mn93:5.7",
+        "mn93:5.8"
+      ],
+      "summary": "Anh dẫn chủ trương chỉ bà-la-môn tối thượng/khác thấp, trắng/khác đen, thanh tịnh/khác không, chỉ con ruột Phạm thiên/từ miệng/do sinh/do tạo/thừa tự; hỏi Phật nghĩ sao."
+    },
+    {
+      "id": "birth",
+      "title": "Đều sinh từ thai mẹ",
+      "segments": [
+        "mn93:5.9",
+        "mn93:5.10",
+        "mn93:5.11",
+        "mn93:5.12",
+        "mn93:5.13",
+        "mn93:5.14"
+      ],
+      "summary": "Phật nêu nữ bà-la-môn có kinh nguyệt, mang thai, sinh, cho bú; bà-la-môn sinh từ thai mẹ nhưng vẫn nói đủ bốn chủ trương đặc quyền."
+    },
+    {
+      "id": "frontiers",
+      "title": "Hai đẳng cấp ở biên địa",
+      "segments": [
+        "mn93:6.1",
+        "mn93:6.2",
+        "mn93:6.3",
+        "mn93:6.4",
+        "mn93:6.5",
+        "mn93:6.6",
+        "mn93:6.7",
+        "mn93:6.8",
+        "mn93:6.9"
+      ],
+      "summary": "Anh lần một vẫn giữ trọn chủ trương dù Phật nói vậy. Phật hỏi đã nghe Yonaka/Kamboja/biên địa khác chỉ có chủ/tôi tớ, đổi chỗ cả hai chiều chưa; anh xác nhận cả hai. Phật hỏi sức mạnh/cậy tựa nào còn bảo đảm trọn chủ trương."
+    },
+    {
+      "id": "bad-deeds",
+      "title": "Quả mười điều ác cho cả bốn",
+      "segments": [
+        "mn93:7.1",
+        "mn93:7.2",
+        "mn93:7.3",
+        "mn93:7.4",
+        "mn93:7.5",
+        "mn93:7.6",
+        "mn93:7.7",
+        "mn93:7.8",
+        "mn93:7.9",
+        "mn93:7.10",
+        "mn93:7.11",
+        "mn93:7.12",
+        "mn93:7.13",
+        "mn93:7.14",
+        "mn93:7.15",
+        "mn93:7.16"
+      ],
+      "summary": "Anh lần hai vẫn giữ chủ trương. Phật hỏi chỉ Sát-đế-lợi, Phệ-sa, Thủ-đà làm mười ác sau chết đọa dữ/địa ngục, bà-la-môn không? Mười: sát sinh/trộm/tà dục, dối/chia rẽ/ác/phù phiếm, tham/sân/tà kiến. Anh phủ nhận loại trừ, đáp đủ bốn và tất cả cùng hành vi có cùng quả. Phật hỏi sức mạnh/cậy tựa của trọn chủ trương."
+    },
+    {
+      "id": "good-deeds",
+      "title": "Quả mười điều lành cho cả bốn",
+      "segments": [
+        "mn93:8.1",
+        "mn93:8.2",
+        "mn93:8.3",
+        "mn93:8.4",
+        "mn93:8.5",
+        "mn93:8.6",
+        "mn93:8.7",
+        "mn93:8.8",
+        "mn93:8.9",
+        "mn93:8.10",
+        "mn93:8.11",
+        "mn93:8.12",
+        "mn93:8.13",
+        "mn93:8.14"
+      ],
+      "summary": "Anh lần ba giữ chủ trương. Phật hỏi chỉ bà-la-môn tránh bảy ác hành và không tham/không sân/chánh kiến, chết sinh lành/trời, ba hạng kia không? Anh đáp không, đủ bốn và tất cả theo điều kiện ấy cùng quả. Phật hỏi sức mạnh/cậy tựa của chủ trương."
+    },
+    {
+      "id": "loving-kindness",
+      "title": "Tâm từ không đặc quyền",
+      "segments": [
+        "mn93:9.1",
+        "mn93:9.2",
+        "mn93:9.3",
+        "mn93:9.4",
+        "mn93:9.5",
+        "mn93:9.6",
+        "mn93:9.7",
+        "mn93:9.8",
+        "mn93:9.9",
+        "mn93:9.10",
+        "mn93:9.11",
+        "mn93:9.12",
+        "mn93:9.13",
+        "mn93:9.14"
+      ],
+      "summary": "Anh lần bốn giữ chủ trương. Phật hỏi chỉ bà-la-môn tu tâm từ không thù/không hại cho vùng này, ba hạng kia không? Anh phủ nhận, kể đủ bốn và kết tất cả có thể. Phật hỏi cơ sở sức mạnh/cậy tựa của chủ trương."
+    },
+    {
+      "id": "bathing",
+      "title": "Đều rửa được bụi bẩn",
+      "segments": [
+        "mn93:10.1",
+        "mn93:10.2",
+        "mn93:10.3",
+        "mn93:10.4",
+        "mn93:10.5",
+        "mn93:10.6",
+        "mn93:10.7",
+        "mn93:10.8",
+        "mn93:10.9",
+        "mn93:10.10",
+        "mn93:10.11",
+        "mn93:10.12",
+        "mn93:10.13"
+      ],
+      "summary": "Anh lần năm giữ chủ trương. Phật hỏi chỉ bà-la-môn mang chất tắm tới sông rửa bụi bẩn, ba hạng kia không? Anh phủ nhận, kể đủ bốn và kết đều có thể; Phật hỏi cơ sở chủ trương."
+    },
+    {
+      "id": "fire-materials",
+      "title": "Một trăm người và các que khoan",
+      "segments": [
+        "mn93:11.1",
+        "mn93:11.2",
+        "mn93:11.3",
+        "mn93:11.4",
+        "mn93:11.5",
+        "mn93:11.6",
+        "mn93:11.7"
+      ],
+      "summary": "Anh lần sáu giữ chủ trương. Vua Sát-đế-lợi quán đảnh tập 100 người khác dòng dõi. Nhóm Sát-đế-lợi/bà-la-môn/vương tộc lấy que tếch/sāla/salaḷa/đàn hương/padumaka; nhóm Chiên-đà-la/săn/đan tre/làm xe/quét rác dùng máng uống chó/máng heo/máng giặt/thầu dầu; cả hai tạo lửa/sức nóng."
+    },
+    {
+      "id": "fire-functions",
+      "title": "Cả hai ngọn lửa đều dùng được",
+      "segments": [
+        "mn93:11.8",
+        "mn93:11.9",
+        "mn93:11.10",
+        "mn93:11.11",
+        "mn93:11.12",
+        "mn93:11.13",
+        "mn93:11.14"
+      ],
+      "summary": "Hỏi có phải chỉ lửa nhóm đầu có ngọn/màu/sáng/làm việc lửa, nhóm kia không đủ bốn? Anh phủ nhận; nói cả nhóm đầu lẫn sau và mọi lửa đều đủ bốn khả năng."
+    },
+    {
+      "id": "fire-challenge",
+      "title": "Lặp trọn câu hỏi về cơ sở",
+      "segments": [
+        "mn93:11.15",
+        "mn93:11.16",
+        "mn93:11.17",
+        "mn93:11.18",
+        "mn93:11.19"
+      ],
+      "summary": "Phật hỏi sức mạnh/cậy tựa nào khiến bà-la-môn vẫn nói đủ bốn lời tự tôn và toàn chuỗi con ruột/từ miệng/sinh/tạo/thừa tự."
+    },
+    {
+      "id": "first-parents",
+      "title": "Cha Sát-đế-lợi, mẹ bà-la-môn",
+      "segments": [
+        "mn93:12.1",
+        "mn93:12.2",
+        "mn93:12.3",
+        "mn93:12.4",
+        "mn93:12.5",
+        "mn93:12.6",
+        "mn93:12.7"
+      ],
+      "summary": "Anh lần bảy vẫn giữ chủ trương. Phật nêu chàng Sát-đế-lợi chung sống với cô bà-la-môn sinh con; con giống mẹ và cha, gọi Sát-đế-lợi hoặc bà-la-môn được không? Anh xác nhận đủ hai nét giống và hai tên đều được."
+    },
+    {
+      "id": "second-parents",
+      "title": "Cha bà-la-môn, mẹ Sát-đế-lợi",
+      "segments": [
+        "mn93:13.1",
+        "mn93:13.2",
+        "mn93:13.3",
+        "mn93:13.4"
+      ],
+      "summary": "Đảo cặp: chàng bà-la-môn với cô Sát-đế-lợi sinh con; hỏi giống cả hai và gọi cả hai tên. Anh xác nhận đều có thể."
+    },
+    {
+      "id": "mule",
+      "title": "Trường hợp ngựa và lừa",
+      "segments": [
+        "mn93:14.1",
+        "mn93:14.2",
+        "mn93:14.3",
+        "mn93:14.4",
+        "mn93:14.5",
+        "mn93:14.6"
+      ],
+      "summary": "Ngựa cái kết hợp lừa đực sinh la; hỏi giống mẹ/cha và gọi ngựa/lừa được không. Anh nói đó là la lai giống; thấy khác ở đây, không thấy khác ở hai trường hợp trước."
+    },
+    {
+      "id": "study-brothers",
+      "title": "Ưu tiên người thuộc bài và nhập môn",
+      "segments": [
+        "mn93:15.1",
+        "mn93:15.2",
+        "mn93:15.3",
+        "mn93:15.4",
+        "mn93:15.5"
+      ],
+      "summary": "Hai anh em cùng mẹ: một tụng giỏi/đã nhập môn, một không/chưa. Bốn dịp cúng người mất/cháo sữa/tế lễ/tiếp khách, mời ai ăn trước? Anh chọn người tụng/nhập môn, hỏi cúng người thiếu cả hai sao quả lớn."
+    },
+    {
+      "id": "ethical-brothers",
+      "title": "Ưu tiên người có giới hạnh",
+      "segments": [
+        "mn93:16.1",
+        "mn93:16.2",
+        "mn93:16.3",
+        "mn93:16.4",
+        "mn93:16.5"
+      ],
+      "summary": "Hai anh em cùng mẹ: người tụng/nhập môn nhưng thiếu giới/làm ác; người không tụng/chưa nhập môn nhưng có giới/làm thiện. Cùng bốn dịp, chọn ai? Anh chọn người có giới làm thiện dù không tụng/chưa nhập môn; cúng người ác sao quả lớn."
+    },
+    {
+      "id": "progression",
+      "title": "Từ dòng dõi đến thanh tịnh",
+      "segments": [
+        "mn93:17.1",
+        "mn93:17.2",
+        "mn93:17.3",
+        "mn93:17.4"
+      ],
+      "summary": "Phật chỉ anh từ dòng dõi chuyển bài tụng, rồi khổ hạnh/tự rèn, rồi thanh tịnh bốn đẳng cấp đúng chủ trương Phật."
+    },
+    {
+      "id": "silence",
+      "title": "Phật thấy anh không còn lời",
+      "segments": [
+        "mn93:17.5",
+        "mn93:18.1"
+      ],
+      "summary": "Assalāyana im lặng, bối rối, vai rũ, cúi đầu, buồn, không đối đáp. Phật biết trọn trạng thái ấy rồi kể."
+    },
+    {
+      "id": "seven-seers",
+      "title": "Bảy vị ẩn sĩ và lời tự tôn",
+      "segments": [
+        "mn93:18.2",
+        "mn93:18.3",
+        "mn93:18.4",
+        "mn93:18.5",
+        "mn93:18.6",
+        "mn93:18.7",
+        "mn93:18.8",
+        "mn93:18.9"
+      ],
+      "summary": "Xưa bảy ẩn sĩ bà-la-môn trú chòi lá rừng vắng, khởi chủ trương có hại đủ bốn lời tự tôn. Asita Devala nghe tin bảy vị ở đó giữ chủ trương ấy."
+    },
+    {
+      "id": "devala-arrives",
+      "title": "Asita Devala đến sân",
+      "segments": [
+        "mn93:18.10",
+        "mn93:18.11",
+        "mn93:18.12",
+        "mn93:18.13"
+      ],
+      "summary": "Devala chải râu tóc, mặc đỏ thắm, dép nhiều lớp, trượng vàng; hiện ở sân bảy vị, đi lại hỏi các ẩn sĩ đi đâu hai lần."
+    },
+    {
+      "id": "angry-thought",
+      "title": "Ý định nguyền rủa",
+      "segments": [
+        "mn93:18.14",
+        "mn93:18.15",
+        "mn93:18.16",
+        "mn93:18.17",
+        "mn93:18.18"
+      ],
+      "summary": "Bảy vị nghĩ người quê mùa nào dạo sân hỏi họ ở đâu hai lần, quyết nguyền rủa."
+    },
+    {
+      "id": "curse",
+      "title": "Càng nguyền càng đẹp",
+      "segments": [
+        "mn93:18.19",
+        "mn93:18.20",
+        "mn93:18.21",
+        "mn93:18.22"
+      ],
+      "summary": "Bảy vị nguyền Devala hai lần hãy thành tro, gọi kẻ thấp; càng nguyền ông càng đẹp/dễ nhìn/khả ái."
+    },
+    {
+      "id": "fruitless",
+      "title": "Họ nghĩ việc tu vô quả",
+      "segments": [
+        "mn93:18.23",
+        "mn93:18.24",
+        "mn93:18.25",
+        "mn93:18.26",
+        "mn93:18.27",
+        "mn93:18.28"
+      ],
+      "summary": "Bảy vị nghĩ khổ hạnh phí, phạm hạnh vô quả. Trước hai lần nguyền thành tro thì một số người thành tro; nay càng nguyền Devala càng đẹp/dễ nhìn/khả ái."
+    },
+    {
+      "id": "drop-malice",
+      "title": "Buông ác ý trước khi hỏi tên",
+      "segments": [
+        "mn93:18.29",
+        "mn93:18.30",
+        "mn93:18.31",
+        "mn93:18.32"
+      ],
+      "summary": "Devala bác cả khổ hạnh phí và phạm hạnh vô quả, xin họ bỏ ác ý với mình. Họ bảo bỏ rồi hỏi ông ai."
+    },
+    {
+      "id": "recognition",
+      "title": "Nhận ra Asita Devala",
+      "segments": [
+        "mn93:18.33",
+        "mn93:18.34",
+        "mn93:18.35",
+        "mn93:18.36",
+        "mn93:18.37"
+      ],
+      "summary": "Ông hỏi đã nghe Asita Devala chưa, họ nói có; ông nhận chính mình; bảy vị tiến đến đảnh lễ."
+    },
+    {
+      "id": "confirm-belief",
+      "title": "Xác nhận trọn điều đã nghe",
+      "segments": [
+        "mn93:18.38",
+        "mn93:18.39",
+        "mn93:18.40",
+        "mn93:18.41",
+        "mn93:18.42",
+        "mn93:18.43",
+        "mn93:18.44"
+      ],
+      "summary": "Devala hỏi đã nghe bảy vị trú chòi lá rừng khởi quan điểm có hại: đủ bốn lời tự tôn và chuỗi Phạm thiên. Họ xác nhận đúng."
+    },
+    {
+      "id": "mothers",
+      "title": "Hai câu hỏi về phía mẹ",
+      "segments": [
+        "mn93:18.45",
+        "mn93:18.46",
+        "mn93:18.47",
+        "mn93:18.48",
+        "mn93:18.49",
+        "mn93:18.50"
+      ],
+      "summary": "Có biết mẹ ruột chỉ gần gũi bà-la-môn, không người ngoài? Có biết mẹ của mẹ lên bảy đời chỉ như vậy? Cả hai trả lời không biết, không khẳng định điều ngược."
+    },
+    {
+      "id": "fathers",
+      "title": "Hai câu hỏi về phía cha",
+      "segments": [
+        "mn93:18.51",
+        "mn93:18.52",
+        "mn93:18.53",
+        "mn93:18.54",
+        "mn93:18.55",
+        "mn93:18.56"
+      ],
+      "summary": "Có biết cha ruột chỉ gần gũi nữ bà-la-môn, không người ngoài? Có biết cha của cha lên bảy đời chỉ như vậy? Cả hai trả lời không biết."
+    },
+    {
+      "id": "conception",
+      "title": "Ba điều hội đủ",
+      "segments": [
+        "mn93:18.57",
+        "mn93:18.58",
+        "mn93:18.59",
+        "mn93:18.60",
+        "mn93:18.61"
+      ],
+      "summary": "Hỏi biết việc thụ thai không; họ nói biết: cha mẹ kết hợp, mẹ thời có thể thụ thai, gandhabba hiện diện; ba điều hội đủ có thụ thai."
+    },
+    {
+      "id": "gandhabba",
+      "title": "Không biết chắc đẳng cấp gandhabba",
+      "segments": [
+        "mn93:18.62",
+        "mn93:18.63",
+        "mn93:18.64",
+        "mn93:18.65"
+      ],
+      "summary": "Devala hỏi biết chắc gandhabba là Sát-đế-lợi/bà-la-môn/Phệ-sa/Thủ-đà không; họ không biết chắc thuộc hạng nào trong bốn."
+    },
+    {
+      "id": "own-identity",
+      "title": "Không biết theo thuyết họ chủ trương",
+      "segments": [
+        "mn93:18.66",
+        "mn93:18.67",
+        "mn93:18.68",
+        "mn93:18.69"
+      ],
+      "summary": "Trong tình trạng ấy có biết mình là ai không? Họ đáp trong tình trạng ấy không biết mình là ai; câu hỏi ở phạm vi xác định dòng dõi vừa tranh luận."
+    },
+    {
+      "id": "comparison",
+      "title": "Bảy ẩn sĩ còn không đối đáp nổi",
+      "segments": [
+        "mn93:18.70",
+        "mn93:18.71"
+      ],
+      "summary": "Phật nói bảy ẩn sĩ còn không đáp nổi ba cách Devala vấn nạn chủ trương dòng dõi của chính họ; huống Assalāyana bị Phật ba cách chất vấn, khi anh cùng thầy còn chẳng ngang Puṇṇa người cầm muôi cho bảy vị ấy."
+    },
+    {
+      "id": "refuge",
+      "title": "Hai lời khen và quy y",
+      "segments": [
+        "mn93:19.1",
+        "mn93:19.2",
+        "mn93:19.3"
+      ],
+      "summary": "Assalāyana tán thán; chỗ lược mở bằng HTML thực SC84: hai lần khen, bốn ví dựng đứng/vén che/chỉ đường/đèn cho người thấy sắc, Pháp nhiều cách được giải thích; quy y Phật/Pháp/Tăng, làm cư sĩ từ nay suốt đời."
+    },
+    {
+      "id": "ending",
+      "title": "Khép bài thứ ba trong nhóm",
+      "segments": [
+        "mn93:19.4"
+      ],
+      "summary": "Kinh Assalāyana kết thúc, bài thứ ba trong nhóm kinh này."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Diễn giải dành cho trẻ em",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "young-student",
+          "kind": "teaching",
+          "heading": "Khoảng mười sáu tuổi, được chọn đi tranh luận",
+          "paragraphs": [
+            "Kinh Assalāyana, Trung Bộ 93, bắt đầu bằng lời người truyền kinh kể điều đã nghe. Khi Phật ở Sāvatthī, trong rừng Jeta, tu viện Anāthapiṇḍika, khoảng năm trăm bà-la-môn từ nhiều xứ cũng đến thành ấy vì một công việc. Bà-la-môn là những người thuộc truyền thống kinh điển và nghi lễ được nói tới trong câu chuyện.",
+            "Họ nghe Phật dạy rằng người thuộc cả bốn đẳng cấp xã hội đều có thể trở nên thanh tịnh, tức gột bỏ những điều không lành. Họ muốn tìm người đủ sức tranh luận với Ngài. Họ chọn Assalāyana, một chàng trai khoảng mười sáu tuổi, tóc vừa cạo.",
+            "Anh học rất giỏi: thông ba bộ Veda, tức kinh điển của truyền thống ấy, cùng từ vựng, nghi lễ, cách phát âm, phân loại từ và phần lịch sử được kể là thứ năm. Anh thuộc từng chữ, giỏi ngữ pháp, hiểu việc học về thế giới và các dấu hiệu của một bậc đại nhân. Nhắc lại những điều anh đã học, cả nhóm tin rằng anh đủ sức đối đáp."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting",
+            "delegation",
+            "student"
+          ]
+        },
+        {
+          "id": "three-requests",
+          "kind": "teaching",
+          "heading": "Ba lần được giục đi",
+          "paragraphs": [
+            "Lần đầu, họ đến nói về lời dạy thanh tịnh cho cả bốn đẳng cấp và mời anh tranh luận. Assalāyana đáp: anh nghe Phật nói đúng lẽ; người nói đúng lẽ rất khó tranh luận; anh không đủ sức.",
+            "Lần thứ hai, họ lại mời và nhắc rằng anh từng sống như một du sĩ, người đi đây đó học hỏi. Anh vẫn nói đủ ba điều: Phật nói đúng lẽ, khó đối đáp với người như thế, và mình không đủ sức.",
+            "Lần thứ ba, họ nhắc lại lời mời, kinh nghiệm du sĩ của anh, rồi giục đừng nhận thua khi chưa vào trận. Assalāyana bảo dường như lời mình chưa lọt tai họ. Anh nhắc lại ba lý do, nhưng cuối cùng vẫn nhận đi theo yêu cầu."
+          ],
+          "meaningUnits": [
+            "first-request",
+            "second-request",
+            "third-request"
+          ]
+        },
+        {
+          "id": "four-claims",
+          "kind": "teaching",
+          "heading": "Một lời tự nhận cao hơn người khác",
+          "paragraphs": [
+            "Assalāyana cùng đông bà-la-môn đến chào hỏi Phật thân thiện rồi ngồi một bên. Anh hỏi Phật nghĩ sao về chủ trương của họ.",
+            "Chủ trương ấy có bốn phần: chỉ bà-la-môn là cao nhất, các đẳng cấp khác thấp; chỉ bà-la-môn là “trắng”, các đẳng cấp khác “đen”; chỉ bà-la-môn thanh tịnh, người khác không; chỉ bà-la-môn là con ruột của Phạm thiên, một vị trời, sinh từ miệng vị ấy, do vị ấy sinh ra, tạo ra và được thừa kế từ vị ấy. Đây là điều nhóm người ấy tự nhận và Phật sắp hỏi lại."
+          ],
+          "meaningUnits": [
+            "visit",
+            "claim"
+          ]
+        },
+        {
+          "id": "mothers",
+          "kind": "teaching",
+          "heading": "Bắt đầu bằng việc ai cũng thấy",
+          "paragraphs": [
+            "Phật chỉ ra rằng phụ nữ bà-la-môn vẫn có kinh nguyệt, mang thai, sinh con và cho con bú. Người bà-la-môn thực sự sinh từ thai mẹ. Thế mà họ vẫn giữ đủ bốn lời tự nhận: cao nhất, trắng, riêng mình thanh tịnh và sinh từ miệng Phạm thiên. Câu hỏi bắt đầu từ một việc gần gũi: chính họ đã được mẹ sinh ra và nuôi lớn."
+          ],
+          "meaningUnits": [
+            "birth"
+          ]
+        },
+        {
+          "id": "frontier",
+          "kind": "teaching",
+          "heading": "Địa vị có thể đổi chỗ",
+          "paragraphs": [
+            "Assalāyana vẫn nói rằng đó là niềm tin của các bà-la-môn, dù Phật nêu việc ấy. Phật hỏi anh có nghe ở Yonaka, Kamboja và những miền biên địa khác chỉ có hai hạng chủ và tôi tớ không. Người đang là chủ có thể thành tôi tớ; người đang là tôi tớ có thể thành chủ. Anh xác nhận đã nghe cả hai chiều đổi chỗ ấy.",
+            "Phật hỏi: vậy bà-la-môn dựa vào sức mạnh và điều bảo đảm nào để vẫn giữ trọn bốn lời tự tôn?"
+          ],
+          "meaningUnits": [
+            "frontiers"
+          ]
+        },
+        {
+          "id": "harm",
+          "kind": "teaching",
+          "heading": "Làm điều xấu có được dòng họ che chở?",
+          "paragraphs": [
+            "Anh lại nói các bà-la-môn vẫn giữ niềm tin đó. Phật hỏi về bốn đẳng cấp: Sát-đế-lợi, giới quý tộc và chiến sĩ; bà-la-môn; Phệ-sa, hạng làm ruộng và buôn bán; Thủ-đà, hạng lao động và phục vụ.",
+            "Mười điều xấu được nêu là giết hại, lấy của không cho, làm sai trong quan hệ tình dục; nói dối, nói chia rẽ, nói cay nghiệt, nói chuyện vô ích; muốn chiếm của người, muốn hại người và có cách thấy sai lầm. Phật lần lượt hỏi: phải chăng người Sát-đế-lợi, Phệ-sa hay Thủ-đà làm những điều ấy thì sau khi chết sinh vào cõi dữ, địa ngục, còn bà-la-môn thì được miễn?",
+            "Assalāyana đáp không. Người Sát-đế-lợi, bà-la-môn, Phệ-sa và Thủ-đà, nếu làm mười điều ấy, đều có quả xấu sau khi chết. Điều kiện là cách sống ấy, không có đẳng cấp nào được miễn. Phật lại hỏi: vậy dựa vào đâu mà giữ lời tự nhận riêng mình cao và thanh tịnh?"
+          ],
+          "meaningUnits": [
+            "bad-deeds"
+          ]
+        },
+        {
+          "id": "good",
+          "kind": "teaching",
+          "heading": "Sống lành có mở ra cho mọi người?",
+          "paragraphs": [
+            "Anh vẫn giữ lời tin của nhóm mình. Lần này Phật hỏi theo chiều ngược lại: phải chăng chỉ bà-la-môn biết tránh giết hại, trộm cắp, quan hệ tình dục sai, nói dối, nói chia rẽ, nói cay nghiệt và nói chuyện vô ích; không tham lấy của người, không muốn hại người, có cách thấy đúng, thì sau khi chết sinh cõi lành, cõi trời? Còn ba đẳng cấp kia thì không?",
+            "Anh đáp không phải vậy. Người Sát-đế-lợi, bà-la-môn, Phệ-sa và Thủ-đà đều có quả lành ấy nếu sống theo đủ mười điều lành vừa nêu. Phật lại hỏi điều gì còn bảo đảm cho bốn lời tự tôn."
+          ],
+          "meaningUnits": [
+            "good-deeds"
+          ]
+        },
+        {
+          "id": "kindness",
+          "kind": "teaching",
+          "heading": "Ai có thể nuôi lòng thương?",
+          "paragraphs": [
+            "Assalāyana vẫn nói các bà-la-môn tin như trước. Phật hỏi: chỉ họ mới có thể tu tâm từ, mong điều lành, không thù hận và không gây hại, hướng đến vùng này; ba đẳng cấp khác không thể sao?",
+            "Anh trả lời rằng cả Sát-đế-lợi, bà-la-môn, Phệ-sa và Thủ-đà đều làm được. Tất cả có khả năng nuôi lòng từ như thế. Phật lại hỏi sức mạnh hay chỗ dựa nào còn giữ được lời chỉ mình thanh tịnh."
+          ],
+          "meaningUnits": [
+            "loving-kindness"
+          ]
+        },
+        {
+          "id": "wash",
+          "kind": "teaching",
+          "heading": "Bụi bẩn có chọn người không?",
+          "paragraphs": [
+            "Anh lại nhắc niềm tin cũ. Phật hỏi: có phải chỉ bà-la-môn mang chất tắm xuống sông mới rửa sạch bụi bẩn, còn ba hạng kia không thể? Anh đáp không: người Sát-đế-lợi, bà-la-môn, Phệ-sa và Thủ-đà đều có thể dùng chất tắm, xuống sông và rửa sạch. Phật lại hỏi: vậy bốn lời tự nhận đặc quyền dựa vào đâu?"
+          ],
+          "meaningUnits": [
+            "bathing"
+          ]
+        },
+        {
+          "id": "firewood",
+          "kind": "teaching",
+          "heading": "Một trăm người nhóm lửa",
+          "paragraphs": [
+            "Anh vẫn giữ lời tin cũ. Phật kể ví dụ một vua Sát-đế-lợi đã làm lễ lên ngôi tập hợp một trăm người thuộc nhiều dòng dõi. Vua bảo những người từ gia đình Sát-đế-lợi, bà-la-môn hoặc vương tộc dùng que khoan bằng gỗ tếch, sāla, salaḷa, đàn hương hoặc padumaka để nhóm lửa và tạo sức nóng.",
+            "Những người từ gia đình Chiên-đà-la, một hạng bị xã hội ấy xem thấp, cùng gia đình thợ săn, thợ đan tre, thợ làm xe và người quét rác thì dùng que khoan từ máng uống của chó, máng ăn của heo, máng giặt hoặc gỗ thầu dầu. Họ cũng nhóm lửa và tạo sức nóng."
+          ],
+          "meaningUnits": [
+            "fire-materials"
+          ]
+        },
+        {
+          "id": "same-fire",
+          "kind": "teaching",
+          "heading": "Lửa từ hai nhóm có khác công dụng?",
+          "paragraphs": [
+            "Phật hỏi: chỉ lửa của nhóm đầu mới có ngọn, có màu, có ánh sáng và làm được việc của lửa; còn lửa nhóm sau thiếu cả bốn điều ấy sao? Assalāyana đáp không. Lửa nhóm đầu có đủ bốn điều; lửa nhóm sau cũng có đủ. Mọi thứ lửa ấy đều có ngọn, màu, ánh sáng và dùng được.",
+            "Phật nhắc lại câu hỏi về chỗ dựa: vì sao còn nói chỉ bà-la-môn cao nhất, trắng, thanh tịnh và là con ruột Phạm thiên, sinh từ miệng, do vị ấy sinh, tạo ra và được thừa kế?"
+          ],
+          "meaningUnits": [
+            "fire-functions",
+            "fire-challenge"
+          ]
+        },
+        {
+          "id": "children-parents",
+          "kind": "teaching",
+          "heading": "Một em bé giống cả cha lẫn mẹ",
+          "paragraphs": [
+            "Assalāyana vẫn nhắc đủ chủ trương của nhóm mình. Phật nêu trường hợp một chàng trai Sát-đế-lợi và một cô gái bà-la-môn chung sống, có con. Em bé có thể giống mẹ và giống cha, được gọi là Sát-đế-lợi hoặc bà-la-môn không? Anh nói cả hai nét giống và cả hai cách gọi đều được.",
+            "Phật đổi chiều: cha bà-la-môn, mẹ Sát-đế-lợi sinh con. Em bé có thể giống cả cha lẫn mẹ và được gọi theo một trong hai đẳng cấp không? Anh cũng xác nhận là được."
+          ],
+          "meaningUnits": [
+            "first-parents",
+            "second-parents"
+          ]
+        },
+        {
+          "id": "mule",
+          "kind": "teaching",
+          "heading": "Vì sao lại hỏi về con la?",
+          "paragraphs": [
+            "Phật nêu một con ngựa cái và một con lừa đực sinh con la. Nếu con vật giống mẹ và cha, ta cứ gọi nó là ngựa hoặc lừa được không? Assalāyana đáp đó là con la do lai giống. Anh thấy có khác biệt trong trường hợp con vật này, nhưng không thấy khác biệt như vậy ở hai trường hợp con người vừa nói."
+          ],
+          "meaningUnits": [
+            "mule"
+          ]
+        },
+        {
+          "id": "learned-brother",
+          "kind": "teaching",
+          "heading": "Người thuộc bài được mời trước",
+          "paragraphs": [
+            "Phật hỏi về hai anh em cùng mẹ. Một người tụng đọc giỏi và đã làm lễ nhập môn vào truyền thống; người kia không giỏi tụng đọc và chưa làm lễ ấy. Trong bốn dịp cúng cho người mất, cúng cháo sữa, làm lễ cúng và đãi khách, bà-la-môn sẽ mời ai ăn trước?",
+            "Assalāyana chọn người tụng giỏi, đã nhập môn. Anh lý luận rằng cúng dường cho người thiếu cả hai điều thì làm sao có quả lớn, tức lợi ích tốt đẹp của việc cho."
+          ],
+          "meaningUnits": [
+            "study-brothers"
+          ]
+        },
+        {
+          "id": "good-brother",
+          "kind": "teaching",
+          "heading": "Rồi người sống tốt được mời trước",
+          "paragraphs": [
+            "Phật đổi một điều quan trọng. Người tụng giỏi, đã nhập môn lại không có giới hạnh, sống xấu; người không tụng giỏi, chưa nhập môn lại có giới hạnh, sống lành. Trong cả bốn dịp ấy, mời ai trước?",
+            "Lần này Assalāyana chọn người có giới hạnh, biết sống lành, dù chưa giỏi bài tụng và chưa nhập môn. Anh nói: cúng dường người sống xấu thì làm sao có quả lớn?"
+          ],
+          "meaningUnits": [
+            "ethical-brothers"
+          ]
+        },
+        {
+          "id": "changed-measure",
+          "kind": "teaching",
+          "heading": "Thước đo đã thay đổi",
+          "paragraphs": [
+            "Phật chỉ cho anh thấy các bước mình vừa đi: ban đầu dựa vào dòng dõi, rồi chuyển sang bài tụng, rồi đến khổ hạnh, sự tự rèn mình; từ đó anh đã đến với sự thanh tịnh của cả bốn đẳng cấp mà Phật chủ trương. Chính lựa chọn người có giới hạnh đã đưa anh đến điểm này.",
+            "Assalāyana im lặng, bối rối, vai rũ xuống, cúi đầu buồn bã, không còn lời đối đáp. Phật biết anh đang như vậy và kể thêm một chuyện xưa."
+          ],
+          "meaningUnits": [
+            "progression",
+            "silence"
+          ]
+        },
+        {
+          "id": "seven",
+          "kind": "teaching",
+          "heading": "Bảy ẩn sĩ trong rừng",
+          "paragraphs": [
+            "Xưa có bảy ẩn sĩ bà-la-môn sống trong những chòi lá nơi rừng vắng. Họ cũng giữ bốn lời tự tôn: chỉ bà-la-môn cao nhất, trắng, thanh tịnh và là con ruột Phạm thiên, sinh từ miệng, do vị ấy sinh, tạo ra, được thừa kế. Ẩn sĩ Asita Devala nghe chuyện ấy.",
+            "Ông sửa sang râu tóc, mặc áo đỏ thắm, mang dép nhiều lớp, cầm gậy vàng rồi xuất hiện trong sân của họ. Đi qua lại, ông hỏi hai lần: các ẩn sĩ đi đâu rồi? Bảy vị nghĩ người nào quê mùa mà đi trong sân hỏi họ như vậy, rồi định nguyền rủa ông."
+          ],
+          "meaningUnits": [
+            "seven-seers",
+            "devala-arrives",
+            "angry-thought"
+          ]
+        },
+        {
+          "id": "curses",
+          "kind": "teaching",
+          "heading": "Cơn giận không khiến ông xấu đi",
+          "paragraphs": [
+            "Theo câu chuyện trong kinh, họ hai lần nguyền ông thành tro bụi, gọi ông là kẻ thấp hèn. Nhưng họ càng nguyền, Asita Devala càng đẹp, dễ nhìn và đáng mến.",
+            "Họ nghĩ việc khổ hạnh đã uổng phí, đời tu thanh tịnh không có kết quả. Trước kia, khi họ nguyền hai lần, một số người đã thành tro; nay càng nguyền ông lại càng đẹp, dễ nhìn, đáng mến. Vì thế họ nghi ngờ việc tu của mình."
+          ],
+          "meaningUnits": [
+            "curse",
+            "fruitless"
+          ]
+        },
+        {
+          "id": "drop-anger",
+          "kind": "teaching",
+          "heading": "Buông ác ý rồi mới hỏi",
+          "paragraphs": [
+            "Asita Devala nói việc khổ hạnh của họ không uổng phí, đời tu thanh tịnh cũng không phải không có kết quả; trước hết hãy bỏ ác ý với ông. Họ nói đã bỏ rồi và hỏi ông là ai.",
+            "Ông hỏi họ từng nghe đến Asita Devala chưa. Họ đáp có. Khi ông nói mình chính là người ấy, cả bảy tiến đến đảnh lễ, cúi mình kính trọng."
+          ],
+          "meaningUnits": [
+            "drop-malice",
+            "recognition"
+          ]
+        },
+        {
+          "id": "old-claim",
+          "kind": "teaching",
+          "heading": "Điều họ tin có được biết chắc?",
+          "paragraphs": [
+            "Asita Devala hỏi có đúng bảy vị sống trong chòi lá đang giữ đủ bốn lời tự tôn ấy không. Họ xác nhận đúng. Ông lần lượt hỏi bốn câu: họ có biết chắc mẹ ruột chỉ gần gũi người nam bà-la-môn, không người đẳng cấp khác; dòng mẹ lên đến bảy đời cũng vậy; cha ruột chỉ gần gũi phụ nữ bà-la-môn; dòng cha lên đến bảy đời cũng vậy không?",
+            "Cả bốn lần họ đáp không biết. Câu trả lời ấy nhận giới hạn điều họ biết, chứ chưa nói cha mẹ hay tổ tiên đã làm điều ngược lại."
+          ],
+          "meaningUnits": [
+            "confirm-belief",
+            "mothers",
+            "fathers"
+          ]
+        },
+        {
+          "id": "three-conditions",
+          "kind": "teaching",
+          "heading": "Câu hỏi về một đời sống bắt đầu",
+          "paragraphs": [
+            "Ông hỏi họ có biết việc thụ thai, bắt đầu hình thành một em bé, diễn ra thế nào không. Họ đáp có và nêu ba điều cùng đủ: cha mẹ kết hợp, mẹ ở thời kỳ có thể thụ thai, và gandhabba hiện diện. Gandhabba là từ trong cách nói về sinh và tái sinh của kinh.",
+            "Asita Devala hỏi: họ có biết chắc gandhabba ấy thuộc Sát-đế-lợi, bà-la-môn, Phệ-sa hay Thủ-đà không? Họ đáp không biết chắc. Vậy trong điều kiện ấy, họ biết mình là ai không? Họ cũng đáp không biết. Câu hỏi đang xét điều họ tự khẳng định về dòng dõi của mình."
+          ],
+          "meaningUnits": [
+            "conception",
+            "gandhabba",
+            "own-identity"
+          ]
+        },
+        {
+          "id": "comparison",
+          "kind": "teaching",
+          "heading": "Ngay những ẩn sĩ ấy cũng chưa trả lời được",
+          "paragraphs": [
+            "Phật nói với Assalāyana: bảy ẩn sĩ ấy còn không đối đáp nổi khi Asita Devala hỏi, hỏi vặn và chất vấn lại chính thuyết dòng dõi của họ. Vậy anh làm sao trả lời được khi Phật hỏi theo những cách ấy về thuyết của mình? Phật còn nhắc rằng anh cùng thầy chưa ngang Puṇṇa, người cầm muôi phụ lễ cho bảy ẩn sĩ kia."
+          ],
+          "meaningUnits": [
+            "comparison"
+          ]
+        },
+        {
+          "id": "refuge",
+          "kind": "teaching",
+          "heading": "Từ tranh luận đến nương tựa việc học",
+          "paragraphs": [
+            "Assalāyana hai lần tán thán lời Phật. Anh ví lời dạy như dựng lại vật bị đổ, mở ra thứ bị che, chỉ đường cho người lạc và mang đèn vào bóng tối để người có mắt thấy được hình sắc. Pháp, lời dạy, đã được giải thích bằng nhiều cách.",
+            "Anh xin quy y Phật, Pháp và Tăng chúng tỳ-kheo (những người nam xuất gia theo Phật). Anh nhận ba nơi nương tựa ấy để học và sống; xin được ghi nhận là người học Phật sống tại gia từ hôm ấy đến trọn đời. Kinh Assalāyana khép lại, là bài thứ ba trong nhóm kinh này."
+          ],
+          "meaningUnits": [
+            "refuge",
+            "ending"
+          ]
+        },
+        {
+          "id": "classroom",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: chọn bạn làm chung",
+          "paragraphs": [
+            "Giả sử một nhóm học sinh chọn bạn phụ trách đồ dùng chung. Ban đầu có bạn nói: “Chọn bạn ấy vì gia đình nổi tiếng.” Rồi nhóm đổi sang người nhớ bài giỏi. Nhưng khi biết một bạn giữ lời và trông coi đồ dùng cẩn thận, nhóm nhận ra cách sống mới liên quan trực tiếp đến việc được giao. Ví dụ hiện đại này giúp nhìn thấy thước đo đang đổi từ tên gia đình sang cách một người thực sự sống."
+          ],
+          "meaningUnits": [
+            "study-brothers",
+            "ethical-brothers",
+            "progression"
+          ]
+        },
+        {
+          "id": "small-practice",
+          "kind": "practice",
+          "heading": "Một việc nhỏ để tập nhìn công bằng",
+          "paragraphs": [
+            "Khi định khen hoặc chê một bạn chỉ vì gia đình của bạn ấy, em thử dừng lại và hỏi: “Mình thực sự biết bạn đã làm gì?” Trong ngày, chọn một việc lành cụ thể: nói thật, tránh lời chia rẽ hoặc mong một người khác được bình an. Đây là gợi ý thực hành hôm nay từ lời dạy về hành vi và lòng từ."
+          ],
+          "meaningUnits": [
+            "good-deeds",
+            "loving-kindness",
+            "progression"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Diễn giải dành cho người trưởng thành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Một người trẻ đại diện cho niềm tin của cả nhóm",
+          "paragraphs": [
+            "Kinh Assalāyana, Trung Bộ 93, được người truyền kinh thuật lại điều đã nghe. Phật đang ở Sāvatthī, tại rừng Jeta, tu viện Anāthapiṇḍika. Khoảng năm trăm bà-la-môn từ nhiều xứ đến thành này vì một công việc. Nghe Phật chủ trương sự thanh tịnh cho cả bốn đẳng cấp, họ tìm người có thể đối chất. Thanh tịnh ở đây là gột bỏ điều bất thiện, những điều không lành; cuộc tranh luận xoay quanh khả năng ấy có dành riêng cho một dòng người hay không.",
+            "Họ chọn Assalāyana, chàng trai khoảng mười sáu tuổi, tóc vừa cạo, rất thành thạo truyền thống bà-la-môn về kinh điển và nghi lễ. Anh thông ba Veda, kinh điển của truyền thống ấy, cùng từ vựng, nghi lễ, ngữ âm, phân loại từ và phần lịch sử thứ năm; thuộc từng chữ, giỏi ngữ pháp, tinh thông thế giới học và các tướng đại nhân. Nhắc lại toàn bộ vốn học ấy, họ cho rằng anh đủ sức tranh luận với Phật."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting",
+            "delegation",
+            "student"
+          ]
+        },
+        {
+          "id": "requests",
+          "kind": "teaching",
+          "heading": "Biết giới hạn mình nhưng vẫn nhận lời",
+          "paragraphs": [
+            "Ở lần mời đầu, nhóm bà-la-môn nêu chủ trương thanh tịnh bốn đẳng cấp của Phật và đề nghị Assalāyana đối chất. Anh đáp rằng đã nghe Phật là người nói đúng pháp; người nói đúng pháp khó đối chất; mình không đủ sức.",
+            "Lần thứ hai, họ lặp lời mời và nhắc anh từng sống đời du sĩ, đi đây đó học hỏi. Anh vẫn giữ đủ ba lý do: lời Phật đúng pháp, đối chất với người như vậy rất khó, mình không có khả năng ấy. Đến lần thứ ba, họ thêm lời thúc giục đừng nhận thua trước khi giao đấu. Anh nói lời mình chưa được họ nghe lọt, nhắc lại đủ các lý do, nhưng sẽ đi theo yêu cầu của họ."
+          ],
+          "meaningUnits": [
+            "first-request",
+            "second-request",
+            "third-request"
+          ]
+        },
+        {
+          "id": "claim",
+          "kind": "teaching",
+          "heading": "Bốn đặc quyền được đem ra hỏi",
+          "paragraphs": [
+            "Assalāyana cùng đông bà-la-môn đến gặp Phật, trao lời chào hỏi thân thiện và ngồi một bên. Anh trình bày quan điểm của họ: chỉ bà-la-môn tối thượng, các đẳng cấp khác thấp kém; chỉ bà-la-môn trắng, các đẳng cấp khác đen; chỉ bà-la-môn thanh tịnh, các đẳng cấp khác không; chỉ họ là con ruột Phạm thiên, một vị trời, sinh từ miệng, do vị ấy sinh, tạo ra và là người thừa kế của vị ấy. Anh hỏi Phật nghĩ thế nào.",
+            "Phật bắt đầu từ điều có thể thấy: phụ nữ bà-la-môn có kinh nguyệt, mang thai, sinh con và cho con bú. Những người bà-la-môn sinh từ thai mẹ vẫn tự nhận đủ bốn đặc quyền ấy, kể cả nguồn gốc từ miệng Phạm thiên."
+          ],
+          "meaningUnits": [
+            "visit",
+            "claim",
+            "birth"
+          ]
+        },
+        {
+          "id": "frontiers",
+          "kind": "teaching",
+          "heading": "Trật tự xã hội không cố định ở mọi nơi",
+          "paragraphs": [
+            "Assalāyana đáp rằng dù Phật nói vậy, các bà-la-môn vẫn tin như thế. Phật hỏi anh có nghe tại Yonaka, Kamboja và các miền biên địa khác chỉ có hai hạng chủ và tôi tớ; chủ có thể thành tôi tớ, tôi tớ có thể thành chủ không. Anh xác nhận đã nghe, kể cả hai chiều chuyển đổi.",
+            "Phật hỏi: có sức mạnh hay niềm cậy tựa nào để bà-la-môn vẫn khẳng định trọn bốn đặc quyền?"
+          ],
+          "meaningUnits": [
+            "frontiers"
+          ]
+        },
+        {
+          "id": "evil",
+          "kind": "teaching",
+          "heading": "Hậu quả của hành vi không miễn trừ theo đẳng cấp",
+          "paragraphs": [
+            "Anh vẫn giữ lời tin cũ. Phật lần lượt hỏi về người Sát-đế-lợi, Phệ-sa và Thủ-đà: nếu họ làm mười điều ác thì sau khi chết đọa cõi dữ, địa ngục, còn bà-la-môn thì không sao? Các tên ấy chỉ giới quý tộc và chiến sĩ, hạng làm ruộng và buôn bán, hạng lao động và phục vụ trong cách chia xã hội của câu chuyện.",
+            "Mười điều ác gồm sát sinh, lấy của không cho, sai trái trong quan hệ tình dục; nói dối, nói chia rẽ, nói độc ác, nói phù phiếm; tham chiếm đoạt, ác ý và tà kiến, cách thấy sai lầm. Assalāyana bác sự miễn trừ: Sát-đế-lợi, bà-la-môn, Phệ-sa hay Thủ-đà, mỗi hạng làm đủ những điều ấy đều có quả xấu sau khi chết. Anh kết rằng cả bốn cùng nằm trong điều kiện ấy. Phật lại hỏi cơ sở nào còn bảo đảm bốn đặc quyền."
+          ],
+          "meaningUnits": [
+            "bad-deeds"
+          ]
+        },
+        {
+          "id": "good",
+          "kind": "teaching",
+          "heading": "Quả lành cũng mở cho cả bốn",
+          "paragraphs": [
+            "Assalāyana lại nói các bà-la-môn vẫn tin như trước. Phật hỏi chiều ngược lại: chỉ bà-la-môn từ bỏ giết hại, trộm cắp, sai trái tình dục, nói dối, nói chia rẽ, nói độc ác và nói phù phiếm; không tham chiếm đoạt, không ác ý, có chánh kiến, cách thấy đúng, mới sinh cõi lành, cõi trời sau khi chết; còn ba đẳng cấp kia không?",
+            "Anh phủ nhận. Cả Sát-đế-lợi, bà-la-môn, Phệ-sa và Thủ-đà, từng hạng cũng như tất cả, đều có quả ấy khi sống theo mười điều lành vừa nêu. Phật lại hỏi bà-la-môn lấy sức mạnh và chỗ dựa nào giữ lời tự tôn."
+          ],
+          "meaningUnits": [
+            "good-deeds"
+          ]
+        },
+        {
+          "id": "metta",
+          "kind": "teaching",
+          "heading": "Khả năng nuôi tâm từ",
+          "paragraphs": [
+            "Anh vẫn giữ niềm tin cũ. Phật hỏi có phải chỉ bà-la-môn mới có thể tu tâm từ, lòng mong điều lành, không thù hận và không gây hại, hướng tới vùng này; còn ba đẳng cấp kia không thể. Assalāyana đáp không: Sát-đế-lợi, bà-la-môn, Phệ-sa và Thủ-đà đều có thể tu tâm ấy. Khả năng này có ở cả bốn. Một lần nữa, Phật hỏi căn cứ nào bảo đảm lời chỉ bà-la-môn thanh tịnh."
+          ],
+          "meaningUnits": [
+            "loving-kindness"
+          ]
+        },
+        {
+          "id": "washing",
+          "kind": "teaching",
+          "heading": "Rửa bụi bẩn không phụ thuộc gia thế",
+          "paragraphs": [
+            "Anh lại khẳng định nhóm mình vẫn tin như vậy. Phật hỏi có phải chỉ bà-la-môn mang chất tắm xuống sông mới rửa được bụi bẩn, còn Sát-đế-lợi, Phệ-sa và Thủ-đà thì không. Anh đáp rằng từng hạng trong cả bốn đều có thể mang chất tắm, tới sông và rửa sạch. Phật lại đặt câu hỏi về sức mạnh và niềm cậy tựa cho bốn đặc quyền."
+          ],
+          "meaningUnits": [
+            "bathing"
+          ]
+        },
+        {
+          "id": "fire",
+          "kind": "teaching",
+          "heading": "Khác vật liệu, lửa vẫn làm việc của lửa",
+          "paragraphs": [
+            "Anh vẫn nhắc niềm tin cũ. Phật nêu một vua Sát-đế-lợi đã được quán đảnh, làm lễ đăng quang, tập hợp một trăm người nhiều dòng dõi. Vua yêu cầu người từ gia đình Sát-đế-lợi, bà-la-môn hoặc vương tộc lấy que khoan bằng gỗ tếch, sāla, salaḷa, đàn hương hay padumaka để nhóm lửa và tạo sức nóng. Người từ gia đình Chiên-đà-la, một hạng bị coi thấp trong xã hội ấy, thợ săn, thợ đan tre, thợ làm xe hoặc người quét rác thì dùng que từ máng uống chó, máng ăn heo, máng giặt hoặc gỗ thầu dầu để làm cùng việc.",
+            "Có phải chỉ lửa của nhóm đầu có ngọn, có màu, có ánh sáng và dùng làm được việc của lửa, còn lửa nhóm sau không có bốn khả năng ấy? Assalāyana đáp không: cả lửa nhóm đầu lẫn lửa nhóm sau đều có đủ; mọi thứ lửa ấy đều có ngọn, màu, ánh sáng và công dụng.",
+            "Phật nhắc trọn câu hỏi: vậy sức mạnh và chỗ dựa nào cho lời chỉ bà-la-môn tối thượng, trắng, thanh tịnh và là con ruột Phạm thiên, sinh từ miệng, do vị ấy sinh, tạo ra và được thừa kế?"
+          ],
+          "meaningUnits": [
+            "fire-materials",
+            "fire-functions",
+            "fire-challenge"
+          ]
+        },
+        {
+          "id": "parents",
+          "kind": "teaching",
+          "heading": "Hai chiều kết hợp của cha mẹ",
+          "paragraphs": [
+            "Assalāyana vẫn bảo các bà-la-môn giữ quan điểm ấy. Phật hỏi về một chàng Sát-đế-lợi chung sống với một cô bà-la-môn rồi có con: con có thể giống cả mẹ lẫn cha và được gọi là Sát-đế-lợi hoặc bà-la-môn không? Anh xác nhận cả hai nét giống và cả hai tên đều được. Khi Phật đảo lại, cha bà-la-môn và mẹ Sát-đế-lợi, anh cũng trả lời như thế.",
+            "Phật đưa trường hợp ngựa cái với lừa đực sinh la: con vật giống mẹ và cha thì có thể gọi là ngựa hoặc lừa chăng? Assalāyana nói đó là con la do lai giống. Anh nhận ra một khác biệt ở trường hợp con vật, nhưng không thấy khác biệt như vậy ở hai trường hợp con người vừa xét."
+          ],
+          "meaningUnits": [
+            "first-parents",
+            "second-parents",
+            "mule"
+          ]
+        },
+        {
+          "id": "learning",
+          "kind": "teaching",
+          "heading": "Từ dòng dõi chuyển sang vốn học",
+          "paragraphs": [
+            "Phật nêu hai anh em cùng mẹ: một người thông tụng đọc và đã thọ lễ nhập môn, người kia không thông tụng đọc và chưa nhập môn. Trong bốn dịp cúng cho người quá cố, cúng cháo sữa, tế lễ hoặc tiếp khách, các bà-la-môn mời ai ăn trước?",
+            "Assalāyana chọn người thông tụng và đã nhập môn. Anh hỏi lại: cúng dường người thiếu cả hai điều thì làm sao có quả lớn? Tiêu chuẩn anh dùng lúc này là vốn học và sự nhập môn, dù hai người cùng dòng mẹ."
+          ],
+          "meaningUnits": [
+            "study-brothers"
+          ]
+        },
+        {
+          "id": "conduct",
+          "kind": "teaching",
+          "heading": "Từ vốn học chuyển sang cách sống",
+          "paragraphs": [
+            "Phật đổi tình huống: vẫn hai anh em cùng mẹ, người thông tụng và đã nhập môn lại không có giới hạnh, sống theo điều ác; người không thông tụng và chưa nhập môn lại có giới hạnh, sống theo điều lành. Trong cùng bốn dịp ấy, ai được mời trước? Assalāyana chọn người sống lành dù thiếu vốn tụng đọc và lễ nhập môn, vì cúng dường người không có giới hạnh thì làm sao có quả lớn.",
+            "Phật chỉ ra trình tự: ban đầu anh nương dòng dõi, rồi bài tụng, rồi khổ hạnh, sự tự rèn mình; đến đây anh đã đi tới sự thanh tịnh của cả bốn đẳng cấp mà Phật chủ trương. Trong cuộc hỏi đáp, chính giới hạnh đã làm tiêu chuẩn trước đó thay đổi.",
+            "Assalāyana im lặng, bối rối, rũ vai, cúi đầu buồn bã, không còn lời đối đáp. Biết trạng thái ấy, Phật kể một câu chuyện xưa."
+          ],
+          "meaningUnits": [
+            "ethical-brothers",
+            "progression",
+            "silence"
+          ]
+        },
+        {
+          "id": "devala",
+          "kind": "teaching",
+          "heading": "Một câu chuyện về bảy ẩn sĩ",
+          "paragraphs": [
+            "Bảy ẩn sĩ bà-la-môn từng sống trong chòi lá nơi rừng vắng và khởi quan điểm có hại ấy: chỉ bà-la-môn tối thượng, trắng, thanh tịnh, là con ruột Phạm thiên, sinh từ miệng, do vị ấy sinh, tạo ra và thừa kế. Asita Devala nghe chuyện.",
+            "Ông sửa sang râu tóc, khoác áo đỏ thắm, mang dép nhiều lớp, cầm gậy vàng và xuất hiện trong sân của họ. Ông đi lại, hai lần hỏi các ẩn sĩ đi đâu. Bảy vị nghĩ người quê mùa nào lại dạo sân hỏi họ như thế, rồi quyết định nguyền rủa."
+          ],
+          "meaningUnits": [
+            "seven-seers",
+            "devala-arrives",
+            "angry-thought"
+          ]
+        },
+        {
+          "id": "curse",
+          "kind": "teaching",
+          "heading": "Khi lời nguyền không như mong đợi",
+          "paragraphs": [
+            "Trong câu chuyện, bảy vị hai lần nguyền Asita Devala thành tro, gọi ông là kẻ thấp hèn. Nhưng họ càng nguyền, ông càng đẹp, dễ nhìn và khả ái. Họ nghĩ khổ hạnh của mình uổng phí, phạm hạnh, đời tu thanh tịnh, không có kết quả: trước đây, sau hai lời nguyền như thế, một số người đã thành tro; nay ông lại càng đẹp, dễ nhìn và khả ái.",
+            "Asita Devala bác cả hai kết luận: khổ hạnh của họ không uổng phí, phạm hạnh cũng không phải vô quả. Ông yêu cầu họ bỏ ác ý với mình. Họ nói đã bỏ và hỏi ông là ai."
+          ],
+          "meaningUnits": [
+            "curse",
+            "fruitless",
+            "drop-malice"
+          ]
+        },
+        {
+          "id": "recognition",
+          "kind": "teaching",
+          "heading": "Nhận ra người đang đứng trước mặt",
+          "paragraphs": [
+            "Ông hỏi họ từng nghe về Asita Devala chưa. Họ đáp có. Ông nói mình chính là người ấy, và cả bảy tiến đến đảnh lễ. Sau đó ông hỏi có đúng bảy vị trú trong chòi lá này đã khởi trọn bốn lời tự tôn, kể cả nguồn gốc từ miệng Phạm thiên và quyền thừa kế từ vị ấy không. Họ xác nhận đúng như ông nghe."
+          ],
+          "meaningUnits": [
+            "recognition",
+            "confirm-belief"
+          ]
+        },
+        {
+          "id": "lineage",
+          "kind": "teaching",
+          "heading": "Bốn câu hỏi về điều có thể biết chắc",
+          "paragraphs": [
+            "Asita Devala hỏi lần lượt: họ có biết mẹ ruột chỉ gần gũi người nam bà-la-môn, không người ngoài đẳng cấp; dòng mẹ lên đến bảy đời cũng chỉ như vậy; cha ruột chỉ gần gũi phụ nữ bà-la-môn, không người ngoài đẳng cấp; dòng cha lên đến bảy đời cũng chỉ như vậy không?",
+            "Cả bốn câu trả lời đều là không biết. Đây là sự thừa nhận rằng họ không có tri thức ấy, chưa phải bằng chứng để kết tội cha mẹ hoặc tổ tiên đã làm điều ngược lại."
+          ],
+          "meaningUnits": [
+            "mothers",
+            "fathers"
+          ]
+        },
+        {
+          "id": "conception",
+          "kind": "teaching",
+          "heading": "Ba điều kiện và điều vẫn chưa biết",
+          "paragraphs": [
+            "Ông hỏi họ có biết sự thụ thai xảy ra thế nào không. Họ đáp biết và nêu ba điều hội đủ: cha mẹ kết hợp, người mẹ ở thời kỳ có thể thụ thai, gandhabba hiện diện. Gandhabba thuộc cách nói về sinh và tái sinh trong kinh; ở đây nó nằm trong lời đáp của bảy ẩn sĩ.",
+            "Asita Devala hỏi họ có biết chắc gandhabba ấy là Sát-đế-lợi, bà-la-môn, Phệ-sa hay Thủ-đà không. Họ đáp không biết chắc thuộc hạng nào trong bốn. Ông hỏi tiếp: trong trường hợp ấy, họ có biết mình là ai không? Họ đáp không biết. Câu hỏi đi thẳng vào căn cứ xác định dòng dõi mà họ vừa dùng để khẳng định ưu thế."
+          ],
+          "meaningUnits": [
+            "conception",
+            "gandhabba",
+            "own-identity"
+          ]
+        },
+        {
+          "id": "comparison",
+          "kind": "teaching",
+          "heading": "Điều Assalāyana được mời nhìn lại",
+          "paragraphs": [
+            "Phật nói bảy ẩn sĩ bà-la-môn còn không thể đối đáp khi Asita Devala vấn nạn, hỏi vặn và chất vấn lại về thuyết dòng dõi của chính họ. Huống gì Assalāyana, bị Phật hỏi theo ba cách ấy, khi anh cùng thầy còn chưa ngang Puṇṇa, người cầm muôi phụ lễ cho bảy ẩn sĩ."
+          ],
+          "meaningUnits": [
+            "comparison"
+          ]
+        },
+        {
+          "id": "refuge",
+          "kind": "teaching",
+          "heading": "Lời đáp cuối cùng",
+          "paragraphs": [
+            "Assalāyana hai lần tán thán lời Phật: như dựng lại vật ngã đổ, phơi bày điều bị che, chỉ đường cho người lạc, đem đèn vào bóng tối để người có mắt thấy hình sắc. Anh nhận rằng Pháp, lời dạy, đã được giải thích bằng nhiều cách.",
+            "Anh xin quy y Phật, Pháp, Tăng chúng tỳ-kheo (những người nam xuất gia theo Phật); xin được ghi nhận là người học Phật sống tại gia, nương tựa ba ngôi ấy từ hôm ấy đến trọn đời. Kinh Assalāyana kết thúc, là bài thứ ba trong nhóm kinh này."
+          ],
+          "meaningUnits": [
+            "refuge",
+            "ending"
+          ]
+        },
+        {
+          "id": "workplace",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: chọn người giữ một trách nhiệm",
+          "paragraphs": [
+            "Một tổ chức có thể bắt đầu bằng việc chọn người vì gia thế, rồi chuyển sang bằng cấp. Khi giao trách nhiệm quản lý tài sản, người tuyển chọn còn phải xét người ấy có trung thực và giữ cam kết không. Ví dụ hiện đại này soi sáng việc thay đổi tiêu chuẩn trong đối thoại: kiến thức có giá trị, và lựa chọn người có phẩm hạnh đòi hỏi nhìn vào cách họ sống. Câu chuyện kinh còn xét quả cúng dường và khả năng thanh tịnh của cả bốn đẳng cấp."
+          ],
+          "meaningUnits": [
+            "study-brothers",
+            "ethical-brothers",
+            "progression"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Kiểm lại căn cứ của một phán đoán",
+          "paragraphs": [
+            "Khi một phán đoán về người khác bắt đầu bằng “người thuộc gia đình ấy chắc chắn…”, hãy xác định điều mình thật sự biết. Tách danh xưng khỏi hành động có thể quan sát. Trong ngày, chọn nuôi một hành vi lành và một ý nghĩ không thù hận. Đây là gợi ý thực hành hiện đại nhằm đưa sự tôn trọng con người đi cùng trách nhiệm đối với cách sống."
+          ],
+          "meaningUnits": [
+            "frontiers",
+            "bad-deeds",
+            "good-deeds",
+            "loving-kindness",
+            "progression",
+            "mothers",
+            "fathers"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Diễn giải dành cho người lớn tuổi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Gặp Assalāyana trong một cuộc đối thoại",
+          "paragraphs": [
+            "Kinh Assalāyana, Trung Bộ 93, mở bằng lời người truyền kinh thuật điều đã nghe. Phật ở Sāvatthī, trong rừng Jeta, tu viện Anāthapiṇḍika. Khoảng năm trăm bà-la-môn từ nhiều xứ đến thành ấy vì một công việc. Họ là những người thuộc truyền thống kinh điển và nghi lễ được kể trong bài.",
+            "Họ nghe Phật chủ trương rằng người ở cả bốn đẳng cấp đều có thể thanh tịnh, gột bỏ điều không lành. Họ muốn tìm người đủ sức đối chất với Ngài về điều này."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting",
+            "delegation"
+          ]
+        },
+        {
+          "id": "student",
+          "kind": "teaching",
+          "heading": "Vốn học của một chàng trai trẻ",
+          "paragraphs": [
+            "Người được chọn là Assalāyana, khoảng mười sáu tuổi, tóc vừa cạo. Anh thông ba Veda, kinh điển của truyền thống bà-la-môn, cùng từ vựng, nghi lễ, ngữ âm, phân loại từ và phần lịch sử thứ năm. Anh thuộc từng chữ, giỏi ngữ pháp, hiểu thế giới học và những dấu hiệu của bậc đại nhân.",
+            "Nhóm bà-la-môn nhắc lại vốn học ấy và tin rằng anh có thể đối đáp. Nhưng Assalāyana tự nhìn khả năng mình dè dặt hơn."
+          ],
+          "meaningUnits": [
+            "student"
+          ]
+        },
+        {
+          "id": "invitations",
+          "kind": "teaching",
+          "heading": "Lời khước từ được nói ba lần",
+          "paragraphs": [
+            "Lần đầu, họ nêu lời dạy thanh tịnh cho bốn đẳng cấp và mời anh tranh luận. Anh nói mình nghe Phật là người nói đúng pháp; đối chất với người nói đúng pháp rất khó; anh không đủ sức.",
+            "Lần thứ hai, họ lặp lời mời và nhắc anh đã sống đời du sĩ, đi đây đó học hỏi. Anh vẫn nêu đủ ba lý do ấy. Lần thứ ba, họ nhắc lời mời, kinh nghiệm du sĩ, rồi bảo đừng nhận thua trước khi vào trận. Anh nói lời mình chưa lọt tai họ, nhắc lại rằng Phật nói đúng pháp, khó đối chất và mình không đủ sức. Tuy vậy, anh nhận đi theo lời yêu cầu."
+          ],
+          "meaningUnits": [
+            "first-request",
+            "second-request",
+            "third-request"
+          ]
+        },
+        {
+          "id": "claim",
+          "kind": "teaching",
+          "heading": "Bốn điều một đẳng cấp tự nhận",
+          "paragraphs": [
+            "Assalāyana cùng đông bà-la-môn đến gặp Phật, trao lời chào hỏi thân thiện rồi ngồi một bên. Anh trình bày niềm tin của họ và hỏi Phật nghĩ sao.",
+            "Niềm tin ấy nói: chỉ bà-la-môn cao nhất, các đẳng cấp khác thấp; chỉ bà-la-môn trắng, các đẳng cấp khác đen; chỉ bà-la-môn thanh tịnh, các đẳng cấp khác không; chỉ bà-la-môn là con ruột Phạm thiên, một vị trời, sinh từ miệng, do vị ấy sinh, tạo ra và được thừa kế từ vị ấy."
+          ],
+          "meaningUnits": [
+            "visit",
+            "claim"
+          ]
+        },
+        {
+          "id": "mother",
+          "kind": "teaching",
+          "heading": "Cùng được mẹ sinh ra",
+          "paragraphs": [
+            "Phật nhắc một sự thật ngay trong đời sống: phụ nữ bà-la-môn có kinh nguyệt, mang thai, sinh con và cho con bú. Người bà-la-môn vẫn sinh từ thai mẹ, nhưng lại tự nhận đủ bốn điều cao nhất, trắng, riêng mình thanh tịnh và sinh từ miệng Phạm thiên. Lời đáp mời nhìn thẳng vào nguồn gốc đang thấy được."
+          ],
+          "meaningUnits": [
+            "birth"
+          ]
+        },
+        {
+          "id": "borders",
+          "kind": "teaching",
+          "heading": "Ở miền khác, địa vị lại đổi",
+          "paragraphs": [
+            "Assalāyana nói dù Phật nêu như vậy, nhóm bà-la-môn vẫn giữ niềm tin ấy. Phật hỏi anh có nghe tại Yonaka, Kamboja và những miền biên địa khác chỉ có hai hạng chủ và tôi tớ không. Chủ có thể thành tôi tớ, tôi tớ có thể thành chủ. Anh đáp đã nghe và xác nhận cả hai chiều thay đổi.",
+            "Phật hỏi: vậy dựa vào sức mạnh hay điều bảo đảm nào mà giữ trọn bốn lời tự tôn?"
+          ],
+          "meaningUnits": [
+            "frontiers"
+          ]
+        },
+        {
+          "id": "unwholesome",
+          "kind": "teaching",
+          "heading": "Quả xấu theo hành động",
+          "paragraphs": [
+            "Anh vẫn nói các bà-la-môn tin như cũ. Phật nêu bốn hạng người: Sát-đế-lợi là giới quý tộc và chiến sĩ; bà-la-môn; Phệ-sa là hạng làm ruộng và buôn bán; Thủ-đà là hạng lao động và phục vụ.",
+            "Mười điều ác trong câu hỏi là giết hại, lấy của không cho, sai trái trong quan hệ tình dục; nói dối, nói chia rẽ, nói độc ác, nói phù phiếm; tham chiếm đoạt, nuôi ác ý và thấy sai lầm. Phật lần lượt hỏi có phải người Sát-đế-lợi, Phệ-sa và Thủ-đà làm những điều ấy thì sau khi chết sinh cõi dữ, địa ngục, còn bà-la-môn không bị quả ấy.",
+            "Assalāyana đáp không. Người Sát-đế-lợi, bà-la-môn, Phệ-sa, Thủ-đà, từng hạng và cả bốn, nếu sống theo mười điều ác ấy đều có quả xấu sau khi chết. Phật lại hỏi cơ sở nào còn giữ được bốn lời đặc quyền."
+          ],
+          "meaningUnits": [
+            "bad-deeds"
+          ]
+        },
+        {
+          "id": "wholesome",
+          "kind": "teaching",
+          "heading": "Quả lành không dành riêng",
+          "paragraphs": [
+            "Anh lại nói nhóm mình vẫn tin như trước. Phật hỏi có phải chỉ bà-la-môn từ bỏ giết hại, trộm cắp, sai trái tình dục, nói dối, nói chia rẽ, nói độc ác và nói phù phiếm; không tham chiếm đoạt, không nuôi ác ý, có cách thấy đúng, mới sinh cõi lành, cõi trời sau khi chết, còn ba hạng kia không.",
+            "Anh đáp không phải vậy. Sát-đế-lợi, bà-la-môn, Phệ-sa và Thủ-đà đều có quả lành khi sống theo đủ mười điều vừa nói. Cả bốn cùng có khả năng ấy. Phật lại hỏi điều gì bảo đảm cho lời tự tôn."
+          ],
+          "meaningUnits": [
+            "good-deeds"
+          ]
+        },
+        {
+          "id": "kindness",
+          "kind": "teaching",
+          "heading": "Lòng từ có thể được tu tập",
+          "paragraphs": [
+            "Anh vẫn nhắc niềm tin cũ. Phật hỏi phải chăng chỉ bà-la-môn mới tu được tâm từ, lòng mong điều lành, không thù hận, không làm hại, hướng tới vùng này; còn ba hạng khác không thể. Anh đáp rằng Sát-đế-lợi, bà-la-môn, Phệ-sa và Thủ-đà đều có thể tu lòng từ ấy. Phật lại hỏi: nếu cả bốn đều làm được, bốn lời tự nhận đặc quyền còn nương vào đâu?"
+          ],
+          "meaningUnits": [
+            "loving-kindness"
+          ]
+        },
+        {
+          "id": "water",
+          "kind": "teaching",
+          "heading": "Một ví dụ với bụi bẩn và dòng sông",
+          "paragraphs": [
+            "Assalāyana vẫn giữ lời tin của nhóm mình. Phật hỏi có phải chỉ bà-la-môn mang chất tắm tới sông mới rửa được bụi bẩn, các hạng kia không làm được. Anh trả lời không: cả Sát-đế-lợi, bà-la-môn, Phệ-sa và Thủ-đà đều có thể mang chất tắm, tới sông và rửa sạch. Phật tiếp tục hỏi về sức mạnh và niềm cậy tựa cho bốn lời ấy."
+          ],
+          "meaningUnits": [
+            "bathing"
+          ]
+        },
+        {
+          "id": "wood",
+          "kind": "teaching",
+          "heading": "Một trăm người với những que gỗ khác nhau",
+          "paragraphs": [
+            "Anh lại nói các bà-la-môn vẫn giữ niềm tin cũ. Phật kể ví dụ một vua Sát-đế-lợi đã làm lễ đăng quang tập hợp một trăm người từ nhiều dòng dõi. Người thuộc gia đình Sát-đế-lợi, bà-la-môn hoặc vương tộc được bảo lấy que khoan bằng gỗ tếch, sāla, salaḷa, đàn hương hoặc padumaka, nhóm lửa và tạo sức nóng.",
+            "Người thuộc gia đình Chiên-đà-la, một hạng bị xã hội ấy xem thấp, cùng gia đình thợ săn, thợ đan tre, thợ làm xe và người quét rác thì dùng que từ máng uống của chó, máng ăn của heo, máng giặt hoặc gỗ thầu dầu. Họ cũng nhóm lửa và tạo sức nóng."
+          ],
+          "meaningUnits": [
+            "fire-materials"
+          ]
+        },
+        {
+          "id": "flame",
+          "kind": "teaching",
+          "heading": "Công dụng không theo danh phận",
+          "paragraphs": [
+            "Phật hỏi có phải chỉ lửa do nhóm đầu tạo ra mới có ngọn, có màu, có ánh sáng và dùng làm việc của lửa, còn lửa nhóm sau thiếu bốn điều ấy. Assalāyana đáp không: nhóm đầu có đủ bốn, nhóm sau cũng có đủ; mọi thứ lửa ấy đều có các khả năng đó.",
+            "Phật nhắc trọn câu hỏi: sức mạnh và chỗ dựa nào khiến bà-la-môn còn tự nhận chỉ mình cao nhất, trắng, thanh tịnh, là con ruột Phạm thiên, sinh từ miệng, do vị ấy sinh, tạo ra và được thừa kế?"
+          ],
+          "meaningUnits": [
+            "fire-functions",
+            "fire-challenge"
+          ]
+        },
+        {
+          "id": "parents",
+          "kind": "teaching",
+          "heading": "Con giống cha, cũng giống mẹ",
+          "paragraphs": [
+            "Anh vẫn nói các bà-la-môn tin đủ những điều ấy. Phật hỏi: một chàng Sát-đế-lợi chung sống với một cô bà-la-môn và có con, con có thể giống mẹ, giống cha, được gọi là Sát-đế-lợi hoặc bà-la-môn không? Anh xác nhận cả hai nét giống và hai cách gọi đều được.",
+            "Phật đổi trường hợp: cha bà-la-môn, mẹ Sát-đế-lợi. Người con có thể giống cả hai và mang một trong hai tên đẳng cấp không? Assalāyana cũng đáp được."
+          ],
+          "meaningUnits": [
+            "first-parents",
+            "second-parents"
+          ]
+        },
+        {
+          "id": "mule",
+          "kind": "teaching",
+          "heading": "Trường hợp anh cho là có khác biệt",
+          "paragraphs": [
+            "Phật hỏi về con la sinh từ ngựa cái và lừa đực: nếu giống mẹ và cha thì cứ gọi là ngựa hoặc lừa chăng? Anh đáp đó là con la do lai giống. Anh thấy sự khác biệt ở trường hợp này, nhưng không thấy khác biệt như thế trong hai trường hợp cha mẹ khác đẳng cấp vừa nói."
+          ],
+          "meaningUnits": [
+            "mule"
+          ]
+        },
+        {
+          "id": "brothers",
+          "kind": "teaching",
+          "heading": "Hai anh em, hai lần chọn người",
+          "paragraphs": [
+            "Phật nêu hai anh em cùng mẹ. Một người giỏi tụng đọc và đã thọ lễ nhập môn; người kia không giỏi tụng đọc, chưa nhập môn. Trong bốn dịp cúng cho người mất, cúng cháo sữa, tế lễ hoặc đãi khách, mời ai ăn trước? Assalāyana chọn người giỏi tụng và đã nhập môn. Anh nghĩ cúng dường người thiếu cả hai thì làm sao có quả lớn.",
+            "Phật đổi điều kiện: người giỏi tụng, đã nhập môn lại không có giới hạnh, sống ác; người không giỏi tụng, chưa nhập môn lại có giới hạnh, sống lành. Trong cùng bốn dịp ấy, anh chọn người sống lành, dù thiếu vốn học và lễ nhập môn. Anh hỏi: cúng dường người sống ác thì làm sao có quả lớn?"
+          ],
+          "meaningUnits": [
+            "study-brothers",
+            "ethical-brothers"
+          ]
+        },
+        {
+          "id": "turn",
+          "kind": "teaching",
+          "heading": "Từ dòng dõi đến việc tự rèn",
+          "paragraphs": [
+            "Phật chỉ rõ đường đi trong các câu trả lời: từ chỗ nương dòng dõi, anh chuyển sang bài tụng; từ bài tụng chuyển sang khổ hạnh, sự tự rèn; rồi đến sự thanh tịnh của cả bốn đẳng cấp mà Phật chủ trương. Việc chọn người có giới hạnh đã đưa anh đến đây.",
+            "Assalāyana ngồi im, bối rối, vai rũ, đầu cúi, lòng buồn bã, không còn lời đối đáp. Phật biết trạng thái ấy và kể một chuyện xưa."
+          ],
+          "meaningUnits": [
+            "progression",
+            "silence"
+          ]
+        },
+        {
+          "id": "seven",
+          "kind": "teaching",
+          "heading": "Bảy ẩn sĩ và một người khách",
+          "paragraphs": [
+            "Bảy ẩn sĩ bà-la-môn sống trong những chòi lá ở rừng vắng, khởi quan điểm có hại: chỉ bà-la-môn cao nhất, trắng, thanh tịnh và là con ruột Phạm thiên, sinh từ miệng, do vị ấy sinh, tạo ra, được thừa kế. Asita Devala nghe về họ.",
+            "Ông sửa sang râu tóc, mặc áo đỏ thắm, đi dép nhiều lớp, cầm gậy vàng và xuất hiện trong sân. Đi lại trong sân, ông hỏi hai lần các ẩn sĩ đi đâu. Bảy vị nghĩ người quê mùa nào lại đi hỏi họ như thế, rồi định nguyền rủa ông."
+          ],
+          "meaningUnits": [
+            "seven-seers",
+            "devala-arrives",
+            "angry-thought"
+          ]
+        },
+        {
+          "id": "curse",
+          "kind": "teaching",
+          "heading": "Từ nguyền rủa đến nghi ngờ",
+          "paragraphs": [
+            "Trong câu chuyện, họ nguyền ông thành tro hai lần, gọi ông là kẻ thấp hèn. Họ càng nguyền, ông càng đẹp, dễ nhìn và đáng mến. Bảy vị nghĩ khổ hạnh đã uổng phí, phạm hạnh, đời tu thanh tịnh, đã vô quả.",
+            "Họ nhớ trước kia, hai lần nguyền như vậy thì một số người thành tro. Nay càng nguyền Asita Devala, ông càng đẹp, dễ nhìn, đáng mến. Từ việc đó họ cho rằng sự tu tập của mình đã mất kết quả."
+          ],
+          "meaningUnits": [
+            "curse",
+            "fruitless"
+          ]
+        },
+        {
+          "id": "peace",
+          "kind": "teaching",
+          "heading": "Buông ác ý để có thể đối thoại",
+          "paragraphs": [
+            "Asita Devala bảo khổ hạnh của họ không uổng phí, đời tu thanh tịnh cũng không phải vô quả. Ông yêu cầu họ bỏ ác ý với ông. Họ nói đã bỏ và hỏi ông là ai.",
+            "Ông hỏi họ đã nghe Asita Devala chưa. Họ đáp có. Ông nhận mình chính là người ấy. Bảy vị liền tiến đến đảnh lễ, bày lòng kính trọng."
+          ],
+          "meaningUnits": [
+            "drop-malice",
+            "recognition"
+          ]
+        },
+        {
+          "id": "belief",
+          "kind": "teaching",
+          "heading": "Nhắc lại niềm tin đang được xét",
+          "paragraphs": [
+            "Asita Devala hỏi có đúng bảy vị sống trong chòi lá đã khởi đủ bốn lời tự tôn, cho chỉ bà-la-môn cao nhất, trắng, thanh tịnh và là con ruột Phạm thiên, sinh từ miệng, do vị ấy sinh, tạo ra, được thừa kế không. Họ xác nhận đúng như ông nghe."
+          ],
+          "meaningUnits": [
+            "confirm-belief"
+          ]
+        },
+        {
+          "id": "ancestors",
+          "kind": "teaching",
+          "heading": "Điều gì biết chắc về bảy đời?",
+          "paragraphs": [
+            "Ông hỏi họ có biết mẹ ruột chỉ gần gũi người nam bà-la-môn, không người đẳng cấp khác không. Họ đáp không biết. Dòng mẹ lên đến bảy đời có chỉ như vậy không? Họ cũng không biết.",
+            "Ông hỏi tiếp: cha ruột có chỉ gần gũi phụ nữ bà-la-môn, không người đẳng cấp khác; dòng cha lên đến bảy đời có chỉ như vậy không? Cả hai câu, họ lại đáp không biết. Bốn câu đáp nói rõ giới hạn hiểu biết, chưa phải lời cáo buộc đối với cha mẹ hay tổ tiên."
+          ],
+          "meaningUnits": [
+            "mothers",
+            "fathers"
+          ]
+        },
+        {
+          "id": "birth-conditions",
+          "kind": "teaching",
+          "heading": "Ba điều cùng hiện diện",
+          "paragraphs": [
+            "Asita Devala hỏi họ có biết sự thụ thai diễn ra thế nào không. Họ đáp biết: cha mẹ kết hợp, mẹ ở thời kỳ có thể thụ thai, gandhabba hiện diện; đủ ba điều thì có thụ thai. Gandhabba là từ trong cách nói về sinh và tái sinh của kinh.",
+            "Ông hỏi họ có biết chắc gandhabba ấy thuộc Sát-đế-lợi, bà-la-môn, Phệ-sa hoặc Thủ-đà không. Họ nói không biết chắc thuộc hạng nào trong bốn. Vậy trong hoàn cảnh ấy, có biết mình là ai không? Họ đáp không biết. Điều đang bị hỏi là căn cứ cho thuyết dòng dõi mà chính họ nêu ra."
+          ],
+          "meaningUnits": [
+            "conception",
+            "gandhabba",
+            "own-identity"
+          ]
+        },
+        {
+          "id": "conclusion",
+          "kind": "teaching",
+          "heading": "Lời Phật nối câu chuyện với Assalāyana",
+          "paragraphs": [
+            "Phật nói bảy ẩn sĩ ấy còn không đáp nổi khi Asita Devala vấn nạn, hỏi vặn và chất vấn lại về thuyết dòng dõi của họ. Vậy Assalāyana làm sao đối đáp được khi Phật hỏi ba cách ấy về thuyết của anh? Phật nhắc thêm rằng anh cùng thầy còn chưa ngang Puṇṇa, người cầm muôi phụ lễ cho bảy vị ẩn sĩ."
+          ],
+          "meaningUnits": [
+            "comparison"
+          ]
+        },
+        {
+          "id": "refuge",
+          "kind": "teaching",
+          "heading": "Lời nguyện từ hôm ấy đến trọn đời",
+          "paragraphs": [
+            "Assalāyana hai lần tán thán lời Phật. Anh ví lời dạy với việc dựng lại vật bị đổ, mở điều bị che, chỉ đường cho người lạc và đem đèn vào chỗ tối để người có mắt thấy hình sắc. Pháp, lời dạy, đã được giảng rõ bằng nhiều cách.",
+            "Anh xin quy y Phật, Pháp, Tăng chúng tỳ-kheo (những người nam xuất gia theo Phật); xin được ghi nhận là người học Phật sống tại gia, nương tựa ba ngôi ấy từ hôm ấy đến trọn đời. Kinh Assalāyana khép lại, là bài thứ ba trong nhóm kinh này."
+          ],
+          "meaningUnits": [
+            "refuge",
+            "ending"
+          ]
+        },
+        {
+          "id": "family-example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: chọn điều để gìn giữ trong gia đình",
+          "paragraphs": [
+            "Khi kể chuyện gia đình cho con cháu, ta có thể nhắc cả thành tích học hành lẫn những lần người thân biết giữ lời, chăm lo và sống ngay thẳng. Nếu phải chọn ai giữ một việc chung, việc người ấy sống đáng tin sẽ có ý nghĩa thiết thực. Ví dụ hiện đại này gợi suy ngẫm về cách nhận ra và trân trọng phẩm hạnh trong đời sống hằng ngày."
+          ],
+          "meaningUnits": [
+            "study-brothers",
+            "ethical-brothers",
+            "progression"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Đặt một câu hỏi trước khi kết luận",
+          "paragraphs": [
+            "Trước một lời khen chê về dòng họ của người khác, có thể nhẹ nhàng tự hỏi: “Điều nào mình biết, điều nào chỉ nghe truyền lại?” Rồi trở về một việc mình có thể làm: nói lời chân thật, tránh gây chia rẽ, nuôi ý mong người khác được bình an. Gợi ý thực hành hôm nay này giúp sự hiểu biết đi cùng lòng từ và cách sống lành."
+          ],
+          "meaningUnits": [
+            "mothers",
+            "fathers",
+            "good-deeds",
+            "loving-kindness"
+          ]
+        }
+      ]
+    }
+  }
+}

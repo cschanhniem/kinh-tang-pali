@@ -322,7 +322,7 @@ Các kiểm tra mới nối vào validator/tests/CI qua `explanations:check`; `e
 
 **Cập nhật theo chỉ dẫn ngày 2026-10-18:** người dùng yêu cầu “don't need to check actions, just continue next 10 texts”. Vì vậy, tiếp tục các lô 10 bài, đối chiếu và chấm điểm từng bản, tạo PR và merge sau kiểm tra local; không kiểm tra hoặc chờ GitHub Actions. Báo cáo chỉ ghi những kết quả thực sự đã kiểm.
 
-**Tiến độ khi đóng lô 09 (2026-10-19):** Đã có đủ ba bản được duyệt cho **90/186 bài, 270/558 bản** theo thứ tự kế hoạch. [Báo cáo lô 09 — MN81–MN90](../modern-explanations/batch-09-mn81-mn90.md) ghi điểm và phạm vi kiểm thực tế. Báo cáo CLI không có lỗi diễn giải; đánh giá hiện hành khớp nội dung và nguồn. Lô kế tiếp là **MN91–MN100**.
+**Tiến độ khi đóng lô 10 (2026-10-19):** Đã có đủ ba bản được duyệt cho **100/186 bài, 300/558 bản** theo thứ tự kế hoạch. [Báo cáo lô 10 — MN91–MN100](../modern-explanations/batch-10-mn91-mn100.md) ghi điểm và phạm vi kiểm thực tế. Báo cáo CLI không có lỗi diễn giải; đánh giá hiện hành khớp nội dung và nguồn. Lô kế tiếp là **MN101–MN110**.
 
 | Chặng | Công việc và đầu ra | Điều kiện đi tiếp |
 | --- | --- | --- |
