@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn56",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "b344891e-e256-4843-ae34-1785d790447e"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "4aedbf08-3040-4126-87bd-1be869be8903"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "2dc8fd5a-ab7c-4ac0-86b8-3de76b2ad570"
+    }
+  },
+  "reviews": [
+    {
+      "id": "b344891e-e256-4843-ae34-1785d790447e",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.1,
+        "audience_fit": 9.2,
+        "clarity": 9.2,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đọc toàn bộ năm nguồn, 382 khóa và 17 chú thích, HTML liên tục đến credits. Bản trẻ giữ ai hỏi/đáp, Pāvārika ở Nāḷandā, các công thức xác nhận ba lần và nhãn thứ sáu. Mười bảy ô Anh trống không được tính là nguồn đồng thuận; không lấy chữ chưa được biết trong HTML 135 thay khẳng định Pāli 28.1.",
+        "semantic_fidelity": "Ý nghiệp giữ đúng phạm vi câu hỏi về làm và tiếp tục việc ác; không bỏ hậu quả hành động thân. Câu chuyện vẫn có tái sinh, pháp nhãn và mười kệ tôn vinh; không thu thành mẹo thắng cãi. Tình huống nước nóng/lạnh giữ nguyên sự căng thẳng của nguồn, không thêm một cách chữa bệnh.",
+        "core_coverage": "Ba mươi mục triển khai đủ 65 ý: hai quan điểm, bốn lời khoe, ba lần can, bốn lượt chỉ sự không nhất quán, ba quy y, bài pháp tuần tự, quy định cửa, hai vòng ba lần báo tin, chuyện khỉ/vải, mười kệ và kết truyện. Mọi 382 khóa có đúng vị trí; các điệp khúc được gom nhưng nói rõ cho từng đoạn.",
+        "logic_context": "Chủ ý được Upāli xếp vào ý phạt; không chủ ý là không đáng trách nặng, không bị đổi thành hoàn toàn vô trách nhiệm. Các giả định thần thông giữ điều kiện đặc biệt; cáo buộc huyễn thuật, lời mắng và quyết định cửa nhà đều đúng người nói. Lý do tiếp tục phản bác chỉ xuất hiện khi Upāli tự thú nhận.",
+        "terminology": "Nghiệp, cư sĩ, quy y, dục lạc, xuất ly, pháp nhãn, kiết sử, hý luận và khát ái được mở nghĩa. Đoạn kệ giữ bảo thủ Sakka/Purindada và đạt đến Phạm như danh hiệu cổ; việc chưa giải hết các tên ấy và nhiều tên địa danh vẫn là phần khó cho trẻ mới đọc.",
+        "audience_fit": "Ví dụ hộp màu và hai dòng điều biết/điều cần hỏi hợp trải nghiệm trẻ, giữ quyền hỏi và sửa lời. Đoạn thân thể diễn tả ngắn, không kể chi tiết hành hạ. Ba mươi mục cho phép chia lần đọc, nhưng độ dài và danh xưng cuối cần người lớn đồng hành ở một số trẻ; chưa có thử đọc thật.",
+        "clarity": "Mạch vườn xoài, lời hứa, từng trường hợp, thay đổi niềm tin và thầy cũ giúp theo câu chuyện. Các mục kệ chia cặp và có giải thích, dù lượng danh hiệu vẫn dày; không dùng lời dẫn sáo để thay diễn giải. Điểm phản ánh giới hạn độ dài ấy.",
+        "editorial_separation": "Hai mục ví dụ và thực hành có nhãn rõ. Lời công kích được ghi là lời nhân vật, giả định phá thành không được trình bày như sự kiện đã xảy ra. Ví dụ hộp màu tự nêu phạm vi nhỏ, không thay toàn nội dung nghiệp và tái sinh.",
+        "practical_integrity": "Gợi ý hỏi thêm và nhìn lại điều tin không ép trẻ phục tùng. Hiểu ý định vẫn đi với khắc phục hộp màu; đổi quan điểm vẫn có thể tử tế và giúp người cần. Không hứa chứng đắc, không khuyên bắt chước trò đối xử với khỉ hoặc dùng ý nghĩ gây hại.",
+        "technical_integrity": "Đã đọc toàn 30 mục, map65, kiểm 382 khóa đủ và không trùng; audit cấu trúc/nguồn sạch, tác giả và nhãn đúng, fingerprint gắn đúng bản đã đọc. Đây là kiểm dữ liệu, chưa thay build và đối chiếu HTML của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập toàn bộ năm nguồn, 65 ý và cả ba bản sau freeze, không thấy lỗi chặn cần sửa. Các giới hạn thuật ngữ cổ, độ dài và chưa thử độc giả ghi trong điểm; không nâng điểm vì mục tiêu đóng lô.",
+      "contentHash": "0a784d652722b492638f1286214dd98c02f9bd73728b6d3758277f9f04ca54ee",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn56.html",
+          "sha256": "8c1189d04fac83dc0cce04e79d37211d84ae629c8dbf0c2895b16a92385ae476"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn56_root-pli-ms.json",
+          "sha256": "8514d29a634b959cd47552c965beb602611d436a881bdd78fabdae3a9f2a59da"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn56_translation-en-sujato.json",
+          "sha256": "b6d41d87a433d906accfa2dc37c88ad6be4f1f9ae4c97ce85ae77cb02b64da49"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn56_comment-vi-project.json",
+          "sha256": "125863e714476218d56ef23545cd0aa00bbf665cf846f41dfa50bcc1cdd56532"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn56_translation-vi-project.json",
+          "sha256": "fc8daefd822d7f80c9ac88c6278e6276ca29de506e8d971a772557f3f36f6145"
+        }
+      ]
+    },
+    {
+      "id": "4aedbf08-3040-4126-87bd-1be869be8903",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.3,
+        "audience_fit": 9.5,
+        "clarity": 9.4,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đủ Pāli, Việt dự án, Sujato, 17 chú thích và toàn HTML 274 khối. Giữ vị trí Nāḷandā, thuật ngữ riêng của hai bên, các phủ định và câu vua/quần chúng biết Upāli theo Nāṭaputta theo Pāli. Các nguồn chỉ được credits nhắc không được tính là đã mở.",
+        "semantic_fidelity": "Không biến chủ ý thành cớ bỏ qua hành vi thân: chính việc phân mức đáng trách trong hệ thống Upāli chấp nhận được xem xét. Giữ nội dung pháp nhãn về sinh/diệt, sự không lệ thuộc vào người khác trong lời Đạo Sư và mục tiêu giải thoát trong kệ; không nâng thành Upāli chứng A-la-hán.",
+        "core_coverage": "Đủ 65 đơn vị: bốn ví dụ so sức, hai hệ thuật ngữ, chuỗi bốn phản biện, ba quy y với hai lời khuyên, năm trạng thái sẵn sàng nghe pháp, hai vòng tin nghe/tin xác minh, tiếp kiến, hai vật liệu, mười kệ và vòng hoa. Bản đồ đủ 382 khóa; 26 mục vẫn giữ chi tiết có biến đổi.",
+        "logic_context": "Lời hứa sự thật dẫn sang phép thử nhất quán, không gán động cơ trước lời tự thuật của Upāli. Có chủ ý/không chủ ý, điều kiện người có thần thông, khả năng bất đối xứng trong lời Nāṭaputta, ba lần nghe và ba lần xác nhận được giữ. Đóng cửa thuộc Upāli, tiếp tục thức ăn thuộc lời khuyên Phật.",
+        "terminology": "Daṇḍa/kamma và cetanā được phân biệt rõ, không lấy ý thức mơ hồ thay chủ ý. Giải nghĩa xuất ly, kiết sử, hý luận, khát ái trong mạch văn. Các tôn xưng Phạm/Sakka/Purindada được giữ như lời kệ, không dựng hệ thần học; vẫn còn độ khó với người chưa có vốn thuật ngữ.",
+        "audience_fit": "Ví dụ quản lý áp dụng tiêu chuẩn nhất quán với chính mình và đồng nghiệp sát trách nhiệm người lớn. Bài thực hành chọn nhận định, xét căn cứ điều chỉnh, nghe kỹ trước phản bác tôn trọng chủ động. Không giả mọi người có cùng nghề nghiệp; chưa thử nghiệm độc giả thật.",
+        "clarity": "Bố cục từ xác định thuật ngữ đến đối chiếu lời đáp, cân nhắc và thực hành tạo đường đọc rõ. Một số đoạn tổng hợp báo tin và kệ khá dày, nhưng không trộn hai vòng báo hoặc làm mất vai người nói. Giữ giới hạn về độ đặc của danh xưng cuối bài.",
+        "editorial_separation": "Ví dụ quản lý tự nhận là ví dụ hiện đại và nêu không thay nghiệp/tái sinh. Lời buộc tội, giả định thần thông và chuyện khỉ/vải được phân vai; người biên soạn không nhập lời phê phán đạo khác vào giọng kết luận của chính mình.",
+        "practical_integrity": "Liên hệ yêu cầu xét ý định nhất quán đồng thời vẫn sửa hậu quả, không dùng ý tốt để miễn mọi trách nhiệm. Gợi ý cho phép đổi niềm tin và tiếp tục giúp người khác quan điểm, không hứa kết quả thiền hay thần thông và không biến tình huống y khoa cổ thành hướng dẫn.",
+        "technical_integrity": "Đã đọc toàn 26 mục và map65, năm nguồn hiện hành khớp dấu đọc, official audit không lỗi nguồn hay cấu trúc. Đủ 382 khóa duy nhất và hash riêng cho bản trưởng thành; kết quả này chưa xác nhận HTML hoặc build toàn lô."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập toàn bộ năm nguồn, 65 ý và cả ba bản sau freeze, không thấy lỗi chặn cần sửa. Các giới hạn thuật ngữ cổ, độ dài và chưa thử độc giả ghi trong điểm; không nâng điểm vì mục tiêu đóng lô.",
+      "contentHash": "ec5cb4fcc89ee30dc4c162c9aba97a98ab200127ce5aaec08bf69fb42e379663",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn56.html",
+          "sha256": "8c1189d04fac83dc0cce04e79d37211d84ae629c8dbf0c2895b16a92385ae476"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn56_root-pli-ms.json",
+          "sha256": "8514d29a634b959cd47552c965beb602611d436a881bdd78fabdae3a9f2a59da"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn56_translation-en-sujato.json",
+          "sha256": "b6d41d87a433d906accfa2dc37c88ad6be4f1f9ae4c97ce85ae77cb02b64da49"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn56_comment-vi-project.json",
+          "sha256": "125863e714476218d56ef23545cd0aa00bbf665cf846f41dfa50bcc1cdd56532"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn56_translation-vi-project.json",
+          "sha256": "fc8daefd822d7f80c9ac88c6278e6276ca29de506e8d971a772557f3f36f6145"
+        }
+      ]
+    },
+    {
+      "id": "2dc8fd5a-ab7c-4ac0-86b8-3de76b2ad570",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.2,
+        "audience_fit": 9.5,
+        "clarity": 9.5,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đọc thực năm nguồn, 382 khóa và 17 chú thích, HTML liên tục không tự căn chỉnh. Bản lớn tuổi theo Pāli về ba xác nhận mỗi phía, chuỗi quy y và khẳng định vua/quần chúng biết, khác chữ chưa trong HTML. Ô Anh trống không được dùng làm bằng chứng độc lập.",
+        "semantic_fidelity": "Bảo toàn vai trò tâm mà không phủ nhận việc làm qua thân và lời. Giữ pháp nhãn và sự thâm nhập Pháp, mười kệ với thân cuối cùng và giải thoát, không quy toàn bài thành giữ hòa khí gia đình. Cuối truyện có máu nóng theo lời kể, không thêm chết, bệnh hay quả báo.",
+        "core_coverage": "Ba mươi mốt mục đi trọn map65/382 khóa: cuộc gặp, hai lập trường, bốn khoe sức, ba can ngăn, bốn nhắc mâu thuẫn, ba quy y, pháp tuần tự, nhà/cửa, hai vòng ba báo, lời công kích, ba lần xin khỉ, vải mới, mười kệ, hoa và nhãn kết.",
+        "logic_context": "Các điều kiện và mức độ giữ đúng: không chủ ý không đáng trách nặng, người có thần thông làm chủ tâm trong giả định, vua/quần chúng đã biết thầy cũ. Phân biệt lời đồn chỉ cho mình với lời thật khuyên hỗ trợ Nigaṇṭha, phân biệt lời khuyên Phật và việc tiếp khách của Upāli.",
+        "terminology": "Các từ nghiệp, quy y, xuất ly, kiết sử, niệm, hý luận, khát ái có lời gần nghĩa. Tên cổ trong kệ được giữ tôn xưng mà không ép một nghĩa suy đoán; cụm đạt đến Phạm và một số danh xưng vẫn cần đọc chậm hay hỏi thêm. Không lấy nghĩa phóng đại dừng mọi ý nghĩ cho từ hiếm ở kệ tám.",
+        "audience_fit": "Nhịp chia nhỏ 31 mục, ví dụ gia đình cùng nhìn việc phân công giữ quyền suy xét ở mọi tuổi. Không mặc định người lớn tuổi bệnh, yếu hoặc phải nhường mọi quyết định. Gợi ý đổi ý chậm rãi và nói rõ lý do tôn trọng kinh nghiệm; chưa có độc giả lớn tuổi thử đọc.",
+        "clarity": "Mỗi trường hợp, vòng báo tin và chuyển cảnh có tiêu đề riêng, giúp đọc ngắt quãng mà nối được tiến trình. Phần mười kệ chia cặp tránh một khối quá dài; các chuỗi danh hiệu vẫn trang trọng và dày hơn văn đời thường, được phản ánh trong điểm.",
+        "editorial_separation": "Tình huống chia việc trong gia đình và gợi ý được ghi nhãn, có giới hạn so với nghiệp/tái sinh/thấy Pháp. Câu chuyện khỉ là lời Upāli kể, lời mắng thuộc Nāṭaputta, máu nóng thuộc người kể; không thêm lời Phật dạy bằng dấu trích dẫn giả.",
+        "practical_integrity": "Gợi ý kiểm điều mình tin và nghe đủ người khác giữ khả năng tự quyết; tiếp tục tử tế không đồng nghĩa phải tiếp đón mọi người theo một khuôn. Không hứa chữa bệnh, hết buồn hoặc đạt pháp nhãn qua bài tập; không đưa tình huống nước nóng/lạnh thành lời khuyên sức khỏe.",
+        "technical_integrity": "Đọc đầy đủ 31 mục, bản đồ và các nguồn khai báo; audit không lỗi, 382 khóa phủ đúng một lần, hash của bản lớn tuổi khớp nội dung vừa đọc. Kiểm văn bản không thay kiểm HTML, build của lô hoặc xác nhận học giả con người."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập toàn bộ năm nguồn, 65 ý và cả ba bản sau freeze, không thấy lỗi chặn cần sửa. Các giới hạn thuật ngữ cổ, độ dài và chưa thử độc giả ghi trong điểm; không nâng điểm vì mục tiêu đóng lô.",
+      "contentHash": "3c9440a85aa1d19a18a76b77813330ccebe5bbb11f764b1d4a9a4764f386c712",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn56.html",
+          "sha256": "8c1189d04fac83dc0cce04e79d37211d84ae629c8dbf0c2895b16a92385ae476"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn56_root-pli-ms.json",
+          "sha256": "8514d29a634b959cd47552c965beb602611d436a881bdd78fabdae3a9f2a59da"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn56_translation-en-sujato.json",
+          "sha256": "b6d41d87a433d906accfa2dc37c88ad6be4f1f9ae4c97ce85ae77cb02b64da49"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn56_comment-vi-project.json",
+          "sha256": "125863e714476218d56ef23545cd0aa00bbf665cf846f41dfa50bcc1cdd56532"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn56_translation-vi-project.json",
+          "sha256": "fc8daefd822d7f80c9ac88c6278e6276ca29de506e8d971a772557f3f36f6145"
+        }
+      ]
+    }
+  ]
+}
