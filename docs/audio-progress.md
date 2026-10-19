@@ -1322,3 +1322,70 @@ Each source/profile fingerprint, chunk checkpoint, MP3 frame/hash/byte check and
 Local gates: `validate` passed in the build with 2,275 existing advisories and no errors; `npm test` passed (423 passed, one skipped); `npm run check` passed (zero errors/warnings, five hints); `npm run build` passed (6,204 pages; Pagefind indexed 6,137 pages / 467,607 words); `git diff --check` passed.
 
 All five are `uploaded-verified`; human content listening remains pending and ASR was skipped by editor instruction. Production verification for this batch awaits its PR merge and Pages deploy. MP3/WAV/cache/transcript files are not committed.
+
+### Batch audio-055 local release checkpoint — DN15–DN19
+
+Năm audio Kinh Trường Bộ được tạo tuần tự, mỗi bài đọc tóm tắt trước rồi toàn bộ bản Việt 2026 canonical; không đọc segment ID, comment hay note. Tổng **23,153.54 giây (6 giờ 25 phút 53.54 giây)**, **463,076,640 byte**, 234 chunk (10 chunk tóm tắt). Cả năm dùng profile `vi-charon-mn1-v1`, Gemini `gemini-3.8-flash-tts`, giọng Charon, profile SHA-256 `a384c5852585077c32e1348a6ada5cfc70a69c989ad705b8b5129fef3e1c9a71`.
+
+| UID | Source SHA-256 | MP3 SHA-256 | Bytes | Duration | Scripture start | Chunks | R2 | Status |
+|---|---|---|---:|---:|---:|---:|---|---|
+| DN15 | `0da46e777449342c0e3eea269c176cfb96f707b7c0e0e07c0fe0f631cbfc27f2` | `8fdba263a36795bb75109cd5188bee5513aed491247c325fb4577b87b798cf80` | 44,158,080 | 2207.84 s | 179.67 s | 21 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/dn/dn15/8fdba263a36795bb.mp3) | uploaded-verified |
+| DN16 | `bf2bd75a5a229657fa08b8e7906d5ff454ffe0d105dfc4c2c66908dccc38a932` | `f28d1a09570dcae1c9eee224f192e70788006b7a8c590571c4fd1bddbac9c675` | 240,552,000 | 12027.54 s | 176.27 s | 122 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/dn/dn16/f28d1a09570dcae1.mp3) | uploaded-verified |
+| DN17 | `a0fde22434c13a38443a5cb6d19f08c9b34ed7fd63ceee7a584c49ba815e3682` | `22aa3109df42ba0da142ca135ab48afd495ee54cacd80e107cd020530a5477d4` | 64,996,320 | 3249.76 s | 168.79 s | 33 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/dn/dn17/22aa3109df42ba0d.mp3) | uploaded-verified |
+| DN18 | `2b8d5dc3aed1fdf6307c19f61f63acff64a0deeab2c8c4bb5b4f8bbc43351174` | `6a6b5e4219dbc810a7744ce80c763eea18c0a5a4e42a27bc8585d12dbffd2514` | 44,402,400 | 2220.06 s | 168.55 s | 23 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/dn/dn18/6a6b5e4219dbc810.mp3) | uploaded-verified |
+| DN19 | `c8820a0fccad5056395d361ce1d29bfd14cfa65687caba40893c1b3ccef25f6e` | `09e7a86cc786d48844324135fedac11c567b9a6f2bc9a044e95255300e84faae` | 68,967,840 | 3448.34 s | 183.35 s | 35 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/dn/dn19/09e7a86cc786d488.mp3) | uploaded-verified |
+
+Mỗi transcript được tái dựng và đối chiếu chính xác với summary + segment text canonical trước khi gọi Gemini; mọi chunk nằm trong giới hạn profile. Uploader xác minh từng MP3 theo SHA-256/bytes, `audio/mpeg`, public full-object readback và HTTP range 206 đủ 1,024 byte. Local Chrome/Playwright kiểm từng trang: HTTP 200, đúng URL R2, phát có tiến độ ở 1×, tua +15 giây, timeline pointer và ArrowRight, nhảy paused tới mốc kinh văn với nhãn “Kinh văn”, auto-next mặc định bật, `readyState=4`, không lỗi console và không tràn ngang ở 320 px. Bằng chứng chi tiết nằm trong `content/audio/<uid>.json` và `content/audio/progress.json`.
+
+DN17 có một lần hết dung lượng trong `/private/tmp` khi ghi WAV tạm của chunk 32; 31 checkpoint hợp lệ được giữ nguyên. Chuyển thư mục audio/cache bị ignore sang `audio/batch-055` trên SSD rồi resume; chỉ chunk 32 được sinh lại, các chunk khác được tái sử dụng. Lần upload DN17 đầu dừng ở bước đọc bucket với HTTP 401 trước khi ghi object; Wrangler làm mới OAuth, sau đó cùng MP3 được upload và xác minh thành công, không sinh TTS lại.
+
+Local gates: `npm run validate` pass (2,275 cảnh báo hiện có; 5,839 quality histories, 0 lỗi); `npm test` pass (425 passed, 2 skipped, 0 failed); `npm run check` pass (0 errors, 0 warnings, 5 hints); `npm run audio:check` pass (186 catalog texts, 0 errors); `npm run build` pass (6,204 trang, Pagefind 467,605 từ); `git diff --check` pass. Pinned source/legacy sync pass; 7,707 path thuộc các edition không xuất bản nội dung upstream và được ghi nhận là coverage, không phải sync failure.
+
+Cả năm đang `uploaded-verified`; **production Pages chưa được kiểm nên chưa ghi `live`**. Không chạy ASR và chưa nghe duyệt toàn văn thủ công; `review_status` giữ `pending` cho cả năm. Không stage MP3/WAV/cache, Playwright artifacts, `.env` hoặc secrets. PR/merge SHA và Pages readback sẽ được ghi sau khi remote verification hoàn tất.
+
+
+#### Batch audio-055 merge checkpoint — PR #783
+
+PR [#783](https://github.com/streamentry/kinh-tang-pali/pull/783), exact head `967481940d27594d0ef946b250b7a1a3cf7adb7d`, targeted base `c9f5872fbadb59ce84eae77d218561660793f1dc`, and squash-merged as `a78880d252ff45de55fcc5fcbc3e40618b19d436` at `2026-10-18T19:09:11Z`. CI run [#3243](https://github.com/streamentry/kinh-tang-pali/actions/runs/39153941483) passed all 24 steps on the exact head. Remote `main` was read back at the merge SHA. Per the release cadence, post-merge Pages/player readback was not awaited before starting the next batch; DN15–DN19 remain `merged`, not `live`, until production is verified. Human listening remains pending.
+
+
+### Batch audio-056 local release checkpoint — DN20–DN24
+
+Five sequential Dīgha narrations read summary first, then the complete canonical Vietnamese 2026 text. Total **15516.93 seconds**, **310,344,960 bytes**, 159 chunks (10 summary chunks). All use `vi-charon-mn1-v1`, Gemini `gemini-3.8-flash-tts`, Charon, profile SHA-256 `a384c5852585077c32e1348a6ada5cfc70a69c989ad705b8b5129fef3e1c9a71`.
+
+| UID | Source SHA-256 | MP3 SHA-256 | Bytes | Duration | Scripture start | Chunks | R2 | Status |
+|---|---|---|---:|---:|---:|---:|---|---|
+| DN20 | `d1f06eaf24d91bd469528cb0688f85c5469b049442843276662a3a612ce11f3a` | `c5c0a87826fb7b540e031a92e92fe46d3b5206bbea40880f4cca4a85811c1dd2` | 23,302,560 | 1165.06 s | 171.67 s | 11 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/dn/dn20/c5c0a87826fb7b54.mp3) | uploaded-verified |
+| DN21 | `89a221c5f2ec922202a6be95722a19cee4060d5cd292071dd107a5e8fdb4a290` | `a022a5dcc65782f2fbad6b6fd22692506f475bfcec52440cd3a4f288ae002bae` | 48,756,000 | 2437.74 s | 178.03 s | 26 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/dn/dn21/a022a5dcc65782f2.mp3) | uploaded-verified |
+| DN22 | `69a6238c1d199004cfa28640a360117cfb6cdf71ef1401c58b580fd0d394b9e0` | `5a67d26abd398b7ab0e01fdb7b7863fddbd9cbfe19fcdf493bfda1d3bd9650b7` | 63,028,800 | 3151.37 s | 170.71 s | 28 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/dn/dn22/5a67d26abd398b7a.mp3) | uploaded-verified |
+| DN23 | `0dda4aa3f1f7490b53ff17dbadf8ea50ac4ef294c7533ffae298e162b30d0e6b` | `00b04af7cfb265306ac9e7da165a7a7af1d34c0dd1cc5a3604e9b685345575c8` | 92,263,680 | 4613.12 s | 155.83 s | 49 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/dn/dn23/00b04af7cfb26530.mp3) | uploaded-verified |
+| DN24 | `c77ae750183d06a16c7b76e6dbf2c073b77de86d0afd2216ffcd95e865fe8a1f` | `fcd06617a219357e378ec8257d1d1faa81cda4eb5dd9fd7bc208bceb28509e8c` | 82,993,920 | 4149.64 s | 151.87 s | 45 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/dn/dn24/fcd06617a219357e.mp3) | uploaded-verified |
+
+Each summary-plus-scripture transcript reconstructed exactly from current source before synthesis; all chunks passed the profile limit and checkpoint checks. MP3 frame/hash/byte integrity, public R2 full-object SHA/byte verification and HTTP 206 `audio/mpeg` 1,024-byte range checks passed for each UID. Local Playwright on port 4343 verified HTTP 200, the exact R2 URL, playback advancing at 1×, pause, +15-second seek, timeline pointer/ArrowRight, paused scripture jump with the “Kinh văn” phase, auto-next default on, no console errors and no horizontal overflow at 320 px. Details are stored in each `content/audio/<uid>.json` and `content/audio/progress.json`.
+
+Local gates: `npm run validate` passed with 2,275 warnings and zero errors (5,839 quality histories); `npm test` passed (425 passed, 2 skipped); `npm run check` reported zero errors/warnings and five hints; `npm run audio:check` found 186 catalog texts and zero errors; `npm run build` passed with 6,204 pages and Pagefind indexing 6,137 pages / 467,605 words; `git diff --check` passed. Pinned source/legacy sync passed; 7,707 upstream paths are not published by their pinned editions and are recorded as coverage advisories.
+
+All five entries are `uploaded-verified`; `review_status` remains `pending`. ASR and full human content listening were not performed. The post-merge production Pages readback has not been done, so these entries are not marked `live`. MP3/WAV/cache/transcripts are not tracked. PR/merge SHA and Pages evidence for batch 056 will be appended after remote verification.
+
+
+#### Batch audio-056 merge checkpoint — PR #784
+
+PR [#784](https://github.com/streamentry/kinh-tang-pali/pull/784), exact head `49ddb704f5c6eda78dfefef145447bb7ae410cb5`, targeted base `a78880d252ff45de55fcc5fcbc3e40618b19d436`, and squash-merged as `1058a93c4302dd4bb346b0b5162f90132f144660` at `2026-10-18T22:04:06Z`. CI run [#3246](https://github.com/streamentry/kinh-tang-pali/actions/runs/39167141844) passed all 24 steps on the exact head. Remote `main` was read back at the merge SHA. Post-merge Pages/player readback was not awaited before starting DN25; DN20–DN24 remain `merged`, not `live`, until production is verified. Full human listening remains pending.
+
+### Batch audio-057 local release checkpoint — DN25–DN29
+
+Five sequential Dīgha narrations, summary first and canonical Vietnamese 2026 scripture second. Total **13,669.31 seconds**, **273,392,160 bytes**, 138 chunks (11 summary chunks). All use profile `vi-charon-mn1-v1`, Gemini `gemini-3.8-flash-tts`, Charon, profile SHA-256 `a384c5852585077c32e1348a6ada5cfc70a69c989ad705b8b5129fef3e1c9a71`. The progress registry tags all five as batch `audio-057`.
+
+| UID | Source SHA-256 | MP3 SHA-256 | Bytes | Duration | Scripture start | Chunks | R2 | Status |
+|---|---|---|---:|---:|---:|---:|---|---|
+| DN25 | `c656a8f314231b82980c068f90ef9363eadfadbc36d3975bc0b3d4654a61ee04` | `c7c0b2b36c09b4ceecf74de79aafbad43794bf5db486a91c4130c464a22df12b` | 58,212,480 | 2910.57 s | 170.23 s | 28 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/dn/dn25/c7c0b2b36c09b4ce.mp3) | uploaded-verified |
+| DN26 | `cdd4cbf564cb99cd39b0388617206db4a07e4806c1972eb262002b441369655b` | `384746459a8b2ee18200efe6f9f2d464a6df2dbc5a04a5eeff64e0992408d7e0` | 55,288,800 | 2764.37 s | 159.95 s | 28 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/dn/dn26/384746459a8b2ee1.mp3) | uploaded-verified |
+| DN27 | `360fea23e91a6fe413d7bcfb664cf30c1dfc7db7cd36547984b4e01d6f0420bc` | `a83dde04dba645d9b1a1d64fa95670a26f89434e3dffb8e85df0936a383dc38d` | 46,722,240 | 2336.05 s | 162.43 s | 24 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/dn/dn27/a83dde04dba645d9.mp3) | uploaded-verified |
+| DN28 | `0a003ba1dc732c8231a1cfc951749f8e2b427fe3be993aaca54981b62042818c` | `4cdf4165b63065d2c2f8c30f6a6fa29e74cdd67bfb0f7ea787e2e228b8b1d7bf` | 48,420,480 | 2420.97 s | 161.66 s | 24 (3 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/dn/dn28/4cdf4165b63065d2.mp3) | uploaded-verified |
+| DN29 | `e0f573ce21cf361ee18b12d3300ca10383b70505a2cda4208d524aac1da32237` | `0619a3d91caf5a9822b9c327b4dc7596756b1dbcb6e4823c215193c80bd23aca` | 64,748,160 | 3237.35 s | 154.43 s | 34 (2 summary) | [R2 MP3](https://pub-8fa53f5182904685bd0c13d6c894a0e9.r2.dev/vi/dn/dn29/0619a3d91caf5a98.mp3) | uploaded-verified |
+
+For each UID, source/profile fingerprints and chunk checkpoints match; MP3 integrity/hash/bytes and public R2 object/range readbacks passed. Local Chrome verified the exact R2 player at 320 px, 1× playback, auto-next default on, pause, 15-second and timeline/keyboard seeking, scripture jump and phase label, no page errors, and no horizontal overflow. `audio:check` reported 186 catalog texts and zero errors.
+
+Local checks passed: `node --import tsx scripts/validate.ts` (2,275 advisory warnings, no errors), quality history (5,839 checked, zero errors), explanation gate (zero errors), `npm test` (449 passed, 1 skipped), `npm run check` (zero errors/warnings, five hints), direct Astro build (6,204 pages), Pagefind (6,137 pages / 467,605 words), and `git diff --check`. The full `source:sync:manifest` could not finish on this host: Node fetch returned DNS `ENOTFOUND` for `raw.githubusercontent.com` on 135 pinned cache paths. The local `tsx` npm launcher also cannot create its temporary IPC pipe in this sandbox, so the underlying validation scripts and Astro build were run directly; exact manifest sync remains covered by hosted PR CI.
+
+All five remain `uploaded-verified` with `review_status: pending`; full human content listening and production Pages verification have not been done, so none is marked `live`. ASR was skipped per the editor's instruction. MP3, WAV, and cache files are not tracked. The PR/merge checkpoint will be appended after remote CI and merge readback.
