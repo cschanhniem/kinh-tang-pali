@@ -1,0 +1,1342 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn90",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn90_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "22a69356ab67f2442f2b583f1e20b61bd5275daa86cf37ecf8d39ac5b2f17c4d"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn90_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "4448cc9b14709fce05ce89d3311911457fc3acbc8a37b07e386ac422f2f07397"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn90_translation-vi-project.json",
+      "commit": "35309d257c04d74d87f2838da349f5bcbe9f28ed",
+      "sha256": "920b3065d996c78fb32cf6a20e295203cb4f77b1eb5b660a97f35168901b15d2"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn90.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "4f5a1ecce14ad629d918ca194f8cb979885ae89d4fbfc6b5b7d966dc954997b4"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn90_comment-vi-project.json",
+      "commit": "35309d257c04d74d87f2838da349f5bcbe9f28ed",
+      "sha256": "5a284f76eb1f11b1876558bbbc65299f7750637834a22935aa5df17d7bd869cb"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Trung Bộ 90, Kinh Kaṇṇakatthala",
+      "segments": [
+        "mn90:0.1",
+        "mn90:0.2"
+      ],
+      "summary": "Tên tập và Kaṇṇakatthalasutta."
+    },
+    {
+      "id": "setting",
+      "title": "Điều đã nghe tại vườn Nai",
+      "segments": [
+        "mn90:1.1",
+        "mn90:1.2"
+      ],
+      "summary": "Người truyền kinh đã nghe Phật ở Uruññā, vườn Nai Kaṇṇakatthala."
+    },
+    {
+      "id": "message",
+      "title": "Vua gửi lời thăm và báo sẽ đến",
+      "segments": [
+        "mn90:2.1",
+        "mn90:2.2",
+        "mn90:2.3",
+        "mn90:2.4",
+        "mn90:2.5",
+        "mn90:2.6"
+      ],
+      "summary": "Pasenadi đến Uruññā vì việc; sai người nhân danh cúi đầu lễ chân Phật, hỏi năm nét ít bệnh/ít đau/nhẹ nhàng/khỏe/sống dễ chịu, báo hôm nay sau bữa sáng sẽ đến."
+    },
+    {
+      "id": "messenger",
+      "title": "Truyền đúng lời vua",
+      "segments": [
+        "mn90:2.7",
+        "mn90:2.8",
+        "mn90:2.9",
+        "mn90:2.10"
+      ],
+      "summary": "Người vâng, đi đảnh lễ Phật và ngồi bên, truyền đủ lời cúi đầu lễ, năm nét hỏi thăm và báo sau bữa sáng vua sẽ đến."
+    },
+    {
+      "id": "sisters",
+      "title": "Hai chị em nhờ vua chuyển lời",
+      "segments": [
+        "mn90:3.1",
+        "mn90:3.2",
+        "mn90:3.3",
+        "mn90:3.4",
+        "mn90:3.5"
+      ],
+      "summary": "Somā/Sakulā nghe tin vua sau bữa sáng sẽ đến; lúc bữa đang dọn họ xin vua nhân danh cúi đầu lễ chân Phật và hỏi đủ năm nét sức khỏe/dễ chịu."
+    },
+    {
+      "id": "arrival",
+      "title": "Vua đến và truyền lời hai chị em",
+      "segments": [
+        "mn90:4.1",
+        "mn90:4.2"
+      ],
+      "summary": "Sau bữa sáng vua đến lễ và ngồi bên, thưa Somā/Sakulā cúi đầu lễ chân Phật và hỏi đủ năm nét."
+    },
+    {
+      "id": "sister-reply",
+      "title": "Vua thuật lại lời nhờ, Phật chúc an vui",
+      "segments": [
+        "mn90:4.3",
+        "mn90:4.4",
+        "mn90:4.5",
+        "mn90:4.6",
+        "mn90:4.7",
+        "mn90:4.8",
+        "mn90:4.9"
+      ],
+      "summary": "Phật hỏi hai chị em không tìm người đưa tin khác sao. Vua kể họ nghe sẽ đi sau ăn sáng, tới lúc dọn bữa, nhờ gửi lời lễ và năm nét hỏi thăm. Phật chúc hai chị em an vui."
+    },
+    {
+      "id": "rumor",
+      "title": "Lời toàn tri bị gán sai",
+      "segments": [
+        "mn90:5.1",
+        "mn90:5.2",
+        "mn90:5.3",
+        "mn90:5.4",
+        "mn90:5.5"
+      ],
+      "summary": "Vua nghe Gotama nói không sa-môn/bà-la-môn nào biết tất cả/thấy tất cả/tự nhận biết thấy không dư sót, không thể có. Hỏi người thuật có đúng lời, không vu khống, hợp Pháp, không bị chê bác hợp Pháp không. Phật bác: không đúng lời, xuyên tạc bằng điều sai/không thật."
+    },
+    {
+      "id": "blame",
+      "title": "Đại tướng chỉ nguồn câu chuyện",
+      "segments": [
+        "mn90:6.1",
+        "mn90:6.2",
+        "mn90:6.3"
+      ],
+      "summary": "Vua hỏi đại tướng Viḍūḍabha ai đưa chuyện vào cung, được đáp bà-la-môn Sañjaya họ Ākāsa."
+    },
+    {
+      "id": "summons",
+      "title": "Lệnh triệu Sañjaya được truyền",
+      "segments": [
+        "mn90:7.1",
+        "mn90:7.2",
+        "mn90:7.3",
+        "mn90:7.4",
+        "mn90:7.5"
+      ],
+      "summary": "Vua sai người nhân danh triệu Sañjaya; người vâng, tới và truyền đúng lời vua triệu."
+    },
+    {
+      "id": "simultaneous",
+      "title": "Lời thật có điều kiện cùng một lúc",
+      "segments": [
+        "mn90:8.1",
+        "mn90:8.2",
+        "mn90:8.3",
+        "mn90:8.4",
+        "mn90:8.5",
+        "mn90:8.6",
+        "mn90:8.7"
+      ],
+      "summary": "Vua nêu khả năng Phật nói một việc mà người nghe hiểu khác, hỏi lời thật. Phật nhớ đã nói không sa-môn/bà-la-môn nào biết/thấy tất cả CÙNG MỘT LÚC, không thể. Vua khen có căn cứ/có nguyên nhân, nhắc đủ mệnh đề đó."
+    },
+    {
+      "id": "classes",
+      "title": "Bốn đẳng cấp và nghi lễ hiện đời",
+      "segments": [
+        "mn90:9.1",
+        "mn90:9.2",
+        "mn90:9.3",
+        "mn90:9.4",
+        "mn90:9.5",
+        "mn90:9.6",
+        "mn90:9.7",
+        "mn90:9.8"
+      ],
+      "summary": "Vua hỏi khác biệt Sát-đế-lợi/Bà-la-môn/Phệ-sa/Thủ-đà; Phật nhắc bốn nhóm, hai nhóm đầu được xem cao về lễ/đứng dậy/chắp tay/cư xử đúng nghi thức. Không thêm quyền đạo đức hoặc lễ giúp việc theo HTML."
+    },
+    {
+      "id": "future",
+      "title": "Hỏi đời sau, giới thiệu năm pháp",
+      "segments": [
+        "mn90:10.1",
+        "mn90:10.2",
+        "mn90:10.3",
+        "mn90:10.4",
+        "mn90:10.5",
+        "mn90:10.6",
+        "mn90:10.7"
+      ],
+      "summary": "Vua nói không hỏi hiện đời mà hỏi đời sau, lặp bốn nhóm và khác biệt. Phật nêu năm pháp hỗ trợ tinh cần rồi hỏi năm gì."
+    },
+    {
+      "id": "faith",
+      "title": "Tin giác ngộ và các phẩm chất Như Lai",
+      "segments": [
+        "mn90:10.8",
+        "mn90:10.9"
+      ],
+      "summary": "Tỳ-kheo tin sự giác ngộ Như Lai: A-la-hán, Chánh Đẳng Giác, đủ minh hạnh, Thiện Thệ, biết thế gian, tối thượng điều phục người đáng điều phục, thầy thiên/người, Phật, Thế Tôn. Không lược công thức thành chỉ tin Phật."
+    },
+    {
+      "id": "health",
+      "title": "Sức khỏe hỗ trợ tinh cần",
+      "segments": [
+        "mn90:10.10"
+      ],
+      "summary": "Ít bệnh/ít đau, tiêu hóa điều hòa, không quá lạnh/không quá nóng/vừa phải/đủ sức nỗ lực."
+    },
+    {
+      "id": "honesty",
+      "title": "Không gian dối và tự trình bày thật",
+      "segments": [
+        "mn90:10.11"
+      ],
+      "summary": "Không gian/không dối, nói thật mình với Thầy hoặc người đồng phạm hạnh có trí; không đổi hoặc thành bắt buộc cả hai."
+    },
+    {
+      "id": "effort",
+      "title": "Bỏ bất thiện, thành tựu thiện",
+      "segments": [
+        "mn90:10.12"
+      ],
+      "summary": "Khởi tinh tấn bỏ bất thiện/thành tựu thiện, mạnh mẽ, bền chí, không bỏ gánh việc lành."
+    },
+    {
+      "id": "wisdom",
+      "title": "Trí sinh diệt đưa đến hết khổ",
+      "segments": [
+        "mn90:10.13",
+        "mn90:10.14"
+      ],
+      "summary": "Trí thấy sinh/diệt, thuộc bậc Thánh/cao quý, xuyên thấu, đưa đúng đến chấm dứt khổ hoàn toàn; kết đây là đủ năm pháp hỗ trợ."
+    },
+    {
+      "id": "benefit",
+      "title": "Đủ năm điều thì lợi ích lâu dài",
+      "segments": [
+        "mn90:10.15",
+        "mn90:10.16",
+        "mn90:10.17",
+        "mn90:10.18"
+      ],
+      "summary": "Nhắc bốn đẳng cấp; NẾU đủ năm pháp tinh cần thì lợi ích và an vui dài lâu."
+    },
+    {
+      "id": "effort-question",
+      "title": "Khác nhau ở mức nỗ lực",
+      "segments": [
+        "mn90:11.1",
+        "mn90:11.2",
+        "mn90:11.3",
+        "mn90:11.4",
+        "mn90:11.5"
+      ],
+      "summary": "Vua lặp bốn nhóm và nếu đủ năm pháp, hỏi còn khác không. Phật nói sự khác biệt ở mức nỗ lực tinh cần."
+    },
+    {
+      "id": "trained",
+      "title": "Hai con được luyện và hai con chưa luyện",
+      "segments": [
+        "mn90:11.6",
+        "mn90:11.7",
+        "mn90:11.8",
+        "mn90:11.9"
+      ],
+      "summary": "Giả dụ hai voi HOẶC ngựa HOẶC bò khéo điều phục/huấn luyện, hai con chưa; hỏi nhóm đã luyện làm được việc và đạt trình độ của vật đã luyện không; vua đáp có."
+    },
+    {
+      "id": "untrained",
+      "title": "Chưa luyện và hai nhóm điều kiện đối nhau",
+      "segments": [
+        "mn90:11.10",
+        "mn90:11.11",
+        "mn90:11.12"
+      ],
+      "summary": "Hỏi hai con chưa luyện có làm/đạt ngang hai con đã luyện khi vẫn chưa luyện không; vua đáp không. Điều người tin/ít bệnh/trung thực/siêng/trí đạt được không thể đạt bởi người không tin/nhiều bệnh/gian-dối/lười/kém trí. Giữ cả nhóm, không rút thành một điều kiện bệnh."
+    },
+    {
+      "id": "same-release",
+      "title": "Đủ năm điều và nỗ lực đúng thì giải thoát không khác",
+      "segments": [
+        "mn90:12.1",
+        "mn90:12.2",
+        "mn90:12.3",
+        "mn90:12.4",
+        "mn90:12.5",
+        "mn90:12.6"
+      ],
+      "summary": "Vua khen có căn cứ/nguyên nhân; hỏi bốn nhóm nếu đủ năm pháp VÀ nỗ lực chánh đáng còn khác không. Phật nói không khác về GIẢI THOÁT NÀY VỚI GIẢI THOÁT KIA."
+    },
+    {
+      "id": "woods",
+      "title": "Bốn loại gỗ khô",
+      "segments": [
+        "mn90:12.7",
+        "mn90:12.8",
+        "mn90:12.9",
+        "mn90:12.10"
+      ],
+      "summary": "Bốn người lấy gỗ khô tếch/sāla/xoài/sung nhóm lửa, tạo sức nóng; không lặp sāla thay tếch theo HTML."
+    },
+    {
+      "id": "fire",
+      "title": "Ngọn lửa, màu, ánh sáng và nỗ lực",
+      "segments": [
+        "mn90:12.11",
+        "mn90:12.12",
+        "mn90:12.13",
+        "mn90:12.14"
+      ],
+      "summary": "Phật hỏi lửa từ gỗ khác có khác về ngọn lửa/màu/ánh sáng không; vua đáp không. Sức nóng do tinh tấn cọ xát và nỗ lực sinh khởi, không khác giải thoát này/giải thoát kia."
+    },
+    {
+      "id": "devas",
+      "title": "Hỏi rõ chư thiên trở lại cõi này",
+      "segments": [
+        "mn90:13.1",
+        "mn90:13.2",
+        "mn90:13.3",
+        "mn90:13.4",
+        "mn90:13.5",
+        "mn90:13.6"
+      ],
+      "summary": "Vua khen có căn cứ/nguyên nhân rồi hỏi có chư thiên không; Phật hỏi rõ, vua nói trở lại hay không trở lại cõi này. Phật: còn phiền não sẽ trở lại; không còn sẽ không trở lại. Không thêm cõi/địa vị giải thoát ngoài nguồn."
+    },
+    {
+      "id": "general",
+      "title": "Có thể lật đổ hoặc trục xuất không",
+      "segments": [
+        "mn90:14.1",
+        "mn90:14.2"
+      ],
+      "summary": "Đại tướng hỏi nhóm thiên còn phiền não/sẽ trở lại có thể lật đổ hay trục xuất nhóm không phiền não/không trở lại khỏi chỗ ấy không."
+    },
+    {
+      "id": "sons",
+      "title": "Một người con nói với một người con",
+      "segments": [
+        "mn90:14.3",
+        "mn90:14.4",
+        "mn90:14.5",
+        "mn90:14.6"
+      ],
+      "summary": "Ānanda nghĩ đại tướng là con vua, mình là con Phật, đã lúc hai người con trao đổi. Diễn con trong giáo pháp, không thêm huyết thống."
+    },
+    {
+      "id": "inside",
+      "title": "Quyền trong cương vực",
+      "segments": [
+        "mn90:14.7",
+        "mn90:14.8",
+        "mn90:14.9",
+        "mn90:14.10",
+        "mn90:14.11"
+      ],
+      "summary": "Ānanda xin hỏi lại và đại tướng trả lời theo thấy. Hỏi vua có quyền nơi đang làm chủ để lật đổ/trục xuất sa-môn/bà-la-môn dù có/không phước, có/không phạm hạnh không; đại tướng xác nhận có đủ phạm vi."
+    },
+    {
+      "id": "outside",
+      "title": "Ngoài cương vực không quyền ấy",
+      "segments": [
+        "mn90:14.12",
+        "mn90:14.13",
+        "mn90:14.14"
+      ],
+      "summary": "Hỏi cùng các hạng người và hai cách dời/đuổi ở ngoài cương vực, nơi vua không chủ quyền; đại tướng đáp không thể."
+    },
+    {
+      "id": "thirty-three",
+      "title": "Không thấy Trời Ba Mươi Ba, huống chi dời đuổi",
+      "segments": [
+        "mn90:14.15",
+        "mn90:14.16",
+        "mn90:14.17",
+        "mn90:14.18",
+        "mn90:14.19",
+        "mn90:14.20",
+        "mn90:14.21",
+        "mn90:14.22"
+      ],
+      "summary": "Ānanda hỏi đã nghe thiên Trời Ba Mươi Ba; đại tướng đáp có và vua cũng nghe. Hỏi vua dời/đuổi được không; đáp vua còn không thấy, huống chi dời/đuổi."
+    },
+    {
+      "id": "deva-comparison",
+      "title": "Áp dụng vào hai nhóm chư thiên",
+      "segments": [
+        "mn90:14.23"
+      ],
+      "summary": "Ānanda kết thiên còn phiền não/sẽ trở lại còn không thấy thiên không phiền não/không trở lại, huống chi lật đổ/trục xuất khỏi chỗ ấy."
+    },
+    {
+      "id": "name",
+      "title": "Tên Ānanda và lời khen hoan hỷ",
+      "segments": [
+        "mn90:15.1",
+        "mn90:15.2",
+        "mn90:15.3",
+        "mn90:15.4",
+        "mn90:15.5"
+      ],
+      "summary": "Vua hỏi tên tỳ-kheo; Phật đáp Ānanda. Vua chơi nghĩa hoan hỷ của tên, khen vui/hiện vẻ vui và lời có căn cứ/có nguyên nhân."
+    },
+    {
+      "id": "brahma",
+      "title": "Phạm thiên còn hay hết phiền não",
+      "segments": [
+        "mn90:15.6",
+        "mn90:15.7",
+        "mn90:15.8",
+        "mn90:15.9",
+        "mn90:15.10"
+      ],
+      "summary": "Vua hỏi có Phạm thiên không; Phật hỏi rõ; vua hỏi vị ấy trở lại hay không cõi này. Phật còn phiền não sẽ trở lại, không còn thì không. Giữ số ít và mạch riêng."
+    },
+    {
+      "id": "mutual-blame",
+      "title": "Hai lời quy nguồn trái nhau",
+      "segments": [
+        "mn90:16.1",
+        "mn90:16.2",
+        "mn90:16.3",
+        "mn90:16.4",
+        "mn90:16.5",
+        "mn90:16.6",
+        "mn90:16.7"
+      ],
+      "summary": "Người báo Sañjaya đến; vua hỏi ai đưa chuyện vào cung. Sañjaya nói đại tướng, đại tướng nói Sañjaya. Không có kết án nguồn nào thật trong bài."
+    },
+    {
+      "id": "time",
+      "title": "Lời nhắc đến giờ lên xe",
+      "segments": [
+        "mn90:17.1",
+        "mn90:17.2",
+        "mn90:17.3"
+      ],
+      "summary": "Một người báo giờ lên xe/ra đi; vua quay lại thưa Phật."
+    },
+    {
+      "id": "recap",
+      "title": "Bốn điều được hỏi và năm lần hài lòng",
+      "segments": [
+        "mn90:17.4",
+        "mn90:17.5",
+        "mn90:17.6",
+        "mn90:17.7",
+        "mn90:17.8",
+        "mn90:17.9",
+        "mn90:17.10",
+        "mn90:17.11",
+        "mn90:17.12",
+        "mn90:17.13"
+      ],
+      "summary": "Vua nêu toàn tri, thanh tịnh bốn đẳng cấp, chư thiên, Phạm thiên; mỗi điều được hỏi/Phật đáp/vua ưa thích-chấp nhận-hài lòng. Rồi bất cứ điều đã hỏi đều đáp và lại ba nét hài lòng lần năm."
+    },
+    {
+      "id": "departure",
+      "title": "Tán đồng rồi ra đi",
+      "segments": [
+        "mn90:17.14",
+        "mn90:17.15",
+        "mn90:17.16",
+        "mn90:18.1"
+      ],
+      "summary": "Vua xin đi vì nhiều việc, Phật tùy lúc; vua tán thán/tùy hỷ, đứng dậy lễ và đi giữ bên phải hướng Phật."
+    },
+    {
+      "id": "colophon",
+      "title": "Kết kinh thứ mười và Phẩm Vua thứ tư",
+      "segments": [
+        "mn90:18.2",
+        "mn90:18.3"
+      ],
+      "summary": "Kaṇṇakatthala thứ mười trong nhóm; Phẩm Vua thứ tư kết thúc."
+    },
+    {
+      "id": "summary-verses",
+      "title": "Mười tên trong tóm lược phẩm",
+      "segments": [
+        "mn90:19.0",
+        "mn90:19.1",
+        "mn90:19.2",
+        "mn90:19.3",
+        "mn90:19.4",
+        "mn90:19.5",
+        "mn90:19.6"
+      ],
+      "summary": "Uddāna đủ Ghaṭīkāra/Raṭṭhapāla/Makhādeva/Madhurā/Bodhi/Aṅgulimāla/Sinh Từ Điều Thân Yêu/Vải Nước Ngoài/Tháp Pháp/Kaṇṇakatthala thứ mười. Root và Việt có, English trống/HTML không in; không bỏ."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Diễn giải dành cho trẻ em",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Những lời thăm hỏi được gửi trước",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "message",
+            "messenger"
+          ],
+          "paragraphs": [
+            "Trung Bộ 90, Kinh Kaṇṇakatthala, mở đầu bằng lời người truyền kinh kể điều đã nghe. Phật đang ở vườn Nai Kaṇṇakatthala tại Uruññā. Vua Pasenadi xứ Kosala cũng đến Uruññā vì công việc.",
+            "Vua sai một người nhân danh mình cúi đầu đảnh lễ chân Phật, hỏi Ngài có ít bệnh, ít đau, nhẹ nhàng, khỏe mạnh, sống dễ chịu không; rồi báo vua sẽ đến hôm nay sau bữa sáng. Người ấy vâng, đến đảnh lễ và ngồi một bên. Người ấy truyền đủ lời kính lễ, năm điều hỏi thăm và tin vua sẽ tới sau ăn sáng."
+          ]
+        },
+        {
+          "id": "sisters",
+          "kind": "teaching",
+          "heading": "Nhà vua cũng làm người chuyển lời",
+          "meaningUnits": [
+            "sisters",
+            "arrival",
+            "sister-reply"
+          ],
+          "paragraphs": [
+            "Hai chị em Somā và Sakulā nghe vua sắp gặp Phật. Khi bữa ăn đang được dọn, họ xin vua thay mình cúi đầu lễ chân Ngài, hỏi Ngài ít bệnh, ít đau, nhẹ nhàng, khỏe mạnh, sống dễ chịu không.",
+            "Ăn sáng xong, vua đến gặp Phật, đảnh lễ rồi ngồi bên, thưa đúng lời kính lễ và năm điều hỏi thăm của hai chị em. Phật hỏi họ không tìm được người đưa tin nào khác sao. Vua kể lại: họ nghe hôm nay mình sẽ đến sau bữa sáng, nên lúc dọn bữa đã nhờ chuyển lời kính lễ và những điều hỏi thăm ấy. Phật chúc Somā và Sakulā được an vui."
+          ]
+        },
+        {
+          "id": "rumor",
+          "kind": "teaching",
+          "heading": "Một lời truyền lại có đúng không?",
+          "meaningUnits": [
+            "rumor"
+          ],
+          "paragraphs": [
+            "Vua nghe người ta gán cho Phật lời này: không có sa-môn, người xuất gia tu hành, hay bà-la-môn, người thuộc truyền thống kinh điển và nghi lễ, nào biết tất cả, thấy tất cả và tự nhận mình biết thấy không sót gì; điều đó không thể có.",
+            "Vua hỏi người kể có nói đúng lời Phật, có vu khống Ngài bằng điều không thật, có giải thích đúng Pháp, tức lời dạy, có chỗ nào để người nói đúng Pháp phản bác hay chê trách không. Phật đáp họ không nói đúng lời Ngài, mà xuyên tạc bằng điều sai, không thật."
+          ]
+        },
+        {
+          "id": "summons",
+          "kind": "teaching",
+          "heading": "Vua cho gọi người được nêu tên",
+          "meaningUnits": [
+            "blame",
+            "summons"
+          ],
+          "paragraphs": [
+            "Vua hỏi đại tướng Viḍūḍabha ai đã đưa câu chuyện ấy vào cung. Đại tướng nói là bà-la-môn Sañjaya họ Ākāsa. Vua sai người nhân danh mình triệu Sañjaya; người ấy vâng, đi gặp và chuyển đúng lời vua gọi."
+          ]
+        },
+        {
+          "id": "exact-words",
+          "kind": "teaching",
+          "heading": "Giữ đủ ý “cùng một lúc”",
+          "meaningUnits": [
+            "simultaneous"
+          ],
+          "paragraphs": [
+            "Vua hỏi có phải Phật nói về một việc mà người nghe lại hiểu sang việc khác không, rồi xin Ngài nhắc lời thật đã nói.",
+            "Phật nhớ mình đã nói: không sa-môn hay bà-la-môn nào biết tất cả, thấy tất cả cùng một lúc; điều ấy không thể xảy ra. Vua khen lời nói có căn cứ, có nguyên nhân và nhắc lại đúng ý không thể biết, thấy tất cả cùng một lúc."
+          ]
+        },
+        {
+          "id": "classes",
+          "kind": "teaching",
+          "heading": "Vua muốn hỏi về đời sau",
+          "meaningUnits": [
+            "classes",
+            "future"
+          ],
+          "paragraphs": [
+            "Vua hỏi bốn đẳng cấp thời ấy — Sát-đế-lợi, Bà-la-môn, Phệ-sa và Thủ-đà — có khác nhau không. Đẳng cấp là cách xã hội chia người thành những nhóm theo dòng họ sinh ra. Phật nhắc đủ bốn nhóm và nói hai nhóm đầu được xem cao hơn về nghi lễ: cúi lễ, đứng dậy chào, chắp tay và cách cư xử đúng phép.",
+            "Vua thưa mình không hỏi chuyện đời hiện tại; mình hỏi về đời sau của bốn nhóm ấy. Phật bèn giảng năm điều giúp cho tinh cần, tức nỗ lực tu tập."
+          ]
+        },
+        {
+          "id": "faith",
+          "kind": "teaching",
+          "heading": "Thứ nhất: tin vào sự giác ngộ",
+          "meaningUnits": [
+            "faith"
+          ],
+          "paragraphs": [
+            "Vị tỳ-kheo, người nam xuất gia, có lòng tin vào sự giác ngộ của Như Lai, một danh hiệu của Phật. Người ấy tin Phật là A-la-hán, bậc đã thoát các trói buộc của tâm; Chánh Đẳng Giác, giác ngộ trọn vẹn; có đủ hiểu biết và đức hạnh; Thiện Thệ, khéo đi đến an lành; hiểu biết thế gian.",
+            "Ngài còn là bậc dẫn dắt tối thượng những người có thể tiếp nhận sự rèn luyện; thầy của chư thiên, các vị ở cõi trời, và loài người; Phật, bậc giác ngộ; Thế Tôn, bậc được tôn kính."
+          ]
+        },
+        {
+          "id": "health-honesty",
+          "kind": "teaching",
+          "heading": "Thứ hai và ba: sức khỏe, sự thật thà",
+          "meaningUnits": [
+            "health",
+            "honesty"
+          ],
+          "paragraphs": [
+            "Thứ hai, vị ấy ít bệnh, ít đau, tiêu hóa điều hòa, không quá lạnh, không quá nóng, vừa phải, đủ sức nỗ lực tu tập.",
+            "Thứ ba, vị ấy không gian xảo, không dối trá; nói thật về chính mình với Thầy hoặc với người đồng tu có trí. Người ấy không che đậy mình để được nhìn như đã tốt hơn thực tế."
+          ]
+        },
+        {
+          "id": "effort-wisdom",
+          "kind": "teaching",
+          "heading": "Thứ tư và năm: siêng năng, hiểu sâu",
+          "meaningUnits": [
+            "effort",
+            "wisdom",
+            "benefit"
+          ],
+          "paragraphs": [
+            "Thứ tư, vị ấy khởi sự cố gắng để bỏ điều bất thiện, không lành, và làm thành điều thiện, lành. Vị ấy mạnh mẽ, bền chí, không bỏ việc vun bồi điều lành.",
+            "Thứ năm, vị ấy có trí tuệ thấy sự sinh lên và mất đi. Trí tuệ ấy cao quý, đi sâu vào sự thật, đưa đến chấm dứt khổ hoàn toàn. Đó là đủ năm điều hỗ trợ tu tập. Người thuộc bất cứ nhóm nào trong bốn đẳng cấp, nếu có đủ năm điều ấy, sẽ được lợi ích và an vui lâu dài."
+          ]
+        },
+        {
+          "id": "training",
+          "kind": "teaching",
+          "heading": "Hai con vật đã luyện và hai con chưa luyện",
+          "meaningUnits": [
+            "effort-question",
+            "trained",
+            "untrained"
+          ],
+          "paragraphs": [
+            "Vua hỏi: nếu người ở bốn nhóm đều có đủ năm điều ấy, còn khác gì không? Phật nói khác ở mức nỗ lực. Ngài nêu ví dụ hai con voi, hoặc hai con ngựa, hoặc hai con bò đã được thuần và luyện khéo, và hai con cùng loại chưa được thuần, chưa được luyện.",
+            "Phật hỏi hai con đã luyện có làm được việc và đạt trình độ của con vật đã luyện không. Vua đáp có. Hai con chưa luyện, khi vẫn chưa luyện, có làm được việc và đạt trình độ như hai con kia không? Vua đáp không.",
+            "Cũng vậy, điều người có lòng tin, ít bệnh, thật thà, siêng năng, có trí đạt được không thể được người không tin, nhiều bệnh, gian xảo, dối trá, lười biếng, kém trí đạt bằng những điều ngược lại ấy."
+          ]
+        },
+        {
+          "id": "fire",
+          "kind": "teaching",
+          "heading": "Giải thoát không mang đẳng cấp",
+          "meaningUnits": [
+            "same-release",
+            "woods",
+            "fire"
+          ],
+          "paragraphs": [
+            "Vua khen có căn cứ, có nguyên nhân, rồi hỏi thêm: nếu người của cả bốn nhóm có đủ năm điều và cùng nỗ lực đúng đắn thì còn khác không? Phật đáp không có khác biệt giữa giải thoát này với giải thoát kia, sự thoát khỏi những trói buộc gây khổ.",
+            "Phật nêu ví dụ bốn người lấy bốn loại gỗ khô: tếch, sāla, xoài, sung, để nhóm lửa và tạo sức nóng. Ngài hỏi lửa từ các gỗ ấy có khác nhau về ngọn lửa, màu sắc, ánh sáng không. Vua đáp không.",
+            "Với sức nóng do tinh tấn cọ xát, do nỗ lực làm phát sinh, Phật cũng nói không khác về giải thoát này với giải thoát kia."
+          ]
+        },
+        {
+          "id": "devas",
+          "kind": "teaching",
+          "heading": "Hỏi rõ điều muốn biết về chư thiên",
+          "meaningUnits": [
+            "devas"
+          ],
+          "paragraphs": [
+            "Vua khen lời Phật có căn cứ, có nguyên nhân, rồi hỏi có chư thiên không. Phật hỏi rõ vua muốn nói gì. Vua giải thích mình muốn biết các vị ấy có trở lại cõi này hay không.",
+            "Phật đáp: chư thiên còn phiền não, những vướng mắc làm tâm khổ, sẽ trở lại cõi này; những vị không còn phiền não sẽ không trở lại."
+          ]
+        },
+        {
+          "id": "sons",
+          "kind": "teaching",
+          "heading": "Một người con trao đổi với một người con",
+          "meaningUnits": [
+            "general",
+            "sons"
+          ],
+          "paragraphs": [
+            "Đại tướng hỏi: các vị thiên còn phiền não, sẽ trở lại, có thể lật đổ hoặc trục xuất các vị không còn phiền não, không trở lại, khỏi chỗ ấy không?",
+            "Ānanda nghĩ đại tướng là con vua, còn mình là con Phật, người con trong giáo pháp. Đây là lúc một người con nói chuyện với một người con."
+          ]
+        },
+        {
+          "id": "territory",
+          "kind": "teaching",
+          "heading": "Quyền lực có phạm vi",
+          "meaningUnits": [
+            "inside",
+            "outside"
+          ],
+          "paragraphs": [
+            "Ānanda xin hỏi lại, mời đại tướng trả lời theo điều mình thấy. Trong vùng vua có chủ quyền, vua có thể buộc rời vị trí hoặc trục xuất một sa-môn hay bà-la-môn, dù có phước từ việc lành hay không có, dù sống đời tu thanh tịnh hay không, chăng? Đại tướng đáp có.",
+            "Ngoài vùng vua cai trị, nơi vua không có chủ quyền, vua có thể buộc rời vị trí hoặc trục xuất những người ấy, với đủ các trường hợp vừa nêu, chăng? Đại tướng đáp không."
+          ]
+        },
+        {
+          "id": "thirty-three",
+          "kind": "teaching",
+          "heading": "Còn không thấy, huống chi đuổi đi",
+          "meaningUnits": [
+            "thirty-three",
+            "deva-comparison"
+          ],
+          "paragraphs": [
+            "Ānanda hỏi đại tướng đã nghe đến chư thiên Trời Ba Mươi Ba chưa. Ông đáp đã nghe, vua Pasenadi cũng đã nghe. Vua có thể lật đổ hay trục xuất các vị ấy không? Đại tướng đáp vua còn chẳng nhìn thấy họ, huống chi lật đổ hay trục xuất.",
+            "Ānanda kết luận tương tự: các vị thiên còn phiền não, sẽ trở lại cõi này, còn chẳng thể thấy các vị không phiền não, không trở lại; làm sao có thể lật đổ hay trục xuất họ khỏi chỗ ấy."
+          ]
+        },
+        {
+          "id": "name-brahma",
+          "kind": "teaching",
+          "heading": "Tên mang nghĩa niềm vui và câu hỏi tiếp",
+          "meaningUnits": [
+            "name",
+            "brahma"
+          ],
+          "paragraphs": [
+            "Vua hỏi vị tỳ-kheo vừa nói tên gì. Phật đáp Ānanda. Tên ấy mang nghĩa niềm vui; vua khen Ngài thật hoan hỷ, mang vẻ hoan hỷ, lời nói có căn cứ, có nguyên nhân.",
+            "Vua hỏi tiếp có Phạm thiên, một vị thiên ở cảnh giới cao, không. Phật lại hỏi rõ. Vua giải thích mình hỏi vị ấy trở lại cõi này hay không. Phật đáp: Phạm thiên còn phiền não thì trở lại; không còn phiền não thì không trở lại."
+          ]
+        },
+        {
+          "id": "disagreement",
+          "kind": "teaching",
+          "heading": "Hai người nêu hai lời trái nhau",
+          "meaningUnits": [
+            "mutual-blame",
+            "time"
+          ],
+          "paragraphs": [
+            "Một người báo Sañjaya đã tới. Vua hỏi ai đưa câu chuyện vào cung. Sañjaya nói đại tướng Viḍūḍabha; đại tướng lại nói Sañjaya họ Ākāsa.",
+            "Rồi một người báo đã đến giờ lên xe. Vua quay lại thưa với Phật."
+          ]
+        },
+        {
+          "id": "recap",
+          "kind": "teaching",
+          "heading": "Những điều nhà vua đã được giải đáp",
+          "meaningUnits": [
+            "recap"
+          ],
+          "paragraphs": [
+            "Vua nói mình hỏi về toàn tri, sự biết tất cả, và Phật đã giải đáp; vua ưa thích, chấp nhận, hài lòng. Về sự thanh tịnh của bốn đẳng cấp, Phật đã đáp; vua cũng ưa thích, chấp nhận, hài lòng.",
+            "Về chư thiên, Phật đã đáp; vua ưa thích, chấp nhận, hài lòng. Về Phạm thiên, Phật đã đáp; vua cũng ưa thích, chấp nhận, hài lòng.",
+            "Sau bốn điều ấy, vua nói bất cứ điều mình hỏi, Phật đều đã giải đáp; vua lại bày tỏ sự ưa thích, chấp nhận và hài lòng."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Ra về sau cuộc hỏi chuyện",
+          "meaningUnits": [
+            "departure",
+            "colophon",
+            "summary-verses"
+          ],
+          "paragraphs": [
+            "Vua xin đi vì còn nhiều công việc. Phật đáp vua cứ đi khi thấy hợp lúc. Vua khen và vui với lời Ngài, đứng lên đảnh lễ, giữ phía bên phải hướng về Phật rồi ra đi. Kinh Kaṇṇakatthala, bài thứ mười trong nhóm, kết thúc. Phẩm Vua, phẩm thứ tư, cũng kết thúc.",
+            "Cuối phẩm có lời ghi nhớ mười tên kinh theo thứ tự: Ghaṭīkāra, Raṭṭhapāla, Makhādeva, Madhurā, Bodhi, Aṅgulimāla, Sinh Từ Điều Thân Yêu, Vải Nước Ngoài, Tháp Pháp và Kaṇṇakatthala, bài thứ mười."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: một lời nhắn bị thiếu",
+          "meaningUnits": [
+            "rumor",
+            "simultaneous"
+          ],
+          "paragraphs": [
+            "Bạn kể rằng cô giáo nói “không ai được hỏi”. Khi hỏi lại đầy đủ, em biết cô nói “không hỏi cùng một lúc”. Mấy chữ bị thiếu làm ý đổi hẳn. Ví dụ này gợi em kiểm lại cả câu, hoàn cảnh và điều kiện trước khi kể tiếp hoặc giận một người."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: hiểu đúng rồi cố gắng",
+          "meaningUnits": [
+            "honesty",
+            "effort",
+            "wisdom"
+          ],
+          "paragraphs": [
+            "Khi chưa hiểu một lời dạy, em có thể nói thật rằng mình chưa hiểu và hỏi lại. Chọn một việc lành nhỏ để làm đều đặn, như nói đúng sự việc hoặc giúp bạn hoàn tất phần việc chung. Cuối ngày nhìn lại mình đã làm ra sao và điều gì còn cần học. Đây là bước tập nhỏ, hướng tới sự thật thà và bền bỉ."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Diễn giải dành cho người trưởng thành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Cuộc gặp được báo trước",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "message",
+            "messenger",
+            "sisters"
+          ],
+          "paragraphs": [
+            "Trung Bộ 90, Kinh Kaṇṇakatthala, thuật điều người truyền kinh đã nghe. Đức Phật ở Uruññā, vườn Nai Kaṇṇakatthala. Vua Pasenadi xứ Kosala đến Uruññā vì công việc, sai người nhân danh mình cúi đầu lễ chân Phật, hỏi Ngài ít bệnh, ít đau, nhẹ nhàng, khỏe mạnh, sống dễ chịu không; đồng thời báo vua sẽ đến hôm nay sau bữa sáng.",
+            "Người ấy vâng, đến đảnh lễ rồi ngồi một bên, truyền đủ lời kính lễ, năm điều thăm hỏi và thời điểm vua sẽ tới. Somā và Sakulā nghe tin vua sẽ đi gặp Phật. Khi bữa ăn đang dọn, hai chị em xin vua nhân danh họ cúi đầu lễ chân Ngài và chuyển đủ lời thăm ít bệnh, ít đau, nhẹ nhàng, khỏe mạnh, sống dễ chịu."
+          ]
+        },
+        {
+          "id": "greetings",
+          "kind": "teaching",
+          "heading": "Người chuyển lời và hoàn cảnh của lời nhắn",
+          "meaningUnits": [
+            "arrival",
+            "sister-reply"
+          ],
+          "paragraphs": [
+            "Sau bữa sáng, vua đến Phật, đảnh lễ, ngồi bên và chuyển lời kính lễ cùng năm điều hỏi thăm của Somā và Sakulā. Phật hỏi hai chị em không tìm được người đưa tin nào khác sao.",
+            "Vua thuật lại rằng họ nghe mình sẽ đến sau bữa sáng; lúc bữa ăn đang dọn, họ đã nhờ chuyển lời kính lễ và năm điều hỏi thăm ấy. Phật chúc hai chị em được an vui."
+          ]
+        },
+        {
+          "id": "reported-claim",
+          "kind": "teaching",
+          "heading": "Lời được gán cho Phật",
+          "meaningUnits": [
+            "rumor",
+            "blame",
+            "summons"
+          ],
+          "paragraphs": [
+            "Vua nêu lời mình nghe truyền: Gotama nói không có sa-môn, người xuất gia tu hành, hay bà-la-môn, người thuộc truyền thống kinh điển và nghi lễ, nào biết tất cả, thấy tất cả, tự nhận sự biết thấy không sót gì; điều ấy không thể xảy ra. Vua hỏi những người thuật có nói đúng lời Phật, có vu khống Ngài bằng điều không thật, có giải thích đúng Pháp, lời dạy của Ngài, có chỗ nào bị người nói hợp Pháp phản bác hay chê trách không.",
+            "Phật đáp người nói như vậy không thuật đúng lời Ngài; họ xuyên tạc bằng điều sai, không thật. Vua hỏi đại tướng Viḍūḍabha ai đã đưa chuyện vào cung. Đại tướng nêu Sañjaya họ Ākāsa. Vua sai người nhân danh mình triệu vị bà-la-môn ấy; người được sai vâng, đến và truyền đúng lời gọi."
+          ]
+        },
+        {
+          "id": "simultaneous",
+          "kind": "teaching",
+          "heading": "Điều kiện làm thay đổi nội dung mệnh đề",
+          "meaningUnits": [
+            "simultaneous"
+          ],
+          "paragraphs": [
+            "Vua hỏi liệu Phật đã nói nhắm một việc mà người nghe hiểu thành việc khác, rồi xin Ngài nhắc lời mình thực sự đã nói. Phật đáp: không có sa-môn hay bà-la-môn nào biết tất cả, thấy tất cả cùng một lúc; điều ấy không thể có.",
+            "Vua khen lời có căn cứ, có nguyên nhân, nhắc lại đầy đủ điều không thể biết và thấy tất cả cùng một lúc. Cụm chỉ thời điểm ấy là phần cần giữ khi thuật lại."
+          ]
+        },
+        {
+          "id": "classes",
+          "kind": "teaching",
+          "heading": "Từ thứ bậc xã hội đến câu hỏi đời sau",
+          "meaningUnits": [
+            "classes",
+            "future"
+          ],
+          "paragraphs": [
+            "Vua hỏi về khác biệt giữa bốn đẳng cấp: Sát-đế-lợi, Bà-la-môn, Phệ-sa, Thủ-đà. Đây là những nhóm theo dòng sinh ra trong xã hội được nói đến. Phật nhắc bốn nhóm và nói Sát-đế-lợi, Bà-la-môn được xem là cao hơn về việc đảnh lễ, đứng dậy chào, chắp tay và nghi thức đúng mực.",
+            "Vua làm rõ mình không hỏi đời hiện tại, mà hỏi đời sau của bốn nhóm ấy. Phật chuyển sang năm pháp hỗ trợ tinh cần, tức sự nỗ lực tu tập."
+          ]
+        },
+        {
+          "id": "faith",
+          "kind": "teaching",
+          "heading": "Nền tảng thứ nhất: lòng tin",
+          "meaningUnits": [
+            "faith"
+          ],
+          "paragraphs": [
+            "Vị tỳ-kheo, người nam xuất gia, có lòng tin vào sự giác ngộ của Như Lai, danh hiệu của Phật. Vị ấy tin Ngài là A-la-hán, bậc giải thoát khỏi các trói buộc của tâm; Chánh Đẳng Giác, giác ngộ hoàn toàn; đầy đủ minh và hạnh, sự hiểu biết và đức hạnh; Thiện Thệ, bậc khéo đi đến an lành; hiểu biết thế gian.",
+            "Ngài là bậc dẫn dắt tối thượng những người có thể được rèn luyện; thầy của chư thiên, những vị ở cõi trời, và loài người; Phật, bậc giác ngộ; Thế Tôn, bậc được tôn kính."
+          ]
+        },
+        {
+          "id": "supports",
+          "kind": "teaching",
+          "heading": "Bốn nền tảng tiếp theo",
+          "meaningUnits": [
+            "health",
+            "honesty",
+            "effort",
+            "wisdom",
+            "benefit"
+          ],
+          "paragraphs": [
+            "Thứ hai, vị ấy ít bệnh, ít đau, tiêu hóa điều hòa, không quá lạnh, không quá nóng, vừa phải và đủ sức tinh cần. Thứ ba, không gian xảo, không dối trá, tự trình bày đúng mình với Thầy hoặc người đồng phạm hạnh có trí, người cùng sống đời tu thanh tịnh.",
+            "Thứ tư, khởi tinh tấn để bỏ các pháp bất thiện, không lành, và thành tựu các pháp thiện, lành; có sức mạnh, bền chí, không bỏ gánh vun bồi điều thiện. Thứ năm, có trí tuệ thấy sinh khởi và hoại diệt, cao quý, xuyên thấu, đưa đúng đến chấm dứt khổ hoàn toàn.",
+            "Đó là năm điều hỗ trợ. Người thuộc cả bốn đẳng cấp, nếu có đủ năm điều này, sẽ được lợi ích và hạnh phúc dài lâu."
+          ]
+        },
+        {
+          "id": "training",
+          "kind": "teaching",
+          "heading": "Khác biệt của sự rèn luyện",
+          "meaningUnits": [
+            "effort-question",
+            "trained",
+            "untrained"
+          ],
+          "paragraphs": [
+            "Vua hỏi nếu bốn nhóm đều đủ năm điều ấy thì còn khác nhau chăng. Phật nói đến khác biệt trong mức nỗ lực. Ví như có hai con voi, hoặc hai con ngựa, hoặc hai con bò đã khéo thuần và khéo luyện, và hai con cùng loại chưa thuần, chưa luyện.",
+            "Hai con đã luyện có thể làm việc của loài đã luyện và đạt trình độ của loài ấy không? Vua đáp có. Hai con chưa luyện, khi vẫn chưa luyện, có thể làm việc và đạt trình độ như đôi đã luyện không? Vua đáp không.",
+            "Phật liên hệ: điều người có lòng tin, ít bệnh, trung thực, siêng năng, có trí đạt được không thể được người không tin, nhiều bệnh, gian xảo, dối trá, lười biếng, kém trí đạt bằng nhóm điều kiện ngược lại ấy."
+          ]
+        },
+        {
+          "id": "release",
+          "kind": "teaching",
+          "heading": "Cùng nỗ lực đúng thì giải thoát không khác",
+          "meaningUnits": [
+            "same-release",
+            "woods",
+            "fire"
+          ],
+          "paragraphs": [
+            "Vua khen có căn cứ, có nguyên nhân, rồi đặt thêm điều kiện: người thuộc bốn đẳng cấp đều đủ năm pháp hỗ trợ và đều nỗ lực chánh đáng thì còn khác nhau không? Phật đáp không có sự khác nhau giữa giải thoát này với giải thoát kia, sự thoát khỏi những trói buộc gây khổ.",
+            "Ngài ví bốn người dùng bốn loại gỗ khô: tếch, sāla, xoài, sung, để nhóm lửa và làm phát ra sức nóng. Ngọn lửa, màu sắc và ánh sáng của lửa ấy có khác nhau theo loại gỗ không? Vua đáp không.",
+            "Cũng vậy, đối với sức nóng do tinh tấn cọ xát, do nỗ lực làm sinh khởi, Phật nói không có khác biệt về giải thoát này với giải thoát kia."
+          ]
+        },
+        {
+          "id": "devas",
+          "kind": "teaching",
+          "heading": "Xác định câu hỏi về chư thiên",
+          "meaningUnits": [
+            "devas",
+            "general",
+            "sons"
+          ],
+          "paragraphs": [
+            "Vua lại khen có căn cứ, có nguyên nhân, rồi hỏi có chư thiên chăng. Phật hỏi rõ ông muốn nói gì. Vua xác định mình hỏi các vị ấy sẽ trở lại cõi này hay không. Phật trả lời: chư thiên còn phiền não, những vướng mắc gây khổ trong tâm, sẽ trở lại; không còn phiền não thì không trở lại.",
+            "Đại tướng hỏi nhóm còn phiền não và sẽ trở lại có thể lật đổ hoặc trục xuất nhóm không còn phiền não, không trở lại, khỏi chỗ ấy không. Ānanda nghĩ đại tướng là con vua, mình là con Phật, người con trong giáo pháp; đây là lúc người con trao đổi với người con."
+          ]
+        },
+        {
+          "id": "dominion",
+          "kind": "teaching",
+          "heading": "Ānanda hỏi về phạm vi quyền lực",
+          "meaningUnits": [
+            "inside",
+            "outside"
+          ],
+          "paragraphs": [
+            "Ānanda nói sẽ hỏi lại, mời đại tướng trả lời theo điều mình thấy. Trong lãnh thổ vua có chủ quyền, vua có thể lật đổ hoặc trục xuất sa-môn hay bà-la-môn, có phước hay không phước, có phạm hạnh hay không, khỏi chỗ ấy không? Phước là công đức từ việc lành; phạm hạnh là đời tu thanh tịnh. Đại tướng xác nhận có.",
+            "Ngoài cương vực, nơi vua không có chủ quyền, vua có thể làm vậy với sa-môn hay bà-la-môn, dù có hay không phước, có hay không phạm hạnh, không? Đại tướng xác nhận không thể."
+          ]
+        },
+        {
+          "id": "beyond-sight",
+          "kind": "teaching",
+          "heading": "Không thấy được, huống chi trục xuất",
+          "meaningUnits": [
+            "thirty-three",
+            "deva-comparison",
+            "name"
+          ],
+          "paragraphs": [
+            "Ānanda hỏi đã nghe chư thiên Trời Ba Mươi Ba chưa. Đại tướng đáp đã nghe, và vua Pasenadi cũng đã nghe. Vua có thể lật đổ hoặc trục xuất các vị ấy không? Đại tướng đáp vua còn không thể thấy họ, huống chi lật đổ hay trục xuất.",
+            "Ānanda kết luận tương tự: chư thiên còn phiền não, sẽ trở lại cõi này, còn không thể thấy chư thiên không phiền não, không trở lại, huống chi lật đổ hay trục xuất họ khỏi chỗ ấy.",
+            "Vua hỏi tên vị tỳ-kheo. Phật đáp Ānanda. Tên này có nghĩa hoan hỷ; vua khen Ānanda thật hoan hỷ, có vẻ hoan hỷ, nói có căn cứ, có nguyên nhân."
+          ]
+        },
+        {
+          "id": "brahma",
+          "kind": "teaching",
+          "heading": "Câu hỏi riêng về Phạm thiên",
+          "meaningUnits": [
+            "brahma"
+          ],
+          "paragraphs": [
+            "Vua hỏi có Phạm thiên, vị thiên ở cảnh giới cao, chăng. Phật lại hỏi rõ. Vua giải thích mình hỏi vị ấy có trở lại cõi này hay không.",
+            "Phật đáp Phạm thiên còn phiền não sẽ trở lại; Phạm thiên không còn phiền não sẽ không trở lại."
+          ]
+        },
+        {
+          "id": "source-dispute",
+          "kind": "teaching",
+          "heading": "Lời quy nguồn chưa ngã ngũ",
+          "meaningUnits": [
+            "mutual-blame",
+            "time"
+          ],
+          "paragraphs": [
+            "Một người báo Sañjaya họ Ākāsa đã đến. Vua hỏi ai đưa câu chuyện vào cung. Sañjaya nêu đại tướng Viḍūḍabha; đại tướng lại nêu Sañjaya.",
+            "Rồi một người báo đã đến giờ lên xe. Vua trở lại thưa chuyện với Phật."
+          ]
+        },
+        {
+          "id": "recap",
+          "kind": "teaching",
+          "heading": "Bốn câu hỏi và sự chấp nhận của nhà vua",
+          "meaningUnits": [
+            "recap",
+            "departure"
+          ],
+          "paragraphs": [
+            "Vua nói mình hỏi toàn tri, sự biết tất cả, Phật đã đáp; vua ưa thích, chấp nhận, hài lòng. Hỏi sự thanh tịnh của bốn đẳng cấp, Phật đã đáp; vua ưa thích, chấp nhận, hài lòng. Hỏi chư thiên, Phật đã đáp; vua ưa thích, chấp nhận, hài lòng. Hỏi Phạm thiên, Phật đã đáp; vua ưa thích, chấp nhận, hài lòng.",
+            "Vua nói thêm rằng bất cứ điều mình đã hỏi, Phật đều giải đáp; ông lại ưa thích, chấp nhận, hài lòng. Ông xin đi vì còn nhiều công việc. Phật đáp hãy đi khi thấy hợp lúc. Vua tán thán, vui theo lời Ngài, đứng dậy đảnh lễ, giữ phía bên phải hướng về Phật rồi ra đi."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Lời kết của Phẩm Vua",
+          "meaningUnits": [
+            "colophon",
+            "summary-verses"
+          ],
+          "paragraphs": [
+            "Kinh Kaṇṇakatthala, bài thứ mười trong nhóm, kết thúc; Phẩm Vua thứ tư kết thúc. Lời tóm lược của phẩm nhắc đủ mười tên: Ghaṭīkāra, Raṭṭhapāla, Makhādeva, Madhurā, Bodhi, Aṅgulimāla, Sinh Từ Điều Thân Yêu, Vải Nước Ngoài, Tháp Pháp và Kaṇṇakatthala, bài thứ mười."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: thông báo bị cắt ngắn",
+          "meaningUnits": [
+            "rumor",
+            "simultaneous"
+          ],
+          "paragraphs": [
+            "Một thông báo nói “nhóm hỗ trợ không thể xử lý mọi yêu cầu cùng một lúc”. Khi được chuyển thành “nhóm hỗ trợ không xử lý yêu cầu”, người nhận dễ hiểu thành từ chối trách nhiệm. Đọc lại câu đầy đủ và hỏi người gửi sẽ làm rõ phạm vi của lời nói. Ví dụ này nhắc ta giữ các điều kiện, mốc thời gian và từ chỉ phạm vi khi thuật lại."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: một điều kiện cần vun bồi",
+          "meaningUnits": [
+            "honesty",
+            "effort",
+            "wisdom"
+          ],
+          "paragraphs": [
+            "Có thể nhìn lại một việc đang học: mình đã nói thật điều chưa hiểu chưa, đã kiên trì sửa điều sai chưa, đã xem việc ấy sinh ra kết quả nào chưa? Chọn một điểm có thể thực hiện hôm nay, chẳng hạn hỏi cho rõ trước khi kết luận. Sau đó làm đều và quan sát kết quả. Việc tự xét này là một gợi ý nhỏ từ các phẩm chất được nêu trong kinh."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Diễn giải dành cho người lớn tuổi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "heard",
+          "kind": "teaching",
+          "heading": "Cuộc gặp ở vườn Nai",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "message",
+            "messenger"
+          ],
+          "paragraphs": [
+            "Trung Bộ 90, Kinh Kaṇṇakatthala, bắt đầu bằng lời người truyền kinh kể điều đã nghe. Đức Phật ở vườn Nai Kaṇṇakatthala, tại Uruññā. Vua Pasenadi xứ Kosala đến Uruññā vì một công việc.",
+            "Vua sai người nhân danh mình cúi đầu đảnh lễ chân Phật, hỏi thăm Ngài ít bệnh, ít đau, nhẹ nhàng, khỏe mạnh, sống dễ chịu, và báo hôm nay sau bữa sáng vua sẽ đến. Người ấy vâng, đến đảnh lễ, ngồi một bên và truyền đủ lời kính lễ, năm điều hỏi thăm cùng tin vua sắp tới sau ăn sáng."
+          ]
+        },
+        {
+          "id": "sisters",
+          "kind": "teaching",
+          "heading": "Lời nhắn của Somā và Sakulā",
+          "meaningUnits": [
+            "sisters",
+            "arrival",
+            "sister-reply"
+          ],
+          "paragraphs": [
+            "Hai chị em Somā và Sakulā nghe tin vua sẽ đi gặp Phật. Lúc bữa ăn đang dọn, họ xin vua nhân danh mình cúi đầu đảnh lễ chân Ngài, hỏi thăm ít bệnh, ít đau, nhẹ nhàng, khỏe mạnh, sống dễ chịu.",
+            "Sau bữa sáng, vua đến Phật, đảnh lễ rồi ngồi bên, trình đúng lời kính lễ và năm điều hỏi thăm ấy. Phật hỏi hai chị em không tìm được người đưa tin khác sao. Vua thuật lại việc họ nghe mình sẽ đến sau bữa sáng, rồi nhờ chuyển lời kính lễ và thăm hỏi khi bữa ăn đang dọn. Phật chúc hai chị em an vui."
+          ]
+        },
+        {
+          "id": "report",
+          "kind": "teaching",
+          "heading": "Điều nghe được cần hỏi lại",
+          "meaningUnits": [
+            "rumor"
+          ],
+          "paragraphs": [
+            "Vua thưa mình nghe người ta nói Gotama đã tuyên bố: không sa-môn, người xuất gia tu hành, hay bà-la-môn, người thuộc truyền thống kinh điển và nghi lễ, nào biết tất cả, thấy tất cả, tự nhận biết thấy không sót gì; điều ấy không thể xảy ra.",
+            "Vua hỏi người thuật có nói đúng lời Phật, có vu khống bằng điều không thật, có giải thích phù hợp Pháp, lời dạy của Ngài, có chỗ cho người nói hợp Pháp chê trách hay phản bác không. Phật đáp những người ấy không nói đúng lời Ngài; họ xuyên tạc bằng điều sai, không thật."
+          ]
+        },
+        {
+          "id": "summon",
+          "kind": "teaching",
+          "heading": "Lần theo người đưa câu chuyện",
+          "meaningUnits": [
+            "blame",
+            "summons"
+          ],
+          "paragraphs": [
+            "Vua hỏi đại tướng Viḍūḍabha ai đã đưa chuyện ấy vào cung. Đại tướng đáp Sañjaya, vị bà-la-môn họ Ākāsa.",
+            "Vua sai người nhân danh mình triệu Sañjaya. Người ấy vâng, đến nơi và truyền đúng lời vua gọi."
+          ]
+        },
+        {
+          "id": "simultaneous",
+          "kind": "teaching",
+          "heading": "Giữ đủ ý “cùng một lúc”",
+          "meaningUnits": [
+            "simultaneous"
+          ],
+          "paragraphs": [
+            "Vua hỏi có thể Phật nói nhắm một việc, còn người ta hiểu sang việc khác chăng. Vua xin Ngài nhắc lời thực đã nói.",
+            "Phật đáp Ngài nhớ mình nói không sa-môn hay bà-la-môn nào biết tất cả, thấy tất cả cùng một lúc; điều ấy không thể có. Vua khen lời có căn cứ, có nguyên nhân, rồi nhắc lại đủ ý biết tất cả và thấy tất cả cùng một lúc."
+          ]
+        },
+        {
+          "id": "classes",
+          "kind": "teaching",
+          "heading": "Câu hỏi về bốn đẳng cấp",
+          "meaningUnits": [
+            "classes",
+            "future"
+          ],
+          "paragraphs": [
+            "Vua hỏi khác biệt giữa Sát-đế-lợi, Bà-la-môn, Phệ-sa và Thủ-đà, bốn nhóm được chia theo dòng sinh ra trong xã hội thời ấy. Phật nhắc lại bốn nhóm và nói hai nhóm đầu được xem là cao hơn về đảnh lễ, đứng dậy chào, chắp tay, các nghi thức đúng mực.",
+            "Vua thưa mình không hỏi về đời hiện tại mà hỏi đời sau của cả bốn nhóm. Phật nêu năm pháp hỗ trợ tinh cần, tức nỗ lực tu tập."
+          ]
+        },
+        {
+          "id": "faith",
+          "kind": "teaching",
+          "heading": "Một: lòng tin vào sự giác ngộ",
+          "meaningUnits": [
+            "faith"
+          ],
+          "paragraphs": [
+            "Vị tỳ-kheo, người nam xuất gia, tin sự giác ngộ của Như Lai, một danh hiệu của Phật. Ngài là A-la-hán, bậc đã thoát các trói buộc của tâm; Chánh Đẳng Giác, giác ngộ trọn vẹn; đầy đủ minh và hạnh, hiểu biết và đức hạnh; Thiện Thệ, khéo đi đến an lành; bậc hiểu thế gian.",
+            "Ngài là bậc dẫn dắt tối thượng người có thể được rèn luyện; thầy của chư thiên, các vị ở cõi trời, và loài người; Phật, bậc giác ngộ; Thế Tôn, bậc được tôn kính."
+          ]
+        },
+        {
+          "id": "health-honesty",
+          "kind": "teaching",
+          "heading": "Hai và ba: sức khỏe, lòng ngay thật",
+          "meaningUnits": [
+            "health",
+            "honesty"
+          ],
+          "paragraphs": [
+            "Vị ấy ít bệnh, ít đau, tiêu hóa điều hòa, không quá lạnh, không quá nóng, vừa phải, đủ sức nỗ lực. Đây là điều hỗ trợ thứ hai.",
+            "Điều thứ ba là không gian xảo, không dối trá. Vị ấy trình bày thật về mình với Thầy hoặc với những người đồng phạm hạnh có trí, cùng sống đời tu thanh tịnh."
+          ]
+        },
+        {
+          "id": "effort-wisdom",
+          "kind": "teaching",
+          "heading": "Bốn và năm: siêng năng, trí tuệ",
+          "meaningUnits": [
+            "effort",
+            "wisdom",
+            "benefit"
+          ],
+          "paragraphs": [
+            "Điều thứ tư: khởi sự tinh tấn để bỏ bất thiện, những điều không lành, và thành tựu thiện, những điều lành. Vị ấy mạnh mẽ, bền chí, không bỏ gánh việc lành.",
+            "Điều thứ năm: trí tuệ thấy sự sinh khởi và hoại diệt, cao quý, xuyên thấu, đưa đến sự chấm dứt hoàn toàn khổ. Đó là năm điều hỗ trợ tinh cần. Người thuộc cả bốn đẳng cấp, nếu đầy đủ năm điều này, sẽ được lợi ích và an vui dài lâu."
+          ]
+        },
+        {
+          "id": "difference",
+          "kind": "teaching",
+          "heading": "Nếu đủ năm điều, còn khác nhau không?",
+          "meaningUnits": [
+            "effort-question",
+            "trained",
+            "untrained"
+          ],
+          "paragraphs": [
+            "Vua hỏi nếu cả bốn nhóm đủ năm điều ấy thì còn khác biệt nào chăng. Phật nói khác ở mức nỗ lực tinh cần.",
+            "Ngài ví hai con voi, hoặc ngựa, hoặc bò đã được khéo thuần, khéo luyện, và hai con cùng loại chưa được thuần luyện. Đôi đã luyện có thể làm được việc và đạt trình độ của loài đã luyện không? Vua đáp có. Đôi chưa luyện, khi vẫn chưa luyện, có thể làm và đạt ngang đôi kia không? Vua đáp không.",
+            "Cũng vậy, điều người có lòng tin, ít bệnh, thật thà, siêng năng, có trí đạt được không thể được người không tin, nhiều bệnh, gian xảo, dối trá, lười biếng, kém trí đạt bằng nhóm điều kiện ngược lại ấy."
+          ]
+        },
+        {
+          "id": "freedom",
+          "kind": "teaching",
+          "heading": "Cùng nỗ lực đúng đắn",
+          "meaningUnits": [
+            "same-release"
+          ],
+          "paragraphs": [
+            "Vua khen lời có căn cứ, có nguyên nhân. Rồi vua hỏi: người thuộc cả bốn nhóm có đủ năm điều hỗ trợ và cùng nỗ lực chánh đáng thì còn khác nhau không?",
+            "Phật đáp không có khác biệt giữa giải thoát này với giải thoát kia. Giải thoát là thoát khỏi các trói buộc gây khổ."
+          ]
+        },
+        {
+          "id": "fire",
+          "kind": "teaching",
+          "heading": "Lửa từ bốn loại gỗ",
+          "meaningUnits": [
+            "woods",
+            "fire"
+          ],
+          "paragraphs": [
+            "Phật đưa ra ví dụ bốn người dùng gỗ khô của cây tếch, sāla, xoài và sung, nhóm lửa, làm phát ra sức nóng. Ngài hỏi lửa từ bốn loại gỗ có khác về ngọn lửa, màu sắc và ánh sáng không. Vua đáp không.",
+            "Cũng vậy, với sức nóng do tinh tấn cọ xát, do nỗ lực làm sinh khởi, Phật nói không khác giữa giải thoát này với giải thoát kia."
+          ]
+        },
+        {
+          "id": "devas",
+          "kind": "teaching",
+          "heading": "Chư thiên trở lại cõi này hay không?",
+          "meaningUnits": [
+            "devas"
+          ],
+          "paragraphs": [
+            "Vua khen có căn cứ, có nguyên nhân rồi hỏi có chư thiên chăng. Phật hỏi rõ điều vua muốn nói. Vua giải thích mình hỏi các vị ấy sẽ trở lại cõi này hay không.",
+            "Phật đáp chư thiên còn phiền não, những vướng mắc khiến tâm khổ, sẽ trở lại cõi này; không còn phiền não thì không trở lại."
+          ]
+        },
+        {
+          "id": "sons",
+          "kind": "teaching",
+          "heading": "Câu hỏi của đại tướng và ý nghĩ Ānanda",
+          "meaningUnits": [
+            "general",
+            "sons"
+          ],
+          "paragraphs": [
+            "Đại tướng hỏi những vị thiên còn phiền não, sẽ trở lại, có thể lật đổ hay trục xuất những vị không phiền não, không trở lại, khỏi chỗ ấy không.",
+            "Ānanda nghĩ đại tướng là con vua, còn mình là con Phật, người con trong giáo pháp. Đã đến lúc một người con trao đổi với một người con."
+          ]
+        },
+        {
+          "id": "territory",
+          "kind": "teaching",
+          "heading": "Trong cương vực và ngoài cương vực",
+          "meaningUnits": [
+            "inside",
+            "outside"
+          ],
+          "paragraphs": [
+            "Ānanda xin hỏi lại, mời đại tướng đáp theo điều mình thấy. Trong cương vực vua làm chủ, vua có thể lật đổ hay trục xuất sa-môn hoặc bà-la-môn, dù có phước hay không, có phạm hạnh hay không, khỏi chỗ ấy không? Phước là công đức của việc lành; phạm hạnh là đời tu thanh tịnh. Đại tướng đáp có.",
+            "Ngoài cương vực, nơi vua không có chủ quyền, vua có thể lật đổ hay trục xuất những người ấy, dù có hay không phước, có hay không phạm hạnh, không? Đại tướng đáp không."
+          ]
+        },
+        {
+          "id": "thirty-three",
+          "kind": "teaching",
+          "heading": "Điều nằm ngoài tầm nhìn của vua",
+          "meaningUnits": [
+            "thirty-three",
+            "deva-comparison"
+          ],
+          "paragraphs": [
+            "Ānanda hỏi đại tướng đã nghe chư thiên Trời Ba Mươi Ba chưa. Ông đáp đã nghe, vua Pasenadi cũng nghe. Vua có thể lật đổ hay trục xuất các vị ấy không? Đại tướng nói vua còn chẳng thể nhìn thấy, huống chi lật đổ hay trục xuất.",
+            "Ānanda kết: cũng vậy, chư thiên còn phiền não, sẽ trở lại cõi này, không thể thấy các vị không phiền não, không trở lại, huống chi lật đổ hay trục xuất họ khỏi chỗ ấy."
+          ]
+        },
+        {
+          "id": "name",
+          "kind": "teaching",
+          "heading": "Lời khen tên Ānanda",
+          "meaningUnits": [
+            "name"
+          ],
+          "paragraphs": [
+            "Vua hỏi Phật vị tỳ-kheo này tên gì. Phật đáp là Ānanda. Tên ấy mang nghĩa hoan hỷ; vua khen Ānanda thật hoan hỷ, hiện vẻ hoan hỷ, và lời Ngài có căn cứ, có nguyên nhân."
+          ]
+        },
+        {
+          "id": "brahma",
+          "kind": "teaching",
+          "heading": "Câu hỏi được làm rõ một lần nữa",
+          "meaningUnits": [
+            "brahma"
+          ],
+          "paragraphs": [
+            "Vua hỏi có Phạm thiên, một vị thiên ở cảnh giới cao, chăng. Phật lại hỏi rõ. Vua nói mình muốn biết vị ấy có trở lại cõi này hay không.",
+            "Phật trả lời Phạm thiên còn phiền não sẽ trở lại; không còn phiền não sẽ không trở lại."
+          ]
+        },
+        {
+          "id": "two-claims",
+          "kind": "teaching",
+          "heading": "Hai lời quy nguồn trái nhau",
+          "meaningUnits": [
+            "mutual-blame",
+            "time"
+          ],
+          "paragraphs": [
+            "Có người báo Sañjaya họ Ākāsa đã tới. Vua hỏi ai đưa câu chuyện vào cung. Sañjaya chỉ đại tướng Viḍūḍabha; đại tướng lại chỉ Sañjaya.",
+            "Rồi một người báo đến giờ lên xe. Vua quay lại thưa với Phật."
+          ]
+        },
+        {
+          "id": "recap",
+          "kind": "teaching",
+          "heading": "Lời hài lòng của nhà vua",
+          "meaningUnits": [
+            "recap"
+          ],
+          "paragraphs": [
+            "Vua nhắc mình đã hỏi về toàn tri, sự biết tất cả, và được Phật giải đáp; vua ưa thích, chấp nhận, hài lòng. Vua hỏi sự thanh tịnh của bốn đẳng cấp, Phật đã đáp; vua ưa thích, chấp nhận, hài lòng.",
+            "Vua hỏi chư thiên, Phật đã đáp; vua ưa thích, chấp nhận, hài lòng. Vua hỏi Phạm thiên, Phật đã đáp; vua ưa thích, chấp nhận, hài lòng.",
+            "Vua nói bất cứ điều mình hỏi Phật cũng đều được giải đáp; ông lại bày tỏ mình ưa thích, chấp nhận và hài lòng."
+          ]
+        },
+        {
+          "id": "leaving",
+          "kind": "teaching",
+          "heading": "Lời từ biệt",
+          "meaningUnits": [
+            "departure",
+            "colophon"
+          ],
+          "paragraphs": [
+            "Vua xin đi vì nhiều công việc. Phật đáp vua hãy đi khi thấy hợp lúc. Vua tán thán, vui theo lời Ngài, đứng lên đảnh lễ, giữ phía bên phải hướng về Phật rồi ra đi.",
+            "Kinh Kaṇṇakatthala, bài thứ mười trong nhóm, kết thúc. Phẩm Vua thứ tư kết thúc."
+          ]
+        },
+        {
+          "id": "ten-titles",
+          "kind": "teaching",
+          "heading": "Mười tên kinh trong lời tóm lược",
+          "meaningUnits": [
+            "summary-verses"
+          ],
+          "paragraphs": [
+            "Lời tóm lược cuối phẩm ghi nhớ thứ tự: Ghaṭīkāra, Raṭṭhapāla, Makhādeva, Madhurā, Bodhi, Aṅgulimāla, Sinh Từ Điều Thân Yêu, Vải Nước Ngoài, Tháp Pháp, và Kaṇṇakatthala là bài thứ mười."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: nghe đủ lời hẹn",
+          "meaningUnits": [
+            "rumor",
+            "simultaneous"
+          ],
+          "paragraphs": [
+            "Một người nhắn “hôm nay tôi không thể tham gia”. Khi lời nhắn được kể lại chỉ còn “tôi không muốn tham gia”, cả thời điểm lẫn ý muốn đã đổi. Hỏi lại nguyên lời và hoàn cảnh sẽ giúp cuộc trao đổi rõ hơn. Ví dụ này gợi sự cẩn trọng trước khi vội hiểu một lời từ chối thành thái độ lâu dài."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: thêm một câu hỏi cho rõ",
+          "meaningUnits": [
+            "honesty",
+            "effort"
+          ],
+          "paragraphs": [
+            "Trong cuộc trò chuyện, nếu chưa chắc đã hiểu, có thể hỏi nhẹ: “Ý của anh, chị là trong trường hợp nào?”. Khi kể lại, giữ cả điều kiện và thời điểm. Với việc tự học, nói thật phần mình còn chưa rõ rồi tiếp tục từng bước bền bỉ. Một câu hỏi đúng lúc có thể giúp lời nói đến với nhau đầy đủ hơn."
+          ]
+        }
+      ]
+    }
+  }
+}

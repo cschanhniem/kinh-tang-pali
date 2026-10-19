@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn85",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "5f593928-d0e2-4ed9-8c1e-76da11e82731"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "ea4662ff-0d85-4c4b-9d8c-7fd4b91750d9"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "bf44143f-87b8-499e-a318-73b850fd278f"
+    }
+  },
+  "reviews": [
+    {
+      "id": "5f593928-d0e2-4ed9-8c1e-76da11e82731",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.3,
+        "clarity": 9.4,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đủ năm nguồn thực, 553 khóa, 16 chú thích và toàn HTML. Bản trẻ giữ việc mời Phật đi trước, thương người đời sau, cả thân lẫn tâm ở gỗ thứ hai và lãnh đạo riêng tại Uddaka; không theo những lệch tương ứng của HTML.",
+        "semantic_fidelity": "Niềm tin phải chịu khổ thuộc Bodhi và Bồ-tát trước giác ngộ; ba lời của chư thiên chỉ là nhận định. Thất bại của khổ hạnh không phủ nhận hai chứng đạt trước đó, và giải thoát cuối cùng vẫn có chấm dứt tái sinh.",
+        "core_coverage": "Bốn mươi hai mục phủ 86 ý, đủ ba gỗ, sáu lần ép thân, bốn thiền, ba minh, mười ba số đời, hai tin chết riêng, ba phản đối và ba lời quy y. Điểm bắt đầu của hai lời quy y do người khác nói đã được bổ sung.",
+        "logic_context": "Hai trường hợp gỗ ướt và trường hợp gỗ khô đều giữ cả có đau lẫn không đau; khả năng chưa thành chứng đạt. Năm người thực chứng sau khi được dạy, còn mốc thời gian giữ đủ năm phẩm chất và chính Phật hướng dẫn, không lấy một thuận lợi học voi thay cho năm điều kiện tu.",
+        "terminology": "Bồ-tát, tầm tứ, hỷ lạc, xả, lậu hoặc, nghiệp và quy y có lời mở nghĩa gần câu. Các tên hai tầng vô sắc được giải vừa đủ; chuỗi duyên khởi, tạo tác và bờ Bất tử vẫn là phần khó với trẻ mới đọc kinh.",
+        "audience_fit": "Câu hỏi về an vui, hình ảnh gỗ và ví tập đàn tạo điểm bám gần trẻ. Bài chia thành nhiều mục ngắn, nhưng gần năm nghìn đơn vị khoảng trắng cùng các đoạn khổ hạnh và nhiều danh mục vẫn cần đọc chậm hoặc chia nhiều lần.",
+        "clarity": "Những lần thử, chuyển hướng và ba canh đêm được tách rõ, giúp theo sự thay đổi của câu chuyện. Phần ba phản đối giữ đúng hai câu đáp đầu rồi câu hỏi khác ở lần ba; các danh mục dài vẫn tạo mật độ thông tin cao.",
+        "editorial_separation": "Ví tập đàn và phần tự hỏi có nhãn riêng. Các sự kiện chư thiên, thiên nhãn và hồi tưởng thuộc lời kinh được kể rõ; lời nhắc không làm theo thử nghiệm gây đau nằm sát đoạn có nguy cơ bị hiểu thành bài tập.",
+        "practical_integrity": "Gợi ý nói thật với người hướng dẫn, hỏi điều chưa hiểu và làm việc lành vừa sức không hứa chứng quả. Việc nhờ người lớn xem lại cách học cùng lời không gây đau giữ ứng dụng phù hợp, không biến thời gian trong kinh thành lịch hẹn cho trẻ.",
+        "technical_integrity": "Audit độc lập sạch, 86 ý phủ đủ 553 khóa và năm SHA256 trùng nguồn đã thực đọc. Đã đọc lại trọn children/refuges sau sửa; fingerprint 42 mục khớp freeze cuối, không ghi metadata chính thức."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc độc lập đủ năm nguồn, toàn 86 ý/553 khóa và cả ba bản. Bốn mục có chỉnh sửa đều đã đọc lại trọn trước audit và chấm điểm; nguồn và fingerprint khớp freeze cuối.",
+      "contentHash": "f3ac28a5acaa55433ed057159190dcd5695feb082114e78c78c0a751cecd4419",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn85.html",
+          "sha256": "daa7860f57ca86d433f946570d3526f27d3671f3c6cf3a70549a5d05b2b57048"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "sha256": "6b673d46c7b9e5b78940405c711743019ef6cf124cc6404047cc7a8d6a71e2de"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
+          "sha256": "44cc5911084f31f43af925ba3bfa71e4943617fef12eeca8c17ac72f3be5d589"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn85_comment-vi-project.json",
+          "sha256": "16fb0e31678c67691799e7a56c594009d93c19bcd7fbd712a4f467a3c2477747"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn85_translation-vi-project.json",
+          "sha256": "0cf94751e4707a3ffeb28a24e008a2298a28ef427fe0cfdfd36a6943757e0c48"
+        }
+      ]
+    },
+    {
+      "id": "ea4662ff-0d85-4c4b-9d8c-7fd4b91750d9",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.6,
+        "audience_fit": 9.6,
+        "clarity": 9.6,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu toàn Pāli, Sujato thật, Việt dự án, HTML và chú thích. Mười ba số đời dựa trên câu Anh thực, công thức thiền mở bằng HTML đã đọc; 53 ô Anh trống không được thay bằng English fill làm nguồn độc lập.",
+        "semantic_fidelity": "Phân biệt Āḷāra tự chứng với Rāma từng chứng và Uddaka truyền dạy; danh vị không bị coi là giải thoát. Khổ hạnh không đạt mục tiêu, an lạc ly dục mở hướng khác, ba minh kết bằng hết dục lậu, hữu lậu, vô minh lậu và hết tái sinh.",
+        "core_coverage": "Hai mươi chín mục vẫn giữ các nghi thức mời, ba lần thỉnh trên vải, năm sắc thái dục, sáu thử đau, các hình ảnh suy kiệt, bốn thiền và ba minh. Đủ hai lượt luân phiên nuôi sáu người, năm điều kiện, các mốc năm/tháng/ngày và hai chiều sáng tối.",
+        "logic_context": "Hai gỗ ướt đều không đủ khả năng bất kể có đau, gỗ khô đủ khả năng khi nội tâm đã bỏ và lắng dục. Phân biệt một thuận lợi trong ví nghề voi với đủ năm phẩm chất trong lời hứa tu; từ khả năng đến sự tự chứng của năm vị được kể đúng thứ tự.",
+        "terminology": "Nghiệp đã được mở ngay lần đầu là những hành động đã làm. Phạm hạnh, tầm tứ, xả, vô minh, lậu hoặc, sanh y và quy y có giải nghĩa; những thuật ngữ ấy vẫn giữ vai trò trong chuỗi tu chứng, không thành lời khuyên hiệu suất công việc.",
+        "audience_fit": "Cách tổ chức theo giả định, thử nghiệm, chuyển hướng và điều kiện học phù hợp người trưởng thành. Ví số đêm thức trắng gắn với việc kiểm tra phương pháp và trung thực báo khó khăn, có giới hạn rõ so với mục tiêu giải thoát.",
+        "clarity": "Ba thanh gỗ được đặt cạnh nhau, hai người thầy được tách rõ và các giai đoạn thiền có tiêu đề giúp đọc mạch dài. Các công thức lặp được gộp nhưng vẫn giữ chủ thể, hai chiều xác nhận và điều kiện từng nhóm; một số đoạn vẫn khá dày.",
+        "editorial_separation": "Ví dự án và thực hành được đánh dấu riêng; hình ảnh thắng trận, dẫn đoàn, hết nợ nằm đúng trong lời thỉnh và được giải ngắn. Phần cuối đã bỏ cách nói về nhãn kỹ thuật, trở lại câu kết tự nhiên của bài kinh.",
+        "practical_integrity": "Tự xem nỗ lực có giảm tham, giận, không biết đúng và có đang giấu khó khăn là thực hành cụ thể. Bản không khuyên nhịn ăn, gây đau hay áp các mốc kinh vào lịch chứng đắc cá nhân; vẫn giữ mục tiêu hết khổ và tái sinh.",
+        "technical_integrity": "Đã đọc lại trọn destinations và refuge sau sửa, rồi kiểm đúng hash 29 mục. Audit không có lỗi nội dung hoặc nguồn; năm dấu nguồn trùng checkpoint độc lập và các khóa, đơn vị ý đủ như bản đã đọc."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc độc lập đủ năm nguồn, toàn 86 ý/553 khóa và cả ba bản. Bốn mục có chỉnh sửa đều đã đọc lại trọn trước audit và chấm điểm; nguồn và fingerprint khớp freeze cuối.",
+      "contentHash": "969dce4f82923227e77c9b67a11a272f7b595bd935ed8b4f403fe9779e651c7e",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn85.html",
+          "sha256": "daa7860f57ca86d433f946570d3526f27d3671f3c6cf3a70549a5d05b2b57048"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "sha256": "6b673d46c7b9e5b78940405c711743019ef6cf124cc6404047cc7a8d6a71e2de"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
+          "sha256": "44cc5911084f31f43af925ba3bfa71e4943617fef12eeca8c17ac72f3be5d589"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn85_comment-vi-project.json",
+          "sha256": "16fb0e31678c67691799e7a56c594009d93c19bcd7fbd712a4f467a3c2477747"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn85_translation-vi-project.json",
+          "sha256": "0cf94751e4707a3ffeb28a24e008a2298a28ef427fe0cfdfd36a6943757e0c48"
+        }
+      ]
+    },
+    {
+      "id": "bf44143f-87b8-499e-a318-73b850fd278f",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.6,
+        "audience_fit": 9.5,
+        "clarity": 9.6,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Năm nguồn đã được đọc đầy đủ đến SC126 và credits, rồi đối chiếu cả 45 mục. Bản giữ người mẹ ngồi, vú em đứng và bế trên hông; thời điểm quy y trước kia đã mở rõ từ hôm ấy, đúng Pāli và các bản đối chiếu.",
+        "semantic_fidelity": "Uddaka được giữ là người đồng tu đặt Bồ-tát làm thầy, khác với Āḷāra mời đồng lãnh đạo. Lời chê của năm người và ba nhận định chư thiên không thành kết luận của người kể; ba minh giữ kết quả giải thoát và không còn tái sinh.",
+        "core_coverage": "Đủ 86 ý từ lâu đài mới đến quy y lần ba, gồm hai lượt người đưa tin, ba gỗ với năm sắc thái dục, sáu thử nghiệm đau, ba báo màu da, mười ba số đời, hai người thầy đã mất và toàn chuỗi thời gian có điều kiện.",
+        "logic_context": "Các mục tách rõ khả năng giác ngộ ở gỗ khô với việc đã giác ngộ về sau. Āḷāra chết bảy ngày và Uddaka chết đêm trước đều có lời trời cùng tri kiến xác nhận; câu hứa sáng chiều giữ năm phẩm chất và Phật hướng dẫn.",
+        "terminology": "Các từ phạm hạnh, sơ thiền, tầm tứ, xả, tỉnh giác, nghiệp, lậu hoặc và quy y được mở trong mạch. Bờ Bất tử được giải là thoát sinh tử; cách diễn nôm phần sanh y giúp tránh dừng ở thuật ngữ nhưng phần Pháp sâu vẫn cần suy ngẫm.",
+        "audience_fit": "Bốn mươi lăm mục tạo nhịp đọc thong thả, mỗi giai đoạn có một chỗ dừng. Ví học lại cách ghi sổ tôn trọng kinh nghiệm đã có; độ dài toàn bài và các danh sách khiến người đọc vẫn cần sự tập trung, không phải bài đọc ngắn.",
+        "clarity": "Hai báo chết và ba lần phản đối được chia mục riêng, giúp nhớ chủ thể và thời điểm. Hai nhóm mốc năm/tháng rồi ngày/sáng chiều được nối bằng cùng điều kiện, còn ba quy y được kể theo thứ tự với tư thế và người nói rõ.",
+        "editorial_separation": "Ví đời thường và khoảng lặng tự xét có nhãn riêng. Những hình ảnh khổ hạnh, hoa sen, lầu Pháp và các lời kệ được giữ trong chuyện kinh; các câu giải thích không nhận là lời Phật nói riêng cho độc giả hiện đại.",
+        "practical_integrity": "Đề nghị nhận ra điều đang bám, một việc lành cần bền và khó khăn nên nói thật là vừa sức. Không đồng nhất tuổi với yếu kém, không đòi chịu đau hay hứa ngày chứng quả; ứng dụng vẫn hướng về giảm trói buộc.",
+        "technical_integrity": "Đã đọc lại trọn third-refuge sau thêm điểm bắt đầu, kiểm đúng fingerprint 45 mục. Audit độc lập không lỗi, năm nguồn khớp byte đã đọc, 86 ý bao hết 553 khóa; không thay metadata hay nguồn kinh."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc độc lập đủ năm nguồn, toàn 86 ý/553 khóa và cả ba bản. Bốn mục có chỉnh sửa đều đã đọc lại trọn trước audit và chấm điểm; nguồn và fingerprint khớp freeze cuối.",
+      "contentHash": "6ef2612d946022986ecfbfb2498e445f42bf10725418276c70b5f261708d14c1",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn85.html",
+          "sha256": "daa7860f57ca86d433f946570d3526f27d3671f3c6cf3a70549a5d05b2b57048"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "sha256": "6b673d46c7b9e5b78940405c711743019ef6cf124cc6404047cc7a8d6a71e2de"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
+          "sha256": "44cc5911084f31f43af925ba3bfa71e4943617fef12eeca8c17ac72f3be5d589"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn85_comment-vi-project.json",
+          "sha256": "16fb0e31678c67691799e7a56c594009d93c19bcd7fbd712a4f467a3c2477747"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn85_translation-vi-project.json",
+          "sha256": "0cf94751e4707a3ffeb28a24e008a2298a28ef427fe0cfdfd36a6943757e0c48"
+        }
+      ]
+    }
+  ]
+}
