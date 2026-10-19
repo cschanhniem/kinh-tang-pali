@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn7",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "12bb7bc9-e5a3-4117-9102-10e98aecb9a3"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "419f94a6-4c94-4d57-8925-f446c8b66d68"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "d2ec50ab-009e-4cf5-865d-42c37b3fa211"
+    }
+  },
+  "reviews": [
+    {
+      "id": "12bb7bc9-e5a3-4117-9102-10e98aecb9a3",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.6,
+        "terminology": 9.1,
+        "audience_fit": 9.3,
+        "clarity": 9.4,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.4,
+        "technical_integrity": 9.5
+      },
+      "rationale": {
+        "source_fidelity": "Đã đối chiếu trọn năm nguồn DN7. Muṇḍiya theo Pāli; riêng Jāliya là học trò Dārupattika. Các câu đáp của hai khách được nhận từ cấu trúc Pāli, Sujato và chú thích, không nhập vào lời Phật theo cách trình bày HTML. Giữ na kallaṁ tại 5.4 dù bản Minh Châu thiếu phủ định; sáu ô Anh trắng không thành chứng cứ riêng.",
+        "semantic_fidelity": "Sinh mệnh được đặt là nội dung câu hỏi, không coi linh hồn bất biến đã được xác nhận. Bản trẻ giữ thành tựu giới, các thiền, hướng tri kiến, vế không còn hiện hữu như thế và sự không tuyên bố hai mệnh đề của Phật. Chặng giải thoát không bị diễn thành chán một sinh hoạt; không tự đặt thêm lời đáp thứ ba.",
+        "core_coverage": "Đã đọc cả 9 phần/15 đoạn và đối chiếu 8 đơn vị với 51 khóa Pāli, đủ từng khóa một lần. Có người kể, bối cảnh, chào hỏi đứng bên, câu hỏi và lời nhận nghe, bốn lượt với ba có/một không, lời Phật sau từng lượt, hoan hỷ và colophon. Các chỗ lược được nói rõ, không bỏ mốc thật hoặc tự mở cả DN2.",
+        "logic_context": "Giữ ba vai rõ: Phật hỏi, khách trả lời, Phật xác nhận biết thấy nhưng không nhận đồng nhất/khác biệt. Lượt cuối đổi câu đáp của khách thành không thích hợp, trong khi lời Phật nhất quán. Không suy sự hoan hỷ thành chứng quả; ví dụ nghe kỹ được giới hạn, không dùng làm chứng minh quan hệ sinh mệnh–thân.",
+        "terminology": "Mở giới bằng kỷ luật đạo đức, tri kiến bằng biết/thấy, A-la-hán và Chánh Đẳng Giác bằng giải thoát/giác ngộ. Từ sinh mệnh, nguyên lý sống, hiện hữu vẫn trừu tượng đối với trẻ; việc giữ mức trừu tượng cần thiết này còn đòi người lớn giải thích, nên không chấm gần tuyệt đối.",
+        "audience_fit": "Chín phần ngắn, hỏi đáp lặp rõ, lời gọi em và bài đánh dấu người nói phù hợp đọc có hướng dẫn. Ví hai cách giải bài quen thuộc mà không thay giáo nghĩa. Chưa có thử đọc trẻ thật; câu hỏi về nguyên lý sống và việc không nhận cả hai mệnh đề có thể cần người lớn cùng đọc.",
+        "clarity": "Mỗi chặng tu nối với câu hỏi và lời đáp nên người đọc dễ tìm chỗ có chuyển thành không. Những câu nhắc không thêm lời đáp hoặc không điền dấu lược làm rõ phạm vi. Một số giải thích về ấn bản và người biên tập hơi trừu tượng với trẻ nhưng ngắn và không che mạch chính.",
+        "editorial_separation": "Phần clarification, ví dụ và thực hành tách loại, ví dụ tự nhận do biên tập. Lời giảng chỉ theo các mốc DN7 thực ghi; không chép chi tiết ngoài bài thành đoạn Phật đã nói ở đây. Không biến cách chọn từ sinh mệnh thành xác nhận một thực thể.",
+        "practical_integrity": "Bài thực hành là đọc ba cột người nói và tìm chỗ thay đổi đáp án, đúng vấn đề của kinh. Không đưa kỹ thuật tự đạt thiền, không hứa giải thoát hay yêu cầu trẻ chọn một học thuyết. Ví giải bài chỉ minh họa nghe kỹ, không thay lập luận tôn giáo.",
+        "technical_integrity": "Audit độc lập DN7: errors=[] và sourceErrors=[]. Năm hash khớp byte thực, 8 đơn vị phủ đủ 51 khóa không thiếu/thừa/trùng; 9 phần/15 đoạn, ID và liên kết hợp lệ. Nội dung không cần sửa. Đây là kiểm bản ghi, không tuyên đã kiểm UI/build/test toàn PR trong vai người đọc."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm /root/audit_progress (A), khác tác giả /root, cùng GPT-6 Astra Pro. Đã đọc độc lập toàn bộ 51 khóa Pāli, 51 mục Sujato thô, 51 mục Việt dự án, 5 chú thích và toàn bộ HTML Minh Châu, rồi đọc trọn 8 đơn vị nghĩa và cả ba bản. Sáu ô Anh trống không được nhận là đối chiếu độc lập. Không tự căn HTML với Bilara. Không có lỗi cần sửa sau kiểm, nội dung tác giả được giữ nguyên. Người kiểm cũng đã thực đọc DN2 trong nhiệm vụ khác nhưng không dùng điều ấy để điền phần lược của DN7 hoặc khai thêm một phụ thuộc không thực dùng trong bài. Pāli/Anh pin 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt/chú thích pin a0408ff8d814d796c8b1cf0bbda5dbfaa2849820. Năm SHA-256 khớp byte đã đọc. Chưa có học giả Pāli con người hoặc độc giả thật thử đọc ba lứa tuổi; điểm lứa tuổi là nhận định biên tập có giới hạn. Không tự ghi/apply metadata. Hash nội dung children: c5a69bdb1ba9c0ee21f0fabf0f2a973da2a9e38ebeb2b528dbcbfda38f566392.",
+      "contentHash": "c5a69bdb1ba9c0ee21f0fabf0f2a973da2a9e38ebeb2b528dbcbfda38f566392",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn7.html",
+          "sha256": "64be02da2a525790a0697cee20c9843d3ade5ba24778f70d118a58983723cd0e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn7_root-pli-ms.json",
+          "sha256": "f9bc33094420668e8632a9b71de295378d33026bd6beacd644b61aa81f2fd5f4"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn7_translation-en-sujato.json",
+          "sha256": "c820e74a218632650cdc023b6a32ef90f1f724c6b07f79d76690977c8e3e7694"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn7_comment-vi-project.json",
+          "sha256": "e68c7eb15c56a82ba4c7508871d9a066b8e6d31a6f5d9d10c99d29164c709dd4"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn7_translation-vi-project.json",
+          "sha256": "72acf9b8e6b9f5a7d531ea0f0eae1b93babd9f72618576ce4f1a5c304a89358e"
+        }
+      ]
+    },
+    {
+      "id": "419f94a6-4c94-4d57-8925-f446c8b66d68",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.6,
+        "terminology": 9.3,
+        "audience_fit": 9.4,
+        "clarity": 9.4,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.4,
+        "technical_integrity": 9.5
+      },
+      "rationale": {
+        "source_fidelity": "Đọc trọn Pāli, Sujato, Việt dự án, Minh Châu HTML và năm chú thích. Giữ vai trò riêng của Jāliya/Dārupattika, tên Muṇḍiya, cấu trúc ba câu đáp có rồi na kallaṁ. Chỗ HTML gộp lời người nói và thiếu phủ định không được chép theo; nguồn Anh sáu ô trống được nhận đúng giới hạn.",
+        "semantic_fidelity": "Tách biết/thấy khỏi suy rằng biết/thấy buộc người tu nhận một trong hai thuyết. Jīva được dịch sinh mệnh có giải thích dị dịch; không xác nhận linh hồn hoặc rút sự không tuyên bố thành duy vật/khoa học thần kinh. Vế cuối giải thoát được đặt đúng phần hiện có sau dấu lược, không làm mất nghĩa chấm dứt hiện hữu.",
+        "core_coverage": "Bản 9 phần giữ toàn 8 đơn vị/51 khóa thật: mở cảnh, nghi thức, hai mệnh đề, Như Lai và giới/sơ thiền, ba thiền sau, tri kiến, vế giải thoát, từng hỏi/đáp/lời Phật, kết hai khách vui và nhãn cuối. Các phần lặp và dấu lược được xử lý đúng chức năng, không mặc nhiên thay bằng nội dung một bài khác.",
+        "logic_context": "Lời đáp thích hợp thuộc khách tại 2.7, 3.6, 4.4, không thích hợp tại 5.4; lời Phật không tuyên hai mệnh đề nhất quán cả bốn lượt. Bản làm rõ điều này để tránh mâu thuẫn giả do gộp người nói. Cuối chỉ tán đồng, không bịa quy y hoặc một thuyết mới của hai vị.",
+        "terminology": "Giải thích tri kiến, chỉ nghĩa jīva cùng soul/mạng căn, giữ ngôn ngữ thành tựu giới/định/giải thoát trong đúng mạch. Tên Dārupattika được giữ vì nguồn không đủ xác định một định danh cụ thể. Một vài từ như mệnh đề, hiện hữu, đồng nhất có tính học thuật nhưng được minh họa rõ; chưa kiểm hiểu với độc giả.",
+        "audience_fit": "Đủ khung phân tích cho người trưởng thành mà không kéo dài thành khảo luận về thân/tâm. Ví cuộc họp giúp nhận một cách đặt câu hỏi ép chọn nhưng tự nêu giới hạn. Hạn chế là người đọc muốn lời giải siêu hình có thể cần dừng ở việc bài không nhận các kết luận ấy; chưa có đánh giá tiếp nhận thực.",
+        "clarity": "Các mục đi theo bốn lượt, có điểm chốt câu cuối đổi phủ định; người nói và quan hệ giữa kinh gốc, phần lược, chú thích được diễn rõ. Đôi câu mang tính phương pháp biên tập làm dòng kể bớt liền, nhưng bảo vệ một sai khác nguồn có thật và không gây rối lập luận.",
+        "editorial_separation": "Phần thuật ngữ ghi rõ cách dùng và hai tham chiếu, không tự nhận đó là lời thoại. Ví quản lý và gợi ý đọc có loại riêng, không biến tu tập thành vận hành công việc. Nhận biết công thức ở 5.1 quy đúng cho chú thích đã đọc, không giả rằng DN7 chép toàn DN2.",
+        "practical_integrity": "Gợi ý ghi từng chặng, câu hỏi, câu đáp và lời Phật hỗ trợ quan sát chính cấu trúc có trong nguồn. Không hứa thu được tri kiến chỉ bằng ghi bảng, không thay thực hành giới–định–tuệ bằng suy luận. Ví chỉ giới hạn vào cách hỏi, không đưa khuyến cáo siêu hình chắc chắn.",
+        "technical_integrity": "Người kiểm chạy auditExplanations sau toàn lượt đọc: không lỗi nội dung/nguồn. Năm SHA-256 đúng byte, bản đồ 8 đơn vị khớp 51 khóa duy nhất, không khóa lạ; 9 phần/15 đoạn hợp schema và liên kết. Chưa chạy kiểm UI hoặc build toàn PR ở vai này, không dùng audit máy thay cho kiểm nghĩa."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm /root/audit_progress (A), khác tác giả /root, cùng GPT-6 Astra Pro. Đã đọc độc lập toàn bộ 51 khóa Pāli, 51 mục Sujato thô, 51 mục Việt dự án, 5 chú thích và toàn bộ HTML Minh Châu, rồi đọc trọn 8 đơn vị nghĩa và cả ba bản. Sáu ô Anh trống không được nhận là đối chiếu độc lập. Không tự căn HTML với Bilara. Không có lỗi cần sửa sau kiểm, nội dung tác giả được giữ nguyên. Người kiểm cũng đã thực đọc DN2 trong nhiệm vụ khác nhưng không dùng điều ấy để điền phần lược của DN7 hoặc khai thêm một phụ thuộc không thực dùng trong bài. Pāli/Anh pin 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt/chú thích pin a0408ff8d814d796c8b1cf0bbda5dbfaa2849820. Năm SHA-256 khớp byte đã đọc. Chưa có học giả Pāli con người hoặc độc giả thật thử đọc ba lứa tuổi; điểm lứa tuổi là nhận định biên tập có giới hạn. Không tự ghi/apply metadata. Hash nội dung adults: 1aec7585ff484142ea4a2c46458fce48f0683c10112dcd0199d88c6750abeb00.",
+      "contentHash": "1aec7585ff484142ea4a2c46458fce48f0683c10112dcd0199d88c6750abeb00",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn7.html",
+          "sha256": "64be02da2a525790a0697cee20c9843d3ade5ba24778f70d118a58983723cd0e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn7_root-pli-ms.json",
+          "sha256": "f9bc33094420668e8632a9b71de295378d33026bd6beacd644b61aa81f2fd5f4"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn7_translation-en-sujato.json",
+          "sha256": "c820e74a218632650cdc023b6a32ef90f1f724c6b07f79d76690977c8e3e7694"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn7_comment-vi-project.json",
+          "sha256": "e68c7eb15c56a82ba4c7508871d9a066b8e6d31a6f5d9d10c99d29164c709dd4"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn7_translation-vi-project.json",
+          "sha256": "72acf9b8e6b9f5a7d531ea0f0eae1b93babd9f72618576ce4f1a5c304a89358e"
+        }
+      ]
+    },
+    {
+      "id": "d2ec50ab-009e-4cf5-865d-42c37b3fa211",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.6,
+        "terminology": 9.2,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.4,
+        "technical_integrity": 9.5
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu trọn 51 khóa Pāli và các nguồn Anh/Việt/chú thích/HTML. Giữ Muṇḍiya và chỉ Jāliya học Dārupattika. Đọc các câu trả lời theo Pāli và Sujato, đặc biệt không thích hợp ở 5.4 bị mất trong HTML; không lấy sáu ô Sujato trống làm lời đối chiếu độc lập.",
+        "semantic_fidelity": "Không gán câu hỏi về jīva/thân thành thừa nhận linh hồn, không tự dựng lời giải thứ ba khi Phật không tuyên đồng nhất hay khác biệt. Các mốc giới, bốn thiền, tri kiến và vế giải thoát còn nguyên; không rút hiện hữu thành đổi nơi sống hay đổi thói quen.",
+        "core_coverage": "Đã đọc toàn 9 phần và map, đủ 8 đơn vị phủ 51 khóa đúng một lần. Cả bốn lượt hỏi đều có câu đáp khách và lời Phật, gồm ba có rồi không; phần mở, lời nhận nghe, hoan hỷ và colophon đều có. Tôn trọng dấu lược mà vẫn nêu mọi chặng thật được nguồn ghi.",
+        "logic_context": "Bản lớn tuổi nhắc rõ tách người nói, giữ lời Phật ổn định trong khi khách đổi đáp. Không đồng nhất câu đáp cuối với Phật mới đổi lập trường. Chỗ chấm dứt hiện hữu là mốc giải thoát trong mạch, không thành xác nhận khách đã chứng; kết chỉ hoan hỷ theo nguồn.",
+        "terminology": "Sinh mệnh, tri kiến, giới và thiền được mở ngay trong câu; phần phạm vi giải thích dị dịch linh hồn/mạng căn. Từ hiện hữu và mệnh đề vẫn cần nền đọc nhất định, nên điểm thuật ngữ có giới hạn. Không lấy một từ dễ hiểu để thêm tính bất biến vào điều đang được hỏi.",
+        "audience_fit": "Các đoạn ngắn và tiêu đề theo từng chặng giúp dừng rồi nối lại; ví nếp cũ trong gia đình quen mà không áp đặt vai trò tuổi già. Gợi ý đọc chậm không đồng nhất tuổi lớn với kém hiểu. Chưa có người đọc đúng lứa tuổi thử tiếp nhận khái niệm sinh mệnh và không tuyên bố.",
+        "clarity": "Mạch hỏi–đáp được lặp đủ nên dễ đối chiếu có/không, đặc biệt mục cuối chỉ đúng chữ không và ý nghĩa thay đổi của khách. Giải thích phần lược tách riêng, không ngắt mỗi câu chuyện bằng thuật ngữ kỹ thuật. Một vài từ trừu tượng còn cần đọc lại nhưng tuyến ý rõ.",
+        "editorial_separation": "Có clarification riêng cho jīva và dấu lược; ví gia đình và thực hành tự nhận biên tập, không phải lời kinh. Không thêm học thuyết, chứng quả, quy y hoặc chi tiết DN2 vào phần được lược. Lời không tuyên bố của Phật không bị sửa thành một mệnh đề hiện đại.",
+        "practical_integrity": "Gợi ý dừng từng lượt, nhận ai nói và tìm chỗ câu đáp đổi là công việc đọc hiểu vừa sức, không hứa chứng đắc. Ví gia đình chỉ soi việc bình tĩnh xem cách hỏi, không buộc bỏ nếp cũ hoặc đồng nhất ứng xử gia đình với giải thoát. Sự tu học sâu hơn vẫn được phân biệt.",
+        "technical_integrity": "Audit DN7 do người kiểm chạy xác nhận errors/sourceErrors rỗng; năm SHA-256 đúng các nguồn thực đọc. Map 8 đơn vị/51 khóa không thiếu/thừa/trùng, 9 phần/15 đoạn và tham chiếu hợp lệ. Nội dung khóa nguyên trạng, không mạo nhận đã kiểm trình duyệt hoặc build toàn PR."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm /root/audit_progress (A), khác tác giả /root, cùng GPT-6 Astra Pro. Đã đọc độc lập toàn bộ 51 khóa Pāli, 51 mục Sujato thô, 51 mục Việt dự án, 5 chú thích và toàn bộ HTML Minh Châu, rồi đọc trọn 8 đơn vị nghĩa và cả ba bản. Sáu ô Anh trống không được nhận là đối chiếu độc lập. Không tự căn HTML với Bilara. Không có lỗi cần sửa sau kiểm, nội dung tác giả được giữ nguyên. Người kiểm cũng đã thực đọc DN2 trong nhiệm vụ khác nhưng không dùng điều ấy để điền phần lược của DN7 hoặc khai thêm một phụ thuộc không thực dùng trong bài. Pāli/Anh pin 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt/chú thích pin a0408ff8d814d796c8b1cf0bbda5dbfaa2849820. Năm SHA-256 khớp byte đã đọc. Chưa có học giả Pāli con người hoặc độc giả thật thử đọc ba lứa tuổi; điểm lứa tuổi là nhận định biên tập có giới hạn. Không tự ghi/apply metadata. Hash nội dung older-adults: 2e37092bd161a1c33984eb25c97bc3be9f6324bfe06d58fb241080efec18ef07.",
+      "contentHash": "2e37092bd161a1c33984eb25c97bc3be9f6324bfe06d58fb241080efec18ef07",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn7.html",
+          "sha256": "64be02da2a525790a0697cee20c9843d3ade5ba24778f70d118a58983723cd0e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn7_root-pli-ms.json",
+          "sha256": "f9bc33094420668e8632a9b71de295378d33026bd6beacd644b61aa81f2fd5f4"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn7_translation-en-sujato.json",
+          "sha256": "c820e74a218632650cdc023b6a32ef90f1f724c6b07f79d76690977c8e3e7694"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn7_comment-vi-project.json",
+          "sha256": "e68c7eb15c56a82ba4c7508871d9a066b8e6d31a6f5d9d10c99d29164c709dd4"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn7_translation-vi-project.json",
+          "sha256": "72acf9b8e6b9f5a7d531ea0f0eae1b93babd9f72618576ce4f1a5c304a89358e"
+        }
+      ]
+    }
+  ]
+}

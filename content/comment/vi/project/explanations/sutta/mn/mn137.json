@@ -1,0 +1,1583 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn137",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn137_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "4abf0c6b6a7cde4843bcb9b3ab5338cf9e4a35aef109a54f04b88d0821347906"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn137_translation-vi-project.json",
+      "commit": "65eb7cebf4888967bb7e85aabf01fa29b7534cd6",
+      "sha256": "d8fda29cdfa2f7ce5ec0704759825cd9022633a53dc64dc4eab204fff06400b2"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn137_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "99b54198c52bcf7f4760a638415ce69d3ebf6912f368c6189d284181564e51a3"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn137.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "a5402ae782d8c849ee07cae3234697ccd12836471c1620bbd5c4c08e45bb2d28"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn137_comment-vi-project.json",
+      "commit": "65eb7cebf4888967bb7e85aabf01fa29b7534cd6",
+      "sha256": "ad662d3fbc7bb33d5ee3fd35bf6d8f35ccaca7f698bda79aa98cab37a343199e"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Phân biệt sáu xứ",
+      "segments": [
+        "mn137:0.1",
+        "mn137:0.2"
+      ],
+      "summary": "Tên bài và số MN137; sáu xứ là trục giải thích toàn bài."
+    },
+    {
+      "id": "setting",
+      "title": "Lời truyền và nơi giảng",
+      "segments": [
+        "mn137:1.1",
+        "mn137:1.2",
+        "mn137:1.3",
+        "mn137:1.4",
+        "mn137:1.5",
+        "mn137:1.6"
+      ],
+      "summary": "Người truyền kinh đã nghe; Đức Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika, gọi các tỳ-kheo và được đáp lời."
+    },
+    {
+      "id": "invitation",
+      "title": "Nghe và chú tâm kỹ",
+      "segments": [
+        "mn137:2.1",
+        "mn137:2.2",
+        "mn137:2.3",
+        "mn137:2.4"
+      ],
+      "summary": "Phật báo giảng sự phân biệt sáu xứ, yêu cầu nghe/chú tâm kỹ; các tỳ-kheo vâng đáp rồi Ngài giảng."
+    },
+    {
+      "id": "outline",
+      "title": "Chín đầu mục",
+      "segments": [
+        "mn137:3.1",
+        "mn137:3.2"
+      ],
+      "summary": "Đủ chín mục: 6 nội xứ, 6 ngoại xứ, 6 thức thân, 6 xúc thân, 18 ý hành, 36 hữu tình vị, nương cái này bỏ cái kia, 3 niệm xứ của vị thầy, điều ngự vô thượng. Sau tổng thuyết là giải nghĩa từng mục."
+    },
+    {
+      "id": "internal",
+      "title": "Sáu nội xứ",
+      "segments": [
+        "mn137:4.1",
+        "mn137:4.2",
+        "mn137:4.3",
+        "mn137:4.4",
+        "mn137:4.5"
+      ],
+      "summary": "Mắt, tai, mũi, lưỡi, thân, ý; giải đầy đủ điều đã nói là cần được biết, không bỏ ý."
+    },
+    {
+      "id": "external",
+      "title": "Sáu ngoại xứ",
+      "segments": [
+        "mn137:5.1",
+        "mn137:5.2",
+        "mn137:5.3",
+        "mn137:5.4",
+        "mn137:5.5"
+      ],
+      "summary": "Sắc, tiếng, hương, vị, xúc, pháp; pháp là đối tượng của ý, không giới hạn thành suy nghĩ. Xúc ở đây là đối tượng xúc chạm."
+    },
+    {
+      "id": "consciousness",
+      "title": "Sáu nhóm thức",
+      "segments": [
+        "mn137:6.1",
+        "mn137:6.2",
+        "mn137:6.3",
+        "mn137:6.4",
+        "mn137:6.5"
+      ],
+      "summary": "Sáu thức mắt/tai/mũi/lưỡi/thân/ý, từng sự nhận biết tương ứng; thân trong thức thân nghĩa là nhóm."
+    },
+    {
+      "id": "contact",
+      "title": "Sáu nhóm xúc",
+      "segments": [
+        "mn137:7.1",
+        "mn137:7.2",
+        "mn137:7.3",
+        "mn137:7.4",
+        "mn137:7.5"
+      ],
+      "summary": "Xúc mắt/tai/mũi/lưỡi/thân/ý, các tiếp xúc qua sáu cửa; phân biệt với xúc là đối tượng ở ngoại xứ."
+    },
+    {
+      "id": "eighteen",
+      "title": "Mười tám ý hành",
+      "segments": [
+        "mn137:8.1",
+        "mn137:8.2",
+        "mn137:8.3",
+        "mn137:8.4",
+        "mn137:8.5",
+        "mn137:8.6",
+        "mn137:8.7",
+        "mn137:8.8",
+        "mn137:8.9",
+        "mn137:8.10"
+      ],
+      "summary": "Mỗi cửa trong đủ sáu cửa: nhận biết đối tượng rồi suy tầm đối tượng làm chỗ cho hỷ, ưu hoặc xả. Tổng 6 hỷ/6 ưu/6 xả, không phải 18 căn."
+    },
+    {
+      "id": "thirty-six",
+      "title": "Ba mươi sáu chỗ đứng của tâm",
+      "segments": [
+        "mn137:9.1",
+        "mn137:9.2",
+        "mn137:9.3"
+      ],
+      "summary": "Sáu hỷ tại gia, sáu hỷ xuất ly, sáu ưu tại gia, sáu ưu xuất ly, sáu xả tại gia, sáu xả xuất ly; hai cách nương cho từng nhóm, không 36 loại người cố định."
+    },
+    {
+      "id": "domestic-joy",
+      "title": "Vui dựa vào hưởng thụ",
+      "segments": [
+        "mn137:10.1",
+        "mn137:10.2",
+        "mn137:10.3",
+        "mn137:10.4",
+        "mn137:10.5",
+        "mn137:10.6",
+        "mn137:10.7",
+        "mn137:10.8",
+        "mn137:10.9",
+        "mn137:10.10"
+      ],
+      "summary": "Đủ sáu đối tượng được nhận biết qua sáu cửa, năm nét đáng ưa/thích/dễ chịu/hấp dẫn/liên hệ thế vật. Thấy việc đạt là đạt HOẶC nhớ đối tượng đã đạt nay qua/diệt/đổi thì hỷ. Khóa lược mở bằng công thức cùng bài."
+    },
+    {
+      "id": "renunciate-joy",
+      "title": "Vui nhờ thấy đổi thay",
+      "segments": [
+        "mn137:11.1",
+        "mn137:11.2",
+        "mn137:11.3",
+        "mn137:11.4",
+        "mn137:11.5",
+        "mn137:11.6",
+        "mn137:11.7",
+        "mn137:11.8",
+        "mn137:11.9",
+        "mn137:11.10"
+      ],
+      "summary": "Cả sáu đối tượng: biết vô thường, biến đổi, phai tàn/đoạn diệt; với trí tuệ đúng thấy như thật tất cả đối tượng trước và nay đều vô thường, khổ, phải đổi thì hỷ xuất ly phát sinh."
+    },
+    {
+      "id": "domestic-grief",
+      "title": "Buồn vì không đạt",
+      "segments": [
+        "mn137:12.1",
+        "mn137:12.2",
+        "mn137:12.3",
+        "mn137:12.4",
+        "mn137:12.5",
+        "mn137:12.6",
+        "mn137:12.7",
+        "mn137:12.8",
+        "mn137:12.9",
+        "mn137:12.10"
+      ],
+      "summary": "Cả sáu đối tượng với đủ năm nét: xem việc không đạt là không đạt HOẶC nhớ điều trước kia không đạt, nay đã qua/diệt/đổi, thì ưu. Appaṭilābha giữ không đạt, không chỉ mất điều đã có như cách Anh diễn."
+    },
+    {
+      "id": "renunciate-grief",
+      "title": "Buồn do khát ngưỡng giải thoát",
+      "segments": [
+        "mn137:13.1",
+        "mn137:13.2",
+        "mn137:13.3",
+        "mn137:13.4",
+        "mn137:13.5",
+        "mn137:13.6",
+        "mn137:13.7",
+        "mn137:13.8",
+        "mn137:13.9",
+        "mn137:13.10",
+        "mn137:13.11",
+        "mn137:13.12"
+      ],
+      "summary": "Cả sáu đối tượng và đầy đủ quán như hỷ xuất ly; khát ngưỡng các giải thoát tối thượng, mong chứng VÀ ở vững trong xứ các bậc Thánh HIỆN đang chứng VÀ ở vững. Ưu do duyên khát ngưỡng ấy."
+    },
+    {
+      "id": "domestic-equanimity",
+      "title": "Bình thản chưa vượt đối tượng",
+      "segments": [
+        "mn137:14.1",
+        "mn137:14.2",
+        "mn137:14.3",
+        "mn137:14.4",
+        "mn137:14.5",
+        "mn137:14.6",
+        "mn137:14.7",
+        "mn137:14.8",
+        "mn137:14.9",
+        "mn137:14.10",
+        "mn137:14.11",
+        "mn137:14.12"
+      ],
+      "summary": "Đủ sáu cửa: xả của phàm phu ngu si/mê muội, chưa chinh phục giới hạn/quả dị thục, không thấy nguy hại, không nghe học. Xả không vượt chính đối tượng nên gọi tại gia. Hai từ khó giữ phạm vi nguồn, không suy đoán cơ chế."
+    },
+    {
+      "id": "renunciate-equanimity",
+      "title": "Bình thản do thấy như thật",
+      "segments": [
+        "mn137:15.1",
+        "mn137:15.2",
+        "mn137:15.3",
+        "mn137:15.4",
+        "mn137:15.5",
+        "mn137:15.6",
+        "mn137:15.7",
+        "mn137:15.8",
+        "mn137:15.9",
+        "mn137:15.10",
+        "mn137:15.11",
+        "mn137:15.12",
+        "mn137:15.13",
+        "mn137:15.14"
+      ],
+      "summary": "Đủ sáu đối tượng, cùng công thức quán trước/nay vô thường/khổ/đổi, với trí tuệ đúng, phát sinh xả VƯỢT đối tượng. Khép giải thích đủ 36; HTML lược câu vượt đối tượng, phải giữ theo Pāli/Việt/Anh."
+    },
+    {
+      "id": "abandon-intro",
+      "title": "Nương để vượt qua",
+      "segments": [
+        "mn137:16.1",
+        "mn137:16.2"
+      ],
+      "summary": "Đặt lại câu hỏi vì sao nói nương vào cái này hãy bỏ cái kia; đây là tiến trình có điều nương và điều được bỏ."
+    },
+    {
+      "id": "joy-for-domestic",
+      "title": "Hỷ xuất ly bỏ hỷ tại gia",
+      "segments": [
+        "mn137:16.3",
+        "mn137:16.4"
+      ],
+      "summary": "Nương/dựa sáu hỷ xuất ly để đoạn bỏ VÀ vượt qua sáu hỷ tại gia; kết xác nhận cả bỏ và vượt."
+    },
+    {
+      "id": "grief-for-domestic",
+      "title": "Ưu xuất ly bỏ ưu tại gia",
+      "segments": [
+        "mn137:16.5",
+        "mn137:16.6"
+      ],
+      "summary": "Nương/dựa sáu ưu xuất ly để bỏ và vượt sáu ưu tại gia; không đảo thành giữ mọi nỗi buồn."
+    },
+    {
+      "id": "equanimity-for-domestic",
+      "title": "Xả xuất ly bỏ xả tại gia",
+      "segments": [
+        "mn137:16.7",
+        "mn137:16.8"
+      ],
+      "summary": "Nương/dựa sáu xả xuất ly để bỏ và vượt sáu xả tại gia."
+    },
+    {
+      "id": "joy-for-grief",
+      "title": "Hỷ xuất ly bỏ ưu xuất ly",
+      "segments": [
+        "mn137:16.9",
+        "mn137:16.10"
+      ],
+      "summary": "Nương/dựa sáu hỷ xuất ly để bỏ và vượt sáu ưu xuất ly."
+    },
+    {
+      "id": "equanimity-for-joy",
+      "title": "Xả xuất ly bỏ hỷ xuất ly",
+      "segments": [
+        "mn137:16.11",
+        "mn137:16.12"
+      ],
+      "summary": "Nương/dựa sáu xả xuất ly để bỏ và vượt sáu hỷ xuất ly."
+    },
+    {
+      "id": "equanimity-kinds",
+      "title": "Hai nền xả",
+      "segments": [
+        "mn137:17.1"
+      ],
+      "summary": "Nêu cả xả đa dạng dựa đa dạng và xả thuần nhất dựa thuần nhất."
+    },
+    {
+      "id": "diversity",
+      "title": "Xả đa dạng",
+      "segments": [
+        "mn137:18.1",
+        "mn137:18.2",
+        "mn137:18.3"
+      ],
+      "summary": "Chỉ năm đối tượng thực liệt kê: sắc, tiếng, hương, vị, xúc. Không tự thêm pháp thứ sáu vào danh mục này."
+    },
+    {
+      "id": "unity",
+      "title": "Xả thuần nhất",
+      "segments": [
+        "mn137:19.1",
+        "mn137:19.2",
+        "mn137:19.3"
+      ],
+      "summary": "Bốn nơi nương: Không vô biên, Thức vô biên, Vô sở hữu, Phi tưởng phi phi tưởng; không rút còn ba hoặc gọi một tầng duy nhất."
+    },
+    {
+      "id": "unity-for-diversity",
+      "title": "Nương thuần nhất bỏ đa dạng",
+      "segments": [
+        "mn137:20.1",
+        "mn137:20.2"
+      ],
+      "summary": "Nương/dựa xả thuần nhất để bỏ và vượt xả đa dạng; giữ quan hệ và kết xác nhận."
+    },
+    {
+      "id": "not-determined",
+      "title": "Không bị trạng thái ấy quy định",
+      "segments": [
+        "mn137:20.3",
+        "mn137:20.4"
+      ],
+      "summary": "Nương atammayatā, không bị tác thành/quy định bởi trạng thái ấy, để bỏ và vượt xả thuần nhất. Không thay thuật ngữ bằng không tham dục như HTML."
+    },
+    {
+      "id": "abandon-close",
+      "title": "Khép lời nương để bỏ",
+      "segments": [
+        "mn137:20.5",
+        "mn137:20.6"
+      ],
+      "summary": "Sau đủ bảy quan hệ, xác nhận đây là lý do của đầu mục nương cái này bỏ cái kia."
+    },
+    {
+      "id": "three-mindfulness",
+      "title": "Ba niệm xứ của bậc Thầy",
+      "segments": [
+        "mn137:21.1",
+        "mn137:21.2",
+        "mn137:21.3"
+      ],
+      "summary": "Đặt câu hỏi về ba trường hợp an lập niệm bậc Thánh thực hành để xứng giáo huấn hội chúng, không nhầm bốn niệm xứ."
+    },
+    {
+      "id": "none-listen",
+      "title": "Đệ tử không nghe",
+      "segments": [
+        "mn137:22.1",
+        "mn137:22.2",
+        "mn137:22.3",
+        "mn137:22.4",
+        "mn137:22.5"
+      ],
+      "summary": "Vị thầy có lòng thương, muốn lợi ích/an lạc, vì thương mà dạy. Đệ tử không muốn nghe/không lắng tai/không đặt tâm hiểu/lạc lời dạy. Như Lai không bất mãn/không cảm bất mãn, không ô nhiễm, niệm/tỉnh giác. HTML ngược phủ định thành không hoan hỷ, không theo."
+    },
+    {
+      "id": "mixed-listen",
+      "title": "Có người nghe, có người không",
+      "segments": [
+        "mn137:23.1",
+        "mn137:23.2",
+        "mn137:23.3",
+        "mn137:23.4",
+        "mn137:23.5",
+        "mn137:23.6",
+        "mn137:23.7",
+        "mn137:23.8",
+        "mn137:23.9"
+      ],
+      "summary": "Cùng ba nét lòng thương và hai mục đích; hai nhóm trái nhau đủ bốn hành động mỗi nhóm. Như Lai không bất mãn/không cảm bất mãn, không hài lòng/không cảm hài lòng; tránh cả hai, sống xả/niệm/tỉnh giác. Ô Anh23.7 trống vẫn giữ Pāli/Việt."
+    },
+    {
+      "id": "all-listen",
+      "title": "Đệ tử chịu nghe",
+      "segments": [
+        "mn137:24.1",
+        "mn137:24.2",
+        "mn137:24.3",
+        "mn137:24.4",
+        "mn137:24.5"
+      ],
+      "summary": "Cùng lòng thương, muốn lợi ích/an lạc; đủ bốn nét tích cực. Như Lai hài lòng VÀ cảm sự hài lòng, không ô nhiễm, niệm/tỉnh giác. Không san bằng thành vô cảm."
+    },
+    {
+      "id": "mindfulness-close",
+      "title": "Xứng đáng giáo huấn",
+      "segments": [
+        "mn137:24.6",
+        "mn137:24.7"
+      ],
+      "summary": "Khép cả ba trường hợp thực hành của bậc Thánh, nhờ đó vị thầy xứng dạy hội chúng."
+    },
+    {
+      "id": "trainer-intro",
+      "title": "Vì sao điều ngự vô thượng",
+      "segments": [
+        "mn137:25.1",
+        "mn137:25.2"
+      ],
+      "summary": "Đặt câu hỏi về bậc vô thượng trong các vị huấn luyện người đáng được điều phục."
+    },
+    {
+      "id": "elephant",
+      "title": "Voi một hướng",
+      "segments": [
+        "mn137:25.3",
+        "mn137:25.4"
+      ],
+      "summary": "Voi được người luyện voi điều khiển chỉ chạy một hướng: Đông HOẶC Tây HOẶC Bắc HOẶC Nam."
+    },
+    {
+      "id": "horse",
+      "title": "Ngựa một hướng",
+      "segments": [
+        "mn137:26.1",
+        "mn137:26.2"
+      ],
+      "summary": "Ngựa được người luyện ngựa điều khiển chỉ chạy một trong Đông/Tây/Bắc/Nam."
+    },
+    {
+      "id": "ox",
+      "title": "Bò một hướng",
+      "segments": [
+        "mn137:26.3",
+        "mn137:26.4"
+      ],
+      "summary": "Bò được người luyện bò điều khiển chỉ chạy một trong Đông/Tây/Bắc/Nam."
+    },
+    {
+      "id": "eight-directions",
+      "title": "Người đi tám hướng",
+      "segments": [
+        "mn137:26.5"
+      ],
+      "summary": "Người được Như Lai/A-la-hán/Chánh Đẳng Giác hướng dẫn có tám hướng; giải nghĩa danh xưng, không tám hướng địa lý."
+    },
+    {
+      "id": "first-direction",
+      "title": "Hướng thứ nhất",
+      "segments": [
+        "mn137:27.1",
+        "mn137:27.2"
+      ],
+      "summary": "Có sắc, thấy sắc; giữ công thức ngắn, không tự nhập chú giải về đề mục."
+    },
+    {
+      "id": "second-direction",
+      "title": "Hướng thứ hai",
+      "segments": [
+        "mn137:27.3",
+        "mn137:27.4"
+      ],
+      "summary": "Nội tâm không có tưởng sắc, thấy các sắc ở ngoài; giữ cả trong/ngoài, phủ định và nhận diện."
+    },
+    {
+      "id": "third-direction",
+      "title": "Hướng thứ ba",
+      "segments": [
+        "mn137:27.5",
+        "mn137:27.6"
+      ],
+      "summary": "Chỉ chú tâm cái đẹp; giữ chỉ, không đổi thành thanh tịnh như HTML."
+    },
+    {
+      "id": "fourth-direction",
+      "title": "Hướng thứ tư",
+      "segments": [
+        "mn137:27.7",
+        "mn137:27.8"
+      ],
+      "summary": "Hoàn toàn vượt tưởng sắc; các tưởng va chạm diệt; không tác ý tưởng đa dạng; hư không vô biên; chứng VÀ an trú Không vô biên xứ."
+    },
+    {
+      "id": "fifth-direction",
+      "title": "Hướng thứ năm",
+      "segments": [
+        "mn137:27.9",
+        "mn137:27.10"
+      ],
+      "summary": "Hoàn toàn vượt Không vô biên; thức vô biên; chứng và an trú Thức vô biên xứ."
+    },
+    {
+      "id": "sixth-direction",
+      "title": "Hướng thứ sáu",
+      "segments": [
+        "mn137:27.11",
+        "mn137:27.12"
+      ],
+      "summary": "Hoàn toàn vượt Thức vô biên; không có gì cả; chứng và an trú Vô sở hữu xứ."
+    },
+    {
+      "id": "seventh-direction",
+      "title": "Hướng thứ bảy",
+      "segments": [
+        "mn137:27.13",
+        "mn137:27.14"
+      ],
+      "summary": "Hoàn toàn vượt Vô sở hữu; chứng và an trú Phi tưởng phi phi tưởng xứ; mở tưởng là nhận diện nhưng không giản lược thành mất hết ý thức."
+    },
+    {
+      "id": "eighth-direction",
+      "title": "Hướng thứ tám",
+      "segments": [
+        "mn137:27.15",
+        "mn137:27.16"
+      ],
+      "summary": "Hoàn toàn vượt Phi tưởng phi phi tưởng; chứng và an trú diệt tưởng thọ. Giải cả tưởng và thọ trong chứng đạt, không gắn tự động lậu tận không có ở đây."
+    },
+    {
+      "id": "trainer-close",
+      "title": "Khép tám hướng",
+      "segments": [
+        "mn137:27.17",
+        "mn137:28.1",
+        "mn137:28.2"
+      ],
+      "summary": "Nhắc đủ ba phẩm xưng của Phật, nhờ hướng dẫn người tới tám hướng nên là điều ngự vô thượng; kết giải câu đã nêu."
+    },
+    {
+      "id": "ending",
+      "title": "Tán đồng và kết kinh",
+      "segments": [
+        "mn137:28.3",
+        "mn137:28.4",
+        "mn137:28.5"
+      ],
+      "summary": "Phật nói xong, các tỳ-kheo vui tán đồng; bài thứ bảy TRONG NHÓM kinh này, không MN7; EN colophon trống."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Dành cho trẻ em",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Từ sáu cửa đến những bước tu sâu",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "invitation",
+            "outline"
+          ],
+          "paragraphs": [
+            "Người truyền kinh kể điều mình đã nghe: một thời, Đức Phật ở Sāvatthī, trong tu viện của ông Anāthapiṇḍika tại rừng Jeta. Ngài gọi các tỳ-kheo, những người nam xuất gia theo Phật. Các thầy kính đáp. Phật bảo sẽ giảng bài Phân biệt sáu xứ, yêu cầu lắng nghe và chú tâm kỹ; các thầy vâng lời.",
+            "MN137 mở bằng chín đầu mục: sáu nơi bên trong, sáu đối tượng bên ngoài, sáu nhóm nhận biết, sáu nhóm tiếp xúc, mười tám cách tâm hướng theo đối tượng, ba mươi sáu chỗ đứng của tâm, cách nương điều này để bỏ điều kia, ba trường hợp giữ tâm nhớ biết của vị thầy, và người hướng dẫn tu tập không ai hơn. Phật lần lượt giải thích vì sao Ngài nêu từng mục."
+          ]
+        },
+        {
+          "id": "six-doors",
+          "kind": "teaching",
+          "heading": "Mắt nhìn, tai nghe, tâm cũng có đối tượng",
+          "meaningUnits": [
+            "internal",
+            "external"
+          ],
+          "paragraphs": [
+            "Sáu nội xứ là mắt, tai, mũi, lưỡi, thân và ý, tức tâm. Có thể hiểu chúng như sáu cửa tiếp nhận. Sáu ngoại xứ tương ứng là hình sắc, âm thanh, mùi, vị, những gì thân chạm biết và những điều tâm nhận biết. Điều tâm nhận biết có thể là một ý nghĩ hay ký ức, nhưng không chỉ có hai loại ấy.",
+            "Đó là đủ sáu nơi bên trong và sáu loại đối tượng mà Phật bảo cần biết. Tiếng thuộc tai; vị thuộc lưỡi; vật mát hay cứng được thân chạm biết. Ta cần nhận ra từng cửa cho rõ."
+          ]
+        },
+        {
+          "id": "knowing-contact",
+          "kind": "teaching",
+          "heading": "Biết và tiếp xúc",
+          "meaningUnits": [
+            "consciousness",
+            "contact"
+          ],
+          "paragraphs": [
+            "Sáu nhóm thức là sự nhận biết qua mắt, tai, mũi, lưỡi, thân và ý. Sáu nhóm xúc là sự tiếp xúc qua chính sáu cửa ấy: xúc của mắt, tai, mũi, lưỡi, thân và ý. Tiếp xúc ở đây không chỉ là bàn tay đụng một vật; nghe hay nhận biết bằng tâm cũng có loại xúc tương ứng.",
+            "Như vậy, Phật đã giải thích thêm hai mục cần biết: sáu nhóm nhận biết và sáu nhóm tiếp xúc."
+          ]
+        },
+        {
+          "id": "school",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: một buổi ở lớp",
+          "meaningUnits": [
+            "internal",
+            "external",
+            "consciousness",
+            "contact"
+          ],
+          "paragraphs": [
+            "Em nhìn bức tranh, nghe chuông, ngửi mùi cam, nếm miếng cam, cảm thấy mặt bàn mát và nhớ lại một chuyến đi. Sáu việc giúp em hình dung sáu cửa khác nhau. Đây là ví dụ ngày nay để làm rõ cách phân biệt trong bài kinh."
+          ]
+        },
+        {
+          "id": "eighteen",
+          "kind": "teaching",
+          "heading": "Vui, buồn hay bình thản?",
+          "meaningUnits": [
+            "eighteen"
+          ],
+          "paragraphs": [
+            "Sau khi mắt thấy hình sắc, tâm có thể suy xét hình sắc ấy như chỗ đem lại niềm vui, nỗi buồn hoặc sự bình thản. Tai nghe tiếng, mũi ngửi mùi, lưỡi nếm vị, thân chạm biết và ý nhận biết cũng có đủ ba hướng như vậy.",
+            "Kinh gọi niềm vui trong tâm là hỷ, nỗi buồn là ưu, sự bình thản là xả. Sáu cửa, mỗi cửa có ba hướng, thành mười tám ý hành: sáu hướng vui, sáu hướng buồn và sáu hướng bình thản. Đây là điều Phật muốn giải thích bằng con số mười tám."
+          ]
+        },
+        {
+          "id": "thirty-six",
+          "kind": "teaching",
+          "heading": "Cùng vui nhưng nương vào điều gì?",
+          "meaningUnits": [
+            "thirty-six"
+          ],
+          "paragraphs": [
+            "Phật phân biệt tiếp: sáu niềm vui dựa vào đời sống hưởng thụ và sáu niềm vui dựa vào xuất ly, tức ra khỏi sự cuốn hút ấy; sáu nỗi buồn theo mỗi nền ấy; rồi sáu sự bình thản theo mỗi nền ấy. Tổng cộng là ba mươi sáu.",
+            "Kinh gọi hai nền này là “y cứ tại gia” và “y cứ xuất ly”. Chúng cho biết tâm đang dựa vào điều gì. Ta sẽ xem lần lượt sáu nhóm để hiểu chúng."
+          ]
+        },
+        {
+          "id": "pleasure",
+          "kind": "teaching",
+          "heading": "Vui vì được điều mình thích",
+          "meaningUnits": [
+            "domestic-joy"
+          ],
+          "paragraphs": [
+            "Một người có được hình sắc mà mắt nhận biết: đáng ưa, đáng thích, dễ chịu, hấp dẫn và gắn với những thứ hưởng thụ ở đời. Người ấy xem việc được đó là một sự đạt được, rồi vui. Hoặc người ấy nhớ điều trước kia đã được, dù nay nó đã qua, đã chấm dứt, đã đổi khác, rồi vui.",
+            "Âm thanh nghe được, mùi ngửi được, vị nếm được, xúc chạm thân biết và đối tượng tâm biết cũng đều có năm nét hấp dẫn cùng hai cách khơi vui ấy. Đó là sáu niềm vui y cứ tại gia."
+          ]
+        },
+        {
+          "id": "clear-joy",
+          "kind": "teaching",
+          "heading": "Vui từ hiểu biết sự đổi thay",
+          "meaningUnits": [
+            "renunciate-joy"
+          ],
+          "paragraphs": [
+            "Có một niềm vui khác. Người tu biết hình sắc không bền, sẽ biến đổi, phai tàn và chấm dứt. Bằng trí tuệ đúng, người ấy thấy như thật: tất cả hình sắc trước kia và bây giờ đều vô thường, nghĩa là không ở mãi như cũ; đều khổ, không thể làm chỗ nương bền chắc; đều phải đổi thay. Từ thấy biết ấy, niềm vui khởi lên.",
+            "Cách thấy đầy đủ đó cũng áp dụng cho tiếng, mùi, vị, xúc chạm và đối tượng tâm biết, cả trước kia lẫn hiện tại. Sáu niềm vui nảy sinh như vậy được gọi là hỷ y cứ xuất ly."
+          ]
+        },
+        {
+          "id": "missing",
+          "kind": "teaching",
+          "heading": "Buồn vì không được điều mong muốn",
+          "meaningUnits": [
+            "domestic-grief"
+          ],
+          "paragraphs": [
+            "Hình sắc, tiếng, mùi, vị, xúc chạm và điều tâm nhận biết có thể đáng ưa, đáng thích, dễ chịu, hấp dẫn, gắn với hưởng thụ ở đời. Với từng loại trong sáu loại ấy, người ta nhìn việc không đạt được là một sự không đạt được, rồi buồn.",
+            "Hoặc người ta nhớ những điều trước kia đã không đạt được, nay đã qua, đã chấm dứt, đã đổi khác, rồi buồn. Cả hai cách ấy thuộc sáu nỗi buồn y cứ tại gia."
+          ]
+        },
+        {
+          "id": "longing",
+          "kind": "teaching",
+          "heading": "Buồn vì tha thiết muốn giải thoát",
+          "meaningUnits": [
+            "renunciate-grief"
+          ],
+          "paragraphs": [
+            "Người tu nhìn rõ từng loại hình sắc, tiếng, mùi, vị, xúc chạm và điều tâm biết: chúng vô thường, biến đổi, phai tàn, chấm dứt. Với trí tuệ đúng, người ấy thấy tất cả những đối tượng trước và nay đều không bền, khổ, phải đổi thay.",
+            "Từ đó, người ấy tha thiết hướng tới những giải thoát cao nhất, mong mình có thể đạt tới và ở vững trong nơi mà các bậc Thánh hiện đang đạt tới và ở vững. Chính niềm mong mỏi ấy làm phát sinh nỗi buồn. Đó là sáu nỗi buồn y cứ xuất ly. Phần sau sẽ chỉ cách vượt qua cả nỗi buồn này."
+          ]
+        },
+        {
+          "id": "unseeing-calm",
+          "kind": "teaching",
+          "heading": "Bình thản mà chưa nhìn ra nguy hại",
+          "meaningUnits": [
+            "domestic-equanimity"
+          ],
+          "paragraphs": [
+            "Có người nhìn hình sắc rồi thấy bình thản, nhưng vẫn là người thường ngu si, mê muội, chưa vượt được những giới hạn, chưa thắng được quả chín của hành động, không thấy nguy hại và chưa nghe học. Sự bình thản ấy chưa vượt khỏi chính hình sắc đang được thấy. Vì vậy, kinh gọi nó là xả y cứ tại gia.",
+            "Nghe tiếng, ngửi mùi, nếm vị, thân chạm biết và tâm nhận biết cũng như vậy: người còn đủ những giới hạn vừa kể có thể bình thản, nhưng sự bình thản chưa vượt đối tượng tương ứng. Đủ sáu trường hợp ấy là sáu xả y cứ tại gia."
+          ]
+        },
+        {
+          "id": "clear-calm",
+          "kind": "teaching",
+          "heading": "Bình thản nhờ thấy như thật",
+          "meaningUnits": [
+            "renunciate-equanimity"
+          ],
+          "paragraphs": [
+            "Người tu biết hình sắc vô thường, biến đổi, phai tàn và chấm dứt. Bằng trí tuệ đúng, người ấy nhìn như thật tất cả hình sắc trước kia và hiện tại đều không bền, khổ, phải đổi thay. Sự bình thản từ cái thấy đó vượt khỏi hình sắc; vì thế gọi là xả y cứ xuất ly.",
+            "Với tiếng, mùi, vị, xúc chạm và đối tượng tâm biết, cũng thấy đủ như thế và phát sinh sự bình thản vượt đối tượng ấy. Đây là sáu xả xuất ly. Đến đây, cả ba mươi sáu chỗ đứng của tâm đã được giải thích."
+          ]
+        },
+        {
+          "id": "first-steps",
+          "kind": "teaching",
+          "heading": "Nương vào điều này để vượt điều kia",
+          "meaningUnits": [
+            "abandon-intro",
+            "joy-for-domestic",
+            "grief-for-domestic",
+            "equanimity-for-domestic"
+          ],
+          "paragraphs": [
+            "Vì sao Phật dạy “nương vào cái này, hãy đoạn bỏ cái kia”? Trước hết có ba bước: nương sáu niềm vui xuất ly để bỏ và vượt sáu niềm vui tại gia; nương sáu nỗi buồn xuất ly để bỏ và vượt sáu nỗi buồn tại gia; nương sáu sự bình thản xuất ly để bỏ và vượt sáu sự bình thản tại gia.",
+            "Ở mỗi bước, có điều giúp mình tiến lên và có điều mình cần buông. Đó là cách đoạn bỏ và vượt qua từng nhóm ấy."
+          ]
+        },
+        {
+          "id": "further-steps",
+          "kind": "teaching",
+          "heading": "Còn tiến thêm nữa",
+          "meaningUnits": [
+            "joy-for-grief",
+            "equanimity-for-joy"
+          ],
+          "paragraphs": [
+            "Tiếp theo, nương sáu niềm vui xuất ly để bỏ và vượt sáu nỗi buồn xuất ly. Rồi nương sáu sự bình thản xuất ly để bỏ và vượt sáu niềm vui xuất ly. Phật xác nhận mỗi bước đều là cách bỏ và vượt nhóm trước. Hành trình không dừng ở chỗ còn buồn vì mong giải thoát, cũng không dừng ở niềm vui vừa đạt."
+          ]
+        },
+        {
+          "id": "two-calm",
+          "kind": "teaching",
+          "heading": "Hai nền của sự bình thản",
+          "meaningUnits": [
+            "equanimity-kinds",
+            "diversity",
+            "unity"
+          ],
+          "paragraphs": [
+            "Phật phân biệt xả đa dạng, dựa vào nhiều loại đối tượng, và xả thuần nhất, dựa vào sự thống nhất. Loại đa dạng ở đây gồm bình thản đối với năm loại: hình sắc, tiếng, mùi, vị và xúc chạm.",
+            "Loại thuần nhất nương vào bốn chứng đạt thiền sâu: Không vô biên xứ, hướng tới không gian vô hạn; Thức vô biên xứ, hướng tới sự nhận biết vô hạn; Vô sở hữu xứ, với nhận thức không có gì cả; và Phi tưởng phi phi tưởng xứ, không thể nói đơn giản là có hay không có sự nhận diện. Cuối bài kinh sẽ trở lại các tên này."
+          ]
+        },
+        {
+          "id": "last-steps",
+          "kind": "teaching",
+          "heading": "Buông cả chỗ nương tinh tế",
+          "meaningUnits": [
+            "unity-for-diversity",
+            "not-determined",
+            "abandon-close"
+          ],
+          "paragraphs": [
+            "Nương sự bình thản thuần nhất để bỏ và vượt sự bình thản đa dạng. Rồi nương “tính không bị tác thành”, tức không để trạng thái ấy quy định mình, để bỏ và vượt cả sự bình thản thuần nhất.",
+            "Đó là đủ bảy cách nương vào điều này để bỏ và vượt điều kia. Những cách ấy giải thích lời Phật đã nêu trong phần mở đầu."
+          ]
+        },
+        {
+          "id": "teacher",
+          "kind": "teaching",
+          "heading": "Vị thầy giữ tâm khi dạy ra sao?",
+          "meaningUnits": [
+            "three-mindfulness"
+          ],
+          "paragraphs": [
+            "Phật giải thích ba niệm xứ của vị thầy: ba trường hợp giữ niệm, tức nhớ biết điều đang diễn ra, cùng tỉnh giác, tức biết rõ. Bậc Thánh thực hành như vậy mới xứng đáng hướng dẫn cả hội chúng. Trong cả ba trường hợp sau, vị thầy vì lòng thương, muốn lợi ích cho đệ tử mà dạy điều giúp họ được lợi ích và an vui."
+          ]
+        },
+        {
+          "id": "none-listen",
+          "kind": "teaching",
+          "heading": "Khi đệ tử không nghe",
+          "meaningUnits": [
+            "none-listen"
+          ],
+          "paragraphs": [
+            "Các đệ tử không muốn nghe, không lắng tai, không đặt tâm để hiểu và đi lệch lời dạy. Như Lai, một danh xưng của Đức Phật, không trở nên bất mãn, cũng không cảm thấy sự bất mãn. Ngài sống với tâm không bị vấy bẩn, giữ niệm và tỉnh giác. Đây là trường hợp thứ nhất giúp vị thầy xứng đáng dạy hội chúng."
+          ]
+        },
+        {
+          "id": "mixed-listen",
+          "kind": "teaching",
+          "heading": "Khi có người nghe, có người không",
+          "meaningUnits": [
+            "mixed-listen"
+          ],
+          "paragraphs": [
+            "Một số đệ tử không muốn nghe, không lắng tai, không đặt tâm để hiểu và đi lệch lời dạy. Một số khác muốn nghe, lắng tai, đặt tâm để hiểu và không đi lệch lời dạy.",
+            "Như Lai không bất mãn, không cảm thấy bất mãn; cũng không hài lòng, không cảm thấy hài lòng. Tránh cả hai, Ngài sống bình thản, có niệm và tỉnh giác. Đó là trường hợp thứ hai."
+          ]
+        },
+        {
+          "id": "all-listen",
+          "kind": "teaching",
+          "heading": "Khi đệ tử nghe và thực hành đúng",
+          "meaningUnits": [
+            "all-listen",
+            "mindfulness-close"
+          ],
+          "paragraphs": [
+            "Các đệ tử muốn nghe, lắng tai, đặt tâm để hiểu và không đi lệch lời dạy. Như Lai hài lòng, cảm nhận sự hài lòng, đồng thời sống với tâm không bị vấy bẩn, có niệm và tỉnh giác. Đây là trường hợp thứ ba.",
+            "Ba cách sống ấy giải thích vì sao bậc Thánh giữ niệm như vậy xứng đáng dạy hội chúng. Niềm vui ở trường hợp cuối vẫn được nói rõ."
+          ]
+        },
+        {
+          "id": "trainer",
+          "kind": "teaching",
+          "heading": "Một hướng và tám hướng",
+          "meaningUnits": [
+            "trainer-intro",
+            "elephant",
+            "horse",
+            "ox",
+            "eight-directions"
+          ],
+          "paragraphs": [
+            "Vì sao Phật được gọi là người hướng dẫn không ai hơn trong việc rèn luyện người có thể được rèn luyện? Ngài đưa ra hình ảnh người luyện voi, người luyện ngựa và người luyện bò. Mỗi con vật được người luyện dẫn đi chỉ chạy một hướng: Đông hoặc Tây hoặc Bắc hoặc Nam.",
+            "Còn người được Như Lai, bậc A-la-hán đã giải thoát, bậc Chánh Đẳng Giác đã giác ngộ trọn vẹn, hướng dẫn thì đi được tám hướng dưới đây. Đó là những cách tu chứng, không phải tám ngả đường trên bản đồ."
+          ]
+        },
+        {
+          "id": "first-three",
+          "kind": "teaching",
+          "heading": "Ba hướng đầu",
+          "meaningUnits": [
+            "first-direction",
+            "second-direction",
+            "third-direction"
+          ],
+          "paragraphs": [
+            "Hướng thứ nhất: có sắc và thấy các sắc, tức những hình sắc. Hướng thứ hai: bên trong không nhận diện hình sắc, nhưng thấy hình sắc ở bên ngoài. Hướng thứ ba: chỉ chú tâm vào cái đẹp.",
+            "Phật nêu ba hướng đầu ngắn gọn như vậy, rồi nói rõ những chứng đạt tiếp theo."
+          ]
+        },
+        {
+          "id": "space",
+          "kind": "teaching",
+          "heading": "Hướng thứ tư: không gian vô hạn",
+          "meaningUnits": [
+            "fourth-direction"
+          ],
+          "paragraphs": [
+            "Người tu hoàn toàn vượt qua sự nhận diện hình sắc; các nhận diện về va chạm chấm dứt; không hướng tâm vào những nhận diện đa dạng. Với nhận thức không gian là vô hạn, người ấy chứng đạt rồi ở vững trong Không vô biên xứ. Đây là hướng thứ tư."
+          ]
+        },
+        {
+          "id": "consciousness-nothing",
+          "kind": "teaching",
+          "heading": "Hướng thứ năm và thứ sáu",
+          "meaningUnits": [
+            "fifth-direction",
+            "sixth-direction"
+          ],
+          "paragraphs": [
+            "Hoàn toàn vượt Không vô biên xứ, với nhận thức sự nhận biết là vô hạn, người tu đạt rồi ở vững trong Thức vô biên xứ. Đó là hướng thứ năm.",
+            "Hoàn toàn vượt Thức vô biên xứ, với nhận thức không có gì cả, người ấy đạt rồi ở vững trong Vô sở hữu xứ. Đó là hướng thứ sáu."
+          ]
+        },
+        {
+          "id": "last-two",
+          "kind": "teaching",
+          "heading": "Hướng thứ bảy và thứ tám",
+          "meaningUnits": [
+            "seventh-direction",
+            "eighth-direction"
+          ],
+          "paragraphs": [
+            "Hoàn toàn vượt Vô sở hữu xứ, người tu đạt rồi ở vững trong Phi tưởng phi phi tưởng xứ, nơi không thể nói đơn giản là có hay không có tưởng, tức sự nhận diện. Đây là hướng thứ bảy.",
+            "Hoàn toàn vượt chứng đạt ấy, người tu đạt rồi ở vững trong diệt tưởng thọ. Trong chứng đạt này, tưởng (sự nhận diện) và thọ (cảm nhận dễ chịu, khó chịu hoặc trung tính) đều dừng lại. Đó là hướng thứ tám."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Lời kết về người hướng dẫn",
+          "meaningUnits": [
+            "trainer-close",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật nhắc: người được Như Lai, bậc A-la-hán, Chánh Đẳng Giác hướng dẫn đi được tám hướng ấy. Vì thế Ngài được gọi là bậc điều ngự vô thượng, người hướng dẫn không ai hơn trong việc rèn luyện người đáng được rèn luyện.",
+            "Phật giảng xong, các tỳ-kheo vui mừng tán đồng. Kinh Phân biệt sáu xứ khép lại, là bài thứ bảy trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Thử nhận ra một điều trong ngày",
+          "meaningUnits": [
+            "eighteen",
+            "thirty-six",
+            "renunciate-joy",
+            "renunciate-equanimity"
+          ],
+          "paragraphs": [
+            "Gợi ý thực hành ngày nay: khi nhận ra mình vui, buồn hay bình thản, em thử gọi tên điều đang được thấy, nghe, ngửi, nếm, chạm biết hoặc biết trong tâm. Rồi tự hỏi: tâm đang dựa vào được hay không được điều mình thích, hay đang hiểu rõ sự đổi thay? Có thể cùng người hướng dẫn đọc lại những đoạn phân biệt trên. Bước nhỏ này giúp bắt đầu học cách nhận biết tâm."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Dành cho người trưởng thành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Nhận biết đối tượng và điều tâm đang nương vào",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "invitation",
+            "outline"
+          ],
+          "paragraphs": [
+            "MN137, Kinh Phân biệt sáu xứ, được truyền lại bằng lời xác nhận đã nghe. Đức Phật ở Sāvatthī, rừng Jeta, trong tu viện Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những người nam xuất gia, và các vị kính đáp. Khi Phật báo sẽ giảng về sáu xứ, dặn lắng nghe và chú tâm kỹ, các vị vâng lời.",
+            "Bản tổng thuyết có chín mục: sáu nội xứ, sáu ngoại xứ, sáu nhóm thức, sáu nhóm xúc, mười tám ý hành, ba mươi sáu chỗ đứng của tâm, nguyên tắc nương cái này để bỏ cái kia, ba niệm xứ của bậc thầy và bậc điều ngự vô thượng, người hướng dẫn không ai hơn. Phật nhắc lại từng mệnh đề, đặt câu hỏi về ý nghĩa rồi giải thích. Các phần sau làm rõ toàn bộ chín mục ấy."
+          ]
+        },
+        {
+          "id": "sixfold",
+          "kind": "teaching",
+          "heading": "Bốn danh mục cùng đi qua sáu cửa",
+          "meaningUnits": [
+            "internal",
+            "external",
+            "consciousness",
+            "contact"
+          ],
+          "paragraphs": [
+            "Sáu nội xứ là mắt, tai, mũi, lưỡi, thân, ý (tâm). Sáu ngoại xứ là hình sắc, âm thanh, mùi, vị, đối tượng xúc chạm và pháp, tức những gì được tâm nhận biết. Phạm vi cuối bao gồm ý nghĩ hay ký ức nhưng không bị giới hạn vào chúng.",
+            "Sáu thức là nhận biết qua mắt, tai, mũi, lưỡi, thân, ý. Sáu xúc là tiếp xúc qua mắt, tai, mũi, lưỡi, thân, ý. “Thức thân”, “xúc thân” ở đây chỉ những nhóm thức và xúc. Xúc trong nhóm thứ tư là tiếp xúc, khác với đối tượng xúc chạm được thân biết ở danh mục ngoại xứ.",
+            "Bốn danh mục này lần lượt trả lời vì sao cần biết sáu nội xứ, sáu ngoại xứ, sáu thức thân và sáu xúc thân."
+          ]
+        },
+        {
+          "id": "eighteen",
+          "kind": "teaching",
+          "heading": "Từ sáu cửa tới mười tám ý hành",
+          "meaningUnits": [
+            "eighteen"
+          ],
+          "paragraphs": [
+            "Khi thấy một hình sắc, tâm suy xét hình sắc làm chỗ cho hỷ, niềm vui; cho ưu, nỗi buồn; hoặc cho xả, sự bình thản. Với tiếng nghe được, mùi ngửi được, vị nếm được, điều thân chạm biết và điều ý nhận biết, mỗi loại cũng có đủ ba cách hướng theo đối tượng ấy.",
+            "Vì vậy có sáu hướng tâm về niềm vui, sáu về nỗi buồn và sáu về sự bình thản: mười tám ý hành. Con số gắn với hoạt động tâm qua từng cửa, không chỉ với đối tượng bên ngoài."
+          ]
+        },
+        {
+          "id": "thirty-six",
+          "kind": "teaching",
+          "heading": "Ba mươi sáu: phân biệt cả nền tảng",
+          "meaningUnits": [
+            "thirty-six"
+          ],
+          "paragraphs": [
+            "Phật chia tiếp thành sáu hỷ tại gia và sáu hỷ xuất ly; sáu ưu tại gia và sáu ưu xuất ly; sáu xả tại gia và sáu xả xuất ly. Tất cả là ba mươi sáu vị trí, hay chỗ đứng của tâm nơi các hữu tình — những sinh linh có cảm nhận.",
+            "“Y cứ” nghĩa là dựa vào. “Tại gia” ở đây chỉ nền đời sống hưởng thụ được mô tả trong từng nhóm; “xuất ly” hướng ra khỏi sự cuốn hút ấy. Cùng vui, buồn hoặc bình thản, nhưng nền mà tâm dựa vào cần được phân biệt."
+          ]
+        },
+        {
+          "id": "domestic-pair",
+          "kind": "teaching",
+          "heading": "Được và không được những gì hấp dẫn",
+          "meaningUnits": [
+            "domestic-joy",
+            "domestic-grief"
+          ],
+          "paragraphs": [
+            "Hỷ tại gia phát sinh khi người ta xem việc đạt được một hình sắc đáng ưa, đáng thích, dễ chịu, hấp dẫn, liên hệ hưởng thụ đời sống là một sự đạt được; hoặc nhớ những hình sắc đã đạt trước kia, nay đã qua, đã diệt, đã biến đổi. Cùng năm tính chất và hai điều kiện ấy áp dụng đủ cho tiếng, mùi, vị, xúc chạm và đối tượng tâm biết. Như thế có sáu loại hỷ tại gia.",
+            "Ưu tại gia đi với việc không đạt được. Đối với từng loại trong đủ sáu đối tượng, cũng đáng ưa, đáng thích, dễ chịu, hấp dẫn và gắn với hưởng thụ đời sống, người ta xem không đạt là không đạt rồi buồn; hoặc nhớ điều trước kia không đạt, nay đã qua, đã diệt, đã đổi khác rồi buồn. Đây là sáu ưu tại gia."
+          ]
+        },
+        {
+          "id": "insight-joy",
+          "kind": "teaching",
+          "heading": "Niềm vui phát sinh từ thấy như thật",
+          "meaningUnits": [
+            "renunciate-joy"
+          ],
+          "paragraphs": [
+            "Hỷ xuất ly nương một cách thấy khác: biết hình sắc vô thường, nghĩa là không bền, rồi biến đổi, phai tàn, chấm dứt; bằng trí tuệ đúng, nhìn như thật rằng mọi hình sắc trước kia và hiện tại đều vô thường, khổ, có bản tính đổi thay. “Khổ” ở đây nhắc rằng chúng không phải chỗ nương bền chắc. Niềm vui phát sinh từ sự thấy biết ấy.",
+            "Đối với tiếng, mùi, vị, xúc chạm và pháp được tâm biết, cũng hiểu đầy đủ sự không bền, biến đổi, phai tàn và chấm dứt; cũng thấy như thật tất cả đối tượng trước và nay là vô thường, khổ, phải đổi thay. Sáu niềm vui ấy là hỷ xuất ly."
+          ]
+        },
+        {
+          "id": "insight-grief",
+          "kind": "teaching",
+          "heading": "Nỗi buồn trong niềm khát ngưỡng giải thoát",
+          "meaningUnits": [
+            "renunciate-grief"
+          ],
+          "paragraphs": [
+            "Ưu xuất ly cũng khởi đầu bằng trí tuệ đúng thấy như thật: hình sắc vô thường, biến đổi, phai tàn, chấm dứt; tất cả hình sắc xưa và nay đều vô thường, khổ, phải đổi thay. Từ đó người tu khát ngưỡng các giải thoát tối thượng, mong đạt được và ở vững trong xứ mà các bậc Thánh hiện đang đạt được và ở vững. Do chính niềm mong mỏi ấy mà ưu phát sinh.",
+            "Cả quá trình này áp dụng cho năm loại còn lại: tiếng, mùi, vị, xúc chạm, đối tượng tâm biết. Sáu ưu xuất ly vì thế có nền quán chiếu và hướng giải thoát rõ ràng; chúng vẫn sẽ được vượt qua trong phần thực hành tiếp theo."
+          ]
+        },
+        {
+          "id": "two-equanimities",
+          "kind": "teaching",
+          "heading": "Hai sự bình thản khác nhau",
+          "meaningUnits": [
+            "domestic-equanimity",
+            "renunciate-equanimity"
+          ],
+          "paragraphs": [
+            "Xả tại gia là sự bình thản khởi lên khi một người thường ngu si, mê muội thấy hình sắc: người chưa chinh phục giới hạn, chưa thắng quả dị thục, tức quả chín của hành động, không thấy nguy hại, chưa nghe học. Xả ấy không vượt chính hình sắc. Nghe tiếng, ngửi mùi, nếm vị, thân chạm biết và ý biết pháp cũng có sự bình thản của người còn những giới hạn đó, chưa vượt đối tượng tương ứng. Đây là sáu xả tại gia.",
+            "Xả xuất ly khởi lên khi hiểu hình sắc vô thường, biến đổi, phai tàn, chấm dứt; với trí tuệ đúng thấy như thật tất cả hình sắc trước và nay đều vô thường, khổ, phải đổi thay. Xả này vượt hình sắc. Cùng sự hiểu biết đầy đủ ấy đối với tiếng, mùi, vị, xúc chạm và pháp làm phát sinh xả vượt từng đối tượng. Đó là sáu xả xuất ly, hoàn tất việc giải thích ba mươi sáu vị trí."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: sau một thông báo công việc",
+          "meaningUnits": [
+            "domestic-joy",
+            "domestic-grief",
+            "domestic-equanimity",
+            "renunciate-equanimity"
+          ],
+          "paragraphs": [
+            "Nhìn một thông báo khen thưởng, ta có thể vui vì được điều mình thích; nghĩ tới sự công nhận không nhận được, ta có thể buồn. Cũng có lúc ta bình thản vì chưa hiểu hệ quả, có lúc bình thản đi cùng hiểu biết rõ sự đổi thay. Ví dụ công việc này chỉ giúp đặt câu hỏi về nền của phản ứng; muốn hiểu xả xuất ly, cần trở lại đầy đủ cách quán mà bài kinh đã trình bày."
+          ]
+        },
+        {
+          "id": "five-transitions",
+          "kind": "teaching",
+          "heading": "Năm bước đầu của nương để bỏ",
+          "meaningUnits": [
+            "abandon-intro",
+            "joy-for-domestic",
+            "grief-for-domestic",
+            "equanimity-for-domestic",
+            "joy-for-grief",
+            "equanimity-for-joy"
+          ],
+          "paragraphs": [
+            "Lời “nương vào cái này, hãy đoạn bỏ cái kia” được giải bằng những quan hệ cụ thể. Nương và dựa sáu hỷ xuất ly để bỏ, vượt sáu hỷ tại gia; nương sáu ưu xuất ly để bỏ, vượt sáu ưu tại gia; nương sáu xả xuất ly để bỏ, vượt sáu xả tại gia.",
+            "Sau đó, nương sáu hỷ xuất ly để bỏ và vượt sáu ưu xuất ly; rồi nương sáu xả xuất ly để bỏ và vượt sáu hỷ xuất ly. Với mỗi quan hệ, Phật đều xác nhận: đó là sự đoạn bỏ, đó là sự vượt qua. Điều từng giúp tiến tới vẫn có thể là điều cần vượt tiếp."
+          ]
+        },
+        {
+          "id": "diversity-unity",
+          "kind": "teaching",
+          "heading": "Xả đa dạng và xả thuần nhất",
+          "meaningUnits": [
+            "equanimity-kinds",
+            "diversity",
+            "unity"
+          ],
+          "paragraphs": [
+            "Có xả đa dạng, dựa vào đa dạng; có xả thuần nhất, dựa vào thuần nhất. Loại thứ nhất ở đây được nêu với năm đối tượng: hình sắc, âm thanh, mùi, vị, xúc chạm.",
+            "Loại thứ hai nương vào bốn chứng đạt: Không vô biên xứ, không gian vô hạn; Thức vô biên xứ, sự nhận biết vô hạn; Vô sở hữu xứ, không có gì cả; Phi tưởng phi phi tưởng xứ, không thể quy đơn giản về có hoặc không có tưởng, tức sự nhận diện. Bốn nơi nương ấy giải thích xả thuần nhất."
+          ]
+        },
+        {
+          "id": "last-transitions",
+          "kind": "teaching",
+          "heading": "Buông cả xả thuần nhất",
+          "meaningUnits": [
+            "unity-for-diversity",
+            "not-determined",
+            "abandon-close"
+          ],
+          "paragraphs": [
+            "Nương và dựa xả thuần nhất để bỏ, vượt xả đa dạng. Tiếp đó, nương tính không bị tác thành, atammayatā — không để mình bị trạng thái ấy quy định — để bỏ và vượt cả xả thuần nhất. Mỗi bước vẫn đủ hai nét đoạn bỏ và vượt qua.",
+            "Bảy quan hệ vừa trình bày là câu trả lời trọn vẹn cho đầu mục nương điều này để bỏ điều kia."
+          ]
+        },
+        {
+          "id": "mindfulness-context",
+          "kind": "teaching",
+          "heading": "Tâm của người dạy trước phản ứng của người học",
+          "meaningUnits": [
+            "three-mindfulness"
+          ],
+          "paragraphs": [
+            "Ba niệm xứ tiếp theo là ba trường hợp bậc Thánh thực hành để xứng đáng giáo huấn hội chúng. Niệm ở đây là giữ sự nhớ biết tỉnh thức; tỉnh giác là biết rõ. Trong cả ba trường hợp, vị thầy có lòng thương, mong lợi ích cho đệ tử, vì lòng thương ấy mà dạy điều đem lại lợi ích và an lạc cho họ."
+          ]
+        },
+        {
+          "id": "three-responses",
+          "kind": "teaching",
+          "heading": "Ba trường hợp người học đáp lại",
+          "meaningUnits": [
+            "none-listen",
+            "mixed-listen",
+            "all-listen",
+            "mindfulness-close"
+          ],
+          "paragraphs": [
+            "Trường hợp thứ nhất: các đệ tử không muốn nghe, không lắng tai, không đặt tâm để hiểu, đi lệch giáo huấn. Như Lai — Đức Phật — không bất mãn, không cảm thọ bất mãn; Ngài sống không bị ô nhiễm, có niệm và tỉnh giác.",
+            "Trường hợp thứ hai: một số đệ tử không muốn nghe, không lắng tai, không đặt tâm để hiểu và đi lệch giáo huấn; số khác muốn nghe, lắng tai, đặt tâm để hiểu và không đi lệch giáo huấn. Như Lai không bất mãn, không cảm thọ bất mãn; cũng không hài lòng, không cảm thọ hài lòng. Tránh cả hai, Ngài sống xả, có niệm và tỉnh giác.",
+            "Trường hợp thứ ba: các đệ tử muốn nghe, lắng tai, đặt tâm để hiểu, không đi lệch giáo huấn. Như Lai hài lòng và cảm thọ sự hài lòng, đồng thời không bị ô nhiễm, có niệm và tỉnh giác. Từng trường hợp là một niệm xứ của bậc Thánh, nhờ thực hành mà xứng đáng dạy hội chúng; đó là ý nghĩa đầy đủ của đầu mục này."
+          ]
+        },
+        {
+          "id": "guide",
+          "kind": "teaching",
+          "heading": "Bậc hướng dẫn vô thượng",
+          "meaningUnits": [
+            "trainer-intro",
+            "elephant",
+            "horse",
+            "ox",
+            "eight-directions"
+          ],
+          "paragraphs": [
+            "Để giải thích danh hiệu điều ngự vô thượng trong các bậc huấn luyện, Phật nêu ba ví dụ: voi được người luyện voi điều khiển, ngựa được người luyện ngựa điều khiển, bò được người luyện bò điều khiển. Mỗi con vật chỉ chạy một hướng — Đông hoặc Tây hoặc Bắc hoặc Nam.",
+            "Người đáng được rèn luyện, khi được Như Lai, bậc A-la-hán đã giải thoát, bậc Chánh Đẳng Giác giác ngộ trọn vẹn, dẫn dắt thì đi được tám hướng. Những “hướng” này được trình bày bằng các cách tu chứng dưới đây."
+          ]
+        },
+        {
+          "id": "three-directions",
+          "kind": "teaching",
+          "heading": "Ba hướng liên quan đến sắc và cái đẹp",
+          "meaningUnits": [
+            "first-direction",
+            "second-direction",
+            "third-direction"
+          ],
+          "paragraphs": [
+            "Thứ nhất, có sắc và thấy các sắc, tức hình sắc. Thứ hai, bên trong không có tưởng sắc — sự nhận diện hình sắc — nhưng thấy các sắc bên ngoài. Thứ ba, chỉ chú tâm vào cái đẹp. Đây là ba công thức ngắn mở đầu danh sách tám hướng."
+          ]
+        },
+        {
+          "id": "space-consciousness",
+          "kind": "teaching",
+          "heading": "Từ không gian vô hạn tới nhận biết vô hạn",
+          "meaningUnits": [
+            "fourth-direction",
+            "fifth-direction"
+          ],
+          "paragraphs": [
+            "Hướng thứ tư: hoàn toàn vượt các tưởng sắc; các tưởng về va chạm chấm dứt; không tác ý, tức không hướng tâm, vào các tưởng đa dạng. Với nhận thức hư không là vô biên, người tu chứng và an trú — đạt tới rồi ở vững — trong Không vô biên xứ.",
+            "Hướng thứ năm: hoàn toàn vượt Không vô biên xứ, với nhận thức thức là vô biên, tức sự nhận biết vô hạn, người ấy chứng và an trú Thức vô biên xứ."
+          ]
+        },
+        {
+          "id": "nothingness-beyond",
+          "kind": "teaching",
+          "heading": "Từ không có gì đến diệt tưởng thọ",
+          "meaningUnits": [
+            "sixth-direction",
+            "seventh-direction",
+            "eighth-direction"
+          ],
+          "paragraphs": [
+            "Hướng thứ sáu: hoàn toàn vượt Thức vô biên xứ, với nhận thức không có gì cả, người tu chứng và an trú Vô sở hữu xứ. Hướng thứ bảy: hoàn toàn vượt Vô sở hữu xứ, chứng và an trú Phi tưởng phi phi tưởng xứ.",
+            "Hướng thứ tám: hoàn toàn vượt Phi tưởng phi phi tưởng xứ, chứng và an trú diệt tưởng thọ. Trong chứng đạt ấy, tưởng, tức sự nhận diện, và thọ, tức cảm nhận dễ chịu, khó chịu hoặc trung tính, đều dừng lại."
+          ]
+        },
+        {
+          "id": "close",
+          "kind": "teaching",
+          "heading": "Khép lại tám hướng",
+          "meaningUnits": [
+            "trainer-close",
+            "ending"
+          ],
+          "paragraphs": [
+            "Người được Như Lai, bậc A-la-hán, Chánh Đẳng Giác hướng dẫn đi được cả tám hướng ấy. Do đó Ngài được gọi là bậc điều ngự vô thượng, người hướng dẫn không ai hơn trong việc điều phục người đáng được điều phục. Đây là lời giải cho mệnh đề cuối của bản tổng thuyết.",
+            "Phật kết thúc bài giảng; các tỳ-kheo hoan hỷ tán đồng. Phần kết ghi Kinh Phân biệt sáu xứ là bài thứ bảy trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý quan sát trong sinh hoạt",
+          "meaningUnits": [
+            "eighteen",
+            "thirty-six",
+            "joy-for-grief",
+            "equanimity-for-joy"
+          ],
+          "paragraphs": [
+            "Gợi ý thực hành hiện đại: chọn một phản ứng vui, buồn hoặc bình thản trong ngày, xác định cửa giác quan và đối tượng liên quan, rồi xem tâm đang dựa vào điều gì. Khi đọc lại tiến trình nương để bỏ, chú ý rằng cả nỗi buồn hướng giải thoát lẫn niềm vui xuất ly đều có bước vượt tiếp. Có thể dùng ghi nhận đó làm câu hỏi cụ thể khi học với người hướng dẫn."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Dành cho người lớn tuổi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Biết rõ điều đang nuôi tâm mình",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "invitation"
+          ],
+          "paragraphs": [
+            "Kinh Phân biệt sáu xứ, MN137, bắt đầu bằng lời người truyền kinh xác nhận đã nghe. Một thời, Đức Phật ở Sāvatthī, trong tu viện Anāthapiṇḍika tại rừng Jeta. Ngài gọi các tỳ-kheo, những người nam xuất gia theo Phật; các vị kính đáp.",
+            "Phật báo sẽ giảng sự phân biệt sáu xứ, dặn hãy lắng nghe và chú tâm kỹ. Các vị vâng lời, và Ngài bắt đầu giảng."
+          ]
+        },
+        {
+          "id": "outline",
+          "kind": "teaching",
+          "heading": "Những điều sẽ được giải thích",
+          "meaningUnits": [
+            "outline"
+          ],
+          "paragraphs": [
+            "Phật nêu chín mục cần hiểu: sáu nội xứ, sáu ngoại xứ, sáu nhóm thức, sáu nhóm xúc; mười tám ý hành, ba mươi sáu chỗ đứng của tâm; nương điều này để bỏ điều kia; ba niệm xứ của vị thầy; và bậc hướng dẫn người tu không ai hơn.",
+            "Đây là phần tổng thuyết. Với từng mục, Phật nhắc lại điều đã nêu, hỏi vì sao nói như thế rồi giảng rõ. Ta có thể theo từng phần một."
+          ]
+        },
+        {
+          "id": "inside-outside",
+          "kind": "teaching",
+          "heading": "Sáu nơi tiếp nhận và sáu loại đối tượng",
+          "meaningUnits": [
+            "internal",
+            "external"
+          ],
+          "paragraphs": [
+            "Mắt, tai, mũi, lưỡi, thân, ý (tâm) là sáu nội xứ, sáu nơi tiếp nhận bên trong. Hình sắc, tiếng, mùi, vị, đối tượng xúc chạm và pháp là sáu ngoại xứ tương ứng.",
+            "Pháp ở đây là những gì tâm nhận biết, có thể gồm ý nghĩ, ký ức và những đối tượng khác của tâm. Đó là ý nghĩa hai danh mục sáu nội xứ và sáu ngoại xứ cần biết."
+          ]
+        },
+        {
+          "id": "knowing",
+          "kind": "teaching",
+          "heading": "Nhận biết và tiếp xúc",
+          "meaningUnits": [
+            "consciousness",
+            "contact"
+          ],
+          "paragraphs": [
+            "Có sáu thức: sự nhận biết qua mắt, tai, mũi, lưỡi, thân, ý. Cũng có sáu xúc: sự tiếp xúc qua mắt, tai, mũi, lưỡi, thân, ý. Kinh gọi chúng là sáu thức thân và sáu xúc thân; chữ thân trong hai cụm này có nghĩa là nhóm.",
+            "Những tiếp xúc ấy bao gồm cả nghe và biết bằng tâm. Còn “xúc” trong danh mục đối tượng bên ngoài chỉ những gì thân chạm biết. Phân biệt như thế là hiểu thêm hai đầu mục Phật đã nêu."
+          ]
+        },
+        {
+          "id": "eighteen",
+          "kind": "teaching",
+          "heading": "Ba hướng tâm ở mỗi cửa",
+          "meaningUnits": [
+            "eighteen"
+          ],
+          "paragraphs": [
+            "Khi mắt thấy hình sắc, tâm có thể suy xét hình sắc như chỗ đem lại niềm vui, nỗi buồn hoặc sự bình thản. Với tiếng qua tai, mùi qua mũi, vị qua lưỡi, xúc chạm qua thân và pháp qua ý, cũng đủ ba cách hướng theo ấy.",
+            "Hỷ là niềm vui trong tâm; ưu là nỗi buồn; xả là sự bình thản. Sáu cửa, mỗi cửa có ba hướng, thành mười tám ý hành: sáu hỷ, sáu ưu, sáu xả theo đối tượng. Đây là lời giải cho con số mười tám."
+          ]
+        },
+        {
+          "id": "thirty-six",
+          "kind": "teaching",
+          "heading": "Tâm dựa vào hưởng thụ hay hướng tới xuất ly?",
+          "meaningUnits": [
+            "thirty-six"
+          ],
+          "paragraphs": [
+            "Phật phân biệt sáu hỷ y cứ tại gia và sáu hỷ y cứ xuất ly; sáu ưu theo mỗi nền ấy; sáu xả theo mỗi nền ấy. Cộng lại là ba mươi sáu chỗ đứng của tâm nơi các hữu tình, tức những sinh linh có cảm nhận.",
+            "Y cứ nghĩa là nương dựa. Tại gia ở đây chỉ nền đời sống hưởng thụ được mô tả ở từng nhóm. Xuất ly là hướng ra khỏi sự cuốn hút ấy. Cần xem điều tâm đang nương vào để hiểu niềm vui, nỗi buồn hay sự bình thản."
+          ]
+        },
+        {
+          "id": "joy",
+          "kind": "teaching",
+          "heading": "Niềm vui của sự đạt được",
+          "meaningUnits": [
+            "domestic-joy"
+          ],
+          "paragraphs": [
+            "Có hình sắc do mắt biết, đáng ưa, đáng thích, dễ chịu, hấp dẫn và liên hệ đến hưởng thụ ở đời. Người ta xem việc đạt được hình sắc ấy là một sự đạt được, rồi vui. Hoặc nhớ những hình sắc đã đạt từ trước, nay đã qua, đã chấm dứt, đã đổi khác, rồi vui.",
+            "Cũng đủ năm nét hấp dẫn và hai cách khơi niềm vui ấy đối với tiếng nghe được, mùi ngửi được, vị nếm được, xúc chạm thân biết và đối tượng tâm biết. Đó là sáu hỷ y cứ tại gia."
+          ]
+        },
+        {
+          "id": "insight-joy",
+          "kind": "teaching",
+          "heading": "Niềm vui do hiểu biết",
+          "meaningUnits": [
+            "renunciate-joy"
+          ],
+          "paragraphs": [
+            "Người tu hiểu hình sắc vô thường, biến đổi, phai tàn, chấm dứt. Bằng trí tuệ đúng, vị ấy thấy như thật rằng tất cả hình sắc trước kia và bây giờ đều vô thường, khổ, có bản tính đổi thay. Chúng không ở mãi như cũ, không thể là chỗ nương bền chắc. Từ đó, niềm vui khởi lên.",
+            "Tiếng, mùi, vị, xúc chạm và đối tượng tâm biết cũng được thấy đầy đủ như vậy: cả trước và nay đều không bền, khổ, phải đổi thay. Sáu niềm vui phát sinh từ cái thấy ấy được gọi là hỷ xuất ly."
+          ]
+        },
+        {
+          "id": "grief",
+          "kind": "teaching",
+          "heading": "Buồn vì điều không đạt được",
+          "meaningUnits": [
+            "domestic-grief"
+          ],
+          "paragraphs": [
+            "Hình sắc, tiếng, mùi, vị, xúc chạm và đối tượng tâm biết có thể đáng ưa, đáng thích, dễ chịu, hấp dẫn, gắn với hưởng thụ ở đời. Với mỗi loại trong sáu loại ấy, khi xem không đạt được là một sự không đạt được, nỗi buồn khởi lên.",
+            "Hoặc người ta nhớ những điều trước kia đã không đạt được, nay đã qua, đã chấm dứt, đã đổi khác, rồi buồn. Hai cách ấy làm rõ sáu ưu y cứ tại gia."
+          ]
+        },
+        {
+          "id": "aspiration",
+          "kind": "teaching",
+          "heading": "Nỗi buồn do tha thiết muốn giải thoát",
+          "meaningUnits": [
+            "renunciate-grief"
+          ],
+          "paragraphs": [
+            "Người tu thấy hình sắc vô thường, biến đổi, phai tàn, chấm dứt. Với trí tuệ đúng, vị ấy nhìn như thật mọi hình sắc trước và nay đều không bền, khổ, phải đổi thay. Vị ấy tha thiết mong các giải thoát tối thượng, mong mình chứng đạt và ở vững trong xứ mà các bậc Thánh hiện đang chứng đạt và ở vững.",
+            "Do duyên niềm mong mỏi ấy, nỗi buồn sinh ra. Cùng toàn bộ sự quán chiếu và khát ngưỡng đó đối với tiếng, mùi, vị, xúc chạm và điều tâm biết, có đủ sáu ưu xuất ly. Phật còn chỉ bước vượt qua chúng."
+          ]
+        },
+        {
+          "id": "unlearned",
+          "kind": "teaching",
+          "heading": "Bình thản chưa vượt khỏi đối tượng",
+          "meaningUnits": [
+            "domestic-equanimity"
+          ],
+          "paragraphs": [
+            "Một người thường ngu si, mê muội có thể nhìn hình sắc rồi thấy bình thản. Nhưng người ấy chưa chinh phục những giới hạn, chưa thắng quả dị thục — quả chín của hành động — không thấy nguy hại, chưa nghe học. Sự bình thản ấy không vượt khỏi hình sắc, nên gọi là xả tại gia.",
+            "Đối với tiếng, mùi, vị, xúc chạm và điều tâm nhận biết cũng vậy: người còn những giới hạn vừa nêu có xả, nhưng xả chưa vượt đối tượng tương ứng. Đây là đủ sáu xả tại gia."
+          ]
+        },
+        {
+          "id": "understanding",
+          "kind": "teaching",
+          "heading": "Bình thản đi cùng trí tuệ",
+          "meaningUnits": [
+            "renunciate-equanimity"
+          ],
+          "paragraphs": [
+            "Khi biết hình sắc vô thường, biến đổi, phai tàn và chấm dứt, người tu dùng trí tuệ đúng nhìn như thật: mọi hình sắc trước kia và hiện tại đều vô thường, khổ, phải đổi thay. Xả khởi lên từ cái thấy ấy vượt khỏi hình sắc, nên gọi là xả xuất ly.",
+            "Với tiếng, mùi, vị, xúc chạm và điều tâm biết, cùng hiểu đầy đủ như vậy thì xả khởi lên và vượt từng đối tượng ấy. Sáu xả xuất ly hoàn tất phần giải thích ba mươi sáu vị trí."
+          ]
+        },
+        {
+          "id": "photograph",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: khi xem một tấm ảnh cũ",
+          "meaningUnits": [
+            "domestic-joy",
+            "domestic-grief",
+            "renunciate-joy"
+          ],
+          "paragraphs": [
+            "Xem ảnh một cuộc sum họp, ta có thể vui vì nhớ điều từng có; cũng có thể buồn khi nhớ một cuộc gặp mình từng mong mà không có được. Từ tấm ảnh, ta còn có dịp suy ngẫm rằng cảnh vật và trải nghiệm luôn đổi thay. Đây là ví dụ hiện đại để nhìn lại nền của phản ứng; niềm vui xuất ly trong kinh gắn với đầy đủ sự thấy như thật bằng trí tuệ đúng đã nói trên."
+          ]
+        },
+        {
+          "id": "three-transitions",
+          "kind": "teaching",
+          "heading": "Ba bước đầu: có chỗ nương để buông",
+          "meaningUnits": [
+            "abandon-intro",
+            "joy-for-domestic",
+            "grief-for-domestic",
+            "equanimity-for-domestic"
+          ],
+          "paragraphs": [
+            "Phật giải câu nương vào điều này để bỏ điều kia. Nương và dựa sáu hỷ xuất ly, bỏ và vượt sáu hỷ tại gia. Nương sáu ưu xuất ly, bỏ và vượt sáu ưu tại gia. Nương sáu xả xuất ly, bỏ và vượt sáu xả tại gia.",
+            "Mỗi bước đều là sự đoạn bỏ và vượt qua nhóm đã nêu. Điều giúp vượt qua cũng được xác định rõ, nên có thể theo dõi từng quan hệ."
+          ]
+        },
+        {
+          "id": "two-transitions",
+          "kind": "teaching",
+          "heading": "Tiếp tục vượt qua buồn và vui xuất ly",
+          "meaningUnits": [
+            "joy-for-grief",
+            "equanimity-for-joy"
+          ],
+          "paragraphs": [
+            "Nương sáu hỷ xuất ly để bỏ và vượt sáu ưu xuất ly. Rồi nương sáu xả xuất ly để bỏ và vượt sáu hỷ xuất ly. Đó là cách đoạn bỏ và vượt qua ở hai bước tiếp theo. Cả niềm vui có nền hiểu biết cũng còn có bước đi xa hơn."
+          ]
+        },
+        {
+          "id": "diverse",
+          "kind": "teaching",
+          "heading": "Xả trên nhiều đối tượng",
+          "meaningUnits": [
+            "equanimity-kinds",
+            "diversity"
+          ],
+          "paragraphs": [
+            "Phật nêu hai loại: xả đa dạng, dựa vào đa dạng; xả thuần nhất, dựa vào thuần nhất. Loại đa dạng được nói ở đây là xả đối với hình sắc, tiếng, mùi, vị và xúc chạm. Danh mục này gồm năm đối tượng."
+          ]
+        },
+        {
+          "id": "unified",
+          "kind": "teaching",
+          "heading": "Xả nương vào các chứng đạt thuần nhất",
+          "meaningUnits": [
+            "unity"
+          ],
+          "paragraphs": [
+            "Xả thuần nhất nương vào bốn chứng đạt thiền sâu: Không vô biên xứ, với không gian vô hạn; Thức vô biên xứ, với sự nhận biết vô hạn; Vô sở hữu xứ, với nhận thức không có gì cả; Phi tưởng phi phi tưởng xứ, không thể nói đơn giản là có hoặc không có tưởng, tức sự nhận diện.",
+            "Đây là bốn nơi nương mà Phật dùng để giải thích xả thuần nhất. Cuối bài sẽ nói các chứng đạt này rõ hơn."
+          ]
+        },
+        {
+          "id": "last-transitions",
+          "kind": "teaching",
+          "heading": "Buông những chỗ nương sau cùng vừa nêu",
+          "meaningUnits": [
+            "unity-for-diversity",
+            "not-determined",
+            "abandon-close"
+          ],
+          "paragraphs": [
+            "Nương và dựa xả thuần nhất để bỏ, vượt xả đa dạng. Sau đó, nương tính không bị tác thành, tức không để mình bị trạng thái ấy quy định, để bỏ và vượt xả thuần nhất.",
+            "Cả hai đều là những bước đoạn bỏ và vượt qua. Đủ bảy quan hệ trên giải thích lời nương vào điều này để bỏ điều kia."
+          ]
+        },
+        {
+          "id": "teacher",
+          "kind": "teaching",
+          "heading": "Ba trường hợp giữ niệm của vị thầy",
+          "meaningUnits": [
+            "three-mindfulness"
+          ],
+          "paragraphs": [
+            "Phật chuyển sang ba niệm xứ mà bậc Thánh thực hành để xứng đáng dạy hội chúng. Niệm là giữ sự nhớ biết tỉnh thức; tỉnh giác là biết rõ. Trong cả ba trường hợp, vị thầy có lòng thương, mong điều lợi ích cho đệ tử, vì thương mà dạy điều giúp họ được lợi ích và an lạc, tức an vui."
+          ]
+        },
+        {
+          "id": "not-listening",
+          "kind": "teaching",
+          "heading": "Khi người học không lắng nghe",
+          "meaningUnits": [
+            "none-listen"
+          ],
+          "paragraphs": [
+            "Các đệ tử không muốn nghe, không lắng tai, không đặt tâm để hiểu và đi lệch lời dạy. Như Lai, danh xưng của Đức Phật, không bất mãn và không cảm thấy bất mãn. Ngài sống không bị ô nhiễm, có niệm, tỉnh giác.",
+            "Đó là niệm xứ thứ nhất của bậc Thánh, nhờ thực hành mà vị thầy xứng đáng hướng dẫn hội chúng."
+          ]
+        },
+        {
+          "id": "mixed",
+          "kind": "teaching",
+          "heading": "Khi hai cách đáp lại cùng có mặt",
+          "meaningUnits": [
+            "mixed-listen"
+          ],
+          "paragraphs": [
+            "Một số đệ tử không muốn nghe, không lắng tai, không đặt tâm để hiểu và đi lệch lời dạy. Một số khác muốn nghe, lắng tai, đặt tâm để hiểu và không đi lệch lời dạy.",
+            "Như Lai không bất mãn, không cảm thấy bất mãn; không hài lòng, không cảm thấy hài lòng. Tránh cả hai, Ngài sống xả, có niệm và tỉnh giác. Đó là niệm xứ thứ hai."
+          ]
+        },
+        {
+          "id": "listening",
+          "kind": "teaching",
+          "heading": "Khi người học đón nhận lời dạy",
+          "meaningUnits": [
+            "all-listen",
+            "mindfulness-close"
+          ],
+          "paragraphs": [
+            "Các đệ tử muốn nghe, lắng tai, đặt tâm để hiểu và không đi lệch lời dạy. Như Lai hài lòng và cảm nhận sự hài lòng, sống không bị ô nhiễm, có niệm, tỉnh giác. Đó là niệm xứ thứ ba.",
+            "Ba trường hợp cùng cho thấy cách thực hành của bậc Thánh xứng đáng làm thầy hội chúng. Niềm vui khi người học đón nhận vẫn có mặt; tâm vẫn không bị ô nhiễm."
+          ]
+        },
+        {
+          "id": "trainer",
+          "kind": "teaching",
+          "heading": "Người dẫn đường không ai hơn",
+          "meaningUnits": [
+            "trainer-intro",
+            "elephant",
+            "horse",
+            "ox",
+            "eight-directions"
+          ],
+          "paragraphs": [
+            "Vì sao Phật được gọi là bậc điều ngự vô thượng trong những người huấn luyện? Ngài nêu voi do người luyện voi dẫn, ngựa do người luyện ngựa dẫn, bò do người luyện bò dẫn. Mỗi con vật chỉ chạy một hướng: Đông hoặc Tây hoặc Bắc hoặc Nam.",
+            "Người đáng được rèn luyện, khi do Như Lai, bậc A-la-hán đã giải thoát, bậc Chánh Đẳng Giác đã giác ngộ trọn vẹn, hướng dẫn thì đi được tám hướng. Tám hướng ấy là những cách tu chứng sau đây."
+          ]
+        },
+        {
+          "id": "three-directions",
+          "kind": "teaching",
+          "heading": "Ba hướng đầu liên quan đến hình sắc",
+          "meaningUnits": [
+            "first-direction",
+            "second-direction",
+            "third-direction"
+          ],
+          "paragraphs": [
+            "Hướng thứ nhất: có sắc và thấy các sắc, tức hình sắc. Hướng thứ hai: bên trong không có tưởng sắc, sự nhận diện hình sắc, nhưng thấy các sắc bên ngoài. Hướng thứ ba: chỉ chú tâm vào cái đẹp.",
+            "Ba công thức đầu được nêu ngắn gọn. Những hướng tiếp theo nói rõ các bước vượt qua để đạt và ở vững trong chứng đạt."
+          ]
+        },
+        {
+          "id": "space",
+          "kind": "teaching",
+          "heading": "Hướng thứ tư: Không vô biên xứ",
+          "meaningUnits": [
+            "fourth-direction"
+          ],
+          "paragraphs": [
+            "Hoàn toàn vượt qua tưởng sắc; những tưởng về va chạm chấm dứt; không tác ý, nghĩa là không hướng tâm, vào các tưởng đa dạng. Với nhận thức hư không là vô biên, người tu chứng và an trú Không vô biên xứ: đạt tới rồi ở vững trong chứng đạt không gian vô hạn. Đây là hướng thứ tư."
+          ]
+        },
+        {
+          "id": "consciousness",
+          "kind": "teaching",
+          "heading": "Hướng thứ năm và thứ sáu",
+          "meaningUnits": [
+            "fifth-direction",
+            "sixth-direction"
+          ],
+          "paragraphs": [
+            "Hoàn toàn vượt Không vô biên xứ, với nhận thức thức là vô biên, tức sự nhận biết vô hạn, người tu chứng và an trú Thức vô biên xứ. Đây là hướng thứ năm.",
+            "Hoàn toàn vượt Thức vô biên xứ, với nhận thức không có gì cả, người tu chứng và an trú Vô sở hữu xứ. Đây là hướng thứ sáu. Cả hai đều gồm đạt tới và ở vững trong chứng đạt ấy."
+          ]
+        },
+        {
+          "id": "final-attainments",
+          "kind": "teaching",
+          "heading": "Hướng thứ bảy và thứ tám",
+          "meaningUnits": [
+            "seventh-direction",
+            "eighth-direction"
+          ],
+          "paragraphs": [
+            "Hoàn toàn vượt Vô sở hữu xứ, người tu chứng và an trú Phi tưởng phi phi tưởng xứ. Đây là hướng thứ bảy.",
+            "Hoàn toàn vượt Phi tưởng phi phi tưởng xứ, người tu chứng và an trú diệt tưởng thọ. Trong chứng đạt này, tưởng là sự nhận diện, thọ là cảm nhận dễ chịu, khó chịu hoặc trung tính; cả hai dừng lại. Đây là hướng thứ tám."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Lời kết của bài phân biệt",
+          "meaningUnits": [
+            "trainer-close",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật nhắc rằng người do Như Lai, bậc A-la-hán, Chánh Đẳng Giác hướng dẫn đi được tám hướng này. Vì vậy Ngài là bậc điều ngự vô thượng, người không ai hơn trong việc rèn luyện người đáng được rèn luyện. Đó là lý do cho danh hiệu đã nêu.",
+            "Đức Phật nói xong, các tỳ-kheo hoan hỷ tán đồng. Kinh Phân biệt sáu xứ kết thúc, được ghi là bài thứ bảy trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một câu hỏi để mang vào sinh hoạt",
+          "meaningUnits": [
+            "eighteen",
+            "thirty-six",
+            "renunciate-equanimity"
+          ],
+          "paragraphs": [
+            "Gợi ý thực hành ngày nay: với một niềm vui, nỗi buồn hoặc sự bình thản vừa nhận ra, thử nhớ lại đối tượng đến qua mắt, tai, mũi, lưỡi, thân hay ý. Sau đó hỏi tâm đang nương vào việc được, không được hay vào sự hiểu biết đổi thay. Có thể đọc lại một nhóm mỗi lần và trao đổi với người hướng dẫn để hiểu rõ dần. Câu hỏi ấy giúp việc học đi vào trải nghiệm cụ thể."
+          ]
+        }
+      ]
+    }
+  }
+}

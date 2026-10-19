@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn88",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "5b407742-9b05-427c-9dcf-7d08939f2442"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "5cc35d46-464f-4561-a1d7-797f774f29da"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "d344b9d6-f804-4acb-81b9-a37bade59a61"
+    }
+  },
+  "reviews": [
+    {
+      "id": "5b407742-9b05-427c-9dcf-7d08939f2442",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.5,
+        "clarity": 9.6,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Giữ hai lần mời có điều kiện không việc gấp, hai lần im lặng và hai lượt vua đi voi rồi đi bộ. Giữa ban ngày, thảm voi, số vải mười sáu/tám không tự đặt tên đơn vị, cùng việc cuối dâng vải cho Phật đều đúng giới hạn Pāli dù HTML khác hoặc lược.",
+        "semantic_fidelity": "Điểm có trí được đặt là phần Ānanda bổ sung, không biến việc ai đó chê thành bằng chứng xấu. Các chuỗi xét hành động giữ hại mình, người, cả hai và chiều thiện/bất thiện; phần lành giữ đủ ba phủ định thay vì chỉ nói làm mọi người vui.",
+        "core_coverage": "Mười bảy mục thực sự triển khai đủ 30 ý. Ba chuỗi bất thiện và ba chuỗi thiện của thân, lời, tâm đều có đủ các nấc; hai lời xác nhận Phật đã bỏ bất thiện/thành tựu thiện và phần tặng vải cuối không bị bỏ.",
+        "logic_context": "Đối thoại vẫn do vua và Ānanda thực hiện; lời Phật chỉ xuất hiện ở kết. Ba món voi, ngựa, làng là giả định hợp lệ, việc may/chia y là đề nghị, còn hành động được kể tiếp là nhận vải rồi dâng Phật, không lẫn dự định với việc đã làm.",
+        "terminology": "Bất thiện, quả khổ, quả lạc và ý hành được mở nghĩa đơn giản gần chỗ dùng. Sa-môn, bà-la-môn, đồng phạm hạnh và cúng dường có lời giới thiệu, nhưng nhóm tên người và nơi chốn đầu bài vẫn đòi hỏi chú ý.",
+        "audience_fit": "Ví dụ hộp bút và lời trêu làm rõ sự khác nhau giữa tiếng cười đông người với tác động của lời nói. Các câu hỏi ngắn giúp trẻ theo lý do đánh giá, tuy sáu chuỗi gần nhau vẫn cần kiên nhẫn và chưa có thử đọc thực tế.",
+        "clarity": "Chia riêng việc làm, lời nói và tâm giúp so sánh hai chiều thiện/bất thiện. Mục cuộc gặp bờ sông nhiều hành động nghi lễ liên tiếp; phần thân chính vẫn dễ theo bằng tiêu đề và câu hỏi.",
+        "editorial_separation": "Ví dụ hôm nay và gợi ý thực hành được phân loại, đặt tên riêng; hộp bút không bị kể như sự kiện trong kinh. Phần tác động đến bạn bè là cách liên hệ từ tiêu chuẩn đã giải thích, không giả một lời trích của Phật.",
+        "practical_integrity": "Gợi ý xét điều đã biết, tác hại và điều đang được nuôi trong tâm có thể làm với một việc nhỏ. Nhờ người lớn biết lắng nghe và xem xét kỹ phù hợp với nội dung người có trí, không chỉ dựa địa vị hoặc số đông.",
+        "technical_integrity": "Audit canonical độc lập sạch; đủ 128 khóa đúng thứ tự vào 30 ý, tất cả ý có nội dung trong bản trẻ. Hash cuối là bản đã đọc đủ 17 mục sau năm nguồn, không suy chất lượng từ nhãn bao phủ."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập sau writer_c: đọc toàn128 dòng Pāli/Việt/Anh/chú thích,7 chú thích không trống và23 ô Anh trống; toàn83 khối HTML qua SC74 và credits, toàn30 ý và17/15/18 mục. Không có phát hiện chặn còn mở, không sửa nội dung sau freeze. Chưa thử độc giả thật hoặc xác nhận chuyên gia Pāli bên ngoài.",
+      "contentHash": "dccf5058430f168982655667482b6733d60826a3a2d6795218fe9d18d7fe0a51",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn88.html",
+          "sha256": "912337831e913d77bc86c38e4ee49c74d071b3fbbdb14f9c27af73e1eba0cfe1"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn88_root-pli-ms.json",
+          "sha256": "f2af6c1e7dce5817185c1fc25b4f552da0a699c7fd59da3e618f9f84eee9b09e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn88_translation-en-sujato.json",
+          "sha256": "d2cebf79f5297061a21455a024b5707570bee14404ede8b049133816cdb18892"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn88_comment-vi-project.json",
+          "sha256": "e1cc26d3a7d49aa0f6474b59a17c5af7aff23191f254894f6277511ed49db1ef"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn88_translation-vi-project.json",
+          "sha256": "e3675cf7deb86e712b0f7d0e47ebb0a8481521ae02bf24dcc082059e6c136b11"
+        }
+      ]
+    },
+    {
+      "id": "5cc35d46-464f-4561-a1d7-797f774f29da",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.6,
+        "audience_fit": 9.7,
+        "clarity": 9.7,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Bản giữ các chi tiết nguồn trọng yếu: điều kiện trong cả lời xin chờ và mời ra sông, hai lượt đi voi, thảm voi và thời điểm giữa ngày. Kích thước vải chỉ ghi đơn vị không tên; giữ sự chuyển tiếp từ đề nghị may/chia sang nhận và dâng Phật.",
+        "semantic_fidelity": "Phân biệt lời chê bất kỳ với lời xét kỹ của người trí là mạch lý luận chính. Hành vi lành được kiểm bằng không hại ba phía và bất thiện giảm/thiện tăng, không giản lược thành được khen hoặc làm người khác dễ chịu.",
+        "core_coverage": "Toàn 30 ý có trong 15 mục, đủ sáu chuỗi thân-khẩu-ý qua các nấc có lỗi/gây hại/quả khổ và không lỗi/không hại/quả lạc. Các đoạn Phật đã thành tựu, giới hạn nhận quà, dòng sông, lời thuật lại và sự tán đồng cuối đều còn.",
+        "logic_context": "Bản giữ khác nhau giữa câu hỏi vua về sự tán thán và câu đáp xác nhận Phật đã làm trọn. Voi, ngựa, làng không bị kể là đã dâng; lời may/chia y là lời vua đề nghị, còn kết thúc vật thực được dâng Phật.",
+        "terminology": "Thân hành, khẩu hành, ý hành, Như Lai và đồng phạm hạnh được mở nghĩa trong câu. Các mức thiện, lỗi và quả được giải thích theo mạch hỏi đáp; phần truyền thống bà-la-môn và nghi thức vẫn là khái niệm cần đọc kỹ.",
+        "audience_fit": "Ví dụ báo cáo sai và đổ lỗi đồng nghiệp phù hợp việc đánh giá tiếng khen, trách nhiệm và kiểm chứng của người trưởng thành. Nó nối tiêu chuẩn với tình huống làm việc mà không biến bài kinh thành mẹo giữ hình ảnh cá nhân.",
+        "clarity": "Từng chiều đánh giá có mục riêng nên sáu chuỗi dễ đối chiếu. Mục kết gộp nhận quà, thuật lại và lời Phật hơi dày, nhưng trình tự và chủ thể đều rõ, không gây hiểu rằng Ānanda đã thực hiện việc may y.",
+        "editorial_separation": "Ví dụ công việc và đoạn nhìn lại quyết định nằm ở hai mục biên soạn riêng. Cụm có trí được giải thích từ lời hỏi-đáp thực đọc, còn hành vi kiểm dữ liệu và nghe người liên quan được trình bày là liên hệ hôm nay.",
+        "practical_integrity": "Gợi ý xem ý định, cách làm, ảnh hưởng rồi nhìn lại kết quả cho phép sửa việc gây hại. Người cho lời khuyên được chọn theo khả năng nghe, kiểm chứng, suy xét; không khẳng định chỉ cần cảm thấy ý mình tốt là hành động thiện.",
+        "technical_integrity": "Audit nguồn/cấu trúc không lỗi, năm dependency khớp các byte đã đọc; ánh xạ đủ 128 khóa. Toàn bộ 15 mục đã được kiểm nội dung chứ không chỉ kiểm số lượng hay trùng hash tác giả."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập sau writer_c: đọc toàn128 dòng Pāli/Việt/Anh/chú thích,7 chú thích không trống và23 ô Anh trống; toàn83 khối HTML qua SC74 và credits, toàn30 ý và17/15/18 mục. Không có phát hiện chặn còn mở, không sửa nội dung sau freeze. Chưa thử độc giả thật hoặc xác nhận chuyên gia Pāli bên ngoài.",
+      "contentHash": "f4cf1218766a227ce1da2b132683cb970b5cdd0b4b19d6ced1ffef44c4e697f0",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn88.html",
+          "sha256": "912337831e913d77bc86c38e4ee49c74d071b3fbbdb14f9c27af73e1eba0cfe1"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn88_root-pli-ms.json",
+          "sha256": "f2af6c1e7dce5817185c1fc25b4f552da0a699c7fd59da3e618f9f84eee9b09e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn88_translation-en-sujato.json",
+          "sha256": "d2cebf79f5297061a21455a024b5707570bee14404ede8b049133816cdb18892"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn88_comment-vi-project.json",
+          "sha256": "e1cc26d3a7d49aa0f6474b59a17c5af7aff23191f254894f6277511ed49db1ef"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn88_translation-vi-project.json",
+          "sha256": "e3675cf7deb86e712b0f7d0e47ebb0a8481521ae02bf24dcc082059e6c136b11"
+        }
+      ]
+    },
+    {
+      "id": "d344b9d6-f804-4acb-81b9-a37bade59a61",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.6,
+        "audience_fit": 9.7,
+        "clarity": 9.6,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Các dị biệt đã được giữ theo root: giữa ban ngày, đủ hai lời mời và hai chặng voi, thảm voi, vải mười sáu/tám không thêm khuỷu tay. Cả lời thuật đầy đủ cho Phật và việc dâng chính tấm vải ấy vẫn được kể đúng.",
+        "semantic_fidelity": "Nhìn lời khen chê qua người có trí và sự xem xét kỹ giữ được ý bài. Sáu chuỗi vẫn chỉ tác hại ba phía, mức tăng giảm thiện/bất thiện và ba phủ định hại; không đổi thành yêu cầu làm hài lòng tất cả.",
+        "core_coverage": "Mười tám mục phủ đủ 30 ý bằng lời giải thực tế, gồm các bước nghi lễ, hỏi-đáp, hai lần đã bỏ bất thiện và phần quà tặng. Lời nói không mất vì root lược, được diễn đủ chuỗi từ cùng mẫu trong bài.",
+        "logic_context": "Bản tách cuộc gặp đầu và cuộc gặp bờ sông, giữ điều kiện không việc gấp. Lời vua về ba quà tặng và về may/chia y được giữ trong giả định/đề nghị; nhận vải và dâng Phật là hành động sau đó, không bị gộp.",
+        "terminology": "Ý hành, thân hành, Như Lai, quả lạc và đồng phạm hạnh có lời mở nghĩa dễ theo. Một số danh xưng, tên riêng và công thức lặp vẫn mang tính kinh điển, được giữ thay vì đổi thành các thuật ngữ đời sống thiếu chính xác.",
+        "audience_fit": "Ví dụ góp ý việc phân công trong nhóm sinh hoạt tôn trọng khả năng tham gia, suy xét của người lớn tuổi. Mục ngắn và việc thực hành tùy sức giúp lựa chọn nhịp đọc; không giả định độc giả luôn yếu hoặc chỉ bận chuyện gia đình.",
+        "clarity": "Cách tách riêng từng hoạt động thân, lời, tâm giúp nhớ hai chiều hại/không hại. Sáu chuỗi lặp có chủ đích vẫn cần theo dõi, và chưa có thử đọc người thật để xác nhận độ thuận miệng ở từng độ tuổi.",
+        "editorial_separation": "Ví dụ nhóm sinh hoạt và gợi ý khoảng dừng có nhãn riêng; cách hỏi người phụ trách không được gán là lời trong kinh. Phần giải thích có trí và đã thành tựu đặt sát đối thoại tương ứng.",
+        "practical_integrity": "Gợi ý chọn một việc vừa sức, hỏi ảnh hưởng ba phía và nhìn lại kết quả bảo toàn sự tự quyết. Khi có điều không công bằng, ví dụ cho phép góp ý rõ mà không làm nhục; không dạy né tránh mọi bất đồng.",
+        "technical_integrity": "Đã đọc trọn 18 mục sau toàn bộ năm nguồn và 30 ý; audit độc lập không có lỗi. Hash bản lớn tuổi và năm hash nguồn đúng canonical hiện tại, 128 khóa ánh xạ đủ và có thứ tự."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập sau writer_c: đọc toàn128 dòng Pāli/Việt/Anh/chú thích,7 chú thích không trống và23 ô Anh trống; toàn83 khối HTML qua SC74 và credits, toàn30 ý và17/15/18 mục. Không có phát hiện chặn còn mở, không sửa nội dung sau freeze. Chưa thử độc giả thật hoặc xác nhận chuyên gia Pāli bên ngoài.",
+      "contentHash": "0a80ee9b68ed499f702f9c03f51dc109f71c0be4c332cae51ff0c106898c8072",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn88.html",
+          "sha256": "912337831e913d77bc86c38e4ee49c74d071b3fbbdb14f9c27af73e1eba0cfe1"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn88_root-pli-ms.json",
+          "sha256": "f2af6c1e7dce5817185c1fc25b4f552da0a699c7fd59da3e618f9f84eee9b09e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn88_translation-en-sujato.json",
+          "sha256": "d2cebf79f5297061a21455a024b5707570bee14404ede8b049133816cdb18892"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn88_comment-vi-project.json",
+          "sha256": "e1cc26d3a7d49aa0f6474b59a17c5af7aff23191f254894f6277511ed49db1ef"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn88_translation-vi-project.json",
+          "sha256": "e3675cf7deb86e712b0f7d0e47ebb0a8481521ae02bf24dcc082059e6c136b11"
+        }
+      ]
+    }
+  ]
+}

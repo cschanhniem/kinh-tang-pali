@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn32",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "2f0bae78-0b15-49b5-9213-41e18987b137"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "a5ede73f-6aae-4b87-a672-fe9435a3fc7b"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "9c67aefd-0618-4133-b53e-0cdef333b3fb"
+    }
+  },
+  "reviews": [
+    {
+      "id": "2f0bae78-0b15-49b5-9213-41e18987b137",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.1,
+        "audience_fit": 8.7,
+        "clarity": 8.9,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu đủ năm nguồn. Giữ thứ tự không tin/tin ở ba cấp theo Pāli 2, không theo thứ tự Anh đảo; không nhận phủ định sai về chất say trong HTML. Phần tụng hai đầy đủ dù raw Anh trống phần lớn; Supparodha và Sālavatī giữ theo nguồn gốc. promise-retold đã sửa không được hưởng đất/chỗ ở đúng 12.234, không biến thành tịch thu tài sản.",
+        "semantic_fidelity": "Điều kiện đã học kỹ và nhớ trọn bài cùng ác tâm của phi nhân được giữ trước lời chế tài. Bốn chúng, bốn mục đích và bốn oai nghi còn riêng; không biến việc giữ năm điều thành điều kiện mới được nhận hộ trì. Phân biệt tịch tịnh với chỉ yên tâm, giữ Minh và Hạnh; vài lời tán thán gần nghĩa được nói gọn cho trẻ nên không chấm tuyệt đối.",
+        "core_coverage": "46 phần phủ 62 ý: đủ hai lượt tụng, bảy vị Phật cùng phẩm chất, bốn vua/loài/tên Inda và chín mươi mốt con, sáu hình ảnh phương tiện, các thành và chim, danh mục người được gọi, bảy lời báo, bảy chế tài và ba lệnh cuối. Năm cách chào/ra về vẫn đủ. Các đoạn viết lược được nhắc là lược nội bộ, không dùng sự trống của Anh để bỏ phần hai.",
+        "logic_context": "next-day/reading và các phần retold giữ vua nói với Phật, rồi Phật thuật cho tỳ-kheo sau đêm ấy; không tạo cuộc gặp thứ hai. Lời chống vua giữ cả ba cấp và ví Magadha, kết chỉ có tùy hỷ. Phạm vi theo sau khi đi và đến gần ở lần kêu sau được giữ, không thêm một hiệu quả chắc chắn cho bất cứ người nào chỉ đọc bài một lần.",
+        "terminology": "Giới thiệu bốn loài, bốn chúng, hộ trì và Minh-Hạnh; nhiều tên được giữ Pāli để tránh gán sai loài chim/địa danh. Có báo rõ tuṇḍikīra chưa chắc nghĩa. Tuy nhiên lượng tên dài, những từ tịch tịnh, Bà-la-môn và nhiều lời kính lễ vẫn đòi hỏi người đọc cùng giải thêm cho trẻ mới học.",
+        "audience_fit": "Đoạn ngắn, lời giải người nói và ví dụ báo người lớn đáng tin phù hợp việc đọc cùng trẻ. Nhưng gần 3.800 từ, nhiều tên lạ và cả hình ảnh trừng phạt cổ khiến đọc độc lập ở tuổi 7–12 còn nặng; lời giải văn bản học thường hợp người lớn đọc cùng hơn. Chưa thử đọc với trẻ thật; điểm dưới 9 phản ánh giới hạn này.",
+        "clarity": "Từng phương có tiêu đề và điệp khúc, phần nhắc lại được báo trước nên có thể đọc theo lượt. Hai ý không được hưởng khác mất sở hữu đã được làm rõ. Vẫn có nhiều câu ngắn nhưng nén danh mục và chú ý dị dịch xen giữa teaching; nhịp đọc dài và tên riêng chưa có hỗ trợ phát âm, nên chưa đạt độ nhẹ nhàng cao.",
+        "editorial_separation": "Các mục giải cách đọc có nhãn clarification, ví dụ và gợi ý thực hành được tách loại, không làm lời Phật. Thế giới phi nhân được quy về lời bài kệ, lời đe dọa quy về vua được Phật thuật. Một số chú thích nguồn còn nằm trong teaching, song dùng dấu hiệu rõ như nguồn Anh, bản dự án và lời người diễn giải.",
+        "practical_integrity": "Ví dụ chỉ minh họa báo rõ hành vi và tìm người có trách nhiệm; không hứa câu thần bảo vệ đã được kiểm nghiệm, không bảo trẻ tự thi hành chế tài hoặc quy người quấy rối thành Dạ-xoa. Gợi ý đọc và nhớ từng phần vừa sức, không thêm lễ nghi, chữa bệnh hay bảo đảm an toàn tuyệt đối.",
+        "technical_integrity": "Audit sau hai sửa rỗng errors/sourceErrors; đủ năm dependency SHA và commit. 574 khóa theo thứ tự một lần, đủ 62 ý, 46 section ID riêng, các tham chiếu teaching/clarification hợp lệ. Đã đọc lại promise-retold và ghi hash cuối trong notes; kiểm dữ liệu không thay thử đọc hoặc kiểm giao diện do root thực hiện."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập theo vai trò: agent B đọc bài do agent C soạn; cả hai cùng GPT-6 Astra Pro, không phải hai mô hình độc lập. Không có chuyên gia người hoặc độc giả thật tham gia chấm. Đã đọc trọn 574 khóa Pāli, 574 ô raw Sujato và Việt dự án, đủ 12 comments, toàn HTML Minh Châu qua 452 text node không rỗng, gồm ghi công (tác giả đếm 37 khối; hai cách đếm cùng toàn văn). Raw Sujato có văn 291/574, các ô trống không được xem là đồng thuận hoặc thay bằng English fill. Đã đọc toàn bản đồ 62 ý cùng ba bản 46/33/60 phần. Phần tụng hai được kiểm trực tiếp theo Pāli đầy đủ; chỉ mở các lời lược bằng danh mục đã thực có trong chính DN32, không nhập nguồn khác. Tác giả đồng ý hai sửa: children/promise-retold dùng không được kính trọng/không được đất hay chỗ ở thay mất kính trọng/mất đất và chỗ ở; adults/north-life bỏ quan hệ cạnh Mahāneru không có ở 7.1–2. Đã đọc lại trọn hai phần sau sửa. Giữ giới hạn thật về tuṇḍikīra, câu trình báo paccesantopakāsenti, tên chim và cách đọc vandatha; không biến thế giới phi nhân thành tâm lý học hay địa lý hiện đại. Audit không có errors/sourceErrors, 574 khóa đúng thứ tự một lần, đủ 62 ý trong teaching/clarification ở từng bản, đủ năm SHA và pin B19 với project 78d3b6abf131bb8d89a71c49c718a62e44ef4963. Chỉ tạo review input; không record/apply, không sửa metadata và không nhận đã chạy gate toàn kho. Hash nội dung cuối đã đọc: e394df6e90a50dfd1662861d769ae55a8b4c42c5154b0d1cdeda459377f44042.",
+      "contentHash": "e394df6e90a50dfd1662861d769ae55a8b4c42c5154b0d1cdeda459377f44042",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn32.html",
+          "sha256": "c6c90a3d840185d3ca7623a0dad55bca17992d5723820190e9b73a5fec6192a9"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn32_root-pli-ms.json",
+          "sha256": "2df7001295c6bf47c60f489decea561c97defb799e594f3a298cca9343d547e9"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn32_translation-en-sujato.json",
+          "sha256": "477e0cb09e3b6b667fb42bfaea494e3bba3e934f919e1ddfea5edfc33fc9ca2b"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn32_comment-vi-project.json",
+          "sha256": "caf746955f5e4475b920310cf055833639478b2d894bce82f3e23348b3be02c8"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn32_translation-vi-project.json",
+          "sha256": "c9d673d7a4424dc9e692cf1fc3a3cd7a07615b3d5c90d6e7d8a8f60f6a4136e5"
+        }
+      ]
+    },
+    {
+      "id": "a5ede73f-6aae-4b87-a672-fe9435a3fc7b",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.2,
+        "audience_fit": 9.1,
+        "clarity": 9.1,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đủ Pāli/raw Anh/Việt/comments/toàn HTML. Giữ tín tâm ba cặp theo Pāli, đủ chắp tay trong năm cách chào mà HTML đầu bài thiếu; phần hai không bị cắt theo Anh. Tên Kasivanta, Supparodha và Sālavatī theo Pāli; Mātali/Cittasena không bị tách mô tả thành nhân vật mới. north-life đã bỏ quan hệ cạnh núi không được 7.1–2 nói rõ.",
+        "semantic_fidelity": "Không thế tục hóa hộ trì thành một kỹ thuật tâm lý. Bốn chúng đã học và ghi nhớ cùng điều kiện phi nhân có ác tâm được tách rõ; đầy đủ giữ gìn/bảo hộ/không hại/an ổn. tịch tịnh và Minh-Hạnh còn nghĩa giải thoát và thành tựu. Những từ hiếm được trình bày theo lựa chọn có giới hạn thay vì một nghĩa chắc giả tạo.",
+        "core_coverage": "33 phần bao phủ 62 ý và cả hai lần tụng. Giữ bảy vị Phật, bốn vùng/vua/loài và điệp khúc, 80+10+1 người con, sáu hình ảnh phương tiện, đủ danh sách thành/chim/tên được gọi, bảy hạng mỗi loài, bảy chế tài/bảy lời báo và ba mệnh lệnh học. Phần kết và lời tùy hỷ được giữ; các dấu lược chỉ nối danh sách trong chính bài.",
+        "logic_context": "narration cùng toàn chuỗi repeated giữ đúng đêm gặp và hôm sau thuật lại, đại từ Ta và người thưa Ngài. pledge-repeated không chuyển lời vua thành quyền phạt người nghe; rebels-repeated giữ ba cấp người của vua. Động từ đi theo ở lời đầu và đến gần ở 12.247 được phân biệt; không biến việc phần lớn chưa tin thành mọi phi nhân đều xấu.",
+        "terminology": "Bốn loại phi nhân, Minh-Hạnh, hộ trì và cách xưng thưa Ngài được giải hoặc định vị theo cuộc nói chuyện. tuṇḍikīra, paccesantopakāsenti và tên chim được giữ giới hạn; vandatha có nêu cách đọc khác. Các tên riêng rất dài và một số thuật ngữ như bậc Có Mắt/Minh-Hạnh vẫn cần vốn đọc kinh, nên mức mở nghĩa chưa tối đa.",
+        "audience_fit": "Bản người lớn theo mạch hai lớp kể và gom các nhóm liên quan trong cùng mục, giúp đối chiếu có hệ thống. Ví dụ trình báo trong sinh hoạt chung vừa phạm vi. Tuy nhiên khoảng 3.700 từ và nhiều danh mục tên làm bài cần nhiều lượt; một số câu chú trọng chứng minh tính đủ của bản hơn trải nghiệm đọc liền. Không có thử nghiệm với độc giả thật.",
+        "clarity": "Tiêu đề các phần repeated thống nhất và phần nguồn cổ giải các lựa chọn khó; điều kiện và đối tượng thường đứng đầu câu. Câu về Uttarakuru đã sửa không tạo địa lý liền kề. Một số đoạn điệp khúc còn nén cú pháp như thiện tâm Ngài nhìn, hoặc nối nhiều danh từ bằng dấu phẩy, nên văn chưa thật trôi chảy khi đọc thành tiếng.",
+        "editorial_separation": "editorial, report-example và reading-practice được đánh dấu riêng; ví dụ tự nhận phần thêm, các quyết định dịch được quy cho người giải. Có nêu rõ lời vua trong lời Phật thuật. Một số bình luận về nguồn Anh và việc không cắt phần lặp nằm trong teaching, làm ranh giới có thể gọn hơn dù không mạo xưng câu kinh.",
+        "practical_integrity": "Bài tập theo dõi người nói/điều kiện/kết quả bám cấu trúc thật; ví dụ báo người phụ trách chỉ minh họa cách trình báo. Không gán hiện tượng phi nhân cho nhóm người hôm nay, không hứa cơ chế đã kiểm nghiệm, không biến chế tài thành quyền trừng phạt hay thêm nghi thức sử dụng.",
+        "technical_integrity": "Kiểm sau sửa có errors/sourceErrors rỗng, năm SHA/commit khớp. 574 khóa đúng thứ tự một lần, đủ 62 ý và 33 ID riêng; không có tham chiếu ngoài map. Đã đọc lại trọn north-life, hash cuối được lưu trong notes. Không tự nhận đã kiểm hiển thị hoặc chạy các gate toàn kho."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập theo vai trò: agent B đọc bài do agent C soạn; cả hai cùng GPT-6 Astra Pro, không phải hai mô hình độc lập. Không có chuyên gia người hoặc độc giả thật tham gia chấm. Đã đọc trọn 574 khóa Pāli, 574 ô raw Sujato và Việt dự án, đủ 12 comments, toàn HTML Minh Châu qua 452 text node không rỗng, gồm ghi công (tác giả đếm 37 khối; hai cách đếm cùng toàn văn). Raw Sujato có văn 291/574, các ô trống không được xem là đồng thuận hoặc thay bằng English fill. Đã đọc toàn bản đồ 62 ý cùng ba bản 46/33/60 phần. Phần tụng hai được kiểm trực tiếp theo Pāli đầy đủ; chỉ mở các lời lược bằng danh mục đã thực có trong chính DN32, không nhập nguồn khác. Tác giả đồng ý hai sửa: children/promise-retold dùng không được kính trọng/không được đất hay chỗ ở thay mất kính trọng/mất đất và chỗ ở; adults/north-life bỏ quan hệ cạnh Mahāneru không có ở 7.1–2. Đã đọc lại trọn hai phần sau sửa. Giữ giới hạn thật về tuṇḍikīra, câu trình báo paccesantopakāsenti, tên chim và cách đọc vandatha; không biến thế giới phi nhân thành tâm lý học hay địa lý hiện đại. Audit không có errors/sourceErrors, 574 khóa đúng thứ tự một lần, đủ 62 ý trong teaching/clarification ở từng bản, đủ năm SHA và pin B19 với project 78d3b6abf131bb8d89a71c49c718a62e44ef4963. Chỉ tạo review input; không record/apply, không sửa metadata và không nhận đã chạy gate toàn kho. Hash nội dung cuối đã đọc: c209f45a805de4d43139fbe3c471dd78a64a972522c035f8efbd872604078fe9.",
+      "contentHash": "c209f45a805de4d43139fbe3c471dd78a64a972522c035f8efbd872604078fe9",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn32.html",
+          "sha256": "c6c90a3d840185d3ca7623a0dad55bca17992d5723820190e9b73a5fec6192a9"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn32_root-pli-ms.json",
+          "sha256": "2df7001295c6bf47c60f489decea561c97defb799e594f3a298cca9343d547e9"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn32_translation-en-sujato.json",
+          "sha256": "477e0cb09e3b6b667fb42bfaea494e3bba3e934f919e1ddfea5edfc33fc9ca2b"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn32_comment-vi-project.json",
+          "sha256": "caf746955f5e4475b920310cf055833639478b2d894bce82f3e23348b3be02c8"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn32_translation-vi-project.json",
+          "sha256": "c9d673d7a4424dc9e692cf1fc3a3cd7a07615b3d5c90d6e7d8a8f60f6a4136e5"
+        }
+      ]
+    },
+    {
+      "id": "9c67aefd-0618-4133-b53e-0cdef333b3fb",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.2,
+        "audience_fit": 9.2,
+        "clarity": 9.3,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu năm nguồn đầy đủ, gồm phần Anh trống và HTML lược. greetings giữ năm cách, why giữ năm kiêng tránh không theo phủ định nhầm HTML; penalty nói úp bát rỗng đúng Pāli. Các tên Pāli khó giữ đủ, không thêm Atha từ từ nối trước Serīsaka. Ba lệnh cuối được giữ dù HTML thiếu lệnh ghi nhớ.",
+        "semantic_fidelity": "learner/condition-again giữ học kỹ và ghi nhớ đầy đủ cùng ác tâm trước chế tài. Không biến đa số thiếu tín tâm thành mọi phi nhân, không biến tịch tịnh thành chỉ thư giãn. Bốn mục đích bảo hộ giữ riêng, bảy lời kêu gồm cả nhập vào và không buông; không dùng chúng để đưa chẩn đoán cho con người hiện tại.",
+        "core_coverage": "60 phần phủ 62 ý: trọn bảy lời kính Phật, bốn phương/vua/loài và từng điệp khúc; đủ số con, tên thành/chim, sáu hình ảnh đi lại, bảy hạng mỗi loài, danh mục vị được gọi và bảy chế tài. Cả hai lần kể giữ đủ phần khác nhau lẫn lặp lại; năm cách đến/đi, ba lệnh học và tùy hỷ cuối đều hiện diện.",
+        "logic_context": "day-after, request-again và voices nhận rõ cùng cuộc gặp đêm trước trong lời Phật kể, giữ đại từ Ta và người nói trong chuyện. rebellion-again giữ ví đại đạo tặc cùng ba cấp bất tuân; cry-again đúng đến gần thay đi theo ở lần ấy. Kết không gán chứng quả hoặc biến thứ chín của nhóm thành DN9.",
+        "terminology": "Minh-Hạnh được mở nghĩa, bốn loài và tỳ-kheo/cư sĩ được đặt trong bốn chúng; tuṇḍikīra và câu trình báo nêu bất định thật. Tên chim không tự ép thành loài hiện đại; hai kinh đô được giữ không bịa lời hòa giải. Tên dài, nhiều danh xưng và một số từ tịch tịnh/Bà-la-môn vẫn cần dừng để hiểu.",
+        "audience_fit": "Đoạn một hoặc hai khổ ngắn, tiêu đề nhất quán và lời nhắc lại giúp đọc từng phần rồi nghỉ; không trẻ hóa người cao tuổi hoặc giả định bệnh tật. Ví dụ và gợi ý đọc chậm phù hợp mục tiêu. Nhưng 60 mục và khoảng 3.500 từ còn tải ghi nhớ lớn, đặc biệt các tên; chưa có người cao tuổi thực đọc thử.",
+        "clarity": "Tách địa điểm, vua, điệp khúc và lần thuật lại thành các mục nhỏ làm cấu trúc rõ. Lời điều kiện dùng nếu và người nói được nhắc thường xuyên. Giới hạn là danh mục tên dài, nhiều cụm dấu gạch chéo và lời ghi về bản Pāli/Anh xen giữa mạch, nên mức dễ đọc chưa được xem là hoàn hảo.",
+        "editorial_separation": "voices đánh dấu clarification, example/slow-reading tách phần thêm, không đặt ví dụ sinh hoạt vào lời vua. Các chế tài quy đúng Vessavaṇa trong lời Phật thuật, bất định nguồn được tự nhận. Một vài nhận xét vì sao giữ danh sách có trong teaching nhưng đủ chỉ dấu là lời người diễn giải.",
+        "practical_integrity": "Gợi ý chỉ đọc từng phương rồi ôn ba lời học, không tạo nghi thức thêm hoặc ép người đọc làm quá sức. Ví dụ báo rõ điều đang xảy ra cho người phụ trách không đồng nhất phi nhân với người gây phiền; không hứa chữa bệnh, bảo đảm tuyệt đối hoặc giao thi hành chế tài cổ cho người hôm nay.",
+        "technical_integrity": "Audit nguồn/cấu trúc sạch; đủ năm SHA và commit pin B19. 574 khóa đúng thứ tự một lần, đủ 62 ý với 60 section ID riêng. Bản này không cần sửa sau đọc độc lập; hash hiện hành đã đọc được ghi trong notes. Kết luận giới hạn ở kiểm nội dung/dữ liệu, không thay độc giả thật hoặc gate sản phẩm."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập theo vai trò: agent B đọc bài do agent C soạn; cả hai cùng GPT-6 Astra Pro, không phải hai mô hình độc lập. Không có chuyên gia người hoặc độc giả thật tham gia chấm. Đã đọc trọn 574 khóa Pāli, 574 ô raw Sujato và Việt dự án, đủ 12 comments, toàn HTML Minh Châu qua 452 text node không rỗng, gồm ghi công (tác giả đếm 37 khối; hai cách đếm cùng toàn văn). Raw Sujato có văn 291/574, các ô trống không được xem là đồng thuận hoặc thay bằng English fill. Đã đọc toàn bản đồ 62 ý cùng ba bản 46/33/60 phần. Phần tụng hai được kiểm trực tiếp theo Pāli đầy đủ; chỉ mở các lời lược bằng danh mục đã thực có trong chính DN32, không nhập nguồn khác. Tác giả đồng ý hai sửa: children/promise-retold dùng không được kính trọng/không được đất hay chỗ ở thay mất kính trọng/mất đất và chỗ ở; adults/north-life bỏ quan hệ cạnh Mahāneru không có ở 7.1–2. Đã đọc lại trọn hai phần sau sửa. Giữ giới hạn thật về tuṇḍikīra, câu trình báo paccesantopakāsenti, tên chim và cách đọc vandatha; không biến thế giới phi nhân thành tâm lý học hay địa lý hiện đại. Audit không có errors/sourceErrors, 574 khóa đúng thứ tự một lần, đủ 62 ý trong teaching/clarification ở từng bản, đủ năm SHA và pin B19 với project 78d3b6abf131bb8d89a71c49c718a62e44ef4963. Chỉ tạo review input; không record/apply, không sửa metadata và không nhận đã chạy gate toàn kho. Hash nội dung cuối đã đọc: 615e3a2b8e968031fa65cfe17aee3c849cafd437084adf79c8666ed1535b51be.",
+      "contentHash": "615e3a2b8e968031fa65cfe17aee3c849cafd437084adf79c8666ed1535b51be",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn32.html",
+          "sha256": "c6c90a3d840185d3ca7623a0dad55bca17992d5723820190e9b73a5fec6192a9"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn32_root-pli-ms.json",
+          "sha256": "2df7001295c6bf47c60f489decea561c97defb799e594f3a298cca9343d547e9"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn32_translation-en-sujato.json",
+          "sha256": "477e0cb09e3b6b667fb42bfaea494e3bba3e934f919e1ddfea5edfc33fc9ca2b"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn32_comment-vi-project.json",
+          "sha256": "caf746955f5e4475b920310cf055833639478b2d894bce82f3e23348b3be02c8"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn32_translation-vi-project.json",
+          "sha256": "c9d673d7a4424dc9e692cf1fc3a3cd7a07615b3d5c90d6e7d8a8f60f6a4136e5"
+        }
+      ]
+    }
+  ]
+}

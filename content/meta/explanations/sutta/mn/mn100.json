@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn100",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "2e8621f7-ee33-4c1b-b394-4ef10cdccabc"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "9a212c30-67cc-41aa-9539-b514061e85c4"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "ce4b52c2-9da2-460c-a45b-efbec9e0f768"
+    }
+  },
+  "reviews": [
+    {
+      "id": "2e8621f7-ee33-4c1b-b394-4ef10cdccabc",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.4,
+        "clarity": 9.4,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Giữ đúng ba lời đảnh lễ, không nhập tuổi mười sáu riêng của Anh, phân biệt Rāma/Uddaka và chỉ tái sinh ở hai tầng vô sắc. Đoạn 42 theo cách hiểu dự án được ghi rõ trong hồ sơ, chưa có xác minh ngữ học ngoài năm nguồn.",
+        "semantic_fidelity": "Ba thanh gỗ giữ thân và tâm, năm trạng thái dục, cả có/không đau cùng khác biệt không thể/có thể. Ba lời trời nhận định không bị biến thành chứng A-la-hán sớm; kết tái sinh chấm dứt vẫn khác các chứng thiền trước.",
+        "core_coverage": "26 mục bao quát đủ 58 ý/306 khóa: sáu thử nghiệm, bốn nước đậu, sáu ví suy kiệt, ba lời sắc da, bốn thiền, ba minh và phần kệ mười bài/năm phẩm đều có; người mạnh trong ví dải da đã được bổ sung.",
+        "logic_context": "Câu hỏi về căn cứ biết dẫn sang tự thuật hợp mạch; học thuộc khác tự chứng, nhận ra đường thiền khác ép thân, lấy lại sức khác lời chê của năm người hầu cận. Mỗi minh giữ đúng canh và điều kiện nỗ lực.",
+        "terminology": "A-la-hán và an tịnh đã mở nghĩa rõ; tín/tấn/niệm/định/tuệ, hai tầng vô sắc, hỷ/lạc, lậu hoặc và Niết-bàn có giải thích. Các tên học thuật, tri kiến thù thắng và câu hỏi chư thiên vẫn khá khó cho người mới.",
+        "audience_fit": "Ví dụ học bài nhạc cùng lời mời hỏi lịch sự hợp trẻ tuổi; nhiều đoạn ngắn, lời kể không giao trẻ thực hiện khổ hạnh. Phần tự thuật dài và hình ảnh suy kiệt vẫn cần người đọc có sức tập trung tốt.",
+        "clarity": "Các tiêu đề theo từng chặng giúp tìm đường trong bài; đoạn force chứa sáu thử nghiệm và đoạn weakness nhiều hình ảnh khiến nhịp đọc nặng hơn. Đoạn đối thoại chư thiên giữ độ khó của nguồn, chưa thể xem là dễ với mọi trẻ.",
+        "editorial_separation": "Ví dụ bài nhạc và thực hành trước khi chê người có kind/heading rõ; lời miệt thị, suy đoán của trời và nhận định của năm người đều thuộc đúng chủ thể. Phần tự thuật cổ không bị trình bày như việc cần bắt chước.",
+        "practical_integrity": "Gợi ý chỉ hỏi mình nghe, suy hay tự biết điều gì rồi hỏi thêm lịch sự; không dạy nín thở/nhịn ăn, không hứa chứng ngộ. Mục tiêu dứt khát ái và khổ được giữ thay vì rút bài thành mẹo học tập.",
+        "technical_integrity": "Audit độc lập sạch sau đọc lại chín mục; 306 khóa đúng thứ tự trong 58 ý, 26 mục/57 đoạn. Năm SHA nguồn không đổi sau đọc và contentHash khớp freeze mới; chưa viện kết quả dựng trang."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ nguồn/map/ba bản và đọc lại trọn chín mục sửa, không còn phát hiện chặn. Xem mn100-writer-a-review-source-checkpoint.json, mn100-writer-a-review-reading-checkpoint.json, mn100-writer-a-review-source-notes.json và audit độc lập cùng UID.",
+      "contentHash": "3c6d9473e4f38532645bd8103431ab25cd1a279c11aa7286044d0bf6e30357ca",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn100.html",
+          "sha256": "6d32500cf72c09b6a61237d00d7a97d25930f1730f7d20f32e05e3e0b926fb3b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+          "sha256": "fae5efe62677ed8a7e7e0796d14945bb1271b7289889f2a77b27aa8693144081"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
+          "sha256": "e95294a400b858fb692ee6097219ecd9746c0571bba456d810a7fd2ede99782d"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn100_comment-vi-project.json",
+          "sha256": "c0fc2c5f0c18970e58c7c9c14d05c78f6765662ccfa40380c262030d8255a3c4"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn100_translation-vi-project.json",
+          "sha256": "74ac0042741f2acb417525ac027340ac33049e914ff7d4e23b0a47821547ce58"
+        }
+      ]
+    },
+    {
+      "id": "9a212c30-67cc-41aa-9539-b514061e85c4",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.8,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.8,
+        "clarity": 9.6,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu năm nguồn giữ quyền lãnh đạo khác nhau của Āḷāra và Uddaka, chữ tái sinh, đầu/ vai thay chi tiết cổ thêm của Anh và khoan mũi nhọn thay kiếm của HTML. Lựa chọn ngữ học 42 được ghi giới hạn, không nói đã giải quyết dị biệt.",
+        "semantic_fidelity": "Giữ cả hai thành phần của lời tự nhận: hiểu biết trực tiếp hiện tại và nền tảng phạm hạnh. Điều kiện ba gỗ, hai vế khổ/không khổ, sự thật của việc nhận dưỡng chất và đủ hai nhóm bốn mặt ở lậu tận trí không bị đổi nghĩa.",
+        "core_coverage": "Đủ 58 đơn vị trong 19 mục: năm năng lực ở mỗi trường hợp, bảy đích còn thiếu, sáu thử nghiệm, các hậu quả ăn ít, 13 số đời, ba minh, hỏi đáp cuối và hai đoạn tóm lược đều được trình bày.",
+        "logic_context": "Bản phân tích rõ tiêu chuẩn tự biết, học thuộc rồi chứng, tôn trọng thầy nhưng xét pháp theo mục tiêu, và đổi hướng sau đau cùng cực. Rāma ở quá khứ/Uddaka ở hiện tại cùng hai lần giao vị trí lãnh đạo được giữ đúng.",
+        "terminology": "A-la-hán/an tịnh sau sửa dễ hiểu hơn; phạm hạnh, Niết-bàn, các phẩm định, đắc dụng, tà/chánh kiến và ba lậu đều có lời giải. Một số cụm căn bản phạm hạnh, tri kiến vẫn cần người đọc giữ ngữ cảnh dài.",
+        "audience_fit": "Ví dụ trình bày căn cứ trong công việc và việc xét phương pháp theo mục tiêu hợp người trưởng thành; khuyến khích nhận ra công sức đã bỏ mà không mặc định bỏ nỗ lực là tiến bộ. Giọng có lý lẽ, không lên lớp.",
+        "clarity": "Mạch các mục renunciation/alara/uddaka nối đúng câu hỏi ban đầu, ba minh tách rõ. Uddaka và wood có nhiều điều kiện trong một mục, đoạn chư thiên vẫn khó, nên nhịp đọc cần chậm ở các điểm ấy.",
+        "editorial_separation": "Ví dụ quy trình công việc và gợi ý xét cách tu có lời nhận diện biên soạn; các lời của bà, Saṅgārava, trời và nhóm năm vị giữ lớp người nói. Suy ngẫm hiện đại không được đặt vào lời Phật.",
+        "practical_integrity": "Bài tập tự xét mục đích và kết quả không đồng hóa danh tiếng hoặc chịu đau với tiến bộ tu học; không hướng dẫn thử các cách ép thân. Kết quả giải thoát được gắn với biết như thật và đoạn lậu hoặc, không với bài tập ngắn.",
+        "technical_integrity": "19 mục/46 đoạn hợp schema, tham chiếu đúng 58 ý và 306 khóa root; sourceHashes khớp checkpoint và contentHash đúng bản chín mục đã đọc lại. Cổng này chỉ xác nhận JSON/nguồn, không thay việc dựng và xuất bản của root."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ nguồn/map/ba bản và đọc lại trọn chín mục sửa, không còn phát hiện chặn. Xem mn100-writer-a-review-source-checkpoint.json, mn100-writer-a-review-reading-checkpoint.json, mn100-writer-a-review-source-notes.json và audit độc lập cùng UID.",
+      "contentHash": "85f2b2a574ed8e7316f362d5aed00001803576ba8404f19722cacd5a7b04df29",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn100.html",
+          "sha256": "6d32500cf72c09b6a61237d00d7a97d25930f1730f7d20f32e05e3e0b926fb3b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+          "sha256": "fae5efe62677ed8a7e7e0796d14945bb1271b7289889f2a77b27aa8693144081"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
+          "sha256": "e95294a400b858fb692ee6097219ecd9746c0571bba456d810a7fd2ede99782d"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn100_comment-vi-project.json",
+          "sha256": "c0fc2c5f0c18970e58c7c9c14d05c78f6765662ccfa40380c262030d8255a3c4"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn100_translation-vi-project.json",
+          "sha256": "74ac0042741f2acb417525ac027340ac33049e914ff7d4e23b0a47821547ce58"
+        }
+      ]
+    },
+    {
+      "id": "ce4b52c2-9da2-460c-a45b-efbec9e0f768",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.6,
+        "audience_fit": 9.7,
+        "clarity": 9.6,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Giữ nữ Dhanañjānī với ba lời kính lễ, tên địa danh thống nhất dự án, không thêm tuổi Saṅgārava; phần Rāma và hai lời mời lãnh đạo đúng đối chiếu. Đoạn 42 giữ cách hiểu dự án có hồ sơ giới hạn, không giả vờ chắc ngữ học.",
+        "semantic_fidelity": "Ba ví được tách riêng mà vẫn đủ thân/tâm và các trạng thái nội tâm; có khả năng giác ngộ không thành bảo đảm chứng đắc. Niềm lạc ngoài dục/bất thiện, ba lậu và bốn vế giải thoát đều giữ đúng phạm vi.",
+        "core_coverage": "27 mục giữ toàn 58 ý, cả phần gian khổ, 13 số đời, ba canh và phần kết Năm Mươi Kinh Giữa; không bỏ mười tên hoặc năm phẩm. Ví dải da sau sửa có đúng người mạnh, phần còn lại của sáu thử nghiệm nguyên vẹn.",
+        "logic_context": "Thứ tự hứa báo–đến gặp–hỏi căn cứ–tự thuật–hỏi chư thiên–quy y được nối rõ. Bảy đích chưa đạt ở hai pháp làm nền cho việc tiếp tục tìm, và lời người quan sát được tách khỏi kết quả thực sự của Ngài.",
+        "terminology": "Lời mở A-la-hán/an tịnh được sửa; năm năng lực, hai xứ vô sắc, hỷ/lạc, đắc dụng, nghiệp và lậu hoặc có lời giải tại chỗ. Những từ thế giới học/tướng đại nhân còn chuyên biệt nhưng vai trò trong câu liệt kê học vấn rõ.",
+        "audience_fit": "Ví dụ kể chuyện cho người nhà và xét một thói quen phù hợp kinh nghiệm người lớn tuổi; không mặc định yếu bệnh hay bất lực. Hình ảnh khớp người tám mươi nằm trong sáu ví cổ về thân suy kiệt, không thành nhận định chung về tuổi già.",
+        "clarity": "Tách ba gỗ và ba minh thành từng mục giúp theo dõi; một số đoạn pressure/little-food vẫn dày chi tiết, phần hỏi chư thiên vẫn có câu vòng theo nguồn. Cần đọc tuần tự để thấy các điều kiện nối nhau.",
+        "editorial_separation": "Ví dụ gia đình và gợi ý xét thói quen có nhãn riêng; lời chê của Saṅgārava, phán đoán của trời và nhóm năm người đều được quy đúng người nói. Các hình ảnh đau được ghi là lời kể trước khi tìm ra đường giác ngộ.",
+        "practical_integrity": "Gợi ý điều chỉnh việc tu quen thuộc gắn với lòng bền bỉ và mục đích bớt trói buộc; không khuyên nhịn ăn, nín thở hay từ bỏ chăm sóc thân. Đủ cảnh lấy lại sức và đạt bốn thiền giữ hướng thực hành của bài.",
+        "technical_integrity": "Audit sau sửa không có lỗi nội dung/nguồn; 27 mục/56 đoạn, 58 ý và toàn 306 khóa đúng thứ tự, sourceHashes không đổi. Hash cuối khớp chính ba mục của bản lớn tuổi đã đọc lại; chưa xác nhận thử với độc giả hay dựng trang."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ nguồn/map/ba bản và đọc lại trọn chín mục sửa, không còn phát hiện chặn. Xem mn100-writer-a-review-source-checkpoint.json, mn100-writer-a-review-reading-checkpoint.json, mn100-writer-a-review-source-notes.json và audit độc lập cùng UID.",
+      "contentHash": "b91c3432b172978c29156c403c72aaa3323d7947197353d2020267854921884c",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn100.html",
+          "sha256": "6d32500cf72c09b6a61237d00d7a97d25930f1730f7d20f32e05e3e0b926fb3b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+          "sha256": "fae5efe62677ed8a7e7e0796d14945bb1271b7289889f2a77b27aa8693144081"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
+          "sha256": "e95294a400b858fb692ee6097219ecd9746c0571bba456d810a7fd2ede99782d"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn100_comment-vi-project.json",
+          "sha256": "c0fc2c5f0c18970e58c7c9c14d05c78f6765662ccfa40380c262030d8255a3c4"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn100_translation-vi-project.json",
+          "sha256": "74ac0042741f2acb417525ac027340ac33049e914ff7d4e23b0a47821547ce58"
+        }
+      ]
+    }
+  ]
+}

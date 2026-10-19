@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn55",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "a96a8873-3495-408b-b09b-d05bf6126e47"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "5ae570aa-a9c3-4952-b1d5-9d1480a0896c"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "b7e815c8-1d07-402f-8c6c-a3128f243b91"
+    }
+  },
+  "reviews": [
+    {
+      "id": "a96a8873-3495-408b-b09b-d05bf6126e47",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.5,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc đủ năm nguồn đúng pin; lời đồn, người hỏi và lời bác bỏ được giữ đúng. Bản trẻ không nhập nghề của Jīvaka từ ngoài bài, giữ Phạm thiên thay lối HTML cao thượng, và không thêm loại y ngoài.",
+        "semantic_fidelity": "Điều được thấy/nghe/nghi là giết riêng cho người nhận; không mở thành mọi trường hợp ăn thịt. Tâm từ và cách nhận món đi cùng sự không làm hại, các gốc bất thiện nơi Phật đã dứt tận, không chỉ là phép lịch sự bàn ăn.",
+        "core_coverage": "Đủ hai phần điều kiện dùng/không dùng, bốn tâm với phạm vi đầy đủ, hai lượt mời và thọ dụng, hai ý không khởi, năm nét ăn, ba nhánh không hại, hai lời chấp nhận có điều kiện và năm lý do vô phước.",
+        "logic_context": "Dùng thịt cần đồng thời ba phủ định; nhận lời mời chỉ nếu muốn. Jīvaka phủ nhận ý hại ở đúng lúc được hỏi. Trách nhiệm năm lý do thuộc người giết riêng, không bị chuyển sang con vật hoặc người nhận.",
+        "terminology": "Sa-môn, tỳ-kheo, gia chủ, từ/bi/hỷ/xả, Phạm thiên, tham/sân/si, Như Lai, vô phước và quy y được mở bằng lời ngắn. Thoát ly giữ nghĩa lối thoát ra, không gán một đối tượng ngoài câu kinh.",
+        "audience_fit": "Ví dụ bánh được chia cho lớp và việc cùng người lớn tìm cách không hại phù hợp trẻ. Cảnh con vật đau và buồn được kể ngắn đúng ý; phần điều kiện lời đồn còn cần đọc kỹ ở trẻ nhỏ.",
+        "clarity": "Mười ba mục lần lượt đi từ hỏi cho rõ đến cách nhận món và trách nhiệm khi nhờ giết. Các cặp câu hỏi/đáp và thứ tự năm lý do dễ theo; phần lặp bi/hỷ/xả được gộp mà vẫn đầy đủ.",
+        "editorial_separation": "Ví dụ chiếc bánh và gợi ý thực hành có nhãn riêng, không thành lời Phật. Phần quy y không tự nhập bốn hình ảnh quen thuộc khi cả ba nguồn đều đang lược; các đoạn diễn giải không giả làm nguyên văn.",
+        "practical_integrity": "Bài tập xét ai bị hại và tìm cách khác với người lớn giữ mức chủ động vừa sức. Không yêu cầu trẻ kiểm soát chế độ ăn của gia đình, không hứa thành tựu từ một cách nhận quà.",
+        "technical_integrity": "Audit sạch cả nội dung và nguồn; 33 ý bao phủ 80 khóa, 13 mục đúng cấu trúc, hash khớp nguyên bản freeze đã đọc. Cổng build và metadata chính thức do root quản lý riêng."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ năm nguồn, toàn 33 ý/80 khóa và cả ba bản thực tế. Không phát hiện điểm cần sửa. Audit cuối sạch, năm source hash khớp checkpoint độc lập và fingerprint khớp nguyên freeze tác giả.",
+      "contentHash": "6e37e1f830dd9e0cff6688ccafd4d5e92107fd368f724349daf2fc928a933bae",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn55.html",
+          "sha256": "e179dc8126aa092f3b742a9d93e945c8796cdca2eb03bf0b61059b27a2d617cf"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn55_root-pli-ms.json",
+          "sha256": "4c51f1b68c830932ac4dab3b1d01a2d419fba4dac6ce5d891e0c2bd393828b86"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn55_translation-en-sujato.json",
+          "sha256": "6b327d74ee452f39e18b984c0761b9f3c02882fb907c3e43ee36f5f0a574d166"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn55_comment-vi-project.json",
+          "sha256": "eeee7f9d4531c141df88f89fb0a44af1836a66cb6f94b192989ceb46e7e1f985"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn55_translation-vi-project.json",
+          "sha256": "8b35c0a07e34e3b2836d948830ed74b80382d5efe8194da9d9260aa5759bf9e2"
+        }
+      ]
+    },
+    {
+      "id": "5ae570aa-a9c3-4952-b1d5-9d1480a0896c",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.6,
+        "clarity": 9.6,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Năm nguồn thực tế đều được đọc trọn và đối chiếu hash; các điều kiện bị HTML lược, Phạm thiên và ba kết quả ở 11.6 được giữ theo Pāli. Ô Anh trống duy nhất ở nhãn cuối được kiểm bằng Pāli/Việt.",
+        "semantic_fidelity": "Giữ trọng tâm quy trách nhiệm cho giết riêng, không dính mắc khi thọ nhận và đoạn tận tham/sân/si. Việc không có lỗi gắn tình huống người tu; không bị diễn thành chấp thuận tổng quát mọi cách tiêu dùng.",
+        "core_coverage": "Mười một mục vẫn có đủ hai lần mời, hai ý không sinh và năm cách dùng thức ăn trong mỗi nhóm tâm, toàn phạm vi bốn tâm, hai lần hỏi không hại/không lỗi, năm lý do và nhãn thứ năm.",
+        "logic_context": "Bản conditions nói rõ một điều thấy/nghe/nghi thuộc trường hợp cấm và cần cả ba phủ định để dùng. Hai lần nếu ông nói theo ý ấy vẫn nguyên, nên lời công nhận không thành tuyên bố Phật là Phạm thiên.",
+        "terminology": "Các tâm, Như Lai, tham/sân/si, thoát ly và vô phước có nghĩa trong mạch. Không hợp luật được giải đúng giới luật người nhận, không nhập pháp luật xã hội hoặc dinh dưỡng.",
+        "audience_fit": "Bữa nhóm làm việc cho thấy sự đòi hỏi có thể xen vào tiếp đãi; bài tập xét cả việc mình nhờ người khác làm hợp trách nhiệm người trưởng thành. Cách gộp lập luận tiết kiệm mà không làm nhẹ trách nhiệm gây hại.",
+        "clarity": "Tiêu đề nêu vấn đề xác minh và các điều kiện trước khi trình bày trường hợp cụ thể. Đoạn năm lý do tách lệnh và nỗi khổ, giúp thấy chuỗi trách nhiệm; các lần lặp có mốc rõ.",
+        "editorial_separation": "Ví dụ nhóm làm việc được gọi rõ là hiện đại và giới hạn ở quan sát tâm khi nhận. Gợi ý cúng dường tách khỏi lời đối thoại; không thêm hình ảnh vào phần nguồn lược hoặc dùng lời kết làm trích dẫn giả.",
+        "practical_integrity": "Thực hành đi từ yêu cầu của mình đến tác động và giới luật người nhận, phù hợp năm lý do. Không hứa một món cúng hợp lệ tự tạo giải thoát, không rút điều kiện kinh thành mẹo né trách nhiệm.",
+        "technical_integrity": "Năm source hash khớp checkpoint độc lập, audit rỗng lỗi; fingerprint bản 11 mục đúng freeze đã đọc. Chưa ghi metadata hay suy kết quả kiểm local toàn lô từ một audit nội dung."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ năm nguồn, toàn 33 ý/80 khóa và cả ba bản thực tế. Không phát hiện điểm cần sửa. Audit cuối sạch, năm source hash khớp checkpoint độc lập và fingerprint khớp nguyên freeze tác giả.",
+      "contentHash": "20881449a6226c36778e3a860d4d0812df396b7df1c567657fb8e5707d5ad7c2",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn55.html",
+          "sha256": "e179dc8126aa092f3b742a9d93e945c8796cdca2eb03bf0b61059b27a2d617cf"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn55_root-pli-ms.json",
+          "sha256": "4c51f1b68c830932ac4dab3b1d01a2d419fba4dac6ce5d891e0c2bd393828b86"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn55_translation-en-sujato.json",
+          "sha256": "6b327d74ee452f39e18b984c0761b9f3c02882fb907c3e43ee36f5f0a574d166"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn55_comment-vi-project.json",
+          "sha256": "eeee7f9d4531c141df88f89fb0a44af1836a66cb6f94b192989ceb46e7e1f985"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn55_translation-vi-project.json",
+          "sha256": "8b35c0a07e34e3b2836d948830ed74b80382d5efe8194da9d9260aa5759bf9e2"
+        }
+      ]
+    },
+    {
+      "id": "b7e815c8-1d07-402f-8c6c-a3128f243b91",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.6,
+        "clarity": 9.6,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu toàn bài ở cả năm nguồn; người kể đã nghe, vườn xoài, Jīvaka lễ/ngồi và lời đồn đúng. Giữ điều kiện nhận lời bị HTML bỏ, danh xưng Phạm thiên và đủ ba điều tâm hại/bất mãn/chống đối.",
+        "semantic_fidelity": "Phần nhận món giữ tâm không trói buộc, không mê, không dính cùng thấy nguy và hiểu thoát. Tâm từ/xả nơi Phật gắn đoạn tận gốc bất thiện, không bị thu thành nếp ứng xử mềm mỏng của người có tuổi.",
+        "core_coverage": "Đủ bốn tâm và cùng một phạm vi lan tỏa, hai cảnh thọ nhận với điều kiện, hai ý không có, năm nét thọ dụng, các câu hỏi ba nhánh, hai lượt chấp nhận có điều kiện, năm lý do và kết cư sĩ trọn đời.",
+        "logic_context": "Ba phủ định được nối bằng đồng thời; chỉ không thấy chưa đủ. Từng lý do vô phước có đúng người tạo và thời điểm con vật đau/buồn. Lời thừa nhận không lỗi giữ đúng việc thọ nhận đã mô tả.",
+        "terminology": "Các danh xưng, tâm tu, tham/sân/si, vô phước và quy y có giải nghĩa ngắn. Giới luật người nhận được gọi rõ ở lý do thứ năm; xả là quân bình, không được gọi là bỏ mặc sự khổ của sinh vật.",
+        "audience_fit": "Nhịp 14 mục và 31 đoạn cho phép đọc thong thả; bữa sum họp là một tình huống minh họa, không giả định mọi người lớn tuổi đều có con cháu hoặc phải sống theo một khuôn gia đình.",
+        "clarity": "Phần mời và phần dùng thức ăn được tách, rồi lần lặp có nhắc đủ những chi tiết thay vì chỉ nói như trên. Năm lý do chia thành những đoạn ngắn, vẫn giữ hai nỗi đau/buồn riêng.",
+        "editorial_separation": "Ví dụ sum họp và gợi ý chuẩn bị bữa cúng được nhận diện là biên tập. Không đưa nguồn hoặc lời giải thao tác vào dòng kể; phần kết lược được tôn trọng, không tự tạo lời ca ngợi khác.",
+        "practical_integrity": "Gợi ý hỏi điều phù hợp và tránh yêu cầu làm hại sinh vật tôn trọng quyền chủ động. Lòng biết ơn không bị xem là sai, còn sự đòi hỏi được nhận ra nhẹ nhàng; không áp đặt tự trách hay hứa chứng đắc.",
+        "technical_integrity": "Audit không lỗi cấu trúc hoặc nguồn, 33 ý liên kết toàn 80 khóa; hash bản 14 mục khớp phần đã đọc đầy đủ. Giới hạn kiểm biên tập không bị trình bày như xác nhận build hay khảo sát độc giả."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ năm nguồn, toàn 33 ý/80 khóa và cả ba bản thực tế. Không phát hiện điểm cần sửa. Audit cuối sạch, năm source hash khớp checkpoint độc lập và fingerprint khớp nguyên freeze tác giả.",
+      "contentHash": "b82c5c47d6b50a24701614243e242082ceafc574a09f1b1492ce0058b2d1c388",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn55.html",
+          "sha256": "e179dc8126aa092f3b742a9d93e945c8796cdca2eb03bf0b61059b27a2d617cf"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn55_root-pli-ms.json",
+          "sha256": "4c51f1b68c830932ac4dab3b1d01a2d419fba4dac6ce5d891e0c2bd393828b86"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn55_translation-en-sujato.json",
+          "sha256": "6b327d74ee452f39e18b984c0761b9f3c02882fb907c3e43ee36f5f0a574d166"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn55_comment-vi-project.json",
+          "sha256": "eeee7f9d4531c141df88f89fb0a44af1836a66cb6f94b192989ceb46e7e1f985"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn55_translation-vi-project.json",
+          "sha256": "8b35c0a07e34e3b2836d948830ed74b80382d5efe8194da9d9260aa5759bf9e2"
+        }
+      ]
+    }
+  ]
+}

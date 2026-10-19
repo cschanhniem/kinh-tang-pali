@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn144",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "574a0ac7-9a5f-44a0-a932-d63cb3ffce09"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "de75f498-d981-419a-a1d5-58dfb0b27699"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "3f47a766-2e5f-44cc-896d-20ad8e11ca0e"
+    }
+  },
+  "reviews": [
+    {
+      "id": "574a0ac7-9a5f-44a0-a932-d63cb3ffce09",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.3,
+        "logic_context": 9.5,
+        "terminology": 9,
+        "audience_fit": 8.8,
+        "clarity": 9.2,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.5
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc trọn 86 khóa Pāli, Sujato, Việt dự án, chú thích và HTML Minh Châu của MN144. Năm SHA-256 khớp byte thực. Giữ chính Sāriputta nhận chăm sóc ở 6.5; không theo cách diễn đạt tìm người trong Anh. Không nhận 14 ô Anh trống là đối chiếu độc lập; HTML không tự căn đoạn.",
+        "semantic_fidelity": "Giữ ba phần căn–thức–đối tượng trong cả sáu phạm vi và ba phủ định của Channa, đặt trên sự diệt đã thấy và trực tiếp biết. Chuỗi nương bám–lay động–lắng tịnh–khuynh hướng–đến đi–chết sinh đi tới chấm dứt khổ, không bị thu về thư giãn hay từ chối trợ giúp.",
+        "core_coverage": "Đã đối chiếu hai chiều 20 đơn vị nghĩa phủ 86 khóa thật. Có đủ bốn nét đau và các lần tăng đau, hai lời ngăn cản, ba trợ giúp có điều kiện, lời tự tuyên bố, sáu nhóm hỏi đáp, lời Cunda, cái chết, cuộc hỏi Phật, thân hữu và tiêu chuẩn không nhận thân khác. Bổ sung vế nghe rồi sẽ biết tại 8.2 vào cả ba bản sau khi tác giả đồng ý, rồi đọc lại.",
+        "logic_context": "Phân biệt lời Channa tự tuyên bố ở 7.6 với xác nhận sau đó của Phật tại 13.9–13.11. Không bịa thời điểm chứng đắc, phương thức hoặc diễn biến tâm giữa lúc hai vị rời đi và cái chết. Các gia đình thân hữu không tự thành chứng cứ đáng trách; lời kết giữ trong phạm vi Channa không chấp thủ thân khác.",
+        "terminology": "Mở ý là tâm, sự diệt là chấm dứt, phân biệt nơi biết/sự biết/điều được biết và chuyển ba công thức ngã sang lời gần gũi. Tên Pāli và chuỗi giải thoát còn đòi người lớn giải thêm; điểm chưa ở mức tối ưu cho người mới đọc.",
+        "audience_fit": "Ví dụ bạn nghỉ học và lời mời đọc cùng người lớn hợp với đường vào của trẻ. Không kể phương thức tự hại. Nội dung về cái chết, nhận thân khác và sáu nhóm vẫn rất nặng với 7–12 tuổi, nên chấm 8,8 và ghi chưa có thử đọc trẻ thật.",
+        "clarity": "Các phần ngắn đi theo cuộc thăm, lời hỏi, tin chết và lời kết; ba trợ giúp dễ tìm lại. Cách giải sáu nhóm có ví mắt giúp theo mạch, nhưng đoạn nương bám tới đời này/đời kia vẫn trừu tượng.",
+        "editorial_separation": "Ví dụ chăm sóc và gợi ý đọc có loại phần riêng; chú giải giới hạn tự hại nhận rõ là biên tập. Việc giảm chi tiết dữ dội được nói rõ, vẫn giữ bốn nhóm đau và sự việc nghiêm trọng. Không chèn các suy luận hiện đại vào lời Phật hoặc đổi kinh văn.",
+        "practical_integrity": "Ứng dụng đề nghị nghe người bệnh và nhờ người lớn đáng tin khi có lời không muốn sống; không đòi trẻ chịu đau, tự xử lý nguy cơ hoặc bắt chước Channa. Lời kết riêng không được dùng làm sự cho phép tự hại; bài tập chỉ kiểm hiểu nguồn.",
+        "technical_integrity": "auditExplanations(\"mn\",\"mn144\") được người kiểm chạy độc lập: errors=[] và sourceErrors=[]. Năm SHA-256 khớp nguồn đọc thực; map không thiếu hoặc thừa khóa Pāli. Schema, ID, NFC và liên kết qua audit đều đạt. Đây là toàn vẹn bản ghi; test/check/build của PR được root ghi riêng, không mạo nhận đã kiểm giao diện."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm /root/audit_progress (tác tử A) khác tác giả /root/author_b, cùng GPT-6 Astra Pro. Đã đọc toàn bộ năm nguồn thực, toàn bộ bản đồ và đủ ba bản MN144, không chỉ dựa handoff hoặc độ phủ máy. Đã sửa và đọc lại vế 8.2 ở cả ba bản với sự đồng ý của tác giả; không sửa kinh văn. Nội dung children được khóa ở hash ee4042f83d3534822a3def625f7d95078ee55b43bb13c4b38305c24cfa5683d5. Chưa có học giả Pāli con người hoặc người đọc mục tiêu thử đọc; điểm phù hợp lứa tuổi là nhận định biên tập có giới hạn. Pāli/Anh pin 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt dự án và chú thích tại 0d8afd630e483d8cfee098cbb2f75a58da5fede8. Không nhận pin HTML lịch sử trong chú thích là nguồn mới đã mở; không tự căn HTML theo Bilara hoặc coi ô Anh trống là chứng cứ.",
+      "contentHash": "ee4042f83d3534822a3def625f7d95078ee55b43bb13c4b38305c24cfa5683d5",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn144.html",
+          "sha256": "80a87560d67b59b1c64f85080eeb9969a4c077bb83d326b5e4ac7d07fdc0a73b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn144_root-pli-ms.json",
+          "sha256": "24305edd78e65e8cddda90b7d939f9486756dcd14a9ac3ef65034ae1d5333c0c"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn144_translation-en-sujato.json",
+          "sha256": "1ca61823a75dbf6e154ab92f1596912c80ebe1c5665e63d57e5dafc8192c3faa"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn144_comment-vi-project.json",
+          "sha256": "c3bf1101945ec90db2b1c1aa855be6ea7f077cf14d3981b1174b8922a19354d6"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn144_translation-vi-project.json",
+          "sha256": "9bc49f99dfaa4a1052597a3cd0849c32b5eebbf30b0143d807aaf0a2d1402ff7"
+        }
+      ]
+    },
+    {
+      "id": "de75f498-d981-419a-a1d5-58dfb0b27699",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.4,
+        "logic_context": 9.5,
+        "terminology": 9.2,
+        "audience_fit": 9.3,
+        "clarity": 9.3,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.5
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc trọn 86 khóa Pāli, Sujato, Việt dự án, chú thích và HTML Minh Châu của MN144. Năm SHA-256 khớp byte thực. Giữ chính Sāriputta nhận chăm sóc ở 6.5; không theo cách diễn đạt tìm người trong Anh. Không nhận 14 ô Anh trống là đối chiếu độc lập; HTML không tự căn đoạn.",
+        "semantic_fidelity": "Giữ ba phần căn–thức–đối tượng trong cả sáu phạm vi và ba phủ định của Channa, đặt trên sự diệt đã thấy và trực tiếp biết. Chuỗi nương bám–lay động–lắng tịnh–khuynh hướng–đến đi–chết sinh đi tới chấm dứt khổ, không bị thu về thư giãn hay từ chối trợ giúp.",
+        "core_coverage": "Đã đối chiếu hai chiều 20 đơn vị nghĩa phủ 86 khóa thật. Có đủ bốn nét đau và các lần tăng đau, hai lời ngăn cản, ba trợ giúp có điều kiện, lời tự tuyên bố, sáu nhóm hỏi đáp, lời Cunda, cái chết, cuộc hỏi Phật, thân hữu và tiêu chuẩn không nhận thân khác. Bổ sung vế nghe rồi sẽ biết tại 8.2 vào cả ba bản sau khi tác giả đồng ý, rồi đọc lại.",
+        "logic_context": "Phân biệt lời Channa tự tuyên bố ở 7.6 với xác nhận sau đó của Phật tại 13.9–13.11. Không bịa thời điểm chứng đắc, phương thức hoặc diễn biến tâm giữa lúc hai vị rời đi và cái chết. Các gia đình thân hữu không tự thành chứng cứ đáng trách; lời kết giữ trong phạm vi Channa không chấp thủ thân khác.",
+        "terminology": "Giữ căn, thức, pháp được thức biết và ba lối nhận ngã; mở tác ý, sự diệt, chấp thủ thân khác trong mạch. Nissita được phân biệt với nhận chăm sóc. Một số thuật ngữ cổ còn cần người đọc chậm lại, nhất là khuynh hướng và tự ngã.",
+        "audience_fit": "Bản trưởng thành đặt rõ người nói, căn cứ và phạm vi phán xét; ví thăm người điều trị gắn được với đời sống. Không biến sự việc thành tranh luận giản đơn về quyền chết. Chưa có người đọc mục tiêu thử mức tiếp nhận.",
+        "clarity": "Mạch nguồn và mạch lý do nối tốt, đặc biệt lời tuyên bố trước/sự xác nhận sau và câu hỏi thấy biết làm căn cứ. Hai phần giới hạn hơi nhiều lời phủ định nhưng phục vụ nguy cơ hiểu sai cụ thể của kinh.",
+        "editorial_separation": "Ví dụ chăm sóc và gợi ý đọc có loại phần riêng; chú giải giới hạn tự hại nhận rõ là biên tập. Việc giảm chi tiết dữ dội được nói rõ, vẫn giữ bốn nhóm đau và sự việc nghiêm trọng. Không chèn các suy luận hiện đại vào lời Phật hoặc đổi kinh văn.",
+        "practical_integrity": "Lời hứa chăm sóc được vận dụng vào một việc thực tế, tôn trọng hướng dẫn người đang điều trị theo. Không hứa chữa bệnh, không suy đoán nghiệp hoặc quả vị và không lấy không nương bám để phủ nhận nhu cầu hỗ trợ.",
+        "technical_integrity": "auditExplanations(\"mn\",\"mn144\") được người kiểm chạy độc lập: errors=[] và sourceErrors=[]. Năm SHA-256 khớp nguồn đọc thực; map không thiếu hoặc thừa khóa Pāli. Schema, ID, NFC và liên kết qua audit đều đạt. Đây là toàn vẹn bản ghi; test/check/build của PR được root ghi riêng, không mạo nhận đã kiểm giao diện."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm /root/audit_progress (tác tử A) khác tác giả /root/author_b, cùng GPT-6 Astra Pro. Đã đọc toàn bộ năm nguồn thực, toàn bộ bản đồ và đủ ba bản MN144, không chỉ dựa handoff hoặc độ phủ máy. Đã sửa và đọc lại vế 8.2 ở cả ba bản với sự đồng ý của tác giả; không sửa kinh văn. Nội dung adults được khóa ở hash ba5d428c400c9bc34d99462aa4c73db28d64d4413ba10745340111a8014b88de. Chưa có học giả Pāli con người hoặc người đọc mục tiêu thử đọc; điểm phù hợp lứa tuổi là nhận định biên tập có giới hạn. Pāli/Anh pin 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt dự án và chú thích tại 0d8afd630e483d8cfee098cbb2f75a58da5fede8. Không nhận pin HTML lịch sử trong chú thích là nguồn mới đã mở; không tự căn HTML theo Bilara hoặc coi ô Anh trống là chứng cứ.",
+      "contentHash": "ba5d428c400c9bc34d99462aa4c73db28d64d4413ba10745340111a8014b88de",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn144.html",
+          "sha256": "80a87560d67b59b1c64f85080eeb9969a4c077bb83d326b5e4ac7d07fdc0a73b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn144_root-pli-ms.json",
+          "sha256": "24305edd78e65e8cddda90b7d939f9486756dcd14a9ac3ef65034ae1d5333c0c"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn144_translation-en-sujato.json",
+          "sha256": "1ca61823a75dbf6e154ab92f1596912c80ebe1c5665e63d57e5dafc8192c3faa"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn144_comment-vi-project.json",
+          "sha256": "c3bf1101945ec90db2b1c1aa855be6ea7f077cf14d3981b1174b8922a19354d6"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn144_translation-vi-project.json",
+          "sha256": "9bc49f99dfaa4a1052597a3cd0849c32b5eebbf30b0143d807aaf0a2d1402ff7"
+        }
+      ]
+    },
+    {
+      "id": "3f47a766-2e5f-44cc-896d-20ad8e11ca0e",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.4,
+        "logic_context": 9.5,
+        "terminology": 9.2,
+        "audience_fit": 9.2,
+        "clarity": 9.3,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.5
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc trọn 86 khóa Pāli, Sujato, Việt dự án, chú thích và HTML Minh Châu của MN144. Năm SHA-256 khớp byte thực. Giữ chính Sāriputta nhận chăm sóc ở 6.5; không theo cách diễn đạt tìm người trong Anh. Không nhận 14 ô Anh trống là đối chiếu độc lập; HTML không tự căn đoạn.",
+        "semantic_fidelity": "Giữ ba phần căn–thức–đối tượng trong cả sáu phạm vi và ba phủ định của Channa, đặt trên sự diệt đã thấy và trực tiếp biết. Chuỗi nương bám–lay động–lắng tịnh–khuynh hướng–đến đi–chết sinh đi tới chấm dứt khổ, không bị thu về thư giãn hay từ chối trợ giúp.",
+        "core_coverage": "Đã đối chiếu hai chiều 20 đơn vị nghĩa phủ 86 khóa thật. Có đủ bốn nét đau và các lần tăng đau, hai lời ngăn cản, ba trợ giúp có điều kiện, lời tự tuyên bố, sáu nhóm hỏi đáp, lời Cunda, cái chết, cuộc hỏi Phật, thân hữu và tiêu chuẩn không nhận thân khác. Bổ sung vế nghe rồi sẽ biết tại 8.2 vào cả ba bản sau khi tác giả đồng ý, rồi đọc lại.",
+        "logic_context": "Phân biệt lời Channa tự tuyên bố ở 7.6 với xác nhận sau đó của Phật tại 13.9–13.11. Không bịa thời điểm chứng đắc, phương thức hoặc diễn biến tâm giữa lúc hai vị rời đi và cái chết. Các gia đình thân hữu không tự thành chứng cứ đáng trách; lời kết giữ trong phạm vi Channa không chấp thủ thân khác.",
+        "terminology": "Có giải thức là sự nhận biết, sự diệt là chấm dứt và Đạo Sư là Phật; sáu phạm vi và ba phủ định được giữ tách rõ. Tự ngã và chuỗi khuynh hướng–đến đi còn cô đọng, cần đọc chậm, nên không chấm trọn.",
+        "audience_fit": "Giọng tôn trọng, ví đi thăm và hỏi thời điểm phù hợp không gán người cao tuổi là yếu kém hoặc sợ chết. Mười hai phần giúp chia lần đọc, nhưng câu chuyện tự kết liễu và tái sinh vẫn nặng; chưa kiểm với độc giả thật.",
+        "clarity": "Tách phần thân hữu và phần lời kết giúp thấy vì sao quan hệ xã hội chưa đủ làm căn cứ phán xét. Chuỗi điều kiện chia hai đoạn có thể theo; vài từ chuyên môn chưa có ví phụ trợ là giới hạn còn lại.",
+        "editorial_separation": "Ví dụ chăm sóc và gợi ý đọc có loại phần riêng; chú giải giới hạn tự hại nhận rõ là biên tập. Việc giảm chi tiết dữ dội được nói rõ, vẫn giữ bốn nhóm đau và sự việc nghiêm trọng. Không chèn các suy luận hiện đại vào lời Phật hoặc đổi kinh văn.",
+        "practical_integrity": "Nhấn mạnh có thể buông chấp và nhận trợ giúp, không biến độc lập thành từ chối thuốc hay người chăm. Gợi ý hỏi nhu cầu thăm viếng cụ thể, không ép người bệnh kể hay yêu cầu tự đánh giá thành tựu trước cái chết.",
+        "technical_integrity": "auditExplanations(\"mn\",\"mn144\") được người kiểm chạy độc lập: errors=[] và sourceErrors=[]. Năm SHA-256 khớp nguồn đọc thực; map không thiếu hoặc thừa khóa Pāli. Schema, ID, NFC và liên kết qua audit đều đạt. Đây là toàn vẹn bản ghi; test/check/build của PR được root ghi riêng, không mạo nhận đã kiểm giao diện."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm /root/audit_progress (tác tử A) khác tác giả /root/author_b, cùng GPT-6 Astra Pro. Đã đọc toàn bộ năm nguồn thực, toàn bộ bản đồ và đủ ba bản MN144, không chỉ dựa handoff hoặc độ phủ máy. Đã sửa và đọc lại vế 8.2 ở cả ba bản với sự đồng ý của tác giả; không sửa kinh văn. Nội dung older-adults được khóa ở hash 5f6e24070772be7ee4479d2516c1020c73bcab466d471647fc21d6a10db86354. Chưa có học giả Pāli con người hoặc người đọc mục tiêu thử đọc; điểm phù hợp lứa tuổi là nhận định biên tập có giới hạn. Pāli/Anh pin 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt dự án và chú thích tại 0d8afd630e483d8cfee098cbb2f75a58da5fede8. Không nhận pin HTML lịch sử trong chú thích là nguồn mới đã mở; không tự căn HTML theo Bilara hoặc coi ô Anh trống là chứng cứ.",
+      "contentHash": "5f6e24070772be7ee4479d2516c1020c73bcab466d471647fc21d6a10db86354",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn144.html",
+          "sha256": "80a87560d67b59b1c64f85080eeb9969a4c077bb83d326b5e4ac7d07fdc0a73b"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn144_root-pli-ms.json",
+          "sha256": "24305edd78e65e8cddda90b7d939f9486756dcd14a9ac3ef65034ae1d5333c0c"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn144_translation-en-sujato.json",
+          "sha256": "1ca61823a75dbf6e154ab92f1596912c80ebe1c5665e63d57e5dafc8192c3faa"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn144_comment-vi-project.json",
+          "sha256": "c3bf1101945ec90db2b1c1aa855be6ea7f077cf14d3981b1174b8922a19354d6"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn144_translation-vi-project.json",
+          "sha256": "9bc49f99dfaa4a1052597a3cd0849c32b5eebbf30b0143d807aaf0a2d1402ff7"
+        }
+      ]
+    }
+  ]
+}

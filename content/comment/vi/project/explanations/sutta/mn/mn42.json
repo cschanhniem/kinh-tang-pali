@@ -1,0 +1,1257 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn42",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn42_root-pli-ms.json",
+      "sha256": "43cf7751c1a259637768efbe48a178cc725f7f1411d2bd8fcf70677a2e88e2ed",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn42_translation-vi-project.json",
+      "sha256": "b0437e4accecd78625d93690aec4dc7a5f90436276ad8c50b6a719e905f8352b",
+      "commit": "787eb38e2ccf406b14d281e8e297c9f52c027cc7"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn42_translation-en-sujato.json",
+      "sha256": "a866f3e6ef174f41184370f17c99846c2a9924fbf039e1edf8d85f8d32011119",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn42.html",
+      "sha256": "5d49753de6dcb80af1f3fd053da8f2ca01b442bf98d9262a898e0a6aefe6574b",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn42_comment-vi-project.json",
+      "sha256": "f693f802be3155d62b47ac214f6d5bde73252fd184d8be0608f764b2db35eac7",
+      "commit": "787eb38e2ccf406b14d281e8e297c9f52c027cc7"
+    },
+    {
+      "role": "reference",
+      "path": "docs/editorial-mn42-parallel-formulas.md",
+      "sha256": "237b3aa43ae607245492dd6bc7b00249234454e75ff1f839be07629aaea47624"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "nhan",
+      "title": "Tên bộ và bài",
+      "segments": [
+        "mn42:0.1",
+        "mn42:0.2"
+      ],
+      "summary": "Trung Bộ 42, Kinh Verañjaka; nhãn ấn bản."
+    },
+    {
+      "id": "luu-tru",
+      "title": "Những người Verañjā ở Sāvatthī",
+      "segments": [
+        "mn42:1.1",
+        "mn42:1.2",
+        "mn42:2.1",
+        "mn42:2.2",
+        "mn42:2.3"
+      ],
+      "summary": "Người truyền kinh đã nghe; Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika. Các bà-la-môn và gia chủ Verañjā lưu lại thành ấy vì một việc không nêu rõ, nghe Gotama người Sakya xuất gia từ gia tộc ấy đang ở tu viện. Không thêm nghề nghiệp hay mục đích chuyến đi."
+    },
+    {
+      "id": "tieng-lanh",
+      "title": "Danh tiếng và giáo pháp",
+      "segments": [
+        "mn42:2.4",
+        "mn42:2.5",
+        "mn42:2.6",
+        "mn42:2.7",
+        "mn42:2.8"
+      ],
+      "summary": "Tiếng lành gồm các danh hiệu giải thoát, chánh giác, minh hạnh, thiện thệ, thế gian giải, vô thượng điều ngự, thầy trời người, giác ngộ, Thế Tôn. Tự chứng thế giới có trời/Māra/Phạm thiên/sa-môn/bà-la-môn/trời người rồi tuyên thuyết; pháp tốt đầu giữa cuối đủ nghĩa lời, phạm hạnh trọn vẹn thanh tịnh; đáng gặp."
+    },
+    {
+      "id": "gap",
+      "title": "Năm cách đến gặp",
+      "segments": [
+        "mn42:3.1"
+      ],
+      "summary": "Các bà-la-môn/gia chủ đến; có người lễ, chào chuyện thân thiện, chắp tay, xưng tên họ hoặc im lặng; đều ngồi bên rồi hỏi."
+    },
+    {
+      "id": "hoi",
+      "title": "Hai câu hỏi về tái sinh",
+      "segments": [
+        "mn42:4.1",
+        "mn42:4.2"
+      ],
+      "summary": "Hỏi nhân duyên một số hữu tình chết sinh cảnh khổ, xấu, đọa, địa ngục; số khác sinh cảnh lành cõi trời."
+    },
+    {
+      "id": "dap-ngan",
+      "title": "Hai câu đáp ngắn",
+      "segments": [
+        "mn42:5.1",
+        "mn42:5.2"
+      ],
+      "summary": "Trái Pháp/lệch lạc dẫn cảnh dữ sau chết; đúng Pháp/ngay thẳng dẫn cảnh lành trời sau chết."
+    },
+    {
+      "id": "xin-ro",
+      "title": "Xin được giảng chi tiết",
+      "segments": [
+        "mn42:6.1",
+        "mn42:6.2",
+        "mn42:6.3",
+        "mn42:6.4",
+        "mn42:6.5"
+      ],
+      "summary": "Người nghe chưa hiểu lời ngắn nên xin phân tích đầy đủ; Phật mời nghe chú tâm, họ nhận lời, Ngài giảng."
+    },
+    {
+      "id": "muoi-xau",
+      "title": "Ba thân, bốn lời, ba ý",
+      "segments": [
+        "mn42:7.1"
+      ],
+      "summary": "Một người hành xử trái Pháp, lệch lạc theo ba cách bằng thân, bốn bằng lời, ba bằng tâm; giữ danh từ chỉ người của MN42."
+    },
+    {
+      "id": "sat-hai",
+      "title": "Sát sinh",
+      "segments": [
+        "mn42:8.1",
+        "mn42:8.2"
+      ],
+      "summary": "Hỏi ba thân hành; giết sinh vật, hung bạo tay máu, chuyên giết đánh, không thương sinh vật."
+    },
+    {
+      "id": "lay-trom",
+      "title": "Lấy của không cho",
+      "segments": [
+        "mn42:8.3"
+      ],
+      "summary": "Lấy tài sản/vật dụng người khác ở làng hoặc rừng, không được cho, với ý trộm. MN42 lược một phần công thức; nội dung mở rõ được đối chiếu MN41 theo docs/editorial-mn42-parallel-formulas.md, không giả làm nguyên văn đầy đủ tại khóa MN42."
+    },
+    {
+      "id": "ta-hanh",
+      "title": "Tà hạnh trong dục",
+      "segments": [
+        "mn42:8.4",
+        "mn42:8.5"
+      ],
+      "summary": "Quan hệ với phụ nữ do mẹ, cha, cả hai, anh em trai, chị em gái, thân quyến, dòng họ hoặc quy ước bảo hộ; người có chồng, bị chế tài khi xâm phạm, đến người quàng hoa đính ước. Kết ba thân hành; giữ bối cảnh xã hội cổ. MN42 lược một phần công thức; nội dung mở rõ được đối chiếu MN41 theo docs/editorial-mn42-parallel-formulas.md, không giả làm nguyên văn đầy đủ tại khóa MN42."
+    },
+    {
+      "id": "doi",
+      "title": "Nói dối làm chứng",
+      "segments": [
+        "mn42:9.1",
+        "mn42:9.2"
+      ],
+      "summary": "Hỏi bốn lời: làm chứng trước hội đồng, hội chúng, thân tộc, phường hội, triều đình; đảo biết/không biết và thấy/không thấy, cố ý vì mình, người khác hoặc lợi vật chất nhỏ. MN42 lược một phần công thức; nội dung mở rõ được đối chiếu MN41 theo docs/editorial-mn42-parallel-formulas.md, không giả làm nguyên văn đầy đủ tại khóa MN42."
+    },
+    {
+      "id": "chia-re",
+      "title": "Gây chia rẽ",
+      "segments": [
+        "mn42:9.3"
+      ],
+      "summary": "Mang chuyện nghe ở đây sang nơi kia và ngược lại nhằm chia rẽ; phá hòa hợp, tiếp sức chia rẽ, ưa thích và vui trong chia rẽ, nói lời gây chia rẽ. MN42 lược một phần công thức; nội dung mở rõ được đối chiếu MN41 theo docs/editorial-mn42-parallel-formulas.md, không giả làm nguyên văn đầy đủ tại khóa MN42."
+    },
+    {
+      "id": "tho-ac",
+      "title": "Lời thô ác",
+      "segments": [
+        "mn42:9.4"
+      ],
+      "summary": "Lời cộc cằn, gay gắt, gây đau, xúc phạm, gần sân hận, không đưa đến định tĩnh. MN42 lược một phần công thức; nội dung mở rõ được đối chiếu MN41 theo docs/editorial-mn42-parallel-formulas.md, không giả làm nguyên văn đầy đủ tại khóa MN42."
+    },
+    {
+      "id": "vo-ich",
+      "title": "Lời vô ích",
+      "segments": [
+        "mn42:9.5",
+        "mn42:9.6"
+      ],
+      "summary": "Nói sai lúc, không thật, không ích, trái Pháp/Luật; lời vô giá trị, không căn cứ, lan man, vô ích. Kết bốn lời. MN42 lược một phần công thức; nội dung mở rõ được đối chiếu MN41 theo docs/editorial-mn42-parallel-formulas.md, không giả làm nguyên văn đầy đủ tại khóa MN42."
+    },
+    {
+      "id": "tham",
+      "title": "Tham của người khác",
+      "segments": [
+        "mn42:10.1",
+        "mn42:10.2"
+      ],
+      "summary": "Hỏi ba ý; muốn tài vật người khác trở thành của mình. MN42 lược một phần công thức; nội dung mở rõ được đối chiếu MN41 theo docs/editorial-mn42-parallel-formulas.md, không giả làm nguyên văn đầy đủ tại khóa MN42."
+    },
+    {
+      "id": "ac-y",
+      "title": "Ý muốn hủy hại",
+      "segments": [
+        "mn42:10.3"
+      ],
+      "summary": "Tâm ác ý, ý định độc hại, mong chúng sinh bị giết, tàn sát, tiêu diệt, hủy hoại, không còn tồn tại. MN42 lược một phần công thức; nội dung mở rõ được đối chiếu MN41 theo docs/editorial-mn42-parallel-formulas.md, không giả làm nguyên văn đầy đủ tại khóa MN42."
+    },
+    {
+      "id": "ta-kien",
+      "title": "Cái nhìn đảo ngược",
+      "segments": [
+        "mn42:10.4",
+        "mn42:10.5",
+        "mn42:10.6"
+      ],
+      "summary": "Phủ nhận bố thí, cúng tế, lễ vật; quả thiện ác; đời này, đời sau; mẹ, cha; hóa sinh; người tu đúng tự chứng hai thế giới rồi tuyên thuyết. Kết ba ý; không tự dựng thêm hệ siêu hình. MN42 lược một phần công thức; nội dung mở rõ được đối chiếu MN41 theo docs/editorial-mn42-parallel-formulas.md, không giả làm nguyên văn đầy đủ tại khóa MN42."
+    },
+    {
+      "id": "qua-xau",
+      "title": "Kết quả của mười cách xấu",
+      "segments": [
+        "mn42:10.7"
+      ],
+      "summary": "Do hành xử trái Pháp, lệch lạc như vậy, một số hữu tình sau chết sinh cảnh khổ, xấu, đọa lạc, địa ngục."
+    },
+    {
+      "id": "muoi-tot",
+      "title": "Mười cách ngay thẳng",
+      "segments": [
+        "mn42:11.1"
+      ],
+      "summary": "Một người hành xử đúng Pháp, ngay thẳng theo ba cách bằng thân, bốn bằng lời, ba bằng tâm; không đổi chủ thể thành một hệ phân loại trừu tượng."
+    },
+    {
+      "id": "thuong-song",
+      "title": "Không giết và thương sinh vật",
+      "segments": [
+        "mn42:12.1",
+        "mn42:12.2"
+      ],
+      "summary": "Hỏi ba thân: bỏ và tránh sát sinh, đặt gậy và vũ khí xuống, biết hổ thẹn, có lòng thương, hướng tới lợi ích mọi sinh vật."
+    },
+    {
+      "id": "khong-trom",
+      "title": "Không lấy của không cho",
+      "segments": [
+        "mn42:12.3"
+      ],
+      "summary": "Bỏ trộm; tài vật người khác trong làng hoặc ngoài rừng chưa được cho thì không lấy với ý trộm. MN42 lược một phần công thức; nội dung mở rõ được đối chiếu MN41 theo docs/editorial-mn42-parallel-formulas.md, không giả làm nguyên văn đầy đủ tại khóa MN42."
+    },
+    {
+      "id": "khong-ta-hanh",
+      "title": "Tránh tà hạnh",
+      "segments": [
+        "mn42:12.4",
+        "mn42:12.5"
+      ],
+      "summary": "Bỏ tà hạnh, không quan hệ với đủ mười một nhóm phụ nữ đã nêu, gồm các bảo hộ, chồng, chế tài và hoa đính ước. Kết ba thân. MN42 lược một phần công thức; nội dung mở rõ được đối chiếu MN41 theo docs/editorial-mn42-parallel-formulas.md, không giả làm nguyên văn đầy đủ tại khóa MN42."
+    },
+    {
+      "id": "that",
+      "title": "Nói thật khi làm chứng",
+      "segments": [
+        "mn42:13.1",
+        "mn42:13.2"
+      ],
+      "summary": "Hỏi bốn lời: bỏ nói dối; trước năm nơi làm chứng, không biết/biết/không thấy/thấy thì nói đúng; không cố ý dối vì mình, người khác hoặc lợi vật chất. MN42 lược một phần công thức; nội dung mở rõ được đối chiếu MN41 theo docs/editorial-mn42-parallel-formulas.md, không giả làm nguyên văn đầy đủ tại khóa MN42."
+    },
+    {
+      "id": "hoa-hop",
+      "title": "Lời xây hòa hợp",
+      "segments": [
+        "mn42:13.3"
+      ],
+      "summary": "Bỏ chia rẽ, không đem chuyện qua lại để phá quan hệ; hòa giải người chia lìa, củng cố người hòa hợp, yêu thích và vui trong hòa hợp, nói lời tạo hòa hợp. MN42 lược một phần công thức; nội dung mở rõ được đối chiếu MN41 theo docs/editorial-mn42-parallel-formulas.md, không giả làm nguyên văn đầy đủ tại khóa MN42."
+    },
+    {
+      "id": "diu",
+      "title": "Lời dễ đi vào lòng người",
+      "segments": [
+        "mn42:13.4"
+      ],
+      "summary": "Bỏ lời thô ác; nói nhẹ nhàng, êm tai, đáng mến, đi vào lòng, lịch thiệp, được nhiều người yêu thích và vừa ý. MN42 lược một phần công thức; nội dung mở rõ được đối chiếu MN41 theo docs/editorial-mn42-parallel-formulas.md, không giả làm nguyên văn đầy đủ tại khóa MN42."
+    },
+    {
+      "id": "co-ich",
+      "title": "Lời đúng lúc, có ích",
+      "segments": [
+        "mn42:13.5",
+        "mn42:13.6"
+      ],
+      "summary": "Bỏ lời vô ích; nói đúng lúc, thật, có ý nghĩa, hợp Pháp/Luật; lời có giá trị, căn cứ, giới hạn và lợi ích. Kết bốn lời. MN42 lược một phần công thức; nội dung mở rõ được đối chiếu MN41 theo docs/editorial-mn42-parallel-formulas.md, không giả làm nguyên văn đầy đủ tại khóa MN42."
+    },
+    {
+      "id": "khong-tham",
+      "title": "Không tham chiếm",
+      "segments": [
+        "mn42:14.1",
+        "mn42:14.2"
+      ],
+      "summary": "Hỏi ba ý: không mong tài vật của người khác trở thành của mình."
+    },
+    {
+      "id": "tam-lanh",
+      "title": "Mong chúng sinh an vui",
+      "segments": [
+        "mn42:14.3"
+      ],
+      "summary": "Tâm không ác ý, ý không độc hại; mong mọi chúng sinh không oán, không bị hại, không phiền, an vui và tự giữ gìn."
+    },
+    {
+      "id": "chanh-kien",
+      "title": "Cái nhìn không đảo ngược",
+      "segments": [
+        "mn42:14.4",
+        "mn42:14.5",
+        "mn42:14.6"
+      ],
+      "summary": "Nhìn nhận bố thí, cúng tế, lễ vật; quả thiện ác; đời này, đời sau; mẹ, cha; hóa sinh; người tu chân chính tự chứng hai thế giới rồi tuyên thuyết. Kết ba ý. MN42 lược một phần công thức; nội dung mở rõ được đối chiếu MN41 theo docs/editorial-mn42-parallel-formulas.md, không giả làm nguyên văn đầy đủ tại khóa MN42."
+    },
+    {
+      "id": "qua-tot",
+      "title": "Kết quả nếp sống ngay thẳng",
+      "segments": [
+        "mn42:14.7"
+      ],
+      "summary": "Hành xử đúng Pháp, ngay thẳng như thế là nhân để một số hữu tình tái sinh cảnh lành, cõi trời."
+    },
+    {
+      "id": "nguoi-giau",
+      "title": "Ba nguyện tái sinh làm người",
+      "segments": [
+        "mn42:15.1",
+        "mn42:15.2",
+        "mn42:15.3",
+        "mn42:15.4",
+        "mn42:15.5",
+        "mn42:16-17.1",
+        "mn42:16-17.2",
+        "mn42:16-17.3",
+        "mn42:16-17.4",
+        "mn42:16-17.5",
+        "mn42:16-17.6"
+      ],
+      "summary": "Người đúng Pháp, ngay thẳng nguyện sau chết sinh cùng sát-đế-lợi giàu, bà-la-môn giàu hoặc gia chủ giàu; có khả năng vì sống đúng. Giữ điều kiện và khả năng cho cả ba."
+    },
+    {
+      "id": "bon-vua",
+      "title": "Tứ Đại Thiên Vương",
+      "segments": [
+        "mn42:18-42.1",
+        "mn42:18-42.2",
+        "mn42:18-42.3",
+        "mn42:18-42.4",
+        "mn42:18-42.5"
+      ],
+      "summary": "Người đúng Pháp, ngay thẳng nguyện sau chết sinh cùng trời Tứ Đại Thiên Vương; có khả năng vì sống đúng."
+    },
+    {
+      "id": "sau-coi",
+      "title": "Ba Mươi Ba tới Phạm chúng",
+      "segments": [
+        "mn42:18-42.6",
+        "mn42:18-42.7",
+        "mn42:18-42.8",
+        "mn42:18-42.9",
+        "mn42:18-42.10",
+        "mn42:18-42.11",
+        "mn42:18-42.12",
+        "mn42:18-42.13",
+        "mn42:18-42.14",
+        "mn42:18-42.15"
+      ],
+      "summary": "Cùng công thức nguyện, khả năng và lý do cho sáu cõi: Tāvatiṁsa, Yāma, Tusita, Nimmānaratī, Paranimmitavasavattī, Brahmakāyikā."
+    },
+    {
+      "id": "quang",
+      "title": "Quang Thiên",
+      "segments": [
+        "mn42:18-42.16",
+        "mn42:18-42.17",
+        "mn42:18-42.18",
+        "mn42:18-42.19",
+        "mn42:18-42.20"
+      ],
+      "summary": "Cùng công thức nguyện, khả năng và lý do sống đúng cho Ābha."
+    },
+    {
+      "id": "sang-tinh",
+      "title": "Từ Thiểu Quang tới Quảng Quả",
+      "segments": [
+        "mn42:18-42.21",
+        "mn42:18-42.22",
+        "mn42:18-42.23",
+        "mn42:18-42.24",
+        "mn42:18-42.25",
+        "mn42:18-42.26",
+        "mn42:18-42.27",
+        "mn42:18-42.28"
+      ],
+      "summary": "Mở công thức người sống đúng/nguyện: Parittābha, Appamāṇābha, Ābhassara, Parittasubha, Appamāṇasubha, Subhakiṇha, Vehapphala. Không thêm Subha có trong HTML mà vắng ở Pāli đã pin."
+    },
+    {
+      "id": "nam-coi",
+      "title": "Năm tên cõi tiếp theo",
+      "segments": [
+        "mn42:18-42.29",
+        "mn42:18-42.30",
+        "mn42:18-42.31",
+        "mn42:18-42.32",
+        "mn42:18-42.33"
+      ],
+      "summary": "Tiếp cùng công thức: Aviha, Atappa, Sudassa, Sudassī, Akaniṭṭha."
+    },
+    {
+      "id": "bon-vo-sac",
+      "title": "Bốn xứ cuối danh sách",
+      "segments": [
+        "mn42:18-42.34",
+        "mn42:18-42.35",
+        "mn42:18-42.36",
+        "mn42:18-42.37",
+        "mn42:18-42.38",
+        "mn42:18-42.39",
+        "mn42:18-42.40"
+      ],
+      "summary": "Tiếp Không vô biên, Thức vô biên, Vô sở hữu, Phi tưởng phi phi tưởng; kết khả năng sinh cùng chư thiên sau chết, vì sống đúng. Tổng hai mươi bốn cõi theo khóa thực, không đếm từ nhãn 18–42."
+    },
+    {
+      "id": "giai-thoat",
+      "title": "Giải thoát ngay đời này",
+      "segments": [
+        "mn42:43.1",
+        "mn42:43.2",
+        "mn42:43.3",
+        "mn42:43.4",
+        "mn42:43.5"
+      ],
+      "summary": "Người đúng Pháp, ngay thẳng nguyện tự chứng bằng thắng trí và an trú tâm giải thoát, tuệ giải thoát vô lậu do lậu tận ngay đời này; có khả năng vì sống đúng. Khác các đích tái sinh."
+    },
+    {
+      "id": "ket",
+      "title": "Lời tán thán và quy y",
+      "segments": [
+        "mn42:44.1",
+        "mn42:44.2",
+        "mn42:44.3",
+        "mn42:44.4",
+        "mn42:44.5",
+        "mn42:44.6"
+      ],
+      "summary": "Người Verañjā hai lần tán thán, ví dựng vật lật, mở điều bị che, chỉ đường, cầm đèn cho người có mắt thấy; xin quy y Phật/Pháp/Tăng làm cư sĩ từ nay trọn đời. Nhãn thứ hai trong nhóm; không thêm chứng đắc."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Hỏi cho rõ, rồi tập sống ngay thẳng",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "visit",
+          "kind": "teaching",
+          "heading": "Những vị khách tìm đến một người thầy",
+          "paragraphs": [
+            "Kinh Verañjaka là bài MN42 của Trung Bộ. Người truyền kinh kể điều mình đã nghe: Đức Phật đang ở Sāvatthī, trong rừng Jeta, tại tu viện của Anāthapiṇḍika. Có các bà-la-môn và gia chủ từ Verañjā đang ở thành ấy vì một công việc. Kinh không nói đó là công việc gì.",
+            "Bà-la-môn là người thuộc một truyền thống tôn giáo thời ấy; gia chủ là người sống đời gia đình. Họ nghe sa-môn Gotama, người Sakya đã rời gia tộc để đi tu, đang ở tu viện. Danh tiếng Ngài lan xa: đã giải thoát, giác ngộ hoàn toàn, đầy đủ hiểu biết và cách sống tốt, khéo đi trên con đường, hiểu thế gian; hướng dẫn người cần rèn luyện không ai hơn; là thầy của trời và người, bậc Giác Ngộ đáng kính.",
+            "Họ còn nghe Ngài tự biết rõ thế giới có chư thiên, Māra, Phạm thiên, các nhà tu, bà-la-môn, trời và người rồi giảng điều đã biết. Māra thường được gọi là Ma vương; Phạm thiên là một bậc trời được nói đến trong kinh. Giáo pháp tốt đẹp từ đầu đến giữa và cuối, có đủ ý nghĩa và lời, chỉ rõ đời tu trong sạch, trọn vẹn. Họ nghĩ được gặp một bậc đã giải thoát như vậy là điều tốt.",
+            "Họ đến gặp Ngài. Người kính lễ, người chào hỏi thân thiện, người chắp tay, người xưng tên họ, người im lặng; sau đó cùng ngồi một bên để hỏi."
+          ],
+          "meaningUnits": [
+            "nhan",
+            "luu-tru",
+            "tieng-lanh",
+            "gap"
+          ]
+        },
+        {
+          "id": "ask",
+          "kind": "teaching",
+          "heading": "Chưa hiểu thì hỏi thêm",
+          "paragraphs": [
+            "Những người Verañjā hỏi vì sao có chúng sinh sau khi chết sinh vào cảnh khổ, nơi xấu, chốn đọa lạc, địa ngục, còn những chúng sinh khác sinh vào cảnh lành, cõi trời. Đức Phật nói do hành xử trái Pháp, lệch lạc mà có chúng sinh sinh vào cảnh khổ; do hành xử đúng Pháp, ngay thẳng mà có chúng sinh sinh vào cảnh lành. Pháp ở đây là lời dạy và đường sống chân chính.",
+            "Họ thưa rằng lời đáp còn ngắn, mình chưa hiểu rõ, và xin được giảng kỹ. Đức Phật bảo họ lắng nghe, chú tâm; họ nhận lời. Ngài giải thích một người có thể sống lệch lạc theo ba cách bằng thân, bốn cách bằng lời và ba cách bằng ý nghĩ."
+          ],
+          "meaningUnits": [
+            "hoi",
+            "dap-ngan",
+            "xin-ro",
+            "muoi-xau"
+          ]
+        },
+        {
+          "id": "reading",
+          "kind": "clarification",
+          "heading": "Cách đọc những đoạn được viết ngắn",
+          "paragraphs": [
+            "Lời người biên soạn: trong bản kinh này, nhiều công thức quen được viết lược. Phần dưới diễn giải đầy đủ các ý ấy nhờ đối chiếu bài MN41 và bản Việt tham khảo của MN42. Bối cảnh và người hỏi vẫn là của MN42. Ghi chú nguồn cho biết rõ chỗ nào đã được mở ra để dễ đọc."
+          ],
+          "meaningUnits": [
+            "lay-trom",
+            "ta-hanh",
+            "doi",
+            "chia-re",
+            "tho-ac",
+            "vo-ich",
+            "tham",
+            "ac-y",
+            "ta-kien",
+            "khong-trom",
+            "khong-ta-hanh",
+            "that",
+            "hoa-hop",
+            "diu",
+            "co-ich",
+            "chanh-kien"
+          ]
+        },
+        {
+          "id": "body-harm",
+          "kind": "teaching",
+          "heading": "Ba cách làm bằng thân cần tránh",
+          "paragraphs": [
+            "Một người giết sinh vật, sống hung bạo, tay vấy máu, quen giết và đánh đập, không thương các loài sống: đó là cách thứ nhất. Cách thứ hai là lấy tài sản hay đồ dùng người khác chưa cho, dù ở trong làng hay ngoài rừng, với ý trộm.",
+            "Cách thứ ba là tà hạnh trong dục, làm sai trong chuyện gần gũi thân thể riêng tư của người lớn. Danh sách nói tới quan hệ với phụ nữ được mẹ, cha, cả cha mẹ, anh em trai, chị em gái, thân quyến, dòng họ hoặc quy ước bảo hộ; người có chồng, người mà việc xâm phạm bị phạt, kể cả người đeo vòng hoa đính ước. Đó là cách kể theo quan hệ gia đình và hôn nhân thời ấy; không phải coi một người là đồ vật của ai."
+          ],
+          "meaningUnits": [
+            "sat-hai",
+            "lay-trom",
+            "ta-hanh"
+          ]
+        },
+        {
+          "id": "lying",
+          "kind": "teaching",
+          "heading": "Biết đến đâu, nói đến đó",
+          "paragraphs": [
+            "Trong bốn cách nói lệch lạc, trước hết là cố ý nói dối. Người được gọi làm chứng có thể đang trước hội đồng, hội chúng, họ hàng, phường hội hay triều đình. Không biết mà nói biết, biết mà nói không biết; không thấy mà nói thấy, thấy mà nói không thấy đều làm sai điều mình biết.",
+            "Người ấy có thể nói dối vì muốn lợi cho mình, cho người khác hoặc chỉ vì một món lợi vật chất nhỏ. Lời kể vẫn gọi đó là cố ý nói sai."
+          ],
+          "meaningUnits": [
+            "doi"
+          ]
+        },
+        {
+          "id": "other-speech",
+          "kind": "teaching",
+          "heading": "Lời khiến người khác xa nhau hoặc đau lòng",
+          "paragraphs": [
+            "Một cách khác là đem chuyện nghe bên này sang bên kia để chia rẽ, rồi làm theo chiều ngược lại cũng với ý ấy. Người nói phá sự hòa hợp, giúp cho người đã xa nhau càng xa hơn, thích và vui với việc chia rẽ, nói lời gây chia rẽ.",
+            "Lời thô ác thì cộc cằn, gay gắt, làm đau, xúc phạm, gần với giận dữ, không giúp tâm yên vững. Lời vô ích thì sai lúc, không thật, không giúp điều tốt, trái lời dạy và phép rèn luyện; không đáng giữ, thiếu căn cứ, lan man, không có lợi. Như vậy đủ bốn cách sai bằng lời."
+          ],
+          "meaningUnits": [
+            "chia-re",
+            "tho-ac",
+            "vo-ich"
+          ]
+        },
+        {
+          "id": "mind-harm",
+          "kind": "teaching",
+          "heading": "Điều đang được nuôi trong tâm",
+          "paragraphs": [
+            "Ba cách lệch lạc bằng tâm bắt đầu bằng tham muốn đồ đạc, tài sản của người khác thành của mình. Kế đến là ác ý: nuôi ý định độc hại, mong chúng sinh bị giết, tàn sát, tiêu diệt, hủy hoại, không còn tồn tại.",
+            "Cách thứ ba là tà kiến, nhìn điều ấy một cách đảo ngược. Công thức nói đến việc phủ nhận ý nghĩa của cho tặng, cúng tế và lễ vật; phủ nhận kết quả việc tốt xấu, đời này, đời sau, mẹ, cha, chúng sinh hóa sinh; phủ nhận có người tu chân chính tự biết rõ đời này và đời sau rồi giảng lại. Hóa sinh là cách sinh hiện ra được nói trong thế giới quan của kinh.",
+            "Lời về mẹ cha được giải trong mạch đạo đức và quan hệ: không phải trò đoán xem cha mẹ có đang đứng trước mắt hay không. Đức Phật kết rằng do cách sống trái Pháp, lệch lạc ấy, có chúng sinh sau khi chết đi tới cảnh khổ và địa ngục."
+          ],
+          "meaningUnits": [
+            "tham",
+            "ac-y",
+            "ta-kien",
+            "qua-xau"
+          ]
+        },
+        {
+          "id": "body-care",
+          "kind": "teaching",
+          "heading": "Một người có thể sống theo hướng khác",
+          "paragraphs": [
+            "Rồi Ngài chỉ rõ người sống đúng cũng có ba cách bằng thân, bốn bằng lời, ba bằng tâm. Về thân, người ấy từ bỏ giết hại, đặt gậy và vũ khí xuống, biết hổ thẹn với điều xấu, có lòng thương và quan tâm lợi ích của mọi sinh vật.",
+            "Người ấy không lấy tài vật chưa được cho ở làng hay rừng với ý trộm. Người ấy bỏ tà hạnh trong chuyện riêng tư, không quan hệ với phụ nữ thuộc những trường hợp bảo hộ, có chồng, chế tài hoặc đính ước đã kể. Cả ba đều hướng thân về phía bớt gây hại."
+          ],
+          "meaningUnits": [
+            "muoi-tot",
+            "thuong-song",
+            "khong-trom",
+            "khong-ta-hanh"
+          ]
+        },
+        {
+          "id": "true-speech",
+          "kind": "teaching",
+          "heading": "Nói thật và giúp người ta hòa hợp",
+          "paragraphs": [
+            "Khi làm chứng trước cùng năm nơi, người sống đúng nói rõ: biết thì biết, không biết thì không biết; thấy thì thấy, không thấy thì không thấy. Người ấy không cố ý nói sai vì mình, vì người khác hoặc một món lợi.",
+            "Người ấy cũng không mang chuyện qua lại nhằm chia rẽ. Họ giúp người đã xa nhau hòa giải, nâng đỡ người đang hòa hợp, yêu thích và vui trong sự hòa hợp, nói lời tạo hòa hợp."
+          ],
+          "meaningUnits": [
+            "that",
+            "hoa-hop"
+          ]
+        },
+        {
+          "id": "kind-speech",
+          "kind": "teaching",
+          "heading": "Lời dịu dàng và có ích",
+          "paragraphs": [
+            "Người ấy bỏ lời thô ác, dùng lời nhẹ nhàng, êm tai, đáng mến, đi vào lòng, lịch thiệp, được nhiều người yêu thích và dễ tiếp nhận.",
+            "Bỏ lời vô ích, người ấy nói đúng lúc, thật, có ý nghĩa, hợp lời dạy và phép rèn luyện. Lời đáng giữ, có căn cứ, có giới hạn, đem lợi ích. Nói có giới hạn giúp người nghe biết đâu là điều mình thực sự hiểu."
+          ],
+          "meaningUnits": [
+            "diu",
+            "co-ich"
+          ]
+        },
+        {
+          "id": "kind-mind",
+          "kind": "teaching",
+          "heading": "Mong người khác được bình an",
+          "paragraphs": [
+            "Trong tâm, người ấy không mong đồ của người khác thành của mình. Thay vì ác ý, người ấy mong các chúng sinh không oán thù, không bị hại, không phiền não, được an vui và tự giữ gìn mình.",
+            "Người ấy có chánh kiến: nhìn nhận ý nghĩa của cho tặng, cúng tế, lễ vật; việc thiện ác có kết quả; có đời này, đời sau, mẹ, cha, chúng sinh hóa sinh và người tu chân chính tự biết rõ hai đời rồi giảng lại. Đây là toàn mặt đối lại với cái nhìn sai vừa nêu. Đức Phật nói cách sống đúng Pháp và ngay thẳng ấy là nhân để có chúng sinh sinh vào cảnh lành, cõi trời sau khi chết."
+          ],
+          "meaningUnits": [
+            "khong-tham",
+            "tam-lanh",
+            "chanh-kien",
+            "qua-tot"
+          ]
+        },
+        {
+          "id": "human-wishes",
+          "kind": "teaching",
+          "heading": "Điều ước đi cùng cách sống",
+          "paragraphs": [
+            "Người sống đúng Pháp, ngay thẳng có thể mong sau khi chết sinh trong gia đình giàu có thuộc ba nhóm: sát-đế-lợi, tầng lớp cầm quyền thời ấy; bà-la-môn; hoặc gia chủ. Mỗi lần, lời kinh đều nói điều ấy có khả năng xảy ra, vì người ấy sống đúng và ngay thẳng. Không phải chỉ cần ước là chắc chắn thành."
+          ],
+          "meaningUnits": [
+            "nguoi-giau"
+          ]
+        },
+        {
+          "id": "heaven-one",
+          "kind": "teaching",
+          "heading": "Những tên cõi trong bài kinh",
+          "paragraphs": [
+            "Cùng một cách nói ấy, người sống đúng có thể nguyện sinh cùng chư thiên Tứ Đại Thiên Vương; Ba Mươi Ba, Tāvatiṁsa; Dạ-ma, Yāma; Đâu-suất, Tusita; Hóa Lạc, Nimmānaratī; Tha Hóa Tự Tại, Paranimmitavasavattī; Phạm chúng; Quang Thiên, Ābha.",
+            "Các tên tiếp là Thiểu Quang, Vô Lượng Quang, Quang Âm; Thiểu Tịnh, Vô Lượng Tịnh, Biến Tịnh; Quảng Quả. Đây là tên cảnh giới được kinh kể, không phải những chỗ có thể tìm trên bản đồ đường phố."
+          ],
+          "meaningUnits": [
+            "bon-vua",
+            "sau-coi",
+            "quang",
+            "sang-tinh"
+          ]
+        },
+        {
+          "id": "heaven-two",
+          "kind": "teaching",
+          "heading": "Giữ cả điều kiện của những nguyện ấy",
+          "paragraphs": [
+            "Kinh còn kể Vô Phiền, Vô Nhiệt, Thiện Hiện, Thiện Kiến, Sắc Cứu Cánh. Bốn tên cuối là Không vô biên xứ, gắn với không gian không giới hạn; Thức vô biên xứ, gắn với thức không giới hạn; Vô sở hữu xứ, gọi là không có gì; Phi tưởng phi phi tưởng xứ, với nhận biết rất vi tế, không gọi đơn giản là có tưởng hay không tưởng.",
+            "Có hai mươi bốn tên cõi tất cả. Mỗi nguyện sinh cùng chư thiên ấy đều đi với khả năng và cùng lý do là nếp sống đúng, ngay thẳng."
+          ],
+          "meaningUnits": [
+            "nam-coi",
+            "bon-vo-sac"
+          ]
+        },
+        {
+          "id": "freedom",
+          "kind": "teaching",
+          "heading": "Đích cuối được nói ngay trong đời này",
+          "paragraphs": [
+            "Sau những nguyện về tái sinh, Đức Phật nói người sống đúng có thể mong tự mình biết, chứng và an trú tâm giải thoát, tuệ giải thoát ngay đời này, do các lậu hoặc đã hết. Lậu hoặc là những ô nhiễm sâu trói buộc tâm; giải thoát ở đây không còn bị chúng giữ lại.",
+            "Ngài nói có khả năng đạt điều ấy vì người đó sống đúng và ngay thẳng. Lần này đích đến là giải thoát ngay hiện tại, khác với việc sinh vào một cõi tốt sau khi chết."
+          ],
+          "meaningUnits": [
+            "giai-thoat"
+          ]
+        },
+        {
+          "id": "response",
+          "kind": "teaching",
+          "heading": "Người nghe xin nương theo lời dạy",
+          "paragraphs": [
+            "Các bà-la-môn và gia chủ Verañjā tán thán hai lần. Họ ví lời giảng như dựng lại vật bị lật, mở điều bị che, chỉ đường cho người lạc, hoặc cầm đèn trong tối để người có mắt thấy được.",
+            "Họ xin nương tựa Phật, lời dạy và Tăng chúng, xin được ghi nhận là cư sĩ quy y từ hôm ấy đến hết đời. Kinh không kể họ đã chứng một tầng tu nào. Dòng cuối ghi bài thứ hai trong nhóm; mã của bài vẫn là MN42."
+          ],
+          "meaningUnits": [
+            "ket"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: hỏi rõ việc của một nhóm",
+          "paragraphs": [
+            "Ví dụ hiện đại: nhóm em làm một tấm bảng cho lớp. Có bạn nói phần việc của mình đã xong, nhưng em chưa hiểu xong nghĩa là đã vẽ hay đã cả tô màu. Em có thể hỏi rõ, nghe câu trả lời rồi mới báo với nhóm. Nếu còn thiếu phần nào, cùng chia lại việc sẽ có ích hơn kể chuyện để các bạn trách nhau.",
+            "Tình huống này do người biên soạn đặt ra. Nó giúp thấy việc hỏi để hiểu, nói đúng điều mình biết và giữ sự hòa hợp có thể đi cùng nhau."
+          ],
+          "meaningUnits": [
+            "xin-ro",
+            "doi",
+            "that",
+            "hoa-hop",
+            "co-ich"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Hỏi một câu để hiểu thêm",
+          "paragraphs": [
+            "Gợi ý thực hành hiện đại: khi nghe điều chưa rõ, em thử nói mình đã hiểu phần nào và muốn hỏi thêm phần nào. Hôm nay, chọn một việc không gây hại, một lời chân thật và một lúc mong người khác được an vui.",
+            "Em có thể nhờ người lớn đáng tin giúp nếu gặp chuyện khó. Việc nhỏ ấy là bước học và rèn, không phải cách chấm em tốt hay xấu mãi mãi hoặc chứng nhận một thành tựu tu tập."
+          ],
+          "meaningUnits": [
+            "xin-ro",
+            "thuong-song",
+            "that",
+            "tam-lanh"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Từ điều chưa hiểu tới nếp sống có căn cứ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Một cuộc gặp trong thời gian lưu lại Sāvatthī",
+          "paragraphs": [
+            "MN42, Kinh Verañjaka thuộc Trung Bộ, bắt đầu bằng lời người truyền tụng đã nghe. Đức Phật trú ở Sāvatthī, tại rừng Jeta, tu viện của Anāthapiṇḍika. Các bà-la-môn và gia chủ từ Verañjā đang ở Sāvatthī vì một công việc nào đó; văn bản không cho biết nghề nghiệp hoặc mục đích cụ thể của họ.",
+            "Họ nghe sa-môn Gotama, người Sakya xuất gia từ gia tộc Sakya, đang ở nơi ấy. Tình huống này khác cuộc viếng làng Sālā ở MN41, dù phần giảng sau đó gần nhau."
+          ],
+          "meaningUnits": [
+            "nhan",
+            "luu-tru"
+          ]
+        },
+        {
+          "id": "reputation",
+          "kind": "teaching",
+          "heading": "Danh tiếng dẫn tới cuộc đối thoại",
+          "paragraphs": [
+            "Tiếng lành gọi Ngài là A-la-hán, bậc đã giải thoát; Chánh Đẳng Giác, giác ngộ trọn vẹn và đúng đắn; đầy đủ minh và hạnh, tức hiểu biết và nếp sống; Thiện Thệ, bậc đã đi đến đích tốt lành; bậc hiểu thế gian; người điều phục tối thượng những ai cần rèn luyện; thầy của trời và người; bậc Giác Ngộ, Thế Tôn. Ngài tự chứng bằng thắng trí thế giới có chư thiên, Māra, Phạm thiên, sa-môn, bà-la-môn, trời và người rồi tuyên thuyết.",
+            "Người Verañjā còn nghe giáo pháp Ngài tốt ở đầu, giữa và cuối, đầy đủ ý nghĩa và lời văn, trình bày phạm hạnh, đời sống tu tập hoàn toàn viên mãn và thanh tịnh. Nghĩ được gặp một bậc giải thoát như vậy là tốt, họ đến. Có người đảnh lễ, chào chuyện thân hữu, chắp tay, xưng tên họ hoặc giữ im lặng; họ đều ngồi một bên."
+          ],
+          "meaningUnits": [
+            "tieng-lanh",
+            "gap"
+          ]
+        },
+        {
+          "id": "question",
+          "kind": "teaching",
+          "heading": "Từ một đáp án khái quát tới hành vi cụ thể",
+          "paragraphs": [
+            "Họ hỏi về nhân và duyên khiến một số hữu tình sau khi chết tái sinh vào cảnh khổ, nơi xấu, đọa lạc, địa ngục, trong khi số khác sinh cảnh lành, cõi trời. Đức Phật trả lời rằng nguyên nhân là hành xử trái Pháp và lệch lạc, hoặc đúng Pháp và ngay thẳng.",
+            "Người nghe nhận mình chưa hiểu đầy đủ câu trả lời ngắn và xin Ngài phân tích. Đức Phật mời họ lắng nghe, chú tâm; họ nhận lời. Phần giải thích bắt đầu với người hành xử lệch lạc theo ba cách về thân, bốn về lời, ba về tâm. Chủ thể là người đang làm, nói và nuôi dưỡng ý hướng."
+          ],
+          "meaningUnits": [
+            "hoi",
+            "dap-ngan",
+            "xin-ro",
+            "muoi-xau"
+          ]
+        },
+        {
+          "id": "ellipsis",
+          "kind": "clarification",
+          "heading": "Căn cứ của phần diễn giải những công thức lược",
+          "paragraphs": [
+            "Lưu ý biên tập: nhiều đoạn MN42 chỉ ghi phần đầu và cuối của công thức. Bản diễn giải mở rõ chúng từ các đoạn song song MN41 đã đối chiếu, cùng bản Việt Minh Châu của MN42. Hồ sơ nguồn ghi từng vị trí và giới hạn; kinh văn MN42 vẫn giữ dấu lược."
+          ],
+          "meaningUnits": [
+            "lay-trom",
+            "ta-hanh",
+            "doi",
+            "chia-re",
+            "tho-ac",
+            "vo-ich",
+            "tham",
+            "ac-y",
+            "ta-kien",
+            "khong-trom",
+            "khong-ta-hanh",
+            "that",
+            "hoa-hop",
+            "diu",
+            "co-ich",
+            "chanh-kien"
+          ]
+        },
+        {
+          "id": "body-wrong",
+          "kind": "teaching",
+          "heading": "Ba cách sống lệch lạc qua thân",
+          "paragraphs": [
+            "Thứ nhất, người ấy sát sinh, hung bạo, tay vấy máu, chuyên giết và đánh đập, không có lòng thương sinh vật. Thứ hai, người ấy lấy tài sản hay vật dụng người khác ở trong làng hoặc ngoài rừng, chưa được cho, với ý trộm cắp.",
+            "Thứ ba là tà hạnh trong dục. Công thức cổ liệt kê quan hệ với phụ nữ được mẹ, cha, cả cha mẹ, anh em trai, chị em gái, thân quyến, dòng họ hoặc quy ước bảo hộ; người có chồng, người mà việc xâm phạm bị chế tài, kể cả người được quàng vòng hoa đính ước. Danh sách phản ánh các quan hệ bảo hộ, hôn nhân và chế tài trong xã hội được bài kinh nói tới."
+          ],
+          "meaningUnits": [
+            "sat-hai",
+            "lay-trom",
+            "ta-hanh"
+          ]
+        },
+        {
+          "id": "speech-wrong",
+          "kind": "teaching",
+          "heading": "Bốn cách làm lệch sự thật và quan hệ",
+          "paragraphs": [
+            "Nói dối được đặt trong cảnh làm chứng trước hội đồng, hội chúng, thân tộc, phường hội hay triều đình. Người ấy không biết nói biết, biết nói không biết; không thấy nói thấy, thấy nói không thấy. Sự đổi trắng thay đen là cố ý, vì mình, vì người khác hoặc vì một lợi vật chất nhỏ.",
+            "Nói chia rẽ là chuyển chuyện nghe bên này sang bên kia và ngược lại nhằm chia rẽ; phá người đang hòa hợp, tiếp sức người đã chia lìa, yêu thích và vui trong chia rẽ, nói lời tạo chia rẽ.",
+            "Nói thô ác là lời cộc cằn, gay gắt, gây đau, xúc phạm, gần sân hận và không đưa đến định tĩnh. Nói vô ích là sai thời, không thật, không lợi ích, trái Pháp và Luật; lời không đáng giữ, thiếu căn cứ, lan man, không giúp điều có ích. Mỗi loại cho thấy cả nội dung và ý hướng của người nói."
+          ],
+          "meaningUnits": [
+            "doi",
+            "chia-re",
+            "tho-ac",
+            "vo-ich"
+          ]
+        },
+        {
+          "id": "mind-wrong",
+          "kind": "teaching",
+          "heading": "Ba cách lệch lạc ở ý hướng và cái nhìn",
+          "paragraphs": [
+            "Người ấy tham, muốn tài vật của người khác trở thành của mình. Người ấy có ác ý và ý định độc hại, mong chúng sinh bị giết, tàn sát, tiêu diệt, hủy hoại và không còn tồn tại.",
+            "Người ấy có tà kiến, thấy đảo ngược: phủ nhận ý nghĩa bố thí, cúng tế, lễ vật; phủ nhận quả của nghiệp thiện ác; đời này, đời sau, mẹ, cha, chúng sinh hóa sinh; phủ nhận có sa-môn, bà-la-môn đi đúng đường, thực hành đúng, tự chứng đời này và đời sau rồi tuyên thuyết.",
+            "Hóa sinh là một cách sinh hiện ra trong thế giới quan của kinh. Cụm mẹ, cha được đọc trong mạch quan hệ đạo đức và giá trị hành động, không như một phủ nhận đơn giản về sự hiện hữu nhìn thấy được. Đức Phật nói chính lối sống trái Pháp, lệch lạc như vậy là nhân khiến một số hữu tình tái sinh vào cảnh khổ và địa ngục."
+          ],
+          "meaningUnits": [
+            "tham",
+            "ac-y",
+            "ta-kien",
+            "qua-xau"
+          ]
+        },
+        {
+          "id": "body-right",
+          "kind": "teaching",
+          "heading": "Sự ngay thẳng bắt đầu từ thân hành",
+          "paragraphs": [
+            "Ở chiều tích cực, một người cũng hành xử đúng Pháp và ngay thẳng theo ba cách bằng thân, bốn bằng lời, ba bằng tâm. Người ấy bỏ sát sinh, đặt gậy và vũ khí xuống, biết hổ thẹn với điều xấu, có lòng thương và sống vì lợi ích của mọi sinh vật.",
+            "Người ấy bỏ lấy của không cho: tài vật người khác ở làng hoặc rừng, chưa được cho thì không lấy với ý trộm. Người ấy bỏ tà hạnh, không quan hệ với phụ nữ trong đầy đủ các trường hợp bảo hộ, hôn nhân, chế tài và đính ước đã nêu. Giữ thân ngay thẳng bao gồm cả sự từ bỏ lẫn thái độ thương tưởng."
+          ],
+          "meaningUnits": [
+            "muoi-tot",
+            "thuong-song",
+            "khong-trom",
+            "khong-ta-hanh"
+          ]
+        },
+        {
+          "id": "speech-right",
+          "kind": "teaching",
+          "heading": "Sự thật cần một cách nói thích hợp",
+          "paragraphs": [
+            "Trước cùng năm bối cảnh làm chứng, biết thì nhận biết, không biết nhận không biết; thấy nhận thấy, không thấy nhận không thấy. Người ấy không cố ý nói dối vì mình, vì người hoặc lợi vật chất.",
+            "Từ bỏ lời chia rẽ, người ấy không đưa chuyện giữa hai bên để phá quan hệ. Họ hòa giải người đã xa nhau, củng cố người hòa hợp, ưa thích và vui trong hòa hợp, nói lời tạo hòa hợp. Bỏ lời thô ác, họ dùng lời nhẹ nhàng, êm tai, đáng mến, đi vào lòng, lịch thiệp, được nhiều người yêu thích và vừa ý.",
+            "Bỏ lời vô ích, họ nói đúng lúc, thật, có ý nghĩa, hợp Pháp và Luật; lời đáng giữ, có căn cứ, có giới hạn và đem lợi ích. Sự đúng đắn của lời không chỉ xét một câu có sai dữ kiện hay không, mà còn xét mục đích và cách nó được dùng."
+          ],
+          "meaningUnits": [
+            "that",
+            "hoa-hop",
+            "diu",
+            "co-ich"
+          ]
+        },
+        {
+          "id": "mind-right",
+          "kind": "teaching",
+          "heading": "Không chiếm đoạt, không hủy hại, không đảo ngược",
+          "paragraphs": [
+            "Người ấy không tham muốn tài vật người khác thành của mình. Không có ác ý và ý định độc hại, người ấy mong các chúng sinh không oán thù, không bị hại, không phiền não, sống an vui và tự giữ gìn.",
+            "Chánh kiến giữ trọn mặt đối lại: có ý nghĩa của bố thí, cúng tế, lễ vật; có quả thiện ác; có đời này, đời sau, mẹ, cha, chúng sinh hóa sinh; có người tu chân chính trực tiếp chứng hai thế giới ấy rồi tuyên thuyết. Đó là cái nhìn không đảo ngược. Nếp sống đúng Pháp, ngay thẳng như thế là nhân để một số hữu tình sau khi chết sinh cảnh lành, cõi trời."
+          ],
+          "meaningUnits": [
+            "khong-tham",
+            "tam-lanh",
+            "chanh-kien",
+            "qua-tot"
+          ]
+        },
+        {
+          "id": "wishes",
+          "kind": "teaching",
+          "heading": "Nguyện vọng có nền từ nếp sống",
+          "paragraphs": [
+            "Nếu người sống đúng Pháp, ngay thẳng nguyện sau khi chết sinh cùng gia đình sát-đế-lợi giàu có, tức tầng lớp cầm quyền thời ấy, thì có khả năng xảy ra, vì người ấy sống như vậy. Cùng cấu trúc áp dụng cho gia đình bà-la-môn giàu có và gia đình gia chủ giàu có.",
+            "Kinh chuyển sang nguyện sinh cùng chư thiên Tứ Đại Thiên Vương; Tāvatiṁsa, Ba Mươi Ba; Yāma, Dạ-ma; Tusita, Đâu-suất; Nimmānaratī, Hóa Lạc; Paranimmitavasavattī, Tha Hóa Tự Tại; Phạm chúng; Ābha, Quang Thiên. Mỗi trường hợp vẫn đủ người sống đúng, ước nguyện, khả năng và lý do. Một lời ước tự nó không được nêu như bảo đảm."
+          ],
+          "meaningUnits": [
+            "nguoi-giau",
+            "bon-vua",
+            "sau-coi",
+            "quang"
+          ]
+        },
+        {
+          "id": "destinations",
+          "kind": "teaching",
+          "heading": "Các cảnh giới được hướng đến",
+          "paragraphs": [
+            "Các đích tiếp theo là Thiểu Quang, Vô Lượng Quang, Quang Âm; Thiểu Tịnh, Vô Lượng Tịnh, Biến Tịnh; Quảng Quả; Vô Phiền, Vô Nhiệt, Thiện Hiện, Thiện Kiến, Sắc Cứu Cánh.",
+            "Bốn tên cuối là Không vô biên xứ, Thức vô biên xứ, Vô sở hữu xứ, Phi tưởng phi phi tưởng xứ: lần lượt gắn với không gian vô biên, thức vô biên, không có gì, và tưởng rất vi tế không thể nói đơn giản là có hay không. Ở đoạn này, đó là các cảnh giới tái sinh được nguyện sinh cùng chư thiên, không chỉ tên một cảm giác bình an.",
+            "Có hai mươi bốn tên cõi trong danh sách Pāli. Với toàn bộ, lời giải thích vẫn là có khả năng do sống đúng Pháp, ngay thẳng. Không đổi khả năng thành kết quả tất định; cũng không suy ngược từ giàu nghèo hoặc cảnh khổ hiện tại để phán quyết phẩm hạnh một người."
+          ],
+          "meaningUnits": [
+            "sang-tinh",
+            "nam-coi",
+            "bon-vo-sac"
+          ]
+        },
+        {
+          "id": "liberation",
+          "kind": "teaching",
+          "heading": "Sự chuyển hướng tới giải thoát hiện tại",
+          "paragraphs": [
+            "Ở cuối chuỗi, người sống đúng Pháp, ngay thẳng có thể nguyện nhờ đoạn tận lậu hoặc mà tự mình trực tiếp biết, chứng ngộ và an trú ngay đời này trong tâm giải thoát, tuệ giải thoát không còn lậu hoặc. Lậu hoặc là những ô nhiễm sâu duy trì sự trói buộc.",
+            "Đức Phật nói có khả năng thành tựu, vì người ấy sống đúng và ngay thẳng. Thời điểm đã chuyển từ sau khi chết sang ngay đời này; đích đến chuyển từ tái sinh tốt sang giải thoát."
+          ],
+          "meaningUnits": [
+            "giai-thoat"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Lời đáp của những người Verañjā",
+          "paragraphs": [
+            "Họ tán thán hai lần và ví sự làm sáng tỏ Pháp bằng bốn việc: dựng lại vật bị lật, mở điều bị che, chỉ đường cho người lạc, cầm đèn trong bóng tối để người có mắt thấy các vật.",
+            "Họ xin quy y Đức Phật, giáo pháp và Tăng chúng tỳ-kheo, xin được ghi nhận là cư sĩ quy y từ hôm ấy đến trọn đời. Đoạn kết chỉ ghi lời nương tựa này, không thêm một thành tựu chứng ngộ. Nhãn bài thứ hai chỉ vị trí trong nhóm; số toàn bộ là MN42."
+          ],
+          "meaningUnits": [
+            "ket"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: hỏi lại trước khi xác nhận",
+          "paragraphs": [
+            "Ví dụ hiện đại: bạn tạm đến nơi khác để phối hợp một công việc. Người phụ trách nói mọi phần đã hoàn tất, nhưng bạn chưa rõ đó là đã làm xong hay đã được kiểm. Hỏi cụ thể rồi ghi đúng phần mình biết giúp tránh xác nhận quá điều có căn cứ, dù xác nhận vội có thể tiện cho mình hoặc đồng nghiệp.",
+            "Đây là tình huống do người biên soạn dựng để soi việc xin giải thích và nói thật. Không dùng nó để đoán công việc của người Verañjā, và không thu hẹp mạch kinh về nghiệp, tái sinh và giải thoát thành một mẹo quản lý."
+          ],
+          "meaningUnits": [
+            "xin-ro",
+            "doi",
+            "that",
+            "co-ich"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Kiểm lại căn cứ của một lời sắp nói",
+          "paragraphs": [
+            "Gợi ý thực hành hiện đại: trước một lời xác nhận có ảnh hưởng tới người khác, tách điều biết trực tiếp, điều nghe lại và điều còn chưa hiểu. Hỏi cho rõ, nói trong phạm vi có căn cứ, chọn thời điểm thích hợp và xem mình có đang muốn chiếm lợi hay nuôi ý làm ai khổ không.",
+            "Nếu đã nói sai, có thể đính chính và sửa phần tác hại mình gây ra. Bài tập chỉ là một bước rèn thân, lời và tâm; không tự chứng minh đã đủ các điều kiện tu tập hay đã đạt giải thoát."
+          ],
+          "meaningUnits": [
+            "xin-ro",
+            "that",
+            "hoa-hop",
+            "co-ich",
+            "khong-tham",
+            "tam-lanh"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Lắng nghe cho rõ, gìn giữ nếp sống lành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "arrival",
+          "kind": "teaching",
+          "heading": "Những người từ Verañjā đến nghe Pháp",
+          "paragraphs": [
+            "Kinh Verañjaka, MN42 trong Trung Bộ, được mở bằng lời người truyền kinh đã nghe. Đức Phật ở Sāvatthī, tại rừng Jeta, trong tu viện của Anāthapiṇḍika. Khi ấy có các bà-la-môn và gia chủ từ Verañjā đang lưu lại Sāvatthī vì một công việc không được nêu rõ.",
+            "Bà-la-môn thuộc một truyền thống tôn giáo thời ấy; gia chủ là người sống đời gia đình.",
+            "Họ nghe tin sa-môn Gotama, người dòng Sakya đã rời gia tộc để sống đời xuất gia tu hành, đang trú tại nơi ấy. Cuộc gặp diễn ra trong thời gian họ ở thành này."
+          ],
+          "meaningUnits": [
+            "nhan",
+            "luu-tru"
+          ]
+        },
+        {
+          "id": "good-name",
+          "kind": "teaching",
+          "heading": "Điều khiến họ muốn được gặp Ngài",
+          "paragraphs": [
+            "Tiếng lành ca ngợi Ngài là bậc A-la-hán đã giải thoát, giác ngộ hoàn toàn; đầy đủ minh và hạnh, tức hiểu biết và nếp sống; Thiện Thệ, bậc đã đi đến đích tốt lành; hiểu thế gian; bậc tối thượng hướng dẫn người cần rèn luyện; thầy của trời và người, bậc Giác Ngộ, Thế Tôn.",
+            "Họ nghe Ngài tự chứng thế giới có chư thiên, Māra, Phạm thiên, sa-môn, bà-la-môn, trời và người rồi tuyên thuyết. Giáo pháp tốt đẹp ở đầu, giữa, cuối, đầy đủ nghĩa và lời, trình bày đời tu trọn vẹn, thanh tịnh. Nghĩ gặp một bậc như vậy là điều lành, họ tìm tới.",
+            "Có người đảnh lễ, có người chào hỏi thân hữu, chắp tay, xưng tên họ hoặc im lặng. Mọi người ngồi một bên rồi thưa hỏi."
+          ],
+          "meaningUnits": [
+            "tieng-lanh",
+            "gap"
+          ]
+        },
+        {
+          "id": "understand",
+          "kind": "teaching",
+          "heading": "Nhận ra mình còn chưa hiểu",
+          "paragraphs": [
+            "Họ hỏi nhân duyên gì khiến có chúng sinh sau khi chết sinh vào cảnh khổ, nơi xấu, đọa lạc, địa ngục, còn những chúng sinh khác sinh vào cảnh lành, cõi trời. Đức Phật trả lời bằng cách sống trái Pháp, lệch lạc và cách sống đúng Pháp, ngay thẳng.",
+            "Họ thưa chưa hiểu chi tiết câu đáp ngắn ấy và xin được giải thích đầy đủ. Ngài mời lắng nghe, chú tâm; họ nhận lời. Một người sống lệch lạc được chỉ rõ theo ba cách về thân, bốn về lời, ba về tâm."
+          ],
+          "meaningUnits": [
+            "hoi",
+            "dap-ngan",
+            "xin-ro",
+            "muoi-xau"
+          ]
+        },
+        {
+          "id": "brief-formulas",
+          "kind": "clarification",
+          "heading": "Lời giải về những đoạn viết lược",
+          "paragraphs": [
+            "Ghi chú của người biên soạn: MN42 có nhiều công thức được ghi ngắn bằng dấu lược. Phần dưới nói rõ trọn ý sau khi đối chiếu MN41 và bản Việt Minh Châu của MN42. Ghi chú nguồn lưu căn cứ từng phần. Bối cảnh riêng, người hỏi và lời kết vẫn được giữ đúng bài Verañjaka."
+          ],
+          "meaningUnits": [
+            "lay-trom",
+            "ta-hanh",
+            "doi",
+            "chia-re",
+            "tho-ac",
+            "vo-ich",
+            "tham",
+            "ac-y",
+            "ta-kien",
+            "khong-trom",
+            "khong-ta-hanh",
+            "that",
+            "hoa-hop",
+            "diu",
+            "co-ich",
+            "chanh-kien"
+          ]
+        },
+        {
+          "id": "harm-body",
+          "kind": "teaching",
+          "heading": "Ba cách lệch lạc trong hành động",
+          "paragraphs": [
+            "Trước hết là người sát sinh: hung bạo, tay vấy máu, chuyên giết hại và đánh đập, không thương sinh vật. Tiếp đó là người lấy tài vật của người khác ở làng hay rừng, chưa được cho mà lấy với ý trộm.",
+            "Thứ ba là tà hạnh trong dục. Danh sách nói tới quan hệ với phụ nữ được mẹ, cha, cả cha mẹ, anh em trai, chị em gái, thân quyến, dòng họ hoặc quy ước bảo hộ; người có chồng, người mà việc xâm phạm bị chế tài, đến người quàng vòng hoa như dấu đính ước. Đó là cách nêu các quan hệ bảo hộ và hôn nhân trong xã hội của bài kinh."
+          ],
+          "meaningUnits": [
+            "sat-hai",
+            "lay-trom",
+            "ta-hanh"
+          ]
+        },
+        {
+          "id": "witness",
+          "kind": "teaching",
+          "heading": "Một lời làm chứng có thể bị làm sai",
+          "paragraphs": [
+            "Về lời, người ấy có thể cố ý nói dối trước hội đồng, hội chúng, thân tộc, phường hội hoặc triều đình. Biết lại nói không biết; không biết nói biết; thấy nói không thấy; không thấy nói thấy.",
+            "Công thức giữ cả động cơ: vì mình, vì người khác hoặc một món lợi vật chất nhỏ. Lợi ích mong có không làm lời cố ý sai trở thành lời thật."
+          ],
+          "meaningUnits": [
+            "doi"
+          ]
+        },
+        {
+          "id": "divisive",
+          "kind": "teaching",
+          "heading": "Ba cách dùng lời khác cần nhìn lại",
+          "paragraphs": [
+            "Người nói chia rẽ đem chuyện bên này sang bên kia rồi ngược lại, nhằm gây bất hòa. Họ phá người đang hòa hợp, tiếp sức người đã chia lìa, thích và vui trong chia rẽ, nói lời gây chia rẽ.",
+            "Người nói thô ác dùng lời cộc cằn, gay gắt, làm đau, xúc phạm, gần sân hận, không đưa tới định tĩnh. Người nói vô ích nói sai lúc, không thật, không có ích, trái Pháp và Luật; lời không đáng giữ, thiếu căn cứ, lan man, không lợi ích. Cùng nói dối, đó là bốn cách lệch lạc bằng lời."
+          ],
+          "meaningUnits": [
+            "chia-re",
+            "tho-ac",
+            "vo-ich"
+          ]
+        },
+        {
+          "id": "hidden-mind",
+          "kind": "teaching",
+          "heading": "Tham, ác ý và cái nhìn đảo ngược",
+          "paragraphs": [
+            "Trong tâm, người ấy mong tài sản, vật dụng của người khác thành của mình. Người ấy nuôi ác ý, ý định độc hại, mong chúng sinh bị giết, tàn sát, tiêu diệt, hủy hoại và không còn tồn tại.",
+            "Tà kiến được nêu bằng các phủ nhận: bố thí, cúng tế, lễ vật không có ý nghĩa; nghiệp thiện ác không có quả; không có đời này, đời sau, mẹ, cha, chúng sinh hóa sinh; không có người tu đúng tự chứng hai đời ấy rồi tuyên thuyết. Hóa sinh là cách sinh hiện ra trong thế giới quan của kinh.",
+            "Cụm mẹ, cha ở trong mạch đạo đức và quan hệ, không được đọc như chuyện có nhìn thấy cha mẹ trước mắt hay không. Do nếp hành xử trái Pháp, lệch lạc như vậy, Đức Phật nói có chúng sinh sau khi chết sinh vào cảnh khổ và địa ngục."
+          ],
+          "meaningUnits": [
+            "tham",
+            "ac-y",
+            "ta-kien",
+            "qua-xau"
+          ]
+        },
+        {
+          "id": "care-body",
+          "kind": "teaching",
+          "heading": "Từ bỏ và gìn giữ",
+          "paragraphs": [
+            "Người sống đúng Pháp, ngay thẳng cũng được nói qua ba thân, bốn lời, ba tâm. Họ bỏ sát sinh, đặt gậy và vũ khí xuống, biết hổ thẹn với điều xấu, có lòng thương, sống quan tâm lợi ích mọi sinh vật.",
+            "Họ bỏ trộm, không lấy tài vật chưa cho ở làng hoặc rừng với ý trộm. Họ bỏ tà hạnh, không quan hệ với phụ nữ thuộc đầy đủ những trường hợp bảo hộ, hôn nhân, chế tài và đính ước đã kể. Mỗi điều từ bỏ mở đường cho cách sống bớt làm tổn hại."
+          ],
+          "meaningUnits": [
+            "muoi-tot",
+            "thuong-song",
+            "khong-trom",
+            "khong-ta-hanh"
+          ]
+        },
+        {
+          "id": "speak-true",
+          "kind": "teaching",
+          "heading": "Giữ sự thật và nuôi sự hòa hợp",
+          "paragraphs": [
+            "Ở cùng năm nơi làm chứng, người ấy biết nói biết, không biết nói không biết; thấy nói thấy, không thấy nói không thấy. Không cố ý nói dối vì mình, vì người hoặc vì lợi vật chất.",
+            "Người ấy không mang chuyện hai bên để gây chia rẽ. Họ hòa giải người đã xa nhau, củng cố người đang hòa hợp, yêu thích và vui trong hòa hợp, nói những lời giúp hòa hợp. Sự gắn bó được vun bồi cùng với sự thật."
+          ],
+          "meaningUnits": [
+            "that",
+            "hoa-hop"
+          ]
+        },
+        {
+          "id": "speak-gently",
+          "kind": "teaching",
+          "heading": "Lời dịu và lời đáng giữ",
+          "paragraphs": [
+            "Bỏ lời thô ác, người ấy nói nhẹ nhàng, êm tai, đáng mến, đi vào lòng, lịch thiệp, được nhiều người yêu thích và vừa ý.",
+            "Bỏ lời vô ích, họ nói đúng lúc, thật, có ý nghĩa, hợp giáo pháp và phép rèn luyện. Lời có giá trị, có căn cứ, có giới hạn và đem lợi ích. Đó là hai mặt làm trọn bốn cách dùng lời ngay thẳng."
+          ],
+          "meaningUnits": [
+            "diu",
+            "co-ich"
+          ]
+        },
+        {
+          "id": "mind-at-ease",
+          "kind": "teaching",
+          "heading": "Tâm không chiếm giữ phần của người khác",
+          "paragraphs": [
+            "Người ấy không mong tài vật người khác thành của mình. Với tâm không ác ý, không ý định độc hại, họ mong các chúng sinh không oán thù, không bị hại, không phiền não, sống an vui và tự giữ gìn.",
+            "Chánh kiến nhìn nhận ý nghĩa của bố thí, cúng tế, lễ vật; quả thiện ác; đời này, đời sau, mẹ, cha, chúng sinh hóa sinh; những người tu chân chính tự chứng hai đời rồi tuyên thuyết. Kinh gọi đó là cái nhìn không đảo ngược. Nếp sống đúng và ngay thẳng ấy là nhân để có chúng sinh sau khi chết sinh vào cảnh lành và cõi trời."
+          ],
+          "meaningUnits": [
+            "khong-tham",
+            "tam-lanh",
+            "chanh-kien",
+            "qua-tot"
+          ]
+        },
+        {
+          "id": "hope",
+          "kind": "teaching",
+          "heading": "Nguyện điều lành có nền từ nếp sống",
+          "paragraphs": [
+            "Người sống đúng Pháp, ngay thẳng có thể nguyện sau khi chết sinh cùng gia đình sát-đế-lợi giàu có, tầng lớp cầm quyền thời ấy; gia đình bà-la-môn giàu có; hoặc gia đình gia chủ giàu có. Mỗi nguyện đều được nói là có khả năng, vì người ấy sống đúng và ngay thẳng.",
+            "Cùng mạch đó là các nguyện sinh cùng chư thiên Tứ Đại Thiên Vương; Ba Mươi Ba (Tāvatiṁsa); Dạ-ma (Yāma); Đâu-suất (Tusita); Hóa Lạc (Nimmānaratī); Tha Hóa Tự Tại (Paranimmitavasavattī); Phạm chúng; Quang Thiên (Ābha). Nếp sống, nguyện vọng và mức có khả năng được giữ cùng nhau."
+          ],
+          "meaningUnits": [
+            "nguoi-giau",
+            "bon-vua",
+            "sau-coi",
+            "quang"
+          ]
+        },
+        {
+          "id": "more-realms",
+          "kind": "teaching",
+          "heading": "Những cảnh giới được kể tiếp",
+          "paragraphs": [
+            "Tiếp theo là Thiểu Quang, Vô Lượng Quang, Quang Âm; Thiểu Tịnh, Vô Lượng Tịnh, Biến Tịnh; Quảng Quả. Rồi Vô Phiền, Vô Nhiệt, Thiện Hiện, Thiện Kiến, Sắc Cứu Cánh.",
+            "Những tên ấy là các đích tái sinh được nêu trong kinh. Với mỗi nguyện, lời đáp vẫn dựa trên người sống đúng Pháp và ngay thẳng."
+          ],
+          "meaningUnits": [
+            "sang-tinh",
+            "nam-coi"
+          ]
+        },
+        {
+          "id": "subtle-realms",
+          "kind": "teaching",
+          "heading": "Bốn tên cuối và một điều cần giữ rõ",
+          "paragraphs": [
+            "Bốn tên cuối là Không vô biên xứ, gắn với không gian vô biên; Thức vô biên xứ, gắn với thức vô biên; Vô sở hữu xứ, gọi là không có gì; Phi tưởng phi phi tưởng xứ, gắn với tưởng rất vi tế không thể nói đơn giản là có hay không.",
+            "Toàn danh sách có hai mươi bốn tên cõi. Đức Phật nói việc sinh cùng chư thiên ấy có khả năng do sống đúng và ngay thẳng, không bảo đảm chỉ ước là thành. Cũng không thể dùng đoạn này để nhìn cảnh ngộ một người rồi kết luận ngay về phẩm hạnh của họ."
+          ],
+          "meaningUnits": [
+            "bon-vo-sac"
+          ]
+        },
+        {
+          "id": "release",
+          "kind": "teaching",
+          "heading": "Một đích khác: giải thoát ngay đời này",
+          "paragraphs": [
+            "Nguyện cuối không còn là sinh vào một cảnh tốt. Người sống đúng Pháp, ngay thẳng nguyện nhờ đoạn tận lậu hoặc mà tự mình trực tiếp biết, chứng và an trú tâm giải thoát, tuệ giải thoát không còn lậu hoặc ngay trong đời này. Lậu hoặc là những ô nhiễm sâu giữ tâm trong trói buộc.",
+            "Ngài nói có khả năng đạt điều ấy vì người ấy sống đúng và ngay thẳng. Các nguyện trước hướng tới tái sinh sau khi chết; nguyện này hướng tới giải thoát ngay hiện tại, nhờ chấm dứt những trói buộc ấy."
+          ],
+          "meaningUnits": [
+            "giai-thoat"
+          ]
+        },
+        {
+          "id": "taking-refuge",
+          "kind": "teaching",
+          "heading": "Lời nguyện nương tựa của người nghe",
+          "paragraphs": [
+            "Các bà-la-môn và gia chủ Verañjā hai lần tán thán. Họ ví lời dạy với việc dựng vật bị lật, mở điều bị che, chỉ đường cho người lạc và cầm đèn trong tối để người có mắt thấy được.",
+            "Họ xin quy y Phật, Pháp và Tăng chúng tỳ-kheo, xin được ghi nhận là cư sĩ từ hôm ấy đến trọn đời. Kinh không ghi thêm một chứng đắc. Dòng cuối nói bài thứ hai trong nhóm; mã Trung Bộ vẫn là MN42."
+          ],
+          "meaningUnits": [
+            "ket"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: cùng chăm một khoảng vườn",
+          "paragraphs": [
+            "Ví dụ hiện đại: một nhóm quen cùng chăm khoảng vườn chung. Nghe có người chưa làm phần việc đã hẹn, ta có thể hỏi để biết điều gì thực sự xảy ra, rồi nói đúng phần mình rõ. Có khi một câu hỏi tử tế và một lời hẹn cụ thể giúp nhóm tiếp tục hợp tác.",
+            "Đây là ví dụ của người biên soạn về hỏi cho rõ, tránh lời chia rẽ và mong người khác được an vui. Người có kinh nghiệm vẫn có quyền hỏi lại; nhận rằng mình chưa biết đủ không làm mất giá trị kinh nghiệm ấy."
+          ],
+          "meaningUnits": [
+            "xin-ro",
+            "that",
+            "hoa-hop",
+            "co-ich",
+            "tam-lanh"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Dừng lại ở điều mình còn chưa rõ",
+          "paragraphs": [
+            "Gợi ý thực hành hiện đại: nhớ một chuyện gần đây mình đã nghe nhưng chưa hiểu hết. Phân biệt điều tận mắt biết với điều được kể, chọn một câu hỏi nhẹ nhàng nếu cần, và chỉ chia sẻ trong phạm vi có căn cứ, đúng lúc, có ích.",
+            "Có thể thực hiện theo hoàn cảnh và khả năng của mình. Việc này giúp rèn nếp sống chân thật, hòa hợp; không phải cách tự đoán đời sau hoặc tự nhận một thành tựu giải thoát."
+          ],
+          "meaningUnits": [
+            "xin-ro",
+            "that",
+            "hoa-hop",
+            "co-ich",
+            "tam-lanh"
+          ]
+        }
+      ]
+    }
+  }
+}

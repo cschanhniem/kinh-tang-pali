@@ -1,0 +1,1424 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn27",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn27_root-pli-ms.json",
+      "sha256": "f3e75fa1585ca7679d9f1cb6569a7828aa2cd8beeec2bf17756936a273db4d15",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn27_translation-en-sujato.json",
+      "sha256": "13e9820b6fdf7394dec213debdc4001d35b0bb49691a428966d383c38b248412",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn27_translation-vi-project.json",
+      "sha256": "74570daffda5128326a0cc1514b48c91aa3ae52325b4bfb8448d7719434a95ba",
+      "commit": "cac22dc9d18cfc1960413c1188129c796a37e935"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn27.html",
+      "sha256": "2dbed674b6bfa55cc6a4445ea97a8aeeb7461c262a57e01573513d22b8cad550",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn27_comment-vi-project.json",
+      "sha256": "d602b9eefc5e584e66adb8c48e3e7427f8c504b18a7fc9190c372d9a064eba2b",
+      "commit": "cac22dc9d18cfc1960413c1188129c796a37e935"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Tiểu Kinh Dụ Dấu Chân Voi",
+      "segments": [
+        "mn27:0.1",
+        "mn27:0.2"
+      ],
+      "summary": "Majjhima Nikāya 27, Cūḷahatthipadopamasutta; bản nhỏ của phép ví dấu chân voi, khác MN28."
+    },
+    {
+      "id": "setting",
+      "title": "Khung kể tại Sāvatthī",
+      "segments": [
+        "mn27:1.1",
+        "mn27:1.2"
+      ],
+      "summary": "Người kể nghe như vầy; Đức Phật ở rừng Jeta, tu viện Anāthapiṇḍika, Sāvatthī."
+    },
+    {
+      "id": "encounter",
+      "title": "Một câu hỏi về trí tuệ",
+      "segments": [
+        "mn27:2.1",
+        "mn27:2.2",
+        "mn27:2.3",
+        "mn27:2.4",
+        "mn27:2.5",
+        "mn27:2.6",
+        "mn27:2.7",
+        "mn27:2.8",
+        "mn27:2.9",
+        "mn27:2.10",
+        "mn27:2.11",
+        "mn27:2.12"
+      ],
+      "summary": "Jānussoṇi đi xe toàn trắng do ngựa cái kéo giữa ban ngày, gặp Pilotika, gọi bằng họ Vacchāyana. Du sĩ từ Gotama tới. Hỏi trí tuệ, Pilotika nói phải ngang bậc mới biết, người được ca ngợi cũng ca ngợi Ngài là tối thượng trời người. Jānussoṇi hỏi lý do tin. Không dùng buổi sáng sớm từ HTML."
+    },
+    {
+      "id": "pilotika",
+      "title": "Bốn dấu chân và kết luận của du sĩ",
+      "segments": [
+        "mn27:3.1",
+        "mn27:3.2",
+        "mn27:3.3",
+        "mn27:3.4",
+        "mn27:3.5",
+        "mn27:3.6"
+      ],
+      "summary": "Pilotika ví người thạo theo voi thấy dấu dài rộng liền kết luận voi đực lớn; từ bốn dấu ông kết luận Phật Chánh Giác, Pháp khéo giảng, Tăng khéo hành. Đây là lập luận của Pilotika; Đức Phật sẽ mở rộng, không gán cả hai cùng một độ chắc."
+    },
+    {
+      "id": "aristocrats",
+      "title": "Dấu thứ nhất: người Sát-đế-lị",
+      "segments": [
+        "mn27:4.1",
+        "mn27:4.2",
+        "mn27:4.3",
+        "mn27:4.4",
+        "mn27:4.5",
+        "mn27:4.6",
+        "mn27:4.7",
+        "mn27:4.8",
+        "mn27:4.9",
+        "mn27:4.10",
+        "mn27:4.11",
+        "mn27:4.12",
+        "mn27:4.13",
+        "mn27:4.14",
+        "mn27:4.15",
+        "mn27:4.16"
+      ],
+      "summary": "Những người Sát-đế-lị giỏi, tinh tế, thông học thuyết và biện luận chia sợi tóc nghe Gotama sắp tới; soạn câu hỏi hai nhánh để bác; nghe đã tới thì tới gặp. Được Pháp chỉ rõ/khích lệ/khơi tinh cần/hoan hỷ, không hỏi cả câu đã chuẩn bị, huống hồ bác; trở thành đệ tử. Pilotika từ dấu ấy lặp kết luận ba vế."
+    },
+    {
+      "id": "brahmins",
+      "title": "Dấu thứ hai: người bà-la-môn",
+      "segments": [
+        "mn27:5.1"
+      ],
+      "summary": "Công thức trước được lặp lược cho các bà-la-môn giỏi biện luận; từ ý định tranh thắng tới nghe Pháp và thành đệ tử, cùng kết luận của Pilotika."
+    },
+    {
+      "id": "householders",
+      "title": "Dấu thứ ba: các gia chủ",
+      "segments": [
+        "mn27:6.1",
+        "mn27:6.2"
+      ],
+      "summary": "Công thức trước được lặp lược cho các gia chủ giỏi biện luận; cùng chuyển biến và kết luận, không tự thêm họ xuất gia."
+    },
+    {
+      "id": "ascetic-debaters",
+      "title": "Dấu thứ tư bắt đầu cùng một ý định",
+      "segments": [
+        "mn27:7.1",
+        "mn27:7.2",
+        "mn27:7.3",
+        "mn27:7.4",
+        "mn27:7.5",
+        "mn27:7.6",
+        "mn27:7.7",
+        "mn27:7.8",
+        "mn27:7.9",
+        "mn27:7.10"
+      ],
+      "summary": "Các sa-môn giỏi biện luận nghe sắp tới, soạn hỏi với hai cách bác, nghe đã tới thì đến; nghe Pháp được chỉ rõ/khích lệ/phấn chấn/hoan hỷ, không hỏi câu định sẵn huống hồ bác. Giữ cả chuỗi dù nhiều khóa Anh trống."
+    },
+    {
+      "id": "ascetic-fruit",
+      "title": "Từ xin xuất gia tới tự chứng",
+      "segments": [
+        "mn27:7.11",
+        "mn27:7.12",
+        "mn27:7.13",
+        "mn27:7.14",
+        "mn27:7.15",
+        "mn27:7.16",
+        "mn27:7.17",
+        "mn27:7.18",
+        "mn27:7.19",
+        "mn27:7.20",
+        "mn27:7.21"
+      ],
+      "summary": "Các sa-môn xin được xuất gia, Gotama cho phép; sống riêng, không phóng dật, nhiệt tâm, quyết chí, sớm tự chứng đích phạm hạnh ngay đời này. Họ tự nói trước suýt hỏng, chưa thật sa-môn/bà-la-môn/A-la-hán mà tự nhận; nay mới thật. Pilotika kết luận từ dấu thứ tư và đủ bốn dấu. Không gán lời tự nhận cũ của họ cho Đức Phật."
+    },
+    {
+      "id": "reverence",
+      "title": "Ba lần đảnh lễ và ước được gặp",
+      "segments": [
+        "mn27:8.1",
+        "mn27:8.2",
+        "mn27:8.3",
+        "mn27:8.4",
+        "mn27:8.5"
+      ],
+      "summary": "Jānussoṇi xuống xe, khoác y một vai, chắp tay hướng Phật, ba lần đảnh lễ Thế Tôn A-la-hán Chánh Giác; hy vọng gặp và đàm luận."
+    },
+    {
+      "id": "incomplete",
+      "title": "Đức Phật nói phép ví chưa đầy đủ",
+      "segments": [
+        "mn27:9.1",
+        "mn27:9.2",
+        "mn27:9.3",
+        "mn27:9.4",
+        "mn27:9.5",
+        "mn27:9.6",
+        "mn27:9.7",
+        "mn27:9.8",
+        "mn27:9.9"
+      ],
+      "summary": "Jānussoṇi thực sự đến, chào hỏi, ngồi một bên, thuật trọn chuyện Pilotika. Phật nói phép ví chưa đầy đủ, mời lắng nghe và khéo chú tâm; ông vâng. Mở vòng được khép tại 26.7."
+    },
+    {
+      "id": "track-one",
+      "title": "Dấu chân chưa đủ",
+      "segments": [
+        "mn27:10.1",
+        "mn27:10.2",
+        "mn27:10.3",
+        "mn27:10.4",
+        "mn27:10.5",
+        "mn27:10.6"
+      ],
+      "summary": "Người theo dấu voi vào rừng thấy dấu lớn dài rộng; nếu thạo thì chưa kết voi đực lớn vì có voi cái thấp chân lớn."
+    },
+    {
+      "id": "track-two",
+      "title": "Thêm dấu cọ ở trên cao",
+      "segments": [
+        "mn27:10.7",
+        "mn27:10.8",
+        "mn27:10.9",
+        "mn27:10.10",
+        "mn27:10.11",
+        "mn27:10.12"
+      ],
+      "summary": "Tiếp theo dấu, có dấu chân dài rộng và cọ xát trên cao; người thạo chưa kết vì có voi cái cao lớn loại kāḷārikā chân lớn. Tên loại không chắc; giữ mô tả cần thiết và thứ tự."
+    },
+    {
+      "id": "track-three",
+      "title": "Thêm dấu ngà cào",
+      "segments": [
+        "mn27:10.13",
+        "mn27:10.14",
+        "mn27:10.15",
+        "mn27:10.16",
+        "mn27:10.17",
+        "mn27:10.18"
+      ],
+      "summary": "Tiếp theo dấu, thấy dấu chân, cọ xát và ngà cào trên cao; chưa kết vì có voi cái cao loại kaṇerukā chân lớn, bản dự án gọi đầu đàn. Không biến dị nghĩa từ thành khẳng định phân loại động vật."
+    },
+    {
+      "id": "see-elephant",
+      "title": "Thấy chính con voi",
+      "segments": [
+        "mn27:10.19",
+        "mn27:10.20",
+        "mn27:10.21",
+        "mn27:10.22",
+        "mn27:10.23"
+      ],
+      "summary": "Đi tiếp có đủ dấu chân/cọ/ngà/cành gãy trên cao; thấy chính voi đực dưới gốc cây hoặc ngoài trời, đi/đứng/ngồi/nằm; lúc này kết đây là voi đực lớn."
+    },
+    {
+      "id": "teacher",
+      "title": "Như Lai và giáo pháp được tuyên thuyết",
+      "segments": [
+        "mn27:11.1",
+        "mn27:11.2",
+        "mn27:11.3"
+      ],
+      "summary": "Như Lai xuất hiện với trọn các tôn xưng Arahant, Chánh Giác, Minh Hạnh Túc, Thiện Thệ, Thế Gian Giải, Vô Thượng/Điều Ngự Trượng Phu, thầy trời người, Phật, Thế Tôn. Tự biết thế giới gồm trời/Māra/Phạm thiên/sa-môn/bà-la-môn/trời người rồi dạy. Pháp tốt đầu/giữa/cuối, đủ nghĩa/lời, phạm hạnh toàn vẹn thanh tịnh."
+    },
+    {
+      "id": "going-forth",
+      "title": "Nghe, tin và chọn đời sống xuất gia",
+      "segments": [
+        "mn27:12.1",
+        "mn27:12.2",
+        "mn27:12.3",
+        "mn27:12.4",
+        "mn27:12.5",
+        "mn27:12.6",
+        "mn27:12.7"
+      ],
+      "summary": "Gia chủ/con gia chủ/người sinh trong gia đình nào đó nghe, tin và tự xét nhà chật bụi/xuất gia rộng, khó sống phạm hạnh trắng như vỏ ốc ở nhà. Sau đó bỏ của cải và thân tộc dù ít hay nhiều, cạo râu tóc, cà-sa, xuất gia. Không thêm xuất thân cao quý/hạ tiện hoặc chỉ thị mọi độc giả bỏ nhà."
+    },
+    {
+      "id": "body-ethics",
+      "title": "Không hại, không lấy, sống phạm hạnh",
+      "segments": [
+        "mn27:13.1",
+        "mn27:13.2",
+        "mn27:13.3"
+      ],
+      "summary": "Thọ nếp học và đời sống tỳ-kheo; bỏ sát sinh/trượng/kiếm, biết hổ thẹn, thương mọi hữu tình; chỉ nhận và mong đồ được cho, không trộm; sống độc thân phạm hạnh, không quan hệ tình dục."
+    },
+    {
+      "id": "speech-ethics",
+      "title": "Bốn cách giữ lời nói",
+      "segments": [
+        "mn27:13.4",
+        "mn27:13.5",
+        "mn27:13.6",
+        "mn27:13.7"
+      ],
+      "summary": "Không dối, nói thật đáng tin; không đem chuyện hai nơi chia rẽ, hàn gắn/giữ hòa hợp; bỏ lời thô nói dịu thấm lòng lịch sự; bỏ phù phiếm, nói đúng lúc/thật/có nghĩa/Pháp/Luật/đáng nhớ/có lý/giới hạn/lợi ích."
+    },
+    {
+      "id": "simple-conduct",
+      "title": "Nếp sống tiết chế của tỳ-kheo",
+      "segments": [
+        "mn27:13.8",
+        "mn27:13.9",
+        "mn27:13.10",
+        "mn27:13.11",
+        "mn27:13.12"
+      ],
+      "summary": "Không hại hạt giống/cây; ăn một phần ban ngày, không đêm/phi thời; không xem múa/hát/nhạc, không vòng hoa/hương/mỹ phẩm trang sức, không giường cao xa hoa. Giữ là nếp sống xuất gia, không giao trẻ chế độ ăn."
+    },
+    {
+      "id": "not-receive",
+      "title": "Những thứ không tiếp nhận",
+      "segments": [
+        "mn27:13.13",
+        "mn27:13.14",
+        "mn27:13.15",
+        "mn27:13.16",
+        "mn27:13.17",
+        "mn27:13.18",
+        "mn27:13.19",
+        "mn27:13.20",
+        "mn27:13.21"
+      ],
+      "summary": "Không nhận vàng tiền, hạt sống, thịt sống, phụ nữ/trẻ gái, tôi tớ nam nữ, dê/cừu, gà/heo, voi/bò/ngựa đực/ngựa cái, ruộng/đất. HTML thiếu vàng tiền nhưng Pāli có. Phản ánh việc từ chối tiếp nhận theo bối cảnh xã hội, không coi con người là tài sản hợp lệ hiện đại."
+    },
+    {
+      "id": "not-exploit",
+      "title": "Không thương mại và gây tổn hại",
+      "segments": [
+        "mn27:13.22",
+        "mn27:13.23",
+        "mn27:13.24",
+        "mn27:13.25",
+        "mn27:13.26"
+      ],
+      "summary": "Không làm việc đưa tin/chạy việc; không mua bán; không gian cân, kim loại/tiền, đong đo; không hối lộ, gian trá, lừa gạt, thủ đoạn; không chặt hại, giết, bắt trói, cướp đoạt, cướp bóc, bạo lực."
+    },
+    {
+      "id": "contentment",
+      "title": "Nhẹ như chim mang đôi cánh",
+      "segments": [
+        "mn27:14.1",
+        "mn27:14.2",
+        "mn27:14.3",
+        "mn27:14.4"
+      ],
+      "summary": "Đủ y che thân/thức khất thực nuôi bụng, đi đâu mang theo; so chim bay mang đôi cánh. Giới cao quý đem hạnh phúc nội tâm không lỗi."
+    },
+    {
+      "id": "senses",
+      "title": "Giữ cả sáu cửa nhận biết",
+      "segments": [
+        "mn27:15.1",
+        "mn27:15.2",
+        "mn27:15.3",
+        "mn27:15.4",
+        "mn27:15.5",
+        "mn27:15.6",
+        "mn27:15.7",
+        "mn27:15.8",
+        "mn27:15.9"
+      ],
+      "summary": "Mắt/sắc, tai/tiếng, mũi/mùi, lưỡi/vị, thân/xúc, ý/pháp: không bám tướng/chi tiết; giữ căn để tham muốn/bực buồn và bất thiện không tràn vào; có hạnh phúc nội tâm không vẩn đục."
+    },
+    {
+      "id": "awareness",
+      "title": "Biết rõ trong sinh hoạt",
+      "segments": [
+        "mn27:16.1"
+      ],
+      "summary": "Tỉnh giác đi tới/lui, nhìn thẳng/quanh, co/duỗi, mang y/bát, ăn/uống/nhai/nếm, đại/tiểu tiện, đi/đứng/ngồi/ngủ/thức/nói/im lặng. Không thu hẹp còn ngồi thiền."
+    },
+    {
+      "id": "seclusion",
+      "title": "Đủ nền tảng rồi chọn chỗ vắng",
+      "segments": [
+        "mn27:17.1",
+        "mn27:17.2"
+      ],
+      "summary": "Đủ giới, tri túc, giữ căn, niệm tỉnh giác; tìm rừng, gốc cây, núi, khe, hang, bãi tha ma, rừng hoang, ngoài trời, đống rơm. HTML lược tri túc/núi không theo."
+    },
+    {
+      "id": "hindrances",
+      "title": "Làm sạch năm chướng ngại",
+      "segments": [
+        "mn27:18.1",
+        "mn27:18.2",
+        "mn27:18.3",
+        "mn27:18.4",
+        "mn27:18.5",
+        "mn27:18.6"
+      ],
+      "summary": "Sau ăn/khất thực về, ngồi xếp chân thẳng thân dựng niệm; bỏ tham muốn đời, sân ác với lòng thương chúng sinh, trì trệ buồn ngủ với tưởng sáng/niệm tỉnh giác, trạo cử hối quá bằng tâm yên, nghi bằng vượt phân vân thiện pháp. Giữ đủ năm đối trị."
+    },
+    {
+      "id": "first-jhana",
+      "title": "Sơ thiền vẫn là dấu",
+      "segments": [
+        "mn27:19.1",
+        "mn27:19.2",
+        "mn27:19.3",
+        "mn27:19.4",
+        "mn27:19.5"
+      ],
+      "summary": "Năm triền cái làm tâm nhiễm/yếu tuệ đã bỏ; ly dục/bất thiện, sơ thiền hỷ lạc viễn ly/tầm tứ. Dấu chân/dấu cọ/dấu ngà của Như Lai; vẫn chưa kết đủ ba vế."
+    },
+    {
+      "id": "second-jhana",
+      "title": "Nhị thiền vẫn là dấu",
+      "segments": [
+        "mn27:20.1",
+        "mn27:20.2",
+        "mn27:20.3"
+      ],
+      "summary": "Tầm tứ lắng, tâm trong/nhất tâm, không tầm tứ, hỷ lạc do định; công thức dấu và chưa kết ba vế được lặp lược, đuôi Tăng còn hiện diện."
+    },
+    {
+      "id": "third-jhana",
+      "title": "Tam thiền vẫn là dấu",
+      "segments": [
+        "mn27:21.1",
+        "mn27:21.2",
+        "mn27:21.3"
+      ],
+      "summary": "Hỷ phai, xả, niệm tỉnh giác, thân cảm lạc; bậc Thánh nêu xả niệm lạc trú; cùng công thức dấu và chưa kết dù Pāli lược giữa."
+    },
+    {
+      "id": "fourth-jhana",
+      "title": "Tứ thiền vẫn là dấu",
+      "segments": [
+        "mn27:22.1",
+        "mn27:22.2",
+        "mn27:22.3",
+        "mn27:22.4"
+      ],
+      "summary": "Bỏ lạc khổ, hỷ ưu trước tắt, không khổ lạc, xả niệm thanh tịnh; đủ công thức ba dấu và chưa kết, không bỏ theo khóa Anh trống."
+    },
+    {
+      "id": "past-lives",
+      "title": "Nhớ đời trước vẫn chưa kết",
+      "segments": [
+        "mn27:23.1",
+        "mn27:23.2",
+        "mn27:23.3",
+        "mn27:23.4",
+        "mn27:23.5"
+      ],
+      "summary": "Tâm định, sạch, sáng, không nhơ/ô nhiễm, mềm, dễ dùng, vững, bất động; hướng nhớ nhiều đời trước một/hai… có nét/chi tiết. Pāli thật sự lược danh sách. Cùng ba dấu và chưa kết."
+    },
+    {
+      "id": "rebirth",
+      "title": "Thấy chết và tái sinh vẫn chưa kết",
+      "segments": [
+        "mn27:24.1",
+        "mn27:24.2",
+        "mn27:24.3",
+        "mn27:24.4",
+        "mn27:24.5"
+      ],
+      "summary": "Cùng các phẩm chất tâm định; hướng biết chết/tái sinh của chúng sinh, thiên nhãn sạch vượt mắt người, thấy theo nghiệp. Pāli lược giữa; không biến thành chỉ ẩn dụ tâm lý. Cùng ba dấu và chưa kết."
+    },
+    {
+      "id": "truths",
+      "title": "Chưa đến nhưng đang đi tới kết luận",
+      "segments": [
+        "mn27:25.1",
+        "mn27:25.2",
+        "mn27:25.3",
+        "mn27:25.4",
+        "mn27:25.5",
+        "mn27:25.6"
+      ],
+      "summary": "Cùng phẩm chất tâm; hướng trí lậu tận. Biết như thật khổ/nguồn/chấm dứt/con đường, và lậu hoặc/nguồn/chấm dứt/con đường. Vẫn ba dấu; ở đây chưa đã đến nhưng đang đi đến kết luận ba vế, khác cả sáu mức trước và mức sau. Không thêm tên quả vị."
+    },
+    {
+      "id": "liberation",
+      "title": "Giải thoát rồi biết đã giải thoát",
+      "segments": [
+        "mn27:26.1",
+        "mn27:26.2",
+        "mn27:26.3",
+        "mn27:26.4",
+        "mn27:26.5",
+        "mn27:26.6"
+      ],
+      "summary": "Do biết thấy, tâm thoát dục lậu/hữu lậu/vô minh lậu; biết giải thoát; sinh tận, phạm hạnh thành, việc làm xong, không còn đời này tiếp nữa. Vẫn ba dấu; bây giờ đã kết Phật Chánh Giác/Pháp khéo giảng/Tăng khéo hành."
+    },
+    {
+      "id": "completion",
+      "title": "Phép ví nay đầy đủ",
+      "segments": [
+        "mn27:26.7"
+      ],
+      "summary": "Đức Phật kết phép ví dấu chân voi đã được giải trọn, khép lời mở 9.5."
+    },
+    {
+      "id": "refuge",
+      "title": "Jānussoṇi quy y làm cư sĩ",
+      "segments": [
+        "mn27:27.1",
+        "mn27:27.2",
+        "mn27:27.3",
+        "mn27:27.4",
+        "mn27:27.5",
+        "mn27:27.6"
+      ],
+      "summary": "Jānussoṇi hai lần tán thán; bốn ví dụ dựng vật lật/mở che/chỉ người lạc/đèn tối cho người có mắt. Xin quy y Phật/Pháp/Tăng, làm cư sĩ trọn đời; không tuyên bố ông xuất gia/chứng A-la-hán. Lời kết gọi bài thứ bảy trong nhóm, UID MN27."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Theo dấu chân để thấy rõ con đường",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Dấu chân lớn có chắc là của voi lớn?",
+          "paragraphs": [
+            "Em nhìn thấy một dấu chân voi vừa dài vừa rộng. Có thể nói ngay đó là voi đực thật lớn không? Tiểu Kinh Dụ Dấu Chân Voi, MN27, đưa người nghe theo dấu voi để hiểu một con đường học hỏi và tự chứng.",
+            "Người kể thuật rằng Đức Phật đang ở rừng Jeta, tu viện Anāthapiṇḍika tại Sāvatthī."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting"
+          ]
+        },
+        {
+          "id": "conversation",
+          "kind": "teaching",
+          "heading": "Vì sao du sĩ tin tưởng?",
+          "paragraphs": [
+            "Giữa ban ngày, bà-la-môn Jānussoṇi đi trên cỗ xe toàn trắng do ngựa cái kéo. Bà-la-môn là tầng lớp gắn với việc học kinh và nghi lễ thời ấy. Ông gặp du sĩ Pilotika, gọi bằng họ Vacchāyana, và biết du sĩ vừa từ chỗ Đức Phật Gotama về. Ông hỏi trí tuệ của Ngài thế nào.",
+            "Pilotika đáp rằng phải ngang tầm Ngài mới biết được trí tuệ ấy. Những người đáng được ca ngợi cũng ca ngợi Ngài là bậc cao nhất giữa trời và người. Khi được hỏi vì sao tin như vậy, du sĩ ví mình với người thạo tìm voi: thấy dấu chân lớn liền kết luận có voi đực lớn.",
+            "Ông đã thấy bốn dấu chân khiến mình tin ba điều: Đức Phật giác ngộ trọn vẹn, Pháp được khéo giảng, Tăng đoàn thực hành đúng. Pháp là lời dạy; Tăng đoàn ở đây là cộng đồng đệ tử tu theo Ngài."
+          ],
+          "meaningUnits": [
+            "encounter",
+            "pilotika"
+          ]
+        },
+        {
+          "id": "four-visitors",
+          "kind": "teaching",
+          "heading": "Bốn nhóm định hỏi để tranh thắng",
+          "paragraphs": [
+            "Nhóm thứ nhất là những người Sát-đế-lị, thuộc giới quý tộc. Họ hiểu rõ các học thuyết và biện luận rất tinh vi, tới cả những chi tiết nhỏ. Nghe Gotama sắp đến một làng hay thị trấn, họ chuẩn bị câu hỏi: trả lời cách này thì họ bác cách kia, trả lời cách kia thì họ lại bác cách này. Nghe Ngài đã tới, họ đến gặp.",
+            "Nhưng lời giảng Pháp giúp họ thấy rõ, được khích lệ, có thêm nhiệt tâm và hoan hỷ. Họ không hỏi cả câu đã soạn, nói gì đến việc bác lại; họ trở thành đệ tử. Đó là dấu thứ nhất Pilotika kể.",
+            "Những bà-la-môn giỏi tranh luận là nhóm thứ hai; các gia chủ, người sống tại nhà, là nhóm thứ ba. Cả hai có cùng chuyển biến ấy. Nhóm thứ tư là các sa-môn, người tu xuất gia: họ cũng soạn câu hỏi hai hướng để tranh thắng, đến nghe Pháp, rồi không hỏi câu đã định. Câu chuyện nói tới ý định hạ người khác bằng tranh luận, không bảo người học phải giấu điều chưa hiểu."
+          ],
+          "meaningUnits": [
+            "aristocrats",
+            "brahmins",
+            "householders",
+            "ascetic-debaters"
+          ]
+        },
+        {
+          "id": "fourth-result",
+          "kind": "teaching",
+          "heading": "Nhóm thứ tư còn đi xa hơn",
+          "paragraphs": [
+            "Những sa-môn ấy xin được xuất gia trong giáo pháp của Gotama và được chấp nhận. Sống riêng, không lơ là, nhiệt tâm và quyết chí, họ sớm tự chứng mục tiêu cao nhất của đời phạm hạnh, tức đời tu thanh tịnh, ngay trong đời này.",
+            "Họ tự nhận rằng trước kia suýt hỏng việc: chưa thật là sa-môn, bà-la-môn hay A-la-hán mà đã nhận mình như vậy; nay mới thật sự đạt. A-la-hán là bậc đã đoạn tận ô nhiễm của tâm. Đây là lời họ nói về mình. Nhìn cả bốn dấu ấy, Pilotika kết luận Phật, Pháp, Tăng xứng với lòng tin của ông."
+          ],
+          "meaningUnits": [
+            "ascetic-fruit"
+          ]
+        },
+        {
+          "id": "visit",
+          "kind": "teaching",
+          "heading": "Đức Phật mời nghe phần còn lại",
+          "paragraphs": [
+            "Nghe xong, Jānussoṇi xuống xe, khoác y một vai, chắp tay hướng về Đức Phật và ba lần đảnh lễ Thế Tôn, A-la-hán, Chánh Đẳng Giác. Ông mong có dịp gặp để trò chuyện.",
+            "Rồi ông thật sự tới gặp, chào hỏi, ngồi một bên và kể trọn cuộc nói chuyện với Pilotika. Đức Phật nói phép ví dấu chân voi như vậy còn chưa đầy đủ. Ngài mời ông lắng nghe, chú tâm để được nghe cách giải trọn vẹn. Ông nhận lời."
+          ],
+          "meaningUnits": [
+            "reverence",
+            "incomplete"
+          ]
+        },
+        {
+          "id": "tracking",
+          "kind": "teaching",
+          "heading": "Người thạo vẫn tiếp tục theo dấu",
+          "paragraphs": [
+            "Đức Phật kể một người vào rừng có voi. Thấy dấu chân dài rộng, người thạo chưa kết luận voi đực lớn: voi cái thấp cũng có thể có chân to.",
+            "Đi tiếp, người ấy thấy dấu chân và dấu cọ xát ở trên cao. Vẫn chưa đủ: có loại voi cái cao lớn, chân lớn để lại dấu như thế. Đi nữa, thấy thêm vết ngà cào cao; vẫn có một loại voi cái cao lớn khác có thể tạo dấu ấy.",
+            "Mỗi lần thấy thêm dấu, người ấy có thêm điều để theo dõi. Nhưng vẫn còn cách giải thích khác, nên chưa nói chắc đã tìm đúng con voi."
+          ],
+          "meaningUnits": [
+            "track-one",
+            "track-two",
+            "track-three"
+          ]
+        },
+        {
+          "id": "elephant",
+          "kind": "teaching",
+          "heading": "Bây giờ đã thấy chính con voi",
+          "paragraphs": [
+            "Người ấy tiếp tục theo dấu: dấu chân lớn, chỗ cọ xát cao, vết ngà cào cao, rồi cả cành cây gãy trên cao. Cuối cùng, người ấy thấy chính con voi đực lớn ở gốc cây hoặc ngoài trời, đang đi, đứng, ngồi hay nằm.",
+            "Lúc này người ấy mới kết luận: đây chính là con voi đực lớn. Đức Phật dùng phép ví ấy để dẫn tới việc người học tự biết kết quả tu tập."
+          ],
+          "meaningUnits": [
+            "see-elephant"
+          ]
+        },
+        {
+          "id": "teacher",
+          "kind": "teaching",
+          "heading": "Người thầy và điều được dạy",
+          "paragraphs": [
+            "Ngài kể việc Như Lai xuất hiện ở đời với những tên tôn kính: A-la-hán; Chánh Đẳng Giác, bậc tự giác ngộ trọn vẹn; Minh Hạnh Túc, đủ trí và hạnh; Thiện Thệ, bậc khéo đi; Thế Gian Giải, bậc hiểu thế gian.",
+            "Ngài là bậc vô thượng hướng dẫn người cần rèn luyện, thầy của trời người, Phật và Thế Tôn — bậc giác ngộ được tôn kính. Ngài tự chứng biết thế giới gồm chư thiên, Māra, Phạm thiên, các sa-môn, bà-la-môn, trời và người, rồi chỉ dạy điều đã biết.",
+            "Pháp ấy tốt ở đầu, giữa và cuối, đầy đủ cả ý nghĩa lẫn lời diễn đạt. Ngài trình bày đời sống phạm hạnh trọn vẹn, thanh tịnh."
+          ],
+          "meaningUnits": [
+            "teacher"
+          ]
+        },
+        {
+          "id": "going-forth",
+          "kind": "teaching",
+          "heading": "Từ nghe Pháp đến chọn cách sống",
+          "paragraphs": [
+            "Một gia chủ, con của gia chủ hoặc người trong một gia đình nào đó nghe Pháp, khởi lòng tin rồi tự suy xét. Với điều mình đang tìm, đời tại gia chật và nhiều bụi, đời xuất gia rộng mở; sống ở nhà khó giữ đời phạm hạnh hoàn toàn sạch như vỏ ốc được đánh bóng.",
+            "Sau một thời gian, người ấy bỏ tài sản và vòng thân thuộc dù ít hay nhiều, cạo râu tóc, khoác cà-sa, xuất gia. Đây là lựa chọn của người tu trong câu chuyện; em không được khuyên tự rời gia đình."
+          ],
+          "meaningUnits": [
+            "going-forth"
+          ]
+        },
+        {
+          "id": "body",
+          "kind": "teaching",
+          "heading": "Dấu đầu trong cách sống hằng ngày",
+          "paragraphs": [
+            "Người ấy nhận nếp học và đời sống tỳ-kheo, một vị tu sĩ đã thọ đầy đủ giới tu của Phật giáo: không giết hại, bỏ gậy kiếm, biết hổ thẹn khi làm sai và thương mọi loài. Không lấy của chưa cho, chỉ nhận và mong điều được người khác cho. Vị ấy sống độc thân thanh tịnh, không có quan hệ tình dục.",
+            "Con đường bắt đầu bằng cách cư xử cụ thể, trước khi nói tới những chứng đạt sâu xa."
+          ],
+          "meaningUnits": [
+            "body-ethics"
+          ]
+        },
+        {
+          "id": "speech",
+          "kind": "teaching",
+          "heading": "Lời nói cũng phải được rèn",
+          "paragraphs": [
+            "Vị ấy bỏ nói dối, nói thật và đáng tin. Không mang chuyện từ bên này sang bên kia để làm người ta chia rẽ; giúp người đang xa nhau hòa hợp, giữ người đã hòa hợp được gắn bó.",
+            "Vị ấy bỏ lời thô, nói dịu dàng, lịch sự và chạm được lòng người. Bỏ nói phù phiếm; chọn lời đúng lúc, chân thật, có ý nghĩa, hợp Pháp và luật tu, có lý, vừa đủ và hữu ích."
+          ],
+          "meaningUnits": [
+            "speech-ethics"
+          ]
+        },
+        {
+          "id": "simple",
+          "kind": "teaching",
+          "heading": "Những điều vị tỳ-kheo từ bỏ",
+          "paragraphs": [
+            "Vị ấy không làm hại hạt giống và cây cỏ; ăn trong một khoảng ban ngày, tránh ăn đêm và sai thời. Vị ấy không xem múa, hát, nhạc; không trang sức bằng hoa, hương, mỹ phẩm; không dùng giường cao xa hoa. Đây là nếp sống xuất gia được bài kinh mô tả.",
+            "Vị ấy không nhận vàng tiền, hạt sống, thịt sống; không nhận phụ nữ, trẻ gái, tôi tớ nam nữ được trao cho theo lề lối xã hội xưa; không nhận dê, cừu, gà, heo, voi, bò, ngựa đực, ngựa cái, ruộng hay đất.",
+            "Vị ấy tránh làm việc chạy tin, đưa tin; tránh mua bán, gian cân, làm giả kim loại hay tiền, gian đo lường; tránh hối lộ, lừa gạt, mánh khóe. Cũng từ bỏ việc chặt hại, giết, bắt trói, cướp đoạt và dùng bạo lực."
+          ],
+          "meaningUnits": [
+            "simple-conduct",
+            "not-receive",
+            "not-exploit"
+          ]
+        },
+        {
+          "id": "bird",
+          "kind": "teaching",
+          "heading": "Như chim mang đôi cánh",
+          "paragraphs": [
+            "Vị ấy thấy đủ với y che thân và thức ăn khất thực nuôi bụng. Đi đâu cũng mang theo những điều ấy, như con chim bay chỉ mang đôi cánh.",
+            "Giữ giới tốt đem lại niềm vui bên trong không có lỗi. Vui ở đây đi cùng việc không làm điều đáng hổ thẹn."
+          ],
+          "meaningUnits": [
+            "contentment"
+          ]
+        },
+        {
+          "id": "six-doors",
+          "kind": "teaching",
+          "heading": "Giữ sáu cửa nhận biết",
+          "paragraphs": [
+            "Khi mắt thấy, tai nghe, mũi ngửi, lưỡi nếm, thân chạm hay tâm nhận biết các đối tượng trong tâm, chẳng hạn ý nghĩ hoặc ký ức, vị ấy không bám lấy nét chung và chi tiết khiến mình tham muốn, bực buồn. Vị ấy giữ cả sáu cửa ấy để điều bất thiện không tràn vào. Nhờ vậy có niềm vui trong tâm không vẩn đục.",
+            "Vị ấy cũng biết rõ khi đi tới lui, nhìn thẳng hay quanh, co duỗi tay chân, mang y bát, ăn uống nhai nếm, đi vệ sinh; khi đi, đứng, ngồi, ngủ, thức, nói và im lặng. Sự tỉnh giác đi cùng cả đời sống."
+          ],
+          "meaningUnits": [
+            "senses",
+            "awareness"
+          ]
+        },
+        {
+          "id": "quiet-place",
+          "kind": "teaching",
+          "heading": "Chuẩn bị một tâm bớt vướng",
+          "paragraphs": [
+            "Có giới, biết đủ, giữ các căn và niệm tỉnh giác, vị ấy tìm chỗ vắng: rừng, gốc cây, núi, khe, hang đá, bãi tha ma, rừng hoang, ngoài trời hoặc đống rơm. Ăn xong và trở về từ khất thực, vị ấy ngồi xếp chân, giữ thân thẳng, dựng chánh niệm.",
+            "Vị ấy làm sạch năm chướng ngại: bỏ tham muốn ở đời; bỏ giận và ác ý, thương chúng sinh; bỏ trì trệ buồn ngủ, nhận biết ánh sáng và giữ tỉnh giác; bỏ xao động, ray rứt, để tâm yên; vượt phân vân đối với điều thiện.",
+            "Năm điều ấy gọi là triền cái, những chướng ngại làm tâm vẩn đục và trí tuệ yếu đi."
+          ],
+          "meaningUnits": [
+            "seclusion",
+            "hindrances"
+          ]
+        },
+        {
+          "id": "first-two",
+          "kind": "teaching",
+          "heading": "Hai tầng thiền đầu vẫn là dấu đường",
+          "paragraphs": [
+            "Rời dục và điều bất thiện, vị ấy vào sơ thiền: có hỷ, niềm vui phấn chấn, và lạc, sự dễ chịu, do rời xa; còn tầm tứ, hướng tâm và giữ sự chú tâm vào đề mục.",
+            "Ở nhị thiền, tầm tứ lắng, tâm trong sáng, quy về một mối; không còn tầm tứ, hỷ lạc do định sinh. Định là tâm tập trung vững.",
+            "Cả hai tầng được gọi là dấu chân, dấu cọ xát và dấu ngà cào của Như Lai, nối lại chuyện voi. Nhưng người học vẫn chưa đến kết luận trọn vẹn về Phật, Pháp, Tăng."
+          ],
+          "meaningUnits": [
+            "first-jhana",
+            "second-jhana"
+          ]
+        },
+        {
+          "id": "next-two",
+          "kind": "teaching",
+          "heading": "Thêm hai tầng, vẫn tiếp tục đi",
+          "paragraphs": [
+            "Ở tam thiền, hỷ phai đi; vị ấy sống xả, quân bình, có niệm và tỉnh giác, thân vẫn cảm lạc. Bậc Thánh gọi đó là sống an lạc với xả và niệm.",
+            "Ở tứ thiền, vị ấy buông lạc và khổ; vui buồn trước đã tắt; không khổ không lạc, xả niệm thanh tịnh. Cả hai cũng là ba loại dấu của Như Lai; ở từng tầng, người học vẫn chưa kết luận trọn vẹn về Phật giác ngộ, Pháp khéo giảng và Tăng thực hành đúng."
+          ],
+          "meaningUnits": [
+            "third-jhana",
+            "fourth-jhana"
+          ]
+        },
+        {
+          "id": "two-knowledges",
+          "kind": "teaching",
+          "heading": "Biết được nhiều vẫn còn đường đi",
+          "paragraphs": [
+            "Tâm đã định, sạch, sáng, không nhơ, không ô nhiễm, mềm, dễ dùng, vững và không lay động. Vị ấy hướng tâm nhớ đời trước: một đời, hai đời và nhiều đời với những nét và chi tiết.",
+            "Với tâm như vậy, vị ấy hướng tới sự biết chúng sinh chết và tái sinh. Bằng thiên nhãn thanh tịnh vượt mắt người, vị ấy biết chúng sinh đi theo nghiệp, những hành động của họ. Đây là các thành tựu được bài kinh kể.",
+            "Ở cả hai sự biết này, bài vẫn nhắc ba loại dấu và vẫn chưa kết luận. Thấy những điều khác thường chưa tự là giải thoát."
+          ],
+          "meaningUnits": [
+            "past-lives",
+            "rebirth"
+          ]
+        },
+        {
+          "id": "truths",
+          "kind": "teaching",
+          "heading": "Chưa đến, nhưng đang đi tới",
+          "paragraphs": [
+            "Với tâm định và trong sáng ấy, vị ấy hướng tới trí biết chấm dứt lậu hoặc, những ô nhiễm sâu trói buộc tâm. Vị ấy biết như thật bốn điều: khổ, nguồn gốc khổ, khổ chấm dứt và con đường tới chấm dứt khổ.",
+            "Vị ấy cũng biết lậu hoặc, nguồn gốc của chúng, sự chấm dứt và con đường chấm dứt chúng. Đến đây, Đức Phật đổi cách nói: người học chưa đến được kết luận, nhưng đang đi tới kết luận. Ba loại dấu vẫn được nhắc, song đã gần hơn trong chính mạch tu chứng."
+          ],
+          "meaningUnits": [
+            "truths"
+          ]
+        },
+        {
+          "id": "freedom",
+          "kind": "teaching",
+          "heading": "Đến đích và tự biết đã đến",
+          "paragraphs": [
+            "Do biết và thấy như vậy, tâm thoát dục lậu, sự ô nhiễm do dục; hữu lậu, sự ràng buộc vào tiếp tục hiện hữu; vô minh lậu, sự không thấy biết đúng. Khi giải thoát, vị ấy biết mình đã giải thoát.",
+            "Vị ấy biết sinh đã hết, đời phạm hạnh đã hoàn thành, việc cần làm đã làm, không còn trở lại đời sống này nữa. Lúc này mới đi đến kết luận trọn vẹn: Đức Phật Chánh Đẳng Giác, Pháp khéo giảng, Tăng đoàn khéo thực hành.",
+            "Đức Phật kết rằng phép ví dấu chân voi nay đã đầy đủ: con đường dẫn tới chính sự tự biết giải thoát, như người theo dấu đã thấy con voi."
+          ],
+          "meaningUnits": [
+            "liberation",
+            "completion"
+          ]
+        },
+        {
+          "id": "refuge",
+          "kind": "teaching",
+          "heading": "Jānussoṇi chọn nương tựa",
+          "paragraphs": [
+            "Jānussoṇi hai lần tán thán lời giảng. Ông ví như dựng vật bị lật, mở điều bị che, chỉ đường người lạc, thắp đèn trong tối cho người có mắt thấy được.",
+            "Ông xin quy y Phật, Pháp, Tăng — nhận làm chỗ nương tựa — và làm người đệ tử tại gia trọn đời. Ông chọn bắt đầu con đường ấy; bài không nói ông đã chứng A-la-hán. Lời kết xếp kinh này thứ bảy trong nhóm."
+          ],
+          "meaningUnits": [
+            "refuge"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: nhìn bạn gấp giấy",
+          "paragraphs": [
+            "Ví dụ của người biên soạn: em thấy một con hạc giấy đẹp và nghe nhiều bạn khen người hướng dẫn. Đó là lý do tốt để muốn học. Nhưng để biết mình đã hiểu cách gấp, em cần theo từng bước rồi tự gấp được trọn con hạc.",
+            "Ví dụ chỉ soi khác biệt giữa dấu hiệu ban đầu và điều tự mình kiểm chứng. Gấp giấy thành thạo không phải chứng ngộ mà bài kinh nói tới."
+          ],
+          "meaningUnits": [
+            "pilotika",
+            "see-elephant"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Nói đúng điều mình đã biết",
+          "paragraphs": [
+            "Gợi ý thực hành: với điều đang học, thử nói rõ “Em đã hiểu phần này, còn phần kia em muốn hỏi thêm”. Hỏi để hiểu, dùng lời thật và dịu; em có thể học tiếp mà không cần giả vờ đã biết hết."
+          ],
+          "meaningUnits": [
+            "pilotika",
+            "speech-ethics"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Từ dấu hiệu đáng tin đến sự tự chứng",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Niềm tin được làm đầy bằng điều tự chứng",
+          "paragraphs": [
+            "Một người đáng kính được nhiều người giỏi ca ngợi. Những người định phản bác lại trở thành học trò. Các dấu hiệu ấy có sức thuyết phục, nhưng đã phải điểm cuối của hiểu biết chưa? Tiểu Kinh Dụ Dấu Chân Voi, MN27, đưa câu hỏi ấy vào cả một con đường tu tập.",
+            "Bài được thuật khi Đức Phật ở rừng Jeta, tu viện Anāthapiṇḍika tại Sāvatthī."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting"
+          ]
+        },
+        {
+          "id": "confidence",
+          "kind": "teaching",
+          "heading": "Pilotika nêu lý do mình tin",
+          "paragraphs": [
+            "Giữa ban ngày, bà-la-môn Jānussoṇi rời thành bằng cỗ xe toàn trắng do ngựa cái kéo. Gặp du sĩ Pilotika, gọi theo họ Vacchāyana, ông hỏi từ đâu về. Biết du sĩ vừa gặp Gotama, ông hỏi vị ấy nghĩ thế nào về trí tuệ của Ngài.",
+            "Pilotika cho rằng phải ngang bậc mới thẩm định được trí tuệ ấy. Ông nói những người đáng được ca ngợi cũng tán thán Ngài là tối thượng giữa trời và người. Được hỏi lý do xác tín, ông dùng ví dụ người thạo theo voi: gặp dấu chân dài rộng thì kết luận có voi đực lớn.",
+            "Bốn dấu ông đã thấy đưa ông đến ba xác nhận: Thế Tôn là bậc Chánh Đẳng Giác, Pháp khéo giảng, Tăng đoàn thực hành đúng. Đây là mức kết luận của người du sĩ trong cuộc đối thoại."
+          ],
+          "meaningUnits": [
+            "encounter",
+            "pilotika"
+          ]
+        },
+        {
+          "id": "first-three",
+          "kind": "teaching",
+          "heading": "Ba nhóm đi từ tranh luận sang làm đệ tử",
+          "paragraphs": [
+            "Nhóm thứ nhất là những người Sát-đế-lị thuộc giới quý tộc, giỏi biện luận, sắc sảo, thông học thuyết đối phương, có thể chia chẻ lập luận như sợi tóc. Nghe Gotama sắp tới một làng hay thị trấn, họ soạn câu hỏi theo hai nhánh: Ngài đáp thế này thì bác thế kia, đáp thế kia thì bác ngược lại.",
+            "Khi nghe Ngài đã tới, họ đến gặp. Pháp thoại làm sáng rõ, khuyến khích, khơi nhiệt tâm và đem hoan hỷ; họ không hỏi cả câu đã chuẩn bị, huống hồ bác lại. Họ trở thành đệ tử. Pilotika xem đây là dấu thứ nhất củng cố cả ba xác nhận.",
+            "Dấu thứ hai là các bà-la-môn, dấu thứ ba là các gia chủ có tài biện luận: cùng chuẩn bị tranh thắng, nghe Pháp rồi trở thành đệ tử. Sự chuyển hướng từ ý định hạ đối phương sang học hỏi là điều du sĩ quan sát."
+          ],
+          "meaningUnits": [
+            "aristocrats",
+            "brahmins",
+            "householders"
+          ]
+        },
+        {
+          "id": "fourth",
+          "kind": "teaching",
+          "heading": "Dấu thứ tư bao gồm một kết quả tu tập",
+          "paragraphs": [
+            "Nhóm sa-môn thứ tư cũng tinh thông, soạn câu hỏi với hai lối bác, nghe tin Ngài đã đến thì tới gặp. Họ được Pháp thoại chỉ rõ, khích lệ, khơi nhiệt tâm, hoan hỷ, nên không hỏi câu định sẵn. Rồi họ xin xuất gia trong giáo pháp của Ngài và được chấp nhận.",
+            "Sống riêng, không phóng dật, nhiệt tâm và quyết chí, họ sớm tự chứng mục tiêu vô thượng của phạm hạnh, tức đời tu thanh tịnh, ngay đời này. Họ nói trước đó suýt hủy hoại đời tu: chưa thật là sa-môn, bà-la-môn hay A-la-hán mà đã tự nhận; nay mới thật. Đó là lời tự xét của chính những người ấy.",
+            "Pilotika từ dấu thứ tư, và từ đủ bốn dấu, đi đến kết luận về Phật, Pháp, Tăng. Ba nhóm trước trở thành đệ tử; riêng nhóm thứ tư được kể tiếp việc xuất gia và tự chứng."
+          ],
+          "meaningUnits": [
+            "ascetic-debaters",
+            "ascetic-fruit"
+          ]
+        },
+        {
+          "id": "response",
+          "kind": "teaching",
+          "heading": "Lòng kính trọng dẫn tới một cuộc gặp",
+          "paragraphs": [
+            "Jānussoṇi xuống xe, khoác y một vai, chắp tay về phía Đức Phật, ba lần đảnh lễ Thế Tôn, A-la-hán, Chánh Đẳng Giác. Ông mong sẽ có dịp gặp và đàm luận.",
+            "Sau đó ông tới, trao lời chào hỏi, ngồi một bên, kể lại toàn bộ cuộc nói chuyện. Đức Phật nói phép ví dấu chân voi còn chưa đầy đủ, rồi mời ông nghe và khéo chú tâm. Ông vâng lời."
+          ],
+          "meaningUnits": [
+            "reverence",
+            "incomplete"
+          ]
+        },
+        {
+          "id": "tracking",
+          "kind": "teaching",
+          "heading": "Các dấu tăng dần, khả năng khác vẫn còn",
+          "paragraphs": [
+            "Một người vào rừng voi gặp dấu chân lớn, dài rộng. Người thạo chưa kết luận đó là voi đực lớn, vì voi cái thấp cũng có chân lớn. Theo tiếp, thấy thêm dấu cọ xát ở trên cao; vẫn có loại voi cái cao lớn tạo được dấu ấy.",
+            "Tiếp nữa, dấu chân và dấu cọ có thêm vết ngà cào trên cao. Người thạo vẫn chưa kết luận, vì còn loại voi cái cao lớn khác có thể giải thích các dấu đó. Dấu mới có giá trị, song vẫn chưa loại hết các khả năng khác.",
+            "Người ấy đi tiếp, thấy đủ dấu chân, cọ xát, ngà cào, cành gãy cao, rồi thấy chính voi đực lớn ở gốc cây hoặc ngoài trời, đang đi, đứng, ngồi hay nằm. Khi ấy mới biết đây đúng là con voi đực lớn. Phép ví chuyển từ suy ra qua dấu đến trực tiếp thấy."
+          ],
+          "meaningUnits": [
+            "track-one",
+            "track-two",
+            "track-three",
+            "see-elephant"
+          ]
+        },
+        {
+          "id": "teacher",
+          "kind": "teaching",
+          "heading": "Pháp được chứng và được giảng",
+          "paragraphs": [
+            "Đức Phật nối phép ví với sự xuất hiện của Như Lai: A-la-hán, Chánh Đẳng Giác, Minh Hạnh Túc, Thiện Thệ, Thế Gian Giải; bậc vô thượng điều phục người cần được rèn luyện, thầy của trời người, Phật, Thế Tôn. Những tôn xưng này nói tới đoạn ô nhiễm, giác ngộ, đầy đủ trí và hạnh, khéo đi, hiểu thế gian và khả năng hướng dẫn.",
+            "Ngài tự chứng biết thế giới cùng chư thiên, Māra, Phạm thiên, sa-môn, bà-la-môn, trời và người, rồi tuyên thuyết điều đã chứng. Pháp tốt ở đầu, giữa và cuối, đầy đủ nghĩa và lời; đời sống phạm hạnh được trình bày toàn vẹn, thanh tịnh."
+          ],
+          "meaningUnits": [
+            "teacher"
+          ]
+        },
+        {
+          "id": "commitment",
+          "kind": "teaching",
+          "heading": "Từ tin đến một lựa chọn có thực",
+          "paragraphs": [
+            "Gia chủ, con gia chủ hoặc người sinh trong một gia đình nào đó nghe Pháp và khởi lòng tin. Người ấy tự xét đời tại gia chật hẹp, bụi bặm; xuất gia rộng mở. Sống tại nhà khó thực hiện phạm hạnh hoàn toàn thanh tịnh như vỏ ốc được đánh bóng.",
+            "Sau đó, người ấy từ bỏ của cải và thân quyến dù ít hay nhiều, cạo râu tóc, khoác cà-sa, xuất gia. Đây là diễn tiến của người chọn nếp sống tu sĩ trong bài; niềm tin đã đi vào việc thay đổi cách sống."
+          ],
+          "meaningUnits": [
+            "going-forth"
+          ]
+        },
+        {
+          "id": "ethics",
+          "kind": "teaching",
+          "heading": "Nền tảng nằm ở hành vi và lời nói",
+          "paragraphs": [
+            "Vị ấy nhận học giới và nếp sống tỳ-kheo: bỏ sát sinh, gậy kiếm, có hổ thẹn và lòng thương tất cả hữu tình; bỏ lấy của không cho, chỉ nhận và mong điều được cho; sống độc thân phạm hạnh, không quan hệ tình dục.",
+            "Về lời nói, vị ấy bỏ dối trá, trung thành với sự thật và đáng tin. Không đem chuyện hai nơi để chia rẽ; hàn gắn người xa nhau, nâng đỡ người đang hòa hợp. Bỏ lời thô, nói dịu dàng, lịch sự, thấm lòng. Bỏ phù phiếm, nói đúng lúc, chân thật, có nghĩa, hợp Pháp và luật tu, đáng ghi nhớ, có lý do, chừng mực và lợi ích."
+          ],
+          "meaningUnits": [
+            "body-ethics",
+            "speech-ethics"
+          ]
+        },
+        {
+          "id": "restraint",
+          "kind": "teaching",
+          "heading": "Tiết chế những thứ nuôi đời sống tu sĩ",
+          "paragraphs": [
+            "Nếp sống ấy còn tránh hại hạt giống và cây; ăn trong một phần ban ngày, không ăn đêm và phi thời; tránh xem múa, hát, nhạc; tránh trang sức bằng hoa, hương, mỹ phẩm; tránh giường cao xa hoa.",
+            "Vị ấy không tiếp nhận vàng tiền, hạt sống, thịt sống; phụ nữ, trẻ gái, tôi tớ nam nữ được trao cho theo cơ cấu xã hội xưa; dê cừu, gà heo, voi bò, ngựa đực/ngựa cái; ruộng và đất. Danh mục mô tả điều vị tu sĩ từ chối tiếp nhận trong bối cảnh ấy.",
+            "Vị ấy không làm việc đưa tin, chạy việc; không mua bán; không gian cân, kim loại/tiền và đo lường; không hối lộ, lừa dối, gian trá, thủ đoạn; không chặt hại, giết, bắt trói, cướp đoạt, cướp bóc và bạo lực. Phần giới không chỉ là một ý niệm tốt đẹp: nó đặt ranh giới rõ cho sinh kế và quan hệ."
+          ],
+          "meaningUnits": [
+            "simple-conduct",
+            "not-receive",
+            "not-exploit"
+          ]
+        },
+        {
+          "id": "contentment",
+          "kind": "teaching",
+          "heading": "Biết đủ tạo sự nhẹ nhàng",
+          "paragraphs": [
+            "Vị ấy bằng lòng với y chăm thân và thức ăn khất thực nuôi bụng, đi đâu mang theo những điều ấy. Hình ảnh con chim bay với đôi cánh diễn tả sự ít vướng bận này.",
+            "Được đầy đủ giới cao quý, vị ấy cảm nhận hạnh phúc nội tâm không lỗi lầm. Sự an ổn ấy có nền là cách sống ngay thẳng."
+          ],
+          "meaningUnits": [
+            "contentment"
+          ]
+        },
+        {
+          "id": "faculties",
+          "kind": "teaching",
+          "heading": "Chăm cách tiếp nhận cả bên ngoài lẫn trong tâm",
+          "paragraphs": [
+            "Nếu các căn không được giữ gìn, tham muốn và bực buồn có thể tràn vào. Vì vậy, khi mắt thấy sắc, tai nghe tiếng, mũi ngửi mùi, lưỡi nếm vị, thân chạm và ý biết các pháp, vị ấy không nắm giữ tướng chung và chi tiết, mà bảo hộ từng căn. Giữ gìn đủ sáu căn đưa đến hạnh phúc nội tâm không vẩn đục.",
+            "Niệm tỉnh giác hiện diện khi đi tới lui, nhìn trước quanh, co duỗi, mang y bát, ăn uống nhai nếm, đại tiểu tiện; khi đi, đứng, ngồi, ngủ, thức, nói, im lặng. Hành vi nhỏ và việc tu sâu cùng nằm trong một quá trình rèn luyện."
+          ],
+          "meaningUnits": [
+            "senses",
+            "awareness"
+          ]
+        },
+        {
+          "id": "hindrances",
+          "kind": "teaching",
+          "heading": "Từ nền tảng đời sống đến tâm bớt chướng ngại",
+          "paragraphs": [
+            "Có giới, tri túc, giữ căn và niệm tỉnh giác, vị ấy tìm chỗ vắng: rừng, gốc cây, núi, khe, hang đá, bãi tha ma, rừng hoang, ngoài trời hoặc đống rơm. Sau bữa ăn và khi trở về từ khất thực, vị ấy ngồi xếp chân, thân thẳng, thiết lập chánh niệm.",
+            "Vị ấy làm sạch tham muốn ở đời; sân và ác ý được thay bằng lòng thương chúng sinh; trì trệ, buồn ngủ được buông với sự nhận biết ánh sáng cùng niệm tỉnh giác; xao động, ray rứt được buông với nội tâm lắng yên; nghi ngờ được vượt, không phân vân về thiện pháp. Đó là năm triền cái làm tâm nhiễm và suy yếu trí tuệ."
+          ],
+          "meaningUnits": [
+            "seclusion",
+            "hindrances"
+          ]
+        },
+        {
+          "id": "jhanas",
+          "kind": "teaching",
+          "heading": "Bốn thiền là những dấu chân có giá trị",
+          "paragraphs": [
+            "Bỏ năm triền cái, ly dục và bất thiện, vị ấy vào sơ thiền: hỷ lạc do viễn ly, niềm vui phấn chấn và sự dễ chịu từ rời xa; có tầm tứ, hướng tâm và giữ sự chú tâm vào đề mục. Nhị thiền lắng tầm tứ, tâm trong sáng, quy nhất, không tầm tứ; hỷ lạc do định sinh.",
+            "Tam thiền làm hỷ phai, giữ xả, niệm tỉnh giác, thân cảm lạc; bậc Thánh gọi là xả niệm lạc trú. Xả là quân bình, niệm tỉnh giác là ghi nhớ tỉnh thức và biết rõ. Tứ thiền buông lạc, khổ; hỷ ưu trước đã tắt; không khổ không lạc, xả niệm thanh tịnh.",
+            "Ở từng tầng, Đức Phật gọi đó là dấu chân, dấu cọ xát và dấu ngà cào của Như Lai. Cũng ở từng tầng, vị Thánh đệ tử vẫn chưa đi đến kết luận trọn vẹn rằng Phật Chánh Đẳng Giác, Pháp khéo giảng, Tăng khéo hành. Những chứng đạt ấy đưa người học đi tiếp."
+          ],
+          "meaningUnits": [
+            "first-jhana",
+            "second-jhana",
+            "third-jhana",
+            "fourth-jhana"
+          ]
+        },
+        {
+          "id": "knowledge",
+          "kind": "teaching",
+          "heading": "Hai sự biết vượt thông thường vẫn chưa khép con đường",
+          "paragraphs": [
+            "Với tâm định, thanh tịnh, sáng, không nhơ, không ô nhiễm, mềm, dễ sử dụng, vững và bất động, vị ấy hướng tới trí nhớ đời trước: một đời, hai đời và nhiều đời với đặc điểm, chi tiết.",
+            "Với những phẩm chất tâm ấy, vị ấy hướng tới trí biết chúng sinh chết và tái sinh. Thiên nhãn thanh tịnh vượt mắt người cho biết chúng sinh đi theo nghiệp của họ. Bài kể các sự biết này như những chứng đạt thực sự trong tiến trình.",
+            "Cả hai đều được gọi bằng ba loại dấu, và vẫn mang mệnh đề chưa đi đến kết luận. Khả năng phi thường và sự hoàn tất giải thoát được đặt ở những chặng khác nhau."
+          ],
+          "meaningUnits": [
+            "past-lives",
+            "rebirth"
+          ]
+        },
+        {
+          "id": "truths",
+          "kind": "teaching",
+          "heading": "Một thay đổi chính xác trong cách kết luận",
+          "paragraphs": [
+            "Vẫn với tâm định, sạch, sáng, không nhơ ô nhiễm, mềm, dễ dùng, vững và bất động, vị ấy hướng đến trí đoạn lậu hoặc. Vị ấy biết như thật khổ, nguồn gốc khổ, khổ diệt và con đường đưa đến khổ diệt. Đồng thời biết lậu hoặc, nguồn gốc, sự diệt và con đường diệt lậu hoặc.",
+            "Lậu hoặc là các ô nhiễm sâu duy trì ràng buộc. Đoạn này giữ ba dấu của Như Lai nhưng đổi mức diễn đạt: chưa đến được kết luận, tuy đang đi tới kết luận. Đây là bước chuyển từ sáu chặng vẫn chưa kết luận phía trước đến giải thoát ở đoạn sau."
+          ],
+          "meaningUnits": [
+            "truths"
+          ]
+        },
+        {
+          "id": "liberation",
+          "kind": "teaching",
+          "heading": "Sự biết giải thoát hoàn tất phép ví",
+          "paragraphs": [
+            "Do biết và thấy như vậy, tâm giải thoát khỏi dục lậu, hữu lậu, vô minh lậu: ô nhiễm gắn với dục, với tiếp tục hiện hữu, với không thấy biết đúng. Giải thoát rồi, vị ấy có trí biết đã giải thoát; biết sinh đã tận, phạm hạnh đã thành, việc cần làm đã làm, không còn trở lại đời sống này nữa.",
+            "Ba loại dấu vẫn được nhắc, nhưng bây giờ vị Thánh đệ tử đã đến được kết luận: Phật Chánh Đẳng Giác, Pháp khéo giảng, Tăng khéo hành. Đức Phật khép lời mở: tới đây phép ví dấu chân voi mới được trình bày đầy đủ. Niềm tin ban đầu có thể đưa tới học hỏi; sự tự chứng làm đầy hành trình ấy."
+          ],
+          "meaningUnits": [
+            "liberation",
+            "completion"
+          ]
+        },
+        {
+          "id": "refuge",
+          "kind": "teaching",
+          "heading": "Người nghe bắt đầu bằng sự quy y",
+          "paragraphs": [
+            "Jānussoṇi hai lần tán thán. Ông ví lời giảng với dựng vật bị lật, mở điều bị che, chỉ đường người lạc, đem đèn vào tối cho người có mắt thấy được.",
+            "Ông xin nương tựa Phật, Pháp và Tăng đoàn, nhận làm cư sĩ trọn đời. Kết quả được kể ở người nghe là quy y tại gia; sự giải thoát vừa mô tả thuộc con đường của vị đệ tử trong bài giảng. Lời kết xếp kinh này thứ bảy trong nhóm."
+          ],
+          "meaningUnits": [
+            "refuge"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: chọn một lớp học",
+          "paragraphs": [
+            "Một liên hệ biên tập: lời giới thiệu của người có kinh nghiệm khiến bạn muốn dự một lớp học. Vài buổi giảng rõ ràng củng cố thiện cảm. Rồi việc tự làm, nhận ra chỗ sai và thực sự nắm kỹ năng đem lại một kiểu biết khác với lời giới thiệu ban đầu.",
+            "Liên hệ chỉ làm rõ các mức cơ sở của niềm tin. Kết quả một lớp học không tương đương giải thoát, và bài kinh cũng không đặt mục tiêu ở hiệu suất hay thành tích."
+          ],
+          "meaningUnits": [
+            "pilotika",
+            "track-one",
+            "track-two",
+            "track-three",
+            "see-elephant"
+          ]
+        },
+        {
+          "id": "reflection",
+          "kind": "practice",
+          "heading": "Tách điều đã thấy khỏi điều còn đang học",
+          "paragraphs": [
+            "Gợi ý suy xét: khi nói mình đã hiểu một điều, cơ sở là nghe kể, quan sát một phần hay tự thực hành đến kết quả? Gọi đúng mức mình đang có giúp học tiếp thành thật. Có thể bắt đầu ngay bằng một lời nói thật, có ích và không gây chia rẽ, trong hướng tu học rộng hơn mà bài kinh đã trình bày."
+          ],
+          "meaningUnits": [
+            "pilotika",
+            "speech-ethics",
+            "liberation"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Đi tiếp để niềm tin thành sự hiểu rõ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Tin cậy rồi tiếp tục tìm hiểu",
+          "paragraphs": [
+            "Có những lời giới thiệu đủ khiến ta muốn lắng nghe. Có những điều phải tự đi qua mới biết rõ. Tiểu Kinh Dụ Dấu Chân Voi, MN27, nối hai việc ấy bằng câu chuyện theo dấu một con voi, rồi mở ra cả con đường tu tập.",
+            "Kinh được thuật khi Đức Phật ở rừng Jeta, tu viện Anāthapiṇḍika tại Sāvatthī."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting"
+          ]
+        },
+        {
+          "id": "conversation",
+          "kind": "teaching",
+          "heading": "Một cuộc hỏi chuyện giữa đường",
+          "paragraphs": [
+            "Giữa ban ngày, bà-la-môn Jānussoṇi ra khỏi thành trên cỗ xe toàn trắng do ngựa cái kéo. Bà-la-môn là tầng lớp gắn với việc học kinh và nghi lễ thời ấy. Ông gặp du sĩ Pilotika, gọi theo họ Vacchāyana, và biết người ấy vừa từ chỗ Gotama về. Ông hỏi về trí tuệ của Ngài.",
+            "Pilotika khiêm nhường đáp: phải ngang tầm mới biết được trí tuệ ấy. Ngay những người đáng được ca ngợi cũng tán thán Ngài là bậc tối thượng giữa trời người. Jānussoṇi hỏi vì lý do nào du sĩ đặt lòng tin như vậy.",
+            "Pilotika kể bốn dấu chân mình đã thấy. Ông ví như người thạo tìm voi, gặp dấu dài rộng liền kết luận có voi đực lớn. Từ bốn dấu, ông xác nhận Phật Chánh Đẳng Giác, Pháp khéo giảng, Tăng đoàn khéo thực hành."
+          ],
+          "meaningUnits": [
+            "encounter",
+            "pilotika"
+          ]
+        },
+        {
+          "id": "three-groups",
+          "kind": "teaching",
+          "heading": "Những người đến để tranh thắng đổi hướng",
+          "paragraphs": [
+            "Dấu đầu là những người Sát-đế-lị thuộc giới quý tộc, sắc sảo, thông học thuyết, biện luận tới chỗ rất tinh vi. Biết Gotama sắp đến một làng hay thị trấn, họ soạn câu hỏi hai đường: Ngài đáp thế này thì họ bác thế kia, Ngài đáp thế kia thì họ bác lại cách khác.",
+            "Khi nghe Ngài đã đến, họ tìm tới. Được Pháp thoại làm rõ, khích lệ, khơi nhiệt tâm và hoan hỷ, họ không hỏi cả câu đã định, huống nữa bác lời; họ trở thành đệ tử. Pilotika xem đó là dấu củng cố ba xác nhận của mình.",
+            "Dấu thứ hai là các bà-la-môn giỏi biện luận; dấu thứ ba là các gia chủ cũng có tài ấy. Cả hai nhóm đều đi từ chuẩn bị tranh thắng đến nghe Pháp và làm đệ tử. Câu chuyện cho thấy một cuộc gặp có thể đổi cách người ta tiếp cận việc học."
+          ],
+          "meaningUnits": [
+            "aristocrats",
+            "brahmins",
+            "householders"
+          ]
+        },
+        {
+          "id": "fourth-group",
+          "kind": "teaching",
+          "heading": "Từ bỏ tự nhận để đi tới tự chứng",
+          "paragraphs": [
+            "Nhóm thứ tư là các sa-môn, những người sống đời xuất gia. Họ cũng tinh thông, chuẩn bị câu hỏi với hai lối bác, nghe tin Ngài tới thì đến gặp. Nghe Pháp được chỉ rõ, khích lệ, phấn chấn, hoan hỷ, họ không hỏi câu đã chuẩn bị. Họ xin xuất gia trong giáo pháp ấy và được Gotama chấp nhận.",
+            "Sống riêng, không lơ là, nhiệt tâm và quyết chí, họ sớm tự chứng mục tiêu vô thượng của phạm hạnh, đời tu thanh tịnh, ngay trong đời này. Họ tự nói trước kia suýt hỏng: chưa là sa-môn, bà-la-môn, A-la-hán mà nhận mình như vậy; nay mới thật. A-la-hán là bậc đoạn tận ô nhiễm.",
+            "Đó là dấu thứ tư. Pilotika từ cả bốn dấu kết luận về Phật, Pháp, Tăng. Lời tự xét quá khứ thuộc về nhóm người vừa tu chứng, không phải lời Đức Phật gán cho mọi người ngoài giáo pháp."
+          ],
+          "meaningUnits": [
+            "ascetic-debaters",
+            "ascetic-fruit"
+          ]
+        },
+        {
+          "id": "meeting",
+          "kind": "teaching",
+          "heading": "Từ lòng kính đến nghe trực tiếp",
+          "paragraphs": [
+            "Jānussoṇi bước xuống xe, khoác y một vai, chắp tay hướng về Đức Phật và ba lần đảnh lễ Thế Tôn, A-la-hán, Chánh Đẳng Giác. Ông mong được gặp để đàm luận.",
+            "Rồi ông tới gặp, chào hỏi, ngồi một bên, thuật trọn câu chuyện. Đức Phật nói phép ví dấu chân voi ấy chưa đầy đủ. Ngài mời lắng nghe và khéo chú tâm; Jānussoṇi vâng lời."
+          ],
+          "meaningUnits": [
+            "reverence",
+            "incomplete"
+          ]
+        },
+        {
+          "id": "footprint",
+          "kind": "teaching",
+          "heading": "Thêm dấu vẫn chưa hẳn đã đủ",
+          "paragraphs": [
+            "Một người vào rừng voi thấy dấu chân lớn, dài rộng. Nếu thạo theo dấu, người ấy chưa kết luận voi đực lớn: còn có voi cái thấp với chân lớn.",
+            "Đi tiếp, thấy dấu chân kèm dấu cọ trên cao; vẫn có loại voi cái cao lớn làm dấu đó. Tiếp nữa, có thêm vết ngà cào trên cao; người ấy vẫn chưa kết luận, vì một loại voi cái cao lớn khác cũng có thể để lại các dấu ấy.",
+            "Người theo dấu không bỏ qua điều đã thấy. Chính vì xem kỹ, người ấy biết vẫn cần đi tiếp."
+          ],
+          "meaningUnits": [
+            "track-one",
+            "track-two",
+            "track-three"
+          ]
+        },
+        {
+          "id": "seeing",
+          "kind": "teaching",
+          "heading": "Tới chỗ thấy chính con voi",
+          "paragraphs": [
+            "Đi tiếp nữa, dấu chân, chỗ cọ cao và vết ngà cào cao có thêm cành gãy trên cao. Rồi người ấy nhìn thấy chính voi đực lớn dưới gốc cây hoặc ngoài trời, đang đi, đứng, ngồi hay nằm.",
+            "Khi ấy mới xác nhận: đây chính là con voi đực lớn. Đức Phật dùng bước chuyển này để giảng việc người học đi tới sự tự biết giải thoát."
+          ],
+          "meaningUnits": [
+            "see-elephant"
+          ]
+        },
+        {
+          "id": "teacher",
+          "kind": "teaching",
+          "heading": "Một giáo pháp đi cùng trí và hạnh",
+          "paragraphs": [
+            "Như Lai xuất hiện ở đời là A-la-hán, bậc hết ô nhiễm; Chánh Đẳng Giác, bậc tự giác ngộ trọn vẹn; Minh Hạnh Túc, đầy đủ trí và hạnh; Thiện Thệ, bậc khéo đi; Thế Gian Giải, bậc hiểu thế gian.",
+            "Ngài còn được tôn xưng bậc vô thượng hướng dẫn người cần rèn luyện, thầy của trời người, Phật và Thế Tôn. Ngài tự chứng biết thế giới cùng chư thiên, Māra, Phạm thiên, các sa-môn, bà-la-môn, trời và người, rồi giảng điều đã biết.",
+            "Pháp tốt ở đầu, giữa, cuối, có đủ nghĩa và lời. Đời sống phạm hạnh được trình bày hoàn toàn đầy đủ, thanh tịnh."
+          ],
+          "meaningUnits": [
+            "teacher"
+          ]
+        },
+        {
+          "id": "choice",
+          "kind": "teaching",
+          "heading": "Niềm tin đi vào một nếp sống",
+          "paragraphs": [
+            "Gia chủ, con gia chủ hoặc người trong một gia đình nào đó nghe Pháp, khởi lòng tin và suy xét. Đối với đời phạm hạnh muốn thực hiện, người ấy thấy đời tại gia chật, nhiều bụi; xuất gia rộng mở. Ở nhà khó sống trọn vẹn, thanh tịnh như vỏ ốc đánh bóng.",
+            "Một thời gian sau, người ấy từ bỏ tài sản và thân quyến dù ít hay nhiều, cạo râu tóc, khoác cà-sa, xuất gia. Kinh đang kể sự lựa chọn của người đi vào đời sống tỳ-kheo, vị tu sĩ đã thọ đầy đủ giới tu của Phật giáo; người đọc có thể nhận rõ nếp sống ấy trước khi xét phần thích hợp với hoàn cảnh mình."
+          ],
+          "meaningUnits": [
+            "going-forth"
+          ]
+        },
+        {
+          "id": "conduct",
+          "kind": "teaching",
+          "heading": "Cách sống không gây hại",
+          "paragraphs": [
+            "Vị ấy nhận học giới và sinh hoạt tỳ-kheo: bỏ sát sinh, gậy kiếm, biết hổ thẹn và thương mọi hữu tình; chỉ nhận, chỉ mong của được cho, sống không trộm; giữ đời độc thân phạm hạnh, không quan hệ tình dục.",
+            "Lời nói cũng được giữ: không dối, nói thật và đáng tin; không chuyển chuyện giữa hai bên để chia rẽ mà giúp hòa hợp; không thô bạo, dùng lời dịu, lịch sự, thấm lòng.",
+            "Vị ấy bỏ lời phù phiếm, nói đúng lúc, đúng sự thật, có nghĩa, hợp Pháp và luật tu, đáng nhớ, có lý do, chừng mực và hữu ích. Hòa hợp được nuôi bằng cách nói hằng ngày."
+          ],
+          "meaningUnits": [
+            "body-ethics",
+            "speech-ethics"
+          ]
+        },
+        {
+          "id": "simplicity",
+          "kind": "teaching",
+          "heading": "Những giới hạn của nếp sống xuất gia",
+          "paragraphs": [
+            "Vị ấy không hại hạt giống, cây cỏ; ăn trong một khoảng ban ngày, tránh ăn đêm và phi thời; không xem múa, hát, nhạc; không trang sức với hoa, hương, mỹ phẩm; không dùng giường cao xa hoa.",
+            "Vị ấy không nhận vàng tiền, hạt sống, thịt sống; phụ nữ, trẻ gái, tôi tớ nam nữ được trao theo lề lối xã hội thời ấy; dê cừu, gà heo, voi bò, ngựa đực và ngựa cái; ruộng đất. Danh mục giữ bối cảnh xưa và việc vị tu sĩ từ chối tiếp nhận."
+          ],
+          "meaningUnits": [
+            "simple-conduct",
+            "not-receive"
+          ]
+        },
+        {
+          "id": "livelihood",
+          "kind": "teaching",
+          "heading": "Không nuôi đời tu bằng gian dối và tổn hại",
+          "paragraphs": [
+            "Vị ấy không chạy việc đưa tin, không mua bán. Tránh gian cân, kim loại/tiền và đo lường; tránh hối lộ, gian trá, lừa gạt, thủ đoạn. Vị ấy cũng từ bỏ chặt hại, giết, bắt trói, cướp đoạt, cướp bóc và bạo lực.",
+            "Các điều được kể làm rõ cách sống của người đang theo con đường ấy, từ chuyện nhận vật dụng tới quan hệ với người khác."
+          ],
+          "meaningUnits": [
+            "not-exploit"
+          ]
+        },
+        {
+          "id": "contentment",
+          "kind": "teaching",
+          "heading": "Cái nhẹ của sự biết đủ",
+          "paragraphs": [
+            "Tri túc là thấy đủ với y che thân và thức ăn khất thực nuôi bụng. Vị ấy đi đâu mang theo những thứ ấy, như con chim bay mang đôi cánh.",
+            "Khi có giới cao quý, vị ấy cảm niềm vui nội tâm không lỗi lầm. Đó là sự nhẹ nhàng gắn với cách sống không đáng trách."
+          ],
+          "meaningUnits": [
+            "contentment"
+          ]
+        },
+        {
+          "id": "senses",
+          "kind": "teaching",
+          "heading": "Giữ tâm khi tiếp xúc",
+          "paragraphs": [
+            "Sự bảo hộ có mặt ở đủ sáu cửa: mắt với sắc, tai với tiếng, mũi với mùi, lưỡi với vị, thân với chạm, ý với các pháp được biết. Vị ấy không nắm giữ nét chung, chi tiết khiến tham muốn và bực buồn tràn vào.",
+            "Giữ các căn như vậy, vị ấy có niềm vui nội tâm không vẩn đục. Việc tiếp xúc vẫn diễn ra; cách bám vào điều được tiếp xúc được rèn lại."
+          ],
+          "meaningUnits": [
+            "senses"
+          ]
+        },
+        {
+          "id": "awareness",
+          "kind": "teaching",
+          "heading": "Tỉnh giác ngay trong việc bình thường",
+          "paragraphs": [
+            "Vị ấy biết rõ khi đi tới lui, nhìn trước hay quanh, co duỗi, mang y bát, ăn uống nhai nếm, đại tiểu tiện; khi đi, đứng, ngồi, ngủ, thức, nói và im lặng.",
+            "Đủ giới, tri túc, giữ căn, niệm tỉnh giác, vị ấy chọn nơi vắng: rừng, gốc cây, núi, khe, hang, bãi tha ma, rừng hoang, ngoài trời hoặc đống rơm. Nền tảng trong đời sống đi trước phần an trú sâu."
+          ],
+          "meaningUnits": [
+            "awareness",
+            "seclusion"
+          ]
+        },
+        {
+          "id": "hindrances",
+          "kind": "teaching",
+          "heading": "Năm điều cần làm sạch",
+          "paragraphs": [
+            "Sau bữa ăn, khi trở về từ khất thực, vị ấy ngồi xếp chân, giữ thân thẳng, thiết lập chánh niệm. Vị ấy bỏ tham muốn đối với đời; bỏ sân và ác ý, giữ lòng thương mọi chúng sinh.",
+            "Vị ấy bỏ trì trệ buồn ngủ, nhận biết ánh sáng và giữ niệm tỉnh giác; bỏ xao động, ray rứt, để nội tâm lắng yên; vượt nghi, không còn phân vân đối với thiện pháp. Năm triền cái ấy làm tâm vẩn đục và trí tuệ yếu đi."
+          ],
+          "meaningUnits": [
+            "hindrances"
+          ]
+        },
+        {
+          "id": "first-two",
+          "kind": "teaching",
+          "heading": "Hai tầng định đầu và lời nhắc tiếp tục",
+          "paragraphs": [
+            "Bỏ năm triền cái, rời dục và điều bất thiện, vị ấy an trú sơ thiền. Có hỷ lạc do viễn ly: niềm vui phấn chấn và sự dễ chịu từ rời xa. Còn tầm tứ, sự hướng tâm và giữ chú tâm vào đề mục.",
+            "Ở nhị thiền, tầm tứ lắng, tâm trong sáng, quy nhất, không còn tầm tứ; hỷ lạc do định sinh. Định là tâm tập trung vững.",
+            "Cả hai đều được gọi là dấu chân, dấu cọ xát, dấu ngà cào của Như Lai. Nhưng ở mỗi tầng, vị Thánh đệ tử vẫn chưa đi đến kết luận trọn vẹn về Phật Chánh Đẳng Giác, Pháp khéo giảng, Tăng khéo hành."
+          ],
+          "meaningUnits": [
+            "first-jhana",
+            "second-jhana"
+          ]
+        },
+        {
+          "id": "next-two",
+          "kind": "teaching",
+          "heading": "Quân bình sâu hơn, vẫn chưa là lời kết",
+          "paragraphs": [
+            "Tam thiền làm hỷ phai, giữ xả, niệm tỉnh giác và thân cảm lạc. Xả là sự quân bình, niệm tỉnh giác là ghi nhớ tỉnh thức và biết rõ. Bậc Thánh gọi đây là xả niệm lạc trú.",
+            "Tứ thiền buông lạc và khổ, hỷ ưu trước đã tắt; không khổ không lạc, xả niệm thanh tịnh. Mỗi tầng vẫn mang ba tên dấu của Như Lai và lời nhắc chưa đi đến kết luận về ba xác nhận ấy."
+          ],
+          "meaningUnits": [
+            "third-jhana",
+            "fourth-jhana"
+          ]
+        },
+        {
+          "id": "past-lives",
+          "kind": "teaching",
+          "heading": "Nhớ những đời sống trước",
+          "paragraphs": [
+            "Tâm đã định, sạch, sáng, không nhơ ô nhiễm, mềm, dễ dùng, vững và không lay động. Vị ấy hướng tới trí nhớ đời trước, nhớ một đời, hai đời và nhiều đời với nét và chi tiết.",
+            "Đây cũng là dấu chân, dấu cọ xát, dấu ngà cào của Như Lai. Ở chặng này, vị đệ tử vẫn chưa đi tới kết luận trọn vẹn về Phật, Pháp, Tăng."
+          ],
+          "meaningUnits": [
+            "past-lives"
+          ]
+        },
+        {
+          "id": "rebirth",
+          "kind": "teaching",
+          "heading": "Biết sự chết và tái sinh",
+          "paragraphs": [
+            "Với tâm định và đầy đủ những phẩm chất trong sáng, mềm, vững ấy, vị ấy hướng đến sự biết chúng sinh chết và tái sinh. Nhờ thiên nhãn thanh tịnh vượt mắt người, vị ấy biết chúng sinh đi theo nghiệp, hành động của họ.",
+            "Bài vẫn gọi đó là ba loại dấu và vẫn nói chưa kết luận. Khả năng biết sâu như vậy được kể trong con đường, còn phần giải thoát vẫn ở phía sau."
+          ],
+          "meaningUnits": [
+            "rebirth"
+          ]
+        },
+        {
+          "id": "truths",
+          "kind": "teaching",
+          "heading": "Đang đi tới kết luận",
+          "paragraphs": [
+            "Với tâm định, thanh tịnh, sáng, không nhơ ô nhiễm, mềm, dễ dùng, vững, bất động, vị ấy hướng tới trí đoạn lậu hoặc. Vị ấy biết như thật khổ, nguồn gốc khổ, sự chấm dứt khổ, con đường tới chấm dứt khổ.",
+            "Vị ấy cũng biết các lậu hoặc, nguồn gốc, sự chấm dứt và con đường chấm dứt chúng. Lậu hoặc là ô nhiễm sâu duy trì sự ràng buộc.",
+            "Vẫn có ba tên dấu của Như Lai, nhưng lời kinh chuyển: chưa đến được kết luận, tuy đang đi tới kết luận. Cách nói này giữ rõ việc tu chứng đang tiến tới chỗ hoàn tất."
+          ],
+          "meaningUnits": [
+            "truths"
+          ]
+        },
+        {
+          "id": "release",
+          "kind": "teaching",
+          "heading": "Tự biết giải thoát, phép ví mới đầy đủ",
+          "paragraphs": [
+            "Do biết và thấy như vậy, tâm được giải thoát khỏi dục lậu, hữu lậu, vô minh lậu: ô nhiễm gắn với dục, tiếp tục hiện hữu và không thấy biết đúng. Vị ấy biết mình đã giải thoát; sinh đã tận, phạm hạnh đã thành, việc cần làm đã làm, không còn trở lại đời sống này nữa.",
+            "Ở đây, cùng ba tên dấu ấy, vị đệ tử đã tới kết luận: Phật Chánh Đẳng Giác, Pháp khéo giảng, Tăng khéo hành. Đức Phật nói phép ví dấu chân voi nay mới đầy đủ. Chỗ đến là tự biết giải thoát khỏi ràng buộc."
+          ],
+          "meaningUnits": [
+            "liberation",
+            "completion"
+          ]
+        },
+        {
+          "id": "refuge",
+          "kind": "teaching",
+          "heading": "Người nghe nhận làm cư sĩ trọn đời",
+          "paragraphs": [
+            "Jānussoṇi hai lần tán thán. Ông ví lời giảng như dựng vật bị lật, mở điều bị che, chỉ đường người lạc, thắp đèn giữa tối để người có mắt được thấy.",
+            "Ông xin quy y Phật, Pháp, Tăng đoàn, làm đệ tử tại gia trọn đời. Đây là lựa chọn được ghi ở cuối cuộc gặp; bài không gán cho ông thành tựu giải thoát vừa mô tả. Lời kết xếp kinh thứ bảy trong nhóm."
+          ],
+          "meaningUnits": [
+            "refuge"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: nghe một chuyện trong gia đình",
+          "paragraphs": [
+            "Một ví dụ biên tập: người thân kể chuyện bất hòa, và ta muốn bênh ngay vì thương. Có thể giữ lòng thương ấy, đồng thời nghe rõ sự việc, hỏi thêm phần chưa biết, lắng nghe người liên quan trước khi nhận định đầy đủ.",
+            "Ví dụ chỉ gợi việc trân trọng điều đã nghe mà tiếp tục tìm hiểu. Việc hiểu một chuyện gia đình không phải sự tự chứng giải thoát trong kinh."
+          ],
+          "meaningUnits": [
+            "pilotika",
+            "track-one",
+            "track-two",
+            "track-three",
+            "see-elephant"
+          ]
+        },
+        {
+          "id": "reflection",
+          "kind": "practice",
+          "heading": "Giữ một chỗ cho điều chưa rõ",
+          "paragraphs": [
+            "Gợi ý suy xét: trong một điều mình đang tin, phần nào đã trực tiếp biết, phần nào còn dựa vào lời kể? Có thể nói rõ điều chưa biết, hỏi bằng lời hòa nhã, và tiếp tục học Pháp theo khả năng. Sự thành thật ấy đi cùng cách sống không làm tổn thương người khác."
+          ],
+          "meaningUnits": [
+            "pilotika",
+            "speech-ethics",
+            "contentment"
+          ]
+        }
+      ]
+    }
+  }
+}

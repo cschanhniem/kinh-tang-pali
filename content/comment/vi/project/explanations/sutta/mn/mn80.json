@@ -1,0 +1,907 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn80",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn80_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "d06cf0dc95b431bd4cb5f19952ad505165d353b5d052ef5f62ee697745d0ef48"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn80_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "57b3f90f181612c71ae7d9759b6e4b2f95797e3c96d60b177be50b01f8e8b187"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn80_translation-vi-project.json",
+      "commit": "255b606e1f9e7c3b7050b9f2f298d23fdca97c4a",
+      "sha256": "c3cf2abad6582cc00445ce8a88f05c6e5f9fa57e16073a9f9609731f36310995"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn80.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "86574fab792667c654e1103ba135ed694c4267898265f687566497ce1098ccfe"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn80_comment-vi-project.json",
+      "commit": "255b606e1f9e7c3b7050b9f2f298d23fdca97c4a",
+      "sha256": "bd1f06d74b62798580af1c692ba06a776acd749e58b2cb8a5aa0e74cc32fdcd5"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Trung Bộ 80, Kinh Vekhanasa",
+      "segments": [
+        "mn80:0.1",
+        "mn80:0.2"
+      ],
+      "summary": "Tên tập và bài kinh."
+    },
+    {
+      "id": "setting",
+      "title": "Điều đã nghe tại rừng Jeta",
+      "segments": [
+        "mn80:1.1",
+        "mn80:1.2"
+      ],
+      "summary": "Người truyền kinh thuật điều đã nghe: Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika."
+    },
+    {
+      "id": "visit",
+      "title": "Vekhanasa chào hỏi rồi đứng bên",
+      "segments": [
+        "mn80:2.1",
+        "mn80:2.2"
+      ],
+      "summary": "Du sĩ Vekhanasa đến chào hỏi thân thiện với Phật rồi đứng một bên, không thêm ngồi hoặc lễ."
+    },
+    {
+      "id": "claim",
+      "title": "Hai lần cảm thán và hai vòng định nghĩa",
+      "segments": [
+        "mn80:2.3",
+        "mn80:2.4",
+        "mn80:2.5",
+        "mn80:2.6",
+        "mn80:2.7",
+        "mn80:2.8",
+        "mn80:2.9",
+        "mn80:2.10"
+      ],
+      "summary": "Đứng bên, Vekhanasa cảm thán hai lần quang sắc tối thượng. Phật gọi ông là Kaccāna, hỏi vì sao và sắc ấy là gì. Ông đáp không có sắc cao/thù thắng hơn; Phật hỏi lại sắc ấy là gì, ông lặp định nghĩa ấy."
+    },
+    {
+      "id": "woman",
+      "title": "Một ham muốn không rõ đối tượng",
+      "segments": [
+        "mn80:3.1",
+        "mn80:3.2",
+        "mn80:3.3",
+        "mn80:3.4",
+        "mn80:3.5",
+        "mn80:3.6",
+        "mn80:3.7",
+        "mn80:3.8",
+        "mn80:3.9",
+        "mn80:3.10",
+        "mn80:3.11",
+        "mn80:3.12",
+        "mn80:3.13",
+        "mn80:3.14",
+        "mn80:3.15",
+        "mn80:3.16",
+        "mn80:3.17"
+      ],
+      "summary": "Phật nói có thể lặp mãi mà chưa chỉ rõ, ví người muốn người phụ nữ đẹp nhất xứ nhưng không biết thuộc Sát-đế-lợi/Bà-la-môn/Phệ-sa/Thủ-đà, tên/họ, cao/thấp/vừa, da đen/nâu/vàng sạm, làng/thị trấn/thành phố. Hai lượt đáp không; hỏi vẫn muốn điều chưa biết/chưa thấy thì có. Kaccāna đồng ý lời thiếu cơ sở, Phật áp dụng lại vào quang sắc."
+    },
+    {
+      "id": "gem",
+      "title": "Lưu ly và tự ngã sau chết trong lời du sĩ",
+      "segments": [
+        "mn80:4.1"
+      ],
+      "summary": "Du sĩ ví lưu ly đẹp, quý tự nhiên, tám mặt, khéo làm, trên thảm len nhạt, tỏa sáng/rực/chói; tự ngã sau chết không bệnh có vẻ sáng đó. Không gán quan niệm này cho Phật."
+    },
+    {
+      "id": "firefly",
+      "title": "So ngọc với đom đóm",
+      "segments": [
+        "mn80:5.1",
+        "mn80:5.2",
+        "mn80:5.3"
+      ],
+      "summary": "Phật so viên lưu ly đầy đủ đặc điểm với đom đóm đêm tối, hỏi cái nào tuyệt vời/thù thắng hơn; Kaccāna chọn đom đóm."
+    },
+    {
+      "id": "lamp",
+      "title": "So đom đóm với đèn dầu",
+      "segments": [
+        "mn80:6.1",
+        "mn80:6.2",
+        "mn80:6.3"
+      ],
+      "summary": "Phật so đom đóm và đèn dầu đều trong đêm tối; Kaccāna chọn đèn dầu tuyệt vời/thù thắng hơn."
+    },
+    {
+      "id": "fire",
+      "title": "So đèn dầu với lửa lớn",
+      "segments": [
+        "mn80:7.1",
+        "mn80:7.2",
+        "mn80:7.3"
+      ],
+      "summary": "Phật so đèn dầu và lửa lớn đều trong đêm tối; Kaccāna chọn lửa lớn tuyệt vời/thù thắng hơn."
+    },
+    {
+      "id": "star",
+      "title": "So lửa với sao mai",
+      "segments": [
+        "mn80:8.1",
+        "mn80:8.2",
+        "mn80:8.3"
+      ],
+      "summary": "Phật so lửa lớn đêm tối và sao mai bình minh trời trong không mây; Kaccāna chọn sao mai tuyệt vời/thù thắng hơn."
+    },
+    {
+      "id": "moon",
+      "title": "So sao mai với trăng rằm",
+      "segments": [
+        "mn80:9.1",
+        "mn80:9.2",
+        "mn80:9.3"
+      ],
+      "summary": "Phật so sao mai bình minh với trăng rằm Bố-tát nửa đêm, cả hai trời trong không mây; Kaccāna chọn trăng tuyệt vời/thù thắng hơn."
+    },
+    {
+      "id": "sun",
+      "title": "So trăng với mặt trời",
+      "segments": [
+        "mn80:10.1",
+        "mn80:10.2",
+        "mn80:10.3"
+      ],
+      "summary": "Phật so trăng rằm Bố-tát nửa đêm với mặt trời giữa trưa, trời trong không mây, tháng cuối mùa mưa/mùa thu; Kaccāna chọn mặt trời tuyệt vời/thù thắng hơn."
+    },
+    {
+      "id": "devas",
+      "title": "Biết chư thiên nhưng không tự nhận quang sắc tối thượng",
+      "segments": [
+        "mn80:11.1",
+        "mn80:11.2",
+        "mn80:11.3",
+        "mn80:11.4"
+      ],
+      "summary": "Phật biết rất nhiều chư thiên ánh trăng/trời không chiếu tới nhưng không tuyên bố không sắc cao/thù thắng hơn. Du sĩ gọi thứ kém đom đóm là tối thượng mà vẫn chưa chỉ rõ."
+    },
+    {
+      "id": "five",
+      "title": "Năm loại dục",
+      "segments": [
+        "mn80:12.1",
+        "mn80:12.2",
+        "mn80:12.3",
+        "mn80:12.4",
+        "mn80:12.5",
+        "mn80:12.6",
+        "mn80:12.7",
+        "mn80:12.8"
+      ],
+      "summary": "Năm cặp mắt-sắc, tai-tiếng, mũi-hương, lưỡi-vị, thân-xúc; mỗi loại có đủ sáu tính chất đáng ưa/đáng thích/dễ chịu/hấp dẫn/liên hệ dục/khơi ham muốn. Phật nhắc đây là năm loại, không thêm ý thành loại thứ sáu."
+    },
+    {
+      "id": "pleasure",
+      "title": "Dục lạc và an vui vượt dục",
+      "segments": [
+        "mn80:13.1",
+        "mn80:13.2"
+      ],
+      "summary": "Lạc và hỷ sinh do duyên năm dục gọi dục lạc. Từ dục có dục lạc; vượt dục lạc là an vui vượt dục được gọi tối thượng ở đây. Không chuyển thành tăng hưởng dục tự sinh giải thoát, không tự gán tên chứng đạt chưa được nêu."
+    },
+    {
+      "id": "delight",
+      "title": "Hai lời khen và hai lần nhắc lời",
+      "segments": [
+        "mn80:14.1",
+        "mn80:14.2",
+        "mn80:14.3",
+        "mn80:14.4",
+        "mn80:14.5"
+      ],
+      "summary": "Vekhanasa khen kỳ diệu, phi thường, khéo nói; lặp hai lần đầy đủ mạch từ dục có dục lạc, vượt dục lạc có dục tối thượng lạc, ở đây được gọi tối thượng."
+    },
+    {
+      "id": "differences",
+      "title": "Năm điều khác làm khó hiểu",
+      "segments": [
+        "mn80:14.6",
+        "mn80:14.7"
+      ],
+      "summary": "Phật nói vì khác về thấy, tin, ưa, tu tập, đạo sư, Kaccāna khó hiểu ba điều dục, dục lạc và lạc vượt dục."
+    },
+    {
+      "id": "arahants",
+      "title": "Những vị có thể hiểu ba điều ấy",
+      "segments": [
+        "mn80:14.8",
+        "mn80:14.9"
+      ],
+      "summary": "Các tỳ-kheo A-la-hán, lậu tận, phạm hạnh hoàn tất, việc cần làm xong, gánh đặt xuống, mục đích đạt, ràng buộc hữu tận, giải thoát đúng nhờ chánh trí có thể hiểu dục/dục lạc/lạc vượt dục. Không thêm chỉ hoặc biến khác niềm tin thành cấm học."
+    },
+    {
+      "id": "anger",
+      "title": "Du sĩ giận và công kích",
+      "segments": [
+        "mn80:15.1",
+        "mn80:15.2"
+      ],
+      "summary": "Vekhanasa bực bội, bất mãn, mắng nhiếc, miệt thị, chỉ trích Phật với ý cho rằng Gotama sẽ bẽ mặt; không diễn thành đọa địa ngục."
+    },
+    {
+      "id": "criticism",
+      "title": "Phê phán lời tự nhận không có căn cứ",
+      "segments": [
+        "mn80:15.3",
+        "mn80:15.4",
+        "mn80:15.5"
+      ],
+      "summary": "Du sĩ phê một số sa-môn/bà-la-môn không biết quá khứ/không thấy tương lai vẫn tự nhận biết sinh tận/phạm hạnh hoàn tất/việc cần làm xong/không trở lại hiện hữu này; gọi lời ấy đáng cười, lời suông, trống rỗng, hư vọng."
+    },
+    {
+      "id": "agreement",
+      "title": "Phật chấp nhận phê phán đúng trường hợp",
+      "segments": [
+        "mn80:16.1",
+        "mn80:16.2",
+        "mn80:16.3"
+      ],
+      "summary": "Phật nhắc đúng nhóm không biết quá khứ/không thấy tương lai vẫn tự nhận biết đủ bốn vế hoàn tất, và xác nhận phê phán ấy chính đáng đối với họ."
+    },
+    {
+      "id": "invitation",
+      "title": "Lời mời thực hành để tự biết",
+      "segments": [
+        "mn80:16.4",
+        "mn80:16.5",
+        "mn80:16.6",
+        "mn80:16.7"
+      ],
+      "summary": "Gác quá khứ/tương lai; người có trí, không xảo trá, không gian dối, ngay thẳng hãy đến. Phật sẽ dạy và hướng dẫn; thực hành đúng lời hướng dẫn thì chẳng bao lâu tự biết/tự thấy cách giải thoát đúng khỏi trói buộc vô minh."
+    },
+    {
+      "id": "baby",
+      "title": "Bé lớn lên và biết mình hết bị buộc",
+      "segments": [
+        "mn80:16.8",
+        "mn80:16.9",
+        "mn80:16.10"
+      ],
+      "summary": "Ví bé non nớt nằm ngửa bị buộc bằng dây chỉ ở năm chỗ, cổ thứ năm. Khi lớn lên và các căn chín, dây được cởi; bé biết đã giải thoát và không còn trói buộc. Không tự thêm tay chân hoặc đổi thành năm vòng ở cổ."
+    },
+    {
+      "id": "renewal",
+      "title": "Lời mời lặp lại đủ điều kiện",
+      "segments": [
+        "mn80:16.11",
+        "mn80:16.12",
+        "mn80:16.13"
+      ],
+      "summary": "Phật nhắc lại người có trí/không xảo trá/không gian dối/ngay thẳng đến, Ngài dạy và hướng dẫn; làm đúng hướng dẫn thì chẳng bao lâu tự biết/tự thấy giải thoát đúng khỏi trói buộc vô minh."
+    },
+    {
+      "id": "praise",
+      "title": "Lời khen và bốn hình ảnh khai mở",
+      "segments": [
+        "mn80:17.1",
+        "mn80:17.2"
+      ],
+      "summary": "Vekhanasa khen tuyệt vời; đoạn root lược được mở theo HTML SC35 thực đọc: hai lời khen, dựng vật úp, mở vật che, chỉ đường người lạc, đèn cho người có mắt thấy; Phật khai mở Pháp nhiều cách, quy y Phật/Pháp/Tăng."
+    },
+    {
+      "id": "lay-follower",
+      "title": "Xin làm nam cư sĩ trọn đời",
+      "segments": [
+        "mn80:17.3"
+      ],
+      "summary": "Xin Phật ghi nhận là nam cư sĩ đã quy y từ hôm nay đến trọn đời, không xin xuất gia hoặc được thọ cụ túc."
+    },
+    {
+      "id": "ending",
+      "title": "Kết bài và phẩm",
+      "segments": [
+        "mn80:17.4",
+        "mn80:17.5"
+      ],
+      "summary": "Kinh Vekhanasa thứ mười kết thúc, Phẩm Du Sĩ thứ ba kết thúc."
+    },
+    {
+      "id": "mnemonic",
+      "title": "Vần ghi nhớ cuối phẩm",
+      "segments": [
+        "mn80:18.0",
+        "mn80:18.1",
+        "mn80:18.2",
+        "mn80:18.3",
+        "mn80:18.4"
+      ],
+      "summary": "Nhãn Tóm lược và bốn dòng nhớ các tên Puṇḍarīka, Aggi, Kathināma, Dīghanakha, người họ Bhāradvāja, Sandaka, Udāyī, con Muṇḍika, Maṇika, Kaccāna cùng ý phẩm thù thắng. Giữ đủ năm khóa thực, không tự gán các tên khó chắc chắn vào tên bài hiện đại."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "MN80 — Từ lời nói cao nhất đến điều tự mình biết",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Người khách nói về điều cao nhất",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "visit",
+            "claim"
+          ],
+          "paragraphs": [
+            "Kinh Vekhanasa là bài 80 của Trung Bộ. Người truyền kinh kể lại điều đã nghe: Đức Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika. Du sĩ Vekhanasa, người tu sống đời du hành, đến chào hỏi thân thiện rồi đứng một bên.",
+            "Ông thốt hai lần rằng đây là quang sắc tối thượng, vẻ sáng rực rỡ cao nhất. Đức Phật gọi ông là Kaccāna, hỏi vì sao nói thế và vẻ sáng ấy là gì. Ông đáp: thứ không còn vẻ sáng nào cao hơn, tốt hơn. Ngài hỏi lại chính thứ ấy là gì; ông vẫn lặp câu trả lời đó."
+          ]
+        },
+        {
+          "id": "woman",
+          "kind": "teaching",
+          "heading": "Biết tên lời khen mà chưa biết điều được khen",
+          "meaningUnits": [
+            "woman"
+          ],
+          "paragraphs": [
+            "Đức Phật nói cách ấy có thể kéo dài mãi mà chưa chỉ rõ điều đang nói. Ngài ví một người mong người phụ nữ đẹp nhất xứ nhưng không biết nàng thuộc một trong bốn tầng lớp thời ấy: Sát-đế-lợi, Bà-la-môn, Phệ-sa, Thủ-đà. Hỏi tên họ, cao thấp hay vừa, da đen, nâu hay vàng sạm, ở làng, thị trấn hay thành phố nào, người ấy cũng không biết.",
+            "Hai lượt hỏi đều đáp không. Hỏi vậy vẫn muốn điều chưa biết, chưa thấy sao, người ấy đáp có. Kaccāna đồng ý lời ấy không có cơ sở rõ ràng. Đức Phật chỉ ra lời nói về vẻ sáng cao nhất của ông cũng đang thiếu điều cần chỉ rõ."
+          ]
+        },
+        {
+          "id": "gem",
+          "kind": "teaching",
+          "heading": "Một viên ngọc và ba câu hỏi",
+          "meaningUnits": [
+            "gem",
+            "firefly",
+            "lamp",
+            "fire"
+          ],
+          "paragraphs": [
+            "Vekhanasa ví viên lưu ly đẹp, quý tự nhiên, tám mặt, được làm khéo, đặt trên thảm len nhạt, tỏa sáng rực rỡ chói lọi. Ông nói tự ngã, cái ông xem là bản thân, sau khi chết không bệnh có vẻ sáng như thế.",
+            "Đức Phật hỏi trong từng cặp, vẻ sáng nào tuyệt vời hơn, tốt hơn. So viên ngọc ấy với đom đóm trong đêm tối, Kaccāna chọn đom đóm. So đom đóm với đèn dầu trong đêm tối, ông chọn đèn dầu. So đèn dầu với đống lửa lớn trong đêm tối, ông chọn lửa lớn."
+          ]
+        },
+        {
+          "id": "sky",
+          "kind": "teaching",
+          "heading": "Ba câu hỏi nữa đưa tầm nhìn xa hơn",
+          "meaningUnits": [
+            "star",
+            "moon",
+            "sun",
+            "devas"
+          ],
+          "paragraphs": [
+            "So lửa lớn với sao mai lúc bình minh trời trong không mây, ông chọn sao mai. So sao mai với trăng rằm ngày Bố-tát, ngày thực hành giới, lúc nửa đêm trời không mây, ông chọn trăng. So trăng ấy với mặt trời giữa trưa, trời không mây, tháng cuối mùa mưa thuộc mùa thu, ông chọn mặt trời.",
+            "Đức Phật biết rất nhiều vị thiên mà ánh trăng và mặt trời không chiếu tới. Dù vậy, Ngài không tuyên bố không còn vẻ sáng nào cao hơn, tốt hơn. Trong khi đó, điều Kaccāna gọi cao nhất lại kém đom đóm theo câu đáp của ông, và vẫn chưa được chỉ rõ."
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Năm cửa đưa tới những thứ mình thích",
+          "meaningUnits": [
+            "five",
+            "pleasure"
+          ],
+          "paragraphs": [
+            "Đức Phật chuyển sang năm loại dục, những đối tượng làm giác quan ham thích: hình sắc mắt thấy, âm thanh tai nghe, mùi mũi ngửi, vị lưỡi nếm, sự tiếp xúc thân cảm nhận. Mỗi loại được nói tới ở đây đều đáng ưa, đáng thích, dễ chịu, hấp dẫn, gắn với dục và khơi ham muốn.",
+            "Lạc, cảm giác dễ chịu, và hỷ, niềm vui, sinh nhờ năm thứ ấy gọi là dục lạc. Đức Phật nêu: từ các dục có dục lạc; vượt dục lạc còn có sự an vui vượt trên dục, được gọi là tối thượng ở đây. Lời dạy mở ra một sự an vui vượt khỏi việc hưởng những thứ giác quan thích."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: âm thanh trong trò chơi",
+          "meaningUnits": [
+            "five",
+            "pleasure"
+          ],
+          "paragraphs": [
+            "Một trò chơi có màu đẹp và tiếng nhạc em thích. Em cảm thấy vui khi nhìn, nghe; rồi có thể muốn chơi thêm để giữ cảm giác ấy. Ví dụ này giúp phân biệt những thứ giác quan gặp với niềm vui sinh nhờ chúng. Nó là tình huống hiện đại do người diễn giải đặt ra, không nói rằng chỉ cần tắt trò chơi là đã đạt sự giải thoát trong kinh."
+          ]
+        },
+        {
+          "id": "delight",
+          "kind": "teaching",
+          "heading": "Nghe thấy hay chưa chắc đã hiểu hết",
+          "meaningUnits": [
+            "delight",
+            "differences",
+            "arahants"
+          ],
+          "paragraphs": [
+            "Vekhanasa khen kỳ diệu, phi thường, nói Đức Phật đã khéo giảng. Ông nhắc trọn mạch ấy hai lần: từ dục có dục lạc; vượt dục lạc có an vui vượt dục; ở đây điều ấy được gọi cao nhất.",
+            "Đức Phật nói với Kaccāna: ông còn khác về cách thấy, điều tin, điều ưa, cách tu và người thầy, nên khó hiểu ba điều dục, dục lạc và an vui vượt dục. Các tỳ-kheo, người xuất gia, là bậc A-la-hán có thể hiểu chúng: đó là những vị giải thoát đáng kính, đã hết lậu hoặc — ô nhiễm trói buộc tâm — hoàn tất đời tu thanh tịnh, làm xong việc cần làm, đặt gánh nặng xuống, đạt mục đích, dứt ràng buộc dẫn tới tiếp tục hiện hữu, giải thoát đúng nhờ trí biết đúng."
+          ]
+        },
+        {
+          "id": "anger",
+          "kind": "teaching",
+          "heading": "Người khách nổi giận",
+          "meaningUnits": [
+            "anger",
+            "criticism"
+          ],
+          "paragraphs": [
+            "Vekhanasa bực bội, bất mãn, mắng nhiếc, miệt thị, chỉ trích Đức Phật, với ý cho rằng Gotama sẽ bị bẽ mặt. Ông nêu có những sa-môn, người xuất gia tu hành, và bà-la-môn, người theo truyền thống kinh điển nghi lễ, không biết quá khứ, không thấy tương lai mà vẫn tự nhận biết rõ: tái sinh đã chấm dứt, đời phạm hạnh đã hoàn thành, việc cần làm đã làm, không trở lại trạng thái hiện hữu này. Phạm hạnh là đời tu thanh tịnh.",
+            "Ông gọi những lời ấy là chuyện đáng cười, lời nói suông, trống rỗng, không có thực chất."
+          ]
+        },
+        {
+          "id": "agreement",
+          "kind": "teaching",
+          "heading": "Đức Phật nhận phần phê phán đúng",
+          "meaningUnits": [
+            "agreement",
+            "invitation"
+          ],
+          "paragraphs": [
+            "Đức Phật nhắc đúng trường hợp ông nêu: người không biết quá khứ, không thấy tương lai mà vẫn nhận mình biết tái sinh đã chấm dứt, đời tu đã hoàn tất, việc đã xong, không trở lại hiện hữu này. Với những người ấy, Ngài xác nhận sự bác bỏ đó là chính đáng.",
+            "Rồi Ngài gác quá khứ và tương lai, mời người có trí, không xảo trá, không gian dối, ngay thẳng hãy đến. Chính Ngài sẽ dạy và hướng dẫn. Nếu thực hành đúng lời hướng dẫn, chẳng bao lâu người ấy tự biết, tự thấy sự giải thoát đúng khỏi trói buộc vô minh, tức không thấy biết đúng."
+          ]
+        },
+        {
+          "id": "baby",
+          "kind": "teaching",
+          "heading": "Biết rõ mình đã hết bị buộc",
+          "meaningUnits": [
+            "baby"
+          ],
+          "paragraphs": [
+            "Ví dụ trong kinh kể một em bé non nớt nằm ngửa, bị buộc bằng dây chỉ ở năm chỗ, cổ là chỗ thứ năm. Khi lớn lên và các khả năng cảm nhận trưởng thành, những dây buộc được cởi ra. Đứa trẻ biết mình đã được giải thoát, không còn bị buộc. Hình ảnh ấy nói về việc tự biết sự thay đổi của mình."
+          ]
+        },
+        {
+          "id": "invitation",
+          "kind": "teaching",
+          "heading": "Lời mời được nhắc lại",
+          "meaningUnits": [
+            "renewal"
+          ],
+          "paragraphs": [
+            "Đức Phật nhắc lại: người có trí, không xảo trá, không gian dối, ngay thẳng hãy đến; Ngài sẽ dạy và hướng dẫn. Thực hành đúng lời được dạy thì chẳng bao lâu tự biết, tự thấy sự giải thoát đúng khỏi trói buộc vô minh. Cả sự ngay thật lẫn việc thực hành đúng đều nằm trong lời mời ấy."
+          ]
+        },
+        {
+          "id": "lay",
+          "kind": "teaching",
+          "heading": "Vekhanasa xin nương theo lời dạy",
+          "meaningUnits": [
+            "praise",
+            "lay-follower",
+            "ending"
+          ],
+          "paragraphs": [
+            "Vekhanasa thốt hai lần lời khen tuyệt vời. Ông ví Đức Phật như người dựng vật bị úp, mở vật bị che, chỉ đường cho người lạc, cầm đèn trong tối để người có mắt thấy. Ngài đã mở Pháp bằng nhiều cách. Ông xin quy y, nương theo Phật, Pháp và Tăng.",
+            "Ông xin được ghi nhận là nam cư sĩ, người học Phật sống tại gia, đã quy y từ hôm nay đến trọn đời. Kinh Vekhanasa, bài thứ mười trong nhóm kinh này, kết thúc; Phẩm Du Sĩ thứ ba cũng kết thúc."
+          ]
+        },
+        {
+          "id": "mnemonic",
+          "kind": "teaching",
+          "heading": "Vần ghi nhớ cuối phẩm",
+          "meaningUnits": [
+            "mnemonic"
+          ],
+          "paragraphs": [
+            "Cuối phẩm có phần tóm lược bằng những tên để ghi nhớ: Puṇḍarīka, Aggi, Kathināma; Dīghanakha, người họ Bhāradvāja; Sandaka, Udāyī, con của Muṇḍika; Maṇika và Kaccāna. Vần kết gọi đây là phẩm thù thắng, một phẩm đáng quý."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: nhận ra điều mình đang thích",
+          "meaningUnits": [
+            "five",
+            "pleasure",
+            "invitation"
+          ],
+          "paragraphs": [
+            "Khi nghe một bản nhạc thích, em thử nhận ra: âm thanh là điều tai nghe, niềm vui là điều đang sinh trong mình. Nếu có ý muốn nghe mãi, em cũng nhận biết ý ấy. Đây là bước quan sát nhỏ trong đời thường. Lời kinh về tự biết giải thoát còn gắn với sự ngay thật và thực hành đúng hướng dẫn của Đức Phật."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "MN80 — Niềm vui, lời tự nhận và điều trực tiếp biết",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một lời tuyên bố chưa xác định được đối tượng",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "visit",
+            "claim"
+          ],
+          "paragraphs": [
+            "MN80, Kinh Vekhanasa, mở bằng lời người truyền kinh thuật điều đã nghe. Đức Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika. Du sĩ Vekhanasa, người tu sống đời du hành, đến chào hỏi thân thiện rồi đứng một bên. Ông thốt hai lần rằng đây là quang sắc tối thượng, vẻ sáng rực rỡ cao nhất.",
+            "Phật gọi ông là Kaccāna, hỏi vì sao nói thế và quang sắc ấy là gì. Ông đáp đó là thứ không có quang sắc nào cao hơn, thù thắng hơn. Ngài hỏi lại chính thứ ấy là gì; ông lặp câu trả lời. Danh xưng vẫn chưa làm rõ đối tượng."
+          ]
+        },
+        {
+          "id": "woman",
+          "kind": "teaching",
+          "heading": "Khao khát điều chưa biết và chưa thấy",
+          "meaningUnits": [
+            "woman"
+          ],
+          "paragraphs": [
+            "Phật nói cách ấy có thể kéo dài mãi. Ngài ví người khao khát người phụ nữ đẹp nhất xứ, nhưng không biết nàng thuộc một trong bốn tầng lớp Sát-đế-lợi, Bà-la-môn, Phệ-sa, Thủ-đà. Hỏi tiếp tên họ, cao thấp hay vừa, da đen, nâu hay sạm vàng, ở làng, thị trấn hay thành phố nào, người ấy cũng không biết.",
+            "Hai lượt đều đáp không; nhưng hỏi có phải đang ham muốn điều chưa biết, chưa thấy thì đáp có. Kaccāna đồng ý lời ấy không có cơ sở. Phật áp dụng phép xét ấy vào quang sắc tối thượng chưa được ông chỉ rõ."
+          ]
+        },
+        {
+          "id": "comparisons",
+          "kind": "teaching",
+          "heading": "Những so sánh làm lộ giới hạn của lời tự nhận",
+          "meaningUnits": [
+            "gem",
+            "firefly",
+            "lamp",
+            "fire",
+            "star",
+            "moon",
+            "sun",
+            "devas"
+          ],
+          "paragraphs": [
+            "Vekhanasa ví lưu ly đẹp, quý tự nhiên, tám mặt, khéo gia công, trên thảm len nhạt, tỏa sáng, rực rỡ, chói lọi. Theo ông, tự ngã, cái ông xem là bản thân, sau chết không bệnh có vẻ sáng ấy.",
+            "Phật hỏi từng cặp cái nào tuyệt vời và thù thắng hơn. Kaccāna chọn đom đóm đêm tối hơn ngọc; đèn dầu đêm tối hơn đom đóm; lửa lớn đêm tối hơn đèn. Ông chọn sao mai lúc bình minh trời trong không mây hơn lửa; trăng rằm Bố-tát, ngày thực hành giới, vào nửa đêm trời không mây hơn sao mai; mặt trời giữa trưa, trời không mây, tháng cuối mùa mưa thuộc mùa thu hơn trăng.",
+            "Phật biết rất nhiều chư thiên mà ánh trăng và mặt trời không chiếu tới, nhưng không tuyên bố chẳng còn quang sắc cao hơn, thù thắng hơn. Còn điều Kaccāna gọi tối thượng lại kém đom đóm theo chính câu đáp của ông, mà ông vẫn chưa chỉ rõ."
+          ]
+        },
+        {
+          "id": "sensuality",
+          "kind": "teaching",
+          "heading": "Phân biệt đối tượng và niềm vui do đối tượng",
+          "meaningUnits": [
+            "five",
+            "pleasure"
+          ],
+          "paragraphs": [
+            "Đức Phật nêu năm loại dục, các đối tượng giác quan ham thích: hình sắc do mắt biết, âm thanh do tai biết, mùi do mũi biết, vị do lưỡi biết, sự tiếp xúc do thân biết. Mỗi loại ở đây đều đáng ưa, đáng thích, dễ chịu, hấp dẫn, liên hệ dục và khơi dậy ham muốn.",
+            "Lạc, sự dễ chịu, và hỷ, niềm vui, sinh do duyên năm loại ấy được gọi là dục lạc. Từ dục có dục lạc; vượt dục lạc là an vui vượt trên dục, được tuyên bố là tối thượng ở đây. Câu này mở ra sự an vui vượt khỏi việc hưởng các đối tượng giác quan."
+          ]
+        },
+        {
+          "id": "response",
+          "kind": "teaching",
+          "heading": "Tán thưởng lời dạy và khả năng hiểu lời dạy",
+          "meaningUnits": [
+            "delight",
+            "differences",
+            "arahants"
+          ],
+          "paragraphs": [
+            "Vekhanasa khen kỳ diệu, phi thường, khéo nói. Ông lặp đầy đủ mạch ấy hai lần: từ các dục có dục lạc; vượt dục lạc là dục tối thượng lạc; điều ấy được gọi tối thượng ở đây.",
+            "Phật nói ông khác về cách thấy, niềm tin, sở thích, tu tập và người thầy, nên khó hiểu cả dục, dục lạc, lạc vượt dục. Những tỳ-kheo, vị xuất gia, là A-la-hán có thể hiểu ba điều đó: bậc giải thoát đáng kính, đã hết lậu hoặc, các ô nhiễm trói buộc tâm; hoàn tất phạm hạnh, đời tu thanh tịnh; làm xong việc cần làm; đặt gánh nặng xuống; đạt mục đích; dứt những ràng buộc của hiện hữu; giải thoát đúng nhờ chánh trí, hiểu biết đúng."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: nghe nhạc và muốn giữ cảm giác",
+          "meaningUnits": [
+            "five",
+            "pleasure"
+          ],
+          "paragraphs": [
+            "Một người nghe bản nhạc quen qua tai nghe, thấy dễ chịu rồi muốn lặp lại mãi cảm giác ấy. Có thể nhận ra ba việc khác nhau: âm thanh, niềm vui sinh nhờ âm thanh, và ý muốn tiếp tục nắm giữ. Đây là ví dụ hiện đại về việc nhìn kỹ trải nghiệm giác quan; nó không định nghĩa thay cho sự an vui vượt dục mà kinh nêu."
+          ]
+        },
+        {
+          "id": "attack",
+          "kind": "teaching",
+          "heading": "Sự bất mãn chuyển thành công kích",
+          "meaningUnits": [
+            "anger",
+            "criticism"
+          ],
+          "paragraphs": [
+            "Vekhanasa bực bội, bất mãn, mắng nhiếc, miệt thị và chỉ trích Phật, với ý cho rằng Gotama sẽ bẽ mặt. Ông nói có những sa-môn, người xuất gia tu hành, và bà-la-môn, người thuộc truyền thống kinh điển nghi lễ, không biết quá khứ, không thấy tương lai, nhưng vẫn tự nhận biết rõ: tái sinh đã chấm dứt, phạm hạnh hoàn tất, việc cần làm đã làm, không trở lại trạng thái hiện hữu này.",
+            "Ông gọi lời của những người ấy là đáng cười, lời suông, trống rỗng, hư vọng."
+          ]
+        },
+        {
+          "id": "concession",
+          "kind": "teaching",
+          "heading": "Phần phê phán được Phật chấp nhận",
+          "meaningUnits": [
+            "agreement"
+          ],
+          "paragraphs": [
+            "Đức Phật nhắc lại đúng trường hợp: sa-môn, bà-la-môn không biết quá khứ, không thấy tương lai, mà tự nhận biết tái sinh đã chấm dứt, phạm hạnh hoàn thành, việc đã xong, không trở lại hiện hữu này. Ngài xác nhận lời bác bỏ ấy là chính đáng đối với họ. Sự giận dữ của người nói không khiến phần nhận xét đúng bị bỏ qua."
+          ]
+        },
+        {
+          "id": "invitation",
+          "kind": "teaching",
+          "heading": "Điều kiện để tự biết, tự thấy",
+          "meaningUnits": [
+            "invitation"
+          ],
+          "paragraphs": [
+            "Rồi Phật gác quá khứ và tương lai. Ngài mời người có trí, không xảo trá, không gian dối, bản tính ngay thẳng đến; Ngài sẽ giáo giới và thuyết Pháp, hướng dẫn và dạy cho người ấy. Thực hành đúng như được hướng dẫn, chẳng bao lâu người ấy tự biết, tự thấy sự giải thoát đúng khỏi trói buộc vô minh, sự không thấy biết đúng."
+          ]
+        },
+        {
+          "id": "bonds",
+          "kind": "teaching",
+          "heading": "Hình ảnh đứa trẻ được cởi dây buộc",
+          "meaningUnits": [
+            "baby",
+            "renewal"
+          ],
+          "paragraphs": [
+            "Phật ví một em bé non nớt nằm ngửa, bị buộc bằng dây chỉ ở năm chỗ, cổ là chỗ thứ năm. Khi lớn lên và các khả năng cảm nhận trưởng thành, những dây buộc được cởi. Đứa trẻ biết mình đã được giải thoát và không còn trói buộc.",
+            "Cũng vậy, Ngài nhắc lại đầy đủ lời mời: người có trí, không xảo trá, không gian dối, ngay thẳng hãy đến; Phật sẽ hướng dẫn và dạy. Thực hành đúng lời hướng dẫn thì chẳng bao lâu tự biết, tự thấy sự giải thoát đúng khỏi trói buộc vô minh. Điều được nhấn mạnh là khả năng tự biết sau khi thực hành đúng."
+          ]
+        },
+        {
+          "id": "lay",
+          "kind": "teaching",
+          "heading": "Lời xin làm người học Phật tại gia",
+          "meaningUnits": [
+            "praise",
+            "lay-follower",
+            "ending"
+          ],
+          "paragraphs": [
+            "Vekhanasa khen tuyệt vời hai lần. Ông ví Phật dựng lại vật bị úp, mở vật bị che, chỉ đường cho người lạc, cầm đèn trong tối để người có mắt thấy; Ngài đã khai mở Pháp bằng nhiều cách. Ông quy y, nương theo Phật, Pháp và Tăng.",
+            "Ông xin Phật ghi nhận mình là nam cư sĩ, người học Phật sống tại gia, đã quy y từ hôm nay đến trọn đời. Kinh Vekhanasa kết thúc là bài thứ mười trong nhóm kinh này; Phẩm Du Sĩ thứ ba cũng kết thúc."
+          ]
+        },
+        {
+          "id": "mnemonic",
+          "kind": "teaching",
+          "heading": "Phần ghi nhớ các tên trong phẩm",
+          "meaningUnits": [
+            "mnemonic"
+          ],
+          "paragraphs": [
+            "Phần tóm lược cuối phẩm nhắc Puṇḍarīka, Aggi, Kathināma; Dīghanakha, người họ Bhāradvāja; Sandaka, Udāyī, con của Muṇḍika; Maṇika và Kaccāna. Vần cuối gọi đây là phẩm thù thắng."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: quan sát trước khi tuyên bố",
+          "meaningUnits": [
+            "five",
+            "pleasure",
+            "invitation"
+          ],
+          "paragraphs": [
+            "Có thể chọn một niềm vui giác quan trong ngày, nhận ra đối tượng, cảm giác dễ chịu và ý muốn tiếp tục nếu có. Khi nói về mức hiểu của mình, thử nêu điều đã trực tiếp nhận biết và điều còn cần học. Đây là gợi ý quan sát đời thường; lời kinh về giải thoát vô minh vẫn gắn với sự ngay thật và thực hành đúng hướng dẫn."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "MN80 — Nhìn rõ niềm vui, tự biết sự giải thoát",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Người khách đứng bên Đức Phật",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "visit",
+            "claim"
+          ],
+          "paragraphs": [
+            "Kinh Vekhanasa, bài 80 của Trung Bộ, được kể bằng lời người truyền kinh thuật điều đã nghe. Đức Phật ở Sāvatthī, tại rừng Jeta, tu viện Anāthapiṇḍika. Du sĩ Vekhanasa, người tu sống đời du hành, đến chào hỏi thân thiện rồi đứng một bên.",
+            "Ông thốt hai lần về quang sắc tối thượng, vẻ sáng rực rỡ cao nhất. Phật gọi ông là Kaccāna, hỏi vì sao nói thế và quang sắc ấy là gì. Ông đáp là thứ không có vẻ sáng nào cao hơn, thù thắng hơn. Được hỏi lại chính thứ ấy là gì, ông vẫn trả lời như trước."
+          ]
+        },
+        {
+          "id": "woman",
+          "kind": "teaching",
+          "heading": "Một điều mong muốn nhưng chưa rõ",
+          "meaningUnits": [
+            "woman"
+          ],
+          "paragraphs": [
+            "Đức Phật nói lối ấy có thể tiếp tục mãi mà chưa chỉ rõ đối tượng. Ngài ví một người mong người phụ nữ đẹp nhất xứ nhưng không biết nàng thuộc tầng lớp nào trong bốn nhóm Sát-đế-lợi, Bà-la-môn, Phệ-sa, Thủ-đà. Người ấy cũng không biết tên họ, cao thấp hay vừa, da đen, nâu hay vàng sạm, ở làng, thị trấn hay thành phố nào.",
+            "Hai lượt hỏi đều đáp không. Hỏi vẫn muốn điều chưa biết, chưa thấy sao, lại đáp có. Kaccāna đồng ý lời ấy không có cơ sở. Phật cho thấy lời nói quang sắc tối thượng của ông cũng chưa làm rõ điều muốn nói."
+          ]
+        },
+        {
+          "id": "jewel",
+          "kind": "teaching",
+          "heading": "Viên ngọc và những ánh sáng trong đêm",
+          "meaningUnits": [
+            "gem",
+            "firefly",
+            "lamp",
+            "fire"
+          ],
+          "paragraphs": [
+            "Vekhanasa ví viên lưu ly đẹp, quý tự nhiên, tám mặt, khéo làm, trên thảm len nhạt, sáng rực và chói lọi. Theo ông, tự ngã, cái ông xem là bản thân, sau chết không bệnh có vẻ sáng ấy.",
+            "Phật hỏi từng cặp vẻ sáng nào tuyệt vời, thù thắng hơn. Giữa ngọc và đom đóm trong đêm tối, ông chọn đom đóm; giữa đom đóm và đèn dầu trong đêm tối, chọn đèn; giữa đèn và lửa lớn trong đêm tối, chọn lửa lớn."
+          ]
+        },
+        {
+          "id": "sky",
+          "kind": "teaching",
+          "heading": "Từ sao mai đến mặt trời",
+          "meaningUnits": [
+            "star",
+            "moon",
+            "sun",
+            "devas"
+          ],
+          "paragraphs": [
+            "Giữa lửa lớn và sao mai lúc bình minh trời trong không mây, ông chọn sao mai. Giữa sao mai và trăng rằm ngày Bố-tát, ngày thực hành giới, lúc nửa đêm trời không mây, ông chọn trăng. Giữa trăng ấy và mặt trời giữa trưa, trời không mây, tháng cuối mùa mưa thuộc mùa thu, ông chọn mặt trời.",
+            "Phật biết rất nhiều chư thiên mà ánh trăng, mặt trời không chiếu tới, nhưng Ngài không tuyên bố không còn quang sắc nào cao hơn, thù thắng hơn. Còn điều Kaccāna gọi tối thượng lại kém đom đóm theo câu đáp của ông mà vẫn chưa được chỉ rõ."
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Nhận biết năm loại dục",
+          "meaningUnits": [
+            "five",
+            "pleasure"
+          ],
+          "paragraphs": [
+            "Đức Phật nêu năm loại dục, các đối tượng giác quan ham thích: hình sắc mắt nhận biết, âm thanh tai nhận biết, mùi mũi nhận biết, vị lưỡi nhận biết, sự tiếp xúc thân nhận biết. Mỗi loại ở đây đều đáng ưa, đáng thích, dễ chịu, hấp dẫn, liên hệ dục và khơi ham muốn.",
+            "Lạc là sự dễ chịu, hỷ là niềm vui. Lạc và hỷ sinh nhờ năm loại ấy gọi là dục lạc. Từ dục có dục lạc; vượt dục lạc là sự an vui vượt trên dục, được gọi tối thượng ở đây. Lời dạy cho thấy còn sự an vui vượt khỏi những điều giác quan ham thích."
+          ]
+        },
+        {
+          "id": "praise-first",
+          "kind": "teaching",
+          "heading": "Lời tán thưởng của người khách",
+          "meaningUnits": [
+            "delight"
+          ],
+          "paragraphs": [
+            "Vekhanasa khen kỳ diệu, phi thường, khéo nói. Ông nhắc trọn mạch lời dạy hai lần: từ dục có dục lạc; vượt dục lạc có dục tối thượng lạc; điều ấy được gọi tối thượng ở đây."
+          ]
+        },
+        {
+          "id": "understanding",
+          "kind": "teaching",
+          "heading": "Hiểu sâu còn gắn với sự tu tập",
+          "meaningUnits": [
+            "differences",
+            "arahants"
+          ],
+          "paragraphs": [
+            "Đức Phật nói Kaccāna khác về cách thấy, điều tin, điều ưa, cách tu và người thầy, nên khó hiểu ba điều: dục, dục lạc, lạc vượt dục.",
+            "Những tỳ-kheo, người xuất gia, là A-la-hán có thể hiểu ba điều ấy. Đó là bậc giải thoát đáng kính, đã hết lậu hoặc, các ô nhiễm trói buộc tâm; đã hoàn tất phạm hạnh, đời tu thanh tịnh; làm xong việc cần làm, đặt gánh nặng xuống, đạt mục đích, dứt ràng buộc đưa tới tiếp tục hiện hữu, giải thoát đúng nhờ chánh trí, hiểu biết đúng."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: hương trà quen thuộc",
+          "meaningUnits": [
+            "five",
+            "pleasure"
+          ],
+          "paragraphs": [
+            "Mùi trà quen có thể làm lòng dễ chịu. Người uống có thể nhận ra mùi hương, niềm vui sinh nhờ mùi hương, rồi ý muốn giữ mãi cảm giác nếu có. Đây là ví dụ hiện đại về việc nhìn rõ trải nghiệm, không lấy một cảm giác thư thái làm sự giải thoát mà kinh đang hướng tới."
+          ]
+        },
+        {
+          "id": "anger",
+          "kind": "teaching",
+          "heading": "Khi người khách không hài lòng",
+          "meaningUnits": [
+            "anger",
+            "criticism"
+          ],
+          "paragraphs": [
+            "Vekhanasa bực bội, bất mãn, mắng nhiếc, miệt thị và chỉ trích Đức Phật với ý cho rằng Gotama sẽ bị bẽ mặt. Ông nêu có sa-môn, người xuất gia tu hành, và bà-la-môn, người thuộc truyền thống kinh điển nghi lễ, không biết quá khứ, không thấy tương lai mà vẫn tự nhận biết rõ: tái sinh đã chấm dứt, phạm hạnh hoàn tất, việc cần làm đã làm, không trở lại trạng thái hiện hữu này.",
+            "Ông gọi lời ấy là chuyện đáng cười, lời suông, trống rỗng, hư vọng."
+          ]
+        },
+        {
+          "id": "agreement",
+          "kind": "teaching",
+          "heading": "Phật không bỏ qua một lời phê phán đúng",
+          "meaningUnits": [
+            "agreement",
+            "invitation"
+          ],
+          "paragraphs": [
+            "Đức Phật nhắc lại đúng trường hợp: những người không biết quá khứ, không thấy tương lai mà tự nhận biết tái sinh đã chấm dứt, phạm hạnh đã hoàn thành, việc đã xong, không trở lại hiện hữu này. Ngài nhận sự bác bỏ đó là chính đáng đối với họ.",
+            "Rồi Ngài gác quá khứ và tương lai, mời người có trí, không xảo trá, không gian dối, ngay thẳng đến. Phật sẽ hướng dẫn và thuyết Pháp. Thực hành đúng lời hướng dẫn thì chẳng bao lâu người ấy tự biết, tự thấy sự giải thoát đúng khỏi trói buộc vô minh, tức sự không thấy biết đúng."
+          ]
+        },
+        {
+          "id": "baby",
+          "kind": "teaching",
+          "heading": "Tự biết mình không còn bị buộc",
+          "meaningUnits": [
+            "baby"
+          ],
+          "paragraphs": [
+            "Ngài ví một em bé non nớt nằm ngửa, bị buộc bằng dây chỉ ở năm chỗ, cổ là chỗ thứ năm. Khi đứa trẻ lớn lên và các khả năng cảm nhận trưởng thành, dây buộc được cởi. Đứa trẻ biết đã được giải thoát và không còn trói buộc. Hình ảnh nhấn vào sự tự nhận biết ấy."
+          ]
+        },
+        {
+          "id": "renewal",
+          "kind": "teaching",
+          "heading": "Lời mời vẫn đầy đủ các điều kiện",
+          "meaningUnits": [
+            "renewal"
+          ],
+          "paragraphs": [
+            "Phật nhắc lại: người có trí, không xảo trá, không gian dối, ngay thẳng hãy đến; Ngài sẽ dạy và hướng dẫn. Làm đúng như được hướng dẫn, chẳng bao lâu người ấy tự biết, tự thấy sự giải thoát đúng khỏi trói buộc vô minh. Lời hứa đi cùng sự ngay thật và thực hành đúng."
+          ]
+        },
+        {
+          "id": "lay-follower",
+          "kind": "teaching",
+          "heading": "Xin nương theo từ hôm nay đến trọn đời",
+          "meaningUnits": [
+            "praise",
+            "lay-follower",
+            "ending"
+          ],
+          "paragraphs": [
+            "Vekhanasa khen tuyệt vời hai lần, ví Phật dựng vật bị úp, mở vật bị che, chỉ đường người lạc, cầm đèn trong tối để người có mắt thấy. Ngài đã khai mở Pháp bằng nhiều cách. Ông quy y, nương theo Phật, Pháp và Tăng.",
+            "Ông xin được ghi nhận là nam cư sĩ, người học Phật sống tại gia, đã quy y từ hôm nay đến trọn đời. Kinh Vekhanasa kết thúc là bài thứ mười trong nhóm kinh này; Phẩm Du Sĩ thứ ba kết thúc."
+          ]
+        },
+        {
+          "id": "mnemonic",
+          "kind": "teaching",
+          "heading": "Những tên được nhắc ở cuối phẩm",
+          "meaningUnits": [
+            "mnemonic"
+          ],
+          "paragraphs": [
+            "Phần tóm lược ghi các tên: Puṇḍarīka, Aggi, Kathināma; Dīghanakha, người họ Bhāradvāja; Sandaka, Udāyī, con của Muṇḍika; Maṇika và Kaccāna. Vần cuối ca ngợi phẩm này là thù thắng."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: nhìn rõ một niềm vui",
+          "meaningUnits": [
+            "five",
+            "pleasure",
+            "invitation"
+          ],
+          "paragraphs": [
+            "Trong một lúc dễ chịu, có thể nhận biết điều gì đang được thấy, nghe, ngửi, nếm hay chạm; niềm vui đang sinh thế nào, có muốn giữ lấy hay không. Việc quan sát nhỏ ấy do người diễn giải gợi ý. Đích của lời kinh vẫn là sự giải thoát vô minh được tự biết sau khi tu tập đúng, không chỉ một lúc tâm nhẹ nhàng."
+          ]
+        }
+      ]
+    }
+  }
+}

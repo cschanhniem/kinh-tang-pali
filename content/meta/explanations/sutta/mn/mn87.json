@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn87",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "a60c1593-199d-4dcb-af2a-cace40a1e482"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "fcf244fb-bd7e-40ce-a8d9-0f407b44a498"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "86364f5b-e4ce-4c07-afd0-6f6550016683"
+    }
+  },
+  "reviews": [
+    {
+      "id": "a60c1593-199d-4dcb-af2a-cace40a1e482",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.4,
+        "audience_fit": 9.2,
+        "clarity": 9.4,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Giữ con một, cảnh bãi thiêu, lời thuật lại với nhóm xúc xắc, lời nhắn năm điều sức khỏe và bảy trường hợp ở mỗi giới. Tên đại tướng theo root Viṭaṭūbha, không thêm là con vua; mạng sống có thể đổi khác và ba lời kính lễ cuối không bị lược.",
+        "semantic_fidelity": "Điều thân yêu được hiểu theo người và cả hai nước, không đổi thành tên kỹ thuật của tham ái. Lời vui/hạnh phúc thuộc gia chủ và nhóm chơi bạc; lời Phật về nguồn năm nỗi khổ được phân biệt rõ, không dùng để trách trẻ đang buồn.",
+        "core_coverage": "Đã đọc đủ 22 mục với toàn 28 ý: cảnh mất con, hai lần kể, hoàng cung, sứ giả, hai nhóm bảy chuyện, biến cố vợ chồng và năm câu hỏi Mallikā đều có nội dung. Những trường hợp được lược trong nguồn không bị gom thành một người mất tất cả thân nhân.",
+        "logic_context": "Người chồng gây ra hai cái chết và ý nghĩ sẽ ở bên nhau được quy đúng cho nhân vật; không biến thành lời Phật xác nhận. Vua nhận ra lời dạy qua năm điều kiện, kính lễ từ cung, không thêm chuyến đến gặp Phật hoặc chứng quả.",
+        "terminology": "Năm sắc thái khổ được nói bằng từ Việt thông dụng; các căn, Như Lai và hai danh hiệu giác ngộ có lời giải. Bà-la-môn còn được mở nghĩa khá khái quát và nhiều tên cổ khiến bản trẻ chưa thật nhẹ ở mọi đoạn.",
+        "audience_fit": "Ví dụ người bạn chuyển trường phù hợp trải nghiệm trẻ và được nói rõ nhẹ hơn các mất mát trong kinh. Phần gốc có qua đời, rối loạn và hai cái chết, được kể tiết chế; chưa có thử đọc để xác nhận mức tuổi tự đọc thích hợp.",
+        "clarity": "Năm câu hỏi cho nhà vua được tách mục, giúp theo điều kiện và lời đáp lặp. Đoạn kể lại với nhóm xúc xắc và các tôn xưng lặp vẫn dày; cách dùng năm nỗi khổ giữ liên kết nhưng trẻ có thể cần người cùng đọc.",
+        "editorial_separation": "Ví dụ chuyển trường và thực hành được ghi rõ là liên hệ biên soạn. Phần làm rõ tách ý nghĩ người chồng khỏi sự xác nhận của Phật và không nhận một tình huống nhỏ là toàn ý bài kinh.",
+        "practical_integrity": "Gọi tên điều quý và cảm giác đang có, nhờ người lớn lắng nghe, không ép hết buồn ngay là những bước vừa sức. Bản không đưa hành vi gây chết thành cách giữ tình thương hoặc yêu cầu tưởng tượng mất mát để luyện tập.",
+        "technical_integrity": "Audit canonical độc lập sạch, 150 khóa Pāli ánh xạ đúng thứ tự vào28 ý. Toàn22 mục đã được đọc thực tế sau cả năm nguồn; fingerprint khớp bản cuối của tác giả, không có thay đổi nội dung chưa kiểm."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập sau writer_b: toàn150 dòng Pāli/Việt/Anh/chú thích,5 chú thích không trống,35 ô Anh trống; toàn65 khối HTML qua SC55 và credits; toàn28 ý và22/20/26 mục. Không có lỗi chặn còn mở và không chỉnh nội dung sau freeze. Chưa có thử độc giả thực hoặc chuyên gia Pāli bên ngoài.",
+      "contentHash": "82168769104a85d7808c23e2bed608bfe8a6a8782cc219ed9414492eaaa0d996",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn87.html",
+          "sha256": "5120402177e55569531434a131752772602be45503b24ae62bced9f95b089f81"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn87_root-pli-ms.json",
+          "sha256": "0cf1708554df93f5c8437bdd1cb85e240762f81092a250e719edc4dab894122f"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn87_translation-en-sujato.json",
+          "sha256": "b6ae1a75fdf5850c674d06a72643e3e03f14864d2cd05f13ca6751da634d4fed"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn87_comment-vi-project.json",
+          "sha256": "2a91c4f2ae46776dec7ba48b8f00669fdb28195b2bb007137e522759a28fcc4d"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn87_translation-vi-project.json",
+          "sha256": "96884cf4ffc9117b52d16cefbfbdfb9bd45a7719c1abfb4bd38b2ebc322d8343"
+        }
+      ]
+    },
+    {
+      "id": "fcf244fb-bd7e-40ce-a8d9-0f407b44a498",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.6,
+        "audience_fit": 9.6,
+        "clarity": 9.6,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Các phần lặp đã được đối chiếu theo root, gồm lời gia chủ thuật cho con bạc, hai nhóm bảy trường hợp và năm lượt hỏi vua. Giữ Vāsabhā quý tộc, Viṭaṭūbha không thêm quan hệ cha con, hai nước với các vật thụ hưởng, rửa tay là lời yêu cầu và ba lần đảnh lễ.",
+        "semantic_fidelity": "Bản nhận diện piya là người/điều thân yêu, không mặc nhiên thay bằng taṇhā. Điều kiện đổi thay, hoại mất và khả năng cả mạng sống đổi khác được giữ, đồng thời không quy mọi nỗi buồn thành tội hay mọi người chịu tang sẽ rối loạn.",
+        "core_coverage": "Hai mươi mục triển khai toàn28 ý, đủ cả phần lý giải qua mất người thân và phần Mallikā hỏi từ công chúa đến hai nước. Hai cái chết do người chồng gây và ý nghĩ của ông vẫn được thuật, không bỏ một sự kiện vì khó diễn đạt.",
+        "logic_context": "Các cấp lời kể và lời bàn từ gia chủ, con bạc, vua, hoàng hậu, sứ giả đến Phật được phân biệt. Mallikā tin với câu có điều kiện rồi hỏi lại nguồn; lời trách mù quáng là của vua, không được biến thành kết luận của người biên soạn.",
+        "terminology": "Các căn và năm tên sầu/bi/khổ/ưu/não được giải bằng ngôn ngữ gần gũi; danh hiệu giác ngộ được mở nghĩa. Những tên riêng và thuật ngữ quý tộc vẫn cần chú ý, song không thêm căn cước chưa có trong root.",
+        "audience_fit": "Ví dụ bàn giao dự án cho thấy điều thân yêu có thể gồm vai trò và việc mình xây dựng, gần trách nhiệm người trưởng thành. Sự giới hạn của ví dụ được nhận rõ, không đặt nỗi tiếc công việc ngang mức mất người thân.",
+        "clarity": "Mạch từ bất đồng tới hỏi nguồn và tự nhận qua năm câu hỏi khá rõ. Phần thuật lại trọn lời cùng các công thức lặp tạo độ dài cần thiết nhưng có thể làm chậm đọc, nên chưa đánh giá độ trôi chảy là tuyệt đối.",
+        "editorial_separation": "Ví dụ dự án và thực hành ba câu nhìn lại được đặt riêng, ghi rõ liên hệ hiện đại. Phần phân biệt khả năng với kết luận tất yếu xuất phát trực tiếp từ năm lời đáp có thể trong nguồn, không đưa một lý thuyết trị liệu vào bài.",
+        "practical_integrity": "Gợi ý chỉ nhìn thay đổi thực sự đang có, không tự dựng cảnh mất mát, giúp thực hành có giới hạn. Nhìn lại điều quý, cảm giác và cách trao đổi giữ sự tự quyết, không hứa xóa đau buồn hoặc thay thế hỗ trợ cần thiết.",
+        "technical_integrity": "Năm hash nguồn và hash bản trưởng thành qua audit độc lập đều khớp; không có lỗi cấu trúc/nguồn. Toàn150 khóa đúng thứ tự, mọi đơn vị nghĩa đều được giải bằng nội dung trong20 mục đã đọc."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập sau writer_b: toàn150 dòng Pāli/Việt/Anh/chú thích,5 chú thích không trống,35 ô Anh trống; toàn65 khối HTML qua SC55 và credits; toàn28 ý và22/20/26 mục. Không có lỗi chặn còn mở và không chỉnh nội dung sau freeze. Chưa có thử độc giả thực hoặc chuyên gia Pāli bên ngoài.",
+      "contentHash": "39aa5fed6ed0bc633e6a81da30b97526849bec82ffc396dc26e87bc819ee3f4c",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn87.html",
+          "sha256": "5120402177e55569531434a131752772602be45503b24ae62bced9f95b089f81"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn87_root-pli-ms.json",
+          "sha256": "0cf1708554df93f5c8437bdd1cb85e240762f81092a250e719edc4dab894122f"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn87_translation-en-sujato.json",
+          "sha256": "b6ae1a75fdf5850c674d06a72643e3e03f14864d2cd05f13ca6751da634d4fed"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn87_comment-vi-project.json",
+          "sha256": "2a91c4f2ae46776dec7ba48b8f00669fdb28195b2bb007137e522759a28fcc4d"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn87_translation-vi-project.json",
+          "sha256": "96884cf4ffc9117b52d16cefbfbdfb9bd45a7719c1abfb4bd38b2ebc322d8343"
+        }
+      ]
+    },
+    {
+      "id": "86364f5b-e4ce-4c07-afd0-6f6550016683",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.5,
+        "audience_fit": 9.6,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Các số lượng và quan hệ được giữ: con một, hai lần gọi, bảy phụ nữ/bảy đàn ông, năm đối tượng nhà vua yêu, ba lần kính lễ. Tên Viṭaṭūbha theo root, năm lời thăm sức khỏe và các món thụ hưởng nhờ hai nước cũng còn.",
+        "semantic_fidelity": "Khổ có nguồn từ điều thân yêu được trình bày trong bối cảnh đổi thay, không thành mệnh lệnh ngừng quan tâm. Các trường hợp mất sáng suốt và ý nghĩ tái hợp sau chết được giới hạn đúng nhân vật, tránh biến nỗi buồn của người đọc thành lỗi.",
+        "core_coverage": "Hai mươi sáu mục có đủ28 ý và các phần lặp thực chất. Trình tự từ người cha đến nhóm xúc xắc, vua, sứ giả, các chuyện mất mát, năm câu hỏi và kính lễ kết bài được giữ nguyên.",
+        "logic_context": "Phân biệt lời hoàng hậu, lời vua trách và việc nhờ người hỏi kỹ; sứ giả chào thân thiện khi đến, không tự thêm lễ lạy. Lời vua mời rửa tay vẫn là lời mời, vua kính lễ hướng Phật tại cung chứ không đi gặp trực tiếp.",
+        "terminology": "Các căn, Như Lai, cách diễn đạt năm nỗi khổ và danh hiệu A-la-hán/Chánh Đẳng Giác được mở nghĩa. Bà-la-môn còn ở mức giới thiệu khái quát, các tôn xưng lặp cần người đọc chú ý, nhưng không làm thay nghĩa trung tâm.",
+        "audience_fit": "Mục ngắn tạo nhịp dừng, ví dụ chiếc ấm gắn với sum họp có điểm bám đời sống mà không coi độc giả chỉ có nỗi lo tuổi già. Bản nói rõ không dùng mất đồ để đo nỗi đau mất người thân, giữ thái độ tôn trọng.",
+        "clarity": "Chia riêng mất con, gặp Phật, lời dạy và phản đối giúp theo các lớp đối thoại. Đoạn thuật nhóm xúc xắc và phần năm đối tượng vẫn nhiều công thức; chưa có đọc thử người thật để đo nhịp thực tế.",
+        "editorial_separation": "Chiếc ấm và thực hành được ghi là liên hệ do biên soạn, không được thêm vào tình tiết kinh. Phần làm rõ nỗi buồn và ý nghĩ người chồng được tách riêng để người đọc nhận ra phạm vi lời giải.",
+        "practical_integrity": "Gợi ý chọn thay đổi vừa sức đang có, nói rõ điều cần và tìm người biết lắng nghe không buộc dập cảm xúc. Cách học hỏi lại ngữ cảnh lấy từ hành động Mallikā, không hứa một vài bước này hoàn thành con đường giải thoát.",
+        "technical_integrity": "Đã đọc toàn26 mục sau năm nguồn và28 ý; audit sạch và150 khóa đủ đúng thứ tự. Hash bản lớn tuổi khớp canonical đã đọc, không có dependency được suy đoán hoặc nguồn chỉ nêu tên tính như đã đọc."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập sau writer_b: toàn150 dòng Pāli/Việt/Anh/chú thích,5 chú thích không trống,35 ô Anh trống; toàn65 khối HTML qua SC55 và credits; toàn28 ý và22/20/26 mục. Không có lỗi chặn còn mở và không chỉnh nội dung sau freeze. Chưa có thử độc giả thực hoặc chuyên gia Pāli bên ngoài.",
+      "contentHash": "e70ece357aca0f745a92c442b2ae78b5d261163d0fa19b40543359f9eaf5b372",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn87.html",
+          "sha256": "5120402177e55569531434a131752772602be45503b24ae62bced9f95b089f81"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn87_root-pli-ms.json",
+          "sha256": "0cf1708554df93f5c8437bdd1cb85e240762f81092a250e719edc4dab894122f"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn87_translation-en-sujato.json",
+          "sha256": "b6ae1a75fdf5850c674d06a72643e3e03f14864d2cd05f13ca6751da634d4fed"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn87_comment-vi-project.json",
+          "sha256": "2a91c4f2ae46776dec7ba48b8f00669fdb28195b2bb007137e522759a28fcc4d"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn87_translation-vi-project.json",
+          "sha256": "96884cf4ffc9117b52d16cefbfbdfb9bd45a7719c1abfb4bd38b2ebc322d8343"
+        }
+      ]
+    }
+  ]
+}

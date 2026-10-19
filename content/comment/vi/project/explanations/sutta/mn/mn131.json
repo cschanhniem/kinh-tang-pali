@@ -1,0 +1,1031 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn131",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn131_root-pli-ms.json",
+      "sha256": "8dcac53332b2553c4711dfafac46f057f66debbb5102b4d5ef32edd04b4a30ff",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn131_translation-vi-project.json",
+      "sha256": "b0401aab0a9b2d201cbeb8a009cccce430780e47706a84dec87897777df25e66",
+      "commit": "65eb7cebf4888967bb7e85aabf01fa29b7534cd6"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn131_translation-en-sujato.json",
+      "sha256": "be3e1d842a27ba81046264e7d691a4b2cd411379bbdf15a9c215aa148f27c675",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn131.html",
+      "sha256": "055f6ccad9d5d7d146c63a0838ae23fb23d88fe51d5b06ff6a6b526a26bd51d1",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn131_comment-vi-project.json",
+      "sha256": "7c3a7a45fb3359908621cc0fb7a7230b61baedad0fabddb2707efc6f35c4cf11",
+      "commit": "65eb7cebf4888967bb7e85aabf01fa29b7534cd6"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Tên bài",
+      "segments": [
+        "mn131:0.1",
+        "mn131:0.2"
+      ],
+      "summary": "Trung Bộ 131, Bhaddekarattasutta, tên dự án Một Đêm Có Lành; HTML gọi Nhất Dạ Hiền Giả. Không suy ra câu chuyện chỉ kéo dài một đêm."
+    },
+    {
+      "id": "setting",
+      "title": "Điều được nghe tại rừng Jeta",
+      "segments": [
+        "mn131:1.1",
+        "mn131:1.2"
+      ],
+      "summary": "Người truyền kinh đã nghe: Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika."
+    },
+    {
+      "id": "address",
+      "title": "Phật gọi và các vị đáp",
+      "segments": [
+        "mn131:1.3",
+        "mn131:1.4",
+        "mn131:1.5",
+        "mn131:1.6"
+      ],
+      "summary": "Phật gọi các tỳ-kheo, các vị đáp bạch Thế Tôn; Phật nói."
+    },
+    {
+      "id": "announce",
+      "title": "Nêu tóm lược rồi phân tích",
+      "segments": [
+        "mn131:2.1",
+        "mn131:2.2",
+        "mn131:2.3",
+        "mn131:2.4"
+      ],
+      "summary": "Phật hứa giảng tóm lược và phân biệt một đêm có lành; yêu cầu nghe và chú tâm khéo, các vị vâng đáp rồi Ngài giảng."
+    },
+    {
+      "id": "verse-time",
+      "title": "Kệ: quá khứ và tương lai",
+      "segments": [
+        "mn131:3.1",
+        "mn131:3.2",
+        "mn131:3.3",
+        "mn131:3.4"
+      ],
+      "summary": "Không chạy theo quá khứ, không mong đợi tương lai; quá khứ đã bỏ lại sau, tương lai chưa đến."
+    },
+    {
+      "id": "verse-seeing",
+      "title": "Kệ: thấy hiện tại và nuôi dưỡng",
+      "segments": [
+        "mn131:3.5",
+        "mn131:3.6",
+        "mn131:3.7",
+        "mn131:3.8"
+      ],
+      "summary": "Ai thấy rõ pháp hiện tại ở từng nơi; không lung lay, không dao động, biết rõ thì nuôi dưỡng. Giữ người quán là chủ ngữ theo Pāli/Việt, khác cách câu HTML."
+    },
+    {
+      "id": "verse-urgency",
+      "title": "Kệ: tinh cần ngay hôm nay",
+      "segments": [
+        "mn131:3.9",
+        "mn131:3.10",
+        "mn131:3.11",
+        "mn131:3.12"
+      ],
+      "summary": "Hôm nay tinh cần vì không ai biết ngày mai chết; không mặc cả được với tử thần có đại quân. Không biến thành dự báo ai sẽ chết ngày mai."
+    },
+    {
+      "id": "verse-name",
+      "title": "Kệ: người một đêm có lành",
+      "segments": [
+        "mn131:3.13",
+        "mn131:3.14",
+        "mn131:3.15",
+        "mn131:3.16"
+      ],
+      "summary": "Người nhiệt tâm an trú như vậy, ngày đêm không lười mệt, được bậc ẩn sĩ an tịnh gọi là một đêm có lành; không thành lệnh mất ngủ."
+    },
+    {
+      "id": "past",
+      "title": "Chạy theo quá khứ",
+      "segments": [
+        "mn131:4.1",
+        "mn131:4.2",
+        "mn131:4.3"
+      ],
+      "summary": "Hỏi/đáp/kết: nghĩ tôi từng có sắc, thọ, tưởng, hành, thức như vậy và theo đuổi hỉ lạc nơi từng uẩn đã qua."
+    },
+    {
+      "id": "past-free",
+      "title": "Không chạy theo quá khứ",
+      "segments": [
+        "mn131:5.1",
+        "mn131:5.2",
+        "mn131:5.3"
+      ],
+      "summary": "Cùng nghĩ tôi từng có sắc, thọ, tưởng, hành, thức như vậy nhưng không theo đuổi hỉ lạc nơi từng điều; kết là không chạy theo quá khứ, không cấm ghi nhớ."
+    },
+    {
+      "id": "future",
+      "title": "Mong đợi tương lai",
+      "segments": [
+        "mn131:6.1",
+        "mn131:6.2",
+        "mn131:6.3"
+      ],
+      "summary": "Hỏi/đáp/kết: mong tôi sẽ có sắc/thọ/tưởng/hành/thức như vậy và theo đuổi hỉ lạc nơi từng điều; mở tỉnh lược từ công thức trong chính UID."
+    },
+    {
+      "id": "future-free",
+      "title": "Không mong đợi tương lai",
+      "segments": [
+        "mn131:7.1",
+        "mn131:7.2",
+        "mn131:7.3"
+      ],
+      "summary": "Cùng mong tôi sẽ có từng sắc/thọ/tưởng/hành/thức như vậy nhưng không theo đuổi hỉ lạc ở đó; giữ lời nghĩ cùng đổi chỗ hỉ lạc, không tự cấm chuẩn bị công việc."
+    },
+    {
+      "id": "untrained",
+      "title": "Người chưa được học giữa hiện tại",
+      "segments": [
+        "mn131:8.1",
+        "mn131:8.2"
+      ],
+      "summary": "Hỏi bị lung lay trong pháp hiện tại: phàm phu ít nghe, không thấy/không khéo/không được huấn luyện trong pháp Thánh và chân nhân, hai nhóm đủ ba mặt."
+    },
+    {
+      "id": "self-form",
+      "title": "Bốn cách với sắc",
+      "segments": [
+        "mn131:8.3"
+      ],
+      "summary": "Sắc là ngã; ngã có sắc; sắc trong ngã; ngã trong sắc."
+    },
+    {
+      "id": "self-feeling",
+      "title": "Bốn cách với thọ",
+      "segments": [
+        "mn131:8.4"
+      ],
+      "summary": "Thọ là ngã; ngã có thọ; thọ trong ngã; ngã trong thọ. Mở lược bằng 8.3/8.7 cùng bài."
+    },
+    {
+      "id": "self-perception",
+      "title": "Bốn cách với tưởng",
+      "segments": [
+        "mn131:8.5"
+      ],
+      "summary": "Tưởng là ngã; ngã có tưởng; tưởng trong ngã; ngã trong tưởng."
+    },
+    {
+      "id": "self-intentions",
+      "title": "Bốn cách với hành",
+      "segments": [
+        "mn131:8.6"
+      ],
+      "summary": "Các hành là ngã; ngã có các hành; các hành trong ngã; ngã trong các hành."
+    },
+    {
+      "id": "self-consciousness",
+      "title": "Bốn cách với thức và kết",
+      "segments": [
+        "mn131:8.7",
+        "mn131:8.8"
+      ],
+      "summary": "Thức là ngã; ngã có thức; thức trong ngã; ngã trong thức. Đó là bị lung lay giữa hiện tại; đủ hai mươi quan hệ, không thu còn kiêu ngạo."
+    },
+    {
+      "id": "trained",
+      "title": "Người đã được học giữa hiện tại",
+      "segments": [
+        "mn131:9.1",
+        "mn131:9.2"
+      ],
+      "summary": "Hỏi không bị lung lay: Thánh đệ tử có nghe nhiều, thấy/khéo/được huấn luyện trong pháp Thánh và chân nhân, đủ cả hai nhóm ba mặt."
+    },
+    {
+      "id": "free-form",
+      "title": "Bốn phủ định với sắc",
+      "segments": [
+        "mn131:9.3"
+      ],
+      "summary": "Không xem sắc là ngã, ngã có sắc, sắc trong ngã hoặc ngã trong sắc; phủ định riêng cả bốn."
+    },
+    {
+      "id": "free-feeling",
+      "title": "Bốn phủ định với thọ",
+      "segments": [
+        "mn131:9.4"
+      ],
+      "summary": "Không xem thọ là ngã, ngã có thọ, thọ trong ngã hoặc ngã trong thọ; mở tỉnh lược trong UID."
+    },
+    {
+      "id": "free-perception",
+      "title": "Bốn phủ định với tưởng",
+      "segments": [
+        "mn131:9.5"
+      ],
+      "summary": "Không xem tưởng là ngã, ngã có tưởng, tưởng trong ngã hoặc ngã trong tưởng."
+    },
+    {
+      "id": "free-intentions",
+      "title": "Bốn phủ định với hành",
+      "segments": [
+        "mn131:9.6"
+      ],
+      "summary": "Không xem hành là ngã, ngã có hành, hành trong ngã hoặc ngã trong hành."
+    },
+    {
+      "id": "free-consciousness",
+      "title": "Bốn phủ định với thức và kết",
+      "segments": [
+        "mn131:9.7",
+        "mn131:9.8"
+      ],
+      "summary": "Không xem thức là ngã, ngã có thức, thức trong ngã hoặc ngã trong thức; kết không bị lung lay giữa hiện tại."
+    },
+    {
+      "id": "reprise-time",
+      "title": "Kệ lặp: hai thời",
+      "segments": [
+        "mn131:10.1",
+        "mn131:10.2",
+        "mn131:10.3",
+        "mn131:10.4"
+      ],
+      "summary": "Lặp không chạy theo quá khứ/không mong tương lai vì quá khứ bỏ lại, tương lai chưa đến."
+    },
+    {
+      "id": "reprise-seeing",
+      "title": "Kệ lặp: thấy rõ",
+      "segments": [
+        "mn131:10.5",
+        "mn131:10.6",
+        "mn131:10.7",
+        "mn131:10.8"
+      ],
+      "summary": "Lặp ai thấy rõ hiện tại từng nơi, không lung lay/dao động, biết rõ hãy nuôi dưỡng."
+    },
+    {
+      "id": "reprise-urgency",
+      "title": "Kệ lặp: tinh cần",
+      "segments": [
+        "mn131:10.9",
+        "mn131:10.10",
+        "mn131:10.11",
+        "mn131:10.12"
+      ],
+      "summary": "Lặp hôm nay tinh cần, không biết ngày mai chết, không mặc cả tử thần có đại quân."
+    },
+    {
+      "id": "reprise-name",
+      "title": "Kệ lặp: tên gọi",
+      "segments": [
+        "mn131:10.13",
+        "mn131:10.14",
+        "mn131:10.15",
+        "mn131:10.16"
+      ],
+      "summary": "Lặp nhiệt tâm an trú, ngày đêm không lười mệt; bậc ẩn sĩ an tịnh gọi người ấy một đêm có lành."
+    },
+    {
+      "id": "frame",
+      "title": "Khép lời hứa giảng",
+      "segments": [
+        "mn131:11.1",
+        "mn131:11.2"
+      ],
+      "summary": "Phật nhắc nguyên lời hứa tóm lược và phân biệt, nói chính nội dung vừa giảng là điều lời ấy nhắm đến."
+    },
+    {
+      "id": "ending",
+      "title": "Hoan hỷ và nhãn thứ nhất",
+      "segments": [
+        "mn131:11.3",
+        "mn131:11.4",
+        "mn131:11.5"
+      ],
+      "summary": "Phật nói xong, các tỳ-kheo hoan hỷ tán đồng; kinh thứ nhất trong nhóm kết thúc, không thêm chứng đắc."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "MN131 — Học cách có mặt cho ngày hôm nay",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một lời mời lắng nghe",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "address",
+            "announce"
+          ],
+          "paragraphs": [
+            "MN131 là Kinh Một Đêm Có Lành. Người truyền kinh kể điều đã nghe: Đức Phật ở Sāvatthī, trong rừng Jeta, tu viện của ông Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những vị nam xuất gia theo Phật. Các vị thưa lại với Ngài.",
+            "Phật nói sẽ giảng một phần tóm lược và một phần giải thích rõ về “một đêm có lành”. Ngài mời các vị lắng nghe, chú tâm cho khéo. Các vị vâng lời, rồi Ngài bắt đầu bằng những câu kệ, lời ngắn có nhịp để dễ nhớ."
+          ]
+        },
+        {
+          "id": "time",
+          "kind": "teaching",
+          "heading": "Điều đã qua, điều chưa đến",
+          "meaningUnits": [
+            "verse-time"
+          ],
+          "paragraphs": [
+            "Bốn câu đầu nhắc: đừng chạy theo quá khứ, đừng mong đợi tương lai. Quá khứ đã ở lại phía sau; tương lai còn chưa tới. Phần giải thích sau sẽ cho biết “chạy theo” và “mong đợi” ở đây diễn ra trong tâm như thế nào."
+          ]
+        },
+        {
+          "id": "seeing",
+          "kind": "teaching",
+          "heading": "Thấy rõ điều đang có",
+          "meaningUnits": [
+            "verse-seeing"
+          ],
+          "paragraphs": [
+            "Với những điều đang có trong hiện tại, người tu thấy rõ ở từng trường hợp. Biết rõ sự không lung lay, không dao động ấy, người tu nuôi dưỡng nó. Lời kệ đặt việc nhìn cho rõ và việc tiếp tục tu tập cạnh nhau."
+          ]
+        },
+        {
+          "id": "today",
+          "kind": "teaching",
+          "heading": "Việc cần làm hôm nay",
+          "meaningUnits": [
+            "verse-urgency",
+            "verse-name"
+          ],
+          "paragraphs": [
+            "Kệ nhắc hãy siêng năng ngay hôm nay, vì không ai biết ngày mai cái chết có đến hay không. Kinh dùng hình ảnh tử thần, thần chết với một đội quân lớn, mà con người không thể mặc cả để giữ mạng sống theo ý mình.",
+            "Người nhiệt tâm an trú như vậy — ở vững trong cách sống và tu ấy — ngày đêm không lười nhác, được bậc hiền trí có tâm yên lặng gọi là người “một đêm có lành”."
+          ]
+        },
+        {
+          "id": "groups",
+          "kind": "clarification",
+          "heading": "Năm phần được nhắc trong bài",
+          "meaningUnits": [
+            "past",
+            "future",
+            "self-form",
+            "self-feeling",
+            "self-perception",
+            "self-intentions",
+            "self-consciousness"
+          ],
+          "paragraphs": [
+            "Phần giải thích dùng năm tên. Sắc chỉ phần vật chất, như thân thể. Thọ là cảm giác dễ chịu, khó chịu hoặc không dễ chịu cũng không khó chịu. Tưởng là nhận ra, ghi dấu điều mình gặp. Các hành là những hoạt động tạo tác của tâm, như ý muốn và dự định. Thức là sự biết khi thấy, nghe và tiếp nhận điều gì.",
+            "Kinh gọi những nhóm ấy là năm uẩn. Ta sẽ gặp đủ cả năm khi nói về chuyện đã qua, chuyện chưa đến và điều đang có."
+          ]
+        },
+        {
+          "id": "past",
+          "kind": "teaching",
+          "heading": "Khi lòng chạy theo chuyện đã qua",
+          "meaningUnits": [
+            "past"
+          ],
+          "paragraphs": [
+            "Phật hỏi thế nào là chạy theo quá khứ. Một người nghĩ: trước kia tôi có phần vật chất như vậy, có cảm thọ như vậy, nhận biết và ghi dấu như vậy, có những hoạt động tâm như vậy, có sự biết như vậy. Với từng phần, người ấy tìm sự thích thú, say thích trong hình ảnh đã qua ấy.",
+            "Cứ theo đuổi sự thích thú nơi sắc, thọ, tưởng, hành và thức đã qua như vậy, Phật gọi là chạy theo quá khứ."
+          ]
+        },
+        {
+          "id": "past-free",
+          "kind": "teaching",
+          "heading": "Nhớ mà không chạy theo",
+          "meaningUnits": [
+            "past-free"
+          ],
+          "paragraphs": [
+            "Phật cũng hỏi thế nào là không chạy theo quá khứ. Người ấy vẫn nghĩ mình đã có sắc như vậy, thọ như vậy, tưởng như vậy, hành như vậy và thức như vậy. Nhưng với từng điều, người ấy không tìm sự say thích ở đó.",
+            "Đó là không chạy theo quá khứ. Điểm đổi khác nằm ở sự say thích được nuôi theo; chính lời giải vẫn nhắc đến việc nhớ điều từng có."
+          ]
+        },
+        {
+          "id": "future",
+          "kind": "teaching",
+          "heading": "Khi lòng chạy trước đến ngày mai",
+          "meaningUnits": [
+            "future",
+            "future-free"
+          ],
+          "paragraphs": [
+            "Với tương lai, một người nghĩ: mong tôi sẽ có phần vật chất như vậy, cảm thọ như vậy, tưởng như vậy, hành như vậy, thức như vậy. Nếu tìm sự thích thú, say thích nơi từng điều mình mong, đó là mong đợi tương lai theo nghĩa bài kinh đang giảng.",
+            "Cũng với lời nghĩ về đủ năm phần ấy, nhưng không theo đuổi sự say thích nơi từng phần, đó là không mong đợi tương lai. Phật nêu cả hai trường hợp để người nghe nhìn được chỗ tâm đang bám theo."
+          ]
+        },
+        {
+          "id": "untrained",
+          "kind": "teaching",
+          "heading": "Có mặt hôm nay vẫn cần hiểu cho đúng",
+          "meaningUnits": [
+            "untrained"
+          ],
+          "paragraphs": [
+            "Rồi Phật hỏi: thế nào là bị lung lay giữa những điều hiện tại? Ngài nói đến người chưa được học nhiều lời dạy, chưa được gặp các bậc Thánh, chưa hiểu khéo và chưa được rèn luyện trong lời dạy của các vị ấy. Với các bậc chân nhân, những người chân chính, người ấy cũng chưa gặp, chưa hiểu khéo và chưa được rèn luyện.",
+            "Người ấy có thể nhận một phần kinh nghiệm làm “ngã”, một cái tôi được cho là chính mình. Bài chỉ ra bốn cách nhận như thế với mỗi uẩn."
+          ]
+        },
+        {
+          "id": "self-body-feeling",
+          "kind": "teaching",
+          "heading": "Bốn cách nhận phần vật chất và cảm thọ làm tôi",
+          "meaningUnits": [
+            "self-form",
+            "self-feeling"
+          ],
+          "paragraphs": [
+            "Với sắc, người ấy xem phần vật chất là cái tôi; hoặc cái tôi có phần vật chất; hoặc phần vật chất nằm trong cái tôi; hoặc cái tôi nằm trong phần vật chất.",
+            "Với thọ cũng có bốn cách: cảm thọ là cái tôi; cái tôi có cảm thọ; cảm thọ nằm trong cái tôi; cái tôi nằm trong cảm thọ. Đây là bốn mối liên hệ khác nhau mà bài muốn người nghe thấy rõ."
+          ]
+        },
+        {
+          "id": "self-mind",
+          "kind": "teaching",
+          "heading": "Cũng bốn cách ấy với những phần của tâm",
+          "meaningUnits": [
+            "self-perception",
+            "self-intentions",
+            "self-consciousness"
+          ],
+          "paragraphs": [
+            "Với tưởng: xem sự nhận ra, ghi dấu là cái tôi; cái tôi có tưởng; tưởng nằm trong cái tôi; cái tôi nằm trong tưởng.",
+            "Với các hành: xem những hoạt động tạo tác của tâm là cái tôi; cái tôi có các hành; các hành nằm trong cái tôi; cái tôi nằm trong các hành.",
+            "Với thức: xem sự biết là cái tôi; cái tôi có thức; thức nằm trong cái tôi; cái tôi nằm trong thức. Phật gọi lối nhìn như thế là bị lung lay giữa những điều đang có."
+          ]
+        },
+        {
+          "id": "trained",
+          "kind": "teaching",
+          "heading": "Người biết học và rèn luyện",
+          "meaningUnits": [
+            "trained"
+          ],
+          "paragraphs": [
+            "Thế nào là không bị lung lay? Phật nói đến vị Thánh đệ tử đã nghe và học nhiều, được gặp các bậc Thánh, hiểu khéo và được rèn luyện trong lời dạy của các vị ấy. Với các bậc chân nhân, vị ấy cũng được gặp, hiểu khéo và được rèn luyện.",
+            "Vị ấy không nhận năm uẩn làm cái tôi theo những cách vừa kể. Kinh nói rõ từng phần."
+          ]
+        },
+        {
+          "id": "free-body-feeling",
+          "kind": "teaching",
+          "heading": "Không nhận phần vật chất và cảm thọ theo bốn cách ấy",
+          "meaningUnits": [
+            "free-form",
+            "free-feeling"
+          ],
+          "paragraphs": [
+            "Với sắc, vị ấy không xem phần vật chất là cái tôi, không xem cái tôi có phần vật chất, không xem phần vật chất nằm trong cái tôi, không xem cái tôi nằm trong phần vật chất.",
+            "Với thọ, vị ấy không xem cảm thọ là cái tôi, không xem cái tôi có cảm thọ, không xem cảm thọ nằm trong cái tôi, không xem cái tôi nằm trong cảm thọ."
+          ]
+        },
+        {
+          "id": "free-mind",
+          "kind": "teaching",
+          "heading": "Không nhận tưởng, hành, thức theo bốn cách ấy",
+          "meaningUnits": [
+            "free-perception",
+            "free-intentions",
+            "free-consciousness"
+          ],
+          "paragraphs": [
+            "Với tưởng, vị ấy không xem tưởng là cái tôi, không xem cái tôi có tưởng, không xem tưởng nằm trong cái tôi, không xem cái tôi nằm trong tưởng.",
+            "Với các hành, vị ấy không xem các hành là cái tôi, không xem cái tôi có các hành, không xem các hành nằm trong cái tôi, không xem cái tôi nằm trong các hành.",
+            "Với thức, vị ấy không xem thức là cái tôi, không xem cái tôi có thức, không xem thức nằm trong cái tôi, không xem cái tôi nằm trong thức. Đó là không bị lung lay giữa những điều hiện tại."
+          ]
+        },
+        {
+          "id": "reprise",
+          "kind": "teaching",
+          "heading": "Nghe lại lời kệ sau phần giải thích",
+          "meaningUnits": [
+            "reprise-time",
+            "reprise-seeing",
+            "reprise-urgency",
+            "reprise-name"
+          ],
+          "paragraphs": [
+            "Phật nhắc lại lời kệ: không chạy theo quá khứ, không mong đợi tương lai, vì điều đã qua đã ở lại sau và điều sắp tới chưa đến. Người thấy rõ hiện tại ở từng nơi biết sự không lung lay, không dao động và nuôi dưỡng điều ấy.",
+            "Hãy tinh cần hôm nay, vì không biết ngày mai cái chết sẽ đến hay không; không thể mặc cả với tử thần có đại quân. Người nhiệt tâm ở vững như vậy, ngày đêm không lười nhác, được bậc hiền trí có tâm yên lặng gọi là “một đêm có lành”."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Phần tóm lược đã được giải rõ",
+          "meaningUnits": [
+            "frame",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật nhắc lời Ngài hứa sẽ giảng phần tóm lược và phần phân tích. Chính những điều vừa nói là nội dung của lời hứa ấy. Các tỳ-kheo vui mừng, tán đồng lời Phật. Kinh Một Đêm Có Lành, bài thứ nhất trong nhóm này, kết thúc."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: tấm giấy khen",
+          "meaningUnits": [
+            "past",
+            "past-free",
+            "future",
+            "future-free"
+          ],
+          "paragraphs": [
+            "Một bạn nhìn tấm giấy khen cũ rồi chỉ muốn mọi người nhắc mình đã giỏi thế nào. Khi chuẩn bị bài mới, bạn lại mải tưởng tượng lời khen ngày mai. Bạn có thể cất giấy khen, nhớ điều đã học được và trở về đọc bài đang cần hiểu.",
+            "Đây là tình huống hiện đại giúp nhận ra sự say thích mà mình chạy theo. Phần kinh còn giảng đủ năm uẩn và các cách nhận làm tự ngã, sâu hơn một lần quay lại làm bài."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một việc em có thể làm hôm nay",
+          "meaningUnits": [
+            "verse-seeing",
+            "verse-urgency",
+            "past-free",
+            "future-free"
+          ],
+          "paragraphs": [
+            "Em có thể chọn một việc nhỏ như nghe trọn lời bạn hoặc làm rõ một điều chưa hiểu. Khi mải nghĩ về lời khen đã có hoặc chưa có, thử nhận ra mình đang thích thú bám theo điều gì, rồi tiếp tục việc đã chọn. Đây là gợi ý thực hành hiện đại; điều khó trong bài có thể đọc cùng người biết hướng dẫn."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "MN131 — Nhìn rõ hiện tại và cách tâm bám theo",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Tóm lược và phân tích một cách sống",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "address",
+            "announce"
+          ],
+          "paragraphs": [
+            "Kinh Một Đêm Có Lành, MN131, mở bằng lời người truyền kinh đã nghe. Đức Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những vị nam xuất gia theo Phật; các vị đáp lại. Ngài hứa giảng phần tóm lược và phần phân tích, yêu cầu lắng nghe, chú tâm khéo. Sau lời vâng đáp của các vị, Ngài bắt đầu bằng một bài kệ."
+          ]
+        },
+        {
+          "id": "verse",
+          "kind": "teaching",
+          "heading": "Bài kệ đặt việc tu vào hôm nay",
+          "meaningUnits": [
+            "verse-time",
+            "verse-seeing",
+            "verse-urgency",
+            "verse-name"
+          ],
+          "paragraphs": [
+            "Đừng chạy theo quá khứ, đừng mong đợi tương lai: quá khứ đã bỏ lại sau, tương lai chưa tới. Người thấy rõ từng pháp hiện tại — từng điều đang hiện có — biết sự không lung lay, không dao động ấy và nuôi dưỡng nó.",
+            "Hãy tinh cần, siêng năng tu tập ngay hôm nay, vì ai biết ngày mai cái chết có đến hay không? Không thể mặc cả với tử thần có đại quân. Người nhiệt tâm an trú như vậy, ở vững trong cách tu ấy, ngày đêm không lười mệt, được bậc ẩn sĩ an tịnh, người hiền trí sống tĩnh lặng, gọi là người “một đêm có lành”."
+          ]
+        },
+        {
+          "id": "terms",
+          "kind": "clarification",
+          "heading": "Năm uẩn làm rõ đối tượng được nói đến",
+          "meaningUnits": [
+            "past",
+            "future",
+            "self-form",
+            "self-feeling",
+            "self-perception",
+            "self-intentions",
+            "self-consciousness"
+          ],
+          "paragraphs": [
+            "Phần phân tích dùng năm uẩn: sắc là phương diện vật chất; thọ là cảm giác dễ chịu, khó chịu hoặc không dễ chịu cũng không khó chịu; tưởng là nhận ra và ghi dấu; các hành là những hoạt động tạo tác của tâm, gồm ý muốn và dự định; thức là sự biết đối tượng.",
+            "Vì vậy, câu hỏi về quá khứ, tương lai và hiện tại đi vào cách liên hệ với từng nhóm kinh nghiệm ấy. “Ngã” là cái tôi hay tự ngã được nhận là chính mình. Phần sau xét những quan hệ người ta gán cho năm uẩn với cái tôi ấy."
+          ]
+        },
+        {
+          "id": "past",
+          "kind": "teaching",
+          "heading": "Quá khứ: có hay không theo đuổi sự say thích",
+          "meaningUnits": [
+            "past",
+            "past-free"
+          ],
+          "paragraphs": [
+            "Chạy theo quá khứ là nghĩ mình đã có sắc như vậy, thọ như vậy, tưởng như vậy, hành như vậy, thức như vậy, rồi theo đuổi hỉ lạc — sự thích thú, say thích — nơi từng điều ấy. Phật nêu đủ năm nhóm và gọi đó là chạy theo quá khứ.",
+            "Không chạy theo quá khứ cũng có lời nghĩ “tôi đã có” từng sắc, thọ, tưởng, hành, thức như vậy, nhưng không theo đuổi hỉ lạc nơi từng điều. Sự phân biệt nằm ở mối say thích được nuôi theo khi nhớ."
+          ]
+        },
+        {
+          "id": "future",
+          "kind": "teaching",
+          "heading": "Tương lai: cùng lời mong, khác cách bám theo",
+          "meaningUnits": [
+            "future",
+            "future-free"
+          ],
+          "paragraphs": [
+            "Mong đợi tương lai được giải bằng lời nghĩ: mong tôi sẽ có sắc như vậy, thọ như vậy, tưởng như vậy, hành như vậy và thức như vậy. Người ấy theo đuổi hỉ lạc nơi từng hình ảnh mong muốn.",
+            "Trong trường hợp không mong đợi tương lai, kinh vẫn nêu lời nghĩ về từng sắc, thọ, tưởng, hành, thức sẽ có như vậy, nhưng người ấy không theo đuổi hỉ lạc ở đó. Hai chiều được đặt cạnh nhau để thấy rõ việc tâm chạy theo điều mình hình dung."
+          ]
+        },
+        {
+          "id": "untrained",
+          "kind": "teaching",
+          "heading": "Hiện tại và sự thiếu học, thiếu rèn luyện",
+          "meaningUnits": [
+            "untrained"
+          ],
+          "paragraphs": [
+            "Thế nào là bị lung lay giữa các pháp hiện tại? Phật nói đến phàm phu ít nghe, chưa thấy các bậc Thánh, chưa khéo trong pháp của các vị ấy, chưa được huấn luyện trong pháp ấy. Với các bậc chân nhân, người chân chính, người ấy cũng chưa thấy, chưa khéo và chưa được huấn luyện.",
+            "Người ấy nhìn năm uẩn qua bốn quan hệ với tự ngã. Phần này cho thấy chỉ hướng sự chú ý về hiện tại chưa diễn tả hết điều bài kinh yêu cầu."
+          ]
+        },
+        {
+          "id": "self",
+          "kind": "teaching",
+          "heading": "Hai mươi cách nhìn qua tự ngã",
+          "meaningUnits": [
+            "self-form",
+            "self-feeling",
+            "self-perception",
+            "self-intentions",
+            "self-consciousness"
+          ],
+          "paragraphs": [
+            "Với sắc: xem sắc là ngã, ngã có sắc, sắc ở trong ngã, hoặc ngã ở trong sắc. Với thọ: xem thọ là ngã, ngã có thọ, thọ ở trong ngã, hoặc ngã ở trong thọ.",
+            "Với tưởng: xem tưởng là ngã, ngã có tưởng, tưởng ở trong ngã, hoặc ngã ở trong tưởng. Với các hành: xem các hành là ngã, ngã có các hành, các hành ở trong ngã, hoặc ngã ở trong các hành.",
+            "Với thức: xem thức là ngã, ngã có thức, thức ở trong ngã, hoặc ngã ở trong thức. Đó là hai mươi quan hệ qua năm uẩn; Phật gọi như vậy là bị lung lay giữa các pháp hiện tại."
+          ]
+        },
+        {
+          "id": "trained",
+          "kind": "teaching",
+          "heading": "Người đã học và được rèn luyện",
+          "meaningUnits": [
+            "trained"
+          ],
+          "paragraphs": [
+            "Không bị lung lay được giảng từ một vị Thánh đệ tử có nghe nhiều. Vị ấy thấy các bậc Thánh, khéo trong pháp của các vị ấy và được huấn luyện trong pháp ấy; cũng thấy các bậc chân nhân, khéo trong pháp của các vị ấy và được huấn luyện trong pháp ấy. Cách nhìn năm uẩn của vị ấy được trình bày bằng đủ các phủ định sau."
+          ]
+        },
+        {
+          "id": "free",
+          "kind": "teaching",
+          "heading": "Không đặt năm uẩn trong những quan hệ ấy",
+          "meaningUnits": [
+            "free-form",
+            "free-feeling",
+            "free-perception",
+            "free-intentions",
+            "free-consciousness"
+          ],
+          "paragraphs": [
+            "Vị ấy không xem sắc là ngã, không xem ngã có sắc, không xem sắc trong ngã, không xem ngã trong sắc. Vị ấy không xem thọ là ngã, không xem ngã có thọ, không xem thọ trong ngã, không xem ngã trong thọ.",
+            "Vị ấy không xem tưởng là ngã, không xem ngã có tưởng, không xem tưởng trong ngã, không xem ngã trong tưởng. Vị ấy không xem các hành là ngã, không xem ngã có các hành, không xem các hành trong ngã, không xem ngã trong các hành.",
+            "Vị ấy không xem thức là ngã, không xem ngã có thức, không xem thức trong ngã, không xem ngã trong thức. Đó là không bị lung lay giữa các pháp hiện tại."
+          ]
+        },
+        {
+          "id": "reprise",
+          "kind": "teaching",
+          "heading": "Lời kệ trở lại sau ba cặp phân tích",
+          "meaningUnits": [
+            "reprise-time",
+            "reprise-seeing",
+            "reprise-urgency",
+            "reprise-name"
+          ],
+          "paragraphs": [
+            "Phật nhắc lại: không chạy theo quá khứ, không mong đợi tương lai; quá khứ bỏ lại sau, tương lai chưa đến. Người thấy rõ từng pháp hiện tại biết sự không lung lay, không dao động và nuôi dưỡng điều ấy.",
+            "Hôm nay hãy tinh cần, vì không ai biết ngày mai cái chết có đến hay không; không thể mặc cả với tử thần có đại quân. Người nhiệt tâm ở vững như vậy, ngày đêm không lười mệt, được bậc ẩn sĩ an tịnh gọi là “một đêm có lành”. Lần nhắc lại này đặt lời kệ bên cạnh các cách chạy theo và nhận làm ngã vừa được phân tích."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Lời hứa giảng đã được thực hiện",
+          "meaningUnits": [
+            "frame",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật nhắc lại lời hứa sẽ giảng bản tóm lược và phần phân tích, rồi nói chính vì những điều này mà lời ấy đã được nói. Ngài giảng xong, các tỳ-kheo hoan hỷ, tán đồng. Kinh Một Đêm Có Lành, bài thứ nhất trong nhóm, kết thúc."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: một chức danh đã qua",
+          "meaningUnits": [
+            "past",
+            "past-free",
+            "future",
+            "future-free"
+          ],
+          "paragraphs": [
+            "Một người đổi công việc nhưng cứ muốn được đối xử theo chức danh cũ. Khi nghĩ về vị trí tương lai, họ lại mải tận hưởng trước hình ảnh được người khác nể trọng. Nhận ra sự say thích ấy có thể giúp họ trở về tìm hiểu việc hiện cần làm, sử dụng kinh nghiệm cũ và chuẩn bị bước tiếp một cách rõ ràng.",
+            "Ví dụ này minh họa một cách tâm chạy theo hình ảnh bản thân. Phân tích trong kinh đi sâu vào đủ năm uẩn cùng các quan hệ chấp ngã; thành công nghề nghiệp không phải thước đo hoàn tất việc tu ấy."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Nhìn một lần tâm đang chạy theo",
+          "meaningUnits": [
+            "past",
+            "past-free",
+            "future",
+            "future-free",
+            "verse-urgency"
+          ],
+          "paragraphs": [
+            "Trong một việc hôm nay, thử nhận ra lúc tâm tìm sự say thích ở điều từng có hoặc điều mong sẽ có. Gọi đúng điều ấy, xem việc cần làm đang là gì, rồi chọn một hành động thiện có thể thực hiện. Có thể hỏi người hướng dẫn về những quan hệ với tự ngã chưa hiểu. Đây là gợi ý hiện đại để bắt đầu nhìn lại, không phải kết luận mình đã hết chấp ngã."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "MN131 — Sống sáng rõ với ngày đang có",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Lắng nghe rồi tìm hiểu từng phần",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "address",
+            "announce"
+          ],
+          "paragraphs": [
+            "MN131 có tên Kinh Một Đêm Có Lành. Người truyền kinh kể điều đã nghe: Phật ở Sāvatthī, rừng Jeta, tu viện của Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những vị nam xuất gia theo Phật, và các vị thưa lại.",
+            "Phật sẽ giảng phần tóm lược cùng phần phân tích rõ. Ngài mời lắng nghe và chú tâm khéo léo. Các vị vâng đáp; rồi Ngài đọc những câu kệ."
+          ]
+        },
+        {
+          "id": "time",
+          "kind": "teaching",
+          "heading": "Quá khứ đã qua, tương lai chưa đến",
+          "meaningUnits": [
+            "verse-time"
+          ],
+          "paragraphs": [
+            "Lời kệ nhắc đừng chạy theo quá khứ, đừng mong đợi tương lai. Điều đã qua đã bỏ lại sau; điều sắp đến vẫn chưa đến. Phần giải thích tiếp theo chỉ rõ tâm chạy theo ở chỗ nào."
+          ]
+        },
+        {
+          "id": "seeing",
+          "kind": "teaching",
+          "heading": "Thấy rõ và nuôi dưỡng sự vững vàng",
+          "meaningUnits": [
+            "verse-seeing"
+          ],
+          "paragraphs": [
+            "Người nhìn rõ các pháp hiện tại, những điều đang có, ở từng trường hợp, biết sự không lung lay và không dao động ấy thì nuôi dưỡng nó. Việc tu tiếp tục ngay nơi điều đang được thấy rõ."
+          ]
+        },
+        {
+          "id": "today",
+          "kind": "teaching",
+          "heading": "Tinh cần với ngày đang có",
+          "meaningUnits": [
+            "verse-urgency",
+            "verse-name"
+          ],
+          "paragraphs": [
+            "Hãy tinh cần, siêng năng tu tập hôm nay: ai biết được ngày mai cái chết có đến hay không? Lời kệ nói không thể mặc cả với tử thần có đại quân. Đây là lời nhắc về sự không chắc chắn của mạng sống chung cho mọi người.",
+            "Người nhiệt tâm an trú như vậy, nghĩa là ở vững trong cách tu ấy, ngày đêm không lười mệt, được bậc ẩn sĩ an tịnh, người hiền trí sống tĩnh lặng, gọi là người “một đêm có lành”."
+          ]
+        },
+        {
+          "id": "terms",
+          "kind": "clarification",
+          "heading": "Năm tên gọi sẽ gặp nhiều lần",
+          "meaningUnits": [
+            "past",
+            "future",
+            "self-form",
+            "self-feeling",
+            "self-perception",
+            "self-intentions",
+            "self-consciousness"
+          ],
+          "paragraphs": [
+            "Năm uẩn là năm nhóm được nói đến: sắc, phần vật chất; thọ, cảm giác dễ chịu, khó chịu hoặc không dễ chịu cũng không khó chịu; tưởng, sự nhận ra và ghi dấu; các hành, những hoạt động tạo tác của tâm như ý muốn, dự định; thức, sự biết đối tượng.",
+            "Ngã là cái tôi hay tự ngã mà người ta nhận là chính mình. Bài kinh lần lượt xét cách nhớ năm uẩn đã qua, mong năm uẩn sẽ có và nhận năm uẩn hiện tại làm ngã."
+          ]
+        },
+        {
+          "id": "past",
+          "kind": "teaching",
+          "heading": "Sự say thích nơi điều đã qua",
+          "meaningUnits": [
+            "past"
+          ],
+          "paragraphs": [
+            "Phật hỏi thế nào là chạy theo quá khứ. Người ấy nghĩ mình trước kia có sắc như vậy, thọ như vậy, tưởng như vậy, hành như vậy, thức như vậy. Nơi từng phần, người ấy theo đuổi hỉ lạc, sự thích thú và say thích.",
+            "Đó là chạy theo quá khứ. Cả phần vật chất, cảm thọ, nhận biết ghi dấu, các hoạt động tâm và sự biết đã qua đều được xét."
+          ]
+        },
+        {
+          "id": "past-free",
+          "kind": "teaching",
+          "heading": "Cũng nhớ, nhưng không tìm sự say thích ấy",
+          "meaningUnits": [
+            "past-free"
+          ],
+          "paragraphs": [
+            "Không chạy theo quá khứ vẫn có lời nghĩ: tôi từng có sắc như vậy, thọ như vậy, tưởng như vậy, hành như vậy, thức như vậy. Nhưng người ấy không theo đuổi hỉ lạc ở từng điều.",
+            "Như vậy là không chạy theo quá khứ. Lời giải giúp nhìn rõ sự khác nhau trong cách nhớ, ngay ở chỗ có nuôi sự say thích hay không."
+          ]
+        },
+        {
+          "id": "future",
+          "kind": "teaching",
+          "heading": "Mong điều sẽ có và bám theo nó",
+          "meaningUnits": [
+            "future"
+          ],
+          "paragraphs": [
+            "Thế nào là mong đợi tương lai? Người ấy nghĩ: mong tôi sẽ có sắc như vậy, thọ như vậy, tưởng như vậy, hành như vậy, thức như vậy; rồi theo đuổi hỉ lạc nơi từng điều mình mong.",
+            "Phật gọi như vậy là mong đợi tương lai. Bài xét đủ cả năm nhóm, không chỉ một ước muốn về thân thể."
+          ]
+        },
+        {
+          "id": "future-free",
+          "kind": "teaching",
+          "heading": "Không tìm hỉ lạc trong hình ảnh ngày sau",
+          "meaningUnits": [
+            "future-free"
+          ],
+          "paragraphs": [
+            "Ở chiều không mong đợi tương lai, cũng có lời nghĩ mong tôi sẽ có sắc, thọ, tưởng, hành và thức như vậy. Với từng điều, người ấy không theo đuổi hỉ lạc ở đó.",
+            "Phật gọi đó là không mong đợi tương lai. Chỗ được phân biệt là sự thích thú, say thích chạy theo hình ảnh mình dự kiến."
+          ]
+        },
+        {
+          "id": "untrained",
+          "kind": "teaching",
+          "heading": "Sự lung lay trong hiện tại",
+          "meaningUnits": [
+            "untrained"
+          ],
+          "paragraphs": [
+            "Phật hỏi thế nào là bị lung lay giữa các pháp hiện tại. Ngài nêu người phàm ít học nghe, không được thấy các bậc Thánh, không khéo trong pháp ấy, không được huấn luyện trong pháp ấy. Với các bậc chân nhân, người chân chính, người này cũng chưa thấy, chưa khéo và chưa được huấn luyện.",
+            "Người ấy nhận năm uẩn trong bốn quan hệ với tự ngã. Kinh lần lượt nêu rõ từng nhóm cùng các quan hệ ấy."
+          ]
+        },
+        {
+          "id": "self-body-feeling",
+          "kind": "teaching",
+          "heading": "Sắc và thọ trong bốn cách nhận làm ngã",
+          "meaningUnits": [
+            "self-form",
+            "self-feeling"
+          ],
+          "paragraphs": [
+            "Với sắc: sắc là ngã; ngã có sắc; sắc ở trong ngã; ngã ở trong sắc.",
+            "Với thọ: thọ là ngã; ngã có thọ; thọ ở trong ngã; ngã ở trong thọ. Một bên là phần vật chất, một bên là cảm thọ; mỗi bên đều có đủ bốn cách nhìn."
+          ]
+        },
+        {
+          "id": "self-mind",
+          "kind": "teaching",
+          "heading": "Tưởng, hành, thức cũng được nhận như vậy",
+          "meaningUnits": [
+            "self-perception",
+            "self-intentions",
+            "self-consciousness"
+          ],
+          "paragraphs": [
+            "Với tưởng: tưởng là ngã; ngã có tưởng; tưởng ở trong ngã; ngã ở trong tưởng.",
+            "Với các hành: các hành là ngã; ngã có các hành; các hành ở trong ngã; ngã ở trong các hành.",
+            "Với thức: thức là ngã; ngã có thức; thức ở trong ngã; ngã ở trong thức. Năm nhóm với bốn quan hệ là hai mươi cách nhận. Phật gọi như thế là bị lung lay giữa các pháp hiện tại."
+          ]
+        },
+        {
+          "id": "trained",
+          "kind": "teaching",
+          "heading": "Học, hiểu và được rèn luyện",
+          "meaningUnits": [
+            "trained"
+          ],
+          "paragraphs": [
+            "Ở chiều không bị lung lay, Phật nói đến Thánh đệ tử có nghe nhiều. Vị ấy được thấy các bậc Thánh, khéo trong pháp của các vị ấy và được huấn luyện trong pháp ấy.",
+            "Với các bậc chân nhân, vị ấy cũng được thấy, khéo trong pháp và được huấn luyện trong pháp ấy. Từ đó, cách nhìn năm uẩn được trình bày bằng những phủ định rõ ràng."
+          ]
+        },
+        {
+          "id": "free-body-feeling",
+          "kind": "teaching",
+          "heading": "Không nhận sắc và thọ theo bốn quan hệ",
+          "meaningUnits": [
+            "free-form",
+            "free-feeling"
+          ],
+          "paragraphs": [
+            "Vị ấy không xem sắc là ngã, không xem ngã có sắc, không xem sắc trong ngã, không xem ngã trong sắc.",
+            "Vị ấy không xem thọ là ngã, không xem ngã có thọ, không xem thọ trong ngã, không xem ngã trong thọ."
+          ]
+        },
+        {
+          "id": "free-mind",
+          "kind": "teaching",
+          "heading": "Không nhận tưởng, hành, thức theo bốn quan hệ",
+          "meaningUnits": [
+            "free-perception",
+            "free-intentions",
+            "free-consciousness"
+          ],
+          "paragraphs": [
+            "Vị ấy không xem tưởng là ngã, không xem ngã có tưởng, không xem tưởng trong ngã, không xem ngã trong tưởng.",
+            "Vị ấy không xem các hành là ngã, không xem ngã có các hành, không xem các hành trong ngã, không xem ngã trong các hành.",
+            "Vị ấy không xem thức là ngã, không xem ngã có thức, không xem thức trong ngã, không xem ngã trong thức. Đó là không bị lung lay giữa các pháp hiện tại."
+          ]
+        },
+        {
+          "id": "reprise",
+          "kind": "teaching",
+          "heading": "Lời kệ được nhắc lại",
+          "meaningUnits": [
+            "reprise-time",
+            "reprise-seeing",
+            "reprise-urgency",
+            "reprise-name"
+          ],
+          "paragraphs": [
+            "Sau phần giải thích, Phật nhắc lại: không chạy theo quá khứ, không mong đợi tương lai; điều đã qua ở lại sau, điều sẽ tới chưa đến. Người thấy rõ hiện tại ở từng nơi biết sự không lung lay, không dao động và nuôi dưỡng nó.",
+            "Tinh cần ngay hôm nay, vì không biết ngày mai cái chết sẽ đến hay không; không thể mặc cả với tử thần có đại quân. Người nhiệt tâm ở vững như vậy, ngày đêm không lười mệt, được bậc ẩn sĩ an tịnh gọi là người “một đêm có lành”."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Khép phần tóm lược và giải thích",
+          "meaningUnits": [
+            "frame",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật nhắc lời hứa giảng tóm lược và phân tích về một đêm có lành. Chính những điều vừa nói là nội dung Ngài đã hứa giảng. Các tỳ-kheo hoan hỷ, tán đồng lời dạy. Bài kinh thứ nhất trong nhóm này kết thúc."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: chuyện một lần họp mặt",
+          "meaningUnits": [
+            "past",
+            "past-free",
+            "future",
+            "future-free"
+          ],
+          "paragraphs": [
+            "Sau một buổi họp mặt, có người cứ muốn sống lại lời khen đã nhận. Nghĩ đến lần gặp sau, người ấy lại say thích hình ảnh mình sẽ được quan tâm. Khi nhận ra điều đó, họ có thể nhớ buổi gặp với lòng biết ơn, chuẩn bị điều cần thiết cho lần sau và dành sự chú ý cho người đang ở cạnh.",
+            "Đây là ví dụ hiện đại về cách liên hệ với kỷ niệm và dự định. Phần kinh còn phân tích đủ năm uẩn và hai mươi quan hệ với tự ngã, cần được tiếp tục học và quán sát."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Chọn một việc thiện vừa sức",
+          "meaningUnits": [
+            "past-free",
+            "future-free",
+            "verse-seeing",
+            "verse-urgency"
+          ],
+          "paragraphs": [
+            "Có thể bắt đầu bằng một việc thiện hôm nay: lắng nghe một người, nói lời chân thật hoặc giúp một việc vừa sức. Khi nhớ hay dự tính, thử nhìn xem mình đang tìm sự say thích ở đâu. Nếu phần tự ngã còn khó, chọn một đoạn để hỏi người biết hướng dẫn. Đây là gợi ý thực hành hiện đại cho từng bước học."
+          ]
+        }
+      ]
+    }
+  }
+}

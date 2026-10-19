@@ -1,0 +1,869 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn152",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn152_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "62bb935f412e535792ef6c2f98bacd7c0a451385c414ae746f304c1e288e2f43"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn152_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "76ca153c03994f55837474e0c3204f2a902db3214f4342fa738e9065ea4f5cfa"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn152_translation-vi-project.json",
+      "commit": "a0408ff8d814d796c8b1cf0bbda5dbfaa2849820",
+      "sha256": "7551f4e40c9cbe294d3858d2c6f1afea3d9bb85725bae16e10be288966f3b2ee"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn152.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "51b87f18efee6a36132d0b6d160224949b1d84fd04fefbf54626d7eb9e326835"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn152_comment-vi-project.json",
+      "commit": "a0408ff8d814d796c8b1cf0bbda5dbfaa2849820",
+      "sha256": "16b07788a5649a630a2acf70ece1c85002e8bcdbc45d4a8f5dcd2d14bdb34f16"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Nhan đề",
+      "segments": [
+        "mn152:0.1",
+        "mn152:0.2"
+      ],
+      "summary": "Trung Bộ 152, Indriyabhāvanāsutta, tu tập các căn; nhãn ấn bản."
+    },
+    {
+      "id": "setting",
+      "title": "Nơi ở và Uttara đến",
+      "segments": [
+        "mn152:1.1",
+        "mn152:1.2",
+        "mn152:2.1",
+        "mn152:2.2"
+      ],
+      "summary": "Người truyền kinh thuật: Phật tại rừng tre Suveḷuvana ở Gajaṅgalā; Uttara, học trò Pārāsiviya, đến chào hỏi thân thiện và ngồi một bên. Dạng tên Pāli ghim khác EN/HTML."
+    },
+    {
+      "id": "uttara",
+      "title": "Lời thầy được Uttara thuật",
+      "segments": [
+        "mn152:2.3",
+        "mn152:2.4",
+        "mn152:2.5",
+        "mn152:2.6",
+        "mn152:2.7"
+      ],
+      "summary": "Phật hỏi thầy có dạy tu các căn không và dạy thế nào. Uttara đáp có, theo cách mắt không thấy sắc, tai không nghe tiếng. Đây là lời Uttara thuật, không phải lời khuyên của Phật."
+    },
+    {
+      "id": "rebuttal",
+      "title": "Phản chứng và sự im lặng",
+      "segments": [
+        "mn152:2.8",
+        "mn152:2.9",
+        "mn152:2.10",
+        "mn152:2.11"
+      ],
+      "summary": "Theo tiêu chuẩn vừa nêu thì người mù/điếc hẳn đã tu các căn vì không thấy/nghe. Uttara im, ngượng, vai rũ, cúi mặt, bần thần, không đáp được. Không suy từ phản chứng thành đánh giá phẩm giá người khuyết tật."
+    },
+    {
+      "id": "invitation",
+      "title": "Phật chuyển sang Ānanda",
+      "segments": [
+        "mn152:3.1",
+        "mn152:3.2",
+        "mn152:3.3",
+        "mn152:3.4",
+        "mn152:3.5",
+        "mn152:3.6",
+        "mn152:3.7"
+      ],
+      "summary": "Thấy Uttara như vậy, Phật nói với Ānanda cách ấy khác sự tu căn vô thượng trong Thánh luật. Ānanda hai lần thưa đã đến lúc và xin giảng để tỳ-kheo nghe, ghi nhớ. Phật bảo nghe, chú tâm; Ānanda vâng."
+    },
+    {
+      "id": "eye",
+      "title": "Sắc qua mắt",
+      "segments": [
+        "mn152:4.1",
+        "mn152:4.2",
+        "mn152:4.3",
+        "mn152:4.4",
+        "mn152:4.5",
+        "mn152:4.6",
+        "mn152:4.7",
+        "mn152:4.8",
+        "mn152:4.9",
+        "mn152:4.10",
+        "mn152:4.11",
+        "mn152:4.12"
+      ],
+      "summary": "Khởi khả ý, bất khả ý, cả hai; biết chúng hữu vi, thô, duyên sinh, còn xả an tịnh/thù diệu. Ba loại đã khởi diệt, xả vững; ví sự mau/lẹ/dễ, không hứa bài tập lập tức: Người có mắt mở rồi nhắm hoặc nhắm rồi mở."
+    },
+    {
+      "id": "ear",
+      "title": "Tiếng qua tai",
+      "segments": [
+        "mn152:5.1",
+        "mn152:5.2",
+        "mn152:5.3",
+        "mn152:5.4",
+        "mn152:5.5",
+        "mn152:5.6",
+        "mn152:5.7",
+        "mn152:5.8",
+        "mn152:5.9",
+        "mn152:5.10",
+        "mn152:5.11"
+      ],
+      "summary": "Khởi khả ý, bất khả ý, cả hai; biết chúng hữu vi, thô, duyên sinh, còn xả an tịnh/thù diệu. Ba loại đã khởi diệt, xả vững; ví sự mau/lẹ/dễ, không hứa bài tập lập tức: Người khỏe dễ dàng búng tay."
+    },
+    {
+      "id": "nose",
+      "title": "Mùi qua mũi",
+      "segments": [
+        "mn152:6.1",
+        "mn152:6.2",
+        "mn152:6.3",
+        "mn152:6.4",
+        "mn152:6.5",
+        "mn152:6.6",
+        "mn152:6.7",
+        "mn152:6.8",
+        "mn152:6.9",
+        "mn152:6.10",
+        "mn152:6.11"
+      ],
+      "summary": "Khởi khả ý, bất khả ý, cả hai; biết chúng hữu vi, thô, duyên sinh, còn xả an tịnh/thù diệu. Ba loại đã khởi diệt, xả vững; ví sự mau/lẹ/dễ, không hứa bài tập lập tức: Giọt nước lăn khỏi lá sen hơi nghiêng, không đọng."
+    },
+    {
+      "id": "tongue",
+      "title": "Vị qua lưỡi",
+      "segments": [
+        "mn152:7.1",
+        "mn152:7.2",
+        "mn152:7.3",
+        "mn152:7.4",
+        "mn152:7.5",
+        "mn152:7.6",
+        "mn152:7.7",
+        "mn152:7.8",
+        "mn152:7.9",
+        "mn152:7.10",
+        "mn152:7.11"
+      ],
+      "summary": "Khởi khả ý, bất khả ý, cả hai; biết chúng hữu vi, thô, duyên sinh, còn xả an tịnh/thù diệu. Ba loại đã khởi diệt, xả vững; ví sự mau/lẹ/dễ, không hứa bài tập lập tức: Người khỏe gom nước bọt đầu lưỡi rồi dễ nhổ ra."
+    },
+    {
+      "id": "body",
+      "title": "Xúc qua thân",
+      "segments": [
+        "mn152:8.1",
+        "mn152:8.2",
+        "mn152:8.3",
+        "mn152:8.4",
+        "mn152:8.5",
+        "mn152:8.6",
+        "mn152:8.7",
+        "mn152:8.8",
+        "mn152:8.9",
+        "mn152:8.10",
+        "mn152:8.11"
+      ],
+      "summary": "Khởi khả ý, bất khả ý, cả hai; biết chúng hữu vi, thô, duyên sinh, còn xả an tịnh/thù diệu. Ba loại đã khởi diệt, xả vững; ví sự mau/lẹ/dễ, không hứa bài tập lập tức: Người khỏe duỗi tay đang co, co tay đang duỗi."
+    },
+    {
+      "id": "mind",
+      "title": "Pháp qua ý",
+      "segments": [
+        "mn152:9.1",
+        "mn152:9.2",
+        "mn152:9.3",
+        "mn152:9.4",
+        "mn152:9.5",
+        "mn152:9.6",
+        "mn152:9.7",
+        "mn152:9.8",
+        "mn152:9.9",
+        "mn152:9.10",
+        "mn152:9.11",
+        "mn152:9.12",
+        "mn152:9.13"
+      ],
+      "summary": "Khởi khả ý, bất khả ý, cả hai; biết chúng hữu vi, thô, duyên sinh, còn xả an tịnh/thù diệu. Ba loại đã khởi diệt, xả vững; ví sự mau/lẹ/dễ, không hứa bài tập lập tức: Người khỏe thả hai hoặc ba giọt nước vào chảo sắt nóng suốt ngày; rơi chậm mà tiêu biến nhanh. Kết tổng phần vô thượng."
+    },
+    {
+      "id": "trainee",
+      "title": "Vị hữu học đang thực hành",
+      "segments": [
+        "mn152:10.1",
+        "mn152:10.2",
+        "mn152:10.3",
+        "mn152:10.4",
+        "mn152:10.5",
+        "mn152:10.6",
+        "mn152:10.7",
+        "mn152:10.8",
+        "mn152:10.9",
+        "mn152:10.10"
+      ],
+      "summary": "Cả sáu cửa khởi ba loại khả ý/bất khả ý/cả hai. Vị hữu học thấy bức bối, hổ thẹn và ghê chán với cái đã khởi. Không đánh đồng với bậc đã tự tại, không đổi thành chỉ nhận biết trung tính."
+    },
+    {
+      "id": "noble-eye",
+      "title": "Năm lựa chọn ở cửa mắt",
+      "segments": [
+        "mn152:11-15.1",
+        "mn152:11-15.2",
+        "mn152:11-15.3",
+        "mn152:11-15.4",
+        "mn152:11-15.5",
+        "mn152:11-15.6",
+        "mn152:11-15.7"
+      ],
+      "summary": "Bậc Thánh đã tu các căn vẫn được trình bày với ba loại khởi qua thấy. Nếu muốn, trú tưởng không ghê trong điều ghê; ghê trong không ghê; không ghê trong cả ghê/không ghê; ghê trong cả không ghê/ghê; tránh cả hai, trú xả có niệm tỉnh giác. Mỗi muốn đều làm được, không lệnh mọi người đảo thiện ác."
+    },
+    {
+      "id": "noble-other",
+      "title": "Năm lựa chọn qua năm cửa khác",
+      "segments": [
+        "mn152:16.1",
+        "mn152:16.2",
+        "mn152:16.3",
+        "mn152:16.4",
+        "mn152:16.5",
+        "mn152:16.6",
+        "mn152:16.7",
+        "mn152:16.8",
+        "mn152:16.9",
+        "mn152:16.10",
+        "mn152:16.11"
+      ],
+      "summary": "Tai, mũi, lưỡi, thân, ý theo ba loại khởi và đủ năm lựa chọn như mắt. Kết xác nhận bậc Thánh với các căn đã tu."
+    },
+    {
+      "id": "closing",
+      "title": "Nhắc ba phần và khuyên thiền",
+      "segments": [
+        "mn152:17.1",
+        "mn152:18.1",
+        "mn152:18.2",
+        "mn152:18.3",
+        "mn152:18.4"
+      ],
+      "summary": "Phật nhắc đã dạy tu căn vô thượng, hữu học đang tu và bậc Thánh đã tu. Đạo sư từ mẫn, muốn lợi ích đã làm việc cần làm; chỉ gốc cây/nhà trống, khuyên thiền, không phóng dật/để hối tiếc. Ānanda hoan hỷ tán đồng."
+    },
+    {
+      "id": "colophons",
+      "title": "Hai dòng kết",
+      "segments": [
+        "mn152:18.5",
+        "mn152:18.6"
+      ],
+      "summary": "Kinh thứ mười kết; Phẩm Sáu Xứ thứ năm kết, nhãn ấn bản."
+    },
+    {
+      "id": "texts-summary",
+      "title": "Kệ mục lục mười bài",
+      "segments": [
+        "mn152:19.0",
+        "mn152:19.1",
+        "mn152:19.2",
+        "mn152:19.3",
+        "mn152:19.4",
+        "mn152:19.5",
+        "mn152:19.6"
+      ],
+      "summary": "Mục lục: Anāthapiṇḍika, Channa, Puṇṇa, Nandaka, Rāhula, Chachakka, Saḷāyatanika, Nagaravindeyya, Suddhika, Indriyabhāvanā; gọi phẩm giáo giới thứ năm. Giữ vai trò mục lục, không thêm lời giảng."
+    },
+    {
+      "id": "collections-summary",
+      "title": "Kết Năm Mươi Sau và Trung Bộ",
+      "segments": [
+        "mn152:20.0",
+        "mn152:20.1",
+        "mn152:20.2",
+        "mn152:20.3",
+        "mn152:20.4",
+        "mn152:20.5",
+        "mn152:20.6",
+        "mn152:20.7"
+      ],
+      "summary": "Mục lục năm phẩm Devadaha/Anupada/Suññata/Vibhaṅga/Saḷāyatana thuộc Uparipaṇṇāsaka. Kết phần Năm Mươi Sau; toàn Trung Bộ gồm ba phần năm mươi hoàn tất; tên phần không có nghĩa đúng 150 bài."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "MN152 — Thấy, nghe và học cách giữ tâm thăng bằng",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Tu tập khi vẫn thấy và nghe",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "uttara",
+            "rebuttal"
+          ],
+          "paragraphs": [
+            "Kinh Tu Tập Các Căn là bài 152, bài cuối của Trung Bộ. Các căn trong bài là mắt, tai, mũi, lưỡi, thân và ý. Người truyền kinh kể rằng Phật ở rừng tre Suveḷuvana, tại Gajaṅgalā. Thanh niên Uttara, học trò của bà-la-môn Pārāsiviya, đến chào hỏi thân thiện rồi ngồi một bên.",
+            "Phật hỏi thầy của Uttara có dạy tu tập các căn không, rồi hỏi dạy như thế nào. Uttara đáp có: mắt không thấy hình sắc, tai không nghe âm thanh. Phật chỉ ra: nếu chỉ vậy là đủ, người mù và người điếc đã được tính là tu các căn, vì họ không thấy hoặc không nghe.",
+            "Uttara ngồi im, ngượng ngùng, vai rũ, cúi mặt, bần thần và không tìm được lời đáp. Lập luận đang xét một tiêu chuẩn tu tập; không phải chê một người vì mắt hoặc tai của người ấy không hoạt động."
+          ]
+        },
+        {
+          "id": "invitation",
+          "kind": "teaching",
+          "heading": "Ānanda xin nghe cách tu khác",
+          "meaningUnits": [
+            "invitation"
+          ],
+          "paragraphs": [
+            "Thấy Uttara như vậy, Phật nói với Tôn giả Ānanda rằng cách Pārāsiviya dạy khác với sự tu tập các căn cao nhất trong sự hướng dẫn của bậc Thánh. Ānanda hai lần thưa đã đến lúc xin Phật giảng, để các tỳ-kheo, tức các nhà sư, nghe và ghi nhớ.",
+            "Phật bảo Ānanda hãy lắng nghe, chú tâm khéo. Ānanda kính vâng. Từ đây, bài giảng được nói với Ānanda."
+          ]
+        },
+        {
+          "id": "eye",
+          "kind": "teaching",
+          "heading": "Khi mắt thấy điều vừa ý hoặc trái ý",
+          "meaningUnits": [
+            "eye"
+          ],
+          "paragraphs": [
+            "Một tỳ-kheo thấy hình sắc. Trong vị ấy có thể khởi điều vừa ý, điều trái ý, hoặc vừa có mặt vừa ý vừa có mặt trái ý. Vị ấy biết rõ những điều ấy đã khởi; chúng được tạo thành, còn thô và sinh nhờ điều kiện.",
+            "Vị ấy biết xả là an tịnh và tốt đẹp hơn. Xả là tâm thăng bằng, không bị kéo theo việc ưa hay ghét. Các phản ứng vừa ý, trái ý và pha cả hai lắng hết, còn xả đứng vững.",
+            "Phật ví sự mau chóng, dễ dàng ấy với người có mắt mở rồi nhắm, hoặc nhắm rồi mở. Đây là mô tả việc tu các căn đã thuần thục ở cửa mắt, không hứa ai mới tập cũng làm được ngay."
+          ]
+        },
+        {
+          "id": "ear-nose",
+          "kind": "teaching",
+          "heading": "Tiếng và mùi cũng được biết như vậy",
+          "meaningUnits": [
+            "ear",
+            "nose"
+          ],
+          "paragraphs": [
+            "Khi nghe tiếng bằng tai, cũng có ba loại phản ứng vừa ý, trái ý, hoặc cả hai. Người tu biết chúng được tạo thành, thô và do điều kiện sinh; biết xả an tịnh, thù diệu. Ba loại phản ứng chấm dứt, xả đứng vững, mau và dễ như người khỏe búng ngón tay.",
+            "Khi ngửi mùi bằng mũi, vị ấy cũng biết đủ ba loại phản ứng và tính được tạo thành, thô, do duyên sinh của chúng; rồi chúng diệt, xả đứng vững. Ví dụ ở đây là những giọt nước lăn khỏi lá sen hơi nghiêng, không đọng lại. Mỗi ví dụ đi cùng một cửa khác nhau."
+          ]
+        },
+        {
+          "id": "tongue-body",
+          "kind": "teaching",
+          "heading": "Vị và sự chạm nơi thân",
+          "meaningUnits": [
+            "tongue",
+            "body"
+          ],
+          "paragraphs": [
+            "Khi nếm vị, người tu biết phản ứng vừa ý, trái ý hay pha cả hai đã sinh do điều kiện, được tạo thành và còn thô; xả thì an tịnh, thù diệu. Các phản ứng ấy diệt, xả vững, mau và dễ như người khỏe gom nước bọt ở đầu lưỡi rồi nhổ ra.",
+            "Khi thân chạm một vật, cùng ba loại phản ứng được hiểu và lắng hết theo cách ấy; xả đứng vững. Phật ví với người khỏe duỗi cánh tay đang co hoặc co cánh tay đang duỗi. Các hình ảnh này giải thích sự thuần thục, không phải bài tập cần bắt chước."
+          ]
+        },
+        {
+          "id": "mind",
+          "kind": "teaching",
+          "heading": "Cả điều tâm nghĩ đến",
+          "meaningUnits": [
+            "mind"
+          ],
+          "paragraphs": [
+            "Khi ý biết một điều, người tu cũng nhận rõ cái vừa ý, trái ý hoặc pha cả hai. Chúng được tạo thành, thô và sinh do điều kiện; xả thì an tịnh, thù diệu. Ba loại đã khởi chấm dứt, xả vững.",
+            "Phật ví với người khỏe thả hai hay ba giọt nước lên chảo sắt đã nóng suốt ngày. Giọt rơi xuống còn chậm hơn lúc nó tiêu biến hết. Ví dụ nói sự mau lẹ, dễ dàng của tâm đã tu; em không cần làm thử với chảo nóng. Phật kết lại rằng đó là cách tu các căn cao nhất trong sự hướng dẫn của bậc Thánh."
+          ]
+        },
+        {
+          "id": "trainee",
+          "kind": "teaching",
+          "heading": "Người vẫn còn đang học",
+          "meaningUnits": [
+            "trainee"
+          ],
+          "paragraphs": [
+            "Phật nói tiếp về vị hữu học, người còn đang tu học. Khi mắt thấy, tai nghe, mũi ngửi, lưỡi nếm, thân chạm hoặc ý biết, ba loại vừa ý, trái ý và pha cả hai còn khởi.",
+            "Vị ấy thấy bức bối, hổ thẹn và ghê chán đối với chính những phản ứng ấy. Đây là trạng thái được mô tả của người đang học, khác với sự thuần thục ở phần sau. Bài không bảo em ghét chính mình vì một cảm xúc xuất hiện."
+          ]
+        },
+        {
+          "id": "five-choices",
+          "kind": "teaching",
+          "heading": "Năm cách của người đã luyện các căn",
+          "meaningUnits": [
+            "noble-eye"
+          ],
+          "paragraphs": [
+            "Với bậc Thánh có các căn đã tu, bài cũng bắt đầu từ việc thấy hình sắc và ba loại phản ứng. Nhưng nếu muốn, vị ấy có thể giữ cách nhận ra không ghê tởm trước điều gây ghê tởm; hoặc nhận ra mặt gây ghê tởm trước điều không gây ghê tởm.",
+            "Nếu muốn, vị ấy có thể nhận ra không ghê tởm trước cả hai loại; hoặc nhận ra ghê tởm trước cả hai loại, dù không ghê hay ghê. Đây là hai lựa chọn tiếp theo.",
+            "Lựa chọn thứ năm là vượt khỏi cả ghê và không ghê, an trú xả, có niệm và tỉnh giác: ghi nhận và biết rõ. Khi muốn cách nào trong năm cách ấy, vị ấy thực hiện được cách đó. Tưởng ở đây là cách tâm nhận ra đối tượng, không phải bịa một chuyện rồi tin là thật."
+          ]
+        },
+        {
+          "id": "other-choices",
+          "kind": "teaching",
+          "heading": "Năm cách ấy không chỉ ở mắt",
+          "meaningUnits": [
+            "noble-other"
+          ],
+          "paragraphs": [
+            "Cùng việc làm chủ ấy áp dụng khi tai nghe, mũi ngửi, lưỡi nếm, thân chạm và ý biết. Ba loại vừa ý, trái ý, pha cả hai vẫn là điểm bài kinh nói đến.",
+            "Ở từng cửa, bậc đã tu có đủ năm lựa chọn: không ghê trong điều ghê; ghê trong điều không ghê; không ghê với cả hai; ghê với cả hai; hoặc bỏ cả hai cách ấy để sống với xả, niệm và tỉnh giác. Phật gọi đó là bậc Thánh có các căn đã tu."
+          ]
+        },
+        {
+          "id": "last-teaching",
+          "kind": "teaching",
+          "heading": "Lời dặn sau ba phần giảng",
+          "meaningUnits": [
+            "closing"
+          ],
+          "paragraphs": [
+            "Phật nhắc đã giảng ba điều: cách tu các căn cao nhất, người hữu học đang tu và bậc Thánh đã tu các căn. Vì thương học trò và muốn điều tốt cho họ, Ngài đã làm phần việc của một người thầy.",
+            "Ngài chỉ những gốc cây và nhà trống, dạy các vị hãy tu thiền, đừng lơ là để sau này hối tiếc. Ānanda hoan hỷ tán đồng. Kinh không kể thêm Uttara đã chứng đắc điều gì."
+          ]
+        },
+        {
+          "id": "book-end",
+          "kind": "teaching",
+          "heading": "Những dòng khép lại Trung Bộ",
+          "meaningUnits": [
+            "colophons",
+            "texts-summary",
+            "collections-summary"
+          ],
+          "paragraphs": [
+            "Phần cuối thuộc việc sắp xếp bản kinh: bài Tu Tập Các Căn là thứ mười, Phẩm Sáu Xứ là thứ năm. Kệ mục lục nhắc mười tên: Anāthapiṇḍika, Channa, Puṇṇa, Nandaka, Rāhula, Chachakka, Saḷāyatanika, Nagaravindeyya, Suddhika và Indriyabhāvanā. Kệ còn gọi đây là phẩm giáo giới thứ năm.",
+            "Một kệ khác nhắc năm phẩm Devadaha, Anupada, Suññata, Vibhaṅga và Saḷāyatana của phần Năm Mươi Sau. Sau đó, ấn bản ghi phần Năm Mươi Sau và toàn Trung Bộ gồm ba phần năm mươi đã kết thúc. Em có thể đọc những tên này như mục lục, không cần xem chúng là một lời dạy mới."
+          ]
+        },
+        {
+          "id": "clarify",
+          "kind": "clarification",
+          "heading": "Thăng bằng không có nghĩa mặc kệ",
+          "meaningUnits": [
+            "eye",
+            "trainee",
+            "noble-eye"
+          ],
+          "paragraphs": [
+            "Xả trong lời giải này không có nghĩa mặc kệ người khác hoặc không phân biệt việc làm tốt, xấu. Năm cách nhìn ở phần bậc Thánh không bảo em khen hành vi làm hại hay ép mình chịu việc không an toàn. Bài đang nói khả năng của tâm tu tập, không ban một quy tắc đảo ngược đúng sai."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ: nghe nhận xét về bài vẽ",
+          "meaningUnits": [
+            "ear"
+          ],
+          "paragraphs": [
+            "Bạn khen màu em chọn nhưng góp ý hình vẽ còn khó nhận ra. Em có thể vừa vui vừa khó chịu. Nhận ra cả hai giúp em nghe rõ góp ý trước khi đáp lại. Đây là ví dụ đời sống do người biên tập thêm; làm được điều này chưa có nghĩa đã đạt mức thuần thục kinh mô tả."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gọi đúng phản ứng trước khi đáp",
+          "meaningUnits": [
+            "eye",
+            "ear",
+            "mind"
+          ],
+          "paragraphs": [
+            "Khi một việc nhỏ làm em phản ứng, thử gọi tên: vừa ý, trái ý hay pha cả hai. Em có thể dừng một chút để hiểu chuyện rồi chọn lời đáp tử tế. Không cần ép cảm xúc biến mất trong một cái búng tay. Đây chỉ là gợi ý bước đầu, không thay việc tu học trong kinh."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "MN152 — Tu các căn qua nhận biết, xả và sự thuần thục",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "problem",
+          "kind": "teaching",
+          "heading": "Tiêu chuẩn nào cho các căn đã tu tập?",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "uttara",
+            "rebuttal",
+            "invitation"
+          ],
+          "paragraphs": [
+            "MN152, Kinh Tu Tập Các Căn, khép lại Trung Bộ. Theo lời người truyền kinh, Phật ở rừng tre Suveḷuvana tại Gajaṅgalā. Uttara, học trò bà-la-môn Pārāsiviya, đến trao lời chào hỏi thân thiện rồi ngồi một bên. Phật hỏi thầy của Uttara có dạy tu các căn không và dạy thế nào.",
+            "Uttara thuật cách dạy: mắt không thấy sắc, tai không nghe tiếng. Phật đưa ra hệ quả của tiêu chuẩn ấy: người mù và người điếc cũng phải được kể là có các căn đã tu, vì không thấy hoặc không nghe. Uttara im lặng, ngượng, vai rũ, cúi mặt, bần thần và không đáp được. Phản chứng xét tiêu chuẩn tu tập, không phải giá trị của người có khuyết tật.",
+            "Biết trạng thái của Uttara, Phật chuyển sang Ānanda: cách ấy khác sự tu tập các căn vô thượng trong Thánh luật, tức nếp tu học của bậc Thánh. Ānanda hai lần thưa đã đến lúc xin Phật giảng để tỳ-kheo nghe và ghi nhớ. Phật yêu cầu lắng nghe, chú tâm; Ānanda vâng đáp."
+          ]
+        },
+        {
+          "id": "supreme-eye",
+          "kind": "teaching",
+          "heading": "Biết cái sinh do duyên, xả được vững",
+          "meaningUnits": [
+            "eye"
+          ],
+          "paragraphs": [
+            "Sau khi mắt thấy sắc, nơi tỳ-kheo khởi điều khả ý, tức vừa ý; bất khả ý, tức trái ý; hoặc pha cả vừa ý lẫn trái ý. Vị ấy biết rõ những gì đã khởi: chúng là hữu vi, thô và do duyên sinh. Hữu vi nói chúng được tạo thành bởi điều kiện; tính thô được nêu khi đối chiếu với xả an tịnh, thù diệu.",
+            "Nhờ sự biết ấy trong tiến trình kinh mô tả, cả ba loại phản ứng đã khởi đều diệt, xả được an lập. Phật ví mức nhanh, lẹ và dễ với người có mắt mở rồi nhắm, hoặc nhắm rồi mở. Đây là tiêu chuẩn tu căn vô thượng đối với sắc, không phải lời hứa về tốc độ đạt được sau một chỉ dẫn ngắn."
+          ]
+        },
+        {
+          "id": "ear-nose",
+          "kind": "teaching",
+          "heading": "Hai ví dụ cho nghe và ngửi",
+          "meaningUnits": [
+            "ear",
+            "nose"
+          ],
+          "paragraphs": [
+            "Với tiếng tai nghe, vị ấy cũng nhận ra khả ý, bất khả ý hoặc cả hai; biết chúng hữu vi, thô, duyên sinh, còn xả an tịnh và thù diệu. Các phản ứng ấy diệt và xả vững, nhanh, dễ như người khỏe búng ngón tay.",
+            "Với mùi mũi ngửi, đầy đủ cùng tiến trình nhận biết, chấm dứt ba loại phản ứng và an lập xả được lặp lại. Ví dụ là giọt nước lăn khỏi lá sen hơi nghiêng, không đọng lại. Mỗi cửa có một ví riêng nhưng giữ chung cấu trúc tu tập."
+          ]
+        },
+        {
+          "id": "taste-touch",
+          "kind": "teaching",
+          "heading": "Nếm và tiếp xúc nơi thân",
+          "meaningUnits": [
+            "tongue",
+            "body"
+          ],
+          "paragraphs": [
+            "Khi lưỡi nếm vị, điều khả ý, bất khả ý hoặc cả hai khởi lên được biết là hữu vi, thô, do duyên; xả được biết là an tịnh, thù diệu. Ba loại ấy diệt, xả an lập, nhanh và dễ như người khỏe gom nước bọt ở đầu lưỡi rồi nhổ ra.",
+            "Khi thân cảm nhận xúc chạm, cùng ba loại phản ứng được biết như thế, diệt đi và nhường chỗ cho xả vững. Sự mau lẹ, dễ dàng được ví với người khỏe duỗi cánh tay đang co hoặc co cánh tay đang duỗi. Những hình ảnh về thân diễn tả sự thuần thục của tâm, không thay thành kỹ thuật vận động."
+          ]
+        },
+        {
+          "id": "mental",
+          "kind": "teaching",
+          "heading": "Đối với pháp được ý nhận biết",
+          "meaningUnits": [
+            "mind"
+          ],
+          "paragraphs": [
+            "Ngay cả khi ý biết pháp, tiến trình vẫn gồm ba loại phản ứng, sự biết chúng là hữu vi, thô, duyên sinh và sự biết xả là an tịnh, thù diệu. Khả ý, bất khả ý và hỗn hợp ấy diệt; xả được an lập.",
+            "Ví dụ cuối là người khỏe nhỏ hai hoặc ba giọt nước vào chảo sắt đã nóng suốt ngày. Việc giọt nước rơi còn chậm so với tốc độ nó khô hết, tiêu biến. Hình ảnh làm rõ tính mau lẹ và dễ dàng; Phật kết phần tu căn vô thượng trong Thánh luật ở đây."
+          ]
+        },
+        {
+          "id": "trainee",
+          "kind": "teaching",
+          "heading": "Sự chưa thuần thục của vị hữu học",
+          "meaningUnits": [
+            "trainee"
+          ],
+          "paragraphs": [
+            "Phần kế tiếp nói vị hữu học đang thực hành. Qua mắt, tai, mũi, lưỡi, thân và ý, khả ý, bất khả ý hoặc cả hai khởi lên; vị ấy bức bối, hổ thẹn và ghê chán đối với chính những gì đã khởi.",
+            "Ba phản ứng aṭṭīyati, harāyati, jigucchati mạnh hơn việc chỉ ghi nhận trung tính. Cần giữ cường độ ấy trong mô tả, đồng thời nhận đúng đây là người đang học. Bài không đồng nhất trạng thái này với sự tự tại của bậc có các căn đã tu ở phần sau."
+          ]
+        },
+        {
+          "id": "mastery",
+          "kind": "teaching",
+          "heading": "Năm khả năng tùy nguyện của bậc đã tu",
+          "meaningUnits": [
+            "noble-eye"
+          ],
+          "paragraphs": [
+            "Bậc Thánh có các căn đã tu cũng được mô tả từ chỗ mắt thấy sắc, có khả ý, bất khả ý và cả hai. Nếu muốn, vị ấy an trú với tưởng không ghê tởm đối với điều ghê tởm; nếu muốn theo chiều ngược lại, an trú với tưởng ghê tởm đối với điều không ghê tởm.",
+            "Hai lựa chọn tiếp là tưởng không ghê tởm trước cả điều ghê và không ghê; hoặc tưởng ghê tởm trước cả điều không ghê và ghê. Lựa chọn thứ năm là tránh cả hai, an trú xả, có niệm và tỉnh giác. Mỗi mệnh đề đều gồm mong muốn và khả năng thực hiện đúng điều mong muốn.",
+            "Tưởng là cách nhận diện hay nhìn đối tượng; các lựa chọn này nói tính chủ động của tâm đã rèn luyện. Chúng không phải năm phán quyết đạo đức có thể hoán đổi tùy tiện."
+          ]
+        },
+        {
+          "id": "all-doors",
+          "kind": "teaching",
+          "heading": "Lặp đầy đủ cho năm cửa còn lại",
+          "meaningUnits": [
+            "noble-other"
+          ],
+          "paragraphs": [
+            "Khi nghe tiếng, ngửi mùi, nếm vị, cảm xúc chạm và nhận biết pháp, cùng ba loại khả ý, bất khả ý hoặc cả hai được nêu. Mỗi cửa đều có đủ năm khả năng tùy nguyện vừa trình bày.",
+            "Cụ thể: không ghê trong điều ghê; ghê trong điều không ghê; không ghê với cả hai; ghê với cả hai; rồi vượt cả hai, an trú xả với niệm và tỉnh giác. Phật gọi người có khả năng ấy là bậc Thánh có các căn đã tu tập."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Người thầy đã chỉ, người học cần thực hành",
+          "meaningUnits": [
+            "closing"
+          ],
+          "paragraphs": [
+            "Phật tổng kết ba phần đã dạy: tu các căn vô thượng, hữu học đang thực hành và bậc Thánh có các căn đã tu. Vì lòng thương và mong lợi ích cho học trò, Ngài đã làm điều một bậc Đạo sư cần làm.",
+            "Ngài chỉ gốc cây và nhà trống, khuyên tu thiền, không phóng dật để khỏi hối tiếc về sau. Ānanda hoan hỷ tán đồng. Bài không ghi thêm một kết quả chứng đắc hay quy y của Uttara."
+          ]
+        },
+        {
+          "id": "appendix",
+          "kind": "teaching",
+          "heading": "Lời giảng kết thúc, mục lục tiếp nối",
+          "meaningUnits": [
+            "colophons",
+            "texts-summary",
+            "collections-summary"
+          ],
+          "paragraphs": [
+            "Hai dòng kết ghi Kinh Tu Tập Các Căn là bài thứ mười và Phẩm Sáu Xứ là phẩm thứ năm. Kệ mục lục liệt kê Anāthapiṇḍika, Channa, Puṇṇa, Nandaka, Rāhula, Chachakka, Saḷāyatanika, Nagaravindeyya, Suddhika và Indriyabhāvanā; lời kệ gọi đó là phẩm giáo giới thứ năm.",
+            "Kệ mục lục các phẩm nêu Devadaha, Anupada, Suññata, Vibhaṅga và Saḷāyatana thuộc Năm Mươi Sau. Ấn bản khép phần ấy rồi khép toàn Trung Bộ được tổ chức thành ba phần năm mươi. Đây là tên các phần và nhãn biên tập; không phải khẳng định Trung Bộ chỉ có 150 bài."
+          ]
+        },
+        {
+          "id": "scope",
+          "kind": "clarification",
+          "heading": "Xả và khả năng đổi cách nhìn",
+          "meaningUnits": [
+            "eye",
+            "trainee",
+            "noble-eye"
+          ],
+          "paragraphs": [
+            "Cách đọc ở đây phân biệt xả với sự vô cảm, và phân biệt đổi cách nhận diện với việc phủ nhận sự thật hoặc đảo thiện ác. Tính hữu vi của phản ứng không có nghĩa mọi điều bị phản ứng trước đều vô hại. Việc cần ngăn chặn tổn hại vẫn cần được nhận diện; bài không dùng sự thăng bằng làm lý do bỏ trách nhiệm."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ: một nhận xét trong cuộc họp",
+          "meaningUnits": [
+            "ear",
+            "mind"
+          ],
+          "paragraphs": [
+            "Một đồng nghiệp ghi nhận công sức rồi chỉ ra lỗi của đề xuất. Ta vừa thích lời khen vừa khó chịu với phản biện. Nhận ra hỗn hợp ấy giúp đọc lại dữ kiện trước khi bảo vệ ý kiến. Đây là ví dụ biên tập ở mức đời thường; nó không chứng minh người ấy đã đạt sự thuần thục của bậc Thánh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Theo dõi phản ứng mà không tự đặt thành tích",
+          "meaningUnits": [
+            "eye",
+            "ear",
+            "mind"
+          ],
+          "paragraphs": [
+            "Có thể chọn một lần tiếp xúc trong ngày, nhận rõ cái vừa ý, trái ý hoặc cả hai và xem chúng sinh dựa vào những điều kiện nào mình thực sự nhận biết. Trở lại việc cần làm với sự rõ ràng hơn. Đừng dùng các ví dụ rất nhanh trong kinh làm hạn chót để cưỡng ép cảm xúc; đây là gợi ý biên tập bước đầu."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "MN152 — Bình thản mà vẫn thấy rõ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một câu hỏi về việc luyện tâm",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "uttara",
+            "rebuttal"
+          ],
+          "paragraphs": [
+            "MN152, Kinh Tu Tập Các Căn, là bài cuối Trung Bộ. Các căn đang nói đến là mắt, tai, mũi, lưỡi, thân và ý. Người truyền kinh kể Phật đang ở rừng tre Suveḷuvana tại Gajaṅgalā. Thanh niên Uttara, học trò bà-la-môn Pārāsiviya, đến thăm, chào hỏi thân thiện rồi ngồi một bên.",
+            "Phật hỏi thầy của Uttara có dạy tu tập các căn không và dạy ra sao. Uttara thuật rằng có: không thấy sắc bằng mắt, không nghe tiếng bằng tai. Phật xét hệ quả của cách nói ấy: nếu vậy, người mù và người điếc đều đã tu tập các căn, vì không thấy hoặc không nghe.",
+            "Uttara im lặng, ngượng ngùng, vai rũ xuống, cúi mặt, bần thần và không đáp được. Cuộc hỏi đáp đang thử một tiêu chuẩn tu học. Khả năng của mắt, tai không được dùng để định giá con người."
+          ]
+        },
+        {
+          "id": "ananda",
+          "kind": "teaching",
+          "heading": "Lời thỉnh của Ānanda",
+          "meaningUnits": [
+            "invitation"
+          ],
+          "paragraphs": [
+            "Thấy Uttara như thế, Phật nói với Ānanda rằng cách dạy ấy khác với việc tu các căn vô thượng trong Thánh luật, nếp tu học của bậc Thánh. Ānanda hai lần thưa đã đến lúc xin Phật giảng để các tỳ-kheo nghe, ghi nhớ.",
+            "Phật dặn hãy lắng nghe và chú tâm khéo. Ānanda kính vâng. Bài giảng sau đó đi qua ba phần, không gom người đang tập với người đã thuần thục làm một."
+          ]
+        },
+        {
+          "id": "eye",
+          "kind": "teaching",
+          "heading": "Thấy rõ phản ứng khi mắt thấy sắc",
+          "meaningUnits": [
+            "eye"
+          ],
+          "paragraphs": [
+            "Trước một hình sắc, tỳ-kheo có thể khởi điều vừa ý, trái ý hoặc pha cả vừa ý lẫn trái ý. Vị ấy biết rõ điều đã khởi là hữu vi, tức được tạo thành; còn thô; và sinh do duyên. Còn xả thì an tịnh và thù diệu.",
+            "Các phản ứng vừa ý, trái ý và pha cả hai diệt đi; xả, sự thăng bằng của tâm, đứng vững. Kinh ví sự mau lẹ, dễ dàng ấy với người có mắt mở rồi nhắm, hoặc nhắm rồi mở. Đó là mô tả về sự tu các căn vô thượng ở cửa mắt."
+          ]
+        },
+        {
+          "id": "hearing",
+          "kind": "teaching",
+          "heading": "Khi tai nghe tiếng",
+          "meaningUnits": [
+            "ear"
+          ],
+          "paragraphs": [
+            "Ở cửa tai, ba loại phản ứng cũng được nhận biết như vậy: chúng được tạo thành, thô và do duyên sinh, còn xả an tịnh, thù diệu. Khi những phản ứng đã sinh diệt đi, xả an lập.",
+            "Phật ví tốc độ và sự nhẹ nhàng này với một người khỏe có thể búng ngón tay dễ dàng. Ví dụ không đặt thời hạn cho một người mới thực hành phải hết khó chịu."
+          ]
+        },
+        {
+          "id": "smell-taste",
+          "kind": "teaching",
+          "heading": "Mùi và vị",
+          "meaningUnits": [
+            "nose",
+            "tongue"
+          ],
+          "paragraphs": [
+            "Với mùi mũi ngửi, vị ấy biết cả phản ứng vừa ý, trái ý và pha cả hai là hữu vi, thô, duyên sinh; xả là an tịnh, thù diệu. Các phản ứng ấy diệt, xả đứng vững. Ví dụ là những giọt nước lăn khỏi lá sen hơi nghiêng mà không đọng.",
+            "Với vị lưỡi nếm, đầy đủ cùng cách biết và an lập xả được lặp lại. Phật ví sự mau chóng, dễ dàng với người khỏe gom nước bọt ở đầu lưỡi rồi nhổ ra. Đây là hai hình ảnh khác nhau cho cùng tính thuần thục."
+          ]
+        },
+        {
+          "id": "body-mind",
+          "kind": "teaching",
+          "heading": "Sự chạm và điều ý biết",
+          "meaningUnits": [
+            "body",
+            "mind"
+          ],
+          "paragraphs": [
+            "Ở thân, xúc chạm có thể gây ba loại vừa ý, trái ý, hỗn hợp. Biết chúng được tạo thành, thô, do duyên sinh và xả an tịnh, thù diệu, vị ấy để ba loại đã khởi diệt đi, xả vững. Hình ảnh đi kèm là người khỏe duỗi tay đang co hoặc co tay đang duỗi.",
+            "Với pháp được ý nhận biết, cũng đủ ba loại phản ứng, cùng sự biết tính hữu vi, thô, duyên sinh và phẩm chất an tịnh, thù diệu của xả. Khi chúng diệt và xả an lập, sự mau lẹ được ví với người khỏe nhỏ hai hoặc ba giọt nước vào chảo sắt đã nóng suốt ngày. Giọt rơi còn chậm so với lúc nó khô hết, tiêu biến.",
+            "Phật kết rằng đó là sự tu tập các căn vô thượng trong Thánh luật. Sáu ví dụ diễn tả tâm thuần thục, không yêu cầu người đọc thực hiện các động tác ấy."
+          ]
+        },
+        {
+          "id": "still-learning",
+          "kind": "teaching",
+          "heading": "Vị hữu học còn đang thực hành",
+          "meaningUnits": [
+            "trainee"
+          ],
+          "paragraphs": [
+            "Phần thứ hai nói về người hữu học, người vẫn còn phải tu học. Khi mắt thấy, tai nghe, mũi ngửi, lưỡi nếm, thân chạm hay ý biết, cả ba loại vừa ý, trái ý hoặc pha cả hai có thể khởi.",
+            "Vị ấy thấy bức bối, hổ thẹn và ghê chán đối với những gì đã khởi. Bài kinh giữ rõ sự chưa thuần thục ấy, không đổi thành lời tả một trạng thái đã hoàn toàn bình thản. Đây cũng không phải lời khuyên tự khinh mình khi nhận ra còn phản ứng."
+          ]
+        },
+        {
+          "id": "mature-one",
+          "kind": "teaching",
+          "heading": "Hai cách đổi hướng nhận diện",
+          "meaningUnits": [
+            "noble-eye"
+          ],
+          "paragraphs": [
+            "Phần thứ ba là bậc Thánh có các căn đã tu. Khi thấy sắc và có ba loại phản ứng, vị ấy có thể, nếu muốn, an trú với tưởng không ghê tởm trước điều ghê tởm. Vị ấy cũng có thể làm theo chiều ngược: tưởng ghê tởm trước điều không ghê tởm.",
+            "Tưởng ở đây là cách tâm nhận ra đối tượng. Hai khả năng nói về sự linh hoạt của tâm tu học, không yêu cầu ta giả vờ rằng việc làm hại đã trở thành việc tốt."
+          ]
+        },
+        {
+          "id": "mature-two",
+          "kind": "teaching",
+          "heading": "Ba khả năng còn lại",
+          "meaningUnits": [
+            "noble-eye"
+          ],
+          "paragraphs": [
+            "Nếu muốn, vị ấy nhận ra không ghê tởm trước cả điều ghê và không ghê. Nếu muốn theo chiều khác, vị ấy nhận ra ghê tởm trước cả điều không ghê và ghê.",
+            "Khả năng thứ năm là tránh cả hai, an trú xả, có niệm và tỉnh giác: ghi nhận và biết rõ điều đang diễn ra. Với mỗi lựa chọn, kinh nói người đã tu có thể làm đúng điều mình muốn, không chỉ mong mà chưa làm được."
+          ]
+        },
+        {
+          "id": "all-doors",
+          "kind": "teaching",
+          "heading": "Cùng năm khả năng qua các cửa khác",
+          "meaningUnits": [
+            "noble-other"
+          ],
+          "paragraphs": [
+            "Khi tai nghe, mũi ngửi, lưỡi nếm, thân chạm và ý biết, ba loại vừa ý, trái ý và pha cả hai vẫn được nêu. Ở từng cửa, bậc ấy có đủ năm khả năng như khi mắt thấy.",
+            "Đó là không ghê trong điều ghê; ghê trong điều không ghê; không ghê với cả hai; ghê với cả hai; rồi tránh cả hai để trú xả, có niệm và tỉnh giác. Phật xác nhận đây là bậc Thánh với các căn đã tu tập."
+          ]
+        },
+        {
+          "id": "closing",
+          "kind": "teaching",
+          "heading": "Phần việc của người thầy và người học",
+          "meaningUnits": [
+            "closing"
+          ],
+          "paragraphs": [
+            "Phật nhắc đã dạy ba phần: sự tu các căn vô thượng, vị hữu học đang tu và bậc Thánh đã tu các căn. Ngài nói vì lòng thương và mong lợi ích cho đệ tử, Ngài đã làm việc một bậc thầy cần làm.",
+            "Chỉ những gốc cây và nhà trống, Ngài khuyên các vị tu thiền, đừng phóng dật để sau này hối tiếc. Ānanda hoan hỷ tán đồng lời dạy. Người kể không thuật thêm Uttara quy y hay chứng quả."
+          ]
+        },
+        {
+          "id": "indexes",
+          "kind": "teaching",
+          "heading": "Những dòng kết và các tên trong mục lục",
+          "meaningUnits": [
+            "colophons",
+            "texts-summary",
+            "collections-summary"
+          ],
+          "paragraphs": [
+            "Ấn bản ghi kinh này kết thúc, là bài thứ mười; Phẩm Sáu Xứ kết thúc, là phẩm thứ năm. Kệ mục lục sau đó nhắc Anāthapiṇḍika, Channa, Puṇṇa, Nandaka, Rāhula, Chachakka, Saḷāyatanika, Nagaravindeyya, Suddhika và Indriyabhāvanā. Kệ gọi đây là phẩm giáo giới thứ năm.",
+            "Kệ tiếp theo nêu năm phẩm Devadaha, Anupada, Suññata, Vibhaṅga và Saḷāyatana trong phần Năm Mươi Sau. Các dòng cuối khép phần Năm Mươi Sau và toàn Trung Bộ gồm ba phần năm mươi. Đây là mục lục cùng tên gọi truyền thống của các phần, không phải lời giảng thêm hay phép đếm Trung Bộ thành 150 bài."
+          ]
+        },
+        {
+          "id": "meaning",
+          "kind": "clarification",
+          "heading": "Đọc xả như một khả năng tỉnh táo",
+          "meaningUnits": [
+            "eye",
+            "trainee",
+            "noble-eye"
+          ],
+          "paragraphs": [
+            "Bản diễn giải dùng xả để nói tâm thăng bằng, vẫn có khả năng biết rõ. Không cần hiểu đó là thờ ơ trước người thân hoặc bỏ qua tổn hại. Các cách đổi tưởng của bậc đã tu cũng không xóa sự phân biệt thiện ác. Giữ giới hạn này giúp đọc phần mô tả thành tựu mà không áp máy móc vào mọi tình huống."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ: nghe một góp ý từ người trẻ",
+          "meaningUnits": [
+            "ear",
+            "mind"
+          ],
+          "paragraphs": [
+            "Một người trẻ góp ý cách tổ chức cuộc họp gia đình. Ta có thể vui vì họ quan tâm nhưng không vui vì cách cũ của mình bị sửa. Nhận ra cả hai giúp ta nghe lại đề nghị và quyết định bình tĩnh hơn. Đây là tình huống minh họa của người biên tập, không phải câu chuyện hay thành tựu được xác nhận trong kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một lần quan sát vừa sức",
+          "meaningUnits": [
+            "eye",
+            "ear",
+            "mind"
+          ],
+          "paragraphs": [
+            "Có thể chọn một phản ứng nhẹ trong ngày, nhận ra nó là vừa ý, trái ý hay pha cả hai, rồi xem điều kiện nào mình thực biết đã góp vào phản ứng ấy. Cho mình thời gian hiểu và chọn cách đáp. Gợi ý này không hứa các phản ứng sẽ hết ngay, cũng không thay việc tu thiền mà bài kinh dạy."
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn119",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "919851d7-9b87-43e3-b176-bc32cbfdba25"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "c8cc80f4-b5c6-4b2f-a62e-35d5441e1422"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "50e2eccb-a5c2-426f-a000-17d07dca6f83"
+    }
+  },
+  "reviews": [
+    {
+      "id": "919851d7-9b87-43e3-b176-bc32cbfdba25",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.6,
+        "audience_fit": 9.2,
+        "clarity": 9.2,
+        "editorial_separation": 10,
+        "practical_integrity": 9.6,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Đã đối chiếu đủ năm nguồn; bản trẻ giữ 31 phần thân, chín cảnh tử thi, hồ không có cửa nước chảy vào và người lái xe cầm cương tay trái, roi tay phải; màng treo ruột đã sửa đúng 7.2.",
+        "semantic_fidelity": "Phân biệt hơi dài/ngắn với việc tập biết toàn thân; giữ hai chỗ Māra có hoặc không có được và điều kiện có đủ cơ sở mới có khả năng trực chứng, không biến thành lời hứa thần thông tức thì.",
+        "core_coverage": "Cả 48 đơn vị có nội dung thực: đủ 18 cách niệm thân, bốn thiền, ba ví dụ có và ba ví dụ không, ba ví dụ về khả năng trực chứng, tám điều kiện cùng mười lợi ích.",
+        "logic_context": "Mục chuỗi chung áp dụng rõ ba nỗ lực, việc bỏ hồi ức và suy tư gia đình, rồi bốn mặt an trú của tâm cho từng cách; mục lợi ích đầu giữ hai vế cuối chỉ nói sự không vui.",
+        "terminology": "Các từ thiền, hỷ, lạc và lậu hoặc được mở theo ngữ cảnh; danh sách 31 phần và 16 trạng thái tâm vẫn có nhiều từ mới, dù cách gọi đã cụ thể và nhất quán.",
+        "audience_fit": "Chiếc cốc trước giờ ra chơi và việc lấy bút gần với sinh hoạt trẻ; các cảnh tử thi được kể gọn, không thêm chi tiết gây sốc, nhưng chiều dài và lượng danh mục vẫn cần đọc chậm.",
+        "clarity": "Các tiêu đề chia nhỏ đường đi từ thân đến thiền rồi lợi ích; câu chuyển giúp theo được mạch, song 31 phần thân và các trạng thái tâm liên tiếp vẫn là đoạn khó đối với trẻ mới đọc.",
+        "editorial_separation": "Ví dụ chiếc cốc và bài tập ba việc nằm riêng dưới loại example/practice; các hình ảnh túi hạt, hồ nước, sen và xe được nhận rõ là ví dụ của bài kinh.",
+        "practical_integrity": "Gợi ý chỉ biết tư thế, hơi thở tự nhiên và động tác tay; không yêu cầu trẻ quán tử thi, nhịn đau hay tự tạo trạng thái đặc biệt, và không đồng nhất bài tập ngắn với mười thành quả.",
+        "technical_integrity": "Audit độc lập sạch; 28 mục và 48 đoạn hợp lệ, tham chiếu đủ bản đồ 48 ý/190 khóa; fingerprint cuối cùng và năm SHA nguồn khớp bản đã đọc lại."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập trọn năm nguồn đã ghim, toàn 48 đơn vị nghĩa và bản dành cho đối tượng này; đọc lại trọn parts và body-parts sau chỉnh màng treo ruột. Không có thử nghiệm với độc giả thật.",
+      "contentHash": "8a958a97e890d40b975e159088961783e3210e2327f5e7c4dfe3a4e2db6917f6",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn119.html",
+          "sha256": "063ba4293abda625af1295a69533950dfcd79c75bcd7c2c4341760e0aaad8400"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn119_root-pli-ms.json",
+          "sha256": "b57486db7d174efc91b6876ac72177493c292abbee27938cc26d9510cb10342f"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json",
+          "sha256": "6b1ababe76ead47987abeceddf8c2925a761172b6fa02c693988c34e2accf5fa"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn119_comment-vi-project.json",
+          "sha256": "eaf936d89bcd686eab7c9eef24b987b13442f346602a8f2039fa446a7d7275d4"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn119_translation-vi-project.json",
+          "sha256": "44e2fc00f5e80d611c17149f53108819e3f643b9178b352df94afb77d41c9a02"
+        }
+      ]
+    },
+    {
+      "id": "c8cc80f4-b5c6-4b2f-a62e-35d5441e1422",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.7,
+        "audience_fit": 9.5,
+        "clarity": 9.5,
+        "editorial_separation": 10,
+        "practical_integrity": 9.7,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Giữ đủ các chi tiết dễ bị lược hoặc đảo: thân 31 phần gồm thức ăn chưa tiêu, hồ không cửa nước vào và không mưa đều, cương tay trái/roi tay phải; sửa màng treo ruột theo nguồn đã ghim.",
+        "semantic_fidelity": "Diễn giải rõ sự chuyên cần, buông hồi ức và suy tư, rồi tâm an trú và định; bốn thiền giữ khác biệt giữa hỷ, lạc, xả và niệm, còn tâm giải thoát và tuệ giải thoát đều hiện diện ở đích cuối.",
+        "core_coverage": "22 mục vẫn triển khai thực chất toàn bộ 48 ý: 18 phương pháp, đầy đủ các ví dụ Māra và trực chứng, tám điều kiện tu tập, mười lợi ích kể cả 16 trạng thái tâm và lậu tận.",
+        "logic_context": "Các nhánh có/không được giữ cân xứng, mỗi câu trả lời nối đúng ví dụ; khả năng thắng trí phụ thuộc cơ sở đầy đủ, còn lợi ích được nêu sau điều kiện niệm thân được tu tập bền bỉ.",
+        "terminology": "Giải nghĩa tỉnh giác, thắng trí và lậu hoặc đủ để người mới đọc theo; các tên thành tựu sâu được giữ thay vì biến thành thuật ngữ quản lý sự chú ý trong công việc.",
+        "audience_fit": "Ví dụ cuộc họp, tin nhắn và chuyển việc gắn được tỉnh giác với nhịp sống trưởng thành; giọng trực tiếp, không lên lớp, dù phần liệt kê tu học dài vẫn đòi hỏi tập trung.",
+        "clarity": "Nhóm các mục thân, thiền, ví dụ và lợi ích tạo trình tự dễ nhận; việc gộp một số công thức tránh lặp máy móc mà vẫn nói rõ phạm vi, nhưng các danh sách dày chưa thể đọc lướt.",
+        "editorial_separation": "Tình huống đa nhiệm và gợi ý chuyển tư thế được ghi riêng là ví dụ/thực hành; không đặt chi tiết văn phòng vào lời Phật hay nhập ví dụ cổ với diễn giải hiện đại.",
+        "practical_integrity": "Bài tập nhận tư thế và hơi tự nhiên được giới hạn là bước làm quen; không dùng các lợi ích siêu thường hoặc sức chịu đau để hứa kết quả hay thúc ép việc thực hành.",
+        "technical_integrity": "Audit độc lập xác nhận 22 mục/40 đoạn, đủ liên kết ý và khóa Pāli; schema, nguồn và fingerprint sau sửa đều hợp lệ, không có lỗi kỹ thuật còn lại trong phạm vi audit."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập trọn năm nguồn đã ghim, toàn 48 đơn vị nghĩa và bản dành cho đối tượng này; đọc lại trọn parts và body-parts sau chỉnh màng treo ruột. Không có thử nghiệm với độc giả thật.",
+      "contentHash": "bafd7174a1f8bfdae9a8baa500adbe6b24b80221fbfb4814332ff51e4325c001",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn119.html",
+          "sha256": "063ba4293abda625af1295a69533950dfcd79c75bcd7c2c4341760e0aaad8400"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn119_root-pli-ms.json",
+          "sha256": "b57486db7d174efc91b6876ac72177493c292abbee27938cc26d9510cb10342f"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json",
+          "sha256": "6b1ababe76ead47987abeceddf8c2925a761172b6fa02c693988c34e2accf5fa"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn119_comment-vi-project.json",
+          "sha256": "eaf936d89bcd686eab7c9eef24b987b13442f346602a8f2039fa446a7d7275d4"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn119_translation-vi-project.json",
+          "sha256": "44e2fc00f5e80d611c17149f53108819e3f643b9178b352df94afb77d41c9a02"
+        }
+      ]
+    },
+    {
+      "id": "50e2eccb-a5c2-426f-a000-17d07dca6f83",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.7,
+        "audience_fit": 9.6,
+        "clarity": 9.4,
+        "editorial_separation": 10,
+        "practical_integrity": 9.7,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Bản lớn tuổi giữ chín cảnh thân hoại, 13 loại xương rời, bốn ví dụ thiền, ba phép ví có/không và điều kiện mười lợi ích; màng treo ruột đã được mở đúng mà không thêm não vào danh sách 31.",
+        "semantic_fidelity": "Không làm mờ hướng giải thoát: thân được quan sát, tâm được rèn, lậu hoặc cạn và cả tâm lẫn tuệ giải thoát ngay hiện tại; sống an vui hay chịu đau không bị trình bày như mục đích cuối.",
+        "core_coverage": "32 mục bao hết 48 ý/190 khóa, kể cả công thức dùng cho 18 cách, phạm vi đại dương bao các dòng sông, sáu ví dụ về Māra và đủ mười lợi ích theo đúng thứ tự.",
+        "logic_context": "Ba câu đáp có và ba câu đáp không được tách rõ; trước thắng trí luôn có hướng tâm cùng cơ sở đủ, trước mười lợi ích có tám điều kiện, và câu cuối chỉ ghi tỳ-kheo tán đồng.",
+        "terminology": "Các lời giải niệm, tỉnh giác, thắng trí và lậu hoặc giúp đọc liền mạch; những tên cõi và thành tựu sâu vẫn giữ sắc thái kinh, với số thuật ngữ ở phần 16 tâm cần đọc lại.",
+        "audience_fit": "Ví dụ tưới cây, lấy chén và tư thế ngồi thuận tiện gần gũi mà không mặc định mọi người lớn tuổi yếu hay đau; 32 mục ngắn tạo nhiều điểm dừng tự nhiên.",
+        "clarity": "Bản chia riêng nhiều lợi ích nên dễ tìm lại, câu phần lớn ngắn; các danh mục bộ phận, xương và tâm vẫn dày, khiến đoạn giữa bài cần thời gian dù cấu trúc đã rõ.",
+        "editorial_separation": "Chăm cây và gợi ý nhận động tác lấy chén được tách khỏi phần giảng; tên loại mục và cách giới thiệu phân biệt lời diễn giải, hình ảnh trong kinh và thực hành mới.",
+        "practical_integrity": "Gợi ý bắt đầu ở tư thế thuận tiện và hơi thở tự nhiên, phù hợp khả năng khác nhau; phần sức chịu đau đặt trong thành quả tu lâu bền, không biến thành lời khuyên bỏ chăm sóc thân.",
+        "technical_integrity": "Audit đọc riêng sạch, 32 mục/56 đoạn có liên kết hợp lệ; cả 48 ý được phủ, năm nguồn không đổi, fingerprint chốt đúng bản đã đọc lại toàn parts và body-parts."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập trọn năm nguồn đã ghim, toàn 48 đơn vị nghĩa và bản dành cho đối tượng này; đọc lại trọn parts và body-parts sau chỉnh màng treo ruột. Không có thử nghiệm với độc giả thật.",
+      "contentHash": "ea44c181b3b6573196b72baf19c5f570c1334c0dba64450a8e1e2ca8ae0804cc",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn119.html",
+          "sha256": "063ba4293abda625af1295a69533950dfcd79c75bcd7c2c4341760e0aaad8400"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn119_root-pli-ms.json",
+          "sha256": "b57486db7d174efc91b6876ac72177493c292abbee27938cc26d9510cb10342f"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json",
+          "sha256": "6b1ababe76ead47987abeceddf8c2925a761172b6fa02c693988c34e2accf5fa"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn119_comment-vi-project.json",
+          "sha256": "eaf936d89bcd686eab7c9eef24b987b13442f346602a8f2039fa446a7d7275d4"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn119_translation-vi-project.json",
+          "sha256": "44e2fc00f5e80d611c17149f53108819e3f643b9178b352df94afb77d41c9a02"
+        }
+      ]
+    }
+  ]
+}

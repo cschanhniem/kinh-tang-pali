@@ -1,0 +1,1455 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn136",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn136_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "0d8310e1165278d98c2f495a061c476ccbf7709b0e02ccfcca3acdb982c1ec94"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn136_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "016997de046c4f11e173ba22aefdedeb06b6183436d7169aa4a9e0bd10f850d2"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn136_translation-vi-project.json",
+      "commit": "65eb7cebf4888967bb7e85aabf01fa29b7534cd6",
+      "sha256": "89cd64628e1dbc34d3bfa49abbb9f57fc3617553394f2db4d05fa715b80b6e34"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn136.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "dd953de5779cf3a2d8b1033289b29cd8dfec123118d06282f82b3c7a438c6d38"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn136_comment-vi-project.json",
+      "commit": "65eb7cebf4888967bb7e85aabf01fa29b7534cd6",
+      "sha256": "e4b10ef25f3d6558072d37bace626705c2f6ffd3be8892aba1ddb965fee410d1"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Đại Kinh Phân Biệt Nghiệp",
+      "segments": [
+        "mn136:0.1",
+        "mn136:0.2"
+      ],
+      "summary": "Nhan đề Trung Bộ 136, bài phân tích lớn về nghiệp; nghiệp được mở nghĩa hành động có chủ ý trong mạch sau."
+    },
+    {
+      "id": "setting",
+      "title": "Lời đã nghe ở Trúc Lâm",
+      "segments": [
+        "mn136:1.1",
+        "mn136:1.2"
+      ],
+      "summary": "Người truyền kể đã nghe; Phật ở gần Rājagaha, Trúc Lâm, khu nuôi sóc."
+    },
+    {
+      "id": "visit",
+      "title": "Potaliputta thăm Samiddhi",
+      "segments": [
+        "mn136:2.1",
+        "mn136:2.2",
+        "mn136:2.3"
+      ],
+      "summary": "Samiddhi ở túp lều hoang vắng; du sĩ đi dạo tới, chào hỏi thân hữu rồi ngồi bên."
+    },
+    {
+      "id": "reported-words",
+      "title": "Hai điều được nhận là đã nghe",
+      "segments": [
+        "mn136:2.4",
+        "mn136:2.5",
+        "mn136:2.6"
+      ],
+      "summary": "Potaliputta tự nhận đã nghe và tiếp nhận trực tiếp Gotama: thân/khẩu nghiệp hư vọng chỉ ý thật; có chứng định không cảm gì. Đây là lời ông nhận, không lời Phật được xác thực; 2.6 dạng hỏi trong root."
+    },
+    {
+      "id": "samiddhi-distinguishes",
+      "title": "Bác một điều, nhận một điều",
+      "segments": [
+        "mn136:2.7",
+        "mn136:2.8",
+        "mn136:2.9"
+      ],
+      "summary": "Samiddhi hai lần chớ nói vậy, đừng xuyên tạc Phật vì không tốt; Phật không thể nói thân/khẩu hư vọng chỉ ý thật. Xác nhận có chứng định không cảm gì, không thêm tên tầng định."
+    },
+    {
+      "id": "three-years",
+      "title": "Ba năm xuất gia",
+      "segments": [
+        "mn136:2.10",
+        "mn136:2.11",
+        "mn136:2.12"
+      ],
+      "summary": "Hỏi thời gian, Samiddhi đáp chưa lâu ba năm; Potaliputta hỏi còn nói gì với trưởng lão khi vị mới cho cần bảo vệ Thầy."
+    },
+    {
+      "id": "one-answer",
+      "title": "Câu trả lời chỉ có khổ",
+      "segments": [
+        "mn136:2.13",
+        "mn136:2.14"
+      ],
+      "summary": "Potaliputta hỏi người làm nghiệp có tác ý bằng thân/lời/ý cảm gì; Samiddhi đáp khổ. Câu này về sau bị Phật sửa, không trình như giáo huấn cuối."
+    },
+    {
+      "id": "departure",
+      "title": "Không tán đồng cũng không bác bỏ",
+      "segments": [
+        "mn136:2.15",
+        "mn136:2.16"
+      ],
+      "summary": "Potaliputta không tán đồng/không bác, rồi đứng dậy rời đi; không gán động cơ hay thắng thua."
+    },
+    {
+      "id": "report-ananda",
+      "title": "Kể lại toàn cuộc nói chuyện",
+      "segments": [
+        "mn136:3.1",
+        "mn136:3.2",
+        "mn136:3.3",
+        "mn136:3.4"
+      ],
+      "summary": "Không lâu sau, Samiddhi tới Ānanda, chào thân hữu/ngồi bên/kể trọn. Ānanda đáp."
+    },
+    {
+      "id": "seek-teacher",
+      "title": "Cùng đến hỏi Phật",
+      "segments": [
+        "mn136:3.5",
+        "mn136:3.6",
+        "mn136:3.7",
+        "mn136:3.8"
+      ],
+      "summary": "Ānanda cho đây là đề tài cần đến Phật, rủ đi/bạch rõ, ghi nhớ đúng câu trả lời; Samiddhi đồng ý."
+    },
+    {
+      "id": "report-buddha",
+      "title": "Ānanda trình toàn bộ",
+      "segments": [
+        "mn136:4.1",
+        "mn136:4.2"
+      ],
+      "summary": "Hai vị tới/đảnh lễ/ngồi bên; Ānanda kể toàn cuộc Samiddhi–Potaliputta, không đổi người báo."
+    },
+    {
+      "id": "first-rebuke",
+      "title": "Cần phân tích trước khi đáp",
+      "segments": [
+        "mn136:5.1",
+        "mn136:5.2",
+        "mn136:5.3"
+      ],
+      "summary": "Phật nói với Ānanda không nhớ từng thấy Potaliputta, nói gì cuộc đối thoại ấy; quở Samiddhi rỗng tuếch vì đáp tuyệt đối câu cần phân tích. Không đổi không nhớ thành khẳng định chưa từng gặp."
+    },
+    {
+      "id": "udayi",
+      "title": "Một lời giải thích bị bác",
+      "segments": [
+        "mn136:6.1",
+        "mn136:6.2",
+        "mn136:6.3",
+        "mn136:6.4",
+        "mn136:6.5",
+        "mn136:6.6",
+        "mn136:6.7"
+      ],
+      "summary": "Udāyī nêu giả thiết Samiddhi nói với ý mọi điều được cảm nhận thuộc khổ; Phật gọi Ānanda, quở Udāyī lạc hướng và đã biết vừa nổi lên sẽ không như lý. Không gán giả thiết Udāyī thành dụng ý thật của Samiddhi."
+    },
+    {
+      "id": "three-feelings",
+      "title": "Ba thọ và câu trả lời đúng",
+      "segments": [
+        "mn136:6.8",
+        "mn136:6.9",
+        "mn136:6.10",
+        "mn136:6.11",
+        "mn136:6.12",
+        "mn136:6.13"
+      ],
+      "summary": "Phật xác định từ đầu hỏi ba thọ; nếu Samiddhi đáp từng nghiệp cố ý bằng thân/lời/ý sẽ được cảm là lạc/khổ/trung tính thì cảm tương ứng, đó mới đúng. Đủ cả ba phương diện ở từng nhánh."
+    },
+    {
+      "id": "offer",
+      "title": "Phật đề nghị phân tích lớn",
+      "segments": [
+        "mn136:6.14",
+        "mn136:6.15"
+      ],
+      "summary": "Phật nhận định các du sĩ ngoại đạo ngu si/vụng về không hiểu Đại Phân Biệt Nghiệp của Như Lai; nếu các thầy nghe, Ngài sẽ giải. Giữ là lời trong cuộc đối thoại, không thành phán xét mọi người theo tôn giáo khác."
+    },
+    {
+      "id": "invitation",
+      "title": "Xin nghe và ghi nhớ",
+      "segments": [
+        "mn136:7.1",
+        "mn136:7.2",
+        "mn136:7.3",
+        "mn136:7.4",
+        "mn136:7.5"
+      ],
+      "summary": "Ānanda hai lần đúng lúc với hai tôn xưng, xin giảng để tỳ-kheo nghe/nhớ. Phật dặn nghe/chú tâm kỹ, Ānanda vâng; Phật giảng."
+    },
+    {
+      "id": "four-persons",
+      "title": "Bốn trường hợp thật có",
+      "segments": [
+        "mn136:8.1",
+        "mn136:8.2"
+      ],
+      "summary": "Phật nói bốn loại người có mặt ở đời, hỏi bốn nào."
+    },
+    {
+      "id": "bad-bad",
+      "title": "Mười ác rồi sinh địa ngục",
+      "segments": [
+        "mn136:8.3",
+        "mn136:8.4"
+      ],
+      "summary": "Đủ sát sinh/trộm/tà dâm/nói dối/chia rẽ/thô ác/phù phiếm/tham/hại/tà kiến; thân hoại chết tái sinh cảnh mất mát/xấu/đọa/địa ngục."
+    },
+    {
+      "id": "bad-good",
+      "title": "Mười ác rồi sinh cõi trời",
+      "segments": [
+        "mn136:8.5",
+        "mn136:8.6"
+      ],
+      "summary": "Một người khác đủ cùng mười ác, thân hoại chết sinh cảnh lành/cõi trời; không nói nhờ ác mà sinh trời."
+    },
+    {
+      "id": "good-good",
+      "title": "Mười thiện rồi sinh cõi trời",
+      "segments": [
+        "mn136:8.7",
+        "mn136:8.8"
+      ],
+      "summary": "Đủ bảy từ bỏ hành vi sát/trộm/tà dâm/dối/chia rẽ/thô/phù phiếm, không tham/không hại/chánh kiến; thân hoại chết sinh cảnh lành/cõi trời."
+    },
+    {
+      "id": "good-bad",
+      "title": "Mười thiện rồi sinh địa ngục",
+      "segments": [
+        "mn136:8.9",
+        "mn136:8.10"
+      ],
+      "summary": "Người khác đủ cùng mười thiện, thân hoại chết sinh cảnh mất mát/xấu/đọa/địa ngục; không nói chính thiện gây khổ."
+    },
+    {
+      "id": "observer-one",
+      "title": "Người thấy trường hợp đầu",
+      "segments": [
+        "mn136:9.1",
+        "mn136:9.2"
+      ],
+      "summary": "Sa-môn hoặc bà-la-môn nhờ năm nền nhiệt tâm/tinh cần/chuyên tu/không lơ là/khéo tác ý đạt tâm định; thiên nhãn thanh tịnh vượt mắt người thấy đủ mười ác rồi địa ngục."
+    },
+    {
+      "id": "claim-one",
+      "title": "Nhận có ác nghiệp",
+      "segments": [
+        "mn136:9.3",
+        "mn136:9.4",
+        "mn136:9.5"
+      ],
+      "summary": "Người thấy nói có ác nghiệp/có quả ác hạnh, thuật bản thân thấy người làm đủ mười ác chết sinh địa ngục."
+    },
+    {
+      "id": "generalization-one",
+      "title": "Từ một trường hợp sang tất cả",
+      "segments": [
+        "mn136:9.6",
+        "mn136:9.7",
+        "mn136:9.8",
+        "mn136:9.9"
+      ],
+      "summary": "Người thấy kết mọi người mười ác đều chết sinh địa ngục; ai hiểu thế đúng/người hiểu khác sai; bám mạnh điều tự biết/thấy/hiểu tuyên chỉ đây thật còn lại hư vọng."
+    },
+    {
+      "id": "observer-two",
+      "title": "Người thấy trường hợp thứ hai",
+      "segments": [
+        "mn136:10.1",
+        "mn136:10.2"
+      ],
+      "summary": "Sa-môn/bà-la-môn cùng đủ năm nền/tâm định/thiên nhãn thanh tịnh siêu nhân, thấy người mười ác chết sinh cõi trời."
+    },
+    {
+      "id": "claim-two",
+      "title": "Phủ nhận ác nghiệp",
+      "segments": [
+        "mn136:10.3",
+        "mn136:10.4",
+        "mn136:10.5"
+      ],
+      "summary": "Người thấy kết không có ác nghiệp/không quả ác hạnh, dẫn điều bản thân thấy người mười ác chết sinh trời."
+    },
+    {
+      "id": "generalization-two",
+      "title": "Khái quát ác luôn sinh trời",
+      "segments": [
+        "mn136:10.6",
+        "mn136:10.7",
+        "mn136:10.8",
+        "mn136:10.9"
+      ],
+      "summary": "Kết mọi người mười ác chết đều sinh trời; cùng hai lời đúng/sai và chấp chỉ tự biết/thấy/hiểu là chân thật duy nhất."
+    },
+    {
+      "id": "observer-three",
+      "title": "Người thấy trường hợp thứ ba",
+      "segments": [
+        "mn136:11.1",
+        "mn136:11.2"
+      ],
+      "summary": "Sa-môn/bà-la-môn đủ năm nền/tâm định/thiên nhãn thanh tịnh siêu nhân, thấy người đủ mười thiện chết sinh trời; Anh lược nhưng P/VI đủ nền."
+    },
+    {
+      "id": "claim-three",
+      "title": "Nhận có thiện nghiệp",
+      "segments": [
+        "mn136:11.3",
+        "mn136:11.4",
+        "mn136:11.5"
+      ],
+      "summary": "Kết có thiện nghiệp/có quả thiện hạnh; kể điều tự thấy người đủ mười thiện chết sinh trời."
+    },
+    {
+      "id": "generalization-three",
+      "title": "Khái quát thiện luôn sinh trời",
+      "segments": [
+        "mn136:11.6",
+        "mn136:11.7",
+        "mn136:11.8",
+        "mn136:11.9"
+      ],
+      "summary": "Kết mọi người mười thiện chết đều sinh trời; hai lời đúng/sai và chấp tự biết/thấy/hiểu thành chỉ đây thật đều đủ."
+    },
+    {
+      "id": "observer-four",
+      "title": "Người thấy trường hợp thứ tư",
+      "segments": [
+        "mn136:12.1"
+      ],
+      "summary": "Sa-môn/bà-la-môn đủ năm nền/tâm định/thiên nhãn thanh tịnh siêu nhân, thấy người đủ mười thiện chết sinh địa ngục."
+    },
+    {
+      "id": "claim-four",
+      "title": "Phủ nhận thiện nghiệp",
+      "segments": [
+        "mn136:12.2",
+        "mn136:12.3",
+        "mn136:12.4"
+      ],
+      "summary": "Kết không có thiện nghiệp/không quả thiện hạnh, dẫn người đủ mười thiện chết sinh địa ngục mình đã thấy."
+    },
+    {
+      "id": "generalization-four",
+      "title": "Khái quát thiện luôn sinh địa ngục",
+      "segments": [
+        "mn136:12.5",
+        "mn136:12.6",
+        "mn136:12.7"
+      ],
+      "summary": "Kết mọi người mười thiện chết đều sinh địa ngục; hai lời đúng/sai và chấp tự biết/thấy/hiểu thành chân thật duy nhất."
+    },
+    {
+      "id": "assessment-one",
+      "title": "Phật phân biệt lời người thứ nhất",
+      "segments": [
+        "mn136:13.1",
+        "mn136:13.2",
+        "mn136:13.3",
+        "mn136:13.4",
+        "mn136:13.5",
+        "mn136:13.6",
+        "mn136:13.7",
+        "mn136:13.8",
+        "mn136:13.9",
+        "mn136:13.10",
+        "mn136:13.11"
+      ],
+      "summary": "Chấp nhận có ác nghiệp/quả ác và điều thấy cụ thể; không nhận mọi ác đều sinh địa ngục, đúng/sai độc quyền, cố chấp chỉ đây thật. Lý do trí Như Lai về đại phân biệt nghiệp khác."
+    },
+    {
+      "id": "assessment-two",
+      "title": "Phật phân biệt lời người thứ hai",
+      "segments": [
+        "mn136:14.1",
+        "mn136:14.2",
+        "mn136:14.3",
+        "mn136:14.4",
+        "mn136:14.5",
+        "mn136:14.6",
+        "mn136:14.7",
+        "mn136:14.8",
+        "mn136:14.9",
+        "mn136:14.10",
+        "mn136:14.11"
+      ],
+      "summary": "Không nhận không ác nghiệp/quả ác; nhận điều thấy cụ thể ác rồi trời; không nhận mọi ác đều trời/đúng-sai độc quyền/chấp chỉ đây thật. Cùng lý do trí Như Lai khác; đủ phần 14.7–10 EN trống."
+    },
+    {
+      "id": "assessment-three",
+      "title": "Phật phân biệt lời người thứ ba",
+      "segments": [
+        "mn136:15.1",
+        "mn136:15.2",
+        "mn136:15.3",
+        "mn136:15.4",
+        "mn136:15.5",
+        "mn136:15.6",
+        "mn136:15.7",
+        "mn136:15.8",
+        "mn136:15.9",
+        "mn136:15.10",
+        "mn136:15.11"
+      ],
+      "summary": "Nhận thiện nghiệp/quả thiện và điều thấy cụ thể thiện rồi trời; không nhận mọi thiện đều trời/đúng-sai độc quyền/chấp chỉ đây thật. Cùng lý do trí Như Lai khác; đủ 15.7–10 EN trống."
+    },
+    {
+      "id": "assessment-four",
+      "title": "Phật phân biệt lời người thứ tư",
+      "segments": [
+        "mn136:16.1",
+        "mn136:16.2",
+        "mn136:16.3",
+        "mn136:16.4",
+        "mn136:16.5",
+        "mn136:16.6",
+        "mn136:16.7",
+        "mn136:16.8",
+        "mn136:16.9",
+        "mn136:16.10",
+        "mn136:16.11"
+      ],
+      "summary": "Không nhận không thiện nghiệp/quả thiện; nhận điều thấy thiện rồi địa ngục; không nhận mọi thiện đều địa ngục/đúng-sai độc quyền/chấp chỉ đây thật. Cùng lý do trí Như Lai khác."
+    },
+    {
+      "id": "cause-one",
+      "title": "Ác rồi cảnh khổ: ba điều có thể liên hệ",
+      "segments": [
+        "mn136:17.1",
+        "mn136:17.2",
+        "mn136:17.3",
+        "mn136:17.4"
+      ],
+      "summary": "Người đủ mười ác chết sinh địa ngục do ác nghiệp cảm khổ trước HOẶC sau HOẶC tà kiến hoàn toàn tiếp nhận lúc chết. Còn mười ác này cảm quả hiện đời HOẶC đời kế HOẶC thời sau nữa. Không tự định nghiệp trước chỉ đời trước."
+    },
+    {
+      "id": "cause-two",
+      "title": "Ác rồi cảnh lành: thiện nghiệp và chánh kiến",
+      "segments": [
+        "mn136:18.1",
+        "mn136:18.2",
+        "mn136:18.3",
+        "mn136:18.4"
+      ],
+      "summary": "Người đủ mười ác sinh trời do thiện nghiệp cảm lạc trước HOẶC sau HOẶC chánh kiến hoàn toàn tiếp nhận lúc chết. Còn mười ác vẫn cảm quả đủ ba thời, không nói đã được xóa."
+    },
+    {
+      "id": "cause-three",
+      "title": "Thiện rồi cảnh lành: ba khả năng",
+      "segments": [
+        "mn136:19.1",
+        "mn136:19.2",
+        "mn136:19.3",
+        "mn136:19.4"
+      ],
+      "summary": "Người đủ mười thiện sinh trời do thiện nghiệp cảm lạc trước HOẶC sau HOẶC chánh kiến hoàn toàn tiếp nhận lúc chết; mười thiện ấy cảm quả hiện đời HOẶC đời kế HOẶC thời sau nữa."
+    },
+    {
+      "id": "cause-four",
+      "title": "Thiện rồi cảnh khổ: không mất quả thiện",
+      "segments": [
+        "mn136:20.1",
+        "mn136:20.2",
+        "mn136:20.3",
+        "mn136:20.4"
+      ],
+      "summary": "Người đủ mười thiện sinh địa ngục do ác nghiệp cảm khổ trước HOẶC sau HOẶC tà kiến hoàn toàn tiếp nhận lúc chết; mười thiện ấy vẫn cảm quả đủ ba thời. Không gán mọi khổ hiện tại là chứng cứ đã làm ác."
+    },
+    {
+      "id": "effect-appearance",
+      "title": "Hiệu lực và vẻ bề ngoài",
+      "segments": [
+        "mn136:21.1"
+      ],
+      "summary": "Đủ bốn kết: nghiệp vô hiệu quả/tợ vô hiệu; vô hiệu/tợ hữu hiệu; hữu hiệu/tợ hữu hiệu; hữu hiệu/tợ vô hiệu theo VI/EN. Thuật ngữ abhabba/bhabba khó, không tự sửa dịch hay gán rằng mọi nghiệp không còn quả; đọc cùng bốn đoạn quả ba thời ngay trước."
+    },
+    {
+      "id": "ending",
+      "title": "Ānanda hoan hỷ, bài thứ sáu",
+      "segments": [
+        "mn136:21.2",
+        "mn136:21.3",
+        "mn136:21.4"
+      ],
+      "summary": "Phật giảng xong, Ānanda hoan hỷ tán đồng; Đại Kinh Phân Biệt Nghiệp kết, thứ sáu trong nhóm, không bài UID 6."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Dành cho trẻ em",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Một câu chuyện cần hỏi cho rõ",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "visit"
+          ],
+          "paragraphs": [
+            "Đại Kinh Phân Biệt Nghiệp là bài 136 của Trung Bộ. Nghiệp ở đây là hành động có chủ ý, bằng việc làm, lời nói hay ý nghĩ. Người truyền kinh kể điều đã nghe: Phật ở gần Rājagaha, tại Trúc Lâm, khu nuôi sóc.",
+            "Tôn giả Samiddhi đang ở trong một túp lều nơi hoang vắng. Du sĩ Potaliputta, một người tu đi đây đó, ghé thăm khi đi dạo. Hai người chào hỏi thân tình rồi ông ngồi một bên."
+          ]
+        },
+        {
+          "id": "reported",
+          "kind": "teaching",
+          "heading": "Có thật Phật đã nói như thế?",
+          "meaningUnits": [
+            "reported-words",
+            "samiddhi-distinguishes"
+          ],
+          "paragraphs": [
+            "Potaliputta nói mình đã trực tiếp nghe và tiếp nhận từ vị xuất gia Gotama, tức Đức Phật, rằng việc làm bằng thân và lời nói đều hư vọng, không thật; chỉ ý nghĩ mới thật. Ông còn nêu chuyện có một chứng định — trạng thái tu tập đạt được — mà người vào đó không cảm nhận gì.",
+            "Samiddhi hai lần bảo ông đừng nói như vậy, đừng gán sai lời cho Phật vì làm thế không tốt. Thầy nói Phật không thể dạy rằng việc làm và lời nói hư vọng, chỉ ý nghĩ thật. Nhưng có trạng thái chứng định mà người vào đó không cảm nhận gì: điều thứ hai này thầy xác nhận."
+          ]
+        },
+        {
+          "id": "three-years",
+          "kind": "teaching",
+          "heading": "Một câu trả lời chưa phân biệt",
+          "meaningUnits": [
+            "three-years",
+            "one-answer",
+            "departure"
+          ],
+          "paragraphs": [
+            "Ông hỏi Samiddhi đã xuất gia bao lâu. Thầy đáp: chưa lâu, ba năm. Potaliputta nói: nếu một tỳ-kheo mới — người nam xuất gia tu học — đã nghĩ phải bảo vệ Thầy mình, thì họ còn biết nói gì với các vị tu lâu?",
+            "Rồi ông hỏi: người cố ý làm một việc bằng thân, lời hoặc ý sẽ cảm nhận gì? Samiddhi đáp rằng người ấy cảm nhận khổ. Potaliputta không tán đồng, cũng không bác bỏ; ông đứng dậy ra đi."
+          ]
+        },
+        {
+          "id": "ask",
+          "kind": "teaching",
+          "heading": "Mang điều chưa rõ đến hỏi Thầy",
+          "meaningUnits": [
+            "report-ananda",
+            "seek-teacher",
+            "report-buddha"
+          ],
+          "paragraphs": [
+            "Không lâu sau, Samiddhi tìm gặp Ānanda, chào hỏi, ngồi một bên rồi kể toàn bộ cuộc nói chuyện. Ānanda cho rằng đây là việc nên trình Phật. Thầy rủ Samiddhi cùng đi, nghe Phật trả lời thế nào thì ghi nhớ như vậy. Samiddhi đồng ý.",
+            "Hai vị đến đảnh lễ Phật, tức cúi mình kính lễ, rồi ngồi một bên. Ānanda là người thuật lại đầy đủ chuyện Samiddhi và Potaliputta đã nói."
+          ]
+        },
+        {
+          "id": "correction",
+          "kind": "teaching",
+          "heading": "Câu hỏi cần được chia ra",
+          "meaningUnits": [
+            "first-rebuke",
+            "udayi"
+          ],
+          "paragraphs": [
+            "Phật nói với Ānanda rằng Ngài còn không nhớ từng thấy Potaliputta, nói gì đến cuộc đối thoại như ông ấy kể. Ngài quở Samiddhi là “người rỗng tuếch”: câu hỏi cần được phân tích mà thầy lại đáp bằng một câu áp cho mọi trường hợp.",
+            "Udāyī góp lời: có lẽ Samiddhi muốn nói rằng mọi điều được cảm nhận đều thuộc về khổ. Phật cũng quở Udāyī là “người rỗng tuếch”, vì lời góp ấy lạc hướng. Ngài nói với Ānanda rằng Ngài đã biết Udāyī vừa nêu ý thì sẽ nêu không đúng cách xét vấn đề."
+          ]
+        },
+        {
+          "id": "feelings",
+          "kind": "teaching",
+          "heading": "Ba cách cảm nhận",
+          "meaningUnits": [
+            "three-feelings"
+          ],
+          "paragraphs": [
+            "Phật giải thích: ngay từ đầu, câu hỏi nói về ba thọ, tức ba cách cảm nhận. Câu trả lời đúng phải phân biệt từng loại nghiệp.",
+            "Khi cố ý làm bằng thân, lời hoặc ý một nghiệp sẽ cho quả được cảm nhận là lạc, người ấy cảm nhận sự dễ chịu. Khi cố ý làm bằng thân, lời hoặc ý một nghiệp sẽ cho quả được cảm nhận là khổ, người ấy cảm nhận sự khó chịu. Khi cố ý làm bằng thân, lời hoặc ý một nghiệp sẽ cho quả không khổ không lạc, người ấy cảm nhận trung tính, không khó chịu cũng không dễ chịu. Trả lời đủ như vậy mới đúng câu hỏi."
+          ]
+        },
+        {
+          "id": "invitation",
+          "kind": "teaching",
+          "heading": "Cùng nghe một cách phân tích rộng hơn",
+          "meaningUnits": [
+            "offer",
+            "invitation"
+          ],
+          "paragraphs": [
+            "Phật nhận định những du sĩ ngoại đạo ngu si, vụng về đang được nói đến không hiểu Đại Phân Biệt Nghiệp của Như Lai, một danh hiệu của Phật. Ngài bảo nếu các thầy lắng nghe, Ngài sẽ giải thích.",
+            "Ānanda thưa hai lần rằng đã đúng lúc, gọi Ngài bằng hai danh hiệu Thế Tôn và Thiện Thệ. Thầy xin Phật giảng để các tỳ-kheo nghe và ghi nhớ. Phật dặn lắng nghe, chú tâm kỹ; Ānanda vâng lời."
+          ]
+        },
+        {
+          "id": "bad-paths",
+          "kind": "teaching",
+          "heading": "Bốn trường hợp: trước hết, hai người làm điều xấu",
+          "meaningUnits": [
+            "four-persons",
+            "bad-bad",
+            "bad-good"
+          ],
+          "paragraphs": [
+            "Phật nêu bốn trường hợp thật có ở đời. Hai người đầu đều làm mười điều xấu: giết sinh vật; lấy của không được cho; tà dâm, cư xử sai trong quan hệ tình dục của người lớn; nói dối; nói chia rẽ; nói thô ác; nói tán nhảm; tham muốn chiếm của người; nuôi ý hại người; và tà kiến, thấy hiểu sai.",
+            "Sau khi thân thể hư hoại và người thứ nhất qua đời, người ấy sinh vào cảnh khổ, cảnh xấu, chỗ sa đọa, địa ngục. Người thứ hai cũng làm mười điều ấy, nhưng sau khi chết lại sinh vào cảnh lành, cõi trời. Chúng ta cần nghe tiếp vì sao có hai kết quả ấy."
+          ]
+        },
+        {
+          "id": "good-paths",
+          "kind": "teaching",
+          "heading": "Hai người giữ điều lành",
+          "meaningUnits": [
+            "good-good",
+            "good-bad"
+          ],
+          "paragraphs": [
+            "Hai người tiếp theo đều từ bỏ giết sinh vật, lấy của không cho, tà dâm, nói dối, nói chia rẽ, nói thô ác và nói tán nhảm. Họ không tham chiếm, không nuôi ý hại người, có chánh kiến, thấy hiểu đúng. Đó là đủ mười mặt hành động lành đang được xét.",
+            "Người thứ ba, sau khi thân hoại và chết, sinh vào cảnh lành, cõi trời. Người thứ tư cũng giữ đủ mười điều lành ấy, nhưng sau khi chết lại sinh vào cảnh khổ, cảnh xấu, chỗ sa đọa, địa ngục."
+          ]
+        },
+        {
+          "id": "observers",
+          "kind": "teaching",
+          "heading": "Thấy được một việc vẫn cần hiểu cho đúng",
+          "meaningUnits": [
+            "observer-one",
+            "observer-two",
+            "observer-three",
+            "observer-four"
+          ],
+          "paragraphs": [
+            "Phật kể bốn trường hợp người quan sát. Mỗi người là sa-môn, người xuất gia, hoặc bà-la-môn, người tu theo một truyền thống tôn giáo Ấn Độ thời ấy. Nhờ tha thiết, cố gắng, chuyên tâm tu, không lơ là và hướng tâm đúng, họ đạt định, sự tập trung vững của tâm.",
+            "Với tâm đã định, họ dùng thiên nhãn thanh tịnh, khả năng thấy vượt mắt người thường. Người quan sát thứ nhất thấy người làm mười điều xấu rồi sinh địa ngục; người thứ hai thấy người làm mười điều xấu rồi sinh trời; người thứ ba thấy người giữ mười điều lành rồi sinh trời; người thứ tư thấy người giữ mười điều lành rồi sinh địa ngục."
+          ]
+        },
+        {
+          "id": "view-one",
+          "kind": "teaching",
+          "heading": "Một điều đã thấy thành lời nói về tất cả",
+          "meaningUnits": [
+            "claim-one",
+            "generalization-one"
+          ],
+          "paragraphs": [
+            "Người quan sát thứ nhất nói có nghiệp xấu, có quả của hành động xấu, vì chính mình đã thấy trường hợp làm mười điều xấu rồi sinh địa ngục. Nhưng người ấy đi xa hơn: ai làm mười điều xấu cũng đều sinh địa ngục sau khi chết.",
+            "Người ấy cho rằng ai hiểu như mình mới đúng, ai hiểu khác đều sai. Nắm chặt điều mình tự biết, tự thấy, tự hiểu, người ấy quả quyết chỉ điều này thật, ngoài ra đều hư vọng."
+          ]
+        },
+        {
+          "id": "view-two",
+          "kind": "teaching",
+          "heading": "Thấy khác đi rồi phủ nhận nghiệp xấu",
+          "meaningUnits": [
+            "claim-two",
+            "generalization-two"
+          ],
+          "paragraphs": [
+            "Người quan sát thứ hai thấy một người làm mười điều xấu rồi sinh trời. Từ đó, người ấy nói không có nghiệp xấu, không có quả của hành động xấu; rồi kết luận tất cả ai làm mười điều xấu cũng sinh trời sau khi chết.",
+            "Người ấy cũng bảo hiểu như mình là đúng, hiểu khác là sai. Điều tự biết, thấy và hiểu bị nắm chặt thành sự thật duy nhất; ngoài ra đều bị cho là hư vọng."
+          ]
+        },
+        {
+          "id": "view-three",
+          "kind": "teaching",
+          "heading": "Nhìn việc lành cũng có thể kết luận vội",
+          "meaningUnits": [
+            "claim-three",
+            "generalization-three"
+          ],
+          "paragraphs": [
+            "Người quan sát thứ ba nói có nghiệp lành, có quả của hành động lành, vì mình đã thấy người giữ mười điều lành rồi sinh trời. Nhưng người ấy kết thêm rằng mọi người giữ mười điều lành đều sinh trời sau khi chết.",
+            "Người ấy cho hiểu như vậy là đúng, hiểu khác là sai; bám chặt điều tự biết, tự thấy, tự hiểu, rồi nói chỉ đây là thật, ngoài ra hư vọng."
+          ]
+        },
+        {
+          "id": "view-four",
+          "kind": "teaching",
+          "heading": "Một cảnh khổ không xóa mất việc lành",
+          "meaningUnits": [
+            "claim-four",
+            "generalization-four"
+          ],
+          "paragraphs": [
+            "Người quan sát thứ tư thấy người giữ mười điều lành rồi sinh địa ngục. Người ấy nói không có nghiệp lành, không có quả của hành động lành; tất cả người giữ mười điều lành đều sinh địa ngục sau khi chết.",
+            "Người ấy cũng cho ai hiểu như mình mới đúng, ai hiểu khác đều sai. Nắm chắc điều tự biết, tự thấy, tự hiểu, người ấy tuyên bố chỉ điều này thật, ngoài ra đều hư vọng."
+          ]
+        },
+        {
+          "id": "judge-one",
+          "kind": "teaching",
+          "heading": "Phật xét lời thứ nhất",
+          "meaningUnits": [
+            "assessment-one"
+          ],
+          "paragraphs": [
+            "Phật nhận hai phần: có nghiệp xấu và quả của việc xấu; người quan sát đã thấy đúng trường hợp riêng làm xấu rồi sinh địa ngục. Ngài không nhận kết luận mọi người làm xấu đều sinh địa ngục sau khi chết.",
+            "Ngài cũng không nhận lời cho người cùng ý là đúng, người khác ý là sai, hoặc chấp điều tự biết, thấy, hiểu thành sự thật duy nhất. Vì sao? Sự hiểu biết của Như Lai về nghiệp có cách phân tích khác."
+          ]
+        },
+        {
+          "id": "judge-two",
+          "kind": "teaching",
+          "heading": "Phật xét lời thứ hai",
+          "meaningUnits": [
+            "assessment-two"
+          ],
+          "paragraphs": [
+            "Phật không nhận lời phủ nhận nghiệp xấu và quả của việc xấu. Ngài nhận rằng người ấy đã thấy một người làm xấu rồi sinh trời, nhưng không nhận kết luận mọi người làm xấu đều sinh trời.",
+            "Cả lời nhận mình đúng, người khác sai và sự bám chặt vào điều tự biết, thấy, hiểu như sự thật duy nhất cũng không được Ngài nhận. Trí của Như Lai về sự phân biệt nghiệp khác với cách kết luận ấy."
+          ]
+        },
+        {
+          "id": "judge-three",
+          "kind": "teaching",
+          "heading": "Phật xét lời thứ ba",
+          "meaningUnits": [
+            "assessment-three"
+          ],
+          "paragraphs": [
+            "Phật nhận có nghiệp lành và quả của việc lành, đồng thời nhận điều người ấy thấy: một người giữ mười điều lành rồi sinh trời. Ngài không nhận lời nói mọi người giữ điều lành đều sinh trời sau khi chết.",
+            "Ngài cũng không nhận việc cho ai cùng ý mới đúng, khác ý là sai, rồi nắm điều tự biết, thấy, hiểu làm sự thật duy nhất. Lý do vẫn là trí Như Lai về nghiệp có cách phân tích khác."
+          ]
+        },
+        {
+          "id": "judge-four",
+          "kind": "teaching",
+          "heading": "Phật xét lời thứ tư",
+          "meaningUnits": [
+            "assessment-four"
+          ],
+          "paragraphs": [
+            "Phật không nhận lời nói không có nghiệp lành, không có quả của việc lành. Ngài nhận điều thấy riêng là một người giữ mười điều lành rồi sinh địa ngục; không nhận kết luận tất cả người giữ điều lành đều như vậy.",
+            "Ngài cũng không nhận lời chia đúng sai theo ý mình, hay chấp điều tự biết, thấy, hiểu là sự thật duy nhất. Trí của Như Lai về nghiệp khác với sự nắm chặt một trường hợp ấy."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: một bài kiểm tra",
+          "meaningUnits": [
+            "assessment-one",
+            "assessment-two",
+            "assessment-three",
+            "assessment-four"
+          ],
+          "paragraphs": [
+            "Em thấy một bạn được điểm cao và nghĩ mọi cách học của bạn đều đúng. Nhưng một kết quả chưa cho em biết bạn học từng phần ra sao, chỗ nào đã hiểu và chỗ nào còn nhầm. Em có thể ghi nhận điểm cao, rồi tìm hiểu thêm trước khi khuyên cả lớp làm hệt như bạn.",
+            "Đây là ví dụ hiện đại về khoảng cách giữa điều đã thấy và kết luận về tất cả. Ví dụ chỉ giúp em hiểu cách xét cẩn thận; việc Phật đang phân tích trong kinh là nghiệp và tái sinh."
+          ]
+        },
+        {
+          "id": "cause-one",
+          "kind": "teaching",
+          "heading": "Vì sao người làm xấu sinh cảnh khổ?",
+          "meaningUnits": [
+            "cause-one"
+          ],
+          "paragraphs": [
+            "Phật giải thích trường hợp thứ nhất: người làm mười điều xấu sinh địa ngục vì một nghiệp xấu cho quả khổ đã làm trước đó, hoặc làm về sau, hoặc vì lúc chết đã hoàn toàn tiếp nhận và giữ tà kiến. Đây là những khả năng khác nhau, không phải ba việc đều bắt buộc có cùng lúc.",
+            "Còn mười hành động xấu đang được xét vẫn có quả: người ấy cảm nhận quả ngay đời này, hoặc ở đời kế tiếp, hoặc trong thời gian về sau nữa."
+          ]
+        },
+        {
+          "id": "cause-two",
+          "kind": "teaching",
+          "heading": "Vì sao người làm xấu vẫn có thể sinh trời?",
+          "meaningUnits": [
+            "cause-two"
+          ],
+          "paragraphs": [
+            "Ở trường hợp thứ hai, người làm mười điều xấu sinh trời do một nghiệp lành cho quả vui đã làm trước đó, hoặc làm về sau, hoặc do lúc chết đã hoàn toàn tiếp nhận và giữ chánh kiến.",
+            "Mười việc xấu không vì thế mất quả: quả được cảm nhận ngay đời này, hoặc đời kế tiếp, hoặc thời gian về sau nữa. Cảnh lành được thấy chưa kể hết chuyện của mọi hành động."
+          ]
+        },
+        {
+          "id": "cause-three",
+          "kind": "teaching",
+          "heading": "Vì sao người làm lành sinh cảnh lành?",
+          "meaningUnits": [
+            "cause-three"
+          ],
+          "paragraphs": [
+            "Ở trường hợp thứ ba, người giữ mười điều lành sinh trời vì nghiệp lành cho quả vui đã làm trước đó, hoặc làm về sau, hoặc vì lúc chết đã hoàn toàn tiếp nhận và giữ chánh kiến.",
+            "Mười hành động lành đang được xét cho quả để người ấy cảm nhận ngay đời này, hoặc đời kế tiếp, hoặc thời gian về sau nữa."
+          ]
+        },
+        {
+          "id": "cause-four",
+          "kind": "teaching",
+          "heading": "Vì sao việc lành vẫn có quả dù gặp cảnh khổ?",
+          "meaningUnits": [
+            "cause-four"
+          ],
+          "paragraphs": [
+            "Ở trường hợp thứ tư, người giữ mười điều lành sinh địa ngục do nghiệp xấu cho quả khổ đã làm trước đó, hoặc làm về sau, hoặc do lúc chết đã hoàn toàn tiếp nhận và giữ tà kiến.",
+            "Còn mười hành động lành ấy vẫn cho quả ngay đời này, hoặc đời kế tiếp, hoặc thời gian về sau nữa. Một cảnh khổ được thấy không chứng minh rằng việc lành không có quả."
+          ]
+        },
+        {
+          "id": "appearance",
+          "kind": "teaching",
+          "heading": "Hiệu quả và điều dường như xảy ra",
+          "meaningUnits": [
+            "effect-appearance",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật kết bằng bốn cách nói: có nghiệp vô hiệu quả và dường như vô hiệu quả; vô hiệu quả mà dường như có hiệu quả; có hiệu quả và dường như có hiệu quả; có hiệu quả mà dường như vô hiệu quả. Phần kết đặt hiệu quả và vẻ ngoài cạnh nhau. Cần đọc cùng lời ngay trước đó: quả của việc đã làm có thể được cảm nhận ở những thời điểm khác nhau.",
+            "Phật giảng xong, Ānanda vui mừng và tán đồng. Đại Kinh Phân Biệt Nghiệp kết thúc, là bài thứ sáu trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Tập nói đúng phần mình biết",
+          "meaningUnits": [
+            "assessment-one",
+            "assessment-two",
+            "cause-two",
+            "cause-four"
+          ],
+          "paragraphs": [
+            "Hôm nay, trước khi nói “ai cũng thế”, em có thể hỏi: mình thật sự đã thấy điều gì, còn điều gì chưa biết? Kể đúng điều đã thấy và chịu khó nghe thêm. Đồng thời vẫn chọn việc tử tế, nói thật và tránh làm hại. Đây là gợi ý hiện đại; một kết quả chưa rõ không phải lý do bỏ việc lành."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Dành cho người trưởng thành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Điều đã thấy và điều ta kết luận",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "visit"
+          ],
+          "paragraphs": [
+            "Đại Kinh Phân Biệt Nghiệp, Trung Bộ 136, mở bằng lời người truyền kinh đã nghe. Phật ở gần Rājagaha, tại Trúc Lâm, khu nuôi sóc. Nghiệp trong bài là hành động có chủ ý bằng thân, lời và ý; bài giảng phân tích kỹ cách hiểu quả của hành động.",
+            "Tôn giả Samiddhi ở trong một túp lều nơi hoang vắng. Du sĩ Potaliputta, người tu du hành, ghé đến khi đi dạo. Sau lời chào hỏi thân hữu, ông ngồi một bên và nêu điều mình nhận là đã nghe từ Phật."
+          ]
+        },
+        {
+          "id": "words",
+          "kind": "teaching",
+          "heading": "Tách hai mệnh đề trong lời thuật",
+          "meaningUnits": [
+            "reported-words",
+            "samiddhi-distinguishes"
+          ],
+          "paragraphs": [
+            "Potaliputta nói mình đã trực tiếp nghe và tiếp nhận từ vị xuất gia Gotama, tức Đức Phật: nghiệp bằng thân và lời là hư vọng, không thật; chỉ nghiệp bằng ý là thật. Ông còn nêu rằng có sự chứng định — trạng thái tu tập đạt được — mà người nhập vào không cảm nhận bất cứ điều gì.",
+            "Samiddhi hai lần bảo đừng nói thế, đừng xuyên tạc Phật vì làm vậy không tốt. Thầy bác việc gán cho Phật lời nói thân nghiệp, khẩu nghiệp hư vọng và chỉ ý nghiệp thật. Riêng mệnh đề có chứng định không cảm nhận gì, thầy xác nhận."
+          ]
+        },
+        {
+          "id": "single-answer",
+          "kind": "teaching",
+          "heading": "Khi trả lời một chiều",
+          "meaningUnits": [
+            "three-years",
+            "one-answer",
+            "departure"
+          ],
+          "paragraphs": [
+            "Potaliputta hỏi thầy xuất gia bao lâu; Samiddhi đáp chưa lâu, ba năm. Ông nói: với các tỳ-kheo trưởng lão, những người nam xuất gia đã tu lâu, còn biết nói gì khi một tỳ-kheo mới đã nghĩ phải bảo vệ Đạo Sư?",
+            "Ông hỏi sau khi cố ý làm nghiệp bằng thân, lời, ý, người ấy cảm nhận gì. Samiddhi trả lời: cảm nhận khổ. Potaliputta không tán đồng cũng không bác bỏ, rồi đứng dậy ra đi."
+          ]
+        },
+        {
+          "id": "report",
+          "kind": "teaching",
+          "heading": "Tìm câu trả lời từ người được dẫn lời",
+          "meaningUnits": [
+            "report-ananda",
+            "seek-teacher",
+            "report-buddha",
+            "first-rebuke"
+          ],
+          "paragraphs": [
+            "Không lâu sau, Samiddhi đến Ānanda, chào hỏi, ngồi một bên và thuật trọn cuộc trao đổi. Ānanda đề nghị cùng đến Phật trình việc này, nghe Ngài trả lời thế nào thì ghi nhớ như vậy. Samiddhi đồng ý. Hai vị đến đảnh lễ, tức cúi mình kính lễ, rồi ngồi bên Phật; Ānanda kể toàn bộ câu chuyện.",
+            "Phật nói với Ānanda rằng Ngài không nhớ từng thấy Potaliputta, huống nữa có cuộc đối thoại như thế. Ngài gọi Samiddhi là “người rỗng tuếch”, quở việc trả lời tuyệt đối một câu hỏi cần phân tích trước."
+          ]
+        },
+        {
+          "id": "udayi",
+          "kind": "teaching",
+          "heading": "Không thay câu hỏi bằng một ý khác",
+          "meaningUnits": [
+            "udayi",
+            "three-feelings"
+          ],
+          "paragraphs": [
+            "Udāyī nêu khả năng Samiddhi nói với ý: mọi điều được cảm nhận đều thuộc về khổ. Phật gọi Ānanda chú ý đến lời lạc hướng ấy, cũng quở Udāyī là “người rỗng tuếch”; Ngài nói đã biết vị ấy vừa nêu ý sẽ nêu không như lý, không xét đúng vấn đề.",
+            "Ngay từ đầu, Potaliputta hỏi về ba thọ, ba sắc thái cảm nhận. Câu trả lời đúng là: làm bằng thân, lời, ý một nghiệp có tác ý sẽ được cảm nhận là lạc thì cảm nhận dễ chịu; làm bằng thân, lời, ý một nghiệp có tác ý sẽ được cảm nhận là khổ thì cảm nhận khó chịu; làm bằng thân, lời, ý một nghiệp có tác ý sẽ được cảm nhận không khổ không lạc thì cảm nhận trung tính. Phật nói nếu Samiddhi đáp như thế mới là đáp đúng."
+          ]
+        },
+        {
+          "id": "invitation",
+          "kind": "teaching",
+          "heading": "Nghe một sự phân tích lớn",
+          "meaningUnits": [
+            "offer",
+            "invitation"
+          ],
+          "paragraphs": [
+            "Phật nhận định các du sĩ ngoại đạo ngu si, vụng về đang được đề cập không hiểu Đại Phân Biệt Nghiệp của Như Lai, danh hiệu của Ngài. Ngài đề nghị sẽ phân tích nếu các thầy lắng nghe.",
+            "Ānanda hai lần thưa đã đúng lúc, gọi Phật bằng hai danh hiệu Thế Tôn và Thiện Thệ, xin Ngài giảng để các tỳ-kheo nghe rồi ghi nhớ. Phật dặn lắng nghe và chú tâm kỹ; Ānanda vâng đáp."
+          ]
+        },
+        {
+          "id": "four-cases",
+          "kind": "teaching",
+          "heading": "Bốn kết hợp giữa hành vi và nơi tái sinh",
+          "meaningUnits": [
+            "four-persons",
+            "bad-bad",
+            "bad-good",
+            "good-good",
+            "good-bad"
+          ],
+          "paragraphs": [
+            "Phật nêu bốn trường hợp thực có. Hai người đầu làm mười điều xấu: sát sinh, giết hại sinh mạng; lấy của không cho; tà dâm, quan hệ tình dục sai trái; nói dối; nói chia rẽ; nói thô ác; nói tán nhảm; tham chiếm; nuôi tâm hại người; tà kiến, thấy hiểu sai. Người thứ nhất sau thân hoại, chết đi thì sinh cảnh khổ, cảnh xấu, chỗ sa đọa, địa ngục. Người thứ hai cũng làm đủ mười điều ấy, nhưng sau khi chết sinh cảnh lành, cõi trời.",
+            "Hai người sau từ bỏ sát sinh, lấy của không cho, tà dâm, nói dối, nói chia rẽ, nói thô ác và nói tán nhảm; không tham chiếm, không tâm hại người, có chánh kiến, thấy hiểu đúng. Người thứ ba giữ đủ mười điều lành ấy rồi sau khi chết sinh cảnh lành, cõi trời. Người thứ tư cũng giữ đủ mười điều ấy nhưng sau khi chết sinh cảnh khổ, cảnh xấu, chỗ sa đọa, địa ngục."
+          ]
+        },
+        {
+          "id": "seeing",
+          "kind": "teaching",
+          "heading": "Khả năng quan sát và giới hạn của suy luận",
+          "meaningUnits": [
+            "observer-one",
+            "observer-two",
+            "observer-three",
+            "observer-four"
+          ],
+          "paragraphs": [
+            "Với mỗi trường hợp, Phật nêu một sa-môn, người xuất gia tu học, hoặc bà-la-môn, người tu trong truyền thống tôn giáo Ấn Độ thời ấy. Nhờ nhiệt tâm, tinh cần, chuyên tu, không lơ là và hướng tâm đúng, người ấy đạt định, sự tập trung vững của tâm. Với tâm đã định, người ấy có thiên nhãn thanh tịnh vượt mắt người thường.",
+            "Bốn người quan sát lần lượt thấy đủ bốn trường hợp: mười hành vi xấu rồi địa ngục; mười hành vi xấu rồi cõi trời; mười hành vi lành rồi cõi trời; mười hành vi lành rồi địa ngục. Sau khi trình bày lời của họ, Phật phân biệt phần nào Ngài chấp nhận. Có thể theo từng trường hợp cùng với sự phân biệt ấy."
+          ]
+        },
+        {
+          "id": "view-one",
+          "kind": "teaching",
+          "heading": "Trường hợp thứ nhất: quan sát đúng, khái quát quá mức",
+          "meaningUnits": [
+            "claim-one",
+            "generalization-one",
+            "assessment-one"
+          ],
+          "paragraphs": [
+            "Người thứ nhất nói có ác nghiệp, có quả của ác hạnh, vì đã tự thấy người làm mười điều xấu rồi chết sinh địa ngục. Người ấy kết luận tất cả người làm mười điều xấu đều sinh địa ngục sau khi chết; ai hiểu thế đúng, ai hiểu khác sai. Nắm chặt điều tự biết, thấy, hiểu, người ấy cho chỉ đây là thật, ngoài ra hư vọng.",
+            "Phật chấp nhận có nghiệp xấu và quả của việc xấu, đồng thời chấp nhận điều quan sát cụ thể. Ngài không chấp nhận kết luận tất cả đều sinh địa ngục, sự chia đúng sai theo ý ấy, hay việc chấp điều tự biết, thấy, hiểu là chân lý duy nhất. Vì trí của Như Lai về Đại Phân Biệt Nghiệp khác với sự khái quát đó."
+          ]
+        },
+        {
+          "id": "view-two",
+          "kind": "teaching",
+          "heading": "Trường hợp thứ hai: cảnh lành không phủ nhận nghiệp xấu",
+          "meaningUnits": [
+            "claim-two",
+            "generalization-two",
+            "assessment-two"
+          ],
+          "paragraphs": [
+            "Người thứ hai nói không có ác nghiệp, không có quả của ác hạnh, vì đã tự thấy người làm mười điều xấu rồi sinh trời. Người ấy kết tất cả người làm mười điều xấu đều sinh trời sau khi chết; người hiểu vậy đúng, khác vậy sai. Điều tự biết, thấy, hiểu bị giữ cứng thành lời: chỉ đây là thật, còn lại hư vọng.",
+            "Phật không chấp nhận lời phủ nhận nghiệp xấu và quả của nó; Ngài chấp nhận điều thấy riêng là người ấy làm xấu rồi sinh trời. Ngài không nhận kết luận tất cả đều như vậy, lời phân đúng sai độc quyền hoặc sự chấp vào điều tự biết, thấy, hiểu như chân lý duy nhất. Sự hiểu biết của Như Lai về nghiệp có cách phân tích khác."
+          ]
+        },
+        {
+          "id": "view-three",
+          "kind": "teaching",
+          "heading": "Trường hợp thứ ba: việc lành cũng cần xét đầy đủ",
+          "meaningUnits": [
+            "claim-three",
+            "generalization-three",
+            "assessment-three"
+          ],
+          "paragraphs": [
+            "Người thứ ba nói có thiện nghiệp, có quả của thiện hạnh, vì đã tự thấy người giữ mười điều lành rồi sinh trời. Người ấy kết mọi người giữ mười điều lành đều sinh trời sau khi chết; hiểu vậy mới đúng, hiểu khác là sai. Người ấy bám chặt điều tự biết, thấy, hiểu và nói chỉ đây thật, ngoài ra hư vọng.",
+            "Phật nhận có nghiệp lành và quả của hành động lành, cũng nhận điều đã thấy về người cụ thể. Ngài không nhận kết luận tất cả đều sinh trời, sự độc quyền đúng sai và việc chấp vào kinh nghiệm riêng như sự thật duy nhất. Lý do là trí Như Lai về Đại Phân Biệt Nghiệp khác với cách hiểu ấy."
+          ]
+        },
+        {
+          "id": "view-four",
+          "kind": "teaching",
+          "heading": "Trường hợp thứ tư: cảnh khổ không phủ nhận nghiệp lành",
+          "meaningUnits": [
+            "claim-four",
+            "generalization-four",
+            "assessment-four"
+          ],
+          "paragraphs": [
+            "Người thứ tư phủ nhận có thiện nghiệp và quả của thiện hạnh vì thấy người giữ mười điều lành rồi sinh địa ngục. Người ấy kết tất cả người giữ mười điều lành đều sinh địa ngục sau khi chết; ai biết vậy đúng, khác vậy sai. Bám chắc điều tự biết, thấy, hiểu, người ấy tuyên bố chỉ đây thật, ngoài ra hư vọng.",
+            "Phật không nhận lời phủ nhận nghiệp lành và quả của nó. Ngài nhận điều thấy cụ thể, nhưng không nhận kết luận về tất cả, sự phân chia đúng sai độc quyền hoặc sự chấp vào điều tự biết, thấy, hiểu như sự thật duy nhất. Sự hiểu biết của Như Lai về nghiệp khác với cách kết luận ấy."
+          ]
+        },
+        {
+          "id": "modern-example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: một dự án thành công",
+          "meaningUnits": [
+            "assessment-one",
+            "assessment-two",
+            "assessment-three",
+            "assessment-four"
+          ],
+          "paragraphs": [
+            "Một dự án được khách hàng khen không đủ chứng minh mọi quyết định trong dự án đều đúng. Có thể ghi nhận kết quả ấy, đồng thời xem từng phần việc, đóng góp trước đó và điều còn cần sửa. Tương tự, một lần bị từ chối chưa đủ kết luận mọi nỗ lực đều vô ích.",
+            "Đây là ví dụ hiện đại giúp phân biệt dữ kiện với sự khái quát. Nó minh họa cách xét, còn nghiệp và tái sinh là nội dung riêng của bài kinh."
+          ]
+        },
+        {
+          "id": "cause-one",
+          "kind": "teaching",
+          "heading": "Hành động xấu và tái sinh trong cảnh khổ",
+          "meaningUnits": [
+            "cause-one"
+          ],
+          "paragraphs": [
+            "Phật giải thích người làm mười điều xấu rồi sinh địa ngục có thể do ác nghiệp đưa đến cảm nhận khổ đã làm trước, hoặc làm sau, hoặc do tà kiến được tiếp nhận và giữ trọn lúc chết. Do vậy, người ấy chết rồi sinh cảnh khổ, cảnh xấu, chỗ sa đọa, địa ngục.",
+            "Riêng mười hành vi xấu đang được xét, người ấy cảm nhận quả ngay trong đời hiện tại, hoặc đời kế tiếp, hoặc một thời kỳ sau nữa."
+          ]
+        },
+        {
+          "id": "cause-two",
+          "kind": "teaching",
+          "heading": "Hành động xấu và tái sinh trong cảnh lành",
+          "meaningUnits": [
+            "cause-two"
+          ],
+          "paragraphs": [
+            "Người làm mười điều xấu rồi sinh trời có thể do thiện nghiệp đưa đến cảm nhận lạc đã làm trước, hoặc làm sau, hoặc do chánh kiến được tiếp nhận và giữ trọn lúc chết. Nhờ đó người ấy chết rồi sinh cảnh lành, cõi trời.",
+            "Còn mười hành vi xấu ấy vẫn được cảm nhận quả ngay hiện đời, hoặc đời kế tiếp, hoặc thời kỳ sau nữa. Sự tái sinh đang thấy không làm mất hiệu quả của những hành động xấu đã làm."
+          ]
+        },
+        {
+          "id": "cause-three",
+          "kind": "teaching",
+          "heading": "Hành động lành và tái sinh trong cảnh lành",
+          "meaningUnits": [
+            "cause-three"
+          ],
+          "paragraphs": [
+            "Người giữ mười điều lành rồi sinh trời có thể do thiện nghiệp cho quả được cảm nhận là lạc đã làm trước, hoặc làm sau, hoặc do chánh kiến được tiếp nhận và giữ trọn lúc chết. Nhờ đó, sau thân hoại, chết đi, người ấy sinh cảnh lành, cõi trời.",
+            "Mười hành vi lành đang được xét có quả được cảm nhận ngay hiện đời, hoặc đời kế tiếp, hoặc thời kỳ sau nữa."
+          ]
+        },
+        {
+          "id": "cause-four",
+          "kind": "teaching",
+          "heading": "Hành động lành và tái sinh trong cảnh khổ",
+          "meaningUnits": [
+            "cause-four"
+          ],
+          "paragraphs": [
+            "Người giữ mười điều lành rồi sinh địa ngục có thể do ác nghiệp đưa đến cảm nhận khổ đã làm trước, hoặc làm sau, hoặc do tà kiến được tiếp nhận và giữ trọn lúc chết. Do đó người ấy chết rồi sinh cảnh khổ, cảnh xấu, chỗ sa đọa, địa ngục.",
+            "Còn mười hành vi lành ấy vẫn có quả được cảm nhận ngay hiện đời, hoặc đời kế tiếp, hoặc thời kỳ sau nữa. Phân tích này giữ đồng thời sự đa dạng của điều được thấy và trách nhiệm đối với hành động."
+          ]
+        },
+        {
+          "id": "appearance",
+          "kind": "teaching",
+          "heading": "Hiệu lực của nghiệp và vẻ ngoài được thấy",
+          "meaningUnits": [
+            "effect-appearance",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật kết: có nghiệp vô hiệu quả và dường như vô hiệu quả; vô hiệu quả mà dường như có hiệu quả; có hiệu quả và dường như có hiệu quả; có hiệu quả mà dường như vô hiệu quả. Bốn cách nói đặt hiệu quả và biểu hiện bên ngoài cạnh nhau. Cần đọc chúng trong mạch vừa phân tích: quả của hành động được cảm nhận ở hiện đời, đời kế tiếp hoặc thời kỳ về sau.",
+            "Phật giảng xong, Ānanda hoan hỷ tán đồng. Đại Kinh Phân Biệt Nghiệp khép lại, là bài thứ sáu trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Giữ trách nhiệm, bớt kết luận vội",
+          "meaningUnits": [
+            "three-feelings",
+            "assessment-two",
+            "assessment-four",
+            "cause-two",
+            "cause-four"
+          ],
+          "paragraphs": [
+            "Có thể nhìn lại một nhận định mình đang chắc: đâu là điều đã thấy, đâu là phần suy rộng, còn dữ kiện nào chưa biết? Khi lựa chọn hành động, vẫn cân nhắc ý định và tác hại trong việc làm, lời nói, ý nghĩ. Đây là gợi ý hiện đại để tập sự thận trọng và trách nhiệm, không phải cách tự đoán nơi tái sinh của người khác."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Dành cho người lớn tuổi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Nghe cho rõ trước khi nhận là đúng",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "visit"
+          ],
+          "paragraphs": [
+            "Đại Kinh Phân Biệt Nghiệp là bài 136 của Trung Bộ. Nghiệp là hành động có chủ ý qua việc làm, lời nói và ý nghĩ. Người truyền kinh kể điều đã nghe: Phật ở gần Rājagaha, tại Trúc Lâm, khu nuôi sóc.",
+            "Tôn giả Samiddhi ở một túp lều nơi hoang vắng. Du sĩ Potaliputta, người tu đi nhiều nơi, đang đi dạo thì đến thăm. Hai người chào hỏi thân hữu; xong lời thăm hỏi, ông ngồi một bên."
+          ]
+        },
+        {
+          "id": "claim",
+          "kind": "teaching",
+          "heading": "Một lời được nhận là đã nghe tận nơi",
+          "meaningUnits": [
+            "reported-words",
+            "samiddhi-distinguishes"
+          ],
+          "paragraphs": [
+            "Potaliputta nói mình đã trực tiếp nghe và tiếp nhận từ vị xuất gia Gotama, tức Đức Phật: hành động bằng thân và lời đều hư vọng, không thật; chỉ hành động bằng ý là thật. Ông còn nêu một điều nữa: có sự chứng định, trạng thái tu tập đạt được, mà người vào đó không cảm nhận gì.",
+            "Samiddhi hai lần bảo ông đừng nói vậy, đừng gán sai lời cho Phật, vì đó là việc không tốt. Phật không thể nói hành động bằng thân và lời là hư vọng, chỉ hành động bằng ý mới thật. Nhưng thầy nhận có một chứng định mà người vào đó không cảm nhận bất cứ điều gì."
+          ]
+        },
+        {
+          "id": "reply",
+          "kind": "teaching",
+          "heading": "Ba năm xuất gia và câu hỏi kế tiếp",
+          "meaningUnits": [
+            "three-years",
+            "one-answer",
+            "departure"
+          ],
+          "paragraphs": [
+            "Potaliputta hỏi Samiddhi xuất gia bao lâu; thầy đáp chưa lâu, ba năm. Ông nói, nếu một tỳ-kheo mới — người nam xuất gia tu học — đã cho rằng phải bảo vệ bậc Đạo Sư, thì với các vị trưởng lão còn biết nói gì?",
+            "Ông hỏi người cố ý làm nghiệp bằng thân, lời và ý sẽ cảm nhận gì. Samiddhi nói người ấy cảm nhận khổ. Potaliputta không tán đồng cũng không bác bỏ lời đáp; ông đứng dậy ra đi."
+          ]
+        },
+        {
+          "id": "ananda",
+          "kind": "teaching",
+          "heading": "Đem câu chuyện đến Ānanda",
+          "meaningUnits": [
+            "report-ananda",
+            "seek-teacher",
+            "report-buddha"
+          ],
+          "paragraphs": [
+            "Không lâu sau, Samiddhi đến chào hỏi Ānanda, ngồi một bên và kể trọn cuộc trao đổi. Ānanda bảo đây là việc nên đến trình Phật. Hai vị sẽ thưa rõ, rồi Phật trả lời thế nào thì ghi nhớ đúng như thế. Samiddhi đồng ý.",
+            "Họ cùng tới, đảnh lễ Phật, tức cúi mình kính lễ, rồi ngồi xuống một bên. Ānanda thuật lại toàn bộ những lời Samiddhi và Potaliputta đã trao đổi."
+          ]
+        },
+        {
+          "id": "correction",
+          "kind": "teaching",
+          "heading": "Một câu hỏi cần phân tích",
+          "meaningUnits": [
+            "first-rebuke"
+          ],
+          "paragraphs": [
+            "Phật nói với Ānanda: Ngài còn không nhớ từng thấy Potaliputta, nói gì đến cuộc đối thoại như ông ấy nhận. Ngài gọi Samiddhi là “người rỗng tuếch”, quở trách thầy đã trả lời một chiều câu hỏi cần được phân tích."
+          ]
+        },
+        {
+          "id": "udayi",
+          "kind": "teaching",
+          "heading": "Lời góp ý chưa đúng chỗ",
+          "meaningUnits": [
+            "udayi"
+          ],
+          "paragraphs": [
+            "Udāyī nêu khả năng Samiddhi muốn nói: mọi điều được cảm nhận đều thuộc về khổ. Phật gọi Ānanda chú ý, quở Udāyī cũng là “người rỗng tuếch”, vừa nêu ý đã lạc hướng. Ngài nói đã biết vị ấy sẽ nêu ý không như lý, không đúng cách xét vấn đề. Đó là lời bác cách giải thích của Udāyī trong cuộc trao đổi này."
+          ]
+        },
+        {
+          "id": "three-feelings",
+          "kind": "teaching",
+          "heading": "Dễ chịu, khó chịu và trung tính",
+          "meaningUnits": [
+            "three-feelings"
+          ],
+          "paragraphs": [
+            "Phật xác định ngay từ đầu câu hỏi là về ba thọ, ba sắc thái cảm nhận. Nếu Samiddhi phân biệt như sau mới trả lời đúng.",
+            "Cố ý làm bằng thân, lời, ý một nghiệp sẽ được cảm nhận là lạc thì cảm nhận dễ chịu. Cố ý làm bằng thân, lời, ý một nghiệp sẽ được cảm nhận là khổ thì cảm nhận khó chịu. Cố ý làm bằng thân, lời, ý một nghiệp sẽ được cảm nhận không khổ không lạc thì cảm nhận trung tính, không khó chịu cũng không dễ chịu. Cả ba trường hợp đều cần được tính đến."
+          ]
+        },
+        {
+          "id": "listening",
+          "kind": "teaching",
+          "heading": "Lời thỉnh cầu được giảng rộng",
+          "meaningUnits": [
+            "offer",
+            "invitation"
+          ],
+          "paragraphs": [
+            "Phật nhận định các du sĩ ngoại đạo ngu si, vụng về đang được nói đến không hiểu Đại Phân Biệt Nghiệp của Như Lai, danh hiệu của Ngài. Nếu các thầy chịu lắng nghe, Ngài sẽ phân tích.",
+            "Ānanda thưa đã đúng lúc, rồi lại thưa đã đúng lúc; thầy dùng hai danh hiệu Thế Tôn và Thiện Thệ để gọi Phật. Thầy xin Ngài giảng, các tỳ-kheo sẽ nghe rồi ghi nhớ. Phật dặn nghe và chú tâm kỹ. Ānanda vâng đáp."
+          ]
+        },
+        {
+          "id": "bad",
+          "kind": "teaching",
+          "heading": "Hai người cùng làm mười điều xấu",
+          "meaningUnits": [
+            "four-persons",
+            "bad-bad",
+            "bad-good"
+          ],
+          "paragraphs": [
+            "Phật nói có bốn trường hợp hiện hữu ở đời. Người thứ nhất làm mười điều xấu: sát sinh, giết hại sinh mạng; lấy của không cho; tà dâm, quan hệ tình dục sai trái; nói dối; nói chia rẽ; nói thô ác; nói tán nhảm; tham chiếm; nuôi tâm hại người; tà kiến, thấy hiểu sai. Sau khi thân hoại và chết, người ấy sinh cảnh khổ, cảnh xấu, chỗ sa đọa, địa ngục.",
+            "Người thứ hai cũng làm đủ mười điều xấu ấy, nhưng sau khi thân hoại và chết lại sinh cảnh lành, cõi trời. Hai trường hợp cần được nghe cùng phần phân tích tiếp theo."
+          ]
+        },
+        {
+          "id": "good",
+          "kind": "teaching",
+          "heading": "Hai người cùng giữ mười điều lành",
+          "meaningUnits": [
+            "good-good",
+            "good-bad"
+          ],
+          "paragraphs": [
+            "Người thứ ba từ bỏ sát sinh, lấy của không cho, tà dâm, nói dối, nói chia rẽ, nói thô ác và nói tán nhảm; không tham chiếm, không tâm hại người, có chánh kiến, thấy hiểu đúng. Sau thân hoại và chết, người ấy sinh cảnh lành, cõi trời.",
+            "Người thứ tư cũng giữ đủ mười mặt lành ấy, nhưng sau khi thân hoại và chết lại sinh cảnh khổ, cảnh xấu, chỗ sa đọa, địa ngục."
+          ]
+        },
+        {
+          "id": "sight",
+          "kind": "teaching",
+          "heading": "Bốn người thấy bốn trường hợp",
+          "meaningUnits": [
+            "observer-one",
+            "observer-two",
+            "observer-three",
+            "observer-four"
+          ],
+          "paragraphs": [
+            "Mỗi người quan sát là một sa-môn, người xuất gia, hoặc bà-la-môn, người tu trong truyền thống tôn giáo Ấn Độ thời ấy. Nhờ nhiệt tâm, tinh cần, chuyên tu, không lơ là và hướng tâm đúng, người ấy đạt định, sự tập trung vững của tâm. Tâm định ấy đi cùng thiên nhãn thanh tịnh, khả năng thấy vượt mắt người thường.",
+            "Lần lượt, bốn người quan sát thấy người làm mười điều xấu rồi sinh địa ngục; làm mười điều xấu rồi sinh trời; giữ mười điều lành rồi sinh trời; giữ mười điều lành rồi sinh địa ngục. Vấn đề tiếp theo là họ nói gì từ điều đã thấy."
+          ]
+        },
+        {
+          "id": "view-one",
+          "kind": "teaching",
+          "heading": "Lời kết luận của người thứ nhất",
+          "meaningUnits": [
+            "claim-one",
+            "generalization-one"
+          ],
+          "paragraphs": [
+            "Người thứ nhất nói có ác nghiệp và quả của ác hạnh vì chính mình thấy người làm mười điều xấu rồi sinh địa ngục. Nhưng người ấy kết thêm rằng tất cả ai làm mười điều xấu đều sinh địa ngục sau khi chết.",
+            "Ai hiểu như vậy thì được cho là đúng, ai hiểu khác là sai. Người ấy cố chấp điều tự biết, tự thấy, tự hiểu và tuyên bố chỉ đây là thật, ngoài ra đều hư vọng."
+          ]
+        },
+        {
+          "id": "view-two",
+          "kind": "teaching",
+          "heading": "Lời phủ nhận của người thứ hai",
+          "meaningUnits": [
+            "claim-two",
+            "generalization-two"
+          ],
+          "paragraphs": [
+            "Người thứ hai thấy người làm mười điều xấu rồi sinh trời, nên nói không có ác nghiệp, không có quả của ác hạnh. Người ấy còn nói tất cả ai làm mười điều xấu đều sinh trời sau khi chết.",
+            "Người ấy cho ai hiểu vậy đúng, ai hiểu khác sai. Bám chặt vào điều tự biết, thấy và hiểu, người ấy nhận đó là sự thật duy nhất, mọi điều khác đều hư vọng."
+          ]
+        },
+        {
+          "id": "view-three",
+          "kind": "teaching",
+          "heading": "Lời kết luận của người thứ ba",
+          "meaningUnits": [
+            "claim-three",
+            "generalization-three"
+          ],
+          "paragraphs": [
+            "Người thứ ba thấy người giữ mười điều lành rồi sinh trời, nên nhận có thiện nghiệp và quả của thiện hạnh. Người ấy đi đến kết luận tất cả ai giữ mười điều lành đều sinh trời sau khi chết.",
+            "Người ấy cũng cho ai hiểu như mình đúng, ai hiểu khác sai; bám chặt vào điều tự biết, tự thấy, tự hiểu mà nói chỉ đây là thật, còn lại hư vọng."
+          ]
+        },
+        {
+          "id": "view-four",
+          "kind": "teaching",
+          "heading": "Lời phủ nhận của người thứ tư",
+          "meaningUnits": [
+            "claim-four",
+            "generalization-four"
+          ],
+          "paragraphs": [
+            "Người thứ tư thấy người giữ mười điều lành rồi sinh địa ngục. Người ấy phủ nhận có thiện nghiệp và quả của thiện hạnh, rồi kết tất cả ai giữ mười điều lành đều sinh địa ngục sau khi chết.",
+            "Hiểu như vậy được người ấy xem là đúng, hiểu khác là sai. Cũng từ điều tự biết, tự thấy, tự hiểu, người ấy nắm chặt và nhận chỉ đây là sự thật, ngoài ra hư vọng."
+          ]
+        },
+        {
+          "id": "judgment-one",
+          "kind": "teaching",
+          "heading": "Điều Phật nhận trong lời thứ nhất",
+          "meaningUnits": [
+            "assessment-one"
+          ],
+          "paragraphs": [
+            "Phật nhận có ác nghiệp, có quả của ác hạnh; cũng nhận điều người ấy thấy về người cụ thể làm xấu rồi sinh địa ngục. Ngài không nhận kết luận tất cả người làm xấu đều như vậy sau khi chết.",
+            "Ngài không nhận sự phân đúng sai theo ý ấy, cũng không nhận việc nắm điều tự biết, thấy, hiểu làm chân lý duy nhất. Trí của Như Lai về Đại Phân Biệt Nghiệp khác với lối kết luận đó."
+          ]
+        },
+        {
+          "id": "judgment-two",
+          "kind": "teaching",
+          "heading": "Điều Phật bác trong lời thứ hai",
+          "meaningUnits": [
+            "assessment-two"
+          ],
+          "paragraphs": [
+            "Phật bác lời phủ nhận ác nghiệp và quả của ác hạnh. Ngài nhận điều thấy cụ thể: một người làm xấu rồi sinh trời. Nhưng Ngài không nhận kết luận mọi người làm xấu đều sinh trời.",
+            "Việc cho người cùng ý đúng, khác ý sai và bám chặt điều tự biết, thấy, hiểu như sự thật duy nhất đều không được chấp nhận. Trí của Như Lai về nghiệp có cách phân tích khác."
+          ]
+        },
+        {
+          "id": "judgment-three",
+          "kind": "teaching",
+          "heading": "Điều Phật nhận trong lời thứ ba",
+          "meaningUnits": [
+            "assessment-three"
+          ],
+          "paragraphs": [
+            "Phật nhận có thiện nghiệp và quả của thiện hạnh, cũng nhận việc người ấy thấy một người giữ điều lành rồi sinh trời. Ngài không nhận kết luận tất cả người giữ điều lành đều sinh trời sau khi chết.",
+            "Ngài cũng không nhận lời chia đúng sai theo ý mình, hay sự cố chấp điều tự biết, thấy, hiểu là chân lý duy nhất. Trí của Như Lai về Đại Phân Biệt Nghiệp khác với cách nhận định ấy."
+          ]
+        },
+        {
+          "id": "judgment-four",
+          "kind": "teaching",
+          "heading": "Điều Phật bác trong lời thứ tư",
+          "meaningUnits": [
+            "assessment-four"
+          ],
+          "paragraphs": [
+            "Phật bác lời phủ nhận thiện nghiệp và quả của thiện hạnh. Ngài nhận điều thấy riêng là người giữ điều lành rồi sinh địa ngục, nhưng không nhận việc nói mọi người giữ điều lành đều như vậy.",
+            "Ngài cũng không nhận lời cho ai cùng ý đúng, khác ý sai, hoặc nắm điều tự biết, thấy, hiểu làm sự thật duy nhất. Lý do vẫn là trí Như Lai về nghiệp khác với cách nhìn ấy."
+          ]
+        },
+        {
+          "id": "garden",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: nhìn một khu vườn",
+          "meaningUnits": [
+            "assessment-one",
+            "assessment-two",
+            "assessment-three",
+            "assessment-four"
+          ],
+          "paragraphs": [
+            "Nhìn một chậu cây đang xanh, ta chưa biết hết người chăm đã làm gì trước đó. Nhìn một chậu đang héo cũng chưa đủ để kết luận mọi công chăm sóc đều vô ích. Có thể ghi nhận đúng tình trạng đang thấy, rồi hỏi thêm về việc đã làm và thời gian đã qua.",
+            "Đây là ví dụ hiện đại về sự kiên nhẫn khi nhận định. Nó minh họa cách tách quan sát với kết luận; bài kinh đang bàn riêng về hành động và quả qua các đời sống."
+          ]
+        },
+        {
+          "id": "cause-one",
+          "kind": "teaching",
+          "heading": "Người làm xấu rồi sinh cảnh khổ",
+          "meaningUnits": [
+            "cause-one"
+          ],
+          "paragraphs": [
+            "Phật phân tích trường hợp thứ nhất: người làm mười điều xấu sinh địa ngục do ác nghiệp cho quả khổ đã làm trước, hoặc làm sau, hoặc do lúc chết hoàn toàn tiếp nhận và giữ tà kiến. Do vậy, người ấy chết rồi sinh cảnh khổ, cảnh xấu, chỗ sa đọa, địa ngục.",
+            "Còn mười việc xấu đang được nói tới, người ấy cảm nhận quả ngay đời này, hoặc đời kế tiếp, hoặc một thời kỳ về sau nữa."
+          ]
+        },
+        {
+          "id": "cause-two",
+          "kind": "teaching",
+          "heading": "Người làm xấu rồi sinh cảnh lành",
+          "meaningUnits": [
+            "cause-two"
+          ],
+          "paragraphs": [
+            "Trường hợp thứ hai sinh trời do thiện nghiệp cho quả lạc đã làm trước, hoặc làm sau, hoặc do lúc chết hoàn toàn tiếp nhận và giữ chánh kiến. Nhờ vậy, người ấy thân hoại, chết rồi sinh cảnh lành, cõi trời.",
+            "Mười việc xấu của người ấy vẫn có quả được cảm nhận ngay đời này, hoặc đời kế tiếp, hoặc thời kỳ về sau nữa. Cảnh lành chưa nói hết quả của những gì người ấy đã làm."
+          ]
+        },
+        {
+          "id": "cause-three",
+          "kind": "teaching",
+          "heading": "Người làm lành rồi sinh cảnh lành",
+          "meaningUnits": [
+            "cause-three"
+          ],
+          "paragraphs": [
+            "Trường hợp thứ ba sinh trời do thiện nghiệp cho quả lạc đã làm trước, hoặc làm sau, hoặc do lúc chết hoàn toàn tiếp nhận và giữ chánh kiến. Nhờ đó, sau thân hoại, chết đi, người ấy sinh cảnh lành, cõi trời.",
+            "Với mười hành động lành đang được xét, người ấy cảm nhận quả ngay đời này, hoặc đời kế tiếp, hoặc một thời kỳ về sau nữa."
+          ]
+        },
+        {
+          "id": "cause-four",
+          "kind": "teaching",
+          "heading": "Người làm lành rồi sinh cảnh khổ",
+          "meaningUnits": [
+            "cause-four"
+          ],
+          "paragraphs": [
+            "Trường hợp thứ tư sinh địa ngục do ác nghiệp cho quả khổ đã làm trước, hoặc làm sau, hoặc do lúc chết hoàn toàn tiếp nhận và giữ tà kiến. Vì vậy người ấy chết rồi sinh cảnh khổ, cảnh xấu, chỗ sa đọa, địa ngục.",
+            "Mười hành động lành ấy vẫn có quả được cảm nhận ngay đời này, hoặc đời kế tiếp, hoặc thời kỳ về sau nữa. Điều lành đã làm không vì một cảnh khổ được thấy mà trở thành không có quả."
+          ]
+        },
+        {
+          "id": "appearance",
+          "kind": "teaching",
+          "heading": "Hiệu quả và vẻ biểu lộ",
+          "meaningUnits": [
+            "effect-appearance"
+          ],
+          "paragraphs": [
+            "Phật kết bằng bốn cách nói: có nghiệp vô hiệu quả và dường như vô hiệu quả; vô hiệu quả mà dường như có hiệu quả; có hiệu quả và dường như có hiệu quả; có hiệu quả mà dường như vô hiệu quả.",
+            "Bảng kết đặt hiệu quả cạnh điều dường như hiện ra. Cần đọc nó cùng bốn trường hợp vừa phân tích, trong đó quả có thể được cảm nhận ở hiện đời, đời kế tiếp hoặc thời kỳ sau nữa. Chỗ thấy được và toàn bộ đường đi của quả không nên bị vội gộp làm một."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Nghe rồi ghi nhận",
+          "meaningUnits": [
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật giảng xong, Ānanda hoan hỷ tán đồng lời dạy. Đại Kinh Phân Biệt Nghiệp kết thúc, là bài thứ sáu trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một câu hỏi khi nhìn lại đời sống",
+          "meaningUnits": [
+            "assessment-two",
+            "assessment-four",
+            "cause-two",
+            "cause-four"
+          ],
+          "paragraphs": [
+            "Khi nghĩ “mọi người đều thế” hoặc “làm lành chẳng có ích”, có thể dừng lại hỏi: mình đang dựa vào chuyện nào, phần nào chưa biết? Giữ việc làm lành, lời chân thật và ý không muốn hại người trong phần mình có thể chọn hôm nay. Đây là gợi ý thực hành hiện đại; việc phân tích trong kinh giúp ta thận trọng với sự kết luận về cả một đời người."
+          ]
+        }
+      ]
+    }
+  }
+}

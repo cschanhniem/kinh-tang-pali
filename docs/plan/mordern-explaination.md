@@ -1,6 +1,6 @@
 # Kế hoạch diễn giải hiện đại theo lứa tuổi — Trung Bộ Kinh và Trường Bộ Kinh
 
-**Trạng thái:** đang triển khai theo yêu cầu ngày 2026-10-18. Đi lần lượt từ MN1 đến hết MN152, rồi DN1 đến hết DN34; chấm từng bản và từng bài, tạo PR và merge sau mỗi 10 bài đạt chuẩn. Tài liệu này không phải báo cáo rằng toàn bộ diễn giải đã hoàn tất.
+**Trạng thái:** đã biên soạn, kiểm chéo và chấm đủ MN1–MN152 rồi DN1–DN34: **186 bài, 558 bản được duyệt** theo quy trình hiện hành. [Bảng điểm hoàn tất](../modern-explanations/completion-mn-dn.md) và các báo cáo lô ghi kết quả cùng phạm vi xác minh thực tế. Các mục dưới đây giữ yêu cầu thiết kế và quy trình dùng khi duy trì, sửa hoặc đánh giá lại.
 
 **Quy trình hiện hành:** [Biên soạn và chấm điểm diễn giải hiện đại](../modern-explanation-quality.md) cụ thể hóa rubric số, cấu trúc JSON, hiệu lực đánh giá và cổng của từng lô. Yêu cầu triển khai tuần tự thay cho thứ tự làm thử MN61/DN31 trong đề xuất ban đầu; các ví dụ ở §5 vẫn chỉ là minh họa giọng viết.
 
@@ -257,7 +257,7 @@ Không ép chọn nhóm tuổi trước khi vào bài. Không dùng màu sắc h
 
 - **Tìm kiếm giai đoạn đầu:** đặt khối diễn giải trong `data-pagefind-ignore`. Bốn bản kinh văn tiếp tục hoạt động như hiện tại. Cách này tránh đưa những từ chỉ có trong ví dụ mới vào kết quả người đọc có thể hiểu là kinh văn. Tìm kiếm diễn giải là bước sau, cần nhãn loại nội dung, nhóm độc giả và liên kết tới đúng bản; kiểm bằng từ khóa chỉ xuất hiện trong ví dụ.
 - **Sách, EPUB và audio:** giữ pipeline hiện hành. Khi có yêu cầu xuất bản diễn giải, tạo đầu ra được nhận diện riêng; không tự ghép vào sách kinh hoặc lấy trạng thái audio kinh văn làm trạng thái audio diễn giải.
-- **Giấy phép:** đường dẫn mới chưa nằm trong `projectLicense.content.covers` của [lock hiện tại](../../source/suttacentral.lock.json). Trước khi phát hành nội dung ở đường này, người biên tập xác định phạm vi điều khoản và cập nhật registry/NOTICE theo cơ chế của kho. Kế hoạch không tự mở rộng giấy phép, không gán CC0 của dự án cho tác phẩm tham khảo.
+- **Giấy phép:** hai đường dẫn triển khai ở §6.2 nằm dưới `content/comment/vi/project` và `content/meta`, đã được khai báo trong `projectLicense.content.covers` của [lock hiện tại](../../source/suttacentral.lock.json) và [NOTICE](../../NOTICE). Diễn giải là nội dung bình giải mới của dự án; quy trình này giữ khai báo giấy phép hiện hành. Nguồn tham khảo giữ điều khoản và ghi công riêng; CC0 của dự án không áp dụng cho các tác phẩm ấy.
 
 ## 7. Quy trình biên soạn và kiểm tra chất lượng
 
@@ -322,7 +322,7 @@ Các kiểm tra mới nối vào validator/tests/CI qua `explanations:check`; `e
 
 **Cập nhật theo chỉ dẫn ngày 2026-10-18:** người dùng yêu cầu “don't need to check actions, just continue next 10 texts”. Vì vậy, tiếp tục các lô 10 bài, đối chiếu và chấm điểm từng bản, tạo PR và merge sau kiểm tra local; không kiểm tra hoặc chờ GitHub Actions. Báo cáo chỉ ghi những kết quả thực sự đã kiểm.
 
-**Tiến độ khi đóng lô 02 (2026-10-18):** [MN1–MN10](../modern-explanations/batch-01-mn1-mn10.md) và [MN11–MN20](../modern-explanations/batch-02-mn11-mn20.md) có đủ ba bản đã duyệt: **20/186 bài, 60/558 bản**. Báo cáo CLI không có bản lỗi thời hoặc không hợp lệ; lô kế tiếp theo thứ tự là **MN21–MN30**. Điểm và phạm vi kiểm thực tế được ghi trong từng báo cáo lô.
+**Tiến độ khi đóng lô 19 (2026-10-19):** Đã có đủ ba bản được duyệt cho **186/186 bài, 558/558 bản** theo thứ tự kế hoạch. [Báo cáo lô 19 — DN29–DN34](../modern-explanations/batch-19-dn29-dn34.md) ghi điểm và phạm vi kiểm thực tế. Báo cáo CLI không có lỗi diễn giải; đánh giá hiện hành khớp nội dung và nguồn. Phạm vi 186 bài đã khép; [bảng điểm hoàn tất](../modern-explanations/completion-mn-dn.md) ghi đủ từng bài và liên kết tới 19 báo cáo lô.
 
 | Chặng | Công việc và đầu ra | Điều kiện đi tiếp |
 | --- | --- | --- |
@@ -342,7 +342,7 @@ Quy mô lô là 10 bài theo yêu cầu; chất lượng từng bài không gi�
 - Kiểm trang đọc, nguồn, trạng thái và hash; tiếp tục từng bài MN2–MN10 theo cùng quy trình.
 - Lập báo cáo điểm thật của 10 bài; kiểm tra local, tạo PR rồi merge đúng commit đã kiểm.
 
-Đây là thứ tự công việc, không phải hạn buộc xuất bản. **Hành động đầu tiên:** lập hồ sơ nghĩa đầy đủ của MN1, sau đó viết ba bản từ hồ sơ ấy. Không bắt đầu bằng sinh hàng loạt 558 bản rồi mới tìm người kiểm.
+Đây là thứ tự công việc, không phải hạn buộc xuất bản. **Thứ tự khởi đầu đã thực hiện:** lập hồ sơ nghĩa đầy đủ của MN1, sau đó viết ba bản từ hồ sơ ấy. Không bắt đầu bằng sinh hàng loạt 558 bản rồi mới tìm người kiểm.
 
 ### 8.2. Điều kiện tạm dừng mở rộng
 

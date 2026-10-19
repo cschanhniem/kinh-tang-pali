@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn36",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "8a47df55-a6bd-4d97-bd4e-ad4f439b2b23"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "8888dd27-b419-4c55-b96e-8d004cd68c7f"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "9cdcaca6-76a5-4e29-a234-540f8891c26e"
+    }
+  },
+  "reviews": [
+    {
+      "id": "8a47df55-a6bd-4d97-bd4e-ad4f439b2b23",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.7,
+        "logic_context": 9.6,
+        "terminology": 9.2,
+        "audience_fit": 9.1,
+        "clarity": 9.2,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Đọc trọn năm nguồn, 360 khóa Pāli và bản đồ 49 ý; giữ Rāma/Uddaka, điều kiện ví dụ gỗ thứ hai và giấc ngủ theo Pāli khi bản Việt cũ có khác biệt. Chín ô Anh trống không được coi là đồng thuận.",
+        "semantic_fidelity": "Giữ quan hệ lạc không chiếm tâm do tu thân, khổ không chiếm tâm do tu tâm; có đau khác với bị đau làm chủ. Không biến lời đoán của chư thiên thành chứng ngộ hay lời Saccaka thành kết luận của Phật.",
+        "core_coverage": "Có cả hai trường học, năm phẩm chất mỗi lần, ba khúc gỗ với cả có/không đau, sáu phép thử gây đau, ăn lại, bốn thiền, ba minh, giảng dạy, ngủ và lời kết Saccaka. Các điệp ý tấn/niệm/thân/đau được giữ rõ.",
+        "logic_context": "Con đường chuyển từ học thuộc sang tự chứng, xét giới hạn định, khổ hạnh chưa đạt đích, nhớ sơ thiền rồi giải thoát. Giữ thứ tự ba canh và sự khác nhau giữa có khả năng giác ngộ với đã giác ngộ.",
+        "terminology": "Giải cảm thọ, Bồ-tát, tầm/tứ/hỷ/lạc/xả và lậu hoặc ngay trong mạch. Đã sửa vốc nước và người thuật chuyện. Tên cổ, danh sách khổ hạnh và các tầng vô sắc vẫn cần đọc chậm.",
+        "audience_fit": "Ví dụ tập đàn, lời xưng em và việc nhờ người lớn đáng tin phù hợp trẻ; không áp nhịn ăn hay nín thở. Bài vẫn dài, có hình ảnh đau nặng và nhiều thuật ngữ do giữ đủ nội dung; chưa thử với trẻ thật.",
+        "clarity": "31 mục tạo điểm dừng cho hành trình dài; các tầng thiền và ba minh tách riêng, câu chuyện giữ người nói rõ. Những danh sách đầy đủ làm vài đoạn dày hơn văn đọc đầu đời.",
+        "editorial_separation": "Lời Saccaka, nhận định Ānanda, dự đoán chư thiên và cách hiểu của năm tỳ-kheo đều có chủ thể. Ví dụ tập đàn và gợi ý suy xét có mục riêng, không được gán là nguyên văn kinh.",
+        "practical_integrity": "Gợi ý chỉ yêu cầu nhận biết một lần dễ chịu/khó chịu và chọn hành động hiền lành; không dùng làm phép tự chứng thiền. Khổ hạnh được đặt trong phần tìm đường đã được xét lại.",
+        "technical_integrity": "Audit chuẩn sau sửa không có lỗi cấu trúc hoặc nguồn; 49 ý phủ mỗi khóa Pāli đúng một lần. Fingerprint lấy sau khi đọc lại các đoạn sửa; kiểm tra này không thay cho build và đối chiếu HTML của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root đối với bản soạn /root/writer_b; cả hai dùng công cụ gpt-6-astra-pro. Đã đọc trọn năm nguồn, toàn bản đồ, toàn văn cả ba lứa tuổi; đọc lại các đoạn sửa trước chốt fingerprint. Không có chuyên gia Pāli bên ngoài hoặc người đọc thật tham gia.",
+      "contentHash": "6fb992f9de9630543408c428f8c4ff21b79c9987b1e281eabd984723d687ce07",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn36.html",
+          "sha256": "2f4387a2f5e169c0a459885cd989e73f84fc6cb16179794e6c48b67c5aad7f13"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+          "sha256": "a6129a3ff64c2990d358e14ef8b4903e8ae9f388ed43fdff6a11ed8e4f39a182"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
+          "sha256": "ad0ddbfee037d2577e1a6cfd58768286a8cd6b775f1cff126484da057a3964fa"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn36_comment-vi-project.json",
+          "sha256": "bedc767ceceea1c9811715a25a158236ec9bdb920a1c7e427ac1e62a89fb9d08"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn36_translation-vi-project.json",
+          "sha256": "5f1b0ea446d653ec17f57be2d3543c5cc5e8621186d463cb10fd1e447778ea4d"
+        }
+      ]
+    },
+    {
+      "id": "8888dd27-b419-4c55-b96e-8d004cd68c7f",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.7,
+        "logic_context": 9.6,
+        "terminology": 9.4,
+        "audience_fit": 9.4,
+        "clarity": 9.4,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu cả năm nguồn và 49 ý/360 khóa; theo Pāli khi bản Việt cũ nhập Uddaka với Rāma, đổi tiêu chuẩn gỗ thứ hai hoặc nói cho phép ngủ. Nguồn phụ chỉ được dùng trong giới hạn văn bản đã đọc.",
+        "semantic_fidelity": "Không đánh đồng nghị lực chịu đau với giải thoát; giữ cả lạc/khổ không chiếm tâm và lậu tận. Tứ thiền vẫn không khổ không lạc dù kinh lặp câu lạc không chiếm tâm ngay sau đó.",
+        "core_coverage": "Hai lần tự chứng với năm phẩm chất, hai cách được trao địa vị, bảy đích chưa đạt, mọi ví dụ gỗ, các phép khổ hạnh, bốn thiền, ba minh cùng hậu thoại đều hiện diện. Các đoạn Pāli rút gọn không bị giả làm chi tiết trực tiếp.",
+        "logic_context": "Các bước kiểm nghiệm phương pháp nối đúng mục tiêu giải thoát; giữ ba canh, hai nhóm bốn sự thật về khổ và lậu, ba lậu được đoạn. Câu hỏi ngủ không bị biến thành một tiêu chuẩn sức khỏe hiện đại.",
+        "terminology": "Tín/tấn/niệm/định/tuệ, phạm hạnh, tưởng, tầm/tứ, hỷ/lạc/xả và lậu được giải theo ngữ cảnh. Vốc nước vừa sửa đúng lượng pasata; hareṇuka giữ tên vì không xác định chắc loại đậu.",
+        "audience_fit": "Ví dụ phản hồi một kế hoạch và việc xét nỗ lực đã bỏ ra hợp người trưởng thành; giữ trách nhiệm tự quan sát thay vì hứa thành công nghề nghiệp. Chưa có thử nghiệm với người đọc mục tiêu.",
+        "clarity": "30 mục giữ mạch tự thuật và chuyển sang hậu thoại rõ ràng; tách hai trường học, ba khúc gỗ, ba minh. Bản vẫn dày vì thuật đầy đủ các hạn chế khổ hạnh và điệp ý.",
+        "editorial_separation": "Phần giảng, lời kể của các nhân vật, ví dụ hiện đại và gợi ý vận dụng phân định được. Ví dụ công việc chỉ minh họa xét lại cách làm, không thay mục tiêu ly tham bằng hiệu suất.",
+        "practical_integrity": "Thực hành nhận biết sự đổi chiều của cảm thọ, chọn hành động chân thật và phân biệt nguồn vui là bước vừa sức; không hứa đạt tầng thiền, không hướng dẫn tái hiện tuyệt thực hoặc ngưng thở.",
+        "technical_integrity": "Audit chuẩn xác nhận nguồn và cấu trúc không lỗi; các mã ý, tác giả, Unicode, hash nội dung và năm hash nguồn đã kiểm trên bản sau sửa. Bằng chứng này có phạm vi dữ liệu, không phải bằng chứng build toàn site."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root đối với bản soạn /root/writer_b; cả hai dùng công cụ gpt-6-astra-pro. Đã đọc trọn năm nguồn, toàn bản đồ, toàn văn cả ba lứa tuổi; đọc lại các đoạn sửa trước chốt fingerprint. Không có chuyên gia Pāli bên ngoài hoặc người đọc thật tham gia.",
+      "contentHash": "7efee1202f133c00d8a8fa1d6e0ac0683361ab9345e4e9a7f6d79cdafa14832e",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn36.html",
+          "sha256": "2f4387a2f5e169c0a459885cd989e73f84fc6cb16179794e6c48b67c5aad7f13"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+          "sha256": "a6129a3ff64c2990d358e14ef8b4903e8ae9f388ed43fdff6a11ed8e4f39a182"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
+          "sha256": "ad0ddbfee037d2577e1a6cfd58768286a8cd6b775f1cff126484da057a3964fa"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn36_comment-vi-project.json",
+          "sha256": "bedc767ceceea1c9811715a25a158236ec9bdb920a1c7e427ac1e62a89fb9d08"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn36_translation-vi-project.json",
+          "sha256": "5f1b0ea446d653ec17f57be2d3543c5cc5e8621186d463cb10fd1e447778ea4d"
+        }
+      ]
+    },
+    {
+      "id": "9cdcaca6-76a5-4e29-a234-540f8891c26e",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.7,
+        "logic_context": 9.6,
+        "terminology": 9.4,
+        "audience_fit": 9.3,
+        "clarity": 9.3,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đầy đủ Pāli, Việt dự án, Sujato, bản Việt HTML liên tục và chín chú thích; Pāli quyết định khi nguồn khác nhau. 360 khóa được nối vào 49 ý mà không bịa căn chỉnh HTML với Bilara.",
+        "semantic_fidelity": "Giữ sự giác ngộ là đoạn tận dục lậu, hữu lậu, vô minh lậu; tuổi tác, ngủ ban ngày và vẻ bình thản không tự chứng minh si mê hay giải thoát. Chư thiên chỉ phỏng đoán ở giai đoạn Bồ-tát.",
+        "core_coverage": "Có toàn hành trình xuất gia, hai trường học, ba ví dụ, khổ hạnh, ăn lại, bốn thiền và ba minh; hậu thoại giảng pháp, ngủ, gốc lậu và Saccaka rời đi đều đủ. Không thêm lời quy y ở cuối.",
+        "logic_context": "Phân biệt Āḷāra cùng lãnh đạo với Uddaka đặt Ngài làm thầy; giữ cả có/không đau ở ba ví dụ, đủ thứ tự các minh và tiêu chuẩn lậu còn/hết. Người kể là Đức Phật đang hồi tưởng thời Bồ-tát.",
+        "terminology": "Các thuật ngữ căn bản được mở nghĩa trong câu, ba minh có tiêu đề theo canh đêm; đã sửa lượng nước đậu và chủ thể hồi thuật. Một số tên cổ và danh mục vẫn cần đọc nhiều lượt.",
+        "audience_fit": "Ví dụ tổ chức bữa ăn chung trao quyền điều chỉnh, chia việc và nghỉ phù hợp mà không xem mọi người cao tuổi đều suy yếu. Phép so sánh tám mươi tuổi được giữ đúng giới hạn; chưa thử với người đọc thật.",
+        "clarity": "30 mục với đoạn ngắn giúp đọc từng phần; bốn thiền chia hai mục, ba minh tách riêng, hậu thoại nối liền. Mật độ khổ hạnh và tên người cao là giới hạn còn lại.",
+        "editorial_separation": "Ví dụ chia việc và suy xét hằng ngày có nhãn riêng; lời nhận xét về thân, tuổi và chư thiên luôn được quy đúng vai. Không nâng nội dung chú thích chưa mở thành nguồn xác nhận mới.",
+        "practical_integrity": "Gợi ý nhìn lại cảm thọ sau trò chuyện và lời nói kế tiếp vừa sức, không dựa trên sức bền thân hay tự kết luận đạt lậu tận. Giữ mục tiêu giải thoát sâu hơn một lúc thoải mái.",
+        "technical_integrity": "Sau khi đọc lại sáu đoạn sửa và bản đồ, audit không có lỗi cấu trúc/nguồn; mỗi khóa Pāli đúng một ý, hash lấy từ công cụ chuẩn. Build lô và toàn bộ HTML cần được ghi riêng sau khi chạy."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root đối với bản soạn /root/writer_b; cả hai dùng công cụ gpt-6-astra-pro. Đã đọc trọn năm nguồn, toàn bản đồ, toàn văn cả ba lứa tuổi; đọc lại các đoạn sửa trước chốt fingerprint. Không có chuyên gia Pāli bên ngoài hoặc người đọc thật tham gia.",
+      "contentHash": "595f9e11f44b081d39d7271f1023570c74ec8dfc7d004707ed0aa842bc3ee4b4",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn36.html",
+          "sha256": "2f4387a2f5e169c0a459885cd989e73f84fc6cb16179794e6c48b67c5aad7f13"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+          "sha256": "a6129a3ff64c2990d358e14ef8b4903e8ae9f388ed43fdff6a11ed8e4f39a182"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
+          "sha256": "ad0ddbfee037d2577e1a6cfd58768286a8cd6b775f1cff126484da057a3964fa"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn36_comment-vi-project.json",
+          "sha256": "bedc767ceceea1c9811715a25a158236ec9bdb920a1c7e427ac1e62a89fb9d08"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn36_translation-vi-project.json",
+          "sha256": "5f1b0ea446d653ec17f57be2d3543c5cc5e8621186d463cb10fd1e447778ea4d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn38",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "af7e4ea1-98b8-40d3-ae63-ffa120293b04"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "73634e04-d7e3-44af-bb55-9ab5e9b1a330"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "8dbf2dc0-a41b-40e0-ac46-e66eefe3c15d"
+    }
+  },
+  "reviews": [
+    {
+      "id": "af7e4ea1-98b8-40d3-ae63-ffa120293b04",
+      "audience": "children",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.2,
+        "audience_fit": 9.2,
+        "clarity": 9.2,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu đủ năm nguồn MN38 và 49 ý/445 khóa; sáu thức theo duyên, sáu nhiên liệu lửa và đoạn sửa Sāti nối đúng nguồn đã pin. 120 ô Anh trống không được coi là đối chiếu đồng thuận.",
+        "semantic_fidelity": "Giữ tà kiến của Sāti là quan điểm bị bác, hai chuỗi khổ sinh/diệt đầy đủ và việc Sāti còn mắc lưới ái ở cuối; không biến cảm nhận tốt thành tội hay hứa giải thoát bằng ngừng mua đồ chơi.",
+        "core_coverage": "Có cả năm lượt ba câu kiểm tri kiến, bốn thức ăn, chuyện thụ thai/nuôi lớn, toàn nếp xuất gia, bốn thiền và sáu cửa giải thoát. Chi tiết trở về khất thực ở 38.1 đã bổ sung và đọc lại.",
+        "logic_context": "Phân biệt thức duyên sinh với thức bất biến, ba điều kiện thụ thai, tâm chưa tu và đã tu, ba loại thọ cùng hai chuỗi thủ/hữu/sinh/khổ. Các lượt hỏi ngược được gộp nhưng giữ đủ mười một quan hệ.",
+        "terminology": "Giải thức, ái, thủ, hữu, sáu xứ, danh sắc, năm chướng ngại và tầm/tứ/hỷ/lạc theo mạch đọc. Gandhabba được giữ giới hạn diễn giải; các thuật ngữ và danh hiệu vẫn cần đọc thong thả cùng người lớn ở đoạn dài.",
+        "audience_fit": "Câu hỏi gần gũi, ví dụ đồ chơi và cách hỏi thay giành giúp trẻ có quyền quan sát, không phục tùng. Phần ba điều kiện và chuỗi duyên vẫn khó, đã chia thành các mục để đọc từng lần; chưa thử với trẻ thật.",
+        "clarity": "Tiến trình từ Sāti đến điều kiện, nắm giữ, con đường tu rồi buông giữ theo được. Hai chuỗi đầy đủ và danh mục giới làm bài khá dày; các tiêu đề riêng giúp chia nhịp mà không xóa phần khó.",
+        "editorial_separation": "Ví dụ quảng cáo và thực hành có nhãn riêng; sữa gọi máu được quy về ngôn ngữ Thánh luật, nếp ăn được định rõ của người xuất gia, không thêm nguồn ngoại vi chỉ được chú thích nhắc tên.",
+        "practical_integrity": "Khoảng dừng để nhận ra thấy/dễ chịu/muốn vừa sức; không đồng nhất với thiền chứng hay đoạn tái sinh. Giữ chỗ cho vui chơi lành mạnh và không áp lịch ăn xuất gia cho trẻ.",
+        "technical_integrity": "Audit độc lập sau sửa không có lỗi cấu trúc hay nguồn; mã ý, tác giả, Unicode và ba contentHash cùng năm sourceHash đã được lấy từ công cụ chuẩn. Đây không thay cho build của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root/writer_a đối với bản /root/writer_c; cùng công cụ gpt-6-astra-pro. Đã đọc đủ năm nguồn, toàn bản đồ và bản lứa tuổi; đọc lại mọi đoạn 38.1 sửa trước lấy hash. Không có người đọc thật hoặc chuyên gia Pāli bên ngoài tham gia.",
+      "contentHash": "0d1c386b6c684e06e3009722f6c4385ad16a830fe11d23013363f39b91a12607",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn38.html",
+          "sha256": "c7d21dc31c5dd170b997baf6d1788ab96ca91b275074ff6eaa905b79acc50322"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+          "sha256": "7cd8a193af12715649a2fe84346a0f43743cb8dfb4efb6e9e273742cecece94d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
+          "sha256": "a5c7150d016f31223daf91d0ba42a5ff5c299c88c13b6149561432eca6d2a253"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn38_comment-vi-project.json",
+          "sha256": "6377440cf75d9493cb70cb72b61a9f104775c36fdb5c8054e779cea2abf5112e"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn38_translation-vi-project.json",
+          "sha256": "775b81d5e4c134f92ebb1aa23fee234d73cb0917da5ffe757285a1eade1b7c1f"
+        }
+      ]
+    },
+    {
+      "id": "73634e04-d7e3-44af-bb55-9ab5e9b1a330",
+      "audience": "adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.4,
+        "audience_fit": 9.5,
+        "clarity": 9.4,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Năm nguồn thực đọc và pin được nối bằng SHA256, hai blob Pāli/Sujato được kiểm với manifest. Bản đồ 49 ý phản ánh các câu hỏi lặp, khoảng trống Anh, sắc thái 24.8 và công thức thiền đầy đủ từ HTML thực.",
+        "semantic_fidelity": "Hai hướng ái/thủ/hữu/sinh và đoạn diệt được giữ tới toàn khối khổ; giải thoát tâm/tuệ không bị thu thành một mẹo quyết định. Sāti không được gán chuyển hóa hay chứng quả ở phần kết.",
+        "core_coverage": "Đủ mở đầu, năm lượt kiểm tri kiến, bè, thức ăn, chuỗi hai chiều, ba cụm hỏi về mình, sinh ra/nuôi lớn, giới/căn/tỉnh giác/độc cư/thiền và buông giữ đủ sáu giác quan. 38.1 đã được bổ sung khất thực.",
+        "logic_context": "Phân định đúng người nói, điều kiện còn/diệt, phạm vi ba cảm thọ và điều kiện đầy đủ ở thụ thai; giữ sự khác nhau giữa bốn thiền. Việc gộp câu hỏi ngược không đổi mười một mối nhân duyên.",
+        "terminology": "Các tên sáu thức, đoàn thực, danh sắc, hành, hôn trầm/trạo hối và các chi thiền có lời mở. Giữ gandhabba không chốt nghĩa ngoài nguồn; mệnh đề 24.8 dùng phần chung của các cách đọc và ghi giới hạn trong hồ sơ.",
+        "audience_fit": "Mạch lập luận dùng điều kiện và tiền đề rõ; tình huống thông báo mua hàng, nhu cầu và trách nhiệm hợp người trưởng thành. Không rút bài về năng suất hay tiêu dùng và không giả định một kiểu gia đình duy nhất.",
+        "clarity": "Các phần nối từ bất đồng sang kiểm chứng rồi toàn đường tu; nêu rõ năm lượt kiểm và hai chiều sinh/diệt giúp theo dõi. Mục thiền và danh mục giới có mật độ cao nhưng không lặp phần giải nghĩa vô ích.",
+        "editorial_separation": "Ví dụ và gợi ý hiện đại được đặt riêng, cả hai ghi giới hạn một đoạn nhỏ; sữa, gandhabba, quan hệ lệ thuộc cổ và kỷ luật giờ ăn có văn cảnh rõ, không giả thành khoa học hay lời dạy mới.",
+        "practical_integrity": "Đề nghị nhận diện thôi thúc trước quyết định gắn với trách nhiệm thực tế, không hứa thiền chứng hoặc hết khổ tức thời. Mục tiêu đoạn tận ái được nói ở cả chuỗi diệt, phần tự do và lời kết.",
+        "technical_integrity": "Audit cuối và đối chiếu sourceHash đều sạch; mapping cùng nội dung đúng bản đã đọc lại, tác giả hợp registry. Hồ sơ không ghi metadata hay trạng thái xuất bản và không giả việc kiểm Actions."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root/writer_a đối với bản /root/writer_c; cùng công cụ gpt-6-astra-pro. Đã đọc đủ năm nguồn, toàn bản đồ và bản lứa tuổi; đọc lại mọi đoạn 38.1 sửa trước lấy hash. Không có người đọc thật hoặc chuyên gia Pāli bên ngoài tham gia.",
+      "contentHash": "21d7a272d330ecf525d406b08b67bccfdfbf45813a3a2119dac19dd44abecbb6",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn38.html",
+          "sha256": "c7d21dc31c5dd170b997baf6d1788ab96ca91b275074ff6eaa905b79acc50322"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+          "sha256": "7cd8a193af12715649a2fe84346a0f43743cb8dfb4efb6e9e273742cecece94d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
+          "sha256": "a5c7150d016f31223daf91d0ba42a5ff5c299c88c13b6149561432eca6d2a253"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn38_comment-vi-project.json",
+          "sha256": "6377440cf75d9493cb70cb72b61a9f104775c36fdb5c8054e779cea2abf5112e"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn38_translation-vi-project.json",
+          "sha256": "775b81d5e4c134f92ebb1aa23fee234d73cb0917da5ffe757285a1eade1b7c1f"
+        }
+      ]
+    },
+    {
+      "id": "8dbf2dc0-a41b-40e0-ac46-e66eefe3c15d",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.6,
+        "terminology": 9.4,
+        "audience_fit": 9.5,
+        "clarity": 9.4,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Nguồn được đọc độc lập trước reset, dấu byte hiện tại khớp hồ sơ nguồn cùng pin và được kiểm lại. 49 ý/445 khóa giữ các chỗ 24.8, gandhabba, sữa và công thức thiền trong giới hạn nguồn phụ.",
+        "semantic_fidelity": "Thức theo duyên khác cái biết thường hằng; việc cảm nhận còn diễn ra khi không nắm giữ được trình bày rõ. Hai chuỗi dẫn tới toàn khổ/khổ diệt và kết về Sāti vẫn mắc ái không bị bỏ.",
+        "core_coverage": "Mọi đơn vị có phần diễn giải thực: bối cảnh, hỏi ba điều, bè, bốn thức ăn, quá khứ/hiện tại/tương lai, thai/sữa/trò chơi/dục, giới và con đường thiền. Trở về từ khất thực đã thêm tại nơi chuẩn bị ngồi.",
+        "logic_context": "Giữ ba tình huống thụ thai, sáu thức/sáu cửa, ba cảm thọ, tâm hữu hạn/vô lượng và các bước khổ dứt theo duyên. Hai mươi hai quan hệ hỏi ngược trong hai hướng được chỉ rõ, không thay bằng thông điệp chung.",
+        "terminology": "Mở các thuật ngữ cảm thọ, thủ/hữu, niệm tỉnh giác, năm chướng ngại và bốn thiền; xả được giải là quân bình. Gandhabba không được ép thành linh hồn; phần giới và danh hiệu vẫn có độ chuyên biệt được ghi nhận.",
+        "audience_fit": "Nhịp chia mục riêng cho cả bè, hai chuỗi và thiền phù hợp đọc thong thả; ví dụ bản nhạc và ký ức không mặc định người lớn tuổi bệnh, cô đơn hay suy giảm khả năng. Không có dữ liệu thử đọc thực tế.",
+        "clarity": "Mở bằng cách xem lại điều đã tin nối với Sāti và phần tự biết; ví dụ ký ức nối đúng một đoạn bám thọ. Hai chuỗi và danh mục dài cần đọc chậm, nhưng tiêu đề và lời mở giữ đường đi dễ theo.",
+        "editorial_separation": "Liên hệ nhạc, gợi ý trước khi nói được đánh dấu hiện đại; giữ cách gọi sữa trong văn cảnh và kỷ luật xuất gia trong bối cảnh riêng. Nhãn cuối phẩm được gọi là nhãn, không thành lời Phật mới.",
+        "practical_integrity": "Gợi ý quan sát cảm thọ rồi chọn lời thật và tử tế có giới hạn; không xua mọi niềm vui, không bỏ trách nhiệm và không dùng khoảng dừng để tự chứng nhận thiền hay giải thoát.",
+        "technical_integrity": "Sau đọc lại mục secluded và map sửa, audit không lỗi; contentHash mới gắn đúng cả bản đồ lẫn bản lớn tuổi và đủ năm sourceHash. Kiểm kỹ thuật không được thay cho đánh giá nghĩa hoặc build lô."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root/writer_a đối với bản /root/writer_c; cùng công cụ gpt-6-astra-pro. Đã đọc đủ năm nguồn, toàn bản đồ và bản lứa tuổi; đọc lại mọi đoạn 38.1 sửa trước lấy hash. Không có người đọc thật hoặc chuyên gia Pāli bên ngoài tham gia.",
+      "contentHash": "d2690efa88f46e9c2708ba618ff08d1740bd8434ca2eb954883c44960ba25ff8",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn38.html",
+          "sha256": "c7d21dc31c5dd170b997baf6d1788ab96ca91b275074ff6eaa905b79acc50322"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+          "sha256": "7cd8a193af12715649a2fe84346a0f43743cb8dfb4efb6e9e273742cecece94d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
+          "sha256": "a5c7150d016f31223daf91d0ba42a5ff5c299c88c13b6149561432eca6d2a253"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn38_comment-vi-project.json",
+          "sha256": "6377440cf75d9493cb70cb72b61a9f104775c36fdb5c8054e779cea2abf5112e"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn38_translation-vi-project.json",
+          "sha256": "775b81d5e4c134f92ebb1aa23fee234d73cb0917da5ffe757285a1eade1b7c1f"
+        }
+      ]
+    }
+  ]
+}

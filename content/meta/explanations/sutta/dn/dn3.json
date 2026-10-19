@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn3",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "a41fff48-8f38-4fee-b828-e6c277a6375c"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "6409ff7d-8768-42cb-80a7-7bf010c580a6"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "9e4b7704-023e-47d0-9197-1f800948e7d0"
+    }
+  },
+  "reviews": [
+    {
+      "id": "a41fff48-8f38-4fee-b828-e6c277a6375c",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.6,
+        "terminology": 9.2,
+        "audience_fit": 9.1,
+        "clarity": 9.2,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đủ năm nguồn thực và so 437 khóa: c05 giữ bước lên hiên ở 1.8.5 thay cách đọc không vượt hành lang trong HTML; c07 giữ Ambaṭṭha định hạ Phật ở 1.12.2; c11/c17 dùng đúng bốn tên vương tử và Maddarūpī theo Pāli. C33 đã bổ sung rửa tay và bát theo 2.20.5. Nguồn pin đã được kiểm, nhưng đây vẫn là kiểm của mô hình, không phải chuyên gia Pāli.",
+        "semantic_fidelity": "C08 phân biệt tiếng cười và ý nghĩ dường như nhắm mình; c12/c15 giữ dāsiputta là nguồn tổ tiên, không nói mẹ trực tiếp của Ambaṭṭha là Disā, và nói Phật cùng trò đều thấy dạ-xoa. C30 giữ lời than có thể đọa do một người lo việc như vậy thuộc Pokkharasāti, đúng lựa chọn cú pháp atthacarakena trong chú thích. Không thấy đảo chủ thể hoặc phủ định trọng yếu còn lại.",
+        "core_coverage": "37 phần nối đủ 51 đơn vị, giữ ba lần miệt thị, bảy báu/hai hướng, hai hôn phối/hai khai trừ, kệ hai vế, bốn thiền đủ chi riêng, tâm định hướng tri kiến, bốn lối với điều kiện cộng dồn, mười ẩn sĩ/năm câu hỏi, hai lần xem tướng và hậu truyện. Các phần lặp được rút có dấu vết rõ; mốc Pháp nhãn chỉ cho thầy được giữ, chưa gán cho trò hay gia đình.",
+        "logic_context": "C18–21 đi từ quy tắc dòng họ mà nhân vật chấp nhận tới kệ giới hạn bởi người lấy dòng họ làm chuẩn, rồi bỏ bốn trói buộc; không thay bài thành lời khuyên xã giao đơn giản. C16 giữ việc Phật ngăn đám đông làm nhục ngay sau truy nguồn. C24–25 giữ mỗi lối chưa đạt các bước trước và năm lần tự nhận thiếu, không biến tiếp khách thành điều xấu nói chung.",
+        "terminology": "Minh được giải thích gắn giải thoát khỏi tái sinh, khác thuộc Veda; hạnh gồm bốn thiền, tầm-tứ/xả-niệm được giải bằng lời gần gũi. Danh hiệu và Pháp nhãn vẫn mang nghĩa tôn giáo. Các từ như Chuyển Luân Vương, Phạm chú, Sát-đế-lợi và mười tên ẩn sĩ tạo tải thuật ngữ cao, dù có câu dẫn và phân đoạn.",
+        "audience_fit": "Bản dùng anh/em, câu hỏi quan sát và ví dụ chơi công bằng, giúp trẻ nối việc học với hành vi. Chuyện nguồn gốc, dạ-xoa và các tướng được kể trung tính, có clarification riêng, không mở rộng chi tiết gây sợ hay kích thích. Tuy nhiên 37 phần và câu chuyện xã hội cổ phức tạp vẫn phù hợp đọc từng đoạn có hỗ trợ; chưa thử với trẻ thật.",
+        "clarity": "Tiêu đề tuần tự và các số lần giúp theo dõi ai đang nói, đặc biệt c07–09 và c18–20. C33 đã làm rõ chính Phật ăn xong; c03 đã ghi môn thứ năm và hiểu từng từ. Những đoạn danh mục, hôn phối và nguồn họ vẫn cần đọc chậm; sự đầy đủ khiến văn bản dài hơn một bài nhập môn ngắn.",
+        "editorial_separation": "C13 là clarification riêng; c36 và c37 mang nhãn example/practice và nói rõ do biên soạn. Lời miệt thị, truyện giữ huyết thống, dạ-xoa, mũi tên và thầy đá trò được nhận đúng tác nhân và phạm vi kể chuyện. Bình giải không trình bày lời chống phân biệt hiện nay như một câu trích của Phật, cũng không xóa nội dung tôn giáo khó.",
+        "practical_integrity": "Bài tập tách điều thật thấy/nghe khỏi suy đoán, hỏi lại bình tĩnh và ngăn công kích gia đình có cơ sở ở 1.13 và 1.23. Không hướng trẻ dùng đe dọa, vũ khí, đánh người hay tự kiểm thân thể để xác nhận các tướng; ví dụ cũng nói chưa thay thế minh-hạnh. Tính hữu ích chỉ được đánh giá bằng nội dung, chưa có bằng chứng thực hành với trẻ.",
+        "technical_integrity": "Audit sau sửa có errors=[] và sourceErrors=[], đủ năm dependency; git diff --check sạch. Cả 51 đơn vị được nối qua teaching/clarification, JSON/kind/NFC hợp lệ. Hash bản trẻ dbdd5375726b54a28b6eefc579f9a7029e46518bd11145ede4f4f2b4b81e39c2. Chưa có lượt kiểm giao diện hoặc đọc thành tiếng riêng trong cuộc thẩm định này."
+      },
+      "blockingErrors": [],
+      "notes": "Author_b kiểm độc lập bản DN3 do root soạn, khác tác nhân nhưng cùng họ mô hình gpt-6-astra-pro; chưa có độc giả thật thuộc ba nhóm tuổi. Đã đọc trọn năm nguồn, gồm 437 khóa Pāli/Sujato/Việt dự án, năm chú thích và toàn văn HTML Minh Châu, cùng 51 đơn vị nghĩa và cả ba bản. Sau lượt đọc đã sửa các chi tiết nhỏ: chủ thể và rửa tay/bát ở 2.20.5, môn thứ năm/hiểu từng từ ở trẻ và lớn tuổi, chữ Gần đó, diễn đạt tầm-tứ ở trẻ và Khi biết tâm ở lớn tuổi. Không sửa canonical; không mở rộng DN2 vào các lược của DN3. Điểm dưới đây đánh giá bản sau sửa, không thay thế thẩm định chuyên gia hoặc người đọc mục tiêu.",
+      "contentHash": "dbdd5375726b54a28b6eefc579f9a7029e46518bd11145ede4f4f2b4b81e39c2",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn3.html",
+          "sha256": "fafeb8820876e45d398713a38374deae3087c394439a91f423d859de92df5cb7"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
+          "sha256": "c7e31c3bc08c510d66ad9f3aa35da19fb3384b26ae7b4f60493b9025de537621"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json",
+          "sha256": "d7aa85847878d2f80bd4e28b1806d713bd3b48c5fdbdd223288045e6765fee4b"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn3_comment-vi-project.json",
+          "sha256": "e72a2c4c775a1e60bbad2ebf84249498fe60c847469f115a6c5119dc616e610d"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn3_translation-vi-project.json",
+          "sha256": "5380aab36b0795a3ce888e88a312dc713898510ad1cf5456d61d5d0b4e8866d6"
+        }
+      ]
+    },
+    {
+      "id": "6409ff7d-8768-42cb-80a7-7bf010c580a6",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.5,
+        "logic_context": 9.6,
+        "terminology": 9.4,
+        "audience_fit": 9.4,
+        "clarity": 9.3,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu trực tiếp toàn bộ năm nguồn: Pāli, Sujato gốc, Việt dự án, HTML Minh Châu và năm chú thích. A15 giữ Maddarūpī và đất rung ở 1.23 thay tên và hạn khô trong HTML; a21–22 giữ chi thiền/tri kiến mà HTML dẫn sang DN2. A32 đã bổ sung chi tiết 2.20.5; không coi lời dẫn chéo là đã đọc hay tái tạo nguồn được dẫn.",
+        "semantic_fidelity": "A07 giữ maññe trong việc Ambaṭṭha cho rằng bị cười; a10 phân biệt dòng dõi với mẹ trực tiếp, a13 không thêm chỉ vào việc hai người thấy dạ-xoa. A30 giữ tác nhân, thể có thể và người chịu hại trong atthacarakena ở 2.15.2. Hai lý do mẫu hệ/phụ hệ và hai hướng câu đáp khi trục xuất ở a16–17 được đối chiếu đúng.",
+        "core_coverage": "36 phần phủ 51 đơn vị và toàn mạch 437 khóa, gồm toàn bộ danh mục bảy báu, bốn vương tử, mười ẩn sĩ, năm lối hưởng thụ, bốn tầng thiền và bốn apāyamukha có các điều kiện tăng dần. Cuộc gặp thầy sau chuyến trò, hai lượt xem tướng và pháp tuần tự đều có. Các công thức lặp rút gọn đúng phạm vi, không bỏ một kết luận giáo nghĩa của đoạn.",
+        "logic_context": "A16–19 phân biệt phép so trong chuẩn dòng họ với thành tựu minh-hạnh ngoài bốn trói buộc, giữ sự tán đồng và lặp kệ của Phật. A14 ngăn đám đông miệt thị là bước thật trong cuộc đối thoại. A23–25 không biến bốn lối thành bốn pháp thành tựu; a29/a34 phân biệt xem tướng, quy y và Pháp nhãn, không suy chứng ngộ hàng loạt.",
+        "terminology": "Minh-hạnh, tầm-tứ, tri kiến và phạm hạnh được đặt đúng tiến trình thiền và giải thoát; ba Veda không gọi nhầm ba minh. A30 giải thích lựa chọn atthacarakena theo chú thích, có giữ giới hạn lời than của thầy. Cách gọi bờm đuôi được chăm sửa ở 2.10.8 có hỗ trợ ở HTML, nhưng là phần dịch tên chi tiết cổ còn khác cách diễn Sujato nên chưa chấm tối đa.",
+        "audience_fit": "Bản người lớn phân tích được sự chứng nhận học vấn, uy thế, suy đoán và thực hành, với ví dụ trao đổi nghề nghiệp phù hợp. Chiều kích tôn giáo, các chi thiền và giải thoát được giữ trọn thay vì chỉ nhấn bình đẳng xã hội. Một số đoạn về phương pháp đọc/cú pháp dài và thiên về người đã quen kinh; chưa có độc giả thật kiểm độ dễ đọc.",
+        "clarity": "Mạch được chia rõ theo ba lần miệt thị, các phép so, minh-hạnh và hậu truyện; danh sách quan trọng có số hoặc diễn đạt song song. A16 nêu riêng lý do phía mẹ/phía cha, a23–24 tách bốn lối thành hai cặp. Tuy vậy mật độ thuật ngữ và các ghi chú về văn bản còn cao, nhất là a30, nên độ lưu loát có giới hạn thực.",
+        "editorial_separation": "A11 mang kind clarification, a35/a36 là example/practice, nói rõ liên hệ chỉ soi một phần và không thay nghĩa giải thoát. Lời các nhân vật và các yếu tố truyền tích được quy thuộc; không tự đặt nguyên do lịch sử cho tấm màn ở 2.6. Bản kể các tình tiết bạo lực có thật trong nguồn mà không dùng như chuẩn tranh luận hay giáo dục hiện đại.",
+        "practical_integrity": "Ứng dụng yêu cầu đối chiếu phẩm chất mình viện với việc làm, hỏi lại điều chưa rõ và ngăn công kích thân thế, sát các ví dụ lời vua/ẩn sĩ và hành động ngăn miệt thị. Không dùng một vài hành vi cư xử tốt để bảo đảm minh-hạnh hay quả chứng, không biến cảnh thần thông thành chỉ dẫn thực hiện. Hiệu quả của bài tập chưa được đánh giá ngoài đối chiếu nguồn.",
+        "technical_integrity": "Audit DN3 sau sửa trả errors=[] và sourceErrors=[] với năm dependency, diff --check không lỗi. 51 đơn vị, nhãn phần và cấu trúc JSON hợp lệ; content hash người lớn 9e1c80dfb2e10e5b46dda288c454197bd531cd1c04a363a708f1ac42835875fd. Đây là kiểm nguồn/nội dung và schema, chưa phải kiểm đầy đủ giao diện trên thiết bị người dùng."
+      },
+      "blockingErrors": [],
+      "notes": "Author_b kiểm độc lập bản DN3 do root soạn, khác tác nhân nhưng cùng họ mô hình gpt-6-astra-pro; chưa có độc giả thật thuộc ba nhóm tuổi. Đã đọc trọn năm nguồn, gồm 437 khóa Pāli/Sujato/Việt dự án, năm chú thích và toàn văn HTML Minh Châu, cùng 51 đơn vị nghĩa và cả ba bản. Sau lượt đọc đã sửa các chi tiết nhỏ: chủ thể và rửa tay/bát ở 2.20.5, môn thứ năm/hiểu từng từ ở trẻ và lớn tuổi, chữ Gần đó, diễn đạt tầm-tứ ở trẻ và Khi biết tâm ở lớn tuổi. Không sửa canonical; không mở rộng DN2 vào các lược của DN3. Điểm dưới đây đánh giá bản sau sửa, không thay thế thẩm định chuyên gia hoặc người đọc mục tiêu.",
+      "contentHash": "9e1c80dfb2e10e5b46dda288c454197bd531cd1c04a363a708f1ac42835875fd",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn3.html",
+          "sha256": "fafeb8820876e45d398713a38374deae3087c394439a91f423d859de92df5cb7"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
+          "sha256": "c7e31c3bc08c510d66ad9f3aa35da19fb3384b26ae7b4f60493b9025de537621"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json",
+          "sha256": "d7aa85847878d2f80bd4e28b1806d713bd3b48c5fdbdd223288045e6765fee4b"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn3_comment-vi-project.json",
+          "sha256": "e72a2c4c775a1e60bbad2ebf84249498fe60c847469f115a6c5119dc616e610d"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn3_translation-vi-project.json",
+          "sha256": "5380aab36b0795a3ce888e88a312dc713898510ad1cf5456d61d5d0b4e8866d6"
+        }
+      ]
+    },
+    {
+      "id": "9e4b7704-023e-47d0-9197-1f800948e7d0",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.6,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.4,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc đủ 437 khóa Pāli/Sujato/Việt, năm chú thích và toàn bộ HTML Minh Châu trước khi đánh giá 51 đơn vị và ba bản. O05 giữ bước lên hiên, o09–17 giữ nguồn tổ tiên cùng tên Pāli và đất rung trong truyện mũi tên. O34 đã thêm rửa tay/bát ở 2.20.5; không lấy số key hoặc hash thay cho việc đọc nguồn.",
+        "semantic_fidelity": "O07 phân biệt suy đoán về tiếng cười; o11 giải nghĩa dāsiputta theo nguồn dòng họ, o15 giữ hai người đều thấy dạ-xoa. O32 giữ lời về địa ngục của Pokkharasāti dưới thể có thể, không đổi thành Phật tuyên án trò. O18–19 giữ đúng hai chiều hôn phối, mẹ/cha, cùng các đáp án trái nhau của hai trường hợp khai trừ.",
+        "core_coverage": "38 phần có đủ các đơn vị của mở bài, ba lần miệt thị, các truyện nguồn gốc, kệ và bốn trói buộc, bốn thiền với chi riêng, tâm định/tri kiến/giải thoát, bốn lối chưa đạt, mười ẩn sĩ/năm khác biệt và cuộc gặp người thầy. O03 đã phục hồi môn thứ năm và hiểu từng từ; o35 giữ việc Phật biết tâm đủ điều kiện trước bốn sự thật.",
+        "logic_context": "O20 giữ hai vế kệ và điều kiện lấy dòng họ làm chuẩn; o21 chuyển rõ sang bỏ trói buộc, không chỉ thay giai cấp đứng đầu. O25–27 giữ thiếu thành tựu cùng từng lối trước và cả năm câu nhận chưa có. O31–36 không suy từ đủ tướng sang quy y của Ambaṭṭha hoặc từ lời quy y chung sang Pháp nhãn chung.",
+        "terminology": "Các phần o22–24 tách hạnh là bốn thiền và minh hướng giải thoát, giải thích tầm-tứ gần khi dùng, không gọi sự thư thái thường ngày là thiền. O21 đặt kiêu mạn/cưới gả dưới nghĩa bị trói buộc. Nhiều danh hiệu, tên riêng và Phạm chú/Phạm hình vẫn đòi nền đọc nhất định, nên mức phù hợp thuật ngữ chưa tuyệt đối.",
+        "audience_fit": "Bản chia hai tầng thiền đầu/sau và bốn lối thành hai cặp, có 38 điểm nghỉ rõ, phù hợp việc đọc từng phần và quay lại. Ví dụ kinh nghiệm nghề nghiệp/con cháu không coi tuổi cao tự thành trí tuệ hay khổ đau; giữ sự tôn trọng người đọc. Chưa có độc giả lớn tuổi thật, và số tên riêng khiến không thể mặc nhiên xem là dễ cho mọi người.",
+        "clarity": "Đoạn văn nhìn chung ngắn và cùng chủ thể; tiêu đề o27 nói năm câu nhận rồi thân bài phân biệt thành tựu và bốn lối. O34 đã làm rõ Phật là người ăn xong; o35 thêm khi biết tâm để giữ tiến trình lời dạy. Các đoạn hôn phối và tên ẩn sĩ vẫn dày nhưng không thấy lẫn câu hỏi với đáp án sau lượt đọc toàn bản.",
+        "editorial_separation": "O12 là clarification; o37/o38 được đánh dấu example/practice và nêu giới hạn liên hệ. Các truyện nô lệ, hôn phối, dạ-xoa, mũi tên, thầy đá trò được đặt đúng tác nhân và bối cảnh; không xóa phần khó hoặc biến thành khuyến nghị hiện đại. Một số câu hướng dẫn cách đọc lẫn trong teaching nhưng được nhận là bình giải, không trích nguyên văn.",
+        "practical_integrity": "Gợi ý hỏi điều biết chắc so với điều suy, nối học với làm và đưa tranh luận khỏi bêu riếu thân thế có căn cứ ở 1.13, 1.23, 2.8. Bản không hứa hết khổ hoặc chứng thiền chỉ nhờ bài tập, không yêu cầu lặp hành vi bạo lực hoặc khổ hạnh của truyện. Phù hợp suy ngẫm ở mức văn bản; chưa kiểm tác dụng với người thực hành.",
+        "technical_integrity": "Audit/schema sau sửa sạch, errors=[] và sourceErrors=[], đủ năm dependency; git diff --check riêng DN3 không lỗi. Mỗi đơn vị có phần teaching/clarification tương ứng, JSON/NFC hợp lệ; hash lớn tuổi ccc7b95c6a6e508e502dc8519e6651e36d84c648ae861b65080b7fa2bc6cf93f. Chưa có thử đọc thành tiếng hoặc kiểm giao diện riêng cho nhóm tuổi này."
+      },
+      "blockingErrors": [],
+      "notes": "Author_b kiểm độc lập bản DN3 do root soạn, khác tác nhân nhưng cùng họ mô hình gpt-6-astra-pro; chưa có độc giả thật thuộc ba nhóm tuổi. Đã đọc trọn năm nguồn, gồm 437 khóa Pāli/Sujato/Việt dự án, năm chú thích và toàn văn HTML Minh Châu, cùng 51 đơn vị nghĩa và cả ba bản. Sau lượt đọc đã sửa các chi tiết nhỏ: chủ thể và rửa tay/bát ở 2.20.5, môn thứ năm/hiểu từng từ ở trẻ và lớn tuổi, chữ Gần đó, diễn đạt tầm-tứ ở trẻ và Khi biết tâm ở lớn tuổi. Không sửa canonical; không mở rộng DN2 vào các lược của DN3. Điểm dưới đây đánh giá bản sau sửa, không thay thế thẩm định chuyên gia hoặc người đọc mục tiêu.",
+      "contentHash": "ccc7b95c6a6e508e502dc8519e6651e36d84c648ae861b65080b7fa2bc6cf93f",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn3.html",
+          "sha256": "fafeb8820876e45d398713a38374deae3087c394439a91f423d859de92df5cb7"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
+          "sha256": "c7e31c3bc08c510d66ad9f3aa35da19fb3384b26ae7b4f60493b9025de537621"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json",
+          "sha256": "d7aa85847878d2f80bd4e28b1806d713bd3b48c5fdbdd223288045e6765fee4b"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn3_comment-vi-project.json",
+          "sha256": "e72a2c4c775a1e60bbad2ebf84249498fe60c847469f115a6c5119dc616e610d"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn3_translation-vi-project.json",
+          "sha256": "5380aab36b0795a3ce888e88a312dc713898510ad1cf5456d61d5d0b4e8866d6"
+        }
+      ]
+    }
+  ]
+}

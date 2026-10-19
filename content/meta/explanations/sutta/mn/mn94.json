@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn94",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "8c8c988e-3829-4ad8-aca4-b4ccc8b79c74"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "49c449e9-9e2e-471b-9c7b-5573d839be5e"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "2e1c6ba3-2103-4b26-8469-14010d0a0f7d"
+    }
+  },
+  "reviews": [
+    {
+      "id": "8c8c988e-3829-4ad8-aca4-b4ccc8b79c74",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.8,
+        "terminology": 9.4,
+        "audience_fit": 9.2,
+        "clarity": 9.3,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc đủ năm nguồn. Bản trẻ giữ lông cú, ba lần tắm trong ngày kể cả chiều, ngựa trong sáu nhóm vật tế và mười ba số đời theo Pāli; không theo các chỗ lệch hoặc lược trong HTML.",
+        "semantic_fidelity": "Bốn hạng có cả hành vi lẫn sự chuyên theo. Hạng thứ tư được giải bằng toàn đường tu tới chấm dứt tái sinh; hình ảnh không đói khát được đặt trong sự an tịnh, không biến thành lời dạy bỏ ăn.",
+        "core_coverage": "Ba mươi mục phủ đủ 56 ý: ba điều kiện đối thoại, bốn lý do, các danh mục khổ hạnh, giới, sáu căn, bốn thiền, ba trí, hai lời quy y và giảng đường đã xây. Phụ nữ và con gái đều có sau sửa.",
+        "logic_context": "Khách chờ lời mời ngồi; vua hoặc bà-la-môn giàu là người nằm nền và chủ lễ khác tư tế. Việc thường thấy người an tịnh ở đoàn xuất gia không thành lời khẳng định mọi người xuất gia đều như vậy.",
+        "terminology": "Tỳ-kheo, tầm tứ, hỷ lạc, xả, nghiệp, lậu hoặc và nhập diệt được mở nghĩa. Một số tên vật liệu cổ và y kép vẫn đòi hỏi đọc chậm; chúng nằm trong danh mục câu chuyện, không thành yêu cầu thực hành.",
+        "audience_fit": "Ghế ngồi, chim mang cánh và món quà của lớp giúp trẻ hình dung; ví dụ và bài tập dùng việc gần gũi. Các danh sách dài vẫn khá nặng với trẻ nhỏ, dù đã chia thành các mục ngắn.",
+        "clarity": "Phần hành khổ tách đồ ăn, vật liệu, nghề nghiệp và lễ tế; người đọc theo được từng hạng. Hai lượt quy y được tách riêng, giúp nhận rõ Udena hướng người học về Phật đã nhập diệt.",
+        "editorial_separation": "Ví món quà lớp học và gợi ý trao đổi có nhãn hiện đại riêng. Hình ảnh chim và bốn cách làm sáng lời dạy nằm đúng trong kinh; khổ hạnh được kể với thái độ nhận diện, không hướng dẫn trẻ làm theo.",
+        "practical_integrity": "Bài tập nhận điều có lý, hỏi lại và tránh làm nhục nhau vừa sức. Phần cúng dường hướng đến lợi ích chung; văn không hứa rằng một cuộc nói chuyện tốt đã thay thế cả con đường giải thoát.",
+        "technical_integrity": "Audit độc lập sạch; 56 ý phủ đúng 203 khóa Pāli. Đã đọc lại trọn simple cùng map receiving sau sửa, năm hash nguồn trùng checkpoint thực đọc và fingerprint khớp bản freeze cuối."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập đủ năm nguồn, toàn 56 ý/203 khóa và ba bản; hai nhóm sửa tại bốn mục và một summary đã đọc lại trọn. Audit sạch, hash khớp freeze cuối.",
+      "contentHash": "6feb505e9489754ad582c22f9b1621d360c15dc68f86bd7d71af403f21479948",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn94.html",
+          "sha256": "07b7f9857f73d0b86dee212dc83beb002f8a794a1ecb1070e755634d2da4df74"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
+          "sha256": "a3f9b380f358f0bdd8e48d88ded7ab26814870dc57e921de2fa55b29743ae7ca"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json",
+          "sha256": "b2a4a7c475d9a0c06efb2e70bb199bf957b50c50085df89c222331e2d11cc1c7"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn94_comment-vi-project.json",
+          "sha256": "67d69ab2943f620566507427fc85350d482dd31a7cbdf3848916e918554bba34"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn94_translation-vi-project.json",
+          "sha256": "97704fdf42c8b7113cce6c39cad318f7b6b46851c0d3210858ce34a813ead56c"
+        }
+      ]
+    },
+    {
+      "id": "49c449e9-9e2e-471b-9c7b-5573d839be5e",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.5,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Năm nguồn đã đọc trực tiếp, gồm Sujato thật với 11 ô trống. Bản trưởng thành giữ bốn nền tu có biết đủ, hỷ lạc sơ thiền do viễn ly, đầy đủ số đời và một phần trợ cấp thay vì cả khoản theo HTML.",
+        "semantic_fidelity": "Phân loại dựa trên làm khổ mình và người, rồi dẫn tới giới, định, trí giải thoát. Hai bộ bốn về khổ và lậu hoặc, ba loại lậu và sự biết đã giải thoát giữ nguyên ý, không bị thu hẹp thành quản lý căng thẳng.",
+        "core_coverage": "Hai mươi bốn mục giữ trọn 56 ý, đủ các nhóm nghề, khổ hạnh và giới, tám phẩm chất tâm trước mỗi trí, sáu khoảng đường, hai lần quy y trọn đời và việc xây giảng đường đã xảy ra.",
+        "logic_context": "Ba điều kiện thảo luận cho phép phản bác đúng chỗ, không đòi phục tùng người giảng. Hai đoàn chỉ là nơi thường thấy hạng thứ tư; lời muốn đi gặp Phật vẫn là điều kiện sau khi biết Ngài đã nhập diệt.",
+        "terminology": "Kinh hành đã có nghĩa bước đi chú tâm ở mở đầu. Quán đảnh, tư tế, tỳ-kheo, niệm, tầm tứ, hỷ lạc, nghiệp và các lậu có giải thích; tên chất liệu cổ còn cần đọc theo ngữ cảnh liệt kê.",
+        "audience_fit": "Lập luận nhận định, kiểm lại và thay đổi quan điểm hợp người trưởng thành. Ví cuộc họp sau sai sót nối đúng hai mối quan tâm đối thoại và khổ của cả hai phía, không lấy công việc làm toàn nghĩa kinh.",
+        "clarity": "Mỗi hạng được tập trung thành một cụm, phần tu đi từ nếp sống đến tâm và trí. Các mục dài chia đoạn theo chức năng; đoạn refuges phân biệt rõ lời xin đầu, lời Udena sửa và lời xin sau.",
+        "editorial_separation": "Ví xử lý lỗi nhóm và phần hỏi cách hỗ trợ cộng đồng có nhãn riêng. Lời đánh giá của Ghoṭamukha, lời Udena giảng và người truyền kinh kể tên giảng đường đều có chủ thể rõ.",
+        "practical_integrity": "Gợi ý hỏi rõ trước khi sửa quan điểm và hỏi người nhận cách hỗ trợ là việc cụ thể. Không biến tiền cúng thành thước đo chứng ngộ; việc hỗ trợ cộng đồng vẫn đi cùng câu chuyện tu tập và giải thoát.",
+        "technical_integrity": "Đã đọc lại toàn opening, restraint và receiving sau tác giả sửa. Audit không lỗi nội dung hoặc nguồn, năm SHA khớp nguồn đã đọc và fingerprint của 24 mục đúng freeze mới."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập đủ năm nguồn, toàn 56 ý/203 khóa và ba bản; hai nhóm sửa tại bốn mục và một summary đã đọc lại trọn. Audit sạch, hash khớp freeze cuối.",
+      "contentHash": "f7d9ea6edf9286c75d93a4eb206feaab9f3ab907eeea3b4e241af93461468be0",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn94.html",
+          "sha256": "07b7f9857f73d0b86dee212dc83beb002f8a794a1ecb1070e755634d2da4df74"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
+          "sha256": "a3f9b380f358f0bdd8e48d88ded7ab26814870dc57e921de2fa55b29743ae7ca"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json",
+          "sha256": "b2a4a7c475d9a0c06efb2e70bb199bf957b50c50085df89c222331e2d11cc1c7"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn94_comment-vi-project.json",
+          "sha256": "67d69ab2943f620566507427fc85350d482dd31a7cbdf3848916e918554bba34"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn94_translation-vi-project.json",
+          "sha256": "97704fdf42c8b7113cce6c39cad318f7b6b46851c0d3210858ce34a813ead56c"
+        }
+      ]
+    },
+    {
+      "id": "2e1c6ba3-2103-4b26-8469-14010d0a0f7d",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đã đối chiếu cả năm nguồn, toàn HTML đến SC58 và credits. Bản lớn tuổi giữ phân chia sữa bốn vú, sáu nhóm vật tế, chín nơi vắng và ba loại kỳ thế giới; không theo các chỗ HTML thiếu hoặc khác.",
+        "semantic_fidelity": "Mỗi hạng gây khổ giữ đúng đối tượng, hạng cuối có đích giải thoát và chấm dứt tái sinh. Phật nhập diệt không thành mất chỗ quy y; Udena vẫn hướng sự nương tựa về chính Đức Phật ấy.",
+        "core_coverage": "Ba mươi hai mục bao trọn bốn hạng, bốn lý do, các nếp ăn và mặc, giới chi tiết, sáu căn, bốn thiền, ba trí, hai lời quy y và hai khoản xây giảng đường. Danh mục giới có thêm con gái đúng nguồn.",
+        "logic_context": "Các chủ thể trong lễ tế được gọi rõ, không lẫn tư tế với người tổ chức. Những điều sẵn lòng làm và việc thực sự đã xây được tách; tên Ghoṭamukhī được dẫn là lời người truyền kinh.",
+        "terminology": "Lời giải bà-la-môn, tư tế, niệm, tầm tứ, xả, nghiệp, lậu hoặc và do-tuần giúp người mới đọc. Các chất liệu áo và công thức thiền vẫn có độ khó riêng, nhưng đều nằm trong ngữ cảnh rõ.",
+        "audience_fit": "Nhịp 32 mục ngắn phù hợp đọc thong thả; chuyện gia đình mời nhìn lại nhận định mà không coi tuổi cao là yếu kém. Danh sách khổ hạnh và giới vẫn đòi hỏi tập trung, nên điểm phù hợp lứa tuổi không tuyệt đối.",
+        "clarity": "Lời mời ngồi, thỏa thuận đối thoại, hai lời quy y và việc xây giảng đường được tách thành các chặng dễ theo. Phần trí tái sinh không lẫn với lời phán đoán ngoại hình người đang sống.",
+        "editorial_separation": "Ví đối thoại giữa các thế hệ và bài thực hành được ghi rõ hiện đại. Những mô tả hành khổ và tiền cổ thuộc chuyện kinh, không trở thành lời khuyên nghi thức hay hướng dẫn tài chính hôm nay.",
+        "practical_integrity": "Gợi ý nhớ mong muốn an vui của cả hai bên, hỏi điều chưa hiểu và tìm việc giúp nhiều người cụ thể, vừa sức. Văn không hứa kết quả tâm linh từ một thao tác nhỏ hoặc yêu cầu người lớn tuổi ép thân.",
+        "technical_integrity": "Đã đọc lại trọn rules và map receiving sau sửa; audit sạch và đủ 203 khóa trong 56 ý. Fingerprint 32 mục khớp freeze cuối, năm hash nguồn khớp checkpoint độc lập, không ghi metadata."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập đủ năm nguồn, toàn 56 ý/203 khóa và ba bản; hai nhóm sửa tại bốn mục và một summary đã đọc lại trọn. Audit sạch, hash khớp freeze cuối.",
+      "contentHash": "ca4836b5850ebdc5622afa1463f45f44e0acca93596ba6db0447b22789224992",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn94.html",
+          "sha256": "07b7f9857f73d0b86dee212dc83beb002f8a794a1ecb1070e755634d2da4df74"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
+          "sha256": "a3f9b380f358f0bdd8e48d88ded7ab26814870dc57e921de2fa55b29743ae7ca"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json",
+          "sha256": "b2a4a7c475d9a0c06efb2e70bb199bf957b50c50085df89c222331e2d11cc1c7"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn94_comment-vi-project.json",
+          "sha256": "67d69ab2943f620566507427fc85350d482dd31a7cbdf3848916e918554bba34"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn94_translation-vi-project.json",
+          "sha256": "97704fdf42c8b7113cce6c39cad318f7b6b46851c0d3210858ce34a813ead56c"
+        }
+      ]
+    }
+  ]
+}

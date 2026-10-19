@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn21",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "49d717bc-147a-4888-97c3-f8e3fbbfa01f"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "5523b66c-78e6-48b3-9ba6-ed2d511d07df"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "211ac34d-2269-4312-bdf5-7b15e4aee847"
+    }
+  },
+  "reviews": [
+    {
+      "id": "49d717bc-147a-4888-97c3-f8e3fbbfa01f",
+      "audience": "children",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.6,
+        "logic_context": 9.4,
+        "terminology": 9.3,
+        "audience_fit": 9.2,
+        "clarity": 9.2,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc toàn bộ 227 khóa Pāli, Sujato, Việt dự án, đủ HTML Minh Châu và cả 7 chú thích. Bản giữ Phagguna và các tỳ-kheo-ni, tay trái cương/tay phải roi theo Pāli dù Sujato đảo tay, và cưa hai cán dù Minh Châu dùng hai lưỡi. Hash nguồn hiện tại khớp hồ sơ; các sách chỉ được chú thích nhắc tới không được coi là đã đọc.",
+        "semantic_fidelity": "Từ chuyện bảo vệ người quen, bản đi tới tâm từ với chính người nói rồi khắp thế giới, giữ đòi hỏi không ác ý trong giả định cái cưa. Không đổi lời dạy thành chỉ giữ vẻ mặt yên, thắng cuộc cãi hoặc chứng đắc tức thời. Một số câu giải nghĩa là diễn đạt sư phạm, được giới hạn theo ngữ cảnh.",
+        "core_coverage": "Đủ 21 đơn vị ý bao phủ 227 khóa: bốn tình huống của Phagguna, bữa ăn và xe ngựa, rừng sāla, ba lần Kāḷī thử, dễ khuyên vì Pháp, năm cặp lời, bốn phép ví và đoạn kết. Đã bổ sung rõ lần thứ ba dậy muộn hơn, giữ đủ bốn màu và vật dụng của mỗi phép ví; đoạn lặp được nối bằng lời nhắc cùng hướng tập.",
+        "logic_context": "Giữ đúng người nhận lời là các tỳ-kheo; lời nhẹ hay khó chịu không tự quyết định thật hay giả. Giữ hai chiều tranh tụng và điều kiện nếu thường suy ngẫm ở cuối. Việc Kāḷī thử là sự kiện được kể, không trở thành lời khuyên cho trẻ bắt chước.",
+        "terminology": "Tỳ-kheo, tỳ-kheo-ni, tâm từ, Pháp và Luật, thuộc da được giải ngay khi dùng. Hư không sau sửa giữ không hình sắc và không thể thấy như một vật để vẽ lên. Từ kham nhẫn và một số tên riêng còn cần đọc chậm, nhưng được đặt cạnh nghĩa chịu được lời khó nghe.",
+        "audience_fit": "Mở bằng lời chê ở sân chơi, dùng em và các hành động cụ thể; trẻ được hỏi phần đúng và tự chọn cách đáp, không bị buộc ngoan hay phục tùng. Các cảnh bạo lực được kể ngắn trong bối cảnh kinh và có chỉ dẫn tìm người lớn hỗ trợ. Bài dài, có thể cần đọc thành từng đoạn; chưa thử với trẻ thật.",
+        "clarity": "Tiến trình từ thân cận, sự hiền lúc thuận ý đến mở rộng lòng từ theo được qua các tiêu đề ngắn. Đã sửa tiêu đề túi da tránh hiểu nổi tiếng thành danh tiếng. Số phép ví và các lời giới hạn khiến vài đoạn vẫn có nhịp lặp; đây là giới hạn nhỏ của việc giữ toàn bài.",
+        "editorial_separation": "Sân chơi có nhãn example, thử với lời chê có nhãn practice, hướng dẫn bảo vệ có nhãn clarification và nêu là vận dụng của người biên soạn. Không có lời thoại hiện đại giả làm câu Phật nói; nhãn thứ nhất trong phẩm được nhận diện đúng.",
+        "practical_integrity": "Không chuyển nhất tọa thực thành yêu cầu giảm bữa của trẻ; không khuyến khích chọc giận, làm hại mèo, ở lại cho người khác đánh hay ép hết giận ngay. Thực hành chỉ dùng một lời chê trong hoàn cảnh an toàn, phân biệt nhận phần đúng với nuôi ý trả thù.",
+        "technical_integrity": "Đã đọc cấu trúc, tác giả, kind và liên kết ý của bản; auditExplanations trả errors=[] và sourceErrors=[]. Hash children được lấy lại bằng explanationContentHash sau khi đọc các đoạn sửa. Điểm này chỉ đánh giá bản ghi, không xác nhận build hoặc xuất bản."
+      },
+      "blockingErrors": [],
+      "notes": "Đánh giá độc lập của /root/writer_c đối với bản do /root/writer_a soạn. Cả hai là tác tử của cùng công cụ; không phải đánh giá của người đọc thật hoặc chuyên gia Pāli. Đã đọc toàn bộ nguồn, bản đồ và bản văn; đã đọc lại các đoạn tác giả sửa theo phát hiện.",
+      "contentHash": "4b8e517c87d5b576fda00e50b00d3ea7dce9c8a0c39ba5383aa5552167d0dea1",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn21.html",
+          "sha256": "9b7391a1b4bc05f507ea4ce7590c07a91ccbcb7e0fdc170741bb16ce325bc6f0"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn21_root-pli-ms.json",
+          "sha256": "921721fe862ad7b411f394cec19f38d3f991a9140a5c08ad63ab9411c09730b1"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn21_translation-en-sujato.json",
+          "sha256": "cdf24d1e841dd7ad39cc2101cc1485a34c5dd97b0f6ac6061f9d32e0a5e94263"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn21_comment-vi-project.json",
+          "sha256": "747fd29cf6e2491fe3d346844e558dcad47dbf0af0c4eac495e29c230030a4f4"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn21_translation-vi-project.json",
+          "sha256": "a765f4df5d427fe15b41aeedf967647f07be2d676ece22ec15275e898510d3ef"
+        }
+      ]
+    },
+    {
+      "id": "5523b66c-78e6-48b3-9ba6-ed2d511d07df",
+      "audience": "adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.4,
+        "audience_fit": 9.3,
+        "clarity": 9.2,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu trực tiếp đủ năm nguồn, toàn bộ 227 khóa ba lớp JSON cùng HTML và chú thích. Bản giữ chủ thể lời nói theo Pāli khi Minh Châu đảo hướng tại phần năm cặp, cương trái/roi phải khi English khác, và cưa hai cán. Hồ sơ năm nguồn dùng đúng pin và hash đã kiểm; không dựa vào nguồn ngoài chỉ được chú thích nêu tên.",
+        "semantic_fidelity": "Giữ rèn cả nội tâm thương tưởng lợi ích chứ không chỉ im để có lợi thế; lòng từ đi từ người gây khó chịu đến thế giới không giới hạn. Phạm vi rất cao của ví dụ cái cưa được giữ, không hạ thành mẹo phản hồi hoặc áp thành nghĩa vụ ở lại chịu bạo hành. Cuối bài không tự gán chứng đắc cho hội chúng.",
+        "core_coverage": "Bao quát toàn bản đồ 21 ý, không chỉ kể ví dụ cái cưa: có quyến luyến và tranh tụng hai chiều, bốn thử thách, nhất tọa thực, xe, rừng, Kāḷī, lợi dưỡng đối lập tôn trọng Pháp, đủ năm cặp, bốn vật ví và lời khuyên thường suy ngẫm. Đã đọc lại câu lần ba Kāḷī dậy muộn hơn sau sửa.",
+        "logic_context": "Lập luận tách đúng sự thật của lời phê bình khỏi ý định trả đũa. Giữ điều kiện thiếu lợi dưỡng làm lộ tính khó khuyên, không coi năm cặp là năm loại loại trừ nhau, và không gán rộng lớn của tâm thành kích thước túi da. Các câu hỏi đáp được chuyển thành lời kể mà không đổi ai hỏi hoặc ai trả lời.",
+        "terminology": "Dục và tầm được giải trong ngữ cảnh ham muốn, suy nghĩ gắn đời gia đình; khơi niệm được giải là nhắc nhớ điều tu học. Tâm từ không bị đồng nhất với đồng ý mọi lời hay một tâm vô hình thường hằng. Một số thuật ngữ như biến nhiễm, ác ngữ giữ sắc thái kinh và cần người mới đọc chậm.",
+        "audience_fit": "Ví dụ nhóm làm việc và phản hồi phê bình chạm đúng trách nhiệm, quan hệ của người trưởng thành. Người đọc được giữ khả năng sửa thông tin, từ chối xúc phạm và ngăn hại. Phân tích có chiều sâu; chưa có khảo sát độc giả trưởng thành để xác nhận mức tiếp nhận.",
+        "clarity": "Các chặng được nối rõ, nhất là từ danh tiếng hiền sang dễ khuyên vì Pháp và từ lời đến phản ứng của mình. Một vài câu nói về cách đọc đúng và giới hạn phép ví còn thiên về giải thích biên tập, làm nhịp kể chậm; chúng không cản mạch nghĩa chính.",
+        "editorial_separation": "Phê bình trong nhóm được nhận diện là tình huống hiện đại; phần application là practice và nêu rõ các lựa chọn bảo vệ không phải danh sách Đức Phật trực tiếp dạy trong bài. Nhãn ấn bản và giả định bạo lực được tách khỏi sự kiện kể. Chưa có trích dẫn giả hoặc sự kiện mới gán cho nguồn.",
+        "practical_integrity": "Giữ giới hạn bữa ăn trong bối cảnh tỳ-kheo, không đưa lời chỉ định dinh dưỡng. Thực hành phân biệt làm rõ việc với muốn làm đối phương đau, không hứa kết quả giải thoát hay cố kích động người khác để đo lòng hiền. Việc bảo vệ không được dùng để hợp thức hóa trả thù.",
+        "technical_integrity": "Cấu trúc bản adults có đủ đoạn, tác giả và mã ý thật; auditExplanations sạch cả nội dung và năm nguồn. Fingerprint của đúng bản adults được lấy sau sửa và so với nội dung đã đọc. Chưa có tuyên bố thay cho các cổng kiểm tra build của root."
+      },
+      "blockingErrors": [],
+      "notes": "Đánh giá độc lập của /root/writer_c đối với bản do /root/writer_a soạn. Cả hai là tác tử của cùng công cụ; không phải đánh giá của người đọc thật hoặc chuyên gia Pāli. Đã đọc toàn bộ nguồn, bản đồ và bản văn; đã đọc lại các đoạn tác giả sửa theo phát hiện.",
+      "contentHash": "8459ee8de5718283941f625af30ac418f587377ec292b7f8f52b443d2cea73a7",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn21.html",
+          "sha256": "9b7391a1b4bc05f507ea4ce7590c07a91ccbcb7e0fdc170741bb16ce325bc6f0"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn21_root-pli-ms.json",
+          "sha256": "921721fe862ad7b411f394cec19f38d3f991a9140a5c08ad63ab9411c09730b1"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn21_translation-en-sujato.json",
+          "sha256": "cdf24d1e841dd7ad39cc2101cc1485a34c5dd97b0f6ac6061f9d32e0a5e94263"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn21_comment-vi-project.json",
+          "sha256": "747fd29cf6e2491fe3d346844e558dcad47dbf0af0c4eac495e29c230030a4f4"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn21_translation-vi-project.json",
+          "sha256": "a765f4df5d427fe15b41aeedf967647f07be2d676ece22ec15275e898510d3ef"
+        }
+      ]
+    },
+    {
+      "id": "211ac34d-2269-4312-bdf5-7b15e4aee847",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-18",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.4,
+        "audience_fit": 9.4,
+        "clarity": 9.2,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc trọn Pāli, English, Việt dự án, Minh Châu HTML và chú thích MN21, rồi đối chiếu riêng bản người lớn tuổi. Bản không nhận các lệch tay cầm cương/roi hoặc cưa hai lưỡi từ nguồn phụ; đúng Phagguna, Kāḷī, Đức Phật và hội chúng. Năm hash nguồn khớp pin, với giới hạn chỉ những nguồn thực sự đọc.",
+        "semantic_fidelity": "Tâm từ được hiểu là mong an lành cho chính người đang gây khó chịu rồi cho thế giới; sự bình yên thuận ý không bị nhận lầm là đã hết sân. Ví dụ dữ dội cuối bài giữ sức nặng và không trở thành lời hứa thấy dễ chịu ngay. Bản tôn trọng nỗ lực tu lâu dài, không suy thêm một quả chứng.",
+        "core_coverage": "Giữ cả các phần thường dễ bị bỏ: đời xuất gia vì tin, bốn trường hợp, năm lợi ích trong bữa ăn, rừng thầu dầu/sāla, nữ tỳ duy nhất, từng lần phản ứng tăng lên, năm cặp lời và bốn phép ví. Lần ba dậy muộn hơn đã được đọc lại sau sửa; những đoạn lặp diễn đạt gộp vẫn chỉ rõ tâm từ từ người ấy đến thế giới.",
+        "logic_context": "Ngữ cảnh xuất gia được giữ riêng với quan hệ thân tình của độc giả. Bản đúng người nói và người nhận, phân biệt lợi dưỡng với kính Pháp, giữ câu hỏi có điều kiện cuối bài. Quyền bảo vệ được xác định là vận dụng biên tập, không thay đổi mệnh đề không nuôi sân của kinh.",
+        "terminology": "Khơi niệm, Pháp và Luật, tâm từ được giải bằng từ quen; các vật cổ như túi da và then cửa đủ cụ thể. Từ như vô lượng, biến nhiễm vẫn giữ nghĩa trong câu, không được ép thành vô cảm hay trống rỗng. Nhịp giải từ vừa phải, vài tên Pāli cần đọc chậm.",
+        "audience_fit": "Mở bằng người đã góp công trong nhóm nhiều năm gặp cách nhìn mới, phù hợp trải nghiệm mà vẫn cho người đọc quyền giải thích và tiếp tục học. Giọng ta, đoạn vừa, không mặc định bệnh, yếu hay gần chết. Độ phù hợp được đánh giá qua lượt đọc biên tập, chưa có người đọc lớn tuổi tham gia.",
+        "clarity": "Các tiêu đề đất, khoảng không, dòng sông tạo nhịp dừng rõ và giúp đọc từng phần. Cách nối bình yên thuận ý với phẩm chất thật thuyết phục. Một số câu nhắc giới hạn phép ví lặp ý không mất cảm xúc/không bỏ bảo vệ; vẫn là hạn chế nhỏ về độ gọn.",
+        "editorial_separation": "Tình huống nhóm quen được nêu là chuyện hôm nay; phần limits tự nhận là giới hạn biên tập, phần try là gợi ý. Các lời bổ sung về bảo vệ, không chọc giận và không tự trách không bị kể như lời Phật nguyên văn. Nhãn cuối ấn bản giữ đúng MN21 và vị trí trong phẩm.",
+        "practical_integrity": "Không yêu cầu đổi bữa ăn, cố khơi cơn giận ở người khác hoặc chịu đánh để chứng minh khả năng nhẫn. Gợi ý dùng một bất đồng an toàn, nhận phần đúng và ý trả đũa, cho phép chưa đạt ngay lý tưởng mà vẫn tiếp tục rèn. Không dùng cảm xúc người bị hại để che trách nhiệm người gây hại.",
+        "technical_integrity": "Kiểm đủ kind, đoạn, tác giả và các mã ý của older-adults; công cụ audit báo errors=[] và sourceErrors=[]. Hash cuối được lấy sau khi đọc lại câu Kāḷī sửa. Đây là kiểm toàn vẹn dữ liệu hiện hành, không đánh giá GitHub Actions hay cổng build."
+      },
+      "blockingErrors": [],
+      "notes": "Đánh giá độc lập của /root/writer_c đối với bản do /root/writer_a soạn. Cả hai là tác tử của cùng công cụ; không phải đánh giá của người đọc thật hoặc chuyên gia Pāli. Đã đọc toàn bộ nguồn, bản đồ và bản văn; đã đọc lại các đoạn tác giả sửa theo phát hiện.",
+      "contentHash": "00fcc99b13ea76b9f0f15f965de8a9e68745daead472f65729af0f88cf38f76b",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn21.html",
+          "sha256": "9b7391a1b4bc05f507ea4ce7590c07a91ccbcb7e0fdc170741bb16ce325bc6f0"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn21_root-pli-ms.json",
+          "sha256": "921721fe862ad7b411f394cec19f38d3f991a9140a5c08ad63ab9411c09730b1"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn21_translation-en-sujato.json",
+          "sha256": "cdf24d1e841dd7ad39cc2101cc1485a34c5dd97b0f6ac6061f9d32e0a5e94263"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn21_comment-vi-project.json",
+          "sha256": "747fd29cf6e2491fe3d346844e558dcad47dbf0af0c4eac495e29c230030a4f4"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn21_translation-vi-project.json",
+          "sha256": "a765f4df5d427fe15b41aeedf967647f07be2d676ece22ec15275e898510d3ef"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn134",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "dd08e358-ec5d-46d7-ad94-4d968baff936"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "e693ed2b-f67e-41a6-8dba-78092f874c8d"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "1a735f42-447d-4f91-b8b7-e6d8fa3c1b56"
+    }
+  },
+  "reviews": [
+    {
+      "id": "dd08e358-ec5d-46d7-ad94-4d968baff936",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.6,
+        "audience_fit": 9.6,
+        "clarity": 9.6,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Cuộc gặp ở Cây Đa, câu chuyện tại cõi Ba mươi ba và chuyến đi đến Jeta đều đúng nguồn đã ghim. Sáu nhánh năm uẩn được đối chiếu toàn HTML MN134 SC19–24 thực đọc; 53 ô Anh trống không được giả thành chứng cứ đầy đủ.",
+        "semantic_fidelity": "Nhớ quá khứ khác chạy theo niềm thích thú; nhánh không mong tương lai vẫn giữ câu ước về năm uẩn. Hai mươi cách chấp và hai mươi phủ định được triển khai rõ; các ví dụ trường học chỉ mở đầu việc hiểu, không thay nội dung quán xét ấy.",
+        "core_coverage": "Đủ 26 ý: hai nơi ở, hai lượt hỏi về phần giảng và kệ, ba việc học với hai lý do, lời thuật lại, Candana được nhận diện, sáu nhánh giải nghĩa và kết. Nội dung trọn bài kệ được giữ ở các lượt chính, không chỉ lấy câu về hiện tại.",
+        "logic_context": "Người kể biết tên Candana nhưng Lomasakaṅgiya chỉ biết khi Phật cho biết; hai người không thuộc phần giảng không mâu thuẫn với Candana thuộc kệ. Ngày mai chết là câu hỏi bất định; người thấy rõ hiện tại là chủ thể cần vun bồi, không phải chỉ hiện tại mới tồn tại.",
+        "terminology": "Tỳ-kheo, thiên tử, bài kệ, năm uẩn, tự ngã, bậc Thánh và chân nhân đều có lời mở nghĩa. Sau sửa, trung tính được giải trực tiếp và sắc không bị thu thành thân trong hồi tưởng. Hai mươi cách chấp vẫn là phần trừu tượng cần đọc chậm.",
+        "audience_fit": "Hai ví dụ thi tốt và buồn sau khi làm sai gần việc trẻ trải qua; câu hỏi thực hành cho trẻ tự nhận biết và sửa việc cần sửa. Hai mươi mục ngắn giúp chia lượt đọc, dù phần năm uẩn có thể cần người lớn cùng giải thích; chưa thử với trẻ thật.",
+        "clarity": "Tiến trình vị khách, chuyến đi, lời Phật và phần phân tích có tiêu đề rõ; cặp nhớ mà không chạy theo thích thú làm sáng câu kệ. Các lần nhắc trọn ý kệ giữ cấu trúc nguồn nhưng tạo độ lặp nhất định, được chia đoạn để dễ theo.",
+        "editorial_separation": "Hai tình huống trường học mang loại example, bài tập cuối mang loại practice; không được kể như chuyện thời Phật. Các câu dẫn bài kệ nói rõ đang diễn ý; nhãn bài thứ tư nằm ở phần kết ấn bản, không gán thành mệnh lệnh trong kinh.",
+        "practical_integrity": "Bài tập nhận ra ký ức, mong đợi hoặc ý nghĩ về mình chỉ được gọi là bước nhỏ; không hứa hết chấp ngã sau một lần quan sát. Ví dụ buồn dẫn tới xem điều cần sửa, không dùng giáo lý để phủ nhận cảm giác hoặc bắt trẻ tự trách.",
+        "technical_integrity": "Bản trẻ có 20 mục, 30 đoạn; audit độc lập xác nhận 26 ý phủ đúng thứ tự đủ 122 khóa Pāli, nguồn và cấu trúc không lỗi. Hash cuối được lấy sau đọc lại sửa và toàn bản; điểm này không thay cổng build hoặc chọn review chính thức của root."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc riêng toàn bản children, đủ nguồn, map và các đoạn sửa; không còn lỗi chặn trong phạm vi ghi nhận. Điểm đánh giá biên tập bằng nhận xét thủ công, không suy từ audit hoặc một bản khác.",
+      "contentHash": "dfec87f322aec4c49054e6d6a16134cc2f7075b0c0ea0bc95175528d6e5a7fee",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn134.html",
+          "sha256": "17e2d1ffc7df7058526cc1e7275be4de194e66f86d163d3bf3650ff18c337628"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn134_root-pli-ms.json",
+          "sha256": "26b5d709f2de1733d37f51e19130997fee2a3db24a9981720896073ff8b7a175"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn134_translation-en-sujato.json",
+          "sha256": "bcf78fb48e01682fb8fe6dc349db5ffdd96ba973e96164a64564ef4551c1ad5d"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn134_comment-vi-project.json",
+          "sha256": "8c81b5a970b14aa3e52c9172f89e7402a960a774a2c635b7c63188f4dea485a9"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn134_translation-vi-project.json",
+          "sha256": "93994e1f0bca3dd03c6088c735b81459cfc6d5a58f432e6e9cb32301cdc1ade6"
+        }
+      ]
+    },
+    {
+      "id": "e693ed2b-f67e-41a6-8dba-78092f874c8d",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.8,
+        "clarity": 9.7,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Hai nguồn Việt dự án được so byte trực tiếp tại base65eb; Pāli và Sujato khớp manifest. Bản trưởng thành giữ Cây Đa trong lời thuật và bát với y áo, không theo chi tiết lệch của HTML; phần giải năm uẩn dựa chính HTML MN134 đã đọc đầy đủ.",
+        "semantic_fidelity": "Quá khứ và tương lai được giải qua sự tìm theo thích thú; nhánh tương lai âm không bị đổi thành cấm mọi dự định. Hiện tại liên hệ đủ bốn cách chấp trong năm uẩn, cùng phía tu học và phủ định; không rút giáo pháp thành mẹo duy trì hiệu suất.",
+        "core_coverage": "Mười sáu mục vẫn đủ các cuộc đối thoại, ba lời khuyên học, hai lý do, chuyến đi và lời thuật, bốn nét nghe Pháp, ba lần diễn đủ kệ cùng sáu nhánh. Các mặt với bậc Thánh và người thiện chân chính có đủ gần gũi, thông thạo, tu tập.",
+        "logic_context": "Candana chỉ nhớ kệ, Lomasakaṅgiya xin phần tóm lược cùng phân tích; cách gộp lời thuật không đổi người nói. Bốn quan hệ tự ngã được lặp cho cả năm uẩn, và phủ định tương ứng đủ hai mươi; lời về Tử thần không thành dự báo chết ngày mai.",
+        "terminology": "Phạm hạnh, tinh cần, an tịnh, năm uẩn và tự ngã được giải ngay trong mạch. Trung tính đã được mở nghĩa, sắc vẫn gồm mặt vật chất. Từ pháp dùng với lời giải từng điều đang hiện diện, tránh ép toàn bài về một hiện tượng tâm lý duy nhất.",
+        "audience_fit": "Ký ức được trọng dụng và cảm giác thất bại sau trao đổi căng thẳng gắn với đời sống trưởng thành. Lập luận theo cặp và phép bốn nhân năm đáp ứng người muốn hiểu cấu trúc; bản vẫn mời học và thực hành sâu hơn, không giả định mọi người chỉ quan tâm công việc.",
+        "clarity": "Các mục past, future, twenty và unshaken tách rõ sự việc được nhớ với thái độ bám theo, rồi nối sang hiện tại. Cách gộp hai phía vào mục vừa phải giữ dòng suy luận; phần kệ nhắc nhiều lần còn độ lặp do cấu trúc kinh, không làm lạc chủ đề.",
+        "editorial_separation": "Hai ví dụ công việc và bài tập cuối có nhãn riêng; câu tự đánh giá trong ví dụ không bị đưa vào lời Phật. Lựa chọn mở công thức từ HTML nằm ở hồ sơ nguồn, không chen báo cáo thao tác vào dòng giảng cho độc giả.",
+        "practical_integrity": "Ví dụ trao đổi căng thẳng nói rõ là quan sát bước đầu, còn quán năm uẩn cần học và tu sâu hơn. Bài tập nhận ra sự bám theo rồi làm việc cần làm; không hứa giải thoát, bỏ ký ức hoặc kiểm soát người khác bằng kỹ thuật chú ý.",
+        "technical_integrity": "Bản trưởng thành có 16 mục, 26 đoạn, đủ liên kết các đơn vị giảng và năm dependency thực. Audit read-only không có lỗi nội dung hay nguồn; fingerprint mới khớp chính bản đã đọc sau sửa. Không sửa metadata hoặc tự áp quyết định xuất bản."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc riêng toàn bản adults, đủ nguồn, map và các đoạn sửa; không còn lỗi chặn trong phạm vi ghi nhận. Điểm đánh giá biên tập bằng nhận xét thủ công, không suy từ audit hoặc một bản khác.",
+      "contentHash": "94f90c03235fbb418cdbb94d9f37f596c4b122685628be2e96d6c8d569b4e6ee",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn134.html",
+          "sha256": "17e2d1ffc7df7058526cc1e7275be4de194e66f86d163d3bf3650ff18c337628"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn134_root-pli-ms.json",
+          "sha256": "26b5d709f2de1733d37f51e19130997fee2a3db24a9981720896073ff8b7a175"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn134_translation-en-sujato.json",
+          "sha256": "bcf78fb48e01682fb8fe6dc349db5ffdd96ba973e96164a64564ef4551c1ad5d"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn134_comment-vi-project.json",
+          "sha256": "8c81b5a970b14aa3e52c9172f89e7402a960a774a2c635b7c63188f4dea485a9"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn134_translation-vi-project.json",
+          "sha256": "93994e1f0bca3dd03c6088c735b81459cfc6d5a58f432e6e9cb32301cdc1ade6"
+        }
+      ]
+    },
+    {
+      "id": "1a735f42-447d-4f91-b8b7-e6d8fa3c1b56",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.8,
+        "clarity": 9.7,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Cảnh đêm khuya, vị trời sáng cả tu viện, cõi Ba mươi ba và Phật nhận diện Candana đều theo năm nguồn thực đọc. Công thức sáu nhánh được kiểm trong HTML SC19–24, không lấy ô Sujato trống làm bản dịch; ghi chú nêu giới hạn phần nguồn lược.",
+        "semantic_fidelity": "Bản giữ quyền nhớ chuyện cũ và câu ước tương lai, phân biệt chúng với chạy theo niềm thích thú. Cả hai mươi cách chấp và hai mươi điều không chấp đều hiện diện; việc không bị cuốn được đặt trong học và tu, không thành quên quá khứ hoặc gạt cảm xúc.",
+        "core_coverage": "Hai mươi mục bao trọn 26 ý, kể cả ba việc học với hai căn cứ, lời thuật cuộc gặp, bốn phẩm chất nghe, hai nhóm người được gần gũi và các lượt bài kệ. Kết giữ Lomasakaṅgiya vui lòng tán đồng cùng nhãn thứ tư, không thêm chứng quả.",
+        "logic_context": "Lớp kể biết Candana được tách khỏi câu Lomasakaṅgiya chưa biết tên; hướng thời gian của chuyến đi và lời thuật không đảo. Sự không mong tương lai vẫn có câu ước; bốn phủ định áp cho từng uẩn, không chỉ sắc. Lời ngày mai giữ tính chưa biết.",
+        "terminology": "Năm uẩn, tự ngã, thiên tử, phạm hạnh và an tịnh đều có giải nghĩa. Trung tính đã rõ là không dễ chịu cũng không khó chịu; mặt vật chất không bị giới hạn thành thân. Các tên riêng vẫn giữ để đối chiếu, có thể cần đọc chậm nhưng không cản mạch.",
+        "audience_fit": "Tấm ảnh sum họp và ý kiến không được gia đình chọn gợi tình huống cụ thể mà không mặc định người lớn tuổi yếu, cô đơn hay mất giá trị. Các đoạn ngắn giữ giọng tôn trọng và quyền tự quan sát; chưa có đánh giá từ độc giả lớn tuổi thật.",
+        "clarity": "Các câu hỏi ai nhớ phần nào dẫn tự nhiên tới nhu cầu nghe Phật phân tích. Quá khứ, tương lai và hiện tại tách mục; ví dụ ảnh cũ nối rõ ký ức với lòng muốn giữ niềm vui. Một số công thức kệ lặp theo nguồn nhưng có tiêu đề và điểm dừng.",
+        "editorial_separation": "Tình huống gia đình là ví dụ đời sống và bài tập có nhãn riêng; không gán kinh nghiệm hiện đại cho Lomasakaṅgiya. Đoạn kết phân biệt phản ứng người nghe với nhãn kinh; hồ sơ đối chiếu nguồn nằm ngoài lời đọc, không làm đứt mạch kể.",
+        "practical_integrity": "Bài tập chỉ mời nhìn tâm đang bám chuyện cũ, điều chưa tới hoặc một ý niệm về mình, rồi trở lại việc hôm nay. Câu chuyện về gia đình không yêu cầu im tiếng hay từ bỏ quan điểm; sự quan sát được gọi là bước nhỏ trong đường học và tu.",
+        "technical_integrity": "Bản lớn tuổi có 20 mục, 30 đoạn; 26 đơn vị ý phủ đúng 122 khóa, tất cả năm byte nguồn khớp checkpoint và pin-proof. Audit sạch và hash chốt sau đọc sửa cùng toàn bản; không có ghi chính thức vào tệp trạng thái hay tuyên bố đã qua build."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc riêng toàn bản older-adults, đủ nguồn, map và các đoạn sửa; không còn lỗi chặn trong phạm vi ghi nhận. Điểm đánh giá biên tập bằng nhận xét thủ công, không suy từ audit hoặc một bản khác.",
+      "contentHash": "b305251d6534debed8bdda0f2e4d4f0365aaf3888e1bc63ba156340fdf9b1039",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn134.html",
+          "sha256": "17e2d1ffc7df7058526cc1e7275be4de194e66f86d163d3bf3650ff18c337628"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn134_root-pli-ms.json",
+          "sha256": "26b5d709f2de1733d37f51e19130997fee2a3db24a9981720896073ff8b7a175"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn134_translation-en-sujato.json",
+          "sha256": "bcf78fb48e01682fb8fe6dc349db5ffdd96ba973e96164a64564ef4551c1ad5d"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn134_comment-vi-project.json",
+          "sha256": "8c81b5a970b14aa3e52c9172f89e7402a960a774a2c635b7c63188f4dea485a9"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn134_translation-vi-project.json",
+          "sha256": "93994e1f0bca3dd03c6088c735b81459cfc6d5a58f432e6e9cb32301cdc1ade6"
+        }
+      ]
+    }
+  ]
+}

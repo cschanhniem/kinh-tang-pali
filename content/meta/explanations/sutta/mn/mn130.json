@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn130",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "6ac46eb7-4ef6-406e-97c0-2a09c60fb752"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "b2f357ab-ed9a-4e48-a367-94060de95e7a"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "0521dd61-3686-4c97-8d7d-ea63dbda9aac"
+    }
+  },
+  "reviews": [
+    {
+      "id": "6ac46eb7-4ef6-406e-97c0-2a09c60fb752",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.3,
+        "clarity": 9.4,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Giữ cả hai nhà có cửa, năm cảnh thiên sứ và điều Phật nói Ngài tự biết, tự thấy. Các đoạn hình phạt theo đúng nguồn đã ghim; không nhập dầu trong nồi đồng, tuổi già cụ thể hay cơ quan được bản Anh thêm.",
+        "semantic_fidelity": "Từng lượt đều tách câu đáp không thấy thiên sứ khỏi câu nhận có thấy em bé, người già, bệnh, người bị phạt hoặc xác chết. Lời nhắc về tái sinh đã được mở rõ; việc chịu quả do chính người ấy làm không bị biến thành lời đổ lỗi cho mọi người đang bệnh.",
+        "core_coverage": "Cả 54 ý, 203 khóa đều được bao phủ: tám nhóm không làm nghiệp thay, 26 tên hình phạt, sáu cảnh đầu, các cửa, năm nơi tiếp theo, hai lượt đói khát và kệ giải thoát cuối. Đoạn kể gọn nhưng không bỏ phần thoát sinh tử.",
+        "logic_context": "Bốn lần cửa đóng và lần cửa Đông sau cho ra được kể riêng. Câu chưa chết đến khi chính nghiệp ác ấy hết có phạm vi rõ; ra khỏi cửa rồi còn các nơi kế tiếp, không bị gọi là đã giải thoát.",
+        "terminology": "Thiên sứ, phóng dật, nghiệp, tỳ-kheo và tái sinh có lời mở dễ theo. Như Lai và các danh hiệu trong ước mong Yama cũng được giải; tên hình phạt cổ vẫn còn khó và được giữ ở mức tên, không tự dựng cách thực hiện.",
+        "audience_fit": "Ví dụ chờ ông đi với gậy và hỏi giúp người nhà đang bệnh là tình huống trẻ có thể hiểu. Giọng kể không gán lời Yama cho người lớn trong gia đình, nhưng danh sách hình phạt và khối cảnh địa ngục vẫn là phần nặng đối với độc giả nhỏ tuổi.",
+        "clarity": "Các mục đánh dấu rõ lời nhắc thứ nhất đến thứ năm, rồi tách cảnh địa ngục khỏi ước mong Yama và phần kệ. Sáu mục đã sửa đọc tự nhiên hơn; những đoạn liệt kê nhiều cảnh và nhiều phủ định vẫn cần đọc chậm.",
+        "editorial_separation": "Tình huống gia đình nằm trong mục example, bài tập trong practice; lời kể thiên nhãn và Yama được đặt trong lời Phật. Không dùng ví dụ hiện đại làm chứng cứ cho cảnh giới hoặc ghép lời khuyên mới thành câu kinh.",
+        "practical_integrity": "Bài tập hướng trẻ chọn việc lành qua thân, lời và ý, nhận rồi sửa việc chưa tốt. Không hứa một hành động nhỏ sẽ xóa quả nghiệp hay đạt giải thoát; mục cuối vẫn giữ không chấp thủ và sự chấm dứt sinh tử.",
+        "technical_integrity": "Audit độc lập của bản chuẩn bị xác nhận 21 mục, 39 đoạn, tham chiếu đầy đủ 54 đơn vị nghĩa và 203 khóa. Năm SHA256 đúng nguồn đã đọc; toàn diff chỉ là sáu mục đã đọc lại, fingerprint trẻ khớp bản đóng băng."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi writer_a, một tác nhân khác với tác giả. Đã đọc đủ năm nguồn thực, toàn bản đồ ý và ba bản; đọc lại toàn sáu mục sau sửa và xác nhận không có thay đổi ngoài sáu chuỗi được ghi. Chưa thử với người đọc thật; đây là hồ sơ prepared, chưa phải ghi chọn đánh giá chính thức.",
+      "contentHash": "3f9e3d9401f5dedd4851d9bb7506f41167b60a52274700186b84e8b4af9271ab",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn130.html",
+          "sha256": "8c74dfad5dc81f9512a8f69e9a7e8aa05333e1fdc74d7033ffb5112ff7074fc5"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn130_root-pli-ms.json",
+          "sha256": "c450b18060e53db0b7ba7e15795ce2e167061ba52a1e3779e58a4967ef9c0912"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn130_translation-en-sujato.json",
+          "sha256": "2f34df08368fc9c46e52d901fb942345dcf32055fd4a8cd2b06768c304e35385"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn130_comment-vi-project.json",
+          "sha256": "b63e036ed5efd59abe734a9820b114c40a37ae43bd17da8086ea23d64865ede3"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn130_translation-vi-project.json",
+          "sha256": "84421822a283cb2d7d340275c32e9c1bd1afea86a677172537e6c0e7232f2bda"
+        }
+      ]
+    },
+    {
+      "id": "b2f357ab-ed9a-4e48-a367-94060de95e7a",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.7,
+        "clarity": 9.6,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Phần thấy sự chết và tái sinh giữ hai nhóm thiện và ba nhóm ác với hành vi, quan điểm và đích đến tương ứng. Các khác biệt của HTML về cáo trạng, nồi đồng và trấu không lấn vào bản diễn giải; chỉ năm nguồn thực được dùng.",
+        "semantic_fidelity": "Phóng dật là lời người bị hỏi nhận và là lý do Yama nêu, không phải do thiếu cơ hội. Hai lần đưa đồng nóng vào có dụng cụ, thứ tự và đường đi tương ứng; ruột cùng màng treo ruột bám anta và antaguṇa, không thêm lưỡi hoặc dạ dày.",
+        "core_coverage": "Bản trưởng thành giữ đủ năm cuộc hỏi, tám nhóm trách nhiệm, sáu hình khổ, sáu hướng lửa, bốn cửa rồi lần Đông sau, năm nơi liền kề và hai nhu cầu đói khát. Kệ 16 dòng được diễn đủ, cùng năm điều Yama mong và mười tên bài ở cuối.",
+        "logic_context": "Các mốc sau thời gian rất dài không bị biến thành hình phạt vô hạn; giới hạn gắn với nghiệp ác ấy được duy trì. Mong được làm người và nghe Pháp vẫn là ước mong trong quá khứ của Yama, không thành sự kiện đã đạt hoặc đã chứng ngộ.",
+        "terminology": "Bản mở rõ tỳ-kheo là nam xuất gia, sinh là sinh ra trở lại, phóng dật là buông lơi sống lành. Nước tro và đơn vị ngón tay giữ đúng vật và độ đo của nguồn; các tên hình phạt cổ vẫn đòi hỏi người đọc chấp nhận tên gọi chưa triển khai.",
+        "audience_fit": "Ví dụ trì hoãn thăm cha mẹ nối việc bận rộn với một quyết định cụ thể, không biến bài thành lời trách người đi làm. Cách đặt câu hỏi về điều đã thấy và cách sống hợp với tự xét của người trưởng thành, dù phần hình phạt dài vẫn khó tiếp nhận.",
+        "clarity": "Hai mươi bốn mục giúp tách các lớp nhìn thấy, truy hỏi, cảnh khổ và lời kệ. Câu hỏi và câu đáp ngắn có chủ thể rõ; đoạn cáo trạng, hình phạt và công thức nghiệp còn dày thông tin nên không phải toàn bài đều nhẹ nhàng như một truyện ngắn.",
+        "editorial_separation": "Ví dụ công việc và thăm cha mẹ tách bằng loại example; phần practice không chen vào lời Phật xác nhận tri kiến. Bản giữ rõ ai nói ở từng lớp, không trình lời mô tả địa ngục thành nhận định kiểm nghiệm của biên tập viên.",
+        "practical_integrity": "Gợi ý nhìn lại hành động thân, lời, ý giữ đúng hướng làm lành sau khi nhận ra sinh, già, bệnh và chết. Bài tập không đưa bảo đảm về đích tái sinh; kết quả giải thoát trong kệ vẫn gắn với thấy chấp thủ và không chấp thủ.",
+        "technical_integrity": "Audit prepared ghi 24 mục và 39 đoạn, toàn bộ 54 ý đều có tham chiếu hợp lệ. Đã kiểm lại năm byte nguồn, hash bản trưởng thành và toàn diff sáu mục; không ghi canonical hoặc metadata khi chấm bản chuẩn bị."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi writer_a, một tác nhân khác với tác giả. Đã đọc đủ năm nguồn thực, toàn bản đồ ý và ba bản; đọc lại toàn sáu mục sau sửa và xác nhận không có thay đổi ngoài sáu chuỗi được ghi. Chưa thử với người đọc thật; đây là hồ sơ prepared, chưa phải ghi chọn đánh giá chính thức.",
+      "contentHash": "4cc27a80944a84d55ad0b75312e382e821d83abeac29913b5de43764c0eeae2e",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn130.html",
+          "sha256": "8c74dfad5dc81f9512a8f69e9a7e8aa05333e1fdc74d7033ffb5112ff7074fc5"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn130_root-pli-ms.json",
+          "sha256": "c450b18060e53db0b7ba7e15795ce2e167061ba52a1e3779e58a4967ef9c0912"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn130_translation-en-sujato.json",
+          "sha256": "2f34df08368fc9c46e52d901fb942345dcf32055fd4a8cd2b06768c304e35385"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn130_comment-vi-project.json",
+          "sha256": "b63e036ed5efd59abe734a9820b114c40a37ae43bd17da8086ea23d64865ede3"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn130_translation-vi-project.json",
+          "sha256": "84421822a283cb2d7d340275c32e9c1bd1afea86a677172537e6c0e7232f2bda"
+        }
+      ]
+    },
+    {
+      "id": "0521dd61-3686-4c97-8d7d-ea63dbda9aac",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.9,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.7,
+        "audience_fit": 9.8,
+        "clarity": 9.7,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Những nét người già, người bệnh và người đã chết giữ đủ theo Pāli, không thêm tuổi 80/90/100 từ dấu lược. Cảnh cây gạo có chiều cao và độ dài gai đúng đơn vị; lời Phật tự biết và thấy được giữ là lời của Ngài trong bài.",
+        "semantic_fidelity": "Bản không đồng nhất sự già yếu trong gia đình với người chịu hình phạt. Năm dấu hiệu cùng lời tự nhận phóng dật dẫn về việc mình đã làm; cuối bài phân biệt ra khỏi cửa địa ngục, ước được nghe Pháp và sự giải thoát khỏi sinh tử.",
+        "core_coverage": "Hai mươi bảy mục bao phủ đủ 54 ý, từ hai nhà đến uddāna. Năm lượt hỏi, các nhóm người không làm thay nghiệp, 26 hình phạt, sáu cảnh đầu, bốn lần đóng cửa, năm nơi sát nhau và hai lượt đói khát đều còn đủ.",
+        "logic_context": "Việc bị đưa về đại địa ngục sau hai lần đói khát không bị đổi thành nghiệp đã hết. Cả năm lần trách nhiệm giữ phạm vi cùng một người, và lời kệ chuyển từ cảnh tỉnh sang thấy nguồn sinh tử ở chấp thủ theo đúng thứ tự lý do.",
+        "terminology": "Sinh ra trở lại và nam tu sĩ đã được làm rõ ngay lần đầu; ác nghiệp được mở là việc làm bất thiện, các danh hiệu ở lời mong của Yama có nghĩa kèm theo. Một số từ cổ của hình phạt và cõi giới vẫn khó, nhưng không được giải bằng suy đoán mới.",
+        "audience_fit": "Nhiều mục ngắn và ví dụ thăm bạn đang bệnh tạo nhịp đọc phù hợp, tránh chỉ gắn tuổi lớn với sợ chết. Cách gợi ý nghe bạn, hỏi nhu cầu và bớt kể chuyện làm lo giữ được phẩm giá; chuỗi hình phạt vẫn là đoạn đặc biệt nặng.",
+        "clarity": "Bản tách hai nhóm cảnh đầu, từng rừng, sông, đói và khát thành những mục dễ dừng nghỉ. Đại từ và các câu vì–nên rõ, nhưng phần liệt kê 26 tên cùng các công thức lặp khó tránh mật độ cao nếu cần giữ trọn nguồn.",
+        "editorial_separation": "Câu chuyện thăm người bạn và bài thực hành được đánh dấu riêng, không đặt vào miệng Yama. Tri kiến và các lời ước đều có chủ thể; không thêm đoạn biên tập phán ai trong đời thường phải chịu quả như nhân vật.",
+        "practical_integrity": "Thực hành hướng đến một việc giúp đỡ, một lời nói lành và sự nhận biết ý nghĩ, có khả năng áp dụng mà không cần sức khỏe đặc biệt. Mục tự do vẫn giữ không chấp thủ, hết sinh tử và an tịnh hiện tại, không thu mục tiêu xuống chỉ sống vui tuổi già.",
+        "technical_integrity": "Kiểm prepared xác nhận 27 mục, 45 đoạn và toàn bộ 203 khóa trong 54 ý, không thiếu đường dẫn nguồn hay tham chiếu. Bản lớn tuổi chỉ đổi hai đoạn đã đọc lại; khôi phục sáu thay đổi của cả tệp khớp toàn snapshot đọc đầy đủ."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi writer_a, một tác nhân khác với tác giả. Đã đọc đủ năm nguồn thực, toàn bản đồ ý và ba bản; đọc lại toàn sáu mục sau sửa và xác nhận không có thay đổi ngoài sáu chuỗi được ghi. Chưa thử với người đọc thật; đây là hồ sơ prepared, chưa phải ghi chọn đánh giá chính thức.",
+      "contentHash": "d13cf151639067cefc8b83931e44f4561ede55f765bc05a77a8a804bcf358c2d",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn130.html",
+          "sha256": "8c74dfad5dc81f9512a8f69e9a7e8aa05333e1fdc74d7033ffb5112ff7074fc5"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn130_root-pli-ms.json",
+          "sha256": "c450b18060e53db0b7ba7e15795ce2e167061ba52a1e3779e58a4967ef9c0912"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn130_translation-en-sujato.json",
+          "sha256": "2f34df08368fc9c46e52d901fb942345dcf32055fd4a8cd2b06768c304e35385"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn130_comment-vi-project.json",
+          "sha256": "b63e036ed5efd59abe734a9820b114c40a37ae43bd17da8086ea23d64865ede3"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn130_translation-vi-project.json",
+          "sha256": "84421822a283cb2d7d340275c32e9c1bd1afea86a677172537e6c0e7232f2bda"
+        }
+      ]
+    }
+  ]
+}

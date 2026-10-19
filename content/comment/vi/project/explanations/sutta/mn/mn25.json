@@ -1,0 +1,1046 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn25",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn25_root-pli-ms.json",
+      "sha256": "aa58e10b05a702e8f16a1472600ec41302cf7d2c5fabc5492252b5bf00118e59",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn25_translation-en-sujato.json",
+      "sha256": "267205efaedc9033fa035e540e1c3410c8e729adf4c3002ffb75f58c822d815e",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn25_translation-vi-project.json",
+      "sha256": "559b109e25a01482f65f1625ca245527edccf3c9f6c527fca0a3dac18ac806ae",
+      "commit": "cac22dc9d18cfc1960413c1188129c796a37e935"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn25.html",
+      "sha256": "856d62ad3cd4d3d26971d8a94c067f47729bd938dad54d415569c6d9ec587ba1",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn25_comment-vi-project.json",
+      "sha256": "bec265c53c26eb0c6f0c16becf90d46749ab1ca9e387e6d4804dac45720eda63",
+      "commit": "cac22dc9d18cfc1960413c1188129c796a37e935"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Tên và vị trí bài kinh",
+      "segments": [
+        "mn25:0.1",
+        "mn25:0.2"
+      ],
+      "summary": "MN25, Nivāpasutta; Kinh Nơi Gieo Mồi, cũng được gọi Kinh Bẫy Mồi."
+    },
+    {
+      "id": "setting",
+      "title": "Đức Phật giảng cho các tỳ-kheo",
+      "segments": [
+        "mn25:1.1",
+        "mn25:1.2",
+        "mn25:1.3",
+        "mn25:1.4",
+        "mn25:1.5",
+        "mn25:1.6"
+      ],
+      "summary": "Lời người kể: nghe như vầy; Đức Phật ở rừng Jeta, tu viện Anāthapiṇḍika tại Sāvatthī, gọi các tỳ-kheo, họ đáp rồi Ngài giảng."
+    },
+    {
+      "id": "bait-intention",
+      "title": "Ý định của người gieo mồi",
+      "segments": [
+        "mn25:2.1",
+        "mn25:2.2",
+        "mn25:2.3",
+        "mn25:2.4"
+      ],
+      "summary": "Không cầu nai sống lâu, đẹp và bền lâu; muốn chúng xông vào ăn mê mải, say sưa, phóng dật, rồi bị tùy ý sai khiến. Giữ đủ chuỗi và phủ định."
+    },
+    {
+      "id": "first-herd",
+      "title": "Đàn thứ nhất lao vào",
+      "segments": [
+        "mn25:3.1",
+        "mn25:3.2"
+      ],
+      "summary": "Ăn mê say dẫn đến say sưa, phóng dật, bị tùy ý sai khiến; không thoát quyền lực người gieo mồi."
+    },
+    {
+      "id": "second-herd",
+      "title": "Đàn thứ hai rút vào rừng",
+      "segments": [
+        "mn25:4.1",
+        "mn25:4.2",
+        "mn25:4.3",
+        "mn25:4.4",
+        "mn25:4.5",
+        "mn25:4.6",
+        "mn25:4.7",
+        "mn25:4.8",
+        "mn25:4.9",
+        "mn25:4.10",
+        "mn25:4.11",
+        "mn25:4.12"
+      ],
+      "summary": "Nhớ thất bại đàn đầu, bỏ hẳn mồi nguy hiểm vào rừng sâu; tháng cuối mùa hạ cỏ nước cạn, thân quá gầy, sức lực giảm, quay lại ăn mê mải và thất bại cùng chuỗi."
+    },
+    {
+      "id": "third-herd",
+      "title": "Đàn thứ ba vẫn bị tìm ra",
+      "segments": [
+        "mn25:5.1",
+        "mn25:5.2",
+        "mn25:5.3",
+        "mn25:5.4",
+        "mn25:5.5",
+        "mn25:5.6",
+        "mn25:5.7",
+        "mn25:5.8",
+        "mn25:5.9",
+        "mn25:5.10",
+        "mn25:5.11",
+        "mn25:5.12",
+        "mn25:5.13",
+        "mn25:5.14",
+        "mn25:5.15",
+        "mn25:5.16",
+        "mn25:5.17",
+        "mn25:5.18",
+        "mn25:5.19",
+        "mn25:5.20",
+        "mn25:5.21",
+        "mn25:5.22",
+        "mn25:5.23",
+        "mn25:5.24",
+        "mn25:5.25"
+      ],
+      "summary": "Ôn thất bại hai đàn; trú gần nơi gieo mồi, ăn không xông vào mê đắm nên chưa bị chi phối theo chuỗi ấy. Người gieo mồi và tùy tùng cho là xảo quyệt/phi nhân thần lực, không biết lối đi; giăng lưới trên cọc cao quanh khu, thấy chỗ trú. Đàn thứ ba chưa thoát."
+    },
+    {
+      "id": "fourth-herd",
+      "title": "Đàn thứ tư ở ngoài tầm",
+      "segments": [
+        "mn25:6.1",
+        "mn25:6.2",
+        "mn25:6.3",
+        "mn25:6.4",
+        "mn25:6.5",
+        "mn25:6.6",
+        "mn25:6.7",
+        "mn25:6.8",
+        "mn25:6.9",
+        "mn25:6.10",
+        "mn25:6.11",
+        "mn25:6.12",
+        "mn25:6.13",
+        "mn25:6.14",
+        "mn25:6.15",
+        "mn25:6.16",
+        "mn25:6.17",
+        "mn25:6.18",
+        "mn25:6.19",
+        "mn25:6.20",
+        "mn25:6.21",
+        "mn25:6.22",
+        "mn25:6.23",
+        "mn25:6.24",
+        "mn25:6.25",
+        "mn25:6.26",
+        "mn25:6.27",
+        "mn25:6.28",
+        "mn25:6.29",
+        "mn25:6.30",
+        "mn25:6.31",
+        "mn25:6.32",
+        "mn25:6.33",
+        "mn25:6.34",
+        "mn25:6.35",
+        "mn25:6.36",
+        "mn25:6.37",
+        "mn25:6.38",
+        "mn25:6.39",
+        "mn25:6.40",
+        "mn25:6.41",
+        "mn25:6.42"
+      ],
+      "summary": "Ôn đầy đủ ba đàn trước, lập chỗ trú nơi người gieo mồi và tùy tùng không tới, ăn không xông vào mê đắm nên không say/phóng dật/bị sai khiến. Bị gọi xảo quyệt thần lực; cùng cách giăng lưới không tìm được nơi trú. Người gieo mồi sợ quấy nhiễu dây chuyền làm mọi đàn bỏ mồi nên để yên; đàn bốn thoát. Những lời ấy thuộc suy nghĩ nhân vật trong ví dụ."
+    },
+    {
+      "id": "mapping",
+      "title": "Đức Phật giải nghĩa ví dụ",
+      "segments": [
+        "mn25:7.1",
+        "mn25:7.2",
+        "mn25:7.3",
+        "mn25:7.4",
+        "mn25:7.5",
+        "mn25:7.6"
+      ],
+      "summary": "Ví dụ nhằm làm rõ nghĩa: mồi là năm dục trưởng dưỡng; người gieo mồi là Māra Ác Ma; tùy tùng là đoàn Māra; đàn nai là các sa-môn, bà-la-môn."
+    },
+    {
+      "id": "first-ascetics",
+      "title": "Nhóm tu thứ nhất mê đắm",
+      "segments": [
+        "mn25:8.1",
+        "mn25:8.2",
+        "mn25:8.3",
+        "mn25:8.4"
+      ],
+      "summary": "Sa-môn bà-la-môn hưởng mồi Māra và vật dục thế tục mê mải, say sưa, phóng dật, bị chi phối, không thoát; ứng đàn nai đầu."
+    },
+    {
+      "id": "second-ascetics",
+      "title": "Khổ hạnh dẫn đến suy kiệt",
+      "segments": [
+        "mn25:9.1",
+        "mn25:9.2",
+        "mn25:9.3",
+        "mn25:9.4",
+        "mn25:9.5",
+        "mn25:9.6",
+        "mn25:9.7",
+        "mn25:9.8",
+        "mn25:9.9",
+        "mn25:9.10",
+        "mn25:9.11",
+        "mn25:9.12",
+        "mn25:9.13",
+        "mn25:9.14",
+        "mn25:9.15",
+        "mn25:9.16"
+      ],
+      "summary": "Nhớ nhóm đầu, bỏ mồi và vật dục vào rừng; danh sách 10 loại thức ăn khổ hạnh, rễ/trái rừng, quả rụng. Cuối hạ cỏ nước hết, quá gầy, sức lực/tinh tấn giảm, tâm giải thoát giảm, trở lại mê đắm rồi chịu quyền Māra. Không gán tâm giải thoát có thể suy giảm này là giải thoát lậu tận. 9.6–9.7 lặp trong root, không tạo thêm nhóm."
+    },
+    {
+      "id": "third-ascetics",
+      "title": "Tiết chế nhưng vướng mười kiến",
+      "segments": [
+        "mn25:10.1",
+        "mn25:10.2",
+        "mn25:10.3",
+        "mn25:10.4",
+        "mn25:10.5",
+        "mn25:10.6",
+        "mn25:10.7",
+        "mn25:10.8",
+        "mn25:10.9",
+        "mn25:10.10",
+        "mn25:10.11",
+        "mn25:10.12",
+        "mn25:10.13",
+        "mn25:10.14",
+        "mn25:10.15",
+        "mn25:10.16",
+        "mn25:10.17",
+        "mn25:10.18",
+        "mn25:10.19",
+        "mn25:10.20",
+        "mn25:10.21",
+        "mn25:10.22",
+        "mn25:10.23",
+        "mn25:10.24",
+        "mn25:10.25",
+        "mn25:10.26"
+      ],
+      "summary": "Nhớ hai nhóm trước; trú gần dục, hưởng dụng không mê nên tránh say/phóng dật. Tuy vậy giữ 10 lập trường: thế giới thường/không thường, hữu biên/vô biên, mạng sống–thân một/khác, Như Lai sau chết có/không/cả hai/không cả hai. Do vậy vẫn trong quyền Māra, ứng đàn ba; không nhận 10 quan điểm là lời Phật xác quyết."
+    },
+    {
+      "id": "fourth-ascetics",
+      "title": "Chỗ trú Māra không tới",
+      "segments": [
+        "mn25:11.1",
+        "mn25:11.2",
+        "mn25:11.3",
+        "mn25:11.4",
+        "mn25:11.5",
+        "mn25:11.6",
+        "mn25:11.7",
+        "mn25:11.8",
+        "mn25:11.9",
+        "mn25:11.10",
+        "mn25:11.11",
+        "mn25:11.12",
+        "mn25:11.13",
+        "mn25:11.14",
+        "mn25:11.15",
+        "mn25:11.16",
+        "mn25:11.17",
+        "mn25:11.18",
+        "mn25:11.19",
+        "mn25:11.20",
+        "mn25:11.21",
+        "mn25:11.22",
+        "mn25:11.23",
+        "mn25:11.24",
+        "mn25:11.25",
+        "mn25:11.26",
+        "mn25:11.27",
+        "mn25:11.28",
+        "mn25:11.29",
+        "mn25:11.30",
+        "mn25:11.31",
+        "mn25:11.32"
+      ],
+      "summary": "Nhóm thứ tư ôn toàn bộ thất bại ba nhóm, tìm chỗ trú ngoài tầm Māra và tùy tùng, dùng vật dụng/dục mà không xông vào mê đắm, nên không say/phóng dật/bị chi phối, thoát như đàn bốn. Các kiến ở11.24–25 thuộc lời nhắc nhóm ba, không gán cho nhóm bốn."
+    },
+    {
+      "id": "first-jhana",
+      "title": "Sơ thiền",
+      "segments": [
+        "mn25:12.1",
+        "mn25:12.2",
+        "mn25:12.3"
+      ],
+      "summary": "Đáp nơi Māra không tới: tỳ-kheo ly dục, ly bất thiện, chứng trú sơ thiền, hỷ lạc do viễn ly, còn tầm tứ. Công thức làm Māra mù mắt, đoạn dấu mắt Māra, tới nơi Ác Ma không thấy."
+    },
+    {
+      "id": "second-jhana",
+      "title": "Nhị thiền",
+      "segments": [
+        "mn25:13.1",
+        "mn25:13.2"
+      ],
+      "summary": "Tầm tứ lắng, nội tâm trong sáng nhất tâm, không tầm tứ, hỷ lạc do định; cùng công thức ngoài tầm thấy Māra."
+    },
+    {
+      "id": "third-jhana",
+      "title": "Tam thiền",
+      "segments": [
+        "mn25:14.1",
+        "mn25:14.2"
+      ],
+      "summary": "Hỷ phai, trú xả, có niệm tỉnh giác, thân cảm lạc; bậc Thánh gọi xả niệm lạc trú; cùng công thức."
+    },
+    {
+      "id": "fourth-jhana",
+      "title": "Tứ thiền",
+      "segments": [
+        "mn25:15.1",
+        "mn25:15.2"
+      ],
+      "summary": "Bỏ lạc khổ, hỷ ưu trước đã tắt, không khổ không lạc, xả niệm thanh tịnh; cùng công thức."
+    },
+    {
+      "id": "infinite-space",
+      "title": "Không vô biên xứ",
+      "segments": [
+        "mn25:16.1",
+        "mn25:16.2"
+      ],
+      "summary": "Vượt trọn tưởng sắc, tưởng va chạm tắt, không chú ý tưởng sai biệt; không gian vô biên, chứng trú; cùng công thức."
+    },
+    {
+      "id": "infinite-consciousness",
+      "title": "Thức vô biên xứ",
+      "segments": [
+        "mn25:17.1",
+        "mn25:17.2"
+      ],
+      "summary": "Vượt trọn Không vô biên xứ, thức vô biên, chứng trú Thức vô biên xứ; cùng công thức."
+    },
+    {
+      "id": "nothingness",
+      "title": "Vô sở hữu xứ",
+      "segments": [
+        "mn25:18.1",
+        "mn25:18.2"
+      ],
+      "summary": "Vượt trọn Thức vô biên xứ, không có gì cả, chứng trú Vô sở hữu xứ; cùng công thức. Không biến thành mệnh đề mọi sự không tồn tại."
+    },
+    {
+      "id": "neither-perception",
+      "title": "Phi tưởng phi phi tưởng xứ",
+      "segments": [
+        "mn25:19.1",
+        "mn25:19.2"
+      ],
+      "summary": "Vượt trọn Vô sở hữu xứ, chứng trú trạng thái không thể gọi có tưởng hay không tưởng; cùng công thức."
+    },
+    {
+      "id": "cessation",
+      "title": "Diệt thọ tưởng và lậu tận",
+      "segments": [
+        "mn25:20.1",
+        "mn25:20.2"
+      ],
+      "summary": "Vượt Phi tưởng phi phi tưởng xứ, chứng trú diệt thọ tưởng; thấy bằng trí tuệ, lậu hoặc đoạn tận. Lặp công thức Māra không thấy và thêm vượt bám víu thế gian; không đồng nhất mọi tầng định trước với lậu tận."
+    },
+    {
+      "id": "closing",
+      "title": "Lời kết và nhãn thứ năm",
+      "segments": [
+        "mn25:20.3",
+        "mn25:20.4",
+        "mn25:20.5"
+      ],
+      "summary": "Đức Phật kết lời, tỳ-kheo vui mừng tán đồng. Colophon bài thứ năm trong nhóm là nhãn ấn bản, UID vẫn MN25."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Bốn đàn nai và chỗ trú an toàn",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Bốn đàn nai tìm đường thoát",
+          "paragraphs": [
+            "Một món ăn hấp dẫn có thể được đặt ra để nuôi một con vật, cũng có thể để bắt nó. Kinh Nơi Gieo Mồi, MN25, bắt đầu bằng điều khác nhau ấy. Bài còn có tên Kinh Bẫy Mồi.",
+            "Tại rừng Jeta, tu viện Anāthapiṇḍika ở Sāvatthī, Đức Phật kể cho các tỳ-kheo, tức những người xuất gia, một ví dụ về bốn đàn nai. Hãy theo từng đàn để thấy: tránh được một cái bẫy chưa có nghĩa đã tìm được đường thoát."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting"
+          ]
+        },
+        {
+          "id": "bait",
+          "kind": "teaching",
+          "heading": "Mồi ngon và điều người gieo mồi muốn",
+          "paragraphs": [
+            "Người gieo mồi không mong đàn nai sống lâu và có vẻ đẹp. Ông muốn chúng lao vào ăn thật mê mải. Khi đã say sưa vì mồi, chúng lơ là, không còn cẩn trọng. Lúc ấy, ông có thể làm gì chúng tùy ý.",
+            "Đàn thứ nhất làm đúng như ông mong: ăn mê mải, say sưa, rồi phóng dật — nghĩa là buông sự cẩn trọng. Chúng không thoát được quyền của người gieo mồi. Bài cho ta thấy từng bước một, từ ham thích đến mất tự do."
+          ],
+          "meaningUnits": [
+            "bait-intention",
+            "first-herd"
+          ]
+        },
+        {
+          "id": "second",
+          "kind": "teaching",
+          "heading": "Chạy xa mà chưa có nơi sống vững",
+          "paragraphs": [
+            "Đàn thứ hai nhìn thấy nguy hiểm nên bỏ hẳn mồi, đi sâu vào rừng. Nhưng đến tháng cuối mùa hạ, cỏ và nước cạn. Chúng gầy đi quá nhiều, sức cũng yếu dần.",
+            "Không đủ sức, chúng quay về chỗ mồi. Lần này chúng lại ăn mê mải, say sưa, lơ là và bị người gieo mồi chi phối. Đi thật xa đã không giúp đàn thứ hai thoát hẳn."
+          ],
+          "meaningUnits": [
+            "second-herd"
+          ]
+        },
+        {
+          "id": "third",
+          "kind": "teaching",
+          "heading": "Thận trọng hơn, nhưng chỗ trú vẫn bị lộ",
+          "paragraphs": [
+            "Đàn thứ ba nhớ cả hai thất bại ấy. Chúng ở gần chỗ mồi và vẫn ăn, nhưng không lao vào mê mải. Vì thế chúng không say sưa rồi lơ là như trước.",
+            "Người gieo mồi cùng những người giúp việc không biết chúng đi về bằng lối nào. Họ cho rằng đàn nai này xảo quyệt, như có phép lạ. Đó là điều các nhân vật nghĩ. Họ giăng lưới trên cọc cao quanh khu vực và tìm được chỗ đàn nai trú. Đàn thứ ba vẫn chưa thoát."
+          ],
+          "meaningUnits": [
+            "third-herd"
+          ]
+        },
+        {
+          "id": "fourth",
+          "kind": "teaching",
+          "heading": "Một nơi người gieo mồi không tới được",
+          "paragraphs": [
+            "Đàn thứ tư nhìn lại cả ba cách trước. Chúng làm chỗ trú ở nơi người gieo mồi và người giúp việc không đến được. Khi ăn mồi, chúng không lao vào mê mải; vì vậy không say sưa, không lơ là, không bị tùy ý sai khiến.",
+            "Người gieo mồi lại ngạc nhiên, cho rằng chúng xảo quyệt và có phép. Ông cùng người giúp việc giăng lưới như trước, nhưng không tìm ra chỗ trú. Họ nghĩ nếu làm đàn này náo động thì những đàn khác cũng náo động theo, cuối cùng tất cả bỏ chỗ mồi. Vì vậy họ để yên đàn thứ tư. Đàn này thoát khỏi quyền của họ."
+          ],
+          "meaningUnits": [
+            "fourth-herd"
+          ]
+        },
+        {
+          "id": "meaning",
+          "kind": "teaching",
+          "heading": "Những con nai nói về điều gì?",
+          "paragraphs": [
+            "Đức Phật giải nghĩa ngay: mồi chỉ năm dục trưởng dưỡng, tức những hình ảnh, âm thanh, mùi, vị và sự chạm dễ làm mình ham thích. Người gieo mồi chỉ Māra, gọi là Ác Ma; người giúp việc là đoàn của Māra. Trong bài kinh, Māra là kẻ cản đường giải thoát. Những đàn nai chỉ các sa-môn, bà-la-môn: những người tu và tìm đạo thời ấy.",
+            "Nhóm người tu thứ nhất mê mải hưởng những thứ hấp dẫn của thế gian. Từ say sưa, họ trở nên phóng dật và ở trong quyền Māra. Mang danh người tu không tự giúp họ thoát khỏi chuỗi ấy."
+          ],
+          "meaningUnits": [
+            "mapping",
+            "first-ascetics"
+          ]
+        },
+        {
+          "id": "hard-living",
+          "kind": "teaching",
+          "heading": "Ép mình quá mức vẫn chưa phải lối thoát",
+          "paragraphs": [
+            "Nhóm thứ hai thấy nguy hiểm nên bỏ các thứ hưởng thụ, vào rừng sâu. Họ sống bằng rau, kê, lúa hoang, những thứ gạo thô, rau nước, cám, váng cơm, bã vừng, cỏ, có người cả phân bò; hoặc dùng rễ, trái rừng và quả rụng. Tên vài món cổ có cách dịch khác nhau, nhưng lối sống khắc khổ được kể rất rõ.",
+            "Cuối mùa hạ, cỏ nước hết. Họ quá gầy, sức lực và sự cố gắng giảm; sự giải thoát của tâm mà họ đang có cũng giảm. Họ quay lại hưởng thụ mê mải, rồi say sưa, phóng dật và bị Māra chi phối. Trạng thái có thể mất này chưa phải giải thoát trọn vẹn ở cuối bài. Câu chuyện không bảo em nhịn ăn hoặc tự làm mình yếu đi."
+          ],
+          "meaningUnits": [
+            "second-ascetics"
+          ]
+        },
+        {
+          "id": "opinions",
+          "kind": "teaching",
+          "heading": "Còn một cái bẫy trong ý kiến",
+          "paragraphs": [
+            "Nhóm thứ ba học từ hai nhóm trước. Họ dùng những thứ của đời sống mà không mê mải nên không say sưa, lơ là. Tuy vậy, họ lại giữ chặt những lập trường về các câu hỏi lớn.",
+            "Có người nói thế giới tồn tại mãi, người nói không tồn tại mãi; có người nói thế giới có giới hạn, người nói không có giới hạn. Có người cho mạng sống và thân thể là một, người cho là hai điều khác nhau.",
+            "Về Như Lai — tên gọi bậc giác ngộ trong câu hỏi này — sau khi chết, họ lại có bốn lập trường: còn tồn tại; không tồn tại; vừa còn vừa không; hoặc không thuộc cả hai cách nói ấy. Bài kinh không chọn một lập trường trong mười điều này làm đáp án. Nhóm còn mắc vào chúng vẫn chưa ra khỏi quyền Māra. Hỏi để học không đồng nghĩa với nắm chặt một ý kiến rồi không chịu xét lại."
+          ],
+          "meaningUnits": [
+            "third-ascetics"
+          ]
+        },
+        {
+          "id": "safe-place",
+          "kind": "teaching",
+          "heading": "Chỗ trú ở đây là sự tu tập",
+          "paragraphs": [
+            "Nhóm thứ tư nhìn rõ thất bại của ba nhóm. Họ chọn chỗ trú nơi Māra và đoàn của Māra không tới; hưởng dụng những thứ hấp dẫn của đời sống mà không mê mải, nên không say sưa, phóng dật và bị chi phối. Đức Phật tiếp đó nói rõ chỗ trú ấy bằng những trạng thái tu tập sâu.",
+            "Đầu tiên là sơ thiền. Người tu rời dục và các điều bất thiện, đạt niềm vui và sự dễ chịu do rời xa những điều ấy. Tâm còn tầm và tứ: hướng vào điều đang thiền và giữ sự chú tâm ở đó. Đây là một tầng định, nghĩa là tâm được tập trung vững, không phải chỉ vừa ngồi yên một lúc."
+          ],
+          "meaningUnits": [
+            "fourth-ascetics",
+            "first-jhana"
+          ]
+        },
+        {
+          "id": "middle-jhanas",
+          "kind": "teaching",
+          "heading": "Niềm vui cũng được làm lắng",
+          "paragraphs": [
+            "Ở nhị thiền, tầm và tứ lắng xuống. Tâm trong sáng, quy về một mối; niềm vui và sự dễ chịu do định sinh ra.",
+            "Ở tam thiền, hỷ — niềm vui phấn chấn — phai đi. Người tu vẫn cảm nhận sự dễ chịu, giữ xả, tức sự quân bình không nghiêng theo ham thích hay chống đối; có niệm và tỉnh giác, biết rõ điều đang xảy ra. Các bậc Thánh gọi đó là sống an lạc với xả và niệm."
+          ],
+          "meaningUnits": [
+            "second-jhana",
+            "third-jhana"
+          ]
+        },
+        {
+          "id": "fourth-jhana",
+          "kind": "teaching",
+          "heading": "Không còn chạy theo vui hay khổ",
+          "paragraphs": [
+            "Ở tứ thiền, người tu buông cảm giác lạc và khổ; những vui buồn trước đó đã lắng. Trạng thái này không khổ cũng không lạc, xả và niệm trong sạch. Các tầng thiền có những điểm khác nhau, không phải càng lên cao thì càng vui rộn ràng."
+          ],
+          "meaningUnits": [
+            "fourth-jhana"
+          ]
+        },
+        {
+          "id": "space-consciousness",
+          "kind": "teaching",
+          "heading": "Hai trạng thái mang tên vô biên",
+          "paragraphs": [
+            "Bài tiếp tục với Không vô biên xứ. Người tu vượt qua sự nhận biết về hình thể, những nhận biết do va chạm lắng đi, không chú ý các dạng khác nhau; an trú với nhận biết không gian không có giới hạn.",
+            "Vượt hoàn toàn trạng thái ấy, người tu an trú Thức vô biên xứ, với nhận biết thức là vô biên. Thức ở đây là sự nhận biết, khác với không gian. Đây là tên những chứng đạt trong thiền, không phải một chuyến bay ra ngoài vũ trụ."
+          ],
+          "meaningUnits": [
+            "infinite-space",
+            "infinite-consciousness"
+          ]
+        },
+        {
+          "id": "subtler",
+          "kind": "teaching",
+          "heading": "Tiếp tục vượt qua điều đã đạt",
+          "paragraphs": [
+            "Vượt Thức vô biên xứ, người tu an trú Vô sở hữu xứ, với nhận biết không có gì cả. Điều này mô tả trạng thái thiền; không bảo rằng gia đình, bạn bè hoặc mọi việc đều không có thật.",
+            "Vượt tiếp trạng thái ấy là Phi tưởng phi phi tưởng xứ. Tưởng là sự nhận biết và nhận ra đối tượng. Tên dài này chỉ trạng thái tinh tế không thể đơn giản gọi là có tưởng hay không có tưởng. Em có thể ghi nhớ tên và vị trí của nó, rồi đọc sâu dần cùng người hướng dẫn."
+          ],
+          "meaningUnits": [
+            "nothingness",
+            "neither-perception"
+          ]
+        },
+        {
+          "id": "liberation",
+          "kind": "teaching",
+          "heading": "Đích đến còn có trí tuệ",
+          "paragraphs": [
+            "Vượt Phi tưởng phi phi tưởng xứ, người tu chứng diệt thọ tưởng: cảm thọ và tưởng dừng lại trong chứng đạt ấy. Và do thấy bằng trí tuệ, các lậu hoặc — những ô nhiễm sâu trong tâm — được đoạn tận. Kinh nói vị ấy vượt qua sự bám víu ở đời.",
+            "Sau từng tầng vừa kể, bài dùng hình ảnh làm Māra mù mắt, không còn dấu để tìm thấy người tu. Đó là cách nói về việc ra ngoài tầm chi phối, không phải việc làm hại mắt ai. Riêng bước cuối có thêm trí tuệ đoạn tận lậu hoặc; không nên gọi mọi lúc yên tâm là đã giải thoát trọn vẹn."
+          ],
+          "meaningUnits": [
+            "cessation",
+            "first-jhana",
+            "second-jhana",
+            "third-jhana",
+            "fourth-jhana",
+            "infinite-space",
+            "infinite-consciousness",
+            "nothingness",
+            "neither-perception"
+          ]
+        },
+        {
+          "id": "today",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: một lượt chơi nữa",
+          "paragraphs": [
+            "Ví dụ do người biên soạn đặt ra: một trò chơi cứ mời em nhận quà và chơi thêm. Em mê đến mức quên giờ ăn, rồi cáu với người gọi mình. Em có thể nhận ra niềm thích thú đang kéo mình đi xa tới đâu.",
+            "Nhưng tự phạt bằng cách bỏ bữa không giải quyết điều ấy. Cũng chưa đủ nếu chỉ nói mình luôn kiểm soát được mà không nhìn lại việc đã xảy ra. Ví dụ giúp thấy mê mải và sự cứng đầu; tắt trò chơi không phải chứng một tầng thiền, và nhà làm trò chơi không vì ví dụ này mà được gọi là Māra."
+          ],
+          "meaningUnits": [
+            "bait-intention",
+            "first-herd",
+            "second-ascetics",
+            "third-ascetics"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một câu hỏi nhỏ để mang theo",
+          "paragraphs": [
+            "Gợi ý của người biên soạn: khi một thứ rất hấp dẫn, em thử hỏi: mình còn biết dừng, còn để ý người và việc quanh mình không? Nếu khó dừng, có thể nhờ người lớn đáng tin cùng sắp xếp giờ chơi. Đây là cách tập cẩn trọng trong đời sống."
+          ],
+          "meaningUnits": [
+            "bait-intention",
+            "fourth-ascetics"
+          ]
+        },
+        {
+          "id": "end",
+          "kind": "clarification",
+          "heading": "Trở lại bài kinh",
+          "paragraphs": [
+            "Nghe Đức Phật giảng xong, các tỳ-kheo hoan hỷ tán đồng. Dòng cuối ghi bài thứ năm trong nhóm kinh đang học; số của toàn bài vẫn là MN25. Em có thể mở nguồn dưới từng phần để đọc lại bốn đàn nai, rồi từng bước của con đường tu tập."
+          ],
+          "meaningUnits": [
+            "closing"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Tự do cần một chỗ nương vững hơn sự tiết chế",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Chưa bị cuốn đi đã đủ để gọi là tự do?",
+          "paragraphs": [
+            "MN25, Kinh Nơi Gieo Mồi hay Kinh Bẫy Mồi, đặt câu hỏi về chỗ dựa của người muốn thoát ràng buộc. Đức Phật giảng cho các tỳ-kheo tại rừng Jeta, tu viện Anāthapiṇḍika ở Sāvatthī, qua bốn đàn nai và bốn nhóm người tu.",
+            "Người gieo mồi không nhằm giúp nai sống lâu, có vẻ đẹp và sống bền lâu. Ông muốn chúng lao vào ăn mê mải, thành say sưa, rồi phóng dật, để ông tùy ý xử trí. Sức hấp dẫn mở đầu một chuỗi; sự mất cảnh giác khiến quyền tự chủ bị giao đi."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "bait-intention"
+          ]
+        },
+        {
+          "id": "first-two",
+          "kind": "teaching",
+          "heading": "Buông theo và rút lui đều có thể thất bại",
+          "paragraphs": [
+            "Đàn thứ nhất ăn mê đắm đúng như dự tính của người gieo mồi. Say sưa dẫn tới phóng dật; chúng trở thành đối tượng bị tùy ý sai khiến.",
+            "Đàn thứ hai rút kinh nghiệm, bỏ hoàn toàn thức ăn nguy hiểm và vào rừng sâu. Đến tháng cuối mùa hạ, cỏ nước cạn, thân quá gầy, sức lực suy giảm. Chúng quay về ăn mồi mê mải, lại trải qua chuỗi say sưa, phóng dật và lệ thuộc. Khoảng cách với nguồn cám dỗ chưa bảo đảm một đời sống có thể đứng vững."
+          ],
+          "meaningUnits": [
+            "first-herd",
+            "second-herd"
+          ]
+        },
+        {
+          "id": "third",
+          "kind": "teaching",
+          "heading": "Tự chủ một phần, chỗ trú vẫn trong tầm",
+          "paragraphs": [
+            "Đàn thứ ba xét lại hai thất bại rồi trú gần nơi gieo mồi. Chúng vẫn ăn nhưng không xông vào mê đắm, vì thế không say sưa rồi phóng dật và chưa bị chi phối bằng cách ấy.",
+            "Không biết đàn nai đi về bằng lối nào, người gieo mồi và tùy tùng cho rằng chúng xảo quyệt, như những sinh vật lạ có thần lực. Họ dựng lưới trên cọc cao bao quanh khu vực, tìm ra nơi trú. Đàn này vẫn chưa thoát quyền người gieo mồi. Lời nhận xét về phép lạ thuộc suy nghĩ của nhân vật, không phải sự xác nhận của người kể."
+          ],
+          "meaningUnits": [
+            "third-herd"
+          ]
+        },
+        {
+          "id": "fourth",
+          "kind": "teaching",
+          "heading": "Khác biệt nằm ở nơi nương trú",
+          "paragraphs": [
+            "Đàn thứ tư nhớ toàn bộ ba cách trước. Chúng trú nơi người gieo mồi và tùy tùng không tới được, đồng thời ăn mà không xông vào mê đắm. Chuỗi say sưa, phóng dật và chịu sự sai khiến không diễn ra.",
+            "Người gieo mồi lại cho chúng xảo quyệt, có thần lực; lại giăng lưới để tìm đường đi và nơi trú, nhưng không tìm ra. Ông lo quấy nhiễu đàn này sẽ làm các đàn khác náo động dây chuyền, khiến tất cả bỏ chỗ mồi. Vì vậy ông và tùy tùng để yên đàn thứ tư. Kinh kết luận đàn này thoát quyền họ, không kể một cuộc chiến hay việc tiêu diệt người gieo mồi."
+          ],
+          "meaningUnits": [
+            "fourth-herd"
+          ]
+        },
+        {
+          "id": "mapping",
+          "kind": "teaching",
+          "heading": "Phép đối chiếu do chính Đức Phật nêu",
+          "paragraphs": [
+            "Mồi tượng trưng năm dục trưởng dưỡng: những đối tượng sắc, thanh, hương, vị, xúc có sức nuôi ham thích. Người gieo mồi là Māra Ác Ma; tùy tùng là đoàn Māra; các đàn nai là các sa-môn, bà-la-môn, những người theo đuổi đời sống tu hành thời ấy.",
+            "Nhóm thứ nhất mê mải hưởng dục và những thứ hấp dẫn của thế gian. Họ say sưa, phóng dật rồi chịu sự chi phối của Māra, giống đàn đầu. Bài khảo sát cách sống thực tế của người tu, không lấy danh xưng làm bằng chứng đã thoát dục."
+          ],
+          "meaningUnits": [
+            "mapping",
+            "first-ascetics"
+          ]
+        },
+        {
+          "id": "austerity",
+          "kind": "teaching",
+          "heading": "Nhóm thứ hai: khổ hạnh rồi suy kiệt",
+          "paragraphs": [
+            "Nhóm thứ hai thấy thất bại đó nên bỏ các hưởng thụ và vật dụng thế tục, vào rừng sâu. Kinh kể chế độ sống bằng rau, kê, lúa hoang, gạo thô, rau nước, cám, váng cơm, bã vừng, cỏ, phân bò, hoặc rễ và trái rừng, quả rụng. Cách xác định vài tên thức ăn cổ còn khác nhau giữa các bản dịch; luận điểm không phụ thuộc việc chọn một thực đơn hiện đại tương đương.",
+            "Đến cuối mùa hạ, cỏ nước cạn, họ quá gầy. Sức lực và tinh tấn suy giảm, rồi tâm giải thoát họ có cũng suy giảm. Họ quay lại hưởng dục mê đắm, say sưa, phóng dật và nằm trong quyền Māra. Cetovimutti ở đoạn này là trạng thái được nói rõ có thể suy giảm, không được đánh đồng với giải thoát lậu tận ở cuối bài."
+          ],
+          "meaningUnits": [
+            "second-ascetics"
+          ]
+        },
+        {
+          "id": "views",
+          "kind": "teaching",
+          "heading": "Thoát mê đắm thô chưa thoát những lập trường cố định",
+          "paragraphs": [
+            "Nhóm thứ ba rút kinh nghiệm cả hai nhóm. Họ ở gần các vật dục nhưng hưởng dụng không mê đắm, không đi vào chuỗi say sưa và phóng dật. Tuy nhiên, họ vẫn nắm những quan điểm mà kinh chia thành mười lập trường.",
+            "Hai lập trường về thời gian: thế giới thường còn hoặc không thường còn. Hai về giới hạn: hữu biên hoặc vô biên. Hai về mạng sống và thân thể: đồng nhất hoặc khác nhau. Bốn về Như Lai sau khi chết: tồn tại, không tồn tại, vừa tồn tại vừa không, hoặc không thuộc cả hai cách nói ấy. Như Lai là danh xưng bậc giác ngộ trong vấn đề đang được bàn.",
+            "Đức Phật không xác quyết một đáp án trong danh sách này. Ngài nêu việc nhóm ấy còn ở trong quyền Māra, tương ứng chỗ trú bị phát hiện của đàn thứ ba. Không cần suy từ đây rằng mọi câu hỏi hoặc mọi suy xét đều là lỗi; điểm của bài là giới hạn của một chỗ nương dựa còn mắc vào những kiến ấy."
+          ],
+          "meaningUnits": [
+            "third-ascetics"
+          ]
+        },
+        {
+          "id": "fourth-group",
+          "kind": "teaching",
+          "heading": "Một hướng tu vượt khỏi cả ba thất bại",
+          "paragraphs": [
+            "Nhóm thứ tư xét lại cả ba nhóm và tìm nơi Māra cùng đoàn của Māra không tới. Họ dùng các thứ của đời sống mà không lao vào mê đắm; không say sưa, phóng dật hay chịu sự chi phối. Những quan điểm được nhắc trong phần hồi tưởng vẫn thuộc nhóm thứ ba, không phải quan điểm mới của nhóm thứ tư.",
+            "Đức Phật xác định nơi ấy qua các chứng đạt. Sơ thiền bắt đầu bằng ly dục, ly pháp bất thiện; có hỷ lạc do viễn ly — niềm vui phấn chấn và sự dễ chịu do rời xa dục, bất thiện — còn tầm và tứ. Theo cách giải nghĩa dùng ở đây, tầm là hướng tâm vào đề mục, tứ là duy trì sự chú tâm ấy. Định này đòi hỏi điều kiện tu tập, không đồng nghĩa với một buổi nghỉ ngơi dễ chịu."
+          ],
+          "meaningUnits": [
+            "fourth-ascetics",
+            "first-jhana"
+          ]
+        },
+        {
+          "id": "jhanas",
+          "kind": "teaching",
+          "heading": "Bốn thiền, bốn mô tả khác nhau",
+          "paragraphs": [
+            "Nhị thiền: tầm và tứ lắng xuống; nội tâm trong sáng, quy nhất, không tầm tứ; hỷ lạc do định sinh. Tam thiền: hỷ phai, hành giả trú xả, có niệm và tỉnh giác, thân vẫn cảm lạc. Kinh nhắc cách các bậc Thánh mô tả trạng thái xả, có niệm, sống an lạc ấy.",
+            "Tứ thiền: lạc và khổ được buông, hỷ ưu trước đó đã tắt; không khổ không lạc, xả niệm thanh tịnh. Xả là quân bình, không phải thờ ơ; niệm và tỉnh giác giữ sự hiện diện, biết rõ. Lộ trình đi qua cả sự lắng xuống của hỷ lạc, không đo tiến bộ bằng cường độ cảm giác vui."
+          ],
+          "meaningUnits": [
+            "second-jhana",
+            "third-jhana",
+            "fourth-jhana"
+          ]
+        },
+        {
+          "id": "formless",
+          "kind": "teaching",
+          "heading": "Bốn chứng đạt vượt tưởng sắc",
+          "paragraphs": [
+            "Không vô biên xứ: vượt hoàn toàn tưởng về sắc, các tưởng do va chạm chấm dứt, không chú ý những tưởng sai biệt; an trú với nhận biết không gian vô biên. Vượt hoàn toàn tầng này, hành giả vào Thức vô biên xứ, với nhận biết thức vô biên.",
+            "Vượt Thức vô biên xứ, hành giả an trú Vô sở hữu xứ, với nhận biết không có gì cả. Vượt tầng ấy là Phi tưởng phi phi tưởng xứ, trạng thái không thể giản lược thành có tưởng hay không tưởng. Tưởng ở đây là sự nhận biết, nhận ra đối tượng. Những mệnh đề về không gian, thức và không có gì mô tả chứng đạt trong thiền, không được đổi thành kết luận vật lý hay một học thuyết phủ nhận thế giới."
+          ],
+          "meaningUnits": [
+            "infinite-space",
+            "infinite-consciousness",
+            "nothingness",
+            "neither-perception"
+          ]
+        },
+        {
+          "id": "end-path",
+          "kind": "teaching",
+          "heading": "Điểm kết có thêm sự thấy bằng trí tuệ",
+          "paragraphs": [
+            "Vượt hoàn toàn Phi tưởng phi phi tưởng xứ, vị tỳ-kheo chứng và trú diệt thọ tưởng: cảm thọ và tưởng dừng trong chứng đạt ấy. Khi thấy bằng trí tuệ, các lậu hoặc được đoạn tận. Lậu hoặc chỉ những ô nhiễm sâu duy trì ràng buộc của tâm; đoạn tận chúng là điểm không được bỏ khỏi kết luận.",
+            "Mỗi chứng đạt trong chuỗi đều được mô tả bằng hình ảnh làm Māra mù mắt, phá hủy con mắt Māra không để lại dấu vết, đến nơi Ác Ma không thấy được. Cuối cùng còn thêm: đã vượt qua sự bám víu trong thế gian. Các câu ấy thể hiện việc ra ngoài tầm chi phối; không phải chỉ dẫn bạo lực và cũng không cho phép đồng nhất mọi tầng định với giải thoát hoàn toàn."
+          ],
+          "meaningUnits": [
+            "cessation",
+            "first-jhana",
+            "second-jhana",
+            "third-jhana",
+            "fourth-jhana",
+            "infinite-space",
+            "infinite-consciousness",
+            "nothingness",
+            "neither-perception"
+          ]
+        },
+        {
+          "id": "today",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: dùng một tiện ích có sức níu kéo",
+          "paragraphs": [
+            "Ví dụ của người biên soạn: một dịch vụ liên tục đưa ra nội dung đúng sở thích. Bạn vào để tìm một thông tin rồi ở lại lâu hơn dự định. Cấm mình dùng mọi công cụ đến mức công việc đảo lộn có thể khiến lần quay lại càng mất kiểm soát. Dùng có giới hạn là tiến bộ, nhưng câu khẳng định mình không bao giờ bị tác động vẫn cần được kiểm bằng hành vi thực.",
+            "Liên hệ này làm rõ sự mê mải, sự cưỡng ép thiếu nền tảng và việc bám vào một nhận định về mình. Nó không ánh xạ đủ các nhóm người tu, mười kiến hoặc các tầng định. Mục tiêu MN25 vẫn là thoát ràng buộc và lậu hoặc, rộng hơn việc quản lý thời gian dùng một dịch vụ."
+          ],
+          "meaningUnits": [
+            "bait-intention",
+            "second-ascetics",
+            "third-ascetics",
+            "fourth-ascetics"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Xem mình đang nương vào đâu",
+          "paragraphs": [
+            "Gợi ý suy xét: khi một nguồn thỏa mãn tạm vắng, điều gì giữ cách sống của mình ổn định? Có thể xem lại một sinh hoạt đang nuôi sự mê mải, giảm điều kiện kích thích và duy trì việc học, tu tập phù hợp. Không lấy tự hành xác hoặc một tuyên bố mạnh mẽ làm bằng chứng tự do."
+          ],
+          "meaningUnits": [
+            "fourth-ascetics",
+            "cessation"
+          ]
+        },
+        {
+          "id": "closing",
+          "kind": "clarification",
+          "heading": "Khép lại ví dụ, mở đường đọc sâu",
+          "paragraphs": [
+            "Các tỳ-kheo vui mừng tán đồng sau khi Đức Phật giảng xong. Nhãn cuối ghi bài thứ năm trong nhóm, còn UID là MN25. Những liên kết nguồn giúp kiểm lại hai chỗ nối quan trọng: từ đàn nai sang người tu, và từ chỗ trú ngoài tầm Māra sang định cùng trí tuệ."
+          ],
+          "meaningUnits": [
+            "closing"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Nhìn lại điều mình còn nương giữ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Dùng một thứ mà không để nó giữ mình",
+          "paragraphs": [
+            "Ta có thể đã biết tiết chế nhiều thứ trong đời. Kinh Nơi Gieo Mồi, còn gọi Kinh Bẫy Mồi, mời nhìn thêm: sự tiết chế ấy đang nương vào đâu, và điều gì vẫn có thể trói buộc mình?",
+            "Đây là MN25. Tại rừng Jeta, tu viện Anāthapiṇḍika ở Sāvatthī, Đức Phật giảng cho các tỳ-kheo, những người sống đời xuất gia. Ngài dùng chuyện bốn đàn nai, rồi tự giải nghĩa từng phần."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting"
+          ]
+        },
+        {
+          "id": "bait",
+          "kind": "teaching",
+          "heading": "Thấy rõ chuỗi từ thích thú đến lệ thuộc",
+          "paragraphs": [
+            "Người gieo mồi không nhằm nuôi đàn nai cho sống lâu, có vẻ đẹp và sống bền lâu. Ông muốn chúng lao vào ăn mê mải. Mê mải dẫn tới say sưa; say sưa dẫn tới phóng dật, tức buông sự cẩn trọng; rồi chúng bị ông tùy ý xử trí.",
+            "Đàn nai thứ nhất rơi đúng vào chuỗi ấy. Chúng chưa thoát quyền người gieo mồi. Kinh đặt trọng tâm vào cách bị cuốn đi, không chỉ vào việc mồi có ngon hay không."
+          ],
+          "meaningUnits": [
+            "bait-intention",
+            "first-herd"
+          ]
+        },
+        {
+          "id": "second",
+          "kind": "teaching",
+          "heading": "Rời xa chưa chắc đã đứng vững",
+          "paragraphs": [
+            "Đàn thứ hai nhìn thấy thất bại của đàn đầu, bỏ hẳn mồi và vào rừng sâu. Đến tháng cuối mùa hạ, cỏ nước cạn kiệt. Thân quá gầy làm sức lực chúng suy giảm.",
+            "Chúng quay lại nơi gieo mồi, ăn mê mải, rồi lại say sưa, phóng dật và chịu sự sai khiến. Ý định tránh nguy hiểm có thật; cách sống mới lại không đủ sức nâng đỡ ý định ấy."
+          ],
+          "meaningUnits": [
+            "second-herd"
+          ]
+        },
+        {
+          "id": "third",
+          "kind": "teaching",
+          "heading": "Chỗ trú gần mồi còn bị tìm thấy",
+          "paragraphs": [
+            "Đàn thứ ba nhớ cả hai cách thất bại. Chúng ở gần chỗ mồi, dùng thức ăn mà không xông vào mê đắm. Nhờ vậy, chúng không say sưa và lơ là như các đàn trước.",
+            "Người gieo mồi và những người phụ giúp chưa biết đường đi của chúng, bèn cho rằng đàn này xảo quyệt, như có thần lực. Họ dựng lưới trên cọc cao bao quanh khu, rồi tìm thấy nơi đàn nai trú. Đàn thứ ba vẫn chưa thoát. Nhận xét về thần lực là ý nghĩ của người gieo mồi trong câu chuyện."
+          ],
+          "meaningUnits": [
+            "third-herd"
+          ]
+        },
+        {
+          "id": "fourth",
+          "kind": "teaching",
+          "heading": "Nơi nương trú thật sự ở ngoài tầm",
+          "paragraphs": [
+            "Đàn thứ tư xét lại cả ba đàn. Chúng chọn nơi trú mà người gieo mồi và tùy tùng không tới được. Chúng vẫn dùng thức ăn, không lao vào mê đắm, nên không say sưa, phóng dật hoặc bị tùy ý sai khiến.",
+            "Người gieo mồi lại ngạc nhiên cho chúng xảo quyệt, có thần lực, và lại bao quanh khu mồi bằng lưới. Lần này ông không tìm thấy nơi trú. Ông lo nếu quấy nhiễu đàn thứ tư, nó sẽ làm các đàn khác náo động nối tiếp, khiến tất cả bỏ mồi. Ông cùng tùy tùng quyết định để yên. Đàn thứ tư nhờ vậy thoát quyền họ."
+          ],
+          "meaningUnits": [
+            "fourth-herd"
+          ]
+        },
+        {
+          "id": "meaning",
+          "kind": "teaching",
+          "heading": "Từ đàn nai đến người tìm đạo",
+          "paragraphs": [
+            "Đức Phật nói rõ ý nghĩa: mồi là năm dục trưởng dưỡng, những sắc, tiếng, mùi, vị và xúc chạm khơi ham thích. Người gieo mồi là Māra Ác Ma; người phụ giúp là đoàn Māra. Đàn nai chỉ các sa-môn, bà-la-môn, những người theo đuổi đời sống tu hành thời bấy giờ.",
+            "Nhóm đầu tiên mê mải hưởng dục và những thứ hấp dẫn của thế gian. Từ say sưa đến phóng dật, họ rơi vào quyền Māra. Danh vị người tu chưa thay được việc tự nhận ra sự ràng buộc ấy."
+          ],
+          "meaningUnits": [
+            "mapping",
+            "first-ascetics"
+          ]
+        },
+        {
+          "id": "austerity",
+          "kind": "teaching",
+          "heading": "Có sức sống mới có thể đi đường dài",
+          "paragraphs": [
+            "Nhóm thứ hai bỏ hưởng thụ và vật dụng thế tục để vào rừng sâu. Những thức ăn khổ hạnh được kể gồm rau, kê, lúa hoang, gạo thô, rau nước, cám, váng cơm, bã vừng, cỏ, cả phân bò; hoặc rễ, trái rừng và quả rụng. Một số tên món cổ còn có cách dịch khác nhau. Đoạn ấy mô tả cách họ sống, không đề ra thực đơn cho người đọc.",
+            "Cuối mùa hạ, cỏ nước hết, họ gầy yếu quá mức. Sức lực, tinh tấn suy giảm; sự giải thoát tâm đang có cũng suy giảm. Họ trở lại ăn hưởng mê mải, say sưa, phóng dật và chịu quyền Māra. Trạng thái tâm có thể suy giảm ấy không phải giải thoát lậu tận được nói ở cuối kinh."
+          ],
+          "meaningUnits": [
+            "second-ascetics"
+          ]
+        },
+        {
+          "id": "opinions",
+          "kind": "teaching",
+          "heading": "Một sự nắm giữ kín đáo hơn",
+          "paragraphs": [
+            "Nhóm thứ ba đã nhìn ra hai thất bại. Họ vẫn dùng các vật dục mà không lao vào mê đắm; không say sưa, không phóng dật. Nhưng họ còn giữ các quan điểm về thế giới, mạng sống và Như Lai sau khi chết.",
+            "Mười lập trường ấy gồm: thế giới thường còn hoặc không thường còn; có giới hạn hoặc không giới hạn; mạng sống và thân thể là một hoặc khác nhau; Như Lai sau khi chết còn tồn tại, không tồn tại, vừa còn vừa không, hoặc không thuộc cả hai cách nói. Như Lai là danh xưng bậc giác ngộ trong câu hỏi này.",
+            "Bài không chọn một trong mười lập trường để trả lời thay người đọc. Đức Phật chỉ rõ nhóm còn nương vào chúng vẫn chưa thoát quyền Māra, như đàn nai thứ ba. Tinh thần học hỏi vẫn khác với giữ chặt một kết luận vì mình đã quen nghĩ như thế."
+          ],
+          "meaningUnits": [
+            "third-ascetics"
+          ]
+        },
+        {
+          "id": "practice-path",
+          "kind": "teaching",
+          "heading": "Nhóm thứ tư đổi chỗ nương tựa",
+          "paragraphs": [
+            "Nhóm thứ tư nhìn lại đầy đủ các nhóm trước, tìm chỗ trú ngoài tầm Māra và tùy tùng. Họ hưởng dụng những thứ hấp dẫn của đời sống mà không mê đắm, không đi vào say sưa, phóng dật và sự chi phối. Đức Phật tiếp lời bằng cách chỉ rõ chỗ trú ấy trong việc tu tập.",
+            "Sơ thiền là bước được nêu đầu tiên: ly dục, ly điều bất thiện; hỷ lạc do viễn ly, tức niềm vui phấn chấn và sự dễ chịu do rời xa dục, bất thiện; còn tầm tứ. Có thể hiểu tầm là hướng tâm vào đề mục, tứ là tiếp tục giữ sự chú tâm ấy. Đây là sự an trú trong định, tâm tập trung vững, có những điều kiện khác với một thoáng thư thái."
+          ],
+          "meaningUnits": [
+            "fourth-ascetics",
+            "first-jhana"
+          ]
+        },
+        {
+          "id": "second-third",
+          "kind": "teaching",
+          "heading": "Lắng dần mà vẫn biết rõ",
+          "paragraphs": [
+            "Ở nhị thiền, tầm và tứ lắng xuống, nội tâm trong sáng và nhất tâm. Hỷ lạc lúc này do định sinh, không còn tầm tứ.",
+            "Ở tam thiền, hỷ phai; người tu vẫn cảm nhận lạc bằng thân, sống xả, có niệm tỉnh giác. Xả là sự quân bình, niệm tỉnh giác là giữ sự hiện diện và biết rõ. Kinh nhắc lời các bậc Thánh mô tả sự an lạc có xả và niệm này."
+          ],
+          "meaningUnits": [
+            "second-jhana",
+            "third-jhana"
+          ]
+        },
+        {
+          "id": "fourth-jhana",
+          "kind": "teaching",
+          "heading": "Khi cả lạc và khổ được buông",
+          "paragraphs": [
+            "Tứ thiền được mô tả bằng sự buông lạc, buông khổ, những hỷ ưu trước đó đã tắt. Không khổ không lạc, xả và niệm thanh tịnh. Con đường không dừng ở việc tìm một cảm giác dễ chịu kéo dài mãi."
+          ],
+          "meaningUnits": [
+            "fourth-jhana"
+          ]
+        },
+        {
+          "id": "infinite",
+          "kind": "teaching",
+          "heading": "Không gian và thức vô biên",
+          "paragraphs": [
+            "Tiếp đó, người tu vượt hoàn toàn tưởng về sắc; tưởng do va chạm lắng đi, không chú ý tưởng sai biệt. Với nhận biết không gian vô biên, vị ấy an trú Không vô biên xứ. Tưởng là sự nhận biết, nhận ra đối tượng.",
+            "Vượt hoàn toàn tầng ấy, vị ấy an trú Thức vô biên xứ, với nhận biết thức vô biên. Thức là sự nhận biết; ở đây không được đánh đồng nó với không gian. Bài đang mô tả chứng đạt trong thiền."
+          ],
+          "meaningUnits": [
+            "infinite-space",
+            "infinite-consciousness"
+          ]
+        },
+        {
+          "id": "subtle",
+          "kind": "teaching",
+          "heading": "Không dừng ở một trạng thái tinh tế",
+          "paragraphs": [
+            "Vượt Thức vô biên xứ, vị ấy an trú Vô sở hữu xứ, với nhận biết không có gì cả. Cụm từ ấy chỉ trạng thái định này, không phủ nhận ý nghĩa những người và những việc trong đời sống.",
+            "Vượt tiếp Vô sở hữu xứ là Phi tưởng phi phi tưởng xứ. Tên ấy giữ một phân biệt tinh tế: không thể đơn giản gọi là có tưởng, cũng không thể gọi là không tưởng. Chúng ta có thể đọc từng tầng, không cần ép mình nắm hết chỉ trong một lần."
+          ],
+          "meaningUnits": [
+            "nothingness",
+            "neither-perception"
+          ]
+        },
+        {
+          "id": "wisdom",
+          "kind": "teaching",
+          "heading": "Trí tuệ làm trọn hướng giải thoát",
+          "paragraphs": [
+            "Vượt Phi tưởng phi phi tưởng xứ, vị tỳ-kheo chứng trú diệt thọ tưởng: cảm thọ và tưởng dừng trong chứng đạt ấy. Thấy bằng trí tuệ, các lậu hoặc, tức những ô nhiễm sâu trói buộc tâm, được đoạn tận. Bài kết luận vị ấy đã vượt sự bám víu trong thế gian.",
+            "Ở mỗi tầng, kinh lặp hình ảnh làm Māra mù mắt, không còn dấu để thấy người tu. Đó là cách diễn đạt việc vượt khỏi tầm chi phối. Riêng phần cuối còn nói trí tuệ và lậu tận; bởi vậy, sự yên lặng của tâm ở một tầng trước chưa tự đồng nghĩa với kết quả cuối cùng."
+          ],
+          "meaningUnits": [
+            "cessation",
+            "first-jhana",
+            "second-jhana",
+            "third-jhana",
+            "fourth-jhana",
+            "infinite-space",
+            "infinite-consciousness",
+            "nothingness",
+            "neither-perception"
+          ]
+        },
+        {
+          "id": "today",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: niềm vui được người khác cần đến",
+          "paragraphs": [
+            "Một liên hệ do người biên soạn đề xuất: ta vui khi nhóm sinh hoạt hỏi ý kiến mình. Có lúc ít người hỏi hơn, lòng bỗng bồn chồn. Ta có thể vẫn góp ý và giúp việc, đồng thời nhận ra mình đang cần sự công nhận đến mức nào.",
+            "Câu chuyện nhỏ này chỉ gợi xem lại một sự nắm giữ. Nó không biến kinh nghiệm lâu năm thành lỗi, cũng không coi rời một vai trò là đã đạt nơi Māra không tới. Các chứng đạt và trí tuệ trong kinh vẫn cần được hiểu đúng phạm vi tu tập của chúng."
+          ],
+          "meaningUnits": [
+            "third-ascetics",
+            "fourth-ascetics"
+          ]
+        },
+        {
+          "id": "reflect",
+          "kind": "practice",
+          "heading": "Một lần nhìn lại không vội kết tội",
+          "paragraphs": [
+            "Gợi ý suy xét: trong một niềm vui quen thuộc, ta còn dùng nó thong thả, hay đã phải giữ nó bằng mọi giá? Có thể quan sát một lần ham thích khiến mình lơ là, rồi điều chỉnh việc đang nuôi sự mê mải. Sự xem xét này cần thành thật, không cần tự hành hạ."
+          ],
+          "meaningUnits": [
+            "bait-intention",
+            "fourth-ascetics"
+          ]
+        },
+        {
+          "id": "closing",
+          "kind": "clarification",
+          "heading": "Giữ đường trở lại lời kinh",
+          "paragraphs": [
+            "Các tỳ-kheo hoan hỷ tán đồng lời Đức Phật. Dòng cuối gọi đây là bài thứ năm trong nhóm; mã của kinh vẫn là MN25. Người đọc có thể lần theo nguồn để thấy bốn đàn nai, bốn nhóm người tu và đoạn kết về trí tuệ nối với nhau thế nào."
+          ],
+          "meaningUnits": [
+            "closing"
+          ]
+        }
+      ]
+    }
+  }
+}

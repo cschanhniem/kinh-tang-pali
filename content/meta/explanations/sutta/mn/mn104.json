@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn104",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "5b945d30-bd00-471b-8a24-dfa492508822"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "da3e2217-3b9b-4810-a6d9-1651a73d72fa"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "112d1b7e-4548-4113-8c57-51e415edafe3"
+    }
+  },
+  "reviews": [
+    {
+      "id": "5b945d30-bd00-471b-8a24-dfa492508822",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.4,
+        "audience_fit": 9.3,
+        "clarity": 9.5,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc đủ năm nguồn; bản trẻ giữ hai lớp Cunda báo rồi Ānanda thuật, bảy nhóm pháp và sáu gốc theo Pāli/Việt/Sujato. Gốc xúc phạm và khinh miệt không bị đổi theo comment hoặc HTML; phần Anh trống không được thay bằng English fill.",
+        "semantic_fidelity": "Hòa hợp đi cùng xét điều đúng và nhận lỗi. Che rơm vẫn loại trừ trọng tội và chuyện tại gia; cách ức niệm được đặt trong tình huống kinh nêu. Chung cái thấy hướng người thực hành đến hết khổ, không thu thành chỉ làm bạn vui.",
+        "core_coverage": "Mười chín mục phủ cả 48 ý: toàn các lời đấu khẩu, bốn loại việc, bảy phương pháp, ba lượt truy hỏi, hai đại diện che rơm, sáu pháp đáng nhớ, tám nét giới và điều kiện của câu hỏi kham nhẫn cuối.",
+        "logic_context": "Danh sách bảy phương pháp và thứ tự giải được phân biệt đúng. Không giải ở nơi đầu mới tới nơi đông hơn; ở cả hai đều xét Pháp. Ba lần truy hỏi đi từ phủ nhận, nhận nhẹ, biện hộ đến nhận nặng, không đảo lời của hai người.",
+        "terminology": "Sa-di, tỳ-kheo, chư thiên, các nhóm tu, ba-la-dị, tuổi hạ, sám hối và định có lời giải trong câu. Một số tên thủ tục cổ vẫn khá khó với trẻ, nhưng có tình huống ngay sau để hiểu nghĩa.",
+        "audience_fit": "Câu chuyện hai phe dùng lời làm đau nhau, các mục nhận lỗi và lời hứa tạo mạch dễ theo. Ví bút màu và phần việc hợp tuổi. Khối thủ tục dài vẫn đòi đọc chậm hoặc cùng người lớn, nên điểm không tuyệt đối.",
+        "clarity": "Các phần phủ nhận rồi nhìn nhận và hai lượt che rơm được chia riêng. Câu hỏi nhỏ/lớn có điều kiện đủ sáu pháp; câu trả lời không không bị chuyển thành hứa sẽ không ai chê mình.",
+        "editorial_separation": "Tàn sát được giới thiệu là hình ảnh; đánh giá giáo pháp của nhóm kia thuộc lời kể trong kinh. Ví nhóm làm bài và gợi ý nói về bạn lúc vắng mặt có nhãn riêng, không nhập vào sự kiện ở Sāmagāma.",
+        "practical_integrity": "Trẻ được khuyên nhận lỗi, sửa lời và nhờ người lớn khi khó tự giải quyết. Bài tập dùng lòng từ và trách nhiệm vừa sức, không giao trẻ thẩm quyền xử các thủ tục hoặc ép người khác thú tội.",
+        "technical_integrity": "Audit độc lập sạch; 48 ý chứa đúng một lần từng khóa trong 166 khóa. Năm SHA khớp nguồn thực đọc và fingerprint trẻ khớp freeze; toàn 35 đoạn của bản trẻ đã đọc, không dùng kiểm máy thay đọc nghĩa."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ năm nguồn, toàn 48 ý/166 khóa và cả ba bản. Không phát hiện yêu cầu sửa mới; audit độc lập sạch, năm SHA và fingerprint khớp freeze.",
+      "contentHash": "3d13279c9418b5f3eb79cba79b677240394ab44f2c3cdf47b219604d396401f1",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn104.html",
+          "sha256": "f392021c852b70aaccf298ae603aa1378103ed2c95aa4fc3de6de6bb045dd0e6"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn104_root-pli-ms.json",
+          "sha256": "0768c8e1a95ecfa21c7a7fd8ecd7b39d35aee5b7505b3e30a218f2fd96ff558d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn104_translation-en-sujato.json",
+          "sha256": "92b5304d3232737d8ec008b7acf5d2d005ef6759178a957f0bc958f160f31de0"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn104_comment-vi-project.json",
+          "sha256": "da2f397a691b15b36878560a044a260f1e4abb8f20b10a2ddc7dd73d25e0c265"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn104_translation-vi-project.json",
+          "sha256": "e6c44e32e142633d854bf297ffc0c26f906edb13476bfe8fbc7f3313f3d2848f"
+        }
+      ]
+    },
+    {
+      "id": "da3e2217-3b9b-4810-a6d9-1651a73d72fa",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.6,
+        "audience_fit": 9.6,
+        "clarity": 9.7,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Năm nguồn đã đối chiếu trọn, gồm toàn HTML SC34 và credits. Bản trưởng thành giữ gốc thứ hai theo nguồn chính, vội/hấp tấp ở lời nhận lỗi theo Pāli/Việt/Sujato và không chấp trước ở giới theo Việt/HTML, với khác biệt được ghi rõ.",
+        "semantic_fidelity": "Bất đồng về giới bổn được gọi nhỏ trong phép so sánh, không thành bỏ giới. Cả hiện tiền và đa số chịu sự hướng dẫn của Pháp; che rơm là công khai lỗi có ngoại lệ, giữ trách nhiệm cùng hòa hợp.",
+        "core_coverage": "Mười sáu mục giữ đủ bảy nhóm tu, hai điều kiện thấy/không thấy từng gốc, bốn vụ việc, bảy cách, toàn diễn biến phán quyết nặng hơn và sáu điều hòa hợp. Phần chung giới vẫn có đủ tám phẩm chất riêng.",
+        "logic_context": "Mối lo sau Phật mất là khả năng của Ānanda, chưa thành biến cố trong Tăng. Thừa nhận có hoặc không bị buộc lỗi, nghi thức và lời hứa tương lai đều giữ; cả hai phe che rơm có điều kiện đúng lúc, lợi ích nhóm/mình và hai ngoại lệ.",
+        "terminology": "Các thuật ngữ tránh sự, hiện tiền, ức niệm, bất si, ba-la-dị, tuổi hạ và định được mở bằng vai trò hoặc tình huống. Pháp/Luật, con đường/cách thực hành và ý nghĩa giải thoát được phân biệt rõ trong câu.",
+        "audience_fit": "Cách tổ chức theo phạm vi bất đồng, nguyên nhân, quy trình rồi nếp sống chung phù hợp người trưởng thành. Ví sửa sai trong nhóm nối trực tiếp với trách nhiệm cá nhân và thiện ý sau cuộc họp.",
+        "clarity": "Các bước xử lý có điều kiện rõ, câu chuyện nhận lỗi nặng có ba đoạn cho ba chuyển biến. Dù nhiều tên cổ, mỗi phần cho biết khi nào và làm gì, không để tên thủ tục thay cho giải thích.",
+        "editorial_separation": "Đánh giá tôn giáo và hình ảnh giáo nhọn được giữ trong lời kể cổ. Ví công việc tự nói rõ chỉ áp dụng xét gốc bất hòa và lòng từ; thủ tục Tăng vẫn có ngữ cảnh riêng, không giả thành quy chế công ty.",
+        "practical_integrity": "Gợi ý kiểm động cơ hơn thua, nhận phần sai và so lời công khai với lời riêng bám sáu gốc/sáu pháp. Không có lời hứa giải thoát nhờ một cuộc họp hoặc cách gây áp lực để lấy lời nhận lỗi.",
+        "technical_integrity": "Đã đọc trọn 34 đoạn bản trưởng thành và 48 đơn vị ý; audit không lỗi nội dung hoặc nguồn. Năm hash nguồn và fingerprint đúng freeze, liên kết từng mục hợp nội dung đã đọc; metadata chính thức chưa do tôi ghi."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ năm nguồn, toàn 48 ý/166 khóa và cả ba bản. Không phát hiện yêu cầu sửa mới; audit độc lập sạch, năm SHA và fingerprint khớp freeze.",
+      "contentHash": "ff909974c319627f3153b2f835e92d32afa11dd31ce9345d27780ba640f186fe",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn104.html",
+          "sha256": "f392021c852b70aaccf298ae603aa1378103ed2c95aa4fc3de6de6bb045dd0e6"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn104_root-pli-ms.json",
+          "sha256": "0768c8e1a95ecfa21c7a7fd8ecd7b39d35aee5b7505b3e30a218f2fd96ff558d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn104_translation-en-sujato.json",
+          "sha256": "92b5304d3232737d8ec008b7acf5d2d005ef6759178a957f0bc958f160f31de0"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn104_comment-vi-project.json",
+          "sha256": "da2f397a691b15b36878560a044a260f1e4abb8f20b10a2ddc7dd73d25e0c265"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn104_translation-vi-project.json",
+          "sha256": "e6c44e32e142633d854bf297ffc0c26f906edb13476bfe8fbc7f3313f3d2848f"
+        }
+      ]
+    },
+    {
+      "id": "112d1b7e-4548-4113-8c57-51e415edafe3",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.6,
+        "clarity": 9.6,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đã tự đọc đủ 166 khóa, sáu comments và toàn HTML. Bản lớn tuổi giữ tên nơi, hai phe, hai lớp báo tin, thứ tự nguồn và lời nhận lỗi là vội/hấp tấp; không nhập diễn đạt nói chơi trong HTML.",
+        "semantic_fidelity": "Bản này giữ hòa hợp trên nền nhận lỗi, xét Pháp và chung cái thấy đưa đến hết khổ. Trường hợp tâm loạn không bị gán với tuổi cao; che rơm vẫn loại trừ cả tội nặng lẫn vấn đề liên hệ người tại gia.",
+        "core_coverage": "Hai mươi ba mục giữ trọn 48 ý, bao gồm các lễ nghi trong thừa nhận và ở cả hai đại diện, ba lượt truy hỏi, sáu lợi ích của sáu pháp, vật trong bát cùng điều kiện bạn có giới, và tám nét giới.",
+        "logic_context": "Phần bất si giữ không nhớ rồi truy hỏi và lý do tâm loạn trong quá khứ; phần phán quyết nặng hơn giữ đủ lời biện hộ/bác lại. Công khai và riêng tư áp dụng đúng thân/lời/ý, chung giới và chung kiến, không gán sai vào câu chia vật.",
+        "terminology": "An cư, sa-di, chư thiên, tránh sự, ba-la-dị, tuổi hạ, sám hối và định có lời giải ngắn. Một vài danh mục Pāli còn đậm tính học thuật, nhưng được đặt cạnh giải thích chức năng, không dùng từ lạ nối từ lạ.",
+        "audience_fit": "Các mục ngắn tách ức niệm, tâm loạn, nhận lỗi, hai lượt che rơm và từng mặt giới/kiến giúp đọc thong thả. Ví nhóm sinh hoạt và việc nhỏ với người quen tôn trọng khả năng tự xét của người lớn tuổi.",
+        "clarity": "Mạch từ tin buồn, điều lo về sau, sáu gốc đến các cách xử và nếp sống chung liền lạc. Hai phần từ phủ nhận đến nhìn nhận phân vai người hỏi/người đáp rõ; các lời nhắc số lượng giúp theo các nhóm dài.",
+        "editorial_separation": "Hình ảnh tàn sát và nhận xét giáo pháp được gắn với lời kể, không thành sự kiện bạo lực hay phán xét người hôm nay. Ví riêng tư và gợi ý thực hành có nhãn, tách khỏi thủ tục của Tăng.",
+        "practical_integrity": "Gợi ý nhận một việc cần sửa, làm điều đã hứa, dừng nuôi hơn thua và chia sẻ phù hợp vừa sức. Phần thực hành không hứa hết khổ chỉ nhờ một việc nhỏ và không đánh đồng hòa hợp với im lặng trước lỗi.",
+        "technical_integrity": "Toàn 38 đoạn bản lớn tuổi đã đọc cùng năm nguồn và map. Audit sạch, 166 khóa phủ đúng một lần; năm SHA và fingerprint trùng freeze, không có đoạn đầu ra bị cắt hoặc nguồn chỉ được kể tên tính là đã đọc."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ năm nguồn, toàn 48 ý/166 khóa và cả ba bản. Không phát hiện yêu cầu sửa mới; audit độc lập sạch, năm SHA và fingerprint khớp freeze.",
+      "contentHash": "5d0bd135e7a5b25d94c0202561ffd89864d0fce1dcc1fa9127c92f98b26fb313",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn104.html",
+          "sha256": "f392021c852b70aaccf298ae603aa1378103ed2c95aa4fc3de6de6bb045dd0e6"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn104_root-pli-ms.json",
+          "sha256": "0768c8e1a95ecfa21c7a7fd8ecd7b39d35aee5b7505b3e30a218f2fd96ff558d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn104_translation-en-sujato.json",
+          "sha256": "92b5304d3232737d8ec008b7acf5d2d005ef6759178a957f0bc958f160f31de0"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn104_comment-vi-project.json",
+          "sha256": "da2f397a691b15b36878560a044a260f1e4abb8f20b10a2ddc7dd73d25e0c265"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn104_translation-vi-project.json",
+          "sha256": "e6c44e32e142633d854bf297ffc0c26f906edb13476bfe8fbc7f3313f3d2848f"
+        }
+      ]
+    }
+  ]
+}

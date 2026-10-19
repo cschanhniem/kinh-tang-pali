@@ -1,0 +1,1911 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn97",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn97_root-pli-ms.json",
+      "sha256": "fd6cde0f8e3f4a98c1a40331ba586ab4c3697137b1c1ed862307eb7d7fcb3109",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn97_translation-vi-project.json",
+      "sha256": "f30277350d2556f6cfff926d8df702f043d044fc7e2e1c184697a5cbd9b5928e",
+      "commit": "0b4081326ff6f4785ac13f6e2d947ea1e78449df"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn97_translation-en-sujato.json",
+      "sha256": "c9957767167d167dc8eeb939c79af7ec814b8882d9a15bdbd3e26fb5dae45f90",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn97.html",
+      "sha256": "ada05dd57ab7f713cd3b63fc6a2358a345a846b29cdbe4e4993f7b3d471883d9",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn97_comment-vi-project.json",
+      "sha256": "ed690eeb5348d224b60425d3a986496d49021d98fa068bb87188831d750704a5",
+      "commit": "0b4081326ff6f4785ac13f6e2d947ea1e78449df"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Tên bài kinh",
+      "segments": [
+        "mn97:0.1",
+        "mn97:0.2"
+      ],
+      "summary": "Trung Bộ, bài 97, kinh Dhanañjāni."
+    },
+    {
+      "id": "setting",
+      "title": "Khung truyền tụng và Trúc Lâm",
+      "segments": [
+        "mn97:1.1",
+        "mn97:1.2"
+      ],
+      "summary": "Người truyền kinh nói đã nghe: Đức Phật ở Rājagaha, Trúc Lâm, khu cho sóc ăn."
+    },
+    {
+      "id": "southern-hills",
+      "title": "Một vị tỳ-kheo tìm gặp Sāriputta",
+      "segments": [
+        "mn97:2.1",
+        "mn97:2.2",
+        "mn97:2.3"
+      ],
+      "summary": "Sāriputta du hành vùng Núi Phía Nam cùng đông đảo tỳ-kheo. Một vị đã an cư mùa mưa ở Rājagaha đến chào hỏi thân thiện và ngồi một bên."
+    },
+    {
+      "id": "buddha-health",
+      "title": "Hỏi sức khỏe Đức Phật",
+      "segments": [
+        "mn97:2.4",
+        "mn97:2.5"
+      ],
+      "summary": "Sāriputta hỏi Đức Phật có ít bệnh, khỏe mạnh không; vị tỳ-kheo xác nhận có."
+    },
+    {
+      "id": "sangha-health",
+      "title": "Hỏi sức khỏe Tăng chúng",
+      "segments": [
+        "mn97:2.6",
+        "mn97:2.7"
+      ],
+      "summary": "Sāriputta hỏi Tăng chúng tỳ-kheo có ít bệnh, mạnh khỏe không; được trả lời Tăng chúng cũng như vậy."
+    },
+    {
+      "id": "brahmin-health",
+      "title": "Hỏi sức khỏe Dhanañjāni",
+      "segments": [
+        "mn97:2.8",
+        "mn97:2.9",
+        "mn97:2.10"
+      ],
+      "summary": "Sāriputta hỏi về bà-la-môn Dhanañjāni ở cổng trạm thu gạo; được trả lời ông ấy ít bệnh, khỏe mạnh."
+    },
+    {
+      "id": "negligence",
+      "title": "Tin về sự phóng dật",
+      "segments": [
+        "mn97:2.11",
+        "mn97:2.12",
+        "mn97:2.13"
+      ],
+      "summary": "Khi hỏi Dhanañjāni có không phóng dật không, vị tỳ-kheo nói không thể gọi như vậy: ông dựa danh vua cướp bóc bà-la-môn, gia chủ, rồi dựa danh bà-la-môn, gia chủ cướp bóc vua."
+    },
+    {
+      "id": "wives",
+      "title": "Tin về hai người vợ",
+      "segments": [
+        "mn97:2.14",
+        "mn97:2.15"
+      ],
+      "summary": "Vị tỳ-kheo kể người vợ có tín, từ gia đình có tín, đã mất; người vợ khác được cưới về không có tín và từ gia đình không có tín. Không gán bà vợ mới là nguyên nhân hành vi của chồng."
+    },
+    {
+      "id": "bad-news",
+      "title": "Mong có dịp đàm thoại",
+      "segments": [
+        "mn97:2.16",
+        "mn97:2.17",
+        "mn97:2.18"
+      ],
+      "summary": "Sāriputta hai lần nói là tin chẳng lành khi nghe Dhanañjāni phóng dật, rồi mong đôi lúc có thể gặp và nói chuyện với ông."
+    },
+    {
+      "id": "return",
+      "title": "Sāriputta về Rājagaha",
+      "segments": [
+        "mn97:3.1",
+        "mn97:3.2",
+        "mn97:3.3"
+      ],
+      "summary": "Ở Núi Phía Nam lâu như ý, Sāriputta du hành từng chặng tới Rājagaha và trú Trúc Lâm, khu nuôi sóc."
+    },
+    {
+      "id": "alms",
+      "title": "Gặp sau buổi khất thực",
+      "segments": [
+        "mn97:4.1",
+        "mn97:4.2",
+        "mn97:4.3"
+      ],
+      "summary": "Buổi sáng Sāriputta đắp y, mang bát và y vào thành khất thực. Dhanañjāni cho người vắt sữa bò ở chuồng ngoài thành. Sau bữa ăn và trên đường trở về, Sāriputta đến gặp ông."
+    },
+    {
+      "id": "milk",
+      "title": "Lời mời sữa và hẹn ở gốc cây",
+      "segments": [
+        "mn97:4.4",
+        "mn97:4.5",
+        "mn97:4.6",
+        "mn97:4.7",
+        "mn97:4.8",
+        "mn97:4.9",
+        "mn97:4.10",
+        "mn97:4.11"
+      ],
+      "summary": "Thấy Sāriputta từ xa, Dhanañjāni đến mời sữa trước giờ ăn. Sāriputta từ chối vì hôm nay đã dùng bữa xong, nói sẽ ở gốc cây kia ban ngày và mời ông tới; ông nhận lời."
+    },
+    {
+      "id": "meeting",
+      "title": "Câu hỏi dưới gốc cây",
+      "segments": [
+        "mn97:5.1",
+        "mn97:5.2",
+        "mn97:5.3"
+      ],
+      "summary": "Ăn sáng xong, Dhanañjāni đến chào hỏi thân thiện, ngồi một bên. Sāriputta hỏi ông có còn không phóng dật không."
+    },
+    {
+      "id": "ten-duties",
+      "title": "Mười trách nhiệm được nêu làm lý do",
+      "segments": [
+        "mn97:5.4"
+      ],
+      "summary": "Dhanañjāni nói không thể không phóng dật vì phải nuôi cha mẹ, vợ con, đầy tớ và người làm; làm bổn phận với bạn bè, thân tộc, khách, người quá cố, chư thiên, vua; và nuôi thân cho đầy đặn, lớn mạnh."
+    },
+    {
+      "id": "wrong-parents",
+      "title": "Làm sai vì cha mẹ",
+      "segments": [
+        "mn97:6.1",
+        "mn97:6.2",
+        "mn97:6.3",
+        "mn97:6.4",
+        "mn97:6.5"
+      ],
+      "summary": "Sāriputta hỏi giả sử người vì cha mẹ mà sống trái pháp, bất chính, nên bị ngục tốt kéo xuống địa ngục: lời người ấy xin vì lý do này, hoặc lời cha mẹ xin giúp với cùng lý do, có cứu được không? Dhanañjāni đáp không; dù người ấy gào khóc, ngục tốt vẫn ném vào địa ngục."
+    },
+    {
+      "id": "wrong-family",
+      "title": "Làm sai vì vợ con",
+      "segments": [
+        "mn97:7.1",
+        "mn97:7.2",
+        "mn97:7.3",
+        "mn97:7.4",
+        "mn97:7.5"
+      ],
+      "summary": "Sāriputta hỏi giả sử người vì vợ con mà sống trái pháp, bất chính, nên bị ngục tốt kéo xuống địa ngục: lời người ấy xin vì lý do này, hoặc lời vợ con xin giúp với cùng lý do, có cứu được không? Dhanañjāni đáp không; dù người ấy gào khóc, ngục tốt vẫn ném vào địa ngục."
+    },
+    {
+      "id": "wrong-workers",
+      "title": "Làm sai vì đầy tớ và người làm công",
+      "segments": [
+        "mn97:8.1",
+        "mn97:8.2",
+        "mn97:8.3",
+        "mn97:8.4"
+      ],
+      "summary": "Sāriputta hỏi giả sử người vì đầy tớ và người làm công mà sống trái pháp, bất chính, nên bị ngục tốt kéo xuống địa ngục: lời người ấy xin vì lý do này, hoặc lời đầy tớ và người làm công xin giúp với cùng lý do, có cứu được không? Dhanañjāni đáp không; dù người ấy gào khóc, ngục tốt vẫn ném vào địa ngục."
+    },
+    {
+      "id": "wrong-friends",
+      "title": "Làm sai vì bạn bè, thân hữu",
+      "segments": [
+        "mn97:9.1",
+        "mn97:9.2",
+        "mn97:9.3",
+        "mn97:9.4"
+      ],
+      "summary": "Sāriputta hỏi giả sử người vì bạn bè, thân hữu mà sống trái pháp, bất chính, nên bị ngục tốt kéo xuống địa ngục: lời người ấy xin vì lý do này, hoặc lời bạn bè, thân hữu xin giúp với cùng lý do, có cứu được không? Dhanañjāni đáp không; dù người ấy gào khóc, ngục tốt vẫn ném vào địa ngục."
+    },
+    {
+      "id": "wrong-relatives",
+      "title": "Làm sai vì thân tộc, bà con huyết thống",
+      "segments": [
+        "mn97:10.1",
+        "mn97:10.2",
+        "mn97:10.3",
+        "mn97:10.4"
+      ],
+      "summary": "Sāriputta hỏi giả sử người vì thân tộc, bà con huyết thống mà sống trái pháp, bất chính, nên bị ngục tốt kéo xuống địa ngục: lời người ấy xin vì lý do này, hoặc lời thân tộc, bà con huyết thống xin giúp với cùng lý do, có cứu được không? Dhanañjāni đáp không; dù người ấy gào khóc, ngục tốt vẫn ném vào địa ngục."
+    },
+    {
+      "id": "wrong-guests",
+      "title": "Làm sai vì khách",
+      "segments": [
+        "mn97:11.1",
+        "mn97:11.2",
+        "mn97:11.3",
+        "mn97:11.4"
+      ],
+      "summary": "Sāriputta hỏi giả sử người vì khách mà sống trái pháp, bất chính, nên bị ngục tốt kéo xuống địa ngục: lời người ấy xin vì lý do này, hoặc lời khách xin giúp với cùng lý do, có cứu được không? Dhanañjāni đáp không; dù người ấy gào khóc, ngục tốt vẫn ném vào địa ngục."
+    },
+    {
+      "id": "wrong-departed",
+      "title": "Làm sai vì người đã quá cố",
+      "segments": [
+        "mn97:12.1",
+        "mn97:12.2",
+        "mn97:12.3",
+        "mn97:12.4"
+      ],
+      "summary": "Sāriputta hỏi giả sử người vì người đã quá cố mà sống trái pháp, bất chính, nên bị ngục tốt kéo xuống địa ngục: lời người ấy xin vì lý do này, hoặc lời người đã quá cố xin giúp với cùng lý do, có cứu được không? Dhanañjāni đáp không; dù người ấy gào khóc, ngục tốt vẫn ném vào địa ngục."
+    },
+    {
+      "id": "wrong-deities",
+      "title": "Làm sai vì chư thiên",
+      "segments": [
+        "mn97:13.1",
+        "mn97:13.2",
+        "mn97:13.3",
+        "mn97:13.4"
+      ],
+      "summary": "Sāriputta hỏi giả sử người vì chư thiên mà sống trái pháp, bất chính, nên bị ngục tốt kéo xuống địa ngục: lời người ấy xin vì lý do này, hoặc lời chư thiên xin giúp với cùng lý do, có cứu được không? Dhanañjāni đáp không; dù người ấy gào khóc, ngục tốt vẫn ném vào địa ngục."
+    },
+    {
+      "id": "wrong-king",
+      "title": "Làm sai vì nhà vua",
+      "segments": [
+        "mn97:14.1",
+        "mn97:14.2",
+        "mn97:14.3",
+        "mn97:14.4"
+      ],
+      "summary": "Sāriputta hỏi giả sử người vì nhà vua mà sống trái pháp, bất chính, nên bị ngục tốt kéo xuống địa ngục: lời người ấy xin vì lý do này, hoặc lời nhà vua xin giúp với cùng lý do, có cứu được không? Dhanañjāni đáp không; dù người ấy gào khóc, ngục tốt vẫn ném vào địa ngục."
+    },
+    {
+      "id": "wrong-body",
+      "title": "Làm sai vì việc nuôi thân đầy đặn, lớn mạnh",
+      "segments": [
+        "mn97:15.1",
+        "mn97:15.2",
+        "mn97:15.3",
+        "mn97:15.4"
+      ],
+      "summary": "Sāriputta hỏi giả sử người vì việc nuôi thân đầy đặn, lớn mạnh mà sống trái pháp, bất chính, nên bị ngục tốt kéo xuống địa ngục: lời người ấy xin vì lý do này, hoặc lời người khác xin giúp với cùng lý do, có cứu được không? Dhanañjāni đáp không; dù người ấy gào khóc, ngục tốt vẫn ném vào địa ngục."
+    },
+    {
+      "id": "right-parents",
+      "title": "Làm đúng để nuôi cha mẹ",
+      "segments": [
+        "mn97:16.1",
+        "mn97:16.2",
+        "mn97:16.3",
+        "mn97:16.4",
+        "mn97:16.5",
+        "mn97:16.6"
+      ],
+      "summary": "Sāriputta hỏi ai tốt hơn: người vì cha mẹ sống trái pháp, bất chính, hay người sống đúng pháp, chân chính. Dhanañjāni phủ nhận người làm sai tốt hơn, xác nhận người làm đúng tốt hơn vì hành xử đúng tốt hơn hành xử sai. Sāriputta cho biết có những công việc khác hợp lẽ, đúng pháp để nuôi cha mẹ, không tạo ác nghiệp và thực hành con đường phước."
+    },
+    {
+      "id": "right-family",
+      "title": "Làm đúng để nuôi vợ con",
+      "segments": [
+        "mn97:17.1",
+        "mn97:17.2",
+        "mn97:17.3",
+        "mn97:17.4",
+        "mn97:17.5",
+        "mn97:17.6"
+      ],
+      "summary": "Sāriputta hỏi ai tốt hơn: người vì vợ con sống trái pháp, bất chính, hay người sống đúng pháp, chân chính. Dhanañjāni phủ nhận người làm sai tốt hơn, xác nhận người làm đúng tốt hơn vì hành xử đúng tốt hơn hành xử sai. Sāriputta cho biết có những công việc khác hợp lẽ, đúng pháp để nuôi vợ con, không tạo ác nghiệp và thực hành con đường phước."
+    },
+    {
+      "id": "right-workers",
+      "title": "Làm đúng để nuôi đầy tớ và người làm công",
+      "segments": [
+        "mn97:18.1",
+        "mn97:18.2",
+        "mn97:18.3",
+        "mn97:18.4",
+        "mn97:18.5",
+        "mn97:18.6"
+      ],
+      "summary": "Sāriputta hỏi ai tốt hơn: người vì đầy tớ và người làm công sống trái pháp, bất chính, hay người sống đúng pháp, chân chính. Dhanañjāni phủ nhận người làm sai tốt hơn, xác nhận người làm đúng tốt hơn vì hành xử đúng tốt hơn hành xử sai. Sāriputta cho biết có những công việc khác hợp lẽ, đúng pháp để nuôi đầy tớ và người làm công, không tạo ác nghiệp và thực hành con đường phước."
+    },
+    {
+      "id": "right-friends",
+      "title": "Làm đúng để làm bổn phận với bạn bè, thân hữu",
+      "segments": [
+        "mn97:19.1",
+        "mn97:19.2",
+        "mn97:19.3",
+        "mn97:19.4",
+        "mn97:19.5",
+        "mn97:19.6"
+      ],
+      "summary": "Sāriputta hỏi ai tốt hơn: người vì bạn bè, thân hữu sống trái pháp, bất chính, hay người sống đúng pháp, chân chính. Dhanañjāni phủ nhận người làm sai tốt hơn, xác nhận người làm đúng tốt hơn vì hành xử đúng tốt hơn hành xử sai. Sāriputta cho biết có những công việc khác hợp lẽ, đúng pháp để làm bổn phận với bạn bè, thân hữu, không tạo ác nghiệp và thực hành con đường phước."
+    },
+    {
+      "id": "right-relatives",
+      "title": "Làm đúng để làm bổn phận với thân tộc, bà con huyết thống",
+      "segments": [
+        "mn97:20.1",
+        "mn97:20.2",
+        "mn97:20.3",
+        "mn97:20.4",
+        "mn97:20.5",
+        "mn97:20.6"
+      ],
+      "summary": "Sāriputta hỏi ai tốt hơn: người vì thân tộc, bà con huyết thống sống trái pháp, bất chính, hay người sống đúng pháp, chân chính. Dhanañjāni phủ nhận người làm sai tốt hơn, xác nhận người làm đúng tốt hơn vì hành xử đúng tốt hơn hành xử sai. Sāriputta cho biết có những công việc khác hợp lẽ, đúng pháp để làm bổn phận với thân tộc, bà con huyết thống, không tạo ác nghiệp và thực hành con đường phước."
+    },
+    {
+      "id": "right-guests",
+      "title": "Làm đúng để làm bổn phận với khách",
+      "segments": [
+        "mn97:21.1",
+        "mn97:21.2",
+        "mn97:21.3",
+        "mn97:21.4",
+        "mn97:21.5",
+        "mn97:21.6"
+      ],
+      "summary": "Sāriputta hỏi ai tốt hơn: người vì khách sống trái pháp, bất chính, hay người sống đúng pháp, chân chính. Dhanañjāni phủ nhận người làm sai tốt hơn, xác nhận người làm đúng tốt hơn vì hành xử đúng tốt hơn hành xử sai. Sāriputta cho biết có những công việc khác hợp lẽ, đúng pháp để làm bổn phận với khách, không tạo ác nghiệp và thực hành con đường phước."
+    },
+    {
+      "id": "right-departed",
+      "title": "Làm đúng để làm bổn phận với người đã quá cố",
+      "segments": [
+        "mn97:22.1",
+        "mn97:22.2",
+        "mn97:22.3",
+        "mn97:22.4",
+        "mn97:22.5",
+        "mn97:22.6"
+      ],
+      "summary": "Sāriputta hỏi ai tốt hơn: người vì người đã quá cố sống trái pháp, bất chính, hay người sống đúng pháp, chân chính. Dhanañjāni phủ nhận người làm sai tốt hơn, xác nhận người làm đúng tốt hơn vì hành xử đúng tốt hơn hành xử sai. Sāriputta cho biết có những công việc khác hợp lẽ, đúng pháp để làm bổn phận với người đã quá cố, không tạo ác nghiệp và thực hành con đường phước."
+    },
+    {
+      "id": "right-deities",
+      "title": "Làm đúng để làm bổn phận với chư thiên",
+      "segments": [
+        "mn97:23.1",
+        "mn97:23.2",
+        "mn97:23.3",
+        "mn97:23.4",
+        "mn97:23.5",
+        "mn97:23.6"
+      ],
+      "summary": "Sāriputta hỏi ai tốt hơn: người vì chư thiên sống trái pháp, bất chính, hay người sống đúng pháp, chân chính. Dhanañjāni phủ nhận người làm sai tốt hơn, xác nhận người làm đúng tốt hơn vì hành xử đúng tốt hơn hành xử sai. Sāriputta cho biết có những công việc khác hợp lẽ, đúng pháp để làm bổn phận với chư thiên, không tạo ác nghiệp và thực hành con đường phước."
+    },
+    {
+      "id": "right-king",
+      "title": "Làm đúng để làm bổn phận với nhà vua",
+      "segments": [
+        "mn97:24.1",
+        "mn97:24.2",
+        "mn97:24.3",
+        "mn97:24.4",
+        "mn97:24.5",
+        "mn97:24.6"
+      ],
+      "summary": "Sāriputta hỏi ai tốt hơn: người vì nhà vua sống trái pháp, bất chính, hay người sống đúng pháp, chân chính. Dhanañjāni phủ nhận người làm sai tốt hơn, xác nhận người làm đúng tốt hơn vì hành xử đúng tốt hơn hành xử sai. Sāriputta cho biết có những công việc khác hợp lẽ, đúng pháp để làm bổn phận với nhà vua, không tạo ác nghiệp và thực hành con đường phước."
+    },
+    {
+      "id": "right-body",
+      "title": "Làm đúng để nuôi thân đầy đặn, lớn mạnh",
+      "segments": [
+        "mn97:25.1",
+        "mn97:25.2",
+        "mn97:25.3",
+        "mn97:25.4",
+        "mn97:25.5",
+        "mn97:25.6"
+      ],
+      "summary": "Sāriputta hỏi ai tốt hơn: người vì việc nuôi thân đầy đặn, lớn mạnh sống trái pháp, bất chính, hay người sống đúng pháp, chân chính. Dhanañjāni phủ nhận người làm sai tốt hơn, xác nhận người làm đúng tốt hơn vì hành xử đúng tốt hơn hành xử sai. Sāriputta cho biết có những công việc khác hợp lẽ, đúng pháp để nuôi thân đầy đặn, lớn mạnh, không tạo ác nghiệp và thực hành con đường phước."
+    },
+    {
+      "id": "first-departure",
+      "title": "Dhanañjāni vui nhận rồi ra về",
+      "segments": [
+        "mn97:26.1"
+      ],
+      "summary": "Dhanañjāni tán thán, vui nhận lời Sāriputta, đứng dậy ra về; không có công thức quy y hoặc tuyên bố chứng quả ở đây."
+    },
+    {
+      "id": "illness",
+      "title": "Một thời gian sau lâm bệnh nặng",
+      "segments": [
+        "mn97:27.1",
+        "mn97:27.2"
+      ],
+      "summary": "Một thời gian sau Dhanañjāni bệnh nặng, đau khổ, cho gọi một người; không nêu nguyên nhân bệnh."
+    },
+    {
+      "id": "message-buddha",
+      "title": "Nhờ gửi lời đảnh lễ Đức Phật",
+      "segments": [
+        "mn97:27.3",
+        "mn97:27.4",
+        "mn97:27.5"
+      ],
+      "summary": "Dhanañjāni bảo người ấy đến Đức Phật, nhân danh mình cúi đầu dưới chân Ngài, báo bị bệnh nặng đau khổ và gửi lời đảnh lễ."
+    },
+    {
+      "id": "message-sariputta",
+      "title": "Nhờ mời Sāriputta đến nhà",
+      "segments": [
+        "mn97:27.6",
+        "mn97:27.7",
+        "mn97:27.8",
+        "mn97:27.9",
+        "mn97:27.10"
+      ],
+      "summary": "Sau đó phải đến Sāriputta, nhân danh Dhanañjāni đảnh lễ dưới chân, báo bệnh nặng đau khổ, rồi xin vì thương xót mà đến nhà thăm."
+    },
+    {
+      "id": "delivered-buddha",
+      "title": "Người đưa tin đến Đức Phật",
+      "segments": [
+        "mn97:27.11",
+        "mn97:27.12",
+        "mn97:27.13"
+      ],
+      "summary": "Người ấy nhận lời, đến đảnh lễ Đức Phật và ngồi một bên, báo Dhanañjāni bệnh nặng đau khổ và gửi lời cúi đầu đảnh lễ dưới chân Ngài."
+    },
+    {
+      "id": "delivered-sariputta",
+      "title": "Người đưa tin đến Sāriputta",
+      "segments": [
+        "mn97:27.14",
+        "mn97:27.15",
+        "mn97:27.16",
+        "mn97:27.17",
+        "mn97:27.18"
+      ],
+      "summary": "Người ấy đến đảnh lễ Sāriputta và ngồi một bên, chuyển tin bệnh, lời đảnh lễ và lời mời thăm nhà vì thương xót. Sāriputta im lặng nhận lời."
+    },
+    {
+      "id": "sickbed",
+      "title": "Sāriputta đến thăm và hỏi bệnh",
+      "segments": [
+        "mn97:28.1",
+        "mn97:28.2"
+      ],
+      "summary": "Sāriputta đắp y, mang bát và y đến nhà, ngồi chỗ dọn sẵn, hỏi còn chịu đựng và duy trì được không, đau khổ có giảm chứ không tăng, thấy rõ giảm chứ không tăng không."
+    },
+    {
+      "id": "worsening",
+      "title": "Câu trả lời về cơn đau",
+      "segments": [
+        "mn97:29.1"
+      ],
+      "summary": "Dhanañjāni đáp không chịu đựng, không duy trì được; đau dữ tăng chứ không giảm, thấy rõ sự tăng chứ không giảm. Công thức này còn lặp sau mỗi trong bốn ví dụ đau."
+    },
+    {
+      "id": "piercing-head",
+      "title": "Đầu như bị khoan bằng mũi nhọn",
+      "segments": [
+        "mn97:29.2",
+        "mn97:29.3"
+      ],
+      "summary": "Những luồng gió mạnh trong đầu đau như người lực mạnh khoan đầu bằng mũi nhọn. Dhanañjāni lặp không chịu nổi, không duy trì được, đau tăng rõ không giảm."
+    },
+    {
+      "id": "tight-head",
+      "title": "Đầu như bị siết bằng dải da",
+      "segments": [
+        "mn97:29.4",
+        "mn97:29.5"
+      ],
+      "summary": "Đầu đau như người lực mạnh siết bằng dải da chắc. Lại nói không chịu đựng, không duy trì được, đau tăng rõ không giảm."
+    },
+    {
+      "id": "cutting-belly",
+      "title": "Bụng như bị dao cắt",
+      "segments": [
+        "mn97:29.6",
+        "mn97:29.7"
+      ],
+      "summary": "Những luồng gió mạnh cắt bụng đau như người mổ bò giỏi hoặc người học việc dùng dao sắc mổ bụng bò. Lại nói không chịu nổi, không duy trì được, đau tăng rõ không giảm."
+    },
+    {
+      "id": "burning-body",
+      "title": "Thân như bị nung trên than",
+      "segments": [
+        "mn97:29.8",
+        "mn97:29.9"
+      ],
+      "summary": "Thân nóng bỏng như hai người khỏe nắm hai tay một người yếu hơn để nung đốt trên hố than hồng. Lại nói không chịu đựng, không duy trì được, đau tăng rõ không giảm; không thêm hành động ném không có ở Pāli."
+    },
+    {
+      "id": "lower-comparisons",
+      "title": "Ba cặp so sánh từ địa ngục tới loài người",
+      "segments": [
+        "mn97:30.1",
+        "mn97:30.2",
+        "mn97:30.3",
+        "mn97:30.4",
+        "mn97:30.5",
+        "mn97:30.6",
+        "mn97:30.7",
+        "mn97:30.8",
+        "mn97:30.9"
+      ],
+      "summary": "Sāriputta lần lượt hỏi ba cặp, Dhanañjāni lần lượt đáp súc sinh tốt hơn địa ngục, ngạ quỷ tốt hơn súc sinh, loài người tốt hơn ngạ quỷ."
+    },
+    {
+      "id": "middle-comparisons",
+      "title": "Ba cặp từ loài người tới Yama",
+      "segments": [
+        "mn97:30.10",
+        "mn97:30.11",
+        "mn97:30.12",
+        "mn97:30.13",
+        "mn97:30.14",
+        "mn97:30.15",
+        "mn97:30.16",
+        "mn97:30.17",
+        "mn97:30.18"
+      ],
+      "summary": "Lần lượt hỏi và đáp: chư thiên Tứ Đại Vương tốt hơn loài người; Ba Mươi Ba tốt hơn Tứ Đại Vương; Yama tốt hơn Ba Mươi Ba."
+    },
+    {
+      "id": "upper-comparisons",
+      "title": "Ba cặp từ Yama tới Hóa Tự Tại",
+      "segments": [
+        "mn97:30.19",
+        "mn97:30.20",
+        "mn97:30.21",
+        "mn97:30.22",
+        "mn97:30.23",
+        "mn97:30.24",
+        "mn97:30.25",
+        "mn97:30.26",
+        "mn97:30.27"
+      ],
+      "summary": "Lần lượt hỏi và đáp: Đến Vui (Tusita) tốt hơn Yama; Hóa Lạc tốt hơn Đến Vui; Hóa Tự Tại, làm chủ điều người khác hóa hiện, tốt hơn Hóa Lạc."
+    },
+    {
+      "id": "brahma-question",
+      "title": "Nghe tên cõi Phạm thiên",
+      "segments": [
+        "mn97:31.1",
+        "mn97:31.2",
+        "mn97:31.3",
+        "mn97:31.4"
+      ],
+      "summary": "Khi hỏi Hóa Tự Tại hay cõi Phạm thiên tốt hơn, Dhanañjāni hai lần nhắc Sāriputta đã nói cõi Phạm thiên. Không có câu đáp trực tiếp tốt hơn ở lượt này."
+    },
+    {
+      "id": "sariputta-thought",
+      "title": "Ý nghĩ của Sāriputta",
+      "segments": [
+        "mn97:31.5",
+        "mn97:31.6",
+        "mn97:31.7"
+      ],
+      "summary": "Sāriputta nghĩ những bà-la-môn này hướng về cõi Phạm thiên, nên sẽ dạy Dhanañjāni đường đến sống cùng chư Phạm thiên."
+    },
+    {
+      "id": "teaching-offer",
+      "title": "Mời lắng nghe con đường",
+      "segments": [
+        "mn97:31.8",
+        "mn97:31.9",
+        "mn97:31.10",
+        "mn97:31.11"
+      ],
+      "summary": "Sāriputta nói sẽ dạy đường sống cùng chư Phạm thiên, bảo lắng nghe và chú tâm kỹ; Dhanañjāni nhận lời, rồi Sāriputta giảng."
+    },
+    {
+      "id": "loving-kindness",
+      "title": "Tâm từ lan khắp thế giới",
+      "segments": [
+        "mn97:32.1",
+        "mn97:32.2",
+        "mn97:32.3"
+      ],
+      "summary": "Con đường được nêu bằng vị tỳ-kheo an trú tâm từ phủ một phương, phương hai, ba, bốn; trên, dưới, ngang, khắp nơi, đối với tất cả như với mình, toàn thế giới, rộng lớn, cao cả, vô lượng, không hận, không ác ý; đó là đường sống cùng chư Phạm thiên."
+    },
+    {
+      "id": "compassion",
+      "title": "Tâm bi",
+      "segments": [
+        "mn97:33-35.1"
+      ],
+      "summary": "Công thức tiếp tục với tâm bi; dấu lược nối cùng phạm vi lan tỏa và phẩm chất vô lượng của tâm từ và tâm xả trong chính bài."
+    },
+    {
+      "id": "rejoicing",
+      "title": "Tâm hỷ",
+      "segments": [
+        "mn97:33-35.2"
+      ],
+      "summary": "Công thức tiếp tục với tâm hỷ; cùng bốn phương, trên dưới ngang, khắp nơi toàn thế giới và phẩm chất rộng lớn, cao cả, vô lượng, không hận, không ác ý theo công thức cùng bài."
+    },
+    {
+      "id": "equanimity",
+      "title": "Tâm xả",
+      "segments": [
+        "mn97:33-35.3",
+        "mn97:33-35.4"
+      ],
+      "summary": "Vị tỳ-kheo an trú tâm xả phủ phương một, hai, ba, bốn; trên dưới ngang, khắp nơi, đối với tất cả như với mình, toàn thế giới, rộng lớn, cao cả, vô lượng, không hận, không ác ý. Đó là đường sống cùng chư Phạm thiên."
+    },
+    {
+      "id": "last-message",
+      "title": "Dhanañjāni lại nhờ gửi lời đảnh lễ",
+      "segments": [
+        "mn97:36.1",
+        "mn97:36.2",
+        "mn97:36.3"
+      ],
+      "summary": "Dhanañjāni nhờ Sāriputta nhân danh mình cúi đầu dưới chân Đức Phật, báo bệnh nặng đau khổ và gửi lời đảnh lễ."
+    },
+    {
+      "id": "limited-departure",
+      "title": "Ra đi khi còn việc cao hơn",
+      "segments": [
+        "mn97:36.4"
+      ],
+      "summary": "Người kể nói Sāriputta an lập Dhanañjāni ở cõi Phạm thiên thấp kém rồi đứng dậy ra đi trong khi vẫn còn việc cao hơn cần làm."
+    },
+    {
+      "id": "death",
+      "title": "Dhanañjāni qua đời và sinh Phạm thiên",
+      "segments": [
+        "mn97:36.5"
+      ],
+      "summary": "Không lâu sau khi Sāriputta đi, Dhanañjāni mất và tái sinh cõi Phạm thiên."
+    },
+    {
+      "id": "buddha-to-monks",
+      "title": "Đức Phật nói với các tỳ-kheo",
+      "segments": [
+        "mn97:37.1",
+        "mn97:37.2"
+      ],
+      "summary": "Đức Phật nói với các tỳ-kheo rằng Sāriputta đã an lập Dhanañjāni ở cõi Phạm thiên thấp kém rồi ra đi, trong khi còn việc cao hơn cần làm."
+    },
+    {
+      "id": "sariputta-report",
+      "title": "Sāriputta chuyển lời nhắn",
+      "segments": [
+        "mn97:38.1",
+        "mn97:38.2",
+        "mn97:38.3"
+      ],
+      "summary": "Sāriputta đến đảnh lễ Đức Phật, ngồi một bên và chuyển lời Dhanañjāni bệnh nặng, đau khổ, cúi đầu đảnh lễ dưới chân Ngài."
+    },
+    {
+      "id": "buddha-question",
+      "title": "Câu hỏi của Đức Phật",
+      "segments": [
+        "mn97:38.4"
+      ],
+      "summary": "Đức Phật hỏi vì sao Sāriputta, khi vẫn còn việc cao hơn cần làm, lại an lập Dhanañjāni vào cõi Phạm thiên thấp kém rồi ra đi."
+    },
+    {
+      "id": "sariputta-reason",
+      "title": "Sāriputta nêu lý do đã chọn",
+      "segments": [
+        "mn97:38.5",
+        "mn97:38.6"
+      ],
+      "summary": "Sāriputta thuật lại ý nghĩ bà-la-môn hướng cõi Phạm thiên nên mình giảng con đường đến sống cùng chư Phạm thiên."
+    },
+    {
+      "id": "buddha-confirms",
+      "title": "Đức Phật xác nhận nơi tái sinh",
+      "segments": [
+        "mn97:38.7"
+      ],
+      "summary": "Đức Phật báo Dhanañjāni đã qua đời và sinh vào cõi Phạm thiên. Không có tuyên bố A-la-hán hay giải thoát hoàn toàn."
+    },
+    {
+      "id": "ending",
+      "title": "Dấu kết bài",
+      "segments": [
+        "mn97:38.8"
+      ],
+      "summary": "Kinh Dhanañjāni kết thúc, bài thứ bảy trong nhóm kinh này."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Diễn giải dành cho trẻ em",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "news",
+          "kind": "teaching",
+          "heading": "Ba câu hỏi về sức khỏe",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "southern-hills",
+            "buddha-health",
+            "sangha-health",
+            "brahmin-health"
+          ],
+          "paragraphs": [
+            "Đây là kinh Dhanañjāni, bài 97 của Trung Bộ. Người truyền kinh kể mình đã nghe rằng Đức Phật ở Rājagaha, tức Vương Xá, tại Trúc Lâm, khu cho sóc ăn. Khi ấy, thầy Sāriputta đang đi qua vùng Núi Phía Nam cùng đông đảo tỳ-kheo, các vị nam xuất gia.",
+            "Một vị tỳ-kheo vừa hoàn tất thời gian ở yên tu tập qua mùa mưa tại Rājagaha đến thăm thầy. Sau lời chào hỏi thân thiện, vị ấy ngồi một bên. Sāriputta lần lượt hỏi Đức Phật, cộng đồng tỳ-kheo và bà-la-môn Dhanañjāni ở cổng trạm thu gạo có ít bệnh, khỏe mạnh không. Cả ba câu đều được trả lời là có. Bà-la-môn là nhóm người gắn với việc học và nghi lễ trong xã hội thời ấy."
+          ]
+        },
+        {
+          "id": "conduct-news",
+          "kind": "teaching",
+          "heading": "Khỏe mạnh rồi, còn cách sống thì sao?",
+          "meaningUnits": [
+            "negligence",
+            "wives",
+            "bad-news"
+          ],
+          "paragraphs": [
+            "Sāriputta hỏi thêm Dhanañjāni có sống không phóng dật không, nghĩa là có giữ gìn việc sống đúng và tu tập không. Vị khách nói ông ấy đang mượn danh nhà vua để cướp bóc các bà-la-môn và gia chủ, những người chủ hộ; rồi lại mượn danh họ để cướp bóc nhà vua.",
+            "Vị khách cũng kể người vợ có lòng tin, được cưới từ gia đình có lòng tin, đã qua đời. Dhanañjāni cưới người vợ khác không có lòng tin, từ một gia đình không có lòng tin.",
+            "Nghe Dhanañjāni buông lỏng cách sống, Sāriputta hai lần nói đó là tin chẳng lành. Thầy mong sẽ có dịp gặp và trò chuyện với ông."
+          ]
+        },
+        {
+          "id": "milk-invitation",
+          "kind": "teaching",
+          "heading": "Một lời mời uống sữa",
+          "meaningUnits": [
+            "return",
+            "alms",
+            "milk"
+          ],
+          "paragraphs": [
+            "Sau khi ở Núi Phía Nam lâu như ý, Sāriputta đi từng chặng về Rājagaha và ở Trúc Lâm, khu nuôi sóc. Một buổi sáng, thầy mặc y, mang y và bát vào thành khất thực, tức nhận thức ăn được cho. Ăn xong, trên đường trở về, thầy đến gặp Dhanañjāni, lúc ông đang cho người vắt sữa bò ở chuồng ngoài thành.",
+            "Thấy thầy từ xa, Dhanañjāni bước tới mời uống sữa trước giờ ăn. Sāriputta từ chối vì bữa ăn hôm ấy đã xong. Thầy sẽ ở gốc cây kia trong ngày và mời ông đến đó. Dhanañjāni nhận lời."
+          ]
+        },
+        {
+          "id": "many-duties",
+          "kind": "teaching",
+          "heading": "Mười việc cần lo",
+          "meaningUnits": [
+            "meeting",
+            "ten-duties"
+          ],
+          "paragraphs": [
+            "Sau bữa sáng, Dhanañjāni đến gốc cây, chào hỏi thân thiện rồi ngồi một bên. Sāriputta hỏi ông có giữ mình không phóng dật không.",
+            "Ông đáp rằng mình có quá nhiều việc phải lo: nuôi cha mẹ; nuôi vợ con; nuôi đầy tớ và người làm; làm bổn phận với bạn bè; với bà con; với khách; với người đã mất; với chư thiên, tức các vị trời; với nhà vua. Sau chín việc ấy, còn việc thứ mười là nuôi thân mình cho đầy đặn, lớn mạnh. Ông lấy những trách nhiệm đó làm lý do vì sao mình không thể giữ gìn việc tu và cách sống."
+          ]
+        },
+        {
+          "id": "parents-excuse",
+          "kind": "teaching",
+          "heading": "Vì cha mẹ có làm việc sai thành đúng không?",
+          "meaningUnits": [
+            "wrong-parents"
+          ],
+          "paragraphs": [
+            "Sāriputta đặt một câu hỏi giả sử: có người vì cha mẹ mà sống trái lẽ phải, bất chính, rồi vì hành vi ấy bị những người canh địa ngục kéo tới cảnh khổ đó. Nếu người ấy xin tha vì mình làm cho cha mẹ, có thoát được không? Nếu chính cha mẹ xin tha cho con với lý do ấy, có được không?",
+            "Dhanañjāni đáp không. Trong tình huống được hỏi, dù người ấy gào khóc, những người canh vẫn ném người ấy vào địa ngục. Lý do nuôi cha mẹ không xóa được điều sai đã làm."
+          ]
+        },
+        {
+          "id": "family-workers-excuse",
+          "kind": "teaching",
+          "heading": "Vợ con và những người làm việc",
+          "meaningUnits": [
+            "wrong-family",
+            "wrong-workers"
+          ],
+          "paragraphs": [
+            "Thầy hỏi tiếp cùng tình huống với việc nuôi vợ con, rồi với việc nuôi đầy tớ và người làm. Ở mỗi trường hợp, người làm sai có thể xin vì mình làm cho họ; vợ con hoặc những người làm cũng có thể xin giúp vì người ấy đã làm cho mình.",
+            "Dhanañjāni đều trả lời không thể thoát bằng lý do đó. Vì hành vi trái lẽ phải, bất chính, người ấy vẫn bị đưa vào địa ngục dù đang khóc than. Câu trả lời giữ nguyên cho cả hai trách nhiệm."
+          ]
+        },
+        {
+          "id": "friends-relatives-guests",
+          "kind": "teaching",
+          "heading": "Bạn bè, bà con và khách",
+          "meaningUnits": [
+            "wrong-friends",
+            "wrong-relatives",
+            "wrong-guests"
+          ],
+          "paragraphs": [
+            "Ba lượt kế tiếp xét bạn bè thân hữu, bà con huyết thống và khách. Nếu làm điều sai vì từng nhóm ấy, rồi bị kéo xuống địa ngục, lời tự xin của người làm có cứu được không? Lời bạn bè, bà con hoặc khách xin giúp với cùng lý do có cứu được không?",
+            "Với mỗi nhóm, Dhanañjāni đều đáp không. Người ấy vẫn bị ném vào cảnh khổ đang nói tới, dù gào khóc. Có người được mình lo cho không biến cách làm bất chính thành cách làm tốt."
+          ]
+        },
+        {
+          "id": "departed-deities-king",
+          "kind": "teaching",
+          "heading": "Người đã mất, các vị trời và nhà vua",
+          "meaningUnits": [
+            "wrong-departed",
+            "wrong-deities",
+            "wrong-king"
+          ],
+          "paragraphs": [
+            "Sāriputta cũng xét lần lượt việc làm vì người đã mất, vì chư thiên và vì nhà vua. Câu hỏi vẫn có hai phía: người làm sai tự xin, hoặc người được nhắm đến xin giúp rằng việc ấy đã làm cho mình.",
+            "Dhanañjāni trả lời không ở cả ba lượt. Nếu vì những việc ấy mà sống trái lẽ phải, bất chính và bị kéo vào địa ngục, lời xin không làm mất hậu quả; dù người ấy khóc than, những người canh vẫn đưa vào đó."
+          ]
+        },
+        {
+          "id": "body-excuse",
+          "kind": "teaching",
+          "heading": "Ngay cả việc nuôi thân mình",
+          "meaningUnits": [
+            "wrong-body"
+          ],
+          "paragraphs": [
+            "Cuối cùng là việc nuôi thân cho đầy đặn, lớn mạnh. Nếu làm điều bất chính vì việc ấy rồi bị kéo xuống địa ngục, người ấy tự xin tha có được không? Người khác xin giúp với cùng lý do có được không?",
+            "Dhanañjāni lại đáp không: dù gào khóc, người ấy vẫn bị ném vào địa ngục. Như vậy, cả mười trách nhiệm đều đã được xét, kể cả điều mình làm riêng cho thân mình."
+          ]
+        },
+        {
+          "id": "better-way-parents",
+          "kind": "teaching",
+          "heading": "Vẫn có cách chăm lo bằng việc chân chính",
+          "meaningUnits": [
+            "right-parents"
+          ],
+          "paragraphs": [
+            "Sāriputta mở sang câu hỏi khác: hai người đều muốn nuôi cha mẹ, một người làm điều trái lẽ phải, một người sống đúng và ngay thẳng; ai tốt hơn?",
+            "Dhanañjāni nói người làm sai không tốt hơn; người sống đúng mới tốt hơn, vì cách sống chân chính tốt hơn bất chính. Sāriputta chỉ ra rằng có những công việc khác hợp lẽ, đúng đắn, giúp nuôi cha mẹ mà không làm điều ác, lại đi trên con đường tạo phước, tức gây dựng điều lành."
+          ]
+        },
+        {
+          "id": "better-way-family",
+          "kind": "teaching",
+          "heading": "Lo cho vợ con và người làm",
+          "meaningUnits": [
+            "right-family",
+            "right-workers"
+          ],
+          "paragraphs": [
+            "Thầy hỏi lại phép so sánh ấy cho việc nuôi vợ con, rồi cho việc nuôi đầy tớ và người làm. Mỗi lần, Dhanañjāni đều không chọn người làm sai; ông chọn người làm đúng, vì sống ngay thẳng tốt hơn sống bất chính.",
+            "Sau mỗi câu trả lời, Sāriputta nêu một lối ra: có công việc hợp lẽ, đúng đắn để nuôi vợ con; cũng có công việc như thế để lo cho người làm. Nhờ đó, người gánh trách nhiệm không phải tạo việc ác và có thể đi trên con đường điều lành."
+          ]
+        },
+        {
+          "id": "better-way-others",
+          "kind": "teaching",
+          "heading": "Chu toàn những mối quan hệ khác",
+          "meaningUnits": [
+            "right-friends",
+            "right-relatives",
+            "right-guests",
+            "right-departed",
+            "right-deities",
+            "right-king"
+          ],
+          "paragraphs": [
+            "Sáu trách nhiệm được xét tiếp theo, từng việc một: với bạn bè, bà con, khách, người đã mất, chư thiên và nhà vua. Trong mỗi lượt, Sāriputta so người vì việc ấy mà sống sai với người vì cùng việc ấy mà sống đúng. Dhanañjāni đều nói người làm sai không tốt hơn, người làm đúng tốt hơn, vì cách sống chân chính tốt hơn bất chính.",
+            "Với từng trách nhiệm trong sáu trách nhiệm ấy, Sāriputta đều cho biết có những công việc khác hợp lẽ, đúng đắn để chu toàn việc cần làm. Mỗi lời khuyên giữ đủ ba điều: làm được bổn phận ấy, không tạo việc ác và thực hành con đường điều lành."
+          ]
+        },
+        {
+          "id": "better-way-body",
+          "kind": "teaching",
+          "heading": "Chăm sóc thân cũng bằng cách ngay thẳng",
+          "meaningUnits": [
+            "right-body",
+            "first-departure"
+          ],
+          "paragraphs": [
+            "Thầy hỏi nốt việc nuôi thân cho đầy đặn, lớn mạnh. Dhanañjāni vẫn trả lời người làm sai không tốt hơn; người làm đúng mới tốt hơn, vì ngay thẳng tốt hơn bất chính. Sāriputta nói có công việc hợp lẽ, chân chính để nuôi thân, không làm điều ác và đi con đường tạo phước.",
+            "Dhanañjāni tán thành, vui nhận lời thầy, đứng dậy ra về. Cuộc gặp đầu kết thúc ở đó."
+          ]
+        },
+        {
+          "id": "help-example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: giúp bạn làm bài",
+          "meaningUnits": [
+            "right-friends"
+          ],
+          "paragraphs": [
+            "Một bạn muốn giúp bạn cùng lớp. Bạn có thể đưa bài để người kia chép rồi cùng nói dối, hoặc kiên nhẫn giải thích cách làm. Cả hai đều được gọi là giúp, nhưng cách làm đưa tới những điều rất khác. Đây là ví dụ hiện đại giúp em nghĩ về cách chu toàn một việc tốt."
+          ]
+        },
+        {
+          "id": "illness-messages",
+          "kind": "teaching",
+          "heading": "Một thời gian sau, có lời nhắn tới",
+          "meaningUnits": [
+            "illness",
+            "message-buddha",
+            "message-sariputta"
+          ],
+          "paragraphs": [
+            "Một thời gian sau, Dhanañjāni bị bệnh nặng và đau khổ. Ông nhờ một người đến Đức Phật, thay ông cúi đầu dưới chân Ngài, thưa rằng ông đang bệnh nặng, đau khổ và gửi lời kính lễ.",
+            "Rồi người ấy phải đến Sāriputta, thay ông cúi đầu kính lễ dưới chân thầy, báo bệnh nặng, đau khổ và xin thầy vì thương xót mà tới nhà thăm. Hai nơi nhận lời nhắn được dặn theo thứ tự ấy."
+          ]
+        },
+        {
+          "id": "messenger",
+          "kind": "teaching",
+          "heading": "Người đưa tin làm theo lời dặn",
+          "meaningUnits": [
+            "delivered-buddha",
+            "delivered-sariputta"
+          ],
+          "paragraphs": [
+            "Người đưa tin nhận lời, đến kính lễ Đức Phật, ngồi một bên rồi báo Dhanañjāni bệnh nặng, đau khổ và gửi lời cúi đầu kính lễ dưới chân Ngài.",
+            "Sau đó, người ấy đến kính lễ Sāriputta, ngồi một bên và báo đúng lời nhắn về bệnh nặng, đau khổ, lời kính lễ cùng lời xin thầy thương xót đến nhà. Sāriputta im lặng nhận lời."
+          ]
+        },
+        {
+          "id": "sickbed",
+          "kind": "teaching",
+          "heading": "Sāriputta ngồi bên người bệnh",
+          "meaningUnits": [
+            "sickbed",
+            "worsening"
+          ],
+          "paragraphs": [
+            "Sāriputta mặc y, mang y và bát đến nhà, ngồi chỗ đã sửa soạn. Thầy hỏi Dhanañjāni còn chịu đựng, còn cầm cự được không; cơn đau có đang giảm thay vì tăng, và có thấy rõ sự giảm ấy không.",
+            "Dhanañjāni đáp ông không chịu nổi, không cầm cự nổi. Đau dữ đang tăng, không giảm; ông thấy rõ nó tăng. Rồi ông dùng bốn hình ảnh để nói cơn đau ghê gớm đến mức nào."
+          ]
+        },
+        {
+          "id": "four-pains",
+          "kind": "teaching",
+          "heading": "Bốn hình ảnh của cơn đau",
+          "meaningUnits": [
+            "piercing-head",
+            "tight-head",
+            "cutting-belly",
+            "burning-body"
+          ],
+          "paragraphs": [
+            "Ông kể những luồng gió mạnh khuấy trong đầu, đau như bị một người khỏe khoan bằng mũi nhọn. Đầu còn đau như bị một người khỏe siết bằng dải da chắc. Trong bụng, những luồng gió mạnh đau như dao sắc của người mổ bò giỏi hoặc người học việc đang cắt bụng bò. Thân nóng bỏng như một người yếu bị hai người khỏe nắm hai tay, nung trên hố than hồng.",
+            "Sau mỗi hình ảnh, ông lại nói mình không chịu nổi, không cầm cự nổi; đau tăng rõ, không giảm. Cùng với lời nói đầu tiên, câu ấy xuất hiện năm lần. Đây là các ví von của người bệnh để kể nỗi đau đang trải qua."
+          ]
+        },
+        {
+          "id": "first-comparisons",
+          "kind": "teaching",
+          "heading": "Những câu hỏi về nơi tái sinh",
+          "meaningUnits": [
+            "lower-comparisons"
+          ],
+          "paragraphs": [
+            "Sāriputta hỏi Dhanañjāni từng cặp cảnh sống, xem ông thấy nơi nào tốt hơn. Trước hết là địa ngục và loài vật: ông chọn loài vật. Kế đến là loài vật và ngạ quỷ, cảnh sống của những chúng sinh đói khát: ông chọn ngạ quỷ. Rồi giữa ngạ quỷ và loài người, ông chọn loài người. Đây là những câu trả lời trong cuộc nói chuyện về các cảnh tái sinh."
+          ]
+        },
+        {
+          "id": "heaven-comparisons",
+          "kind": "teaching",
+          "heading": "Các cõi trời được hỏi từng đôi",
+          "meaningUnits": [
+            "middle-comparisons",
+            "upper-comparisons"
+          ],
+          "paragraphs": [
+            "Thầy tiếp tục hỏi. Dhanañjāni cho rằng chư thiên Tứ Đại Vương tốt hơn loài người; chư thiên Ba Mươi Ba tốt hơn Tứ Đại Vương; chư thiên Yama tốt hơn Ba Mươi Ba.",
+            "Ở ba câu sau, ông chọn cõi Đến Vui, còn gọi Tusita, hơn Yama; Hóa Lạc, các vị trời vui với sự hóa hiện, hơn Đến Vui; Hóa Tự Tại, các vị trời làm chủ điều do người khác hóa hiện, hơn Hóa Lạc. Như thế, có chín cặp đã được hỏi và trả lời lần lượt."
+          ]
+        },
+        {
+          "id": "brahma",
+          "kind": "teaching",
+          "heading": "Khi nghe đến Phạm thiên",
+          "meaningUnits": [
+            "brahma-question",
+            "sariputta-thought",
+            "teaching-offer"
+          ],
+          "paragraphs": [
+            "Sāriputta hỏi tiếp: Hóa Tự Tại hay cõi Phạm thiên tốt hơn? Phạm thiên là những vị trời thuộc cảnh giới được nhắc ở đây. Dhanañjāni reo nhắc hai lần rằng Sāriputta đã nói tới cõi Phạm thiên.",
+            "Sāriputta nghĩ các bà-la-môn này hướng về cõi Phạm thiên, nên thầy sẽ dạy đường đến sống cùng chư Phạm thiên. Thầy nói rõ ý định ấy, bảo ông lắng nghe và chú tâm. Dhanañjāni đáp vâng."
+          ]
+        },
+        {
+          "id": "loving-kindness",
+          "kind": "teaching",
+          "heading": "Tâm từ: mong mọi người được an lành",
+          "meaningUnits": [
+            "loving-kindness"
+          ],
+          "paragraphs": [
+            "Sāriputta giảng về một vị tỳ-kheo tu tâm từ, lòng mong an lành. Vị ấy để tâm từ lan khắp phương thứ nhất, thứ hai, thứ ba, thứ tư; rồi phía trên, phía dưới, bề ngang, mọi nơi, toàn thế giới. Vị ấy đối với tất cả như đối với chính mình.",
+            "Tâm từ ấy rộng lớn, cao cả, không có giới hạn, không thù hận, không ác ý. Sāriputta nói đây là con đường đến sống cùng chư Phạm thiên."
+          ]
+        },
+        {
+          "id": "compassion",
+          "kind": "teaching",
+          "heading": "Tâm bi: thương người đang khổ",
+          "meaningUnits": [
+            "compassion"
+          ],
+          "paragraphs": [
+            "Tiếp theo là tâm bi, lòng thương khi thấy khổ và mong khổ được vơi. Cũng như tâm từ, tâm bi lan phương thứ nhất, thứ hai, thứ ba, thứ tư, trên, dưới, ngang, khắp nơi trong toàn thế giới, đối với tất cả như với mình. Tâm ấy rộng lớn, cao cả, không giới hạn, không thù hận, không ác ý. Cách tu này thuộc con đường Sāriputta đang chỉ dạy."
+          ]
+        },
+        {
+          "id": "rejoicing",
+          "kind": "teaching",
+          "heading": "Tâm hỷ: vui cùng điều tốt của người",
+          "meaningUnits": [
+            "rejoicing"
+          ],
+          "paragraphs": [
+            "Tâm hỷ là lòng vui trước niềm vui và điều tốt lành của người khác. Người tu cũng để tâm ấy lan qua bốn phương lần lượt, rồi trên, dưới, ngang, mọi nơi, toàn thế giới; đối với tất cả như với mình. Tâm hỷ rộng lớn, cao cả, không giới hạn, không thù hận hay ác ý. Đây cũng là phần của con đường sống cùng chư Phạm thiên."
+          ]
+        },
+        {
+          "id": "equanimity",
+          "kind": "teaching",
+          "heading": "Tâm xả: giữ lòng quân bình",
+          "meaningUnits": [
+            "equanimity"
+          ],
+          "paragraphs": [
+            "Tâm xả là sự quân bình, không nghiêng bên này ghét bên kia. Vị tỳ-kheo để tâm ấy lan phương thứ nhất, thứ hai, thứ ba, thứ tư; trên, dưới, ngang, khắp nơi, toàn thế giới, đối với tất cả như với mình.",
+            "Tâm xả cũng rộng lớn, cao cả, không giới hạn, không thù hận, không ác ý. Sāriputta kết rằng đó là con đường đến sống cùng chư Phạm thiên."
+          ]
+        },
+        {
+          "id": "departure",
+          "kind": "teaching",
+          "heading": "Lời nhắn cuối và sự ra đi",
+          "meaningUnits": [
+            "last-message",
+            "limited-departure",
+            "death"
+          ],
+          "paragraphs": [
+            "Dhanañjāni nhờ Sāriputta thay mình cúi đầu kính lễ dưới chân Đức Phật, thưa rằng mình đang bệnh nặng, đau khổ và gửi lời kính lễ.",
+            "Người kể nói Sāriputta đã đặt ông trên hướng đến cõi Phạm thiên, một mức còn thấp so với việc cao hơn vẫn cần làm, rồi đứng dậy ra đi. Chẳng bao lâu sau, Dhanañjāni qua đời và sinh vào cõi Phạm thiên."
+          ]
+        },
+        {
+          "id": "report",
+          "kind": "teaching",
+          "heading": "Đức Phật nói với các tỳ-kheo",
+          "meaningUnits": [
+            "buddha-to-monks",
+            "sariputta-report"
+          ],
+          "paragraphs": [
+            "Đức Phật nói với các tỳ-kheo rằng Sāriputta đã hướng Dhanañjāni đến cõi Phạm thiên còn thấp ấy rồi ra đi, trong khi vẫn còn việc cao hơn cần làm.",
+            "Sau đó Sāriputta đến, kính lễ Đức Phật rồi ngồi một bên. Thầy chuyển lời nhắn: Dhanañjāni đang bệnh nặng, đau khổ và xin cúi đầu đảnh lễ dưới chân Ngài."
+          ]
+        },
+        {
+          "id": "further-work",
+          "kind": "teaching",
+          "heading": "Vẫn còn việc cao hơn cần làm",
+          "meaningUnits": [
+            "buddha-question",
+            "sariputta-reason",
+            "buddha-confirms",
+            "ending"
+          ],
+          "paragraphs": [
+            "Đức Phật hỏi vì sao thầy đã đặt Dhanañjāni vững vào hướng đến cõi Phạm thiên còn thấp rồi ra đi khi vẫn còn việc cao hơn cần làm. Sāriputta thưa lại ý nghĩ của mình: các bà-la-môn hướng về Phạm thiên, nên thầy giảng đường đến sống cùng chư Phạm thiên.",
+            "Đức Phật báo Dhanañjāni đã mất và sinh vào cõi Phạm thiên. Bài kinh giữ cả kết quả ấy lẫn lời nhắc rằng việc tu cao hơn vẫn chưa hoàn tất. Sinh vào một cõi trời chưa phải đã xong con đường giải thoát khỏi mọi trói buộc. Dấu cuối ghi kinh Dhanañjāni là bài thứ bảy trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "small-practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: tìm cách giúp cho đúng",
+          "meaningUnits": [
+            "right-friends",
+            "loving-kindness",
+            "compassion",
+            "rejoicing",
+            "equanimity"
+          ],
+          "paragraphs": [
+            "Khi muốn giúp ai, em có thể hỏi thêm: cách giúp này có thật thà và ngay thẳng không? Em cũng có thể bắt đầu bằng một chút lòng từ với người bên cạnh, thương người đang buồn, vui khi bạn làm được điều tốt và tập giữ lòng công bằng. Đây là những bước nhỏ gợi ra cho hôm nay; bốn tâm được giảng trong kinh có phạm vi rộng khắp, không giới hạn."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Diễn giải dành cho người trưởng thành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Hai cuộc gặp với Dhanañjāni",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "southern-hills",
+            "buddha-health",
+            "sangha-health",
+            "brahmin-health"
+          ],
+          "paragraphs": [
+            "Kinh Dhanañjāni là bài 97 của Trung Bộ. Người truyền kinh xác nhận đã nghe: Đức Phật trú tại Rājagaha, Trúc Lâm, khu cho sóc ăn. Tôn giả Sāriputta lúc ấy du hành vùng Núi Phía Nam cùng đông đảo tỳ-kheo, các vị nam xuất gia.",
+            "Một tỳ-kheo đã hoàn tất thời ở yên tu tập trong mùa mưa tại Rājagaha đến gặp Sāriputta. Sau khi chào hỏi thân thiện và ngồi một bên, vị ấy lần lượt trả lời ba câu hỏi: Đức Phật ít bệnh và khỏe mạnh; Tăng chúng cũng vậy; bà-la-môn Dhanañjāni ở cổng trạm thu gạo cũng vậy. Bà-la-môn là nhóm gắn với học thuật và nghi lễ trong xã hội thời ấy."
+          ]
+        },
+        {
+          "id": "negligence",
+          "kind": "teaching",
+          "heading": "Sức khỏe ổn, đời sống đạo đức có ổn không?",
+          "meaningUnits": [
+            "negligence",
+            "wives",
+            "bad-news"
+          ],
+          "paragraphs": [
+            "Sāriputta hỏi thêm Dhanañjāni có không phóng dật không, nghĩa là có chuyên tâm giữ gìn nếp sống và việc tu không. Vị tỳ-kheo cho biết ông đang dựa vào danh vua để cướp bóc các bà-la-môn và gia chủ, rồi dựa vào danh các bà-la-môn và gia chủ để cướp bóc vua. Gia chủ là người chủ hộ.",
+            "Vị ấy cũng báo rằng người vợ có lòng tin, xuất thân từ gia đình có lòng tin, đã mất; Dhanañjāni cưới người vợ khác không có lòng tin, từ gia đình không có lòng tin. Sāriputta hai lần nói nghe tin ông phóng dật như vậy thật chẳng lành, rồi mong có lúc được gặp và đàm thoại với ông."
+          ]
+        },
+        {
+          "id": "under-the-tree",
+          "kind": "teaching",
+          "heading": "Hẹn nói chuyện dưới gốc cây",
+          "meaningUnits": [
+            "return",
+            "alms",
+            "milk",
+            "meeting"
+          ],
+          "paragraphs": [
+            "Sau thời gian ở Núi Phía Nam như ý, Sāriputta du hành từng chặng về Rājagaha, trú Trúc Lâm, khu nuôi sóc. Một sáng, ngài mặc y, mang y bát vào thành khất thực, nhận thức ăn được cho. Dùng bữa xong, trên đường trở về, ngài đến nơi Dhanañjāni đang cho vắt sữa bò trong chuồng ngoài thành.",
+            "Dhanañjāni thấy ngài từ xa, bước tới mời uống sữa trước giờ ăn. Sāriputta từ chối vì đã dùng bữa xong trong ngày; ngài sẽ ở gốc cây kia ban ngày và mời ông đến đó. Ông nhận lời. Ăn sáng xong, ông đến chào hỏi thân thiện, ngồi một bên. Sāriputta hỏi trực tiếp ông có còn không phóng dật không."
+          ]
+        },
+        {
+          "id": "ten-responsibilities",
+          "kind": "teaching",
+          "heading": "Mười trách nhiệm được dùng làm lời giải thích",
+          "meaningUnits": [
+            "ten-duties"
+          ],
+          "paragraphs": [
+            "Dhanañjāni trả lời rằng mình không thể chuyên tâm như vậy vì phải nuôi cha mẹ, vợ con, đầy tớ và người làm công. Ông còn phải chu toàn bổn phận với bạn bè thân hữu, bà con huyết thống, khách, người đã quá cố, chư thiên là các vị trời, và nhà vua. Sau cùng, chính thân mình cũng phải được nuôi cho đầy đặn, lớn mạnh. Tổng cộng là mười việc.",
+            "Trong lời giải thích của ông, gánh trách nhiệm trở thành lý do cho sự buông lỏng. Sāriputta lần lượt đem từng lý do ấy ra xét."
+          ]
+        },
+        {
+          "id": "parents-consequence",
+          "kind": "teaching",
+          "heading": "Lý do phụng dưỡng cha mẹ trước hậu quả việc làm",
+          "meaningUnits": [
+            "wrong-parents"
+          ],
+          "paragraphs": [
+            "Sāriputta đặt giả định một người vì cha mẹ mà sống trái pháp, bất chính, rồi vì cách sống ấy bị ngục tốt, những người canh địa ngục, kéo xuống địa ngục. Người ấy có thể thoát bằng lời xin rằng mình đã làm vì cha mẹ không? Chính cha mẹ có thể xin cứu người ấy với lý do việc đã làm cho họ không?",
+            "Dhanañjāni đáp không: ngục tốt vẫn ném người ấy vào địa ngục dù đang gào khóc. Câu hỏi giữ cả hai lời biện hộ, từ người hành động và từ người được nhắm tới."
+          ]
+        },
+        {
+          "id": "others-consequence",
+          "kind": "teaching",
+          "heading": "Tám trách nhiệm tiếp theo cũng được xét",
+          "meaningUnits": [
+            "wrong-family",
+            "wrong-workers",
+            "wrong-friends",
+            "wrong-relatives",
+            "wrong-guests",
+            "wrong-departed",
+            "wrong-deities",
+            "wrong-king"
+          ],
+          "paragraphs": [
+            "Sāriputta lặp phép hỏi với từng trách nhiệm: nuôi vợ con; nuôi đầy tớ, người làm; lo cho bạn bè; bà con; khách; người quá cố; chư thiên; nhà vua. Trong mỗi lượt, giả định vẫn là vì việc ấy mà làm điều trái pháp, bất chính, dẫn đến bị kéo xuống địa ngục.",
+            "Với mỗi đối tượng, có hai khả năng cầu xin: người làm nói mình đã hành động cho họ, hoặc chính những người được lo cho xin cứu vì hành động đã làm cho mình. Dhanañjāni đều phủ nhận cả hai có thể giúp thoát hậu quả. Ông nhắc rằng dù gào khóc, người làm sai vẫn bị ngục tốt ném vào địa ngục. Cả tám trách nhiệm đều được đặt dưới cùng phép xét ấy."
+          ]
+        },
+        {
+          "id": "body-consequence",
+          "kind": "teaching",
+          "heading": "Trách nhiệm thứ mười: nuôi thân",
+          "meaningUnits": [
+            "wrong-body"
+          ],
+          "paragraphs": [
+            "Đến việc nuôi thân cho đầy đặn, lớn mạnh, Sāriputta cũng hỏi: nếu vì thế mà sống bất chính, rồi bị kéo vào địa ngục, lời tự xin của người ấy hoặc lời người khác xin giúp vì cùng lý do có cứu được không?",
+            "Dhanañjāni trả lời không; dù người ấy khóc than, ngục tốt vẫn ném vào địa ngục. Vòng đầu đã xét đủ mười lý do, tới cả lợi ích cho thân mình."
+          ]
+        },
+        {
+          "id": "parents-livelihood",
+          "kind": "teaching",
+          "heading": "Có thể chu toàn bằng công việc chân chính",
+          "meaningUnits": [
+            "right-parents"
+          ],
+          "paragraphs": [
+            "Sāriputta đổi hướng câu hỏi: giữa người vì cha mẹ mà làm điều trái pháp, bất chính và người cũng vì cha mẹ mà sống đúng pháp, ngay thẳng, ai tốt hơn? Dhanañjāni trả lời người làm sai không tốt hơn; người làm đúng mới tốt hơn, vì hành xử đúng pháp, chân chính tốt hơn hành xử trái pháp, bất chính.",
+            "Sāriputta cho biết có những công việc khác hợp lẽ và chân chính, nhờ đó có thể phụng dưỡng cha mẹ, không tạo ác nghiệp, tức hành động xấu, và thực hành con đường phước lành. Đây là lời chỉ ra khả năng chu toàn trách nhiệm trong một cách sống tốt."
+          ]
+        },
+        {
+          "id": "family-livelihood",
+          "kind": "teaching",
+          "heading": "Vợ con và người làm công",
+          "meaningUnits": [
+            "right-family",
+            "right-workers"
+          ],
+          "paragraphs": [
+            "Cùng câu hỏi ấy được đặt cho việc nuôi vợ con, rồi việc nuôi đầy tớ và người làm công. Ở mỗi lượt, Dhanañjāni nói người vì việc ấy mà sống bất chính không tốt hơn; người sống chân chính mới tốt hơn, vì cách sống đúng tốt hơn cách sống sai.",
+            "Sau mỗi câu trả lời, Sāriputta đều nêu những công việc khác hợp lẽ, đúng pháp. Có thể dùng chúng để nuôi vợ con, cũng có thể nuôi người làm công, mà không tạo hành động xấu và vẫn đi theo con đường phước lành."
+          ]
+        },
+        {
+          "id": "six-livelihoods",
+          "kind": "teaching",
+          "heading": "Sáu bổn phận trong đời sống xã hội và tín ngưỡng",
+          "meaningUnits": [
+            "right-friends",
+            "right-relatives",
+            "right-guests",
+            "right-departed",
+            "right-deities",
+            "right-king"
+          ],
+          "paragraphs": [
+            "Lần lượt tới bổn phận với bạn bè, bà con huyết thống, khách, người đã quá cố, chư thiên và nhà vua. Trong từng trường hợp, Sāriputta so hai người cùng làm vì một bổn phận ấy, một người bất chính và một người chân chính. Dhanañjāni đều phủ nhận người làm sai tốt hơn, xác nhận người làm đúng tốt hơn và nêu lý do: hành xử ngay thẳng tốt hơn hành xử bất chính.",
+            "Với từng bổn phận trong sáu bổn phận ấy, Sāriputta lại nêu công việc khác hợp lẽ, đúng pháp. Nhờ những công việc đó, người ta có thể làm tròn việc cần làm đối với đúng đối tượng ấy, tránh hành động xấu và thực hành con đường phước. Trách nhiệm được giữ, cách thực hiện được xem xét kỹ."
+          ]
+        },
+        {
+          "id": "body-livelihood",
+          "kind": "teaching",
+          "heading": "Nuôi thân bằng cách sống đúng",
+          "meaningUnits": [
+            "right-body",
+            "first-departure"
+          ],
+          "paragraphs": [
+            "Cặp so sánh cuối xét hai cách nuôi thân cho đầy đặn, lớn mạnh. Dhanañjāni vẫn trả lời người làm bất chính không tốt hơn, người làm chân chính mới tốt hơn, vì hành xử đúng pháp tốt hơn hành xử trái pháp. Sāriputta nói có những công việc khác hợp lẽ, đúng pháp để nuôi thân, không tạo ác nghiệp và thực hành con đường phước.",
+            "Dhanañjāni tán thành và vui nhận lời Sāriputta, rồi đứng dậy ra đi."
+          ]
+        },
+        {
+          "id": "work-example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: trách nhiệm với một nhóm làm việc",
+          "meaningUnits": [
+            "right-workers",
+            "right-king"
+          ],
+          "paragraphs": [
+            "Người phụ trách một nhóm có thể thấy áp lực phải bảo đảm thu nhập cho mọi người. Khi giải thích một việc gian dối bằng áp lực ấy, vẫn cần xét chính phương cách đã chọn và người bị tổn hại. Ví dụ hiện đại này gợi lại câu hỏi của kinh: có cách làm chân chính để chu toàn trách nhiệm không?"
+          ]
+        },
+        {
+          "id": "illness-request",
+          "kind": "teaching",
+          "heading": "Hai lời nhắn khi bệnh nặng",
+          "meaningUnits": [
+            "illness",
+            "message-buddha",
+            "message-sariputta"
+          ],
+          "paragraphs": [
+            "Một thời gian sau, Dhanañjāni lâm bệnh nặng, đau khổ. Ông bảo một người đến Đức Phật, nhân danh mình cúi đầu đảnh lễ dưới chân Ngài, báo tình trạng bệnh nặng, đau khổ và gửi lời kính lễ.",
+            "Rồi người ấy phải đến Sāriputta, nhân danh ông cúi đầu dưới chân ngài, báo bệnh nặng, đau khổ và gửi lời kính lễ. Ngoài ra, cần xin Sāriputta vì lòng thương xót mà đến nhà thăm."
+          ]
+        },
+        {
+          "id": "messages-delivered",
+          "kind": "teaching",
+          "heading": "Lời nhắn được chuyển tới từng nơi",
+          "meaningUnits": [
+            "delivered-buddha",
+            "delivered-sariputta"
+          ],
+          "paragraphs": [
+            "Người được nhờ nhận lời, đến đảnh lễ Đức Phật, ngồi một bên và báo Dhanañjāni bệnh nặng, đau khổ, gửi lời cúi đầu kính lễ dưới chân Ngài. Sau đó, người ấy đến đảnh lễ Sāriputta, ngồi một bên và chuyển tin bệnh nặng, đau khổ, lời kính lễ cùng lời xin tới nhà vì thương xót.",
+            "Sāriputta im lặng nhận lời."
+          ]
+        },
+        {
+          "id": "at-the-bedside",
+          "kind": "teaching",
+          "heading": "Hỏi đúng điều người bệnh đang chịu",
+          "meaningUnits": [
+            "sickbed",
+            "worsening"
+          ],
+          "paragraphs": [
+            "Sāriputta mặc y, mang y bát đến nhà Dhanañjāni, ngồi vào chỗ được dọn sẵn. Ngài hỏi ông còn chịu đựng, còn cầm cự được không; các cảm thọ khổ, những cảm nhận đau đớn, có giảm thay vì tăng không; sự giảm có rõ thay vì sự tăng không.",
+            "Dhanañjāni đáp mình không chịu nổi, không cầm cự nổi. Những cảm thọ khổ dữ dội tăng chứ không giảm, sự tăng hiện rõ chứ không phải sự giảm. Ông tiếp tục mô tả bằng bốn phép ví."
+          ]
+        },
+        {
+          "id": "pain-images",
+          "kind": "teaching",
+          "heading": "Bốn phép ví và một lời đáp lặp lại",
+          "meaningUnits": [
+            "piercing-head",
+            "tight-head",
+            "cutting-belly",
+            "burning-body"
+          ],
+          "paragraphs": [
+            "Những luồng gió mạnh khuấy trong đầu đau như một người khỏe khoan đầu bằng mũi nhọn. Cơn đau đầu còn như một người khỏe siết bằng dải da chắc. Những luồng gió cắt trong bụng đau như người mổ bò giỏi hoặc người học việc dùng dao sắc mổ bụng bò. Sức nóng trong thân dữ dội như hai người khỏe nắm hai cánh tay một người yếu hơn, nung đốt trên hố than hồng.",
+            "Sau từng hình ảnh, ông lặp rằng mình không kham chịu, không cầm cự nổi; đau đang tăng rõ, không giảm. Tính cả câu trả lời mở đầu là năm lần. Những hình ảnh ấy thuộc lời kể về cảm giác đau của Dhanañjāni."
+          ]
+        },
+        {
+          "id": "realms",
+          "kind": "teaching",
+          "heading": "Chín cặp cảnh sống được so sánh",
+          "meaningUnits": [
+            "lower-comparisons",
+            "middle-comparisons",
+            "upper-comparisons"
+          ],
+          "paragraphs": [
+            "Sāriputta hỏi lần lượt điều nào tốt hơn trong từng cặp. Dhanañjāni đáp: loài súc sinh tốt hơn địa ngục; cảnh ngạ quỷ, những chúng sinh đói khát, tốt hơn súc sinh; loài người tốt hơn ngạ quỷ.",
+            "Tiếp theo, ông đáp chư thiên Tứ Đại Vương tốt hơn loài người; Ba Mươi Ba tốt hơn Tứ Đại Vương; Yama tốt hơn Ba Mươi Ba. Rồi Đến Vui, tức Tusita, tốt hơn Yama; Hóa Lạc, vui với sự hóa hiện, tốt hơn Đến Vui; Hóa Tự Tại, làm chủ điều do người khác hóa hiện, tốt hơn Hóa Lạc. Đây là chuỗi câu trả lời của ông về các cảnh tái sinh."
+          ]
+        },
+        {
+          "id": "brahma-preference",
+          "kind": "teaching",
+          "heading": "Sāriputta chọn điều sẽ giảng",
+          "meaningUnits": [
+            "brahma-question",
+            "sariputta-thought",
+            "teaching-offer"
+          ],
+          "paragraphs": [
+            "Khi được hỏi Hóa Tự Tại hay cõi Phạm thiên tốt hơn, Dhanañjāni hai lần nhắc rằng Sāriputta đã nói cõi Phạm thiên. Sāriputta nghĩ những bà-la-môn này hướng về cõi Phạm thiên, nên sẽ giảng con đường đến sống cùng chư Phạm thiên, các vị trời ở cảnh giới ấy.",
+            "Ngài nói sẽ dạy con đường đó, bảo Dhanañjāni lắng nghe và chú tâm kỹ. Ông nhận lời; Sāriputta bắt đầu giảng."
+          ]
+        },
+        {
+          "id": "loving-kindness",
+          "kind": "teaching",
+          "heading": "Tâm từ rộng khắp",
+          "meaningUnits": [
+            "loving-kindness"
+          ],
+          "paragraphs": [
+            "Sāriputta mô tả một tỳ-kheo an trú, duy trì tâm từ là lòng mong an lành, lan khắp phương thứ nhất, thứ hai, thứ ba, thứ tư. Rồi tâm từ trải lên trên, xuống dưới, theo bề ngang, khắp mọi nơi, toàn thế giới, đối với tất cả như đối với chính mình.",
+            "Tâm ấy rộng lớn, cao cả, vô lượng tức không giới hạn, không thù hận, không ác ý. Ngài xác nhận đây là con đường đến sống cùng chư Phạm thiên."
+          ]
+        },
+        {
+          "id": "compassion-joy",
+          "kind": "teaching",
+          "heading": "Tâm bi và tâm hỷ",
+          "meaningUnits": [
+            "compassion",
+            "rejoicing"
+          ],
+          "paragraphs": [
+            "Tâm bi là lòng thương trước khổ đau, mong khổ được vơi. Người tu cũng lan tỏa tâm bi qua phương thứ nhất, thứ hai, thứ ba, thứ tư, lên trên, xuống dưới, bề ngang, khắp nơi và toàn thế giới; đối với tất cả như với mình. Tâm ấy rộng lớn, cao cả, không giới hạn, không hận, không ác ý.",
+            "Tâm hỷ là niềm vui trước an vui, điều lành của người khác. Nó cũng được tu với trọn phạm vi bốn phương lần lượt, trên, dưới, ngang, khắp nơi, toàn thế giới; đối với tất cả như với mình. Cùng các phẩm chất rộng lớn, cao cả, vô lượng, không hận, không ác ý, tâm hỷ thuộc con đường Sāriputta đang giảng."
+          ]
+        },
+        {
+          "id": "equanimity",
+          "kind": "teaching",
+          "heading": "Tâm xả quân bình",
+          "meaningUnits": [
+            "equanimity"
+          ],
+          "paragraphs": [
+            "Với tâm xả, sự quân bình không thiên lệch, vị tỳ-kheo cũng an trú lan tỏa phương thứ nhất, thứ hai, thứ ba, thứ tư; trên, dưới, ngang, khắp nơi, toàn thế giới, đối với tất cả như với chính mình.",
+            "Tâm xả rộng lớn, cao cả, không giới hạn, không hận, không ác ý. Sāriputta kết lại rằng đó là con đường đến sống cùng chư Phạm thiên."
+          ]
+        },
+        {
+          "id": "departure-death",
+          "kind": "teaching",
+          "heading": "Kết quả và phần việc còn lại",
+          "meaningUnits": [
+            "last-message",
+            "limited-departure",
+            "death"
+          ],
+          "paragraphs": [
+            "Dhanañjāni nhờ Sāriputta thay mình cúi đầu dưới chân Đức Phật, chuyển lời rằng ông đang bệnh nặng, đau khổ và gửi lời đảnh lễ.",
+            "Người kể ghi rõ: Sāriputta đã an lập ông vào cõi Phạm thiên thấp kém, đặt ông vững trong hướng đi ấy, rồi đứng dậy ra đi, trong khi vẫn còn việc cao hơn cần làm. Không lâu sau khi ngài đi, Dhanañjāni qua đời và tái sinh cõi Phạm thiên. Chữ thấp ở đây đặt kết quả ấy trong tương quan với phần tu tập cao hơn còn chưa hoàn tất."
+          ]
+        },
+        {
+          "id": "buddha-and-monks",
+          "kind": "teaching",
+          "heading": "Đức Phật nêu điều còn chưa làm",
+          "meaningUnits": [
+            "buddha-to-monks",
+            "sariputta-report"
+          ],
+          "paragraphs": [
+            "Đức Phật nói với các tỳ-kheo rằng Sāriputta đã an lập Dhanañjāni vào cõi Phạm thiên thấp kém rồi ra đi khi vẫn còn việc cao hơn cần làm.",
+            "Sāriputta đến đảnh lễ Đức Phật, ngồi một bên và chuyển lời nhắn Dhanañjāni đang bệnh nặng, đau khổ, cúi đầu kính lễ dưới chân Ngài."
+          ]
+        },
+        {
+          "id": "final-exchange",
+          "kind": "teaching",
+          "heading": "Vì sao dừng ở cõi Phạm thiên?",
+          "meaningUnits": [
+            "buddha-question",
+            "sariputta-reason",
+            "buddha-confirms",
+            "ending"
+          ],
+          "paragraphs": [
+            "Đức Phật hỏi Sāriputta vì sao, khi vẫn còn việc cao hơn cần làm, ngài lại an lập Dhanañjāni vào cõi Phạm thiên thấp kém rồi đứng dậy ra đi. Sāriputta thưa rằng mình đã nghĩ các bà-la-môn hướng về cõi Phạm thiên, nên quyết định dạy đường đến sống cùng chư Phạm thiên.",
+            "Đức Phật báo Dhanañjāni đã qua đời và sinh vào cõi Phạm thiên. Lời kết giữ rõ giới hạn của kết quả ấy: một cảnh tái sinh tốt chưa hoàn tất con đường giải thoát. Dấu cuối văn bản ghi đây là bài thứ bảy trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "reflection",
+          "kind": "practice",
+          "heading": "Gợi ý suy ngẫm: xét mục đích cùng phương cách",
+          "meaningUnits": [
+            "right-parents",
+            "right-workers",
+            "right-body",
+            "limited-departure"
+          ],
+          "paragraphs": [
+            "Có thể chọn một trách nhiệm đang khiến mình thấy áp lực, rồi viết riêng mục đích cần chăm lo và phương cách mình định dùng. Phương cách ấy có chân chính, có gây điều xấu không? Cũng có thể nhìn lại một kết quả tốt đã đạt để hỏi phần việc nào còn cần tiếp tục. Đây là gợi ý hiện đại; bài kinh đặt lời nhắc cuối trong con đường tu hướng đến giải thoát."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Diễn giải dành cho người lớn tuổi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Hỏi thăm một người quen",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "southern-hills",
+            "buddha-health",
+            "sangha-health",
+            "brahmin-health"
+          ],
+          "paragraphs": [
+            "Kinh Dhanañjāni là bài 97 của Trung Bộ. Người truyền kinh nói mình đã nghe: Đức Phật ở Rājagaha, tức Vương Xá, tại Trúc Lâm, khu cho sóc ăn. Tôn giả Sāriputta đang du hành vùng Núi Phía Nam với đông đảo tỳ-kheo, các vị nam xuất gia.",
+            "Một tỳ-kheo vừa an cư mùa mưa, ở yên tu tập qua mùa mưa tại Rājagaha, đến thăm ngài. Sau lời chào hỏi thân thiện, vị ấy ngồi một bên. Sāriputta hỏi Đức Phật có ít bệnh, khỏe mạnh không; được đáp có. Ngài hỏi Tăng chúng cũng như vậy không; được đáp có. Rồi ngài hỏi bà-la-môn Dhanañjāni ở cổng trạm thu gạo; ông cũng được báo là ít bệnh, khỏe mạnh. Bà-la-môn là nhóm người gắn với học thuật và nghi lễ trong xã hội thời ấy."
+          ]
+        },
+        {
+          "id": "unwelcome-news",
+          "kind": "teaching",
+          "heading": "Tin chẳng lành về cách sống",
+          "meaningUnits": [
+            "negligence",
+            "wives",
+            "bad-news"
+          ],
+          "paragraphs": [
+            "Sāriputta hỏi thêm Dhanañjāni có giữ mình không phóng dật hay không. Không phóng dật là chuyên tâm giữ gìn nếp sống và việc tu. Vị tỳ-kheo trả lời rằng khó thể gọi là không phóng dật: ông dựa danh vua cướp bóc các bà-la-môn, gia chủ là những chủ hộ; rồi lại dựa danh họ cướp bóc vua.",
+            "Vị ấy kể thêm người vợ có lòng tin, cưới từ gia đình có lòng tin, đã mất; người vợ khác được cưới về không có lòng tin và từ gia đình không có lòng tin.",
+            "Sāriputta hai lần nói nghe tin Dhanañjāni phóng dật thật chẳng lành. Ngài mong có khi gặp được ông để đàm luận đôi điều."
+          ]
+        },
+        {
+          "id": "return",
+          "kind": "teaching",
+          "heading": "Trở về Trúc Lâm",
+          "meaningUnits": [
+            "return",
+            "alms"
+          ],
+          "paragraphs": [
+            "Ở Núi Phía Nam lâu như ý, Sāriputta lên đường, đi từng chặng tới Rājagaha và trú Trúc Lâm, khu nuôi sóc. Một sáng, ngài mặc y, mang y bát vào thành khất thực, nhận thức ăn được cho.",
+            "Dhanañjāni đang cho người vắt sữa bò trong chuồng ngoài thành. Sāriputta dùng bữa xong, trên đường trở về sau khất thực, đến chỗ ông đang cho vắt sữa."
+          ]
+        },
+        {
+          "id": "tree-meeting",
+          "kind": "teaching",
+          "heading": "Cuộc hẹn dưới gốc cây",
+          "meaningUnits": [
+            "milk",
+            "meeting"
+          ],
+          "paragraphs": [
+            "Thấy Sāriputta từ xa, Dhanañjāni bước tới mời ngài uống sữa trước giờ ăn. Ngài từ chối vì hôm ấy đã dùng bữa xong; sẽ ở gốc cây kia ban ngày, và mời ông đến gặp. Ông vâng lời.",
+            "Sau bữa sáng, Dhanañjāni đến chào hỏi thân thiện, ngồi một bên. Sāriputta hỏi ông có còn chuyên tâm giữ gìn đời sống, không buông lỏng, hay không."
+          ]
+        },
+        {
+          "id": "duties",
+          "kind": "teaching",
+          "heading": "Gánh lo được kể thành mười việc",
+          "meaningUnits": [
+            "ten-duties"
+          ],
+          "paragraphs": [
+            "Dhanañjāni nói mình không thể chuyên tâm như vậy. Ông phải nuôi cha mẹ, vợ con, đầy tớ và người làm. Ông phải chu toàn bổn phận với bạn bè thân hữu, bà con huyết thống, khách, người đã quá cố, chư thiên là các vị trời, và nhà vua.",
+            "Cuối cùng, chính thân mình cũng cần nuôi cho đầy đặn, lớn mạnh. Đó là đủ mười trách nhiệm ông nêu để giải thích việc buông lỏng nếp sống và sự tu tập."
+          ]
+        },
+        {
+          "id": "parents",
+          "kind": "teaching",
+          "heading": "Có thể viện lý do phụng dưỡng cha mẹ không?",
+          "meaningUnits": [
+            "wrong-parents"
+          ],
+          "paragraphs": [
+            "Sāriputta đặt giả định: một người vì cha mẹ mà sống trái pháp, bất chính; vì thế, ngục tốt là những người canh địa ngục kéo người ấy xuống địa ngục. Người ấy có thể xin thoát với lý do đã làm vì cha mẹ không? Cha mẹ có thể xin giúp vì người ấy đã làm cho mình không?",
+            "Dhanañjāni đáp không. Dù người ấy gào khóc, ngục tốt vẫn ném vào địa ngục. Lời cầu xin ở cả hai phía không xóa được hậu quả của hành vi trong tình huống này."
+          ]
+        },
+        {
+          "id": "family-workers",
+          "kind": "teaching",
+          "heading": "Nuôi vợ con, nuôi người làm",
+          "meaningUnits": [
+            "wrong-family",
+            "wrong-workers"
+          ],
+          "paragraphs": [
+            "Tiếp đến, Sāriputta hỏi cùng tình huống cho việc nuôi vợ con, rồi nuôi đầy tớ và người làm. Nếu vì mỗi việc ấy mà sống bất chính và bị kéo vào địa ngục, lời người làm tự xin, hoặc lời vợ con, người làm xin giúp với cùng lý do, có cứu được không?",
+            "Dhanañjāni đều đáp không. Ở cả hai lượt, dù người làm sai khóc than, ngục tốt vẫn ném người ấy vào địa ngục."
+          ]
+        },
+        {
+          "id": "social-duties",
+          "kind": "teaching",
+          "heading": "Bạn bè, bà con, khách",
+          "meaningUnits": [
+            "wrong-friends",
+            "wrong-relatives",
+            "wrong-guests"
+          ],
+          "paragraphs": [
+            "Ba lượt tiếp theo xét việc làm vì bạn bè thân hữu, vì bà con huyết thống và vì khách. Mỗi lượt vẫn có hai lời cầu xin được đặt ra: người làm sai xin cho mình, hoặc chính người được nhắm tới xin cứu vì việc ấy đã làm cho họ.",
+            "Dhanañjāni đều trả lời không thể thoát bằng những lời ấy. Nếu sống trái pháp, bất chính rồi bị kéo xuống địa ngục, người ấy vẫn bị ném vào đó dù gào khóc."
+          ]
+        },
+        {
+          "id": "faith-and-king",
+          "kind": "teaching",
+          "heading": "Người quá cố, chư thiên, nhà vua",
+          "meaningUnits": [
+            "wrong-departed",
+            "wrong-deities",
+            "wrong-king"
+          ],
+          "paragraphs": [
+            "Sāriputta xét tiếp từng bổn phận với người đã quá cố, chư thiên và nhà vua. Trong mỗi giả định, người sống bất chính bị kéo vào địa ngục; người ấy tự xin tha vì mục đích này, hoặc người được lo cho xin giúp với cùng lý do.",
+            "Cả ba lần Dhanañjāni đều nói không cứu được bằng lời xin ấy. Dù khóc than, người làm sai vẫn bị ngục tốt ném vào địa ngục. Bổn phận được viện tới không đổi được phẩm chất của cách làm."
+          ]
+        },
+        {
+          "id": "body",
+          "kind": "teaching",
+          "heading": "Nuôi dưỡng chính thân mình",
+          "meaningUnits": [
+            "wrong-body"
+          ],
+          "paragraphs": [
+            "Đến việc nuôi thân cho đầy đặn, lớn mạnh, câu hỏi cũng như vậy. Nếu làm điều trái pháp, bất chính vì việc ấy, rồi bị kéo xuống địa ngục, lời tự xin hoặc lời người khác xin giúp có làm thoát được không?",
+            "Dhanañjāni đáp không; dù gào khóc, người ấy vẫn bị ném vào địa ngục. Tới đây, đủ mười lý do đã được xét."
+          ]
+        },
+        {
+          "id": "honest-support",
+          "kind": "teaching",
+          "heading": "Có lối làm ăn chân chính để phụng dưỡng",
+          "meaningUnits": [
+            "right-parents"
+          ],
+          "paragraphs": [
+            "Sāriputta đặt câu hỏi mới: một người vì cha mẹ mà sống trái pháp, bất chính, một người vì cha mẹ mà sống đúng pháp, ngay thẳng; ai tốt hơn?",
+            "Dhanañjāni nói người làm sai không tốt hơn, người làm đúng mới tốt hơn, vì hành vi chân chính tốt hơn hành vi bất chính. Sāriputta cho biết có công việc khác hợp lẽ, đúng đắn, đủ để phụng dưỡng cha mẹ mà không tạo ác nghiệp, tức hành động xấu, và thực hành con đường phước lành."
+          ]
+        },
+        {
+          "id": "honest-family",
+          "kind": "teaching",
+          "heading": "Cũng có thể lo cho vợ con và người làm",
+          "meaningUnits": [
+            "right-family",
+            "right-workers"
+          ],
+          "paragraphs": [
+            "Với việc nuôi vợ con, rồi việc nuôi đầy tớ và người làm, ngài lặp cùng câu hỏi. Mỗi lần Dhanañjāni đều không xem người làm sai là tốt hơn; ông xác nhận người làm đúng tốt hơn, vì ngay thẳng tốt hơn bất chính.",
+            "Sāriputta lần lượt nêu công việc khác hợp lẽ, đúng pháp để lo cho vợ con và để nuôi người làm. Mỗi việc đều có thể được chu toàn bằng cách không tạo hành động xấu và đi trên con đường phước lành."
+          ]
+        },
+        {
+          "id": "honest-social",
+          "kind": "teaching",
+          "heading": "Giữ bổn phận bằng cách làm ngay thẳng",
+          "meaningUnits": [
+            "right-friends",
+            "right-relatives",
+            "right-guests"
+          ],
+          "paragraphs": [
+            "Ba bổn phận với bạn bè, bà con huyết thống và khách được xét từng việc một. Với mỗi việc, Sāriputta so người làm trái pháp với người sống đúng pháp. Dhanañjāni đều đáp người làm sai không tốt hơn, người chân chính tốt hơn, vì cách sống ngay thẳng tốt hơn bất chính.",
+            "Sau từng câu đáp, Sāriputta đều nêu những công việc khác hợp lẽ, đúng pháp để làm bổn phận đối với đúng nhóm ấy. Nhờ đó có thể làm tròn việc, không tạo ác nghiệp và thực hành con đường phước."
+          ]
+        },
+        {
+          "id": "honest-faith",
+          "kind": "teaching",
+          "heading": "Tín ngưỡng và bổn phận với vua cũng vậy",
+          "meaningUnits": [
+            "right-departed",
+            "right-deities",
+            "right-king"
+          ],
+          "paragraphs": [
+            "Sāriputta tiếp tục với người đã quá cố, chư thiên và nhà vua. Mỗi lần, cùng một bổn phận được thực hiện theo hai cách để so sánh: bất chính hoặc chân chính. Dhanañjāni phủ nhận người làm sai tốt hơn và xác nhận người làm đúng tốt hơn, vì hành xử ngay thẳng tốt hơn hành xử sai trái.",
+            "Với cả ba bổn phận, từng việc một, Sāriputta nói có công việc khác hợp lẽ, đúng pháp để chu toàn. Cả ba lời chỉ dẫn đều giữ đủ: làm được việc ấy, không tạo hành động xấu, đi theo con đường phước lành."
+          ]
+        },
+        {
+          "id": "honest-body",
+          "kind": "teaching",
+          "heading": "Nuôi thân rồi vẫn giữ được điều lành",
+          "meaningUnits": [
+            "right-body",
+            "first-departure"
+          ],
+          "paragraphs": [
+            "Cuối cùng là việc nuôi thân cho đầy đặn, lớn mạnh. Dhanañjāni cũng đáp người làm bất chính không tốt hơn; người sống đúng pháp mới tốt hơn, vì chân chính tốt hơn bất chính. Sāriputta nêu công việc khác hợp lẽ, đúng đắn để nuôi thân, không tạo ác nghiệp và thực hành con đường phước.",
+            "Nghe xong, Dhanañjāni tán thành, vui nhận lời Sāriputta rồi đứng dậy ra về."
+          ]
+        },
+        {
+          "id": "remembrance-example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: một buổi tưởng niệm",
+          "meaningUnits": [
+            "right-departed"
+          ],
+          "paragraphs": [
+            "Một người được nhờ lo buổi tưởng niệm có thể mong mọi thứ thật trang trọng. Khi nảy ý định ghi một khoản chi không có thật, người ấy có thể dừng lại xét: cách làm ấy có ngay thẳng không? Giữ lòng nhớ ơn cũng cần một phương cách chân chính. Đây là ví dụ hiện đại gợi từ việc chu toàn bổn phận với người quá cố, không phải một sự việc trong kinh."
+          ]
+        },
+        {
+          "id": "illness-message",
+          "kind": "teaching",
+          "heading": "Bệnh nặng và hai lời nhờ",
+          "meaningUnits": [
+            "illness",
+            "message-buddha",
+            "message-sariputta"
+          ],
+          "paragraphs": [
+            "Một thời gian sau, Dhanañjāni lâm bệnh nặng, đau khổ. Ông gọi một người, nhờ tới Đức Phật, nhân danh mình cúi đầu đảnh lễ dưới chân Ngài, báo rằng mình bệnh nặng, đau khổ và gửi lời kính lễ.",
+            "Sau đó phải đến Sāriputta, nhân danh ông cúi đầu kính lễ dưới chân ngài, báo bệnh nặng, đau khổ và lời đảnh lễ. Ông còn nhờ xin Sāriputta vì thương xót mà đến nhà thăm."
+          ]
+        },
+        {
+          "id": "message-arrives",
+          "kind": "teaching",
+          "heading": "Lời nhờ được chuyển tới",
+          "meaningUnits": [
+            "delivered-buddha",
+            "delivered-sariputta"
+          ],
+          "paragraphs": [
+            "Người ấy nhận lời, đến đảnh lễ Đức Phật và ngồi một bên. Người ấy báo Dhanañjāni bệnh nặng, đau khổ và gửi lời cúi đầu kính lễ dưới chân Ngài.",
+            "Rồi người ấy đến đảnh lễ Sāriputta, ngồi một bên, chuyển tin bệnh nặng, đau khổ, lời kính lễ và lời mời tới nhà vì thương xót. Sāriputta im lặng nhận lời."
+          ]
+        },
+        {
+          "id": "visit",
+          "kind": "teaching",
+          "heading": "Hỏi về sức chịu đựng và cơn đau",
+          "meaningUnits": [
+            "sickbed",
+            "worsening"
+          ],
+          "paragraphs": [
+            "Sāriputta mặc y, mang y bát đến nhà Dhanañjāni, ngồi chỗ đã dọn sẵn. Ngài hỏi ông còn chịu đựng, còn cầm cự được không; những cảm thọ khổ, tức cảm nhận đau đớn, có giảm thay vì tăng không, sự giảm có hiện rõ thay vì sự tăng không.",
+            "Dhanañjāni đáp không chịu nổi, không cầm cự nổi. Đau dữ tăng chứ không giảm; điều thấy rõ là sự tăng, không phải sự giảm."
+          ]
+        },
+        {
+          "id": "head-pain",
+          "kind": "teaching",
+          "heading": "Hai hình ảnh nói về đau đầu",
+          "meaningUnits": [
+            "piercing-head",
+            "tight-head"
+          ],
+          "paragraphs": [
+            "Ông kể những luồng gió mạnh khuấy trong đầu, đau như một người khỏe dùng mũi nhọn khoan đầu. Rồi ông nói đầu đau như bị một người khỏe siết bằng dải da chắc.",
+            "Sau mỗi hình ảnh, ông đều nhắc lại: không chịu đựng, không cầm cự nổi; đau dữ tăng rõ, không giảm. Sāriputta được nghe chính người bệnh mô tả tình trạng của mình."
+          ]
+        },
+        {
+          "id": "body-pain",
+          "kind": "teaching",
+          "heading": "Đau bụng và nóng bỏng trong thân",
+          "meaningUnits": [
+            "cutting-belly",
+            "burning-body"
+          ],
+          "paragraphs": [
+            "Ông ví những luồng gió cắt trong bụng với dao sắc của người mổ bò giỏi hoặc người học việc đang mổ bụng bò. Thân nóng bỏng thì như một người yếu bị hai người khỏe nắm hai cánh tay, nung đốt trên hố than hồng.",
+            "Sau từng ví dụ ấy, ông cũng nhắc không chịu nổi, không cầm cự nổi, đau tăng rõ mà không giảm. Kể cả lời đáp đầu tiên và sau bốn ví dụ, công thức ấy được nói năm lần."
+          ]
+        },
+        {
+          "id": "lower-worlds",
+          "kind": "teaching",
+          "heading": "Những cặp cảnh sống đầu tiên",
+          "meaningUnits": [
+            "lower-comparisons"
+          ],
+          "paragraphs": [
+            "Sāriputta hỏi ông lần lượt trong từng cặp, nơi nào tốt hơn. Dhanañjāni nói loài súc sinh tốt hơn địa ngục; cảnh ngạ quỷ, những chúng sinh đói khát, tốt hơn súc sinh; loài người tốt hơn ngạ quỷ. Đây là các câu đáp của ông trong cuộc trao đổi về cảnh tái sinh."
+          ]
+        },
+        {
+          "id": "heavens-first",
+          "kind": "teaching",
+          "heading": "Từ loài người đến chư thiên Yama",
+          "meaningUnits": [
+            "middle-comparisons"
+          ],
+          "paragraphs": [
+            "Ngài tiếp tục hỏi từng cặp. Dhanañjāni đáp chư thiên Tứ Đại Vương tốt hơn loài người; chư thiên Ba Mươi Ba tốt hơn Tứ Đại Vương; chư thiên Yama tốt hơn Ba Mươi Ba."
+          ]
+        },
+        {
+          "id": "heavens-next",
+          "kind": "teaching",
+          "heading": "Ba cặp tiếp theo",
+          "meaningUnits": [
+            "upper-comparisons"
+          ],
+          "paragraphs": [
+            "Dhanañjāni đáp Đến Vui, còn gọi Tusita, tốt hơn Yama; Hóa Lạc tốt hơn Đến Vui; Hóa Tự Tại tốt hơn Hóa Lạc. Hóa Lạc là các vị trời vui với sự hóa hiện; Hóa Tự Tại ở đây là các vị trời làm chủ điều do người khác hóa hiện. Đến đây có chín cặp đã được hỏi và đáp."
+          ]
+        },
+        {
+          "id": "brahma",
+          "kind": "teaching",
+          "heading": "Hai lần nhắc tới cõi Phạm thiên",
+          "meaningUnits": [
+            "brahma-question",
+            "sariputta-thought",
+            "teaching-offer"
+          ],
+          "paragraphs": [
+            "Sāriputta hỏi: chư thiên Hóa Tự Tại hay cõi Phạm thiên tốt hơn? Dhanañjāni hai lần reo nhắc rằng Sāriputta đã nói cõi Phạm thiên.",
+            "Sāriputta nghĩ các bà-la-môn này hướng về cõi Phạm thiên, nên mình sẽ giảng con đường đến sống cùng chư Phạm thiên, các vị trời thuộc cảnh giới ấy. Ngài nói sẽ giảng, bảo ông lắng nghe và chú tâm kỹ. Dhanañjāni vâng lời."
+          ]
+        },
+        {
+          "id": "love",
+          "kind": "teaching",
+          "heading": "Tâm từ không giới hạn",
+          "meaningUnits": [
+            "loving-kindness"
+          ],
+          "paragraphs": [
+            "Sāriputta nêu một vị tỳ-kheo an trú, duy trì tâm từ là lòng mong an lành. Tâm từ lan phương thứ nhất, thứ hai, thứ ba, thứ tư; rồi trên, dưới, ngang, khắp mọi nơi, toàn thế giới, đối với tất cả như đối với chính mình.",
+            "Tâm ấy rộng lớn, cao cả, vô lượng tức không giới hạn, không thù hận, không ác ý. Sāriputta nói đây là đường đến sống cùng chư Phạm thiên."
+          ]
+        },
+        {
+          "id": "compassion",
+          "kind": "teaching",
+          "heading": "Tâm bi trước khổ đau",
+          "meaningUnits": [
+            "compassion"
+          ],
+          "paragraphs": [
+            "Tâm bi là lòng thương trước khổ đau và mong khổ được vơi. Cùng cách tu ấy, tâm bi lan lần lượt qua bốn phương, rồi trên, dưới, ngang, khắp nơi và toàn thế giới; đối với tất cả như với mình.",
+            "Tâm bi cũng rộng lớn, cao cả, không giới hạn, không hận, không ác ý. Nó thuộc con đường Sāriputta đang hướng dẫn."
+          ]
+        },
+        {
+          "id": "joy",
+          "kind": "teaching",
+          "heading": "Tâm hỷ trước điều an vui",
+          "meaningUnits": [
+            "rejoicing"
+          ],
+          "paragraphs": [
+            "Tâm hỷ là niềm vui cùng an vui và điều tốt lành của người khác. Người tu lan tâm hỷ qua phương thứ nhất, thứ hai, thứ ba, thứ tư, trên, dưới, ngang, khắp mọi nơi và toàn thế giới, đối với tất cả như với mình.",
+            "Cũng với sự rộng lớn, cao cả, không giới hạn, không thù hận, không ác ý, tâm hỷ được trình bày trong đường đến sống cùng chư Phạm thiên."
+          ]
+        },
+        {
+          "id": "equanimity",
+          "kind": "teaching",
+          "heading": "Tâm xả quân bình",
+          "meaningUnits": [
+            "equanimity"
+          ],
+          "paragraphs": [
+            "Tâm xả là sự quân bình, không thiên lệch. Vị tỳ-kheo an trú, lan tâm xả qua phương thứ nhất, thứ hai, thứ ba, thứ tư; trên, dưới, ngang, khắp nơi, toàn thế giới; đối với tất cả như với chính mình.",
+            "Tâm xả rộng lớn, cao cả, không giới hạn, không hận, không ác ý. Sāriputta kết rằng đó là con đường đến sống cùng chư Phạm thiên."
+          ]
+        },
+        {
+          "id": "last-request",
+          "kind": "teaching",
+          "heading": "Lời gửi tới Đức Phật lần cuối",
+          "meaningUnits": [
+            "last-message",
+            "limited-departure",
+            "death"
+          ],
+          "paragraphs": [
+            "Dhanañjāni nhờ Sāriputta nhân danh mình cúi đầu đảnh lễ dưới chân Đức Phật, thưa rằng mình bệnh nặng, đau khổ và gửi lời kính lễ.",
+            "Người kể nói Sāriputta đã an lập Dhanañjāni vào cõi Phạm thiên thấp kém, đặt ông vững trong hướng đi ấy, rồi đứng dậy ra đi, trong khi vẫn còn việc cao hơn cần làm. Chẳng bao lâu sau khi ngài đi, ông qua đời và tái sinh cõi Phạm thiên. Kết quả ấy vẫn còn thấp so với phần tu tập cao hơn chưa làm xong."
+          ]
+        },
+        {
+          "id": "buddha-speaks",
+          "kind": "teaching",
+          "heading": "Lời Đức Phật nói với Tăng chúng",
+          "meaningUnits": [
+            "buddha-to-monks",
+            "sariputta-report"
+          ],
+          "paragraphs": [
+            "Đức Phật nói với các tỳ-kheo rằng Sāriputta đã an lập Dhanañjāni vào cõi Phạm thiên thấp kém rồi ra đi khi vẫn còn việc cao hơn cần làm.",
+            "Sāriputta đến đảnh lễ Đức Phật, ngồi một bên và chuyển lời nhắn Dhanañjāni bệnh nặng, đau khổ, xin cúi đầu kính lễ dưới chân Ngài."
+          ]
+        },
+        {
+          "id": "unfinished-work",
+          "kind": "teaching",
+          "heading": "Câu hỏi về phần việc còn lại",
+          "meaningUnits": [
+            "buddha-question",
+            "sariputta-reason",
+            "buddha-confirms",
+            "ending"
+          ],
+          "paragraphs": [
+            "Đức Phật hỏi vì sao Sāriputta, trong khi vẫn còn việc cao hơn cần làm, lại an lập Dhanañjāni vào cõi Phạm thiên thấp kém rồi ra đi. Sāriputta thuật lại ý nghĩ: các bà-la-môn hướng về Phạm thiên, nên ngài dạy đường đến sống cùng chư Phạm thiên.",
+            "Đức Phật báo Dhanañjāni đã mất và sinh vào cõi Phạm thiên. Lời kết cho thấy sinh vào cõi trời ấy vẫn chưa hoàn tất con đường giải thoát. Bài kinh giữ lời nhắc tiếp tục tu cao hơn bên cạnh kết quả tái sinh đã có. Dấu cuối ghi đây là bài thứ bảy trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "reflection",
+          "kind": "practice",
+          "heading": "Gợi ý suy ngẫm: giữ cả việc tốt và cách làm tốt",
+          "meaningUnits": [
+            "right-parents",
+            "right-body",
+            "compassion",
+            "rejoicing",
+            "equanimity"
+          ],
+          "paragraphs": [
+            "Khi nhớ lại một trách nhiệm đang gánh, có thể tự hỏi mình đang chăm lo bằng phương cách nào, phương cách ấy có chân chính không. Trong quan hệ hằng ngày, cũng có thể nuôi thêm lòng thương trước khổ, niềm vui cùng điều lành và sự quân bình. Đây là gợi ý hiện đại để bắt đầu suy ngẫm; việc tu các tâm trong kinh được mở rộng khắp toàn thế giới."
+          ]
+        }
+      ]
+    }
+  }
+}

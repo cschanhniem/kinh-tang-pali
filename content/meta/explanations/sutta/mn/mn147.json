@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn147",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "7d7ca9ce-6380-40a9-88d5-c3bc05e1d052"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "a3ff2d90-714e-4a4e-bf89-19afd76f676c"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "3455523b-952c-4f72-a7bc-3362ce8df59a"
+    }
+  },
+  "reviews": [
+    {
+      "id": "7d7ca9ce-6380-40a9-88d5-c3bc05e1d052",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.4,
+        "logic_context": 9.5,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.3,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Bản opening, eye và ending bám lời kể, câu hỏi của Phật và lời đáp Rāhula trong 1.1–3.32, 9.10–14. Năm phụ thuộc khớp byte đã pin; các lượt Sujato để trống được đọc bằng Pāli và Việt. Chưa có đối chứng Pāli bởi chuyên gia độc lập.",
+        "semantic_fidelity": "Giữ ba bước vô thường, khổ, không đáng nhận là của mình/mình/tự ngã; không để thức làm cái tôi bất biến. Ending phân biệt tận lậu hoặc của Rāhula với pháp nhãn của chư thiên. Lời giải khổ bằng chỗ dựa bền chắc là diễn giải giúp trẻ, không định nghĩa toàn bộ dukkha.",
+        "core_coverage": "Đã đối chiếu 115 khóa với 17 ý: đủ chín muồi, khất thực, đi rừng, chư thiên, năm lớp của kinh nghiệm qua sáu cửa, bốn nhóm thọ/tưởng/hành/thức do xúc, chuỗi giải thoát và nhãn kết. Lượt lặp gộp theo nhóm nên trẻ cần đọc lại danh mục để nhận từng cửa.",
+        "logic_context": "Opening đặt sự chín muồi trước bài dạy; eye giữ đúng người hỏi và người trả lời; ending giữ thành tựu diễn ra trong lúc giảng. Không hứa đáp đúng vài câu sẽ như Rāhula. Cụm không đáng nhận giữ cả ba cách nhận ngã, kể cả kinh nghiệm thuộc ý.",
+        "terminology": "Lậu hoặc, vô thường, sắc, thức, xúc, tưởng và hành được giải ngay trong mạch; hành gồm ý muốn chứ không bị thu về một cảm giác. Pháp được hiểu là đối tượng của ý. Các tên Pāli và cụm tự ngã vẫn có thể cần người lớn giúp trẻ đọc lần đầu.",
+        "audience_fit": "Ví dụ bức tranh bị chê phù hợp kinh nghiệm học và chơi; trẻ vẫn được sửa tranh, hỏi lại và tìm giúp đỡ. Giọng mời quan sát không đòi phục tùng. Phần bốn nhóm và sáu cửa khá đậm khái niệm; mức phù hợp này do đọc biên tập, chưa thử với trẻ.",
+        "clarity": "Các mục đi từ mắt đến sự biết, sáu cửa rồi kết quả, giúp theo tiến trình. Ba câu hỏi được nhắc bằng câu ngắn; ví dụ tách cảm giác khỏi kết luận vẽ dở mãi. Danh mục lặp ở freedom tương đối dài, nên chưa chấm như văn đã được kiểm bằng đọc thành tiếng.",
+        "editorial_separation": "Example xác nhận bức tranh là tình huống người biên soạn đặt ra; practice gọi rõ lời mời quan sát. Giải nghĩa khổ có báo đây là cách giải thích để trẻ theo; dòng thứ năm được tách khỏi lời dạy. Một số chú giải thuật ngữ vẫn nằm trong mục teaching nhưng không giả làm lời trích.",
+        "practical_integrity": "Quan sát màu lá và cảm giác không ép một câu đáp hay nhận mình giải thoát. Ví dụ cho phép trẻ sửa việc và tìm hỗ trợ, không đồng nhất vô ngã với vô giá trị. Đây là liên hệ nhẹ để đọc kinh, chưa phải hướng dẫn tu học đủ chiều sâu của thành tựu 9.11.",
+        "technical_integrity": "auditExplanations xác nhận không lỗi cấu trúc hoặc nguồn cho bản hiện tại. 115 khóa có thật được map đúng một lần; toàn bộ 17 ý có teaching/clarification ở bản trẻ, Unicode NFC và ID tác giả hợp lệ. Chưa ghi review vào metadata; kiểm này không thay cổng build của lô."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm chéo bởi author_b, khác agent tác giả author_c nhưng cùng công cụ/mô hình gpt-6-astra-pro; không phải chuyên gia Pāli độc lập và chưa có độc giả thật tham gia. Đã đọc trọn Pāli, Sujato, bản Việt dự án, chú thích dự án, HTML Thích Minh Châu, bản đồ 17 ý và cả ba bản MN147. Nguồn bilara 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt/chú thích dự án 0d8afd630e483d8cfee098cbb2f75a58da5fede8. Sujato có 110/115 giá trị không trống; bốn lượt lược 4-8.2/.4/.6/.8 và nhãn kết 9.14 không có câu Anh riêng. Đã đối chiếu phần đó từ Pāli và Việt, không lấy nguồn Anh được điền của dự án làm đối chứng độc lập. Audit sau sửa: errors và sourceErrors đều rỗng; trạng thái còn draft, chờ người điều phối ghi và áp dụng đánh giá. Không dùng điểm dữ liệu làm bằng chứng đúng nghĩa. Không sửa câu chữ bản trẻ trong lượt này; đã kiểm lại nội dung sau các chỉnh ở hai bản cùng bài.",
+      "contentHash": "0f2b2cde4338336be73eae9f26136069ecd9c06d6e373643eec2e1abf960335d",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn147.html",
+          "sha256": "18ecc723bbf2e7c1dd539b2be238f332850c3ddef5a945c80dae62434e650a35"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn147_root-pli-ms.json",
+          "sha256": "6426eba6a49cc79795be87a89dc726a3828f06c2fc3a7649414d520c079aef27"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn147_translation-en-sujato.json",
+          "sha256": "f643203c30634eeb44e16142457ce09229e6b8873213f72f161cb6bed609d5df"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn147_comment-vi-project.json",
+          "sha256": "19eb70d75b7c538f0a140cd8dde05498bf797fc632db921bbf90de50e37dc7be"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn147_translation-vi-project.json",
+          "sha256": "dcf3fcc892c4e80164fe3acf86da169bb782a0fbdabcadafc76a14a4b31d91f7"
+        }
+      ]
+    },
+    {
+      "id": "a3ff2d90-714e-4a4e-bf89-19afd76f676c",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.6,
+        "terminology": 9.4,
+        "audience_fit": 9.4,
+        "clarity": 9.4,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Context, argument và results được đối chiếu toàn nguồn pin, giữ lời Phật/Rāhula/người kể đúng vai. Đã bổ sung hành trình buổi sáng 1.6 trước đoạn đi rừng. Results nêu khoảng trống Sujato; không giả định HTML có căn chỉnh từng segment.",
+        "semantic_fidelity": "Visual-process giữ cả thọ, tưởng, hành, thức sinh do xúc ở 3.26 và 4-8.38; mental-process không dựng một ngã tinh thần sau giác quan. Results phân biệt hai thành tựu 9.11–13. Cách giải thích đồng nhất là lời biên tập có căn cứ, chưa phải khảo luận đầy đủ các nghĩa anattā.",
+        "core_coverage": "17 đơn vị bao trùm đủ 115 khóa; sau bổ sung 1.6, bản người lớn giữ bối cảnh, các triad hỏi đáp, cả sáu cửa và bốn nhóm do xúc, đoạn giải thoát và kết quả hai loại thính giả. Các lượt tai đến thân được gom đúng dấu lược, không thêm lời đối thoại không có nguồn.",
+        "logic_context": "Argument phân biệt của ta/ta là nó/tự ngã ta; context giữ điều kiện chín muồi từ trước; results không gán pháp nhãn chư thiên thành tận lậu hoặc. Release giữ nhàm chán→ly tham→giải thoát→biết giải thoát. Giới hạn ví dụ được đặt đúng dưới đích chấm dứt tái sinh.",
+        "terminology": "Bản phân biệt thọ với tưởng/hành/thức và xúc với chạm thân; pháp ở cửa ý không bị thu thành giáo lý. Khổ và nhàm chán được giải theo lập luận. Từ tọa cụ, phạm hạnh vẫn thuộc lớp từ chuyên biệt, song không làm sai nghĩa các phần chính.",
+        "audience_fit": "Ví dụ đánh giá công việc và phản hồi bất công hợp với quan hệ, trách nhiệm người trưởng thành; gợi ý tự xét không biến thành công cụ thắng tranh luận. Lối trình bày có luận chứng phù hợp người đọc chủ động, nhưng chưa có người đọc thật xác nhận độ dễ tiếp nhận.",
+        "clarity": "Mỗi mục có câu hỏi rõ: điều kiện, đồng nhất, sự biết, sáu cửa, giải thoát, hai kết quả. Đã thêm câu buổi sáng để context không nhảy mạch. Vài câu nêu điều không được suy ra khá dày; mức rõ được xác định qua đọc toàn văn, chưa kiểm tốc độ đọc.",
+        "editorial_separation": "Ví dụ công việc và ghi chép tự xét được gắn nhãn biên tập; results tách nhãn ấn bản và nhận xét nguồn khỏi lời Phật. Mô tả chư thiên giữ tư cách lời kể, không âm thầm đổi thành ẩn dụ. Bình giải về chủ thể thường hằng được nối với chuỗi hỏi đáp, không viết như câu trích nguyên văn.",
+        "practical_integrity": "Practice yêu cầu phân biệt điều thấy/nghe, thọ, nhận diện, ý hướng; không tự nhận quả của Rāhula. Example vẫn yêu cầu kiểm dữ kiện, nhận lỗi hoặc phản hồi bất công. Phạm vi liên hệ được ghi rõ là giúp đọc sự chấp giữ, không bảo đảm chuyển hóa toàn bộ bằng một lần ghi chép.",
+        "technical_integrity": "Audit nội dung sau chỉnh trả errors=[] và sourceErrors=[]; năm đường dẫn cùng SHA-256 khớp, 17 mã ý đều hiện trong teaching của adults, không sửa kinh văn hay metadata. Trạng thái draft đúng khi chưa được ghi nhận review. Kiểm tính toàn vẹn này không chứng nhận build hoặc đọc UI."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm chéo bởi author_b, khác agent tác giả author_c nhưng cùng công cụ/mô hình gpt-6-astra-pro; không phải chuyên gia Pāli độc lập và chưa có độc giả thật tham gia. Đã đọc trọn Pāli, Sujato, bản Việt dự án, chú thích dự án, HTML Thích Minh Châu, bản đồ 17 ý và cả ba bản MN147. Nguồn bilara 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt/chú thích dự án 0d8afd630e483d8cfee098cbb2f75a58da5fede8. Sujato có 110/115 giá trị không trống; bốn lượt lược 4-8.2/.4/.6/.8 và nhãn kết 9.14 không có câu Anh riêng. Đã đối chiếu phần đó từ Pāli và Việt, không lấy nguồn Anh được điền của dự án làm đối chứng độc lập. Audit sau sửa: errors và sourceErrors đều rỗng; trạng thái còn draft, chờ người điều phối ghi và áp dụng đánh giá. Không dùng điểm dữ liệu làm bằng chứng đúng nghĩa. Sửa trong lượt kiểm: thêm Phật đắp y, mang y bát vào Sāvatthī ở context để giữ rõ 1.6; không đổi bản đồ hay nguồn.",
+      "contentHash": "9af838dedecf34b96d138dfa933d1ceacb23a3169585c6d81b8e4e59eb81bb91",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn147.html",
+          "sha256": "18ecc723bbf2e7c1dd539b2be238f332850c3ddef5a945c80dae62434e650a35"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn147_root-pli-ms.json",
+          "sha256": "6426eba6a49cc79795be87a89dc726a3828f06c2fc3a7649414d520c079aef27"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn147_translation-en-sujato.json",
+          "sha256": "f643203c30634eeb44e16142457ce09229e6b8873213f72f161cb6bed609d5df"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn147_comment-vi-project.json",
+          "sha256": "19eb70d75b7c538f0a140cd8dde05498bf797fc632db921bbf90de50e37dc7be"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn147_translation-vi-project.json",
+          "sha256": "dcf3fcc892c4e80164fe3acf86da169bb782a0fbdabcadafc76a14a4b31d91f7"
+        }
+      ]
+    },
+    {
+      "id": "3455523b-952c-4f72-a7bc-3362ce8df59a",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.4,
+        "logic_context": 9.5,
+        "terminology": 9.3,
+        "audience_fit": 9.4,
+        "clarity": 9.3,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Setting giữ địa điểm, điều kiện chín muồi và trình tự đi rừng theo 1.1–2.5; ending giữ khác biệt 9.11–13. Đã đọc cả năm nguồn thực, kiểm pin và hash. Các đoạn Anh lược không được mô tả thành có bản dịch Anh riêng; không có người kiểm Pāli ngoài hệ thống tác tử.",
+        "semantic_fidelity": "Questions và seeing giữ vô thường/khổ/ba phủ nhận đối với cả cái biết và điều được biết. Ripening giải nhàm chán theo hết mê luyến, không khuyên từ bỏ đời sống. Ending không đồng hóa pháp nhãn và tận lậu hoặc; giới hạn giải khổ bằng chỗ nương bền chắc đã được gọi là làm rõ biên tập.",
+        "core_coverage": "Bản đi đủ 17 ý của 115 khóa, có bối cảnh, các lớp mắt và ý, đủ bốn nhóm do xúc, năm cửa còn lại, bốn thành phần biết giải thoát, hai kết quả và nhãn thứ năm. Phần lặp được gom và giải thích phạm vi; không tái in từng câu nên người đọc cần theo danh mục ở whole-range.",
+        "logic_context": "Giữ sự chín muồi ở đầu và nhắc lại cuối để không suy nghe mấy câu là hoàn tất tu tập. Whole-range không cho các cửa ghi lược đứng ngoài phép xét; ripening giữ đúng chuỗi và chủ thể người đệ tử thấy như vậy. Không thêm tuổi hay tiểu sử Rāhula ngoài bài.",
+        "terminology": "Đã giải tọa cụ ngay ở setting; thọ/tưởng/hành/thức có lời nghĩa riêng ở seeing, không lẫn hành với phản ứng sinh học. Pháp và lậu hoặc có ngữ cảnh rõ. Các từ phạm hạnh, tự ngã vẫn có độ chuyên biệt; cách giải ngắn không bao trùm mọi nghĩa ngoài MN147.",
+        "audience_fit": "Nhịp văn cho phép dừng ở câu hỏi, ví dụ đóng góp kinh nghiệm cho nhóm giữ quyền trình bày và quyết định của người lớn tuổi. Không mặc định bệnh, yếu hoặc buồn cuối đời. Tuy vậy chưa có độc giả cao tuổi thật đọc thử để xác minh nhịp này.",
+        "clarity": "Cấu trúc setting→questions→seeing→whole-range→ripening giúp theo từ cảnh đến tâm. Lời giải tọa cụ đã giảm một chỗ vấp. Hai đoạn chứa danh mục bốn nhóm và chuỗi giải thoát còn nhiều thuật ngữ, nên có thể cần đọc chậm dù câu văn không quá dài.",
+        "editorial_separation": "Questions gọi rõ phần làm rõ của người biên soạn; ví dụ sinh hoạt nhóm và practice đều nhận diện là đề xuất. Nhãn thứ năm được giải là nhãn ấn bản. Sự khác biệt giữa diễn đạt giải thích và lời kinh được giữ, không dựng lời thoại hiện đại cho Phật.",
+        "practical_integrity": "Ví dụ cho phép giữ ý kiến có căn cứ và học điều mới, không ép nhường cho người khác. Tự hỏi về ý nghĩ đang đổi thay không hứa chứng đắc hay đồng nhất ứng xử khéo với giải thoát. Phần thực hành chỉ giúp đọc và tự xét, chưa phải một lộ trình thiền hoàn chỉnh.",
+        "technical_integrity": "Bản hiện tại qua audit dữ liệu, nguồn khớp SHA-256; toàn bộ đơn vị có teaching/clarification, chuỗi NFC và mã tác giả hợp lệ. Đã kiểm lại sau giải nghĩa tọa cụ; review chưa ghi vào metadata nên draft là đúng. Chưa kiểm trải nghiệm UI riêng cho nhóm độc giả này."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm chéo bởi author_b, khác agent tác giả author_c nhưng cùng công cụ/mô hình gpt-6-astra-pro; không phải chuyên gia Pāli độc lập và chưa có độc giả thật tham gia. Đã đọc trọn Pāli, Sujato, bản Việt dự án, chú thích dự án, HTML Thích Minh Châu, bản đồ 17 ý và cả ba bản MN147. Nguồn bilara 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt/chú thích dự án 0d8afd630e483d8cfee098cbb2f75a58da5fede8. Sujato có 110/115 giá trị không trống; bốn lượt lược 4-8.2/.4/.6/.8 và nhãn kết 9.14 không có câu Anh riêng. Đã đối chiếu phần đó từ Pāli và Việt, không lấy nguồn Anh được điền của dự án làm đối chứng độc lập. Audit sau sửa: errors và sourceErrors đều rỗng; trạng thái còn draft, chờ người điều phối ghi và áp dụng đánh giá. Không dùng điểm dữ liệu làm bằng chứng đúng nghĩa. Sửa trong lượt kiểm: giải tọa cụ là tấm vải dùng để ngồi trong setting; các luận điểm nguồn giữ nguyên.",
+      "contentHash": "d654849fec1540692b796808d9a377c461ad2a06418ccbffa9fd1f4af7886139",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn147.html",
+          "sha256": "18ecc723bbf2e7c1dd539b2be238f332850c3ddef5a945c80dae62434e650a35"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn147_root-pli-ms.json",
+          "sha256": "6426eba6a49cc79795be87a89dc726a3828f06c2fc3a7649414d520c079aef27"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn147_translation-en-sujato.json",
+          "sha256": "f643203c30634eeb44e16142457ce09229e6b8873213f72f161cb6bed609d5df"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn147_comment-vi-project.json",
+          "sha256": "19eb70d75b7c538f0a140cd8dde05498bf797fc632db921bbf90de50e37dc7be"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn147_translation-vi-project.json",
+          "sha256": "dcf3fcc892c4e80164fe3acf86da169bb782a0fbdabcadafc76a14a4b31d91f7"
+        }
+      ]
+    }
+  ]
+}

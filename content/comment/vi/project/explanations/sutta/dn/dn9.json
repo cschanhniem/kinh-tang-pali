@@ -1,0 +1,2387 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn9",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "4d9e529571d37709b5059b8c592909580066de1da46154ac6471cfdd29588b06"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "7779ec3d48f4dbcd92622b2e265b31d0fa4dfdb6a9f3d55752ff34cdb0d93d6e"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/dn/dn9_translation-vi-project.json",
+      "commit": "640b1410c7b2b50ee81d417886b75605189ea0a2",
+      "sha256": "e5d90147df8c2d95011c36e7c6b7123af3c098d904a7b752bbe8b89de966e12e"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn9.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "c7c8763dd776b85f0e5f8ca4b484f5b5fbdc721d4efcfbfa44eda5e59efe9e39"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/dn/dn9_comment-vi-project.json",
+      "commit": "640b1410c7b2b50ee81d417886b75605189ea0a2",
+      "sha256": "4bb03945d1254f8d8e8a8db66f39bc420070c84bfd9b6307f7a719221f62ef02"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Tên kinh thứ chín",
+      "segments": [
+        "dn9:0.1",
+        "dn9:0.2"
+      ],
+      "summary": "Nhãn Trường Bộ 9, Kinh Poṭṭhapāda; đề mục là nhãn tổ chức bản văn."
+    },
+    {
+      "id": "setting",
+      "title": "Hai nơi ở và buổi khất thực",
+      "segments": [
+        "dn9:1.0",
+        "dn9:1.1",
+        "dn9:1.2",
+        "dn9:1.3",
+        "dn9:1.4"
+      ],
+      "summary": "Lời truyền nghe: Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika; Poṭṭhapāda ở hội trường một mái của Mallikā, có hàng cây tinduka, cùng khoảng ba trăm du sĩ. Sáng Phật mặc y, mang bát và y ngoài vào thành khất thực."
+    },
+    {
+      "id": "visit",
+      "title": "Còn sớm nên ghé gặp",
+      "segments": [
+        "dn9:2.1",
+        "dn9:2.2",
+        "dn9:2.3",
+        "dn9:2.4"
+      ],
+      "summary": "Phật nghĩ còn quá sớm khất thực, nên đến hội trường Mallikā gặp Poṭṭhapāda; rồi thực hiện ý định ấy."
+    },
+    {
+      "id": "chatter",
+      "title": "Đủ loại chuyện đang được bàn",
+      "segments": [
+        "dn9:3.1",
+        "dn9:3.2"
+      ],
+      "summary": "Hội ngồi ồn ào lớn tiếng, chuyện phù phiếm: vua, cướp, đại thần, quân đội, sợ hãi, chiến tranh, ăn, uống, vải, giường, tràng hoa, hương, bà con, xe, làng, thị trấn, thành phố, quốc gia, phụ nữ, anh hùng, đường phố, bến nước, người mất, chuyện linh tinh, thế giới, biển và hiện hữu/không hiện hữu. Không thêm mục đàn ông từ HTML."
+    },
+    {
+      "id": "quiet",
+      "title": "Poṭṭhapāda xin hội im lặng",
+      "segments": [
+        "dn9:4.1",
+        "dn9:4.2",
+        "dn9:4.3",
+        "dn9:4.4",
+        "dn9:4.5",
+        "dn9:4.6",
+        "dn9:4.7"
+      ],
+      "summary": "Thấy Phật từ xa, chủ hội bảo nhỏ tiếng vì Gotama ưa và khen yên lặng; hy vọng thấy hội yên Ngài sẽ đến gần. Mọi người im lặng. Giữ lời mong có thể, không thành Phật đặt điều kiện."
+    },
+    {
+      "id": "seats",
+      "title": "Chào mừng và câu hỏi đang dở",
+      "segments": [
+        "dn9:5.1",
+        "dn9:5.2",
+        "dn9:5.3",
+        "dn9:5.4",
+        "dn9:5.5",
+        "dn9:5.6",
+        "dn9:5.7",
+        "dn9:5.8",
+        "dn9:5.9",
+        "dn9:5.10"
+      ],
+      "summary": "Phật đến; Poṭṭhapāda mời, chào mừng, nói lâu mới ghé, mời ghế đã soạn. Phật ngồi ghế ấy; chủ hội lấy ghế thấp ngồi bên. Phật hỏi đang bàn gì, chuyện nào dang dở."
+    },
+    {
+      "id": "old-question",
+      "title": "Đổi sang cuộc bàn tưởng mấy hôm trước",
+      "segments": [
+        "dn9:6.0",
+        "dn9:6.1",
+        "dn9:6.2",
+        "dn9:6.3",
+        "dn9:6.4",
+        "dn9:6.5"
+      ],
+      "summary": "Poṭṭhapāda để chuyện đang bàn sang bên vì nghe sau không khó; kể mấy hôm trước nhiều phái họp hội trường tranh luận về abhisaññānirodha, sự chấm dứt của tưởng. Giữ mốc mấy hôm, không thuở rất xưa như HTML."
+    },
+    {
+      "id": "uncaused",
+      "title": "Lời giải thích không nhân duyên",
+      "segments": [
+        "dn9:6.6",
+        "dn9:6.7",
+        "dn9:6.8",
+        "dn9:6.9",
+        "dn9:6.10"
+      ],
+      "summary": "Nhóm thứ nhất nói tưởng sinh/diệt không nhân không duyên; sinh thì có tưởng, diệt thì không tưởng. Đây là quan điểm được kể, không lời Phật xác nhận."
+    },
+    {
+      "id": "entering-self",
+      "title": "Lời giải thích tự ngã ra vào",
+      "segments": [
+        "dn9:6.11",
+        "dn9:6.12",
+        "dn9:6.13",
+        "dn9:6.14",
+        "dn9:6.15",
+        "dn9:6.16",
+        "dn9:6.17"
+      ],
+      "summary": "Người khác bác lời trước, bảo tưởng là tự ngã, vào thì có tưởng, ra thì không tưởng. Người kể quy thuộc đúng lập trường ấy."
+    },
+    {
+      "id": "ascetics-move",
+      "title": "Lời giải thích do người có thần lực",
+      "segments": [
+        "dn9:6.18",
+        "dn9:6.19",
+        "dn9:6.20",
+        "dn9:6.21",
+        "dn9:6.22",
+        "dn9:6.23",
+        "dn9:6.24"
+      ],
+      "summary": "Người thứ ba bác lời trước, bảo sa-môn/Bà-la-môn đại thần lực, uy lực đưa tưởng vào/kéo ra; tương ứng có/không tưởng."
+    },
+    {
+      "id": "deities-move",
+      "title": "Lời giải thích do chư thiên",
+      "segments": [
+        "dn9:6.25",
+        "dn9:6.26",
+        "dn9:6.27",
+        "dn9:6.28",
+        "dn9:6.29",
+        "dn9:6.30",
+        "dn9:6.31"
+      ],
+      "summary": "Người khác lại bác, đặt việc đưa tưởng vào/kéo ra vào chư thiên đại thần lực, uy lực; tương ứng có/không tưởng."
+    },
+    {
+      "id": "ask-buddha",
+      "title": "Nhớ bậc hiểu rõ và hỏi",
+      "segments": [
+        "dn9:6.32",
+        "dn9:6.33",
+        "dn9:6.34",
+        "dn9:6.35"
+      ],
+      "summary": "Poṭṭhapāda khi đó nhớ Phật/Thiện Thệ thông thạo, hiểu rõ pháp này; nay hỏi sự chấm dứt của tưởng ra sao."
+    },
+    {
+      "id": "training",
+      "title": "Có nhân duyên và có tu tập",
+      "segments": [
+        "dn9:7.0",
+        "dn9:7.1",
+        "dn9:7.2",
+        "dn9:7.3",
+        "dn9:7.4",
+        "dn9:7.5",
+        "dn9:7.6",
+        "dn9:7.7",
+        "dn9:7.8",
+        "dn9:8.1"
+      ],
+      "summary": "Phật bác ngay từ đầu lời không nhân duyên: tưởng sinh/diệt có nhân có duyên; do tu tập một tưởng sinh, một tưởng diệt. Hỏi tu tập gì: Như Lai A-la-hán Chánh giác xuất hiện… tỳ-kheo thành tựu giới… Giữ các dấu lược, không nhập phần DN2 từ HTML."
+    },
+    {
+      "id": "joy",
+      "title": "Từ bỏ triền cái đến tâm định",
+      "segments": [
+        "dn9:9.1"
+      ],
+      "summary": "Thấy năm triền cái đã được bỏ nơi mình → hân hoan → hỷ → thân an tịnh → lạc → tâm định. Giữ đủ mắt xích và chủ thể thấy nơi mình."
+    },
+    {
+      "id": "first",
+      "title": "Thiền thứ nhất và tưởng mới",
+      "segments": [
+        "dn9:10.1",
+        "dn9:10.2",
+        "dn9:10.3",
+        "dn9:10.4",
+        "dn9:10.5"
+      ],
+      "summary": "Ly dục/bất thiện, chứng trú thiền một có tầm/tứ, hỷ lạc do ly. Dục tưởng cũ diệt; tưởng vi tế chân thực về hỷ lạc do ly hiện diện. Kết do tu một tưởng sinh/một diệt, đây là tu tập."
+    },
+    {
+      "id": "second",
+      "title": "Thiền thứ hai",
+      "segments": [
+        "dn9:11.1",
+        "dn9:11.2",
+        "dn9:11.3",
+        "dn9:11.4",
+        "dn9:11.5"
+      ],
+      "summary": "Tầm/tứ lắng, nội tĩnh nhất tâm, không tầm/tứ, hỷ lạc do định, thiền hai. Tưởng vi tế chân thực hỷ lạc do ly diệt; tưởng vi tế chân thực hỷ lạc do định hiện diện. Lặp sinh/diệt do tu."
+    },
+    {
+      "id": "third",
+      "title": "Thiền thứ ba",
+      "segments": [
+        "dn9:12.1",
+        "dn9:12.2",
+        "dn9:12.3",
+        "dn9:12.4",
+        "dn9:12.5"
+      ],
+      "summary": "Ly hỷ, trú xả, niệm/tỉnh giác, thân cảm lạc, Thánh gọi xả niệm lạc trú: thiền ba. Tưởng hỷ lạc do định diệt, tưởng vi tế chân thực lạc đi cùng xả hiện diện; lặp sinh/diệt do tu."
+    },
+    {
+      "id": "fourth",
+      "title": "Thiền thứ tư",
+      "segments": [
+        "dn9:13.1",
+        "dn9:13.2",
+        "dn9:13.3",
+        "dn9:13.4",
+        "dn9:13.5"
+      ],
+      "summary": "Bỏ lạc/khổ, hỷ ưu trước đã lắng, thiền bốn không khổ không lạc, xả niệm thanh tịnh. Tưởng lạc với xả diệt; tưởng vi tế chân thực không khổ không lạc hiện diện; lặp sinh/diệt do tu."
+    },
+    {
+      "id": "space",
+      "title": "Không vô biên xứ",
+      "segments": [
+        "dn9:14.1",
+        "dn9:14.2",
+        "dn9:14.3",
+        "dn9:14.4",
+        "dn9:14.5"
+      ],
+      "summary": "Vượt mọi sắc tưởng, tưởng va chạm lắng, không tác ý tưởng sai biệt, biết hư không vô biên, chứng trú Không vô biên xứ. Sắc tưởng cũ diệt, tưởng vi tế chân thực về xứ ấy hiện diện; lặp sinh/diệt do tu. Không thêm luminous từ EN14.2."
+    },
+    {
+      "id": "consciousness",
+      "title": "Thức vô biên xứ",
+      "segments": [
+        "dn9:15.1",
+        "dn9:15.2",
+        "dn9:15.3",
+        "dn9:15.4",
+        "dn9:15.5"
+      ],
+      "summary": "Vượt hoàn toàn Không vô biên xứ, biết thức vô biên, chứng trú Thức vô biên xứ. Tưởng xứ không cũ diệt, tưởng vi tế chân thực xứ thức hiện diện; lặp sinh/diệt do tu."
+    },
+    {
+      "id": "nothingness",
+      "title": "Vô sở hữu xứ",
+      "segments": [
+        "dn9:16.1",
+        "dn9:16.2",
+        "dn9:16.3",
+        "dn9:16.4",
+        "dn9:16.5"
+      ],
+      "summary": "Vượt hoàn toàn Thức vô biên xứ, biết không có gì cả, chứng trú Vô sở hữu xứ. Tưởng xứ thức cũ diệt, tưởng vi tế chân thực xứ không có gì hiện diện; lặp sinh/diệt do tu."
+    },
+    {
+      "id": "peak",
+      "title": "Chạm sự chấm dứt với tỉnh giác",
+      "segments": [
+        "dn9:17.1",
+        "dn9:17.2",
+        "dn9:17.3",
+        "dn9:17.4",
+        "dn9:17.5",
+        "dn9:17.6",
+        "dn9:17.7",
+        "dn9:17.8",
+        "dn9:17.9"
+      ],
+      "summary": "Tự chủ tưởng (sakasaññī, lựa chọn theo comment) rồi tuần tự tới đỉnh. Nghĩ cố ý tệ hơn, không cố ý tốt hơn; nếu cố ý/tạo tác, tưởng này diệt nhưng tưởng thô sinh. Không cố ý/tạo tác thì tưởng này diệt, tưởng thô không sinh; chạm nirodha. Đó là chứng nhập tỉnh giác sự chấm dứt tuần tự của tưởng. Không tự thêm một tầng không được gọi tên."
+    },
+    {
+      "id": "repeat-peak",
+      "title": "Nghe chưa từng và nhắc lại",
+      "segments": [
+        "dn9:18.1",
+        "dn9:18.2",
+        "dn9:18.3",
+        "dn9:18.4",
+        "dn9:18.5",
+        "dn9:18.6",
+        "dn9:18.7",
+        "dn9:18.8",
+        "dn9:18.9",
+        "dn9:18.10",
+        "dn9:18.11",
+        "dn9:18.12",
+        "dn9:18.13"
+      ],
+      "summary": "Phật hỏi đã nghe cách chứng nhập tỉnh giác ấy chưa; chủ hội nói chưa, nhắc lại đủ tự chủ→đỉnh→điều kiện cố ý/tạo tác→ngưng→tưởng diệt không tưởng thô mới→chấm dứt với tỉnh giác. Phật xác nhận đúng."
+    },
+    {
+      "id": "one-many",
+      "title": "Một và nhiều đỉnh",
+      "segments": [
+        "dn9:19.1",
+        "dn9:19.2",
+        "dn9:19.3",
+        "dn9:19.4",
+        "dn9:19.5"
+      ],
+      "summary": "Hỏi chỉ một hay nhiều đỉnh; Phật nói cả một lẫn nhiều. Hỏi nghĩa nào; tùy cách chạm chấm dứt mà nói đỉnh theo cách đó; kết cả một lẫn nhiều, không thêm con số."
+    },
+    {
+      "id": "knowledge",
+      "title": "Tưởng trước, trí sau và do duyên",
+      "segments": [
+        "dn9:20.1",
+        "dn9:20.2",
+        "dn9:20.3",
+        "dn9:20.4",
+        "dn9:20.5",
+        "dn9:20.6"
+      ],
+      "summary": "Hỏi ba khả năng tưởng trước/trí trước/đồng thời; Phật trả lời tưởng trước trí sau, do tưởng sinh trí sinh. Vị ấy biết trí mình sinh do điều kiện này. Kết lặp đúng quan hệ, không đồng nhất tưởng/trí hoặc suy thành toàn bộ khoa học thần kinh."
+    },
+    {
+      "id": "gross-self",
+      "title": "Giả định tự ngã thô",
+      "segments": [
+        "dn9:21.0",
+        "dn9:21.1",
+        "dn9:21.2",
+        "dn9:21.3",
+        "dn9:21.4",
+        "dn9:21.5",
+        "dn9:21.6",
+        "dn9:21.7"
+      ],
+      "summary": "Hỏi tưởng là tự ngã hay khác; Phật hỏi tin loại tự ngã nào. Chủ hội đề xuất thô, có sắc, bốn đại, thức ăn vật chất. Phật: NẾU vậy thì tưởng khác tự ngã; tự ngã giả định còn đó mà tưởng này sinh/tưởng kia diệt. Không biến giả định thành Phật thừa nhận tự ngã thường hằng."
+    },
+    {
+      "id": "mind-self",
+      "title": "Giả định tự ngã do tâm tạo",
+      "segments": [
+        "dn9:22.1",
+        "dn9:22.2",
+        "dn9:22.3",
+        "dn9:22.4",
+        "dn9:22.5"
+      ],
+      "summary": "Chủ hội đề xuất do tâm tạo, đủ chi lớn nhỏ và giác quan. Phật giữ NẾU: cái giả định còn mà các tưởng sinh diệt, nên tưởng và tự ngã ấy khác. Giữ đủ thuộc tính và lập luận."
+    },
+    {
+      "id": "formless-self",
+      "title": "Giả định tự ngã vô sắc",
+      "segments": [
+        "dn9:23.1",
+        "dn9:23.2",
+        "dn9:23.3",
+        "dn9:23.4",
+        "dn9:23.5"
+      ],
+      "summary": "Chủ hội đề xuất vô sắc, do tưởng tạo. Phật giữ NẾU, cái giả định còn mà tưởng thay đổi nên tưởng và tự ngã ấy khác; không tự hòa giải bằng học thuyết thêm."
+    },
+    {
+      "id": "different-basis",
+      "title": "Năm khác biệt khiến khó biết",
+      "segments": [
+        "dn9:24.1",
+        "dn9:24.2",
+        "dn9:24.3",
+        "dn9:24.4"
+      ],
+      "summary": "Chủ hội hỏi có thể biết tưởng là ngã hay khác không; Phật nói khó cho ông do khác quan điểm, sự chấp nhận, sở thích, tu tập, thầy. Không đổi khó thành tuyệt đối không thể."
+    },
+    {
+      "id": "eternal",
+      "title": "Hai câu hỏi về thường còn",
+      "segments": [
+        "dn9:25.1",
+        "dn9:25.2",
+        "dn9:25.3",
+        "dn9:25.4",
+        "dn9:25.5",
+        "dn9:26.1",
+        "dn9:26.2",
+        "dn9:26.3"
+      ],
+      "summary": "Chủ hội nhắc năm khác biệt và chỗ khó biết, chuyển hỏi thế giới thường còn rồi không thường còn, kèm chỉ đây thật còn khác sai. Phật không tuyên bố cả hai."
+    },
+    {
+      "id": "eight-questions",
+      "title": "Tám câu hỏi còn lại",
+      "segments": [
+        "dn9:27.1",
+        "dn9:27.2",
+        "dn9:27.3",
+        "dn9:27.4",
+        "dn9:27.5",
+        "dn9:27.6",
+        "dn9:27.7",
+        "dn9:27.8",
+        "dn9:27.9",
+        "dn9:27.10"
+      ],
+      "summary": "Thế giới hữu hạn/vô hạn; sinh mạng và thân đồng nhất/khác; Như Lai sau chết còn tồn tại, không còn tồn tại, vừa còn tồn tại vừa không còn tồn tại, hoặc không phải còn tồn tại cũng không phải không còn tồn tại. Giữ khuôn độc nhất đúng và các dấu lược; Phật không tuyên bố."
+    },
+    {
+      "id": "why-not",
+      "title": "Lý do không tuyên bố",
+      "segments": [
+        "dn9:28.1",
+        "dn9:28.2",
+        "dn9:28.3"
+      ],
+      "summary": "Không gắn lợi ích/Pháp/nền tảng phạm hạnh; không đưa tới nhàm chán, ly tham, chấm dứt, tịch tịnh, thắng trí, giác ngộ, Niết-bàn; vì vậy không tuyên bố. Không suy thành phủ định sự thật tất cả mệnh đề."
+    },
+    {
+      "id": "truths-leaving",
+      "title": "Bốn điều tuyên bố và ra đi",
+      "segments": [
+        "dn9:29.1",
+        "dn9:29.2",
+        "dn9:30.1",
+        "dn9:30.2",
+        "dn9:30.3",
+        "dn9:30.4",
+        "dn9:30.5",
+        "dn9:30.6"
+      ],
+      "summary": "Phật tuyên bố khổ, nguồn khổ, chấm dứt khổ, đường đến chấm dứt. Vì có lợi ích/Pháp/nền tảng phạm hạnh và đủ bảy đích trên. Chủ hội tán đồng hai lần, mời tùy thời; Phật đứng dậy đi."
+    },
+    {
+      "id": "mocking",
+      "title": "Bị chế giễu nhưng có lý do tán đồng",
+      "segments": [
+        "dn9:31.1",
+        "dn9:31.2",
+        "dn9:31.3",
+        "dn9:31.4",
+        "dn9:31.5",
+        "dn9:31.6",
+        "dn9:31.7",
+        "dn9:31.8",
+        "dn9:31.9",
+        "dn9:31.10",
+        "dn9:31.11"
+      ],
+      "summary": "Sau Phật đi ít lâu, du sĩ vây châm chọc Poṭṭhapāda tán mọi lời; họ không thấy tuyên bố dứt khoát về đủ mười vấn đề. Ông đồng ý về chỗ không tuyên bố ấy nhưng khen đường thực có, xác thực, như thực, tính ổn định/quy luật của Pháp; người trí nên nhận lời khéo nói."
+    },
+    {
+      "id": "return",
+      "title": "Hai hoặc ba ngày sau",
+      "segments": [
+        "dn9:32.0",
+        "dn9:32.1",
+        "dn9:32.2",
+        "dn9:32.3",
+        "dn9:32.4",
+        "dn9:32.5",
+        "dn9:32.6",
+        "dn9:32.7",
+        "dn9:32.8",
+        "dn9:32.9",
+        "dn9:32.10",
+        "dn9:32.11",
+        "dn9:32.12",
+        "dn9:32.13",
+        "dn9:32.14"
+      ],
+      "summary": "Citta và Poṭṭhapāda cùng đến sau hai hoặc ba ngày. Citta đảnh lễ/ngồi bên; Poṭṭhapāda chào xã giao/ngồi bên; ông thuật đầy đủ lời chế giễu, đủ mười vấn đề và lời đáp có lý do trước đó. Giữ hai người và hai cách chào."
+    },
+    {
+      "id": "noncategorical",
+      "title": "Dứt khoát và không dứt khoát",
+      "segments": [
+        "dn9:33.1",
+        "dn9:33.2",
+        "dn9:33.3",
+        "dn9:33.4",
+        "dn9:33.5",
+        "dn9:33.6",
+        "dn9:33.7",
+        "dn9:33.8",
+        "dn9:33.9",
+        "dn9:33.10",
+        "dn9:33.11",
+        "dn9:33.12",
+        "dn9:33.13",
+        "dn9:33.14",
+        "dn9:33.15",
+        "dn9:33.16",
+        "dn9:33.17",
+        "dn9:33.18"
+      ],
+      "summary": "Phật gọi những du sĩ kia mù/không mắt, riêng chủ hội có mắt (hình ảnh về sự hiểu ở đây). Ngài có dạy hai loại. Mười vấn đề được nhắc là không dứt khoát, vì không lợi ích/Pháp/căn bản và không đủ bảy đích giải thoát; không thành Ngài không biết gì."
+    },
+    {
+      "id": "categorical",
+      "title": "Dứt khoát về bốn sự thật",
+      "segments": [
+        "dn9:33.19.0",
+        "dn9:33.20",
+        "dn9:33.21",
+        "dn9:33.22",
+        "dn9:33.23",
+        "dn9:33.24",
+        "dn9:33.25",
+        "dn9:33.26",
+        "dn9:33.27"
+      ],
+      "summary": "Nhãn 2.1 và hỏi-đáp: khổ, nguồn khổ, diệt khổ, đường diệt là dứt khoát. Vì lợi ích/Pháp/căn bản phạm hạnh và đưa tới đủ nhàm chán, ly tham, chấm dứt, tịch tịnh, thắng trí, giác ngộ, Niết-bàn."
+    },
+    {
+      "id": "happy-self",
+      "title": "Hỏi cơ sở tự ngã hoàn toàn an vui",
+      "segments": [
+        "dn9:34.1",
+        "dn9:34.2",
+        "dn9:34.3",
+        "dn9:34.4",
+        "dn9:34.5",
+        "dn9:34.6",
+        "dn9:34.7",
+        "dn9:34.8",
+        "dn9:34.9",
+        "dn9:34.10",
+        "dn9:34.11",
+        "dn9:34.12",
+        "dn9:34.13",
+        "dn9:34.14",
+        "dn9:34.15",
+        "dn9:34.16",
+        "dn9:34.17",
+        "dn9:34.18",
+        "dn9:34.19",
+        "dn9:34.20",
+        "dn9:34.21",
+        "dn9:34.22",
+        "dn9:34.23",
+        "dn9:34.24"
+      ],
+      "summary": "Phật kể đến hỏi người chủ trương tự ngã sau chết hoàn toàn hạnh phúc, vô bệnh. NẾU nhận, hỏi bốn: sống biết/thấy thế giới ấy; cảm biết tự ngã hoàn toàn vui một đêm/ngày/nửa đêm/nửa ngày; biết đường/cách chứng; nghe chư thiên nơi ấy khen đang tu tốt/ngay và nói họ đã tu vậy mà sinh đó. Bốn không → thiếu cơ sở kiểm chứng, chủ hội đồng ý."
+    },
+    {
+      "id": "unknown-woman",
+      "title": "Yêu người chưa biết thấy",
+      "segments": [
+        "dn9:35.1",
+        "dn9:35.2",
+        "dn9:35.3",
+        "dn9:35.4",
+        "dn9:35.5",
+        "dn9:35.6",
+        "dn9:35.7",
+        "dn9:35.8",
+        "dn9:35.9",
+        "dn9:35.10",
+        "dn9:35.11",
+        "dn9:35.12",
+        "dn9:35.13",
+        "dn9:35.14"
+      ],
+      "summary": "Ví dụ giả định người mong/yêu phụ nữ đẹp nhất xứ. Không biết bốn tầng lớp, tên/họ, cao/thấp/vừa, da đen/ngăm/vàng nhạt, làng/thị trấn/thành phố; nhận mong người chưa biết/chưa thấy. Hỏi lời có cơ sở không, chủ hội nhận không. Không biến thành lời tán sắc đẹp/giai cấp."
+    },
+    {
+      "id": "recheck-woman",
+      "title": "Trở lại bốn câu hỏi lần hai",
+      "segments": [
+        "dn9:36.1",
+        "dn9:36.2",
+        "dn9:36.3",
+        "dn9:36.4",
+        "dn9:36.5",
+        "dn9:36.6",
+        "dn9:36.7",
+        "dn9:36.8",
+        "dn9:36.9",
+        "dn9:36.10",
+        "dn9:36.11",
+        "dn9:36.12",
+        "dn9:36.13",
+        "dn9:36.14",
+        "dn9:36.15",
+        "dn9:36.16",
+        "dn9:36.17",
+        "dn9:36.18",
+        "dn9:36.19",
+        "dn9:36.20",
+        "dn9:36.21",
+        "dn9:36.22",
+        "dn9:36.23"
+      ],
+      "summary": "Áp ví dụ về người chưa biết vào chủ trương an vui/vô bệnh sau chết: lại đến hỏi, nếu nhận thì đủ bốn câu (biết thế giới, từng cảm biết đủ bốn khoảng thời gian, biết đường, nghe trời), đều không. Lại kết thiếu cơ sở, chủ hội đồng ý; không bỏ vì EN lược."
+    },
+    {
+      "id": "unknown-ladder",
+      "title": "Thang cho tòa lầu chưa biết",
+      "segments": [
+        "dn9:37.1",
+        "dn9:37.2",
+        "dn9:37.3",
+        "dn9:37.4",
+        "dn9:37.5",
+        "dn9:37.6",
+        "dn9:37.7",
+        "dn9:37.8",
+        "dn9:37.9",
+        "dn9:37.10"
+      ],
+      "summary": "Giả định dựng thang ở ngã tư lên lầu; không biết đông/nam/tây/bắc, cao/thấp/vừa, nhận chưa biết/chưa thấy mà làm thang. Kết thiếu cơ sở, chủ hội đồng ý."
+    },
+    {
+      "id": "recheck-ladder",
+      "title": "Trở lại bốn câu hỏi lần ba",
+      "segments": [
+        "dn9:38.1",
+        "dn9:38.2",
+        "dn9:38.3",
+        "dn9:38.4",
+        "dn9:38.5",
+        "dn9:38.6",
+        "dn9:38.7",
+        "dn9:38.8",
+        "dn9:38.9",
+        "dn9:38.10",
+        "dn9:38.11",
+        "dn9:38.12",
+        "dn9:38.13",
+        "dn9:38.14",
+        "dn9:38.15",
+        "dn9:38.16",
+        "dn9:38.17",
+        "dn9:38.18",
+        "dn9:38.19",
+        "dn9:38.20",
+        "dn9:38.21",
+        "dn9:38.22"
+      ],
+      "summary": "Sau ví dụ thang mù mờ, lặp chủ trương tự ngã vui/vô bệnh sau chết, xác nhận có điều kiện và bốn câu hỏi đủ nội dung, đều không. Kết thiếu cơ sở, chủ hội đồng ý lần nữa."
+    },
+    {
+      "id": "three-forms",
+      "title": "Ba dạng hiện hữu",
+      "segments": [
+        "dn9:39.0",
+        "dn9:39.1",
+        "dn9:39.2",
+        "dn9:39.3",
+        "dn9:39.4",
+        "dn9:39.5",
+        "dn9:39.6",
+        "dn9:39.7",
+        "dn9:39.8"
+      ],
+      "summary": "Attapaṭilābha theo project/comment là dạng hiện hữu: thô có sắc/bốn đại/ăn vật chất; do tâm tạo CÓ SẮC, đủ chi lớn nhỏ/giác quan; vô sắc/do tưởng. Giữ khác nghĩa ngã chấp của HTML và quy ước ở cuối, không xác lập ba linh hồn."
+    },
+    {
+      "id": "abandon-gross",
+      "title": "Dạy từ bỏ dạng thô",
+      "segments": [
+        "dn9:40.1",
+        "dn9:40.2",
+        "dn9:40.3",
+        "dn9:40.4",
+        "dn9:40.5",
+        "dn9:40.6"
+      ],
+      "summary": "Dạy từ bỏ dạng thô: nếu thực hành theo, ô nhiễm bỏ, trong sạch tăng, ngay đời tự thắng tri/chứng/an trú trí tuệ viên mãn rộng lớn. Có thể nghĩ như vậy vẫn sống khổ; Phật bác, lặp kết quả và đủ hân hoan/hỷ/an tịnh/niệm/tỉnh giác/sống lạc. Không chỉ hứa vui cảm giác."
+    },
+    {
+      "id": "abandon-mind",
+      "title": "Dạy từ bỏ dạng tâm tạo",
+      "segments": [
+        "dn9:41.1",
+        "dn9:41.2",
+        "dn9:41.3",
+        "dn9:41.4",
+        "dn9:41.5",
+        "dn9:41.6"
+      ],
+      "summary": "Lặp riêng với tâm tạo: theo thực hành bỏ nhiễm/tăng tịnh/tự chứng hiện đời trí tuệ viên mãn rộng lớn; bác giả định vẫn sống khổ; cùng đủ sáu hân hoan/hỷ/an tịnh/niệm/tỉnh giác/lạc trú."
+    },
+    {
+      "id": "abandon-formless",
+      "title": "Dạy từ bỏ dạng vô sắc",
+      "segments": [
+        "dn9:42.1",
+        "dn9:42.2",
+        "dn9:42.3",
+        "dn9:42.4",
+        "dn9:42.5",
+        "dn9:42.6"
+      ],
+      "summary": "Lặp riêng với vô sắc: điều kiện thực hành và bỏ nhiễm/tăng tịnh/tuệ viên mãn tự chứng hiện đời; không đọc vẫn sống khổ; giữ đủ sáu phẩm chất an lạc có tỉnh giác."
+    },
+    {
+      "id": "point-gross",
+      "title": "Có thể chỉ rõ dạng thô",
+      "segments": [
+        "dn9:43.1",
+        "dn9:43.2",
+        "dn9:43.3"
+      ],
+      "summary": "Nếu người ngoài hỏi dạng thô nào được dạy từ bỏ với cả kết quả bỏ nhiễm/tăng tịnh/tự chứng trí tuệ hiện đời, đáp chính dạng này. Giữ câu hỏi và đáp có cùng quan hệ thực hành/kết quả."
+    },
+    {
+      "id": "point-mind",
+      "title": "Có thể chỉ rõ dạng tâm tạo",
+      "segments": [
+        "dn9:44.1",
+        "dn9:44.2",
+        "dn9:44.3",
+        "dn9:44.4"
+      ],
+      "summary": "Cùng hỏi giả định về dạng tâm tạo và đầy đủ kết quả tu tập, đáp chính dạng này; không biến lời đáp thành chỉ nói chung bỏ cái tôi."
+    },
+    {
+      "id": "point-formless",
+      "title": "Có thể chỉ rõ dạng vô sắc",
+      "segments": [
+        "dn9:45.1",
+        "dn9:45.2",
+        "dn9:45.3",
+        "dn9:45.4",
+        "dn9:45.5",
+        "dn9:45.6",
+        "dn9:45.7"
+      ],
+      "summary": "Cùng hỏi giả định dạng vô sắc với kết quả tu tập, đáp chính dạng này; Phật hỏi lời nay có cơ sở kiểm chứng không, Poṭṭhapāda nhận có."
+    },
+    {
+      "id": "known-ladder",
+      "title": "Thang ngay dưới tòa lầu đã biết",
+      "segments": [
+        "dn9:46.1",
+        "dn9:46.2",
+        "dn9:46.3",
+        "dn9:46.4",
+        "dn9:46.5",
+        "dn9:46.6",
+        "dn9:46.7",
+        "dn9:46.8"
+      ],
+      "summary": "Giả định thang được dựng ngay dưới lầu ấy. Hỏi đủ bốn hướng/ba độ cao; người làm chỉ chính tòa lầu này ngay trên chỗ thang. Kết có cơ sở, chủ hội đồng ý. Phân biệt thang ngã tư."
+    },
+    {
+      "id": "recheck-known",
+      "title": "Áp lại lời chỉ rõ và kết quả",
+      "segments": [
+        "dn9:47.1",
+        "dn9:47.2",
+        "dn9:47.3",
+        "dn9:47.4",
+        "dn9:47.5",
+        "dn9:47.6",
+        "dn9:47.7",
+        "dn9:47.8"
+      ],
+      "summary": "Áp ví dụ: hỏi ba dạng với dấu lược thô/tâm tạo, nêu đầy đủ vô sắc và kết quả thực hành. Đáp chính dạng vô sắc này, lặp bỏ nhiễm/tăng tịnh/tự chứng tuệ hiện đời; hỏi có cơ sở, chủ hội nhận có."
+    },
+    {
+      "id": "citta-question",
+      "title": "Citta hỏi thật và hư giả",
+      "segments": [
+        "dn9:48.1",
+        "dn9:48.2",
+        "dn9:48.3",
+        "dn9:48.4",
+        "dn9:48.5",
+        "dn9:48.6",
+        "dn9:48.7"
+      ],
+      "summary": "Citta hỏi ba trường hợp: đang ở dạng thô thì chỉ thô thật/còn hai hư? Tâm tạo thì chỉ nó thật/hai kia hư? Vô sắc thì chỉ nó thật/hai kia hư? Đây là lời hỏi, không lời kết của Phật."
+    },
+    {
+      "id": "names",
+      "title": "Trả lời về tên gọi theo lúc",
+      "segments": [
+        "dn9:49.1",
+        "dn9:49.2",
+        "dn9:49.3",
+        "dn9:49.4",
+        "dn9:49.5",
+        "dn9:49.6"
+      ],
+      "summary": "Phật đáp từng trường hợp bằng được gọi: ở dạng thô gọi thô, không tâm tạo/vô sắc; ở tâm tạo gọi tâm tạo, không hai kia; ở vô sắc gọi vô sắc, không hai kia. Không đổi saṅkhaṁ gacchati thành phủ định mọi tồn tại."
+    },
+    {
+      "id": "three-times",
+      "title": "Citta có ở ba thời",
+      "segments": [
+        "dn9:49.7",
+        "dn9:49.8",
+        "dn9:49.9",
+        "dn9:49.10",
+        "dn9:49.11",
+        "dn9:49.12",
+        "dn9:49.13",
+        "dn9:49.14",
+        "dn9:49.15",
+        "dn9:49.16",
+        "dn9:49.17",
+        "dn9:49.18",
+        "dn9:49.19",
+        "dn9:49.20"
+      ],
+      "summary": "Phật giả định người hỏi Citta đã tồn tại quá khứ/không phải không, sẽ tồn tại tương lai/không phải không, đang hiện tại/không phải không. Citta nhắc câu hỏi và đáp cả ba có cùng phủ định kép; giữ đây là lời đáp theo giả định."
+    },
+    {
+      "id": "real-in-time",
+      "title": "Thật vào chính thời điểm ấy",
+      "segments": [
+        "dn9:50.1",
+        "dn9:50.2",
+        "dn9:50.3",
+        "dn9:50.4",
+        "dn9:50.5",
+        "dn9:50.6",
+        "dn9:50.7",
+        "dn9:50.8",
+        "dn9:50.9",
+        "dn9:50.10",
+        "dn9:50.11",
+        "dn9:50.12",
+        "dn9:50.13",
+        "dn9:50.14"
+      ],
+      "summary": "Hỏi dạng quá khứ/thật còn hai thời hư; tương lai/thật còn hai hư; hiện tại/thật còn hai hư. Citta nhắc và đáp mỗi dạng thật VÀO THỜI ĐIỂM ẤY, hai thời khác khi ấy hư. Không bỏ tasmiṁ samaye để thành một thời vĩnh viễn thật."
+    },
+    {
+      "id": "names-again",
+      "title": "Quay lại tên của ba dạng",
+      "segments": [
+        "dn9:51.1",
+        "dn9:51.2",
+        "dn9:51.3",
+        "dn9:51.4",
+        "dn9:51.5"
+      ],
+      "summary": "Phật áp tương tự: khi là một dạng chỉ dùng tên đó, không tên hai dạng khác; giữ cả thô/tâm tạo/vô sắc và dấu lược."
+    },
+    {
+      "id": "milk",
+      "title": "Sữa và các sản phẩm kế tiếp",
+      "segments": [
+        "dn9:52.1",
+        "dn9:52.2",
+        "dn9:52.3",
+        "dn9:52.4",
+        "dn9:52.5",
+        "dn9:52.6",
+        "dn9:52.7",
+        "dn9:52.8"
+      ],
+      "summary": "Bò→sữa→sữa đông→bơ→bơ lỏng→tinh chất bơ. Khi là một loại chỉ gọi tên ấy, không gọi bốn loại khác; lược các chặng giữa nhưng giữ cả năm. Không thêm EN rằng tinh chất bơ tốt nhất."
+    },
+    {
+      "id": "conventions",
+      "title": "Dùng quy ước mà không chấp",
+      "segments": [
+        "dn9:53.1",
+        "dn9:53.2",
+        "dn9:53.3",
+        "dn9:53.4",
+        "dn9:53.5"
+      ],
+      "summary": "Lặp việc gọi đúng ba dạng theo lúc. Bốn cách nói của đời: tên chung/cách dùng từ/lời nói/quy ước; Như Lai dùng mà không chấp thủ. Không kết rằng không cần nói chính xác hoặc một linh hồn bất biến đổi vỏ."
+    },
+    {
+      "id": "lay-refuge",
+      "title": "Poṭṭhapāda xin làm cư sĩ trọn đời",
+      "segments": [
+        "dn9:54.1",
+        "dn9:54.2",
+        "dn9:54.3",
+        "dn9:54.4",
+        "dn9:54.5"
+      ],
+      "summary": "Poṭṭhapāda khen hai lần; bốn ví dựng úp/mở kín/chỉ người lạc/đèn dầu cho người có mắt, Pháp được mở nhiều cách; quy y Phật/Pháp/Tăng tỳ-kheo, xin ghi nhận nam cư sĩ từ hôm nay trọn đời."
+    },
+    {
+      "id": "citta-refuge",
+      "title": "Citta xin xuất gia và thọ giới",
+      "segments": [
+        "dn9:55.0",
+        "dn9:55.1",
+        "dn9:55.2",
+        "dn9:55.3",
+        "dn9:55.4",
+        "dn9:55.5"
+      ],
+      "summary": "Nhãn xuất gia Citta; ông độc lập khen hai lần, đủ bốn ví và ba quy y như trên, rồi xin xuất gia/thọ cụ túc nơi Phật. Không nhập với lời xin tại gia của Poṭṭhapāda."
+    },
+    {
+      "id": "fruit",
+      "title": "Citta thành tựu A-la-hán",
+      "segments": [
+        "dn9:56.1",
+        "dn9:56.2",
+        "dn9:56.3",
+        "dn9:56.4",
+        "dn9:56.5"
+      ],
+      "summary": "Citta được xuất gia/thọ cụ túc; không lâu sau thọ giới sống một mình/viễn ly/không phóng dật/nhiệt tâm/tinh cần; chẳng bao lâu tự thắng tri/chứng/an trú hiện đời cứu cánh phạm hạnh vô thượng mà người con nhà lành chân chánh rời nhà hướng tới. Biết sinh tận/phạm hạnh thành/việc xong/không trở lại, là một A-la-hán. Nhãn kinh thứ chín kết; không gán quả ấy cho cả hai."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "DN9 — Hỏi cho rõ, gọi cho đúng",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "start",
+          "kind": "teaching",
+          "heading": "Một cuộc ghé thăm lúc còn sớm",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "visit"
+          ],
+          "paragraphs": [
+            "Đây là Kinh Poṭṭhapāda, bài thứ chín của Trường Bộ. Người truyền kinh kể Phật ở gần Sāvatthī, trong rừng Jeta, tu viện của Anāthapiṇḍika. Du sĩ Poṭṭhapāda ở hội trường một mái của Mallikā, có hàng cây tinduka bao quanh, cùng khoảng ba trăm du sĩ.",
+            "Du sĩ là người theo đời sống tu học, đi tìm và bàn về các học thuyết. Sáng ấy Phật mặc y, mang bát và y ngoài để vào thành khất thực. Thấy còn quá sớm, Ngài nghĩ nên ghé gặp Poṭṭhapāda, rồi đi đến hội trường."
+          ]
+        },
+        {
+          "id": "noise",
+          "kind": "teaching",
+          "heading": "Từ ồn ào đến yên lặng",
+          "meaningUnits": [
+            "chatter",
+            "quiet"
+          ],
+          "paragraphs": [
+            "Hội chúng đang nói lớn tiếng đủ chuyện: vua, cướp, đại thần, quân đội, sợ hãi, chiến tranh; ăn uống, vải, giường, tràng hoa, hương; bà con, xe, làng, thị trấn, thành phố, quốc gia; phụ nữ, anh hùng, đường phố, bến nước, người đã mất; chuyện linh tinh, thế giới, biển cả, hiện hữu và không hiện hữu. Kinh gọi đó là những chuyện phù phiếm trong cuộc tụ họp này.",
+            "Thấy Phật từ xa, Poṭṭhapāda bảo mọi người nhỏ tiếng. Ông nói Gotama ưa và khen sự yên lặng; có lẽ thấy hội yên, Ngài sẽ đến gần. Cả hội im lặng. Đây là lời mong của người chủ hội."
+          ]
+        },
+        {
+          "id": "seats",
+          "kind": "teaching",
+          "heading": "Hai chỗ ngồi và một câu hỏi",
+          "meaningUnits": [
+            "seats"
+          ],
+          "paragraphs": [
+            "Poṭṭhapāda chào mừng Phật, nói đã lâu Ngài mới ghé, rồi mời ngồi vào ghế đã soạn. Phật ngồi xuống; ông lấy một ghế thấp ngồi bên cạnh. Phật hỏi họ vừa bàn chuyện gì, cuộc nói chuyện nào đang dang dở."
+          ]
+        },
+        {
+          "id": "four-accounts",
+          "kind": "teaching",
+          "heading": "Bốn cách giải thích về tưởng",
+          "meaningUnits": [
+            "old-question",
+            "uncaused",
+            "entering-self",
+            "ascetics-move",
+            "deities-move",
+            "ask-buddha"
+          ],
+          "paragraphs": [
+            "Poṭṭhapāda xin để câu chuyện vừa rồi sang bên, vì nghe lại sau cũng không khó. Ông muốn hỏi về một cuộc bàn mấy hôm trước giữa nhiều nhóm tu học: tưởng chấm dứt thế nào? “Tưởng” ở đây là sự nhận ra, ghi nhận đối tượng; không chỉ mang nghĩa tưởng tượng ra chuyện không có.",
+            "Có người bảo tưởng tự sinh và tự diệt, không cần nguyên nhân hay điều kiện: sinh thì có tưởng, diệt thì không có. Người khác phản đối, nói tưởng chính là tự ngã, cái được xem là “ta”: nó đi vào thì có tưởng, đi ra thì không.",
+            "Lời giải thích thứ ba lại cho rằng những sa-môn, Bà-la-môn có thần lực lớn đưa tưởng vào hoặc kéo ra; lời thứ tư giao việc ấy cho các vị trời có thần lực lớn. Cả hai cách đều nói đưa vào thì có tưởng, kéo ra thì không. Đây là các quan điểm Poṭṭhapāda thuật lại.",
+            "Khi nghe tranh luận, ông nhớ Phật, bậc Thiện Thệ, là người hiểu rõ vấn đề. Nay ông trực tiếp hỏi Ngài: tưởng chấm dứt như thế nào?"
+          ]
+        },
+        {
+          "id": "training",
+          "kind": "teaching",
+          "heading": "Sự thay đổi có điều kiện",
+          "meaningUnits": [
+            "training",
+            "joy"
+          ],
+          "paragraphs": [
+            "Phật bác cách giải thích đầu: nói tưởng sinh diệt không có nhân và duyên là sai ngay từ đầu. Ngài nói có nguyên nhân, điều kiện; do tu tập, một loại tưởng sinh và một loại tưởng chấm dứt.",
+            "Ngài dẫn sự xuất hiện của Như Lai, bậc A-la-hán Chánh Đẳng Giác, rồi nói đến người tỳ-kheo thành tựu giới. Bản kinh viết lược nhiều đoạn ở đây. Mốc tiếp là vị ấy thấy năm triền cái, tức năm điều ngăn trở tâm, đã được bỏ nơi mình: hân hoan sinh, rồi hỷ; thân lắng dịu, cảm nhận lạc, và tâm được định. Những mắt xích này nối với nhau."
+          ]
+        },
+        {
+          "id": "first",
+          "kind": "teaching",
+          "heading": "Thiền thứ nhất: tưởng về dục chấm dứt",
+          "meaningUnits": [
+            "first"
+          ],
+          "paragraphs": [
+            "Xa lìa dục và điều bất thiện, vị tu chứng và sống trong thiền thứ nhất. Có tầm, là hướng tâm đến đề mục, và tứ, là giữ tâm với đề mục; có hỷ lạc do sự xa lìa ấy sinh ra.",
+            "Tưởng về dục có trước chấm dứt. Lúc ấy có tưởng vi tế, chân thực về hỷ lạc do ly dục. Phật kết: đây là trường hợp do tu tập mà một tưởng sinh, một tưởng diệt. Sự tu tập không phải lời nói suông rằng tâm tự đổi không do đâu cả."
+          ]
+        },
+        {
+          "id": "second",
+          "kind": "teaching",
+          "heading": "Thiền thứ hai: hỷ lạc do định",
+          "meaningUnits": [
+            "second"
+          ],
+          "paragraphs": [
+            "Khi tầm và tứ lắng xuống, nội tâm trong lặng, quy về một mối, vị ấy chứng thiền thứ hai, không tầm không tứ, có hỷ lạc do định sinh.",
+            "Tưởng vi tế, chân thực về hỷ lạc do xa lìa trước đó chấm dứt; tưởng vi tế, chân thực về hỷ lạc do định hiện diện. Phật lại gọi đây là sự tu tập khiến một tưởng sinh, một tưởng diệt."
+          ]
+        },
+        {
+          "id": "third",
+          "kind": "teaching",
+          "heading": "Thiền thứ ba: an lạc đi với xả",
+          "meaningUnits": [
+            "third"
+          ],
+          "paragraphs": [
+            "Khi hỷ lắng, vị ấy sống với xả, tức sự quân bình, có chánh niệm và tỉnh giác, thân vẫn cảm nhận lạc. Kinh gọi đó là thiền thứ ba; các bậc Thánh nói người ấy có xả, có niệm, sống an lạc.",
+            "Tưởng về hỷ lạc do định trước đó chấm dứt. Tưởng vi tế, chân thực về lạc đi với xả hiện diện. Ở đây Phật cũng nhắc: do tu tập, một tưởng sinh và một tưởng diệt."
+          ]
+        },
+        {
+          "id": "fourth",
+          "kind": "teaching",
+          "heading": "Thiền thứ tư: không khổ không lạc",
+          "meaningUnits": [
+            "fourth"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ lạc, bỏ khổ; vui buồn trước đã lắng. Thiền thứ tư được mô tả là không khổ không lạc, với xả và chánh niệm thanh tịnh.",
+            "Tưởng về lạc đi với xả trước đó chấm dứt. Lúc này có tưởng vi tế, chân thực về trạng thái không khổ không lạc. Đây vẫn là một trường hợp sinh và diệt do tu tập, không phải mất khả năng biết mọi thứ một cách vô cớ."
+          ]
+        },
+        {
+          "id": "space",
+          "kind": "teaching",
+          "heading": "Không vô biên xứ",
+          "meaningUnits": [
+            "space"
+          ],
+          "paragraphs": [
+            "Vị ấy vượt hoàn toàn tưởng về sắc; những tưởng do va chạm lắng xuống; không chú ý đến các tưởng khác biệt. Với sự nhận biết “hư không là vô biên”, vị ấy chứng và sống trong Không vô biên xứ, một trạng thái thiền được bài nêu.",
+            "Tưởng về sắc trước đó chấm dứt, tưởng vi tế và chân thực về Không vô biên xứ hiện diện. Phật lại nhắc sự tu tập làm một tưởng sinh, một tưởng diệt. Sắc ở đây được nói là sắc, không thêm rằng nó phải phát sáng."
+          ]
+        },
+        {
+          "id": "two-realms",
+          "kind": "teaching",
+          "heading": "Thức vô biên và không có gì cả",
+          "meaningUnits": [
+            "consciousness",
+            "nothingness"
+          ],
+          "paragraphs": [
+            "Tiếp đó, vượt hoàn toàn Không vô biên xứ, vị ấy nhận biết “thức là vô biên”, chứng Thức vô biên xứ. Tưởng vi tế, chân thực về xứ trước diệt; tưởng vi tế, chân thực về xứ thức vô biên hiện diện. Phật gọi đây là sinh và diệt do tu tập.",
+            "Rồi vượt hoàn toàn Thức vô biên xứ, vị ấy nhận biết “không có gì cả”, chứng Vô sở hữu xứ. Tưởng vi tế, chân thực về thức vô biên diệt; tưởng vi tế, chân thực về xứ không có gì hiện diện. Lời kết về sự tu tập được nhắc lần nữa. Bài đang kể những mức thiền cụ thể, không nói thế giới thường ngày không tồn tại."
+          ]
+        },
+        {
+          "id": "peak",
+          "kind": "teaching",
+          "heading": "Tại đỉnh của tưởng",
+          "meaningUnits": [
+            "peak",
+            "repeat-peak"
+          ],
+          "paragraphs": [
+            "Phật nói vị tu tự chủ đối với tưởng rồi đi tuần tự từ trạng thái này sang trạng thái khác đến đỉnh của tưởng. Tại đó vị ấy thấy: nếu còn cố ý và tạo tác, tưởng hiện tại sẽ diệt nhưng tưởng thô hơn sẽ sinh; không tiếp tục như vậy thì tốt hơn.",
+            "Vị ấy không cố ý, không tạo tác. Những tưởng ấy chấm dứt, tưởng thô khác không sinh lên; vị ấy chạm sự chấm dứt. Kinh gọi đây là sự chứng nhập với tỉnh giác vào sự chấm dứt tuần tự của tưởng.",
+            "Phật hỏi Poṭṭhapāda đã từng nghe điều này chưa. Ông nói chưa, rồi nhắc lại đủ đường đi đến đỉnh, điều kiện cố ý/tạo tác, việc dừng, tưởng chấm dứt mà tưởng thô không sinh và sự chứng nhập với tỉnh giác. Phật xác nhận ông hiểu đúng. Đây là diễn tiến thiền trong lời kinh, không phải bài tập ép đầu óc trống rỗng."
+          ]
+        },
+        {
+          "id": "one-many",
+          "kind": "teaching",
+          "heading": "Có một đỉnh hay nhiều đỉnh?",
+          "meaningUnits": [
+            "one-many"
+          ],
+          "paragraphs": [
+            "Poṭṭhapāda hỏi chỉ có một đỉnh của tưởng hay có nhiều. Phật đáp Ngài nói cả một lẫn nhiều. Khi được hỏi thêm, Ngài giải thích: người tu chạm sự chấm dứt theo cách nào thì Ngài gọi đỉnh theo cách ấy. Bài không ấn định thêm một con số cho các đỉnh."
+          ]
+        },
+        {
+          "id": "knowledge",
+          "kind": "teaching",
+          "heading": "Tưởng và trí không bị gộp làm một",
+          "meaningUnits": [
+            "knowledge"
+          ],
+          "paragraphs": [
+            "Poṭṭhapāda nêu ba khả năng: tưởng trước rồi trí sau, trí trước rồi tưởng sau, hay cả hai cùng sinh. Phật nói tưởng sinh trước, trí sinh sau, và do tưởng sinh mà trí sinh.",
+            "Vị ấy biết rõ trí của mình đã sinh do điều kiện này. Lời đáp vì thế vừa nói thứ tự vừa nói nguyên nhân. Trí là sự biết rõ được bàn ở đây; không nên bỏ mất điều kiện rồi kể thành hai việc rời nhau."
+          ]
+        },
+        {
+          "id": "selves",
+          "kind": "teaching",
+          "heading": "Xét điều người hỏi gọi là tự ngã",
+          "meaningUnits": [
+            "gross-self",
+            "mind-self",
+            "formless-self"
+          ],
+          "paragraphs": [
+            "Ông hỏi tưởng có phải tự ngã của một người hay là thứ khác. Phật hỏi ông đang tin vào loại tự ngã nào. Ông lần lượt nêu ba cách hiểu.",
+            "Cách đầu là một tự ngã thô, có hình sắc, do bốn đại tạo thành và được nuôi bằng thức ăn vật chất. Bốn đại là bốn thành phần cơ bản của thân vật chất theo cách nói trong kinh. Phật nói: nếu ông hiểu như vậy, cái ấy vẫn còn đó mà các tưởng sinh rồi diệt, nên tưởng khác cái tự ngã ông vừa nêu.",
+            "Cách thứ hai là tự ngã do tâm tạo, đủ các chi phần lớn nhỏ và không thiếu giác quan. Phật cũng dùng chữ nếu: dù cái ông nêu vẫn còn, các tưởng vẫn thay đổi, nên hai điều ấy khác.",
+            "Cách thứ ba là tự ngã không có hình sắc, do tưởng tạo thành. Phật lại xét theo giả định ấy: cái được ông gọi là tự ngã vẫn còn trong lời giả định, trong khi tưởng sinh diệt. Cần giữ đây là việc xét ba cách hiểu của người hỏi; lời đáp không lập ra một cái ta bất biến."
+          ]
+        },
+        {
+          "id": "five-differences",
+          "kind": "teaching",
+          "heading": "Vì sao người hỏi còn khó hiểu?",
+          "meaningUnits": [
+            "different-basis",
+            "eternal"
+          ],
+          "paragraphs": [
+            "Poṭṭhapāda hỏi mình có thể biết tưởng là tự ngã hay khác tự ngã không. Phật nói điều ấy khó cho ông, vì ông có quan điểm khác, sự chấp nhận khác, sở thích khác, sự tu tập khác và vị thầy khác.",
+            "Ông nhắc lại năm khác biệt rồi chuyển hỏi: thế giới thường còn, và chỉ điều đó đúng còn điều khác sai, có phải không? Phật không tuyên bố như vậy. Ông hỏi tiếp thế giới không thường còn, cũng kèm lời độc nhất đúng; Phật cũng không tuyên bố."
+          ]
+        },
+        {
+          "id": "eight-more",
+          "kind": "teaching",
+          "heading": "Tám câu hỏi nữa được để lại",
+          "meaningUnits": [
+            "eight-questions"
+          ],
+          "paragraphs": [
+            "Các câu kế là: thế giới hữu hạn hay vô hạn; sinh mạng với thân thể là một hay là hai thứ khác nhau; Như Lai sau khi chết còn tồn tại, không tồn tại, vừa tồn tại vừa không, hay không phải tồn tại cũng không phải không tồn tại.",
+            "Đó là tám mệnh đề, cộng với hai câu về thường còn thành mười. Chúng được đặt trong lối khẳng định chỉ câu ấy đúng, ngoài ra sai. Kinh có chỗ viết lược, nhưng giữ lời Phật không tuyên bố về những điều này."
+          ]
+        },
+        {
+          "id": "declared",
+          "kind": "teaching",
+          "heading": "Điều giúp đi đến chấm dứt khổ",
+          "meaningUnits": [
+            "why-not",
+            "truths-leaving"
+          ],
+          "paragraphs": [
+            "Khi được hỏi vì sao, Phật nói các mệnh đề ấy không gắn với lợi ích, với Pháp và nền tảng đời phạm hạnh. Chúng không đưa đến nhàm chán điều trói buộc, lìa tham, chấm dứt, yên tịnh, thắng trí, giác ngộ và Niết-bàn. Đó là lý do Ngài không tuyên bố chúng.",
+            "Ngài tuyên bố bốn điều: đây là khổ; đây là nguồn gốc khổ; đây là sự chấm dứt khổ; đây là con đường thực hành đến chấm dứt khổ. Vì bốn điều này gắn với lợi ích, Pháp, nền tảng phạm hạnh và đưa đến đủ bảy mục đích vừa nêu.",
+            "Poṭṭhapāda tán đồng hai lần, rồi thưa để Phật tùy thời làm việc. Ngài đứng dậy ra đi. Không trả lời mười mệnh đề không có nghĩa Ngài không dạy điều gì rõ ràng."
+          ]
+        },
+        {
+          "id": "mocking",
+          "kind": "teaching",
+          "heading": "Tán đồng vì có lý do",
+          "meaningUnits": [
+            "mocking",
+            "return"
+          ],
+          "paragraphs": [
+            "Phật đi chưa lâu, các du sĩ vây quanh châm chọc Poṭṭhapāda: Gotama nói gì ông cũng khen, trong khi không thấy Ngài tuyên bố dứt khoát về mười vấn đề ấy. Ông nhận rằng đúng là Ngài không tuyên bố chúng.",
+            "Nhưng ông nói Gotama chỉ một đường thực hành có thật, xác thực, đúng như thực, phù hợp tính ổn định và quy luật của Pháp. Một người hiểu biết sao lại không công nhận lời nói tốt là tốt? Ông đang nêu lý do tán đồng.",
+            "Hai hoặc ba ngày sau, ông cùng Citta Hatthisāriputta đến gặp Phật. Citta đảnh lễ rồi ngồi một bên; Poṭṭhapāda chào hỏi thân thiện rồi ngồi. Ông thuật lại lời chế giễu, các câu hỏi được nhắc và cả lời đáp của mình về đường thực hành đúng."
+          ]
+        },
+        {
+          "id": "clear-teaching",
+          "kind": "teaching",
+          "heading": "Hai loại lời dạy",
+          "meaningUnits": [
+            "noncategorical",
+            "categorical"
+          ],
+          "paragraphs": [
+            "Phật ví những du sĩ kia là người mù, không có mắt; trong số họ riêng Poṭṭhapāda là người có mắt. Đây là hình ảnh nói về sự hiểu trong cuộc đối thoại. Ngài nói có điều Ngài dạy dứt khoát, có điều không dứt khoát.",
+            "Mười mệnh đề về thế giới, sinh mạng–thân và Như Lai sau chết được nhắc lại thuộc phần không dứt khoát. Lý do vẫn là chúng không gắn lợi ích, Pháp, nền tảng phạm hạnh và không đưa tới nhàm chán, ly tham, chấm dứt, yên tịnh, thắng trí, giác ngộ, Niết-bàn.",
+            "Bốn điều khổ, nguồn khổ, chấm dứt khổ và đường đến chấm dứt được nhắc riêng là dứt khoát. Chúng có lợi ích, gắn Pháp và nền tảng phạm hạnh, đưa tới đầy đủ những mục đích giải thoát ấy."
+          ]
+        },
+        {
+          "id": "happy-self",
+          "kind": "teaching",
+          "heading": "Một lời hứa có thể chỉ rõ căn cứ không?",
+          "meaningUnits": [
+            "happy-self"
+          ],
+          "paragraphs": [
+            "Phật kể việc đến hỏi những người cho rằng sau khi chết tự ngã hoàn toàn hạnh phúc, không bệnh. Nếu họ nhận đúng đó là chủ trương mình, Ngài hỏi tiếp bốn điều.",
+            "Họ có sống mà biết, thấy thế giới hoàn toàn hạnh phúc ấy không? Họ từng nhận biết tự ngã hoàn toàn hạnh phúc suốt một đêm, một ngày, nửa đêm hay nửa ngày chưa? Họ biết con đường và cách thực hành để chứng thế giới ấy không? Họ nghe các vị trời ở đó nói họ đang tu tốt, tu ngay thẳng, và chính các vị trời đã tu như vậy mà sinh về đó không?",
+            "Cả bốn câu đều được đáp không. Phật hỏi lời của họ trong trường hợp ấy có thiếu cơ sở kiểm chứng không; Poṭṭhapāda đồng ý. Lời nói về chư thiên ở đây nằm trong câu hỏi, không phải một cuộc gặp chư thiên đang được kể là đã xảy ra."
+          ]
+        },
+        {
+          "id": "woman",
+          "kind": "teaching",
+          "heading": "Mong một người mà chưa biết gì",
+          "meaningUnits": [
+            "unknown-woman",
+            "recheck-woman"
+          ],
+          "paragraphs": [
+            "Phật đưa ví dụ một người nói mình mong muốn, yêu thích người phụ nữ đẹp nhất xứ. Nhưng anh không biết nàng thuộc Sát-đế-lợi, Bà-la-môn, Phệ-sa hay Thủ-đà, bốn tầng lớp được nhắc trong xã hội câu chuyện.",
+            "Anh cũng không biết tên, họ, cao hay thấp hay vừa; da đen, ngăm hay vàng nhạt; ở làng, thị trấn hay thành phố nào. Khi được hỏi có phải mong người chưa biết, chưa thấy, anh nhận đúng. Poṭṭhapāda đồng ý lời ấy không có cơ sở kiểm chứng.",
+            "Phật quay lại chủ trương tự ngã hoàn toàn vui, không bệnh sau chết. Ngài lặp đủ bốn phép hỏi: biết thế giới, từng cảm biết hạnh phúc trong các khoảng thời gian đã nêu, biết đường, nghe lời các vị trời. Họ vẫn đáp không, và Poṭṭhapāda lại đồng ý kết luận thiếu cơ sở. Ví dụ đang xét điều được biết, không dạy xếp giá trị con người theo vẻ đẹp hay tầng lớp."
+          ]
+        },
+        {
+          "id": "unknown-ladder",
+          "kind": "teaching",
+          "heading": "Chiếc thang chưa biết sẽ tới đâu",
+          "meaningUnits": [
+            "unknown-ladder",
+            "recheck-ladder"
+          ],
+          "paragraphs": [
+            "Ví dụ kế là người dựng thang ở ngã tư để leo lên một tòa lầu. Anh không biết lầu ở đông, nam, tây hay bắc; cao, thấp hay vừa. Anh nhận mình làm thang tới nơi chưa biết, chưa thấy. Poṭṭhapāda đồng ý lời ấy không có cơ sở kiểm chứng.",
+            "Sau ví dụ này, Phật lại xét những người chủ trương tự ngã sau chết hoàn toàn vui và không bệnh. Khi họ nhận chủ trương, bốn câu về biết/thấy thế giới, từng cảm biết hạnh phúc, biết đường, nghe chư thiên đều được hỏi lại và đều nhận câu đáp không. Chủ hội xác nhận lần nữa rằng lời ấy thiếu cơ sở."
+          ]
+        },
+        {
+          "id": "forms",
+          "kind": "teaching",
+          "heading": "Ba dạng hiện hữu được nêu rõ",
+          "meaningUnits": [
+            "three-forms"
+          ],
+          "paragraphs": [
+            "Phật nêu ba dạng hiện hữu. Dạng thô có hình sắc, do bốn đại tạo thành, được nuôi bằng thức ăn vật chất. Dạng do tâm tạo cũng có hình sắc, đủ chi phần lớn nhỏ và các giác quan. Dạng vô sắc không có hình sắc, do tưởng tạo thành.",
+            "Đây là những dạng được nói đến trong kinh, không chỉ là ba cảm xúc vui buồn. Cuối bài sẽ giải thích việc dùng tên gọi mà không chấp vào chúng."
+          ]
+        },
+        {
+          "id": "giving-up",
+          "kind": "teaching",
+          "heading": "Từ bỏ không được mô tả là sống khổ",
+          "meaningUnits": [
+            "abandon-gross",
+            "abandon-mind",
+            "abandon-formless"
+          ],
+          "paragraphs": [
+            "Với dạng thô, Phật dạy Pháp để từ bỏ. Thực hành theo đó, những điều làm tâm ô nhiễm được bỏ, những điều làm trong sạch tăng lên; ngay đời này người tu tự biết rõ, chứng và sống với trí tuệ viên mãn, rộng lớn.",
+            "Người nghe có thể nghĩ: dù được như vậy, đời sống ấy vẫn khổ. Phật bảo không nên nghĩ thế. Cùng với bỏ ô nhiễm, tăng trong sạch và tự chứng trí tuệ hiện đời, có hân hoan, hỷ, an tịnh, chánh niệm, tỉnh giác và sống an lạc.",
+            "Ngài dạy riêng việc từ bỏ dạng do tâm tạo với đúng điều kiện thực hành và kết quả ấy; cũng bác ý nghĩ vẫn sống khổ, giữ đủ sáu điều vui, tỉnh và an lạc. Rồi Ngài nói riêng về dạng vô sắc theo cùng hai vế. Vì thế cả ba dạng đều được xét, và lời dạy không phải làm hại thân để đạt một điều gì."
+          ]
+        },
+        {
+          "id": "pointing",
+          "kind": "teaching",
+          "heading": "Có thể chỉ rõ điều đang nói",
+          "meaningUnits": [
+            "point-gross",
+            "point-mind",
+            "point-formless"
+          ],
+          "paragraphs": [
+            "Phật đặt trường hợp có người hỏi: dạng thô mà các vị dạy từ bỏ là gì? Câu trả lời là chính dạng thô này. Nếu hỏi dạng do tâm tạo thì chỉ chính dạng do tâm tạo này; nếu hỏi dạng vô sắc thì chỉ chính dạng vô sắc này.",
+            "Trong cả ba câu hỏi và đáp, việc từ bỏ đều gắn với thực hành khiến ô nhiễm được bỏ, trong sạch tăng trưởng và ngay đời này tự chứng, sống với trí tuệ viên mãn rộng lớn. Phật hỏi lời nói như vậy có cơ sở kiểm chứng không; Poṭṭhapāda đồng ý có."
+          ]
+        },
+        {
+          "id": "known-ladder",
+          "kind": "teaching",
+          "heading": "Chiếc thang dưới đúng tòa lầu",
+          "meaningUnits": [
+            "known-ladder",
+            "recheck-known"
+          ],
+          "paragraphs": [
+            "Lần này người làm thang đứng ngay dưới tòa lầu mình muốn lên. Khi được hỏi lầu ở đông, nam, tây hay bắc, cao, thấp hay vừa, anh chỉ: chính tòa lầu này, thang làm ngay bên dưới. Poṭṭhapāda đồng ý lời ấy có cơ sở.",
+            "Phật áp ví dụ trở lại câu hỏi về ba dạng hiện hữu. Bản kinh nhắc dạng thô, dạng tâm tạo bằng chỗ lược, rồi nêu đầy đủ dạng vô sắc: chính dạng này được dạy từ bỏ bằng đường thực hành bỏ ô nhiễm, tăng trong sạch, tự chứng trí tuệ viên mãn hiện đời. Chủ hội lại nhận lời nói có cơ sở."
+          ]
+        },
+        {
+          "id": "citta",
+          "kind": "teaching",
+          "heading": "Citta hỏi thật hay hư, Phật nói về cách gọi",
+          "meaningUnits": [
+            "citta-question",
+            "names"
+          ],
+          "paragraphs": [
+            "Citta hỏi: khi có dạng thô thì chỉ thô là thật, hai dạng tâm tạo và vô sắc là hư giả phải không? Khi có dạng tâm tạo thì chỉ nó thật, hai dạng kia hư? Khi có dạng vô sắc thì chỉ nó thật, hai dạng kia hư?",
+            "Phật trả lời bằng cách gọi đúng lúc: khi là thô, gọi thô, không gọi tâm tạo hay vô sắc. Khi là tâm tạo, gọi tâm tạo, không gọi thô hay vô sắc. Khi là vô sắc, gọi vô sắc, không gọi hai dạng kia. Chữ “được gọi” là điểm cần giữ trong lời đáp."
+          ]
+        },
+        {
+          "id": "time",
+          "kind": "teaching",
+          "heading": "Phải giữ chữ “vào lúc ấy”",
+          "meaningUnits": [
+            "three-times",
+            "real-in-time",
+            "names-again"
+          ],
+          "paragraphs": [
+            "Phật hỏi nếu có người hỏi Citta đã tồn tại trong quá khứ, sẽ tồn tại trong tương lai và đang tồn tại hiện tại, không phải là không tồn tại, thì ông đáp sao. Citta nhắc lại rồi đáp có ở cả ba thời: đã có, sẽ có và đang có, không phải không có.",
+            "Phật hỏi tiếp: vậy dạng quá khứ là thật, hai thời kia hư? Dạng tương lai là thật, hai thời kia hư? Hay dạng hiện tại là thật, hai thời kia hư? Citta đáp dạng quá khứ thật vào chính thời điểm quá khứ ấy, hai thời kia không thật ở lúc ấy. Dạng tương lai sẽ thật vào thời điểm ấy; dạng hiện tại thật trong hiện tại, hai thời kia không thật ở thời điểm đang xét.",
+            "Phật quay lại ba dạng: ở dạng nào thì dùng tên dạng đó, không tên hai dạng khác. Lời đáp không xóa hết quá khứ và tương lai; nó nhắc đừng bỏ mốc thời gian khi nói."
+          ]
+        },
+        {
+          "id": "milk",
+          "kind": "teaching",
+          "heading": "Tên gọi đi cùng trạng thái",
+          "meaningUnits": [
+            "milk",
+            "conventions"
+          ],
+          "paragraphs": [
+            "Kinh ví từ bò có sữa, từ sữa có sữa đông, rồi bơ, bơ lỏng và tinh chất bơ. Khi đang là sữa, gọi sữa, không gọi bốn loại kia. Ở mỗi chặng sữa đông, bơ, bơ lỏng hay tinh chất bơ, cũng dùng tên đúng chặng ấy.",
+            "Tương tự, ba dạng thô, tâm tạo và vô sắc được gọi đúng theo lúc đang nói. Phật kết đây là những tên gọi, cách dùng từ, cách nói và quy ước của đời. Như Lai dùng chúng nhưng không chấp thủ, nghĩa là không nắm cứng vào tên gọi như một thứ không thể thay đổi."
+          ]
+        },
+        {
+          "id": "two-requests",
+          "kind": "teaching",
+          "heading": "Hai người chọn hai cách tiếp tục",
+          "meaningUnits": [
+            "lay-refuge",
+            "citta-refuge"
+          ],
+          "paragraphs": [
+            "Poṭṭhapāda khen lời dạy hai lần, ví như dựng lại vật bị úp, mở vật che, chỉ đường cho người lạc, cầm đèn dầu trong tối để người có mắt thấy. Ông nói Pháp được mở bằng nhiều cách; quy y Phật, Pháp, Tăng tỳ-kheo và xin làm nam cư sĩ từ hôm ấy trọn đời.",
+            "Citta cũng tự mình khen hai lần, dùng đủ bốn ví dụ ấy và quy y cả ba. Nhưng lời xin của ông là được xuất gia và thọ cụ túc, tức nhận giới đầy đủ làm tỳ-kheo, nơi Phật. Hai lời xin khác nhau, không gộp thành cả hai đều xuất gia."
+          ]
+        },
+        {
+          "id": "fruit",
+          "kind": "teaching",
+          "heading": "Kết quả của Citta sau khi tu tập",
+          "meaningUnits": [
+            "fruit"
+          ],
+          "paragraphs": [
+            "Citta được xuất gia và thọ cụ túc. Không lâu sau khi thọ giới, vị ấy sống một mình, xa chỗ náo động, không buông lung, nhiệt tâm, tinh cần. Chẳng bao lâu, ngay đời này vị ấy tự biết rõ, chứng và sống trong cứu cánh cao nhất của phạm hạnh, mục đích mà người con nhà lành hướng tới khi chân chánh rời gia đình để xuất gia.",
+            "Vị ấy biết sinh đã tận, phạm hạnh đã thành, việc cần làm đã làm, không còn trở lại trạng thái hiện hữu này. Citta trở thành một bậc A-la-hán. Kinh Poṭṭhapāda, bài thứ chín, kết thúc; bài không nói Poṭṭhapāda cũng đạt quả ấy."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Một câu nói cần có mốc rõ",
+          "meaningUnits": [
+            "three-times",
+            "real-in-time",
+            "conventions"
+          ],
+          "paragraphs": [
+            "Ví dụ hôm qua em đang học bài đầu, hôm nay học bài tiếp theo. Nói đúng việc của hôm nay không buộc em phải bảo hôm qua chưa từng có. Liên hệ nhỏ này giúp nhớ phải nói rõ thời điểm; nó không giải thích thay những dạng hiện hữu và quả chứng trong kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Hỏi điều nào mình đã biết",
+          "meaningUnits": [
+            "happy-self",
+            "unknown-ladder",
+            "known-ladder"
+          ],
+          "paragraphs": [
+            "Khi định quả quyết một việc, em thử hỏi: mình đã biết hoặc thấy điều gì, còn điều gì chỉ đoán, và có thể chỉ rõ căn cứ nào? Có thể nói “mình chưa biết” trước khi hỏi thêm. Đây là cách tập lời nói có căn cứ, không phải cách tự luyện sự chấm dứt của tưởng hay tự nhận đã hiểu hết bài kinh."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "DN9 — Tưởng, căn cứ của lời nói và quy ước",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "context",
+          "kind": "teaching",
+          "heading": "Một lần ghé hội trường tranh luận",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "visit",
+            "seats"
+          ],
+          "paragraphs": [
+            "DN9, Kinh Poṭṭhapāda, mở bằng lời truyền nghe. Phật trú gần Sāvatthī, ở rừng Jeta, tu viện Anāthapiṇḍika. Poṭṭhapāda cùng khoảng ba trăm du sĩ trú tại hội trường một mái của Mallikā, có hàng cây tinduka, nơi bàn các học thuyết.",
+            "Sáng ấy Phật mặc y, mang bát và y ngoài đi khất thực. Vì còn quá sớm để đi trong thành, Ngài quyết định ghé Poṭṭhapāda. Người chủ hội chào mừng, nói đã lâu Ngài mới đến và mời ghế được soạn sẵn. Phật ngồi ghế ấy; Poṭṭhapāda lấy ghế thấp ngồi bên. Ngài hỏi cuộc bàn luận nào đang diễn ra và còn dang dở."
+          ]
+        },
+        {
+          "id": "assembly",
+          "kind": "teaching",
+          "heading": "Hội chúng trước khi tiếp khách",
+          "meaningUnits": [
+            "chatter",
+            "quiet"
+          ],
+          "paragraphs": [
+            "Trước lúc đón Ngài, hội chúng đang ồn ào, bàn những chuyện kinh gọi là phù phiếm: vua, cướp, đại thần, quân đội, sợ hãi, chiến tranh; đồ ăn, thức uống, vải, giường, tràng hoa, hương; thân quyến, xe cộ, làng, thị trấn, thành phố, quốc gia; phụ nữ, anh hùng, đường phố, bến nước, người đã mất; chuyện linh tinh, thế giới, biển và hiện hữu hay không hiện hữu.",
+            "Poṭṭhapāda thấy Phật từ xa liền yêu cầu hội nhỏ tiếng. Ông nói Gotama thích và tán thán sự yên lặng; biết đâu thấy hội yên, Ngài sẽ đến gần. Các du sĩ làm theo. Sự yên lặng cùng niềm hy vọng tiếp khách thuộc hành động của chủ hội, trước cuộc hỏi đáp."
+          ]
+        },
+        {
+          "id": "four-proposals",
+          "kind": "teaching",
+          "heading": "Vấn đề tưởng chấm dứt",
+          "meaningUnits": [
+            "old-question",
+            "uncaused",
+            "entering-self",
+            "ascetics-move",
+            "deities-move",
+            "ask-buddha"
+          ],
+          "paragraphs": [
+            "Poṭṭhapāda gác chuyện đang bàn lại, vì có thể kể sau, để hỏi điều ông quan tâm từ cuộc gặp giữa các phái mấy hôm trước: abhisaññānirodha, sự chấm dứt của tưởng. Tưởng là hoạt động nhận ra đối tượng; bản Minh Châu dùng cách gọi tăng thượng tưởng ở đoạn này, trong khi bản Việt dự án giữ cách gọi sự chấm dứt của tưởng.",
+            "Ông thuật bốn lối giải thích. Có người bảo tưởng sinh diệt không nhân duyên, sinh thì có tưởng, diệt thì không. Người khác bác và đồng nhất tưởng với tự ngã ra vào: vào thì có tưởng, ra thì không. Lối thứ ba lại quy việc đưa tưởng vào, kéo ra cho sa-môn, Bà-la-môn có thần lực và uy lực; lối thứ tư quy cho chư thiên có các năng lực ấy. Mỗi lối sau được đưa ra như lời phản đối lối trước.",
+            "Giữa cuộc bàn, Poṭṭhapāda nhớ Phật, bậc Thiện Thệ, tinh thông và hiểu rõ vấn đề này. Nay ông xin Ngài giải thích sự chấm dứt của tưởng. Các thuyết vừa kể vẫn là lời của những người tham gia cuộc bàn, chưa phải câu trả lời của Phật."
+          ]
+        },
+        {
+          "id": "conditions",
+          "kind": "teaching",
+          "heading": "Tu tập là điều kiện cho tưởng thay đổi",
+          "meaningUnits": [
+            "training",
+            "joy"
+          ],
+          "paragraphs": [
+            "Phật bác ngay lời tưởng sinh diệt không nhân duyên: tưởng sinh và diệt có nguyên nhân, điều kiện; do tu tập mà một tưởng sinh, một tưởng chấm dứt. Khi hỏi tu tập nào, Ngài dẫn sự xuất hiện của Như Lai A-la-hán Chánh Đẳng Giác và mốc tỳ-kheo thành tựu giới, giữa những dấu lược của bản kinh.",
+            "Mốc tiếp theo là vị tu thấy năm triền cái đã được bỏ nơi mình. Từ đó có hân hoan, rồi hỷ; thân an tịnh, cảm nhận lạc, tâm an định. Chuỗi này giữ những bước trung gian của sự tu tập, không nhảy thẳng từ mong muốn sang chấm dứt tưởng. Các phần kinh đang lược không được tự thay bằng toàn bộ một bài khác."
+          ]
+        },
+        {
+          "id": "first-two",
+          "kind": "teaching",
+          "heading": "Hai thiền đầu và hai nguồn hỷ lạc",
+          "meaningUnits": [
+            "first",
+            "second"
+          ],
+          "paragraphs": [
+            "Ở thiền thứ nhất, vị tu ly dục, ly bất thiện, chứng và trú với tầm, tứ, hỷ lạc do ly dục. Tầm và tứ ở đây được diễn nghĩa là hướng tâm tới rồi giữ tâm với đề mục. Dục tưởng trước đó chấm dứt; thay vào đó là tưởng vi tế, chân thực về hỷ lạc do ly dục. Phật xác định đây là một tưởng sinh, một tưởng diệt do tu tập.",
+            "Ở thiền thứ hai, tầm tứ lắng xuống, có nội tĩnh và nhất tâm, không tầm không tứ, hỷ lạc do định sinh. Tưởng vi tế, chân thực về hỷ lạc do ly dục chấm dứt; tưởng vi tế, chân thực về hỷ lạc do định hiện diện. Lời kết về sinh diệt do tu tập được lặp. Hai trạng thái hỷ lạc không bị nhập vì nguồn sinh của chúng được nêu khác nhau."
+          ]
+        },
+        {
+          "id": "third-fourth",
+          "kind": "teaching",
+          "heading": "Xả, niệm và sự thay đổi của cảm thọ",
+          "meaningUnits": [
+            "third",
+            "fourth"
+          ],
+          "paragraphs": [
+            "Thiền thứ ba có sự ly hỷ, trú xả, chánh niệm tỉnh giác, cảm nhận lạc bằng thân; các bậc Thánh gọi là xả, niệm, lạc trú. Tưởng vi tế, chân thực về hỷ lạc do định chấm dứt; tưởng vi tế, chân thực về lạc cùng xả hiện diện. Đây cũng là sinh diệt do tu tập.",
+            "Thiền thứ tư được mô tả bằng bỏ lạc, bỏ khổ, hỷ ưu trước đã lắng; không khổ không lạc, xả niệm thanh tịnh. Tưởng về lạc cùng xả chấm dứt, tưởng vi tế, chân thực về không khổ không lạc hiện diện. Phật lại kết như trước. Xả không chỉ được diễn thành không quan tâm, và không khổ không lạc không bị đổi thành cảm giác vui dễ chịu."
+          ]
+        },
+        {
+          "id": "space",
+          "kind": "teaching",
+          "heading": "Vượt sắc tưởng đến Không vô biên xứ",
+          "meaningUnits": [
+            "space"
+          ],
+          "paragraphs": [
+            "Vị tu vượt hoàn toàn các tưởng về sắc; các tưởng do va chạm lắng xuống; không tác ý đến tưởng sai biệt. Biết hư không vô biên, vị ấy chứng và trú Không vô biên xứ. Cả ba điều kiện đi vào được nêu riêng.",
+            "Sắc tưởng trước đó chấm dứt; tưởng vi tế, chân thực về Không vô biên xứ hiện diện. Phật nhắc đây là sự tu tập khiến một tưởng sinh, một tưởng diệt. Bản Pāli nói sắc tưởng, không có chữ phát sáng mà một bản tham chiếu thêm vào."
+          ]
+        },
+        {
+          "id": "consciousness-nothing",
+          "kind": "teaching",
+          "heading": "Hai xứ tiếp và quan hệ thay thế",
+          "meaningUnits": [
+            "consciousness",
+            "nothingness"
+          ],
+          "paragraphs": [
+            "Vượt hoàn toàn Không vô biên xứ, nhận biết thức vô biên, vị ấy chứng và trú Thức vô biên xứ. Tưởng vi tế, chân thực về Không vô biên xứ chấm dứt, tưởng vi tế, chân thực về Thức vô biên xứ hiện diện; câu sinh diệt do tu tập lại được kết.",
+            "Vượt hoàn toàn Thức vô biên xứ, nhận biết không có gì cả, vị ấy chứng và trú Vô sở hữu xứ. Tưởng vi tế, chân thực về xứ thức chấm dứt, tưởng vi tế, chân thực về xứ không có gì hiện diện. Cũng do tu tập mà có sự chuyển đổi ấy. Những lời không có gì cả thuộc cảnh thiền đang mô tả, không được tách ra thành một tuyên bố chung về mọi tồn tại."
+          ]
+        },
+        {
+          "id": "cessation",
+          "kind": "teaching",
+          "heading": "Chứng nhập tuần tự với tỉnh giác",
+          "meaningUnits": [
+            "peak",
+            "repeat-peak"
+          ],
+          "paragraphs": [
+            "Từ chỗ tự chủ đối với tưởng của mình, vị tu tuần tự đi qua các trạng thái đến đỉnh của tưởng. Sakasaññī được diễn theo lựa chọn của bản Việt là tự chủ đối với tưởng; bản Minh Châu có cách hiểu tự mình khởi tưởng.",
+            "Ở đỉnh ấy, vị tu nhận thấy còn cố ý là tệ hơn, không cố ý tốt hơn. Nếu cố ý và tạo tác, tưởng hiện tại sẽ diệt nhưng các tưởng thô khác sẽ sinh. Vị ấy không cố ý và không tạo tác; tưởng ấy diệt, các tưởng thô khác không sinh. Vị ấy chạm sự chấm dứt, được gọi là chứng nhập với tỉnh giác vào sự chấm dứt tuần tự của tưởng.",
+            "Poṭṭhapāda được hỏi đã từng nghe điều ấy chưa; ông đáp chưa, rồi trình bày lại từ tự chủ, đi đến đỉnh, cân nhắc cố ý/tạo tác, dừng hai việc ấy đến tưởng diệt mà không có tưởng thô thay vào. Phật xác nhận cách hiểu của ông. Bài nêu tiến trình như vậy, không tự gọi thêm tên một tầng thiền còn thiếu trong lời đang đọc."
+          ]
+        },
+        {
+          "id": "peaks",
+          "kind": "teaching",
+          "heading": "Một đỉnh, nhiều đỉnh",
+          "meaningUnits": [
+            "one-many"
+          ],
+          "paragraphs": [
+            "Câu hỏi kế là Phật nói một hay nhiều đỉnh của tưởng. Ngài nói cả một lẫn nhiều. Khi Poṭṭhapāda hỏi cách hiểu, Ngài trả lời: tùy cách chạm sự chấm dứt mà Ngài trình bày đỉnh tương ứng. Quan hệ giữa cách chứng và cách gọi được giữ, thay vì ấn định một con số không có trong lời đáp."
+          ]
+        },
+        {
+          "id": "perception-knowledge",
+          "kind": "teaching",
+          "heading": "Thứ tự và điều kiện của trí",
+          "meaningUnits": [
+            "knowledge"
+          ],
+          "paragraphs": [
+            "Poṭṭhapāda phân biệt ba khả năng: tưởng trước trí sau, trí trước tưởng sau, hoặc đồng thời. Phật nêu tưởng sinh trước, trí sinh sau, và sự sinh của tưởng làm duyên cho trí sinh.",
+            "Vị tu biết rõ rằng trí mình sinh do điều kiện này. Phật nhắc lại thứ tự cùng quan hệ duyên sinh ấy. Đoạn phân biệt tưởng với trí trong mạch tu tập vừa trình bày, không cho phép bỏ một trong hai vế hoặc tự biến lời này thành lý thuyết khoa học về mọi hoạt động của não."
+          ]
+        },
+        {
+          "id": "self-gross",
+          "kind": "teaching",
+          "heading": "Tự ngã thô được xét như một giả định",
+          "meaningUnits": [
+            "gross-self"
+          ],
+          "paragraphs": [
+            "Poṭṭhapāda hỏi tưởng có phải tự ngã của một người hay tưởng và tự ngã khác nhau. Phật hỏi rõ loại tự ngã ông chấp nhận. Ông nêu loại thô, có hình sắc, do bốn đại cấu thành và ăn thức ăn vật chất.",
+            "Phật đáp theo điều kiện: nếu tự ngã là như vậy, tưởng sẽ khác tự ngã. Trong khi cái thô được giả định ấy còn, nơi người đó vẫn có những tưởng sinh lên và những tưởng diệt. Lập luận dùng đề xuất của người hỏi để chỉ sự khác nhau, không xác lập thêm một thực thể thường hằng."
+          ]
+        },
+        {
+          "id": "other-selves",
+          "kind": "teaching",
+          "heading": "Hai giả định còn lại cũng được đối chiếu",
+          "meaningUnits": [
+            "mind-self",
+            "formless-self"
+          ],
+          "paragraphs": [
+            "Poṭṭhapāda tiếp tục đề xuất tự ngã do tâm tạo, đủ mọi chi phần lớn nhỏ và không thiếu giác quan. Phật giữ cấu trúc nếu: cái được giả định còn đó trong khi các tưởng sinh diệt, nên tưởng và tự ngã ấy khác.",
+            "Khi ông đề xuất tự ngã vô sắc, do tưởng tạo thành, Phật cũng trả lời theo điều kiện ấy: tự ngã được đề xuất vẫn còn mà các tưởng này sinh, các tưởng khác diệt. Cả ba lần cần phân biệt chủ trương của Poṭṭhapāda với cách Phật thẩm xét nó."
+          ]
+        },
+        {
+          "id": "different-standpoint",
+          "kind": "teaching",
+          "heading": "Nền tảng khác và câu hỏi chuyển hướng",
+          "meaningUnits": [
+            "different-basis",
+            "eternal",
+            "eight-questions"
+          ],
+          "paragraphs": [
+            "Ông hỏi mình có thể biết tưởng là tự ngã hay khác tự ngã không. Phật nói khó, vì ông có quan điểm, sự chấp nhận, sở thích, thực hành và vị thầy khác. Poṭṭhapāda nhắc đủ các khác biệt, rồi chuyển sang mười mệnh đề khác.",
+            "Hai mệnh đề đầu: thế giới thường còn hoặc không thường còn. Tám mệnh đề tiếp: thế giới hữu hạn hoặc vô hạn; sinh mạng đồng nhất với thân hoặc khác thân; Như Lai sau chết tồn tại, không tồn tại, vừa tồn tại vừa không, hoặc không phải tồn tại cũng không phải không tồn tại.",
+            "Những câu này mang khuôn khẳng định chỉ điều này thật, ngoài ra sai. Phật không tuyên bố chúng; các chỗ lược trong chuỗi không đổi sự không tuyên bố ấy thành trả lời có hay không về nội dung từng mệnh đề."
+          ]
+        },
+        {
+          "id": "purpose",
+          "kind": "teaching",
+          "heading": "Vì sao bốn sự thật được tuyên bố",
+          "meaningUnits": [
+            "why-not",
+            "truths-leaving"
+          ],
+          "paragraphs": [
+            "Được hỏi lý do để các mệnh đề ấy lại, Phật nêu chúng không gắn với lợi ích, Pháp, nền tảng phạm hạnh; không đưa đến nhàm chán, ly tham, chấm dứt, tịch tịnh, thắng trí, giác ngộ và Niết-bàn. Lý do được đặt trong mục đích của con đường.",
+            "Điều Ngài đã tuyên bố là khổ, nguồn gốc khổ, sự chấm dứt khổ và đường thực hành đến chấm dứt khổ. Ngài tuyên bố vì chúng có lợi ích, gắn Pháp, là nền tảng phạm hạnh và dẫn tới đủ bảy đích giải thoát vừa liệt kê.",
+            "Poṭṭhapāda tán đồng bằng lời hướng đến Thế Tôn và Thiện Thệ, rồi mời Ngài tùy thời. Phật đứng dậy ra đi. Cuộc gặp đầu kết thúc với sự phân biệt rõ điều không tuyên bố và điều đã tuyên bố."
+          ]
+        },
+        {
+          "id": "defence",
+          "kind": "teaching",
+          "heading": "Lý do đồng ý trước lời chế giễu",
+          "meaningUnits": [
+            "mocking"
+          ],
+          "paragraphs": [
+            "Các du sĩ vây quanh Poṭṭhapāda ngay sau khi Phật đi chưa lâu, chế giễu ông tán đồng bất cứ lời nào của Gotama. Họ nhắc đủ mười vấn đề mà theo họ không có lời dạy dứt khoát.",
+            "Poṭṭhapāda cũng không thấy lời xác quyết về các vấn đề ấy, nhưng ông nhận ra con đường được chỉ là có thật, xác thực, như thực, theo tính ổn định và quy luật của Pháp. Ông hỏi một người có trí như mình sao lại không công nhận lời khéo nói. Lời tán đồng của ông có căn cứ được trình bày, không chỉ vì người nói được kính trọng."
+          ]
+        },
+        {
+          "id": "return",
+          "kind": "teaching",
+          "heading": "Citta cùng đến trong cuộc gặp thứ hai",
+          "meaningUnits": [
+            "return"
+          ],
+          "paragraphs": [
+            "Sau hai hoặc ba ngày, Citta Hatthisāriputta và Poṭṭhapāda đến gặp Phật. Citta đảnh lễ rồi ngồi một bên; Poṭṭhapāda trao lời chào hỏi xã giao thân thiện rồi ngồi bên.",
+            "Poṭṭhapāda thuật lại việc bị châm chọc, lời họ nhại cách ông tán đồng, chuỗi mười mệnh đề không được xác quyết và câu trả lời của ông về đường thực hành xác thực, quy luật của Pháp. Bản kinh kể lại cuộc trao đổi này; nó không phải một cuộc chế giễu mới diễn ra trước Phật."
+          ]
+        },
+        {
+          "id": "categorical",
+          "kind": "teaching",
+          "heading": "Có điều dứt khoát và điều không dứt khoát",
+          "meaningUnits": [
+            "noncategorical",
+            "categorical"
+          ],
+          "paragraphs": [
+            "Phật nói những du sĩ ấy mù, không có mắt, riêng Poṭṭhapāda có mắt trong số họ. Hình ảnh chỉ sự hiểu được phân biệt ở đây. Ngài xác nhận đã dạy và trình bày cả pháp dứt khoát lẫn pháp không dứt khoát.",
+            "Mười mệnh đề về thế giới, sinh mạng/thân và Như Lai sau chết được liệt kê lại thuộc loại không dứt khoát. Chúng không gắn lợi ích, Pháp, nền tảng phạm hạnh, không dẫn đến nhàm chán, ly tham, chấm dứt, tịch tịnh, thắng trí, giác ngộ, Niết-bàn.",
+            "Bốn điều khổ, nguồn khổ, diệt khổ và đường đến diệt khổ được nêu riêng là dứt khoát. Chúng có lợi ích, gắn Pháp và nền tảng phạm hạnh, dẫn tới đầy đủ bảy đích ấy. Dứt khoát ở đây là ekaṁsika, không phải lời khuyến khích xác quyết mọi điều người nghe muốn hỏi."
+          ]
+        },
+        {
+          "id": "claimed-happiness",
+          "kind": "teaching",
+          "heading": "Bốn câu hỏi về một chủ trương sau chết",
+          "meaningUnits": [
+            "happy-self"
+          ],
+          "paragraphs": [
+            "Phật kể việc đến gặp người chủ trương sau khi chết tự ngã hoàn toàn hạnh phúc và không bệnh. Nếu được hỏi và họ xác nhận đó là chủ trương mình, Ngài hỏi về căn cứ của nó.",
+            "Thứ nhất, họ có sống mà biết và thấy thế giới hoàn toàn hạnh phúc không? Thứ hai, họ đã nhận biết tự ngã hoàn toàn hạnh phúc trong một đêm, một ngày, nửa đêm hay nửa ngày chưa? Thứ ba, họ biết đường và cách thực hành để chứng thế giới ấy không? Thứ tư, họ có nghe chư thiên sinh vào đó nói họ đang thực hành tốt, ngay thẳng, và chính các vị trời đã tu như vậy mà sinh vào đó không?",
+            "Họ trả lời không cho cả bốn. Poṭṭhapāda đồng ý với câu hỏi kết của Phật: trong trường hợp ấy lời chủ trương không có cơ sở kiểm chứng. Lập luận xét quan hệ giữa điều khẳng định với điều người nói biết, đã trải nghiệm, biết cách thực hiện hoặc nghe xác nhận."
+          ]
+        },
+        {
+          "id": "desired-woman",
+          "kind": "teaching",
+          "heading": "Ví dụ về đối tượng hoàn toàn chưa biết",
+          "meaningUnits": [
+            "unknown-woman",
+            "recheck-woman"
+          ],
+          "paragraphs": [
+            "Phật đặt ví dụ người nói mình mong muốn, yêu thích người phụ nữ đẹp nhất xứ. Anh không biết nàng thuộc tầng lớp Sát-đế-lợi, Bà-la-môn, Phệ-sa hay Thủ-đà; tên và dòng họ là gì; cao, thấp hay vừa; da đen, ngăm hay vàng nhạt; ở làng, thị trấn hay thành phố nào. Anh vẫn nhận mình mong người chưa từng biết và thấy.",
+            "Poṭṭhapāda xác nhận lời người ấy thiếu cơ sở. Các thuộc tính trong ví dụ dùng để hỏi người nói biết gì, không biến thành thang giá trị về tầng lớp hay sắc diện.",
+            "Ngài trở lại những người nhận chủ trương tự ngã sau chết hoàn toàn vui, vô bệnh; lặp cả bốn câu về thế giới họ biết/thấy, tự ngã đã cảm biết trong bốn khoảng thời gian, đường thực hành và tiếng chư thiên xác nhận cách tu. Mỗi câu vẫn được đáp không; chủ hội lại đồng ý kết luận thiếu cơ sở."
+          ]
+        },
+        {
+          "id": "ladder-without-palace",
+          "kind": "teaching",
+          "heading": "Ví dụ chiếc thang ở ngã tư",
+          "meaningUnits": [
+            "unknown-ladder",
+            "recheck-ladder"
+          ],
+          "paragraphs": [
+            "Một ví dụ khác là người làm thang ở ngã tư để leo lên tòa lầu. Anh không biết lầu ở đông, nam, tây hay bắc, cao, thấp hay vừa; anh nhận đang làm thang cho nơi mình không biết, không thấy. Poṭṭhapāda cũng nhận lời này không có cơ sở kiểm chứng.",
+            "Sau ví dụ, cuộc hỏi người chủ trương hạnh phúc, vô bệnh sau chết được lặp lần nữa. Khi họ nhận chủ trương, bốn điều được xét vẫn là biết/thấy thế giới, từng cảm biết tự ngã hoàn toàn vui trong các khoảng đã nêu, biết đường, nghe lời chư thiên khen cách tu và xác nhận đã làm như vậy. Họ đều đáp không; Poṭṭhapāda xác nhận kết luận. Hai ví dụ khác nhau cùng trở lại phép hỏi đầy đủ ấy."
+          ]
+        },
+        {
+          "id": "incarnations",
+          "kind": "teaching",
+          "heading": "Xác định ba dạng hiện hữu",
+          "meaningUnits": [
+            "three-forms"
+          ],
+          "paragraphs": [
+            "Phật nêu ba attapaṭilābha, được bản Việt dự án gọi là dạng hiện hữu. Dạng thô có hình sắc, do bốn đại, sống nhờ thức ăn vật chất. Dạng do tâm tạo có hình sắc, đầy đủ chi phần lớn nhỏ, không thiếu giác quan. Dạng vô sắc không có hình sắc, do tưởng tạo thành.",
+            "Bản Minh Châu dùng ngã chấp cho thuật ngữ này; ở đây giữ dạng hiện hữu để không rút cả ba thành thái độ tâm lý. Cách gọi chúng được làm rõ ở phần đối thoại với Citta và kết luận về quy ước thế gian."
+          ]
+        },
+        {
+          "id": "abandonment",
+          "kind": "teaching",
+          "heading": "Từ bỏ và sự viên mãn trí tuệ",
+          "meaningUnits": [
+            "abandon-gross",
+            "abandon-mind",
+            "abandon-formless"
+          ],
+          "paragraphs": [
+            "Với dạng thô, Phật dạy để từ bỏ: thực hành theo đó, pháp ô nhiễm được bỏ, pháp làm trong sạch tăng trưởng, và ngay đời này người tu tự thắng tri, chứng và an trú trí tuệ viên mãn, rộng lớn. Ngài dự liệu người nghe có thể nghĩ đủ các kết quả ấy nhưng đời sống vẫn khổ, rồi bác cách nghĩ đó.",
+            "Cùng kết quả bỏ nhiễm, tăng tịnh, tự chứng trí tuệ hiện đời, có hân hoan, hỷ, an tịnh, chánh niệm, tỉnh giác và an lạc trong đời sống. Đó là đầy đủ những phẩm tính được nêu, không chỉ một cảm thọ dễ chịu.",
+            "Dạng do tâm tạo được dạy từ bỏ bằng cùng quan hệ thực hành và kết quả; giả định đời sống vẫn khổ được bác với đủ sáu phẩm tính vừa kể. Dạng vô sắc được xét riêng lần thứ ba, giữ trọn cả vế điều kiện, kết quả trí tuệ và lời bác cùng an lạc. Từ bỏ ở đây nằm trong tiến trình tu tập ấy, không chỉ đổi sang một dạng hiện hữu khác."
+          ]
+        },
+        {
+          "id": "demonstrable",
+          "kind": "teaching",
+          "heading": "Câu trả lời chỉ rõ điều được từ bỏ",
+          "meaningUnits": [
+            "point-gross",
+            "point-mind",
+            "point-formless"
+          ],
+          "paragraphs": [
+            "Phật đặt ba trường hợp người ngoài hỏi: dạng hiện hữu thô, do tâm tạo hoặc vô sắc nào mà các vị dạy Pháp để từ bỏ? Với mỗi dạng, câu đáp chỉ rõ chính dạng ấy, không nói về một đối tượng không được nhận diện.",
+            "Cả câu hỏi và câu đáp của từng trường hợp đều giữ kết quả có điều kiện: thực hành như vậy thì bỏ ô nhiễm, tăng trong sạch, ngay đời này tự thắng tri, chứng và an trú trí tuệ viên mãn, rộng lớn. Sau trường hợp vô sắc, Poṭṭhapāda đồng ý lời nói ấy có cơ sở kiểm chứng. Đây là phép đối chiếu trong mạch kinh, không phải báo cáo một thí nghiệm hiện đại."
+          ]
+        },
+        {
+          "id": "ladder-beneath-palace",
+          "kind": "teaching",
+          "heading": "Chiếc thang đặt dưới chính tòa lầu",
+          "meaningUnits": [
+            "known-ladder",
+            "recheck-known"
+          ],
+          "paragraphs": [
+            "Phật đổi ví dụ: thang được dựng ngay bên dưới tòa lầu định leo. Được hỏi bốn hướng đông, nam, tây, bắc và lầu cao, thấp hay vừa, người làm chỉ chính tòa lầu này, nơi thang được dựng bên dưới. Poṭṭhapāda xác nhận lời ấy có cơ sở.",
+            "Ngài áp trở lại câu hỏi về ba dạng hiện hữu, với các chỗ lược ở dạng thô và tâm tạo, rồi đầy đủ trường hợp vô sắc. Câu đáp chỉ chính dạng ấy, cùng đường thực hành bỏ nhiễm, tăng tịnh, tự chứng trí tuệ viên mãn hiện đời. Chủ hội lại xác nhận có cơ sở. Lời chỉ rõ và việc thực hành được giữ cùng nhau."
+          ]
+        },
+        {
+          "id": "cittas-question",
+          "kind": "teaching",
+          "heading": "Từ thật–hư sang tên gọi theo lúc",
+          "meaningUnits": [
+            "citta-question",
+            "names"
+          ],
+          "paragraphs": [
+            "Citta hỏi khi có một dạng thì nó thật còn hai dạng kia hư giả hay không: dạng thô so với tâm tạo/vô sắc, dạng tâm tạo so với thô/vô sắc, dạng vô sắc so với thô/tâm tạo.",
+            "Phật trả lời rằng lúc có dạng thô, chỉ gọi là thô, không gọi hai dạng kia; lúc có dạng tâm tạo, chỉ gọi tâm tạo; lúc có dạng vô sắc, chỉ gọi vô sắc. Mỗi lời đáp đều loại hai tên còn lại tại lúc đang xét. Phật dùng cách nói được gọi, chuyển trọng tâm sang việc sử dụng tên, không chỉ lặp lại cặp thật/hư trong câu hỏi."
+          ]
+        },
+        {
+          "id": "three-times",
+          "kind": "teaching",
+          "heading": "Sự hiện hữu được hỏi theo ba thời",
+          "meaningUnits": [
+            "three-times"
+          ],
+          "paragraphs": [
+            "Phật giả định có người hỏi Citta: ông đã có trong quá khứ, không phải không có; sẽ có trong tương lai, không phải sẽ không có; đang có ở hiện tại, không phải không có, đúng không? Citta nhắc lại câu hỏi rồi nói mình sẽ trả lời đã có, sẽ có, đang có, giữ cả ba vế khẳng định cùng phủ định tương ứng.",
+            "Đây là câu trả lời của Citta trong cuộc hỏi giả định. Nó chuẩn bị cho việc xem mỗi dạng hiện hữu được nói là thật ở thời điểm nào."
+          ]
+        },
+        {
+          "id": "time-qualified",
+          "kind": "teaching",
+          "heading": "Thật tại thời điểm được chỉ định",
+          "meaningUnits": [
+            "real-in-time",
+            "names-again"
+          ],
+          "paragraphs": [
+            "Nếu được hỏi dạng quá khứ thật còn tương lai/hiện tại hư, dạng tương lai thật còn quá khứ/hiện tại hư, hoặc dạng hiện tại thật còn quá khứ/tương lai hư, Citta trả lời có phân định thời gian.",
+            "Dạng quá khứ là thật tại thời điểm quá khứ ấy, hai thời khác không thật ở lúc đó. Dạng tương lai sẽ thật tại thời điểm ấy, hai thời khác không thật khi ấy. Dạng hiện tại là thật tại hiện tại, hai thời khác không thật ở thời điểm đang xét. Cụm tại thời điểm ấy giữ giới hạn câu trả lời.",
+            "Phật áp tương tự vào ba dạng: khi có thô, tâm tạo hoặc vô sắc thì dùng tên tương ứng, không hai tên kia. Lời lặp đưa cuộc bàn thời gian trở về câu hỏi tên gọi ban đầu."
+          ]
+        },
+        {
+          "id": "milk-language",
+          "kind": "teaching",
+          "heading": "Quy ước được dùng mà không nắm giữ",
+          "meaningUnits": [
+            "milk",
+            "conventions"
+          ],
+          "paragraphs": [
+            "Ví dụ từ bò có sữa; từ sữa có sữa đông; từ đó có bơ, bơ lỏng, rồi tinh chất bơ. Lúc là sữa chỉ gọi sữa, không bốn tên khác. Khi là sữa đông, bơ, bơ lỏng hay tinh chất bơ thì cũng chỉ gọi đúng loại đang có. Chuỗi giữ năm tên, không cần thêm đánh giá loại nào cao hơn.",
+            "Phật lại đối chiếu ba dạng hiện hữu rồi kết: đây là tên gọi chung, cách dùng từ, cách nói và quy ước của thế gian. Như Lai sử dụng chúng mà không chấp thủ. Việc nói theo quy ước vẫn có thể chính xác theo cảnh và thời, đồng thời không nắm cách gọi như một tự ngã cố định."
+          ]
+        },
+        {
+          "id": "different-commitments",
+          "kind": "teaching",
+          "heading": "Quy y tại gia và xin xuất gia",
+          "meaningUnits": [
+            "lay-refuge",
+            "citta-refuge"
+          ],
+          "paragraphs": [
+            "Poṭṭhapāda tán thán hai lần, ví lời dạy như dựng lại vật úp, phơi vật che kín, chỉ đường người lạc và đưa đèn dầu vào tối cho người có mắt thấy. Ông nhận Pháp được mở bằng nhiều cách, quy y Phật, Pháp, Tăng tỳ-kheo, xin được ghi nhận là nam cư sĩ trọn đời kể từ hôm ấy.",
+            "Citta cũng tán thán hai lần, tự dùng bốn ví dụ ấy và xin quy y đủ ba. Ông xin thêm được xuất gia và thọ cụ túc giới nơi Phật. Hai người có cùng lời tin nhận nhưng lời nguyện tiếp tục khác nhau."
+          ]
+        },
+        {
+          "id": "attainment",
+          "kind": "teaching",
+          "heading": "Citta chứng cứu cánh phạm hạnh",
+          "meaningUnits": [
+            "fruit"
+          ],
+          "paragraphs": [
+            "Citta được xuất gia và thọ cụ túc. Không lâu sau thọ giới, Tôn giả sống một mình, viễn ly, không phóng dật, nhiệt tâm, tinh cần. Chẳng bao lâu, ngay đời này tự thắng tri, chứng và an trú cứu cánh vô thượng của phạm hạnh, mục đích người con nhà lành chân chánh rời gia đình sống không gia đình hướng tới.",
+            "Vị ấy biết sinh đã tận, phạm hạnh đã thành, việc cần làm đã làm, không còn trở lại trạng thái hiện hữu này. Citta trở thành một trong các bậc A-la-hán. Nhãn cuối xác nhận Kinh Poṭṭhapāda thứ chín kết thúc; kết quả ấy được gắn với Citta sau đời sống tu tập."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Một mục tiêu cần có nội dung xác định",
+          "meaningUnits": [
+            "unknown-ladder",
+            "known-ladder",
+            "point-gross",
+            "point-mind",
+            "point-formless"
+          ],
+          "paragraphs": [
+            "Trong một kế hoạch làm việc, lời hứa đạt kết quả tốt hơn sẽ rõ hơn khi người nói chỉ được kết quả nào, bước thực hiện nào và căn cứ đánh giá nào. Đây là liên hệ với hai chiếc thang để suy xét tính rõ ràng của lời nói. Nó không đồng nhất thành công công việc với trí tuệ hay giải thoát mà kinh nêu."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Ghi đúng giới hạn của điều mình khẳng định",
+          "meaningUnits": [
+            "knowledge",
+            "why-not",
+            "real-in-time",
+            "conventions"
+          ],
+          "paragraphs": [
+            "Chọn một nhận định mình thường nói chắc chắn. Ghi điều kiện và thời điểm của nó, điều mình đã biết, điều còn chưa biết; xem câu hỏi tiếp theo có giúp giải quyết nỗi khổ hoặc hành vi bất thiện cụ thể nào không. Đây là gợi ý biên tập cho đời thường, không thay thế tiến trình thiền và không phải phép xác nhận quả chứng."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "DN9 — Hiểu sự thay đổi và dùng tên gọi đúng",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Buổi sáng và cuộc gặp",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "visit"
+          ],
+          "paragraphs": [
+            "Kinh Poṭṭhapāda là bài thứ chín trong Trường Bộ. Người truyền kinh kể Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika. Poṭṭhapāda cùng khoảng ba trăm du sĩ ở hội trường một mái của Mallikā, nơi có hàng cây tinduka và các cuộc bàn học thuyết.",
+            "Sáng hôm ấy Phật mặc y, mang bát cùng y ngoài vào thành khất thực. Thấy còn quá sớm, Ngài nghĩ nên đến hội trường gặp Poṭṭhapāda, rồi thực hiện ý định đó. Câu chuyện bắt đầu từ một cuộc ghé thăm."
+          ]
+        },
+        {
+          "id": "talk",
+          "kind": "teaching",
+          "heading": "Hội đang bàn những chuyện gì?",
+          "meaningUnits": [
+            "chatter"
+          ],
+          "paragraphs": [
+            "Các du sĩ ngồi nói lớn tiếng, náo động. Những chuyện được kể gồm vua, cướp, đại thần, quân đội, sợ hãi, chiến tranh; ăn uống, vải, giường, tràng hoa, hương; bà con, xe, làng, thị trấn, thành phố và quốc gia.",
+            "Danh sách tiếp là phụ nữ, anh hùng, đường phố, bến nước, người đã mất, chuyện linh tinh, thế giới, biển cả, hiện hữu và không hiện hữu. Kinh gọi cuộc bàn ồn ào với các chuyện này là phù phiếm."
+          ]
+        },
+        {
+          "id": "welcome",
+          "kind": "teaching",
+          "heading": "Yên lặng để đón người khách",
+          "meaningUnits": [
+            "quiet",
+            "seats"
+          ],
+          "paragraphs": [
+            "Poṭṭhapāda nhìn thấy Phật từ xa, bảo mọi người nhỏ tiếng. Ông nói Gotama ưa và khen yên lặng; có lẽ thấy hội yên, Ngài sẽ đến gần. Các du sĩ im lặng.",
+            "Khi Ngài đến, ông chào mừng, nói đã lâu mới được Ngài ghé và mời ghế đã soạn. Phật ngồi ghế ấy. Poṭṭhapāda lấy một ghế thấp ngồi một bên; Phật hỏi cuộc nói chuyện nào đang diễn ra và còn dang dở."
+          ]
+        },
+        {
+          "id": "earlier-debate",
+          "kind": "teaching",
+          "heading": "Một vấn đề từ mấy hôm trước",
+          "meaningUnits": [
+            "old-question",
+            "uncaused",
+            "entering-self"
+          ],
+          "paragraphs": [
+            "Poṭṭhapāda xin gác chuyện đang bàn, vì có thể kể lại sau. Ông muốn hỏi vấn đề nhiều nhóm tu đã bàn mấy hôm trước: sự chấm dứt của tưởng. Tưởng là sự nhận ra, ghi nhận đối tượng; không chỉ là tưởng tượng theo cách dùng thông thường.",
+            "Một nhóm bảo tưởng sinh diệt không cần nhân duyên: sinh thì có tưởng, diệt thì không tưởng. Người khác bác lời ấy, nói tưởng chính là tự ngã đi vào rồi đi ra; đi vào thì có tưởng, đi ra thì không. Hai cách giải này được Poṭṭhapāda thuật lại, chưa phải lời Phật dạy."
+          ]
+        },
+        {
+          "id": "two-more",
+          "kind": "teaching",
+          "heading": "Hai cách giải còn lại và lời thưa hỏi",
+          "meaningUnits": [
+            "ascetics-move",
+            "deities-move",
+            "ask-buddha"
+          ],
+          "paragraphs": [
+            "Người tiếp theo không đồng ý, nói có sa-môn, Bà-la-môn có thần lực và uy lực lớn đưa tưởng vào người khác, rồi kéo ra: đưa vào thì người ấy có tưởng, kéo ra thì không.",
+            "Lời giải khác lại giao việc ấy cho các vị trời có thần lực và uy lực lớn, cũng theo hai vế vào/có tưởng, ra/không tưởng. Poṭṭhapāda nhớ đến Phật, bậc Thiện Thệ hiểu rõ pháp này. Nay ông hỏi trực tiếp Ngài: tưởng chấm dứt thế nào?"
+          ]
+        },
+        {
+          "id": "cause",
+          "kind": "teaching",
+          "heading": "Nhân duyên và sự học tập",
+          "meaningUnits": [
+            "training",
+            "joy"
+          ],
+          "paragraphs": [
+            "Phật nói những người bảo tưởng sinh diệt không nhân duyên đã sai ngay từ đầu. Tưởng sinh và diệt có nguyên nhân, điều kiện. Do tu tập, một tưởng sinh và một tưởng chấm dứt.",
+            "Ngài dẫn sự xuất hiện của Như Lai A-la-hán Chánh Đẳng Giác và người tỳ-kheo thành tựu giới. Bản kinh lược các đoạn ở giữa. Đến mốc tiếp, vị tu thấy năm triền cái đã bỏ nơi mình: hân hoan sinh, rồi hỷ, thân an tịnh, cảm nhận lạc, tâm được định. Năm triền cái là những điều ngăn trở tâm; ở đây cần giữ đủ chuỗi chuyển biến được ghi."
+          ]
+        },
+        {
+          "id": "jhana-one",
+          "kind": "teaching",
+          "heading": "Thiền thứ nhất",
+          "meaningUnits": [
+            "first"
+          ],
+          "paragraphs": [
+            "Ly dục và các điều bất thiện, người tu chứng, trú thiền thứ nhất, có tầm và tứ, hỷ lạc do sự xa lìa sinh. Có thể hiểu tầm, tứ ở đây là hướng tâm tới rồi giữ tâm với đề mục.",
+            "Dục tưởng trước chấm dứt. Tưởng vi tế, chân thực về hỷ lạc do ly dục hiện diện. Phật kết đó là do tu tập mà một tưởng sinh, một tưởng diệt; đây là sự tu tập Ngài đang nói."
+          ]
+        },
+        {
+          "id": "jhana-two",
+          "kind": "teaching",
+          "heading": "Thiền thứ hai",
+          "meaningUnits": [
+            "second"
+          ],
+          "paragraphs": [
+            "Khi tầm và tứ lắng, người tu có nội tĩnh, nhất tâm, không tầm không tứ, chứng và trú thiền thứ hai với hỷ lạc do định.",
+            "Tưởng vi tế, chân thực về hỷ lạc do ly dục trước đó chấm dứt. Tưởng vi tế, chân thực về hỷ lạc do định hiện diện. Lời kết một tưởng sinh, một tưởng diệt do tu tập lại được nhắc."
+          ]
+        },
+        {
+          "id": "jhana-three",
+          "kind": "teaching",
+          "heading": "Thiền thứ ba",
+          "meaningUnits": [
+            "third"
+          ],
+          "paragraphs": [
+            "Vị ấy ly hỷ, trú xả, giữ chánh niệm tỉnh giác, thân cảm nhận lạc. Đó là thiền thứ ba; các bậc Thánh gọi xả, niệm, lạc trú. Xả là sự quân bình của tâm, không phải thờ ơ.",
+            "Tưởng về hỷ lạc do định trước chấm dứt, tưởng vi tế, chân thực về lạc cùng xả hiện diện. Phật xác định sinh diệt như vậy cũng do tu tập."
+          ]
+        },
+        {
+          "id": "jhana-four",
+          "kind": "teaching",
+          "heading": "Thiền thứ tư",
+          "meaningUnits": [
+            "fourth"
+          ],
+          "paragraphs": [
+            "Khi lạc và khổ được bỏ, hỷ ưu trước đã lắng, vị ấy chứng và trú thiền thứ tư: không khổ không lạc, xả niệm thanh tịnh.",
+            "Tưởng lạc cùng xả chấm dứt. Tưởng vi tế, chân thực về không khổ không lạc hiện diện. Lần nữa, Phật gọi đó là sự tu tập làm một tưởng sinh, một tưởng diệt."
+          ]
+        },
+        {
+          "id": "boundless-space",
+          "kind": "teaching",
+          "heading": "Không vô biên xứ",
+          "meaningUnits": [
+            "space"
+          ],
+          "paragraphs": [
+            "Vị tu vượt hết tưởng về sắc, các tưởng do va chạm lắng xuống, không tác ý đến các tưởng sai biệt. Biết hư không vô biên, vị ấy chứng và trú Không vô biên xứ.",
+            "Tưởng về sắc trước chấm dứt, tưởng vi tế chân thực về Không vô biên xứ hiện diện. Sinh diệt ấy do tu tập. Đoạn này nêu sắc tưởng, không thêm một tính chất phát sáng không có trong câu Pāli."
+          ]
+        },
+        {
+          "id": "boundless-consciousness",
+          "kind": "teaching",
+          "heading": "Thức vô biên xứ",
+          "meaningUnits": [
+            "consciousness"
+          ],
+          "paragraphs": [
+            "Vượt hoàn toàn Không vô biên xứ, biết thức vô biên, vị ấy chứng và trú Thức vô biên xứ.",
+            "Tưởng vi tế, chân thực về xứ không trước đó chấm dứt; tưởng vi tế, chân thực về xứ thức hiện diện. Phật nhắc đây cũng là một tưởng sinh, một tưởng diệt do tu tập."
+          ]
+        },
+        {
+          "id": "nothing",
+          "kind": "teaching",
+          "heading": "Vô sở hữu xứ",
+          "meaningUnits": [
+            "nothingness"
+          ],
+          "paragraphs": [
+            "Vượt hoàn toàn Thức vô biên xứ, biết không có gì cả, vị ấy chứng và trú Vô sở hữu xứ.",
+            "Tưởng vi tế, chân thực về xứ thức chấm dứt; tưởng vi tế, chân thực về Vô sở hữu xứ hiện diện. Phật lặp kết luận sinh diệt do tu tập. Không có gì cả là nội dung cảnh thiền ở đây, không phải lời bảo mọi điều đều không có."
+          ]
+        },
+        {
+          "id": "peak",
+          "kind": "teaching",
+          "heading": "Tự chủ đối với tưởng rồi chạm sự chấm dứt",
+          "meaningUnits": [
+            "peak"
+          ],
+          "paragraphs": [
+            "Từ khi tự chủ đối với tưởng của mình, vị tu đi dần qua các trạng thái đến đỉnh của tưởng. Đây là cách hiểu sakasaññī theo bản Việt dự án; có bản dịch là tự mình khởi tưởng.",
+            "Tại đỉnh, vị ấy nhận thấy cố ý thì tệ hơn, không cố ý tốt hơn. Nếu cố ý và tạo tác, tưởng hiện có sẽ diệt, nhưng tưởng thô hơn sẽ sinh. Vị ấy không cố ý, không tạo tác; tưởng ấy diệt, tưởng thô khác không sinh lên.",
+            "Vị ấy chạm sự chấm dứt. Phật gọi đây là chứng nhập với tỉnh giác vào sự chấm dứt tuần tự của tưởng. Đoạn giữ cả tính tuần tự lẫn tỉnh giác, không chỉ nói tâm trở nên trống."
+          ]
+        },
+        {
+          "id": "understanding",
+          "kind": "teaching",
+          "heading": "Nhắc lại điều đã nghe",
+          "meaningUnits": [
+            "repeat-peak",
+            "one-many"
+          ],
+          "paragraphs": [
+            "Phật hỏi Poṭṭhapāda trước đây từng nghe cách chứng nhập ấy chưa. Ông đáp chưa, rồi nhắc lại trọn mạch: tự chủ tưởng, đi đến đỉnh, biết hậu quả của cố ý/tạo tác, không tiếp tục hai việc ấy, tưởng diệt mà tưởng thô không sinh, chạm chấm dứt với tỉnh giác. Phật xác nhận đúng.",
+            "Ông hỏi chỉ có một đỉnh hay nhiều đỉnh. Phật nói cả một lẫn nhiều. Ngài giải thích tùy cách chạm sự chấm dứt mà gọi đỉnh theo cách ấy. Lời đáp không đưa thêm số lượng đỉnh cụ thể."
+          ]
+        },
+        {
+          "id": "knowing",
+          "kind": "teaching",
+          "heading": "Tưởng sinh trước, trí sinh sau",
+          "meaningUnits": [
+            "knowledge"
+          ],
+          "paragraphs": [
+            "Poṭṭhapāda hỏi tưởng sinh trước hay trí sinh trước, hoặc cả hai cùng sinh. Phật trả lời tưởng sinh trước, trí sinh sau, và do tưởng sinh mà trí sinh.",
+            "Vị ấy biết rõ trí mình sinh do điều kiện này. Phật nhắc lại đúng quan hệ ấy. Cần đọc cả thứ tự lẫn điều kiện, và giữ tưởng khác với trí trong cuộc hỏi đáp."
+          ]
+        },
+        {
+          "id": "gross-self",
+          "kind": "teaching",
+          "heading": "Người hỏi đang gọi gì là tự ngã?",
+          "meaningUnits": [
+            "gross-self"
+          ],
+          "paragraphs": [
+            "Ông hỏi tưởng có phải tự ngã hay tưởng và tự ngã khác nhau. Phật hỏi ông tin loại tự ngã nào. Ông nêu tự ngã thô, có hình sắc, do bốn đại, sống bằng thức ăn vật chất.",
+            "Phật nói nếu tự ngã được hiểu như vậy, tưởng khác nó: cái được nêu vẫn còn mà tưởng này sinh, tưởng kia diệt. Chữ nếu cho thấy Ngài đang xét cách hiểu người hỏi đưa ra."
+          ]
+        },
+        {
+          "id": "other-selves",
+          "kind": "teaching",
+          "heading": "Hai cách hiểu khác cũng được xét",
+          "meaningUnits": [
+            "mind-self",
+            "formless-self"
+          ],
+          "paragraphs": [
+            "Poṭṭhapāda nói tự ngã do tâm tạo, đầy đủ mọi chi phần lớn nhỏ và giác quan. Phật lại dùng điều kiện nếu: trong lúc cái được giả định còn đó, tưởng vẫn sinh diệt, nên tưởng và tự ngã ấy khác.",
+            "Ông lại đề xuất tự ngã vô sắc, do tưởng tạo thành. Câu đáp cũng xét giả định ấy: cái được nêu còn mà những tưởng khác nhau sinh diệt. Không nên nhập lời đề xuất của Poṭṭhapāda thành một lời Phật xác lập tự ngã cố định."
+          ]
+        },
+        {
+          "id": "difficulty",
+          "kind": "teaching",
+          "heading": "Năm khác biệt trong nền tảng tu học",
+          "meaningUnits": [
+            "different-basis",
+            "eternal"
+          ],
+          "paragraphs": [
+            "Ông hỏi mình có thể biết tưởng là ngã hay khác ngã không. Phật nói điều này khó cho ông vì khác quan điểm, khác sự chấp nhận, khác sở thích, khác tu tập và khác thầy.",
+            "Poṭṭhapāda nhắc các khác biệt rồi hỏi sang thế giới thường còn, chỉ điều ấy thật ngoài ra sai. Phật không tuyên bố như vậy. Khi hỏi thế giới không thường còn, cũng theo lời độc nhất đúng, ông nhận cùng câu trả lời không tuyên bố."
+          ]
+        },
+        {
+          "id": "remaining-questions",
+          "kind": "teaching",
+          "heading": "Giữ đủ những câu không tuyên bố",
+          "meaningUnits": [
+            "eight-questions"
+          ],
+          "paragraphs": [
+            "Tám mệnh đề kế là thế giới hữu hạn, thế giới vô hạn; sinh mạng và thân là một, hoặc khác nhau; Như Lai sau chết tồn tại, không tồn tại, vừa tồn tại vừa không, hoặc không phải tồn tại cũng không phải không tồn tại.",
+            "Cùng hai mệnh đề thường còn và không thường còn, đó là mười vấn đề. Chúng mang khuôn chỉ điều này thật, ngoài ra sai. Phật không tuyên bố các điều ấy; bản có chỗ viết lược trong chuỗi."
+          ]
+        },
+        {
+          "id": "why",
+          "kind": "teaching",
+          "heading": "Mục đích của lời dạy",
+          "meaningUnits": [
+            "why-not",
+            "truths-leaving"
+          ],
+          "paragraphs": [
+            "Phật giải thích các mệnh đề ấy không gắn với lợi ích, Pháp và nền tảng đời phạm hạnh; không đưa đến nhàm chán, ly tham, chấm dứt, tịch tịnh, thắng trí, giác ngộ, Niết-bàn. Vì thế Ngài không tuyên bố.",
+            "Ngài tuyên bố khổ, nguồn gốc khổ, sự chấm dứt khổ và con đường đưa đến chấm dứt khổ. Vì bốn điều này gắn lợi ích, Pháp, nền tảng phạm hạnh và đưa đến đủ bảy mục đích vừa nêu.",
+            "Poṭṭhapāda tán đồng hai lần, rồi thưa để Ngài tùy thời làm việc. Phật đứng dậy ra đi. Phần đã tuyên bố và phần chưa tuyên bố đều có lý do rõ trong lời đáp."
+          ]
+        },
+        {
+          "id": "mocked",
+          "kind": "teaching",
+          "heading": "Poṭṭhapāda giải thích vì sao tán đồng",
+          "meaningUnits": [
+            "mocking"
+          ],
+          "paragraphs": [
+            "Phật đi chưa lâu, các du sĩ vây quanh Poṭṭhapāda, dùng lời châm chọc gay gắt. Họ bảo Gotama nói gì ông cũng khen, trong khi không thấy lời dứt khoát nào về mười vấn đề vừa kể.",
+            "Ông nhận cũng không thấy lời dứt khoát về những điều ấy. Nhưng ông nói con đường Gotama chỉ có thật, xác thực, đúng như thực, phù hợp tính ổn định và quy luật của Pháp. Một người có trí sao lại không nhận lời khéo nói là khéo nói? Đó là lý do ông tán đồng."
+          ]
+        },
+        {
+          "id": "second-visit",
+          "kind": "teaching",
+          "heading": "Citta cùng tới sau hai hoặc ba ngày",
+          "meaningUnits": [
+            "return"
+          ],
+          "paragraphs": [
+            "Hai hoặc ba ngày sau, Poṭṭhapāda cùng Citta Hatthisāriputta đến gặp Phật. Citta đảnh lễ rồi ngồi bên. Poṭṭhapāda chào hỏi thân thiện, sau đó cũng ngồi một bên.",
+            "Poṭṭhapāda thuật việc mình bị chế giễu khi Phật vừa đi, lời họ nhại ông và đủ mười vấn đề họ nêu. Ông cũng thuật lời đáp của mình về con đường có thật, xác thực, như thực, đúng quy luật của Pháp. Đây là ông kể lại cuộc trao đổi trước đó."
+          ]
+        },
+        {
+          "id": "two-kinds",
+          "kind": "teaching",
+          "heading": "Phật chỉ rõ hai loại điều đã dạy",
+          "meaningUnits": [
+            "noncategorical",
+            "categorical"
+          ],
+          "paragraphs": [
+            "Phật gọi các du sĩ kia là mù, không mắt, và riêng Poṭṭhapāda có mắt giữa họ. Hình ảnh này nói về sự hiểu trong câu chuyện. Ngài nói có những pháp đã dạy dứt khoát, có những pháp không dứt khoát.",
+            "Ngài nhắc lại mười mệnh đề về thế giới, sinh mạng với thân, và Như Lai sau chết, gọi chúng là không dứt khoát. Lý do vẫn là không gắn lợi ích, Pháp, nền tảng phạm hạnh, không đưa đến nhàm chán, ly tham, chấm dứt, tịch tịnh, thắng trí, giác ngộ và Niết-bàn.",
+            "Khổ, nguồn khổ, diệt khổ, đường diệt khổ được nhắc riêng là dứt khoát. Chúng gắn lợi ích, Pháp và nền tảng phạm hạnh, đưa đến đủ bảy mục đích ấy. Cả hai loại đều được giải thích lý do, không chỉ đặt tên."
+          ]
+        },
+        {
+          "id": "happy-claim",
+          "kind": "teaching",
+          "heading": "Căn cứ của lời nói về hạnh phúc sau chết",
+          "meaningUnits": [
+            "happy-self"
+          ],
+          "paragraphs": [
+            "Phật nói Ngài đến hỏi những người chủ trương tự ngã sau khi chết hoàn toàn hạnh phúc, không bệnh. Nếu họ xác nhận chủ trương ấy, Ngài hỏi tiếp bốn việc.",
+            "Họ có sống mà biết, thấy thế giới hoàn toàn hạnh phúc không? Họ đã nhận biết tự ngã hoàn toàn vui suốt một đêm, một ngày, nửa đêm hoặc nửa ngày chưa? Họ biết đường và cách tu để chứng thế giới ấy không?",
+            "Họ có nghe chư thiên đã sinh ở đó nói họ đang thực hành tốt, ngay thẳng, và chính các vị trời cũng đã thực hành như vậy để sinh về đó không? Cả bốn câu đều nhận lời đáp không. Poṭṭhapāda đồng ý rằng trong trường hợp ấy lời chủ trương không có cơ sở kiểm chứng."
+          ]
+        },
+        {
+          "id": "woman-example",
+          "kind": "teaching",
+          "heading": "Người được mong muốn mà chưa được biết",
+          "meaningUnits": [
+            "unknown-woman",
+            "recheck-woman"
+          ],
+          "paragraphs": [
+            "Phật ví một người nói mình mong và yêu thích phụ nữ đẹp nhất xứ. Người ấy không biết nàng là Sát-đế-lợi, Bà-la-môn, Phệ-sa hay Thủ-đà; không biết tên, họ, cao, thấp hay vừa; da đen, ngăm hay vàng nhạt; ở làng, thị trấn hay thành phố nào.",
+            "Được hỏi có phải mình mong người chưa biết và chưa thấy, anh ta đáp đúng. Poṭṭhapāda nhận lời ấy không có cơ sở. Những chi tiết tầng lớp và hình dáng là các điều được hỏi trong ví dụ, không phải cách đánh giá phẩm giá con người.",
+            "Phật trở lại chủ trương tự ngã vui và vô bệnh sau chết, lặp đủ bốn câu hỏi về biết thế giới, từng cảm biết trong các khoảng thời gian ấy, biết đường và nghe chư thiên. Các vị kia vẫn đáp không. Poṭṭhapāda lại đồng ý lời họ thiếu cơ sở."
+          ]
+        },
+        {
+          "id": "unseen-palace",
+          "kind": "teaching",
+          "heading": "Thang ở ngã tư và tòa lầu chưa biết",
+          "meaningUnits": [
+            "unknown-ladder",
+            "recheck-ladder"
+          ],
+          "paragraphs": [
+            "Có người làm thang ở ngã tư để lên lầu. Anh không biết lầu nằm ở đông, nam, tây hay bắc; cao, thấp hay vừa. Anh nhận đang làm thang cho nơi mình không biết, không thấy. Chủ hội đồng ý lời ấy không có cơ sở kiểm chứng.",
+            "Lần thứ ba, sau ví dụ này, Phật xét người nhận chủ trương tự ngã sau chết hoàn toàn hạnh phúc, không bệnh. Bốn câu hỏi về thế giới, trải nghiệm đủ bốn khoảng thời gian, con đường và tiếng chư thiên xác nhận đều được nêu lại, đều được đáp không. Poṭṭhapāda xác nhận kết luận thiếu cơ sở lần nữa."
+          ]
+        },
+        {
+          "id": "forms",
+          "kind": "teaching",
+          "heading": "Ba dạng hiện hữu và các thuộc tính",
+          "meaningUnits": [
+            "three-forms"
+          ],
+          "paragraphs": [
+            "Phật nêu ba dạng hiện hữu: thô, do tâm tạo, vô sắc. Dạng thô có hình sắc, do bốn đại tạo thành, sống nhờ thức ăn vật chất. Dạng do tâm tạo cũng có hình sắc, đủ chi phần lớn nhỏ, không thiếu giác quan. Dạng vô sắc không có hình sắc, do tưởng tạo.",
+            "Đây là cách dịch attapaṭilābha được dùng trong bản Việt dự án; bản Minh Châu dùng ngã chấp. Giữ các thuộc tính cụ thể giúp thấy đoạn không chỉ bàn một ý nghĩ tự cao hay một cảm xúc."
+          ]
+        },
+        {
+          "id": "gross-abandonment",
+          "kind": "teaching",
+          "heading": "Từ bỏ dạng thô bằng thực hành",
+          "meaningUnits": [
+            "abandon-gross"
+          ],
+          "paragraphs": [
+            "Phật dạy Pháp để từ bỏ dạng thô. Khi thực hành theo, pháp ô nhiễm được bỏ, pháp làm trong sạch tăng trưởng; ngay đời này người tu tự biết rõ, chứng và an trú trong trí tuệ viên mãn, rộng lớn.",
+            "Có thể người nghe nghĩ được như thế mà vẫn sống khổ. Phật bảo không nên nghĩ vậy: cùng các kết quả bỏ nhiễm, tăng tịnh và trí tuệ ấy, có hân hoan, hỷ, an tịnh, chánh niệm, tỉnh giác và sống an lạc. Niềm an lạc được đặt trong sự tu tập đầy đủ này."
+          ]
+        },
+        {
+          "id": "other-abandonments",
+          "kind": "teaching",
+          "heading": "Dạng tâm tạo và vô sắc cũng được từ bỏ",
+          "meaningUnits": [
+            "abandon-mind",
+            "abandon-formless"
+          ],
+          "paragraphs": [
+            "Với dạng do tâm tạo, Phật cũng dạy để từ bỏ. Thực hành theo thì ô nhiễm được bỏ, trong sạch tăng, ngay đời này tự chứng trí tuệ viên mãn rộng lớn. Ngài cũng bác ý nghĩ đời sống ấy vẫn khổ, nêu đủ hân hoan, hỷ, an tịnh, chánh niệm, tỉnh giác và an lạc.",
+            "Với dạng vô sắc, Ngài lại giữ đúng hai vế ấy: điều kiện thực hành dẫn đến bỏ nhiễm, tăng tịnh, tự chứng trí tuệ hiện đời; cùng việc bác sống khổ và xác nhận đủ sáu phẩm tính an lạc có niệm, có tỉnh giác. Cả ba dạng đều được dạy từ bỏ, không chỉ đổi một dạng lấy dạng khác."
+          ]
+        },
+        {
+          "id": "point-to-form",
+          "kind": "teaching",
+          "heading": "Nếu hỏi rõ điều nào được từ bỏ",
+          "meaningUnits": [
+            "point-gross",
+            "point-mind",
+            "point-formless"
+          ],
+          "paragraphs": [
+            "Phật đặt trường hợp người ngoài hỏi dạng thô nào được dạy từ bỏ. Câu đáp là chính dạng thô này. Hỏi dạng do tâm tạo thì đáp chính dạng do tâm tạo này. Hỏi dạng vô sắc thì đáp chính dạng vô sắc này.",
+            "Trong cả ba câu hỏi và câu đáp, có cùng kết quả thực hành: bỏ ô nhiễm, tăng trong sạch, ngay đời này tự biết rõ, chứng và an trú trí tuệ viên mãn rộng lớn. Sau lời đáp về vô sắc, Phật hỏi lời ấy có cơ sở kiểm chứng không; Poṭṭhapāda đáp có."
+          ]
+        },
+        {
+          "id": "visible-palace",
+          "kind": "teaching",
+          "heading": "Dựng thang ngay dưới tòa lầu",
+          "meaningUnits": [
+            "known-ladder",
+            "recheck-known"
+          ],
+          "paragraphs": [
+            "Ví dụ mới là người làm thang ngay bên dưới tòa lầu mình định leo. Khi được hỏi bốn hướng đông, nam, tây, bắc và độ cao cao, thấp hay vừa, anh chỉ chính tòa lầu này, nơi anh đang dựng thang bên dưới. Chủ hội nhận lời ấy có cơ sở.",
+            "Phật áp trở lại câu hỏi về ba dạng. Bản nhắc thô và tâm tạo bằng đoạn lược, rồi nêu đầy đủ vô sắc cùng đường thực hành bỏ ô nhiễm, tăng trong sạch, tự chứng trí tuệ viên mãn hiện đời. Câu đáp chỉ chính dạng này; Poṭṭhapāda lại xác nhận có cơ sở."
+          ]
+        },
+        {
+          "id": "citta-asks",
+          "kind": "teaching",
+          "heading": "Citta hỏi về thật và hư giả",
+          "meaningUnits": [
+            "citta-question",
+            "names"
+          ],
+          "paragraphs": [
+            "Citta lên tiếng: khi có dạng thô thì thô là thật, tâm tạo và vô sắc hư giả phải không? Khi có tâm tạo thì chỉ nó thật, hai dạng kia hư? Khi có vô sắc thì chỉ nó thật, hai dạng kia hư?",
+            "Phật đáp ở dạng nào thì được gọi bằng tên dạng ấy. Có thô thì gọi thô, không tâm tạo/vô sắc. Có tâm tạo thì gọi tâm tạo, không thô/vô sắc. Có vô sắc thì gọi vô sắc, không thô/tâm tạo.",
+            "Lời đáp giữ việc gọi đúng theo lúc, thay vì chỉ lấy cặp thật/hư làm lời kết. Điều này sẽ được giải thích tiếp qua thời gian và sản phẩm từ sữa."
+          ]
+        },
+        {
+          "id": "existence-in-time",
+          "kind": "teaching",
+          "heading": "Câu trả lời về quá khứ, tương lai, hiện tại",
+          "meaningUnits": [
+            "three-times"
+          ],
+          "paragraphs": [
+            "Phật hỏi nếu người ta hỏi Citta đã tồn tại trong quá khứ, sẽ tồn tại trong tương lai và đang tồn tại hiện tại, không phải không tồn tại, thì ông trả lời sao.",
+            "Citta nhắc lại câu hỏi rồi đáp mình đã có, sẽ có và đang có; cả ba vế đều giữ không phải không có. Ông nói mình sẽ trả lời như vậy nếu được hỏi. Đây là phần mở cho câu hỏi chi tiết hơn về từng thời."
+          ]
+        },
+        {
+          "id": "right-time",
+          "kind": "teaching",
+          "heading": "Giữ đúng thời điểm của mỗi dạng",
+          "meaningUnits": [
+            "real-in-time",
+            "names-again"
+          ],
+          "paragraphs": [
+            "Phật giả định người ta hỏi: dạng quá khứ của ông là thật, còn tương lai và hiện tại hư; dạng tương lai thật, còn quá khứ và hiện tại hư; hay dạng hiện tại thật, còn quá khứ và tương lai hư?",
+            "Citta nhắc lại và đáp: dạng quá khứ thật vào chính thời điểm quá khứ ấy, hai thời kia khi ấy hư. Dạng tương lai sẽ thật vào thời điểm ấy, hai thời kia khi ấy hư. Dạng hiện tại thật ở hiện tại, hai thời kia không thật tại thời điểm này.",
+            "Phật quay lại ba dạng hiện hữu: khi là thô, tâm tạo hoặc vô sắc, chỉ dùng tên đang tương ứng, không hai tên khác. Cụm vào thời điểm ấy giúp giữ đúng giới hạn lời nói, không xóa bỏ những thời khác."
+          ]
+        },
+        {
+          "id": "milk",
+          "kind": "teaching",
+          "heading": "Ví dụ sữa, sữa đông và bơ",
+          "meaningUnits": [
+            "milk"
+          ],
+          "paragraphs": [
+            "Phật ví từ bò có sữa; từ sữa có sữa đông; từ sữa đông có bơ; từ bơ có bơ lỏng; từ bơ lỏng có tinh chất bơ.",
+            "Khi là sữa, chỉ gọi sữa, không bốn tên khác. Khi đã là sữa đông, bơ, bơ lỏng hay tinh chất bơ, cũng dùng tên đúng trạng thái đó. Kinh giữ năm tên trong dòng chuyển biến này."
+          ]
+        },
+        {
+          "id": "convention",
+          "kind": "teaching",
+          "heading": "Dùng lời nói của đời mà không chấp",
+          "meaningUnits": [
+            "conventions"
+          ],
+          "paragraphs": [
+            "Phật lại áp tương tự vào ba dạng thô, tâm tạo và vô sắc: ở dạng nào thì gọi tên dạng ấy. Ngài nói đây là những tên gọi, cách dùng từ, cách nói và quy ước thông thường của thế gian.",
+            "Như Lai vẫn sử dụng chúng, nhưng không chấp thủ chúng. Như vậy, gọi đúng điều đang nói vẫn cần thiết; đồng thời tên gọi không bị nắm cứng như một tự ngã không đổi."
+          ]
+        },
+        {
+          "id": "lay-follower",
+          "kind": "teaching",
+          "heading": "Poṭṭhapāda xin làm nam cư sĩ",
+          "meaningUnits": [
+            "lay-refuge"
+          ],
+          "paragraphs": [
+            "Poṭṭhapāda khen hai lần. Ông ví lời dạy như dựng vật úp, mở vật che, chỉ đường cho người lạc, đem đèn dầu vào tối để người có mắt thấy; Pháp đã được mở bằng nhiều cách.",
+            "Ông quy y Phật, Pháp và Tăng tỳ-kheo, xin được ghi nhận là nam cư sĩ đã quy y từ hôm ấy đến trọn đời. Đây là lời chọn đời sống người học tại gia của ông."
+          ]
+        },
+        {
+          "id": "citta-ordination",
+          "kind": "teaching",
+          "heading": "Citta xin xuất gia",
+          "meaningUnits": [
+            "citta-refuge"
+          ],
+          "paragraphs": [
+            "Citta cũng tán thán hai lần và dùng đủ bốn hình ảnh dựng úp, mở kín, chỉ đường, đèn trong tối cho người có mắt. Ông cũng quy y Phật, Pháp, Tăng tỳ-kheo.",
+            "Lời xin tiếp của Citta là được xuất gia và thọ cụ túc giới nơi Phật, nghĩa là nhận giới đầy đủ làm tỳ-kheo. Cần phân biệt lời xin này với lời làm cư sĩ của Poṭṭhapāda."
+          ]
+        },
+        {
+          "id": "completion",
+          "kind": "teaching",
+          "heading": "Citta đạt mục đích đời phạm hạnh",
+          "meaningUnits": [
+            "fruit"
+          ],
+          "paragraphs": [
+            "Citta được xuất gia và thọ cụ túc. Không lâu sau thọ giới, Tôn giả sống một mình, viễn ly, không phóng dật, nhiệt tâm, tinh cần. Chẳng bao lâu, ngay đời này tự biết rõ, chứng và an trú cứu cánh vô thượng của phạm hạnh, mục đích người con nhà lành chân chánh rời gia đình sống không gia đình hướng tới.",
+            "Vị ấy biết sinh đã tận, phạm hạnh đã thành, việc cần làm đã làm, không còn trở lại trạng thái hiện hữu này. Citta trở thành một bậc A-la-hán. Kinh Poṭṭhapāda thứ chín kết thúc; lời xác nhận quả chứng thuộc về Citta."
+          ]
+        },
+        {
+          "id": "reflection",
+          "kind": "practice",
+          "heading": "Hỏi lại một điều mình thường quả quyết",
+          "meaningUnits": [
+            "happy-self",
+            "why-not",
+            "knowledge"
+          ],
+          "paragraphs": [
+            "Có thể chọn một nhận định quen và tự hỏi mình dựa vào điều đã biết nào, còn thiếu điều gì, và tìm hiểu tiếp giúp tháo gỡ điều khổ hay bất thiện nào. Cho phép mình nói chưa biết cũng là giữ lời nói chính xác. Đây là gợi ý suy xét hiện đại, không phải phép tự chứng sự diệt tưởng."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Một tên gọi trong gia đình",
+          "meaningUnits": [
+            "names",
+            "real-in-time",
+            "conventions"
+          ],
+          "paragraphs": [
+            "Chẳng hạn cùng một người có thể được gọi là người con trong quan hệ này, là cha hoặc mẹ trong quan hệ khác. Muốn nói đúng cần biết đang nói ở quan hệ nào. Ví dụ chỉ gợi cách dùng tên có phạm vi; nó không thay thế ba dạng hiện hữu, các thời và sự giải thoát được nói trong kinh."
+          ]
+        }
+      ]
+    }
+  }
+}

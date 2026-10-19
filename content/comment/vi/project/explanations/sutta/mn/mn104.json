@@ -1,0 +1,1360 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn104",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn104_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "0768c8e1a95ecfa21c7a7fd8ecd7b39d35aee5b7505b3e30a218f2fd96ff558d"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn104_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "92b5304d3232737d8ec008b7acf5d2d005ef6759178a957f0bc958f160f31de0"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn104_translation-vi-project.json",
+      "commit": "ecf34c8858883d2136d36ddc59123c09c043cec9",
+      "sha256": "e6c44e32e142633d854bf297ffc0c26f906edb13476bfe8fbc7f3313f3d2848f"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn104.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "f392021c852b70aaccf298ae603aa1378103ed2c95aa4fc3de6de6bb045dd0e6"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn104_comment-vi-project.json",
+      "commit": "ecf34c8858883d2136d36ddc59123c09c043cec9",
+      "sha256": "da2f397a691b15b36878560a044a260f1e4abb8f20b10a2ddc7dd73d25e0c265"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Tên bài",
+      "segments": [
+        "mn104:0.1",
+        "mn104:0.2"
+      ],
+      "summary": "Trung Bộ 104, Kinh Sāmagāma."
+    },
+    {
+      "id": "setting",
+      "title": "Ở Sāmagāma",
+      "segments": [
+        "mn104:1.1",
+        "mn104:1.2"
+      ],
+      "summary": "Người truyền kinh đã nghe Phật ở làng Sāmagāma, xứ Sakiya."
+    },
+    {
+      "id": "split",
+      "title": "Sau khi vị thầy mất",
+      "segments": [
+        "mn104:2.1",
+        "mn104:2.2"
+      ],
+      "summary": "Nigaṇṭha Nāṭaputta vừa mất tại Pāvā; các Nigaṇṭha chia hai phe, tranh chấp, cãi vã, tranh luận, đâm nhau bằng lời như giáo."
+    },
+    {
+      "id": "barbs",
+      "title": "Những lời đấu khẩu",
+      "segments": [
+        "mn104:2.3"
+      ],
+      "summary": "Họ nói ông không hiểu/tôi hiểu/làm sao ông hiểu; ông tu sai/tôi đúng; tôi mạch lạc/ông không; đảo trước/sau; suy nghĩ lâu bị đảo; luận bị bác, bị khuất phục; thách gỡ luận hoặc thoát nếu có thể."
+    },
+    {
+      "id": "slaughter",
+      "title": "Hình ảnh tàn sát",
+      "segments": [
+        "mn104:2.4"
+      ],
+      "summary": "Tình trạng được ví dường như giữa các đệ tử Nāṭaputta chỉ còn tàn sát, không phải xác nhận sự giết người."
+    },
+    {
+      "id": "lay-disappointment",
+      "title": "Đệ tử tại gia thất vọng",
+      "segments": [
+        "mn104:2.5"
+      ],
+      "summary": "Đệ tử mặc trắng tại gia chán, lạnh nhạt, quay lưng; lời kể đánh giá Pháp Luật giảng/truyền dở, không đưa ra khỏi/đến an tịnh, không do bậc toàn giác dạy, đài kỷ niệm vỡ, không nơi nương."
+    },
+    {
+      "id": "cunda",
+      "title": "Cunda trình với Ānanda",
+      "segments": [
+        "mn104:3.1",
+        "mn104:3.2",
+        "mn104:3.3"
+      ],
+      "summary": "Sa-di Cunda an cư mùa mưa ở Pāvā xong tới Sāmagāma gặp Ānanda, lễ và ngồi một bên, kể toàn sự việc vừa nêu."
+    },
+    {
+      "id": "invitation",
+      "title": "Cùng đi gặp Phật",
+      "segments": [
+        "mn104:4.1",
+        "mn104:4.2",
+        "mn104:4.3",
+        "mn104:4.4"
+      ],
+      "summary": "Ānanda cho rằng đáng trình Phật, rủ Cunda cùng đến báo; Cunda vâng."
+    },
+    {
+      "id": "report",
+      "title": "Ānanda thuật lại",
+      "segments": [
+        "mn104:4.5",
+        "mn104:4.6",
+        "mn104:4.7",
+        "mn104:4.8"
+      ],
+      "summary": "Cả hai đến, lễ Phật, ngồi một bên; Ānanda thuật lời Cunda về Nāṭaputta mất và hai phe tới tình trạng không nơi nương."
+    },
+    {
+      "id": "concern",
+      "title": "Mối lo sau Phật mất",
+      "segments": [
+        "mn104:4.9",
+        "mn104:4.10",
+        "mn104:4.11"
+      ],
+      "summary": "Ānanda mong sau Phật mất Tăng không tranh chấp, vì sẽ bất lợi/bất hạnh/thiệt hại số đông và bất lợi/đau khổ cho trời/người."
+    },
+    {
+      "id": "path-question",
+      "title": "Hỏi về những nhóm pháp đã dạy",
+      "segments": [
+        "mn104:5.1",
+        "mn104:5.2",
+        "mn104:5.3"
+      ],
+      "summary": "Phật hỏi có thấy dù hai vị khác ý về các pháp Ngài trực tiếp biết và dạy: bốn niệm xứ, bốn chánh cần, bốn như ý túc, năm căn, năm lực, bảy giác chi, Thánh đạo tám ngành không."
+    },
+    {
+      "id": "path-answer",
+      "title": "Không thấy hai vị khác ý",
+      "segments": [
+        "mn104:5.4",
+        "mn104:5.5"
+      ],
+      "summary": "Ānanda nhắc đủ bảy nhóm ấy và thưa không thấy dù hai vị khác ý về chúng."
+    },
+    {
+      "id": "livelihood",
+      "title": "Lo về sinh sống và giới bổn",
+      "segments": [
+        "mn104:5.6",
+        "mn104:5.7"
+      ],
+      "summary": "Người bề ngoài vâng lời Phật có thể sau Phật mất gây tranh về cách sống/giới bổn, hại số đông và trời/người như đã nêu."
+    },
+    {
+      "id": "distinction",
+      "title": "Mức độ hệ trọng",
+      "segments": [
+        "mn104:5.8",
+        "mn104:5.9"
+      ],
+      "summary": "Phật gọi tranh cách sống/giới bổn là nhỏ; tranh về đạo và cách thực hành mới có cùng hậu quả lớn cho số đông/trời/người."
+    },
+    {
+      "id": "root-one",
+      "title": "Gốc đầu: giận và ôm hận",
+      "segments": [
+        "mn104:6.1",
+        "mn104:6.2",
+        "mn104:6.3"
+      ],
+      "summary": "Phật nêu sáu gốc tranh; đầu là tỳ-kheo hay giận và ôm hận."
+    },
+    {
+      "id": "root-one-harm",
+      "title": "Thiếu kính trọng rồi gây tranh",
+      "segments": [
+        "mn104:6.4",
+        "mn104:6.5"
+      ],
+      "summary": "Người như vậy không kính/trọng Thầy, Pháp, Tăng, không hoàn tất học; gây tranh dẫn hại số đông và trời/người."
+    },
+    {
+      "id": "root-one-response",
+      "title": "Hai nhánh thấy và không thấy",
+      "segments": [
+        "mn104:6.6",
+        "mn104:6.7",
+        "mn104:6.8"
+      ],
+      "summary": "Thấy gốc xấu ở mình hoặc ngoài thì nỗ lực bỏ; không thấy ở mình/ngoài thì tu để không khởi về sau. Đó là bỏ và ngăn tương lai."
+    },
+    {
+      "id": "other-roots",
+      "title": "Năm gốc tiếp",
+      "segments": [
+        "mn104:7-11.1",
+        "mn104:7-11.2",
+        "mn104:7-11.3",
+        "mn104:7-11.4",
+        "mn104:7-11.5"
+      ],
+      "summary": "Xúc phạm/khinh miệt; ganh tị/bỏn xẻn; gian trá/dối gạt; mong muốn xấu/quan điểm sai; bám kiến mình, giữ chặt, khó bỏ."
+    },
+    {
+      "id": "other-roots-harm",
+      "title": "Cùng chuỗi hệ quả",
+      "segments": [
+        "mn104:7-11.6",
+        "mn104:7-11.7"
+      ],
+      "summary": "Các gốc ấy có cùng hệ quả không kính/trọng Thầy, Pháp, Tăng, không trọn học, gây tranh hại số đông và trời/người."
+    },
+    {
+      "id": "other-roots-response",
+      "title": "Cùng phép từ bỏ và phòng ngừa",
+      "segments": [
+        "mn104:7-11.8",
+        "mn104:7-11.9",
+        "mn104:7-11.10",
+        "mn104:7-11.11"
+      ],
+      "summary": "Với từng gốc, thấy ở mình/ngoài thì nỗ lực bỏ, không thấy thì tu ngăn khởi tương lai; như vậy trừ và ngăn đủ sáu gốc."
+    },
+    {
+      "id": "four-issues",
+      "title": "Bốn loại vụ việc",
+      "segments": [
+        "mn104:12.1",
+        "mn104:12.2",
+        "mn104:12.3",
+        "mn104:12.4"
+      ],
+      "summary": "Bốn tránh sự: do tranh luận, do buộc lỗi, do phạm lỗi, do công việc."
+    },
+    {
+      "id": "seven-methods",
+      "title": "Bảy cách dàn xếp",
+      "segments": [
+        "mn104:13.1",
+        "mn104:13.2"
+      ],
+      "summary": "Làm lắng các tránh sự phát sinh bằng hiện tiền, ức niệm, bất si, theo thừa nhận, đa số, phán quyết nặng hơn, che rơm."
+    },
+    {
+      "id": "face-to-face",
+      "title": "Hiện tiền",
+      "segments": [
+        "mn104:14.1",
+        "mn104:14.2",
+        "mn104:14.3",
+        "mn104:14.4",
+        "mn104:14.5",
+        "mn104:14.6",
+        "mn104:14.7",
+        "mn104:14.8"
+      ],
+      "summary": "Khi tranh Pháp/phi Pháp, Luật/phi Luật, tất cả hòa hợp họp, xét kỹ đường lối Pháp, dàn xếp phù hợp đường lối; cách này giải một số vụ việc."
+    },
+    {
+      "id": "majority",
+      "title": "Đa số",
+      "segments": [
+        "mn104:15.1",
+        "mn104:15.2",
+        "mn104:15.3",
+        "mn104:15.4",
+        "mn104:15.5",
+        "mn104:15.6",
+        "mn104:15.7",
+        "mn104:15.8"
+      ],
+      "summary": "Nếu không giải ở trú xứ ấy, tới nơi nhiều tỳ-kheo hơn; tất cả hòa hợp họp, xét đường lối Pháp và giải phù hợp đường lối; cách này giải một số vụ việc."
+    },
+    {
+      "id": "recollection",
+      "title": "Ức niệm",
+      "segments": [
+        "mn104:16.1",
+        "mn104:16.2",
+        "mn104:16.3",
+        "mn104:16.4",
+        "mn104:16.5",
+        "mn104:16.6",
+        "mn104:16.7",
+        "mn104:16.8"
+      ],
+      "summary": "Bị buộc trọng tội ba-la-dị/cận ba-la-dị, được hỏi nhớ phạm không; đáp không nhớ phạm, được ban phán quyết ức niệm; giải một số vụ việc."
+    },
+    {
+      "id": "past-confusion-question",
+      "title": "Bất si: hỏi lại",
+      "segments": [
+        "mn104:17.1",
+        "mn104:17.2",
+        "mn104:17.3",
+        "mn104:17.4",
+        "mn104:17.5",
+        "mn104:17.6",
+        "mn104:17.7",
+        "mn104:17.8"
+      ],
+      "summary": "Bị buộc cùng loại trọng tội, nói không nhớ; bị truy hỏi, yêu cầu xét kỹ xem có nhớ phạm không."
+    },
+    {
+      "id": "past-confusion-answer",
+      "title": "Bất si: thời tâm loạn",
+      "segments": [
+        "mn104:17.9",
+        "mn104:17.10",
+        "mn104:17.11",
+        "mn104:17.12",
+        "mn104:17.13",
+        "mn104:17.14",
+        "mn104:17.15"
+      ],
+      "summary": "Vị ấy kể đã tâm loạn/đảo lộn, làm và nói nhiều điều không xứng người tu, không nhớ vì làm khi loạn; ban phán quyết bất si, giải một số vụ việc."
+    },
+    {
+      "id": "admission",
+      "title": "Tự bày tỏ lỗi",
+      "segments": [
+        "mn104:18.1",
+        "mn104:18.2",
+        "mn104:18.3"
+      ],
+      "summary": "Dù được buộc lỗi hay không, vị nhớ/mở/tỏ lỗi, đến vị nhiều tuổi hạ hơn, y một vai, lễ chân, ngồi xổm, chắp tay."
+    },
+    {
+      "id": "admission-dialogue",
+      "title": "Nhận và giữ về sau",
+      "segments": [
+        "mn104:18.4",
+        "mn104:18.5",
+        "mn104:18.6",
+        "mn104:18.7",
+        "mn104:18.8",
+        "mn104:18.9",
+        "mn104:18.10",
+        "mn104:18.11"
+      ],
+      "summary": "Nêu tên lỗi, xin sám hối; hỏi có thấy lỗi không, đáp thấy; dặn phòng hộ tương lai, hứa giữ; theo thừa nhận giải một số vụ việc."
+    },
+    {
+      "id": "penalty-denial",
+      "title": "Nặng hơn: phủ nhận rồi nhận nhẹ",
+      "segments": [
+        "mn104:19.1",
+        "mn104:19.2",
+        "mn104:19.3",
+        "mn104:19.4",
+        "mn104:19.5",
+        "mn104:19.6",
+        "mn104:19.7",
+        "mn104:19.8",
+        "mn104:19.9",
+        "mn104:19.10"
+      ],
+      "summary": "Bị hỏi cùng trọng tội, nói không nhớ; người kia truy hỏi xét kỹ; đáp không nhớ nặng nhưng nhớ lỗi nhẹ."
+    },
+    {
+      "id": "penalty-defense",
+      "title": "Nặng hơn: lời tự biện",
+      "segments": [
+        "mn104:19.11",
+        "mn104:19.12",
+        "mn104:19.13",
+        "mn104:19.14",
+        "mn104:19.15"
+      ],
+      "summary": "Truy hỏi tiếp về trọng tội; vị ấy nói ngay lỗi nhẹ không ai hỏi còn nhận, sao hỏi trọng tội lại không nhận."
+    },
+    {
+      "id": "penalty-admission",
+      "title": "Nặng hơn: bác và thú nhận",
+      "segments": [
+        "mn104:19.16",
+        "mn104:19.17",
+        "mn104:19.18",
+        "mn104:19.19",
+        "mn104:19.20",
+        "mn104:19.21",
+        "mn104:19.22"
+      ],
+      "summary": "Người kia bác không hỏi ngay lỗi nhẹ còn không nhận, sao hỏi lại nhận nặng; yêu cầu xét kỹ lần nữa. Vị ấy nhận nhớ trọng tội, nói lời phủ nhận trước là vội/hấp tấp."
+    },
+    {
+      "id": "penalty-result",
+      "title": "Tên cách giải",
+      "segments": [
+        "mn104:19.23",
+        "mn104:19.24"
+      ],
+      "summary": "Đó là phán quyết nặng hơn, một số vụ việc được giải bằng cách này."
+    },
+    {
+      "id": "grass-context",
+      "title": "Che rơm: họp hòa hợp",
+      "segments": [
+        "mn104:20.1",
+        "mn104:20.2",
+        "mn104:20.3"
+      ],
+      "summary": "Các vị cãi/tranh, đã làm và nói nhiều điều không xứng người tu, tất cả hòa hợp họp."
+    },
+    {
+      "id": "grass-first",
+      "title": "Đại diện bên đầu",
+      "segments": [
+        "mn104:20.4",
+        "mn104:20.5",
+        "mn104:20.6",
+        "mn104:20.7"
+      ],
+      "summary": "Vị khéo của một phe đứng dậy, y một vai, chắp tay xin Tăng nghe; nhận đã làm/nói không xứng trong tranh. Nếu Tăng thấy phù hợp, vì lợi ích nhóm và mình, công khai lỗi nhóm/mình theo che rơm, trừ trọng tội và chuyện liên hệ tại gia."
+    },
+    {
+      "id": "grass-second",
+      "title": "Đại diện bên kia",
+      "segments": [
+        "mn104:20.8",
+        "mn104:20.9",
+        "mn104:20.10",
+        "mn104:20.11"
+      ],
+      "summary": "Vị khéo phe kia cũng đứng dậy/y một vai/chắp tay/xin Tăng nghe, nêu cùng tình trạng, cùng điều kiện Tăng thấy phù hợp, vì nhóm/mình, bày lỗi nhóm/mình, cũng trừ trọng tội và chuyện liên hệ tại gia."
+    },
+    {
+      "id": "grass-result",
+      "title": "Tên cách dàn xếp",
+      "segments": [
+        "mn104:20.12",
+        "mn104:20.13"
+      ],
+      "summary": "Đó là che rơm, cách dàn xếp một số vụ việc."
+    },
+    {
+      "id": "six-qualities",
+      "title": "Sáu điều đáng ghi nhớ",
+      "segments": [
+        "mn104:21.1",
+        "mn104:21.2"
+      ],
+      "summary": "Sáu điều tạo thương mến, kính trọng, nâng đỡ, không tranh, hòa hợp, nhất trí."
+    },
+    {
+      "id": "kind-body",
+      "title": "Hành động có lòng từ",
+      "segments": [
+        "mn104:21.3",
+        "mn104:21.4"
+      ],
+      "summary": "Duy trì thân hành từ với bạn tu, công khai và riêng tư; cũng có đủ sáu lợi ích của nhóm."
+    },
+    {
+      "id": "kind-speech",
+      "title": "Lời có lòng từ",
+      "segments": [
+        "mn104:21.5",
+        "mn104:21.6"
+      ],
+      "summary": "Duy trì lời từ với bạn tu công khai/riêng tư; cùng đủ sáu lợi ích."
+    },
+    {
+      "id": "kind-mind",
+      "title": "Ý có lòng từ",
+      "segments": [
+        "mn104:21.7",
+        "mn104:21.8"
+      ],
+      "summary": "Duy trì ý từ với bạn tu công khai/riêng tư; cùng đủ sáu lợi ích."
+    },
+    {
+      "id": "sharing",
+      "title": "Dùng chung vật đúng Pháp",
+      "segments": [
+        "mn104:21.9",
+        "mn104:21.10"
+      ],
+      "summary": "Vật được đúng Pháp/chân chánh dù thức ăn bát không hưởng riêng, dùng chung cùng bạn tu có giới; cùng sáu lợi ích."
+    },
+    {
+      "id": "shared-ethics",
+      "title": "Cùng giới có tám nét",
+      "segments": [
+        "mn104:21.11",
+        "mn104:21.12"
+      ],
+      "summary": "Chung giới với bạn tu công khai/riêng tư: không sứt, không thủng, không lốm đốm, không nhơ, giải thoát, trí khen, không chấp trước, dẫn định; cùng sáu lợi ích."
+    },
+    {
+      "id": "shared-view",
+      "title": "Cùng kiến Thánh đưa hết khổ",
+      "segments": [
+        "mn104:21.13",
+        "mn104:21.14"
+      ],
+      "summary": "Chung kiến cao quý/đưa ra khỏi/dẫn người thực hành hết khổ hoàn toàn với bạn tu công khai/riêng tư; cùng sáu lợi ích."
+    },
+    {
+      "id": "six-result",
+      "title": "Xác nhận đủ sáu",
+      "segments": [
+        "mn104:21.15"
+      ],
+      "summary": "Cả sáu điều tạo thương mến/kính trọng/nâng đỡ/không tranh/hòa hợp/nhất trí."
+    },
+    {
+      "id": "endurance",
+      "title": "Câu hỏi có điều kiện",
+      "segments": [
+        "mn104:22.1",
+        "mn104:22.2"
+      ],
+      "summary": "Nếu nhận và thực hành đủ sáu, có lời dù nhỏ/lớn nào không chịu được không? Ānanda thưa không."
+    },
+    {
+      "id": "lasting-benefit",
+      "title": "Hãy nhận và thực hành",
+      "segments": [
+        "mn104:22.3",
+        "mn104:22.4"
+      ],
+      "summary": "Vì vậy Phật dặn nhận và thực hành sáu, đem lợi ích/hạnh phúc lâu dài."
+    },
+    {
+      "id": "ending",
+      "title": "Ānanda tán đồng",
+      "segments": [
+        "mn104:22.5",
+        "mn104:22.6",
+        "mn104:22.7"
+      ],
+      "summary": "Phật nói, Ānanda hoan hỷ tán đồng; Kinh Sāmagāma khép, thứ tư trong nhóm."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Diễn giải dành cho trẻ em",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Khi lời nói trở thành mũi nhọn",
+          "paragraphs": [
+            "Kinh Sāmagāma, Trung Bộ 104, bắt đầu bằng lời người truyền kinh kể điều đã nghe. Phật đang ở làng Sāmagāma, xứ Sakiya. Khi ấy, vị thầy Nigaṇṭha Nāṭaputta vừa mất tại Pāvā. Những người tu theo vị ấy chia thành hai phe, tranh chấp và cãi vã, dùng lời nói như những mũi giáo đâm nhau."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting",
+            "split"
+          ]
+        },
+        {
+          "id": "barbs",
+          "kind": "teaching",
+          "heading": "Ai cũng muốn là người thắng",
+          "paragraphs": [
+            "Họ nói với nhau: ông không hiểu lời dạy và nếp tu này, tôi mới hiểu, làm sao ông hiểu được! Ông tu sai, tôi tu đúng. Lời tôi mạch lạc, lời ông không mạch lạc. Điều phải nói trước, ông nói sau; điều phải nói sau, ông nói trước. Điều ông suy nghĩ lâu nay đã bị đảo ngược, lập luận bị bác bỏ, ông đã thua; hãy gỡ hoặc thoát ra nếu làm được!",
+            "Câu chuyện ví cảnh ấy như chỉ còn sự tàn sát. Những người học theo vị thầy ấy nhưng sống tại nhà, mặc áo trắng, cũng chán ngán, lạnh nhạt rồi quay lưng. Lời kể trong kinh nhận xét giáo pháp và nếp tu ấy được giảng và truyền dở, không đưa tới giải thoát khỏi trói buộc gây khổ hay lắng yên, không do một bậc giác ngộ hoàn toàn dạy; đài kỷ niệm đã đổ vỡ, không còn nơi nương tựa."
+          ],
+          "meaningUnits": [
+            "barbs",
+            "slaughter",
+            "lay-disappointment"
+          ]
+        },
+        {
+          "id": "news",
+          "kind": "teaching",
+          "heading": "Cunda mang tin đến",
+          "paragraphs": [
+            "Sa-di Cunda, người xuất gia đang học tu, chưa nhận đủ giới của một tỳ-kheo, vừa xong thời gian ở một nơi tu học trong mùa mưa tại Pāvā. Cunda đến Sāmagāma, lễ chào Ānanda, ngồi một bên và kể lại toàn câu chuyện. Ānanda đề nghị cùng đến trình Phật. Cunda đồng ý.",
+            "Cả hai đến lễ Phật rồi ngồi một bên. Ānanda thuật lại lời Cunda, sau đó nói điều mình lo: mong sau khi Phật qua đời, Tăng chúng — cộng đồng những người nam xuất gia theo Ngài — không tranh chấp. Những tranh chấp ấy có thể gây bất lợi, bất hạnh và thiệt hại cho nhiều người, gây bất lợi và đau khổ cho cả chư thiên, tức các vị trời, lẫn con người."
+          ],
+          "meaningUnits": [
+            "cunda",
+            "invitation",
+            "report",
+            "concern"
+          ]
+        },
+        {
+          "id": "path",
+          "kind": "teaching",
+          "heading": "Điều nào thật sự hệ trọng?",
+          "paragraphs": [
+            "Phật hỏi Ānanda có thấy dù chỉ hai tỳ-kheo, những người nam xuất gia, khác ý về những điều Ngài đã trực tiếp biết và dạy không. Ngài nêu bảy nhóm: bốn niệm xứ, những nền tảng chú tâm; bốn chánh cần, những nỗ lực đúng; bốn như ý túc, những nền tảng năng lực tu; năm căn và năm lực, những khả năng và sức mạnh của việc tu; bảy giác chi, những yếu tố giác ngộ; Thánh đạo tám ngành, con đường tu tám phần.",
+            "Ānanda nhắc lại các nhóm ấy và thưa không thấy dù chỉ hai vị khác ý. Nhưng ông vẫn lo có người bề ngoài vâng lời Phật, sau khi Ngài mất sẽ gây tranh về cách sinh sống hoặc giới bổn, những điều người tu phải giữ. Ông nhắc lại tác hại đối với số đông, các vị trời và con người.",
+            "Phật nói tranh về cách sống hay giới bổn là việc nhỏ trong sự so sánh này. Nếu Tăng chúng tranh về chính con đường và cách thực hành, chuyện ấy mới gây những bất lợi, bất hạnh, thiệt hại và khổ đau lớn lao vừa nói."
+          ],
+          "meaningUnits": [
+            "path-question",
+            "path-answer",
+            "livelihood",
+            "distinction"
+          ]
+        },
+        {
+          "id": "roots",
+          "kind": "teaching",
+          "heading": "Sáu gốc khiến bất hòa lớn lên",
+          "paragraphs": [
+            "Phật nêu sáu gốc tranh chấp. Một là hay giận và giữ oán hận. Hai là xúc phạm, coi thường người khác. Ba là ganh tị và bỏn xẻn. Bốn là gian trá, dối gạt. Năm là mong muốn điều xấu và giữ quan điểm sai. Sáu là bám chặt ý kiến của mình, nắm giữ nó và rất khó buông bỏ."
+          ],
+          "meaningUnits": [
+            "root-one",
+            "other-roots"
+          ]
+        },
+        {
+          "id": "remove",
+          "kind": "teaching",
+          "heading": "Thấy thì bỏ, chưa thấy thì phòng",
+          "paragraphs": [
+            "Người để những gốc ấy chi phối sẽ không cung kính, không tôn trọng vị Thầy, Pháp là lời dạy, và Tăng chúng; cũng không làm trọn việc học và tu. Từ đó họ gây tranh chấp, làm nhiều người bất lợi, bất hạnh, thiệt hại, khiến các vị trời và con người gặp bất lợi, khổ đau.",
+            "Với từng gốc trong sáu gốc, nếu thấy nó nơi mình hoặc nơi người khác, hãy cố gắng từ bỏ. Nếu không thấy, vẫn cần thực hành để nó không khởi lên về sau. Cả việc bỏ điều đang có và phòng điều có thể xuất hiện đều cần được chăm sóc."
+          ],
+          "meaningUnits": [
+            "root-one-harm",
+            "root-one-response",
+            "other-roots-harm",
+            "other-roots-response"
+          ]
+        },
+        {
+          "id": "issues",
+          "kind": "teaching",
+          "heading": "Bốn loại việc và bảy cách giải quyết",
+          "paragraphs": [
+            "Có bốn loại việc cần giải quyết trong Tăng, kinh gọi là tránh sự: tranh luận về điều đúng; việc buộc lỗi; việc phạm lỗi; và công việc của cộng đồng.",
+            "Phật nêu bảy cách làm lắng những vụ việc ấy: gặp nhau trực tiếp, gọi là hiện tiền; dựa vào việc nhớ lại, gọi là ức niệm; xét thời tâm loạn đã qua, gọi là bất si; xử theo lời thừa nhận; theo đa số; phán quyết nặng hơn; và cách gọi là che rơm. Mỗi cách được bài kinh trình bày cho một số trường hợp."
+          ],
+          "meaningUnits": [
+            "four-issues",
+            "seven-methods"
+          ]
+        },
+        {
+          "id": "face",
+          "kind": "teaching",
+          "heading": "Gặp nhau và xét lời dạy",
+          "paragraphs": [
+            "Khi các thầy tranh đây là Pháp hay không phải Pháp, là Luật, tức những quy tắc tu tập, hay không phải Luật, tất cả cần họp trong hòa hợp. Họ xem xét kỹ đường lối của lời dạy, rồi giải quyết sao cho phù hợp với đường lối ấy. Đây là cách hiện tiền.",
+            "Nếu không giải quyết được tại nơi đang ở, các thầy đến nơi có nhiều tỳ-kheo hơn. Tại đó, tất cả lại họp hòa hợp, cùng xem xét kỹ đường lối Pháp và giải quyết phù hợp với Pháp. Đây là cách theo đa số. Cả hai cách đều giữ việc xem xét lời dạy ở trung tâm."
+          ],
+          "meaningUnits": [
+            "face-to-face",
+            "majority"
+          ]
+        },
+        {
+          "id": "memory",
+          "kind": "teaching",
+          "heading": "Nhớ lại và thời tâm từng rối loạn",
+          "paragraphs": [
+            "Ở cách ức niệm, một vị bị buộc đã phạm lỗi rất nặng: ba-la-dị, lỗi khiến phải rời khỏi hàng tỳ-kheo, hoặc lỗi gần mức ấy. Khi được hỏi có nhớ đã phạm không, vị ấy đáp không nhớ đã phạm lỗi như vậy. Trong tình huống kinh nêu, vị ấy được phán quyết ức niệm.",
+            "Ở cách bất si, một vị cũng bị hỏi về lỗi rất nặng ấy và đáp không nhớ. Khi tiếp tục bị hỏi phải xét cho kỹ, vị ấy kể mình từng bị tâm loạn, tâm trí đảo lộn; lúc ấy đã làm và nói nhiều điều không xứng với người tu. Vị ấy không nhớ các điều đó, vì đã làm khi tâm loạn. Trong tình huống này, vị ấy được phán quyết bất si."
+          ],
+          "meaningUnits": [
+            "recollection",
+            "past-confusion-question",
+            "past-confusion-answer"
+          ]
+        },
+        {
+          "id": "admit",
+          "kind": "teaching",
+          "heading": "Nhận lỗi và hứa gìn giữ",
+          "paragraphs": [
+            "Dù có ai buộc lỗi hay không, một vị nhớ mình đã sai, nói rõ và bày tỏ lỗi ấy. Vị ấy đến gặp thầy có nhiều tuổi hạ hơn, tức có thâm niên tu lâu hơn; chỉnh y để hở một vai, lễ dưới chân, ngồi xổm và chắp tay. Vị ấy nói rõ tên lỗi đã phạm, xin sám hối, nghĩa là nhận lỗi và xin sửa.",
+            "Thầy kia hỏi có thấy lỗi không. Vị ấy đáp có thấy. Thầy dặn giữ gìn về sau; vị ấy hứa sẽ giữ gìn. Đó là xử theo điều đã thừa nhận, một cách giải quyết những vụ việc phù hợp."
+          ],
+          "meaningUnits": [
+            "admission",
+            "admission-dialogue"
+          ]
+        },
+        {
+          "id": "denial",
+          "kind": "teaching",
+          "heading": "Khi câu trả lời thay đổi",
+          "paragraphs": [
+            "Cách phán quyết nặng hơn được kể qua một cuộc hỏi lỗi. Một vị bị hỏi có nhớ đã phạm lỗi ba-la-dị hoặc gần mức ấy không, ban đầu đáp không nhớ. Người kia hỏi lại, yêu cầu xét kỹ. Vị ấy nói không nhớ lỗi nặng, chỉ nhớ một lỗi nhẹ.",
+            "Bị hỏi tiếp về lỗi nặng, vị ấy tự bênh vực: ngay lỗi nhẹ không ai hỏi tôi còn nhận; vậy nếu đã phạm lỗi nặng, khi được hỏi, sao tôi không nhận?"
+          ],
+          "meaningUnits": [
+            "penalty-denial",
+            "penalty-defense"
+          ]
+        },
+        {
+          "id": "acknowledge",
+          "kind": "teaching",
+          "heading": "Rồi nhìn nhận điều đã phủ nhận",
+          "paragraphs": [
+            "Người hỏi đáp lại: ngay lỗi nhẹ, nếu không hỏi, ông đã không nhận; vậy sao hỏi lỗi nặng thì ông sẽ nhận? Người ấy lại yêu cầu xét kỹ. Lần này vị bị hỏi nói có nhớ đã phạm lỗi nặng ấy; lời nói không nhớ trước đó là do nói vội, hấp tấp. Bài kinh gọi cách giải quyết trong tình huống này là phán quyết nặng hơn."
+          ],
+          "meaningUnits": [
+            "penalty-admission",
+            "penalty-result"
+          ]
+        },
+        {
+          "id": "grass",
+          "kind": "teaching",
+          "heading": "Cách gọi là “che rơm”",
+          "paragraphs": [
+            "Có khi trong cuộc cãi vã, các thầy đã làm và nói nhiều điều không xứng người tu. Tất cả họp trong hòa hợp. Một vị khéo giải quyết việc thuộc phe đầu đứng dậy, chỉnh y để hở một vai, chắp tay, xin Tăng chúng lắng nghe.",
+            "Vị ấy thừa nhận những lời và việc không xứng trong cuộc tranh chấp. Nếu Tăng chúng thấy đúng lúc, vị ấy xin vì lợi ích của các vị trong phe mình và của mình mà đưa lỗi của họ cùng lỗi của mình ra trước Tăng, theo cách che rơm. Nhưng phải trừ trọng tội và những điều liên quan người sống tại gia."
+          ],
+          "meaningUnits": [
+            "grass-context",
+            "grass-first"
+          ]
+        },
+        {
+          "id": "other-side",
+          "kind": "teaching",
+          "heading": "Phe kia cũng phải làm phần của mình",
+          "paragraphs": [
+            "Rồi một vị khéo giải quyết việc thuộc phe kia cũng đứng dậy, chỉnh y một vai, chắp tay và xin Tăng chúng lắng nghe. Vị ấy cũng nhận những lời và việc không xứng trong tranh chấp. Nếu Tăng thấy đúng lúc, vì lợi ích các vị trong phe và của mình, vị ấy đưa lỗi của họ và của mình ra trước Tăng theo cách ấy. Lượt này cũng trừ trọng tội và chuyện liên quan người tại gia.",
+            "Đó là cách che rơm để dàn xếp một số vụ việc. Hai điều được loại trừ vẫn phải được nhớ rõ."
+          ],
+          "meaningUnits": [
+            "grass-second",
+            "grass-result"
+          ]
+        },
+        {
+          "id": "kindness",
+          "kind": "teaching",
+          "heading": "Ba cách nuôi lòng từ",
+          "paragraphs": [
+            "Sau các cách dàn xếp, Phật dạy sáu điều đáng ghi nhớ. Mỗi điều giúp mọi người thương mến, kính trọng, nâng đỡ nhau, không tranh chấp, sống hòa hợp và nhất trí.",
+            "Ba điều đầu là giữ lòng từ, mong điều lành cho bạn cùng tu, trong hành động, trong lời nói và trong ý nghĩ. Cả ba đều cần có ở nơi công khai lẫn lúc riêng tư, không chỉ khi người khác đang nhìn mình."
+          ],
+          "meaningUnits": [
+            "six-qualities",
+            "kind-body",
+            "kind-speech",
+            "kind-mind"
+          ]
+        },
+        {
+          "id": "share",
+          "kind": "teaching",
+          "heading": "Chia sẻ, giữ giới và cùng hướng về hết khổ",
+          "paragraphs": [
+            "Điều thứ tư là chia sẻ những vật có được chân chánh, đúng với lời dạy. Dù chỉ là thức ăn trong bình bát, cũng không giữ để hưởng riêng, mà dùng chung với những bạn tu sống có giới, tức giữ những quy tắc của đời tu.",
+            "Điều thứ năm là cùng bạn tu giữ giới, ở nơi công khai và lúc riêng tư. Những giới ấy không sứt mẻ, không thủng, không lốm đốm, không vết nhơ; đưa đến giải thoát, được người trí khen, không bị chấp chặt và dẫn đến định, sự vững yên của tâm.",
+            "Điều thứ sáu là cùng có cái thấy cao quý, đưa người thực hành ra khỏi trói buộc và đến chỗ khổ chấm dứt hoàn toàn; cũng giữ cái thấy ấy ở nơi công khai và lúc riêng tư. Cả sáu điều đều nuôi thương mến, kính trọng, nâng đỡ, không tranh, hòa hợp và nhất trí."
+          ],
+          "meaningUnits": [
+            "sharing",
+            "shared-ethics",
+            "shared-view",
+            "six-result"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: trong nhóm làm bài",
+          "paragraphs": [
+            "Một nhóm bạn có thể chia nhau bút màu và phần việc. Khi một bạn chưa làm được, em có thể giúp bằng tay, nói lời dễ nghe và thật lòng mong bạn tiến bộ. Kể cả khi bạn ấy ra ngoài, em vẫn giữ thái độ ấy. Ví dụ nhỏ này giúp tập ba mặt hành động, lời nói và ý nghĩ cùng đi với nhau."
+          ],
+          "meaningUnits": [
+            "kind-body",
+            "kind-speech",
+            "kind-mind",
+            "sharing"
+          ]
+        },
+        {
+          "id": "lasting",
+          "kind": "teaching",
+          "heading": "Sống như thế thì đón nhận lời nhắc ra sao?",
+          "paragraphs": [
+            "Phật hỏi Ānanda: nếu đã nhận giữ và thực hành sáu điều ấy, có lời nói hay lời chỉ trích nào, dù nhỏ hay lớn, mà các vị không chịu đựng được không? Ānanda thưa không.",
+            "Vì vậy, Phật dặn hãy nhận giữ và thực hành đủ sáu điều, để được lợi ích và hạnh phúc lâu dài. Ānanda hoan hỷ, tán đồng lời Phật. Kinh Sāmagāma khép lại, là bài thứ tư trong nhóm kinh này."
+          ],
+          "meaningUnits": [
+            "endurance",
+            "lasting-benefit",
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: giữ lời tốt cả lúc bạn vắng mặt",
+          "paragraphs": [
+            "Em có thể chọn một ngày để chú ý cách nói về một bạn khi bạn ấy không có mặt. Nếu lỡ nói điều không đúng, hãy nhận rõ và sửa lại. Khi một việc khó tự giải quyết, nhờ người lớn đáng tin giúp cả nhóm cùng nói rõ điều đã xảy ra."
+          ],
+          "meaningUnits": [
+            "kind-speech",
+            "kind-mind",
+            "admission-dialogue"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Diễn giải dành cho người trưởng thành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Một cộng đồng chia rẽ sau khi vị thầy mất",
+          "paragraphs": [
+            "Kinh Sāmagāma, Trung Bộ 104, được truyền lại từ lời kể điều đã nghe. Khi Phật ở làng Sāmagāma, xứ Sakiya, Nigaṇṭha Nāṭaputta vừa qua đời tại Pāvā. Các đệ tử xuất gia của vị ấy chia hai phe, tranh chấp, cãi vã và tranh luận, dùng lời như giáo nhọn đâm nhau.",
+            "Họ khẳng định người kia không hiểu giáo pháp và nếp tu, còn mình hiểu; hỏi vặn người kia làm sao hiểu được. Họ nói người kia hành trì sai, mình đúng; lời mình mạch lạc, lời người kia không; điều cần nói trước lại nói sau, cần nói sau lại nói trước; suy nghĩ lâu nay của đối phương đã bị đảo ngược, lập luận bị bác bỏ, đã bị khuất phục, hãy gỡ luận hoặc thoát ra nếu có thể. Lời kể ví tình trạng ấy như chỉ còn sự tàn sát.",
+            "Ngay những đệ tử tại gia mặc trắng cũng chán ngán, lạnh nhạt và quay lưng. Bài kinh mô tả giáo pháp và nếp tu ấy là giảng dạy dở, truyền dạy dở, không đưa đến giải thoát khỏi trói buộc gây khổ, không đưa đến an tịnh — sự lắng yên — không do một bậc giác ngộ hoàn toàn tuyên thuyết; đài kỷ niệm đã vỡ và không còn nơi nương tựa."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting",
+            "split",
+            "barbs",
+            "slaughter",
+            "lay-disappointment"
+          ]
+        },
+        {
+          "id": "report",
+          "kind": "teaching",
+          "heading": "Mối lo của Ānanda",
+          "paragraphs": [
+            "Sau kỳ an cư, sống và tu học tại một nơi trong mùa mưa ở Pāvā, sa-di Cunda, người xuất gia chưa nhận đầy đủ giới của một tỳ-kheo, đến Sāmagāma gặp Ānanda, lễ chào, ngồi một bên và thuật lại sự việc. Ānanda nói đây là chuyện nên trình Phật và rủ Cunda cùng đi. Cunda vâng lời.",
+            "Cả hai đến lễ Phật và ngồi một bên. Ānanda thuật lời Cunda, rồi bày tỏ mong muốn sau khi Phật qua đời không có tranh chấp trong Tăng, cộng đồng những người nam xuất gia theo Ngài. Ông lo tranh chấp ấy sẽ gây bất lợi, bất hạnh, thiệt hại cho số đông, gây bất lợi và khổ đau cho chư thiên, các vị trời, cùng con người."
+          ],
+          "meaningUnits": [
+            "cunda",
+            "invitation",
+            "report",
+            "concern"
+          ]
+        },
+        {
+          "id": "what-matters",
+          "kind": "teaching",
+          "heading": "Phân biệt phạm vi bất đồng",
+          "paragraphs": [
+            "Phật hỏi Ānanda có thấy dù chỉ hai tỳ-kheo bất đồng về những điều Ngài đã trực tiếp biết và giảng dạy không: bốn niệm xứ, các nền tảng chú tâm; bốn chánh cần, những nỗ lực đúng; bốn như ý túc, các nền tảng năng lực tu; năm căn và năm lực, các khả năng và sức mạnh tu tập; bảy giác chi, những yếu tố giác ngộ; Thánh đạo tám ngành, con đường tu tám phần. Ānanda nhắc lại các nhóm này và thưa không thấy dù hai vị khác ý.",
+            "Tuy vậy, ông lo có những người bề ngoài vâng lời Phật sẽ gây tranh chấp sau khi Ngài mất, về cách sinh sống hoặc giới bổn, những điều quy định đời tu. Ông lại nêu tác hại đối với số đông, chư thiên và con người.",
+            "Phật gọi tranh về sinh sống và giới bổn là nhỏ trong phép so sánh này. Tranh chấp trong Tăng về chính con đường và cách thực hành mới đưa đến những bất lợi, bất hạnh, thiệt hại và đau khổ rộng lớn ấy."
+          ],
+          "meaningUnits": [
+            "path-question",
+            "path-answer",
+            "livelihood",
+            "distinction"
+          ]
+        },
+        {
+          "id": "roots",
+          "kind": "teaching",
+          "heading": "Sáu gốc cần xử lý từ bên trong",
+          "paragraphs": [
+            "Sáu gốc tranh chấp là: giận dữ và ôm hận; xúc phạm và khinh miệt; ganh tị và bỏn xẻn; gian trá và dối gạt; mong muốn xấu và quan điểm sai; bám vào quan điểm của mình, giữ chặt và khó buông bỏ.",
+            "Với mỗi gốc, Phật nêu cùng một chuỗi hệ quả: người ấy không cung kính, không tôn trọng vị Thầy, Pháp là lời dạy, và Tăng, không hoàn tất việc học tập; từ đó gây tranh chấp làm số đông bất lợi, bất hạnh, thiệt hại, khiến chư thiên và con người gặp bất lợi, đau khổ.",
+            "Nếu thấy gốc ấy nơi mình hoặc người khác, phải nỗ lực từ bỏ. Nếu không thấy, phải thực hành để nó không khởi lên về sau. Cách xử lý đủ cả việc trừ điều đang có lẫn ngăn sự phát sinh trong tương lai."
+          ],
+          "meaningUnits": [
+            "root-one",
+            "root-one-harm",
+            "root-one-response",
+            "other-roots",
+            "other-roots-harm",
+            "other-roots-response"
+          ]
+        },
+        {
+          "id": "framework",
+          "kind": "teaching",
+          "heading": "Bốn loại vụ việc, bảy cách dàn xếp",
+          "paragraphs": [
+            "Bài kinh gọi các vụ việc cần giải quyết trong cộng đồng là tránh sự, gồm bốn loại: tranh luận, buộc lỗi, phạm lỗi và công việc của Tăng.",
+            "Bảy cách làm lắng những vụ việc ấy là: hiện tiền, giải quyết trực tiếp trước mặt nhau; ức niệm, liên quan việc nhớ lại; bất si, xét tình trạng tâm loạn đã qua; xử theo sự thừa nhận; theo đa số; phán quyết nặng hơn; và che rơm. Mỗi cách dưới đây giải quyết một số trường hợp thích hợp."
+          ],
+          "meaningUnits": [
+            "four-issues",
+            "seven-methods"
+          ]
+        },
+        {
+          "id": "guidelines",
+          "kind": "teaching",
+          "heading": "Họp lại và xét đường lối Pháp",
+          "paragraphs": [
+            "Hiện tiền được trình bày trong trường hợp các vị tranh luận đâu là Pháp hay không phải Pháp, đâu là Luật — các quy tắc tu tập — hay không phải Luật. Tất cả phải họp trong hòa hợp, xem xét kỹ đường lối của lời dạy, rồi giải quyết vụ việc phù hợp với đường lối ấy.",
+            "Nếu không thể giải quyết tại trú xứ đang ở, các vị đi đến nơi có đông tỳ-kheo hơn. Tại đó, tất cả cũng họp hòa hợp, xét kỹ đường lối Pháp và giải quyết theo đường lối ấy. Đây là cách được gọi là theo đa số; việc có thêm người vẫn gắn với việc xét Pháp."
+          ],
+          "meaningUnits": [
+            "face-to-face",
+            "majority"
+          ]
+        },
+        {
+          "id": "memory",
+          "kind": "teaching",
+          "heading": "Việc nhớ lại và thời tâm loạn",
+          "paragraphs": [
+            "Ở cách ức niệm, các vị buộc một tỳ-kheo phạm trọng tội ba-la-dị, lỗi dẫn đến mất tư cách tỳ-kheo, hoặc lỗi gần mức đó. Họ hỏi vị ấy có nhớ đã phạm không. Vị ấy trả lời không nhớ đã phạm loại trọng tội ấy. Trong tình huống kinh trình bày, phán quyết ức niệm được ban cho vị ấy.",
+            "Ở cách bất si, một vị cũng bị hỏi về loại trọng tội ấy và đáp không nhớ. Khi bị truy hỏi phải xét kỹ, vị ấy trình bày từng bị tâm loạn, tâm trí đảo lộn; trong thời gian ấy đã làm và nói nhiều điều không xứng người tu. Vị ấy không nhớ những việc đó, vì đã làm trong lúc tâm loạn. Phán quyết bất si được ban trong tình huống ấy."
+          ],
+          "meaningUnits": [
+            "recollection",
+            "past-confusion-question",
+            "past-confusion-answer"
+          ]
+        },
+        {
+          "id": "admission",
+          "kind": "teaching",
+          "heading": "Tự nhận lỗi và nhận trách nhiệm về sau",
+          "paragraphs": [
+            "Một tỳ-kheo, dù có bị buộc lỗi hay không, nhớ lại lỗi mình đã phạm, nói rõ và bày tỏ nó. Vị ấy đến một tỳ-kheo có nhiều tuổi hạ hơn, nghĩa là thâm niên tu lâu hơn, chỉnh y để hở một vai, lễ dưới chân, ngồi xổm, chắp tay, rồi nêu tên lỗi và xin sám hối, nhận lỗi để sửa.",
+            "Vị kia hỏi có thấy lỗi ấy không; người nhận lỗi đáp có. Vị kia dặn gìn giữ về sau; người ấy hứa sẽ gìn giữ. Đó là xử theo sự thừa nhận."
+          ],
+          "meaningUnits": [
+            "admission",
+            "admission-dialogue"
+          ]
+        },
+        {
+          "id": "penalty",
+          "kind": "teaching",
+          "heading": "Từ phủ nhận đến thừa nhận lỗi nặng",
+          "paragraphs": [
+            "Phán quyết nặng hơn được kể bằng một diễn biến cụ thể. Một vị bị hỏi có nhớ phạm ba-la-dị hoặc lỗi gần mức ấy không, đáp không nhớ. Bị truy hỏi phải xét kỹ, vị ấy đáp không nhớ lỗi nặng nhưng nhớ một lỗi nhẹ.",
+            "Người kia tiếp tục hỏi về lỗi nặng. Vị ấy tự biện hộ rằng ngay lỗi nhẹ không ai hỏi mình còn nhận, thì đã phạm lỗi nặng, khi được hỏi, sao mình không nhận. Người hỏi bác lại: ngay lỗi nhẹ không được hỏi còn không nhận, thì vì sao hỏi lại nhận lỗi nặng? Rồi yêu cầu xét kỹ một lần nữa.",
+            "Cuối cùng, vị ấy thừa nhận có nhớ đã phạm trọng tội như thế; lời nói không nhớ trước đây là vội vàng, hấp tấp. Bài kinh gọi cách giải quyết trong trường hợp ấy là phán quyết nặng hơn."
+          ],
+          "meaningUnits": [
+            "penalty-denial",
+            "penalty-defense",
+            "penalty-admission",
+            "penalty-result"
+          ]
+        },
+        {
+          "id": "grass",
+          "kind": "teaching",
+          "heading": "Dàn xếp chung với những ngoại lệ rõ ràng",
+          "paragraphs": [
+            "Cách che rơm được nêu khi các vị cãi vã, tranh chấp và đã làm, đã nói nhiều điều không xứng người tu. Tất cả họp trong hòa hợp. Một vị khéo giải quyết việc thuộc một phe đứng dậy, chỉnh y để hở một vai, chắp tay và xin Tăng chúng lắng nghe.",
+            "Vị ấy nhận tình trạng đã làm và nói không xứng trong cuộc tranh chấp. Nếu Tăng thấy đúng lúc, vị ấy xin vì lợi ích của các vị thuộc phe mình và của mình mà công khai lỗi của họ cùng lỗi của mình giữa Tăng, theo cách che rơm, ngoại trừ trọng tội và những điều liên quan người tại gia.",
+            "Sau đó, một vị khéo giải quyết việc thuộc phe kia cũng đứng dậy, chỉnh y một vai, chắp tay, xin Tăng nghe. Vị ấy nêu cùng tình trạng. Với điều kiện Tăng thấy đúng lúc, vì lợi ích của phe mình và mình, vị ấy cũng đưa ra các lỗi ấy giữa Tăng theo cách che rơm, vẫn ngoại trừ trọng tội và việc liên quan người tại gia. Cách này dàn xếp một số vụ việc; hai ngoại lệ có mặt trong cả hai lượt trình bày."
+          ],
+          "meaningUnits": [
+            "grass-context",
+            "grass-first",
+            "grass-second",
+            "grass-result"
+          ]
+        },
+        {
+          "id": "daily-kindness",
+          "kind": "teaching",
+          "heading": "Ba mặt của lòng từ",
+          "paragraphs": [
+            "Phật tiếp tục nêu sáu điều đáng ghi nhớ. Mỗi điều tạo thương mến và kính trọng, giúp nâng đỡ nhau, không tranh chấp, hòa hợp và nhất trí.",
+            "Ba điều đầu là duy trì lòng từ, mong điều lành cho bạn cùng tu, trong hành động, lời nói và ý nghĩ. Cả ba đều được thực hiện ở nơi công khai lẫn lúc riêng tư."
+          ],
+          "meaningUnits": [
+            "six-qualities",
+            "kind-body",
+            "kind-speech",
+            "kind-mind"
+          ]
+        },
+        {
+          "id": "sharing",
+          "kind": "teaching",
+          "heading": "Dùng chung những gì có được chân chánh",
+          "paragraphs": [
+            "Điều thứ tư: những vật có được chân chánh, đúng Pháp, dù chỉ là thức ăn trong bình bát, được chia sẻ và dùng chung với bạn tu có giới, không giữ để hưởng riêng. Điều này cũng tạo thương mến, kính trọng, nâng đỡ, không tranh, hòa hợp và nhất trí."
+          ],
+          "meaningUnits": [
+            "sharing"
+          ]
+        },
+        {
+          "id": "ethics-and-view",
+          "kind": "teaching",
+          "heading": "Chung giới và chung cái thấy đưa đến giải thoát",
+          "paragraphs": [
+            "Điều thứ năm là sống cùng giới với bạn tu, công khai và riêng tư. Các giới ấy không sứt mẻ, không thủng, không lốm đốm, không vết nhơ; đem giải thoát, được người trí ca ngợi, không bị chấp trước, đưa đến định, sự vững yên của tâm.",
+            "Điều thứ sáu là sống cùng cái thấy cao quý, có khả năng dẫn ra khỏi trói buộc và đưa người thực hành đến sự chấm dứt khổ hoàn toàn; cũng giữ cùng cái thấy ấy công khai và riêng tư. Cả sáu điều cùng nuôi thương mến, kính trọng, nâng đỡ, không tranh chấp, hòa hợp và nhất trí."
+          ],
+          "meaningUnits": [
+            "shared-ethics",
+            "shared-view",
+            "six-result"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: sửa một việc trong nhóm",
+          "paragraphs": [
+            "Khi một nhóm làm việc phát hiện sai sót, người tham gia có thể tập nhận đúng phần lỗi mình, nói rõ điều sẽ sửa và nghe điều người khác trình bày. Sau cuộc họp, thái độ trong những cuộc nói chuyện riêng cũng cần đi cùng thiện ý đã thể hiện công khai. Ví dụ này áp dụng việc xét gốc bất hòa và giữ lòng từ; các thủ tục của Tăng ở trên vẫn có ngữ cảnh riêng."
+          ],
+          "meaningUnits": [
+            "root-one-response",
+            "other-roots-response",
+            "kind-speech",
+            "kind-mind",
+            "admission-dialogue"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: nhìn hai phía của một cuộc bất đồng",
+          "paragraphs": [
+            "Trong một bất đồng gần đây, có thể tự hỏi mình đang muốn hiểu điều đúng hay đang giữ chặt ý kiến vì khó buông. Nếu thấy gốc giận, khinh miệt hoặc ganh tị, chọn một hành động cụ thể để dừng nuôi nó. Đồng thời xem lời nói công khai, lời nói riêng và ý nghĩ có cùng hướng thiện ý hay chưa."
+          ],
+          "meaningUnits": [
+            "other-roots-response",
+            "kind-body",
+            "kind-speech",
+            "kind-mind"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Khả năng đón nhận lời chỉ trích",
+          "paragraphs": [
+            "Phật hỏi: nếu đã nhận giữ và thực hành sáu điều đáng ghi nhớ ấy, còn có lời chỉ trích nào, dù nhỏ hay lớn, mà các vị không thể chịu đựng không? Ānanda thưa không. Vì vậy, Ngài dặn hãy nhận giữ và thực hành đủ sáu điều, để có lợi ích và hạnh phúc lâu dài.",
+            "Phật nói xong, Ānanda hoan hỷ và tán đồng. Kinh Sāmagāma kết thúc, là bài thứ tư trong nhóm kinh này."
+          ],
+          "meaningUnits": [
+            "endurance",
+            "lasting-benefit",
+            "ending"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Diễn giải dành cho người lớn tuổi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Giữ sự hòa hợp khi vị thầy không còn",
+          "paragraphs": [
+            "Kinh Sāmagāma là bài 104 của Trung Bộ. Người truyền kinh kể điều đã nghe: Phật ở làng Sāmagāma, xứ Sakiya. Lúc bấy giờ, Nigaṇṭha Nāṭaputta vừa qua đời tại Pāvā. Các đệ tử xuất gia của vị ấy chia làm hai phe, tranh chấp, cãi vã, tranh luận và làm đau nhau bằng lời như giáo nhọn."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting",
+            "split"
+          ]
+        },
+        {
+          "id": "words",
+          "kind": "teaching",
+          "heading": "Những lời khiến người nghe rời xa",
+          "paragraphs": [
+            "Họ giành phần hiểu biết về mình: ông không hiểu lời dạy và nếp tu này, tôi hiểu, làm sao ông hiểu được! Ông thực hành sai, tôi đúng; lời tôi mạch lạc, lời ông không. Họ chê nhau đảo điều cần nói trước thành sau, sau thành trước; suy nghĩ lâu ngày bị đảo ngược, lập luận bị bác bỏ, đã bị khuất phục; thách nhau gỡ luận hoặc thoát ra nếu có thể.",
+            "Lời kể ví cảnh ấy như chỉ còn sự tàn sát. Các đệ tử tại gia mặc trắng cũng chán ngán, lạnh nhạt và quay lưng. Bài kinh mô tả giáo pháp và nếp tu ấy được giảng và truyền dở, không đưa đến giải thoát khỏi trói buộc gây khổ, không dẫn đến an tịnh, sự lắng yên; không do một bậc giác ngộ hoàn toàn dạy. Đài kỷ niệm đã vỡ, không còn nơi nương tựa."
+          ],
+          "meaningUnits": [
+            "barbs",
+            "slaughter",
+            "lay-disappointment"
+          ]
+        },
+        {
+          "id": "cunda",
+          "kind": "teaching",
+          "heading": "Từ Cunda đến Ānanda rồi đến Phật",
+          "paragraphs": [
+            "Sa-di Cunda, người xuất gia chưa nhận đầy đủ giới của một tỳ-kheo, sau kỳ an cư sống và tu học tại một nơi trong mùa mưa ở Pāvā đã đến Sāmagāma gặp Ānanda. Cunda lễ chào, ngồi một bên và thuật lại sự việc. Ānanda nói đây là chuyện đáng trình Phật, đề nghị cùng đi; Cunda vâng.",
+            "Cả hai đến lễ Phật, ngồi một bên. Ānanda thuật lại lời Cunda về sự qua đời của Nāṭaputta, hai phe tranh cãi và cảnh không còn chỗ nương."
+          ],
+          "meaningUnits": [
+            "cunda",
+            "invitation",
+            "report"
+          ]
+        },
+        {
+          "id": "concern",
+          "kind": "teaching",
+          "heading": "Điều Ānanda không muốn thấy về sau",
+          "paragraphs": [
+            "Ānanda mong sau khi Phật qua đời không xảy ra tranh chấp trong Tăng, cộng đồng những người nam xuất gia theo Ngài. Ông lo sự tranh chấp sẽ gây bất lợi, bất hạnh và thiệt hại cho số đông, gây bất lợi và khổ đau cho chư thiên, các vị trời, cùng con người.",
+            "Phật hỏi ông có thấy dù chỉ hai tỳ-kheo khác ý về những pháp Ngài đã trực tiếp biết và dạy không. Đó là bốn niệm xứ, các nền tảng chú tâm; bốn chánh cần, những nỗ lực đúng; bốn như ý túc, các nền tảng năng lực tu; năm căn và năm lực, các khả năng và sức mạnh tu tập; bảy giác chi, các yếu tố giác ngộ; Thánh đạo tám ngành, con đường tu tám phần. Ānanda nhắc các nhóm ấy và thưa không thấy dù hai vị khác ý."
+          ],
+          "meaningUnits": [
+            "concern",
+            "path-question",
+            "path-answer"
+          ]
+        },
+        {
+          "id": "path",
+          "kind": "teaching",
+          "heading": "Bất đồng về đường tu là việc hệ trọng",
+          "paragraphs": [
+            "Ānanda vẫn lo rằng có người bề ngoài vâng lời Phật nhưng sau khi Ngài mất sẽ gây tranh về cách sinh sống hoặc giới bổn, những điều quy định đời tu. Ông nhắc lại những bất lợi, bất hạnh, thiệt hại và đau khổ mà số đông, chư thiên, con người phải chịu.",
+            "Phật nói tranh về sinh sống hay giới bổn là nhỏ trong sự so sánh này. Nếu Tăng tranh về chính con đường và cách thực hành, thì đó mới là sự tranh chấp đưa đến những hậu quả rộng lớn vừa nêu."
+          ],
+          "meaningUnits": [
+            "livelihood",
+            "distinction"
+          ]
+        },
+        {
+          "id": "six-roots",
+          "kind": "teaching",
+          "heading": "Nhận diện sáu gốc tranh chấp",
+          "paragraphs": [
+            "Sáu gốc Phật nêu là giận dữ và ôm hận; xúc phạm và khinh miệt; ganh tị và bỏn xẻn; gian trá và dối gạt; mong muốn xấu và quan điểm sai; bám chặt quan điểm của mình, giữ lấy và khó buông bỏ. Nhận ra chúng giúp thấy bất hòa đã bắt đầu từ đâu."
+          ],
+          "meaningUnits": [
+            "root-one",
+            "other-roots"
+          ]
+        },
+        {
+          "id": "care",
+          "kind": "teaching",
+          "heading": "Từ bỏ và phòng ngừa",
+          "paragraphs": [
+            "Với từng gốc, cùng một chuỗi hệ quả được nêu: người ấy không cung kính, không tôn trọng vị Thầy, Pháp là lời dạy, và Tăng chúng; không làm trọn việc học tập. Người ấy gây tranh chấp, khiến số đông bất lợi, bất hạnh, thiệt hại, khiến chư thiên và con người gặp bất lợi, đau khổ.",
+            "Nếu thấy gốc tranh chấp ấy nơi mình hoặc bên ngoài, cần cố gắng từ bỏ. Nếu chưa thấy, vẫn thực hành để nó không khởi lên về sau. Có sự chăm sóc điều đang có và cũng có sự gìn giữ cho tương lai."
+          ],
+          "meaningUnits": [
+            "root-one-harm",
+            "root-one-response",
+            "other-roots-harm",
+            "other-roots-response"
+          ]
+        },
+        {
+          "id": "methods",
+          "kind": "teaching",
+          "heading": "Những vụ việc có cách giải riêng",
+          "paragraphs": [
+            "Có bốn loại tránh sự, tức vụ việc cần giải quyết: do tranh luận; do buộc lỗi; do phạm lỗi; và do công việc của cộng đồng.",
+            "Bảy cách làm lắng chúng được gọi là hiện tiền, gặp nhau giải quyết trực tiếp; ức niệm, liên quan việc nhớ lại; bất si, xét thời tâm loạn đã qua; theo sự thừa nhận; theo đa số; phán quyết nặng hơn; và che rơm. Mỗi cách được nêu để dàn xếp một số trường hợp."
+          ],
+          "meaningUnits": [
+            "four-issues",
+            "seven-methods"
+          ]
+        },
+        {
+          "id": "gather",
+          "kind": "teaching",
+          "heading": "Cùng họp, cùng xét đường lối Pháp",
+          "paragraphs": [
+            "Khi các vị tranh đây là Pháp hay không phải Pháp, là Luật, tức các quy tắc tu tập, hay không phải Luật, tất cả cần họp trong hòa hợp. Họ xem xét kỹ đường lối Pháp, rồi giải quyết phù hợp với đường lối ấy. Đó là hiện tiền.",
+            "Nếu không thể giải quyết tại trú xứ ấy, các vị đến nơi có nhiều tỳ-kheo hơn. Tất cả lại họp hòa hợp, xem xét kỹ đường lối Pháp và giải quyết theo đó. Đây là cách theo đa số. Dù ở nơi nào, việc xem xét Pháp vẫn phải được thực hiện."
+          ],
+          "meaningUnits": [
+            "face-to-face",
+            "majority"
+          ]
+        },
+        {
+          "id": "recollection",
+          "kind": "teaching",
+          "heading": "Trường hợp liên quan việc nhớ lại",
+          "paragraphs": [
+            "Ở cách ức niệm, các vị buộc một tỳ-kheo phạm tội nặng như ba-la-dị, lỗi khiến mất tư cách tỳ-kheo, hoặc lỗi gần mức ấy. Họ hỏi có nhớ đã phạm không. Vị ấy đáp không nhớ đã phạm tội nặng ấy. Trong tình huống được kinh trình bày, vị ấy được ban phán quyết ức niệm."
+          ],
+          "meaningUnits": [
+            "recollection"
+          ]
+        },
+        {
+          "id": "confusion",
+          "kind": "teaching",
+          "heading": "Trường hợp từng bị tâm loạn",
+          "paragraphs": [
+            "Ở cách bất si, một vị cũng bị hỏi về tội nặng như thế và trả lời không nhớ. Khi tiếp tục bị yêu cầu xét thật kỹ, vị ấy kể đã từng bị tâm loạn, tâm trí đảo lộn. Trong thời gian đó đã làm và nói nhiều điều không xứng người tu; vị ấy không nhớ các điều ấy, vì làm khi tâm loạn. Phán quyết bất si được ban trong trường hợp này."
+          ],
+          "meaningUnits": [
+            "past-confusion-question",
+            "past-confusion-answer"
+          ]
+        },
+        {
+          "id": "admission",
+          "kind": "teaching",
+          "heading": "Nhận rõ lỗi và giữ gìn về sau",
+          "paragraphs": [
+            "Có vị, dù được buộc lỗi hay không, nhớ lỗi mình đã phạm, nói rõ và bày tỏ nó. Vị ấy đến một tỳ-kheo có nhiều tuổi hạ hơn, tức thâm niên tu lâu hơn, chỉnh y để hở một vai, lễ dưới chân, ngồi xổm, chắp tay. Vị ấy nói rõ tên lỗi và xin sám hối, nhận lỗi để sửa.",
+            "Vị kia hỏi có thấy lỗi không. Người ấy đáp thấy. Được dặn giữ gìn về sau, người ấy hứa sẽ giữ gìn. Đó là cách xử theo sự thừa nhận."
+          ],
+          "meaningUnits": [
+            "admission",
+            "admission-dialogue"
+          ]
+        },
+        {
+          "id": "denial",
+          "kind": "teaching",
+          "heading": "Từ một lời phủ nhận",
+          "paragraphs": [
+            "Với phán quyết nặng hơn, bài kinh kể một vị bị hỏi có nhớ đã phạm ba-la-dị hoặc lỗi gần mức ấy không. Ban đầu vị ấy nói không nhớ. Người hỏi yêu cầu xét kỹ; vị ấy đáp không nhớ tội nặng, nhưng nhớ một lỗi nhẹ.",
+            "Người kia tiếp tục hỏi về tội nặng. Vị ấy biện hộ: ngay lỗi nhẹ không ai hỏi tôi còn nhận, thì nếu đã phạm tội nặng, khi được hỏi, sao tôi không nhận?"
+          ],
+          "meaningUnits": [
+            "penalty-denial",
+            "penalty-defense"
+          ]
+        },
+        {
+          "id": "truth",
+          "kind": "teaching",
+          "heading": "Đến lời nhìn nhận sau cùng",
+          "paragraphs": [
+            "Người hỏi đáp: ngay lỗi nhẹ, nếu không hỏi, ông đã không nhận, thì sao hỏi tội nặng ông lại nhận? Rồi người ấy yêu cầu xét kỹ thêm lần nữa.",
+            "Cuối cùng vị bị hỏi nói có nhớ đã phạm tội nặng ấy. Lời phủ nhận trước đây là nói vội, hấp tấp. Bài kinh gọi cách dàn xếp trong tình huống này là phán quyết nặng hơn."
+          ],
+          "meaningUnits": [
+            "penalty-admission",
+            "penalty-result"
+          ]
+        },
+        {
+          "id": "grass-first",
+          "kind": "teaching",
+          "heading": "Một bên công khai nhận phần lỗi",
+          "paragraphs": [
+            "Cách che rơm được nêu khi các vị đã tranh chấp, cãi vã và làm, nói nhiều điều không xứng người tu. Tất cả họp hòa hợp. Một vị khéo giải quyết việc thuộc một phe đứng dậy, chỉnh y để hở một vai, chắp tay và xin Tăng chúng lắng nghe.",
+            "Vị ấy trình bày tình trạng đã làm và nói không xứng trong cuộc tranh chấp. Nếu Tăng thấy đúng lúc, vị ấy xin vì lợi ích của các vị trong phe và của mình mà đưa lỗi của họ cùng lỗi của mình ra giữa Tăng theo cách che rơm, ngoại trừ trọng tội và những điều liên quan người tại gia."
+          ],
+          "meaningUnits": [
+            "grass-context",
+            "grass-first"
+          ]
+        },
+        {
+          "id": "grass-second",
+          "kind": "teaching",
+          "heading": "Bên còn lại cũng nhận phần mình",
+          "paragraphs": [
+            "Tiếp đó, một vị khéo giải quyết việc thuộc phe kia cũng đứng dậy, chỉnh y một vai, chắp tay, xin Tăng lắng nghe. Vị ấy nêu cùng tình trạng. Nếu Tăng thấy đúng lúc, vì lợi ích của các vị trong phe và của mình, vị ấy cũng công khai lỗi của họ và mình giữa Tăng theo cách ấy, vẫn trừ trọng tội và những việc liên quan người tại gia.",
+            "Đây là che rơm, cách dàn xếp một số vụ việc. Cả hai phe đều có phần phải trình bày, và cả hai lời trình bày đều giữ hai ngoại lệ ấy."
+          ],
+          "meaningUnits": [
+            "grass-second",
+            "grass-result"
+          ]
+        },
+        {
+          "id": "kindness",
+          "kind": "teaching",
+          "heading": "Hòa hợp được nuôi trong việc hằng ngày",
+          "paragraphs": [
+            "Phật dạy thêm sáu điều đáng ghi nhớ. Mỗi điều tạo thương mến và kính trọng, giúp nâng đỡ nhau, không tranh chấp, hòa hợp và nhất trí.",
+            "Ba điều đầu là duy trì lòng từ, mong điều lành cho bạn cùng tu, bằng hành động, lời nói và ý nghĩ. Mỗi mặt đều cần có ở nơi công khai lẫn khi riêng tư."
+          ],
+          "meaningUnits": [
+            "six-qualities",
+            "kind-body",
+            "kind-speech",
+            "kind-mind"
+          ]
+        },
+        {
+          "id": "sharing",
+          "kind": "teaching",
+          "heading": "Chia sẻ vật có được chân chánh",
+          "paragraphs": [
+            "Điều thứ tư là đối với vật có được chân chánh, đúng Pháp, dù chỉ là thức ăn trong bình bát, không giữ để hưởng riêng, mà dùng chung với bạn tu có giới. Sự chia sẻ ấy cũng đưa đến thương mến, kính trọng, nâng đỡ, không tranh chấp, hòa hợp và nhất trí."
+          ],
+          "meaningUnits": [
+            "sharing"
+          ]
+        },
+        {
+          "id": "ethics",
+          "kind": "teaching",
+          "heading": "Cùng giữ giới trong mọi hoàn cảnh",
+          "paragraphs": [
+            "Điều thứ năm là sống cùng giới với bạn tu, công khai và riêng tư. Các giới ấy không sứt mẻ, không thủng, không lốm đốm, không vết nhơ; đem giải thoát, được người trí ca ngợi, không bị chấp trước và dẫn đến định, sự vững yên của tâm. Điều này cũng nuôi đủ những lợi ích về thương mến, kính trọng, nâng đỡ, không tranh, hòa hợp và nhất trí."
+          ],
+          "meaningUnits": [
+            "shared-ethics"
+          ]
+        },
+        {
+          "id": "view",
+          "kind": "teaching",
+          "heading": "Cùng cái thấy dẫn đến hết khổ",
+          "paragraphs": [
+            "Điều thứ sáu là cùng có cái thấy cao quý, đưa ra khỏi trói buộc và dẫn người thực hành đến sự chấm dứt khổ hoàn toàn. Người tu giữ cùng cái thấy ấy với bạn tu, cả nơi công khai lẫn lúc riêng tư.",
+            "Như vậy, đủ sáu điều đáng ghi nhớ đều góp phần tạo thương mến, kính trọng, nâng đỡ, không tranh chấp, hòa hợp và nhất trí."
+          ],
+          "meaningUnits": [
+            "shared-view",
+            "six-result"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: thiện ý khi người ấy vắng mặt",
+          "paragraphs": [
+            "Trong một nhóm sinh hoạt, ta có thể nói lịch sự khi gặp nhau mà vẫn khó chịu, chê bai khi người ấy rời đi. Một bước thực hành là dừng lại, xem điều định nói có đúng và có giữ thiện ý với người ấy không. Ví dụ này soi vào lời nói và ý nghĩ ở lúc riêng tư, nơi sự hòa hợp cũng cần được nuôi dưỡng."
+          ],
+          "meaningUnits": [
+            "kind-speech",
+            "kind-mind"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: nhận một phần việc cần sửa",
+          "paragraphs": [
+            "Có thể chọn một việc nhỏ còn vướng với người quen, nhận rõ phần mình cần sửa và làm điều đã hứa. Nếu thấy tâm muốn hơn thua hoặc giữ chặt ý kiến, hãy nhận ra ngay để không tiếp tục nuôi nó. Một hành động chia sẻ phù hợp cũng có thể giúp thiện ý trở thành việc làm cụ thể."
+          ],
+          "meaningUnits": [
+            "admission-dialogue",
+            "other-roots-response",
+            "sharing"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Đón nhận lời nhắc và lợi ích lâu dài",
+          "paragraphs": [
+            "Phật hỏi Ānanda: nếu đã nhận giữ và thực hành sáu điều ấy, còn có lời nói hay lời chỉ trích nào, dù nhỏ hay lớn, mà các vị không chịu đựng được không? Ānanda thưa không. Ngài vì vậy dặn nhận giữ và thực hành đủ sáu điều, để được lợi ích và hạnh phúc lâu dài.",
+            "Phật nói xong, Ānanda hoan hỷ và tán đồng. Kinh Sāmagāma khép lại, là bài thứ tư trong nhóm kinh này."
+          ],
+          "meaningUnits": [
+            "endurance",
+            "lasting-benefit",
+            "ending"
+          ]
+        }
+      ]
+    }
+  }
+}

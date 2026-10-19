@@ -1,0 +1,1808 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn60",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "3810f31631ebbea0d6f6068947d66a2b334852d9b3224bfab6ebcfcc6467e05f"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "f86c63e0fbbd21db8c70ec933de1beeb2c779e8b2e650d9590edf48c44607733"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn60_translation-vi-project.json",
+      "commit": "89fc6b9e81a738c3cf90f2e8e4672f24bba5e9df",
+      "sha256": "3e97199eb6f7a77d883ff4ee3fa6d211fbc55bfa79bef9fb9d4407dfce2626a4"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn60.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "ab1b76ddf4597757efbf323a9c298f7e45bd1c7ad6341194bee1ee1f3aad06e5"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn60_comment-vi-project.json",
+      "commit": "89fc6b9e81a738c3cf90f2e8e4672f24bba5e9df",
+      "sha256": "153ba8ad9495783bba539f4e932b77c9f51f13855a8525713476cd9c18a8987d"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Kinh Pháp Chắc Chắn",
+      "segments": [
+        "mn60:0.1",
+        "mn60:0.2"
+      ],
+      "summary": "MN60, Apaṇṇakasutta, Kinh Pháp Chắc Chắn."
+    },
+    {
+      "id": "journey",
+      "title": "Lời truyền và chuyến đi đến Sālā",
+      "segments": [
+        "mn60:1.1",
+        "mn60:1.2"
+      ],
+      "summary": "Người truyền đã nghe; Phật đi trong Kosala cùng đại chúng tỳ-kheo, tới làng bà-la-môn Sālā."
+    },
+    {
+      "id": "reputation",
+      "title": "Danh tiếng của Gotama",
+      "segments": [
+        "mn60:2.1",
+        "mn60:2.2",
+        "mn60:2.3",
+        "mn60:2.4"
+      ],
+      "summary": "Bà-la-môn và gia chủ nghe Gotama dòng Sakya, xuất gia từ gia tộc ấy, đến cùng đại chúng; đủ các phẩm tính: Thế Tôn, A-la-hán, Chánh Đẳng Giác, minh hạnh đầy đủ, Thiện Thệ, biết thế gian, vô thượng điều phục người đáng điều phục, thầy trời người, Phật, Thế Tôn."
+    },
+    {
+      "id": "teaching",
+      "title": "Tự chứng rồi chỉ bày con đường",
+      "segments": [
+        "mn60:2.5",
+        "mn60:2.6",
+        "mn60:2.7"
+      ],
+      "summary": "Tự thắng trí chứng thế giới gồm chư thiên, Māra, Phạm thiên, sa-môn, bà-la-môn, trời và người rồi chỉ bày; Pháp đầu/giữa/cuối tốt, ý và lời đủ, phạm hạnh toàn vẹn trong sạch; gặp bậc A-la-hán ấy là tốt."
+    },
+    {
+      "id": "greetings",
+      "title": "Năm cách đến gặp",
+      "segments": [
+        "mn60:3.1"
+      ],
+      "summary": "Dân làng tới; có người lễ, chào hỏi trò chuyện thân thiện, chắp tay, xưng tên họ, hoặc im lặng; tất cả ngồi một bên; Phật nói."
+    },
+    {
+      "id": "no-teacher",
+      "title": "Chưa có thầy để tin có căn cứ",
+      "segments": [
+        "mn60:4.1",
+        "mn60:4.2",
+        "mn60:4.3",
+        "mn60:4.4",
+        "mn60:4.5"
+      ],
+      "summary": "Phật hỏi có thầy vừa ý để tin có căn cứ không; họ đáp không. Do chưa tìm được, nên nhận và thực hành trọn pháp chắc chắn vì lợi ích/an lạc dài lâu; hỏi pháp nào."
+    },
+    {
+      "id": "deny-world",
+      "title": "Chủ trương không có",
+      "segments": [
+        "mn60:5.1",
+        "mn60:5.2"
+      ],
+      "summary": "Đủ công thức phủ định: bố thí/cúng tế/lễ vật, quả nghiệp thiện ác, đời này/đời sau, mẹ/cha, chúng sinh hóa sinh, sa-môn/bà-la-môn đúng đường đúng hành tự biết hai đời rồi tuyên thuyết. Đọc trong phạm vi đạo đức-nghiệp báo, không xóa các thành phần cổ."
+    },
+    {
+      "id": "affirm-world",
+      "title": "Chủ trương có đối nghịch",
+      "segments": [
+        "mn60:6.1",
+        "mn60:6.2",
+        "mn60:6.3"
+      ],
+      "summary": "Có nhóm khẳng định đầy đủ từng thành phần của công thức trước; không bỏ đời này, mẹ cha hay hóa sinh."
+    },
+    {
+      "id": "contrast-world",
+      "title": "Xác nhận đối nghịch thứ nhất",
+      "segments": [
+        "mn60:6.4",
+        "mn60:6.5",
+        "mn60:6.6"
+      ],
+      "summary": "Phật hỏi hai chủ trương có trực tiếp đối nghịch không; gia chủ đáp đúng."
+    },
+    {
+      "id": "deny-world-conduct",
+      "title": "Hệ quả hành xử của chủ trương phủ định",
+      "segments": [
+        "mn60:7.1",
+        "mn60:7.2",
+        "mn60:7.3",
+        "mn60:7.4",
+        "mn60:7.5"
+      ],
+      "summary": "Xét lại trọn công thức phủ định: có thể mong đợi bỏ ba thiện thân/khẩu/ý và nhận ba ác thân/khẩu/ý; vì không thấy nguy hại/thấp kém/ô nhiễm bất thiện và lợi ích xuất ly/mặt thanh tịnh của thiện."
+    },
+    {
+      "id": "deny-world-view",
+      "title": "Phủ nhận đời sau và chuỗi bất thiện",
+      "segments": [
+        "mn60:8.1",
+        "mn60:8.2",
+        "mn60:8.3",
+        "mn60:8.4",
+        "mn60:8.5",
+        "mn60:8.6",
+        "mn60:8.7",
+        "mn60:8.8"
+      ],
+      "summary": "Kinh khẳng định đời sau thực có: phủ nhận trong thấy/nghĩ/nói là tà kiến/tư duy/ngữ; chống A-la-hán biết đời sau; thuyết phục giáo pháp sai; khen mình/chê người. Thiện giới bị bỏ, ác giới thiết lập, đủ bảy mặt bất thiện nương tà kiến."
+    },
+    {
+      "id": "deny-world-reasoning",
+      "title": "Xét hai khả năng của phủ định đời sau",
+      "segments": [
+        "mn60:9.1",
+        "mn60:9.2",
+        "mn60:9.3",
+        "mn60:9.4",
+        "mn60:9.5",
+        "mn60:9.6",
+        "mn60:9.7",
+        "mn60:9.8"
+      ],
+      "summary": "Người trí xét: nếu không đời sau, chết được an ổn; nếu có, chết tái sinh cảnh khổ/đọa/địa ngục. Tạm cho không có vẫn bị trí chê vô đạo đức/tà kiến/chủ trương không có; nếu có thì thua hai phía. Nhận sai pháp chắc chắn, tính một phía, bỏ phương án thiện."
+    },
+    {
+      "id": "affirm-world-conduct",
+      "title": "Hành xử theo khẳng định",
+      "segments": [
+        "mn60:10.1",
+        "mn60:10.2",
+        "mn60:10.3",
+        "mn60:10.4",
+        "mn60:10.5"
+      ],
+      "summary": "Xét lại trọn công thức có: có thể mong đợi bỏ ba ác thân/khẩu/ý, nhận ba thiện; vì thấy nguy hại/thấp kém/ô nhiễm ác và lợi ích xuất ly/mặt thanh tịnh thiện."
+    },
+    {
+      "id": "affirm-world-view",
+      "title": "Khẳng định đời sau và chuỗi thiện",
+      "segments": [
+        "mn60:11.1",
+        "mn60:11.2",
+        "mn60:11.3",
+        "mn60:11.4",
+        "mn60:11.5",
+        "mn60:11.6",
+        "mn60:11.7",
+        "mn60:11.8"
+      ],
+      "summary": "Vì đời sau thực có, thấy/nghĩ/nói có là chánh kiến/tư duy/ngữ; không chống A-la-hán biết đời sau, thuyết phục giáo pháp thật, không khen mình/chê người; bỏ ác giới, lập thiện giới, đủ bảy mặt thiện nương chánh kiến."
+    },
+    {
+      "id": "affirm-world-reasoning",
+      "title": "Xét hai khả năng của khẳng định đời sau",
+      "segments": [
+        "mn60:12.1",
+        "mn60:12.2",
+        "mn60:12.3",
+        "mn60:12.4",
+        "mn60:12.5",
+        "mn60:12.6",
+        "mn60:12.7"
+      ],
+      "summary": "Nếu có đời sau, người ấy chết sinh cảnh tốt/cõi trời; tạm cho không có vẫn được trí khen giới hạnh/chánh kiến/chủ trương có. Nếu có, thắng hai phía: hiện đời khen và chết sinh trời. Nhận đúng pháp chắc chắn, bao quát hai phía, bỏ phương án ác."
+    },
+    {
+      "id": "deny-action",
+      "title": "Phủ nhận hiệu lực đạo đức của hành động",
+      "segments": [
+        "mn60:13.1",
+        "mn60:13.2"
+      ],
+      "summary": "Nhóm nói tự làm hoặc khiến làm trừng phạt/chặt cắt/hành hạ/gây khổ/kiệt quệ/kinh hãi; giết/lấy không cho/đột nhập/cướp bóc/cướp nhà lẻ/chặn đường/tư thông vợ người/nói dối đều không tạo ác. Đó là quan điểm đang bị xét, không lời khuyên của Phật."
+    },
+    {
+      "id": "denying-extremes",
+      "title": "Những ví dụ cực đoan của phủ định tác dụng",
+      "segments": [
+        "mn60:13.3",
+        "mn60:13.4",
+        "mn60:13.5",
+        "mn60:13.6"
+      ],
+      "summary": "Ngay cả bánh xe sắc giết tất cả sinh vật thành một đống, hay tự giết/cắt/hành hạ và khiến làm dọc bờ nam Gaṅgā cũng nói không ác/quả ác; bờ bắc tự cho/tế và khiến làm thì nói không phước/quả; đủ bố thí/tự chế/kiềm chế/nói thật cũng bị phủ định. Trẻ giảm hình ảnh máu thịt nhưng giữ mức cực đoan và phạm vi."
+    },
+    {
+      "id": "affirm-action",
+      "title": "Khẳng định hiệu lực trong cùng các trường hợp",
+      "segments": [
+        "mn60:14.1",
+        "mn60:14.2",
+        "mn60:14.3",
+        "mn60:14.4",
+        "mn60:14.5",
+        "mn60:14.6"
+      ],
+      "summary": "Nhóm đối nghịch khẳng định ác/quả ác ở toàn hành vi và hai ví dụ hại vừa kể; phước/quả phước ở bờ bắc và bốn việc cho/tự chế/kiềm chế/nói thật; không đổi phía sông hay người tự làm/khiến làm."
+    },
+    {
+      "id": "contrast-action",
+      "title": "Xác nhận đối nghịch thứ hai",
+      "segments": [
+        "mn60:14.7",
+        "mn60:14.8",
+        "mn60:14.9"
+      ],
+      "summary": "Phật hỏi hai chủ trương trực tiếp đối nghịch; gia chủ đáp đúng."
+    },
+    {
+      "id": "deny-action-conduct",
+      "title": "Phủ định tác dụng dẫn bỏ thiện",
+      "segments": [
+        "mn60:15.1",
+        "mn60:15.2",
+        "mn60:15.3",
+        "mn60:15.4",
+        "mn60:15.5",
+        "mn60:15.6",
+        "mn60:15.7"
+      ],
+      "summary": "Lặp lại phủ định đủ hành vi/ví dụ rồi kỳ vọng bỏ ba thiện, nhận ba ác thân/khẩu/ý; cùng lý do không thấy nguy hại/thấp kém/ô nhiễm ác và ích xuất ly/thanh tịnh thiện."
+    },
+    {
+      "id": "deny-action-view",
+      "title": "Tà kiến với hiệu lực hành động",
+      "segments": [
+        "mn60:16.1",
+        "mn60:16.2",
+        "mn60:16.3",
+        "mn60:16.4",
+        "mn60:16.5",
+        "mn60:16.6",
+        "mn60:16.7",
+        "mn60:16.8"
+      ],
+      "summary": "Hành động thực có hiệu lực: phủ nhận trong thấy/nghĩ/nói là ba sai; chống A-la-hán chủ trương có hiệu lực; thuyết phục pháp sai; khen mình/chê người; bỏ thiện giới/lập ác giới, đủ bảy mặt nương tà kiến."
+    },
+    {
+      "id": "deny-action-reasoning",
+      "title": "Hai khả năng khi phủ nhận tác dụng",
+      "segments": [
+        "mn60:17.1",
+        "mn60:17.2",
+        "mn60:17.3",
+        "mn60:17.4",
+        "mn60:17.5",
+        "mn60:17.6",
+        "mn60:17.7",
+        "mn60:17.8"
+      ],
+      "summary": "Nếu không hiệu lực, chết an ổn; nếu có, chết cảnh khổ/đọa/địa ngục. Dù tạm cho không có vẫn bị trí chê vô đạo đức/tà kiến/phủ nhận tác dụng; nếu có thua hai phía, nhận sai chỉ tính một phía và bỏ phương án thiện."
+    },
+    {
+      "id": "affirm-action-conduct",
+      "title": "Khẳng định tác dụng dẫn nhận thiện",
+      "segments": [
+        "mn60:18.1",
+        "mn60:18.2",
+        "mn60:18.3",
+        "mn60:18.4",
+        "mn60:18.5",
+        "mn60:18.6",
+        "mn60:18.7",
+        "mn60:18.8"
+      ],
+      "summary": "Lặp khẳng định toàn hành vi/ví dụ; kỳ vọng bỏ ba ác nhận ba thiện thân/khẩu/ý vì thấy nguy hại/thấp kém/ô nhiễm ác và ích xuất ly/thanh tịnh thiện."
+    },
+    {
+      "id": "affirm-action-view",
+      "title": "Chánh kiến với hiệu lực hành động",
+      "segments": [
+        "mn60:19.1",
+        "mn60:19.2",
+        "mn60:19.3",
+        "mn60:19.4",
+        "mn60:19.5",
+        "mn60:19.6",
+        "mn60:19.7",
+        "mn60:19.8"
+      ],
+      "summary": "Hành động thực có hiệu lực: thấy/nghĩ/nói có là ba đúng; không chống A-la-hán chủ trương tác dụng; thuyết phục pháp thật; không khen mình/chê người; bỏ ác giới/lập thiện giới, đủ bảy mặt nương chánh kiến."
+    },
+    {
+      "id": "affirm-action-reasoning",
+      "title": "Hai khả năng khi nhận tác dụng",
+      "segments": [
+        "mn60:20.1",
+        "mn60:20.2",
+        "mn60:20.3",
+        "mn60:20.4",
+        "mn60:20.5",
+        "mn60:20.6",
+        "mn60:20.7"
+      ],
+      "summary": "Nếu có hiệu lực, chết sinh cảnh tốt/cõi trời; dù tạm cho không có vẫn trí khen có giới/chánh kiến/khẳng định tác dụng. Nếu có thắng hai phía; nhận đúng bao quát hai phía/bỏ ác."
+    },
+    {
+      "id": "deny-cause",
+      "title": "Phủ định nhân duyên và sức nỗ lực",
+      "segments": [
+        "mn60:21.1",
+        "mn60:21.2",
+        "mn60:21.3",
+        "mn60:21.4",
+        "mn60:21.5",
+        "mn60:21.6",
+        "mn60:21.7"
+      ],
+      "summary": "Nói ô nhiễm lẫn thanh tịnh không nhân/duyên; không lực/tinh tấn/sức người/nỗ lực. Tất cả hữu tình/sinh vật/chúng sinh/sinh mạng bị nói không tự chủ/lực/năng lực, do định mệnh/hoàn cảnh/bản tính, cảm khổ lạc trong sáu loại sinh; không tự thêm tên sáu loại."
+    },
+    {
+      "id": "affirm-cause",
+      "title": "Khẳng định nhân duyên và nỗ lực",
+      "segments": [
+        "mn60:22.1",
+        "mn60:22.2",
+        "mn60:22.3",
+        "mn60:22.4",
+        "mn60:22.5",
+        "mn60:22.6",
+        "mn60:22.7",
+        "mn60:22.8"
+      ],
+      "summary": "Nói ô nhiễm lẫn thanh tịnh có nhân/duyên, có lực/tinh tấn/sức người/nỗ lực; không phải tất cả mọi loài đều bất lực bị ba thứ chi phối cảm khổ lạc trong sáu loại sinh. Giữ phủ định toàn xưng, không sửa thành mọi người toàn quyền."
+    },
+    {
+      "id": "contrast-cause",
+      "title": "Xác nhận đối nghịch thứ ba",
+      "segments": [
+        "mn60:22.9",
+        "mn60:22.10",
+        "mn60:22.11"
+      ],
+      "summary": "Phật hỏi trực tiếp đối nghịch không; gia chủ đáp đúng."
+    },
+    {
+      "id": "deny-cause-conduct",
+      "title": "Phủ định nhân dẫn bỏ thiện",
+      "segments": [
+        "mn60:23.1",
+        "mn60:23.2",
+        "mn60:23.3",
+        "mn60:23.4",
+        "mn60:23.5",
+        "mn60:23.6",
+        "mn60:23.7",
+        "mn60:23.8",
+        "mn60:23.9"
+      ],
+      "summary": "Lặp đầy đủ vô nhân vô duyên và tất định; kỳ vọng bỏ ba thiện nhận ba ác thân/khẩu/ý; cùng lý do không thấy nguy hại/thấp kém/ô nhiễm ác và ích xuất ly/thanh tịnh thiện."
+    },
+    {
+      "id": "deny-cause-view",
+      "title": "Tà kiến với nhân",
+      "segments": [
+        "mn60:24.1",
+        "mn60:24.2",
+        "mn60:24.3",
+        "mn60:24.4",
+        "mn60:24.5",
+        "mn60:24.6",
+        "mn60:24.7",
+        "mn60:24.8"
+      ],
+      "summary": "Nhân thực có: phủ nhận trong thấy/nghĩ/nói là ba sai; chống A-la-hán chủ trương có nhân; thuyết phục pháp sai; khen mình/chê người; bỏ thiện giới/lập ác giới, đủ bảy mặt nương tà kiến."
+    },
+    {
+      "id": "deny-cause-reasoning",
+      "title": "Hai khả năng khi phủ nhận nhân",
+      "segments": [
+        "mn60:25.1",
+        "mn60:25.2",
+        "mn60:25.3",
+        "mn60:25.4",
+        "mn60:25.5",
+        "mn60:25.6",
+        "mn60:25.7",
+        "mn60:25.8"
+      ],
+      "summary": "Nếu không nhân, chết an ổn; nếu có nhân, chết cảnh khổ/đọa/địa ngục. Dù tạm cho không nhân vẫn trí chê vô đạo đức/tà kiến/vô nhân; nếu có thì thua hai phía, nhận sai chỉ một phía/bỏ thiện."
+    },
+    {
+      "id": "affirm-cause-conduct",
+      "title": "Nhận nhân dẫn nhận thiện",
+      "segments": [
+        "mn60:26.1",
+        "mn60:26.2",
+        "mn60:26.3",
+        "mn60:26.4",
+        "mn60:26.5",
+        "mn60:26.6",
+        "mn60:26.7",
+        "mn60:26.8",
+        "mn60:26.9"
+      ],
+      "summary": "Lặp đủ khẳng định nhân/duyên/nỗ lực và phủ định tất định toàn xưng; kỳ vọng bỏ ba ác nhận ba thiện thân/khẩu/ý vì thấy nguy hại/thấp kém/ô nhiễm ác và ích xuất ly/thanh tịnh thiện."
+    },
+    {
+      "id": "affirm-cause-view",
+      "title": "Chánh kiến với nhân",
+      "segments": [
+        "mn60:27.1",
+        "mn60:27.2",
+        "mn60:27.3",
+        "mn60:27.4",
+        "mn60:27.5",
+        "mn60:27.6",
+        "mn60:27.7",
+        "mn60:27.8"
+      ],
+      "summary": "Nhân thực có: thấy/nghĩ/nói có là ba đúng; không chống A-la-hán chủ trương nhân; thuyết phục pháp thật; không khen mình/chê người; bỏ ác giới/lập thiện giới, đủ bảy mặt nương chánh kiến."
+    },
+    {
+      "id": "affirm-cause-reasoning",
+      "title": "Hai khả năng khi nhận nhân",
+      "segments": [
+        "mn60:28.1",
+        "mn60:28.2",
+        "mn60:28.3",
+        "mn60:28.4",
+        "mn60:28.5",
+        "mn60:28.6"
+      ],
+      "summary": "Nếu có nhân, chết cảnh tốt/cõi trời; dù tạm cho không nhân vẫn trí khen giới/chánh kiến/chủ trương có nhân. Nếu có thì thắng hai phía; nhận đúng bao quát hai phía/bỏ ác."
+    },
+    {
+      "id": "formless-pair",
+      "title": "Hai chủ trương về hoàn toàn vô sắc",
+      "segments": [
+        "mn60:29.1",
+        "mn60:29.2",
+        "mn60:30.1",
+        "mn60:30.2",
+        "mn60:30.3",
+        "mn60:30.4",
+        "mn60:30.5",
+        "mn60:30.6"
+      ],
+      "summary": "Một nhóm nói không có, nhóm đối nghịch nói có chứng đạt hoàn toàn vô sắc; Phật hỏi đối nghịch, dân làng đáp đúng."
+    },
+    {
+      "id": "formless-humility",
+      "title": "Không nhận biết thì không khẳng định tuyệt đối",
+      "segments": [
+        "mn60:31.1",
+        "mn60:31.2",
+        "mn60:31.3",
+        "mn60:31.4",
+        "mn60:31.5",
+        "mn60:31.6",
+        "mn60:31.7"
+      ],
+      "summary": "Người trí xét chưa thấy phủ định/chưa biết khẳng định; chưa biết/chưa thấy mà nắm một phía tuyên bố chỉ đây thật còn lại hư vọng là không thích hợp."
+    },
+    {
+      "id": "formless-possibilities",
+      "title": "Hai khả năng về vô sắc",
+      "segments": [
+        "mn60:31.8",
+        "mn60:31.9",
+        "mn60:31.10",
+        "mn60:31.11",
+        "mn60:31.12",
+        "mn60:31.13"
+      ],
+      "summary": "Nếu lời không vô sắc đúng, có khả năng tái sinh chắc chắn nơi trời có sắc do ý tạo; nếu lời có vô sắc đúng, có khả năng tái sinh chắc chắn nơi trời vô sắc do tưởng tạo. Giữ cả giả định và có khả năng; không bảo chỉ tin là đủ."
+    },
+    {
+      "id": "form-drawbacks",
+      "title": "Điều bất lợi liên hệ sắc và hướng thực hành",
+      "segments": [
+        "mn60:31.14",
+        "mn60:31.15",
+        "mn60:31.16"
+      ],
+      "summary": "Do sắc thấy có gậy/vũ khí, cãi/xung đột/tranh chấp/công kích, chia rẽ/dối; hoàn toàn vô sắc không có các việc ấy. Suy xét nên đang thực hành yểm ly/ly tham/diệt chính sắc, không tự nhận đã chứng."
+    },
+    {
+      "id": "cessation-pair",
+      "title": "Hai chủ trương về hữu diệt",
+      "segments": [
+        "mn60:32.1",
+        "mn60:32.2",
+        "mn60:33.1",
+        "mn60:33.2",
+        "mn60:33.3",
+        "mn60:33.4",
+        "mn60:33.5",
+        "mn60:33.6"
+      ],
+      "summary": "Không/có chấm dứt hoàn toàn hữu đối nghịch; Phật hỏi, gia chủ xác nhận. Hữu là sự tiếp tục hiện hữu/tái sinh, không mọi tồn tại nói chung."
+    },
+    {
+      "id": "cessation-humility",
+      "title": "Chưa thấy biết hữu diệt thì không nhận độc quyền chân lý",
+      "segments": [
+        "mn60:34.1",
+        "mn60:34.2",
+        "mn60:34.3",
+        "mn60:34.4",
+        "mn60:34.5",
+        "mn60:34.6",
+        "mn60:34.7"
+      ],
+      "summary": "Người trí chưa thấy lời không/chưa biết lời có, không thích hợp nắm một phía bảo chỉ đây thật còn lại hư vọng khi chưa thấy biết."
+    },
+    {
+      "id": "cessation-possibilities",
+      "title": "Khả năng tái sinh vô sắc hoặc tịch diệt hiện đời",
+      "segments": [
+        "mn60:34.8",
+        "mn60:34.9",
+        "mn60:34.10",
+        "mn60:34.11",
+        "mn60:34.12",
+        "mn60:34.13"
+      ],
+      "summary": "Nếu lời không hữu diệt đúng, có khả năng tái sinh chắc chắn nơi trời vô sắc do tưởng tạo; nếu lời có đúng, có khả năng hoàn toàn tịch diệt ngay đời này. Giữ có khả năng, không thêm chắc chắn vào nhánh thứ hai."
+    },
+    {
+      "id": "cessation-nearness",
+      "title": "Hai nhóm năm mặt và hướng tu",
+      "segments": [
+        "mn60:34.14",
+        "mn60:34.15",
+        "mn60:34.16",
+        "mn60:34.17",
+        "mn60:34.18"
+      ],
+      "summary": "Không hữu diệt gần tham/trói/thích thú/bám/chấp; có hữu diệt gần đủ năm mặt không tương ứng. Suy xét nên đang thực hành yểm ly/ly tham/diệt chính hữu; không nhận đã thành tựu hay cổ vũ tự hủy."
+    },
+    {
+      "id": "four-types",
+      "title": "Bốn hạng theo sự hành hạ",
+      "segments": [
+        "mn60:35.1",
+        "mn60:35.2",
+        "mn60:35.3",
+        "mn60:35.4",
+        "mn60:35.5",
+        "mn60:35.6"
+      ],
+      "summary": "Có bốn người: chuyên tự hành khổ; chuyên hành khổ người; chuyên cả hai; không làm và không theo đuổi hành hạ mình/người."
+    },
+    {
+      "id": "fourth-peace",
+      "title": "An lạc hiện đời của hạng thứ tư",
+      "segments": [
+        "mn60:35.7"
+      ],
+      "summary": "Không hành mình/người; hiện đời hết khát khao, tịch tịnh, mát mẻ, cảm lạc, tự thân trở thành Phạm; giải thanh cao/thuần tịnh, không tự thêm linh hồn thường hằng."
+    },
+    {
+      "id": "self-torment",
+      "title": "Tự hành hạ thân",
+      "segments": [
+        "mn60:36.1",
+        "mn60:36.2",
+        "mn60:36.3",
+        "mn60:36.4"
+      ],
+      "summary": "Lõa thể, ngoài quy ước, liếm tay cho sạch; root lược các khổ hạnh tiếp, kết nhiều cách nung nấu/hành thân. HTML đã đọc đầy đủ; diễn giải giữ nét cụ thể của root và ý tổng quát về nhiều khổ hạnh."
+    },
+    {
+      "id": "other-torment",
+      "title": "Sinh kế hành hạ người khác",
+      "segments": [
+        "mn60:37.1",
+        "mn60:37.2",
+        "mn60:37.3"
+      ],
+      "summary": "Root giết cừu/heo và nghề tàn bạo khác; Sujato đầy đủ gồm gia cầm/nai/săn/cá/cướp/đao phủ/giết bò/cai ngục. Đó là hạng chuyên hành khổ người."
+    },
+    {
+      "id": "both-torments",
+      "title": "Lễ tế gây khổ cả hai",
+      "segments": [
+        "mn60:38.1",
+        "mn60:38.2",
+        "mn60:38.3",
+        "mn60:38.4"
+      ],
+      "summary": "Vua Sát-đế-lợi quán đảnh; Sujato/HTML mở người bà-la-môn giàu, nhà lễ phía đông và khổ hạnh/lệnh giết lễ; nô bộc/phục vụ/làm công bị đe dọa phạt/nguy, khóc làm việc. Bối cảnh thật dùng từ HTML SC46 đã đọc, không coi MN51 chỉ được nhắc là nguồn đã đọc."
+    },
+    {
+      "id": "not-tormenting",
+      "title": "Hỏi con đường không hành hạ",
+      "segments": [
+        "mn60:39.1",
+        "mn60:39.2"
+      ],
+      "summary": "Phật hỏi thế nào hạng không làm/không theo hành hạ mình/người, hiện đời hết khát khao/tịch tịnh/mát/an lạc/tự thân trở thành Phạm."
+    },
+    {
+      "id": "buddha-arises",
+      "title": "Như Lai xuất hiện",
+      "segments": [
+        "mn60:40-54.1"
+      ],
+      "summary": "Như Lai A-la-hán Chánh Đẳng Giác xuất hiện; phẩm tính và dạy Pháp như mở đầu, HTML SC48 đủ đã đọc."
+    },
+    {
+      "id": "gradual-training",
+      "title": "Lộ trình trước khi bỏ triền cái",
+      "segments": [
+        "mn60:40-54.2"
+      ],
+      "summary": "Root dấu lược; Sujato người gia chủ/con gia chủ/gia đình nghe; HTML SC49–57 thực đã đọc cho tin/xuất gia/giới thân lời và đời sống, biết đủ, hộ sáu căn, tỉnh giác, vắng, sau khất thực/dùng bữa ngồi thẳng giữ niệm, bỏ năm triền cái. Không đưa những phủ định đảo hoặc cách gán giai cấp của HTML vào prose."
+    },
+    {
+      "id": "hindrances",
+      "title": "Năm triền cái làm yếu tuệ",
+      "segments": [
+        "mn60:40-54.3"
+      ],
+      "summary": "Bỏ năm chướng ngại làm cấu tâm/yếu tuệ: dục tham, sân, hôn trầm thụy miên, trạo cử hối quá, nghi; năm tên theo full HTML SC57 đã đọc."
+    },
+    {
+      "id": "first-jhana",
+      "title": "Sơ thiền",
+      "segments": [
+        "mn60:40-54.4"
+      ],
+      "summary": "Lìa dục/bất thiện, có tầm/tứ, hỷ lạc sinh do LY, chứng trú sơ. Không dùng lỗi HTML SC58 viết do dục."
+    },
+    {
+      "id": "second-jhana",
+      "title": "Nhị thiền",
+      "segments": [
+        "mn60:40-54.5"
+      ],
+      "summary": "Tầm/tứ lắng, nội trong, tâm hợp nhất, không tầm/tứ, hỷ lạc do định; chứng trú nhị."
+    },
+    {
+      "id": "third-jhana",
+      "title": "Tam thiền",
+      "segments": [
+        "mn60:40-54.6"
+      ],
+      "summary": "Root tên và lược; HTML SC60 đủ hỷ phai/xả/niệm/tỉnh/thân lạc/bậc Thánh gọi xả niệm lạc trú; chứng trú tam."
+    },
+    {
+      "id": "fourth-jhana",
+      "title": "Tứ thiền",
+      "segments": [
+        "mn60:40-54.7"
+      ],
+      "summary": "Chứng trú tứ; full HTML SC61 bỏ lạc/khổ, hỷ/ưu trước diệt, không khổ/lạc, xả niệm thanh tịnh."
+    },
+    {
+      "id": "past-lives",
+      "title": "Trí nhớ đời trước",
+      "segments": [
+        "mn60:55.1",
+        "mn60:55.2"
+      ],
+      "summary": "Tâm định/trong sạch/sáng rõ/không tì/không cấu/mềm/dễ dụng/vững/không dao; hướng nhớ đời trước, một/hai/nhiều đời với đặc điểm chi tiết. Cùng phẩm tính tâm giữ cho cả ba trí."
+    },
+    {
+      "id": "rebirth-knowledge",
+      "title": "Trí chết và tái sinh",
+      "segments": [
+        "mn60:55.3",
+        "mn60:55.4"
+      ],
+      "summary": "Với cùng toàn phẩm tính tâm, hướng biết chết/tái sinh; thiên nhãn sạch vượt mắt người thấy thấp/cao, đẹp/xấu, nơi tốt/xấu, biết theo nghiệp. Thuật như chứng đạt trong kinh, không suy ra giá trị người hiện đời."
+    },
+    {
+      "id": "ending-defilements",
+      "title": "Trí lậu tận và hai nhóm bốn sự thật",
+      "segments": [
+        "mn60:55.5",
+        "mn60:55.6",
+        "mn60:55.7"
+      ],
+      "summary": "Cùng phẩm tính tâm hướng lậu tận; biết như thật khổ/nguồn/diệt/đường và lậu/nguồn/diệt/đường. Hai bộ bốn được Sujato/HTML SC64 thực mở đủ."
+    },
+    {
+      "id": "release",
+      "title": "Ba lậu hết và biết giải thoát",
+      "segments": [
+        "mn60:55.8",
+        "mn60:55.9",
+        "mn60:55.10"
+      ],
+      "summary": "Do biết/thấy, tâm thoát dục lậu/hữu lậu/vô minh lậu; biết đã giải thoát; sinh tận/phạm hạnh xong/việc cần xong/không trở lại hiện hữu này."
+    },
+    {
+      "id": "peace-completed",
+      "title": "Kết hạng người không hành hạ",
+      "segments": [
+        "mn60:56.1",
+        "mn60:56.2"
+      ],
+      "summary": "Lặp đủ không hành/không theo hại mình-người và hiện đời hết khát khao/tịch tịnh/mát/cảm lạc/tự thân trở Phạm; đây là kết con đường giải thoát, không chỉ làm dịu cảm xúc."
+    },
+    {
+      "id": "refuge",
+      "title": "Dân làng xin quy y suốt đời",
+      "segments": [
+        "mn60:57.1",
+        "mn60:57.2",
+        "mn60:57.3",
+        "mn60:57.4",
+        "mn60:57.5"
+      ],
+      "summary": "Hai lần tán thán, bốn ví dụ dựng vật đổ/mở bị che/chỉ người lạc/đèn tối cho mắt thấy, Pháp được làm rõ nhiều cách; quy y Gotama/Pháp/Tăng tỳ-kheo, xin ghi cư sĩ từ nay trọn đời."
+    },
+    {
+      "id": "ending",
+      "title": "Bài thứ mười và hết phẩm đầu",
+      "segments": [
+        "mn60:57.6",
+        "mn60:57.7"
+      ],
+      "summary": "Kinh Pháp Chắc Chắn là bài thứ mười; Phẩm Gia Chủ kết thúc, phẩm thứ nhất."
+    },
+    {
+      "id": "recollection-verse",
+      "title": "Kệ mục lục mười bài",
+      "segments": [
+        "mn60:58.0",
+        "mn60:58.1",
+        "mn60:58.2",
+        "mn60:58.3",
+        "mn60:58.4"
+      ],
+      "summary": "Kệ ghi Kandaraka, Aṭṭhakanāgara, Sekha, Potaliya, Jīvaka, Upāli-damatha, Kukkura, Abhaya, Bahuvedanīya, Apaṇṇaka thứ mười; không bịa phân tích từ ghép Upālidamatho hay coi kệ là lời người cư sĩ."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Chưa biết hết, vẫn có thể chọn cách sống lành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Một ngôi làng muốn tìm thầy",
+          "meaningUnits": [
+            "identity",
+            "journey",
+            "reputation",
+            "teaching",
+            "greetings"
+          ],
+          "paragraphs": [
+            "Kinh Pháp Chắc Chắn, MN60, mở bằng lời người truyền kinh kể điều đã nghe. Phật đi trong xứ Kosala cùng đông đảo tỳ-kheo, những người tu xuất gia, rồi đến Sālā, một làng bà-la-môn. Bà-la-môn là những người thuộc truyền thống kinh điển và nghi lễ cổ của Ấn Độ; gia chủ là người sống tại gia.",
+            "Các bà-la-môn và gia chủ nghe tin Sa-môn Gotama, người tu xuất gia từ dòng Sakya, đã đến. Họ nghe danh Ngài là Thế Tôn đáng kính, A-la-hán đã giải thoát, bậc tự giác ngộ trọn vẹn; hiểu biết và hạnh sống đầy đủ; Thiện Thệ, bậc đi đến chỗ tốt lành; hiểu thế gian; hướng dẫn không ai hơn những người có thể được rèn luyện; thầy của trời và người, bậc Giác Ngộ.",
+            "Tiếng tốt còn nói: Ngài tự chứng biết thế giới với chư thiên, Māra, Phạm thiên, người tu, bà-la-môn và loài người, rồi chỉ bày điều đã biết. Lời dạy tốt ở đầu, giữa, cuối, đủ ý nghĩa và lời văn, trình bày đời tu hoàn toàn trong sạch. Gặp một bậc như vậy là điều tốt.",
+            "Dân làng đến. Có người cúi lễ, có người chào hỏi thân thiện, người chắp tay, người xưng tên và họ, người im lặng. Tất cả ngồi một bên để nghe."
+          ]
+        },
+        {
+          "id": "question",
+          "kind": "teaching",
+          "heading": "Chọn thế nào khi chưa có lòng tin vững?",
+          "meaningUnits": [
+            "no-teacher"
+          ],
+          "paragraphs": [
+            "Phật hỏi họ đã có người thầy nào vừa ý để đặt lòng tin có căn cứ chưa. Họ đáp chưa. Vì thế, Ngài dạy họ nhận và thực hành trọn vẹn “pháp chắc chắn”, cách sống đem lại lợi ích và an vui lâu dài. Rồi Ngài giải thích pháp ấy bằng những quan điểm trái ngược nhau."
+          ]
+        },
+        {
+          "id": "worlds",
+          "kind": "teaching",
+          "heading": "Cặp thứ nhất: việc tốt và đời sau có ý nghĩa không?",
+          "meaningUnits": [
+            "deny-world",
+            "affirm-world",
+            "contrast-world"
+          ],
+          "paragraphs": [
+            "Một số người tu nói không có ý nghĩa hay kết quả của bố thí, cúng tế và lễ vật; không có quả của nghiệp thiện, nghiệp ác, tức việc làm tốt, xấu. Họ còn nói “không có đời này, không có đời sau, không có mẹ, không có cha”, không có chúng sinh hóa sinh — tự xuất hiện trong một đời sống mới — và không có người tu đúng đường, thực hành đúng, tự chứng biết hai đời rồi chỉ bày.",
+            "Đây là cả một quan điểm phủ nhận giá trị đạo đức và quả của hành động. Những lời về cha mẹ nằm trong quan điểm ấy, không phải một câu đố xem trước mắt có cha mẹ hay không.",
+            "Nhóm đối nghịch khẳng định đầy đủ: bố thí, cúng tế, lễ vật có ý nghĩa; việc thiện ác có quả; có đời này và đời sau, có mẹ và cha, có hóa sinh, có người tu đúng đường, thực hành đúng, trực tiếp biết hai đời rồi giảng lại. Phật hỏi hai quan điểm có trái nhau không. Dân làng đáp có."
+          ]
+        },
+        {
+          "id": "actions",
+          "kind": "teaching",
+          "heading": "Cặp thứ hai: làm hại có tạo điều xấu không?",
+          "meaningUnits": [
+            "deny-action",
+            "denying-extremes",
+            "affirm-action",
+            "contrast-action"
+          ],
+          "paragraphs": [
+            "Một nhóm khác cho rằng tự làm hoặc sai người khác trừng phạt, chặt cắt, hành hạ, gây đau khổ, kiệt sức hay kinh hãi đều không tạo nghiệp xấu. Họ cũng nói vậy về giết hại, lấy của không cho, đột nhập, cướp bóc, cướp nhà lẻ, chặn đường cướp, quan hệ với vợ người khác và nói dối.",
+            "Họ nêu cả ví dụ cực đoan: dùng bánh xe sắc giết hết sinh vật trên đất, dồn thành một đống, cũng không có nghiệp xấu hay quả xấu. Tự giết hại, chặt cắt, hành hạ và sai người làm như vậy dọc bờ nam sông Gaṅgā cũng thế. Còn dọc bờ bắc, dù tự bố thí, tế lễ và bảo người làm, cũng không có phước hay quả phước. Cho đi, tự rèn, kiềm chế và nói thật đều bị họ phủ nhận giá trị ấy.",
+            "Nhóm đối nghịch nói chính các hành vi gây hại, kể cả hai ví dụ cực đoan ấy, có tạo nghiệp xấu và quả xấu. Chính việc cho và tế ở bờ bắc, cùng bố thí, tự rèn, kiềm chế, nói thật, có tạo phước và quả phước, tức kết quả tốt. Phật hỏi hai bên có trái nhau không; dân làng lại đáp có."
+          ]
+        },
+        {
+          "id": "causes",
+          "kind": "teaching",
+          "heading": "Cặp thứ ba: cố gắng có thể làm thay đổi điều gì?",
+          "meaningUnits": [
+            "deny-cause",
+            "affirm-cause",
+            "contrast-cause"
+          ],
+          "paragraphs": [
+            "Một nhóm nói việc chúng sinh bị ô nhiễm hay được thanh tịnh, nghĩa là tâm xấu đi hay trong sạch hơn, đều không có nguyên nhân, không có điều kiện. Họ phủ nhận năng lực, sự chuyên cần, sức người và nỗ lực. Theo họ, mọi hữu tình, sinh vật, chúng sinh, sinh mạng đều bất lực, không tự chủ, chỉ bị định mệnh, hoàn cảnh và bản tính chi phối, cảm nhận vui khổ trong sáu loại sinh.",
+            "Nhóm ngược lại nói cả ô nhiễm lẫn thanh tịnh đều có nguyên nhân và điều kiện; có năng lực, chuyên cần, sức người và nỗ lực. Không phải tất cả mọi loài đều bất lực và chỉ bị ba điều ấy chi phối trong sáu loại sinh. Khi Phật hỏi, dân làng xác nhận đây cũng là hai quan điểm trái nhau."
+          ]
+        },
+        {
+          "id": "conduct",
+          "kind": "teaching",
+          "heading": "Ba cặp ấy dẫn cách sống về hai hướng",
+          "meaningUnits": [
+            "deny-world-conduct",
+            "affirm-world-conduct",
+            "deny-action-conduct",
+            "affirm-action-conduct",
+            "deny-cause-conduct",
+            "affirm-cause-conduct"
+          ],
+          "paragraphs": [
+            "Với từng chủ trương phủ định vừa kể — phủ định quả và đời sau, phủ định tác dụng đạo đức, phủ định nguyên nhân — Phật nói có thể chờ đợi người theo nó bỏ ba việc lành của thân, lời nói, ý nghĩ, rồi nhận ba cách làm xấu tương ứng. Họ không thấy sự nguy hại, thấp kém, làm tâm ô nhiễm của điều ác, cũng không thấy lợi ích của việc buông điều bất thiện và sự trong sạch của điều lành.",
+            "Với từng chủ trương khẳng định đối nghịch, có thể chờ đợi hướng ngược lại: bỏ thân, lời, ý xấu; nhận thân, lời, ý lành. Lý do là họ thấy rõ những nguy hại ấy và lợi ích thanh tịnh của việc buông bỏ. Cách hiểu không nằm yên trong đầu; nó có thể hướng việc mình làm."
+          ]
+        },
+        {
+          "id": "views",
+          "kind": "teaching",
+          "heading": "Hiểu sai có thể kéo thêm điều sai",
+          "meaningUnits": [
+            "deny-world-view",
+            "affirm-world-view",
+            "deny-action-view",
+            "affirm-action-view",
+            "deny-cause-view",
+            "affirm-cause-view"
+          ],
+          "paragraphs": [
+            "Trong lời giảng này, Phật khẳng định đời sau thực có, hành động thực có hiệu lực đạo đức và sự ô nhiễm, thanh tịnh thực có nguyên nhân. Với mỗi điều ấy, phủ nhận trong cách thấy, nghĩ và nói là tà kiến, tà tư duy, tà ngữ: thấy sai, nghĩ sai, nói sai.",
+            "Người ấy còn chống lại các bậc A-la-hán biết đời sau, hoặc dạy hiệu lực hành động, hoặc dạy có nguyên nhân; thuyết phục người khác theo lời không thật; tự đề cao mình và hạ người khác. Giới hạnh tốt bị bỏ, hạnh xấu được lập. Bảy mặt xấu ấy nương cách thấy sai mà sinh.",
+            "Ở cả ba trường hợp khẳng định, cách thấy, nghĩ, nói tương ứng được gọi là chánh kiến, chánh tư duy, chánh ngữ. Người ấy không chống các bậc biết và dạy đúng, giúp người khác hiểu lời chân thật, không nâng mình hay hạ người; bỏ hạnh xấu, lập hạnh tốt. Bảy mặt lành nương cách thấy đúng mà sinh."
+          ]
+        },
+        {
+          "id": "risks",
+          "kind": "teaching",
+          "heading": "Người có trí xét cả hai khả năng",
+          "meaningUnits": [
+            "deny-world-reasoning",
+            "deny-action-reasoning",
+            "deny-cause-reasoning"
+          ],
+          "paragraphs": [
+            "Với người phủ định rồi sống xấu trong từng trường hợp trên, người có trí xét riêng ba giả định: nếu không có đời sau; nếu hành động không có hiệu lực; nếu không có nguyên nhân. Giả sử lời phủ định tương ứng đúng, khi thân hoại, người ấy được an ổn. Nhưng ngay đời này vẫn bị người có trí chê là thiếu đạo đức, thấy sai và theo chủ trương phủ định ấy.",
+            "Nếu điều bị phủ nhận thực sự có — đời sau, hiệu lực hành động hoặc nguyên nhân — thì sau khi chết người ấy sinh vào cảnh khổ, chốn đọa lạc, địa ngục. Khi ấy họ thiệt cả hai phía: hiện đời bị chê, sau chết đến cảnh xấu. Bài kinh gọi đó là nhận pháp chắc chắn sai: chỉ tính một phía và bỏ phương án lành."
+          ]
+        },
+        {
+          "id": "benefits",
+          "kind": "teaching",
+          "heading": "Chọn điều lành có lợi ở cả hai phía",
+          "meaningUnits": [
+            "affirm-world-reasoning",
+            "affirm-action-reasoning",
+            "affirm-cause-reasoning"
+          ],
+          "paragraphs": [
+            "Cũng với từng cặp ấy, người có trí xét người khẳng định và sống lành. Nếu có đời sau, nếu hành động có hiệu lực, hoặc nếu có nguyên nhân như từng trường hợp nêu, người ấy sau khi chết sinh vào cảnh tốt, cõi trời.",
+            "Dù tạm cho lời phủ định tương ứng đúng, ngay đời này người ấy vẫn được người có trí khen có giới hạnh, thấy đúng và nhận giá trị đạo đức, tác dụng hoặc nguyên nhân. Nếu lời khẳng định đúng, họ được lợi hai phía: hiện đời được khen, sau chết sinh cảnh tốt. Đó là nhận pháp chắc chắn đúng, xét cả hai phía và bỏ phương án xấu."
+          ]
+        },
+        {
+          "id": "formless",
+          "kind": "teaching",
+          "heading": "Cặp thứ tư: điều mình chưa trực tiếp biết",
+          "meaningUnits": [
+            "formless-pair",
+            "formless-humility",
+            "formless-possibilities"
+          ],
+          "paragraphs": [
+            "Một nhóm nói không có những chứng đạt thiền hoàn toàn vô sắc, vượt hình sắc; nhóm khác nói có. Phật hỏi, dân làng xác nhận hai bên trái nhau.",
+            "Người có trí nhận mình chưa thấy điều bên phủ định nói, chưa biết điều bên khẳng định nói. Khi chưa biết, chưa thấy, không thích hợp để tuyên bố chỉ phía mình giữ là thật, mọi phía khác đều sai.",
+            "Người ấy xét: nếu lời không có vô sắc đúng, có khả năng mình được tái sinh chắc chắn nơi các vị trời có sắc, do ý tạo thành. Nếu lời có vô sắc đúng, có khả năng mình được tái sinh chắc chắn nơi các vị trời vô sắc, do tưởng tạo thành. Tưởng là sự nhận diện. Đây là suy xét của người đang chọn hướng thực hành."
+          ]
+        },
+        {
+          "id": "forms",
+          "kind": "teaching",
+          "heading": "Nhìn điều gây ràng buộc để biết hướng buông",
+          "meaningUnits": [
+            "form-drawbacks"
+          ],
+          "paragraphs": [
+            "Người ấy thấy do hình sắc mà có việc cầm gậy, cầm vũ khí, cãi cọ, xung đột, tranh chấp, công kích qua lại, nói chia rẽ và nói dối. Những việc ấy không có trong trạng thái hoàn toàn vô sắc.",
+            "Suy xét vậy, người ấy thực hành để yểm ly, không còn mê đắm; ly tham, làm tham phai đi; và chấm dứt các sắc."
+          ]
+        },
+        {
+          "id": "ending-existence",
+          "kind": "teaching",
+          "heading": "Cặp thứ năm: vòng tiếp tục tái sinh có thể dừng không?",
+          "meaningUnits": [
+            "cessation-pair",
+            "cessation-humility",
+            "cessation-possibilities"
+          ],
+          "paragraphs": [
+            "Hữu là sự tiếp tục hiện hữu và tái sinh. Một nhóm nói hữu không thể chấm dứt hoàn toàn; nhóm kia nói có thể. Phật hỏi, dân làng xác nhận hai quan điểm đối nghịch.",
+            "Người có trí lại nhận mình chưa thấy lời phủ định, chưa biết lời khẳng định; vì vậy không thích hợp nắm một phía rồi nhận chỉ nó là thật, ngoài ra đều sai. Nếu không có hữu diệt, có khả năng mình tái sinh chắc chắn nơi các vị trời vô sắc, do tưởng tạo thành. Nếu có hữu diệt, có khả năng mình được hoàn toàn tịch diệt, giải thoát khỏi những trói buộc, ngay đời này."
+          ]
+        },
+        {
+          "id": "direction",
+          "kind": "teaching",
+          "heading": "Quan điểm nào gần với buông bỏ?",
+          "meaningUnits": [
+            "cessation-nearness"
+          ],
+          "paragraphs": [
+            "Phủ nhận hữu có thể chấm dứt thì gần tham ái, trói buộc, mê thích, bám giữ và chấp thủ. Nhận có sự chấm dứt ấy thì gần không tham, không trói buộc, không mê thích, không bám giữ và không chấp thủ.",
+            "Suy xét vậy, người ấy thực hành yểm ly, ly tham và chấm dứt các hữu. Đây là con đường buông những điều duy trì tái sinh, không phải làm hại sự sống của mình."
+          ]
+        },
+        {
+          "id": "four",
+          "kind": "teaching",
+          "heading": "Bốn cách đối xử với mình và người",
+          "meaningUnits": [
+            "four-types",
+            "fourth-peace",
+            "not-tormenting"
+          ],
+          "paragraphs": [
+            "Phật nêu bốn hạng người: chuyên hành hạ mình; chuyên hành hạ người khác; chuyên hành hạ cả hai; hoặc không hành hạ mình, không hành hạ người, cũng không theo đuổi những việc ấy.",
+            "Hạng thứ tư ngay đời này hết khát khao, tịch tịnh, mát mẻ, cảm nhận an lạc. Tự thân trở nên thanh cao, trong sạch, được kinh gọi là “trở thành Phạm”. Phật đặt câu hỏi và lần lượt giải thích bốn hạng, rồi chỉ con đường của hạng thứ tư."
+          ]
+        },
+        {
+          "id": "harm",
+          "kind": "teaching",
+          "heading": "Hai cách hành hạ đầu tiên",
+          "meaningUnits": [
+            "self-torment",
+            "other-torment"
+          ],
+          "paragraphs": [
+            "Người tự hành hạ mình có thể sống lõa thể, không mặc quần áo, bỏ các quy ước, liếm tay cho sạch và theo nhiều cách làm thân chịu khổ. Phật gọi đó là chuyên hành khổ chính mình.",
+            "Hạng làm khổ người khác gồm những việc kiếm sống tàn bạo: giết cừu, heo, gia cầm, nai, bò; săn thú, đánh cá, cướp bóc, hành quyết, cai ngục và những việc ác độc khác. Ở đây, bài kinh đang xét những công việc gắn với làm hại."
+          ]
+        },
+        {
+          "id": "sacrifice",
+          "kind": "teaching",
+          "heading": "Một lễ tế làm nhiều phía đau khổ",
+          "meaningUnits": [
+            "both-torments"
+          ],
+          "paragraphs": [
+            "Hạng thứ ba được kể bằng cảnh một vua thuộc dòng chiến sĩ đã được làm lễ tấn phong, hoặc một bà-la-môn giàu có, tổ chức tế lễ. Ông dựng nhà lễ mới phía đông thành, cạo râu tóc, khoác da linh dương thô, bôi bơ và dầu, gãi lưng bằng sừng nai. Ông vào cùng vợ chính và một bà-la-môn làm lễ, nằm trên nền chỉ trải cỏ.",
+            "Sữa từ bốn vú một con bò cái có con cùng màu được chia: ông dùng phần thứ nhất, vợ phần thứ hai, người làm lễ phần thứ ba, phần thứ tư dâng lửa; bê con nhận phần còn lại. Ông sai giết bò đực, bê đực, bê cái, dê, cừu, chặt cây làm cột và gom cỏ cho lễ.",
+            "Nô bộc, người phục vụ, người làm công bị đe dọa bằng hình phạt và nguy hiểm, vừa làm vừa khóc. Người tổ chức vừa bắt mình chịu khổ, vừa gây khổ cho sinh vật và người khác."
+          ]
+        },
+        {
+          "id": "training",
+          "kind": "teaching",
+          "heading": "Một con đường khác bắt đầu từ nghe và làm",
+          "meaningUnits": [
+            "buddha-arises",
+            "gradual-training"
+          ],
+          "paragraphs": [
+            "Như Lai, danh xưng của Đức Phật, xuất hiện: bậc A-la-hán, tự giác ngộ trọn vẹn, giảng con đường trong sạch. Có gia chủ, con gia chủ hoặc người trong một gia đình nghe, khởi lòng tin. Người ấy thấy đời tại gia nhiều vướng bận, đời xuất gia rộng thoáng, muốn sống đời tu trọn vẹn nên rời tài sản, quyến thuộc, cạo tóc, mặc y và xuất gia.",
+            "Vị ấy giữ giới, cách sống tránh gây hại: không giết, không lấy của không cho, sống độc thân thanh tịnh; không dối, không chia rẽ, không nói ác hay nói vô ích. Vị ấy biết đủ với y và đồ ăn, mang vật cần dùng nhẹ nhàng như chim mang đôi cánh.",
+            "Vị ấy gìn giữ mắt, tai, mũi, lưỡi, thân, ý, không bám lấy nét chung hay chi tiết để tham và buồn khổ lôi kéo; biết rõ khi đi, nhìn, cử động, dùng y bát, ăn uống, vệ sinh, nghỉ, nói hay im lặng. Chọn chỗ vắng, sau khi khất thực về và dùng bữa, vị ấy ngồi thẳng, giữ sự nhớ biết trước mặt."
+          ]
+        },
+        {
+          "id": "hindrances",
+          "kind": "teaching",
+          "heading": "Gỡ năm điều làm tâm mờ",
+          "meaningUnits": [
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ năm triền cái, những chướng ngại làm tâm ô nhiễm và trí tuệ yếu: dục tham, sự ham muốn những thú vui của giác quan; sân hận, sự giận dữ; hôn trầm thụy miên, sự lờ đờ buồn ngủ; trạo cử hối quá, xao động và day dứt; nghi ngờ điều lành. Tâm được làm sạch để bước vào thiền."
+          ]
+        },
+        {
+          "id": "first-two",
+          "kind": "teaching",
+          "heading": "Hai tầng thiền đầu",
+          "meaningUnits": [
+            "first-jhana",
+            "second-jhana"
+          ],
+          "paragraphs": [
+            "Xa lìa dục và điều bất thiện, vị ấy đạt và an trú sơ thiền. Có tầm, hướng tâm đến đối tượng, và tứ, theo sát đối tượng; có hỷ là hân hoan và lạc là an vui dễ chịu, sinh do xa lìa.",
+            "Khi tầm và tứ lắng, vị ấy đạt và an trú nhị thiền: nội tâm trong sáng, tâm hợp nhất, không tầm không tứ; hỷ lạc do định, sự tập trung vững vàng, sinh ra."
+          ]
+        },
+        {
+          "id": "last-two",
+          "kind": "teaching",
+          "heading": "Quân bình và nhớ biết trong sạch",
+          "meaningUnits": [
+            "third-jhana",
+            "fourth-jhana"
+          ],
+          "paragraphs": [
+            "Khi hỷ phai, vị ấy đạt và an trú tam thiền, có xả là quân bình, chánh niệm và tỉnh giác là nhớ biết và thấy rõ; thân cảm lạc. Các bậc Thánh gọi đó là sống an lạc với xả và niệm.",
+            "Buông lạc và khổ, khi vui buồn trước đó đã dứt, vị ấy đạt và an trú tứ thiền: không khổ không lạc, sự nhớ biết thanh tịnh nhờ xả."
+          ]
+        },
+        {
+          "id": "knowledge",
+          "kind": "teaching",
+          "heading": "Ba trí biết được kể trong kinh",
+          "meaningUnits": [
+            "past-lives",
+            "rebirth-knowledge",
+            "ending-defilements"
+          ],
+          "paragraphs": [
+            "Với tâm đã định, trong sạch, sáng rõ, không tì vết, không cấu uế, mềm dẻo, dễ sử dụng, vững vàng và không dao động, vị ấy lần lượt hướng tâm đến ba trí biết. Cả ba đều được kể với những phẩm tính tâm này.",
+            "Thứ nhất, nhớ các đời trước: một đời, hai đời và nhiều đời, cùng đặc điểm và chi tiết. Thứ hai, bằng thiên nhãn trong sạch vượt mắt người, biết chúng sinh chết và tái sinh: thấp hay cao, đẹp hay xấu, nơi tốt hay xấu, đi theo nghiệp của mình.",
+            "Thứ ba, biết sự chấm dứt lậu hoặc, những ô nhiễm trói buộc tâm. Vị ấy biết đúng như thật khổ, nguyên nhân khổ, khổ chấm dứt, đường đưa đến hết khổ; đồng thời biết lậu hoặc, nguyên nhân của chúng, chúng chấm dứt, và đường đưa đến sự chấm dứt ấy."
+          ]
+        },
+        {
+          "id": "release",
+          "kind": "teaching",
+          "heading": "Biết rằng sự trói buộc đã hết",
+          "meaningUnits": [
+            "release",
+            "peace-completed"
+          ],
+          "paragraphs": [
+            "Do biết và thấy như vậy, tâm thoát dục lậu, sự ô nhiễm do ham dục; hữu lậu, do ham tiếp tục hiện hữu; vô minh lậu, do không hiểu đúng. Vị ấy biết mình đã giải thoát: sinh đã tận, đời tu trong sạch đã hoàn thành, việc cần làm đã làm, không trở lại trạng thái hiện hữu này nữa.",
+            "Đó là người không hành hạ mình hay người, không theo đuổi việc hành hạ; ngay đời này hết khát khao, tịch tịnh, mát mẻ, cảm nhận an lạc, tự thân thanh cao như lời “trở thành Phạm” của kinh."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Dân làng xin nương theo con đường",
+          "meaningUnits": [
+            "refuge",
+            "ending",
+            "recollection-verse"
+          ],
+          "paragraphs": [
+            "Các bà-la-môn và gia chủ hai lần thốt lời tán thán. Họ ví Phật như người dựng vật bị lật, mở điều bị che, chỉ đường người lạc, mang đèn vào tối để người có mắt thấy được. Ngài đã làm sáng tỏ Pháp bằng nhiều cách.",
+            "Họ xin quy y, nương tựa Phật, Pháp và Tăng chúng tỳ-kheo; xin được ghi nhận là cư sĩ, người theo học tại gia, từ hôm nay đến trọn đời. Kinh Pháp Chắc Chắn kết thúc, bài thứ mười; Phẩm Gia Chủ cũng kết thúc, phẩm thứ nhất.",
+            "Kệ mục lục cuối phẩm nhắc mười bài: Kandaraka, Aṭṭhakanāgara, Sekha, Potaliya, Jīvaka, Upāli-damatha, Kukkura, Abhaya, Bahuvedanīya và Apaṇṇaka, bài thứ mười."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: nhận phần trách nhiệm",
+          "meaningUnits": [
+            "deny-world-conduct",
+            "affirm-world-conduct"
+          ],
+          "paragraphs": [
+            "Ví dụ của người biên soạn: em lỡ làm hỏng món đồ mượn của bạn khi không ai nhìn thấy. Nói thật, xin lỗi và cùng tìm cách sửa là lựa chọn có giá trị ngay bây giờ. Em tập giữ lời và quan tâm đến người bị ảnh hưởng, thay vì chỉ tính xem mình có bị phát hiện không. Ví dụ giúp nhìn rõ việc lành của thân, lời và ý trong đời thường."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một câu hỏi trước khi quyết định",
+          "meaningUnits": [
+            "no-teacher",
+            "deny-cause",
+            "affirm-cause",
+            "four-types"
+          ],
+          "paragraphs": [
+            "Gợi ý của người biên soạn: trước một việc khó chọn, thử hỏi “Việc này có làm khổ mình hay người khác không? Mình có thể làm phần nào cho tốt hơn?” Nếu chưa hiểu, hỏi một người lớn đáng tin. Đó là bước tập sống có trách nhiệm, không phải tự nhận mình đã đạt những chứng ngộ sâu mà kinh kể."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Lựa chọn vững trước những quan điểm đối nghịch",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Một lời dạy cho người chưa tìm được thầy",
+          "meaningUnits": [
+            "identity",
+            "journey",
+            "reputation",
+            "teaching",
+            "greetings",
+            "no-teacher"
+          ],
+          "paragraphs": [
+            "Kinh Pháp Chắc Chắn, MN60, bắt đầu bằng lời người truyền kinh thuật điều đã nghe. Đức Phật du hành trong Kosala cùng đại chúng tỳ-kheo, những người tu xuất gia, rồi đến làng bà-la-môn Sālā. Các bà-la-môn, người thuộc truyền thống kinh điển và nghi lễ cổ, cùng những gia chủ sống tại gia nghe tin Sa-môn Gotama, người tu xuất gia từ gia tộc Sakya, đã đến.",
+            "Danh tiếng ấy nêu đầy đủ phẩm tính của Ngài: Thế Tôn đáng kính, A-la-hán đã giải thoát, bậc tự giác ngộ hoàn toàn; đầy đủ hiểu biết và hạnh sống; Thiện Thệ, bậc đi đến chỗ tốt lành; biết thế gian; người hướng dẫn vô thượng cho những ai có thể được điều phục; thầy của trời và người, bậc Giác Ngộ. Ngài tự chứng biết thế giới cùng chư thiên, Māra, Phạm thiên, sa-môn, bà-la-môn, trời và người, rồi chỉ bày. Pháp tốt ở đầu, giữa và cuối, trọn ý nghĩa cùng lời văn, mở ra đời phạm hạnh, đời tu hoàn toàn trong sạch. Họ cho rằng gặp một bậc như vậy là điều tốt.",
+            "Dân làng đến và ngồi một bên. Người đảnh lễ; người chào hỏi thân thiện; người chắp tay; người xưng tên, họ; người im lặng. Phật hỏi họ đã có thầy vừa ý để đặt niềm tin có căn cứ chưa. Họ đáp chưa. Vì vậy, Ngài dạy tiếp nhận và thực hành trọn vẹn pháp chắc chắn, đem lại lợi ích và an lạc lâu dài."
+          ]
+        },
+        {
+          "id": "first-pair",
+          "kind": "teaching",
+          "heading": "1. Phủ nhận hay khẳng định quả của hành động",
+          "meaningUnits": [
+            "deny-world",
+            "affirm-world",
+            "contrast-world"
+          ],
+          "paragraphs": [
+            "Cặp đầu gồm hai chủ trương đối nghịch. Một bên phủ nhận giá trị của bố thí, cúng tế và lễ vật; phủ nhận quả của nghiệp thiện, ác; nói “không có đời này, không có đời sau, không có mẹ, không có cha”; không nhận có chúng sinh hóa sinh, tự hiện ra trong đời sống mới, hay có người tu đúng đường, thực hành đúng, tự chứng biết hai đời rồi chỉ bày.",
+            "Bên kia khẳng định trọn những điều ấy: ý nghĩa của bố thí, cúng tế, lễ vật; quả thiện ác; đời này, đời sau; mẹ, cha; hóa sinh; những người tu đúng đường, thực hành đúng, trực chứng và giảng về hai đời. Công thức về mẹ cha và hai đời được đặt trong toàn bộ vấn đề trách nhiệm đạo đức và nghiệp báo. Phật hỏi hai bên có trực tiếp đối nghịch không; các gia chủ xác nhận có."
+          ]
+        },
+        {
+          "id": "second-pair",
+          "kind": "teaching",
+          "heading": "2. Hành động có hiệu lực đạo đức hay không",
+          "meaningUnits": [
+            "deny-action",
+            "denying-extremes",
+            "affirm-action",
+            "contrast-action"
+          ],
+          "paragraphs": [
+            "Chủ trương phủ định thứ hai cho rằng tự làm hay khiến người khác trừng phạt, chặt cắt, hành hạ, gây đau khổ, kiệt quệ, kinh hãi đều không tạo nghiệp xấu. Họ nói như vậy cả với giết hại, lấy của không cho, đột nhập, cướp bóc, cướp nhà riêng lẻ, chặn đường cướp, tư thông với vợ người khác và nói dối.",
+            "Lập luận ấy đẩy đến ví dụ cực đoan: dù dùng bánh xe sắc giết toàn bộ sinh vật trên đất thành một đống, vẫn không tạo ác hay quả ác. Dọc bờ nam Gaṅgā, tự giết, chặt cắt, hành hạ và khiến người khác làm cũng không có nghiệp xấu hay quả ác. Dọc bờ bắc, tự bố thí, tế lễ và khiến người làm lại bị nói là không có phước, không có quả phước. Bố thí, tự chế, kiềm chế và nói thật cũng bị phủ nhận giá trị ấy.",
+            "Bên khẳng định nói ngược trong chính toàn bộ các trường hợp: gây hại tạo nghiệp xấu và quả xấu; cho đi, tế lễ ở bờ bắc cùng bốn việc lành vừa nêu tạo phước và quả phước. Phật hỏi; các gia chủ xác nhận hai chủ trương trực tiếp đối nghịch. Điểm đang xét là hiệu lực đạo đức của hành động."
+          ]
+        },
+        {
+          "id": "third-pair",
+          "kind": "teaching",
+          "heading": "3. Ô nhiễm và thanh tịnh có nhân duyên không",
+          "meaningUnits": [
+            "deny-cause",
+            "affirm-cause",
+            "contrast-cause"
+          ],
+          "paragraphs": [
+            "Một bên nói chúng sinh bị ô nhiễm hay được thanh tịnh đều không có nguyên nhân, không có điều kiện. Họ phủ nhận năng lực, tinh tấn (sự chuyên cần), sức người và nỗ lực. Tất cả hữu tình, sinh vật, chúng sinh, sinh mạng bị mô tả là không tự chủ, không sức lực, không năng lực; do định mệnh, hoàn cảnh và bản tính chi phối mà cảm nhận khổ lạc trong sáu loại sinh.",
+            "Bên đối nghịch nhận cả ô nhiễm lẫn thanh tịnh đều có nguyên nhân và điều kiện; có năng lực, tinh tấn, sức người, nỗ lực. Không phải mọi loài đều bất lực, chỉ bị ba yếu tố ấy chi phối để cảm nhận khổ lạc trong sáu loại sinh. Phật hỏi và dân làng xác nhận sự đối nghịch. Khẳng định khả năng nỗ lực không có nghĩa con người làm chủ mọi điều."
+          ]
+        },
+        {
+          "id": "conduct",
+          "kind": "teaching",
+          "heading": "Hệ quả thực hành được xét trong cả ba cặp",
+          "meaningUnits": [
+            "deny-world-conduct",
+            "affirm-world-conduct",
+            "deny-action-conduct",
+            "affirm-action-conduct",
+            "deny-cause-conduct",
+            "affirm-cause-conduct"
+          ],
+          "paragraphs": [
+            "Với mỗi nhóm phủ định ở ba cặp trên, Phật nói có thể mong đợi họ bỏ thân hành thiện, khẩu hành thiện, ý hành thiện, rồi thực hành ba mặt ác tương ứng. Lý do: không thấy sự nguy hại, thấp kém, ô nhiễm của bất thiện; không thấy lợi ích của xuất ly, sự buông bỏ, và mặt thanh tịnh của thiện.",
+            "Với từng nhóm khẳng định đối nghịch, có thể mong đợi họ bỏ ba ác nơi thân, lời, ý và thực hành ba thiện. Họ thấy rõ những bất lợi ấy cùng lợi ích thanh tịnh của xuất ly. Đây là nhận định về hướng hành xử mà các chủ trương cụ thể này dẫn tới."
+          ]
+        },
+        {
+          "id": "views",
+          "kind": "teaching",
+          "heading": "Từ quan điểm đến cả một chuỗi hành vi",
+          "meaningUnits": [
+            "deny-world-view",
+            "affirm-world-view",
+            "deny-action-view",
+            "affirm-action-view",
+            "deny-cause-view",
+            "affirm-cause-view"
+          ],
+          "paragraphs": [
+            "Ở lớp giảng này, Phật khẳng định đời sau thực sự có, hành động thực sự có hiệu lực và nguyên nhân thực sự có. Với từng điều, việc phủ nhận bằng quan điểm, ý nghĩ và lời nói là tà kiến, tà tư duy, tà ngữ — thấy, nghĩ, nói sai.",
+            "Sự phủ nhận còn chống những A-la-hán biết đời sau, hoặc chủ trương có tác dụng, hoặc chủ trương có nhân; thuyết phục người khác chấp nhận pháp không thật; nâng mình, hạ người. Giới hạnh tốt bị bỏ, hạnh xấu được thiết lập. Đủ bảy mặt bất thiện ấy sinh với tà kiến làm điều kiện.",
+            "Trong từng trường hợp khẳng định, cách thấy, nghĩ, nói tương ứng là chánh kiến, chánh tư duy, chánh ngữ. Người ấy không chống những bậc biết và dạy đúng, thuyết phục người khác về pháp chân thật, không nâng mình hay hạ người; bỏ hạnh xấu, thiết lập giới tốt. Đủ bảy mặt thiện ấy sinh với chánh kiến làm điều kiện."
+          ]
+        },
+        {
+          "id": "negative-reasoning",
+          "kind": "teaching",
+          "heading": "Xét lựa chọn phủ định dưới cả hai giả định",
+          "meaningUnits": [
+            "deny-world-reasoning",
+            "deny-action-reasoning",
+            "deny-cause-reasoning"
+          ],
+          "paragraphs": [
+            "Với người sống theo mỗi chủ trương phủ định ấy, người có trí xét riêng từng giả định: nếu không có đời sau; nếu hành động không có hiệu lực; hoặc nếu không có nguyên nhân. Nếu lời phủ định tương ứng đúng, khi thân hoại người ấy được an ổn. Dù vậy, ngay hiện tại họ vẫn bị người có trí chê vì vô đạo đức, thấy sai, theo chủ trương không có, không tác dụng hoặc vô nhân.",
+            "Nếu điều bị phủ nhận thực có — đời sau trong cặp thứ nhất, hiệu lực hành động trong cặp thứ hai, nhân trong cặp thứ ba — thì sau khi thân hoại mạng chung, người ấy sinh vào cảnh khổ, chốn đọa lạc, địa ngục. Khi ấy họ thua cả hai phía: hiện đời bị chê, sau chết chịu quả xấu. Kinh gọi đây là tiếp nhận pháp chắc chắn sai: chỉ tính một phía, bỏ phương án thiện."
+          ]
+        },
+        {
+          "id": "positive-reasoning",
+          "kind": "teaching",
+          "heading": "Xét lựa chọn khẳng định dưới cả hai giả định",
+          "meaningUnits": [
+            "affirm-world-reasoning",
+            "affirm-action-reasoning",
+            "affirm-cause-reasoning"
+          ],
+          "paragraphs": [
+            "Với người sống lành theo mỗi chủ trương khẳng định, người có trí xét: nếu có đời sau, nếu hành động có hiệu lực, hoặc nếu có nhân, theo từng cặp tương ứng, người ấy sau chết sinh vào cảnh tốt, cõi trời.",
+            "Ngay cả khi tạm nhận lời phủ định tương ứng là đúng, người ấy vẫn được người có trí khen trong hiện tại: có giới hạnh, chánh kiến, nhận giá trị đạo đức, tác dụng hoặc nhân. Nếu điều khẳng định thực có, họ được lợi ở cả hai phía, hiện đời và sau chết. Đó là tiếp nhận pháp chắc chắn đúng: bao quát cả hai phía, bỏ phương án bất thiện."
+          ]
+        },
+        {
+          "id": "fourth-pair",
+          "kind": "teaching",
+          "heading": "4. Những chứng đạt hoàn toàn vô sắc",
+          "meaningUnits": [
+            "formless-pair",
+            "formless-humility",
+            "formless-possibilities",
+            "form-drawbacks"
+          ],
+          "paragraphs": [
+            "Một nhóm phủ nhận, nhóm khác khẳng định có các chứng đạt thiền hoàn toàn vô sắc, vượt hình sắc. Phật hỏi hai bên có đối nghịch không, dân làng đáp có. Người có trí nhận mình chưa thấy lời bên phủ định, chưa biết lời bên khẳng định; khi chưa biết, chưa thấy thì không thích hợp tuyên bố một phía là sự thật duy nhất, ngoài ra đều hư vọng.",
+            "Nếu lời không có vô sắc đúng, người ấy xét có khả năng việc tái sinh giữa các vị trời có sắc, do ý tạo thành, sẽ là kết quả chắc chắn cho mình. Nếu lời có vô sắc đúng, có khả năng tái sinh chắc chắn giữa các vị trời vô sắc, do tưởng tạo thành. Tưởng là sự nhận diện. Đây là những khả năng được xét trong việc chọn hướng tu.",
+            "Do sắc làm điều kiện, người ấy thấy có cầm gậy, cầm vũ khí, cãi cọ, xung đột, tranh chấp, công kích, nói chia rẽ và nói dối. Những việc ấy không có trong trạng thái hoàn toàn vô sắc. Suy xét vậy, người ấy thực hành yểm ly, ly tham và chấm dứt các sắc: không còn mê đắm, làm tham phai đi, hướng đến sự chấm dứt."
+          ]
+        },
+        {
+          "id": "fifth-pair",
+          "kind": "teaching",
+          "heading": "5. Sự chấm dứt hoàn toàn của hữu",
+          "meaningUnits": [
+            "cessation-pair",
+            "cessation-humility",
+            "cessation-possibilities",
+            "cessation-nearness"
+          ],
+          "paragraphs": [
+            "Hữu ở đây là sự tiếp tục hiện hữu và tái sinh. Một nhóm nói không có sự chấm dứt hoàn toàn của hữu; bên kia nói có. Khi Phật hỏi, các gia chủ xác nhận sự đối nghịch. Người có trí lại nhận chưa thấy lời phủ định, chưa biết lời khẳng định, nên không thích hợp nắm một phía làm chân lý duy nhất khi chưa thấy biết.",
+            "Nếu lời không có hữu diệt đúng, có khả năng người ấy tái sinh chắc chắn giữa các vị trời vô sắc, do tưởng tạo thành. Nếu lời có hữu diệt đúng, có khả năng người ấy hoàn toàn tịch diệt, giải thoát khỏi những trói buộc, ngay trong đời này.",
+            "Quan điểm phủ nhận hữu diệt gần tham ái, trói buộc, thích thú, bám giữ và chấp thủ. Quan điểm nhận hữu diệt gần đủ năm mặt ngược lại: không tham, không trói buộc, không thích thú, không bám giữ, không chấp thủ. Suy xét vậy, người ấy thực hành yểm ly, ly tham, chấm dứt các hữu. Hướng này là giải thoát khỏi vòng tiếp tục tái sinh."
+          ]
+        },
+        {
+          "id": "four-people",
+          "kind": "teaching",
+          "heading": "Bốn hạng người và câu hỏi về con đường",
+          "meaningUnits": [
+            "four-types",
+            "fourth-peace",
+            "not-tormenting"
+          ],
+          "paragraphs": [
+            "Phật nêu bốn hạng: chuyên hành khổ mình; chuyên hành khổ người; chuyên cả hai; hoặc không hành khổ mình, không hành khổ người và không theo đuổi việc hành hạ ấy.",
+            "Hạng thứ tư ngay đời này hết khát khao, tịch tịnh, mát mẻ, cảm nhận an lạc; tự thân trở nên thanh cao, thuần tịnh, được kinh gọi là “trở thành Phạm”. Phật hỏi và giải thích từng hạng, để chỉ rõ hạng thứ tư được thành tựu bằng con đường nào."
+          ]
+        },
+        {
+          "id": "first-three",
+          "kind": "teaching",
+          "heading": "Ba kiểu làm khổ",
+          "meaningUnits": [
+            "self-torment",
+            "other-torment",
+            "both-torments"
+          ],
+          "paragraphs": [
+            "Tự hành khổ được mô tả qua người sống lõa thể, ngoài các quy ước, liếm tay cho sạch, theo nhiều cách nung nấu và hành hạ thân. Hành khổ người gắn với những sinh kế tàn bạo: giết cừu, heo, gia cầm, nai, bò; săn thú, đánh cá, cướp bóc, hành quyết, cai ngục và các nghề ác độc khác.",
+            "Kiểu vừa hại mình vừa hại người được kể qua một vua Sát-đế-lợi, thuộc dòng chiến sĩ, đã làm lễ tấn phong, hoặc một bà-la-môn giàu. Ông dựng nhà lễ mới phía đông thành, cạo râu tóc, mặc da linh dương thô, bôi bơ và dầu, gãi lưng bằng sừng nai; vào cùng vợ chính và một bà-la-môn tế lễ, nằm trên nền trải cỏ.",
+            "Sữa từ bốn vú một bò cái có con cùng màu được chia lần lượt cho ông, vợ chính, người tế lễ và việc dâng lửa; bê con nhận phần còn. Ông sai giết bò đực, bê đực, bê cái, dê và cừu; chặt cây làm cột, gom cỏ cho lễ. Nô bộc, người phục vụ và người làm công bị đe dọa phạt, đe dọa nguy hiểm, khóc lóc làm việc. Khổ hạnh của người tổ chức đi cùng sự cưỡng ép và tổn hại người khác."
+          ]
+        },
+        {
+          "id": "training",
+          "kind": "teaching",
+          "heading": "Nền sống của người không hành hạ",
+          "meaningUnits": [
+            "buddha-arises",
+            "gradual-training"
+          ],
+          "paragraphs": [
+            "Như Lai, danh xưng Đức Phật dùng, xuất hiện ở đời: bậc A-la-hán, Chánh Đẳng Giác, dạy Pháp trong sạch như đã nêu. Gia chủ, con gia chủ hoặc người trong một gia đình nghe, có lòng tin, thấy đời tại gia nhiều ràng buộc và đời xuất gia rộng thoáng. Muốn sống trọn phạm hạnh, người ấy rời tài sản và quyến thuộc, cạo tóc, mặc y, xuất gia.",
+            "Vị ấy tu giới: bỏ giết hại, lấy của không cho, sống độc thân thanh tịnh; bỏ nói dối, chia rẽ, thô ác, phù phiếm. Vị ấy nói thật, giúp hòa hợp, nói dịu dàng, đúng lúc và có ích. Sống biết đủ với y che thân, thức ăn nuôi bụng, mang vật cần dùng như chim mang đôi cánh.",
+            "Vị ấy hộ trì mắt, tai, mũi, lưỡi, thân và ý, không bám tướng chung hay chi tiết để tham, buồn và bất thiện chi phối; tỉnh giác khi đi, nhìn, cử động, mang y bát, ăn uống, vệ sinh, nghỉ, nói, im lặng. Chọn nơi thanh vắng, sau khi khất thực về và dùng bữa, vị ấy ngồi thẳng, thiết lập chánh niệm, sự nhớ biết tỉnh táo, trước mặt."
+          ]
+        },
+        {
+          "id": "hindrances",
+          "kind": "teaching",
+          "heading": "Từ bỏ năm chướng ngại",
+          "meaningUnits": [
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Vị ấy từ bỏ dục tham, sân hận, hôn trầm thụy miên, trạo cử hối quá và nghi. Đó là năm triền cái: ham muốn những thú vui của giác quan, thù ghét, lờ đờ buồn ngủ, xao động day dứt, nghi ngờ điều thiện. Chúng làm tâm ô nhiễm và trí tuệ yếu; việc từ bỏ mở đường cho định."
+          ]
+        },
+        {
+          "id": "meditations",
+          "kind": "teaching",
+          "heading": "Bốn thiền",
+          "meaningUnits": [
+            "first-jhana",
+            "second-jhana",
+            "third-jhana",
+            "fourth-jhana"
+          ],
+          "paragraphs": [
+            "Xa lìa dục và bất thiện, vị ấy chứng và an trú sơ thiền: có tầm, sự hướng tâm, và tứ, sự duy trì chú tâm; hỷ là hân hoan, lạc là an vui dễ chịu, sinh do xa lìa. Khi tầm tứ lắng, vị ấy chứng và an trú nhị thiền: nội tâm sáng trong, hợp nhất, không tầm tứ, hỷ lạc do định, sự tập trung vững chắc, sinh.",
+            "Khi hỷ phai, vị ấy chứng và an trú tam thiền, có xả, sự quân bình, chánh niệm tỉnh giác, nhớ biết và thấy rõ; thân cảm lạc. Các bậc Thánh gọi đó là sống an lạc với xả và niệm. Buông lạc và khổ, khi hỷ ưu, vui buồn trước đó, đã dứt, vị ấy chứng và an trú tứ thiền: không khổ không lạc, niệm thanh tịnh nhờ xả."
+          ]
+        },
+        {
+          "id": "three-knowledges",
+          "kind": "teaching",
+          "heading": "Ba trí biết với tâm đã được chuẩn bị",
+          "meaningUnits": [
+            "past-lives",
+            "rebirth-knowledge",
+            "ending-defilements"
+          ],
+          "paragraphs": [
+            "Trong cả ba trí tiếp theo, tâm được mô tả là định tĩnh, trong sạch, sáng rõ, không tì vết, không cấu uế, mềm dẻo, dễ sử dụng, vững chắc và không dao động. Với tâm ấy, vị tu trước hết hướng đến trí nhớ các đời trước: một đời, hai đời, nhiều đời, đủ đặc điểm và chi tiết.",
+            "Rồi vị ấy hướng đến trí biết chúng sinh chết và tái sinh. Bằng thiên nhãn trong sạch vượt mắt người, vị ấy thấy thấp hay cao, đẹp hay xấu, đến nơi tốt hay xấu; biết chúng sinh đi theo nghiệp của mình.",
+            "Tiếp theo là trí đoạn tận lậu hoặc, những ô nhiễm duy trì sự trói buộc. Vị ấy biết đúng như thật hai nhóm bốn điều: khổ, nguồn gốc khổ, khổ diệt, đường đến khổ diệt; lậu hoặc, nguồn gốc của chúng, chúng diệt, đường đến sự diệt ấy."
+          ]
+        },
+        {
+          "id": "freedom",
+          "kind": "teaching",
+          "heading": "Giải thoát được biết là giải thoát",
+          "meaningUnits": [
+            "release",
+            "peace-completed"
+          ],
+          "paragraphs": [
+            "Do biết và thấy như vậy, tâm thoát dục lậu, ô nhiễm do ham dục; hữu lậu, do ham tiếp tục hiện hữu; vô minh lậu, do không hiểu đúng. Khi giải thoát, vị ấy biết đã giải thoát: sinh đã tận, phạm hạnh hoàn thành, việc cần làm đã làm, không trở lại trạng thái hiện hữu này nữa.",
+            "Phật xác định đó là người không hành khổ mình hay người, không theo đuổi việc hành hạ. Ngay hiện đời, người ấy hết khát khao, tịch tịnh, mát mẻ, cảm nhận an lạc, sống với tự thân thanh cao, “trở thành Phạm”. Con đường đã đi đến sự chấm dứt các gốc trói buộc."
+          ]
+        },
+        {
+          "id": "refuge",
+          "kind": "teaching",
+          "heading": "Sự tiếp nhận của các gia chủ",
+          "meaningUnits": [
+            "refuge",
+            "ending",
+            "recollection-verse"
+          ],
+          "paragraphs": [
+            "Các bà-la-môn và gia chủ hai lần tán thán. Họ nói lời giảng như dựng lại vật đổ, mở điều bị che, chỉ đường người lạc, mang đèn vào tối cho người có mắt thấy được các vật. Phật đã trình bày Pháp sáng rõ bằng nhiều cách.",
+            "Họ xin quy y Phật, Pháp và Tăng chúng tỳ-kheo, nương tựa ba nơi ấy; xin được ghi nhận là cư sĩ theo học tại gia, từ hôm nay đến trọn đời. Kinh Pháp Chắc Chắn kết thúc, bài thứ mười. Phẩm Gia Chủ kết thúc, phẩm thứ nhất.",
+            "Kệ mục lục nhắc đủ mười bài: Kandaraka, Aṭṭhakanāgara, Sekha, Potaliya, Jīvaka, Upāli-damatha, Kukkura, Abhaya, Bahuvedanīya và Apaṇṇaka, bài thứ mười."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: một báo cáo chưa được kiểm",
+          "meaningUnits": [
+            "deny-action",
+            "affirm-action",
+            "deny-action-reasoning",
+            "affirm-action-reasoning"
+          ],
+          "paragraphs": [
+            "Ví dụ của người biên soạn: khi làm báo cáo chung, một người biết số liệu có sai lệch nhưng nghĩ sẽ không ai kiểm. Sửa và nói rõ sai lệch giúp giữ sự trung thực, đồng thời tránh chuyển hậu quả sang đồng nghiệp. Giá trị của lựa chọn ấy có ngay trong cách mình hành xử, trước khi biết có bị kiểm tra hay không. Đây là ví dụ về trách nhiệm hiện tại, không thay cho các lập luận về nghiệp và tái sinh của kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Xem lại điều mình đang lấy làm căn cứ",
+          "meaningUnits": [
+            "no-teacher",
+            "formless-humility",
+            "cessation-humility",
+            "four-types"
+          ],
+          "paragraphs": [
+            "Gợi ý của người biên soạn: viết ra một quan điểm đang ảnh hưởng đến quyết định của mình. Phân biệt điều đã trực tiếp biết với điều còn suy đoán; xét quan điểm ấy đang khuyến khích hành vi nào, có gây khổ mình hoặc người khác không. Từ đó chọn một việc thiện cụ thể có thể làm, đồng thời tiếp tục tìm hiểu điều chưa biết."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Giữ hướng sống lành khi còn điều chưa biết",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "arrival",
+          "kind": "teaching",
+          "heading": "Dân làng Sālā nghe danh Phật",
+          "meaningUnits": [
+            "identity",
+            "journey",
+            "reputation",
+            "teaching",
+            "greetings"
+          ],
+          "paragraphs": [
+            "Kinh Pháp Chắc Chắn, MN60, mở bằng lời người truyền kinh kể điều đã nghe. Đức Phật cùng đông đảo tỳ-kheo, những người tu xuất gia, du hành trong Kosala và đến Sālā, một làng bà-la-môn. Các bà-la-môn thuộc truyền thống kinh điển và nghi lễ cổ, cùng những gia chủ sống tại gia, nghe tin Sa-môn Gotama, vị tu xuất gia, đã đến. Ngài là người dòng Sakya, xuất gia từ gia tộc ấy.",
+            "Danh tiếng tốt được truyền đi: Ngài là Thế Tôn đáng kính, A-la-hán đã giải thoát, bậc tự giác ngộ trọn vẹn; đầy đủ hiểu biết và hạnh sống; Thiện Thệ, bậc đi đến chỗ tốt lành; hiểu biết thế gian; người hướng dẫn không ai hơn cho những ai có thể được điều phục; thầy của trời và người, bậc Giác Ngộ.",
+            "Ngài tự chứng biết thế giới với chư thiên, Māra, Phạm thiên, sa-môn, bà-la-môn, trời và người, rồi chỉ bày điều đã biết. Ngài giảng Pháp tốt ở đầu, giữa, cuối, đầy đủ ý nghĩa và lời văn; trình bày phạm hạnh, đời tu hoàn toàn trong sạch. Được gặp một bậc như thế là điều tốt.",
+            "Dân làng đến ngồi một bên: có người đảnh lễ, có người chào hỏi thân thiện, có người chắp tay, có người xưng tên họ, có người im lặng."
+          ]
+        },
+        {
+          "id": "grounded-faith",
+          "kind": "teaching",
+          "heading": "Một câu hỏi về lòng tin có căn cứ",
+          "meaningUnits": [
+            "no-teacher"
+          ],
+          "paragraphs": [
+            "Phật hỏi họ có người thầy nào vừa ý, nơi ấy đã có được lòng tin có căn cứ chưa. Họ thưa chưa. Vì vậy, Ngài chỉ dạy pháp chắc chắn: điều nên tiếp nhận và thực hành trọn vẹn để có lợi ích, an lạc lâu dài. Bài giảng lần lượt đặt những quan điểm đối nghịch cạnh nhau để suy xét."
+          ]
+        },
+        {
+          "id": "worlds",
+          "kind": "teaching",
+          "heading": "Hai cách nhìn về việc làm và đời sau",
+          "meaningUnits": [
+            "deny-world",
+            "affirm-world",
+            "contrast-world"
+          ],
+          "paragraphs": [
+            "Cách nhìn thứ nhất phủ nhận ý nghĩa của bố thí, cúng tế, lễ vật; phủ nhận quả của nghiệp thiện, ác. Công thức còn nói “không có đời này, không có đời sau, không có mẹ, không có cha”; không có chúng sinh hóa sinh, tự xuất hiện trong đời sống mới; không có những người tu đúng đường, thực hành đúng, tự chứng biết hai đời rồi tuyên thuyết.",
+            "Cách nhìn đối nghịch khẳng định đầy đủ các điều ấy: ý nghĩa của bố thí, cúng tế, lễ vật; quả thiện ác; đời này và đời sau; mẹ và cha; hóa sinh; người tu đúng đường, thực hành đúng, tự biết hai đời rồi chỉ bày. Lời cổ về mẹ cha nằm trong việc xét giá trị đạo đức và nghiệp báo của toàn quan điểm. Phật hỏi hai chủ trương có trái nhau không; các gia chủ đáp có."
+          ]
+        },
+        {
+          "id": "actions",
+          "kind": "teaching",
+          "heading": "Hai cách nhìn về hiệu lực đạo đức",
+          "meaningUnits": [
+            "deny-action",
+            "denying-extremes",
+            "affirm-action",
+            "contrast-action"
+          ],
+          "paragraphs": [
+            "Một nhóm nói tự làm hay khiến người khác trừng phạt, chặt cắt, hành hạ, gây đau khổ, kiệt quệ, kinh hãi đều không tạo nghiệp xấu. Giết hại, lấy của không cho, đột nhập, cướp bóc, cướp nhà lẻ, chặn đường cướp, tư thông với vợ người khác, nói dối cũng bị họ nói là không tạo ác.",
+            "Họ đưa ví dụ cực đoan: dùng bánh xe sắc giết tất cả sinh vật trên đất thành một đống cũng không có ác hay quả ác. Đi dọc bờ nam Gaṅgā, tự giết, chặt cắt, hành hạ và sai người làm cũng vậy. Đi dọc bờ bắc, tự cho, tế lễ và sai người làm lại bị nói là không có phước, không có quả phước. Bố thí, tự chế, kiềm chế, nói thật cũng bị phủ nhận giá trị ấy.",
+            "Nhóm ngược lại nhận chính toàn bộ những việc gây hại và hai ví dụ kia tạo nghiệp xấu, có quả xấu; việc bố thí, tế lễ ở bờ bắc cùng bốn việc lành nói trên tạo phước và có quả phước. Phật hỏi và dân làng xác nhận sự đối nghịch."
+          ]
+        },
+        {
+          "id": "causes",
+          "kind": "teaching",
+          "heading": "Hai cách nhìn về nhân duyên và nỗ lực",
+          "meaningUnits": [
+            "deny-cause",
+            "affirm-cause",
+            "contrast-cause"
+          ],
+          "paragraphs": [
+            "Một nhóm nói chúng sinh bị ô nhiễm hay được thanh tịnh đều không có nguyên nhân, không có điều kiện. Họ nói không có năng lực, tinh tấn (sự chuyên cần), sức người, nỗ lực; tất cả hữu tình, sinh vật, chúng sinh và sinh mạng đều không tự chủ, không sức, không năng lực, bị định mệnh, hoàn cảnh và bản tính chi phối, cảm nhận khổ lạc trong sáu loại sinh.",
+            "Nhóm đối nghịch nhận cả ô nhiễm lẫn thanh tịnh đều có nguyên nhân và điều kiện; có năng lực, tinh tấn, sức người, nỗ lực. Không phải tất cả mọi loài đều bất lực, chỉ bị ba yếu tố ấy chi phối trong sáu loại sinh. Khi Phật hỏi, dân làng một lần nữa đáp rằng hai chủ trương trái nhau."
+          ]
+        },
+        {
+          "id": "daily-conduct",
+          "kind": "teaching",
+          "heading": "Cách thấy đi vào thân, lời và ý",
+          "meaningUnits": [
+            "deny-world-conduct",
+            "affirm-world-conduct",
+            "deny-action-conduct",
+            "affirm-action-conduct",
+            "deny-cause-conduct",
+            "affirm-cause-conduct"
+          ],
+          "paragraphs": [
+            "Trong từng cặp của ba cặp trên, Phật xét hướng sống mà chủ trương dẫn tới. Với bên phủ định quả và đời sau, bên phủ định hiệu lực hành động, cũng như bên phủ định nhân, có thể chờ đợi họ bỏ ba thiện của thân, lời, ý và nhận ba ác tương ứng.",
+            "Vì họ không thấy sự nguy hại, thấp kém và ô nhiễm của điều bất thiện, cũng không thấy lợi ích xuất ly, sự buông bỏ, và mặt thanh tịnh của điều thiện. Với từng bên khẳng định đối nghịch, có thể chờ đợi họ bỏ thân, lời, ý ác, nhận thân, lời, ý thiện, vì thấy rõ các mặt nguy hại và lợi ích ấy."
+          ]
+        },
+        {
+          "id": "wrong-view",
+          "kind": "teaching",
+          "heading": "Bảy mặt xấu nương cách thấy sai",
+          "meaningUnits": [
+            "deny-world-view",
+            "deny-action-view",
+            "deny-cause-view"
+          ],
+          "paragraphs": [
+            "Phật khẳng định ở đây rằng đời sau thực có, hành động thực có hiệu lực đạo đức, nguyên nhân thực có. Với mỗi điều, phủ nhận trong cách thấy, nghĩ, nói là tà kiến, tà tư duy, tà ngữ, tức thấy sai, nghĩ sai, nói sai.",
+            "Điều ấy còn chống lại những A-la-hán biết đời sau, hoặc dạy tác dụng, hoặc dạy có nhân; thuyết phục người khác về pháp không thật; nâng mình và hạ người. Giới hạnh tốt bị bỏ, hạnh xấu được lập. Bảy mặt bất thiện này sinh với cách thấy sai làm điều kiện, trong cả ba trường hợp."
+          ]
+        },
+        {
+          "id": "right-view",
+          "kind": "teaching",
+          "heading": "Bảy mặt lành nương cách thấy đúng",
+          "meaningUnits": [
+            "affirm-world-view",
+            "affirm-action-view",
+            "affirm-cause-view"
+          ],
+          "paragraphs": [
+            "Với mỗi chủ trương khẳng định tương ứng, thấy, nghĩ và nói có đời sau, có tác dụng, có nhân là chánh kiến, chánh tư duy, chánh ngữ: thấy, nghĩ, nói đúng.",
+            "Người ấy không chống các bậc biết và dạy đúng, giúp người khác nhận pháp chân thật, không nâng mình, không hạ người; bỏ hạnh xấu, lập giới hạnh tốt. Bảy mặt lành này sinh với cách thấy đúng làm điều kiện, trong cả ba trường hợp."
+          ]
+        },
+        {
+          "id": "loss",
+          "kind": "teaching",
+          "heading": "Xét từng phía, không bỏ quên hiện tại",
+          "meaningUnits": [
+            "deny-world-reasoning",
+            "deny-action-reasoning",
+            "deny-cause-reasoning"
+          ],
+          "paragraphs": [
+            "Người có trí xét người phủ định rồi sống bất thiện trong từng cặp. Giả sử không có đời sau, hoặc hành động không có hiệu lực, hoặc không có nguyên nhân, như lời phủ định tương ứng, thì khi thân hoại, người ấy được an ổn. Nhưng dù tạm nhận giả định ấy, ngay đời này họ vẫn bị người có trí chê là vô đạo đức, tà kiến, theo chủ trương không có, không tác dụng hoặc vô nhân.",
+            "Còn nếu điều bị phủ nhận thực có — đời sau, tác dụng, hay nhân theo từng cặp — thì sau khi thân hoại mạng chung, người ấy sinh vào cảnh khổ, chốn đọa lạc, địa ngục. Như vậy họ thiệt cả hai phía: hiện đời bị chê và sau chết đến cảnh xấu. Đó là nhận pháp chắc chắn sai, chỉ tính một phía và bỏ phương án thiện."
+          ]
+        },
+        {
+          "id": "benefit",
+          "kind": "teaching",
+          "heading": "Điều thiện giữ được lợi ích ở cả hai phía",
+          "meaningUnits": [
+            "affirm-world-reasoning",
+            "affirm-action-reasoning",
+            "affirm-cause-reasoning"
+          ],
+          "paragraphs": [
+            "Với người nhận chủ trương khẳng định và sống thiện, người có trí cũng xét riêng từng cặp. Nếu có đời sau, nếu hành động có tác dụng, hoặc nếu có nhân, tương ứng với điều được khẳng định, người ấy sau chết sinh vào cảnh tốt, cõi trời.",
+            "Dù tạm cho lời phủ định tương ứng đúng, người ấy vẫn được người có trí khen ngay hiện tại vì có giới, thấy đúng và nhận giá trị đạo đức, tác dụng hoặc nhân. Nếu điều khẳng định thực có, họ được lợi cả hiện đời lẫn sau chết. Đó là nhận pháp chắc chắn đúng, bao quát hai phía và bỏ phương án bất thiện."
+          ]
+        },
+        {
+          "id": "formless",
+          "kind": "teaching",
+          "heading": "Khi chưa thấy biết các chứng đạt vô sắc",
+          "meaningUnits": [
+            "formless-pair",
+            "formless-humility",
+            "formless-possibilities"
+          ],
+          "paragraphs": [
+            "Cặp thứ tư nói về những chứng đạt thiền hoàn toàn vô sắc, vượt hình sắc: một bên nói không có, bên kia nói có. Phật hỏi, các gia chủ xác nhận hai bên đối nghịch.",
+            "Người có trí tự nhận chưa thấy lời phủ định, chưa biết lời khẳng định. Chưa biết, chưa thấy mà nắm một phía rồi nói chỉ đó là thật, mọi điều khác hư vọng, là không thích hợp.",
+            "Nếu lời không có vô sắc đúng, người ấy xét có khả năng tái sinh chắc chắn nơi các vị trời có sắc, do ý tạo thành. Nếu lời có vô sắc đúng, có khả năng tái sinh chắc chắn nơi các vị trời vô sắc, do tưởng tạo thành. Tưởng là sự nhận diện. Những khả năng này được xét khi người ấy chọn hướng thực hành."
+          ]
+        },
+        {
+          "id": "letting-form-go",
+          "kind": "teaching",
+          "heading": "Nhận ra hệ quả để biết hướng buông",
+          "meaningUnits": [
+            "form-drawbacks"
+          ],
+          "paragraphs": [
+            "Do sắc làm điều kiện, người ấy thấy có cầm gậy, cầm vũ khí, cãi cọ, xung đột, tranh chấp, công kích qua lại, nói chia rẽ và nói dối. Trong trạng thái hoàn toàn vô sắc không có những việc ấy.",
+            "Suy xét như vậy, người ấy thực hành yểm ly, không còn mê đắm; ly tham, để tham phai đi; và chấm dứt các sắc."
+          ]
+        },
+        {
+          "id": "cessation",
+          "kind": "teaching",
+          "heading": "Khi chưa thấy biết sự chấm dứt hữu",
+          "meaningUnits": [
+            "cessation-pair",
+            "cessation-humility",
+            "cessation-possibilities"
+          ],
+          "paragraphs": [
+            "Hữu là sự tiếp tục hiện hữu và tái sinh. Cặp thứ năm gồm lời không có và lời có sự chấm dứt hoàn toàn của hữu. Phật hỏi; dân làng xác nhận hai quan điểm đối nghịch.",
+            "Người có trí lại nhận chưa thấy điều bên phủ định nói, chưa biết điều bên khẳng định nói. Vì vậy, khi chưa biết chưa thấy, không thích hợp xem một phía là chân lý duy nhất, ngoài ra đều sai.",
+            "Nếu không có hữu diệt như bên phủ định nói, có khả năng người ấy tái sinh chắc chắn nơi các vị trời vô sắc, do tưởng tạo thành. Nếu có hữu diệt, có khả năng người ấy hoàn toàn tịch diệt, giải thoát khỏi những trói buộc, ngay trong đời này."
+          ]
+        },
+        {
+          "id": "nearness",
+          "kind": "teaching",
+          "heading": "Gần nắm giữ hay gần buông bỏ",
+          "meaningUnits": [
+            "cessation-nearness"
+          ],
+          "paragraphs": [
+            "Quan điểm không có hữu diệt gần tham ái, trói buộc, thích thú, bám giữ và chấp thủ. Quan điểm có hữu diệt gần không tham, không trói buộc, không thích thú, không bám giữ và không chấp thủ.",
+            "Suy xét như thế, người ấy thực hành yểm ly, ly tham và chấm dứt các hữu. Mục tiêu là giải thoát khỏi sự tiếp tục tái sinh."
+          ]
+        },
+        {
+          "id": "four",
+          "kind": "teaching",
+          "heading": "Bốn hạng người theo cách gây khổ",
+          "meaningUnits": [
+            "four-types",
+            "fourth-peace",
+            "not-tormenting"
+          ],
+          "paragraphs": [
+            "Phật nêu bốn hạng người: chuyên hành khổ chính mình; chuyên hành khổ người khác; chuyên cả hai; hoặc không hành khổ mình, không hành khổ người, cũng không theo đuổi những việc ấy.",
+            "Hạng thứ tư ngay đời này hết khát khao, tịch tịnh, mát mẻ, cảm nhận an lạc; tự thân thanh cao, thuần tịnh, được kinh gọi là “trở thành Phạm”. Ngài hỏi và giải thích từng hạng, rồi trình bày con đường đưa đến đời sống của hạng thứ tư."
+          ]
+        },
+        {
+          "id": "first-two-kinds",
+          "kind": "teaching",
+          "heading": "Tự hành hạ và hành hạ người",
+          "meaningUnits": [
+            "self-torment",
+            "other-torment"
+          ],
+          "paragraphs": [
+            "Người tự hành hạ được kể là sống lõa thể, ngoài các quy ước thông thường, liếm tay cho sạch và theo nhiều cách làm thân chịu khổ. Đó là chuyên hành khổ mình.",
+            "Người hành khổ người gắn với các sinh kế tàn bạo: giết cừu, heo, gia cầm, nai, bò; săn thú, đánh cá, cướp bóc, hành quyết, cai ngục và những nghề ác độc khác. Bài giảng xét công việc gắn với gây hại."
+          ]
+        },
+        {
+          "id": "ritual",
+          "kind": "teaching",
+          "heading": "Khi khổ hạnh đi cùng cưỡng ép",
+          "meaningUnits": [
+            "both-torments"
+          ],
+          "paragraphs": [
+            "Hạng thứ ba được kể qua một vua thuộc dòng chiến sĩ, đã làm lễ tấn phong, hoặc một bà-la-môn giàu có. Ông dựng nhà lễ mới phía đông thành, cạo râu tóc, khoác da linh dương thô, bôi bơ và dầu, gãi lưng bằng sừng nai. Ông vào cùng vợ chính và một bà-la-môn tế lễ, nằm trên nền trải cỏ.",
+            "Sữa từ bốn vú của một bò cái có con cùng màu được chia: ông dùng phần đầu, vợ phần hai, người tế lễ phần ba, phần tư dâng lửa; bê con nhận phần còn lại. Ông ra lệnh giết bò đực, bê đực, bê cái, dê, cừu; chặt cây làm cột và gom cỏ cho lễ.",
+            "Nô bộc, người phục vụ, người làm công bị đe dọa bằng hình phạt và nguy hiểm, vừa khóc vừa làm. Vì thế, người ấy vừa hành khổ mình vừa hành khổ người khác."
+          ]
+        },
+        {
+          "id": "path",
+          "kind": "teaching",
+          "heading": "Con đường bắt đầu từ một đời sống được sửa đổi",
+          "meaningUnits": [
+            "buddha-arises",
+            "gradual-training"
+          ],
+          "paragraphs": [
+            "Như Lai, danh xưng của Phật, xuất hiện: A-la-hán, bậc tự giác ngộ trọn vẹn, chỉ bày Pháp trong sạch. Gia chủ, con gia chủ hoặc người trong một gia đình nghe Pháp, có lòng tin, nhận thấy đời tại gia nhiều ràng buộc, đời xuất gia rộng thoáng. Muốn sống trọn phạm hạnh, người ấy rời tài sản và quyến thuộc, cạo tóc, mặc y, xuất gia.",
+            "Vị ấy giữ giới, từ bỏ giết hại, lấy của không cho, sống độc thân thanh tịnh; không dối, không chia rẽ, không thô ác, không nói phù phiếm. Lời nói chân thật, hòa hợp, dịu dàng, đúng lúc và có ích đi cùng sự biết đủ với y che thân, đồ ăn nuôi bụng. Đi đâu, vị ấy mang vật cần dùng như chim mang đôi cánh.",
+            "Vị ấy gìn giữ mắt, tai, mũi, lưỡi, thân, ý; không bám nét chung hay chi tiết để tham, buồn và điều bất thiện lôi cuốn. Vị ấy tỉnh giác trong đi lại, nhìn, cử động, dùng y bát, ăn uống, vệ sinh, nghỉ, nói và im lặng. Chọn nơi thanh vắng, sau khi khất thực về và dùng bữa, vị ấy ngồi thẳng, thiết lập sự nhớ biết trước mặt."
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Bỏ năm chướng ngại làm yếu trí tuệ",
+          "meaningUnits": [
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Năm triền cái được từ bỏ là dục tham, sự ham muốn những thú vui của giác quan; sân hận; hôn trầm thụy miên, lờ đờ buồn ngủ; trạo cử hối quá, xao động day dứt; nghi ngờ điều thiện. Chúng làm tâm ô nhiễm và trí tuệ yếu. Tâm được làm sạch trước khi vào thiền."
+          ]
+        },
+        {
+          "id": "first-second",
+          "kind": "teaching",
+          "heading": "Hỷ lạc do xa lìa và do định",
+          "meaningUnits": [
+            "first-jhana",
+            "second-jhana"
+          ],
+          "paragraphs": [
+            "Xa lìa dục và điều bất thiện, vị ấy chứng và an trú sơ thiền: có tầm, hướng tâm đến đối tượng, và tứ, duy trì chú tâm; có hỷ là hân hoan, lạc là an vui dễ chịu, do xa lìa sinh.",
+            "Khi tầm tứ lắng xuống, vị ấy chứng và an trú nhị thiền: nội tâm trong sáng, tâm hợp nhất, không tầm tứ; hỷ lạc do định, sự tập trung vững chắc, sinh ra."
+          ]
+        },
+        {
+          "id": "third-fourth",
+          "kind": "teaching",
+          "heading": "Xả và sự nhớ biết thanh tịnh",
+          "meaningUnits": [
+            "third-jhana",
+            "fourth-jhana"
+          ],
+          "paragraphs": [
+            "Khi hỷ phai, vị ấy chứng và an trú tam thiền với xả, sự quân bình, chánh niệm tỉnh giác, nhớ biết và thấy rõ; thân cảm lạc. Các bậc Thánh gọi đó là sống an lạc với xả và niệm.",
+            "Buông lạc và khổ, khi niềm vui nỗi buồn trước đó đã dứt, vị ấy chứng và an trú tứ thiền: không khổ không lạc, niệm được thanh tịnh nhờ xả."
+          ]
+        },
+        {
+          "id": "insights",
+          "kind": "teaching",
+          "heading": "Ba trí biết tiếp nối",
+          "meaningUnits": [
+            "past-lives",
+            "rebirth-knowledge",
+            "ending-defilements"
+          ],
+          "paragraphs": [
+            "Cả ba trí sau đây đều được trình bày với tâm đã định tĩnh, trong sạch, sáng rõ, không tì vết, không cấu uế, mềm dẻo, dễ sử dụng, vững vàng và không dao động. Với tâm ấy, vị tu hướng đến nhớ các đời trước: một đời, hai đời, nhiều đời, với đặc điểm và chi tiết.",
+            "Vị ấy hướng đến biết chúng sinh chết và tái sinh. Thiên nhãn trong sạch, vượt mắt người, thấy thấp hay cao, đẹp hay xấu, đến cảnh tốt hay xấu; biết chúng sinh đi theo nghiệp của mình.",
+            "Vị ấy hướng đến trí đoạn tận lậu hoặc, những ô nhiễm trói buộc tâm. Biết đúng như thật khổ, nguồn gốc khổ, khổ diệt, đường đến khổ diệt; đồng thời biết lậu hoặc, nguồn gốc của chúng, chúng diệt, đường đưa đến sự diệt ấy."
+          ]
+        },
+        {
+          "id": "freedom",
+          "kind": "teaching",
+          "heading": "Sống mát mẻ khi các gốc trói buộc đã hết",
+          "meaningUnits": [
+            "release",
+            "peace-completed"
+          ],
+          "paragraphs": [
+            "Do biết và thấy như vậy, tâm được giải thoát khỏi dục lậu, ô nhiễm do ham dục; hữu lậu, do ham tiếp tục hiện hữu; vô minh lậu, do không hiểu đúng. Vị ấy biết đã giải thoát: sinh đã tận, phạm hạnh đã hoàn thành, việc cần làm đã làm, không trở lại trạng thái hiện hữu này nữa.",
+            "Phật gọi đó là người không hành khổ mình hay người và không theo đuổi việc hành hạ. Ngay hiện đời, vị ấy hết khát khao, tịch tịnh, mát mẻ, cảm nhận an lạc; tự thân thanh cao, “trở thành Phạm”."
+          ]
+        },
+        {
+          "id": "response",
+          "kind": "teaching",
+          "heading": "Dân làng xin quy y",
+          "meaningUnits": [
+            "refuge",
+            "ending",
+            "recollection-verse"
+          ],
+          "paragraphs": [
+            "Các bà-la-môn và gia chủ hai lần tán thán. Lời Phật đối với họ như dựng vật bị đổ, mở điều bị che, chỉ đường người lạc, mang đèn vào tối để người có mắt thấy được. Pháp đã được làm sáng rõ bằng nhiều cách.",
+            "Họ xin quy y Phật, Pháp, Tăng chúng tỳ-kheo, nương tựa ba nơi ấy; xin được ghi nhận là cư sĩ, người theo học tại gia, từ hôm nay cho đến trọn đời. Kinh Pháp Chắc Chắn kết thúc, bài thứ mười; Phẩm Gia Chủ kết thúc, phẩm thứ nhất.",
+            "Kệ mục lục nhắc mười bài: Kandaraka, Aṭṭhakanāgara, Sekha, Potaliya, Jīvaka, Upāli-damatha, Kukkura, Abhaya, Bahuvedanīya và Apaṇṇaka, bài thứ mười."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: giữ sự ngay thẳng trong việc chung",
+          "meaningUnits": [
+            "deny-world-reasoning",
+            "affirm-world-reasoning",
+            "deny-cause",
+            "affirm-cause"
+          ],
+          "paragraphs": [
+            "Ví dụ của người biên soạn: khi cùng vài người giữ một khoản tiền cho việc chung, ghi chép rõ, trả lại phần còn và nói thật về sai sót giúp việc chung được ngay thẳng. Giá trị ấy có ngay trong cách đối xử, dù chưa biết mọi người sẽ đánh giá ra sao. Ta vẫn có phần nỗ lực cụ thể để làm điều đúng và sửa điều sai."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Nhận phần có thể làm, giữ lòng học hỏi",
+          "meaningUnits": [
+            "no-teacher",
+            "formless-humility",
+            "cessation-humility",
+            "four-types"
+          ],
+          "paragraphs": [
+            "Gợi ý của người biên soạn: nhìn lại một quyết định trong ngày, nhận rõ điều mình đã biết và điều còn chưa biết. Hỏi quyết định ấy có gây khổ cho mình hoặc người khác không, rồi chọn một việc thiện vừa sức. Sự thành thật với giới hạn hiểu biết có thể đi cùng một hướng sống có trách nhiệm."
+          ]
+        }
+      ]
+    }
+  }
+}

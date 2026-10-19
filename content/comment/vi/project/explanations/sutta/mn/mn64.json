@@ -1,0 +1,1272 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn64",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn64_root-pli-ms.json",
+      "sha256": "90a8b138a580716015fa3ee3883810740128dde15f20ab34d4960eb386b8a1d4",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn64_translation-en-sujato.json",
+      "sha256": "67df2e4b142dd9a62bdfae6018e4a73a758d33323d68d06020c1d79010e1378d",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn64_translation-vi-project.json",
+      "sha256": "e5c1637d5d27bf006c005557830077bf19158f01f6cbae96b3c36c24027e2ec4",
+      "commit": "7880fd0ff1e8cf4f8565fd2c366aa85982b25b0e"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn64.html",
+      "sha256": "0ed24ba1459744cb65e6a7194028cc9763d7034238edac1be9a21b515d1f1c12",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn64_comment-vi-project.json",
+      "sha256": "219fd27172ba89f82ea00896505c4b7fb391c1320c1869ccd9db6db41d926bb2",
+      "commit": "7880fd0ff1e8cf4f8565fd2c366aa85982b25b0e"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "setting",
+      "title": "Lời truyền và nơi giảng",
+      "segments": [
+        "mn64:0.1",
+        "mn64:0.2",
+        "mn64:1.1",
+        "mn64:1.2",
+        "mn64:1.3",
+        "mn64:1.4",
+        "mn64:1.5",
+        "mn64:1.6"
+      ],
+      "summary": "Trung Bộ 64, Đại Kinh Māluṅkya: người truyền kinh đã nghe; Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika, gọi các tỳ-kheo; họ đáp và Ngài nói."
+    },
+    {
+      "id": "remember",
+      "title": "Māluṅkyaputta nhớ lời dạy",
+      "segments": [
+        "mn64:2.1",
+        "mn64:2.2",
+        "mn64:2.3",
+        "mn64:2.4"
+      ],
+      "summary": "Phật hỏi các tỳ-kheo có nhớ năm hạ phần kiết sử đã dạy không. Māluṅkyaputta đáp có; Phật hỏi ông nhớ thế nào."
+    },
+    {
+      "id": "five",
+      "title": "Năm hạ phần kiết sử",
+      "segments": [
+        "mn64:2.5",
+        "mn64:2.6",
+        "mn64:2.7",
+        "mn64:2.8",
+        "mn64:2.9",
+        "mn64:2.10"
+      ],
+      "summary": "Māluṅkyaputta kể thân kiến, nghi hoặc, giới cấm thủ, dục tham và sân hận; ông nói đó là cách mình nhớ năm hạ phần kiết sử đã được Phật dạy."
+    },
+    {
+      "id": "challenge",
+      "title": "Câu hỏi và lời phản bác giả định",
+      "segments": [
+        "mn64:3.1",
+        "mn64:3.2",
+        "mn64:3.13"
+      ],
+      "summary": "Phật hỏi ông nhớ lời dạy ấy được dạy cho ai; Ngài nêu khả năng du sĩ đạo khác trách ông bằng thí dụ trẻ thơ, rồi nhắc lại câu hỏi này sau năm trường hợp. Không có du sĩ thật sự đối thoại tại đây."
+    },
+    {
+      "id": "baby-body",
+      "title": "Ý niệm hữu thân và thân kiến",
+      "segments": [
+        "mn64:3.3",
+        "mn64:3.4"
+      ],
+      "summary": "Trẻ nhỏ ngây ngô còn nằm ngửa chưa có cả ý niệm hữu thân, huống chi thân kiến sinh khởi; nhưng tùy miên thân kiến vẫn nằm nơi trẻ."
+    },
+    {
+      "id": "baby-doubt",
+      "title": "Ý niệm về Pháp và nghi hoặc",
+      "segments": [
+        "mn64:3.5",
+        "mn64:3.6"
+      ],
+      "summary": "Trẻ chưa có ý niệm các pháp để nghi hoặc về các pháp sinh khởi, nhưng tùy miên nghi hoặc vẫn nằm nơi trẻ."
+    },
+    {
+      "id": "baby-rules",
+      "title": "Ý niệm giới và giới cấm thủ",
+      "segments": [
+        "mn64:3.7",
+        "mn64:3.8"
+      ],
+      "summary": "Trẻ chưa có ý niệm giới để giới cấm thủ về giới sinh khởi, nhưng tùy miên giới cấm thủ vẫn nằm nơi trẻ."
+    },
+    {
+      "id": "baby-desire",
+      "title": "Ý niệm dục và dục tham",
+      "segments": [
+        "mn64:3.9",
+        "mn64:3.10"
+      ],
+      "summary": "Trẻ chưa có ý niệm dục để dục tham về các dục sinh khởi, nhưng tùy miên dục tham vẫn nằm nơi trẻ."
+    },
+    {
+      "id": "baby-anger",
+      "title": "Ý niệm chúng sinh và sân hận",
+      "segments": [
+        "mn64:3.11",
+        "mn64:3.12"
+      ],
+      "summary": "Trẻ chưa có ý niệm chúng sinh để sân hận đối với chúng sinh sinh khởi, nhưng tùy miên sân hận vẫn nằm nơi trẻ."
+    },
+    {
+      "id": "ananda",
+      "title": "Ānanda xin giảng giải",
+      "segments": [
+        "mn64:4.1",
+        "mn64:4.2",
+        "mn64:4.3",
+        "mn64:4.4",
+        "mn64:4.5",
+        "mn64:4.6"
+      ],
+      "summary": "Ānanda hai lần nói bây giờ là lúc, xưng Thế Tôn và Thiện Thệ, thỉnh giảng năm hạ phần kiết sử để các tỳ-kheo nghe và ghi nhớ. Phật bảo ông lắng nghe, chú tâm kỹ; ông đáp vâng và Ngài nói."
+    },
+    {
+      "id": "unlearned",
+      "title": "Người chưa học",
+      "segments": [
+        "mn64:5.1"
+      ],
+      "summary": "Phàm phu chưa học chưa thấy, không thông thạo và chưa tu tập trong Pháp của các bậc Thánh; cả ba điều ấy cũng thiếu đối với bậc chân nhân."
+    },
+    {
+      "id": "bound-body",
+      "title": "Bị thân kiến ràng buộc",
+      "segments": [
+        "mn64:5.2",
+        "mn64:5.3",
+        "mn64:5.4"
+      ],
+      "summary": "Tâm bị thân kiến chi phối và chìm đắm; không biết như thật lối thoát khỏi thân kiến đã sinh; thân kiến ngấm sâu, chưa trừ bỏ, là hạ phần kiết sử."
+    },
+    {
+      "id": "bound-doubt",
+      "title": "Bị nghi hoặc ràng buộc",
+      "segments": [
+        "mn64:5.5",
+        "mn64:5.6",
+        "mn64:5.7"
+      ],
+      "summary": "Tâm bị nghi hoặc chi phối và chìm đắm; không biết như thật lối thoát khỏi nghi đã sinh; nghi ngấm sâu, chưa trừ bỏ, là hạ phần kiết sử."
+    },
+    {
+      "id": "bound-rules",
+      "title": "Bị giới cấm thủ ràng buộc",
+      "segments": [
+        "mn64:5.8",
+        "mn64:5.9",
+        "mn64:5.10"
+      ],
+      "summary": "Tâm bị giới cấm thủ chi phối và chìm đắm; không biết như thật lối thoát khỏi giới cấm thủ đã sinh; nó ngấm sâu, chưa trừ bỏ, là hạ phần kiết sử."
+    },
+    {
+      "id": "bound-desire",
+      "title": "Bị dục tham ràng buộc",
+      "segments": [
+        "mn64:5.11",
+        "mn64:5.12",
+        "mn64:5.13"
+      ],
+      "summary": "Tâm bị dục tham chi phối và chìm đắm; không biết như thật lối thoát khỏi dục tham đã sinh; dục tham ngấm sâu, chưa trừ bỏ, là hạ phần kiết sử."
+    },
+    {
+      "id": "bound-anger",
+      "title": "Bị sân hận ràng buộc",
+      "segments": [
+        "mn64:5.14",
+        "mn64:5.15",
+        "mn64:5.16"
+      ],
+      "summary": "Tâm bị sân hận chi phối và chìm đắm; không biết như thật lối thoát khỏi sân đã sinh; sân ngấm sâu, chưa trừ bỏ, là hạ phần kiết sử."
+    },
+    {
+      "id": "free-body",
+      "title": "Người có học và thân kiến được đoạn",
+      "segments": [
+        "mn64:6.1",
+        "mn64:6.2",
+        "mn64:6.3"
+      ],
+      "summary": "Đệ tử Thánh có học đã thấy, thông thạo và được tu tập trong Pháp của các bậc Thánh, cũng đủ ba điều đối với chân nhân. Tâm không bị thân kiến chi phối, không chìm đắm; biết đúng lối thoát khỏi thân kiến đã sinh; đoạn cả thân kiến và tùy miên."
+    },
+    {
+      "id": "free-doubt",
+      "title": "Đoạn nghi và tùy miên",
+      "segments": [
+        "mn64:6.4",
+        "mn64:6.5",
+        "mn64:6.6"
+      ],
+      "summary": "Tâm không bị nghi hoặc chi phối hay chìm đắm; biết đúng lối thoát khỏi nghi đã sinh; đoạn nghi cùng tùy miên."
+    },
+    {
+      "id": "free-rules",
+      "title": "Đoạn giới cấm thủ và tùy miên",
+      "segments": [
+        "mn64:6.7",
+        "mn64:6.8",
+        "mn64:6.9"
+      ],
+      "summary": "Tâm không bị giới cấm thủ chi phối hay chìm đắm; biết đúng lối thoát khỏi nó đã sinh; đoạn giới cấm thủ cùng tùy miên."
+    },
+    {
+      "id": "free-desire",
+      "title": "Đoạn dục tham và tùy miên",
+      "segments": [
+        "mn64:6.10",
+        "mn64:6.11",
+        "mn64:6.12"
+      ],
+      "summary": "Tâm không bị dục tham chi phối hay chìm đắm; biết đúng lối thoát khỏi dục tham đã sinh; đoạn dục tham cùng tùy miên."
+    },
+    {
+      "id": "free-anger",
+      "title": "Đoạn sân hận và tùy miên",
+      "segments": [
+        "mn64:6.13",
+        "mn64:6.14",
+        "mn64:6.15"
+      ],
+      "summary": "Tâm không bị sân hận chi phối hay chìm đắm; biết đúng lối thoát khỏi sân đã sinh; đoạn sân cùng tùy miên."
+    },
+    {
+      "id": "path-necessary",
+      "title": "Không bỏ qua con đường và đạo trình",
+      "segments": [
+        "mn64:6.16"
+      ],
+      "summary": "Có con đường và đạo trình đoạn năm hạ phần kiết sử; không nương theo đó thì không thể biết, thấy hay đoạn tận năm kiết sử."
+    },
+    {
+      "id": "tree-impossible",
+      "title": "Không chặt lõi mà bỏ qua vỏ và giác",
+      "segments": [
+        "mn64:6.17",
+        "mn64:6.18",
+        "mn64:6.19"
+      ],
+      "summary": "Cây lớn có lõi đang đứng: không thể chặt lõi mà chưa chặt qua vỏ và giác cây. Cũng vậy, không nương con đường và đạo trình thì không thể biết, thấy, đoạn năm kiết sử."
+    },
+    {
+      "id": "path-possible",
+      "title": "Nương đường thì có thể",
+      "segments": [
+        "mn64:7.1"
+      ],
+      "summary": "Nương con đường và đạo trình ấy thì có thể biết, thấy và đoạn tận năm hạ phần kiết sử."
+    },
+    {
+      "id": "tree-possible",
+      "title": "Chặt qua vỏ và giác rồi đến lõi",
+      "segments": [
+        "mn64:8.1",
+        "mn64:8.2"
+      ],
+      "summary": "Với cây lớn có lõi đang đứng, chặt qua vỏ và giác thì có thể chặt lõi. Cũng thế, nương con đường và đạo trình thì có thể biết, thấy và đoạn tận năm kiết sử."
+    },
+    {
+      "id": "river-weak",
+      "title": "Người yếu trước sông Hằng",
+      "segments": [
+        "mn64:8.3",
+        "mn64:8.4",
+        "mn64:8.5",
+        "mn64:8.6"
+      ],
+      "summary": "Sông Hằng đầy tới bờ, quạ có thể uống; người yếu muốn bơi ngang dòng bằng hai cánh tay đến bờ kia an toàn nhưng không thể làm được."
+    },
+    {
+      "id": "response-weak",
+      "title": "Tâm chưa đón nhận Pháp",
+      "segments": [
+        "mn64:8.7",
+        "mn64:8.8"
+      ],
+      "summary": "Khi Pháp được giảng để chấm dứt hữu thân, tâm không hướng đến, không tin phục, không an trú, không giải thoát thì giống người yếu ấy. Hữu thân khác với thân kiến."
+    },
+    {
+      "id": "river-strong",
+      "title": "Người khỏe trước sông Hằng",
+      "segments": [
+        "mn64:8.9",
+        "mn64:8.10",
+        "mn64:8.11",
+        "mn64:8.12"
+      ],
+      "summary": "Cùng sông Hằng đầy tới bờ quạ uống được; người khỏe muốn dùng hai cánh tay bơi ngang dòng đến bờ kia an toàn và có thể làm được."
+    },
+    {
+      "id": "response-strong",
+      "title": "Tâm hướng đến Pháp",
+      "segments": [
+        "mn64:8.13",
+        "mn64:8.14"
+      ],
+      "summary": "Khi Pháp được giảng để chấm dứt hữu thân, tâm hướng đến, tin phục, an trú và giải thoát thì giống người khỏe ấy."
+    },
+    {
+      "id": "path-question",
+      "title": "Con đường ấy là gì",
+      "segments": [
+        "mn64:9.1"
+      ],
+      "summary": "Phật hỏi thế nào là con đường và đạo trình để đoạn tận năm hạ phần kiết sử rồi trình bày các nền tảng thiền và quán."
+    },
+    {
+      "id": "first-jhana",
+      "title": "Xa lìa và an trú sơ thiền",
+      "segments": [
+        "mn64:9.2"
+      ],
+      "summary": "Nhờ xa sanh y, bỏ bất thiện, lắng hoàn toàn thô nặng nơi thân, tỳ-kheo hoàn toàn ly dục và bất thiện, chứng trú sơ thiền có tầm, tứ, hỷ lạc do viễn ly."
+    },
+    {
+      "id": "eleven",
+      "title": "Quán năm nhóm bằng mười một phương diện",
+      "segments": [
+        "mn64:9.3"
+      ],
+      "summary": "Những pháp có tại đây thuộc sắc, thọ, tưởng, hành, thức được quán là vô thường, khổ, bệnh, ung nhọt, mũi nhọn, phiền não, tai họa, xa lạ, hoại đổ, trống rỗng, vô ngã."
+    },
+    {
+      "id": "deathless",
+      "title": "Xoay tâm và hướng giới vô tử",
+      "segments": [
+        "mn64:9.4",
+        "mn64:9.5",
+        "mn64:9.6"
+      ],
+      "summary": "Xoay tâm khỏi các pháp ấy rồi hướng giới vô tử: an tịnh, vi diệu; lắng mọi hành, bỏ mọi sanh y, hết khát ái, ly tham, chấm dứt, Niết-bàn."
+    },
+    {
+      "id": "two-outcomes",
+      "title": "Hai kết quả có điều kiện",
+      "segments": [
+        "mn64:9.7",
+        "mn64:9.8",
+        "mn64:9.9"
+      ],
+      "summary": "An trú đây chứng đoạn tận lậu hoặc. Nếu chưa chứng, do tham mộ và hoan hỷ Pháp ấy, với năm hạ phần kiết sử đã đoạn, hóa sinh, tịch diệt ở đó, không trở lại từ thế giới ấy. Đây cũng là con đường và đạo trình đoạn năm kiết sử."
+    },
+    {
+      "id": "second-jhana",
+      "title": "Nhị thiền",
+      "segments": [
+        "mn64:10-12.1"
+      ],
+      "summary": "Tầm tứ lắng, chứng trú nhị thiền: không tầm tứ, nội tĩnh nhất tâm, hỷ lạc do định."
+    },
+    {
+      "id": "third-jhana",
+      "title": "Tam thiền",
+      "segments": [
+        "mn64:10-12.2"
+      ],
+      "summary": "Chứng trú tam thiền: hỷ phai, xả, chánh niệm tỉnh giác, thân cảm lạc, bậc Thánh gọi xả niệm lạc trú."
+    },
+    {
+      "id": "fourth-jhana",
+      "title": "Tứ thiền",
+      "segments": [
+        "mn64:10-12.3"
+      ],
+      "summary": "Chứng trú tứ thiền: bỏ lạc khổ, hỷ ưu trước đã lắng, không khổ không lạc, xả niệm thanh tịnh."
+    },
+    {
+      "id": "jhana-practice",
+      "title": "Tuệ và kết quả ở ba thiền còn lại",
+      "segments": [
+        "mn64:10-12.4",
+        "mn64:10-12.5",
+        "mn64:10-12.6",
+        "mn64:10-12.7"
+      ],
+      "summary": "Ở mỗi nhị, tam, tứ thiền cũng quán năm nhóm bằng đủ mười một phương diện, xoay tâm hướng giới vô tử với đầy đủ lời quán, rồi hai nhánh kết quả và điều kiện như sơ thiền. Mỗi trường hợp cũng là con đường và đạo trình đoạn năm kiết sử."
+    },
+    {
+      "id": "space",
+      "title": "Không vô biên xứ",
+      "segments": [
+        "mn64:13.1"
+      ],
+      "summary": "Vượt hoàn toàn tưởng sắc, chấm dứt tưởng va chạm, không chú ý tưởng sai biệt, biết không gian vô biên, chứng trú Không vô biên xứ."
+    },
+    {
+      "id": "space-practice",
+      "title": "Tuệ từ Không vô biên xứ",
+      "segments": [
+        "mn64:13.2",
+        "mn64:13.3",
+        "mn64:13.4",
+        "mn64:13.5"
+      ],
+      "summary": "Ở Không vô biên xứ chỉ bốn nhóm thọ, tưởng, hành, thức được quán với đủ mười một phương diện; xoay tâm hướng giới vô tử và đủ hai nhánh kết quả có điều kiện như trước. Đây cũng là con đường và đạo trình đoạn năm kiết sử."
+    },
+    {
+      "id": "consciousness",
+      "title": "Thức vô biên xứ",
+      "segments": [
+        "mn64:14.1"
+      ],
+      "summary": "Vượt hoàn toàn Không vô biên xứ, biết thức vô biên, chứng trú Thức vô biên xứ."
+    },
+    {
+      "id": "consciousness-practice",
+      "title": "Tuệ từ Thức vô biên xứ",
+      "segments": [
+        "mn64:14.2",
+        "mn64:14.3",
+        "mn64:14.4",
+        "mn64:14.5"
+      ],
+      "summary": "Ở Thức vô biên xứ quán bốn nhóm thọ, tưởng, hành, thức theo đủ mười một phương diện, hướng giới vô tử và đủ hai nhánh kết quả có điều kiện. Đây cũng là con đường và đạo trình đoạn năm kiết sử."
+    },
+    {
+      "id": "nothingness",
+      "title": "Vô sở hữu xứ",
+      "segments": [
+        "mn64:15.1"
+      ],
+      "summary": "Vượt hoàn toàn Thức vô biên xứ, biết không có gì cả, chứng trú Vô sở hữu xứ."
+    },
+    {
+      "id": "nothingness-practice",
+      "title": "Tuệ từ Vô sở hữu xứ",
+      "segments": [
+        "mn64:15.2",
+        "mn64:15.3",
+        "mn64:15.4",
+        "mn64:15.5"
+      ],
+      "summary": "Ở Vô sở hữu xứ quán bốn nhóm thọ, tưởng, hành, thức theo đủ mười một phương diện, hướng giới vô tử và đủ hai nhánh kết quả có điều kiện. Đây cũng là con đường và đạo trình đoạn năm kiết sử."
+    },
+    {
+      "id": "faculties",
+      "title": "Vì sao tâm giải thoát và huệ giải thoát",
+      "segments": [
+        "mn64:16.1",
+        "mn64:16.2"
+      ],
+      "summary": "Ānanda hỏi cùng con đường và đạo trình này sao có tỳ-kheo tâm giải thoát và tỳ-kheo huệ giải thoát. Phật đáp do sự sai khác của các căn, không triển khai một bảng phân loại khác."
+    },
+    {
+      "id": "ending",
+      "title": "Ānanda hoan hỷ",
+      "segments": [
+        "mn64:16.3",
+        "mn64:16.4",
+        "mn64:16.5"
+      ],
+      "summary": "Phật nói xong; Ānanda hoan hỷ tán đồng. Đại Kinh Māluṅkya kết thúc, bài thứ tư trong nhóm kinh này."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Điều chưa nổi lên vẫn có thể còn tiềm ẩn",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Nhớ tên rồi, còn cần hiểu điều gì?",
+          "paragraphs": [
+            "Đại Kinh Māluṅkya, bài MN64, được người truyền kinh kể là đã nghe như sau. Một thời, Phật ở Sāvatthī, trong rừng Jeta, tại tu viện Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những người nam đã xuất gia tu học. Các vị đáp lời.",
+            "Phật hỏi họ có nhớ năm hạ phần kiết sử Ngài đã dạy không. “Kiết sử” là những điều trói buộc tâm; ở đây là nhóm năm điều được gọi là hạ phần. Māluṅkyaputta đáp rằng mình nhớ. Phật hỏi ông nhớ như thế nào."
+          ],
+          "meaningUnits": [
+            "setting",
+            "remember"
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Năm điều trói buộc tâm",
+          "paragraphs": [
+            "Māluṅkyaputta kể: thân kiến, tức chấp thân và tâm là một cái “tôi”; nghi hoặc, sự phân vân về đường tu; giới cấm thủ, sự bám chặt vào giới và nghi thức như thể chỉ bám vào đó là đủ để thanh tịnh.",
+            "Hai điều nữa là dục tham, ham muốn những thú vui của giác quan; và sân hận, sự giận dữ, chống đối. Ông nói đó là năm điều mình nhớ từ lời Phật dạy."
+          ],
+          "meaningUnits": [
+            "five"
+          ]
+        },
+        {
+          "id": "baby",
+          "kind": "teaching",
+          "heading": "Em bé còn chưa nghĩ đến những chuyện ấy",
+          "paragraphs": [
+            "Phật hỏi: ông nhớ những điều ấy được dạy như vậy cho ai? Ngài nêu một câu phản bác mà các du sĩ đạo khác, những người tu theo con đường khác, có thể đưa ra: hãy nghĩ đến em bé nhỏ xíu, ngây ngô, còn nằm ngửa.",
+            "Bé chưa có cả ý niệm về “hữu thân”, sự hiện hữu gắn với thân và tâm, thì làm sao thân kiến đã thành ý nghĩ? Bé chưa có ý niệm về các lời dạy thì làm sao nghi ngờ những lời dạy ấy? Bé chưa có ý niệm về giới thì làm sao đã bám chặt vào giới và nghi thức?",
+            "Bé cũng chưa có ý niệm về các dục, những thú vui giác quan, để dục tham khởi lên; chưa có ý niệm về chúng sinh, các loài có sự sống, để sân hận đối với chúng sinh khởi lên. Nhưng trong cả năm trường hợp, Phật nói tùy miên vẫn còn: khuynh hướng nằm tiềm ẩn, chưa thành một ý nghĩ đang biểu lộ. Ngài nhắc lại rằng người khác có thể dùng chính ví dụ ấy để phản bác cách hiểu còn thiếu."
+          ],
+          "meaningUnits": [
+            "challenge",
+            "baby-body",
+            "baby-doubt",
+            "baby-rules",
+            "baby-desire",
+            "baby-anger"
+          ]
+        },
+        {
+          "id": "seed",
+          "kind": "example",
+          "heading": "Ví dụ ngày nay: mầm chưa nhú",
+          "paragraphs": [
+            "Một ví dụ do người biên soạn đặt thêm: nhìn mặt đất chưa có chồi, em chưa thể kết luận bên dưới không còn hạt. Ví dụ chỉ giúp phân biệt “chưa thấy biểu lộ” với “đã hết tận gốc”. Trong lời kinh, em bé không bị gọi là đang cố ý làm điều xấu."
+          ],
+          "meaningUnits": [
+            "baby-body",
+            "baby-doubt",
+            "baby-rules",
+            "baby-desire",
+            "baby-anger"
+          ]
+        },
+        {
+          "id": "invitation",
+          "kind": "teaching",
+          "heading": "Ānanda xin nghe cho thật rõ",
+          "paragraphs": [
+            "Lúc ấy Ānanda thưa hai lần rằng bây giờ là lúc Phật giảng năm hạ phần kiết sử để các tỳ-kheo được nghe và ghi nhớ. Ông dùng hai cách tôn xưng Phật là Thế Tôn và Thiện Thệ. Phật bảo Ānanda lắng nghe, chú tâm kỹ; ông đáp vâng."
+          ],
+          "meaningUnits": [
+            "ananda"
+          ]
+        },
+        {
+          "id": "bound",
+          "kind": "teaching",
+          "heading": "Khi điều trói buộc còn ăn sâu",
+          "paragraphs": [
+            "Phật nói đến người chưa học: chưa gặp các bậc Thánh, chưa thông hiểu và chưa tập theo lời dạy của các vị, gọi là Pháp; đối với các bậc chân nhân, những người sống chân chính, cũng chưa gặp, chưa hiểu và chưa được rèn luyện như vậy.",
+            "Với từng điều trong năm điều — thân kiến, nghi hoặc, giới cấm thủ, dục tham và sân hận — tâm người ấy bị chi phối và chìm đắm. Người ấy không biết đúng lối thoát khi điều đó đã khởi lên. Nó vẫn ăn sâu, chưa được trừ bỏ: đó là điều đang trói buộc người ấy."
+          ],
+          "meaningUnits": [
+            "unlearned",
+            "bound-body",
+            "bound-doubt",
+            "bound-rules",
+            "bound-desire",
+            "bound-anger"
+          ]
+        },
+        {
+          "id": "released",
+          "kind": "teaching",
+          "heading": "Học để gỡ cả phần tiềm ẩn",
+          "paragraphs": [
+            "Người đệ tử Thánh có học thì đã gặp, thông hiểu và được rèn luyện trong Pháp của các bậc Thánh; với các bậc chân nhân cũng đủ cả ba điều ấy.",
+            "Đối với thân kiến, nghi hoặc, giới cấm thủ, dục tham và sân hận, từng điều đều có sự thay đổi: tâm không bị nó chi phối, không chìm đắm; biết đúng lối thoát khi nó khởi lên; đoạn trừ được cả điều ấy lẫn tùy miên còn tiềm ẩn của nó."
+          ],
+          "meaningUnits": [
+            "free-body",
+            "free-doubt",
+            "free-rules",
+            "free-desire",
+            "free-anger"
+          ]
+        },
+        {
+          "id": "tree",
+          "kind": "teaching",
+          "heading": "Muốn đến lõi cây, phải đi qua các lớp ngoài",
+          "paragraphs": [
+            "Phật nói có con đường và có cách thực hành để đoạn năm điều trói buộc ấy. Không nương theo thì không thể biết, thấy hay đoạn tận chúng.",
+            "Ngài ví với một cây lớn có lõi đang đứng: không thể chặt tới lõi mà chưa chặt qua vỏ và lớp giác, phần gỗ ở ngoài lõi. Chặt qua hai lớp ấy rồi thì có thể tới lõi. Cũng vậy, nương theo con đường cùng cách thực hành thì có thể biết, thấy và đoạn tận năm kiết sử."
+          ],
+          "meaningUnits": [
+            "path-necessary",
+            "tree-impossible",
+            "path-possible",
+            "tree-possible"
+          ]
+        },
+        {
+          "id": "river",
+          "kind": "teaching",
+          "heading": "Hai người đứng trước dòng sông",
+          "paragraphs": [
+            "Phật nêu tiếp ví dụ sông Hằng đầy nước tới bờ, đến mức quạ có thể uống. Một người yếu muốn dùng hai cánh tay bơi ngang dòng, sang bờ kia an toàn, nhưng không thể. Người khỏe đứng trước dòng sông đầy như thế, cùng muốn bơi bằng hai cánh tay sang bờ kia an toàn, thì có thể làm được.",
+            "Khi nghe Pháp dạy chấm dứt hữu thân, tâm không hướng đến, không tin phục, không đứng vững nơi đó và không được cởi mở, giải thoát, thì giống người yếu. Tâm hướng đến, tin phục, đứng vững và được cởi mở, giải thoát thì giống người khỏe. Bài kinh đang nói về sức của tâm đón nhận đường tu; hữu thân là sự hiện hữu gắn với thân tâm, khác với riêng quan niệm về cái “tôi”."
+          ],
+          "meaningUnits": [
+            "river-weak",
+            "response-weak",
+            "river-strong",
+            "response-strong"
+          ]
+        },
+        {
+          "id": "first",
+          "kind": "teaching",
+          "heading": "Bắt đầu bằng tâm yên vững",
+          "paragraphs": [
+            "Con đường ấy được thực hành thế nào? Phật nói vị tỳ-kheo xa lìa sanh y, những chỗ dựa nuôi sự sinh tồn tiếp diễn; từ bỏ các điều bất thiện (không lành); làm lắng hoàn toàn sự thô nặng nơi thân. Hoàn toàn xa những thú vui giác quan và các điều bất thiện, vị ấy đạt rồi ở trong sơ thiền.",
+            "Sơ thiền có tầm, sự đưa tâm đến đối tượng, và tứ, sự giữ tâm ở đó. Có hỷ là niềm vui hân hoan, có lạc là sự dễ chịu, do xa lìa mà sinh. Nhưng sự yên vui ấy vẫn cần được nhìn cho rõ."
+          ],
+          "meaningUnits": [
+            "path-question",
+            "first-jhana"
+          ]
+        },
+        {
+          "id": "looking",
+          "kind": "teaching",
+          "heading": "Ngay cả khi yên, vẫn nhìn kỹ",
+          "paragraphs": [
+            "Vị ấy quan sát những gì đang có trong năm nhóm: sắc là phần thân thể, vật chất; thọ là cảm giác; tưởng là sự nhận ra; hành là các hoạt động tạo tác của tâm; thức là sự nhận biết.",
+            "Cả năm được nhìn theo mười một phương diện: vô thường, luôn đổi thay; khổ; như bệnh; như ung nhọt; như mũi nhọn; là phiền não; là tai họa; là xa lạ; là thứ sẽ hoại đổ; trống rỗng; và vô ngã, không phải một cái “tôi” để giữ làm mình. Những hình ảnh mạnh này giúp thấy rõ điều không thể nắm mãi làm chỗ dựa."
+          ],
+          "meaningUnits": [
+            "eleven"
+          ]
+        },
+        {
+          "id": "deathless",
+          "kind": "teaching",
+          "heading": "Hướng đến điều an tịnh",
+          "paragraphs": [
+            "Sau khi nhìn như vậy, vị ấy xoay tâm khỏi những điều ấy và hướng đến giới vô tử, tên gọi ở đây của Niết-bàn. Niết-bàn là sự chấm dứt khát ái và khổ.",
+            "Vị ấy nhận rõ: đây là an tịnh, vi diệu — mọi hành đều lắng dịu, mọi sanh y đều được từ bỏ, khát ái chấm dứt, tham muốn phai hết, sự chấm dứt, Niết-bàn. “Mọi hành” nói đến mọi hoạt động tạo tác; không chỉ một ý nghĩ vừa làm mình bực."
+          ],
+          "meaningUnits": [
+            "deathless"
+          ]
+        },
+        {
+          "id": "outcomes",
+          "kind": "teaching",
+          "heading": "Bài kinh phân biệt hai kết quả",
+          "paragraphs": [
+            "An trú như vậy, vị ấy đạt sự đoạn tận lậu hoặc, những ô nhiễm sâu nuôi khổ và sự sinh trở lại.",
+            "Nếu chưa đoạn tận lậu hoặc, do còn tham mộ và vui thích với Pháp ấy, nhưng đã đoạn cả năm hạ phần kiết sử, vị ấy hóa sinh: tự hiện ra trong đời sống mới. Vị ấy sẽ tịch diệt, đạt sự chấm dứt hoàn toàn, tại đó và không trở lại từ thế giới ấy. Phật gọi đây cũng là con đường cùng cách thực hành đoạn năm kiết sử."
+          ],
+          "meaningUnits": [
+            "two-outcomes"
+          ]
+        },
+        {
+          "id": "three-jhanas",
+          "kind": "teaching",
+          "heading": "Ba tầng thiền tiếp theo",
+          "paragraphs": [
+            "Vị ấy đạt và ở trong nhị thiền: tầm và tứ lắng xuống, không còn tầm tứ; bên trong sáng lặng, tâm thống nhất, có hỷ lạc do định, sự tập trung yên vững, sinh ra.",
+            "Vị ấy đạt và ở trong tam thiền: hỷ phai đi. Vị ấy có xả, sự quân bình, có chánh niệm và tỉnh giác, tức tỉnh nhớ và biết rõ, thân vẫn cảm lạc. Các bậc Thánh gọi đó là ở trong an lạc với xả và niệm.",
+            "Vị ấy đạt và ở trong tứ thiền: lạc và khổ được buông; hỷ và ưu (buồn rầu) trước đó đã lắng. Không khổ, không lạc; niệm trong sạch nhờ xả. Với mỗi tầng trong ba tầng này, vị ấy vẫn quán đủ năm nhóm bằng mười một phương diện, xoay tâm hướng giới vô tử với lời quán an tịnh vừa nêu. Hai kết quả và các điều kiện cũng đầy đủ như ở sơ thiền. Mỗi trường hợp đều được gọi là con đường và cách thực hành đoạn năm kiết sử."
+          ],
+          "meaningUnits": [
+            "second-jhana",
+            "third-jhana",
+            "fourth-jhana",
+            "jhana-practice"
+          ]
+        },
+        {
+          "id": "space",
+          "kind": "teaching",
+          "heading": "Định về không gian vô biên",
+          "paragraphs": [
+            "Một nền tảng khác là Không vô biên xứ. Vị ấy vượt hoàn toàn các tưởng về sắc, chấm dứt tưởng do va chạm, không chú ý các tưởng sai biệt; nhận biết “không gian là vô biên”, rồi đạt và ở trong định ấy.",
+            "Ở đây, vị ấy quán bốn nhóm của tâm: thọ, tưởng, hành và thức. Vẫn đủ mười một phương diện đã nói, rồi xoay tâm hướng giới vô tử. Cả lời quán an tịnh và hai kết quả có điều kiện đều như trước. Đây cũng là con đường và cách thực hành đoạn năm kiết sử."
+          ],
+          "meaningUnits": [
+            "space",
+            "space-practice"
+          ]
+        },
+        {
+          "id": "consciousness",
+          "kind": "teaching",
+          "heading": "Định về thức vô biên",
+          "paragraphs": [
+            "Vượt hoàn toàn Không vô biên xứ, vị ấy nhận biết “thức là vô biên”, đạt và ở trong Thức vô biên xứ.",
+            "Từ nền tảng ấy, vị ấy lại quán thọ, tưởng, hành, thức bằng đủ mười một phương diện; xoay tâm, hướng giới vô tử, rồi có hai kết quả với những điều kiện đã nêu. Phật cũng gọi đây là con đường và cách thực hành đoạn năm kiết sử."
+          ],
+          "meaningUnits": [
+            "consciousness",
+            "consciousness-practice"
+          ]
+        },
+        {
+          "id": "nothing",
+          "kind": "teaching",
+          "heading": "Định với nhận biết “không có gì cả”",
+          "paragraphs": [
+            "Vượt hoàn toàn Thức vô biên xứ, vị ấy nhận biết “không có gì cả”, đạt và ở trong Vô sở hữu xứ.",
+            "Tại đây vẫn quán bốn nhóm thọ, tưởng, hành, thức theo đủ mười một phương diện; xoay tâm khỏi các pháp ấy rồi hướng đến giới vô tử với lời quán an tịnh. Hai nhánh kết quả, kể cả điều kiện đã đoạn năm kiết sử của người không trở lại, đều giữ như trước. Đây cũng là con đường và cách thực hành đoạn năm kiết sử."
+          ],
+          "meaningUnits": [
+            "nothingness",
+            "nothingness-practice"
+          ]
+        },
+        {
+          "id": "question",
+          "kind": "teaching",
+          "heading": "Cùng con đường, vì sao có khác nhau?",
+          "paragraphs": [
+            "Ānanda hỏi: nếu đây là cùng con đường và cách thực hành ấy, vì sao có vị tâm giải thoát, có vị huệ giải thoát, tức giải thoát được nói về phía tâm hay phía trí tuệ?",
+            "Phật đáp rằng đó là do các căn khác nhau, nghĩa là các năng lực tu tập có sự khác nhau. Ānanda nghe xong, vui lòng và tán đồng. Đại Kinh Māluṅkya kết thúc, bài thứ tư trong nhóm kinh này."
+          ],
+          "meaningUnits": [
+            "faculties",
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Thử nhận ra một cơn giận nhỏ",
+          "paragraphs": [
+            "Gợi ý của người biên soạn: lần tới khi sắp nổi giận vì phải chờ đến lượt, em có thể dừng một chút và nhận ra: “Mình đang khó chịu.” Đợi bình tĩnh hơn rồi nói điều cần nói. Sau đó tự hỏi điều gì thường làm cơn giận trở lại. Bài tập nhỏ này giúp bắt đầu quan sát; việc đoạn cả khuynh hướng tiềm ẩn là con đường sâu hơn bài kinh vừa trình bày."
+          ],
+          "meaningUnits": [
+            "bound-anger",
+            "free-anger"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Đoạn sự trói buộc đến tận khuynh hướng tiềm ẩn",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Một lời đáp đúng tên nhưng cần được hiểu sâu",
+          "paragraphs": [
+            "Người truyền Đại Kinh Māluṅkya, MN64, kể rằng mình đã nghe: Phật ở Sāvatthī, trong rừng Jeta, tu viện Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những người nam xuất gia, và các vị đáp lời. Ngài hỏi họ có nhớ năm hạ phần kiết sử đã được dạy không. Māluṅkyaputta đáp có; được hỏi nhớ thế nào, ông kể đủ năm điều.",
+            "Đó là thân kiến, sự chấp một bản ngã nơi thân tâm; nghi hoặc về đường tu; giới cấm thủ, sự chấp chặt giới và nghi thức như thể chỉ bám giữ chúng là đủ để thanh tịnh; dục tham, ham muốn những thú vui giác quan; và sân hận. Kiết sử là sự trói buộc tâm. Năm điều này thuộc nhóm được gọi là hạ phần kiết sử."
+          ],
+          "meaningUnits": [
+            "setting",
+            "remember",
+            "five"
+          ]
+        },
+        {
+          "id": "infant",
+          "kind": "teaching",
+          "heading": "Chưa biểu lộ khác với đã được đoạn trừ",
+          "paragraphs": [
+            "Phật hỏi Māluṅkyaputta nhớ những điều ấy được dạy như vậy cho ai. Ngài nêu khả năng du sĩ đạo khác phản bác ông bằng ví dụ một đứa trẻ nhỏ, ngây ngô, còn nằm ngửa.",
+            "Trẻ chưa có ý niệm về hữu thân, sự hiện hữu gắn với thân tâm, thì thân kiến làm sao đã khởi thành ý nghĩ? Chưa có ý niệm về các lời dạy, làm sao nghi về những lời dạy? Chưa có ý niệm về giới, làm sao khởi giới cấm thủ? Chưa có ý niệm về các dục, làm sao khởi dục tham? Chưa có ý niệm về chúng sinh, làm sao khởi sân hận đối với chúng sinh?",
+            "Ở từng trường hợp, tùy miên tương ứng vẫn còn: thân kiến, nghi, giới cấm thủ, dục tham, sân hận vẫn có khuynh hướng tiềm ẩn. Sau năm trường hợp, Phật nhắc lại khả năng bị phản bác. Sự yên vắng của một biểu hiện chưa chứng minh rằng gốc ràng buộc đã hết."
+          ],
+          "meaningUnits": [
+            "challenge",
+            "baby-body",
+            "baby-doubt",
+            "baby-rules",
+            "baby-desire",
+            "baby-anger"
+          ]
+        },
+        {
+          "id": "request",
+          "kind": "teaching",
+          "heading": "Ānanda thỉnh một lời giảng đầy đủ",
+          "paragraphs": [
+            "Ānanda thưa hai lần rằng bây giờ là lúc Phật giảng năm hạ phần kiết sử, dùng hai tôn xưng Thế Tôn và Thiện Thệ. Các tỳ-kheo sẽ nghe rồi ghi nhớ. Phật bảo Ānanda nghe và chú tâm kỹ; ông đáp vâng, và Ngài tiếp tục."
+          ],
+          "meaningUnits": [
+            "ananda"
+          ]
+        },
+        {
+          "id": "entrenched",
+          "kind": "teaching",
+          "heading": "Ba mặt của sự bị trói buộc",
+          "paragraphs": [
+            "Người phàm chưa học chưa thấy các bậc Thánh, không thông thạo và chưa được tu tập trong Pháp của các vị; đối với các bậc chân nhân, những người chân chính, cũng thiếu cả việc gặp, hiểu và tu tập ấy.",
+            "Phật lần lượt nói về thân kiến, nghi hoặc, giới cấm thủ, dục tham và sân hận. Với mỗi điều, người ấy bị nó chi phối và chìm đắm trong nó; không biết như thật lối thoát khỏi nó khi nó đã khởi; nó đã ngấm sâu và chưa được trừ bỏ. Vì vậy, điều ấy là một hạ phần kiết sử đang ràng buộc người ấy."
+          ],
+          "meaningUnits": [
+            "unlearned",
+            "bound-body",
+            "bound-doubt",
+            "bound-rules",
+            "bound-desire",
+            "bound-anger"
+          ]
+        },
+        {
+          "id": "abandoned",
+          "kind": "teaching",
+          "heading": "Sự chuyển đổi phải đến tận tùy miên",
+          "paragraphs": [
+            "Đệ tử Thánh có học đã thấy các bậc Thánh, thông thạo và được rèn luyện trong Pháp của các vị; với các bậc chân nhân cũng đã thấy, thông thạo và được rèn luyện.",
+            "Với từng kiết sử trong đủ năm điều vừa kể, tâm vị ấy không bị chi phối, không chìm đắm; biết như thật lối thoát khỏi điều đã sinh khởi; đoạn được điều ấy cùng tùy miên của nó. Đích đến ở đây bao gồm gốc tiềm ẩn, vượt xa một quãng tạm thời không bực bội hay không ham muốn."
+          ],
+          "meaningUnits": [
+            "free-body",
+            "free-doubt",
+            "free-rules",
+            "free-desire",
+            "free-anger"
+          ]
+        },
+        {
+          "id": "modern",
+          "kind": "example",
+          "heading": "Ví dụ ngày nay: bình tĩnh khi chưa bị chạm tới",
+          "paragraphs": [
+            "Một tình huống do người biên soạn thêm: trong cuộc họp thuận lợi, ta có thể thấy mình rất điềm đạm. Khi ý kiến bị bác, sự chống đối mới lộ ra. Nhận ra điều này giúp ta thôi vội đánh giá việc tu chỉ bằng những lúc mọi chuyện đúng ý. Ví dụ giúp soi một biểu hiện nhỏ; nó không tự xác định ai đã đoạn kiết sử."
+          ],
+          "meaningUnits": [
+            "bound-anger",
+            "free-anger"
+          ]
+        },
+        {
+          "id": "tree",
+          "kind": "teaching",
+          "heading": "Không bỏ qua con đường và đạo trình",
+          "paragraphs": [
+            "Phật khẳng định có con đường và đạo trình, tức cách đi vào thực hành, để đoạn năm hạ phần kiết sử. Không nương theo thì không thể biết, thấy hay đoạn tận chúng.",
+            "Một cây lớn có lõi đang đứng: không thể chặt lõi khi chưa chặt qua vỏ và giác, lớp gỗ bên ngoài lõi. Chặt qua vỏ và giác thì việc chặt lõi có thể xảy ra. Cũng thế, nương con đường và đạo trình thì có thể biết, thấy và đoạn tận năm điều trói buộc ấy."
+          ],
+          "meaningUnits": [
+            "path-necessary",
+            "tree-impossible",
+            "path-possible",
+            "tree-possible"
+          ]
+        },
+        {
+          "id": "river",
+          "kind": "teaching",
+          "heading": "Sức đón nhận lời dạy",
+          "paragraphs": [
+            "Sông Hằng đầy tới bờ đến mức quạ có thể uống nước. Người yếu đến, muốn dùng hai cánh tay bơi ngang dòng sang bờ kia an toàn, nhưng không thể. Người khỏe đến cùng dòng sông đầy ấy, có cùng ý định và có thể bơi sang an toàn.",
+            "Khi Pháp được giảng để chấm dứt hữu thân, người có tâm không hướng đến, không tin phục, không an trú và không giải thoát thì được ví với người yếu. Người có tâm hướng đến, tin phục, an trú và giải thoát thì được ví với người khỏe. Hữu thân ở đây nói đến sự hiện hữu gắn với thân tâm, không chỉ riêng thân kiến. Bốn động thái của tâm được đặt trong việc đón nhận Pháp hướng đến chấm dứt sự ràng buộc ấy."
+          ],
+          "meaningUnits": [
+            "river-weak",
+            "response-weak",
+            "river-strong",
+            "response-strong"
+          ]
+        },
+        {
+          "id": "first",
+          "kind": "teaching",
+          "heading": "Sơ thiền làm nền cho sự thấy biết",
+          "paragraphs": [
+            "Phật tiếp lời: con đường và đạo trình ấy là gì? Vị tỳ-kheo dựa vào ba việc: xa lìa sanh y, những nền tảng nuôi sự sinh tồn tiếp diễn; bỏ các pháp bất thiện (không lành); và làm lắng hoàn toàn các trạng thái thô nặng nơi thân. Hoàn toàn ly dục, ly bất thiện, vị ấy chứng và an trú sơ thiền.",
+            "Sơ thiền còn tầm và tứ, sự hướng tâm đến và duy trì tâm trên đối tượng; có hỷ, niềm hân hoan, cùng lạc, sự dễ chịu, sinh ra do viễn ly, tức sự xa lìa. Chính ở nền tảng này, việc quan sát bằng tuệ tiếp tục."
+          ],
+          "meaningUnits": [
+            "path-question",
+            "first-jhana"
+          ]
+        },
+        {
+          "id": "contemplation",
+          "kind": "teaching",
+          "heading": "Nhìn cả kinh nghiệm thiền theo mười một phương diện",
+          "paragraphs": [
+            "Những pháp hiện có thuộc sắc, thọ, tưởng, hành, thức được quán sát. Đó là phần vật chất, cảm giác, sự nhận ra, các hoạt động tạo tác của tâm và sự nhận biết.",
+            "Vị ấy thấy chúng là vô thường, khổ, bệnh, ung nhọt, mũi nhọn, phiền não, tai họa, xa lạ, hoại đổ, trống rỗng và vô ngã. Mười một phương diện ấy làm rõ tính đổi thay, bất toại nguyện và không thể nắm giữ làm một bản ngã, ngay nơi kinh nghiệm an định."
+          ],
+          "meaningUnits": [
+            "eleven"
+          ]
+        },
+        {
+          "id": "turning",
+          "kind": "teaching",
+          "heading": "Xoay tâm khỏi điều được quán",
+          "paragraphs": [
+            "Vị ấy xoay tâm khỏi các pháp ấy rồi hướng đến giới vô tử, tên gọi ở đây của Niết-bàn, sự chấm dứt khát ái và khổ. Vị ấy nhận rõ đây là an tịnh, vi diệu: lắng dịu mọi hành, từ bỏ mọi sanh y, đoạn tận khát ái, ly tham tức ham muốn phai hết, chấm dứt, Niết-bàn. Hành ở đây là các hoạt động tạo tác; sanh y vẫn là những nền tảng nuôi sự sinh tồn tiếp diễn.",
+            "An trú như vậy, vị ấy chứng đoạn tận lậu hoặc, những ô nhiễm sâu duy trì khổ và tái sinh. Nếu chưa chứng đoạn tận lậu hoặc, do tham mộ và hoan hỷ Pháp ấy, đồng thời đã đoạn năm hạ phần kiết sử, vị ấy hóa sinh, tự hiện ra trong đời sống mới; sẽ tịch diệt, đạt sự chấm dứt hoàn toàn, ở đó, không trở lại từ thế giới ấy. Đây cũng là con đường và đạo trình đoạn năm kiết sử."
+          ],
+          "meaningUnits": [
+            "deathless",
+            "two-outcomes"
+          ]
+        },
+        {
+          "id": "jhanas",
+          "kind": "teaching",
+          "heading": "Cũng thực hành như vậy trên ba tầng thiền còn lại",
+          "paragraphs": [
+            "Vị ấy chứng và an trú nhị thiền: tầm tứ đã lắng, không còn tầm tứ, nội tĩnh và tâm thống nhất, hỷ lạc do định sinh. Vị ấy chứng và an trú tam thiền: hỷ đã phai, an trú xả, chánh niệm tỉnh giác, thân cảm lạc; bậc Thánh gọi đó là xả niệm lạc trú, an lạc cùng quân bình và tỉnh nhớ.",
+            "Vị ấy chứng và an trú tứ thiền: lạc và khổ được bỏ, hỷ và ưu (buồn rầu) trước đó đã lắng; không khổ không lạc, niệm thanh tịnh nhờ xả. Đối với từng tầng nhị, tam, tứ thiền, cả năm nhóm sắc, thọ, tưởng, hành, thức vẫn được quán bằng đủ mười một phương diện, rồi tâm xoay khỏi chúng và hướng giới vô tử với đầy đủ lời quán an tịnh đã nêu.",
+            "Mỗi tầng đều có hai nhánh kết quả như sơ thiền: đoạn lậu hoặc; hoặc, nếu chưa đoạn lậu hoặc, với tham mộ và hoan hỷ Pháp ấy nhưng đã đoạn cả năm kiết sử, hóa sinh rồi tịch diệt tại đó, không trở lại. Mỗi trường hợp được Phật gọi là con đường và đạo trình đoạn năm hạ phần kiết sử."
+          ],
+          "meaningUnits": [
+            "second-jhana",
+            "third-jhana",
+            "fourth-jhana",
+            "jhana-practice"
+          ]
+        },
+        {
+          "id": "formless",
+          "kind": "teaching",
+          "heading": "Ba nền tảng vô sắc",
+          "paragraphs": [
+            "Vượt hoàn toàn tưởng về sắc, chấm dứt tưởng do va chạm, không chú ý tưởng sai biệt, vị ấy biết “không gian là vô biên”, chứng và an trú Không vô biên xứ.",
+            "Vượt hoàn toàn Không vô biên xứ, vị ấy biết “thức là vô biên”, chứng và an trú Thức vô biên xứ. Rồi vượt hoàn toàn Thức vô biên xứ, biết “không có gì cả”, vị ấy chứng và an trú Vô sở hữu xứ."
+          ],
+          "meaningUnits": [
+            "space",
+            "consciousness",
+            "nothingness"
+          ]
+        },
+        {
+          "id": "formless-wisdom",
+          "kind": "teaching",
+          "heading": "Định sâu vẫn được soi bằng tuệ",
+          "paragraphs": [
+            "Ở mỗi nền tảng trong ba nền tảng ấy, các pháp được quán thuộc bốn nhóm: thọ, tưởng, hành, thức. Vẫn đủ mười một phương diện như trên, từ vô thường đến vô ngã. Vị ấy xoay tâm khỏi chúng, hướng giới vô tử và nhận rõ đầy đủ sự an tịnh: mọi hành lắng, mọi sanh y được bỏ, khát ái hết, ly tham, chấm dứt, Niết-bàn.",
+            "Từ Không vô biên xứ, Thức vô biên xứ hay Vô sở hữu xứ, cả hai kết quả cùng những điều kiện đều được giữ: đoạn tận lậu hoặc; hoặc nếu chưa đoạn, do còn tham mộ và hoan hỷ Pháp ấy nhưng đã đoạn năm hạ phần kiết sử, hóa sinh, tịch diệt tại đó và không trở lại. Cả ba đều được xác nhận là con đường và đạo trình đoạn năm kiết sử."
+          ],
+          "meaningUnits": [
+            "space-practice",
+            "consciousness-practice",
+            "nothingness-practice"
+          ]
+        },
+        {
+          "id": "faculties",
+          "kind": "teaching",
+          "heading": "Sự khác nhau của các căn",
+          "paragraphs": [
+            "Ānanda hỏi: nếu đây là cùng con đường và đạo trình để đoạn năm hạ phần kiết sử, tại sao một số tỳ-kheo là bậc tâm giải thoát, một số là bậc huệ giải thoát, giải thoát về phía tâm hay về phía trí tuệ?",
+            "Phật trả lời rằng ở đây là do các căn, các năng lực tu tập, có sự khác nhau. Ānanda hoan hỷ và tán đồng. Đại Kinh Māluṅkya kết thúc, bài thứ tư trong nhóm kinh này."
+          ],
+          "meaningUnits": [
+            "faculties",
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Đặt câu hỏi về lối thoát",
+          "paragraphs": [
+            "Gợi ý của người biên soạn: khi nhận ra mình đang bị một ham muốn hay bực tức cuốn đi, có thể ghi nhận điều đang chi phối, hoàn cảnh làm nó khởi và cách ứng xử giúp không nuôi nó thêm. Câu hỏi “Mình đã biết lối thoát chưa?” giữ việc học gắn với chuyển đổi thực tế. Đó là bước quan sát ban đầu; bài kinh đặt đích đến sâu hơn, gồm cả sự đoạn trừ tùy miên."
+          ],
+          "meaningUnits": [
+            "bound-body",
+            "bound-doubt",
+            "bound-rules",
+            "bound-desire",
+            "bound-anger",
+            "free-body",
+            "free-doubt",
+            "free-rules",
+            "free-desire",
+            "free-anger"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Sự bình an cần đi tới tận gốc ràng buộc",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "meeting",
+          "kind": "teaching",
+          "heading": "Từ nhớ lời đến hiểu rõ",
+          "paragraphs": [
+            "Đại Kinh Māluṅkya, MN64, mở bằng lời người truyền kinh kể điều mình đã nghe. Phật đang ở Sāvatthī, tại rừng Jeta, trong tu viện Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những người nam xuất gia; các vị đáp lời.",
+            "Phật hỏi các vị có nhớ năm hạ phần kiết sử Ngài đã dạy không. Māluṅkyaputta thưa rằng mình nhớ. Ngài hỏi tiếp: ông nhớ như thế nào? Kiết sử là những điều ràng buộc tâm; năm điều sau thuộc nhóm được gọi là hạ phần."
+          ],
+          "meaningUnits": [
+            "setting",
+            "remember"
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Nhận mặt năm sự ràng buộc",
+          "paragraphs": [
+            "Māluṅkyaputta kể thân kiến: chấp một cái “tôi” nơi thân tâm; nghi hoặc về con đường tu; giới cấm thủ: bám chặt giới và nghi thức như thể chỉ nhờ sự bám giữ ấy mà được thanh tịnh.",
+            "Ông kể tiếp dục tham, ham muốn các thú vui của giác quan, và sân hận, sự giận dữ, chống đối. Ông xác nhận đó là năm điều mình nhớ từ lời Phật dạy."
+          ],
+          "meaningUnits": [
+            "five"
+          ]
+        },
+        {
+          "id": "baby",
+          "kind": "teaching",
+          "heading": "Điều chưa khởi lên vẫn có thể còn tiềm ẩn",
+          "paragraphs": [
+            "Phật hỏi ông nhớ những điều ấy được dạy như vậy cho ai. Ngài nêu một lời phản bác mà du sĩ đạo khác có thể dùng: một đứa trẻ còn nhỏ, ngây ngô, nằm ngửa thì sao?",
+            "Trẻ chưa có ý niệm hữu thân, sự hiện hữu gắn với thân tâm, huống chi thân kiến sinh khởi. Chưa có ý niệm về các lời dạy, huống chi nghi về lời dạy. Chưa có ý niệm về giới, huống chi giới cấm thủ. Chưa có ý niệm về các dục, huống chi dục tham. Chưa có ý niệm về chúng sinh, huống chi sân hận đối với chúng sinh.",
+            "Tuy nhiên, trong từng trường hợp, tùy miên vẫn nằm nơi trẻ. Đó là khuynh hướng tiềm ẩn tương ứng với mỗi điều, chưa phải một ý nghĩ đang biểu lộ. Phật nhắc lại rằng người khác có thể dùng ví dụ ấy để trách cách hiểu còn thiếu. Muốn hiểu sự ràng buộc phải xét cả phần còn tiềm ẩn."
+          ],
+          "meaningUnits": [
+            "challenge",
+            "baby-body",
+            "baby-doubt",
+            "baby-rules",
+            "baby-desire",
+            "baby-anger"
+          ]
+        },
+        {
+          "id": "request",
+          "kind": "teaching",
+          "heading": "Lời thỉnh của Ānanda",
+          "paragraphs": [
+            "Ānanda thưa hai lần rằng bây giờ là lúc Phật giảng năm hạ phần kiết sử, để các tỳ-kheo nghe và ghi nhớ. Ông tôn xưng Ngài là Thế Tôn và Thiện Thệ. Phật bảo Ānanda lắng nghe, chú tâm kỹ; ông đáp vâng."
+          ],
+          "meaningUnits": [
+            "ananda"
+          ]
+        },
+        {
+          "id": "unlearned",
+          "kind": "teaching",
+          "heading": "Khi chưa biết lối thoát",
+          "paragraphs": [
+            "Người chưa học chưa thấy các bậc Thánh, chưa thông thạo và chưa được rèn luyện trong Pháp của các vị. Đối với các bậc chân nhân, những người chân chính, cũng chưa thấy, chưa hiểu và chưa được rèn luyện như vậy.",
+            "Với thân kiến, nghi hoặc, giới cấm thủ, dục tham và sân hận, mỗi điều đều diễn ra theo cùng một cách: tâm bị chi phối và chìm đắm; không biết đúng như thật lối thoát khi điều ấy đã sinh khởi; nó ngấm sâu, chưa được trừ bỏ. Đó là sự ràng buộc đang còn nơi người ấy."
+          ],
+          "meaningUnits": [
+            "unlearned",
+            "bound-body",
+            "bound-doubt",
+            "bound-rules",
+            "bound-desire",
+            "bound-anger"
+          ]
+        },
+        {
+          "id": "learned",
+          "kind": "teaching",
+          "heading": "Khi cả điều ấy và tùy miên được đoạn",
+          "paragraphs": [
+            "Người đệ tử Thánh có học đã thấy, thông thạo và được tu tập trong Pháp của các bậc Thánh. Với các bậc chân nhân, vị ấy cũng đã thấy, thông thạo và được tu tập.",
+            "Đối với từng điều trong đủ năm kiết sử, tâm vị ấy không bị chi phối, không chìm đắm. Vị ấy biết đúng như thật lối thoát khi điều ấy khởi lên. Thân kiến, nghi hoặc, giới cấm thủ, dục tham, sân hận đều được đoạn cùng với tùy miên tương ứng."
+          ],
+          "meaningUnits": [
+            "free-body",
+            "free-doubt",
+            "free-rules",
+            "free-desire",
+            "free-anger"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ ngày nay: một chuyện cũ được nhắc lại",
+          "paragraphs": [
+            "Người biên soạn xin thêm một ví dụ: ta tưởng đã nguôi một chuyện bất hòa từ lâu. Khi có người nhắc lại, lời trách móc vẫn muốn bật ra. Sự nhận ra ấy có thể giúp ta nhìn kỹ điều còn giữ trong lòng. Một thời gian không nhớ đến chuyện cũ chưa đủ để nói gốc sân đã được đoạn."
+          ],
+          "meaningUnits": [
+            "bound-anger",
+            "free-anger"
+          ]
+        },
+        {
+          "id": "tree",
+          "kind": "teaching",
+          "heading": "Đi qua vỏ và giác mới tới lõi",
+          "paragraphs": [
+            "Phật dạy rằng có con đường và đạo trình, tức cách thực hành, để đoạn năm hạ phần kiết sử. Không nương theo thì không thể biết, thấy hoặc đoạn tận chúng.",
+            "Ví như cây lớn có lõi đang đứng, không thể chặt lõi mà chưa chặt qua vỏ và giác, phần gỗ ngoài lõi. Sau khi chặt qua hai lớp ấy thì có thể chặt lõi. Cũng vậy, nương con đường và đạo trình thì có thể biết, thấy và đoạn tận năm điều ràng buộc."
+          ],
+          "meaningUnits": [
+            "path-necessary",
+            "tree-impossible",
+            "path-possible",
+            "tree-possible"
+          ]
+        },
+        {
+          "id": "weak",
+          "kind": "teaching",
+          "heading": "Người yếu trước dòng nước đầy",
+          "paragraphs": [
+            "Sông Hằng đầy nước ngang bờ, đến mức quạ có thể uống. Một người yếu đến, muốn dùng hai cánh tay bơi ngang dòng sang bờ kia an toàn, nhưng không thể.",
+            "Khi nghe Pháp nhằm chấm dứt hữu thân, tâm không hướng đến, không tin phục, không an trú và không giải thoát thì được ví với người ấy. Hữu thân nói về sự hiện hữu gắn với thân tâm; ý nghĩa rộng hơn riêng thân kiến, quan niệm chấp một cái “tôi”."
+          ],
+          "meaningUnits": [
+            "river-weak",
+            "response-weak"
+          ]
+        },
+        {
+          "id": "strong",
+          "kind": "teaching",
+          "heading": "Tâm có sức hướng đến đường tu",
+          "paragraphs": [
+            "Cũng dòng sông Hằng đầy tới bờ, quạ uống được ấy, một người khỏe đến, muốn dùng hai cánh tay bơi ngang dòng sang bờ kia an toàn. Người ấy có thể làm được.",
+            "Người nghe Pháp chấm dứt hữu thân mà tâm hướng đến, tin phục, an trú và giải thoát được ví với người khỏe. Hình ảnh người qua sông làm rõ khả năng của tâm đón nhận lời dạy."
+          ],
+          "meaningUnits": [
+            "river-strong",
+            "response-strong"
+          ]
+        },
+        {
+          "id": "first",
+          "kind": "teaching",
+          "heading": "Nền tảng sơ thiền",
+          "paragraphs": [
+            "Phật trình bày con đường và đạo trình ấy. Vị tỳ-kheo xa lìa sanh y, những nền tảng nuôi sự sinh tồn tiếp diễn; từ bỏ các pháp bất thiện (không lành); làm lắng hoàn toàn các trạng thái thô nặng nơi thân. Hoàn toàn ly dục, ly bất thiện, vị ấy chứng và an trú sơ thiền.",
+            "Sơ thiền còn tầm, sự hướng tâm đến đối tượng, và tứ, sự duy trì tâm ở đó. Có hỷ, niềm hân hoan, và lạc, sự dễ chịu, sinh ra do viễn ly, tức sự xa lìa."
+          ],
+          "meaningUnits": [
+            "path-question",
+            "first-jhana"
+          ]
+        },
+        {
+          "id": "contemplation",
+          "kind": "teaching",
+          "heading": "Nhìn rõ điều đang hiện hữu",
+          "paragraphs": [
+            "Vị ấy quán các pháp đang có thuộc năm nhóm: sắc là phần vật chất; thọ là cảm giác; tưởng là sự nhận ra; hành là những hoạt động tạo tác của tâm; thức là sự nhận biết.",
+            "Những điều ấy được quán là vô thường, khổ, bệnh, ung nhọt, mũi nhọn, phiền não, tai họa, xa lạ, hoại đổ, trống rỗng và vô ngã. Cả mười một phương diện giúp thấy rõ sự đổi thay, bất toại nguyện và không phải một cái “tôi” để nắm giữ, ngay khi tâm đang yên."
+          ],
+          "meaningUnits": [
+            "eleven"
+          ]
+        },
+        {
+          "id": "deathless",
+          "kind": "teaching",
+          "heading": "Xoay tâm hướng Niết-bàn",
+          "paragraphs": [
+            "Vị ấy xoay tâm khỏi các pháp vừa quán, rồi hướng đến giới vô tử, tên gọi ở đây của Niết-bàn, sự chấm dứt khát ái và khổ.",
+            "Vị ấy nhận rõ: đây là an tịnh, đây là vi diệu — lắng dịu mọi hành, từ bỏ mọi sanh y, đoạn tận khát ái, ly tham tức ham muốn phai hết, chấm dứt, Niết-bàn. Mọi hành là mọi hoạt động tạo tác; mọi sanh y là mọi nền tảng nuôi sự sinh tồn tiếp diễn."
+          ],
+          "meaningUnits": [
+            "deathless"
+          ]
+        },
+        {
+          "id": "fruits",
+          "kind": "teaching",
+          "heading": "Hai kết quả được nói rõ",
+          "paragraphs": [
+            "An trú như vậy, vị ấy chứng đoạn tận lậu hoặc, những ô nhiễm sâu làm khổ và sự sinh trở lại tiếp tục.",
+            "Nếu chưa chứng đoạn tận lậu hoặc, do còn tham mộ và hoan hỷ Pháp ấy, với điều kiện năm hạ phần kiết sử đã được đoạn, vị ấy hóa sinh, tự hiện ra trong đời sống mới. Vị ấy sẽ tịch diệt, đạt sự chấm dứt hoàn toàn, tại đó, không trở lại từ thế giới ấy. Phật gọi đây cũng là con đường và đạo trình đoạn năm kiết sử."
+          ],
+          "meaningUnits": [
+            "two-outcomes"
+          ]
+        },
+        {
+          "id": "jhanas",
+          "kind": "teaching",
+          "heading": "Ba tầng thiền tiếp theo cũng làm nền cho tuệ",
+          "paragraphs": [
+            "Vị ấy chứng và an trú nhị thiền: tầm và tứ lắng, không còn tầm tứ; nội tĩnh, tâm thống nhất; hỷ lạc do định, sự tập trung yên vững, sinh ra. Vị ấy chứng và an trú tam thiền: hỷ phai, an trú xả, chánh niệm tỉnh giác, thân cảm lạc. Các bậc Thánh gọi đó là xả niệm lạc trú, an lạc cùng quân bình và tỉnh nhớ.",
+            "Vị ấy chứng và an trú tứ thiền: lạc và khổ được bỏ, hỷ và ưu (buồn rầu) trước đó đã lắng; không khổ không lạc, niệm thanh tịnh nhờ xả. Ở mỗi tầng nhị, tam và tứ thiền, vị ấy đều quán năm nhóm bằng đủ mười một phương diện, xoay tâm hướng giới vô tử với lời quán an tịnh đầy đủ như trước.",
+            "Hai kết quả cũng áp dụng ở từng tầng: đoạn tận lậu hoặc; hoặc, nếu chưa đoạn lậu hoặc, do còn tham mộ và hoan hỷ Pháp ấy nhưng đã đoạn năm kiết sử, hóa sinh, tịch diệt tại đó và không trở lại. Mỗi tầng được xác nhận là con đường và đạo trình đoạn năm hạ phần kiết sử."
+          ],
+          "meaningUnits": [
+            "second-jhana",
+            "third-jhana",
+            "fourth-jhana",
+            "jhana-practice"
+          ]
+        },
+        {
+          "id": "space",
+          "kind": "teaching",
+          "heading": "Không vô biên xứ",
+          "paragraphs": [
+            "Vị ấy vượt hoàn toàn các tưởng về sắc, chấm dứt tưởng do va chạm, không chú ý các tưởng sai biệt; biết “không gian là vô biên”, chứng và an trú Không vô biên xứ.",
+            "Ở đây, việc quán gồm bốn nhóm thọ, tưởng, hành, thức, theo đủ mười một phương diện đã nói. Vị ấy xoay tâm hướng giới vô tử với đầy đủ lời quán; hai kết quả cùng điều kiện cũng như trước. Phật xác nhận đây cũng là con đường và đạo trình đoạn năm kiết sử."
+          ],
+          "meaningUnits": [
+            "space",
+            "space-practice"
+          ]
+        },
+        {
+          "id": "consciousness",
+          "kind": "teaching",
+          "heading": "Thức vô biên xứ",
+          "paragraphs": [
+            "Vượt hoàn toàn Không vô biên xứ, biết “thức là vô biên”, vị ấy chứng và an trú Thức vô biên xứ.",
+            "Từ nền tảng này, thọ, tưởng, hành, thức lại được quán bằng đủ mười một phương diện. Việc xoay tâm, hướng giới vô tử và hai nhánh kết quả có điều kiện đều như trước. Đây cũng là con đường và đạo trình đoạn năm kiết sử."
+          ],
+          "meaningUnits": [
+            "consciousness",
+            "consciousness-practice"
+          ]
+        },
+        {
+          "id": "nothingness",
+          "kind": "teaching",
+          "heading": "Vô sở hữu xứ",
+          "paragraphs": [
+            "Vượt hoàn toàn Thức vô biên xứ, biết “không có gì cả”, vị ấy chứng và an trú Vô sở hữu xứ.",
+            "Tại đây cũng quán bốn nhóm thọ, tưởng, hành, thức bằng đủ mười một phương diện rồi xoay tâm khỏi các pháp ấy và hướng đến giới vô tử với lời quán an tịnh. Hai kết quả vẫn giữ trọn các điều kiện, gồm việc đã đoạn năm kiết sử ở nhánh hóa sinh, tịch diệt tại đó, không trở lại. Đây cũng là con đường và đạo trình ấy."
+          ],
+          "meaningUnits": [
+            "nothingness",
+            "nothingness-practice"
+          ]
+        },
+        {
+          "id": "closing",
+          "kind": "teaching",
+          "heading": "Lời hỏi cuối của Ānanda",
+          "paragraphs": [
+            "Ānanda hỏi: nếu cùng con đường và đạo trình để đoạn năm hạ phần kiết sử, vì sao có những tỳ-kheo tâm giải thoát, có những vị huệ giải thoát, giải thoát được nói về phía tâm hay phía trí tuệ?",
+            "Phật đáp rằng đó là do sự khác nhau của các căn, các năng lực tu tập. Ānanda hoan hỷ và tán đồng lời Ngài. Đại Kinh Māluṅkya kết thúc, bài thứ tư trong nhóm kinh này."
+          ],
+          "meaningUnits": [
+            "faculties",
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một cách tự nhìn lại trong ngày",
+          "paragraphs": [
+            "Gợi ý của người biên soạn: cuối ngày, có thể nhớ một việc vừa làm lòng mình xao động. Ta đã bị cuốn đi ra sao, đã thấy lối thoát nào, và điều gì còn dễ khởi lại? Ghi nhận nhẹ nhàng rồi chọn một cách nói hay hành động bớt nuôi bực tức trong lần tới. Sự quan sát ấy là bước học nhỏ, còn bài kinh hướng đến việc đoạn trừ tận gốc sự ràng buộc."
+          ],
+          "meaningUnits": [
+            "bound-anger",
+            "free-anger"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn124",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "26cc0dd7-9d19-413d-b990-104b311e012c"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "6a5c9b3c-5d77-4f4a-a23d-3f60697655fe"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "d9d0d237-3a62-412e-9717-acf278a56334"
+    }
+  },
+  "reviews": [
+    {
+      "id": "26cc0dd7-9d19-413d-b990-104b311e012c",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.4,
+        "clarity": 9.6,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Đã đối chiếu 71 khóa, tám chú thích và toàn HTML; bản trẻ giữ dọn giường, trú xứ gần làng, đúng bảy ngày và ngày thứ tám theo lựa chọn nguồn đã ghi.",
+        "semantic_fidelity": "Giữ tám mươi năm từ xuất gia và không nhớ đã từng; đổi câu hỏi về hành vi sang dục tưởng, đồng thời tách đủ ba tưởng với ba tầm.",
+        "core_coverage": "Đủ sáu việc y, sáu việc liên hệ nữ giới, bốn việc hướng dẫn và bảy việc thân; lời ghi nhận đi cùng từng điều, kết Kassapa chứng quả và Bakkula ngồi nhập diệt đều có.",
+        "logic_context": "Không gán Phật vào cuộc thăm, không gán Bakkula truyền giới cho Kassapa hoặc lấy tám ngày của Bakkula làm thời hạn cho bạn mình; hai tiếng gọi cuối và báo hôm nay đúng.",
+        "terminology": "Tưởng, tầm, y, các mức nữ tu, đại giới, an cư và A-la-hán đều có lời giải ngắn; hình ảnh mang nợ và tên kathina vẫn là những chỗ cần đọc chậm.",
+        "audience_fit": "Ví chiếc bánh nối cách nhìn ham muốn với ý nghĩ giành phần, giúp trẻ tiếp cận hai thuật ngữ; các danh sách dài và bối cảnh đời tu vẫn hợp đọc cùng người lớn hơn là tự đọc nhanh.",
+        "clarity": "Mười bảy mục ngắn đưa câu chuyện từ bạn cũ tới quan sát tâm rồi kết quả tu; các việc y và nữ tu còn dày nhưng không lẫn các phủ định.",
+        "editorial_separation": "Ví dụ bánh và gợi ý quan sát được đánh dấu riêng; lời chúng tôi được để ở ngôi tập thể, các chi tiết nữ giới và sức khỏe được đặt trong tự thuật Bakkula.",
+        "practical_integrity": "Gợi ý dừng trước khi nói hay làm để chọn điều không hại bám ba hướng tâm; không biến việc Bakkula không nhận thuốc thành chỉ dẫn bỏ chăm sóc sức khỏe.",
+        "technical_integrity": "Audit prepared sạch; 38 đơn vị phủ đúng 71 khóa, ba bản có tham chiếu đủ, năm SHA và hai nguồn dự án tại pin706 khớp byte thực đọc."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc độc lập đủ năm nguồn, toàn 38 đơn vị ý và cả ba bản prepared. Không có phát hiện cần tác giả sửa; đây là chấm của tác nhân AI khác, chưa thử với người đọc thật. Nội dung vẫn ngoài canonical, cần nối lại hash sau GO và kiểm pin trước công bố.",
+      "contentHash": "68e3ba0188cbf9180bdb8fdfb851fd42c3799062b788a76b286fd6e4bd3a36c1",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn124.html",
+          "sha256": "261fe900e52ae401155a6fcc1971d2698cb00e92fb42a94ccbbd41e54393fe05"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn124_root-pli-ms.json",
+          "sha256": "47b2653fb1e513c417cac8ab860a0cad95bcf61060ed1f1127104ce4e34327c3"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn124_translation-en-sujato.json",
+          "sha256": "2da5de8822838718e2c3637141e2c5296224e37d3da8ce7c544cbe296515d532"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn124_comment-vi-project.json",
+          "sha256": "79179675e57087e40cd81ed735e107313b8b9516f262e11928df3bc61a0c1dc1"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn124_translation-vi-project.json",
+          "sha256": "159fb69d0e9ebcb4bb3dffeb517ab0b9bba591502a4e92822dfdd6d1ea3cd316"
+        }
+      ]
+    },
+    {
+      "id": "6a5c9b3c-5d77-4f4a-a23d-3f60697655fe",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.6,
+        "audience_fit": 9.7,
+        "clarity": 9.7,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Bản trưởng thành giữ các cách đọc đã đối chiếu của kathina, việc y, dọn giường và saraṇa mà không thêm màu y, nghề tìm vải hoặc chuyện không ngủ từ ngoài phạm vi đã chọn.",
+        "semantic_fidelity": "Cụm không nhớ đã từng bao trùm đủ tám mươi năm; dục/sân/hại ở cả tưởng và tầm, hành động nhận mời cùng ý mong được mời đều được tách rõ.",
+        "core_coverage": "Các nhóm y, ăn/nhà, nữ giới, hướng dẫn và thân đầy đủ; giữ cả hai mốc trước chánh trí, năm nét tu Kassapa, bốn vế tri kiến giải thoát và hai sự kiện cuối của Bakkula.",
+        "logic_context": "Lời tự thuật của Bakkula, hành trình Kassapa và lời ghi nhận tập thể không lẫn chủ thể; đạt mục tiêu do độc cư và tinh cần, không biến nghe chuyện thành tự động chứng quả.",
+        "terminology": "Dục tưởng/dục tầm, đồng phạm hạnh, nương tựa, Pháp/Luật và cứu cánh đều được mở nghĩa tại chỗ; kathina và hình ảnh mang nợ vẫn giữ giới hạn diễn giải từ năm nguồn.",
+        "audience_fit": "Ví gán nhãn đồng nghiệp rồi chuẩn bị lời làm tổn thương phù hợp xung đột đời thường; cách nhìn lại phản ứng nối tốt với trọng tâm tâm ý và đời tu có trách nhiệm.",
+        "clarity": "Mười bốn mục gom các danh sách theo công việc, giữ nhịp kể gọn; đoạn chánh trí giải hình ảnh mang nợ mà không kéo sang vấn đề tiền bạc.",
+        "editorial_separation": "Phần ví dụ hiện đại và thực tập có nhãn riêng, các lời phủ định không thành quy tắc bắt buộc cho mọi người, lời ghi nhận chúng tôi không được gán người nói mới.",
+        "practical_integrity": "Ứng dụng chỉ gợi xem lại cách nhận biết và ý nghĩ trước phản ứng; không hứa tám ngày thành tựu, không suy nếp Bakkula thành chuẩn bỏ thuốc hay tránh mọi phụ nữ.",
+        "technical_integrity": "Prepared audit độc lập xác nhận fingerprint trưởng thành, đủ map và nguồn; hai git show cùng hai blob manifest nối đúng dữ liệu đã đọc, không ghi metadata chính thức."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc độc lập đủ năm nguồn, toàn 38 đơn vị ý và cả ba bản prepared. Không có phát hiện cần tác giả sửa; đây là chấm của tác nhân AI khác, chưa thử với người đọc thật. Nội dung vẫn ngoài canonical, cần nối lại hash sau GO và kiểm pin trước công bố.",
+      "contentHash": "797238de240e14ce547ce6e0eb7f3655e432ca73dcfee300e95a32cd4d10ed89",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn124.html",
+          "sha256": "261fe900e52ae401155a6fcc1971d2698cb00e92fb42a94ccbbd41e54393fe05"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn124_root-pli-ms.json",
+          "sha256": "47b2653fb1e513c417cac8ab860a0cad95bcf61060ed1f1127104ce4e34327c3"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn124_translation-en-sujato.json",
+          "sha256": "2da5de8822838718e2c3637141e2c5296224e37d3da8ce7c544cbe296515d532"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn124_comment-vi-project.json",
+          "sha256": "79179675e57087e40cd81ed735e107313b8b9516f262e11928df3bc61a0c1dc1"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn124_translation-vi-project.json",
+          "sha256": "159fb69d0e9ebcb4bb3dffeb517ab0b9bba591502a4e92822dfdd6d1ea3cd316"
+        }
+      ]
+    },
+    {
+      "id": "d9d0d237-3a62-412e-9717-acf278a56334",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.6,
+        "audience_fit": 9.7,
+        "clarity": 9.8,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.9,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Bản lớn tuổi giữ lời kể ở Trúc Lâm, sáu việc y và các chi tiết nhỏ về vắt sữa/harītakī/tấm tựa; không nhập các biến thể nằm ngủ hoặc uế nhiễm của HTML.",
+        "semantic_fidelity": "Tám mươi năm vẫn là thời gian xuất gia; mọi việc dưới không nhớ đã từng, hai nhóm tưởng/tầm không nhập làm một, chánh trí ngày thứ tám không bị chuyển sang Kassapa.",
+        "core_coverage": "Mười tám mục có đủ các nhóm sinh hoạt, sáu việc liên hệ nữ giới, bốn việc hướng dẫn, bảy việc thân; kết quả A-la-hán và tư thế ngồi giữa Tăng khi nhập diệt không thiếu.",
+        "logic_context": "Trình tự bạn cũ hỏi, Bakkula sửa câu hỏi, tự thuật, Kassapa xin/tu/chứng và ngày cuối được giữ; hai lời mời ra cùng lời báo hôm nay là một sự kiện riêng trước nhập diệt.",
+        "terminology": "Các chữ tưởng, tầm, y, đại giới, an cư, viễn ly, phạm hạnh và Niết-bàn đều được mở nghĩa nhẹ; tên kathina và saraṇa vẫn cần theo ngữ cảnh đã nêu trong ghi chú nguồn.",
+        "audience_fit": "Ví sau một câu không vừa ý và gợi ý nhìn lại tình huống vừa qua gần nhịp sinh hoạt thường ngày; giọng kể tôn trọng, không giả định mọi người lớn tuổi yếu bệnh.",
+        "clarity": "Tách bệnh/thuốc, chỗ nghỉ/an cư, Kassapa tu và thành tựu thành các mục ngắn giúp theo dõi; từng phủ định có chủ thể rõ và lời ghi nhận được nối mạch.",
+        "editorial_separation": "Các ví dụ quan hệ hôm nay nằm riêng; chuyện không bệnh, không nhận thuốc và các tiếp xúc nữ giới được giữ là đời riêng của Bakkula, không thành lời khuyên trực tiếp.",
+        "practical_integrity": "Gợi ý nhận ra ham muốn, chống ghét và ý làm hại rồi chọn việc lành phù hợp mạch ba tưởng/ba tầm; không khuyên cố bỏ nương tựa, thuốc hoặc nghỉ ngơi để bắt chước.",
+        "technical_integrity": "Bản lớn tuổi khớp hash prepared tác giả giao; audit không lỗi nội dung/nguồn, map phủ thứ tự toàn 71 khóa và năm nguồn đều được nối bằng SHA cùng chứng cứ pin."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc độc lập đủ năm nguồn, toàn 38 đơn vị ý và cả ba bản prepared. Không có phát hiện cần tác giả sửa; đây là chấm của tác nhân AI khác, chưa thử với người đọc thật. Nội dung vẫn ngoài canonical, cần nối lại hash sau GO và kiểm pin trước công bố.",
+      "contentHash": "b3d6daa8b84261583d11121163f9e05396e9af4ff29ba9a682cb1691503e06f4",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn124.html",
+          "sha256": "261fe900e52ae401155a6fcc1971d2698cb00e92fb42a94ccbbd41e54393fe05"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn124_root-pli-ms.json",
+          "sha256": "47b2653fb1e513c417cac8ab860a0cad95bcf61060ed1f1127104ce4e34327c3"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn124_translation-en-sujato.json",
+          "sha256": "2da5de8822838718e2c3637141e2c5296224e37d3da8ce7c544cbe296515d532"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn124_comment-vi-project.json",
+          "sha256": "79179675e57087e40cd81ed735e107313b8b9516f262e11928df3bc61a0c1dc1"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn124_translation-vi-project.json",
+          "sha256": "159fb69d0e9ebcb4bb3dffeb517ab0b9bba591502a4e92822dfdd6d1ea3cd316"
+        }
+      ]
+    }
+  ]
+}

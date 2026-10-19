@@ -1,0 +1,1672 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn10",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "4319e49abfb0f6a303f1a46a078e56f8f6c3c2cd5f8285acb161339339ffb69e"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "98f93d3415f4f575d6773e2ed2f032508ff84ca5d75b4bde1213bffe6ec05e51"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/dn/dn10_translation-vi-project.json",
+      "commit": "640b1410c7b2b50ee81d417886b75605189ea0a2",
+      "sha256": "6e992a567aa1fee5e9289b195e51e29345a208d5bbef538691dea1015c1cdde0"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn10.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "1cc193b2301f75d5285130ae5a2f6076537d5320fe34f7f156b7abd13e4426f0"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/dn/dn10_comment-vi-project.json",
+      "commit": "640b1410c7b2b50ee81d417886b75605189ea0a2",
+      "sha256": "f31d4b1eed745e29e43f3393be972d0e3fbabbfc529cf8c658da36100ef7f313"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Nhan đề",
+      "segments": [
+        "dn10:0.1",
+        "dn10:0.2"
+      ],
+      "summary": "Trường Bộ 10, Subhasutta; nhan đề của ấn bản, không phải lời thoại."
+    },
+    {
+      "id": "setting",
+      "title": "Sau Phật nhập Niết-bàn",
+      "segments": [
+        "dn10:1.1.1",
+        "dn10:1.1.2",
+        "dn10:1.1.3"
+      ],
+      "summary": "Người truyền kinh: không lâu sau Phật nhập Niết-bàn, Ānanda ở Jetavana, tu viện Anāthapiṇḍika tại Sāvatthī. Subha con Todeyya đang ở thành vì công việc."
+    },
+    {
+      "id": "request",
+      "title": "Lời nhờ hỏi thăm và thỉnh đến",
+      "segments": [
+        "dn10:1.2.1",
+        "dn10:1.2.2",
+        "dn10:1.2.3",
+        "dn10:1.2.4",
+        "dn10:1.3.1"
+      ],
+      "summary": "Subha sai một thanh niên đến nhân danh mình hỏi Ānanda ít bệnh/ít não/thân nhẹ/khỏe/an ổn và vì thương tưởng đến nhà. Pāli không có lễ đầu chạm chân mà EN thêm ở 1.2.2."
+    },
+    {
+      "id": "messenger",
+      "title": "Người đưa tin trình lời",
+      "segments": [
+        "dn10:1.3.2",
+        "dn10:1.3.3",
+        "dn10:1.3.4",
+        "dn10:1.3.5",
+        "dn10:1.3.6"
+      ],
+      "summary": "Người thanh niên vâng, đến chào thân thiện, ngồi bên, trình đủ lời hỏi sức khỏe và lời thỉnh vì thương tưởng; nhiều khóa Sujato trống."
+    },
+    {
+      "id": "response",
+      "title": "Chưa đúng lúc",
+      "segments": [
+        "dn10:1.4.1",
+        "dn10:1.4.2",
+        "dn10:1.4.3",
+        "dn10:1.4.4"
+      ],
+      "summary": "Ānanda nói hôm nay chưa đúng lúc, đã uống một liều thuốc; có lẽ mai đến nếu thời gian/hoàn cảnh thuận. Giữ tính dè dặt, không đổi thành lời hứa vô điều kiện."
+    },
+    {
+      "id": "report",
+      "title": "Trở về thuật lại",
+      "segments": [
+        "dn10:1.4.5",
+        "dn10:1.4.6",
+        "dn10:1.4.7",
+        "dn10:1.4.8",
+        "dn10:1.4.9",
+        "dn10:1.4.10",
+        "dn10:1.4.11",
+        "dn10:1.4.12",
+        "dn10:1.4.13"
+      ],
+      "summary": "Người đưa tin vâng, đứng dậy về kể đủ lời hỏi sức khỏe, thỉnh và lời đáp thuốc/hẹn có điều kiện. Anh đánh giá chừng ấy đã được việc vì Ānanda dành khả năng đến mai."
+    },
+    {
+      "id": "meeting",
+      "title": "Đến nhà sáng hôm sau",
+      "segments": [
+        "dn10:1.5.1",
+        "dn10:1.5.2",
+        "dn10:1.5.3",
+        "dn10:1.5.4",
+        "dn10:1.5.5"
+      ],
+      "summary": "Sáng hôm sau Ānanda mặc y, mang y bát, cùng tỳ-kheo Cetaka đi sau đến nhà, ngồi chỗ sẵn. Subha chào/ngồi, nhận Ānanda lâu gần hầu Phật nên hẳn biết Phật tán thán và khích lệ/an lập mọi người vào pháp nào; hỏi điều ấy."
+    },
+    {
+      "id": "three",
+      "title": "Ba nhóm tu học",
+      "segments": [
+        "dn10:1.6.1",
+        "dn10:1.6.2",
+        "dn10:1.6.3",
+        "dn10:1.6.4",
+        "dn10:1.6.5.0",
+        "dn10:1.6.6"
+      ],
+      "summary": "Ānanda nêu Thánh giới uẩn, Thánh định uẩn, Thánh tuệ uẩn là ba nhóm Phật khen và đưa mọi người vào. Nhãn Giới; Subha hỏi nhóm giới là gì."
+    },
+    {
+      "id": "teacher",
+      "title": "Như Lai xuất hiện và dạy",
+      "segments": [
+        "dn10:1.7.1",
+        "dn10:1.7.2",
+        "dn10:1.7.3"
+      ],
+      "summary": "Như Lai với đủ danh hiệu A-la-hán/Chánh Đẳng Giác/minh-hạnh/Thiện Thệ/biết thế giới/tối thượng điều ngự/thầy trời người/Phật/Thế Tôn; tự chứng thế giới có thiên/Māra/Phạm thiên/sa-môn/bà-la-môn/trời-người rồi giảng. Pháp tốt đầu/giữa/cuối, đủ nghĩa/lời, phạm hạnh trọn vẹn thanh tịnh."
+    },
+    {
+      "id": "ordination",
+      "title": "Nghe, tin và xuất gia",
+      "segments": [
+        "dn10:1.8.1",
+        "dn10:1.8.2",
+        "dn10:1.8.3",
+        "dn10:1.8.4",
+        "dn10:1.8.5",
+        "dn10:1.8.6",
+        "dn10:1.9.1",
+        "dn10:1.10.1"
+      ],
+      "summary": "Gia chủ/con/người gia đình khác nghe, tin, thấy tại gia chật bụi, xuất gia rộng; khó phạm hạnh trọn sạch như vỏ ốc ở nhà. Sau đó bỏ tài sản và thân thuộc ít/nhiều, cạo tóc râu/mặc cà-sa/xuất gia. Giữ giới bổn, oai nghi/hành xứ, thận lỗi nhỏ, học giới, thân-khẩu thiện, sinh kế sạch, giới/căn/niệm-tỉnh giác/tri túc."
+    },
+    {
+      "id": "ethics",
+      "title": "Không sát sinh và phần lược",
+      "segments": [
+        "dn10:1.11.1",
+        "dn10:1.11.2",
+        "dn10:1.11.3",
+        "dn10:1.12.1-1.27"
+      ],
+      "summary": "Hỏi thành tựu giới; bỏ sát sinh, gậy/gươm, biết hổ thẹn, có lòng thương mọi sinh linh. Công thức yampi xác nhận thuộc giới. Khóa gộp 1.12.1-1.27 chỉ có câu thuộc giới, không tự mở mọi điều giới từ DN2."
+    },
+    {
+      "id": "livelihood",
+      "title": "Các cách nuôi mạng được tránh",
+      "segments": [
+        "dn10:1.28.1",
+        "dn10:1.28.2",
+        "dn10:1.28.3",
+        "dn10:1.28.4",
+        "dn10:1.28.5",
+        "dn10:1.28.6",
+        "dn10:1.28.7"
+      ],
+      "summary": "So với sa-môn/bà-la-môn ăn đồ tín thí mà nuôi mạng bằng 26 việc: santi/paṇidhi/bhūta/bhūri/vassa/vossa/vatthu/vatthuparikamma/ācamana/nhāpana/juhana; vamana/virecana/uddha/adho/sīsa-virecana; kaṇṇatela/nettatappana/natthukamma/añjana/paccañjana/sālākiya/sallakattiya/dārakatikicchā/mūlabhesajja/osadhipaṭimokkha. Vị tu tránh tà mạng ấy; lặp lược rồi xác nhận thuộc giới. Vassa/vossa đọc theo EN cầu mưa/thu xếp tài sản, ghi VI khác; không suy thành cấm mọi chăm sóc bệnh."
+    },
+    {
+      "id": "blameless",
+      "title": "An lạc không lỗi",
+      "segments": [
+        "dn10:1.29.1",
+        "dn10:1.29.2",
+        "dn10:1.29.3",
+        "dn10:1.29.4",
+        "dn10:1.29.5"
+      ],
+      "summary": "Đủ giới thì không sợ từ đâu xét riêng sự thu thúc giới; ví vua Sát-đế-lợi đã quán đảnh hạ kẻ địch không sợ từ địch. Nội tâm hưởng an lạc không lỗi; không biến thành miễn mọi hiểm nguy."
+    },
+    {
+      "id": "ethics-more",
+      "title": "Giới trọn nhưng còn việc cao hơn",
+      "segments": [
+        "dn10:1.30.1",
+        "dn10:1.30.2",
+        "dn10:1.30.3",
+        "dn10:1.30.4",
+        "dn10:1.30.5",
+        "dn10:1.30.6",
+        "dn10:1.30.7",
+        "dn10:1.30.8",
+        "dn10:1.30.9"
+      ],
+      "summary": "Ānanda xác nhận nhóm giới Phật khen nhưng còn việc cao hơn. Subha hai lần thán phục: trọn không thiếu, mình không thấy ở người tu khác; giả sử họ có hẳn mãn nguyện đủ/đã làm/đạt mục đích/không còn việc, còn Ānanda vẫn nói còn."
+    },
+    {
+      "id": "senses",
+      "title": "Phòng hộ sáu căn",
+      "segments": [
+        "dn10:2.1.0",
+        "dn10:2.1.1",
+        "dn10:2.2.1",
+        "dn10:2.2.2",
+        "dn10:2.2.3",
+        "dn10:2.2.4",
+        "dn10:2.2.5",
+        "dn10:2.2.6",
+        "dn10:2.2.7",
+        "dn10:2.2.8",
+        "dn10:2.2.9",
+        "dn10:2.2.10",
+        "dn10:2.2.11"
+      ],
+      "summary": "Nhãn Định và Subha hỏi. Mắt-sắc/tai-tiếng/mũi-mùi/lưỡi-vị/thân-xúc/ý-pháp không nắm tướng chung hay chi tiết. Vì nếu không giữ thì tham muốn/ưu não bất thiện tràn vào nên giữ; an lạc bên trong không vẩn đục."
+    },
+    {
+      "id": "mindfulness",
+      "title": "Niệm và biết rõ",
+      "segments": [
+        "dn10:2.3.1",
+        "dn10:2.3.2",
+        "dn10:2.3.3"
+      ],
+      "summary": "Biết rõ khi đi tới/lui, nhìn tới/quanh, co/duỗi, mang y ngoài/bát/y, ăn/uống/nhai/nếm, đại-tiểu tiện, đi/đứng/ngồi/ngủ/thức/nói/im; đây là niệm-tỉnh giác."
+    },
+    {
+      "id": "contentment",
+      "title": "Biết đủ như chim",
+      "segments": [
+        "dn10:2.4.1",
+        "dn10:2.4.2",
+        "dn10:2.4.3",
+        "dn10:2.4.4",
+        "dn10:2.4.5"
+      ],
+      "summary": "Đủ y chăm thân và đồ khất thực nuôi bụng; đi đâu mang chừng ấy. Ví chim bay chỉ mang đôi cánh, áp lại vào người tu; đây là tri túc."
+    },
+    {
+      "id": "seclusion",
+      "title": "Nền tảng và chỗ vắng",
+      "segments": [
+        "dn10:2.5.1",
+        "dn10:2.5.2",
+        "dn10:2.5.3"
+      ],
+      "summary": "Đủ bốn nhóm giới/phòng hộ/niệm-tỉnh giác/tri túc; đến rừng,gốc cây,núi,khe,hang,bãi tha ma,rừng sâu,ngoài trời,đống rơm. Khất thực ăn xong về, ngồi xếp chân/lưng thẳng/đặt niệm trước mặt."
+    },
+    {
+      "id": "hindrances",
+      "title": "Gột năm triền cái",
+      "segments": [
+        "dn10:2.6.1",
+        "dn10:2.6.2",
+        "dn10:2.6.3",
+        "dn10:2.6.4",
+        "dn10:2.6.5"
+      ],
+      "summary": "Bỏ tham đời; bỏ sân và thương mọi loài; bỏ hôn trầm-ngủ gật với tưởng sáng/niệm/tỉnh giác; bỏ trạo cử-hối hận với nội tâm lắng; vượt nghi không phân vân thiện pháp. Mỗi nhóm làm tâm sạch khỏi chính chướng ấy."
+    },
+    {
+      "id": "debt",
+      "title": "Ví hết nợ",
+      "segments": [
+        "dn10:2.7.1",
+        "dn10:2.7.2",
+        "dn10:2.7.3",
+        "dn10:2.7.4",
+        "dn10:2.7.5",
+        "dn10:2.7.6",
+        "dn10:2.7.7",
+        "dn10:2.7.8"
+      ],
+      "summary": "Người vay làm ăn thành, trả nợ cũ, còn dư nuôi vợ; nhớ trước/sau thì vui hân hoan. Không hứa tu làm giàu."
+    },
+    {
+      "id": "illness",
+      "title": "Ví khỏi bệnh",
+      "segments": [
+        "dn10:2.8.1",
+        "dn10:2.8.2",
+        "dn10:2.8.3",
+        "dn10:2.8.4",
+        "dn10:2.8.5",
+        "dn10:2.8.6"
+      ],
+      "summary": "Người bệnh nặng khổ, mất ngon/sức; về sau khỏi, ngon và khỏe lại; nghĩ trước/sau thì vui hân hoan. Đây là ví, không bảo đảm điều trị."
+    },
+    {
+      "id": "prison",
+      "title": "Ví ra tù",
+      "segments": [
+        "dn10:2.9.1",
+        "dn10:2.9.2",
+        "dn10:2.9.3",
+        "dn10:2.9.4",
+        "dn10:2.9.5",
+        "dn10:2.9.6"
+      ],
+      "summary": "Bị tù rồi được thả an toàn không sợ, tài sản không hao; nhìn lại thì vui hân hoan."
+    },
+    {
+      "id": "servitude",
+      "title": "Ví được tự do",
+      "segments": [
+        "dn10:2.10.1",
+        "dn10:2.10.2",
+        "dn10:2.10.3",
+        "dn10:2.10.4",
+        "dn10:2.10.5",
+        "dn10:2.10.6"
+      ],
+      "summary": "Nô lệ lệ thuộc không tự đi lại; rồi được tự chủ, không lệ thuộc, tự do đi; nhìn trước/sau vui hân hoan."
+    },
+    {
+      "id": "wilderness",
+      "title": "Ví qua đường nguy hiểm",
+      "segments": [
+        "dn10:2.11.1",
+        "dn10:2.11.2",
+        "dn10:2.11.3",
+        "dn10:2.11.4",
+        "dn10:2.11.5",
+        "dn10:2.11.6"
+      ],
+      "summary": "Người có tài sản đi đường hoang thiếu ăn/nguy hiểm, rồi đến làng an ổn không sợ; nhớ lại thì vui hân hoan."
+    },
+    {
+      "id": "joy-chain",
+      "title": "Bỏ chướng và định tâm",
+      "segments": [
+        "dn10:2.12.1",
+        "dn10:2.12.2",
+        "dn10:2.12.3",
+        "dn10:2.12.4"
+      ],
+      "summary": "Chưa bỏ năm chướng như nợ/bệnh/tù/nô lệ/đường hiểm; đã bỏ như hết nợ/khỏe/tự do/an toàn. Thấy đã bỏ→vui→hỷ→thân lắng→lạc→tâm định; không gán cứng mỗi ví cho một chướng khi bài không nói."
+    },
+    {
+      "id": "first-jhana",
+      "title": "Thiền thứ nhất và bột tắm",
+      "segments": [
+        "dn10:2.13.1",
+        "dn10:2.13.2",
+        "dn10:2.14.1",
+        "dn10:2.14.2",
+        "dn10:2.14.3",
+        "dn10:2.14.4",
+        "dn10:2.14.5"
+      ],
+      "summary": "Lìa dục/bất thiện, có tầm/tứ, hỷ lạc do ly, thấm khắp thân không phần thiếu. Thợ tắm/học trò nhào bột trong chậu đồng rưới nước chút, ẩm trong ngoài không rỉ. Áp ví/lặp yampi xác nhận thuộc định."
+    },
+    {
+      "id": "second-jhana",
+      "title": "Thiền thứ hai và hồ nguồn",
+      "segments": [
+        "dn10:2.15.1",
+        "dn10:2.15.2",
+        "dn10:2.16.1",
+        "dn10:2.16.2",
+        "dn10:2.16.3",
+        "dn10:2.16.4",
+        "dn10:2.16.5"
+      ],
+      "summary": "Lắng tầm/tứ, nội tâm trong/an định, nhất tâm, không tầm/tứ, hỷ lạc do định thấm toàn thân. Hồ sâu không nước ngoài bốn hướng/không được mưa từng lúc cấp nước nhưng nguồn trong dâng mát đầy khắp. Thuộc định."
+    },
+    {
+      "id": "third-jhana",
+      "title": "Thiền thứ ba và sen trong nước",
+      "segments": [
+        "dn10:2.17.1",
+        "dn10:2.17.2",
+        "dn10:2.17.3",
+        "dn10:2.17.4",
+        "dn10:2.17.5",
+        "dn10:2.17.6",
+        "dn10:2.17.7"
+      ],
+      "summary": "Ly hỷ, xả/niệm/tỉnh giác, thân cảm lạc, được Thánh gọi xả-niệm-lạc trú; lạc không hỷ thấm toàn thân. Sen xanh/hồng/trắng sinh lớn còn dưới nước, nước mát thấm ngọn-gốc. Thuộc định."
+    },
+    {
+      "id": "fourth-jhana",
+      "title": "Thiền thứ tư và vải trắng",
+      "segments": [
+        "dn10:2.18.1",
+        "dn10:2.18.2",
+        "dn10:2.18.3",
+        "dn10:2.18.4",
+        "dn10:2.18.5",
+        "dn10:2.18.6",
+        "dn10:2.18.7",
+        "dn10:2.18.8"
+      ],
+      "summary": "Bỏ lạc/khổ, hỷ-ưu trước đã diệt, không khổ/lạc, xả-niệm thanh tịnh. Tâm sạch sáng lan khắp thân như vải trắng phủ cả đầu/thân không chỗ hở. Lặp xác nhận thuộc định."
+    },
+    {
+      "id": "samadhi-more",
+      "title": "Định trọn nhưng còn việc cao hơn",
+      "segments": [
+        "dn10:2.19.1",
+        "dn10:2.19.2",
+        "dn10:2.19.3",
+        "dn10:2.19.4",
+        "dn10:2.19.5",
+        "dn10:2.19.6",
+        "dn10:2.19.7",
+        "dn10:2.19.8",
+        "dn10:2.19.9"
+      ],
+      "summary": "Ānanda xác nhận nhóm định Phật khen nhưng còn việc cao hơn. Subha hai lời thán phục; trọn không thiếu, không thấy nơi người tu khác; nếu họ có hẳn cho đủ/đạt mục tiêu/không còn việc, Ānanda vẫn nói còn."
+    },
+    {
+      "id": "knowledge",
+      "title": "Tri kiến thân-thức và ngọc",
+      "segments": [
+        "dn10:2.20.0",
+        "dn10:2.20.1",
+        "dn10:2.21.1",
+        "dn10:2.21.2",
+        "dn10:2.21.3",
+        "dn10:2.21.4",
+        "dn10:2.22.1",
+        "dn10:2.22.2",
+        "dn10:2.22.3",
+        "dn10:2.22.4",
+        "dn10:2.22.5",
+        "dn10:2.22.6",
+        "dn10:2.22.7",
+        "dn10:2.22.8",
+        "dn10:2.22.9",
+        "dn10:2.22.10"
+      ],
+      "summary": "Nhãn Tuệ/Subha hỏi. Tâm định/sạch/sáng/không tì/lìa cấu/mềm/dùng được/vững/bất động hướng tri kiến. Biết thân có sắc,bốn đại,cha mẹ,cơm cháo,vô thường/hao mòn/vỡ/tan; thức nương/trói đó. Ngọc lưu ly đẹp tự nhiên,tám mặt,khéo mài,trong/sạch,luồn chỉ xanh/vàng/đỏ/trắng/vàng nhạt; người có mắt cầm xem rõ cả ngọc/chỉ. Lặp thuộc tuệ."
+    },
+    {
+      "id": "mindmade",
+      "title": "Thân ý tạo và ba ví",
+      "segments": [
+        "dn10:2.23.1",
+        "dn10:2.23.2",
+        "dn10:2.24.1",
+        "dn10:2.24.2",
+        "dn10:2.24.3",
+        "dn10:2.24.4",
+        "dn10:2.24.5",
+        "dn10:2.24.6",
+        "dn10:2.24.7",
+        "dn10:2.24.8",
+        "dn10:2.24.9",
+        "dn10:2.24.10",
+        "dn10:2.24.11",
+        "dn10:2.24.12"
+      ],
+      "summary": "Trên nền tâm ấy hướng tạo từ thân này thân khác có sắc/do ý/đủ chi lớn nhỏ/đủ căn. Ba ví rút lõi cỏ từ bẹ,gươm từ vỏ,rắn khỏi lốt; mỗi cặp phân biệt hai vật và xuất ra từ đó. Thuộc tuệ, không tự suy linh hồn rời xác."
+    },
+    {
+      "id": "powers",
+      "title": "Thần thông và ba nghề",
+      "segments": [
+        "dn10:2.25.1",
+        "dn10:2.25.2",
+        "dn10:2.26.1",
+        "dn10:2.26.2",
+        "dn10:2.26.3",
+        "dn10:2.26.4",
+        "dn10:2.26.5",
+        "dn10:2.26.6"
+      ],
+      "summary": "Nền tâm ấy hướng thần thông: một-nhiều/nhiều-một,hiện/ẩn,xuyên tường/thành/núi như hư không,lặn đất như nước,đi nước như đất,bay xếp chân như chim,chạm và vuốt mặt trăng/mặt trời đại lực,tự tại thân tới Phạm thiên. Ba thợ gốm/ngà/vàng hoặc học trò trên chất liệu khéo chuẩn bị làm đúng hình muốn. Thuộc tuệ."
+    },
+    {
+      "id": "divine-ear",
+      "title": "Thiên nhĩ và phân biệt âm",
+      "segments": [
+        "dn10:2.27.1",
+        "dn10:2.27.2",
+        "dn10:2.27.3",
+        "dn10:2.27.4",
+        "dn10:2.27.5",
+        "dn10:2.27.6",
+        "dn10:2.27.7"
+      ],
+      "summary": "Nền tâm ấy hướng tai trời thanh tịnh hơn tai người; nghe trời/người xa/gần. Người đi đường nghe biết bheri/mudiṅga/saṅkha/paṇava/dindima là âm nào. Lặp thuộc tuệ."
+    },
+    {
+      "id": "other-minds",
+      "title": "Biết tâm khác",
+      "segments": [
+        "dn10:2.28.1",
+        "dn10:2.28.2",
+        "dn10:2.28.3",
+        "dn10:2.28.4",
+        "dn10:2.28.5",
+        "dn10:2.28.6",
+        "dn10:2.28.7",
+        "dn10:2.28.8",
+        "dn10:2.28.9",
+        "dn10:2.28.10",
+        "dn10:2.28.11",
+        "dn10:2.28.12",
+        "dn10:2.28.13",
+        "dn10:2.28.14",
+        "dn10:2.28.15",
+        "dn10:2.28.16",
+        "dn10:2.28.17",
+        "dn10:2.28.18",
+        "dn10:2.29.1",
+        "dn10:2.29.2",
+        "dn10:2.29.3",
+        "dn10:2.29.4",
+        "dn10:2.29.5",
+        "dn10:2.29.6",
+        "dn10:2.29.7"
+      ],
+      "summary": "Nền tâm ấy biết tâm chúng sinh/người khác đủ16: tham/không,sân/không,si/không,co rút/tán loạn,quảng đại/không,hữu thượng/vô thượng,định/không,giải thoát/không. Ví nam/nữ trẻ thích trang sức soi gương sạch hoặc chậu nước trong biết có/không vết. Hữu thượng là còn mức cao hơn, không đổi tốt/xấu; thuộc tuệ."
+    },
+    {
+      "id": "past-lives",
+      "title": "Nhớ đời trước",
+      "segments": [
+        "dn10:2.30.1",
+        "dn10:2.30.2",
+        "dn10:2.31.1",
+        "dn10:2.31.2",
+        "dn10:2.31.3",
+        "dn10:2.31.4"
+      ],
+      "summary": "Nền tâm ấy nhớ1,2,3,4,5,10,20,30,40,50,100,1000,100000đời,nhiều kiếp co/giãn/cảhai. Mỗi đời tên,họ,hình sắc,ăn,lạc khổ,tuổi thọ; chết đó sinh khác rồi đây,đủ tướng/chi tiết. Ví đi làng mình→làng khác→làng nữa→về,nhớ đứng/ngồi/nói/im ở từng nơi. Thuộc tuệ."
+    },
+    {
+      "id": "rebirth",
+      "title": "Thấy chết-sinh theo nghiệp",
+      "segments": [
+        "dn10:2.32.1",
+        "dn10:2.32.2",
+        "dn10:2.33.1",
+        "dn10:2.33.2",
+        "dn10:2.33.3",
+        "dn10:2.33.4",
+        "dn10:2.33.5"
+      ],
+      "summary": "Nền tâm ấy thiên nhãn hơn người thấy chết/sinh,thấp/cao,đẹp/xấu,lành/dữ,theo nghiệp. Thân-khẩu-ý ác/phỉ báng Thánh/tà kiến/làm theo→thân hoại chết đọa địa ngục; nhánh thiện/không phỉ báng/chánh kiến/làm theo→cõi lành trời. Ví người trên lầu ngã tư thấy người vào/ra nhà,đi đường,ngồi ngã tư. Thuộc tuệ."
+    },
+    {
+      "id": "defilements",
+      "title": "Trí tận lậu và hồ trong",
+      "segments": [
+        "dn10:2.34.1",
+        "dn10:2.34.2",
+        "dn10:2.34.3",
+        "dn10:2.35.1",
+        "dn10:2.35.2",
+        "dn10:2.35.3",
+        "dn10:2.36.1",
+        "dn10:2.36.2",
+        "dn10:2.36.3",
+        "dn10:2.36.4",
+        "dn10:2.36.5",
+        "dn10:2.36.6",
+        "dn10:2.36.7"
+      ],
+      "summary": "Nền tâm ấy biết như thật khổ/nguồn/diệt/đường và lậu/nguồn/diệt/đường. Biết-thấy→tâm thoát dục lậu,hữu lậu,vô minh lậu; biết giải thoát,sinh tận/phạm hạnh thành/việc xong/không hiện hữu vậy nữa. Hồ hốc núi trong không đục; người bờ thấy sò-ốc,đá-sỏi,cá bơi/đứng và nhận đúng. Lặp đủ tuệ, không bỏ nhánh lậu."
+    },
+    {
+      "id": "completion",
+      "title": "Tuệ trọn và không còn việc cao hơn",
+      "segments": [
+        "dn10:2.37.1",
+        "dn10:2.37.2",
+        "dn10:2.37.3",
+        "dn10:2.37.4",
+        "dn10:2.37.5",
+        "dn10:2.37.6"
+      ],
+      "summary": "Ānanda xác nhận nhóm tuệ Phật khen và an lập mọi người, ở đây không việc cao hơn. Subha hai lời thán phục,trọn không thiếu,không thấy ở người tu khác,và không còn việc cao hơn. Không gán đoạn cuối này cho giới/định trước."
+    },
+    {
+      "id": "refuge",
+      "title": "Subha quy y và kết",
+      "segments": [
+        "dn10:2.37.7",
+        "dn10:2.37.8",
+        "dn10:2.37.9",
+        "dn10:2.37.10",
+        "dn10:2.37.11"
+      ],
+      "summary": "Subha hai lời tuyệt vời; ví dựng vật úp,mở vật che,chỉ người lạc,đèn dầu cho người có mắt thấy; khen chính Ānanda làm sáng pháp. Quy y Gotama/Pháp/Tăng,nhờ Ānanda ghi nhận nam cư sĩ trọn đời. Không nói xuất gia/chứng quả. Nhãn kinh thứ mười kết."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "DN10 — Giữ điều lành, luyện tâm, rồi hiểu cho sáng",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "visit",
+          "kind": "teaching",
+          "heading": "Một lời mời sau khi Phật qua đời",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "request",
+            "messenger",
+            "response",
+            "report",
+            "meeting"
+          ],
+          "paragraphs": [
+            "Kinh Subha là bài 10 của Trường Bộ. Không lâu sau khi Phật nhập Niết-bàn, Tôn giả Ānanda ở rừng Jeta, tu viện Anāthapiṇḍika gần Sāvatthī. Subha, con ông Todeyya, đang ở thành ấy vì công việc. Anh nhờ một thanh niên tới hỏi Ānanda có ít bệnh, ít khó chịu, thân nhẹ, khỏe và sống an ổn không, rồi xin Ngài thương mà đến nhà.",
+            "Người đưa tin đến chào, ngồi một bên và trình đủ lời. Ānanda nói hôm nay chưa đúng lúc vì đã uống thuốc; có lẽ ngày mai sẽ đến nếu thuận lúc. Anh trở về nhắc lại lời hỏi thăm, lời mời và câu trả lời, cho rằng việc đã tiến triển vì Ānanda dành khả năng đến hôm sau.",
+            "Sáng hôm sau, Ānanda mặc y, mang y bát và đi cùng tỳ-kheo Cetaka, một nhà sư đi sau. Đến nhà Subha, Ngài ngồi chỗ đã soạn. Subha chào rồi ngồi bên và hỏi: Ānanda đã ở gần, chăm sóc Phật lâu ngày; Phật thường khen và hướng mọi người vững vàng trong những điều gì?"
+          ]
+        },
+        {
+          "id": "three",
+          "kind": "teaching",
+          "heading": "Ba phần cùng thuộc đường tu",
+          "meaningUnits": [
+            "three",
+            "teacher"
+          ],
+          "paragraphs": [
+            "Ānanda đáp: ba nhóm là giới, định và tuệ của bậc Thánh. Giới nói cách sống có kỷ luật lành; định nói tâm được rèn để vững; tuệ nói sự biết thấy sáng rõ. Chữ uẩn ở đây nghĩa là một nhóm, nên có các tên Thánh giới uẩn, Thánh định uẩn và Thánh tuệ uẩn. Subha xin nghe phần giới trước.",
+            "Ānanda bắt đầu từ việc Như Lai xuất hiện: bậc A-la-hán đã giải thoát, giác ngộ trọn vẹn, đủ sự biết và hạnh sống, Thiện Thệ — bậc khéo đi trên đường giác ngộ; hiểu thế giới, hướng dẫn tối cao người cần rèn, thầy của trời và người, Phật và Thế Tôn. Ngài tự chứng biết thế giới gồm chư thiên, Māra, Phạm thiên, các sa-môn, bà-la-môn, trời và người, rồi chỉ bày. Pháp tốt ở đầu, giữa, cuối, rõ nghĩa rõ lời, trình bày đời tu trọn vẹn và trong sạch."
+          ]
+        },
+        {
+          "id": "going-forth",
+          "kind": "teaching",
+          "heading": "Một người nghe rồi chọn xuất gia",
+          "meaningUnits": [
+            "ordination",
+            "ethics"
+          ],
+          "paragraphs": [
+            "Một gia chủ, con gia chủ hoặc người trong gia đình khác nghe pháp và tin Như Lai. Người ấy nghĩ đời tại gia chật hẹp, bụi bặm, khó sống đời tu trọn sạch như vỏ ốc được đánh bóng; xuất gia thì rộng mở. Sau đó, họ rời tài sản ít hay nhiều và vòng thân thuộc ít hay nhiều, cạo râu tóc, mặc cà-sa và xuất gia.",
+            "Người tu học giới đã nhận, cẩn thận cả lỗi nhỏ, giữ cách cư xử và nơi lui tới thích hợp. Họ làm lành bằng thân và lời, nuôi sống trong sạch, giữ các căn, có niệm và biết rõ, biết đủ. Đây là lựa chọn xuất gia đang được kể, không phải lời bảo em tự bỏ nhà.",
+            "Điều giới được kể rõ trước tiên là không giết sinh vật, đặt gậy gươm xuống, biết hổ thẹn trước việc xấu và thương lợi ích mọi loài. Ānanda nhắc đó thuộc về giới. Giữa bài có một đoạn lược; bản giải thích không tự thêm toàn bộ những điều mà chỗ ấy không chép."
+          ]
+        },
+        {
+          "id": "livelihood",
+          "kind": "teaching",
+          "heading": "Nuôi sống người tu cho trong sạch",
+          "meaningUnits": [
+            "livelihood"
+          ],
+          "paragraphs": [
+            "Kinh còn nói người nhận thức ăn do lòng tin cúng dường cần tránh nuôi sống mình bằng một danh sách việc được xem là tà mạng trong bối cảnh ấy. Phần nghi lễ gồm cầu an, cầu nguyện, việc liên quan ma quỷ và đất, cầu mưa, thu xếp tài sản, chuẩn bị và làm lễ cho nền nhà, nghi thức súc miệng, tắm và dâng lửa.",
+            "Phần chữa trị cổ được kể gồm gây nôn, cho xổ, xổ phía trên, phía dưới và vùng đầu; dầu tai, thuốc làm dịu mắt, thuốc mũi, thuốc bôi và thuốc đối trị; dùng kim, dùng dao; chữa trẻ em, cấp thuốc rễ cây và đắp thảo dược. Ānanda lặp lại rằng tránh cách kiếm sống ấy thuộc về giới. Đây là danh sách trong chuyện người tu, không phải chỉ dẫn để em làm thử."
+          ]
+        },
+        {
+          "id": "more-ethics",
+          "kind": "teaching",
+          "heading": "Giới trọn vẹn vẫn chưa là điểm cuối",
+          "meaningUnits": [
+            "blameless",
+            "ethics-more"
+          ],
+          "paragraphs": [
+            "Người đủ giới không phải lo sợ do sự giữ giới của mình. Kinh ví với một vị vua đã được làm lễ lên ngôi, dẹp kẻ địch và không còn lo từ kẻ địch. Ví dụ có phạm vi: người tu hưởng niềm an vui không lỗi, chứ không được hứa sẽ tránh mọi nguy hiểm.",
+            "Ānanda nói đây là nhóm giới Phật khen và giúp mọi người đứng vững trong đó, nhưng còn việc cao hơn. Subha rất ngạc nhiên: giới này đầy đủ, không thiếu; anh không thấy như vậy ở những người tu ngoài giáo pháp. Anh nói nếu họ có được hẳn đã nghĩ đủ rồi, đã xong, đạt mục đích, không còn việc khác. Ānanda vẫn nói còn việc phải làm."
+          ]
+        },
+        {
+          "id": "senses",
+          "kind": "teaching",
+          "heading": "Giữ sáu cửa và biết việc đang làm",
+          "meaningUnits": [
+            "senses",
+            "mindfulness"
+          ],
+          "paragraphs": [
+            "Subha hỏi đến định. Ānanda giảng việc giữ mắt, tai, mũi, lưỡi, thân và ý. Thấy hình, nghe tiếng, ngửi mùi, nếm vị, chạm vật hay biết điều gì, người tu không bám lấy dáng chung hoặc từng chi tiết để tham muốn và buồn bực tràn vào. Vì có nguy cơ ấy khi không giữ, vị ấy phòng hộ; nhờ vậy có niềm vui bên trong không bị vẩn đục.",
+            "Người tu biết rõ khi đi tới, lui lại; nhìn trước, nhìn quanh; co, duỗi; mang áo ngoài, y và bát; ăn, uống, nhai, nếm; đi vệ sinh; đi, đứng, ngồi, ngủ, thức, nói hay im. Đó là niệm và tỉnh giác: không bỏ quên việc đang làm, biết mình đang làm gì."
+          ]
+        },
+        {
+          "id": "enough",
+          "kind": "teaching",
+          "heading": "Biết đủ và tìm chỗ yên",
+          "meaningUnits": [
+            "contentment",
+            "seclusion"
+          ],
+          "paragraphs": [
+            "Biết đủ là bằng lòng với y để chăm thân và đồ khất thực để nuôi bụng. Đi đâu người tu mang những thứ cần ấy, như chim bay chỉ mang đôi cánh. Có giới, giữ các căn, niệm và tỉnh giác, cùng biết đủ, vị ấy tìm chỗ vắng.",
+            "Kinh nêu rừng, gốc cây, núi, khe núi, hang núi, bãi tha ma, rừng sâu, ngoài trời và đống rơm. Khất thực về, ăn xong, vị ấy ngồi xếp chân, lưng thẳng và đặt niệm trước mặt. Những nơi được kể thuộc đời sống xuất gia; em có thể hiểu trình tự mà không cần đi tìm những nơi ấy."
+          ]
+        },
+        {
+          "id": "hindrances",
+          "kind": "teaching",
+          "heading": "Năm điều cản trở tâm",
+          "meaningUnits": [
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Người tu gột năm chướng ngại: tham đắm đời; sân hận; nặng nề và buồn ngủ; xao động và hối hận; nghi hoặc về điều thiện. Với sân, vị ấy nuôi lòng thương mọi loài. Với sự lừ đừ, vị ấy nhận ánh sáng, giữ niệm và biết rõ. Với xao động, tâm lắng ở bên trong; với nghi, không còn phân vân về thiện pháp. Mỗi chướng ngại được bỏ và tâm được làm sạch khỏi chính nó."
+          ]
+        },
+        {
+          "id": "relief-one",
+          "kind": "teaching",
+          "heading": "Ba hình ảnh được nhẹ gánh",
+          "meaningUnits": [
+            "debt",
+            "illness",
+            "prison"
+          ],
+          "paragraphs": [
+            "Ānanda đưa nhiều ví dụ. Một người vay tiền làm ăn thành công, trả nợ cũ, còn dư nuôi vợ; nhớ lại thì vui. Một người bệnh nặng, không ngon miệng, không có sức, rồi khỏi bệnh, ăn ngon và khỏe lại; nghĩ tới thay đổi ấy thì hân hoan.",
+            "Một người bị giam sau đó được ra tù an toàn, không lo sợ, tài sản cũng không mất; khi nhìn lại, người ấy vui. Những chuyện này là hình ảnh so sánh niềm nhẹ nhõm, không phải lời hứa người tu sẽ có tiền hay tự khỏi bệnh."
+          ]
+        },
+        {
+          "id": "relief-two",
+          "kind": "teaching",
+          "heading": "Tự do và nơi an ổn",
+          "meaningUnits": [
+            "servitude",
+            "wilderness",
+            "joy-chain"
+          ],
+          "paragraphs": [
+            "Một người từng là nô lệ, lệ thuộc và không được đi đâu tùy ý, rồi được tự chủ, tự do đi lại. Một người mang tài sản đi đường hoang thiếu ăn, nguy hiểm, rồi vượt qua và đến làng an toàn. Cả hai nhớ sự thay đổi của mình mà vui.",
+            "Chưa bỏ năm chướng ngại thì như còn nợ, bệnh, tù, nô lệ hay đường hiểm; đã bỏ thì như được nhẹ nợ, khỏe, tự do và an ổn. Thấy chúng đã được bỏ, người tu vui; từ vui có hỷ, niềm hân hoan; thân lắng dịu, cảm được lạc, sự dễ chịu; rồi tâm định. Các bước ấy không chỉ là một câu nhắc hãy vui lên."
+          ]
+        },
+        {
+          "id": "first",
+          "kind": "teaching",
+          "heading": "Thiền thứ nhất: niềm vui do rời dục",
+          "meaningUnits": [
+            "first-jhana"
+          ],
+          "paragraphs": [
+            "Lìa dục và điều bất thiện, người tu vào thiền thứ nhất, có tầm và tứ — đặt tâm vào chỗ tu và giữ tâm gắn với chỗ ấy — cùng hỷ và lạc do sự lìa đó. Hỷ lạc thấm khắp thân, không phần nào bị bỏ sót.",
+            "Kinh ví thợ tắm hoặc người học việc nhào bột tắm trong chậu đồng, rưới nước từng chút. Khối bột ẩm cả trong lẫn ngoài mà không rỉ nước. Cũng thế, hỷ lạc thấm đều; Ānanda nhận đây thuộc về định."
+          ]
+        },
+        {
+          "id": "second",
+          "kind": "teaching",
+          "heading": "Thiền thứ hai: dòng mát từ bên trong",
+          "meaningUnits": [
+            "second-jhana"
+          ],
+          "paragraphs": [
+            "Khi tầm và tứ lắng, nội tâm trong sáng, tâm thống nhất, vị ấy vào thiền thứ hai, không còn tầm tứ; hỷ lạc do định thấm khắp thân. Ví dụ là hồ sâu không nhận nước từ Đông, Nam, Tây, Bắc, cũng không được những cơn mưa từng lúc cấp nước. Nguồn nước mát ngay trong hồ dâng lên, làm đầy và thấm khắp hồ. Điều này cũng thuộc về định."
+          ]
+        },
+        {
+          "id": "third",
+          "kind": "teaching",
+          "heading": "Thiền thứ ba: lạc không còn hỷ",
+          "meaningUnits": [
+            "third-jhana"
+          ],
+          "paragraphs": [
+            "Rời hỷ, người tu có xả, niệm và tỉnh giác, vẫn cảm nhận lạc nơi thân. Các bậc Thánh gọi đó là người có xả, có niệm, sống an lạc. Vị ấy ở thiền thứ ba; lạc không còn hỷ thấm khắp thân.",
+            "Hình ảnh là sen xanh, hồng hoặc trắng sinh và lớn dưới nước, chưa vượt mặt nước, được nước mát thấm từ ngọn đến gốc. Ānanda gọi cả trạng thái này là phần định. Hỷ và lạc vì thế không phải hai từ hoàn toàn giống nhau."
+          ]
+        },
+        {
+          "id": "fourth",
+          "kind": "teaching",
+          "heading": "Thiền thứ tư và việc còn tiếp",
+          "meaningUnits": [
+            "fourth-jhana",
+            "samadhi-more"
+          ],
+          "paragraphs": [
+            "Bỏ lạc và khổ, niềm vui buồn trước đó đã lắng hết, người tu vào thiền thứ tư: không khổ không lạc, xả và niệm thanh tịnh. Tâm sạch sáng thấm khắp thân, như người ngồi được vải trắng phủ cả đầu và thân, không chỗ nào hở. Đó cũng thuộc về định.",
+            "Ānanda nói nhóm định ấy được Phật khen, nhưng vẫn còn việc cao hơn. Subha lại thán phục: định trọn, không thiếu, anh không thấy ở người tu khác. Nếu họ có, hẳn đã cho đủ, việc đã xong, mục đích đã đạt, không còn cần làm gì. Nhưng Ānanda vẫn chỉ việc cao hơn."
+          ]
+        },
+        {
+          "id": "wisdom",
+          "kind": "teaching",
+          "heading": "Tuệ bắt đầu bằng thấy rõ thân và thức",
+          "meaningUnits": [
+            "knowledge"
+          ],
+          "paragraphs": [
+            "Subha xin nghe nhóm tuệ. Nền tảng được nhắc là tâm đã định, sạch, sáng, không tì vết, không ô nhiễm, mềm dẻo, dùng được, đứng vững và không lay chuyển. Trên nền ấy, người tu hướng tâm đến sự biết và thấy.",
+            "Vị ấy biết thân có sắc, gồm bốn đại — những thành phần cơ bản của thân vật chất theo cách nói trong kinh — sinh từ cha mẹ, được cơm cháo nuôi, là vô thường, chịu hao mòn, vỡ và tan. Thức, khả năng nhận biết, đang nương và bị buộc vào thân ấy. Kinh ví người có mắt cầm viên ngọc lưu ly đẹp, tám mặt, khéo mài, trong sạch; thấy rõ cả sợi chỉ xanh, vàng, đỏ, trắng hoặc vàng nhạt xâu bên trong. Thấy rõ như thế thuộc về tuệ."
+          ]
+        },
+        {
+          "id": "mind-made",
+          "kind": "teaching",
+          "heading": "Một thân do ý tạo",
+          "meaningUnits": [
+            "mindmade"
+          ],
+          "paragraphs": [
+            "Với chính nền tâm ấy, người tu hướng đến tạo từ thân này một thân khác có sắc, do ý tạo, đủ chi lớn nhỏ và không thiếu căn. Kinh dùng ba ví: rút lõi cỏ khỏi bẹ; rút gươm khỏi vỏ; rút rắn khỏi lốt. Trong từng ví, hai thứ khác nhau nhưng một thứ được lấy ra từ thứ kia. Ānanda kể đây thuộc về tuệ; không từ đó tự kể chuyện một linh hồn bất biến rời thân."
+          ]
+        },
+        {
+          "id": "powers",
+          "kind": "teaching",
+          "heading": "Các khả năng được kinh kể",
+          "meaningUnits": [
+            "powers",
+            "divine-ear"
+          ],
+          "paragraphs": [
+            "Trên nền tâm đã rèn ấy, kinh kể các thần thông: một thành nhiều rồi nhiều thành một; hiện và ẩn; qua tường, thành, núi như qua khoảng không; trồi lặn trong đất như nước; đi trên nước như đất; bay ngồi xếp chân như chim; dùng tay chạm và vuốt mặt trăng, mặt trời được nói là có sức mạnh lớn; làm chủ thân tới cõi Phạm thiên.",
+            "Ba ví dụ là thợ gốm, thợ ngà, thợ vàng hoặc người học việc, có chất liệu chuẩn bị tốt và làm đúng hình mình muốn. Kinh nhận những khả năng trên thuộc về tuệ; chúng được kể theo lời kinh, không phải việc để em thử.",
+            "Khả năng nghe được nói riêng: tai trời thanh tịnh, hơn tai người, nghe tiếng trời lẫn người, ở xa lẫn gần. Ví người đi đường biết từng tiếng trống bheri, trống mudiṅga, tù và saṅkha, trống paṇava, trống dindima. Những tên cổ chỉ các nhạc cụ khác nhau; ví nhấn việc phân biệt âm rõ ràng. Đây cũng thuộc về tuệ."
+          ]
+        },
+        {
+          "id": "minds",
+          "kind": "teaching",
+          "heading": "Biết đúng trạng thái tâm người khác",
+          "meaningUnits": [
+            "other-minds"
+          ],
+          "paragraphs": [
+            "Trên nền tâm định ấy, vị ấy biết tâm người khác: có tham hay không; sân hay không; si hay không; co rút hay tản mạn; rộng lớn hay không; còn mức cao hơn hay không còn mức cao hơn; có định hay không; giải thoát hay chưa giải thoát. Không gom tất cả thành chỉ tốt và xấu.",
+            "Ví một người trẻ, nam hoặc nữ, thích trang sức, soi gương sạch hay chậu nước trong: có vết thì biết có, không có thì biết không. Sự biết được mô tả thuộc về tuệ, không giống đoán suy nghĩ bạn từ nét mặt."
+          ]
+        },
+        {
+          "id": "past",
+          "kind": "teaching",
+          "heading": "Nhớ những đời sống trước",
+          "meaningUnits": [
+            "past-lives"
+          ],
+          "paragraphs": [
+            "Tâm có nền định ấy hướng tới nhớ đời trước: một, hai, ba, bốn, năm, mười, hai mươi, ba mươi, bốn mươi, năm mươi, trăm, ngàn, trăm ngàn đời; nhiều thời kỳ thế giới co lại, giãn ra hoặc cả co và giãn. Nhớ từng nơi với tên, dòng họ, hình dáng, thức ăn, lạc khổ, tuổi thọ; chết nơi này sinh nơi khác, rồi sinh ở đây.",
+            "Ví một người đi từ làng mình sang làng khác, sang làng nữa rồi trở về, nhớ ở mỗi nơi đã đứng, ngồi, nói và im thế nào. Đây là sự nhớ có đặc điểm và chi tiết, được xếp vào tuệ, không phải câu chuyện em tưởng tượng về kiếp trước."
+          ]
+        },
+        {
+          "id": "rebirth",
+          "kind": "teaching",
+          "heading": "Thấy chết và sinh theo việc đã làm",
+          "meaningUnits": [
+            "rebirth"
+          ],
+          "paragraphs": [
+            "Với tâm đã rèn, người tu hướng tới thấy chúng sinh chết và sinh bằng thiên nhãn, sự thấy thanh tịnh hơn mắt người. Kinh nêu các khác biệt thấp hay cao, đẹp hay xấu, đến nơi lành hay dữ, và biết họ đi theo nghiệp, tức những việc đã làm.",
+            "Một nhánh là thân, lời, ý xấu, chê bai bậc Thánh, thấy sai và làm theo thấy sai; sau khi chết sinh vào cảnh khổ, đọa xứ, địa ngục. Nhánh kia là thân, lời, ý lành, không chê bai bậc Thánh, thấy đúng và làm theo; sau khi chết sinh nơi lành, cõi trời. Ví người trên lầu ở ngã tư thấy rõ ai vào nhà, ra nhà, đi đường hay ngồi ở ngã tư. Đây là lời kinh về nghiệp và tái sinh, không cho phép em đoán phẩm giá bạn qua dáng vẻ."
+          ]
+        },
+        {
+          "id": "freedom",
+          "kind": "teaching",
+          "heading": "Biết để hết những ô nhiễm sâu",
+          "meaningUnits": [
+            "defilements",
+            "completion"
+          ],
+          "paragraphs": [
+            "Trên nền tâm ấy, vị ấy hướng đến trí làm lậu hoặc chấm dứt. Lậu hoặc là những ô nhiễm trói buộc sâu. Người tu biết như thật khổ, nguồn của khổ, sự hết khổ và đường đến hết khổ; cũng biết lậu hoặc, nguồn của chúng, sự hết chúng và đường đến đó.",
+            "Nhờ biết và thấy như thế, tâm thoát dục lậu, hữu lậu và vô minh lậu: sự trói buộc bởi dục, bởi hiện hữu và bởi không biết. Khi đã giải thoát, vị ấy biết đã giải thoát: sinh đã tận, đời tu trong sạch đã thành, việc cần làm đã làm, không còn hiện hữu như thế nữa.",
+            "Ví một hồ trong hốc núi, nước trong không đục; người đứng bờ nhìn rõ sò, ốc, đá, sỏi, cá bơi hoặc đứng yên. Ānanda xác nhận đây thuộc nhóm tuệ Phật khen và không còn việc cao hơn phải làm. Subha thán phục nhóm tuệ trọn vẹn, không thiếu, chưa thấy ở người tu khác, và nhận giờ không còn việc cao hơn."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Subha xin quy y",
+          "meaningUnits": [
+            "refuge"
+          ],
+          "paragraphs": [
+            "Subha hai lần nói lời khen. Anh ví Ānanda đã dựng vật lật úp, mở vật bị che, chỉ đường cho người lạc và thắp đèn dầu trong tối cho người có mắt nhìn thấy. Anh xin nương tựa Gotama, Pháp và Tăng, nhờ Ānanda ghi nhận mình là nam cư sĩ quy y từ hôm ấy trọn đời. Bài không nói anh đã xuất gia hay chứng quả. Dòng cuối ghi Kinh Subha, thứ mười, kết thúc."
+          ]
+        },
+        {
+          "id": "sources",
+          "kind": "clarification",
+          "heading": "Một vài chỗ cần đọc thận trọng",
+          "meaningUnits": [
+            "meeting",
+            "livelihood"
+          ],
+          "paragraphs": [
+            "Cetaka được hiểu là tên nhà sư đi cùng Ānanda theo bản Anh Sujato; bản Minh Châu hiểu là người xứ Cetiya. Hai nghi lễ được kể là cầu mưa và thu xếp tài sản cũng theo cách đọc Sujato; bản Việt dự án hiểu hai tên ấy theo hướng khác, liên quan khả năng sinh dục. Các tên cổ này còn có cách đọc khác nhau.",
+            "Danh sách tà mạng nói về cách người tu kiếm sống từ các hoạt động ấy. Chính đầu bài kể Ānanda đã uống thuốc; không nên suy thành lời cấm mọi việc chăm sóc bệnh. Những khả năng đặc biệt ở phần tuệ là lời kinh, không được đồng nhất với ví dụ đời thường bên dưới."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ: làm bài chung",
+          "meaningUnits": [
+            "three",
+            "ethics-more",
+            "samadhi-more",
+            "completion"
+          ],
+          "paragraphs": [
+            "Nhóm của em làm một bài tìm hiểu. Không lấy công của bạn, giữ chú ý khi đọc và hiểu điều đọc được là ba việc có liên quan nhưng không thay nhau. Ví dụ biên tập này chỉ giúp phân biệt cách sống, sự tập trung và hiểu biết; hoàn thành bài học không phải đạt giới-định-tuệ trọn vẹn như kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Nhìn xem mình đang thiếu việc nào",
+          "meaningUnits": [
+            "three"
+          ],
+          "paragraphs": [
+            "Với một việc nhỏ, em có thể hỏi: mình có làm hại hoặc không thật không; mình có đang để ý không; mình đã hiểu hay cần hỏi thêm? Chọn một điều để sửa. Đây là gợi ý học từng bước, không hứa đạt thiền, thần thông hoặc giải thoát bằng ba câu hỏi."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "DN10 — Giới, định, tuệ và việc còn phải làm",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "context",
+          "kind": "teaching",
+          "heading": "Subha hỏi người đã ở gần Phật",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "request",
+            "messenger",
+            "response",
+            "report",
+            "meeting"
+          ],
+          "paragraphs": [
+            "DN10 diễn ra không lâu sau khi Phật nhập Niết-bàn. Ānanda đang ở Jetavana, tu viện Anāthapiṇḍika tại Sāvatthī; Subha, con Todeyya, cũng ở thành vì công việc. Subha cử một thanh niên nhân danh mình hỏi thăm Ānanda về bệnh tật, sự khó chịu, sức khỏe, thân nhẹ nhàng và đời sống an ổn, rồi thỉnh Ngài vì thương tưởng đến nhà.",
+            "Người đưa tin chào hỏi, ngồi bên và chuyển đủ lời. Ānanda cho biết hôm ấy chưa thuận vì đã uống một liều thuốc; có lẽ sẽ đến ngày mai, tùy thời gian và hoàn cảnh. Người thanh niên về thuật cả lời hỏi, lời mời và lời đáp, đánh giá việc đã thành một bước vì có cơ hội đón Ngài hôm sau.",
+            "Sáng sau, Ānanda mặc y, mang y bát, có tỳ-kheo Cetaka đi theo, đến và ngồi chỗ được soạn. Subha chào hỏi rồi ngồi một bên. Vì Ānanda đã lâu làm thị giả, thường ở gần Phật, Subha cho rằng Ngài hẳn biết Phật tán thán điều gì và khích lệ, dẫn dắt, đặt mọi người vững vào những pháp nào. Đây là câu hỏi định hướng toàn bài."
+          ]
+        },
+        {
+          "id": "framework",
+          "kind": "teaching",
+          "heading": "Ba nhóm được lần lượt triển khai",
+          "meaningUnits": [
+            "three",
+            "teacher"
+          ],
+          "paragraphs": [
+            "Ānanda trả lời: Thánh giới uẩn, Thánh định uẩn và Thánh tuệ uẩn. Uẩn ở các từ này chỉ một nhóm hay phạm vi tu học: giới, định, tuệ. Subha không dừng ở ba tên mà hỏi từng nhóm; trước hết là nhóm giới.",
+            "Bài giảng bắt đầu với Như Lai xuất hiện: A-la-hán, Chánh Đẳng Giác, đầy đủ minh và hạnh, Thiện Thệ, hiểu thế gian, bậc điều phục tối cao người cần được rèn, thầy trời-người, Phật, Thế Tôn. Ngài tự mình chứng biết thế giới có chư thiên, Māra, Phạm thiên, sa-môn, bà-la-môn, trời và người rồi tuyên bày. Pháp tốt ở đầu, giữa, cuối, đầy đủ nghĩa và lời, hiển lộ phạm hạnh trọn vẹn, trong sạch."
+          ]
+        },
+        {
+          "id": "entry",
+          "kind": "teaching",
+          "heading": "Từ lòng tin đến việc nhận giới",
+          "meaningUnits": [
+            "ordination",
+            "ethics"
+          ],
+          "paragraphs": [
+            "Một gia chủ, người con hoặc người sinh trong gia đình khác nghe và có lòng tin nơi Như Lai. Họ nhận đời tại gia chật chội, nhiều bụi, xuất gia rộng mở; ở nhà khó sống phạm hạnh hoàn toàn trong sạch như vỏ ốc được đánh bóng. Sau đó, họ bỏ tài sản và thân thuộc dù ít hay nhiều, cạo râu tóc, mặc cà-sa, rời đời có nhà.",
+            "Người xuất gia sống trong giới bổn, có cách cư xử và nơi lui tới thích hợp, thấy nguy cơ ở lỗi nhỏ, học các điều đã nhận. Thân hành, lời nói và sinh kế được giữ trong sạch; giới, phòng hộ căn, niệm-tỉnh giác và tri túc cùng hiện diện. Đoạn kể rõ việc bỏ sát sinh, đặt gậy gươm xuống, có hổ thẹn và lòng thương mọi sinh linh. Công thức lặp xác nhận đây thuộc giới; khối văn giữa được lược ở chính DN10, không phải toàn bộ giới mục đã được chép lại."
+          ]
+        },
+        {
+          "id": "rituals",
+          "kind": "teaching",
+          "heading": "Danh mục tà mạng trong đời người nhận tín thí",
+          "meaningUnits": [
+            "livelihood"
+          ],
+          "paragraphs": [
+            "Tiếp đó là sự phân biệt với những sa-môn, bà-la-môn nhận thức ăn cúng vì lòng tin nhưng kiếm sống bằng các hoạt động được gọi là tà mạng. Danh mục nghi lễ gồm cầu an, cầu nguyện, việc ma quỷ và đất, cầu mưa, thu xếp tài sản, chuẩn bị nền nhà, làm lễ nền nhà, súc miệng nghi lễ, tắm nghi lễ và dâng lửa.",
+            "Danh mục phương thức chữa trị cổ gồm gây nôn, xổ, xổ trên, xổ dưới, xổ đầu; dầu tai, thuốc chăm mắt, thuốc mũi, thuốc bôi, thuốc đối trị; dùng kim, dao; trị bệnh trẻ em, cấp thuốc từ rễ, đắp thuốc thảo dược. Người tu được mô tả là tránh kiếm sống bằng các việc ấy; phần lặp vẫn quy sự tránh đó về giới. Cách hiểu hai tên vassakamma/vossakamma được giải thích riêng bên dưới."
+          ]
+        },
+        {
+          "id": "ethics-end",
+          "kind": "teaching",
+          "heading": "Sự viên mãn của giới và giới hạn của nó",
+          "meaningUnits": [
+            "blameless",
+            "ethics-more"
+          ],
+          "paragraphs": [
+            "Thành tựu giới đem lại nội tâm an lạc không lỗi và không thấy sợ hãi xét về việc giữ giới. So sánh là một vua Sát-đế-lợi đã quán đảnh, thắng kẻ địch, không còn sợ từ phía địch. Giới hạn của so sánh cần giữ: bài không nói người có giới miễn mọi tổn hại.",
+            "Ānanda xác nhận đây là nhóm giới Phật khen và an lập mọi người trong đó; vẫn còn việc cao hơn. Subha thán phục hai lần, gọi giới này trọn, không thiếu, và nói mình không thấy ở các người tu khác bên ngoài. Trong giả định của Subha, nếu họ có giới như vậy họ hẳn đã mãn nguyện: đủ, đã xong, đạt mục đích sa-môn, không còn việc cao hơn. Lời Ānanda giữ tiến trình mở sang định."
+          ]
+        },
+        {
+          "id": "restraint",
+          "kind": "teaching",
+          "heading": "Định được chuẩn bị từ sáu cửa",
+          "meaningUnits": [
+            "senses"
+          ],
+          "paragraphs": [
+            "Subha hỏi nhóm định. Ānanda trước hết nói phòng hộ mắt đối với sắc, tai-tiếng, mũi-mùi, lưỡi-vị, thân-xúc, ý-pháp. Không nắm giữ tướng chung và chi tiết: nếu các căn không được giữ, tham muốn và ưu não bất thiện có thể tràn vào; vì vậy vị ấy giữ gìn, thực hành thu thúc. Kết quả được nêu là an lạc bên trong không vẩn đục. Phòng hộ không có nghĩa tự làm mất chức năng thấy nghe."
+          ]
+        },
+        {
+          "id": "awareness",
+          "kind": "teaching",
+          "heading": "Niệm-tỉnh giác và sự biết đủ",
+          "meaningUnits": [
+            "mindfulness",
+            "contentment"
+          ],
+          "paragraphs": [
+            "Niệm và biết rõ đi vào các động tác thường ngày: tới, lui; nhìn trước, nhìn quanh; co, duỗi; mang áo ngoài, bát và y; ăn, uống, nhai, nếm; đại tiện, tiểu tiện; đi, đứng, ngồi, ngủ, thức, nói, im. Đây là biết rõ việc đang làm trong toàn nếp sống, không chỉ lúc ngồi thiền.",
+            "Tri túc là đủ với y chăm thân và thức ăn khất thực nuôi bụng; đi đâu mang theo chừng ấy. Ví con chim đi đâu cũng chỉ mang đôi cánh được dùng rồi áp lại vào người tu. Việc giản dị ấy là một thành phần của nền chuẩn bị, cùng giới, phòng hộ căn và niệm-tỉnh giác."
+          ]
+        },
+        {
+          "id": "hindrances",
+          "kind": "teaching",
+          "heading": "Chỗ vắng và năm việc cần làm sạch",
+          "meaningUnits": [
+            "seclusion",
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Có đủ bốn nền vừa nêu, vị ấy đến chỗ vắng: rừng, gốc cây, núi, khe núi, hang, bãi tha ma, rừng sâu, ngoài trời hoặc đống rơm. Sau khi khất thực và ăn xong, ngồi xếp chân, giữ thân thẳng, đặt niệm trước mặt.",
+            "Vị ấy bỏ tham đắm đối với đời; bỏ sân hại, sống thương lợi ích mọi loài; bỏ hôn trầm-buồn ngủ với tưởng ánh sáng, niệm và tỉnh giác; bỏ trạo cử-hối hận với tâm lắng bên trong; vượt nghi, không còn lưỡng lự về thiện pháp. Ở mỗi nhóm, tâm được làm sạch khỏi chính chướng ngại đó."
+          ]
+        },
+        {
+          "id": "five-images",
+          "kind": "teaching",
+          "heading": "Năm hình ảnh của sự thoát khỏi gánh nặng",
+          "meaningUnits": [
+            "debt",
+            "illness",
+            "prison",
+            "servitude",
+            "wilderness"
+          ],
+          "paragraphs": [
+            "Một người vay vốn làm ăn thành, trả nợ cũ và còn đủ nuôi vợ. Một người bệnh nặng, mất ngon miệng, yếu sức, rồi hồi phục, ăn ngon và có sức. Một người ra khỏi ngục an toàn, không sợ và không hao tài sản. Một người nô lệ, không tự chủ hoặc đi đâu tùy ý, rồi được tự do, làm chủ mình. Một người mang của cải đi qua vùng hoang thiếu ăn, hiểm nguy, sau đó đến làng an ổn.",
+            "Mỗi ví có cả hoàn cảnh trước, sự thay đổi và việc người ấy nhìn lại mà vui, hân hoan. Năm chướng ngại chưa bỏ được ví như nợ, bệnh, tù, nô lệ và đường hiểm. Những ví về tiền hay sức khỏe không biến thành hứa hẹn của thực hành."
+          ]
+        },
+        {
+          "id": "sequence",
+          "kind": "teaching",
+          "heading": "Vui, hỷ, thân lắng, lạc, định",
+          "meaningUnits": [
+            "joy-chain"
+          ],
+          "paragraphs": [
+            "Khi năm chướng ngại đã bỏ, người tu nhìn chúng như đã hết nợ, khỏi bệnh, ra tù, được tự do và đến nơi an toàn. Nhìn thấy chúng đã bỏ thì có vui; từ vui, hỷ khởi; có hỷ thì thân lắng dịu; thân lắng thì cảm lạc; có lạc, tâm được định. Bài cho cả nền và trình tự, không đặt định như kết quả của một mệnh lệnh tập trung."
+          ]
+        },
+        {
+          "id": "jhana-one",
+          "kind": "teaching",
+          "heading": "Thiền thứ nhất: hỷ lạc do ly",
+          "meaningUnits": [
+            "first-jhana"
+          ],
+          "paragraphs": [
+            "Vị ấy lìa dục, lìa bất thiện, chứng trú thiền thứ nhất có tầm-tứ, hỷ-lạc do ly. Ở đây có thể hiểu tầm-tứ theo việc đặt tâm và giữ tâm gắn với đối tượng; hỷ là niềm hân hoan, lạc là an vui dễ chịu. Hỷ lạc thấm đẫm, làm đầy và lan khắp thân, không chỗ nào thiếu.",
+            "Ví thợ tắm khéo hoặc học trò đổ bột vào chậu đồng, rưới nước từng ít rồi nhào, khiến cả trong ngoài thấm ẩm mà không rỉ nước. Sau ví và phần lặp, Ānanda xác nhận việc ấy thuộc định."
+          ]
+        },
+        {
+          "id": "jhana-two",
+          "kind": "teaching",
+          "heading": "Thiền thứ hai: hỷ lạc do định",
+          "meaningUnits": [
+            "second-jhana"
+          ],
+          "paragraphs": [
+            "Tầm-tứ lắng, nội tâm sáng trong, tâm thống nhất; vị ấy chứng trú thiền thứ hai không tầm-tứ, hỷ-lạc do định. Hỷ lạc tiếp tục thấm toàn thân. Ví là hồ sâu có nguồn nước bên trong, không có dòng vào từ bốn phương Đông-Nam-Tây-Bắc, cũng không được những cơn mưa từng lúc cấp nước; dòng mát tự hồ trào lên, làm đầy khắp. Phần này được xếp vào định."
+          ]
+        },
+        {
+          "id": "jhana-three",
+          "kind": "teaching",
+          "heading": "Thiền thứ ba: lạc không còn hỷ",
+          "meaningUnits": [
+            "third-jhana"
+          ],
+          "paragraphs": [
+            "Hỷ lắng đi, vị ấy trú xả, có niệm và tỉnh giác, thân cảm lạc; bậc Thánh gọi đó là xả, niệm, lạc trú. Thiền thứ ba có lạc không hỷ, thấm khắp thân. Sen xanh, sen hồng, sen trắng sinh và lớn trong nước, còn chìm dưới mặt nước, được nước mát thấm từ ngọn tới gốc là hình ảnh đi kèm. Sự phân biệt hỷ và lạc phải được giữ khi đọc chặng này; nó vẫn thuộc nhóm định."
+          ]
+        },
+        {
+          "id": "jhana-four",
+          "kind": "teaching",
+          "heading": "Thiền thứ tư: xả-niệm thanh tịnh",
+          "meaningUnits": [
+            "fourth-jhana"
+          ],
+          "paragraphs": [
+            "Bỏ lạc và khổ, hỷ và ưu trước đó đã hết, vị ấy chứng trú thiền thứ tư không khổ không lạc, có xả-niệm thanh tịnh. Tâm sạch, sáng thấm khắp thân. Ví người ngồi trùm vải trắng từ đầu xuống toàn thân, không phần nào không được phủ. Ānanda lặp nhận định: đây thuộc định."
+          ]
+        },
+        {
+          "id": "more",
+          "kind": "teaching",
+          "heading": "Định không thay cho việc hoàn thành tuệ",
+          "meaningUnits": [
+            "samadhi-more"
+          ],
+          "paragraphs": [
+            "Nhóm định như thế là điều Phật khen và giúp mọi người an lập, nhưng còn việc cao hơn. Subha lại thán phục, nói định đầy đủ chứ không thiếu, mình không thấy ở các người tu khác. Nếu họ đạt như vậy, hẳn họ cho đủ, việc đã xong, mục tiêu đã đạt, chẳng còn việc cao hơn. Ānanda vẫn nói còn; Subha vì thế hỏi nhóm tuệ."
+          ]
+        },
+        {
+          "id": "body-consciousness",
+          "kind": "teaching",
+          "heading": "Tri kiến trên nền tâm đã được rèn",
+          "meaningUnits": [
+            "knowledge"
+          ],
+          "paragraphs": [
+            "Phần tuệ bắt đầu với tâm đã định, thanh tịnh, sáng rõ, không tì vết, lìa ô nhiễm, mềm dẻo, sử dụng được, vững và bất động. Vị ấy hướng, nghiêng tâm đến tri kiến: thân này có sắc, gồm bốn đại, do cha mẹ sinh, cơm cháo nuôi, chịu vô thường, hao mòn, vỡ hoại và tan rã; thức nương và bị buộc vào chính thân này.",
+            "Ví người có mắt cầm ngọc lưu ly đẹp tự nhiên, tám mặt, khéo chế tác, trong suốt và không đục; thấy rõ cả ngọc lẫn chỉ xâu màu xanh, vàng, đỏ, trắng hoặc vàng nhạt. Phần lặp gắn sự biết thân-thức với nhóm tuệ. Ví cho tính rõ ràng, không tự xác lập một thực thể bất biến bên trong thân."
+          ]
+        },
+        {
+          "id": "mental-body",
+          "kind": "teaching",
+          "heading": "Hóa hiện thân do ý",
+          "meaningUnits": [
+            "mindmade"
+          ],
+          "paragraphs": [
+            "Trên cùng nền tâm đầy đủ các phẩm chất ấy, vị ấy hướng đến hóa hiện từ thân này thân khác: có sắc, do ý tạo, đầy đủ chi lớn nhỏ và không thiếu căn. Các ví là lõi cỏ được rút từ bẹ, gươm được rút từ vỏ, rắn được rút khỏi lốt. Từng ví vừa phân biệt hai thứ vừa nói một thứ được lấy ra từ thứ kia. Ānanda xếp khả năng này vào tuệ."
+          ]
+        },
+        {
+          "id": "powers",
+          "kind": "teaching",
+          "heading": "Thần thông và sự đắc dụng của tâm",
+          "meaningUnits": [
+            "powers"
+          ],
+          "paragraphs": [
+            "Tâm đã rèn hướng đến các thần thông: một thành nhiều, nhiều thành một; hiện và ẩn; qua tường, thành, núi không ngại như qua hư không; trồi lặn trong đất như nước; đi trên nước như đất; bay ngồi xếp chân như chim; chạm vuốt mặt trăng, mặt trời có đại lực; làm chủ thân tới cõi Phạm thiên.",
+            "Ba ví là thợ gốm, thợ ngà, thợ vàng hoặc học trò, có đất sét, ngà, vàng đã được chuẩn bị tốt, muốn hình gì thì làm thành hình ấy. Khả năng và ví được quy về tuệ trong cấu trúc bài. Chúng được trình bày theo kinh, không phải phép thực nghiệm hay lời hướng dẫn tái tạo các khả năng này."
+          ]
+        },
+        {
+          "id": "hearing",
+          "kind": "teaching",
+          "heading": "Nghe tiếng trời và người",
+          "meaningUnits": [
+            "divine-ear"
+          ],
+          "paragraphs": [
+            "Cùng nền tâm ấy được hướng đến thiên nhĩ: khả năng nghe thanh tịnh vượt tai người, nghe cả tiếng trời và tiếng người, xa và gần. Ví người đang đi đường nhận đúng tiếng bheri, mudiṅga, saṅkha, paṇava và dindima — những loại trống và tù và riêng biệt. Ý của ví là nhận biết âm nào là âm ấy; Ānanda xác nhận đây cũng thuộc tuệ."
+          ]
+        },
+        {
+          "id": "knowing-minds",
+          "kind": "teaching",
+          "heading": "Mười sáu trạng thái tâm được phân biệt",
+          "meaningUnits": [
+            "other-minds"
+          ],
+          "paragraphs": [
+            "Vị ấy hướng tâm định đến trí biết tâm người khác, dùng tâm mình biết tâm chúng sinh khác: có tham/không tham, có sân/không sân, có si/không si; co rút/tán loạn; quảng đại/không quảng đại; hữu thượng/vô thượng; có định/không định; giải thoát/không giải thoát. Hữu thượng là còn mức cao hơn, vô thượng là không còn mức cao hơn, không được ép thành tốt và xấu.",
+            "Ví một người trẻ nam hoặc nữ thích trang sức nhìn gương sạch sáng hay chậu nước trong, có vết thì biết có vết, không vết thì biết không. Phần lặp xếp trí này vào tuệ; không gọi sự đoán tâm lý thông thường là chứng nghiệm ấy."
+          ]
+        },
+        {
+          "id": "recollection",
+          "kind": "teaching",
+          "heading": "Đời trước được nhớ với đặc điểm và chi tiết",
+          "meaningUnits": [
+            "past-lives"
+          ],
+          "paragraphs": [
+            "Trên nền tâm đã định, vị ấy hướng tới nhớ đời trước: một đến năm đời; mười, hai mươi, ba mươi, bốn mươi, năm mươi; trăm, nghìn, trăm nghìn đời; nhiều chu kỳ thế giới co, giãn, hoặc cả co và giãn. Từng đời có tên, dòng họ, hình sắc, thức ăn, trải nghiệm lạc-khổ và giới hạn tuổi thọ; từ nơi ấy chết, sinh nơi khác, rồi sinh ở đây.",
+            "Ví người rời làng mình sang một làng, sang làng nữa, rồi về, nhớ ở mỗi nơi mình đã đứng, ngồi, nói và im ra sao. Trình tự và chi tiết của sự nhớ được giữ; đây là tuệ về đời trước theo kinh, không giản thành hồi tưởng trong một đời."
+          ]
+        },
+        {
+          "id": "passing",
+          "kind": "teaching",
+          "heading": "Chúng sinh chết, sinh và đi theo nghiệp",
+          "meaningUnits": [
+            "rebirth"
+          ],
+          "paragraphs": [
+            "Vị ấy hướng tâm đến trí thấy chết và sinh. Thiên nhãn thanh tịnh vượt mắt người thấy chúng sinh thấp/cao, đẹp/xấu, đến lành/dữ và biết sự đi theo nghiệp. Nhánh ác gồm thân, khẩu, ý ác hạnh, phỉ báng bậc Thánh, tà kiến và làm theo tà kiến; sau thân hoại mạng chung sinh đọa xứ, cảnh khổ, địa ngục. Nhánh thiện gồm thân, khẩu, ý thiện hạnh, không phỉ báng Thánh, chánh kiến và làm theo chánh kiến; sau chết sinh cõi lành, cõi trời.",
+            "Ví một người có mắt đứng trên nhà lầu giữa ngã tư, thấy đúng những người vào nhà, ra nhà, đi đường hoặc ngồi ở ngã tư. Đây cũng được xếp vào tuệ. Đó không phải quyền suy nghiệp từng người từ vẻ ngoài của họ."
+          ]
+        },
+        {
+          "id": "ending-taints",
+          "kind": "teaching",
+          "heading": "Tuệ đi đến tận lậu",
+          "meaningUnits": [
+            "defilements"
+          ],
+          "paragraphs": [
+            "Với tâm định, sạch, sáng, mềm dẻo, đắc dụng, vững và bất động, vị ấy hướng đến trí tận lậu hoặc. Vị ấy biết đúng thực khổ, nguồn sinh, sự diệt và đường diệt khổ; cũng biết lậu hoặc, nguồn sinh, sự diệt và đường diệt lậu hoặc.",
+            "Biết và thấy như thế, tâm giải thoát khỏi dục lậu, hữu lậu và vô minh lậu — những ô nhiễm gắn với dục, hiện hữu và không biết. Khi giải thoát, có trí biết đã giải thoát: sinh đã tận, phạm hạnh đã thành, việc cần làm đã làm, không còn hiện hữu như thế nữa.",
+            "Ví hồ ở hốc núi trong sáng không vẩn đục, người trên bờ thấy sò ốc, đá sỏi, đàn cá bơi hay đứng yên và nhận rõ từng thứ. Công thức lặp giữ cả khổ, lậu hoặc và kết quả giải thoát rồi gọi đây thuộc tuệ."
+          ]
+        },
+        {
+          "id": "final",
+          "kind": "teaching",
+          "heading": "Không còn việc cao hơn và lời quy y",
+          "meaningUnits": [
+            "completion",
+            "refuge"
+          ],
+          "paragraphs": [
+            "Ānanda xác nhận đây là nhóm tuệ Phật khen và đặt mọi người vào; ở đây không còn việc cao hơn. Subha thán phục hai lần: tuệ trọn, không thiếu, anh không thấy như vậy nơi các người tu khác, và không còn việc cao hơn. Lời kết này chỉ đến sau tiến trình tận lậu, không được chuyển ngược thành lời kết ở giới hay định.",
+            "Subha hai lần khen lời giảng, dùng bốn ví dựng vật úp, mở vật che, chỉ đường kẻ lạc, thắp đèn dầu trong tối cho người có mắt thấy; người anh khen đã làm sáng Pháp là Ānanda. Anh quy y Gotama, Pháp và Tăng, nhờ Ānanda ghi nhận nam cư sĩ nương tựa trọn đời từ ngày ấy. Không có lời xác nhận anh chứng quả hay xuất gia; nhãn cuối ghi kinh thứ mười kết thúc."
+          ]
+        },
+        {
+          "id": "limits",
+          "kind": "clarification",
+          "heading": "Lựa chọn nguồn và phạm vi của lời giảng",
+          "meaningUnits": [
+            "meeting",
+            "livelihood",
+            "knowledge"
+          ],
+          "paragraphs": [
+            "Cetaka được giữ là tên riêng theo Sujato; cách Minh Châu hiểu là vị tỳ-kheo xứ Cetiya vẫn được ghi nhận. Hai mục vassakamma/vossakamma trong danh sách tà mạng được diễn theo Sujato là cầu mưa và thu xếp tài sản; Việt dự án theo lối khác, nói can thiệp khả năng sinh dục. Bản diễn giải không coi các nguồn đã thống nhất về cặp tên này.",
+            "Những phương thức chữa trị xuất hiện trong danh sách cách nuôi mạng của người tu nhận tín thí. Không từ đó suy một lệnh cấm mọi điều trị, nhất là mở đầu bài chính Ānanda đã uống thuốc. Phần thân-thức, ý tạo và các thắng trí giữ cách mô tả của kinh, không được đồng nhất với mô hình khoa học hoặc khẳng định thêm linh hồn."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ: đánh giá một quyết định công việc",
+          "meaningUnits": [
+            "three",
+            "ethics-more",
+            "samadhi-more"
+          ],
+          "paragraphs": [
+            "Khi xét một phương án, ta có thể hỏi nó có làm tổn hại hoặc gian dối không, mình có đủ tập trung để xem xét không, và có thật hiểu hệ quả không. Ba câu hỏi soi ba mặt khác nhau. Đây là ví dụ do biên tập thêm, không phải định nghĩa đầy đủ giới-định-tuệ hay chứng cứ mình đã hoàn tất ba nhóm trong kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Xét điều đã làm và điều còn cần học",
+          "meaningUnits": [
+            "three",
+            "completion"
+          ],
+          "paragraphs": [
+            "Chọn một việc đang làm, ghi nhận mặt đã giữ tốt và một mặt còn thiếu, rồi tìm bước học tiếp phù hợp. Gợi ý này chỉ mượn sự phân biệt giữa các mặt tu học; không biến lời không còn việc cao hơn của người tận lậu thành lời tự chứng nhận cho một quyết định đời thường."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "DN10 — Ba phần tu học được nói cho trọn",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Cuộc thăm hỏi sau khi Phật nhập Niết-bàn",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "request",
+            "messenger"
+          ],
+          "paragraphs": [
+            "Kinh Subha, bài 10 Trường Bộ, kể chuyện không lâu sau khi Phật nhập Niết-bàn. Ānanda ở rừng Jeta, tu viện của Anāthapiṇḍika tại Sāvatthī. Thanh niên Subha, con Todeyya, đang ở thành này vì công việc.",
+            "Subha nhờ một thanh niên đến hỏi thăm Ānanda có ít bệnh, ít khó chịu, thân nhẹ nhàng, khỏe và sống an ổn không; rồi thỉnh Ngài vì thương tưởng đến nhà. Người ấy làm theo, đến chào hỏi thân thiện, ngồi một bên và trình đủ lời thăm cùng lời mời."
+          ]
+        },
+        {
+          "id": "appointment",
+          "kind": "teaching",
+          "heading": "Lời đáp dè dặt và cuộc gặp hôm sau",
+          "meaningUnits": [
+            "response",
+            "report",
+            "meeting"
+          ],
+          "paragraphs": [
+            "Ānanda nói hôm ấy chưa đúng lúc: Ngài đã uống một liều thuốc. Có lẽ ngày mai sẽ đến nếu thời gian và hoàn cảnh thuận. Người đưa tin trở về thuật lời hỏi sức khỏe, lời thỉnh và lời đáp ấy; anh cho rằng như thế đã được việc, bởi Ānanda đã dành cơ hội đến hôm sau.",
+            "Sáng hôm sau, Ānanda mặc y, mang y bát, cùng tỳ-kheo Cetaka đi sau, đến nhà Subha và ngồi chỗ soạn sẵn. Subha đến chào rồi ngồi bên. Anh nhắc Ānanda đã lâu làm thị giả, thường gần gũi Phật, nên hẳn biết Phật khen những pháp nào và đưa mọi người vào thực hành, đứng vững nơi đâu. Anh xin được nghe về điều đó."
+          ]
+        },
+        {
+          "id": "three",
+          "kind": "teaching",
+          "heading": "Giới, định và tuệ",
+          "meaningUnits": [
+            "three",
+            "teacher"
+          ],
+          "paragraphs": [
+            "Ānanda nêu ba nhóm: Thánh giới uẩn, Thánh định uẩn, Thánh tuệ uẩn. Có thể hiểu đây là ba phạm vi của đường tu: giữ cách sống lành, rèn tâm vững, phát triển sự biết thấy. Uẩn trong các tên ấy là nhóm, không phải đang kể lại năm uẩn của một con người. Subha hỏi phần giới trước.",
+            "Ānanda nói Như Lai xuất hiện ở đời, là A-la-hán, Chánh Đẳng Giác, đủ minh và hạnh, Thiện Thệ, biết thế gian, bậc hướng dẫn tối cao người cần rèn, thầy trời và người, Phật, Thế Tôn. Ngài tự chứng thế giới có chư thiên, Māra, Phạm thiên, sa-môn, bà-la-môn, trời và người rồi tuyên bày. Pháp tốt cả đầu, giữa, cuối, đầy đủ nghĩa và lời, hiển bày đời phạm hạnh hoàn toàn trong sạch."
+          ]
+        },
+        {
+          "id": "faith",
+          "kind": "teaching",
+          "heading": "Nghe pháp rồi chọn đời xuất gia",
+          "meaningUnits": [
+            "ordination"
+          ],
+          "paragraphs": [
+            "Một gia chủ, con gia chủ hoặc người trong gia đình khác nghe pháp, sinh lòng tin Như Lai. Người ấy xét đời có nhà chật hẹp, đầy bụi, đời xuất gia rộng mở; ở nhà khó thực hiện trọn đời phạm hạnh thanh tịnh như vỏ ốc đã đánh bóng. Sau đó, họ bỏ của cải ít hoặc nhiều, thân thuộc ít hoặc nhiều, cạo râu tóc, mặc cà-sa và xuất gia.",
+            "Đã xuất gia, vị ấy giữ giới bổn, cách đi đứng cư xử và nơi lui tới thích hợp; thận trọng cả lỗi nhỏ, học điều đã nhận. Thân và lời làm thiện, sinh kế trong sạch, thành tựu giới, giữ các căn, có niệm-tỉnh giác và biết đủ. Lời giảng mô tả một nếp tu được chọn, không gán cùng quyết định ấy cho mọi người đọc."
+          ]
+        },
+        {
+          "id": "kindness",
+          "kind": "teaching",
+          "heading": "Giới được triển khai từ không làm hại",
+          "meaningUnits": [
+            "ethics"
+          ],
+          "paragraphs": [
+            "Người tu bỏ sát sinh, không dùng gậy gươm, có lòng hổ thẹn trước điều xấu và thương tưởng lợi ích mọi sinh linh. Ānanda nói việc ấy thuộc giới. Một khối tiếp theo trong nguồn DN10 được lược, chỉ còn câu xác nhận thuộc giới; bản diễn giải giữ giới hạn này thay vì tự kể mọi điều giới của một bài khác."
+          ]
+        },
+        {
+          "id": "ritual-livelihood",
+          "kind": "teaching",
+          "heading": "Những việc kiếm sống được nêu tên",
+          "meaningUnits": [
+            "livelihood"
+          ],
+          "paragraphs": [
+            "Danh mục tiếp theo nói về một số người tu nhận đồ ăn từ lòng tin của tín thí nhưng nuôi sống bằng những việc kinh gọi là tà mạng. Về nghi lễ, có cầu an, cầu nguyện, việc liên quan ma quỷ, đất, cầu mưa, thu xếp tài sản, chuẩn bị nền nhà, làm lễ nền nhà, súc miệng, tắm và dâng lửa theo nghi thức.",
+            "Về các phương thức chữa trị cổ, có gây nôn, xổ, xổ trên, xổ dưới, xổ đầu; dầu tai, thuốc mắt, thuốc mũi, thuốc bôi và thuốc đối trị; dùng kim, dùng dao, chữa trẻ em, cho thuốc rễ cây và đắp thảo dược. Vị tỳ-kheo được mô tả là tránh nuôi mạng bằng các việc ấy. Câu lặp nhắc sự tránh ấy cũng thuộc giới; hai tên nghi lễ có cách đọc khác được lưu ý riêng cuối bản."
+          ]
+        },
+        {
+          "id": "blameless",
+          "kind": "teaching",
+          "heading": "Niềm an vui không có lỗi",
+          "meaningUnits": [
+            "blameless"
+          ],
+          "paragraphs": [
+            "Vị ấy đủ giới thì không thấy mối sợ hãi từ đâu, xét về sự thu thúc bằng giới. Ví một vua thuộc dòng Sát-đế-lợi, đã quán đảnh lên ngôi, dẹp kẻ địch, không còn lo từ phía địch. Giữ đúng phạm vi ví giúp hiểu đây là sự an ổn từ giới, không phải sự miễn trừ mọi rủi ro. Người đủ nhóm giới ấy cảm nhận an lạc không lỗi ở bên trong."
+          ]
+        },
+        {
+          "id": "ethics-question",
+          "kind": "teaching",
+          "heading": "Subha ngạc nhiên vì còn việc cao hơn",
+          "meaningUnits": [
+            "ethics-more"
+          ],
+          "paragraphs": [
+            "Ānanda nhận đó là nhóm giới Phật khen và giúp mọi người an lập, song vẫn còn việc cao hơn. Subha thán phục: giới này viên mãn chứ không thiếu; anh không thấy giới đầy đủ như thế ở các người tu khác. Nếu họ có được, theo lời Subha, hẳn họ đã bằng lòng rằng đủ rồi, làm xong rồi, đạt mục đích sa-môn rồi, không còn gì cao hơn. Thế mà Ānanda vẫn nói còn."
+          ]
+        },
+        {
+          "id": "doors",
+          "kind": "teaching",
+          "heading": "Bắt đầu phần định từ việc giữ các căn",
+          "meaningUnits": [
+            "senses"
+          ],
+          "paragraphs": [
+            "Subha hỏi định là thế nào. Ānanda nói khi mắt thấy sắc, tai nghe tiếng, mũi ngửi mùi, lưỡi nếm vị, thân tiếp xúc, ý biết pháp, vị ấy không nắm tướng chung hoặc từng chi tiết. Nếu buông sự phòng hộ, tham muốn và ưu não bất thiện có thể tràn vào; vì thế người tu thực hành giữ gìn. Có sự phòng hộ ấy, vị ấy hưởng an lạc không vẩn đục trong tâm."
+          ]
+        },
+        {
+          "id": "daily",
+          "kind": "teaching",
+          "heading": "Biết rõ trong các hoạt động",
+          "meaningUnits": [
+            "mindfulness"
+          ],
+          "paragraphs": [
+            "Niệm và tỉnh giác được nói qua việc biết rõ lúc tới lui, nhìn trước nhìn quanh, co duỗi, mang áo ngoài, y và bát; ăn, uống, nhai, nếm; đại tiện, tiểu tiện; đi, đứng, ngồi, ngủ, thức, nói và im. Chữ tỉnh giác ở đây hướng đến biết rõ việc đang diễn ra, trong cả nếp sống chứ không một tư thế riêng."
+          ]
+        },
+        {
+          "id": "enough",
+          "kind": "teaching",
+          "heading": "Biết đủ và nơi tu vắng",
+          "meaningUnits": [
+            "contentment",
+            "seclusion"
+          ],
+          "paragraphs": [
+            "Biết đủ là bằng lòng với y chăm thân và đồ ăn khất thực nuôi bụng. Đi đâu vị ấy mang chừng ấy, như con chim bay chỉ mang theo cánh. Bốn nền được nhắc cùng nhau là giới, phòng hộ căn, niệm-tỉnh giác và tri túc.",
+            "Người có nền ấy tìm nơi vắng: rừng, gốc cây, núi, khe núi, hang núi, bãi tha ma, rừng sâu, ngoài trời hay đống rơm. Sau bữa ăn, khất thực trở về, vị ấy ngồi xếp chân, giữ thân ngay và đặt niệm trước mặt. Đây là bối cảnh sống của người xuất gia trong lời giảng."
+          ]
+        },
+        {
+          "id": "clearing",
+          "kind": "teaching",
+          "heading": "Làm sạch từng chướng ngại",
+          "meaningUnits": [
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Năm triền cái được bỏ là tham đắm đời; sân hại; hôn trầm-buồn ngủ; trạo cử-hối hận; nghi hoặc. Người tu không chỉ gọi tên: bỏ tham để tâm lìa tham; bỏ sân với lòng thương mọi loài; bỏ lừ đừ với tưởng ánh sáng, niệm và biết rõ; bỏ xao động bằng sự lắng yên bên trong; vượt nghi, không còn lưỡng lự về thiện pháp. Tâm được gột khỏi từng chướng ấy."
+          ]
+        },
+        {
+          "id": "debt-illness",
+          "kind": "teaching",
+          "heading": "Như hết nợ, như hồi phục",
+          "meaningUnits": [
+            "debt",
+            "illness"
+          ],
+          "paragraphs": [
+            "Ví thứ nhất là người vay để làm ăn, làm thành rồi trả nợ cũ và còn dư nuôi vợ; nhìn lại, người ấy vui và hân hoan. Ví thứ hai là người bệnh nặng, đau khổ, không ngon miệng, không có sức; về sau khỏi bệnh, ăn ngon và mạnh lại. Nhớ sự đổi thay ấy, người ấy cũng vui. Các hình ảnh giải thích cảm nhận nhẹ gánh, không nói việc tu thay thế công việc hay chữa bệnh."
+          ]
+        },
+        {
+          "id": "freedom-images",
+          "kind": "teaching",
+          "heading": "Ra khỏi tù, được tự chủ, đến nơi an toàn",
+          "meaningUnits": [
+            "prison",
+            "servitude",
+            "wilderness"
+          ],
+          "paragraphs": [
+            "Ví thứ ba là người được ra khỏi ngục an toàn, không sợ và tài sản không hao. Ví thứ tư là người nô lệ từng lệ thuộc, không được tự do đi lại; rồi trở thành người tự chủ, không lệ thuộc và đi đâu theo ý. Trong mỗi chuyện, khi nhớ trước và sau, người ấy vui.",
+            "Ví thứ năm là người có của đi đường hoang thiếu ăn, có nguy hiểm, rồi vượt qua để đến làng an ổn không sợ. Người ấy nhìn lại mà hân hoan. Cả năm hình ảnh cùng nói sức nặng của tình trạng chưa thoát và niềm vui khi đã thoát."
+          ]
+        },
+        {
+          "id": "joy",
+          "kind": "teaching",
+          "heading": "Từ bỏ chướng đến tâm định",
+          "meaningUnits": [
+            "joy-chain"
+          ],
+          "paragraphs": [
+            "Người tu nhìn năm chướng ngại chưa bỏ như nợ, bệnh, ngục, nô lệ và đường hoang; khi đã bỏ thì như hết nợ, khỏe, ra tù, tự do và đến nơi an toàn. Thấy rõ mình đã bỏ chúng, niềm vui sinh; từ vui có hỷ; thân nhờ đó lắng dịu; thân lắng thì cảm lạc; với lạc, tâm được định. Bài nêu các bước, không chỉ nêu một trạng thái bình yên chung."
+          ]
+        },
+        {
+          "id": "first",
+          "kind": "teaching",
+          "heading": "Thiền thứ nhất và ví bột tắm",
+          "meaningUnits": [
+            "first-jhana"
+          ],
+          "paragraphs": [
+            "Rời dục và bất thiện, vị ấy chứng trú thiền thứ nhất, có tầm-tứ, hỷ-lạc do ly. Tầm-tứ được mở nghĩa ở đây là đặt tâm và giữ tâm gắn với chỗ tu; hỷ là hân hoan, lạc là an vui. Hỷ lạc thấm toàn thân, không phần nào thiếu.",
+            "Thợ tắm khéo hoặc học trò cho bột vào chậu đồng, rưới nước ít một và nhào để trong ngoài đều ẩm mà không rỉ nước. Ví ấy được áp lại vào sự thấm khắp thân; Ānanda gọi đó thuộc về định."
+          ]
+        },
+        {
+          "id": "second",
+          "kind": "teaching",
+          "heading": "Thiền thứ hai và hồ có nguồn nước",
+          "meaningUnits": [
+            "second-jhana"
+          ],
+          "paragraphs": [
+            "Tầm-tứ lắng, nội tâm sáng trong, tâm thống nhất; người tu chứng thiền thứ hai không tầm-tứ, hỷ-lạc do định. Khắp thân được thấm hỷ lạc ấy. Ví hồ sâu không nhận nước từ bốn phía Đông, Nam, Tây, Bắc, cũng không được những cơn mưa từng lúc cấp nước; dòng mát ngay trong hồ dâng lên, làm đầy khắp hồ, không chỗ nào thiếu. Đây cũng thuộc định."
+          ]
+        },
+        {
+          "id": "third",
+          "kind": "teaching",
+          "heading": "Thiền thứ ba và những hoa sen còn trong nước",
+          "meaningUnits": [
+            "third-jhana"
+          ],
+          "paragraphs": [
+            "Rời hỷ, vị ấy trú xả, có niệm và biết rõ, cảm nhận lạc bằng thân. Người ấy được bậc Thánh gọi là có xả, có niệm, sống an lạc. Thiền thứ ba có lạc không còn hỷ thấm toàn thân.",
+            "Ví những sen xanh, hồng hay trắng sinh và lớn dưới nước, chưa vươn mặt nước, được nước mát nuôi khắp từ ngọn tới gốc. Chặng này được xếp vào định; sự lắng hỷ không có nghĩa lạc cũng đã mất."
+          ]
+        },
+        {
+          "id": "fourth",
+          "kind": "teaching",
+          "heading": "Thiền thứ tư và tấm vải trắng",
+          "meaningUnits": [
+            "fourth-jhana"
+          ],
+          "paragraphs": [
+            "Ở chặng tiếp, lạc và khổ được bỏ, hỷ và ưu trước đó đã chấm dứt. Vị ấy chứng thiền thứ tư không khổ không lạc, xả-niệm thanh tịnh. Tâm trong sạch, sáng rõ thấm khắp thân. Ví một người ngồi được vải trắng trùm cả đầu lẫn thân, không chỗ nào không phủ. Ānanda xác nhận điều này cũng thuộc định."
+          ]
+        },
+        {
+          "id": "further",
+          "kind": "teaching",
+          "heading": "Vẫn cần đi tiếp sau định",
+          "meaningUnits": [
+            "samadhi-more"
+          ],
+          "paragraphs": [
+            "Nhóm định ấy là điều Phật tán thán và an lập mọi người trong đó, nhưng còn việc cao hơn. Subha hai lần thán phục, nói định này trọn vẹn, không thiếu và mình không thấy nơi các người tu khác. Nếu họ có, hẳn họ cho chừng ấy là đủ, việc đã xong, mục đích đã đạt, không còn việc cao hơn. Ānanda vẫn nói còn; Subha xin nghe nhóm tuệ."
+          ]
+        },
+        {
+          "id": "knowing",
+          "kind": "teaching",
+          "heading": "Biết thân và thức dựa vào tâm đã vững",
+          "meaningUnits": [
+            "knowledge"
+          ],
+          "paragraphs": [
+            "Tâm được nêu làm nền là đã định, thanh tịnh, sáng, không tì vết, không ô nhiễm, mềm dẻo, dùng được, đứng vững và bất động. Người tu hướng tâm tới tri kiến, sự biết và thấy: thân có sắc, gồm bốn đại, cha mẹ sinh, cơm cháo nuôi, chịu vô thường, hao mòn, vỡ hoại, tan rã; thức nương và bị buộc tại thân ấy.",
+            "Ví người có mắt cầm viên ngọc lưu ly đẹp, tám mặt, khéo mài, trong suốt, không đục, xem rõ sợi chỉ xanh, vàng, đỏ, trắng hay vàng nhạt luồn qua. Ví và lời lặp đưa sự biết rõ thân-thức vào nhóm tuệ; không tự kể thêm một linh hồn bất biến trong thân."
+          ]
+        },
+        {
+          "id": "mindmade",
+          "kind": "teaching",
+          "heading": "Thân khác do ý tạo",
+          "meaningUnits": [
+            "mindmade"
+          ],
+          "paragraphs": [
+            "Từ nền tâm đã rèn ấy, vị ấy hướng đến hóa hiện một thân khác từ thân này: thân có sắc, do ý tạo, đủ các chi lớn nhỏ, không thiếu căn. Có ba ví: lõi cỏ được rút khỏi bẹ, gươm được rút khỏi vỏ, rắn được rút khỏi lốt. Mỗi lần đều biết rõ hai thứ khác nhau và một thứ được lấy ra từ thứ kia. Lời giảng xếp điều này vào tuệ."
+          ]
+        },
+        {
+          "id": "abilities",
+          "kind": "teaching",
+          "heading": "Những khả năng thần thông",
+          "meaningUnits": [
+            "powers"
+          ],
+          "paragraphs": [
+            "Cũng với nền tâm ấy, người tu hướng đến thần thông. Các khả năng được kể là một hóa nhiều và nhiều hóa một; hiện, ẩn; đi qua tường, thành và núi như qua hư không; trồi lặn trong đất như nước; đi trên nước như đất; bay ngồi xếp chân như chim; chạm vuốt mặt trăng, mặt trời có đại lực; tự tại bằng thân tới cõi Phạm thiên.",
+            "Các ví là thợ gốm hoặc học trò với đất sét đã nhào tốt; thợ ngà hoặc học trò với ngà đã chuẩn bị; thợ vàng hoặc học trò với vàng đã tinh luyện. Mỗi người muốn làm hình gì thì có thể làm thành hình ấy. Sự đắc dụng được minh họa như vậy, và phần thần thông được nhận là thuộc tuệ."
+          ]
+        },
+        {
+          "id": "hearing",
+          "kind": "teaching",
+          "heading": "Khả năng nghe được nói riêng",
+          "meaningUnits": [
+            "divine-ear"
+          ],
+          "paragraphs": [
+            "Người tu hướng nền tâm ấy tới thiên nhĩ thanh tịnh, vượt tai người, nghe cả tiếng trời lẫn tiếng người, dù xa hoặc gần. Ví một người đi đường phân biệt được tiếng bheri, mudiṅga, saṅkha, paṇava và dindima: các loại trống và tù và có tên riêng trong bản Pāli. Điều nhấn mạnh là biết rõ tiếng nào, không trộn lẫn. Đây cũng là phần tuệ."
+          ]
+        },
+        {
+          "id": "minds",
+          "kind": "teaching",
+          "heading": "Nhận rõ các dạng tâm",
+          "meaningUnits": [
+            "other-minds"
+          ],
+          "paragraphs": [
+            "Trên nền tâm định, vị ấy hướng đến biết tâm người khác, chúng sinh khác. Danh mục có tâm tham và không tham, sân và không sân, si và không si; co rút và tán loạn; quảng đại và không quảng đại; hữu thượng và vô thượng; định và không định; giải thoát và không giải thoát.",
+            "Hữu thượng nghĩa là còn mức cao hơn, vô thượng là không còn mức cao hơn; không chỉ là nhãn khen, chê. Ví người trẻ, nam hay nữ, ưa trang sức soi gương sạch sáng hoặc chậu nước trong: có vết biết có, không vết biết không. Phần biết tâm được xếp vào tuệ, không phải khuyến khích suy đoán người khác."
+          ]
+        },
+        {
+          "id": "past-lives",
+          "kind": "teaching",
+          "heading": "Trí nhớ các đời trước",
+          "meaningUnits": [
+            "past-lives"
+          ],
+          "paragraphs": [
+            "Tâm đã rèn được hướng đến nhớ những đời trước: một, hai, ba, bốn, năm, mười, hai mươi, ba mươi, bốn mươi, năm mươi, trăm, nghìn, trăm nghìn đời; nhiều kiếp thế giới co, giãn hoặc co và giãn. Từng đời có tên, họ, hình sắc, thức ăn, trải nghiệm lạc khổ, tuổi thọ; từ nơi này chết rồi sinh nơi khác, rồi đến đời này.",
+            "Ví người từ làng mình đi sang làng khác, lại sang một làng nữa rồi về; nhớ ở mỗi nơi mình đứng, ngồi, nói, im thế nào. Đó là sự nhớ có nét và chi tiết. Ānanda gọi đây thuộc tuệ; lời kể không được rút thành chỉ nhớ chuyện tuổi trẻ trong một đời."
+          ]
+        },
+        {
+          "id": "rebirth",
+          "kind": "teaching",
+          "heading": "Thấy sinh tử và sự đi theo nghiệp",
+          "meaningUnits": [
+            "rebirth"
+          ],
+          "paragraphs": [
+            "Người tu hướng tâm đến trí thấy chúng sinh chết và sinh. Thiên nhãn thanh tịnh, vượt mắt người, thấy các trường hợp thấp, cao, đẹp, xấu, về nơi lành hay dữ và biết chúng sinh đi theo nghiệp.",
+            "Bên ác gồm hành động, lời nói, ý nghĩ ác; phỉ báng bậc Thánh, thấy sai và hành động theo thấy sai; sau thân hoại mạng chung sinh cảnh khổ, đọa xứ, địa ngục. Bên thiện gồm thân, lời, ý lành; không phỉ báng Thánh, thấy đúng và làm theo; sau chết sinh cõi lành, cõi trời.",
+            "Ví người có mắt trên nhà lầu giữa ngã tư nhìn thấy người vào nhà, ra nhà, đi đường hoặc ngồi ngã tư. Khả năng thấy được đưa vào tuệ. Những điều mô tả về nghiệp không cho phép người đọc quy kết một người chỉ qua diện mạo hoặc hoàn cảnh."
+          ]
+        },
+        {
+          "id": "taints",
+          "kind": "teaching",
+          "heading": "Sự biết dẫn đến giải thoát",
+          "meaningUnits": [
+            "defilements"
+          ],
+          "paragraphs": [
+            "Sau các phần ấy là trí tận lậu hoặc trên cùng nền tâm định, sạch sáng, không ô nhiễm, mềm dẻo, dùng được, vững và bất động. Người tu biết như thật bốn điều về khổ: khổ, nguồn khổ, diệt khổ, đường diệt khổ; cũng biết bốn điều tương ứng về lậu hoặc: ô nhiễm sâu, nguồn sinh, sự diệt và đường đưa đến diệt.",
+            "Biết và thấy như thế, tâm thoát dục lậu, hữu lậu, vô minh lậu — những trói buộc gắn với dục, hiện hữu và không biết. Đã giải thoát thì biết đã giải thoát; sinh đã tận, phạm hạnh đã thành, việc cần làm đã làm, không còn hiện hữu như thế nữa.",
+            "Ví hồ nước trong hốc núi sáng trong không đục; người trên bờ nhận rõ sò ốc, đá sỏi, đàn cá đang bơi hoặc đứng yên. Lời lặp giữ sự biết khổ, lậu hoặc và giải thoát, rồi xác nhận đây thuộc tuệ."
+          ]
+        },
+        {
+          "id": "completion",
+          "kind": "teaching",
+          "heading": "Lần này không còn việc cao hơn",
+          "meaningUnits": [
+            "completion",
+            "refuge"
+          ],
+          "paragraphs": [
+            "Ānanda nói đó là nhóm tuệ Phật khen và giúp mọi người an lập; ở đây không còn việc cao hơn. Subha thán phục hai lần, nhận tuệ viên mãn, không thiếu, nói mình chưa thấy như thế nơi các người tu khác và đồng ý không còn việc cao hơn.",
+            "Anh lại khen hai lần, dùng các ví dựng vật úp, mở vật che, chỉ người lạc đường, đem đèn dầu vào tối cho người có mắt thấy. Người được khen làm sáng Pháp bằng nhiều cách là Ānanda. Subha xin quy y Gotama, Pháp và Tăng; nhờ Ānanda nhận mình là nam cư sĩ đã quy y từ ngày ấy đến trọn đời. Kinh kết với nhãn thứ mười, không kể Subha xuất gia hay chứng quả."
+          ]
+        },
+        {
+          "id": "clarify",
+          "kind": "clarification",
+          "heading": "Giữ đúng những chỗ nguồn còn khác",
+          "meaningUnits": [
+            "meeting",
+            "livelihood"
+          ],
+          "paragraphs": [
+            "Tên Cetaka đi cùng Ānanda theo cách đọc của Sujato; Minh Châu hiểu đây là người xứ Cetiya. Hai mục nghi lễ vassakamma/vossakamma được diễn ở trên là cầu mưa, thu xếp tài sản theo Sujato; bản Việt dự án hiểu theo việc làm thay đổi khả năng sinh dục. Lựa chọn được nói rõ vì nguồn chưa thống nhất.",
+            "Danh sách tà mạng ở đây đặt trong cách nuôi sống người tu nhận tín thí, không phải một lời cấm mọi chăm sóc bệnh. Đầu kinh còn kể Ānanda đã uống thuốc. Những khả năng đặc biệt được giữ là điều kinh thuật, không xem như lời hứa về sức khỏe hay một phương pháp hiện đại."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ: cùng bạn bè chuẩn bị một việc chung",
+          "meaningUnits": [
+            "three",
+            "ethics-more",
+            "samadhi-more"
+          ],
+          "paragraphs": [
+            "Một nhóm bạn muốn tổ chức buổi đọc sách. Họ cần tôn trọng người tham gia, chăm chú đọc, và hiểu điều sẽ trao đổi. Giữ tốt một mặt chưa làm hai mặt kia tự đầy đủ. Đây là liên hệ của người biên tập để gợi cách phân biệt, không đặt buổi đọc sách ngang thành tựu giới, định và tuệ trong kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Nhận phần đã có, chọn phần cần học",
+          "meaningUnits": [
+            "three",
+            "completion"
+          ],
+          "paragraphs": [
+            "Có thể chọn một dự định vừa sức, xem cách làm có ngay thẳng không, tâm có chú ý không và điều gì còn chưa hiểu. Chọn một bước học tiếp, vẫn ghi nhận điều đã làm được. Gợi ý này không biến lời hoàn thành của người tận lậu thành thước đo thành tích cho tuổi tác hoặc một công việc đời thường."
+          ]
+        }
+      ]
+    }
+  }
+}

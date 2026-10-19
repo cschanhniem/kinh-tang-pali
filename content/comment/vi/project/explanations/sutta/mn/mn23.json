@@ -1,0 +1,817 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn23",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn23_root-pli-ms.json",
+      "sha256": "99149874513ecee82b6a45958bd7035fd73afd576fba42c32f0368ce52cf3f02",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn23_translation-en-sujato.json",
+      "sha256": "256e34e71e5e2a6e363b24f0f1656f983c78b5449586fc696014c1d4a732e6f2",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn23_translation-vi-project.json",
+      "sha256": "0cbcfd04059b34b0030b7d20fa6af82a718500800a0135c35338470633bca612",
+      "commit": "cac22dc9d18cfc1960413c1188129c796a37e935"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn23.html",
+      "sha256": "dd3a797bde32fc41eab6e3795d92b9be25b2b5d4911b942ae5bff94b7ef1af82",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn23_comment-vi-project.json",
+      "sha256": "e1fda0ad7db55c3ec5d95bcdfa1bb5b167913866b9e8cfce5f3d2e7f7b62c46a",
+      "commit": "cac22dc9d18cfc1960413c1188129c796a37e935"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Nhận diện Kinh Gò Mối",
+      "segments": [
+        "mn23:0.1",
+        "mn23:0.2"
+      ],
+      "summary": "MN23, Vammikasutta; nhãn ấn bản, không phải lời nhân vật."
+    },
+    {
+      "id": "setting",
+      "title": "Vị trời gặp Kumāra Kassapa",
+      "segments": [
+        "mn23:1.1",
+        "mn23:1.2",
+        "mn23:1.3",
+        "mn23:1.4"
+      ],
+      "summary": "Người kể đã nghe: Phật ở Sāvatthī/Jeta/Anāthapiṇḍika, Kumāra Kassapa ở Andhavana; đêm khuya vị trời rực rỡ chiếu cả rừng đến đứng một bên."
+    },
+    {
+      "id": "riddle",
+      "title": "Gò mối bốc khói và cháy sáng",
+      "segments": [
+        "mn23:2.1",
+        "mn23:2.2",
+        "mn23:2.3"
+      ],
+      "summary": "Vị trời nêu câu đố gò mối đêm khói/ngày lửa; bà-la-môn bảo người có trí cầm gươm đào."
+    },
+    {
+      "id": "find-bar",
+      "title": "Đào thấy then cửa",
+      "segments": [
+        "mn23:2.4",
+        "mn23:2.5",
+        "mn23:2.6",
+        "mn23:2.7",
+        "mn23:2.8"
+      ],
+      "summary": "Người trí đào, thấy và trình then cửa; bà-la-môn bảo lấy bỏ rồi cầm gươm đào tiếp."
+    },
+    {
+      "id": "find-frog",
+      "title": "Đào thấy con nhái",
+      "segments": [
+        "mn23:2.9",
+        "mn23:2.10",
+        "mn23:2.11",
+        "mn23:2.12",
+        "mn23:2.13"
+      ],
+      "summary": "Kế tiếp thấy và trình con nhái; lấy bỏ rồi tiếp tục đào với gươm."
+    },
+    {
+      "id": "find-fork",
+      "title": "Đào thấy đường hai ngã",
+      "segments": [
+        "mn23:2.14",
+        "mn23:2.15",
+        "mn23:2.16",
+        "mn23:2.17",
+        "mn23:2.18"
+      ],
+      "summary": "Kế tiếp thấy và trình đường hai ngã; lấy bỏ rồi tiếp tục đào với gươm."
+    },
+    {
+      "id": "find-sieve",
+      "title": "Đào thấy cái rây lọc",
+      "segments": [
+        "mn23:2.19",
+        "mn23:2.20",
+        "mn23:2.21",
+        "mn23:2.22",
+        "mn23:2.23"
+      ],
+      "summary": "Kế tiếp thấy và trình cái rây lọc; lấy bỏ rồi tiếp tục đào với gươm. Không quyết đoán vật liệu được lọc."
+    },
+    {
+      "id": "find-tortoise",
+      "title": "Đào thấy con rùa",
+      "segments": [
+        "mn23:2.24",
+        "mn23:2.25",
+        "mn23:2.26",
+        "mn23:2.27",
+        "mn23:2.28"
+      ],
+      "summary": "Kế tiếp thấy và trình con rùa; lấy bỏ rồi tiếp tục đào với gươm."
+    },
+    {
+      "id": "find-knife",
+      "title": "Đào thấy dao phay và thớt",
+      "segments": [
+        "mn23:2.29",
+        "mn23:2.30",
+        "mn23:2.31",
+        "mn23:2.32",
+        "mn23:2.33"
+      ],
+      "summary": "Kế tiếp thấy và trình dao phay cùng thớt; lấy bỏ rồi tiếp tục đào với gươm. Giữ cả hai vật."
+    },
+    {
+      "id": "find-meat",
+      "title": "Đào thấy miếng thịt",
+      "segments": [
+        "mn23:2.34",
+        "mn23:2.35",
+        "mn23:2.36",
+        "mn23:2.37",
+        "mn23:2.38"
+      ],
+      "summary": "Kế tiếp thấy và trình miếng thịt; lấy bỏ rồi tiếp tục đào với gươm."
+    },
+    {
+      "id": "find-naga",
+      "title": "Để yên và kính lễ con rắn",
+      "segments": [
+        "mn23:2.39",
+        "mn23:2.40",
+        "mn23:2.41",
+        "mn23:2.42"
+      ],
+      "summary": "Cuối cùng thấy và trình nāga; bà-la-môn đổi chỉ dẫn: để yên, không làm động, kính lễ."
+    },
+    {
+      "id": "direction",
+      "title": "Hỏi người biết lời giải",
+      "segments": [
+        "mn23:2.43",
+        "mn23:2.44",
+        "mn23:2.45",
+        "mn23:2.46"
+      ],
+      "summary": "Vị trời bảo hỏi Phật và ghi nhớ đúng lời đáp; giữa thế giới trời/Māra/Phạm thiên/sa-môn/bà-la-môn/trời/người, không thấy ai giải thỏa đáng ngoài Như Lai, đệ tử, hoặc người nghe từ họ; vị trời biến mất tại chỗ."
+    },
+    {
+      "id": "report",
+      "title": "Kassapa trình đủ câu đố và hỏi",
+      "segments": [
+        "mn23:3.1",
+        "mn23:3.2",
+        "mn23:3.3",
+        "mn23:3.4",
+        "mn23:3.5",
+        "mn23:3.6",
+        "mn23:3.7",
+        "mn23:3.8",
+        "mn23:3.9",
+        "mn23:3.10"
+      ],
+      "summary": "Sau đêm Kassapa đến đảnh lễ/ngồi một bên, thuật cuộc gặp và toàn câu đố (Pāli có lược), hỏi đủ 15 biểu tượng gồm gò/khói/lửa/bà-la-môn/người trí/gươm/đào và 8 thứ tìm thấy."
+    },
+    {
+      "id": "body",
+      "title": "Gò mối là thân",
+      "segments": [
+        "mn23:4.1"
+      ],
+      "summary": "Thân do bốn đại, sinh từ cha mẹ, lớn nhờ cơm cháo, vô thường/hao mòn/tan rã/vỡ nát/hủy diệt."
+    },
+    {
+      "id": "smoke-flame",
+      "title": "Suy nghĩ đêm và việc làm ngày",
+      "segments": [
+        "mn23:4.2",
+        "mn23:4.3",
+        "mn23:4.4",
+        "mn23:4.5"
+      ],
+      "summary": "Đêm suy nghĩ/cân nhắc việc đã làm ngày là khói; ngày thực hiện bằng thân, lời và ý điều đã nghĩ/cân nhắc đêm là lửa. Giữ hướng thời gian và đủ ba cửa hành động."
+    },
+    {
+      "id": "teacher-tools",
+      "title": "Người hướng dẫn, người học, trí tuệ và tinh tấn",
+      "segments": [
+        "mn23:4.6",
+        "mn23:4.7",
+        "mn23:4.8",
+        "mn23:4.9"
+      ],
+      "summary": "Bà-la-môn=Như Lai/A-la-hán/Chánh Đẳng Giác; người trí=tỳ-kheo hữu học; gươm=Thánh tuệ; đào=phát động tinh tấn."
+    },
+    {
+      "id": "ignorance",
+      "title": "Bỏ vô minh",
+      "segments": [
+        "mn23:4.10",
+        "mn23:4.11",
+        "mn23:4.12"
+      ],
+      "summary": "Then cửa=vô minh; lấy bỏ nghĩa bỏ vô minh, tiếp tục đào với gươm (tuệ và tinh tấn)."
+    },
+    {
+      "id": "anger",
+      "title": "Bỏ phẫn nộ và ưu não",
+      "segments": [
+        "mn23:4.13",
+        "mn23:4.14",
+        "mn23:4.15"
+      ],
+      "summary": "Nhái=phẫn nộ và ưu não, không thay ưu não bằng hiềm hận; lấy bỏ rồi tiếp tục đào với gươm."
+    },
+    {
+      "id": "doubt",
+      "title": "Bỏ nghi hoặc",
+      "segments": [
+        "mn23:4.16",
+        "mn23:4.17",
+        "mn23:4.18"
+      ],
+      "summary": "Đường hai ngã=nghi hoặc; lấy bỏ rồi tiếp tục đào với gươm."
+    },
+    {
+      "id": "hindrances",
+      "title": "Bỏ năm triền cái",
+      "segments": [
+        "mn23:4.19",
+        "mn23:4.20",
+        "mn23:4.21",
+        "mn23:4.22"
+      ],
+      "summary": "Rây lọc=5triền cái: dục tham, sân, hôn trầm/buồn ngủ, xao động/hối tiếc, nghi; lấy bỏ rồi tiếp tục đào với gươm."
+    },
+    {
+      "id": "aggregates",
+      "title": "Bỏ năm thủ uẩn",
+      "segments": [
+        "mn23:4.23",
+        "mn23:4.24",
+        "mn23:4.25",
+        "mn23:4.26"
+      ],
+      "summary": "Rùa=5thủ uẩn sắc/thọ/tưởng/hành/thức; lấy bỏ nghĩa từ bỏ 5thủ uẩn, rồi tiếp tục đào với gươm."
+    },
+    {
+      "id": "sensual",
+      "title": "Bỏ năm dục lạc giác quan",
+      "segments": [
+        "mn23:4.27",
+        "mn23:4.28",
+        "mn23:4.29",
+        "mn23:4.30",
+        "mn23:4.31",
+        "mn23:4.32",
+        "mn23:4.33",
+        "mn23:4.34"
+      ],
+      "summary": "Dao phay và thớt=5dục trưởng dưỡng: sắc/mắt, thanh/tai, hương/mũi, vị/lưỡi, xúc/thân; mỗi thứ đáng ưa/thích/dễ chịu/mến/liên hệ dục/khêu tham. Bỏ rồi tiếp tục đào với gươm."
+    },
+    {
+      "id": "relish",
+      "title": "Bỏ thích thú và tham đắm",
+      "segments": [
+        "mn23:4.35",
+        "mn23:4.36",
+        "mn23:4.37"
+      ],
+      "summary": "Miếng thịt=nandīrāga, thích thú/tham đắm; bỏ rồi tiếp tục đào với gươm."
+    },
+    {
+      "id": "liberation",
+      "title": "Tôn kính vị đã tận lậu hoặc",
+      "segments": [
+        "mn23:4.38",
+        "mn23:4.39"
+      ],
+      "summary": "Nāga=tỳ-kheo tận lậu hoặc; đây là nghĩa để yên/không làm động/kính lễ, không biến thành bỏ vị ấy như bảy vật trước."
+    },
+    {
+      "id": "ending",
+      "title": "Kassapa vui với lời giải",
+      "segments": [
+        "mn23:4.40",
+        "mn23:4.41",
+        "mn23:4.42"
+      ],
+      "summary": "Phật nói xong, Kumāra Kassapa hoan hỷ tán đồng; colophon bài thứ ba trong phẩm, UID MN23. Không kể chứng đắc mới của Kassapa."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Câu đố trong gò mối: đào để tìm thấy điều gì?",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một câu đố giữa đêm",
+          "paragraphs": [
+            "MN23, Kinh Gò Mối, kể một câu đố lạ. Đức Phật đang ở rừng Jeta, tu viện Anāthapiṇḍika tại Sāvatthī. Thầy Kumāra Kassapa thì ở rừng Andha. Đêm khuya, một vị trời sáng rực đến, chiếu sáng cả khu rừng và đứng bên thầy.",
+            "Vị trời kể: có một gò mối ban đêm bốc khói, ban ngày cháy sáng. Một vị bà-la-môn bảo người có trí cầm gươm mà đào. Bà-la-môn là tên một tầng lớp có vai trò tôn giáo trong xã hội Ấn Độ thời ấy. Trong gò mối ấy sẽ có gì?"
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "riddle"
+          ]
+        },
+        {
+          "id": "finds",
+          "kind": "teaching",
+          "heading": "Bảy lần: lấy ra rồi đào tiếp",
+          "paragraphs": [
+            "Người có trí đào lên, thấy một then cửa và thưa lại. Vị bà-la-môn bảo lấy then cửa ra, cầm gươm đào tiếp. Lần sau, người ấy thấy con nhái. Lại thưa, lại được bảo lấy ra rồi đào tiếp.",
+            "Cứ thế, theo đúng thứ tự, người ấy tìm thấy một con đường hai ngã, cái rây lọc, con rùa, dao phay cùng thớt, rồi miếng thịt. Với mỗi thứ, người ấy đều trình lại, và vị bà-la-môn đều bảo lấy ra, cầm gươm đào nữa. Câu đố có những điều không thể gặp trong một cuộc đào đất thông thường, như cả con đường nằm trong gò mối."
+          ],
+          "meaningUnits": [
+            "find-bar",
+            "find-frog",
+            "find-fork",
+            "find-sieve",
+            "find-tortoise",
+            "find-knife",
+            "find-meat"
+          ]
+        },
+        {
+          "id": "last",
+          "kind": "teaching",
+          "heading": "Lần này lời dặn khác hẳn",
+          "paragraphs": [
+            "Cuối cùng người ấy thấy con rắn. Nhưng vị bà-la-môn không bảo lấy nó ra. Ông bảo để yên, đừng làm động và hãy kính lễ. Vì sao những thứ trước cần bỏ, còn đến đây cần kính trọng?",
+            "Vị trời dặn Kassapa đến hỏi Đức Phật và ghi nhớ đúng lời Ngài giải. Vị ấy nói trong cả thế giới có chư thiên, Māra, Phạm thiên, những người tu, bà-la-môn và loài người, không thấy ai giải thỏa đáng ngoài Đức Phật, đệ tử của Ngài hoặc người đã nghe lời giải từ họ. Nói xong, vị trời biến mất ngay tại chỗ.",
+            "Sáng hôm sau, Kassapa đến đảnh lễ Đức Phật, ngồi một bên, kể lại cuộc gặp và toàn câu đố. Thầy hỏi nghĩa từng hình ảnh: gò mối, khói, lửa, hai người, gươm, việc đào và cả tám thứ tìm thấy."
+          ],
+          "meaningUnits": [
+            "find-naga",
+            "direction",
+            "report"
+          ]
+        },
+        {
+          "id": "body",
+          "kind": "teaching",
+          "heading": "Gò mối ấy là thân này",
+          "paragraphs": [
+            "Đức Phật giải: gò mối chỉ thân được tạo thành từ bốn đại, tức những yếu tố vật chất cấu thành thân. Thân do cha mẹ sinh, lớn lên nhờ cơm cháo, rồi thay đổi, hao mòn, tan rã, có thể vỡ nát và hủy diệt. Nó cần nhiều điều kiện để sống, không bền mãi.",
+            "Khói ban đêm là suy nghĩ và cân nhắc về việc đã làm ban ngày. Lửa ban ngày là đem những điều đã nghĩ ban đêm ra làm bằng thân, lời nói và ý. Bài nối việc mình nghĩ với việc mình làm; ngay cả hoạt động trong tâm cũng được kể, chứ không chỉ tay chân."
+          ],
+          "meaningUnits": [
+            "body",
+            "smoke-flame"
+          ]
+        },
+        {
+          "id": "tools",
+          "kind": "teaching",
+          "heading": "Gươm và việc đào có nghĩa gì?",
+          "paragraphs": [
+            "Vị bà-la-môn trong câu đố chỉ Đức Phật: Như Lai, bậc A-la-hán, Chánh Đẳng Giác, vị đã giải thoát và giác ngộ hoàn toàn. Người có trí chỉ một tỳ-kheo hữu học, tức thầy tu còn đang rèn luyện trên con đường ấy.",
+            "Gươm là trí tuệ của bậc Thánh. Đào là khởi lên tinh tấn, sự cố gắng tu tập. Vậy cách làm được dạy là dùng trí tuệ và cố gắng, không cầm gươm đào đất hay làm đau thân để tìm những vật bên trong."
+          ],
+          "meaningUnits": [
+            "teacher-tools"
+          ]
+        },
+        {
+          "id": "three",
+          "kind": "teaching",
+          "heading": "Then cửa, con nhái và đường hai ngã",
+          "paragraphs": [
+            "Then cửa là vô minh: không hiểu đúng. Lấy nó ra là bỏ vô minh. Con nhái chỉ phẫn nộ và ưu não, tức giận dữ cùng sự khốn khổ, bức bối trong lòng. Lấy nó ra là bỏ cả hai điều ấy.",
+            "Con đường hai ngã chỉ nghi hoặc, sự phân vân làm việc tu không tiến. Lấy nó ra là bỏ nghi hoặc. Với từng điều, Đức Phật vẫn nhắc dùng gươm và đào tiếp: cần trí tuệ và cố gắng. Hỏi để hiểu, như Kassapa đang hỏi, giúp đi tới sự sáng rõ; em không cần giả vờ đã hiểu."
+          ],
+          "meaningUnits": [
+            "ignorance",
+            "anger",
+            "doubt"
+          ]
+        },
+        {
+          "id": "sieve",
+          "kind": "teaching",
+          "heading": "Cái rây và năm điều che tâm",
+          "paragraphs": [
+            "Cái rây lọc chỉ năm triền cái, nghĩa là năm điều cản tâm trong việc tu: ham những vui thích giác quan; sân hận, muốn làm hại; tâm uể oải và buồn ngủ; xao động và hối tiếc; nghi hoặc.",
+            "Lấy rây ra nghĩa là bỏ đủ năm điều ấy, rồi tiếp tục bằng trí tuệ và tinh tấn. Những từ này giúp gọi tên điều đang cản trở, không phải tên để chê một người là xấu."
+          ],
+          "meaningUnits": [
+            "hindrances"
+          ]
+        },
+        {
+          "id": "tortoise",
+          "kind": "teaching",
+          "heading": "Con rùa và điều mình ôm làm tôi",
+          "paragraphs": [
+            "Con rùa chỉ năm thủ uẩn. Năm uẩn là năm nhóm: sắc, phần vật chất như thân; thọ, cảm giác dễ chịu, khó chịu hoặc không cả hai; tưởng, sự nhận ra; hành, những hoạt động tạo tác như ý định; thức, sự biết đối tượng. Chữ thủ nói việc nắm giữ, bám chặt vào những nhóm ấy.",
+            "Lấy con rùa ra nghĩa là từ bỏ năm thủ uẩn, rồi tiếp tục dùng trí tuệ và tinh tấn. Em có thể hiểu bước đầu là học buông sự ôm giữ thân tâm làm một cái tôi chắc chắn. Đây không phải lời bảo làm hỏng thân hay thôi chăm sóc mình."
+          ],
+          "meaningUnits": [
+            "aggregates"
+          ]
+        },
+        {
+          "id": "pleasures",
+          "kind": "teaching",
+          "heading": "Dao, thớt và miếng thịt",
+          "paragraphs": [
+            "Dao phay cùng thớt chỉ năm loại dục lạc giác quan: hình sắc mắt thấy, âm thanh tai nghe, mùi mũi ngửi, vị lưỡi nếm, xúc chạm thân cảm nhận. Bài đang nói những thứ đáng ưa, đáng thích, dễ chịu, đáng mến, gắn với dục và khơi dậy ham muốn. Lấy dao và thớt ra là bỏ năm loại dục lạc ấy, rồi đào tiếp bằng trí tuệ và tinh tấn.",
+            "Miếng thịt chỉ thích thú đi cùng tham đắm: cứ muốn giữ và hưởng điều mình mê. Lấy nó ra là bỏ sự thích thú, tham đắm ấy, rồi tiếp tục tu. Câu đố không dừng ở việc gọi tên; mỗi lần hiểu ra đều đi cùng việc cần buông."
+          ],
+          "meaningUnits": [
+            "sensual",
+            "relish"
+          ]
+        },
+        {
+          "id": "respect",
+          "kind": "teaching",
+          "heading": "Vì sao cần để con rắn yên?",
+          "paragraphs": [
+            "Con rắn chỉ một tỳ-kheo đã đoạn tận lậu hoặc, tức đã hết những dòng ô nhiễm trói tâm vào khổ. Đây là vị cần được để yên, không quấy nhiễu và kính trọng. Lời dặn về con rắn có nghĩa tôn kính vị tu đã giải thoát ấy.",
+            "Nghe Đức Phật giải xong, Kassapa vui mừng tán đồng. Ấn bản ghi bài thứ ba trong phẩm; số của bài trong Trung Bộ là MN23. Câu đố dẫn đến việc bỏ những điều trói buộc và tôn kính sự giải thoát, sâu hơn một mẹo để thấy vui ngay."
+          ],
+          "meaningUnits": [
+            "liberation",
+            "ending"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Một con nhái trong giờ chơi?",
+          "paragraphs": [
+            "Ví dụ hôm nay: đội em thua, em vừa giận bạn vừa thấy bức bối. Nhớ hình ảnh con nhái, em có thể gọi đúng điều đang xảy ra: có giận và có khổ trong lòng. Con nhái là cách gợi nhớ; không có con vật thật ở trong người em.",
+            "Em thử ngừng câu mắng, xem chuyện gì đã xảy ra rồi nói điều cần nói mà không tìm cách làm bạn đau. Đây là một bước tập nhỏ do người biên soạn gợi ý, không phải toàn bộ sự giải thoát mà kinh nói."
+          ],
+          "meaningUnits": [
+            "anger",
+            "teacher-tools"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Thử tự giải một hình ảnh",
+          "paragraphs": [
+            "Chọn một hình ảnh em nhớ nhất. Nói lại nó chỉ điều gì và vì sao hiểu thôi còn cần cố gắng. Nếu chưa rõ, hãy hỏi người lớn hiểu lời kinh cùng đọc với em. Việc tập hôm nay là hiểu rồi sửa một việc cụ thể, không thử các đồ vật hay con vật trong câu đố."
+          ],
+          "meaningUnits": [
+            "teacher-tools",
+            "doubt",
+            "hindrances"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Đọc những gì đang che lấp tâm qua câu đố gò mối",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "example",
+          "heading": "Chuyện đã qua vẫn tiếp tục trong đầu",
+          "paragraphs": [
+            "Một cuộc trao đổi trong công việc đã kết thúc, nhưng buổi tối bạn vẫn bực và nghĩ đi nghĩ lại. Sáng hôm sau, những câu đã chuẩn bị trong đầu thành lời nói và hành động. Đây là tình huống hiện đại giúp nhận ra mối nối giữa suy nghĩ và việc làm. MN23 dùng hình ảnh khói đêm, lửa ngày để đưa người nghe vào một cuộc khảo sát sâu hơn."
+          ],
+          "meaningUnits": [
+            "smoke-flame",
+            "anger"
+          ]
+        },
+        {
+          "id": "context",
+          "kind": "teaching",
+          "heading": "Câu đố do một vị trời trao",
+          "paragraphs": [
+            "Kinh Gò Mối, MN23, mở khi Đức Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika. Kumāra Kassapa đang ở rừng Andha. Đêm khuya, một vị trời rực rỡ chiếu sáng cả rừng đến đứng một bên và nêu câu đố: gò mối bốc khói ban đêm, cháy sáng ban ngày; bà-la-môn sai người có trí cầm gươm đào.",
+            "Vị trời dặn Kassapa hỏi Đức Phật, rồi ghi nhớ đúng lời giải. Trong thế giới với chư thiên, Māra, Phạm thiên, sa-môn, bà-la-môn, trời và người, vị ấy không thấy ai giải thỏa đáng ngoài Như Lai, đệ tử Ngài hoặc người nghe từ họ. Kể xong, vị trời biến mất tại chỗ."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "riddle",
+            "direction"
+          ]
+        },
+        {
+          "id": "riddle",
+          "kind": "teaching",
+          "heading": "Trình tự những thứ được tìm thấy",
+          "paragraphs": [
+            "Người có trí cầm gươm đào, lần lượt thấy then cửa, con nhái, đường hai ngã, cái rây lọc, con rùa, dao phay cùng thớt, miếng thịt. Mỗi lần đều trình thứ vừa thấy với bà-la-môn; mỗi lần đều được bảo lấy bỏ rồi tiếp tục cầm gươm đào.",
+            "Đến con rắn, lời dặn đổi: để yên, đừng làm động, hãy kính lễ. Điểm đổi ấy là một phần thiết yếu của câu đố. Sau đêm, Kassapa đến đảnh lễ Đức Phật, ngồi một bên, thuật toàn cuộc gặp và hỏi cả mười lăm hình ảnh: gò mối, khói, lửa, hai nhân vật, gươm, đào và tám thứ tìm thấy."
+          ],
+          "meaningUnits": [
+            "find-bar",
+            "find-frog",
+            "find-fork",
+            "find-sieve",
+            "find-tortoise",
+            "find-knife",
+            "find-meat",
+            "find-naga",
+            "report"
+          ]
+        },
+        {
+          "id": "body",
+          "kind": "teaching",
+          "heading": "Một thân do điều kiện mà có",
+          "paragraphs": [
+            "Đức Phật giải gò mối là thân do bốn đại cấu thành, do cha mẹ sinh, nhờ cơm cháo nuôi lớn, chịu vô thường, hao mòn, tan rã, vỡ nát và hủy diệt. Bốn đại là cách kinh gọi những yếu tố cấu thành thân vật chất. Ngay nền tảng ta thường xem là chắc chắn cũng cần được thấy trong các điều kiện và sự đổi thay ấy.",
+            "Khói đêm là suy nghĩ, cân nhắc vào ban đêm về công việc đã làm ban ngày. Lửa ngày là hoạt động bằng thân, lời nói và ý vào ban ngày sau những suy nghĩ, cân nhắc ban đêm. Kinh giữ cả hai hướng: việc làm đi vào suy nghĩ, suy nghĩ lại đi vào việc làm."
+          ],
+          "meaningUnits": [
+            "body",
+            "smoke-flame"
+          ]
+        },
+        {
+          "id": "method",
+          "kind": "teaching",
+          "heading": "Ai đào, và đào bằng cách nào?",
+          "paragraphs": [
+            "Vị bà-la-môn trong câu đố chỉ Đức Phật, với các danh hiệu Như Lai, A-la-hán, Chánh Đẳng Giác: vị đã giải thoát và giác ngộ hoàn toàn. Người có trí là tỳ-kheo hữu học, còn đang học và rèn trên con đường Thánh. Gươm là Thánh tuệ; việc đào là phát động tinh tấn.",
+            "Phương pháp của câu đố do đó nối trí tuệ với nỗ lực. Đào sâu ở đây là công việc tu tập được ví bằng hình ảnh; gươm không phải dụng cụ tác động lên cơ thể. Người học cần biết mình đang gặp điều gì và tiếp tục từ bỏ điều cần bỏ."
+          ],
+          "meaningUnits": [
+            "teacher-tools"
+          ]
+        },
+        {
+          "id": "first-three",
+          "kind": "teaching",
+          "heading": "Vô minh, phẫn nộ và nghi hoặc",
+          "paragraphs": [
+            "Then cửa chỉ vô minh: lấy then ra là bỏ sự không hiểu đúng. Con nhái chỉ phẫn nộ và ưu não: phải bỏ cả giận dữ lẫn sự khốn quẫn, bức bối đi cùng. Đường hai ngã chỉ nghi hoặc: phải bỏ sự phân vân cản con đường tu.",
+            "Sau từng lời giải, chỉ dẫn cầm gươm đào lại được nhắc: tiếp tục bằng tuệ và tinh tấn. Bỏ nghi không phải thôi khảo sát hoặc cấm hỏi; chính cuộc hỏi của Kassapa đang dẫn đến hiểu biết. Việc cần vượt là nghi hoặc trói tâm, không phải thành thật nhận mình chưa hiểu."
+          ],
+          "meaningUnits": [
+            "ignorance",
+            "anger",
+            "doubt"
+          ]
+        },
+        {
+          "id": "hindrances",
+          "kind": "teaching",
+          "heading": "Cái rây lọc: năm triền cái",
+          "paragraphs": [
+            "Cái rây lọc tượng trưng năm triền cái, những điều che và cản tâm: dục tham; sân hận; hôn trầm và buồn ngủ; xao động và hối tiếc; nghi hoặc. Hai cặp ở giữa vẫn là hai mục, nên toàn danh sách có năm, không phải bảy.",
+            "Lấy rây ra là từ bỏ cả năm triền cái, rồi tiếp tục đào bằng trí tuệ và tinh tấn. Danh sách giúp phân biệt: sức hút của dục, ý muốn chống hại, sự chìm lịm, sự xao động và sự phân vân không phải cùng một trạng thái."
+          ],
+          "meaningUnits": [
+            "hindrances"
+          ]
+        },
+        {
+          "id": "aggregates",
+          "kind": "teaching",
+          "heading": "Con rùa: năm nhóm bị chấp giữ",
+          "paragraphs": [
+            "Con rùa chỉ năm thủ uẩn: sắc, thọ, tưởng, hành, thức. Sắc là vật chất; thọ là cảm giác dễ chịu, khó chịu hay trung tính; tưởng là nhận diện; hành là những hoạt động tạo tác; thức là sự nhận biết đối tượng. Chữ thủ cần được giữ: đây là năm nhóm trong sự chấp giữ, không chỉ một bảng các khả năng tâm lý.",
+            "Lấy con rùa ra nghĩa là từ bỏ năm thủ uẩn, rồi tiếp tục tuệ và tinh tấn. Trong hướng buông chấp của lời dạy, sự từ bỏ ấy không phải phá hủy cơ thể, cảm thọ hay khả năng nhận biết."
+          ],
+          "meaningUnits": [
+            "aggregates"
+          ]
+        },
+        {
+          "id": "sensual",
+          "kind": "teaching",
+          "heading": "Từ sức hút giác quan đến sự tham đắm",
+          "paragraphs": [
+            "Dao phay cùng thớt chỉ năm loại dục lạc giác quan: sắc được mắt biết, thanh được tai biết, hương được mũi biết, vị được lưỡi biết, xúc được thân biết. Cả năm được mô tả đáng ưa, đáng thích, dễ chịu, đáng mến, liên hệ dục và kích thích ham muốn. Lấy dao và thớt ra là bỏ năm loại dục lạc này rồi tiếp tục bằng tuệ và tinh tấn.",
+            "Miếng thịt chỉ sự thích thú và tham đắm, nandīrāga. Lấy bỏ nó là từ bỏ sự thích thú bám víu ấy, rồi tiếp tục đào. Kinh phân biệt các đối tượng hấp dẫn giác quan với sự vui thích, tham đắm; hai hình ảnh có vị trí riêng."
+          ],
+          "meaningUnits": [
+            "sensual",
+            "relish"
+          ]
+        },
+        {
+          "id": "last",
+          "kind": "teaching",
+          "heading": "Điểm dừng là tôn kính sự giải thoát",
+          "paragraphs": [
+            "Con rắn ở cuối chỉ vị tỳ-kheo đã đoạn tận lậu hoặc, những dòng ô nhiễm duy trì trói buộc và khổ. Để yên, không làm động và kính lễ là cách ứng xử với vị đã giải thoát ấy. Không thể kéo công thức lấy bỏ của bảy hình ảnh trước sang hình ảnh cuối.",
+            "Đức Phật nói xong, Kumāra Kassapa hoan hỷ tán đồng. Kết bài không kể một chứng đắc mới của thầy. Nhãn bài thứ ba là vị trí trong phẩm; UID toàn bộ là MN23. Mục tiêu của câu đố là sự từ bỏ đưa đến giải thoát, cùng thái độ tôn kính vị đã hoàn thành."
+          ],
+          "meaningUnits": [
+            "liberation",
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Đi từ gọi tên đến một việc tu",
+          "paragraphs": [
+            "Gợi ý hiện đại: xem lại một việc hôm nay còn chạy trong đầu. Nhận diện xem đang có sân, dục tham, xao động hay chưa hiểu rõ. Sau đó chọn một việc thích hợp: tìm hiểu lại dữ kiện, ngừng lời gây hại, hoặc trở về công việc tu đã được hướng dẫn. Ghi nhận khác biệt giữa gọi tên trạng thái và thật sự bớt nuôi nó.",
+            "Đây là bước vận dụng ban đầu. Các hình ảnh không phải một thang để tự cấp mức chứng đắc sau từng lần tâm dễ chịu hơn."
+          ],
+          "meaningUnits": [
+            "smoke-flame",
+            "anger",
+            "hindrances",
+            "teacher-tools"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Gò mối, ngọn khói và điều cần buông xuống",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "example",
+          "heading": "Một việc ban ngày theo mình đến tối",
+          "paragraphs": [
+            "Trong một buổi bàn việc gia đình, người cháu đã trưởng thành đề nghị đổi một nếp sinh hoạt lâu nay. Tối đến, ta vẫn nghĩ lại cách góp ý ấy, chuẩn bị lời sẽ nói khi gặp lại. Ngày mai, điều đã nghĩ có thể trở thành lời và việc thật. Đây là ví dụ đời thường để bước vào hình ảnh khói đêm, lửa ngày của Kinh Gò Mối."
+          ],
+          "meaningUnits": [
+            "smoke-flame"
+          ]
+        },
+        {
+          "id": "context",
+          "kind": "teaching",
+          "heading": "Kassapa nhận một câu đố",
+          "paragraphs": [
+            "MN23 kể Đức Phật ở rừng Jeta, tu viện Anāthapiṇḍika tại Sāvatthī, còn Kumāra Kassapa ở rừng Andha. Đêm khuya, một vị trời có hào quang rực rỡ chiếu sáng cả rừng đến đứng một bên thầy.",
+            "Vị trời nói về gò mối ban đêm bốc khói, ban ngày cháy sáng. Một bà-la-môn bảo người có trí cầm gươm mà đào. Chuyện bắt đầu như một cuộc tìm kiếm, nhưng các hình ảnh sẽ được giải thành việc tu."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "riddle"
+          ]
+        },
+        {
+          "id": "finds",
+          "kind": "teaching",
+          "heading": "Những thứ cần lấy ra",
+          "paragraphs": [
+            "Người có trí đào lên, thấy then cửa và trình lại. Bà-la-môn bảo lấy ra rồi tiếp tục đào với gươm. Theo thứ tự, người ấy lại gặp con nhái, đường hai ngã, cái rây lọc, con rùa, dao phay cùng thớt, rồi miếng thịt. Mỗi lần đều thưa về điều vừa thấy, mỗi lần đều được bảo lấy bỏ và tiếp tục đào.",
+            "Sau cùng là con rắn. Lần này bà-la-môn bảo để yên, đừng làm động, hãy kính lễ. Câu chuyện giữ một phân biệt rõ: biết cái cần buông cũng phải biết cái đáng kính trọng."
+          ],
+          "meaningUnits": [
+            "find-bar",
+            "find-frog",
+            "find-fork",
+            "find-sieve",
+            "find-tortoise",
+            "find-knife",
+            "find-meat",
+            "find-naga"
+          ]
+        },
+        {
+          "id": "ask",
+          "kind": "teaching",
+          "heading": "Tìm lời giải nơi người hiểu",
+          "paragraphs": [
+            "Vị trời bảo Kassapa đến hỏi Đức Phật, ghi nhớ đúng như lời Ngài giải. Vị ấy nói giữa thế giới có chư thiên, Māra, Phạm thiên, sa-môn, bà-la-môn, trời và người, không thấy ai giải thỏa đáng ngoài Như Lai, đệ tử của Ngài, hoặc người đã nghe lời giải từ họ. Rồi vị trời biến mất ngay tại chỗ.",
+            "Qua đêm, Kassapa đến gặp Đức Phật, đảnh lễ và ngồi một bên. Thầy thuật lại cuộc gặp, kể câu đố và hỏi từng hình ảnh: gò mối, khói đêm, lửa ngày, bà-la-môn, người trí, gươm, đào và tám thứ được tìm thấy. Cả mười lăm đều được đặt thành câu hỏi."
+          ],
+          "meaningUnits": [
+            "direction",
+            "report"
+          ]
+        },
+        {
+          "id": "body",
+          "kind": "teaching",
+          "heading": "Thân cần được thấy như nó là",
+          "paragraphs": [
+            "Đức Phật giải gò mối chỉ thân do bốn đại tạo thành, tức những yếu tố cấu thành thân vật chất. Thân do cha mẹ sinh, cơm cháo nuôi dưỡng, chịu vô thường, hao mòn, tan rã, vỡ nát và hủy diệt. Lời này nói đặc tính của thân, không phải lời trách thân vì thay đổi.",
+            "Khói ban đêm là suy nghĩ, cân nhắc về công việc đã làm ban ngày. Lửa ban ngày là thực hiện bằng thân, lời nói và ý những điều đã suy nghĩ ban đêm. Cần nhìn cả suy nghĩ lẫn việc làm, vì chúng nối tiếp nhau trong đời sống."
+          ],
+          "meaningUnits": [
+            "body",
+            "smoke-flame"
+          ]
+        },
+        {
+          "id": "tools",
+          "kind": "teaching",
+          "heading": "Trí tuệ đi cùng tinh tấn",
+          "paragraphs": [
+            "Bà-la-môn tượng trưng Đức Phật, Như Lai, bậc A-la-hán, Chánh Đẳng Giác: vị đã giải thoát và giác ngộ hoàn toàn. Người có trí tượng trưng tỳ-kheo hữu học, vị còn đang học và rèn trên đường Thánh. Gươm chỉ trí tuệ của bậc Thánh; đào chỉ sự phát động tinh tấn.",
+            "Vì vậy, lời cầm gươm mà đào được hiểu là tiếp tục công phu bằng trí tuệ và nỗ lực. Đây là nghĩa tu học của hình ảnh, không phải động tác cần làm trên thân."
+          ],
+          "meaningUnits": [
+            "teacher-tools"
+          ]
+        },
+        {
+          "id": "first-three",
+          "kind": "teaching",
+          "heading": "Ba hình ảnh đầu của điều cần bỏ",
+          "paragraphs": [
+            "Then cửa là vô minh, sự không hiểu đúng. Con nhái là phẫn nộ và ưu não: giận dữ cùng nỗi khốn quẫn, bức bối. Đường hai ngã là nghi hoặc làm tâm không vững trên đường tu.",
+            "Lấy từng thứ ra là bỏ điều nó tượng trưng. Sau mỗi lời giải, Đức Phật nhắc cầm gươm đào tiếp: dùng tuệ và tinh tấn để đi tới. Kassapa hỏi điều chưa rõ và được giải; bỏ nghi không có nghĩa phải che giấu câu hỏi của mình."
+          ],
+          "meaningUnits": [
+            "ignorance",
+            "anger",
+            "doubt"
+          ]
+        },
+        {
+          "id": "sieve",
+          "kind": "teaching",
+          "heading": "Năm điều che lấp tâm",
+          "paragraphs": [
+            "Cái rây lọc chỉ năm triền cái: dục tham, sự ham thích dục lạc; sân hận; hôn trầm và buồn ngủ; xao động và hối tiếc; nghi hoặc. Triền cái là điều che và cản tâm trong việc tu.",
+            "Lấy cái rây ra nghĩa là bỏ cả năm, rồi tiếp tục bằng trí tuệ và tinh tấn. Gọi đúng từng điều giúp sự tu có chỗ rõ ràng để nhìn, thay vì chỉ kết luận chung rằng lòng mình đang không yên."
+          ],
+          "meaningUnits": [
+            "hindrances"
+          ]
+        },
+        {
+          "id": "tortoise",
+          "kind": "teaching",
+          "heading": "Buông sự nắm giữ năm uẩn",
+          "paragraphs": [
+            "Con rùa chỉ năm thủ uẩn: sắc, phần vật chất; thọ, cảm giác dễ chịu, khó chịu hay không cả hai; tưởng, sự nhận ra; hành, các hoạt động tạo tác; thức, sự biết đối tượng. Thủ là nắm giữ, bám chấp vào các nhóm thân tâm ấy.",
+            "Lấy rùa ra là từ bỏ năm thủ uẩn, rồi tiếp tục dùng tuệ và tinh tấn. Có thể bắt đầu hiểu bằng hướng buông sự nắm thân tâm làm tôi và của tôi. Việc chăm sóc thân vẫn có chỗ; lời buông chấp không biến thành sự bỏ mặc thân."
+          ],
+          "meaningUnits": [
+            "aggregates"
+          ]
+        },
+        {
+          "id": "sensual",
+          "kind": "teaching",
+          "heading": "Điều hấp dẫn và lòng tham đắm",
+          "paragraphs": [
+            "Dao phay và thớt chỉ năm loại dục lạc: sắc mắt nhận biết, tiếng tai nhận biết, mùi mũi nhận biết, vị lưỡi nhận biết, xúc chạm thân nhận biết. Bài nói những đối tượng đáng ưa, đáng thích, dễ chịu, đáng mến, liên hệ dục và khơi dậy ham muốn. Lấy dao cùng thớt ra là từ bỏ năm loại dục lạc ấy, rồi tiếp tục đào bằng tuệ và tinh tấn.",
+            "Miếng thịt chỉ sự thích thú và tham đắm. Lấy nó ra nghĩa là bỏ sự vui thích bám víu ấy rồi tiếp tục tu. Như vậy, câu đố đi qua cả cái lôi cuốn mình lẫn sự tham đắm nơi tâm."
+          ],
+          "meaningUnits": [
+            "sensual",
+            "relish"
+          ]
+        },
+        {
+          "id": "respect",
+          "kind": "teaching",
+          "heading": "Vị đã hoàn thành thì được kính trọng",
+          "paragraphs": [
+            "Con rắn tượng trưng một tỳ-kheo đã đoạn tận lậu hoặc, tức hết những dòng ô nhiễm duy trì trói buộc và khổ. Với vị ấy, lời dặn là để yên, không quấy nhiễu, kính lễ. Lời giải về sự kính trọng này khác chỉ dẫn từ bỏ những điều trước.",
+            "Kumāra Kassapa hoan hỷ tán đồng khi Đức Phật kết lời. Bài thứ ba ở lời kết là thứ tự trong phẩm; mã của bài là MN23. Hướng đi còn lại sau câu đố là dùng tuệ, phát khởi tinh tấn, buông điều trói buộc và quý trọng sự giải thoát."
+          ],
+          "meaningUnits": [
+            "liberation",
+            "ending"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một khoảng nhìn lại nhẹ nhàng",
+          "paragraphs": [
+            "Gợi ý hôm nay: chọn một việc đang được nghĩ lại nhiều lần. Tự hỏi mình đã hiểu rõ việc ấy chưa, có đang nuôi giận và bức bối không, và ngày mai muốn biến suy nghĩ nào thành lời hay việc. Chọn một điều cụ thể để làm sáng tỏ hoặc ngừng nuôi dưỡng.",
+            "Đây là bước tập của người đọc, có thể làm từ tốn trong sinh hoạt hằng ngày. Lòng nhẹ đi là điều có thể ghi nhận; chưa vì vậy tự nhận đã đoạn tận lậu hoặc như vị được câu đố tôn kính."
+          ],
+          "meaningUnits": [
+            "smoke-flame",
+            "ignorance",
+            "anger",
+            "teacher-tools"
+          ]
+        }
+      ]
+    }
+  }
+}

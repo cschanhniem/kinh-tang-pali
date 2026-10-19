@@ -1,0 +1,1838 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn18",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "ee23e439307ae0016af71ba727ac67b43516f4aaedf6eec7749b203322ac0078"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "cd7e9e45f07bccce867331b5e83c8aeddaaddefef496eb95f091c6808dd0dcc9"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/dn/dn18_translation-vi-project.json",
+      "commit": "640b1410c7b2b50ee81d417886b75605189ea0a2",
+      "sha256": "60b24368dd1791efc5ef8afecc7ef6d3f12fc78738cfa37deed9a6385cb7b4ca"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn18.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "e84ec435bfc15115cea80d25d23922f9e88e9a7a678432e8e929bef1f56b774b"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/dn/dn18_comment-vi-project.json",
+      "commit": "640b1410c7b2b50ee81d417886b75605189ea0a2",
+      "sha256": "3c692685db1851fdcca1b75727dab59b84a301bdd148f0f3b169ce86eee709a9"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Tên bài Janavasabha",
+      "segments": [
+        "dn18:0.1",
+        "dn18:0.2"
+      ],
+      "summary": "Bài DN18 thuộc Trường Bộ mang tên Janavasabha, tên Việt là Xa-ni-sa."
+    },
+    {
+      "id": "setting",
+      "title": "Nātika và các xứ được tuyên bố",
+      "segments": [
+        "dn18:1.0",
+        "dn18:1.1",
+        "dn18:1.2",
+        "dn18:1.3",
+        "dn18:1.4"
+      ],
+      "summary": "Nhãn phần tuyên bố tái sinh và lời tôi được nghe. Đức Phật ở nhà gạch tại Nātika, tuyên bố tín đồ đã qua đời sinh nơi này nơi kia tại mười xứ: Kāsī, Kosala, Vajji, Malla, Ceti, Vaṁsa, Kuru, Pañcāla, Majjha, Sūrasena. Giữ Majjha theo Pāli, tham khảo dùng Maccha."
+    },
+    {
+      "id": "nonreturners",
+      "title": "Hơn năm mươi vị",
+      "segments": [
+        "dn18:1.5"
+      ],
+      "summary": "Hơn năm mươi tín đồ Nātika đã qua đời, đoạn tận năm hạ phần kiết sử, được hóa sinh, sẽ Niết-bàn ở đó, không trở lại từ thế giới ấy."
+    },
+    {
+      "id": "once-returners",
+      "title": "Hơn chín mươi vị",
+      "segments": [
+        "dn18:1.6"
+      ],
+      "summary": "Hơn chín mươi tín đồ qua đời, đoạn tận ba kiết sử, làm tham, sân, si suy yếu, là Nhất lai: trở lại thế giới này đúng một lần rồi chấm dứt khổ."
+    },
+    {
+      "id": "stream-enterers",
+      "title": "Hơn năm trăm vị",
+      "segments": [
+        "dn18:1.7"
+      ],
+      "summary": "Hơn năm trăm tín đồ qua đời, đoạn tận ba kiết sử, là Dự lưu, không đọa ác thú, chắc chắn hướng giác ngộ."
+    },
+    {
+      "id": "devotees-hear",
+      "title": "Tín đồ nghe và vui",
+      "segments": [
+        "dn18:2.1",
+        "dn18:2.2",
+        "dn18:2.3",
+        "dn18:2.4",
+        "dn18:2.5",
+        "dn18:2.6",
+        "dn18:2.7"
+      ],
+      "summary": "Tín đồ Nātika nghe lại tuyên bố về đủ mười xứ và ba nhóm hơn năm mươi, hơn chín mươi, hơn năm trăm, cùng điều kiện tu tập, quả vị, kết quả của từng nhóm; họ hoan hỷ, vui mừng, đầy hỷ lạc."
+    },
+    {
+      "id": "ananda-hears",
+      "title": "Ānanda nghe cùng lời ấy",
+      "segments": [
+        "dn18:3.1",
+        "dn18:3.2",
+        "dn18:3.3",
+        "dn18:3.4",
+        "dn18:3.5",
+        "dn18:3.6",
+        "dn18:3.7"
+      ],
+      "summary": "Ānanda nghe lại trọn lời về mười xứ, ba nhóm số lượng, điều kiện tu tập, quả vị, cùng niềm vui của tín đồ Nātika."
+    },
+    {
+      "id": "concern",
+      "title": "Nghĩ về Magadha",
+      "segments": [
+        "dn18:4.0",
+        "dn18:4.1",
+        "dn18:4.2",
+        "dn18:4.3",
+        "dn18:4.4",
+        "dn18:4.5",
+        "dn18:4.6"
+      ],
+      "summary": "Nhãn suy nghĩ Ānanda. Nhiều tín đồ Magadha lâu năm đã qua đời; câu suññā maññe về Aṅga-Magadha trống vắng có hai cách dịch, cần giữ sắc thái tưởng như. Họ tin Phật, Pháp, Tăng và đầy đủ giới nhưng chưa được tuyên bố. Một giải đáp sẽ làm nhiều người tăng tín tâm, từ đó đến thiện thú."
+    },
+    {
+      "id": "king",
+      "title": "Vua Bimbisāra được người dân nhớ",
+      "segments": [
+        "dn18:4.7",
+        "dn18:4.8",
+        "dn18:4.9",
+        "dn18:4.10",
+        "dn18:4.11",
+        "dn18:4.12",
+        "dn18:4.13",
+        "dn18:4.14"
+      ],
+      "summary": "Seniya Bimbisāra là vua theo Pháp, làm lợi Bà-la-môn, gia chủ, dân thành thị và địa phương. Dân nhớ đời sống an vui dưới thời vua; vua tin Phật, Pháp, Tăng, giới đầy đủ, ca ngợi Phật đến lúc chết. Chưa có tuyên bố về vua; Ānanda mong được giải đáp để dân tăng tín tâm, đến thiện thú."
+    },
+    {
+      "id": "magadha",
+      "title": "Lý do thêm về nơi giác ngộ",
+      "segments": [
+        "dn18:4.15",
+        "dn18:4.16",
+        "dn18:4.17",
+        "dn18:4.18"
+      ],
+      "summary": "Đức Phật giác ngộ ở Magadha; Ānanda tự hỏi sao chưa tuyên bố về tín đồ xứ này. Nếu không được giải đáp, họ sẽ buồn lòng; sao không giải đáp trong tình huống ấy? Đây là suy nghĩ của Ānanda."
+    },
+    {
+      "id": "request",
+      "title": "Trình bày lúc gần sáng",
+      "segments": [
+        "dn18:5.1",
+        "dn18:5.2",
+        "dn18:5.3",
+        "dn18:5.4",
+        "dn18:5.5",
+        "dn18:5.6",
+        "dn18:5.7",
+        "dn18:5.8",
+        "dn18:5.9",
+        "dn18:5.10",
+        "dn18:5.11",
+        "dn18:5.12",
+        "dn18:5.13",
+        "dn18:5.14",
+        "dn18:5.15",
+        "dn18:5.16"
+      ],
+      "summary": "Sau suy nghĩ riêng, gần sáng Ānanda đến lễ, ngồi và thuật điều đã nghe về mười xứ, ba nhóm số lượng, quả vị, niềm vui. Ngài thưa Magadha có nhiều tín đồ lâu năm qua đời, nhắc câu trống vắng, tín-giới, việc chưa giải đáp, rồi nói về vua và đời sống an ổn của dân."
+    },
+    {
+      "id": "request-end",
+      "title": "Nhắc vua, Magadha, rồi cáo lui",
+      "segments": [
+        "dn18:6.1",
+        "dn18:6.2",
+        "dn18:6.3",
+        "dn18:6.4",
+        "dn18:6.5",
+        "dn18:6.6",
+        "dn18:6.7",
+        "dn18:6.8",
+        "dn18:6.9",
+        "dn18:6.10"
+      ],
+      "summary": "Ānanda nhắc vua có tín tâm ba ngôi, giới đầy đủ, ca ngợi Phật tới lúc chết; mong giải đáp để dân có tín tâm và thiện thú. Phật giác ngộ ở Magadha, nếu không giải đáp dân buồn. Thưa xong ngài đứng, lễ, đi nhiễu bên phải và cáo lui."
+    },
+    {
+      "id": "buddha-knows",
+      "title": "Đức Phật chú tâm và thấy",
+      "segments": [
+        "dn18:7.1",
+        "dn18:7.2",
+        "dn18:7.3",
+        "dn18:7.4",
+        "dn18:7.5",
+        "dn18:7.6"
+      ],
+      "summary": "Không lâu sau, buổi sáng Phật đắp y mang bát và y ngoài, khất thực Nātika, sau ăn trở về rửa chân, vào nhà gạch. Ngồi chỗ dọn sẵn, Ngài chú tâm toàn tâm tới tín đồ Magadha để biết cảnh giới và đời sau. Ngài thấy họ đi đâu; chiều rời độc cư ngồi dưới bóng trú xá."
+    },
+    {
+      "id": "peace",
+      "title": "Ānanda thấy vẻ an tịnh",
+      "segments": [
+        "dn18:8.1",
+        "dn18:8.2",
+        "dn18:8.3"
+      ],
+      "summary": "Ānanda đến lễ và ngồi; thấy Phật an tịnh, sắc mặt dường như sáng vì các căn trong sáng, hỏi hôm nay Ngài an trú trạng thái an tịnh chăng."
+    },
+    {
+      "id": "recount",
+      "title": "Đức Phật thuật việc vừa xảy ra",
+      "segments": [
+        "dn18:9.1",
+        "dn18:9.2",
+        "dn18:9.3"
+      ],
+      "summary": "Phật kể từ lúc Ānanda đi: khất thực, ăn, trở về, rửa chân, vào nhà gạch, chú tâm. Ngài đã thấy cảnh giới và đời sau của tín đồ Magadha."
+    },
+    {
+      "id": "name",
+      "title": "Tên Janavasabha được xướng khi còn ẩn",
+      "segments": [
+        "dn18:9.4.0",
+        "dn18:9.5",
+        "dn18:9.6",
+        "dn18:9.7",
+        "dn18:9.8",
+        "dn18:9.9",
+        "dn18:9.10",
+        "dn18:9.11"
+      ],
+      "summary": "Nhãn Dạ-xoa Janavasabha. Dạ-xoa ẩn cất tiếng hai lần tự xưng với Thế Tôn và Thiện Thệ. Phật hỏi Ānanda từng nghe tên chưa; ngài chưa nghe nhưng nổi da gà, nghĩ vị có danh xưng cao quý này hẳn không tầm thường."
+    },
+    {
+      "id": "bimbisara",
+      "title": "Bimbisāra và những đời đã nhớ",
+      "segments": [
+        "dn18:10.1",
+        "dn18:10.2",
+        "dn18:10.3",
+        "dn18:10.4",
+        "dn18:10.5",
+        "dn18:10.6",
+        "dn18:10.7",
+        "dn18:10.8",
+        "dn18:10.9",
+        "dn18:10.10"
+      ],
+      "summary": "Phật kể Dạ-xoa dung sắc thù thắng hiện ra, hai lần tự xưng Bimbisāra. Đây là lần thứ bảy đồng trú Vessavaṇa; sau chết từ đó có khả năng làm vua loài người. Kệ bảy lần từ đây, bảy lần từ kia, tổng mười bốn luân chuyển, nhớ chỗ từng ở. Từ lâu biết không đọa, vẫn hy vọng Nhất lai; chưa nói đã Nhất lai."
+    },
+    {
+      "id": "source-question",
+      "title": "Do đâu biết thành tựu",
+      "segments": [
+        "dn18:10.11",
+        "dn18:10.12"
+      ],
+      "summary": "Phật tán thán hy hữu và kỳ diệu, nhắc cả việc biết không đọa lẫn mong Nhất lai, hỏi nguồn biết thành tựu thù thắng ấy."
+    },
+    {
+      "id": "instruction",
+      "title": "Do giáo pháp của Đức Phật",
+      "segments": [
+        "dn18:11.1",
+        "dn18:11.2"
+      ],
+      "summary": "Janavasabha hai lần nói chỉ do giáo pháp của Phật; từ ngày tín tâm trọn vẹn đã biết không đọa và còn hy vọng Nhất lai."
+    },
+    {
+      "id": "visit",
+      "title": "Hai lý do đến gặp",
+      "segments": [
+        "dn18:11.3",
+        "dn18:11.4",
+        "dn18:11.5",
+        "dn18:11.6",
+        "dn18:11.7",
+        "dn18:11.8",
+        "dn18:11.9"
+      ],
+      "summary": "Được Vessavaṇa sai tới Virūḷhaka vì một công việc, trên đường Janavasabha thấy Phật chú tâm biết đời sau người Magadha. Vị ấy nói việc mình đã trực tiếp nghe và tiếp nhận lời Vessavaṇa nói giữa hội về họ không có gì lạ. Vị ấy muốn gặp Phật và báo việc: hai lý do đến gặp. Không đảo anacchariyaṁ thành kỳ diệu."
+    },
+    {
+      "id": "assembly",
+      "title": "Hội chư thiên và vị trí",
+      "segments": [
+        "dn18:12.0",
+        "dn18:12.1",
+        "dn18:12.2",
+        "dn18:12.3",
+        "dn18:12.4",
+        "dn18:12.5",
+        "dn18:12.6",
+        "dn18:12.7",
+        "dn18:12.8"
+      ],
+      "summary": "Nhãn hội trời. Nhiều ngày trước, đêm rằm Bố-tát đầu mùa an cư, chư thiên Tāvatiṁsa họp ở Sudhammā, đại hội ngồi chung quanh. Dhataraṭṭha đông nhìn tây, Virūḷhaka nam nhìn bắc, Virūpakkha tây nhìn đông, Vessavaṇa bắc nhìn nam, đều trước chúng mình. Đó là thứ tự thường lệ, sau đó đến chỗ nhóm Janavasabha."
+    },
+    {
+      "id": "new-gods",
+      "title": "Người mới tái sinh nổi bật",
+      "segments": [
+        "dn18:12.9",
+        "dn18:12.10",
+        "dn18:12.11"
+      ],
+      "summary": "Những vị trời mới sinh Tāvatiṁsa sau khi sống phạm hạnh theo Phật vượt các trời khác về dung sắc và danh tiếng. Chư thiên vui đầy hỷ lạc, nói thiên chúng tăng, A-tu-la giảm; không nói A-tu-la diệt hết."
+    },
+    {
+      "id": "sakka-verse",
+      "title": "Kệ của Sakka",
+      "segments": [
+        "dn18:13.1",
+        "dn18:13.2",
+        "dn18:13.3",
+        "dn18:13.4",
+        "dn18:13.5",
+        "dn18:13.6",
+        "dn18:13.7",
+        "dn18:13.8",
+        "dn18:13.9",
+        "dn18:13.10",
+        "dn18:13.11",
+        "dn18:13.12",
+        "dn18:13.13",
+        "dn18:13.14",
+        "dn18:13.15",
+        "dn18:13.16",
+        "dn18:13.17",
+        "dn18:13.18",
+        "dn18:13.19"
+      ],
+      "summary": "Sakka tùy hỷ bằng bốn khổ kệ: trời Tāvatiṁsa cùng Thiên chủ kính Như Lai và Pháp chân chánh; trời mới đẹp, có tiếng, từng sống phạm hạnh theo Thiện Thệ; đệ tử Đại Tuệ có thành tựu vượt dung sắc, danh tiếng, thọ mạng; chúng trời vui và kính Phật, Pháp. Nghe kệ, họ vui hơn, lặp thiên tăng, A-tu-la giảm."
+    },
+    {
+      "id": "business",
+      "title": "Bàn việc và bốn vua ở lại",
+      "segments": [
+        "dn18:14.1",
+        "dn18:14.2",
+        "dn18:14.3",
+        "dn18:14.4",
+        "dn18:14.5",
+        "dn18:14.6"
+      ],
+      "summary": "Chư thiên suy xét, bàn việc của hội rồi trình bày và chỉ dạy bốn vua; các vua đứng ở chỗ ngồi, chưa đi. Kệ nhắc họ nhận giáo huấn, tâm trong sáng, an tịnh, đứng bên chỗ."
+    },
+    {
+      "id": "light",
+      "title": "Ánh sáng báo Phạm thiên",
+      "segments": [
+        "dn18:15.1",
+        "dn18:15.2",
+        "dn18:15.3",
+        "dn18:15.4",
+        "dn18:15.5",
+        "dn18:15.6",
+        "dn18:15.7"
+      ],
+      "summary": "Ánh sáng và hào quang từ phương bắc vượt uy quang trời. Sakka nói đó là điềm Phạm thiên sẽ xuất hiện; bốn câu kệ nhắc dấu hiệu và hào quang rộng lớn."
+    },
+    {
+      "id": "stay",
+      "title": "Cùng chờ biết kết quả ánh sáng",
+      "segments": [
+        "dn18:16.0",
+        "dn18:16.1",
+        "dn18:16.2",
+        "dn18:16.3",
+        "dn18:16.4",
+        "dn18:16.5",
+        "dn18:16.6"
+      ],
+      "summary": "Nhãn Sanaṅkumāra. Trời Tāvatiṁsa ngồi tại chỗ, nói sẽ biết ánh sáng dẫn tới điều gì, tự thấy rồi mới đi. Bốn vua lặp cùng lời; chư thiên nghe, đồng lòng lặp lần thứ ba."
+    },
+    {
+      "id": "manifest",
+      "title": "Thân hiện đủ để được thấy",
+      "segments": [
+        "dn18:17.1",
+        "dn18:17.2",
+        "dn18:17.3",
+        "dn18:17.4",
+        "dn18:17.5",
+        "dn18:17.6",
+        "dn18:17.7",
+        "dn18:17.8",
+        "dn18:17.9"
+      ],
+      "summary": "Sanaṅkumāra hóa thân thô hơn vì sắc tự nhiên ngoài tầm mắt trời Tāvatiṁsa, không phải thân xấu hay uy lực kém. Vị ấy vượt các trời về dung sắc, danh tiếng như tượng vàng so hình người. Không ai lễ, đứng dậy, mời ngồi; họ im, chắp tay, ngồi kiết-già, để vị ấy chọn chỗ. Vị trời được chọn rất vui."
+    },
+    {
+      "id": "appearance",
+      "title": "Ví vua mới đăng quang và hình Pañcasikha",
+      "segments": [
+        "dn18:18.1",
+        "dn18:18.2",
+        "dn18:18.3",
+        "dn18:18.4",
+        "dn18:18.5",
+        "dn18:18.6"
+      ],
+      "summary": "Niềm vui của vị trời được ví với vua Sát-đế-lợi mới quán đảnh đăng quang. Sanaṅkumāra hóa thân thô hơn dạng đồng tử Pañcasikha, bay lên ngồi kiết-già giữa trời, như người khỏe ngồi chỗ trải kỹ hoặc đất phẳng. Biết trời vui, vị ấy nói kệ."
+    },
+    {
+      "id": "brahma-verse",
+      "title": "Phạm thiên lặp kệ tùy hỷ",
+      "segments": [
+        "dn18:18.7",
+        "dn18:18.8",
+        "dn18:18.9",
+        "dn18:18.10",
+        "dn18:18.11",
+        "dn18:18.12",
+        "dn18:18.13",
+        "dn18:18.14",
+        "dn18:18.15",
+        "dn18:18.16",
+        "dn18:18.17",
+        "dn18:18.18",
+        "dn18:18.19",
+        "dn18:18.20",
+        "dn18:18.21",
+        "dn18:18.22"
+      ],
+      "summary": "Bốn khổ kệ lặp đủ nội dung lần trước: trời Tāvatiṁsa cùng Sakka kính Phật, Pháp; trời mới tu phạm hạnh rồi đến; đệ tử Đại Tuệ vượt dung sắc, danh tiếng, thọ mạng; thấy vậy tùy hỷ kính Phật, Pháp. Phân biệt lần trước Sakka nói, lần này Sanaṅkumāra nói."
+    },
+    {
+      "id": "voice",
+      "title": "Tám phẩm giọng nói",
+      "segments": [
+        "dn18:19.1",
+        "dn18:19.2",
+        "dn18:19.3",
+        "dn18:19.4"
+      ],
+      "summary": "Janavasabha xác nhận lời Phạm thiên. Giọng có tám phẩm: lưu loát, dễ hiểu, dịu ngọt, dễ nghe, đầy đặn, không tản mạn, thâm sâu, vang vọng; cả hội hiểu nhưng tiếng không ra ngoài hội. Giọng đủ tám phẩm gọi là Phạm âm."
+    },
+    {
+      "id": "thirty-three",
+      "title": "Ba mươi ba thân và các cảnh giới",
+      "segments": [
+        "dn18:20.1",
+        "dn18:20.2",
+        "dn18:20.3",
+        "dn18:20.4"
+      ],
+      "summary": "Sanaṅkumāra hóa ba mươi ba thân ngồi kiết-già từng chỗ trời, ca Phật vì lợi an lạc số đông, thương thế gian, lợi an lạc trời người. Người quy y ba ngôi và đầy đủ giới sau chết có người sinh sáu nhóm trời: Tha Hóa Tự Tại, Hóa Lạc, Đâu-suất, Dạ-ma, Tāvatiṁsa, Tứ Thiên Vương; mức thấp nhất tăng chúng Càn-thát-bà."
+    },
+    {
+      "id": "unison",
+      "title": "Mỗi vị tưởng chỉ thân cạnh mình nói",
+      "segments": [
+        "dn18:21.1",
+        "dn18:21.2",
+        "dn18:21.3",
+        "dn18:21.4",
+        "dn18:21.5",
+        "dn18:21.6",
+        "dn18:21.7",
+        "dn18:21.8",
+        "dn18:21.9",
+        "dn18:21.10",
+        "dn18:21.11"
+      ],
+      "summary": "Mỗi vị trời tưởng chỉ thân ở chỗ mình nói. Kệ: một thân nói, tất cả nói; một thân im, tất cả im. Trời Tāvatiṁsa và Sakka tưởng chỉ thân ở chỗ mình nói."
+    },
+    {
+      "id": "powers",
+      "title": "Bốn như ý túc",
+      "segments": [
+        "dn18:22.1",
+        "dn18:22.2.0",
+        "dn18:22.3",
+        "dn18:22.4",
+        "dn18:22.5",
+        "dn18:22.6",
+        "dn18:22.7",
+        "dn18:22.8",
+        "dn18:22.9",
+        "dn18:22.10",
+        "dn18:22.11",
+        "dn18:22.12",
+        "dn18:22.13",
+        "dn18:22.14",
+        "dn18:22.15"
+      ],
+      "summary": "Phạm thiên thu ba mươi ba thân thành một, ngồi kiết-già chỗ Sakka. Phật là bậc biết, thấy, A-la-hán, toàn giác, khéo dạy bốn như ý túc để thần thông tăng, phát triển, biến hóa. Mỗi nền gồm định do dục, tinh tấn, tâm hoặc quán xét, kèm các hành tinh cần. Sa-môn, Bà-la-môn có thần thông ở quá khứ, tương lai, hiện tại đều do tu bốn nền. Chư thiên nhận thấy uy lực Phạm thiên; vị ấy nói mình cũng do tu bốn nền."
+    },
+    {
+      "id": "opening-one",
+      "title": "Cơ hội an lạc thứ nhất",
+      "segments": [
+        "dn18:23.1",
+        "dn18:23.2",
+        "dn18:23.3.0",
+        "dn18:23.4",
+        "dn18:23.5",
+        "dn18:23.6",
+        "dn18:23.7",
+        "dn18:23.8",
+        "dn18:23.9",
+        "dn18:23.10",
+        "dn18:23.11",
+        "dn18:23.12"
+      ],
+      "summary": "Chuyển bài và nhãn ba cơ hội an lạc. Người sống lẫn dục và bất thiện, sau thời gian nghe Thánh pháp, như lý tác ý, thực hành thuận Pháp, sống không lẫn cả hai. Lạc sinh, và còn hơn lạc là hỷ duyệt; ví niềm vui sinh hân hoan, lặp điều kiện và kết quả, xác nhận cơ hội thứ nhất do Phật chứng ngộ."
+    },
+    {
+      "id": "opening-two",
+      "title": "Cơ hội an lạc thứ hai",
+      "segments": [
+        "dn18:24.1",
+        "dn18:24.2",
+        "dn18:24.3",
+        "dn18:24.4",
+        "dn18:24.5",
+        "dn18:24.6",
+        "dn18:24.7"
+      ],
+      "summary": "Thân hành, khẩu hành, tâm hành thô chưa lắng; nhờ nghe Thánh pháp, như lý tác ý, thực hành thuận Pháp, cả ba lắng. Lạc sinh, và còn hơn lạc là hỷ duyệt; ví niềm vui sinh hân hoan, lặp và kết cơ hội thứ hai. Không tự đổi ba hành thành ba nghiệp ác."
+    },
+    {
+      "id": "opening-three",
+      "title": "Cơ hội an lạc thứ ba",
+      "segments": [
+        "dn18:25.1",
+        "dn18:25.2",
+        "dn18:25.3",
+        "dn18:25.4",
+        "dn18:25.5",
+        "dn18:25.6",
+        "dn18:25.7",
+        "dn18:25.8",
+        "dn18:25.9",
+        "dn18:25.10",
+        "dn18:25.11"
+      ],
+      "summary": "Chưa biết như thật thiện-bất thiện, có lỗi-không lỗi, nên tu-không nên tu, thấp-cao, đen-trắng và đối phần; nhờ nghe Thánh pháp, như lý tác ý, thực hành thuận Pháp, biết đủ các nhóm. Biết thấy như vậy, vô minh bỏ, minh sinh, lạc và hỷ duyệt sinh; ví niềm vui sinh hân hoan, lặp và kết cơ hội thứ ba cùng cả ba cơ hội."
+    },
+    {
+      "id": "mindfulness-body",
+      "title": "Bốn niệm xứ và quán nội thân",
+      "segments": [
+        "dn18:26.1",
+        "dn18:26.2",
+        "dn18:26.3.0",
+        "dn18:26.4",
+        "dn18:26.5",
+        "dn18:26.6",
+        "dn18:26.7",
+        "dn18:26.8"
+      ],
+      "summary": "Chuyển bài, nhãn bốn niệm xứ do Phật bậc biết, thấy, A-la-hán, toàn giác khéo dạy để đạt thiện. Quán nội thân, nhiệt tâm, tỉnh giác, niệm, nhiếp phục tham ưu; định tĩnh và trong sáng chân chánh, rồi tri kiến thân người khác bên ngoài."
+    },
+    {
+      "id": "mindfulness-feeling-mind",
+      "title": "Thọ và tâm",
+      "segments": [
+        "dn18:26.9",
+        "dn18:26.10",
+        "dn18:26.11",
+        "dn18:26.12"
+      ],
+      "summary": "Quán nội thọ và nội tâm với phần công thức lược, rồi sinh tri kiến về thọ và tâm người khác bên ngoài. Không thay bằng công thức niệm xứ của bài khác."
+    },
+    {
+      "id": "mindfulness-dhammas",
+      "title": "Pháp và kết bốn niệm xứ",
+      "segments": [
+        "dn18:26.13",
+        "dn18:26.14",
+        "dn18:26.15",
+        "dn18:26.16"
+      ],
+      "summary": "Quán nội pháp, nhiệt tâm, tỉnh giác, niệm, nhiếp phục tham ưu; định và trong sáng chân chánh, rồi tri kiến pháp người khác bên ngoài. Kết bốn niệm xứ Phật khéo dạy để đạt thiện."
+    },
+    {
+      "id": "samadhi",
+      "title": "Bảy trợ duyên của Thánh chánh định",
+      "segments": [
+        "dn18:27.1",
+        "dn18:27.2",
+        "dn18:27.3.0",
+        "dn18:27.4",
+        "dn18:27.5",
+        "dn18:27.6",
+        "dn18:27.7"
+      ],
+      "summary": "Chuyển bài, nhãn bảy hỗ trợ định. Phật khéo dạy để tu và viên mãn chánh định: chánh kiến, tư duy, ngữ, nghiệp, mạng, tinh tấn, niệm. Nhất tâm được bảy chi trang bị là Thánh chánh định có y chỉ và tư lương."
+    },
+    {
+      "id": "ten-path",
+      "title": "Chuỗi đến chánh trí và chánh giải thoát",
+      "segments": [
+        "dn18:27.8"
+      ],
+      "summary": "Chiều chánh kiến → chánh tư duy → chánh ngữ → chánh nghiệp → chánh mạng → chánh tinh tấn → chánh niệm → chánh định → chánh trí → chánh giải thoát. Không đảo chiều như HTML tham khảo."
+    },
+    {
+      "id": "dhamma",
+      "title": "Cửa bất tử rộng mở",
+      "segments": [
+        "dn18:27.9",
+        "dn18:27.10",
+        "dn18:27.11"
+      ],
+      "summary": "Nếu nói đúng rằng Pháp khéo thuyết, thiết thực hiện tại, không thời gian, đến để thấy, hướng thượng, người trí tự chứng biết, cửa bất tử rộng mở, thì chính Pháp này đáng lời ấy. Lặp đủ vì Pháp thật như vậy. Nói đúng không phải lập thêm một chi Chánh ngữ."
+    },
+    {
+      "id": "magadhan-count",
+      "title": "Hơn hai triệu bốn trăm ngàn",
+      "segments": [
+        "dn18:27.12"
+      ],
+      "summary": "Tín bất động Phật, Pháp, Tăng, giới bậc Thánh quý, cùng hóa sinh được Pháp huấn luyện. Hơn 2.400.000 tín đồ Magadha qua đời, đoạn ba kiết sử, Dự lưu không đọa, chắc giác ngộ. Không đổi hóa sinh thành quả Bất lai hay bỏ chữ hơn ở con số."
+    },
+    {
+      "id": "other-people",
+      "title": "Nhất lai và nhóm khác không đếm",
+      "segments": [
+        "dn18:27.13",
+        "dn18:27.14",
+        "dn18:27.15",
+        "dn18:27.16",
+        "dn18:27.17"
+      ],
+      "summary": "Ở đây cũng có Nhất lai; không ép thành chính nhóm vừa gọi Dự lưu. Kệ còn nhóm người khác, vị ấy nghĩ có phần công đức, không thể đếm vì e ngại nói dối. Không tự định danh nhóm khác hoặc ước số."
+    },
+    {
+      "id": "past-future",
+      "title": "Thán phục và lời về quá khứ tương lai",
+      "segments": [
+        "dn18:28.1",
+        "dn18:28.2",
+        "dn18:28.3",
+        "dn18:28.4",
+        "dn18:28.5"
+      ],
+      "summary": "Vessavaṇa nghe và thán phục đạo sư, lời giảng, các thành tựu. Sanaṅkumāra biết tâm, đáp quá khứ đã có và tương lai sẽ có đạo sư, lời giảng, thành tựu thù thắng như vậy; không dự đoán ngày tháng."
+    },
+    {
+      "id": "transmission",
+      "title": "Chuỗi trực tiếp nghe và tự thắng tri",
+      "segments": [
+        "dn18:29.1",
+        "dn18:29.2",
+        "dn18:29.3"
+      ],
+      "summary": "Sanaṅkumāra giảng cho trời Tāvatiṁsa; Vessavaṇa trực tiếp nghe, nhận rồi thuật cho hội mình; Janavasabha trực tiếp nghe, nhận rồi nói Phật. Phật nghe, nhận và tự thắng tri rồi nói Ānanda. Ānanda trực tiếp nghe, nhận rồi thuật bốn chúng: tỳ-kheo, tỳ-kheo-ni, nam và nữ cư sĩ."
+    },
+    {
+      "id": "ending",
+      "title": "Phạm hạnh được truyền rộng",
+      "segments": [
+        "dn18:29.4",
+        "dn18:29.5"
+      ],
+      "summary": "Phạm hạnh hưng thịnh, phát triển, rộng mở, phổ biến, lan truyền, được trình bày rõ giữa trời và người. Dòng kết gọi bài thứ năm, trong khi định danh toàn Trường Bộ là DN18."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "DN18 — Câu chuyện Janavasabha và việc sống theo điều đã học",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Những người được nhớ tới ở Nātika",
+          "meaningUnits": [
+            "title",
+            "setting"
+          ],
+          "paragraphs": [
+            "Kinh Xa-ni-sa, hay Janavasabha, là bài DN18 của Trường Bộ. Người kể mở đầu mình được nghe: Đức Phật ở ngôi nhà bằng gạch tại Nātika. Ngài đã nói về nơi tái sinh của những tín đồ qua đời: người này sinh nơi này, người kia sinh nơi khác.",
+            "Các xứ được kể thành năm cặp: Kāsī và Kosala; Vajji và Malla; Ceti và Vaṁsa; Kuru và Pañcāla; Majjha và Sūrasena. Majjha thường được bản tham khảo gọi là Maccha. Những tên này cho thấy lời hỏi không chỉ liên hệ một gia đình hay một làng."
+          ]
+        },
+        {
+          "id": "three-groups",
+          "kind": "teaching",
+          "heading": "Ba nhóm có thành tựu khác nhau",
+          "meaningUnits": [
+            "nonreturners",
+            "once-returners",
+            "stream-enterers",
+            "devotees-hear",
+            "ananda-hears"
+          ],
+          "paragraphs": [
+            "Hơn năm mươi tín đồ Nātika đã dứt năm trói buộc thuộc phần thấp, gọi là hạ phần kiết sử. Sau khi qua đời, họ hóa sinh, sẽ chứng Niết-bàn tại đó và không trở lại từ thế giới ấy. Hóa sinh là cách tái sinh được kinh nói đến; không phải tên một nghi lễ làm cho người chết.",
+            "Hơn chín mươi vị đã dứt ba kiết sử và làm tham, sân, si yếu đi. Họ là Nhất lai: chỉ trở lại thế giới này một lần nữa rồi chấm dứt khổ. Hơn năm trăm vị dứt ba kiết sử, là Dự lưu: không còn đọa vào cảnh giới xấu, chắc chắn hướng tới giác ngộ. Kinh nói “hơn” ở cả ba con số.",
+            "Các tín đồ Nātika nghe lại lời về các xứ và đủ ba nhóm, điều kiện cùng kết quả ấy thì rất vui, đầy hỷ lạc. Ānanda cũng nghe trọn lời ấy và nghe về niềm vui của họ. Bài lặp lại để dẫn tới điều Ānanda muốn hỏi tiếp."
+          ]
+        },
+        {
+          "id": "concern",
+          "kind": "teaching",
+          "heading": "Ānanda nhớ những tín đồ Magadha",
+          "meaningUnits": [
+            "concern",
+            "king",
+            "magadha"
+          ],
+          "paragraphs": [
+            "Ānanda nghĩ: ở Magadha cũng có nhiều tín đồ lâu năm đã qua đời. Tưởng như Aṅga-Magadha trống vắng những tín đồ đã mất để được nói đến; Đức Phật chưa tuyên bố về họ. Họ tin Phật, Pháp, Tăng và giữ giới đầy đủ. Nếu được giải đáp, nhiều người có thể thêm lòng tin và nhờ đó đi đến cảnh giới tốt.",
+            "Ngài nhớ vua Seniya Bimbisāra: vua sống và trị nước theo Pháp, giúp Bà-la-môn, gia chủ, người ở thành thị và các địa phương. Dân nhớ rằng họ đã sống vui, yên ổn dưới thời vua. Vua tin ba ngôi Phật, Pháp, Tăng, giữ giới, và còn tán thán Đức Phật tới lúc qua đời. Ānanda mong có lời về vua để người dân tăng tín tâm, được lợi ích ấy.",
+            "Đức Phật giác ngộ tại Magadha. Ānanda tự hỏi sao những tín đồ nơi này chưa được nói đến. Nếu không có lời giải đáp, họ sẽ buồn lòng. Đây là suy nghĩ và mối quan tâm của Ānanda."
+          ]
+        },
+        {
+          "id": "request",
+          "kind": "teaching",
+          "heading": "Lời thưa lúc gần sáng",
+          "meaningUnits": [
+            "request",
+            "request-end"
+          ],
+          "paragraphs": [
+            "Sau khi suy nghĩ riêng, gần sáng Ānanda đến gặp Đức Phật, đảnh lễ và ngồi một bên. Ngài thuật những điều đã nghe: mười xứ, hơn năm mươi vị, hơn chín mươi vị, hơn năm trăm vị với các điều kiện tu học và kết quả vừa kể; người Nātika vì vậy vui mừng.",
+            "Rồi Ānanda thưa lại việc nhiều tín đồ Magadha lâu năm đã mất, lòng tin và giới của họ, cùng lời mong được giải đáp. Ngài kể cả vua Bimbisāra, niềm an vui của dân dưới thời vua, đức tin và giới của vua, lời tán thán Phật tới cuối đời. Cuối cùng là lý do Phật giác ngộ ở Magadha và nỗi buồn nếu những người ở đó không được giải đáp. Thưa xong, Ānanda đứng dậy, đảnh lễ, đi nhiễu bên phải rồi rời đi."
+          ]
+        },
+        {
+          "id": "afternoon",
+          "kind": "teaching",
+          "heading": "Đức Phật chú tâm về những người ấy",
+          "meaningUnits": [
+            "buddha-knows",
+            "peace",
+            "recount"
+          ],
+          "paragraphs": [
+            "Không lâu sau, buổi sáng Đức Phật đắp y, mang bát và y ngoài, vào Nātika khất thực. Dùng bữa, trở về, rửa chân xong, Ngài vào nhà gạch, ngồi chỗ đã dọn, chú tâm toàn tâm để biết những tín đồ Magadha đi về đâu, đời sau thế nào. Kinh kể Ngài đã thấy cảnh giới và đời sau của họ.",
+            "Chiều, Ngài rời chỗ độc cư, ngồi dưới bóng trú xá. Ānanda đến đảnh lễ, ngồi một bên, thấy Ngài thật an tịnh, mặt dường như sáng nhờ các căn trong sáng, nên hỏi hôm nay Ngài có an trú trong trạng thái an tịnh không. Đức Phật thuật lại việc đã làm sau khi Ānanda đi, cả khất thực, rửa chân, ngồi chú tâm, và cho biết mình đã thấy đời sau của người Magadha."
+          ]
+        },
+        {
+          "id": "name",
+          "kind": "teaching",
+          "heading": "Một tiếng gọi khi chưa thấy người nói",
+          "meaningUnits": [
+            "name"
+          ],
+          "paragraphs": [
+            "Trong lời Đức Phật kể, một Dạ-xoa đang ẩn mình đã cất tiếng: con là Janavasabha, bạch Thế Tôn; con là Janavasabha, bạch Thiện Thệ. Dạ-xoa là một loại chúng sinh phi nhân trong câu chuyện.",
+            "Đức Phật hỏi Ānanda trước đây có nghe tên ấy chưa. Ānanda đáp chưa, nhưng vừa nghe tên thì nổi da gà, nghĩ người mang danh xưng cao quý ấy hẳn không phải Dạ-xoa tầm thường. Đó là phản ứng và suy nghĩ của Ānanda, chưa phải lời người ấy tự kể."
+          ]
+        },
+        {
+          "id": "bimbisara",
+          "kind": "teaching",
+          "heading": "Người ấy tự xưng là Bimbisāra",
+          "meaningUnits": [
+            "bimbisara",
+            "source-question",
+            "instruction",
+            "visit"
+          ],
+          "paragraphs": [
+            "Đức Phật kể tiếp: ngay sau tiếng gọi, một Dạ-xoa dung sắc rất đẹp hiện ra trước Ngài, hai lần tự xưng mình là Bimbisāra. Vị ấy nói đây là lần thứ bảy được tái sinh đồng trú với Đại Thiên Vương Vessavaṇa; sau khi rời đời sống ấy, mình có khả năng làm vua loài người. Vị ấy đọc kệ: bảy lần từ đây, bảy lần từ kia, cộng mười bốn lần luân chuyển, nhớ được những nơi từng sống.",
+            "Janavasabha nói từ lâu biết mình không còn đọa cảnh giới xấu, nhưng vẫn mong đạt Nhất lai. Đức Phật tán thán điều hy hữu, nhắc lại cả hai ý và hỏi do đâu vị ấy biết thành tựu này. Janavasabha hai lần đáp chỉ do giáo pháp của Ngài; từ khi có lòng tin trọn vẹn nơi Phật, vị ấy biết mình không đọa và còn mong Nhất lai. “Mong đạt” cần được phân biệt với “đã đạt”.",
+            "Vessavaṇa vừa sai vị ấy đến Đại Thiên Vương Virūḷhaka có công việc. Trên đường, vị ấy thấy Đức Phật chú tâm về người Magadha. Janavasabha đã trực tiếp nghe và tiếp nhận lời Vessavaṇa nói trong hội của ông về đời sau những người này. Vị ấy bảo việc mình nghe được điều ấy không có gì lạ. Janavasabha muốn vừa gặp Đức Phật vừa báo lại điều đã nghe: đó là hai lý do đến gặp."
+          ]
+        },
+        {
+          "id": "council",
+          "kind": "teaching",
+          "heading": "Câu chuyện được thuật về hội chư thiên",
+          "meaningUnits": [
+            "assembly",
+            "new-gods"
+          ],
+          "paragraphs": [
+            "Từ đây, Đức Phật kể lại lời Janavasabha thuật. Nhiều ngày trước, vào đêm rằm Bố-tát lúc bắt đầu mùa an cư, chư thiên Tāvatiṁsa, tức trời Ba Mươi Ba, họp tại hội trường Sudhammā. Đại hội chư thiên ngồi chung quanh.",
+            "Bốn Đại Thiên Vương có vị trí rõ: Dhataraṭṭha ở đông nhìn tây; Virūḷhaka ở nam nhìn bắc; Virūpakkha ở tây nhìn đông; Vessavaṇa ở bắc nhìn nam. Mỗi vị ngồi trước chúng của mình. Đó là thứ tự của hội, rồi mới đến chỗ nhóm Janavasabha.",
+            "Những vị mới sinh lên sau khi sống phạm hạnh theo Đức Phật vượt các vị khác về dung sắc và danh tiếng. Chư thiên vui mừng, nói thiên chúng tăng lên, chúng A-tu-la giảm đi. Phạm hạnh là đời sống tu tập thanh tịnh được nói trong bài."
+          ]
+        },
+        {
+          "id": "sakka",
+          "kind": "teaching",
+          "heading": "Sakka đọc lời tùy hỷ",
+          "meaningUnits": [
+            "sakka-verse",
+            "business"
+          ],
+          "paragraphs": [
+            "Thiên chủ Sakka thấy mọi người vui thì đọc kệ. Kệ nói trời Ba Mươi Ba cùng Thiên chủ vui, kính lễ Như Lai và sự chân chánh của Pháp; thấy những vị trời mới đẹp, có danh tiếng, đã tu phạm hạnh dưới bậc Thiện Thệ rồi sinh đến. Họ vượt các vị khác ở ba mặt: dung sắc, danh tiếng và tuổi thọ, là đệ tử của bậc Đại Tuệ có thành tựu. Thấy vậy, trời Ba Mươi Ba cùng Sakka lại vui và kính lễ Phật, Pháp.",
+            "Sau kệ, chúng trời càng vui, lại nói thiên chúng tăng, A-tu-la giảm. Họ bàn công việc khiến mình tụ hội, rồi truyền đạt và chỉ dạy bốn Đại Thiên Vương. Bốn vị chưa đi, đứng ở chỗ mình. Một bài kệ ngắn nhắc rằng các vua tiếp nhận lời giáo huấn, tâm trong sáng, an tịnh và đứng bên chỗ ngồi."
+          ]
+        },
+        {
+          "id": "light",
+          "kind": "teaching",
+          "heading": "Ánh sáng từ phương bắc",
+          "meaningUnits": [
+            "light",
+            "stay"
+          ],
+          "paragraphs": [
+            "Một ánh sáng lớn, hào quang vượt uy quang chư thiên, hiện ở phương bắc. Sakka nói đó là dấu Phạm thiên sắp xuất hiện. Kệ nhắc lại: các dấu hiệu cho biết Phạm thiên sẽ hiện, dấu hiệu là hào quang rất lớn.",
+            "Chư thiên ngồi lại, nói muốn biết ánh sáng này dẫn đến điều gì, chỉ sau khi tự thấy rõ mới đi đến đó. Bốn Đại Thiên Vương ngồi lại và nói cùng ý ấy. Nghe vậy, chư thiên đồng lòng nhắc lần nữa rằng sẽ thấy rõ rồi mới đi."
+          ]
+        },
+        {
+          "id": "brahma",
+          "kind": "teaching",
+          "heading": "Sanaṅkumāra hiện ra",
+          "meaningUnits": [
+            "manifest",
+            "appearance"
+          ],
+          "paragraphs": [
+            "Phạm thiên Sanaṅkumāra hiện một thân thô hơn, đủ cho chư thiên thấy, vì sắc tướng tự nhiên của vị ấy vượt tầm mắt họ. “Thô hơn” ở đây không có nghĩa xấu. Vị ấy nổi bật về dung sắc và danh tiếng, được ví như tượng vàng nổi hơn hình người.",
+            "Không ai đứng dậy, cúi lễ hoặc mời chỗ. Tất cả im lặng, chắp tay, ngồi kiết-già và nghĩ vị ấy muốn ngồi chỗ ai thì sẽ ngồi. Vị trời được chọn sẽ rất vui, như một vua Sát-đế-lợi vừa được quán đảnh, đăng quang.",
+            "Lần này Sanaṅkumāra mang dáng thiếu niên Pañcasikha, bay lên ngồi kiết-già giữa hư không. Kinh ví sự ngồi ấy như người khỏe ngồi trên giường trải kỹ hoặc mặt đất bằng. Thấy chư thiên vui, vị ấy đọc lời tùy hỷ."
+          ]
+        },
+        {
+          "id": "brahma-verse",
+          "kind": "teaching",
+          "heading": "Lời kệ được Phạm thiên nói lại",
+          "meaningUnits": [
+            "brahma-verse",
+            "voice"
+          ],
+          "paragraphs": [
+            "Kệ của Sanaṅkumāra nói đủ những ý Sakka đã đọc: trời Ba Mươi Ba cùng Thiên chủ vui và kính lễ Như Lai, Pháp chân chánh; những vị mới đẹp, có tiếng tăm, đã sống phạm hạnh theo Thiện Thệ rồi đến đây; đệ tử bậc Đại Tuệ vượt về dung sắc, danh tiếng, tuổi thọ; thấy thế, chư thiên lại vui và kính lễ Phật, Pháp. Lần trước người nói là Sakka, lần này là Sanaṅkumāra.",
+            "Giọng Phạm thiên có tám nét: lưu loát, dễ hiểu, dịu ngọt, dễ nghe, đầy đặn, không tản mạn, thâm sâu, vang vọng. Cả hội hiểu rõ, nhưng tiếng không lan ra ngoài hội. Giọng có đủ tám nét ấy được gọi là Phạm âm."
+          ]
+        },
+        {
+          "id": "forms",
+          "kind": "teaching",
+          "heading": "Ba mươi ba hóa thân cùng nói",
+          "meaningUnits": [
+            "thirty-three",
+            "unison"
+          ],
+          "paragraphs": [
+            "Sanaṅkumāra hiện ba mươi ba thân, mỗi thân ngồi kiết-già ở một chỗ của chư thiên. Vị ấy ca ngợi Đức Phật hành động vì lợi ích và an vui của số đông, thương tưởng thế gian, vì lợi ích và hạnh phúc của trời, người.",
+            "Vị ấy nói người quy y Phật, Pháp, Tăng và giữ giới đầy đủ, sau chết có người sinh về Tha Hóa Tự Tại, có người Hóa Lạc, Đâu-suất, Dạ-ma, Tāvatiṁsa, hoặc Tứ Đại Thiên Vương. Ngay mức thấp nhất được nói trong đoạn cũng thêm vào chúng Càn-thát-bà. Lời kể nêu cả quy y lẫn giới hạnh.",
+            "Mỗi vị trời lại tưởng chỉ hóa thân ngồi ở chỗ mình đang nói. Kệ giải thích: một thân nói thì các thân cùng nói; một thân im thì tất cả im. Trời Ba Mươi Ba cùng Sakka vẫn nghĩ chỉ vị ở chỗ mình nói riêng với mình."
+          ]
+        },
+        {
+          "id": "four-bases",
+          "kind": "teaching",
+          "heading": "Bốn như ý túc",
+          "meaningUnits": [
+            "powers"
+          ],
+          "paragraphs": [
+            "Sanaṅkumāra thu các thân lại thành một, ngồi kiết-già trên chỗ Sakka. Vị ấy ca ngợi bốn như ý túc do Đức Phật — bậc biết, bậc thấy, A-la-hán, hoàn toàn giác ngộ — khéo chỉ dạy để thần thông tăng trưởng, phát triển và biến hóa.",
+            "Bốn như ý túc là bốn nền tu tập: định do dục, nghĩa là ý muốn tha thiết trong việc tu; định do tinh tấn; định do tâm; định do quán xét. Trong cả bốn, định đều đi cùng những hoạt động tinh cần. Bài không chỉ nêu bốn từ rồi bỏ sự tu tập và chuyên tâm.",
+            "Phạm thiên nói sa-môn, Bà-la-môn trong quá khứ đã có, trong tương lai sẽ có, và hiện tại đang có các loại thần thông đều nhờ tu và làm sung mãn bốn nền này. Vị ấy hỏi chư thiên có thấy thần lực của mình không. Họ đáp có. Vị ấy nói mình cũng do tu bốn như ý túc ấy mà có thần lực và uy lực lớn."
+          ]
+        },
+        {
+          "id": "first-opening",
+          "kind": "teaching",
+          "heading": "Cơ hội an lạc thứ nhất",
+          "meaningUnits": [
+            "opening-one"
+          ],
+          "paragraphs": [
+            "Sanaṅkumāra tiếp tục nói ba cơ hội đạt an lạc mà Đức Phật, bậc biết và thấy, đã chứng ngộ. Thứ nhất: người đang sống lẫn trong dục lạc và việc bất thiện, sau một thời gian được nghe Thánh pháp, suy xét đúng cách và thực hành phù hợp lời dạy.",
+            "Nhờ cả ba việc ấy, người ấy sống không còn lẫn với dục và bất thiện. Lạc sinh lên, và hơn cả lạc còn có hỷ duyệt — niềm vui trong tâm. Kinh ví như từ niềm vui lại sinh hân hoan, rồi nhắc lại việc rời dục và bất thiện đem lạc, hỷ ấy. Đây là cơ hội thứ nhất."
+          ]
+        },
+        {
+          "id": "second-opening",
+          "kind": "teaching",
+          "heading": "Cơ hội thứ hai: các hành thô lắng dịu",
+          "meaningUnits": [
+            "opening-two"
+          ],
+          "paragraphs": [
+            "Người thứ hai có thân hành, khẩu hành và tâm hành còn thô, chưa lắng. Sau một thời gian, người ấy nghe Thánh pháp, suy xét đúng cách, thực hành thuận Pháp. Nhờ vậy, những hoạt động thô liên hệ thân, lời nói và tâm đều lắng dịu.",
+            "Cả ba lắng dịu thì lạc sinh, và còn hơn lạc là hỷ duyệt. Ví dụ niềm vui sinh hân hoan được nói lần nữa; kết quả được nhắc lại. Đây là cơ hội thứ hai. Bài không rút người ấy thành nhãn một “người xấu”, mà chỉ ra điều được rèn luyện."
+          ]
+        },
+        {
+          "id": "third-opening",
+          "kind": "teaching",
+          "heading": "Cơ hội thứ ba: hiểu rõ điều nào nên làm",
+          "meaningUnits": [
+            "opening-three"
+          ],
+          "paragraphs": [
+            "Người thứ ba chưa biết đúng như thật thiện và bất thiện; có lỗi và không lỗi; nên tu tập và không nên; thấp kém và cao thượng; những mặt đen, trắng cùng sự đối lập của chúng. Ở đây đen-trắng là hình ảnh để nói về phẩm chất.",
+            "Sau khi nghe Thánh pháp, suy xét đúng cách và thực hành thuận Pháp, người ấy biết rõ chính những nhóm vừa kể. Biết và thấy như vậy, vô minh được bỏ, minh sinh lên: sự không hiểu được thay bằng hiểu biết. Nhờ đó có lạc, có hỷ duyệt hơn lạc, như niềm vui sinh hân hoan. Đó là cơ hội thứ ba; Sanaṅkumāra kết lại cả ba đều do Đức Phật chứng ngộ."
+          ]
+        },
+        {
+          "id": "mindfulness",
+          "kind": "teaching",
+          "heading": "Bốn niệm xứ trong cách kể của bài này",
+          "meaningUnits": [
+            "mindfulness-body",
+            "mindfulness-feeling-mind",
+            "mindfulness-dhammas"
+          ],
+          "paragraphs": [
+            "Phạm thiên ca ngợi bốn niệm xứ Đức Phật khéo dạy để đạt điều thiện. Một vị tỳ-kheo quán thân nơi thân mình, nhiệt tâm, tỉnh giác, chánh niệm, chế ngự tham muốn và buồn bực đối với đời. Nhờ vậy, tâm định tĩnh đúng và trong sáng đúng; từ đó sinh trí và sự thấy về thân người khác ở bên ngoài.",
+            "Với thọ, kinh kể quán cảm thọ bên trong rồi sinh trí và sự thấy về thọ người khác. Với tâm, quán nội tâm rồi sinh trí và sự thấy về tâm người khác. Những bước giữa được ghi lược theo công thức đã nói.",
+            "Với pháp, vị ấy quán các pháp bên trong, cũng nhiệt tâm, tỉnh giác, chánh niệm, nhiếp phục tham ưu. Tâm định tĩnh và trong sáng đúng thì sinh trí và sự thấy về pháp của người khác ở ngoài. Thân, thọ, tâm, pháp là đủ bốn niệm xứ. Đây là thành tựu kinh mô tả; chưa thể lấy một phỏng đoán về bạn mình làm trí thấy tâm người khác."
+          ]
+        },
+        {
+          "id": "samadhi",
+          "kind": "teaching",
+          "heading": "Định có bảy điều nâng đỡ",
+          "meaningUnits": [
+            "samadhi",
+            "ten-path"
+          ],
+          "paragraphs": [
+            "Sanaṅkumāra nói bảy pháp hỗ trợ để chánh định được tu và đầy đủ: chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm. Có thể hiểu lần lượt là thấy đúng, hướng nghĩ đúng, nói đúng, hành động đúng, sinh sống đúng, nỗ lực đúng, ghi nhớ tỉnh thức đúng. Tâm chuyên nhất có đủ bảy điều ấy nâng đỡ được gọi là Thánh chánh định có chỗ dựa, có tư lương.",
+            "Chiều tiếp nối được kinh nêu rõ: chánh kiến dẫn tới chánh tư duy; rồi chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm, chánh định, chánh trí và chánh giải thoát. Chánh trí là biết đúng; kết quả cuối được nói là giải thoát đúng. Không đảo ngược chiều mười điều ấy."
+          ]
+        },
+        {
+          "id": "dhamma",
+          "kind": "teaching",
+          "heading": "Lời dạy để tự mình thấy biết",
+          "meaningUnits": [
+            "dhamma",
+            "magadhan-count",
+            "other-people"
+          ],
+          "paragraphs": [
+            "Phạm thiên nói rằng nếu ca ngợi Pháp được Đức Phật khéo dạy, thiết thực hiện tại, không bị thời gian chi phối, mời đến mà thấy, hướng thượng, được người trí tự mình biết, và cửa bất tử mở rộng, thì chính Pháp này đáng lời ấy. Vị ấy nhắc lại đủ các nét đó để xác nhận lời ca ngợi. Cửa bất tử nói về lối giải thoát, không hứa thân người sẽ sống mãi.",
+            "Rồi đến lời về Magadha: niềm tin vững nơi Phật, Pháp, Tăng, giới được bậc Thánh quý, và những vị hóa sinh được Pháp huấn luyện. Hơn hai triệu bốn trăm ngàn tín đồ Magadha đã mất, dứt ba kiết sử, là Dự lưu, không đọa ác thú, chắc hướng giác ngộ. “Hơn” vẫn cần giữ, không làm con số thành đúng tuyệt đối.",
+            "Ở đây cũng có các vị Nhất lai. Sanaṅkumāra đọc kệ rằng còn nhóm người khác, vị ấy nghĩ họ có phần công đức, nhưng không thể đếm hết vì ngại nói sai thành nói dối. Kinh không tự đặt thêm tên quả cho nhóm người ấy."
+          ]
+        },
+        {
+          "id": "past-future",
+          "kind": "teaching",
+          "heading": "Vessavaṇa thán phục",
+          "meaningUnits": [
+            "past-future"
+          ],
+          "paragraphs": [
+            "Nghe vậy, Vessavaṇa nghĩ thật hy hữu, kỳ diệu khi có bậc thầy cao quý, lời giảng cao quý, những thành tựu cao quý được biết đến. Sanaṅkumāra biết ý nghĩ ấy.",
+            "Vị ấy nói với Vessavaṇa rằng quá khứ cũng từng có bậc thầy, lời giảng và các thành tựu thù thắng như vậy; tương lai cũng sẽ có. Đây là lời trong cuộc hội, không kèm ngày tháng dự báo."
+          ]
+        },
+        {
+          "id": "transmission",
+          "kind": "teaching",
+          "heading": "Ai nghe từ ai?",
+          "meaningUnits": [
+            "transmission",
+            "ending"
+          ],
+          "paragraphs": [
+            "Cuối bài giải rõ các tầng câu chuyện. Sanaṅkumāra nói với trời Ba Mươi Ba. Vessavaṇa trực tiếp nghe và tiếp nhận, rồi nói với hội của mình. Janavasabha trực tiếp nghe ở hội ấy, rồi thuật cho Đức Phật.",
+            "Đức Phật nghe và tiếp nhận lời Janavasabha, đồng thời tự mình biết bằng thắng trí, rồi kể cho Ānanda. Ānanda trực tiếp nghe, tiếp nhận và thuật cho bốn chúng: tỳ-kheo, tỳ-kheo-ni, nam cư sĩ, nữ cư sĩ. Vì thế, việc kể lại của Đức Phật không chỉ dựa vào nghe một người khác.",
+            "Bài kết đời phạm hạnh hưng thịnh, phát triển, mở rộng, được nhiều người biết, lan truyền sâu rộng, trình bày rõ giữa trời và người. Dòng kết gọi Xa-ni-sa là bài thứ năm; tên DN18 ở đầu là số trong toàn Trường Bộ."
+          ]
+        },
+        {
+          "id": "reading",
+          "kind": "clarification",
+          "heading": "Những chi tiết cần đọc đúng",
+          "meaningUnits": [
+            "concern",
+            "bimbisara",
+            "manifest",
+            "thirty-three",
+            "ten-path"
+          ],
+          "paragraphs": [
+            "Câu về Aṅga-Magadha “trống vắng” có hai cách dịch: bản Việt dự án và bản HTML Minh Châu hiểu nơi ấy vắng vì nhiều tín đồ mất; Sujato hiểu như lời nhắc rằng sao cứ như nơi ấy không có tín đồ đã mất để được nói đến. Lời giải theo cách thứ hai trong mạch Ānanda thỉnh hỏi, không dùng câu ấy để ước tính dân số.",
+            "Tên địa phương là Nātika theo Pāli. Hóa thân là ba mươi ba, không phải ba mươi; thân thô hơn để nhìn thấy, không phải thân xấu. Janavasabha còn mong Nhất lai, và sau đời sống với Vessavaṇa có thể làm vua người. Đó là những điểm các bản tham khảo đôi chỗ dễ làm đọc lầm."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Nghe lời hay rồi làm một việc cụ thể",
+          "meaningUnits": [
+            "opening-one",
+            "opening-two",
+            "opening-three"
+          ],
+          "paragraphs": [
+            "Ví dụ do người biên soạn đặt: sau khi nghe cách nói chuyện không làm bạn buồn, em nghĩ lại lời mình và tập bớt chen ngang. Lần sau em nhận ra câu nào có lỗi, câu nào nên nói, và cuộc chuyện trò bớt căng. Ví dụ giúp nhớ ba việc nghe, suy xét, thực hành; nó không hứa em có thần thông hay biết đời sau của ai."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Kể lại cho đúng người nói",
+          "meaningUnits": [
+            "name",
+            "bimbisara",
+            "transmission"
+          ],
+          "paragraphs": [
+            "Em có thể vẽ hoặc viết năm tên theo thứ tự truyền đạt: Sanaṅkumāra, Vessavaṇa, Janavasabha, Đức Phật, Ānanda. Bên cạnh Đức Phật ghi thêm “tự mình thắng trí”. Sau đó chọn một lời dạy trong ba cơ hội an lạc để đọc với người lớn. Bài tập là hiểu đúng câu chuyện và điều có thể rèn hôm nay, không tự đoán cảnh giới người đã mất."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "DN18 — Janavasabha: tín tâm, sự tu tập và các tầng truyền đạt",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Từ lời tuyên bố về tái sinh ở Nātika",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "nonreturners",
+            "once-returners",
+            "stream-enterers"
+          ],
+          "paragraphs": [
+            "Kinh Janavasabha, tên Việt Xa-ni-sa, là DN18. Người truyền kể được nghe Đức Phật đang ở ngôi nhà gạch tại Nātika. Bấy giờ Ngài tuyên bố nơi tái sinh của các tín đồ qua đời ở Kāsī-Kosala, Vajji-Malla, Ceti-Vaṁsa, Kuru-Pañcāla, Majjha-Sūrasena: người này sinh ở đây, người kia ở kia. Majjha là cách ghi Pāli tại đây, thường gặp dưới dạng Maccha trong bản tham khảo.",
+            "Với Nātika có ba nhóm. Hơn năm mươi người đoạn tận năm hạ phần kiết sử, hóa sinh và sẽ Niết-bàn ngay ở đó, không trở lại từ thế giới ấy. Hơn chín mươi người đoạn tận ba kiết sử, làm tham-sân-si suy yếu, là Nhất lai: chỉ trở lại thế giới này một lần rồi chấm dứt khổ. Hơn năm trăm người đoạn tận ba kiết sử, là Dự lưu: không đọa ác thú, chắc chắn hướng giác ngộ.",
+            "Kiết sử là sự trói buộc; ba nhóm được phân biệt bằng điều đã đoạn, điều được làm yếu và kết quả. Bài không chỉ công bố số người sinh vào cảnh giới tốt, cũng không nói ai có niềm tin đều đạt cùng một quả."
+          ]
+        },
+        {
+          "id": "heard",
+          "kind": "teaching",
+          "heading": "Điều khiến Ānanda muốn hỏi thêm",
+          "meaningUnits": [
+            "devotees-hear",
+            "ananda-hears",
+            "concern"
+          ],
+          "paragraphs": [
+            "Tín đồ Nātika nghe lại lời về các xứ, đủ ba nhóm hơn năm mươi, hơn chín mươi, hơn năm trăm cùng những điều kiện tu tập ấy thì hoan hỷ, vui mừng, đầy hỷ lạc. Ānanda nghe cùng lời tuyên bố và nghe niềm vui của họ.",
+            "Ngài nghĩ đến Magadha, nơi nhiều tín đồ lâu năm đã qua đời. Câu than về Aṅga-Magadha trống vắng được đọc ở đây theo sắc thái: cứ như nơi ấy không có tín đồ đã mất để được nhắc tới. Những người ấy có lòng tin nơi Phật, Pháp, Tăng, đầy đủ giới hạnh, nhưng Đức Phật chưa tuyên bố về họ. Một lời giải đáp có thể khiến nhiều người tăng tín tâm, rồi đi đến thiện thú. Đây là mối quan tâm được Ānanda suy xét riêng."
+          ]
+        },
+        {
+          "id": "king",
+          "kind": "teaching",
+          "heading": "Ký ức về Bimbisāra và Magadha",
+          "meaningUnits": [
+            "king",
+            "magadha"
+          ],
+          "paragraphs": [
+            "Ānanda nhớ Seniya Bimbisāra là vua sống theo Pháp, trị nước theo Pháp, làm lợi Bà-la-môn, gia chủ, dân thành thị và các địa phương. Người dân vẫn ca ngợi rằng vua đã làm họ an vui và đời sống dưới triều ấy yên ổn. Vua có tín tâm ba ngôi và đầy đủ giới; đến lúc mất vẫn tán thán Đức Phật. Ānanda mong lời tuyên bố về vua cũng giúp nhiều người có tín tâm, đi đến cảnh giới tốt.",
+            "Ngài còn nghĩ Đức Phật giác ngộ ngay tại Magadha: vì sao tín đồ đã mất ở đây chưa được tuyên bố? Nếu điều ấy không xảy ra, tín đồ Magadha sẽ buồn lòng; vậy sao không giải đáp cho họ? Những lời này thuộc suy nghĩ của Ānanda, không phải lời Đức Phật tự nhận đã bỏ quên một xứ."
+          ]
+        },
+        {
+          "id": "petition",
+          "kind": "teaching",
+          "heading": "Ānanda đem toàn bộ điều ấy thưa lên",
+          "meaningUnits": [
+            "request",
+            "request-end"
+          ],
+          "paragraphs": [
+            "Gần sáng, sau khi một mình suy nghĩ, Ānanda đến đảnh lễ Đức Phật, ngồi một bên. Ngài thuật lại lời đã nghe về mười xứ, ba nhóm tín đồ Nātika, số lượng và quả vị của từng nhóm, cùng niềm vui của người nghe. Rồi ngài nêu các tín đồ lâu năm Magadha, lòng tin và giới hạnh của họ, mong được tuyên bố để lợi ích tín tâm lan rộng.",
+            "Ngài trình bày cả câu chuyện Bimbisāra: người dân an vui dưới một vua theo Pháp, tín tâm và giới của vua, lời tán thán Phật tới lúc mất; cùng việc Đức Phật giác ngộ ở Magadha và nỗi buồn nếu tín đồ xứ này không được giải đáp. Thưa xong, Ānanda đứng dậy, đảnh lễ, đi nhiễu bên phải rồi cáo lui."
+          ]
+        },
+        {
+          "id": "knowing",
+          "kind": "teaching",
+          "heading": "Đức Phật tự chú tâm và thấy đời sau của họ",
+          "meaningUnits": [
+            "buddha-knows",
+            "peace",
+            "recount"
+          ],
+          "paragraphs": [
+            "Sau khi Ānanda đi không lâu, buổi sáng Đức Phật đắp y, mang bát và y ngoài, vào Nātika khất thực. Ăn xong, trở về, rửa chân, Ngài vào nhà gạch và ngồi nơi dọn sẵn, chú tâm, tác ý, tập trung toàn tâm về các tín đồ Magadha: sẽ biết họ đi đâu và có đời sau thế nào. Kinh kể Ngài đã thấy điều ấy.",
+            "Chiều đến, Ngài rời độc cư, ra ngồi dưới bóng trú xá. Ānanda đến lễ và ngồi bên, nhận thấy diện mạo Ngài an tịnh, dường như sáng vì các căn trong sáng, nên hỏi hôm nay có an trú trong một trạng thái an tịnh không. Đức Phật kể lại trình tự từ lúc Ānanda đi, qua khất thực, rửa chân, vào nhà chú tâm; Ngài xác nhận mình đã thấy cảnh giới và đời sau của người Magadha."
+          ]
+        },
+        {
+          "id": "janavasabha",
+          "kind": "teaching",
+          "heading": "Tiếng gọi, danh xưng và sự hiện ra",
+          "meaningUnits": [
+            "name",
+            "bimbisara"
+          ],
+          "paragraphs": [
+            "Trong lời kể của Đức Phật, một Dạ-xoa ẩn mình cất tiếng hai lần tự xưng Janavasabha, lần lượt xưng hô với Thế Tôn và Thiện Thệ. Đức Phật hỏi Ānanda có từng nghe tên ấy chưa. Ānanda nói chưa, nhưng nghe tên thì lông tóc dựng, nghĩ vị mang danh xưng cao quý ấy hẳn không tầm thường.",
+            "Ngay sau tiếng gọi, một Dạ-xoa dung sắc thù thắng hiện ra, hai lần tự nhận là Bimbisāra. Vị ấy nói đây là lần thứ bảy tái sinh đồng trú với Đại Thiên Vương Vessavaṇa; sau khi chết từ đời sống ấy, vị ấy có khả năng trở thành vua loài người. Kệ đi kèm nói bảy lần từ đây, bảy lần từ kia, mười bốn lần luân chuyển, nhớ những nơi đã sống.",
+            "Janavasabha biết từ lâu mình không còn đọa ác thú, và vẫn nuôi hy vọng đạt Nhất lai. Sự hy vọng chưa được đổi thành lời chứng nhận đã Nhất lai; khả năng làm vua người cũng chưa được đổi thành một sự việc đã xảy ra theo chiều ngược."
+          ]
+        },
+        {
+          "id": "basis",
+          "kind": "teaching",
+          "heading": "Nguồn biết và hai lý do đến gặp",
+          "meaningUnits": [
+            "source-question",
+            "instruction",
+            "visit"
+          ],
+          "paragraphs": [
+            "Đức Phật tán thán điều hy hữu, kỳ diệu, nhắc cả việc biết không đọa và mong Nhất lai, rồi hỏi do nguồn nào Janavasabha biết thành tựu thù thắng ấy. Vị ấy hai lần đáp không do gì khác ngoài giáo pháp của Phật. Từ khi có lòng tin trọn vẹn nơi Ngài, vị ấy biết mình không đọa và còn mong Nhất lai.",
+            "Vessavaṇa vừa sai Janavasabha tới Virūḷhaka vì một công việc. Trên đường vị ấy thấy Đức Phật vào nhà gạch, toàn tâm chú ý cảnh giới và đời sau người Magadha. Janavasabha nói việc mình đã trực tiếp nghe và tiếp nhận lời Vessavaṇa nói trong hội chúng về đời sau những người ấy không có gì lạ. Vị ấy nghĩ sẽ gặp Đức Phật và báo điều này; đó là hai lý do đến gặp."
+          ]
+        },
+        {
+          "id": "assembly",
+          "kind": "teaching",
+          "heading": "Hội ở Sudhammā",
+          "meaningUnits": [
+            "assembly",
+            "new-gods"
+          ],
+          "paragraphs": [
+            "Janavasabha kể về một hội trước đó nhiều ngày: đêm trăng tròn ngày rằm Bố-tát, khi bắt đầu mùa an cư, chư thiên Tāvatiṁsa tụ hội tại Sudhammā. Đại chúng chư thiên ngồi khắp chung quanh. Bốn Đại Thiên Vương ngồi trước chúng của mình theo phương và hướng: Dhataraṭṭha đông quay tây; Virūḷhaka nam quay bắc; Virūpakkha tây quay đông; Vessavaṇa bắc quay nam. Sau các vị mới đến chỗ nhóm của Janavasabha; đó là thứ tự hội thường dùng.",
+            "Những chư thiên mới tái sinh sau khi sống phạm hạnh dưới sự hướng dẫn của Đức Phật vượt các vị khác về dung sắc và danh tiếng. Chúng trời hoan hỷ, đầy hỷ lạc, nói thiên chúng tăng trưởng còn chúng A-tu-la suy giảm. Đây là lời chư thiên trong hội, không phải lời kêu gọi xung đột ở đời người."
+          ]
+        },
+        {
+          "id": "sakka-poem",
+          "kind": "teaching",
+          "heading": "Bốn khổ kệ của Sakka",
+          "meaningUnits": [
+            "sakka-verse",
+            "business"
+          ],
+          "paragraphs": [
+            "Sakka, Thiên chủ, biết chúng trời vui liền tùy hỷ bằng kệ. Khổ đầu nói trời Tāvatiṁsa cùng Thiên chủ vui, đảnh lễ Như Lai và sự chân chánh của Pháp. Khổ thứ hai nói các vị trời mới, đẹp và có danh tiếng, đã sống phạm hạnh dưới Thiện Thệ rồi đến. Khổ thứ ba nói họ là đệ tử bậc Đại Tuệ, có thành tựu, vượt các vị khác về dung sắc, danh tiếng, thọ mạng. Khổ cuối trở lại sự hoan hỷ của trời cùng Thiên chủ, kính lễ Như Lai và Pháp.",
+            "Nghe kệ, chư thiên càng vui và lặp lời thiên chúng tăng, A-tu-la giảm. Sau đó, hội suy xét, bàn luận công việc cần bàn, rồi truyền đạt và chỉ dạy bốn Đại Thiên Vương. Các vua còn đứng tại chỗ ngồi, chưa đi. Kệ ngắn nhắc việc họ tiếp nhận giáo huấn, tâm trong sáng và an tịnh, đứng bên chỗ của mình."
+          ]
+        },
+        {
+          "id": "light",
+          "kind": "teaching",
+          "heading": "Dấu báo và quyết định chờ",
+          "meaningUnits": [
+            "light",
+            "stay"
+          ],
+          "paragraphs": [
+            "Ánh sáng lớn xuất hiện từ phương bắc, hào quang vượt uy quang chư thiên. Sakka nhận đó là điềm Phạm thiên sắp hiện: ánh sáng và hào quang là dấu đi trước. Bốn câu kệ nhắc cùng ý dấu hiệu, Phạm thiên sẽ xuất hiện, hào quang rộng lớn.",
+            "Chư thiên ngồi lại tại chỗ và nói sẽ biết ánh sáng dẫn đến kết quả gì, chỉ sau khi tự thấy rõ mới đi đến đó. Bốn Đại Thiên Vương cũng ngồi và nói như vậy. Nghe lời ấy, trời Tāvatiṁsa đồng lòng nhắc lại lần thứ ba. Trình tự của câu chuyện là ở lại chờ thấy rõ, chưa phải cả hội đi ngay."
+          ]
+        },
+        {
+          "id": "brahma-appearance",
+          "kind": "teaching",
+          "heading": "Một hình thể có thể được thấy",
+          "meaningUnits": [
+            "manifest",
+            "appearance"
+          ],
+          "paragraphs": [
+            "Sanaṅkumāra xuất hiện bằng một thân thô hơn, vì sắc tướng tự nhiên của Phạm thiên vượt phạm vi thấy của trời Tāvatiṁsa. Vị ấy trội hơn các vị khác về dung sắc và danh tiếng, như tượng vàng trội hơn hình người. “Thô hơn” chỉ hình thể đủ để được thấy, không phải hình xấu hoặc sự thua kém uy lực.",
+            "Trong hội không vị nào đảnh lễ, đứng dậy hay mời chỗ. Họ im lặng, chắp tay, ngồi kiết-già, nghĩ Sanaṅkumāra muốn chỗ ai sẽ ngồi chỗ đó. Vị trời được chọn thì vui mừng rất lớn, được ví với vua Sát-đế-lợi mới quán đảnh, đăng quang.",
+            "Sanaṅkumāra hóa hiện dáng thiếu niên Pañcasikha, bay lên ngồi kiết-già giữa hư không. Sự ngồi được ví như người khỏe ngồi trên chỗ trải kỹ hay nền đất bằng. Biết chư thiên hoan hỷ, vị ấy bắt đầu tùy hỷ bằng kệ."
+          ]
+        },
+        {
+          "id": "brahma-poem",
+          "kind": "teaching",
+          "heading": "Kệ được nói lần nữa và Phạm âm",
+          "meaningUnits": [
+            "brahma-verse",
+            "voice"
+          ],
+          "paragraphs": [
+            "Sanaṅkumāra nói lại đủ bốn khổ: trời Tāvatiṁsa cùng Sakka vui và kính lễ Như Lai, Pháp chân chánh; những vị trời mới có dung sắc, danh tiếng, từng tu phạm hạnh theo Thiện Thệ; các đệ tử Đại Tuệ ấy vượt người khác về dung sắc, danh tiếng, thọ mạng; chúng trời lại hoan hỷ và kính Phật, Pháp. Sự lặp giữ cùng nội dung nhưng người phát biểu lần này là Phạm thiên.",
+            "Janavasabha kể tiếng Sanaṅkumāra có tám đặc điểm: lưu loát, dễ hiểu, dịu ngọt, dễ nghe, đầy đặn, không tản mạn, thâm sâu, vang vọng. Giọng đủ để cả hội hiểu mà không lan ra ngoài. Ai có giọng đủ tám đặc điểm ấy được gọi là có Phạm âm."
+          ]
+        },
+        {
+          "id": "thirty-three",
+          "kind": "teaching",
+          "heading": "Ba mươi ba thân và lợi ích của quy y, giới hạnh",
+          "meaningUnits": [
+            "thirty-three",
+            "unison"
+          ],
+          "paragraphs": [
+            "Sanaṅkumāra hiện ba mươi ba thân, mỗi thân ngồi kiết-già trên một chỗ của chư thiên. Vị ấy ca ngợi Đức Phật thực hành vì lợi ích, an lạc của số đông, thương tưởng thế gian, vì lợi ích và hạnh phúc của trời, người.",
+            "Người quy y Phật, Pháp, Tăng và đầy đủ giới, sau thân hoại mạng chung có người đồng trú với trời Tha Hóa Tự Tại, Hóa Lạc, Đâu-suất, Dạ-ma, Tāvatiṁsa, Tứ Đại Thiên Vương. Mức thấp nhất được nêu cũng tăng thêm chúng Càn-thát-bà. Hai điều kiện quy y và thành tựu giới đều hiện diện trong lời kể.",
+            "Mỗi vị trời tưởng chỉ thân ngồi trên chỗ mình đang nói. Kệ làm rõ: một thân nói, các hóa thân đều nói; một thân im, tất cả im. Trời Tāvatiṁsa cùng Sakka vẫn tưởng vị ngồi chỗ mình là người nói duy nhất. Không có chuyện ba mươi ba lời dạy khác nhau."
+          ]
+        },
+        {
+          "id": "four-bases",
+          "kind": "teaching",
+          "heading": "Bốn như ý túc là các nền được tu tập",
+          "meaningUnits": [
+            "powers"
+          ],
+          "paragraphs": [
+            "Phạm thiên thu các thân thành một, ngồi kiết-già trên chỗ Sakka. Vị ấy tán thán Đức Phật, bậc biết, thấy, A-la-hán, Chánh Đẳng Giác, đã khéo dạy bốn như ý túc để thần thông tăng trưởng, phát triển và biến hóa.",
+            "Bốn nền ấy gồm định do dục và các hành tinh cần; định do tinh tấn và các hành tinh cần; định do tâm và các hành tinh cần; định do quán xét và các hành tinh cần. Dục tại đây là ý muốn tha thiết trong tu tập; không đồng nhất với tham dục. Mỗi nền gồm sự định tĩnh cùng những hoạt động nỗ lực, không chỉ một phẩm chất đứng riêng.",
+            "Sanaṅkumāra nói mọi sa-môn, Bà-la-môn từng kinh nghiệm các loại thần thông trong quá khứ, sẽ kinh nghiệm trong tương lai, đang kinh nghiệm hiện tại đều do tu tập và làm sung mãn bốn nền này. Hỏi chư thiên có thấy thần lực, uy lực của mình không, vị ấy được đáp có. Vị ấy khẳng định chính mình cũng đạt uy lực ấy nhờ tu bốn như ý túc."
+          ]
+        },
+        {
+          "id": "opportunity-one",
+          "kind": "teaching",
+          "heading": "Cơ hội thứ nhất: rời sự hòa lẫn với dục và bất thiện",
+          "meaningUnits": [
+            "opening-one"
+          ],
+          "paragraphs": [
+            "Sau lời ấy, Sanaṅkumāra nói tới ba cơ hội đạt an lạc mà Đức Phật đã tự chứng ngộ. Thứ nhất là người đang sống lẫn với dục và pháp bất thiện. Sau một thời gian, người ấy nghe Thánh pháp, như lý tác ý, thực hành Pháp thuận theo Pháp.",
+            "Như lý tác ý là chú ý, suy xét phù hợp để hiểu đúng; thực hành thuận Pháp là đem lời dạy vào sự tu tập phù hợp. Nhờ nghe, tác ý và thực hành, người ấy không còn sống hòa lẫn với dục và bất thiện. Lạc khởi lên, và còn hơn lạc là hỷ duyệt. Ví dụ là niềm vui dẫn tới hân hoan; đoạn kết nhắc lại điều kiện rời dục-bất thiện và kết quả ấy. Đây là cơ hội thứ nhất, không phải lối tắt bỏ qua thực hành."
+          ]
+        },
+        {
+          "id": "opportunity-two",
+          "kind": "teaching",
+          "heading": "Cơ hội thứ hai: các hành thô được lắng dịu",
+          "meaningUnits": [
+            "opening-two"
+          ],
+          "paragraphs": [
+            "Trường hợp thứ hai là người có thân hành, khẩu hành, tâm hành thô chưa lắng. Sau một thời gian, người ấy nghe Thánh pháp, như lý tác ý và thực hành thuận Pháp. Nhờ ba điều ấy, các hành thô thuộc thân, lời và tâm đều lắng dịu.",
+            "Do cả ba lắng dịu, lạc và hỷ duyệt hơn lạc sinh khởi, được ví như niềm vui sinh hân hoan. Kinh lặp điều kiện và kết quả ấy rồi gọi là cơ hội thứ hai. “Hành thô” là hoạt động thô được nói đến, không tự đổi thành danh mục ba nghiệp ác hay một kỹ thuật cụ thể không có trong đoạn."
+          ]
+        },
+        {
+          "id": "opportunity-three",
+          "kind": "teaching",
+          "heading": "Cơ hội thứ ba: biết như thật các phẩm chất",
+          "meaningUnits": [
+            "opening-three"
+          ],
+          "paragraphs": [
+            "Người thứ ba chưa biết như thật điều thiện và bất thiện; có lỗi và không lỗi; nên tu tập và không nên tu tập; thấp kém và cao thượng; những mặt đen-trắng cùng phần đối lập của chúng. Sau khi nghe Thánh pháp, như lý tác ý và thực hành thuận Pháp, người ấy biết như thật đầy đủ chính các nhóm ấy.",
+            "Biết và thấy như thế thì vô minh được bỏ, minh sinh. Do lìa vô minh và có minh, lạc khởi lên, và còn hơn lạc là hỷ duyệt, như từ vui có hân hoan. Ví dụ, kết quả được lặp rồi xác nhận đây là cơ hội thứ ba. Sanaṅkumāra kết cả ba cơ hội là những điều Đức Phật, bậc biết, thấy, A-la-hán, hoàn toàn giác ngộ, đã chứng ngộ để đạt an lạc."
+          ]
+        },
+        {
+          "id": "mindfulness-body",
+          "kind": "teaching",
+          "heading": "Bốn niệm xứ: cấu trúc đặc thù của DN18",
+          "meaningUnits": [
+            "mindfulness-body",
+            "mindfulness-feeling-mind",
+            "mindfulness-dhammas"
+          ],
+          "paragraphs": [
+            "Tiếp đó, Sanaṅkumāra ca ngợi bốn niệm xứ được Đức Phật khéo dạy để đạt thiện pháp. Tỳ-kheo quán thân trên nội thân, nhiệt tâm, tỉnh giác, chánh niệm, nhiếp phục tham ưu ở đời. Trong sự quán ấy, vị ấy được định tĩnh chân chánh, trong sáng chân chánh; từ đó làm sinh tri kiến về thân người khác ở bên ngoài.",
+            "Với thọ: quán nội thọ, phần giữa được lược theo công thức, rồi sinh tri kiến về thọ người khác. Với tâm: quán nội tâm, rồi sinh tri kiến về tâm người khác. Không nên làm mất đối tượng “người khác” khi diễn lại hai câu này.",
+            "Với pháp, công thức được nêu đầy đủ: quán nội pháp, nhiệt tâm, tỉnh giác, chánh niệm, nhiếp phục tham ưu; định tĩnh và trong sáng chân chánh; sinh tri kiến về pháp người khác ở ngoài. Đó là bốn niệm xứ để đạt thiện pháp. Bài trình bày thành tựu tri kiến trong sự tu tập ấy, không chỉ sự phỏng đoán tâm lý thông thường hoặc một lời đổi sang công thức ở kinh khác."
+          ]
+        },
+        {
+          "id": "supporting-samadhi",
+          "kind": "teaching",
+          "heading": "Bảy hỗ trợ cho chánh định và chuỗi mười điều",
+          "meaningUnits": [
+            "samadhi",
+            "ten-path"
+          ],
+          "paragraphs": [
+            "Sanaṅkumāra chuyển sang bảy pháp hỗ trợ do Đức Phật khéo dạy để tu và làm viên mãn chánh định: chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm. Tâm nhất điểm, nhất tâm, được bảy chi ấy trang bị thì gọi Thánh chánh định có y chỉ, có tư lương: có điều kiện nâng đỡ và những yếu tố hỗ trợ.",
+            "Chiều sinh khởi được nêu là chánh kiến → chánh tư duy → chánh ngữ → chánh nghiệp → chánh mạng → chánh tinh tấn → chánh niệm → chánh định → chánh trí → chánh giải thoát. Chánh định được đặt trong nếp thấy, nghĩ, nói, hành động, sinh sống, nỗ lực và niệm đúng, rồi dẫn tới biết và giải thoát đúng. Đó là chiều của Pāli; bản HTML Minh Châu có câu đảo chiều."
+          ]
+        },
+        {
+          "id": "doors",
+          "kind": "teaching",
+          "heading": "Lời ca ngợi Pháp và cửa bất tử",
+          "meaningUnits": [
+            "dhamma"
+          ],
+          "paragraphs": [
+            "Nếu có điều đáng được nói đúng rằng đó là Pháp do Đức Phật khéo thuyết, thiết thực hiện tại, không bị thời gian chi phối, mời đến để thấy, có khả năng hướng thượng, được người trí tự mình chứng biết, các cửa bất tử rộng mở, thì chính Pháp này đáng được nói như vậy. Sanaṅkumāra lặp đủ các phẩm tính để xác nhận lời ca ngợi.",
+            "“Nói đúng” ở đây là lời tán thán có căn cứ; không tự biến nó thành một chi Chánh ngữ mới. Cửa bất tử là hình ảnh về giải thoát, không phải bất tử thân xác; việc mời tự chứng biết cũng không phải cam kết kết quả tức khắc khi chưa thực hành."
+          ]
+        },
+        {
+          "id": "magadhans",
+          "kind": "teaching",
+          "heading": "Con số được nêu và giới hạn việc đếm",
+          "meaningUnits": [
+            "magadhan-count",
+            "other-people"
+          ],
+          "paragraphs": [
+            "Lời kể đến người có tín bất động nơi Phật, Pháp, Tăng, giới được bậc Thánh yêu quý, cùng những vị hóa sinh được Pháp huấn luyện. Hơn hai triệu bốn trăm ngàn tín đồ Magadha đã qua đời, đoạn tận ba kiết sử, là Dự lưu, không đọa ác thú, chắc chắn hướng giác ngộ. Cụm hóa sinh được Pháp huấn luyện được giữ như câu kinh, không lấy chữ hóa sinh để tự đổi quả Dự lưu thành Bất lai.",
+            "Kinh nói tại đây cũng có các bậc Nhất lai. Kệ tiếp nói còn nhóm người khác, Sanaṅkumāra nghĩ họ có phần công đức, nhưng không đếm nổi vì e ngại nói dối. Không thêm một con số hay xác định nhóm khác ấy bằng quả vị mà chính đoạn không nêu. Bài vừa công bố một số lượng hơn hai triệu bốn trăm ngàn, vừa giữ giới hạn của điều người nói có thể đếm."
+          ]
+        },
+        {
+          "id": "past-and-future",
+          "kind": "teaching",
+          "heading": "Ba điều khiến Vessavaṇa thán phục",
+          "meaningUnits": [
+            "past-future"
+          ],
+          "paragraphs": [
+            "Trong khi Phạm thiên nói, Vessavaṇa khởi ý nghĩ: kỳ diệu thay khi có bậc đạo sư thù thắng, lời giảng thù thắng, và những thành tựu thù thắng được biết đến. Sanaṅkumāra biết ý nghĩ ấy và đáp.",
+            "Trong quá khứ cũng từng có đạo sư như vậy, sự trình bày Pháp như vậy, những thành tựu như vậy được biết. Trong tương lai cũng sẽ có cả ba. Đoạn nêu sự thán phục cùng khung quá khứ, tương lai, không cung cấp lịch dự đoán một sự xuất hiện cụ thể."
+          ]
+        },
+        {
+          "id": "transmission",
+          "kind": "teaching",
+          "heading": "Chuỗi truyền đạt được bài kinh tự ghi",
+          "meaningUnits": [
+            "transmission",
+            "ending"
+          ],
+          "paragraphs": [
+            "Sanaṅkumāra nói giữa trời Tāvatiṁsa. Vessavaṇa trực tiếp nghe, tiếp nhận rồi kể cho hội của mình. Janavasabha trực tiếp nghe và tiếp nhận trong hội Vessavaṇa, rồi thuật cho Đức Phật. Đức Phật nghe và tiếp nhận, đồng thời tự mình thắng trí, rồi thuật cho Ānanda. Ānanda trực tiếp nghe và tiếp nhận từ Ngài, sau đó kể cho tỳ-kheo, tỳ-kheo-ni, nam cư sĩ, nữ cư sĩ.",
+            "Như vậy, lời về Magadha nằm trong nhiều tầng kể có tên người truyền, và kinh giữ riêng sự tự biết bằng thắng trí của Đức Phật. Không nên làm đoạn cuối thành một chuỗi nghe kể thuần túy hoặc gán lời Phạm thiên thành câu Ānanda tự phát biểu.",
+            "Kết bài nói đời phạm hạnh hưng thịnh, phát triển, mở rộng, được đông người biết, lan rộng, được trình bày rõ giữa chư thiên và loài người. Dòng cuối ghi bài thứ năm, còn DN18 là thứ tự trong toàn Trường Bộ."
+          ]
+        },
+        {
+          "id": "text-notes",
+          "kind": "clarification",
+          "heading": "Những khác biệt nguồn có ảnh hưởng ý nghĩa",
+          "meaningUnits": [
+            "concern",
+            "bimbisara",
+            "visit",
+            "manifest",
+            "thirty-three",
+            "opening-three",
+            "ten-path"
+          ],
+          "paragraphs": [
+            "Suññā maññe ở lời Ānanda được bản Việt dự án và bản HTML Minh Châu đọc như xứ trống vì nhiều người mất; Sujato đọc như lời phản vấn rằng tưởng chừng xứ ấy không có tín đồ đã mất. Bản giải theo cách thứ hai trong mạch thỉnh cầu, đồng thời giữ rõ đây là cách đọc, không khẳng định một sự kiện dân số. Pāli gọi Nātika, Janavasabha, Majjha; các tên Nādika, Janavāsabha, Maccha xuất hiện ở tham khảo.",
+            "Theo Pāli, Janavasabha đã biết mình không đọa nhưng còn mong Nhất lai; có thể làm vua người sau đời sống hiện tại với Vessavaṇa. Câu anacchariyaṁ là không lạ. Thân Phạm thiên thô hơn để có thể được nhìn thấy; số hóa thân là ba mươi ba. Ở cơ hội thứ ba, đen-trắng cùng đối phần không có nghĩa tốt xấu bằng nhau. Chiều chánh kiến đến chánh giải thoát được giữ như đã trình bày."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Từ nghe một điều hay đến thay đổi cách làm",
+          "meaningUnits": [
+            "opening-one",
+            "opening-two",
+            "opening-three"
+          ],
+          "paragraphs": [
+            "Ví dụ do người biên soạn đặt: trong một cuộc bất đồng, người nghe được lời khuyên đúng, cân nhắc căn cứ, rồi tập nói chậm và nhận rõ phần có lỗi trong hành động của mình. Cuộc trao đổi có thể bớt thô và việc nên làm rõ hơn. Liên hệ này chỉ minh họa nghe, suy xét, thực hành; không lấy nó thay cho thành tựu tâm linh hay tuyên bố nơi tái sinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Tách việc có thể quan sát khỏi lời tự nhận",
+          "meaningUnits": [
+            "powers",
+            "mindfulness-body",
+            "samadhi",
+            "transmission"
+          ],
+          "paragraphs": [
+            "Có thể chọn một điều trong bảy trợ duyên của chánh định để nhìn lại hôm nay: lời nói, hành động, cách sinh sống hoặc sự chú ý. Khi đọc các đoạn về thần thông và tri kiến người khác, giữ đúng điều kiện tu tập của bài, không biến trực giác của mình thành lời biết chắc về người khác. Một lượt đọc nữa có thể chỉ kiểm người nói ở mỗi tầng truyền đạt."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "DN18 — Những người được nhớ tới và con đường đã thực hành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Kinh Xa-ni-sa tại ngôi nhà gạch",
+          "meaningUnits": [
+            "title",
+            "setting"
+          ],
+          "paragraphs": [
+            "Kinh Xa-ni-sa, tên Pāli Janavasabha, là bài DN18 của Trường Bộ. Người kể mở lời mình được nghe Đức Phật đang ở ngôi nhà bằng gạch tại Nātika.",
+            "Ngài thường nói về tín đồ đã qua đời: người này tái sinh ở đây, người kia ở kia. Các xứ được nêu gồm Kāsī, Kosala; Vajji, Malla; Ceti, Vaṁsa; Kuru, Pañcāla; Majjha, Sūrasena. Majjha ở bản Pāli thường được các bản tham khảo ghi Maccha."
+          ]
+        },
+        {
+          "id": "three-groups",
+          "kind": "teaching",
+          "heading": "Ba nhóm tín đồ Nātika",
+          "meaningUnits": [
+            "nonreturners",
+            "once-returners",
+            "stream-enterers"
+          ],
+          "paragraphs": [
+            "Hơn năm mươi vị đã đoạn tận năm hạ phần kiết sử, tức năm sự trói buộc thuộc phần thấp. Sau khi qua đời, họ hóa sinh, sẽ Niết-bàn ở đó, không trở lại từ thế giới ấy.",
+            "Hơn chín mươi vị đã đoạn tận ba kiết sử, làm tham, sân, si suy yếu. Họ là Nhất lai: còn trở lại thế giới này đúng một lần rồi chấm dứt khổ.",
+            "Hơn năm trăm vị đã đoạn tận ba kiết sử, là Dự lưu. Họ không còn đọa vào cảnh giới xấu, chắc chắn hướng đến giác ngộ. Mỗi nhóm có số lượng “hơn”, có điều đã tu tập và kết quả riêng, không thể gộp làm một."
+          ]
+        },
+        {
+          "id": "hear",
+          "kind": "teaching",
+          "heading": "Niềm vui truyền đến Ānanda",
+          "meaningUnits": [
+            "devotees-hear",
+            "ananda-hears",
+            "concern"
+          ],
+          "paragraphs": [
+            "Người Nātika nghe lại lời về mười xứ và ba nhóm tín đồ, đủ các điều đã đoạn và các quả vừa kể, thì hoan hỷ, vui mừng, đầy hỷ lạc. Tôn giả Ānanda cũng nghe cùng nội dung và biết niềm vui của họ.",
+            "Ngài nghĩ tới Magadha, nơi có nhiều tín đồ lâu năm đã mất. Tưởng như Aṅga-Magadha trống vắng những tín đồ đã qua đời để được nói đến; Đức Phật chưa tuyên bố về họ. Họ cũng tin Phật, Pháp, Tăng và đầy đủ giới. Nếu được giải đáp, nhiều người sẽ tăng tín tâm và nhờ đó đi đến thiện thú."
+          ]
+        },
+        {
+          "id": "bimbisara-memory",
+          "kind": "teaching",
+          "heading": "Nhớ vị vua sống theo Pháp",
+          "meaningUnits": [
+            "king",
+            "magadha"
+          ],
+          "paragraphs": [
+            "Ānanda nhớ vua Seniya Bimbisāra ở Magadha. Vua sống theo Pháp, trị nước theo Pháp, làm lợi Bà-la-môn, gia chủ, dân thành thị và người ở các địa phương. Người dân vẫn nhắc cuộc sống an vui, yên ổn dưới thời vua.",
+            "Vua có lòng tin nơi Phật, Pháp, Tăng, giới hạnh đầy đủ. Đến lúc mạng chung, vua vẫn tán thán Đức Phật. Ānanda mong có lời giải đáp về vua để người dân thêm tín tâm, đi đến cảnh giới tốt.",
+            "Đức Phật lại giác ngộ ở chính Magadha. Ānanda tự hỏi sao tín đồ xứ ấy chưa được tuyên bố về nơi tái sinh. Nếu không có lời, họ sẽ buồn lòng; sao không giải đáp cho họ? Đây là điều ngài đang nghĩ khi ở một mình."
+          ]
+        },
+        {
+          "id": "request",
+          "kind": "teaching",
+          "heading": "Lời trình bày gần sáng",
+          "meaningUnits": [
+            "request",
+            "request-end"
+          ],
+          "paragraphs": [
+            "Sau khi suy nghĩ riêng, gần sáng Ānanda đến đảnh lễ Đức Phật, ngồi một bên. Ngài thuật lại điều mình nghe về các xứ, ba nhóm hơn năm mươi, hơn chín mươi, hơn năm trăm người Nātika, điều kiện và quả vị mỗi nhóm, cùng niềm vui của người nghe.",
+            "Rồi ngài trình bày về tín đồ lâu năm Magadha, lời than về sự trống vắng, lòng tin và giới hạnh của họ, mong được trả lời để nhiều người được lợi. Ngài nhắc cả Bimbisāra, dân an vui dưới vua theo Pháp, tín-giới của vua và lời ca ngợi Phật tới cuối đời.",
+            "Cuối cùng là việc Đức Phật giác ngộ ở Magadha và nỗi buồn nếu tín đồ nơi đó chưa được giải đáp. Thưa xong, Ānanda đứng dậy, đảnh lễ, đi nhiễu bên phải rồi ra đi."
+          ]
+        },
+        {
+          "id": "buddha-knows",
+          "kind": "teaching",
+          "heading": "Một buổi Đức Phật chú tâm về Magadha",
+          "meaningUnits": [
+            "buddha-knows"
+          ],
+          "paragraphs": [
+            "Không lâu sau, buổi sáng Đức Phật đắp y, mang bát và y ngoài, vào Nātika khất thực. Sau bữa ăn, Ngài trở về, rửa chân, vào nhà gạch và ngồi chỗ soạn sẵn.",
+            "Ngài chú tâm, tác ý và tập trung toàn tâm đến tín đồ Magadha: sẽ biết họ đi đến đâu, đời sau ra sao. Bài kinh kể Ngài thấy được điều ấy. Đến chiều, Ngài ra khỏi chỗ độc cư, rời nhà gạch và ngồi dưới bóng trú xá."
+          ]
+        },
+        {
+          "id": "serene",
+          "kind": "teaching",
+          "heading": "Ānanda nhận thấy vẻ an tịnh",
+          "meaningUnits": [
+            "peace",
+            "recount",
+            "name"
+          ],
+          "paragraphs": [
+            "Ānanda đến lễ và ngồi một bên, thưa diện mạo Đức Phật an tịnh, sắc mặt dường như sáng vì các căn trong sáng. Ngài hỏi hôm nay Đức Phật đã ở trong một trạng thái an tịnh chăng.",
+            "Đức Phật kể lại việc từ khi Ānanda đi, qua khất thực, ăn, rửa chân, vào nhà gạch chú tâm. Ngài đã thấy cảnh giới và đời sau của những người ấy. Rồi một Dạ-xoa ẩn mình cất tiếng hai lần tự xưng Janavasabha, xưng hô với Thế Tôn và Thiện Thệ.",
+            "Đức Phật hỏi Ānanda từng nghe tên Janavasabha chưa. Ngài đáp chưa, nhưng nghe tên thì lông tóc dựng lên, nghĩ người mang tên cao quý ấy hẳn không tầm thường. Đây là suy nghĩ của Ānanda khi nghe tên."
+          ]
+        },
+        {
+          "id": "identity",
+          "kind": "teaching",
+          "heading": "Janavasabha nói mình là Bimbisāra",
+          "meaningUnits": [
+            "bimbisara"
+          ],
+          "paragraphs": [
+            "Đức Phật kể ngay sau tiếng nói, một Dạ-xoa dung sắc thù thắng hiện ra. Vị ấy hai lần tự xưng: con là Bimbisāra. Vị ấy nói lần này là lần thứ bảy tái sinh đồng trú với Đại Thiên Vương Vessavaṇa; sau khi chết từ đây, có khả năng làm vua loài người.",
+            "Kệ của vị ấy kể bảy lần từ đây, bảy lần từ kia, tổng cộng mười bốn lần luân chuyển, nhớ được những nơi từng sống. Từ lâu vị ấy biết mình không đọa ác thú, nhưng vẫn nuôi hy vọng đạt Nhất lai.",
+            "Giữ hai điều cho rõ: biết không đọa và mong Nhất lai. Bài chưa nói vị ấy đã là Nhất lai."
+          ]
+        },
+        {
+          "id": "why-knows",
+          "kind": "teaching",
+          "heading": "Do giáo pháp của Đức Phật",
+          "meaningUnits": [
+            "source-question",
+            "instruction"
+          ],
+          "paragraphs": [
+            "Đức Phật gọi việc ấy hy hữu, kỳ diệu, nhắc lại cả lời biết không đọa lẫn mong Nhất lai, rồi hỏi Janavasabha do đâu biết thành tựu cao quý này.",
+            "Vị ấy hai lần nói không do gì khác ngoài giáo pháp của Đức Phật. Từ ngày có lòng tin trọn vẹn nơi Ngài, vị ấy biết mình không đọa và vẫn mong Nhất lai. Câu chuyện gắn lời tự thuật của vị ấy với con đường mình đã học."
+          ]
+        },
+        {
+          "id": "why-visit",
+          "kind": "teaching",
+          "heading": "Việc trên đường đi và hai lý do tới gặp",
+          "meaningUnits": [
+            "visit"
+          ],
+          "paragraphs": [
+            "Vessavaṇa sai Janavasabha đến Virūḷhaka vì một công việc. Trên đường, vị ấy thấy Đức Phật vào nhà gạch, toàn tâm chú ý cảnh giới và đời sau người Magadha.",
+            "Vị ấy đã trực tiếp nghe và tiếp nhận lời Vessavaṇa nói giữa hội chúng của ông về đời sau các tín đồ ấy. Janavasabha bảo việc mình nghe được điều ấy không có gì lạ. Janavasabha nghĩ mình sẽ gặp Đức Phật và báo điều đã nghe. Đó là hai lý do khiến vị ấy tới."
+          ]
+        },
+        {
+          "id": "council",
+          "kind": "teaching",
+          "heading": "Hội trời vào đêm rằm đầu mùa an cư",
+          "meaningUnits": [
+            "assembly"
+          ],
+          "paragraphs": [
+            "Lời kể chuyển sang điều Janavasabha thuật. Nhiều ngày trước, vào đêm trăng tròn ngày rằm Bố-tát, lúc bắt đầu mùa an cư, chư thiên Tāvatiṁsa, thường gọi trời Ba Mươi Ba, họp ở hội trường Sudhammā. Đại hội chư thiên ngồi chung quanh.",
+            "Bốn Đại Thiên Vương ở bốn phía, mỗi vị trước chúng của mình: Dhataraṭṭha phía đông nhìn tây; Virūḷhaka phía nam nhìn bắc; Virūpakkha phía tây nhìn đông; Vessavaṇa phía bắc nhìn nam. Đó là thứ tự thường có của hội; sau đó mới đến chỗ nhóm Janavasabha."
+          ]
+        },
+        {
+          "id": "new-gods",
+          "kind": "teaching",
+          "heading": "Những vị trời mới và lời Sakka",
+          "meaningUnits": [
+            "new-gods",
+            "sakka-verse"
+          ],
+          "paragraphs": [
+            "Những người mới sinh lên sau khi sống phạm hạnh dưới Đức Phật vượt các vị trời khác về dung sắc và danh tiếng. Chư thiên vui, đầy hỷ lạc, nói thiên chúng tăng trưởng, A-tu-la suy giảm.",
+            "Sakka, Thiên chủ, tùy hỷ bằng kệ. Bốn khổ kệ lần lượt nói: trời Ba Mươi Ba cùng Thiên chủ vui và kính Như Lai, Pháp chân chánh; thấy các vị trời mới đẹp, có tiếng tăm, từng sống phạm hạnh theo Thiện Thệ; các đệ tử bậc Đại Tuệ ấy vượt về dung sắc, danh tiếng, tuổi thọ; thấy vậy chúng trời lại vui, kính Phật và Pháp.",
+            "Nghe kệ, chư thiên càng hoan hỷ, lặp lời thiên chúng tăng còn A-tu-la giảm. Bài nói suy giảm, không nói chúng A-tu-la đều bị tiêu diệt."
+          ]
+        },
+        {
+          "id": "business",
+          "kind": "teaching",
+          "heading": "Bàn công việc rồi chưa ra về",
+          "meaningUnits": [
+            "business",
+            "light"
+          ],
+          "paragraphs": [
+            "Chư thiên bàn công việc khiến mình tụ hội, sau đó trình bày và chỉ dạy bốn Đại Thiên Vương. Bốn vị vẫn đứng bên chỗ mình, chưa rời đi. Kệ ngắn nhắc họ đã nhận lời giáo huấn, tâm trong sáng, an tịnh, đứng ở chỗ ngồi.",
+            "Bấy giờ phương bắc hiện ánh sáng lớn, hào quang vượt uy quang chư thiên. Sakka nói đó là dấu Phạm thiên sắp xuất hiện. Bốn câu kệ cũng nhắc rằng các dấu hiệu và hào quang rộng lớn báo sự hiện diện ấy."
+          ]
+        },
+        {
+          "id": "wait",
+          "kind": "teaching",
+          "heading": "Ba lần nói sẽ chờ tự thấy rõ",
+          "meaningUnits": [
+            "stay"
+          ],
+          "paragraphs": [
+            "Chư thiên ngồi ở chỗ mình, nói muốn biết ánh sáng này dẫn đến điều gì; chỉ sau khi tự thấy rõ, họ mới đi đến đó. Bốn Đại Thiên Vương cũng ngồi và nói cùng ý.",
+            "Nghe vậy, chúng trời đồng lòng nhắc lại: sẽ biết, tự thấy rõ rồi mới đi. Câu được nói ba lần với các nhóm người nói khác nhau."
+          ]
+        },
+        {
+          "id": "form",
+          "kind": "teaching",
+          "heading": "Phạm thiên hiện một thân có thể nhìn thấy",
+          "meaningUnits": [
+            "manifest"
+          ],
+          "paragraphs": [
+            "Sanaṅkumāra khi đến trước trời Tāvatiṁsa hóa hiện thân thô hơn, vì sắc tướng tự nhiên vượt tầm mắt của họ. Thân ấy không phải xấu: vị ấy vượt các chư thiên khác về dung sắc và danh tiếng, như tượng vàng nổi bật hơn hình người.",
+            "Không ai trong hội đảnh lễ, đứng lên hay mời ngồi. Tất cả im lặng, chắp tay, ngồi kiết-già, nghĩ Phạm thiên sẽ chọn chỗ mình muốn. Vị trời được chọn thì có niềm vui, hoan hỷ rất lớn."
+          ]
+        },
+        {
+          "id": "appearance",
+          "kind": "teaching",
+          "heading": "Dáng đồng tử và sự ngồi giữa hư không",
+          "meaningUnits": [
+            "appearance"
+          ],
+          "paragraphs": [
+            "Niềm vui của vị trời ấy được ví với vua Sát-đế-lợi vừa làm lễ quán đảnh, đăng quang. Sanaṅkumāra hiện thân thô hơn với dáng đồng tử Pañcasikha, rồi bay lên ngồi kiết-già giữa hư không.",
+            "Bài ví sự ngồi ấy như người khỏe ngồi trên giường được trải kỹ hoặc đất bằng. Thấy chư thiên hoan hỷ, Sanaṅkumāra cất kệ tùy hỷ."
+          ]
+        },
+        {
+          "id": "poem",
+          "kind": "teaching",
+          "heading": "Nội dung kệ được nhắc lại",
+          "meaningUnits": [
+            "brahma-verse",
+            "voice"
+          ],
+          "paragraphs": [
+            "Kệ lần này vẫn đủ bốn khổ: trời Ba Mươi Ba cùng Sakka kính Như Lai và Pháp chân chánh; các vị trời mới đẹp, có danh tiếng, đã sống phạm hạnh theo Thiện Thệ; họ là đệ tử Đại Tuệ có thành tựu, vượt về dung sắc, danh tiếng, tuổi thọ; chúng trời thấy vậy vui và kính Phật, Pháp. Người nói là Sanaṅkumāra; trước đó cùng bài kệ do Sakka nói.",
+            "Giọng Sanaṅkumāra có tám đặc tính: lưu loát, dễ hiểu, dịu ngọt, dễ nghe, đầy đặn, không tản mạn, thâm sâu, vang vọng. Cả hội hiểu được, nhưng tiếng không lan ra ngoài hội. Giọng đủ tám đặc tính ấy gọi là Phạm âm."
+          ]
+        },
+        {
+          "id": "forms",
+          "kind": "teaching",
+          "heading": "Ba mươi ba thân trên các chỗ ngồi",
+          "meaningUnits": [
+            "thirty-three"
+          ],
+          "paragraphs": [
+            "Sanaṅkumāra hiện ba mươi ba thân, mỗi thân ngồi kiết-già trên một chỗ của chư thiên. Vị ấy ca ngợi Đức Phật đã thực hành vì lợi ích, an vui của số đông, thương tưởng thế gian, vì lợi ích và hạnh phúc của trời, người.",
+            "Người quy y Phật, Pháp, Tăng và giới hạnh đầy đủ, sau chết có người tái sinh với trời Tha Hóa Tự Tại, Hóa Lạc, Đâu-suất, Dạ-ma, Tāvatiṁsa, Tứ Đại Thiên Vương. Hạng thấp nhất được kể trong lời ấy cũng thêm vào chúng Càn-thát-bà. Điều kiện giới hạnh không được bỏ khỏi lời nói về quy y."
+          ]
+        },
+        {
+          "id": "unison",
+          "kind": "teaching",
+          "heading": "Mỗi vị tưởng đang nghe lời riêng",
+          "meaningUnits": [
+            "unison"
+          ],
+          "paragraphs": [
+            "Mỗi vị trời nghe lại tưởng chỉ hóa thân ngồi ở chỗ mình đang nói. Kệ giải rõ: một thân nói thì mọi hóa thân đều nói, một thân im thì tất cả im.",
+            "Trời Tāvatiṁsa và Sakka vẫn nghĩ vị trên chỗ mình là người nói duy nhất. Câu chuyện không có ba mươi ba nội dung giảng riêng."
+          ]
+        },
+        {
+          "id": "four-bases",
+          "kind": "teaching",
+          "heading": "Bốn như ý túc",
+          "meaningUnits": [
+            "powers"
+          ],
+          "paragraphs": [
+            "Sanaṅkumāra thu các thân thành một, ngồi kiết-già trên chỗ Sakka. Vị ấy nói Đức Phật, bậc biết, thấy, A-la-hán, Chánh Đẳng Giác, đã khéo dạy bốn như ý túc để thần thông tăng trưởng, phát triển, biến hóa.",
+            "Bốn nền ấy là định do dục, định do tinh tấn, định do tâm, định do quán xét; mỗi định cùng các hành tinh cần. Dục tại đây là ý muốn tha thiết trong việc tu. Tinh cần là sự nỗ lực tu tập; không thể chỉ nhớ tên dục-tấn-tâm-quán rồi bỏ định và nỗ lực.",
+            "Mọi sa-môn, Bà-la-môn có các loại thần thông trong quá khứ, tương lai, hiện tại đều được nói là do tu và làm sung mãn bốn nền ấy. Sanaṅkumāra hỏi có thấy uy lực của mình không. Chư thiên đáp có. Vị ấy nói chính mình cũng nhờ bốn như ý túc mà có đại thần lực và đại uy lực."
+          ]
+        },
+        {
+          "id": "first-opening",
+          "kind": "teaching",
+          "heading": "Cơ hội thứ nhất: rời dục và bất thiện",
+          "meaningUnits": [
+            "opening-one"
+          ],
+          "paragraphs": [
+            "Sanaṅkumāra chuyển sang ba cơ hội đạt an lạc mà Đức Phật đã chứng ngộ. Cơ hội đầu nói về người trước sống hòa lẫn với dục và các pháp bất thiện.",
+            "Sau một thời gian, người ấy nghe Thánh pháp, như lý tác ý và thực hành Pháp thuận theo Pháp. Có thể hiểu ngắn: nghe, suy xét đúng cách, thực hành phù hợp. Nhờ vậy vị ấy không còn hòa lẫn với dục và bất thiện.",
+            "Lạc sinh, và còn hơn lạc là hỷ duyệt. Kinh ví như niềm vui sinh hân hoan, rồi lặp điều kiện rời dục-bất thiện và kết quả. Đây là cơ hội thứ nhất, cần đủ nghe, suy xét, thực hành."
+          ]
+        },
+        {
+          "id": "second-opening",
+          "kind": "teaching",
+          "heading": "Cơ hội thứ hai: thân, lời, tâm bớt thô",
+          "meaningUnits": [
+            "opening-two"
+          ],
+          "paragraphs": [
+            "Người thứ hai có thân hành, khẩu hành, tâm hành thô chưa lắng. Sau khi nghe Thánh pháp, như lý tác ý và thực hành thuận Pháp, cả ba thứ hành ấy được lắng dịu.",
+            "Do thân hành thô, khẩu hành thô và tâm hành thô đều lắng, lạc khởi lên, và còn hơn lạc là hỷ duyệt. Ví dụ niềm vui sinh hân hoan lại được dùng; điều kiện và kết quả được nhắc lại. Đây là cơ hội thứ hai. Bài không đưa thêm danh mục kỹ thuật để đồng nhất ba hành này với một cách tập riêng."
+          ]
+        },
+        {
+          "id": "third-opening",
+          "kind": "teaching",
+          "heading": "Cơ hội thứ ba: phân biệt rõ điều cần tu",
+          "meaningUnits": [
+            "opening-three"
+          ],
+          "paragraphs": [
+            "Người thứ ba trước chưa biết như thật thiện-bất thiện, có lỗi-không lỗi, nên tu-không nên tu, thấp kém-cao thượng, đen-trắng cùng những mặt đối lập. Đen-trắng ở đây diễn các phẩm chất, không nói chúng bằng nhau.",
+            "Sau khi nghe Thánh pháp, như lý tác ý, thực hành thuận Pháp, người ấy biết rõ đúng những điều vừa kể. Biết và thấy như vậy, vô minh được bỏ, minh sinh khởi. Từ việc không hiểu được soi sáng, lạc sinh, và còn hơn lạc là hỷ duyệt.",
+            "Kinh lại ví niềm vui sinh hân hoan, lặp kết quả và gọi đây là cơ hội thứ ba. Sanaṅkumāra kết ba cơ hội đạt an lạc do Đức Phật, bậc biết, thấy, A-la-hán, hoàn toàn giác ngộ, tự chứng ngộ."
+          ]
+        },
+        {
+          "id": "body-mindfulness",
+          "kind": "teaching",
+          "heading": "Bốn niệm xứ: trước hết là nội thân",
+          "meaningUnits": [
+            "mindfulness-body"
+          ],
+          "paragraphs": [
+            "Sanaṅkumāra ca ngợi bốn niệm xứ Đức Phật khéo dạy để đạt thiện pháp. Vị tỳ-kheo quán thân trên nội thân, nhiệt tâm, tỉnh giác, chánh niệm, nhiếp phục tham và ưu đối với đời.",
+            "Nhờ quán như vậy, vị ấy có định tĩnh chân chánh, trong sáng chân chánh. Từ đó sinh trí và sự thấy về thân người khác ở bên ngoài. Đây là trình tự cụ thể của DN18."
+          ]
+        },
+        {
+          "id": "feeling-mind",
+          "kind": "teaching",
+          "heading": "Nội thọ, nội tâm và nội pháp",
+          "meaningUnits": [
+            "mindfulness-feeling-mind",
+            "mindfulness-dhammas"
+          ],
+          "paragraphs": [
+            "Với thọ, vị ấy quán nội thọ, các bước giữa được ghi lược theo công thức, rồi sinh tri kiến đối với thọ người khác. Với tâm, quán nội tâm rồi sinh tri kiến đối với tâm người khác.",
+            "Với pháp, kinh lại nêu đủ: quán nội pháp, nhiệt tâm, tỉnh giác, chánh niệm, nhiếp phục tham ưu; tâm định tĩnh và trong sáng chân chánh; từ đó sinh tri kiến về pháp người khác ở bên ngoài. Thân, thọ, tâm, pháp là đủ bốn niệm xứ giúp đạt thiện.",
+            "Không nên đổi thành tựu tri kiến ấy thành một sự đoán ý người thân. Bản kinh gắn nó với các điều kiện tu tập vừa nêu."
+          ]
+        },
+        {
+          "id": "seven",
+          "kind": "teaching",
+          "heading": "Bảy điều hỗ trợ chánh định",
+          "meaningUnits": [
+            "samadhi"
+          ],
+          "paragraphs": [
+            "Bảy điều Đức Phật khéo dạy để tu và làm đầy đủ chánh định là: chánh kiến, chánh tư duy, chánh ngữ, chánh nghiệp, chánh mạng, chánh tinh tấn, chánh niệm.",
+            "Theo nghĩa dễ theo dõi: thấy đúng, hướng nghĩ đúng, nói đúng, hành động đúng, sinh sống đúng, nỗ lực đúng, chánh niệm. Nhất tâm được trang bị bởi bảy chi ấy gọi là Thánh chánh định có y chỉ và có tư lương, nghĩa là có chỗ dựa và những điều nâng đỡ."
+          ]
+        },
+        {
+          "id": "sequence",
+          "kind": "teaching",
+          "heading": "Chiều đi tới chánh giải thoát",
+          "meaningUnits": [
+            "ten-path"
+          ],
+          "paragraphs": [
+            "Từ chánh kiến có chánh tư duy; từ chánh tư duy có chánh ngữ; từ chánh ngữ có chánh nghiệp; từ chánh nghiệp có chánh mạng. Rồi từ chánh mạng có chánh tinh tấn; từ chánh tinh tấn có chánh niệm; từ chánh niệm có chánh định.",
+            "Từ chánh định có chánh trí, từ chánh trí có chánh giải thoát. Đây là đủ mười điều theo chiều Pāli. Bản HTML Minh Châu có câu đảo chiều, nên khi đọc cần giữ chuỗi bắt đầu từ chánh kiến như trên."
+          ]
+        },
+        {
+          "id": "dhamma",
+          "kind": "teaching",
+          "heading": "Pháp được mời đến để thấy",
+          "meaningUnits": [
+            "dhamma"
+          ],
+          "paragraphs": [
+            "Sanaṅkumāra nói nếu có điều đáng được nói đúng rằng Pháp ấy do Đức Phật khéo thuyết, thiết thực hiện tại, không bị thời gian chi phối, mời đến mà thấy, hướng thượng, người trí tự mình chứng biết, và cửa bất tử rộng mở, thì chính Pháp này đáng lời ấy.",
+            "Vị ấy nhắc lại đầy đủ các nét đó để xác nhận. Cửa bất tử nói về lối giải thoát; đây không phải một lời hứa giữ thân không chết. “Nói đúng” là lời ca ngợi đúng điều được nói."
+          ]
+        },
+        {
+          "id": "number",
+          "kind": "teaching",
+          "heading": "Lời trả lời về tín đồ Magadha",
+          "meaningUnits": [
+            "magadhan-count",
+            "other-people"
+          ],
+          "paragraphs": [
+            "Phạm thiên nói tới người tin bất động nơi Phật, Pháp, Tăng, có giới được bậc Thánh yêu quý, cùng những vị hóa sinh được Pháp huấn luyện. Hơn hai triệu bốn trăm ngàn tín đồ Magadha đã qua đời, dứt ba kiết sử, là Dự lưu, không đọa ác thú, chắc hướng giác ngộ.",
+            "Kinh nói ở đây cũng có các bậc Nhất lai. Còn nhóm người khác, Sanaṅkumāra nghĩ họ có phần công đức; kệ nói vị ấy không thể đếm vì e ngại nói dối. Không lấy nhóm chưa được đếm ấy để tự thêm số hay quả vị.",
+            "Như vậy câu hỏi ban đầu của Ānanda được nối tới lời về Magadha. Có con số được nêu với chữ “hơn”, đồng thời có phần người nói không tự nhận đếm được."
+          ]
+        },
+        {
+          "id": "wonder",
+          "kind": "teaching",
+          "heading": "Vessavaṇa thán phục điều nghe được",
+          "meaningUnits": [
+            "past-future"
+          ],
+          "paragraphs": [
+            "Vessavaṇa nghĩ thật kỳ diệu, hy hữu khi có một đạo sư thù thắng, một lời trình bày Pháp thù thắng, và những thành tựu thù thắng được biết đến. Sanaṅkumāra biết ý nghĩ ấy.",
+            "Vị ấy nói quá khứ cũng đã có đạo sư, lời giảng, các thành tựu như vậy. Tương lai cũng sẽ có cả ba. Đoạn không cho ngày tháng cụ thể để người đọc dự báo."
+          ]
+        },
+        {
+          "id": "transmission",
+          "kind": "teaching",
+          "heading": "Nhớ rõ ai truyền cho ai",
+          "meaningUnits": [
+            "transmission"
+          ],
+          "paragraphs": [
+            "Sanaṅkumāra nói với chư thiên Tāvatiṁsa. Vessavaṇa trực tiếp nghe và tiếp nhận, rồi nói với hội của mình. Janavasabha trực tiếp nghe và tiếp nhận ở hội đó, rồi thuật cho Đức Phật.",
+            "Đức Phật nghe và tiếp nhận điều ấy, đồng thời tự mình thắng trí, rồi nói cho Ānanda. Thắng trí ở đây là sự tự biết trực tiếp được bài ghi rõ. Ānanda trực tiếp nghe và tiếp nhận từ Đức Phật, rồi nói cho tỳ-kheo, tỳ-kheo-ni, nam cư sĩ, nữ cư sĩ.",
+            "Giữ phần tự thắng tri giúp không biến lời Đức Phật thành chỉ nhắc điều nghe kể. Giữ tên người nói cũng giúp không gán lời Phạm thiên hay Janavasabha thành lời Ānanda tự nói."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Đời phạm hạnh được trình bày rộng rãi",
+          "meaningUnits": [
+            "ending"
+          ],
+          "paragraphs": [
+            "Bài kết rằng đời phạm hạnh hưng thịnh, phát triển, mở rộng, được nhiều người biết, lan truyền sâu rộng và trình bày rõ giữa chư thiên, loài người.",
+            "Dòng cuối gọi Xa-ni-sa là bài thứ năm. Tên DN18 ở đầu chỉ số trong toàn Trường Bộ; hai cách ghi được giữ đúng vị trí."
+          ]
+        },
+        {
+          "id": "notes",
+          "kind": "clarification",
+          "heading": "Những chỗ khác giữa các bản đọc",
+          "meaningUnits": [
+            "concern",
+            "bimbisara",
+            "visit",
+            "manifest",
+            "thirty-three"
+          ],
+          "paragraphs": [
+            "Câu Ānanda nói Aṅga-Magadha “trống vắng” được bản Việt dự án và bản HTML Minh Châu hiểu là vắng vì nhiều người đã mất. Sujato hiểu như lời hỏi sao cứ như nơi ấy không có tín đồ đã mất để được nói đến. Lời giải ở đây theo cách thứ hai trong mạch thỉnh cầu, không coi câu này là số liệu dân số.",
+            "Các điểm theo Pāli cần giữ: Nātika và Janavasabha là tên dùng trong bài; vị ấy còn mong Nhất lai, và có thể làm vua người sau đời sống với Vessavaṇa; câu về điều đã nghe là “không lạ”. Thân Sanaṅkumāra thô hơn để được thấy, không phải xấu, và số hóa thân là ba mươi ba. Những phân biệt này giúp câu chuyện không đổi hướng."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Một cuộc trò chuyện được lắng lại",
+          "meaningUnits": [
+            "opening-one",
+            "opening-two",
+            "opening-three"
+          ],
+          "paragraphs": [
+            "Ví dụ do người biên soạn đặt: sau khi nghe một lời nhắc có căn cứ, ta dành thời gian xét lại, rồi thay cách nói đang gây căng thẳng. Khi lời bớt thô và biết rõ điều cần làm, cuộc nói chuyện có thể êm hơn. Liên hệ này giúp nhớ nghe, tác ý, thực hành; không coi sự êm ấy là toàn bộ các thành tựu trong kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Đọc theo một phần vừa sức",
+          "meaningUnits": [
+            "samadhi",
+            "ten-path",
+            "transmission"
+          ],
+          "paragraphs": [
+            "Có thể dành một lượt đọc cho chuỗi truyền đạt, một lượt khác cho bảy điều hỗ trợ chánh định và chiều đi đến chánh trí, chánh giải thoát. Chọn một điều gần việc mình làm hôm nay để suy xét. Không cần tự gán cho mình khả năng biết đời sau hoặc tâm người khác khi chỉ mới đọc lời kinh."
+          ]
+        }
+      ]
+    }
+  }
+}

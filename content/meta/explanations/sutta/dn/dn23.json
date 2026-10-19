@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn23",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "8bb49f75-c09f-4d1b-a4c3-22d6c2933f9e"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "33d739c4-6309-4fc5-bb17-f59e2756e716"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "205cf6a4-78c4-4d4f-b94f-f2ac32f4b57d"
+    }
+  },
+  "reviews": [
+    {
+      "id": "8bb49f75-c09f-4d1b-a4c3-22d6c2933f9e",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.2,
+        "audience_fit": 8.8,
+        "clarity": 9.2,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Người kiểm đọc trực tiếp trọn Pāli, raw Sujato, Việt dự án, HTML Minh Châu và comments. Giữ năm giới trong nhóm Tāvatiṁsa, anupahacca là không làm hỏng sáu phần thân, hơi ấm thay sức nặng, Uttara là người phụ trách, và cả uddāna cuối dù HTML hoặc EN khác hay thiếu. Không nhập bản Anh lấp từ Việt làm đối chứng.",
+        "semantic_fidelity": "Đủ ba mệnh đề có/không, mười bất thiện/mười thiện khác năm giới, tự về khác gửi sứ giả. Jīva được đặt trong giả định đang tranh luận, không biến thành thường ngã. Quả hai người bố thí giữ đủ bốn nét trái nhau cùng Tứ Đại Thiên Vương/Serīsaka và thiện thú Tāvatiṁsa. Các lời nguy hiểm được quy đúng Pāyāsi hoặc con bạc, không gán lời khuyên cho thầy.",
+        "core_coverage": "82 đơn vị nghĩa phủ đủ 715 khóa đúng một lần theo trật tự, kể cả nhan đề, lược, colophon và kệ mười tên Mahāvagga. Mỗi bản giảng hết các ví dụ, cả hai đoàn 500 xe/bảy trạm, đủ 15 hàng hóa, hai ruộng/hạt/mưa, lời quy y và hai lượt nhờ truyền/thực truyền. Không dừng ở phần tranh luận để bỏ phần bố thí.",
+        "logic_context": "Giữ điều kiện lời người tu nếu đúng trong ba lời hẹn, sự không được về/không muốn về/chênh thời gian/giới hạn mắt khác nhau. 100 năm, 30 ngày, 12 tháng, 1.000 năm trời và 2–3 ngày đủ. Năm căn trong lời Pāyāsi khác sáu căn trong đáp; bốn lần viện danh tiếng không thành chứng cứ mới. Giữ tự thuật hài lòng từ ví dụ đầu, không suy động cơ kín, và việc đổi phẩm vật trước đoạn thái độ chưa tốt.",
+        "terminology": "Có giải thích hóa sinh, A-la-hán, tà dâm bằng lời gần tuổi, do-tuần, thiên nhãn, thức và quy y. Tên cổ được giữ cùng ghi chú, không đồng nhất jīva với học thuyết của Phật. Một số nhóm pháp và tên Pāli vẫn cần người lớn giải thêm.",
+        "audience_fit": "45 phần và 86 đoạn theo mạch hỏi/đáp giúp chia lượt đọc, ví dụ và thái độ không được chuyển thành mệnh lệnh cho trẻ. Tuy nhiên 5.533 từ khoảng trắng cùng nhiều cảnh cổ nặng và số liệu là tải lớn cho trẻ tự đọc; chưa có trẻ thật thử đọc, nên tiêu chí này 8,8 dù độ phủ đạt.",
+        "clarity": "Tiêu đề theo từng câu hỏi, hai loại không trở lại và ba nhóm người được tách rõ. Các danh sách 10/5/15 và lời kết hai người bố thí đủ; cảnh bạo lực được thuật ngắn. Nhiều câu đính chính trong phần giảng vẫn có thể làm mạch kể chậm.",
+        "editorial_separation": "Nguồn có liên kết theo đơn vị, lời ứng dụng được tách kind practice và tự nhận là biên soạn. Những khác cách dịch xe/hoa kumuda, pajohissāmi, món kaṇājaka/bilaṅga và apaviddha được công khai. Nhận định vật lý cổ và thế giới quan trời/người không được trình bày thành báo cáo thực nghiệm hiện đại; liên hệ đầu cuối truyện không đổi lời gốc.",
+        "practical_integrity": "Gợi ý chỉ hướng đến sửa điều nhớ sai, xét căn cứ và chăm phẩm vật/thái độ khi cho. Không yêu cầu làm theo các phép hại người hoặc tự hại, không hứa thiên nhãn, cõi trời hay thánh quả; vẫn giữ giáo nghĩa tái sinh thay vì xóa thành tâm lý hiện tại. Lời người mẹ về con gái và hình dạng phi nhân được đặt đúng bối cảnh, không biến thành chuẩn đối xử ngoài đời.",
+        "technical_integrity": "Audit cuối errors/sourceErrors đều rỗng; 5 SHA nguồn, 2 manifest blobs và 2 blob git dự án được kiểm khớp. Đọc trọn bản đồ và toàn bộ từng phần của cả ba bản; hash cuối khớp bản tác giả khóa, không sửa nội dung trong lượt kiểm này. Cổng toàn kho và kiểm HTML sẽ do root chạy sau đủ lô, chưa báo đã đạt trước."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập bài của agent A: đã đọc đủ 715 khóa Pāli/raw Sujato/Việt dự án (raw EN 636 ô có văn, 79 trống), 22 comments và toàn HTML Minh Châu 653 mảnh gồm credits. Đã đọc cả 82 đơn vị nghĩa và toàn bộ ba bản 45/34/48 phần; phần map từng bị cắt ở trả kết quả đã được đọc bù toàn vùng cân thân tới bài học lửa. Ledger, audit và source proof tại root-dn23-read. Bản cuối không cần chỉnh nội dung trong lượt đọc này. Bảo toàn điều kiện, ba mệnh đề, toàn danh sách, các lược và câu lặp có nghĩa; giữ bất định hoa/xe/món ăn/lời xin hạt/apaviddha. Pāli/Sujato pin 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt/comments pin 6fdace1cae33e80cf082c4027c78d543f5eb48b1. Cả tác giả và người kiểm cùng GPT-6 Astra Pro; chưa có chuyên gia Pāli con người hay độc giả thật thử ba bản. Điểm phù hợp/độ rõ phản ánh bài dài và cảnh cổ khó đọc, không làm tròn điểm thành đạt tuyệt đối. Hash children đã đọc và kiểm: 75547401789cbf70f5b3b855951a7490f0ab8c7007f7b13299a3f61200fed600.",
+      "contentHash": "75547401789cbf70f5b3b855951a7490f0ab8c7007f7b13299a3f61200fed600",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn23.html",
+          "sha256": "a01517b3e0f7fa16581bb2410cac8ba2617c281bbdd2f58eb28f91124a1ac0a7"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+          "sha256": "553be95c480542f5bb01d404a087b418a9b1a1df4f3c090078dcad60973d4610"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+          "sha256": "0f4769813b05f77aeb7365e9c3fd908f04c7e771e28da89a44a51447ff84dd52"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn23_comment-vi-project.json",
+          "sha256": "3bb58d7d72fbb966b8b0921db66b998abfa38507af25628839bd6c0f996f7b92"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn23_translation-vi-project.json",
+          "sha256": "c8955f2a7b99022fdad5ff882aef76c256565609a95c4249502c17bcb9f47bce"
+        }
+      ]
+    },
+    {
+      "id": "33d739c4-6309-4fc5-bb17-f59e2756e716",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.6,
+        "logic_context": 9.7,
+        "terminology": 9.4,
+        "audience_fit": 9.3,
+        "clarity": 9.4,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Người kiểm đọc trực tiếp trọn Pāli, raw Sujato, Việt dự án, HTML Minh Châu và comments. Giữ năm giới trong nhóm Tāvatiṁsa, anupahacca là không làm hỏng sáu phần thân, hơi ấm thay sức nặng, Uttara là người phụ trách, và cả uddāna cuối dù HTML hoặc EN khác hay thiếu. Không nhập bản Anh lấp từ Việt làm đối chứng.",
+        "semantic_fidelity": "Đủ ba mệnh đề có/không, mười bất thiện/mười thiện khác năm giới, tự về khác gửi sứ giả. Jīva được đặt trong giả định đang tranh luận, không biến thành thường ngã. Quả hai người bố thí giữ đủ bốn nét trái nhau cùng Tứ Đại Thiên Vương/Serīsaka và thiện thú Tāvatiṁsa. Các lời nguy hiểm được quy đúng Pāyāsi hoặc con bạc, không gán lời khuyên cho thầy.",
+        "core_coverage": "82 đơn vị nghĩa phủ đủ 715 khóa đúng một lần theo trật tự, kể cả nhan đề, lược, colophon và kệ mười tên Mahāvagga. Mỗi bản giảng hết các ví dụ, cả hai đoàn 500 xe/bảy trạm, đủ 15 hàng hóa, hai ruộng/hạt/mưa, lời quy y và hai lượt nhờ truyền/thực truyền. Không dừng ở phần tranh luận để bỏ phần bố thí.",
+        "logic_context": "Giữ điều kiện lời người tu nếu đúng trong ba lời hẹn, sự không được về/không muốn về/chênh thời gian/giới hạn mắt khác nhau. 100 năm, 30 ngày, 12 tháng, 1.000 năm trời và 2–3 ngày đủ. Năm căn trong lời Pāyāsi khác sáu căn trong đáp; bốn lần viện danh tiếng không thành chứng cứ mới. Giữ tự thuật hài lòng từ ví dụ đầu, không suy động cơ kín, và việc đổi phẩm vật trước đoạn thái độ chưa tốt.",
+        "terminology": "Rājañña, khatta, vuddha, jīva, āyu/usmā/viññāṇa, anupahacca, vāvaṭa và paṭiggāhaka được đặt đúng vai nghĩa. Tám tà/chánh chi và các tên cõi được giữ. Các vật phẩm, hoa, xe và món ăn còn bất định được nói rõ, không ép thành một nghĩa tuyệt đối.",
+        "audience_fit": "34 phần, 77 đoạn, 5.849 từ khoảng trắng phù hợp đọc nghiên cứu từng mục; phân tích căn cứ, danh tiếng, trách nhiệm người dẫn và tác ý cho gắn với câu chuyện. Độ dài và nhiều lưu ý văn bản vẫn đòi thời gian; chưa có người đọc thật để xác nhận độ dễ tiếp nhận.",
+        "clarity": "Mỗi ví dụ nối rõ lý do Pāyāsi với đáp án và phạm vi lời kết. Đoạn đổi phẩm vật được giữ trước bốn nét cho, tránh mâu thuẫn giả; hai điều kiện sát hại/người thọ nhận không bị gộp. Có vài đoạn dài về danh sách và dị giải nên không chấm gần tuyệt đối.",
+        "editorial_separation": "Nguồn có liên kết theo đơn vị, lời ứng dụng được tách kind practice và tự nhận là biên soạn. Những khác cách dịch xe/hoa kumuda, pajohissāmi, món kaṇājaka/bilaṅga và apaviddha được công khai. Nhận định vật lý cổ và thế giới quan trời/người không được trình bày thành báo cáo thực nghiệm hiện đại; liên hệ đầu cuối truyện không đổi lời gốc.",
+        "practical_integrity": "Gợi ý chỉ hướng đến sửa điều nhớ sai, xét căn cứ và chăm phẩm vật/thái độ khi cho. Không yêu cầu làm theo các phép hại người hoặc tự hại, không hứa thiên nhãn, cõi trời hay thánh quả; vẫn giữ giáo nghĩa tái sinh thay vì xóa thành tâm lý hiện tại. Lời người mẹ về con gái và hình dạng phi nhân được đặt đúng bối cảnh, không biến thành chuẩn đối xử ngoài đời.",
+        "technical_integrity": "Audit cuối errors/sourceErrors đều rỗng; 5 SHA nguồn, 2 manifest blobs và 2 blob git dự án được kiểm khớp. Đọc trọn bản đồ và toàn bộ từng phần của cả ba bản; hash cuối khớp bản tác giả khóa, không sửa nội dung trong lượt kiểm này. Cổng toàn kho và kiểm HTML sẽ do root chạy sau đủ lô, chưa báo đã đạt trước."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập bài của agent A: đã đọc đủ 715 khóa Pāli/raw Sujato/Việt dự án (raw EN 636 ô có văn, 79 trống), 22 comments và toàn HTML Minh Châu 653 mảnh gồm credits. Đã đọc cả 82 đơn vị nghĩa và toàn bộ ba bản 45/34/48 phần; phần map từng bị cắt ở trả kết quả đã được đọc bù toàn vùng cân thân tới bài học lửa. Ledger, audit và source proof tại root-dn23-read. Bản cuối không cần chỉnh nội dung trong lượt đọc này. Bảo toàn điều kiện, ba mệnh đề, toàn danh sách, các lược và câu lặp có nghĩa; giữ bất định hoa/xe/món ăn/lời xin hạt/apaviddha. Pāli/Sujato pin 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt/comments pin 6fdace1cae33e80cf082c4027c78d543f5eb48b1. Cả tác giả và người kiểm cùng GPT-6 Astra Pro; chưa có chuyên gia Pāli con người hay độc giả thật thử ba bản. Điểm phù hợp/độ rõ phản ánh bài dài và cảnh cổ khó đọc, không làm tròn điểm thành đạt tuyệt đối. Hash adults đã đọc và kiểm: 216743cdd9fef9a8257a864112f1184a4f1a06df0fa1a2ceb46bc93a73308197.",
+      "contentHash": "216743cdd9fef9a8257a864112f1184a4f1a06df0fa1a2ceb46bc93a73308197",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn23.html",
+          "sha256": "a01517b3e0f7fa16581bb2410cac8ba2617c281bbdd2f58eb28f91124a1ac0a7"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+          "sha256": "553be95c480542f5bb01d404a087b418a9b1a1df4f3c090078dcad60973d4610"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+          "sha256": "0f4769813b05f77aeb7365e9c3fd908f04c7e771e28da89a44a51447ff84dd52"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn23_comment-vi-project.json",
+          "sha256": "3bb58d7d72fbb966b8b0921db66b998abfa38507af25628839bd6c0f996f7b92"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn23_translation-vi-project.json",
+          "sha256": "c8955f2a7b99022fdad5ff882aef76c256565609a95c4249502c17bcb9f47bce"
+        }
+      ]
+    },
+    {
+      "id": "205cf6a4-78c4-4d4f-b94f-f2ac32f4b57d",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.6,
+        "logic_context": 9.6,
+        "terminology": 9.3,
+        "audience_fit": 9,
+        "clarity": 9.3,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.7
+      },
+      "rationale": {
+        "source_fidelity": "Người kiểm đọc trực tiếp trọn Pāli, raw Sujato, Việt dự án, HTML Minh Châu và comments. Giữ năm giới trong nhóm Tāvatiṁsa, anupahacca là không làm hỏng sáu phần thân, hơi ấm thay sức nặng, Uttara là người phụ trách, và cả uddāna cuối dù HTML hoặc EN khác hay thiếu. Không nhập bản Anh lấp từ Việt làm đối chứng.",
+        "semantic_fidelity": "Đủ ba mệnh đề có/không, mười bất thiện/mười thiện khác năm giới, tự về khác gửi sứ giả. Jīva được đặt trong giả định đang tranh luận, không biến thành thường ngã. Quả hai người bố thí giữ đủ bốn nét trái nhau cùng Tứ Đại Thiên Vương/Serīsaka và thiện thú Tāvatiṁsa. Các lời nguy hiểm được quy đúng Pāyāsi hoặc con bạc, không gán lời khuyên cho thầy.",
+        "core_coverage": "82 đơn vị nghĩa phủ đủ 715 khóa đúng một lần theo trật tự, kể cả nhan đề, lược, colophon và kệ mười tên Mahāvagga. Mỗi bản giảng hết các ví dụ, cả hai đoàn 500 xe/bảy trạm, đủ 15 hàng hóa, hai ruộng/hạt/mưa, lời quy y và hai lượt nhờ truyền/thực truyền. Không dừng ở phần tranh luận để bỏ phần bố thí.",
+        "logic_context": "Giữ điều kiện lời người tu nếu đúng trong ba lời hẹn, sự không được về/không muốn về/chênh thời gian/giới hạn mắt khác nhau. 100 năm, 30 ngày, 12 tháng, 1.000 năm trời và 2–3 ngày đủ. Năm căn trong lời Pāyāsi khác sáu căn trong đáp; bốn lần viện danh tiếng không thành chứng cứ mới. Giữ tự thuật hài lòng từ ví dụ đầu, không suy động cơ kín, và việc đổi phẩm vật trước đoạn thái độ chưa tốt.",
+        "terminology": "Tên cổ đi cùng lời giải thiên nhãn, thức, hóa sinh, A-la-hán, do-tuần, thiên tử. Phân biệt năm/sáu căn, đúng người thọ nhận và nghĩa nguyên văn cần bảo toàn. Danh mục cõi và mười tên uddāna còn khó nhớ nhưng không bị lược mất.",
+        "audience_fit": "48 phần và 94 đoạn ngắn hơn tách các chặng, gợi ý đọc vừa sức và nhìn lại việc cho trong đời thường. 5.436 từ khoảng trắng với nhiều chi tiết cổ vẫn là bài dài; chưa được người cao tuổi thật thử đọc, nên điểm phù hợp chỉ 9,0.",
+        "clarity": "Câu hỏi, lời trả lời, điều kiện và lời tự thuật được chia theo tiêu đề dễ theo. Cân sống/chết và sắt được tách, chuỗi hàng hóa có mục riêng, hai cõi và bốn cách cho nhắc đủ. Các đính chính thuật ngữ vẫn làm một số đoạn cần đọc lại.",
+        "editorial_separation": "Nguồn có liên kết theo đơn vị, lời ứng dụng được tách kind practice và tự nhận là biên soạn. Những khác cách dịch xe/hoa kumuda, pajohissāmi, món kaṇājaka/bilaṅga và apaviddha được công khai. Nhận định vật lý cổ và thế giới quan trời/người không được trình bày thành báo cáo thực nghiệm hiện đại; liên hệ đầu cuối truyện không đổi lời gốc.",
+        "practical_integrity": "Gợi ý chỉ hướng đến sửa điều nhớ sai, xét căn cứ và chăm phẩm vật/thái độ khi cho. Không yêu cầu làm theo các phép hại người hoặc tự hại, không hứa thiên nhãn, cõi trời hay thánh quả; vẫn giữ giáo nghĩa tái sinh thay vì xóa thành tâm lý hiện tại. Lời người mẹ về con gái và hình dạng phi nhân được đặt đúng bối cảnh, không biến thành chuẩn đối xử ngoài đời.",
+        "technical_integrity": "Audit cuối errors/sourceErrors đều rỗng; 5 SHA nguồn, 2 manifest blobs và 2 blob git dự án được kiểm khớp. Đọc trọn bản đồ và toàn bộ từng phần của cả ba bản; hash cuối khớp bản tác giả khóa, không sửa nội dung trong lượt kiểm này. Cổng toàn kho và kiểm HTML sẽ do root chạy sau đủ lô, chưa báo đã đạt trước."
+      },
+      "blockingErrors": [],
+      "notes": "Root kiểm độc lập bài của agent A: đã đọc đủ 715 khóa Pāli/raw Sujato/Việt dự án (raw EN 636 ô có văn, 79 trống), 22 comments và toàn HTML Minh Châu 653 mảnh gồm credits. Đã đọc cả 82 đơn vị nghĩa và toàn bộ ba bản 45/34/48 phần; phần map từng bị cắt ở trả kết quả đã được đọc bù toàn vùng cân thân tới bài học lửa. Ledger, audit và source proof tại root-dn23-read. Bản cuối không cần chỉnh nội dung trong lượt đọc này. Bảo toàn điều kiện, ba mệnh đề, toàn danh sách, các lược và câu lặp có nghĩa; giữ bất định hoa/xe/món ăn/lời xin hạt/apaviddha. Pāli/Sujato pin 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML pin 4d481d7cfbaeccad19fa85adc215d3c15ff43457; Việt/comments pin 6fdace1cae33e80cf082c4027c78d543f5eb48b1. Cả tác giả và người kiểm cùng GPT-6 Astra Pro; chưa có chuyên gia Pāli con người hay độc giả thật thử ba bản. Điểm phù hợp/độ rõ phản ánh bài dài và cảnh cổ khó đọc, không làm tròn điểm thành đạt tuyệt đối. Hash older-adults đã đọc và kiểm: c0e841a7e6ac48f36ccb304631b15c145e36b5f55cc3567cab55fe5a79e573f4.",
+      "contentHash": "c0e841a7e6ac48f36ccb304631b15c145e36b5f55cc3567cab55fe5a79e573f4",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn23.html",
+          "sha256": "a01517b3e0f7fa16581bb2410cac8ba2617c281bbdd2f58eb28f91124a1ac0a7"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+          "sha256": "553be95c480542f5bb01d404a087b418a9b1a1df4f3c090078dcad60973d4610"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+          "sha256": "0f4769813b05f77aeb7365e9c3fd908f04c7e771e28da89a44a51447ff84dd52"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn23_comment-vi-project.json",
+          "sha256": "3bb58d7d72fbb966b8b0921db66b998abfa38507af25628839bd6c0f996f7b92"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn23_translation-vi-project.json",
+          "sha256": "c8955f2a7b99022fdad5ff882aef76c256565609a95c4249502c17bcb9f47bce"
+        }
+      ]
+    }
+  ]
+}

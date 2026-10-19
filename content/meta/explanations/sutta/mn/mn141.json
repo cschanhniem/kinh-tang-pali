@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn141",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "e0e630f2-49d3-4168-a232-556c924fa6c3"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "6d4bddfa-b870-4fbc-9fe7-24db64a3a58c"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "681f9bd6-79d8-48d3-a6e8-c84c70df6169"
+    }
+  },
+  "reviews": [
+    {
+      "id": "e0e630f2-49d3-4168-a232-556c924fa6c3",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.4,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.2,
+        "audience_fit": 8.9,
+        "clarity": 9.1,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.5
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc đủ Pāli, Sujato, Việt dự án, HTML Minh Châu và chú thích của MN141. Năm dependency khớp byte hiện có; nguồn Pāli và Anh khớp manifest. Ghi đúng phần Pāli lược tại 31.4–31.5; HTML nguyên bài không tự căn segment.",
+        "semantic_fidelity": "Giữ khổ–tập–diệt–đạo; ái ở 21.2–21.3 dẫn tái sinh, diệt là diệt chính ái ở 22.2. Không thu con đường thành xử lý khó chịu hoặc đánh đồng thiện dục 29.2–29.5 với khát ái.",
+        "core_coverage": "Đọc đối chiếu 36 đơn vị bao phủ 122 khóa thực, từ nhãn đầu đến 32.5. Ba bản giữ định nghĩa sinh/già/chết, sầu/bi/khổ/ưu/não, năm trường hợp cầu không được, năm thủ uẩn, đủ tám chi, bốn nỗ lực, bốn quán niệm và bốn thiền.",
+        "logic_context": "Người nói đổi từ Phật sang Sāriputta sau 6.2; ví sinh/nuôi con không thành giới hạn khả năng tuyệt đối. Bệnh có trong 19.7, không thêm vào danh sách 10.2; kết chỉ người nghe hoan hỷ. Nhiệt tâm, tỉnh giác, niệm và bỏ tham ưu đi cùng cả bốn quán.",
+        "editorial_separation": "Ví dụ và gợi ý mang kind riêng và tự nhận là lời biên soạn; việc mở thiền ba/bốn được nêu rõ dùng mô tả ở hai bản tham khảo đã đọc. Sửa một câu giải thích ví sinh/nuôi con ở bản trẻ để tránh cách nói gây xao lãng; đã đọc lại.",
+        "practical_integrity": "Ứng dụng lời nói và nỗ lực chỉ là bước nhỏ, không hứa diệt tận ái, chữa bệnh hoặc chứng thiền. Nói rõ mong muốn đơn thuần không đủ vẫn cho phép chăm sóc, phòng ngừa và tu tập; không quy lỗi cho người buồn.",
+        "technical_integrity": "auditExplanations(\"mn\",\"mn141\") chạy thành công, errors=[]; kiểm schema, NFC, ID, nguồn, hash và phủ bản đồ. Tiêu chí toàn vẹn bản ghi; kết quả test/check/build của lô được ghi riêng trong báo cáo trước PR.",
+        "terminology": "Mở nghĩa uẩn, thủ, ái, xúc, niệm, tầm/tứ và hỷ/lạc ngay trong mạch. Một số danh xưng cổ còn cần người hướng dẫn; không đổi chúng thành thuật ngữ tâm lý phổ thông.",
+        "audience_fit": "Có lối vào chuyện buồn và ví dụ đội chơi, câu thường ngắn, chia 18 phần. Mật độ danh xưng và giáo nghĩa vẫn cao với nhóm 7–12; điểm 8,9 phản ánh giới hạn cần đọc từng phần cùng người lớn, chưa có thử đọc thật.",
+        "clarity": "Mạch bốn sự thật theo được; chia riêng các nỗi khổ và thiền. Các lần nhắc công thức Pháp luân còn nặng về liệt kê; không chấm là tối ưu khả năng tiếp nhận."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm /root khác tác tử soạn /root/audit_progress, cùng GPT-6 Astra Pro. Đã đọc toàn bộ năm nguồn thực, bản đồ và đủ ba bản MN141; đối chiếu hai chiều và đọc lại bản children. Chỉ sửa câu giải ví sinh/nuôi con ở bản trẻ; không sửa kinh văn. Chưa có học giả Pāli con người hoặc thử đọc theo tuổi. Pāli/Anh 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457; project tại 0d8afd630e483d8cfee098cbb2f75a58da5fede8. Chú thích lịch sử nêu pin HTML khác không được nhận là nguồn mới đã mở. Lượt so nguồn này không tuyên bố đọc tác phẩm khác chỉ được chú thích nhắc đến.",
+      "contentHash": "eb22eae9fe1a25ecc364e3be83d88d5a1bc2bb294aa7214d7bcf9318c3447dac",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn141.html",
+          "sha256": "3c7360a4d4e57046ee9e96032209c0e984d05b31c69480ecd8441d707d76beed"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn141_root-pli-ms.json",
+          "sha256": "d8c6f9899cbc608a0a78b94f8c4de8bc3f54e23b3c17974e9cb3f441ca3516e6"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn141_translation-en-sujato.json",
+          "sha256": "9028dabbf1a353aa8db5904f6126be2d320da0e515238ef6fe8326844b910129"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn141_comment-vi-project.json",
+          "sha256": "907412f1e25fd68d09b30c56a1690b5d28149a3ae2013ded4eb8b945512bafa1"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn141_translation-vi-project.json",
+          "sha256": "4809145691ad4f6af5cdefc71047e42dd711d0839e9507aad3f0b3643e082847"
+        }
+      ]
+    },
+    {
+      "id": "6d4bddfa-b870-4fbc-9fe7-24db64a3a58c",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.3,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.5
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc đủ Pāli, Sujato, Việt dự án, HTML Minh Châu và chú thích của MN141. Năm dependency khớp byte hiện có; nguồn Pāli và Anh khớp manifest. Ghi đúng phần Pāli lược tại 31.4–31.5; HTML nguyên bài không tự căn segment.",
+        "semantic_fidelity": "Giữ khổ–tập–diệt–đạo; ái ở 21.2–21.3 dẫn tái sinh, diệt là diệt chính ái ở 22.2. Không thu con đường thành xử lý khó chịu hoặc đánh đồng thiện dục 29.2–29.5 với khát ái.",
+        "core_coverage": "Đọc đối chiếu 36 đơn vị bao phủ 122 khóa thực, từ nhãn đầu đến 32.5. Ba bản giữ định nghĩa sinh/già/chết, sầu/bi/khổ/ưu/não, năm trường hợp cầu không được, năm thủ uẩn, đủ tám chi, bốn nỗ lực, bốn quán niệm và bốn thiền.",
+        "logic_context": "Người nói đổi từ Phật sang Sāriputta sau 6.2; ví sinh/nuôi con không thành giới hạn khả năng tuyệt đối. Bệnh có trong 19.7, không thêm vào danh sách 10.2; kết chỉ người nghe hoan hỷ. Nhiệt tâm, tỉnh giác, niệm và bỏ tham ưu đi cùng cả bốn quán.",
+        "editorial_separation": "Ví dụ và gợi ý mang kind riêng và tự nhận là lời biên soạn; việc mở thiền ba/bốn được nêu rõ dùng mô tả ở hai bản tham khảo đã đọc. Sửa một câu giải thích ví sinh/nuôi con ở bản trẻ để tránh cách nói gây xao lãng; đã đọc lại.",
+        "practical_integrity": "Ứng dụng lời nói và nỗ lực chỉ là bước nhỏ, không hứa diệt tận ái, chữa bệnh hoặc chứng thiền. Nói rõ mong muốn đơn thuần không đủ vẫn cho phép chăm sóc, phòng ngừa và tu tập; không quy lỗi cho người buồn.",
+        "technical_integrity": "auditExplanations(\"mn\",\"mn141\") chạy thành công, errors=[]; kiểm schema, NFC, ID, nguồn, hash và phủ bản đồ. Tiêu chí toàn vẹn bản ghi; kết quả test/check/build của lô được ghi riêng trong báo cáo trước PR.",
+        "terminology": "Giải nghĩa năm uẩn, ba ái, thiện dục, bốn niệm xứ và tầm/tứ trong đúng vai trò; cách mở pháp/niệm là diễn giải có giới hạn, không tuyên bố định nghĩa duy nhất.",
+        "audience_fit": "Đặt việc bị bác đề xuất trong trách nhiệm lời nói, giữ nội dung giải thoát đầy đủ; không mặc định mọi độc giả đều làm văn phòng. Chưa thử đọc với độc giả thật.",
+        "clarity": "Các tiêu đề bám tiến trình, từng chi được định nghĩa; đoạn công thức lặp khá dày nhưng không che khác biệt. Đã đọc toàn bộ tiếng Việt sau so nguồn."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm /root khác tác tử soạn /root/audit_progress, cùng GPT-6 Astra Pro. Đã đọc toàn bộ năm nguồn thực, bản đồ và đủ ba bản MN141; đối chiếu hai chiều và đọc lại bản adults. Chỉ sửa câu giải ví sinh/nuôi con ở bản trẻ; không sửa kinh văn. Chưa có học giả Pāli con người hoặc thử đọc theo tuổi. Pāli/Anh 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457; project tại 0d8afd630e483d8cfee098cbb2f75a58da5fede8. Chú thích lịch sử nêu pin HTML khác không được nhận là nguồn mới đã mở. Lượt so nguồn này không tuyên bố đọc tác phẩm khác chỉ được chú thích nhắc đến.",
+      "contentHash": "4127ce9b8e42cdd591e461fa77369fbf0a8cf957d5d986b157bd98c193d9e714",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn141.html",
+          "sha256": "3c7360a4d4e57046ee9e96032209c0e984d05b31c69480ecd8441d707d76beed"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn141_root-pli-ms.json",
+          "sha256": "d8c6f9899cbc608a0a78b94f8c4de8bc3f54e23b3c17974e9cb3f441ca3516e6"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn141_translation-en-sujato.json",
+          "sha256": "9028dabbf1a353aa8db5904f6126be2d320da0e515238ef6fe8326844b910129"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn141_comment-vi-project.json",
+          "sha256": "907412f1e25fd68d09b30c56a1690b5d28149a3ae2013ded4eb8b945512bafa1"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn141_translation-vi-project.json",
+          "sha256": "4809145691ad4f6af5cdefc71047e42dd711d0839e9507aad3f0b3643e082847"
+        }
+      ]
+    },
+    {
+      "id": "681f9bd6-79d8-48d3-a6e8-c84c70df6169",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.5,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.2,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.5
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc đủ Pāli, Sujato, Việt dự án, HTML Minh Châu và chú thích của MN141. Năm dependency khớp byte hiện có; nguồn Pāli và Anh khớp manifest. Ghi đúng phần Pāli lược tại 31.4–31.5; HTML nguyên bài không tự căn segment.",
+        "semantic_fidelity": "Giữ khổ–tập–diệt–đạo; ái ở 21.2–21.3 dẫn tái sinh, diệt là diệt chính ái ở 22.2. Không thu con đường thành xử lý khó chịu hoặc đánh đồng thiện dục 29.2–29.5 với khát ái.",
+        "core_coverage": "Đọc đối chiếu 36 đơn vị bao phủ 122 khóa thực, từ nhãn đầu đến 32.5. Ba bản giữ định nghĩa sinh/già/chết, sầu/bi/khổ/ưu/não, năm trường hợp cầu không được, năm thủ uẩn, đủ tám chi, bốn nỗ lực, bốn quán niệm và bốn thiền.",
+        "logic_context": "Người nói đổi từ Phật sang Sāriputta sau 6.2; ví sinh/nuôi con không thành giới hạn khả năng tuyệt đối. Bệnh có trong 19.7, không thêm vào danh sách 10.2; kết chỉ người nghe hoan hỷ. Nhiệt tâm, tỉnh giác, niệm và bỏ tham ưu đi cùng cả bốn quán.",
+        "editorial_separation": "Ví dụ và gợi ý mang kind riêng và tự nhận là lời biên soạn; việc mở thiền ba/bốn được nêu rõ dùng mô tả ở hai bản tham khảo đã đọc. Sửa một câu giải thích ví sinh/nuôi con ở bản trẻ để tránh cách nói gây xao lãng; đã đọc lại.",
+        "practical_integrity": "Ứng dụng lời nói và nỗ lực chỉ là bước nhỏ, không hứa diệt tận ái, chữa bệnh hoặc chứng thiền. Nói rõ mong muốn đơn thuần không đủ vẫn cho phép chăm sóc, phòng ngừa và tu tập; không quy lỗi cho người buồn.",
+        "technical_integrity": "auditExplanations(\"mn\",\"mn141\") chạy thành công, errors=[]; kiểm schema, NFC, ID, nguồn, hash và phủ bản đồ. Tiêu chí toàn vẹn bản ghi; kết quả test/check/build của lô được ghi riêng trong báo cáo trước PR.",
+        "terminology": "Mở nghĩa phạm hạnh, uẩn/xứ/căn, mạng căn, ái, niệm, tầm/tứ; giữ sinh tử theo bối cảnh bài, không chuyển toàn bộ thành ẩn dụ.",
+        "audience_fit": "Chia 21 phần vừa đọc, ví cuộc hẹn thay đổi, tôn trọng phẩm giá và lựa chọn; phần già/chết đến từ nguồn chứ không áp định kiến lên nhóm tuổi. Chưa có phản hồi độc giả thật.",
+        "clarity": "Nhịp rõ và các phần ngắn; còn nhiều danh mục ở lời mở và kết, đã giữ vì chức năng cấu trúc. Điểm là đọc biên tập, không chứng cứ thực nghiệm về độ dễ đọc."
+      },
+      "blockingErrors": [],
+      "notes": "Người kiểm /root khác tác tử soạn /root/audit_progress, cùng GPT-6 Astra Pro. Đã đọc toàn bộ năm nguồn thực, bản đồ và đủ ba bản MN141; đối chiếu hai chiều và đọc lại bản older-adults. Chỉ sửa câu giải ví sinh/nuôi con ở bản trẻ; không sửa kinh văn. Chưa có học giả Pāli con người hoặc thử đọc theo tuổi. Pāli/Anh 11c9d708978cde8ba61096d8a75f7ddfb846f639; HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457; project tại 0d8afd630e483d8cfee098cbb2f75a58da5fede8. Chú thích lịch sử nêu pin HTML khác không được nhận là nguồn mới đã mở. Lượt so nguồn này không tuyên bố đọc tác phẩm khác chỉ được chú thích nhắc đến.",
+      "contentHash": "3cffe25164d0a15da9a6cfe61dfd90e5be8b25526b4a0a0a7bbbbe6dc7236f51",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn141.html",
+          "sha256": "3c7360a4d4e57046ee9e96032209c0e984d05b31c69480ecd8441d707d76beed"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn141_root-pli-ms.json",
+          "sha256": "d8c6f9899cbc608a0a78b94f8c4de8bc3f54e23b3c17974e9cb3f441ca3516e6"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn141_translation-en-sujato.json",
+          "sha256": "9028dabbf1a353aa8db5904f6126be2d320da0e515238ef6fe8326844b910129"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn141_comment-vi-project.json",
+          "sha256": "907412f1e25fd68d09b30c56a1690b5d28149a3ae2013ded4eb8b945512bafa1"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn141_translation-vi-project.json",
+          "sha256": "4809145691ad4f6af5cdefc71047e42dd711d0839e9507aad3f0b3643e082847"
+        }
+      ]
+    }
+  ]
+}

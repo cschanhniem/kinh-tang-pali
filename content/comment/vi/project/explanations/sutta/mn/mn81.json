@@ -1,0 +1,1268 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn81",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn81_root-pli-ms.json",
+      "sha256": "23bb7579d38a9981003666719e9c718d049bfd764d464a5dacdf7dc34ec00d91",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn81_translation-vi-project.json",
+      "sha256": "a14553e21f7c1c1be0d9b418174148f37bcd09fd5dbf8e8719342b52c64b0a8d",
+      "commit": "35309d257c04d74d87f2838da349f5bcbe9f28ed"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn81_translation-en-sujato.json",
+      "sha256": "d02cc722e6a6907a8140db99c83be8babe856f19bf435a524935ea791c669576",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn81.html",
+      "sha256": "80516dc437c2e866a4b3bb2446f7936c33d8f615c54edbe5fe9522fb99f2626e",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn81_comment-vi-project.json",
+      "sha256": "213b4be7bbaadce0e8fe29455e54963acc98f8be1754d232019fd327653b4e3f",
+      "commit": "35309d257c04d74d87f2838da349f5bcbe9f28ed"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Kinh Ghaṭikāra",
+      "segments": [
+        "mn81:0.1",
+        "mn81:0.2"
+      ],
+      "summary": "MN81, Ghaṭikārasutta; dùng tên Ghaṭikāra theo root, ghi dị dạng Ghaṭīkāra ở hồ sơ, không sửa bản dịch gốc."
+    },
+    {
+      "id": "setting",
+      "title": "Điều đã nghe ở Kosala",
+      "segments": [
+        "mn81:1.1",
+        "mn81:1.2"
+      ],
+      "summary": "Người truyền kinh kể điều đã nghe: Phật du hành xứ Kosala với Tăng chúng tỳ-kheo đông đảo."
+    },
+    {
+      "id": "smile",
+      "title": "Nụ cười bên đường",
+      "segments": [
+        "mn81:2.1",
+        "mn81:2.2",
+        "mn81:2.3",
+        "mn81:2.4",
+        "mn81:2.5",
+        "mn81:2.6",
+        "mn81:2.7"
+      ],
+      "summary": "Phật rời đường đến một khoảng đất và mỉm cười. Ānanda nghĩ rồi chỉnh y một vai/chắp tay hỏi nhân, duyên; cả nghĩ và hỏi giữ Như Lai không cười vô cớ."
+    },
+    {
+      "id": "past-town",
+      "title": "Nơi Kassapa đã từng giảng dạy",
+      "segments": [
+        "mn81:3.1",
+        "mn81:3.2",
+        "mn81:3.3",
+        "mn81:3.4"
+      ],
+      "summary": "Thuở trước nơi ấy là thị trấn Vegaḷiṅga thịnh vượng, sung túc, đông dân, đầy người. Kassapa A-la-hán Chánh Đẳng Giác sống nương nơi ấy; tu viện và chỗ ngồi dạy Tăng ngay đây. Tên theo root khác Vebhaliṅga ở Việt/Anh/HTML."
+    },
+    {
+      "id": "seat",
+      "title": "Tấm y gấp bốn",
+      "segments": [
+        "mn81:4.1",
+        "mn81:4.2",
+        "mn81:4.3",
+        "mn81:4.4",
+        "mn81:4.5"
+      ],
+      "summary": "Ānanda trải y ngoài gấp bốn, mời Phật ngồi để mảnh đất được hai A-la-hán Chánh Đẳng Giác dùng. Phật ngồi chỗ đã dọn rồi nói với Ānanda."
+    },
+    {
+      "id": "past-repeated",
+      "title": "Câu chuyện quá khứ được kể tiếp",
+      "segments": [
+        "mn81:5.1",
+        "mn81:5.2",
+        "mn81:5.3",
+        "mn81:5.4"
+      ],
+      "summary": "Phật nhắc trọn thị trấn bốn nét, Kassapa nương đó, tu viện và chỗ ngồi dạy Tăng. Có thể nối phần đã kể, không bỏ lần nhắc."
+    },
+    {
+      "id": "friends",
+      "title": "Thợ gốm và bạn thân",
+      "segments": [
+        "mn81:6.1",
+        "mn81:6.2"
+      ],
+      "summary": "Ghaṭikāra là người hộ độ hàng đầu Kassapa ở Vegaḷiṅga, Jotipāla là thanh niên bạn thân. Không thêm giai cấp của Jotipāla chưa được kinh chỉ danh ngoài ý nghĩ sau đó."
+    },
+    {
+      "id": "first-invitations",
+      "title": "Ba lần rủ và ba lần khước từ",
+      "segments": [
+        "mn81:6.3",
+        "mn81:6.4",
+        "mn81:6.5",
+        "mn81:6.6",
+        "mn81:6.7",
+        "mn81:6.8",
+        "mn81:6.9",
+        "mn81:6.10",
+        "mn81:6.11",
+        "mn81:6.12",
+        "mn81:6.13",
+        "mn81:6.14",
+        "mn81:6.15"
+      ],
+      "summary": "Thợ gốm ba lần rủ đi gặp Kassapa vì cho gặp Ngài là tốt lành; Jotipāla ba lần khước từ với giọng khinh ông sa-môn trọc đầu. Giữ lời khinh thuộc nhân vật, không thuật như đánh giá đúng."
+    },
+    {
+      "id": "river",
+      "title": "Cùng ra sông tắm",
+      "segments": [
+        "mn81:6.16",
+        "mn81:6.17",
+        "mn81:6.18"
+      ],
+      "summary": "Thợ gốm đề nghị mang chất tắm ra sông; bạn nhận lời; cả hai đi. Không buộc nhập đồ gãi lưng riêng theo HTML."
+    },
+    {
+      "id": "nearby-invitations",
+      "title": "Lại ba lần rủ ở gần tu viện",
+      "segments": [
+        "mn81:7.1",
+        "mn81:7.2",
+        "mn81:7.3",
+        "mn81:7.4",
+        "mn81:7.5",
+        "mn81:7.6",
+        "mn81:7.7",
+        "mn81:7.8",
+        "mn81:7.9",
+        "mn81:7.10",
+        "mn81:7.11",
+        "mn81:7.12",
+        "mn81:7.13",
+        "mn81:7.14",
+        "mn81:7.15"
+      ],
+      "summary": "Nêu tu viện không xa, ba lần thợ gốm rủ vì gặp Kassapa là tốt lành; ba lần Jotipāla khước từ cùng lời khinh. Không nhập sáu lần thành ba."
+    },
+    {
+      "id": "hem",
+      "title": "Giữ vạt áo",
+      "segments": [
+        "mn81:8.1",
+        "mn81:8.2",
+        "mn81:8.3",
+        "mn81:8.4",
+        "mn81:8.5",
+        "mn81:8.6",
+        "mn81:8.7"
+      ],
+      "summary": "Thợ gốm giữ vạt áo, nói tu viện gần, rủ gặp Kassapa vì điều tốt; Jotipāla gỡ vạt áo rồi khước từ/khinh. Theo root/Anh/Việt, không cổ áo hoặc cổ tay áo HTML."
+    },
+    {
+      "id": "hair",
+      "title": "Giữ tóc và phản ứng của bạn",
+      "segments": [
+        "mn81:9.1",
+        "mn81:9.2",
+        "mn81:9.3",
+        "mn81:9.4",
+        "mn81:9.5",
+        "mn81:9.6",
+        "mn81:9.7",
+        "mn81:9.8"
+      ],
+      "summary": "Thợ gốm giữ tóc vừa gội của bạn, lại nói tu viện gần/rủ gặp/tốt lành. Jotipāla ngạc nhiên người mình coi là thấp giai cấp dám giữ tóc mới gội, nghĩ chuyện phải quan trọng. Phân biệt định kiến của nhân vật, không tán thành; không biến giữ tóc thành cách rủ bạn nên làm."
+    },
+    {
+      "id": "agree",
+      "title": "Hỏi mức cần thiết rồi đồng ý đi",
+      "segments": [
+        "mn81:9.9",
+        "mn81:9.10",
+        "mn81:9.11",
+        "mn81:9.12",
+        "mn81:9.13"
+      ],
+      "summary": "Jotipāla hỏi có cần làm đến vậy; thợ gốm xác nhận vì gặp Kassapa tốt lành. Bạn nói buông ra, chúng ta đi. Không sửa thành đã buông trước lời đồng ý; yāvatādohi đọc theo ngữ cảnh và Việt, không chèn chuyện sữa."
+    },
+    {
+      "id": "first-visit",
+      "title": "Lần đầu cùng nghe Pháp",
+      "segments": [
+        "mn81:10.1",
+        "mn81:10.2",
+        "mn81:10.3",
+        "mn81:10.4",
+        "mn81:10.5",
+        "mn81:10.6"
+      ],
+      "summary": "Đến nơi, thợ gốm đảnh lễ/ngồi, Jotipāla chào hỏi thân hữu/ngồi. Thợ gốm giới thiệu bạn thân và xin dạy. Kassapa khai thị, khuyến khích, cổ động, làm hoan hỷ cả hai; cả hai hoan hỷ/tán đồng, đứng dậy/đảnh lễ/giữ bên phải hướng Ngài rồi đi."
+    },
+    {
+      "id": "parents",
+      "title": "Hai hoàn cảnh tu học",
+      "segments": [
+        "mn81:11.1",
+        "mn81:11.2",
+        "mn81:11.3",
+        "mn81:11.4"
+      ],
+      "summary": "Jotipāla hỏi sao bạn nghe Pháp không xuất gia; thợ gốm nói nuôi cha mẹ già mù, bạn đã biết. Jotipāla quyết định mình xuất gia, không gán việc ở lại là kém lòng tin."
+    },
+    {
+      "id": "ordination",
+      "title": "Jotipāla xuất gia và thọ cụ túc",
+      "segments": [
+        "mn81:12.1",
+        "mn81:12.2",
+        "mn81:12.3",
+        "mn81:12.4"
+      ],
+      "summary": "Lần hai cả hai đến đảnh lễ/ngồi; thợ gốm giới thiệu bạn thân xin cho xuất gia. Jotipāla nhận xuất gia và cụ túc giới trước Kassapa. Không thêm chứng quả."
+    },
+    {
+      "id": "journey",
+      "title": "Nửa tháng sau tới Bārāṇasī",
+      "segments": [
+        "mn81:13.1",
+        "mn81:13.2",
+        "mn81:13.3"
+      ],
+      "summary": "Jotipāla mới thọ cụ túc nửa tháng, Kassapa ở Vegaḷiṅga như ý rồi du hành tuần tự tới Bārāṇasī, ở vườn Nai Isipatana. Không chuyển nửa tháng thành thời gian chứng đạt."
+    },
+    {
+      "id": "royal-visit",
+      "title": "Vua Kikī đến nghe và thỉnh ăn",
+      "segments": [
+        "mn81:14.1",
+        "mn81:14.2",
+        "mn81:14.3",
+        "mn81:14.4",
+        "mn81:14.5",
+        "mn81:14.6",
+        "mn81:14.7",
+        "mn81:15.1"
+      ],
+      "summary": "Vua Kikī Kāsi nghe tin, sửa xe tốt, đi uy nghi bằng xe tới chỗ đi được rồi xuống đi bộ. Đến đảnh lễ/ngồi, nghe pháp đủ bốn tác dụng; mời Kassapa và Tăng ngày mai dùng bữa. Ngài im lặng nhận, vua biết/đứng dậy/đảnh lễ/giữ phía phải rồi đi."
+    },
+    {
+      "id": "food",
+      "title": "Bữa ăn do vua chuẩn bị",
+      "segments": [
+        "mn81:16.1",
+        "mn81:16.2",
+        "mn81:17.1",
+        "mn81:17.2",
+        "mn81:17.3"
+      ],
+      "summary": "Qua đêm vua dọn đồ cứng/mềm ngon, cơm gạo vàng nhạt nhặt hạt đen, canh và món kèm; báo đúng giờ sẵn. Sáng Kassapa đắp y/mang bát và y cùng Tăng đến/ngồi; vua tự tay dâng/mời dùng đầy đủ cho cả Tăng có Phật đầu. Ngài ăn xong tay rời bát, vua ghế thấp ngồi bên; không đổi tay rời bát thành rửa tay."
+    },
+    {
+      "id": "rains",
+      "title": "Ba lời thỉnh an cư",
+      "segments": [
+        "mn81:17.4",
+        "mn81:17.5",
+        "mn81:17.6",
+        "mn81:17.7",
+        "mn81:17.8",
+        "mn81:17.9",
+        "mn81:17.10",
+        "mn81:17.11",
+        "mn81:17.12",
+        "mn81:17.13",
+        "mn81:17.14"
+      ],
+      "summary": "Vua ba lần mời an cư Bārāṇasī, hứa hộ độ Tăng như bữa này; Kassapa mỗi lần từ chối vì đã nhận lời an cư rồi. Không thêm người đã mời hoặc ý coi thường vua."
+    },
+    {
+      "id": "king-upset",
+      "title": "Câu hỏi về người hộ độ",
+      "segments": [
+        "mn81:17.15",
+        "mn81:17.16",
+        "mn81:17.17"
+      ],
+      "summary": "Vua nghĩ lời mời bị từ chối nên thất vọng buồn rầu, hỏi còn ai hộ độ tốt hơn mình."
+    },
+    {
+      "id": "supporter",
+      "title": "Lòng tin không đòi được ưu tiên",
+      "segments": [
+        "mn81:18.1",
+        "mn81:18.2",
+        "mn81:18.3",
+        "mn81:18.4",
+        "mn81:18.5"
+      ],
+      "summary": "Kassapa nói Ghaṭikāra tại Vegaḷiṅga là người hộ độ hàng đầu. Nhắc đúng sự buồn bực của vua vì lời thỉnh an cư bị từ chối; điều ấy không có/sẽ không có với thợ gốm. Không mở thành chưa bao giờ có bất kỳ cảm xúc buồn nào."
+    },
+    {
+      "id": "refuge-precepts",
+      "title": "Nương tựa và giữ giới",
+      "segments": [
+        "mn81:18.6",
+        "mn81:18.7"
+      ],
+      "summary": "Thợ gốm đã quy y Phật/Pháp/Tăng; tránh sát sinh/lấy không cho/tà hạnh dục/nói dối/rượu các chất say dẫn buông lung. Không gộp mất nương tựa hoặc năm giới."
+    },
+    {
+      "id": "confidence",
+      "title": "Niềm tin vững và bốn sự thật",
+      "segments": [
+        "mn81:18.8",
+        "mn81:18.9"
+      ],
+      "summary": "Tin bất động từng Phật/Pháp/Tăng, thành tựu giới được Thánh yêu. Không nghi từng khổ/nguồn gốc/diệt/con đường diệt; không biến không nghi thành thuộc lòng danh sách."
+    },
+    {
+      "id": "simple-life",
+      "title": "Nếp sống và từ bỏ của cải",
+      "segments": [
+        "mn81:18.10",
+        "mn81:18.11",
+        "mn81:18.12"
+      ],
+      "summary": "Một bữa, sống phạm hạnh độc thân, giới hạnh/thiện pháp; bỏ ngọc/vàng và không dùng vàng bạc; bỏ cuốc không tự tay đào. Giữ lời kể riêng, không biến thành dinh dưỡng hoặc trách nhiệm chung mọi người tại gia."
+    },
+    {
+      "id": "pottery",
+      "title": "Làm gốm và đổi lấy thức ăn",
+      "segments": [
+        "mn81:18.13",
+        "mn81:18.14"
+      ],
+      "summary": "Đất bờ sạt hay chuột đào, gánh về bằng đòn gánh, làm gốm; mời ai muốn để túi gạo/mugga/kaḷāya và lấy đồ muốn. Không thêm chó HTML, không sesame của Anh, không tự định danh thực vật chắc chắn hơn nguồn."
+    },
+    {
+      "id": "attainment",
+      "title": "Chăm cha mẹ và thành tựu tu",
+      "segments": [
+        "mn81:18.15",
+        "mn81:18.16"
+      ],
+      "summary": "Thợ gốm nuôi cha mẹ già mù; năm hạ phần kiết sử đã tận, sẽ hóa sinh/tịch diệt ở đó/không trở lại. Có thể mở nghĩa ràng buộc ở mức thấp theo tên, không tự chèn danh sách năm thiếu trong bài. Chứng đạt có điều kiện, tương lai còn đúng thì; không gọi đã chết."
+    },
+    {
+      "id": "rice-meal",
+      "title": "Chuyện cơm và canh",
+      "segments": [
+        "mn81:19.1",
+        "mn81:19.2",
+        "mn81:19.3",
+        "mn81:19.4",
+        "mn81:19.5",
+        "mn81:19.6",
+        "mn81:19.7",
+        "mn81:19.8",
+        "mn81:19.9",
+        "mn81:19.10",
+        "mn81:19.11",
+        "mn81:19.12"
+      ],
+      "summary": "Kassapa kể vua một lần tại thị trấn ấy: sáng y bát đến hỏi cha mẹ thợ gốm đang đâu; họ nói người hộ độ đã ra ngoài, mời lấy cơm nồi/canh chảo. Ngài ăn/đứng đi. Thợ gốm về hỏi ai ăn rồi đi, cha mẹ nói Kassapa; thấy mình may mắn vì được tin cậy; hỷ lạc nửa tháng nơi thợ gốm, bảy ngày cha mẹ. Không thêm thợ gốm đã dặn trước."
+    },
+    {
+      "id": "porridge-meal",
+      "title": "Chuyện cháo thô và canh",
+      "segments": [
+        "mn81:20.1",
+        "mn81:20.2",
+        "mn81:20.3",
+        "mn81:20.4",
+        "mn81:20.5",
+        "mn81:20.6",
+        "mn81:20.7",
+        "mn81:20.8",
+        "mn81:20.9",
+        "mn81:20.10",
+        "mn81:20.11",
+        "mn81:20.12"
+      ],
+      "summary": "Một lần khác trọn trình tự trên nhưng kummāsa cháo thô trong kaḷopi và canh chảo. Giữ khác bữa cơm, cùng lời hỏi/đáp/được tin cậy và nửa tháng/bảy ngày. HTML gộp một chuyện không dùng để bỏ chuyện thứ hai."
+    },
+    {
+      "id": "roof-request",
+      "title": "Mái cỏ xưởng gốm",
+      "segments": [
+        "mn81:21.1",
+        "mn81:21.2",
+        "mn81:21.3",
+        "mn81:21.4",
+        "mn81:21.5",
+        "mn81:21.6",
+        "mn81:21.7",
+        "mn81:21.8"
+      ],
+      "summary": "Một lần khác tại thị trấn, cốc Kassapa dột. Sai Tăng tìm cỏ nhà thợ gốm; họ báo không có cỏ, chỉ mái xưởng lợp cỏ. Ngài bảo gỡ mái xưởng, họ làm. Không đổi xưởng thành nhà ở, không thêm yêu cầu xin trước chưa có trong nguồn."
+    },
+    {
+      "id": "parents-consent",
+      "title": "Cha mẹ vui lòng cho lấy",
+      "segments": [
+        "mn81:21.9",
+        "mn81:21.10",
+        "mn81:21.11",
+        "mn81:21.12"
+      ],
+      "summary": "Cha mẹ hỏi ai dỡ mái; các tỳ-kheo trả lời mình vì cốc Kassapa dột, gọi bhagini với người mẹ; họ nói xin cứ lấy, lặp hai lần với lời kính. Không lược sự đồng ý hoặc đảo thành biết trước việc đã gỡ."
+    },
+    {
+      "id": "roof-joy",
+      "title": "Niềm vui vì được tin cậy",
+      "segments": [
+        "mn81:21.13",
+        "mn81:21.14",
+        "mn81:21.15",
+        "mn81:21.16",
+        "mn81:21.17",
+        "mn81:21.18",
+        "mn81:21.19"
+      ],
+      "summary": "Thợ gốm về hỏi ai gỡ mái, cha mẹ nói Tăng/nghe cốc Kassapa dột. Ông nghĩ mình may mắn vì được tin cậy; cùng hỷ lạc nửa tháng, cha mẹ bảy ngày, lần thứ ba giữ đủ thời gian."
+    },
+    {
+      "id": "rain",
+      "title": "Ba tháng không có mưa rơi vào",
+      "segments": [
+        "mn81:21.20",
+        "mn81:21.21",
+        "mn81:21.22",
+        "mn81:21.23"
+      ],
+      "summary": "Xưởng suốt ba tháng lấy trời làm mái, trời không mưa xuống nơi ấy như kinh kể. Kassapa kết thợ gốm như vậy; vua khen may mắn được tin cậy. Không rút thành bảo đảm ai cho đồ cũng được bảo vệ thời tiết."
+    },
+    {
+      "id": "royal-gift",
+      "title": "Khoảng năm trăm xe gạo",
+      "segments": [
+        "mn81:22.1",
+        "mn81:22.2",
+        "mn81:22.3",
+        "mn81:22.4"
+      ],
+      "summary": "Phật trở lại kể Ānanda: vua gửi khoảng500 tải/xe gạo sāli vàng nhạt và đồ canh; các người vua (số nhiều root) trao/lời mời nhận. Không chắc500 đúng số, không một sứ giả Anh."
+    },
+    {
+      "id": "enough",
+      "title": "Đã đủ, xin để nhà vua dùng",
+      "segments": [
+        "mn81:22.5",
+        "mn81:22.6",
+        "mn81:22.7"
+      ],
+      "summary": "Thợ gốm nói vua nhiều việc, tôi đủ rồi, xin để vua giữ. Không thay bằng chỉ cảm ơn vua nhớ đến như HTML; không tự kể của đã chuyển đi đâu."
+    },
+    {
+      "id": "revelation",
+      "title": "Jotipāla chính là Phật khi ấy",
+      "segments": [
+        "mn81:23.1",
+        "mn81:23.2",
+        "mn81:23.3",
+        "mn81:23.4"
+      ],
+      "summary": "Phật nói Ānanda có thể nghĩ Jotipāla là người khác, chớ nghĩ vậy: chính Ta khi ấy là Jotipāla. Giữ lời thuật quá khứ, không thêm niên đại hoặc thân phận khác."
+    },
+    {
+      "id": "ending",
+      "title": "Lời hoan hỷ của Ānanda",
+      "segments": [
+        "mn81:23.5",
+        "mn81:23.6",
+        "mn81:23.7"
+      ],
+      "summary": "Phật nói xong, Ānanda hoan hỷ/tán đồng; nhãn Kinh Ghaṭikāra kết, bài thứ nhất trong nhóm. Không kể Ānanda chứng quả tại đây."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Người thợ gốm biết đủ và người bạn chịu lắng nghe",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "smile",
+          "kind": "teaching",
+          "heading": "Vì sao Đức Phật mỉm cười?",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "smile"
+          ],
+          "paragraphs": [
+            "MN81 là Kinh Ghaṭikāra, kể về một người thợ gốm. Người truyền kinh nói điều mình đã nghe: Đức Phật đang đi qua xứ Kosala cùng đông đảo tỳ-kheo, những người xuất gia tu học. Ngài rời đường, đến một khoảng đất và mỉm cười.",
+            "Ānanda tự hỏi điều gì khiến Ngài cười, bởi các bậc Như Lai không mỉm cười vô cớ. Như Lai là một cách gọi Đức Phật. Ông sửa y trên một vai, chắp tay rồi thưa đúng câu hỏi ấy: do nhân gì, duyên gì?"
+          ]
+        },
+        {
+          "id": "place",
+          "kind": "teaching",
+          "heading": "Một mảnh đất, hai vị Phật",
+          "meaningUnits": [
+            "past-town",
+            "seat",
+            "past-repeated"
+          ],
+          "paragraphs": [
+            "Đức Phật kể: xưa kia, đây là thị trấn Vegaḷiṅga, thịnh vượng, sung túc, đông dân và đông đúc. Đức Phật Kassapa, bậc A-la-hán đã giải thoát, tự mình giác ngộ hoàn toàn, từng sống nương vào thị trấn ấy. Ngay đây là tu viện, là chỗ Ngài ngồi dạy các tỳ-kheo.",
+            "Ānanda gấp tấm y ngoài làm bốn, trải xuống và mời Đức Phật ngồi. Như vậy, mảnh đất này sẽ được hai vị Phật đã giác ngộ hoàn toàn dùng làm chỗ ngồi. Đức Phật ngồi xuống, nhắc lại thị trấn đông đúc và nơi Kassapa dạy chúng tu sĩ, rồi kể tiếp chuyện xưa."
+          ]
+        },
+        {
+          "id": "friends",
+          "kind": "teaching",
+          "heading": "Người thợ gốm và người bạn chưa muốn đi",
+          "meaningUnits": [
+            "friends",
+            "first-invitations",
+            "river",
+            "nearby-invitations"
+          ],
+          "paragraphs": [
+            "Ghaṭikāra làm đồ gốm ở thị trấn ấy và là người hộ độ hàng đầu của Đức Phật Kassapa. Hộ độ là chăm lo, giúp những điều cần cho việc tu học. Ông có bạn thân tên Jotipāla. Ba lần ông rủ bạn đến gặp Kassapa, vì xem được gặp Ngài là điều tốt lành. Cả ba lần, Jotipāla đều từ chối, còn nói với giọng coi thường: gặp ông sa-môn trọc đầu ấy để làm gì? Sa-môn là người sống đời tu.",
+            "Ghaṭikāra bèn rủ bạn mang đồ tắm ra sông. Jotipāla đồng ý, hai người cùng đi. Đến gần tu viện, Ghaṭikāra lại nói chỗ Kassapa ở không xa và rủ đi gặp. Lại ba lần mời, ba lần từ chối với lời coi thường ấy."
+          ]
+        },
+        {
+          "id": "agree",
+          "kind": "teaching",
+          "heading": "Một người bạn rất tha thiết",
+          "meaningUnits": [
+            "hem",
+            "hair",
+            "agree"
+          ],
+          "paragraphs": [
+            "Ghaṭikāra giữ vạt áo bạn, nhắc tu viện ở gần, rủ đến gặp vì xem đó là điều tốt lành. Jotipāla gỡ vạt áo ra và vẫn từ chối. Sau đó, Ghaṭikāra nắm tóc bạn vừa gội, lặp lại lời rủ ấy.",
+            "Jotipāla kinh ngạc: người thợ gốm mà mình coi thuộc tầng lớp thấp lại dám giữ tóc mình! Anh nghĩ việc này hẳn quan trọng lắm. Cách nghĩ ấy cho thấy Jotipāla đang nhìn bạn qua thứ bậc xã hội. Anh hỏi có thật cần làm đến vậy không. Ghaṭikāra đáp có, vì được gặp Kassapa là điều tốt lành. Jotipāla nói: hãy buông ra, chúng ta sẽ đi."
+          ]
+        },
+        {
+          "id": "listen",
+          "kind": "teaching",
+          "heading": "Khi chịu ngồi xuống lắng nghe",
+          "meaningUnits": [
+            "first-visit"
+          ],
+          "paragraphs": [
+            "Hai người đến gặp Kassapa. Ghaṭikāra cúi lạy kính chào rồi ngồi một bên; Jotipāla chào hỏi thân thiện rồi cũng ngồi. Người thợ gốm giới thiệu đây là bạn thân và xin Đức Phật giảng cho bạn.",
+            "Kassapa giảng Pháp, lời dạy giúp hiểu và tu tập, cho cả hai: giải rõ, khuyến khích, tiếp thêm quyết tâm và làm họ vui mừng. Cả hai vui lòng đón nhận, tán đồng; rồi đứng dậy, cúi lạy, giữ bên phải hướng về Ngài khi ra đi."
+          ]
+        },
+        {
+          "id": "paths",
+          "kind": "teaching",
+          "heading": "Chăm cha mẹ và bước vào đời tu",
+          "meaningUnits": [
+            "parents",
+            "ordination"
+          ],
+          "paragraphs": [
+            "Sau buổi nghe, Jotipāla hỏi bạn: nghe được lời dạy này, sao bạn không xuất gia? Ghaṭikāra nhắc điều bạn đã biết: ông còn nuôi cha mẹ già, cả hai đều mù. Jotipāla bèn nói mình sẽ rời đời gia đình để xuất gia.",
+            "Hai người lại đến, lần này cùng cúi lạy Kassapa rồi ngồi. Ghaṭikāra giới thiệu bạn thân và xin cho bạn xuất gia. Jotipāla được xuất gia và thọ cụ túc giới, tức chính thức nhận đầy đủ giới của một tỳ-kheo. Bài kinh kể bước bắt đầu ấy của anh."
+          ]
+        },
+        {
+          "id": "king",
+          "kind": "teaching",
+          "heading": "Một nhà vua đến thỉnh mời",
+          "meaningUnits": [
+            "journey",
+            "royal-visit"
+          ],
+          "paragraphs": [
+            "Nửa tháng sau khi Jotipāla thọ giới, Kassapa rời Vegaḷiṅga sau thời gian ở đó như ý. Ngài lần lượt đi đến Bārāṇasī, ở vườn Nai Isipatana. Vua Kikī xứ Kāsi nghe tin, sửa soạn những cỗ xe tốt, đi với uy nghi của nhà vua. Vua đi xe đến nơi còn được dùng xe, rồi xuống đi bộ.",
+            "Vua đến cúi lạy và ngồi một bên. Kassapa cũng dùng lời dạy giải rõ, khuyến khích, tiếp sức và làm vua hoan hỷ. Vua mời Ngài cùng các tỳ-kheo hôm sau dùng cơm. Kassapa im lặng nhận lời. Biết Ngài đã nhận, vua đứng dậy, cúi lạy rồi ra về, giữ bên phải hướng về Ngài."
+          ]
+        },
+        {
+          "id": "meal",
+          "kind": "teaching",
+          "heading": "Bữa ăn chu đáo, lời mời không được nhận",
+          "meaningUnits": [
+            "food",
+            "rains",
+            "king-upset"
+          ],
+          "paragraphs": [
+            "Sáng hôm sau, vua cho dọn các món ngon cứng và mềm, cơm gạo vàng nhạt đã nhặt hạt đen, canh và các món kèm. Khi báo bữa đã sẵn, Kassapa đắp y, mang theo bát và y đến cùng các tỳ-kheo, ngồi vào chỗ được dọn. Vua tự tay dâng thức ăn, mời dùng cho đầy đủ cả Tăng chúng, tức các vị tu sĩ, có Đức Phật dẫn đầu.",
+            "Ăn xong, Kassapa rời tay khỏi bát. Vua ngồi trên ghế thấp bên cạnh, xin Ngài ở lại Bārāṇasī suốt mùa mưa, hứa chăm lo cho các tỳ-kheo như thế. Ba lần vua mời, ba lần Ngài trả lời rằng đã nhận lời ở mùa mưa rồi. Vua thất vọng, buồn vì lời mời của mình không được nhận, nên hỏi: có ai hộ độ Ngài tốt hơn con chăng?"
+          ]
+        },
+        {
+          "id": "trust",
+          "kind": "teaching",
+          "heading": "Người thợ gốm được nhắc đến",
+          "meaningUnits": [
+            "supporter",
+            "refuge-precepts",
+            "confidence"
+          ],
+          "paragraphs": [
+            "Kassapa nói đến Ghaṭikāra ở Vegaḷiṅga: đó là người hộ độ hàng đầu của Ngài. Vua buồn vì lời thỉnh vừa bị từ chối; sự buồn bực vì lý do ấy không có và sẽ không có nơi người thợ gốm.",
+            "Ghaṭikāra đã quy y, chọn nương theo Phật, Pháp và Tăng, cộng đồng người tu. Ông tránh giết hại, lấy đồ không được cho, làm sai trong quan hệ tình dục, nói dối, uống rượu và dùng chất say khiến mình buông lung. Ông có niềm tin vững vào Phật, Pháp, Tăng, giữ các giới được bậc Thánh quý trọng. Ông không nghi ngờ về khổ, nguồn gốc khổ, sự hết khổ và con đường đưa đến hết khổ."
+          ]
+        },
+        {
+          "id": "work",
+          "kind": "teaching",
+          "heading": "Đất làm gốm và một đời sống giản dị",
+          "meaningUnits": [
+            "simple-life",
+            "pottery",
+            "attainment"
+          ],
+          "paragraphs": [
+            "Kassapa kể ông ăn một bữa mỗi ngày, sống phạm hạnh, ở đây là đời sống trong sạch không quan hệ tình dục, có giới hạnh và những điều lành. Ông bỏ ngọc, vàng, không dùng vàng bạc, đặt cuốc xuống và không tự tay đào đất.",
+            "Ông dùng đất ở bờ sông sạt xuống hoặc đất chuột đào lên, gánh về bằng đòn gánh rồi làm đồ gốm. Ai muốn lấy đồ có thể để lại túi gạo, đậu xanh hay loại đậu gọi là kaḷāya rồi lấy vật mình cần.",
+            "Ông vẫn nuôi cha mẹ già mù. Kassapa nói năm ràng buộc được gọi là hạ phần kiết sử nơi ông đã chấm dứt; ông sẽ hóa sinh ở đời sau, tức tái sinh bằng sự xuất hiện tự nhiên, rồi tịch diệt, chấm dứt hoàn toàn sự tiếp tục sinh tử tại đó, không còn quay trở lại. Lời kể nói tới thành tựu tu học sâu xa của ông."
+          ]
+        },
+        {
+          "id": "two-meals",
+          "kind": "teaching",
+          "heading": "Hai bữa ăn và niềm vui vì được tin",
+          "meaningUnits": [
+            "rice-meal",
+            "porridge-meal"
+          ],
+          "paragraphs": [
+            "Kassapa kể với vua: một lần ở Vegaḷiṅga, buổi sáng Ngài mang y bát đến hỏi cha mẹ Ghaṭikāra xem ông đi đâu. Họ nói người hộ độ đã ra ngoài và mời Ngài lấy cơm trong nồi, canh trong chảo mà dùng. Ngài ăn xong rồi đứng dậy đi. Ghaṭikāra về hỏi ai đã ăn, cha mẹ nói đó là Kassapa. Ông thấy mình may mắn vì được Ngài tin cậy đến thế. Niềm vui và an lạc ở với ông suốt nửa tháng, với cha mẹ suốt bảy ngày.",
+            "Một lần khác, câu chuyện diễn ra với cháo thô đựng trong hũ và canh trong chảo. Cha mẹ lại mời khi ông đi vắng; Kassapa dùng xong rồi đi. Về nhà, ông hỏi và biết người đã dùng là Kassapa, lại vui vì được tin cậy. Lần ấy, niềm vui cũng ở với ông nửa tháng, với cha mẹ bảy ngày."
+          ]
+        },
+        {
+          "id": "roof",
+          "kind": "teaching",
+          "heading": "Mái xưởng được đem sửa cốc",
+          "meaningUnits": [
+            "roof-request",
+            "parents-consent",
+            "roof-joy",
+            "rain"
+          ],
+          "paragraphs": [
+            "Kassapa kể một lần nữa: cốc, chỗ ở của Ngài, bị dột. Ngài bảo các tỳ-kheo đến nhà thợ gốm tìm cỏ. Họ thưa không có cỏ để sẵn, chỉ có mái cỏ của xưởng gốm. Ngài bảo dỡ mái ấy, và họ làm theo. Cha mẹ ông nghe, hỏi ai đang dỡ. Các vị đáp là tỳ-kheo, vì cốc Kassapa dột. Cha mẹ nói hai lần: xin cứ lấy đi, các vị hiền thiện!",
+            "Ghaṭikāra về hỏi ai dỡ mái, cha mẹ kể lại lý do. Ông lại cảm thấy may mắn vì được Kassapa tin tưởng. Niềm vui ở với ông nửa tháng, cha mẹ bảy ngày. Kinh kể xưởng để bầu trời làm mái suốt ba tháng mà mưa không rơi xuống nơi ấy. Kassapa kết: người thợ gốm là như vậy. Vua cũng khen ông thật may mắn vì được tin cậy."
+          ]
+        },
+        {
+          "id": "enough",
+          "kind": "teaching",
+          "heading": "Tôi đã đủ rồi",
+          "meaningUnits": [
+            "royal-gift",
+            "enough"
+          ],
+          "paragraphs": [
+            "Đức Phật tiếp tục kể với Ānanda: vua Kikī gửi đến Ghaṭikāra khoảng năm trăm xe gạo sāli màu vàng nhạt, cùng đồ để nấu canh. Những người của vua trao lời mời ông nhận lấy.",
+            "Ông đáp nhà vua còn nhiều công việc; mình đã đủ rồi, xin để những thứ ấy cho nhà vua dùng. Biết đủ hiện ra trong một câu trả lời rất cụ thể."
+          ]
+        },
+        {
+          "id": "end",
+          "kind": "teaching",
+          "heading": "Người bạn ấy là ai?",
+          "meaningUnits": [
+            "revelation",
+            "ending"
+          ],
+          "paragraphs": [
+            "Đức Phật nói với Ānanda: ông có thể nghĩ Jotipāla ngày ấy là người khác, nhưng đừng nghĩ như thế. Chính Ngài khi ấy là thanh niên Jotipāla.",
+            "Nghe xong, Ānanda vui mừng và tán đồng lời Phật. Dòng cuối ghi Kinh Ghaṭikāra là bài thứ nhất trong nhóm kinh này; số bài là MN81."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Liên hệ biên soạn: chịu nghe trước khi chê",
+          "meaningUnits": [
+            "first-invitations",
+            "agree",
+            "first-visit"
+          ],
+          "paragraphs": [
+            "Một người bạn rủ em đến buổi đọc sách. Em nghe ai đó chê người kể chuyện nên vội từ chối. Bạn có thể kể điều bạn thấy hay và để em tự chọn. Nếu em đồng ý nghe, em có dịp tự tìm hiểu điều trước đó mình chỉ đoán.",
+            "Trong cách rủ nhau hôm nay, ta dùng lời giải thích, không nắm áo hay tóc để ép bạn đi. Liên hệ này giúp em nhận ra sự vội chê và tập lắng nghe; nó không thay câu chuyện Jotipāla đã nghe Pháp rồi xuất gia."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành do người biên soạn",
+          "meaningUnits": [
+            "parents",
+            "supporter",
+            "enough"
+          ],
+          "paragraphs": [
+            "Chọn một việc giúp người thân vừa sức, như cất đồ chung hoặc chuẩn bị chỗ ngồi. Làm xong, thử xem mình có đang chờ được ưu tiên hơn mọi người không. Biết lòng mình là một phần của việc học.",
+            "Khi ai muốn tặng thêm, em có thể nghĩ mình đang cần gì và nói thật. Biết đủ có thể bắt đầu từ đồ dùng hằng ngày; thành tựu giải thoát của Ghaṭikāra trong kinh còn thuộc cả đời sống tu tập của ông."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Lòng tin, trách nhiệm và sự biết đủ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Nụ cười mở một câu chuyện quá khứ",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "smile"
+          ],
+          "paragraphs": [
+            "Kinh Ghaṭikāra, MN81, được truyền lại bằng lời người kể đã nghe. Đức Phật đang du hành xứ Kosala cùng đông đảo tỳ-kheo, những tu sĩ xuất gia. Ngài rời đường, đến một khoảng đất rồi mỉm cười. Ānanda nghĩ đến nhân và duyên của nụ cười, bởi Như Lai không cười vô cớ. Như Lai là danh xưng của Đức Phật.",
+            "Ông sửa y trên một vai, chắp tay hướng về Ngài và hỏi điều mình vừa nghĩ. Câu trả lời đưa cuộc trò chuyện về thời Đức Phật Kassapa."
+          ]
+        },
+        {
+          "id": "place",
+          "kind": "teaching",
+          "heading": "Nơi hai bậc giác ngộ đã ngồi",
+          "meaningUnits": [
+            "past-town",
+            "seat",
+            "past-repeated"
+          ],
+          "paragraphs": [
+            "Đức Phật kể nơi ấy từng là thị trấn Vegaḷiṅga, thịnh vượng, sung túc, đông dân và đông đúc. Kassapa, bậc A-la-hán đã giải thoát, Chánh Đẳng Giác tự mình giác ngộ hoàn toàn, sống nương nơi ấy. Tu viện của Ngài ở đây; ngay tại đây Ngài từng ngồi dạy Tăng chúng, cộng đồng người tu.",
+            "Ānanda gấp y ngoài làm bốn, trải ra và mời Đức Phật ngồi, để khoảng đất này được hai bậc A-la-hán Chánh Đẳng Giác sử dụng. Ngài ngồi chỗ đã dọn, nhắc lại các nét của thị trấn, tu viện và chỗ giảng dạy, rồi tiếp câu chuyện."
+          ]
+        },
+        {
+          "id": "invitations",
+          "kind": "teaching",
+          "heading": "Lời rủ gặp thầy và thành kiến ban đầu",
+          "meaningUnits": [
+            "friends",
+            "first-invitations",
+            "river",
+            "nearby-invitations"
+          ],
+          "paragraphs": [
+            "Ghaṭikāra, một thợ gốm tại Vegaḷiṅga, là người hộ độ hàng đầu của Kassapa, tức người chăm lo giúp đỡ đời sống tu học. Ông có bạn thân là thanh niên Jotipāla. Ba lần ông mời bạn đến gặp Kassapa, nói mình xem việc gặp Ngài là tốt lành. Cả ba lần Jotipāla khước từ, dùng lời khinh miệt về ông sa-môn trọc đầu. Sa-môn là người sống đời tu.",
+            "Ghaṭikāra chuyển sang rủ mang đồ tắm ra sông; bạn đồng ý và hai người cùng đi. Ở gần tu viện, ông nói nơi Kassapa ở không xa và lại mời gặp. Ba lời mời nữa được đáp bằng ba lần khước từ với cùng giọng coi thường."
+          ]
+        },
+        {
+          "id": "turn",
+          "kind": "teaching",
+          "heading": "Từ giữ vạt áo đến một quyết định đi nghe",
+          "meaningUnits": [
+            "hem",
+            "hair",
+            "agree"
+          ],
+          "paragraphs": [
+            "Ghaṭikāra giữ vạt áo Jotipāla, nhắc tu viện gần và việc gặp Kassapa là tốt lành. Jotipāla gỡ áo, từ chối và lặp lời khinh. Sau đó, người thợ gốm giữ tóc bạn vừa gội, lại nêu lời mời ấy.",
+            "Jotipāla ngạc nhiên: người thợ gốm thuộc tầng lớp mà mình xem là thấp lại dám giữ tóc mình; hẳn chuyện này không tầm thường. Nhận xét về thứ bậc nằm trong ý nghĩ của Jotipāla. Anh hỏi bạn có cần làm đến mức ấy không. Ghaṭikāra nói có, vì được gặp Kassapa là tốt lành. Jotipāla đáp: hãy buông ra, chúng ta sẽ đi."
+          ]
+        },
+        {
+          "id": "hearing",
+          "kind": "teaching",
+          "heading": "Thay đổi bắt đầu từ việc nghe",
+          "meaningUnits": [
+            "first-visit"
+          ],
+          "paragraphs": [
+            "Tới nơi, Ghaṭikāra đảnh lễ, cúi lạy kính trọng, rồi ngồi một bên; Jotipāla chào hỏi thân thiện rồi ngồi. Người thợ gốm giới thiệu bạn thân và xin Kassapa thuyết Pháp cho bạn. Pháp là lời dạy về con đường tu học.",
+            "Kassapa khai mở điều cần hiểu, khuyến khích, cổ động và làm hoan hỷ cả hai người. Cả hai vui lòng tán đồng, đứng dậy, đảnh lễ, giữ bên phải hướng về Ngài khi rời đi. Lời kể giữ sự chuyển biến từ khước từ sang trực tiếp nghe và đón nhận."
+          ]
+        },
+        {
+          "id": "responsibilities",
+          "kind": "teaching",
+          "heading": "Hai lựa chọn trong hai hoàn cảnh",
+          "meaningUnits": [
+            "parents",
+            "ordination"
+          ],
+          "paragraphs": [
+            "Jotipāla hỏi vì sao nghe Pháp như vậy mà Ghaṭikāra không xuất gia. Người thợ gốm nhắc điều bạn đã biết: mình còn nuôi cha mẹ già mù. Jotipāla nói chính mình sẽ rời gia đình để sống đời không nhà.",
+            "Họ lại đến gặp Kassapa, cùng đảnh lễ và ngồi xuống. Ghaṭikāra giới thiệu người bạn thân, xin cho bạn xuất gia. Jotipāla được xuất gia và thọ cụ túc giới, nhận đầy đủ tư cách cùng giới luật của tỳ-kheo. Câu chuyện không đặt việc chăm cha mẹ của Ghaṭikāra đối nghịch với sự thành tựu tu học."
+          ]
+        },
+        {
+          "id": "royal",
+          "kind": "teaching",
+          "heading": "Vua Kikī đón bậc đạo sư",
+          "meaningUnits": [
+            "journey",
+            "royal-visit"
+          ],
+          "paragraphs": [
+            "Nửa tháng sau khi Jotipāla thọ cụ túc, Kassapa rời Vegaḷiṅga sau thời gian ở đó như ý, du hành tuần tự tới Bārāṇasī và trú vườn Nai Isipatana. Vua Kikī xứ Kāsi nghe tin, chuẩn bị các cỗ xe tốt, ra đi với uy nghi nhà vua. Vua đi xe đến nơi còn được dùng xe, rồi xuống đi bộ tới gặp Ngài.",
+            "Vua đảnh lễ, ngồi một bên, được Kassapa dùng pháp thoại khai mở, khuyến khích, cổ động và làm hoan hỷ. Vua mời Ngài cùng Tăng chúng dùng bữa ngày mai. Ngài im lặng nhận lời; vua biết lời mời đã được nhận, đứng dậy, đảnh lễ, giữ bên phải hướng Ngài khi ra về."
+          ]
+        },
+        {
+          "id": "offer",
+          "kind": "teaching",
+          "heading": "Sự hậu đãi và giới hạn của một lời mời",
+          "meaningUnits": [
+            "food",
+            "rains",
+            "king-upset"
+          ],
+          "paragraphs": [
+            "Qua đêm, vua sửa soạn thức ăn ngon cả cứng lẫn mềm, cơm gạo vàng nhạt nhặt hạt đen, các món canh và đồ ăn kèm. Khi được báo đúng giờ, bữa ăn đã sẵn, Kassapa đắp y, mang theo bát và y tới cùng các tỳ-kheo, ngồi chỗ đã dọn. Vua tự tay dâng thức ăn và mời dùng cho đầy đủ Tăng chúng có Ngài đứng đầu.",
+            "Khi Ngài dùng xong, tay rời bát, vua lấy ghế thấp ngồi bên và thỉnh an cư mùa mưa ở Bārāṇasī, hứa tiếp tục hộ độ như thế. Ba lần thỉnh, ba lần Kassapa từ chối vì đã nhận lời an cư. Vua nghĩ lời mời mình không được nhận nên thất vọng, buồn rầu; ông hỏi còn ai hộ độ Ngài tốt hơn mình."
+          ]
+        },
+        {
+          "id": "supporter",
+          "kind": "teaching",
+          "heading": "Hộ độ không gắn với đòi hỏi được ưu tiên",
+          "meaningUnits": [
+            "supporter",
+            "refuge-precepts",
+            "confidence"
+          ],
+          "paragraphs": [
+            "Kassapa đáp Ghaṭikāra ở Vegaḷiṅga là người hộ độ hàng đầu. Ngài chỉ rõ điều vua đang buồn: lời thỉnh an cư tại Bārāṇasī bị từ chối. Điều buồn bực vì lý do ấy không có và sẽ không có nơi người thợ gốm.",
+            "Ghaṭikāra quy y Phật, Pháp và Tăng, chọn nương tựa bậc giác ngộ, lời dạy và cộng đồng tu học. Ông từ bỏ sát sinh, lấy của không cho, tà hạnh trong dục, tức làm sai trong quan hệ tình dục, nói dối, rượu và chất say gây buông lung. Ông có niềm tin không lay chuyển vào từng Phật, Pháp, Tăng, cùng các giới được bậc Thánh quý trọng; không nghi ngờ khổ, nguồn gốc khổ, sự chấm dứt khổ và con đường chấm dứt khổ."
+          ]
+        },
+        {
+          "id": "livelihood",
+          "kind": "teaching",
+          "heading": "Biết đủ trong sinh kế và trách nhiệm",
+          "meaningUnits": [
+            "simple-life",
+            "pottery",
+            "attainment"
+          ],
+          "paragraphs": [
+            "Kassapa kể Ghaṭikāra ăn một bữa mỗi ngày, sống phạm hạnh, ở đây giữ đời sống trong sạch không quan hệ tình dục, có giới hạnh và phẩm chất tốt. Ông bỏ ngọc, vàng, không dùng vàng bạc; đặt cuốc xuống, không tự tay đào đất.",
+            "Đất từ bờ sông sạt xuống hoặc chuột đào lên được ông gánh về bằng đòn gánh, làm đồ gốm. Ông cho người muốn lấy vật để lại các túi gạo, đậu xanh hay đậu kaḷāya, rồi mang vật họ muốn đi.",
+            "Ông nuôi cha mẹ già mù. Đồng thời, năm hạ phần kiết sử, một nhóm ràng buộc tâm, đã được đoạn tận nơi ông. Ông sẽ hóa sinh, tức tái sinh bằng sự xuất hiện tự nhiên, rồi tịch diệt ở đó, chấm dứt hoàn toàn sự tiếp tục sinh tử, không còn quay trở lại. Sự thành tựu ấy đi cùng cả đời sống và tu học được kể."
+          ]
+        },
+        {
+          "id": "rice",
+          "kind": "teaching",
+          "heading": "Niềm vui của người được tin cậy",
+          "meaningUnits": [
+            "rice-meal"
+          ],
+          "paragraphs": [
+            "Kassapa kể với vua một lần ở Vegaḷiṅga: sáng Ngài mang y bát đến nhà, hỏi cha mẹ Ghaṭikāra xem người thợ gốm đi đâu. Họ nói người hộ độ đã ra ngoài và mời dùng cơm trong nồi, canh trong chảo. Ngài lấy dùng, ăn xong đứng dậy ra đi.",
+            "Ghaṭikāra về hỏi ai đã lấy cơm, canh rồi đi. Khi cha mẹ nói đó là Kassapa, ông cảm thấy mình may mắn vì được Ngài tin tưởng đến vậy. Hỷ lạc, niềm vui và an lạc, không rời ông nửa tháng và không rời cha mẹ bảy ngày."
+          ]
+        },
+        {
+          "id": "porridge",
+          "kind": "teaching",
+          "heading": "Một lần khác với bữa cháo",
+          "meaningUnits": [
+            "porridge-meal"
+          ],
+          "paragraphs": [
+            "Lần khác tại thị trấn ấy, Kassapa lại đến vào buổi sáng, hỏi cha mẹ và được biết Ghaṭikāra đi vắng. Họ mời Ngài dùng cháo thô trong hũ, canh trong chảo. Ngài dùng xong, đứng dậy rồi đi.",
+            "Người thợ gốm trở về, hỏi ai đã ăn, nghe cha mẹ trả lời Kassapa và lại vui vì được tin cậy. Cũng nửa tháng hỷ lạc nơi ông, bảy ngày nơi cha mẹ. Đây là một bữa khác với chuyện cơm vừa được kể."
+          ]
+        },
+        {
+          "id": "roof",
+          "kind": "teaching",
+          "heading": "Mái xưởng trong câu chuyện cúng dường",
+          "meaningUnits": [
+            "roof-request",
+            "parents-consent",
+            "roof-joy",
+            "rain"
+          ],
+          "paragraphs": [
+            "Lần nữa, cốc, chỗ ở của Kassapa, bị dột. Ngài bảo các tỳ-kheo tìm cỏ ở nhà Ghaṭikāra; họ báo không có cỏ sẵn, chỉ có mái cỏ xưởng gốm. Ngài bảo tháo cỏ mái xưởng và họ làm. Cha mẹ hỏi ai đang tháo, được trả lời là các tỳ-kheo vì cốc Kassapa dột. Cha mẹ hai lần bảo cứ lấy đi với lời kính mến.",
+            "Ghaṭikāra về hỏi ai tháo mái, nghe cha mẹ nói các tỳ-kheo và lý do, rồi vui vì Kassapa tin cậy mình. Hỷ lạc lại ở với ông nửa tháng, cha mẹ bảy ngày. Kinh kể xưởng lấy bầu trời làm mái suốt ba tháng mà mưa không rơi xuống đó. Kassapa kết lời mô tả thợ gốm; vua tán thán ông may mắn được Ngài tin tưởng."
+          ]
+        },
+        {
+          "id": "enough",
+          "kind": "teaching",
+          "heading": "Từ chối một món quà lớn",
+          "meaningUnits": [
+            "royal-gift",
+            "enough"
+          ],
+          "paragraphs": [
+            "Đức Phật kể tiếp với Ānanda: vua Kikī gửi khoảng năm trăm xe gạo sāli màu vàng nhạt, cùng các thứ nấu canh, đến Ghaṭikāra. Những người của vua trao lời xin nhận.",
+            "Ông trả lời nhà vua nhiều phận sự, mình đã đủ, xin để lại cho nhà vua dùng. Trong câu đáp, biết đủ gắn với nhu cầu thực và với việc nhìn thấy người khác còn nhiều trách nhiệm."
+          ]
+        },
+        {
+          "id": "reveal",
+          "kind": "teaching",
+          "heading": "Người từng từ chối ấy chính là ai?",
+          "meaningUnits": [
+            "revelation",
+            "ending"
+          ],
+          "paragraphs": [
+            "Đức Phật nói Ānanda có thể nghĩ thanh niên Jotipāla thời ấy là người khác, nhưng không nên hiểu như vậy: chính Ngài khi ấy là Jotipāla.",
+            "Bài kinh khép lại với Ānanda hoan hỷ và tán đồng. Dòng kết ghi Kinh Ghaṭikāra, bài thứ nhất trong nhóm kinh này. Sự thay đổi của người thanh niên và sự vững chãi nơi thợ gốm cùng nằm trong lời kể ấy."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Liên hệ biên soạn: giúp đỡ mà không đặt điều kiện ngầm",
+          "meaningUnits": [
+            "supporter",
+            "parents",
+            "enough"
+          ],
+          "paragraphs": [
+            "Ta dành thời gian giúp một nhóm chuẩn bị buổi sinh hoạt, rồi thấy hụt hẫng vì ý mình không được chọn. Có thể việc giúp đã đi kèm điều kiện ngầm: người khác phải ưu tiên mình. Nhận ra điều ấy cho ta cơ hội hỏi lại mình đang muốn hỗ trợ việc chung hay tìm sự xác nhận.",
+            "Đây là liên hệ hiện đại với câu chuyện vua và người thợ gốm. Giúp đỡ vẫn cần trao đổi rõ nhu cầu, giới hạn và sự đồng ý; không dùng chuyện giữ tóc hay lấy mái xưởng làm phép chung để ép người hoặc tự ý dùng tài sản."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành do người biên soạn",
+          "meaningUnits": [
+            "first-visit",
+            "parents",
+            "supporter",
+            "enough"
+          ],
+          "paragraphs": [
+            "Chọn một trách nhiệm gần mình và thực hiện vừa sức. Trước khi giúp, hỏi điều bên kia thực sự cần; sau khi giúp, nhìn xem mình đang mong điều gì được đáp lại. Nếu có mong đợi, có thể nói rõ và suy xét nó.",
+            "Khi gặp một lời dạy mình đã vội chê, thử lắng nghe đủ trước khi quyết định. Việc kiểm lại thành kiến và biết đủ trong đời sống mở một hướng thực hành; các thành tựu sâu được kinh kể còn thuộc cả con đường tu học."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Người thợ gốm, lòng tin và sự biết đủ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Một người thợ gốm được nhớ đến",
+          "meaningUnits": [
+            "identity",
+            "setting"
+          ],
+          "paragraphs": [
+            "Kinh Ghaṭikāra, MN81, mở bằng lời người truyền kinh kể điều đã nghe. Đức Phật đang du hành giữa xứ Kosala, cùng Tăng chúng đông đảo. Tăng chúng ở đây là các tỳ-kheo, những người xuất gia tu học."
+          ]
+        },
+        {
+          "id": "smile",
+          "kind": "teaching",
+          "heading": "Câu hỏi về một nụ cười",
+          "meaningUnits": [
+            "smile"
+          ],
+          "paragraphs": [
+            "Ngài rời đường đi, đến một khoảng đất rồi mỉm cười. Ānanda nghĩ: do nhân gì, duyên gì có nụ cười ấy, bởi Như Lai không mỉm cười vô cớ? Như Lai là một danh xưng của Đức Phật.",
+            "Ông sửa y trên một vai, chắp tay hướng Ngài, rồi thưa câu hỏi mình vừa nghĩ. Một câu chuyện từ quá khứ được mở ra."
+          ]
+        },
+        {
+          "id": "ground",
+          "kind": "teaching",
+          "heading": "Khoảng đất từng có một tu viện",
+          "meaningUnits": [
+            "past-town",
+            "seat",
+            "past-repeated"
+          ],
+          "paragraphs": [
+            "Xưa kia, Đức Phật kể, ở đây là thị trấn Vegaḷiṅga, thịnh vượng, sung túc, đông dân và đông đúc. Đức Phật Kassapa sống nương thị trấn ấy. Ngài là bậc A-la-hán đã giải thoát, Chánh Đẳng Giác tự mình giác ngộ hoàn toàn. Đây từng là tu viện và chỗ Ngài ngồi dạy Tăng chúng.",
+            "Ānanda gấp y ngoài làm bốn, trải ra, thỉnh Đức Phật ngồi để mảnh đất được hai bậc A-la-hán Chánh Đẳng Giác sử dụng. Đức Phật ngồi xuống, nhắc lại thị trấn, tu viện và nơi giảng dạy ấy rồi kể tiếp."
+          ]
+        },
+        {
+          "id": "friend",
+          "kind": "teaching",
+          "heading": "Lời mời của người bạn thân",
+          "meaningUnits": [
+            "friends",
+            "first-invitations",
+            "river"
+          ],
+          "paragraphs": [
+            "Tại Vegaḷiṅga có thợ gốm Ghaṭikāra, người hộ độ hàng đầu của Kassapa. Hộ độ là giúp chăm lo các điều cần cho đời tu. Ông có bạn thân là thanh niên Jotipāla.",
+            "Ba lần ông mời bạn đến gặp Kassapa, nói được gặp Ngài là điều tốt lành. Ba lần Jotipāla từ chối và coi thường ông sa-môn trọc đầu ấy. Sa-môn là người sống đời tu. Ghaṭikāra bèn rủ bạn mang đồ tắm ra sông; bạn nhận lời, hai người cùng đi."
+          ]
+        },
+        {
+          "id": "insistence",
+          "kind": "teaching",
+          "heading": "Ở gần tu viện, lời mời được lặp lại",
+          "meaningUnits": [
+            "nearby-invitations",
+            "hem"
+          ],
+          "paragraphs": [
+            "Ghaṭikāra nói tu viện Kassapa không xa, lại mời đi gặp vì xem đó là tốt lành. Ba lần mời nữa vẫn được đáp bằng ba lời từ chối, khinh miệt.",
+            "Ông giữ vạt áo bạn, nhắc tu viện gần và lặp lời rủ. Jotipāla gỡ vạt áo, lại từ chối và nói gặp người tu ấy để làm gì."
+          ]
+        },
+        {
+          "id": "agreement",
+          "kind": "teaching",
+          "heading": "Thành kiến được đặt trước một sự tha thiết",
+          "meaningUnits": [
+            "hair",
+            "agree"
+          ],
+          "paragraphs": [
+            "Sau đó, Ghaṭikāra giữ tóc Jotipāla vừa gội và lại mời như trước. Jotipāla kinh ngạc: người thợ gốm mình coi thuộc tầng lớp thấp lại dám giữ tóc mình; hẳn việc này không tầm thường. Lời nghĩ ấy cho thấy thành kiến về thứ bậc của Jotipāla.",
+            "Anh hỏi có thật cần làm đến vậy không. Ghaṭikāra nói có, vì được gặp Kassapa là tốt lành. Jotipāla bảo hãy buông ra, chúng ta sẽ đi."
+          ]
+        },
+        {
+          "id": "listening",
+          "kind": "teaching",
+          "heading": "Cùng được khai mở bằng lời dạy",
+          "meaningUnits": [
+            "first-visit"
+          ],
+          "paragraphs": [
+            "Đến nơi, Ghaṭikāra đảnh lễ, cúi lạy kính chào, rồi ngồi bên; Jotipāla chào hỏi thân hữu rồi ngồi. Người thợ gốm giới thiệu bạn thân, xin Kassapa thuyết Pháp cho bạn. Pháp là lời dạy về tu học và giải thoát.",
+            "Kassapa khai mở, khuyến khích, cổ động và làm hoan hỷ cả hai. Cả hai vui lòng tán đồng, đứng dậy, đảnh lễ rồi ra đi, giữ bên phải hướng về Ngài."
+          ]
+        },
+        {
+          "id": "parents",
+          "kind": "teaching",
+          "heading": "Trách nhiệm của Ghaṭikāra",
+          "meaningUnits": [
+            "parents"
+          ],
+          "paragraphs": [
+            "Jotipāla hỏi vì sao bạn nghe lời dạy này mà không xuất gia. Ghaṭikāra đáp: bạn đã biết mình còn nuôi cha mẹ già mù. Ông ở lại với trách nhiệm ấy.",
+            "Jotipāla nói chính mình sẽ rời đời gia đình để xuất gia, sống không nhà. Hai người bạn có hai hoàn cảnh được kể rõ."
+          ]
+        },
+        {
+          "id": "ordination",
+          "kind": "teaching",
+          "heading": "Jotipāla bước vào đời xuất gia",
+          "meaningUnits": [
+            "ordination",
+            "journey"
+          ],
+          "paragraphs": [
+            "Họ lại đến, cùng đảnh lễ Kassapa rồi ngồi xuống. Ghaṭikāra giới thiệu bạn và xin Ngài cho xuất gia. Jotipāla được xuất gia, thọ cụ túc giới, chính thức nhận đầy đủ giới của tỳ-kheo.",
+            "Nửa tháng sau khi anh thọ giới, Kassapa rời Vegaḷiṅga sau thời gian ở đó như ý, du hành tuần tự tới Bārāṇasī. Ngài ở vườn Nai Isipatana."
+          ]
+        },
+        {
+          "id": "royal-visit",
+          "kind": "teaching",
+          "heading": "Nhà vua đến nghe Pháp",
+          "meaningUnits": [
+            "royal-visit"
+          ],
+          "paragraphs": [
+            "Vua Kikī xứ Kāsi nghe tin, sửa soạn các cỗ xe tốt, đi với uy nghi của vua. Vua đi xe đến nơi còn được dùng xe, rồi xuống đi bộ. Đến gặp Kassapa, vua đảnh lễ rồi ngồi một bên.",
+            "Ngài dùng Pháp thoại khai mở, khuyến khích, cổ động, làm vua hoan hỷ. Vua thỉnh Ngài cùng Tăng chúng dùng bữa ngày mai. Kassapa im lặng nhận lời. Vua biết, đứng dậy, đảnh lễ rồi đi, giữ bên phải hướng về Ngài."
+          ]
+        },
+        {
+          "id": "meal",
+          "kind": "teaching",
+          "heading": "Bữa cơm được dâng bằng chính tay vua",
+          "meaningUnits": [
+            "food"
+          ],
+          "paragraphs": [
+            "Hôm sau, vua dọn các món cứng và mềm ngon lành, cơm gạo vàng nhạt đã nhặt sạch hạt đen, các món canh và đồ ăn kèm. Vua cho báo giờ đã đến, bữa ăn sẵn sàng.",
+            "Kassapa đắp y, mang theo bát và y cùng Tăng chúng tới, ngồi chỗ đã dọn. Vua tự tay dâng thức ăn, mời các tỳ-kheo có Ngài đứng đầu dùng cho đầy đủ. Ngài dùng xong, tay rời bát; vua lấy ghế thấp ngồi bên."
+          ]
+        },
+        {
+          "id": "refusal",
+          "kind": "teaching",
+          "heading": "Ba lần thỉnh an cư",
+          "meaningUnits": [
+            "rains",
+            "king-upset"
+          ],
+          "paragraphs": [
+            "Vua xin Kassapa ở Bārāṇasī trong mùa mưa, hứa hộ độ Tăng chúng như thế. Ngài đáp đã nhận lời an cư rồi. Lần thứ hai, lần thứ ba, vua vẫn mời và được trả lời như vậy.",
+            "Vua nghĩ lời thỉnh mình không được nhận nên thất vọng, buồn rầu. Ông hỏi có người nào hộ độ Ngài tốt hơn mình không."
+          ]
+        },
+        {
+          "id": "support",
+          "kind": "teaching",
+          "heading": "Sự vững chãi của người thợ gốm",
+          "meaningUnits": [
+            "supporter"
+          ],
+          "paragraphs": [
+            "Kassapa nói đến Ghaṭikāra ở Vegaḷiṅga: ông là người hộ độ hàng đầu. Ngài nhắc sự buồn bực của vua vì lời thỉnh an cư vừa bị từ chối.",
+            "Điều ấy không có và sẽ không có nơi Ghaṭikāra. Lời so sánh gắn với đúng lý do vừa nêu; sự hộ độ nơi ông không đi cùng đòi hỏi phải được nhận lời mời."
+          ]
+        },
+        {
+          "id": "faith",
+          "kind": "teaching",
+          "heading": "Nương tựa và thực hành giới hạnh",
+          "meaningUnits": [
+            "refuge-precepts",
+            "confidence"
+          ],
+          "paragraphs": [
+            "Ghaṭikāra quy y, nương theo Phật, Pháp và Tăng. Ông từ bỏ sát sinh, lấy của không cho, tà hạnh trong dục, tức làm sai trong quan hệ tình dục, nói dối, rượu và chất say đưa tới buông lung.",
+            "Ông có niềm tin không lay chuyển đối với từng Phật, Pháp, Tăng, cùng những giới được bậc Thánh quý trọng. Ông không nghi ngờ khổ, nguồn gốc khổ, sự chấm dứt khổ và con đường dẫn tới chấm dứt khổ."
+          ]
+        },
+        {
+          "id": "simplicity",
+          "kind": "teaching",
+          "heading": "Nếp sống của Ghaṭikāra",
+          "meaningUnits": [
+            "simple-life"
+          ],
+          "paragraphs": [
+            "Kassapa kể ông ăn một bữa mỗi ngày, sống phạm hạnh, ở đây giữ đời sống thanh tịnh không quan hệ tình dục, có giới hạnh và phẩm chất lành. Ông từ bỏ ngọc và vàng, không dùng vàng bạc.",
+            "Ông đặt cuốc xuống, không tự tay đào đất. Các chi tiết ấy nằm trong lời kể về nếp sống mà người thợ gốm thực hành."
+          ]
+        },
+        {
+          "id": "pottery",
+          "kind": "teaching",
+          "heading": "Làm gốm, nuôi cha mẹ và tu học",
+          "meaningUnits": [
+            "pottery",
+            "attainment"
+          ],
+          "paragraphs": [
+            "Ông lấy đất bờ sông sạt xuống hoặc chuột đào lên, dùng đòn gánh mang về làm đồ gốm. Ai muốn lấy vật có thể để lại túi gạo, đậu xanh hoặc loại đậu kaḷāya, rồi mang vật mình muốn đi. Ông nuôi cha mẹ già mù.",
+            "Kassapa nói năm hạ phần kiết sử, một nhóm ràng buộc tâm, đã chấm dứt nơi ông. Ông sẽ hóa sinh, tức tái sinh bằng sự xuất hiện tự nhiên, rồi tịch diệt ở nơi ấy, chấm dứt hoàn toàn sự tiếp tục sinh tử, không quay trở lại. Trách nhiệm tại gia và thành tựu tu học sâu cùng được giữ trong chân dung này."
+          ]
+        },
+        {
+          "id": "meals",
+          "kind": "teaching",
+          "heading": "Hai lần vui vì được tin cậy",
+          "meaningUnits": [
+            "rice-meal",
+            "porridge-meal"
+          ],
+          "paragraphs": [
+            "Kassapa kể vua một lần ở thị trấn ấy: sáng Ngài mang y bát đến hỏi cha mẹ Ghaṭikāra xem ông đi đâu. Họ nói ông ra ngoài, mời Ngài dùng cơm trong nồi, canh trong chảo. Ngài ăn xong, đứng dậy rồi đi. Ông về hỏi ai đã dùng, cha mẹ nói Kassapa. Ông vui vì thấy mình may mắn được Ngài tin tưởng. Hỷ lạc, niềm vui và an lạc, không rời ông nửa tháng, cha mẹ bảy ngày.",
+            "Một lần khác, Ngài cũng đến buổi sáng, được cha mẹ mời dùng cháo thô trong hũ và canh trong chảo khi Ghaṭikāra đi vắng. Ngài dùng xong rồi đi. Ông về hỏi và được trả lời, lại vui vì được tin cậy. Cũng nửa tháng hỷ lạc nơi ông, bảy ngày nơi cha mẹ."
+          ]
+        },
+        {
+          "id": "roof",
+          "kind": "teaching",
+          "heading": "Khi cốc của Kassapa bị dột",
+          "meaningUnits": [
+            "roof-request",
+            "parents-consent"
+          ],
+          "paragraphs": [
+            "Lần nữa, cốc, chỗ ở của Kassapa, bị dột. Ngài bảo các tỳ-kheo đến nhà thợ gốm tìm cỏ. Họ thưa không có cỏ sẵn, nhưng mái xưởng gốm được lợp cỏ. Ngài bảo tháo cỏ mái xưởng và họ làm.",
+            "Cha mẹ Ghaṭikāra hỏi ai đang tháo. Các vị đáp là tỳ-kheo, vì cốc Kassapa dột. Cha mẹ hai lần bảo cứ lấy đi, với lời kính mến các vị."
+          ]
+        },
+        {
+          "id": "roof-joy",
+          "kind": "teaching",
+          "heading": "Lại một lần được tin tưởng",
+          "meaningUnits": [
+            "roof-joy",
+            "rain"
+          ],
+          "paragraphs": [
+            "Ghaṭikāra về hỏi ai tháo mái; cha mẹ nói các tỳ-kheo và kể lý do. Ông lại nghĩ mình may mắn vì Kassapa tin cậy đến vậy. Niềm vui ở với ông nửa tháng, với cha mẹ bảy ngày.",
+            "Kinh kể xưởng gốm lấy bầu trời làm mái trọn ba tháng mà mưa không rơi xuống đó. Kassapa kết lời mô tả thợ gốm. Vua tán thán ông may mắn vì được Ngài tin cậy."
+          ]
+        },
+        {
+          "id": "enough",
+          "kind": "teaching",
+          "heading": "Một câu trả lời biết đủ",
+          "meaningUnits": [
+            "royal-gift",
+            "enough"
+          ],
+          "paragraphs": [
+            "Đức Phật tiếp tục kể với Ānanda: vua Kikī cho gửi khoảng năm trăm xe gạo sāli màu vàng nhạt và các thứ nấu canh đến Ghaṭikāra. Những người của vua trao lời xin nhận.",
+            "Ông nói nhà vua có nhiều phận sự, nhiều việc phải làm. Mình đã đủ; xin để các thứ ấy cho nhà vua. Sự biết đủ được thể hiện bằng một lựa chọn ngay trước món quà lớn."
+          ]
+        },
+        {
+          "id": "end",
+          "kind": "teaching",
+          "heading": "Jotipāla trong lời kể của Đức Phật",
+          "meaningUnits": [
+            "revelation",
+            "ending"
+          ],
+          "paragraphs": [
+            "Đức Phật nói: Ānanda có thể nghĩ Jotipāla thuở ấy là người khác, nhưng chớ nghĩ vậy. Chính Ngài khi ấy là thanh niên Jotipāla.",
+            "Ānanda hoan hỷ và tán đồng. Kinh Ghaṭikāra kết thúc, ghi là bài thứ nhất trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Liên hệ biên soạn: một món quà vừa nhu cầu",
+          "meaningUnits": [
+            "enough",
+            "supporter"
+          ],
+          "paragraphs": [
+            "Trong một nhóm bạn, có người muốn tặng mình thêm đồ dùng. Nếu đã đủ, ta có thể cảm ơn và nói rõ nhu cầu hiện tại, để người bạn dành sự giúp đỡ cho việc khác họ còn phải lo. Lời từ chối vẫn có thể ấm áp và tôn trọng.",
+            "Đây là liên hệ về biết đủ và nhìn thấy trách nhiệm của người khác. Nó không phải lời hứa rằng cho đi sẽ có điều kỳ diệu về thời tiết, cũng không cho phép tự lấy đồ hay ép người khác theo ý mình từ các chi tiết của chuyện xưa."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành do người biên soạn",
+          "meaningUnits": [
+            "parents",
+            "supporter",
+            "first-visit",
+            "enough"
+          ],
+          "paragraphs": [
+            "Có thể chọn một việc chăm lo người thân hoặc cộng đồng trong khả năng. Hỏi xem điều gì thực sự cần, rồi nhìn lại mình có mong được đáp ứng một yêu cầu riêng vì đã giúp hay không.",
+            "Cũng thử để một nhận xét vội được chậm lại: nghe thêm trước khi kết luận về một người hoặc lời dạy. Sự lắng nghe và biết đủ có thể được tập ngay hôm nay; giải thoát trong kinh còn là thành tựu của cả đời tu học."
+          ]
+        }
+      ]
+    }
+  }
+}

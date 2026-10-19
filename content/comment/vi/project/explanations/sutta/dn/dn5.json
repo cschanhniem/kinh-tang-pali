@@ -1,0 +1,1906 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn5",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "c508d28e58ac67b823a36bedddf802958d280fe1e2015df8e4077e7adcbd45c2"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "ff1b25e36ede8af6f12331a321fa734f8565c9c68d09aa644bb9bd4cb278578b"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/dn/dn5_translation-vi-project.json",
+      "commit": "a0408ff8d814d796c8b1cf0bbda5dbfaa2849820",
+      "sha256": "adfdfa6bef0455cf383551c5a4b76564ded54ab5d4ceb8dda8dca79cecfd3126"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn5.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "3e365dcfbcc879e95d556b1ceefb1bc7d81eeef930e6a79e5339e83aa3b098fd"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/dn/dn5_comment-vi-project.json",
+      "commit": "a0408ff8d814d796c8b1cf0bbda5dbfaa2849820",
+      "sha256": "1a6f16e8721e48ce313568c6c02ef3a6e9db82277ce08169b757c195d8ef1387"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Tên kinh và đề mục đầu",
+      "segments": [
+        "dn5:0.1",
+        "dn5:0.2",
+        "dn5:1.0"
+      ],
+      "summary": "Nhãn Trường Bộ 5, Kūṭadantasutta, cùng đề mục các Bà-la-môn và gia chủ Khāṇumata. Phân biệt đề mục ấn bản với lời đối thoại."
+    },
+    {
+      "id": "setting",
+      "title": "Phật đến Khāṇumata",
+      "segments": [
+        "dn5:1.1",
+        "dn5:1.2",
+        "dn5:1.3",
+        "dn5:1.4"
+      ],
+      "summary": "Lời truyền nghe: Phật du hành Magadha với khoảng 500 tỳ-kheo, đến làng Bà-la-môn Khāṇumata, ở Ambalaṭṭhikā. Kūṭadanta ở làng đông dân, đủ cỏ/củi/nước/lúa, lãnh địa vua Seniya Bimbisāra ban cho Bà-la-môn."
+    },
+    {
+      "id": "animals",
+      "title": "Năm nhóm vật tế",
+      "segments": [
+        "dn5:1.5",
+        "dn5:1.6"
+      ],
+      "summary": "Đại tế lễ đang chuẩn bị; 700 bò đực trưởng thành, 700 bò đực non, 700 bò cái non, 700 dê, 700 cừu được dẫn tới cọc tế. Không nhập ba nhóm bò hoặc bỏ một nhóm ở cuối bài."
+    },
+    {
+      "id": "reputation",
+      "title": "Dân làng muốn gặp Phật",
+      "segments": [
+        "dn5:2.1",
+        "dn5:2.2",
+        "dn5:2.3",
+        "dn5:2.4",
+        "dn5:2.5",
+        "dn5:2.6",
+        "dn5:2.7",
+        "dn5:2.8"
+      ],
+      "summary": "Dân nghe Gotama dòng Sakya xuất gia, cùng khoảng 500 vị đến Ambalaṭṭhikā. Đủ danh hiệu; tự chứng biết thế giới trời/Māra/Phạm thiên, sa-môn/Bà-la-môn/trời/người rồi tuyên thuyết; Pháp đầu/giữa/cuối tốt, văn nghĩa đầy đủ, phạm hạnh toàn vẹn. Họ nghĩ gặp bậc ấy là tốt và tụ đoàn đi."
+    },
+    {
+      "id": "messenger",
+      "title": "Hỏi người quản gia",
+      "segments": [
+        "dn5:3.1",
+        "dn5:3.2",
+        "dn5:3.3",
+        "dn5:3.4",
+        "dn5:3.5",
+        "dn5:3.6",
+        "dn5:3.7",
+        "dn5:3.8"
+      ],
+      "summary": "Kūṭadanta nghỉ trưa trên tầng cao, thấy dân đi, hỏi quản gia. Người ấy kể việc Gotama cùng khoảng 500 tỳ-kheo đến, nơi trú và lặp đầy đủ danh hiệu, giải thích họ đi gặp Ngài."
+    },
+    {
+      "id": "intention",
+      "title": "Muốn hỏi ba phương diện, mười sáu điều kiện",
+      "segments": [
+        "dn5:4.1",
+        "dn5:4.2",
+        "dn5:4.3",
+        "dn5:4.4",
+        "dn5:4.5",
+        "dn5:4.6",
+        "dn5:4.7",
+        "dn5:4.8",
+        "dn5:4.9",
+        "dn5:4.10",
+        "dn5:4.11",
+        "dn5:4.12",
+        "dn5:4.13"
+      ],
+      "summary": "Kūṭadanta đã nghe Gotama biết tế lễ ba phương diện/mười sáu điều kiện, mình chưa biết và muốn đại tế nên định hỏi. Ông sai quản gia nhắn dân chờ để cùng đi; người ấy vâng và thực chuyển lời, cả hai khóa Anh để trống vẫn có trong Pāli."
+    },
+    {
+      "id": "visitors",
+      "title": "Những người đến dự lễ can ngăn",
+      "segments": [
+        "dn5:5.0",
+        "dn5:5.1",
+        "dn5:5.2",
+        "dn5:5.3",
+        "dn5:5.4",
+        "dn5:5.5",
+        "dn5:5.6",
+        "dn5:5.7",
+        "dn5:5.8"
+      ],
+      "summary": "Đề mục đức Kūṭadanta. Nhiều trăm Bà-la-môn đang ở làng để dự đại tế, nghe ý định, đến hỏi có thật không; ông xác nhận. Không nhầm số này với khoảng 500 tỳ-kheo."
+    },
+    {
+      "id": "rank",
+      "title": "Tranh luận ai nên đến ai",
+      "segments": [
+        "dn5:6.1",
+        "dn5:6.2",
+        "dn5:6.3",
+        "dn5:6.4",
+        "dn5:6.5"
+      ],
+      "summary": "Nhóm khuyên đừng đi, cho rằng đến Gotama sẽ giảm danh Kūṭadanta và tăng danh Gotama, nên Gotama phải đến ông. Giữ là lập luận của nhóm."
+    },
+    {
+      "id": "learning",
+      "title": "Dòng dõi, tiền của và ba Veda",
+      "segments": [
+        "dn5:6.6",
+        "dn5:6.7",
+        "dn5:6.8",
+        "dn5:6.9",
+        "dn5:6.10"
+      ],
+      "summary": "Họ nhắc dòng dõi cha mẹ sạch đến bảy đời tổ phụ; giàu vàng bạc; tụng nhớ ba Veda cùng từ vựng/nghi lễ/ngữ âm/phân tích từ, lịch sử truyền thống thứ năm, từng từ/ngữ pháp, thế luận/tướng đại nhân. EN 6.9 đọc tiền/lúa, Pāli là vàng/bạc."
+    },
+    {
+      "id": "brahmin-qualities",
+      "title": "Giới hạnh, lời nói, tuổi và uy tín",
+      "segments": [
+        "dn5:6.11",
+        "dn5:6.12",
+        "dn5:6.13",
+        "dn5:6.14",
+        "dn5:6.15",
+        "dn5:6.16",
+        "dn5:6.17",
+        "dn5:6.18"
+      ],
+      "summary": "Ngoại hình đẹp/rạng/cao quý; giới vững; lời tao nhã rõ lưu loát truyền nghĩa; thầy của thầy, dạy 300 thanh niên nhiều nơi đến học chú. Nhóm lấy tuổi cao so với Gotama trẻ/mới xuất gia, và nhắc Bimbisāra cùng Pokkharasāti kính ông."
+    },
+    {
+      "id": "land",
+      "title": "Nhắc lại lãnh địa",
+      "segments": [
+        "dn5:6.19",
+        "dn5:6.20",
+        "dn5:6.21"
+      ],
+      "summary": "Nhóm lại kể Khāṇumata đông dân, đủ cỏ/củi/nước/lúa, ân tứ Bimbisāra; qua đó kết luận Gotama nên đến ông, không ngược lại."
+    },
+    {
+      "id": "renunciation",
+      "title": "Kūṭadanta ca ngợi việc xuất gia",
+      "segments": [
+        "dn5:7.0",
+        "dn5:7.1",
+        "dn5:7.2",
+        "dn5:7.3",
+        "dn5:7.4",
+        "dn5:7.5",
+        "dn5:7.6",
+        "dn5:7.7",
+        "dn5:7.8",
+        "dn5:7.9",
+        "dn5:7.10"
+      ],
+      "summary": "Đề mục đức Phật. Ông đáp họ nên đến: Gotama dòng dõi hai bên/bảy đời, từ bỏ đại gia đình và vàng bạc trên/dưới đất, ra đi khi tóc đen còn trẻ; dù cha mẹ không muốn và khóc, vẫn cạo râu tóc khoác cà-sa, sống không nhà."
+    },
+    {
+      "id": "conduct",
+      "title": "Giới, lời nói và quan điểm hành động",
+      "segments": [
+        "dn5:7.11",
+        "dn5:7.12",
+        "dn5:7.13",
+        "dn5:7.14",
+        "dn5:7.15",
+        "dn5:7.16",
+        "dn5:7.17",
+        "dn5:7.18"
+      ],
+      "summary": "Kể dung sắc; giới thánh/thiện; lời rõ truyền nghĩa; thầy của thầy; tận dục tham/không phóng túng; nói về nghiệp và hành động, không chủ trương hại cộng đồng Bà-la-môn; xuất thân Sát-đế-lợi không pha và nhà giàu. Không nhận lời tán thán giai cấp làm chuẩn giá trị người."
+    },
+    {
+      "id": "influence",
+      "title": "Tiếng lành và hội chúng",
+      "segments": [
+        "dn5:7.19",
+        "dn5:7.20",
+        "dn5:7.21",
+        "dn5:7.22",
+        "dn5:7.23",
+        "dn5:7.24",
+        "dn5:7.25",
+        "dn5:7.26",
+        "dn5:7.27",
+        "dn5:7.28",
+        "dn5:7.29"
+      ],
+      "summary": "Người nhiều nước/xứ đến hỏi; nhiều ngàn thiên quy y trọn đời; lặp danh hiệu; 32 tướng; niềm nở/thân thiện/lịch sự/tươi cười/cởi mở/chào trước; bốn hội chúng tôn kính; trời người tin; phi nhân không quấy người nơi ở; dẫn Tăng/hội chúng, đứng đầu các giáo tổ, danh nhờ minh hạnh tối thượng không phải cách này khác."
+    },
+    {
+      "id": "supporters",
+      "title": "Ba người cùng gia đình quy y",
+      "segments": [
+        "dn5:7.30",
+        "dn5:7.31",
+        "dn5:7.32",
+        "dn5:7.33",
+        "dn5:7.34",
+        "dn5:7.35"
+      ],
+      "summary": "Bimbisāra, Pasenadi và Pokkharasāti cùng con/vợ/hội chúng/quan tùy thuộc đều trọn đời quy y. Sau đó nêu riêng cả ba kính trọng Gotama. Không gọi vợ/con Pokkharasāti là cung phi/vương tử theo HTML."
+    },
+    {
+      "id": "hospitality",
+      "title": "Tôn trọng vị khách và cùng đi",
+      "segments": [
+        "dn5:7.36",
+        "dn5:7.37",
+        "dn5:7.38",
+        "dn5:7.39",
+        "dn5:7.40",
+        "dn5:7.41",
+        "dn5:7.42",
+        "dn5:7.43",
+        "dn5:7.44",
+        "dn5:7.45",
+        "dn5:7.46",
+        "dn5:7.47"
+      ],
+      "summary": "Sa-môn/Bà-la-môn tới địa phương là khách nên kính; Gotama đang ở Ambalaṭṭhikā, áp dụng riêng nguyên tắc ấy; ông nói điều mình nhớ chưa hết đức vô lượng. Nhóm nhận dù xa 100 do-tuần người con nhà lành có lòng tin cũng đáng mang lương thực tới; cùng đi."
+    },
+    {
+      "id": "meeting",
+      "title": "Năm cách ngồi vào hội",
+      "segments": [
+        "dn5:8.0",
+        "dn5:8.1",
+        "dn5:8.2",
+        "dn5:8.3"
+      ],
+      "summary": "Đề mục chuyện Mahāvijita. Kūṭadanta cùng đông Bà-la-môn đến chào hỏi Phật và ngồi. Dân có người lễ/chào hỏi/chắp tay/xưng tên họ/im lặng rồi ngồi bên."
+    },
+    {
+      "id": "request",
+      "title": "Hỏi chính thức về lễ tế",
+      "segments": [
+        "dn5:9.1",
+        "dn5:9.2",
+        "dn5:9.3",
+        "dn5:9.4",
+        "dn5:9.5",
+        "dn5:9.6",
+        "dn5:9.7",
+        "dn5:9.8",
+        "dn5:9.9"
+      ],
+      "summary": "Ông nói mình nghe Gotama biết ba phương diện/mười sáu điều kiện, chưa biết, muốn đại tế nên xin dạy. Phật bảo nghe/khéo chú tâm, ông vâng, Ngài kể."
+    },
+    {
+      "id": "king",
+      "title": "Vua Mahāvijita xin lời khuyên",
+      "segments": [
+        "dn5:10.1",
+        "dn5:10.2",
+        "dn5:10.3",
+        "dn5:10.4",
+        "dn5:10.5",
+        "dn5:10.6",
+        "dn5:10.7",
+        "dn5:10.8"
+      ],
+      "summary": "Vua xưa giàu vàng bạc/tài sản/vật dụng/tiền/lúa/kho tàng, đã chinh phục và cai quản đất rộng. Ở riêng nghĩ tổ chức đại tế vì lợi ích/an lạc lâu dài; gọi tế sư, thuật lại suy nghĩ và xin chỉ cách có lợi lâu dài."
+    },
+    {
+      "id": "unrest",
+      "title": "Thu thuế và trừng phạt trong nước bất an",
+      "segments": [
+        "dn5:11.1",
+        "dn5:11.2",
+        "dn5:11.3",
+        "dn5:11.4",
+        "dn5:11.5",
+        "dn5:11.6"
+      ],
+      "summary": "Tế sư nêu nạn cướp làng/thị trấn/thành phố/đường; thu thuế lúc ấy là không nên. Xử tử/giam/tịch thu/khiển trách/trục xuất không nhổ tận nạn cướp: kẻ sống sót lại quấy nước. Đây là lời trong câu chuyện, không tự thêm mô hình kinh tế hiện đại."
+    },
+    {
+      "id": "livelihood",
+      "title": "Ba cách hỗ trợ sinh kế",
+      "segments": [
+        "dn5:11.7",
+        "dn5:11.8",
+        "dn5:11.9",
+        "dn5:11.10",
+        "dn5:11.11",
+        "dn5:11.12",
+        "dn5:11.13"
+      ],
+      "summary": "Cho người làm nông/chăn nuôi hạt giống+lương thực; người buôn vốn; người phục vụ triều đình lương thực+tiền lương. Họ chuyên việc, không quấy nước, nguồn thu tăng; nước yên, dân vui bế con trước ngực nhảy múa, ở như nhà cửa mở."
+    },
+    {
+      "id": "result",
+      "title": "Nhà vua thực làm và báo kết quả",
+      "segments": [
+        "dn5:11.14",
+        "dn5:11.15",
+        "dn5:11.16",
+        "dn5:11.17",
+        "dn5:11.18",
+        "dn5:11.19",
+        "dn5:11.20",
+        "dn5:11.21",
+        "dn5:11.22",
+        "dn5:11.23"
+      ],
+      "summary": "Vua vâng, thực hiện đủ ba khoản; kể đủ việc chuyên nghề/không quấy/tăng thu/nước yên/dân vui/cửa mở; vua gọi tế sư xác nhận hiệu quả rồi lại xin lời khuyên để đại tế đem lợi lâu dài. EN lược nhiều khóa thực hiện."
+    },
+    {
+      "id": "consent",
+      "title": "Bốn nhóm đồng thuận",
+      "segments": [
+        "dn5:12.0",
+        "dn5:12.1",
+        "dn5:12.2",
+        "dn5:12.3",
+        "dn5:12.4",
+        "dn5:12.5",
+        "dn5:12.6",
+        "dn5:12.7",
+        "dn5:12.8",
+        "dn5:12.9"
+      ],
+      "summary": "Đề mục bốn điều kiện. Tế sư bảo xin phép bốn nhóm ở cả thành thị/nông thôn: Sát-đế-lợi chư hầu; đại thần/thành viên hội đồng; Bà-la-môn giàu; gia chủ giàu. Vua thực hỏi vì lợi lâu dài, các nhóm đều nhận đúng lúc để lễ. Bốn phía đồng thuận thành bốn điều kiện."
+    },
+    {
+      "id": "king-eight",
+      "title": "Tám phẩm chất của vua",
+      "segments": [
+        "dn5:13.0",
+        "dn5:13.1",
+        "dn5:13.2",
+        "dn5:13.3",
+        "dn5:13.4",
+        "dn5:13.5",
+        "dn5:13.6",
+        "dn5:13.7",
+        "dn5:13.8",
+        "dn5:13.9",
+        "dn5:13.10",
+        "dn5:13.11"
+      ],
+      "summary": "Đề mục tám điều kiện. Đủ 8: dòng dõi cha mẹ/bảy đời; ngoại hình; giàu đầy vàng bạc/vật dụng/tiền lúa/kho; quân bốn binh chủng nghe lệnh, dường như có thể khuất phục địch chỉ bằng uy danh; tín tâm/bố thí/cửa mở như giếng cho sa-môn/Bà-la-môn/nghèo/lữ khách/lang thang/xin ăn; học rộng; hiểu nghĩa lời; trí xét quá khứ/tương lai/hiện tại. Không nhập học và hiểu thành một."
+    },
+    {
+      "id": "priest-four",
+      "title": "Bốn phẩm chất của tế sư",
+      "segments": [
+        "dn5:14.0",
+        "dn5:14.1",
+        "dn5:14.2",
+        "dn5:14.3",
+        "dn5:14.4",
+        "dn5:14.5",
+        "dn5:14.6",
+        "dn5:14.7"
+      ],
+      "summary": "Đề mục bốn điều kiện nữa. Đủ dòng dõi hai bên/bảy đời; tụng nhớ ba Veda và toàn bộ môn đã nêu; giới trưởng thành; trí thông minh, thứ nhất hoặc thứ hai người cầm muỗng tế. Chúng thuộc mười sáu điều kiện, không mười sáu lễ vật."
+    },
+    {
+      "id": "three",
+      "title": "Ba thời không tiếc của",
+      "segments": [
+        "dn5:15.0",
+        "dn5:15.1",
+        "dn5:15.2",
+        "dn5:15.3",
+        "dn5:15.4",
+        "dn5:15.5",
+        "dn5:15.6",
+        "dn5:15.7",
+        "dn5:15.8"
+      ],
+      "summary": "Trước đại tế, tế sư dạy ba phương diện: không tiếc tài sản sắp hao trước lễ, đang hao trong lễ, đã hao sau lễ. Giữ ba thì rõ, không dạy cho vượt khả năng hay dùng của bất chính."
+    },
+    {
+      "id": "ten",
+      "title": "Mười cặp nơi người nhận",
+      "segments": [
+        "dn5:16.0",
+        "dn5:16.1",
+        "dn5:16.2",
+        "dn5:16.3",
+        "dn5:16.4",
+        "dn5:16.5",
+        "dn5:16.6",
+        "dn5:16.7",
+        "dn5:16.8",
+        "dn5:16.9",
+        "dn5:16.10",
+        "dn5:16.11",
+        "dn5:16.12",
+        "dn5:16.13",
+        "dn5:16.14",
+        "dn5:16.15",
+        "dn5:16.16"
+      ],
+      "summary": "Trước lễ hóa giải hối tiếc về người nhận bằng 10 cặp: sát sinh/không; lấy không cho/không; tà hạnh/không; dối/không; chia rẽ/không; thô ác/không; phù phiếm/không; tham muốn/không; sân/không; tà kiến/chánh kiến. Người làm bất thiện chịu việc mình; hướng tới người thiện để vua tế/xả/hoan hỷ/tâm trong sáng, không đổi chủ thể thành người nhận."
+    },
+    {
+      "id": "assurance-four",
+      "title": "Bốn lý do an tâm về đồng thuận",
+      "segments": [
+        "dn5:17.0",
+        "dn5:17.1",
+        "dn5:17.2",
+        "dn5:17.3",
+        "dn5:17.4",
+        "dn5:17.5",
+        "dn5:17.6",
+        "dn5:17.7",
+        "dn5:17.8",
+        "dn5:17.9",
+        "dn5:17.10",
+        "dn5:17.11",
+        "dn5:17.12"
+      ],
+      "summary": "Trong lễ, tế sư chỉ dạy/khích lệ/phấn chấn/hoan hỷ theo16phương diện. Bốn giả định ai chê chưa hỏi bốn nhóm đều không có cơ sở vì vua đã hỏi; biết điều ấy để tế, xả, vui và tịnh tâm."
+    },
+    {
+      "id": "assurance-eight",
+      "title": "Tám lý do an tâm về vua",
+      "segments": [
+        "dn5:17.13",
+        "dn5:17.14",
+        "dn5:17.15",
+        "dn5:17.16",
+        "dn5:17.17",
+        "dn5:17.18",
+        "dn5:17.19",
+        "dn5:17.20",
+        "dn5:17.21",
+        "dn5:17.22",
+        "dn5:17.23",
+        "dn5:17.24",
+        "dn5:17.25",
+        "dn5:17.26",
+        "dn5:17.27",
+        "dn5:17.28",
+        "dn5:17.29"
+      ],
+      "summary": "Lần lượt giả định lời chê vua thiếu tám phẩm chất: dòng dõi, đẹp, giàu, quân lực, tín/thí, học, hiểu lời, xét ba thời. Không có cơ sở vì vua có; tế sư nhắc biết sự thật để tế/xả/vui/trong sáng, không dạy bỏ qua mọi chỉ trích."
+    },
+    {
+      "id": "assurance-priest",
+      "title": "Bốn lý do an tâm về tế sư",
+      "segments": [
+        "dn5:17.30",
+        "dn5:17.31",
+        "dn5:17.32",
+        "dn5:17.33",
+        "dn5:17.34",
+        "dn5:17.35",
+        "dn5:17.36",
+        "dn5:17.37",
+        "dn5:17.38",
+        "dn5:17.39",
+        "dn5:17.40",
+        "dn5:17.41",
+        "dn5:17.42",
+        "dn5:17.43",
+        "dn5:17.44",
+        "dn5:17.45"
+      ],
+      "summary": "Lần lượt lời chê tế sư thiếu dòng dõi/đủ Veda/giới/trí nhất nhì muỗng tế đều không có cơ sở vì đã đủ. Lặp lời tế/xả/vui/trong sáng. Kết16phương diện chỉ dạy/khích lệ/phấn chấn/hoan hỷ."
+    },
+    {
+      "id": "nonharm",
+      "title": "Lễ không sát hại hay cưỡng bức",
+      "segments": [
+        "dn5:18.1",
+        "dn5:18.2",
+        "dn5:18.3",
+        "dn5:18.4",
+        "dn5:18.5"
+      ],
+      "summary": "Không giết bò/dê/cừu/gà/heo/sinh vật khác, không chặt cây làm cọc/cắt cỏ rải. Nô bộc/phục vụ/công nhân không bị gậy/đe dọa/sợ/khóc mà làm; muốn tham gia thì làm, không muốn thì thôi; chọn việc muốn, không làm việc không muốn. Chỉ dùng bơ sữa/dầu/bơ tươi/sữa đông/mật ong/mật mía, đủ sáu."
+    },
+    {
+      "id": "offered-wealth",
+      "title": "Vua từ chối tiền của được dâng",
+      "segments": [
+        "dn5:19.1",
+        "dn5:19.2",
+        "dn5:19.3",
+        "dn5:19.4",
+        "dn5:19.5",
+        "dn5:19.6",
+        "dn5:19.7"
+      ],
+      "summary": "Bốn nhóm cả đô thị/nông thôn đem của dâng riêng vua. Vua đã đủ tài sản từ thuế đúng pháp, bảo giữ và lấy thêm của vua. Họ lui, thấy đem về không thích hợp, muốn cùng làm lễ theo vua."
+    },
+    {
+      "id": "four-directions",
+      "title": "Bốn phía bố thí",
+      "segments": [
+        "dn5:20.1",
+        "dn5:20.2",
+        "dn5:20.3",
+        "dn5:20.4"
+      ],
+      "summary": "Sát-đế-lợi chư hầu phía đông, đại thần/hội đồng nam, Bà-la-môn giàu tây, gia chủ giàu bắc khu lễ; mỗi nhóm cả thành thị/nông thôn. Giữ đúng nhóm-phương."
+    },
+    {
+      "id": "sum",
+      "title": "Lễ phụ cũng không hại và tổng kết",
+      "segments": [
+        "dn5:20.5",
+        "dn5:20.6",
+        "dn5:20.7",
+        "dn5:20.8",
+        "dn5:20.9",
+        "dn5:20.10",
+        "dn5:20.11",
+        "dn5:20.12"
+      ],
+      "summary": "Lặp đủ không sát bò/dê/cừu/gà/heo/vật khác, không chặt cây/cỏ, người làm không bị ép/khóc và cả quyền không tham gia/không làm việc không muốn; sáu vật phẩm. Tổng4đồng thuận+8vua+4tếsư=16, với3phương diện; gọi lễ thành tựu ba/mười sáu."
+    },
+    {
+      "id": "silent",
+      "title": "Kūṭadanta im lặng để suy xét",
+      "segments": [
+        "dn5:21.1",
+        "dn5:21.2",
+        "dn5:21.3",
+        "dn5:21.4",
+        "dn5:21.5",
+        "dn5:21.6",
+        "dn5:21.7",
+        "dn5:21.8",
+        "dn5:21.9",
+        "dn5:21.10",
+        "dn5:21.11",
+        "dn5:21.12",
+        "dn5:21.13",
+        "dn5:21.14"
+      ],
+      "summary": "Nhóm lớn tiếng khen, ông im. Hỏi vì sao, ông phủ nhận không tán thán, nói người không khen đầu hẳn vỡ, giữ là lời ông. Ông nhận Gotama kể “lúc ấy đã vậy”, không nói nghe kể hay phỏng đoán, suy chắc từng là vua hoặc tế sư."
+    },
+    {
+      "id": "remembering",
+      "title": "Phật nhận từng là tế sư",
+      "segments": [
+        "dn5:21.15",
+        "dn5:21.16"
+      ],
+      "summary": "Kūṭadanta hỏi có nhớ tổ chức/giúp tổ chức rồi sau chết sinh thiện thú/trời? Phật nhận nhớ đủ cả và xác định mình là tế sư khi ấy, không phải Mahāvijita. Không bỏ kết quả trời hoặc đổi thành giải thoát."
+    },
+    {
+      "id": "regular",
+      "title": "Bố thí đều đặn cho người xuất gia có giới",
+      "segments": [
+        "dn5:22.0",
+        "dn5:22.1",
+        "dn5:22.2",
+        "dn5:22.3",
+        "dn5:22.4",
+        "dn5:22.5"
+      ],
+      "summary": "Đề mục bố thí thường xuyên/anukulayañña. Hỏi-có-xin nêu-câu đáp: bố thí thường xuyên theo truyền thống gia đình cho người xuất gia có giới, ít tốn công/ít gây hại mà quả/lợi lớn hơn đại tế3/16. anukula là lựa chọn chú thích, không tự xóa dị cách hiểu."
+    },
+    {
+      "id": "attendance",
+      "title": "Lý do về người đến nhận",
+      "segments": [
+        "dn5:23.1",
+        "dn5:23.2",
+        "dn5:23.3",
+        "dn5:23.4",
+        "dn5:23.5",
+        "dn5:23.6",
+        "dn5:23.7",
+        "dn5:23.8",
+        "dn5:23.9"
+      ],
+      "summary": "Hỏi nhân duyên hơn. A-la-hán và người trên đạo A-la-hán không đến tế có đánh gậy/bóp cổ, nhưng đến bố thí đều đặn cho người có giới vì không cảnh ấy; kết hơn3/16. Giữ đồng thời18 không bạo lực, không gán ngược cảnh đánh đập cho Mahāvijita hoặc bịa hòa giải văn bản."
+    },
+    {
+      "id": "dwelling",
+      "title": "Trú xá cho Tăng bốn phương",
+      "segments": [
+        "dn5:24.1",
+        "dn5:24.2",
+        "dn5:24.3",
+        "dn5:24.4"
+      ],
+      "summary": "Hỏi có gì hơn cả3/16 và bố thíđều; Phật nhận rồi nói xây trú xá cho Tăng bốn phương, đủ bốn vế công/hại/quả/lợi. Không đổi thành chỉ tặng một vị riêng."
+    },
+    {
+      "id": "refuge-path",
+      "title": "Tâm tịnh tín quy y",
+      "segments": [
+        "dn5:25.1",
+        "dn5:25.2",
+        "dn5:25.3",
+        "dn5:25.4",
+        "dn5:25.5"
+      ],
+      "summary": "Lần hỏi-có-làgì tiếp so với tất cảcấp trước; với tâm tịnh tín quy y Phật/Pháp/Tăng, ítcông/hại và nhiềuquả/lợi hơn. Không chỉđọc tên ba nơi nương."
+    },
+    {
+      "id": "precepts",
+      "title": "Năm học giới với lòng tin",
+      "segments": [
+        "dn5:26.1",
+        "dn5:26.2",
+        "dn5:26.3",
+        "dn5:26.4",
+        "dn5:26.5",
+        "dn5:26.6"
+      ],
+      "summary": "Hỏi-có-làgì so với đại tế/bố thí/trú xá/quy y; tâm tịnh tín nhận tránh sát sinh/lấy không cho/tà hạnh/nói dối/rượu men-rượu nấu-chất say gây phóng dật; hơn trước đủ4vế. Không biến tà hạnh thành mọi quan hệ tình cảm."
+    },
+    {
+      "id": "meditation",
+      "title": "Giới và bốn thiền",
+      "segments": [
+        "dn5:27.1",
+        "dn5:27.2",
+        "dn5:27.3",
+        "dn5:27.4",
+        "dn5:27.5",
+        "dn5:27.6",
+        "dn5:27.7",
+        "dn5:27.8",
+        "dn5:27.9",
+        "dn5:27.10",
+        "dn5:27.11"
+      ],
+      "summary": "Hỏi-có-làgì hơn toàn bộ5cấp trước. Như Lai/Arahant/Chánhgiác ra đời…tỳ-kheo thành tựugiới…thiền1,2,3,4; câu hơn trướcítcông/hại,nhiềuquả/lợi lặp. Bản này có lược, không kê chi tiết DN2 chưa đọc."
+    },
+    {
+      "id": "liberation",
+      "title": "Tri kiến và thành tựu không còn cao hơn",
+      "segments": [
+        "dn5:27.12",
+        "dn5:27.13",
+        "dn5:27.14",
+        "dn5:27.15",
+        "dn5:27.16"
+      ],
+      "summary": "Hướng/nghiêng tâm tri kiến…biết không còn trở lại hiện hữu này. Cả các mốc đều hơn trướcítcông/hại,nhiềuquả/lợi. Không có thành tựu tế lễ nào cao hoặc thù thắng hơn điểm cuối; không gán giải thoát cho người nghe lúc này."
+    },
+    {
+      "id": "lay",
+      "title": "Quy y làm nam cư sĩ",
+      "segments": [
+        "dn5:28.0",
+        "dn5:28.1",
+        "dn5:28.2",
+        "dn5:28.3",
+        "dn5:28.4",
+        "dn5:28.5"
+      ],
+      "summary": "Đề mục quy y. Ông khen2lần,4ví dựng vật úp/mở vật kín/chỉ lạc đường/đèn tối cho mắt thấy, nói Pháp khai mở nhiều cách. Quy y Gotama/Pháp/Tăng tỳ-kheo, xin làm nam cư sĩ từnaytrọnđời."
+    },
+    {
+      "id": "release",
+      "title": "Thả cả năm nhóm vật tế",
+      "segments": [
+        "dn5:28.6"
+      ],
+      "summary": "Ông tuyênbố thả/cho sống đủ700 mỗi nhóm bò đực trưởng thành/bò đực non/bò cái non/dê/cừu, chúc cỏ xanh/nước mát/gió mát. HTML chỉ còn4nhóm; giữ đủ5."
+    },
+    {
+      "id": "gradual",
+      "title": "Pháp tuần tự và bốn sự thật",
+      "segments": [
+        "dn5:29.0",
+        "dn5:29.1",
+        "dn5:29.2",
+        "dn5:29.3",
+        "dn5:29.4"
+      ],
+      "summary": "Đề mục chứng Dự lưu. Phật dạy bố thí/giới/trời, nguy hại-thấp kém-cấu nhiễm dục và lợi xuất ly. Khi biết tâm sẵn sàng/nhu nhuyễn/lìa triền cái/phấn khởi/tịnh tín, mới dạy khổ/tập/diệt/đạo. Không lẫn cõi trời với cuốiđường."
+    },
+    {
+      "id": "vision",
+      "title": "Pháp nhãn tại chỗ ngồi",
+      "segments": [
+        "dn5:29.5",
+        "dn5:29.6",
+        "dn5:29.7"
+      ],
+      "summary": "Ví vải sạch hếtvết dễ thấmmàu: ngay chỗ ngồi ông khởi Pháp nhãn khôngbụi/cấu, mọi pháp có tính sinh đều có tính diệt. Không suy đã Arahant."
+    },
+    {
+      "id": "invitation",
+      "title": "Thấy Pháp và mời bữa ăn",
+      "segments": [
+        "dn5:30.1",
+        "dn5:30.2",
+        "dn5:30.3",
+        "dn5:30.4"
+      ],
+      "summary": "Ông thấy/đạt/hiểu/thâm nhập Pháp, vượt nghi/do dự, tựtin/không lệthuộc người khác vềgiáopháp; mời Phật+Tăng ngàymai. Phật imlặng nhận; ông lễ/điquanhgiữPhật bênphải rồiđi."
+    },
+    {
+      "id": "meal",
+      "title": "Bữa ăn ngay tại khu tế lễ",
+      "segments": [
+        "dn5:30.5",
+        "dn5:30.6",
+        "dn5:30.7",
+        "dn5:30.8",
+        "dn5:30.9",
+        "dn5:30.10"
+      ],
+      "summary": "Sauđêm cho soạn đồăn ngon cứng/mềm tại khu tế, báogiờ; Phật sáng đắpymangy bát cùngTăng tới ngồichỗsoạn. Ôngtựtay phục vụ; sauăn,rửatay/bát theoVI/EN, ông ngồighếthấp bên. Pháp chỉdạy/khíchlệ/phấnchấn/hoanhỷ rồiPhậtđi. Không đổi địađiểm thànhnhàtheoHTML."
+    },
+    {
+      "id": "ending",
+      "title": "Nhãn kết bài thứ năm",
+      "segments": [
+        "dn5:30.11"
+      ],
+      "summary": "Kinh Kūṭadanta, thứ năm, kết thúc; nhãn kếtthuộcấn bản."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "DN5 — Lễ lớn bắt đầu từ việc không làm hại",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "start",
+          "kind": "teaching",
+          "heading": "Một lễ lớn đang được chuẩn bị",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "animals"
+          ],
+          "paragraphs": [
+            "Kinh Kūṭadanta là bài 5 của Trường Bộ. Các tên phần đánh số trong bản kinh giúp người đọc tìm đoạn. Câu chuyện chính bắt đầu bằng lời người truyền kinh kể lại điều mình đã nghe.",
+            "Phật đi trong xứ Magadha cùng khoảng năm trăm tỳ-kheo, những người xuất gia, rồi tới làng Khāṇumata và ở vườn Ambalaṭṭhikā. Bà-la-môn Kūṭadanta sống tại ngôi làng đông dân, đủ cỏ, củi, nước và lúa gạo ấy. Vua Seniya Bimbisāra đã ban làng cho ông làm phần đất của Bà-la-môn, những người theo truyền thống học Veda và làm nghi lễ.",
+            "Kūṭadanta đang chuẩn bị một lễ tế rất lớn. Đã có bảy trăm bò đực trưởng thành, bảy trăm bò đực non, bảy trăm bò cái non, bảy trăm dê và bảy trăm cừu bị dẫn tới cọc tế. Em hãy nhớ đủ năm nhóm này: cuối câu chuyện, số phận của chúng sẽ thay đổi."
+          ]
+        },
+        {
+          "id": "news",
+          "kind": "teaching",
+          "heading": "Vì sao dân làng kéo đi?",
+          "meaningUnits": [
+            "reputation",
+            "messenger"
+          ],
+          "paragraphs": [
+            "Dân làng nghe Gotama, người dòng Sakya đã xuất gia, tới đây cùng khoảng năm trăm vị. Họ truyền những danh hiệu tán thán Ngài: Thế Tôn, A-la-hán, Chánh Đẳng Giác, nói đến bậc đáng kính đã tự giác ngộ trọn vẹn; Minh Hạnh Túc là hiểu biết đi cùng cách sống; Thiện Thệ, Thế Gian Giải là bậc đã đi đến điều lành và hiểu thế giới. Ngài còn được gọi Vô Thượng Sĩ, Điều Ngự Trượng Phu, bậc dẫn dắt người cần rèn luyện; Thiên Nhân Sư là thầy của trời và người; Phật là bậc giác ngộ.",
+            "Lời truyền kể Ngài tự chứng biết rồi dạy về thế giới có chư thiên, Māra, Phạm thiên, sa-môn, Bà-la-môn, trời và người. Pháp Ngài tốt đẹp từ đầu, giữa đến cuối, đầy đủ nghĩa và lời, chỉ đời tu hoàn toàn trong sạch. Nghĩ gặp một bậc như vậy là tốt, dân làng tụ thành đoàn tới vườn.",
+            "Kūṭadanta đang nghỉ trưa trên tầng cao, thấy họ đi nên hỏi người quản gia. Người ấy kể lại việc Gotama tới làng, đoàn tỳ-kheo, nơi ở và những danh hiệu vừa nói: mọi người đang đi gặp Ngài."
+          ]
+        },
+        {
+          "id": "question-before",
+          "kind": "teaching",
+          "heading": "Ông cũng có một câu hỏi",
+          "meaningUnits": [
+            "intention",
+            "visitors",
+            "rank"
+          ],
+          "paragraphs": [
+            "Kūṭadanta nhớ đã nghe Gotama biết cách làm lễ tế có ba phương diện và mười sáu điều kiện. Mình chưa biết mà lại muốn làm lễ lớn, ông quyết định đến hỏi. Ông nhờ quản gia bảo mọi người chờ để ông cùng đi. Người quản gia nhận lời rồi tới chuyển đúng lời nhắn.",
+            "Nhiều trăm Bà-la-môn đã tới làng để dự lễ nghe tin ấy. Họ hỏi, và Kūṭadanta xác nhận mình định đi. Nhưng họ can: nếu ông tới Gotama, danh tiếng ông sẽ giảm còn danh tiếng Gotama tăng; họ cho rằng Gotama phải tới ông. Đây là cách nhóm ấy so địa vị với nhau."
+          ]
+        },
+        {
+          "id": "status",
+          "kind": "teaching",
+          "heading": "Những lý do nhóm bạn đưa ra",
+          "meaningUnits": [
+            "learning",
+            "brahmin-qualities",
+            "land"
+          ],
+          "paragraphs": [
+            "Họ kể ông có dòng dõi được xem là tốt cả bên cha lẫn mẹ đến bảy đời; có nhiều vàng bạc; thuộc và hiểu ba Veda. Các môn đi kèm gồm từ vựng, nghi lễ, âm và cách phân tích từ, lịch sử truyền thống được gọi là môn thứ năm, từng từ, ngữ pháp, thế luận và dấu hiệu của bậc đại nhân. Đó là việc học trong truyền thống của họ.",
+            "Họ khen ông đẹp, có vẻ rạng rỡ cao quý; giới hạnh vững, nghĩa là nếp sống đạo đức được rèn luyện; nói tao nhã, rõ, lưu loát, giúp người nghe hiểu. Ông là thầy của cả những người làm thầy, dạy ba trăm thanh niên. Người ở nhiều xứ và nước tìm đến học lời chú.",
+            "Họ còn viện tuổi cao của ông, trong khi Gotama trẻ và mới xuất gia; vua Bimbisāra và Bà-la-môn Pokkharasāti kính trọng ông. Sau cùng họ nhắc làng Khāṇumata đông dân, đủ cỏ, củi, nước, lúa mà vua ban. Với từng ưu điểm, họ đều trở lại ý Gotama nên đến ông. Những lời ấy kể suy nghĩ của họ, không buộc em đo giá trị con người bằng dòng họ hay tiền của."
+          ]
+        },
+        {
+          "id": "leave-home",
+          "kind": "teaching",
+          "heading": "Kūṭadanta muốn đi vì điều gì?",
+          "meaningUnits": [
+            "renunciation",
+            "conduct"
+          ],
+          "paragraphs": [
+            "Ông trả lời bằng các lý do mình nên tới Gotama. Ông nói Ngài cũng có dòng dõi hai bên được kính trọng đến bảy đời, nhưng đã rời đại gia đình và nhiều vàng bạc cất trên mặt đất lẫn dưới đất. Khi còn trẻ, tóc đen, dù cha mẹ không muốn và khóc, Ngài vẫn cạo râu tóc, mặc áo cà-sa và xuất gia.",
+            "Ông kể Ngài có dung sắc đẹp, giới hạnh cao quý và thiện lành, nói rõ ý, là thầy của nhiều bậc thầy; đã dứt tham dục, không còn phóng túng. Ngài dạy về nghiệp và hành động, không chủ trương gây hại cho cộng đồng Bà-la-môn. Ông cũng nhắc Ngài ra đi từ dòng Sát-đế-lợi cao quý và gia đình giàu có."
+          ]
+        },
+        {
+          "id": "praise",
+          "kind": "teaching",
+          "heading": "Tiếng lành và cách đón người",
+          "meaningUnits": [
+            "influence",
+            "supporters"
+          ],
+          "paragraphs": [
+            "Kūṭadanta nói người ở nhiều xứ, nhiều nước tới hỏi Gotama; nhiều ngàn vị trời trọn đời quy y, tức nhận Ngài làm nơi hướng về. Ông lặp những danh hiệu đã kể, nhắc ba mươi hai tướng đại nhân, rồi kể cách Ngài niềm nở, thân thiện, lịch sự, tươi cười, cởi mở và chào người trước.",
+            "Ông nói bốn hội chúng tôn kính Ngài, nhiều trời và người tin Ngài; theo lời ông, ở nơi Ngài trú, phi nhân không quấy nhiễu con người. Ngài dẫn dắt Tăng đoàn và hội chúng, được xem đứng đầu các vị sáng lập giáo phái. Danh tiếng ấy do hiểu biết và cách sống vô thượng, không do những cách tìm danh khác.",
+            "Ông nêu ba người: vua Bimbisāra, vua Pasenadi của Kosala và Bà-la-môn Pokkharasāti. Mỗi người cùng con, vợ, người trong hội và quan tùy thuộc đã trọn đời quy y. Ông lại nhắc riêng rằng cả ba đều kính trọng Gotama."
+          ]
+        },
+        {
+          "id": "guest",
+          "kind": "teaching",
+          "heading": "Một vị khách đáng được đón tiếp",
+          "meaningUnits": [
+            "hospitality",
+            "meeting",
+            "request"
+          ],
+          "paragraphs": [
+            "Kūṭadanta còn nói: sa-môn hay Bà-la-môn tới địa phương đều là khách, nên chủ nhà cần kính trọng. Gotama đang ở Ambalaṭṭhikā là khách của họ; vậy họ nên tới Ngài. Ông nói những đức mình nhớ chưa phải tất cả, điều đáng ca ngợi còn vô lượng. Nhóm bạn đổi ý: dù ở cách một trăm do-tuần, quãng đường rất xa theo cách đo xưa, người con nhà lành có lòng tin cũng đáng mang lương thực đi gặp.",
+            "Cả nhóm cùng đến vườn. Kūṭadanta chào hỏi thân thiện rồi ngồi. Những người khác có năm cách vào ngồi một bên: lễ; trò chuyện chào hỏi; chắp tay; xưng tên và dòng họ; hoặc im lặng.",
+            "Kūṭadanta trình bày câu hỏi về ba phương diện và mười sáu điều kiện của đại tế. Phật bảo ông lắng nghe, khéo chú tâm. Ông vâng, và Phật kể một chuyện xưa."
+          ]
+        },
+        {
+          "id": "mahavijita",
+          "kind": "teaching",
+          "heading": "Nhà vua muốn có hạnh phúc lâu dài",
+          "meaningUnits": [
+            "king",
+            "unrest"
+          ],
+          "paragraphs": [
+            "Xưa có vua Mahāvijita rất giàu, nhiều vàng bạc, của cải, vật dụng, tiền và lúa, kho tàng đầy. Vua đã chinh phục và cai quản vùng đất rộng. Một hôm ở riêng, vua nghĩ muốn làm lễ tế lớn để có lợi ích và an vui lâu dài. Vua mời người tế sư, người lo việc nghi lễ, kể lại suy nghĩ và xin lời khuyên.",
+            "Tế sư trước hết nói về nạn cướp làng, thị trấn, thành phố và đường sá. Trong lúc dân đang khổ như thế, thu thuế ngay lúc ấy là điều không nên. Ông cũng nói xử tử, giam giữ, tịch thu tài sản, khiển trách hay trục xuất chưa nhổ hết nạn cướp: những người còn sống sót sẽ lại quấy nhiễu đất nước."
+          ]
+        },
+        {
+          "id": "three-helps",
+          "kind": "teaching",
+          "heading": "Giúp người dân có việc làm",
+          "meaningUnits": [
+            "livelihood",
+            "result"
+          ],
+          "paragraphs": [
+            "Tế sư đưa ra ba việc: người làm ruộng và chăn nuôi được hạt giống, lương thực; người buôn bán được vốn; người phục vụ triều đình được bảo đảm thức ăn và tiền lương. Ông nói khi chuyên tâm vào việc mình, dân sẽ không quấy nhiễu đất nước, nguồn thu của vua tăng và đất nước an ổn.",
+            "Câu chuyện ví cảnh vui ấy bằng người dân bế con trước ngực mà nhảy múa, sống như nhà không cần đóng cửa. Vua nghe theo và thực hiện cả ba việc. Kinh kể kết quả đúng như lời khuyên: dân chăm nghề, không quấy nhiễu, nguồn thu tăng, đất nước yên, mọi người vui cùng con nhỏ.",
+            "Vua gọi tế sư tới, xác nhận những kết quả ấy, rồi mới nhắc lại mong muốn làm đại tế vì lợi ích lâu dài. Đây là kết quả được kể trong chuyện của vị vua này; bài không đưa một lời hứa rằng mọi rắc rối đều hết ngay chỉ sau một món quà."
+          ]
+        },
+        {
+          "id": "four-consents",
+          "kind": "teaching",
+          "heading": "Bốn nhóm đều được hỏi ý kiến",
+          "meaningUnits": [
+            "consent"
+          ],
+          "paragraphs": [
+            "Tế sư bảo vua hỏi bốn nhóm, ở cả thành thị và nông thôn: các Sát-đế-lợi chư hầu; các đại thần và người trong hội đồng; các Bà-la-môn giàu; các gia chủ giàu. Vua hỏi họ có chấp thuận lễ tế vì lợi ích và an vui lâu dài của vua không.",
+            "Vua thực sự hỏi, các nhóm đều đáp vua hãy làm lễ, nay là thời điểm thích hợp. Bốn nhóm đồng thuận ấy là bốn điều kiện đầu tiên. “Điều kiện” ở đây có cả sự đồng ý của con người, không phải chỉ các món đặt lên bàn lễ."
+          ]
+        },
+        {
+          "id": "eight",
+          "kind": "teaching",
+          "heading": "Tám điều được kể về vua",
+          "meaningUnits": [
+            "king-eight"
+          ],
+          "paragraphs": [
+            "Kinh kể tám phẩm chất của vua theo bối cảnh xưa. Một: dòng dõi hai bên cha mẹ được coi là tốt đến bảy đời. Hai: vẻ ngoài đẹp, rạng rỡ, cao quý. Ba: giàu vàng bạc, của cải, vật dụng, tiền lúa và kho đầy. Bốn: có quân đội bốn binh chủng nghe lệnh, dường như chỉ bằng uy danh đã có thể khiến kẻ địch khuất phục.",
+            "Năm: có lòng tin và rộng rãi bố thí, cửa luôn mở như một giếng nước cho người cần nương: sa-môn, Bà-la-môn, người nghèo, khách đường xa, người lang thang và người xin ăn. Sáu: học rộng nhiều lĩnh vực. Bảy: hiểu lời nói có nghĩa gì. Tám: có trí suy xét việc quá khứ, tương lai và hiện tại. Học được nhiều và hiểu được nghĩa là hai điều riêng trong danh sách."
+          ]
+        },
+        {
+          "id": "priest",
+          "kind": "teaching",
+          "heading": "Bốn điều ở người tế sư",
+          "meaningUnits": [
+            "priest-four"
+          ],
+          "paragraphs": [
+            "Người tế sư có bốn phẩm chất: dòng dõi hai bên đến bảy đời được coi tốt; thuộc và hiểu ba Veda; giới hạnh vững; thông minh, đứng thứ nhất hoặc thứ hai trong những người cầm muỗng tế lễ. Muỗng tế là dụng cụ dùng trong nghi lễ ấy.",
+            "Phần học Veda vẫn gồm đủ từ vựng, nghi lễ, ngữ âm, phân tích từ, lịch sử truyền thống là môn thứ năm, từng từ, ngữ pháp, thế luận và tướng đại nhân. Cộng bốn nhóm đồng thuận, tám điều ở vua và bốn điều ở tế sư, ta có mười sáu điều kiện. Các phẩm chất về dòng dõi và vẻ ngoài đang nằm trong câu chuyện lễ tế của xã hội xưa."
+          ]
+        },
+        {
+          "id": "three-times",
+          "kind": "teaching",
+          "heading": "Trước, trong và sau khi cho",
+          "meaningUnits": [
+            "three"
+          ],
+          "paragraphs": [
+            "Trước lễ, tế sư dạy vua ba phương diện. Trước khi làm, đừng tiếc rằng một khối của lớn sắp hao đi. Trong khi làm, đừng tiếc rằng của đang hao đi. Làm xong, đừng tiếc rằng của đã hao đi.",
+            "Ba điều nói về tâm của người đã quyết định cho: trước, đang và sau. Trong câu chuyện, việc lo cho dân và chuẩn bị các điều kiện đã có trước lời dạy ấy."
+          ]
+        },
+        {
+          "id": "ten",
+          "kind": "teaching",
+          "heading": "Người tới nhận không giống nhau",
+          "meaningUnits": [
+            "ten"
+          ],
+          "paragraphs": [
+            "Tế sư còn giúp vua thôi hối tiếc vì người tới nhận có cả người làm điều xấu và người tránh điều xấu. Ông kể đủ mười cặp: giết sinh vật hoặc không giết; lấy đồ không được cho hoặc không lấy; làm sai trái trong quan hệ tình dục hoặc tránh việc ấy; nói dối hoặc không nói dối; nói chia rẽ hoặc không chia rẽ.",
+            "Năm cặp còn lại là: nói thô ác hoặc không; nói phù phiếm, vô ích hoặc không; tham muốn của người khác hoặc không; có tâm muốn hại hoặc không; thấy biết sai hoặc thấy biết đúng. “Tà hạnh” trong cặp thứ ba nói tới hành vi tình dục sai trái, không phải cấm tình cảm hay sự quý mến.",
+            "Người làm việc xấu phải chịu trách nhiệm về việc ấy. Vua hãy hướng tới người tránh điều xấu để tế lễ, xả thí, vui và làm tâm mình trong sáng. Người được khuyên giữ tâm ấy là vua, người đang cho; không phải ra lệnh mọi người nhận đều phải vui."
+          ]
+        },
+        {
+          "id": "sixteen-assurances",
+          "kind": "teaching",
+          "heading": "An tâm vì điều thật đã được làm",
+          "meaningUnits": [
+            "assurance-four",
+            "assurance-eight",
+            "assurance-priest"
+          ],
+          "paragraphs": [
+            "Trong lúc lễ diễn ra, tế sư lại chỉ dạy và khích lệ vua theo mười sáu phương diện. Nếu ai nói vua chưa hỏi một trong bốn nhóm thành thị và nông thôn, lời ấy không đúng vì vua đã hỏi. Đó là bốn lý do đầu.",
+            "Nếu ai bảo vua thiếu một trong tám điều vừa kể — dòng dõi, dung sắc, của cải, quân lực, lòng tin và bố thí, học rộng, hiểu nghĩa, suy xét ba thời — thì lời chê ấy cũng không có cơ sở trong câu chuyện, vì vua có đủ. Nếu ai nói tế sư thiếu một trong bốn điều là dòng dõi, học Veda, giới hạnh, trí và vị trí nhất nhì trong lễ, cũng vậy.",
+            "Mỗi lần tế sư đều nhắc vua biết đúng sự việc, rồi tế lễ, xả thí, vui và giữ tâm trong sáng. Ông giúp vua phấn chấn dựa vào điều thật, không dạy cứ có người chê là bỏ ngoài tai."
+          ]
+        },
+        {
+          "id": "no-harm",
+          "kind": "teaching",
+          "heading": "Một lễ không giết và không ép làm",
+          "meaningUnits": [
+            "nonharm"
+          ],
+          "paragraphs": [
+            "Trong lễ của Mahāvijita, không có bò, dê, cừu, gà, heo hay sinh vật nào khác bị giết. Không cây nào bị chặt làm cọc tế, không cỏ nào bị cắt để rải quanh nơi lễ.",
+            "Nô bộc, người phục vụ và người làm công không bị đe bằng gậy, không phải sợ hãi hay khóc mà làm. Ai muốn tham gia thì làm, ai không muốn thì không làm. Ngay trong công việc, họ làm điều mình muốn và không phải làm điều mình không muốn.",
+            "Lễ được hoàn tất bằng sáu thứ: bơ sữa đã thắng, dầu, bơ tươi, sữa đông, mật ong và mật mía. Chi tiết về người làm cũng quan trọng như việc không giết các con vật."
+          ]
+        },
+        {
+          "id": "share",
+          "kind": "teaching",
+          "heading": "Của cải được chia về bốn phía",
+          "meaningUnits": [
+            "offered-wealth",
+            "four-directions",
+            "sum"
+          ],
+          "paragraphs": [
+            "Bốn nhóm ở thành thị và nông thôn đem nhiều của đến dâng riêng vua. Vua nói mình đã có đủ tài sản từ việc thu thuế đúng phép, bảo họ giữ của ấy và còn lấy thêm từ vua. Họ lui ra bàn: mang về không thích hợp, vậy cùng làm lễ bố thí theo vua.",
+            "Nhóm Sát-đế-lợi chư hầu đặt việc bố thí ở phía đông khu tế. Đại thần và người trong hội đồng ở phía nam. Bà-la-môn giàu ở phía tây. Gia chủ giàu ở phía bắc.",
+            "Các lễ này cũng giữ đủ điều vừa kể: không giết bò, dê, cừu, gà, heo hay loài khác; không chặt cây, cắt cỏ; không ép người làm bằng đe dọa hoặc nước mắt. Ai không muốn tham gia hay không muốn một việc nào đều được không làm. Cũng chỉ sáu thứ bơ sữa, dầu, bơ tươi, sữa đông, mật ong, mật mía được dùng.",
+            "Phật kết lại: bốn nhóm đồng thuận, tám phẩm chất vua, bốn phẩm chất tế sư làm thành mười sáu điều kiện; cùng ba thời không tiếc của, đó là lễ tế thành tựu theo ba phương diện và mười sáu điều kiện."
+          ]
+        },
+        {
+          "id": "memory",
+          "kind": "teaching",
+          "heading": "Vì sao Kūṭadanta chưa lên tiếng?",
+          "meaningUnits": [
+            "silent",
+            "remembering"
+          ],
+          "paragraphs": [
+            "Các Bà-la-môn lớn tiếng khen lễ tế tuyệt vời. Kūṭadanta ngồi im. Khi được hỏi, ông nói mình vẫn tán thán. Ông còn nói mạnh rằng ai không tán thán lời hay ấy thì đầu hẳn sẽ vỡ; đó là lời của ông trong cuộc nói chuyện.",
+            "Điều ông đang nghĩ là Phật kể “lúc ấy đã như thế”, chứ không nói chỉ nghe người khác kể hoặc đoán hẳn là vậy. Ông suy rằng Gotama khi ấy chắc là vua hoặc tế sư. Ông hỏi Ngài có nhớ từng tổ chức hay giúp tổ chức lễ ấy rồi, sau khi chết, sinh vào cõi lành, cõi trời không.",
+            "Phật đáp có nhớ việc làm lễ và kết quả sinh cõi trời ấy. Ngài xác định mình khi ấy là người tế sư giúp tổ chức, không phải nhà vua. Kết quả vừa nói là sinh cõi trời, chưa phải điểm giải thoát cuối cùng của bài."
+          ]
+        },
+        {
+          "id": "regular",
+          "kind": "teaching",
+          "heading": "Có cách nào lợi ích hơn không?",
+          "meaningUnits": [
+            "regular",
+            "attendance"
+          ],
+          "paragraphs": [
+            "Kūṭadanta hỏi: còn cách nào ít tốn công hơn, ít gây hại hơn, mà có kết quả và lợi ích lớn hơn lễ vừa kể? Phật nói có. Đó là bố thí đều đặn theo nếp gia đình, dành cho những người xuất gia có giới hạnh.",
+            "Ông hỏi vì sao. Phật giải thích rằng các bậc A-la-hán, người đã giải thoát, và người đang đi trên đường tới quả ấy không đến những tế lễ có đánh bằng gậy và bóp cổ. Các vị đến nơi bố thí thường xuyên cho người có giới vì nơi ấy không có các cảnh bạo lực đó. Câu chuyện lễ của Mahāvijita ở trên cũng đã kể rõ việc không giết và không ép người làm."
+          ]
+        },
+        {
+          "id": "dwelling",
+          "kind": "teaching",
+          "heading": "Từ một lễ sang chỗ ở cho Tăng",
+          "meaningUnits": [
+            "dwelling"
+          ],
+          "paragraphs": [
+            "Ông lại hỏi có việc hơn cả lễ lớn lẫn bố thí thường xuyên không. Phật đáp có, rồi nêu việc xây một nơi ở cho Tăng chúng bốn phương, nghĩa là dành cho cộng đồng người xuất gia từ khắp nơi.",
+            "Bài tiếp tục cùng bốn điểm so sánh: ít tốn công, ít gây hại, kết quả lớn, lợi ích lớn. Đây là sự đánh giá việc tu và cho trong bài kinh, không phải chỉ so giá tiền của hai món quà."
+          ]
+        },
+        {
+          "id": "refuge-and-rules",
+          "kind": "teaching",
+          "heading": "Hướng về điều lành rồi sống theo",
+          "meaningUnits": [
+            "refuge-path",
+            "precepts"
+          ],
+          "paragraphs": [
+            "Kūṭadanta hỏi có gì hơn tất cả các việc trước. Phật nói với tâm trong sáng và tin cậy, một người quy y Phật, Pháp và Tăng. Người ấy nhận bậc giác ngộ, lời dạy và cộng đồng tu hành làm nơi hướng về.",
+            "Ông hỏi tiếp, nay kể cả việc quy y. Phật nêu nhận giữ năm học giới với tâm ấy: không giết sinh vật; không lấy của không được cho; không làm sai trong quan hệ tình dục; không nói dối; không dùng rượu và chất say làm mất tỉnh táo, dễ buông lung.",
+            "Mỗi lần Phật đều nhận có việc hơn, rồi mới nói việc nào; mỗi bậc được so với toàn bộ các bậc trước bằng bốn điểm công sức, gây hại, kết quả và lợi ích. Nhận nơi hướng về được nối tiếp bằng việc mình làm hằng ngày."
+          ]
+        },
+        {
+          "id": "training",
+          "kind": "teaching",
+          "heading": "Bài đi tới đời tu và giải thoát",
+          "meaningUnits": [
+            "meditation",
+            "liberation"
+          ],
+          "paragraphs": [
+            "Hỏi tiếp về điều hơn cả năm học giới và những việc đã kể, Kūṭadanta được nghe về một Như Lai, bậc A-la-hán, Chánh Đẳng Giác xuất hiện ở đời. Người tỳ-kheo thành tựu giới, rồi chứng và sống trong thiền thứ nhất, thứ hai, thứ ba, thứ tư. Thiền ở đây là các mức an định sâu của tâm trong đời tu.",
+            "Bản kinh ở đoạn này có nhiều phần viết lược. Các mốc tiếp được nêu là hướng tâm đến tri kiến, tức biết và thấy; rồi biết không còn trở lại trạng thái hiện hữu này. Với các mốc ấy, bài vẫn lặp lời so sánh ít tốn công, ít gây hại, nhiều kết quả và lợi ích hơn những lễ trước.",
+            "Phật nói không có sự thành tựu tế lễ nào cao hơn hay tốt đẹp hơn sự thành tựu cuối này. Bài đã dẫn từ việc dùng của cải đến việc rèn tâm và giải thoát. Kinh chưa nói Kūṭadanta đã đạt bốn thiền hay sự giải thoát cuối ấy ngay lúc đang nghe."
+          ]
+        },
+        {
+          "id": "release",
+          "kind": "teaching",
+          "heading": "Năm nhóm con vật được sống",
+          "meaningUnits": [
+            "lay",
+            "release"
+          ],
+          "paragraphs": [
+            "Kūṭadanta khen lời dạy hai lần. Ông ví lời Phật như dựng một vật bị úp, mở điều bị che, chỉ đường cho người lạc và đem đèn vào tối để người có mắt thấy. Ông quy y Gotama, Pháp và Tăng tỳ-kheo, xin được nhận là người nam tại gia theo trọn đời từ hôm ấy.",
+            "Rồi ông tuyên bố thả và cho sống cả năm nhóm đã giữ làm vật tế: bảy trăm bò đực trưởng thành, bảy trăm bò đực non, bảy trăm bò cái non, bảy trăm dê, bảy trăm cừu. Ông chúc chúng được ăn cỏ xanh, uống nước mát và có gió mát thổi qua. Lời nghe được đã dẫn tới một việc làm cụ thể ngay trong câu chuyện."
+          ]
+        },
+        {
+          "id": "seeing",
+          "kind": "teaching",
+          "heading": "Ông được nghe theo từng bước",
+          "meaningUnits": [
+            "gradual",
+            "vision"
+          ],
+          "paragraphs": [
+            "Sau đó Phật dạy Kūṭadanta lần lượt về bố thí, giới hạnh và cõi trời. Ngài chỉ sự nguy hại, thấp kém và làm tâm vướng bẩn của các dục, cùng lợi ích của xuất ly, tức rời sự bám víu vào dục.",
+            "Khi biết tâm ông đã sẵn sàng, mềm mại, rời những điều cản trở, vui và có lòng tin trong sáng, Ngài mới dạy bốn sự thật: khổ; nguyên nhân của khổ; sự chấm dứt khổ; con đường đưa tới chấm dứt khổ.",
+            "Ví như vải sạch hết vết bẩn thấm màu nhuộm tốt, ngay tại chỗ ngồi ấy, ông có Pháp nhãn trong sạch, nghĩa là thấy Pháp: điều gì có tính sinh khởi đều có tính chấm dứt. Đề mục của kinh gọi đây là chứng quả Dự lưu, bước vào dòng tu giải thoát; không gọi ông đã là A-la-hán."
+          ]
+        },
+        {
+          "id": "last-meal",
+          "kind": "teaching",
+          "heading": "Khu tế lễ trở thành nơi cúng bữa ăn",
+          "meaningUnits": [
+            "invitation",
+            "meal",
+            "ending"
+          ],
+          "paragraphs": [
+            "Kinh kể Kūṭadanta đã thấy, đạt, hiểu và thấm sâu Pháp, vượt nghi ngờ, hết phân vân, tự tin về lời dạy mà không phải chỉ dựa vào người khác. Ông mời Phật cùng Tăng ăn vào ngày mai. Phật im lặng nhận lời. Ông lễ, đi quanh giữ Phật ở bên phải, rồi về.",
+            "Sau đêm ấy, ông cho soạn thức ăn ngon, cả cứng và mềm, ngay tại khu tế lễ rồi báo giờ. Buổi sáng, Phật đắp y, mang y bát cùng Tăng đến, ngồi chỗ đã chuẩn bị. Kūṭadanta tự tay phục vụ để các vị đủ dùng.",
+            "Khi Phật ăn xong và rửa tay, bát, ông lấy ghế thấp ngồi bên. Phật nói Pháp để chỉ dạy, khích lệ, làm ông phấn chấn và vui, rồi đứng dậy ra đi. Dòng kết ghi hết kinh Kūṭadanta, bài thứ năm."
+          ]
+        },
+        {
+          "id": "try",
+          "kind": "example",
+          "heading": "Một việc cho có thể bắt đầu nhỏ",
+          "meaningUnits": [
+            "livelihood",
+            "three",
+            "nonharm"
+          ],
+          "paragraphs": [
+            "Ví dụ gần gũi: lớp em muốn làm một việc chia sẻ. Trước hết hãy hỏi ai đang cần gì và ai muốn tham gia. Một bạn góp ý, một bạn tự nguyện chuẩn bị, một bạn không tham gia; đừng làm bạn ấy sợ hoặc xấu hổ. Ví dụ này gợi từ việc giúp đúng chỗ và không ép người trong bài, không phải lời kể thêm về buổi tế lễ."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Nhìn lại trước và sau một lần chia sẻ",
+          "meaningUnits": [
+            "three",
+            "ten"
+          ],
+          "paragraphs": [
+            "Em có thể chọn một món nhỏ thuộc quyền mình và được phép cho. Trước khi cho, biết rõ mình đồng ý. Trong khi cho, để ý mình có đòi người nhận phải làm mình vui không. Sau đó nhớ mục đích tốt đã chọn, thay vì tính mãi mình mất gì. Đây là cách tập suy xét, không phải làm thử toàn bộ đại tế hoặc tự thả con vật không thuộc mình."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "DN5 — Từ đại tế đến sinh kế, giới hạnh và giải thoát",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "orientation",
+          "kind": "teaching",
+          "heading": "Câu hỏi về một lễ tế thành tựu",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "animals"
+          ],
+          "paragraphs": [
+            "DN5, kinh Kūṭadanta, theo dõi sự đổi hướng của một người chuẩn bị đại tế: từ cách tổ chức nghi lễ đến lợi ích của việc cho, cách sống và sự giải thoát. Các đề mục đánh số thuộc cách chia bản kinh. Lời truyền nghe đặt cuộc gặp tại Khāṇumata, làng Bà-la-môn trong xứ Magadha.",
+            "Phật đang du hành với khoảng năm trăm tỳ-kheo và ở Ambalaṭṭhikā gần làng. Kūṭadanta cư trú trên lãnh địa đông dân, đủ cỏ, củi, nước, lúa gạo, được vua Seniya Bimbisāra ban làm ân tứ cho Bà-la-môn. Một đại tế đang được chuẩn bị cho ông: bảy trăm bò đực trưởng thành, bảy trăm bò đực non, bảy trăm bò cái non, bảy trăm dê và bảy trăm cừu đã được dẫn tới cọc tế."
+          ]
+        },
+        {
+          "id": "public",
+          "kind": "teaching",
+          "heading": "Tiếng tăm khiến dân chúng tìm đến",
+          "meaningUnits": [
+            "reputation",
+            "messenger",
+            "intention"
+          ],
+          "paragraphs": [
+            "Dân làng nghe Gotama, người dòng Sakya đã xuất gia, đến cùng đoàn khoảng năm trăm vị. Chuỗi danh hiệu họ truyền là Thế Tôn, A-la-hán, Chánh Đẳng Giác, Minh Hạnh Túc, Thiện Thệ, Thế Gian Giải, Vô Thượng Sĩ, Điều Ngự Trượng Phu, Thiên Nhân Sư, Phật, Thế Tôn: bậc đáng kính tự giác ngộ trọn vẹn, đủ hiểu biết và cách sống, hiểu thế giới và dẫn dắt người cần rèn luyện, thầy của trời người.",
+            "Lời truyền nói Ngài tự chứng biết thế giới gồm chư thiên, Māra, Phạm thiên, các sa-môn, Bà-la-môn, trời và người, rồi công bố điều ấy; Pháp tốt đẹp đầu, giữa, cuối, đầy đủ nghĩa và lời, trình bày đời phạm hạnh trọn vẹn trong sạch. Nghĩ việc gặp một bậc ấy là tốt, họ tụ thành đoàn đi tới vườn.",
+            "Kūṭadanta đang nghỉ trưa trên tầng cao thấy dân đi, hỏi quản gia và được thuật lại việc đến, nơi trú cùng danh hiệu Gotama. Ông nhớ đã nghe Gotama biết lễ tế ba phương diện, mười sáu điều kiện, trong khi chính mình chưa biết mà muốn đại tế. Ông quyết định hỏi và sai quản gia nhắn dân chờ để cùng đi; người quản gia vâng rồi thực hiện lời nhắn."
+          ]
+        },
+        {
+          "id": "opposition",
+          "kind": "teaching",
+          "heading": "Địa vị là lý do để không đi?",
+          "meaningUnits": [
+            "visitors",
+            "rank",
+            "learning"
+          ],
+          "paragraphs": [
+            "Nhiều trăm Bà-la-môn đã tới Khāṇumata để dự đại tế, nghe tin, đến hỏi và được Kūṭadanta xác nhận ý định. Họ can vì cho rằng ông đến Gotama sẽ làm danh mình giảm, danh Gotama tăng; người nên đi phải là Gotama. Mạch tranh luận lúc này là thứ bậc xã hội do nhóm khách đưa ra.",
+            "Họ dẫn dòng dõi được xem là thanh tịnh hai bên cha mẹ đến bảy đời tổ phụ; nhiều vàng bạc; khả năng tụng, nhớ và thông ba Veda. Học vấn ấy gồm từ vựng và nghi lễ, ngữ âm và phân tích từ, lịch sử truyền thống là môn thứ năm, từng từ và ngữ pháp, thế luận và các tướng đại nhân. Các chi tiết giải thích uy tín của ông trong chính truyền thống ấy."
+          ]
+        },
+        {
+          "id": "prestige",
+          "kind": "teaching",
+          "heading": "Những cơ sở còn lại của uy tín",
+          "meaningUnits": [
+            "brahmin-qualities",
+            "land"
+          ],
+          "paragraphs": [
+            "Nhóm kể thêm dung sắc đẹp, rạng rỡ và cao quý; giới hạnh trưởng thành; lời nói tao nhã, rõ, lưu loát, truyền đạt đúng nghĩa. Ông là thầy của các bậc thầy, dạy ba trăm thanh niên Bà-la-môn; người nhiều xứ, nhiều nước tìm đến học chú. Họ so tuổi cao của ông với Gotama còn trẻ, mới xuất gia.",
+            "Họ nhắc ông được vua Bimbisāra và Bà-la-môn Pokkharasāti kính trọng, rồi lặp việc làng Khāṇumata đông dân, đủ cỏ, củi, nước và lúa là đất vua ban. Từng lý do đều được dùng để kết luận Gotama nên đến ông. Kinh đang thuật những thước đo của người đối thoại; việc thuật lại không biến giai cấp, ngoại hình hay tài sản thành chuẩn đạo đức chung."
+          ]
+        },
+        {
+          "id": "gotama",
+          "kind": "teaching",
+          "heading": "Kūṭadanta tự nêu lý do đến gặp",
+          "meaningUnits": [
+            "renunciation",
+            "conduct"
+          ],
+          "paragraphs": [
+            "Kūṭadanta đáp rằng chính họ nên đi. Ông cũng nói đến dòng dõi hai bên, bảy đời của Gotama, nhưng kể tiếp việc từ bỏ đại gia đình cùng vàng bạc trên mặt đất và dưới đất. Ngài ra đi lúc còn trẻ, tóc đen, dù cha mẹ không thuận và khóc; cạo râu tóc, khoác cà-sa, rời nhà sống không gia đình.",
+            "Ông nêu dung sắc, giới hạnh cao quý và thiện lành, lời nói rõ nghĩa, vị thế thầy của nhiều bậc thầy; đã tận tham dục và không phóng túng. Gotama giảng về nghiệp, về hành động và không chủ trương làm hại cộng đồng Bà-la-môn. Ông còn kể Ngài xuất gia từ dòng Sát-đế-lợi không pha tạp và gia đình giàu có. Cả đoạn vẫn là lời tán thán của Kūṭadanta để trả lời nhóm bạn."
+          ]
+        },
+        {
+          "id": "renown",
+          "kind": "teaching",
+          "heading": "Minh và hạnh làm nên tiếng tăm",
+          "meaningUnits": [
+            "influence",
+            "supporters"
+          ],
+          "paragraphs": [
+            "Theo Kūṭadanta, người từ nhiều nước và xứ đến hỏi Gotama; nhiều ngàn chư thiên quy y trọn đời. Ông lặp chuỗi danh hiệu, nhắc ba mươi hai tướng đại nhân, rồi nêu cách tiếp người: niềm nở, thân thiện, lịch sự, tươi cười, cởi mở và chủ động chào trước. Bốn hội chúng kính trọng Ngài, nhiều trời người có lòng tin; ông kể nơi Ngài trú thì phi nhân không quấy người.",
+            "Ngài lãnh đạo Tăng đoàn và hội chúng, được xem đứng đầu các giáo tổ. Ông phân biệt danh tiếng nhờ minh hạnh vô thượng — hiểu biết cùng cách sống — với danh có được bằng những cách khác. Vua Bimbisāra, vua Pasenadi của Kosala, Bà-la-môn Pokkharasāti, mỗi người cùng con, vợ, hội chúng và quan tùy thuộc, đều được kể đã quy y trọn đời. Sau lời quy y, ông nhắc riêng cả ba đều tôn kính Gotama."
+          ]
+        },
+        {
+          "id": "arrival",
+          "kind": "teaching",
+          "heading": "Tư cách người khách và câu hỏi về tế lễ",
+          "meaningUnits": [
+            "hospitality",
+            "meeting",
+            "request"
+          ],
+          "paragraphs": [
+            "Lý do cuối của Kūṭadanta là bổn phận đón khách: bất cứ sa-môn, Bà-la-môn nào tới địa phương cũng đáng được kính trọng. Gotama hiện trú Ambalaṭṭhikā là khách của họ; vì thế họ nên đến Ngài. Ông nói những phẩm chất mình nhớ chưa hết, điều đáng tán thán của Ngài còn vô lượng. Nhóm khách nhận rằng dù cách một trăm do-tuần, người con nhà lành có lòng tin cũng đáng mang lương thực đến gặp, rồi tất cả cùng đi.",
+            "Kūṭadanta đến chào hỏi và ngồi một bên. Dân làng có người đảnh lễ, có người trao đổi lời chào, chắp tay, xưng tên họ, hoặc im lặng rồi ngồi. Ông chính thức hỏi cách thành tựu đại tế ba phương diện, mười sáu điều kiện, thừa nhận mình chưa biết. Phật yêu cầu nghe và khéo chú tâm; ông nhận lời. Câu trả lời bắt đầu bằng chuyện vua Mahāvijita."
+          ]
+        },
+        {
+          "id": "king-question",
+          "kind": "teaching",
+          "heading": "Lợi ích lâu dài phải xét từ đời sống dân chúng",
+          "meaningUnits": [
+            "king",
+            "unrest"
+          ],
+          "paragraphs": [
+            "Mahāvijita giàu vàng bạc, của cải, vật dụng, tiền lúa, kho tàng đầy; đã chinh phục và cai quản một lãnh thổ rộng. Khi ở riêng, vua nghĩ tổ chức đại tế để có lợi ích và an lạc lâu dài. Ông mời tế sư, thuật đầy đủ ý định ấy và xin lời khuyên.",
+            "Tế sư nêu tình hình cướp bóc ở làng, thị trấn, thành phố và đường sá. Thu thuế giữa lúc nước đang bị quấy phá, áp bức là việc không nên làm. Vua có thể nghĩ dùng xử tử, giam cầm, tịch thu, khiển trách hoặc trục xuất để diệt cướp; tế sư nói các biện pháp ấy không nhổ tận gốc, vì người còn sống sót sẽ lại quấy nhiễu đất nước. Câu trả lời chuyển ngay từ quy mô buổi lễ sang điều kiện sống của người chịu tác động."
+          ]
+        },
+        {
+          "id": "livelihood",
+          "kind": "teaching",
+          "heading": "Ba việc được đề nghị và được thực hiện",
+          "meaningUnits": [
+            "livelihood",
+            "result"
+          ],
+          "paragraphs": [
+            "Tế sư đề nghị cung cấp hạt giống và lương thực cho người nỗ lực làm nông, chăn nuôi; vốn cho người buôn bán; lương thực và tiền lương cho người phục vụ triều đình. Dự kiến của ông là người dân chuyên tâm công việc sẽ không quấy nhiễu đất nước, thu nhập nhà vua tăng, nước yên và dân vui. Hình ảnh kết đoạn là cha mẹ ôm con trước ngực nhảy múa, sống như nhà cửa có thể để mở.",
+            "Vua nhận lời và thực hiện đúng ba khoản hỗ trợ. Kinh thuật lại các kết quả: dân chăm việc, không quấy nước, nguồn thu tăng, đất nước hết nạn cướp và áp bức, dân vui cùng con và sống như nhà mở cửa. Vua gọi tế sư đến, xác nhận hiệu quả phương án, rồi mới lại xin hướng dẫn đại tế vì lợi ích dài lâu. Những kết quả này thuộc diễn biến của truyện kinh; muốn biến thành một dự báo chính sách hiện đại cần những căn cứ khác."
+          ]
+        },
+        {
+          "id": "consent",
+          "kind": "teaching",
+          "heading": "Mười sáu điều kiện bắt đầu bằng bốn sự đồng thuận",
+          "meaningUnits": [
+            "consent"
+          ],
+          "paragraphs": [
+            "Tế sư yêu cầu xin chấp thuận từ bốn nhóm, mỗi nhóm gồm cả thành thị và nông thôn: Sát-đế-lợi chư hầu; đại thần và thành viên hội đồng; Bà-la-môn giàu có; gia chủ giàu có. Lời hỏi của vua nêu mục đích đại tế đem lợi ích và an lạc lâu dài cho mình.",
+            "Vua thực hiện lời khuyên; các nhóm đều nhận nay là lúc thích hợp và chấp thuận tổ chức. Bốn phía đồng thuận trở thành bốn điều kiện của lễ. “Mười sáu điều kiện” vì vậy không thể hiểu thành mười sáu món tế vật."
+          ]
+        },
+        {
+          "id": "eight-conditions",
+          "kind": "teaching",
+          "heading": "Tám phẩm chất của người chủ lễ",
+          "meaningUnits": [
+            "king-eight"
+          ],
+          "paragraphs": [
+            "Tám phẩm chất của Mahāvijita được kể theo bối cảnh vương quyền lúc ấy: (1) dòng dõi cha mẹ tốt đến bảy đời, không bị chỉ trích; (2) dung sắc đẹp, rạng rỡ, cao quý; (3) giàu vàng bạc, tài sản, vật dụng, tiền lúa và kho tàng; (4) có quân đội bốn binh chủng nghe lệnh, làm theo chỉ dẫn, dường như chỉ bằng uy danh đã có thể khuất phục đối phương.",
+            "Bốn phẩm chất tiếp là: (5) tín tâm, rộng rãi bố thí, cửa luôn mở như giếng nước cho sa-môn, Bà-la-môn, người nghèo, lữ khách, người lang thang và người ăn xin; (6) học rộng nhiều lĩnh vực; (7) hiểu ý nghĩa từng lời nói; (8) có trí suy xét vấn đề quá khứ, tương lai và hiện tại. Học rộng và hiểu nghĩa là hai mục khác nhau, nên danh sách đủ tám."
+          ]
+        },
+        {
+          "id": "four-conditions",
+          "kind": "teaching",
+          "heading": "Bốn phẩm chất của người tế sư",
+          "meaningUnits": [
+            "priest-four"
+          ],
+          "paragraphs": [
+            "Tế sư có bốn phẩm chất: dòng dõi hai bên thanh tịnh đến bảy đời; thuộc và thông ba Veda; giới hạnh trưởng thành; trí sáng và khả năng nghi lễ ở hàng thứ nhất hoặc thứ hai trong người cầm muỗng tế. Chi tiết muỗng tế đặt tiêu chuẩn trí ở đây trong vai trò chuyên môn của người chủ trì nghi thức.",
+            "Phần Veda lặp đủ các môn: từ vựng và nghi lễ, ngữ âm và phân tích từ, lịch sử truyền thống là môn thứ năm, từng từ và ngữ pháp, thế luận và tướng đại nhân. Bốn nhóm đồng thuận cộng tám phẩm chất vua cộng bốn phẩm chất tế sư thành mười sáu. Việc ghi đủ những tiêu chuẩn cổ này giúp theo dõi lập luận, trong khi kết luận của kinh còn đi xa hơn tiêu chuẩn nghi lễ ấy."
+          ]
+        },
+        {
+          "id": "giving-mind",
+          "kind": "teaching",
+          "heading": "Ba phương diện là ba thời của tâm người cho",
+          "meaningUnits": [
+            "three",
+            "ten"
+          ],
+          "paragraphs": [
+            "Trước lễ, tế sư dạy vua không hối tiếc khối tài sản lớn sắp hao khi chưa làm, đang hao khi làm, và đã hao sau khi làm. Đây là ba phương diện được hỏi từ đầu, có trục thời gian trước–trong–sau. Chúng đi sau việc an dân và chuẩn bị điều kiện, chứ không đứng riêng như một đòi hỏi phải chi cho thật nhiều.",
+            "Ông đồng thời hóa giải hối tiếc về người nhận theo mười cặp: sát sinh và tránh sát sinh; lấy của không cho và tránh việc ấy; tà hạnh tình dục và tránh tà hạnh; nói dối và không nói dối; nói chia rẽ và tránh chia rẽ; nói thô ác và tránh thô ác; nói phù phiếm và tránh phù phiếm; tham muốn và không tham muốn; sân hận và không sân hận; tà kiến và chánh kiến.",
+            "Lời khuyên có hai vế: người làm bất thiện chịu trách nhiệm về hành vi của mình; vua hướng tới người tránh bất thiện để tế lễ, xả thí, hoan hỷ và làm tâm mình trong sáng. Chủ thể được khuyên làm sáng tâm là vua. Đoạn này xử lý nỗi hối tiếc của người cho khi người tới nhận không đồng nhất về đạo đức; nó không biến một cuộc bố thí thành sự xóa nghiệp thay người khác."
+          ]
+        },
+        {
+          "id": "sixteen-reassurances",
+          "kind": "teaching",
+          "heading": "Mười sáu căn cứ an tâm khi lễ đang diễn ra",
+          "meaningUnits": [
+            "assurance-four",
+            "assurance-eight",
+            "assurance-priest"
+          ],
+          "paragraphs": [
+            "Trong lễ, tế sư dùng lại mười sáu điều kiện làm mười sáu phương diện chỉ dạy, khích lệ, làm vua phấn chấn và hoan hỷ. Nếu có người chê chưa hỏi các Sát-đế-lợi chư hầu, đại thần và hội đồng, Bà-la-môn giàu hay gia chủ giàu ở thành thị và nông thôn, lời chê ấy không có cơ sở vì vua đã hỏi đủ bốn nhóm.",
+            "Tám giả định tiếp là lời chê vua thiếu dòng dõi, dung sắc, tài sản, quân lực, tín tâm và bố thí, học rộng, hiểu nghĩa hoặc trí xét việc ba thời. Tế sư đối chiếu với việc vua đã đủ tám phẩm chất. Bốn giả định cuối là lời chê tế sư thiếu dòng dõi, Veda cùng các môn, giới hoặc trí ở hàng nhất nhì người cầm muỗng; chúng cũng không đúng với những gì đã kể.",
+            "Ở mỗi trường hợp, ông nhắc vua biết đúng căn cứ đó rồi tế lễ, xả thí, vui và làm tâm trong sáng. Đây là sự an tâm dựa trên đối chiếu lời phê với điều thật đã có. Kinh không đặt ra quyền bỏ qua mọi phê bình chỉ vì người chủ lễ có địa vị."
+          ]
+        },
+        {
+          "id": "conduct-of-ceremony",
+          "kind": "teaching",
+          "heading": "Không sát hại và quyền từ chối của người làm",
+          "meaningUnits": [
+            "nonharm"
+          ],
+          "paragraphs": [
+            "Đại tế này không giết bò, dê, cừu, gà, heo hoặc sinh vật nào khác; không chặt cây làm cọc tế, không cắt cỏ rải nơi lễ. Nô bộc, người phục vụ, công nhân không làm dưới đe dọa bằng gậy, trong sợ hãi hay nước mắt.",
+            "Sự tự nguyện được nói ở hai cấp: ai muốn làm thì làm, không muốn thì thôi; và trong các việc, họ làm điều mình muốn, không làm điều mình không muốn. Lễ hoàn tất chỉ bằng sáu vật phẩm: bơ sữa đã thắng, dầu, bơ tươi, sữa đông, mật ong, mật mía. Phần về sức người không thể bị rút còn một lời “lễ không sát sinh”."
+          ]
+        },
+        {
+          "id": "four-offerings",
+          "kind": "teaching",
+          "heading": "Từ chối tài sản dâng riêng và mở việc cho",
+          "meaningUnits": [
+            "offered-wealth",
+            "four-directions",
+            "sum"
+          ],
+          "paragraphs": [
+            "Bốn nhóm ở thành thị và nông thôn đem tài sản dâng riêng vua. Ông từ chối vì đã có đủ của cải từ thuế thu đúng pháp, bảo họ giữ phần ấy và còn mang thêm của ông về. Những người bị từ chối bàn rằng mang của trở về nhà không thích hợp; họ muốn cùng làm lễ theo vua.",
+            "Họ bố trí việc bố thí quanh khu tế: Sát-đế-lợi chư hầu ở đông; đại thần và hội đồng ở nam; Bà-la-môn giàu ở tây; gia chủ giàu ở bắc. Các lễ của họ cũng không giết bò, dê, cừu, gà, heo, sinh vật khác, không chặt cây hay cắt cỏ; không đe dọa, ép buộc hoặc khiến người làm khóc. Cả quyền không tham gia và quyền không làm việc không muốn đều được lặp lại, cùng đủ sáu vật phẩm bơ sữa, dầu, bơ tươi, sữa đông, mật ong, mật mía.",
+            "Phật tổng kết đúng cấu trúc: bốn phía đồng thuận, tám phẩm chất vua, bốn phẩm chất tế sư, cùng ba phương diện trước–trong–sau. Đó là thành tựu lễ tế với ba phương diện và mười sáu điều kiện."
+          ]
+        },
+        {
+          "id": "identity",
+          "kind": "teaching",
+          "heading": "Lời kể về một đời trước",
+          "meaningUnits": [
+            "silent",
+            "remembering"
+          ],
+          "paragraphs": [
+            "Các Bà-la-môn lớn tiếng tán thán, còn Kūṭadanta im lặng. Khi bị hỏi, ông phủ nhận mình không tán thán; ông nói mạnh rằng ai không khen lời hay ấy thì đầu hẳn vỡ. Cần giữ đúng người phát biểu: câu ấy của Kūṭadanta, không phải lời Phật đe người nghe.",
+            "Ông đang lưu ý lối kể của Gotama: nói sự việc lúc ấy đã diễn ra thế nào, không dùng “tôi nghe vậy” hay “hẳn phải như thế”. Ông suy chắc Gotama từng là chủ lễ Mahāvijita hoặc tế sư, rồi hỏi có nhớ từng tổ chức hoặc giúp tổ chức lễ ấy và sau khi chết sinh thiện thú, cõi trời không. Phật xác nhận cả việc nhớ và kết quả sinh trời, rồi nói chính mình là vị tế sư khi ấy. Thành tựu sinh trời trong chuyện được giữ riêng với thành tựu giải thoát sẽ nêu sau."
+          ]
+        },
+        {
+          "id": "regular-dana",
+          "kind": "teaching",
+          "heading": "Bố thí thường xuyên được đặt cao hơn",
+          "meaningUnits": [
+            "regular",
+            "attendance"
+          ],
+          "paragraphs": [
+            "Kūṭadanta hỏi một loại lễ khác ít tốn công, ít gây tổn hại mà có quả và lợi ích lớn hơn lễ ba phương diện, mười sáu điều kiện. Phật nói có, rồi nêu sự bố thí thường xuyên theo nếp gia đình, hướng đến người xuất gia có giới hạnh. Cách diễn đạt theo nếp gia đình theo lựa chọn giải nghĩa anukulayañña của bản Việt dự án; bản này không biến thuật ngữ ấy thành một yêu cầu phải có nghi thức cầu phúc riêng.",
+            "Khi được hỏi nhân duyên hơn, Phật nói A-la-hán và người đang đi trên đạo A-la-hán không dự những tế lễ có đánh bằng gậy và bóp cổ; các vị đến nơi bố thí đều đặn cho người có giới, vì không có các cảnh ấy. Đoạn này dùng bạo lực và sự vắng mặt của bạo lực để giải thích người nào đến nhận. Trước đó, chính lễ Mahāvijita đã được kể là không sát hại, không cưỡng bức; giữ cả hai đoạn giúp tránh gán ngược bạo lực vào câu chuyện vừa kể."
+          ]
+        },
+        {
+          "id": "larger-sequence",
+          "kind": "teaching",
+          "heading": "Trú xá và sự quy y với tâm trong sáng",
+          "meaningUnits": [
+            "dwelling",
+            "refuge-path"
+          ],
+          "paragraphs": [
+            "Kūṭadanta tiếp tục hỏi có điều hơn cả lễ ba phương diện, mười sáu điều kiện và bố thí thường xuyên. Sau lời xác nhận có, Phật nêu xây trú xá dành cho Tăng chúng bốn phương. Người nhận được xác định là cộng đồng Tăng từ khắp nơi, thay vì một người sở hữu riêng.",
+            "Hỏi nữa, nay cộng cả việc dâng trú xá, ông được đáp: với tâm tịnh tín, quy y Phật, Pháp và Tăng. Tịnh tín là lòng tin trong sáng, gắn với việc chọn nơi hướng về. Với từng bậc, phép so sánh vẫn đủ bốn vế: ít công hơn, ít tổn hại hơn, nhiều quả hơn, nhiều lợi ích hơn tất cả những bậc đã được nêu trước."
+          ]
+        },
+        {
+          "id": "five-rules",
+          "kind": "teaching",
+          "heading": "Từ nơi nương đến điều tự nhận giữ",
+          "meaningUnits": [
+            "precepts"
+          ],
+          "paragraphs": [
+            "Trước câu hỏi kế tiếp so cả các bậc trước và việc quy y, Phật nêu nhận giữ học giới với tâm tịnh tín: tránh sát sinh; tránh lấy của không cho; tránh tà hạnh trong các dục; tránh nói dối; tránh rượu men, rượu nấu và các chất say làm phát sinh phóng dật.",
+            "Học giới là điều tự nhận để rèn cách sống. Tà hạnh nói về hành vi tình dục sai trái, không phải đồng nhất mọi quan hệ tình cảm với điều cấm. Việc nhận giữ năm điều được đánh giá theo cùng bốn vế hơn các cấp trước; hướng đi của kinh đã từ vật dâng sang hành vi người dâng."
+          ]
+        },
+        {
+          "id": "higher-training",
+          "kind": "teaching",
+          "heading": "Giới, bốn thiền, tri kiến và giải thoát",
+          "meaningUnits": [
+            "meditation",
+            "liberation"
+          ],
+          "paragraphs": [
+            "Khi Kūṭadanta hỏi điều hơn cả đại tế, bố thí đều đặn, trú xá, quy y và học giới, Phật nêu sự xuất hiện của Như Lai, bậc A-la-hán Chánh Đẳng Giác, rồi người tỳ-kheo thành tựu giới. Các mốc tiếp là chứng và trú thiền thứ nhất, thứ hai, thứ ba, thứ tư; hướng và nghiêng tâm đến tri kiến; cuối cùng biết không còn trở lại trạng thái hiện hữu này.",
+            "Bản Pāli DN5 tại đây có nhiều dấu lược. Bản diễn giải giữ các mốc và lời so sánh thực có: các tầng thiền, tri kiến và điểm cuối đều được nêu là ít tốn công, ít gây hại, nhiều quả và lợi ích hơn những tế lễ trước. Không tự điền toàn bộ mô tả ở khoảng lược sẽ tránh làm người đọc tưởng DN5 đang kê một danh mục mà văn bản này không viết ra.",
+            "Phật kết rằng không có sự thành tựu tế lễ nào cao thượng hoặc thù thắng hơn thành tựu cuối ấy. Từ “tế lễ” đã được dùng để đưa người hỏi dọc con đường từ dâng vật tới sự giải thoát, chứ không chỉ để tối ưu một đại lễ. Lời dạy về mức cuối không phải lời chứng nhận Kūṭadanta đã đạt nó."
+          ]
+        },
+        {
+          "id": "commitment",
+          "kind": "teaching",
+          "heading": "Quy y đi cùng việc trả tự do",
+          "meaningUnits": [
+            "lay",
+            "release"
+          ],
+          "paragraphs": [
+            "Kūṭadanta hai lần tán thán, dùng bốn ví dụ: dựng vật bị úp, mở vật bị che, chỉ đường người lạc, thắp đèn trong tối để người có mắt thấy. Ông nói Pháp đã được mở rõ bằng nhiều cách, quy y Gotama, Pháp, Tăng tỳ-kheo và xin được nhận là nam cư sĩ quy y từ hôm ấy đến trọn đời.",
+            "Ông tuyên bố thả, cho sống đủ năm nhóm: bảy trăm bò đực trưởng thành, bảy trăm bò đực non, bảy trăm bò cái non, bảy trăm dê và bảy trăm cừu. Ông mong chúng ăn cỏ xanh, uống nước mát, hưởng gió mát. Số lượng và nhóm ở cuối nối chính xác với những vật tế được chuẩn bị ở đầu."
+          ]
+        },
+        {
+          "id": "attainment",
+          "kind": "teaching",
+          "heading": "Dạy theo thứ lớp và điều ông chứng thấy",
+          "meaningUnits": [
+            "gradual",
+            "vision"
+          ],
+          "paragraphs": [
+            "Phật tiếp tục thuyết theo thứ lớp: bố thí, giới hạnh, cõi trời; rồi nguy hại, tính thấp kém và cấu nhiễm của dục, cùng lợi ích của xuất ly. Chỉ khi biết tâm Kūṭadanta sẵn sàng, nhu nhuyễn, lìa triền cái, phấn khởi và tịnh tín, Ngài mới giảng pháp đặc biệt của chư Phật: khổ, nguồn gốc khổ, sự chấm dứt khổ, con đường dẫn tới chấm dứt khổ.",
+            "Ví như tấm vải sạch hết vết bẩn nhận màu nhuộm tốt, ngay tại chỗ ngồi, Pháp nhãn không bụi, không cấu uế khởi lên nơi ông: bất cứ gì có tính sinh khởi đều có tính chấm dứt. Đề mục kinh xác định đây là chứng quả Dự lưu. Bản kể không gán cho ông quả A-la-hán và không dừng sự học ở lợi ích sinh thiên."
+          ]
+        },
+        {
+          "id": "meal",
+          "kind": "teaching",
+          "heading": "Bữa ăn ở khu tế và lời Pháp cuối",
+          "meaningUnits": [
+            "invitation",
+            "meal",
+            "ending"
+          ],
+          "paragraphs": [
+            "Kūṭadanta đã thấy, đạt, hiểu, thâm nhập Pháp, vượt nghi, hết phân vân, có sự tự tin và không còn lệ thuộc người khác về giáo pháp của Bậc Đạo Sư. Ông mời Phật cùng Tăng dùng bữa ngày mai. Phật im lặng nhận; ông đảnh lễ, đi nhiễu giữ Ngài bên phải rồi ra về.",
+            "Qua đêm, ông chuẩn bị thức ăn ngon loại cứng và mềm tại chính khu tế lễ, cho người báo giờ. Buổi sáng, Phật đắp y, mang y bát cùng Tăng tới, ngồi chỗ soạn sẵn. Kūṭadanta tự tay phục vụ các vị đủ dùng; sau khi Phật ăn xong, rửa tay và bát, ông lấy ghế thấp ngồi một bên.",
+            "Phật giảng để chỉ dạy, khích lệ, làm ông phấn chấn và hoan hỷ, rồi đứng dậy ra đi. Nhãn cuối ghi kết thúc kinh Kūṭadanta, thứ năm. Nơi vốn dành cho tế vật nay là nơi cúng bữa ăn trong chính trình tự truyện."
+          ]
+        },
+        {
+          "id": "application",
+          "kind": "example",
+          "heading": "Đọc lại một việc thiện mình đang tổ chức",
+          "meaningUnits": [
+            "consent",
+            "nonharm",
+            "three"
+          ],
+          "paragraphs": [
+            "Một liên hệ hiện đại là việc tổ chức một cuộc quyên góp tại nơi làm việc. Có thể hỏi sự đồng thuận đã thực sự được lấy chưa, người tham gia có quyền từ chối cả việc tham gia lẫn từng việc cụ thể không, và người tổ chức có đang tiếc của rồi gây sức ép cho người nhận không. Đây là các câu hỏi gợi từ kinh; cơ cấu bốn nhóm xã hội cổ không được chuyển nguyên xi thành mô hình tổ chức ngày nay."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Theo dõi mục đích qua cả ba thời",
+          "meaningUnits": [
+            "three",
+            "precepts"
+          ],
+          "paragraphs": [
+            "Chọn một việc cho đã thuộc khả năng và quyền quyết định của mình. Ghi ngắn mục đích trước khi làm; khi làm, quan sát có đòi đổi lại danh tiếng hay sự biết ơn không; sau khi làm, nhìn lại cả tâm tiếc nuối lẫn cách mình giữ những điều đạo đức đã nhận. Bài tập này giúp nối việc cho với nếp sống, không dùng giá trị món quà để tự xếp mình vào một quả chứng."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "DN5 — Cho bằng tâm trong sáng, đi từng bước tới giải thoát",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Theo dõi một sự đổi hướng",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "animals"
+          ],
+          "paragraphs": [
+            "Đây là kinh Kūṭadanta, bài thứ năm của Trường Bộ. Người đọc có thể theo ba chặng: chuẩn bị lễ tế, hỏi điều gì có lợi hơn, rồi kết quả nơi người nghe. Những đề mục nhỏ đánh số trong kinh là cách chia đoạn của ấn bản.",
+            "Lời truyền nghe kể Phật du hành Magadha với khoảng năm trăm tỳ-kheo, đến làng Bà-la-môn Khāṇumata và ở Ambalaṭṭhikā. Kūṭadanta sống tại làng đông dân ấy, nơi đủ cỏ, củi, nước và lúa. Đó là lãnh địa vua Seniya Bimbisāra ban làm phần đất cho Bà-la-môn.",
+            "Ông chuẩn bị đại tế. Bảy trăm bò đực trưởng thành, bảy trăm bò đực non, bảy trăm bò cái non, bảy trăm dê và bảy trăm cừu đã được dẫn tới cọc tế. Năm nhóm được ghi riêng, để đến cuối bài thấy rõ toàn bộ những con vật ấy được trả tự do."
+          ]
+        },
+        {
+          "id": "heard",
+          "kind": "teaching",
+          "heading": "Dân làng nghe những gì về Gotama?",
+          "meaningUnits": [
+            "reputation",
+            "messenger"
+          ],
+          "paragraphs": [
+            "Dân chúng nghe Gotama thuộc dòng Sakya đã xuất gia, tới đây cùng khoảng năm trăm vị. Họ truyền các danh hiệu Thế Tôn, A-la-hán, Chánh Đẳng Giác: bậc đáng kính, tự giác ngộ trọn vẹn. Minh Hạnh Túc chỉ sự đầy đủ hiểu biết và cách sống; Thiện Thệ, Thế Gian Giải chỉ bậc đã đi đến điều lành và hiểu thế giới.",
+            "Danh hiệu tiếp là Vô Thượng Sĩ, Điều Ngự Trượng Phu, bậc dẫn dắt người cần được rèn luyện; Thiên Nhân Sư, thầy của trời và người; Phật, Thế Tôn. Lời truyền nói Ngài tự chứng biết rồi công bố về thế giới có chư thiên, Māra, Phạm thiên, sa-môn, Bà-la-môn, trời và người.",
+            "Pháp được kể là tốt đẹp cả đầu, giữa, cuối, đầy đủ nghĩa và lời, trình bày đời phạm hạnh hoàn toàn trong sạch. Dân thấy được gặp một bậc như vậy là tốt, nên tụ thành đoàn tới vườn.",
+            "Kūṭadanta đang nghỉ trưa trên lầu, nhìn thấy và hỏi quản gia. Người này nhắc nơi Gotama tới, đoàn tỳ-kheo, vườn đang trú cùng các danh hiệu ấy, rồi nói dân đang đi yết kiến."
+          ]
+        },
+        {
+          "id": "purpose",
+          "kind": "teaching",
+          "heading": "Một người chưa biết muốn đến hỏi",
+          "meaningUnits": [
+            "intention",
+            "visitors",
+            "rank"
+          ],
+          "paragraphs": [
+            "Kūṭadanta nghĩ mình đã nghe Gotama biết tế lễ có ba phương diện và mười sáu điều kiện. Chính ông chưa biết, lại muốn đại tế, nên cần hỏi. Ông sai quản gia nhắn mọi người chờ để cùng đi. Người quản gia vâng và đến chuyển lời.",
+            "Có nhiều trăm Bà-la-môn đến làng để dự lễ. Họ nghe tin, tới hỏi có thật ông định gặp Gotama không, và được xác nhận. Họ khuyên đừng đi, vì theo họ, làm vậy sẽ giảm danh ông, tăng danh Gotama. Họ muốn Gotama phải đến ông. Đó là ý kiến của nhóm bạn đang coi trọng thứ bậc."
+          ]
+        },
+        {
+          "id": "social-standing",
+          "kind": "teaching",
+          "heading": "Nhóm bạn kể các ưu thế của ông",
+          "meaningUnits": [
+            "learning",
+            "brahmin-qualities",
+            "land"
+          ],
+          "paragraphs": [
+            "Họ nêu dòng dõi cả cha và mẹ được coi là tốt đến bảy đời; nhiều vàng bạc; thuộc và thông ba Veda. Các môn đi kèm gồm từ vựng, nghi lễ, ngữ âm, phân tích từ, lịch sử truyền thống gọi là môn thứ năm, từng từ và ngữ pháp, thế luận và tướng đại nhân. Đây là nền học vấn của truyền thống Bà-la-môn.",
+            "Họ kể ông đẹp, có vẻ rạng rỡ cao quý; giới hạnh vững; nói tao nhã, rõ, lưu loát, dễ hiểu nghĩa. Ông làm thầy của các bậc thầy, dạy ba trăm thanh niên; người từ nhiều xứ và nước đến học chú.",
+            "Họ lấy tuổi cao của ông đối lại với Gotama còn trẻ, mới xuất gia. Họ nhắc vua Bimbisāra và Bà-la-môn Pokkharasāti kính trọng ông. Sau cùng là lãnh địa Khāṇumata đông dân, đủ cỏ, củi, nước, lúa do vua ban.",
+            "Qua các điều ấy, họ đều trở lại kết luận Gotama nên đến ông. Những phẩm chất về dòng dõi, tiền của và ngoại hình được thuật trong lời tranh luận; chúng chưa phải kết luận của bài kinh về điều nên làm."
+          ]
+        },
+        {
+          "id": "renunciation",
+          "kind": "teaching",
+          "heading": "Kūṭadanta nhìn về điều Gotama đã từ bỏ",
+          "meaningUnits": [
+            "renunciation",
+            "conduct"
+          ],
+          "paragraphs": [
+            "Kūṭadanta lại nói chính họ nên đi. Ông thừa nhận Gotama có dòng dõi hai bên được xem là tốt đến bảy đời, rồi nhấn đến việc Ngài đã bỏ đại gia đình và vàng bạc cất cả trên mặt đất lẫn dưới đất.",
+            "Ngài xuất gia lúc còn trẻ, tóc đen. Dù cha mẹ không thuận và khóc, Ngài vẫn cạo râu tóc, khoác cà-sa, rời đời sống gia đình. Ông kể tiếp dung sắc đẹp, giới hạnh cao quý, thiện lành, lời nói rõ nghĩa và vị thế thầy của nhiều bậc thầy.",
+            "Theo lời Kūṭadanta, Ngài đã hết tham dục, không phóng túng; dạy về nghiệp và hành động, không chủ trương làm hại cộng đồng Bà-la-môn. Ông còn nhắc Ngài xuất gia từ dòng Sát-đế-lợi không pha tạp và gia đình giàu có. Đoạn này là lời ông giải thích cho nhóm bạn vì sao muốn đến học."
+          ]
+        },
+        {
+          "id": "esteem",
+          "kind": "teaching",
+          "heading": "Những người tìm đến và cách Ngài tiếp người",
+          "meaningUnits": [
+            "influence",
+            "supporters"
+          ],
+          "paragraphs": [
+            "Ông nói nhiều người ở xứ xa, nước xa tới hỏi Gotama; nhiều ngàn chư thiên quy y trọn đời. Ông lặp chuỗi danh hiệu, kể ba mươi hai tướng đại nhân; rồi nói đến thái độ niềm nở, thân thiện, lịch sự, tươi cười, cởi mở và chào trước.",
+            "Bốn hội chúng kính trọng Ngài, nhiều trời người tin Ngài. Kūṭadanta còn kể nơi Ngài trú thì phi nhân không quấy nhiễu con người. Ngài dẫn dắt Tăng đoàn, hội chúng, đứng đầu các giáo tổ; danh tiếng do minh và hạnh vô thượng, tức hiểu biết đi cùng nếp sống, chứ không do những cách tạo danh khác.",
+            "Ba người được nêu đích danh là vua Bimbisāra, vua Pasenadi của Kosala, Bà-la-môn Pokkharasāti. Mỗi người cùng con, vợ, hội chúng và quan tùy thuộc trọn đời quy y. Kūṭadanta còn nhắc riêng rằng cả ba đều kính trọng Gotama."
+          ]
+        },
+        {
+          "id": "hospitality",
+          "kind": "teaching",
+          "heading": "Đi gặp cũng là kính trọng người khách",
+          "meaningUnits": [
+            "hospitality",
+            "meeting",
+            "request"
+          ],
+          "paragraphs": [
+            "Kūṭadanta nói một sa-môn hay Bà-la-môn tới địa phương là khách, nên được tiếp kính. Gotama đang ở Ambalaṭṭhikā chính là khách của họ. Ông nói những đức mình nhớ chưa hết, phẩm chất đáng ca ngợi của Ngài còn vô lượng.",
+            "Nghe vậy, các Bà-la-môn nhận rằng dù cách một trăm do-tuần, người con nhà lành có lòng tin cũng đáng mang lương thực đến gặp. Do-tuần là đơn vị đường dài xưa; ý câu nói là dù đường xa vẫn đáng đi. Họ cùng đi tới vườn.",
+            "Kūṭadanta chào hỏi Phật rồi ngồi bên. Người khác có người lễ, người chào hỏi, người chắp tay, người xưng tên họ, người im lặng rồi ngồi. Ông hỏi rõ điều mình chưa biết: cách thành tựu đại tế với ba phương diện và mười sáu điều kiện. Phật bảo nghe và khéo chú tâm; ông vâng."
+          ]
+        },
+        {
+          "id": "old-king",
+          "kind": "teaching",
+          "heading": "Chuyện vua Mahāvijita",
+          "meaningUnits": [
+            "king",
+            "unrest"
+          ],
+          "paragraphs": [
+            "Phật kể vua xưa Mahāvijita, giàu vàng bạc, của cải, vật dụng, tiền lúa, kho tàng đầy đủ, đã chinh phục và trị vì một vùng rộng lớn. Khi ở riêng, vua nghĩ đại tế sẽ đem lợi ích và an lạc lâu dài, nên mời tế sư để hỏi. Vua thuật lại ý nghĩ và xin được chỉ dạy.",
+            "Tế sư là người lo việc nghi lễ, nhưng lời đầu của ông nói về nạn cướp làng, thị trấn, thành phố, đường sá. Thu thuế giữa lúc dân đang bị quấy phá và áp bức là điều không nên.",
+            "Ông nói nếu chỉ dùng xử tử, giam cầm, tịch thu của, khiển trách hoặc trục xuất thì chưa nhổ tận nạn cướp. Người còn sống sót sẽ lại quấy đất nước. Lời khuyên dẫn vua nhìn việc đang làm dân khổ trước khi lo một lễ lớn."
+          ]
+        },
+        {
+          "id": "people",
+          "kind": "teaching",
+          "heading": "Ba khoản trợ giúp cụ thể",
+          "meaningUnits": [
+            "livelihood",
+            "result"
+          ],
+          "paragraphs": [
+            "Người làm nông và chăn nuôi cần được hạt giống, lương thực. Người buôn cần vốn. Người phục vụ triều đình cần có lương thực và tiền lương bảo đảm. Đó là ba khoản tế sư đề nghị.",
+            "Ông nói dân chuyên tâm việc mình thì không quấy nước; nguồn thu của vua tăng, nước an ổn. Kinh dùng một hình ảnh vui: cha mẹ bế con trước ngực nhảy múa, sống như nhà cửa có thể để mở.",
+            "Vua nghe theo, thực làm cả ba khoản. Câu chuyện kể dân chăm việc, thôi quấy nhiễu, nguồn thu tăng, nước yên, mọi người vui cùng con. Vua lại mời tế sư, nói nhờ phương án ấy mà có kết quả, rồi tiếp tục hỏi cách làm đại tế đem lợi ích lâu dài.",
+            "Nên giữ rõ đây là diễn biến của câu chuyện Mahāvijita. Điều có thể suy xét là sự chăm lo nhu cầu thực trước một buổi lễ, còn việc giải quyết một hoàn cảnh ngày nay cần hiểu chính hoàn cảnh ấy."
+          ]
+        },
+        {
+          "id": "agreement",
+          "kind": "teaching",
+          "heading": "Bốn nhóm chấp thuận",
+          "meaningUnits": [
+            "consent"
+          ],
+          "paragraphs": [
+            "Tế sư bảo vua xin chấp thuận nơi bốn nhóm ở cả thành thị và nông thôn. Nhóm thứ nhất là Sát-đế-lợi chư hầu. Thứ hai là đại thần và thành viên hội đồng. Thứ ba là Bà-la-môn giàu có. Thứ tư là gia chủ giàu có.",
+            "Vua hỏi rằng mình muốn làm đại tế vì lợi ích và an lạc lâu dài, các vị có chấp thuận không. Các nhóm đều đáp vua hãy làm, nay là lúc thích hợp. Cả lời đề nghị và việc vua thực hiện đều có trong kinh.",
+            "Bốn phía đồng thuận này là bốn điều kiện đầu. Từ “điều kiện” gồm người và sự chấp thuận, giúp hiểu đúng số mười sáu đang được hỏi."
+          ]
+        },
+        {
+          "id": "king-qualities",
+          "kind": "teaching",
+          "heading": "Tám phẩm chất được kể về nhà vua",
+          "meaningUnits": [
+            "king-eight"
+          ],
+          "paragraphs": [
+            "Bốn phẩm chất đầu là dòng dõi hai bên cha mẹ được coi tốt đến bảy đời; dung sắc đẹp, rạng rỡ và cao quý; nhiều vàng bạc, tài sản, vật dụng, tiền lúa, kho đầy; quân đội bốn binh chủng nghe lệnh, làm theo chỉ dẫn, dường như chỉ bằng uy danh đã có thể khiến đối phương khuất phục.",
+            "Phẩm chất thứ năm là tín tâm và lòng bố thí: cửa mở như giếng nước cho sa-môn, Bà-la-môn, người nghèo, lữ khách, người lang thang và người xin ăn. Hình ảnh giếng nước diễn tả một nơi có thể tìm đến để được trợ giúp.",
+            "Thứ sáu là học rộng nhiều lĩnh vực. Thứ bảy là hiểu rõ ý nghĩa các lời nói. Thứ tám là trí suy xét việc quá khứ, tương lai, hiện tại. Hai điều “học rộng” và “hiểu nghĩa” cần được giữ riêng để đủ tám."
+          ]
+        },
+        {
+          "id": "priest-qualities",
+          "kind": "teaching",
+          "heading": "Bốn phẩm chất của tế sư",
+          "meaningUnits": [
+            "priest-four"
+          ],
+          "paragraphs": [
+            "Tế sư có dòng dõi hai bên được coi thanh tịnh đến bảy đời; tụng, nhớ và thông ba Veda; giới hạnh vững; có trí, đứng thứ nhất hoặc thứ hai trong những người cầm muỗng tế lễ. Chiếc muỗng ở đây thuộc nghi lễ, cho thấy vai trò chuyên môn của ông.",
+            "Phần Veda gồm cả từ vựng, nghi lễ, ngữ âm, phân tích từ, lịch sử truyền thống là môn thứ năm, từng từ, ngữ pháp, thế luận và tướng đại nhân. Những điều này lặp nền học vấn đã kể ở đầu.",
+            "Bốn nhóm đồng thuận cộng tám phẩm chất vua cộng bốn phẩm chất tế sư là mười sáu điều kiện. Tiêu chuẩn dòng dõi và dung sắc thuộc cách trình bày xã hội, nghi lễ xưa trong truyện; toàn bài còn tiếp tục hỏi điều gì cao hơn."
+          ]
+        },
+        {
+          "id": "before-after",
+          "kind": "teaching",
+          "heading": "Ba thời của sự không hối tiếc",
+          "meaningUnits": [
+            "three"
+          ],
+          "paragraphs": [
+            "Trước khi lễ bắt đầu, tế sư dặn vua: đừng tiếc khối tài sản sắp hao trước lúc làm; đừng tiếc khối tài sản đang hao khi làm; đừng tiếc khối tài sản đã hao sau khi làm. Ba phương diện chính là trước, trong và sau ấy.",
+            "Lời dặn giúp tâm người cho không rút lại bằng hối tiếc. Nó nằm trong câu chuyện mà vua đã lo cho dân, có đủ tài sản và hỏi sự đồng thuận, nên cần đọc liền với các điều kiện ấy."
+          ]
+        },
+        {
+          "id": "recipients",
+          "kind": "teaching",
+          "heading": "Mười cặp người đến nhận",
+          "meaningUnits": [
+            "ten"
+          ],
+          "paragraphs": [
+            "Tế sư biết người đến nhận không đều giống nhau. Ông nêu mười cặp đối nhau để giúp vua khỏi hối tiếc về họ. Ba cặp đầu thuộc hành vi: sát sinh hoặc tránh sát sinh; lấy của không cho hoặc tránh lấy; tà hạnh trong quan hệ tình dục hoặc tránh tà hạnh.",
+            "Bốn cặp thuộc lời nói: nói dối hoặc không nói dối; nói chia rẽ hoặc không chia rẽ; nói thô ác hoặc không thô ác; nói phù phiếm hoặc tránh phù phiếm. Ba cặp cuối là tham muốn hoặc không tham muốn; sân hận hoặc không sân hận; tà kiến hoặc chánh kiến.",
+            "Người làm bất thiện chịu trách nhiệm về hành vi ấy. Vua hãy hướng đến người tránh bất thiện để tế lễ, xả thí, vui và làm tâm mình trong sáng. Lời này hướng vào tâm vua là người cho. Nó không nói việc bố thí làm mọi hành vi của người nhận bỗng trở thành tốt."
+          ]
+        },
+        {
+          "id": "reassurance",
+          "kind": "teaching",
+          "heading": "Mười sáu lý do giúp nhà vua an tâm",
+          "meaningUnits": [
+            "assurance-four",
+            "assurance-eight",
+            "assurance-priest"
+          ],
+          "paragraphs": [
+            "Đến lúc lễ đang diễn ra, tế sư khích lệ vua bằng mười sáu phương diện. Bốn điều đầu: nếu ai chê vua chưa hỏi một trong bốn nhóm thành thị và nông thôn thì lời chê không có cơ sở, vì vua đã hỏi. Bốn nhóm ấy vẫn là chư hầu, đại thần và hội đồng, Bà-la-môn giàu, gia chủ giàu.",
+            "Tám điều tiếp đối chiếu lời chê vua thiếu dòng dõi, dung sắc, tài sản, quân lực, tín tâm và bố thí, học rộng, hiểu nghĩa hay trí xét ba thời. Theo câu chuyện, vua có đủ từng điều, nên những lời chê giả định ấy không đúng.",
+            "Bốn điều cuối đối chiếu lời chê tế sư thiếu dòng dõi, Veda, giới hạnh, trí và vị trí nhất nhì người cầm muỗng. Tế sư đã có đủ. Mỗi lần, vua được nhắc biết đúng căn cứ rồi tế lễ, xả thí, hoan hỷ và làm tâm trong sáng.",
+            "Phần này kết bằng việc vua được chỉ dạy, khích lệ, làm phấn chấn và vui theo mười sáu phương diện. An tâm được gắn với sự thật đã có, không phải chỉ tự bảo mình đúng để khỏi nghe người khác."
+          ]
+        },
+        {
+          "id": "ceremony",
+          "kind": "teaching",
+          "heading": "Cả sinh vật và người làm đều không bị hại",
+          "meaningUnits": [
+            "nonharm"
+          ],
+          "paragraphs": [
+            "Lễ Mahāvijita không giết bò, dê, cừu, gà, heo hay sinh vật khác. Không cây bị chặt làm cọc tế, không cỏ bị cắt rải nơi lễ.",
+            "Nô bộc, người phục vụ và người làm công không bị đe bằng gậy, không phải làm vì sợ hay vừa khóc vừa làm. Ai muốn làm thì làm, ai không muốn thì thôi. Họ làm việc mình muốn, không phải làm việc mình không muốn.",
+            "Lễ chỉ dùng sáu thứ: bơ sữa đã thắng, dầu, bơ tươi, sữa đông, mật ong, mật mía. Kinh dành lời rõ cho cả quyền từ chối tham gia và quyền chọn công việc của người làm."
+          ]
+        },
+        {
+          "id": "wealth",
+          "kind": "teaching",
+          "heading": "Nhà vua không nhận thêm của dâng riêng",
+          "meaningUnits": [
+            "offered-wealth",
+            "four-directions"
+          ],
+          "paragraphs": [
+            "Bốn nhóm ở cả thành thị và nông thôn đem nhiều tài sản dâng riêng vua. Vua nói đã đủ tài sản nhờ thuế thu đúng pháp. Ông bảo họ giữ phần ấy và còn lấy thêm từ chỗ ông về.",
+            "Họ lui ra bàn rằng đem của về nhà không thích hợp, nên cùng bố thí theo vua. Sát-đế-lợi chư hầu đặt việc bố thí ở đông khu tế; đại thần và hội đồng ở nam; Bà-la-môn giàu ở tây; gia chủ giàu ở bắc."
+          ]
+        },
+        {
+          "id": "same-care",
+          "kind": "teaching",
+          "heading": "Những lễ bên cạnh giữ cùng cách làm",
+          "meaningUnits": [
+            "sum"
+          ],
+          "paragraphs": [
+            "Tại các lễ ấy cũng không giết bò, dê, cừu, gà, heo hay loài khác; không chặt cây hoặc cắt cỏ. Người làm không bị đe, sợ hay khóc mà làm. Họ được không tham gia nếu không muốn, và không phải làm việc mình không muốn.",
+            "Sáu vật phẩm vẫn là bơ sữa, dầu, bơ tươi, sữa đông, mật ong, mật mía. Phật kết lại: bốn nhóm chấp thuận, tám điều ở vua, bốn điều ở tế sư, cùng ba phương diện. Đó là lễ thành tựu theo ba phương diện và mười sáu điều kiện."
+          ]
+        },
+        {
+          "id": "silence",
+          "kind": "teaching",
+          "heading": "Sự im lặng có một câu hỏi bên trong",
+          "meaningUnits": [
+            "silent",
+            "remembering"
+          ],
+          "paragraphs": [
+            "Các Bà-la-môn lớn tiếng khen lễ tuyệt vời. Kūṭadanta vẫn im lặng. Khi họ hỏi, ông nói mình không phải không tán thán; ông còn nói ai không tán thán lời hay ấy thì đầu hẳn sẽ vỡ. Câu mạnh ấy do ông nói.",
+            "Ông đang suy xét cách Gotama kể rõ chuyện lúc ấy đã xảy ra, không nói chỉ nghe truyền hoặc đoán rằng nên như vậy. Ông suy chắc Gotama từng là vua Mahāvijita hoặc người tế sư.",
+            "Kūṭadanta hỏi Phật có nhớ từng tổ chức hoặc giúp tổ chức lễ ấy rồi sau khi chết sinh thiện thú, cõi trời không. Phật nhận có nhớ đầy đủ việc ấy, và xác định mình là tế sư giúp tổ chức khi xưa. Kinh phân biệt người tế sư với vua, cũng phân biệt kết quả sinh trời với giải thoát sẽ được nói tới sau."
+          ]
+        },
+        {
+          "id": "regular",
+          "kind": "teaching",
+          "heading": "Cho đều đặn có thể hơn một đại lễ",
+          "meaningUnits": [
+            "regular",
+            "attendance"
+          ],
+          "paragraphs": [
+            "Kūṭadanta hỏi có lễ nào ít tốn công, ít gây hại, mà nhiều quả và lợi ích hơn đại tế vừa kể. Phật nói có. Đó là bố thí thường xuyên theo nếp gia đình, dâng cho người xuất gia có giới hạnh.",
+            "Hỏi lý do, ông được nghe: bậc A-la-hán và người đang đi trên đạo A-la-hán không tới tế lễ có đánh bằng gậy và bóp cổ. Các vị đến nơi bố thí thường xuyên cho người có giới, vì không có những cảnh ấy.",
+            "Hai điều cần đọc đúng chỗ: lễ Mahāvijita đã được kể là không giết, không ép người; đoạn lý do sau nói đến loại tế có bạo lực và loại bố thí không bạo lực. Không cần thêm cảnh đánh đập vào câu chuyện vị vua để nối hai đoạn."
+          ]
+        },
+        {
+          "id": "dwelling",
+          "kind": "teaching",
+          "heading": "Một nơi ở dành cho Tăng bốn phương",
+          "meaningUnits": [
+            "dwelling"
+          ],
+          "paragraphs": [
+            "Ông hỏi điều gì hơn cả đại tế và bố thí thường xuyên. Phật xác nhận có, rồi nêu xây trú xá cho Tăng chúng bốn phương. Trú xá là nơi ở của người tu; “bốn phương” nói việc dành cho Tăng từ khắp nơi.",
+            "Câu trả lời giữ đủ bốn mặt: ít công hơn, ít gây hại hơn, quả lớn hơn, lợi ích lớn hơn các việc trước. Các câu hỏi tiếp tục theo cách ấy, mỗi lần bao gồm cả những bậc đã nói."
+          ]
+        },
+        {
+          "id": "refuge",
+          "kind": "teaching",
+          "heading": "Lòng tin có nơi hướng về",
+          "meaningUnits": [
+            "refuge-path"
+          ],
+          "paragraphs": [
+            "Hỏi tiếp, kể cả dâng trú xá, Kūṭadanta được nghe về một người có tâm tịnh tín quy y Phật, Pháp và Tăng. Tịnh tín là lòng tin trong sáng; quy y là chọn nơi nương, hướng về bậc giác ngộ, lời dạy và cộng đồng tu hành.",
+            "Việc này cũng được Phật nói là ít công, ít hại, nhiều quả và lợi hơn toàn bộ các bậc trước. Kinh đã đưa sự chú ý từ công việc bên ngoài vào tâm người thực hiện."
+          ]
+        },
+        {
+          "id": "rules",
+          "kind": "teaching",
+          "heading": "Năm điều nhận giữ trong đời sống",
+          "meaningUnits": [
+            "precepts"
+          ],
+          "paragraphs": [
+            "Câu hỏi kế tiếp kể cả việc quy y. Phật đáp có một mức hơn: với tâm tịnh tín, nhận giữ năm học giới. Đó là tránh sát sinh, tránh lấy của không cho, tránh tà hạnh trong các dục, tránh nói dối, tránh rượu men, rượu nấu và các chất say dẫn tới phóng dật.",
+            "Học giới là điều tự nhận để tập sống; phóng dật là buông lung, mất sự gìn giữ. Tà hạnh ở đây thuộc hành vi tình dục sai trái. Năm điều được nêu đủ, cùng lời đánh giá hơn các bậc trước về công, sự gây hại, quả và lợi ích."
+          ]
+        },
+        {
+          "id": "higher",
+          "kind": "teaching",
+          "heading": "Bốn thiền và sự biết thấy",
+          "meaningUnits": [
+            "meditation",
+            "liberation"
+          ],
+          "paragraphs": [
+            "Kūṭadanta hỏi thêm điều hơn cả lễ lớn, bố thí đều, trú xá, quy y và học giới. Phật nêu một Như Lai, bậc A-la-hán Chánh Đẳng Giác, xuất hiện ở đời; người tỳ-kheo thành tựu giới, rồi chứng và trú thiền thứ nhất, thứ hai, thứ ba, thứ tư.",
+            "Tiếp đó là hướng tâm tới tri kiến, tức biết và thấy; cuối cùng biết không còn trở lại trạng thái hiện hữu này. Tại mỗi mốc, lời kinh vẫn đánh giá ít công, ít gây hại, nhiều quả và lợi hơn những lễ trước.",
+            "Đoạn Pāli này dùng nhiều dấu lược, nên bản diễn giải chỉ nối các mốc được nêu rõ. Nó không tự điền một chuỗi chi tiết khác vào chỗ lược. Bốn thiền là những mức an định sâu được dạy trong tiến trình tu, không phải tên gọi cho một chút dễ chịu khi làm việc thiện.",
+            "Phật nói không có thành tựu tế lễ nào cao hơn, thù thắng hơn thành tựu giải thoát cuối ấy. Đó là điểm đến của lời dạy, chưa phải lời xác nhận Kūṭadanta đã chứng điểm cuối."
+          ]
+        },
+        {
+          "id": "turning",
+          "kind": "teaching",
+          "heading": "Lời quy y và hành động tiếp theo",
+          "meaningUnits": [
+            "lay",
+            "release"
+          ],
+          "paragraphs": [
+            "Kūṭadanta khen hai lần, rồi ví Pháp được làm rõ như dựng vật bị úp, mở vật bị che, chỉ đường cho người lạc và đưa đèn vào tối để người có mắt thấy. Ông quy y Gotama, Pháp, Tăng tỳ-kheo, xin được nhận là nam cư sĩ quy y trọn đời từ ngày ấy.",
+            "Ông tuyên bố thả và cho sống bảy trăm bò đực trưởng thành, bảy trăm bò đực non, bảy trăm bò cái non, bảy trăm dê và bảy trăm cừu. Lời chúc của ông là chúng được ăn cỏ xanh, uống nước mát và hưởng gió mát. Đủ năm nhóm con vật ở đầu bài đều được nhắc lại."
+          ]
+        },
+        {
+          "id": "step-by-step",
+          "kind": "teaching",
+          "heading": "Phật biết khi nào nên dạy bước tiếp",
+          "meaningUnits": [
+            "gradual",
+            "vision"
+          ],
+          "paragraphs": [
+            "Phật dạy tiếp theo thứ lớp: bố thí, giới hạnh, cõi trời. Ngài chỉ nguy hại, tính thấp kém và cấu nhiễm của dục, cùng lợi ích của xuất ly, tức rời sự vướng mắc vào dục.",
+            "Khi biết tâm Kūṭadanta sẵn sàng, nhu nhuyễn, không còn bị những chướng ngại che lấp, phấn khởi và tịnh tín, Ngài mới dạy khổ, nguyên nhân của khổ, sự chấm dứt khổ, con đường dẫn đến chấm dứt khổ.",
+            "Ví như vải sạch hết vết bẩn nhận màu nhuộm tốt, ngay tại chỗ ngồi, Pháp nhãn không bụi cấu khởi lên nơi ông. Ông thấy điều gì có tính sinh khởi đều có tính chấm dứt. Đề mục của bản kinh gọi đây là chứng quả Dự lưu; không gọi ông đã là A-la-hán."
+          ]
+        },
+        {
+          "id": "inviting",
+          "kind": "teaching",
+          "heading": "Từ thấy Pháp đến mời cúng bữa ăn",
+          "meaningUnits": [
+            "invitation"
+          ],
+          "paragraphs": [
+            "Kinh kể ông thấy, đạt, hiểu và thâm nhập Pháp, qua nghi ngờ và do dự, có sự tự tin, không phải dựa vào người khác về giáo pháp của Bậc Đạo Sư. Ông mời Phật cùng Tăng dùng bữa ngày mai.",
+            "Phật nhận bằng sự im lặng. Biết Ngài đã nhận, Kūṭadanta đứng dậy lễ, đi nhiễu giữ Phật bên phải rồi ra về."
+          ]
+        },
+        {
+          "id": "closing",
+          "kind": "teaching",
+          "heading": "Bữa ăn tại chính khu tế lễ",
+          "meaningUnits": [
+            "meal",
+            "ending"
+          ],
+          "paragraphs": [
+            "Sau đêm ấy, ông cho chuẩn bị thức ăn ngon loại cứng và mềm ngay tại khu tế lễ, rồi báo giờ. Buổi sáng Phật đắp y, mang y bát, cùng Tăng đến ngồi chỗ đã chuẩn bị.",
+            "Kūṭadanta tự tay phục vụ các vị đủ dùng. Khi Phật ăn xong, rửa tay và bát, ông lấy ghế thấp ngồi bên. Phật giảng Pháp để chỉ dạy, khích lệ, làm ông phấn chấn và hoan hỷ, rồi đứng dậy ra đi.",
+            "Nhãn cuối ghi kinh Kūṭadanta, bài thứ năm, kết thúc. Câu chuyện giữ cả thay đổi trong việc làm, sự thấy Pháp và cuộc gặp sau bữa ăn."
+          ]
+        },
+        {
+          "id": "reflection",
+          "kind": "practice",
+          "heading": "Một lần nhớ lại việc đã cho",
+          "meaningUnits": [
+            "three",
+            "nonharm"
+          ],
+          "paragraphs": [
+            "Có thể lấy một việc chia sẻ đã làm để suy xét: trước khi cho mình có thật sự muốn, khi làm có ép ai cùng làm, sau đó có buộc người nhận phải biết ơn theo ý mình không? Đây là câu hỏi nối ba thời của tâm với sự không cưỡng ép trong bài. Một việc nhỏ cũng có thể là chỗ quan sát rõ những điều ấy."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Cùng việc tốt, mỗi người một phần tự nguyện",
+          "meaningUnits": [
+            "consent",
+            "nonharm",
+            "precepts"
+          ],
+          "paragraphs": [
+            "Chẳng hạn một gia đình muốn chuẩn bị bữa ăn chung để cúng hoặc giúp người. Mỗi người được hỏi và chọn phần mình muốn làm; người không tham gia không bị trách móc. Sau việc chung, gia đình vẫn quan tâm lời nói thật và cách cư xử hằng ngày. Đây là ví dụ để liên hệ việc cho với giới hạnh, không phải một nghi lễ mới được thêm vào kinh."
+          ]
+        }
+      ]
+    }
+  }
+}

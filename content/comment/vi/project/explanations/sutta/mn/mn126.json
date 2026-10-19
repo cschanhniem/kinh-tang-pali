@@ -1,0 +1,1338 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn126",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn126_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "bce6bc0a758fc2d750885c8ed01d9321eee64aac912aa3a8a04b355e1ad6b809"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn126_translation-vi-project.json",
+      "commit": "87288fe96fd977f95fc7dee56ab8f41b927176ba",
+      "sha256": "65faf6b8c45a05941eec7cad2a47cbceaf1378d749c600913448ddbbd1dcc9be"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn126_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "2d01ccd9372e4c57fa8bf979f368ec1fb2ad2253c5862589977bc510bfa8f44c"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn126.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "eb858c9cd35e659bcc9c5e4e223348bbc2e986940db87bac539370c62ed3556a"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn126_comment-vi-project.json",
+      "commit": "87288fe96fd977f95fc7dee56ab8f41b927176ba",
+      "sha256": "23dd0e448044714cb94fa9530be411110e67dc62cfb54d9c19abd8603e252f09"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Tên bài",
+      "segments": [
+        "mn126:0.1",
+        "mn126:0.2"
+      ],
+      "summary": "Trung Bộ 126, Kinh Bhūmija."
+    },
+    {
+      "id": "setting",
+      "title": "Điều đã nghe ở Trúc Lâm",
+      "segments": [
+        "mn126:1.1",
+        "mn126:1.2"
+      ],
+      "summary": "Người truyền kinh đã nghe: Phật ở gần Rājagaha, Trúc Lâm, khu nuôi sóc."
+    },
+    {
+      "id": "visit",
+      "title": "Bhūmija đến nhà vương tử",
+      "segments": [
+        "mn126:2.1"
+      ],
+      "summary": "Buổi sáng Bhūmija đắp y, mang bát/y ngoài, đến trú xứ Jayasena và ngồi nơi đã soạn."
+    },
+    {
+      "id": "greetings",
+      "title": "Chào hỏi và ngồi một bên",
+      "segments": [
+        "mn126:3.1",
+        "mn126:3.2"
+      ],
+      "summary": "Jayasena đến, chào hỏi thân hữu, trao đổi lời thân tình rồi ngồi một bên và hỏi Bhūmija."
+    },
+    {
+      "id": "four-claims",
+      "title": "Bốn cách ước nguyện trong lời thuật",
+      "segments": [
+        "mn126:3.3",
+        "mn126:3.4",
+        "mn126:3.5",
+        "mn126:3.6",
+        "mn126:3.7"
+      ],
+      "summary": "Vương tử thuật một số sa-môn/bà-la-môn chủ trương cả có ước nguyện, không, vừa có vừa không, không phải có cũng không phải không mà hành phạm hạnh đều không thể đạt quả. Đây là chủ thuyết được vương tử thuật lại, không phải lời Phật."
+    },
+    {
+      "id": "teacher-question",
+      "title": "Đạo sư nói gì?",
+      "segments": [
+        "mn126:3.8"
+      ],
+      "summary": "Vương tử hỏi Đạo sư của Bhūmija nói và giải thích thế nào."
+    },
+    {
+      "id": "reservation",
+      "title": "Chưa trực tiếp nghe, chỉ nêu khả năng",
+      "segments": [
+        "mn126:4.1",
+        "mn126:4.2"
+      ],
+      "summary": "Bhūmija chưa trực tiếp nghe/tiếp nhận điều này từ Phật; có thể Phật sẽ trả lời như sau."
+    },
+    {
+      "id": "proposed-wrong",
+      "title": "Bốn cách cùng bất như lý",
+      "segments": [
+        "mn126:4.3",
+        "mn126:4.4",
+        "mn126:4.5",
+        "mn126:4.6"
+      ],
+      "summary": "Nếu thực hành phạm hạnh bất như lý thì cả bốn cách ước nguyện đều không thể đạt quả."
+    },
+    {
+      "id": "proposed-right",
+      "title": "Bốn cách cùng như lý",
+      "segments": [
+        "mn126:4.7",
+        "mn126:4.8",
+        "mn126:4.9",
+        "mn126:4.10"
+      ],
+      "summary": "Nếu thực hành phạm hạnh như lý thì cả bốn cách ước nguyện đều có thể đạt quả; giữ nghĩa khả năng, không bảo đảm tự động."
+    },
+    {
+      "id": "reservation-again",
+      "title": "Nhắc lại giới hạn lời đáp",
+      "segments": [
+        "mn126:4.11",
+        "mn126:4.12"
+      ],
+      "summary": "Bhūmija nhắc lại chưa trực tiếp nghe/tiếp nhận và chỉ nói khả năng Phật giải đáp như thế."
+    },
+    {
+      "id": "prince-praise",
+      "title": "Lời khen có điều kiện của Jayasena",
+      "segments": [
+        "mn126:5.1"
+      ],
+      "summary": "Nếu Đạo sư nói/giải thích vậy, vương tử nghĩ Ngài cao hơn tất cả sa-môn/bà-la-môn tầm thường; giữ điều kiện và chủ thể người nhận xét."
+    },
+    {
+      "id": "meal",
+      "title": "Vương tử dùng đồ ăn của mình thết đãi",
+      "segments": [
+        "mn126:6.1"
+      ],
+      "summary": "Jayasena tự thết Bhūmija bằng phần cơm của chính mình; thālipāka được dịch nồi cơm/bát ăn/own dish, không ép thành hành vi dùng chung bát."
+    },
+    {
+      "id": "return",
+      "title": "Sau bữa ăn đến gặp Phật",
+      "segments": [
+        "mn126:7.1"
+      ],
+      "summary": "Sau ăn, trở về từ khất thực, Bhūmija đến Phật, đảnh lễ, ngồi một bên và bạch."
+    },
+    {
+      "id": "retell-visit",
+      "title": "Thuật lại buổi đến thăm",
+      "segments": [
+        "mn126:7.2",
+        "mn126:7.3",
+        "mn126:7.4"
+      ],
+      "summary": "Bhūmija thuật sáng đắp y, mang bát/y ngoài, đến chỗ soạn; Jayasena đến chào hỏi, thân tình, ngồi một bên rồi hỏi."
+    },
+    {
+      "id": "retell-question",
+      "title": "Thuật đủ câu hỏi bốn nhánh",
+      "segments": [
+        "mn126:7.5",
+        "mn126:7.6",
+        "mn126:7.7",
+        "mn126:7.8",
+        "mn126:7.9",
+        "mn126:7.10"
+      ],
+      "summary": "Trong lời kể, nhắc nguyên bốn cách ước nguyện cùng chủ trương không thể đạt quả và câu hỏi về lời Đạo sư."
+    },
+    {
+      "id": "retell-reservation",
+      "title": "Thuật lời đáp thận trọng",
+      "segments": [
+        "mn126:7.11",
+        "mn126:7.12",
+        "mn126:7.13"
+      ],
+      "summary": "Bhūmija kể mình đã đáp chưa trực tiếp nghe/nhận từ Phật, chỉ nêu khả năng Ngài sẽ giải như thế."
+    },
+    {
+      "id": "retell-wrong",
+      "title": "Thuật nhánh bất như lý",
+      "segments": [
+        "mn126:7.14",
+        "mn126:7.15",
+        "mn126:7.16",
+        "mn126:7.17"
+      ],
+      "summary": "Trong lời tự thuật đủ cả bốn cách ước nguyện, nếu bất như lý thì không thể đạt quả."
+    },
+    {
+      "id": "retell-right",
+      "title": "Thuật nhánh như lý",
+      "segments": [
+        "mn126:7.18",
+        "mn126:7.19",
+        "mn126:7.20",
+        "mn126:7.21"
+      ],
+      "summary": "Trong lời tự thuật đủ cả bốn cách ước nguyện, nếu như lý thì có thể đạt quả; mở dấu lược theo công thức đầy đủ cùng bài."
+    },
+    {
+      "id": "retell-reservation-again",
+      "title": "Thuật lời dè dặt nhắc lại",
+      "segments": [
+        "mn126:7.22",
+        "mn126:7.23"
+      ],
+      "summary": "Bhūmija kể đã lặp lại việc chưa trực tiếp nghe/nhận và chỉ nêu khả năng Phật đáp vậy."
+    },
+    {
+      "id": "retell-praise",
+      "title": "Thuật lại lời khen có điều kiện",
+      "segments": [
+        "mn126:7.24"
+      ],
+      "summary": "Bhūmija thuật lời Jayasena: nếu thầy nói/giải vậy, vương tử nghĩ thầy vượt các sa-môn/bà-la-môn tầm thường."
+    },
+    {
+      "id": "verification",
+      "title": "Hỏi bốn mặt của sự nói đúng",
+      "segments": [
+        "mn126:7.25"
+      ],
+      "summary": "Bhūmija hỏi mình có nói đúng lời Phật, không gán điều không thật, giải thích thuận Pháp và không có cơ sở hợp Pháp để chỉ trích hay không."
+    },
+    {
+      "id": "confirmation",
+      "title": "Phật xác nhận đủ bốn mặt",
+      "segments": [
+        "mn126:8.1"
+      ],
+      "summary": "Phật xác nhận Bhūmija nói đúng lời Ngài, không gán điều không thật, giải thích thuận Pháp, không có cơ sở hợp Pháp để chỉ trích."
+    },
+    {
+      "id": "wrong-path",
+      "title": "Tám mặt sai lệch",
+      "segments": [
+        "mn126:9.1",
+        "mn126:9.2",
+        "mn126:9.3",
+        "mn126:9.4",
+        "mn126:9.5",
+        "mn126:9.6"
+      ],
+      "summary": "Đủ tà kiến/tư duy/ngữ/nghiệp/mạng/tinh tấn/niệm/định; người như vậy hành phạm hạnh với bất cứ cách nào trong bốn cách ước nguyện đều không thể đạt quả. Hỏi vì sao và đáp đây không phải phương pháp đạt quả."
+    },
+    {
+      "id": "sand",
+      "title": "Ép cát để tìm dầu",
+      "segments": [
+        "mn126:10.1",
+        "mn126:10.2",
+        "mn126:10.3",
+        "mn126:10.4",
+        "mn126:10.5",
+        "mn126:10.6",
+        "mn126:10.7"
+      ],
+      "summary": "Người cần/tìm/đi tìm dầu đổ cát vào thùng, rắc nước và ép từng chút. Cả bốn cách ước nguyện đều không thể được vật muốn tìm; vì đây không phải cách để được vật ấy."
+    },
+    {
+      "id": "sand-application",
+      "title": "Áp dụng ví dụ vào tám mặt sai",
+      "segments": [
+        "mn126:10.8",
+        "mn126:10.9",
+        "mn126:10.10",
+        "mn126:10.11",
+        "mn126:10.12",
+        "mn126:10.13"
+      ],
+      "summary": "Cũng vậy, đủ tám tà từ tà kiến đến tà định, với cả bốn cách ước nguyện hành phạm hạnh đều không thể đạt quả; lý do không phải phương pháp đạt quả. Dấu lược chỉ mở theo các công thức đầy đủ trong cùng bài."
+    },
+    {
+      "id": "horn",
+      "title": "Kéo sừng bò để tìm sữa",
+      "segments": [
+        "mn126:11.1",
+        "mn126:11.2",
+        "mn126:11.3",
+        "mn126:11.4",
+        "mn126:11.5",
+        "mn126:11.6",
+        "mn126:11.7"
+      ],
+      "summary": "Người cần/tìm/đi tìm sữa kéo sừng bò mới sinh bê. Cả bốn cách ước nguyện đều không thể được vật muốn tìm; vì đây không phải cách để được vật ấy."
+    },
+    {
+      "id": "horn-application",
+      "title": "Áp dụng ví dụ vào tám mặt sai",
+      "segments": [
+        "mn126:11.8",
+        "mn126:11.9",
+        "mn126:11.10",
+        "mn126:11.11",
+        "mn126:11.12",
+        "mn126:11.13",
+        "mn126:11.14"
+      ],
+      "summary": "Cũng vậy, đủ tám tà từ tà kiến đến tà định, với cả bốn cách ước nguyện hành phạm hạnh đều không thể đạt quả; lý do không phải phương pháp đạt quả. Dấu lược chỉ mở theo các công thức đầy đủ trong cùng bài."
+    },
+    {
+      "id": "water",
+      "title": "Khuấy nước để tìm bơ",
+      "segments": [
+        "mn126:12.1",
+        "mn126:12.2",
+        "mn126:12.3",
+        "mn126:12.4",
+        "mn126:12.5",
+        "mn126:12.6",
+        "mn126:12.7"
+      ],
+      "summary": "Người cần/tìm/đi tìm bơ đổ nước vào chum và khuấy bằng cây khuấy. Cả bốn cách ước nguyện đều không thể được vật muốn tìm; vì đây không phải cách để được vật ấy."
+    },
+    {
+      "id": "water-application",
+      "title": "Áp dụng ví dụ vào tám mặt sai",
+      "segments": [
+        "mn126:12.8",
+        "mn126:12.9",
+        "mn126:12.10",
+        "mn126:12.11",
+        "mn126:12.12",
+        "mn126:12.13",
+        "mn126:12.14"
+      ],
+      "summary": "Cũng vậy, đủ tám tà từ tà kiến đến tà định, với cả bốn cách ước nguyện hành phạm hạnh đều không thể đạt quả; lý do không phải phương pháp đạt quả. Dấu lược chỉ mở theo các công thức đầy đủ trong cùng bài."
+    },
+    {
+      "id": "wet-wood",
+      "title": "Khoan gỗ tươi để tìm lửa",
+      "segments": [
+        "mn126:13.1",
+        "mn126:13.2",
+        "mn126:13.3",
+        "mn126:13.4",
+        "mn126:13.5",
+        "mn126:13.6",
+        "mn126:13.7"
+      ],
+      "summary": "Người cần/tìm/đi tìm lửa dùng cây khoan lửa với gỗ tươi còn nhựa. Cả bốn cách ước nguyện đều không thể được vật muốn tìm; vì đây không phải cách để được vật ấy."
+    },
+    {
+      "id": "wet-wood-application",
+      "title": "Áp dụng ví dụ vào tám mặt sai",
+      "segments": [
+        "mn126:13.8",
+        "mn126:13.9",
+        "mn126:13.10",
+        "mn126:13.11",
+        "mn126:13.12",
+        "mn126:13.13",
+        "mn126:13.14"
+      ],
+      "summary": "Cũng vậy, đủ tám tà từ tà kiến đến tà định, với cả bốn cách ước nguyện hành phạm hạnh đều không thể đạt quả; lý do không phải phương pháp đạt quả. Dấu lược chỉ mở theo các công thức đầy đủ trong cùng bài."
+    },
+    {
+      "id": "right-path",
+      "title": "Tám mặt chân chánh",
+      "segments": [
+        "mn126:14.1",
+        "mn126:14.2",
+        "mn126:14.3",
+        "mn126:14.4",
+        "mn126:14.5",
+        "mn126:14.6"
+      ],
+      "summary": "Đủ chánh kiến/tư duy/ngữ/nghiệp/mạng/tinh tấn/niệm/định; với bất cứ cách nào trong bốn cách ước nguyện đều có thể đạt quả, vì đây là phương pháp đạt quả."
+    },
+    {
+      "id": "sesame",
+      "title": "Ép bột mè để tìm dầu",
+      "segments": [
+        "mn126:15.1",
+        "mn126:15.2",
+        "mn126:15.3",
+        "mn126:15.4",
+        "mn126:15.5",
+        "mn126:15.6",
+        "mn126:15.7"
+      ],
+      "summary": "Người cần/tìm/đi tìm dầu đổ bột mè vào thùng, rắc nước và ép từng chút. Cả bốn cách ước nguyện đều có thể được vật muốn tìm; vì đây là cách để được vật ấy."
+    },
+    {
+      "id": "sesame-application",
+      "title": "Áp dụng ví dụ vào tám mặt đúng",
+      "segments": [
+        "mn126:15.8",
+        "mn126:15.9",
+        "mn126:15.10",
+        "mn126:15.11",
+        "mn126:15.12",
+        "mn126:15.13",
+        "mn126:15.14"
+      ],
+      "summary": "Cũng vậy, đủ tám chánh từ chánh kiến đến chánh định, với cả bốn cách ước nguyện hành phạm hạnh đều có thể đạt quả; lý do đây là phương pháp đạt quả. Giữ khả năng, mở dấu lược trong phạm vi cùng bài."
+    },
+    {
+      "id": "udder",
+      "title": "Lấy sữa từ bầu vú bò",
+      "segments": [
+        "mn126:16.1",
+        "mn126:16.2",
+        "mn126:16.3",
+        "mn126:16.4",
+        "mn126:16.5",
+        "mn126:16.6",
+        "mn126:16.7"
+      ],
+      "summary": "Người cần/tìm/đi tìm sữa kéo/vắt ở bầu vú bò mới sinh bê. Cả bốn cách ước nguyện đều có thể được vật muốn tìm; vì đây là cách để được vật ấy."
+    },
+    {
+      "id": "udder-application",
+      "title": "Áp dụng ví dụ vào tám mặt đúng",
+      "segments": [
+        "mn126:16.8",
+        "mn126:16.9",
+        "mn126:16.10",
+        "mn126:16.11",
+        "mn126:16.12",
+        "mn126:16.13",
+        "mn126:16.14"
+      ],
+      "summary": "Cũng vậy, đủ tám chánh từ chánh kiến đến chánh định, với cả bốn cách ước nguyện hành phạm hạnh đều có thể đạt quả; lý do đây là phương pháp đạt quả. Giữ khả năng, mở dấu lược trong phạm vi cùng bài."
+    },
+    {
+      "id": "curds",
+      "title": "Khuấy sữa chua để tìm bơ",
+      "segments": [
+        "mn126:17.1",
+        "mn126:17.2",
+        "mn126:17.3",
+        "mn126:17.4",
+        "mn126:17.5",
+        "mn126:17.6",
+        "mn126:17.7"
+      ],
+      "summary": "Người cần/tìm/đi tìm bơ đổ sữa chua vào chum và khuấy bằng cây khuấy. Cả bốn cách ước nguyện đều có thể được vật muốn tìm; vì đây là cách để được vật ấy."
+    },
+    {
+      "id": "curds-application",
+      "title": "Áp dụng ví dụ vào tám mặt đúng",
+      "segments": [
+        "mn126:17.8",
+        "mn126:17.9",
+        "mn126:17.10",
+        "mn126:17.11",
+        "mn126:17.12",
+        "mn126:17.13",
+        "mn126:17.14"
+      ],
+      "summary": "Cũng vậy, đủ tám chánh từ chánh kiến đến chánh định, với cả bốn cách ước nguyện hành phạm hạnh đều có thể đạt quả; lý do đây là phương pháp đạt quả. Giữ khả năng, mở dấu lược trong phạm vi cùng bài."
+    },
+    {
+      "id": "dry-wood",
+      "title": "Khoan gỗ khô để tìm lửa",
+      "segments": [
+        "mn126:18.1",
+        "mn126:18.2",
+        "mn126:18.3",
+        "mn126:18.4",
+        "mn126:18.5",
+        "mn126:18.6",
+        "mn126:18.7"
+      ],
+      "summary": "Người cần/tìm/đi tìm lửa dùng cây khoan với gỗ khô đã héo. Cả bốn cách ước nguyện đều có thể được vật muốn tìm; vì đây là cách để được vật ấy."
+    },
+    {
+      "id": "dry-wood-application",
+      "title": "Áp dụng ví dụ vào tám mặt đúng",
+      "segments": [
+        "mn126:18.8",
+        "mn126:18.9",
+        "mn126:18.10",
+        "mn126:18.11",
+        "mn126:18.12",
+        "mn126:18.13",
+        "mn126:18.14"
+      ],
+      "summary": "Cũng vậy, đủ tám chánh từ chánh kiến đến chánh định, với cả bốn cách ước nguyện hành phạm hạnh đều có thể đạt quả; lý do đây là phương pháp đạt quả. Giữ khả năng, mở dấu lược trong phạm vi cùng bài."
+    },
+    {
+      "id": "possible-confidence",
+      "title": "Nếu các ví dụ khởi lên khi nói với vương tử",
+      "segments": [
+        "mn126:19.1"
+      ],
+      "summary": "Phật nói nếu bốn ví dụ này khởi lên nơi Bhūmija khi nói với Jayasena, thì không lạ nếu vương tử tin tưởng và biểu lộ tin tưởng với ông. Không đổi thành một cuộc chuyển hóa đã xảy ra."
+    },
+    {
+      "id": "humble-reply",
+      "title": "Những ví dụ chưa từng nghe",
+      "segments": [
+        "mn126:19.2"
+      ],
+      "summary": "Bhūmija hỏi làm sao bốn ví dụ chưa từng nghe có thể tự khởi nơi mình như nơi Phật. Theo Việt/HTML ở anacchariyā; Sujato đọc khác về không do cảm hứng siêu nhiên, đã ghi giới hạn nguồn."
+    },
+    {
+      "id": "ending",
+      "title": "Bhūmija vui mừng đón nhận",
+      "segments": [
+        "mn126:19.3",
+        "mn126:19.4",
+        "mn126:19.5"
+      ],
+      "summary": "Phật nói xong, Bhūmija vui mừng/tán đồng; Kinh Bhūmija, bài thứ sáu trong nhóm, kết thúc."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "MN126 — Mong một điều và làm điều ấy ra sao",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "visit",
+          "kind": "teaching",
+          "heading": "Một buổi sáng có câu hỏi khó",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "visit",
+            "greetings"
+          ],
+          "paragraphs": [
+            "Kinh Bhūmija là bài 126 trong Trung Bộ. Người truyền kinh kể điều đã nghe: Đức Phật ở gần Rājagaha, tại Trúc Lâm, khu nuôi sóc.",
+            "Một buổi sáng, thầy Bhūmija, một vị xuất gia, mặc áo tu, mang bát và áo ngoài đến nhà vương tử Jayasena, một hoàng tử. Thầy ngồi trên chỗ đã soạn. Vương tử đến chào hỏi thân tình, trò chuyện rồi ngồi một bên và nêu câu hỏi."
+          ]
+        },
+        {
+          "id": "question",
+          "kind": "teaching",
+          "heading": "Có ước nguyện thì được gì?",
+          "meaningUnits": [
+            "four-claims",
+            "teacher-question"
+          ],
+          "paragraphs": [
+            "Vương tử nhắc đến một số sa-môn và bà-la-môn, những người tu và người theo truyền thống tôn giáo thời ấy. Họ cho rằng người sống phạm hạnh, đời tu thanh tịnh, không thể đạt quả trong cả bốn trường hợp: có ước nguyện; không có ước nguyện; vừa có vừa không có ước nguyện; không phải có, cũng không phải không có ước nguyện.",
+            "Quả ở đây là thành tựu của đời tu. Vương tử muốn biết bậc Thầy của Bhūmija, tức Đức Phật, nói và giải thích thế nào về điều ấy."
+          ]
+        },
+        {
+          "id": "careful-answer",
+          "kind": "teaching",
+          "heading": "Nói rõ điều mình đã biết đến đâu",
+          "meaningUnits": [
+            "reservation",
+            "proposed-wrong",
+            "proposed-right",
+            "reservation-again"
+          ],
+          "paragraphs": [
+            "Bhūmija đáp rằng thầy chưa được trực tiếp nghe và tiếp nhận lời Phật về câu hỏi này. Nhưng có thể Phật sẽ trả lời: nếu thực hành không đúng cách, thì trong cả bốn trường hợp ước nguyện vừa kể, người tu không thể đạt quả.",
+            "Còn nếu thực hành đúng cách, thì dù có ước nguyện, không có, vừa có vừa không, hay không phải có cũng không phải không, người tu có thể đạt quả. Như vậy, câu trả lời xét cả cách thực hành.",
+            "Kết lời, Bhūmija nhắc lại lần nữa: thầy chưa trực tiếp nghe và tiếp nhận điều này từ Phật, chỉ nói rằng có thể Phật sẽ giải thích như vậy."
+          ]
+        },
+        {
+          "id": "prince",
+          "kind": "teaching",
+          "heading": "Vương tử đón nhận lời đáp",
+          "meaningUnits": [
+            "prince-praise",
+            "meal"
+          ],
+          "paragraphs": [
+            "Jayasena nói: nếu bậc Thầy của Bhūmija giảng như vậy, thì theo ông, vị Thầy ấy đứng cao hơn tất cả những sa-môn, bà-la-môn tầm thường. Đây là nhận xét có điều kiện của vương tử.",
+            "Sau đó, vương tử thết đãi Bhūmija bằng phần cơm của chính mình."
+          ]
+        },
+        {
+          "id": "report",
+          "kind": "teaching",
+          "heading": "Đến hỏi lại chính Đức Phật",
+          "meaningUnits": [
+            "return",
+            "retell-visit",
+            "retell-question",
+            "retell-reservation",
+            "retell-wrong",
+            "retell-right",
+            "retell-reservation-again",
+            "retell-praise"
+          ],
+          "paragraphs": [
+            "Sau bữa ăn, trên đường trở về từ khất thực, việc đi nhận thức ăn được cúng, Bhūmija đến gặp Phật, kính lễ rồi ngồi một bên. Thầy kể lại buổi sáng mang bát áo đến nhà vương tử, ngồi chỗ soạn sẵn, được chào hỏi và nghe câu hỏi.",
+            "Thầy thuật đủ chủ trương về bốn cách ước nguyện và câu hỏi về bậc Đạo sư. Thầy cũng kể lời đáp của mình: không đúng cách thì cả bốn đều không thể đạt quả; đúng cách thì cả bốn đều có thể. Cả hai lần nói rõ chưa trực tiếp nghe và tiếp nhận lời Phật, cùng lời khen có điều kiện của vương tử, đều được thuật lại."
+          ]
+        },
+        {
+          "id": "check",
+          "kind": "teaching",
+          "heading": "Một lời xác nhận có bốn phần",
+          "meaningUnits": [
+            "verification",
+            "confirmation"
+          ],
+          "paragraphs": [
+            "Bhūmija hỏi: trả lời như thế, thầy có nói đúng lời Phật, có tránh gán cho Ngài điều không thật, có giải thích phù hợp Pháp, tức lời Phật dạy, và có tránh được cơ sở để người lập luận đúng Pháp chỉ trích không?",
+            "Phật xác nhận cả bốn: Bhūmija đã nói đúng lời Ngài, không gán điều không thật, giải thích thuận Pháp, và không có cơ sở đúng Pháp để chỉ trích lời đáp ấy. Rồi Ngài giải thích rõ hơn."
+          ]
+        },
+        {
+          "id": "wrong-way",
+          "kind": "teaching",
+          "heading": "Tám mặt của cách tu sai lệch",
+          "meaningUnits": [
+            "wrong-path"
+          ],
+          "paragraphs": [
+            "Phật nói đến người có tám mặt sai: tà kiến, thấy hiểu sai; tà tư duy, nghĩ sai hướng; tà ngữ, lời nói sai trái; tà nghiệp, hành động sai trái; tà mạng, cách nuôi sống sai trái; tà tinh tấn, cố gắng sai hướng; tà niệm, ghi nhớ và chú ý sai hướng; tà định, tập trung tâm sai hướng.",
+            "Với cách tu ấy, cả có ước nguyện, không có, vừa có vừa không, hay không phải có cũng không phải không đều không thể đạt quả của đời tu. Vì sao? Cách đi ấy không phải phương pháp để đạt quả. Phật đưa ra bốn ví dụ."
+          ]
+        },
+        {
+          "id": "sand",
+          "kind": "teaching",
+          "heading": "Ép cát có ra dầu không?",
+          "meaningUnits": [
+            "sand",
+            "sand-application"
+          ],
+          "paragraphs": [
+            "Một người cần dầu, đi tìm dầu, đổ cát vào thùng, rắc nước rồi ép từng chút. Dù ở bất cứ cách nào trong bốn cách ước nguyện, người ấy cũng không lấy được dầu: cát và cách làm ấy không đưa đến dầu.",
+            "Phật nối ví dụ với việc tu: người có đủ tám mặt sai vừa kể, dù thuộc cách ước nguyện nào trong cả bốn, vẫn không thể đạt quả, vì đang dùng cách không dẫn đến quả ấy."
+          ]
+        },
+        {
+          "id": "horn",
+          "kind": "teaching",
+          "heading": "Tìm sữa ở chiếc sừng",
+          "meaningUnits": [
+            "horn",
+            "horn-application"
+          ],
+          "paragraphs": [
+            "Một người cần sữa, đi tìm sữa, nhưng kéo sừng con bò vừa sinh bê. Cả bốn cách ước nguyện đều không làm cách đó lấy được sữa. Lý do là người ấy đang tìm sữa không đúng chỗ, không đúng cách.",
+            "Cũng vậy, Phật nhắc người có tám mặt tu sai: trong cả bốn trường hợp ước nguyện, họ không thể đạt quả. Đường thực hành ấy không phải cách để đạt quả."
+          ]
+        },
+        {
+          "id": "water",
+          "kind": "teaching",
+          "heading": "Khuấy nước để tìm bơ",
+          "meaningUnits": [
+            "water",
+            "water-application"
+          ],
+          "paragraphs": [
+            "Một người cần bơ, đi tìm bơ, đổ nước vào chum rồi dùng cây khuấy. Người ấy không thể lấy được bơ trong bất cứ trường hợp nào của bốn cách ước nguyện, vì khuấy nước không phải cách để có bơ.",
+            "Phật lại áp dụng vào tám mặt sai trong việc tu: có ước nguyện hay thuộc ba trường hợp còn lại cũng không thể đạt quả, vì cách thực hành không đưa đến quả ấy."
+          ]
+        },
+        {
+          "id": "wet-wood",
+          "kind": "teaching",
+          "heading": "Tìm lửa trong khúc gỗ còn tươi",
+          "meaningUnits": [
+            "wet-wood",
+            "wet-wood-application"
+          ],
+          "paragraphs": [
+            "Một người cần lửa, đi tìm lửa, dùng cây khoan lửa khoan vào khúc gỗ tươi còn nhựa. Theo ví dụ trong kinh, cả bốn cách ước nguyện đều không giúp cách làm đó có được lửa: vật liệu và phương pháp không phù hợp.",
+            "Người có tám mặt tu sai cũng vậy. Trong cả bốn trường hợp ước nguyện, họ không thể đạt quả của đời tu, vì đó không phải phương pháp đạt quả."
+          ]
+        },
+        {
+          "id": "right-way",
+          "kind": "teaching",
+          "heading": "Tám mặt chân chánh mở đường",
+          "meaningUnits": [
+            "right-path"
+          ],
+          "paragraphs": [
+            "Phật nói tiếp về tám mặt đúng: chánh kiến, thấy hiểu đúng; chánh tư duy, nghĩ đúng hướng; chánh ngữ, lời nói chân chánh; chánh nghiệp, hành động chân chánh; chánh mạng, nuôi sống chân chánh; chánh tinh tấn, nỗ lực đúng; chánh niệm, giữ sự ghi nhớ tỉnh thức đúng hướng; chánh định, tập trung tâm đúng hướng.",
+            "Người thực hành như vậy có thể đạt quả trong cả bốn trường hợp: có ước nguyện, không có, vừa có vừa không, không phải có cũng không phải không. Vì sao? Đây là phương pháp dẫn đến thành tựu của đời tu."
+          ]
+        },
+        {
+          "id": "sesame",
+          "kind": "teaching",
+          "heading": "Lần này là bột mè",
+          "meaningUnits": [
+            "sesame",
+            "sesame-application"
+          ],
+          "paragraphs": [
+            "Người cần và đi tìm dầu đổ bột mè vào thùng, rắc nước rồi ép từng chút. Trong cả bốn trường hợp ước nguyện, người ấy có thể lấy được dầu, vì đã dùng cách phù hợp để lấy dầu.",
+            "Phật nối lại với đủ tám mặt chân chánh vừa kể: dù thuộc trường hợp ước nguyện nào trong bốn, người thực hành có thể đạt quả, vì đang đi theo phương pháp đưa đến quả ấy."
+          ]
+        },
+        {
+          "id": "udder",
+          "kind": "teaching",
+          "heading": "Lấy sữa đúng nơi",
+          "meaningUnits": [
+            "udder",
+            "udder-application"
+          ],
+          "paragraphs": [
+            "Người cần và đi tìm sữa vắt ở bầu vú của con bò vừa sinh bê. Với cách ấy, dù thuộc bất cứ trường hợp nào trong bốn cách ước nguyện, người ấy có thể lấy được sữa. Đó là phương pháp để có sữa.",
+            "Cũng vậy, người tu với tám mặt chân chánh có thể đạt quả trong cả bốn trường hợp ước nguyện. Lý do là cách thực hành phù hợp với quả muốn đạt."
+          ]
+        },
+        {
+          "id": "curds",
+          "kind": "teaching",
+          "heading": "Dùng sữa chua thay nước",
+          "meaningUnits": [
+            "curds",
+            "curds-application"
+          ],
+          "paragraphs": [
+            "Người cần và đi tìm bơ đổ sữa chua vào chum rồi dùng cây khuấy. Người ấy có thể lấy được bơ dù có ước nguyện hoặc thuộc ba trường hợp còn lại, vì đây là cách phù hợp để làm ra bơ.",
+            "Phật lại nhắc tám mặt tu chân chánh: người thực hành có thể đạt quả trong cả bốn trường hợp ước nguyện, bởi đây là phương pháp đưa đến thành tựu ấy."
+          ]
+        },
+        {
+          "id": "dry-wood",
+          "kind": "teaching",
+          "heading": "Một khúc gỗ khô",
+          "meaningUnits": [
+            "dry-wood",
+            "dry-wood-application"
+          ],
+          "paragraphs": [
+            "Người cần và đi tìm lửa dùng cây khoan lửa với khúc gỗ khô đã héo. Trong cả bốn cách ước nguyện, người ấy có thể có lửa: cách làm và vật liệu phù hợp.",
+            "Người có tám mặt chân chánh cũng có thể đạt quả khi sống đời tu, dù có ước nguyện, không có, vừa có vừa không, hoặc không phải có cũng không phải không. Vì đây là phương pháp để đạt quả."
+          ]
+        },
+        {
+          "id": "confidence",
+          "kind": "teaching",
+          "heading": "Nếu đã nghĩ ra những ví dụ ấy",
+          "meaningUnits": [
+            "possible-confidence",
+            "humble-reply"
+          ],
+          "paragraphs": [
+            "Phật bảo Bhūmija: nếu bốn ví dụ này đã nảy ra khi thầy nói với Jayasena, thì không lạ nếu vương tử tin tưởng thầy và thể hiện sự tin tưởng ấy.",
+            "Bhūmija thưa rằng thầy chưa từng nghe các ví dụ đó; làm sao chúng có thể tự nảy ra nơi thầy để nói với vương tử như nơi Đức Phật?"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Bhūmija vui mừng đón nhận",
+          "meaningUnits": [
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật nói xong, Bhūmija vui mừng và tán đồng lời Ngài. Kinh Bhūmija khép lại, là bài thứ sáu trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: tập một bài nhạc",
+          "meaningUnits": [
+            "proposed-wrong",
+            "proposed-right",
+            "right-path"
+          ],
+          "paragraphs": [
+            "Em rất muốn chơi được một bài nhạc, nhưng cứ lặp mãi đoạn mình đã biết và tránh đoạn khó. Một cách khác là nghe hướng dẫn, tập chậm đoạn chưa biết và sửa từng lỗi. Ước muốn có thể vẫn như nhau, còn việc em làm đã khác.",
+            "Đây là ví dụ hiện đại về ước muốn và cách thực hiện. Những ví dụ trong kinh làm sáng con đường tu hướng đến giải thoát."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một điều muốn làm tốt hơn",
+          "meaningUnits": [
+            "right-path",
+            "verification"
+          ],
+          "paragraphs": [
+            "Em chọn một việc nhỏ như nói thật hoặc lắng nghe bạn. Hỏi mình sẽ làm việc gì cụ thể để điều mong ấy thành sự thực. Nếu chưa rõ, em có thể hỏi người biết hướng dẫn, rồi thử sửa một hành động của mình. Đây là gợi ý làm quen với việc xem lại cách làm."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "MN126 — Ước nguyện và điều kiện để có thành tựu",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Cuộc gặp tại nhà Jayasena",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "visit",
+            "greetings"
+          ],
+          "paragraphs": [
+            "Kinh Bhūmija, Trung Bộ 126, mở bằng lời người truyền kinh thuật điều đã nghe. Phật ở gần Rājagaha, tại Trúc Lâm, khu nuôi sóc. Buổi sáng, Tôn giả Bhūmija, một vị xuất gia, mặc áo tu, cầm bát và áo ngoài đến trú xứ của vương tử Jayasena, một hoàng tử, rồi ngồi trên chỗ đã soạn.",
+            "Jayasena đến chào hỏi; sau những lời thân tình, ông ngồi một bên và hỏi về kết quả của đời tu."
+          ]
+        },
+        {
+          "id": "four-positions",
+          "kind": "teaching",
+          "heading": "Bốn cách nói về ước nguyện",
+          "meaningUnits": [
+            "four-claims",
+            "teacher-question"
+          ],
+          "paragraphs": [
+            "Vương tử thuật quan điểm của một số sa-môn, người tu, và bà-la-môn, những người thuộc truyền thống tôn giáo thời ấy. Họ nói người hành phạm hạnh, sống đời tu thanh tịnh, không thể đạt quả trong cả bốn trường hợp: có ước nguyện; không ước nguyện; vừa có vừa không ước nguyện; không phải có cũng không phải không ước nguyện.",
+            "Ông hỏi: bậc Đạo sư của Bhūmija nói gì, giải thích thế nào? Quả đang được bàn là thành tựu của đời tu."
+          ]
+        },
+        {
+          "id": "provisional",
+          "kind": "teaching",
+          "heading": "Điều Bhūmija đã nghe và điều ông suy xét",
+          "meaningUnits": [
+            "reservation",
+            "proposed-wrong",
+            "proposed-right",
+            "reservation-again"
+          ],
+          "paragraphs": [
+            "Bhūmija nói rõ mình chưa trực tiếp nghe và tiếp nhận lời Phật về việc này. Ông chỉ nêu khả năng Phật sẽ đáp: nếu hành phạm hạnh bất như lý, không đúng phương pháp, thì cả bốn cách ước nguyện đều không thể đạt quả.",
+            "Nếu hành phạm hạnh như lý, đúng phương pháp, thì cả có ước nguyện, không có, vừa có vừa không, không phải có cũng không phải không đều có thể đạt quả. Trọng điểm trong lời đáp nằm ở cách thực hành.",
+            "Bhūmija kết bằng việc nhắc lại giới hạn ấy: chưa trực tiếp nghe và tiếp nhận lời Phật, chỉ nói rằng có thể Phật giải thích như thế."
+          ]
+        },
+        {
+          "id": "response",
+          "kind": "teaching",
+          "heading": "Lời khen có điều kiện và bữa ăn",
+          "meaningUnits": [
+            "prince-praise",
+            "meal"
+          ],
+          "paragraphs": [
+            "Jayasena nhận xét rằng nếu Đạo sư của Bhūmija nói và giải thích như vậy, thì theo ông, vị ấy vượt lên trên tất cả những sa-môn, bà-la-môn tầm thường.",
+            "Rồi ông thết đãi Bhūmija bằng phần cơm của chính mình."
+          ]
+        },
+        {
+          "id": "report",
+          "kind": "teaching",
+          "heading": "Thuật lại để kiểm chứng",
+          "meaningUnits": [
+            "return",
+            "retell-visit",
+            "retell-question",
+            "retell-reservation",
+            "retell-wrong",
+            "retell-right",
+            "retell-reservation-again",
+            "retell-praise",
+            "verification"
+          ],
+          "paragraphs": [
+            "Sau bữa ăn, trở về từ khất thực, việc đi nhận thức ăn cúng dường, Bhūmija đến gặp Phật, kính lễ và ngồi một bên. Ông thuật buổi sáng đắp y, mang bát áo, đến chỗ soạn sẵn và được Jayasena chào hỏi, rồi kể đủ câu hỏi: chủ trương cả bốn cách ước nguyện đều không đạt quả, và bậc Thầy của mình giải thích ra sao.",
+            "Ông kể tiếp lời mình đã đáp: cả bốn trường hợp đều không thể đạt quả nếu thực hành sai phương pháp; cả bốn đều có thể nếu thực hành đúng. Ông thuật cả hai lần nói chưa trực tiếp nghe và tiếp nhận lời Phật, chỉ nêu khả năng, cùng lời khen có điều kiện của vương tử.",
+            "Bhūmija hỏi lời đáp ấy có đủ bốn điều không: nói đúng lời Phật; không gán cho Ngài điều không thật; giải thích thuận Pháp, tức phù hợp lời Phật dạy; và không để có cơ sở hợp Pháp cho lời phản bác, chỉ trích."
+          ]
+        },
+        {
+          "id": "confirmation",
+          "kind": "teaching",
+          "heading": "Phật xác nhận rồi chỉ rõ phương pháp",
+          "meaningUnits": [
+            "confirmation",
+            "wrong-path"
+          ],
+          "paragraphs": [
+            "Phật xác nhận đủ bốn mặt: Bhūmija nói đúng lời Ngài, không gán điều sai sự thật, giải thích thuận Pháp và không có cơ sở hợp Pháp để chỉ trích. Sau đó Ngài nêu những người có tám mặt sai lệch.",
+            "Đó là tà kiến, thấy hiểu sai; tà tư duy, hướng nghĩ sai; tà ngữ, lời nói sai trái; tà nghiệp, hành động sai trái; tà mạng, cách nuôi sống sai trái; tà tinh tấn, nỗ lực sai hướng; tà niệm, ghi nhớ và chú ý sai hướng; tà định, sự tập trung sai hướng.",
+            "Người như thế hành phạm hạnh thì không thể đạt quả trong bất cứ trường hợp nào của bốn cách ước nguyện. Lý do là đây không phải phương pháp để đạt quả."
+          ]
+        },
+        {
+          "id": "sand",
+          "kind": "teaching",
+          "heading": "Dầu và một thùng cát",
+          "meaningUnits": [
+            "sand",
+            "sand-application"
+          ],
+          "paragraphs": [
+            "Một người cần dầu, đi tìm dầu, đổ cát vào thùng, rắc nước rồi ép từng chút. Người ấy không thể lấy được dầu dù có ước nguyện, không có, vừa có vừa không, hoặc không phải có cũng không phải không. Cách làm này không phải phương pháp lấy dầu.",
+            "Phật áp dụng lại vào đủ tám mặt sai từ tà kiến đến tà định: người thực hành như vậy không thể đạt quả trong cả bốn trường hợp ước nguyện, vì không dùng phương pháp dẫn đến quả ấy."
+          ]
+        },
+        {
+          "id": "horn",
+          "kind": "teaching",
+          "heading": "Sữa và chiếc sừng bò",
+          "meaningUnits": [
+            "horn",
+            "horn-application"
+          ],
+          "paragraphs": [
+            "Người cần và đi tìm sữa lại kéo sừng một con bò vừa sinh bê. Cả bốn cách ước nguyện đều không làm phương pháp ấy lấy được sữa. Điều thiếu nằm ngay ở cách lấy sữa.",
+            "Cũng vậy, Phật lặp lại đủ mối liên hệ: tám mặt sai của đời tu, cả bốn cách ước nguyện, vẫn không thể đạt quả; bởi cách thực hành đó không phải phương pháp đạt quả."
+          ]
+        },
+        {
+          "id": "water",
+          "kind": "teaching",
+          "heading": "Bơ và chum nước",
+          "meaningUnits": [
+            "water",
+            "water-application"
+          ],
+          "paragraphs": [
+            "Người cần và đi tìm bơ đổ nước vào chum, dùng cây khuấy. Trong cả bốn trường hợp ước nguyện, người ấy không thể có bơ, vì đây không phải cách để lấy bơ.",
+            "Ví dụ được nối lại với người có tám mặt sai. Dù có ước nguyện hoặc thuộc bất cứ trường hợp nào trong ba trường hợp còn lại, hành phạm hạnh như thế vẫn không thể đạt quả, vì không phải phương pháp đưa đến quả."
+          ]
+        },
+        {
+          "id": "wet-wood",
+          "kind": "teaching",
+          "heading": "Lửa và gỗ tươi còn nhựa",
+          "meaningUnits": [
+            "wet-wood",
+            "wet-wood-application"
+          ],
+          "paragraphs": [
+            "Người cần và đi tìm lửa dùng cây khoan lửa với khúc gỗ tươi còn nhựa. Theo ví dụ này, người ấy không thể tạo lửa trong cả bốn trường hợp ước nguyện, vì đó không phải cách lấy lửa phù hợp.",
+            "Phật lại kết về đủ tám mặt sai trong việc tu: cả bốn cách ước nguyện đều không thể đưa đến quả khi cách thực hành không phải phương pháp đạt quả."
+          ]
+        },
+        {
+          "id": "right-path",
+          "kind": "teaching",
+          "heading": "Tám mặt chân chánh và khả năng đạt quả",
+          "meaningUnits": [
+            "right-path"
+          ],
+          "paragraphs": [
+            "Chiều còn lại là người có chánh kiến, thấy hiểu đúng; chánh tư duy, hướng nghĩ chân chánh; chánh ngữ, lời nói chân chánh; chánh nghiệp, hành động chân chánh; chánh mạng, nuôi sống chân chánh; chánh tinh tấn, nỗ lực đúng; chánh niệm, ghi nhớ tỉnh thức đúng hướng; chánh định, tập trung tâm đúng hướng.",
+            "Với đủ tám mặt này, người hành phạm hạnh có thể đạt quả dù có ước nguyện, không có, vừa có vừa không, hoặc không phải có cũng không phải không. Vì đây là phương pháp dẫn đến quả."
+          ]
+        },
+        {
+          "id": "sesame",
+          "kind": "teaching",
+          "heading": "Bột mè và cách ép dầu",
+          "meaningUnits": [
+            "sesame",
+            "sesame-application"
+          ],
+          "paragraphs": [
+            "Người cần và đi tìm dầu đổ bột mè vào thùng, rắc nước rồi ép từng chút. Trong cả bốn trường hợp ước nguyện, người ấy có thể lấy được dầu, vì đây là phương pháp lấy dầu.",
+            "Cũng vậy, người có đủ tám mặt chân chánh, từ chánh kiến đến chánh định, có thể đạt quả trong cả bốn cách ước nguyện. Lý do là đang thực hành bằng phương pháp dẫn đến quả ấy."
+          ]
+        },
+        {
+          "id": "udder",
+          "kind": "teaching",
+          "heading": "Lấy sữa từ bầu vú bò",
+          "meaningUnits": [
+            "udder",
+            "udder-application"
+          ],
+          "paragraphs": [
+            "Người cần và đi tìm sữa vắt ở bầu vú của con bò vừa sinh bê. Dù có ước nguyện, không có, vừa có vừa không, hoặc không phải có cũng không phải không, người ấy có thể lấy được sữa bằng cách ấy. Đây là phương pháp để có sữa.",
+            "Phật nối ví dụ với tám mặt chân chánh: trong đủ bốn trường hợp ước nguyện, người tu có thể đạt quả, vì dùng phương pháp thích hợp với thành tựu của đời tu."
+          ]
+        },
+        {
+          "id": "curds",
+          "kind": "teaching",
+          "heading": "Khuấy sữa chua để lấy bơ",
+          "meaningUnits": [
+            "curds",
+            "curds-application"
+          ],
+          "paragraphs": [
+            "Người cần và đi tìm bơ đổ sữa chua vào chum rồi khuấy bằng cây khuấy. Người ấy có thể lấy được bơ trong cả bốn cách ước nguyện; chất liệu và cách làm phù hợp để có bơ.",
+            "Tương ứng, người tu với đủ tám mặt chân chánh có thể đạt quả dù thuộc trường hợp ước nguyện nào trong bốn. Bởi đây chính là phương pháp đạt quả."
+          ]
+        },
+        {
+          "id": "dry-wood",
+          "kind": "teaching",
+          "heading": "Gỗ khô và cách lấy lửa",
+          "meaningUnits": [
+            "dry-wood",
+            "dry-wood-application"
+          ],
+          "paragraphs": [
+            "Người cần và đi tìm lửa dùng cây khoan lửa với khúc gỗ khô đã héo. Trong cả bốn trường hợp ước nguyện, người ấy có thể có lửa, vì đây là cách phù hợp để lấy lửa.",
+            "Phật kết lại sự tương ứng với đời tu: đủ tám mặt chân chánh, cả bốn cách ước nguyện đều có thể đạt quả. Căn cứ của điều ấy là phương pháp thực hành đưa đến quả, con đường tu hướng đến giải thoát."
+          ]
+        },
+        {
+          "id": "conclusion",
+          "kind": "teaching",
+          "heading": "Những ví dụ chưa từng nghe",
+          "meaningUnits": [
+            "possible-confidence",
+            "humble-reply",
+            "ending"
+          ],
+          "paragraphs": [
+            "Phật nói rằng nếu bốn ví dụ ấy đã nảy ra nơi Bhūmija khi trao đổi với Jayasena, thì không lạ nếu vương tử có lòng tin nơi ông và biểu lộ lòng tin đó.",
+            "Bhūmija thưa: mình chưa từng nghe bốn ví dụ ấy, làm sao chúng tự nảy ra để nói với vương tử như đã nảy ra nơi Phật? Phật nói xong, Bhūmija hoan hỷ và tán đồng. Kinh Bhūmija kết thúc, là bài thứ sáu trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: mong có cuộc họp biết lắng nghe",
+          "meaningUnits": [
+            "proposed-wrong",
+            "proposed-right",
+            "right-path"
+          ],
+          "paragraphs": [
+            "Một nhóm muốn mọi người được lắng nghe nhưng mỗi lần họp vẫn liên tục ngắt lời nhau. Khi nhóm thật sự dành lượt nói, nghe hết ý và sửa cách phản hồi, điều kiện của cuộc trao đổi đã thay đổi. Việc xem lại hành động cho thấy mong muốn đang được thực hiện bằng cách nào.",
+            "Ví dụ này minh họa quan hệ giữa điều mong và phương pháp. Trong kinh, tám mặt chân chánh được đặt vào thành tựu của đời tu hướng đến giải thoát."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Kiểm lại một cách thực hành",
+          "meaningUnits": [
+            "verification",
+            "right-path"
+          ],
+          "paragraphs": [
+            "Chọn một điều thiện mình đang muốn vun bồi. Ghi nhận một hành động hiện tại giúp điều ấy thành hình, và một hành động đang đi ngược nó. Có thể hỏi thêm người biết hướng dẫn rồi sửa một việc cụ thể. Đây là gợi ý hiện đại để nhìn vào cách làm với sự thành thật."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "MN126 — Điều mình mong và con đường mình đi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Điều được nghe tại Trúc Lâm",
+          "meaningUnits": [
+            "title",
+            "setting"
+          ],
+          "paragraphs": [
+            "Kinh Bhūmija là bài 126 trong Trung Bộ. Người truyền kinh kể điều mình đã nghe: một thời, Đức Phật ở gần Rājagaha, tại Trúc Lâm, khu nuôi sóc."
+          ]
+        },
+        {
+          "id": "visit",
+          "kind": "teaching",
+          "heading": "Một cuộc thăm hỏi buổi sáng",
+          "meaningUnits": [
+            "visit",
+            "greetings"
+          ],
+          "paragraphs": [
+            "Buổi sáng, Tôn giả Bhūmija, một vị xuất gia, mặc áo tu, mang bát và áo ngoài đến nhà vương tử Jayasena, một hoàng tử. Ông ngồi trên chỗ đã soạn.",
+            "Jayasena đến chào hỏi. Sau những lời thân tình, vương tử ngồi một bên và nói về một quan điểm mình đã nghe."
+          ]
+        },
+        {
+          "id": "question",
+          "kind": "teaching",
+          "heading": "Bốn trường hợp về ước nguyện",
+          "meaningUnits": [
+            "four-claims",
+            "teacher-question"
+          ],
+          "paragraphs": [
+            "Vương tử kể rằng một số sa-môn, người tu, và bà-la-môn, người thuộc truyền thống tôn giáo thời ấy, có quan điểm này: người sống phạm hạnh, đời tu thanh tịnh, không thể đạt quả dù có ước nguyện; không ước nguyện; vừa có vừa không ước nguyện; hoặc không phải có cũng không phải không ước nguyện.",
+            "Quả ở đây là thành tựu của đời tu. Vương tử hỏi bậc Thầy của Bhūmija nói gì và giải thích thế nào."
+          ]
+        },
+        {
+          "id": "answer",
+          "kind": "teaching",
+          "heading": "Cách thực hành được đặt vào lời đáp",
+          "meaningUnits": [
+            "reservation",
+            "proposed-wrong",
+            "proposed-right",
+            "reservation-again"
+          ],
+          "paragraphs": [
+            "Bhūmija nói mình chưa trực tiếp nghe và tiếp nhận lời Phật về điều này. Tuy vậy, có thể Ngài sẽ giải thích rằng thực hành bất như lý, không đúng phương pháp, thì cả bốn trường hợp ước nguyện đều không thể đạt quả.",
+            "Thực hành như lý, đúng phương pháp, thì cả có ước nguyện, không có, vừa có vừa không, không phải có cũng không phải không đều có thể đạt quả. Điểm cần nhìn là cách sống và tu tập.",
+            "Bhūmija nhắc lại lần nữa: mình chưa trực tiếp nghe và tiếp nhận lời Phật về việc này, chỉ nêu khả năng Ngài giải thích như vậy."
+          ]
+        },
+        {
+          "id": "hospitality",
+          "kind": "teaching",
+          "heading": "Lời nhận xét và sự thết đãi",
+          "meaningUnits": [
+            "prince-praise",
+            "meal"
+          ],
+          "paragraphs": [
+            "Jayasena nói rằng nếu bậc Thầy của Bhūmija thuyết và giải thích như thế, ông nghĩ vị Thầy ấy vượt lên trên tất cả những sa-môn, bà-la-môn tầm thường.",
+            "Rồi Jayasena thết đãi Bhūmija bằng phần cơm của chính mình."
+          ]
+        },
+        {
+          "id": "return",
+          "kind": "teaching",
+          "heading": "Thuật lại đầy đủ với Đức Phật",
+          "meaningUnits": [
+            "return",
+            "retell-visit",
+            "retell-question",
+            "retell-reservation",
+            "retell-wrong",
+            "retell-right",
+            "retell-reservation-again",
+            "retell-praise"
+          ],
+          "paragraphs": [
+            "Sau bữa ăn, trở về từ khất thực, việc đi nhận thức ăn cúng dường, Bhūmija đến Phật, kính lễ và ngồi một bên. Ông kể lại buổi sáng đắp y, mang bát áo, đến nhà vương tử, ngồi chỗ soạn sẵn và được chào hỏi thân tình.",
+            "Ông thuật đủ câu hỏi về bốn cách ước nguyện cùng lời đáp của mình: thực hành sai thì cả bốn không thể đạt quả; thực hành đúng thì cả bốn có thể. Ông cũng kể cả hai lần nói chưa trực tiếp nghe và tiếp nhận lời Phật, chỉ nêu khả năng Phật sẽ đáp, và lời khen có điều kiện mà Jayasena đã nói."
+          ]
+        },
+        {
+          "id": "verification",
+          "kind": "teaching",
+          "heading": "Xin được xác nhận điều đã nói",
+          "meaningUnits": [
+            "verification",
+            "confirmation"
+          ],
+          "paragraphs": [
+            "Bhūmija hỏi mình có nói đúng lời Phật, không gán điều không thật cho Ngài, giải thích phù hợp Pháp, tức lời Phật dạy, và không để có cơ sở đúng Pháp cho lời phản bác, chỉ trích hay không.",
+            "Phật xác nhận đầy đủ bốn mặt ấy. Bhūmija đã nói đúng lời Ngài, không gán điều không thật, giải thích thuận Pháp; lời đáp không có cơ sở hợp Pháp để bị chỉ trích. Phật tiếp tục chỉ rõ hai cách thực hành."
+          ]
+        },
+        {
+          "id": "wrong",
+          "kind": "teaching",
+          "heading": "Tám mặt sai lệch trong đời tu",
+          "meaningUnits": [
+            "wrong-path"
+          ],
+          "paragraphs": [
+            "Người có tà kiến, thấy hiểu sai; tà tư duy, nghĩ sai hướng; tà ngữ, lời nói sai trái; tà nghiệp, hành động sai trái; tà mạng, cách nuôi sống sai trái; tà tinh tấn, cố gắng sai hướng; tà niệm, ghi nhớ và chú ý sai hướng; tà định, tập trung sai hướng, thì đang có tám mặt sai lệch.",
+            "Người ấy hành phạm hạnh không thể đạt quả trong cả bốn trường hợp ước nguyện: có, không, vừa có vừa không, không phải có cũng không phải không. Phật giải thích lý do: đây không phải phương pháp để đạt quả."
+          ]
+        },
+        {
+          "id": "sand",
+          "kind": "teaching",
+          "heading": "Đi tìm dầu mà ép cát",
+          "meaningUnits": [
+            "sand",
+            "sand-application"
+          ],
+          "paragraphs": [
+            "Phật ví người cần dầu, đi tìm dầu, đổ cát vào thùng, rắc nước rồi ép từng chút. Cả bốn cách ước nguyện đều không làm cách ấy lấy được dầu. Lý do là đây không phải phương pháp để có dầu.",
+            "Việc tu với đủ tám mặt sai cũng như vậy: dù ở trường hợp ước nguyện nào trong bốn, người tu không thể đạt quả, vì đang dùng cách không đưa đến thành tựu ấy."
+          ]
+        },
+        {
+          "id": "horn",
+          "kind": "teaching",
+          "heading": "Đi tìm sữa mà kéo sừng",
+          "meaningUnits": [
+            "horn",
+            "horn-application"
+          ],
+          "paragraphs": [
+            "Một người cần và đi tìm sữa lại kéo sừng con bò vừa sinh bê. Có ước nguyện, không có, vừa có vừa không, không phải có cũng không phải không, người ấy vẫn không thể lấy sữa bằng cách này. Kéo sừng không phải phương pháp lấy sữa.",
+            "Phật nhắc lại sự tương ứng với tám mặt tu sai. Cả bốn trường hợp ước nguyện đều không thể đạt quả, bởi cách thực hành không phải phương pháp đạt quả."
+          ]
+        },
+        {
+          "id": "water",
+          "kind": "teaching",
+          "heading": "Đi tìm bơ mà khuấy nước",
+          "meaningUnits": [
+            "water",
+            "water-application"
+          ],
+          "paragraphs": [
+            "Một người cần và đi tìm bơ đổ nước vào chum, dùng cây khuấy. Trong cả bốn trường hợp ước nguyện, người ấy không thể lấy được bơ: nguyên liệu và cách ấy không đưa đến bơ.",
+            "Cũng vậy, người có tám mặt sai trong đời tu không thể đạt quả dù có ước nguyện hoặc thuộc ba trường hợp còn lại. Vì đó không phải phương pháp để đạt quả."
+          ]
+        },
+        {
+          "id": "wet-wood",
+          "kind": "teaching",
+          "heading": "Đi tìm lửa với gỗ còn tươi",
+          "meaningUnits": [
+            "wet-wood",
+            "wet-wood-application"
+          ],
+          "paragraphs": [
+            "Một người cần và đi tìm lửa lấy cây khoan lửa khoan vào gỗ tươi còn nhựa. Trong ví dụ ấy, người này không thể lấy được lửa dù ở bất cứ trường hợp nào của bốn cách ước nguyện. Cách làm ấy không phù hợp để có lửa.",
+            "Phật lại đưa về tám mặt sai: trong cả bốn cách ước nguyện, người hành phạm hạnh như vậy không thể đạt quả, vì chưa có phương pháp dẫn đến quả."
+          ]
+        },
+        {
+          "id": "right",
+          "kind": "teaching",
+          "heading": "Tám mặt chân chánh trong đời tu",
+          "meaningUnits": [
+            "right-path"
+          ],
+          "paragraphs": [
+            "Phật nói đến chánh kiến, thấy hiểu đúng; chánh tư duy, hướng nghĩ chân chánh; chánh ngữ, lời nói chân chánh; chánh nghiệp, hành động chân chánh; chánh mạng, nuôi sống chân chánh; chánh tinh tấn, nỗ lực đúng; chánh niệm, ghi nhớ tỉnh thức đúng hướng; và chánh định, tập trung tâm đúng hướng.",
+            "Người có đủ tám mặt ấy hành phạm hạnh thì có thể đạt quả trong cả bốn trường hợp ước nguyện. Phật nêu lý do: đây là phương pháp để đạt quả. Từ đây, bốn ví dụ được nhìn theo chiều có cách làm phù hợp."
+          ]
+        },
+        {
+          "id": "sesame",
+          "kind": "teaching",
+          "heading": "Bột mè cho việc lấy dầu",
+          "meaningUnits": [
+            "sesame",
+            "sesame-application"
+          ],
+          "paragraphs": [
+            "Người cần và đi tìm dầu đổ bột mè vào thùng, rắc nước rồi ép từng chút. Dù có ước nguyện, không có, vừa có vừa không, hoặc không phải có cũng không phải không, người ấy có thể lấy được dầu bằng cách ấy. Đây là phương pháp lấy dầu.",
+            "Người tu với tám mặt chân chánh cũng có thể đạt quả trong đủ bốn trường hợp ước nguyện, vì thực hành bằng phương pháp đưa đến quả."
+          ]
+        },
+        {
+          "id": "udder",
+          "kind": "teaching",
+          "heading": "Bầu vú bò cho việc lấy sữa",
+          "meaningUnits": [
+            "udder",
+            "udder-application"
+          ],
+          "paragraphs": [
+            "Người cần và đi tìm sữa vắt ở bầu vú con bò vừa sinh bê. Trong cả bốn trường hợp ước nguyện, người ấy có thể lấy được sữa, vì đang dùng cách phù hợp.",
+            "Phật nối lại với đầy đủ tám mặt chân chánh. Dù có ước nguyện hoặc thuộc ba trường hợp còn lại, người thực hành có thể đạt quả, bởi đây là phương pháp dẫn đến thành tựu của đời tu."
+          ]
+        },
+        {
+          "id": "curds",
+          "kind": "teaching",
+          "heading": "Sữa chua cho việc lấy bơ",
+          "meaningUnits": [
+            "curds",
+            "curds-application"
+          ],
+          "paragraphs": [
+            "Người cần và đi tìm bơ đổ sữa chua vào chum, dùng cây khuấy. Với cả bốn cách ước nguyện, người ấy có thể lấy được bơ, vì đây là phương pháp để có bơ.",
+            "Cũng vậy, người có đủ tám mặt chân chánh có thể đạt quả khi hành phạm hạnh trong cả bốn trường hợp ước nguyện. Lý do vẫn là cách thực hành đưa đến quả ấy."
+          ]
+        },
+        {
+          "id": "dry-wood",
+          "kind": "teaching",
+          "heading": "Gỗ khô cho việc lấy lửa",
+          "meaningUnits": [
+            "dry-wood",
+            "dry-wood-application"
+          ],
+          "paragraphs": [
+            "Người cần và đi tìm lửa dùng cây khoan lửa với khúc gỗ đã khô héo. Người ấy có thể có lửa trong cả bốn trường hợp ước nguyện, vì đây là cách phù hợp để lấy lửa.",
+            "Phật kết lại: người có tám mặt chân chánh có thể đạt quả dù có ước nguyện, không có, vừa có vừa không, không phải có cũng không phải không. Vì đây là phương pháp đưa đến quả của đời tu, trên con đường giải thoát."
+          ]
+        },
+        {
+          "id": "confidence",
+          "kind": "teaching",
+          "heading": "Nếu các ví dụ đã nảy ra khi ấy",
+          "meaningUnits": [
+            "possible-confidence"
+          ],
+          "paragraphs": [
+            "Phật nói với Bhūmija: nếu bốn ví dụ này đã nảy ra khi ông nói với Jayasena, thì không lạ nếu vương tử tin tưởng ông và thể hiện lòng tin ấy."
+          ]
+        },
+        {
+          "id": "reply",
+          "kind": "teaching",
+          "heading": "Lời đáp của Bhūmija",
+          "meaningUnits": [
+            "humble-reply",
+            "ending"
+          ],
+          "paragraphs": [
+            "Bhūmija thưa rằng mình chưa từng nghe bốn ví dụ ấy; làm sao chúng có thể tự nảy ra để nói với vương tử như nơi Đức Phật?",
+            "Phật nói xong, Bhūmija hoan hỷ và tán đồng. Kinh Bhūmija kết thúc, là bài thứ sáu trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: vun bồi sự hòa thuận",
+          "meaningUnits": [
+            "proposed-wrong",
+            "proposed-right",
+            "right-path"
+          ],
+          "paragraphs": [
+            "Một người mong bữa cơm gia đình được hòa thuận. Người ấy nhìn lại xem mình có đang nghe hết lời người khác hay vừa nghe đã phán xét. Việc chậm lại, hỏi cho rõ và chọn lời chân thành là những điều cụ thể có thể vun bồi, cùng với điều mình mong.",
+            "Đây là ví dụ hiện đại để nhìn quan hệ giữa ước nguyện và cách làm. Bài kinh nói đến thành quả của đời tu hướng đến giải thoát."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Nhìn lại một việc vừa sức",
+          "meaningUnits": [
+            "verification",
+            "right-path"
+          ],
+          "paragraphs": [
+            "Có thể chọn một điều thiện mình đang mong giữ gìn, rồi nhìn vào cách mình thực hành hôm nay. Điều gì đang giúp, điều gì cần sửa? Nếu chưa rõ, hỏi người có thể hướng dẫn. Gợi ý này bắt đầu bằng một việc cụ thể và sự thành thật với điều mình biết."
+          ]
+        }
+      ]
+    }
+  }
+}

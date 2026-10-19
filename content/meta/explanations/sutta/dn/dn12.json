@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn12",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "9516c682-2b9d-4af1-a9e0-663310d1f20d"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "3ebc66b9-e7e3-473b-bdfb-61f29c49e140"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "56af455d-3499-470a-a0a4-a3dfa28be2be"
+    }
+  },
+  "reviews": [
+    {
+      "id": "9516c682-2b9d-4af1-a9e0-663310d1f20d",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.6,
+        "terminology": 9.2,
+        "audience_fit": 9.1,
+        "clarity": 9.2,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc trọn năm nguồn thực và đối chiếu mọi phần bản trẻ. morning giữ lời Phật mong có thể giúp ở 8.10; reading-note chỉ rõ HTML Minh Châu đảo hai điều kiện ở 17.4 và 18.1, giữ Rosika theo Pāli. Các đoạn lược 20-77 chỉ nối mốc hiện có, không lấy lời bổ sung trong HTML làm Pāli.",
+        "semantic_fidelity": "Quan điểm đừng truyền pháp thuộc Lohicca; lời bác và ba hạng thầy được giữ có điều kiện. dhamma-benefit sau sửa nói người nhờ Pháp Luật mà đạt bốn quả, phân biệt người làm chín điều kiện sinh thiên. wisdom giữ chấm dứt hiện hữu là giải thoát, không giản thành hết buồn hay tiến bộ học tập.",
+        "core_coverage": "28 đơn vị phủ đúng một lần 189 khóa. Bản trẻ có đủ hai ví nguồn lợi, hai lần áp với bốn quả và sinh thiên, ba hạng thầy với bốn mặt tiếp nhận/phủ định, ví nữ lùi tránh/ruộng/dây, bốn đánh giá lời khiển trách và các mốc giới-thiền-tri kiến-giải thoát. Cuối giữ vực, bốn ví khai mở và cư sĩ trọn đời.",
+        "logic_context": "village và king giữ thứ tự cản trở → bất lợi → thù nghịch → tà kiến → hai cảnh giới, với Lohicca tự xác nhận. teacher-two học trò không làm trái; teacher-three thầy đã đạt nhưng trò không nghe, không biến thành mất thành tựu. good-teacher gắn việc không đáng khiển trách với học trò có thành tựu.",
+        "terminology": "Có gỡ nghĩa tỳ-kheo, từ, tà kiến, bàng sinh, quả tu học, giới, tri kiến và quy y. Dự lưu/Nhất lai/Bất lai/A-la-hán được giữ tên như nguồn mà chưa giải đầy đủ từng quả; phần này còn cần người hướng dẫn khi trẻ hỏi sâu. Không gọi mầm sinh thiên là hạt cây thật.",
+        "audience_fit": "18 phần kể theo nhân vật và câu hỏi, câu ngắn vừa phải; ví phép tính hợp trẻ và không yêu cầu tự nhận vai thầy hay tự xét quả chứng. Những đoạn tranh luận lặp và thuật ngữ các quả vẫn cần đọc với người lớn; chưa có thử đọc thật để chấm mức cao hơn.",
+        "clarity": "Hai giả định về làng và vua tách riêng, ba hạng thầy đặt tên theo hai điều kiện, dễ so sánh. Các câu kể rõ ai hỏi/đáp/nhận. Tiêu đề ban đầu đã đổi để không hàm ý Lohicca tự có pháp lành giữ riêng; vẫn còn một số chuỗi lập luận dài phải đọc chậm.",
+        "editorial_separation": "reading-note là clarification, example và practice là phần biên tập riêng. Các ví nguyên kinh được kể theo người phát biểu, nhất là vực của Lohicca và ví người nữ tránh né. Ví toán tự nói không ngang quả giải thoát, không làm lời người biên tập thành lời Phật.",
+        "practical_integrity": "Ví phép tính khuyến khích nói đúng phần biết, hỏi cô khi chưa hiểu và không ép người không muốn nghe. Bài tập nhắc ba câu hỏi về nội dung, không dạy phán xét thầy thật hay thực hiện ví cưỡng ép. Các cảnh giới sau chết không bị dùng để dọa trẻ về lỗi nhỏ.",
+        "technical_integrity": "Audit sau sửa errors/sourceErrors rỗng; năm SHA nguồn khớp; 28 đơn vị phủ 189 khóa không thừa/thiếu/lặp; 18 phần liên kết hợp lệ, diff whitespace sạch. Điểm chỉ gắn nội dung đã đọc và hash cuối, chưa giả nhận đã chạy build hoặc thử đọc với trẻ."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập của agent B đối với bản do agent C soạn; khác agent nhưng cùng GPT-6 Astra Pro, chưa có chuyên gia Pāli con người hoặc thử đọc với ba nhóm độc giả thật. Đã đọc đủ năm nguồn DN12: 189 khóa Pāli, Anh Sujato thô (145/189 ô có văn), Việt dự án, toàn HTML Minh Châu kể cả ghi công, ba comments; toàn bộ 28 đơn vị ý và ba bản. Không mở rộng các dấu lược cuối bài bằng DN2, không lấy phần Anh ghép làm nguồn đọc độc lập. Sau kiểm đã sửa trẻ/lớn tuổi ở 13.7 và 15.7 để giữ người nhờ Pháp Luật mà đạt/chứng các quả, không chỉ hướng tới; làm chính xác các tiêu đề về lập trường Lohicca, lời mời và Rosika; ghi rõ bản HTML Minh Châu trong các lưu ý nguồn. Đã đọc lại phần sửa, không còn lỗi chặn được phát hiện. Pin Pāli/Sujato 11c9d708978cde8ba61096d8a75f7ddfb846f639, HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457, Việt/chú thích 640b1410c7b2b50ee81d417886b75605189ea0a2. Nhận định độ dễ đọc là đánh giá biên tập, không phải kết quả khảo sát. Root ghi review/apply và chạy gate toàn lô. Hash nội dung children đã đọc và chốt: c56d6875ca1c9aba43ca00a9e56535f536e4b737cd1d41c50fd67bdd0b596d15.",
+      "contentHash": "c56d6875ca1c9aba43ca00a9e56535f536e4b737cd1d41c50fd67bdd0b596d15",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn12.html",
+          "sha256": "8817f531e3fcbc9155e6afb8dd124cfa6e0d974e2a73ad06c9c9d13be83fc8b4"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
+          "sha256": "b09895d52c5c6bd241162091fd785afefa43a871cb01a0fa743c531611776b14"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json",
+          "sha256": "df5131d5716521ce3bb6b416e7aa65592f1749c92ec59a1c91992169bf160909"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn12_comment-vi-project.json",
+          "sha256": "75b96a935ed233194b61b080e5391a63f6aa979f14cbd6d7d0173139a3215170"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn12_translation-vi-project.json",
+          "sha256": "2a203d0860c64b43c9a478b4970bfa23f7d5d02c6ed27532a3cc03d0b6373460"
+        }
+      ]
+    },
+    {
+      "id": "3ebc66b9-e7e3-473b-bdfb-61f29c49e140",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.6,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.4,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đọc đủ Pāli, Anh thô, Việt, toàn HTML và ba comments. text-notes xác định hai lỗi điều kiện của HTML và tên Rosika/Bhesika; intercession giữ câu mong ở 8.10, rời tay khỏi bát ở 9.4 theo cách đọc Việt. Không tự điền DN2 vào các khóa lược cuối bài.",
+        "semantic_fidelity": "Bản người lớn bác quy tắc cấm truyền pháp lành nhưng giữ ba trường hợp khiển trách cụ thể. first-application nêu người nhờ Pháp Luật đạt bốn quả và nhóm sinh thiên riêng; third-teacher vẫn đã đạt mục đích, không thêm thoái quả. Mốc không còn hiện hữu được giữ là giải thoát và cuối Lohicca chỉ quy y.",
+        "core_coverage": "18 phần giữ đủ 28 đơn vị/189 khóa: danh tiếng Phật, hành trình Rosika, hai giả định tài lợi và hai ứng dụng, ba thầy cùng các ví, bốn phẩm tính thuận/nghịch của lời khiển trách, giới/bốn thiền/tri kiến/mốc cuối. Không bỏ địa ngục-bàng sinh hoặc đổi ví vực thành sự kiện thực.",
+        "logic_context": "Điểm mạnh là theo dõi cùng lúc việc thầy đã/chưa đạt và trò nghe/không nghe. second-teacher giữ na ca vokkamma; third-teacher giữ anuppatto. Hai ví đặt Lohicca lần lượt ở bên có nguồn lợi và bên tùy thuộc, kết luận không đáng khiển trách chỉ áp đúng loại phê phán đang bàn.",
+        "terminology": "Pháp Luật, mục đích sa-môn, bốn quả, tri kiến và hình ảnh mầm sinh thiên được dùng nhất quán, tránh đồng nhất bốn quả với sinh thiên. Các từ thật/xác thực/hợp Pháp/không lỗi giữ bốn mặt riêng. Một số danh từ chuyên môn chưa giải hết vì phạm vi DN12 có lược.",
+        "audience_fit": "Luận điểm và các điều kiện được nêu trước, phần ví công việc hợp người lớn và rõ giới hạn. Các phần không hạ giáo nghĩa thành kỹ năng dạy học. Vẫn có sự lặp cần thiết và chưa có khảo sát người đọc đại diện, nên mức phù hợp được chấm có giới hạn.",
+        "clarity": "Các tiêu đề theo chức năng lập luận, hai lần ứng dụng và ba loại thầy có chỗ riêng, giúp đọc đối chiếu. Lời chủ thể và phạm vi kết luận đều rõ. Những đoạn thuật nguồn và bình giải đôi khi khá dày, dù không gây mơ hồ về câu chuyện chính.",
+        "editorial_separation": "text-notes tách quyết định nguồn khỏi lời kể; application và reflection có loại riêng và tự nhận là liên hệ biên tập. Các kết luận như không phải đề án phân chia tài sản hoặc giấy phép miễn kiểm tra được đặt là giới hạn cách đọc, không thêm sự kiện vào kinh.",
+        "practical_integrity": "Ví hướng dẫn đồng nghiệp chỉ xét năng lực thật, phần chưa biết và sự tiếp nhận; không tự nhận mục đích sa-môn. Bài tập ba dòng kiểm điều kiện, không cung cấp quyền đoán nội tâm hoặc quả chứng người khác. Không tìm thấy ứng dụng làm đảo ý bác cấm truyền dạy.",
+        "technical_integrity": "Audit/schema sạch sau làm rõ nguồn trong clarification; năm dependency hash đúng và 189 khóa map đúng một lần; diff --check sạch. Review được chuẩn bị để root gắn hash đang khóa, không có thao tác record/apply hay sửa metadata của người kiểm."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập của agent B đối với bản do agent C soạn; khác agent nhưng cùng GPT-6 Astra Pro, chưa có chuyên gia Pāli con người hoặc thử đọc với ba nhóm độc giả thật. Đã đọc đủ năm nguồn DN12: 189 khóa Pāli, Anh Sujato thô (145/189 ô có văn), Việt dự án, toàn HTML Minh Châu kể cả ghi công, ba comments; toàn bộ 28 đơn vị ý và ba bản. Không mở rộng các dấu lược cuối bài bằng DN2, không lấy phần Anh ghép làm nguồn đọc độc lập. Sau kiểm đã sửa trẻ/lớn tuổi ở 13.7 và 15.7 để giữ người nhờ Pháp Luật mà đạt/chứng các quả, không chỉ hướng tới; làm chính xác các tiêu đề về lập trường Lohicca, lời mời và Rosika; ghi rõ bản HTML Minh Châu trong các lưu ý nguồn. Đã đọc lại phần sửa, không còn lỗi chặn được phát hiện. Pin Pāli/Sujato 11c9d708978cde8ba61096d8a75f7ddfb846f639, HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457, Việt/chú thích 640b1410c7b2b50ee81d417886b75605189ea0a2. Nhận định độ dễ đọc là đánh giá biên tập, không phải kết quả khảo sát. Root ghi review/apply và chạy gate toàn lô. Hash nội dung adults đã đọc và chốt: 5b344748f70950f413323ef7a76daf9e5b5b72f0016dab1b0b062ce15fd50cb2.",
+      "contentHash": "5b344748f70950f413323ef7a76daf9e5b5b72f0016dab1b0b062ce15fd50cb2",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn12.html",
+          "sha256": "8817f531e3fcbc9155e6afb8dd124cfa6e0d974e2a73ad06c9c9d13be83fc8b4"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
+          "sha256": "b09895d52c5c6bd241162091fd785afefa43a871cb01a0fa743c531611776b14"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json",
+          "sha256": "df5131d5716521ce3bb6b416e7aa65592f1749c92ec59a1c91992169bf160909"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn12_comment-vi-project.json",
+          "sha256": "75b96a935ed233194b61b080e5391a63f6aa979f14cbd6d7d0173139a3215170"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn12_translation-vi-project.json",
+          "sha256": "2a203d0860c64b43c9a478b4970bfa23f7d5d02c6ed27532a3cc03d0b6373460"
+        }
+      ]
+    },
+    {
+      "id": "56af455d-3499-470a-a0a4-a3dfa28be2be",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.5,
+        "core_coverage": 9.5,
+        "logic_context": 9.6,
+        "terminology": 9.3,
+        "audience_fit": 9.2,
+        "clarity": 9.3,
+        "editorial_separation": 9.4,
+        "practical_integrity": 9.5,
+        "technical_integrity": 9.6
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc đủ năm nguồn DN12 và toàn bản lớn tuổi. reading gọi rõ HTML Minh Châu có đảo điều kiện hạng hai/hạng ba; giữ Rosika theo Pāli, còn road giữ lời đáp không bảo đảm. Các dấu lược không được lấp bằng phần HTML mở rộng hoặc một bài khác.",
+        "semantic_fidelity": "benefits và repeated sau sửa giữ những người nhờ Pháp Luật mà đạt/chứng bốn quả, khác nhóm làm chín nhân duyên sinh thiên. Hai cảnh giới của tà kiến và mốc chấm dứt hiện hữu được giữ nghĩa tôn giáo. third không đánh tráo thầy đã đạt thành thầy chưa đạt hay mất thành tựu.",
+        "core_coverage": "25 phần giữ toàn bộ 28 đơn vị: hai nguồn lợi, hai lần vận dụng, ba hạng thầy với đủ mặt tiếp nhận, ba ví tương ứng, bốn phẩm tính lời khiển trách và bốn mặt đối nghịch ở các mốc học trò có thành tựu. Lời cảm tạ, bốn ví khai mở, ba ngôi quy y và cư sĩ trọn đời đủ.",
+        "logic_context": "one-place và king cho Lohicca trả lời từng bước, rồi benefits/repeated áp cùng chuỗi. Các phần first/second/third tách đúng hai điều kiện và đánh giá có phạm vi. Phần không đáng khiển trách gắn với kết quả tu học thật, không suy miễn mọi thắc mắc đối với danh xưng thầy.",
+        "terminology": "Bàng sinh, hợp Pháp, giới, tri kiến, người cư sĩ và mầm sinh thiên có lời giải thích giúp đọc. Bốn quả được giữ riêng với sinh thiên; đã thay hướng tới bằng chứng theo 13.7/15.7. Các tầng thiền bị lược trong nguồn nên chỉ gọi mốc, không ngụy tạo giải nghĩa đầy đủ.",
+        "audience_fit": "25 phần có nhiều ngắt nghỉ, giữ nhịp chậm và đề nghị hai lượt đọc; ví nhóm đọc không gán tuổi cao với suy giảm hay đạo quả. Người đọc vẫn gặp các đoạn lặp và danh từ kinh điển; chưa có độc giả lớn tuổi thực đọc để xác nhận mức dễ tiếp nhận.",
+        "clarity": "Từng loại thầy có phần riêng, lặp nhắc điểm dễ đảo ngay tại hạng hai và ba. Trình tự từ nguồn lợi sang Pháp, từ phê phán có căn cứ sang lời cảm tạ rõ. Tiêu đề Rosika đã bỏ suy diễn quan hệ chủ-tớ; một số câu giải giới hạn còn làm nhịp kể chậm.",
+        "editorial_separation": "reading, daily-example và quiet-practice tách khỏi teaching; ví nhóm đọc tự xác định do biên soạn đặt. Phần vực được nói rõ là hình ảnh của Lohicca, không cứu nạn lịch sử; câu giải nghĩa không giả làm trích nguyên văn. Ranh giới nguồn được giữ xuyên bản.",
+        "practical_integrity": "Gợi ý hai lượt đọc và nhắc điều kiện vừa sức, không yêu cầu tự tập thiền từ các mốc lược. Chia sẻ kinh nghiệm không được coi là tự chứng mục đích sa-môn; không ép nghe hoặc đoán quả chứng người quen. Ứng dụng giữ đúng mức hỗ trợ hiểu bài.",
+        "technical_integrity": "Kiểm sau sửa cho errors/sourceErrors rỗng, đủ năm SHA, 28 đơn vị/189 khóa đúng một lần, 25 phần hợp schema và liên kết ý. Diff whitespace sạch; notes sẽ gắn hash cuối đã đọc. Gate dựng trang toàn lô và record/apply thuộc root."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập của agent B đối với bản do agent C soạn; khác agent nhưng cùng GPT-6 Astra Pro, chưa có chuyên gia Pāli con người hoặc thử đọc với ba nhóm độc giả thật. Đã đọc đủ năm nguồn DN12: 189 khóa Pāli, Anh Sujato thô (145/189 ô có văn), Việt dự án, toàn HTML Minh Châu kể cả ghi công, ba comments; toàn bộ 28 đơn vị ý và ba bản. Không mở rộng các dấu lược cuối bài bằng DN2, không lấy phần Anh ghép làm nguồn đọc độc lập. Sau kiểm đã sửa trẻ/lớn tuổi ở 13.7 và 15.7 để giữ người nhờ Pháp Luật mà đạt/chứng các quả, không chỉ hướng tới; làm chính xác các tiêu đề về lập trường Lohicca, lời mời và Rosika; ghi rõ bản HTML Minh Châu trong các lưu ý nguồn. Đã đọc lại phần sửa, không còn lỗi chặn được phát hiện. Pin Pāli/Sujato 11c9d708978cde8ba61096d8a75f7ddfb846f639, HTML 4d481d7cfbaeccad19fa85adc215d3c15ff43457, Việt/chú thích 640b1410c7b2b50ee81d417886b75605189ea0a2. Nhận định độ dễ đọc là đánh giá biên tập, không phải kết quả khảo sát. Root ghi review/apply và chạy gate toàn lô. Hash nội dung older-adults đã đọc và chốt: 10a815f5ec871e36279531837314098122022ca6ebf1c3158661de3cb6c67de8.",
+      "contentHash": "10a815f5ec871e36279531837314098122022ca6ebf1c3158661de3cb6c67de8",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn12.html",
+          "sha256": "8817f531e3fcbc9155e6afb8dd124cfa6e0d974e2a73ad06c9c9d13be83fc8b4"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
+          "sha256": "b09895d52c5c6bd241162091fd785afefa43a871cb01a0fa743c531611776b14"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json",
+          "sha256": "df5131d5716521ce3bb6b416e7aa65592f1749c92ec59a1c91992169bf160909"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/dn/dn12_comment-vi-project.json",
+          "sha256": "75b96a935ed233194b61b080e5391a63f6aa979f14cbd6d7d0173139a3215170"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/dn/dn12_translation-vi-project.json",
+          "sha256": "2a203d0860c64b43c9a478b4970bfa23f7d5d02c6ed27532a3cc03d0b6373460"
+        }
+      ]
+    }
+  ]
+}

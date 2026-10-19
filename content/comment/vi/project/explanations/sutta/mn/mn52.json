@@ -1,0 +1,832 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn52",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn52_root-pli-ms.json",
+      "sha256": "1b119068d50df249236ea9d33101dff9db035ed81974b224f146ab4bd982387e",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn52_translation-vi-project.json",
+      "sha256": "714134a91ecabbd30a1abb1a8d699870b0c7a27e109145a5fbb08de4f621e66d",
+      "commit": "89fc6b9e81a738c3cf90f2e8e4672f24bba5e9df"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn52_translation-en-sujato.json",
+      "sha256": "c989699097560c258d27aed5e73c7b559f418fe4022eeefb051982ef1e6e6f0b",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn52.html",
+      "sha256": "384dc138deaa69f9f73dfe7dc1d45e89f8f8fb13841f940f078d2f2433796375",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn52_comment-vi-project.json",
+      "sha256": "3082d3a0f62e6dc3f1e2be00932789bd9466ac7a14b334bd756983994ca2f64c",
+      "commit": "89fc6b9e81a738c3cf90f2e8e4672f24bba5e9df"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Kinh Bát Thành",
+      "segments": [
+        "mn52:0.1",
+        "mn52:0.2"
+      ],
+      "summary": "MN52, Aṭṭhakanāgarasutta, Kinh Bát Thành; không đặt nhãn vào lời đối thoại."
+    },
+    {
+      "id": "setting",
+      "title": "Ānanda và việc của Dasama",
+      "segments": [
+        "mn52:1.1",
+        "mn52:1.2",
+        "mn52:1.3"
+      ],
+      "summary": "Người truyền kinh đã nghe. Ānanda gần Vesālī ở làng nhỏ Beluva; gia chủ Dasama người thành Aṭṭhaka đến Pāṭaliputta vì công việc không nêu cụ thể. Không gọi cuộc gặp là Phật trực tiếp giảng."
+    },
+    {
+      "id": "search",
+      "title": "Hỏi thăm ở tu viện Kukkuṭa",
+      "segments": [
+        "mn52:2.1",
+        "mn52:2.2",
+        "mn52:2.3",
+        "mn52:2.4"
+      ],
+      "summary": "Dasama tới Kukkuṭa, gặp tỳ-kheo, đảnh lễ/ngồi một bên; hỏi Ānanda ở đâu vì muốn gặp; được đáp Vesālī/Beluva."
+    },
+    {
+      "id": "journey",
+      "title": "Xong công việc mới đi gặp Ānanda",
+      "segments": [
+        "mn52:3.1"
+      ],
+      "summary": "Dasama hoàn thành công việc tại Pāṭaliputta, đi Vesālī/Beluva, gặp Ānanda, đảnh lễ/ngồi rồi hỏi. Không bịa công việc hoặc bỏ thứ tự."
+    },
+    {
+      "id": "question",
+      "title": "Một pháp với ba phẩm chất và ba kết quả",
+      "segments": [
+        "mn52:3.2",
+        "mn52:3.3",
+        "mn52:3.4"
+      ],
+      "summary": "Dasama hỏi Đức Phật, bậc biết và thấy, A-la-hán, Chánh Đẳng Giác, có dạy một pháp để tỳ-kheo không phóng dật, nhiệt tâm, quyết chí thực hành: tâm chưa thoát được thoát, lậu chưa tận được tận, an ổn vô thượng khỏi ách chưa đạt được đạt. Ānanda xác nhận đủ; Dasama hỏi pháp nào. Giữ ba phẩm chất và ba kết quả."
+    },
+    {
+      "id": "first",
+      "title": "Cửa thứ nhất: sơ thiền",
+      "segments": [
+        "mn52:4.1"
+      ],
+      "summary": "Tỳ-kheo lìa dục/bất thiện, chứng và trú sơ thiền có tầm/tứ,hỷ/lạc do ly. Không coi chính trạng thái định là bất tử."
+    },
+    {
+      "id": "conditioned",
+      "title": "Ngay cả thiền này cũng do tạo tác",
+      "segments": [
+        "mn52:4.2",
+        "mn52:4.3",
+        "mn52:4.4"
+      ],
+      "summary": "Suy xét sơ thiền được tạo tác/chủ ý tạo thành; bất cứ gì như thế đều vô thường,có tính chất chấm dứt; người tu hiểu vậy. Không chỉ nói cảm giác có thể đổi mà bỏ nguyên nhân chủ ý/tạo tác."
+    },
+    {
+      "id": "results",
+      "title": "Lậu tận hoặc nhánh không trở lại",
+      "segments": [
+        "mn52:4.5",
+        "mn52:4.6"
+      ],
+      "summary": "Vững trú ở đó, vị ấy đạt đoạn tận lậu hoặc; tattha để mở, không chọn riêng thiền hay quán. Nếu chưa lậu tận, do ái luyến và hoan hỷ với pháp ấy, khi năm hạ phần kiết sử đã tận thì hóa sinh tại đó, Niết-bàn tại đó, không trở lại từ thế giới ấy. Không biến yêu thích thiền thành điều kiện đủ; không tự gọi tên cảnh giới."
+    },
+    {
+      "id": "refrain",
+      "title": "Mỗi cửa giữ cùng điều kiện tu",
+      "segments": [
+        "mn52:4.7"
+      ],
+      "summary": "Đây cũng là một pháp Đức Phật, bậc biết và thấy, A-la-hán, Chánh Đẳng Giác, dạy với ba phẩm chất không phóng dật, nhiệt tâm, quyết chí và ba kết quả giải thoát, lậu tận, an ổn vô thượng. Công thức này được tỉnh lược trong những cửa sau."
+    },
+    {
+      "id": "second",
+      "title": "Cửa thứ hai: nhị thiền",
+      "segments": [
+        "mn52:5.1",
+        "mn52:5.2",
+        "mn52:5.3",
+        "mn52:5.4"
+      ],
+      "summary": "Tầm và tứ lắng, nội tâm trong sáng, chứng và trú nhị thiền; suy rằng ngay cả nhị thiền cũng do tạo tác và chủ ý. Công thức lược dẫn tới an ổn vô thượng. HTML cùng MN52, SC10, nêu đủ không tầm tứ, nhất tâm, hỷ lạc do định, chuỗi quán, hai kết quả và lời kết; không cần nguồn khác UID."
+    },
+    {
+      "id": "third",
+      "title": "Cửa thứ ba: tam thiền",
+      "segments": [
+        "mn52:6.1",
+        "mn52:6.2",
+        "mn52:6.3",
+        "mn52:6.4"
+      ],
+      "summary": "Hỷ phai, chứng và trú tam thiền; suy tính tạo tác và chủ ý rồi cùng công thức. HTML SC11 của chính MN52 mở rõ xả, niệm, tỉnh giác, thân lạc, lời bậc Thánh và chuỗi kết quả."
+    },
+    {
+      "id": "fourth",
+      "title": "Cửa thứ tư: tứ thiền",
+      "segments": [
+        "mn52:7.1",
+        "mn52:7.2",
+        "mn52:7.3",
+        "mn52:7.4"
+      ],
+      "summary": "Bỏ lạc, chứng và trú tứ thiền; suy tính tạo tác và chủ ý, theo công thức đến an ổn. HTML SC12 mở đủ bỏ khổ, hỷ và ưu đã diệt trước, không khổ không lạc, xả niệm thanh tịnh và cùng các kết quả."
+    },
+    {
+      "id": "loving-kindness",
+      "title": "Cửa thứ năm: tâm từ",
+      "segments": [
+        "mn52:8.1",
+        "mn52:8.2",
+        "mn52:8.3",
+        "mn52:8.4",
+        "mn52:8.5",
+        "mn52:8.6"
+      ],
+      "summary": "Tâm từ phủ phương thứ nhất, hai, ba, tư; trên, dưới, ngang; khắp mọi nơi, đối tất cả như chính mình, toàn thế giới; rộng lớn, cao cả, vô lượng, không thù hận, không ác ý. Suy ngay cả từ tâm giải thoát do tạo tác và chủ ý, vô thường, có tính chấm dứt; vững ở đó rồi cùng kết quả. Pāli và Việt có sắc thái sabbattatāya; Anh all around khác cách diễn."
+    },
+    {
+      "id": "compassion",
+      "title": "Cửa thứ sáu: tâm bi",
+      "segments": [
+        "mn52:9.1"
+      ],
+      "summary": "Tâm bi được nêu với dấu lược; thuộc cùng chuỗi lan khắp và quán tạo tác, vô thường, kết quả; không chỉ thêm tên cho đủ mười một. HTML SC14 cũng giữ dấu lược; mở theo mô thức từ và xả trong chính MN52."
+    },
+    {
+      "id": "rejoicing",
+      "title": "Cửa thứ bảy: tâm hỷ",
+      "segments": [
+        "mn52:10.1"
+      ],
+      "summary": "Tâm hỷ được nêu với dấu lược; thuộc cùng mô thức lan khắp, quán và kết quả. Hỷ phạm trú là vui cùng điều tốt của hữu tình, khác hỷ của thiền; không mặc định cảm giác vui thường đủ cho giải thoát."
+    },
+    {
+      "id": "equanimity",
+      "title": "Cửa thứ tám: tâm xả",
+      "segments": [
+        "mn52:11.1",
+        "mn52:11.2",
+        "mn52:11.3",
+        "mn52:11.4",
+        "mn52:11.5",
+        "mn52:11.6"
+      ],
+      "summary": "Xả phủ đủ bốn phương, trên, dưới, ngang, khắp toàn thế giới, đối tất cả như mình; rộng, cao cả, vô lượng, không thù hận, không ác ý. Ngay cả xả tâm giải thoát cũng do tạo tác và chủ ý, vô thường, có tính chấm dứt; vững ở đó rồi tới an ổn. Xả là quân bình, không thờ ơ."
+    },
+    {
+      "id": "space",
+      "title": "Cửa thứ chín: Không vô biên xứ",
+      "segments": [
+        "mn52:12.1",
+        "mn52:12.2",
+        "mn52:12.3",
+        "mn52:12.4",
+        "mn52:12.5",
+        "mn52:12.6"
+      ],
+      "summary": "Vượt hoàn toàn tưởng về sắc; tưởng va chạm chấm dứt; không tác ý tưởng đa dạng; biết không gian vô biên, chứng và trú. Quán chính chứng đạt này do tạo tác và chủ ý, vô thường, có tính chấm dứt; cùng chuỗi kết quả. Không đưa ra kết luận về vũ trụ vật lý hoặc bỏ điều kiện."
+    },
+    {
+      "id": "consciousness",
+      "title": "Cửa thứ mười: Thức vô biên xứ",
+      "segments": [
+        "mn52:13.1",
+        "mn52:13.2",
+        "mn52:13.3",
+        "mn52:13.4",
+        "mn52:13.5",
+        "mn52:13.6"
+      ],
+      "summary": "Vượt hoàn toàn Không vô biên xứ, biết thức vô biên, chứng và trú Thức vô biên xứ. Cũng quán chứng đạt do tạo tác và chủ ý, vô thường, có tính chấm dứt, cùng kết quả. Không thêm thức vĩnh hằng hoặc linh hồn chung."
+    },
+    {
+      "id": "nothingness",
+      "title": "Cửa thứ mười một: Vô sở hữu xứ",
+      "segments": [
+        "mn52:14.1",
+        "mn52:14.2",
+        "mn52:14.3",
+        "mn52:14.4",
+        "mn52:14.5",
+        "mn52:14.6",
+        "mn52:14.7"
+      ],
+      "summary": "Vượt Thức vô biên xứ, biết không có gì cả, chứng và trú Vô sở hữu xứ. Quán tạo tác và chủ ý, vô thường, có tính chấm dứt; vững ở đó thì lậu tận. Nếu chưa, do luyến và hỷ với pháp, khi năm kiết sử đã tận, hóa sinh, Niết-bàn và không trở lại từ thế giới ấy. Nhắc đủ danh hiệu Phật, ba phẩm chất, ba kết quả. Không hư vô luận; không thêm Phi tưởng phi phi tưởng hoặc diệt thọ tưởng."
+    },
+    {
+      "id": "treasure",
+      "title": "Tìm một lối mà được mười một lối",
+      "segments": [
+        "mn52:15.1",
+        "mn52:15.2",
+        "mn52:15.3"
+      ],
+      "summary": "Dasama ví người tìm một lối vào kho báu được mười một lối cùng lúc; mình tìm một cửa bất tử được mười một cửa để tu. Giữ lối vào, không đổi thành mười một kho vật chất. Bất tử là giải thoát khỏi sinh tử, không phải thân xác trường sinh."
+    },
+    {
+      "id": "fire",
+      "title": "Ngôi nhà có mười một cửa",
+      "segments": [
+        "mn52:15.4",
+        "mn52:15.5"
+      ],
+      "summary": "Dasama ví nhà mười một cửa, nếu cháy có thể thoát an toàn qua bất kỳ một cửa; ông cũng có thể đến an toàn qua một trong mười một cửa bất tử. Đây là lời tin hướng về thực hành, không khẳng định ông đã chứng; không đòi tu đủ mười một cửa mới giải thoát."
+    },
+    {
+      "id": "gratitude",
+      "title": "Lòng biết ơn vị thầy",
+      "segments": [
+        "mn52:15.6"
+      ],
+      "summary": "Người theo giáo phái khác còn tìm của cải trả thầy, sao Dasama không cúng dường Ānanda? Đây là lời Dasama, không phải mức phí đổi lấy giải thoát."
+    },
+    {
+      "id": "offering",
+      "title": "Cúng dường cho Tăng hai nơi và Ānanda",
+      "segments": [
+        "mn52:16.1",
+        "mn52:16.2"
+      ],
+      "summary": "Tập hợp Tăng ở Pāṭaliputta và Vesālī; tự tay phục vụ và làm thỏa mãn bằng món cứng, mềm thượng vị; mỗi vị một cặp vải, Ānanda ba y; cho xây trú xứ trị giá năm trăm. Pāli và Anh không nêu đơn vị; không thêm tiền vàng hay năm trăm phòng như HTML."
+    },
+    {
+      "id": "ending",
+      "title": "Dòng kết thứ hai trong nhóm",
+      "segments": [
+        "mn52:16.3"
+      ],
+      "summary": "Nhãn Kinh Bát Thành thứ hai trong nhóm, khác mã MN52. Không thêm lời Phật kết hoặc pháp nhãn của Dasama."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Mười một cánh cửa để tu học",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "visit",
+          "kind": "teaching",
+          "heading": "Làm xong việc rồi đi tìm một người thầy",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "search",
+            "journey"
+          ],
+          "paragraphs": [
+            "Kinh Bát Thành, MN52, kể điều người truyền kinh đã nghe. Thầy Ānanda đang ở làng nhỏ Beluva, gần Vesālī. Gia chủ Dasama, người sống ở thành Aṭṭhaka, đến Pāṭaliputta vì một công việc. Gia chủ là người sống tại gia, có trách nhiệm trong gia đình.",
+            "Dasama tới tu viện Kukkuṭa, gặp một tỳ-kheo, tức một nhà sư, đảnh lễ rồi ngồi sang bên. Ông hỏi thầy Ānanda ở đâu vì muốn được gặp. Biết thầy ở Beluva, ông làm xong công việc tại Pāṭaliputta rồi mới đi đến đó. Gặp Ānanda, ông đảnh lễ, ngồi sang bên và hỏi."
+          ]
+        },
+        {
+          "id": "question",
+          "kind": "teaching",
+          "heading": "Có một cách tu đưa đến giải thoát không?",
+          "meaningUnits": [
+            "question"
+          ],
+          "paragraphs": [
+            "Dasama hỏi: Đức Phật, bậc biết và thấy, A-la-hán đã giải thoát, Chánh Đẳng Giác đã giác ngộ hoàn toàn, có dạy một pháp nào giúp người tu đi tới giải thoát không?",
+            "Ông nêu rõ cách thực hành: không lơ là, có nhiệt tâm và quyết chí. Nhờ đó, tâm chưa giải thoát được giải thoát; lậu hoặc, những dòng ô nhiễm trói buộc tâm, chưa hết thì đi đến hết; sự an ổn cao nhất khỏi những trói buộc chưa đạt thì được đạt.",
+            "Ānanda xác nhận có pháp như thế, với đủ các điều kiện và kết quả ấy. Dasama hỏi tiếp: pháp ấy là gì? Ānanda bắt đầu trả lời về lời dạy của Đức Phật."
+          ]
+        },
+        {
+          "id": "first-door",
+          "kind": "teaching",
+          "heading": "Cửa thứ nhất: vào sơ thiền rồi nhìn cho rõ",
+          "meaningUnits": [
+            "first",
+            "conditioned",
+            "results",
+            "refrain"
+          ],
+          "paragraphs": [
+            "Một vị tu lìa những thú vui giác quan và các điều bất thiện, vào và sống trong sơ thiền. Ở đó còn tầm và tứ, tức đặt tâm rồi giữ tâm gắn với điều đang chú ý; có niềm hân hoan và an lạc do sự xa lìa ấy.",
+            "Vị ấy suy xét: ngay cả sơ thiền này cũng được tạo tác, do sự chủ ý mà thành. Điều gì được tạo tác, do chủ ý mà thành thì không tồn tại mãi, có tính chất chấm dứt. Đó là thấy tính vô thường của chính trạng thái thiền đang có.",
+            "Ānanda nói vị ấy “vững trú ở đó” và đạt sự chấm dứt lậu hoặc. Nếu chưa đạt, do còn yêu thích, hoan hỷ với pháp ấy, khi năm hạ phần kiết sử, năm mối trói buộc được kinh gọi là phần thấp, đã hết, vị ấy hóa sinh tại đó, tức sinh ra bằng sự xuất hiện trực tiếp ở cảnh giới ấy; đạt Niết-bàn, sự giải thoát khỏi khổ, tại đó và không trở lại từ thế giới ấy.",
+            "Ānanda gọi đây cũng là một pháp Đức Phật, bậc biết và thấy, bậc đã giải thoát và giác ngộ hoàn toàn, đã dạy. Người tu phải không lơ là, nhiệt tâm, quyết chí; hướng tới tâm giải thoát, lậu hoặc chấm dứt và sự an ổn cao nhất khỏi trói buộc."
+          ]
+        },
+        {
+          "id": "more-jhanas",
+          "kind": "teaching",
+          "heading": "Ba cửa tiếp theo từ những tầng thiền",
+          "meaningUnits": [
+            "second",
+            "third",
+            "fourth"
+          ],
+          "paragraphs": [
+            "Cửa thứ hai là nhị thiền: tầm và tứ lắng, tâm trong sáng và thống nhất, có hân hoan, an lạc do định, sự vững yên của tâm. Người tu vào và sống trong đó, rồi nhận ra ngay cả nhị thiền cũng do tạo tác và chủ ý mà thành.",
+            "Cửa thứ ba là tam thiền: hân hoan lắng, còn tâm quân bình, có niệm và biết rõ, thân cảm an lạc. Vị ấy vào và sống trong tam thiền. Các bậc Thánh gọi đó là sống an lạc với quân bình và niệm. Vị ấy cũng xét tam thiền là điều do tạo tác và chủ ý mà thành.",
+            "Cửa thứ tư là tứ thiền: bỏ lạc và khổ; vui, buồn trong tâm đã chấm dứt trước đó; không khổ không lạc, niệm trong sạch nhờ quân bình. Vị ấy vào và sống trong đó, cũng nhận ra tính tạo tác và chủ ý của tứ thiền.",
+            "Với từng cửa, điều do tạo tác ấy là vô thường, có tính chất chấm dứt. Cùng cách thực hành không lơ là, nhiệt tâm, quyết chí và cùng hai hướng kết quả vừa nói được áp dụng: chấm dứt lậu hoặc; hoặc, khi đủ điều kiện về năm mối trói buộc, hóa sinh, đạt Niết-bàn ở đó và không trở lại."
+          ]
+        },
+        {
+          "id": "four-hearts",
+          "kind": "teaching",
+          "heading": "Bốn cửa từ cách mở rộng tâm",
+          "meaningUnits": [
+            "loving-kindness",
+            "compassion",
+            "rejoicing",
+            "equanimity"
+          ],
+          "paragraphs": [
+            "Cửa thứ năm là tâm từ, lòng mong các hữu tình được an vui. Người tu sống với tâm ấy lan một phương, rồi phương thứ hai, thứ ba, thứ tư; trên, dưới, ngang, khắp mọi nơi và toàn thế giới, đối với tất cả như với chính mình. Tâm rộng lớn, cao cả, không giới hạn, không thù hận, không ác ý.",
+            "Cửa thứ sáu là tâm bi, lòng thương trước sự khổ. Cửa thứ bảy là tâm hỷ, vui cùng điều tốt của người khác. Cửa thứ tám là tâm xả, giữ lòng quân bình. Cả ba cũng được mở rộng bốn phương, trên, dưới, ngang và khắp thế giới, đối với tất cả như với chính mình; rộng lớn, cao cả, không giới hạn, không thù hận, không ác ý. Xả ở đây vẫn đi cùng một tâm không muốn làm hại.",
+            "Với mỗi cửa từ, bi, hỷ, xả, người tu nhận ra: ngay cả sự giải thoát tâm nhờ trạng thái ấy cũng do tạo tác, do chủ ý mà thành, nên vô thường và có tính chất chấm dứt. Người tu tiếp tục theo cùng tiến trình và hai hướng kết quả đã nêu. Lòng lành được tu tập, đồng thời vẫn được nhìn đúng tính chất của nó."
+          ]
+        },
+        {
+          "id": "three-subtle-doors",
+          "kind": "teaching",
+          "heading": "Ba cửa còn lại của sự chứng đạt tinh tế",
+          "meaningUnits": [
+            "space",
+            "consciousness",
+            "nothingness"
+          ],
+          "paragraphs": [
+            "Cửa thứ chín là Không vô biên xứ. Người tu hoàn toàn vượt các nhận biết về hình sắc, các nhận biết về va chạm chấm dứt, không chú ý những nhận biết đa dạng; nhận biết “không gian là vô biên”, rồi vào và sống trong trạng thái ấy.",
+            "Cửa thứ mười là Thức vô biên xứ. Vượt hoàn toàn Không vô biên xứ, vị ấy nhận biết “thức là vô biên”, vào và sống trong đó. Thức là sự nhận biết. Cửa thứ mười một là Vô sở hữu xứ: vượt hoàn toàn Thức vô biên xứ, nhận biết “không có gì cả”, vào và sống trong trạng thái ấy.",
+            "Đây là ba sự chứng đạt mà kinh nói đến. Với từng sự chứng đạt, người tu lại suy xét: ngay cả trạng thái này cũng do tạo tác và chủ ý mà thành; điều như vậy là vô thường, có tính chất chấm dứt. Với cả ba cửa, người tu tiếp tục không lơ là, nhiệt tâm, quyết chí; cùng hai hướng kết quả đã nói ở cửa đầu đều được áp dụng.",
+            "Ở cửa cuối, Ānanda nhắc lại trọn hai hướng: vững trú ở đó thì đạt đoạn tận lậu hoặc. Nếu chưa đạt, do còn yêu thích và hoan hỷ với pháp ấy, khi năm mối trói buộc phần thấp đã hết, vị ấy hóa sinh tại đó, đạt Niết-bàn tại đó và không trở lại từ thế giới ấy. Ngài cũng nhắc đủ việc không lơ là, nhiệt tâm, quyết chí cùng ba kết quả giải thoát đã hỏi lúc đầu."
+          ]
+        },
+        {
+          "id": "understand-the-doors",
+          "kind": "clarification",
+          "heading": "Mười một cửa đều gắn với việc tu và thấy đúng",
+          "meaningUnits": [
+            "conditioned",
+            "results",
+            "refrain",
+            "nothingness"
+          ],
+          "paragraphs": [
+            "Mười một cửa là bốn tầng thiền, bốn cách mở rộng tâm từ, bi, hỷ, xả và ba sự chứng đạt vừa kể. Trong mỗi cửa, việc nhận ra tính tạo tác, vô thường, có thể chấm dứt đều quan trọng.",
+            "Chỉ thích một cảm giác dễ chịu chưa đủ cho kết quả được nói trong kinh. Ở hướng chưa đoạn tận lậu hoặc, việc năm mối trói buộc đã hết vẫn là điều kiện phải giữ. Các tên ấy nói về một con đường tu tập cụ thể; em có thể đọc từng phần và hỏi khi chưa hiểu."
+          ]
+        },
+        {
+          "id": "treasure",
+          "kind": "teaching",
+          "heading": "Tìm một lối, gặp được mười một lối",
+          "meaningUnits": [
+            "treasure",
+            "fire",
+            "gratitude"
+          ],
+          "paragraphs": [
+            "Dasama nói mình giống người chỉ đi tìm một lối vào kho báu, mà cùng lúc lại gặp mười một lối. Ông tìm một “cửa bất tử” để tu, nay được nghe mười một cửa. Bất tử ở đây chỉ sự giải thoát khỏi sinh tử, không phải làm cho cơ thể sống mãi.",
+            "Ông đưa thêm hình ảnh: một ngôi nhà có mười một cửa; nếu nhà cháy, người trong đó có thể thoát an toàn qua bất kỳ một cửa. Cũng vậy, ông tin có thể đưa mình đến an toàn qua một trong mười một cửa tu tập này.",
+            "Dasama nói người theo các giáo phái khác còn tìm của cải để trả thù lao cho thầy; vậy sao ông lại không cúng dường Ānanda? Đó là lòng biết ơn của người vừa được nghe chỉ dạy."
+          ]
+        },
+        {
+          "id": "offering",
+          "kind": "teaching",
+          "heading": "Lòng biết ơn trở thành việc làm",
+          "meaningUnits": [
+            "offering",
+            "ending"
+          ],
+          "paragraphs": [
+            "Dasama tập hợp Tăng chúng ở Pāṭaliputta và Vesālī, tự tay phục vụ những món ăn cứng và mềm ngon lành, làm các vị được thỏa mãn. Ông tặng mỗi vị một cặp vải; riêng Ānanda ba y, tức bộ áo của người xuất gia, và cho xây một trú xứ trị giá năm trăm. Kinh ghi số năm trăm mà không nêu đơn vị tiền.",
+            "Dòng kết gọi Kinh Bát Thành là bài thứ hai trong nhóm; mã bài là MN52."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: nhìn cả cách một niềm vui được tạo nên",
+          "meaningUnits": [
+            "conditioned",
+            "loving-kindness"
+          ],
+          "paragraphs": [
+            "Một liên hệ của người biên soạn: em thấy vui sau khi giúp bạn xếp lại sách. Em có thể nhận ra niềm vui ấy có những điều kiện: em muốn giúp, đã làm việc đó, rồi thấy bạn đỡ vất vả. Một lúc sau cảm giác có thể thay đổi, nhưng em vẫn có thể tiếp tục làm điều tốt.",
+            "Ví dụ chỉ giúp hình dung một trạng thái có nguyên nhân và thay đổi. Niềm vui trong việc nhỏ này không phải một tầng thiền hay sự giải thoát được kinh mô tả."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Quan sát một việc tốt vừa làm",
+          "meaningUnits": [
+            "conditioned",
+            "loving-kindness"
+          ],
+          "paragraphs": [
+            "Gợi ý thực hành: nhớ một việc tốt nhỏ hôm nay. Điều gì khiến em muốn làm? Khi làm xong, tâm em thế nào? Một lúc sau có khác không? Có thể kể điều mình nhận thấy cho một người lớn đang cùng đọc.",
+            "Em chỉ cần quan sát thật, không cố làm ra một cảm giác đặc biệt hay tự đặt tên chứng đạt cho mình."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Thấy tính vô thường ngay trong thiền định",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "journey",
+          "kind": "teaching",
+          "heading": "Một câu hỏi sau khi hoàn thành công việc",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "search",
+            "journey"
+          ],
+          "paragraphs": [
+            "Kinh Bát Thành, MN52, mở bằng điều người truyền kinh đã nghe. Tôn giả Ānanda đang ở làng nhỏ Beluva, gần Vesālī. Gia chủ Dasama, người thành Aṭṭhaka, đến Pāṭaliputta vì một công việc. Ông tới tu viện Kukkuṭa, đảnh lễ một tỳ-kheo, người xuất gia, rồi ngồi sang bên hỏi Ānanda hiện ở đâu vì muốn được gặp.",
+            "Được cho biết địa điểm, Dasama giải quyết xong việc ở Pāṭaliputta rồi mới đi Vesālī, đến Beluva. Ông gặp Ānanda, đảnh lễ, ngồi sang bên và đặt câu hỏi về pháp tu."
+          ]
+        },
+        {
+          "id": "question",
+          "kind": "teaching",
+          "heading": "Một pháp, ba phẩm chất thực hành, ba kết quả",
+          "meaningUnits": [
+            "question"
+          ],
+          "paragraphs": [
+            "Dasama hỏi có một pháp nào được Đức Phật, bậc biết và thấy, A-la-hán giải thoát, Chánh Đẳng Giác giác ngộ hoàn toàn, chỉ dạy để một tỳ-kheo sống không phóng dật, nhiệt tâm, quyết chí thực hành mà đạt giải thoát hay không.",
+            "Ba kết quả được nói rõ: tâm chưa giải thoát được giải thoát; các lậu hoặc chưa tận đi đến tận diệt; sự an ổn vô thượng khỏi các ách phược chưa đạt được thì được đạt. Lậu hoặc là những dòng ô nhiễm trói buộc tâm; ách phược là sự trói buộc. Không phóng dật là không buông lơi việc tu.",
+            "Ānanda xác nhận có pháp như vậy, giữ đủ các phẩm chất và kết quả. Dasama hỏi pháp ấy là gì. Phần giảng sau đó là lời Ānanda trình bày giáo pháp của Đức Phật."
+          ]
+        },
+        {
+          "id": "first",
+          "kind": "teaching",
+          "heading": "Sơ thiền cũng cần được thấy đúng tính chất",
+          "meaningUnits": [
+            "first",
+            "conditioned",
+            "results",
+            "refrain"
+          ],
+          "paragraphs": [
+            "Người tu lìa dục, tức những thú vui giác quan, và điều bất thiện, chứng và trú sơ thiền: có tầm, đặt tâm, và tứ, giữ tâm nối với đối tượng; có hỷ, niềm hân hoan, và lạc, sự an vui, do sự xa lìa ấy sinh ra.",
+            "Vị ấy suy xét ngay cả sơ thiền cũng do tạo tác và chủ ý tạo thành. Bất cứ điều gì như thế đều vô thường, có tính chất chấm dứt. Thành tựu thiền được nhận biết trong chính tính chất có điều kiện của nó.",
+            "Ānanda nói vị ấy “vững trú ở đó”, đạt đoạn tận lậu hoặc. Nếu chưa đạt, do ái luyến và hoan hỷ đối với pháp ấy, khi năm hạ phần kiết sử đã tận thì vị ấy hóa sinh tại đó, nhập Niết-bàn tại đó và không còn trở lại từ thế giới ấy. Hạ phần kiết sử là nhóm năm trói buộc thuộc phần thấp; hóa sinh là sinh ra bằng sự xuất hiện trực tiếp ở cảnh giới ấy. Niết-bàn là sự giải thoát khỏi khổ và trói buộc.",
+            "Đây cũng là một pháp được Đức Phật, bậc biết và thấy, A-la-hán, Chánh Đẳng Giác, chỉ dạy. Điều kiện vẫn là không phóng dật, nhiệt tâm, quyết chí; ba kết quả vẫn là tâm giải thoát, lậu hoặc tận và an ổn vô thượng khỏi ách phược."
+          ]
+        },
+        {
+          "id": "next-three",
+          "kind": "teaching",
+          "heading": "Nhị thiền, tam thiền và tứ thiền",
+          "meaningUnits": [
+            "second",
+            "third",
+            "fourth"
+          ],
+          "paragraphs": [
+            "Cửa thứ hai là nhị thiền: tầm và tứ lắng, nội tâm trong sáng, nhất tâm, không tầm tứ, hỷ lạc do định sinh. Cửa thứ ba là tam thiền: hỷ phai, trú xả tức quân bình, có niệm và tỉnh giác, thân cảm lạc; các bậc Thánh gọi là xả, có niệm, sống an lạc.",
+            "Cửa thứ tư là tứ thiền: bỏ lạc và khổ; vui và buồn trong tâm đã chấm dứt trước đó; không khổ không lạc, niệm thanh tịnh nhờ xả. Ở mỗi tầng, vị ấy chứng và trú, rồi xét ngay cả tầng thiền này cũng do tạo tác và chủ ý tạo thành.",
+            "Cả ba tiếp tục cùng mạch: cái được tạo thành ấy vô thường, có tính chất chấm dứt. Vững trú ở đó thì đạt lậu tận; nếu chưa, do luyến và hỷ với pháp ấy, khi năm hạ phần kiết sử đã tận thì hóa sinh, Niết-bàn tại đó, không trở lại từ thế giới ấy. Việc không phóng dật, nhiệt tâm, quyết chí vẫn là điều kiện xuyên suốt."
+          ]
+        },
+        {
+          "id": "immeasurables",
+          "kind": "teaching",
+          "heading": "Từ, bi, hỷ, xả: bốn cửa giải thoát tâm",
+          "meaningUnits": [
+            "loving-kindness",
+            "compassion",
+            "rejoicing",
+            "equanimity"
+          ],
+          "paragraphs": [
+            "Cửa thứ năm là tâm từ, mong hữu tình an vui. Vị ấy sống với tâm từ lan khắp một phương rồi phương thứ hai, thứ ba, thứ tư; trên, dưới, ngang; khắp mọi nơi và toàn thế giới, đối với tất cả như đối với mình. Tâm ấy rộng lớn, cao cả, vô lượng, không thù hận, không ác ý.",
+            "Cửa thứ sáu là tâm bi, thương trước khổ đau; thứ bảy là tâm hỷ, vui cùng điều tốt của hữu tình; thứ tám là tâm xả, quân bình. Mỗi tâm cũng được lan đủ bốn phương, trên, dưới, ngang và toàn thế giới, đối với tất cả như với mình; rộng lớn, cao cả, vô lượng, không thù hận, không ác ý.",
+            "Với từng tâm giải thoát ấy, người tu suy xét rằng nó cũng được tạo tác và chủ ý tạo thành, nên vô thường và có tính chất chấm dứt. Cùng tiến trình và hai hướng kết quả đã nêu được áp dụng cho cả từ, bi, hỷ và xả. Không chỉ nuôi dưỡng tâm lành, vị ấy còn thấy đúng tính chất của trạng thái được tu tập."
+          ]
+        },
+        {
+          "id": "space",
+          "kind": "teaching",
+          "heading": "Không vô biên xứ",
+          "meaningUnits": [
+            "space"
+          ],
+          "paragraphs": [
+            "Cửa thứ chín bắt đầu khi hoàn toàn vượt các tưởng về sắc, các tưởng về va chạm chấm dứt và không tác ý đến các tưởng đa dạng. Nhận biết không gian vô biên, vị ấy chứng và trú Không vô biên xứ. Tưởng ở đây là sự nhận biết đặc điểm của đối tượng.",
+            "Ngay cả chứng đạt ấy cũng do tạo tác và chủ ý tạo thành. Nhận ra nó vô thường, có tính chất chấm dứt, vị ấy tiếp tục cùng mạch tu và kết quả. Đây là lời về một chứng đạt trong thiền, không phải kết luận vật lý về kích thước vũ trụ."
+          ]
+        },
+        {
+          "id": "consciousness",
+          "kind": "teaching",
+          "heading": "Thức vô biên xứ",
+          "meaningUnits": [
+            "consciousness"
+          ],
+          "paragraphs": [
+            "Cửa thứ mười là hoàn toàn vượt Không vô biên xứ, nhận biết thức vô biên, rồi chứng và trú Thức vô biên xứ. Thức là sự nhận biết.",
+            "Người tu tiếp tục thấy ngay cả sự chứng đạt này cũng do tạo tác và chủ ý tạo thành, vô thường và có tính chất chấm dứt. Công thức tu và các kết quả vẫn như trước; câu về thức vô biên không được đặt thành một thức thường còn."
+          ]
+        },
+        {
+          "id": "nothingness",
+          "kind": "teaching",
+          "heading": "Vô sở hữu xứ và lời nhắc đủ cả tiến trình",
+          "meaningUnits": [
+            "nothingness"
+          ],
+          "paragraphs": [
+            "Cửa thứ mười một là hoàn toàn vượt Thức vô biên xứ, nhận biết không có gì cả, chứng và trú Vô sở hữu xứ. Vị ấy xét cả chứng đạt này cũng do tạo tác và chủ ý tạo thành; điều như vậy vô thường, có tính chất chấm dứt.",
+            "Ānanda nhắc lại: vững trú ở đó thì đạt đoạn tận lậu hoặc. Nếu chưa đạt, do ái luyến và hoan hỷ với pháp ấy, khi năm hạ phần kiết sử đã tận, vị ấy hóa sinh tại đó, nhập Niết-bàn tại đó và không trở lại từ thế giới ấy.",
+            "Ngài kết đây cũng là một pháp do Đức Phật biết và thấy, A-la-hán, Chánh Đẳng Giác, chỉ dạy: người tu không phóng dật, nhiệt tâm, quyết chí thì tâm chưa thoát được thoát, lậu chưa tận được tận, an ổn vô thượng chưa đạt được đạt."
+          ]
+        },
+        {
+          "id": "scope",
+          "kind": "clarification",
+          "heading": "Điều chung của mười một cửa",
+          "meaningUnits": [
+            "conditioned",
+            "results",
+            "refrain",
+            "nothingness"
+          ],
+          "paragraphs": [
+            "Mười một cửa gồm bốn thiền, bốn tâm từ, bi, hỷ, xả và ba chứng đạt vô sắc vừa nêu. Mỗi cửa đều có thành tựu tu tập, suy xét tính tạo tác và chủ ý của nó, nhận biết vô thường và khả năng chấm dứt, cùng tiến trình hướng giải thoát.",
+            "Cụm “vững trú ở đó” được giữ trong mạch ấy; bài kinh không nói rõ chỉ riêng thiền chứng hay riêng sự quán sát. Ở nhánh chưa lậu tận, ái luyến pháp không tự nó bảo đảm không trở lại: điều kiện năm hạ phần kiết sử đã tận vẫn hiện diện."
+          ]
+        },
+        {
+          "id": "two-images",
+          "kind": "teaching",
+          "heading": "Hai hình ảnh của Dasama",
+          "meaningUnits": [
+            "treasure",
+            "fire",
+            "gratitude"
+          ],
+          "paragraphs": [
+            "Dasama ví mình với người tìm một lối vào kho báu, cùng lúc gặp mười một lối. Ông tìm một cửa bất tử, nay được mười một cửa để tu. Bất tử ở đây là sự giải thoát khỏi sinh tử, không phải kéo dài sự sống của thân xác mãi mãi.",
+            "Ông ví thêm ngôi nhà có mười một cửa: nếu nhà cháy, có thể thoát an toàn qua bất kỳ một cửa. Cũng vậy, ông tin có thể đưa mình đến an toàn qua một trong mười một cửa tu tập. Lời ấy bày tỏ khả năng và hướng thực hành; không nói ông đã chứng quả ngay lúc nghe.",
+            "Dasama nói người theo giáo phái khác còn tìm của cải trả thù lao cho thầy, sao ông lại không cúng dường Ānanda. Lòng biết ơn dẫn đến việc làm tiếp theo."
+          ]
+        },
+        {
+          "id": "gifts",
+          "kind": "teaching",
+          "heading": "Cúng dường cho hai hội chúng",
+          "meaningUnits": [
+            "offering",
+            "ending"
+          ],
+          "paragraphs": [
+            "Ông tập hợp Tăng chúng từ Pāṭaliputta và Vesālī, tự tay phục vụ những món ăn cứng và mềm thượng vị, làm các vị được thỏa mãn. Mỗi tỳ-kheo nhận một cặp vải; Ānanda nhận ba y. Dasama còn cho xây một trú xứ trị giá năm trăm cho Ānanda; số tiền không được nêu đơn vị trong câu kinh.",
+            "Dòng kết gọi Kinh Bát Thành là bài thứ hai trong nhóm; mã bài là MN52. Việc cúng dường xuất phát từ Dasama, không phải một giá phải trả để mua sự giải thoát."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: nhìn cả điều kiện của một trạng thái tốt",
+          "meaningUnits": [
+            "conditioned",
+            "loving-kindness"
+          ],
+          "paragraphs": [
+            "Một liên hệ của người biên soạn: sau một buổi hỗ trợ đồng nghiệp, ta thấy tâm nhẹ và vui. Ta nhận ra trạng thái ấy có điều kiện: ý muốn giúp, sự chú ý, việc đã làm, cách mình tiếp nhận sự việc. Khi hoàn cảnh hoặc tâm thay đổi, cảm giác ấy có thể đổi mà việc sống tử tế vẫn đáng tiếp tục.",
+            "Ví dụ giúp suy xét tính được tạo thành và thay đổi; một trạng thái thuận lợi trong công việc chưa phải thiền chứng hay lậu tận trong kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Quan sát mà không vội kết luận chứng đạt",
+          "meaningUnits": [
+            "conditioned",
+            "results"
+          ],
+          "paragraphs": [
+            "Gợi ý suy xét: chọn một trạng thái tốt đang có, nhận rõ ý định và điều kiện đã góp phần tạo nên nó. Quan sát nó thay đổi ra sao, thay vì chỉ muốn giữ nguyên cảm giác ấy. Ghi lại cả điều mình còn chưa hiểu.",
+            "Đây là bước quan sát đời thường. Khi học về thiền chứng, cần giữ nguyên các điều kiện tu và kết quả cụ thể của bài kinh, không lấy một cảm giác dễ chịu làm bằng chứng đã giải thoát."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Những cánh cửa dẫn về sự an ổn",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "visit",
+          "kind": "teaching",
+          "heading": "Một chuyến đi để hỏi về đường tu",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "search",
+            "journey"
+          ],
+          "paragraphs": [
+            "Kinh Bát Thành, MN52, kể điều người truyền kinh đã nghe. Tôn giả Ānanda ở làng nhỏ Beluva, gần Vesālī. Gia chủ Dasama, người thành Aṭṭhaka, tới Pāṭaliputta vì một công việc. Ông là người tu học vẫn sống tại gia.",
+            "Tại tu viện Kukkuṭa, Dasama gặp một tỳ-kheo, người xuất gia, đảnh lễ rồi ngồi sang bên. Ông hỏi Ānanda đang ở đâu vì muốn được gặp. Vị tỳ-kheo chỉ nơi Ānanda đang trú. Dasama làm xong việc tại Pāṭaliputta rồi đi Vesālī, đến Beluva; gặp Ānanda, ông đảnh lễ, ngồi sang bên và thưa hỏi."
+          ]
+        },
+        {
+          "id": "question",
+          "kind": "teaching",
+          "heading": "Tâm chưa giải thoát có thể đi đến giải thoát",
+          "meaningUnits": [
+            "question"
+          ],
+          "paragraphs": [
+            "Dasama thưa với Ānanda: Đức Phật, bậc biết và thấy, A-la-hán đã giải thoát, Chánh Đẳng Giác giác ngộ hoàn toàn, có dạy một pháp nào để một tỳ-kheo sống không phóng dật, nhiệt tâm và quyết chí thực hành mà đạt được kết quả hay không?",
+            "Kết quả ông hỏi gồm ba điều: tâm chưa giải thoát được giải thoát; các lậu hoặc chưa hết được chấm dứt; sự an ổn vô thượng khỏi ách phược chưa đạt được thì được đạt. Không phóng dật là không buông lơi sự tu; lậu hoặc là những dòng ô nhiễm trói buộc tâm, ách phược là các sự trói buộc.",
+            "Ānanda xác nhận có pháp như vậy với đủ các phẩm chất và kết quả ấy. Dasama hỏi pháp đó là gì. Chính Ānanda là người giải thích lời dạy của Đức Phật trong cuộc gặp này."
+          ]
+        },
+        {
+          "id": "first",
+          "kind": "teaching",
+          "heading": "Cửa đầu: sơ thiền và sự suy xét",
+          "meaningUnits": [
+            "first",
+            "conditioned",
+            "results",
+            "refrain"
+          ],
+          "paragraphs": [
+            "Người tu lìa dục, tức những thú vui giác quan, và các điều bất thiện, chứng và trú sơ thiền. Có tầm, sự đặt tâm, và tứ, sự giữ tâm gắn với đối tượng; có hỷ, niềm hân hoan, và lạc, sự an vui, do xa lìa sinh ra.",
+            "Người ấy nhận ra ngay cả sơ thiền cũng do tạo tác và chủ ý mà thành. Bất cứ điều gì do tạo tác và chủ ý mà thành đều vô thường, có tính chất chấm dứt. Một thành tựu tốt đẹp vẫn cần được hiểu đúng như vậy.",
+            "Ānanda nói vị ấy “vững trú ở đó”, đạt đến đoạn tận lậu hoặc. Nếu chưa đạt, do ái luyến và hoan hỷ với pháp ấy, khi năm hạ phần kiết sử đã tận, vị ấy hóa sinh tại đó, nhập Niết-bàn tại đó và không còn trở lại từ thế giới ấy. Hạ phần kiết sử là nhóm năm trói buộc thuộc phần thấp; hóa sinh là sinh ra bằng sự xuất hiện trực tiếp ở cảnh giới ấy; Niết-bàn là sự giải thoát khỏi khổ và trói buộc.",
+            "Ānanda gọi đây cũng là một pháp Đức Phật, bậc biết và thấy, A-la-hán, Chánh Đẳng Giác, đã dạy. Người tu không phóng dật, nhiệt tâm, quyết chí; tâm được giải thoát, lậu hoặc tận, đạt an ổn vô thượng."
+          ]
+        },
+        {
+          "id": "other-jhanas",
+          "kind": "teaching",
+          "heading": "Cửa thứ hai, thứ ba và thứ tư",
+          "meaningUnits": [
+            "second",
+            "third",
+            "fourth"
+          ],
+          "paragraphs": [
+            "Nhị thiền là cửa thứ hai: tầm và tứ lắng, nội tâm trong sáng, nhất tâm, không tầm tứ, hỷ lạc do định. Tam thiền là cửa thứ ba: hỷ phai, trú xả tức quân bình, có niệm và tỉnh giác, thân cảm lạc; các bậc Thánh gọi là xả, có niệm, sống an lạc.",
+            "Tứ thiền là cửa thứ tư: bỏ lạc và khổ, vui buồn trong tâm đã chấm dứt trước đó; không khổ không lạc, niệm thanh tịnh nhờ xả. Với mỗi tầng, vị ấy chứng và trú, rồi nhận biết ngay cả tầng thiền này cũng do tạo tác và chủ ý mà thành.",
+            "Mỗi trường hợp đều tiếp tục cùng cách suy xét: cái được tạo thành ấy vô thường, có tính chất chấm dứt. Cùng các điều kiện thực hành và hai hướng kết quả của sơ thiền được áp dụng: lậu tận; hoặc, nếu chưa lậu tận, do còn luyến và hỷ với pháp ấy, khi năm hạ phần kiết sử đã tận, hóa sinh, Niết-bàn tại đó và không trở lại từ thế giới ấy."
+          ]
+        },
+        {
+          "id": "hearts",
+          "kind": "teaching",
+          "heading": "Bốn cửa từ một tâm rộng mở",
+          "meaningUnits": [
+            "loving-kindness",
+            "compassion",
+            "rejoicing",
+            "equanimity"
+          ],
+          "paragraphs": [
+            "Tâm từ, mong hữu tình an vui, là cửa thứ năm. Người tu sống với tâm từ lan một phương, rồi phương thứ hai, thứ ba, thứ tư; trên, dưới, ngang, khắp mọi nơi và toàn thế giới. Đối với tất cả như với chính mình, tâm ấy rộng lớn, cao cả, vô lượng, không thù hận, không ác ý.",
+            "Tâm bi, thương trước khổ đau, là cửa thứ sáu. Tâm hỷ, vui cùng điều tốt của hữu tình, là cửa thứ bảy. Tâm xả, quân bình, là cửa thứ tám. Với từng tâm, người tu cũng lan khắp bốn phương, trên, dưới, ngang và toàn thế giới, đối với tất cả như với mình; rộng lớn, cao cả, vô lượng, không thù hận, không ác ý.",
+            "Người ấy suy xét ngay cả tâm giải thoát nhờ từ, bi, hỷ hay xả cũng được tạo tác và chủ ý tạo thành, nên vô thường và có tính chất chấm dứt. Với mỗi cửa, cùng tiến trình và hai hướng kết quả vừa nói được giữ nguyên. Tâm lành được phát triển mà vẫn được thấy đúng tính chất của nó."
+          ]
+        },
+        {
+          "id": "space",
+          "kind": "teaching",
+          "heading": "Cửa thứ chín: Không vô biên xứ",
+          "meaningUnits": [
+            "space"
+          ],
+          "paragraphs": [
+            "Người tu hoàn toàn vượt những tưởng về sắc, các tưởng về va chạm chấm dứt, không tác ý đến những tưởng đa dạng. Tưởng ở đây là sự nhận biết đặc điểm của đối tượng. Nhận biết không gian vô biên, vị ấy chứng và trú Không vô biên xứ.",
+            "Vị ấy suy xét cả chứng đạt này cũng do tạo tác và chủ ý mà thành; điều như vậy vô thường, có tính chất chấm dứt. Cùng cách tu và kết quả đã nêu tiếp tục được áp dụng."
+          ]
+        },
+        {
+          "id": "consciousness",
+          "kind": "teaching",
+          "heading": "Cửa thứ mười: Thức vô biên xứ",
+          "meaningUnits": [
+            "consciousness"
+          ],
+          "paragraphs": [
+            "Hoàn toàn vượt Không vô biên xứ, người tu nhận biết thức vô biên, chứng và trú Thức vô biên xứ. Thức là sự nhận biết.",
+            "Ngay cả chứng đạt ấy cũng do tạo tác và chủ ý mà thành, vô thường, có tính chất chấm dứt. Đó là cách nhìn của người tu, cùng với tiến trình và kết quả như trước. Kinh không lấy sự nhận biết vô biên này làm một cái ta còn mãi."
+          ]
+        },
+        {
+          "id": "nothingness",
+          "kind": "teaching",
+          "heading": "Cửa thứ mười một: Vô sở hữu xứ",
+          "meaningUnits": [
+            "nothingness"
+          ],
+          "paragraphs": [
+            "Hoàn toàn vượt Thức vô biên xứ, vị ấy nhận biết không có gì cả, chứng và trú Vô sở hữu xứ. Người tu suy xét cả chứng đạt ấy cũng do tạo tác và chủ ý mà thành, nên vô thường và có tính chất chấm dứt.",
+            "Ở đây Ānanda nhắc đủ hai hướng kết quả: vững trú ở đó thì đạt đoạn tận lậu hoặc. Nếu chưa đạt, do ái luyến và hoan hỷ đối với pháp ấy, khi năm hạ phần kiết sử đã tận, vị ấy hóa sinh tại đó, nhập Niết-bàn tại đó và không trở lại từ thế giới ấy.",
+            "Đây cũng là một pháp được Đức Phật, bậc biết và thấy, A-la-hán, Chánh Đẳng Giác, chỉ dạy: sống không phóng dật, nhiệt tâm, quyết chí, thì tâm chưa giải thoát được giải thoát, lậu chưa tận được tận, an ổn vô thượng khỏi ách chưa đạt được đạt."
+          ]
+        },
+        {
+          "id": "meaning",
+          "kind": "clarification",
+          "heading": "Giữ rõ ý của những cánh cửa",
+          "meaningUnits": [
+            "conditioned",
+            "results",
+            "refrain",
+            "nothingness"
+          ],
+          "paragraphs": [
+            "Bốn thiền, bốn tâm từ, bi, hỷ, xả và ba chứng đạt vô sắc vừa kể hợp thành mười một cửa. Mỗi cửa đều có việc tu và sự nhận ra tính tạo tác, chủ ý, vô thường, có thể chấm dứt của chính trạng thái ấy.",
+            "Trong câu này, kinh không chỉ rõ riêng thiền chứng hay riêng sự suy xét là chỗ “vững trú ở đó”. Ở hướng chưa đoạn tận lậu hoặc, việc yêu thích pháp ấy chưa phải điều kiện đủ: năm hạ phần kiết sử phải đã tận."
+          ]
+        },
+        {
+          "id": "images",
+          "kind": "teaching",
+          "heading": "Một lối vào kho báu và một lối ra an toàn",
+          "meaningUnits": [
+            "treasure",
+            "fire",
+            "gratitude"
+          ],
+          "paragraphs": [
+            "Nghe xong, Dasama nói mình như người tìm một lối vào kho báu mà cùng lúc được mười một lối. Ông tìm một cửa bất tử, nay được mười một cửa để tu tập. Bất tử ở đây là giải thoát khỏi sinh tử, không phải thân này không bao giờ già chết.",
+            "Ông lại ví một ngôi nhà có mười một cửa. Nếu nhà cháy, người ở trong có thể thoát an toàn qua bất kỳ một cửa. Cũng vậy, ông tin có thể đưa mình đến an toàn qua một trong mười một cửa tu ấy.",
+            "Dasama nói người theo các giáo phái khác còn tìm của cải để trả thù lao cho thầy; sao ông lại không cúng dường Ānanda? Lời ấy thể hiện lòng biết ơn trước điều vừa được học."
+          ]
+        },
+        {
+          "id": "offering",
+          "kind": "teaching",
+          "heading": "Tự tay phục vụ và cúng dường",
+          "meaningUnits": [
+            "offering",
+            "ending"
+          ],
+          "paragraphs": [
+            "Dasama tập hợp Tăng chúng ở Pāṭaliputta và Vesālī, tự tay phục vụ, làm các vị được thỏa mãn với món ăn cứng và mềm thượng vị. Ông tặng mỗi tỳ-kheo một cặp vải, tặng Ānanda ba y và cho xây một trú xứ trị giá năm trăm. Câu kinh không ghi đơn vị tiền cho con số ấy.",
+            "Dòng kết gọi Kinh Bát Thành là bài thứ hai trong nhóm; mã bài là MN52. Câu chuyện kết ở việc cúng dường; không kể Dasama đã chứng quả ngay khi nghe."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: nhận rõ một niềm vui lành",
+          "meaningUnits": [
+            "conditioned",
+            "loving-kindness"
+          ],
+          "paragraphs": [
+            "Một liên hệ của người biên soạn: sau khi trò chuyện và giúp một người quen gỡ một việc khó, ta cảm thấy lòng nhẹ. Ta có thể nhận ra ý muốn giúp, sự chú tâm lắng nghe và việc đã làm là những điều kiện góp vào niềm vui ấy. Khi cảm giác đổi khác, điều tốt đã làm vẫn có ý nghĩa.",
+            "Ví dụ chỉ giúp nhìn tính có điều kiện và thay đổi của một trạng thái đời thường. Nó không thay thiền chứng hay sự giải thoát trong kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Nhìn điều kiện, không vội giữ chặt cảm giác",
+          "meaningUnits": [
+            "conditioned",
+            "results"
+          ],
+          "paragraphs": [
+            "Gợi ý suy xét: nhớ một lúc tâm an vui gần đây. Điều gì đã góp phần vào trạng thái ấy? Nó có đứng yên mãi không? Có thể nhận biết sự thay đổi mà vẫn tiếp tục nuôi dưỡng cách sống lành.",
+            "Chỉ ghi điều mình thật sự nhận ra. Những tên chứng đạt trong kinh cần được hiểu cùng toàn bộ điều kiện tu, không dùng để tự kết luận từ một cảm giác dễ chịu."
+          ]
+        }
+      ]
+    }
+  }
+}

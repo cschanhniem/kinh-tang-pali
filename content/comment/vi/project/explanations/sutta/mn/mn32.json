@@ -1,0 +1,1050 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn32",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn32_root-pli-ms.json",
+      "sha256": "269e3bda15f532f3b32b77778141f91cd7963a9d5c758d7f5b9606180a1d2a38",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn32_translation-vi-project.json",
+      "sha256": "42cd729b32ea3b058167350994611280c48a284f146726217055dedb086706da",
+      "commit": "4112d750d88985733bb9a4f0a0dc61d8f035c504"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn32_translation-en-sujato.json",
+      "sha256": "c3a7c614c4b62592891e4518a89c358ecf710f5b07977a79300957ee33b86f41",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn32.html",
+      "sha256": "d7ea4fc5b6bc7acbda65b5d8407e68ede6929dde5e58a3145769fbd00e7a7b6d",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn32_comment-vi-project.json",
+      "sha256": "3381aa52a6110c726e87cdbacd1ba86265ac6f275b1b2ab9ce0079c69bc4bfcd",
+      "commit": "4112d750d88985733bb9a4f0a0dc61d8f035c504"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "nhan-dau",
+      "title": "Nhãn bộ và tên bài",
+      "segments": [
+        "mn32:0.1",
+        "mn32:0.2"
+      ],
+      "summary": "Trung Bộ32, Đại kinh Gosiṅga; nhãn ấn bản không phải lời trong đối thoại."
+    },
+    {
+      "id": "boi-canh",
+      "title": "Phật và các trưởng lão ở Gosiṅga",
+      "segments": [
+        "mn32:1.1",
+        "mn32:1.2",
+        "mn32:1.3"
+      ],
+      "summary": "Người kể đã nghe; Phật ở rừng sāla Gosiṅga cùng nhiều trưởng lão nổi tiếng gồm Sāriputta, Mahāmoggallāna, Mahākassapa, Anuruddha, Revata, Ānanda và các vị khác."
+    },
+    {
+      "id": "nhom-dau",
+      "title": "Moggallāna mời Kassapa",
+      "segments": [
+        "mn32:2.1",
+        "mn32:2.2",
+        "mn32:2.3",
+        "mn32:2.4"
+      ],
+      "summary": "Buổi chiều rời tĩnh cư, Mahāmoggallāna mời Mahākassapa đến Sāriputta nghe Pháp; được đồng ý; hai vị cùng Anuruddha đi."
+    },
+    {
+      "id": "nhom-sau",
+      "title": "Ānanda mời Revata",
+      "segments": [
+        "mn32:3.1",
+        "mn32:3.2",
+        "mn32:3.3",
+        "mn32:3.4",
+        "mn32:3.5",
+        "mn32:3.6"
+      ],
+      "summary": "Ānanda thấy ba vị đi, đến Revata nói các bậc chân nhân đang tới Sāriputta nghe Pháp và mời đi cùng; Revata đồng ý, hai vị đến."
+    },
+    {
+      "id": "cau-hoi",
+      "title": "Lời chào và khu rừng tươi đẹp",
+      "segments": [
+        "mn32:4.1",
+        "mn32:4.2",
+        "mn32:4.3",
+        "mn32:4.4",
+        "mn32:4.5",
+        "mn32:4.6"
+      ],
+      "summary": "Sāriputta thấy Revata/Ānanda từ xa, chào Ānanda thị giả thường gần Phật; rừng đẹp, đêm sáng, sāla nở rộ, dường như hương trời lan; hỏi loại tỳ-kheo nào làm đẹp thêm rừng."
+    },
+    {
+      "id": "ananda-hoc",
+      "title": "Ānanda: học rộng và thấu hiểu",
+      "segments": [
+        "mn32:4.7"
+      ],
+      "summary": "Nghe nhiều, giữ/thu thập điều nghe; giáo pháp tốt đầu/giữa/cuối, đủ nghĩa/lời, trình bày phạm hạnh hoàn toàn đầy đủ thanh tịnh; nghe nhiều, giữ, tụng quen, tâm suy xét, hiểu thấu bằng kiến."
+    },
+    {
+      "id": "ananda-giang",
+      "title": "Ānanda: giảng để nhổ tùy miên",
+      "segments": [
+        "mn32:4.8",
+        "mn32:4.9"
+      ],
+      "summary": "Giảng cho bốn hội chúng bằng lời trọn vẹn mạch lạc nhằm nhổ tận tùy miên; đó là người làm đẹp rừng, không chỉ người nhớ nhiều."
+    },
+    {
+      "id": "hoi-revata",
+      "title": "Sāriputta hỏi Revata",
+      "segments": [
+        "mn32:5.1",
+        "mn32:5.2",
+        "mn32:5.3",
+        "mn32:5.4",
+        "mn32:5.5"
+      ],
+      "summary": "Ghi nhận Ānanda trả lời theo phần hiểu/cảm hứng riêng, chuyển hỏi Revata cùng lời tả rừng và cùng câu hỏi."
+    },
+    {
+      "id": "revata",
+      "title": "Revata: tĩnh cư, định và quán",
+      "segments": [
+        "mn32:5.6",
+        "mn32:5.7"
+      ],
+      "summary": "Thích và vui tĩnh cư, chuyên tâm lắng nội tâm, không bỏ thiền, có tuệ quán, thường đến chỗ vắng; là người làm đẹp rừng."
+    },
+    {
+      "id": "hoi-anuruddha",
+      "title": "Sāriputta hỏi Anuruddha",
+      "segments": [
+        "mn32:6.1",
+        "mn32:6.2",
+        "mn32:6.3",
+        "mn32:6.4",
+        "mn32:6.5"
+      ],
+      "summary": "Ghi nhận Revata theo phần hiểu riêng, chuyển hỏi Anuruddha cùng bối cảnh và câu hỏi."
+    },
+    {
+      "id": "anuruddha",
+      "title": "Anuruddha: thiên nhãn và phép ví",
+      "segments": [
+        "mn32:6.6",
+        "mn32:6.7",
+        "mn32:6.8",
+        "mn32:6.9"
+      ],
+      "summary": "Thiên nhãn trong sạch vượt mắt người thấy ngàn thế giới; ví người mắt sáng ở tầng cao lầu đẹp nhìn ngàn vòng tròn; áp lại thiên nhãn thấy ngàn thế giới, người làm đẹp rừng. Không biến thành thiên văn hiện đại."
+    },
+    {
+      "id": "hoi-kassapa",
+      "title": "Sāriputta hỏi Mahākassapa",
+      "segments": [
+        "mn32:7.1",
+        "mn32:7.2",
+        "mn32:7.3",
+        "mn32:7.4",
+        "mn32:7.5"
+      ],
+      "summary": "Ghi nhận Anuruddha rồi chuyển cùng câu hỏi cho Mahākassapa."
+    },
+    {
+      "id": "kassapa",
+      "title": "Kassapa: tự sống và tán thán 14 phẩm chất",
+      "segments": [
+        "mn32:7.6",
+        "mn32:7.7"
+      ],
+      "summary": "Mỗi phẩm chất đều tự thực hành và tán thán: ở rừng, khất thực, y phấn tảo, ba y; ít muốn, biết đủ, viễn ly, ít giao du, khởi tinh tấn; thành tựu giới, định, tuệ, giải thoát, tri kiến giải thoát. Đủ14, không chỉ nêu hạnh khắc khổ; đó là người làm đẹp rừng."
+    },
+    {
+      "id": "hoi-moggallana",
+      "title": "Sāriputta hỏi Mahāmoggallāna",
+      "segments": [
+        "mn32:8.1",
+        "mn32:8.2",
+        "mn32:8.3",
+        "mn32:8.4",
+        "mn32:8.5"
+      ],
+      "summary": "Ghi nhận Kassapa rồi chuyển cùng câu hỏi và lời tả rừng cho Mahāmoggallāna."
+    },
+    {
+      "id": "moggallana",
+      "title": "Moggallāna: trao đổi hai chiều",
+      "segments": [
+        "mn32:8.6",
+        "mn32:8.7"
+      ],
+      "summary": "Hai tỳ-kheo luận Pháp, hỏi nhau, trả lời nhau không lúng túng/bế tắc, cuộc nói Pháp tiến triển; người như thế làm đẹp rừng. Không mặc định abhidhammakathā là bộ sách hệ thống về sau."
+    },
+    {
+      "id": "hoi-sariputta",
+      "title": "Moggallāna hỏi lại Sāriputta",
+      "segments": [
+        "mn32:9.1",
+        "mn32:9.2",
+        "mn32:9.3",
+        "mn32:9.4",
+        "mn32:9.5"
+      ],
+      "summary": "Moggallāna ghi nhận tất cả đã nói theo phần hiểu riêng, hỏi Sāriputta cùng câu hỏi về rừng sáng và hương như trời."
+    },
+    {
+      "id": "sariputta",
+      "title": "Sāriputta: làm chủ tâm",
+      "segments": [
+        "mn32:9.6",
+        "mn32:9.7",
+        "mn32:9.8",
+        "mn32:9.9"
+      ],
+      "summary": "Người làm chủ tâm, không bị tâm làm chủ; sáng/trưa/chiều muốn an trú hay chứng đạt nào thì ở trong sự ấy lúc ấy."
+    },
+    {
+      "id": "hom-ao",
+      "title": "Hòm y phục nhiều màu",
+      "segments": [
+        "mn32:9.10",
+        "mn32:9.11",
+        "mn32:9.12",
+        "mn32:9.13"
+      ],
+      "summary": "Vua hoặc đại thần có hòm đầy y phục nhiều màu; sáng/trưa/chiều muốn mặc cặp y phục nào thì chọn được cặp ấy. Giữ ba thời và quyền chọn, không lấy sự giàu sang làm đích."
+    },
+    {
+      "id": "ap-dung-hom-ao",
+      "title": "Áp phép ví trở lại tâm",
+      "segments": [
+        "mn32:9.14",
+        "mn32:9.15",
+        "mn32:9.16",
+        "mn32:9.17",
+        "mn32:9.18"
+      ],
+      "summary": "Nhắc cả làm chủ/không bị tâm làm chủ và ba thời an trú theo ý; đó là vị làm đẹp rừng. Chứng đạt rộng hơn riêng quả."
+    },
+    {
+      "id": "den-phat",
+      "title": "Cùng đến hỏi Phật",
+      "segments": [
+        "mn32:10.1",
+        "mn32:10.2",
+        "mn32:10.3",
+        "mn32:10.4",
+        "mn32:10.5",
+        "mn32:10.6"
+      ],
+      "summary": "Sāriputta nói tất cả đã trả lời, đề nghị trình Phật và ghi nhớ đúng câu trả lời; mọi người đồng ý, tới lễ/ngồi bên; Sāriputta bắt đầu kể."
+    },
+    {
+      "id": "thuat-ananda",
+      "title": "Sāriputta thuật câu trả lời Ānanda",
+      "segments": [
+        "mn32:11.1",
+        "mn32:11.2",
+        "mn32:11.3",
+        "mn32:11.4",
+        "mn32:11.5",
+        "mn32:11.6",
+        "mn32:11.7",
+        "mn32:11.8",
+        "mn32:11.9",
+        "mn32:11.10",
+        "mn32:11.11"
+      ],
+      "summary": "Thuật lại Revata/Ānanda tới, lời chào thị giả gần Phật, cảnh rừng và câu hỏi; trích câu đáp Ānanda học/giảng tới nhổ tùy miên và kết làm đẹp rừng; không nhầm trích này là Phật nói."
+    },
+    {
+      "id": "xac-nhan-ananda",
+      "title": "Phật xác nhận phẩm chất Ānanda",
+      "segments": [
+        "mn32:11.12",
+        "mn32:11.13",
+        "mn32:11.14",
+        "mn32:11.15"
+      ],
+      "summary": "Phật khen Sāriputta và nói Ānanda đáp đúng theo người ấy; xác nhận Ānanda thật có đầy đủ học rộng, giữ/thu thập/học/đọc/suy/hiểu và giảng bốn chúng nhằm nhổ tùy miên."
+    },
+    {
+      "id": "thuat-revata",
+      "title": "Sāriputta thuật Revata",
+      "segments": [
+        "mn32:12.1",
+        "mn32:12.2",
+        "mn32:12.3",
+        "mn32:12.4",
+        "mn32:12.5",
+        "mn32:12.6",
+        "mn32:12.7",
+        "mn32:12.8"
+      ],
+      "summary": "Kể thứ tự sau Ānanda, cùng câu hỏi/cảnh và đủ phẩm chất tĩnh cư, lắng tâm, không bỏ thiền, tuệ quán, chỗ vắng, kết rừng đẹp."
+    },
+    {
+      "id": "xac-nhan-revata",
+      "title": "Phật xác nhận Revata",
+      "segments": [
+        "mn32:12.9",
+        "mn32:12.10",
+        "mn32:12.11"
+      ],
+      "summary": "Khen và nói Revata đáp đúng với mình vì có đầy đủ các phẩm chất tĩnh cư, lắng tâm, thiền, tuệ quán, lui tới chỗ vắng."
+    },
+    {
+      "id": "thuat-anuruddha",
+      "title": "Sāriputta thuật Anuruddha",
+      "segments": [
+        "mn32:13.1",
+        "mn32:13.2",
+        "mn32:13.3",
+        "mn32:13.4",
+        "mn32:13.5",
+        "mn32:13.6",
+        "mn32:13.7"
+      ],
+      "summary": "Kể thứ tự sau Revata, câu hỏi/câu đáp thiên nhãn vượt người quan sát nghìn thế giới cùng phép ví người mắt sáng, kết làm đẹp rừng; có phần lược."
+    },
+    {
+      "id": "xac-nhan-anuruddha",
+      "title": "Phật xác nhận Anuruddha",
+      "segments": [
+        "mn32:13.8",
+        "mn32:13.9"
+      ],
+      "summary": "Phật khen và xác nhận Anuruddha thật dùng thiên nhãn thanh tịnh vượt mắt người quan sát nghìn thế giới."
+    },
+    {
+      "id": "thuat-kassapa",
+      "title": "Sāriputta thuật Kassapa",
+      "segments": [
+        "mn32:14.1",
+        "mn32:14.2",
+        "mn32:14.3",
+        "mn32:14.4",
+        "mn32:14.5",
+        "mn32:14.6",
+        "mn32:14.7"
+      ],
+      "summary": "Kể thứ tự sau Anuruddha, cùng câu hỏi, liệt kê14 phẩm chất với công thức tự thực hành/tán thán có lược, kết làm đẹp rừng."
+    },
+    {
+      "id": "xac-nhan-kassapa",
+      "title": "Phật xác nhận Kassapa",
+      "segments": [
+        "mn32:14.8",
+        "mn32:14.9",
+        "mn32:14.10"
+      ],
+      "summary": "Phật khen và xác nhận Kassapa tự mình thực hành, tán thán từng điều trong cả14 phẩm chất; ở rừng đến tri kiến giải thoát."
+    },
+    {
+      "id": "thuat-moggallana",
+      "title": "Sāriputta thuật Moggallāna",
+      "segments": [
+        "mn32:15.1",
+        "mn32:15.2",
+        "mn32:15.3",
+        "mn32:15.4",
+        "mn32:15.5",
+        "mn32:15.6",
+        "mn32:15.7"
+      ],
+      "summary": "Kể thứ tự sau Kassapa, cùng câu hỏi, hai người đàm Pháp, hỏi/đáp không bế tắc và đối thoại tiếp; kết làm đẹp rừng."
+    },
+    {
+      "id": "xac-nhan-moggallana",
+      "title": "Phật xác nhận Moggallāna",
+      "segments": [
+        "mn32:15.8",
+        "mn32:15.9"
+      ],
+      "summary": "Phật khen và nói Moggallāna đáp đúng với mình vì là người thuyết Pháp; không thay bằng sở trường thần thông ngoài đoạn."
+    },
+    {
+      "id": "thuat-sariputta",
+      "title": "Moggallāna thuật Sāriputta",
+      "segments": [
+        "mn32:16.1",
+        "mn32:16.2",
+        "mn32:16.3",
+        "mn32:16.4",
+        "mn32:16.5",
+        "mn32:16.6",
+        "mn32:16.7",
+        "mn32:16.8",
+        "mn32:16.9",
+        "mn32:16.10",
+        "mn32:16.11",
+        "mn32:16.12",
+        "mn32:16.13",
+        "mn32:16.14",
+        "mn32:16.15",
+        "mn32:16.16",
+        "mn32:16.17",
+        "mn32:16.18",
+        "mn32:16.19",
+        "mn32:16.20"
+      ],
+      "summary": "Người kể đổi sang Moggallāna: đã hỏi Sāriputta, đủ cảnh/câu hỏi, trích làm chủ/không bị tâm làm chủ, ba thời; phép ví vua/đại thần/hòm nhiều màu/cặp áo ba thời rồi áp lại; không để Sāriputta tự kể câu đáp mình."
+    },
+    {
+      "id": "xac-nhan-sariputta",
+      "title": "Phật xác nhận Sāriputta",
+      "segments": [
+        "mn32:16.21",
+        "mn32:16.22",
+        "mn32:16.23",
+        "mn32:16.24",
+        "mn32:16.25",
+        "mn32:16.26"
+      ],
+      "summary": "Phật khen Moggallāna, xác nhận Sāriputta làm chủ tâm, không bị tâm làm chủ, tùy ý an trú/chứng đạt cả sáng/trưa/chiều."
+    },
+    {
+      "id": "moi-phuong-dien",
+      "title": "Tất cả nói khéo theo phương diện",
+      "segments": [
+        "mn32:17.1",
+        "mn32:17.2",
+        "mn32:17.3",
+        "mn32:17.4"
+      ],
+      "summary": "Sāriputta hỏi ai nói khéo; Phật nói tất cả nói khéo theo một phương diện, rồi mời nghe thêm câu trả lời của Ngài; không chọn người thắng, không nói mọi quan điểm tùy ý đều đúng."
+    },
+    {
+      "id": "quyet-chi",
+      "title": "Quyết chí đến giải thoát không chấp thủ",
+      "segments": [
+        "mn32:17.5",
+        "mn32:17.6",
+        "mn32:17.7"
+      ],
+      "summary": "Sau ăn/khất thực về, vị tỳ-kheo ngồi chéo chân, thân thẳng, thiết lập niệm trước mặt, quyết không rời thế ngồi tới khi tâm thoát lậu hoặc do không chấp thủ; vị ấy làm đẹp rừng. Giữ hoàn cảnh và đích, không lược thành bền bỉ việc thường."
+    },
+    {
+      "id": "ket",
+      "title": "Hoan hỷ và nhãn kết",
+      "segments": [
+        "mn32:17.8",
+        "mn32:17.9",
+        "mn32:17.10"
+      ],
+      "summary": "Phật dứt lời, các vị hoan hỷ/tán đồng. Nhãn Đại kinh Gosiṅga kết, thứ hai trong phần hiện tại, không phải MN2; không gán chứng đạt mới cho hội chúng."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "MN32 — Điều gì làm một khu rừng thêm đẹp?",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "muc-1",
+          "kind": "teaching",
+          "heading": "Cùng nhau đi nghe Pháp",
+          "paragraphs": [
+            "MN32 là Đại kinh Rừng Sừng Bò, thuộc Trung Bộ. Người kể nói về điều mình đã nghe. Đức Phật ở rừng cây sāla Gosiṅga cùng nhiều thầy tu lâu năm nổi tiếng: Sāriputta, Mahāmoggallāna, Mahākassapa, Anuruddha, Revata, Ānanda và các vị khác.",
+            "Một buổi chiều, sau khi rời chỗ ở yên để tu, Mahāmoggallāna mời Mahākassapa đến nghe Sāriputta nói Pháp. Mahākassapa đồng ý. Anuruddha cùng đi với hai thầy.",
+            "Thấy ba thầy đi, Ānanda đến rủ Revata: các bậc chân nhân, tức những người tốt đáng quý ấy, đang đến nghe Pháp, mình cùng đi nhé. Revata đồng ý, rồi hai thầy cùng tới. Pháp ở đây là lời dạy và con đường tu học."
+          ],
+          "meaningUnits": [
+            "nhan-dau",
+            "boi-canh",
+            "nhom-dau",
+            "nhom-sau"
+          ]
+        },
+        {
+          "id": "muc-2",
+          "kind": "teaching",
+          "heading": "Một câu hỏi giữa rừng hoa",
+          "paragraphs": [
+            "Sāriputta thấy Revata và Ānanda từ xa. Thầy chào đón Ānanda, người thường ở gần và chăm sóc Đức Phật. Rừng sāla thật đẹp: đêm sáng, hoa nở rộ, hương thơm dường như từ cõi trời lan tới.",
+            "Sāriputta hỏi: người tu như thế nào sẽ làm khu rừng này đẹp thêm? Kinh dùng chữ tỳ-kheo để gọi nhà sư. Các thầy lần lượt trả lời về những phẩm chất tu học làm nơi ở thêm đáng quý."
+          ],
+          "meaningUnits": [
+            "cau-hoi"
+          ]
+        },
+        {
+          "id": "muc-3",
+          "kind": "teaching",
+          "heading": "Ānanda: học cho hiểu và biết chia sẻ",
+          "paragraphs": [
+            "Ānanda nói đến người nghe nhiều, nhớ kỹ và giữ được điều đã học. Đó là những lời dạy tốt ở đầu, tốt ở giữa và tốt ở cuối; cả nghĩa lẫn lời đều đầy đủ, trình bày một đời tu trong sạch và trọn vẹn.",
+            "Người ấy nghe nhiều, ghi nhớ, đọc lại cho quen, suy xét trong tâm và hiểu thấu điều đã học. Rồi người ấy giảng bằng lời trọn ý, nối nhau mạch lạc cho bốn hội chúng: các nhà sư, các ni sư, người nam và người nữ sống tại gia theo Pháp.",
+            "Mục đích là nhổ tận tùy miên, tức những khuynh hướng xấu còn nằm sâu trong tâm. Vì thế, lời đáp không chỉ khen người có trí nhớ tốt. Người học và giảng như vậy làm khu rừng thêm đẹp."
+          ],
+          "meaningUnits": [
+            "ananda-hoc",
+            "ananda-giang"
+          ]
+        },
+        {
+          "id": "muc-4",
+          "kind": "teaching",
+          "heading": "Revata: vui với sự yên tĩnh và nhìn cho rõ",
+          "paragraphs": [
+            "Sau khi ghi nhận điều Ānanda vừa nói, Sāriputta hỏi Revata cùng câu hỏi ấy. Revata nói đến người thích và vui sống tĩnh cư, nghĩa là dành chỗ yên vắng để tu.",
+            "Người ấy chăm làm nội tâm lắng dịu, không bỏ bê thiền định, có tuệ quán và thường tới nơi vắng. Thiền định giúp tâm quy tụ; tuệ quán là nhìn sâu để hiểu rõ. Có cả sự lắng tâm và sự hiểu biết, không chỉ ngồi một mình."
+          ],
+          "meaningUnits": [
+            "hoi-revata",
+            "revata"
+          ]
+        },
+        {
+          "id": "muc-5",
+          "kind": "teaching",
+          "heading": "Anuruddha: cái thấy vượt mắt thường",
+          "paragraphs": [
+            "Sāriputta ghi nhận lời Revata rồi hỏi Anuruddha. Anuruddha nói đến người có thiên nhãn trong sạch, một khả năng thấy vượt mắt người, quan sát được một nghìn thế giới.",
+            "Thầy ví như người mắt sáng đứng trên tầng cao của một tòa lầu đẹp, nhìn được một nghìn vòng tròn. Cũng vậy, người tu có thiên nhãn thấy một nghìn thế giới. Đó là khả năng mà bài kinh nói tới; không phải chỉ nhìn rộng hơn bằng kính hay biết nhiều nơi trên bản đồ."
+          ],
+          "meaningUnits": [
+            "hoi-anuruddha",
+            "anuruddha"
+          ]
+        },
+        {
+          "id": "muc-6",
+          "kind": "teaching",
+          "heading": "Mahākassapa: sống đúng điều mình quý",
+          "paragraphs": [
+            "Tiếp đến, Sāriputta ghi nhận lời Anuruddha và hỏi Mahākassapa. Thầy kể mười bốn điều. Với từng điều, người tu vừa tự thực hành, vừa nói lên giá trị của điều ấy.",
+            "Bốn điều đầu là ở rừng, sống nhờ thức ăn khất thực, mặc y phấn tảo và chỉ dùng ba y. Khất thực là đi xin thức ăn theo nếp tu. Y phấn tảo là áo tu may từ vải bị bỏ; ba y là ba tấm y theo nếp sống của vị tu ấy.",
+            "Năm điều tiếp là ít ham muốn, biết đủ, sống xa những vướng bận, ít giao du và siêng năng nỗ lực.",
+            "Năm điều sau là thành tựu giới, định, tuệ, giải thoát và tri kiến về giải thoát. Nói dễ hiểu: giữ nếp sống đúng, tâm định tĩnh, hiểu biết sáng suốt, thoát sự trói buộc và biết rõ sự giải thoát ấy. Cả mười bốn điều đều đi cùng việc tự sống và tán thán. Đó là người làm khu rừng thêm đẹp."
+          ],
+          "meaningUnits": [
+            "hoi-kassapa",
+            "kassapa"
+          ]
+        },
+        {
+          "id": "muc-7",
+          "kind": "example",
+          "heading": "Lời nói đi cùng việc làm",
+          "paragraphs": [
+            "Một bạn nói rằng cần giữ góc đọc sách sạch. Bạn ấy cũng tự cất sách, bỏ rác đúng chỗ và ghi nhận khi bạn khác giúp dọn. Lời quý trọng việc tốt có sức nặng hơn khi chính mình làm việc ấy.",
+            "Ví dụ chỉ giúp em hiểu một phần ý tự thực hành và biết quý điều tốt. Em không cần bỏ nhà vào rừng, đi xin thức ăn hay mặc theo nếp tu của Mahākassapa để làm việc tử tế ở trường."
+          ],
+          "meaningUnits": [
+            "kassapa"
+          ]
+        },
+        {
+          "id": "muc-8",
+          "kind": "teaching",
+          "heading": "Mahāmoggallāna: cùng hỏi, cùng hiểu",
+          "paragraphs": [
+            "Sau lời Mahākassapa, Sāriputta hỏi Mahāmoggallāna. Thầy nói về hai nhà sư cùng bàn Pháp. Người này hỏi người kia; đến lượt được hỏi, mỗi người đều trả lời được, không lúng túng hay mắc kẹt. Cuộc trao đổi về Pháp tiếp tục trôi chảy.",
+            "Hai người cùng góp vào sự hiểu biết. Theo Mahāmoggallāna, cuộc học hỏi như thế làm rừng Gosiṅga thêm đẹp."
+          ],
+          "meaningUnits": [
+            "hoi-moggallana",
+            "moggallana"
+          ]
+        },
+        {
+          "id": "muc-9",
+          "kind": "teaching",
+          "heading": "Sāriputta: làm chủ tâm mình",
+          "paragraphs": [
+            "Mahāmoggallāna nói rằng các bạn đều đã trả lời theo điều mình thấy rõ, rồi hỏi lại Sāriputta: còn thầy nghĩ người nào làm đẹp khu rừng?",
+            "Sāriputta nói đến người làm chủ tâm, không để tâm làm chủ mình. Buổi sáng, buổi trưa hay buổi chiều, người ấy muốn vào và ở trong sự an trú hoặc chứng đạt nào thì làm được như vậy. Đây là mức làm chủ các trạng thái tu tập sâu.",
+            "Thầy ví như vua hay một vị quan lớn có hòm đầy y phục nhiều màu. Sáng muốn mặc cặp y phục nào thì chọn được cặp ấy; trưa và chiều cũng vậy. Cũng thế, người tu chủ động với sự an trú vào cả ba thời, không bị tâm kéo đi. Phép ví nói về sự làm chủ, không dạy rằng có nhiều quần áo là thành tựu tu học."
+          ],
+          "meaningUnits": [
+            "hoi-sariputta",
+            "sariputta",
+            "hom-ao",
+            "ap-dung-hom-ao"
+          ]
+        },
+        {
+          "id": "muc-10",
+          "kind": "teaching",
+          "heading": "Mang cuộc trò chuyện đến Đức Phật",
+          "paragraphs": [
+            "Sāriputta đề nghị cùng đến thưa chuyện với Đức Phật và ghi nhớ đúng lời Ngài đáp. Các thầy đồng ý, đến kính lễ rồi ngồi một bên. Sāriputta kể lại việc Revata và Ānanda tới, lời chào, cảnh rừng và câu hỏi đã đặt ra.",
+            "Thầy thuật lời Ānanda về học rộng và giảng cho bốn chúng để nhổ tùy miên. Đức Phật khen và nói Ānanda đã trả lời đúng với mình: Ānanda thật sự học, nhớ, đọc, suy xét, hiểu và giảng như đã nêu.",
+            "Sāriputta kể tiếp lời Revata về tĩnh cư, lắng tâm, thiền và tuệ quán, thường ở nơi vắng. Phật khen và xác nhận Revata có những phẩm chất ấy. Thầy kể lời Anuruddha về thiên nhãn và phép ví trên lầu; Phật cũng khen, xác nhận Anuruddha thật thấy một nghìn thế giới bằng thiên nhãn trong sạch vượt mắt người."
+          ],
+          "meaningUnits": [
+            "den-phat",
+            "thuat-ananda",
+            "xac-nhan-ananda",
+            "thuat-revata",
+            "xac-nhan-revata",
+            "thuat-anuruddha",
+            "xac-nhan-anuruddha"
+          ]
+        },
+        {
+          "id": "muc-11",
+          "kind": "teaching",
+          "heading": "Mỗi lời đáp có căn cứ nơi người nói",
+          "paragraphs": [
+            "Rồi Sāriputta thuật lời Mahākassapa. Đức Phật khen, xác nhận chính Mahākassapa tự thực hành và tán thán đủ mười bốn điều, từ ở rừng đến biết rõ sự giải thoát. Khi nghe thuật lời Mahāmoggallāna về hai người cùng hỏi đáp, Phật khen và nói Mahāmoggallāna là người thuyết Pháp.",
+            "Đến câu trả lời của Sāriputta, chính Mahāmoggallāna trực tiếp thuật lại: từ câu hỏi, lời làm chủ tâm đến ví dụ hòm y phục và ba thời sáng, trưa, chiều. Phật khen, xác nhận Sāriputta làm chủ tâm, không bị tâm làm chủ, và có thể an trú theo ý vào cả ba thời ấy.",
+            "Như vậy, lời khen được gắn với phẩm chất cụ thể của từng thầy. Cuộc gặp không dừng ở việc mỗi người nêu một ý rồi mọi người bỏ qua câu trả lời của nhau."
+          ],
+          "meaningUnits": [
+            "thuat-kassapa",
+            "xac-nhan-kassapa",
+            "thuat-moggallana",
+            "xac-nhan-moggallana",
+            "thuat-sariputta",
+            "xac-nhan-sariputta"
+          ]
+        },
+        {
+          "id": "muc-12",
+          "kind": "teaching",
+          "heading": "Lời Đức Phật bổ sung",
+          "paragraphs": [
+            "Sāriputta hỏi ai đã nói khéo. Đức Phật đáp rằng cả sáu đều nói khéo theo từng phương diện, rồi bảo các thầy nghe thêm lời Ngài.",
+            "Ngài nói về một nhà sư, sau bữa ăn và khất thực trở về, ngồi xếp bằng, giữ thân thẳng và đặt sự nhớ biết ngay trước mình. Vị ấy quyết không rời thế ngồi cho đến khi tâm thoát các lậu hoặc nhờ không chấp thủ. Lậu hoặc là ô nhiễm sâu trói buộc tâm; chấp thủ là bám giữ. Người quyết chí hướng đến giải thoát ấy làm rừng thêm đẹp.",
+            "Các thầy vui mừng và tán đồng lời Phật. Dòng cuối ghi Đại kinh Rừng Sừng Bò đã hết, thứ hai trong phần này của sách. Mã bài vẫn là MN32; lời kết không kể rằng các thầy vừa đạt thêm một thành tựu mới."
+          ],
+          "meaningUnits": [
+            "moi-phuong-dien",
+            "quyet-chi",
+            "ket"
+          ]
+        },
+        {
+          "id": "muc-13",
+          "kind": "practice",
+          "heading": "Học cùng bạn và giữ một quyết tâm vừa sức",
+          "paragraphs": [
+            "Em có thể cùng một bạn đọc một đoạn ngắn: mỗi người kể điều mình hiểu rồi đặt một câu hỏi. Nếu chưa biết, hãy nói thật và nhờ người hướng dẫn cùng tìm hiểu. Biết điều mình chưa hiểu giúp em đặt câu hỏi thật sự có ích.",
+            "Em cũng có thể chọn một việc nhỏ cần làm đến nơi đến chốn. Nếu ngồi học hoặc tập yên lặng, hãy chọn thời gian vừa sức và đổi tư thế khi cần. Lời quyết tâm của vị tu trong kinh không phải yêu cầu em phải ngồi chịu đau hay bỏ ăn, bỏ ngủ. Nó giúp em thấy người tu hướng đến việc hết bám giữ, không chỉ cố hơn thua."
+          ],
+          "meaningUnits": [
+            "ananda-hoc",
+            "moggallana",
+            "quyet-chi"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "MN32 — Sáu phẩm chất của người tu và đích đến chung",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "muc-1",
+          "kind": "teaching",
+          "heading": "Một cuộc trao đổi giữa những người cùng học",
+          "paragraphs": [
+            "Đại kinh Rừng Sừng Bò, MN32 thuộc Trung Bộ, kể lại điều người truyền kinh đã nghe. Phật ở rừng sāla Gosiṅga cùng nhiều trưởng lão nổi tiếng, trong đó có Sāriputta, Mahāmoggallāna, Mahākassapa, Anuruddha, Revata và Ānanda.",
+            "Một chiều, sau tĩnh cư, Mahāmoggallāna mời Mahākassapa đến nghe Sāriputta nói Pháp. Mahākassapa nhận lời; Anuruddha cùng đi. Ānanda thấy ba vị, gọi họ là những bậc chân nhân, rồi mời Revata cùng đến. Revata đồng ý.",
+            "Sāriputta thấy hai vị từ xa và chào Ānanda, người làm thị giả, thường hầu cận Phật. Đêm sáng, các cây sāla nở rộ, hương thơm dường như hương trời. Giữa cảnh rừng tươi đẹp, Sāriputta hỏi: vị tỳ-kheo nào làm nơi này thêm rực rỡ? Tỳ-kheo là nhà sư sống theo giới pháp."
+          ],
+          "meaningUnits": [
+            "nhan-dau",
+            "boi-canh",
+            "nhom-dau",
+            "nhom-sau",
+            "cau-hoi"
+          ]
+        },
+        {
+          "id": "muc-2",
+          "kind": "teaching",
+          "heading": "Học rộng để giảng có mục đích",
+          "paragraphs": [
+            "Ānanda nêu người học rộng, nhớ và tích lũy điều đã nghe. Nội dung người ấy học tốt đẹp ở đầu, giữa và cuối, đầy đủ nghĩa và lời, trình bày đời sống phạm hạnh hoàn toàn đầy đủ và thanh tịnh. Phạm hạnh là đời tu trong sạch.",
+            "Việc học có nhiều chiều: nghe nhiều, giữ được, quen qua tụng đọc, suy xét trong tâm, hiểu thấu. Người ấy giảng cho bốn hội chúng bằng lời trọn vẹn và mạch lạc, nhằm nhổ tận tùy miên, những khuynh hướng bất thiện còn tiềm ẩn sâu. Bốn hội chúng là tăng, ni, nam và nữ cư sĩ; cư sĩ là người theo Pháp còn sống tại gia.",
+            "Như vậy, lời đáp nối kiến thức với cách truyền đạt và đích chuyển hóa tâm. Học rộng không đứng riêng như một danh hiệu."
+          ],
+          "meaningUnits": [
+            "ananda-hoc",
+            "ananda-giang"
+          ]
+        },
+        {
+          "id": "muc-3",
+          "kind": "teaching",
+          "heading": "Tĩnh cư để lắng tâm và phát triển sự thấy rõ",
+          "paragraphs": [
+            "Sāriputta ghi nhận Ānanda đã trả lời theo phần hiểu riêng rồi chuyển cùng câu hỏi sang Revata. Revata nêu người thích, vui với tĩnh cư, chuyên tâm làm lắng nội tâm, không bỏ bê thiền định, có tuệ quán và thường lui tới chỗ vắng.",
+            "Tĩnh cư là dành môi trường yên vắng cho tu học; thiền định nói đến sự quy tụ của tâm, tuệ quán là sự nhìn sâu để hiểu rõ. Câu trả lời giữ cả định lẫn quán, không thu hẹp thành một sở thích sống tách biệt."
+          ],
+          "meaningUnits": [
+            "hoi-revata",
+            "revata"
+          ]
+        },
+        {
+          "id": "muc-4",
+          "kind": "teaching",
+          "heading": "Thiên nhãn trong phạm vi lời kinh",
+          "paragraphs": [
+            "Sau Revata, Anuruddha nhận cùng câu hỏi. Vị ấy nói đến thiên nhãn thanh tịnh, vượt mắt người, nhờ đó quan sát một nghìn thế giới. Phép ví là người mắt sáng ở tầng cao một tòa lầu đẹp, nhìn được một nghìn vòng tròn; rồi lời đáp trở lại khả năng thấy các thế giới bằng thiên nhãn.",
+            "Thiên nhãn là năng lực thấy vượt giới hạn thông thường được kinh mô tả. Không cần đổi “một nghìn thế giới” thành khái niệm thiên hà của khoa học hiện đại, cũng không thu hẹp năng lực ấy thành tầm nhìn chiến lược trong công việc."
+          ],
+          "meaningUnits": [
+            "hoi-anuruddha",
+            "anuruddha"
+          ]
+        },
+        {
+          "id": "muc-5",
+          "kind": "teaching",
+          "heading": "Tự thực hành những phẩm chất mình tán thán",
+          "paragraphs": [
+            "Sāriputta ghi nhận lời Anuruddha rồi hỏi Mahākassapa. Câu đáp có mười bốn phẩm chất; với từng phẩm chất, người tu vừa tự mình thực hành vừa tán thán giá trị của nó.",
+            "Bốn hạnh đầu là ở rừng, sống bằng khất thực, mặc y phấn tảo và chỉ dùng ba y. Khất thực là nhận thức ăn qua việc đi xin theo nếp tu; y phấn tảo may từ vải bị bỏ, ba y là ba tấm y của nếp sống được nêu. Tiếp đến là ít ham muốn, biết đủ, viễn ly, ít giao du và khởi nỗ lực tinh tấn. Viễn ly là sống xa những vướng bận để tu; tinh tấn là nỗ lực bền trong việc tu học.",
+            "Năm phẩm chất cuối là thành tựu giới, định, tuệ, giải thoát và tri kiến giải thoát: nếp sống đúng, tâm định tĩnh, trí hiểu biết, sự thoát trói buộc và sự biết rõ giải thoát ấy. Câu trả lời đi từ cách sinh hoạt đến những thành tựu sâu; không dừng ở dáng vẻ giản dị hay khắc khổ."
+          ],
+          "meaningUnits": [
+            "hoi-kassapa",
+            "kassapa"
+          ]
+        },
+        {
+          "id": "muc-6",
+          "kind": "example",
+          "heading": "Giá trị được thể hiện khi không ai nhắc",
+          "paragraphs": [
+            "Một người phụ trách nhóm thường nói về sự trung thực và việc học hỏi. Giá trị của lời nói còn nằm ở việc họ có nhận sai khi mình nhầm, nêu đúng phần đóng góp của người khác và dành thời gian giải thích điều mình biết hay không.",
+            "Tình huống giúp soi một phần quan hệ giữa điều tán thán và điều tự làm. Nó không biến các hạnh sống của Mahākassapa thành bộ quy định cho nhân viên hoặc đồng nhất thành tựu giới, định, tuệ với kỹ năng quản lý."
+          ],
+          "meaningUnits": [
+            "kassapa",
+            "ananda-giang"
+          ]
+        },
+        {
+          "id": "muc-7",
+          "kind": "teaching",
+          "heading": "Đối thoại có khả năng đi tiếp",
+          "paragraphs": [
+            "Sau Mahākassapa, Sāriputta hỏi Mahāmoggallāna. Vị ấy nêu hai tỳ-kheo cùng luận Pháp: họ đặt câu hỏi cho nhau, trả lời câu hỏi của nhau, không lúng túng hay bế tắc; cuộc nói chuyện đúng Pháp tiếp tục trôi chảy.",
+            "Hai bên cùng hỏi và đáp, nên đây là một cuộc tìm hiểu có tương tác. “Luận Pháp” được hiểu theo ngữ cảnh này; không cần giả định họ đang trao đổi về một bộ sách A-tỳ-đàm đã hệ thống hóa về sau."
+          ],
+          "meaningUnits": [
+            "hoi-moggallana",
+            "moggallana"
+          ]
+        },
+        {
+          "id": "muc-8",
+          "kind": "teaching",
+          "heading": "Làm chủ tâm và khả năng an trú",
+          "paragraphs": [
+            "Mahāmoggallāna ghi nhận các vị đều đã nêu điều mình thấy rõ rồi hỏi lại Sāriputta. Sāriputta chọn người làm chủ tâm, không để tâm làm chủ mình. Sáng, trưa hay chiều, người ấy muốn an trú hoặc chứng đạt nào thì có thể an trú trong sự ấy vào thời điểm ấy.",
+            "Phép ví là vua hoặc đại thần có một hòm đầy các cặp y phục nhiều màu. Sáng muốn mặc cặp nào thì chọn cặp ấy, trưa và chiều cũng thế. Sāriputta áp phép ví trở lại khả năng làm chủ tâm vào đủ ba thời.",
+            "An trú là vào và ở trong một trạng thái tu tập; chứng đạt ở đây rộng hơn riêng một “quả” được định danh. Sự tự chủ của lời đáp là năng lực tu tập cụ thể, không chỉ là khả năng đổi ý hoặc kìm một phản ứng bốc đồng."
+          ],
+          "meaningUnits": [
+            "hoi-sariputta",
+            "sariputta",
+            "hom-ao",
+            "ap-dung-hom-ao"
+          ]
+        },
+        {
+          "id": "muc-9",
+          "kind": "teaching",
+          "heading": "Trình lại để nghe Phật xác nhận",
+          "paragraphs": [
+            "Sāriputta đề nghị cả nhóm đến trình Phật và ghi nhớ đúng lời Ngài trả lời. Mọi người đồng ý, đến kính lễ rồi ngồi một bên. Sāriputta thuật từ việc Revata và Ānanda tới, lời chào, cảnh rừng và câu hỏi cho Ānanda.",
+            "Nghe thuật lời Ānanda, Phật nói lời tán thán với Sāriputta và xác nhận Ānanda trả lời đúng với phẩm chất của mình. Ngài nêu lại việc học rộng, nhớ, tụng đọc, suy xét, hiểu và giảng cho bốn chúng để nhổ tùy miên. Đây là sự xác nhận nơi chính Ānanda, không chỉ chấp nhận một ý tưởng chung.",
+            "Sāriputta tiếp tục thuật câu hỏi và lời đáp Revata, rồi Anuruddha. Phật lần lượt khen và xác nhận Revata sống tĩnh cư, lắng tâm, giữ thiền, có tuệ quán, thường đến nơi vắng; Anuruddha thật quan sát một nghìn thế giới bằng thiên nhãn trong sạch vượt mắt người. Phần thuật Anuruddha có cả phép ví người mắt sáng trên lầu."
+          ],
+          "meaningUnits": [
+            "den-phat",
+            "thuat-ananda",
+            "xac-nhan-ananda",
+            "thuat-revata",
+            "xac-nhan-revata",
+            "thuat-anuruddha",
+            "xac-nhan-anuruddha"
+          ]
+        },
+        {
+          "id": "muc-10",
+          "kind": "teaching",
+          "heading": "Lời xác nhận của Phật giữ đúng từng người",
+          "paragraphs": [
+            "Sāriputta thuật tiếp Mahākassapa. Phật khen và xác nhận vị ấy tự sống, tán thán đủ mười bốn phẩm chất, từ ở rừng đến tri kiến giải thoát. Sau lời thuật về hai người luận Pháp của Mahāmoggallāna, Phật khen và xác nhận Mahāmoggallāna là người thuyết Pháp.",
+            "Đến đây, người thuật đổi sang Mahāmoggallāna. Vị ấy kể lại câu hỏi dành cho Sāriputta, lời làm chủ tâm, ví dụ hòm y phục và sự an trú sáng, trưa, chiều. Phật nói lời tán thán với Mahāmoggallāna, rồi xác nhận Sāriputta thật làm chủ tâm, không bị tâm chi phối, an trú được theo ý vào cả ba thời.",
+            "Lượt đối thoại thứ hai cho thấy các lời đáp có căn cứ nơi đời sống và sự tu tập của từng người."
+          ],
+          "meaningUnits": [
+            "thuat-kassapa",
+            "xac-nhan-kassapa",
+            "thuat-moggallana",
+            "xac-nhan-moggallana",
+            "thuat-sariputta",
+            "xac-nhan-sariputta"
+          ]
+        },
+        {
+          "id": "muc-11",
+          "kind": "teaching",
+          "heading": "Mỗi phương diện và hướng giải thoát",
+          "paragraphs": [
+            "Sāriputta hỏi ai đã nói khéo. Phật đáp: tất cả nói khéo theo một phương diện. Ngài không chọn một người thắng, mà mời nghe thêm câu trả lời của mình.",
+            "Ngài nêu vị tỳ-kheo sau bữa ăn, khất thực trở về, ngồi xếp bằng, thân thẳng và thiết lập niệm trước mặt. Vị ấy quyết không rời thế ngồi cho đến khi tâm được giải thoát khỏi lậu hoặc nhờ không chấp thủ. Niệm là sự nhớ biết; lậu hoặc là những ô nhiễm sâu trói buộc tâm; không chấp thủ là không còn bám giữ.",
+            "Lời bổ sung giữ đích giải thoát không chấp thủ. Các vị hoan hỷ và tán đồng. Nhãn ấn bản kết Đại kinh Gosiṅga, thứ hai trong phần này; không có lời khẳng định hội chúng vừa có một chứng đạt mới."
+          ],
+          "meaningUnits": [
+            "moi-phuong-dien",
+            "quyet-chi",
+            "ket"
+          ]
+        },
+        {
+          "id": "muc-12",
+          "kind": "practice",
+          "heading": "Nối sở trường với việc mình thật sự làm",
+          "paragraphs": [
+            "Có thể nhìn lại cách mình học: nghe và nhớ đã đi cùng suy xét chưa? Khi trao đổi, mình có hỏi để hiểu và trả lời có căn cứ không? Điều mình thường khen ở người khác đã có mặt trong việc mình làm tới đâu?",
+            "Khi dành thời gian tu học, chọn thời lượng và tư thế hợp điều kiện. Nếu cần, trao đổi với người hướng dẫn có kinh nghiệm. Sự quyết chí trong đoạn kết không nên bị đổi thành thử thách bất động bằng mọi giá, cũng không bị rút thành mẹo tăng năng suất. Hướng cần nhớ là bớt bám giữ và hiểu rõ điều trói buộc tâm."
+          ],
+          "meaningUnits": [
+            "ananda-hoc",
+            "revata",
+            "kassapa",
+            "moggallana",
+            "sariputta",
+            "quyet-chi"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "MN32 — Những phẩm chất làm nơi ở thêm đáng quý",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "muc-1",
+          "kind": "teaching",
+          "heading": "Các vị trưởng lão cùng đến nghe Pháp",
+          "paragraphs": [
+            "MN32, Đại kinh Rừng Sừng Bò thuộc Trung Bộ, mở bằng lời người kể đã nghe. Đức Phật ở rừng sāla Gosiṅga cùng nhiều trưởng lão nổi tiếng: Sāriputta, Mahāmoggallāna, Mahākassapa, Anuruddha, Revata, Ānanda và những vị khác.",
+            "Một chiều, sau khi rời chỗ tĩnh cư, Mahāmoggallāna mời Mahākassapa đến nghe Sāriputta nói Pháp. Mahākassapa nhận lời; Anuruddha cùng đi. Ānanda thấy ba vị đang tới, nói với Revata rằng các bậc chân nhân, những người chân chính đáng quý, đang đến nghe Pháp và mời đi cùng. Revata đồng ý."
+          ],
+          "meaningUnits": [
+            "nhan-dau",
+            "boi-canh",
+            "nhom-dau",
+            "nhom-sau"
+          ]
+        },
+        {
+          "id": "muc-2",
+          "kind": "teaching",
+          "heading": "Câu hỏi trong một đêm sáng",
+          "paragraphs": [
+            "Từ xa, Sāriputta thấy Revata và Ānanda. Vị ấy chào đón Ānanda, người thị giả thường gần gũi chăm sóc Phật. Rừng sāla đẹp, đêm sáng, hoa nở rộ, hương thơm dường như hương cõi trời.",
+            "Sāriputta hỏi Ānanda: người tu như thế nào sẽ làm rừng này thêm rực rỡ? Tỳ-kheo trong lời kinh là nhà sư sống theo giới pháp. Câu hỏi hướng đến phẩm chất của con người đang sống giữa một nơi tươi đẹp."
+          ],
+          "meaningUnits": [
+            "cau-hoi"
+          ]
+        },
+        {
+          "id": "muc-3",
+          "kind": "teaching",
+          "heading": "Ānanda nói về việc học có chiều sâu",
+          "paragraphs": [
+            "Ānanda nêu người nghe nhiều, nhớ và gìn giữ, tích lũy những điều đã học. Những lời dạy ấy tốt đẹp ở đầu, giữa và cuối, đầy đủ nghĩa và lời, trình bày đời sống phạm hạnh hoàn toàn đầy đủ, trong sạch. Phạm hạnh là đời sống tu trong sạch.",
+            "Người ấy nghe nhiều, ghi nhớ, tụng đọc cho quen, suy xét trong tâm và hiểu thấu. Rồi giảng cho bốn hội chúng bằng lời trọn vẹn, mạch lạc. Bốn chúng gồm tăng, ni, nam và nữ cư sĩ; cư sĩ là người theo Pháp còn sống tại gia.",
+            "Việc giảng hướng đến nhổ tận tùy miên, tức những khuynh hướng bất thiện còn tiềm ẩn sâu. Lời đáp nối việc học và truyền dạy với sự chuyển hóa, không chỉ với số điều nhớ được."
+          ],
+          "meaningUnits": [
+            "ananda-hoc",
+            "ananda-giang"
+          ]
+        },
+        {
+          "id": "muc-4",
+          "kind": "teaching",
+          "heading": "Revata quý tĩnh cư, định và tuệ quán",
+          "paragraphs": [
+            "Sāriputta ghi nhận phần hiểu của Ānanda rồi hỏi Revata cùng câu hỏi về rừng Gosiṅga. Revata nêu người thích tĩnh cư và vui với tĩnh cư, chăm làm nội tâm lắng dịu.",
+            "Người ấy không bỏ bê thiền định, có tuệ quán và thường lui tới chỗ vắng. Tĩnh cư là ở yên vắng để tu; định giúp tâm quy tụ, tuệ quán là nhìn sâu để thấy rõ. Lời đáp giữ cả sự lắng tâm lẫn sự hiểu biết."
+          ],
+          "meaningUnits": [
+            "hoi-revata",
+            "revata"
+          ]
+        },
+        {
+          "id": "muc-5",
+          "kind": "teaching",
+          "heading": "Anuruddha nói về thiên nhãn",
+          "paragraphs": [
+            "Sau Revata, Sāriputta chuyển câu hỏi sang Anuruddha. Vị ấy nêu người dùng thiên nhãn thanh tịnh, vượt mắt người, quan sát một nghìn thế giới.",
+            "Ví dụ trong kinh là một người mắt sáng ở tầng cao một tòa lầu đẹp, nhìn được một nghìn vòng tròn. Cũng vậy, người tu có khả năng thấy các thế giới bằng thiên nhãn. Đây là năng lực vượt sự nhìn thông thường được kinh mô tả, không chỉ là kinh nghiệm từng trải hoặc hiểu rộng chuyện đời."
+          ],
+          "meaningUnits": [
+            "hoi-anuruddha",
+            "anuruddha"
+          ]
+        },
+        {
+          "id": "muc-6",
+          "kind": "teaching",
+          "heading": "Mahākassapa: điều quý phải được tự mình thực hành",
+          "paragraphs": [
+            "Sāriputta ghi nhận lời Anuruddha rồi hỏi Mahākassapa. Vị ấy nêu mười bốn phẩm chất. Với mỗi điều, người tu tự sống theo và tán thán giá trị của điều ấy.",
+            "Bốn điều đầu là ở rừng, sống nhờ khất thực, mặc y phấn tảo và chỉ dùng ba y. Khất thực là nhận thức ăn qua việc đi xin theo nếp tu. Y phấn tảo là áo tu may từ vải bị bỏ; ba y là ba tấm y thuộc nếp sống được kể.",
+            "Tiếp đến là ít ham muốn, biết đủ, viễn ly, ít giao du và phát khởi tinh tấn. Viễn ly là xa những vướng bận để tu; tinh tấn là nỗ lực trong việc tu học. Những điều ấy đều vừa được thực hành, vừa được tán thán.",
+            "Cuối cùng là thành tựu giới, định, tuệ, giải thoát và tri kiến giải thoát. Có thể hiểu lần lượt là nếp sống đúng, tâm định tĩnh, trí hiểu biết, sự thoát trói buộc và biết rõ sự giải thoát ấy. Cả mười bốn điều làm thành câu trả lời, từ nếp sống giản dị đến chiều sâu giải thoát."
+          ],
+          "meaningUnits": [
+            "hoi-kassapa",
+            "kassapa"
+          ]
+        },
+        {
+          "id": "muc-7",
+          "kind": "example",
+          "heading": "Giữ nếp tốt bằng chính đời sống mình",
+          "paragraphs": [
+            "Trong một nhóm sinh hoạt chung, có người thường khuyên mọi người biết đủ và cư xử nhã nhặn. Khi chính người ấy sẵn lòng dùng đồ vừa nhu cầu, nói ôn hòa lúc ý mình không được chọn và quý trọng người cùng thực hành, lời khuyên có thêm căn cứ từ đời sống.",
+            "Ví dụ chỉ gợi một phần ý tự làm và tán thán. Mỗi người vẫn lựa chọn cách sống hợp hoàn cảnh; không cần lấy việc sống một mình hay dùng ít đồ làm thước đo hơn kém giữa các thế hệ."
+          ],
+          "meaningUnits": [
+            "kassapa"
+          ]
+        },
+        {
+          "id": "muc-8",
+          "kind": "teaching",
+          "heading": "Mahāmoggallāna quý cuộc hỏi đáp đúng Pháp",
+          "paragraphs": [
+            "Sau Mahākassapa, Sāriputta hỏi Mahāmoggallāna. Vị ấy nói về hai tỳ-kheo luận Pháp: hỏi nhau và trả lời nhau, không lúng túng hay bế tắc; cuộc nói chuyện đúng Pháp được tiếp tục.",
+            "Cả hai đều có vai trò hỏi và đáp. Lời kinh ở đây nói việc trao đổi giáo pháp; không nhất thiết đang gọi tên bộ A-tỳ-đàm được hệ thống hóa về sau."
+          ],
+          "meaningUnits": [
+            "hoi-moggallana",
+            "moggallana"
+          ]
+        },
+        {
+          "id": "muc-9",
+          "kind": "teaching",
+          "heading": "Sāriputta nêu người làm chủ tâm",
+          "paragraphs": [
+            "Mahāmoggallāna nói các vị đã lần lượt trả lời theo phần hiểu riêng, rồi hỏi Sāriputta cùng câu hỏi. Sāriputta nêu người làm chủ tâm, không để tâm làm chủ mình.",
+            "Buổi sáng, trưa hay chiều, người ấy muốn an trú hoặc chứng đạt nào thì an trú trong sự ấy vào thời ấy. An trú nghĩa là vào và ở trong một trạng thái tu tập; lời này không chỉ nói một tâm trạng bình thường.",
+            "Sāriputta ví như vua hoặc đại thần có hòm đầy những cặp y phục nhiều màu. Sáng muốn mặc cặp nào thì chọn được cặp ấy; trưa và chiều cũng vậy. Rồi vị ấy nhắc lại sự chủ động của người tu vào đủ ba thời. Phép ví làm rõ khả năng làm chủ, không lấy sự phong phú của y phục làm mục đích."
+          ],
+          "meaningUnits": [
+            "hoi-sariputta",
+            "sariputta",
+            "hom-ao",
+            "ap-dung-hom-ao"
+          ]
+        },
+        {
+          "id": "muc-10",
+          "kind": "teaching",
+          "heading": "Cùng đến nghe lời Đức Phật",
+          "paragraphs": [
+            "Sāriputta đề nghị mọi người cùng đến thưa với Phật và ghi nhớ đúng lời Ngài đáp. Các vị đồng ý, đến kính lễ rồi ngồi sang một bên. Sāriputta kể lại việc Revata và Ānanda tới, lời chào, cảnh rừng cùng câu hỏi.",
+            "Vị ấy thuật lời Ānanda về học và giảng nhằm nhổ tùy miên. Phật khen, xác nhận Ānanda đã đáp đúng với mình: Ānanda thật nghe nhiều, nhớ, đọc, suy xét, hiểu và giảng cho bốn chúng bằng lời mạch lạc hướng đến mục đích ấy."
+          ],
+          "meaningUnits": [
+            "den-phat",
+            "thuat-ananda",
+            "xac-nhan-ananda"
+          ]
+        },
+        {
+          "id": "muc-11",
+          "kind": "teaching",
+          "heading": "Phật xác nhận Revata, Anuruddha và Kassapa",
+          "paragraphs": [
+            "Sāriputta thuật tiếp câu hỏi và lời đáp Revata. Phật khen, xác nhận Revata ưa tĩnh cư, lắng nội tâm, không bỏ thiền, có tuệ quán và thường tới nơi vắng. Với lời Anuruddha, gồm cả phép ví người trên lầu, Phật cũng khen và xác nhận thiên nhãn trong sạch vượt mắt người, thấy một nghìn thế giới.",
+            "Nghe thuật lời Mahākassapa, Phật xác nhận vị ấy tự thực hành và tán thán từng điều trong cả mười bốn phẩm chất, từ ở rừng đến tri kiến giải thoát. Những lời xác nhận gắn với việc các vị thật sự sống và tu, không chỉ với cách phát biểu hay."
+          ],
+          "meaningUnits": [
+            "thuat-revata",
+            "xac-nhan-revata",
+            "thuat-anuruddha",
+            "xac-nhan-anuruddha",
+            "thuat-kassapa",
+            "xac-nhan-kassapa"
+          ]
+        },
+        {
+          "id": "muc-12",
+          "kind": "teaching",
+          "heading": "Moggallāna và Sāriputta cũng được xác nhận",
+          "paragraphs": [
+            "Sāriputta kể lời Mahāmoggallāna về hai người cùng hỏi đáp. Phật khen và nói Mahāmoggallāna là người thuyết Pháp. Đến phần Sāriputta, Mahāmoggallāna trở thành người kể lại.",
+            "Mahāmoggallāna thuật câu hỏi, câu đáp về làm chủ tâm, phép ví hòm y phục và sự an trú sáng, trưa, chiều. Phật khen rồi xác nhận Sāriputta làm chủ tâm, không bị tâm làm chủ và có thể an trú theo ý vào cả ba thời.",
+            "Sáu câu trả lời đã được nghe lại, với lời xác nhận riêng cho từng người. Việc khác sở trường không khiến cuộc trao đổi thành sự phủ nhận nhau."
+          ],
+          "meaningUnits": [
+            "thuat-moggallana",
+            "xac-nhan-moggallana",
+            "thuat-sariputta",
+            "xac-nhan-sariputta"
+          ]
+        },
+        {
+          "id": "muc-13",
+          "kind": "teaching",
+          "heading": "Phật bổ sung hướng quyết chí giải thoát",
+          "paragraphs": [
+            "Sāriputta hỏi ai đã nói khéo. Phật nói tất cả đều nói khéo theo một phương diện, rồi mời nghe thêm lời Ngài về người làm rừng thêm đẹp.",
+            "Đó là vị tỳ-kheo sau bữa ăn, khất thực trở về, ngồi xếp bằng, thân thẳng, thiết lập niệm trước mặt. Vị ấy quyết không rời thế ngồi cho đến khi tâm thoát lậu hoặc nhờ không chấp thủ. Niệm là sự nhớ biết; lậu hoặc là các ô nhiễm sâu giữ tâm trong trói buộc; không chấp thủ là không còn bám giữ.",
+            "Lời Phật đặt sự quyết chí vào hướng giải thoát ấy. Các vị vui mừng, tán đồng. Dòng kết của ấn bản ghi Đại kinh Gosiṅga đã hết, thứ hai trong phần sách này; mã bài vẫn là MN32. Kinh không kể thêm một chứng đạt mới của hội chúng sau lời dạy."
+          ],
+          "meaningUnits": [
+            "moi-phuong-dien",
+            "quyet-chi",
+            "ket"
+          ]
+        },
+        {
+          "id": "muc-14",
+          "kind": "practice",
+          "heading": "Chăm một phẩm chất đang có",
+          "paragraphs": [
+            "Có thể chọn một phẩm chất gần với mình: học kỹ điều đã nghe, dành khoảng yên tĩnh, làm điều mình thường khuyên, hoặc trao đổi để cùng hiểu. Tự hỏi thêm: việc ấy đang giúp mình bớt bám giữ và nhìn tâm rõ hơn ra sao?",
+            "Khi ngồi tu học, thời lượng và tư thế cần hợp khả năng hiện tại. Sự quyết chí không cần được chứng minh bằng cách chịu đau hoặc so sức với người khác. Lời nguyện của vị tỳ-kheo trong bài được hiểu trong bối cảnh tu tập và hướng giải thoát mà Ngài nêu."
+          ],
+          "meaningUnits": [
+            "ananda-hoc",
+            "revata",
+            "kassapa",
+            "moggallana",
+            "quyet-chi"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,749 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn151",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn151_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "2f59830560f4f540d63a69231d51245dd2a9885fbd4939815fd09306a2377dea"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn151_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "213dd383de4296569bd470d495989cd0853fff9708f6f448d1f59826e6d8df8f"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn151_translation-vi-project.json",
+      "commit": "a0408ff8d814d796c8b1cf0bbda5dbfaa2849820",
+      "sha256": "cedc0fd53a11f0588b6e6c8a31a032e5ecdde0ab99fe85b0507b32b1c3f1e588"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn151.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "c05d447e1f153074d234970f8013eb909e8c2e5b9a61ee268e75206af1fbac5e"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn151_comment-vi-project.json",
+      "commit": "a0408ff8d814d796c8b1cf0bbda5dbfaa2849820",
+      "sha256": "6f8f1d90a7c77de09eb0d6b1a84140404fd3a1d1c94e8845455a4d805c31a32f"
+    },
+    {
+      "role": "reference",
+      "path": "docs/editorial-council-2026-10.md",
+      "commit": "a0408ff8d814d796c8b1cf0bbda5dbfaa2849820",
+      "sha256": "896cba5956371a3a3bac83bed396be59b5bbd768a7742028b58d271b3b144c66"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Nhan đề của ấn bản",
+      "segments": [
+        "mn151:0.1",
+        "mn151:0.2"
+      ],
+      "summary": "Trung Bộ 151, Piṇḍapātapārisuddhisutta, thanh tịnh khất thực; nhãn không phải lời thoại."
+    },
+    {
+      "id": "setting",
+      "title": "Sāriputta đến thăm buổi chiều",
+      "segments": [
+        "mn151:1.1",
+        "mn151:1.2",
+        "mn151:1.3"
+      ],
+      "summary": "Người truyền kinh thuật điều đã nghe: Phật ở Rājagaha, Trúc Lâm, khu nuôi sóc. Chiều Sāriputta ra khỏi độc cư, đến đảnh lễ và ngồi một bên; Phật hỏi."
+    },
+    {
+      "id": "emptiness",
+      "title": "An trú không của bậc đại nhân",
+      "segments": [
+        "mn151:2.1",
+        "mn151:2.2",
+        "mn151:2.3",
+        "mn151:2.4",
+        "mn151:2.5",
+        "mn151:2.6",
+        "mn151:2.7"
+      ],
+      "summary": "Phật nhận xét các căn sáng, sắc da thanh tịnh trong sáng và hỏi thường an trú gì. Sāriputta đáp an trú không; Phật khen hai lần, gọi đây là an trú của bậc đại nhân, tức không. Không đưa định nghĩa khác của tánh không vào lời kinh."
+    },
+    {
+      "id": "eye",
+      "title": "Tự xét ba chặng và cảnh mắt",
+      "segments": [
+        "mn151:3.1",
+        "mn151:3.2",
+        "mn151:3.3",
+        "mn151:3.4",
+        "mn151:3.5",
+        "mn151:3.6",
+        "mn151:3.7"
+      ],
+      "summary": "Tỳ-kheo muốn thường an trú không xét đường vào làng, nơi khất thực, đường về: có dục, tham, sân, si, sự chống đối trong tâm với sắc mắt biết không? Nếu có, nỗ lực bỏ chính pháp ác bất thiện ấy; nếu không, an trú hỷ hoan và ngày đêm học thiện pháp."
+    },
+    {
+      "id": "other-doors",
+      "title": "Cùng phép xét cho năm cửa còn lại",
+      "segments": [
+        "mn151:4-8.1",
+        "mn151:4-8.2",
+        "mn151:4-8.3",
+        "mn151:4-8.4",
+        "mn151:4-8.5",
+        "mn151:4-8.6",
+        "mn151:4-8.7",
+        "mn151:4-8.8",
+        "mn151:4-8.9",
+        "mn151:4-8.10"
+      ],
+      "summary": "Tiếng/tai, mùi/mũi, vị/lưỡi, xúc/thân, pháp/ý theo ba chặng và đủ năm trạng thái; lược giữ mẫu có thì đoạn, không thì hỷ hoan và ngày đêm học thiện. Không tự tạo khóa cho phần lược."
+    },
+    {
+      "id": "sensual",
+      "title": "Năm dục",
+      "segments": [
+        "mn151:9.1",
+        "mn151:9.2",
+        "mn151:9.3",
+        "mn151:9.4",
+        "mn151:9.5",
+        "mn151:9.6"
+      ],
+      "summary": "Tự xét đã đoạn trừ năm loại đối tượng dục chưa; chưa thì nỗ lực làm đúng việc ấy, rồi nếu đã làm thì sống với hỷ hoan và ngày đêm học thiện pháp. Không đánh đồng các nhiệm vụ hoặc coi đã làm là lý do ngừng học."
+    },
+    {
+      "id": "hindrances",
+      "title": "Năm triền cái",
+      "segments": [
+        "mn151:10.1",
+        "mn151:10.2",
+        "mn151:10.3",
+        "mn151:10.4",
+        "mn151:10.5",
+        "mn151:10.6"
+      ],
+      "summary": "Tự xét đã đoạn trừ năm triền cái chưa; chưa thì nỗ lực làm đúng việc ấy, rồi nếu đã làm thì sống với hỷ hoan và ngày đêm học thiện pháp. Không đánh đồng các nhiệm vụ hoặc coi đã làm là lý do ngừng học."
+    },
+    {
+      "id": "aggregates",
+      "title": "Năm thủ uẩn",
+      "segments": [
+        "mn151:11.1",
+        "mn151:11.2",
+        "mn151:11.3",
+        "mn151:11.4",
+        "mn151:11.5",
+        "mn151:11.6"
+      ],
+      "summary": "Tự xét đã hiểu thấu năm thủ uẩn chưa; chưa thì nỗ lực làm đúng việc ấy, rồi nếu đã làm thì sống với hỷ hoan và ngày đêm học thiện pháp. Không đánh đồng các nhiệm vụ hoặc coi đã làm là lý do ngừng học."
+    },
+    {
+      "id": "mindfulness",
+      "title": "Bốn niệm xứ",
+      "segments": [
+        "mn151:12.1",
+        "mn151:12.2",
+        "mn151:12.3",
+        "mn151:12.4",
+        "mn151:12.5",
+        "mn151:12.6"
+      ],
+      "summary": "Tự xét đã tu tập bốn niệm xứ chưa; chưa thì nỗ lực làm đúng việc ấy, rồi nếu đã làm thì sống với hỷ hoan và ngày đêm học thiện pháp. Không đánh đồng các nhiệm vụ hoặc coi đã làm là lý do ngừng học."
+    },
+    {
+      "id": "efforts",
+      "title": "Bốn chánh cần",
+      "segments": [
+        "mn151:13.1",
+        "mn151:13.2",
+        "mn151:13.3",
+        "mn151:13.4",
+        "mn151:13.5",
+        "mn151:13.6"
+      ],
+      "summary": "Tự xét đã tu tập bốn chánh cần chưa; chưa thì nỗ lực làm đúng việc ấy, rồi nếu đã làm thì sống với hỷ hoan và ngày đêm học thiện pháp. Không đánh đồng các nhiệm vụ hoặc coi đã làm là lý do ngừng học."
+    },
+    {
+      "id": "bases",
+      "title": "Bốn như ý túc",
+      "segments": [
+        "mn151:14.1",
+        "mn151:14.2",
+        "mn151:14.3",
+        "mn151:14.4",
+        "mn151:14.5",
+        "mn151:14.6"
+      ],
+      "summary": "Tự xét đã tu tập bốn như ý túc chưa; chưa thì nỗ lực làm đúng việc ấy, rồi nếu đã làm thì sống với hỷ hoan và ngày đêm học thiện pháp. Không đánh đồng các nhiệm vụ hoặc coi đã làm là lý do ngừng học."
+    },
+    {
+      "id": "faculties",
+      "title": "Năm căn",
+      "segments": [
+        "mn151:15.1",
+        "mn151:15.2",
+        "mn151:15.3",
+        "mn151:15.4",
+        "mn151:15.5",
+        "mn151:15.6"
+      ],
+      "summary": "Tự xét đã tu tập năm căn chưa; chưa thì nỗ lực làm đúng việc ấy, rồi nếu đã làm thì sống với hỷ hoan và ngày đêm học thiện pháp. Không đánh đồng các nhiệm vụ hoặc coi đã làm là lý do ngừng học."
+    },
+    {
+      "id": "powers",
+      "title": "Năm lực",
+      "segments": [
+        "mn151:16.1",
+        "mn151:16.2",
+        "mn151:16.3",
+        "mn151:16.4",
+        "mn151:16.5",
+        "mn151:16.6"
+      ],
+      "summary": "Tự xét đã tu tập năm lực chưa; chưa thì nỗ lực làm đúng việc ấy, rồi nếu đã làm thì sống với hỷ hoan và ngày đêm học thiện pháp. Không đánh đồng các nhiệm vụ hoặc coi đã làm là lý do ngừng học."
+    },
+    {
+      "id": "awakening",
+      "title": "Bảy giác chi",
+      "segments": [
+        "mn151:17.1",
+        "mn151:17.2",
+        "mn151:17.3",
+        "mn151:17.4",
+        "mn151:17.5",
+        "mn151:17.6"
+      ],
+      "summary": "Tự xét đã tu tập bảy giác chi chưa; chưa thì nỗ lực làm đúng việc ấy, rồi nếu đã làm thì sống với hỷ hoan và ngày đêm học thiện pháp. Không đánh đồng các nhiệm vụ hoặc coi đã làm là lý do ngừng học."
+    },
+    {
+      "id": "path",
+      "title": "Thánh đạo tám chi",
+      "segments": [
+        "mn151:18.1",
+        "mn151:18.2",
+        "mn151:18.3",
+        "mn151:18.4",
+        "mn151:18.5",
+        "mn151:18.6"
+      ],
+      "summary": "Tự xét đã tu tập Thánh đạo tám chi chưa; chưa thì nỗ lực làm đúng việc ấy, rồi nếu đã làm thì sống với hỷ hoan và ngày đêm học thiện pháp. Không đánh đồng các nhiệm vụ hoặc coi đã làm là lý do ngừng học."
+    },
+    {
+      "id": "calm-insight",
+      "title": "Chỉ và quán",
+      "segments": [
+        "mn151:19.1",
+        "mn151:19.2",
+        "mn151:19.3",
+        "mn151:19.4",
+        "mn151:19.5",
+        "mn151:19.6"
+      ],
+      "summary": "Tự xét đã tu tập chỉ và quán chưa; chưa thì nỗ lực làm đúng việc ấy, rồi nếu đã làm thì sống với hỷ hoan và ngày đêm học thiện pháp. Không đánh đồng các nhiệm vụ hoặc coi đã làm là lý do ngừng học."
+    },
+    {
+      "id": "realization",
+      "title": "Minh và giải thoát",
+      "segments": [
+        "mn151:20.1",
+        "mn151:20.2",
+        "mn151:20.3",
+        "mn151:20.4",
+        "mn151:20.5",
+        "mn151:20.6"
+      ],
+      "summary": "Tự xét đã chứng ngộ minh và giải thoát chưa; chưa thì nỗ lực làm đúng việc ấy, rồi nếu đã làm thì sống với hỷ hoan và ngày đêm học thiện pháp. Không đánh đồng các nhiệm vụ hoặc coi đã làm là lý do ngừng học."
+    },
+    {
+      "id": "ending",
+      "title": "Ba thời cùng phép tự xét",
+      "segments": [
+        "mn151:21.1",
+        "mn151:21.2",
+        "mn151:21.3",
+        "mn151:21.4",
+        "mn151:21.5",
+        "mn151:21.6",
+        "mn151:21.7"
+      ],
+      "summary": "Sa-môn/bà-la-môn đã, sẽ, đang thanh tịnh khất thực đều xét đi xét lại như thế ở quá khứ, tương lai, hiện tại. Phật dạy học như vậy; Sāriputta hoan hỷ tán đồng."
+    },
+    {
+      "id": "colophon",
+      "title": "Dòng kết ấn bản",
+      "segments": [
+        "mn151:21.8"
+      ],
+      "summary": "Ấn bản ghi kinh kết thúc, bài thứ chín trong nhóm; không phải kinh số chín toàn Trung Bộ."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "MN151 — Nhìn lại tâm khi nhận điều được cho",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một câu hỏi sau giờ yên tĩnh",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "emptiness"
+          ],
+          "paragraphs": [
+            "Kinh Thanh Tịnh Khất Thực là bài 151 của Trung Bộ. Khất thực là đi nhận thức ăn được người khác tự nguyện cho để nuôi đời sống tu hành. Bài này nói việc người tu nhìn lại tâm mình trong chính sinh hoạt ấy.",
+            "Người kể kinh thuật điều đã nghe. Khi Phật ở Trúc Lâm, khu nuôi sóc gần thành Rājagaha, Tôn giả Sāriputta ra khỏi chỗ ở riêng yên tĩnh vào buổi chiều. Vị ấy đến lễ Phật rồi ngồi một bên.",
+            "Phật thấy các căn của Sāriputta trong sáng, sắc da thanh tịnh và sáng, nên hỏi gần đây vị ấy thường an trú theo cách nào. Sāriputta đáp: an trú không. Phật hai lần khen là tốt và gọi không là sự an trú của bậc đại nhân, tức người cao quý trong tu tập."
+          ]
+        },
+        {
+          "id": "three-places",
+          "kind": "teaching",
+          "heading": "Nhớ lại cả đường đi lẫn đường về",
+          "meaningUnits": [
+            "eye"
+          ],
+          "paragraphs": [
+            "Phật dạy: một tỳ-kheo, người nam đã xuất gia, nếu muốn thường an trú không thì cần tự xem lại ba chặng. Đó là đường vào làng, nơi đi nhận thức ăn và đường từ làng trở về.",
+            "Với những hình sắc mắt đã thấy ở đó, vị ấy xét xem tâm có dục muốn, tham giữ, giận ghét, si mê hoặc chống đối khó chịu không. Ở đây, điều cần bỏ là những trạng thái bất thiện ấy; không phải mọi mong muốn học điều tốt đều là lỗi.",
+            "Nếu nhận ra có, vị ấy cố gắng từ bỏ chính điều xấu ấy. Nếu nhận ra không có, vị ấy sống với niềm vui hân hoan, rồi vẫn học điều thiện cả ngày lẫn đêm. Thấy mình chưa tốt thì sửa; thấy điều tốt thì vui và tiếp tục học."
+          ]
+        },
+        {
+          "id": "six-doors",
+          "kind": "teaching",
+          "heading": "Không chỉ nhìn lại điều mắt thấy",
+          "meaningUnits": [
+            "other-doors"
+          ],
+          "paragraphs": [
+            "Phép nhìn lại cũng áp dụng với tiếng tai nghe, mùi mũi ngửi, vị lưỡi nếm, sự chạm thân cảm nhận và những điều tâm biết. Cùng với hình sắc, đó là sáu nhóm đối tượng.",
+            "Ở mỗi nhóm, người tu nhớ đủ ba chặng đi, ở và về; xem có dục muốn, tham, sân, si hay tâm chống đối không. Có thì cố gắng bỏ; không có thì vui và ngày đêm tiếp tục nuôi điều thiện. Kinh lược một số câu lặp, nhưng cách xét ấy không đổi."
+          ]
+        },
+        {
+          "id": "different-tasks",
+          "kind": "teaching",
+          "heading": "Có điều cần bỏ, có điều cần hiểu",
+          "meaningUnits": [
+            "sensual",
+            "hindrances",
+            "aggregates"
+          ],
+          "paragraphs": [
+            "Tiếp theo, người tu hỏi mình đã từ bỏ năm loại thú vui giác quan, gọi là năm dục, chưa. Chưa bỏ thì nỗ lực bỏ; đã bỏ thì sống vui và ngày đêm học điều thiện.",
+            "Cũng vậy, vị ấy xét đã bỏ năm triền cái chưa. Triền cái là tên của năm điều che lấp, cản trở tâm tu học. Chưa bỏ thì làm việc từ bỏ; đã bỏ thì vui mà tiếp tục học điều thiện.",
+            "Với năm thủ uẩn, tức năm nhóm thân tâm bị bám giữ, câu hỏi lại là: đã hiểu thấu chưa? Chưa hiểu thấu thì nỗ lực hiểu thấu; đã hiểu thấu thì vui và ngày đêm học điều thiện. Kinh dùng việc hiểu thấu ở đây, không đổi thành chỉ cố đẩy mọi thứ đi."
+          ]
+        },
+        {
+          "id": "first-groups",
+          "kind": "teaching",
+          "heading": "Những nhóm pháp cần rèn luyện",
+          "meaningUnits": [
+            "mindfulness",
+            "efforts",
+            "bases"
+          ],
+          "paragraphs": [
+            "Phật tiếp tục nêu ba câu tự xét: đã tu tập bốn niệm xứ, bốn chánh cần và bốn như ý túc chưa? Có thể hiểu tên gọi ở mức đầu: những chỗ đặt sự ghi nhận; những việc cố gắng đúng; những nền tảng cho thành tựu tu tập.",
+            "Mỗi nhóm đều được xét riêng. Nhóm nào chưa tu tập thì nỗ lực tu tập nhóm đó. Nhóm nào đã tu tập thì người tu sống vui hân hoan và vẫn ngày đêm học các điều thiện. Bài này gọi tên và số lượng các nhóm, không giảng từng thành phần bên trong."
+          ]
+        },
+        {
+          "id": "next-groups",
+          "kind": "teaching",
+          "heading": "Năng lực, sức mạnh và con đường",
+          "meaningUnits": [
+            "faculties",
+            "powers",
+            "awakening",
+            "path"
+          ],
+          "paragraphs": [
+            "Rồi người tu xét riêng năm căn, năm lực, bảy giác chi và Thánh đạo tám chi. Năm căn ở đây là các năng lực tu học, không phải chỉ năm giác quan. Năm lực nói sức mạnh tu học; bảy giác chi là những yếu tố giúp giác ngộ; Thánh đạo tám chi là con đường cao quý gồm tám phần.",
+            "Với từng nhóm, chưa tu tập thì cố gắng tu tập. Đã tu tập thì sống với hỷ và hân hoan, tức niềm vui của việc thiện, đồng thời ngày đêm tiếp tục học. Nhớ tên các nhóm chưa đồng nghĩa đã làm trọn việc tu tập."
+          ]
+        },
+        {
+          "id": "understand-free",
+          "kind": "teaching",
+          "heading": "Tâm lắng, thấy rõ và giải thoát",
+          "meaningUnits": [
+            "calm-insight",
+            "realization"
+          ],
+          "paragraphs": [
+            "Người tu còn tự xét đã tu tập chỉ và quán chưa. Chỉ nói sự an tịnh của tâm; quán nói sự thấy rõ bằng tuệ. Chưa tu thì nỗ lực tu; đã tu thì vui và tiếp tục học thiện pháp ngày đêm.",
+            "Cuối cùng, câu hỏi là đã chứng ngộ minh và giải thoát chưa. Minh là sự biết sáng rõ trong tu tập; giải thoát là thoát sự trói buộc. Chưa trực tiếp chứng ngộ thì nỗ lực hướng đến chứng ngộ; đã chứng ngộ thì sống vui hân hoan, ngày đêm học thiện pháp. Đây là mục tiêu sâu của người tu, không phải phần thưởng sau một lần tự kiểm điểm."
+          ]
+        },
+        {
+          "id": "finish",
+          "kind": "teaching",
+          "heading": "Nhìn lại nhiều lần",
+          "meaningUnits": [
+            "ending",
+            "colophon"
+          ],
+          "paragraphs": [
+            "Phật nói những sa-môn và bà-la-môn, tức các người tu trong bối cảnh bài kinh, làm thanh tịnh việc khất thực đều nhờ xét đi xét lại như vậy. Ngài nói riêng cả người trong quá khứ, người trong tương lai và người hiện tại.",
+            "Vì thế, các tỳ-kheo cần học cách làm thanh tịnh việc khất thực bằng sự tự xét nhiều lần. Nghe Phật dạy xong, Sāriputta vui lòng tán đồng. Dòng cuối của ấn bản ghi đây là bài thứ chín trong nhóm đang đọc; số toàn bộ kinh vẫn là MN151."
+          ]
+        },
+        {
+          "id": "clarify",
+          "kind": "clarification",
+          "heading": "Tên gọi không thay việc thực hành",
+          "meaningUnits": [
+            "emptiness",
+            "sensual"
+          ],
+          "paragraphs": [
+            "Ở bài này, Phật không giải dài mọi nghĩa của chữ không. Lời dạy đi thẳng vào việc nhìn lại tâm, bỏ điều bất thiện và phát triển sự tu học. Thanh tịnh khất thực cũng không có nghĩa làm thức ăn sạch bằng một ý nghĩ. Đây là lời làm rõ của bản diễn giải."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ: nhận một món quà",
+          "meaningUnits": [
+            "eye",
+            "other-doors"
+          ],
+          "paragraphs": [
+            "Em được một người tặng bút. Khi về nhà, em nhớ rằng mình đã so bút của mình với bút của bạn rồi sinh ghen. Em nhận ra điều ấy và tập trân trọng món được cho. Nếu em đã nhận quà mà không ghen, em có thể vui với điều tốt đó. Tình huống này chỉ minh họa việc nhìn lại; đây không phải chuyện được kể trong kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Thử nhớ một việc trong ngày",
+          "meaningUnits": [
+            "eye",
+            "other-doors",
+            "ending"
+          ],
+          "paragraphs": [
+            "Em có thể chọn một việc nhỏ đã xảy ra, nhớ lúc đi đến, lúc ở đó và lúc trở về. Có điều tham giữ hay giận ghét nào cần sửa không? Có điều tốt nào đáng tiếp tục không? Em có thể nói với người lớn mình tin cậy nếu cần giúp hiểu. Gợi ý này không thay toàn bộ việc tu học dành cho tỳ-kheo."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "MN151 — Tự xét để thanh tịnh đời sống khất thực",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Thanh tịnh việc nhận và dùng sự cúng dường",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "emptiness"
+          ],
+          "paragraphs": [
+            "MN151, Kinh Thanh Tịnh Khất Thực, đặt việc tự xét vào sinh hoạt nhận thức ăn cúng dường. Người truyền kinh kể: tại Trúc Lâm, khu nuôi sóc ở Rājagaha, Sāriputta ra khỏi độc cư vào buổi chiều, đến đảnh lễ Phật và ngồi một bên.",
+            "Phật nhận xét các căn của Sāriputta trong sáng, sắc da thanh tịnh, sáng rõ, rồi hỏi vị ấy thường an trú trong pháp nào. Sāriputta trả lời là an trú không. Phật tán thán hai lần và xác nhận không là sự an trú của bậc đại nhân. Từ cuộc trao đổi ấy, bài kinh triển khai những việc người muốn thường an trú như thế phải tự kiểm."
+          ]
+        },
+        {
+          "id": "route",
+          "kind": "teaching",
+          "heading": "Xét đủ ba chặng và hai nhánh",
+          "meaningUnits": [
+            "eye"
+          ],
+          "paragraphs": [
+            "Một tỳ-kheo muốn thường an trú không cần nhớ lại con đường vào làng khất thực, nơi mình đi khất thực và con đường trở về. Với hình sắc mắt nhận biết ở ba chặng ấy, vị ấy xem có dục muốn, tham, sân, si hoặc sự chống đối trong tâm hay không.",
+            "Nếu có những pháp ác bất thiện ấy, nhiệm vụ là nỗ lực từ bỏ chính chúng. Nếu không có, vị ấy an trú trong hỷ và hân hoan, ngày đêm học tập các thiện pháp. Nhánh không có bất thiện vẫn gồm sự tu học liên tục; sự yên ổn nhất thời không thành lý do buông việc rèn luyện."
+          ]
+        },
+        {
+          "id": "doors",
+          "kind": "teaching",
+          "heading": "Sáu loại đối tượng của kinh nghiệm",
+          "meaningUnits": [
+            "other-doors"
+          ],
+          "paragraphs": [
+            "Cùng phép tự xét được lặp cho tiếng do tai biết, mùi do mũi biết, vị do lưỡi biết, xúc chạm do thân biết và pháp do ý biết. Cộng với sắc do mắt biết, phạm vi bao gồm cả sáu cửa, không chỉ hành vi dễ thấy bên ngoài.",
+            "Với từng loại, cả ba chặng đều cần xét; cả năm trạng thái dục, tham, sân, si và chống đối đều được kiểm. Có thì nỗ lực đoạn trừ; không có thì sống trong niềm hỷ hoan và ngày đêm học thiện. Những dấu lược trong nguồn giữ cùng cấu trúc này."
+          ]
+        },
+        {
+          "id": "abandon-understand",
+          "kind": "teaching",
+          "heading": "Phân biệt đoạn trừ với hiểu thấu",
+          "meaningUnits": [
+            "sensual",
+            "hindrances",
+            "aggregates"
+          ],
+          "paragraphs": [
+            "Hai câu hỏi kế tiếp xét việc đoạn trừ năm loại đối tượng dục và năm triền cái, những chướng ngại che lấp tâm. Với mỗi nhóm, nếu chưa đoạn trừ thì nỗ lực đoạn trừ; nếu đã đoạn trừ thì sống với hỷ hoan, ngày đêm tiếp tục học thiện pháp.",
+            "Đến năm thủ uẩn, năm nhóm thân tâm bị chấp giữ, nhiệm vụ được đổi thành hiểu thấu, thường gọi là liễu tri. Chưa hiểu thấu thì nỗ lực hiểu thấu; đã hiểu thấu thì hỷ hoan và tiếp tục tu học ngày đêm. Sự khác nhau giữa các động từ là một phần nội dung, không chỉ thay đổi cách nói."
+          ]
+        },
+        {
+          "id": "cultivation",
+          "kind": "teaching",
+          "heading": "Bảy nhóm pháp được xét từng nhóm",
+          "meaningUnits": [
+            "mindfulness",
+            "efforts",
+            "bases",
+            "faculties",
+            "powers",
+            "awakening",
+            "path"
+          ],
+          "paragraphs": [
+            "Bài kinh nêu lần lượt: bốn niệm xứ, bốn chánh cần, bốn như ý túc, năm căn, năm lực, bảy giác chi và Thánh đạo tám chi. Đó là các nhóm pháp về ghi nhận, tinh cần đúng hướng, nền tảng thành tựu, năng lực và sức mạnh tu tập, các yếu tố giác ngộ cùng con đường cao quý.",
+            "Ở mỗi nhóm, câu hỏi là đã tu tập chưa. Nếu chưa, nỗ lực tu tập chính nhóm ấy; nếu đã, an trú hỷ hoan và ngày đêm học thiện pháp. Bài không triển khai từng thành phần bên trong các nhóm. Giữ nguyên tên và số lượng giúp người đọc nhận ra phạm vi rộng của cuộc tự xét mà không gán thêm một bài giảng khác vào MN151."
+          ]
+        },
+        {
+          "id": "culmination",
+          "kind": "teaching",
+          "heading": "Chỉ–quán và minh–giải thoát",
+          "meaningUnits": [
+            "calm-insight",
+            "realization"
+          ],
+          "paragraphs": [
+            "Chỉ và quán, sự an tịnh và thấy rõ bằng tuệ, cũng phải được xét theo việc tu tập: chưa tu thì nỗ lực tu, đã tu thì hỷ hoan và ngày đêm tiếp tục học thiện.",
+            "Với minh và giải thoát, kinh dùng nhiệm vụ chứng ngộ. Nếu chưa trực tiếp chứng ngộ sự biết sáng rõ và giải thoát, vị ấy nỗ lực hướng đến chứng ngộ; nếu đã chứng ngộ, vị ấy sống trong hỷ hoan, ngày đêm học thiện pháp. Một kết quả tự đánh giá thuận lợi trong ngày không được đánh đồng với thành tựu giải thoát."
+          ]
+        },
+        {
+          "id": "conclusion",
+          "kind": "teaching",
+          "heading": "Tự xét được lặp qua cả ba thời",
+          "meaningUnits": [
+            "ending",
+            "colophon"
+          ],
+          "paragraphs": [
+            "Phật kết luận: các sa-môn và bà-la-môn đã thanh tịnh khất thực trong quá khứ, sẽ thanh tịnh trong tương lai, hoặc đang thanh tịnh trong hiện tại đều nhờ xét đi xét lại như vậy. Các tỳ-kheo cần học đúng cách ấy.",
+            "Sāriputta hoan hỷ tán đồng lời dạy. Dòng kết của ấn bản gọi đây là bài thứ chín trong nhóm; đó là thông tin sắp xếp văn bản, không đổi số thứ tự toàn bộ là MN151."
+          ]
+        },
+        {
+          "id": "scope",
+          "kind": "clarification",
+          "heading": "Giới hạn của cách diễn giải",
+          "meaningUnits": [
+            "emptiness",
+            "eye",
+            "sensual"
+          ],
+          "paragraphs": [
+            "An trú không được nêu làm hướng tu, nhưng bài này không cung cấp một định nghĩa đầy đủ về mọi cách dùng tánh không. Không nên tự thay nó bằng đầu óc trống rỗng. Tương tự, dục muốn ở chuỗi bất thiện cần xét theo ngữ cảnh, không gom cả ý muốn tu tập vào điều phải bỏ. Thanh tịnh khất thực ở đây là vấn đề tu dưỡng khi sống nhờ cúng dường, không phải khẳng định về vệ sinh thực phẩm."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ: nhận hỗ trợ rồi nhìn lại",
+          "meaningUnits": [
+            "eye",
+            "other-doors"
+          ],
+          "paragraphs": [
+            "Một người được đồng nghiệp giúp hoàn thành công việc. Sau cuộc trao đổi, họ nhớ cả lúc chuẩn bị gặp, lúc nói chuyện và lúc rời đi. Họ nhận ra mình đã tham công, khó chịu khi bị góp ý và bỏ qua thiện chí của người giúp. Việc nhận ra ấy cho một hướng sửa cụ thể. Đây là ví dụ biên tập về tự xét, không đồng nhất quan hệ công việc với đời sống khất thực."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một cuộc tự xét có việc tiếp theo",
+          "meaningUnits": [
+            "eye",
+            "other-doors",
+            "ending"
+          ],
+          "paragraphs": [
+            "Có thể chọn một tình huống trong ngày, ghi điều bất thiện đã có cùng việc mình sẽ sửa; nếu thấy một phản ứng thiện đã giữ được, ghi cách tiếp tục nuôi dưỡng nó. Việc ghi nhận cần dựa vào điều thực xảy ra. Gợi ý này chỉ mượn cấu trúc nhìn lại của bài kinh, không thay các nhiệm vụ đoạn trừ, hiểu thấu, tu tập và chứng ngộ."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "MN151 — Nhìn lại để tiếp tục tu học",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một buổi thăm hỏi tại Trúc Lâm",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "emptiness"
+          ],
+          "paragraphs": [
+            "Bài 151 của Trung Bộ mang tên Kinh Thanh Tịnh Khất Thực. Người truyền kinh thuật lại: Phật ở Trúc Lâm, khu nuôi sóc gần Rājagaha. Vào buổi chiều, Sāriputta ra khỏi nơi độc cư, đến lễ Phật rồi ngồi một bên.",
+            "Phật thấy các căn của vị ấy trong sáng, sắc da thanh tịnh và sáng rõ. Ngài hỏi gần đây Sāriputta thường an trú như thế nào. Vị ấy thưa là an trú không. Phật khen hai lần, gọi đó là sự an trú của bậc đại nhân. Từ lời hỏi thăm này, bài kinh đi vào cách nhìn lại đời sống tu học."
+          ]
+        },
+        {
+          "id": "look-back",
+          "kind": "teaching",
+          "heading": "Nhìn lại một lần đi khất thực",
+          "meaningUnits": [
+            "eye"
+          ],
+          "paragraphs": [
+            "Người tỳ-kheo muốn thường an trú không cần xét đủ ba nơi: con đường vào làng, nơi nhận thức ăn cúng dường và con đường trở về. Đối với những hình sắc mắt biết tại đó, tâm có dục muốn, tham giữ, giận ghét, si mê hoặc chống đối hay không?",
+            "Nếu có, vị ấy nỗ lực bỏ những pháp ác bất thiện vừa nhận ra. Nếu không có, vị ấy an trú với hỷ và hân hoan, tức niềm vui lành, rồi ngày đêm tiếp tục học thiện pháp. Cả hai trường hợp đều đưa đến một việc cần làm; tự xét không chỉ để tự khen hay tự trách."
+          ]
+        },
+        {
+          "id": "all-senses",
+          "kind": "teaching",
+          "heading": "Cũng xét điều nghe, ngửi, nếm, chạm và nghĩ",
+          "meaningUnits": [
+            "other-doors"
+          ],
+          "paragraphs": [
+            "Phép xét ấy tiếp tục với tiếng tai nghe, mùi mũi ngửi, vị lưỡi nếm, xúc chạm thân biết và pháp ý biết. Cả kinh nghiệm của tâm cũng ở trong phạm vi xét lại.",
+            "Mỗi nhóm đều theo ba chặng đi vào, ở trong làng và trở về. Có dục, tham, sân, si hay chống đối thì nỗ lực từ bỏ. Không có thì sống vui hân hoan và ngày đêm học điều thiện. Phần lược của kinh không bỏ một trong hai nhánh này."
+          ]
+        },
+        {
+          "id": "abandon",
+          "kind": "teaching",
+          "heading": "Hai nhóm được hỏi về việc từ bỏ",
+          "meaningUnits": [
+            "sensual",
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Phật hướng người tu xét riêng năm loại đối tượng dục, những thú vui giác quan, và năm triền cái, những điều che lấp cản trở tâm. Câu hỏi cho mỗi nhóm là đã từ bỏ chưa.",
+            "Nếu chưa từ bỏ thì phải nỗ lực từ bỏ chính nhóm ấy. Nếu đã từ bỏ thì an trú trong niềm hỷ hoan, tiếp tục học thiện pháp ngày đêm. Ở đây, nhìn lại điều đã làm được vẫn đi cùng sự chăm sóc đời sống tu học."
+          ]
+        },
+        {
+          "id": "understand",
+          "kind": "teaching",
+          "heading": "Hiểu thấu điều mình còn bám giữ",
+          "meaningUnits": [
+            "aggregates"
+          ],
+          "paragraphs": [
+            "Với năm thủ uẩn, tức năm nhóm thân tâm bị chấp giữ, Phật dạy tự hỏi đã hiểu thấu chưa. Hiểu thấu, hay liễu tri, sâu hơn việc nhớ được tên gọi.",
+            "Chưa hiểu thấu thì nỗ lực hiểu thấu. Đã hiểu thấu thì sống trong hỷ hoan và ngày đêm học thiện pháp. Bài kinh không dùng cùng một động từ cho mọi việc: có việc cần từ bỏ, có việc cần hiểu rõ đến nơi."
+          ]
+        },
+        {
+          "id": "cultivation-one",
+          "kind": "teaching",
+          "heading": "Ba nhóm đầu cần tu tập",
+          "meaningUnits": [
+            "mindfulness",
+            "efforts",
+            "bases"
+          ],
+          "paragraphs": [
+            "Người tu tiếp tục tự xét bốn niệm xứ, bốn chánh cần và bốn như ý túc. Tên gọi lần lượt hướng đến những chỗ đặt niệm, những nỗ lực đúng và những nền tảng của thành tựu tu tập.",
+            "Từng nhóm được xét riêng: chưa tu tập thì nỗ lực tu tập; đã tu tập thì an trú với hỷ hoan, ngày đêm tiếp tục học thiện. Trong bài này, kinh nêu tên và số lượng, không phân tích mọi thành phần của các nhóm ấy."
+          ]
+        },
+        {
+          "id": "cultivation-two",
+          "kind": "teaching",
+          "heading": "Năng lực tu học và đường đến giác ngộ",
+          "meaningUnits": [
+            "faculties",
+            "powers",
+            "awakening",
+            "path"
+          ],
+          "paragraphs": [
+            "Bốn nhóm tiếp theo là năm căn, năm lực, bảy giác chi và Thánh đạo tám chi. Căn và lực ở đây nói đến năng lực, sức mạnh trong tu học; giác chi là yếu tố giác ngộ; Thánh đạo là con đường cao quý. Chữ căn trong nhóm năm căn này không nên bị lẫn với các giác quan ở đầu bài.",
+            "Với mỗi nhóm, nếu chưa tu tập thì nỗ lực tu tập. Nếu đã tu tập thì sống vui hỷ hoan và vẫn ngày đêm học thiện pháp. Một chặng đã làm được không làm mất giá trị của việc tiếp tục chăm sóc điều thiện."
+          ]
+        },
+        {
+          "id": "calm-freedom",
+          "kind": "teaching",
+          "heading": "An tịnh, thấy rõ và chứng ngộ",
+          "meaningUnits": [
+            "calm-insight",
+            "realization"
+          ],
+          "paragraphs": [
+            "Người tu còn xét đã tu tập chỉ và quán chưa: làm tâm an tịnh và thấy rõ bằng tuệ. Chưa tu thì nỗ lực tu; đã tu thì hỷ hoan và ngày đêm học điều thiện.",
+            "Với minh và giải thoát, câu hỏi là đã chứng ngộ chưa. Minh chỉ sự biết sáng rõ trong tu tập; giải thoát nói sự thoát trói buộc. Chưa chứng ngộ thì nỗ lực hướng đến chứng ngộ; đã chứng ngộ thì sống trong hỷ hoan và tiếp tục học thiện ngày đêm. Kinh giữ mục tiêu giải thoát ấy, không thu hẹp thành một ngày cảm thấy nhẹ lòng."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Tự xét nhiều lần là điều cần học",
+          "meaningUnits": [
+            "ending",
+            "colophon"
+          ],
+          "paragraphs": [
+            "Phật nói riêng về ba thời: những sa-môn và bà-la-môn trong quá khứ, tương lai và hiện tại làm thanh tịnh khất thực đều nhờ xét đi xét lại như thế. Các tỳ-kheo được dạy học cách làm thanh tịnh việc khất thực bằng sự tự xét lặp lại.",
+            "Sāriputta nghe xong hoan hỷ tán đồng. Dòng kết của ấn bản ghi bài thứ chín trong nhóm đang sắp xếp; toàn bài vẫn được nhận diện là MN151."
+          ]
+        },
+        {
+          "id": "clarify",
+          "kind": "clarification",
+          "heading": "Đọc tên kinh trong mạch tu học",
+          "meaningUnits": [
+            "emptiness",
+            "eye",
+            "sensual"
+          ],
+          "paragraphs": [
+            "Lời giải ở đây hiểu thanh tịnh khất thực theo những việc tu học bài kinh chỉ ra, không xem đó là làm sạch thức ăn bằng tâm. An trú không cũng không được giải thành không nhìn, không nghe hay làm đầu óc trống đi. Bài chỉ nêu tên an trú ấy rồi dạy một tiến trình tự xét. Dục trong chuỗi bất thiện không bao gồm mọi ý muốn làm điều thiện."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ: sau một buổi gặp người thân",
+          "meaningUnits": [
+            "eye",
+            "other-doors"
+          ],
+          "paragraphs": [
+            "Sau một buổi nhận sự giúp đỡ của người thân, ta nhớ lại mình đã mong họ làm theo ý mình ra sao, đã nghe lời góp ý thế nào và ra về với tâm gì. Nếu có giận hoặc tham giữ, ta nhận ra một chỗ cần sửa. Nếu đã biết trân trọng và bình tĩnh, ta vui với điều ấy rồi tiếp tục giữ gìn. Đây là tình huống minh họa do người biên tập đặt ra."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Chọn một việc để nhìn lại thong thả",
+          "meaningUnits": [
+            "eye",
+            "other-doors",
+            "ending"
+          ],
+          "paragraphs": [
+            "Có thể nhìn lại một cuộc gặp theo ba chặng, không cần kể hết cả ngày. Gọi đúng một điều cần bỏ hoặc một điều thiện cần nuôi, rồi chọn việc tiếp theo vừa sức. Đây là gợi ý ứng dụng hạn chế; toàn bộ hướng tu của kinh còn gồm hiểu thấu, tu tập và chứng ngộ."
+          ]
+        }
+      ]
+    }
+  }
+}

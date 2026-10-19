@@ -1,0 +1,1353 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn102",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn102_root-pli-ms.json",
+      "sha256": "460a5c33c0e2dead1a35fbf67e1c3ca7d09570f76b754923a51bbd6a28f60ca4",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn102_translation-vi-project.json",
+      "sha256": "663c62a24c480c8d12c20cd08580f859fe07f97c5adda447e5d990fa9b29dd35",
+      "commit": "ecf34c8858883d2136d36ddc59123c09c043cec9"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn102_translation-en-sujato.json",
+      "sha256": "d5a493e6b9166b87049ebbe5f6bb9762c7beed2ff4224e8169665947639d464e",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn102.html",
+      "sha256": "f66bf7e2dd793eb00510000207443e00fc4afedf65634dc0f85fd5741b6b53e0",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn102_comment-vi-project.json",
+      "sha256": "e6848ba56972794a16567e85ea21540e5182ef02bf45ac8a3e7b37637bb707cc",
+      "commit": "ecf34c8858883d2136d36ddc59123c09c043cec9"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Tên kinh",
+      "segments": [
+        "mn102:0.1",
+        "mn102:0.2"
+      ],
+      "summary": "Trung Bộ 102, Pañcattaya, Kinh Năm và Ba."
+    },
+    {
+      "id": "setting",
+      "title": "Phật gọi các tỳ-kheo",
+      "segments": [
+        "mn102:1.1",
+        "mn102:1.2",
+        "mn102:1.3",
+        "mn102:1.4",
+        "mn102:1.5",
+        "mn102:1.6"
+      ],
+      "summary": "Tôi nghe như vầy; Phật tại Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika. Gọi tỳ-kheo, các vị đáp, Ngài giảng."
+    },
+    {
+      "id": "five",
+      "title": "Năm chủ trương về đời sau",
+      "segments": [
+        "mn102:2.1",
+        "mn102:2.2",
+        "mn102:2.3",
+        "mn102:2.4",
+        "mn102:2.5",
+        "mn102:2.6",
+        "mn102:2.7",
+        "mn102:2.8"
+      ],
+      "summary": "Người tu/bà-la-môn suy đoán đời sau: tự ngã không bệnh sau chết hữu tưởng, vô tưởng, phi tưởng phi phi tưởng; đoạn diệt/hoại vong/không còn tồn tại của chúng sinh đang có; Niết-bàn ngay hiện tại. Đây là chủ trương được khảo sát."
+    },
+    {
+      "id": "three",
+      "title": "Gộp năm thành ba",
+      "segments": [
+        "mn102:2.9",
+        "mn102:2.10",
+        "mn102:2.11"
+      ],
+      "summary": "Ba nhóm: tự ngã tồn tại không bệnh sau chết; chúng sinh hiện có bị đoạn diệt; Niết-bàn hiện tại. Năm thành ba, ba thành năm; tổng thuyết tên bài."
+    },
+    {
+      "id": "percipient",
+      "title": "Tám dạng hữu tưởng và thức biến",
+      "segments": [
+        "mn102:3.1"
+      ],
+      "summary": "Tự ngã hữu tưởng không bệnh sau chết: có sắc/không sắc/cả hai/không cả hai, nhất/dị/thiểu/vô lượng tưởng. Một số vượt trên ấy chủ trương thức biến vô lượng bất động."
+    },
+    {
+      "id": "knows-perception",
+      "title": "Như Lai biết các loại tưởng",
+      "segments": [
+        "mn102:4.1",
+        "mn102:4.2",
+        "mn102:4.3",
+        "mn102:4.4"
+      ],
+      "summary": "Nhắc đủ tám dạng tự ngã hữu tưởng sau chết; tưởng nào gọi thanh tịnh/tối thắng/đệ nhất/vô thượng trong sắc/vô sắc/nhất/dị tưởng. Một số nghĩ không có gì, chủ trương vô sở hữu xứ vô lượng bất động. Không nhập thức biến và vô sở hữu thành cùng một xứ."
+    },
+    {
+      "id": "escape-perception",
+      "title": "Vượt hữu vi lần một",
+      "segments": [
+        "mn102:4.5",
+        "mn102:4.6"
+      ],
+      "summary": "Chừng ấy hữu vi, thô; có diệt các hành, điều ấy thật. Biết và thấy lối thoát, Như Lai đã vượt qua. Điệp khúc giữ đủ biết/thấy/đã vượt, không đổi thành phủ định lối thoát."
+    },
+    {
+      "id": "nonpercipient",
+      "title": "Bốn dạng vô tưởng",
+      "segments": [
+        "mn102:5.1"
+      ],
+      "summary": "Tự ngã vô tưởng không bệnh sau chết theo bốn dạng có sắc/không sắc/cả hai/không cả hai."
+    },
+    {
+      "id": "reject-perception",
+      "title": "Lý lẽ bác hữu tưởng",
+      "segments": [
+        "mn102:6.1",
+        "mn102:6.2",
+        "mn102:6.3"
+      ],
+      "summary": "Nhóm vô tưởng bác hữu tưởng vì họ cho tưởng là bệnh/mụn nhọt/mũi tên, vô tưởng tịch tịnh thù thắng; không gán đây là lời tán thành của Phật."
+    },
+    {
+      "id": "knows-nonperception",
+      "title": "Biết bốn dạng vô tưởng",
+      "segments": [
+        "mn102:7.1",
+        "mn102:7.2"
+      ],
+      "summary": "Như Lai biết và nhắc lại bốn dạng tự ngã vô tưởng không bệnh sau chết."
+    },
+    {
+      "id": "consciousness",
+      "title": "Không tách thức khỏi bốn nhóm kia",
+      "segments": [
+        "mn102:7.3",
+        "mn102:7.4",
+        "mn102:7.5"
+      ],
+      "summary": "Không thể trình bày sự đến/đi/chết/tái sinh/tăng trưởng/lớn lên/viên mãn của thức ngoài sắc, thọ, tưởng, hành. Giữ bốn thứ ngoài và thức là chủ thể, không theo HTML thêm ngoài thức rồi mất chủ thể."
+    },
+    {
+      "id": "escape-nonperception",
+      "title": "Vượt hữu vi lần hai",
+      "segments": [
+        "mn102:7.6",
+        "mn102:7.7"
+      ],
+      "summary": "Vẫn hữu vi thô; có diệt các hành là thật; Như Lai biết, thấy thoát, đã vượt."
+    },
+    {
+      "id": "neither",
+      "title": "Bốn dạng phi tưởng phi phi tưởng",
+      "segments": [
+        "mn102:8.1"
+      ],
+      "summary": "Tự ngã không bệnh sau chết không phải có tưởng cũng không phải vô tưởng, theo bốn dạng sắc/vô sắc/cả hai/không cả hai."
+    },
+    {
+      "id": "reject-both",
+      "title": "Bác cả hai loại trước",
+      "segments": [
+        "mn102:9.1",
+        "mn102:9.2",
+        "mn102:9.3",
+        "mn102:9.4"
+      ],
+      "summary": "Nhóm này bác hữu tưởng lẫn vô tưởng: tưởng bệnh/mụn nhọt/mũi tên, vô tưởng si mê; phi tưởng phi phi tưởng mới tịch tịnh/thù thắng theo họ."
+    },
+    {
+      "id": "knows-neither",
+      "title": "Biết bốn dạng thứ ba",
+      "segments": [
+        "mn102:10.1",
+        "mn102:10.2"
+      ],
+      "summary": "Như Lai biết và nhắc lại bốn dạng của tự ngã phi tưởng phi phi tưởng không bệnh sau chết."
+    },
+    {
+      "id": "residue",
+      "title": "Tàn dư các hành vẫn còn",
+      "segments": [
+        "mn102:10.3",
+        "mn102:10.4",
+        "mn102:10.5"
+      ],
+      "summary": "Chỉ bằng các hành thuộc điều thấy/nghe/cảm nhận/nhận biết mà cho chứng xứ này là tai hại cho chứng nhập. Không đạt bằng chứng nhập các hành mà bằng chứng nhập còn tàn dư hành. Giữ còn, ngược HTML không còn hành nào."
+    },
+    {
+      "id": "escape-neither",
+      "title": "Vượt hữu vi lần ba",
+      "segments": [
+        "mn102:10.6",
+        "mn102:10.7"
+      ],
+      "summary": "Hữu vi thô, có diệt hành thật; Như Lai biết rõ, thấy lối thoát và đã vượt qua."
+    },
+    {
+      "id": "annihilation",
+      "title": "Đoạn diệt luận bác ba thuyết",
+      "segments": [
+        "mn102:11.1",
+        "mn102:11.2",
+        "mn102:11.3",
+        "mn102:11.4"
+      ],
+      "summary": "Người chủ trương đoạn diệt/hoại vong/không tồn tại của chúng sinh hiện có bác cả ba tự ngã không bệnh sau chết; cho họ ái luyến hướng lên, mong sau chết sẽ thế này/thế kia."
+    },
+    {
+      "id": "trader",
+      "title": "Ví thương nhân trong lời lập luận",
+      "segments": [
+        "mn102:12.1",
+        "mn102:12.2",
+        "mn102:12.3",
+        "mn102:12.4"
+      ],
+      "summary": "Người đi buôn nghĩ từ món này sẽ có món kia, nhờ món này được món kia. Cũng như mong sau chết thế này/thế kia. Theo mạch Sujato và ghi chú, đặt trong lý lẽ người đoạn diệt; không tuyên bố đây là phân vai ngữ học duy nhất."
+    },
+    {
+      "id": "dog",
+      "title": "Sợ hữu thân vẫn xoay quanh hữu thân",
+      "segments": [
+        "mn102:12.5",
+        "mn102:12.6",
+        "mn102:12.7",
+        "mn102:12.8"
+      ],
+      "summary": "Như Lai biết: vì sợ và ghét hữu thân, phái đoạn diệt chạy theo/quanh nó; ví chó bị xích vào cột/cọc vững, chỉ chạy quanh; nhắc áp ví. Sakkāya không đổi thành thân kiến."
+    },
+    {
+      "id": "escape-annihilation",
+      "title": "Vượt hữu vi lần bốn",
+      "segments": [
+        "mn102:12.9",
+        "mn102:12.10"
+      ],
+      "summary": "Hữu vi thô, có diệt hành thật; Như Lai biết rõ, thấy lối thoát và đã vượt qua."
+    },
+    {
+      "id": "future-summary",
+      "title": "Tóm lại năm xứ",
+      "segments": [
+        "mn102:13.1"
+      ],
+      "summary": "Mọi người suy đoán quyết đoán đời sau ấy đều nói đúng năm xứ hoặc một trong chúng."
+    },
+    {
+      "id": "past-time",
+      "title": "Bốn thuyết về thường còn",
+      "segments": [
+        "mn102:14.1",
+        "mn102:14.2",
+        "mn102:14.3",
+        "mn102:14.4",
+        "mn102:14.5"
+      ],
+      "summary": "Người suy đoán quá khứ cho tự ngã và thế giới: thường, không thường, vừa thường vừa không, không cả hai. Mỗi thuyết đều khẳng định chỉ đây thật, khác hư vọng."
+    },
+    {
+      "id": "past-limit",
+      "title": "Bốn thuyết về giới hạn",
+      "segments": [
+        "mn102:14.6",
+        "mn102:14.7",
+        "mn102:14.8",
+        "mn102:14.9"
+      ],
+      "summary": "Tự ngã và thế giới hữu hạn/vô hạn/cả hai/không cả hai; mỗi thuyết tự nhận duy nhất thật."
+    },
+    {
+      "id": "past-perception",
+      "title": "Bốn thuyết về tưởng",
+      "segments": [
+        "mn102:14.10",
+        "mn102:14.11",
+        "mn102:14.12",
+        "mn102:14.13"
+      ],
+      "summary": "Tự ngã và thế giới nhất/dị/thiểu/vô lượng tưởng; mỗi thuyết tự nhận duy nhất thật."
+    },
+    {
+      "id": "past-feeling",
+      "title": "Bốn thuyết về vui khổ",
+      "segments": [
+        "mn102:14.14",
+        "mn102:14.15",
+        "mn102:14.16",
+        "mn102:14.17",
+        "mn102:14.18"
+      ],
+      "summary": "Tự ngã và thế giới chỉ lạc/chỉ khổ/cả hai/không cả hai; mỗi thuyết duy nhất thật, mọi khác hư vọng; kết một số nói vậy."
+    },
+    {
+      "id": "knowledge-eternal",
+      "title": "Căn cứ của thuyết thường còn",
+      "segments": [
+        "mn102:15.1",
+        "mn102:15.2",
+        "mn102:15.3"
+      ],
+      "summary": "Ngoài tin/ưa/truyền khẩu/suy xét/chấp nhận sau cân nhắc, người quyết đoán thường còn không thể có tri kiến tự mình trong sạch; khi không có tri kiến tự mình ấy, chút kiến thức được soi sáng vẫn là chấp thủ."
+    },
+    {
+      "id": "escape-eternal",
+      "title": "Vượt hữu vi lần năm",
+      "segments": [
+        "mn102:15.4",
+        "mn102:15.5"
+      ],
+      "summary": "Có diệt các hành thật, ngược HTML không có; hữu vi thô và Như Lai biết rõ, thấy lối thoát và đã vượt qua."
+    },
+    {
+      "id": "knowledge-others",
+      "title": "Áp đủ mười lăm thuyết còn lại",
+      "segments": [
+        "mn102:16.1",
+        "mn102:16.2",
+        "mn102:16.3",
+        "mn102:16.4",
+        "mn102:16.5",
+        "mn102:16.6",
+        "mn102:16.7",
+        "mn102:16.8",
+        "mn102:16.9",
+        "mn102:16.10",
+        "mn102:16.11",
+        "mn102:16.12",
+        "mn102:16.13",
+        "mn102:16.14",
+        "mn102:16.15",
+        "mn102:16.16",
+        "mn102:16.17"
+      ],
+      "summary": "Nhắc ba thuyết thời gian còn lại, bốn giới hạn gồm hữu hạn bị HTML rơi, bốn tưởng, bốn vui khổ. Cùng tự nhận duy nhất thật, năm căn cứ, không có tri kiến tự mình trong sạch và chút biết soi sáng vẫn chấp thủ. Mở lược bằng công thức đoạn 15 cùng bài, không lấy MN95/101 làm nguồn."
+    },
+    {
+      "id": "escape-others",
+      "title": "Vượt hữu vi lần sáu",
+      "segments": [
+        "mn102:16.18",
+        "mn102:16.19"
+      ],
+      "summary": "Hữu vi thô, có diệt hành thật; Như Lai biết rõ, thấy lối thoát và đã vượt qua."
+    },
+    {
+      "id": "rapture",
+      "title": "Hỷ viễn ly rồi ưu",
+      "segments": [
+        "mn102:17.1",
+        "mn102:17.2",
+        "mn102:17.3",
+        "mn102:17.4"
+      ],
+      "summary": "Bỏ kiến quá khứ/đời sau, hoàn toàn không chú tâm dục kiết sử, vào hỷ viễn ly và gọi tịch tịnh thù thắng. Hỷ ấy diệt ưu sinh; ưu diệt hỷ ấy sinh. Không thêm danh hiệu sơ thiền."
+    },
+    {
+      "id": "shade-rapture",
+      "title": "Ví bóng mát và nắng lần một",
+      "segments": [
+        "mn102:18.1",
+        "mn102:18.2"
+      ],
+      "summary": "Bóng rời thì nắng tràn, nắng rời thì bóng tràn; áp đủ hai chiều hỷ viễn ly/ưu."
+    },
+    {
+      "id": "knows-rapture",
+      "title": "Nhắc tiến trình thứ nhất",
+      "segments": [
+        "mn102:18.3",
+        "mn102:18.4",
+        "mn102:18.5",
+        "mn102:18.6",
+        "mn102:18.7"
+      ],
+      "summary": "Như Lai biết và nhắc đủ bỏ hai kiến/không chú tâm dục kiết sử, vào hỷ viễn ly/câu tán thán, hỷ diệt và hai chiều ưu thay hỷ."
+    },
+    {
+      "id": "escape-rapture",
+      "title": "Vượt hữu vi lần bảy",
+      "segments": [
+        "mn102:18.8",
+        "mn102:18.9"
+      ],
+      "summary": "Hữu vi thô, có diệt hành thật; Như Lai biết rõ, thấy lối thoát và đã vượt qua."
+    },
+    {
+      "id": "nonmaterial",
+      "title": "Lạc phi vật chất rồi hỷ viễn ly",
+      "segments": [
+        "mn102:19.1",
+        "mn102:19.2",
+        "mn102:19.3",
+        "mn102:19.4"
+      ],
+      "summary": "Cùng bỏ hai kiến và không chú tâm dục kiết sử; vượt hỷ viễn ly, vào lạc phi vật chất và gọi tịch tịnh/thù thắng. Lạc ấy diệt hỷ viễn ly sinh; hỷ ấy diệt lạc phi vật chất sinh."
+    },
+    {
+      "id": "shade-nonmaterial",
+      "title": "Ví bóng mát và nắng lần hai",
+      "segments": [
+        "mn102:20.1",
+        "mn102:20.2"
+      ],
+      "summary": "Nắng/bóng thay nhau hai chiều; áp đủ lạc phi vật chất/hỷ viễn ly."
+    },
+    {
+      "id": "knows-nonmaterial",
+      "title": "Nhắc tiến trình thứ hai",
+      "segments": [
+        "mn102:20.3",
+        "mn102:20.4",
+        "mn102:20.5",
+        "mn102:20.6",
+        "mn102:20.7"
+      ],
+      "summary": "Như Lai biết và nhắc đủ điều kiện, vượt hỷ, chứng trú lạc phi vật chất, gọi tịch tịnh/thù thắng, lạc diệt rồi hai chiều thay nhau với hỷ viễn ly."
+    },
+    {
+      "id": "escape-nonmaterial",
+      "title": "Vượt hữu vi lần tám",
+      "segments": [
+        "mn102:20.8",
+        "mn102:20.9"
+      ],
+      "summary": "Hữu vi thô, có diệt hành thật; Như Lai biết rõ, thấy lối thoát và đã vượt qua."
+    },
+    {
+      "id": "neutral",
+      "title": "Thọ trung tính rồi lạc phi vật chất",
+      "segments": [
+        "mn102:21.1",
+        "mn102:21.2",
+        "mn102:21.3",
+        "mn102:21.4"
+      ],
+      "summary": "Cùng bỏ hai kiến/không chú tâm dục kiết sử; vượt hỷ viễn ly và lạc phi vật chất, trú thọ không khổ/lạc, gọi tịch tịnh/thù thắng. Thọ ấy diệt lạc phi vật chất sinh; lạc ấy diệt thọ trung tính sinh."
+    },
+    {
+      "id": "shade-neutral",
+      "title": "Ví bóng mát và nắng lần ba",
+      "segments": [
+        "mn102:22.1",
+        "mn102:22.2"
+      ],
+      "summary": "Nắng/bóng thay nhau hai chiều; áp đủ thọ không khổ/lạc và lạc phi vật chất."
+    },
+    {
+      "id": "knows-neutral",
+      "title": "Nhắc tiến trình thứ ba",
+      "segments": [
+        "mn102:22.3",
+        "mn102:22.4",
+        "mn102:22.5",
+        "mn102:22.6",
+        "mn102:22.7"
+      ],
+      "summary": "Như Lai biết và nhắc đủ điều kiện/vượt hai tầng trước/chứng trú trung tính/câu tán thán/sự diệt/hai chiều thay nhau với lạc phi vật chất."
+    },
+    {
+      "id": "escape-neutral",
+      "title": "Vượt hữu vi lần chín",
+      "segments": [
+        "mn102:22.8",
+        "mn102:22.9"
+      ],
+      "summary": "Hữu vi thô, có diệt hành thật; Như Lai biết rõ, thấy lối thoát và đã vượt qua."
+    },
+    {
+      "id": "peace-claim",
+      "title": "Vượt ba trạng thái rồi nhận mình vô chấp",
+      "segments": [
+        "mn102:23.1",
+        "mn102:23.2"
+      ],
+      "summary": "Bỏ hai kiến/không chú tâm dục kiết sử/vượt đủ hỷ viễn ly, lạc phi vật chất, thọ trung tính; quán ta tịch tịnh/tịch diệt/vô chấp."
+    },
+    {
+      "id": "suitable-path",
+      "title": "Lời nói về đường thích hợp",
+      "segments": [
+        "mn102:24.1",
+        "mn102:24.2",
+        "mn102:24.3",
+        "mn102:24.4"
+      ],
+      "summary": "Như Lai biết và nhắc đủ điều kiện cùng ba lời tự quán; thừa nhận vị ấy nói con đường thích hợp Niết-bàn, không tự suy vị ấy đã giải thoát."
+    },
+    {
+      "id": "grasping",
+      "title": "Sáu chỗ bám và cả ý mình đã hết bám",
+      "segments": [
+        "mn102:24.5",
+        "mn102:24.6",
+        "mn102:24.7"
+      ],
+      "summary": "Vị ấy vẫn chấp thủ; đối tượng là một trong sáu: kiến quá khứ, kiến đời sau, dục kiết sử, hỷ viễn ly, lạc phi vật chất, thọ trung tính. Cả quán ta tịch tịnh/tịch diệt/vô chấp cũng là chấp thủ. Giữ tính hoặc của root, không ép đồng thời cả sáu."
+    },
+    {
+      "id": "escape-grasping",
+      "title": "Vượt hữu vi lần mười",
+      "segments": [
+        "mn102:24.8",
+        "mn102:24.9"
+      ],
+      "summary": "Hữu vi thô, có diệt hành thật; Như Lai biết rõ, thấy lối thoát và đã vượt qua."
+    },
+    {
+      "id": "ungrasped",
+      "title": "An tịnh tối thắng vô thượng",
+      "segments": [
+        "mn102:25.1",
+        "mn102:25.2"
+      ],
+      "summary": "Như Lai chánh giác an tịnh tối thắng vô thượng: biết thật sinh/diệt/vị ngọt/nguy hiểm/xuất ly của sáu xúc xứ rồi giải thoát không chấp thủ. Giữ xuất ly bị HTML lược; không thêm lần lặp kết từ HTML."
+    },
+    {
+      "id": "close",
+      "title": "Các vị vui nhận",
+      "segments": [
+        "mn102:25.3",
+        "mn102:25.4",
+        "mn102:25.5"
+      ],
+      "summary": "Phật nói xong, các tỳ-kheo hoan hỷ tán đồng; bài thứ hai trong nhóm kết thúc."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "MN102 cho trẻ em — Đừng giữ chặt cả ý nghĩ mình đã buông",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một bài học về những điều ta nắm giữ",
+          "meaningUnits": [
+            "identity",
+            "setting"
+          ],
+          "paragraphs": [
+            "Kinh Năm và Ba là bài 102 của Trung Bộ. Người truyền kinh kể đã nghe như vầy: một lần Đức Phật ở Sāvatthī, rừng Jeta, trong tu viện của ông Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những người nam xuất gia; các vị đáp lời. Ngài giảng về những ý kiến người ta giữ chặt và con đường hết chấp giữ."
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Vì sao tên kinh có số năm?",
+          "meaningUnits": [
+            "five"
+          ],
+          "paragraphs": [
+            "Có các sa-môn, người sống đời tu, và bà-la-môn, người thuộc truyền thống học kinh và nghi lễ, suy đoán về đời sau. Họ đưa ra năm kiểu khẳng định. Ba kiểu đầu đều nói một “tự ngã” — cái ta mà họ cho là con người thật của mình — vẫn không bệnh sau khi chết, nhưng khác nhau về tưởng, khả năng nhận biết đặc điểm của sự vật.",
+            "Một nhóm nói cái ta ấy có tưởng; nhóm thứ hai nói không có tưởng; nhóm thứ ba nói không phải có tưởng cũng không phải không có tưởng. Nhóm thứ tư nói chúng sinh đang có sẽ bị đoạn diệt, hủy hoại, hết tồn tại. Nhóm thứ năm tuyên bố Niết-bàn ngay hiện tại, tức trạng thái dập tắt khổ mà họ cho mình đã tới. Phật đang xét các tuyên bố ấy, không bảo cả năm đều đúng."
+          ]
+        },
+        {
+          "id": "three",
+          "kind": "teaching",
+          "heading": "Và vì sao lại thành ba?",
+          "meaningUnits": [
+            "three"
+          ],
+          "paragraphs": [
+            "Gộp ba nhóm đầu thành nhóm nói cái ta còn tồn tại, không bệnh sau chết, ta có ba nhóm lớn: còn một tự ngã như thế; chúng sinh bị tiêu mất; Niết-bàn hiện tại. Tách ra thì có năm, gộp lại thì có ba. Đó là cách mở đầu Kinh Năm và Ba."
+          ]
+        },
+        {
+          "id": "perception",
+          "kind": "teaching",
+          "heading": "Những cách nói về cái ta có tưởng",
+          "meaningUnits": [
+            "percipient",
+            "knows-perception",
+            "escape-perception"
+          ],
+          "paragraphs": [
+            "Nhóm nói tự ngã có tưởng, không bệnh sau chết lại chia nhiều cách: có hình sắc, không hình sắc, vừa có vừa không, hoặc không thuộc cả hai. Họ còn nói tưởng là thống nhất, khác nhau, có giới hạn hoặc không giới hạn. Đó là tám cách nói. Một số đi xa hơn, chủ trương thức biến — sự biết bao trùm — là vô lượng, không lay động.",
+            "Như Lai, cách gọi Đức Phật, biết rõ cả tám cách ấy. Ngài biết tưởng nào được gọi là trong sạch, cao nhất, đứng đầu, không gì hơn trong tưởng có hình sắc, không hình sắc, thống nhất hay khác nhau. Một số nghĩ “không có gì cả”, rồi gọi vô sở hữu xứ, trạng thái nhận biết không có gì, là vô lượng và không lay động.",
+            "Phật biết những điều ấy vẫn là hữu vi, do điều kiện tạo nên, và còn thô. Có sự chấm dứt các hành, những gì được tạo tác theo điều kiện; điều ấy là thật. Biết rõ và thấy đường thoát, Ngài đã vượt qua những điều đang được chấp giữ."
+          ]
+        },
+        {
+          "id": "none",
+          "kind": "teaching",
+          "heading": "Không có tưởng có phải đã là đích?",
+          "meaningUnits": [
+            "nonpercipient",
+            "reject-perception",
+            "knows-nonperception",
+            "consciousness",
+            "escape-nonperception"
+          ],
+          "paragraphs": [
+            "Nhóm khác nói tự ngã không có tưởng, không bệnh sau chết, cũng chia bốn cách: có hình sắc, không hình sắc, cả hai hoặc không cả hai. Họ bác nhóm có tưởng, vì cho tưởng giống bệnh, mụn nhọt và mũi tên; còn không tưởng mới yên và cao quý.",
+            "Phật biết rõ và nhắc lại bốn cách ấy. Ngài chỉ ra: không thể tách khỏi sắc, mặt vật chất; thọ, cảm giác; tưởng, sự nhận biết đặc điểm; hành, những hoạt động tạo tác của tâm, rồi trình bày thức, sự hay biết, đến, đi, chết, sinh lại, tăng trưởng, lớn lên và đầy đủ hơn.",
+            "Ngài lại biết chừng ấy còn do điều kiện tạo nên, còn thô; sự chấm dứt các hành là có thật. Thấy đường thoát, Ngài đã vượt qua. Chỉ tuyên bố không còn tưởng chưa nói lên sự giải thoát ấy."
+          ]
+        },
+        {
+          "id": "neither",
+          "kind": "teaching",
+          "heading": "Một trạng thái rất khó gọi tên",
+          "meaningUnits": [
+            "neither",
+            "reject-both",
+            "knows-neither",
+            "residue",
+            "escape-neither"
+          ],
+          "paragraphs": [
+            "Nhóm thứ ba nói tự ngã không bệnh sau chết là phi tưởng phi phi tưởng: không thể gọi có tưởng, cũng không thể gọi không tưởng. Họ cũng nói bốn dạng có hình sắc, không hình sắc, cả hai hoặc không cả hai.",
+            "Họ bác hai nhóm trước: tưởng là bệnh, mụn nhọt, mũi tên; không tưởng là si mê; chỉ trạng thái họ nêu mới yên và cao quý. Phật biết và nhắc lại cả bốn dạng ấy.",
+            "Ngài nói cho rằng chỉ dùng những hành thuộc điều thấy, nghe, cảm nhận, nhận biết để vào trạng thái này là cách gây hỏng việc chứng nhập. Xứ ấy không đạt bằng sự chứng nhập các hành; chỉ đạt bằng sự chứng nhập còn tàn dư các hành. Vì vẫn còn phần dư, đó vẫn là hữu vi, còn thô. Có sự chấm dứt các hành là thật; Phật biết, thấy đường thoát và đã vượt qua."
+          ]
+        },
+        {
+          "id": "trader",
+          "kind": "teaching",
+          "heading": "Lời phản bác ví với người đi buôn",
+          "meaningUnits": [
+            "annihilation",
+            "trader"
+          ],
+          "paragraphs": [
+            "Nhóm cho chúng sinh đang sống sẽ bị tiêu mất hoàn toàn bác cả ba nhóm nói tự ngã không bệnh sau chết. Họ cho những người kia vẫn bị mong muốn kéo lên phía đời sau: mình sẽ thế này, mình sẽ thế kia.",
+            "Trong lập luận ấy có ví người đi buôn nghĩ: từ món này sẽ có món kia, nhờ món này sẽ lấy được món kia. Cũng vậy, những người kia cứ nghĩ sau khi chết mình sẽ trở thành thế này, thế kia. Đây là lời phản bác của một nhóm đang được kinh kể lại."
+          ]
+        },
+        {
+          "id": "dog",
+          "kind": "teaching",
+          "heading": "Chạy quanh chiếc cọc vẫn còn bị buộc",
+          "meaningUnits": [
+            "dog",
+            "escape-annihilation",
+            "future-summary"
+          ],
+          "paragraphs": [
+            "Phật biết người chủ trương tiêu mất ấy vì sợ và ghét hữu thân — thân tâm đang bị nắm giữ như “mình” — nên lại cứ xoay quanh hữu thân. Như con chó bị xích vào cột hoặc cọc chắc: chạy mãi vẫn chỉ quanh cột, quanh cọc ấy. Sợ và ghét mà còn nắm giữ thì vẫn chưa thoát.",
+            "Ngài lại thấy chừng ấy do điều kiện tạo nên, còn thô; có sự chấm dứt các hành là thật. Nhờ biết và thấy lối thoát, Ngài đã vượt qua. Các kiểu suy đoán về đời sau được nói tới đều nằm trong năm nhóm, hoặc một trong năm nhóm ấy."
+          ]
+        },
+        {
+          "id": "past-time",
+          "kind": "teaching",
+          "heading": "Bốn ý kiến về còn mãi",
+          "meaningUnits": [
+            "past-time"
+          ],
+          "paragraphs": [
+            "Kinh chuyển sang người suy đoán về quá khứ. Họ nói tự ngã và thế giới là còn mãi; không còn mãi; vừa còn mãi vừa không; hoặc không thuộc cả hai cách ấy. Mỗi nhóm đều khăng khăng chỉ điều mình nói là thật, mọi điều khác đều sai."
+          ]
+        },
+        {
+          "id": "past-other",
+          "kind": "teaching",
+          "heading": "Thêm mười hai ý kiến",
+          "meaningUnits": [
+            "past-limit",
+            "past-perception",
+            "past-feeling"
+          ],
+          "paragraphs": [
+            "Về giới hạn, họ nói tự ngã và thế giới có giới hạn, không giới hạn, cả hai hoặc không cả hai. Về tưởng, họ nói thống nhất, khác nhau, có giới hạn hoặc không giới hạn.",
+            "Về cảm nhận, họ nói chỉ vui, chỉ khổ, vừa vui vừa khổ, hoặc không khổ không vui. Mỗi ý kiến cũng tự nhận chỉ mình đúng, các ý kiến khác sai. Cộng với bốn cách nói về còn mãi là mười sáu chủ trương."
+          ]
+        },
+        {
+          "id": "knowledge",
+          "kind": "teaching",
+          "heading": "Quả quyết chưa phải tự mình thấy rõ",
+          "meaningUnits": [
+            "knowledge-eternal",
+            "escape-eternal",
+            "knowledge-others",
+            "escape-others"
+          ],
+          "paragraphs": [
+            "Với người khẳng định tự ngã và thế giới còn mãi, chỉ mình nói đúng, Phật chỉ ra năm chỗ họ dựa: tin, thích, lời truyền lại, suy luận, và quan điểm đã cân nhắc rồi chấp nhận. Ngoài những chỗ ấy, họ không có được sự tự biết trong sạch, sáng rõ về lời quả quyết. Khi chưa có sự biết ấy, chút hiểu biết họ làm sáng lên vẫn được gọi là chấp thủ, nắm giữ chặt.",
+            "Ngài thấy chừng ấy còn do điều kiện, còn thô; có sự chấm dứt các hành là thật. Biết và thấy lối thoát, Ngài đã vượt qua. Rồi Ngài áp cùng cách xét cho mười lăm ý kiến còn lại: ba cách còn lại về còn mãi, bốn cách về giới hạn, bốn về tưởng, bốn về vui khổ. Cả việc tự nhận chỉ mình đúng, năm căn cứ, sự thiếu tự biết sáng rõ và phần biết vẫn thành chấp thủ đều được xét lại. Ngài cũng biết và vượt qua những gì do điều kiện ấy, vì có sự chấm dứt các hành thật sự."
+          ]
+        },
+        {
+          "id": "joy",
+          "kind": "teaching",
+          "heading": "Niềm hân hoan có lúc hết",
+          "meaningUnits": [
+            "rapture",
+            "shade-rapture",
+            "knows-rapture",
+            "escape-rapture"
+          ],
+          "paragraphs": [
+            "Có người bỏ các ý kiến chấp chặt về quá khứ và đời sau, hoàn toàn không chú tâm vào những mối buộc do ham muốn giác quan. Người ấy vào và ở trong hỷ do viễn ly, niềm hân hoan khi sống xa những điều ấy, rồi nghĩ đây thật yên và cao quý. Nhưng niềm hân hoan đó hết thì nỗi buồn xuất hiện; nỗi buồn hết thì niềm hân hoan ấy lại xuất hiện.",
+            "Giống chỗ bóng mát rời đi thì nắng tràn vào, nắng rời đi thì bóng mát tràn vào. Phật nhắc lại đủ điều kiện, lời người ấy tán thán và việc hân hoan với buồn thay nhau. Ngài biết điều ấy vẫn do điều kiện và còn thô; có sự chấm dứt các hành là thật. Biết và thấy đường thoát, Ngài đã vượt qua."
+          ]
+        },
+        {
+          "id": "pleasure",
+          "kind": "teaching",
+          "heading": "Sự an vui cũng có điều kiện",
+          "meaningUnits": [
+            "nonmaterial",
+            "shade-nonmaterial",
+            "knows-nonmaterial",
+            "escape-nonmaterial"
+          ],
+          "paragraphs": [
+            "Người khác cũng bỏ chấp về quá khứ, đời sau, hoàn toàn không chú tâm các mối buộc của ham muốn giác quan; rồi vượt niềm hân hoan do xa lìa, vào và ở trong lạc phi vật chất, sự an vui không dựa vào thú vui giác quan. Người ấy gọi đó là yên và cao quý.",
+            "Nhưng an vui ấy hết thì hỷ do viễn ly xuất hiện; hỷ ấy hết thì lạc phi vật chất trở lại. Ví bóng mát và nắng đổi chỗ lại được dùng theo cả hai chiều. Phật biết và nhắc lại cả tiến trình, lời tán thán, sự mất đi và thay nhau. Ngài thấy chừng ấy vẫn hữu vi, còn thô; có sự chấm dứt các hành thật sự, và Ngài đã biết, thấy lối thoát, vượt qua."
+          ]
+        },
+        {
+          "id": "neutral",
+          "kind": "teaching",
+          "heading": "Không khổ không vui cũng chưa phải hết bám",
+          "meaningUnits": [
+            "neutral",
+            "shade-neutral",
+            "knows-neutral",
+            "escape-neutral"
+          ],
+          "paragraphs": [
+            "Người khác bỏ hai nhóm chấp về quá khứ, đời sau, hoàn toàn không chú tâm mối buộc của dục; vượt hỷ do viễn ly và lạc phi vật chất, vào và ở trong cảm giác không khổ không vui. Người ấy cũng gọi đó là yên và cao quý.",
+            "Cảm giác ấy hết thì lạc phi vật chất sinh; lạc ấy hết thì cảm giác không khổ không vui sinh. Như bóng mát và nắng thay chỗ nhau theo cả hai chiều. Phật nhắc đủ điều kiện, trạng thái, lời tán thán và sự thay nhau ấy. Ngài biết chúng do điều kiện tạo nên, còn thô; có sự chấm dứt các hành là thật. Thấy lối thoát, Ngài đã vượt qua."
+          ]
+        },
+        {
+          "id": "claim-peace",
+          "kind": "teaching",
+          "heading": "Có thể còn bám vào ý nghĩ mình đã hết bám",
+          "meaningUnits": [
+            "peace-claim",
+            "suitable-path",
+            "grasping",
+            "escape-grasping"
+          ],
+          "paragraphs": [
+            "Có người bỏ các chấp về quá khứ, đời sau, hoàn toàn không chú tâm những mối buộc do dục và vượt cả ba trạng thái vừa kể. Người ấy nhìn mình như đã yên, đã dập tắt khổ, đã không còn bám giữ.",
+            "Phật biết và nhắc lại các điều kiện cùng ba điều người ấy tự nhận. Ngài công nhận người ấy nói về con đường thích hợp với Niết-bàn. Tuy vậy, người ấy vẫn bám giữ: có thể bám ý kiến về quá khứ, ý kiến về đời sau, mối buộc của dục, hỷ do viễn ly, lạc phi vật chất hoặc cảm giác không khổ không vui. Ngay việc nhìn mình là đã yên, đã dập tắt, đã hết bám cũng được gọi là một sự bám giữ.",
+            "Phật lại biết chừng ấy do điều kiện tạo nên, còn thô; có sự chấm dứt các hành thật sự. Biết rõ và thấy lối thoát, Ngài đã vượt qua. Nói đúng về con đường chưa đủ để tự nhận đã đi hết đường."
+          ]
+        },
+        {
+          "id": "freedom",
+          "kind": "teaching",
+          "heading": "Biết rõ và không nắm giữ",
+          "meaningUnits": [
+            "ungrasped",
+            "close"
+          ],
+          "paragraphs": [
+            "Sự an tịnh cao nhất mà Phật giác ngộ là giải thoát không chấp thủ. Ngài biết đúng sáu nơi tiếp xúc — qua mắt, tai, mũi, lưỡi, thân và ý — về cách chúng sinh lên, mất đi, sức hấp dẫn, mặt nguy hại và lối ra khỏi chúng.",
+            "Phật dạy xong, các tỳ-kheo vui thích và tán đồng. Kinh Năm và Ba, bài thứ hai trong nhóm này, kết thúc."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ biên tập: giữ chặt câu mình đã nói",
+          "meaningUnits": [
+            "knowledge-eternal",
+            "grasping"
+          ],
+          "paragraphs": [
+            "Em đoán đội mình sẽ thắng một trò chơi, rồi cứ muốn mọi người phải đồng ý vì em đã nói trước. Lúc ấy có thể em đang giữ câu của mình hơn là nhìn điều đang diễn ra. Đây là ví dụ nhỏ do người biên tập đặt thêm để hiểu việc bám một nhận định; nó không diễn tả đầy đủ các trạng thái tu tập sâu trong kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Tập nhận ra một ý muốn giữ",
+          "meaningUnits": [
+            "grasping",
+            "ungrasped"
+          ],
+          "paragraphs": [
+            "Gợi ý của người biên tập: khi ý nghĩ “chỉ mình đúng” xuất hiện, em có thể nghe bạn nói hết, rồi xem điều mình biết và điều mình mới đoán. Nếu thấy mình còn muốn cãi, chỉ cần nhận ra, chưa cần tự khen rằng mình đã hết bám giữ. Đó là bước nhỏ để học nhìn lại lòng mình, không phải chứng nhận đã giải thoát."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "MN102 cho người trưởng thành — Thấy cả chỗ bám vào sự an tĩnh",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Từ hệ thống quan điểm đến sự không chấp thủ",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "five",
+            "three"
+          ],
+          "paragraphs": [
+            "Kinh Năm và Ba, MN102, được kể là lời đã nghe khi Đức Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những người nam xuất gia; các vị đáp lời. Bài giảng khảo sát các chủ trương về tự ngã và thế giới, rồi đi tới giải thoát không chấp thủ.",
+            "Các sa-môn, người sống đời tu, và bà-la-môn, người thuộc truyền thống học kinh và nghi lễ, đưa ra năm nhóm suy đoán về đời sau. Ba nhóm đầu cho tự ngã, cái ta được giả định là thực thể của mình, không bệnh sau chết: hữu tưởng, vô tưởng, hoặc phi tưởng phi phi tưởng. Tưởng là sự nhận biết đặc điểm; ba chủ trương lần lượt nói có tưởng, không tưởng, không phải có cũng không phải không. Hai nhóm kia chủ trương chúng sinh hiện hữu bị đoạn diệt, hủy hoại, không còn tồn tại; hoặc Niết-bàn, sự chấm dứt khổ, ngay hiện tại.",
+            "Gộp ba nhóm đầu thành một, còn ba hướng: tự ngã tồn tại không bệnh sau chết; chúng sinh bị tiêu mất; Niết-bàn hiện tại. Năm thành ba, ba thành năm: đó là tổng thuyết của tên kinh. Những tuyên bố Niết-bàn ở đây vẫn thuộc phần đang được khảo sát."
+          ]
+        },
+        {
+          "id": "percipient",
+          "kind": "teaching",
+          "heading": "Hữu tưởng và những trạng thái được xem là tối thượng",
+          "meaningUnits": [
+            "percipient",
+            "knows-perception",
+            "escape-perception"
+          ],
+          "paragraphs": [
+            "Tự ngã hữu tưởng, không bệnh sau chết được mô tả bằng tám cách: có sắc, không sắc, cả hai hoặc không cả hai; nhất tưởng, dị tưởng, tưởng có giới hạn hoặc vô lượng. Sắc chỉ mặt hình thể, vật chất; nhất và dị tưởng chỉ sự thống nhất và khác biệt của tưởng. Một số vượt các chủ trương ấy, nêu thức biến, sự biết bao trùm, là vô lượng và bất động.",
+            "Như Lai, danh xưng của Đức Phật, biết rõ tám cách nói đó, biết tưởng nào được gọi thanh tịnh, tối thắng, đệ nhất, vô thượng trong sắc tưởng, vô sắc tưởng, nhất tưởng, dị tưởng. Một số nghĩ không có gì cả, nêu vô sở hữu xứ là vô lượng, bất động.",
+            "Ngài biết chừng ấy là hữu vi, do điều kiện tạo nên, còn thô; có sự đoạn diệt các hành, những gì được tạo tác theo điều kiện, và điều ấy là thật. Nhờ biết rõ, thấy lối thoát, Như Lai đã vượt qua điều ấy. Sự đánh giá này không đồng nhất một trạng thái cao với giải thoát sau cùng."
+          ]
+        },
+        {
+          "id": "nonperception",
+          "kind": "teaching",
+          "heading": "Vô tưởng và quan hệ của thức với các nhóm kinh nghiệm",
+          "meaningUnits": [
+            "nonpercipient",
+            "reject-perception",
+            "knows-nonperception",
+            "consciousness",
+            "escape-nonperception"
+          ],
+          "paragraphs": [
+            "Nhóm vô tưởng cũng chia tự ngã không bệnh sau chết theo bốn dạng có sắc, không sắc, cả hai hoặc không cả hai. Họ bác nhóm hữu tưởng vì cho tưởng là bệnh, mụn nhọt, mũi tên; vô tưởng mới tịch tịnh, thù thắng.",
+            "Như Lai biết và nhắc lại bốn dạng ấy. Ngài nói không thể trình bày sự đến, đi, chết, tái sinh, tăng trưởng, lớn lên và viên mãn của thức ngoài sắc, thọ, tưởng, hành. Ở đây, thức là sự hay biết; thọ là cảm giác; hành là các hoạt động tạo tác của tâm. Không thể tách sự hay biết ra khỏi bốn nhóm kia để tuyên bố tiến trình của nó.",
+            "Chừng ấy vẫn hữu vi, còn thô; sự đoạn diệt các hành là thật. Biết và thấy lối thoát, Như Lai đã vượt qua."
+          ]
+        },
+        {
+          "id": "neither",
+          "kind": "teaching",
+          "heading": "Phi tưởng phi phi tưởng vẫn còn tàn dư",
+          "meaningUnits": [
+            "neither",
+            "reject-both",
+            "knows-neither",
+            "residue",
+            "escape-neither"
+          ],
+          "paragraphs": [
+            "Nhóm phi tưởng phi phi tưởng chủ trương tự ngã không bệnh sau chết, theo bốn dạng sắc, vô sắc, cả hai hoặc không cả hai. Họ bác cả hữu tưởng và vô tưởng: tưởng là bệnh, mụn nhọt, mũi tên; vô tưởng là si mê; phi tưởng phi phi tưởng mới an tịnh và thù thắng.",
+            "Như Lai biết cả bốn dạng ấy. Ngài chỉ ra rằng chủ trương đạt xứ này chỉ bằng những hành thuộc điều cần được thấy, nghe, cảm nhận và nhận biết là tai hại cho chứng nhập. Xứ ấy không đạt bằng sự chứng nhập các hành, mà bằng sự chứng nhập còn tàn dư các hành.",
+            "Vì vậy, chừng ấy vẫn hữu vi, còn thô; sự đoạn diệt các hành là thật. Như Lai biết, thấy đường thoát và đã vượt qua. Phần dư ấy không được biến thành lời xác nhận các hành đã hết sạch."
+          ]
+        },
+        {
+          "id": "annihilation",
+          "kind": "teaching",
+          "heading": "Phản đối sự tồn tại vẫn có thể xoay quanh hữu thân",
+          "meaningUnits": [
+            "annihilation",
+            "trader",
+            "dog",
+            "escape-annihilation",
+            "future-summary"
+          ],
+          "paragraphs": [
+            "Người chủ trương đoạn diệt chúng sinh đang có bác cả ba loại tự ngã không bệnh sau chết. Họ cho những người kia chỉ ái luyến hướng tới một hiện hữu về sau: sau chết sẽ thế này, thế kia. Lập luận ấy ví với thương nhân đi buôn, tính từ món này sẽ có món kia, dùng món này để được món kia. Ví được đặt trong mạch phản bác của nhóm đoạn diệt.",
+            "Như Lai biết rằng vì sợ và ghét hữu thân, chính họ vẫn chạy theo, xoay quanh hữu thân. Hữu thân ở đây là thân tâm đang bị chấp giữ như mình, không chỉ một quan điểm trừu tượng. Như chó bị xích vào cột hay cọc chắc, chạy thế nào vẫn quanh cột, cọc; người sợ và ghét hữu thân cũng tiếp tục xoay quanh nó.",
+            "Ngài biết chừng ấy vẫn hữu vi, còn thô; có sự đoạn diệt các hành là thật. Biết và thấy lối thoát, Ngài đã vượt qua. Những người suy đoán và quyết đoán đời sau ấy đều nói năm xứ này, hoặc một trong số đó."
+          ]
+        },
+        {
+          "id": "past",
+          "kind": "teaching",
+          "heading": "Mười sáu lời quả quyết về quá khứ",
+          "meaningUnits": [
+            "past-time",
+            "past-limit",
+            "past-perception",
+            "past-feeling"
+          ],
+          "paragraphs": [
+            "Các chủ trương về quá khứ mô tả tự ngã và thế giới qua bốn nhóm. Về thời gian: thường còn, không thường còn, vừa thường vừa không, không thuộc cả hai. Về giới hạn: hữu hạn, vô hạn, cả hai, không cả hai.",
+            "Về tưởng: thống nhất, khác biệt, giới hạn, vô lượng. Về cảm thọ: chỉ lạc, nghĩa là an vui; chỉ khổ; có lạc có khổ; không khổ không lạc. Mỗi một trong mười sáu chủ trương đều kèm sự khẳng định chỉ đây là thật, mọi điều khác là hư vọng."
+          ]
+        },
+        {
+          "id": "grounds",
+          "kind": "teaching",
+          "heading": "Phần biết vẫn có thể thành chỗ chấp giữ",
+          "meaningUnits": [
+            "knowledge-eternal",
+            "escape-eternal",
+            "knowledge-others",
+            "escape-others"
+          ],
+          "paragraphs": [
+            "Với người quả quyết tự ngã và thế giới thường còn, Phật xét năm căn cứ: lòng tin, sự ưa thích, truyền khẩu, suy luận và chấp nhận một quan điểm sau cân nhắc. Ngoài các căn cứ ấy, họ không thể có tri kiến tự mình thanh tịnh, trong sáng về lời quả quyết này. Khi không có sự biết trực tiếp ấy, ngay phần ít ỏi họ làm sáng lên cũng được gọi là chấp thủ.",
+            "Như Lai biết chừng ấy hữu vi, còn thô; có đoạn diệt các hành là thật. Biết và thấy lối thoát, Ngài đã vượt qua. Cách xét ấy tiếp tục với mười lăm thuyết: ba cách còn lại về thời gian, đủ bốn về giới hạn, bốn về tưởng và bốn về vui khổ. Từng lời tự nhận duy nhất đúng cũng được xét bằng năm căn cứ, sự thiếu tri kiến trong sạch và phần biết trở thành chấp thủ. Ngài lại biết, thấy thoát và vượt những gì hữu vi ấy, vì có sự đoạn diệt các hành thật sự."
+          ]
+        },
+        {
+          "id": "rapture",
+          "kind": "teaching",
+          "heading": "Niềm hỷ do xa lìa vẫn có điều kiện",
+          "meaningUnits": [
+            "rapture",
+            "shade-rapture",
+            "knows-rapture",
+            "escape-rapture"
+          ],
+          "paragraphs": [
+            "Một người bỏ các quan điểm về quá khứ và tương lai, hoàn toàn không hướng tâm vào những trói buộc của dục, tức ham muốn giác quan, đạt và an trú trong hỷ do xa lìa. Hỷ là niềm vui phấn chấn; người ấy cho đây là tịch tịnh, thù thắng. Nhưng khi hỷ này chấm dứt, ưu, sự buồn phiền, sinh; khi ưu chấm dứt, hỷ do xa lìa lại sinh.",
+            "Kinh ví với bóng râm và ánh nắng: chỗ nào bóng râm rời đi thì nắng tràn đến; chỗ nào nắng rời đi thì bóng râm tràn đến. Ví diễn tả sự thay phiên, không gọi bóng râm là một tầng chứng đắc.",
+            "Như Lai biết đầy đủ cả việc bỏ hai phía quan điểm, không hướng tâm vào dục, việc đạt hỷ, lời tôn xưng nó và sự thay phiên với ưu. Chừng ấy vẫn hữu vi, còn thô; có sự đoạn diệt các hành là thật. Ngài biết, thấy lối thoát và đã vượt qua."
+          ]
+        },
+        {
+          "id": "nonmaterial",
+          "kind": "teaching",
+          "heading": "An lạc không dựa vào dục vẫn chưa phải điểm dừng",
+          "meaningUnits": [
+            "nonmaterial",
+            "shade-nonmaterial",
+            "knows-nonmaterial",
+            "escape-nonmaterial"
+          ],
+          "paragraphs": [
+            "Người tiếp theo cũng bỏ quan điểm quá khứ, tương lai, hoàn toàn không hướng tâm vào trói buộc của dục; vượt hỷ do xa lìa rồi đạt và an trú trong lạc không thuộc vật chất, niềm dễ chịu không dựa vào dục. Người ấy gọi đó là tịch tịnh, thù thắng. Khi lạc này chấm dứt, hỷ do xa lìa sinh; khi hỷ ấy chấm dứt, lạc không thuộc vật chất lại sinh.",
+            "Ví bóng râm và nắng xuất hiện lần nữa, đủ hai chiều: bóng râm rời chỗ nào thì nắng tràn đến đó; nắng rời chỗ nào thì bóng râm tràn đến đó. Một trạng thái vắng đi khi trạng thái kia hiện.",
+            "Như Lai biết việc người ấy bỏ hai phía quan điểm, không hướng tâm vào dục, vượt hỷ rồi hưởng lạc, cũng biết lời tự nhận và sự thay phiên của lạc với hỷ. Ngài biết chừng ấy hữu vi, còn thô; sự đoạn diệt các hành là thật. Biết và thấy lối thoát, Ngài đã vượt qua."
+          ]
+        },
+        {
+          "id": "neutral",
+          "kind": "teaching",
+          "heading": "Không khổ không lạc vẫn cần được biết đúng",
+          "meaningUnits": [
+            "neutral",
+            "shade-neutral",
+            "knows-neutral",
+            "escape-neutral"
+          ],
+          "paragraphs": [
+            "Người thứ ba bỏ quan điểm quá khứ và tương lai, hoàn toàn không hướng tâm vào trói buộc của dục, vượt hỷ do xa lìa và lạc không thuộc vật chất; đạt và an trú trong thọ không khổ không lạc. Người ấy gọi đó là tịch tịnh, thù thắng. Khi thọ trung tính này chấm dứt, lạc không thuộc vật chất sinh; khi lạc ấy chấm dứt, thọ không khổ không lạc lại sinh.",
+            "Kinh lại dùng đủ hai chiều của ví: nơi bóng râm rời đi thì nắng tràn đến; nơi nắng rời đi thì bóng râm tràn đến. Sự thay phiên này cho thấy ngay trạng thái không vui không khổ cũng chưa được lấy làm kết luận sau cùng.",
+            "Như Lai biết cả việc bỏ quan điểm hai phía, không hướng tâm vào dục, vượt hỷ và lạc, việc đạt thọ trung tính, sự tôn xưng nó và sự thay phiên với lạc. Chừng ấy vẫn hữu vi, còn thô; có sự đoạn diệt các hành là thật. Biết và thấy lối thoát, Ngài đã vượt qua."
+          ]
+        },
+        {
+          "id": "claim",
+          "kind": "teaching",
+          "heading": "Lời “tôi không chấp thủ” có thể giữ lại một chỗ chấp",
+          "meaningUnits": [
+            "peace-claim",
+            "suitable-path",
+            "grasping",
+            "escape-grasping"
+          ],
+          "paragraphs": [
+            "Người tiếp nữa bỏ quan điểm quá khứ, tương lai, hoàn toàn không hướng tâm vào trói buộc của dục, vượt hỷ do xa lìa, lạc không thuộc vật chất và thọ không khổ không lạc. Người ấy xem mình là tịch tịnh, đã tắt lửa, không chấp thủ.",
+            "Như Lai biết và nhắc lại đầy đủ tiến trình ấy. Ngài thừa nhận người ấy nói về con đường thích hợp hướng tới Niết-bàn. Tuy vậy, người ấy vẫn chấp thủ quan điểm quá khứ, hoặc tương lai, hoặc trói buộc của dục, hoặc hỷ do xa lìa, hoặc lạc không thuộc vật chất, hoặc thọ không khổ không lạc. Các khả năng này được nêu theo từng “hoặc”, không buộc mọi thứ cùng có mặt.",
+            "Ngay việc người ấy cho mình tịch tịnh, đã tắt lửa, không chấp thủ cũng được gọi là chấp thủ. Như Lai biết chừng ấy hữu vi, còn thô; sự đoạn diệt các hành là thật. Biết và thấy lối thoát, Ngài đã vượt qua. Một lời tự đánh giá cao không thay thế sự hết nắm giữ."
+          ]
+        },
+        {
+          "id": "ungrasped",
+          "kind": "teaching",
+          "heading": "Giải thoát bằng biết rõ sáu chỗ tiếp xúc",
+          "meaningUnits": [
+            "ungrasped",
+            "close"
+          ],
+          "paragraphs": [
+            "Đức Phật kết lại bằng tịch tịnh vô thượng, tối thắng mà Như Lai đã giác ngộ. Ngài biết như thật sự sinh khởi, sự mất đi, vị ngọt, nguy hại và sự thoát ly của sáu lĩnh vực xúc; do vậy giải thoát không chấp thủ. Xúc là sự tiếp xúc trong kinh nghiệm thấy, nghe, ngửi, nếm, chạm và biết bằng tâm. Vị ngọt là sức hấp dẫn; nguy hại là mặt gây hệ lụy; thoát ly là không còn bị nắm giữ bởi đó.",
+            "Khi Phật giảng xong, các tỳ-kheo hoan hỷ đón nhận. Kinh Năm và Ba, bài thứ hai trong nhóm kinh này, kết thúc."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: chiếc nhãn “tôi đã rất bình thản”",
+          "meaningUnits": [
+            "peace-claim",
+            "grasping",
+            "ungrasped"
+          ],
+          "paragraphs": [
+            "Ví dụ hiện đại, không phải chuyện trong kinh: sau một khóa nghỉ yên tĩnh, một người quản lý tin mình đã trở thành người không bao giờ bị cuốn theo cảm xúc. Khi đồng nghiệp góp ý, họ thấy khó chịu vì lời góp ý đụng vào chiếc nhãn ấy. Một khoảng dễ chịu có thể có giá trị, nhưng sự bám chặt vào hình ảnh bản thân vẫn cần được nhận ra.",
+            "Ví dụ chỉ minh họa việc giữ một lời tự nhận và cách quan sát kinh nghiệm. Kỳ nghỉ, khả năng làm việc hay sự bực mình thông thường không được dùng để xác định các chứng đạt mà bài kinh bàn đến."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một cách tập quan sát vừa sức",
+          "meaningUnits": [
+            "knowledge-eternal",
+            "rapture",
+            "nonmaterial",
+            "neutral",
+            "grasping",
+            "ungrasped"
+          ],
+          "paragraphs": [
+            "Gợi ý biên tập: khi một ý kiến khiến mình muốn khẳng định chắc chắn, thử gọi tên căn cứ đang có: tin, thích, nghe truyền lại, suy luận hay chấp nhận sau cân nhắc. Việc nhận diện giúp lời nói đúng với mức hiểu hiện tại; bài tập không tự đem lại tri kiến giải thoát.",
+            "Với một tiếp xúc nhẹ nhàng trong ngày, như đọc một tin nhắn, hãy quan sát nó khởi lên ra sao, thay đổi thế nào, có gì hấp dẫn, có hệ lụy nào, và điều gì giúp mình bớt nắm giữ. Nếu thấy dễ chịu hoặc trung tính, chỉ ghi nhận; không cần cố tạo hay kéo dài trạng thái. Đây là gợi ý ứng dụng giới hạn, không phải chỉ dẫn tự chứng các xứ thiền hoặc lời xác nhận Niết-bàn."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "MN102 cho người lớn tuổi — An tĩnh và sự không nắm giữ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Đọc chậm lời kinh về điều mình nắm giữ",
+          "meaningUnits": [
+            "identity",
+            "setting"
+          ],
+          "paragraphs": [
+            "MN102 mang tên Kinh Năm và Ba. Lời kể mở đầu rằng người kể đã nghe như vầy: Đức Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những vị nam xuất gia, và các vị đáp lời. Bài giảng giúp nhìn kỹ những quan điểm và trạng thái an tĩnh mà con người có thể nắm giữ."
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Năm nhóm được gộp thành ba",
+          "meaningUnits": [
+            "five",
+            "three"
+          ],
+          "paragraphs": [
+            "Các sa-môn, người sống đời tu, và bà-la-môn, thuộc truyền thống học kinh, nghi lễ, nêu năm nhóm ý kiến về sau khi chết. Ba nhóm đầu cho tự ngã, cái ta được giả định tồn tại như thực thể của mình, sẽ không bệnh: có tưởng, không có tưởng, hoặc không phải có tưởng cũng không phải không có tưởng. Tưởng là sự nhận biết các đặc điểm.",
+            "Nhóm thứ tư cho chúng sinh đang hiện hữu sẽ bị đoạn diệt, hủy hoại, không còn tồn tại. Nhóm thứ năm tuyên bố Niết-bàn, sự chấm dứt khổ, ngay hiện tại. Gộp ba nhóm đầu thành một, còn ba hướng: cái ta tiếp tục tồn tại không bệnh; chúng sinh bị tiêu mất; Niết-bàn hiện tại. Đó là cách năm thành ba, ba thành năm. Lời tự nhận Niết-bàn còn phải được xem xét trong bài."
+          ]
+        },
+        {
+          "id": "percipient",
+          "kind": "teaching",
+          "heading": "Ý kiến về cái ta còn tưởng",
+          "meaningUnits": [
+            "percipient"
+          ],
+          "paragraphs": [
+            "Nhóm hữu tưởng, nghĩa là có tưởng, mô tả cái ta không bệnh sau chết bằng tám cách. Bốn cách về sắc, hình thể vật chất: có sắc, không sắc, vừa có vừa không, không thuộc cả hai. Bốn cách về tưởng: thống nhất, khác biệt, có giới hạn, vô lượng.",
+            "Một số đi xa hơn các ý kiến ấy: họ nêu thức biến, sự biết bao trùm, là vô lượng và bất động."
+          ]
+        },
+        {
+          "id": "perception-knowing",
+          "kind": "teaching",
+          "heading": "Biết một trạng thái cao chưa phải hết nắm giữ",
+          "meaningUnits": [
+            "knows-perception",
+            "escape-perception"
+          ],
+          "paragraphs": [
+            "Như Lai, danh xưng của Đức Phật, biết rõ cả tám ý kiến. Ngài biết tưởng nào được gọi thanh tịnh, tối thắng, đệ nhất, vô thượng trong sắc tưởng, vô sắc tưởng, nhất tưởng và dị tưởng. Một số nghĩ không có gì cả, nêu vô sở hữu xứ là vô lượng, bất động.",
+            "Như Lai biết chừng ấy là hữu vi, do điều kiện tạo nên, còn thô. Có sự đoạn diệt các hành, những gì do điều kiện tạo tác, và điều ấy là thật. Biết rõ, thấy lối thoát, Ngài đã vượt qua. Ta cần giữ cả phần “có lối thoát”, không chỉ phần nhận ra sự còn giới hạn."
+          ]
+        },
+        {
+          "id": "nonperception",
+          "kind": "teaching",
+          "heading": "Ý kiến về cái ta không tưởng",
+          "meaningUnits": [
+            "nonpercipient",
+            "reject-perception",
+            "knows-nonperception"
+          ],
+          "paragraphs": [
+            "Nhóm vô tưởng cho cái ta sau chết không bệnh và không có tưởng. Họ cũng nêu bốn dạng: có sắc, không sắc, cả hai, hoặc không cả hai. Nhóm này bác chủ trương hữu tưởng: họ cho tưởng là bệnh, mụn nhọt, mũi tên; vô tưởng mới yên tĩnh, thù thắng.",
+            "Đức Phật biết và nhắc lại đủ bốn dạng của nhóm vô tưởng."
+          ]
+        },
+        {
+          "id": "consciousness",
+          "kind": "teaching",
+          "heading": "Không tách sự biết khỏi các nhóm kinh nghiệm",
+          "meaningUnits": [
+            "consciousness",
+            "escape-nonperception"
+          ],
+          "paragraphs": [
+            "Ngài nói không thể trình bày sự đến, đi, chết, tái sinh, tăng trưởng, lớn lên và viên mãn của thức ngoài sắc, thọ, tưởng, hành. Thức là sự hay biết; sắc là vật chất; thọ là cảm giác; tưởng là nhận biết đặc điểm; hành là hoạt động tạo tác của tâm. Câu này nói về thức trong quan hệ với bốn nhóm kia.",
+            "Chừng ấy vẫn hữu vi, còn thô. Có sự đoạn diệt các hành là thật. Như Lai biết, thấy lối thoát và đã vượt qua."
+          ]
+        },
+        {
+          "id": "neither",
+          "kind": "teaching",
+          "heading": "Không phải có tưởng cũng không phải không có tưởng",
+          "meaningUnits": [
+            "neither",
+            "reject-both",
+            "knows-neither"
+          ],
+          "paragraphs": [
+            "Nhóm phi tưởng phi phi tưởng cũng nói cái ta không bệnh sau chết, theo bốn dạng có sắc, không sắc, cả hai, không cả hai. Họ bác cả hai nhóm trước: tưởng là bệnh, mụn nhọt, mũi tên; vô tưởng là si mê; phi tưởng phi phi tưởng mới tịch tịnh, thù thắng.",
+            "Đức Phật biết rõ bốn dạng chủ trương của nhóm này. Danh từ dài có thể đọc chậm: không phải có tưởng, cũng không phải không có tưởng."
+          ]
+        },
+        {
+          "id": "residue",
+          "kind": "teaching",
+          "heading": "Phần còn lại chưa phải sự chấm dứt hoàn toàn",
+          "meaningUnits": [
+            "residue",
+            "escape-neither"
+          ],
+          "paragraphs": [
+            "Ngài chỉ ra rằng mong đạt xứ ấy chỉ nhờ những hành thuộc điều cần được thấy, nghe, cảm nhận, nhận biết là cách tai hại cho chứng nhập. Xứ ấy không đạt bằng sự chứng nhập các hành, mà bằng sự chứng nhập còn tàn dư các hành. Vẫn có phần dư, không thể nói các hành đã hết sạch.",
+            "Như Lai biết chừng ấy hữu vi, còn thô; sự đoạn diệt các hành là thật. Biết và thấy đường thoát, Ngài đã vượt qua."
+          ]
+        },
+        {
+          "id": "annihilation",
+          "kind": "teaching",
+          "heading": "Khi phản đối cũng còn xoay quanh điều mình sợ",
+          "meaningUnits": [
+            "annihilation",
+            "trader"
+          ],
+          "paragraphs": [
+            "Nhóm chủ trương chúng sinh bị tiêu mất bác cả ba cách nói cái ta tiếp tục không bệnh sau chết. Họ cho những người ấy chỉ ái luyến hướng đến đời sau: sẽ thế này, sẽ thế kia.",
+            "Trong mạch lập luận của nhóm đoạn diệt có ví người buôn bán: từ món này sẽ có món kia, dùng món này để được món kia. Ví chỉ sự mong thu lấy một điều về sau."
+          ]
+        },
+        {
+          "id": "dog",
+          "kind": "teaching",
+          "heading": "Con chó và chiếc cọc",
+          "meaningUnits": [
+            "dog",
+            "escape-annihilation",
+            "future-summary"
+          ],
+          "paragraphs": [
+            "Đức Phật nhận ra nhóm đoạn diệt sợ và ghét hữu thân nhưng vẫn chạy theo, xoay quanh hữu thân. Hữu thân ở đây là thân tâm đang bị chấp giữ như mình. Kinh ví con chó bị buộc vào cột hay cọc chắc: chạy tới chạy lui vẫn quanh đó. Sợ và ghét hữu thân cũng chưa đưa người ấy ra khỏi vòng xoay ấy.",
+            "Như Lai biết chừng ấy hữu vi, còn thô; có sự đoạn diệt các hành là thật. Biết, thấy lối thoát, Ngài đã vượt qua. Những người suy đoán, quyết đoán chuyện đời sau đều nói năm nhóm ấy, hoặc một trong số đó."
+          ]
+        },
+        {
+          "id": "past-first",
+          "kind": "teaching",
+          "heading": "Những lời quả quyết về tự ngã và thế giới",
+          "meaningUnits": [
+            "past-time",
+            "past-limit"
+          ],
+          "paragraphs": [
+            "Kinh chuyển sang mười sáu quan điểm về quá khứ. Bốn cách về thời gian là: tự ngã và thế giới thường còn, không thường còn, cả hai, không cả hai. Bốn cách về giới hạn là: hữu hạn, vô hạn, cả hai, không cả hai."
+          ]
+        },
+        {
+          "id": "past-next",
+          "kind": "teaching",
+          "heading": "Mười sáu ý kiến đều nhận riêng mình đúng",
+          "meaningUnits": [
+            "past-perception",
+            "past-feeling"
+          ],
+          "paragraphs": [
+            "Bốn cách về tưởng là: thống nhất, khác biệt, có giới hạn, vô lượng. Bốn cách về cảm thọ là: chỉ lạc, nghĩa là an vui; chỉ khổ; có cả lạc lẫn khổ; không khổ không lạc. Mỗi một trong mười sáu ý kiến đều quả quyết chỉ điều này là thật, mọi điều khác đều sai."
+          ]
+        },
+        {
+          "id": "knowledge",
+          "kind": "teaching",
+          "heading": "Lòng tin và sự biết trực tiếp",
+          "meaningUnits": [
+            "knowledge-eternal",
+            "escape-eternal"
+          ],
+          "paragraphs": [
+            "Với người quả quyết tự ngã và thế giới thường còn, Đức Phật xét năm căn cứ: lòng tin, sự ưa thích, điều nghe truyền lại, suy luận, hoặc chấp nhận một quan điểm sau cân nhắc. Ngoài những căn cứ đó, người ấy không thể có tri kiến tự mình thanh tịnh, trong sáng về lời quả quyết ấy. Khi thiếu sự biết trực tiếp, ngay phần ít ỏi làm sáng lên cũng được gọi là chấp thủ.",
+            "Như Lai biết chừng ấy hữu vi, còn thô. Có sự đoạn diệt các hành là thật. Biết và thấy lối thoát, Ngài đã vượt qua."
+          ]
+        },
+        {
+          "id": "other-knowledge",
+          "kind": "teaching",
+          "heading": "Cách xét ấy áp dụng cho các quan điểm còn lại",
+          "meaningUnits": [
+            "knowledge-others",
+            "escape-others"
+          ],
+          "paragraphs": [
+            "Mười lăm ý kiến còn lại cũng được xét như vậy: ba cách khác về thời gian, bốn về giới hạn, bốn về tưởng, bốn về vui khổ. Người quả quyết đều không thể có tri kiến tự mình thanh tịnh, trong sáng ngoài năm căn cứ vừa kể. Phần biết ít ỏi mà họ giữ lấy cũng được gọi là chấp thủ.",
+            "Như Lai biết chừng ấy hữu vi, còn thô; có sự đoạn diệt các hành là thật. Biết, thấy lối thoát, Ngài đã vượt qua."
+          ]
+        },
+        {
+          "id": "rapture",
+          "kind": "teaching",
+          "heading": "Niềm vui do xa lìa và sự thay phiên",
+          "meaningUnits": [
+            "rapture",
+            "shade-rapture"
+          ],
+          "paragraphs": [
+            "Một người bỏ quan điểm về quá khứ và tương lai, hoàn toàn không hướng tâm vào trói buộc của dục, tức ham muốn giác quan, đạt và an trú trong hỷ do xa lìa. Hỷ là niềm vui phấn chấn. Người ấy gọi đây là tịch tịnh, thù thắng. Khi hỷ ấy chấm dứt thì ưu, sự buồn phiền, sinh; khi ưu chấm dứt thì hỷ ấy lại sinh.",
+            "Giống như ở chỗ nào bóng râm rời đi thì nắng tràn đến. Ở chỗ nào nắng rời đi thì bóng râm tràn đến. Kinh dùng cả hai chiều để nói sự thay phiên."
+          ]
+        },
+        {
+          "id": "rapture-knowing",
+          "kind": "teaching",
+          "heading": "Biết cả điều dễ chịu lẫn sự đổi thay của nó",
+          "meaningUnits": [
+            "knows-rapture",
+            "escape-rapture"
+          ],
+          "paragraphs": [
+            "Đức Phật biết đầy đủ việc người ấy bỏ quan điểm hai phía, không hướng tâm vào dục, đạt hỷ, gọi nó là tịch tịnh, thù thắng, rồi có sự thay phiên giữa hỷ và ưu. Ngài biết chừng ấy hữu vi, còn thô; có sự đoạn diệt các hành là thật. Nhờ biết và thấy lối thoát, Ngài đã vượt qua."
+          ]
+        },
+        {
+          "id": "nonmaterial",
+          "kind": "teaching",
+          "heading": "Niềm an lạc không dựa vào dục",
+          "meaningUnits": [
+            "nonmaterial",
+            "shade-nonmaterial"
+          ],
+          "paragraphs": [
+            "Người khác cũng bỏ quan điểm quá khứ, tương lai, hoàn toàn không hướng tâm vào trói buộc của dục; vượt hỷ do xa lìa, đạt và an trú trong lạc không thuộc vật chất, niềm dễ chịu không dựa vào dục. Người ấy gọi đó là tịch tịnh, thù thắng. Khi lạc ấy chấm dứt, hỷ do xa lìa sinh; khi hỷ ấy chấm dứt, lạc không thuộc vật chất lại sinh.",
+            "Kinh lại ví hai chiều nắng và râm: râm rời chỗ nào thì nắng tràn đến đó; nắng rời chỗ nào thì râm tràn đến đó. Trạng thái này vắng khi trạng thái kia có mặt."
+          ]
+        },
+        {
+          "id": "nonmaterial-knowing",
+          "kind": "teaching",
+          "heading": "Không lấy sự an lạc làm lời kết vội",
+          "meaningUnits": [
+            "knows-nonmaterial",
+            "escape-nonmaterial"
+          ],
+          "paragraphs": [
+            "Như Lai biết cả việc bỏ quan điểm hai phía, không hướng tâm vào dục, vượt hỷ để đạt lạc, lời tôn xưng trạng thái ấy và sự thay phiên lạc với hỷ. Chừng ấy hữu vi, còn thô. Có sự đoạn diệt các hành là thật; biết, thấy đường thoát, Ngài đã vượt qua."
+          ]
+        },
+        {
+          "id": "neutral",
+          "kind": "teaching",
+          "heading": "Cảm giác không khổ không lạc",
+          "meaningUnits": [
+            "neutral",
+            "shade-neutral"
+          ],
+          "paragraphs": [
+            "Người thứ ba bỏ quan điểm quá khứ, tương lai, hoàn toàn không hướng tâm vào trói buộc của dục; vượt hỷ do xa lìa và lạc không thuộc vật chất, đạt và an trú trong thọ không khổ không lạc. Người ấy gọi đây là tịch tịnh, thù thắng. Khi thọ này chấm dứt, lạc không thuộc vật chất sinh; khi lạc ấy chấm dứt, thọ không khổ không lạc lại sinh.",
+            "Lần nữa, ví nắng và râm giữ đủ hai chiều: nơi râm rời đi thì nắng tràn đến; nơi nắng rời đi thì râm tràn đến. Không vui không khổ vẫn nằm trong tiến trình thay đổi được nêu ở đây."
+          ]
+        },
+        {
+          "id": "neutral-knowing",
+          "kind": "teaching",
+          "heading": "Như Lai biết rõ cả trạng thái trung tính",
+          "meaningUnits": [
+            "knows-neutral",
+            "escape-neutral"
+          ],
+          "paragraphs": [
+            "Như Lai biết việc người ấy bỏ quan điểm hai phía, không hướng tâm vào dục, vượt hỷ và lạc, đạt thọ trung tính, tự nhận tịch tịnh, thù thắng, và có sự thay phiên giữa thọ này với lạc. Chừng ấy vẫn hữu vi, còn thô; có sự đoạn diệt các hành là thật. Biết, thấy lối thoát, Ngài đã vượt qua."
+          ]
+        },
+        {
+          "id": "peace-claim",
+          "kind": "teaching",
+          "heading": "Lời tự nhận mình đã hoàn toàn yên",
+          "meaningUnits": [
+            "peace-claim",
+            "suitable-path"
+          ],
+          "paragraphs": [
+            "Người tiếp nữa bỏ các quan điểm quá khứ và tương lai, hoàn toàn không hướng tâm vào trói buộc của dục, vượt hỷ do xa lìa, lạc không thuộc vật chất và thọ không khổ không lạc. Người ấy cho mình tịch tịnh, đã tắt lửa, không chấp thủ.",
+            "Như Lai biết và nhắc lại đủ tiến trình ấy. Ngài thừa nhận người này nói về con đường thích hợp hướng đến Niết-bàn. Sự thừa nhận đó cần giữ cùng phần chỉ ra chỗ còn nắm giữ."
+          ]
+        },
+        {
+          "id": "grasping",
+          "kind": "teaching",
+          "heading": "Nắm giữ cả ý nghĩ “tôi không nắm giữ”",
+          "meaningUnits": [
+            "grasping",
+            "escape-grasping"
+          ],
+          "paragraphs": [
+            "Người ấy còn chấp thủ quan điểm quá khứ, hoặc quan điểm tương lai, hoặc trói buộc của dục, hoặc hỷ do xa lìa, hoặc lạc không thuộc vật chất, hoặc thọ không khổ không lạc. Đây là các khả năng được nêu bằng “hoặc”, không phải mọi điều phải cùng xuất hiện.",
+            "Ngay lời cho mình tịch tịnh, đã tắt lửa, không chấp thủ cũng được gọi là chấp thủ. Như Lai biết chừng ấy hữu vi, còn thô; có sự đoạn diệt các hành là thật. Biết và thấy lối thoát, Ngài đã vượt qua."
+          ]
+        },
+        {
+          "id": "ungrasped",
+          "kind": "teaching",
+          "heading": "Năm mặt cần biết ở sáu lĩnh vực xúc",
+          "meaningUnits": [
+            "ungrasped",
+            "close"
+          ],
+          "paragraphs": [
+            "Lời kết nói sự tịch tịnh vô thượng, tối thắng mà Như Lai đã giác ngộ. Ngài biết như thật sự sinh khởi, sự mất đi, vị ngọt, nguy hại và sự thoát ly của sáu lĩnh vực xúc; do đó giải thoát không chấp thủ. Xúc là tiếp xúc trong thấy, nghe, ngửi, nếm, chạm và biết bằng tâm.",
+            "Vị ngọt là sức hấp dẫn; nguy hại là mặt gây hệ lụy; thoát ly là ra khỏi sự nắm giữ. Đức Phật giảng xong, các tỳ-kheo hoan hỷ đón nhận. Kinh Năm và Ba, bài thứ hai trong nhóm kinh này, kết thúc."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: khoảng yên bên chậu cây",
+          "meaningUnits": [
+            "peace-claim",
+            "grasping",
+            "ungrasped"
+          ],
+          "paragraphs": [
+            "Ví dụ hiện đại, không phải chuyện trong kinh: một người thích chăm chậu cây vào buổi sớm. Khoảng yên ấy rất quý. Nhưng nếu nghĩ mình đã là người luôn bình thản, người ấy có thể bực khi hàng xóm gọi chuyện hoặc người nhà hỏi điều gì. Khi thấy mình đang giữ một hình ảnh về bản thân, người ấy có thể bớt vội phản ứng.",
+            "Ví dụ chỉ minh họa sự bám vào lời tự nhận trong sinh hoạt. Sự thư thái bên cây không được xem là các chứng đạt thiền hay Niết-bàn được bàn trong bài kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một lần nhìn lại trong ngày",
+          "meaningUnits": [
+            "knowledge-eternal",
+            "grasping",
+            "ungrasped"
+          ],
+          "paragraphs": [
+            "Gợi ý biên tập: chọn một tiếp xúc nhẹ nhàng, như nghe một lời hỏi thăm. Nhìn xem cảm giác bắt đầu thế nào, đổi ra sao, có gì làm mình thích, có hệ lụy nào khi cứ giữ nó, và điều gì giúp bớt nắm giữ. Có thể đọc từng câu, dừng lại rồi tiếp; không cần tạo một trạng thái đặc biệt.",
+            "Khi nhớ một điều mình rất tin, thử phân biệt điều đã nghe, điều suy luận và điều thật sự tự biết. Bài tập chỉ giúp quan sát và nói cho đúng mức hiểu; không dùng để tự xác nhận đã đạt những xứ sâu hoặc đã giải thoát."
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1679 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn128",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "913e7b7ee7657f6f0cee2227555997dbd3dffff358f46839b408118c4f6d0940"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "851645c7011dd2e0a224e3096494f7c2f924e91f94c2469434dec68db3982d85"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn128_translation-vi-project.json",
+      "commit": "87288fe96fd977f95fc7dee56ab8f41b927176ba",
+      "sha256": "97039e31428a674cfe4111e8d94a55c0a9f0871370972b7204f9b02a2e68bfa1"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn128.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "01209e3c7d95636934782b6fe48bba9c77f85329e1543b92a94c7b780b559374"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn128_comment-vi-project.json",
+      "commit": "87288fe96fd977f95fc7dee56ab8f41b927176ba",
+      "sha256": "68a3e13f876837e9b9b2d8a7f19058507c80760c9f6723917077bbe83e94d4fb"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Trung Bộ 128, Kinh Tùy Phiền Não",
+      "segments": [
+        "mn128:0.1",
+        "mn128:0.2"
+      ],
+      "summary": "Tên tập và bài: Trung Bộ 128, Kinh Tùy Phiền Não; những điều làm tâm vẩn đục được giải trong mạch tu định."
+    },
+    {
+      "id": "setting",
+      "title": "Lời đã nghe tại Kosambī",
+      "segments": [
+        "mn128:1.1",
+        "mn128:1.2"
+      ],
+      "summary": "Người truyền kinh kể đã nghe: Phật ở Kosambī, tu viện Ghosita."
+    },
+    {
+      "id": "quarrel",
+      "title": "Lời nói như giáo nhọn",
+      "segments": [
+        "mn128:2.1"
+      ],
+      "summary": "Các tỳ-kheo tranh chấp/cãi vã/tranh luận, dùng lời như giáo đâm nhau; hình ảnh chỉ lời nói."
+    },
+    {
+      "id": "report",
+      "title": "Vị tỳ-kheo xin Phật đến",
+      "segments": [
+        "mn128:3.1",
+        "mn128:3.2",
+        "mn128:3.3",
+        "mn128:3.4"
+      ],
+      "summary": "Một vị đến/đảnh lễ/đứng bên, thuật lại tranh cãi/lời nhọn, xin Phật vì thương đến; Phật im lặng nhận lời."
+    },
+    {
+      "id": "first-refusal",
+      "title": "Lời khuyên và lời đáp lần đầu",
+      "segments": [
+        "mn128:4.1",
+        "mn128:4.2",
+        "mn128:4.3",
+        "mn128:4.4",
+        "mn128:4.5",
+        "mn128:4.6",
+        "mn128:4.7"
+      ],
+      "summary": "Phật đến dặn dừng tranh chấp/cãi vã/xung đột/tranh luận; một vị xin khoan, gọi Ngài chủ Pháp, xin thảnh thơi sống an vui hiện tại, nói họ sẽ được biết đến vì cuộc tranh ấy."
+    },
+    {
+      "id": "second-refusal",
+      "title": "Lần thứ hai vẫn thế",
+      "segments": [
+        "mn128:4.8",
+        "mn128:4.9",
+        "mn128:4.10",
+        "mn128:4.11",
+        "mn128:4.12",
+        "mn128:4.13",
+        "mn128:4.14"
+      ],
+      "summary": "Phật lần hai dặn cùng bốn việc đừng làm; cùng vị ấy lần hai đáp đủ xin khoan/chủ Pháp/thảnh thơi an vui hiện tại/chúng con được biết đến vì tranh cãi."
+    },
+    {
+      "id": "third-refusal",
+      "title": "Lần thứ ba vẫn thế",
+      "segments": [
+        "mn128:4.15",
+        "mn128:4.16",
+        "mn128:4.17",
+        "mn128:4.18",
+        "mn128:4.19",
+        "mn128:4.20",
+        "mn128:4.21"
+      ],
+      "summary": "Lần ba Phật lặp lời dừng đủ bốn, cùng vị ấy đáp lần ba đủ các ý như trước; không kể thành ba người khác nhau."
+    },
+    {
+      "id": "departure",
+      "title": "Thu xếp chỗ ở và đứng đọc kệ",
+      "segments": [
+        "mn128:5.1",
+        "mn128:5.2"
+      ],
+      "summary": "Sáng đắp y/cầm bát+y vào Kosambī khất thực; dùng bữa, khất thực về, thu xếp chỗ ở, cầm bát+y, đứng tại đó nói kệ."
+    },
+    {
+      "id": "no-one-fool",
+      "title": "Ồn ào mà không tự thấy",
+      "segments": [
+        "mn128:6.1",
+        "mn128:6.2",
+        "mn128:6.3",
+        "mn128:6.4",
+        "mn128:6.5",
+        "mn128:6.6",
+        "mn128:6.7",
+        "mn128:6.8"
+      ],
+      "summary": "Đám đông nhiều tiếng, không ai tự thấy ngu, Tăng đang chia rẽ mà chẳng nghĩ điều khác; mê muội giả trí, lời vượt giới hạn, há miệng tùy thích, không biết gì dẫn mình."
+    },
+    {
+      "id": "grudge",
+      "title": "Hai cách giữ chuyện bị hại",
+      "segments": [
+        "mn128:6.9",
+        "mn128:6.10",
+        "mn128:6.11",
+        "mn128:6.12",
+        "mn128:6.13",
+        "mn128:6.14",
+        "mn128:6.15",
+        "mn128:6.16"
+      ],
+      "summary": "Đủ bốn chuyện mắng/đánh/thắng/cướp lặp hai lượt: ôm ấp thì hận không lắng, không ôm thì hận lắng."
+    },
+    {
+      "id": "non-hatred",
+      "title": "Không hận thù mới làm hận lắng",
+      "segments": [
+        "mn128:6.17",
+        "mn128:6.18",
+        "mn128:6.19",
+        "mn128:6.20"
+      ],
+      "summary": "Hận không bao giờ dập hận ở đời; không hận khiến hận lắng, đó là pháp cổ xưa."
+    },
+    {
+      "id": "restraint",
+      "title": "Biết tự chế",
+      "segments": [
+        "mn128:6.21",
+        "mn128:6.22",
+        "mn128:6.23",
+        "mn128:6.24"
+      ],
+      "summary": "Người khác không biết ở đây phải tự chế; người hiểu thì nhờ đó tranh chấp lắng. Giữ cách dự án, không nhập nghĩa bị diệt từ HTML."
+    },
+    {
+      "id": "violent-unity",
+      "title": "Ngay người cướp phá còn biết hợp",
+      "segments": [
+        "mn128:6.25",
+        "mn128:6.26",
+        "mn128:6.27",
+        "mn128:6.28",
+        "mn128:6.29"
+      ],
+      "summary": "Kẻ chặt xương/đoạt mạng/cướp bò-ngựa-tài sản/cướp phá nước còn hòa hợp; câu hỏi sao các thầy không. Không tán đồng các hành vi ấy."
+    },
+    {
+      "id": "wise-companion",
+      "title": "Có bạn sáng suốt thì cùng đi",
+      "segments": [
+        "mn128:6.30",
+        "mn128:6.31",
+        "mn128:6.32",
+        "mn128:6.33"
+      ],
+      "summary": "Nếu tìm bạn sáng suốt/có trí/khéo sống cùng đi, vượt mọi hiểm nguy, đi với bạn trong hoan hỷ và niệm."
+    },
+    {
+      "id": "alone",
+      "title": "Không có bạn ấy thì độc hành",
+      "segments": [
+        "mn128:6.34",
+        "mn128:6.35",
+        "mn128:6.36",
+        "mn128:6.37",
+        "mn128:6.38",
+        "mn128:6.39",
+        "mn128:6.40",
+        "mn128:6.41"
+      ],
+      "summary": "Nếu không bạn sáng suốt/có trí/khéo sống, như vua bỏ quốc gia đã chinh phục, đi một mình như voi rừng; độc hành hơn kết ngu, không làm ác, thảnh thơi như voi."
+    },
+    {
+      "id": "bhagu-arrival",
+      "title": "Đến làng Bālakaloṇakāra",
+      "segments": [
+        "mn128:7.1",
+        "mn128:7.2",
+        "mn128:7.3",
+        "mn128:7.4",
+        "mn128:7.5",
+        "mn128:7.6",
+        "mn128:7.7",
+        "mn128:7.8"
+      ],
+      "summary": "Sau đứng đọc kệ Phật tới làng Bālakaloṇakāra nơi Bhagu ở; thấy từ xa, Bhagu soạn ghế/nước chân; Phật ngồi/rửa, Bhagu đảnh lễ/ngồi bên; Phật hỏi."
+    },
+    {
+      "id": "bhagu-health",
+      "title": "Hỏi thăm Bhagu",
+      "segments": [
+        "mn128:7.9",
+        "mn128:7.10"
+      ],
+      "summary": "Ba hỏi dễ chịu/đủ sức/khất thực không mệt, Bhagu xác nhận đủ cả ba."
+    },
+    {
+      "id": "bhagu-teaching",
+      "title": "Pháp thoại rồi lên đường",
+      "segments": [
+        "mn128:7.11"
+      ],
+      "summary": "Phật dùng Pháp chỉ dạy/khuyến khích/phấn chấn/hoan hỷ Bhagu, đứng dậy tới rừng Pācīnavaṁsa."
+    },
+    {
+      "id": "keeper",
+      "title": "Người giữ vườn muốn giữ yên tĩnh",
+      "segments": [
+        "mn128:8.1",
+        "mn128:8.2",
+        "mn128:8.3",
+        "mn128:8.4",
+        "mn128:8.5",
+        "mn128:8.6"
+      ],
+      "summary": "Anuruddha/Nandiya/Kimila trú rừng; người giữ vườn thấy Phật xa, bảo đại sa-môn đừng vào vì ba thiện nam mong điều tốt cho mình, đừng làm phiền."
+    },
+    {
+      "id": "teacher-arrived",
+      "title": "Anuruddha nhận ra Thầy",
+      "segments": [
+        "mn128:9.1",
+        "mn128:9.2",
+        "mn128:9.3",
+        "mn128:9.4"
+      ],
+      "summary": "Nghe người giữ vườn nói với Phật, Anuruddha dặn đừng cản: Đức Phật, Thầy chúng tôi đã đến."
+    },
+    {
+      "id": "call-friends",
+      "title": "Gọi hai bạn ra đón",
+      "segments": [
+        "mn128:10.1",
+        "mn128:10.2",
+        "mn128:10.3"
+      ],
+      "summary": "Anuruddha đến Nandiya/Kimila, gọi hãy ra đây hai lần, báo Thầy đến; cả ba ra đón."
+    },
+    {
+      "id": "welcome",
+      "title": "Ba việc đón khách",
+      "segments": [
+        "mn128:10.4",
+        "mn128:10.5",
+        "mn128:10.6",
+        "mn128:10.7",
+        "mn128:10.8"
+      ],
+      "summary": "Một vị nhận bát/y, một vị soạn ghế, một vị nước chân; Phật ngồi/rửa; họ đảnh lễ/ngồi bên; Phật hỏi Anuruddha, không gán nhiệm vụ vào từng tên."
+    },
+    {
+      "id": "three-health",
+      "title": "Hỏi thăm cả ba",
+      "segments": [
+        "mn128:10.9",
+        "mn128:10.10"
+      ],
+      "summary": "Phật hỏi cả ba dễ chịu/đủ sức/khất thực không mệt; đáp chúng con xác nhận đủ ba."
+    },
+    {
+      "id": "harmony-question",
+      "title": "Hòa như sữa và nước",
+      "segments": [
+        "mn128:11.1",
+        "mn128:11.2",
+        "mn128:11.3"
+      ],
+      "summary": "Phật hỏi hòa/vui/không tranh/sữa nước/nhìn thân ái; họ xác nhận năm nét; Ngài hỏi bằng cách nào."
+    },
+    {
+      "id": "anuruddha-kindness",
+      "title": "Anuruddha gác ý riêng",
+      "segments": [
+        "mn128:12.1",
+        "mn128:12.2",
+        "mn128:12.3",
+        "mn128:12.4",
+        "mn128:12.5",
+        "mn128:12.6",
+        "mn128:12.7",
+        "mn128:12.8",
+        "mn128:12.9",
+        "mn128:12.10"
+      ],
+      "summary": "Thấy lợi lớn/lợi lành được sống đồng phạm hạnh; giữ thân/lời/ý từ ái công khai/riêng tư; suy nghĩ rồi thật gác ý mình sống theo bạn; thân khác, nghĩ tâm một."
+    },
+    {
+      "id": "nandiya-kindness",
+      "title": "Nandiya cũng như vậy",
+      "segments": [
+        "mn128:12.11"
+      ],
+      "summary": "Nandiya thuật cùng niềm may, ba nghiệp từ ái trước/sau, gác ý riêng theo bạn, thân khác tâm một như phần trước; không chỉ một lời đồng ý."
+    },
+    {
+      "id": "kimila-kindness",
+      "title": "Kimila thuật và kết nếp sống chung",
+      "segments": [
+        "mn128:12.12",
+        "mn128:12.13",
+        "mn128:12.14",
+        "mn128:12.15",
+        "mn128:12.16",
+        "mn128:12.17",
+        "mn128:12.18",
+        "mn128:12.19",
+        "mn128:12.20",
+        "mn128:12.21",
+        "mn128:12.22",
+        "mn128:12.23"
+      ],
+      "summary": "Kimila kể đủ lợi lớn/lợi lành, thân/lời/ý từ ái trước/sau, suy và thật gác ý riêng theo bạn, thân khác tâm một; kết năm nét hòa/vui/không tranh/sữa nước/mắt thân ái."
+    },
+    {
+      "id": "diligence-question",
+      "title": "Ba phẩm chất trong đời sống",
+      "segments": [
+        "mn128:13.1",
+        "mn128:13.2",
+        "mn128:14.1",
+        "mn128:14.2"
+      ],
+      "summary": "Phật khen hai tiếng, hỏi không phóng dật/nhiệt tâm/tinh cần; họ đáp đủ, Ngài hỏi bằng cách nào."
+    },
+    {
+      "id": "first-home",
+      "title": "Người khất thực về trước",
+      "segments": [
+        "mn128:14.3"
+      ],
+      "summary": "Người về đầu soạn ghế, nước uống và nước dùng, thùng rác."
+    },
+    {
+      "id": "last-home",
+      "title": "Người khất thực về sau",
+      "segments": [
+        "mn128:14.4",
+        "mn128:14.5"
+      ],
+      "summary": "Nếu còn dư và muốn thì ăn; không muốn bỏ ít cỏ hoặc nước không sinh vật. Dọn ghế/nước uống+nước dùng, rửa thùng/cất, quét nhà ăn."
+    },
+    {
+      "id": "water",
+      "title": "Thấy lu cạn thì cùng làm",
+      "segments": [
+        "mn128:14.6",
+        "mn128:14.7"
+      ],
+      "summary": "Lu nước uống/dùng/nhà vệ sinh cạn thì tiếp; quá sức mới ra hiệu gọi người hai, cùng khiêng; không mở lời vì chuyện ấy."
+    },
+    {
+      "id": "five-days",
+      "title": "Mỗi năm ngày, đàm luận suốt đêm",
+      "segments": [
+        "mn128:14.8",
+        "mn128:14.9"
+      ],
+      "summary": "Mỗi năm ngày cả ba ngồi suốt đêm bàn Pháp; kết đây là nếp sống không phóng dật/nhiệt tâm/tinh cần."
+    },
+    {
+      "id": "higher-attainment",
+      "title": "Phật hỏi về tri kiến đặc biệt",
+      "segments": [
+        "mn128:15.1",
+        "mn128:15.2"
+      ],
+      "summary": "Khen hai tiếng rồi hỏi khi sống đủ ba phẩm chất, đã đạt pháp vượt mức người thường/tri kiến đặc biệt xứng Thánh/an trú thoải mái nào chưa."
+    },
+    {
+      "id": "light-vanishes",
+      "title": "Ánh sáng và hình sắc mau mất",
+      "segments": [
+        "mn128:15.3",
+        "mn128:15.4",
+        "mn128:15.5"
+      ],
+      "summary": "Họ sống đủ ba phẩm chất, nhận ánh sáng và thấy sắc nhưng cả hai chẳng lâu mất; chưa thấu hiểu tướng ấy."
+    },
+    {
+      "id": "before-awakening",
+      "title": "Phật thuật lúc chưa giác ngộ",
+      "segments": [
+        "mn128:16.1",
+        "mn128:16.2",
+        "mn128:16.3",
+        "mn128:16.4",
+        "mn128:16.5",
+        "mn128:16.6"
+      ],
+      "summary": "Dặn phải hiểu tướng; Phật trước giác ngộ, còn Bồ-tát chưa giác, cũng thấy ánh sáng+sắc rồi cả hai mất; tự hỏi nhân và duyên."
+    },
+    {
+      "id": "doubt",
+      "title": "Nghi hoặc làm định rơi mất",
+      "segments": [
+        "mn128:16.7",
+        "mn128:16.8",
+        "mn128:16.9"
+      ],
+      "summary": "Nhận nghi hoặc khởi→định mất→ánh sáng và thấy sắc mất; quyết hành trì để nghi không khởi lại."
+    },
+    {
+      "id": "inattention",
+      "title": "Không tác ý",
+      "segments": [
+        "mn128:17.1",
+        "mn128:17.2",
+        "mn128:17.3",
+        "mn128:17.4",
+        "mn128:17.5",
+        "mn128:17.6",
+        "mn128:17.7",
+        "mn128:17.8"
+      ],
+      "summary": "Sống đủ ba phẩm chất, thấy sáng+sắc rồi mất, hỏi nhân/duyên; không tác ý khởi→định mất→cả hai mất; quyết không tái khởi cả nghi và không tác ý."
+    },
+    {
+      "id": "drowsiness",
+      "title": "Hôn trầm và buồn ngủ",
+      "segments": [
+        "mn128:18.1",
+        "mn128:18.2",
+        "mn128:18.3",
+        "mn128:18.4",
+        "mn128:18.5"
+      ],
+      "summary": "Cùng mạch sống ba phẩm chất/thấy rồi mất/hỏi/nhận hôn trầm-buồn ngủ→định mất→sáng+sắc mất; quyết không tái khởi đủ ba chướng từ nghi tới hôn trầm-buồn ngủ."
+    },
+    {
+      "id": "fright",
+      "title": "Chim cút vụt bay gây giật sợ",
+      "segments": [
+        "mn128:19.1",
+        "mn128:19.2",
+        "mn128:19.3",
+        "mn128:19.4",
+        "mn128:19.5",
+        "mn128:19.6",
+        "mn128:19.7",
+        "mn128:19.8"
+      ],
+      "summary": "Cùng mạch với sợ hãi; ví người trên đường dài chim cút vụt từ hai bên sinh sợ; quay lại sợ→định mất→sáng+sắc mất; quyết không tái khởi đủ bốn chướng."
+    },
+    {
+      "id": "excitement",
+      "title": "Một cửa kho báu thành năm",
+      "segments": [
+        "mn128:20.1",
+        "mn128:20.2",
+        "mn128:20.3",
+        "mn128:20.4",
+        "mn128:20.5",
+        "mn128:20.6",
+        "mn128:20.7",
+        "mn128:20.8"
+      ],
+      "summary": "Cùng mạch với phấn chấn; tìm một cửa kho báu gặp cùng lúc năm cửa nên phấn chấn; quay lại phấn chấn→định mất→cả hai mất; quyết đủ năm chướng không tái khởi."
+    },
+    {
+      "id": "heaviness",
+      "title": "Sự thô trọng",
+      "segments": [
+        "mn128:21.1",
+        "mn128:21.2",
+        "mn128:21.3",
+        "mn128:21.4",
+        "mn128:21.5"
+      ],
+      "summary": "Cùng mạch ba phẩm chất/thấy mất/hỏi nguyên nhân; thô trọng→định mất→cả hai mất; quyết cả sáu chướng không khởi lại, không tự thay bằng dâm ý HTML."
+    },
+    {
+      "id": "too-tight",
+      "title": "Nỗ lực quá căng",
+      "segments": [
+        "mn128:22.1",
+        "mn128:22.2",
+        "mn128:22.3",
+        "mn128:22.4",
+        "mn128:22.5",
+        "mn128:22.6",
+        "mn128:22.7",
+        "mn128:22.8"
+      ],
+      "summary": "Cùng mạch với tinh cần quá; ví hai tay nắm chim cút quá chặt khiến chết ngay; quay lại tinh cần quá→định mất→cả hai mất; quyết đủ bảy chướng không tái khởi."
+    },
+    {
+      "id": "too-loose",
+      "title": "Nỗ lực quá lơi",
+      "segments": [
+        "mn128:23.1",
+        "mn128:23.2",
+        "mn128:23.3",
+        "mn128:23.4",
+        "mn128:23.5",
+        "mn128:23.6",
+        "mn128:23.7",
+        "mn128:23.8"
+      ],
+      "summary": "Cùng mạch với tinh cần quá lơi; ví nắm chim cút lỏng làm bay khỏi tay; quay lại tinh cần lơi→định mất→cả hai mất; quyết đủ tám chướng không tái khởi."
+    },
+    {
+      "id": "longing",
+      "title": "Tham cầu",
+      "segments": [
+        "mn128:24.1",
+        "mn128:24.2",
+        "mn128:24.3",
+        "mn128:24.4",
+        "mn128:24.5"
+      ],
+      "summary": "Cùng mạch sống ba phẩm chất/thấy mất/hỏi; tham cầu→định mất→cả hai mất; quyết đủ chín chướng từ đầu không tái khởi."
+    },
+    {
+      "id": "diversity",
+      "title": "Tưởng khác nhau",
+      "segments": [
+        "mn128:25.1",
+        "mn128:25.2",
+        "mn128:25.3",
+        "mn128:25.4",
+        "mn128:25.5"
+      ],
+      "summary": "Cùng mạch với những nhận diện đa dạng: khởi→định mất→cả hai mất; quyết cả mười chướng từ đầu không tái khởi."
+    },
+    {
+      "id": "over-focusing",
+      "title": "Quá chú tâm vào hình sắc",
+      "segments": [
+        "mn128:26.1",
+        "mn128:26.2",
+        "mn128:26.3",
+        "mn128:26.4",
+        "mn128:26.5",
+        "mn128:26.6",
+        "mn128:26.7",
+        "mn128:26.8"
+      ],
+      "summary": "Sống đủ ba phẩm chất/thấy sáng+sắc rồi mất/hỏi nhân duyên; quá chú tâm sắc→định mất→cả hai mất; quyết đầy đủ mười một chướng không tái khởi."
+    },
+    {
+      "id": "gave-up-eleven",
+      "title": "Biết rõ và đã từ bỏ từng thứ",
+      "segments": [
+        "mn128:27.1",
+        "mn128:27.2",
+        "mn128:27.3",
+        "mn128:27.4",
+        "mn128:27.5",
+        "mn128:27.6",
+        "mn128:27.7",
+        "mn128:27.8",
+        "mn128:27.9",
+        "mn128:27.10",
+        "mn128:27.11"
+      ],
+      "summary": "Đủ11 tên theo thứ tự; với mỗi thứ, biết rõ là tùy phiền não của tâm rồi đã từ bỏ. Là thành tựu từ bỏ, không chỉ ý định."
+    },
+    {
+      "id": "light-or-forms",
+      "title": "Hai cách nhận sáng và sắc",
+      "segments": [
+        "mn128:28.1",
+        "mn128:28.2",
+        "mn128:28.3",
+        "mn128:28.4",
+        "mn128:28.5",
+        "mn128:28.6",
+        "mn128:28.7",
+        "mn128:28.8",
+        "mn128:28.9",
+        "mn128:28.10",
+        "mn128:28.11"
+      ],
+      "summary": "Sống ba phẩm chất: thấy sáng không sắc hoặc sắc không sáng, suốt đêm/ngày/ngày đêm; hỏi nhân/duyên. Không chú tướng sắc mà chú sáng→sáng không sắc; ngược lại→sắc không sáng, đủ ba thời."
+    },
+    {
+      "id": "limited-or-limitless",
+      "title": "Định, tầm thấy, ánh sáng và hình sắc",
+      "segments": [
+        "mn128:29.1",
+        "mn128:29.2",
+        "mn128:29.3",
+        "mn128:29.4",
+        "mn128:29.5",
+        "mn128:29.6",
+        "mn128:29.7",
+        "mn128:29.8",
+        "mn128:29.9",
+        "mn128:29.10",
+        "mn128:29.11",
+        "mn128:29.12",
+        "mn128:29.13"
+      ],
+      "summary": "Sống ba phẩm chất, thấy cả sáng+sắc hạn lượng hoặc vô lượng, đủ ba thời; hỏi nhân/duyên. Định hạn lượng→mắt hạn lượng→sáng/sắc hạn lượng; vô lượng tương ứng, đủ đêm/ngày/ngày đêm."
+    },
+    {
+      "id": "eleven-eliminated",
+      "title": "Khi cả mười một đã được đoạn trừ",
+      "segments": [
+        "mn128:30.1",
+        "mn128:30.2",
+        "mn128:30.3",
+        "mn128:30.4",
+        "mn128:30.5",
+        "mn128:30.6",
+        "mn128:30.7",
+        "mn128:30.8",
+        "mn128:30.9",
+        "mn128:30.10",
+        "mn128:30.11"
+      ],
+      "summary": "Lặp đủ11 tên: sau biết từng thứ là tùy phiền não của tâm, mỗi thứ đã được đoạn trừ; điều kiện cho suy nghĩ kế tiếp."
+    },
+    {
+      "id": "developing-samadhi",
+      "title": "Ba cách và bảy mô tả về định",
+      "segments": [
+        "mn128:31.1",
+        "mn128:31.2",
+        "mn128:31.3",
+        "mn128:31.4"
+      ],
+      "summary": "Nghĩ đã từ bỏ tùy phiền não, nay tu định ba cách; thật tu có tầm-tứ/không tầm chỉ tứ/không cả hai/có hỷ/không hỷ/cùng lạc/cùng xả. Không đổi thành bảy tầng độc lập."
+    },
+    {
+      "id": "unshakable-release",
+      "title": "Tri kiến về tâm giải thoát bất động",
+      "segments": [
+        "mn128:32.1",
+        "mn128:32.2",
+        "mn128:32.3"
+      ],
+      "summary": "Khi đủ bảy mô tả định đã tu, tri kiến khởi: tâm giải thoát bất động, lần sinh cuối, không còn tái sinh. Giữ cả lạc bị HTML bỏ trong lượt lặp."
+    },
+    {
+      "id": "ending",
+      "title": "Anuruddha tán đồng",
+      "segments": [
+        "mn128:32.4",
+        "mn128:32.5",
+        "mn128:32.6"
+      ],
+      "summary": "Phật nói xong, Anuruddha hoan hỷ/tán đồng; Kinh Tùy Phiền Não kết, bài thứ tám trong nhóm, không thêm chứng quả cả ba."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Dành cho trẻ em",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Lời nói có thể làm đau",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "quarrel",
+            "report"
+          ],
+          "paragraphs": [
+            "Kinh Tùy Phiền Não là bài 128 trong Trung Bộ. Tên bài nói về những điều làm tâm vẩn đục. Người truyền kinh kể điều mình đã nghe: Đức Phật ở Kosambī, tại tu viện Ghosita. Các tỳ-kheo, những người nam xuất gia tu học, đang tranh chấp, cãi vã và tranh luận. Lời họ nói được ví như những mũi giáo đâm vào nhau.",
+            "Một vị đến đảnh lễ Phật, đứng một bên và thuật lại chuyện ấy. Vị ấy xin Ngài vì thương mà tới với các thầy. Phật im lặng nhận lời."
+          ]
+        },
+        {
+          "id": "three-requests",
+          "kind": "teaching",
+          "heading": "Ba lần khuyên dừng",
+          "meaningUnits": [
+            "first-refusal",
+            "second-refusal",
+            "third-refusal"
+          ],
+          "paragraphs": [
+            "Phật đến và dặn: thôi, đừng tranh chấp, cãi vã, xung đột, tranh luận nữa. Một vị lại xin Ngài khoan can dự. Vị ấy gọi Phật là bậc chủ của Pháp, lời dạy tu học; xin Ngài cứ thảnh thơi, sống trong sự an vui hiện tại, còn họ sẽ được biết đến vì cuộc tranh cãi này.",
+            "Lần thứ hai, Phật nhắc đủ lời khuyên dừng ấy; cũng vị kia đáp lại như trước. Lần thứ ba cũng vậy: lời khuyên của Phật vẫn là dừng bốn việc gây tranh, còn lời đáp vẫn xin Ngài thảnh thơi an vui và để họ được biết đến vì cuộc tranh ấy."
+          ]
+        },
+        {
+          "id": "standing-verses",
+          "kind": "teaching",
+          "heading": "Những câu kệ trước khi lên đường",
+          "meaningUnits": [
+            "departure",
+            "no-one-fool"
+          ],
+          "paragraphs": [
+            "Buổi sáng, Phật đắp y, cầm bát và y vào Kosambī khất thực, nhận thức ăn được cho. Sau khi trở về và dùng bữa, Ngài thu xếp chỗ ở, cầm bát cùng y rồi đứng tại đó nói những câu kệ.",
+            "Đông người cùng ồn ào mà chẳng ai tự thấy mình ngu. Khi Tăng, cộng đồng những người xuất gia, đang chia rẽ, họ chẳng nghĩ thêm điều gì khác. Mê muội mà làm như mình có trí, nói vượt giới hạn, muốn nói gì cứ nói, họ không biết điều gì đang dẫn mình đi."
+          ]
+        },
+        {
+          "id": "remembering-hurt",
+          "kind": "teaching",
+          "heading": "Có ôm mãi câu “người ấy làm hại tôi” không?",
+          "meaningUnits": [
+            "grudge",
+            "non-hatred",
+            "restraint"
+          ],
+          "paragraphs": [
+            "Kệ nhắc bốn chuyện: “người ấy mắng tôi, đánh tôi, thắng tôi, cướp của tôi”. Ai cứ ôm giữ những chuyện ấy thì hận thù không lắng. Cũng bốn chuyện bị mắng, bị đánh, bị thắng và bị cướp ấy, nếu không ôm hận, hận thù được lắng dịu.",
+            "Hận thù không bao giờ dập được hận thù. Không hận thù mới làm hận thù lắng: đó là lời dạy cổ xưa. Có người không biết mình cần tự chế, biết giữ mình lại; những người hiểu điều ấy thì làm tranh chấp dịu xuống."
+          ]
+        },
+        {
+          "id": "companions",
+          "kind": "teaching",
+          "heading": "Có bạn tốt thì cùng đi",
+          "meaningUnits": [
+            "violent-unity",
+            "wise-companion",
+            "alone"
+          ],
+          "paragraphs": [
+            "Phật còn nhắc: ngay những kẻ chặt xương, đoạt mạng, cướp bò, ngựa, tài sản và cướp phá cả nước cũng có lúc hợp sức. Sao các thầy lại không thể hòa hợp?",
+            "Nếu tìm được người bạn sáng suốt, có trí, khéo sống và cùng đi, hãy vượt qua mọi hiểm nguy, vui vẻ và có niệm — biết nhớ giữ điều đang làm — mà đi với bạn. Nếu không tìm được bạn như thế, hãy như vua rời quốc gia đã được chinh phục, đi một mình như voi rừng. Đi một mình còn hơn kết bạn với kẻ ngu; hãy không làm điều ác, sống thảnh thơi như voi trong rừng."
+          ]
+        },
+        {
+          "id": "bhagu",
+          "kind": "teaching",
+          "heading": "Một cuộc gặp yên lành",
+          "meaningUnits": [
+            "bhagu-arrival",
+            "bhagu-health",
+            "bhagu-teaching"
+          ],
+          "paragraphs": [
+            "Đứng nói kệ xong, Phật tới làng Bālakaloṇakāra, nơi Tôn giả Bhagu đang ở. Thấy Ngài từ xa, Bhagu chuẩn bị chỗ ngồi và nước rửa chân. Phật ngồi xuống, rửa chân. Bhagu đảnh lễ rồi ngồi một bên.",
+            "Phật hỏi thầy có dễ chịu, có đủ sức, có khỏi mệt vì khất thực không. Bhagu thưa rằng cả ba đều ổn. Phật dùng lời Pháp chỉ dạy, khuyến khích, làm thầy phấn chấn và vui. Rồi Ngài đứng dậy, đi tới rừng Pācīnavaṁsa."
+          ]
+        },
+        {
+          "id": "at-the-gate",
+          "kind": "teaching",
+          "heading": "Người giữ vườn chưa biết ai đang đến",
+          "meaningUnits": [
+            "keeper",
+            "teacher-arrived",
+            "call-friends"
+          ],
+          "paragraphs": [
+            "Ba vị Anuruddha, Nandiya và Kimila sống ở khu rừng ấy. Người giữ vườn thấy Phật từ xa, thưa với vị sa-môn, người xuất gia, rằng xin đừng vào: ở đây có ba người tu mong điều tốt cho mình, đừng làm phiền họ.",
+            "Nghe cuộc nói chuyện, Anuruddha bảo người giữ vườn đừng cản: Đức Phật, Thầy của họ, đã đến. Thầy đi tới Nandiya và Kimila, gọi hai lần “hãy ra đây”, vì Thầy đã tới. Cả ba ra đón."
+          ]
+        },
+        {
+          "id": "welcome",
+          "kind": "teaching",
+          "heading": "Mỗi người nhận một việc",
+          "meaningUnits": [
+            "welcome",
+            "three-health",
+            "harmony-question"
+          ],
+          "paragraphs": [
+            "Một vị nhận bát và y, một vị soạn chỗ ngồi, một vị đặt nước rửa chân. Phật ngồi, rửa chân; các thầy đảnh lễ rồi ngồi một bên. Ngài hỏi cả ba có dễ chịu, đủ sức, khỏi mệt vì khất thực không. Họ thưa: chúng con đều như vậy.",
+            "Phật hỏi họ có hòa hợp, vui với nhau, không tranh cãi, hòa như sữa với nước và nhìn nhau bằng ánh mắt thân ái không. Họ xác nhận đủ những điều ấy. Ngài hỏi tiếp: các thầy sống như vậy bằng cách nào?"
+          ]
+        },
+        {
+          "id": "one-heart",
+          "kind": "teaching",
+          "heading": "Ba người biết quý bạn mình",
+          "meaningUnits": [
+            "anuruddha-kindness",
+            "nandiya-kindness",
+            "kimila-kindness"
+          ],
+          "paragraphs": [
+            "Anuruddha nghĩ mình thật có lợi lớn, được điều lành khi sống với những bạn cùng tu như thế. Vì vậy, thầy giữ việc làm, lời nói và ý nghĩ đầy lòng từ, sự thương mến, với các bạn cả trước mặt lẫn sau lưng. Thầy nghĩ nên gác ý riêng để sống theo ý các bạn, rồi thật sự làm như vậy. Thân mỗi người khác nhau, nhưng thầy cảm thấy tâm họ như một.",
+            "Nandiya cũng kể cùng cách sống ấy. Kimila cũng nói mình được lợi lớn, được điều lành khi cùng sống, giữ lòng từ trong thân, lời và ý cả trước mặt lẫn sau lưng; thầy nghĩ rồi thực sự gác ý riêng để thuận theo bạn. Thân khác nhau mà tâm như một. Nhờ thế, cả ba hòa hợp, vui vẻ, không tranh cãi, hòa như sữa với nước, nhìn nhau thân ái."
+          ]
+        },
+        {
+          "id": "shared-work",
+          "kind": "teaching",
+          "heading": "Chăm việc chung là một phần tu học",
+          "meaningUnits": [
+            "diligence-question",
+            "first-home",
+            "last-home"
+          ],
+          "paragraphs": [
+            "Phật nói “lành thay” hai lần, rồi hỏi họ có sống không phóng dật, có nhiệt tâm và tinh cần không. Không phóng dật là không lơ là việc tu; nhiệt tâm là tha thiết tu học; tinh cần là bền bỉ cố gắng. Họ thưa có. Khi Ngài hỏi cách sống, họ kể những việc rất cụ thể.",
+            "Ai khất thực trong làng về trước thì soạn ghế ngồi, nước uống, nước dùng và thùng rác. Người về sau, nếu còn thức ăn dư và muốn ăn thì ăn. Nếu không muốn, thầy bỏ ở nơi ít cỏ hoặc nước không có sinh vật. Sau đó thầy dọn ghế, nước uống và nước dùng, rửa rồi cất thùng rác, quét nhà ăn."
+          ]
+        },
+        {
+          "id": "water",
+          "kind": "teaching",
+          "heading": "Thấy việc cần làm thì giúp",
+          "meaningUnits": [
+            "water",
+            "five-days"
+          ],
+          "paragraphs": [
+            "Ai thấy lu nước uống, nước dùng hay nước nhà vệ sinh cạn thì tiếp nước. Nếu việc quá sức, thầy ra hiệu tay gọi người thứ hai; hai người cùng khiêng, không vì chuyện ấy mà mở lời.",
+            "Cứ mỗi năm ngày, các thầy lại ngồi cùng nhau suốt đêm đàm luận về Pháp. Họ nói đó là cách sống không lơ là, có nhiệt tâm và tinh cần."
+          ]
+        },
+        {
+          "id": "classroom-example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: làm bài theo nhóm",
+          "meaningUnits": [
+            "quarrel",
+            "anuruddha-kindness",
+            "first-home",
+            "water"
+          ],
+          "paragraphs": [
+            "Khi làm chung một tấm áp phích, em có thể quý phần giúp đỡ của bạn, nói tử tế cả khi bạn có mặt lẫn vắng mặt, nhận một việc và hỏi thêm người giúp nếu quá sức. Nếu chưa thống nhất màu sắc, hãy nghe bạn giải thích rồi cùng chọn.",
+            "Đây là ví dụ hiện đại về lòng từ và trách nhiệm khi sống chung. Nó gợi một việc nhỏ em có thể làm trong lớp."
+          ]
+        },
+        {
+          "id": "light",
+          "kind": "teaching",
+          "heading": "Một trải nghiệm chưa được hiểu rõ",
+          "meaningUnits": [
+            "higher-attainment",
+            "light-vanishes",
+            "before-awakening"
+          ],
+          "paragraphs": [
+            "Phật lại khen “lành thay” hai lần. Ngài hỏi: trong nếp tu không lơ là, nhiệt tâm, tinh cần như vậy, các thầy đã đạt được điều gì vượt mức người thường chưa? Đó là sự hiểu thấy đặc biệt xứng với bậc Thánh, một trạng thái an trú thoải mái, sống an ổn.",
+            "Các thầy kể trong khi tu như thế, họ nhận thấy ánh sáng và thấy các hình sắc, nhưng chẳng bao lâu cả hai mất đi. Họ chưa hiểu được tướng, dấu hiệu của trải nghiệm ấy. Phật dặn phải hiểu rõ. Ngài kể trước giác ngộ, khi còn là Bồ-tát chưa giác ngộ, đang tu hướng tới giác ngộ, Ngài cũng thấy ánh sáng và hình sắc rồi mất, nên hỏi: nhân gì, duyên gì khiến chúng mất?"
+          ]
+        },
+        {
+          "id": "doubt",
+          "kind": "teaching",
+          "heading": "Nhận ra điều làm tâm mất vững",
+          "meaningUnits": [
+            "doubt",
+            "inattention"
+          ],
+          "paragraphs": [
+            "Điều đầu tiên Ngài nhận ra là nghi hoặc khởi lên. Vì nghi, định — sự tập trung vững vàng của tâm — rơi mất; định mất thì ánh sáng và việc thấy hình sắc cũng mất. Ngài quyết thực hành để nghi không khởi lại.",
+            "Ngài tiếp tục sống không lơ là, nhiệt tâm, tinh cần, thấy ánh sáng và hình sắc nhưng chúng lại mau mất. Lần này, khi hỏi nguyên nhân, Ngài nhận ra không tác ý, không hướng sự chú ý, đã khiến định mất và cả hai trải nghiệm mất. Ngài quyết không để cả nghi lẫn không tác ý khởi lại."
+          ]
+        },
+        {
+          "id": "drowsiness",
+          "kind": "teaching",
+          "heading": "Tâm nặng ngủ",
+          "meaningUnits": [
+            "drowsiness"
+          ],
+          "paragraphs": [
+            "Những chặng tiếp theo diễn ra theo cùng cách: Ngài tu với ba phẩm chất ấy, thấy ánh sáng cùng hình sắc rồi chúng mất; Ngài hỏi nhân duyên, nhận rõ điều làm định mất và quyết sửa. Mỗi lần, Ngài giữ quyết tâm với cả những điều đã nhận ra trước đó.",
+            "Chướng thứ ba là hôn trầm và buồn ngủ: tâm trì trệ, buồn ngủ làm định rơi mất, rồi ánh sáng và thấy sắc mất. Ngài quyết cả ba điều — nghi, không tác ý, hôn trầm và buồn ngủ — không khởi lại."
+          ]
+        },
+        {
+          "id": "fright",
+          "kind": "teaching",
+          "heading": "Chim cút vụt bay làm giật mình",
+          "meaningUnits": [
+            "fright"
+          ],
+          "paragraphs": [
+            "Thứ tư là sợ hãi. Phật ví người đang đi đường dài, có chim cút vụt bay lên từ hai bên, khiến người ấy giật sợ. Tương tự, nỗi sợ đã làm định của Ngài rơi mất, kéo theo ánh sáng và sự thấy sắc biến mất. Ngài quyết không để cả bốn chướng đã nhận ra quay lại."
+          ]
+        },
+        {
+          "id": "excitement",
+          "kind": "teaching",
+          "heading": "Vui đến mức tâm chao đi",
+          "meaningUnits": [
+            "excitement",
+            "heaviness"
+          ],
+          "paragraphs": [
+            "Thứ năm là phấn chấn quá mức. Một người đi tìm một cửa kho báu lại gặp cùng lúc năm cửa, vui bốc lên. Sự phấn chấn ấy cũng từng khiến định của Ngài rơi mất, rồi ánh sáng và thấy sắc mất. Ngài quyết ngăn cả năm chướng từ đầu tái khởi.",
+            "Thứ sáu là thô trọng, cảm giác nặng nề, không thoải mái. Nó khởi, định mất, cả hai trải nghiệm cũng mất. Sau khi thấy nhân duyên ấy, Ngài quyết không để cả sáu chướng quay lại."
+          ]
+        },
+        {
+          "id": "grip",
+          "kind": "teaching",
+          "heading": "Quá chặt và quá lỏng",
+          "meaningUnits": [
+            "too-tight",
+            "too-loose"
+          ],
+          "paragraphs": [
+            "Thứ bảy là tinh cần quá độ, cố sức quá căng. Trong ví dụ của Phật, một người dùng hai tay nắm chim cút quá chặt khiến nó chết ngay tại chỗ. Nỗ lực quá căng của Ngài cũng làm định rơi mất, ánh sáng và thấy sắc mất. Ngài quyết không để cả bảy chướng tái khởi.",
+            "Thứ tám là tinh cần quá lơi lỏng. Nắm chim quá lỏng thì chim bay khỏi tay. Nỗ lực quá lơi cũng khiến định mất, rồi ánh sáng và thấy sắc mất. Ngài quyết cả tám chướng đều không khởi lại. Hai hình ảnh cho thấy cần biết điều chỉnh sức mình."
+          ]
+        },
+        {
+          "id": "last-three",
+          "kind": "teaching",
+          "heading": "Ba điều nữa cần nhận ra",
+          "meaningUnits": [
+            "longing",
+            "diversity",
+            "over-focusing"
+          ],
+          "paragraphs": [
+            "Thứ chín là tham cầu, mong muốn nắm cho được. Thứ mười là tưởng khác nhau, những nhận diện đa dạng. Ở mỗi chặng tu và tự hỏi ấy, điều vừa nêu khởi lên làm định mất; định mất thì ánh sáng và thấy sắc mất. Sau chặng thứ chín, Ngài quyết ngăn đủ chín chướng; sau chặng thứ mười, đủ mười chướng.",
+            "Thứ mười một là quá chú tâm vào hình sắc. Ngài lại nhận thấy ánh sáng và hình sắc rồi mau mất, hỏi nhân duyên và thấy chính sự chú tâm quá mức này khiến định rơi mất. Ngài quyết không để bất cứ chướng nào trong cả mười một chướng khởi lại."
+          ]
+        },
+        {
+          "id": "letting-go",
+          "kind": "teaching",
+          "heading": "Đã biết rõ và đã từ bỏ",
+          "meaningUnits": [
+            "gave-up-eleven"
+          ],
+          "paragraphs": [
+            "Phật kể Ngài biết rõ từng thứ là điều làm tâm vẩn đục và đã từ bỏ từng thứ: nghi; không tác ý; hôn trầm và buồn ngủ; sợ hãi; phấn chấn; thô trọng; tinh cần quá độ; tinh cần quá lơi; tham cầu; tưởng khác nhau; quá chú tâm vào hình sắc."
+          ]
+        },
+        {
+          "id": "attention",
+          "kind": "teaching",
+          "heading": "Chú ý vào tướng nào?",
+          "meaningUnits": [
+            "light-or-forms"
+          ],
+          "paragraphs": [
+            "Tiếp tục sống không lơ là, nhiệt tâm, tinh cần, có lúc Ngài nhận ánh sáng mà không thấy hình sắc; có lúc thấy hình sắc mà không nhận ánh sáng. Điều ấy có thể kéo dài cả đêm, cả ngày hoặc cả ngày đêm. Ngài lại hỏi nhân và duyên.",
+            "Ngài nhận ra: khi không chú ý tướng hình sắc mà chú ý tướng ánh sáng, Ngài nhận ánh sáng nhưng không thấy sắc. Khi không chú ý tướng ánh sáng mà chú ý tướng hình sắc, Ngài thấy sắc nhưng không nhận ánh sáng; cũng suốt đêm, suốt ngày hoặc suốt ngày đêm."
+          ]
+        },
+        {
+          "id": "range",
+          "kind": "teaching",
+          "heading": "Phạm vi của định và sự thấy",
+          "meaningUnits": [
+            "limited-or-limitless"
+          ],
+          "paragraphs": [
+            "Lại có lúc, trong nếp tu với ba phẩm chất ấy, Ngài nhận ánh sáng và hình sắc trong phạm vi hạn lượng, có giới hạn; có lúc cả hai vô lượng, không giới hạn, suốt đêm, suốt ngày hoặc suốt ngày đêm. Ngài tự hỏi vì sao.",
+            "Khi định hạn lượng, tầm thấy của mắt cũng hạn lượng, nên ánh sáng và hình sắc được thấy có giới hạn. Khi định vô lượng, tầm thấy vô lượng, nên ánh sáng và hình sắc được thấy vô lượng. Cả hai trường hợp được kể với đủ ba khoảng đêm, ngày, ngày đêm."
+          ]
+        },
+        {
+          "id": "settled",
+          "kind": "teaching",
+          "heading": "Sau khi mười một chướng đã được dứt bỏ",
+          "meaningUnits": [
+            "eleven-eliminated",
+            "developing-samadhi"
+          ],
+          "paragraphs": [
+            "Ngài nhắc rằng, sau khi biết từng thứ là điều làm tâm vẩn đục, cả mười một đã được đoạn trừ: nghi, không tác ý, hôn trầm và buồn ngủ, sợ hãi, phấn chấn, thô trọng, tinh cần quá, tinh cần lơi, tham cầu, tưởng khác nhau, quá chú tâm vào sắc. Ngài tự nhủ: các chướng đã được bỏ, nay hãy tu định theo ba cách.",
+            "Ngài tu định có tầm và tứ — hướng tâm tới đề mục rồi giữ tâm với nó; định không tầm, chỉ còn tứ; định không cả tầm lẫn tứ. Ngài cũng tu định có hỷ, sự vui mừng, và không hỷ; định cùng lạc, sự dễ chịu, và cùng xả, sự quân bình của tâm."
+          ]
+        },
+        {
+          "id": "freedom",
+          "kind": "teaching",
+          "heading": "Đích đến là tâm giải thoát",
+          "meaningUnits": [
+            "unshakable-release",
+            "ending"
+          ],
+          "paragraphs": [
+            "Khi đã tu đủ những cách định ấy — ba mức tầm/tứ, có và không hỷ, cùng lạc và cùng xả — sự biết và thấy khởi lên nơi Ngài: tâm giải thoát không lay chuyển; đây là lần sinh cuối, không còn tái sinh nữa.",
+            "Phật kể xong, Anuruddha vui mừng, tán đồng lời dạy. Kinh Tùy Phiền Não khép lại, là bài thứ tám trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Thử một việc nhỏ, thật rõ",
+          "meaningUnits": [
+            "anuruddha-kindness",
+            "water",
+            "too-tight",
+            "too-loose"
+          ],
+          "paragraphs": [
+            "Hôm nay, em có thể chọn một việc chung, chẳng hạn dọn bàn học với bạn. Nói tử tế, nhận phần vừa sức và nhờ giúp khi cần. Khi làm mà quá căng hoặc lơ là, dừng một chút để điều chỉnh rồi làm tiếp. Đây là gợi ý hiện đại giúp tập lòng từ và sự chú ý; không phải cách tập thấy ánh sáng hay chứng các tầng định trong kinh."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Dành cho người trưởng thành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Từ một cuộc tranh cãi đến việc hiểu tâm",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "quarrel",
+            "report"
+          ],
+          "paragraphs": [
+            "Kinh Tùy Phiền Não, Trung Bộ 128, mở bằng lời người truyền kinh kể điều đã nghe. Đức Phật ở Kosambī, tại tu viện Ghosita. Các tỳ-kheo, những người nam xuất gia, đang tranh chấp, cãi vã, tranh luận và dùng lời như giáo nhọn đâm chọc nhau.",
+            "Một vị đến đảnh lễ, đứng bên Phật và báo lại tình hình. Vị ấy xin Ngài vì lòng thương đến với họ. Phật im lặng nhận lời. Cuộc gặp cho thấy một lời khuyên đúng vẫn cần người nghe chịu đón nhận."
+          ]
+        },
+        {
+          "id": "refusal",
+          "kind": "teaching",
+          "heading": "Ba lần từ chối lời khuyên",
+          "meaningUnits": [
+            "first-refusal",
+            "second-refusal",
+            "third-refusal"
+          ],
+          "paragraphs": [
+            "Phật đến, dặn các vị dừng tranh chấp, cãi vã, xung đột và tranh luận. Một vị xin Ngài khoan can dự: Ngài là chủ của Pháp, lời dạy tu học, hãy thảnh thơi chuyên sống an vui ngay hiện tại; còn họ sẽ được biết đến vì cuộc tranh ấy.",
+            "Lần thứ hai, Phật nhắc cùng lời dừng bốn điều gây tranh; cũng vị ấy đáp đủ các ý vừa rồi. Đến lần thứ ba, cả lời khuyên của Phật lẫn lời đáp xin Ngài thảnh thơi, để họ được biết đến vì tranh cãi, vẫn như trước."
+          ]
+        },
+        {
+          "id": "verses",
+          "kind": "teaching",
+          "heading": "Điều đang dẫn lời nói đi",
+          "meaningUnits": [
+            "departure",
+            "no-one-fool",
+            "grudge",
+            "non-hatred",
+            "restraint"
+          ],
+          "paragraphs": [
+            "Buổi sáng, Phật đắp y, cầm bát và y vào Kosambī khất thực, nhận thức ăn được cho. Sau bữa ăn, trở về từ khất thực, Ngài thu xếp chỗ ở, cầm bát cùng y và đứng nói kệ.",
+            "Giữa nhiều tiếng ồn, không ai tự thấy mình ngu. Tăng, cộng đồng xuất gia, đang chia rẽ mà người ta chẳng nghĩ điều gì khác; mê muội giả làm bậc trí, nói vượt phạm vi, buông lời tùy thích, không biết điều gì dẫn mình. Người giữ mãi bốn chuyện “họ mắng, đánh, thắng, cướp của tôi” thì hận không lắng. Với cả bốn chuyện ấy, người không ôm hận thì hận lắng.",
+            "Hận thù không bao giờ được làm lắng bằng hận thù; không hận mới làm hận dịu, đó là pháp cổ xưa. Người khác không hiểu rằng ở đây cần tự chế; người hiểu thì nhờ đó tranh chấp chấm dứt."
+          ]
+        },
+        {
+          "id": "companionship",
+          "kind": "teaching",
+          "heading": "Hòa hợp và chọn bạn đồng hành",
+          "meaningUnits": [
+            "violent-unity",
+            "wise-companion",
+            "alone"
+          ],
+          "paragraphs": [
+            "Kệ đặt một câu hỏi mạnh: những người chặt xương, đoạt mạng, cướp bò, ngựa, tài sản, cướp phá quốc gia còn có sự hòa hợp; sao các thầy không có?",
+            "Nếu tìm được bạn đồng hành sáng suốt, có trí, khéo sống, hãy vượt mọi hiểm nguy, vui vẻ và có niệm, sự nhớ giữ và chú ý, mà đi cùng. Nếu không có người bạn như thế, hãy như vua rời quốc gia đã chinh phục, độc hành như voi rừng. Một mình tốt hơn kết bạn với kẻ ngu; đi một mình, không làm ác, thảnh thơi như voi. Lời kệ đặt phẩm chất của sự đồng hành vào trung tâm."
+          ]
+        },
+        {
+          "id": "bhagu",
+          "kind": "teaching",
+          "heading": "Thăm Bhagu trước khi đến khu rừng",
+          "meaningUnits": [
+            "bhagu-arrival",
+            "bhagu-health",
+            "bhagu-teaching"
+          ],
+          "paragraphs": [
+            "Đứng đọc kệ xong, Phật đến làng Bālakaloṇakāra, nơi Bhagu ở. Thấy Ngài từ xa, Bhagu chuẩn bị chỗ ngồi và nước rửa chân. Phật ngồi, rửa chân; Bhagu đảnh lễ rồi ngồi một bên.",
+            "Ngài hỏi ba điều: có dễ chịu, có đủ sức, có khỏi mệt nhọc vì khất thực không. Bhagu xác nhận cả ba. Phật dùng pháp thoại chỉ dạy, khuyến khích, làm vị ấy phấn chấn và hoan hỷ, rồi đứng dậy đi đến rừng Pācīnavaṁsa."
+          ]
+        },
+        {
+          "id": "arrival",
+          "kind": "teaching",
+          "heading": "Ba người cùng đón Thầy",
+          "meaningUnits": [
+            "keeper",
+            "teacher-arrived",
+            "call-friends",
+            "welcome",
+            "three-health"
+          ],
+          "paragraphs": [
+            "Anuruddha, Nandiya và Kimila đang ở đó. Người giữ vườn thấy Phật từ xa, xin vị đại sa-môn, người xuất gia, đừng vào: ba người tu ở đây mong điều tốt cho mình, xin đừng quấy rầy. Anuruddha nghe, bảo người giữ vườn đừng cản Đức Phật, Thầy của họ, vừa đến.",
+            "Anuruddha tới gọi Nandiya và Kimila, hai lần mời ra đón Thầy. Cả ba ra: một vị nhận bát và y, một vị soạn chỗ ngồi, một vị đặt nước rửa chân. Phật ngồi, rửa chân, các vị đảnh lễ và ngồi bên. Ngài hỏi cả ba về sự dễ chịu, đủ sức và việc khất thực không mệt; họ xác nhận đủ cả ba."
+          ]
+        },
+        {
+          "id": "harmony",
+          "kind": "teaching",
+          "heading": "Lòng từ cả trước mặt và sau lưng",
+          "meaningUnits": [
+            "harmony-question",
+            "anuruddha-kindness",
+            "nandiya-kindness",
+            "kimila-kindness"
+          ],
+          "paragraphs": [
+            "Phật hỏi họ có sống hòa hợp, vui với nhau, không tranh cãi, hòa như sữa với nước và nhìn nhau thân ái không. Họ thưa có. Ngài hỏi cách thực hiện.",
+            "Anuruddha thấy mình có lợi lớn, có lợi lành khi sống với những người cùng phạm hạnh, cùng đời tu thanh tịnh. Với họ, vị ấy giữ hành động, lời nói, ý nghĩ từ ái, đầy lòng thương mến, cả công khai lẫn riêng tư. Vị ấy nghĩ nên gác ý mình, thuận theo các bạn, rồi thật sự sống như thế. Thân khác nhau nhưng theo vị ấy, tâm như một.",
+            "Nandiya cũng thuật cùng cách sống. Kimila cũng nói mình được lợi lớn, gặp điều lành khi cùng tu; vị ấy giữ thân, lời, ý từ ái trước mặt và sau lưng, nghĩ đến việc gác ý riêng thuận bạn rồi thật sự làm như thế. Thân khác mà theo vị ấy, tâm như một. Họ kết: đó là cách hòa hợp, vui vẻ, không tranh cãi, như sữa nước và nhìn nhau bằng mắt thân ái."
+          ]
+        },
+        {
+          "id": "daily-diligence",
+          "kind": "teaching",
+          "heading": "Tinh cần hiện ra trong việc nhỏ",
+          "meaningUnits": [
+            "diligence-question",
+            "first-home",
+            "last-home",
+            "water",
+            "five-days"
+          ],
+          "paragraphs": [
+            "Phật khen “lành thay” hai lần, rồi hỏi họ có không phóng dật, không lơ là tu tập, có nhiệt tâm và tinh cần không. Họ xác nhận; khi Ngài hỏi cách sống, họ kể việc chia nhau chăm nơi ở.",
+            "Người khất thực trong làng về trước soạn chỗ ngồi, nước uống, nước dùng và thùng rác. Người về sau, nếu có thức ăn dư và muốn thì ăn; không muốn thì bỏ nơi ít cỏ hoặc nước không sinh vật. Vị ấy dọn ghế và hai loại nước, rửa rồi cất thùng rác, quét nhà ăn.",
+            "Ai thấy lu nước uống, nước dùng hay nước nhà vệ sinh cạn thì tiếp. Quá sức mới ra hiệu gọi người thứ hai cùng khiêng, không vì việc ấy mà mở lời. Cứ năm ngày họ ngồi cùng nhau suốt đêm bàn Pháp. Họ xác nhận chính như vậy là sống không lơ là, nhiệt tâm, tinh cần."
+          ]
+        },
+        {
+          "id": "work-example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: cùng làm một việc khó",
+          "meaningUnits": [
+            "anuruddha-kindness",
+            "water",
+            "too-tight",
+            "too-loose"
+          ],
+          "paragraphs": [
+            "Một nhóm có thể nói lịch sự trong cuộc họp nhưng chê bai nhau khi vắng mặt. Thử chuyển sang cách nhất quán hơn: ghi nhận phần đóng góp của đồng nghiệp, nói thẳng điều cần sửa, nhận việc phù hợp và gọi thêm người khi quá sức. Khi ai cũng muốn ý mình thắng, có thể xem lại điều gì thực sự giúp công việc chung.",
+            "Đây là minh họa hiện đại về lòng từ và sự cộng tác trong phạm vi bài kinh; các vị trong câu chuyện sống với nhau trên nền đời tu chung."
+          ]
+        },
+        {
+          "id": "question-of-attainment",
+          "kind": "teaching",
+          "heading": "Ánh sáng xuất hiện rồi mất",
+          "meaningUnits": [
+            "higher-attainment",
+            "light-vanishes",
+            "before-awakening"
+          ],
+          "paragraphs": [
+            "Phật lại khen hai tiếng “lành thay”. Ngài hỏi, với nếp sống không lơ là, nhiệt tâm và tinh cần, họ đã chứng được pháp vượt mức người thường, tri kiến (sự biết và thấy) đặc biệt xứng bậc Thánh, một trạng thái an trú (sống an ổn) thoải mái nào chưa. Họ đáp rằng trong lúc tu như thế, họ nhận thấy ánh sáng và thấy hình sắc, nhưng cả hai mau biến mất, còn tướng ấy thì chưa thấu hiểu.",
+            "Phật dặn họ phải hiểu rõ tướng, dấu hiệu của trải nghiệm này. Ngài hồi thuật trước khi giác ngộ, khi còn là Bồ-tát chưa giác ngộ, mình cũng thấy ánh sáng và hình sắc rồi mau mất. Ngài tự hỏi cả nhân lẫn duyên của việc ấy."
+          ]
+        },
+        {
+          "id": "first-three",
+          "kind": "teaching",
+          "heading": "Nhận diện nguyên nhân, giữ quyết tâm đã có",
+          "meaningUnits": [
+            "doubt",
+            "inattention",
+            "drowsiness"
+          ],
+          "paragraphs": [
+            "Trước hết, Ngài thấy nghi hoặc khởi lên khiến định, sự tập trung vững vàng của tâm, rơi mất; định mất thì ánh sáng và việc thấy hình sắc mất. Ngài quyết thực hành để nghi không khởi lại.",
+            "Tiếp tục không lơ là, nhiệt tâm, tinh cần, Ngài lại thấy cả hai rồi mất và lại xét nguyên nhân. Lần này là không tác ý, không hướng sự chú ý: nó làm định mất, rồi ánh sáng và hình sắc mất. Ngài quyết cả nghi lẫn không tác ý không khởi lại. Chặng thứ ba cùng mạch ấy, hôn trầm và buồn ngủ, sự trì trệ ngái ngủ, làm định rơi mất, kéo theo cả hai trải nghiệm. Ngài quyết không tái khởi đủ ba chướng đã thấy."
+          ]
+        },
+        {
+          "id": "fright-excitement",
+          "kind": "teaching",
+          "heading": "Sợ hãi và phấn chấn",
+          "meaningUnits": [
+            "fright",
+            "excitement"
+          ],
+          "paragraphs": [
+            "Mỗi chặng sau vẫn có nếp tu ba phẩm chất, việc thấy rồi mất, câu hỏi nhân duyên và sự nhận ra chướng làm định mất. Quyết tâm được nối thêm: không để chướng mới hoặc bất cứ chướng trước đó khởi lại.",
+            "Thứ tư là sợ hãi, như người đi đường dài bị giật mình vì chim cút vụt bay lên từ hai bên. Sợ làm định rơi mất, ánh sáng và thấy sắc mất; Ngài quyết giữ cả bốn chướng không trở lại. Thứ năm là phấn chấn, như tìm một cửa kho báu mà gặp cùng lúc năm cửa. Phấn chấn làm định mất và cả hai mất; quyết tâm lúc này gồm đủ năm chướng."
+          ]
+        },
+        {
+          "id": "effort",
+          "kind": "teaching",
+          "heading": "Nặng nề, quá căng và quá lơi",
+          "meaningUnits": [
+            "heaviness",
+            "too-tight",
+            "too-loose"
+          ],
+          "paragraphs": [
+            "Thứ sáu là thô trọng, sự nặng nề không thoải mái. Nhận ra nó khiến định rơi mất, rồi ánh sáng và thấy sắc mất, Ngài quyết cả sáu chướng không khởi lại.",
+            "Thứ bảy là tinh cần quá độ. Một người dùng hai tay nắm chim cút quá chặt, chim chết ngay: đó là ví dụ cho nỗ lực quá căng. Thứ tám, tinh cần quá lơi, được ví với nắm chim quá lỏng khiến chim bay khỏi tay. Ở mỗi chặng, chướng này khởi, định mất, cả hai trải nghiệm mất; Ngài quyết không tái khởi đủ bảy chướng rồi đủ tám chướng. Cả quá căng lẫn quá lơi đều cần được nhận rõ."
+          ]
+        },
+        {
+          "id": "last-three",
+          "kind": "teaching",
+          "heading": "Tham cầu, tưởng đa dạng, chăm chú quá mức",
+          "meaningUnits": [
+            "longing",
+            "diversity",
+            "over-focusing"
+          ],
+          "paragraphs": [
+            "Thứ chín là tham cầu, mong muốn nắm được; thứ mười là tưởng khác nhau, những nhận diện đa dạng. Trong từng chặng tu và xét nguyên nhân, chúng làm định rơi mất, kéo theo ánh sáng và thấy sắc mất. Quyết tâm ngăn tái khởi mở rộng từ đủ chín đến đủ mười chướng.",
+            "Thứ mười một là chú tâm quá mức vào hình sắc. Ngài lại tu với ba phẩm chất, nhận ánh sáng cùng hình sắc rồi cả hai mau mất; xét nhân duyên, thấy chính sự quá chú tâm này làm định mất. Ngài quyết không cho cả mười một chướng từ đầu khởi lại."
+          ]
+        },
+        {
+          "id": "abandonment",
+          "kind": "teaching",
+          "heading": "Biết từng chướng và đã từ bỏ",
+          "meaningUnits": [
+            "gave-up-eleven"
+          ],
+          "paragraphs": [
+            "Ngài kể mình biết rõ từng thứ là tùy phiền não, điều làm tâm vẩn đục, rồi đã từ bỏ từng thứ: nghi; không tác ý; hôn trầm và buồn ngủ; sợ hãi; phấn chấn; thô trọng; tinh cần quá độ; tinh cần quá lơi; tham cầu; tưởng khác nhau; quá chú tâm vào sắc. Đây là bước từ quyết tâm đến việc đã từ bỏ."
+          ]
+        },
+        {
+          "id": "objects-of-attention",
+          "kind": "teaching",
+          "heading": "Hai đối tượng của sự chú ý",
+          "meaningUnits": [
+            "light-or-forms"
+          ],
+          "paragraphs": [
+            "Trong nếp tu không lơ là, nhiệt tâm, tinh cần, Ngài có lúc nhận ánh sáng mà không thấy hình sắc, có lúc thấy hình sắc mà không nhận ánh sáng; suốt một đêm, một ngày, hoặc cả ngày đêm. Ngài hỏi nhân duyên rồi nhận ra: không tác ý tướng sắc, chỉ tác ý tướng ánh sáng thì nhận ánh sáng không thấy sắc; không tác ý tướng ánh sáng mà tác ý tướng sắc thì thấy sắc không nhận ánh sáng. Hai cách ấy cũng được kể với đủ đêm, ngày, ngày đêm."
+          ]
+        },
+        {
+          "id": "scope",
+          "kind": "teaching",
+          "heading": "Phạm vi định chi phối phạm vi thấy",
+          "meaningUnits": [
+            "limited-or-limitless"
+          ],
+          "paragraphs": [
+            "Cũng trong nếp tu với ba phẩm chất, Ngài có lúc thấy ánh sáng và hình sắc hạn lượng, có giới hạn; có lúc thấy cả hai vô lượng, không giới hạn, suốt đêm, suốt ngày hoặc suốt ngày đêm. Ngài xét vì sao.",
+            "Khi định hạn lượng, mắt, tầm thấy trong trải nghiệm ấy, hạn lượng; với tầm thấy ấy, ánh sáng và hình sắc nhận được đều hạn lượng. Khi định vô lượng, tầm thấy vô lượng; ánh sáng và hình sắc được thấy vô lượng. Cả hai phạm vi được nhận biết suốt đêm, suốt ngày hoặc suốt ngày đêm, tùy phạm vi định và tầm thấy ấy."
+          ]
+        },
+        {
+          "id": "forms-of-concentration",
+          "kind": "teaching",
+          "heading": "Sau khi các chướng đã được đoạn trừ",
+          "meaningUnits": [
+            "eleven-eliminated",
+            "developing-samadhi"
+          ],
+          "paragraphs": [
+            "Sau khi biết từng thứ là tùy phiền não tâm, cả mười một đã được đoạn trừ: nghi, không tác ý, hôn trầm và buồn ngủ, sợ hãi, phấn chấn, thô trọng, tinh cần quá độ, tinh cần quá lơi, tham cầu, tưởng khác nhau, quá chú tâm vào sắc. Ngài nghĩ: các chướng đã được bỏ, nay tu định theo ba cách.",
+            "Ngài tu định có tầm và tứ, hướng tâm vào đề mục và giữ tâm liên tục với nó; không tầm, chỉ còn tứ; không tầm cũng không tứ. Ngài còn tu định có hỷ, niềm vui mừng, và không hỷ; định tương ưng lạc, sự dễ chịu, và tương ưng xả, sự quân bình. Các mô tả cho thấy những phương diện khác nhau của định được tu tập."
+          ]
+        },
+        {
+          "id": "release",
+          "kind": "teaching",
+          "heading": "Tri kiến về sự giải thoát bất động",
+          "meaningUnits": [
+            "unshakable-release",
+            "ending"
+          ],
+          "paragraphs": [
+            "Khi định có tầm/tứ, không tầm chỉ tứ, không cả hai, có hỷ, không hỷ, cùng lạc, cùng xả đều đã được tu, tri kiến khởi lên nơi Ngài: tâm giải thoát của Ngài không lay chuyển; đây là lần sinh cuối, không còn tái sinh.",
+            "Phật nói xong, Anuruddha hoan hỷ, tán đồng. Kinh Tùy Phiền Não kết thúc, là bài thứ tám trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Quan sát cách mình dồn sức",
+          "meaningUnits": [
+            "anuruddha-kindness",
+            "too-tight",
+            "too-loose",
+            "longing"
+          ],
+          "paragraphs": [
+            "Có thể chọn một việc thường làm để xét: mình đang lơ là, cố ép quá mức hay nôn nóng muốn nắm kết quả? Điều chỉnh một bước vừa sức và quan sát lại. Trong việc chung, giữ lời nói và thái độ tử tế cả khi người kia vắng mặt. Đây là gợi ý thực hành hiện đại về thái độ trong công việc; tiến trình tu định trong kinh được dẫn tới tâm giải thoát."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Dành cho người lớn tuổi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Khi lời nói làm người gần hóa xa",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "quarrel"
+          ],
+          "paragraphs": [
+            "Kinh Tùy Phiền Não, Trung Bộ 128, bắt đầu bằng lời người truyền kinh thuật điều đã nghe. Tại Kosambī, Đức Phật ở tu viện Ghosita. Các tỳ-kheo, những người nam xuất gia, đang tranh chấp, cãi vã, tranh luận; lời họ dùng sắc nhọn như những mũi giáo đâm vào nhau. Cảnh mở đầu dẫn đến câu hỏi về cả cách sống chung lẫn cách chăm sóc tâm."
+          ]
+        },
+        {
+          "id": "request",
+          "kind": "teaching",
+          "heading": "Một người tìm đến cầu giúp",
+          "meaningUnits": [
+            "report"
+          ],
+          "paragraphs": [
+            "Một vị tỳ-kheo đến đảnh lễ Phật rồi đứng một bên, kể lại cuộc tranh cãi. Vị ấy thỉnh Ngài vì lòng thương mà đến với các vị đang bất hòa. Phật im lặng nhận lời và đi đến chỗ họ."
+          ]
+        },
+        {
+          "id": "three",
+          "kind": "teaching",
+          "heading": "Lời khuyên được nhắc ba lần",
+          "meaningUnits": [
+            "first-refusal",
+            "second-refusal",
+            "third-refusal"
+          ],
+          "paragraphs": [
+            "Phật bảo họ dừng tranh chấp, cãi vã, xung đột và tranh luận. Một vị đáp xin Ngài khoan can dự: Ngài là bậc chủ của Pháp, lời dạy tu học; xin Ngài thảnh thơi sống an vui ngay hiện tại, còn họ sẽ được biết đến vì cuộc tranh này.",
+            "Lần thứ hai, Phật vẫn dặn dừng bốn điều ấy; cũng vị kia nhắc lại lời xin Ngài thảnh thơi, sống an vui, để họ được biết đến vì cuộc tranh. Đến lần thứ ba, lời khuyên và lời đáp vẫn như hai lần trước. Cánh cửa lắng nghe chưa mở."
+          ]
+        },
+        {
+          "id": "verses",
+          "kind": "teaching",
+          "heading": "Đứng lại nói kệ rồi lên đường",
+          "meaningUnits": [
+            "departure",
+            "no-one-fool"
+          ],
+          "paragraphs": [
+            "Buổi sáng, Phật đắp y, mang bát và y vào Kosambī khất thực, nhận thức ăn được cho. Sau khi trở về từ khất thực và dùng bữa, Ngài thu xếp chỗ ở, cầm bát cùng y, rồi đứng nói kệ.",
+            "Kệ nói: giữa đám người ồn ào, không ai tự thấy mình ngu; Tăng, cộng đồng xuất gia, đang chia rẽ mà họ chẳng nghĩ điều gì khác. Mê muội lại tỏ ra có trí, lời vượt khỏi phạm vi, muốn nói gì cứ nói mà không biết điều gì đang dẫn mình đi."
+          ]
+        },
+        {
+          "id": "resentment",
+          "kind": "teaching",
+          "heading": "Chuyện đã qua còn được giữ trong lòng",
+          "meaningUnits": [
+            "grudge",
+            "non-hatred",
+            "restraint"
+          ],
+          "paragraphs": [
+            "“Họ đã mắng tôi, đánh tôi, thắng tôi, cướp của tôi”: giữ mãi bốn chuyện ấy thì hận không lắng. Cũng với bốn chuyện mắng, đánh, thắng, cướp ấy, người không ôm giữ lòng hận thì hận lắng xuống.",
+            "Hận thù chưa từng được dập bằng hận thù. Không hận mới làm hận dịu; đó là pháp có từ xưa. Có người không biết ở đây cần tự chế, tự giữ mình; người biết điều ấy thì nhờ đó tranh chấp được lắng yên."
+          ]
+        },
+        {
+          "id": "companions",
+          "kind": "teaching",
+          "heading": "Bạn đồng hành và sự một mình",
+          "meaningUnits": [
+            "violent-unity",
+            "wise-companion",
+            "alone"
+          ],
+          "paragraphs": [
+            "Kệ còn hỏi: những người chặt xương, đoạt mạng, cướp bò, ngựa, tài sản, cướp phá quốc gia mà còn có lúc hòa hợp, sao các thầy lại không?",
+            "Nếu có người bạn sáng suốt, có trí, sống tốt, hãy cùng vượt mọi hiểm nguy, đi với nhau trong niềm vui và niệm, sự nhớ giữ và chú ý. Nếu không tìm được bạn như thế, hãy như vua rời quốc gia đã chinh phục, như voi rừng đi một mình. Một mình tốt hơn kết bạn với người ngu; độc hành, không làm ác và thảnh thơi như voi. Điều làm sự đồng hành đáng quý là phẩm chất của người cùng đi."
+          ]
+        },
+        {
+          "id": "bhagu",
+          "kind": "teaching",
+          "heading": "Một cuộc thăm hỏi yên lành",
+          "meaningUnits": [
+            "bhagu-arrival",
+            "bhagu-health",
+            "bhagu-teaching"
+          ],
+          "paragraphs": [
+            "Nói kệ xong, Phật đến làng Bālakaloṇakāra, nơi Bhagu đang ở. Thấy Ngài từ xa, Bhagu soạn chỗ ngồi và nước rửa chân. Phật ngồi, rửa chân; Bhagu đảnh lễ rồi ngồi một bên.",
+            "Ngài hỏi vị ấy có dễ chịu, có đủ sức, có khỏi mệt nhọc vì khất thực không. Bhagu thưa có cả ba. Phật giảng Pháp để chỉ dạy, khuyến khích, làm phấn chấn và hoan hỷ. Sau đó Ngài đứng dậy, đi đến rừng Pācīnavaṁsa."
+          ]
+        },
+        {
+          "id": "gate",
+          "kind": "teaching",
+          "heading": "Thầy đã đến khu rừng",
+          "meaningUnits": [
+            "keeper",
+            "teacher-arrived",
+            "call-friends"
+          ],
+          "paragraphs": [
+            "Anuruddha, Nandiya và Kimila sống trong rừng ấy. Người giữ vườn thấy Phật từ xa, xin vị đại sa-môn, người xuất gia, đừng vào: ba người tu đang mong điều tốt cho mình, xin đừng quấy rầy.",
+            "Anuruddha nghe vậy, bảo người giữ vườn đừng ngăn cản: đó là Đức Phật, Thầy của họ đã đến. Vị ấy đi tới Nandiya và Kimila, hai lần mời các bạn cùng ra đón Thầy."
+          ]
+        },
+        {
+          "id": "welcome",
+          "kind": "teaching",
+          "heading": "Cùng nhau đón tiếp",
+          "meaningUnits": [
+            "welcome",
+            "three-health"
+          ],
+          "paragraphs": [
+            "Ba người ra đón. Một vị nhận bát và y, một vị soạn chỗ ngồi, một vị đặt nước rửa chân. Phật ngồi, rửa chân; các vị đảnh lễ rồi ngồi bên Ngài.",
+            "Phật hỏi cả ba có dễ chịu, có đủ sức, có khỏi mệt nhọc vì khất thực không. Các vị thưa cả ba điều đều được như vậy."
+          ]
+        },
+        {
+          "id": "harmony",
+          "kind": "teaching",
+          "heading": "Hòa hợp bằng thân, lời và ý",
+          "meaningUnits": [
+            "harmony-question",
+            "anuruddha-kindness"
+          ],
+          "paragraphs": [
+            "Ngài hỏi họ có hòa hợp, vui vẻ với nhau, không tranh cãi, hòa như sữa với nước, nhìn nhau bằng ánh mắt thân ái không. Họ thưa có. Phật hỏi: bằng cách nào?",
+            "Anuruddha nghĩ mình được lợi lớn, được điều lành khi sống bên những bạn đồng phạm hạnh, cùng đời tu thanh tịnh. Vị ấy giữ hành động, lời nói và ý nghĩ từ ái, đầy lòng thương mến, đối với các bạn, cả trước mặt lẫn sau lưng. Vị ấy nghĩ nên gác ý riêng mà thuận theo bạn, rồi thật sự làm như vậy. Thân mỗi người một khác, nhưng theo vị ấy, tâm như là một."
+          ]
+        },
+        {
+          "id": "friends",
+          "kind": "teaching",
+          "heading": "Cả ba đều nhận phần mình",
+          "meaningUnits": [
+            "nandiya-kindness",
+            "kimila-kindness"
+          ],
+          "paragraphs": [
+            "Nandiya cũng thuật cùng nếp sống ấy. Kimila cũng trình bày: được sống bên các bạn cùng tu là lợi lớn, là điều lành; với họ, vị ấy giữ thân, lời, ý từ ái cả công khai lẫn riêng tư. Từ ý nghĩ gác ý mình để thuận theo các bạn, vị ấy đi đến thực hiện điều đó; thân khác nhưng tâm như một.",
+            "Các vị kết rằng chính như thế họ sống hòa hợp, vui vẻ, không tranh cãi, như sữa hòa nước và nhìn nhau thân ái. Mỗi người đều nói về phần mình đang thực hiện trong tình bạn tu học ấy."
+          ]
+        },
+        {
+          "id": "daily",
+          "kind": "teaching",
+          "heading": "Nếp tu trong việc ăn và dọn",
+          "meaningUnits": [
+            "diligence-question",
+            "first-home",
+            "last-home"
+          ],
+          "paragraphs": [
+            "Phật khen “lành thay” hai lần, rồi hỏi họ có không phóng dật, không lơ là tu tập, có nhiệt tâm và tinh cần không. Họ xác nhận. Khi Ngài hỏi cách sống, họ kể những việc đều đặn hằng ngày.",
+            "Người khất thực trong làng về trước soạn ghế, nước uống, nước dùng và thùng rác. Người về sau, nếu có thức ăn dư và muốn thì ăn; nếu không muốn, bỏ nơi ít cỏ hoặc chỗ nước không có sinh vật. Vị ấy dọn ghế, hai loại nước, rửa rồi cất thùng rác và quét nhà ăn."
+          ]
+        },
+        {
+          "id": "water",
+          "kind": "teaching",
+          "heading": "Biết khi nào cần thêm một người",
+          "meaningUnits": [
+            "water",
+            "five-days"
+          ],
+          "paragraphs": [
+            "Ai thấy lu nước uống, nước dùng hay nước nhà vệ sinh cạn thì tiếp đầy. Nếu quá sức, vị ấy ra hiệu bằng tay gọi người thứ hai; hai người cùng khiêng, không vì việc ấy mà mở lời.",
+            "Cứ năm ngày, họ lại ngồi với nhau suốt đêm đàm luận Pháp. Đó là cách họ sống không lơ là, nhiệt tâm và tinh cần. Sự yên lặng trong một việc cùng làm đi cùng những buổi trao đổi dài về điều tu học."
+          ]
+        },
+        {
+          "id": "shared-example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: một buổi sinh hoạt chung",
+          "meaningUnits": [
+            "anuruddha-kindness",
+            "water"
+          ],
+          "paragraphs": [
+            "Trong một nhóm sinh hoạt, có người chuẩn bị bàn ghế, người lo nước, người dọn sau buổi gặp. Khi một việc vượt sức một người, nhờ thêm người giúp là cách giữ việc chung được chu toàn. Thái độ tử tế cũng được giữ khi người bạn vắng mặt, trong lời kể và cả ý nghĩ về họ.",
+            "Ví dụ này nối với tinh thần chăm sóc nhau trong kinh. Điều có thể thử là nhìn lại phần mình đang nhận, rồi chọn một thay đổi cụ thể giúp nhóm sống dễ chịu hơn."
+          ]
+        },
+        {
+          "id": "higher",
+          "kind": "teaching",
+          "heading": "Một điều các vị chưa hiểu rõ",
+          "meaningUnits": [
+            "higher-attainment",
+            "light-vanishes",
+            "before-awakening"
+          ],
+          "paragraphs": [
+            "Phật lại khen hai tiếng “lành thay”. Với nếp sống không lơ là, nhiệt tâm, tinh cần ấy, các vị đã chứng được pháp vượt mức người thường, tri kiến (sự biết và thấy) đặc biệt xứng bậc Thánh, một trạng thái an trú (sống an ổn) thoải mái nào chưa? Họ thưa có nhận thấy ánh sáng và thấy hình sắc, nhưng rồi cả hai mau biến mất, tướng ấy chưa được hiểu rõ.",
+            "Phật dặn cần hiểu rõ tướng, dấu hiệu của trải nghiệm này. Ngài kể: trước khi giác ngộ, lúc còn là Bồ-tát chưa giác ngộ, mình cũng tu với ba phẩm chất ấy, nhận ánh sáng và thấy hình sắc rồi chúng mau mất. Ngài tự hỏi nguyên nhân và điều kiện của việc đó."
+          ]
+        },
+        {
+          "id": "first-three",
+          "kind": "teaching",
+          "heading": "Từ nghi ngờ đến sự trì trệ",
+          "meaningUnits": [
+            "doubt",
+            "inattention",
+            "drowsiness"
+          ],
+          "paragraphs": [
+            "Ngài nhận ra nghi hoặc khởi lên làm định, sự tập trung vững vàng của tâm, rơi mất. Định mất thì ánh sáng và việc thấy hình sắc mất. Ngài quyết tu để nghi không khởi lại.",
+            "Tiếp tục không lơ là, nhiệt tâm, tinh cần, Ngài lại thấy rồi mất, lại hỏi nhân duyên. Lần thứ hai, không tác ý, không hướng sự chú ý, làm định mất rồi cả hai mất; Ngài quyết cả nghi và không tác ý không tái khởi. Lần thứ ba, hôn trầm và buồn ngủ, sự trì trệ ngái ngủ, gây cùng chuỗi ấy; quyết tâm lúc này bao gồm đủ ba chướng."
+          ]
+        },
+        {
+          "id": "fright",
+          "kind": "teaching",
+          "heading": "Cơn giật mình trên đường dài",
+          "meaningUnits": [
+            "fright"
+          ],
+          "paragraphs": [
+            "Mỗi chặng tiếp vẫn có nếp tu ba phẩm chất, thấy ánh sáng và hình sắc rồi cả hai mau mất, hỏi nhân duyên và nhận ra chướng làm định rơi mất. Khi chướng mới được nhận diện, Ngài quyết giữ cả nó lẫn mọi chướng trước đó không khởi lại.",
+            "Thứ tư là sợ hãi. Kinh ví một người đi đường dài bị giật mình khi chim cút vụt bay lên từ hai bên. Sợ hãi làm định mất, rồi ánh sáng và thấy sắc mất; Ngài quyết không tái khởi cả bốn chướng đã biết."
+          ]
+        },
+        {
+          "id": "excitement",
+          "kind": "teaching",
+          "heading": "Quá phấn chấn hoặc nặng nề",
+          "meaningUnits": [
+            "excitement",
+            "heaviness"
+          ],
+          "paragraphs": [
+            "Thứ năm là phấn chấn, được ví như người tìm một cửa kho báu mà gặp cùng lúc năm cửa. Phấn chấn làm định rơi mất, cả ánh sáng và thấy sắc mất; Ngài quyết cả năm chướng không khởi lại.",
+            "Thứ sáu là thô trọng, sự nặng nề không thoải mái. Trong chặng tu và tự xét tiếp, Ngài thấy nó làm định mất, kéo theo cả hai trải nghiệm. Quyết tâm ngăn tái khởi lúc này giữ đủ sáu chướng."
+          ]
+        },
+        {
+          "id": "effort",
+          "kind": "teaching",
+          "heading": "Nắm quá chặt, giữ quá lỏng",
+          "meaningUnits": [
+            "too-tight",
+            "too-loose"
+          ],
+          "paragraphs": [
+            "Thứ bảy là tinh cần quá độ: một người dùng hai tay nắm chim cút quá chặt khiến chim chết ngay tại chỗ. Thứ tám là tinh cần quá lơi: giữ chim quá lỏng thì chim bay khỏi tay.",
+            "Trong mỗi lần tu và xét nhân duyên, Ngài nhận ra nỗ lực quá căng hoặc quá lơi làm định rơi mất, rồi ánh sáng cùng việc thấy sắc mất. Ngài quyết giữ đủ bảy chướng, rồi đủ tám chướng, không khởi lại. Hai hình ảnh làm rõ sự khác nhau giữa sức tu vững vàng với cách dồn sức thiếu cân bằng."
+          ]
+        },
+        {
+          "id": "last-three",
+          "kind": "teaching",
+          "heading": "Những điều tiếp tục làm tâm lệch đi",
+          "meaningUnits": [
+            "longing",
+            "diversity",
+            "over-focusing"
+          ],
+          "paragraphs": [
+            "Thứ chín là tham cầu, mong muốn nắm được. Thứ mười là tưởng khác nhau, những nhận diện đa dạng. Ở từng chặng tu với ba phẩm chất, thấy rồi mất và hỏi nhân duyên, Ngài nhận ra chúng làm định mất, kéo theo ánh sáng và thấy sắc mất. Quyết tâm không tái khởi được giữ cho đủ chín, rồi đủ mười chướng.",
+            "Thứ mười một là chú tâm quá mức vào hình sắc. Lại tu như trước, lại thấy cả hai rồi mau mất, Ngài xét và nhận ra sự quá chú tâm làm định rơi mất. Ngài quyết tu để toàn bộ mười một chướng không khởi lại."
+          ]
+        },
+        {
+          "id": "given-up",
+          "kind": "teaching",
+          "heading": "Đã biết rõ và đã từ bỏ",
+          "meaningUnits": [
+            "gave-up-eleven"
+          ],
+          "paragraphs": [
+            "Ngài kể mình đã biết rõ từng thứ là tùy phiền não, điều làm tâm vẩn đục, rồi đã từ bỏ từng thứ: nghi, không tác ý, hôn trầm và buồn ngủ, sợ hãi, phấn chấn, thô trọng, tinh cần quá độ, tinh cần quá lơi, tham cầu, tưởng khác nhau, quá chú tâm vào hình sắc. Điều kể ở đây đã đi đến việc từ bỏ thực sự."
+          ]
+        },
+        {
+          "id": "attention",
+          "kind": "teaching",
+          "heading": "Có ánh sáng, có hình sắc",
+          "meaningUnits": [
+            "light-or-forms"
+          ],
+          "paragraphs": [
+            "Trong nếp tu không lơ là, nhiệt tâm, tinh cần, Ngài có lúc nhận ánh sáng nhưng không thấy sắc, có lúc thấy sắc nhưng không nhận ánh sáng; suốt một đêm, một ngày, hoặc cả ngày đêm. Ngài tự hỏi vì sao.",
+            "Khi không tác ý tướng sắc mà tác ý tướng ánh sáng, Ngài nhận ánh sáng không thấy sắc. Khi không tác ý tướng ánh sáng mà tác ý tướng sắc, Ngài thấy sắc không nhận ánh sáng. Cả hai cách được kể với thời gian suốt đêm, suốt ngày hoặc suốt ngày đêm."
+          ]
+        },
+        {
+          "id": "scope",
+          "kind": "teaching",
+          "heading": "Phạm vi của định và của sự thấy",
+          "meaningUnits": [
+            "limited-or-limitless"
+          ],
+          "paragraphs": [
+            "Cũng với ba phẩm chất tu tập, có lúc Ngài nhận ánh sáng và thấy sắc hạn lượng, có giới hạn; có lúc cả hai vô lượng, không giới hạn, suốt đêm, ngày, hoặc ngày đêm. Tự xét nguyên nhân và điều kiện, Ngài thấy định hạn lượng thì mắt, tầm thấy trong trải nghiệm ấy, hạn lượng; do đó ánh sáng và hình sắc được thấy cũng hạn lượng.",
+            "Khi định vô lượng, tầm thấy vô lượng, ánh sáng và hình sắc cũng vô lượng. Những phạm vi ấy đều được nhận biết qua đêm, ngày hoặc cả ngày đêm."
+          ]
+        },
+        {
+          "id": "cleared",
+          "kind": "teaching",
+          "heading": "Sau khi mười một chướng được đoạn trừ",
+          "meaningUnits": [
+            "eleven-eliminated"
+          ],
+          "paragraphs": [
+            "Ngài nhắc lại: sau khi biết rõ mỗi điều là tùy phiền não tâm, tất cả đã được đoạn trừ — nghi, không tác ý, hôn trầm và buồn ngủ, sợ hãi, phấn chấn, thô trọng, tinh cần quá độ, tinh cần quá lơi, tham cầu, tưởng khác nhau, quá chú tâm vào hình sắc. Với tình trạng các chướng đã được bỏ ấy, Ngài nghĩ đến việc tu định tiếp."
+          ]
+        },
+        {
+          "id": "concentration",
+          "kind": "teaching",
+          "heading": "Tu tập các phương diện của định",
+          "meaningUnits": [
+            "developing-samadhi"
+          ],
+          "paragraphs": [
+            "Ngài nghĩ: nay hãy tu định theo ba cách. Ngài tu định có tầm và tứ, hướng tâm vào đề mục và giữ tâm liên tục với nó; định không tầm, chỉ còn tứ; định không có cả tầm lẫn tứ.",
+            "Ngài cũng tu định có hỷ, niềm vui mừng, và không hỷ; định đi cùng lạc, sự dễ chịu, và đi cùng xả, sự quân bình. Các nét này cho thấy những phương diện của định trong lời hồi thuật."
+          ]
+        },
+        {
+          "id": "freedom",
+          "kind": "teaching",
+          "heading": "Tâm giải thoát không lay chuyển",
+          "meaningUnits": [
+            "unshakable-release",
+            "ending"
+          ],
+          "paragraphs": [
+            "Khi đã tu đủ định có tầm/tứ, không tầm chỉ tứ, không cả hai, có hỷ, không hỷ, cùng lạc và cùng xả, tri kiến khởi lên nơi Ngài: tâm giải thoát của Ngài là bất động, không lay chuyển; đây là lần sinh cuối, không còn tái sinh.",
+            "Phật nói xong, Anuruddha hoan hỷ tán đồng. Kinh Tùy Phiền Não kết thúc, là bài thứ tám trong nhóm kinh này."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một việc để nhìn lại hôm nay",
+          "meaningUnits": [
+            "grudge",
+            "anuruddha-kindness",
+            "too-tight",
+            "too-loose"
+          ],
+          "paragraphs": [
+            "Có thể bắt đầu từ một mối quan hệ đang cần chăm sóc: mình có đang nhắc mãi điều bị xúc phạm, hay giữ được sự tử tế cả khi người kia vắng mặt? Chọn một lời nói hoặc việc làm vừa sức để thay đổi. Với việc đang theo đuổi, cũng thử nhận ra lúc mình quá ép và lúc mình buông lơi. Đây là gợi ý thực hành hiện đại từ những điểm gần gũi trong kinh. Đích đến của tiến trình tu tập được kể là tâm giải thoát không lay chuyển."
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1919 @@
+{
+  "schemaVersion": 1,
+  "uid": "dn15",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "e94db212b9375c37f5edd205921a7c425f1f579b946f45cea9017ca754b6b5d8"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "0026f9c2cf287abab6a2e551cc25edd0bacbc3f634ca65ed29e42a911c5aea6c"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/dn/dn15_translation-vi-project.json",
+      "commit": "640b1410c7b2b50ee81d417886b75605189ea0a2",
+      "sha256": "b3b6c287fd1187cfb9032f106bbc9779f10528d35409937bc0c65672d892dc40"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/dn/dn15.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "6c481cd18a0d240943688f083602261a72462b97a9760e14d9ff6573542a8eee"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/dn/dn15_comment-vi-project.json",
+      "commit": "640b1410c7b2b50ee81d417886b75605189ea0a2",
+      "sha256": "3c9bb03ea7edd9eb18dc5c4569a9e5e1f8a47bde48fba4c80c67eeaebf0ca26c"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Kinh Đại Duyên",
+      "segments": [
+        "dn15:0.1",
+        "dn15:0.2"
+      ],
+      "summary": "Trường Bộ 15 mang tên Mahānidāna, Đại Duyên."
+    },
+    {
+      "id": "depth",
+      "title": "Duyên khởi sâu xa",
+      "segments": [
+        "dn15:1.0",
+        "dn15:1.1",
+        "dn15:1.2",
+        "dn15:1.3",
+        "dn15:1.4",
+        "dn15:1.5",
+        "dn15:1.6",
+        "dn15:1.7",
+        "dn15:1.8"
+      ],
+      "summary": "Nhãn duyên khởi; lời tôi được nghe, Đức Phật ở Kammāsadhamma xứ Kuru. Ānanda đảnh lễ, ngồi một bên, tán thán duyên khởi sâu xa mà với mình dường như rất rõ. Đức Phật hai lần bảo chớ nói vậy: không hiểu, không thâm nhập pháp sâu này khiến chúng sinh rối như chỉ, búi sợi, cỏ muñja-pabbaja, không vượt khổ cảnh, ác thú, đọa xứ, luân hồi."
+    },
+    {
+      "id": "questions",
+      "title": "Chín cặp hỏi về duyên",
+      "segments": [
+        "dn15:2.1",
+        "dn15:2.2",
+        "dn15:2.3",
+        "dn15:2.4",
+        "dn15:2.5",
+        "dn15:2.6",
+        "dn15:2.7",
+        "dn15:2.8",
+        "dn15:2.9",
+        "dn15:2.10",
+        "dn15:2.11",
+        "dn15:2.12",
+        "dn15:2.13",
+        "dn15:2.14",
+        "dn15:2.15",
+        "dn15:2.16",
+        "dn15:2.17",
+        "dn15:2.18"
+      ],
+      "summary": "Với mỗi câu có duyên không đáp có, hỏi duyên gì đáp: già-chết do sinh; sinh do hữu; hữu do thủ; thủ do ái; ái do thọ; thọ do xúc; xúc do danh-sắc; danh-sắc do thức; thức do danh-sắc. Không thêm lục nhập, hành hoặc vô minh vào chuỗi riêng này."
+    },
+    {
+      "id": "whole-chain",
+      "title": "Toàn bộ khối khổ tập khởi",
+      "segments": [
+        "dn15:3.1",
+        "dn15:3.2"
+      ],
+      "summary": "Tổng hợp chiều danh-sắc→thức→danh-sắc→xúc→thọ→ái→thủ→hữu→sinh→già-chết, sầu, bi, khổ, ưu, não. Đó là tập khởi toàn bộ khối khổ; không đặt sầu bi sau một mắt xích riêng già-chết."
+    },
+    {
+      "id": "birth",
+      "title": "Sinh là duyên già-chết",
+      "segments": [
+        "dn15:4.1",
+        "dn15:4.2",
+        "dn15:4.3",
+        "dn15:4.4",
+        "dn15:4.5"
+      ],
+      "summary": "Giả sử không sinh ở đâu/ai/hình thức nào: thiên, gandhabba, yakkha, bhūta, người, bốn chân, chim, bò sát đều không sinh vào loại mình; sinh không có và diệt thì già-chết có thấy không? Ānanda đáp không. Sinh là nhân, nguồn gốc, tập khởi, duyên của già-chết."
+    },
+    {
+      "id": "becoming",
+      "title": "Ba hữu và sinh",
+      "segments": [
+        "dn15:5.1",
+        "dn15:5.2",
+        "dn15:5.3",
+        "dn15:5.4",
+        "dn15:5.5"
+      ],
+      "summary": "Nếu hoàn toàn không có dục hữu, sắc hữu, vô sắc hữu ở ai/nơi nào, hữu diệt thì sinh có thấy không? Đáp không. Hữu là nhân, nguồn gốc, tập khởi, duyên của sinh."
+    },
+    {
+      "id": "grasping",
+      "title": "Bốn thủ và hữu",
+      "segments": [
+        "dn15:6.1",
+        "dn15:6.2",
+        "dn15:6.3",
+        "dn15:6.4",
+        "dn15:6.5"
+      ],
+      "summary": "Nếu không có thủ ở mọi nơi/ai/hình thức: dục thủ, kiến thủ, giới cấm thủ, ngã luận thủ; thủ diệt thì hữu có thấy không? Đáp không. Thủ là nhân, nguồn gốc, tập khởi, duyên của hữu."
+    },
+    {
+      "id": "six-cravings",
+      "title": "Sáu ái và thủ",
+      "segments": [
+        "dn15:7.1",
+        "dn15:7.2",
+        "dn15:7.3",
+        "dn15:7.4",
+        "dn15:7.5"
+      ],
+      "summary": "Nếu hoàn toàn không có ái sắc, thanh, hương, vị, đối tượng xúc chạm, pháp; ái diệt thì thủ có thấy không? Đáp không. Ái là nhân, nguồn gốc, tập khởi, duyên của thủ."
+    },
+    {
+      "id": "six-feelings",
+      "title": "Sáu thọ và ái",
+      "segments": [
+        "dn15:8.1",
+        "dn15:8.2",
+        "dn15:8.3",
+        "dn15:8.4",
+        "dn15:8.5"
+      ],
+      "summary": "Nếu không có thọ từ xúc mắt, tai, mũi, lưỡi, thân, ý ở ai/nơi/hình thức nào; thọ diệt thì ái có thấy không? Đáp không. Thọ là nhân, nguồn gốc, tập khởi, duyên của ái."
+    },
+    {
+      "id": "social-chain",
+      "title": "Từ thọ đến xung đột",
+      "segments": [
+        "dn15:9.1",
+        "dn15:9.2"
+      ],
+      "summary": "Chuỗi thọ→ái→tầm cầu→lợi→quyết định→tham dục→đắm trước→chấp giữ (pariggaha)→hà tiện→thủ hộ. Do thủ hộ sinh tám hậu quả ác bất thiện: cầm gậy, cầm vũ khí, tranh đấu, xung đột, tranh luận, buộc tội nhau, nói ly gián, nói dối. Phân biệt pariggaha với thủ/upādāna của chuỗi trước."
+    },
+    {
+      "id": "guarding",
+      "title": "Thủ hộ và tám hậu quả",
+      "segments": [
+        "dn15:10.1",
+        "dn15:10.2",
+        "dn15:10.3",
+        "dn15:10.4"
+      ],
+      "summary": "Nhắc đủ tám hậu quả; giả sử thủ hộ hoàn toàn không có ở ai/nơi/hình thức nào, thủ hộ diệt thì các hậu quả ấy có sinh không? Không. Thủ hộ là nhân, nguồn gốc, tập khởi, duyên của chúng."
+    },
+    {
+      "id": "stinginess",
+      "title": "Hà tiện là duyên thủ hộ",
+      "segments": [
+        "dn15:11.1",
+        "dn15:11.2",
+        "dn15:11.3",
+        "dn15:11.4"
+      ],
+      "summary": "Nếu hà tiện hoàn toàn không có và diệt thì thủ hộ có thấy không? Không. Hà tiện là nhân, nguồn gốc, tập khởi, duyên của thủ hộ."
+    },
+    {
+      "id": "ownership",
+      "title": "Chấp giữ là duyên hà tiện",
+      "segments": [
+        "dn15:12.1",
+        "dn15:12.2",
+        "dn15:12.3",
+        "dn15:12.4"
+      ],
+      "summary": "Nếu chấp giữ hoàn toàn không có và diệt thì hà tiện có thấy không? Không. Chấp giữ là nhân, nguồn gốc, tập khởi, duyên của hà tiện."
+    },
+    {
+      "id": "attachment",
+      "title": "Đắm trước là duyên chấp giữ",
+      "segments": [
+        "dn15:13.1",
+        "dn15:13.2",
+        "dn15:13.3",
+        "dn15:13.4"
+      ],
+      "summary": "Nếu đắm trước hoàn toàn không có và diệt thì chấp giữ có thấy không? Không. Đắm trước là nhân, nguồn gốc, tập khởi, duyên của chấp giữ."
+    },
+    {
+      "id": "lust",
+      "title": "Tham dục là duyên đắm trước",
+      "segments": [
+        "dn15:14.1",
+        "dn15:14.2",
+        "dn15:14.3",
+        "dn15:14.4"
+      ],
+      "summary": "Nếu tham dục hoàn toàn không có và diệt thì đắm trước có thấy không? Không. Tham dục là nhân, nguồn gốc, tập khởi, duyên của đắm trước."
+    },
+    {
+      "id": "evaluation",
+      "title": "Quyết định là duyên tham dục",
+      "segments": [
+        "dn15:15.1",
+        "dn15:15.2",
+        "dn15:15.3",
+        "dn15:15.4"
+      ],
+      "summary": "Nếu sự quyết định hoàn toàn không có và diệt thì tham dục có thấy không? Không. Sự quyết định là nhân, nguồn gốc, tập khởi, duyên của tham dục trong nhánh này."
+    },
+    {
+      "id": "gain",
+      "title": "Có được là duyên quyết định",
+      "segments": [
+        "dn15:16.1",
+        "dn15:16.2",
+        "dn15:16.3",
+        "dn15:16.4"
+      ],
+      "summary": "Nếu lợi hoàn toàn không có và diệt thì quyết định có thấy không? Không. Lợi là nhân, nguồn gốc, tập khởi, duyên của quyết định."
+    },
+    {
+      "id": "search",
+      "title": "Tầm cầu là duyên có được",
+      "segments": [
+        "dn15:17.1",
+        "dn15:17.2",
+        "dn15:17.3",
+        "dn15:17.4"
+      ],
+      "summary": "Nếu tầm cầu hoàn toàn không có và diệt thì lợi có thấy không? Không. Tầm cầu là nhân, nguồn gốc, tập khởi, duyên của lợi."
+    },
+    {
+      "id": "three-cravings",
+      "title": "Ba ái và tầm cầu",
+      "segments": [
+        "dn15:18.1",
+        "dn15:18.2",
+        "dn15:18.3",
+        "dn15:18.4",
+        "dn15:18.5"
+      ],
+      "summary": "Nếu hoàn toàn không có dục ái, hữu ái, phi hữu ái ở ai/nơi/hình thức nào, ái diệt thì tầm cầu có thấy không? Không. Ái là nhân, nguồn gốc, tập khởi, duyên của tầm cầu."
+    },
+    {
+      "id": "convergence",
+      "title": "Hội tụ ở thọ",
+      "segments": [
+        "dn15:18.6"
+      ],
+      "summary": "Hai pháp này, tuy hai phương diện, cùng hội tụ vào một ở thọ. Giữ tham chiếu nén của câu, không khẳng định một giải nghĩa duy nhất về hai pháp."
+    },
+    {
+      "id": "contact",
+      "title": "Sáu xúc và thọ",
+      "segments": [
+        "dn15:19.1",
+        "dn15:19.2",
+        "dn15:19.3",
+        "dn15:19.4",
+        "dn15:19.5"
+      ],
+      "summary": "Nếu hoàn toàn không có xúc mắt, tai, mũi, lưỡi, thân, ý ở ai/nơi/hình thức nào, xúc diệt thì thọ có thấy không? Không. Xúc là nhân, nguồn gốc, tập khởi, duyên của thọ."
+    },
+    {
+      "id": "name-form-contact",
+      "title": "Bốn câu hỏi về danh-sắc và xúc",
+      "segments": [
+        "dn15:20.1",
+        "dn15:20.2",
+        "dn15:20.3",
+        "dn15:20.4",
+        "dn15:20.5",
+        "dn15:20.6",
+        "dn15:20.7",
+        "dn15:20.8",
+        "dn15:20.9",
+        "dn15:20.10"
+      ],
+      "summary": "Không có hình thái/dấu hiệu/đặc trưng/chỉ định của danh thân thì danh mục xúc nơi sắc thân có thấy không; thiếu những điều của sắc thân thì hữu đối xúc nơi danh thân có thấy không; thiếu cả danh và sắc thì một trong hai xúc có thấy không; thiếu những điều quy định danh-sắc thì xúc có thấy không. Bốn lần đều không. Danh-sắc là nhân, nguồn gốc, tập khởi, duyên của xúc; các dấu lược không đảo vị trí danh/sắc."
+    },
+    {
+      "id": "consciousness",
+      "title": "Ba câu hỏi về thức làm duyên danh-sắc",
+      "segments": [
+        "dn15:21.1",
+        "dn15:21.2",
+        "dn15:21.3",
+        "dn15:21.4",
+        "dn15:21.5",
+        "dn15:21.6",
+        "dn15:21.7",
+        "dn15:21.8"
+      ],
+      "summary": "Nếu thức không nhập thai mẹ thì danh-sắc kết tụ ở đó không; nếu nhập rồi rời đi thì danh-sắc sinh thành trạng thái này không; nếu thức bé trai/gái bị đoạn khi còn nhỏ thì danh-sắc tăng trưởng, phát triển, trưởng thành không. Đều không. Thức là nhân, nguồn gốc, tập khởi, duyên của danh-sắc; câu giả định, không thực thể linh hồn."
+    },
+    {
+      "id": "support",
+      "title": "Danh-sắc làm chỗ đứng cho thức",
+      "segments": [
+        "dn15:22.1",
+        "dn15:22.2",
+        "dn15:22.3",
+        "dn15:22.4"
+      ],
+      "summary": "Nếu thức không tìm được chỗ đứng trong danh-sắc thì sinh-già-chết, sự phát sinh khổ trong tương lai có thấy không? Không. Danh-sắc là nhân, nguồn gốc, tập khởi, duyên của thức, giữ chiều ngược lại với đoạn trước."
+    },
+    {
+      "id": "scope",
+      "title": "Phạm vi quy ước trong tương duyên",
+      "segments": [
+        "dn15:22.5",
+        "dn15:22.6"
+      ],
+      "summary": "Đến chừng đó có sinh, già, chết, qua đời, tái sinh; phạm vi danh xưng, ngôn ngữ, khái niệm, hoạt động trí và vòng luân hồi để hiện hữu này được quy ước: danh-sắc cùng thức vận hành duyên lẫn nhau."
+    },
+    {
+      "id": "self-descriptions",
+      "title": "Bốn cách tuyên bố ngã",
+      "segments": [
+        "dn15:23.0",
+        "dn15:23.1",
+        "dn15:23.2",
+        "dn15:23.3",
+        "dn15:23.4",
+        "dn15:23.5",
+        "dn15:23.6",
+        "dn15:23.7",
+        "dn15:23.8",
+        "dn15:23.9"
+      ],
+      "summary": "Nhãn phần tuyên bố ngã; bốn tổ hợp: hữu sắc-hữu hạn, hữu sắc-vô hạn, vô sắc-hữu hạn, vô sắc-vô hạn. Đây là những mô tả ngã được xem xét, không phải bốn loại ngã được xác nhận."
+    },
+    {
+      "id": "self-times",
+      "title": "Ba cách giữ mỗi quan niệm ngã",
+      "segments": [
+        "dn15:24.1",
+        "dn15:24.2",
+        "dn15:24.3",
+        "dn15:24.4",
+        "dn15:24.5",
+        "dn15:24.6",
+        "dn15:24.7",
+        "dn15:24.8",
+        "dn15:24.9",
+        "dn15:24.10",
+        "dn15:24.11",
+        "dn15:24.12",
+        "dn15:24.13"
+      ],
+      "summary": "Với từng trong bốn tổ hợp, người ấy tuyên bố ngã hiện tại như vậy; hoặc chắc sẽ như vậy ở nơi khác; hoặc hiện chưa vậy nhưng sẽ làm cho nó như vậy. Trong mỗi trường hợp, có thể nói quan kiến tương ứng tiềm ẩn. Kết phạm vi cách tuyên bố ngã; đủ bốn lần ba phương diện."
+    },
+    {
+      "id": "no-self-descriptions",
+      "title": "Không tuyên bố bốn loại ngã",
+      "segments": [
+        "dn15:25.0",
+        "dn15:25.1",
+        "dn15:25.2",
+        "dn15:25.3",
+        "dn15:25.4",
+        "dn15:25.5",
+        "dn15:25.6",
+        "dn15:25.7",
+        "dn15:25.8",
+        "dn15:25.9"
+      ],
+      "summary": "Nhãn phần không tuyên bố ngã; không tuyên bố ngã thuộc bất kỳ tổ hợp nào: hữu sắc-hữu hạn, hữu sắc-vô hạn, vô sắc-hữu hạn, vô sắc-vô hạn."
+    },
+    {
+      "id": "no-self-times",
+      "title": "Không nuôi từng quan niệm trong ba phương diện",
+      "segments": [
+        "dn15:26.1",
+        "dn15:26.2",
+        "dn15:26.3",
+        "dn15:26.4",
+        "dn15:26.5",
+        "dn15:26.6",
+        "dn15:26.7",
+        "dn15:26.8",
+        "dn15:26.9",
+        "dn15:26.10",
+        "dn15:26.11",
+        "dn15:26.12",
+        "dn15:26.13"
+      ],
+      "summary": "Với mỗi trong bốn tổ hợp, không tuyên bố ngã hiện tại như thế, không tuyên bố chắc sẽ như thế ở nơi khác, không dự định làm cho nó như thế khi chưa thế. Có thể nói quan kiến tương ứng không tiềm ẩn; kết phạm vi không tuyên bố, đủ bốn lần ba phủ định."
+    },
+    {
+      "id": "three-self-views",
+      "title": "Ba cách quán ngã quanh thọ",
+      "segments": [
+        "dn15:27.0",
+        "dn15:27.1",
+        "dn15:27.2",
+        "dn15:27.3",
+        "dn15:27.4",
+        "dn15:27.5"
+      ],
+      "summary": "Nhãn phần quán ngã; ba ý: thọ là ngã; thọ không là ngã và ngã không cảm thọ; thọ không là ngã, ngã không phải không cảm thọ, ngã có cảm thọ/có bản chất cảm thọ. Giữ đủ phủ định của quan niệm thứ ba."
+    },
+    {
+      "id": "three-feelings",
+      "title": "Cảm thọ nào được lấy làm ngã",
+      "segments": [
+        "dn15:28.1",
+        "dn15:28.2",
+        "dn15:28.3",
+        "dn15:28.4",
+        "dn15:28.5",
+        "dn15:28.6",
+        "dn15:28.7",
+        "dn15:28.8",
+        "dn15:28.9",
+        "dn15:28.10",
+        "dn15:28.11",
+        "dn15:28.12"
+      ],
+      "summary": "Hỏi người lấy thọ làm ngã chọn lạc, khổ hay không khổ không lạc. Khi cảm lạc chỉ lạc, không khổ/trung tính; khi khổ chỉ khổ, không lạc/trung tính; khi trung tính chỉ trung tính, không lạc/khổ."
+    },
+    {
+      "id": "feeling-changes",
+      "title": "Cả ba thọ do duyên và hoại diệt",
+      "segments": [
+        "dn15:29.1",
+        "dn15:29.2",
+        "dn15:29.3",
+        "dn15:29.4",
+        "dn15:29.5",
+        "dn15:29.6",
+        "dn15:29.7",
+        "dn15:29.8",
+        "dn15:29.9",
+        "dn15:29.10",
+        "dn15:29.11"
+      ],
+      "summary": "Từng thọ lạc/khổ/trung tính đều vô thường, hữu vi, duyên sinh, có tính tiêu hoại, suy tàn, phai đi, diệt. Với mỗi loại, cho đây là ngã rồi khi thọ diệt nói ngã biến mất. Quan niệm ấy thành ngã hiện tại vô thường, lạc khổ xen, sinh-diệt; không thích hợp quán thọ là ngã."
+    },
+    {
+      "id": "unfeeling-self",
+      "title": "Ngã không cảm thọ",
+      "segments": [
+        "dn15:30.1",
+        "dn15:30.2",
+        "dn15:30.3",
+        "dn15:30.4",
+        "dn15:30.5"
+      ],
+      "summary": "Hỏi người nói thọ không là ngã, ngã không cảm thọ: nơi hoàn toàn không có cái được cảm, còn ý niệm “Tôi là cái này” không? Đáp không. Quan niệm ấy không thích hợp."
+    },
+    {
+      "id": "feeling-self",
+      "title": "Ngã có bản chất cảm thọ",
+      "segments": [
+        "dn15:31.1",
+        "dn15:31.2",
+        "dn15:31.3",
+        "dn15:31.4",
+        "dn15:31.5",
+        "dn15:31.6",
+        "dn15:31.7"
+      ],
+      "summary": "Hỏi người nói thọ không là ngã nhưng ngã cảm/có bản chất cảm: giả sử mọi thọ diệt hoàn toàn không dư sót, còn “Tôi là cái này” không? Đáp không. Không thích hợp giữ quan niệm ấy; không phải chỉ bác lại đồng nhất thọ là ngã."
+    },
+    {
+      "id": "ungrasping",
+      "title": "Ba lối quán ngã được buông",
+      "segments": [
+        "dn15:32.1",
+        "dn15:32.2",
+        "dn15:32.3",
+        "dn15:32.4"
+      ],
+      "summary": "Tỳ-kheo không lấy thọ làm ngã, không lấy ngã không cảm thọ, không lấy ngã cảm/có bản chất cảm. Không quán vậy nên không chấp gì ở đời; không chấp thì không lo âu; không lo âu tự chứng Niết-bàn. Biết sinh tận, phạm hạnh thành, việc cần làm xong, không còn trở lại hiện hữu này."
+    },
+    {
+      "id": "after-death",
+      "title": "Không gán bốn quan điểm cho người giải thoát",
+      "segments": [
+        "dn15:32.5",
+        "dn15:32.6",
+        "dn15:32.7",
+        "dn15:32.8",
+        "dn15:32.9"
+      ],
+      "summary": "Với tỳ-kheo tâm giải thoát như vậy, không thích hợp nói vị ấy giữ một trong bốn quan kiến Như Lai sau chết: tồn tại; không tồn tại; vừa tồn tại vừa không tồn tại; chẳng tồn tại cũng chẳng không tồn tại. Không biến thành bốn đáp án bản thể hay xác nhận quan điểm thứ tư."
+    },
+    {
+      "id": "knowing-limits",
+      "title": "Giải thoát do thắng tri, không phải không biết",
+      "segments": [
+        "dn15:32.10",
+        "dn15:32.11"
+      ],
+      "summary": "Lý do: vị ấy thắng tri danh xưng/phạm vi danh xưng, ngôn ngữ/phạm vi ngôn ngữ, khái niệm/phạm vi khái niệm, trí/phạm vi trí, vòng luân hồi/sự vận hành và được giải thoát. Không thích hợp gán vị ấy quan kiến không biết không thấy."
+    },
+    {
+      "id": "plane-one",
+      "title": "Bảy trú xứ và trú xứ thứ nhất",
+      "segments": [
+        "dn15:33.0",
+        "dn15:33.1",
+        "dn15:33.2",
+        "dn15:33.3",
+        "dn15:33.4"
+      ],
+      "summary": "Nhãn bảy trú xứ; nêu bảy trú xứ của thức và hai xứ. Thứ nhất thân khác-tưởng khác: người, một số thiên, một số chúng sinh đọa xứ."
+    },
+    {
+      "id": "plane-two",
+      "title": "Trú xứ thứ hai",
+      "segments": [
+        "dn15:33.5",
+        "dn15:33.6"
+      ],
+      "summary": "Thân khác-tưởng giống, như Phạm Chúng thiên sinh ra lần đầu. Không tự đổi paṭhamābhinibbattā thành do sơ thiền như tham khảo diễn rộng."
+    },
+    {
+      "id": "plane-three",
+      "title": "Trú xứ thứ ba",
+      "segments": [
+        "dn15:33.7",
+        "dn15:33.8"
+      ],
+      "summary": "Thân giống-tưởng khác, như Quang Âm thiên."
+    },
+    {
+      "id": "plane-four",
+      "title": "Trú xứ thứ tư",
+      "segments": [
+        "dn15:33.9",
+        "dn15:33.10"
+      ],
+      "summary": "Thân giống-tưởng giống, như Biến Tịnh thiên."
+    },
+    {
+      "id": "plane-five",
+      "title": "Trú xứ thứ năm",
+      "segments": [
+        "dn15:33.11",
+        "dn15:33.12"
+      ],
+      "summary": "Vượt mọi sắc tưởng, các tưởng đối ngại mất, không tác ý tưởng sai biệt; nhận hư không vô biên, sinh vào Không vô biên xứ."
+    },
+    {
+      "id": "plane-six",
+      "title": "Trú xứ thứ sáu",
+      "segments": [
+        "dn15:33.13",
+        "dn15:33.14"
+      ],
+      "summary": "Hoàn toàn vượt Không vô biên xứ, với nhận thức “thức là vô biên”, sinh vào Thức vô biên xứ."
+    },
+    {
+      "id": "plane-seven",
+      "title": "Trú xứ thứ bảy",
+      "segments": [
+        "dn15:33.15",
+        "dn15:33.16"
+      ],
+      "summary": "Hoàn toàn vượt Thức vô biên xứ, nhận không có gì, sinh vào Vô sở hữu xứ."
+    },
+    {
+      "id": "two-dimensions",
+      "title": "Hai xứ nêu riêng",
+      "segments": [
+        "dn15:33.17"
+      ],
+      "summary": "Vô Tưởng Hữu Tình Xứ và Phi tưởng phi phi tưởng xứ được nêu riêng, không là trú xứ thứ tám/chín của danh mục bảy."
+    },
+    {
+      "id": "wisdom-liberation",
+      "title": "Biết rõ và không ưa đắm các xứ",
+      "segments": [
+        "dn15:34.1",
+        "dn15:34.2",
+        "dn15:34.3",
+        "dn15:34.4",
+        "dn15:34.5",
+        "dn15:34.6",
+        "dn15:34.7",
+        "dn15:34.8",
+        "dn15:34.9",
+        "dn15:34.10"
+      ],
+      "summary": "Với trú xứ1 rồi lược2–7, và hỏi riêng mỗi trong hai xứ: biết chính xứ ấy, tập khởi, biến mất, vị ngọt, nguy hại, xuất ly thì có nên ưa đắm không? Đáp không. Biết như thật tập khởi/biến mất/vị ngọt/nguy hại/xuất ly của cả bảy trú xứ và hai xứ, giải thoát không chấp thủ, gọi tuệ giải thoát."
+    },
+    {
+      "id": "liberations-one-three",
+      "title": "Ba giải thoát đầu",
+      "segments": [
+        "dn15:35.0",
+        "dn15:35.1",
+        "dn15:35.2",
+        "dn15:35.3",
+        "dn15:35.4",
+        "dn15:35.5",
+        "dn15:35.6",
+        "dn15:35.7",
+        "dn15:35.8"
+      ],
+      "summary": "Nhãn tám giải thoát và hỏi tám là gì. Thứ1 có sắc, thấy các sắc; thứ2 không tưởng sắc bên trong, thấy sắc ngoài; thứ3 chú tâm hoàn toàn vào tịnh tướng. Đây là thành tựu tu tâm, không chỉ nhìn cảnh đẹp."
+    },
+    {
+      "id": "liberations-four-six",
+      "title": "Giải thoát thứ tư đến thứ sáu",
+      "segments": [
+        "dn15:35.9",
+        "dn15:35.10",
+        "dn15:35.11",
+        "dn15:35.12",
+        "dn15:35.13",
+        "dn15:35.14"
+      ],
+      "summary": "Thứ4 vượt sắc tưởng, hết tưởng đối ngại, không chú ý tưởng sai biệt, nhận hư không vô biên và chứng trú Không vô biên xứ; thứ5 vượt hoàn toàn xứ ấy, với nhận thức “thức là vô biên”, chứng trú Thức vô biên xứ; thứ6 vượt hoàn toàn xứ ấy, nhận không có gì, chứng trú Vô sở hữu xứ."
+    },
+    {
+      "id": "liberations-seven-eight",
+      "title": "Giải thoát thứ bảy và tám",
+      "segments": [
+        "dn15:35.15",
+        "dn15:35.16",
+        "dn15:35.17",
+        "dn15:35.18",
+        "dn15:35.19"
+      ],
+      "summary": "Thứ7 hoàn toàn vượt Vô sở hữu xứ, chứng trú Phi tưởng phi phi tưởng xứ; thứ8 hoàn toàn vượt xứ ấy, chứng trú sự diệt tưởng và thọ. Kết đó là tám giải thoát."
+    },
+    {
+      "id": "both-ways",
+      "title": "Câu phần giải thoát",
+      "segments": [
+        "dn15:36.1",
+        "dn15:36.2",
+        "dn15:36.3"
+      ],
+      "summary": "Tỳ-kheo nhập/xuất tám giải thoát thuận, nghịch, thuận-nghịch, ở đâu/khi nào/bao lâu tùy ý; đồng thời do lậu hoặc tận, tự chứng bằng thắng trí và an trú hiện tại tâm giải thoát, tuệ giải thoát vô lậu. Gọi câu phần giải thoát; không có câu phần giải thoát khác cao hay thù thắng hơn. Giữ điều kiện lậu tận riêng với sự thành thạo tám giải thoát."
+    },
+    {
+      "id": "ending",
+      "title": "Ānanda hoan hỷ",
+      "segments": [
+        "dn15:36.4",
+        "dn15:36.5",
+        "dn15:36.6"
+      ],
+      "summary": "Đức Phật nói xong, Ānanda hoan hỷ và tán đồng. Colophon gọi Đại Duyên bài thứ hai, trong khi nhãn đầu DN15; không suy thêm Ānanda chứng quả tại đây."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "DN15 — Lần theo những điều làm khổ sinh lên",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một điều thấy rõ vẫn có thể rất sâu",
+          "meaningUnits": [
+            "title",
+            "depth"
+          ],
+          "paragraphs": [
+            "Kinh Đại Duyên là bài DN15 của Trường Bộ. Người kể nói mình được nghe: Đức Phật đang ở thị trấn Kammāsadhamma của người Kuru. Tôn giả Ānanda đến đảnh lễ, ngồi một bên. Ngài thưa rằng duyên khởi thật kỳ diệu, rất sâu, vậy mà với ngài dường như rất rõ, rất dễ hiểu.",
+            "Đức Phật hai lần bảo Ānanda đừng nói như thế. Duyên khởi thật sâu xa. Vì chưa hiểu và chưa thâm nhập, chúng sinh rối như cuộn chỉ, như búi sợi, như cỏ muñja và pabbaja bện vào nhau; họ chưa vượt được cảnh khổ, nơi tái sinh xấu, chỗ đọa lạc và vòng luân hồi. Duyên khởi nghĩa là điều này có mặt nhờ những điều kiện, gọi là duyên. Bài sẽ lần theo từng điều kiện, không chỉ học thuộc một câu."
+          ]
+        },
+        {
+          "id": "questions",
+          "kind": "teaching",
+          "heading": "Chín lượt hỏi: điều ấy nương vào đâu?",
+          "meaningUnits": [
+            "questions",
+            "whole-chain"
+          ],
+          "paragraphs": [
+            "Đức Phật dạy: với từng điều dưới đây, nếu hỏi có duyên không, hãy đáp có. Hỏi già và chết do đâu, đáp do sinh. Sinh do hữu; hữu do thủ; thủ do ái; ái do thọ; thọ do xúc; xúc do danh-sắc; danh-sắc do thức; thức lại do danh-sắc.",
+            "Có thể tạm hiểu các tên khó như sau: hữu là sự tiếp tục hiện hữu; thủ là bám chặt; ái là khát khao; thọ là cảm giác dễ chịu, khó chịu hoặc không thuộc hai bên ấy; xúc là sự tiếp xúc; danh-sắc chỉ mặt tâm lý và mặt hình thể; thức là sự nhận biết. Đây là lời giải nghĩa ban đầu để đọc tiếp, không phải toàn bộ sự sâu xa của chúng.",
+            "Kinh nhắc chuỗi theo chiều sinh khởi: danh-sắc làm duyên cho thức, thức cho danh-sắc, danh-sắc cho xúc, rồi thọ, ái, thủ, hữu, sinh. Do sinh mà có già-chết, sầu, than khóc, đau khổ, buồn và bức bách. Đó là cách toàn bộ khối khổ này sinh lên. Hãy giữ cả hai chiều giữa danh-sắc và thức."
+          ]
+        },
+        {
+          "id": "birth",
+          "kind": "teaching",
+          "heading": "Nếu hoàn toàn không có sinh",
+          "meaningUnits": [
+            "birth",
+            "becoming"
+          ],
+          "paragraphs": [
+            "Đức Phật hỏi: nếu hoàn toàn không có sinh ở bất cứ ai, nơi đâu, dưới hình thức nào, và sinh đã diệt, thì già và chết có còn được thấy không? Kinh kể rõ các loài: chư thiên, Càn-thát-bà, Dạ-xoa, quỷ thần, người, loài bốn chân, chim và bò sát; giả sử không loài nào sinh vào trạng thái của mình. Ānanda đáp không. Vì thế sinh là nhân, nguồn gốc, sự phát sinh và duyên của già-chết.",
+            "Ngài hỏi tiếp: nếu hoàn toàn không có ba loại hữu — dục hữu, sắc hữu, vô sắc hữu — và hữu đã diệt, thì sinh có còn được thấy không? Ānanda lại đáp không. Hữu là nhân, nguồn gốc, sự phát sinh và duyên của sinh. Ba tên này nói về các dạng hiện hữu liên hệ dục, sắc và vô sắc trong lời kinh, không phải ba tuổi của một người."
+          ]
+        },
+        {
+          "id": "grasp",
+          "kind": "teaching",
+          "heading": "Bám chặt, khát khao và cảm giác",
+          "meaningUnits": [
+            "grasping",
+            "six-cravings",
+            "six-feelings"
+          ],
+          "paragraphs": [
+            "Kinh xét bốn loại thủ: bám vào dục lạc, vào quan điểm, vào giới lệ và nghi thức, vào những lời nói có một cái ngã. Nếu mọi kiểu bám chặt ấy đều không có, đã dứt hết, thì hữu có còn thấy không? Ānanda đáp không; thủ là nhân, nguồn gốc, sự phát sinh và duyên của hữu.",
+            "Rồi xét sáu hướng khát khao: hình sắc, âm thanh, mùi, vị, thứ thân chạm vào, và đối tượng của ý. Nếu hoàn toàn không có những ái ấy, ái đã dứt, thì thủ có thấy không? Không. Ái là nhân, nguồn gốc, sự phát sinh và duyên của thủ.",
+            "Với thọ, bài nêu đủ cảm giác sinh từ xúc ở mắt, tai, mũi, lưỡi, thân và ý. Nếu hoàn toàn không có những thọ ấy, thọ đã dứt, thì ái có thấy không? Không. Thọ là nhân, nguồn gốc, sự phát sinh và duyên của ái. “Ý” nhắc rằng điều ta nghĩ tới cũng nằm trong sự xem xét, không chỉ những thứ tay sờ được."
+          ]
+        },
+        {
+          "id": "social",
+          "kind": "teaching",
+          "heading": "Một đường khác đi từ cảm giác tới tranh giành",
+          "meaningUnits": [
+            "social-chain"
+          ],
+          "paragraphs": [
+            "Kinh mở thêm một chuỗi: từ thọ có ái; từ ái có tìm kiếm; từ tìm kiếm có được thứ mình tìm; từ có được có sự cân nhắc, quyết định; từ đó có ham muốn say mê; rồi đắm vào, nhận giữ làm của mình, keo giữ không muốn chia, và canh giữ. Các tên trong kinh là thọ, ái, tầm cầu, lợi, quyết định, tham dục, đắm trước, chấp giữ, hà tiện, thủ hộ.",
+            "Do sự canh giữ ấy mà nhiều việc xấu sinh ra. Có đủ tám việc được kể: cầm gậy; cầm vũ khí; tranh đấu; xung đột; tranh luận; buộc tội nhau; nói để chia rẽ; nói dối. Bài đang lần theo sự giữ của do khát khao và keo kiệt, không bảo mọi việc giữ gìn đồ vật đều là hành động xấu."
+          ]
+        },
+        {
+          "id": "reverse-one",
+          "kind": "teaching",
+          "heading": "Lần ngược từ canh giữ",
+          "meaningUnits": [
+            "guarding",
+            "stinginess",
+            "ownership",
+            "attachment"
+          ],
+          "paragraphs": [
+            "Đức Phật kiểm lại từng bước bằng câu hỏi giả sử điều kiện ấy hoàn toàn không có, ở bất cứ ai hay nơi nào, và đã dứt. Nếu không còn thủ hộ, tám việc xấu vừa kể có sinh không? Ānanda đáp không. Nếu hà tiện dứt, có còn thủ hộ không? Không. Nếu chấp giữ dứt, có còn hà tiện không? Không. Nếu đắm trước dứt, có còn chấp giữ không? Không.",
+            "Sau mỗi câu, Ngài xác định điều vừa xét là nhân, nguồn gốc, sự phát sinh và duyên của điều kế tiếp: thủ hộ đối với tám việc xấu; hà tiện đối với thủ hộ; chấp giữ đối với hà tiện; đắm trước đối với chấp giữ. Không bỏ mất các bước giữa chỉ để nói chung “tham làm mình cãi nhau”."
+          ]
+        },
+        {
+          "id": "reverse-two",
+          "kind": "teaching",
+          "heading": "Lần tiếp về sự khát khao",
+          "meaningUnits": [
+            "lust",
+            "evaluation",
+            "gain",
+            "search",
+            "three-cravings",
+            "convergence"
+          ],
+          "paragraphs": [
+            "Cũng theo giả sử hoàn toàn không có và đã dứt ở bất cứ ai, nơi nào: không có tham dục thì còn đắm trước không? Không. Không có quyết định trong chuỗi này thì còn tham dục không? Không. Không có việc có được thì còn quyết định ấy không? Không. Không có tìm kiếm thì còn có được không? Không. Ānanda lần lượt đáp như vậy.",
+            "Từng điều đứng trước được xác định là nhân, nguồn gốc, sự phát sinh và duyên của điều đứng sau: tham dục cho đắm trước; quyết định cho tham dục; có được cho quyết định; tìm kiếm cho có được. Cuối cùng, nếu không có ba loại ái — ham dục lạc, khát khao hiện hữu, khát khao không hiện hữu — thì còn tìm kiếm không? Không. Ái là nhân, nguồn gốc, sự phát sinh và duyên của tìm kiếm.",
+            "Kinh kết bằng một câu ngắn: hai pháp này, theo hai phương diện, cùng hội tụ ở thọ. Câu ấy nhấn vào thọ ở chỗ hai phương diện gặp nhau; nó không đổi ái thành một nguyên nhân có mặt riêng lẻ, không nương gì."
+          ]
+        },
+        {
+          "id": "contact",
+          "kind": "teaching",
+          "heading": "Cảm giác có duyên là xúc",
+          "meaningUnits": [
+            "contact",
+            "name-form-contact"
+          ],
+          "paragraphs": [
+            "Trở lại chuỗi chính, Đức Phật hỏi: nếu xúc ở mắt, tai, mũi, lưỡi, thân, ý đều hoàn toàn không có và đã dứt thì thọ còn thấy không? Ānanda đáp không. Xúc là nhân, nguồn gốc, sự phát sinh và duyên của thọ.",
+            "Để xét danh-sắc làm duyên cho xúc, kinh nói đến các hình thái, dấu hiệu, đặc trưng và cách gọi nhờ đó ta chỉ ra được mặt danh và mặt sắc. “Danh mục xúc” là tên kỹ thuật cho mặt tiếp xúc gắn với gọi tên; “hữu đối xúc” là mặt tiếp xúc gắn với tác động đối ngại. Hai từ khó này được giữ để thấy đúng bốn câu hỏi.",
+            "Thứ nhất, nếu không có những đặc điểm để chỉ ra danh, thì danh mục xúc nơi sắc có thấy không? Thứ hai, nếu không có những đặc điểm để chỉ ra sắc, thì hữu đối xúc nơi danh có thấy không? Thứ ba, nếu thiếu cả những điều chỉ ra danh lẫn sắc, thì một trong hai xúc ấy có thấy không? Thứ tư, nếu thiếu những điều chỉ ra danh-sắc, thì xúc nói chung có thấy không? Cả bốn lần Ānanda đều đáp không. Danh-sắc là nhân, nguồn gốc, sự phát sinh và duyên của xúc."
+          ]
+        },
+        {
+          "id": "life",
+          "kind": "teaching",
+          "heading": "Thức và danh-sắc nương vào nhau",
+          "meaningUnits": [
+            "consciousness",
+            "support",
+            "scope"
+          ],
+          "paragraphs": [
+            "Kinh dùng ba câu hỏi giả sử về đời sống mới. Nếu thức không vào thai mẹ, danh-sắc có kết tụ ở đó không? Nếu thức vào rồi rời đi, danh-sắc có sinh thành trạng thái này không? Nếu thức của một bé trai hay bé gái bị cắt đứt khi còn nhỏ, danh-sắc có lớn lên, phát triển, trưởng thành không? Ānanda đều đáp không. Thức được nêu là nhân, nguồn gốc, sự phát sinh và duyên của danh-sắc.",
+            "Ngài xét chiều kia nữa: nếu thức không có chỗ đứng nơi danh-sắc, thì sinh, già, chết và khổ phát sinh trong tương lai có được thấy không? Không. Danh-sắc là nhân, nguồn gốc, sự phát sinh và duyên của thức. Bài không đặt một linh hồn tự đứng riêng đi điều khiển thân.",
+            "Trong phạm vi danh-sắc và thức nương nhau ấy có sinh, già, chết, qua đời, tái sinh; có đường của tên gọi, ngôn ngữ, khái niệm, hoạt động của trí và vòng luân hồi, để nói về trạng thái hiện hữu này. Đó là giới hạn đang được kinh khảo sát, không phải lời hứa rằng học thuộc tên là đã biết hết mọi điều."
+          ]
+        },
+        {
+          "id": "four-selves",
+          "kind": "teaching",
+          "heading": "Bốn cách dựng lên một cái ngã",
+          "meaningUnits": [
+            "self-descriptions",
+            "self-times"
+          ],
+          "paragraphs": [
+            "Ngã ở đây là cái “tôi” mà người ta cho là một thực thể. Kinh nêu bốn cách mô tả: có sắc và có giới hạn; có sắc và không giới hạn; không sắc và có giới hạn; không sắc và không giới hạn. Đây là những quan điểm được đem ra xét.",
+            "Với ngã có sắc, có giới hạn, người ta có thể nói nó đang như vậy; hoặc chắc sẽ như vậy ở một nơi khác; hoặc hiện chưa thế nhưng tôi sẽ làm nó thành thế. Quan niệm tương ứng vẫn ẩn bên dưới. Với ngã có sắc, không giới hạn, cũng đủ ba cách: hiện đang thế, sẽ thế ở nơi khác, hoặc định làm cho thành thế; quan niệm ấy vẫn còn.",
+            "Với ngã không sắc, có giới hạn, ba cách ấy vẫn lặp: hiện tại như thế, sẽ như thế ở nơi khác, hay định làm cho nó như thế; quan niệm này còn ẩn. Với ngã không sắc, không giới hạn, cũng hiện tại như thế, sẽ như thế ở nơi khác, hay định làm thành thế; quan niệm này vẫn ẩn. Như vậy chỉ dời ý nghĩ về ngã sang tương lai chưa làm nó biến mất."
+          ]
+        },
+        {
+          "id": "not-describe",
+          "kind": "teaching",
+          "heading": "Không nuôi bốn cách ấy",
+          "meaningUnits": [
+            "no-self-descriptions",
+            "no-self-times"
+          ],
+          "paragraphs": [
+            "Kinh cũng hỏi thế nào là không mô tả ngã theo bốn lối. Người ấy không nói ngã có sắc-có giới hạn, có sắc-không giới hạn, không sắc-có giới hạn, hoặc không sắc-không giới hạn.",
+            "Với loại có sắc-có giới hạn, người ấy không bảo ngã hiện đang thế, không bảo chắc sẽ thế ở nơi khác, cũng không định làm cho nó thành thế. Không có quan niệm ấy tiềm ẩn bên dưới. Với loại có sắc-không giới hạn, cả ba cách nói về hiện tại, nơi khác về sau hay ý định làm thành đều không được giữ; không có quan niệm ấy tiềm ẩn bên dưới.",
+            "Với loại không sắc-có giới hạn, cả ba cách vừa kể đều không được giữ và không có quan niệm ấy tiềm ẩn bên dưới. Với loại không sắc-không giới hạn, cũng không nói hiện tại thế, không nói sẽ thế ở nơi khác, không định làm thành thế; không có quan niệm ấy tiềm ẩn bên dưới. Đó là toàn bộ phần kinh nói về việc không tuyên bố ngã theo những lối này."
+          ]
+        },
+        {
+          "id": "three-views",
+          "kind": "teaching",
+          "heading": "Ba cách gắn cái ngã với cảm giác",
+          "meaningUnits": [
+            "three-self-views",
+            "three-feelings"
+          ],
+          "paragraphs": [
+            "Kinh chuyển sang ba ý nghĩ khác: “Cảm thọ chính là ngã của tôi”; “Thọ không phải ngã, ngã của tôi không có cảm thọ”; hoặc “Thọ không phải ngã, nhưng ngã không phải thứ không cảm thọ; ngã của tôi cảm được, có bản chất cảm thọ.” Ý thứ ba đặt một chủ thể cảm nhận khác với chính cảm thọ.",
+            "Với ý thứ nhất, Đức Phật hỏi: có lạc thọ, khổ thọ và thọ không khổ không lạc; người ấy chọn loại nào làm ngã? Khi đang cảm lạc, lúc ấy chỉ lạc, không khổ và không trung tính. Khi đang cảm khổ, lúc ấy chỉ khổ, không lạc và không trung tính. Khi đang cảm trung tính, lúc ấy chỉ không khổ không lạc, không phải lạc hay khổ. Trung tính là không khổ cũng không lạc, không phải không nhận ra mình cảm gì."
+          ]
+        },
+        {
+          "id": "change",
+          "kind": "teaching",
+          "heading": "Nếu cảm giác là tôi thì khi nó hết sẽ ra sao?",
+          "meaningUnits": [
+            "feeling-changes"
+          ],
+          "paragraphs": [
+            "Cả lạc, khổ lẫn trung tính đều vô thường: có tạo thành, do duyên mà có, có tính tiêu hoại, suy tàn, phai đi và chấm dứt. Khi lấy lạc làm ngã, người ấy phải nói ngã mình mất khi lạc mất. Lấy khổ làm ngã, người ấy cũng phải nói ngã mất khi khổ mất. Với cảm thọ trung tính, việc ấy cũng y hệt.",
+            "Như vậy, nói “thọ là ngã của tôi” thành ra lấy một thứ ngay hiện tại vẫn thay đổi, lạc khổ xen nhau, sinh rồi diệt làm ngã. Vì lý do ấy, kinh nói cách nhìn này không thích hợp. Kinh đang xét một cách nhận mình, không dạy em rằng một lần vui hết thì bản thân em biến mất."
+          ]
+        },
+        {
+          "id": "other-two",
+          "kind": "teaching",
+          "heading": "Hai cách còn lại cũng được hỏi tới",
+          "meaningUnits": [
+            "unfeeling-self",
+            "feeling-self"
+          ],
+          "paragraphs": [
+            "Với người bảo ngã không cảm thọ, câu hỏi là: ở chỗ hoàn toàn không có cái gì được cảm, còn ý nghĩ “Tôi là cái này” được không? Ānanda đáp không. Vì thế, không thích hợp giữ quan niệm thọ không phải ngã còn ngã là thứ không cảm thọ.",
+            "Với người đặt ngã là thứ có khả năng cảm, khác với thọ, kinh hỏi: giả sử mọi thọ chấm dứt hoàn toàn, không sót gì, còn ý nghĩ “Tôi là cái này” không? Ānanda cũng đáp không. Vì thế cách thứ ba cũng không thích hợp. Hai câu hỏi khác nhau, nhưng đều xem chỗ dựa của ý nghĩ về ngã."
+          ]
+        },
+        {
+          "id": "release",
+          "kind": "teaching",
+          "heading": "Buông ba cách quán ngã",
+          "meaningUnits": [
+            "ungrasping",
+            "after-death",
+            "knowing-limits"
+          ],
+          "paragraphs": [
+            "Vị tỳ-kheo trong kinh không lấy thọ làm ngã, không lấy một ngã chẳng cảm thọ, cũng không lấy ngã là thứ cảm được và có bản chất cảm thọ. Không nhìn như vậy, vị ấy không chấp bất cứ gì ở đời. Không chấp thì không lo âu; không lo âu thì tự chứng Niết-bàn. Vị ấy biết sinh đã tận, đời phạm hạnh hoàn tất, việc cần làm đã xong, không còn trở lại trạng thái hiện hữu này.",
+            "Không thích hợp gán cho người tâm giải thoát ấy một trong bốn ý kiến: Như Lai tồn tại sau khi chết; không tồn tại; vừa tồn tại vừa không tồn tại; hoặc chẳng tồn tại cũng chẳng không tồn tại. Bài không chọn một câu trong bốn câu làm đáp án bí mật.",
+            "Lý do được nêu: vị ấy đã biết trực tiếp và được giải thoát đối với tên gọi cùng phạm vi tên gọi, ngôn ngữ cùng phạm vi ngôn ngữ, khái niệm cùng phạm vi khái niệm, trí tuệ cùng phạm vi hoạt động, luân hồi cùng sự vận hành. Cũng không thích hợp bảo người ấy giữ quan điểm không biết, không thấy. Sự giải thoát được nói đến gắn với hiểu biết."
+          ]
+        },
+        {
+          "id": "four-planes",
+          "kind": "teaching",
+          "heading": "Bốn trú xứ đầu của thức",
+          "meaningUnits": [
+            "plane-one",
+            "plane-two",
+            "plane-three",
+            "plane-four"
+          ],
+          "paragraphs": [
+            "Kinh nêu bảy trú xứ của thức và hai xứ khác. “Trú xứ” ở đây là những dạng hiện hữu được kinh phân biệt, không phải bảy ngôi nhà. “Tưởng” là sự nhận ra, nhận biết đối tượng theo đặc điểm của nó, khác với cảm giác dễ chịu hay khó chịu.",
+            "Thứ nhất: thân khác nhau, tưởng khác nhau; ví dụ loài người, một số chư thiên và một số chúng sinh ở đọa xứ. Thứ hai: thân khác nhau, tưởng giống nhau; ví dụ các vị Phạm Chúng thiên sinh ra lần đầu. Thứ ba: thân giống nhau, tưởng khác nhau; ví dụ Quang Âm thiên. Thứ tư: thân giống nhau, tưởng giống nhau; ví dụ Biến Tịnh thiên. Cần giữ cả hai mặt thân và tưởng để không lẫn bốn nhóm."
+          ]
+        },
+        {
+          "id": "three-planes",
+          "kind": "teaching",
+          "heading": "Ba trú xứ tiếp theo và hai xứ riêng",
+          "meaningUnits": [
+            "plane-five",
+            "plane-six",
+            "plane-seven",
+            "two-dimensions"
+          ],
+          "paragraphs": [
+            "Thứ năm: hoàn toàn vượt các tưởng về sắc, các tưởng về đối ngại đã chấm dứt, không chú ý các tưởng khác biệt; với nhận thức “hư không vô biên”, chúng sinh sinh vào Không vô biên xứ. Thứ sáu: hoàn toàn vượt Không vô biên xứ, với nhận thức “thức vô biên”, sinh vào Thức vô biên xứ. Thứ bảy: hoàn toàn vượt Thức vô biên xứ, với nhận thức “không có gì”, sinh vào Vô sở hữu xứ.",
+            "Hai xứ được nêu riêng là Vô Tưởng Hữu Tình Xứ và Phi tưởng phi phi tưởng xứ. Không gọi chúng là trú xứ thứ tám và thứ chín trong danh mục bảy. Đây là các thuật ngữ sâu về những dạng hiện hữu, chưa phải kết luận đã giải thoát."
+          ]
+        },
+        {
+          "id": "wisdom",
+          "kind": "teaching",
+          "heading": "Biết rõ nên không ưa bám nơi ấy",
+          "meaningUnits": [
+            "wisdom-liberation"
+          ],
+          "paragraphs": [
+            "Với trú xứ thứ nhất, Đức Phật hỏi: người biết rõ nó, biết nó sinh ra sao, mất ra sao, có gì hấp dẫn, có gì nguy hại, có lối ra nào, thì còn nên ưa đắm nó không? Ānanda đáp không. Phần áp dụng tiếp cho các trú xứ khác được ghi lược.",
+            "Ngài hỏi riêng Vô Tưởng Hữu Tình Xứ bằng đủ sáu mặt vừa kể; câu trả lời vẫn không. Với Phi tưởng phi phi tưởng xứ, cũng biết chính xứ ấy, chỗ sinh, chỗ mất, vị ngọt, nguy hại và lối thoát, thì có nên ưa đắm không? Không.",
+            "Người tu biết đúng như thật sự sinh, mất, hấp dẫn, nguy hại và lối ra của cả bảy trú xứ và hai xứ, rồi giải thoát do không chấp thủ, được gọi là tuệ giải thoát — giải thoát gắn với trí tuệ. Chỉ biết đọc đúng tên các xứ chưa phải điều này."
+          ]
+        },
+        {
+          "id": "liberations-first",
+          "kind": "teaching",
+          "heading": "Tám giải thoát: ba mục đầu",
+          "meaningUnits": [
+            "liberations-one-three"
+          ],
+          "paragraphs": [
+            "Sau đó là một danh mục khác: tám giải thoát. Mục thứ nhất: có sắc, thấy các sắc. Thứ hai: không tưởng sắc ở bên trong, thấy các sắc ở bên ngoài. Thứ ba: chú tâm hoàn toàn vào tịnh tướng. Tịnh tướng ở đây là đối tượng thanh tịnh trong sự tu tập tâm, không chỉ thích một món đồ đẹp.",
+            "Các mô tả này nói về thành tựu tu tập, nên câu “thấy sắc” trong danh mục không có nghĩa cứ mở mắt nhìn quanh là đã chứng một giải thoát."
+          ]
+        },
+        {
+          "id": "liberations-next",
+          "kind": "teaching",
+          "heading": "Từ Không vô biên xứ đến diệt tưởng và thọ",
+          "meaningUnits": [
+            "liberations-four-six",
+            "liberations-seven-eight"
+          ],
+          "paragraphs": [
+            "Giải thoát thứ tư: hoàn toàn vượt các tưởng về sắc, tưởng đối ngại chấm dứt, không chú ý tưởng khác biệt; nhận “hư không vô biên”, chứng và ở trong Không vô biên xứ. Thứ năm: hoàn toàn vượt xứ ấy, nhận “thức vô biên”, chứng và ở trong Thức vô biên xứ. Thứ sáu: hoàn toàn vượt Thức vô biên xứ, nhận “không có gì”, chứng và ở trong Vô sở hữu xứ.",
+            "Thứ bảy: hoàn toàn vượt Vô sở hữu xứ, chứng và ở trong Phi tưởng phi phi tưởng xứ. Thứ tám: hoàn toàn vượt xứ này, chứng và ở trong sự diệt tưởng và thọ, thường gọi Diệt Thọ Tưởng Định. Kinh kết đó là đủ tám giải thoát. Đoạn trước nói các chúng sinh sinh vào những xứ; danh mục này nói người tu chứng và trú những thành tựu, cần phân biệt hai cách trình bày."
+          ]
+        },
+        {
+          "id": "both",
+          "kind": "teaching",
+          "heading": "Câu phần giải thoát và kết thúc",
+          "meaningUnits": [
+            "both-ways",
+            "ending"
+          ],
+          "paragraphs": [
+            "Kinh nói vị tỳ-kheo có thể vào và ra tám giải thoát theo thứ tự thuận, thứ tự ngược, cả thuận lẫn ngược; ở đâu, lúc nào và bao lâu tùy ý. Còn phải có điều kiện nữa: các lậu hoặc, tức những ô nhiễm sâu, đã hết; vị ấy tự mình biết trực tiếp, chứng và sống ngay hiện tại trong tâm giải thoát và tuệ giải thoát không còn lậu hoặc.",
+            "Vị ấy được gọi là câu phần giải thoát, nghĩa là giải thoát cả hai phần theo những điều kiện vừa kể. Không có câu phần giải thoát nào khác cao hơn hay thù thắng hơn điều này. Không nên chỉ kể việc vào ra các tầng mà quên việc dứt lậu hoặc.",
+            "Đức Phật nói xong, Ānanda hoan hỷ và tán đồng. Kinh không kể Ānanda chứng thêm một quả ngay lúc ấy. Dòng cuối bản kinh gọi Đại Duyên là bài thứ hai; nhãn DN15 ở đầu chỉ vị trí bài trong toàn Trường Bộ."
+          ]
+        },
+        {
+          "id": "reading-note",
+          "kind": "clarification",
+          "heading": "Đọc những tên khó theo từng nhóm",
+          "meaningUnits": [
+            "questions",
+            "convergence",
+            "plane-two",
+            "both-ways"
+          ],
+          "paragraphs": [
+            "DN15 có cấu trúc riêng: danh-sắc trực tiếp làm duyên cho xúc; thức và danh-sắc nương nhau. Câu ngắn về “hai pháp” hội tụ ở thọ có cách giải thích khác nhau; ở đây giữ câu ấy mà không ép một cách hiểu duy nhất. Tên thị trấn theo Pāli là Kammāsadhamma.",
+            "Cụm Phạm Chúng thiên “sinh ra lần đầu” được giữ theo lời Pāli. Bản Anh Sujato và bản HTML Minh Châu giải là sinh nhờ thiền thứ nhất, nhưng bản này không tự thêm ý ấy vào câu kinh. Ở kết bài, giữ đủ thuận, nghịch, thuận-nghịch và tâm giải thoát cùng tuệ giải thoát; bản HTML Minh Châu có chỗ thiếu hoặc nhầm những từ này."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Một lần tranh đồ dùng",
+          "meaningUnits": [
+            "social-chain",
+            "guarding"
+          ],
+          "paragraphs": [
+            "Ví dụ do người biên soạn đặt: em thích một cây bút, muốn có nó, tìm cách lấy được, rồi nghĩ phải giữ riêng, chẳng cho bạn chạm vào. Khi sợ mất, em có thể cãi nhau hay nói dối. Ví dụ chỉ soi một phần đường từ ham muốn tới giữ chặt; không có nghĩa mọi lần thích cây bút đều đi hết chuỗi, hoặc cây bút giải thích toàn bộ sinh tử."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Nhìn một đoạn ngắn",
+          "meaningUnits": [
+            "six-feelings",
+            "social-chain",
+            "three-feelings"
+          ],
+          "paragraphs": [
+            "Khi bình tĩnh, em có thể cùng người lớn đọc một đoạn: ghi nhận đang dễ chịu, khó chịu hay không khổ không lạc; xem mình có muốn giữ chặt hay đẩy đi điều gì không. Chỉ gọi tên và quan sát nhẹ nhàng, không cố làm cảm giác biến mất hay thử các tầng thiền trong bài. Hôm khác có thể đọc tiếp một nhóm thuật ngữ, không cần nhớ hết trong một lần."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "DN15 — Duyên khởi, các quan niệm về ngã và giải thoát",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Sự sâu xa không được đánh giá bằng cảm giác đã hiểu",
+          "meaningUnits": [
+            "title",
+            "depth"
+          ],
+          "paragraphs": [
+            "Kinh Đại Duyên là DN15. Lời truyền “tôi được nghe như vầy” đặt cuộc đối thoại tại Kammāsadhamma, một thị trấn của người Kuru. Ānanda đến đảnh lễ Đức Phật, ngồi một bên và tán thán: duyên khởi sâu xa, biểu hiện cũng sâu xa, nhưng với ngài dường như hết sức rõ ràng.",
+            "Đức Phật hai lần ngăn lời nhận xét ấy. Vì không hiểu và không thâm nhập duyên khởi, chúng sinh rối như cuộn chỉ, thắt như búi sợi, bện như cỏ muñja và pabbaja; họ không vượt khổ cảnh, ác thú, đọa xứ và luân hồi. Phần giảng sau không chỉ định nghĩa vài từ, mà lần lượt khảo sát quan hệ làm khổ sinh khởi, các cách dựng ngã và điều kiện giải thoát."
+          ]
+        },
+        {
+          "id": "conditional-questions",
+          "kind": "teaching",
+          "heading": "Chuỗi duyên khởi được chính bài này nêu",
+          "meaningUnits": [
+            "questions",
+            "whole-chain"
+          ],
+          "paragraphs": [
+            "Có chín cặp câu hỏi. Mỗi khi được hỏi điều đang xét có duyên không, phải trả lời có; khi được hỏi duyên nào, câu trả lời lần lượt là: già-chết do sinh; sinh do hữu; hữu do thủ; thủ do ái; ái do thọ; thọ do xúc; xúc do danh-sắc; danh-sắc do thức; thức do danh-sắc.",
+            "Hữu chỉ sự hiện hữu tiếp diễn; thủ là chấp bám; ái là khát khao; thọ là cảm thọ; xúc là tiếp xúc. Danh-sắc nêu mặt tâm lý và mặt vật chất; thức nêu sự nhận biết. Đây là cách mở nghĩa để theo lập luận, không thay bằng một cái tôi có sẵn ở phía sau những yếu tố ấy.",
+            "Câu tổng hợp đi theo chiều: danh-sắc → thức → danh-sắc → xúc → thọ → ái → thủ → hữu → sinh. Do sinh mà già-chết, sầu, bi, khổ, ưu, não sinh khởi: toàn bộ khối khổ này tập khởi như thế. Danh-sắc và thức có hai chiều duyên nhau; danh-sắc trực tiếp làm duyên cho xúc. Không cần đưa các mắt xích từ công thức ở bài khác vào để sửa cấu trúc riêng của DN15."
+          ]
+        },
+        {
+          "id": "birth",
+          "kind": "teaching",
+          "heading": "Sinh và ba loại hữu",
+          "meaningUnits": [
+            "birth",
+            "becoming"
+          ],
+          "paragraphs": [
+            "Để giải thích sinh làm duyên già-chết, Đức Phật đặt giả định triệt để: không có sinh dưới bất cứ hình thức nào, đối với bất kỳ ai, ở đâu. Ngài kể sinh làm thiên, Càn-thát-bà, Dạ-xoa, quỷ thần, người, loài bốn chân, chim và bò sát; nếu mỗi loài đều không sinh vào trạng thái của mình, sinh không có và đã diệt, già-chết có thể được thấy không? Ānanda đáp không.",
+            "Kết luận dùng đủ bốn mặt: sinh là nhân, nguồn gốc, tập khởi và duyên của già-chết. Tiếp đó xét hữu: nếu dục hữu, sắc hữu, vô sắc hữu đều hoàn toàn không có ở ai, nơi nào, và hữu diệt, sinh có thể được thấy không? Câu trả lời vẫn không. Hữu là nhân, nguồn gốc, tập khởi và duyên của sinh. Các câu hỏi bao trùm việc tái sinh và các dạng hiện hữu được kinh mô tả, không chỉ sự xuất hiện của một ý nghĩ."
+          ]
+        },
+        {
+          "id": "grasping",
+          "kind": "teaching",
+          "heading": "Bốn thủ và sáu hướng ái",
+          "meaningUnits": [
+            "grasping",
+            "six-cravings"
+          ],
+          "paragraphs": [
+            "Thủ được liệt kê thành bốn: dục thủ, kiến thủ, giới cấm thủ, ngã luận thủ — chấp bám dục lạc, quan điểm, giới lệ-nghi thức, và học thuyết về ngã. Nếu hoàn toàn không có những thủ ấy ở ai, nơi nào hay dạng nào, do thủ diệt, hữu có thể được thấy không? Không. Thủ là nhân, nguồn gốc, tập khởi và duyên của hữu. Chấp thủ giới lệ khác với việc có giới hạnh; điều bị xét là sự chấp bám.",
+            "Ái được khảo sát theo sáu đối tượng: sắc, thanh, hương, vị, đối tượng xúc chạm và pháp — điều được ý nhận biết. Nếu các ái ấy hoàn toàn không có, ái diệt, thủ có được thấy không? Không. Ái là nhân, nguồn gốc, tập khởi và duyên của thủ."
+          ]
+        },
+        {
+          "id": "feeling",
+          "kind": "teaching",
+          "heading": "Thọ làm duyên cho ái",
+          "meaningUnits": [
+            "six-feelings"
+          ],
+          "paragraphs": [
+            "Kinh liệt kê thọ sinh từ xúc ở mắt, tai, mũi, lưỡi, thân và ý. Giả sử hoàn toàn không có cảm thọ dưới bất cứ dạng nào, nơi nào, nơi ai; do thọ diệt, ái có thể được thấy không? Ānanda đáp không. Đức Phật xác định thọ là nhân, nguồn gốc, tập khởi và duyên của ái.",
+            "Việc nêu đủ sáu cửa giúp giữ đúng phạm vi: cảm thọ liên hệ suy nghĩ cũng được xét, không chỉ cảm giác thân. Câu hỏi phủ định một điều kiện hoàn toàn không có; không nên đổi nó thành phán đoán rằng mọi cảm thọ ở mọi người luôn cưỡng bức phát sinh tham ái."
+          ]
+        },
+        {
+          "id": "social-forward",
+          "kind": "teaching",
+          "heading": "Nhánh từ cảm thọ tới xung đột",
+          "meaningUnits": [
+            "social-chain"
+          ],
+          "paragraphs": [
+            "Từ đây bài mở một nhánh khác: thọ làm duyên ái; ái làm duyên tầm cầu; tầm cầu làm duyên lợi, tức sự có được; lợi làm duyên quyết định; quyết định làm duyên tham dục; tham dục làm duyên đắm trước; đắm trước làm duyên chấp giữ; chấp giữ làm duyên hà tiện; hà tiện làm duyên thủ hộ.",
+            "Quyết định ở đây là sự phân định, đánh giá trong mạch có được rồi ham muốn; đắm trước là dính vào; chấp giữ là nhận giữ, chiếm hữu; hà tiện là keo giữ; thủ hộ là canh giữ điều đã chấp giữ. Thuật ngữ chấp giữ ở nhánh này là pariggaha, khác chữ thủ, upādāna, của chuỗi trước. Tách chúng giúp thấy các bước mà lời kinh thật sự nêu.",
+            "Do thủ hộ, tám việc ác bất thiện sinh khởi: cầm gậy, cầm vũ khí, tranh đấu, xung đột, tranh luận, buộc tội nhau, nói ly gián và nói dối. Chuỗi không phải một mệnh đề lên án mọi cân nhắc hoặc mọi bảo vệ hợp lý; thủ hộ đang được xét trong quan hệ với hà tiện và ái."
+          ]
+        },
+        {
+          "id": "social-back-one",
+          "kind": "teaching",
+          "heading": "Kiểm lại từ hậu quả tới chấp giữ",
+          "meaningUnits": [
+            "guarding",
+            "stinginess",
+            "ownership",
+            "attachment"
+          ],
+          "paragraphs": [
+            "Đức Phật nhắc đủ tám hậu quả và hỏi: nếu thủ hộ hoàn toàn không có đối với ai, ở đâu, dưới dạng nào, do thủ hộ diệt, các việc ấy còn phát sinh không? Ānanda đáp không. Thủ hộ là nhân, nguồn gốc, tập khởi và duyên của những việc ác ấy.",
+            "Ba câu hỏi tiếp dùng cùng điều kiện hoàn toàn không có và đã diệt: không hà tiện thì có thủ hộ không; không chấp giữ thì có hà tiện không; không đắm trước thì có chấp giữ không. Mỗi lần đều đáp không. Mỗi kết luận gọi điều đứng trước là nhân, nguồn gốc, tập khởi và duyên của điều đứng sau: hà tiện của thủ hộ, chấp giữ của hà tiện, đắm trước của chấp giữ."
+          ]
+        },
+        {
+          "id": "social-back-two",
+          "kind": "teaching",
+          "heading": "Kiểm tiếp từ đắm trước tới ái",
+          "meaningUnits": [
+            "lust",
+            "evaluation",
+            "gain",
+            "search",
+            "three-cravings",
+            "convergence"
+          ],
+          "paragraphs": [
+            "Cùng phép hỏi triệt để được tiếp tục: nếu tham dục hoàn toàn không có và diệt thì đắm trước còn được thấy không? Không. Nếu quyết định không có và diệt thì tham dục còn được thấy không? Không. Nếu lợi không có và diệt thì quyết định còn được thấy không? Không. Nếu tầm cầu không có và diệt thì lợi còn được thấy không? Không.",
+            "Sau mỗi câu, quan hệ nhân, nguồn gốc, tập khởi, duyên được xác nhận tương ứng: tham dục đối với đắm trước; quyết định đối với tham dục; lợi đối với quyết định; tầm cầu đối với lợi. Cuối cùng, xét ái theo ba loại dục ái, hữu ái, phi hữu ái: khát khao dục lạc, khát khao hiện hữu, khát khao không hiện hữu. Nếu chúng hoàn toàn không có ở ai, đâu, dạng nào, do ái diệt thì tầm cầu có thấy không? Không. Ái là nhân, nguồn gốc, tập khởi và duyên của tầm cầu.",
+            "Đoạn kết nói hai pháp này, tuy theo hai phương diện, cùng hội tụ vào một ở thọ. Đây là một câu tham chiếu cô đọng; bản giải giữ sự hội tụ nơi thọ mà không xác quyết thêm một cách định danh duy nhất cho “hai pháp”."
+          ]
+        },
+        {
+          "id": "contact",
+          "kind": "teaching",
+          "heading": "Xúc và danh-sắc: bốn câu hỏi phải giữ đúng chiều",
+          "meaningUnits": [
+            "contact",
+            "name-form-contact"
+          ],
+          "paragraphs": [
+            "Đối với xúc làm duyên thọ, câu hỏi liệt kê xúc mắt, tai, mũi, lưỡi, thân, ý. Nếu xúc hoàn toàn không có nơi ai, đâu, dạng nào, do xúc diệt thì thọ có thể được thấy không? Không. Xúc là nhân, nguồn gốc, tập khởi và duyên của thọ.",
+            "Đối với danh-sắc làm duyên xúc, kinh xét các hình thái, dấu hiệu, đặc trưng và cách chỉ định nhờ đó danh thân và sắc thân được mô tả. Danh mục xúc, adhivacanasamphassa, là mặt xúc liên hệ gọi tên; hữu đối xúc, paṭighasamphassa, là mặt xúc liên hệ sự tác động đối ngại. Cặp thuật ngữ này được dùng để khảo sát hai mặt của xúc.",
+            "Câu thứ nhất: nếu thiếu các điều nhờ đó danh thân được mô tả, danh mục xúc nơi sắc thân có thể được thấy không? Câu thứ hai: nếu thiếu các điều nhờ đó sắc thân được mô tả, hữu đối xúc nơi danh thân có thể được thấy không? Câu thứ ba: nếu thiếu các điều mô tả cả danh thân và sắc thân, danh mục xúc hoặc hữu đối xúc có thể được thấy không? Câu thứ tư: nếu thiếu các điều mô tả danh-sắc, xúc có thể được thấy không? Bốn câu trả lời đều không. Danh-sắc là nhân, nguồn gốc, tập khởi và duyên của xúc."
+          ]
+        },
+        {
+          "id": "consciousness",
+          "kind": "teaching",
+          "heading": "Thức làm duyên cho sự hình thành danh-sắc",
+          "meaningUnits": [
+            "consciousness"
+          ],
+          "paragraphs": [
+            "Ba câu hỏi lần lượt xét: thức không nhập thai mẹ thì danh-sắc có kết tụ ở đó không; thức đã nhập rồi rời đi thì danh-sắc có sinh thành trong trạng thái này không; thức của một bé trai hay bé gái bị đoạn khi còn nhỏ thì danh-sắc có tăng trưởng, phát triển và trưởng thành không. Cả ba đều được Ānanda trả lời không.",
+            "Vì vậy, thức là nhân, nguồn gốc, tập khởi và duyên của danh-sắc. Đây là các giả định trong cách trình bày duyên khởi của bài kinh. Đọc chúng cần giữ cả chiều ngược ngay sau đó, tránh dựng thức thành một chủ thể tự có, không phụ thuộc."
+          ]
+        },
+        {
+          "id": "reciprocity",
+          "kind": "teaching",
+          "heading": "Chiều danh-sắc làm duyên cho thức",
+          "meaningUnits": [
+            "support",
+            "scope"
+          ],
+          "paragraphs": [
+            "Nếu thức không tìm được chỗ đứng trong danh-sắc, sự phát sinh khổ tương lai — sinh, già và chết — có thể được thấy không? Ānanda đáp không. Danh-sắc vì vậy là nhân, nguồn gốc, tập khởi và duyên của thức. Hai chiều được bài kinh tự xác lập, không phải lời chú giải tự thêm.",
+            "Trong phạm vi ấy có sinh, già, chết, qua đời và tái sinh; có con đường danh xưng, ngôn ngữ, khái niệm, hoạt động của trí; có vòng luân hồi vận hành để trạng thái hiện hữu này được quy ước. Đó là danh-sắc cùng thức vận hành trong quan hệ duyên lẫn nhau. Phát biểu về phạm vi này không cần được mở rộng thành một học thuyết có thực thể nền tảng nằm ngoài quan hệ ấy."
+          ]
+        },
+        {
+          "id": "self-descriptions",
+          "kind": "teaching",
+          "heading": "Bốn mô tả và ba cách tiếp tục nuôi mỗi mô tả",
+          "meaningUnits": [
+            "self-descriptions",
+            "self-times"
+          ],
+          "paragraphs": [
+            "Bài chuyển từ duyên khởi sang các cách tuyên bố về ngã. Bốn tổ hợp được nêu là hữu sắc-hữu hạn, hữu sắc-vô hạn, vô sắc-hữu hạn, vô sắc-vô hạn. Có sắc hay không sắc nói về hình thái; hữu hạn hay vô hạn nói về giới hạn của ngã được quan niệm.",
+            "Với ngã hữu sắc-hữu hạn, người ta có thể khẳng định nó hiện tại như vậy; chắc sẽ như vậy ở một nơi khác; hoặc nghĩ hiện chưa như vậy nhưng mình sẽ làm nó thành như vậy. Quan kiến tương ứng vẫn tiềm ẩn. Với ngã hữu sắc-vô hạn, cũng có đủ ba phương diện hiện tại, sẽ như vậy ở nơi khác, hoặc định làm thành như vậy; quan kiến ấy vẫn tiềm ẩn.",
+            "Với ngã vô sắc-hữu hạn, ba phương diện cũng là hiện tại thế, chắc sẽ thế ở nơi khác, hoặc dự định làm cho thành thế; quan kiến đó tiềm ẩn. Với ngã vô sắc-vô hạn, kinh lặp đủ hiện tại, nơi khác về sau và dự định làm thành; quan kiến đó cũng tiềm ẩn. Như vậy, một ý định tạo ra ngã theo hình dung vẫn thuộc phạm vi tuyên bố ngã, dù người ấy thừa nhận hiện chưa có tình trạng mình muốn."
+          ]
+        },
+        {
+          "id": "self-not-described",
+          "kind": "teaching",
+          "heading": "Bốn quan kiến không được duy trì",
+          "meaningUnits": [
+            "no-self-descriptions",
+            "no-self-times"
+          ],
+          "paragraphs": [
+            "Phần kế tiếp nêu việc không tuyên bố ngã thuộc bất kỳ tổ hợp nào trong bốn tổ hợp: hữu sắc-hữu hạn, hữu sắc-vô hạn, vô sắc-hữu hạn, vô sắc-vô hạn. Mỗi tổ hợp lại được xét theo cùng ba phương diện để tránh chỉ phủ nhận bằng lời mà vẫn nuôi ý định về sau.",
+            "Với hữu sắc-hữu hạn: không tuyên bố ngã hiện như vậy, không tuyên bố chắc sẽ như vậy ở nơi khác, không nghĩ sẽ làm nó thành vậy khi chưa vậy; quan kiến ấy không tiềm ẩn. Với hữu sắc-vô hạn: cũng không giữ lời về hiện tại, về nơi khác tương lai, hay ý định làm thành; quan kiến ấy không tiềm ẩn.",
+            "Với vô sắc-hữu hạn: cả lời hiện tại, lời chắc sẽ ở nơi khác và ý định làm thành đều không được giữ; quan kiến tương ứng không tiềm ẩn. Với vô sắc-vô hạn: không tuyên bố hiện tại thế, không tuyên bố sẽ thế ở nơi khác, không dự định làm cho thành thế; quan kiến ấy không tiềm ẩn. Kinh kết phạm vi không tuyên bố ngã bằng đủ bốn lần ba phủ định này."
+          ]
+        },
+        {
+          "id": "three-self-views",
+          "kind": "teaching",
+          "heading": "Thọ là ngã, ngã không cảm, hay ngã là chủ thể cảm?",
+          "meaningUnits": [
+            "three-self-views",
+            "three-feelings"
+          ],
+          "paragraphs": [
+            "Ba cách quán ngã tiếp theo khác nhau. Một: thọ là ngã của tôi. Hai: thọ không phải ngã, ngã của tôi không cảm thọ. Ba: thọ không phải ngã, nhưng ngã không phải thứ không cảm thọ; ngã cảm thọ, có bản chất cảm thọ. Cách thứ ba không đồng nhất ngã với thọ nhưng vẫn dựng một chủ thể có khả năng cảm.",
+            "Với người đồng nhất thọ và ngã, kinh hỏi trong ba thọ — lạc, khổ, không khổ không lạc — họ chọn thọ nào. Khi cảm lạc, đúng lúc ấy chỉ lạc, không khổ hay trung tính; khi cảm khổ, chỉ khổ, không lạc hay trung tính; khi cảm trung tính, chỉ không khổ không lạc, không lạc hay khổ. Bài xét từng thọ được cảm, không gộp ba thành một vật bất biến."
+          ]
+        },
+        {
+          "id": "impermanent-feelings",
+          "kind": "teaching",
+          "heading": "Hệ quả của việc lấy cái thay đổi làm ngã",
+          "meaningUnits": [
+            "feeling-changes"
+          ],
+          "paragraphs": [
+            "Từng loại lạc, khổ, trung tính đều được nói là vô thường, hữu vi, do duyên sinh; có tính tiêu hoại, suy tàn, phai đi và diệt. “Hữu vi” nghĩa là có tạo thành bởi điều kiện. Lập luận dựa vào các đặc tính ấy, không chỉ vào việc một thọ dễ chịu hay khó chịu.",
+            "Người lấy lạc thọ làm ngã sẽ nghĩ ngã mất khi lạc thọ diệt. Người lấy khổ thọ làm ngã cũng nghĩ ngã mất khi khổ thọ diệt. Người lấy thọ trung tính làm ngã nghĩ ngã mất khi thọ ấy diệt. Cả ba trường hợp đưa đến một ngã ngay hiện tại vô thường, lạc khổ xen lẫn, có sinh có diệt. Vì vậy, lấy thọ làm ngã là không thích hợp."
+          ]
+        },
+        {
+          "id": "unfeeling",
+          "kind": "teaching",
+          "heading": "Thử quan niệm ngã không cảm thọ",
+          "meaningUnits": [
+            "unfeeling-self"
+          ],
+          "paragraphs": [
+            "Đối với người nói thọ không phải ngã, còn ngã hoàn toàn không cảm thọ, câu hỏi là: nơi hoàn toàn không có cái được cảm, ý niệm “Tôi là cái này” có thể có không? Ānanda đáp không. Đức Phật kết rằng quan niệm này không thích hợp. Câu hỏi kiểm chính chỗ dựa của việc nhận một cái gì là mình."
+          ]
+        },
+        {
+          "id": "subject",
+          "kind": "teaching",
+          "heading": "Thử quan niệm ngã là chủ thể cảm thọ",
+          "meaningUnits": [
+            "feeling-self"
+          ],
+          "paragraphs": [
+            "Đối với người nói thọ không phải ngã nhưng ngã cảm thọ, có bản chất cảm thọ, bài dùng giả định mọi thọ hoàn toàn diệt, không còn dư sót. Khi thọ hoàn toàn không có do đã diệt, ý niệm “Tôi là cái này” còn có không? Câu trả lời vẫn không. Vì vậy, cách giữ một chủ thể có bản chất cảm thọ ấy cũng không thích hợp. Phải giữ đầy đủ sự khác nhau giữa cách này và quan niệm ngã không cảm thọ ở đoạn trước."
+          ]
+        },
+        {
+          "id": "not-grasping",
+          "kind": "teaching",
+          "heading": "Buông ba cách quán ngã và không chấp thủ",
+          "meaningUnits": [
+            "ungrasping"
+          ],
+          "paragraphs": [
+            "Khi tỳ-kheo không lấy thọ làm ngã, không lấy ngã là thứ không cảm thọ, cũng không lấy ngã là thứ cảm và có bản chất cảm thọ, vị ấy không chấp bất cứ gì ở đời. Không chấp thì không lo âu; không lo âu thì tự mình chứng Niết-bàn.",
+            "Lời biết đi kèm gồm đủ bốn vế: sinh đã tận, phạm hạnh đã thành, việc cần làm đã làm, không còn trở lại trạng thái hiện hữu này. Đây là trình bày về giải thoát, không đồng nhất với việc lý luận thắng một quan điểm về cái tôi."
+          ]
+        },
+        {
+          "id": "postmortem",
+          "kind": "teaching",
+          "heading": "Bốn quan điểm không thể gán cho vị ấy",
+          "meaningUnits": [
+            "after-death",
+            "knowing-limits"
+          ],
+          "paragraphs": [
+            "Với tỳ-kheo có tâm giải thoát như vậy, không thích hợp bảo vị ấy có quan kiến Như Lai tồn tại sau chết. Cũng không thích hợp gán quan kiến Như Lai không tồn tại sau chết, vừa tồn tại vừa không tồn tại, hay chẳng tồn tại cũng chẳng không tồn tại. Cả bốn đều được đánh giá là không thích hợp; kinh không chuyển sang chọn quan điểm thứ tư làm lập trường riêng.",
+            "Lý do là vị ấy giải thoát do thắng tri: trực tiếp biết danh xưng cùng con đường của danh xưng, ngôn ngữ cùng con đường của ngôn ngữ, khái niệm cùng con đường của khái niệm, trí cùng phạm vi hoạt động của trí, luân hồi cùng sự vận hành của nó. Bởi thế cũng không thích hợp nói vị ấy có quan kiến “không biết, không thấy”. Đoạn này giữ sự giải thoát bằng biết rõ, đồng thời không áp bốn mệnh đề vào người đã giải thoát."
+          ]
+        },
+        {
+          "id": "planes-one-four",
+          "kind": "teaching",
+          "heading": "Bảy trú xứ của thức: bốn tổ hợp thân và tưởng",
+          "meaningUnits": [
+            "plane-one",
+            "plane-two",
+            "plane-three",
+            "plane-four"
+          ],
+          "paragraphs": [
+            "Đức Phật nêu bảy trú xứ của thức và hai xứ. Ở bốn trú xứ đầu, hai mặt được so sánh là thân và tưởng. Tưởng là sự nhận ra, nhận định đối tượng; ở đây cần phân biệt với thọ vừa được bàn.",
+            "Thứ nhất, thân khác nhau và tưởng khác nhau: loài người, một số chư thiên, một số chúng sinh đọa xứ. Thứ hai, thân khác nhau nhưng tưởng giống nhau: Phạm Chúng thiên được sinh ra lần đầu. Thứ ba, thân giống nhau nhưng tưởng khác nhau: Quang Âm thiên. Thứ tư, thân giống nhau và tưởng giống nhau: Biến Tịnh thiên. Bốn tổ hợp này không chỉ là bốn tên cõi; mỗi tên được gắn với một điều kiện thân-tưởng cụ thể."
+          ]
+        },
+        {
+          "id": "planes-five-seven",
+          "kind": "teaching",
+          "heading": "Ba trú xứ vô sắc và hai xứ nêu riêng",
+          "meaningUnits": [
+            "plane-five",
+            "plane-six",
+            "plane-seven",
+            "two-dimensions"
+          ],
+          "paragraphs": [
+            "Thứ năm: hoàn toàn vượt các sắc tưởng, những tưởng đối ngại chấm dứt, không tác ý các tưởng sai biệt; với nhận thức “hư không là vô biên”, chúng sinh sinh vào Không vô biên xứ. Thứ sáu: hoàn toàn vượt Không vô biên xứ, nhận “thức là vô biên”, sinh vào Thức vô biên xứ. Thứ bảy: hoàn toàn vượt Thức vô biên xứ, nhận “không có gì”, sinh vào Vô sở hữu xứ.",
+            "Vô Tưởng Hữu Tình Xứ và Phi tưởng phi phi tưởng xứ được kể riêng là hai xứ. Kinh không đánh số chúng làm trú xứ thứ tám, thứ chín trong danh mục bảy. Các trạng thái cao được mô tả vẫn sẽ được xét về tập khởi, hoại diệt và sự chấp thủ."
+          ]
+        },
+        {
+          "id": "wisdom-liberated",
+          "kind": "teaching",
+          "heading": "Biết như thật cả bảy trú xứ và hai xứ",
+          "meaningUnits": [
+            "wisdom-liberation"
+          ],
+          "paragraphs": [
+            "Đối với trú xứ thứ nhất, Đức Phật nêu người biết rõ chính trú xứ, sự tập khởi, sự biến mất, vị ngọt, nguy hại và xuất ly của nó, rồi hỏi có thích hợp để người ấy ưa đắm nó không. Ānanda đáp không; phần lặp cho các trú xứ thứ hai đến thứ bảy được ghi lược.",
+            "Ngài hỏi riêng Vô Tưởng Hữu Tình Xứ với cùng sáu mặt: chính xứ ấy, tập khởi, biến mất, vị ngọt, nguy hại, xuất ly; câu trả lời không. Với Phi tưởng phi phi tưởng xứ, cùng sáu mặt và cùng câu trả lời. “Vị ngọt” là nét hấp dẫn; “xuất ly” là lối ra, vượt khỏi sự trói buộc với điều ấy.",
+            "Tỳ-kheo biết như thật tập khởi, biến mất, vị ngọt, nguy hại, xuất ly của cả bảy trú xứ và hai xứ, rồi giải thoát nhờ không chấp thủ, được gọi là tuệ giải thoát. Danh mục có chức năng soi điều kiện và buông chấp, không chỉ cung cấp một thứ bậc để ưa thích."
+          ]
+        },
+        {
+          "id": "eight-first",
+          "kind": "teaching",
+          "heading": "Tám giải thoát: ba thành tựu đầu",
+          "meaningUnits": [
+            "liberations-one-three"
+          ],
+          "paragraphs": [
+            "Danh mục tám giải thoát bắt đầu: một, có sắc và thấy các sắc; hai, không tưởng sắc bên trong nhưng thấy các sắc bên ngoài; ba, chú tâm hoàn toàn vào tịnh tướng. Tịnh tướng trong công thức này nói về sự hướng tâm tới nét thanh tịnh, tốt đẹp trong tu tập; không thu hẹp thành thị hiếu thẩm mỹ thông thường.",
+            "Hai mục đầu cần giữ phân biệt bên trong-bên ngoài và có sắc-không tưởng sắc. Lời kinh đang kể các giải thoát trong sự tu tập tâm, không định nghĩa việc nhìn vật bằng mắt là một chứng đắc."
+          ]
+        },
+        {
+          "id": "eight-middle",
+          "kind": "teaching",
+          "heading": "Giải thoát thứ tư, năm và sáu",
+          "meaningUnits": [
+            "liberations-four-six"
+          ],
+          "paragraphs": [
+            "Thứ tư: hoàn toàn vượt các sắc tưởng, tưởng đối ngại chấm dứt, không tác ý tưởng sai biệt; với nhận thức “hư không là vô biên”, chứng và trú Không vô biên xứ. Thứ năm: hoàn toàn vượt Không vô biên xứ, với nhận thức “thức là vô biên”, chứng và trú Thức vô biên xứ. Thứ sáu: hoàn toàn vượt Thức vô biên xứ, với nhận thức “không có gì”, chứng và trú Vô sở hữu xứ.",
+            "Khác danh mục trú xứ trước mô tả chúng sinh sinh vào các xứ, ở đây động tác được nêu là chứng và trú. Cùng tên gọi không xóa khác biệt về điều bài kinh đang trình bày."
+          ]
+        },
+        {
+          "id": "eight-last",
+          "kind": "teaching",
+          "heading": "Hai giải thoát cuối",
+          "meaningUnits": [
+            "liberations-seven-eight"
+          ],
+          "paragraphs": [
+            "Thứ bảy: hoàn toàn vượt Vô sở hữu xứ, chứng và trú Phi tưởng phi phi tưởng xứ. Thứ tám: hoàn toàn vượt Phi tưởng phi phi tưởng xứ, chứng và trú sự diệt tưởng và thọ, thường gọi Diệt Thọ Tưởng Định. Kinh kết đủ tám giải thoát.",
+            "Sự diệt tưởng và thọ ở đây là một thành tựu được nêu trong chuỗi tu tập; nó không được đồng nhất với ngủ, mê đi hay cố nén hết cảm xúc trong đời thường."
+          ]
+        },
+        {
+          "id": "both-ways",
+          "kind": "teaching",
+          "heading": "Hai điều kiện của câu phần giải thoát",
+          "meaningUnits": [
+            "both-ways",
+            "ending"
+          ],
+          "paragraphs": [
+            "Vị tỳ-kheo nhập và xuất tám giải thoát theo thứ tự thuận, thứ tự nghịch, và cả thuận-nghịch; ở đâu tùy ý, khi nào tùy ý, bao lâu tùy ý. Đồng thời, do đoạn tận lậu hoặc, vị ấy tự mình bằng thắng trí chứng ngộ và an trú ngay hiện tại trong tâm giải thoát, tuệ giải thoát vô lậu. Lậu hoặc chỉ những ô nhiễm sâu được đoạn tận trong giải thoát.",
+            "Vị đáp ứng các điều kiện đó được gọi là câu phần giải thoát. Không có một câu phần giải thoát khác cao hơn hoặc thù thắng hơn sự giải thoát này. Đừng bỏ điều kiện lậu tận, rồi đồng nhất sự thành thạo các tầng với toàn bộ kết luận.",
+            "Đức Phật nói xong, Ānanda hoan hỷ và tán đồng. Không có lời xác nhận Ānanda chứng thêm một quả trong cuộc đối thoại này. Dòng kết gọi Đại Duyên là bài thứ hai, trong khi định danh toàn bộ là DN15; đây là hai cấp ghi số được giữ trong bản kinh."
+          ]
+        },
+        {
+          "id": "textual-choices",
+          "kind": "clarification",
+          "heading": "Những chỗ đối chiếu giúp giữ đúng cấu trúc",
+          "meaningUnits": [
+            "questions",
+            "whole-chain",
+            "name-form-contact",
+            "self-times",
+            "no-self-times",
+            "ungrasping",
+            "plane-two",
+            "both-ways"
+          ],
+          "paragraphs": [
+            "Bản HTML Minh Châu có vài chỗ cần đối chiếu: danh mục thọ lặp xúc mũi ở vị trí xúc thân; đoạn giải thích danh-sắc làm duyên xúc thêm sắc thân vào câu hỏi đầu; phần ba loại ái bị lược; các đoạn ngã có chỗ đảo hoặc mất phủ định. Ở đây giữ Pāli: đủ sáu cửa, bốn câu hỏi về xúc đúng chiều, đủ dục ái-hữu ái-phi hữu ái, và đủ ba cách quán ngã được buông.",
+            "Pāli gọi Phạm Chúng thiên paṭhamābhinibbattā, ở đây giữ “sinh ra lần đầu”; cách giải “nhờ sơ thiền” trong bản Anh Sujato và bản HTML Minh Châu không được đưa vào như chữ sẵn có của đoạn. Cuối kinh giữ đủ ba cách nhập thuận/nghịch/thuận-nghịch, và tâm giải thoát cùng tuệ giải thoát; bản HTML Minh Châu nhầm tâm thành tám ở chỗ này. Các phân biệt ấy ảnh hưởng ý nghĩa, không chỉ cách viết tên."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Quan sát một cuộc tranh chấp nhỏ",
+          "meaningUnits": [
+            "social-chain",
+            "guarding"
+          ],
+          "paragraphs": [
+            "Ví dụ do người biên soạn đặt: sau khi đạt một lợi ích chung, ta tính phần mình, ưa phần ấy, coi nó phải thuộc về mình, ngại chia sẻ và bắt đầu phòng thủ bằng lời buộc tội. Có thể dùng nhánh xã hội trong kinh để hỏi mình đang thêm điều kiện nào vào xung đột. Ví dụ không đủ giải thích mọi tranh chấp hay mọi việc bảo vệ quyền lợi; nó chỉ soi chuỗi ham muốn-chấp giữ mà bài đã nêu."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Đọc để phân biệt điều kiện và suy diễn",
+          "meaningUnits": [
+            "social-chain",
+            "name-form-contact",
+            "three-self-views",
+            "wisdom-liberation"
+          ],
+          "paragraphs": [
+            "Một lượt đọc có thể chỉ theo một nhóm: nhánh xã hội và các câu kiểm ngược; bốn câu hỏi danh-sắc-xúc; hoặc ba quan niệm thọ-ngã. Ghi chính xác điều kiện và kết luận trước khi liên hệ đời mình. Khi quan sát cảm thọ, không lấy việc chưa thấy rõ làm lý do ép cảm thọ diệt, và không dùng những tên tầng định làm thước đo tự nhận chứng đắc."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "DN15 — Đọc chậm những duyên của khổ và sự buông chấp",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Cuộc gặp của Ānanda và Đức Phật",
+          "meaningUnits": [
+            "title",
+            "depth"
+          ],
+          "paragraphs": [
+            "Kinh Đại Duyên, DN15, mở bằng lời “tôi được nghe như vầy”. Đức Phật ở thị trấn Kammāsadhamma của người Kuru. Tôn giả Ānanda đến đảnh lễ, ngồi một bên và thưa rằng duyên khởi thật hy hữu, kỳ diệu: sâu xa, biểu hiện cũng sâu xa, mà đối với ngài dường như rất rõ ràng.",
+            "Đức Phật hai lần bảo đừng nói như vậy. Pháp này thật sâu. Vì không hiểu, không thâm nhập, chúng sinh rối như cuộn chỉ, như búi sợi, như cỏ muñja và pabbaja bện chặt; không vượt khỏi khổ cảnh, ác thú, đọa xứ và luân hồi. Câu mở nhắc người đọc giữ lòng học hỏi, ngay cả khi đã quen các tên gọi."
+          ]
+        },
+        {
+          "id": "nine-questions",
+          "kind": "teaching",
+          "heading": "Mỗi điều đều được hỏi về duyên",
+          "meaningUnits": [
+            "questions"
+          ],
+          "paragraphs": [
+            "Duyên là điều kiện mà một điều nương vào để có mặt. Kinh dạy trả lời “có” cho từng câu hỏi có duyên không. Hỏi già-chết do duyên gì: sinh. Sinh do duyên gì: hữu. Hữu do duyên gì: thủ. Thủ do duyên gì: ái. Ái do duyên gì: thọ.",
+            "Hỏi thọ do duyên gì: xúc. Xúc do duyên gì: danh-sắc. Danh-sắc do duyên gì: thức. Thức do duyên gì: danh-sắc. Có đủ chín cặp hỏi-đáp. Ở cuối, phải giữ cả hai chiều thức và danh-sắc nương nhau.",
+            "Để đọc bước đầu: hữu là hiện hữu tiếp diễn; thủ là chấp bám; ái là khát khao; thọ là cảm thọ; xúc là tiếp xúc. Danh-sắc nói đến mặt tâm lý và hình thể, thức nói đến sự nhận biết. Những lời giải nghĩa ngắn này cần được hiểu cùng các đoạn triển khai tiếp theo."
+          ]
+        },
+        {
+          "id": "whole",
+          "kind": "teaching",
+          "heading": "Chiều sinh khởi của khối khổ",
+          "meaningUnits": [
+            "whole-chain"
+          ],
+          "paragraphs": [
+            "Đức Phật nhắc lại theo chiều sinh khởi: danh-sắc làm duyên thức, thức làm duyên danh-sắc, danh-sắc làm duyên xúc; rồi xúc làm duyên thọ, thọ làm duyên ái, ái làm duyên thủ, thủ làm duyên hữu, hữu làm duyên sinh.",
+            "Do sinh mà có già-chết, sầu, than khóc, khổ đau, ưu buồn và bức bách. Như vậy toàn bộ khối khổ này tập khởi. Câu kinh đặt già-chết cùng sầu, bi, khổ, ưu, não sau sinh; không thêm một mắt xích riêng để tách chúng."
+          ]
+        },
+        {
+          "id": "birth",
+          "kind": "teaching",
+          "heading": "Sinh làm duyên cho già-chết",
+          "meaningUnits": [
+            "birth"
+          ],
+          "paragraphs": [
+            "Đức Phật hỏi một giả định rất rộng: nếu hoàn toàn không có sinh, đối với bất kỳ ai, bất cứ nơi đâu, dưới bất cứ hình thức nào thì sao? Kinh kể sinh làm chư thiên, Càn-thát-bà, Dạ-xoa, quỷ thần, người, loài bốn chân, chim và bò sát. Nếu từng loài không sinh vào trạng thái của mình, sinh đã diệt hết, còn thấy già-chết không?",
+            "Ānanda đáp không. Vì vậy, sinh là nhân, nguồn gốc, tập khởi và duyên của già-chết. “Tập khởi” là sự phát sinh. Bài nói cả các đời sống được sinh ra, không chỉ nỗi lo về tuổi già của riêng một người."
+          ]
+        },
+        {
+          "id": "becoming",
+          "kind": "teaching",
+          "heading": "Ba hữu và bốn thủ",
+          "meaningUnits": [
+            "becoming",
+            "grasping"
+          ],
+          "paragraphs": [
+            "Giả sử dục hữu, sắc hữu, vô sắc hữu đều hoàn toàn không có ở ai, nơi nào, dưới dạng nào; do hữu diệt, sinh có thể được thấy không? Ānanda đáp không. Hữu là nhân, nguồn gốc, tập khởi và duyên của sinh. Ba hữu là các dạng hiện hữu được kinh phân biệt theo dục, sắc và vô sắc.",
+            "Với thủ, có bốn loại: chấp dục lạc, chấp quan điểm, chấp giới lệ-nghi thức, chấp lời luận về ngã. Nếu mọi thủ ấy hoàn toàn không có và đã diệt, hữu có thể được thấy không? Câu đáp cũng không. Thủ là nhân, nguồn gốc, tập khởi và duyên của hữu. Ở đây cần chú ý chữ chấp; việc có giới hạnh không bị đồng nhất với chấp giới lệ."
+          ]
+        },
+        {
+          "id": "craving",
+          "kind": "teaching",
+          "heading": "Sáu hướng ái và sáu thọ",
+          "meaningUnits": [
+            "six-cravings",
+            "six-feelings"
+          ],
+          "paragraphs": [
+            "Sáu hướng của ái là khát khao hình sắc, âm thanh, mùi, vị, đối tượng thân xúc chạm và pháp — những điều thuộc đối tượng của ý. Nếu ái hoàn toàn không có ở bất kỳ ai hay nơi nào và đã diệt, thủ còn được thấy không? Không. Ái là nhân, nguồn gốc, tập khởi và duyên của thủ.",
+            "Sáu thọ ở đây là cảm thọ sinh từ xúc mắt, tai, mũi, lưỡi, thân và ý. Nếu thọ hoàn toàn không có ở ai, nơi nào, dạng nào và đã diệt, ái còn được thấy không? Không. Thọ là nhân, nguồn gốc, tập khởi và duyên của ái. Nhớ cả thân và ý giúp không bỏ sót một cửa nào."
+          ]
+        },
+        {
+          "id": "social-chain",
+          "kind": "teaching",
+          "heading": "Một nhánh đi tới việc tranh chấp",
+          "meaningUnits": [
+            "social-chain"
+          ],
+          "paragraphs": [
+            "Bài kinh chuyển sang một nhánh khác. Từ thọ có ái; từ ái có tầm cầu; từ tầm cầu có lợi, nghĩa là có được; từ có được có sự cân nhắc, quyết định; từ quyết định có tham dục. Tiếp đó là đắm trước, chấp giữ, hà tiện và thủ hộ.",
+            "Có thể theo nghĩa từng chữ: tìm kiếm, có được, phân định, ham mê, dính vào, giữ làm của mình, keo giữ, rồi canh giữ. Chấp giữ ở nhánh này là pariggaha; chữ thủ ở chuỗi trước là upādāna. Giữ hai tên khác nhau để thấy đủ các nấc của lời kinh.",
+            "Do thủ hộ ấy, tám việc ác bất thiện sinh khởi: cầm gậy; cầm vũ khí; tranh đấu; xung đột; tranh luận; buộc tội nhau; nói ly gián; nói dối. Mạch này nói về canh giữ nương lòng hà tiện và ái, không phải mọi hành vi cẩn thận chăm nom đồ vật."
+          ]
+        },
+        {
+          "id": "guarding",
+          "kind": "teaching",
+          "heading": "Xét ngược: thủ hộ, hà tiện, chấp giữ",
+          "meaningUnits": [
+            "guarding",
+            "stinginess",
+            "ownership"
+          ],
+          "paragraphs": [
+            "Đức Phật nhắc lại tám việc xấu và hỏi: nếu thủ hộ hoàn toàn không có ở ai, đâu, dưới hình thức nào, do thủ hộ diệt, tám việc ấy có sinh không? Không. Thủ hộ là nhân, nguồn gốc, tập khởi và duyên của chúng.",
+            "Nếu hà tiện hoàn toàn không có và đã diệt, còn thấy thủ hộ không? Không. Hà tiện là nhân, nguồn gốc, tập khởi và duyên của thủ hộ. Nếu chấp giữ hoàn toàn không có và đã diệt, còn thấy hà tiện không? Không. Chấp giữ là nhân, nguồn gốc, tập khởi và duyên của hà tiện."
+          ]
+        },
+        {
+          "id": "attachment",
+          "kind": "teaching",
+          "heading": "Xét ngược: đắm trước, tham dục, quyết định",
+          "meaningUnits": [
+            "attachment",
+            "lust",
+            "evaluation"
+          ],
+          "paragraphs": [
+            "Vẫn với giả định hoàn toàn không có, bất cứ nơi ai hay đâu, và đã diệt: đắm trước không có thì chấp giữ có được thấy không? Không. Tham dục không có thì đắm trước có được thấy không? Không. Quyết định trong chuỗi này không có thì tham dục có được thấy không? Không.",
+            "Mỗi lần Đức Phật kết rõ bốn mặt nhân, nguồn gốc, tập khởi, duyên: đắm trước đối với chấp giữ; tham dục đối với đắm trước; quyết định đối với tham dục. Mỗi điều đứng trước được xét vì quan hệ cụ thể của nó với điều đứng sau."
+          ]
+        },
+        {
+          "id": "search",
+          "kind": "teaching",
+          "heading": "Xét ngược: có được, tìm kiếm và ba ái",
+          "meaningUnits": [
+            "gain",
+            "search",
+            "three-cravings",
+            "convergence"
+          ],
+          "paragraphs": [
+            "Nếu lợi, tức việc có được, hoàn toàn không có và đã diệt thì quyết định có được thấy không? Không. Lợi là nhân, nguồn gốc, tập khởi và duyên của quyết định. Nếu tầm cầu hoàn toàn không có và đã diệt thì lợi có được thấy không? Không. Tầm cầu là nhân, nguồn gốc, tập khởi và duyên của lợi.",
+            "Cuối nhánh này, ái được nêu bằng ba loại: dục ái, hữu ái, phi hữu ái. Đó là khát khao dục lạc, khát khao hiện hữu, khát khao không hiện hữu. Nếu các ái ấy hoàn toàn không có nơi ai, đâu, dưới dạng nào và đã diệt thì tầm cầu có thấy không? Không. Ái là nhân, nguồn gốc, tập khởi và duyên của tầm cầu.",
+            "Kinh nói hai pháp này, theo hai phương diện, cùng hội tụ vào một ở thọ. Câu này rất gọn; bản giải giữ điểm hội tụ ở thọ và không tự ép một cách định danh duy nhất cho hai pháp."
+          ]
+        },
+        {
+          "id": "contact",
+          "kind": "teaching",
+          "heading": "Trở lại duyên của cảm thọ",
+          "meaningUnits": [
+            "contact"
+          ],
+          "paragraphs": [
+            "Đối với xúc, bài liệt kê đủ mắt, tai, mũi, lưỡi, thân và ý. Nếu hoàn toàn không có các xúc ấy, đối với ai hay ở đâu, do xúc diệt, thọ có thể được thấy không? Ānanda đáp không.",
+            "Xúc là nhân, nguồn gốc, tập khởi và duyên của thọ. Chuỗi đang được khảo sát từng điều kiện, nên câu trả lời không có nghĩa phải tìm cách làm tê các giác quan của mình."
+          ]
+        },
+        {
+          "id": "terms",
+          "kind": "teaching",
+          "heading": "Danh-sắc làm duyên xúc: hiểu hai từ trước",
+          "meaningUnits": [
+            "name-form-contact"
+          ],
+          "paragraphs": [
+            "Phần này dùng danh thân và sắc thân, tức tập hợp mặt danh và tập hợp mặt sắc. Kinh nói đến hình thái, dấu hiệu, đặc trưng và cách chỉ định nhờ đó mỗi mặt được mô tả.",
+            "Danh mục xúc là tên cho mặt xúc liên hệ sự gọi tên. Hữu đối xúc là tên cho mặt xúc liên hệ sự tác động đối ngại. Cần giữ đúng nơi danh, nơi sắc trong bốn câu hỏi sau, dù các từ nghe còn khó."
+          ]
+        },
+        {
+          "id": "four-contact-questions",
+          "kind": "teaching",
+          "heading": "Bốn câu hỏi về xúc",
+          "meaningUnits": [
+            "name-form-contact"
+          ],
+          "paragraphs": [
+            "Một: nếu không có những hình thái, dấu hiệu, đặc trưng, cách chỉ định của danh thân, danh mục xúc nơi sắc thân có thể được thấy không? Hai: nếu không có các điều ấy của sắc thân, hữu đối xúc nơi danh thân có thể được thấy không?",
+            "Ba: nếu không có các điều nhờ đó cả danh thân và sắc thân được mô tả, danh mục xúc hoặc hữu đối xúc có thể được thấy không? Bốn: nếu không có các điều nhờ đó danh-sắc được mô tả, xúc có thể được thấy không?",
+            "Cả bốn câu đều được Ānanda đáp không. Đức Phật kết danh-sắc là nhân, nguồn gốc, tập khởi và duyên của xúc. Cặp thuật ngữ vừa dùng không thêm hai mắt xích độc lập vào chuỗi."
+          ]
+        },
+        {
+          "id": "womb",
+          "kind": "teaching",
+          "heading": "Ba câu hỏi về thức và sự sống phát triển",
+          "meaningUnits": [
+            "consciousness"
+          ],
+          "paragraphs": [
+            "Kinh hỏi: nếu thức không nhập thai mẹ, danh-sắc có kết tụ trong thai không? Nếu thức đã nhập rồi rời đi, danh-sắc có sinh thành trong trạng thái này không? Nếu thức của một bé trai hay bé gái bị đoạn khi còn nhỏ, danh-sắc có tăng trưởng, phát triển, trưởng thành không?",
+            "Ānanda đều đáp không. Thức là nhân, nguồn gốc, tập khởi và duyên của danh-sắc. Đây là những câu giả định của bài kinh để trình bày quan hệ điều kiện; đoạn sau lập tức nói chiều ngược, không để thức thành một cái ngã độc lập."
+          ]
+        },
+        {
+          "id": "other-direction",
+          "kind": "teaching",
+          "heading": "Danh-sắc cũng làm duyên cho thức",
+          "meaningUnits": [
+            "support",
+            "scope"
+          ],
+          "paragraphs": [
+            "Nếu thức không tìm được chỗ đứng trong danh-sắc, khổ phát sinh trong tương lai — sinh, già và chết — có thể được thấy không? Không. Danh-sắc là nhân, nguồn gốc, tập khởi và duyên của thức.",
+            "Đến phạm vi ấy có sinh, già, chết, qua đời, tái sinh. Đến phạm vi ấy có danh xưng, ngôn ngữ, khái niệm, hoạt động của trí; có vòng luân hồi vận hành để hiện hữu này được quy ước. Kinh gọi đó là danh-sắc cùng thức vận hành duyên lẫn nhau. Tương duyên nghĩa là nương nhau, không tự đứng riêng."
+          ]
+        },
+        {
+          "id": "four-descriptions",
+          "kind": "teaching",
+          "heading": "Bốn cách người ta mô tả ngã",
+          "meaningUnits": [
+            "self-descriptions"
+          ],
+          "paragraphs": [
+            "Ngã trong phần này là cái tôi được dựng thành một thực thể. Có bốn cách tuyên bố: ngã có sắc, có giới hạn; ngã có sắc, không giới hạn; ngã không sắc, có giới hạn; ngã không sắc, không giới hạn.",
+            "Đây là các quan điểm được kinh khảo sát. Danh mục không xác nhận rằng thật có bốn thực thể ngã như vậy."
+          ]
+        },
+        {
+          "id": "formed-self",
+          "kind": "teaching",
+          "heading": "Hai quan niệm về ngã có sắc",
+          "meaningUnits": [
+            "self-times"
+          ],
+          "paragraphs": [
+            "Với ngã có sắc và hữu hạn, người ta có thể nói ngã mình hiện như vậy; hoặc chắc sẽ như vậy ở một nơi khác; hoặc hiện chưa vậy nhưng mình sẽ làm nó thành vậy. Trong mỗi cách duy trì ấy, có thể nói quan kiến về ngã hữu sắc-hữu hạn vẫn tiềm ẩn.",
+            "Với ngã có sắc và vô hạn, cũng nêu đủ hiện tại như vậy, sẽ như vậy ở nơi khác, hoặc ý định làm cho nó thành vậy. Quan kiến về ngã hữu sắc-vô hạn vẫn tiềm ẩn. Dời một ý niệm sang tương lai chưa có nghĩa đã buông ý niệm ấy."
+          ]
+        },
+        {
+          "id": "formless-self",
+          "kind": "teaching",
+          "heading": "Hai quan niệm về ngã không sắc",
+          "meaningUnits": [
+            "self-times"
+          ],
+          "paragraphs": [
+            "Với ngã không sắc và hữu hạn: hiện tại nó như vậy; chắc sẽ như vậy ở nơi khác; hoặc mình sẽ làm nó thành vậy dù hiện chưa thế. Quan kiến vô sắc-hữu hạn vẫn tiềm ẩn.",
+            "Với ngã không sắc và vô hạn: cũng có lời về hiện tại, lời về nơi khác về sau, và dự định làm cho thành. Quan kiến vô sắc-vô hạn vẫn tiềm ẩn. Kinh kết phần tuyên bố ngã bằng đủ bốn loại, mỗi loại ba phương diện này."
+          ]
+        },
+        {
+          "id": "no-descriptions",
+          "kind": "teaching",
+          "heading": "Không mô tả ngã theo bốn lối",
+          "meaningUnits": [
+            "no-self-descriptions",
+            "no-self-times"
+          ],
+          "paragraphs": [
+            "Phần tiếp nói người không tuyên bố ngã có sắc-hữu hạn, có sắc-vô hạn, không sắc-hữu hạn, hay không sắc-vô hạn. Việc không giữ mỗi lối cũng phải đi qua ba phương diện.",
+            "Với có sắc-hữu hạn: không khẳng định ngã hiện như vậy, không khẳng định chắc sẽ như vậy ở nơi khác, không dự định làm cho thành vậy. Quan kiến ấy không tiềm ẩn. Với có sắc-vô hạn: cả ba lời về hiện tại, nơi khác tương lai và ý định làm thành đều không giữ; quan kiến ấy không tiềm ẩn.",
+            "Với không sắc-hữu hạn: không nói hiện như thế, không nói chắc sẽ thế ở nơi khác, không định làm thành thế; quan kiến ấy không tiềm ẩn. Với không sắc-vô hạn: cũng đủ ba điều không giữ, và quan kiến ấy không tiềm ẩn. Đó là cách không tuyên bố ngã được bài trình bày."
+          ]
+        },
+        {
+          "id": "feeling-and-self",
+          "kind": "teaching",
+          "heading": "Ba ý kiến liên hệ ngã với thọ",
+          "meaningUnits": [
+            "three-self-views"
+          ],
+          "paragraphs": [
+            "Kinh đổi sang ba cách nhận mình quanh cảm thọ. Cách thứ nhất: thọ là ngã của tôi. Cách thứ hai: thọ không phải ngã, ngã của tôi không cảm thọ.",
+            "Cách thứ ba: thọ không phải ngã, nhưng ngã cũng không phải thứ không cảm thọ; ngã của tôi cảm được, có bản chất cảm thọ. Ở đây người ta giữ một chủ thể cảm nhận, khác với thọ. Cần phân biệt ba ý này trước khi đọc ba lượt xét."
+          ]
+        },
+        {
+          "id": "which-feeling",
+          "kind": "teaching",
+          "heading": "Nếu thọ là ngã, đó là thọ nào?",
+          "meaningUnits": [
+            "three-feelings"
+          ],
+          "paragraphs": [
+            "Có ba thọ: lạc, khổ, không khổ không lạc. Người nói thọ là ngã được hỏi lấy loại nào làm ngã.",
+            "Khi cảm lạc, lúc ấy chỉ cảm lạc, không khổ hay không khổ không lạc. Khi cảm khổ, chỉ cảm khổ, không lạc hay không khổ không lạc. Khi cảm thọ trung tính, chỉ không khổ không lạc, không lạc hoặc khổ. Thọ trung tính có nghĩa không thuộc khổ hay lạc, không phải trạng thái mình không biết đang cảm gì."
+          ]
+        },
+        {
+          "id": "changing-feelings",
+          "kind": "teaching",
+          "heading": "Cả ba thọ đều sinh diệt",
+          "meaningUnits": [
+            "feeling-changes"
+          ],
+          "paragraphs": [
+            "Lạc thọ là vô thường, có tạo thành, do duyên sinh, có tính tiêu hoại, suy tàn, phai đi và diệt. Khổ thọ cũng đủ những tính ấy. Thọ không khổ không lạc cũng như vậy. Không loại nào được bỏ ra ngoài sự đổi thay.",
+            "Khi nhận lạc là ngã, lúc lạc diệt người ấy nghĩ ngã đã mất. Khi nhận khổ là ngã, lúc khổ diệt cũng nghĩ ngã đã mất. Khi nhận trung tính là ngã, lúc trung tính diệt cũng nghĩ như thế.",
+            "Vậy quan niệm thọ là ngã khiến người ấy nhận ngay hiện tại một ngã vô thường, lạc khổ xen lẫn, sinh rồi diệt. Kinh kết việc quán thọ là ngã không thích hợp. Lập luận nói về chấp nhận mình như thế nào, không phải một lời hạ thấp giá trị con người."
+          ]
+        },
+        {
+          "id": "unfeeling-self",
+          "kind": "teaching",
+          "heading": "Nếu ngã hoàn toàn không cảm thọ",
+          "meaningUnits": [
+            "unfeeling-self"
+          ],
+          "paragraphs": [
+            "Người nói thọ không phải ngã và ngã không cảm thọ được hỏi: nơi hoàn toàn không có gì được cảm, ý niệm “Tôi là cái này” có thể có không? Ānanda đáp không.",
+            "Vì vậy, quan niệm ấy không thích hợp. Câu “Tôi là cái này” kiểm lại căn cứ của chính lời nhận ngã."
+          ]
+        },
+        {
+          "id": "experiencing-self",
+          "kind": "teaching",
+          "heading": "Nếu ngã có bản chất cảm thọ",
+          "meaningUnits": [
+            "feeling-self"
+          ],
+          "paragraphs": [
+            "Còn người nói thọ không phải ngã nhưng ngã cảm được, có bản chất cảm thọ, được hỏi một giả định khác: nếu mọi thọ diệt hoàn toàn không còn dư sót, khi không còn thọ, ý niệm “Tôi là cái này” có thể có không?",
+            "Ānanda cũng đáp không. Cách quan niệm này không thích hợp. Kinh không chỉ bác một câu rồi bỏ qua các cách chuyển chỗ cho ngã; cả ba cách đều được xét."
+          ]
+        },
+        {
+          "id": "ungrasping",
+          "kind": "teaching",
+          "heading": "Không chấp, không lo âu, tự chứng Niết-bàn",
+          "meaningUnits": [
+            "ungrasping"
+          ],
+          "paragraphs": [
+            "Tỳ-kheo không xem thọ là ngã; không xem ngã là thứ không cảm thọ; cũng không xem ngã là thứ cảm được, có bản chất cảm thọ. Khi không quán theo ba lối ấy, vị ấy không chấp bất cứ gì ở đời.",
+            "Không chấp thì không lo âu. Không lo âu thì tự mình chứng Niết-bàn. Vị ấy biết bốn điều: sinh đã tận, phạm hạnh đã thành, việc cần làm đã làm, không còn trở lại trạng thái hiện hữu này. Lời ấy nói thành tựu giải thoát, không chỉ một khoảng lòng yên."
+          ]
+        },
+        {
+          "id": "four-views",
+          "kind": "teaching",
+          "heading": "Không gán bốn quan điểm sau chết",
+          "meaningUnits": [
+            "after-death",
+            "knowing-limits"
+          ],
+          "paragraphs": [
+            "Với vị tỳ-kheo tâm đã giải thoát như vậy, không thích hợp nói vị ấy giữ quan kiến: Như Lai tồn tại sau chết; không tồn tại sau chết; vừa tồn tại vừa không tồn tại; chẳng tồn tại cũng chẳng không tồn tại. Cả bốn lối gán đều được nói là không thích hợp.",
+            "Vì vị ấy trực tiếp biết và giải thoát đối với danh xưng cùng phạm vi danh xưng, ngôn ngữ cùng phạm vi ngôn ngữ, khái niệm cùng phạm vi khái niệm, trí cùng phạm vi trí, luân hồi cùng sự vận hành. Do đó cũng không thích hợp gán cho vị ấy quan điểm không biết, không thấy.",
+            "Bài không lấy một trong bốn câu làm đáp án phải tin. Điều được giữ ở đây là thắng tri — biết trực tiếp — và sự giải thoát do biết ấy."
+          ]
+        },
+        {
+          "id": "first-planes",
+          "kind": "teaching",
+          "heading": "Bảy trú xứ của thức: thứ nhất và thứ hai",
+          "meaningUnits": [
+            "plane-one",
+            "plane-two"
+          ],
+          "paragraphs": [
+            "Đức Phật nêu bảy trú xứ của thức và hai xứ. Trú xứ thứ nhất gồm chúng sinh thân khác nhau, tưởng khác nhau: người, một số chư thiên, một số chúng sinh đọa xứ. Tưởng là sự nhận ra, nhận định đối tượng, khác với thọ.",
+            "Thứ hai là thân khác nhau, tưởng giống nhau; ví dụ các vị Phạm Chúng thiên được sinh ra lần đầu. Ở đây giữ cách nói của Pāli, chưa thêm lời giải “nhờ sơ thiền” có trong bản Anh Sujato và bản HTML Minh Châu."
+          ]
+        },
+        {
+          "id": "next-planes",
+          "kind": "teaching",
+          "heading": "Thứ ba và thứ tư",
+          "meaningUnits": [
+            "plane-three",
+            "plane-four"
+          ],
+          "paragraphs": [
+            "Trú xứ thứ ba: thân giống nhau, tưởng khác nhau, như Quang Âm thiên. Trú xứ thứ tư: thân giống nhau, tưởng giống nhau, như Biến Tịnh thiên.",
+            "Như vậy bốn trú xứ đầu giữ đủ các tổ hợp khác-giống của thân và tưởng. Nhớ hai mặt này giúp đọc tên cõi có nội dung cụ thể hơn."
+          ]
+        },
+        {
+          "id": "formless-planes",
+          "kind": "teaching",
+          "heading": "Thứ năm, thứ sáu và thứ bảy",
+          "meaningUnits": [
+            "plane-five",
+            "plane-six",
+            "plane-seven"
+          ],
+          "paragraphs": [
+            "Thứ năm: chúng sinh hoàn toàn vượt các sắc tưởng; tưởng về đối ngại chấm dứt; không tác ý các tưởng sai biệt. Với nhận thức hư không vô biên, họ sinh vào Không vô biên xứ.",
+            "Thứ sáu: hoàn toàn vượt Không vô biên xứ, với nhận thức “thức là vô biên”, sinh vào Thức vô biên xứ. Thứ bảy: hoàn toàn vượt Thức vô biên xứ, nhận không có gì, sinh vào Vô sở hữu xứ. Cả điều vượt qua và nhận thức tương ứng đều cần giữ."
+          ]
+        },
+        {
+          "id": "two-other-places",
+          "kind": "teaching",
+          "heading": "Hai xứ được kể riêng",
+          "meaningUnits": [
+            "two-dimensions"
+          ],
+          "paragraphs": [
+            "Hai xứ là Vô Tưởng Hữu Tình Xứ và Phi tưởng phi phi tưởng xứ. Chúng được kể ngoài danh mục bảy trú xứ của thức; không cần đổi thành trú xứ thứ tám và thứ chín.",
+            "Các danh mục nói về những dạng hiện hữu và kinh nghiệm sâu. Điểm tiếp theo của bài là có còn ưa đắm vào đó hay không."
+          ]
+        },
+        {
+          "id": "knowing-the-places",
+          "kind": "teaching",
+          "heading": "Sáu mặt để hiểu rõ từng xứ",
+          "meaningUnits": [
+            "wisdom-liberation"
+          ],
+          "paragraphs": [
+            "Với trú xứ thứ nhất, Đức Phật hỏi về người biết chính trú xứ ấy, sự tập khởi, sự biến mất, vị ngọt, sự nguy hại và sự xuất ly. Người ấy có nên ưa đắm nó không? Ānanda đáp không. Phần tương tự cho các trú xứ thứ hai tới thứ bảy được lược trong chính văn.",
+            "Ngài hỏi riêng Vô Tưởng Hữu Tình Xứ: biết chính xứ, chỗ sinh, chỗ mất, vị ngọt, nguy hại, xuất ly, thì còn nên ưa đắm không? Không. Ngài lại hỏi Phi tưởng phi phi tưởng xứ bằng đủ sáu mặt ấy; câu đáp vẫn không.",
+            "Vị ngọt là điều hấp dẫn, xuất ly là lối thoát khỏi sự trói buộc. Khi tỳ-kheo biết như thật tập khởi, biến mất, vị ngọt, nguy hại, xuất ly của cả bảy trú xứ và hai xứ, rồi giải thoát không chấp thủ, vị ấy được gọi là tuệ giải thoát."
+          ]
+        },
+        {
+          "id": "first-three-liberations",
+          "kind": "teaching",
+          "heading": "Tám giải thoát: ba mục đầu",
+          "meaningUnits": [
+            "liberations-one-three"
+          ],
+          "paragraphs": [
+            "Danh mục mới có tám giải thoát. Một: có sắc, thấy các sắc. Hai: không tưởng sắc bên trong, thấy các sắc bên ngoài. Ba: chú tâm hoàn toàn vào tịnh tướng.",
+            "Tịnh tướng là nét thanh tịnh, tốt đẹp được hướng tâm đến trong sự tu tập này. Các câu thuộc một danh mục thành tựu tu tâm; chúng không gọi việc nhìn một đồ vật đẹp thông thường là giải thoát."
+          ]
+        },
+        {
+          "id": "middle-liberations",
+          "kind": "teaching",
+          "heading": "Thứ tư, thứ năm và thứ sáu",
+          "meaningUnits": [
+            "liberations-four-six"
+          ],
+          "paragraphs": [
+            "Thứ tư: hoàn toàn vượt các sắc tưởng, tưởng đối ngại chấm dứt, không tác ý tưởng sai biệt; nhận hư không vô biên, chứng và trú Không vô biên xứ.",
+            "Thứ năm: hoàn toàn vượt Không vô biên xứ, với nhận thức “thức là vô biên”, chứng và trú Thức vô biên xứ. Thứ sáu: hoàn toàn vượt Thức vô biên xứ, nhận không có gì, chứng và trú Vô sở hữu xứ.",
+            "Phần trước nói chúng sinh sinh vào các xứ; phần này nói người tu chứng và trú. Giữ các động từ ấy giúp phân biệt hai danh mục có những tên giống nhau."
+          ]
+        },
+        {
+          "id": "last-liberations",
+          "kind": "teaching",
+          "heading": "Thứ bảy và thứ tám",
+          "meaningUnits": [
+            "liberations-seven-eight"
+          ],
+          "paragraphs": [
+            "Thứ bảy: hoàn toàn vượt Vô sở hữu xứ, chứng và trú Phi tưởng phi phi tưởng xứ. Thứ tám: hoàn toàn vượt Phi tưởng phi phi tưởng xứ, chứng và trú sự diệt tưởng và thọ, thường gọi Diệt Thọ Tưởng Định. Đó là đủ tám giải thoát.",
+            "Đây là thành tựu tu tập sâu được kinh mô tả, không nên tự đồng nhất với ngủ, mệt hay không muốn cảm nhận điều gì."
+          ]
+        },
+        {
+          "id": "both-ways",
+          "kind": "teaching",
+          "heading": "Thành thạo tám giải thoát và tận lậu hoặc",
+          "meaningUnits": [
+            "both-ways"
+          ],
+          "paragraphs": [
+            "Kinh nói vị tỳ-kheo nhập và xuất tám giải thoát theo thứ tự thuận, thứ tự nghịch, và cả thuận lẫn nghịch; ở đâu tùy ý, khi nào tùy ý, bao lâu tùy ý.",
+            "Đồng thời, các lậu hoặc đã đoạn tận. Vị ấy tự mình bằng thắng trí chứng ngộ và an trú ngay hiện tại trong tâm giải thoát và tuệ giải thoát vô lậu. Lậu hoặc là các ô nhiễm sâu được chấm dứt; vô lậu là không còn chúng.",
+            "Vị ấy được gọi là câu phần giải thoát. Không có câu phần giải thoát nào khác cao hơn hay thù thắng hơn. Kết luận đòi cả sự thành thạo tám giải thoát và sự tận lậu hoặc, không chỉ một trong hai."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Lời được Ānanda hoan hỷ đón nhận",
+          "meaningUnits": [
+            "ending"
+          ],
+          "paragraphs": [
+            "Đức Phật nói như vậy. Tôn giả Ānanda hoan hỷ và tán đồng lời dạy. Bài không kể ngài chứng thêm một quả trong lúc này.",
+            "Dòng kết gọi Kinh Đại Duyên là bài thứ hai; tên DN15 ở đầu là số thứ tự trong toàn Trường Bộ. Giữ cả hai cách ghi để không tưởng đó là hai bài khác."
+          ]
+        },
+        {
+          "id": "reading-notes",
+          "kind": "clarification",
+          "heading": "Những điểm cần giữ khi đối chiếu",
+          "meaningUnits": [
+            "questions",
+            "convergence",
+            "name-form-contact",
+            "ungrasping",
+            "both-ways"
+          ],
+          "paragraphs": [
+            "Công thức DN15 đi trực tiếp từ danh-sắc đến xúc, và thức với danh-sắc nương nhau. Câu nói hai pháp hội tụ ở thọ cô đọng, được giải thích khác nhau; ở đây giữ cách nói dè dặt. Không cần bổ sung những mắt xích quen từ một bài khác.",
+            "Bản HTML Minh Châu có chỗ lặp xúc mũi thay xúc thân, có chỗ thêm sắc vào câu hỏi đầu vốn chỉ về danh, có chỗ nhầm các phủ định quanh ngã. Ở phần kết, bản ấy thiếu thứ tự nghịch và thuận-nghịch, rồi nhầm tâm giải thoát thành tám giải thoát. Lời giải này giữ đủ các điều kiện theo Pāli để không đổi kết luận."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Một việc phân chia trong gia đình",
+          "meaningUnits": [
+            "social-chain",
+            "guarding"
+          ],
+          "paragraphs": [
+            "Ví dụ do người biên soạn đặt: khi một món đồ được chia, ta thấy thích, mong mình nhận nó, rồi nghĩ không ai được đụng tới, sinh canh chừng và trách móc. Có thể dừng lại xem bước chấp giữ hay keo giữ nào đang thêm vào chuyện ấy. Ví dụ chỉ giúp soi một nhánh nhỏ; quyền lợi và hoàn cảnh thực cần được xét cụ thể, không lấy đoạn kinh để quy lỗi mọi tranh chấp cho một người."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Chọn một phần để đọc trong ngày",
+          "meaningUnits": [
+            "questions",
+            "social-chain",
+            "three-self-views",
+            "wisdom-liberation"
+          ],
+          "paragraphs": [
+            "Có thể đọc riêng chuỗi chín câu hỏi, hoặc nhánh dẫn tới tranh chấp, hoặc ba cách quán ngã. Đọc xong, nhắc lại điều kiện và kết luận bằng lời của mình rồi đối chiếu. Không cần thử làm thọ chấm dứt hay tự đo mình ở tầng định nào. Sự cẩn thận trong hiểu nghĩa chính là việc có thể bắt đầu ngay."
+          ]
+        }
+      ]
+    }
+  }
+}

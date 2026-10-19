@@ -1,0 +1,1730 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn112",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn112_root-pli-ms.json",
+      "sha256": "4520cf83678d2ef2b708851bfd5026c35f732b36d9d85896867911784aa490e1",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn112_translation-vi-project.json",
+      "sha256": "ced7520066790edf743bf181aa30e6f5d9650ae09b77c4b3a56b8d6210761023",
+      "commit": "706653e17256f5911f1545684ef9abd16345f00a"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn112_translation-en-sujato.json",
+      "sha256": "0bb1874e2cf025cb162045e7c1822ae078fd8e51ed63225ce1546cb75a9aa503",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn112.html",
+      "sha256": "3c675ba6b3380838246d2729fd5a4d43a32318b2ab1afc9023586bb2e0135f36",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn112_comment-vi-project.json",
+      "sha256": "7dc147cf59f0b8106b1254d96a84475a788689c58c9d1cc6f56e7300d9eaedb9",
+      "commit": "706653e17256f5911f1545684ef9abd16345f00a"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Tên bài",
+      "segments": [
+        "mn112:0.1",
+        "mn112:0.2"
+      ],
+      "summary": "Trung Bộ 112, Chabbisodhanasutta, Sáu Pháp Thanh Tịnh; văn kinh trình bày năm lượt hỏi, không nói rõ cách đếm thành sáu."
+    },
+    {
+      "id": "setting",
+      "title": "Khung lời đã nghe",
+      "segments": [
+        "mn112:1.1",
+        "mn112:1.2",
+        "mn112:1.3",
+        "mn112:1.4",
+        "mn112:1.5",
+        "mn112:1.6"
+      ],
+      "summary": "Người truyền kinh đã nghe; Phật tại Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika gọi các tỳ-kheo; họ đáp, Ngài giảng."
+    },
+    {
+      "id": "claim",
+      "title": "Tuyên bố chánh trí",
+      "segments": [
+        "mn112:2.1",
+        "mn112:2.2"
+      ],
+      "summary": "Phật nêu tình huống một tỳ-kheo tuyên bố biết sinh đã tận, phạm hạnh hoàn thành, việc cần làm đã làm, không trở lại hiện hữu này."
+    },
+    {
+      "id": "hold-judgment",
+      "title": "Chưa vội tán thành hoặc bác bỏ",
+      "segments": [
+        "mn112:3.1",
+        "mn112:3.2"
+      ],
+      "summary": "Đối với tuyên bố ấy không vội hoan hỷ hay bác bỏ, mà đặt câu hỏi."
+    },
+    {
+      "id": "four-question",
+      "title": "Bốn cách nói",
+      "segments": [
+        "mn112:3.3",
+        "mn112:3.4",
+        "mn112:3.5",
+        "mn112:3.6",
+        "mn112:3.7"
+      ],
+      "summary": "Phật, bậc biết/thấy/A-la-hán/Chánh Đẳng Giác, khéo dạy thấy nói đúng như thấy, nghe đúng nghe, suy cảm đúng suy cảm, thức biết đúng thức biết; hỏi biết và thấy thế nào để tâm thoát lậu hoặc do không thủ."
+    },
+    {
+      "id": "qualified",
+      "title": "Người có thể đáp đúng pháp",
+      "segments": [
+        "mn112:4.1"
+      ],
+      "summary": "Bảy đặc điểm người lậu tận: lậu hoặc cạn, sống trọn phạm hạnh, làm việc cần làm, đặt gánh xuống, đạt đích, hết kiết sử hữu, giải thoát nhờ chánh trí; Phật nêu lời đáp hợp pháp."
+    },
+    {
+      "id": "four-answer",
+      "title": "Đáp về bốn phạm vi kinh nghiệm",
+      "segments": [
+        "mn112:4.2",
+        "mn112:4.3",
+        "mn112:4.4",
+        "mn112:4.5",
+        "mn112:4.6"
+      ],
+      "summary": "Đủ thấy/nghe/suy cảm/thức biết: không hướng đến, lẩn tránh, nương tựa, hệ lụy; giải thoát không buộc, tâm vượt giới hạn; biết thấy như vậy tâm thoát lậu hoặc không thủ."
+    },
+    {
+      "id": "approve-one",
+      "title": "Tán thành rồi hỏi tiếp lần một",
+      "segments": [
+        "mn112:5.1",
+        "mn112:5.2"
+      ],
+      "summary": "Nói Lành thay, hoan hỷ và tán thành câu đáp, rồi hỏi thêm."
+    },
+    {
+      "id": "aggregates-question",
+      "title": "Hỏi về năm thủ uẩn",
+      "segments": [
+        "mn112:5.3",
+        "mn112:5.4",
+        "mn112:5.5",
+        "mn112:5.6",
+        "mn112:5.7"
+      ],
+      "summary": "Phật có đủ bốn phẩm xưng khéo dạy năm thủ uẩn theo thứ tự sắc/thọ/tưởng/hành/thức; hỏi biết thấy thế nào để tâm thoát lậu hoặc do không thủ."
+    },
+    {
+      "id": "aggregates-answer",
+      "title": "Buông chấp đối với cả năm uẩn",
+      "segments": [
+        "mn112:6.1",
+        "mn112:6.2",
+        "mn112:6.3",
+        "mn112:6.4",
+        "mn112:6.5",
+        "mn112:6.6",
+        "mn112:6.7"
+      ],
+      "summary": "Người đủ bảy đặc điểm lậu tận đáp đúng pháp: mỗi uẩn vô lực, phai tàn, không đem an ổn; các hướng đến/chấp thủ/chỗ bám của tâm/chấp trước/tùy miên đối với mỗi uẩn tận, ly tham, diệt, xả, buông; tâm giải thoát, biết thấy như vậy không thủ."
+    },
+    {
+      "id": "approve-two",
+      "title": "Tán thành rồi hỏi tiếp lần hai",
+      "segments": [
+        "mn112:7.1",
+        "mn112:7.2"
+      ],
+      "summary": "Lành thay, hoan hỷ, tán thành, hỏi thêm."
+    },
+    {
+      "id": "elements-question",
+      "title": "Hỏi về sáu giới",
+      "segments": [
+        "mn112:7.3",
+        "mn112:7.4",
+        "mn112:7.5",
+        "mn112:7.6",
+        "mn112:7.7"
+      ],
+      "summary": "Phật với bốn phẩm xưng khéo dạy đất/nước/lửa/gió/hư không/thức; hỏi biết thấy thế nào mà tâm giải thoát lậu hoặc không thủ."
+    },
+    {
+      "id": "elements-answer",
+      "title": "Không lấy giới làm ngã hay chỗ nương của ngã",
+      "segments": [
+        "mn112:8.1",
+        "mn112:8.2",
+        "mn112:8.3",
+        "mn112:8.4",
+        "mn112:8.5",
+        "mn112:8.6",
+        "mn112:8.7",
+        "mn112:8.8",
+        "mn112:8.9",
+        "mn112:8.10"
+      ],
+      "summary": "Người đủ bảy phẩm lậu tận đáp đúng pháp: không chấp từng giới là ngã hoặc ngã nương giới; đủ năm nét chấp nương mỗi giới được tận/ly tham/diệt/xả/buông, biết tâm giải thoát; áp dụng đủ sáu giới."
+    },
+    {
+      "id": "approve-three",
+      "title": "Tán thành rồi hỏi tiếp lần ba",
+      "segments": [
+        "mn112:9.1",
+        "mn112:9.2"
+      ],
+      "summary": "Lành thay, hoan hỷ, tán thành, hỏi thêm."
+    },
+    {
+      "id": "senses-question",
+      "title": "Hỏi về sáu cặp nội ngoại xứ",
+      "segments": [
+        "mn112:9.3",
+        "mn112:9.4",
+        "mn112:9.5",
+        "mn112:9.6",
+        "mn112:9.7"
+      ],
+      "summary": "Phật với bốn phẩm xưng khéo dạy mắt/sắc, tai/tiếng, mũi/hương, lưỡi/vị, thân/xúc chạm, ý/pháp; hỏi biết thấy thế nào tâm thoát lậu hoặc không thủ."
+    },
+    {
+      "id": "senses-answer",
+      "title": "Buông dục tham trong toàn sáu phạm vi",
+      "segments": [
+        "mn112:10.1",
+        "mn112:10.2",
+        "mn112:10.3",
+        "mn112:10.4",
+        "mn112:10.5",
+        "mn112:10.6",
+        "mn112:10.7",
+        "mn112:10.8"
+      ],
+      "summary": "Người đủ bảy phẩm lậu tận đáp: mỗi phạm vi có căn, cảnh, thức tương ứng, pháp thức ấy biết; dục/tham/hỷ/ái và năm nét chấp được tận/ly tham/diệt/xả/buông; biết tâm giải thoát không thủ."
+    },
+    {
+      "id": "approve-four",
+      "title": "Tán thành rồi hỏi tiếp lần bốn",
+      "segments": [
+        "mn112:11.1",
+        "mn112:11.2"
+      ],
+      "summary": "Lành thay, hoan hỷ, tán thành, hỏi thêm."
+    },
+    {
+      "id": "last-question",
+      "title": "Chấp ta, của ta và mạn ngầm",
+      "segments": [
+        "mn112:11.3"
+      ],
+      "summary": "Hỏi biết/thấy thế nào để nhổ sạch chấp ta/chấp của ta/mạn tùy miên đối với thân có thức và mọi tướng bên ngoài."
+    },
+    {
+      "id": "last-qualified",
+      "title": "Lời tự thuật đúng pháp",
+      "segments": [
+        "mn112:12.1"
+      ],
+      "summary": "Người đủ bảy phẩm lậu tận có lời đáp đúng pháp sau đây, được thuật ở ngôi thứ nhất."
+    },
+    {
+      "id": "learning",
+      "title": "Từ chưa hiểu đến nghe và tin",
+      "segments": [
+        "mn112:12.2",
+        "mn112:12.3",
+        "mn112:12.4"
+      ],
+      "summary": "Trước là người tại gia chưa hiểu; Như Lai hoặc đệ tử giảng Pháp; nghe rồi có lòng tin Như Lai."
+    },
+    {
+      "id": "reflection",
+      "title": "Ý định xuất gia",
+      "segments": [
+        "mn112:12.5",
+        "mn112:12.6",
+        "mn112:12.7",
+        "mn112:12.8"
+      ],
+      "summary": "Với lòng tin, suy xét gia đình chật hẹp/bụi bặm, xuất gia rộng; ở nhà khó phạm hạnh tròn sạch như vỏ ốc đánh bóng; nghĩ cạo tóc/râu, mặc cà-sa, đi từ nhà đến không nhà."
+    },
+    {
+      "id": "renunciation",
+      "title": "Thực hiện xuất gia",
+      "segments": [
+        "mn112:13.1"
+      ],
+      "summary": "Một thời gian sau bỏ tài sản ít/nhiều và thân thuộc ít/nhiều, cạo tóc/râu, mặc cà-sa, xuất gia từ nhà đến không nhà."
+    },
+    {
+      "id": "nonharm",
+      "title": "Giới không sát sinh",
+      "segments": [
+        "mn112:13.2"
+      ],
+      "summary": "Nhận giới và nếp sống tỳ-kheo; bỏ sát sinh, gậy/kiếm, biết hổ thẹn, từ bi vì lợi ích mọi sinh vật."
+    },
+    {
+      "id": "not-stealing",
+      "title": "Không lấy của không cho",
+      "segments": [
+        "mn112:13.3"
+      ],
+      "summary": "Bỏ trộm, chỉ nhận và chờ vật được cho, sống trong sạch không trộm."
+    },
+    {
+      "id": "chastity",
+      "title": "Phạm hạnh",
+      "segments": [
+        "mn112:13.4"
+      ],
+      "summary": "Bỏ phi phạm hạnh, sống phạm hạnh, xa việc tình dục thô tục."
+    },
+    {
+      "id": "truth",
+      "title": "Lời thật",
+      "segments": [
+        "mn112:13.5"
+      ],
+      "summary": "Không nói dối, nói thật, giữ thật, vững và đáng tin, không lừa đời."
+    },
+    {
+      "id": "harmony",
+      "title": "Lời hòa hợp",
+      "segments": [
+        "mn112:13.6"
+      ],
+      "summary": "Không đưa chuyện hai chiều để chia rẽ; hòa giải người chia, củng cố người đoàn kết; vui/thích/hân hoan trong hòa hợp, nói tạo hòa hợp."
+    },
+    {
+      "id": "gentle",
+      "title": "Lời dịu dàng",
+      "segments": [
+        "mn112:13.7"
+      ],
+      "summary": "Bỏ lời ác; lời nhẹ, thuận tai, đáng mến, vào lòng, lễ phép, nhiều người thích và ưa."
+    },
+    {
+      "id": "meaningful",
+      "title": "Lời có giá trị",
+      "segments": [
+        "mn112:13.8"
+      ],
+      "summary": "Bỏ phù phiếm; đúng thời, thật, ý nghĩa, đúng Pháp/Luật, đáng nhớ, đúng lúc, có căn cứ, có giới hạn, lợi ích."
+    },
+    {
+      "id": "plants-food",
+      "title": "Hạt cây và thời ăn",
+      "segments": [
+        "mn112:14.1"
+      ],
+      "summary": "Không hại hạt/cây; một bữa theo Việt dự án, không ăn đêm/phi thời. Anh giải một phần trong ngày; đây là giới sống xuất gia."
+    },
+    {
+      "id": "simplicity",
+      "title": "Giản dị trong sinh hoạt",
+      "segments": [
+        "mn112:14.2",
+        "mn112:14.3",
+        "mn112:14.4"
+      ],
+      "summary": "Không xem múa/hát/nhạc/trò diễn; không hoa/hương/phấn/trang điểm; không giường cao/sang."
+    },
+    {
+      "id": "receiving",
+      "title": "Những thứ không nhận",
+      "segments": [
+        "mn112:14.5",
+        "mn112:14.6",
+        "mn112:14.7",
+        "mn112:14.8",
+        "mn112:14.9",
+        "mn112:14.10",
+        "mn112:14.11",
+        "mn112:14.12",
+        "mn112:14.13"
+      ],
+      "summary": "Không nhận vàng bạc, hạt sống, thịt sống, phụ nữ/trẻ gái, đầy tớ nam/nữ, dê/cừu, gà/heo, voi/bò/ngựa/ngựa cái, ruộng/đất."
+    },
+    {
+      "id": "trade",
+      "title": "Không làm việc giao dịch",
+      "segments": [
+        "mn112:14.14",
+        "mn112:14.15"
+      ],
+      "summary": "Không làm sứ giả/đưa tin và mua bán."
+    },
+    {
+      "id": "fraud",
+      "title": "Không gian dối",
+      "segments": [
+        "mn112:14.16",
+        "mn112:14.17"
+      ],
+      "summary": "Không gian cân/kim loại/đo lường; không hối lộ/lừa gạt/gian trá/che đậy."
+    },
+    {
+      "id": "violence",
+      "title": "Không bạo lực",
+      "segments": [
+        "mn112:14.18"
+      ],
+      "summary": "Không chặt/giết/trói/cướp bóc/cướp đường/bạo lực."
+    },
+    {
+      "id": "contentment",
+      "title": "Biết đủ và ví chim",
+      "segments": [
+        "mn112:14.19",
+        "mn112:14.20",
+        "mn112:14.21"
+      ],
+      "summary": "Đủ y che thân/thức ăn khất thực nuôi bụng, đi đâu mang chừng ấy; như chim mang cánh đến nơi bay, rồi nhắc lại sự biết đủ của vị ấy."
+    },
+    {
+      "id": "ethical-joy",
+      "title": "An lạc không lỗi",
+      "segments": [
+        "mn112:14.22"
+      ],
+      "summary": "Đủ giới uẩn Thánh, cảm nhận niềm vui nội tâm không lỗi lầm."
+    },
+    {
+      "id": "sense-guard",
+      "title": "Hộ trì đủ sáu căn",
+      "segments": [
+        "mn112:15.1",
+        "mn112:15.2",
+        "mn112:15.3",
+        "mn112:15.4",
+        "mn112:15.5",
+        "mn112:15.6",
+        "mn112:15.7",
+        "mn112:15.8"
+      ],
+      "summary": "Mắt/thấy, tai/nghe, mũi/ngửi, lưỡi/nếm, thân/chạm, ý/biết pháp: không nắm tướng/chi tiết; nếu không hộ, tham ưu/bất thiện có thể tràn vào; thực hành, bảo vệ, thành tựu hộ căn."
+    },
+    {
+      "id": "guarded-joy",
+      "title": "An lạc không vẩn đục",
+      "segments": [
+        "mn112:15.9"
+      ],
+      "summary": "Đủ hộ căn Thánh, cảm nhận an lạc bên trong không vẩn đục."
+    },
+    {
+      "id": "awareness",
+      "title": "Tỉnh giác trong mọi sinh hoạt",
+      "segments": [
+        "mn112:16.1"
+      ],
+      "summary": "Đủ bảy nhóm: đi tới/lui, nhìn thẳng/quanh, co/duỗi, mang y ngoài/y/bát, ăn/uống/nhai/nếm, đại/tiểu tiện, đi/đứng/ngồi/ngủ/thức/nói/im."
+    },
+    {
+      "id": "four-foundations",
+      "title": "Bốn điều kiện đã có",
+      "segments": [
+        "mn112:16.2"
+      ],
+      "summary": "Đủ giới, biết đủ, hộ căn, niệm/tỉnh giác cao quý trước khi tìm nơi vắng."
+    },
+    {
+      "id": "seclusion",
+      "title": "Chín nơi vắng",
+      "segments": [
+        "mn112:16.3"
+      ],
+      "summary": "Rừng, gốc cây, núi, khe núi, hang đá, nghĩa địa, rừng hoang, ngoài trời, đống rơm."
+    },
+    {
+      "id": "seat",
+      "title": "Ngồi sau khất thực",
+      "segments": [
+        "mn112:16.4"
+      ],
+      "summary": "Sau bữa ăn và khất thực về, xếp chân ngồi, thân thẳng, thiết lập niệm trước mặt."
+    },
+    {
+      "id": "covetousness",
+      "title": "Rời tham đối với đời",
+      "segments": [
+        "mn112:17.1"
+      ],
+      "summary": "Bỏ tham, sống tâm hết tham và làm sạch tâm khỏi tham."
+    },
+    {
+      "id": "illwill",
+      "title": "Rời sân và ác ý",
+      "segments": [
+        "mn112:17.2"
+      ],
+      "summary": "Bỏ sân/ác ý, tâm không sân, thương lợi ích mọi sinh vật, làm sạch tâm."
+    },
+    {
+      "id": "drowsiness",
+      "title": "Rời hôn trầm buồn ngủ",
+      "segments": [
+        "mn112:17.3"
+      ],
+      "summary": "Bỏ hôn trầm/buồn ngủ, nhận ánh sáng, niệm và tỉnh giác, làm sạch tâm."
+    },
+    {
+      "id": "restlessness",
+      "title": "Rời xao động hối tiếc",
+      "segments": [
+        "mn112:17.4"
+      ],
+      "summary": "Bỏ xao động/hối tiếc, không xao động, tâm trong lắng, làm sạch tâm."
+    },
+    {
+      "id": "doubt",
+      "title": "Rời nghi về thiện",
+      "segments": [
+        "mn112:17.5"
+      ],
+      "summary": "Bỏ nghi, vượt nghi, không phân vân các pháp thiện, làm sạch tâm."
+    },
+    {
+      "id": "hindrances",
+      "title": "Năm điều làm tuệ yếu",
+      "segments": [
+        "mn112:18.1"
+      ],
+      "summary": "Bỏ năm triền cái, cấu uế của tâm làm trí tuệ yếu."
+    },
+    {
+      "id": "first-jhana",
+      "title": "Sơ thiền",
+      "segments": [
+        "mn112:18.2"
+      ],
+      "summary": "Ly dục và bất thiện, chứng/an trú sơ thiền: hỷ lạc do viễn ly, tầm và tứ."
+    },
+    {
+      "id": "second-jhana",
+      "title": "Nhị thiền",
+      "segments": [
+        "mn112:18.3"
+      ],
+      "summary": "Tầm/tứ lắng, nội tâm thanh sáng, chuyên nhất, không tầm/tứ, hỷ lạc do định; chứng và an trú."
+    },
+    {
+      "id": "third-jhana",
+      "title": "Tam thiền",
+      "segments": [
+        "mn112:18.4"
+      ],
+      "summary": "Tỉnh lược Pāli/Việt/Anh; HTML cùng UID mở hỷ phai, xả, niệm tỉnh giác, thân lạc và lời Thánh; chứng/an trú tam thiền."
+    },
+    {
+      "id": "fourth-jhana",
+      "title": "Tứ thiền",
+      "segments": [
+        "mn112:18.5"
+      ],
+      "summary": "Tỉnh lược Pāli/Việt/Anh; HTML cùng UID mở bỏ lạc/khổ, hỷ ưu trước diệt, thọ trung tính, xả niệm thanh sạch; chứng/an trú tứ thiền."
+    },
+    {
+      "id": "directing",
+      "title": "Hướng lậu tận trí",
+      "segments": [
+        "mn112:19.1"
+      ],
+      "summary": "Tâm định tĩnh, thanh tịnh, sáng, không uế, lìa cấu, mềm, đắc dụng, vững, bất động; hướng tâm đến trí đoạn tận lậu hoặc."
+    },
+    {
+      "id": "truths-suffering",
+      "title": "Bốn mặt về khổ",
+      "segments": [
+        "mn112:19.2"
+      ],
+      "summary": "Thắng tri như thật khổ, nguồn gốc, chấm dứt, đường thực hành đến chấm dứt."
+    },
+    {
+      "id": "truths-defilements",
+      "title": "Bốn mặt về lậu hoặc",
+      "segments": [
+        "mn112:19.3"
+      ],
+      "summary": "Thắng tri như thật lậu hoặc, nguồn gốc, chấm dứt, đường thực hành đến chấm dứt."
+    },
+    {
+      "id": "release",
+      "title": "Giải thoát và biết giải thoát",
+      "segments": [
+        "mn112:20.1",
+        "mn112:20.2",
+        "mn112:20.3"
+      ],
+      "summary": "Biết/thấy vậy thoát dục lậu, hữu lậu, vô minh lậu; biết đã giải thoát; sinh tận, phạm hạnh thành, việc làm xong, không trở lại hiện hữu này."
+    },
+    {
+      "id": "last-answer",
+      "title": "Đáp lại câu hỏi cuối",
+      "segments": [
+        "mn112:20.4"
+      ],
+      "summary": "Nhờ biết/thấy vậy nhổ sạch chấp ta, chấp của ta, mạn tùy miên đối với thân có thức và mọi tướng ngoài."
+    },
+    {
+      "id": "final-approval",
+      "title": "Vui mừng có bạn đồng tu",
+      "segments": [
+        "mn112:21.1",
+        "mn112:21.2",
+        "mn112:21.3",
+        "mn112:21.4"
+      ],
+      "summary": "Lành thay, hoan hỷ, tán thành, rồi nói thật lợi ích/may mắn cho chúng tôi được thấy người đồng phạm hạnh như Tôn giả."
+    },
+    {
+      "id": "close",
+      "title": "Kết bài",
+      "segments": [
+        "mn112:21.5",
+        "mn112:21.6",
+        "mn112:21.7"
+      ],
+      "summary": "Phật giảng xong, các tỳ-kheo hoan hỷ tán đồng; kinh Sáu Pháp Thanh Tịnh kết thúc, bài thứ hai trong nhóm."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "MN112 cho trẻ em — Hỏi cho rõ, sống cho thật",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Nghe một lời rất lớn",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "claim"
+          ],
+          "paragraphs": [
+            "Kinh Sáu Pháp Thanh Tịnh là bài 112 của Trung Bộ. Người truyền kinh kể đã nghe như vầy: Đức Phật ở Sāvatthī, trong rừng Jeta, tại tu viện của ông Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những người nam xuất gia. Các vị đáp lời, rồi lắng nghe.",
+            "Phật đặt ra một tình huống: có vị tỳ-kheo nói mình đã biết rõ rằng sinh đã chấm dứt, đời sống tu hành thanh tịnh đã hoàn thành, việc cần làm đã làm xong và không còn trở lại sự hiện hữu này. Đó là lời tuyên bố đã giải thoát hoàn toàn. Phật chưa kể một người cụ thể đã vượt qua cuộc hỏi đáp; Ngài đang chỉ cách xem xét một lời tuyên bố như thế."
+          ]
+        },
+        {
+          "id": "pause",
+          "kind": "teaching",
+          "heading": "Khoan gật đầu, cũng khoan gạt đi",
+          "meaningUnits": [
+            "hold-judgment",
+            "four-question"
+          ],
+          "paragraphs": [
+            "Phật dạy các vị đừng vội tán thành, cũng đừng vội bác bỏ. Hãy hỏi người ấy biết và thấy như thế nào. Câu hỏi đầu nói về bốn cách nói đúng: điều đã thấy thì nói đúng như đã thấy; điều đã nghe thì nói đúng như nghe; điều đã suy cảm, tức cảm nhận, và điều đã thức biết, tức hay biết, cũng được nói đúng như vậy.",
+            "Các vị nhắc đây là lời dạy của Phật, bậc biết, bậc thấy, bậc A-la-hán và Chánh Đẳng Giác, nghĩa là bậc đã hết ô nhiễm và tự mình giác ngộ trọn vẹn. Họ hỏi: biết và thấy bốn phạm vi ấy ra sao mà tâm hết lậu hoặc nhờ không bám giữ? Lậu hoặc là những ô nhiễm sâu làm tâm còn bị trói buộc."
+          ]
+        },
+        {
+          "id": "qualified",
+          "kind": "teaching",
+          "heading": "Lời đáp phải đến từ sự thật đã sống",
+          "meaningUnits": [
+            "qualified",
+            "four-answer"
+          ],
+          "paragraphs": [
+            "Phật nói người thực sự giải thoát có bảy nét: lậu hoặc đã hết; đời sống thanh tịnh đã trọn; việc cần làm đã xong; gánh nặng đã đặt xuống; đã đạt đích; đã hết những dây trói vào sự hiện hữu; đã được tự do nhờ biết đúng. Với người ấy, lời đáp phù hợp sẽ như sau.",
+            "Đối với điều thấy, nghe, suy cảm và thức biết, vị ấy không lao theo, không lẩn tránh, không lấy làm chỗ nương để bám, không mắc kẹt; được giải thoát, không buộc ràng, với tâm vượt khỏi những giới hạn ấy. Nhờ biết và thấy như vậy, tâm thoát lậu hoặc do không còn chấp giữ. Nói thuộc những câu này chưa có nghĩa là đã sống được như thế."
+          ]
+        },
+        {
+          "id": "aggregates",
+          "kind": "teaching",
+          "heading": "Câu hỏi thứ hai: những gì ta thường giữ chặt",
+          "meaningUnits": [
+            "approve-one",
+            "aggregates-question"
+          ],
+          "paragraphs": [
+            "Sau câu đáp đúng, các vị nói “Lành thay”, vui mừng tán thành, rồi hỏi tiếp. Lần này họ nhắc bốn phẩm xưng của Phật như trước và hỏi về năm thủ uẩn, tức năm nhóm mà con người thường bám vào: sắc là phần vật chất; thọ là cảm giác dễ chịu, khó chịu hoặc trung tính; tưởng là nhận ra đặc điểm; hành là những hoạt động tạo tác trong tâm; thức là sự hay biết.",
+            "Biết và thấy năm nhóm ấy thế nào mà tâm thoát lậu hoặc nhờ không chấp giữ?"
+          ]
+        },
+        {
+          "id": "aggregates-answer",
+          "kind": "teaching",
+          "heading": "Buông sự bám, không phá bỏ thân tâm",
+          "meaningUnits": [
+            "aggregates-answer"
+          ],
+          "paragraphs": [
+            "Người có đủ bảy nét giải thoát vừa nói sẽ đáp: sắc không có sức làm chỗ dựa chắc chắn, sẽ phai tàn và không đem lại an ổn bền vững. Thọ, tưởng, hành, thức cũng như thế. Đối với từng nhóm, vị ấy đã chấm dứt sự hướng đến để bám, sự nắm giữ, chỗ bám của tâm, sự cố chấp và thói quen ngầm bám víu.",
+            "Kinh nói sự chấp ấy được làm cho hết, phai tham, chấm dứt, từ bỏ và buông xuống. Nhờ vậy vị ấy biết tâm đã giải thoát. Điều cần hết là sự chấp giữ đối với cả năm nhóm; lời dạy không bảo làm hại thân mình hay cố xóa mọi cảm giác."
+          ]
+        },
+        {
+          "id": "elements",
+          "kind": "teaching",
+          "heading": "Câu hỏi thứ ba: sáu yếu tố",
+          "meaningUnits": [
+            "approve-two",
+            "elements-question",
+            "elements-answer"
+          ],
+          "paragraphs": [
+            "Các vị lại nói “Lành thay”, vui mừng tán thành, rồi hỏi thêm. Họ nhắc Phật với đủ bốn phẩm xưng và sáu giới Ngài dạy: đất, nước, lửa, gió, hư không và thức. “Giới” ở đây có nghĩa là yếu tố. Biết và thấy sáu yếu tố này thế nào để tâm được giải thoát mà không chấp giữ?",
+            "Người đủ bảy nét giải thoát đáp: không coi đất là một cái ta, cũng không cho rằng có cái ta dựa trên đất. Đối với nước, lửa, gió, hư không và thức đều như vậy. Ở mỗi yếu tố, đủ năm kiểu bám vừa kể — hướng đến, nắm giữ, lấy làm chỗ bám của tâm, cố chấp và bám víu ngầm — đều được làm cho hết, phai tham, chấm dứt, từ bỏ và buông xuống. Vì thế vị ấy biết tâm đã giải thoát."
+          ]
+        },
+        {
+          "id": "senses",
+          "kind": "teaching",
+          "heading": "Câu hỏi thứ tư: sáu cánh cửa kinh nghiệm",
+          "meaningUnits": [
+            "approve-three",
+            "senses-question"
+          ],
+          "paragraphs": [
+            "Lại “Lành thay”, vui mừng tán thành, rồi hỏi tiếp. Các vị nhắc bốn phẩm xưng của Phật và sáu cặp trong ngoài: mắt với hình sắc; tai với âm thanh; mũi với mùi; lưỡi với vị; thân với sự xúc chạm; ý với các điều được tâm biết. Biết và thấy những cặp ấy như thế nào để tâm thoát lậu hoặc do không chấp giữ?"
+          ]
+        },
+        {
+          "id": "senses-answer",
+          "kind": "teaching",
+          "heading": "Thấy nghe rõ mà không bị kéo đi",
+          "meaningUnits": [
+            "senses-answer"
+          ],
+          "paragraphs": [
+            "Người đủ bảy nét giải thoát đáp về từng cặp. Chẳng hạn ở việc thấy, có mắt, hình sắc, thức của mắt và những điều được thức ấy biết. Với tai, mũi, lưỡi, thân và ý cũng có đủ cơ quan, đối tượng, thức tương ứng và điều được thức ấy biết.",
+            "Trong tất cả những phạm vi đó, ý muốn, sự tham đắm, sự say thích và khát khao bám giữ, cùng năm kiểu bám víu đã giải thích, đều được làm cho hết, phai tham, chấm dứt, từ bỏ và buông xuống. Vị ấy biết tâm đã giải thoát. Như vậy, câu đáp nói đủ sáu phạm vi, không chỉ việc nhìn bằng mắt."
+          ]
+        },
+        {
+          "id": "last",
+          "kind": "teaching",
+          "heading": "Câu hỏi thứ năm: chuyện “ta” và “của ta”",
+          "meaningUnits": [
+            "approve-four",
+            "last-question",
+            "last-qualified"
+          ],
+          "paragraphs": [
+            "Các vị nói “Lành thay”, vui mừng tán thành và hỏi tiếp: biết, thấy thế nào mà đã nhổ sạch việc dựng lên “ta”, “của ta” và thói quen ngầm tự tôn, đối với thân có sự hay biết này cùng mọi dấu hiệu bên ngoài?",
+            "Phật lại nói đến người có đủ bảy nét giải thoát. Lời đáp phù hợp lần này kể ở ngôi “tôi”, đi qua cả một quá trình tu tập. Dù tên bài là Sáu Pháp Thanh Tịnh, phần đối thoại kể năm lượt hỏi; bản kinh không giải thích cách đếm thành sáu."
+          ]
+        },
+        {
+          "id": "learning",
+          "kind": "teaching",
+          "heading": "Trước hết là nghe rồi suy nghĩ",
+          "meaningUnits": [
+            "learning",
+            "reflection"
+          ],
+          "paragraphs": [
+            "Trong lời tự thuật mẫu ấy, vị tỳ-kheo nói: trước kia tôi sống tại gia, chưa hiểu biết. Như Lai, tức Đức Phật, hoặc một vị đệ tử đã giảng Pháp. Nghe xong, tôi có lòng tin nơi Như Lai.",
+            "Tôi nghĩ đời sống gia đình chật hẹp, nhiều bụi bặm, còn xuất gia thì rộng mở; ở nhà khó sống đời tu thanh tịnh hoàn toàn, sạch như vỏ ốc được đánh bóng. Tôi nghĩ đến việc cạo tóc và râu, mặc áo cà-sa, áo tu của người xuất gia, rời đời sống có gia đình để sống không nhà. Đây là suy xét của người chọn xuất gia trong kinh."
+          ]
+        },
+        {
+          "id": "leaving",
+          "kind": "teaching",
+          "heading": "Quyết định trở thành người xuất gia",
+          "meaningUnits": [
+            "renunciation",
+            "nonharm",
+            "not-stealing",
+            "chastity"
+          ],
+          "paragraphs": [
+            "Một thời gian sau, vị ấy rời tài sản dù ít hay nhiều, rời thân thuộc dù ít hay nhiều; cạo tóc, râu, mặc cà-sa và xuất gia. Vị ấy nhận giới cùng nếp sống của tỳ-kheo.",
+            "Vị ấy bỏ giết hại, đặt gậy và kiếm xuống, biết hổ thẹn trước điều sai, thương và muốn lợi ích cho mọi sinh vật. Vị ấy không lấy của không cho, chỉ nhận và chờ điều được cho, sống trong sạch. Vị ấy giữ đời sống phạm hạnh, trong đó có việc không quan hệ tình dục; đây là nếp tu của người xuất gia được kể trong bài."
+          ]
+        },
+        {
+          "id": "truth",
+          "kind": "teaching",
+          "heading": "Lời nói có thể làm người khác yên lòng",
+          "meaningUnits": [
+            "truth",
+            "harmony"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ nói dối, nói thật, giữ sự thật, vững vàng, đáng tin và không lừa người. Vị ấy không đem chuyện bên này sang bên kia, hoặc ngược lại, để chia rẽ.",
+            "Người đang bất hòa được vị ấy giúp hòa lại; người đã hòa hợp được giúp bền chặt hơn. Vị ấy vui, yêu thích, hoan hỷ với sự hòa hợp và nói những lời làm người ta gần nhau."
+          ]
+        },
+        {
+          "id": "speech",
+          "kind": "teaching",
+          "heading": "Nói dịu và nói điều có ích",
+          "meaningUnits": [
+            "gentle",
+            "meaningful"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ lời cay độc, nói nhẹ nhàng, êm tai, đáng mến, chạm đến lòng người, lễ phép, được nhiều người thích nghe và quý mến.",
+            "Vị ấy cũng bỏ lời vô ích: nói đúng lúc, đúng sự thật, có ý nghĩa, phù hợp lời dạy và phép tu; lời đáng nhớ, có căn cứ, có chừng mực, đem lợi ích. Không phải cứ nói thật nhiều mới là giúp được nhiều."
+          ]
+        },
+        {
+          "id": "simple",
+          "kind": "teaching",
+          "heading": "Một nếp sống dành chỗ cho việc tu",
+          "meaningUnits": [
+            "plants-food",
+            "simplicity"
+          ],
+          "paragraphs": [
+            "Vị tỳ-kheo không làm hại hạt giống và cây cối. Kinh kể việc ăn một bữa, không ăn ban đêm hay ngoài thời được phép. Đây là quy định của đời sống xuất gia trong bài, không phải lời hướng dẫn bữa ăn cho trẻ em.",
+            "Vị ấy không xem múa, hát, nhạc và các trò diễn; không dùng vòng hoa, hương, phấn hay đồ trang điểm để làm đẹp; không dùng giường cao hoặc sang trọng. Những điều này được kể trong nếp sống giản dị của người đang chuyên tu."
+          ]
+        },
+        {
+          "id": "receiving",
+          "kind": "teaching",
+          "heading": "Không gom thêm của cải và người phục vụ",
+          "meaningUnits": [
+            "receiving"
+          ],
+          "paragraphs": [
+            "Kinh tiếp tục kể những điều vị ấy không nhận: vàng bạc, hạt chưa nấu, thịt sống; dê và cừu, gà và heo, voi, bò, ngựa và ngựa cái; ruộng và đất.",
+            "Trong bối cảnh xã hội xưa được bản kinh nhắc đến, danh sách còn có việc không nhận phụ nữ, trẻ gái, người hầu nam và nữ. Em có thể hiểu điểm đang nói là vị tu sĩ từ bỏ cả việc nhận người khác để phục vụ hay thuộc quyền mình. Đọc danh sách xưa, ta vẫn nhớ những người được kể đến đều là con người cần được tôn trọng."
+          ]
+        },
+        {
+          "id": "dealings",
+          "kind": "teaching",
+          "heading": "Không kiếm lợi bằng gian dối hoặc bạo lực",
+          "meaningUnits": [
+            "trade",
+            "fraud",
+            "violence"
+          ],
+          "paragraphs": [
+            "Vị ấy không làm người đưa tin hay sứ giả, không mua bán. Vị ấy không gian lận bằng cân, kim loại hay thước đo; không hối lộ, lừa gạt, gian trá hoặc che giấu để đánh lừa.",
+            "Vị ấy cũng bỏ việc chặt, giết, trói, cướp bóc, cướp đường và những hành vi bạo lực. Nếp sống trong lời tự thuật được giữ sạch trong cả lời nói lẫn việc làm."
+          ]
+        },
+        {
+          "id": "bird",
+          "kind": "teaching",
+          "heading": "Nhẹ như con chim mang đôi cánh",
+          "meaningUnits": [
+            "contentment",
+            "ethical-joy"
+          ],
+          "paragraphs": [
+            "Vị ấy biết đủ với áo che thân và thức ăn khất thực nuôi bụng. Đi đâu cũng chỉ mang theo chừng ấy. Chính bản kinh ví như con chim bay đến đâu mang đôi cánh đến đó, rồi nhắc lại sự biết đủ của vị tu sĩ.",
+            "Nhờ có giới hạnh cao quý, vị ấy cảm nhận niềm vui bên trong không có lỗi lầm. Đó là sự nhẹ lòng đi cùng cách sống trong sạch."
+          ]
+        },
+        {
+          "id": "guard",
+          "kind": "teaching",
+          "heading": "Giữ tâm khi sáu giác quan hoạt động",
+          "meaningUnits": [
+            "sense-guard",
+            "guarded-joy"
+          ],
+          "paragraphs": [
+            "Khi mắt thấy hình, vị ấy không nắm giữ dáng chung hay từng chi tiết để tâm bị kéo đi. Nếu không giữ gìn mắt, tham muốn, buồn bực và những điều bất thiện có thể tràn vào. Vì vậy vị ấy thực hành, bảo vệ và làm vững sự giữ gìn ấy.",
+            "Với tai nghe tiếng, mũi ngửi mùi, lưỡi nếm vị, thân xúc chạm và ý biết các điều trong tâm, vị ấy cũng làm như vậy. Nhờ giữ gìn đủ sáu căn theo cách cao quý, vị ấy cảm nhận niềm vui bên trong không vẩn đục."
+          ]
+        },
+        {
+          "id": "aware",
+          "kind": "teaching",
+          "heading": "Biết mình đang làm gì",
+          "meaningUnits": [
+            "awareness"
+          ],
+          "paragraphs": [
+            "Niệm giúp ghi nhớ và giữ sự tỉnh thức. Vị ấy có tỉnh giác, tức biết rõ việc đang làm: khi đi tới hay lui; nhìn thẳng hay nhìn quanh; co hay duỗi; mang áo ngoài, áo tu và bình bát; ăn, uống, nhai, nếm; đi vệ sinh; đi, đứng, ngồi, ngủ, thức, nói hay im lặng. Sự rèn luyện có mặt trong những việc rất bình thường."
+          ]
+        },
+        {
+          "id": "quiet",
+          "kind": "teaching",
+          "heading": "Tìm nơi yên sau khi đã có nền tảng",
+          "meaningUnits": [
+            "four-foundations",
+            "seclusion",
+            "seat"
+          ],
+          "paragraphs": [
+            "Khi đã có đủ bốn nền tảng — giới hạnh, biết đủ, giữ gìn các căn, niệm và tỉnh giác — vị ấy tìm nơi vắng. Kinh kể chín nơi: rừng, gốc cây, núi, khe núi, hang đá, nghĩa địa, rừng hoang, ngoài trời và đống rơm.",
+            "Sau khi khất thực trở về và ăn xong, vị ấy ngồi xếp chân, giữ thân thẳng, thiết lập niệm trước mặt. Đây là bước trong quá trình tu của vị xuất gia, với những nền tảng đã kể trước đó."
+          ]
+        },
+        {
+          "id": "obstacles-one",
+          "kind": "teaching",
+          "heading": "Dọn những gì làm tâm vướng",
+          "meaningUnits": [
+            "covetousness",
+            "illwill",
+            "drowsiness"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ tham đối với đời, sống với tâm không tham và làm sạch tâm khỏi tham. Vị ấy bỏ sân và ác ý, sống không sân, thương và mong lợi ích cho mọi sinh vật, làm sạch tâm khỏi ác ý.",
+            "Vị ấy bỏ sự trì trệ, buồn ngủ; nhận biết ánh sáng, có niệm và tỉnh giác, làm sạch tâm khỏi sự trì trệ ấy."
+          ]
+        },
+        {
+          "id": "obstacles-two",
+          "kind": "teaching",
+          "heading": "Tâm bớt rối thì thấy rõ hơn",
+          "meaningUnits": [
+            "restlessness",
+            "doubt",
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ xao động và hối tiếc, sống với tâm không xao động, lắng yên bên trong, làm sạch tâm. Vị ấy bỏ nghi, vượt khỏi nghi, không còn phân vân về các điều thiện, tức những điều tốt lành trong việc tu.",
+            "Năm điều vừa kể gọi là năm triền cái: tham, sân, trì trệ buồn ngủ, xao động hối tiếc và nghi. Chúng làm tâm vẩn đục, khiến trí tuệ yếu đi; vị ấy đã từ bỏ chúng."
+          ]
+        },
+        {
+          "id": "first",
+          "kind": "teaching",
+          "heading": "Tầng thiền đầu tiên",
+          "meaningUnits": [
+            "first-jhana"
+          ],
+          "paragraphs": [
+            "Xa các ham muốn giác quan và những điều bất thiện, vị ấy chứng và ở trong sơ thiền. Có hỷ, niềm vui hân hoan, và lạc, sự an vui, do sự xa lìa ấy. Còn tầm và tứ, tức đặt tâm vào điều đang tu và giữ tâm gắn với điều ấy."
+          ]
+        },
+        {
+          "id": "second",
+          "kind": "teaching",
+          "heading": "Tầng thứ hai: tâm quy tụ",
+          "meaningUnits": [
+            "second-jhana"
+          ],
+          "paragraphs": [
+            "Tầm và tứ lắng xuống. Vị ấy chứng và ở trong nhị thiền, nội tâm thanh sáng, quy tụ về một mối, không còn tầm và tứ; hỷ lạc sinh từ định, sự vững vàng tập trung của tâm."
+          ]
+        },
+        {
+          "id": "third",
+          "kind": "teaching",
+          "heading": "Tầng thứ ba: an vui và quân bình",
+          "meaningUnits": [
+            "third-jhana"
+          ],
+          "paragraphs": [
+            "Hỷ phai đi, vị ấy sống quân bình, có niệm và tỉnh giác, thân vẫn cảm nhận sự an vui. Vị ấy chứng và ở trong tam thiền. Các bậc Thánh nói về người ở tầng thiền này là người sống an lạc, quân bình và có niệm."
+          ]
+        },
+        {
+          "id": "fourth",
+          "kind": "teaching",
+          "heading": "Tầng thứ tư: niệm thanh sạch",
+          "meaningUnits": [
+            "fourth-jhana"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ lạc và khổ; niềm vui và buồn trước đó cũng đã lắng hết. Vị ấy chứng và ở trong tứ thiền, không khổ không lạc, với xả và niệm thanh sạch. Xả ở đây là sự quân bình, không bị nghiêng kéo."
+          ]
+        },
+        {
+          "id": "wisdom",
+          "kind": "teaching",
+          "heading": "Dùng tâm vững để thấy đến gốc",
+          "meaningUnits": [
+            "directing",
+            "truths-suffering",
+            "truths-defilements"
+          ],
+          "paragraphs": [
+            "Tâm lúc ấy định tĩnh, trong sạch, sáng rõ, không vết bẩn, đã xa ô nhiễm, mềm mại, dễ sử dụng, vững chắc và không lay động. Vị ấy hướng tâm đến sự biết về việc đoạn tận lậu hoặc.",
+            "Vị ấy biết đúng như thật bốn điều: khổ, nguồn gốc của khổ, sự chấm dứt khổ và đường thực hành đến chấm dứt khổ. Vị ấy cũng biết đúng như thật lậu hoặc, nguồn gốc, sự chấm dứt và đường thực hành đến chấm dứt lậu hoặc."
+          ]
+        },
+        {
+          "id": "free",
+          "kind": "teaching",
+          "heading": "Lời tuyên bố giờ có cả con đường phía sau",
+          "meaningUnits": [
+            "release",
+            "last-answer"
+          ],
+          "paragraphs": [
+            "Biết và thấy như vậy, tâm vị ấy thoát ô nhiễm do ham muốn giác quan, do bám vào sự hiện hữu và do không hiểu đúng. Khi được giải thoát, vị ấy biết đã giải thoát: sinh đã tận, đời sống tu thanh tịnh đã trọn, việc cần làm đã làm, không còn trở lại sự hiện hữu này.",
+            "Vị ấy kết lời đáp: nhờ biết và thấy như thế mà đã nhổ sạch việc dựng lên “ta”, “của ta” và thói quen ngầm tự tôn đối với thân có sự hay biết cùng mọi dấu hiệu bên ngoài. Câu trả lời trở lại đúng điều được hỏi ban đầu."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Niềm vui khi gặp một người bạn tu như vậy",
+          "meaningUnits": [
+            "final-approval",
+            "close"
+          ],
+          "paragraphs": [
+            "Với lời đáp đúng ấy, các vị nói “Lành thay”, vui mừng tán thành rồi nói: thật lợi ích và may mắn cho chúng tôi được thấy người bạn cùng sống đời tu thanh tịnh như Tôn giả.",
+            "Đức Phật giảng xong. Các tỳ-kheo vui thích, tán đồng lời Ngài. Kinh Sáu Pháp Thanh Tịnh, bài thứ hai trong nhóm, kết thúc."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: một lời khoe về sự thật thà",
+          "meaningUnits": [
+            "hold-judgment",
+            "truth"
+          ],
+          "paragraphs": [
+            "Ví dụ do người biên tập thêm: một bạn nói “Tớ không bao giờ nói dối”. Em không cần lập tức khen bạn hoàn hảo hay chê bạn khoác lác. Có thể bình tĩnh hỏi: “Khi làm hỏng đồ và sợ bị nhắc, bạn sẽ nói thế nào?” Câu chuyện nhỏ giúp hiểu việc hỏi cho rõ một lời tuyên bố; nó không phải cách kiểm tra xem ai đã chứng ngộ."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Thử nói đúng điều mình thật sự biết",
+          "meaningUnits": [
+            "four-question",
+            "truth",
+            "meaningful"
+          ],
+          "paragraphs": [
+            "Gợi ý của người biên tập: khi kể một chuyện ở lớp, em có thể phân biệt “mình thấy”, “mình nghe bạn kể” và “mình đang đoán”. Điều chưa rõ thì nói chưa rõ. Chọn một câu thật, dịu và có ích để nói. Đây là việc rèn lời nói hằng ngày, không phải phép thử hay lời hứa đạt các tầng thiền trong kinh."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "MN112 cho người trưởng thành — Xem xét lời tuyên bố bằng cả con đường đã sống",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Một tuyên bố cần được hiểu đến nơi",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "claim",
+            "hold-judgment"
+          ],
+          "paragraphs": [
+            "MN112, Kinh Sáu Pháp Thanh Tịnh, mở bằng lời truyền tụng đã nghe: Đức Phật ở Sāvatthī, rừng Jeta, tu viện Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những người nam xuất gia; họ đáp lời và nghe giảng. Ngài nêu tình huống một vị tuyên bố chánh trí: sinh đã tận, phạm hạnh hoàn thành, việc cần làm đã làm, không còn trở lại hiện hữu này.",
+            "Đối với lời tuyên bố ấy, Phật dạy đừng vội hoan hỷ tán thành hoặc bác bỏ. Hãy hỏi để biết người ấy thực sự biết và thấy như thế nào. Bài kinh trình bày cách hỏi cùng lời đáp phù hợp của người đã giải thoát, không thuật một cuộc sát hạch đã diễn ra với một nhân vật cụ thể."
+          ]
+        },
+        {
+          "id": "qualification",
+          "kind": "teaching",
+          "heading": "Ai là người có lời đáp phù hợp?",
+          "meaningUnits": [
+            "qualified"
+          ],
+          "paragraphs": [
+            "Trước những lời đáp, kinh xác định người lậu tận bằng bảy nét: các lậu hoặc đã hết; đã sống trọn phạm hạnh, đời tu thanh tịnh; đã làm việc cần làm; đã đặt gánh nặng xuống; đã đạt mục đích; đã hết kiết sử buộc vào hiện hữu; đã giải thoát nhờ chánh trí. Lậu hoặc là ô nhiễm sâu giữ tâm trong trói buộc; chánh trí là sự biết đúng đưa đến giải thoát.",
+            "Bảy nét này được nhắc lại khi giới thiệu mỗi lời đáp. Vì thế trọng tâm là điều đã được thực chứng, chứ không chỉ khả năng lặp lại một công thức chuẩn."
+          ]
+        },
+        {
+          "id": "first",
+          "kind": "teaching",
+          "heading": "Lượt thứ nhất: bốn phạm vi của lời nói đúng",
+          "meaningUnits": [
+            "four-question",
+            "four-answer"
+          ],
+          "paragraphs": [
+            "Người hỏi viện đến lời Phật, bậc biết, bậc thấy, A-la-hán, Chánh Đẳng Giác. Hai tên sau chỉ bậc đã hết ô nhiễm và tự giác ngộ viên mãn. Điều thấy được nói đúng như thấy; điều nghe, suy cảm và thức biết cũng được nói đúng như thế. Suy cảm chỉ điều được cảm nhận; thức biết là sự hay biết. Câu hỏi là: biết và thấy bốn phạm vi ấy ra sao mà tâm giải thoát lậu hoặc nhờ không chấp thủ?",
+            "Người thực sự lậu tận đáp: đối với cả điều thấy, nghe, suy cảm và thức biết, tôi không hướng đến để mắc vào, không lẩn tránh, không nương tựa, không hệ lụy; được giải thoát, không buộc ràng, tâm vượt khỏi các giới hạn ấy. Biết và thấy như vậy, tâm giải thoát nhờ không chấp thủ. Kinh đặt sự tự do đối với kinh nghiệm ngay cạnh sự trung thực khi nói về kinh nghiệm."
+          ]
+        },
+        {
+          "id": "second",
+          "kind": "teaching",
+          "heading": "Lượt thứ hai: năm nhóm bị chấp giữ",
+          "meaningUnits": [
+            "approve-one",
+            "aggregates-question",
+            "aggregates-answer"
+          ],
+          "paragraphs": [
+            "Sau câu đáp đúng, các vị nói “Lành thay”, hoan hỷ tán thành rồi hỏi tiếp. Với bốn phẩm xưng của Phật như trên, họ nhắc năm thủ uẩn: sắc, thọ, tưởng, hành, thức — phần vật chất, cảm thọ, sự nhận diện, các hoạt động tạo tác, sự hay biết. Biết và thấy chúng thế nào để tâm giải thoát do không thủ?",
+            "Người đủ bảy nét lậu tận đáp rằng từng uẩn đều vô lực, sẽ phai tàn và không thể bảo đảm an ổn. Với mỗi uẩn, mọi sự hướng đến, chấp thủ, chỗ tâm bám trụ, cố chấp và khuynh hướng ngầm đều được đoạn tận, ly tham, chấm dứt, từ bỏ, buông xuống. Nhờ vậy vị ấy biết tâm giải thoát. Cả sắc, thọ, tưởng, hành và thức đều được xét đủ; đối tượng của sự đoạn trừ là chấp giữ đối với chúng."
+          ]
+        },
+        {
+          "id": "third",
+          "kind": "teaching",
+          "heading": "Lượt thứ ba: không lấy yếu tố nào làm bản ngã",
+          "meaningUnits": [
+            "approve-two",
+            "elements-question",
+            "elements-answer"
+          ],
+          "paragraphs": [
+            "Các vị lại nói “Lành thay”, hoan hỷ tán thành và hỏi thêm. Sau khi nhắc Phật với bốn phẩm xưng, họ nêu sáu giới: đất, nước, lửa, gió, hư không, thức. “Giới” ở đây là yếu tố. Biết và thấy chúng thế nào để tâm giải thoát lậu hoặc nhờ không chấp thủ?",
+            "Người đủ bảy nét lậu tận đáp: tôi không nhận đất là tự ngã, cũng không nhận tự ngã nương vào đất. Với nước, lửa, gió, hư không và thức cũng vậy. Dựa trên mỗi yếu tố, năm dạng bám chấp vừa nêu đều được đoạn tận, ly tham, chấm dứt, từ bỏ và buông xuống. Tôi biết tâm đã giải thoát. Lời đáp không dựng thêm một bản ngã ở ngoài sáu yếu tố."
+          ]
+        },
+        {
+          "id": "fourth",
+          "kind": "teaching",
+          "heading": "Lượt thứ tư: toàn bộ tiến trình thấy, nghe, biết",
+          "meaningUnits": [
+            "approve-three",
+            "senses-question",
+            "senses-answer"
+          ],
+          "paragraphs": [
+            "Lại “Lành thay”, hoan hỷ tán thành rồi hỏi tiếp. Các vị nhắc bốn phẩm xưng của Phật và sáu nội ngoại xứ: mắt–sắc, tai–tiếng, mũi–hương, lưỡi–vị, thân–xúc chạm, ý–pháp. Pháp ở cặp cuối là những gì được tâm biết. Biết và thấy các cặp này thế nào để tâm giải thoát mà không thủ?",
+            "Người đủ bảy nét lậu tận đáp về bốn mặt của mỗi phạm vi: căn, đối tượng, thức tương ứng và các pháp được thức ấy nhận biết. Với mắt, đó là mắt, sắc, nhãn thức và pháp được nhãn thức biết; tai, mũi, lưỡi, thân, ý cũng được xét đủ như vậy.",
+            "Trong toàn bộ sáu phạm vi, dục, tham, hỷ thích và ái chỉ ý muốn, tham đắm, say thích và khát khao bám giữ. Những điều ấy cùng sự hướng đến, chấp thủ, chỗ tâm bám trụ, cố chấp và khuynh hướng ngầm đều được đoạn tận, ly tham, chấm dứt, từ bỏ, buông xuống. Vị ấy biết tâm giải thoát. Câu trả lời bao quát cả tiến trình kinh nghiệm, không chỉ các đối tượng bên ngoài."
+          ]
+        },
+        {
+          "id": "fifth",
+          "kind": "teaching",
+          "heading": "Lượt thứ năm: gốc của “ta” và “của ta”",
+          "meaningUnits": [
+            "approve-four",
+            "last-question",
+            "last-qualified"
+          ],
+          "paragraphs": [
+            "Các vị nói “Lành thay”, hoan hỷ tán thành rồi hỏi: biết và thấy thế nào để nhổ sạch sự dựng lập “ta”, “của ta” và mạn tùy miên đối với thân có thức này cùng mọi tướng bên ngoài? Mạn tùy miên là khuynh hướng ngầm tự xác lập mình trong so sánh, tự tôn.",
+            "Người đủ bảy nét lậu tận có lời đáp phù hợp ở ngôi “tôi”, kể lại con đường từ tại gia đến giải thoát. Văn bản có năm lượt hỏi dù nhan đề là Sáu Pháp Thanh Tịnh; chính lời kinh không giải thích cách đếm của nhan đề."
+          ]
+        },
+        {
+          "id": "faith",
+          "kind": "teaching",
+          "heading": "Từ nghe Pháp đến xuất gia",
+          "meaningUnits": [
+            "learning",
+            "reflection",
+            "renunciation"
+          ],
+          "paragraphs": [
+            "Trong lời đáp mẫu, vị ấy kể trước kia sống tại gia và chưa hiểu biết. Như Lai hoặc đệ tử của Ngài giảng Pháp; nghe xong, vị ấy có lòng tin nơi Như Lai. Vị ấy suy xét gia đình chật hẹp, nhiều bụi bặm; xuất gia rộng mở; ở nhà khó sống phạm hạnh hoàn toàn thanh sạch như vỏ ốc được đánh bóng.",
+            "Ý định nảy sinh: cạo tóc, râu, mặc cà-sa, áo tu của người xuất gia, rời gia đình sống không nhà. Một thời gian sau, vị ấy thực hiện: bỏ tài sản ít hoặc nhiều, thân thuộc ít hoặc nhiều, cạo tóc râu, mặc cà-sa và xuất gia. Kinh tách rõ suy xét, ý định và bước thực hiện."
+          ]
+        },
+        {
+          "id": "ethics",
+          "kind": "teaching",
+          "heading": "Không gây hại, không chiếm đoạt",
+          "meaningUnits": [
+            "nonharm",
+            "not-stealing",
+            "chastity"
+          ],
+          "paragraphs": [
+            "Nhận giới và nếp sống tỳ-kheo, vị ấy bỏ sát sinh, đặt gậy kiếm xuống, có lòng hổ thẹn, sống từ bi vì lợi ích mọi sinh vật. Vị ấy bỏ lấy của không cho, chỉ nhận và chờ vật được cho, sống trong sạch không trộm. Vị ấy bỏ phi phạm hạnh, sống phạm hạnh, xa quan hệ tình dục. Đây là nếp sống xuất gia của người đang tự thuật."
+          ]
+        },
+        {
+          "id": "speech",
+          "kind": "teaching",
+          "heading": "Bốn hướng giữ lời nói trong sạch",
+          "meaningUnits": [
+            "truth",
+            "harmony",
+            "gentle",
+            "meaningful"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ nói dối, nói thật, giữ sự thật, vững vàng đáng tin, không lừa đời. Bỏ nói chia rẽ, vị ấy không đưa chuyện từ bên này sang bên kia và ngược lại để gây bất hòa; hòa giải người đã chia rẽ, củng cố người đoàn kết; vui, yêu thích, hoan hỷ trong hòa hợp và nói lời tạo hòa hợp.",
+            "Bỏ lời ác, vị ấy nói dịu, thuận tai, đáng mến, thấm vào lòng, lễ phép, được nhiều người thích nghe và ưa mến. Bỏ lời phù phiếm, vị ấy nói đúng thời, thật, có nghĩa, đúng Pháp và Luật; lời đáng ghi nhớ, đúng lúc, có căn cứ, có giới hạn, mang lợi ích. Lời nói được rèn cả về sự thật, tác động và sự thích hợp."
+          ]
+        },
+        {
+          "id": "restraint",
+          "kind": "teaching",
+          "heading": "Giản dị trong sinh hoạt và tiếp nhận",
+          "meaningUnits": [
+            "plants-food",
+            "simplicity",
+            "receiving"
+          ],
+          "paragraphs": [
+            "Vị ấy không hại hạt giống, cây cối; ăn một bữa, không ăn đêm hay phi thời. Vị ấy tránh xem múa, hát, âm nhạc và trò diễn; không dùng hoa, hương, phấn, trang sức để làm đẹp; tránh giường cao hoặc sang trọng. Đây là những điều tiết chế trong đời xuất gia đang được kể.",
+            "Vị ấy không nhận vàng bạc, hạt sống, thịt sống; phụ nữ, trẻ gái, người hầu nam nữ; dê cừu, gà heo, voi bò ngựa và ngựa cái; ruộng đất. Danh sách mang bối cảnh xã hội cổ, trong đó người ta có thể trao người khác để phục dịch. Vị tu sĩ từ chối tiếp nhận con người trong những quan hệ quản giữ, phục dịch như thế."
+          ]
+        },
+        {
+          "id": "dealings",
+          "kind": "teaching",
+          "heading": "Không giao dịch, gian lận hoặc bạo lực",
+          "meaningUnits": [
+            "trade",
+            "fraud",
+            "violence"
+          ],
+          "paragraphs": [
+            "Vị ấy không làm sứ giả, đưa tin hay mua bán; không gian lận cân, kim loại, đo lường; không hối lộ, lừa gạt, gian trá hoặc che đậy để đánh lừa. Vị ấy tránh chặt, giết, trói, cướp bóc, cướp đường và bạo lực. Sự từ bỏ đi vào những cách kiếm lợi và can dự cụ thể, không dừng ở một ý niệm thanh sạch."
+          ]
+        },
+        {
+          "id": "contentment",
+          "kind": "teaching",
+          "heading": "Biết đủ và an lạc không lỗi",
+          "meaningUnits": [
+            "contentment",
+            "ethical-joy"
+          ],
+          "paragraphs": [
+            "Vị ấy biết đủ với y che thân, đồ khất thực nuôi bụng; đi đâu chỉ mang theo chừng ấy. Kinh ví như chim bay đến đâu mang đôi cánh đến đó, rồi nhắc lại sự biết đủ của vị tỳ-kheo. Thành tựu giới uẩn Thánh, vị ấy cảm nhận an lạc nội tâm không lỗi lầm."
+          ]
+        },
+        {
+          "id": "guard",
+          "kind": "teaching",
+          "heading": "Hộ căn: giữ gìn tại chỗ kinh nghiệm tiếp xúc",
+          "meaningUnits": [
+            "sense-guard",
+            "guarded-joy"
+          ],
+          "paragraphs": [
+            "Khi mắt thấy sắc, vị ấy không nắm tướng chung hoặc chi tiết. Bất thiện ở đây là những điều làm tâm xấu đi. Nếu mắt không được giữ gìn, tham ưu, tức tham muốn và buồn bực, cùng các pháp bất thiện có thể xâm nhập. Vì vậy vị ấy thực hành, bảo vệ và thành tựu sự chế ngự mắt. Tai nghe tiếng, mũi ngửi hương, lưỡi nếm vị, thân xúc chạm và ý nhận biết pháp cũng được hộ trì theo cùng cách.",
+            "Thành tựu sự hộ căn cao quý, vị ấy cảm nhận an lạc bên trong không vẩn đục. “Không lỗi” ở giới hạnh và “không vẩn đục” ở hộ căn là hai nét an lạc được bài kinh lần lượt nêu."
+          ]
+        },
+        {
+          "id": "awareness",
+          "kind": "teaching",
+          "heading": "Tỉnh giác trong sinh hoạt, rồi đến nơi vắng",
+          "meaningUnits": [
+            "awareness",
+            "four-foundations",
+            "seclusion",
+            "seat"
+          ],
+          "paragraphs": [
+            "Vị ấy biết rõ khi đi tới, lui; nhìn thẳng, nhìn quanh; co, duỗi; mang y ngoài, y và bát; ăn, uống, nhai, nếm; đại tiện, tiểu tiện; đi, đứng, ngồi, ngủ, thức, nói, im lặng. Niệm giữ sự ghi nhớ, tỉnh thức; tỉnh giác biết rõ việc đang diễn ra.",
+            "Có đủ giới hạnh, biết đủ, hộ căn, niệm và tỉnh giác cao quý, vị ấy tìm chỗ vắng: rừng, gốc cây, núi, khe núi, hang đá, nghĩa địa, rừng hoang, ngoài trời hoặc đống rơm. Sau khi khất thực về và ăn xong, vị ấy ngồi xếp chân, thân thẳng, thiết lập niệm trước mặt."
+          ]
+        },
+        {
+          "id": "hindrances",
+          "kind": "teaching",
+          "heading": "Năm chướng ngại được từ bỏ cụ thể",
+          "meaningUnits": [
+            "covetousness",
+            "illwill",
+            "drowsiness",
+            "restlessness",
+            "doubt",
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ tham đối với đời, sống với tâm không tham và làm sạch tâm khỏi tham. Bỏ sân ác, vị ấy sống không sân, từ bi vì lợi ích mọi sinh vật, làm sạch tâm khỏi ác ý. Bỏ hôn trầm thụy miên, vị ấy nhận biết ánh sáng, có niệm và tỉnh giác, làm sạch tâm khỏi trì trệ buồn ngủ.",
+            "Bỏ trạo cử hối quá, vị ấy không xao động, tâm lắng yên bên trong, được làm sạch khỏi xao động và hối tiếc. Bỏ nghi, vị ấy vượt nghi, không phân vân về các pháp thiện, làm sạch tâm khỏi nghi. Năm triền cái này làm tâm ô nhiễm và trí tuệ suy yếu; chúng được từ bỏ trước các tầng thiền."
+          ]
+        },
+        {
+          "id": "jhanas-one",
+          "kind": "teaching",
+          "heading": "Hai tầng thiền đầu",
+          "meaningUnits": [
+            "first-jhana",
+            "second-jhana"
+          ],
+          "paragraphs": [
+            "Xa lìa dục, các ham muốn giác quan, cùng các pháp bất thiện, vị ấy chứng, an trú sơ thiền: hỷ lạc, niềm hân hoan và an vui, do sự xa lìa ấy; có tầm và tứ — đặt tâm và duy trì tâm trên đề mục. Khi tầm tứ lắng, vị ấy chứng, an trú nhị thiền: nội tâm thanh sáng, chuyên nhất, không tầm tứ, hỷ lạc do định, sự tập trung vững của tâm."
+          ]
+        },
+        {
+          "id": "jhanas-two",
+          "kind": "teaching",
+          "heading": "Hai tầng thiền tiếp theo",
+          "meaningUnits": [
+            "third-jhana",
+            "fourth-jhana"
+          ],
+          "paragraphs": [
+            "Hỷ phai đi, vị ấy sống xả, có niệm và tỉnh giác, thân cảm nhận lạc; chứng, an trú tam thiền. Các bậc Thánh gọi đó là sống an lạc với xả và niệm. Xả là sự quân bình của tâm.",
+            "Vị ấy bỏ lạc và khổ; hỷ ưu, tức niềm vui và buồn trước đó, cũng đã diệt. Vị ấy chứng và an trú tứ thiền: không khổ không lạc, xả niệm thanh tịnh. Ở đây cảm thọ trung tính và sự thanh sạch của niệm được nêu rõ, không thể gộp mọi tầng thiền thành một trạng thái thư giãn."
+          ]
+        },
+        {
+          "id": "knowledge",
+          "kind": "teaching",
+          "heading": "Hướng tâm đến trí đoạn tận lậu hoặc",
+          "meaningUnits": [
+            "directing",
+            "truths-suffering",
+            "truths-defilements"
+          ],
+          "paragraphs": [
+            "Tâm định tĩnh, thanh tịnh, sáng, không uế, lìa cấu, nhu nhuyến, dễ sử dụng, vững và không lay động; vị ấy hướng tâm đến trí đoạn tận lậu hoặc. Vị ấy biết như thật khổ, nguồn gốc khổ, khổ chấm dứt và đường thực hành đến chấm dứt khổ.",
+            "Vị ấy cũng biết như thật lậu hoặc, nguồn gốc lậu hoặc, lậu hoặc chấm dứt và đường thực hành đến chấm dứt lậu hoặc. Trình tự được kể ở đây đi từ tâm định tĩnh đến sự biết rõ để đoạn tận lậu hoặc."
+          ]
+        },
+        {
+          "id": "liberation",
+          "kind": "teaching",
+          "heading": "Giải thoát rồi biết mình đã giải thoát",
+          "meaningUnits": [
+            "release",
+            "last-answer"
+          ],
+          "paragraphs": [
+            "Biết và thấy như vậy, tâm vị ấy giải thoát dục lậu, hữu lậu, vô minh lậu: ô nhiễm do ham muốn giác quan, do bám vào hiện hữu và do không hiểu đúng. Trong sự giải thoát, vị ấy biết đã giải thoát; sinh đã tận, phạm hạnh hoàn thành, việc cần làm đã làm, không còn trở lại hiện hữu này.",
+            "Vị ấy kết lại lời đáp: chính nhờ biết và thấy như thế mà sự dựng lập “ta”, “của ta” và mạn tùy miên đã bị nhổ sạch đối với thân có thức cùng mọi tướng bên ngoài. Toàn bộ quá trình tu vừa kể trả lời câu hỏi về tận gốc sự chấp ngã."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Tán thành và trân trọng người đồng tu",
+          "meaningUnits": [
+            "final-approval",
+            "close"
+          ],
+          "paragraphs": [
+            "Các vị nói “Lành thay”, hoan hỷ tán thành lời đáp rồi bày tỏ: thật lợi ích, thật may mắn cho chúng tôi được gặp người đồng phạm hạnh như Tôn giả. Sự tán thành cuối cùng có cả niềm vui về một người bạn cùng sống đời thanh tịnh.",
+            "Phật thuyết xong, các tỳ-kheo hoan hỷ tán đồng. Kinh Sáu Pháp Thanh Tịnh, bài thứ hai trong nhóm, kết thúc."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: khi một người nói mình đã hết nóng giận",
+          "meaningUnits": [
+            "hold-judgment",
+            "four-answer"
+          ],
+          "paragraphs": [
+            "Ví dụ do người biên tập thêm: một đồng nghiệp nói đã hoàn toàn hết nóng giận sau một khóa học. Bạn có thể lắng nghe và hỏi cách họ nhận biết tâm lúc bị phê bình, thay vì lập tức phong cho họ một phẩm chất hay phủ nhận mọi tiến bộ. Ví dụ chỉ gợi thái độ tìm hiểu thận trọng; cách cư xử trong vài tình huống không đủ để xác nhận hoặc bác bỏ sự chứng ngộ của một người."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Đối chiếu lời mình nói với điều mình đã biết",
+          "meaningUnits": [
+            "four-question",
+            "truth",
+            "meaningful"
+          ],
+          "paragraphs": [
+            "Gợi ý của người biên tập: trước một lời khẳng định quan trọng, hãy xác định phần nào mình trực tiếp biết, phần nào nghe lại và phần nào còn suy đoán. Nói rõ giới hạn ấy; chọn cách nói đúng thời, có căn cứ, có ích. Sau đó nhìn lại một chỗ mình đang bám vào lời khen hay vai trò của mình. Đây là thực hành trung thực và tự quan sát trong đời sống, không phải bảng kiểm tự chứng nhận lậu tận."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "MN112 cho người lớn tuổi — Bình tĩnh lắng nghe, nhìn lại con đường đã sống",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Bình tĩnh trước một lời khẳng định lớn",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "claim",
+            "hold-judgment"
+          ],
+          "paragraphs": [
+            "Kinh Sáu Pháp Thanh Tịnh là bài 112 trong Trung Bộ. Người truyền kinh kể đã nghe: Đức Phật ở Sāvatthī, trong rừng Jeta, tu viện Anāthapiṇḍika. Ngài gọi các tỳ-kheo, những người nam xuất gia; các vị đáp lời rồi lắng nghe.",
+            "Phật nêu tình huống một vị tỳ-kheo tuyên bố đã biết rõ: sinh đã tận, phạm hạnh đã thành, việc cần làm đã làm, không còn trở lại hiện hữu này. Phạm hạnh là đời sống tu hành thanh tịnh. Ngài dạy đừng vội hoan hỷ tán thành, cũng đừng vội bác bỏ lời tuyên bố; hãy hỏi để hiểu người ấy biết và thấy như thế nào."
+          ]
+        },
+        {
+          "id": "frame",
+          "kind": "teaching",
+          "heading": "Hiểu đúng người đang được nói đến",
+          "meaningUnits": [
+            "qualified"
+          ],
+          "paragraphs": [
+            "Bài kinh đưa ra lời đáp phù hợp của người thật sự đã giải thoát. Người ấy có bảy nét: lậu hoặc đã hết; phạm hạnh đã trọn; việc cần làm đã xong; gánh nặng đã đặt xuống; mục đích đã đạt; những dây trói vào hiện hữu đã dứt; đã được giải thoát nhờ sự biết đúng. Lậu hoặc là những ô nhiễm sâu khiến tâm còn trói buộc.",
+            "Bảy nét này được nhắc lại trước mỗi lời đáp. Đây là lời Phật hướng dẫn về một tình huống có thể xảy ra, không phải câu chuyện một nhân vật cụ thể đã vượt qua cuộc hỏi đáp. Người học có thể đọc chậm từng lượt, theo dõi điều được hỏi và điều được đáp."
+          ]
+        },
+        {
+          "id": "four",
+          "kind": "teaching",
+          "heading": "Lượt đầu: thấy, nghe, suy cảm, thức biết",
+          "meaningUnits": [
+            "four-question",
+            "four-answer"
+          ],
+          "paragraphs": [
+            "Các vị nhắc lời dạy của Phật với bốn phẩm xưng: bậc biết, bậc thấy, A-la-hán, Chánh Đẳng Giác. Hai tên sau chỉ bậc đã hết ô nhiễm và giác ngộ viên mãn. Ngài dạy bốn cách nói đúng: điều thấy nói như đã thấy; điều nghe, suy cảm và thức biết cũng nói đúng như thế. Suy cảm là điều được cảm nhận; thức biết là sự hay biết. Biết và thấy những phạm vi này ra sao để tâm giải thoát lậu hoặc nhờ không chấp giữ?",
+            "Người đủ bảy nét giải thoát đáp: với cả bốn phạm vi, tôi không hướng đến để bám, không lẩn tránh, không nương tựa, không hệ lụy; được giải thoát, không buộc ràng, tâm vượt khỏi những giới hạn ấy. Nhờ biết và thấy như vậy, tâm thoát lậu hoặc do không chấp thủ."
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Lượt thứ hai: thân tâm không phải chỗ bám chắc",
+          "meaningUnits": [
+            "approve-one",
+            "aggregates-question",
+            "aggregates-answer"
+          ],
+          "paragraphs": [
+            "Sau lời đáp đúng, các vị nói “Lành thay”, hoan hỷ tán thành rồi hỏi thêm. Họ nhắc bốn phẩm xưng của Phật và năm thủ uẩn: sắc là phần vật chất; thọ là cảm giác dễ chịu, khó chịu hoặc trung tính; tưởng là sự nhận diện; hành là những hoạt động tạo tác trong tâm; thức là sự hay biết. Biết và thấy năm nhóm bị chấp giữ này như thế nào để tâm được tự do?",
+            "Người đủ bảy nét lậu tận đáp: từng uẩn đều vô lực, sẽ phai tàn, không đem lại chỗ an ổn vững bền. Đối với sắc cũng như thọ, tưởng, hành, thức, sự hướng đến để bám, sự nắm giữ, chỗ tâm bám trụ, sự cố chấp và khuynh hướng ngầm đều đã được đoạn tận, ly tham, chấm dứt, từ bỏ và buông xuống. Vị ấy biết tâm đã giải thoát.",
+            "Điều được buông là sự chấp giữ đối với năm uẩn. Ta vẫn có thể chăm sóc thân và sống có trách nhiệm; không cần hiểu lời này thành sự bỏ mặc chính mình."
+          ]
+        },
+        {
+          "id": "elements",
+          "kind": "teaching",
+          "heading": "Lượt thứ ba: không nhận yếu tố nào là ta",
+          "meaningUnits": [
+            "approve-two",
+            "elements-question",
+            "elements-answer"
+          ],
+          "paragraphs": [
+            "Các vị lại nói “Lành thay”, hoan hỷ tán thành rồi hỏi tiếp. Họ nhắc Phật với đủ bốn phẩm xưng và sáu giới: đất, nước, lửa, gió, hư không, thức. Chữ “giới” ở đây chỉ yếu tố. Biết và thấy sáu yếu tố ấy ra sao mà tâm thoát lậu hoặc nhờ không chấp thủ?",
+            "Người đủ bảy nét lậu tận đáp: tôi không nhận đất là tự ngã, cũng không nhận có tự ngã dựa vào đất. Với nước, lửa, gió, hư không và thức cũng vậy. Ở từng yếu tố, đủ năm dạng bám chấp vừa kể đều được đoạn tận, ly tham, chấm dứt, từ bỏ, buông xuống. Tôi biết tâm giải thoát. Lời đáp không đặt một cái ta riêng ở ngoài các yếu tố ấy."
+          ]
+        },
+        {
+          "id": "pairs",
+          "kind": "teaching",
+          "heading": "Lượt thứ tư: sáu cặp trong ngoài",
+          "meaningUnits": [
+            "approve-three",
+            "senses-question"
+          ],
+          "paragraphs": [
+            "Lại “Lành thay”, hoan hỷ tán thành, rồi hỏi thêm. Sau khi nhắc bốn phẩm xưng của Phật, các vị kể sáu cặp: mắt với hình sắc; tai với âm thanh; mũi với mùi; lưỡi với vị; thân với xúc chạm; ý với các pháp, tức những gì được tâm biết. Biết và thấy các cặp này như thế nào để tâm giải thoát do không chấp giữ?"
+          ]
+        },
+        {
+          "id": "pairs-answer",
+          "kind": "teaching",
+          "heading": "Buông chấp trong toàn bộ kinh nghiệm",
+          "meaningUnits": [
+            "senses-answer"
+          ],
+          "paragraphs": [
+            "Người đủ bảy nét lậu tận đáp về từng phạm vi. Ở việc thấy có mắt, hình sắc, thức của mắt và các pháp được thức ấy biết. Ở tai, mũi, lưỡi, thân, ý cũng có đủ căn, đối tượng, thức tương ứng và các pháp được thức ấy nhận biết.",
+            "Trong cả sáu phạm vi, dục, tham, hỷ thích và ái có nghĩa là ý muốn, tham đắm, say thích và khát khao bám giữ. Chúng cùng năm dạng bám chấp đã kể — hướng đến, nắm giữ, chỗ tâm bám trụ, cố chấp và khuynh hướng ngầm — đều được đoạn tận, ly tham, chấm dứt, từ bỏ và buông xuống. Vị ấy biết tâm giải thoát. Có thể dừng lại ở từng cặp để thấy lời đáp bao quát cả tiến trình nhận biết."
+          ]
+        },
+        {
+          "id": "last",
+          "kind": "teaching",
+          "heading": "Lượt thứ năm: nhổ sạch “ta” và “của ta”",
+          "meaningUnits": [
+            "approve-four",
+            "last-question",
+            "last-qualified"
+          ],
+          "paragraphs": [
+            "Các vị nói “Lành thay”, hoan hỷ tán thành, rồi hỏi: biết và thấy thế nào để nhổ sạch sự dựng lập “ta”, “của ta” và mạn tùy miên đối với thân có thức cùng mọi tướng bên ngoài? Mạn tùy miên là thói quen ngầm tự đặt mình vào sự so sánh và tự tôn.",
+            "Người đủ bảy nét giải thoát có lời đáp phù hợp ở ngôi “tôi”. Vị ấy kể cả con đường tu tập. Dù nhan đề là Sáu Pháp Thanh Tịnh, văn kinh trình bày năm lượt hỏi và không giải thích cách đếm thành sáu."
+          ]
+        },
+        {
+          "id": "hearing",
+          "kind": "teaching",
+          "heading": "Bắt đầu từ người tại gia chưa hiểu",
+          "meaningUnits": [
+            "learning",
+            "reflection"
+          ],
+          "paragraphs": [
+            "Trong lời tự thuật mẫu, vị ấy kể: trước kia tôi ở gia đình, chưa hiểu biết. Như Lai hoặc một vị đệ tử đã giảng Pháp. Nghe xong, tôi có lòng tin nơi Như Lai, tức Đức Phật.",
+            "Tôi suy nghĩ: đời sống gia đình chật hẹp, nhiều bụi bặm, xuất gia thì rộng mở; ở nhà khó sống phạm hạnh tròn đầy, thanh sạch như vỏ ốc được đánh bóng. Tôi nghĩ đến việc cạo tóc râu, mặc cà-sa, áo tu của người xuất gia, rời nhà để sống không nhà. Đây là suy xét dẫn tới lựa chọn xuất gia của vị ấy."
+          ]
+        },
+        {
+          "id": "leaving",
+          "kind": "teaching",
+          "heading": "Từ ý định đến việc làm",
+          "meaningUnits": [
+            "renunciation",
+            "nonharm",
+            "not-stealing",
+            "chastity"
+          ],
+          "paragraphs": [
+            "Một thời gian sau, vị ấy từ bỏ tài sản dù ít hay nhiều, thân thuộc dù ít hay nhiều; cạo tóc râu, mặc cà-sa và xuất gia. Nhận giới cùng nếp sống tỳ-kheo, vị ấy bỏ sát sinh, đặt gậy kiếm xuống, biết hổ thẹn, sống từ bi vì lợi ích mọi sinh vật.",
+            "Vị ấy không lấy của không cho, chỉ nhận và chờ vật được cho, sống trong sạch không trộm. Vị ấy sống phạm hạnh, xa việc quan hệ tình dục. Những điều này thuộc nếp tu xuất gia được kể trong lời đáp."
+          ]
+        },
+        {
+          "id": "true",
+          "kind": "teaching",
+          "heading": "Lời chân thật và lời hòa hợp",
+          "meaningUnits": [
+            "truth",
+            "harmony"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ nói dối, nói thật, giữ sự thật, vững vàng, đáng tin, không lừa đời. Vị ấy không đưa chuyện bên này sang bên kia, hoặc ngược lại, để gây chia rẽ.",
+            "Với người đã chia rẽ, vị ấy giúp hòa hợp; với người đã đoàn kết, vị ấy làm cho bền chặt. Vị ấy vui, yêu thích, hoan hỷ trong hòa hợp, nói lời tạo hòa hợp. Sự thanh tịnh có mặt ngay trong cách ta dùng lời nói."
+          ]
+        },
+        {
+          "id": "gentle",
+          "kind": "teaching",
+          "heading": "Lời dịu dàng và lời đáng nhớ",
+          "meaningUnits": [
+            "gentle",
+            "meaningful"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ lời ác, nói nhẹ nhàng, thuận tai, đáng mến, đi vào lòng, lễ phép, được nhiều người thích nghe và ưa mến.",
+            "Vị ấy bỏ lời phù phiếm; nói đúng thời, thật, có nghĩa, đúng Pháp và Luật. Lời nói đáng nhớ, đúng lúc, có căn cứ, có chừng mực và đem lợi ích. Điều có ích được nói theo cách người nghe có thể đón nhận."
+          ]
+        },
+        {
+          "id": "simple",
+          "kind": "teaching",
+          "heading": "Nếp sống được thu gọn",
+          "meaningUnits": [
+            "plants-food",
+            "simplicity"
+          ],
+          "paragraphs": [
+            "Vị tỳ-kheo không hại hạt giống, cây cối; ăn một bữa, không ăn đêm hoặc phi thời. Vị ấy không xem múa, hát, nhạc, trò diễn; không dùng hoa, hương, phấn, đồ trang điểm để làm đẹp; không dùng giường cao hoặc sang trọng.",
+            "Đây là các điều tiết chế trong đời sống xuất gia được bài kinh mô tả. Người tại gia đọc để hiểu con đường của vị ấy, không cần biến từng điều thành một quy định sinh hoạt hay ăn uống cho mình."
+          ]
+        },
+        {
+          "id": "receiving",
+          "kind": "teaching",
+          "heading": "Không nhận của cải, vật nuôi và người phục vụ",
+          "meaningUnits": [
+            "receiving"
+          ],
+          "paragraphs": [
+            "Vị ấy không nhận vàng bạc, hạt sống, thịt sống; phụ nữ, trẻ gái, người hầu nam nữ; dê cừu, gà heo, voi bò ngựa và ngựa cái; ruộng đất.",
+            "Danh sách phản ánh bối cảnh xã hội xưa, nơi có việc trao người khác để phục dịch hoặc chịu sự quản giữ. Vị tu sĩ từ chối cả việc tiếp nhận người khác trong những quan hệ quản giữ, phục dịch như thế."
+          ]
+        },
+        {
+          "id": "conduct",
+          "kind": "teaching",
+          "heading": "Không can dự gian lận và bạo lực",
+          "meaningUnits": [
+            "trade",
+            "fraud",
+            "violence"
+          ],
+          "paragraphs": [
+            "Vị ấy không làm sứ giả, đưa tin hay mua bán; không gian lận cân, kim loại, đo lường; không hối lộ, lừa gạt, gian trá hay che đậy để đánh lừa.",
+            "Vị ấy từ bỏ chặt, giết, trói, cướp bóc, cướp đường và bạo lực. Giới hạnh bao gồm những việc làm cụ thể có thể gây khổ cho người khác."
+          ]
+        },
+        {
+          "id": "bird",
+          "kind": "teaching",
+          "heading": "Sự biết đủ và đôi cánh chim",
+          "meaningUnits": [
+            "contentment",
+            "ethical-joy"
+          ],
+          "paragraphs": [
+            "Vị ấy biết đủ với y che thân và thức ăn khất thực nuôi bụng; đi đâu chỉ mang chừng ấy. Bản kinh ví như chim bay đến đâu mang đôi cánh đến đó, rồi nhắc lại sự biết đủ của vị tỳ-kheo.",
+            "Thành tựu giới hạnh cao quý, vị ấy cảm nhận an lạc nội tâm không lỗi lầm. Cách sống trong sạch đem lại một sự nhẹ lòng từ bên trong."
+          ]
+        },
+        {
+          "id": "guard",
+          "kind": "teaching",
+          "heading": "Giữ tâm trong khi thấy nghe",
+          "meaningUnits": [
+            "sense-guard",
+            "guarded-joy"
+          ],
+          "paragraphs": [
+            "Mắt thấy hình sắc, vị ấy không nắm tướng chung hay chi tiết. Nếu không giữ gìn mắt, tham muốn, buồn bực và những điều bất thiện làm tâm xấu đi có thể tràn vào; vì thế vị ấy thực hành, bảo vệ và làm vững sự giữ gìn ấy.",
+            "Tai nghe tiếng, mũi ngửi mùi, lưỡi nếm vị, thân xúc chạm, ý biết các pháp cũng được giữ như vậy. Thành tựu sự hộ trì sáu căn cao quý, vị ấy cảm nhận an lạc bên trong không vẩn đục. Niềm vui này nối tiếp niềm vui không lỗi lầm do giới hạnh ở trên."
+          ]
+        },
+        {
+          "id": "awareness",
+          "kind": "teaching",
+          "heading": "Tỉnh giác trong từng việc nhỏ",
+          "meaningUnits": [
+            "awareness"
+          ],
+          "paragraphs": [
+            "Vị ấy biết rõ khi đi tới, lui; nhìn thẳng, nhìn quanh; co, duỗi; mang y ngoài, y và bát; ăn, uống, nhai, nếm; đại tiện, tiểu tiện; đi, đứng, ngồi, ngủ, thức, nói và im lặng. Niệm giữ sự ghi nhớ, tỉnh thức; tỉnh giác là biết rõ việc đang làm. Cả hai có mặt trong sinh hoạt hằng ngày."
+          ]
+        },
+        {
+          "id": "quiet",
+          "kind": "teaching",
+          "heading": "Có nền tảng rồi mới đến chỗ vắng",
+          "meaningUnits": [
+            "four-foundations",
+            "seclusion",
+            "seat"
+          ],
+          "paragraphs": [
+            "Khi có đủ giới hạnh, biết đủ, giữ gìn các căn, niệm và tỉnh giác cao quý, vị ấy tìm nơi vắng. Kinh kể chín nơi: rừng, gốc cây, núi, khe núi, hang đá, nghĩa địa, rừng hoang, ngoài trời và đống rơm.",
+            "Khất thực về, sau khi ăn xong, vị ấy ngồi xếp chân, thân thẳng, thiết lập niệm trước mặt. Sự chuyên tu này được đặt trên bốn nền tảng đã kể, không xuất hiện tách rời cách sống."
+          ]
+        },
+        {
+          "id": "obstacles-one",
+          "kind": "teaching",
+          "heading": "Buông tham, sân và sự trì trệ",
+          "meaningUnits": [
+            "covetousness",
+            "illwill",
+            "drowsiness"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ tham đối với đời, sống tâm không tham và làm sạch tâm khỏi tham. Vị ấy bỏ sân ác, sống không sân, từ bi vì lợi ích mọi sinh vật, làm sạch tâm khỏi ác ý.",
+            "Vị ấy bỏ hôn trầm và buồn ngủ, nhận biết ánh sáng, có niệm và tỉnh giác, làm sạch tâm khỏi trì trệ buồn ngủ. Mỗi chướng ngại được nêu cùng cách tâm trở nên trong sạch."
+          ]
+        },
+        {
+          "id": "obstacles-two",
+          "kind": "teaching",
+          "heading": "Buông xao động, hối tiếc và nghi",
+          "meaningUnits": [
+            "restlessness",
+            "doubt",
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ xao động hối tiếc, sống không xao động, tâm lắng yên bên trong, làm sạch tâm. Vị ấy bỏ nghi, vượt nghi, không còn phân vân về các pháp thiện, làm sạch tâm khỏi nghi.",
+            "Năm điều này gọi là năm triền cái: tham, sân, hôn trầm buồn ngủ, xao động hối tiếc và nghi. Chúng làm tâm ô nhiễm, làm trí tuệ yếu đi. Kinh kể vị ấy đã từ bỏ chúng."
+          ]
+        },
+        {
+          "id": "first",
+          "kind": "teaching",
+          "heading": "Sơ thiền: hỷ lạc do xa lìa",
+          "meaningUnits": [
+            "first-jhana"
+          ],
+          "paragraphs": [
+            "Xa lìa các dục, những ham muốn giác quan, cùng những điều bất thiện, vị ấy chứng và an trú sơ thiền. Có hỷ, niềm hân hoan, và lạc, sự an vui, sinh từ sự xa lìa; có tầm và tứ, đặt tâm và duy trì tâm trên đề mục tu."
+          ]
+        },
+        {
+          "id": "second",
+          "kind": "teaching",
+          "heading": "Nhị thiền: nội tâm chuyên nhất",
+          "meaningUnits": [
+            "second-jhana"
+          ],
+          "paragraphs": [
+            "Khi tầm tứ lắng xuống, vị ấy chứng và an trú nhị thiền. Nội tâm thanh sáng, chuyên nhất, không tầm tứ; hỷ lạc sinh từ định, sự tập trung vững của tâm."
+          ]
+        },
+        {
+          "id": "third",
+          "kind": "teaching",
+          "heading": "Tam thiền: xả, niệm, tỉnh giác",
+          "meaningUnits": [
+            "third-jhana"
+          ],
+          "paragraphs": [
+            "Hỷ phai đi, vị ấy sống xả, có niệm và tỉnh giác; thân cảm nhận an lạc, chứng và an trú tam thiền. Các bậc Thánh gọi người ở tầng thiền này là người sống an lạc với xả và niệm. Xả là sự quân bình, không bị nghiêng kéo."
+          ]
+        },
+        {
+          "id": "fourth",
+          "kind": "teaching",
+          "heading": "Tứ thiền: xả niệm thanh tịnh",
+          "meaningUnits": [
+            "fourth-jhana"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ lạc và khổ; hỷ ưu, tức niềm vui và buồn trước đó, cũng đã diệt. Vị ấy chứng và an trú tứ thiền, không khổ không lạc, có xả và niệm thanh sạch. Đọc chậm từng tầng sẽ thấy kinh nói những thay đổi riêng, không chỉ một cảm giác yên chung chung."
+          ]
+        },
+        {
+          "id": "wisdom",
+          "kind": "teaching",
+          "heading": "Thấy rõ khổ và ô nhiễm đến nguồn gốc",
+          "meaningUnits": [
+            "directing",
+            "truths-suffering",
+            "truths-defilements"
+          ],
+          "paragraphs": [
+            "Tâm định tĩnh, thanh tịnh, sáng, không uế, đã lìa cấu bẩn, mềm mại, dễ sử dụng, vững và không lay động; vị ấy hướng tâm đến trí đoạn tận lậu hoặc.",
+            "Vị ấy biết đúng như thật khổ, nguồn gốc khổ, khổ chấm dứt, đường thực hành đến chấm dứt khổ. Cũng vậy, vị ấy biết đúng như thật lậu hoặc, nguồn gốc, sự chấm dứt và đường thực hành đến chấm dứt lậu hoặc."
+          ]
+        },
+        {
+          "id": "free",
+          "kind": "teaching",
+          "heading": "Giải thoát và biết rõ sự giải thoát",
+          "meaningUnits": [
+            "release",
+            "last-answer"
+          ],
+          "paragraphs": [
+            "Nhờ biết và thấy như vậy, tâm vị ấy thoát dục lậu, hữu lậu và vô minh lậu: ô nhiễm do ham muốn giác quan, do bám vào hiện hữu, do không hiểu đúng. Khi tâm giải thoát, vị ấy biết đã giải thoát. Sinh đã tận, phạm hạnh đã thành, việc cần làm đã làm, không còn trở lại hiện hữu này.",
+            "Vị ấy kết lại: biết và thấy như vậy nên đã nhổ sạch sự dựng lập “ta”, “của ta” và mạn tùy miên đối với thân có thức cùng mọi tướng bên ngoài. Lời đáp về giải thoát được đặt sau cả một quá trình giới hạnh, giữ tâm, thiền định và trí tuệ."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Gặp được một người đồng tu đáng quý",
+          "meaningUnits": [
+            "final-approval",
+            "close"
+          ],
+          "paragraphs": [
+            "Với lời đáp phù hợp ấy, các vị nói “Lành thay”, hoan hỷ tán thành, rồi bày tỏ: thật lợi ích, thật may mắn cho chúng tôi được gặp người đồng phạm hạnh như Tôn giả.",
+            "Phật thuyết xong. Các tỳ-kheo hoan hỷ tán đồng. Kinh Sáu Pháp Thanh Tịnh, bài thứ hai trong nhóm, kết thúc. Câu chuyện kết bằng niềm vui có bạn cùng sống đời tu thanh tịnh."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: nghe một người nói mình đã buông hết",
+          "meaningUnits": [
+            "hold-judgment",
+            "last-question"
+          ],
+          "paragraphs": [
+            "Ví dụ do người biên tập thêm: trong một buổi gặp bạn cũ, có người nói “Bây giờ tôi đã buông hết, chẳng còn chấp gì”. Ta có thể lắng nghe rồi hỏi người ấy hiểu chữ buông thế nào, thay vì vội khen hoặc tranh luận. Câu hỏi mở ra sự chia sẻ về cách sống. Nó không biến người nghe thành người có thể chứng nhận hay phủ nhận sự giác ngộ của bạn mình."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Một câu nói thật, một chỗ bám được nhận ra",
+          "meaningUnits": [
+            "four-question",
+            "truth",
+            "last-question"
+          ],
+          "paragraphs": [
+            "Gợi ý của người biên tập: khi kể lại một chuyện cũ, thử nói rõ điều mình nhớ chắc và điều không còn chắc. Nếu câu chuyện chạm vào niềm tự hào về vai trò trước đây, có thể nhận ra tâm đang muốn giữ hình ảnh nào. Chỉ quan sát trong khả năng của mình, không cần ép phải buông ngay. Đây là bước nhỏ trong sự trung thực và tự hiểu, không phải tiêu chuẩn tự nhận đã hết mọi chấp ngã."
+          ]
+        }
+      ]
+    }
+  }
+}

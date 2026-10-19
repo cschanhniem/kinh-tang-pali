@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn46",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "5273e16b-763d-4344-b262-7520328ba14f"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "8860b294-d9af-47bc-b4a1-7fb0e809d81a"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "451f4ca7-539f-472a-a838-4ccc4408852d"
+    }
+  },
+  "reviews": [
+    {
+      "id": "5273e16b-763d-4344-b262-7520328ba14f",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.2,
+        "audience_fit": 9.3,
+        "clarity": 9.4,
+        "editorial_separation": 9.5,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Giữ đúng bối cảnh Jeta, lớp người truyền kinh, thứ tự bốn loại theo Pāli và đầy đủ bốn phép ví. Đối chiếu trọn năm nguồn; 50 ô Anh trống không được xem là sự đồng thuận.",
+        "semantic_fidelity": "Phân biệt rõ vui hay khổ hiện tại với tính chất mười hành vi và quả tái sinh. Không biến khó chịu khi từ bỏ điều xấu thành yêu cầu tìm đau đớn; niềm vui trong việc lành vẫn được giữ.",
+        "core_coverage": "Triển khai đủ 39 ý: hai kiểu người học, bốn nhánh vô minh và bốn nhánh có minh, bốn lần đủ mười nghiệp đạo, bốn ví dụ cùng lời báo và kết quả, mặt trời và kết kinh. Không dùng ví dụ học đường thay phần giáo lý.",
+        "logic_context": "Nhánh không biết vẫn tránh cả điều vừa vui hiện tại vừa vui về sau được nêu riêng, tránh rút hết vô minh thành ham vui trước mắt. Giữ quan hệ làm từng hành vi rồi do hành vi cảm nhận tương ứng và phân biệt có suy xét/không suy xét trong bốn ví dụ.",
+        "terminology": "Giải nghĩa tỳ-kheo, chân nhân, pháp hành, quả, tà kiến và chánh kiến trong nhịp đọc. Bậc Thánh và vài từ tôn giáo chỉ được giới thiệu căn bản, nên một trẻ chưa quen có thể cần người đọc cùng.",
+        "audience_fit": "Câu hỏi về cảm giác trước mắt và ví dụ chuyện khiến bạn bị cười phù hợp trẻ; hướng dẫn sửa lỗi từng bước vừa sức. Bài dài với nhiều danh mục, do đó phù hợp đọc theo từng mục hơn đọc liền một lượt.",
+        "clarity": "Bốn phần minh họa được đánh số, tám lựa chọn được chia thành hai cụm dễ đối chiếu. Màu, mùi, vị và hai thời điểm tạo nhịp nhất quán; một số công thức lặp còn dài nhưng giữ nội dung cần thiết.",
+        "editorial_separation": "Ví dụ học đường tự nhận là lời người biên soạn, gợi ý có loại mục riêng. Các hình ảnh độc và thuốc cổ được giữ trong phép ví của kinh, không đặt chúng thành một tình huống thật mới của trẻ.",
+        "practical_integrity": "Gợi ý hỏi người lớn có thể giải thích, không biến khó chịu thành bằng chứng đạo đức. Câu rõ về không tự pha hoặc thử thuốc cổ giữ đúng ranh giới của việc học ví dụ; không hứa chứng ngộ hay kết quả xã hội chắc chắn.",
+        "technical_integrity": "Đã kiểm bản đồ có đúng 176 khóa, không trùng, toàn bộ 16 mục và các tham chiếu thuộc bản trẻ. Audit nguồn/cấu trúc sạch và hash đúng nội dung đã đọc; đây không thay kết quả build hoặc thử giao diện."
+      },
+      "blockingErrors": [],
+      "notes": "Root đã đọc đủ năm nguồn, toàn bản đồ và ba bản sau author-freeze; không tìm thấy lỗi chặn cần tác giả sửa. Các giới hạn còn lại về độ dài, thuật ngữ và thử nghiệm người đọc được phản ánh trong từng điểm.",
+      "contentHash": "1a639d135c3700041535f981541905ca6c2e8cb9449fa6b5c36f9299710b7b50",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn46.html",
+          "sha256": "6de2ec0162fd2555d1190a957d7d046acee701bba0df0497fe07db281e9db56d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn46_root-pli-ms.json",
+          "sha256": "8bf865f45acaac5509dccf5b041760d63f9d7bd2bed121650661ca120cf7a7db"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn46_translation-en-sujato.json",
+          "sha256": "e309b98696a408e20ad11fc7f6824ab3d51211bef078dfe5f0192e46f870022c"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn46_comment-vi-project.json",
+          "sha256": "5cbb3b000f592f103cea77ab49a2d062ba187e2a418e00a229487a28a721179c"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn46_translation-vi-project.json",
+          "sha256": "a19f86ba7c54c73edb50c2067d9184faa5794f3969a57cfec23dc024292446b8"
+        }
+      ]
+    },
+    {
+      "id": "8860b294-d9af-47bc-b4a1-7fb0e809d81a",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.4,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đọc trọn 176 khóa Pāli/Việt/Anh cùng chú thích và HTML; bản trưởng thành giữ thứ tự Pāli dù bảng mở HTML đổi vị trí hai trường hợp giữa. Các nguồn và fingerprint được kiểm lại tại bản cuối.",
+        "semantic_fidelity": "Giữ nền đạo đức của bốn pháp hành, không chỉ phân loại một thói quen theo năng suất hoặc cảm xúc. Các đoạn 14–17 vẫn có đủ mười nghiệp đạo và quả tái sinh; ví dụ báo cáo không thay mục tiêu của kinh.",
+        "core_coverage": "Bao phủ đủ bối cảnh, ba vai trò Đức Phật trong lời đáp, hai kiểu người nghe học, tám quyết định, bốn nhóm hành vi cùng các ví dụ và kết luận. Mỗi công thức gộp vẫn nói rõ từng thành phần thay đổi.",
+        "logic_context": "Giữ cả hai động từ thực hành/gần gũi, những phủ định của theo và tránh, cùng lý do hiểu biết ở từng nhóm. Bốn phép ví tách lời báo trước, quyết định, trải nghiệm và kết quả; hai lần dùng độc không suy xét đối lại hai lần suy xét dùng thuốc trong chuyện.",
+        "terminology": "Pháp hành, vô minh, minh, nghiệp đạo, tà kiến và chánh kiến được mở nghĩa theo phạm vi bài. Cách nói nghiệp đạo là hướng hành động có hệ quả giúp theo mạch, nhưng chưa là một giải thích học thuật đầy đủ của mọi thuật ngữ.",
+        "audience_fit": "Ví dụ che hoặc sửa số liệu ở nơi làm việc sát trách nhiệm của người trưởng thành; không hứa được khen hay thăng tiến. Mạch hai thời điểm và lựa chọn có lý do hỗ trợ người đọc suy xét, tuy đoạn lặp vẫn đòi chú ý.",
+        "clarity": "Tiêu đề nêu đúng nội dung từng tổ hợp và nối sang phép ví tương ứng. Diễn tiến câu hỏi, giải thích, minh họa, kết thúc rõ; vài câu nhắc ranh giới biên tập làm giọng văn bớt liền mạch một chút.",
+        "editorial_separation": "Phần liên hệ báo cáo và gợi ý suy xét được tách, tự nhận là ví dụ biên tập. Không gán lời bình về kết quả nghề nghiệp cho Đức Phật; các lời giải thuốc cổ có phạm vi rõ.",
+        "practical_integrity": "Bài tập yêu cầu xem nội dung lành/hại và tìm hiểu thêm, không chỉ dự đoán lợi ích cá nhân. Giữ quyền dừng việc sai, kiên trì việc đúng, đồng thời nhận niềm vui lành; không khuyên tự hành hạ hoặc tự điều trị theo phép ví.",
+        "technical_integrity": "Audit xác nhận nguồn và cấu trúc không lỗi; map 39 ý/176 khóa đủ, bản trưởng thành đủ 16 mục với tác giả và tham chiếu hợp lệ. Hash hiện hành khớp toàn văn đã đọc; build HTML do cổng lô kiểm sau."
+      },
+      "blockingErrors": [],
+      "notes": "Root đã đọc đủ năm nguồn, toàn bản đồ và ba bản sau author-freeze; không tìm thấy lỗi chặn cần tác giả sửa. Các giới hạn còn lại về độ dài, thuật ngữ và thử nghiệm người đọc được phản ánh trong từng điểm.",
+      "contentHash": "715bc0ec980fa3b83dc58570a1686e98d5091b6ebfe852354e3c5275e34d9baf",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn46.html",
+          "sha256": "6de2ec0162fd2555d1190a957d7d046acee701bba0df0497fe07db281e9db56d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn46_root-pli-ms.json",
+          "sha256": "8bf865f45acaac5509dccf5b041760d63f9d7bd2bed121650661ca120cf7a7db"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn46_translation-en-sujato.json",
+          "sha256": "e309b98696a408e20ad11fc7f6824ab3d51211bef078dfe5f0192e46f870022c"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn46_comment-vi-project.json",
+          "sha256": "5cbb3b000f592f103cea77ab49a2d062ba187e2a418e00a229487a28a721179c"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn46_translation-vi-project.json",
+          "sha256": "a19f86ba7c54c73edb50c2067d9184faa5794f3969a57cfec23dc024292446b8"
+        }
+      ]
+    },
+    {
+      "id": "451f4ca7-539f-472a-a838-4ccc4408852d",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.8,
+        "logic_context": 9.7,
+        "terminology": 9.3,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Nguồn thực gồm đủ Pāli, Việt dự án, Anh, HTML Minh Châu và chú thích; giữ cả những chỗ HTML khác cách nói như ăn/uống trong ví dụ bầu đắng bằng ưu tiên Pāli. Không nhận nguồn được credits nhắc tới là nguồn đã mở.",
+        "semantic_fidelity": "Người lớn tuổi được mời suy xét nếp sống chứ không bị suy đoán bệnh tật hay cận tử. Quả cõi dữ/cõi trời là lời kinh về hành vi, không bị đổi thành tâm trạng hoặc dùng để phán xét tuổi tác.",
+        "core_coverage": "Đủ cả hai chân dung học/không học, bốn trường hợp của mỗi kiểu nhận biết, bốn lần mười hành vi với cảm nhận và quả, bốn phép ví và hình ảnh mặt trời. Lời hoan hỷ và nhãn thứ sáu được giữ đúng vị trí.",
+        "logic_context": "Nhắc đủ bốn hướng theo/tránh và hai cặp tăng/giảm, không đảo phủ định. Mỗi phép ví có đúng đối tượng, lời báo, có hoặc không suy xét, tính chất màu/mùi/vị và kết quả; lời mặt trời giữ sức so sánh vượt các học thuyết khác.",
+        "terminology": "Giải nghĩa tỳ-kheo, chân nhân, pháp hành, vô minh, tà kiến/chánh kiến và các nhóm tôn giáo khi cần. Thuật ngữ minh và bậc Thánh còn chủ yếu được hiểu qua câu xung quanh, giới hạn nhỏ đã lưu ý.",
+        "audience_fit": "Nhịp văn chia riêng hai kiểu người học và các phép ví, tôn trọng khả năng tự chọn và sửa của người có kinh nghiệm. Liên hệ lời nói trong gia đình phù hợp mà không mặc định mọi người đều có cùng vai trò gia đình.",
+        "clarity": "Mười bảy mục có trọng tâm rõ, câu kết nối cảm nhận với kết quả nhất quán. Lặp ba nét đáng ưa/thích/vừa ý giúp giữ nguồn nhưng có thể đọc chậm theo từng đoạn để không mệt.",
+        "editorial_separation": "Liên hệ gia đình được nhận là của người biên soạn, tách khỏi lời kinh; gợi ý suy xét không mang hình thức trích dẫn lời Phật. Hình ảnh thuốc luôn giữ trong bối cảnh phép ví thời xưa.",
+        "practical_integrity": "Gợi ý theo từng bước hợp khả năng, xem điều cần hiểu thêm, không gắn tuổi với sự yếu kém. Ranh giới thuốc cổ được nói rõ; không hứa người thân đáp lại ngay hay biến sức chịu khổ thành thước đo quyết tâm.",
+        "technical_integrity": "Đọc đủ 17 mục, kiểm toàn map/khóa và nguồn hiện hành bằng audit, không lỗi. Fingerprint bản lớn tuổi đúng tệp cuối; chưa suy thành đã kiểm bằng trình duyệt hoặc đã thử với người đọc thật."
+      },
+      "blockingErrors": [],
+      "notes": "Root đã đọc đủ năm nguồn, toàn bản đồ và ba bản sau author-freeze; không tìm thấy lỗi chặn cần tác giả sửa. Các giới hạn còn lại về độ dài, thuật ngữ và thử nghiệm người đọc được phản ánh trong từng điểm.",
+      "contentHash": "ef2683b68ad26783fc7695cec7e432ead4a544653da4ff5b489a59415046fac2",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn46.html",
+          "sha256": "6de2ec0162fd2555d1190a957d7d046acee701bba0df0497fe07db281e9db56d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn46_root-pli-ms.json",
+          "sha256": "8bf865f45acaac5509dccf5b041760d63f9d7bd2bed121650661ca120cf7a7db"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn46_translation-en-sujato.json",
+          "sha256": "e309b98696a408e20ad11fc7f6824ab3d51211bef078dfe5f0192e46f870022c"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn46_comment-vi-project.json",
+          "sha256": "5cbb3b000f592f103cea77ab49a2d062ba187e2a418e00a229487a28a721179c"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn46_translation-vi-project.json",
+          "sha256": "a19f86ba7c54c73edb50c2067d9184faa5794f3969a57cfec23dc024292446b8"
+        }
+      ]
+    }
+  ]
+}
