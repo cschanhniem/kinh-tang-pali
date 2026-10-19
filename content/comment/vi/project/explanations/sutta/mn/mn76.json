@@ -1,0 +1,1954 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn76",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
+      "sha256": "0f360eeb7325a8d81431ac65db46c5f414350f9390e8e028d7ede15e5fd030d7",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn76_translation-vi-project.json",
+      "sha256": "a22e55e8725efc504cb2e0ad023dcc0cdd7d4494f7777e61511c34de18ddaaa9",
+      "commit": "255b606e1f9e7c3b7050b9f2f298d23fdca97c4a"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json",
+      "sha256": "34795de9eb53f01fbf672e1ec68b99e2a4a3219ce16565e311ff91f6eda445ff",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn76.html",
+      "sha256": "64ad3b790764d9fb018c6da905982807b06a08934f4b751906f0dad188c39d57",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn76_comment-vi-project.json",
+      "sha256": "91ca2df4716ba2281493c524f2329350ef28eb254a9d9498efb4f2bab992ee17",
+      "commit": "255b606e1f9e7c3b7050b9f2f298d23fdca97c4a"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Kinh Sandaka",
+      "segments": [
+        "mn76:0.1",
+        "mn76:0.2"
+      ],
+      "summary": "Trung Bộ 76, Sandakasutta, Kinh Sandaka."
+    },
+    {
+      "id": "setting",
+      "title": "Điều đã nghe ở Kosambī",
+      "segments": [
+        "mn76:1.1",
+        "mn76:1.2",
+        "mn76:2.1"
+      ],
+      "summary": "Người truyền kinh kể điều đã nghe: Đức Phật ở tu viện Ghosita tại Kosambī; du sĩ Sandaka ở hang Pilakkha với khoảng năm trăm du sĩ, không khẳng định đúng năm trăm."
+    },
+    {
+      "id": "excursion",
+      "title": "Ānanda đi xem hang",
+      "segments": [
+        "mn76:3.1",
+        "mn76:3.2",
+        "mn76:3.3",
+        "mn76:3.4"
+      ],
+      "summary": "Buổi chiều Ānanda ra khỏi thời độc cư, rủ các tỳ-kheo tới hồ Devakata xem hang; họ nhận lời và một số vị cùng đi."
+    },
+    {
+      "id": "noise",
+      "title": "Các chuyện đang bàn",
+      "segments": [
+        "mn76:4.1",
+        "mn76:4.2"
+      ],
+      "summary": "Hội chúng Sandaka ồn ào bàn các chuyện vua, cướp, quan, quân, hiểm nguy, chiến tranh; đồ ăn/uống/mặc/giường; vòng hoa/hương; họ hàng/xe/làng/thị trấn/thành/xứ; phụ nữ/anh hùng; chuyện bên đường/nơi lấy nước/người khuất/đủ chuyện khác/thế giới/biển/hiện hữu và không hiện hữu. Đây là ngữ cảnh chuyện phù phiếm, không cấm mọi trao đổi thực tế."
+    },
+    {
+      "id": "quiet",
+      "title": "Sandaka mời hội chúng yên",
+      "segments": [
+        "mn76:4.3",
+        "mn76:4.4",
+        "mn76:4.5",
+        "mn76:4.6",
+        "mn76:4.7",
+        "mn76:4.8",
+        "mn76:4.9",
+        "mn76:4.10"
+      ],
+      "summary": "Thấy Ānanda từ xa, Sandaka bảo nhỏ tiếng vì vị sa-môn này là một đệ tử Gotama ở Kosambī; các vị ấy ưa, được rèn luyện và khen sự yên tĩnh. Ông hy vọng thấy hội chúng yên thì Ānanda sẽ ghé; mọi người im lặng."
+    },
+    {
+      "id": "welcome",
+      "title": "Chỗ ngồi đã soạn sẵn",
+      "segments": [
+        "mn76:5.1",
+        "mn76:5.2",
+        "mn76:5.3",
+        "mn76:5.4",
+        "mn76:5.5",
+        "mn76:5.6",
+        "mn76:5.7"
+      ],
+      "summary": "Ānanda tới; Sandaka chào mừng, nói đã lâu mới có dịp ngài ghé, mời chỗ dọn sẵn; Ānanda ngồi đó, Sandaka lấy ghế thấp ngồi một bên."
+    },
+    {
+      "id": "invitation",
+      "title": "Đề nghị nghe lời dạy của thầy Ānanda",
+      "segments": [
+        "mn76:5.8",
+        "mn76:5.9",
+        "mn76:5.10",
+        "mn76:5.11",
+        "mn76:5.12",
+        "mn76:5.13",
+        "mn76:5.14",
+        "mn76:5.15"
+      ],
+      "summary": "Ānanda hỏi câu chuyện dang dở; Sandaka xin gác lại, sau có thể nghe, đề nghị Ānanda giảng theo thầy mình. Ānanda bảo lắng nghe, chú tâm kỹ; Sandaka nhận lời. Người giảng chính là Ānanda."
+    },
+    {
+      "id": "two-groups",
+      "title": "Hai nhóm bốn phải phân biệt",
+      "segments": [
+        "mn76:6.1",
+        "mn76:6.2"
+      ],
+      "summary": "Ānanda nói Đức Thế Tôn biết và thấy, A-la-hán Chánh Đẳng Giác, đã chỉ bốn lối phủ nhận ý nghĩa phạm hạnh và bốn đường tu không đáng tin. Người trí trong khả năng mình không chọn theo; nếu theo cũng không thành tựu con đường đúng của pháp thiện. Sandaka trước tiên chỉ hỏi nhóm bốn thứ nhất, không nhập nhóm hai từ bản Anh tóm gọn."
+    },
+    {
+      "id": "denial-claims",
+      "title": "Thầy thứ nhất phủ nhận nghiệp và hai đời",
+      "segments": [
+        "mn76:7.1",
+        "mn76:7.2"
+      ],
+      "summary": "Quan điểm bị thuật lại để phê bình: phủ nhận bố thí/cúng tế/lễ vật; quả và kết quả việc thiện ác; đời này/đời sau; mẹ/cha; chúng sinh hóa sinh; sa-môn bà-la-môn đi đúng, thực hành đúng, tự chứng biết hai đời rồi tuyên bố. Không gán các phủ định cho Phật/Ānanda và không biến mẹ cha thành một phủ định sinh học riêng lẻ."
+    },
+    {
+      "id": "denial-death",
+      "title": "Đoạn diệt sau cái chết theo thầy thứ nhất",
+      "segments": [
+        "mn76:7.3",
+        "mn76:7.4",
+        "mn76:7.5",
+        "mn76:7.6",
+        "mn76:7.7",
+        "mn76:7.8",
+        "mn76:7.9",
+        "mn76:7.10"
+      ],
+      "summary": "Theo vị thầy ấy, con người bốn đại; chết thì đất/nước/lửa/gió về các khối tương ứng, căn vào hư không; bốn người với cáng mang xác, dấu chân tới nơi hỏa táng, xương xám bồ câu, lễ vật tro; bố thí bị gọi do kẻ ngu đặt, lời xác nhận bị xem rỗng giả nhảm; ngu/trí đều mất hẳn sau chết. Theo project/Sujato về dấu chân, không ghép lời than HTML."
+    },
+    {
+      "id": "denial-reflection",
+      "title": "Xét lại giả định thứ nhất",
+      "segments": [
+        "mn76:8.1",
+        "mn76:8.2",
+        "mn76:8.3",
+        "mn76:8.4",
+        "mn76:8.5",
+        "mn76:8.6",
+        "mn76:8.7",
+        "mn76:8.8",
+        "mn76:8.9",
+        "mn76:8.10",
+        "mn76:8.11",
+        "mn76:8.12"
+      ],
+      "summary": "Người trí nhắc lại đủ học thuyết thứ nhất rồi giả định nếu đúng thì mình chưa làm cũng bằng đã làm, chưa tu cũng bằng đã tu, cả hai đạt kết quả ngang nhau; người xét không khẳng định cả hai đoạn diệt. Giữ điều kiện và lớp trích, không biến thành kết luận của Ānanda rằng tu không ích."
+    },
+    {
+      "id": "denial-comparison",
+      "title": "So khổ hạnh và tại gia lần một",
+      "segments": [
+        "mn76:8.13",
+        "mn76:8.14",
+        "mn76:8.15",
+        "mn76:8.16",
+        "mn76:9.1"
+      ],
+      "summary": "Trong giả định, khỏa thân/cạo đầu/ngồi xổm bền bỉ/nhổ tóc râu của thầy là thừa so người tại gia với con, dùng đàn hương Kāsi/vòng hoa/hương/dầu xức/nhận vàng bạc mà đời sau cùng cảnh ngộ. Người trí hỏi biết thấy gì để theo, nhận lối phủ nhận phạm hạnh, chán rồi bỏ. Ānanda kết thứ nhất với cả không chọn/nếu theo không thành tựu."
+    },
+    {
+      "id": "action-doctrine",
+      "title": "Thầy thứ hai phủ nhận thiện ác của hành động",
+      "segments": [
+        "mn76:10.1",
+        "mn76:10.2",
+        "mn76:10.3",
+        "mn76:10.4",
+        "mn76:10.5",
+        "mn76:10.6"
+      ],
+      "summary": "Giữ các cặp tự làm/sai làm, cắt xén/sai, tra tấn/sai, gây khổ/sai, làm kiệt/sai, làm run sợ/sai; sát sinh/lấy của không cho/đột nhập/cướp đoạt/cướp nhà riêng/chặn đường/thông dâm/nói dối bị thầy ấy xem không tạo ác. Bánh xe vành sắc khiến sinh vật thành đống thịt; bờ nam Gaṅgā giết/cắt/tra tấn và sai làm đều bị nói không ác/phát sinh ác; bờ bắc bố thí/tế lễ và khuyên làm bị nói không phước/phát sinh phước; đủ bố thí/điều phục/chế ngự/nói thật. Đây là quan điểm bị bác, không lời khuyên."
+    },
+    {
+      "id": "action-reflection",
+      "title": "Xét lại giả định thứ hai",
+      "segments": [
+        "mn76:11.1",
+        "mn76:11.2",
+        "mn76:11.3",
+        "mn76:11.4",
+        "mn76:11.5",
+        "mn76:11.6",
+        "mn76:11.7",
+        "mn76:11.8"
+      ],
+      "summary": "Người trí nhắc toàn danh sách và ba ví dụ/bốn thiện hạnh; riêng 11.3 socato là chịu khổ, khác gây khổ 10.2. Nếu thầy đúng thì không làm/không tu bằng làm/tu; mình không tuyên bố hành động cả hai không tạo ác. Không bỏ điều kiện hoặc đồng nhất thiện ác như lời kết bài."
+    },
+    {
+      "id": "action-comparison",
+      "title": "So khổ hạnh và tại gia lần hai",
+      "segments": [
+        "mn76:11.9",
+        "mn76:11.10",
+        "mn76:11.11",
+        "mn76:11.12",
+        "mn76:12.1"
+      ],
+      "summary": "Lặp đủ bốn cách khổ hạnh và tại gia con cái/đàn hương Kāsi/vòng hoa/hương/dầu xức/vàng bạc, cùng cảnh ngộ đời sau theo giả định thứ hai. Người trí hỏi biết/thấy gì để theo, thất vọng bỏ; Ānanda kết lối thứ hai với không chọn và nếu theo không thành tựu pháp thiện."
+    },
+    {
+      "id": "destiny-doctrine",
+      "title": "Thầy thứ ba phủ nhận nhân duyên và nỗ lực",
+      "segments": [
+        "mn76:13.1",
+        "mn76:13.2",
+        "mn76:13.3",
+        "mn76:13.4",
+        "mn76:13.5",
+        "mn76:13.6",
+        "mn76:13.7"
+      ],
+      "summary": "Vị thầy nói ô nhiễm không nhân duyên và thanh tịnh không nhân duyên; không sức mạnh/tinh tấn/sức người/nỗ lực người. Tất cả chúng sinh, loài thở, sinh vật, sinh mạng không tự chủ/sức/tinh tấn, bị định mệnh/hoàn cảnh/bản tính chi phối, cảm khổ lạc trong sáu hạng tái sinh của học thuyết này. Không đổi không có thành không cần, không nhập hệ sáu cõi khác."
+    },
+    {
+      "id": "destiny-reflection",
+      "title": "Xét lại giả định thứ ba",
+      "segments": [
+        "mn76:14.1",
+        "mn76:14.2",
+        "mn76:14.3",
+        "mn76:14.4",
+        "mn76:14.5",
+        "mn76:14.6",
+        "mn76:14.7"
+      ],
+      "summary": "Người trí nhắc toàn thuyết rồi xét nếu đúng thì không tu bằng tu và cùng kết quả; người xét không nói cả hai sẽ thanh tịnh không nhân duyên. Giữ ba lớp Ānanda/người trí/thầy, điều kiện và phủ định."
+    },
+    {
+      "id": "destiny-comparison",
+      "title": "So khổ hạnh và tại gia lần ba",
+      "segments": [
+        "mn76:14.8",
+        "mn76:14.9",
+        "mn76:14.10",
+        "mn76:14.11",
+        "mn76:15.1"
+      ],
+      "summary": "Trong giả định, bốn khổ hạnh của thầy thừa so người ở nhà với con, đàn hương Kāsi, vòng hoa/hương/dầu xức/vàng bạc vẫn cùng cảnh ngộ đời sau. Hỏi biết/thấy gì để theo, chán và bỏ. Kết lối thứ ba và hai vế không chọn/nếu theo không thành tựu."
+    },
+    {
+      "id": "seven-substances",
+      "title": "Bảy thực thể bất động theo thầy thứ tư",
+      "segments": [
+        "mn76:16.1",
+        "mn76:16.2",
+        "mn76:16.3",
+        "mn76:16.4",
+        "mn76:16.5",
+        "mn76:16.6",
+        "mn76:16.7"
+      ],
+      "summary": "Bảy thực thể đất/nước/lửa/gió/lạc/khổ/linh hồn được chủ trương không làm ra/không tạo tác/không sáng tạo/không người sáng tạo/không sinh sản, vững như đỉnh núi/cột; không dao động/đổi/hại nhau, không làm nhau vui/khổ/cả hai. Công thức lặp đủ, không gọi bảy cơ thể hoặc biến jīva thành mạn theo HTML."
+    },
+    {
+      "id": "seven-deeds",
+      "title": "Hệ quả phủ nhận người hành động",
+      "segments": [
+        "mn76:16.8",
+        "mn76:16.9",
+        "mn76:16.10"
+      ],
+      "summary": "Thầy thứ tư phủ nhận người giết/khiến giết, nghe/khiến nghe, biết/khiến biết; cho rằng gươm sắc chặt đầu cũng không ai lấy mạng ai vì gươm đi qua khe giữa bảy thực thể. Là hệ quả học thuyết bị phê bình."
+    },
+    {
+      "id": "fixed-numbers",
+      "title": "Bảng số của học thuyết thứ tư",
+      "segments": [
+        "mn76:16.11"
+      ],
+      "summary": "Đủ số pinned: loại sinh chính 1.400.000 +6.000 +600; nghiệp 500/5/3 và nghiệp/nửa nghiệp; đường 62/trung kiếp 62/tái sinh 6/giai đoạn người 8; Ājīvaka 4900/du sĩ 4900/nāga xứ 4900; căn 2000/địa ngục 3000/trần giới 36; thai có tưởng 7/không tưởng 7/nigaṇṭhigabbha 7; trời 7/người 7/quỷ 7; hồ 7/pavuṭa 7; vực 7+700; mộng 7+700; đại kiếp 8.400.000, qua đó ngu/trí đều hết khổ. Không thêm 700 pavuṭa bản Anh hay 7000 HTML; giữ nhãn cổ không định danh chắc và không tự nhập hệ căn/cõi Phật học khác."
+    },
+    {
+      "id": "allotted-journey",
+      "title": "Cuộn chỉ và quãng luân hồi định sẵn",
+      "segments": [
+        "mn76:16.12",
+        "mn76:16.13",
+        "mn76:16.14",
+        "mn76:16.15"
+      ],
+      "summary": "Theo thầy ấy không thể dùng giới/giữ hạnh/khổ hạnh/phạm hạnh để làm chín nghiệp chưa chín hoặc lần lượt trải nghiệm cạn nghiệp đã chín. Khổ lạc đong sẵn, luân hồi hữu hạn, không tăng giảm/tiến lùi. Cuộn chỉ ném vừa lăn vừa tháo; ngu/trí rồi tự hết khổ sau lưu chuyển. Không đổi thành học thuyết của Phật."
+    },
+    {
+      "id": "seven-reflection",
+      "title": "Xét lại giả định thứ tư",
+      "segments": [
+        "mn76:17.1",
+        "mn76:17.2",
+        "mn76:17.3",
+        "mn76:17.4",
+        "mn76:17.5",
+        "mn76:17.6",
+        "mn76:17.7",
+        "mn76:17.8",
+        "mn76:17.9",
+        "mn76:17.10",
+        "mn76:17.11",
+        "mn76:17.12",
+        "mn76:17.13",
+        "mn76:17.14",
+        "mn76:17.15",
+        "mn76:17.16",
+        "mn76:17.17",
+        "mn76:17.18",
+        "mn76:17.19"
+      ],
+      "summary": "Người trí nhắc toàn bảy thực thể, hệ quả, bảng số, giới hạn nghiệp và ví cuộn chỉ; nếu đúng thì không tu bằng tu cùng kết quả, nhưng mình không tự khẳng định cả hai cứ luân hồi rồi sẽ hết khổ. Không bỏ bảng số lặp trong đọc nguồn; prose nối rõ đang xét lại toàn thuyết đã kể."
+    },
+    {
+      "id": "seven-comparison",
+      "title": "So khổ hạnh và tại gia lần bốn",
+      "segments": [
+        "mn76:17.20",
+        "mn76:17.21",
+        "mn76:17.22",
+        "mn76:17.23",
+        "mn76:18.1"
+      ],
+      "summary": "Lặp đủ bốn khổ hạnh so người ở nhà với con, đàn hương Kāsi/vòng hoa/hương/dầu xức/vàng bạc mà tương lai như nhau theo giả định. Người trí hỏi biết/thấy gì để theo, chán bỏ. Ānanda kết thứ tư với không chọn/nếu theo không thành tựu."
+    },
+    {
+      "id": "first-group-end",
+      "title": "Sandaka hỏi bốn đường chưa đáng tin",
+      "segments": [
+        "mn76:19.1",
+        "mn76:20.1",
+        "mn76:20.2",
+        "mn76:20.3"
+      ],
+      "summary": "Ānanda kết đủ bốn lối phủ nhận phạm hạnh do Phật biết/thấy giác ngộ chỉ; Sandaka tán thán kỳ diệu/lạ thường, xác nhận gọi đúng những lối ấy, nhắc hai vế không chọn/nếu theo không thành tựu, rồi hỏi bốn anassāsika, khác nhóm trước."
+    },
+    {
+      "id": "omniscience-claim",
+      "title": "Tự nhận luôn biết mọi thứ",
+      "segments": [
+        "mn76:21.1",
+        "mn76:21.2",
+        "mn76:21.3",
+        "mn76:21.4"
+      ],
+      "summary": "Một thầy tự nhận biết/thấy tất cả không sót mọi lúc đi/đứng/ngủ/thức; vẫn vào nhà trống/không đồ khất thực/bị chó cắn/gặp voi-ngựa-bò dữ/hỏi tên họ nữ nam/hỏi tên đường làng thị trấn. Khi hỏi vì sao thì từng việc đáp đã phải như thế nên mới làm/gặp. Giữ đủ sự việc và lý do; assa là ngựa, không người; dữ không nhất thiết hoang."
+    },
+    {
+      "id": "omniscience-reflection",
+      "title": "Lời tự nhận và việc quan sát được",
+      "segments": [
+        "mn76:22.1",
+        "mn76:22.2",
+        "mn76:22.3",
+        "mn76:22.4",
+        "mn76:23.1"
+      ],
+      "summary": "Người trí xét tự nhận toàn tri cùng mọi đáp lời ấy, nhận đường không đáng tin, chán rồi bỏ. Ānanda kết thứ nhất trong nhóm hai, hai vế không chọn/nếu theo không thành tựu. Không bác người chỉ vì hỏi đường/bị nạn; đối tượng là sự bất nhất của tuyên bố."
+    },
+    {
+      "id": "tradition-doctrine",
+      "title": "Lấy lời truyền lại làm sự thật",
+      "segments": [
+        "mn76:24.1",
+        "mn76:24.2",
+        "mn76:24.3"
+      ],
+      "summary": "Thầy dựa lời truyền, truyền nối các đời và kinh tạng; có điều nghe đúng/nghe sai và điều đúng thực tế/khác thực tế. Giữ hai cặp phân biệt, không kết mọi truyền thống đều sai."
+    },
+    {
+      "id": "tradition-reflection",
+      "title": "Người trí xét độ đáng tin của truyền thừa",
+      "segments": [
+        "mn76:25.1",
+        "mn76:25.2",
+        "mn76:25.3",
+        "mn76:25.4",
+        "mn76:25.5",
+        "mn76:26.1"
+      ],
+      "summary": "Người trí nhắc cách dựa truyền lại và cả hai cặp khả năng, thấy chưa đáng tin, chán bỏ. Kết thứ hai với không chọn/nếu theo không thành tựu; sự bảo đảm giải thoát không từ uy tín truyền thừa đơn độc."
+    },
+    {
+      "id": "reasoning-doctrine",
+      "title": "Lấy suy luận riêng làm pháp",
+      "segments": [
+        "mn76:27.1",
+        "mn76:27.2",
+        "mn76:27.3"
+      ],
+      "summary": "Thầy chuyên suy luận/tìm xét, giảng ý mình rút ra. Có suy luận đúng/sai; điều suy luận có đúng thực tế/khác thực tế. Không biến thành phủ định giá trị suy luận hay tìm hiểu nói chung."
+    },
+    {
+      "id": "reasoning-reflection",
+      "title": "Người trí xét suy luận",
+      "segments": [
+        "mn76:28.1",
+        "mn76:28.2",
+        "mn76:28.3",
+        "mn76:28.4",
+        "mn76:28.5",
+        "mn76:28.6",
+        "mn76:29.1"
+      ],
+      "summary": "Nhắc đủ cách giảng suy luận riêng và hai cặp đúng/sai, người trí thấy không đáng tin, chán bỏ; kết thứ ba nhóm hai với hai vế. Giữ phân biệt lập luận tốt và đúng sự thật."
+    },
+    {
+      "id": "evasion-doctrine",
+      "title": "Năm cách lảng tránh",
+      "segments": [
+        "mn76:30.1",
+        "mn76:30.2",
+        "mn76:30.3"
+      ],
+      "summary": "Do chậm hiểu/mê muội, thầy trả lời vòng vo: không nói như vậy; không nói như thế; không nói khác đi; không nói không phải vậy; không nói không phải không vậy. Giữ đủ năm và phủ định kép, không gán thành trung đạo hay trí tuệ vượt khái niệm."
+    },
+    {
+      "id": "evasion-reflection",
+      "title": "Nhận ra lời quanh co",
+      "segments": [
+        "mn76:31.1",
+        "mn76:31.2",
+        "mn76:31.3",
+        "mn76:31.4",
+        "mn76:31.5",
+        "mn76:31.6",
+        "mn76:32.1"
+      ],
+      "summary": "Người trí nhắc nguyên năm cách lảng tránh và lý do chậm hiểu/mê muội, thấy đường không đáng tin, chán bỏ; kết thứ tư với không chọn/nếu theo không thành tựu pháp thiện."
+    },
+    {
+      "id": "second-group-end",
+      "title": "Một con đường đáng theo là thế nào?",
+      "segments": [
+        "mn76:33.1",
+        "mn76:34.1",
+        "mn76:34.2",
+        "mn76:34.3"
+      ],
+      "summary": "Ānanda kết bốn đường không đáng tin do Phật chỉ. Sandaka lại tán thán kỳ diệu/lạ thường vì gọi đúng; hỏi thầy nói/dạy gì để người trí hết khả năng sống phạm hạnh và thành tựu con đường đúng của pháp thiện."
+    },
+    {
+      "id": "teacher-training",
+      "title": "Như Lai và lộ trình tu của đệ tử",
+      "segments": [
+        "mn76:35-42.1"
+      ],
+      "summary": "Root có trọn tôn hiệu Như Lai/A-la-hán/Chánh Đẳng Giác/minh hạnh/Thiện Thệ/biết thế gian/điều ngự vô thượng/thầy trời người/Phật/Thế Tôn rồi pe. HTML SC43–52 cùng UID mở: tự chứng thế giới trời-Māra-Phạm thiên/sa-môn-bà-la-môn-trời-người, pháp đầu-giữa-cuối tốt đủ nghĩa lời, phạm hạnh đầy đủ trong sạch; người nghe tin xuất gia bỏ tài sản/quyến thuộc ít hay nhiều; đủ giới thân/lời, các điều từ bỏ, biết đủ y/bát ví chim hai cánh, sáu căn, tỉnh giác hoạt động, các nơi vắng được HTML liệt kê (giữ liền cụm lùm cây ngoài trời, không tự đếm thành hai nơi), ngồi sau ăn/khất thực và năm triền cái. Chủ thể huấn luyện là tỳ-kheo, không Đức Phật. Không gán chữ hạ tiện HTML thành phán giá người."
+    },
+    {
+      "id": "hindrances",
+      "title": "Bỏ năm chướng ngại",
+      "segments": [
+        "mn76:35-42.2"
+      ],
+      "summary": "Năm triền cái làm tâm ô nhiễm trí tuệ yếu: dục tham, sân, hôn trầm-thụy miên, trạo cử-hối quá, nghi; HTML mở tâm không tham/lòng từ/tưởng sáng-niệm tỉnh giác/trầm lặng/không phân vân thiện pháp, không chỉ nghỉ một lúc."
+    },
+    {
+      "id": "first-jhana",
+      "title": "Thiền thứ nhất và thành tựu thực",
+      "segments": [
+        "mn76:35-42.3",
+        "mn76:35-42.4"
+      ],
+      "summary": "Lìa dục/bất thiện, chứng và ở sơ thiền; hỷ/lạc do viễn ly, tầm/tứ (đặt và giữ tâm gắn với đối tượng). Thầy mà đệ tử đạt đặc biệt cao quý này đáng để người trí hết khả năng tu và thành tựu pháp thiện; giữ điều kiện đạt của đệ tử."
+    },
+    {
+      "id": "second-jhana",
+      "title": "Thiền thứ hai",
+      "segments": [
+        "mn76:43.1",
+        "mn76:43.2"
+      ],
+      "summary": "Tầm/tứ lắng, chứng và ở nhị thiền. Nguồn năm đã đọc đều lược phần công thức còn lại, không tự nhập công thức UID khác. Lặp kết đáng tu dưới vị thầy có đệ tử đạt thành tựu này."
+    },
+    {
+      "id": "third-jhana",
+      "title": "Thiền thứ ba",
+      "segments": [
+        "mn76:44-45.1",
+        "mn76:44-45.2"
+      ],
+      "summary": "Hỷ phai nhạt, sống xả, chứng và ở tam thiền; giữ chính upekkhako và không suy đồng hỷ/lạc. Nguồn lược còn lại. Lặp kết đáng tu theo thầy có đệ tử thành tựu."
+    },
+    {
+      "id": "fourth-jhana",
+      "title": "Thiền thứ tư",
+      "segments": [
+        "mn76:46.1",
+        "mn76:46.2"
+      ],
+      "summary": "Từ bỏ lạc, chứng và ở tứ thiền; nguồn lược phần giữa. Lặp kết đáng tu theo thầy có đệ tử thành tựu, không chuyển chủ thể thành thầy đạt như câu Anh 46.2."
+    },
+    {
+      "id": "past-lives",
+      "title": "Trí nhớ các đời sống",
+      "segments": [
+        "mn76:47.1",
+        "mn76:47.2",
+        "mn76:47.3"
+      ],
+      "summary": "Tâm định/thanh tịnh/trong sáng/không tì/hết cấu/mềm/dễ dùng/vững/không dao động hướng túc mạng: nhớ nhiều đời với nét/chi tiết; Pāli một/hai rồi lược, Anh mở ba,bốn,năm,mười,20,30,40,50,100,1000,100000 và nhiều kiếp co/giãn/cả hai. Không tự chèn chi tiết tên dòng họ bị lược. Lặp kết thầy có đệ tử thành tựu đáng tu."
+    },
+    {
+      "id": "rebirth",
+      "title": "Trí thấy chết và tái sinh",
+      "segments": [
+        "mn76:48.1",
+        "mn76:48.2",
+        "mn76:48.3"
+      ],
+      "summary": "Lặp đủ nền tâm trong sáng định vững, hướng trí chết/tái sinh; thiên nhãn sạch vượt mắt người, thấy thấp/cao, đẹp/xấu, cõi lành/dữ, biết theo nghiệp. Lặp kết thầy có đệ tử đạt thành tựu đáng để người trí tu."
+    },
+    {
+      "id": "four-truths",
+      "title": "Biết như thật bốn sự thật về khổ",
+      "segments": [
+        "mn76:49.1",
+        "mn76:49.2"
+      ],
+      "summary": "Lặp nền tâm định trong sạch nhu nhuyễn vững không động, hướng trí lậu tận. Biết như thật từng mục: khổ, nguồn gốc, chấm dứt, đường chấm dứt. Không chỉ thuộc lòng tên gọi."
+    },
+    {
+      "id": "defilement-truths",
+      "title": "Bốn mặt của lậu hoặc",
+      "segments": [
+        "mn76:49.3"
+      ],
+      "summary": "Biết như thật từng mục về lậu hoặc: chúng là gì, nguồn gốc, chấm dứt, đường chấm dứt. Không gộp mất bộ bốn thứ hai."
+    },
+    {
+      "id": "freedom",
+      "title": "Giải thoát và biết đã hoàn tất",
+      "segments": [
+        "mn76:50.1",
+        "mn76:50.2",
+        "mn76:50.3",
+        "mn76:50.4"
+      ],
+      "summary": "Do biết/thấy tâm giải thoát khỏi dục lậu/hữu lậu/vô minh lậu. Đã giải thoát biết giải thoát; biết sinh tận/phạm hạnh xong/việc làm xong/không trở lại hiện hữu này. Lặp kết thầy có đệ tử đạt thành tựu này đáng tu, điểm hướng cuối của toàn bài."
+    },
+    {
+      "id": "five-impossibilities",
+      "title": "Năm điều bậc hết lậu không thể làm",
+      "segments": [
+        "mn76:51.1",
+        "mn76:51.2",
+        "mn76:51.3",
+        "mn76:51.4"
+      ],
+      "summary": "Sandaka hỏi người A-la-hán hết lậu, phạm hạnh xong, làm xong, gánh xuống, đạt mục tiêu, hết trói hiện hữu, giải thoát chánh trí còn hưởng dục? Ānanda khẳng định không thể năm: cố ý giết, lấy không cho với ý trộm, quan hệ tình dục, cố ý nói dối, tích trữ để hưởng dục như trước tại gia. Không hạ không thể thành lời khuyên tránh, không mở rộng thành cấm mọi vật dụng."
+    },
+    {
+      "id": "constant-knowing-question",
+      "title": "Có luôn nghĩ về lậu tận?",
+      "segments": [
+        "mn76:52.1",
+        "mn76:52.2",
+        "mn76:52.3",
+        "mn76:52.4"
+      ],
+      "summary": "Sandaka hỏi bậc A-la-hán đủ phẩm chất ấy đi/đứng/ngủ/thức có luôn liên tục tri kiến lậu đã tận? Ānanda đưa ví dụ để một số người trí hiểu nghĩa; chưa trả lời đồng ý."
+    },
+    {
+      "id": "limbs-simile",
+      "title": "Sự việc và việc xem lại sự việc",
+      "segments": [
+        "mn76:52.5",
+        "mn76:52.6",
+        "mn76:52.7",
+        "mn76:52.8",
+        "mn76:52.9",
+        "mn76:52.10",
+        "mn76:52.11",
+        "mn76:52.12"
+      ],
+      "summary": "Người mất tay chân không liên tục mọi tư thế kể cả ngủ biết rằng tay chân đã bị chặt; khi xem lại mới biết. Ānanda hỏi hai khả năng, Sandaka trả lời không luôn biết và khi xem mới biết. Giữ câu hỏi/đáp, không dùng hoàn cảnh này để phán giá người khuyết tật."
+    },
+    {
+      "id": "reflective-knowing",
+      "title": "Lậu tận được biết khi xem lại",
+      "segments": [
+        "mn76:52.13",
+        "mn76:52.14",
+        "mn76:52.15",
+        "mn76:52.16"
+      ],
+      "summary": "Ānanda áp ví: đối với bậc A-la-hán, tri kiến báo lậu đã tận không luôn có mặt trong mọi tư thế kể cả ngủ (na paccupaṭṭhitaṁ), nhưng khi xem lại thì biết. Không biến thành mất giải thoát hoặc giảm phẩm chất A-la-hán."
+    },
+    {
+      "id": "many-freed",
+      "title": "Nhiều hơn các mốc một đến năm trăm",
+      "segments": [
+        "mn76:53.1",
+        "mn76:53.2"
+      ],
+      "summary": "Sandaka hỏi có bao nhiêu người đã giải thoát trong Pháp-Luật; Ānanda đáp không chỉ100/200/300/400/500 mà nhiều hơn. Niyyātāro theo project/Sujato người giải thoát, không lãnh đạo tối thắng; giữ đủ phủ định từng mốc, không tự số chính xác."
+    },
+    {
+      "id": "sandaka-praise",
+      "title": "Lời khen và lời chê của Sandaka",
+      "segments": [
+        "mn76:53.3",
+        "mn76:53.4",
+        "mn76:53.5",
+        "mn76:53.6"
+      ],
+      "summary": "Sandaka tán thán kỳ diệu/lạ thường: không tự nâng pháp mình/hạ pháp người, dạy đúng chỗ và nhiều giải thoát. Chính Sandaka dùng lời miệt thị Ājīvaka là con của bà mẹ mất con, chê họ tự nâng/hạ người và chỉ nhận ba Nanda Vaccha/Kisa Saṅkicca/Makkhali Gosāla. Không gán lời chê cho Phật/Ānanda hoặc biến lời chửi thành tên trung tính."
+    },
+    {
+      "id": "send-and-end",
+      "title": "Khuyên hội chúng đi tu và thừa nhận điều khó bỏ",
+      "segments": [
+        "mn76:54.1",
+        "mn76:54.2",
+        "mn76:54.3",
+        "mn76:54.4",
+        "mn76:54.5"
+      ],
+      "summary": "Sandaka khuyên hội chúng sống phạm hạnh dưới Gotama; nói hiện chúng tôi khó bỏ lợi dưỡng/cung kính/danh tiếng. Giữ ngôi số nhiều amhehi; không hứa chính ông đã bỏ hay mọi người chứng quả. Người truyền thuật ông khuyến khích hội chúng theo Phật; kết Kinh Sandaka, bài thứ sáu trong nhóm."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Diễn giải Kinh Sandaka dành cho trẻ em",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Một buổi chiều đến xem hang",
+          "paragraphs": [
+            "Kinh Sandaka là bài 76 của Trung Bộ. Người truyền kinh kể điều mình đã nghe: khi Đức Phật ở tu viện Ghosita, gần Kosambī, một người tu du hành tên Sandaka ở hang Pilakkha với khoảng năm trăm du sĩ.",
+            "Chiều ấy, sau thời gian ở riêng để tu, Ānanda rủ một số tỳ-kheo, tức các tu sĩ Phật giáo, đến hồ Devakata xem hang. Các vị nhận lời và cùng đi."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "excursion"
+          ]
+        },
+        {
+          "id": "noise",
+          "kind": "teaching",
+          "heading": "Từ tiếng ồn đến chỗ lắng nghe",
+          "paragraphs": [
+            "Nhóm Sandaka đang bàn rất lớn tiếng: vua, trộm cướp, quan, quân đội, hiểm nguy, chiến tranh; đồ ăn, thức uống, quần áo, giường; vòng hoa, hương thơm; họ hàng, xe cộ, làng, thị trấn, thành phố, xứ sở; phụ nữ, anh hùng; chuyện bên đường, nơi lấy nước, người đã mất, chuyện tạp nhạp, thế giới, biển cả, có và không có sự hiện hữu. Câu chuyện nối câu chuyện giữa tiếng nói ồn ào.",
+            "Thấy Ānanda từ xa, Sandaka bảo mọi người nhỏ tiếng. Ông nói đây là một đệ tử của Gotama, tức Đức Phật, đang ở Kosambī. Các vị ấy thích sự yên tĩnh, được tập sống yên tĩnh và khen sự yên tĩnh. Có lẽ thấy nhóm mình yên, Ānanda sẽ ghé. Mọi người liền im lặng."
+          ],
+          "meaningUnits": [
+            "noise",
+            "quiet"
+          ]
+        },
+        {
+          "id": "welcome",
+          "kind": "teaching",
+          "heading": "Câu hỏi được dành chỗ",
+          "paragraphs": [
+            "Sandaka vui mừng chào Ānanda, nói đã lâu ngài mới ghé và mời ngồi chỗ đã dọn. Chính ông lấy một ghế thấp ngồi bên cạnh. Ānanda hỏi câu chuyện nào vừa bị ngắt. Sandaka xin để chuyện ấy lại sau; ông muốn nghe lời dạy của thầy Ānanda hơn.",
+            "Ānanda mời ông lắng nghe và chú tâm kỹ. Sandaka đồng ý. Từ đây, Ānanda là người giảng, thuật lại điều Đức Phật đã chỉ dạy."
+          ],
+          "meaningUnits": [
+            "welcome",
+            "invitation"
+          ]
+        },
+        {
+          "id": "two-groups",
+          "kind": "teaching",
+          "heading": "Hai nhóm, mỗi nhóm bốn",
+          "paragraphs": [
+            "Ānanda nói Đức Phật, bậc tự mình giác ngộ, biết và thấy, đã chỉ ra hai nhóm: bốn lối dạy làm việc tu mất ý nghĩa, và bốn đường tu không đáng tin cậy. Phạm hạnh là đời tu trong sạch để đi tới giải thoát. Người biết xét sẽ cố tránh những lối ấy; nếu theo, cũng không hoàn thành con đường đúng của điều thiện.",
+            "Sandaka hỏi trước về bốn lối dạy làm việc tu mất ý nghĩa. Em hãy chú ý: những quan điểm tiếp theo là điều Ānanda đem ra xem xét, không phải điều ngài bảo chúng ta tin."
+          ],
+          "meaningUnits": [
+            "two-groups"
+          ]
+        },
+        {
+          "id": "first-claims",
+          "kind": "teaching",
+          "heading": "Thứ nhất: làm tốt cũng chẳng có kết quả?",
+          "paragraphs": [
+            "Một vị thầy nói bố thí, cúng tế và lễ vật đều không có ý nghĩa; việc tốt hay xấu không có quả. Ông còn nói “không có đời này, không có đời sau; không có mẹ, không có cha”, phủ nhận loài tự hóa sinh và những người tu, những bà-la-môn đi đúng đường, tự biết hai đời rồi chỉ lại cho người khác. Bà-la-môn là những người thuộc truyền thống tôn giáo cổ ở Ấn Độ. Những câu về mẹ cha nằm trong cả học thuyết phủ nhận này."
+          ],
+          "meaningUnits": [
+            "denial-claims"
+          ]
+        },
+        {
+          "id": "first-death",
+          "kind": "teaching",
+          "heading": "Một câu chuyện kết thúc ở đống tro",
+          "paragraphs": [
+            "Vị thầy ấy bảo con người chỉ gồm đất, nước, lửa và gió. Chết rồi, bốn phần trở về bốn khối tương ứng; các khả năng nhận biết đi vào hư không. Bốn người cùng chiếc cáng đưa người chết đi, để lại dấu chân tới nơi hỏa táng. Xương xám như màu chim bồ câu, lễ vật thành tro.",
+            "Ông gọi bố thí là chuyện kẻ ngu đặt ra, xem lời người khẳng định những điều đã bị ông phủ nhận là rỗng, giả và nhảm. Theo ông, người ngu lẫn người trí đều mất hẳn sau khi chết."
+          ],
+          "meaningUnits": [
+            "denial-death"
+          ]
+        },
+        {
+          "id": "first-test",
+          "kind": "teaching",
+          "heading": "Vậy việc tu thay đổi được gì?",
+          "paragraphs": [
+            "Người biết xét nghe lại toàn bộ lời ấy rồi nghĩ: nếu đúng như thầy nói, chưa làm cũng bằng đã làm, chưa tu cũng bằng đã tu. Mình và thầy sẽ có cùng kết quả, dù mình không nói rằng cả hai chết rồi mất hẳn.",
+            "Thầy sống không mặc quần áo, cạo đầu, ngồi xổm thật lâu, nhổ tóc râu. Còn mình ở nhà với con, dùng đàn hương Kāsi, vòng hoa, hương thơm, dầu xức, nhận vàng bạc mà vẫn có cùng cảnh ngộ về sau. Theo chính giả định ấy, những khổ hạnh kia trở thành thừa. Biết gì, thấy gì để chọn thầy này? Người ấy thấy lối tu mất ý nghĩa, thất vọng rồi bỏ đi. Ānanda kết: đây là lối thứ nhất người trí không chọn; theo cũng không thành tựu pháp thiện."
+          ],
+          "meaningUnits": [
+            "denial-reflection",
+            "denial-comparison"
+          ]
+        },
+        {
+          "id": "second-actions",
+          "kind": "teaching",
+          "heading": "Thứ hai: gây hại mà không có điều ác?",
+          "paragraphs": [
+            "Vị thầy thứ hai bảo các việc cắt xén, tra tấn, gây đau khổ, làm kiệt sức hay run sợ, dù tự mình làm hay sai người làm từng việc ấy, cũng chẳng tạo điều ác. Lối nói này còn bao gồm cả việc chịu đau khổ. Ông nói như thế cả với giết hại, lấy đồ không được cho, đột nhập, cướp đoạt, cướp nhà riêng, chặn đường cướp, quan hệ với vợ người khác và nói dối.",
+            "Ông còn nêu một hình ảnh dữ dội: bánh xe sắc như dao giết mọi sinh vật trên đất thành một đống thịt, rồi vẫn bảo không có ác hay kết quả ác. Dọc bờ nam sông Gaṅgā, giết, cắt, tra tấn hoặc sai làm cũng bị ông cho là như vậy. Dọc bờ bắc, bố thí, tế lễ hoặc khuyên người làm lại bị ông nói không có phước hay kết quả phước. Cho đi, tự điều phục, tự kiềm chế và nói thật cũng bị phủ nhận như thế."
+          ],
+          "meaningUnits": [
+            "action-doctrine",
+            "action-reflection"
+          ]
+        },
+        {
+          "id": "second-test",
+          "kind": "teaching",
+          "heading": "Không nhận lời xóa bỏ trách nhiệm",
+          "paragraphs": [
+            "Người trí xét lại các việc và ví dụ ấy: nếu thầy đúng, mình chưa làm cũng bằng đã làm, chưa tu cũng bằng đã tu, kết quả ngang với thầy. Nhưng người ấy không nói rằng hành động của cả hai không tạo điều ác.",
+            "Lại có phép so: thầy khỏa thân, cạo đầu, ngồi xổm lâu, nhổ tóc râu; người ở nhà với con vẫn dùng đàn hương Kāsi, vòng hoa, hương, dầu xức, nhận vàng bạc. Nếu cảnh ngộ về sau bằng nhau như học thuyết nói, sao phải theo những khổ hạnh ấy? Người trí hỏi mình biết, thấy gì để theo, nhận ra điều vô ích của lối này rồi bỏ đi. Ānanda xếp đó là lối thứ hai cần tránh, theo cũng không hoàn thành pháp thiện."
+          ],
+          "meaningUnits": [
+            "action-reflection",
+            "action-comparison"
+          ]
+        },
+        {
+          "id": "third",
+          "kind": "teaching",
+          "heading": "Thứ ba: mọi chuyện do số phận?",
+          "paragraphs": [
+            "Vị thầy thứ ba nói tâm bị bẩn hay trở nên trong sạch đều không do nguyên nhân, điều kiện nào. Ông phủ nhận sức mạnh, sự siêng năng, sức người và nỗ lực con người. Mọi chúng sinh, loài có hơi thở, sinh vật và sinh mạng đều bất lực, không tự chủ, không có sức hay tinh tấn; số phận, hoàn cảnh và bản tính đưa họ qua vui, khổ trong sáu hạng tái sinh mà học thuyết ấy nêu.",
+            "Người trí nhắc lại lời này và xét: nếu đúng, chưa làm cũng bằng đã làm, chưa tu cũng bằng đã tu, cùng một kết quả. Nhưng mình không nói rằng cả hai tự nhiên trong sạch mà chẳng có nguyên nhân, điều kiện."
+          ],
+          "meaningUnits": [
+            "destiny-doctrine",
+            "destiny-reflection"
+          ]
+        },
+        {
+          "id": "third-test",
+          "kind": "teaching",
+          "heading": "Nỗ lực sẽ để làm gì?",
+          "paragraphs": [
+            "Thầy lại phải khỏa thân, cạo đầu, ngồi xổm lâu và nhổ tóc râu, còn người ở nhà với con dùng đàn hương Kāsi, vòng hoa, hương thơm, dầu xức và vàng bạc. Theo giả định của thầy, hai người vẫn cùng cảnh ngộ về sau. Người trí thấy không có lý do biết và thấy nào để theo, chán lối ấy rồi rời đi. Đây là lối thứ ba Ānanda nói cần tránh; nếu theo cũng không thành tựu con đường thiện."
+          ],
+          "meaningUnits": [
+            "destiny-comparison"
+          ]
+        },
+        {
+          "id": "seven",
+          "kind": "teaching",
+          "heading": "Thứ tư: bảy thứ không bao giờ đổi?",
+          "paragraphs": [
+            "Vị thầy thứ tư kể bảy thực thể: đất, nước, lửa, gió, vui, khổ và linh hồn. Ông bảo chúng không do làm ra, tạo tác hay sáng tạo, không có người sáng tạo, không sinh sản; vững như đỉnh núi, đứng như cột trụ. Chúng không động, không đổi, không hại nhau, chẳng gây cho nhau vui, khổ hay cả hai.",
+            "Từ đó, ông phủ nhận người giết và người sai giết, người nghe và người khiến nghe, người biết và người khiến biết. Thậm chí gươm chặt đầu cũng bị ông nói chẳng lấy mạng ai, chỉ lọt qua khe giữa bảy thứ ấy. Ānanda đang cho thấy cả hệ quả của cách nghĩ này."
+          ],
+          "meaningUnits": [
+            "seven-substances",
+            "seven-deeds"
+          ]
+        },
+        {
+          "id": "numbers",
+          "kind": "teaching",
+          "heading": "Bảng số của vị thầy ấy",
+          "paragraphs": [
+            "Ông còn kể: 1.400.000 loại sinh chính, thêm 6.000 và 600; 500 nghiệp, 5 nghiệp, 3 nghiệp, nghiệp và nửa nghiệp; 62 đường tu, 62 trung kiếp, 6 hạng tái sinh, 8 giai đoạn người. Có 4.900 đạo sĩ Ājīvaka, 4.900 du sĩ, 4.900 nơi ở của nāga, loài rồng; 2.000 căn, 3.000 địa ngục, 36 trần giới.",
+            "Tiếp đó là 7 loại thai có tưởng, 7 loại không có tưởng, 7 loại mang tên nigaṇṭhigabbha; 7 loài trời, 7 loài người, 7 loài quỷ; 7 hồ, 7 pavuṭa; 7 và 700 vực thẳm; 7 và 700 giấc mộng; 8.400.000 đại kiếp. Đây đều là các loại và số trong học thuyết ông đang kể. Hai tên cổ nigaṇṭhigabbha, pavuṭa có nghĩa chưa chắc nên được giữ nguyên. Ông bảo người ngu lẫn người trí đi qua quãng ấy rồi đều hết khổ."
+          ],
+          "meaningUnits": [
+            "fixed-numbers"
+          ]
+        },
+        {
+          "id": "string",
+          "kind": "teaching",
+          "heading": "Cứ lăn như cuộn chỉ?",
+          "paragraphs": [
+            "Ở đây, nghiệp “chín” nghĩa là đến lúc có quả của hành động. Theo vị thầy này, giữ giới, giữ hạnh, khổ hạnh hay sống đời tu không thể làm nghiệp chưa chín trở nên chín; cũng không thể trải nghiệm từng phần để làm cạn nghiệp đã chín. Vui và khổ đã được đong sẵn; quãng luân hồi có hạn, không tăng, giảm, tiến hay lùi.",
+            "Ông ví với cuộn chỉ được ném đi: nó vừa lăn vừa tháo ra. Người ngu lẫn người trí cũng cứ qua các đời rồi hết khổ. Trong cách dạy ấy, toàn bộ quãng đường và cái kết đều được đặt sẵn."
+          ],
+          "meaningUnits": [
+            "allotted-journey"
+          ]
+        },
+        {
+          "id": "fourth-test",
+          "kind": "teaching",
+          "heading": "Người học xét lại cả bảng số và cuộn chỉ",
+          "paragraphs": [
+            "Người trí xem lại toàn bộ bảy thực thể, những phủ nhận, bảng số và ví dụ cuộn chỉ. Nếu lời thầy đúng, mình chưa làm cũng bằng đã làm, chưa tu cũng bằng đã tu, cùng một kết quả. Nhưng mình không khẳng định cả hai cứ đi qua luân hồi rồi sẽ hết khổ.",
+            "Thầy khỏa thân, cạo đầu, ngồi xổm lâu, nhổ tóc râu; mình ở nhà với con, dùng đàn hương Kāsi, vòng hoa, hương, dầu xức, nhận vàng bạc. Nếu cùng cảnh ngộ về sau, những khổ hạnh ấy thêm được gì? Không thấy căn cứ biết, thấy để theo, người trí chán rồi bỏ. Ānanda kết đây là lối thứ tư không nên chọn; theo cũng không thành tựu pháp thiện."
+          ],
+          "meaningUnits": [
+            "seven-reflection",
+            "seven-comparison"
+          ]
+        },
+        {
+          "id": "bridge",
+          "kind": "teaching",
+          "heading": "Còn bốn đường không đáng tin?",
+          "paragraphs": [
+            "Ānanda kết lại nhóm bốn đầu. Sandaka khen thật kỳ diệu, thật lạ thường: Đức Phật đã gọi đúng những lối khiến đời tu mất ý nghĩa. Ông nhắc lại rằng người trí không chọn, theo cũng không hoàn thành con đường thiện, rồi xin nghe bốn đường tu không đáng tin cậy."
+          ],
+          "meaningUnits": [
+            "first-group-end"
+          ]
+        },
+        {
+          "id": "all-knowing",
+          "kind": "teaching",
+          "heading": "Tự nhận biết mọi thứ, cả lúc ngủ",
+          "paragraphs": [
+            "Một vị thầy tự nhận biết và thấy tất cả, không thiếu gì, lúc đi, đứng, ngủ hay thức đều như thế. Nhưng ông vào nhà trống, không được thức ăn, bị chó cắn, gặp voi dữ, ngựa dữ, bò dữ; vẫn hỏi tên họ một phụ nữ hay đàn ông, hỏi tên và đường đến làng hay thị trấn.",
+            "Khi bị hỏi vì sao, việc nào ông cũng đáp bằng chính việc ấy: phải vào nhà trống nên vào, phải không có thức ăn nên không có, phải bị chó cắn nên bị cắn; phải gặp từng con vật dữ nên gặp, phải hỏi tên họ nên hỏi, phải hỏi tên và đường nên hỏi. Người trí nhìn cả lời tự nhận lẫn lời đáp, thấy không đáng tin, chán rồi bỏ. Đây là đường thứ nhất trong nhóm hai; Ānanda nói theo nó cũng không hoàn thành pháp thiện."
+          ],
+          "meaningUnits": [
+            "omniscience-claim",
+            "omniscience-reflection"
+          ]
+        },
+        {
+          "id": "hearing",
+          "kind": "teaching",
+          "heading": "Nghe truyền lại có đủ chắc chưa?",
+          "paragraphs": [
+            "Vị thầy thứ hai lấy điều được truyền miệng, kể nối qua các đời và lưu trong kinh tạng làm sự thật. Ānanda phân biệt: có điều nghe đúng, có điều nghe sai; rồi còn chuyện điều ấy đúng với thực tế hay khác thực tế.",
+            "Người trí xét cả hai mặt đó, thấy chỉ dựa như vậy thì con đường chưa đáng tin; người ấy thất vọng rồi rời đi. Đây là đường thứ hai cần tránh, theo cũng không đạt pháp thiện. Lời cảnh tỉnh vẫn chừa chỗ cho những điều được truyền đúng và có thật."
+          ],
+          "meaningUnits": [
+            "tradition-doctrine",
+            "tradition-reflection"
+          ]
+        },
+        {
+          "id": "reasoning",
+          "kind": "teaching",
+          "heading": "Lập luận hay vẫn phải đúng sự thật",
+          "paragraphs": [
+            "Vị thầy thứ ba giảng những điều tự suy luận, tìm xét và nghĩ ra. Có điều suy luận đúng, điều suy luận sai; điều suy luận cũng có thể đúng hoặc không đúng với thực tế.",
+            "Người trí xem lại cách dạy cùng hai cặp ấy và không xem nó là chỗ bảo đảm cho đời tu. Người ấy chán rồi bỏ. Ānanda gọi đây là đường không đáng tin thứ ba: người trí tránh, theo cũng không hoàn tất con đường thiện. Bài học vẫn cho em dùng đầu óc để tìm hiểu, đồng thời biết xét điều mình nghĩ."
+          ],
+          "meaningUnits": [
+            "reasoning-doctrine",
+            "reasoning-reflection"
+          ]
+        },
+        {
+          "id": "evasion",
+          "kind": "teaching",
+          "heading": "Nói mãi mà không trả lời",
+          "paragraphs": [
+            "Vị thầy thứ tư không hiểu rõ, lại mê muội. Hỏi đâu ông cũng lảng tránh: “Tôi không nói là như vậy; tôi không nói là như thế; tôi không nói là khác đi; tôi không nói là không phải vậy; tôi không nói là không phải không vậy.” Câu cuối còn phủ định hai lần.",
+            "Người trí nghe lại đủ năm cách vòng vo ấy, nhận ra đường không đáng tin, thất vọng và bỏ. Ānanda kết đây là đường thứ tư: tránh theo hết khả năng mình; theo cũng không thành tựu pháp thiện."
+          ],
+          "meaningUnits": [
+            "evasion-doctrine",
+            "evasion-reflection"
+          ]
+        },
+        {
+          "id": "ask",
+          "kind": "teaching",
+          "heading": "Vậy học ở đâu để thật sự đi tới?",
+          "paragraphs": [
+            "Ānanda kết nhóm bốn đường chưa đáng tin. Sandaka lại khen kỳ diệu, lạ thường vì Đức Phật đã chỉ đúng chúng, rồi hỏi một điều thiết thực: vị thầy cần nói và dạy gì để người trí hết sức mình sống đời tu và đạt con đường đúng của điều thiện?"
+          ],
+          "meaningUnits": [
+            "second-group-end"
+          ]
+        },
+        {
+          "id": "teacher",
+          "kind": "teaching",
+          "heading": "Một người thầy đã biết và sống được điều mình dạy",
+          "paragraphs": [
+            "Ānanda nói đến Như Lai, tức Đức Phật: bậc hết những ô nhiễm sâu xa, tự giác ngộ hoàn toàn, đầy đủ hiểu biết và hạnh sống, đã đi con đường tốt, hiểu thế gian, dẫn dắt những người cần được rèn luyện không ai hơn, thầy của trời và người, bậc Giác Ngộ đáng tôn kính.",
+            "Ngài tự chứng biết thế giới gồm chư thiên, Māra, Phạm thiên, người tu, bà-la-môn và loài người, rồi nói điều đã biết. Pháp ngài dạy tốt ở đầu, giữa và cuối, đủ ý nghĩa lẫn lời diễn đạt, hướng đến đời tu trọn vẹn trong sạch."
+          ],
+          "meaningUnits": [
+            "teacher-training"
+          ]
+        },
+        {
+          "id": "leaving",
+          "kind": "teaching",
+          "heading": "Người nghe bắt đầu một đời sống mới",
+          "paragraphs": [
+            "Người chủ gia đình, con của họ hoặc người thuộc một tầng lớp khác nghe pháp, có lòng tin và nhận thấy ở nhà nhiều vướng bận; xuất gia rộng thoáng như khoảng trời. Người ấy muốn sống trong sạch trọn vẹn, nên sau một thời gian bỏ tài sản ít hay nhiều, bà con ít hay nhiều, cạo tóc râu, mặc y và sống không gia đình.",
+            "Vị tu sĩ ấy tránh giết hại, bỏ gậy và gươm, biết hổ thẹn, sợ làm điều xấu, thương mọi sinh vật; chỉ nhận đồ được cho, không trộm; sống độc thân, không quan hệ tình dục. Vị ấy nói thật, không lừa, không đưa lời chỗ này sang chỗ kia để chia rẽ, mà nối lại hòa thuận; nói dịu dàng, đúng lúc, đúng sự thật, có ý nghĩa, giúp ích cho việc tu."
+          ],
+          "meaningUnits": [
+            "teacher-training"
+          ]
+        },
+        {
+          "id": "simplicity",
+          "kind": "teaching",
+          "heading": "Tập sống ít vướng víu",
+          "paragraphs": [
+            "Đời tu được kể còn tránh hại hạt giống, cây cỏ; ăn một bữa, không ăn đêm hay ngoài giờ được phép; không xem múa hát, âm nhạc, biểu diễn; không dùng vòng hoa, hương, dầu xức trang sức, giường cao lớn. Vị ấy không nhận vàng bạc, hạt sống, thịt sống, phụ nữ hay trẻ gái, người nô lệ nữ nam, cừu dê, gia cầm heo, voi bò ngựa và ngựa cái, ruộng đất.",
+            "Vị ấy không làm hoặc dùng người môi giới, không buôn bán, gian cân–tiền–đo, hối lộ, gian trá, lừa đảo, làm thương tổn, giết, giam giữ, bức đoạt, trộm hay cướp phá. Những chi tiết cổ này diễn tả đời người xuất gia không gom người, của cải và quyền lực để hưởng dụng.",
+            "Biết đủ y che thân, đồ khất thực nuôi mình, đi đâu mang y bát đến đó: Ānanda ví như chim đi đâu cũng mang hai cánh. Giữ giới như thế đem lại niềm an vui vì không có điều đáng trách."
+          ],
+          "meaningUnits": [
+            "teacher-training"
+          ]
+        },
+        {
+          "id": "doors",
+          "kind": "teaching",
+          "heading": "Sáu cửa và từng việc nhỏ",
+          "paragraphs": [
+            "Mắt thấy hình, tai nghe tiếng, mũi ngửi mùi, lưỡi nếm vị, thân chạm, ý biết các điều trong tâm: đó là sáu cửa nhận biết. Nếu không gìn giữ, ham muốn, buồn bực và điều xấu có thể tràn vào. Vì thế, vị ấy không bám vào dấu hiệu chung hay chi tiết, bảo hộ cả sáu cửa và hưởng sự an vui trong sạch.",
+            "Vị ấy biết rõ mình đang làm gì khi đi tới lui, nhìn thẳng hay quanh, co duỗi tay, mang y bát, ăn uống nhai nuốt, đi vệ sinh; khi đi, đứng, ngồi, nằm, thức, nói và im lặng. Rồi chọn nơi vắng: rừng, gốc cây, khe núi, hang đá, nghĩa địa, lùm cây ngoài trời hoặc đống rơm."
+          ],
+          "meaningUnits": [
+            "teacher-training"
+          ]
+        },
+        {
+          "id": "hindrances",
+          "kind": "teaching",
+          "heading": "Dọn những gì che lấp tâm",
+          "paragraphs": [
+            "Sau khi khất thực và ăn xong, vị ấy ngồi xếp chân, lưng thẳng, đặt niệm trước mình, nghĩa là thiết lập sự chú tâm và nhớ biết. Năm thứ phải bỏ là ham muốn dục lạc; sân giận; lờ đờ, buồn ngủ; bồn chồn, hối tiếc; và nghi ngờ điều thiện. Chúng làm tâm bẩn và trí tuệ yếu.",
+            "Vị ấy tập tâm không tham, thương chúng sinh; hướng tâm đến ánh sáng, giữ niệm và biết rõ để bỏ sự lờ đờ; sống yên lắng, bớt dao động; không còn phân vân về điều thiện."
+          ],
+          "meaningUnits": [
+            "teacher-training",
+            "hindrances"
+          ]
+        },
+        {
+          "id": "absorptions",
+          "kind": "teaching",
+          "heading": "Bốn tầng định được nói đến",
+          "paragraphs": [
+            "Lìa dục và những điều không lành, vị ấy vào thiền thứ nhất: có hỷ, niềm hân hoan, và lạc, sự dễ chịu an vui, do xa lìa sinh ra; còn tầm và tứ, tức đặt tâm rồi giữ tâm gắn với đối tượng.",
+            "Kế đó, tầm và tứ lắng xuống ở thiền thứ hai. Hỷ phai, vị ấy sống xả, tâm quân bình, ở thiền thứ ba. Rồi từ bỏ lạc và ở thiền thứ tư. Với từng tầng trong bốn tầng ấy, Ānanda đều nói: khi người đệ tử thật sự đạt thành tựu cao quý dưới một vị thầy, người trí có căn cứ để hết khả năng tu theo và thành tựu pháp thiện."
+          ],
+          "meaningUnits": [
+            "first-jhana",
+            "second-jhana",
+            "third-jhana",
+            "fourth-jhana"
+          ]
+        },
+        {
+          "id": "past",
+          "kind": "teaching",
+          "heading": "Biết về những đời trước",
+          "paragraphs": [
+            "Với tâm đã định, trong sạch, sáng rõ, không tì vết hay ô nhiễm, mềm dẻo, dùng được, vững và không dao động, vị ấy hướng đến trí nhớ các đời trước. Bài kể một, hai, ba, bốn, năm, mười, hai mươi, ba mươi, bốn mươi, năm mươi, trăm, nghìn, trăm nghìn đời; nhiều kiếp thế giới co lại, giãn ra và cả co lẫn giãn, với các nét và chi tiết.",
+            "Ānanda lại lấy thành tựu thật của người đệ tử làm căn cứ: một con đường dưới vị thầy như thế đáng để người trí tu hết sức và đi tới pháp thiện."
+          ],
+          "meaningUnits": [
+            "past-lives"
+          ]
+        },
+        {
+          "id": "rebirth",
+          "kind": "teaching",
+          "heading": "Thấy việc làm có kết quả",
+          "paragraphs": [
+            "Cũng với tâm định, sạch, sáng, không tì hay ô nhiễm, mềm, dễ dùng, vững và không động, vị ấy biết sự chết và tái sinh của chúng sinh. Thiên nhãn là khả năng thấy thanh tịnh vượt mắt thường: thấy kẻ thấp, người cao, đẹp, xấu, đến cõi lành hay cõi dữ và biết họ đi theo nghiệp, tức hành động của mình.",
+            "Thành tựu ấy của người đệ tử cũng cho người trí căn cứ để tu hết khả năng dưới vị thầy và thành tựu pháp thiện."
+          ],
+          "meaningUnits": [
+            "rebirth"
+          ]
+        },
+        {
+          "id": "release",
+          "kind": "teaching",
+          "heading": "Đi đến tận gốc khổ",
+          "paragraphs": [
+            "Vẫn với nền tâm định, thanh tịnh, sáng, không tì hay cấu uế, mềm dẻo, dễ dùng, vững và không dao động, vị ấy hướng đến việc hết lậu hoặc, những ô nhiễm sâu xa trói tâm. Vị ấy biết đúng như thật từng điều: khổ; nguồn gốc khổ; khổ chấm dứt; con đường đưa đến chấm dứt khổ. Rồi cũng biết đúng như thật từng điều về lậu hoặc: chúng là gì, từ đâu sinh, sự hết chúng và đường làm chúng hết.",
+            "Do biết và thấy như vậy, tâm thoát khỏi ham mê dục lạc, khao khát tiếp tục hiện hữu và vô minh, sự không hiểu biết. Vị ấy biết đã giải thoát: sinh đã tận, đời tu hoàn thành, việc cần làm đã làm, không trở lại trạng thái hiện hữu này. Đây cũng là thành tựu khiến người trí có căn cứ để dốc sức tu theo. Con đường không dừng ở một cảm giác dễ chịu."
+          ],
+          "meaningUnits": [
+            "four-truths",
+            "defilement-truths",
+            "freedom"
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Đã giải thoát thì có thể làm điều gì?",
+          "paragraphs": [
+            "Sandaka hỏi một bậc A-la-hán, người đã hết lậu hoặc, hoàn tất đời tu và công việc cần làm, đặt gánh xuống, đạt mục tiêu, hết trói buộc vào hiện hữu, giải thoát bằng hiểu biết đúng, có còn hưởng dục không.",
+            "Ānanda nói vị ấy không thể làm năm điều: cố ý giết sinh vật; lấy đồ không được cho với ý trộm; quan hệ tình dục; cố ý nói dối; tích trữ để hưởng dục như khi còn ở nhà. Đó là lời nói về người đã hết gốc ô nhiễm, mạnh hơn một lời nhắc cố gắng tránh."
+          ],
+          "meaningUnits": [
+            "five-impossibilities"
+          ]
+        },
+        {
+          "id": "checking",
+          "kind": "teaching",
+          "heading": "Có phải lúc nào cũng nghĩ “mình đã giải thoát”?",
+          "paragraphs": [
+            "Sandaka lại hỏi: bậc ấy lúc đi, đứng, ngủ, thức có luôn biết, không một giây ngừng, rằng lậu hoặc đã hết không? Ānanda dùng một ví dụ để làm rõ. Một người đã mất tay chân có luôn nghĩ điều ấy cả khi ngủ, hay biết khi xem xét lại? Sandaka đáp: không phải luôn luôn; người ấy biết khi xem lại.",
+            "Ānanda nói bậc A-la-hán cũng vậy: tri kiến “lậu hoặc của ta đã hết” không liên tục hiện lên trong mọi lúc đi, đứng, ngủ, thức. Khi xem xét lại, vị ấy biết chúng đã hết. Sự giải thoát và một ý nghĩ liên tục báo về sự giải thoát là hai điều cần phân biệt."
+          ],
+          "meaningUnits": [
+            "constant-knowing-question",
+            "limbs-simile",
+            "reflective-knowing"
+          ]
+        },
+        {
+          "id": "many",
+          "kind": "teaching",
+          "heading": "Có nhiều người đã đi đến đích",
+          "paragraphs": [
+            "Sandaka hỏi có bao nhiêu người đã giải thoát trong Pháp và Luật này. Ānanda đáp: không chỉ một trăm, hai trăm, ba trăm, bốn trăm hay năm trăm, mà nhiều hơn thế.",
+            "Sandaka khen kỳ diệu, lạ thường: không nâng pháp mình, hạ pháp người, mà giảng đúng chỗ và có nhiều người giải thoát. Ông quay sang chê các đạo sĩ Ājīvaka tự nâng mình, hạ người khác, chỉ nhận ba vị là Nanda Vaccha, Kisa Saṅkicca và Makkhali Gosāla. Ông còn dùng lời mắng “những đứa con của bà mẹ mất con”. Đó là lời Sandaka nói, không phải một cách gọi chúng ta cần dùng với người khác."
+          ],
+          "meaningUnits": [
+            "many-freed",
+            "sandaka-praise"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Biết đường đúng và việc còn khó buông",
+          "paragraphs": [
+            "Sandaka bảo hội chúng đi sống đời tu dưới sự hướng dẫn của Gotama. Nhưng ông cũng thừa nhận: lúc này “chúng tôi” khó từ bỏ lợi dưỡng, những lợi lộc được nhận, cùng sự cung kính và danh tiếng. Biết điều tốt để khuyên người khác vẫn có thể đi cùng một vướng mắc nơi mình.",
+            "Bài kết bằng việc Sandaka khuyến khích hội chúng tu theo Đức Phật. Kinh Sandaka là bài thứ sáu trong nhóm kinh này."
+          ],
+          "meaningUnits": [
+            "send-and-end"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Liên hệ biên soạn: chọn người hướng dẫn",
+          "paragraphs": [
+            "Em muốn học trồng cây. Một người nói mình biết hết, một người chỉ lặp lời đã nghe, còn một người giải thích rất hay. Em có thể hỏi thêm: người ấy đã làm gì, chỉ em tập thế nào, kết quả ra sao? Câu hỏi ấy giúp em hiểu vì sao Ānanda dẫn từ lời tự nhận đến việc tu và thành tựu của người học.",
+            "Trồng cây là ví dụ đời thường; mục tiêu bài kinh đi xa hơn, tới chỗ chấm dứt các ô nhiễm và khổ."
+          ],
+          "meaningUnits": [
+            "tradition-doctrine",
+            "reasoning-doctrine",
+            "teacher-training",
+            "freedom"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành do người biên soạn",
+          "paragraphs": [
+            "Khi nghe một lời rủ rê, em thử hỏi: việc này có làm hại ai không, người nói biết từ đâu, mình cần hỏi ai đáng tin để hiểu thêm? Chọn một việc lành nhỏ và làm cho tử tế. Sau đó nhìn lại điều em đã tự thấy, điều mới nghe và điều em còn chưa biết.",
+            "Cũng có thể tập nhận một vướng mắc nhỏ như muốn được khen. Nhận ra nó là một bước học buông; bài kinh còn chỉ cả một đời tu hướng đến giải thoát."
+          ],
+          "meaningUnits": [
+            "action-doctrine",
+            "tradition-doctrine",
+            "reasoning-doctrine",
+            "send-and-end"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Diễn giải Kinh Sandaka dành cho người trưởng thành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Một cuộc gặp đổi hướng câu chuyện",
+          "paragraphs": [
+            "Kinh Sandaka, Trung Bộ 76, mở bằng lời người truyền kinh kể điều đã nghe. Đức Phật đang ở tu viện Ghosita gần Kosambī. Sandaka, một du sĩ, trú tại hang Pilakkha với khoảng năm trăm người tu du hành. Buổi chiều, ra khỏi thời độc cư, Ānanda rủ một số tỳ-kheo, những tu sĩ Phật giáo, đến hồ Devakata xem hang; họ nhận lời và cùng đi.",
+            "Hội chúng Sandaka đang ồn ào bàn chuyện vua, cướp, quan, quân đội, hiểm nguy, chiến tranh; ăn uống, quần áo, giường nằm, vòng hoa, hương thơm; họ hàng, xe cộ, làng, thị trấn, thành phố, xứ sở; phụ nữ, anh hùng, chuyện bên đường, nơi lấy nước, người đã khuất, chuyện tạp nhạp, thế giới, biển cả, hiện hữu và không hiện hữu.",
+            "Thấy Ānanda từ xa, Sandaka bảo giữ yên. Ông nhận đây là một đệ tử Gotama ở Kosambī, người thuộc nhóm ưa yên tĩnh, được rèn luyện trong yên tĩnh và khen sự yên tĩnh. Ông hy vọng Ānanda sẽ ghé khi thấy hội chúng không ồn. Mọi người im lặng."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "excursion",
+            "noise",
+            "quiet"
+          ]
+        },
+        {
+          "id": "invitation",
+          "kind": "teaching",
+          "heading": "Đề nghị nghe pháp của vị thầy",
+          "paragraphs": [
+            "Sandaka đón Ānanda, nói đã lâu mới có dịp gặp ở đây, mời chỗ ngồi dọn sẵn, rồi tự lấy ghế thấp ngồi bên. Ānanda hỏi chuyện đang dang dở. Sandaka xin gác lại, có thể kể sau; ông muốn nghe pháp theo vị thầy của Ānanda. Ānanda mời lắng nghe và chú tâm, Sandaka nhận lời.",
+            "Ānanda thuật lời Đức Phật, bậc biết và thấy, A-la-hán, Chánh Đẳng Giác: có bốn lối làm đời phạm hạnh mất ý nghĩa, và bốn đường phạm hạnh không đáng tin cậy. Phạm hạnh là đời tu thanh tịnh hướng đến giải thoát. Người trí tránh những lối ấy hết khả năng; nếu theo cũng không hoàn thành con đường đúng của pháp thiện. Sandaka trước tiên hỏi nhóm bốn làm mất ý nghĩa việc tu."
+          ],
+          "meaningUnits": [
+            "welcome",
+            "invitation",
+            "two-groups"
+          ]
+        },
+        {
+          "id": "annihilation",
+          "kind": "teaching",
+          "heading": "Học thuyết thứ nhất: phủ nhận kết quả của đời tu",
+          "paragraphs": [
+            "Vị thầy thứ nhất phủ nhận ý nghĩa bố thí, cúng tế, lễ vật; quả và kết quả của hành động thiện ác; đời này, đời sau, mẹ, cha, chúng sinh hóa sinh; và những sa-môn, bà-la-môn chân chánh tự chứng biết hai đời rồi tuyên bố. Sa-môn là người xuất gia tu hành; bà-la-môn thuộc truyền thống tôn giáo cổ Ấn Độ. Các phủ định về mẹ cha nằm trong học thuyết đang được thuật để phê bình, không phải lời giảng của Ānanda.",
+            "Theo thầy ấy, con người gồm bốn đại: chết thì đất, nước, lửa, gió về các khối tương ứng, các căn (những khả năng cảm nhận) vào hư không. Bốn người với chiếc cáng đưa xác đi; dấu chân tới nơi hỏa táng, xương xám bồ câu, lễ vật thành tro. Bố thí bị gọi là điều kẻ ngu bày đặt, lời xác nhận bị xem rỗng tuếch, giả dối, nhảm nhí. Người ngu và trí đều đoạn diệt, không tồn tại sau chết."
+          ],
+          "meaningUnits": [
+            "denial-claims",
+            "denial-death"
+          ]
+        },
+        {
+          "id": "inaction",
+          "kind": "teaching",
+          "heading": "Học thuyết thứ hai: xóa ý nghĩa đạo đức của việc làm",
+          "paragraphs": [
+            "Vị thầy tiếp theo nói không có điều ác khi tự làm hay sai làm, cắt xén hay sai cắt, tra tấn hay sai tra tấn, gây khổ hay sai gây khổ, làm kiệt sức hay sai làm kiệt, làm run sợ hay sai làm run sợ. Lối nói ấy còn bao gồm việc chịu khổ. Sát sinh, lấy của không cho, đột nhập, cướp đoạt, cướp nhà riêng, chặn đường cướp, thông dâm với vợ người khác và nói dối cũng bị cho là không tạo ác.",
+            "Ông đẩy chủ trương đến ba ví dụ: bánh xe vành sắc như dao biến sinh vật trên đất thành một khối thịt vẫn không có ác hay ác phát sinh; dọc bờ nam Gaṅgā, giết, cắt xén, tra tấn và sai người làm cũng vậy; dọc bờ bắc, bố thí, tế lễ và khuyên người làm lại không có phước hay phước phát sinh. Ngay bố thí, điều phục, chế ngự và nói thật cũng bị phủ nhận giá trị thiện như thế."
+          ],
+          "meaningUnits": [
+            "action-doctrine",
+            "action-reflection"
+          ]
+        },
+        {
+          "id": "determinism",
+          "kind": "teaching",
+          "heading": "Học thuyết thứ ba: không có nhân duyên hay nỗ lực",
+          "paragraphs": [
+            "Vị thầy thứ ba cho rằng ô nhiễm không có nhân duyên, thanh tịnh cũng không có nhân duyên. Không sức mạnh, tinh tấn, sức lực con người hay nỗ lực con người. Tất cả chúng sinh, loài có hơi thở, sinh vật và sinh mạng đều không tự chủ, không sức và không tinh tấn; định mệnh, hoàn cảnh và bản tính uốn nắn họ, khiến họ cảm khổ lạc trong sáu hạng tái sinh của học thuyết ấy. Sự trong sạch không còn được gắn với việc thực hành."
+          ],
+          "meaningUnits": [
+            "destiny-doctrine"
+          ]
+        },
+        {
+          "id": "substances",
+          "kind": "teaching",
+          "heading": "Học thuyết thứ tư: bảy thực thể và quãng đường định sẵn",
+          "paragraphs": [
+            "Thầy thứ tư nêu bảy thực thể: đất, nước, lửa, gió, lạc, khổ và linh hồn. Ông tuyên bố chúng không được làm ra, không do tạo tác, không được sáng tạo, không có người sáng tạo, không sinh sản; bền như đỉnh núi, đứng như cột trụ; không động, không đổi, không hại nhau, không tạo cho nhau vui, khổ hoặc cả hai.",
+            "Hệ quả ông rút ra là không có người giết hay khiến giết, người nghe hay khiến nghe, người biết hay khiến biết. Dù dùng gươm sắc chặt đầu, theo ông cũng không ai lấy mạng ai: gươm chỉ đi qua khe giữa bảy thực thể. Đây là học thuyết Ānanda đang phơi bày hệ quả, không phải lý do miễn trách nhiệm."
+          ],
+          "meaningUnits": [
+            "seven-substances",
+            "seven-deeds"
+          ]
+        },
+        {
+          "id": "numbers",
+          "kind": "teaching",
+          "heading": "Những loại và con số của học thuyết ấy",
+          "paragraphs": [
+            "Bảng liệt kê gồm 1.400.000 loại sinh chính, thêm 6.000 và 600; 500 nghiệp, 5 nghiệp, 3 nghiệp, nghiệp và nửa nghiệp; 62 đường thực hành, 62 trung kiếp, 6 hạng tái sinh, 8 giai đoạn người; 4.900 đạo sĩ Ājīvaka, 4.900 du sĩ, 4.900 nơi ở của nāga, loài rồng; 2.000 căn, 3.000 địa ngục, 36 trần giới.",
+            "Còn có 7 loại thai có tưởng, 7 không có tưởng, 7 nigaṇṭhigabbha; 7 loài trời, 7 loài người, 7 loài quỷ; 7 hồ, 7 pavuṭa; 7 và 700 vực thẳm; 7 và 700 giấc mộng; 8.400.000 đại kiếp. Các nhãn thuộc chính hệ thống được dẫn, trong đó nigaṇṭhigabbha và pavuṭa được giữ tên cổ vì nghĩa còn bất định. Theo vị thầy, người ngu và trí đi qua toàn bộ hành trình này rồi đều hết khổ."
+          ],
+          "meaningUnits": [
+            "fixed-numbers"
+          ]
+        },
+        {
+          "id": "spool",
+          "kind": "teaching",
+          "heading": "Khổ lạc đã được đong đủ?",
+          "paragraphs": [
+            "Học thuyết ấy không thừa nhận việc dùng giới, sự giữ hạnh, khổ hạnh hoặc phạm hạnh để làm nghiệp chưa chín được chín, hay lần lượt trải nghiệm mà làm cạn nghiệp đã chín. “Chín” ở đây chỉ việc đến lúc nghiệp sinh quả. Khổ lạc đã được đong định; luân hồi có giới hạn, không tăng giảm, không tiến lùi.",
+            "Ví dụ được vị thầy đưa ra là cuộn chỉ ném đi, vừa lăn vừa tháo. Cũng vậy, theo ông, ngu và trí cứ lưu chuyển qua các đời rồi sẽ chấm dứt khổ."
+          ],
+          "meaningUnits": [
+            "allotted-journey"
+          ]
+        },
+        {
+          "id": "four-reflections",
+          "kind": "teaching",
+          "heading": "Bốn lần đặt học thuyết trước hệ quả của chính nó",
+          "paragraphs": [
+            "Sau mỗi học thuyết, Ānanda để một người có trí nhắc lại toàn bộ lời vừa nghe và xét điều kiện: nếu thầy nói đúng, chưa làm cũng bằng đã làm, chưa sống phạm hạnh cũng bằng đã sống; người ấy và vị thầy sẽ có cùng kết quả. Nhưng người xét không nhận chủ trương tương ứng: không nói cả hai chết rồi đoạn diệt; không nói cả hai hành động mà chẳng tạo ác; không nói cả hai thanh tịnh không nhân duyên; cũng không nói cả hai cứ luân hồi rồi tự hết khổ.",
+            "Trong cả bốn lần, phép so đều cụ thể: vị thầy khỏa thân, cạo đầu, kiên trì ngồi xổm, nhổ tóc râu; còn người kia sống với con cái, dùng đàn hương Kāsi, vòng hoa, hương thơm, dầu xức, nhận vàng bạc. Nếu vẫn cùng cảnh ngộ về sau như từng học thuyết đòi hỏi, những khổ hạnh đó trở nên thừa.",
+            "Người ấy hỏi mình biết gì, thấy gì để sống phạm hạnh với vị thầy này. Nhận ra lối làm mất ý nghĩa việc tu, người ấy thất vọng và bỏ đi. Ānanda lần lượt xác định cả bốn: người trí hết khả năng không chọn theo; theo cũng không thành tựu con đường đúng của pháp thiện. Lập luận đặt việc tu trước tác dụng của nó, không chỉ trước mức độ khắc nghiệt bên ngoài."
+          ],
+          "meaningUnits": [
+            "denial-reflection",
+            "denial-comparison",
+            "action-reflection",
+            "action-comparison",
+            "destiny-reflection",
+            "destiny-comparison",
+            "seven-reflection",
+            "seven-comparison"
+          ]
+        },
+        {
+          "id": "next-group",
+          "kind": "teaching",
+          "heading": "Từ vô ích đến chưa đáng tin",
+          "paragraphs": [
+            "Sau lời kết của Ānanda về nhóm đầu, Sandaka tán thán kỳ diệu, lạ thường: Đức Phật đã gọi đúng bốn lối ấy là làm mất ý nghĩa phạm hạnh. Ông nhắc cả việc không chọn và việc nếu theo cũng không thành tựu, rồi hỏi về bốn đường không đáng tin cậy."
+          ],
+          "meaningUnits": [
+            "first-group-end"
+          ]
+        },
+        {
+          "id": "omniscience",
+          "kind": "teaching",
+          "heading": "Tuyên bố toàn tri không khớp điều đang diễn ra",
+          "paragraphs": [
+            "Một vị thầy nhận mình biết và thấy không sót gì, liên tục cả khi đi, đứng, ngủ, thức. Nhưng ông vào nhà trống, không nhận được thức ăn khất thực, bị chó cắn, gặp voi dữ, ngựa dữ, bò dữ; hỏi tên họ phụ nữ hoặc đàn ông, hỏi tên và đường đến làng hoặc thị trấn.",
+            "Bị hỏi vì sao, ông lần lượt đáp: phải vào nhà trống nên vào; phải không được thức ăn nên không được; phải bị chó cắn nên bị cắn; phải gặp voi, ngựa, bò dữ nên gặp; phải hỏi tên họ nên hỏi; phải hỏi tên và đường nên hỏi. Người trí xét lời tự nhận cùng chuỗi biện giải này, thấy con đường không đáng tin, thất vọng bỏ đi. Ānanda kết trường hợp thứ nhất: người trí tránh, theo cũng không thành tựu pháp thiện."
+          ],
+          "meaningUnits": [
+            "omniscience-claim",
+            "omniscience-reflection"
+          ]
+        },
+        {
+          "id": "transmission",
+          "kind": "teaching",
+          "heading": "Truyền thừa và hai câu hỏi về độ đúng",
+          "paragraphs": [
+            "Vị thầy thứ hai xem lời truyền lại là sự thật, giảng theo truyền miệng, chuỗi truyền nối qua các đời và thẩm quyền kinh tạng. Ānanda nêu hai phân biệt: điều được nghe có thể đúng hoặc sai; nội dung ấy có thể đúng thực tế hoặc khác thực tế.",
+            "Người trí nhắc lại cách giảng và hai khả năng này, thấy đường tu chỉ dựa như vậy chưa đáng tin, nên chán và bỏ. Đây là trường hợp thứ hai không nên chọn, theo cũng không thành tựu pháp thiện. Sự lưu truyền có thể giữ đúng điều thật; vấn đề là không lấy riêng sự lưu truyền làm bảo đảm."
+          ],
+          "meaningUnits": [
+            "tradition-doctrine",
+            "tradition-reflection"
+          ]
+        },
+        {
+          "id": "inference",
+          "kind": "teaching",
+          "heading": "Suy luận và thực tại chưa phải một",
+          "paragraphs": [
+            "Vị thầy thứ ba dựa trên suy luận, tìm xét và nhận định tự mình xây dựng để thuyết pháp. Có điều suy luận đúng, điều suy luận sai; có điều đúng như thực tế và có điều khác thực tế.",
+            "Xét lại đủ hai mặt, người trí thấy nền tảng ấy chưa bảo đảm cho đời tu, thất vọng và rời đi. Ānanda xác định đường không đáng tin thứ ba, với cùng kết luận không chọn và nếu theo cũng không thành tựu pháp thiện. Cần phân biệt khả năng tìm ra điều đúng bằng lý luận với lời bảo đảm rằng mọi kết luận của mình đều đúng."
+          ],
+          "meaningUnits": [
+            "reasoning-doctrine",
+            "reasoning-reflection"
+          ]
+        },
+        {
+          "id": "evasion",
+          "kind": "teaching",
+          "heading": "Quanh co vì không hiểu rõ",
+          "paragraphs": [
+            "Vị thầy thứ tư chậm hiểu và mê muội, nên được hỏi gì cũng lảng tránh: không nói như vậy; không nói như thế; không nói khác đi; không nói không phải vậy; không nói không phải không vậy. Năm cách đáp, kể cả phủ định kép cuối, không đưa người hỏi đến chỗ sáng tỏ.",
+            "Người trí xét lại cả cách ứng đáp và nguyên do ấy, thấy không đáng tin, chán rồi bỏ. Ānanda gọi đây là đường thứ tư cần tránh, theo cũng không thành tựu con đường pháp thiện."
+          ],
+          "meaningUnits": [
+            "evasion-doctrine",
+            "evasion-reflection"
+          ]
+        },
+        {
+          "id": "criterion",
+          "kind": "teaching",
+          "heading": "Con đường nào có thể đưa người học đến đích?",
+          "paragraphs": [
+            "Ānanda kết bốn đường không đáng tin. Sandaka lại khen kỳ diệu, lạ thường vì Đức Phật gọi đúng chúng, rồi hỏi vị thầy phải dạy gì để người trí có thể dốc khả năng sống phạm hạnh và thành tựu con đường thiện. Câu trả lời chuyển sang người đệ tử thực sự tu tập và đạt được điều gì."
+          ],
+          "meaningUnits": [
+            "second-group-end"
+          ]
+        },
+        {
+          "id": "buddha",
+          "kind": "teaching",
+          "heading": "Vị thầy biết rõ và hạnh sống đầy đủ",
+          "paragraphs": [
+            "Ānanda trình bày sự xuất hiện của Như Lai: A-la-hán đã sạch các ô nhiễm sâu xa gọi là lậu hoặc, tự giác ngộ hoàn toàn, đầy đủ minh và hạnh, tức hiểu biết và cách sống, đi đến thiện lành, hiểu thế gian, bậc dẫn dắt vô thượng những người cần điều phục, thầy của trời và người, bậc Giác Ngộ, Thế Tôn.",
+            "Ngài tự chứng biết thế giới với chư thiên, Māra, Phạm thiên, sa-môn, bà-la-môn, trời và người rồi tuyên bố điều đã biết. Pháp tốt ở đầu, giữa, cuối, đầy đủ nghĩa và lời, chỉ bày phạm hạnh trọn vẹn trong sạch. Người gia chủ, con gia chủ hay người thuộc một tầng lớp khác nghe, tin, nhận thấy đời gia đình chật hẹp nhiều vướng bận, đời xuất gia rộng thoáng; muốn giữ đời tu trong sạch trọn vẹn, người ấy bỏ tài sản và quyến thuộc ít hoặc nhiều, cạo tóc râu, mặc y, sống không gia đình."
+          ],
+          "meaningUnits": [
+            "teacher-training"
+          ]
+        },
+        {
+          "id": "conduct",
+          "kind": "teaching",
+          "heading": "Giới hạnh làm nền",
+          "paragraphs": [
+            "Người xuất gia giữ học giới: bỏ sát sinh, gậy kiếm, biết hổ thẹn, sợ làm điều xấu và thương sự sống; chỉ nhận điều được cho, không trộm; giữ đời độc thân, tránh quan hệ tình dục. Về lời nói, vị ấy chân thật, đáng tin, không lừa; không đem chuyện hai bên gây chia rẽ mà nối lại hòa hợp, vui trong hòa hợp; dùng lời dịu, đẹp lòng, có cảm thông; nói đúng lúc, thật, có nghĩa, hợp pháp luật tu hành, mạch lạc và có ích.",
+            "Vị ấy tránh hại hạt giống và cây cỏ; một bữa mỗi ngày, không ăn đêm hay phi thời; không xem múa, hát, nhạc, biểu diễn; không dùng vòng hoa, hương, dầu xức để trang sức, giường cao lớn. Không nhận vàng bạc, hạt sống, thịt sống, phụ nữ và trẻ gái, nô lệ nữ nam, cừu dê, gia cầm heo, voi bò ngựa và ngựa cái, ruộng đất.",
+            "Không tự làm hay dùng môi giới, không buôn bán, gian cân, tiền hoặc đo lường, hối lộ, gian trá, lừa đảo, làm thương tổn, giết, giam giữ, bức đoạt, trộm cướp. Biết đủ y che thân, đồ khất thực nuôi mình, đi đâu mang y bát như chim mang hai cánh. Thành tựu giới đem lại niềm an vui không đáng trách."
+          ],
+          "meaningUnits": [
+            "teacher-training"
+          ]
+        },
+        {
+          "id": "restraint",
+          "kind": "teaching",
+          "heading": "Bảo hộ các căn, tỉnh giác trong sinh hoạt",
+          "paragraphs": [
+            "Mắt thấy sắc, tai nghe tiếng, mũi ngửi hương, lưỡi nếm vị, thân xúc chạm, ý nhận biết các pháp trong tâm: vị ấy không nắm tướng chung và chi tiết. Nếu không bảo hộ, tham muốn, buồn bực và những điều bất thiện, tức điều xấu có hại, có thể tràn vào; vì vậy vị ấy gìn giữ cả sáu căn, có niềm an vui không ô nhiễm.",
+            "Tỉnh giác là biết rõ khi tiến lui, nhìn thẳng hay quanh, co duỗi, mang y bát, ăn uống nhai nuốt, đại tiểu tiện; khi đi, đứng, ngồi, nằm, thức, nói hoặc im lặng. Vị ấy chọn nơi vắng như rừng, gốc cây, khe núi, hang đá, nghĩa địa, lùm cây ngoài trời hay đống rơm; sau khất thực và ăn, ngồi xếp chân, lưng thẳng, đặt niệm trước mình, thiết lập sự chú tâm và nhớ biết."
+          ],
+          "meaningUnits": [
+            "teacher-training"
+          ]
+        },
+        {
+          "id": "hindrances",
+          "kind": "teaching",
+          "heading": "Từ năm chướng ngại đến sơ thiền",
+          "paragraphs": [
+            "Vị ấy gột bỏ năm triền cái làm tâm bẩn, trí tuệ yếu: dục tham; sân; hôn trầm và buồn ngủ; dao động và hối tiếc; nghi. Cách sống tương ứng là tâm lìa tham, thương mọi loài, hướng về ánh sáng với niệm tỉnh giác, yên lắng bên trong và hết phân vân về thiện pháp.",
+            "Lìa dục và bất thiện, vị ấy chứng, an trú sơ thiền: hỷ, niềm hân hoan, và lạc, sự an vui dễ chịu, do viễn ly sinh; còn tầm và tứ, đặt tâm và giữ nó gắn với đối tượng. Khi đệ tử đạt thành tựu cao quý này dưới vị thầy, Ānanda nói người trí có căn cứ để dốc khả năng tu theo và thành tựu pháp thiện."
+          ],
+          "meaningUnits": [
+            "hindrances",
+            "first-jhana"
+          ]
+        },
+        {
+          "id": "further-absorptions",
+          "kind": "teaching",
+          "heading": "Ba bước định tiếp theo",
+          "paragraphs": [
+            "Tầm và tứ lắng xuống, vị ấy chứng và an trú thiền thứ hai. Khi hỷ phai, vị ấy sống xả, tâm quân bình, chứng và an trú thiền thứ ba. Khi từ bỏ lạc, vị ấy chứng và an trú thiền thứ tư.",
+            "Ở từng bước thứ hai, thứ ba và thứ tư, Ānanda lặp lại cùng một căn cứ: thành tựu cao quý nơi người đệ tử dưới sự hướng dẫn của vị thầy làm đời tu ấy đáng để người trí hết khả năng thực hành và hoàn thành con đường thiện."
+          ],
+          "meaningUnits": [
+            "second-jhana",
+            "third-jhana",
+            "fourth-jhana"
+          ]
+        },
+        {
+          "id": "past-lives",
+          "kind": "teaching",
+          "heading": "Trí nhớ các đời sống trước",
+          "paragraphs": [
+            "Với tâm định, thanh tịnh, sáng, không tì vết, hết cấu uế, mềm dẻo, dễ sử dụng, vững và không dao động, vị ấy hướng đến trí nhớ đời trước. Nhiều đời được nhớ với các nét và chi tiết: một, hai, ba, bốn, năm, mười, hai mươi, ba mươi, bốn mươi, năm mươi, trăm, nghìn, trăm nghìn đời; nhiều kiếp thế giới co lại, giãn ra và cả co lẫn giãn.",
+            "Ānanda cũng lấy thành tựu ấy của đệ tử làm căn cứ cho người trí dốc sức sống phạm hạnh dưới vị thầy và thành tựu pháp thiện."
+          ],
+          "meaningUnits": [
+            "past-lives"
+          ]
+        },
+        {
+          "id": "death-rebirth",
+          "kind": "teaching",
+          "heading": "Thấy chúng sinh đi theo nghiệp",
+          "paragraphs": [
+            "Trên cùng nền tâm định, sạch, sáng, không tì hay cấu uế, mềm, dễ dùng, vững, không động, vị ấy hướng đến trí về chết và tái sinh. Với thiên nhãn thanh tịnh vượt mắt người, vị ấy thấy chúng sinh thấp hoặc cao, đẹp hoặc xấu, đến cõi lành hoặc dữ; biết họ đi theo hành động của mình.",
+            "Đây lại là thành tựu của người đệ tử mà Ānanda dùng để xác nhận một đời tu đáng được người trí thực hành hết khả năng, dẫn đến pháp thiện."
+          ],
+          "meaningUnits": [
+            "rebirth"
+          ]
+        },
+        {
+          "id": "liberation",
+          "kind": "teaching",
+          "heading": "Biết như thật để chấm dứt các ô nhiễm",
+          "paragraphs": [
+            "Tâm định, thanh tịnh, sáng, không tì vết hay cấu uế, mềm dẻo, dễ sử dụng, vững và không dao động ấy được hướng đến trí đoạn tận lậu hoặc, những ô nhiễm sâu xa duy trì trói buộc. Vị ấy biết như thật từng mặt: khổ, nguồn gốc khổ, sự chấm dứt và con đường chấm dứt. Rồi biết như thật từng mặt tương ứng của lậu hoặc: chúng, nguồn gốc, sự hết chúng, con đường làm chúng hết.",
+            "Do biết và thấy như thế, tâm được giải thoát khỏi dục lậu, sự ham mê dục; hữu lậu, khao khát hiện hữu; vô minh lậu, sự không hiểu biết. Vị ấy biết đã giải thoát: sinh tận, phạm hạnh hoàn tất, việc cần làm đã làm, không trở lại trạng thái hiện hữu này nữa. Ānanda kết lại: khi đệ tử có thành tựu cao quý ấy, người trí có căn cứ để hết khả năng sống đời tu theo vị thầy và thành tựu pháp thiện."
+          ],
+          "meaningUnits": [
+            "four-truths",
+            "defilement-truths",
+            "freedom"
+          ]
+        },
+        {
+          "id": "impossibilities",
+          "kind": "teaching",
+          "heading": "Giải thoát biểu hiện trong khả năng hành động",
+          "paragraphs": [
+            "Sandaka hỏi bậc A-la-hán đã hết lậu hoặc, hoàn tất phạm hạnh, làm xong việc cần làm, đặt gánh xuống, đạt mục tiêu, đoạn trói buộc vào hiện hữu, giải thoát nhờ chánh trí, tức sự hiểu biết đúng đắn, có còn hưởng dục không.",
+            "Ānanda trả lời vị ấy không thể vi phạm năm điều: cố ý giết sinh vật; lấy vật không được cho với ý trộm; quan hệ tình dục; cố ý nói dối; tích trữ để hưởng dục như trước ở nhà. Đây là sự không thể nơi bậc đã sạch lậu hoặc, không chỉ một quy tắc đang cố giữ."
+          ],
+          "meaningUnits": [
+            "five-impossibilities"
+          ]
+        },
+        {
+          "id": "knowledge",
+          "kind": "teaching",
+          "heading": "Giải thoát không đòi một lời tự báo liên tục",
+          "paragraphs": [
+            "Sandaka hỏi tiếp: đối với bậc A-la-hán đủ những phẩm chất ấy, tri kiến “lậu hoặc của ta đã tận” có liên tục hiện diện khi đi, đứng, ngủ, thức? Ānanda đưa ví dụ để người trí hiểu: người đã bị chặt tay chân có luôn biết điều ấy không gián đoạn, hay biết khi xem xét lại? Sandaka đáp không phải liên tục; khi xem lại người ấy mới biết.",
+            "Ānanda áp dụng đúng sự phân biệt đó: bậc giải thoát không liên tục có tri kiến báo rằng lậu hoặc đã tận trong mọi tư thế, kể cả ngủ. Khi xem lại, vị ấy biết chúng đã tận. Điều đã chấm dứt và việc đang nhận biết về sự chấm dứt ấy không cần đồng thời hiện thành một dòng ý nghĩ không ngừng."
+          ],
+          "meaningUnits": [
+            "constant-knowing-question",
+            "limbs-simile",
+            "reflective-knowing"
+          ]
+        },
+        {
+          "id": "community",
+          "kind": "teaching",
+          "heading": "Thành tựu được nhìn thấy ở nhiều người",
+          "paragraphs": [
+            "Sandaka hỏi số người đã giải thoát trong Pháp và Luật. Ānanda trả lời không chỉ một trăm, hai trăm, ba trăm, bốn trăm hay năm trăm, mà nhiều hơn.",
+            "Sandaka lại khen kỳ diệu, lạ thường: không đề cao pháp mình, hạ pháp khác; giảng đúng chỗ và có nhiều người giải thoát. Chính ông chê các Ājīvaka tự nâng mình, hạ người, chỉ công nhận ba vị Nanda Vaccha, Kisa Saṅkicca, Makkhali Gosāla; ông dùng cả lời miệt thị “những đứa con của bà mẹ mất con”. Cần nghe rõ đây là lời của Sandaka trong cuộc đối thoại."
+          ],
+          "meaningUnits": [
+            "many-freed",
+            "sandaka-praise"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Điều đã hiểu và điều chưa dễ bỏ",
+          "paragraphs": [
+            "Sandaka khuyên hội chúng đi sống phạm hạnh dưới Gotama. Ông đồng thời thừa nhận hiện “chúng tôi” khó buông lợi dưỡng, những lợi lộc được hưởng, cùng cung kính và danh tiếng. Lời thừa nhận cho thấy điều khó buông vẫn còn.",
+            "Người truyền kinh kết rằng Sandaka đã khuyến khích hội chúng sống phạm hạnh theo Đức Phật. Kinh Sandaka, bài thứ sáu trong nhóm này, kết thúc ở đó."
+          ],
+          "meaningUnits": [
+            "send-and-end"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Liên hệ biên soạn: nghe một khóa học về đời sống",
+          "paragraphs": [
+            "Trước lời quảng bá một khóa học, ta có thể bị hút bởi uy tín truyền lại, lý lẽ sắc sảo hoặc lời hứa người dạy biết mọi chuyện. Bài kinh gợi một cách xét kỹ hơn: hành động có còn trách nhiệm, đường thực hành có rõ, người học có thật sự được giúp đi qua điều họ cần chuyển hóa?",
+            "Đây là liên hệ hiện đại. Thành công của một khóa học không đồng nghĩa với các chứng đạt trong kinh; ở MN76, tiêu điểm cuối vẫn là hết lậu hoặc và giải thoát."
+          ],
+          "meaningUnits": [
+            "tradition-doctrine",
+            "reasoning-doctrine",
+            "teacher-training",
+            "freedom"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành do người biên soạn",
+          "paragraphs": [
+            "Chọn một lời dạy mình đang tin và phân biệt ba điều: điều tự thấy, điều nghe truyền lại, điều mình suy ra. Xem lời ấy hướng mình đến hành vi thiện nào và còn điểm gì phải hỏi rõ. Khi hỏi, giữ câu hỏi cụ thể để cùng đi tới hiểu biết.",
+            "Sau đó nhìn một lợi ích, sự kính trọng hay tiếng tốt mà mình đang khó buông. Việc thấy rõ sự vướng này có thể làm cách học chân thật hơn, trong khi con đường đoạn tận khổ vẫn cần được thực hành đầy đủ."
+          ],
+          "meaningUnits": [
+            "action-doctrine",
+            "tradition-doctrine",
+            "reasoning-doctrine",
+            "send-and-end"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Diễn giải Kinh Sandaka dành cho người lớn tuổi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Tìm một chỗ nương theo đáng tin",
+          "paragraphs": [
+            "Kinh Sandaka, bài 76 của Trung Bộ, kể một cuộc hỏi đáp về con đường tu. Người truyền kinh mở đầu bằng điều mình đã nghe. Khi Đức Phật ở tu viện Ghosita gần Kosambī, du sĩ Sandaka đang ở hang Pilakkha với khoảng năm trăm người tu du hành.",
+            "Chiều ấy, Ānanda ra khỏi thời gian độc cư, rủ một số tỳ-kheo, tức tu sĩ Phật giáo, đến hồ Devakata xem hang. Các vị nhận lời và cùng đi."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "excursion"
+          ]
+        },
+        {
+          "id": "quiet",
+          "kind": "teaching",
+          "heading": "Một khoảng yên trước cuộc chuyện trò",
+          "paragraphs": [
+            "Hội chúng Sandaka đang nói lớn tiếng. Họ bàn từ vua chúa, cướp, quan, quân đội, hiểm nguy, chiến tranh đến thức ăn, thức uống, quần áo, giường nằm, vòng hoa và hương. Rồi họ hàng, xe cộ, làng, thị trấn, thành phố, xứ sở, phụ nữ, anh hùng; chuyện bên đường, nơi lấy nước, người khuất, chuyện tạp nhạp, thế giới, biển và hiện hữu hay không hiện hữu.",
+            "Thấy Ānanda đến từ xa, Sandaka bảo mọi người giữ yên. Ông nói đây là một đệ tử Gotama ở Kosambī; các vị ấy ưa yên tĩnh, được rèn trong yên tĩnh và khen yên tĩnh. Biết đâu thấy hội chúng yên, ngài sẽ ghé. Mọi người im lặng."
+          ],
+          "meaningUnits": [
+            "noise",
+            "quiet"
+          ]
+        },
+        {
+          "id": "welcome",
+          "kind": "teaching",
+          "heading": "Gác chuyện cũ để nghe một câu hỏi sâu hơn",
+          "paragraphs": [
+            "Sandaka đón chào Ānanda, nói đã lâu ngài mới có dịp đến và mời ngồi chỗ sẵn. Ông tự lấy ghế thấp ngồi bên. Ānanda hỏi câu chuyện đang dang dở; Sandaka xin để sau, vì muốn nghe pháp theo vị thầy của ngài.",
+            "Ānanda bảo hãy nghe, chú tâm kỹ; Sandaka nhận lời. Người trình bày trong cuộc gặp là Ānanda, thuật điều Đức Phật đã dạy."
+          ],
+          "meaningUnits": [
+            "welcome",
+            "invitation"
+          ]
+        },
+        {
+          "id": "groups",
+          "kind": "teaching",
+          "heading": "Hai nhóm khác nhau",
+          "paragraphs": [
+            "Đức Phật, bậc biết và thấy, A-la-hán, tự giác ngộ hoàn toàn, đã chỉ bốn lối khiến phạm hạnh mất ý nghĩa, và bốn đường phạm hạnh không đáng tin cậy. Phạm hạnh là đời tu trong sạch hướng đến giải thoát. Người có trí tránh theo hết khả năng; nếu theo cũng không thành tựu con đường đúng của pháp thiện, những điều lành trong việc tu.",
+            "Sandaka hỏi bốn lối đầu tiên. Ānanda sẽ nêu từng quan điểm rồi để một người biết suy xét nhìn lại hệ quả của nó."
+          ],
+          "meaningUnits": [
+            "two-groups"
+          ]
+        },
+        {
+          "id": "first",
+          "kind": "teaching",
+          "heading": "Thứ nhất: phủ nhận quả của thiện ác",
+          "paragraphs": [
+            "Vị thầy đầu phủ nhận ý nghĩa bố thí, cúng tế và lễ vật; quả và kết quả hành động thiện ác; đời này, đời sau, mẹ, cha, chúng sinh hóa sinh. Ông phủ nhận cả những sa-môn, người xuất gia, và bà-la-môn thuộc truyền thống tôn giáo cổ, sống đúng, tu đúng, tự chứng biết hai đời rồi tuyên bố. Đây là toàn bộ quan điểm được dẫn ra để xét, gồm cả những lời phủ định mẹ cha.",
+            "Theo ông, con người chỉ do đất, nước, lửa, gió hợp thành. Chết rồi, mỗi phần về khối tương ứng; các căn, những khả năng nhận biết, vào hư không. Bốn người cùng chiếc cáng đưa người chết đi, dấu chân còn tới nơi hỏa táng; xương xám bồ câu, lễ vật thành tro. Ông gọi bố thí là điều kẻ ngu đặt, lời khẳng định là rỗng, giả, nhảm. Ngu và trí đều tiêu mất sau chết."
+          ],
+          "meaningUnits": [
+            "denial-claims",
+            "denial-death"
+          ]
+        },
+        {
+          "id": "first-reflection",
+          "kind": "teaching",
+          "heading": "Người trí thử đặt mình vào lời ấy",
+          "paragraphs": [
+            "Người trí nhắc lại toàn bộ học thuyết rồi nghĩ: nếu thầy đúng, mình chưa làm cũng như đã làm, chưa tu cũng như đã tu; cả hai cùng kết quả. Nhưng mình không nói cả hai chết rồi đoạn diệt.",
+            "Thầy khỏa thân, cạo đầu, ngồi xổm bền bỉ, nhổ tóc râu. Người ở nhà với con dùng đàn hương Kāsi, vòng hoa, hương, dầu xức và vàng bạc mà vẫn cùng cảnh ngộ về sau. Theo giả định ấy, những khổ hạnh kia thành thừa. Vậy mình biết gì, thấy gì để theo? Người trí thấy đời tu này mất ý nghĩa, thất vọng rồi bỏ. Ānanda kết lối thứ nhất cần tránh; theo cũng không thành tựu pháp thiện."
+          ],
+          "meaningUnits": [
+            "denial-reflection",
+            "denial-comparison"
+          ]
+        },
+        {
+          "id": "second",
+          "kind": "teaching",
+          "heading": "Thứ hai: hành động không tạo thiện ác?",
+          "paragraphs": [
+            "Thầy thứ hai cho rằng không có ác khi tự làm hoặc sai người làm; cắt xén, tra tấn, gây khổ, làm kiệt sức, làm run sợ hoặc sai người làm từng việc ấy. Cả việc chịu khổ cũng nằm trong lối nói này. Sát sinh, lấy của không cho, đột nhập, cướp đoạt, cướp nhà riêng, chặn đường cướp, thông dâm với vợ người và nói dối cũng bị cho là không tạo ác.",
+            "Ngay bánh xe vành sắc giết các sinh vật trên đất thành một khối thịt, ông vẫn bảo không có ác và ác phát sinh. Dọc bờ nam Gaṅgā, giết, cắt, tra tấn hoặc sai làm cũng vậy. Dọc bờ bắc, bố thí, tế lễ hoặc khuyên làm lại bị nói không có phước và phước phát sinh. Ông phủ nhận phước cả từ bố thí, điều phục, chế ngự và nói thật."
+          ],
+          "meaningUnits": [
+            "action-doctrine",
+            "action-reflection"
+          ]
+        },
+        {
+          "id": "second-reflection",
+          "kind": "teaching",
+          "heading": "Đời tu không thể đứng ngoài việc làm",
+          "paragraphs": [
+            "Người trí xét lại các hành vi, ví dụ ấy. Nếu lời thầy đúng, chưa làm cũng như đã làm, chưa tu cũng như đã tu, cùng kết quả; nhưng mình không khẳng định hành động của cả hai không tạo ác.",
+            "Thầy khỏa thân, cạo đầu, ngồi xổm lâu, nhổ tóc râu; mình tại gia với con, đàn hương Kāsi, vòng hoa, hương thơm, dầu xức và vàng bạc. Nếu cảnh ngộ về sau vẫn như nhau, sao theo những khổ hạnh ấy? Không có căn cứ biết, thấy để theo, người trí chán rồi bỏ. Ānanda gọi đây là lối thứ hai cần tránh; theo không hoàn thành pháp thiện."
+          ],
+          "meaningUnits": [
+            "action-reflection",
+            "action-comparison"
+          ]
+        },
+        {
+          "id": "third",
+          "kind": "teaching",
+          "heading": "Thứ ba: thanh tịnh không có nhân duyên?",
+          "paragraphs": [
+            "Vị thầy thứ ba nói không có nhân duyên làm chúng sinh ô nhiễm, cũng không có nhân duyên làm chúng sinh thanh tịnh. Không sức mạnh, tinh tấn, sức lực hay nỗ lực con người. Mọi chúng sinh, loài có hơi thở, sinh vật, sinh mạng đều không tự chủ, không sức, không tinh tấn. Họ chịu định mệnh, hoàn cảnh, bản tính chi phối; vui khổ trong sáu hạng tái sinh của học thuyết ấy.",
+            "Người trí xét lại: nếu đúng, chưa làm cũng như đã làm, chưa tu cũng như đã tu, cùng kết quả. Nhưng mình không nói cả hai sẽ thanh tịnh mà chẳng do nhân duyên."
+          ],
+          "meaningUnits": [
+            "destiny-doctrine",
+            "destiny-reflection"
+          ]
+        },
+        {
+          "id": "third-reflection",
+          "kind": "teaching",
+          "heading": "Khi nỗ lực bị gạt ra ngoài",
+          "paragraphs": [
+            "Lại có cảnh đối chiếu: thầy khỏa thân, cạo đầu, ngồi xổm lâu, nhổ tóc râu; người ở nhà với con hưởng đàn hương Kāsi, vòng hoa, hương, dầu xức, nhận vàng bạc. Theo giả định của thầy, cùng một cảnh ngộ về sau chờ cả hai. Người trí hỏi mình biết, thấy gì để theo, nhận ra việc tu bị làm mất ý nghĩa, chán rồi rời đi. Ānanda kết lối thứ ba: tránh theo; nếu theo cũng không thành tựu con đường thiện."
+          ],
+          "meaningUnits": [
+            "destiny-comparison"
+          ]
+        },
+        {
+          "id": "fourth",
+          "kind": "teaching",
+          "heading": "Thứ tư: bảy thực thể không đổi",
+          "paragraphs": [
+            "Vị thầy thứ tư nói có bảy thực thể: đất, nước, lửa, gió, vui, khổ, linh hồn. Chúng không được làm ra, không do tạo tác, không được sáng tạo, không có người sáng tạo, không sinh sản; vững như đỉnh núi, đứng như cột trụ. Chúng không dao động, thay đổi, làm hại nhau; không gây vui, khổ hay cả hai cho nhau.",
+            "Ông phủ nhận người giết và khiến giết, người nghe và khiến nghe, người biết và khiến biết. Theo ông, gươm sắc chặt đầu cũng chẳng ai lấy mạng ai, chỉ đi qua khoảng giữa bảy thực thể. Ānanda giữ rõ những hệ quả ấy trong học thuyết đang được xét."
+          ],
+          "meaningUnits": [
+            "seven-substances",
+            "seven-deeds"
+          ]
+        },
+        {
+          "id": "numbers",
+          "kind": "teaching",
+          "heading": "Một hành trình được chia sẵn bằng các con số",
+          "paragraphs": [
+            "Vị thầy kể 1.400.000 loại sinh chính, thêm 6.000 và 600; 500 nghiệp, 5 nghiệp, 3 nghiệp, nghiệp và nửa nghiệp; 62 đường tu, 62 trung kiếp, 6 hạng tái sinh, 8 giai đoạn người. Tiếp là 4.900 đạo sĩ Ājīvaka, 4.900 du sĩ, 4.900 nơi ở của nāga, loài rồng; 2.000 căn, 3.000 địa ngục, 36 trần giới.",
+            "Có 7 thai có tưởng, 7 không có tưởng, 7 nigaṇṭhigabbha; 7 loài trời, 7 loài người, 7 loài quỷ; 7 hồ, 7 pavuṭa; 7 và 700 vực thẳm; 7 và 700 giấc mộng; 8.400.000 đại kiếp. Các tên nigaṇṭhigabbha, pavuṭa còn bất định về nghĩa nên giữ nguyên. Toàn bộ bảng là cách phân loại của vị thầy ấy. Ông nói ngu và trí qua hết hành trình rồi đều chấm dứt khổ."
+          ],
+          "meaningUnits": [
+            "fixed-numbers"
+          ]
+        },
+        {
+          "id": "thread",
+          "kind": "teaching",
+          "heading": "Như một cuộn chỉ được ném đi",
+          "paragraphs": [
+            "Nghiệp “chín” nghĩa là đến lúc mang quả. Theo vị thầy ấy, giới, sự giữ hạnh, khổ hạnh, phạm hạnh không thể làm nghiệp chưa chín thành chín, hay trải nghiệm dần để làm cạn nghiệp đã chín. Khổ lạc đong sẵn, luân hồi có hạn; chẳng tăng, giảm, tiến hay lùi.",
+            "Vị thầy ví cuộn chỉ vừa lăn vừa tháo sau khi được ném ra. Ngu và trí cũng cứ lưu chuyển qua các đời rồi hết khổ. Nỗ lực thay đổi không có chỗ trong cái kết đã được ấn định ấy."
+          ],
+          "meaningUnits": [
+            "allotted-journey"
+          ]
+        },
+        {
+          "id": "fourth-reflection",
+          "kind": "teaching",
+          "heading": "Đi qua thời gian có tự làm hết khổ?",
+          "paragraphs": [
+            "Người trí nhắc lại bảy thực thể, các phủ nhận, bảng số, việc nghiệp không đổi và cuộn chỉ. Nếu thầy đúng, chưa làm cũng như đã làm, chưa tu cũng như đã tu, cùng một kết quả. Nhưng người ấy không nói cả hai cứ qua luân hồi rồi tự hết khổ.",
+            "Thầy khỏa thân, cạo đầu, ngồi xổm lâu, nhổ tóc râu; mình ở nhà với con, dùng đàn hương Kāsi, vòng hoa, hương, dầu xức, nhận vàng bạc. Nếu về sau cùng cảnh ngộ, những khổ hạnh thêm được gì? Người trí không thấy điều biết, thấy nào để theo; nhận lối tu mất ý nghĩa, chán và bỏ. Ānanda kết lối thứ tư cần tránh, theo cũng không thành tựu pháp thiện."
+          ],
+          "meaningUnits": [
+            "seven-reflection",
+            "seven-comparison"
+          ]
+        },
+        {
+          "id": "bridge",
+          "kind": "teaching",
+          "heading": "Sandaka hỏi nhóm thứ hai",
+          "paragraphs": [
+            "Ānanda kết đủ bốn lối đầu. Sandaka khen kỳ diệu, lạ thường vì Đức Phật đã chỉ đúng những lối làm mất ý nghĩa phạm hạnh: người trí không chọn, theo cũng không hoàn thành con đường thiện. Ông xin nghe tiếp bốn đường không đáng tin cậy."
+          ],
+          "meaningUnits": [
+            "first-group-end"
+          ]
+        },
+        {
+          "id": "claims",
+          "kind": "teaching",
+          "heading": "Người tự nhận lúc nào cũng biết hết",
+          "paragraphs": [
+            "Một vị thầy nhận mình biết và thấy mọi thứ không sót, liên tục khi đi, đứng, ngủ, thức. Nhưng ông vào nhà trống, không có đồ khất thực, bị chó cắn, gặp voi dữ, ngựa dữ, bò dữ; phải hỏi tên họ người nữ hay nam, tên và đường đến làng hay thị trấn.",
+            "Hỏi vì sao, ông đáp từng việc: phải vào nhà trống nên vào; phải không được thức ăn nên không được; phải bị chó cắn nên bị cắn; phải gặp mỗi loài vật dữ nên gặp; phải hỏi tên họ nên hỏi; phải hỏi tên và đường nên hỏi. Người trí xét lời nhận biết hết cùng các lời đáp ấy, thấy không đáng tin, chán rồi bỏ. Ānanda nêu đó là đường thứ nhất: người trí tránh; theo cũng không hoàn thành pháp thiện."
+          ],
+          "meaningUnits": [
+            "omniscience-claim",
+            "omniscience-reflection"
+          ]
+        },
+        {
+          "id": "tradition",
+          "kind": "teaching",
+          "heading": "Điều truyền lâu vẫn cần hiểu cho đúng",
+          "paragraphs": [
+            "Thầy thứ hai lấy truyền miệng, sự nối truyền qua các đời và kinh tạng làm sự thật. Ānanda nêu rõ hai chuyện: nghe đúng hay nghe sai; điều đã nghe có đúng thực tế hay khác thực tế. Không nên trộn chúng thành một.",
+            "Người trí xét lại cách dạy và cả hai mặt, thấy chỉ dựa như thế thì đường chưa đáng tin, nên chán và bỏ. Ānanda gọi đây là đường thứ hai cần tránh, theo cũng không thành tựu pháp thiện. Lời được truyền có thể đúng và thật; niềm tin cần biết mình đang dựa vào đâu."
+          ],
+          "meaningUnits": [
+            "tradition-doctrine",
+            "tradition-reflection"
+          ]
+        },
+        {
+          "id": "thinking",
+          "kind": "teaching",
+          "heading": "Điều nghĩ ra cũng có giới hạn",
+          "paragraphs": [
+            "Thầy thứ ba giảng dựa trên suy luận, tìm xét và nhận định của riêng mình. Có điều được suy luận đúng, có điều sai; có điều đúng thực tế, có điều không như thực tế.",
+            "Người trí nhớ đủ hai phân biệt ấy, thấy cách nương theo này chưa đáng tin, thất vọng rồi bỏ. Ānanda kết đường thứ ba: không nên theo, theo cũng không thành tựu pháp thiện. Suy xét vẫn có thể đưa đến điều đúng; riêng một lời suy xét chưa bảo đảm được cả con đường giải thoát."
+          ],
+          "meaningUnits": [
+            "reasoning-doctrine",
+            "reasoning-reflection"
+          ]
+        },
+        {
+          "id": "evasion",
+          "kind": "teaching",
+          "heading": "Sự quanh co không làm sáng câu hỏi",
+          "paragraphs": [
+            "Thầy thứ tư chậm hiểu, mê muội, nên luôn né tránh câu hỏi. Năm cách nói là: không nói như vậy; không nói như thế; không nói khác đi; không nói không phải vậy; không nói không phải không vậy. Cả phủ định kép cuối cùng cũng nằm trong chuỗi ấy.",
+            "Người trí xét lại đủ năm câu và sự không hiểu rõ đằng sau, thấy đường không đáng tin, chán rồi bỏ. Ānanda kết đây là đường thứ tư cần tránh hết khả năng; theo không hoàn thành pháp thiện."
+          ],
+          "meaningUnits": [
+            "evasion-doctrine",
+            "evasion-reflection"
+          ]
+        },
+        {
+          "id": "worthy-path",
+          "kind": "teaching",
+          "heading": "Thế nào là một đời tu đáng sống?",
+          "paragraphs": [
+            "Kết nhóm bốn đường chưa đáng tin, Ānanda được Sandaka tán thán kỳ diệu, lạ thường lần nữa. Sandaka hỏi: vị thầy dạy gì để người trí có thể dốc khả năng sống phạm hạnh và thành tựu con đường đúng của pháp thiện?"
+          ],
+          "meaningUnits": [
+            "second-group-end"
+          ]
+        },
+        {
+          "id": "teacher",
+          "kind": "teaching",
+          "heading": "Từ lời dạy của bậc giác ngộ",
+          "paragraphs": [
+            "Ānanda nói về Như Lai, Đức Phật: A-la-hán đã hết các ô nhiễm sâu xa gọi là lậu hoặc, tự giác ngộ hoàn toàn, đầy đủ hiểu biết và hạnh sống, Thiện Thệ đã đi con đường lành, hiểu thế gian, dẫn dắt người cần được điều phục không ai hơn, thầy trời người, bậc Giác Ngộ, Thế Tôn đáng tôn kính.",
+            "Ngài tự chứng biết thế giới với chư thiên, Māra, Phạm thiên, sa-môn, bà-la-môn, trời và người rồi nói điều đã biết. Pháp tốt ở đầu, giữa và cuối, đủ lời và nghĩa, chỉ bày đời tu đầy đủ thanh tịnh."
+          ],
+          "meaningUnits": [
+            "teacher-training"
+          ]
+        },
+        {
+          "id": "renunciation",
+          "kind": "teaching",
+          "heading": "Đệ tử bắt đầu bằng thay đổi cách sống",
+          "paragraphs": [
+            "Gia chủ, con gia chủ hay người thuộc một tầng lớp khác nghe pháp, tin và nhận thấy gia đình nhiều vướng bận, còn đời xuất gia rộng thoáng. Muốn sống trong sạch hoàn toàn, sau một thời gian người ấy bỏ tài sản ít hoặc nhiều, bà con ít hoặc nhiều; cạo tóc râu, mặc y, sống không gia đình.",
+            "Vị ấy bỏ sát sinh, bỏ gậy kiếm, có hổ thẹn, sợ điều xấu và lòng thương mọi sinh vật; không trộm, chỉ nhận vật được cho; sống độc thân, không quan hệ tình dục. Lời nói chân thật, đáng tin, không lừa; không đem chuyện hai bên chia rẽ mà giúp hòa hợp, vui trong hòa hợp. Vị ấy nói dịu, dễ nghe, cảm thông; đúng lúc, đúng thật, có nghĩa, hợp pháp và luật tu, mạch lạc, lợi ích."
+          ],
+          "meaningUnits": [
+            "teacher-training"
+          ]
+        },
+        {
+          "id": "few-needs",
+          "kind": "teaching",
+          "heading": "Ít nhu cầu và không gom giữ",
+          "paragraphs": [
+            "Đời tu ấy tránh hại hạt giống và cây; ăn một bữa, không ăn đêm hay phi thời; không xem múa, hát, nhạc, biểu diễn; không trang sức bằng vòng hoa, hương, dầu xức, không dùng giường cao lớn. Không nhận vàng bạc, hạt sống, thịt sống, phụ nữ và trẻ gái, nô lệ nữ nam, cừu dê, gia cầm heo, voi bò ngựa và ngựa cái, ruộng đất.",
+            "Vị ấy không làm hay dùng môi giới, không buôn bán, gian cân, tiền, đo lường; không hối lộ, gian trá, lừa đảo, làm thương tổn, giết, giam giữ, bức đoạt, trộm cướp. Biết đủ y che thân, đồ khất thực nuôi mình; đi đâu mang y bát như chim mang hai cánh. Giữ giới như vậy đem lại niềm an vui không có điều đáng trách."
+          ],
+          "meaningUnits": [
+            "teacher-training"
+          ]
+        },
+        {
+          "id": "awareness",
+          "kind": "teaching",
+          "heading": "Giữ gìn sáu cửa, biết rõ việc đang làm",
+          "paragraphs": [
+            "Mắt thấy sắc, tai nghe tiếng, mũi ngửi hương, lưỡi nếm vị, thân chạm, ý biết các điều trong tâm: vị ấy không níu tướng chung hay chi tiết. Nếu các căn không được gìn giữ, ham muốn, buồn bực, điều bất thiện, tức điều xấu có hại, có thể tràn vào. Bảo hộ cả sáu căn đem lại niềm an vui trong sạch.",
+            "Vị ấy tỉnh giác, biết rõ khi tiến lui, nhìn thẳng hay quanh, co duỗi, mang y bát, ăn uống nhai nuốt, đại tiểu tiện; khi đi, đứng, ngồi, nằm, thức, nói, im lặng. Chọn nơi vắng: rừng, gốc cây, khe núi, hang đá, nghĩa địa, lùm cây ngoài trời hoặc đống rơm. Khất thực và ăn xong, vị ấy ngồi xếp chân, lưng thẳng, đặt niệm trước mình, thiết lập sự chú tâm và nhớ biết."
+          ],
+          "meaningUnits": [
+            "teacher-training"
+          ]
+        },
+        {
+          "id": "hindrances",
+          "kind": "teaching",
+          "heading": "Năm điều làm yếu trí tuệ",
+          "paragraphs": [
+            "Vị ấy bỏ năm triền cái: dục tham; sân giận; hôn trầm, buồn ngủ; dao động, hối tiếc; nghi ngờ. Đó là những điều làm tâm ô nhiễm và trí tuệ yếu.",
+            "Tâm được tập lìa tham, thương tất cả chúng sinh; hướng về ánh sáng với niệm và tỉnh giác để bỏ sự lờ đờ; yên lắng trong lòng; hết phân vân đối với pháp thiện."
+          ],
+          "meaningUnits": [
+            "hindrances"
+          ]
+        },
+        {
+          "id": "absorptions",
+          "kind": "teaching",
+          "heading": "Những thành tựu định thực sự",
+          "paragraphs": [
+            "Lìa dục và điều bất thiện, vị ấy chứng, ở trong sơ thiền. Có hỷ là niềm hân hoan, lạc là an vui dễ chịu, do viễn ly sinh; còn tầm và tứ, đặt tâm rồi giữ tâm gắn với đối tượng.",
+            "Tầm, tứ lắng xuống ở thiền thứ hai. Hỷ phai nhạt, vị ấy sống xả, tâm quân bình, ở thiền thứ ba. Từ bỏ lạc, vị ấy chứng và ở thiền thứ tư.",
+            "Với mỗi tầng trong cả bốn tầng, Ānanda đều nói: đệ tử đạt thành tựu cao quý dưới vị thầy là căn cứ để người trí hết khả năng tu theo, thành tựu con đường thiện."
+          ],
+          "meaningUnits": [
+            "first-jhana",
+            "second-jhana",
+            "third-jhana",
+            "fourth-jhana"
+          ]
+        },
+        {
+          "id": "recollection",
+          "kind": "teaching",
+          "heading": "Trí nhớ nhiều đời",
+          "paragraphs": [
+            "Với tâm định, sạch, sáng, không tì vết, hết cấu uế, mềm dẻo, dễ dùng, vững và không động, vị ấy hướng đến trí nhớ đời trước. Những đời được nhớ có nét và chi tiết: một, hai, ba, bốn, năm, mười, hai mươi, ba mươi, bốn mươi, năm mươi, trăm, nghìn, trăm nghìn; nhiều kiếp thế giới co lại, giãn ra, cả co và giãn.",
+            "Ānanda xem thành tựu thật ấy của đệ tử là căn cứ để người trí dốc sức sống phạm hạnh với vị thầy và thành tựu pháp thiện."
+          ],
+          "meaningUnits": [
+            "past-lives"
+          ]
+        },
+        {
+          "id": "passing-on",
+          "kind": "teaching",
+          "heading": "Chết và tái sinh theo nghiệp",
+          "paragraphs": [
+            "Tâm định, sạch, sáng, không tì hay ô nhiễm, mềm, dễ dùng, vững và không dao động ấy được hướng đến trí thấy chúng sinh chết, tái sinh. Với thiên nhãn trong sạch vượt mắt người, vị ấy thấy thấp, cao, đẹp, xấu, cõi lành, cõi dữ; biết chúng sinh đi theo nghiệp, hành động của họ.",
+            "Đây cũng là thành tựu cao quý của người đệ tử khiến người trí có căn cứ để hết khả năng tu dưới vị thầy, hoàn thành pháp thiện."
+          ],
+          "meaningUnits": [
+            "rebirth"
+          ]
+        },
+        {
+          "id": "ending-suffering",
+          "kind": "teaching",
+          "heading": "Biết khổ và lậu hoặc đến chỗ chấm dứt",
+          "paragraphs": [
+            "Với cùng nền tâm định, thanh tịnh, trong sáng, không tì hay cấu uế, mềm dẻo, dễ dùng, vững và không động, vị ấy hướng đến trí lậu tận. Lậu hoặc là những ô nhiễm sâu xa còn trói tâm. Vị ấy biết đúng như thật từng mặt: khổ; nguồn gốc khổ; sự khổ chấm dứt; đường dẫn đến chấm dứt khổ. Rồi biết đúng như thật từng mặt của lậu hoặc: chúng, nguồn gốc, sự hết chúng và đường làm chúng hết.",
+            "Do biết, thấy như vậy, tâm thoát dục lậu, sự ham mê dục; hữu lậu, khao khát hiện hữu; vô minh lậu, sự không hiểu biết. Đã giải thoát, vị ấy biết: sinh tận, đời tu hoàn tất, việc cần làm đã làm, không trở lại trạng thái hiện hữu này. Ānanda lại xác nhận thành tựu nơi đệ tử là căn cứ cho người trí dốc khả năng tu theo và thành tựu pháp thiện."
+          ],
+          "meaningUnits": [
+            "four-truths",
+            "defilement-truths",
+            "freedom"
+          ]
+        },
+        {
+          "id": "conduct-of-freedom",
+          "kind": "teaching",
+          "heading": "Năm điều bậc hết lậu không thể làm",
+          "paragraphs": [
+            "Sandaka hỏi bậc A-la-hán đã hết lậu hoặc, hoàn tất đời tu, xong công việc, đặt gánh xuống, đạt mục tiêu, hết trói buộc vào hiện hữu, giải thoát bằng chánh trí, tức sự hiểu biết đúng đắn, còn hưởng dục được không.",
+            "Ānanda nói vị ấy không thể: cố ý giết sinh vật; lấy của không cho với ý trộm; quan hệ tình dục; cố ý nói dối; tích trữ để hưởng dục như khi tại gia. Sự không thể ấy thuộc người đã hết gốc ô nhiễm, vượt quá việc chỉ giữ một lời nguyện tránh điều xấu."
+          ],
+          "meaningUnits": [
+            "five-impossibilities"
+          ]
+        },
+        {
+          "id": "knowing",
+          "kind": "teaching",
+          "heading": "Không phải một ý nghĩ kéo dài cả lúc ngủ",
+          "paragraphs": [
+            "Sandaka hỏi bậc ấy đi, đứng, ngủ, thức có liên tục biết “lậu hoặc của ta đã tận” không. Ānanda đưa ví dụ để một số người trí hiểu: người đã mất tay chân có lúc nào cũng biết điều ấy, hay chỉ khi xem lại? Sandaka đáp không biết liên tục, nhưng khi xem lại thì biết.",
+            "Cũng vậy, tri kiến báo lậu hoặc đã tận không luôn có mặt nơi bậc A-la-hán trong mọi tư thế, kể cả ngủ. Khi xem xét lại, vị ấy biết lậu hoặc đã tận. Hiểu điều này giúp thấy sự khác nhau giữa giải thoát đã thành tựu và việc đang nghĩ về thành tựu đó."
+          ],
+          "meaningUnits": [
+            "constant-knowing-question",
+            "limbs-simile",
+            "reflective-knowing"
+          ]
+        },
+        {
+          "id": "many",
+          "kind": "teaching",
+          "heading": "Nhiều hơn năm trăm người giải thoát",
+          "paragraphs": [
+            "Sandaka hỏi trong Pháp và Luật có bao nhiêu người đã giải thoát. Ānanda đáp: không chỉ một trăm, hai trăm, ba trăm, bốn trăm hay năm trăm; còn nhiều hơn.",
+            "Sandaka khen kỳ diệu, lạ thường vì không đề cao pháp mình, hạ pháp người mà giảng đúng chỗ, có nhiều người giải thoát. Rồi chính ông chê các Ājīvaka tự nâng mình, hạ người khác, chỉ nhận ba người giải thoát: Nanda Vaccha, Kisa Saṅkicca, Makkhali Gosāla. Ông dùng cả lời mắng “những đứa con của bà mẹ mất con”. Lời nặng ấy thuộc Sandaka trong câu chuyện, không phải lời Ānanda dạy đối xử với người."
+          ],
+          "meaningUnits": [
+            "many-freed",
+            "sandaka-praise"
+          ]
+        },
+        {
+          "id": "close",
+          "kind": "teaching",
+          "heading": "Một lời thừa nhận chân thật ở cuối",
+          "paragraphs": [
+            "Sandaka khuyên hội chúng đi sống phạm hạnh dưới Gotama, rồi nói hiện “chúng tôi” khó bỏ lợi dưỡng, những lợi lộc được nhận, cùng sự cung kính và danh tiếng. Nhìn ra con đường đáng theo chưa có nghĩa mọi vướng mắc đã buông xuống.",
+            "Bài kinh kết bằng việc ông khuyến khích hội chúng tu theo Đức Phật. Kinh Sandaka là bài thứ sáu trong nhóm kinh này."
+          ],
+          "meaningUnits": [
+            "send-and-end"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Liên hệ biên soạn: một lời truyền trong nhóm bạn",
+          "paragraphs": [
+            "Trong một nhóm bạn cùng đọc sách, có lời được nhắc lại nhiều năm nên ai cũng quen. Khi một người hỏi căn cứ, ta có thể cùng xem lại: lời được truyền có đúng không, và nội dung có đúng với điều được nói đến không? Một câu hỏi nhẹ nhàng, rõ ràng có thể giúp cả nhóm hiểu sâu hơn mà vẫn tôn trọng nhau.",
+            "Đó là liên hệ đời thường với hai phân biệt trong kinh. Thành tựu giải thoát mà Ānanda trình bày còn đòi hỏi trọn vẹn đời sống và sự tu tập."
+          ],
+          "meaningUnits": [
+            "tradition-doctrine",
+            "reasoning-doctrine",
+            "sandaka-praise"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành do người biên soạn",
+          "paragraphs": [
+            "Có thể chọn một điều mình thường tin, rồi thong thả nhận ra phần nào đã tự biết, phần nào nghe lại, phần nào mình suy ra. Nếu chưa rõ, ghi một câu hỏi cụ thể để trao đổi với người có hiểu biết.",
+            "Cũng thử nhìn một sự kính trọng hay tiếng tốt mình khó buông. Biết rõ vướng mắc mà không che lấp nó có thể giúp việc học và tu chân thật hơn. Mục tiêu trong kinh vẫn là biết như thật, đoạn tận lậu hoặc và giải thoát."
+          ],
+          "meaningUnits": [
+            "tradition-doctrine",
+            "reasoning-doctrine",
+            "send-and-end",
+            "freedom"
+          ]
+        }
+      ]
+    }
+  }
+}

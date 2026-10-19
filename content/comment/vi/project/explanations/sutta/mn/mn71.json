@@ -1,0 +1,704 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn71",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn71_root-pli-ms.json",
+      "sha256": "d686bd2433cf57dd58eded73a20bf8ab1ced644d3535a84ffe4dc38cfdb67749",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn71_translation-vi-project.json",
+      "sha256": "a1503e5919c91dd8672b349ef64a6528ef64bec8aeeb5c6601b14193d7d60197",
+      "commit": "255b606e1f9e7c3b7050b9f2f298d23fdca97c4a"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn71_translation-en-sujato.json",
+      "sha256": "066acc2d219511027b99dba0ec3384718655568080a465c393f2bbd8a0d25ece",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn71.html",
+      "sha256": "93a11a1afeb6328725bec9d540ff1a3b08d9d0d84a0c37884bcdc0bf34dbf9e3",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn71_comment-vi-project.json",
+      "sha256": "2d80f49ac55ada923959e1c7e6eaac13ef80033a36ca002840d05cc19667d3c0",
+      "commit": "255b606e1f9e7c3b7050b9f2f298d23fdca97c4a"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Kinh Vacchagotta về Tam Minh",
+      "segments": [
+        "mn71:0.1",
+        "mn71:0.2"
+      ],
+      "summary": "MN71 Tevijjavacchasutta; nhãn ấn bản không phải lời đối thoại."
+    },
+    {
+      "id": "setting",
+      "title": "Nơi ở của Đức Phật và Vacchagotta",
+      "segments": [
+        "mn71:1.1",
+        "mn71:1.2",
+        "mn71:2.1"
+      ],
+      "summary": "Người truyền kinh đã nghe; Phật ở Vesālī/Đại Lâm/hội trường mái nhọn; du sĩ Vaccha ở du viện Một Hoa Sen."
+    },
+    {
+      "id": "morning",
+      "title": "Ghé thăm khi còn sớm",
+      "segments": [
+        "mn71:3.1",
+        "mn71:3.2",
+        "mn71:3.3",
+        "mn71:3.4",
+        "mn71:3.5"
+      ],
+      "summary": "Buổi sáng đắp y/cầm y bát vào Vesālī khất thực; nghĩ quá sớm nên đến du viện nơi Vaccha, rồi thực hiện."
+    },
+    {
+      "id": "welcome",
+      "title": "Đón khách và ngồi xuống",
+      "segments": [
+        "mn71:4.1",
+        "mn71:4.2",
+        "mn71:4.3",
+        "mn71:4.4",
+        "mn71:4.5",
+        "mn71:4.6",
+        "mn71:4.7",
+        "mn71:4.8",
+        "mn71:4.9"
+      ],
+      "summary": "Vaccha thấy xa/mời đến/chào mừng/nói lâu mới ghé/mời ghế trải; Phật ngồi, Vaccha lấy ghế thấp bên cạnh và mở lời."
+    },
+    {
+      "id": "rumor",
+      "title": "Lời đồn về biết thấy mọi điều",
+      "segments": [
+        "mn71:5.1",
+        "mn71:5.2",
+        "mn71:5.3"
+      ],
+      "summary": "Vaccha nghe Sa-môn Gotama toàn tri/toàn kiến/tuyên bố tri kiến không sót, luôn hiện tiền đi/đứng/ngủ/thức. Giữ cả gói mệnh đề, không tự chấp nhận lời đồn."
+    },
+    {
+      "id": "rumor-question",
+      "title": "Câu hỏi về cách kể lại",
+      "segments": [
+        "mn71:5.4"
+      ],
+      "summary": "Nhắc toàn lời đồn, hỏi đúng lời/không vu khống/đúng Pháp/không đáng phản bác chê trách hợp Pháp."
+    },
+    {
+      "id": "denial",
+      "title": "Đức Phật bác lời kể không thật",
+      "segments": [
+        "mn71:5.5"
+      ],
+      "summary": "Người nói thế không nói đúng lời Ta và xuyên tạc bằng điều không thật; không diễn rộng thành phủ định mọi cách bàn về toàn tri."
+    },
+    {
+      "id": "proper-question",
+      "title": "Nên giải thích thế nào",
+      "segments": [
+        "mn71:6.1"
+      ],
+      "summary": "Vaccha xin cách trả lời đủ bốn điều đúng lời/không vu khống/đúng Pháp/không hợp lý để chê trách."
+    },
+    {
+      "id": "three-claim",
+      "title": "Bậc có ba minh",
+      "segments": [
+        "mn71:6.2"
+      ],
+      "summary": "Trả lời Sa-môn Gotama có Tam Minh thỏa đủ bốn điều; giải sa-môn/người tu, tam minh/ba sự biết sáng rõ."
+    },
+    {
+      "id": "past",
+      "title": "Nhớ đời sống quá khứ khi muốn",
+      "segments": [
+        "mn71:7.1",
+        "mn71:7.2"
+      ],
+      "summary": "Yāvadeva ākaṅkhāmi: mỗi khi muốn nhớ nhiều loại đời trước, một/hai/... cùng đặc điểm chi tiết. Không đổi thành nhớ tuổi nhỏ đời này hoặc tự chèn danh sách lược vào Pāli."
+    },
+    {
+      "id": "divine-eye",
+      "title": "Thấy chúng sinh chết và tái sinh",
+      "segments": [
+        "mn71:8.1"
+      ],
+      "summary": "Khi muốn, thiên nhãn sạch/vượt mắt người thấy chết/tái sinh thấp/cao đẹp/xấu lành/dữ; biết theo nghiệp. Không biến thành soi đoán bạn bè hay phán phẩm giá qua diện mạo."
+    },
+    {
+      "id": "release",
+      "title": "Giải thoát ngay hiện tại",
+      "segments": [
+        "mn71:9.1"
+      ],
+      "summary": "Đoạn tận lậu hoặc; tự mình trực tiếp chứng biết, chứng ngộ và an trú tâm giải thoát, tuệ giải thoát không lậu hoặc ngay hiện tại. Không thêm mỗi khi muốn vào minh thứ ba hoặc giảm thành kiến thức lý thuyết."
+    },
+    {
+      "id": "correct-repeat",
+      "title": "Nhắc lại cách nói đúng",
+      "segments": [
+        "mn71:10.1"
+      ],
+      "summary": "Sau nêu ba minh lặp đủ bốn điều cho cách gọi Tam Minh."
+    },
+    {
+      "id": "lay-end",
+      "title": "Tại gia chưa bỏ trói buộc và hết khổ",
+      "segments": [
+        "mn71:11.1",
+        "mn71:11.2",
+        "mn71:11.3"
+      ],
+      "summary": "Vaccha hỏi người tại gia chưa bỏ gihisaṁyojana khi thân hoại có chấm dứt khổ? Phật không. Điều kiện không bỏ trói buộc không đồng nhất bỏ gia đình."
+    },
+    {
+      "id": "lay-heaven",
+      "title": "Nhiều người tại gia sinh trời",
+      "segments": [
+        "mn71:12.1",
+        "mn71:12.2"
+      ],
+      "summary": "Với điều kiện chưa bỏ trói buộc tại gia, hỏi sinh trời khi thân hoại. Không chỉ một, hai, ba, bốn hoặc năm trăm mà còn nhiều hơn; không phải mọi cư sĩ tự động sinh trời."
+    },
+    {
+      "id": "ajivaka-end",
+      "title": "Hỏi đạo sĩ Ājīvaka về hết khổ",
+      "segments": [
+        "mn71:13.1",
+        "mn71:13.2"
+      ],
+      "summary": "Hỏi đạo sĩ nhóm Ājīvaka khi thân hoại có chấm dứt khổ không; Phật đáp không. Không đổi thành câu về mọi tôn giáo khác."
+    },
+    {
+      "id": "ajivaka-heaven",
+      "title": "Một ngoại lệ trong chín mươi mốt kiếp",
+      "segments": [
+        "mn71:14.1",
+        "mn71:14.2",
+        "mn71:14.3"
+      ],
+      "summary": "Hỏi nhóm Ājīvaka sinh trời; Phật nhớ chín mươi mốt kiếp, không biết ai trừ một vị dạy về nghiệp và hành động. Không có danh tính; không đổi thành chín mươi mốt năm hoặc đời người."
+    },
+    {
+      "id": "empty",
+      "title": "Lời kết về đạo trại ấy",
+      "segments": [
+        "mn71:15.1",
+        "mn71:15.2"
+      ],
+      "summary": "Vaccha hỏi vậy đạo trại ấy trống rỗng ngay cả người sinh trời; Phật xác nhận. Giữ cả lời kết lẫn ngoại lệ đã nêu, không tự hòa giải bằng chi tiết ngoài nguồn."
+    },
+    {
+      "id": "close",
+      "title": "Vacchagotta tán đồng",
+      "segments": [
+        "mn71:15.3",
+        "mn71:15.4"
+      ],
+      "summary": "Phật đã nói; du sĩ hoan hỷ và tán đồng, không thêm quy y, chứng quả hoặc xuất gia."
+    },
+    {
+      "id": "colophon",
+      "title": "Nhãn kết bài thứ nhất",
+      "segments": [
+        "mn71:15.5"
+      ],
+      "summary": "Nhãn ấn bản gọi kinh Tam Minh Vaccha là bài đầu trong nhóm, không nhầm thành MN1."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Hiểu và kể đúng về Đức Phật",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "visit",
+          "kind": "teaching",
+          "heading": "Một cuộc ghé thăm vào buổi sáng",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "morning",
+            "welcome"
+          ],
+          "paragraphs": [
+            "MN71 là Kinh Vacchagotta về Tam Minh. Người truyền kinh kể điều mình đã nghe: Đức Phật ở Vesālī, trong hội trường mái nhọn giữa Đại Lâm. Du sĩ Vacchagotta, một người sống đời tìm học đạo, ở du viện Một Hoa Sen.",
+            "Buổi sáng, Đức Phật đắp y, mang y bát vào Vesālī khất thực, tức đi nhận thức ăn được cho. Thấy còn quá sớm, Ngài nghĩ đến việc thăm Vacchagotta rồi đến nơi ông ở. Vacchagotta thấy từ xa, mời vào, vui mừng chào đón và nói đã lâu Ngài mới ghé. Ông mời Đức Phật ngồi chỗ đã dọn. Đức Phật ngồi xuống; Vacchagotta lấy ghế thấp ngồi bên cạnh."
+          ]
+        },
+        {
+          "id": "rumor",
+          "kind": "teaching",
+          "heading": "Một lời nghe có vẻ rất tôn kính",
+          "meaningUnits": [
+            "rumor",
+            "rumor-question",
+            "denial"
+          ],
+          "paragraphs": [
+            "Vacchagotta kể điều đã nghe: người ta nói Sa-môn Gotama, tức Đức Phật, biết tất cả, thấy tất cả, nhận mình biết thấy không sót gì; đi, đứng, ngủ hay thức đều luôn luôn có sự biết thấy ấy. Sa-môn là người tu sống rời đời gia đình.",
+            "Ông hỏi: nói vậy có đúng lời Đức Phật, không kể sai về Ngài, hợp lời dạy và không có lý do chính đáng để bị phản bác hay chê trách không? Đức Phật trả lời rằng những người nói như thế đã nói không đúng lời Ngài, gán cho Ngài điều không thật. Một lời nghe như lời khen vẫn có thể là lời kể sai."
+          ]
+        },
+        {
+          "id": "three",
+          "kind": "teaching",
+          "heading": "Vậy kể thế nào cho đúng?",
+          "meaningUnits": [
+            "proper-question",
+            "three-claim"
+          ],
+          "paragraphs": [
+            "Vacchagotta hỏi nên trả lời thế nào để đủ những điều vừa nêu. Đức Phật dạy rằng nói “Sa-môn Gotama có Tam Minh” là đúng lời Ngài, không kể sai, hợp Pháp, tức lời dạy, và không có lý do hợp Pháp để chê trách. Tam Minh có nghĩa là ba sự biết sáng rõ. Ngài giải thích từng điều."
+          ]
+        },
+        {
+          "id": "past",
+          "kind": "teaching",
+          "heading": "Thứ nhất: nhớ những đời đã sống",
+          "meaningUnits": [
+            "past"
+          ],
+          "paragraphs": [
+            "Đức Phật nói mỗi khi muốn, Ngài nhớ nhiều đời sống quá khứ: một đời, hai đời và nhiều đời khác, có các nét riêng và chi tiết. Đây là lời kinh về những đời đã sống trước đời hiện tại, rộng hơn việc nhớ hồi mình còn nhỏ."
+          ]
+        },
+        {
+          "id": "eye",
+          "kind": "teaching",
+          "heading": "Thứ hai: thấy chúng sinh chết đi và tái sinh",
+          "meaningUnits": [
+            "divine-eye"
+          ],
+          "paragraphs": [
+            "Mỗi khi muốn, Đức Phật dùng thiên nhãn, sự thấy thanh tịnh vượt hơn mắt người, để thấy chúng sinh chết đi rồi sinh vào đời khác. Ngài thấy các khác biệt: thấp kém hoặc cao quý, đẹp hoặc xấu, vào cõi lành hoặc cõi dữ. Ngài biết chúng sinh đi theo nghiệp, những hành động của mình. Lời kinh nói về sự thấy biết ấy của Đức Phật; nhìn vẻ ngoài một người không cho chúng ta sự biết ấy."
+          ]
+        },
+        {
+          "id": "free",
+          "kind": "teaching",
+          "heading": "Thứ ba: giải thoát ngay trong đời này",
+          "meaningUnits": [
+            "release",
+            "correct-repeat"
+          ],
+          "paragraphs": [
+            "Đức Phật nói các lậu hoặc, những điều làm tâm ô nhiễm và trói buộc, đã được đoạn tận. Ngài tự mình trực tiếp chứng biết, chứng ngộ và sống trong tâm giải thoát cùng tuệ giải thoát không còn lậu hoặc ngay hiện tại. Tâm được tự do và sự hiểu biết giải thoát ấy là điều Ngài đã thực chứng.",
+            "Sau khi nói ba điều, Đức Phật nhắc lại: gọi Ngài là bậc có Tam Minh thì đúng lời Ngài, không xuyên tạc, hợp Pháp và không có lý do hợp Pháp để chê trách."
+          ]
+        },
+        {
+          "id": "lay",
+          "kind": "teaching",
+          "heading": "Sinh lên trời và hết khổ là hai câu hỏi",
+          "meaningUnits": [
+            "lay-end",
+            "lay-heaven"
+          ],
+          "paragraphs": [
+            "Vacchagotta hỏi về người tại gia, người vẫn sống đời gia đình. Nếu chưa bỏ sự trói buộc của đời sống ấy, khi thân hoại, tức qua đời, họ có chấm dứt khổ không? Đức Phật đáp không. Câu hỏi giữ rõ điều kiện: chưa bỏ sự trói buộc.",
+            "Ông hỏi tiếp: vẫn với điều kiện ấy, có người tại gia nào qua đời rồi sinh lên cõi trời không? Đức Phật đáp có nhiều hơn một trăm, hai trăm, ba trăm, bốn trăm, năm trăm người. Hai kết quả được hỏi khác nhau; sinh lên trời không được gọi là đã chấm dứt khổ."
+          ]
+        },
+        {
+          "id": "ajivaka",
+          "kind": "teaching",
+          "heading": "Những câu hỏi về một nhóm đạo sĩ",
+          "meaningUnits": [
+            "ajivaka-end",
+            "ajivaka-heaven"
+          ],
+          "paragraphs": [
+            "Vacchagotta chuyển sang hỏi về các đạo sĩ thuộc nhóm Ājīvaka: có ai khi thân hoại chấm dứt khổ không? Đức Phật đáp không. Ājīvaka là tên nhóm đang được hỏi trong cuộc nói chuyện này.",
+            "Khi được hỏi họ có ai sinh lên trời không, Đức Phật nói trong chín mươi mốt kiếp mà Ngài nhớ lại, Ngài không biết có ai, trừ một vị. “Kiếp” ở đây là thời gian rất dài, không phải một năm. Vị ngoại lệ ấy dạy về nghiệp và tác dụng của hành động. Kinh không nêu tên vị ấy."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Lời kết của cuộc trò chuyện",
+          "meaningUnits": [
+            "empty",
+            "close",
+            "colophon"
+          ],
+          "paragraphs": [
+            "Vacchagotta hỏi: vậy đạo trại ấy, tức cộng đồng tu ấy, trống rỗng, ngay cả người sinh lên trời cũng không có? Đức Phật xác nhận lời ấy. Khi đọc lời kết về đạo trại, cũng cần nhớ ngoại lệ một vị mà Ngài vừa kể; không bỏ mất chi tiết đó.",
+            "Đức Phật nói xong, Vacchagotta vui mừng và tán đồng. Dòng kết gọi đây là bài thứ nhất trong nhóm kinh ấy; số của bài vẫn là MN71."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Liên hệ biên soạn: khen bạn cho đúng",
+          "meaningUnits": [
+            "denial",
+            "three-claim"
+          ],
+          "paragraphs": [
+            "Một bạn giải thích cho em một bài toán khó. Em muốn khen và kể: “Bạn ấy biết hết mọi bài toán, chẳng bao giờ nhầm!” Điều em biết thật là bạn đã giải thích được bài vừa rồi. Em có thể kể đúng việc ấy mà vẫn bày tỏ lòng quý mến.",
+            "Ví dụ này chỉ giúp nhìn chuyện kể đúng điều đã biết. Ba minh trong kinh không được ví bằng khả năng làm toán."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành do người biên soạn",
+          "meaningUnits": [
+            "rumor-question",
+            "proper-question",
+            "correct-repeat"
+          ],
+          "paragraphs": [
+            "Trước khi kể lại lời của ai, thử nhớ họ đã nói gì, còn điều nào mình chỉ nghe người khác kể. Nếu chưa rõ, có thể hỏi lại.",
+            "Khi khen một người, chọn một việc tốt cụ thể mình biết. Lời chân thật vẫn có thể ấm áp và làm người nghe vui."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Ba minh và lời nói có căn cứ",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Cuộc gặp bắt đầu khi còn sớm",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "morning",
+            "welcome"
+          ],
+          "paragraphs": [
+            "Kinh Vacchagotta về Tam Minh, MN71, được mở bằng lời người truyền kinh đã nghe. Đức Phật ở Vesālī, tại Đại Lâm, trong hội trường mái nhọn; du sĩ Vacchagotta, người sống đời tìm học đạo, ở du viện Một Hoa Sen.",
+            "Sáng, Đức Phật đắp y, mang y bát vào Vesālī khất thực. Thấy còn quá sớm, Ngài nghĩ nên ghé Vacchagotta và đến nơi ông ở. Vacchagotta nhìn thấy từ xa, mời Ngài vào, chào mừng, nhắc đã lâu Ngài mới đến rồi mời ghế đã dọn. Đức Phật ngồi; ông lấy ghế thấp ngồi một bên và mở cuộc trao đổi."
+          ]
+        },
+        {
+          "id": "claim",
+          "kind": "teaching",
+          "heading": "Kiểm tra một lời tôn xưng",
+          "meaningUnits": [
+            "rumor",
+            "rumor-question",
+            "denial"
+          ],
+          "paragraphs": [
+            "Vacchagotta hỏi về lời truyền rằng Sa-môn Gotama, người tu được gọi là Đức Phật, biết tất cả, thấy tất cả, tuyên bố tri kiến không sót điều gì, luôn liên tục hiện tiền khi đi, đứng, ngủ và thức. Tri kiến là sự biết và thấy.",
+            "Ông muốn biết lời ấy có thuật đúng lời Ngài, không xuyên tạc, đúng với Pháp, tức lời dạy, và không có căn cứ hợp Pháp để phản bác, chê trách không. Đức Phật bác cách thuật ấy: người nói vậy không nói đúng lời Ngài và gán cho Ngài điều không thật. Đối tượng bị bác ở đây là lời tuyên bố với đầy đủ những đặc điểm vừa được kể."
+          ]
+        },
+        {
+          "id": "answer",
+          "kind": "teaching",
+          "heading": "Cách trả lời được xác nhận",
+          "meaningUnits": [
+            "proper-question",
+            "three-claim"
+          ],
+          "paragraphs": [
+            "Vacchagotta xin cách giải thích đáp ứng đủ bốn điều vừa hỏi. Đức Phật chỉ cách nói: Sa-môn Gotama có Tam Minh, ba sự biết sáng rõ. Cách gọi ấy đúng lời Ngài, không xuyên tạc, hợp Pháp và không có lý do hợp Pháp để chê trách. Ngài tiếp tục nêu nội dung của ba minh."
+          ]
+        },
+        {
+          "id": "past",
+          "kind": "teaching",
+          "heading": "Sự biết về các đời sống quá khứ",
+          "meaningUnits": [
+            "past"
+          ],
+          "paragraphs": [
+            "Mỗi khi muốn, Đức Phật nhớ lại nhiều loại đời sống quá khứ, một đời, hai đời và nhiều đời khác, cùng đặc điểm và chi tiết. Lời dạy giữ khả năng hướng tới sự biết ấy khi muốn; không đồng nhất nó với lời đồn rằng mọi tri kiến luôn cùng hiện tiền cả khi ngủ."
+          ]
+        },
+        {
+          "id": "rebirth",
+          "kind": "teaching",
+          "heading": "Sự thấy chúng sinh đi theo nghiệp",
+          "meaningUnits": [
+            "divine-eye"
+          ],
+          "paragraphs": [
+            "Mỗi khi muốn, bằng thiên nhãn thanh tịnh vượt hơn mắt người, Ngài thấy chúng sinh chết đi và tái sinh: thấp kém, cao quý, đẹp, xấu, sinh vào cõi lành hay cõi dữ. Ngài biết chúng sinh đi theo nghiệp, hành động của họ. Đây là sự thấy biết được Đức Phật trình bày về mình; đoạn này không trao cho người đọc căn cứ đoán nghiệp của người khác từ ngoại hình hay địa vị."
+          ]
+        },
+        {
+          "id": "liberation",
+          "kind": "teaching",
+          "heading": "Sự giải thoát được thực chứng",
+          "meaningUnits": [
+            "release",
+            "correct-repeat"
+          ],
+          "paragraphs": [
+            "Nhờ đoạn tận các lậu hoặc, những ô nhiễm sâu làm tâm còn trói buộc, Đức Phật đã tự mình trực tiếp chứng biết, chứng ngộ và an trú tâm giải thoát cùng tuệ giải thoát không lậu hoặc ngay trong hiện tại. Minh thứ ba đi cùng việc đã giải thoát, không chỉ là hiểu một lý thuyết về giải thoát.",
+            "Ngài nhắc lại kết luận về cách gọi bậc có Tam Minh: đúng lời Ngài, không xuyên tạc, phù hợp Pháp và không có lý do hợp Pháp để phản bác, chê trách."
+          ]
+        },
+        {
+          "id": "householder",
+          "kind": "teaching",
+          "heading": "Hai đích đến cần phân biệt",
+          "meaningUnits": [
+            "lay-end",
+            "lay-heaven"
+          ],
+          "paragraphs": [
+            "Vacchagotta hỏi người tại gia chưa từ bỏ trói buộc tại gia có chấm dứt khổ khi thân hoại, tức qua đời, hay không. Đức Phật đáp không. Điều kiện “chưa từ bỏ trói buộc” là một phần của câu hỏi và câu đáp; không thể xóa nó để biến lời này thành một nhận xét chỉ dựa vào danh xưng tại gia.",
+            "Với cùng điều kiện, ông hỏi họ có sinh lên cõi trời khi thân hoại không. Đức Phật nói không chỉ một trăm, hai trăm, ba trăm, bốn trăm hay năm trăm, mà còn nhiều hơn nữa. Sinh thiên và chấm dứt khổ không được đặt ngang nhau trong cuộc đối thoại."
+          ]
+        },
+        {
+          "id": "ascetics",
+          "kind": "teaching",
+          "heading": "Phạm vi câu trả lời về Ājīvaka",
+          "meaningUnits": [
+            "ajivaka-end",
+            "ajivaka-heaven"
+          ],
+          "paragraphs": [
+            "Ông tiếp tục hỏi về nhóm đạo sĩ Ājīvaka: có người nào khi thân hoại chấm dứt khổ không? Đức Phật đáp không. Câu hỏi tiếp theo là về sinh thiên.",
+            "Đức Phật nói trong chín mươi mốt kiếp mà Ngài nhớ lại, Ngài không biết vị Ājīvaka nào sinh lên trời, trừ một vị dạy về nghiệp và tác dụng của hành động. Kiếp chỉ một thời kỳ rất dài ở đây, không phải chín mươi mốt đời người. Danh tính vị ấy không được nêu."
+          ]
+        },
+        {
+          "id": "conclusion",
+          "kind": "teaching",
+          "heading": "Giữ đủ cả kết luận và ngoại lệ",
+          "meaningUnits": [
+            "empty",
+            "close",
+            "colophon"
+          ],
+          "paragraphs": [
+            "Vacchagotta hỏi: như vậy đạo trại ấy, tức cộng đồng tu ấy, trống rỗng, ngay cả người sinh lên trời cũng không có? Đức Phật xác nhận. Lời kết về đạo trại được đặt sau ngoại lệ vị dạy về nghiệp và hành động; khi trình bày toàn cuộc đối thoại, cần giữ cả hai.",
+            "Vacchagotta hoan hỷ, tán đồng điều Đức Phật nói. Kinh kết thúc với nhãn bài thứ nhất trong nhóm, không kể một lần xuất gia hay chứng quả của ông."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Liên hệ biên soạn: giới thiệu một đồng nghiệp",
+          "meaningUnits": [
+            "rumor-question",
+            "denial",
+            "three-claim"
+          ],
+          "paragraphs": [
+            "Khi giới thiệu đồng nghiệp với một nhóm mới, ta có thể nói quá rằng người ấy xử lý được mọi vấn đề và chưa từng mắc lỗi. Nếu điều mình biết là họ đã giải quyết tốt một sự cố cụ thể, kể rõ sự cố ấy sẽ giúp người nghe hiểu đúng hơn và đặt kỳ vọng vừa với bằng chứng.",
+            "Liên hệ này nói về trách nhiệm trong lời giới thiệu. Nó không biến ba minh thành năng lực nghề nghiệp hoặc dùng thành tích công việc để chứng minh lời kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành do người biên soạn",
+          "meaningUnits": [
+            "rumor-question",
+            "proper-question",
+            "lay-end",
+            "lay-heaven"
+          ],
+          "paragraphs": [
+            "Chọn một lời mình sắp dẫn lại. Kiểm xem đó là lời người ấy thực sự nói, lời truyền gián tiếp hay suy diễn của mình; sửa cách dẫn cho tương xứng.",
+            "Khi đọc một kết luận, đánh dấu điều kiện đi trước và kết quả được nói tới. Bỏ một điều kiện hoặc đổi tên kết quả có thể làm cả câu chuyển nghĩa."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Nghe rõ và phân biệt các kết quả",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "visit",
+          "kind": "teaching",
+          "heading": "Một buổi sáng ở Vesālī",
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "morning"
+          ],
+          "paragraphs": [
+            "Kinh Vacchagotta về Tam Minh, MN71, mở bằng lời người truyền kinh kể điều đã nghe. Đức Phật ở Đại Lâm, trong hội trường mái nhọn tại Vesālī. Du sĩ Vacchagotta, người sống đời tìm học đạo, ở du viện Một Hoa Sen.",
+            "Sáng hôm ấy, Đức Phật đắp y, mang y bát vào Vesālī khất thực. Nghĩ còn quá sớm để đi nhận thức ăn, Ngài quyết định đến thăm Vacchagotta rồi đến chỗ ông."
+          ]
+        },
+        {
+          "id": "welcome",
+          "kind": "teaching",
+          "heading": "Lời chào của người đón khách",
+          "meaningUnits": [
+            "welcome"
+          ],
+          "paragraphs": [
+            "Thấy Đức Phật từ xa, Vacchagotta mời vào, chào mừng và nói đã lâu Ngài mới có dịp ghé. Ông mời Đức Phật ngồi vào chỗ đã dọn sẵn. Sau khi Ngài ngồi, ông lấy ghế thấp ngồi một bên và thưa chuyện."
+          ]
+        },
+        {
+          "id": "report",
+          "kind": "teaching",
+          "heading": "Một lời truyền cần được hỏi lại",
+          "meaningUnits": [
+            "rumor",
+            "rumor-question",
+            "denial"
+          ],
+          "paragraphs": [
+            "Ông nghe rằng Sa-môn Gotama, người tu được biết đến là Đức Phật, biết hết, thấy hết, tuyên bố sự biết thấy không sót gì và luôn liên tục có mặt khi đi, đứng, ngủ, thức. Ông hỏi thuật lại vậy có đúng lời Ngài, không xuyên tạc, hợp Pháp, tức lời dạy, và không có lý do hợp Pháp để bị phản bác, chê trách không.",
+            "Đức Phật đáp rằng người nói như vậy đã không nói đúng lời Ngài; họ gán cho Ngài điều không thật. Sự tôn kính trong cách nói không làm cho một lời thuật sai trở thành đúng."
+          ]
+        },
+        {
+          "id": "three",
+          "kind": "teaching",
+          "heading": "Nói đúng về ba minh",
+          "meaningUnits": [
+            "proper-question",
+            "three-claim"
+          ],
+          "paragraphs": [
+            "Vacchagotta hỏi nên giải thích thế nào để đủ những điều vừa nêu. Đức Phật dạy cách nói: Sa-môn Gotama là bậc có Tam Minh, ba sự biết sáng rõ. Đó là thuật đúng lời Ngài, không xuyên tạc, đúng với Pháp và không có lý do hợp Pháp để chê trách."
+          ]
+        },
+        {
+          "id": "memory",
+          "kind": "teaching",
+          "heading": "Minh thứ nhất: nhớ các đời trước",
+          "meaningUnits": [
+            "past"
+          ],
+          "paragraphs": [
+            "Đức Phật nói mỗi khi muốn, Ngài nhớ nhiều loại đời sống quá khứ, một đời, hai đời và nhiều đời khác, với đặc điểm và chi tiết. Đối tượng được kể là những đời sống trước đời hiện tại; cách nói giữ rõ “mỗi khi muốn”."
+          ]
+        },
+        {
+          "id": "eye",
+          "kind": "teaching",
+          "heading": "Minh thứ hai: thấy sự chết và tái sinh",
+          "meaningUnits": [
+            "divine-eye"
+          ],
+          "paragraphs": [
+            "Mỗi khi muốn, với thiên nhãn thanh tịnh vượt hơn mắt người, Ngài thấy chúng sinh chết đi và tái sinh. Ngài thấy thấp kém, cao quý, đẹp, xấu, đi vào cõi lành hoặc cõi dữ, và biết chúng sinh đi theo nghiệp, những hành động của họ.",
+            "Đây là lời về sự thấy biết của Đức Phật. Không thể lấy diện mạo hay hoàn cảnh hiện tại của một người rồi cho rằng mình cũng đã biết rõ nghiệp và nơi tái sinh của người ấy."
+          ]
+        },
+        {
+          "id": "freedom",
+          "kind": "teaching",
+          "heading": "Minh thứ ba: đã giải thoát ngay hiện tại",
+          "meaningUnits": [
+            "release",
+            "correct-repeat"
+          ],
+          "paragraphs": [
+            "Các lậu hoặc, những ô nhiễm làm tâm trói buộc, đã được đoạn tận. Đức Phật tự mình trực tiếp chứng biết, chứng ngộ và an trú tâm giải thoát, tuệ giải thoát không còn lậu hoặc ngay hiện tại. Đó là sự giải thoát Ngài đã thực chứng.",
+            "Ngài nhắc lại rằng gọi Ngài là bậc có Tam Minh đáp ứng đủ bốn điều: đúng lời, không xuyên tạc, hợp Pháp và không có lý do hợp Pháp để chê trách."
+          ]
+        },
+        {
+          "id": "end-suffering",
+          "kind": "teaching",
+          "heading": "Điều kiện trong câu hỏi về hết khổ",
+          "meaningUnits": [
+            "lay-end"
+          ],
+          "paragraphs": [
+            "Vacchagotta hỏi: người tại gia chưa bỏ sự trói buộc tại gia, khi thân hoại, tức qua đời, có thể chấm dứt khổ không? Đức Phật đáp không. Trói buộc chưa được từ bỏ là điều kiện được nêu rõ, không chỉ có tên gọi người tại gia."
+          ]
+        },
+        {
+          "id": "heaven",
+          "kind": "teaching",
+          "heading": "Câu hỏi tiếp theo về sinh lên trời",
+          "meaningUnits": [
+            "lay-heaven"
+          ],
+          "paragraphs": [
+            "Ông hỏi người tại gia chưa bỏ trói buộc ấy, khi thân hoại có sinh lên cõi trời không. Đức Phật nói không phải chỉ một trăm, hai trăm, ba trăm, bốn trăm hay năm trăm, mà còn nhiều hơn thế.",
+            "Câu đáp sau không đảo câu đáp trước. Một câu nói về sinh thiên, một câu nói về chấm dứt khổ; cần giữ riêng hai kết quả ấy."
+          ]
+        },
+        {
+          "id": "ajivaka",
+          "kind": "teaching",
+          "heading": "Chín mươi mốt kiếp và một ngoại lệ",
+          "meaningUnits": [
+            "ajivaka-end",
+            "ajivaka-heaven"
+          ],
+          "paragraphs": [
+            "Vacchagotta hỏi tiếp về nhóm đạo sĩ Ājīvaka. Có vị nào khi thân hoại chấm dứt khổ không? Đức Phật đáp không. Rồi ông hỏi có vị nào sinh lên trời không.",
+            "Đức Phật nói trong chín mươi mốt kiếp mà Ngài nhớ lại, Ngài không biết ai sinh lên trời, trừ một vị. Vị ấy dạy về nghiệp và tác dụng của hành động. Kiếp ở đây là thời gian rất dài, không phải năm; kinh không cho biết tên người ngoại lệ."
+          ]
+        },
+        {
+          "id": "close",
+          "kind": "teaching",
+          "heading": "Nghe trọn lời kết",
+          "meaningUnits": [
+            "empty",
+            "close",
+            "colophon"
+          ],
+          "paragraphs": [
+            "Vacchagotta nói: như vậy đạo trại ấy, tức cộng đồng tu ấy, trống rỗng, ngay cả người sinh lên trời cũng không có? Đức Phật xác nhận. Khi đọc lời kết ấy, vẫn giữ trong trí chi tiết ngoại lệ một vị đã được kể ngay trước đó.",
+            "Cuộc trao đổi kết thúc với sự hoan hỷ và tán đồng của Vacchagotta. Dòng cuối ghi bài thứ nhất trong nhóm kinh này. Không có đoạn nào ở đây kể ông xuất gia hay chứng quả."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Liên hệ biên soạn: kể lại một lời khuyên",
+          "meaningUnits": [
+            "rumor-question",
+            "denial",
+            "proper-question"
+          ],
+          "paragraphs": [
+            "Một người bạn chia sẻ cách chăm một chậu cây và nói nó hợp với góc sân nhà mình. Khi kể lại, ta có thể vô tình đổi thành: “Cứ làm vậy thì cây nào cũng tốt ở mọi nơi.” Muốn giúp người khác, ta cần giữ cả điều người bạn đã làm lẫn hoàn cảnh họ nói tới.",
+            "Liên hệ này gợi sự cẩn trọng khi kể lại. Chuyện chăm cây không giải thích thay cho ba minh hoặc những kết quả tái sinh trong kinh."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành do người biên soạn",
+          "meaningUnits": [
+            "rumor-question",
+            "correct-repeat",
+            "lay-end",
+            "lay-heaven"
+          ],
+          "paragraphs": [
+            "Khi nhớ lại một lời dạy hay lời khuyên để chia sẻ, có thể tìm lại câu gốc hoặc hỏi người đã nói. Nếu chỉ nhớ ý chính, nói rõ đó là phần mình nhớ.",
+            "Thử để ý những chữ như “khi”, “nếu”, “chưa” và tên của kết quả. Giữ những chữ nhỏ ấy là một cách giữ sự chính xác của cả lời kể."
+          ]
+        }
+      ]
+    }
+  }
+}
