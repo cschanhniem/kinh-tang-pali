@@ -1,0 +1,1764 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn75",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn75_root-pli-ms.json",
+      "sha256": "c6115726fb5bc5ba45ffc1f90f6c47d0d1e0af15cdc958a31882ccac9bbdb779",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn75_translation-en-sujato.json",
+      "sha256": "5b7d1f3f9e41aafabc5cecd9309091a5ffbbd2173cc92cd9829efdaa338bac79",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn75_translation-vi-project.json",
+      "sha256": "7a9ccf178d6efee439ad6c7d703ce0960414561ff30fda913fc7737be05da549",
+      "commit": "255b606e1f9e7c3b7050b9f2f298d23fdca97c4a"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn75.html",
+      "sha256": "430df8c0d22618730789e9b182d23d8ead83f5da065454a503612ea907b8b845",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn75_comment-vi-project.json",
+      "sha256": "ad5fab3a79cf5d205c78f7f7907727159034499308b9cbd773ec7464022a7ec3",
+      "commit": "255b606e1f9e7c3b7050b9f2f298d23fdca97c4a"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Tên bài",
+      "segments": [
+        "mn75:0.1",
+        "mn75:0.2"
+      ],
+      "summary": "Trung Bộ 75, Māgaṇḍiyasutta, Kinh Māgaṇḍiya."
+    },
+    {
+      "id": "setting",
+      "title": "Lời đã nghe và tấm trải cỏ",
+      "segments": [
+        "mn75:1.1",
+        "mn75:1.2"
+      ],
+      "summary": "Người truyền kinh đã nghe: Phật ở xứ Kurū, thị trấn Kammāsadhamma, trên tấm trải cỏ trong phòng lửa của bà-la-môn họ Bhāradvāja."
+    },
+    {
+      "id": "morning",
+      "title": "Khất thực rồi vào rừng",
+      "segments": [
+        "mn75:2.1",
+        "mn75:2.2",
+        "mn75:2.3"
+      ],
+      "summary": "Sáng đắp y, mang bát và y vào thị trấn khất thực; sau bữa ăn trở về, đi sâu vào một khu rừng, ngồi gốc cây để an trú ban ngày."
+    },
+    {
+      "id": "mat",
+      "title": "Du sĩ hỏi chỗ nằm của ai",
+      "segments": [
+        "mn75:3.1",
+        "mn75:3.2",
+        "mn75:3.3",
+        "mn75:3.4"
+      ],
+      "summary": "Māgaṇḍiya đi bách bộ tới phòng lửa, thấy tấm trải cỏ soạn sẵn, hỏi Bhāradvāja dành cho ai, đoán hợp chỗ nằm sa-môn."
+    },
+    {
+      "id": "reputation",
+      "title": "Danh tiếng của Gotama",
+      "segments": [
+        "mn75:4.1",
+        "mn75:4.2",
+        "mn75:4.3",
+        "mn75:4.4"
+      ],
+      "summary": "Bhāradvāja nói dành cho Gotama, người Sakya xuất gia từ Sakya, nổi danh Thế Tôn/A-la-hán/Chánh Đẳng Giác/minh hạnh đầy đủ/Thiện Thệ/biết thế gian/dẫn đường vô thượng người cần điều phục/thầy trời người/Giác Ngộ/Thế Tôn."
+    },
+    {
+      "id": "insult",
+      "title": "Lời chỉ trích hai lần",
+      "segments": [
+        "mn75:5.1",
+        "mn75:5.2",
+        "mn75:5.3"
+      ],
+      "summary": "Māgaṇḍiya hai lần than cảnh chẳng lành khi thấy chỗ nằm của Gotama, gọi Ngài bhūnahu, theo ngữ cảnh là kẻ phá hoại sự tăng trưởng."
+    },
+    {
+      "id": "caution",
+      "title": "Bhāradvāja nhắc giữ lời",
+      "segments": [
+        "mn75:5.4",
+        "mn75:5.5",
+        "mn75:5.6"
+      ],
+      "summary": "Hai lần nhắc giữ lời: nhiều trí giả quý tộc, bà-la-môn, gia chủ, sa-môn tin sâu và được huấn luyện trong chánh lý cao thượng, thiện pháp."
+    },
+    {
+      "id": "defiance",
+      "title": "Sẵn lòng nói trước mặt",
+      "segments": [
+        "mn75:5.7",
+        "mn75:5.8",
+        "mn75:5.9",
+        "mn75:5.10"
+      ],
+      "summary": "Māgaṇḍiya nói giả sử gặp trực tiếp vẫn gọi Gotama như vậy; lý do theo kinh điển truyền thống mình, cách hiểu sutte của dự án khác Sujato."
+    },
+    {
+      "id": "relay",
+      "title": "Đồng ý chuyển nguyên lời",
+      "segments": [
+        "mn75:5.11",
+        "mn75:5.12"
+      ],
+      "summary": "Bhāradvāja xin nếu không phiền sẽ trình lại Phật; Māgaṇḍiya cho cứ yên tâm nói đúng lời đã nói."
+    },
+    {
+      "id": "hearing",
+      "title": "Đức Phật nghe từ trước",
+      "segments": [
+        "mn75:6.1",
+        "mn75:6.2"
+      ],
+      "summary": "Phật nghe bằng thiên nhĩ thanh tịnh vượt người. Chiều ra khỏi thiền tịnh, trở về phòng lửa, ngồi tấm trải cỏ."
+    },
+    {
+      "id": "brahmin",
+      "title": "Lời hỏi trước khi được trình báo",
+      "segments": [
+        "mn75:6.3",
+        "mn75:6.4",
+        "mn75:6.5",
+        "mn75:6.6",
+        "mn75:6.7",
+        "mn75:6.8"
+      ],
+      "summary": "Bhāradvāja tới chào thân thiện, ngồi một bên. Phật hỏi có đàm luận với Māgaṇḍiya về chính tấm trải cỏ không. Ông kinh ngạc/rợn tóc gáy, nói đang định trình mà Phật đã nói trước khi ông báo."
+    },
+    {
+      "id": "arrival",
+      "title": "Māgaṇḍiya đến khi chuyện chưa xong",
+      "segments": [
+        "mn75:7.1",
+        "mn75:7.2",
+        "mn75:7.3"
+      ],
+      "summary": "Cuộc nói chuyện chưa hoàn tất, Māgaṇḍiya đang bách bộ tới phòng lửa gặp Phật, chào hỏi thân thiện, ngồi một bên."
+    },
+    {
+      "id": "eye",
+      "title": "Mắt và lời giải thích nhãn chỉ trích",
+      "segments": [
+        "mn75:8.1",
+        "mn75:8.2",
+        "mn75:8.3",
+        "mn75:8.4",
+        "mn75:8.5",
+        "mn75:8.6",
+        "mn75:8.7",
+        "mn75:8.8"
+      ],
+      "summary": "Mắt yêu thích/đắm say/vui mừng sắc; Như Lai điều phục/phòng hộ/bảo vệ/thu thúc và dạy thu thúc. Phật hỏi đó có phải điều ám chỉ lời bhūnahu; Māgaṇḍiya xác nhận và viện kinh điển truyền thống."
+    },
+    {
+      "id": "ear-tongue",
+      "title": "Tai, mũi, lưỡi cùng cách hỏi",
+      "segments": [
+        "mn75:8.9",
+        "mn75:8.10",
+        "mn75:8.11",
+        "mn75:8.12",
+        "mn75:8.13",
+        "mn75:8.14",
+        "mn75:8.15",
+        "mn75:8.16",
+        "mn75:8.17",
+        "mn75:8.18"
+      ],
+      "summary": "Tai với thanh, mũi với hương, lưỡi với vị, cùng ba thích thú và bốn cách thu thúc; lời Phật dạy thu thúc, câu hỏi, lời xác nhận và lý do kinh điển như trên. Tai/mũi lược, lưỡi triển khai."
+    },
+    {
+      "id": "body-mind",
+      "title": "Thân, ý cùng cách hỏi",
+      "segments": [
+        "mn75:8.19",
+        "mn75:8.20",
+        "mn75:8.21",
+        "mn75:8.22",
+        "mn75:8.23",
+        "mn75:8.24",
+        "mn75:8.25",
+        "mn75:8.26",
+        "mn75:8.27"
+      ],
+      "summary": "Thân với xúc, ý với pháp, cùng ba thích thú và bốn cách thu thúc; Phật dạy thu thúc, hỏi về lời chỉ trích; Māgaṇḍiya xác nhận chính điều đó và viện kinh điển. Thân lược, ý đầy đủ."
+    },
+    {
+      "id": "sights",
+      "title": "Người đã hiểu và hết khát về sắc",
+      "segments": [
+        "mn75:9.1",
+        "mn75:9.2",
+        "mn75:9.3",
+        "mn75:9.4"
+      ],
+      "summary": "Giả sử trước hưởng sắc mắt biết có sáu nét đáng muốn/đáng yêu/vừa lòng/đẹp lòng/gắn dục/gây đắm. Sau biết như thật sinh/diệt/vị ngọt/nguy hại/lối thoát, bỏ sắc ái/xua nóng bỏng, hết khát/tâm an tịnh nội tại. Hỏi nói gì; Māgaṇḍiya đáp không có gì."
+    },
+    {
+      "id": "other-objects",
+      "title": "Bốn đối tượng giác quan còn lại",
+      "segments": [
+        "mn75:9.5",
+        "mn75:9.6",
+        "mn75:9.7",
+        "mn75:9.8",
+        "mn75:9.9",
+        "mn75:9.10",
+        "mn75:9.11",
+        "mn75:9.12"
+      ],
+      "summary": "Cùng trường hợp cho thanh tai, hương mũi, vị lưỡi, xúc thân, đủ sáu nét và năm mặt biết, bỏ ái/xua nóng/hết khát/an tịnh; hỏi và đáp không có gì. Đây là năm đối tượng giác quan, không tự thêm ý."
+    },
+    {
+      "id": "luxury",
+      "title": "Đời sống trước xuất gia",
+      "segments": [
+        "mn75:10.1",
+        "mn75:10.2",
+        "mn75:10.3",
+        "mn75:10.4",
+        "mn75:10.5",
+        "mn75:10.6",
+        "mn75:10.7"
+      ],
+      "summary": "Phật tự kể khi tại gia hưởng đầy đủ năm dục sắc/thanh/hương/vị/xúc với sáu nét ấy; ba lâu đài mùa mưa/đông/hè, bốn tháng mùa mưa chỉ nhạc công nữ, không xuống tầng dưới."
+    },
+    {
+      "id": "greater-joy",
+      "title": "Hiểu các dục và niềm vui vượt trời",
+      "segments": [
+        "mn75:10.8",
+        "mn75:10.9",
+        "mn75:10.10",
+        "mn75:10.11",
+        "mn75:10.12",
+        "mn75:10.13",
+        "mn75:10.14"
+      ],
+      "summary": "Phật biết năm mặt dục, bỏ ái/xua nóng, hết khát/an tịnh. Thấy người chưa ly tham bị ái cắn/ nóng thiêu vẫn hưởng, không ao ước và không vui trong đó. Vì hoan lạc xa dục/bất thiện vượt cả thiên lạc, vui trong ấy nên không ao ước hay vui với thấp kém."
+    },
+    {
+      "id": "heaven",
+      "title": "Ví dụ người giàu tái sinh trời",
+      "segments": [
+        "mn75:11.1",
+        "mn75:11.2",
+        "mn75:11.3",
+        "mn75:11.4",
+        "mn75:11.5"
+      ],
+      "summary": "Gia chủ hoặc con gia chủ giàu nhiều tài sản hưởng đầy đủ năm dục sáu nét; thiện thân/khẩu/ý, chết sinh cõi lành trời Ba Mươi Ba, vườn Nandana, thiên nữ quanh, đầy đủ năm thiên dục."
+    },
+    {
+      "id": "no-envy",
+      "title": "Không ao ước trở lại nhân dục",
+      "segments": [
+        "mn75:11.6",
+        "mn75:11.7",
+        "mn75:11.8",
+        "mn75:11.9",
+        "mn75:11.10"
+      ],
+      "summary": "Vị trời thấy gia chủ hoặc con hưởng năm dục; hỏi có ao ước người ấy/năm nhân dục hoặc quay lại không. Māgaṇḍiya đáp không, vì thiên dục trội hơn và vi diệu hơn."
+    },
+    {
+      "id": "refrain-heaven",
+      "title": "Liên hệ sau ví dụ trời",
+      "segments": [
+        "mn75:12.1",
+        "mn75:12.2",
+        "mn75:12.3",
+        "mn75:12.4",
+        "mn75:12.5",
+        "mn75:12.6",
+        "mn75:12.7",
+        "mn75:12.8",
+        "mn75:12.9",
+        "mn75:12.10"
+      ],
+      "summary": "Phật áp dụng đầy đủ: từng hưởng năm dục sáu nét; biết năm mặt, bỏ ái/xua nóng, hết khát/an tịnh; không ao ước/không vui theo người còn bị ái/nóng chi phối; hoan lạc xa dục/bất thiện vượt thiên lạc nên không ao ước/không vui với thấp kém."
+    },
+    {
+      "id": "leper-cured",
+      "title": "Người phong được chữa khỏi",
+      "segments": [
+        "mn75:13.1",
+        "mn75:13.2",
+        "mn75:13.3",
+        "mn75:13.4"
+      ],
+      "summary": "Người phong mụn nhọt/loét/sâu bọ, dùng móng gãi miệng vết thương và hơ thân trên hố than. Bạn bè/đồng liêu/bà con/thân quyến mời thầy thuốc giải phẫu, làm thuốc; dùng khỏi bệnh, khỏe/an vui/tự do/tự chủ/đi tùy ý."
+    },
+    {
+      "id": "leper-envy",
+      "title": "Người khỏi không ao ước bệnh và thuốc",
+      "segments": [
+        "mn75:13.5",
+        "mn75:13.6",
+        "mn75:13.7",
+        "mn75:13.8",
+        "mn75:13.9",
+        "mn75:13.10"
+      ],
+      "summary": "Thấy người khác cùng bệnh/loét/sâu bọ/gãi/hơ than. Hỏi có ao ước người ấy/hố than/dùng thuốc không. Māgaṇḍiya không; trong ví dụ có bệnh mới cần thuốc, không bệnh không cần."
+    },
+    {
+      "id": "refrain-cured",
+      "title": "Liên hệ sau ví dụ khỏi bệnh",
+      "segments": [
+        "mn75:14.1",
+        "mn75:14.2",
+        "mn75:14.3",
+        "mn75:14.4",
+        "mn75:14.5",
+        "mn75:14.6",
+        "mn75:14.7",
+        "mn75:14.8",
+        "mn75:14.9",
+        "mn75:14.10",
+        "mn75:14.11"
+      ],
+      "summary": "Lặp trọn liên hệ quá khứ năm dục sáu nét, hiểu năm mặt, bỏ ái/xua nóng, hết khát/an tịnh, thấy kẻ còn đắm ái/nóng/hưởng mà không ao ước/không vui, niềm vui xa dục/bất thiện vượt trời nên không ao ước/không vui thấp kém."
+    },
+    {
+      "id": "cure-again",
+      "title": "Nhắc lại việc chữa khỏi",
+      "segments": [
+        "mn75:15.1",
+        "mn75:15.2",
+        "mn75:15.3",
+        "mn75:15.4"
+      ],
+      "summary": "Cùng người phong loét/sâu bọ/gãi/hơ; bạn/đồng liêu/bà con/thân quyến mời thầy thuốc giải phẫu làm thuốc, khỏi bệnh và đủ khỏe/vui/tự do/tự chủ/đi tùy ý."
+    },
+    {
+      "id": "dragged",
+      "title": "Hai người kéo về hố than",
+      "segments": [
+        "mn75:15.5",
+        "mn75:15.6",
+        "mn75:15.7",
+        "mn75:15.8",
+        "mn75:15.9",
+        "mn75:15.10"
+      ],
+      "summary": "Hai người khỏe giữ riêng hai tay kéo người khỏi bệnh tới hố than; hỏi có vùng vẫy không. Māgaṇḍiya có, vì lửa xúc chạm đau, rất nóng, rất bỏng rát."
+    },
+    {
+      "id": "fire",
+      "title": "Lửa trước và nay đều đau",
+      "segments": [
+        "mn75:15.11",
+        "mn75:15.12",
+        "mn75:15.13",
+        "mn75:15.14"
+      ],
+      "summary": "Hỏi chỉ nay đau/nóng/bỏng hay trước cũng thế. Đáp cả trước và nay đủ ba; người phong đang loét/sâu bọ/gãi có căn tổn hại nên tưởng điên đảo xúc lửa khổ là lạc."
+    },
+    {
+      "id": "pleasure-pain",
+      "title": "Dục cả ba thời và tưởng đảo",
+      "segments": [
+        "mn75:16.1",
+        "mn75:16.2"
+      ],
+      "summary": "Dục quá khứ/vị lai/hiện tại đều xúc đau/rất nóng/bỏng. Người chưa ly tham bị ái cắn/nóng thiêu/căn tổn hại nhận lầm lạc trong dục vốn xúc khổ."
+    },
+    {
+      "id": "scratching",
+      "title": "Vết thương nặng hơn, chỉ chút dễ chịu",
+      "segments": [
+        "mn75:17.1",
+        "mn75:17.2"
+      ],
+      "summary": "Người phong đủ bệnh/loét/sâu bọ/gãi/hơ, càng gãi/hơ càng bẩn/hôi/mục rữa, vẫn chỉ chút dễ chịu/thỏa mãn do gãi ngứa."
+    },
+    {
+      "id": "indulging",
+      "title": "Dục ái tăng cùng hưởng thụ",
+      "segments": [
+        "mn75:17.3",
+        "mn75:17.4"
+      ],
+      "summary": "Người chưa ly tham bị ái/nóng vẫn hưởng; càng hưởng dục càng ái tăng/nóng thiêu; chỉ chút dễ chịu/thỏa mãn do năm dục trưởng dưỡng."
+    },
+    {
+      "id": "rulers",
+      "title": "Vua và đại thần vẫn phải bỏ khát",
+      "segments": [
+        "mn75:18.1",
+        "mn75:18.2",
+        "mn75:18.3",
+        "mn75:18.4",
+        "mn75:18.5"
+      ],
+      "summary": "Hỏi thấy/nghe vua hoặc đại thần hưởng trọn năm dục không bỏ ái/không xua nóng mà hết khát/an tịnh trong quá khứ/hiện tại/vị lai không. Đáp không; Phật khen và cũng chưa thấy/chưa nghe đủ trường hợp ấy."
+    },
+    {
+      "id": "three-times",
+      "title": "Mọi người tu an tịnh trong ba thời",
+      "segments": [
+        "mn75:18.6"
+      ],
+      "summary": "Tất cả sa-môn/bà-la-môn ba thời sống hết khát/an tịnh đều biết như thật năm mặt dục và bỏ ái/xua nóng rồi sống như vậy."
+    },
+    {
+      "id": "verse",
+      "title": "Bài kệ bốn ý",
+      "segments": [
+        "mn75:19.1",
+        "mn75:19.2",
+        "mn75:19.3",
+        "mn75:19.4",
+        "mn75:19.5"
+      ],
+      "summary": "Phật nói cảm hứng: không bệnh lợi tối thượng; Niết-bàn lạc tối thượng; đường tám chi tối thượng trong đường; an toàn/đến Bất tử. Không thêm chỉ một đường từ HTML."
+    },
+    {
+      "id": "familiar",
+      "title": "Māgaṇḍiya nhận ra lời quen",
+      "segments": [
+        "mn75:19.6",
+        "mn75:19.7",
+        "mn75:19.8",
+        "mn75:19.9",
+        "mn75:19.10",
+        "mn75:19.11",
+        "mn75:19.12"
+      ],
+      "summary": "Ông khen kỳ diệu/hy hữu/khéo nói hai ý đầu, đã nghe các du sĩ trước/thầy và thầy của thầy nói cùng hai ý nên cho phù hợp nhau."
+    },
+    {
+      "id": "health",
+      "title": "Lầm sức khỏe thân là Niết-bàn",
+      "segments": [
+        "mn75:19.13",
+        "mn75:19.14",
+        "mn75:19.15",
+        "mn75:19.16",
+        "mn75:19.17"
+      ],
+      "summary": "Phật hỏi không bệnh và Niết-bàn trong lời ông nghe là gì. Māgaṇḍiya dùng tay vuốt các chi, chỉ thân là cả hai, vì hiện khỏe/vui/không đau ốm."
+    },
+    {
+      "id": "blind",
+      "title": "Người mù nghe khen và tìm vải",
+      "segments": [
+        "mn75:20.1",
+        "mn75:20.2",
+        "mn75:20.3",
+        "mn75:20.4",
+        "mn75:20.5"
+      ],
+      "summary": "Mù bẩm sinh không thấy đen/trắng/xanh/vàng/đỏ/đỏ thẫm, chỗ bằng/gồ ghề, sao/trăng/trời. Nghe người thấy khen vải trắng tuyệt/đẹp/không vết/sạch, đi tìm."
+    },
+    {
+      "id": "deceit",
+      "title": "Vải thô dầu bẩn được gọi là vải trắng",
+      "segments": [
+        "mn75:20.6",
+        "mn75:20.7",
+        "mn75:20.8",
+        "mn75:20.9"
+      ],
+      "summary": "Bị người khác lừa bằng vải thô đầy dầu bẩn nói trắng/đẹp/không vết/sạch; nhận/khoác, vui nói lời khen tương ứng."
+    },
+    {
+      "id": "belief",
+      "title": "Tin mà chưa tự biết thấy",
+      "segments": [
+        "mn75:20.10",
+        "mn75:20.11",
+        "mn75:20.12",
+        "mn75:20.13",
+        "mn75:20.14"
+      ],
+      "summary": "Hỏi người ấy nhận/khoác/vui khen do biết thấy hay tin người có mắt. Māgaṇḍiya đáp không biết/không thấy, chỉ tin người có mắt."
+    },
+    {
+      "id": "wanderers",
+      "title": "Lặp kệ khi chưa thấy nghĩa",
+      "segments": [
+        "mn75:21.1",
+        "mn75:21.2"
+      ],
+      "summary": "Phật ví các du sĩ đạo khác mù/không mắt về không bệnh và Niết-bàn, chưa biết/chưa thấy nhưng vẫn đọc hai ý đầu."
+    },
+    {
+      "id": "verse-origin",
+      "title": "Toàn kệ từ các Phật quá khứ",
+      "segments": [
+        "mn75:21.3",
+        "mn75:21.4",
+        "mn75:21.5",
+        "mn75:21.6",
+        "mn75:21.7",
+        "mn75:21.8"
+      ],
+      "summary": "Các A-la-hán Chánh Đẳng Giác trước nói đủ bốn ý kệ; nay dần thành kệ người phàm dùng."
+    },
+    {
+      "id": "lack-vision",
+      "title": "Năm ảnh thân khổ và thiếu Thánh nhãn",
+      "segments": [
+        "mn75:21.9",
+        "mn75:21.10",
+        "mn75:21.11"
+      ],
+      "summary": "Thân là bệnh/ung nhọt/mũi nhọn/khốn khổ/tai họa nhưng Māgaṇḍiya chỉ là không bệnh/Niết-bàn; thiếu Thánh nhãn để biết không bệnh/thấy Niết-bàn."
+    },
+    {
+      "id": "faith-one",
+      "title": "Lời tin lần đầu",
+      "segments": [
+        "mn75:22.1",
+        "mn75:22.2"
+      ],
+      "summary": "Māgaṇḍiya tin Phật có thể dạy để ông biết không bệnh, thấy Niết-bàn."
+    },
+    {
+      "id": "failed-cure",
+      "title": "Thuốc chưa làm sáng mắt",
+      "segments": [
+        "mn75:22.3",
+        "mn75:22.4",
+        "mn75:22.5",
+        "mn75:22.6",
+        "mn75:22.7",
+        "mn75:22.8",
+        "mn75:22.9",
+        "mn75:22.10"
+      ],
+      "summary": "Người mù cùng tất cả giới hạn thị giác được bạn/đồng liêu/bà con/thân quyến mời thầy thuốc giải phẫu làm thuốc; dùng mà mắt không có/không sáng. Hỏi thầy chỉ mệt/phiền chăng; đáp có."
+    },
+    {
+      "id": "failed-teaching",
+      "title": "Giả định nghe mà chưa hiểu",
+      "segments": [
+        "mn75:22.11",
+        "mn75:22.12",
+        "mn75:22.13"
+      ],
+      "summary": "Nếu Phật dạy đây không bệnh/Niết-bàn nhưng ông không biết/không thấy thì Phật mệt mỏi/phiền phức; giữ giả định, không kết luận dạy không được."
+    },
+    {
+      "id": "faith-two",
+      "title": "Lời tin lần thứ hai",
+      "segments": [
+        "mn75:23.1",
+        "mn75:23.2"
+      ],
+      "summary": "Māgaṇḍiya nhắc lại tin Phật có thể dạy để biết không bệnh/thấy Niết-bàn."
+    },
+    {
+      "id": "blind-again",
+      "title": "Lại người mù khoác vải bị lừa",
+      "segments": [
+        "mn75:23.3",
+        "mn75:23.4",
+        "mn75:23.5",
+        "mn75:23.6",
+        "mn75:23.7",
+        "mn75:23.8",
+        "mn75:23.9",
+        "mn75:23.10"
+      ],
+      "summary": "Cùng tất cả giới hạn thị giác, nghe khen vải trắng tuyệt/đẹp/không vết/sạch, đi tìm, bị lừa vải thô dầu bẩn gọi trắng/đẹp/không vết/sạch; nhận/khoác."
+    },
+    {
+      "id": "successful-cure",
+      "title": "Năm cách trị được kể trong ví dụ cổ",
+      "segments": [
+        "mn75:23.11",
+        "mn75:23.12",
+        "mn75:23.13",
+        "mn75:23.14"
+      ],
+      "summary": "Bạn/đồng liêu/bà con/thân quyến mời thầy thuốc giải phẫu; thuốc nôn/tẩy/bôi/tra mắt/đường mũi; dùng thì mắt có và sáng rõ. Đây là cách kể ví dụ, không chỉ dẫn chữa bệnh."
+    },
+    {
+      "id": "cloth-released",
+      "title": "Thấy vải thật và người lừa",
+      "segments": [
+        "mn75:23.15",
+        "mn75:23.16",
+        "mn75:23.17",
+        "mn75:23.18"
+      ],
+      "summary": "Ngay có mắt hết tham ái vải thô dầu bẩn, thấy kẻ lừa là không bạn/là thù, có thể nghĩ giết; nghĩ lâu bị lừa/dối/dụ bằng lời trắng/đẹp/không vết/sạch. Giữ phản ứng nhân vật, không thành lời khuyên."
+    },
+    {
+      "id": "successful-teaching",
+      "title": "Có thể thấy rồi dứt tham năm uẩn",
+      "segments": [
+        "mn75:24.1",
+        "mn75:24.2",
+        "mn75:24.3",
+        "mn75:24.4"
+      ],
+      "summary": "Nếu Phật dạy không bệnh/Niết-bàn, ông có thể biết/thấy; khi nhãn khởi có thể đoạn ham muốn năm thủ uẩn."
+    },
+    {
+      "id": "aggregates",
+      "title": "Nhận ra tâm từng lừa mình",
+      "segments": [
+        "mn75:24.5",
+        "mn75:24.6",
+        "mn75:24.7"
+      ],
+      "summary": "Có thể nghĩ lâu bị tâm lừa dối/dụ dỗ; những gì đã nắm chỉ là sắc/thọ/tưởng/hành/thức."
+    },
+    {
+      "id": "arising",
+      "title": "Chuỗi khổ bắt đầu ở chấp thủ",
+      "segments": [
+        "mn75:24.8",
+        "mn75:24.9"
+      ],
+      "summary": "Do thủ có hữu, do hữu có sinh, do sinh có già chết/sầu/bi/khổ/ưu/não; toàn khối khổ sinh như vậy. Không tự thêm các chi phía trước."
+    },
+    {
+      "id": "faith-three",
+      "title": "Muốn đứng lên khỏi sự không thấy",
+      "segments": [
+        "mn75:25.1",
+        "mn75:25.2"
+      ],
+      "summary": "Māgaṇḍiya tin Phật có thể dạy để đứng dậy khỏi chỗ ngồi mà không còn mù."
+    },
+    {
+      "id": "path",
+      "title": "Thân cận, nghe, hành rồi tự biết thấy",
+      "segments": [
+        "mn75:25.3",
+        "mn75:25.4",
+        "mn75:25.5",
+        "mn75:25.6"
+      ],
+      "summary": "Phật khuyên thân cận chân nhân; khi thân cận sẽ nghe Chánh pháp; nghe sẽ hành theo Pháp; hành sẽ tự biết/tự thấy."
+    },
+    {
+      "id": "seeing",
+      "title": "Ba ảnh khổ cùng sự diệt không dư",
+      "segments": [
+        "mn75:25.7",
+        "mn75:25.8"
+      ],
+      "summary": "Tự thấy đây bệnh/ung nhọt/mũi nhọn, đây nơi cả ba chấm dứt không dư sót."
+    },
+    {
+      "id": "cessation",
+      "title": "Chiều chấm dứt khối khổ",
+      "segments": [
+        "mn75:25.9",
+        "mn75:25.10"
+      ],
+      "summary": "Thủ diệt→hữu diệt→sinh diệt→già chết/sầu/bi/khổ/ưu/não diệt; toàn khối khổ chấm dứt."
+    },
+    {
+      "id": "praise",
+      "title": "Tán thán với đủ bốn hình ảnh",
+      "segments": [
+        "mn75:26.1",
+        "mn75:26.2",
+        "mn75:26.3"
+      ],
+      "summary": "Māgaṇḍiya tán thán hai lần; dựng vật lật/mở che/chỉ đường lạc/đèn dầu để mắt thấy sắc; Phật làm sáng Pháp nhiều cách."
+    },
+    {
+      "id": "request",
+      "title": "Quy y và xin xuất gia",
+      "segments": [
+        "mn75:26.4",
+        "mn75:26.5"
+      ],
+      "summary": "Quy y Phật/Pháp/Tăng tỳ-kheo, xin xuất gia và cụ túc giới."
+    },
+    {
+      "id": "probation",
+      "title": "Bốn tháng và khác biệt cá nhân",
+      "segments": [
+        "mn75:27.1",
+        "mn75:27.2"
+      ],
+      "summary": "Người từng tu đạo khác muốn xuất gia/cụ túc trong Pháp Luật phải thử bốn tháng; sau nếu tỳ-kheo hài lòng mới cho cả hai. Phật nhận khác biệt cá nhân."
+    },
+    {
+      "id": "willingness",
+      "title": "Tự nguyện bốn năm",
+      "segments": [
+        "mn75:27.3"
+      ],
+      "summary": "Māgaṇḍiya nhắc điều kiện bốn tháng và hài lòng, tự nguyện bốn năm; sau nếu tỳ-kheo hài lòng xin xuất gia/cụ túc thành tỳ-kheo."
+    },
+    {
+      "id": "ordination",
+      "title": "Thật sự được xuất gia",
+      "segments": [
+        "mn75:28.1"
+      ],
+      "summary": "Ông được xuất gia và cụ túc nơi Phật. Không nêu thời gian chờ hoặc miễn thử."
+    },
+    {
+      "id": "practice-life",
+      "title": "Tự chứng mục tiêu ngay hiện tại",
+      "segments": [
+        "mn75:28.2"
+      ],
+      "summary": "Không lâu sau thọ giới, sống một mình/ẩn dật/không phóng dật/nhiệt tâm/kiên quyết, sớm tự thắng trí chứng/đạt/an trú mục tiêu phạm hạnh vô thượng ngay đời này, đích đúng của xuất gia khỏi gia đình."
+    },
+    {
+      "id": "final-knowledge",
+      "title": "Bốn lời biết và A-la-hán",
+      "segments": [
+        "mn75:28.3",
+        "mn75:28.4"
+      ],
+      "summary": "Trực tiếp biết sinh tận/phạm hạnh hoàn thành/việc làm xong/không trở lại trạng thái hiện hữu này; Māgaṇḍiya thành A-la-hán."
+    },
+    {
+      "id": "ending",
+      "title": "Nhãn kết bài thứ năm",
+      "segments": [
+        "mn75:28.5"
+      ],
+      "summary": "Kinh Māgaṇḍiya, bài thứ năm trong nhóm, kết thúc."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Diễn giải dành cho trẻ em",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Chuyện bắt đầu từ một tấm trải cỏ",
+          "paragraphs": [
+            "Kinh Māgaṇḍiya được người truyền kinh kể lại với lời “tôi đã nghe”. Phật ở xứ Kurū, tại thị trấn Kammāsadhamma, trên tấm trải cỏ trong phòng lửa của một bà-la-môn họ Bhāradvāja. Bà-la-môn là người thuộc truyền thống kinh điển và nghi lễ thời ấy.",
+            "Buổi sáng, Phật đắp y, mang bát và y vào thị trấn khất thực, nhận thức ăn được cho. Sau bữa ăn, trở về từ chuyến khất thực, Ngài đi sâu vào một khu rừng và ngồi dưới gốc cây để an trú ban ngày."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting",
+            "morning"
+          ]
+        },
+        {
+          "id": "mat",
+          "kind": "teaching",
+          "heading": "Một người khách hỏi thăm",
+          "paragraphs": [
+            "Du sĩ Māgaṇḍiya, người tu đi đây đó, đang đi dạo thì đến phòng lửa. Thấy tấm trải cỏ soạn sẵn, ông hỏi dành cho ai, vì trông giống chỗ nằm của một sa-môn, người xuất gia tu hành.",
+            "Bhāradvāja nói đó là chỗ của Gotama, người dòng Sakya đã xuất gia. Ngài nổi tiếng là A-la-hán, bậc đã giải thoát; Chánh Đẳng Giác, tự giác ngộ trọn vẹn; đủ minh và hạnh, hiểu biết cùng hạnh lành; Thiện Thệ, bậc khéo đi; hiểu thế gian; người dẫn đường tối thượng cho người cần rèn luyện; Thầy của trời và người; Phật, bậc Giác Ngộ; Thế Tôn, bậc được tôn kính."
+          ],
+          "meaningUnits": [
+            "mat",
+            "reputation"
+          ]
+        },
+        {
+          "id": "criticism",
+          "kind": "teaching",
+          "heading": "Lời chê và lời nhắc giữ gìn",
+          "paragraphs": [
+            "Māgaṇḍiya hai lần than rằng đã thấy cảnh chẳng lành, vì đó là chỗ nằm của Gotama, người ông gọi là “kẻ phá hoại sự tăng trưởng”. Bhāradvāja hai lần nhắc ông giữ lời: nhiều người trí thuộc giới quý tộc, bà-la-môn, gia chủ (người chủ gia đình) và sa-môn tin sâu nơi Gotama, được Ngài hướng dẫn trong con đường cao thượng và điều lành.",
+            "Māgaṇḍiya nói dù gặp trực tiếp, ông vẫn sẽ gọi Gotama như thế, vì kinh điển của ông truyền lại vậy. Bhāradvāja hỏi có thể trình lại không. Ông đồng ý: cứ yên tâm nói đúng những gì đã nói."
+          ],
+          "meaningUnits": [
+            "insult",
+            "caution",
+            "defiance",
+            "relay"
+          ]
+        },
+        {
+          "id": "hearing",
+          "kind": "teaching",
+          "heading": "Phật đã nghe trước khi được báo",
+          "paragraphs": [
+            "Kinh kể Phật dùng thiên nhĩ thanh tịnh, khả năng nghe vượt tai người, nghe cuộc chuyện trò ấy. Chiều đến, Ngài ra khỏi thiền tịnh, trở về phòng lửa và ngồi trên tấm trải cỏ.",
+            "Bhāradvāja đến chào hỏi thân thiện rồi ngồi một bên. Phật hỏi có phải ông đã nói với Māgaṇḍiya về tấm trải này không. Ông kinh ngạc đến rợn tóc gáy: mình đang định báo, mà Phật đã nói trước. Cuộc chuyện trò chưa xong thì Māgaṇḍiya đang đi dạo tới, chào hỏi Phật và ngồi một bên."
+          ],
+          "meaningUnits": [
+            "hearing",
+            "brahmin",
+            "arrival"
+          ]
+        },
+        {
+          "id": "senses",
+          "kind": "teaching",
+          "heading": "“Phá hoại” điều gì?",
+          "paragraphs": [
+            "Phật nói mắt yêu thích, đắm say, vui mừng với hình sắc. Như Lai, danh hiệu Phật dùng để nói về mình, đã điều phục, phòng hộ, bảo vệ và thu thúc mắt; Ngài cũng dạy cách thu thúc, giữ mắt khỏi chạy theo sự mê đắm. Ngài hỏi: có phải vì vậy mà ông gọi Ta như thế? Māgaṇḍiya xác nhận chính điều đó và nhắc lại kinh điển của mình.",
+            "Tai đối với âm thanh, mũi với mùi, lưỡi với vị, thân với sự chạm xúc, ý với những điều được nghĩ đến cũng vậy. Mỗi căn đều yêu thích, đắm say, vui mừng với đối tượng; mỗi căn đều được Phật điều phục, phòng hộ, bảo vệ, thu thúc và dạy cách thu thúc. Qua các lượt hỏi, Māgaṇḍiya đều xác nhận đó là điều mình chỉ trích, vì kinh điển của mình nói như vậy."
+          ],
+          "meaningUnits": [
+            "eye",
+            "ear-tongue",
+            "body-mind"
+          ]
+        },
+        {
+          "id": "understood",
+          "kind": "teaching",
+          "heading": "Nếu người ấy đã hết khát khao thì sao?",
+          "paragraphs": [
+            "Phật hỏi về một người trước kia từng vui với cảnh sắc do mắt nhận biết, đáng muốn, đáng yêu, vừa lòng, đẹp lòng, gắn với dục và gây mê đắm. Dục ở đây là những thú vui giác quan. Về sau, người ấy hiểu đúng năm điều: cảnh sắc sinh ra thế nào, chấm dứt thế nào, có vị ngọt hấp dẫn gì, có nguy hại gì và lối thoát là gì. Người ấy bỏ khát ái, xua sự nóng bỏng vì sắc, sống hết khát khao, tâm lắng yên bên trong. Māgaṇḍiya có điều gì để nói về người ấy? Ông đáp: không có gì.",
+            "Phật hỏi cùng trường hợp ấy đối với âm thanh, mùi, vị và sự chạm xúc, có đủ sáu nét hấp dẫn vừa nêu. Sau khi biết đúng năm mặt của từng đối tượng, bỏ ái và xua nóng bỏng, người ấy hết khát khao, tâm an tịnh. Māgaṇḍiya cũng đáp không có gì để nói."
+          ],
+          "meaningUnits": [
+            "sights",
+            "other-objects"
+          ]
+        },
+        {
+          "id": "palaces",
+          "kind": "teaching",
+          "heading": "Chính Phật từng sống giữa nhiều thú vui",
+          "paragraphs": [
+            "Phật kể khi còn tại gia, Ngài hưởng đầy đủ năm dục trưởng dưỡng: hình sắc, âm thanh, mùi, vị và sự chạm xúc, với sáu nét hấp dẫn ấy. Ngài có ba lâu đài cho mùa mưa, mùa đông và mùa hè. Suốt bốn tháng mùa mưa, Ngài được các nhạc công nữ, không có người nam, giúp vui và không xuống tầng dưới.",
+            "Về sau, Ngài biết như thật sự sinh, diệt, vị ngọt, nguy hại và lối thoát của các dục; bỏ dục ái, xua nóng bỏng, hết khát khao và an tịnh nội tâm. Thấy người khác còn đắm dục, bị ái cắn xé, bị nóng bỏng thiêu đốt mà vẫn hưởng, Ngài không ao ước như họ, không vui trong đó. Có niềm vui xa dục, xa bất thiện — điều không lành — vượt cả lạc thú cõi trời. Vui trong ấy, Ngài không ao ước hay thích thú điều thấp hơn."
+          ],
+          "meaningUnits": [
+            "luxury",
+            "greater-joy"
+          ]
+        },
+        {
+          "id": "heaven",
+          "kind": "teaching",
+          "heading": "Ví dụ trong kinh: từ nhân gian lên cõi trời",
+          "paragraphs": [
+            "Một gia chủ hoặc người con nhà ấy rất giàu, hưởng trọn năm thú vui giác quan với các nét hấp dẫn đã kể. Người ấy làm lành bằng thân, lời nói và ý nghĩ. Khi chết, người ấy sinh cõi lành, ở cùng các vị trời Ba Mươi Ba; trong vườn Nandana, có các thiên nữ vây quanh, hưởng đủ năm thú vui cõi trời.",
+            "Nhìn một gia chủ hay người con đang hưởng năm thú vui loài người, vị trời có ao ước người ấy, các thú vui ấy, hay muốn trở lại không? Māgaṇḍiya đáp không: thú vui cõi trời vượt trội và tinh tế hơn.",
+            "Phật nối ví dụ với mình: từng hưởng đủ năm dục, rồi biết năm mặt của chúng, bỏ ái, xua nóng bỏng, hết khát và an tịnh. Ngài không ao ước hay vui theo người còn bị ái và nóng bỏng chi phối, vì niềm vui xa dục, xa bất thiện vượt cả thiên lạc; Ngài không mong hay vui với điều thấp hơn."
+          ],
+          "meaningUnits": [
+            "heaven",
+            "no-envy",
+            "refrain-heaven"
+          ]
+        },
+        {
+          "id": "cured",
+          "kind": "teaching",
+          "heading": "Ví dụ cổ: người đã khỏi bệnh",
+          "paragraphs": [
+            "Phật kể một người mắc bệnh phong, có mụn nhọt, vết loét và sâu bọ cắn. Người ấy dùng móng tay gãi vết thương, hơ thân trên hố than hồng. Bạn bè, người cùng làm việc, bà con, thân quyến mời thầy thuốc giải phẫu đến làm thuốc. Dùng thuốc, người ấy khỏi bệnh, khỏe, vui, tự do, tự chủ, có thể đi nơi mình muốn.",
+            "Người ấy thấy một người khác cũng bị bệnh, loét, sâu bọ cắn, gãi và hơ thân trên than. Người đã khỏi có ao ước người kia, hố than hồng hay việc dùng thuốc không? Māgaṇḍiya đáp không; trong ví dụ này, có bệnh mới cần thuốc, hết bệnh không còn việc ấy.",
+            "Phật lại liên hệ: từng hưởng trọn năm dục với sáu nét hấp dẫn, rồi hiểu đủ năm mặt của chúng, bỏ ái, xua nóng bỏng, hết khát và an tịnh. Ngài không ao ước, không vui theo người còn đắm dục, bị ái cắn và nóng thiêu. Niềm vui xa dục, xa bất thiện vượt cả thiên lạc khiến Ngài không ao ước hay vui với điều thấp hơn."
+          ],
+          "meaningUnits": [
+            "leper-cured",
+            "leper-envy",
+            "refrain-cured"
+          ]
+        },
+        {
+          "id": "fire",
+          "kind": "teaching",
+          "heading": "Người khỏi bệnh bị kéo về hố than",
+          "paragraphs": [
+            "Phật nhắc lại người bệnh với mụn nhọt, vết loét, sâu bọ cắn, việc gãi và hơ than; bạn bè, người cùng làm việc, bà con, thân quyến lại mời thầy thuốc giải phẫu làm thuốc. Người ấy khỏi bệnh, khỏe, vui, tự do, tự chủ, đi tùy ý. Nếu hai người khỏe, mỗi người nắm một cánh tay, kéo người ấy về hố than hồng, người ấy có vùng vẫy không? Māgaṇḍiya nói có, vì lửa đau, rất nóng, rất bỏng rát.",
+            "Phật hỏi lửa chỉ bây giờ mới như vậy, hay trước cũng thế. Ông đáp cả trước và nay đều đau, nóng, bỏng rát. Khi còn bệnh, các căn của người ấy bị tổn hại nên lầm tưởng lửa gây đau là dễ chịu.",
+            "Phật áp dụng vào các dục: trong quá khứ, tương lai và hiện tại, chúng đều có xúc chạm đau đớn, nóng bỏng, thiêu đốt. Người chưa hết tham dục, bị ái cắn xé, bị nóng bỏng đốt và các căn tổn hại, lại nhận lầm khổ là lạc."
+          ],
+          "meaningUnits": [
+            "cure-again",
+            "dragged",
+            "fire",
+            "pleasure-pain"
+          ]
+        },
+        {
+          "id": "itch",
+          "kind": "teaching",
+          "heading": "Chút dễ chịu có thể đi cùng điều tệ hơn",
+          "paragraphs": [
+            "Trong lượt ví dụ tiếp, người mắc bệnh ấy vẫn có mụn nhọt, vết loét, sâu bọ cắn và gãi, hơ than. Càng gãi và hơ, vết thương càng bẩn, hôi, mục rữa; người ấy chỉ có chút dễ chịu, chút thỏa mãn do gãi ngứa. Đây là hình ảnh trong bài kinh để soi sự nhận lầm về khổ và lạc.",
+            "Cũng vậy, người chưa buông tham dục, bị dục ái và nóng bỏng chi phối, càng hưởng dục thì khát ái càng tăng, nóng bỏng càng đốt. Tuy thế, họ vẫn có chút dễ chịu, chút thỏa mãn nhờ năm thú vui giác quan."
+          ],
+          "meaningUnits": [
+            "scratching",
+            "indulging"
+          ]
+        },
+        {
+          "id": "rulers",
+          "kind": "teaching",
+          "heading": "Giàu sang có tự làm hết khát ái không?",
+          "paragraphs": [
+            "Phật hỏi Māgaṇḍiya có thấy hay nghe vua hoặc đại thần nào hưởng đủ năm dục, không bỏ dục ái, không xua nóng bỏng, mà hết khát khao, tâm an tịnh trong quá khứ, hiện tại hay tương lai không. Ông đáp không. Phật khen câu đáp và nói Ngài cũng không thấy, không nghe trường hợp như thế.",
+            "Bất cứ sa-môn, bà-la-môn nào trong ba thời sống hết khát ái và an tịnh đều đã biết đúng năm mặt sinh, diệt, vị ngọt, nguy hại, lối thoát của dục; đã bỏ ái và xua nóng bỏng."
+          ],
+          "meaningUnits": [
+            "rulers",
+            "three-times"
+          ]
+        },
+        {
+          "id": "verse",
+          "kind": "teaching",
+          "heading": "Lời kệ và cách hiểu ban đầu",
+          "paragraphs": [
+            "Phật nói lời cảm hứng: không bệnh là lợi ích cao nhất; Niết-bàn là hạnh phúc cao nhất; trong các đường, con đường tám phần là cao nhất, an toàn, đưa đến Bất tử. Niết-bàn là sự chấm dứt khát ái và khổ; Bất tử ở đây chỉ đích giải thoát ấy.",
+            "Māgaṇḍiya khen kỳ diệu, hiếm có, khéo nói. Ông đã nghe các du sĩ trước, những bậc thầy và thầy của họ, nói hai ý đầu về không bệnh và Niết-bàn, nên cho là lời hai bên phù hợp.",
+            "Phật hỏi “không bệnh” và “Niết-bàn” ấy là gì. Māgaṇḍiya dùng tay vuốt các chi của mình: đây chính là hai điều ấy, vì ông đang khỏe, vui, chẳng đau ốm gì."
+          ],
+          "meaningUnits": [
+            "verse",
+            "familiar",
+            "health"
+          ]
+        },
+        {
+          "id": "cloth",
+          "kind": "teaching",
+          "heading": "Ví dụ cổ: nghe nói vải trắng rất đẹp",
+          "paragraphs": [
+            "Một người mù từ lúc sinh không thấy đen, trắng, xanh, vàng, đỏ, đỏ thẫm; không thấy chỗ bằng hay gồ ghề, các sao, mặt trăng, mặt trời. Nghe người sáng mắt khen vải trắng tuyệt, đẹp, không vết bẩn, sạch sẽ, người ấy đi tìm.",
+            "Có kẻ đưa tấm vải thô dính dầu bẩn và nói đó là vải trắng đẹp, không vết bẩn, sạch sẽ. Người ấy nhận, khoác lên mình và vui mừng khen như thế. Phật hỏi người ấy làm vậy vì tự biết, tự thấy hay vì tin người sáng mắt. Māgaṇḍiya đáp: không biết, không thấy; chỉ tin người kia."
+          ],
+          "meaningUnits": [
+            "blind",
+            "deceit",
+            "belief"
+          ]
+        },
+        {
+          "id": "meaning",
+          "kind": "teaching",
+          "heading": "Thuộc câu kệ chưa có nghĩa đã thấy",
+          "paragraphs": [
+            "Phật ví các du sĩ đạo khác như người mù, chưa có mắt để biết không bệnh, thấy Niết-bàn, dù vẫn đọc hai câu ấy. Toàn bài kệ bốn ý do các vị Phật trước, những bậc A-la-hán Chánh Đẳng Giác, nói ra; rồi dần thành câu người thường truyền tụng.",
+            "Ngài nhắc lại đủ ý: không bệnh là lợi cao nhất, Niết-bàn là lạc cao nhất, con đường tám phần cao nhất trong các đường, an toàn và đưa đến Bất tử. Phật ví thân với bệnh, ung nhọt, mũi nhọn, khốn khổ và tai họa, mà Māgaṇḍiya lại gọi thân ấy là không bệnh và Niết-bàn. Ông chưa có Thánh nhãn, cái thấy cao thượng để biết và thấy hai điều ấy."
+          ],
+          "meaningUnits": [
+            "wanderers",
+            "verse-origin",
+            "lack-vision"
+          ]
+        },
+        {
+          "id": "first-request",
+          "kind": "teaching",
+          "heading": "Nếu thuốc chưa làm mắt sáng",
+          "paragraphs": [
+            "Māgaṇḍiya nói mình tin Phật có thể dạy để ông biết không bệnh, thấy Niết-bàn. Phật kể tiếp về người mù có đủ những điều không thấy vừa kể. Bạn bè, người cùng làm việc, bà con, thân quyến mời thầy thuốc giải phẫu làm thuốc, nhưng dùng rồi mắt vẫn chưa có khả năng thấy, chưa sáng rõ. Thầy thuốc chỉ mệt nhọc, phiền bức chăng? Māgaṇḍiya đáp đúng.",
+            "Tương tự, nếu Phật giảng đây là không bệnh, đây là Niết-bàn, mà ông vẫn không biết, không thấy, việc ấy sẽ khiến Ngài mệt mỏi và phiền phức."
+          ],
+          "meaningUnits": [
+            "faith-one",
+            "failed-cure",
+            "failed-teaching"
+          ]
+        },
+        {
+          "id": "second-request",
+          "kind": "teaching",
+          "heading": "Nếu đôi mắt được sáng rõ",
+          "paragraphs": [
+            "Māgaṇḍiya nhắc lại lòng tin Phật có thể dạy để mình biết không bệnh, thấy Niết-bàn. Phật trở lại người mù với tất cả giới hạn thị giác ấy: nghe khen vải trắng tuyệt, đẹp, không vết, sạch, đi tìm rồi nhận và khoác tấm vải dầu bẩn bị gọi bằng những lời tốt đẹp ấy.",
+            "Trong ví dụ cổ này, bạn bè, người cùng làm việc, bà con, thân quyến mời thầy thuốc giải phẫu. Kinh kể đến thuốc gây nôn, thuốc tẩy, thuốc bôi, thuốc tra mắt và thuốc dùng qua mũi. Sau khi dùng, người ấy có thể thấy, mắt sáng rõ.",
+            "Ngay lúc thấy, ham muốn tấm vải bẩn chấm dứt. Người ấy xem kẻ lừa mình là người thù, không phải bạn, thậm chí có thể nghĩ giết kẻ ấy: bấy lâu đã bị lừa dối, lừa gạt, dụ dỗ bằng lời “vải trắng đẹp, không vết, sạch”. Đó là phản ứng của nhân vật trong ví dụ; phần tiếp theo nói về buông sự bám giữ trong tâm."
+          ],
+          "meaningUnits": [
+            "faith-two",
+            "blind-again",
+            "successful-cure",
+            "cloth-released"
+          ]
+        },
+        {
+          "id": "aggregates",
+          "kind": "teaching",
+          "heading": "Điều đã bị nắm giữ bấy lâu",
+          "paragraphs": [
+            "Phật nói: nếu Ngài dạy, Māgaṇḍiya có thể biết không bệnh, thấy Niết-bàn. Khi cái thấy ấy sinh, ham muốn đối với năm thủ uẩn có thể được bỏ. Năm nhóm bị nắm giữ ấy là sắc, thân và hình chất; thọ, cảm giác; tưởng, sự nhận biết; hành, các tạo tác tâm; thức, sự biết đối tượng.",
+            "Ông có thể nhận ra bấy lâu bị tâm lừa dối, lừa gạt, dụ dỗ: những gì mình đã nắm giữ chỉ là sắc, thọ, tưởng, hành, thức. Do chấp thủ có hữu, sự hiện hữu tiếp nối; do hữu có sinh, tức tái sinh; do sinh có già chết, buồn sầu, than khóc, đau khổ, ưu phiền và bức bối. Như vậy cả khối khổ sinh lên."
+          ],
+          "meaningUnits": [
+            "successful-teaching",
+            "aggregates",
+            "arising"
+          ]
+        },
+        {
+          "id": "path",
+          "kind": "teaching",
+          "heading": "Từ nghe đến tự biết, tự thấy",
+          "paragraphs": [
+            "Lần thứ ba, Māgaṇḍiya tin Phật có thể dạy để mình đứng dậy khỏi chỗ này mà không còn “mù” về điều đang được chỉ dạy. Phật khuyên ông gần gũi các bậc chân nhân, những người sống chân chính. Nhờ đó ông sẽ nghe Chánh pháp; nghe rồi thực hành theo Pháp; thực hành rồi tự mình biết và thấy.",
+            "Ông sẽ thấy đây là bệnh, ung nhọt, mũi nhọn; đây là nơi chúng chấm dứt không còn dư sót. Khi chấp thủ chấm dứt, hữu chấm dứt; hữu hết thì sinh hết; sinh hết thì già chết, buồn sầu, than khóc, đau khổ, ưu phiền, bức bối chấm dứt. Toàn khối khổ chấm dứt như vậy."
+          ],
+          "meaningUnits": [
+            "faith-three",
+            "path",
+            "seeing",
+            "cessation"
+          ]
+        },
+        {
+          "id": "ordination",
+          "kind": "teaching",
+          "heading": "Lời xin được học và sống theo Pháp",
+          "paragraphs": [
+            "Māgaṇḍiya hai lần tán thán tuyệt vời: như dựng vật bị lật, mở điều bị che, chỉ đường người lạc, thắp đèn dầu để người có mắt thấy hình sắc, Phật đã làm rõ Pháp bằng nhiều cách. Ông quy y Phật, Pháp, Tăng đoàn tỳ-kheo, những người nam xuất gia, rồi xin xuất gia và thọ cụ túc giới, thọ giới đầy đủ để thành tỳ-kheo.",
+            "Phật nói người từng tu đạo khác muốn xuất gia, thọ cụ túc trong Pháp và Luật phải trải qua bốn tháng thử thách; sau đó, nếu các tỳ-kheo hài lòng, mới được xuất gia và thọ cụ túc. Ngài cũng nhận biết khác biệt từng người. Māgaṇḍiya nói nếu cần bốn tháng như vậy thì ông sẵn lòng bốn năm; sau bốn năm, nếu các vị hài lòng, xin cho ông xuất gia, thọ giới. Kinh kể ông được xuất gia và thọ cụ túc nơi Phật."
+          ],
+          "meaningUnits": [
+            "praise",
+            "request",
+            "probation",
+            "willingness",
+            "ordination"
+          ]
+        },
+        {
+          "id": "done",
+          "kind": "teaching",
+          "heading": "Tự mình đi đến đích",
+          "paragraphs": [
+            "Không lâu sau thọ giới, Māgaṇḍiya sống một mình, xa vướng bận, không buông lung, nhiệt tâm, kiên quyết. Chẳng bao lâu, ngay đời này, ông tự chứng biết, đạt và an trú mục tiêu cao nhất của đời phạm hạnh, đời tu thanh tịnh. Đó là đích mà người chân chính rời gia đình sống xuất gia hướng đến.",
+            "Ông trực tiếp biết: tái sinh đã chấm dứt, đời phạm hạnh hoàn thành, việc cần làm đã làm, không còn trở lại trạng thái hiện hữu này. Māgaṇḍiya trở thành A-la-hán. Kinh Māgaṇḍiya, bài thứ năm trong nhóm kinh này, kết thúc."
+          ],
+          "meaningUnits": [
+            "practice-life",
+            "final-knowledge",
+            "ending"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: thêm một màn chơi nữa",
+          "paragraphs": [
+            "Em thắng một màn chơi và thấy vui, rồi lập tức muốn thắng thêm. Chơi càng lâu, em càng bồn chồn nếu phải dừng. Niềm vui nhỏ có thật trong trải nghiệm ấy, nhưng mong muốn cũng đang lớn lên. Ví dụ này giúp nhìn cùng lúc chút thỏa mãn và sự đòi hỏi ngày càng nhiều."
+          ],
+          "meaningUnits": [
+            "indulging"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: quan sát một lần muốn thêm",
+          "paragraphs": [
+            "Với một thú vui quen thuộc, em thử dừng một nhịp trước khi làm tiếp. Tự hỏi điều gì hấp dẫn mình, mong muốn đang tăng hay dịu, việc làm tiếp có khiến mình bồn chồn hơn không. Sau đó chọn một việc phù hợp khác và quan sát tâm. Đây là một bước nhỏ học nhìn kỹ điều mình trải nghiệm."
+          ],
+          "meaningUnits": [
+            "sights",
+            "other-objects",
+            "indulging",
+            "path"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Diễn giải dành cho người trưởng thành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Tấm trải cỏ trong phòng lửa",
+          "paragraphs": [
+            "Người truyền Kinh Māgaṇḍiya nói đã nghe câu chuyện này. Phật đang trú tại thị trấn Kammāsadhamma của xứ Kurū, trên tấm trải cỏ trong phòng lửa của một bà-la-môn họ Bhāradvāja, người thuộc truyền thống kinh điển và nghi lễ.",
+            "Sáng hôm ấy, Ngài đắp y, mang bát và y vào thị trấn khất thực. Sau bữa ăn, trở về từ khất thực, Ngài vào sâu một khu rừng, ngồi gốc cây an trú ban ngày. Du sĩ Māgaṇḍiya, người tu du hành, đi bách bộ tới phòng lửa, thấy tấm trải cỏ và hỏi dành cho ai; ông cho là hợp chỗ nằm một sa-môn, người xuất gia tu hành."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting",
+            "morning",
+            "mat"
+          ]
+        },
+        {
+          "id": "reputation",
+          "kind": "teaching",
+          "heading": "Hai cách nhìn về Gotama",
+          "paragraphs": [
+            "Bhāradvāja nói chỗ ấy dành cho Gotama, người Sakya xuất gia từ dòng Sakya. Tiếng tốt của Ngài được truyền: A-la-hán, bậc giải thoát; Chánh Đẳng Giác, tự giác ngộ hoàn toàn; đầy đủ minh và hạnh, hiểu biết cùng hạnh lành; Thiện Thệ, bậc khéo đi; hiểu thế gian; người dẫn đường tối thượng cho người cần điều phục; Thầy của trời và người; Phật, bậc Giác Ngộ; Thế Tôn, bậc tôn kính.",
+            "Māgaṇḍiya hai lần than cảnh chẳng lành khi thấy chỗ nằm của người ông gọi là “kẻ phá hoại sự tăng trưởng”. Bhāradvāja hai lần bảo giữ lời. Nhiều trí giả thuộc quý tộc, bà-la-môn, gia chủ (người chủ gia đình) và sa-môn tin sâu nơi Gotama, được hướng dẫn trong chánh lý cao thượng, thiện pháp."
+          ],
+          "meaningUnits": [
+            "reputation",
+            "insult",
+            "caution"
+          ]
+        },
+        {
+          "id": "report",
+          "kind": "teaching",
+          "heading": "Lời sẵn sàng nói trước mặt",
+          "paragraphs": [
+            "Māgaṇḍiya nói ngay nếu gặp mặt, ông cũng gọi Gotama như thế, vì kinh điển của mình truyền lại vậy. Bhāradvāja xin phép thuật lại; ông đồng ý cho nói đúng lời đã nói.",
+            "Phật nghe cuộc đàm luận bằng thiên nhĩ thanh tịnh vượt tai người. Buổi chiều, ra khỏi thiền tịnh, Ngài về phòng lửa, ngồi tấm trải cỏ. Bhāradvāja đến chào thân thiện, ngồi một bên; Phật hỏi chuyện với Māgaṇḍiya về tấm trải. Ông kinh ngạc, rợn tóc gáy: đang định báo thì Phật đã nói trước. Chuyện chưa xong, Māgaṇḍiya đang bách bộ tới, chào hỏi thân thiện rồi ngồi một bên."
+          ],
+          "meaningUnits": [
+            "defiance",
+            "relay",
+            "hearing",
+            "brahmin",
+            "arrival"
+          ]
+        },
+        {
+          "id": "restraint",
+          "kind": "teaching",
+          "heading": "Lời chỉ trích nhắm vào sự thu thúc các căn",
+          "paragraphs": [
+            "Phật nêu mắt yêu thích, đắm say và vui mừng với hình sắc. Mắt ấy đã được Như Lai — danh hiệu Ngài dùng — điều phục, phòng hộ, bảo vệ, thu thúc; Ngài dạy Pháp để thu thúc mắt. Có phải Māgaṇḍiya ám chỉ điều đó? Ông xác nhận và viện lời kinh điển của mình.",
+            "Cùng lập luận được đặt cho tai với âm thanh, mũi với mùi, lưỡi với vị, thân với sự chạm xúc và ý với pháp, những điều tâm nhận biết. Mỗi căn có đủ ba sự yêu thích, đắm say, vui mừng với đối tượng; mỗi căn được điều phục, phòng hộ, bảo vệ, thu thúc và được dạy cách thu thúc. Qua các lượt hỏi, Māgaṇḍiya đều nhận chính điều ấy là lý do mình gọi Gotama như vậy, theo kinh điển của mình."
+          ],
+          "meaningUnits": [
+            "eye",
+            "ear-tongue",
+            "body-mind"
+          ]
+        },
+        {
+          "id": "understanding",
+          "kind": "teaching",
+          "heading": "Trường hợp đã hiểu rõ và hết khát",
+          "paragraphs": [
+            "Phật đưa giả định: một người từng vui với sắc do mắt biết, đáng muốn, đáng yêu, vừa lòng, đẹp lòng, gắn với dục và gây mê đắm. Dục là những thú vui giác quan. Sau đó, người ấy biết như thật sự sinh khởi, chấm dứt, vị ngọt, nguy hại và lối thoát của sắc; bỏ ái đối với sắc, xua nóng bỏng, sống hết khát khao, tâm an tịnh bên trong. Māgaṇḍiya có gì để nói? Ông đáp không có gì.",
+            "Câu hỏi được mở sang thanh do tai, hương do mũi, vị do lưỡi và xúc do thân biết. Mỗi loại cũng có sáu nét hấp dẫn ấy. Khi hiểu đủ năm mặt của từng đối tượng, bỏ ái và xua nóng bỏng, người ấy hết khát, an tịnh nội tâm. Māgaṇḍiya lại đáp không có gì để nói."
+          ],
+          "meaningUnits": [
+            "sights",
+            "other-objects"
+          ]
+        },
+        {
+          "id": "former-life",
+          "kind": "teaching",
+          "heading": "Kinh nghiệm trước và sau khi buông dục",
+          "paragraphs": [
+            "Phật kể khi còn tại gia, Ngài được cung cấp đầy đủ năm dục trưởng dưỡng: hình sắc, âm thanh, mùi, vị và sự chạm xúc mang sáu nét hấp dẫn vừa nói. Ba lâu đài dành cho mùa mưa, mùa đông, mùa hè; bốn tháng mùa mưa có nhạc công hoàn toàn nữ giúp vui, Ngài không xuống tầng dưới.",
+            "Về sau, hiểu đúng năm mặt sinh, diệt, vị ngọt, nguy hại, lối thoát của dục, Ngài bỏ dục ái, xua nóng bỏng, hết khát khao, tâm an tịnh. Thấy chúng sinh còn tham dục, bị ái cắn xé, nóng bỏng thiêu đốt mà vẫn hưởng dục, Ngài không ao ước họ, không thích thú trong đó. Niềm vui xa dục, xa pháp bất thiện, tức điều không lành, vượt cả lạc thú cõi trời. Vui trong ấy, Ngài không ao ước hay thích thú điều thấp hơn."
+          ],
+          "meaningUnits": [
+            "luxury",
+            "greater-joy"
+          ]
+        },
+        {
+          "id": "heaven",
+          "kind": "teaching",
+          "heading": "Ví dụ về một mức vui vượt hơn",
+          "paragraphs": [
+            "Giả sử gia chủ hoặc người con của gia chủ giàu có, nhiều tài sản, hưởng trọn năm dục với các nét ấy. Nhờ làm lành bằng thân, lời và ý, sau khi chết, người ấy sinh cõi lành, cùng chư thiên Ba Mươi Ba. Trong vườn Nandana, được thiên nữ vây quanh, người ấy hưởng đủ năm dục cõi trời.",
+            "Vị trời nhìn gia chủ hoặc người con đang hưởng năm dục nhân gian: có ao ước người ấy, năm dục ấy, hay quay trở lại không? Māgaṇḍiya đáp không, vì dục cõi trời trội hơn và tinh tế hơn.",
+            "Phật nhắc đầy đủ sự chuyển đổi của mình: từ hưởng trọn năm dục đến biết năm mặt của chúng, bỏ ái, xua nóng bỏng, hết khát và an tịnh. Ngài không ao ước, không vui theo người còn bị ái và nóng bỏng chi phối. Niềm vui xa dục, xa bất thiện vượt cả thiên lạc khiến Ngài không mong hay thích thú điều thấp hơn."
+          ],
+          "meaningUnits": [
+            "heaven",
+            "no-envy",
+            "refrain-heaven"
+          ]
+        },
+        {
+          "id": "healed",
+          "kind": "teaching",
+          "heading": "Ví dụ cổ: khỏi bệnh rồi không ao ước lại",
+          "paragraphs": [
+            "Một người bệnh phong có mụn nhọt, vết loét, bị sâu bọ cắn, dùng móng cào vết thương và hơ thân trên hố than hồng. Bạn bè, đồng liêu, bà con, thân quyến mời thầy thuốc giải phẫu làm thuốc. Dùng thuốc, người ấy khỏi phong, khỏe, vui, tự do, tự chủ, đi nơi muốn đi.",
+            "Thấy người khác đang cùng tình trạng bệnh, loét, sâu bọ cắn, cào gãi, hơ than, người đã khỏi có ao ước người ấy, hố than hồng hay việc dùng thuốc không? Māgaṇḍiya đáp không; trong ví dụ, có bệnh cần thuốc, hết bệnh không còn cần việc ấy.",
+            "Phật áp dụng một lần nữa: từng hưởng trọn năm dục với sáu nét hấp dẫn, rồi biết năm mặt của chúng, bỏ ái, xua nóng bỏng, hết khát và an tịnh. Ngài không ao ước, không thích thú theo những người còn tham dục, bị ái cắn xé, nóng bỏng thiêu đốt. Niềm vui xa dục, xa bất thiện vượt thiên lạc khiến Ngài không ao ước hay vui trong điều thấp hơn."
+          ],
+          "meaningUnits": [
+            "leper-cured",
+            "leper-envy",
+            "refrain-cured"
+          ]
+        },
+        {
+          "id": "coals",
+          "kind": "teaching",
+          "heading": "Hai người kéo người đã khỏi bệnh đến lửa",
+          "paragraphs": [
+            "Phật nhắc lại người phong với mụn nhọt, vết loét, sâu bọ cắn, cào gãi và hơ than; bạn bè, đồng liêu, bà con, thân quyến mời thầy thuốc giải phẫu làm thuốc, giúp khỏi bệnh, khỏe, vui, tự do, tự chủ, đi tùy ý. Bây giờ hai người khỏe, mỗi người nắm một cánh tay, kéo người ấy về hố than hồng. Người ấy có vùng vẫy không? Māgaṇḍiya đáp có, vì lửa xúc chạm đau đớn, rất nóng, rất bỏng rát.",
+            "Lửa chỉ mới đau như vậy hay trước đã thế? Ông đáp cả trước lẫn nay đều đau, nóng, bỏng rát. Khi còn bệnh, các căn bị tổn hại nên người ấy có tưởng đảo ngược, nhận sự chạm lửa vốn đau là lạc."
+          ],
+          "meaningUnits": [
+            "cure-again",
+            "dragged",
+            "fire"
+          ]
+        },
+        {
+          "id": "distortion",
+          "kind": "teaching",
+          "heading": "Cái nhìn bị khát ái chi phối",
+          "paragraphs": [
+            "Phật nói dục trong quá khứ, tương lai, hiện tại đều có xúc chạm đau đớn, nóng bỏng, thiêu đốt. Chúng sinh chưa ly tham, bị dục ái cắn xé, nóng bỏng thiêu đốt, các căn bị tổn hại, lại nhận lầm khổ là lạc.",
+            "Trong lượt ví dụ nữa, người phong vẫn có mụn nhọt, loét, sâu bọ cắn, dùng móng gãi và hơ thân trên than. Càng gãi, hơ, vết thương càng bẩn, hôi, mục rữa; chỉ có chút dễ chịu, chút thỏa mãn do gãi ngứa. Tương tự, người chưa ly tham, bị ái và nóng chi phối, càng hưởng dục thì ái càng tăng và nóng bỏng càng đốt. Họ vẫn có chút dễ chịu, chút thỏa mãn do năm dục."
+          ],
+          "meaningUnits": [
+            "pleasure-pain",
+            "scratching",
+            "indulging"
+          ]
+        },
+        {
+          "id": "rulers",
+          "kind": "teaching",
+          "heading": "An tịnh không đi cùng khát ái chưa bỏ",
+          "paragraphs": [
+            "Phật hỏi Māgaṇḍiya đã thấy hay nghe vua hoặc đại thần nào hưởng đủ năm dục mà không bỏ dục ái, không xua nóng bỏng, vẫn sống hết khát và an tịnh nội tâm trong quá khứ, hiện tại hay tương lai chưa. Ông đáp chưa. Phật tán thành, nói Ngài cũng chưa thấy, chưa nghe trường hợp ấy.",
+            "Tất cả sa-môn, bà-la-môn trong ba thời sống hết khát và an tịnh đều đã biết như thật năm mặt sinh, diệt, vị ngọt, nguy hại, lối thoát của dục; đã bỏ ái, xua nóng bỏng rồi sống như vậy."
+          ],
+          "meaningUnits": [
+            "rulers",
+            "three-times"
+          ]
+        },
+        {
+          "id": "verse",
+          "kind": "teaching",
+          "heading": "Bốn ý của bài kệ",
+          "paragraphs": [
+            "Phật nói lời cảm hứng: không bệnh là lợi ích tối thượng; Niết-bàn là hạnh phúc tối thượng; con đường tám phần tối thượng trong các đường, an toàn và đưa đến Bất tử. Niết-bàn là sự chấm dứt khát ái, khổ; Bất tử ở đây nói về đích giải thoát ấy.",
+            "Māgaṇḍiya khen kỳ diệu, hy hữu, khéo nói. Ông nhận ra hai ý đầu từng nghe từ các du sĩ trước, các bậc thầy và thầy của họ, cho rằng lời hai bên phù hợp. Phật hỏi không bệnh và Niết-bàn trong lời ấy là gì. Ông vuốt các chi bằng tay, chỉ thân mình: đây là cả hai, vì mình hiện khỏe mạnh, an vui, không đau ốm."
+          ],
+          "meaningUnits": [
+            "verse",
+            "familiar",
+            "health"
+          ]
+        },
+        {
+          "id": "cloth",
+          "kind": "teaching",
+          "heading": "Tin lời mô tả và tự thấy là hai việc",
+          "paragraphs": [
+            "Phật kể một người mù bẩm sinh không thấy đen, trắng, xanh, vàng, đỏ, đỏ thẫm; không thấy mặt đất bằng hay gồ ghề, sao, trăng, mặt trời. Nghe người sáng mắt khen vải trắng tuyệt, đẹp, không vết, sạch, người ấy đi tìm.",
+            "Một người lừa bằng tấm vải thô dính dầu bẩn, gọi nó là vải trắng đẹp, không vết, sạch. Người mù nhận, khoác lên mình, vui mừng khen như vậy. Phật hỏi họ làm vậy do biết, thấy, hay tin người có mắt. Māgaṇḍiya đáp không biết, không thấy, chỉ tin người có mắt."
+          ],
+          "meaningUnits": [
+            "blind",
+            "deceit",
+            "belief"
+          ]
+        },
+        {
+          "id": "reciting",
+          "kind": "teaching",
+          "heading": "Lời được truyền và nghĩa chưa được thấy",
+          "paragraphs": [
+            "Phật ví các du sĩ đạo khác là mù, không mắt trong việc biết không bệnh, thấy Niết-bàn, dù vẫn đọc hai câu ấy. Toàn bài kệ do các vị Phật quá khứ, những bậc A-la-hán Chánh Đẳng Giác, nói ra: không bệnh là lợi tối thượng; Niết-bàn là lạc tối thượng; con đường tám phần tối thượng trong các đường, an toàn, đến Bất tử. Dần dần, nó thành lời người thường truyền tụng.",
+            "Thân là bệnh, ung nhọt, mũi nhọn, khốn khổ, tai họa; Māgaṇḍiya lại gọi chính thân đó là không bệnh và Niết-bàn. Ông thiếu Thánh nhãn, cái thấy cao thượng để biết không bệnh và thấy Niết-bàn."
+          ],
+          "meaningUnits": [
+            "wanderers",
+            "verse-origin",
+            "lack-vision"
+          ]
+        },
+        {
+          "id": "failed",
+          "kind": "teaching",
+          "heading": "Khả năng nghe mà chưa nhận ra",
+          "paragraphs": [
+            "Māgaṇḍiya tin Phật có thể dạy để ông biết không bệnh, thấy Niết-bàn. Phật nêu người mù với đầy đủ các điều không thấy đã kể. Bạn bè, đồng liêu, bà con, thân quyến mời thầy thuốc giải phẫu làm thuốc; dùng thuốc nhưng mắt không có khả năng thấy, không sáng rõ. Thầy chỉ mệt nhọc, phiền bức? Māgaṇḍiya đáp đúng.",
+            "Cũng vậy, giả sử Phật chỉ đây là không bệnh, đây là Niết-bàn mà ông vẫn không biết, không thấy, việc ấy sẽ khiến Ngài mệt mỏi, phiền phức."
+          ],
+          "meaningUnits": [
+            "faith-one",
+            "failed-cure",
+            "failed-teaching"
+          ]
+        },
+        {
+          "id": "cured-eyes",
+          "kind": "teaching",
+          "heading": "Khả năng thật sự thấy ra",
+          "paragraphs": [
+            "Māgaṇḍiya lặp lại lòng tin ấy. Phật trở lại trường hợp mù bẩm sinh với đủ các giới hạn thị giác đã nêu: nghe khen vải trắng tuyệt, đẹp, không vết, sạch; đi tìm, bị lừa tấm vải dầu bẩn, nhận và khoác nó khi nghe cùng lời khen.",
+            "Trong ví dụ cổ, bạn bè, đồng liêu, bà con, thân quyến mời thầy thuốc giải phẫu, dùng thuốc nôn, thuốc tẩy, thuốc bôi, thuốc tra mắt và thuốc qua mũi. Lần này mắt được chữa, nhìn sáng rõ. Ngay khi thấy, ham muốn tấm vải dầu bẩn chấm dứt. Người ấy xem kẻ lừa mình là không phải bạn, là kẻ thù, thậm chí có thể nghĩ giết: lâu nay đã bị lừa dối, lừa gạt, dụ dỗ bằng lời vải trắng đẹp, không vết, sạch. Phản ứng ấy thuộc nhân vật trong ví dụ."
+          ],
+          "meaningUnits": [
+            "faith-two",
+            "blind-again",
+            "successful-cure",
+            "cloth-released"
+          ]
+        },
+        {
+          "id": "seeing",
+          "kind": "teaching",
+          "heading": "Buông ham muốn đối với năm thủ uẩn",
+          "paragraphs": [
+            "Phật chuyển sang việc nghe Pháp: nếu được dạy, Māgaṇḍiya có thể biết không bệnh, thấy Niết-bàn; khi cái thấy khởi lên, ham muốn năm thủ uẩn có thể được đoạn trừ. Năm nhóm bị chấp giữ là sắc, hình chất; thọ, cảm giác; tưởng, sự nhận biết; hành, các tạo tác tâm; thức, sự biết đối tượng.",
+            "Ông có thể nghĩ đã lâu bị tâm này lừa dối, lừa gạt, dụ dỗ: những gì nắm lấy chỉ là sắc, thọ, tưởng, hành, thức. Do chấp thủ có hữu, sự hiện hữu tiếp nối; do hữu có sinh, tức tái sinh; do sinh có già chết, sầu, bi — than khóc —, khổ, ưu phiền, bức bối. Đó là cách toàn khối khổ sinh khởi."
+          ],
+          "meaningUnits": [
+            "successful-teaching",
+            "aggregates",
+            "arising"
+          ]
+        },
+        {
+          "id": "practice-path",
+          "kind": "teaching",
+          "heading": "Con đường đi tới sự tự chứng",
+          "paragraphs": [
+            "Māgaṇḍiya bày tỏ lòng tin lần thứ ba: Phật có thể dạy để ông đứng dậy khỏi chỗ ngồi mà hết “mù” về điều được chỉ dạy. Phật hướng dẫn thân cận chân nhân, người chân chính. Nhờ thân cận sẽ nghe Chánh pháp; nghe sẽ thực hành đúng Pháp; thực hành sẽ tự biết, tự thấy.",
+            "Ông sẽ thấy đây là bệnh, ung nhọt, mũi nhọn; đây là nơi chúng chấm dứt không dư sót. Khi chấp thủ diệt, hữu diệt; khi hữu diệt, sinh diệt; khi sinh diệt, già chết, sầu, than khóc, khổ, ưu phiền, bức bối diệt. Đó là sự chấm dứt toàn khối khổ."
+          ],
+          "meaningUnits": [
+            "faith-three",
+            "path",
+            "seeing",
+            "cessation"
+          ]
+        },
+        {
+          "id": "going-forth",
+          "kind": "teaching",
+          "heading": "Từ lòng tin đến xin xuất gia",
+          "paragraphs": [
+            "Māgaṇḍiya hai lần tán thán tuyệt vời, ví như dựng vật lật, mở điều che, chỉ lối người lạc, thắp đèn dầu để mắt thấy hình sắc: Phật đã làm sáng Pháp bằng nhiều cách. Ông quy y Phật, Pháp, Tăng đoàn tỳ-kheo, những người nam xuất gia, xin xuất gia và thọ cụ túc giới, thọ giới đầy đủ để thành tỳ-kheo.",
+            "Phật nêu bốn tháng thử thách cho người trước tu đạo khác; sau đó, nếu tỳ-kheo hài lòng, họ cho xuất gia, thọ cụ túc trong Pháp và Luật. Ngài cũng nhận biết khác biệt cá nhân. Māgaṇḍiya nhắc lại điều kiện ấy và tình nguyện bốn năm; sau đó nếu các vị hài lòng, xin cho ông xuất gia, thọ giới. Ông được xuất gia và thọ cụ túc nơi Phật."
+          ],
+          "meaningUnits": [
+            "praise",
+            "request",
+            "probation",
+            "willingness",
+            "ordination"
+          ]
+        },
+        {
+          "id": "completion",
+          "kind": "teaching",
+          "heading": "Kết quả của việc tự mình thực hành",
+          "paragraphs": [
+            "Không lâu sau thọ giới, Māgaṇḍiya sống một mình, xa vướng bận, không phóng dật, không lơ là việc tu tập, nhiệt tâm, kiên quyết. Sớm ngay đời này, ông tự chứng bằng thắng trí, sự biết trực tiếp, đạt và an trú mục tiêu vô thượng của phạm hạnh, đời tu thanh tịnh; chính đích ấy khiến người chân chính rời gia đình sống xuất gia.",
+            "Ông trực tiếp biết: tái sinh đã chấm dứt; phạm hạnh hoàn thành; việc cần làm đã làm; không còn trở lại trạng thái hiện hữu này. Māgaṇḍiya trở thành A-la-hán. Kinh Māgaṇḍiya, bài thứ năm trong nhóm này, kết thúc."
+          ],
+          "meaningUnits": [
+            "practice-life",
+            "final-knowledge",
+            "ending"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: lần mua tiếp theo",
+          "paragraphs": [
+            "Một món hàng đem lại chút hào hứng. Ngay khi nhận hàng, ta lại mở ứng dụng tìm món khác. Mỗi lần mua giải tỏa được một chút, nhưng mong muốn vẫn lớn dần và cảm giác thiếu lại trở về. Ví dụ này đặt cạnh nhau hai điều dễ bị tách rời: chút thỏa mãn đang có và khát khao được nuôi thêm."
+          ],
+          "meaningUnits": [
+            "indulging"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: nhìn cả vị ngọt và hệ quả",
+          "paragraphs": [
+            "Chọn một lần muốn tiếp tục thú vui quen thuộc. Quan sát điều đã khơi mong muốn, điều hấp dẫn mình, sự bồn chồn đi kèm và trạng thái tâm khi tạm dừng. Ghi nhận bằng vài câu cụ thể trước khi quyết định làm tiếp. Việc nhìn trực tiếp kinh nghiệm giúp lời đã nghe có cơ hội trở thành điều được kiểm nghiệm."
+          ],
+          "meaningUnits": [
+            "sights",
+            "other-objects",
+            "indulging",
+            "path"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Diễn giải dành cho người lớn tuổi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "meeting",
+          "kind": "teaching",
+          "heading": "Nơi ở đơn sơ của Đức Phật",
+          "paragraphs": [
+            "Người truyền Kinh Māgaṇḍiya nói đã nghe như sau. Một thời Phật ở xứ Kurū, tại thị trấn Kammāsadhamma, trên tấm trải cỏ trong phòng lửa của bà-la-môn họ Bhāradvāja. Bà-la-môn là người thuộc truyền thống kinh điển và nghi lễ thời ấy.",
+            "Buổi sáng, Phật đắp y, mang bát và y đi khất thực trong thị trấn. Sau bữa ăn, từ chuyến khất thực trở về, Ngài đi sâu vào một khu rừng, ngồi dưới gốc cây để an trú ban ngày."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting",
+            "morning"
+          ]
+        },
+        {
+          "id": "mat",
+          "kind": "teaching",
+          "heading": "Khách đến hỏi về tấm trải cỏ",
+          "paragraphs": [
+            "Du sĩ Māgaṇḍiya, người tu du hành, đang bách bộ tới phòng lửa. Ông thấy tấm trải cỏ soạn sẵn, hỏi dành cho ai vì có vẻ hợp làm chỗ nằm cho sa-môn, người xuất gia tu hành.",
+            "Bhāradvāja đáp đó là chỗ của Gotama, người Sakya đã xuất gia từ dòng họ ấy. Tiếng tốt được truyền: Ngài là A-la-hán, bậc giải thoát; Chánh Đẳng Giác, tự giác ngộ hoàn toàn; đủ minh và hạnh, hiểu biết cùng hạnh lành; Thiện Thệ, bậc khéo đi; hiểu biết thế gian; người dẫn đường tối thượng cho người cần rèn luyện; Thầy trời và người; Phật, bậc Giác Ngộ; Thế Tôn, bậc tôn kính."
+          ],
+          "meaningUnits": [
+            "mat",
+            "reputation"
+          ]
+        },
+        {
+          "id": "words",
+          "kind": "teaching",
+          "heading": "Giữ lời trước một sự phán xét",
+          "paragraphs": [
+            "Māgaṇḍiya hai lần than đã thấy cảnh chẳng lành khi nhìn chỗ nằm của Gotama, người ông gọi là “kẻ phá hoại sự tăng trưởng”. Bhāradvāja hai lần nhắc giữ lời. Nhiều người trí thuộc quý tộc, bà-la-môn, gia chủ (người chủ gia đình) và sa-môn tin sâu nơi Gotama, đã được hướng dẫn trong chánh lý cao thượng, điều thiện.",
+            "Māgaṇḍiya nói nếu gặp trực tiếp vẫn sẽ gọi Gotama như vậy, vì kinh điển của mình truyền thế. Bhāradvāja xin nếu ông không phiền sẽ trình lại với Phật. Ông cho cứ yên tâm chuyển đúng lời đã nói."
+          ],
+          "meaningUnits": [
+            "insult",
+            "caution",
+            "defiance",
+            "relay"
+          ]
+        },
+        {
+          "id": "hearing",
+          "kind": "teaching",
+          "heading": "Cuộc nói chuyện chưa kịp trình",
+          "paragraphs": [
+            "Phật nghe cuộc đàm luận bằng thiên nhĩ thanh tịnh, vượt tai người. Chiều, Ngài ra khỏi thiền tịnh, trở về phòng lửa, ngồi tấm trải cỏ. Bhāradvāja đến chào hỏi thân thiện rồi ngồi một bên.",
+            "Phật hỏi có phải ông đã nói với Māgaṇḍiya về tấm trải cỏ này. Ông kinh ngạc, rợn tóc gáy: chính việc đang muốn trình thì Ngài đã nói trước. Cuộc chuyện chưa xong, Māgaṇḍiya đang bách bộ tới, chào hỏi Phật, trò chuyện thân thiện và ngồi một bên."
+          ],
+          "meaningUnits": [
+            "hearing",
+            "brahmin",
+            "arrival"
+          ]
+        },
+        {
+          "id": "eye",
+          "kind": "teaching",
+          "heading": "Điều bị gọi là phá hoại",
+          "paragraphs": [
+            "Phật nói mắt yêu thích, đắm say, vui mừng với hình sắc. Như Lai, danh hiệu Phật dùng để chỉ mình, đã điều phục, phòng hộ, bảo vệ, thu thúc mắt và dạy Pháp để thu thúc mắt. Ngài hỏi đó có phải điều Māgaṇḍiya nhắm tới khi dùng lời chỉ trích ấy. Ông đáp chính là điều đó, vì kinh điển của mình nói như vậy."
+          ],
+          "meaningUnits": [
+            "eye"
+          ]
+        },
+        {
+          "id": "other-senses",
+          "kind": "teaching",
+          "heading": "Cùng nhìn lại năm căn còn lại",
+          "paragraphs": [
+            "Tai đối với tiếng, mũi đối với mùi, lưỡi đối với vị, thân đối với sự chạm xúc, ý đối với pháp — những điều tâm nhận biết — cũng vậy. Từng căn có cả ba sự yêu thích, đắm say, vui mừng; từng căn được Phật điều phục, phòng hộ, bảo vệ, thu thúc. Ngài dạy cách thu thúc, giữ khỏi bị lôi cuốn theo đối tượng.",
+            "Trong các lượt hỏi về những căn ấy, Māgaṇḍiya đều xác nhận: chính việc đó khiến ông gọi Gotama là kẻ phá hoại sự tăng trưởng; đó là điều kinh điển của ông truyền."
+          ],
+          "meaningUnits": [
+            "ear-tongue",
+            "body-mind"
+          ]
+        },
+        {
+          "id": "clear-knowing",
+          "kind": "teaching",
+          "heading": "Người đã biết rõ và an tịnh",
+          "paragraphs": [
+            "Phật hỏi về người trước từng vui với sắc do mắt biết: đáng muốn, đáng yêu, vừa lòng, đẹp lòng, liên hệ dục và gây mê đắm. Dục là những thú vui giác quan. Về sau, người ấy hiểu như thật năm mặt của sắc: sinh khởi, chấm dứt, vị ngọt hấp dẫn, nguy hại và lối thoát. Bỏ khát ái, xua nóng bỏng về sắc, người ấy hết khát khao, tâm an tịnh bên trong. Māgaṇḍiya có gì để nói? Ông đáp không có gì.",
+            "Phật hỏi cùng cách ấy về tiếng do tai, mùi do mũi, vị do lưỡi, xúc do thân biết, cũng mang đủ sáu nét hấp dẫn. Hiểu đủ năm mặt của từng đối tượng, bỏ ái, xua nóng, hết khát, an tịnh, người ấy sẽ bị ông nói gì? Māgaṇḍiya lại đáp không có gì."
+          ],
+          "meaningUnits": [
+            "sights",
+            "other-objects"
+          ]
+        },
+        {
+          "id": "past",
+          "kind": "teaching",
+          "heading": "Những năm tháng sống tại gia",
+          "paragraphs": [
+            "Phật kể chính Ngài khi tại gia đã hưởng đầy đủ năm dục trưởng dưỡng, những thú vui từ hình sắc, âm thanh, mùi, vị và sự chạm xúc mang sáu nét hấp dẫn ấy. Ngài có ba lâu đài: mùa mưa, mùa đông, mùa hè. Suốt bốn tháng mùa mưa, chỉ các nữ nhạc công giúp vui, không có người nam; Ngài không xuống tầng dưới."
+          ],
+          "meaningUnits": [
+            "luxury"
+          ]
+        },
+        {
+          "id": "joy",
+          "kind": "teaching",
+          "heading": "Niềm vui sau khi đã buông khát ái",
+          "paragraphs": [
+            "Về sau, Ngài biết như thật năm mặt sinh, diệt, vị ngọt, nguy hại, lối thoát của dục; bỏ dục ái, xua nóng bỏng, sống hết khát khao, an tịnh nội tâm.",
+            "Thấy chúng sinh còn tham dục, bị ái cắn xé, bị nóng bỏng thiêu đốt mà vẫn hưởng, Ngài không ao ước như họ và không thích thú trong đó. Có niềm vui xa dục, xa bất thiện, tức điều không lành, vượt cả thiên lạc. Vui trong ấy, Ngài không ao ước điều thấp hơn, không vui với điều ấy."
+          ],
+          "meaningUnits": [
+            "greater-joy"
+          ]
+        },
+        {
+          "id": "heaven",
+          "kind": "teaching",
+          "heading": "Ví dụ trong kinh: người sinh lên cõi trời",
+          "paragraphs": [
+            "Một gia chủ hoặc con của gia chủ giàu có, nhiều tài sản, hưởng trọn năm dục với sáu nét đã nêu. Nhờ làm thiện bằng thân, lời, ý, sau khi chết, người ấy sinh cõi lành, cùng các vị trời Ba Mươi Ba. Trong vườn Nandana, có thiên nữ vây quanh, người ấy hưởng đầy đủ năm dục cõi trời.",
+            "Vị trời thấy gia chủ hoặc người con đang hưởng năm dục loài người. Có ao ước người ấy, năm dục ấy, hoặc muốn quay lại không? Māgaṇḍiya đáp không: thiên dục vượt trội hơn và tinh tế hơn.",
+            "Phật nhắc chuyện mình để nối ví dụ: từ hưởng đủ năm dục đến hiểu năm mặt của dục, bỏ ái, xua nóng, hết khát và an tịnh. Ngài không ao ước, không vui theo người còn bị ái cắn xé, nóng thiêu. Niềm vui xa dục, xa bất thiện vượt thiên lạc khiến Ngài không mong hay vui trong điều thấp hơn."
+          ],
+          "meaningUnits": [
+            "heaven",
+            "no-envy",
+            "refrain-heaven"
+          ]
+        },
+        {
+          "id": "healed",
+          "kind": "teaching",
+          "heading": "Ví dụ cổ: người khỏi bệnh được tự do",
+          "paragraphs": [
+            "Người mắc bệnh phong có mụn nhọt, loét, bị sâu bọ cắn, dùng móng cào vết thương và hơ thân trên hố than hồng. Bạn bè, đồng liêu, bà con, thân quyến mời thầy thuốc giải phẫu làm thuốc. Nhờ dùng thuốc, người ấy khỏi bệnh, khỏe, vui, tự do, tự chủ, đi được nơi mình muốn.",
+            "Người ấy gặp người khác cùng cảnh bệnh, loét, sâu bọ cắn, gãi và hơ than. Có ao ước người kia, hố than hồng hoặc việc dùng thuốc không? Māgaṇḍiya đáp không; trong câu chuyện, có bệnh mới cần thuốc, hết bệnh không còn cần việc ấy.",
+            "Phật lại nhắc trọn mạch: từng hưởng năm dục mang sáu nét hấp dẫn, rồi biết năm mặt của chúng, bỏ ái, xua nóng, hết khát và an tịnh. Ngài không ao ước, không vui theo người còn đắm dục, bị ái cắn và nóng thiêu. Vui xa dục, xa bất thiện vượt cả thiên lạc nên không mong, không vui với điều thấp hơn."
+          ],
+          "meaningUnits": [
+            "leper-cured",
+            "leper-envy",
+            "refrain-cured"
+          ]
+        },
+        {
+          "id": "dragged",
+          "kind": "teaching",
+          "heading": "Khi bị kéo trở lại hố than",
+          "paragraphs": [
+            "Phật nhắc lại người bệnh phong với mụn nhọt, vết loét, sâu bọ, cào gãi và hơ than. Bạn bè, đồng liêu, bà con, thân quyến mời thầy thuốc giải phẫu làm thuốc; người ấy khỏi bệnh, khỏe, vui, tự do, tự chủ, đi tùy ý.",
+            "Nếu hai người lực lưỡng, mỗi người nắm một cánh tay, kéo người ấy đến hố than hồng, người ấy có vùng vẫy không? Māgaṇḍiya đáp có: lửa xúc chạm đau, rất nóng, rất bỏng rát. Phật hỏi chỉ nay như vậy hay trước cũng thế. Ông nói trước và nay đều đau, nóng, bỏng; khi mắc bệnh, các căn tổn hại khiến người ấy nhận lầm lửa đau là lạc."
+          ],
+          "meaningUnits": [
+            "cure-again",
+            "dragged",
+            "fire"
+          ]
+        },
+        {
+          "id": "craving",
+          "kind": "teaching",
+          "heading": "Nhận lầm và chút thỏa mãn",
+          "paragraphs": [
+            "Phật nói các dục trong quá khứ, tương lai và hiện tại đều có xúc chạm đau, nóng bỏng, thiêu đốt. Chúng sinh chưa ly tham, bị dục ái cắn xé, nóng bỏng thiêu đốt, các căn tổn hại, lại nhận lầm khổ là lạc.",
+            "Trong lượt ví dụ tiếp, người phong với mụn nhọt, loét, sâu bọ cắn càng gãi bằng móng và hơ thân trên than, vết thương càng bẩn, hôi, mục rữa. Người ấy vẫn chỉ có chút dễ chịu, chút thỏa mãn do gãi ngứa. Cũng vậy, người chưa ly tham và bị ái, nóng chi phối, càng hưởng dục thì ái càng lớn và càng bị thiêu đốt; vẫn có chút dễ chịu, chút thỏa mãn do năm dục."
+          ],
+          "meaningUnits": [
+            "pleasure-pain",
+            "scratching",
+            "indulging"
+          ]
+        },
+        {
+          "id": "rulers",
+          "kind": "teaching",
+          "heading": "Điều kiện để tâm thật sự an tịnh",
+          "paragraphs": [
+            "Phật hỏi có từng thấy hay nghe vua, đại thần nào hưởng đủ năm dục mà không bỏ dục ái, không xua nóng bỏng, vẫn hết khát khao và an tịnh nội tâm trong quá khứ, hiện tại hay tương lai không. Māgaṇḍiya đáp không. Phật khen câu đáp và nói Ngài cũng không thấy, không nghe trường hợp ấy.",
+            "Mọi sa-môn, bà-la-môn trong ba thời sống hết khát khao, tâm an tịnh đều đã biết đúng năm mặt sinh, diệt, vị ngọt, nguy hại, lối thoát của dục; đã bỏ ái và xua nóng bỏng."
+          ],
+          "meaningUnits": [
+            "rulers",
+            "three-times"
+          ]
+        },
+        {
+          "id": "verse",
+          "kind": "teaching",
+          "heading": "Nghe một lời kệ quen",
+          "paragraphs": [
+            "Phật nói lời cảm hứng: không bệnh là lợi ích tối thượng; Niết-bàn là hạnh phúc tối thượng; con đường tám phần tối thượng trong các đường, an toàn và đưa đến Bất tử. Niết-bàn là sự chấm dứt khát ái và khổ; Bất tử chỉ đích giải thoát ấy.",
+            "Māgaṇḍiya khen kỳ diệu, hy hữu, lời thật khéo. Hai ý đầu về không bệnh và Niết-bàn, ông cũng nghe các du sĩ tiền bối, các thầy và thầy của họ nói; ông nghĩ lời hai bên đã phù hợp."
+          ],
+          "meaningUnits": [
+            "verse",
+            "familiar"
+          ]
+        },
+        {
+          "id": "health",
+          "kind": "teaching",
+          "heading": "Thế nào là không bệnh, Niết-bàn?",
+          "paragraphs": [
+            "Phật hỏi cái không bệnh và Niết-bàn trong lời ông nghe là gì. Māgaṇḍiya dùng tay vuốt các chi, chỉ vào thân mình: đây chính là không bệnh, đây chính là Niết-bàn; vì ông hiện khỏe, an vui, chẳng đau ốm gì."
+          ],
+          "meaningUnits": [
+            "health"
+          ]
+        },
+        {
+          "id": "cloth",
+          "kind": "teaching",
+          "heading": "Ví dụ cổ: tấm vải được gọi là trắng",
+          "paragraphs": [
+            "Phật kể về người mù bẩm sinh, không thấy đen, trắng, xanh, vàng, đỏ, đỏ thẫm; chỗ bằng hay gồ ghề; sao, trăng, mặt trời. Nghe người có mắt khen vải trắng tuyệt, đẹp, không vết, sạch, người ấy đi tìm.",
+            "Kẻ khác đưa tấm vải thô dính dầu bẩn và bảo là vải trắng đẹp, không vết, sạch. Người ấy nhận, khoác, vui mừng khen đúng như lời đã nghe. Phật hỏi việc đó do biết, thấy hay chỉ tin người có mắt. Māgaṇḍiya đáp người ấy không biết, không thấy, chỉ tin người kia."
+          ],
+          "meaningUnits": [
+            "blind",
+            "deceit",
+            "belief"
+          ]
+        },
+        {
+          "id": "vision",
+          "kind": "teaching",
+          "heading": "Lời kệ cần được hiểu bằng cái thấy",
+          "paragraphs": [
+            "Phật ví các du sĩ đạo khác là mù, chưa có mắt về không bệnh và Niết-bàn, chưa biết, chưa thấy mà vẫn đọc hai câu ấy. Các vị Phật trước, những bậc A-la-hán Chánh Đẳng Giác, đã nói toàn bài kệ bốn ý: không bệnh lợi cao nhất, Niết-bàn lạc cao nhất, con đường tám phần cao nhất trong các đường, an toàn và đến Bất tử. Nay dần trở thành lời người thường truyền tụng.",
+            "Thân là bệnh, ung nhọt, mũi nhọn, khốn khổ, tai họa. Māgaṇḍiya lại gọi thân đó là không bệnh, là Niết-bàn. Ông chưa có Thánh nhãn, cái thấy cao thượng để biết không bệnh và thấy Niết-bàn."
+          ],
+          "meaningUnits": [
+            "wanderers",
+            "verse-origin",
+            "lack-vision"
+          ]
+        },
+        {
+          "id": "first-faith",
+          "kind": "teaching",
+          "heading": "Lòng tin và khả năng chưa hiểu",
+          "paragraphs": [
+            "Māgaṇḍiya tin Phật có thể dạy để mình biết không bệnh, thấy Niết-bàn. Phật kể người mù với tất cả những điều không thấy đã nêu. Bạn bè, đồng liêu, bà con, thân quyến mời thầy thuốc giải phẫu làm thuốc. Dùng rồi mắt vẫn không có khả năng thấy, không sáng rõ. Thầy thuốc chỉ mệt nhọc, phiền bức chăng? Ông đáp đúng.",
+            "Phật nói nếu Ngài dạy đây là không bệnh, đây là Niết-bàn mà Māgaṇḍiya không biết, không thấy, điều ấy sẽ làm Ngài mệt mỏi, phiền phức."
+          ],
+          "meaningUnits": [
+            "faith-one",
+            "failed-cure",
+            "failed-teaching"
+          ]
+        },
+        {
+          "id": "second-faith",
+          "kind": "teaching",
+          "heading": "Khi mắt sáng thì tấm vải hiện đúng như thật",
+          "paragraphs": [
+            "Māgaṇḍiya lại nói mình tin Phật có thể dạy để biết không bệnh, thấy Niết-bàn. Phật kể lại người mù có cùng những giới hạn thị giác: nghe khen vải trắng tuyệt, đẹp, không vết, sạch; tìm vải rồi bị lừa, nhận, khoác tấm dầu bẩn được gọi bằng những lời ấy.",
+            "Trong ví dụ cổ này, bạn bè, đồng liêu, bà con, thân quyến mời thầy thuốc giải phẫu. Thuốc nôn, thuốc tẩy, thuốc bôi, thuốc tra mắt và cách dùng thuốc qua mũi được kể đến. Sau khi dùng, mắt thấy được và sáng rõ.",
+            "Vừa thấy, lòng ham muốn tấm vải dầu bẩn chấm dứt. Người ấy xem kẻ lừa là người thù, không phải bạn, thậm chí có thể nghĩ giết: lâu nay mình bị lừa dối, lừa gạt, dụ dỗ bằng lời “vải trắng đẹp, không vết, sạch”. Phản ứng đó thuộc người bị lừa trong ví dụ; lời dạy tiếp theo trở về sự bám giữ của tâm."
+          ],
+          "meaningUnits": [
+            "faith-two",
+            "blind-again",
+            "successful-cure",
+            "cloth-released"
+          ]
+        },
+        {
+          "id": "aggregates",
+          "kind": "teaching",
+          "heading": "Nhìn lại những gì tâm đã bám giữ",
+          "paragraphs": [
+            "Nếu được Phật dạy, Māgaṇḍiya có thể biết không bệnh, thấy Niết-bàn; khi cái thấy ấy khởi lên, lòng ham muốn năm thủ uẩn có thể chấm dứt. Đó là năm nhóm bị chấp giữ: sắc, thân và hình chất; thọ, cảm giác; tưởng, sự nhận biết; hành, các tạo tác tâm; thức, sự biết đối tượng.",
+            "Ông có thể nghĩ lâu nay đã bị tâm lừa dối, lừa gạt, dụ dỗ: mình chỉ nắm sắc, thọ, tưởng, hành, thức. Do chấp thủ có hữu, sự hiện hữu tiếp nối; do hữu có sinh, tức tái sinh; do sinh có già chết, sầu buồn, than khóc, đau khổ, ưu phiền và bức bối. Toàn khối khổ sinh khởi như thế."
+          ],
+          "meaningUnits": [
+            "successful-teaching",
+            "aggregates",
+            "arising"
+          ]
+        },
+        {
+          "id": "path",
+          "kind": "teaching",
+          "heading": "Gần người chân chính, nghe và thực hành",
+          "paragraphs": [
+            "Lần thứ ba, Māgaṇḍiya tin Phật có thể dạy để mình đứng dậy khỏi chỗ này mà không còn “mù” về điều đang được chỉ dạy. Phật khuyên thân cận chân nhân, người chân chính. Nhờ thân cận sẽ nghe Chánh pháp; nghe sẽ thực hành đúng theo Pháp; thực hành sẽ tự mình biết và thấy.",
+            "Ông sẽ biết đây là bệnh, ung nhọt, mũi nhọn; đây là nơi chúng chấm dứt không còn dư sót. Khi chấp thủ diệt, hữu diệt; hữu diệt thì sinh diệt; sinh diệt thì già chết, sầu buồn, than khóc, đau khổ, ưu phiền, bức bối diệt. Toàn khối khổ chấm dứt như vậy."
+          ],
+          "meaningUnits": [
+            "faith-three",
+            "path",
+            "seeing",
+            "cessation"
+          ]
+        },
+        {
+          "id": "request",
+          "kind": "teaching",
+          "heading": "Quy y và xin bước vào đời tu",
+          "paragraphs": [
+            "Māgaṇḍiya hai lần tán thán tuyệt vời: như dựng vật lật, mở điều che, chỉ đường người lạc, thắp đèn dầu để người có mắt thấy sắc, Phật đã làm sáng Pháp bằng nhiều cách. Ông quy y Phật, Pháp, Tăng đoàn tỳ-kheo, những người nam xuất gia, xin xuất gia và thọ cụ túc giới, thọ giới đầy đủ thành tỳ-kheo.",
+            "Phật nêu bốn tháng thử thách cho người trước tu đạo khác muốn xuất gia, thọ cụ túc trong Pháp và Luật. Sau bốn tháng, nếu các tỳ-kheo hài lòng, họ cho cả hai. Ngài nhận biết khác biệt từng người. Māgaṇḍiya nhắc điều kiện ấy, xin thử bốn năm; sau đó nếu các vị hài lòng, xin cho xuất gia, thọ giới. Ông được xuất gia và thọ cụ túc nơi Phật."
+          ],
+          "meaningUnits": [
+            "praise",
+            "request",
+            "probation",
+            "willingness",
+            "ordination"
+          ]
+        },
+        {
+          "id": "completion",
+          "kind": "teaching",
+          "heading": "Việc thực hành đi đến kết quả",
+          "paragraphs": [
+            "Không lâu sau thọ giới, Māgaṇḍiya sống một mình, xa vướng bận, không buông lung, nhiệt tâm, kiên quyết. Chẳng bao lâu, ngay đời này, ông tự chứng biết, đạt và an trú mục tiêu vô thượng của đời phạm hạnh, đời tu thanh tịnh; đó là đích khiến người chân chính rời gia đình sống xuất gia.",
+            "Ông trực tiếp biết tái sinh đã chấm dứt, phạm hạnh hoàn thành, việc cần làm đã làm, không còn trở lại trạng thái hiện hữu này. Ông thành A-la-hán. Kinh Māgaṇḍiya, bài thứ năm trong nhóm kinh này, kết thúc."
+          ],
+          "meaningUnits": [
+            "practice-life",
+            "final-knowledge",
+            "ending"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ đời thường: mong nghe thêm một lời khen",
+          "paragraphs": [
+            "Một lời khen làm ta vui. Nhưng nếu cứ chờ người khác khen thêm, ta lại bồn chồn khi không nghe thấy. Chút vui vẫn có, đồng thời sự đòi hỏi cũng lớn hơn. Ví dụ này giúp nhận ra hai mặt của một trải nghiệm quen: vị ngọt và khát khao được nuôi tiếp."
+          ],
+          "meaningUnits": [
+            "indulging"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: nhìn điều khiến mình muốn thêm",
+          "paragraphs": [
+            "Chọn một lần mong muốn còn nhẹ. Nhận ra điều mình thích, tâm đang đòi hỏi thêm ra sao và cảm giác khi tạm dừng chạy theo nó. Để một khoảng yên trước khi đáp ứng mong muốn, rồi quan sát tâm có đổi không. Đây là bước tập biết trực tiếp, gắn điều đã nghe với điều mình sống."
+          ],
+          "meaningUnits": [
+            "sights",
+            "other-objects",
+            "indulging",
+            "path"
+          ]
+        }
+      ]
+    }
+  }
+}

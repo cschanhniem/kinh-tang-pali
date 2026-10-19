@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn71",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "e57f7be6-9b2c-40a8-ab36-87ea2b8dd5b5"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "7ef39745-9825-4fb3-b50d-7ccdd3e973d3"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "e90c2a27-d361-45cd-a920-885807501449"
+    }
+  },
+  "reviews": [
+    {
+      "id": "e57f7be6-9b2c-40a8-ab36-87ea2b8dd5b5",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.5,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.6,
+        "logic_context": 9.7,
+        "terminology": 9.5,
+        "audience_fit": 9.3,
+        "clarity": 9.4,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Cảnh ghé thăm giữ thứ tự quá sớm, đến du viện, mời ghế, Đức Phật ngồi rồi Vaccha lấy ghế thấp. Lời đồn có đủ đi, đứng, ngủ, thức; mốc chín mươi mốt kiếp, số người sinh thiên và ngoại lệ một vị đều theo nguồn.",
+        "semantic_fidelity": "Phủ định nhắm đúng lời đồn biết thấy mọi điều luôn hiện tiền; ba minh có hai khả năng mỗi khi muốn và sự giải thoát hiện tại đã thực chứng. Điều kiện người tại gia chưa bỏ trói buộc vẫn đi cùng cả hai câu hỏi, nên sinh trời không bị đổi thành hết khổ.",
+        "core_coverage": "Hai mươi ý đều có nội dung: cảnh gặp, kiểm lời kể, ba minh, hai câu về tại gia, hai câu về Ājīvaka, lời kết và tán đồng. Phần đời trước và thiên nhãn giữ các nét của công thức tỉnh lược, không nhận là đã mở hết các danh sách tham khảo.",
+        "logic_context": "Vaccha là người hỏi và thuật lời đồn; Đức Phật sửa lời ấy rồi tự giải thích ba minh. Phần kết giữ ngoại lệ trước nhận xét về đạo trại, không kể thêm Vaccha quy y, xuất gia hoặc chứng quả.",
+        "terminology": "Du sĩ, sa-môn, khất thực, Tam Minh, nghiệp, lậu hoặc và kiếp được mở nghĩa bằng câu ngắn. Tên Ājīvaka và hai thuật ngữ tâm giải thoát, tuệ giải thoát vẫn cần người đọc nhỏ tuổi chú ý.",
+        "audience_fit": "Chuyện khen bạn giải toán và cách hỏi lại lời đã nghe gần với sinh hoạt của trẻ. Mạch khá ngắn so với nhiều bài khác, nhưng các câu về tái sinh và ngoại lệ của đạo trại còn trừu tượng; chưa có dữ liệu thử đọc với trẻ.",
+        "clarity": "Mỗi minh có một mục riêng; hai kết quả hết khổ và sinh trời được đặt cạnh nhau để dễ phân biệt. Một số câu nhắc cách không hiểu lầm và câu điều kiện kéo dài làm giọng kể đôi lúc nghiêng về giải thích.",
+        "editorial_separation": "Ví dụ bài toán cùng gợi ý kể đúng lời đều có nhãn biên soạn riêng. Giới hạn của liên hệ được nói rõ, không coi khả năng làm toán là ba minh hoặc đặt câu mới vào miệng Đức Phật.",
+        "practical_integrity": "Thực hành tập trung nhớ đúng lời, hỏi lại và khen một việc cụ thể, vừa sức trẻ. Không gợi đoán nghiệp của bạn bè, thực tập thần thông hay tự nhận thành tựu giải thoát.",
+        "technical_integrity": "Audit không có lỗi cấu trúc hay nguồn; 46 khóa được phân vào 20 ý, bản trẻ liên kết đủ. Hash cuối được lấy sau khi đọc lại mục visit có động tác Đức Phật ngồi xuống và xác nhận năm nguồn hiện tại."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập đủ 46 khóa Pāli, Việt dự án và Sujato, gồm một ô Anh trống; toàn HTML Minh Châu đến credits (90 mảnh văn bản sau chuẩn hóa), toàn 7 chú thích. Đã đọc toàn 20 ý và cả 11/11/13 mục của ba bản; đọc lại trọn children/visit sau sửa, rồi đọc lại toàn bản đồ và ba bản trước khi viết lý do. Audit chỉ đọc sạch; dấu nội dung và năm dấu nguồn lấy từ canonical cuối. Không ghi metadata hoặc kiểm Actions.",
+      "contentHash": "9e2c425cd66cd8ab674fd42a9e3782209dec352341c94d76637550db7960404a",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn71.html",
+          "sha256": "93a11a1afeb6328725bec9d540ff1a3b08d9d0d84a0c37884bcdc0bf34dbf9e3"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn71_root-pli-ms.json",
+          "sha256": "d686bd2433cf57dd58eded73a20bf8ab1ced644d3535a84ffe4dc38cfdb67749"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn71_translation-en-sujato.json",
+          "sha256": "066acc2d219511027b99dba0ec3384718655568080a465c393f2bbd8a0d25ece"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn71_comment-vi-project.json",
+          "sha256": "2d80f49ac55ada923959e1c7e6eaac13ef80033a36ca002840d05cc19667d3c0"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn71_translation-vi-project.json",
+          "sha256": "a1503e5919c91dd8672b349ef64a6528ef64bec8aeeb5c6601b14193d7d60197"
+        }
+      ]
+    },
+    {
+      "id": "7ef39745-9825-4fb3-b50d-7ccdd3e973d3",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.6,
+        "logic_context": 9.8,
+        "terminology": 9.6,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Bản trưởng thành giữ đủ bốn yêu cầu khi dẫn lời, cả gói lời đồn liên tục biết thấy và lời xác nhận Tam Minh được nhắc lại. Đoạn Ājīvaka giữ đúng phạm vi nhóm được hỏi, chín mươi mốt kiếp và một người ngoại lệ, không mở rộng thành nhận xét mọi tôn giáo.",
+        "semantic_fidelity": "Hai minh đầu gắn mỗi khi muốn, minh thứ ba gắn đoạn tận lậu hoặc và tự chứng ngay hiện tại. Hai câu về người tại gia giữ cùng điều kiện chưa từ bỏ trói buộc nhưng kết quả khác nhau, tránh làm lệch lập luận.",
+        "core_coverage": "Toàn 20 ý được trình bày trong 11 mục, gồm cả các thao tác tiếp khách và nhãn cuối bài. Các công thức tỉnh lược được diễn đủ nét đang hiện trong Pāli/Việt; không giả nhận những chi tiết chỉ có trong phần mở rộng tham khảo đã xuất hiện hết.",
+        "logic_context": "Trình tự hỏi lời đồn, hỏi cách nói đúng, nghe ba minh rồi phân biệt các đích đến được giữ mạch lạc. Cả ngoại lệ và kết luận về đạo trại đều được giữ mà không thêm một lịch sử để hòa giải chúng.",
+        "terminology": "Tri kiến được giải là biết và thấy; Tam Minh, nghiệp, lậu hoặc, kiếp, đạo trại đều có nghĩa đi kèm. Các thuật ngữ Phật học được giữ đủ để nối với nguồn mà không yêu cầu độc giả biết sẵn toàn bộ hệ thống.",
+        "audience_fit": "Ví dụ giới thiệu đồng nghiệp đặt trách nhiệm dẫn lời vào tình huống công việc quen thuộc với người trưởng thành. Gợi ý đánh dấu điều kiện và kết quả hữu ích khi đọc, tuy giọng phân tích thận trọng làm câu chuyện bớt nhẹ ở vài mục.",
+        "clarity": "Các tiêu đề bám câu hỏi và kết quả; mục householder giải rõ vì sao hai đáp án không mâu thuẫn. Lời giải thích phạm vi xuất hiện nhiều lần nhưng chưa che khuất nội dung chính.",
+        "editorial_separation": "Liên hệ nghề nghiệp được tách riêng và chỉ nhằm trách nhiệm giới thiệu đúng căn cứ. Phần giải thích không tạo lời Phật giả hoặc biến thành tích nghề nghiệp thành chứng cứ cho ba minh.",
+        "practical_integrity": "Đề nghị kiểm lời trực tiếp, lời truyền gián tiếp và suy diễn phù hợp với chủ đề kinh. Cách đánh dấu điều kiện giúp người đọc tự kiểm hiểu mà không hứa đạt minh, dự đoán tái sinh hoặc đánh giá người khác theo hình dáng.",
+        "technical_integrity": "Audit chỉ đọc sạch; đủ 20 ý trên 46 khóa và các liên kết của bản trưởng thành. Dấu nội dung cùng năm dấu nguồn khớp canonical sau tác giả freeze, không sử dụng điểm hay metadata cũ để thay kiểm nội dung."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập đủ 46 khóa Pāli, Việt dự án và Sujato, gồm một ô Anh trống; toàn HTML Minh Châu đến credits (90 mảnh văn bản sau chuẩn hóa), toàn 7 chú thích. Đã đọc toàn 20 ý và cả 11/11/13 mục của ba bản; đọc lại trọn children/visit sau sửa, rồi đọc lại toàn bản đồ và ba bản trước khi viết lý do. Audit chỉ đọc sạch; dấu nội dung và năm dấu nguồn lấy từ canonical cuối. Không ghi metadata hoặc kiểm Actions.",
+      "contentHash": "eaa9a6feb5b05022b379692ffa89531e7c87676f293c372bf57da58db13676b0",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn71.html",
+          "sha256": "93a11a1afeb6328725bec9d540ff1a3b08d9d0d84a0c37884bcdc0bf34dbf9e3"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn71_root-pli-ms.json",
+          "sha256": "d686bd2433cf57dd58eded73a20bf8ab1ced644d3535a84ffe4dc38cfdb67749"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn71_translation-en-sujato.json",
+          "sha256": "066acc2d219511027b99dba0ec3384718655568080a465c393f2bbd8a0d25ece"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn71_comment-vi-project.json",
+          "sha256": "2d80f49ac55ada923959e1c7e6eaac13ef80033a36ca002840d05cc19667d3c0"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn71_translation-vi-project.json",
+          "sha256": "a1503e5919c91dd8672b349ef64a6528ef64bec8aeeb5c6601b14193d7d60197"
+        }
+      ]
+    },
+    {
+      "id": "ce3a88fd-1182-4ac3-8e94-d018d683c295",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.6,
+        "logic_context": 9.8,
+        "terminology": 9.6,
+        "audience_fit": 9.5,
+        "clarity": 9.6,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Cảnh chào đón được tách thành mục riêng, giữ rõ ghế được dọn và ghế thấp. Bản lớn tuổi bảo toàn các số một đến năm trăm, hơn số ấy, chín mươi mốt kiếp và ngoại lệ một người dạy về nghiệp, hành động.",
+        "semantic_fidelity": "Lời đồn, lời bác và cách nói Tam Minh không lẫn nhau; mỗi khi muốn chỉ đi với hai minh đầu. Phần giải thoát giữ đoạn tận lậu hoặc, tự chứng và an trú hiện tại, còn hai câu tại gia vẫn giữ đủ điều kiện và kết quả khác nhau.",
+        "core_coverage": "Mười ba mục giải đủ 20 ý, với sinh thiên và chấm dứt khổ thành hai mục dễ theo. Phần ký ức đời trước giữ một, hai và nhiều đời cùng chi tiết theo phạm vi tỉnh lược, không nhận đã tái hiện toàn phần Anh/HTML mở rộng.",
+        "logic_context": "Câu hỏi nối tiếp của Vaccha được giữ rõ, kể cả bước chuyển từ tại gia sang Ājīvaka. Lời kết không xóa ngoại lệ, không tự gán người ấy một tên và không kể thêm chứng quả cho Vaccha.",
+        "terminology": "Các từ thiên nhãn, nghiệp, lậu hoặc, kiếp và đạo trại được giải trong câu, giọng tôn trọng. Cách gọi tâm giải thoát, tuệ giải thoát vẫn trung thành với nguồn; độ sâu của hai khái niệm được giữ thay vì giảm thành cảm giác thư thái.",
+        "audience_fit": "Chuyện kể lại lời khuyên chăm chậu cây gần đời sống mà không gắn tuổi cao với suy giảm năng lực. Việc tách hai câu về tại gia thành hai mục và dùng lời mời tự quan sát phù hợp nhịp đọc chậm hơn.",
+        "clarity": "Mỗi mục phát triển một ý, các từ khi, nếu, chưa được nối với tác dụng cụ thể. Một vài câu nhắc phạm vi khiến nhịp kể hơi chậm, nhưng giúp theo được ngoại lệ và sự khác nhau giữa hai kết quả.",
+        "editorial_separation": "Ví dụ chăm cây và phần thực hành mang nhãn riêng, được giới hạn ở cách kể lại lời khuyên. Không đưa chuyện gia đình hoặc kinh nghiệm đời thường thành lời giải thay thế cho ba minh.",
+        "practical_integrity": "Tìm lại câu gốc, nói rõ phần mình nhớ và giữ điều kiện là các việc thực tế, không đòi một khả năng tu chứng đặc biệt. Bản cũng giữ sự phân biệt giữa biết của Đức Phật với phỏng đoán về diện mạo, hoàn cảnh của người khác.",
+        "technical_integrity": "Toàn 13 mục liên kết đủ 20 ý và không có lỗi qua audit nguồn/cấu trúc. Dấu nội dung lấy từ bản cuối đã đọc; năm dấu nguồn được kiểm với tệp thực, không có thay đổi metadata trong lượt kiểm."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập đủ 46 khóa Pāli, Việt dự án và Sujato, gồm một ô Anh trống; toàn HTML Minh Châu đến credits (90 mảnh văn bản sau chuẩn hóa), toàn 7 chú thích. Đã đọc toàn 20 ý và cả 11/11/13 mục của ba bản; đọc lại trọn children/visit sau sửa, rồi đọc lại toàn bản đồ và ba bản trước khi viết lý do. Audit chỉ đọc sạch; dấu nội dung và năm dấu nguồn lấy từ canonical cuối. Không ghi metadata hoặc kiểm Actions.",
+      "contentHash": "9a5f48c3d59fb4f65da89b2491d4becb2cc33121b7df98255a28f97bcbbf3170",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn71.html",
+          "sha256": "93a11a1afeb6328725bec9d540ff1a3b08d9d0d84a0c37884bcdc0bf34dbf9e3"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn71_root-pli-ms.json",
+          "sha256": "d686bd2433cf57dd58eded73a20bf8ab1ced644d3535a84ffe4dc38cfdb67749"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn71_translation-en-sujato.json",
+          "sha256": "066acc2d219511027b99dba0ec3384718655568080a465c393f2bbd8a0d25ece"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn71_comment-vi-project.json",
+          "sha256": "2d80f49ac55ada923959e1c7e6eaac13ef80033a36ca002840d05cc19667d3c0"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn71_translation-vi-project.json",
+          "sha256": "a1503e5919c91dd8672b349ef64a6528ef64bec8aeeb5c6601b14193d7d60197"
+        }
+      ]
+    },
+    {
+      "id": "e90c2a27-d361-45cd-a920-885807501449",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.6,
+        "logic_context": 9.8,
+        "terminology": 9.6,
+        "audience_fit": 9.5,
+        "clarity": 9.6,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Cảnh chào đón được tách thành mục riêng, giữ rõ ghế được dọn và ghế thấp. Bản lớn tuổi bảo toàn các số một, hai, ba, bốn và năm trăm, hơn số ấy, chín mươi mốt kiếp và ngoại lệ một người dạy về nghiệp, hành động.",
+        "semantic_fidelity": "Lời đồn, lời bác và cách nói Tam Minh không lẫn nhau; mỗi khi muốn chỉ đi với hai minh đầu. Phần giải thoát giữ đoạn tận lậu hoặc, tự chứng và an trú hiện tại, còn hai câu tại gia vẫn giữ đủ điều kiện và kết quả khác nhau.",
+        "core_coverage": "Mười ba mục giải đủ 20 ý, với sinh thiên và chấm dứt khổ thành hai mục dễ theo. Phần ký ức đời trước giữ một, hai và nhiều đời cùng chi tiết theo phạm vi tỉnh lược, không nhận đã tái hiện toàn phần Anh/HTML mở rộng.",
+        "logic_context": "Câu hỏi nối tiếp của Vaccha được giữ rõ, kể cả bước chuyển từ tại gia sang Ājīvaka. Lời kết không xóa ngoại lệ, không tự gán người ấy một tên và không kể thêm chứng quả cho Vaccha.",
+        "terminology": "Các từ thiên nhãn, nghiệp, lậu hoặc, kiếp và đạo trại được giải trong câu, giọng tôn trọng. Cách gọi tâm giải thoát, tuệ giải thoát vẫn trung thành với nguồn; độ sâu của hai khái niệm được giữ thay vì giảm thành cảm giác thư thái.",
+        "audience_fit": "Chuyện kể lại lời khuyên chăm chậu cây gần đời sống mà không gắn tuổi cao với suy giảm năng lực. Việc tách hai câu về tại gia thành hai mục và dùng lời mời tự quan sát phù hợp nhịp đọc chậm hơn.",
+        "clarity": "Mỗi mục phát triển một ý, các từ khi, nếu, chưa được nối với tác dụng cụ thể. Một vài câu nhắc phạm vi khiến nhịp kể hơi chậm, nhưng giúp theo được ngoại lệ và sự khác nhau giữa hai kết quả.",
+        "editorial_separation": "Ví dụ chăm cây và phần thực hành mang nhãn riêng, được giới hạn ở cách kể lại lời khuyên. Không đưa chuyện gia đình hoặc kinh nghiệm đời thường thành lời giải thay thế cho ba minh.",
+        "practical_integrity": "Tìm lại câu gốc, nói rõ phần mình nhớ và giữ điều kiện là các việc thực tế, không đòi một khả năng tu chứng đặc biệt. Bản cũng giữ sự phân biệt giữa biết của Đức Phật với phỏng đoán về diện mạo, hoàn cảnh của người khác.",
+        "technical_integrity": "Toàn 13 mục liên kết đủ 20 ý và không có lỗi qua audit nguồn/cấu trúc. Dấu nội dung lấy từ bản cuối đã đọc; năm dấu nguồn được kiểm với tệp thực, không có thay đổi metadata trong lượt kiểm."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập đủ 46 khóa Pāli, Việt dự án và Sujato, gồm một ô Anh trống; toàn HTML Minh Châu đến credits (90 mảnh văn bản sau chuẩn hóa), toàn 7 chú thích. Đã đọc toàn 20 ý và cả 11/11/13 mục của ba bản; đọc lại trọn children/visit sau sửa, rồi đọc lại toàn bản đồ và ba bản trước khi viết lý do. Audit chỉ đọc sạch; dấu nội dung và năm dấu nguồn lấy từ canonical cuối. Không ghi metadata hoặc kiểm Actions.",
+      "contentHash": "9a5f48c3d59fb4f65da89b2491d4becb2cc33121b7df98255a28f97bcbbf3170",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn71.html",
+          "sha256": "93a11a1afeb6328725bec9d540ff1a3b08d9d0d84a0c37884bcdc0bf34dbf9e3"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn71_root-pli-ms.json",
+          "sha256": "d686bd2433cf57dd58eded73a20bf8ab1ced644d3535a84ffe4dc38cfdb67749"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn71_translation-en-sujato.json",
+          "sha256": "066acc2d219511027b99dba0ec3384718655568080a465c393f2bbd8a0d25ece"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn71_comment-vi-project.json",
+          "sha256": "2d80f49ac55ada923959e1c7e6eaac13ef80033a36ca002840d05cc19667d3c0"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn71_translation-vi-project.json",
+          "sha256": "a1503e5919c91dd8672b349ef64a6528ef64bec8aeeb5c6601b14193d7d60197"
+        }
+      ]
+    }
+  ]
+}

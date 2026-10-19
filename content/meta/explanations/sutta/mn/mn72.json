@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn72",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "2c9f8077-301c-487e-b60a-18f9b2b2d642"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "a56ddbe9-cd78-4bc9-8f33-23cbb2cd78c5"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "014485ea-45ae-467c-b928-13cfc5af8946"
+    }
+  },
+  "reviews": [
+    {
+      "id": "2c9f8077-301c-487e-b60a-18f9b2b2d642",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.4,
+        "audience_fit": 9.1,
+        "clarity": 9.2,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Bản trẻ giữ đủ mười quan điểm với yêu cầu chỉ điều ấy đúng, các câu phủ định của Đức Phật và chuỗi câu hỏi về lửa. Cây cuối là sāla theo Pāli; hai lần tán thán, bốn hình ảnh và ba quy y có căn cứ từ HTML cùng bài.",
+        "semantic_fidelity": "Bốn câu về tái sinh đều được nói là không áp dụng, không biến phương án cuối thành đáp án được chấp nhận. Ngọn lửa tắt do nhiên liệu đã hết và không được thêm; phần năm uẩn giữ ngữ cảnh những gì được dùng để định danh Như Lai.",
+        "core_coverage": "Đủ 45 ý: mười quan điểm, nguy hại, thấy năm uẩn cùng sinh diệt, buông chấp, bối rối, ví dụ lửa, năm lượt định danh, lõi cây và quy y. Bốn nhóm còn lại được gom thành mục dễ đọc nhưng vẫn giải từng nhóm và áp dụng đầy đủ công thức.",
+        "logic_context": "Lời hoang mang thuộc Vaccha; Đức Phật tiếp tục bằng câu hỏi giả định về lửa, không có cảnh Ngài đốt lửa thật. Câu chuyện kết ở lời xin làm cư sĩ suốt đời, không kéo kết quả xuất gia hay chứng quả từ bài khác vào đây.",
+        "terminology": "Thọ, tưởng, hành, thức và ý định danh được giải trong mạch đọc, thay vì chỉ liệt kê chữ Hán Việt. Những câu về Như Lai sau chết và bốn phủ định vẫn khó đối với trẻ chưa quen tư duy trừu tượng.",
+        "audience_fit": "Tình huống hai bạn làm mô hình giấy và cách xin ví dụ phù hợp tuổi học trò; câu chuyện được chia thành nhiều bước ngắn. Độ khó triết lý của năm uẩn và bốn phương án còn cao, nên điểm phù hợp tuổi thấp hơn điểm bám nguồn.",
+        "clarity": "Mạch từ câu hỏi, bối rối đến lửa và lõi cây có điểm tựa hình ảnh cụ thể. Phần các nhóm còn lại và chuỗi phủ định khá dày, dù đã được mở nghĩa và giữ từ nối rõ.",
+        "editorial_separation": "Ví dụ mô hình và gợi ý thực hành có nhãn biên soạn riêng, chỉ liên hệ sự khăng khăng tranh thắng. Không dùng ví dụ này để thay kết luận về Như Lai hoặc viết thêm lời Phật.",
+        "practical_integrity": "Trẻ được mời nói rõ chỗ chưa hiểu, xin ví dụ và quan sát lúc đang cãi, là những bước học vừa sức. Các gợi ý không hứa việc dừng cãi đã là giải thoát hay khuyến khích tự chọn một lý thuyết tái sinh.",
+        "technical_integrity": "Audit sạch, 161 khóa nằm trong 45 ý và bản trẻ liên kết đủ các ý ấy. Mục refuge được đọc lại trọn sau khi thêm hai lần tán thán; hash cuối cùng năm dấu nguồn đều lấy trực tiếp từ canonical."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập đủ 161 khóa Pāli, Việt và Sujato theo các khoảng 0–59, 60–114, 115–160, gồm 74 ô Anh trống; toàn 8 chú thích; toàn HTML tới SC52 và credits qua 240 mảnh văn bản chuẩn hóa. Đã đọc toàn 45 ý và cả 18/17/21 mục. Phần older-adults/world bị hụt một đoạn trong một output chung đã được đọc lại trọn mục riêng. Sau sửa đọc lại đầy đủ ba refuge và ba mục older-adults/feeling, perception, formations; audit sạch, lấy hash trên canonical cuối. Không ghi metadata hoặc kiểm Actions.",
+      "contentHash": "3c9d1a042ccece69dff8f07f2fdff11ac62ba57ae78639558020a3c32aea2dcb",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn72.html",
+          "sha256": "966f64c17e4bab88917b2ac070334dbfd8584db793319425e102023825d9d20f"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn72_root-pli-ms.json",
+          "sha256": "ebb16c7425d6514927a86c1e0fcd0e293da82e978ca72326eea2ab3e599857c3"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn72_translation-en-sujato.json",
+          "sha256": "2360ce0bf72af5d090d44cef521832938b851af11280206e8d036cd96bd9af39"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn72_comment-vi-project.json",
+          "sha256": "e3e9e66f7acf9c2d6dacd02f63f94795e27bfee1bbb4e9c7009f16b7f04a8f7a"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn72_translation-vi-project.json",
+          "sha256": "49ad91c20cb2c6444c478fe16b816cf7bc95fe738162cf775d36c390bbfad0b4"
+        }
+      ]
+    },
+    {
+      "id": "a56ddbe9-cd78-4bc9-8f33-23cbb2cd78c5",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.4,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Giữ đủ mười câu chỉ điều này đúng, các danh sách nguy hại và các đích không dẫn tới. Hai điều kiện lửa tắt, thứ tự bốn phương, năm nhóm sinh diệt và cây sāla đều khớp nguồn đã đối chiếu.",
+        "semantic_fidelity": "Phân biệt sự thấy năm uẩn cùng sinh diệt với nắm giữ một quan điểm về chúng; bốn phương án tái sinh đều không áp dụng. Lời về từ bỏ sắc được đặt trong phạm vi định danh, không nói thân đang sống đã biến mất hoặc có một bản ngã bí mật còn lại.",
+        "core_coverage": "Toàn 45 ý được trình bày trong 17 mục, kể cả sự mất tự tin của Vaccha, tám nét sâu của Pháp và năm khác biệt trong cách tiếp cận. Bốn lượt còn lại sau sắc vẫn giữ từng nhóm, sự từ bỏ và cả bốn cách nói không áp dụng.",
+        "logic_context": "Cuộc đối thoại giữ đúng chuyển biến từ khẳng định riêng một quan điểm sang câu hỏi dựa vào nhiên liệu và điều kiện. Lời ví lõi cây của Vaccha và lời xin quy y được phân biệt với phần trả lời của Đức Phật.",
+        "terminology": "Tri kiến, mạng sống trong câu hỏi, các uẩn và định danh được diễn bằng từ giải thích gần câu đang đọc. Một số cụm sâu như tùy miên ngã mạn vẫn cần đọc chậm, nhưng không bị giản lược thành một trạng thái cảm xúc.",
+        "audience_fit": "Ví dụ cuộc họp trễ hẹn giúp người trưởng thành thấy sự bám ý kiến trong trách nhiệm công việc. Mạch phân tích hợp độc giả muốn đọc kỹ; công thức lặp còn tương đối dài đối với người mới tìm hiểu.",
+        "clarity": "Các tiêu đề phân biệt quan điểm, nguy hại, thấy, giải thoát rồi tới câu hỏi lửa, giúp theo được lý do của mỗi bước. Sự nặng về phủ định là yêu cầu nội dung, đã được giảm bằng chia mục và chỉ rõ phạm vi câu hỏi.",
+        "editorial_separation": "Chuyện công việc và thao tác ghi điều quan sát, suy đoán, cần hỏi được tách riêng. Phần liên hệ không tự dùng việc xử lý công việc để kết luận bốn câu tái sinh hoặc chứng minh giải thoát.",
+        "practical_integrity": "Gợi ý xem mình đang tìm hiểu hay bảo vệ kết luận bám chủ đề mà không cấm người đọc suy nghĩ, nghiên cứu. Nêu điểm vướng và quan sát dữ kiện là cách bắt đầu học, không bị gọi thành chứng đạt cuối cùng.",
+        "technical_integrity": "Audit nguồn/cấu trúc không có lỗi, toàn 45 ý có liên kết trong bản trưởng thành. Đã đọc lại toàn refuge có hai lần tán thán rồi chốt đúng hash canonical cùng năm dấu nguồn, không ghi đánh giá vào metadata."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập đủ 161 khóa Pāli, Việt và Sujato theo các khoảng 0–59, 60–114, 115–160, gồm 74 ô Anh trống; toàn 8 chú thích; toàn HTML tới SC52 và credits qua 240 mảnh văn bản chuẩn hóa. Đã đọc toàn 45 ý và cả 18/17/21 mục. Phần older-adults/world bị hụt một đoạn trong một output chung đã được đọc lại trọn mục riêng. Sau sửa đọc lại đầy đủ ba refuge và ba mục older-adults/feeling, perception, formations; audit sạch, lấy hash trên canonical cuối. Không ghi metadata hoặc kiểm Actions.",
+      "contentHash": "e6c71484e476407917b69319aabd0e95ea5039562e5ee09c4225d3d3e6659171",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn72.html",
+          "sha256": "966f64c17e4bab88917b2ac070334dbfd8584db793319425e102023825d9d20f"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn72_root-pli-ms.json",
+          "sha256": "ebb16c7425d6514927a86c1e0fcd0e293da82e978ca72326eea2ab3e599857c3"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn72_translation-en-sujato.json",
+          "sha256": "2360ce0bf72af5d090d44cef521832938b851af11280206e8d036cd96bd9af39"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn72_comment-vi-project.json",
+          "sha256": "e3e9e66f7acf9c2d6dacd02f63f94795e27bfee1bbb4e9c7009f16b7f04a8f7a"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn72_translation-vi-project.json",
+          "sha256": "49ad91c20cb2c6444c478fe16b816cf7bc95fe738162cf775d36c390bbfad0b4"
+        }
+      ]
+    },
+    {
+      "id": "014485ea-45ae-467c-b928-13cfc5af8946",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.6,
+        "audience_fit": 9.3,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.9
+      },
+      "rationale": {
+        "source_fidelity": "Năm lượt sắc, thọ, tưởng, hành, thức được tách đầy đủ, giữ gốc bị cắt, gốc thốt nốt, không sinh lại và hình ảnh biển sâu. Cây sāla cuối và công thức quy y theo nguồn cùng UID, không nhập tên cây lệch từ HTML.",
+        "semantic_fidelity": "Sau sửa, cả thọ, tưởng và hành nêu trọn phương án thứ tư: không tái sinh và cũng không phải không tái sinh; không còn cách rút gọn dễ hiểu ngược. Mọi lượt đều giữ cả bốn cách không áp dụng, cùng ngữ cảnh thoát định danh.",
+        "core_coverage": "Hai mươi mốt mục chứa đủ 45 ý, từ mười quan điểm đến lời xin cư sĩ quy y suốt đời. Việc chia riêng năm nhóm giúp kiểm được từng công thức mà vẫn còn đủ cuộc gặp, sự hoang mang, lửa, lõi cây và lời kết.",
+        "logic_context": "Vaccha nói thật về sự bối rối; Đức Phật ghi nhận độ sâu và khác biệt cách học rồi đưa ví dụ phù hợp. Lửa là trường hợp giả định, còn hình ảnh cây là lời Vaccha dùng tán thán; không lẫn người nói hoặc biến lời kết thành chứng quả.",
+        "terminology": "Các nhóm uẩn được gọi tên và mở nghĩa trước khi dùng trong từng lượt định danh. Dù câu từ đã chậm và rõ, cấu trúc hai lớp phủ định ở phương án cuối vẫn cần đọc chăm chú; không che độ khó đó bằng một nhãn mơ hồ.",
+        "audience_fit": "Tình huống buổi sinh hoạt bạn bè gần đời sống và không mặc định tuổi cao đồng nghĩa yếu kém. Mỗi uẩn có mục riêng hỗ trợ nhịp đọc; tổng chiều dài tăng lên vì phải giữ đủ năm lượt công thức.",
+        "clarity": "Các câu sửa đã bỏ cách nói không thuộc cả hai, thay bằng đủ nội dung nên rõ quan hệ phủ định hơn. Bài đi từng bước, tuy phần lặp định danh năm lần vẫn có thể làm người đọc mệt nếu đọc liền một lượt.",
+        "editorial_separation": "Ví dụ nhóm bạn và thực hành hỏi lại được ghi là liên hệ của người biên soạn, không được gán cho kinh. Chúng chỉ gợi nhìn lại kết luận và điều quan sát, không giải thích thay lời sâu về Như Lai.",
+        "practical_integrity": "Đề nghị hỏi người vắng, xem lại lịch hẹn và nhận ra cảm giác, ý nghĩ thay đổi phù hợp đời thường. Không đưa ra lời hứa hết khổ từ một kỹ thuật ngắn hoặc yêu cầu tin mình đã vượt mọi định danh.",
+        "technical_integrity": "Audit chỉ đọc sạch; 21 mục liên kết đủ 45 ý và 161 khóa đã được phân đầy đủ. Ba mục về thọ/tưởng/hành và refuge đã được đọc lại toàn bộ sau sửa, rồi chốt hash và năm dấu nguồn của bản cuối."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc độc lập đủ 161 khóa Pāli, Việt và Sujato theo các khoảng 0–59, 60–114, 115–160, gồm 74 ô Anh trống; toàn 8 chú thích; toàn HTML tới SC52 và credits qua 240 mảnh văn bản chuẩn hóa. Đã đọc toàn 45 ý và cả 18/17/21 mục. Phần older-adults/world bị hụt một đoạn trong một output chung đã được đọc lại trọn mục riêng. Sau sửa đọc lại đầy đủ ba refuge và ba mục older-adults/feeling, perception, formations; audit sạch, lấy hash trên canonical cuối. Không ghi metadata hoặc kiểm Actions.",
+      "contentHash": "5439f0a7bccb90f90bfbc569e6893781d0287f6a21ad5a77e9e3d06a93dca29d",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn72.html",
+          "sha256": "966f64c17e4bab88917b2ac070334dbfd8584db793319425e102023825d9d20f"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn72_root-pli-ms.json",
+          "sha256": "ebb16c7425d6514927a86c1e0fcd0e293da82e978ca72326eea2ab3e599857c3"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn72_translation-en-sujato.json",
+          "sha256": "2360ce0bf72af5d090d44cef521832938b851af11280206e8d036cd96bd9af39"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn72_comment-vi-project.json",
+          "sha256": "e3e9e66f7acf9c2d6dacd02f63f94795e27bfee1bbb4e9c7009f16b7f04a8f7a"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn72_translation-vi-project.json",
+          "sha256": "49ad91c20cb2c6444c478fe16b816cf7bc95fe738162cf775d36c390bbfad0b4"
+        }
+      ]
+    }
+  ]
+}

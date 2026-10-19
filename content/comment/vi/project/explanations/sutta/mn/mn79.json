@@ -1,0 +1,1678 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn79",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn79_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "dfbf228ebc47dccaa42b57cf733f8397940438e35ead6f63ea6a035f40db4adc"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn79_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "4fe7f9ed522818eb30d78327fe2879368cdc90281f55e687cd177d006910416a"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn79_translation-vi-project.json",
+      "commit": "255b606e1f9e7c3b7050b9f2f298d23fdca97c4a",
+      "sha256": "4dacd5cdcc32bc5c66db8f74559b2d579525ca7dfd8d90b3c73f7c2f456bac46"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn79.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "194d0ff556ec15fe66104b08e8eaf935f72d0d499e59905858958a7c5ebd5f64"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn79_comment-vi-project.json",
+      "commit": "255b606e1f9e7c3b7050b9f2f298d23fdca97c4a",
+      "sha256": "00cb913f1fe101d278f1ef449f1bdc9acc1ae8ddc8b0b1a65f4c6e3ff9e4e504"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Trung Bộ 79, Tiểu Kinh Sakuludāyi",
+      "segments": [
+        "mn79:0.1",
+        "mn79:0.2"
+      ],
+      "summary": "Tên tập và bài kinh."
+    },
+    {
+      "id": "setting",
+      "title": "Hai trú xứ tại Rājagaha",
+      "segments": [
+        "mn79:1.1",
+        "mn79:1.2",
+        "mn79:1.3"
+      ],
+      "summary": "Người truyền kinh thuật điều đã nghe: Phật ở Rājagaha, Trúc Lâm, khu nuôi sóc; Sakuludāyī ở du viện Khu Vườn Chim Công cùng hội chúng đông."
+    },
+    {
+      "id": "arrival",
+      "title": "Ghé du viện trước giờ khất thực",
+      "segments": [
+        "mn79:2.1",
+        "mn79:2.2",
+        "mn79:2.3",
+        "mn79:2.4",
+        "mn79:2.5"
+      ],
+      "summary": "Buổi sáng Phật đắp y, mang bát và y vào Rājagaha khất thực; thấy còn quá sớm, Ngài nghĩ rồi đi tới du viện gặp Sakuludāyī."
+    },
+    {
+      "id": "gossip",
+      "title": "Hội chúng bàn chuyện tầm phào",
+      "segments": [
+        "mn79:3.1",
+        "mn79:3.2"
+      ],
+      "summary": "Hội chúng ồn ào bàn đủ 27 đề tài: vua, cướp, đại thần, quân đội, sợ hãi, chiến tranh, ăn, uống, vải, giường, tràng hoa, hương, bà con, xe, làng, thị trấn, thành phố, quốc gia, phụ nữ, anh hùng, đường phố, bến nước, người đã mất, linh tinh, thế giới, biển cả, hiện hữu và không hiện hữu."
+    },
+    {
+      "id": "quiet",
+      "title": "Sakuludāyī yêu cầu yên lặng",
+      "segments": [
+        "mn79:3.3",
+        "mn79:3.4",
+        "mn79:3.5",
+        "mn79:3.6",
+        "mn79:3.7",
+        "mn79:3.8",
+        "mn79:3.9"
+      ],
+      "summary": "Thấy Phật từ xa, du sĩ bảo hội chúng im vì Sa-môn Gotama ưa và khen sự yên lặng, biết đâu thấy yên sẽ ghé. Hội chúng im; không thêm nét được rèn trong im lặng ở MN78."
+    },
+    {
+      "id": "welcome",
+      "title": "Khách ngồi chỗ sẵn, chủ ngồi ghế thấp",
+      "segments": [
+        "mn79:4.1",
+        "mn79:4.2",
+        "mn79:4.3",
+        "mn79:4.4",
+        "mn79:4.5",
+        "mn79:4.6",
+        "mn79:4.7",
+        "mn79:4.8",
+        "mn79:4.9",
+        "mn79:4.10"
+      ],
+      "summary": "Phật tới; Sakuludāyī chào mừng, nói lâu mới có dịp, mời ngồi chỗ soạn sẵn. Phật ngồi, du sĩ nhận chỗ thấp ngồi bên; Phật hỏi ông."
+    },
+    {
+      "id": "opening",
+      "title": "Câu chuyện bị gác lại",
+      "segments": [
+        "mn79:4.11",
+        "mn79:5.1",
+        "mn79:5.2",
+        "mn79:5.3",
+        "mn79:5.4",
+        "mn79:5.5",
+        "mn79:5.6",
+        "mn79:5.7"
+      ],
+      "summary": "Phật hỏi đang bàn gì và chuyện nào dở. Udāyī xin để lại vì sau nghe không khó; ông thuật khi vắng mình hội chúng nói tầm phào, khi mình đến họ nhìn mặt nghe mình dạy, khi Phật đến cả ông và họ nhìn mặt muốn nghe Phật."
+    },
+    {
+      "id": "omniscience",
+      "title": "Lời tự nhận biết tất cả bị chất vấn",
+      "segments": [
+        "mn79:6.1",
+        "mn79:6.2",
+        "mn79:6.3",
+        "mn79:6.4",
+        "mn79:6.5",
+        "mn79:6.6",
+        "mn79:6.7"
+      ],
+      "summary": "Phật mời nêu vấn đề; Udāyī kể mấy hôm trước người tự nhận biết/thấy tất cả, tri kiến không thiếu, luôn hiện khi đi/đứng/ngủ/thức, bị hỏi quá khứ thì lảng chuyện, ngoài đề, bực/giận/bất mãn. Ông nhớ Phật/Thiện Thệ thiện xảo. Phật hỏi lại ai cùng toàn nội dung ấy; ông chỉ Nigaṇṭha Nāṭaputta."
+    },
+    {
+      "id": "past-dialogue",
+      "title": "Điều kiện đối thoại về quá khứ",
+      "segments": [
+        "mn79:7.1",
+        "mn79:7.2"
+      ],
+      "summary": "Ai nhớ nhiều đời trước, một đời, hai đời và nhiều đời với đặc tả/chi tiết, có thể hỏi Phật hoặc được Phật hỏi về quá khứ; người ấy có thể làm Phật hài lòng bằng đáp án hoặc Phật làm người ấy hài lòng."
+    },
+    {
+      "id": "future-dialogue",
+      "title": "Điều kiện đối thoại về tương lai",
+      "segments": [
+        "mn79:7.3",
+        "mn79:7.4"
+      ],
+      "summary": "Ai có thiên nhãn thanh tịnh hơn mắt người, thấy chết/tái sinh, thấp/cao, đẹp/xấu, cảnh tốt/xấu, hiểu tùy nghiệp, có thể hỏi Phật hoặc được Phật hỏi tương lai; hai chiều trả lời làm người kia hài lòng đều là khả năng."
+    },
+    {
+      "id": "conditionality",
+      "title": "Bốn mệnh đề duyên sinh",
+      "segments": [
+        "mn79:7.5",
+        "mn79:7.6",
+        "mn79:7.7",
+        "mn79:7.8"
+      ],
+      "summary": "Gác quá khứ và tương lai, Phật sẽ dạy: cái này có thì cái kia có, cái này sinh thì cái kia sinh, cái này không có thì cái kia không có, cái này diệt thì cái kia diệt."
+    },
+    {
+      "id": "limits",
+      "title": "Udāyī xin nói về giáo nghĩa thầy mình",
+      "segments": [
+        "mn79:8.1",
+        "mn79:8.2",
+        "mn79:8.3",
+        "mn79:8.4",
+        "mn79:8.5",
+        "mn79:8.6",
+        "mn79:8.7",
+        "mn79:8.8",
+        "mn79:8.9",
+        "mn79:8.10"
+      ],
+      "summary": "Udāyī chưa nhớ chi tiết ngay đời này huống nhiều đời như Phật; chưa thấy quỷ bùn huống thiên nhãn vượt mắt người thấy các cặp chết/tái sinh theo nghiệp. Ông lặp đủ bốn mệnh đề duyên sinh, nói càng chưa rõ, hy vọng đáp được câu hỏi về giáo nghĩa thầy mình."
+    },
+    {
+      "id": "supreme",
+      "title": "Hai vòng định nghĩa quang sắc tối thượng",
+      "segments": [
+        "mn79:9.1",
+        "mn79:9.2",
+        "mn79:9.3",
+        "mn79:9.4",
+        "mn79:9.5",
+        "mn79:9.6",
+        "mn79:9.7",
+        "mn79:9.8"
+      ],
+      "summary": "Được hỏi giáo nghĩa, Udāyī nói đạo sư lặp hai lần quang sắc tối thượng; Phật hỏi là gì, ông đáp sắc không gì cao hay thù thắng hơn. Phật hỏi lại và ông lặp cùng định nghĩa chưa xác định đối tượng."
+    },
+    {
+      "id": "woman",
+      "title": "Mong điều chưa biết chưa thấy",
+      "segments": [
+        "mn79:10.1",
+        "mn79:10.2",
+        "mn79:10.3",
+        "mn79:10.4",
+        "mn79:10.5",
+        "mn79:10.6",
+        "mn79:10.7",
+        "mn79:10.8",
+        "mn79:10.9",
+        "mn79:10.10",
+        "mn79:10.11",
+        "mn79:10.12",
+        "mn79:10.13",
+        "mn79:10.14",
+        "mn79:10.15",
+        "mn79:10.16",
+        "mn79:10.17"
+      ],
+      "summary": "Phật nói có thể nói mãi mà chưa chỉ rõ, ví người ham người đẹp nhất xứ nhưng không biết nữ Sát-đế-lợi/Bà-la-môn/Phệ-sa/Thủ-đà, không biết tên/họ/cao-thấp-vừa/da đen-nâu-sạm vàng/làng-thị trấn-thành phố. Người ấy đáp hai lần không, vẫn muốn điều chưa biết/chưa thấy thì có. Udāyī đồng ý lời ấy không có cơ sở; Phật áp dụng lại vào quang sắc."
+    },
+    {
+      "id": "gem",
+      "title": "Viên lưu ly và lời tự ngã sau chết",
+      "segments": [
+        "mn79:11.1"
+      ],
+      "summary": "Udāyī ví lưu ly đẹp, quý tự nhiên, tám mặt, khéo làm, trên thảm len nhạt, tỏa sáng/rực rỡ/chói lọi; tự ngã sau chết không bệnh có vẻ sáng ấy. Giữ đây là chủ trương của du sĩ."
+    },
+    {
+      "id": "firefly",
+      "title": "Đom đóm hơn ngọc trong câu đáp",
+      "segments": [
+        "mn79:12.1",
+        "mn79:12.2",
+        "mn79:12.3"
+      ],
+      "summary": "Phật so đầy đủ viên lưu ly với đom đóm trong đêm tối, hỏi cái nào tuyệt vời/thù thắng hơn; Udāyī chọn đom đóm."
+    },
+    {
+      "id": "lamp",
+      "title": "Đèn dầu hơn đom đóm trong câu đáp",
+      "segments": [
+        "mn79:13.1",
+        "mn79:13.2",
+        "mn79:13.3"
+      ],
+      "summary": "Phật so đom đóm và đèn dầu đều trong đêm tối; Udāyī chọn đèn dầu tuyệt vời/thù thắng hơn."
+    },
+    {
+      "id": "fire",
+      "title": "Lửa lớn hơn đèn trong câu đáp",
+      "segments": [
+        "mn79:14.1",
+        "mn79:14.2",
+        "mn79:14.3"
+      ],
+      "summary": "Phật so đèn dầu với đống lửa lớn đều trong đêm tối; Udāyī chọn lửa lớn tuyệt vời/thù thắng hơn."
+    },
+    {
+      "id": "star",
+      "title": "Sao mai hơn lửa trong câu đáp",
+      "segments": [
+        "mn79:15.1",
+        "mn79:15.2",
+        "mn79:15.3"
+      ],
+      "summary": "Phật so lửa lớn đêm tối với sao mai lúc bình minh trời trong không mây; Udāyī chọn sao mai tuyệt vời/thù thắng hơn."
+    },
+    {
+      "id": "moon",
+      "title": "Trăng rằm hơn sao mai trong câu đáp",
+      "segments": [
+        "mn79:16.1",
+        "mn79:16.2",
+        "mn79:16.3"
+      ],
+      "summary": "Phật so sao mai bình minh với trăng ngày rằm Bố-tát lúc nửa đêm, cả hai trời trong không mây; Udāyī chọn trăng tuyệt vời/thù thắng hơn."
+    },
+    {
+      "id": "sun",
+      "title": "Mặt trời hơn trăng trong câu đáp",
+      "segments": [
+        "mn79:17.1",
+        "mn79:17.2",
+        "mn79:17.3"
+      ],
+      "summary": "Phật so trăng rằm nửa đêm với mặt trời giữa trưa, tháng cuối mùa mưa vào mùa thu, trời trong không mây; Udāyī chọn mặt trời tuyệt vời/thù thắng hơn."
+    },
+    {
+      "id": "devas",
+      "title": "Không vì biết vẻ sáng mà tự nhận tối thượng",
+      "segments": [
+        "mn79:18.1",
+        "mn79:18.2",
+        "mn79:18.3",
+        "mn79:18.4"
+      ],
+      "summary": "Phật biết rất nhiều chư thiên ánh trăng/trời không chiếu tới nhưng không tuyên bố không còn quang sắc cao/thù thắng hơn. Du sĩ gọi thứ kém đom đóm là tối thượng mà vẫn chưa chỉ rõ."
+    },
+    {
+      "id": "collapse",
+      "title": "Lần thứ nhất mất chỗ dựa của câu chuyện",
+      "segments": [
+        "mn79:19.1",
+        "mn79:19.2",
+        "mn79:19.3",
+        "mn79:19.4",
+        "mn79:19.5",
+        "mn79:19.6"
+      ],
+      "summary": "Udāyī kêu Phật/Thiện Thệ cắt câu chuyện. Khi Phật hỏi vì sao, ông nhắc giáo nghĩa quang sắc và nhận chính chúng con trở nên trống rỗng/hư vọng/thất bại khi bị hỏi vặn, xét kỹ, đối chất về nó."
+    },
+    {
+      "id": "world",
+      "title": "Thế giới hoàn toàn an vui có đường tới không",
+      "segments": [
+        "mn79:20.1",
+        "mn79:20.2",
+        "mn79:20.3"
+      ],
+      "summary": "Phật hỏi có thế giới nhất hướng lạc và đạo lộ hợp lý để chứng ngộ không; Udāyī nói giáo nghĩa thầy khẳng định có cả hai."
+    },
+    {
+      "id": "method",
+      "title": "Bốn điều tránh và một cách khổ hạnh",
+      "segments": [
+        "mn79:21.1",
+        "mn79:21.2",
+        "mn79:21.3"
+      ],
+      "summary": "Phật hỏi đạo lộ; Udāyī nêu tránh sát sinh, lấy không cho, tà hạnh trong dục, nói dối và nhận một cách khổ hạnh, coi đó là đường hợp lý tới thế giới hoàn toàn an vui."
+    },
+    {
+      "id": "mixed",
+      "title": "Năm lần tự ngã vẫn có vui lẫn khổ",
+      "segments": [
+        "mn79:22.1",
+        "mn79:22.2",
+        "mn79:22.3",
+        "mn79:22.4",
+        "mn79:22.5",
+        "mn79:22.6",
+        "mn79:22.7",
+        "mn79:22.8",
+        "mn79:22.9",
+        "mn79:22.10",
+        "mn79:22.11",
+        "mn79:22.12",
+        "mn79:22.13",
+        "mn79:22.14",
+        "mn79:22.15"
+      ],
+      "summary": "Phật hỏi riêng từng bốn điều tránh và khổ hạnh: tự ngã lúc làm việc ấy hoàn toàn vui hay lẫn vui/khổ; năm lần Udāyī đáp lẫn cả hai. Phật hỏi tiếp nương đường vui khổ lẫn có chứng thế giới hoàn toàn vui không; không sáng tác Udāyī đáp không."
+    },
+    {
+      "id": "collapse-again",
+      "title": "Lần thứ hai bị dừng chuyện rồi hỏi Phật",
+      "segments": [
+        "mn79:23.1",
+        "mn79:23.2",
+        "mn79:23.3",
+        "mn79:23.4",
+        "mn79:23.5",
+        "mn79:23.6",
+        "mn79:23.7"
+      ],
+      "summary": "Udāyī lại kêu Phật/Thiện Thệ cắt chuyện; khi được hỏi lý do, nhắc giáo nghĩa thế giới vui/đường có căn cứ, nhận chúng con trống rỗng/hư vọng/thất bại khi bị ba cách chất vấn. Rồi hỏi Phật có thế giới và đường ấy thật không."
+    },
+    {
+      "id": "affirmation",
+      "title": "Phật xác nhận có cả thế giới và con đường",
+      "segments": [
+        "mn79:24.1",
+        "mn79:24.2"
+      ],
+      "summary": "Phật xác nhận có thế giới hoàn toàn an vui và đạo lộ hợp lý tới đó; Udāyī hỏi con đường là gì."
+    },
+    {
+      "id": "path",
+      "title": "Sơ nhị tam thiền là con đường",
+      "segments": [
+        "mn79:25.1",
+        "mn79:25.2",
+        "mn79:25.3",
+        "mn79:25.4"
+      ],
+      "summary": "Tỳ-kheo ly dục/ly bất thiện, sơ thiền có tầm/tứ và hỷ/lạc do xa lìa; nhị thiền lắng tầm/tứ, nội tĩnh nhất tâm không tầm/tứ hỷ/lạc do định; tam thiền ly hỷ, xả, niệm, tỉnh giác, thân cảm lạc mà bậc Thánh gọi xả niệm lạc trú. Phật gọi đây là đường tới thế giới hoàn toàn vui; công thức mở bằng chính Sujato/HTML đã đọc."
+    },
+    {
+      "id": "distinction",
+      "title": "Chưa thể gọi con đường là đã tới đích",
+      "segments": [
+        "mn79:25.5",
+        "mn79:25.6",
+        "mn79:25.7"
+      ],
+      "summary": "Udāyī bảo tới mức ấy thế giới hoàn toàn an vui đã được chứng, không còn chỉ là đường; Phật bác rõ chưa chứng, mới chỉ là đường hợp lý."
+    },
+    {
+      "id": "outcry",
+      "title": "Hội chúng cùng đạo sư thấy bị thua",
+      "segments": [
+        "mn79:26.1",
+        "mn79:26.2",
+        "mn79:26.3",
+        "mn79:26.4"
+      ],
+      "summary": "Hội chúng ồn, kêu hai lần chúng ta cùng đạo sư bị thua/lạc rồi, không biết gì cao hơn. Sakuludāyī làm họ im rồi hỏi Phật."
+    },
+    {
+      "id": "realization",
+      "title": "Tứ thiền và gặp chư thiên ở thế giới ấy",
+      "segments": [
+        "mn79:27.1",
+        "mn79:27.2",
+        "mn79:27.3",
+        "mn79:27.4"
+      ],
+      "summary": "Udāyī hỏi mức chứng thế giới; tỳ-kheo bỏ khổ/lạc, ưu/hỷ trước đã diệt, tứ thiền không khổ/không lạc xả niệm thanh tịnh; cùng ở, trò chuyện, đàm luận với chư thiên sinh về thế giới hoàn toàn vui. Phật gọi tới mức ấy đã chứng thế giới đó."
+    },
+    {
+      "id": "higher",
+      "title": "Mục tiêu phạm hạnh là những pháp cao hơn",
+      "segments": [
+        "mn79:28.1",
+        "mn79:28.2",
+        "mn79:28.3",
+        "mn79:28.4"
+      ],
+      "summary": "Udāyī hỏi các tỳ-kheo sống phạm hạnh với Phật có phải vì chứng thế giới ấy; Phật nói không phải vì điều đó, mà có pháp khác cao/thù thắng hơn là mục tiêu. Udāyī hỏi các pháp ấy; không thêm chỉ vào phủ định."
+    },
+    {
+      "id": "training",
+      "title": "Như Lai và nền tảng của người xuất gia",
+      "segments": [
+        "mn79:29-36.1"
+      ],
+      "summary": "Giữ khóa lược thực. Như Lai đủ danh xưng A-la-hán/Chánh Đẳng Giác/minh hạnh/Thiện Thệ/Thế Gian Giải/Vô Thượng Sĩ/Điều Ngự Trượng Phu/Thiên Nhân Sư/Phật/Thế Tôn. HTML SC74–83 thực đọc mở tự chứng thế giới chư thiên/Māra/Phạm thiên/người/sa-môn/bà-la-môn; dạy tốt đầu-giữa-cuối đủ nghĩa/lời, phạm hạnh đầy đủ thanh tịnh. Người nghe tin, thấy nhà ràng buộc-xuất gia rộng, bỏ tài sản/quyến thuộc ít hoặc nhiều, cạo tóc đắp y xuất gia; đủ giới thân/lời và các điều tránh/không nhận ở SC76–78; biết đủ y/ăn ví chim mang cánh, vui không lỗi; hộ sáu căn không nắm tướng chung/riêng để tham/ưu/ác không tràn, vui không nhiễm; tỉnh giác mọi hoạt động; chọn nơi vắng, khất thực về ăn xong ngồi xếp chân lưng thẳng giữ niệm. Không tạo khóa Pāli giả cho đoạn HTML mở rộng."
+    },
+    {
+      "id": "hindrances",
+      "title": "Bỏ năm che lấp làm yếu trí tuệ",
+      "segments": [
+        "mn79:37.1"
+      ],
+      "summary": "Bỏ năm triền cái làm tâm ô nhiễm/trí tuệ yếu: dục tham, sân, hôn trầm-thụy miên, trạo cử-hối quá, nghi. HTML SC83 mở các đối trị thực đọc: tâm thoát tham, từ với mọi loài, tưởng ánh sáng/niệm/tỉnh giác, tâm yên, không do dự thiện pháp."
+    },
+    {
+      "id": "first-higher",
+      "title": "Sơ thiền trong lượt trình bày mục tiêu cao hơn",
+      "segments": [
+        "mn79:37.2",
+        "mn79:37.3"
+      ],
+      "summary": "Ly dục/ly bất thiện, chứng và an trú sơ thiền với công thức đầy đủ đã nêu; Phật gọi đây là pháp cao/thù thắng hơn mà vì chứng nó tỳ-kheo sống phạm hạnh với Ngài."
+    },
+    {
+      "id": "later-higher",
+      "title": "Ba thiền sau cũng là pháp cao hơn trong lượt này",
+      "segments": [
+        "mn79:38-40.1",
+        "mn79:38-40.2",
+        "mn79:38-40.3",
+        "mn79:38-40.4"
+      ],
+      "summary": "Nhị, tam, tứ thiền theo đủ công thức đã nêu; ở lượt con đường tu học này các tầng đều được Phật gọi pháp cao/thù thắng hơn là mục tiêu phạm hạnh. HTML SC85–87 mở lời gắn riêng từng tầng, không nhập hai lượt nói trước/sau thành một."
+    },
+    {
+      "id": "past-knowledge",
+      "title": "Trí nhớ đời trước",
+      "segments": [
+        "mn79:41.1",
+        "mn79:41.2",
+        "mn79:41.3"
+      ],
+      "summary": "Tâm định, thanh tịnh/trong sáng/không tì vết/hết ô nhiễm/mềm/dễ dùng/vững/bất động, hướng trí nhớ đời trước: 1,2,3,4,5,10,20,30,40,50,100,1000,100000 đời, nhiều kiếp hoại, thành, cả hoại/thành, đủ đặc tả chi tiết theo Sujato41.2. Phật gọi đây là pháp cao/thù thắng hơn, mục tiêu phạm hạnh."
+    },
+    {
+      "id": "rebirth-knowledge",
+      "title": "Trí biết chết và tái sinh theo nghiệp",
+      "segments": [
+        "mn79:42.1",
+        "mn79:42.2",
+        "mn79:42.3"
+      ],
+      "summary": "Với tâm định đủ tám tính chất như trước, hướng trí biết chết/tái sinh; thiên nhãn thanh tịnh vượt mắt người thấy thấp/cao, đẹp/xấu, cõi tốt/xấu, hiểu theo nghiệp. Phật gọi đây là pháp cao/thù thắng hơn, mục tiêu phạm hạnh."
+    },
+    {
+      "id": "ending-taints",
+      "title": "Trí đoạn tận lậu hoặc",
+      "segments": [
+        "mn79:43.1",
+        "mn79:43.2",
+        "mn79:43.3"
+      ],
+      "summary": "Với tâm định và đủ tám tính chất như trước, hướng trí đoạn tận lậu hoặc; biết đúng như thật hai nhóm bốn: khổ/nguồn/chấm dứt/đường dẫn chấm dứt và lậu hoặc/nguồn/chấm dứt/đường dẫn chấm dứt."
+    },
+    {
+      "id": "freedom",
+      "title": "Biết đã giải thoát",
+      "segments": [
+        "mn79:44.1",
+        "mn79:44.2",
+        "mn79:44.3",
+        "mn79:44.4"
+      ],
+      "summary": "Biết/thấy vậy, tâm thoát dục lậu, hữu lậu, vô minh lậu; khi giải thoát biết đã giải thoát, sinh tận/phạm hạnh hoàn tất/việc cần làm xong/không trở lại hiện hữu này. Phật gọi đây là pháp cao/thù thắng hơn, mục tiêu phạm hạnh."
+    },
+    {
+      "id": "summation",
+      "title": "Xác nhận mục tiêu cao hơn",
+      "segments": [
+        "mn79:44.5"
+      ],
+      "summary": "Phật tổng kết đó là những pháp cao/thù thắng hơn mà các tỳ-kheo sống phạm hạnh với Ngài để chứng ngộ."
+    },
+    {
+      "id": "praise",
+      "title": "Hai lời khen và bốn hình ảnh",
+      "segments": [
+        "mn79:45.1",
+        "mn79:45.2",
+        "mn79:45.3"
+      ],
+      "summary": "Sakuludāyī khen tuyệt vời hai lần; ví dựng vật úp, mở vật che, chỉ đường lạc, đèn trong tối cho người có mắt thấy, khen Phật nhiều cách khai mở Pháp."
+    },
+    {
+      "id": "request",
+      "title": "Quy y và xin hai bước xuất gia",
+      "segments": [
+        "mn79:45.4",
+        "mn79:45.5"
+      ],
+      "summary": "Udāyī quy y Phật/Pháp/Tăng tỳ-kheo, xin xuất gia và thọ cụ túc trước Phật; chưa được kể đã thọ giới."
+    },
+    {
+      "id": "obstruction",
+      "title": "Hội chúng ngăn thầy trở thành học trò",
+      "segments": [
+        "mn79:46.1",
+        "mn79:46.2",
+        "mn79:46.3",
+        "mn79:46.4",
+        "mn79:46.5",
+        "mn79:46.6",
+        "mn79:46.7"
+      ],
+      "summary": "Hội chúng hai lần ngăn Udāyī sống phạm hạnh với Gotama và từ thầy thành trò, ví bình nước thành gáo. Chính hội chúng ngăn ông sống phạm hạnh với Phật, không thêm xuất gia thành công."
+    },
+    {
+      "id": "ending",
+      "title": "Kết bài thứ chín",
+      "segments": [
+        "mn79:46.8"
+      ],
+      "summary": "Tiểu Kinh Sakuludāyi, bài thứ chín, kết thúc."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "MN79 — Hỏi cho rõ, đi cho tới",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Một buổi sáng ở Vườn Chim Công",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "arrival"
+          ],
+          "paragraphs": [
+            "Tiểu Kinh Sakuludāyi là bài 79 của Trung Bộ. Người truyền kinh kể lại điều đã nghe: Đức Phật ở Rājagaha, tại Trúc Lâm, khu nuôi sóc. Du sĩ Sakuludāyī thì ở cùng hội chúng đông đảo tại du viện Vườn Chim Công. Du sĩ là người tu sống đời du hành.",
+            "Buổi sáng, Đức Phật đắp y, mang theo bát và y vào thành khất thực, đi nhận thức ăn được cho. Thấy còn quá sớm, Ngài nghĩ sẽ ghé thăm Sakuludāyī, rồi đi tới du viện."
+          ]
+        },
+        {
+          "id": "noise",
+          "kind": "teaching",
+          "heading": "Tiếng chuyện trò bỗng lắng xuống",
+          "meaningUnits": [
+            "gossip",
+            "quiet"
+          ],
+          "paragraphs": [
+            "Mọi người đang nói rất ồn: chuyện vua, trộm cướp, đại thần, quân đội, sợ hãi, chiến tranh; ăn, uống, vải, giường, vòng hoa, hương; bà con, xe cộ, làng, thị trấn, thành phố, quốc gia; phụ nữ, anh hùng, đường phố, bến nước; người đã mất, chuyện linh tinh, thế giới, biển cả, hiện hữu và không hiện hữu.",
+            "Thấy Đức Phật từ xa, Sakuludāyī bảo mọi người im. Sa-môn Gotama, tức Đức Phật, thích và khen sự yên tĩnh; biết đâu thấy hội chúng yên, Ngài sẽ muốn ghé vào. Các du sĩ im tiếng."
+          ]
+        },
+        {
+          "id": "welcome",
+          "kind": "teaching",
+          "heading": "Chỗ ngồi đã sẵn",
+          "meaningUnits": [
+            "welcome",
+            "opening"
+          ],
+          "paragraphs": [
+            "Sakuludāyī chào mừng Đức Phật, nói đã lâu Ngài mới đến và mời ngồi chỗ chuẩn bị sẵn. Ngài ngồi; du sĩ lấy một ghế thấp ngồi bên. Đức Phật hỏi mọi người đang bàn chuyện gì, câu chuyện nào còn dở.",
+            "Udāyī xin để chuyện ấy lại, vì sau này Ngài nghe cũng không khó. Ông kể: khi ông vắng, hội chúng nói chuyện tầm phào; khi ông có mặt, họ nhìn lên mặt ông và chờ nghe ông dạy. Còn khi Đức Phật tới, cả ông lẫn hội chúng đều nhìn lên Ngài, muốn nghe điều Ngài sẽ nói."
+          ]
+        },
+        {
+          "id": "claim",
+          "kind": "teaching",
+          "heading": "Lời nói “biết tất cả” gặp một câu hỏi",
+          "meaningUnits": [
+            "omniscience"
+          ],
+          "paragraphs": [
+            "Đức Phật mời Udāyī nêu một vấn đề. Ông kể rằng mấy hôm trước có người tự nhận biết tất cả, thấy tất cả, hiểu biết không thiếu gì, luôn biết khi đi, đứng, ngủ, thức. Nhưng khi ông hỏi chuyện quá khứ, người ấy lại lảng sang chuyện khác, ra ngoài đề, rồi bực bội, giận dữ và bất mãn.",
+            "Lúc ấy ông nhớ tới Đức Phật, bậc Thiện Thệ — một danh xưng ca ngợi Ngài đã đi đến tốt lành — vì Ngài khéo hiểu những việc này. Đức Phật nhắc lại lời tự nhận cùng cách né câu hỏi, rồi hỏi người ấy là ai. Udāyī đáp: Nigaṇṭha Nāṭaputta."
+          ]
+        },
+        {
+          "id": "past-future",
+          "kind": "teaching",
+          "heading": "Trao đổi về quá khứ và tương lai",
+          "meaningUnits": [
+            "past-dialogue",
+            "future-dialogue"
+          ],
+          "paragraphs": [
+            "Đức Phật nói: người có thể nhớ nhiều đời trước, từ một đời, hai đời đến nhiều đời với đầy chi tiết, có thể hỏi Ngài về quá khứ hoặc được Ngài hỏi. Người ấy có thể làm Ngài hài lòng bằng câu đáp; Ngài cũng có thể làm người ấy hài lòng.",
+            "Cũng thế, người có thiên nhãn, khả năng thấy thanh tịnh vượt mắt thường, thấy chúng sinh chết rồi tái sinh, thấp hay cao, đẹp hay xấu, về cảnh tốt hay xấu theo nghiệp — những việc họ đã làm — có thể trao đổi với Ngài về tương lai. Cả hai chiều hỏi và đáp làm người kia hài lòng đều được nêu."
+          ]
+        },
+        {
+          "id": "conditions",
+          "kind": "teaching",
+          "heading": "Bốn câu về điều kiện sinh khởi",
+          "meaningUnits": [
+            "conditionality",
+            "limits"
+          ],
+          "paragraphs": [
+            "Rồi Đức Phật gác quá khứ và tương lai, nói về mối liên hệ giữa các điều kiện: khi cái này có, cái kia có; khi cái này sinh, cái kia sinh; khi cái này không có, cái kia không có; khi cái này diệt, cái kia diệt.",
+            "Udāyī thú thật: chuyện đã trải qua ngay đời này ông còn không nhớ đủ, huống chi nhiều đời trước như Đức Phật. Một con quỷ bùn ông còn không thấy, huống chi có thiên nhãn thấy chết và tái sinh, thấp cao, đẹp xấu, cảnh tốt xấu theo nghiệp. Ông nhắc lại cả bốn câu có, sinh, không có, diệt mà Ngài vừa dạy, rồi nói điều ấy lại càng chưa rõ với mình. Ông hy vọng có thể đáp được nếu hỏi về lời thầy mình dạy."
+          ]
+        },
+        {
+          "id": "supreme",
+          "kind": "teaching",
+          "heading": "“Cao nhất” là cái nào?",
+          "meaningUnits": [
+            "supreme"
+          ],
+          "paragraphs": [
+            "Được hỏi giáo nghĩa ấy là gì, Udāyī kể lời thầy nói hai lần: đây là quang sắc tối thượng. Quang sắc là vẻ sáng rực rỡ. Đức Phật hỏi vẻ sáng ấy là gì. Ông đáp: vẻ sáng không có gì cao hơn, tốt hơn. Ngài hỏi lại chính vẻ sáng ấy là gì; ông vẫn lặp cùng câu trả lời."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: quyển sách “hay nhất”",
+          "meaningUnits": [
+            "supreme",
+            "woman"
+          ],
+          "paragraphs": [
+            "Giả sử em nghe một bạn nói có quyển sách hay nhất. Hỏi tên sách, bạn không biết; hỏi sách kể gì, bạn cũng không biết, chỉ nói “hay nhất là không sách nào hay hơn”. Em vẫn chưa biết bạn đang nói đến quyển nào. Đây là ví dụ hiện đại giúp thấy vì sao một lời khen cần được nói cho rõ, không phải câu chuyện trong kinh."
+          ]
+        },
+        {
+          "id": "woman",
+          "kind": "teaching",
+          "heading": "Mong một người chưa từng biết",
+          "meaningUnits": [
+            "woman"
+          ],
+          "paragraphs": [
+            "Đức Phật bảo cách nói ấy có thể kéo dài mãi mà vẫn chưa chỉ ra điều đang nói. Ngài ví một người khao khát người phụ nữ đẹp nhất trong xứ. Hỏi nàng thuộc tầng lớp nào trong bốn nhóm thời ấy — Sát-đế-lợi, Bà-la-môn, Phệ-sa, Thủ-đà — người ấy không biết. Hỏi tên họ, cao thấp hay vừa, da đen, nâu hay vàng sạm, ở làng, thị trấn hay thành phố nào, người ấy cũng không biết.",
+            "Vậy vẫn mong điều mình chưa biết, chưa thấy sao? Người ấy đáp có. Udāyī đồng ý rằng lời ấy không có cơ sở rõ ràng. Đức Phật chỉ ra lời nói về quang sắc tối thượng cũng đang như vậy."
+          ]
+        },
+        {
+          "id": "gem",
+          "kind": "teaching",
+          "heading": "Từ viên ngọc đến những ánh sáng khác",
+          "meaningUnits": [
+            "gem",
+            "firefly",
+            "lamp",
+            "fire"
+          ],
+          "paragraphs": [
+            "Udāyī đưa một hình ảnh: viên ngọc lưu ly đẹp, quý tự nhiên, tám mặt, được làm khéo, đặt trên thảm len màu nhạt, sáng rực và chói lọi. Ông cho rằng tự ngã, cái ông gọi là bản thân sau khi chết, không bệnh, có vẻ sáng như thế.",
+            "Đức Phật lần lượt hỏi trong mỗi cặp, ánh sáng nào tuyệt vời hơn. So viên ngọc ấy với đom đóm trong đêm tối, Udāyī chọn đom đóm. So đom đóm với đèn dầu trong đêm tối, ông chọn đèn dầu. So đèn dầu với đống lửa lớn cũng trong đêm tối, ông chọn lửa lớn."
+          ]
+        },
+        {
+          "id": "sky",
+          "kind": "teaching",
+          "heading": "Những câu đáp tiếp tục đi xa hơn",
+          "meaningUnits": [
+            "star",
+            "moon",
+            "sun",
+            "devas"
+          ],
+          "paragraphs": [
+            "So đống lửa với sao mai lúc bình minh trời trong không mây, ông chọn sao mai. So sao mai với trăng rằm ngày Bố-tát, ngày thực hành giới, lúc nửa đêm trời trong không mây, ông chọn trăng. So trăng ấy với mặt trời giữa trưa, trời không mây, vào tháng cuối mùa mưa thuộc mùa thu, ông chọn mặt trời.",
+            "Đức Phật nói Ngài biết rất nhiều vị thiên mà ánh trăng, ánh mặt trời không chiếu tới. Dù vậy, Ngài không tuyên bố rằng chẳng còn quang sắc nào cao hơn hay tốt hơn. Còn thứ Udāyī gọi tối thượng lại thua cả đom đóm trong các câu đáp của chính ông, và vẫn chưa được chỉ rõ."
+          ]
+        },
+        {
+          "id": "first-break",
+          "kind": "teaching",
+          "heading": "Khi lời quen thuộc không còn đáp được",
+          "meaningUnits": [
+            "collapse",
+            "world",
+            "method"
+          ],
+          "paragraphs": [
+            "Udāyī kêu rằng Đức Phật, bậc Thiện Thệ, đã cắt ngang câu chuyện. Ngài hỏi vì sao. Ông nhắc lại giáo nghĩa quang sắc tối thượng và nhận: khi bị hỏi vặn, xét kỹ, đối chất, chính chúng con trở nên trống rỗng, lời không còn đứng vững, bị thua.",
+            "Đức Phật hỏi có thế giới hoàn toàn an vui và con đường có căn cứ để chứng được nơi ấy không. Udāyī nói thầy mình dạy có cả hai. Được hỏi đường đi, ông nêu: tránh giết sinh vật, lấy đồ không được cho, tà hạnh trong dục — quan hệ tình dục sai trái — và nói dối; thêm việc nhận một cách khổ hạnh, tự chịu khó nhọc để tu."
+          ]
+        },
+        {
+          "id": "mixed",
+          "kind": "teaching",
+          "heading": "Năm lần hỏi về vui và khổ",
+          "meaningUnits": [
+            "mixed",
+            "collapse-again",
+            "affirmation"
+          ],
+          "paragraphs": [
+            "Đức Phật hỏi từng việc một. Trong khi tránh giết, tự ngã mà Udāyī nói đến hoàn toàn vui hay vẫn có cả vui và khổ? Ông đáp có cả hai. Ngài hỏi tiếp khi tránh lấy đồ không cho, khi tránh tà hạnh, khi tránh nói dối, khi thực hành khổ hạnh; cả bốn lần ông cũng đáp có vui và khổ. Ngài hỏi: vậy nhờ con đường còn lẫn vui khổ, có chứng được thế giới hoàn toàn vui không?",
+            "Udāyī lại kêu Đức Phật, bậc Thiện Thệ, đã cắt câu chuyện. Khi được hỏi lý do, ông nhắc giáo nghĩa về thế giới vui và đường tới đó, rồi nhận chúng con bị hỏi vặn, xét kỹ, đối chất nên trống rỗng, không đứng vững, bị thua. Ông quay sang hỏi Đức Phật có thật thế giới ấy và con đường ấy không. Ngài xác nhận có cả hai; ông xin nghe con đường."
+          ]
+        },
+        {
+          "id": "three",
+          "kind": "teaching",
+          "heading": "Ba tầng thiền trên đường đi",
+          "meaningUnits": [
+            "path"
+          ],
+          "paragraphs": [
+            "Đức Phật nói về tỳ-kheo, người xuất gia tu theo Ngài. Vị ấy xa lìa thú vui giác quan và điều bất thiện, tức không lành, chứng và ở trong sơ thiền. Tầng thứ nhất có tầm, đưa tâm đến đối tượng, và tứ, giữ tâm gắn với đối tượng; có hỷ là niềm vui và lạc là sự dễ chịu, an vui do xa lìa sinh ra.",
+            "Khi tầm, tứ lắng, vị ấy vào nhị thiền: không tầm tứ, bên trong trong sáng, tâm thống nhất, hỷ lạc do định — sự tập trung vững vàng — sinh ra. Khi hỷ lắng, vị ấy vào tam thiền: giữ xả, sự bình thản, có niệm, nhớ biết, và tỉnh giác, biết rõ; thân cảm nhận an vui. Các bậc Thánh gọi đó là an trú trong xả, niệm và lạc. Đây là con đường tới thế giới hoàn toàn an vui."
+          ]
+        },
+        {
+          "id": "not-yet",
+          "kind": "teaching",
+          "heading": "Người hỏi tưởng đã tới đích",
+          "meaningUnits": [
+            "distinction",
+            "outcry"
+          ],
+          "paragraphs": [
+            "Udāyī cho rằng đến thế đã chứng được thế giới hoàn toàn vui rồi, đâu còn chỉ là đường đi. Đức Phật nói rõ: chưa phải đã chứng; đó mới chỉ là con đường có căn cứ.",
+            "Hội chúng bỗng ồn lên, kêu hai lần rằng chúng ta cùng các thầy đã bị thua rồi; họ không biết gì cao hơn nữa. Sakuludāyī làm mọi người im, rồi hỏi đến mức nào mới thật sự chứng thế giới ấy."
+          ]
+        },
+        {
+          "id": "fourth",
+          "kind": "teaching",
+          "heading": "Một bước khác và một mục tiêu cao hơn",
+          "meaningUnits": [
+            "realization",
+            "higher"
+          ],
+          "paragraphs": [
+            "Đức Phật nêu tứ thiền: vị ấy bỏ lạc và khổ, vui và buồn trước đó đã lắng, vào tầng thiền thứ tư không khổ không lạc, niệm trong sạch nhờ xả. Vị ấy cùng ở, trò chuyện, đàm luận với các vị thiên đã sinh vào thế giới hoàn toàn an vui. Đến mức ấy mới gọi là chứng được thế giới đó.",
+            "Udāyī hỏi có phải vì chứng nơi ấy mà các tỳ-kheo sống phạm hạnh, đời tu thanh tịnh, với Đức Phật không. Ngài đáp không phải vì điều đó; còn những pháp cao hơn, tốt hơn là mục tiêu họ tu với Ngài. Udāyī xin nghe các pháp ấy."
+          ]
+        },
+        {
+          "id": "teacher",
+          "kind": "teaching",
+          "heading": "Bắt đầu từ lời dạy của Như Lai",
+          "meaningUnits": [
+            "training"
+          ],
+          "paragraphs": [
+            "Đức Phật kể con đường tu học khi Như Lai xuất hiện ở đời. Như Lai là cách Ngài nói về mình: bậc A-la-hán, giải thoát đáng kính; Chánh Đẳng Giác, giác ngộ trọn vẹn; đầy đủ hiểu biết và hạnh tu; Thiện Thệ; hiểu thế gian; bậc không ai hơn; người dẫn dắt những người có thể được rèn luyện; thầy của chư thiên và loài người; Phật, bậc tỉnh thức; Thế Tôn, bậc được tôn kính.",
+            "Ngài tự chứng biết thế giới có chư thiên, Māra, Phạm thiên, người, các sa-môn và bà-la-môn — người thuộc truyền thống kinh điển, nghi lễ — rồi dạy điều đã biết. Lời dạy tốt từ đầu, giữa đến cuối, đủ ý và lời, chỉ đời tu hoàn toàn thanh tịnh."
+          ]
+        },
+        {
+          "id": "leaving",
+          "kind": "teaching",
+          "heading": "Người nghe chọn đời xuất gia",
+          "meaningUnits": [
+            "training"
+          ],
+          "paragraphs": [
+            "Một người tại gia, con của gia đình ấy hoặc người thuộc tầng lớp khác nghe rồi có lòng tin. Người ấy thấy đời gia đình nhiều ràng buộc, đời xuất gia rộng mở như không gian, muốn sống đời tu trong sạch trọn vẹn như vỏ ốc trắng. Sau đó người ấy bỏ tài sản ít hoặc nhiều, quyến thuộc ít hoặc nhiều, cạo tóc râu, mặc y và sống không gia đình."
+          ]
+        },
+        {
+          "id": "conduct",
+          "kind": "teaching",
+          "heading": "Học giữ thân và lời",
+          "meaningUnits": [
+            "training"
+          ],
+          "paragraphs": [
+            "Vị ấy theo giới và nếp sống tỳ-kheo: không giết, bỏ gậy kiếm, biết hổ thẹn và sợ việc xấu, thương mọi loài; không lấy của không cho, chỉ nhận đồ được cho; sống độc thân thanh tịnh, xa quan hệ tình dục.",
+            "Vị ấy nói thật, đáng tin, không lừa; không mang chuyện bên này sang bên kia để chia rẽ, mà nối người bất hòa, vui với hòa hợp. Không nói ác, nói dịu dàng, dễ nghe, chạm tới lòng người; không tán chuyện vô ích, nói đúng lúc, thật, có nghĩa, về Pháp và giới luật, có mạch lạc và ích lợi."
+          ]
+        },
+        {
+          "id": "simple",
+          "kind": "teaching",
+          "heading": "Giữ đời tu gọn và trong sạch",
+          "meaningUnits": [
+            "training"
+          ],
+          "paragraphs": [
+            "Vị ấy tránh làm hại hạt giống, cây cỏ; ăn một bữa trong ngày, không ăn đêm hay sai giờ; tránh xem múa, hát, nhạc, trình diễn; không dùng vòng hoa, hương, dầu thoa, trang sức, kiểu làm đẹp, giường cao lớn.",
+            "Vị ấy không nhận vàng bạc, hạt sống, thịt sống, phụ nữ, con gái, nô tỳ nam nữ (những người bị coi là tài sản), dê cừu, gia cầm, heo, voi, bò, ngựa, ngựa cái, ruộng đất; không làm hay nhờ người môi giới, không buôn bán. Tránh gian cân, tiền, đo lường; hối lộ, gian trá, lừa đảo; làm thương tổn, giết, giam giữ, ép lấy, trộm và cướp. Đó là nếp sống dành cho người xuất gia được kể ở đây."
+          ]
+        },
+        {
+          "id": "enough",
+          "kind": "teaching",
+          "heading": "Nhẹ hành trang, giữ các cửa giác quan",
+          "meaningUnits": [
+            "training"
+          ],
+          "paragraphs": [
+            "Biết đủ y che thân và thức ăn nuôi bụng, vị ấy mang theo những vật cần dùng như chim đi đâu mang theo đôi cánh. Có giới tốt, vị ấy hưởng niềm vui không lỗi lầm.",
+            "Khi mắt thấy, tai nghe, mũi ngửi, lưỡi nếm, thân chạm, ý nhận biết, vị ấy không bám hình chung hay chi tiết; giữ tâm để tham muốn, buồn phiền và điều không lành không tràn vào. Giữ cả sáu cửa ấy đem lại niềm vui không nhiễm bẩn."
+          ]
+        },
+        {
+          "id": "awareness",
+          "kind": "teaching",
+          "heading": "Biết rõ từng việc và tìm chỗ vắng",
+          "meaningUnits": [
+            "training"
+          ],
+          "paragraphs": [
+            "Vị ấy tỉnh giác khi đi tới lui, nhìn thẳng quanh, co duỗi, mang y kép, bát và y ngoài; khi ăn uống nhai nuốt, đi vệ sinh; khi đi đứng ngồi nằm, thức, nói, im. Đã có giới, giữ các căn và niệm tỉnh giác, vị ấy chọn rừng, gốc cây, khe núi, hang đá, bãi tha ma, lùm cây ngoài trời hoặc đống rơm.",
+            "Sau khi khất thực trở về và ăn xong, vị ấy ngồi xếp chân, lưng thẳng, đặt niệm trước mặt."
+          ]
+        },
+        {
+          "id": "hindrances",
+          "kind": "teaching",
+          "heading": "Năm điều che lấp được bỏ đi",
+          "meaningUnits": [
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Vị ấy bỏ dục tham, ham thú vui giác quan, để tâm thoát tham; bỏ sân hận, giữ lòng thương mọi loài. Bỏ sự trì trệ, buồn ngủ, giữ tưởng ánh sáng cùng niệm và biết rõ. Bỏ xao động, hối tiếc, để lòng yên. Bỏ nghi ngờ, không phân vân về điều thiện. Đây là năm triền cái, năm thứ che lấp làm tâm ô nhiễm và trí tuệ yếu đi."
+          ]
+        },
+        {
+          "id": "higher-meditation",
+          "kind": "teaching",
+          "heading": "Bốn thiền trong con đường tu học này",
+          "meaningUnits": [
+            "first-higher",
+            "later-higher"
+          ],
+          "paragraphs": [
+            "Sau khi bỏ năm che lấp, vị ấy ly dục và điều không lành, vào sơ thiền với tầm tứ và hỷ lạc do xa lìa. Rồi lần lượt vào nhị thiền không tầm tứ, nội tâm trong sáng thống nhất, hỷ lạc do định; tam thiền ly hỷ, xả, niệm, biết rõ, thân an vui; tứ thiền hết khổ lạc và vui buồn trước, không khổ không lạc, xả niệm thanh tịnh.",
+            "Trong lượt trình bày con đường này, Đức Phật gọi từng tầng thiền ấy là pháp cao hơn, tốt hơn mà các tỳ-kheo sống phạm hạnh với Ngài để chứng đạt."
+          ]
+        },
+        {
+          "id": "memory",
+          "kind": "teaching",
+          "heading": "Trí nhớ các đời trước",
+          "meaningUnits": [
+            "past-knowledge"
+          ],
+          "paragraphs": [
+            "Với tâm định, thanh tịnh, sáng, không tì vết, không ô nhiễm, mềm, dễ sử dụng, vững và không lay động, vị ấy hướng tới trí nhớ đời trước. Kinh kể việc nhớ rõ một, hai, ba, bốn, năm; mười, hai mươi, ba mươi, bốn mươi, năm mươi; một trăm, một nghìn, một trăm nghìn đời; nhiều thời kỳ thế giới tan hoại, hình thành, cả hoại lẫn thành, với đầy chi tiết. Đức Phật gọi đây cũng là pháp cao hơn, tốt hơn, là mục tiêu tu học ấy."
+          ]
+        },
+        {
+          "id": "rebirth",
+          "kind": "teaching",
+          "heading": "Thấy chết và tái sinh theo nghiệp",
+          "meaningUnits": [
+            "rebirth-knowledge"
+          ],
+          "paragraphs": [
+            "Vẫn từ tâm định có đủ những phẩm chất trong sạch, sáng, không tì vết, không ô nhiễm, mềm, dễ dùng, vững và bất động ấy, vị ấy hướng tới trí thấy chúng sinh chết và tái sinh. Thiên nhãn thanh tịnh vượt mắt người thấy thấp cao, đẹp xấu, cảnh tốt xấu, hiểu sự tái sinh theo nghiệp. Đức Phật gọi đây cũng là pháp cao hơn, tốt hơn mà người tu với Ngài hướng tới."
+          ]
+        },
+        {
+          "id": "release",
+          "kind": "teaching",
+          "heading": "Hiểu khổ và chấm dứt các ràng buộc",
+          "meaningUnits": [
+            "ending-taints",
+            "freedom",
+            "summation"
+          ],
+          "paragraphs": [
+            "Cũng với tâm định đầy đủ những phẩm chất ấy, vị ấy hướng trí đến việc dứt lậu hoặc, các ô nhiễm trói buộc tâm. Vị ấy biết đúng sự thật về khổ, nguồn của khổ, sự dứt khổ, đường dẫn tới dứt khổ; rồi biết lậu hoặc, nguồn của chúng, sự dứt chúng và đường dẫn tới sự dứt ấy.",
+            "Biết và thấy như vậy, tâm thoát dục lậu, ràng buộc bởi dục; hữu lậu, ràng buộc bởi sự hiện hữu; vô minh lậu, ràng buộc do không biết đúng. Đã giải thoát, vị ấy biết đã giải thoát: sinh đã hết, đời phạm hạnh hoàn tất, việc cần làm đã xong, không trở lại trạng thái hiện hữu này. Đức Phật gọi đó là pháp cao hơn, tốt hơn và kết lại rằng những pháp này là mục tiêu tu học với Ngài."
+          ]
+        },
+        {
+          "id": "request",
+          "kind": "teaching",
+          "heading": "Sakuludāyī muốn học theo",
+          "meaningUnits": [
+            "praise",
+            "request"
+          ],
+          "paragraphs": [
+            "Udāyī thốt hai lần lời khen tuyệt vời. Ông ví Đức Phật như người dựng vật bị úp, mở vật bị che, chỉ đường cho người lạc, thắp đèn trong tối để người có mắt thấy. Ngài đã mở Pháp bằng nhiều cách.",
+            "Ông xin quy y, nương theo Đức Phật, Pháp và Tăng chúng tỳ-kheo; xin được xuất gia và thọ cụ túc, được truyền giới để chính thức trở thành tỳ-kheo."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Một lời ngăn ở cuối cuộc gặp",
+          "meaningUnits": [
+            "obstruction",
+            "ending"
+          ],
+          "paragraphs": [
+            "Nhưng hội chúng ngăn ông. Hai lần họ bảo đừng sống phạm hạnh với Gotama, đừng từ người thầy trở thành học trò. Họ ví việc ấy như một bình nước trở thành cái gáo. Vì sự ngăn trở của hội chúng, Sakuludāyī không được đi vào đời tu với Đức Phật trong câu chuyện này. Tiểu Kinh Sakuludāyi kết thúc, là bài thứ chín trong phẩm."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: hỏi cho rõ",
+          "meaningUnits": [
+            "supreme",
+            "distinction"
+          ],
+          "paragraphs": [
+            "Khi nghe một điều được khen là tốt nhất, em có thể hỏi nhẹ nhàng: điều ấy là gì, người nói biết bằng cách nào? Khi đang học một việc, em cũng có thể hỏi mình đang tập bước nào, đã làm được việc ấy chưa. Đây là gợi ý đời thường để tập hiểu rõ, không phải phép thử các chứng đạt thiền trong kinh."
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "MN79 — Làm rõ điều mình tin và con đường mình đi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Cuộc gặp mở ra một phép xét lại niềm tin",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "arrival"
+          ],
+          "paragraphs": [
+            "MN79, Tiểu Kinh Sakuludāyi, mở bằng lời người truyền kinh thuật điều đã nghe. Đức Phật ở Rājagaha, tại Trúc Lâm, khu nuôi sóc; Sakuludāyī cùng hội chúng đông đảo ở du viện Vườn Chim Công. Du sĩ là những người tu sống đời du hành.",
+            "Sáng ấy, Đức Phật đắp y, mang bát và y vào Rājagaha khất thực. Nhận thấy còn quá sớm để nhận thức ăn, Ngài nghĩ đến việc thăm Sakuludāyī rồi đi tới du viện."
+          ]
+        },
+        {
+          "id": "assembly",
+          "kind": "teaching",
+          "heading": "Từ cuộc chuyện phiếm đến chỗ ngồi thấp",
+          "meaningUnits": [
+            "gossip",
+            "quiet",
+            "welcome",
+            "opening"
+          ],
+          "paragraphs": [
+            "Hội chúng đang ồn ào bàn chuyện vua, cướp, đại thần, quân đội, sợ hãi, chiến tranh; ăn, uống, vải, giường, tràng hoa, hương; bà con, xe, làng, thị trấn, thành phố, quốc gia; phụ nữ, anh hùng, đường phố, bến nước, người đã mất, chuyện linh tinh, thế giới, biển cả, hiện hữu và không hiện hữu.",
+            "Thấy Phật từ xa, Sakuludāyī yêu cầu im tiếng: Gotama ưa và khen yên lặng, biết đâu thấy hội chúng yên Ngài sẽ ghé. Mọi người im. Du sĩ chào mừng, nói đã lâu Ngài mới đến, mời ngồi chỗ sẵn. Phật ngồi; ông lấy ghế thấp ngồi bên.",
+            "Ngài hỏi họ đang bàn gì, chuyện nào còn dở. Udāyī xin gác lại vì sau nghe cũng không khó. Ông tự thuật: khi mình vắng, hội chúng nói chuyện tầm phào; khi mình tới, họ nhìn mặt chờ nghe mình dạy; khi Phật tới, cả mình và họ đều nhìn Ngài, muốn nghe Ngài dạy."
+          ]
+        },
+        {
+          "id": "omniscience",
+          "kind": "teaching",
+          "heading": "Danh xưng rộng đến đâu, khả năng trả lời đến đâu?",
+          "meaningUnits": [
+            "omniscience"
+          ],
+          "paragraphs": [
+            "Được Phật mời nêu vấn đề, Udāyī kể chuyện mấy hôm trước: một người tự nhận biết tất cả, thấy tất cả, tri kiến không thiếu, luôn hiện tiền khi đi, đứng, ngủ, thức. Khi bị hỏi về quá khứ, người ấy lảng bằng chuyện khác, đưa câu chuyện ngoài đề, bộc lộ bực bội, giận dữ, bất mãn. Udāyī nhớ tới Đức Phật, bậc Thiện Thệ, danh hiệu chỉ bậc đã đi đến tốt lành, vì Ngài thiện xảo về những việc ấy.",
+            "Đức Phật nhắc đầy đủ lời tự nhận cùng cách phản ứng khi bị hỏi, rồi hỏi đó là ai. Udāyī nêu tên Nigaṇṭha Nāṭaputta. Cả lời tuyên bố lẫn cách né tránh đang được Udāyī thuật lại."
+          ]
+        },
+        {
+          "id": "capacity",
+          "kind": "teaching",
+          "heading": "Điều kiện của cuộc đối thoại về quá khứ và tương lai",
+          "meaningUnits": [
+            "past-dialogue",
+            "future-dialogue",
+            "conditionality",
+            "limits"
+          ],
+          "paragraphs": [
+            "Đức Phật nói người nhớ nhiều đời trước, từ một, hai đời đến nhiều đời với đủ đặc tả, chi tiết, có thể hỏi Ngài về quá khứ hoặc được Ngài hỏi; người ấy có thể làm Ngài hài lòng bằng lời đáp, hoặc Ngài làm người ấy hài lòng. Người có thiên nhãn thanh tịnh vượt mắt người, thấy chết và tái sinh, thấp/cao, đẹp/xấu, cảnh tốt/xấu, hiểu chúng sinh tùy nghiệp (những hành động họ đã làm), cũng có thể hỏi và đáp về tương lai theo cả hai chiều ấy.",
+            "Rồi Ngài gác quá khứ, tương lai để dạy mối liên hệ có điều kiện: cái này có thì cái kia có; cái này sinh thì cái kia sinh; cái này không có thì cái kia không có; cái này diệt thì cái kia diệt.",
+            "Udāyī nhận ngay chuyện trải qua trong đời này mình còn không nhớ đủ, huống chi nhiều đời như Phật; một con quỷ bùn còn không thấy, huống chi thiên nhãn biết chết/tái sinh với những cặp thấp cao, đẹp xấu, cảnh tốt xấu theo nghiệp. Ông nhắc đủ bốn mệnh đề có, sinh, không có, diệt và nói lại càng chưa rõ. Ông hy vọng có thể đáp được về giáo nghĩa của thầy mình."
+          ]
+        },
+        {
+          "id": "definition",
+          "kind": "teaching",
+          "heading": "Một định nghĩa cứ quay về chính nó",
+          "meaningUnits": [
+            "supreme",
+            "woman"
+          ],
+          "paragraphs": [
+            "Được hỏi giáo nghĩa ấy, Udāyī dẫn lời thầy lặp hai lần về quang sắc tối thượng, vẻ sáng rực rỡ cao nhất. Phật hỏi đó là gì; ông đáp đó là quang sắc không có gì cao hơn, thù thắng hơn. Ngài hỏi lại chính quang sắc ấy là gì; ông vẫn lặp định nghĩa đó.",
+            "Phật chỉ ra có thể nói mãi như vậy mà chưa xác định đối tượng. Ngài ví người khao khát người phụ nữ đẹp nhất xứ nhưng không biết nàng thuộc một trong bốn tầng lớp Sát-đế-lợi, Bà-la-môn, Phệ-sa, Thủ-đà; không biết tên họ, cao thấp hay vừa, da đen, nâu hay sạm vàng, sống ở làng, thị trấn hay thành phố nào. Hai lượt hỏi đều đáp không. Hỏi có phải đang mong điều chưa biết, chưa thấy, người ấy đáp có. Udāyī đồng ý lời ấy không có cơ sở; Phật áp dụng lại vào quang sắc chưa được chỉ rõ."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: một lời giới thiệu thiếu nội dung",
+          "meaningUnits": [
+            "supreme",
+            "woman"
+          ],
+          "paragraphs": [
+            "Một dịch vụ được giới thiệu là “giải pháp tốt nhất”. Khi hỏi nó giải quyết việc gì, theo điều kiện nào, người giới thiệu chỉ đáp “tốt nhất vì không gì tốt hơn”. Ta vẫn chưa có cơ sở để đánh giá. Ví dụ hiện đại này giúp nhận ra khoảng trống của định nghĩa vòng quanh, không phải một phép đồng nhất dịch vụ với giáo pháp."
+          ]
+        },
+        {
+          "id": "lights",
+          "kind": "teaching",
+          "heading": "Chuỗi so sánh dựa trên chính câu đáp của Udāyī",
+          "meaningUnits": [
+            "gem",
+            "firefly",
+            "lamp",
+            "fire",
+            "star",
+            "moon",
+            "sun",
+            "devas"
+          ],
+          "paragraphs": [
+            "Udāyī mô tả lưu ly đẹp, quý tự nhiên, tám mặt, khéo gia công, đặt trên thảm len nhạt, tỏa sáng, rực rỡ, chói lọi. Ông nói tự ngã, cái ông xem là bản thân, sau chết không bệnh có quang sắc như vậy. Đây là lời trình bày quan niệm của ông.",
+            "Phật hỏi từng cặp cái nào tuyệt vời và thù thắng hơn. Udāyī chọn đom đóm trong đêm tối hơn viên ngọc; đèn dầu trong đêm tối hơn đom đóm; lửa lớn trong đêm tối hơn đèn. Ông chọn sao mai lúc bình minh trời trong không mây hơn lửa; trăng rằm Bố-tát, ngày thực hành giới, vào nửa đêm trời không mây hơn sao mai; mặt trời giữa trưa, trời không mây, tháng cuối mùa mưa thuộc mùa thu hơn trăng ấy.",
+            "Phật biết rất nhiều chư thiên mà ánh trăng, ánh mặt trời không chiếu tới, nhưng không tuyên bố không còn quang sắc cao hơn, thù thắng hơn. Trong khi đó, điều Udāyī vừa gọi tối thượng còn kém đom đóm theo câu đáp của ông, và ông vẫn chưa chỉ rõ nó."
+          ]
+        },
+        {
+          "id": "first-break",
+          "kind": "teaching",
+          "heading": "Chủ trương về một thế giới hoàn toàn an vui",
+          "meaningUnits": [
+            "collapse",
+            "world",
+            "method"
+          ],
+          "paragraphs": [
+            "Udāyī kêu Phật, bậc Thiện Thệ, đã cắt câu chuyện. Được hỏi vì sao, ông nhắc giáo nghĩa quang sắc tối thượng và nhận chính chúng con trở nên trống rỗng, hư vọng, thất bại khi bị vấn nạn, xét hỏi kỹ, đối chất.",
+            "Phật hỏi có thế giới nhất hướng lạc, hoàn toàn an vui, và đạo lộ hợp lý tới sự chứng ngộ ấy không. Udāyī nói thầy dạy có cả hai. Đạo lộ ông nêu gồm tránh sát sinh, lấy của không cho, tà hạnh trong dục, những quan hệ tình dục sai trái, nói dối, rồi nhận lấy một hình thức khổ hạnh, tự chịu khó nhọc để tu."
+          ]
+        },
+        {
+          "id": "five-tests",
+          "kind": "teaching",
+          "heading": "Năm câu hỏi và một vấn đề chưa được giải đáp",
+          "meaningUnits": [
+            "mixed",
+            "collapse-again",
+            "affirmation"
+          ],
+          "paragraphs": [
+            "Phật hỏi riêng từng việc: khi tránh sát sinh, tự ngã lúc ấy hoàn toàn vui hay có cả vui và khổ? Udāyī đáp cả hai. Với tránh lấy không cho, tránh tà hạnh trong dục, tránh nói dối và thực hành khổ hạnh, mỗi lần ông cũng đáp có cả vui và khổ. Phật hỏi tiếp: nương con đường lẫn vui khổ, có thể chứng thế giới hoàn toàn vui không?",
+            "Udāyī lại thốt lời Phật, Thiện Thệ đã cắt câu chuyện. Khi Phật hỏi lý do, ông nhắc giáo nghĩa về thế giới vui và con đường tới đó, nhận chính chúng con bị hỏi vặn, xét kỹ, đối chất nên trống rỗng, hư vọng, thất bại. Rồi ông hỏi Phật thật có thế giới và con đường ấy không. Ngài xác nhận có cả hai; ông hỏi cách thực hành."
+          ]
+        },
+        {
+          "id": "three",
+          "kind": "teaching",
+          "heading": "Ba thiền và sự phân biệt đường với đích",
+          "meaningUnits": [
+            "path",
+            "distinction",
+            "outcry"
+          ],
+          "paragraphs": [
+            "Đức Phật nêu tỳ-kheo, vị xuất gia tu theo Ngài, xa lìa thú vui giác quan và pháp bất thiện, tức điều không lành, chứng và an trú sơ thiền: có tầm, hướng tâm, và tứ, giữ tâm gắn với đối tượng; có hỷ, niềm vui, và lạc, sự an vui dễ chịu, do xa lìa. Khi tầm tứ lắng, vị ấy an trú nhị thiền: không tầm tứ, nội tâm trong sáng, nhất tâm, hỷ lạc do định, sự tập trung vững vàng của tâm.",
+            "Khi hỷ phai, vị ấy an trú tam thiền: giữ xả, sự bình thản, có niệm và tỉnh giác, nhớ biết và biết rõ, thân cảm nhận lạc; bậc Thánh gọi là xả niệm lạc trú. Đó là đạo lộ hợp lý tới thế giới hoàn toàn an vui.",
+            "Udāyī cho rằng tới đây đã chứng thế giới ấy, không còn là con đường. Phật đáp chưa chứng, mới chỉ là đường. Hội chúng ồn lên, kêu hai lần chúng ta cùng đạo sư bị thua rồi, không biết gì cao hơn nữa. Sakuludāyī làm họ im rồi hỏi mức nào mới là chứng đạt."
+          ]
+        },
+        {
+          "id": "beyond",
+          "kind": "teaching",
+          "heading": "Một sự chứng đạt vẫn chưa phải mục tiêu phạm hạnh",
+          "meaningUnits": [
+            "realization",
+            "higher"
+          ],
+          "paragraphs": [
+            "Phật nêu tứ thiền: bỏ khổ và lạc, ưu hỷ (buồn và vui) trước đó đã diệt, chứng và an trú không khổ không lạc, xả niệm thanh tịnh. Vị ấy cùng ở, nói chuyện, đàm luận với chư thiên sinh về thế giới hoàn toàn an vui. Đến mức ấy, Ngài gọi là chứng ngộ thế giới đó.",
+            "Udāyī hỏi có phải vì chứng thế giới ấy mà tỳ-kheo sống phạm hạnh, đời tu thanh tịnh, với Phật không. Ngài trả lời không phải vì điều ấy. Có các pháp khác cao hơn và thù thắng hơn là mục tiêu người tu với Ngài hướng tới. Udāyī xin nghe các pháp đó."
+          ]
+        },
+        {
+          "id": "teacher",
+          "kind": "teaching",
+          "heading": "Như Lai và người quyết định xuất gia",
+          "meaningUnits": [
+            "training"
+          ],
+          "paragraphs": [
+            "Đức Phật trình bày lại từ nền tảng: Như Lai, cách Phật gọi chính mình, xuất hiện, là A-la-hán, bậc giải thoát đáng kính; Chánh Đẳng Giác, giác ngộ trọn vẹn; Minh Hạnh Túc, đủ hiểu biết và hạnh tu; Thiện Thệ; Thế Gian Giải, hiểu thế gian; Vô Thượng Sĩ, bậc không ai hơn; Điều Ngự Trượng Phu, dẫn dắt người có thể được rèn luyện; Thiên Nhân Sư, thầy trời người; Phật, bậc tỉnh thức; Thế Tôn, bậc được tôn kính.",
+            "Ngài tự chứng biết thế giới chư thiên, Māra, Phạm thiên, người, sa-môn và bà-la-môn, người thuộc truyền thống kinh điển và nghi lễ, rồi tuyên dạy điều đã biết. Pháp tốt đầu, giữa, cuối, đầy đủ nghĩa và lời, chỉ bày phạm hạnh hoàn toàn thanh tịnh.",
+            "Người gia trưởng, con gia trưởng hoặc người thuộc tầng lớp khác nghe, tin Như Lai, thấy đời gia đình ràng buộc mà xuất gia rộng mở, khó sống thanh tịnh trọn vẹn như vỏ ốc trắng khi tại gia. Người ấy bỏ tài sản và quyến thuộc ít hay nhiều, cạo râu tóc, đắp y, đi vào đời không gia đình."
+          ]
+        },
+        {
+          "id": "ethics",
+          "kind": "teaching",
+          "heading": "Nền giới trong hành động và lời nói",
+          "meaningUnits": [
+            "training"
+          ],
+          "paragraphs": [
+            "Vị ấy theo học giới và nếp sống tỳ-kheo: tránh sát sinh, bỏ gậy kiếm, biết hổ thẹn và sợ việc xấu, thương sự an vui của mọi loài; tránh lấy không cho, chỉ nhận đồ được cho, sống không trộm cắp; giữ đời độc thân thanh tịnh, xa dâm dục.",
+            "Về lời, vị ấy nói thật, chắc chắn, đáng tin, không lừa; không truyền chuyện hai phía để chia rẽ, hòa giải người bất hòa, khuyến khích và vui thích hòa hợp. Bỏ lời độc ác, nói dịu hiền, đẹp tai, dễ mến, đi vào lòng người. Bỏ lời phù phiếm, nói đúng thời, thật, có ý nghĩa, về Pháp và luật, đáng ghi nhớ, hợp lý, có mạch lạc và lợi ích."
+          ]
+        },
+        {
+          "id": "restraints",
+          "kind": "teaching",
+          "heading": "Các điều giữ cho sinh hoạt xuất gia thanh tịnh",
+          "meaningUnits": [
+            "training"
+          ],
+          "paragraphs": [
+            "Vị ấy tránh hại hạt giống và cây cỏ; ăn một bữa ban ngày, không ăn đêm hay phi thời; không xem múa hát, âm nhạc, trình diễn; không dùng vòng hoa, hương, dầu thoa, trang sức, thời trang hay giường cao lớn.",
+            "Không nhận vàng bạc, hạt sống, thịt sống, phụ nữ, con gái, nô tỳ nam nữ, dê cừu, gia cầm, heo, voi, bò, ngựa, ngựa cái, ruộng đất. Không làm hoặc nhờ môi giới, không buôn bán; tránh gian cân, tiền bạc, đo lường; hối lộ, gian trá, lừa đảo; làm thương tổn, giết hại, giam giữ, cưỡng đoạt, trộm cắp, cướp phá. Đây là các điều thuộc nếp sống của người xuất gia trong phần thực hành này."
+          ]
+        },
+        {
+          "id": "contentment",
+          "kind": "teaching",
+          "heading": "Biết đủ và phòng hộ sáu căn",
+          "meaningUnits": [
+            "training"
+          ],
+          "paragraphs": [
+            "Bằng lòng với y che thân, đồ khất thực nuôi bụng, vị ấy đi đâu mang theo vật cần dùng, như chim mang đôi cánh. Thành tựu giới đem lại niềm an vui không lỗi lầm.",
+            "Khi mắt thấy sắc, tai nghe tiếng, mũi ngửi, lưỡi nếm, thân chạm, ý nhận biết, vị ấy không nắm tướng chung hay chi tiết. Vị ấy chế ngự những nguyên nhân có thể làm tham ái, ưu buồn và bất thiện tràn vào khi căn không được giữ. Phòng hộ cả sáu căn đem lại niềm vui không ô nhiễm."
+          ]
+        },
+        {
+          "id": "clarity",
+          "kind": "teaching",
+          "heading": "Tỉnh giác đi cùng mọi sinh hoạt",
+          "meaningUnits": [
+            "training"
+          ],
+          "paragraphs": [
+            "Vị ấy biết rõ khi tới lui, nhìn thẳng quanh, co duỗi, mang y kép, bát và thượng y; khi ăn, uống, nhai, nuốt, đại tiện, tiểu tiện; khi đi, đứng, ngồi, nằm, thức, nói và im. Có giới, hộ căn, niệm và tỉnh giác như vậy, vị ấy chọn nơi vắng: rừng, gốc cây, khe núi, hang đá, bãi tha ma, lùm cây ngoài trời, đống rơm.",
+            "Khất thực về và ăn xong, vị ấy ngồi xếp chân, giữ lưng thẳng, đặt niệm trước mặt."
+          ]
+        },
+        {
+          "id": "hindrances",
+          "kind": "teaching",
+          "heading": "Bỏ năm điều làm tâm đục và trí tuệ yếu",
+          "meaningUnits": [
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Vị ấy từ bỏ dục tham, ham muốn thú vui giác quan, gột tâm khỏi tham; bỏ sân, giữ từ tâm với mọi loài. Bỏ hôn trầm thụy miên, sự trì trệ buồn ngủ, giữ tưởng ánh sáng cùng niệm tỉnh giác. Bỏ trạo cử hối quá, xao động và hối tiếc, giữ nội tâm yên. Bỏ nghi, không do dự về thiện pháp. Năm triền cái, năm sự che lấp ấy, làm tâm ô nhiễm và trí tuệ suy yếu."
+          ]
+        },
+        {
+          "id": "absorptions",
+          "kind": "teaching",
+          "heading": "Bốn thiền trong lượt trình bày các pháp cao hơn",
+          "meaningUnits": [
+            "first-higher",
+            "later-higher"
+          ],
+          "paragraphs": [
+            "Sau khi bỏ chúng, vị ấy ly dục, ly bất thiện và an trú sơ thiền có tầm tứ, hỷ lạc do xa lìa. Rồi nhị thiền với tầm tứ lắng, nội tâm trong sáng nhất tâm, hỷ lạc do định; tam thiền với hỷ lắng, xả, niệm, tỉnh giác, thân cảm lạc; tứ thiền bỏ khổ lạc và ưu hỷ trước, không khổ không lạc, xả niệm thanh tịnh.",
+            "Trong lượt giảng con đường tu học này, từng tầng được Đức Phật gọi là pháp cao hơn và thù thắng hơn mà các tỳ-kheo sống phạm hạnh với Ngài để chứng đạt."
+          ]
+        },
+        {
+          "id": "recollection",
+          "kind": "teaching",
+          "heading": "Trí nhớ đời trước từ tâm đã được rèn",
+          "meaningUnits": [
+            "past-knowledge"
+          ],
+          "paragraphs": [
+            "Tâm định, thanh tịnh, trong sáng, không tì vết, hết ô nhiễm, nhu nhuyến, dễ sử dụng, vững chắc, bất động được hướng tới trí nhớ đời trước. Vị ấy nhớ một, hai, ba, bốn, năm; mười, hai mươi, ba mươi, bốn mươi, năm mươi; một trăm, một nghìn, một trăm nghìn đời; nhiều kiếp thế giới hoại, thành, cả hoại lẫn thành, với đầy đặc tả và chi tiết. Đức Phật gọi đây cũng là pháp cao hơn, thù thắng hơn, mục tiêu phạm hạnh với Ngài."
+          ]
+        },
+        {
+          "id": "rebirth",
+          "kind": "teaching",
+          "heading": "Trí thấy chúng sinh theo nghiệp",
+          "meaningUnits": [
+            "rebirth-knowledge"
+          ],
+          "paragraphs": [
+            "Cũng với tâm định đủ tám phẩm chất thanh tịnh, trong sáng, không tì vết, không ô nhiễm, mềm, dễ dùng, vững, bất động, vị ấy hướng trí biết chúng sinh chết và tái sinh. Thiên nhãn thanh tịnh vượt mắt người thấy thấp cao, đẹp xấu, cảnh tốt xấu, hiểu chúng sinh theo nghiệp. Đây cũng là pháp cao hơn và thù thắng hơn mà người tu hướng tới."
+          ]
+        },
+        {
+          "id": "taints",
+          "kind": "teaching",
+          "heading": "Hai nhóm sự thật và sự giải thoát",
+          "meaningUnits": [
+            "ending-taints",
+            "freedom",
+            "summation"
+          ],
+          "paragraphs": [
+            "Với tâm định đầy đủ những phẩm chất ấy, vị ấy hướng trí đoạn tận lậu hoặc, các ô nhiễm trói buộc tâm. Vị ấy biết đúng như thật khổ, nguồn gốc khổ, sự chấm dứt khổ, đường dẫn đến chấm dứt khổ; biết lậu hoặc, nguồn gốc, sự chấm dứt, đường dẫn đến chấm dứt lậu hoặc.",
+            "Do biết và thấy như vậy, tâm được giải thoát khỏi dục lậu, hữu lậu, vô minh lậu: sự ô nhiễm gắn với dục, hiện hữu và không biết đúng. Đã giải thoát, có tri kiến đã giải thoát; sinh đã tận, phạm hạnh đã hoàn tất, việc cần làm đã làm, không trở lại trạng thái hiện hữu này. Đức Phật xác nhận đây cũng là pháp cao hơn, thù thắng hơn, rồi tổng kết những pháp ấy là mục tiêu phạm hạnh với Ngài."
+          ]
+        },
+        {
+          "id": "conversion",
+          "kind": "teaching",
+          "heading": "Người thầy xin trở thành người học",
+          "meaningUnits": [
+            "praise",
+            "request"
+          ],
+          "paragraphs": [
+            "Sakuludāyī khen tuyệt vời hai lần. Ông ví sự khai mở Pháp như dựng vật bị úp, mở vật bị che, chỉ đường cho người lạc, cầm đèn trong tối để người có mắt thấy. Ông xin quy y, nương theo Phật, Pháp, Tăng tỳ-kheo; xin xuất gia và thọ cụ túc giới, được nhận vào hàng tỳ-kheo."
+          ]
+        },
+        {
+          "id": "obstruction",
+          "kind": "teaching",
+          "heading": "Sức nặng của vị thế trước hội chúng",
+          "meaningUnits": [
+            "obstruction",
+            "ending"
+          ],
+          "paragraphs": [
+            "Hội chúng hai lần khuyên ông đừng sống phạm hạnh với Gotama, đừng đang làm thầy lại làm đệ tử. Họ ví việc ấy như bình đựng nước hóa thành gáo. Chính hội chúng đã ngăn Sakuludāyī sống phạm hạnh với Đức Phật. Tiểu Kinh Sakuludāyi kết thúc là bài thứ chín trong phẩm; câu chuyện dừng ở lời xin học và sự ngăn trở ấy."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: làm rõ một điều mình tin",
+          "meaningUnits": [
+            "supreme",
+            "distinction",
+            "obstruction"
+          ],
+          "paragraphs": [
+            "Chọn một điều mình thường gọi là tốt nhất hoặc đã hiểu rõ. Thử nói cụ thể đối tượng, căn cứ và phần mình mới đang học. Nếu người khác đặt câu hỏi, có thể nghe hết trước khi bảo vệ vị thế của mình. Đây là gợi ý đời thường từ mạch đối thoại, không thay cho con đường thiền và giải thoát được kinh trình bày."
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "MN79 — Lắng nghe để hiểu rõ và đi tiếp",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Cuộc thăm viếng trong một buổi sáng",
+          "meaningUnits": [
+            "title",
+            "setting",
+            "arrival"
+          ],
+          "paragraphs": [
+            "Tiểu Kinh Sakuludāyi là bài 79 của Trung Bộ. Người truyền kinh thuật điều đã nghe: một thời Đức Phật ở Rājagaha, tại Trúc Lâm, khu nuôi sóc. Sakuludāyī là du sĩ, người tu sống đời du hành, trú cùng hội chúng đông ở du viện Vườn Chim Công.",
+            "Buổi sáng, Đức Phật đắp y, mang bát và y vào thành khất thực, nhận thức ăn được cho. Thấy còn quá sớm, Ngài nghĩ đến việc thăm Sakuludāyī rồi đi tới du viện."
+          ]
+        },
+        {
+          "id": "quiet",
+          "kind": "teaching",
+          "heading": "Hội chúng dừng tiếng chuyện trò",
+          "meaningUnits": [
+            "gossip",
+            "quiet"
+          ],
+          "paragraphs": [
+            "Các du sĩ đang nói ồn ào về vua, trộm cướp, đại thần, quân đội, sợ hãi, chiến tranh; ăn, uống, vải, giường, vòng hoa, hương; bà con, xe, làng, thị trấn, thành phố, quốc gia. Rồi chuyện phụ nữ, anh hùng, đường phố, bến nước, người đã mất, chuyện linh tinh, thế giới, biển cả, hiện hữu và không hiện hữu.",
+            "Thấy Phật từ xa, Sakuludāyī bảo mọi người im: Sa-môn Gotama, tức Đức Phật, ưa và khen yên lặng; biết đâu thấy hội chúng yên Ngài sẽ muốn ghé. Mọi người im tiếng."
+          ]
+        },
+        {
+          "id": "seats",
+          "kind": "teaching",
+          "heading": "Người chủ ngồi một ghế thấp",
+          "meaningUnits": [
+            "welcome",
+            "opening"
+          ],
+          "paragraphs": [
+            "Sakuludāyī chào mừng, thưa đã lâu Đức Phật mới có dịp tới, mời Ngài ngồi chỗ sẵn. Phật ngồi; ông lấy một ghế thấp ngồi bên. Ngài hỏi đang bàn chuyện gì và câu chuyện nào bị bỏ dở.",
+            "Udāyī xin để lại chuyện ấy, vì sau này Ngài nghe cũng không khó. Ông kể khi mình vắng, mọi người nói tầm phào; khi mình tới, họ nhìn mặt và muốn nghe mình dạy. Còn khi Phật đến, cả mình lẫn hội chúng đều nhìn Ngài, chờ nghe lời dạy."
+          ]
+        },
+        {
+          "id": "claim",
+          "kind": "teaching",
+          "heading": "Một lời tự nhận quá lớn",
+          "meaningUnits": [
+            "omniscience"
+          ],
+          "paragraphs": [
+            "Phật mời ông nêu vấn đề. Udāyī nhớ chuyện mấy hôm trước: có người tự xưng biết tất cả, thấy tất cả, tri kiến không thiếu, luôn hiện khi đi, đứng, ngủ, thức. Nhưng khi bị hỏi quá khứ, người ấy lảng chuyện, nói ngoài đề, tỏ ra bực bội, giận dữ và bất mãn.",
+            "Khi đó ông nghĩ tới Đức Phật, bậc Thiện Thệ, danh xưng ca ngợi Ngài đã đi đến tốt lành, vì Ngài khéo hiểu những việc ấy. Phật nhắc lại lời tự nhận và cách né câu hỏi, rồi hỏi là ai. Udāyī đáp: Nigaṇṭha Nāṭaputta."
+          ]
+        },
+        {
+          "id": "past",
+          "kind": "teaching",
+          "heading": "Hỏi và đáp về quá khứ, tương lai",
+          "meaningUnits": [
+            "past-dialogue",
+            "future-dialogue"
+          ],
+          "paragraphs": [
+            "Đức Phật nói người nhớ nhiều đời trước, một đời, hai đời đến nhiều đời với đủ chi tiết, có thể hỏi Ngài về quá khứ hoặc được Ngài hỏi; người ấy có thể làm Ngài hài lòng qua lời đáp, hoặc Ngài làm người ấy hài lòng.",
+            "Cũng thế, người có thiên nhãn thanh tịnh vượt mắt người, thấy chết và tái sinh, thấp cao, đẹp xấu, cảnh giới tốt xấu, hiểu chúng sinh tùy theo nghiệp (những hành động họ đã làm), có thể hỏi Ngài hoặc được Ngài hỏi về tương lai. Sự hỏi và đáp làm người kia hài lòng có thể diễn ra theo cả hai chiều."
+          ]
+        },
+        {
+          "id": "conditions",
+          "kind": "teaching",
+          "heading": "Trở về điều kiện có, sinh và diệt",
+          "meaningUnits": [
+            "conditionality",
+            "limits"
+          ],
+          "paragraphs": [
+            "Rồi Phật gác quá khứ và tương lai, dạy: khi cái này có, cái kia có; do cái này sinh, cái kia sinh; khi cái này không có, cái kia không có; do cái này diệt, cái kia diệt.",
+            "Udāyī nhận chuyện ngay đời này còn không nhớ đủ, huống chi nhiều đời như Phật. Ông chưa thấy nổi quỷ bùn, huống chi có thiên nhãn thấy chúng sinh chết và tái sinh, thấp cao, đẹp xấu, cảnh tốt xấu theo nghiệp. Ông lặp lại đủ bốn mệnh đề có, sinh, không có, diệt vừa nghe, nói điều ấy lại càng chưa rõ. Ông hy vọng nếu hỏi giáo nghĩa thầy mình, mình có thể đáp được."
+          ]
+        },
+        {
+          "id": "supreme",
+          "kind": "teaching",
+          "heading": "Gọi là tối thượng nhưng chưa chỉ rõ",
+          "meaningUnits": [
+            "supreme"
+          ],
+          "paragraphs": [
+            "Phật hỏi giáo nghĩa ấy là gì. Udāyī dẫn lời thầy nói hai lần “quang sắc tối thượng”, tức vẻ sáng rực rỡ cao nhất. Phật hỏi đó là quang sắc nào. Ông đáp: thứ không có gì cao hơn và thù thắng hơn. Ngài hỏi lại chính thứ ấy là gì; ông vẫn trả lời như cũ."
+          ]
+        },
+        {
+          "id": "woman",
+          "kind": "teaching",
+          "heading": "Mong điều mình chưa biết",
+          "meaningUnits": [
+            "woman"
+          ],
+          "paragraphs": [
+            "Phật nói cách ấy có thể kéo dài mãi mà không chỉ rõ đối tượng. Như người khao khát người phụ nữ đẹp nhất xứ nhưng không biết nàng thuộc một trong bốn tầng lớp thời ấy: Sát-đế-lợi, Bà-la-môn, Phệ-sa, Thủ-đà. Hỏi tên họ, cao thấp hay vừa, da đen, nâu hay sạm vàng, ở làng, thị trấn hay thành phố nào, người ấy cũng không biết.",
+            "Hai lượt hỏi, người ấy đáp không. Hỏi vậy có phải đang ham muốn điều chưa biết, chưa thấy, người ấy đáp có. Udāyī đồng ý lời ấy không có cơ sở. Phật chỉ ra cách ông nói về quang sắc cũng chưa xác định được điều mình nói."
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: một giống cây được truyền miệng",
+          "meaningUnits": [
+            "supreme",
+            "woman"
+          ],
+          "paragraphs": [
+            "Có người nghe nói về một giống cây quý nhất, nhưng không biết tên, đặc điểm hay nơi trồng. Khi được hỏi, họ chỉ nhắc “quý nhất vì không cây nào quý hơn”. Ta có thể cùng tìm cho rõ thay vì vội thuận theo lời khen. Đây là ví dụ hiện đại để soi sáng cách hỏi, không phải hình ảnh được ghi trong kinh."
+          ]
+        },
+        {
+          "id": "jewel",
+          "kind": "teaching",
+          "heading": "Viên ngọc trong lời du sĩ",
+          "meaningUnits": [
+            "gem",
+            "firefly",
+            "lamp",
+            "fire"
+          ],
+          "paragraphs": [
+            "Udāyī ví một viên lưu ly đẹp, quý tự nhiên, tám mặt, được làm khéo, đặt trên thảm len nhạt, tỏa sáng rực rỡ chói lọi. Theo ông, tự ngã, cái ông xem là bản thân, sau chết không bệnh có vẻ sáng ấy.",
+            "Phật lần lượt hỏi vẻ sáng nào tuyệt vời hơn, thù thắng hơn. Giữa ngọc và đom đóm trong đêm tối, ông chọn đom đóm; giữa đom đóm và đèn dầu trong đêm tối, chọn đèn; giữa đèn và lửa lớn trong đêm tối, chọn lửa lớn."
+          ]
+        },
+        {
+          "id": "lights",
+          "kind": "teaching",
+          "heading": "Từ sao mai đến mặt trời",
+          "meaningUnits": [
+            "star",
+            "moon",
+            "sun",
+            "devas"
+          ],
+          "paragraphs": [
+            "Giữa lửa lớn và sao mai lúc bình minh trời trong không mây, ông chọn sao mai. Giữa sao mai và trăng rằm ngày Bố-tát, ngày thực hành giới, lúc nửa đêm trời không mây, chọn trăng. Giữa trăng ấy và mặt trời giữa trưa, trời không mây, tháng cuối mùa mưa vào mùa thu, chọn mặt trời.",
+            "Phật nói Ngài biết rất nhiều chư thiên mà ánh trăng và mặt trời không chiếu tới. Dù vậy, Ngài không nói không còn quang sắc nào cao hơn hay thù thắng hơn. Còn quang sắc Udāyī gọi tối thượng lại kém đom đóm theo chính lời đáp của ông, mà vẫn chưa được chỉ rõ."
+          ]
+        },
+        {
+          "id": "first-break",
+          "kind": "teaching",
+          "heading": "Lời giáo nghĩa không đứng vững trước câu hỏi",
+          "meaningUnits": [
+            "collapse",
+            "world",
+            "method"
+          ],
+          "paragraphs": [
+            "Udāyī kêu Phật, bậc Thiện Thệ, đã cắt câu chuyện. Ngài hỏi lý do. Ông nhắc lời thầy về quang sắc tối thượng và nhận: khi bị hỏi vặn, xét kỹ và đối chất, chính chúng con trở nên trống rỗng, hư vọng, thất bại.",
+            "Phật hỏi có thế giới nhất hướng lạc, hoàn toàn an vui, cùng con đường hợp lý đưa tới chứng ngộ không. Udāyī nói thầy mình dạy có cả hai. Được hỏi đường ấy, ông nêu tránh sát sinh, lấy của không cho, tà hạnh trong dục, những quan hệ tình dục sai trái, nói dối; rồi nhận một cách khổ hạnh, tự chịu khó nhọc để tu."
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Năm việc, năm lần còn vui và khổ",
+          "meaningUnits": [
+            "mixed",
+            "collapse-again",
+            "affirmation"
+          ],
+          "paragraphs": [
+            "Với từng việc, Phật hỏi tự ngã lúc ấy hoàn toàn vui hay có cả vui và khổ. Khi tránh sát sinh, Udāyī đáp cả hai. Khi tránh lấy không cho, tránh tà hạnh trong dục, tránh nói dối và sống khổ hạnh, mỗi lần ông cũng đáp cả hai. Ngài hỏi tiếp: bằng con đường lẫn vui khổ, có chứng được thế giới hoàn toàn vui không?",
+            "Udāyī lại kêu Phật và Thiện Thệ đã cắt câu chuyện. Khi được hỏi vì sao, ông nhắc giáo nghĩa về thế giới vui và đường tới đó, nhận chúng con bị hỏi vặn, xét kỹ, đối chất nên trống rỗng, hư vọng, thất bại. Ông hỏi Ngài thật có thế giới và con đường ấy không. Phật xác nhận cả hai; ông xin nghe đường đi."
+          ]
+        },
+        {
+          "id": "first",
+          "kind": "teaching",
+          "heading": "Con đường được bắt đầu bằng sơ thiền",
+          "meaningUnits": [
+            "path"
+          ],
+          "paragraphs": [
+            "Phật nói về tỳ-kheo, người xuất gia tu theo Ngài: xa lìa thú vui giác quan và pháp bất thiện, tức không lành, chứng và an trú sơ thiền. Tầng thứ nhất có tầm, hướng tâm tới đối tượng, và tứ, giữ tâm gắn với đối tượng; có hỷ là niềm vui, lạc là sự an vui dễ chịu, do xa lìa sinh ra."
+          ]
+        },
+        {
+          "id": "second-third",
+          "kind": "teaching",
+          "heading": "Từ nhị thiền đến tam thiền",
+          "meaningUnits": [
+            "path"
+          ],
+          "paragraphs": [
+            "Khi tầm, tứ lắng, vị ấy vào nhị thiền: không tầm tứ, nội tâm trong sáng, tâm thống nhất, hỷ lạc do định, sự tập trung vững vàng. Khi hỷ lắng, vị ấy vào tam thiền: giữ xả, sự bình thản; có niệm và tỉnh giác, nhớ biết và biết rõ; thân cảm nhận lạc. Các bậc Thánh gọi là xả niệm lạc trú. Phật gọi ba tầng ấy là con đường hợp lý tới thế giới hoàn toàn an vui."
+          ]
+        },
+        {
+          "id": "not-yet",
+          "kind": "teaching",
+          "heading": "Phân biệt đang đi với đã đến",
+          "meaningUnits": [
+            "distinction",
+            "outcry"
+          ],
+          "paragraphs": [
+            "Udāyī nói đến mức ấy đã chứng thế giới hoàn toàn vui, đâu còn là đường đi. Phật đáp chưa phải đã chứng, đó mới chỉ là con đường.",
+            "Hội chúng ồn lên, hai lần kêu chúng ta cùng đạo sư bị thua rồi, không biết pháp gì cao hơn nữa. Sakuludāyī làm mọi người im rồi hỏi Phật đến đâu mới gọi là chứng được thế giới ấy."
+          ]
+        },
+        {
+          "id": "fourth",
+          "kind": "teaching",
+          "heading": "Tứ thiền và một sự chứng ngộ",
+          "meaningUnits": [
+            "realization",
+            "higher"
+          ],
+          "paragraphs": [
+            "Vị tỳ-kheo bỏ khổ và lạc, ưu hỷ (buồn và vui) trước đó đã diệt, chứng và an trú tứ thiền: không khổ không lạc, xả niệm thanh tịnh. Vị ấy cùng ở, trò chuyện, đàm luận với chư thiên sinh về thế giới hoàn toàn an vui. Phật nói đến mức ấy là chứng được thế giới đó.",
+            "Udāyī hỏi có phải vì chứng nơi ấy mà tỳ-kheo sống phạm hạnh, đời tu thanh tịnh, với Phật không. Ngài đáp không phải vì điều ấy; có các pháp khác cao hơn, thù thắng hơn là mục tiêu phạm hạnh. Udāyī xin nghe những pháp ấy."
+          ]
+        },
+        {
+          "id": "tathagata",
+          "kind": "teaching",
+          "heading": "Như Lai dạy điều đã tự chứng biết",
+          "meaningUnits": [
+            "training"
+          ],
+          "paragraphs": [
+            "Phật trình bày con đường khi Như Lai, cách Phật gọi chính mình, xuất hiện ở đời: A-la-hán, bậc giải thoát đáng kính; Chánh Đẳng Giác, giác ngộ hoàn toàn; Minh Hạnh Túc, đủ hiểu biết và hạnh tu; Thiện Thệ; Thế Gian Giải, hiểu thế gian; Vô Thượng Sĩ, bậc không ai hơn; Điều Ngự Trượng Phu, dẫn dắt người có thể được rèn luyện; Thiên Nhân Sư, thầy trời người; Phật, bậc tỉnh thức; Thế Tôn, bậc được tôn kính.",
+            "Ngài tự chứng biết thế giới có chư thiên, Māra, Phạm thiên, người, sa-môn và bà-la-môn, người thuộc truyền thống kinh điển và nghi lễ, rồi tuyên dạy điều đã biết. Pháp tốt đầu, giữa, cuối, đủ ý và lời, chỉ bày đời phạm hạnh trọn vẹn thanh tịnh."
+          ]
+        },
+        {
+          "id": "renunciation",
+          "kind": "teaching",
+          "heading": "Người nghe chọn cách sống khác",
+          "meaningUnits": [
+            "training"
+          ],
+          "paragraphs": [
+            "Người gia trưởng, con gia trưởng hoặc người thuộc tầng lớp khác nghe rồi tin Như Lai. Thấy đời gia đình ràng buộc, xuất gia rộng mở, người ấy muốn sống thanh tịnh trọn vẹn như vỏ ốc trắng. Sau đó, người ấy bỏ tài sản ít hoặc nhiều, quyến thuộc ít hoặc nhiều, cạo tóc râu, đắp y, từ bỏ gia đình để xuất gia."
+          ]
+        },
+        {
+          "id": "body-speech",
+          "kind": "teaching",
+          "heading": "Giữ thân và lời trong sạch",
+          "meaningUnits": [
+            "training"
+          ],
+          "paragraphs": [
+            "Vị ấy hành trì giới và nếp sống tỳ-kheo: không sát sinh, bỏ gậy kiếm, biết hổ thẹn và sợ việc xấu, thương sự an vui của mọi loài; không lấy của không cho, chỉ nhận đồ được cho; giữ đời độc thân thanh tịnh, xa dâm dục.",
+            "Lời nói chân thật, đáng tin, không lừa. Không mang chuyện hai phía để chia rẽ; giúp người bất hòa hòa lại, khuyến khích và vui với hòa hợp. Không nói ác, nói dịu dàng, dễ nghe, đẹp lòng, cảm thông. Không nói vô ích, mà nói đúng lúc, thật, có nghĩa, về Pháp và luật, đáng ghi nhớ, hợp lý, có mạch lạc và ích lợi."
+          ]
+        },
+        {
+          "id": "restraints",
+          "kind": "teaching",
+          "heading": "Các điều tránh trong sinh hoạt xuất gia",
+          "meaningUnits": [
+            "training"
+          ],
+          "paragraphs": [
+            "Vị ấy không làm hại hạt giống, cây cỏ; ăn một bữa ban ngày, không ăn đêm hay phi thời; không xem múa hát, nhạc, trình diễn; không dùng vòng hoa, hương, dầu thoa, trang sức, thời trang, giường cao lớn.",
+            "Không nhận vàng bạc, hạt sống, thịt sống, phụ nữ, con gái, nô tỳ nam nữ, dê cừu, gia cầm, heo, voi, bò, ngựa, ngựa cái, ruộng đất. Không làm hay nhờ môi giới, không buôn bán; tránh gian cân, tiền bạc, đo lường; hối lộ, gian trá, lừa đảo; làm thương tổn, sát hại, giam giữ, cưỡng đoạt, trộm và cướp. Những điều này nói về cách sinh hoạt của người xuất gia."
+          ]
+        },
+        {
+          "id": "enough",
+          "kind": "teaching",
+          "heading": "Biết đủ và giữ các căn",
+          "meaningUnits": [
+            "training"
+          ],
+          "paragraphs": [
+            "Vị ấy bằng lòng với y che thân, thức ăn khất thực nuôi bụng; đi đâu mang theo những vật cần dùng, như chim mang đôi cánh. Giới đem lại niềm an vui không lỗi lầm.",
+            "Khi mắt thấy, tai nghe, mũi ngửi, lưỡi nếm, thân chạm, ý nhận biết, vị ấy không nắm tướng chung hay chi tiết, giữ tâm để tham ái, ưu buồn và điều bất thiện không tràn vào. Vị ấy chế ngự những nguyên nhân ấy, giữ cả sáu căn, và hưởng niềm an vui không ô nhiễm."
+          ]
+        },
+        {
+          "id": "aware",
+          "kind": "teaching",
+          "heading": "Biết rõ việc đang làm",
+          "meaningUnits": [
+            "training"
+          ],
+          "paragraphs": [
+            "Vị ấy tỉnh giác khi tới lui, nhìn thẳng quanh, co duỗi, mang y kép, bát và y ngoài; khi ăn uống nhai nuốt, đại tiện tiểu tiện; khi đi đứng ngồi nằm, thức, nói, im. Có giới, hộ căn, niệm tỉnh giác, vị ấy chọn chỗ vắng: rừng, gốc cây, khe núi, hang đá, bãi tha ma, lùm cây ngoài trời, đống rơm.",
+            "Đi khất thực về và dùng bữa xong, vị ấy ngồi xếp chân, lưng thẳng, đặt niệm trước mặt."
+          ]
+        },
+        {
+          "id": "hindrances",
+          "kind": "teaching",
+          "heading": "Năm thứ che lấp được gột bỏ",
+          "meaningUnits": [
+            "hindrances"
+          ],
+          "paragraphs": [
+            "Tâm được gột khỏi dục tham, ham muốn thú vui giác quan; khỏi sân hận, giữ lòng từ với mọi loài. Bỏ hôn trầm thụy miên, sự trì trệ buồn ngủ, giữ tưởng ánh sáng, niệm và tỉnh giác. Bỏ trạo cử hối quá, xao động và hối tiếc, để nội tâm yên. Bỏ nghi, không phân vân về thiện pháp. Năm triền cái ấy che tâm, làm tâm ô nhiễm và trí tuệ yếu đi."
+          ]
+        },
+        {
+          "id": "meditation",
+          "kind": "teaching",
+          "heading": "Bốn thiền trong lượt giảng này",
+          "meaningUnits": [
+            "first-higher",
+            "later-higher"
+          ],
+          "paragraphs": [
+            "Sau khi bỏ năm che lấp, vị ấy ly dục, ly bất thiện, an trú sơ thiền có tầm tứ và hỷ lạc do xa lìa. Tiếp đến nhị thiền lắng tầm tứ, nội tâm trong sáng thống nhất, hỷ lạc do định; tam thiền ly hỷ, xả, niệm, biết rõ, thân an vui; tứ thiền bỏ khổ lạc và ưu hỷ trước, không khổ không lạc, xả niệm thanh tịnh.",
+            "Trong lượt trình bày con đường tu học này, Phật gọi mỗi tầng thiền là pháp cao hơn, thù thắng hơn mà các tỳ-kheo sống phạm hạnh với Ngài để chứng đạt."
+          ]
+        },
+        {
+          "id": "recollection",
+          "kind": "teaching",
+          "heading": "Trí nhớ đời trước",
+          "meaningUnits": [
+            "past-knowledge"
+          ],
+          "paragraphs": [
+            "Tâm định, thanh tịnh, sáng, không tì vết, không ô nhiễm, mềm, dễ dùng, vững và bất động được hướng tới trí nhớ đời trước. Vị ấy nhớ một, hai, ba, bốn, năm; mười, hai mươi, ba mươi, bốn mươi, năm mươi; một trăm, một nghìn, một trăm nghìn đời; nhiều kiếp thế giới hoại, thành, cả hoại và thành, với đủ đặc tả, chi tiết. Phật gọi đây cũng là pháp cao hơn, thù thắng hơn, mục tiêu phạm hạnh."
+          ]
+        },
+        {
+          "id": "rebirth",
+          "kind": "teaching",
+          "heading": "Trí biết chúng sinh chết và tái sinh",
+          "meaningUnits": [
+            "rebirth-knowledge"
+          ],
+          "paragraphs": [
+            "Với tâm định đủ tám phẩm chất thanh tịnh, sáng, không tì vết, không ô nhiễm, mềm, dễ dùng, vững, bất động ấy, vị ấy hướng trí đến sự chết và tái sinh. Thiên nhãn thanh tịnh vượt mắt người thấy thấp cao, đẹp xấu, cảnh tốt xấu, hiểu chúng sinh theo nghiệp. Đây cũng là pháp cao hơn, thù thắng hơn mà người tu hướng tới."
+          ]
+        },
+        {
+          "id": "knowledge",
+          "kind": "teaching",
+          "heading": "Biết đúng khổ và các ô nhiễm",
+          "meaningUnits": [
+            "ending-taints"
+          ],
+          "paragraphs": [
+            "Cùng với tâm định có đủ những phẩm chất ấy, vị ấy hướng trí đoạn tận lậu hoặc, những ô nhiễm trói buộc tâm. Vị ấy biết đúng như thật khổ, nguồn của khổ, sự dứt khổ, đường dẫn đến dứt khổ. Vị ấy cũng biết lậu hoặc, nguồn của chúng, sự dứt chúng, đường dẫn đến sự dứt ấy."
+          ]
+        },
+        {
+          "id": "free",
+          "kind": "teaching",
+          "heading": "Giải thoát và biết mình đã giải thoát",
+          "meaningUnits": [
+            "freedom",
+            "summation"
+          ],
+          "paragraphs": [
+            "Do biết và thấy như vậy, tâm thoát dục lậu, hữu lậu, vô minh lậu: ô nhiễm gắn với dục, sự hiện hữu và không biết đúng. Đã giải thoát thì biết đã giải thoát; sinh đã tận, phạm hạnh hoàn tất, việc cần làm đã làm, không trở lại trạng thái hiện hữu này.",
+            "Phật nói đây cũng là pháp cao hơn, thù thắng hơn. Ngài kết lại: chính những pháp ấy là mục tiêu các tỳ-kheo sống phạm hạnh với Ngài để chứng ngộ."
+          ]
+        },
+        {
+          "id": "praise",
+          "kind": "teaching",
+          "heading": "Người nghe muốn đi vào con đường ấy",
+          "meaningUnits": [
+            "praise",
+            "request"
+          ],
+          "paragraphs": [
+            "Udāyī khen tuyệt vời hai lần. Ông ví Phật dựng lại vật bị úp, mở vật bị che, chỉ đường cho người lạc, cầm đèn trong tối để người có mắt thấy. Ngài đã khai mở Pháp bằng nhiều cách.",
+            "Ông xin quy y, nương theo Phật, Pháp và Tăng tỳ-kheo; xin xuất gia và thọ cụ túc giới, được nhận vào hàng tỳ-kheo."
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Hội chúng ngăn lời xin học",
+          "meaningUnits": [
+            "obstruction",
+            "ending"
+          ],
+          "paragraphs": [
+            "Hội chúng ngăn ông. Hai lần họ bảo đừng sống phạm hạnh với Gotama, đừng từ thầy trở thành đệ tử. Họ ví ông như bình nước hóa thành gáo. Chính hội chúng đã ngăn Sakuludāyī sống phạm hạnh với Đức Phật. Tiểu Kinh Sakuludāyi kết thúc, là bài thứ chín trong phẩm."
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: giữ chỗ cho một câu hỏi",
+          "meaningUnits": [
+            "supreme",
+            "distinction",
+            "obstruction"
+          ],
+          "paragraphs": [
+            "Khi nghe lại một điều mình đã tin lâu, có thể thong thả hỏi điều ấy chỉ việc gì, căn cứ ở đâu, mình đã biết tới mức nào. Để người khác hỏi không làm mất giá trị những điều mình đã học; câu hỏi có thể giúp thấy bước cần học thêm. Đây là gợi ý đời thường từ cuộc đối thoại, không phải cách tự nhận các tầng thiền hay trí giải thoát."
+          ]
+        }
+      ]
+    }
+  }
+}
