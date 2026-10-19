@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn59",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "d0c7184e-29ab-4818-bc39-b6f009873d2a"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "b8f1a28d-d31c-45ed-ac3c-15ed3e110ca9"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "6477d0ae-d5ab-46cf-bfbf-31ec05e3b533"
+    }
+  },
+  "reviews": [
+    {
+      "id": "d0c7184e-29ab-4818-bc39-b6f009873d2a",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.7,
+        "logic_context": 9.6,
+        "terminology": 9.3,
+        "audience_fit": 9.2,
+        "clarity": 9.3,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.5,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Đọc 111 khóa ở ba JSON, tám chú thích, toàn HTML SC29; giữ lạc yên/vi tế theo Pāli thay chữ tối thắng trong HTML, mở thiền từ các nguồn thực.",
+        "semantic_fidelity": "Hai cách phân loại được công nhận có điều kiện; diệt tưởng/thọ không bị đổi thành một cảm giác dễ chịu còn tiếp diễn.",
+        "core_coverage": "Đủ ba lượt đối đáp, bảy số lượng, hai nhánh đối thoại, sáu tính chất của năm dục, chín so sánh và chín chứng đạt.",
+        "logic_context": "Chỉ Ānanda nghe rồi thuật với Phật; câu hỏi của du sĩ là khả năng được dự liệu; chuỗi mức trước/mức sau và lời giải lạc nối đúng.",
+        "terminology": "Tầm/tứ, hỷ/lạc, tưởng/thức đều có lời mở; các tên vô sắc dài và vi tế vẫn khó với người đọc nhỏ tuổi dù không bị lược mất.",
+        "audience_fit": "Hộp bút hai kích cỡ/ba màu tạo điểm tựa dễ hình dung; phần thiền chuyên sâu cần đọc chậm, nên điểm tuổi thấp hơn phần lý luận.",
+        "clarity": "Các cặp thiền được đặt liền nhau, mỗi bước nhắc mức trước; phần chín so sánh dày khái niệm nhưng kết lạc rộng hơn đã làm rõ.",
+        "editorial_separation": "Hộp bút và quan sát trong ngày có nhãn biên soạn; không dùng ví dụ để thay thế nội dung cảm thọ hoặc đồng nhất thư giãn với chứng thiền.",
+        "practical_integrity": "Gợi ý hỏi cách hiểu, diễn đạt lại ý bạn; không yêu cầu trẻ làm ngừng cảm thọ hay tự xác nhận tầng thiền.",
+        "technical_integrity": "14 mục/30 đoạn đúng cấu trúc, tham chiếu đủ 35 ý/111 khóa; audit độc lập và năm source hashes khớp bản đã đọc."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root/writer_a đối với bản của /root/writer_c; đã đọc đủ năm nguồn, toàn map và cả ba bản MN59. Không phát hiện sửa bắt buộc sau lượt đối chiếu đầy đủ. Đây là đánh giá AI; chưa có kiểm nghiệm người đọc thật hoặc xác nhận của chuyên gia Pāli bên ngoài.",
+      "contentHash": "c36b6e5682eb4d5bc8566099c617d021f58f6a5f5dcae618808fa27a696c4d36",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn59.html",
+          "sha256": "248e21ae43e146d0c574bf5fe047321b300e9fca0e06208b3c5d96a0fc96af5d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn59_root-pli-ms.json",
+          "sha256": "29979ba8ac2cf76c8abd2fdb552d3c5b9f91b33d9edd12ff18969c4535e0bcea"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn59_translation-en-sujato.json",
+          "sha256": "1309795aa3ba712a98f3b351804383903b35ff3d898a0b9c4a55cf64228a8988"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn59_comment-vi-project.json",
+          "sha256": "8eca5a142aeae609bb8b903ade626d8ef1d820c6db54acff3dc790845abcfb07"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn59_translation-vi-project.json",
+          "sha256": "08e4526bf46701a183c84cdd89d73579edaa6bbde547631fa8e023440c3b807f"
+        }
+      ]
+    },
+    {
+      "id": "b8f1a28d-d31c-45ed-ac3c-15ed3e110ca9",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.7,
+        "logic_context": 9.7,
+        "terminology": 9.6,
+        "audience_fit": 9.5,
+        "clarity": 9.5,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.6,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Năm nguồn thật được đọc trọn; kiểm riêng phần cảm thọ trung tính và chữ thọ thừa ở HTML cuối, lấy Pāli làm chuẩn.",
+        "semantic_fidelity": "Giữ cả hai lời giải hợp lệ theo phương diện và nghĩa sukha rộng hơn sukhā vedanā; không đặt cảm thọ vào trạng thái diệt tưởng/thọ.",
+        "core_coverage": "Đủ bảy con số, ba lượt, năm giác quan/sáu nét, chín lần bác tối đa và đầy đủ chín chứng đạt đến diệt tưởng/thọ.",
+        "logic_context": "Các trường hợp hòa hợp/bất hòa đều gắn với lời đúng/khéo, không biến thành chấp nhận mọi ý; mỗi chứng đạt vượt đúng mức trước.",
+        "terminology": "Tầm/tứ, xả/niệm, tưởng/thức, bốn xứ được mở trong ngữ cảnh; không thêm thức thường hằng hoặc đồng nhất diệt tưởng/thọ với Niết-bàn.",
+        "audience_fit": "Ví dụ phân công việc theo hạn và loại việc rõ tiêu chí; người trưởng thành có thể áp dụng cách xét phương diện mà không lẫn với các số cảm thọ.",
+        "clarity": "Hai mục thiền, bốn mục vô sắc/diệt và phần giải chữ lạc tạo trình tự mạch lạc; danh mục so sánh dài nhưng đã có câu khép chuỗi.",
+        "editorial_separation": "Ví dụ công việc và bài tập nằm riêng; tuyên bố giới hạn của ví dụ giữ rõ giữa cách học và nội dung được kinh khẳng định.",
+        "practical_integrity": "Thực hành lắng nghe, tự xem lại niềm vui có điều kiện; không hứa nhận diện các chứng đạt sâu từ cảm giác thư thái.",
+        "technical_integrity": "16 mục/29 đoạn audit sạch, 35 ý/111 khóa được tham chiếu đầy đủ; fingerprint và năm hash nguồn đúng freeze, không cần sửa sau kiểm."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root/writer_a đối với bản của /root/writer_c; đã đọc đủ năm nguồn, toàn map và cả ba bản MN59. Không phát hiện sửa bắt buộc sau lượt đối chiếu đầy đủ. Đây là đánh giá AI; chưa có kiểm nghiệm người đọc thật hoặc xác nhận của chuyên gia Pāli bên ngoài.",
+      "contentHash": "f3214f77b0cf4d017d7dd863eef93daacff532df5842fffaee755f07940c293c",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn59.html",
+          "sha256": "248e21ae43e146d0c574bf5fe047321b300e9fca0e06208b3c5d96a0fc96af5d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn59_root-pli-ms.json",
+          "sha256": "29979ba8ac2cf76c8abd2fdb552d3c5b9f91b33d9edd12ff18969c4535e0bcea"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn59_translation-en-sujato.json",
+          "sha256": "1309795aa3ba712a98f3b351804383903b35ff3d898a0b9c4a55cf64228a8988"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn59_comment-vi-project.json",
+          "sha256": "8eca5a142aeae609bb8b903ade626d8ef1d820c6db54acff3dc790845abcfb07"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn59_translation-vi-project.json",
+          "sha256": "08e4526bf46701a183c84cdd89d73579edaa6bbde547631fa8e023440c3b807f"
+        }
+      ]
+    },
+    {
+      "id": "6477d0ae-d5ab-46cf-bfbf-31ec05e3b533",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.7,
+        "logic_context": 9.6,
+        "terminology": 9.5,
+        "audience_fit": 9.5,
+        "clarity": 9.4,
+        "editorial_separation": 9.6,
+        "practical_integrity": 9.6,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu đủ năm nguồn tới credits HTML; giữ thợ cả theo dự án, ba lượt thật và lạc yên/vi tế, không nhập diễn giải tối thắng của HTML.",
+        "semantic_fidelity": "Lạc trung tính được tính theo một cách phân loại; lạc trong diệt tưởng/thọ được giải rộng hơn cảm giác, giữ trọn khác biệt trọng tâm.",
+        "core_coverage": "35 ý có mặt qua 16 mục, bao gồm bảy số, điều kiện nhận lời khéo, năm đối tượng và chín chứng đạt cùng so sánh.",
+        "logic_context": "Cuộc tranh luận thuộc hai nhân vật, Phật đáp Ānanda; phần du sĩ vẫn giả định. Các bước vượt hoàn toàn và sự tán đồng cuối đúng người.",
+        "terminology": "Tầm/tứ, hỷ/lạc, tưởng/thức và Như Lai được giải ngắn; nhiều tên xứ cần chú ý nhưng không che bằng thuật ngữ trống nghĩa.",
+        "audience_fit": "Ví dụ kệ sách hợp với sinh hoạt đọc và chuyện trò; giọng bình tĩnh, tôn trọng, không lấy tuổi tác làm giả định về nhận thức.",
+        "clarity": "Tách sơ/nhị thiền thành mục riêng giúp nhịp chậm; cặp các xứ và mục chín so sánh vẫn nhiều khái niệm trong ít đoạn.",
+        "editorial_separation": "Ví dụ kệ sách ghi rõ chức năng minh họa; bài tập ngày thường không lẫn với hướng dẫn chứng đạt hoặc nội dung kinh.",
+        "practical_integrity": "Khuyến khích hỏi nhẹ nhàng và phản ánh lại lời người khác; phần quan sát niềm vui nêu giới hạn khi liên hệ với thiền sâu.",
+        "technical_integrity": "16 mục/29 đoạn, đủ 35 ý/111 khóa, toàn source hashes và contentHash khớp; audit không phát hiện lỗi cấu trúc hay tham chiếu."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root/writer_a đối với bản của /root/writer_c; đã đọc đủ năm nguồn, toàn map và cả ba bản MN59. Không phát hiện sửa bắt buộc sau lượt đối chiếu đầy đủ. Đây là đánh giá AI; chưa có kiểm nghiệm người đọc thật hoặc xác nhận của chuyên gia Pāli bên ngoài.",
+      "contentHash": "aa41b3e7f6abb402f61d7d4313956590c964d6bb01a8f8899ae9f584fe86ca77",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn59.html",
+          "sha256": "248e21ae43e146d0c574bf5fe047321b300e9fca0e06208b3c5d96a0fc96af5d"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn59_root-pli-ms.json",
+          "sha256": "29979ba8ac2cf76c8abd2fdb552d3c5b9f91b33d9edd12ff18969c4535e0bcea"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn59_translation-en-sujato.json",
+          "sha256": "1309795aa3ba712a98f3b351804383903b35ff3d898a0b9c4a55cf64228a8988"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn59_comment-vi-project.json",
+          "sha256": "8eca5a142aeae609bb8b903ade626d8ef1d820c6db54acff3dc790845abcfb07"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn59_translation-vi-project.json",
+          "sha256": "08e4526bf46701a183c84cdd89d73579edaa6bbde547631fa8e023440c3b807f"
+        }
+      ]
+    }
+  ]
+}

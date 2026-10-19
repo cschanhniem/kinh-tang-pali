@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn52",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "2dcf140b-6775-447b-9a18-11f962d0736b"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "fcfd7181-f588-4608-899c-80d09db85264"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "a8b39ed3-2747-4cb2-a701-941afc927418"
+    }
+  },
+  "reviews": [
+    {
+      "id": "2dcf140b-6775-447b-9a18-11f962d0736b",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.5,
+        "logic_context": 9.7,
+        "terminology": 9.3,
+        "audience_fit": 9.5,
+        "clarity": 9.4,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Bản dùng đủ năm nguồn của chính MN52; các tầng thiền được mở từ HTML cùng bài và các đoạn lặp, không thêm cửa thứ mười hai. Giữ lối vào kho báu, cặp vải, ba y và năm trăm không đơn vị, tránh các phần thêm của bản HTML.",
+        "semantic_fidelity": "Không đồng nhất định hay tâm lành với bất tử: từng thành tựu được quán là tạo tác, do chủ ý, vô thường và có tính chấm dứt. Hai hướng lậu tận và không trở lại vẫn giữ sự luyến/hỷ với pháp cùng điều kiện năm hạ phần kiết sử đã tận.",
+        "core_coverage": "Đủ 24 ý và 74 khóa: bốn thiền, bốn tâm mở rộng và ba chứng đạt vô sắc đều được giải chứ không chỉ gọi tên. Sau sửa, ba cửa vô sắc được gắn rõ với cùng điều kiện và hai kết quả; tam thiền cũng nói rõ vào và sống trong đó.",
+        "logic_context": "Dasama làm xong công việc rồi mới tìm gặp Ānanda, và Ānanda là người trình bày lời Phật. Tìm một cửa gặp mười một cửa, cùng hình ảnh nhà mười một lối thoát, giữ được ý có thể tu qua một cửa mà không gán Dasama đã chứng.",
+        "terminology": "Lậu hoặc, tầm tứ, thức, Niết-bàn và bất tử có lời giải gần với trẻ; hóa sinh đã được mở thành xuất hiện trực tiếp ở cảnh giới ấy. Năm hạ phần kiết sử còn được giải theo tên nhóm, và các chứng đạt vô sắc vẫn là phần khó cho độc giả nhỏ tuổi.",
+        "audience_fit": "Giọng hỏi đáp, các số thứ tự cửa và chuyện giúp bạn xếp sách tạo điểm tựa phù hợp trẻ. Bản không yêu cầu trẻ tạo trạng thái thiền hay tự nhận chứng đạt; các đoạn nhiều điều kiện vẫn có thể cần người cùng đọc.",
+        "clarity": "Mười một mục giúp giữ mạch từ chuyến đi tới pháp tu và lòng biết ơn. Các câu kết quả ở first-door và three-subtle-doors phải mang nhiều điều kiện nên còn dày dù đã chia đoạn và giải các từ chính.",
+        "editorial_separation": "Liên hệ xếp sách và gợi ý quan sát được ghi riêng là phần biên soạn, không biến cảm giác vui sau giúp bạn thành thiền. Người nói của các ví dụ kho báu và nhà cháy vẫn là Dasama.",
+        "practical_integrity": "Gợi ý nhớ một việc tốt, quan sát ý định và sự đổi khác giữ đúng phạm vi học nhìn tính có điều kiện. Không hứa chấm dứt lậu từ một cảm giác, không tạo động cơ tự kiểm chứng tái sinh hay nhãn chứng đạt.",
+        "technical_integrity": "Audit cuối không có lỗi cấu trúc hoặc nguồn; mọi khóa và ý được bao phủ, bản trẻ khớp fingerprint sau sửa. Cả năm hash nguồn khớp các tệp đã đọc thực, kể cả HTML dùng mở công thức."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập: đọc thực toàn Pāli/Việt dự án/Anh Sujato 74 khóa mỗi tệp (24 ô Anh trống), 2 chú giải, toàn HTML Minh Châu SC1–20 và phần ghi công; đọc toàn map 24 ý và cả ba bản. Các dấu lược được đối chiếu mô thức cùng MN52 và HTML cùng UID. Đã đọc lại trọn 6 mục thay đổi, rồi lấy audit và hash chỉ đọc. Không có thử độc giả con người hay xác nhận chuyên gia Pāli.",
+      "contentHash": "50caef40d5e866acdfa983431f0d14cb295c210ac4c99524afa8c4c1ce86c8d1",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn52.html",
+          "sha256": "384dc138deaa69f9f73dfe7dc1d45e89f8f8fb13841f940f078d2f2433796375"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn52_root-pli-ms.json",
+          "sha256": "1b119068d50df249236ea9d33101dff9db035ed81974b224f146ab4bd982387e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn52_translation-en-sujato.json",
+          "sha256": "c989699097560c258d27aed5e73c7b559f418fe4022eeefb051982ef1e6e6f0b"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn52_comment-vi-project.json",
+          "sha256": "3082d3a0f62e6dc3f1e2be00932789bd9466ac7a14b334bd756983994ca2f64c"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn52_translation-vi-project.json",
+          "sha256": "714134a91ecabbd30a1abb1a8d699870b0c7a27e109145a5fbb08de4f621e66d"
+        }
+      ]
+    },
+    {
+      "id": "fcfd7181-f588-4608-899c-80d09db85264",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.7,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.6,
+        "logic_context": 9.7,
+        "terminology": 9.5,
+        "audience_fit": 9.6,
+        "clarity": 9.6,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Các công thức tỉnh lược được mở có căn cứ ở đoạn đầy đủ và HTML MN52; 24 ô Anh trống không bị coi là xác nhận. Bản giữ tattha chưa quyết định sở chỉ, số năm trăm không đơn vị và đúng mười một cửa.",
+        "semantic_fidelity": "Quan hệ thành tựu, tạo tác/chủ ý, vô thường/chấm dứt và đoạn lậu được trình bày nhất quán. Nhánh chưa lậu tận giữ đủ ái luyến, hoan hỷ, năm hạ phần kiết sử, hóa sinh, Niết-bàn tại đó và không trở lại; không lấy yêu thích thiền làm điều kiện đủ.",
+        "core_coverage": "Toàn 24 ý có nội dung, gồm từng tầng thiền, đủ hướng lan tâm và ba điều kiện trước Không vô biên xứ. Ba phẩm chất tu, ba kết quả ở câu hỏi, lời kết từng nhóm và hai ví dụ của Dasama đều được nối rõ.",
+        "logic_context": "Giữ đúng Ānanda giảng lại giáo pháp, Dasama hỏi và bày tỏ sự tin tưởng về khả năng tu, rồi tự cúng dường. Phần giải thích điều chung của mười một cửa làm rõ cùng một cấu trúc mà vẫn phân biệt từng cửa.",
+        "terminology": "Dục được mở thành thú vui giác quan; tầm, tứ, hỷ, lạc, xả, tưởng và thức có lời giải. Hóa sinh sau chỉnh đã dễ hiểu hơn; hạ phần kiết sử được giữ thận trọng theo tên nhóm nên vẫn cần học thêm nếu muốn hiểu hết từng trói buộc.",
+        "audience_fit": "Giọng phân tích đặt trọng tâm vào việc thấy tính có điều kiện của một thành tựu, phù hợp người trưởng thành muốn hiểu cơ chế tu. Ví dụ hỗ trợ đồng nghiệp gần gũi mà không thu hẹp giải thoát thành kết quả nơi làm việc.",
+        "clarity": "Tách ba cửa vô sắc thành các mục riêng giúp theo dõi các bước vượt qua và cách quán tương ứng. Các nhắc lại kết quả có chủ đích và phần scope giúp đọc các công thức dài; phần năm kiết sử vẫn là điểm đòi hỏi tập trung.",
+        "editorial_separation": "Ví dụ công việc và thực hành đời thường tách rõ khỏi lời Ānanda; hai ví dụ cổ giữ đúng tác giả Dasama. Phần tattha nói giới hạn của chính câu kinh, không giả có một đáp án nguồn đã quyết định.",
+        "practical_integrity": "Gợi ý nhận điều kiện và ý định của trạng thái tốt không kêu gọi níu giữ hay tự phong chứng đạt. Bản giữ mục tiêu lậu tận và các điều kiện của thiền chứng, không hứa việc quan sát ngắn sẽ đạt một cửa bất tử.",
+        "technical_integrity": "Các liên kết đủ 74 khóa và 24 ý qua audit, nguồn không lỗi và hash bản trưởng thành trùng freeze đã đọc. Không ghi điểm vào metadata hay can thiệp nguồn trong lượt kiểm này."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập: đọc thực toàn Pāli/Việt dự án/Anh Sujato 74 khóa mỗi tệp (24 ô Anh trống), 2 chú giải, toàn HTML Minh Châu SC1–20 và phần ghi công; đọc toàn map 24 ý và cả ba bản. Các dấu lược được đối chiếu mô thức cùng MN52 và HTML cùng UID. Đã đọc lại trọn 6 mục thay đổi, rồi lấy audit và hash chỉ đọc. Không có thử độc giả con người hay xác nhận chuyên gia Pāli.",
+      "contentHash": "3e763cc71e825dcc136a346aae36a63fd667ad7b331fcf27cb5875c77b4aa0a6",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn52.html",
+          "sha256": "384dc138deaa69f9f73dfe7dc1d45e89f8f8fb13841f940f078d2f2433796375"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn52_root-pli-ms.json",
+          "sha256": "1b119068d50df249236ea9d33101dff9db035ed81974b224f146ab4bd982387e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn52_translation-en-sujato.json",
+          "sha256": "c989699097560c258d27aed5e73c7b559f418fe4022eeefb051982ef1e6e6f0b"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn52_comment-vi-project.json",
+          "sha256": "3082d3a0f62e6dc3f1e2be00932789bd9466ac7a14b334bd756983994ca2f64c"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn52_translation-vi-project.json",
+          "sha256": "714134a91ecabbd30a1abb1a8d699870b0c7a27e109145a5fbb08de4f621e66d"
+        }
+      ]
+    },
+    {
+      "id": "a8b39ed3-2747-4cb2-a701-941afc927418",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.6,
+        "logic_context": 9.7,
+        "terminology": 9.4,
+        "audience_fit": 9.6,
+        "clarity": 9.5,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Bản giữ đủ năm nguồn đã đối chiếu, mở nhị đến tứ thiền từ HTML cùng MN52 và mô thức của chính bài. Không thêm tên cõi hóa sinh, đồng tiền vàng, năm trăm phòng hay chứng quả cho Dasama.",
+        "semantic_fidelity": "Từng cửa được xem là có tạo tác và chủ ý nên vô thường, có tính chấm dứt; mối nối từ định sang sự thấy đúng còn nguyên. Cả hai kết quả giữ điều kiện năm kiết sử đã tận và việc không trở lại, không đánh đồng ái luyến pháp với giải thoát.",
+        "core_coverage": "Bốn thiền, bốn tâm lan khắp và ba chứng đạt vô sắc có nội dung riêng, cộng đủ mười một. Câu hỏi ba phẩm chất/ba kết quả, hai ví dụ và cúng dường cho hai hội chúng đều được giữ trong 24 ý của bản đồ.",
+        "logic_context": "Trình tự chuyến đi, câu hỏi, lời Ānanda, lời tin tưởng của Dasama và việc cúng dường rõ ràng. Câu giải tattha sau chỉnh trình bày trực tiếp điều kinh chưa chỉ rõ, không tự quyết giữa thiền chứng và suy xét.",
+        "terminology": "Phạm vi của tưởng, thức, Niết-bàn, xả và hóa sinh có lời giải tại chỗ. Cụm hạ phần kiết sử vẫn trừu tượng và các tên chứng đạt không dễ nhớ ngay, nhưng không được giải vượt căn cứ bằng danh sách hoặc cảnh giới chưa có trong bài.",
+        "audience_fit": "Giọng chậm, tôn trọng và ví dụ trò chuyện giúp người quen phù hợp người đọc lớn tuổi mà không gán hoàn cảnh sức khỏe hay trí nhớ. Các cửa vô sắc có mục riêng và gợi ý quan sát không đòi một cảm giác đặc biệt.",
+        "clarity": "Mạch các cửa được đánh số và ba cửa cuối tách riêng, hỗ trợ việc đọc từng phần. Một số câu về hai kết quả dài và nhiều tên chuyên môn vẫn làm độ khó cao hơn những đoạn kể chuyện.",
+        "editorial_separation": "Ví dụ hiện đại có nhãn và giới hạn; cúng dường vẫn là việc Dasama tự làm từ lòng biết ơn. Lời giải về bất tử và thức không bị dùng để tuyên bố thân hay một cái ta trường tồn.",
+        "practical_integrity": "Gợi ý nhìn ý định, điều kiện và sự thay đổi của lúc tâm vui giữ phạm vi quan sát đời thường. Không đặt tiêu chuẩn tuổi tác, không hứa chứng đắc và không biến lời tự tin của Dasama thành kết quả đã xảy ra.",
+        "technical_integrity": "Audit chỉ đọc cuối sạch; đủ 24 ý/74 khóa và hash bản lớn tuổi khớp các mục đã đọc lại. Năm nguồn cùng nội dung được gắn đúng fingerprints trong hồ sơ, không sử dụng metadata xuất bản làm chứng cứ chất lượng."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập: đọc thực toàn Pāli/Việt dự án/Anh Sujato 74 khóa mỗi tệp (24 ô Anh trống), 2 chú giải, toàn HTML Minh Châu SC1–20 và phần ghi công; đọc toàn map 24 ý và cả ba bản. Các dấu lược được đối chiếu mô thức cùng MN52 và HTML cùng UID. Đã đọc lại trọn 6 mục thay đổi, rồi lấy audit và hash chỉ đọc. Không có thử độc giả con người hay xác nhận chuyên gia Pāli.",
+      "contentHash": "cd9f96bca09d12f766ccd6accfdf851a066b409cc3e31073d311934d5413a9e7",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn52.html",
+          "sha256": "384dc138deaa69f9f73dfe7dc1d45e89f8f8fb13841f940f078d2f2433796375"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn52_root-pli-ms.json",
+          "sha256": "1b119068d50df249236ea9d33101dff9db035ed81974b224f146ab4bd982387e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn52_translation-en-sujato.json",
+          "sha256": "c989699097560c258d27aed5e73c7b559f418fe4022eeefb051982ef1e6e6f0b"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn52_comment-vi-project.json",
+          "sha256": "3082d3a0f62e6dc3f1e2be00932789bd9466ac7a14b334bd756983994ca2f64c"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn52_translation-vi-project.json",
+          "sha256": "714134a91ecabbd30a1abb1a8d699870b0c7a27e109145a5fbb08de4f621e66d"
+        }
+      ]
+    }
+  ]
+}

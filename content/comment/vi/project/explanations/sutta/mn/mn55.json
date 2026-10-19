@@ -1,0 +1,917 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn55",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn55_root-pli-ms.json",
+      "sha256": "4c51f1b68c830932ac4dab3b1d01a2d419fba4dac6ce5d891e0c2bd393828b86",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn55_translation-en-sujato.json",
+      "sha256": "6b327d74ee452f39e18b984c0761b9f3c02882fb907c3e43ee36f5f0a574d166",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn55_translation-vi-project.json",
+      "sha256": "8b35c0a07e34e3b2836d948830ed74b80382d5efe8194da9d9260aa5759bf9e2",
+      "commit": "89fc6b9e81a738c3cf90f2e8e4672f24bba5e9df"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn55.html",
+      "sha256": "e179dc8126aa092f3b742a9d93e945c8796cdca2eb03bf0b61059b27a2d617cf",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn55_comment-vi-project.json",
+      "sha256": "eeee7f9d4531c141df88f89fb0a44af1836a66cb6f94b192989ceb46e7e1f985",
+      "commit": "89fc6b9e81a738c3cf90f2e8e4672f24bba5e9df"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "identity",
+      "title": "Kinh Jīvaka, MN55",
+      "segments": [
+        "mn55:0.1",
+        "mn55:0.2"
+      ],
+      "summary": "Tên và mã Trung Bộ 55."
+    },
+    {
+      "id": "setting",
+      "title": "Tại vườn xoài Jīvaka",
+      "segments": [
+        "mn55:1.1",
+        "mn55:1.2"
+      ],
+      "summary": "Người truyền đã nghe; Phật ở Rājagaha, vườn xoài Jīvaka Komārabhacca."
+    },
+    {
+      "id": "visit",
+      "title": "Jīvaka đến lễ rồi ngồi",
+      "segments": [
+        "mn55:2.1"
+      ],
+      "summary": "Jīvaka Komārabhacca đến gặp Phật, lễ/ngồi một bên rồi hỏi."
+    },
+    {
+      "id": "rumor",
+      "title": "Lời đồn về thịt giết riêng",
+      "segments": [
+        "mn55:3.1",
+        "mn55:3.2"
+      ],
+      "summary": "Jīvaka nghe giết sinh vật riêng cho Sa-môn Gotama, Ngài biết vẫn ăn thịt làm cho mình, hành động ấy do Ngài mà có."
+    },
+    {
+      "id": "verification",
+      "title": "Hỏi về sự thật và tính hợp Pháp",
+      "segments": [
+        "mn55:3.3"
+      ],
+      "summary": "Lặp lời đồn, hỏi người nói có nói đúng lời Phật/không xuyên tạc điều không thật/phù hợp Pháp/không có căn cứ chê trách theo Pháp không."
+    },
+    {
+      "id": "rebuttal",
+      "title": "Phật bác lời xuyên tạc",
+      "segments": [
+        "mn55:4.1"
+      ],
+      "summary": "Những người nói vậy không đúng lời Ngài, xuyên tạc bằng điều hư giả không thật."
+    },
+    {
+      "id": "forbidden",
+      "title": "Ba trường hợp không dùng",
+      "segments": [
+        "mn55:5.1",
+        "mn55:5.2",
+        "mn55:5.3"
+      ],
+      "summary": "Thịt không dùng khi thấy, nghe, nghi. Theo mạch3.2 là giết riêng cho người nhận; một trong ba cũng thuộc trường hợp không dùng."
+    },
+    {
+      "id": "permitted",
+      "title": "Ba điều vắng mặt thì có thể dùng",
+      "segments": [
+        "mn55:5.4",
+        "mn55:5.5",
+        "mn55:5.6"
+      ],
+      "summary": "Thịt có thể dùng khi không thấy, không nghe, không nghi việc giết riêng cho người nhận."
+    },
+    {
+      "id": "metta",
+      "title": "Tâm từ không giới hạn",
+      "segments": [
+        "mn55:6.1",
+        "mn55:6.2"
+      ],
+      "summary": "Tỳ-kheo nương làng/thị trấn, tâm từ lan phương một/hai/ba/bốn, trên/dưới/ngang/mọi nơi/tất cả như mình/toàn thế giới; rộng/cao cả/vô lượng/không thù/không ác ý."
+    },
+    {
+      "id": "invitation",
+      "title": "Ngày mai, nhận nếu muốn",
+      "segments": [
+        "mn55:6.3",
+        "mn55:6.4"
+      ],
+      "summary": "Gia chủ hoặc con đến mời bữa ngày mai; tỳ-kheo nhận nếu muốn."
+    },
+    {
+      "id": "meal",
+      "title": "Ngồi chỗ sẵn, nhận thức ăn ngon",
+      "segments": [
+        "mn55:6.5",
+        "mn55:6.6"
+      ],
+      "summary": "Qua đêm, sáng mặc y mang bát/y tới nhà gia chủ/con, ngồi chỗ dọn, người ấy dâng thức ăn ngon."
+    },
+    {
+      "id": "no-craving",
+      "title": "Hai ý không có và năm nét thọ dụng",
+      "segments": [
+        "mn55:6.7",
+        "mn55:6.8",
+        "mn55:6.9",
+        "mn55:6.10",
+        "mn55:6.11"
+      ],
+      "summary": "Không nghĩ tốt thay người này dâng ngon, cũng không ước sau còn vậy. Dùng không trói/không mê/không dính, thấy nguy/hiểu thoát ly."
+    },
+    {
+      "id": "intent",
+      "title": "Không ý hại mình, người hay cả hai",
+      "segments": [
+        "mn55:6.12",
+        "mn55:6.13",
+        "mn55:6.14",
+        "mn55:6.15",
+        "mn55:7.1"
+      ],
+      "summary": "Phật hỏi lúc ấy có ý hại mình/người/cả hai không, Jīvaka không; hỏi thức ăn không lỗi, ông vâng."
+    },
+    {
+      "id": "brahma-metta",
+      "title": "Phạm thiên và tâm từ nơi Phật",
+      "segments": [
+        "mn55:7.2",
+        "mn55:7.3",
+        "mn55:7.4",
+        "mn55:7.5"
+      ],
+      "summary": "Jīvaka nghe Phạm thiên trú từ; nay tận mắt thấy Phật an trú tâm từ."
+    },
+    {
+      "id": "roots-metta",
+      "title": "Tận gốc tham sân si dẫn sân hận",
+      "segments": [
+        "mn55:7.6"
+      ],
+      "summary": "Tham/sân/si có thể khiến sân hận đã được Như Lai bỏ/cắt gốc/như gốc cọ/xóa sạch/tương lai không khởi."
+    },
+    {
+      "id": "condition-metta",
+      "title": "Chấp nhận nếu đúng ý ấy",
+      "segments": [
+        "mn55:7.7",
+        "mn55:7.8"
+      ],
+      "summary": "Phật chấp nhận NẾU ông nói theo ý ấy; Jīvaka xác nhận chính ý đó."
+    },
+    {
+      "id": "other-hearts",
+      "title": "Bi, hỷ, xả cùng toàn phạm vi",
+      "segments": [
+        "mn55:8-10.1",
+        "mn55:8-10.2",
+        "mn55:8-10.3",
+        "mn55:8-10.4",
+        "mn55:8-10.5"
+      ],
+      "summary": "Tỳ-kheo nương làng/thị trấn, bi/hỷ/xả lặp đủ bốn phương/trên/dưới/ngang/toàn thế giới/tất cả như mình, rộng/cao cả/vô lượng/không thù/không ác ý."
+    },
+    {
+      "id": "second-invitation",
+      "title": "Cùng điều kiện nhận lời",
+      "segments": [
+        "mn55:8-10.6",
+        "mn55:8-10.7"
+      ],
+      "summary": "Gia chủ hoặc con mời ngày mai, nhận nếu muốn."
+    },
+    {
+      "id": "second-meal",
+      "title": "Cùng trình tự đến nhà thọ thực",
+      "segments": [
+        "mn55:8-10.8",
+        "mn55:8-10.9"
+      ],
+      "summary": "Qua đêm, sáng mặc y mang bát/y đến nhà gia chủ/con, ngồi chỗ sẵn, được dâng thức ăn ngon."
+    },
+    {
+      "id": "second-no-craving",
+      "title": "Không mong món ngon hiện tại và sau",
+      "segments": [
+        "mn55:8-10.10",
+        "mn55:8-10.11",
+        "mn55:8-10.12",
+        "mn55:8-10.13",
+        "mn55:8-10.14"
+      ],
+      "summary": "Không nghĩ tốt khi dâng ngon/mong sau vậy; không trói/mê/dính, thấy nguy/biết thoát ly như phần từ."
+    },
+    {
+      "id": "second-intent",
+      "title": "Lần nữa không hại và không lỗi",
+      "segments": [
+        "mn55:8-10.15",
+        "mn55:8-10.16",
+        "mn55:8-10.17",
+        "mn55:8-10.18",
+        "mn55:11.1"
+      ],
+      "summary": "Phật hỏi ý hại mình/người/cả hai, Jīvaka không; hỏi dùng thức ăn không lỗi, ông vâng."
+    },
+    {
+      "id": "brahma-equanimity",
+      "title": "Phạm thiên và xả nơi Phật",
+      "segments": [
+        "mn55:11.2",
+        "mn55:11.3",
+        "mn55:11.4",
+        "mn55:11.5"
+      ],
+      "summary": "Jīvaka nghe Phạm thiên trú xả, nay tận mắt thấy Phật trú xả."
+    },
+    {
+      "id": "roots-equanimity",
+      "title": "Ba căn làm phát sinh ba điều",
+      "segments": [
+        "mn55:11.6"
+      ],
+      "summary": "Tham/sân/si có thể gây tâm hại/bất mãn/chống đối đã bị Như Lai bỏ/cắt gốc/như gốc cọ/xóa sạch/tương lai không khởi."
+    },
+    {
+      "id": "condition-equanimity",
+      "title": "Lại chấp nhận với điều kiện",
+      "segments": [
+        "mn55:11.7",
+        "mn55:11.8"
+      ],
+      "summary": "Nếu ông nói theo ý này, Phật chấp nhận; Jīvaka xác nhận chính ý ấy."
+    },
+    {
+      "id": "five-introduction",
+      "title": "Giết riêng thì nhiều vô phước",
+      "segments": [
+        "mn55:12.1"
+      ],
+      "summary": "Giết một sinh vật riêng cho Như Lai HOẶC đệ tử tạo nhiều vô phước bởi năm lý do."
+    },
+    {
+      "id": "fetch",
+      "title": "Một: bảo bắt con vật",
+      "segments": [
+        "mn55:12.2",
+        "mn55:12.3"
+      ],
+      "summary": "Lời bảo đi bắt con vật ấy về là lý do một người đó tạo nhiều vô phước; gahapati ở đây không phải một khách mới xuất hiện."
+    },
+    {
+      "id": "led",
+      "title": "Hai: khổ ưu khi bị dắt",
+      "segments": [
+        "mn55:12.4"
+      ],
+      "summary": "Con vật bị dây buộc cổ dắt đi cảm đau khổ/buồn; lý do hai người giết tạo nhiều vô phước."
+    },
+    {
+      "id": "order-kill",
+      "title": "Ba: ra lệnh giết",
+      "segments": [
+        "mn55:12.5",
+        "mn55:12.6"
+      ],
+      "summary": "Lời bảo đi giết con vật là lý do ba tạo nhiều vô phước."
+    },
+    {
+      "id": "killed",
+      "title": "Bốn: khổ ưu khi bị giết",
+      "segments": [
+        "mn55:12.7"
+      ],
+      "summary": "Con vật cảm đau khổ/buồn lúc bị giết; lý do bốn người giết tạo nhiều vô phước."
+    },
+    {
+      "id": "unallowable",
+      "title": "Năm: thức ăn không hợp luật",
+      "segments": [
+        "mn55:12.8"
+      ],
+      "summary": "Dâng Như Lai hoặc đệ tử thức ăn không được phép theo giới luật là lý do năm tạo nhiều vô phước."
+    },
+    {
+      "id": "five-conclusion",
+      "title": "Kết đủ năm lý do",
+      "segments": [
+        "mn55:12.9"
+      ],
+      "summary": "Nhắc người giết riêng cho Như Lai hoặc đệ tử có nhiều vô phước theo đủ năm lý do trên."
+    },
+    {
+      "id": "praise",
+      "title": "Hợp luật và không có lỗi",
+      "segments": [
+        "mn55:13.1",
+        "mn55:13.2",
+        "mn55:13.3",
+        "mn55:13.4"
+      ],
+      "summary": "Jīvaka nghe khen kỳ diệu/phi thường; tỳ-kheo dùng thức ăn HỢP LUẬT và KHÔNG LỖI."
+    },
+    {
+      "id": "refuge",
+      "title": "Nam cư sĩ quy y trọn đời",
+      "segments": [
+        "mn55:13.5",
+        "mn55:13.6",
+        "mn55:13.7"
+      ],
+      "summary": "Tuyệt vời hai lần rồi dấu lược; xin ghi nhận nam cư sĩ đã quy y từ nay trọn đời; bài thứ năm. Không tự nhập phần lược từ nguồn khác vào lời kinh này."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Diễn giải dành cho trẻ em",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Jīvaka hỏi về điều đã nghe",
+          "paragraphs": [
+            "Người truyền Kinh Jīvaka, MN55 trong Trung Bộ, kể lại điều đã nghe: Đức Phật ở Rājagaha, trong vườn xoài của Jīvaka Komārabhacca. Jīvaka đến gặp Ngài, đảnh lễ rồi ngồi một bên.",
+            "Ông kể một lời đồn: người ta giết sinh vật riêng để dâng Sa-môn Gotama; Gotama biết mà vẫn ăn, nên việc giết ấy do Ngài mà có. Sa-môn là người sống đời tu; Gotama là tên dùng để gọi Đức Phật trong lời đồn này.",
+            "Jīvaka muốn biết lời đó có nói đúng về Phật và có xuyên tạc điều không thật không. Lời ấy có phù hợp Giáo Pháp, có để người hiểu Pháp tìm được chỗ sai mà chê trách không? Phật trả lời rõ: họ không nói đúng lời Ngài; họ đã xuyên tạc Ngài bằng điều sai, không có thật."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "visit",
+            "rumor",
+            "verification",
+            "rebuttal"
+          ]
+        },
+        {
+          "id": "three",
+          "kind": "teaching",
+          "heading": "Thấy, nghe hoặc nghi việc giết riêng",
+          "paragraphs": [
+            "Phật nói thịt không được dùng trong ba trường hợp: đã thấy, đã nghe hoặc đã nghi. Trong câu chuyện này, điều được thấy, nghe hay nghi là con vật bị giết riêng để dâng cho người nhận.",
+            "Khi đồng thời không thấy, không nghe và cũng không nghi việc giết riêng ấy, thịt có thể được dùng."
+          ],
+          "meaningUnits": [
+            "forbidden",
+            "permitted"
+          ]
+        },
+        {
+          "id": "kindness",
+          "kind": "teaching",
+          "heading": "Một tâm từ trải khắp mọi phương",
+          "paragraphs": [
+            "Phật kể về một tỳ-kheo, người đã xuất gia, sống nương vào một làng hay thị trấn. Vị ấy an trú với tâm từ, lòng mong các loài được an vui.",
+            "Tâm từ lan ra phương thứ nhất, rồi thứ hai, thứ ba, thứ tư; cả trên, dưới, ngang, khắp mọi nơi, toàn thế giới. Vị ấy hướng đến tất cả như đối với chính mình, với tâm rộng lớn, cao cả, không giới hạn, không thù hận, không ác ý."
+          ],
+          "meaningUnits": [
+            "metta"
+          ]
+        },
+        {
+          "id": "meal",
+          "kind": "teaching",
+          "heading": "Được mời món ngon",
+          "paragraphs": [
+            "Một gia chủ hoặc con của gia chủ đến mời vị ấy dùng bữa ngày mai. Gia chủ là người sống đời tại gia. Nếu muốn, vị tỳ-kheo nhận lời. Sáng hôm sau, vị ấy mặc y, mang bát và y, tới nhà người mời, ngồi vào chỗ đã dọn. Người ấy dâng thức ăn ngon.",
+            "Vị tỳ-kheo không nghĩ: tốt quá, người này dâng món ngon cho mình; ước gì sau này vẫn dâng ngon như vậy. Vị ấy ăn mà không bị trói buộc, không mê đắm, không dính mắc; thấy rõ nguy hại và hiểu sự thoát ly, con đường thoát ra."
+          ],
+          "meaningUnits": [
+            "invitation",
+            "meal",
+            "no-craving"
+          ]
+        },
+        {
+          "id": "no-harm",
+          "kind": "teaching",
+          "heading": "Tâm có muốn làm hại ai không?",
+          "paragraphs": [
+            "Phật hỏi Jīvaka: lúc ấy, vị tỳ-kheo có ý làm hại mình, hại người khác, hay hại cả hai không? Jīvaka thưa không.",
+            "Phật hỏi tiếp: vậy vị ấy đang dùng thức ăn không có lỗi phải không? Jīvaka thưa đúng vậy."
+          ],
+          "meaningUnits": [
+            "intent"
+          ]
+        },
+        {
+          "id": "metta-roots",
+          "kind": "teaching",
+          "heading": "Lòng từ có gốc rễ vững chắc",
+          "paragraphs": [
+            "Jīvaka nói mình từng nghe Phạm thiên, một vị trời, sống với tâm từ. Nay ông tận mắt thấy Đức Phật là người sống với tâm từ.",
+            "Phật giải thích: tham, sân và si — sự tham muốn, giận ghét và không hiểu biết — có thể làm sinh sân hận. Những gốc ấy nơi Như Lai đã được bỏ, cắt tận gốc, như gốc cây cọ đã chặt; đã bị xóa sạch, về sau không thể sinh lại. Như Lai là cách Phật tự xưng ở đây.",
+            "Phật nói nếu Jīvaka nói theo ý nghĩa đó thì Ngài chấp nhận. Jīvaka thưa đó chính là ý ông muốn nói."
+          ],
+          "meaningUnits": [
+            "brahma-metta",
+            "roots-metta",
+            "condition-metta"
+          ]
+        },
+        {
+          "id": "four-hearts",
+          "kind": "teaching",
+          "heading": "Thêm bi, hỷ và xả",
+          "paragraphs": [
+            "Phật tiếp tục nói về người xuất gia sống nương làng hay thị trấn, an trú với tâm bi, tâm hỷ và tâm xả. Bi là thương nỗi khổ; hỷ là vui với điều tốt đẹp của người khác; xả là giữ tâm quân bình.",
+            "Với từng tâm ấy, vị tỳ-kheo cũng lan tỏa đủ bốn phương, trên, dưới, ngang, mọi nơi và toàn thế giới; đối với tất cả như chính mình. Tâm rộng lớn, cao cả, không giới hạn, không thù hận và không ác ý, như trong phần tâm từ."
+          ],
+          "meaningUnits": [
+            "other-hearts"
+          ]
+        },
+        {
+          "id": "another-meal",
+          "kind": "teaching",
+          "heading": "Cùng một cách nhận và dùng thức ăn",
+          "paragraphs": [
+            "Ở các trường hợp bi, hỷ, xả, gia chủ hay người con cũng mời bữa ngày mai; vị tỳ-kheo nhận nếu muốn. Sáng hôm sau, vị ấy mặc y, mang bát và y đến nhà, ngồi chỗ dọn sẵn, nhận thức ăn ngon được dâng.",
+            "Vị ấy vẫn không nghĩ tốt quá vì được món ngon, cũng không mong về sau được đãi như thế. Vị ấy ăn không bị trói buộc, không mê đắm, không dính mắc, thấy nguy hại và hiểu sự thoát ly.",
+            "Phật lại hỏi về ý hại mình, hại người hay hại cả hai; Jīvaka đáp không. Khi Phật hỏi vị ấy dùng thức ăn không lỗi phải không, ông đáp vâng."
+          ],
+          "meaningUnits": [
+            "second-invitation",
+            "second-meal",
+            "second-no-craving",
+            "second-intent"
+          ]
+        },
+        {
+          "id": "equanimity",
+          "kind": "teaching",
+          "heading": "Tâm quân bình nơi Đức Phật",
+          "paragraphs": [
+            "Jīvaka nói từng nghe Phạm thiên sống với tâm xả. Nay ông tận mắt thấy Phật an trú với tâm xả.",
+            "Phật giải thích: tham, sân, si có thể làm sinh tâm muốn làm hại, sự không hài lòng và lòng chống đối. Những gốc ấy nơi Như Lai đã được bỏ và cắt tận gốc, như gốc cây cọ đã chặt, đã xóa sạch, về sau không thể sinh lại.",
+            "Một lần nữa, Phật nói nếu ông nói theo ý ấy thì Ngài chấp nhận; Jīvaka thưa đó chính là ý mình."
+          ],
+          "meaningUnits": [
+            "brahma-equanimity",
+            "roots-equanimity",
+            "condition-equanimity"
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Năm lý do việc giết riêng gây nhiều điều xấu",
+          "paragraphs": [
+            "Phật dạy rằng ai giết sinh vật riêng để dâng Như Lai hoặc đệ tử của Như Lai sẽ tạo nhiều điều vô phước, tức điều bất thiện, vì năm lý do.",
+            "Thứ nhất, người ấy bảo đi bắt con vật về. Thứ hai, con vật đau khổ và buồn khi bị dắt đi bằng dây buộc cổ. Thứ ba, người ấy ra lời bảo giết con vật.",
+            "Thứ tư, con vật đau khổ và buồn khi bị giết. Thứ năm, người ấy dâng lên Phật hoặc đệ tử món ăn không hợp với giới luật của người nhận. Cả năm lý do đều khiến người làm việc giết riêng ấy tạo nhiều điều vô phước."
+          ],
+          "meaningUnits": [
+            "five-introduction",
+            "fetch",
+            "led",
+            "order-kill",
+            "killed",
+            "unallowable",
+            "five-conclusion"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Jīvaka hiểu và xin nương tựa",
+          "paragraphs": [
+            "Jīvaka thưa thật kỳ diệu, thật phi thường: các tỳ-kheo dùng thức ăn hợp luật và không có lỗi. Ông còn khen thật tuyệt vời hai lần.",
+            "Ông xin Phật ghi nhận mình là một nam cư sĩ đã quy y, nghĩa là đã nhận nơi nương tựa, từ hôm nay đến trọn đời. Kinh Jīvaka kết thúc, là bài thứ năm trong phẩm."
+          ],
+          "meaningUnits": [
+            "praise",
+            "refuge"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: nhận chiếc bánh được chia",
+          "paragraphs": [
+            "Một bạn mang bánh đến chia cho lớp. Em có thể cảm ơn, nhận phần được cho và giữ lòng nhẹ nhàng. Nếu bắt đầu tính cách khiến bạn ngày nào cũng mang đúng món em thích, em có thể nhận ra mình đang thêm sự đòi hỏi vào một món quà. Đây là ví dụ nhỏ về tâm khi nhận, được gợi từ bài kinh."
+          ],
+          "meaningUnits": [
+            "no-craving"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: nhớ cả người và con vật",
+          "paragraphs": [
+            "Trước khi nhờ ai làm việc cho mình, em có thể nghĩ xem việc ấy có làm người hay con vật nào bị hại không. Nếu có, hãy tìm cách không gây hại cùng một người lớn đáng tin. Lòng muốn đem niềm vui cho một người có thể đi cùng sự quan tâm đến những ai khác có liên quan."
+          ],
+          "meaningUnits": [
+            "metta",
+            "five-introduction"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Diễn giải dành cho người trưởng thành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "setting",
+          "kind": "teaching",
+          "heading": "Xác minh một lời quy trách nhiệm",
+          "paragraphs": [
+            "Kinh Jīvaka, MN55 trong Trung Bộ, được truyền bằng lời người kể đã nghe. Đức Phật ở Rājagaha, tại vườn xoài của Jīvaka Komārabhacca. Jīvaka đến đảnh lễ, ngồi một bên và hỏi về một lời đồn.",
+            "Người ta nói sinh vật bị giết riêng để dâng Sa-môn Gotama; Gotama biết rõ thịt được làm cho mình mà vẫn dùng, nên hành động giết ấy do Ngài mà có. Sa-môn chỉ người sống đời tu; ở đây Gotama là Đức Phật. Jīvaka muốn biết người nói có nói đúng lời Ngài, có tránh xuyên tạc điều không thật, có giải thích hợp Pháp và không để lại căn cứ phản bác, chê trách đúng Pháp hay không.",
+            "Phật bác bỏ: họ không nói đúng lời Ngài; họ xuyên tạc Ngài bằng điều hư giả, không có thật."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "visit",
+            "rumor",
+            "verification",
+            "rebuttal"
+          ]
+        },
+        {
+          "id": "conditions",
+          "kind": "teaching",
+          "heading": "Ba điều kiện trong hoàn cảnh đang được hỏi",
+          "paragraphs": [
+            "Phật nói thịt không được dùng khi đã thấy, đã nghe hoặc đã nghi. Trong mạch câu hỏi của Jīvaka, đối tượng của sự thấy, nghe, nghi là việc sinh vật bị giết riêng cho người nhận.",
+            "Ngài cho phép dùng khi cả ba điều cùng có: không thấy, không nghe và không nghi việc giết riêng cho người nhận ấy."
+          ],
+          "meaningUnits": [
+            "forbidden",
+            "permitted"
+          ]
+        },
+        {
+          "id": "metta",
+          "kind": "teaching",
+          "heading": "Người nhận sống với tâm từ rộng khắp",
+          "paragraphs": [
+            "Phật đặt trường hợp một tỳ-kheo, vị xuất gia sống nương vào làng hoặc thị trấn. Vị ấy an trú với tâm từ, lòng mong các loài an vui, lan tỏa đến phương thứ nhất, thứ hai, thứ ba, thứ tư; trên, dưới, ngang, khắp nơi và toàn thế giới.",
+            "Đối với tất cả như đối với mình, vị ấy giữ tâm rộng lớn, cao cả, vô lượng, không thù hận, không ác ý. Đó là nền tâm trong câu chuyện về việc thọ nhận tiếp theo."
+          ],
+          "meaningUnits": [
+            "metta"
+          ]
+        },
+        {
+          "id": "receiving",
+          "kind": "teaching",
+          "heading": "Một bữa ăn và hai ý nghĩ không có",
+          "paragraphs": [
+            "Gia chủ hoặc con của gia chủ đến mời bữa ăn ngày mai. Vị tỳ-kheo nhận nếu muốn. Qua đêm, sáng hôm sau vị ấy mặc y, mang bát và y đến nhà người mời, ngồi chỗ dọn sẵn. Gia chủ hay người con dâng thức ăn ngon.",
+            "Vị ấy không nghĩ tốt thay người này dâng cho mình món ngon, cũng không ước về sau vẫn được dâng ngon như thế. Vị ấy ăn không bị trói buộc, không mê đắm, không dính mắc; thấy rõ nguy hại và hiểu sự thoát ly, lối thoát ra.",
+            "Phật hỏi lúc đó vị ấy có ý hại mình, hại người hay hại cả hai không. Jīvaka đáp không. Ngài hỏi như vậy vị ấy dùng thức ăn không có lỗi phải không; Jīvaka thưa vâng."
+          ],
+          "meaningUnits": [
+            "invitation",
+            "meal",
+            "no-craving",
+            "intent"
+          ]
+        },
+        {
+          "id": "roots-of-love",
+          "kind": "teaching",
+          "heading": "Tâm từ gắn với sự đoạn tận",
+          "paragraphs": [
+            "Jīvaka nói mình từng nghe Phạm thiên, một vị trời, sống với tâm từ; nay đã tận mắt thấy điều ấy nơi Đức Phật. Phật giải thích rằng những tham, sân, si có thể khiến sân hận sinh ra đều đã được Như Lai từ bỏ, cắt tận gốc, làm như gốc cây cọ bị chặt, xóa sạch, không thể sinh khởi trong tương lai.",
+            "Tham, sân, si là tham muốn, giận ghét và mê lầm. Như Lai là cách Phật tự xưng. Ngài chấp nhận lời Jīvaka nếu ông nói theo ý nghĩa đoạn tận ấy. Jīvaka xác nhận đó chính là ý mình."
+          ],
+          "meaningUnits": [
+            "brahma-metta",
+            "roots-metta",
+            "condition-metta"
+          ]
+        },
+        {
+          "id": "other-hearts",
+          "kind": "teaching",
+          "heading": "Bi, hỷ, xả và cùng một cách thọ dụng",
+          "paragraphs": [
+            "Phật tiếp tục với vị tỳ-kheo nương làng hay thị trấn, an trú tâm bi, thương nỗi khổ; tâm hỷ, vui với điều tốt đẹp của người khác; tâm xả, sự quân bình. Mỗi tâm đều lan đủ bốn phương, trên, dưới, ngang, khắp nơi, toàn thế giới, đối với tất cả như chính mình; rộng lớn, cao cả, vô lượng, không thù hận và không ác ý.",
+            "Trong từng trường hợp, gia chủ hoặc người con mời bữa ngày mai, vị ấy nhận nếu muốn. Sáng hôm sau, vị ấy mặc y, mang bát và y tới nhà, ngồi vào chỗ đã chuẩn bị, nhận thức ăn ngon người ấy dâng.",
+            "Vị ấy không nghĩ tốt thay được người này đãi ngon, không ước sau cũng vậy. Vị ấy dùng thức ăn không trói buộc, không mê đắm, không dính mắc, thấy nguy hại và biết sự thoát ly. Phật lại hỏi về ý hại mình, người hay cả hai; Jīvaka đáp không. Hỏi việc thọ dụng không lỗi phải không, ông đáp vâng."
+          ],
+          "meaningUnits": [
+            "other-hearts",
+            "second-invitation",
+            "second-meal",
+            "second-no-craving",
+            "second-intent"
+          ]
+        },
+        {
+          "id": "roots-of-equanimity",
+          "kind": "teaching",
+          "heading": "Tâm xả khi các gốc bất thiện không còn",
+          "paragraphs": [
+            "Jīvaka nói từng nghe Phạm thiên sống với tâm xả và nay tận mắt thấy Phật an trú tâm xả. Phật chỉ rõ tham, sân, si có thể dẫn đến tâm hại, bất mãn và chống đối. Như Lai đã từ bỏ những gốc ấy, cắt tận gốc, làm như gốc cây cọ bị chặt, xóa sạch, không thể khởi lại trong tương lai.",
+            "Nếu Jīvaka nói theo ý nghĩa đó, Phật chấp nhận. Ông xác nhận mình đã nói đúng theo ý ấy. Lời công nhận gắn với việc những gốc làm tâm bất thiện đã chấm dứt."
+          ],
+          "meaningUnits": [
+            "brahma-equanimity",
+            "roots-equanimity",
+            "condition-equanimity"
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Năm lý do người giết riêng tạo nhiều vô phước",
+          "paragraphs": [
+            "Phật nói người giết một sinh vật riêng để dâng Như Lai hoặc đệ tử Như Lai tạo nhiều điều vô phước, những điều bất thiện, bởi năm lý do.",
+            "Một là lời bảo đi bắt con vật về. Hai là nỗi đau và buồn của con vật khi bị dắt đi với dây buộc ở cổ. Ba là lời bảo giết con vật ấy.",
+            "Bốn là nỗi đau và buồn của con vật khi bị giết. Năm là việc đem thức ăn không hợp luật đến dâng Như Lai hoặc đệ tử. Không hợp luật ở đây là không được phép theo giới luật của người nhận.",
+            "Cả năm lý do đều thuộc trách nhiệm người làm việc giết riêng ấy, và mỗi lý do tạo nhiều điều vô phước. Phật kết lại đầy đủ phạm vi: giết riêng cho Ngài hoặc cho đệ tử của Ngài."
+          ],
+          "meaningUnits": [
+            "five-introduction",
+            "fetch",
+            "led",
+            "order-kill",
+            "killed",
+            "unallowable",
+            "five-conclusion"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Điều Jīvaka hiểu được",
+          "paragraphs": [
+            "Jīvaka thưa thật kỳ diệu, thật phi thường: các tỳ-kheo dùng thức ăn hợp luật và dùng thức ăn không có lỗi. Ông khen thật tuyệt vời hai lần rồi xin Phật ghi nhận mình là nam cư sĩ đã quy y, nhận nơi nương tựa, từ hôm nay đến trọn đời.",
+            "Kinh Jīvaka kết thúc, là bài thứ năm trong phẩm."
+          ],
+          "meaningUnits": [
+            "praise",
+            "refuge"
+          ]
+        },
+        {
+          "id": "work-meal",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: được nhóm làm việc mời ăn",
+          "paragraphs": [
+            "Một nhóm làm việc mời bạn dùng bữa. Bạn có thể nhận sự quý mến và cảm ơn, đồng thời nhận ra lúc mình bắt đầu lấy mức độ đãi ngộ làm thước đo giá trị bản thân, hoặc muốn lần sau phải được tiếp đãi hơn nữa. Việc nhận ra ấy giúp giảm sự đòi hỏi đặt lên người mời. Ví dụ này vận dụng phần quan sát tâm khi nhận của bài kinh."
+          ],
+          "meaningUnits": [
+            "no-craving",
+            "intent"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: xét cả việc mình nhờ làm",
+          "paragraphs": [
+            "Khi chuẩn bị một sự cúng dường, hãy xem cả điều mình yêu cầu người khác làm và những ai chịu ảnh hưởng. Có thể trao đổi rõ với người chuẩn bị để việc dâng cúng phù hợp giới luật người nhận và không đòi hỏi làm hại sinh vật. Sự chú ý đi từ ý định cho đến cách thực hiện."
+          ],
+          "meaningUnits": [
+            "five-introduction",
+            "fetch",
+            "led",
+            "order-kill",
+            "killed",
+            "unallowable"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Diễn giải dành cho người lớn tuổi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Cuộc hỏi chuyện trong vườn xoài",
+          "paragraphs": [
+            "Người truyền Kinh Jīvaka, MN55 trong Trung Bộ, kể điều đã nghe. Đức Phật ở Rājagaha, trong vườn xoài của Jīvaka Komārabhacca. Jīvaka đến đảnh lễ rồi ngồi xuống một bên, thưa với Ngài."
+          ],
+          "meaningUnits": [
+            "identity",
+            "setting",
+            "visit"
+          ]
+        },
+        {
+          "id": "rumor",
+          "kind": "teaching",
+          "heading": "Hỏi cho rõ lời đồn",
+          "paragraphs": [
+            "Ông nghe người ta nói sinh vật bị giết riêng để dâng Sa-môn Gotama, và Gotama biết mà vẫn ăn thịt làm cho mình; việc giết ấy do Ngài mà có. Sa-môn là người sống đời tu; Gotama trong lời đồn là Đức Phật.",
+            "Jīvaka hỏi người nói vậy có nói đúng lời Phật, không xuyên tạc Ngài bằng điều không thật, giải thích phù hợp Pháp và không có căn cứ để bị chê trách đúng Pháp hay không.",
+            "Phật đáp: những người ấy không nói đúng lời Ngài. Họ xuyên tạc Ngài bằng điều hư giả, không có thật."
+          ],
+          "meaningUnits": [
+            "rumor",
+            "verification",
+            "rebuttal"
+          ]
+        },
+        {
+          "id": "conditions",
+          "kind": "teaching",
+          "heading": "Ba điều cần xét khi nhận",
+          "paragraphs": [
+            "Phật nói thịt không được dùng khi đã thấy, đã nghe hoặc đã nghi. Trong hoàn cảnh này, đó là thấy, nghe hoặc nghi con vật đã bị giết riêng cho người nhận.",
+            "Thịt có thể được dùng khi đồng thời không thấy, không nghe và không nghi việc giết riêng ấy."
+          ],
+          "meaningUnits": [
+            "forbidden",
+            "permitted"
+          ]
+        },
+        {
+          "id": "love",
+          "kind": "teaching",
+          "heading": "Tâm từ hướng khắp mọi nơi",
+          "paragraphs": [
+            "Phật kể về vị tỳ-kheo, người đã xuất gia, sống nương một làng hay thị trấn. Vị ấy an trú với tâm từ, mong các loài an vui.",
+            "Tâm từ lan ra phương thứ nhất, thứ hai, thứ ba, thứ tư; rồi trên, dưới, ngang, mọi nơi, toàn thế giới. Đối với tất cả như chính mình, vị ấy có tâm rộng lớn, cao cả, vô lượng, không thù hận, không ác ý."
+          ],
+          "meaningUnits": [
+            "metta"
+          ]
+        },
+        {
+          "id": "invitation",
+          "kind": "teaching",
+          "heading": "Một lời mời ngày hôm sau",
+          "paragraphs": [
+            "Gia chủ hoặc con của gia chủ đến mời vị ấy dùng bữa ngày mai. Gia chủ là người sống đời tại gia. Nếu muốn, vị tỳ-kheo nhận lời.",
+            "Qua đêm, sáng hôm sau vị ấy mặc y, mang bát và y đến nhà người mời, ngồi trên chỗ đã dọn. Người gia chủ hoặc người con dâng thức ăn ngon."
+          ],
+          "meaningUnits": [
+            "invitation",
+            "meal"
+          ]
+        },
+        {
+          "id": "receiving",
+          "kind": "teaching",
+          "heading": "Dùng thức ăn với tâm không vướng",
+          "paragraphs": [
+            "Vị ấy không nghĩ tốt quá, người này dâng món ngon cho mình; cũng không ước sau này vẫn được dâng món ngon như thế. Vị ấy dùng thức ăn không bị trói buộc, không mê đắm, không dính mắc; thấy rõ nguy hại và hiểu sự thoát ly, lối thoát ra.",
+            "Phật hỏi lúc ấy vị tỳ-kheo có ý làm hại mình, hại người hay hại cả hai không. Jīvaka thưa không. Ngài hỏi việc dùng thức ăn lúc ấy có phải không có lỗi không; ông thưa vâng."
+          ],
+          "meaningUnits": [
+            "no-craving",
+            "intent"
+          ]
+        },
+        {
+          "id": "love-roots",
+          "kind": "teaching",
+          "heading": "Từ bỏ tận gốc điều dẫn đến sân hận",
+          "paragraphs": [
+            "Jīvaka nói từng nghe Phạm thiên, một vị trời, an trú với tâm từ. Nay ông đã tận mắt thấy Đức Phật an trú với tâm từ.",
+            "Phật giải thích rằng tham, sân, si có thể dẫn đến sân hận. Như Lai đã từ bỏ những gốc ấy, cắt tận gốc, như gốc cây cọ đã chặt, xóa sạch, không thể khởi lại về sau. Tham, sân, si là tham muốn, giận ghét và mê lầm; Như Lai là cách Phật tự xưng.",
+            "Nếu Jīvaka nói theo ý ấy, Phật chấp nhận. Ông xác nhận đó chính là điều mình muốn nói."
+          ],
+          "meaningUnits": [
+            "brahma-metta",
+            "roots-metta",
+            "condition-metta"
+          ]
+        },
+        {
+          "id": "other-hearts",
+          "kind": "teaching",
+          "heading": "Lòng bi, niềm hỷ và tâm xả",
+          "paragraphs": [
+            "Phật tiếp tục nói về người tu nương làng hay thị trấn, sống với tâm bi, thương nỗi khổ; tâm hỷ, vui với điều tốt của người khác; tâm xả, giữ sự quân bình.",
+            "Với mỗi tâm ấy, vị tỳ-kheo đều lan tỏa bốn phương, trên, dưới, ngang, mọi nơi và toàn thế giới. Đối với tất cả như chính mình, tâm rộng lớn, cao cả, vô lượng, không thù hận và không ác ý, đúng như phạm vi tâm từ vừa nêu."
+          ],
+          "meaningUnits": [
+            "other-hearts"
+          ]
+        },
+        {
+          "id": "meal-again",
+          "kind": "teaching",
+          "heading": "Cùng giữ cách nhận không dính mắc",
+          "paragraphs": [
+            "Trong những trường hợp ấy, gia chủ hoặc người con cũng mời bữa ngày mai; vị ấy nhận nếu muốn. Sáng hôm sau, mặc y, mang bát và y, vị ấy đến nhà người mời, ngồi chỗ đã soạn và được dâng thức ăn ngon.",
+            "Vị ấy không nghĩ tốt quá vì được món ngon, cũng không mong sau còn được như vậy. Vị ấy dùng thức ăn không trói buộc, không mê đắm, không dính mắc, thấy nguy hại và biết sự thoát ly.",
+            "Phật lại hỏi về ý hại mình, hại người hay hại cả hai. Jīvaka đáp không. Ngài hỏi việc thọ dụng ấy không có lỗi phải không; ông đáp vâng."
+          ],
+          "meaningUnits": [
+            "second-invitation",
+            "second-meal",
+            "second-no-craving",
+            "second-intent"
+          ]
+        },
+        {
+          "id": "equanimity-roots",
+          "kind": "teaching",
+          "heading": "Tâm xả nơi Đức Phật",
+          "paragraphs": [
+            "Jīvaka từng nghe Phạm thiên sống với tâm xả. Nay ông nói mình đã tận mắt thấy điều ấy nơi Phật.",
+            "Phật giải thích: tham, sân, si có thể làm sinh tâm hại, bất mãn và chống đối. Như Lai đã từ bỏ những gốc ấy, cắt tận gốc, như gốc cây cọ đã chặt, xóa sạch, không thể khởi lại trong tương lai.",
+            "Phật một lần nữa chấp nhận nếu Jīvaka nói theo ý nghĩa ấy. Ông xác nhận mình đã nói chính theo ý đó."
+          ],
+          "meaningUnits": [
+            "brahma-equanimity",
+            "roots-equanimity",
+            "condition-equanimity"
+          ]
+        },
+        {
+          "id": "five",
+          "kind": "teaching",
+          "heading": "Năm điều trong việc giết riêng để cúng",
+          "paragraphs": [
+            "Phật nói người giết sinh vật riêng để dâng Như Lai hoặc đệ tử của Như Lai tạo nhiều điều vô phước, những điều bất thiện, theo năm lý do.",
+            "Thứ nhất là bảo đi bắt con vật về. Thứ hai là nỗi đau khổ và buồn của con vật khi bị dắt đi bằng dây buộc cổ.",
+            "Thứ ba là lời bảo giết con vật ấy. Thứ tư là nỗi đau khổ và buồn của nó khi bị giết.",
+            "Thứ năm là đem thức ăn không hợp luật đến dâng Phật hoặc đệ tử. Không hợp luật nghĩa là không được phép theo giới luật của người nhận. Mỗi điều trong năm điều ấy khiến người làm việc giết riêng tạo nhiều vô phước."
+          ],
+          "meaningUnits": [
+            "five-introduction",
+            "fetch",
+            "led",
+            "order-kill",
+            "killed",
+            "unallowable",
+            "five-conclusion"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Lời cảm nhận của Jīvaka",
+          "paragraphs": [
+            "Jīvaka thưa thật kỳ diệu, thật phi thường. Ông thấy các tỳ-kheo dùng thức ăn hợp luật và không có lỗi. Ông khen thật tuyệt vời hai lần.",
+            "Ông xin Phật nhận mình là nam cư sĩ đã quy y, nhận nơi nương tựa, từ hôm nay đến trọn đời. Kinh Jīvaka kết thúc, là bài thứ năm trong phẩm."
+          ],
+          "meaningUnits": [
+            "praise",
+            "refuge"
+          ]
+        },
+        {
+          "id": "family-meal",
+          "kind": "example",
+          "heading": "Ví dụ hiện đại: vui trong một bữa sum họp",
+          "paragraphs": [
+            "Trong bữa sum họp, một người được con cháu mời món mình thích. Người ấy có thể cảm ơn và trân trọng sự quan tâm. Khi nhận ra ý muốn lần nào cũng phải được đãi như vậy, người ấy nhẹ nhàng buông yêu cầu đó. Ví dụ này giúp quan sát sự dính mắc có thể thêm vào một việc nhận quà."
+          ],
+          "meaningUnits": [
+            "no-craving",
+            "intent"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: quan tâm cả cách chuẩn bị",
+          "paragraphs": [
+            "Khi muốn dâng một bữa ăn, có thể hỏi trước điều gì phù hợp với người nhận và giới luật của họ, đồng thời tránh yêu cầu làm hại sinh vật vì sự dâng cúng ấy. Giữ lòng quý mến người nhận cùng sự quan tâm đến các loài là một cách đem lời dạy vào việc nhỏ hằng ngày."
+          ],
+          "meaningUnits": [
+            "metta",
+            "five-introduction",
+            "unallowable"
+          ]
+        }
+      ]
+    }
+  }
+}

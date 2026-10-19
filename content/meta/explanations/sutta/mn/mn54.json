@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn54",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "7b0959ec-46a7-42a4-93fd-ea90f17b93aa"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "c9ec1f42-0b13-4796-8668-ef4faab10ed7"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "9abdfd9c-66d1-40ea-877a-1471458213b4"
+    }
+  },
+  "reviews": [
+    {
+      "id": "7b0959ec-46a7-42a4-93fd-ea90f17b93aa",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.7,
+        "logic_context": 9.7,
+        "terminology": 9.3,
+        "audience_fit": 9.3,
+        "clarity": 9.4,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đã đối chiếu đủ năm nguồn đúng pin; chuyện gặp trong rừng và ba lời mời đúng nguồn. Giữ chim bị xé, tay/chân khi cây đổ và đã trở về từ khất thực; không nhập những chi tiết lệch từ HTML hoặc English fill.",
+        "semantic_fidelity": "Tách giao việc cho con khỏi tháo trói trong tâm. Tám điều là bước đầu; bảy ví hướng đến xả và ba trí kết ở tâm giải thoát cùng tuệ giải thoát, không thành bài học chỉ về ngoan ngoãn hay bớt giận.",
+        "core_coverage": "Đủ tám cặp, toàn lý do chung của từng cặp, bảy hình ảnh và điệp khúc, ba trí, bốn nhánh đánh giá người tu, hai lời khen, bốn ví cuối và nhãn thứ tư. Đồ mượn nay có đủ đi trước và vây quanh.",
+        "logic_context": "Giữ đang tập cắt kiết sử, lậu hoặc do đúng hành vi, người trí chê trách sau xét và quả sau chết. Không biến lời nhận mình còn xa của Potaliya thành chứng quả; ba lời mời vẫn có điều kiện nếu muốn.",
+        "terminology": "Khất thực, gia chủ, kiết sử, triền cái, lậu hoặc, niệm và quy y được mở nghĩa gần chỗ dùng. Hai dạng xả có lời giải tối thiểu đúng phạm vi; tính kỹ thuật của đa dạng/nhất thể vẫn cần đọc chậm.",
+        "audience_fit": "Bộ cờ, lời nói với bạn và các tiêu đề đánh số bảy chuyện hợp trẻ. Hai mươi ba mục giúp chia lượt đọc; danh sách đời quá khứ cùng đoạn xả vẫn đòi hỏi sự chú ý cao ở trẻ nhỏ.",
+        "clarity": "Câu hỏi quanh con chó và chuyện hai người tìm quả có diễn tiến rõ. Gộp bảy lý do và bảy điệp khúc tránh lặp quá dài mà vẫn nhắc đủ đối tượng; phần cuối có nhiều khái niệm cần đọc tuần tự.",
+        "editorial_separation": "Bộ cờ có nhãn ví dụ hiện đại; gợi ý dừng lời chê có nhãn thực hành. Bảy ví kinh và phép ví ngựa quý được phân biệt rõ, không kể đồ ăn ngựa như sự kiện cúng dường thực tế.",
+        "practical_integrity": "Thực hành chỉ là nhận giận và chọn lời tôn trọng, có nhìn lại ảnh hưởng. Không dùng cảnh giới xấu để đe dọa trẻ, không hứa một lần kiềm lời sẽ đạt giải thoát.",
+        "technical_integrity": "Audit sạch nội dung và nguồn; 47 ý bao phủ 209 khóa thật, 23 mục và hash đúng sau đọc lại borrowed cùng hai map. Không suy cổng build của lô từ kết quả audit riêng."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc đủ năm nguồn, toàn 47 ý/209 khóa và ba bản. Sau góp ý đã đọc lại trọn ba borrowed cùng map borrowed/pit; năm source hash khớp checkpoint, audit cuối sạch và fingerprint đúng freeze tác giả.",
+      "contentHash": "44740a73e0ef4971d462b4d940ca886d3257887407d810c3a3a305931de7c174",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn54.html",
+          "sha256": "ddef1dd1fbba5b518f98014239ee1100ad588279002c4e57c1fdb47711d79e60"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn54_root-pli-ms.json",
+          "sha256": "d1463f4bd6f8f22cc9cd23b1b27e887724a6fcfbd1b86cbfbd22e554c156be99"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn54_translation-en-sujato.json",
+          "sha256": "5648c02c26841803e155dcfb2e22b2596306917d8aa81a672ee7e7b600608af2"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn54_comment-vi-project.json",
+          "sha256": "4565d8053edf61b78ab9a6c64bc2dc40f939da3880faf7fc3679a7b39fe73d3d"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn54_translation-vi-project.json",
+          "sha256": "10e3f8f52fedf8aa32c8df249caf356b75f35ee98fb013950d6213a3ade2584f"
+        }
+      ]
+    },
+    {
+      "id": "c9ec1f42-0b13-4796-8668-ef4faab10ed7",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.7,
+        "logic_context": 9.7,
+        "terminology": 9.4,
+        "audience_fit": 9.6,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Cả năm nguồn đã đọc đầy đủ và kiểm pin/hash. Bản này giữ Pāli về đang thực hành, chim bị xé, chân trong dụ cây; hai cách hiểu antarāpaṇa và phần English trống được ghi riêng trong hồ sơ kiểm.",
+        "semantic_fidelity": "Lập luận từ ngừng điều hành đến dứt tham chấp giữ đúng mục tiêu. Đoạn xả không bị đồng nhất với thờ ơ, thành công công việc hoặc hợp nhất vũ trụ; kết vẫn là hai giải thoát hiện tại sau lậu tận.",
+        "core_coverage": "Hai mươi mục giữ đủ ba lượt xin giảng, tám cặp và toàn bộ điều kiện của các lý do, bảy ví cùng kết lặp, ba trí, nhận xét trước/sau của Potaliya và lời quy y nam cư sĩ suốt đời.",
+        "logic_context": "Bản reasoning nêu đúng phạm vi ô nhiễm do mỗi hành vi và bước chưa hoàn toàn. Các giả định nếu không buông/không xuống vẫn nguyên; đánh giá du sĩ/tỳ-kheo là lời tự xét của Potaliya, không thành yêu cầu áp dụng chung ngày nay.",
+        "terminology": "Giới luật bậc Thánh, kiết sử, triền cái, lậu hoặc, xả và niệm có giải thích trong mạch. Tâm giải thoát và tuệ giải thoát được giữ riêng; hai nền xả vẫn là thuật ngữ khó và không bị giải quá mức nguồn.",
+        "audience_fit": "Ví dụ tắt ứng dụng so thành tích gắn với động lực nghề nghiệp, không biến kinh thành mẹo làm việc. Gộp tám lý do vào một đoạn lập luận thích hợp người trưởng thành và vẫn cho phép theo từng trường hợp.",
+        "clarity": "Các tiêu đề nêu quan hệ cụ thể giữa vật giữ và nguy hiểm; đường từ tám điều đến bảy ví rồi ba trí dễ theo. Đoạn reasoning dài hơn những đoạn khác nhưng cấu trúc nhân–quả và phạm vi còn rõ.",
+        "editorial_separation": "Ví dụ ứng dụng và bài tập xét lời nói được nhận diện là biên tập. Không giả trích lời Phật hiện đại, không lẫn cảnh tái sinh với ẩn dụ tâm lý, không đưa thao tác kiểm nguồn vào dòng đọc.",
+        "practical_integrity": "Bài tập chọn tình huống nói thật hoặc tránh chia rẽ phù hợp tám cặp. Tự theo dõi động cơ và ảnh hưởng lên tâm ở mức thực hành ban đầu; không hứa đạt ba trí hoặc hết lậu hoặc nhờ thao tác ấy.",
+        "technical_integrity": "Nguồn hiện hành khớp checkpoint độc lập, cấu trúc và liên kết ý sạch. Fingerprint bản 20 mục đúng toàn nội dung sau sửa đồ mượn và map; không ghi metadata chính thức hoặc thay bước tích hợp của root."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc đủ năm nguồn, toàn 47 ý/209 khóa và ba bản. Sau góp ý đã đọc lại trọn ba borrowed cùng map borrowed/pit; năm source hash khớp checkpoint, audit cuối sạch và fingerprint đúng freeze tác giả.",
+      "contentHash": "2cb96ed039a2b38ea55fde6370708f1bfb11349af07c6997a131a184174ef72c",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn54.html",
+          "sha256": "ddef1dd1fbba5b518f98014239ee1100ad588279002c4e57c1fdb47711d79e60"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn54_root-pli-ms.json",
+          "sha256": "d1463f4bd6f8f22cc9cd23b1b27e887724a6fcfbd1b86cbfbd22e554c156be99"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn54_translation-en-sujato.json",
+          "sha256": "5648c02c26841803e155dcfb2e22b2596306917d8aa81a672ee7e7b600608af2"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn54_comment-vi-project.json",
+          "sha256": "4565d8053edf61b78ab9a6c64bc2dc40f939da3880faf7fc3679a7b39fe73d3d"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn54_translation-vi-project.json",
+          "sha256": "10e3f8f52fedf8aa32c8df249caf356b75f35ee98fb013950d6213a3ade2584f"
+        }
+      ]
+    },
+    {
+      "id": "9abdfd9c-66d1-40ea-877a-1471458213b4",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.7,
+        "logic_context": 9.7,
+        "terminology": 9.4,
+        "audience_fit": 9.5,
+        "clarity": 9.5,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đủ toàn văn năm nguồn; các chi tiết rừng, y/bát, hai lần im và lần ba phản đối đúng. Không theo HTML làm người tu đã thành tựu, không bỏ hình ảnh ngựa quý, và giữ tay/chân theo Pāli.",
+        "semantic_fidelity": "Bàn giao tài sản và công việc là cửa vào câu chuyện, sự giải thoát vẫn là đích riêng sâu hơn. Không đồng nhất tuổi tác hay nghỉ việc với thành tựu tu tập; Potaliya nhận khoảng cách còn xa.",
+        "core_coverage": "Đủ tám điều, bảy lý do lặp với đối tượng rõ, bảy cảnh cùng công thức xả, ba trí, bốn nhánh kính trọng và cúng dường, ba tình cảm với sa-môn, quy y cùng nhãn thứ tư. Sửa đồ mượn khép nét còn thiếu.",
+        "logic_context": "Các câu nếu làm và khi từ bỏ giữ đúng phạm vi; người muốn sống bị hai người kéo hố vẫn có đủ động cơ và lý do vùng vẫy. Hai loại xả và mức hoàn toàn không bị đánh tráo thành bước bỏ một thói quen.",
+        "terminology": "Lời giải kiết sử, triền cái, lậu hoặc, niệm và quy y đặt gần từ dùng. Phép ví ngựa quý có giải thích rõ là phẩm chất người tu; đa dạng/nhất thể còn trừu tượng nhưng không ép vào một quả vị không có trong câu kinh.",
+        "audience_fit": "Ví dụ bàn giao lịch sinh hoạt cộng đồng tôn trọng vai trò và quyền chủ động. Nhịp 23 mục, đoạn ngắn giúp đọc thong thả; không gán người lớn tuổi với bệnh tật, cô đơn hoặc chỉ biết nghe lời.",
+        "clarity": "Chuyện mỗi hình ảnh có đầu mối rõ, chuyển sang cùng một hướng buông chấp rồi ba trí. Phần số đời và bốn nhánh đánh giá vẫn dài để giữ nguồn, song được tách thành các đoạn dễ theo.",
+        "editorial_separation": "Câu chuyện sinh hoạt cộng đồng và gợi ý nhẹ lời trách có nhãn đúng. Lời Potaliya tự sửa nhận định không lẫn với khuyến nghị của người viết; không có đoạn audit kỹ thuật trong phần đọc.",
+        "practical_integrity": "Gợi ý giữ điều cần trao đổi, chọn lời không xúc phạm và nhìn lại tâm bảo toàn sự chủ động. Không khuyên tự gây đau hay bỏ mọi trách nhiệm, không gán chứng đạt cho một lần nói nhẹ.",
+        "technical_integrity": "Audit không có lỗi hay sai nguồn; 23 mục và 49 đoạn gắn đúng bản đồ, hash cuối đúng ba borrowed đã đọc lại và hai map đã chỉnh. Giới hạn của kiểm biên tập tách khỏi build và công bố chính thức."
+      },
+      "blockingErrors": [],
+      "notes": "Đọc đủ năm nguồn, toàn 47 ý/209 khóa và ba bản. Sau góp ý đã đọc lại trọn ba borrowed cùng map borrowed/pit; năm source hash khớp checkpoint, audit cuối sạch và fingerprint đúng freeze tác giả.",
+      "contentHash": "4286c87047f15286ce9bb40fe10caec034df3804268c5565e4d6c29a7b874f5d",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn54.html",
+          "sha256": "ddef1dd1fbba5b518f98014239ee1100ad588279002c4e57c1fdb47711d79e60"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn54_root-pli-ms.json",
+          "sha256": "d1463f4bd6f8f22cc9cd23b1b27e887724a6fcfbd1b86cbfbd22e554c156be99"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn54_translation-en-sujato.json",
+          "sha256": "5648c02c26841803e155dcfb2e22b2596306917d8aa81a672ee7e7b600608af2"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn54_comment-vi-project.json",
+          "sha256": "4565d8053edf61b78ab9a6c64bc2dc40f939da3880faf7fc3679a7b39fe73d3d"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn54_translation-vi-project.json",
+          "sha256": "10e3f8f52fedf8aa32c8df249caf356b75f35ee98fb013950d6213a3ade2584f"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn53",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "5db9505e-ae5b-491c-a15f-7bdea1d30769"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "719c6fcf-3f2f-44e0-a9ac-c20b162a2a61"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "c10e8e41-c012-4db5-a0c9-23bf3b21afb0"
+    }
+  },
+  "reviews": [
+    {
+      "id": "5db9505e-ae5b-491c-a15f-7bdea1d30769",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.4,
+        "logic_context": 9.6,
+        "terminology": 9.3,
+        "audience_fit": 9.5,
+        "clarity": 9.5,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đủ năm nguồn của MN53 được đối chiếu, gồm các công thức thiền mở trong HTML cùng bài. Bản giữ Ānanda là người giảng, người hữu học đang thực hành và các số bốn lớp y, tám/mười/mười hai trứng; hai ô Anh trống không được xem là lời xác nhận.",
+        "semantic_fidelity": "Sáu nhóm rèn luyện dẫn đến khả năng phá vỏ rồi mới trình bày ba lần phá vỏ; bản không biến khả năng thành chứng đắc sẵn có. Hổ thẹn với điều xấu và e sợ điều xấu được phân biệt, niệm còn có khả năng nhớ việc và lời từ lâu; câu ăn uống sau chỉnh không còn gợi ý dập tắt mọi cảm giác.",
+        "core_coverage": "Cả 36 ý và 100 khóa có nội dung trong 23 mục, từ buổi chuẩn bị hội trường đến lời Đức Phật tán thành. Đủ sáu căn, bảy phẩm chất, bốn thiền, ba minh và sáu nhóm hạnh; các nét và chi tiết đời trước được nêu ở mức khái quát nên phần này vẫn cần đọc nguồn nếu muốn thấy công thức đầy đủ.",
+        "logic_context": "Câu chuyện giữ rõ Đức Phật nói trước, nghỉ lưng rồi giao Ānanda giảng cho Mahānāma, cuối cùng ngồi dậy tán thành hai lần. Ví dụ gà ấp giữ điều kiện ấp đúng dù không mong, và lời kệ giữ phạm vi những người lấy dòng họ làm chuẩn khi nói đến Sát-đế-lị.",
+        "terminology": "Hữu học, tỳ-kheo, các giác quan, hỷ/lạc và Phạm thiên được giải gần với trẻ. Những từ tầm, tứ, xả và các tên minh vẫn mang độ trừu tượng, dù được đặt cạnh mô tả chức năng và không đồng nhất với việc học thuộc hay nhớ chuyện thường ngày.",
+        "audience_fit": "Cảnh chuẩn bị hội trường và đàn gà cho trẻ hai điểm tựa cụ thể; ví dụ tập nhạc cho sinh hoạt lớp gần với trải nghiệm học dần bằng thực hành. Các mục ngắn và câu gợi mở phù hợp, nhưng chuỗi công thức thiền và đời trước vẫn có thể cần người cùng đọc.",
+        "clarity": "Mạch kể chuyển hợp lý sang các điều cần rèn rồi trở lại lời tán thành cuối kinh. Sau sửa, trải thảm và cảm giác khó chịu cũ/mới rõ hành động và ý nghĩa hơn; danh sách danh hiệu cùng các tầng thiền vẫn dày hơn phần chuyện.",
+        "editorial_separation": "Ví dụ tập nhạc và bài tập giữ lời, nói thật, lắng nghe được ghi là liên hệ biên soạn. Không đặt chúng vào miệng Đức Phật hay Ānanda, không coi việc nhớ bài hoặc nhớ lời mình nói là minh thứ nhất.",
+        "practical_integrity": "Thực hành hằng ngày tập trung vào một việc và cách sửa, còn khung các canh đêm được trình bày trong đời tu mà không yêu cầu trẻ tự thiếu ngủ. Không hứa từ việc giữ lời sẽ đạt thiền hay ba minh; mục tiêu giải thoát vẫn là phần đầy đủ của kinh.",
+        "technical_integrity": "Audit cuối không có lỗi cấu trúc hay nguồn; bản trẻ bao phủ đủ 36 ý/100 khóa và fingerprint khớp bản đã đọc lại. Năm hash nguồn trùng các tệp được đọc thực, gồm HTML và hai chú giải."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập: đọc thực toàn Pāli/Việt dự án/Anh Sujato 100 khóa mỗi tệp (2 ô Anh trống), toàn 2 chú giải và HTML Minh Châu SC1–30 cùng phần ghi công; đọc toàn 36 ý và cả ba bản. Đã đọc lại trọn 7 mục prose và 2 summary trong map sau sửa, rồi kiểm audit/hash chỉ đọc. Không có thử đọc với độc giả con người hay xác nhận của chuyên gia Pāli.",
+      "contentHash": "c1f6a2d4eef54ccd70845dc2bf5c60a1bed9429e8de61152bd6c7bf50a9c6533",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn53.html",
+          "sha256": "c5334a784f3e780ab57c7207c88c1d5946b5df78565ec5475daac023cd380123"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn53_root-pli-ms.json",
+          "sha256": "c88b2437ba599ed568e80dfb87bf373033b694ba06d3db6dd2126007ca845a63"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn53_translation-en-sujato.json",
+          "sha256": "c4dd4ac483c3471d6b613c76b5b25e59777227d242324d0ec4858b1870bfee54"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn53_comment-vi-project.json",
+          "sha256": "97b5b13c560e760b69acc58245e533aafe7690bf3c2fcecb83c0f139030a2667"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn53_translation-vi-project.json",
+          "sha256": "0492c846e20f5c470cafbf0a12f5685f17c0257fce27adcc3568a6f111ef9f15"
+        }
+      ]
+    },
+    {
+      "id": "719c6fcf-3f2f-44e0-a9ac-c20b162a2a61",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.7,
+        "core_coverage": 9.5,
+        "logic_context": 9.7,
+        "terminology": 9.5,
+        "audience_fit": 9.6,
+        "clarity": 9.6,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Bản theo đủ năm nguồn của chính MN53, giữ các công thức tỉnh lược dựa vào đoạn đầy đủ và HTML cùng UID. Những chỗ dễ thêm nghĩa được kiểm soát: người hữu học là người đang thực hành, sự e sợ không bị đổi thành sợ hình phạt, và lời kệ dòng họ còn điều kiện của nó.",
+        "semantic_fidelity": "Sáu nền rèn luyện, khả năng thành tựu và ba minh được phân biệt rõ, cùng nền xả và niệm thanh tịnh tối thượng trước mỗi lần phá vỏ. Hạnh không bị thu thành riêng đạo đức, minh không bị thu thành kiến thức; ăn uống nhằm xử lý khó chịu và nâng đỡ phạm hạnh, không nhằm xóa cảm nhận.",
+        "core_coverage": "Đủ 36 ý: ba nhóm rửa chân và chỗ ngồi, bốn mục đích phủ định khi ăn, lịch ngày/ba canh, bảy pháp lành và bốn thiền tùy ý không khó. Ba minh giữ các đặc điểm chính, số lượng và điều kiện; phần đặc điểm đời trước được tóm theo công thức thay vì triển khai mọi chi tiết của HTML.",
+        "logic_context": "Chuỗi sáu nhóm điều kiện đến ví dụ trứng, ba lần phá vỏ và phân biệt minh/hạnh được nối mạch lạc trong 18 mục. Người giảng, người nghe, lời kệ của Phạm thiên và lời Phật xác nhận không lẫn nhau; chưa có kết quả được gán cho Mahānāma hoặc toàn nhóm Sākya.",
+        "terminology": "Dục, tầm/tứ, hỷ/lạc, xả và các minh có lời giải trong tiến trình giảng. Phạm thiên đã được mở nghĩa ngay trong mục kệ; các khái niệm chuyên sâu vẫn đòi hỏi chú ý, nhưng không bị giải quá rộng thành một trạng thái tâm dễ đạt thường ngày.",
+        "audience_fit": "Ví dụ tạo lòng tin nơi đồng nghiệp qua lời hứa, báo cáo thật và sửa việc làm nối hợp lý học với hành ở người trưởng thành. Bản giữ giọng phân tích có chiều sâu, cho thấy vì sao nhớ, suy xét và tu tập đi cùng nhau mà không rút giáo pháp thành kỹ năng làm việc.",
+        "clarity": "Các mục gom theo chức năng giúp theo dõi sáu nền và phần minh/hạnh; lịch sinh hoạt được phân theo thời điểm rõ. Câu ăn uống sau sửa có đối tượng rõ hơn, còn các đoạn bốn thiền và ba minh dài nhưng có dấu chuyển đủ để đọc từng bước.",
+        "editorial_separation": "Các liên hệ nơi làm việc và câu tự xét được ghi riêng; ví dụ gà ấp vẫn thuộc lời giảng trong kinh. Không đưa thành công nghề nghiệp vào điều kiện chứng đạt và không gán lời kệ của Phạm thiên trực tiếp thành lời Đức Phật đã nói từ đầu.",
+        "practical_integrity": "Gợi ý kiểm điều đã hiểu, nhớ lúc cần dùng và sửa thói quen giữ phạm vi rèn luyện có thể quan sát. Bản không hứa việc tự xét bảo đảm đoạn lậu, và giữ cả định, tuệ cùng chứng nghiệm trực tiếp trong mục tiêu giải thoát.",
+        "technical_integrity": "Audit cuối sạch với 36 ý/100 khóa; hash bản trưởng thành khớp freeze sau ba mục được đọc lại. Hồ sơ dùng đúng năm source hashes đã đọc thực và không can thiệp metadata hay nguồn trong lượt kiểm."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập: đọc thực toàn Pāli/Việt dự án/Anh Sujato 100 khóa mỗi tệp (2 ô Anh trống), toàn 2 chú giải và HTML Minh Châu SC1–30 cùng phần ghi công; đọc toàn 36 ý và cả ba bản. Đã đọc lại trọn 7 mục prose và 2 summary trong map sau sửa, rồi kiểm audit/hash chỉ đọc. Không có thử đọc với độc giả con người hay xác nhận của chuyên gia Pāli.",
+      "contentHash": "3654fa69b50cf422e047e4d7b0c9358815a13650aaf117bf81bcc3e18f6f88f4",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn53.html",
+          "sha256": "c5334a784f3e780ab57c7207c88c1d5946b5df78565ec5475daac023cd380123"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn53_root-pli-ms.json",
+          "sha256": "c88b2437ba599ed568e80dfb87bf373033b694ba06d3db6dd2126007ca845a63"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn53_translation-en-sujato.json",
+          "sha256": "c4dd4ac483c3471d6b613c76b5b25e59777227d242324d0ec4858b1870bfee54"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn53_comment-vi-project.json",
+          "sha256": "97b5b13c560e760b69acc58245e533aafe7690bf3c2fcecb83c0f139030a2667"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn53_translation-vi-project.json",
+          "sha256": "0492c846e20f5c470cafbf0a12f5685f17c0257fce27adcc3568a6f111ef9f15"
+        }
+      ]
+    },
+    {
+      "id": "c10e8e41-c012-4db5-a0c9-23bf3b21afb0",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.6,
+        "semantic_fidelity": 9.6,
+        "core_coverage": 9.5,
+        "logic_context": 9.7,
+        "terminology": 9.4,
+        "audience_fit": 9.6,
+        "clarity": 9.6,
+        "editorial_separation": 9.7,
+        "practical_integrity": 9.6,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Cả năm nguồn MN53 được đối chiếu; phần công thức thiền mở từ nguồn cùng bài, không thêm hệ thống ngoài văn bản. Bản giữ các chi tiết dễ mất như việc nhớ lời và việc đã lâu, bốn lớp y, ba hướng ngồi và điều kiện của lời kệ về dòng họ.",
+        "semantic_fidelity": "Người đang học và thực hành chưa bị gọi là đã hoàn tất; sáu nhóm điều kiện cho khả năng thoát rồi ba minh nêu thành tựu riêng. Bốn thiền vẫn có nét tùy ý không khó, ba lần phá vỏ đều gắn cùng nền xả/niệm; câu ăn uống đã chỉ rõ khó chịu cũ/mới.",
+        "core_coverage": "Toàn 36 ý được giải trong 24 mục, gồm đủ bảy phẩm chất, bốn thiền, ba minh và sáu nhóm hạnh. Các điều kiện gà ấp, số tám/mười/mười hai, lời tán thành hai lần và niềm vui của người nghe còn nguyên; phần đặc điểm các đời trước vẫn ở mức khái quát của công thức.",
+        "logic_context": "Thứ tự chuẩn bị, đón tiếp, Đức Phật nghỉ lưng, Ānanda giảng và Đức Phật xác nhận được giữ rõ. Phần học và phần làm cùng dẫn tới minh/hạnh; đoạn cuối không suy ra dòng dõi quyết định giá trị của tất cả mọi người.",
+        "terminology": "Nhiều từ được mở ngay theo chức năng: hữu học, phạm hạnh, các tâm trạng trong thiền và Phạm thiên. Xả/niệm, các tên minh và danh hiệu Phật còn khó với người mới đọc, nhưng bản không lấy một chữ quen để xóa nghĩa tu chứng của chúng.",
+        "audience_fit": "Giọng chậm, tôn trọng, có các mục riêng cho từng phẩm chất và tầng thiền. Ví dụ nhóm bạn đọc sách cùng chuẩn bị, lắng nghe và xét lại không gán hạn chế sức khỏe hay trí nhớ cho tuổi lớn, và cho phép người đọc đi từng phần.",
+        "clarity": "Các đề mục ngắn cùng trật tự đếm giúp đọc lại từng ý; phần hạnh và minh được phân riêng trước khi nối lại. Trải thảm và khó chịu cũ/mới sau chỉnh làm câu cụ thể hơn, còn những công thức dài vẫn cần đọc chậm.",
+        "editorial_separation": "Liên hệ nhóm đọc sách và việc tự nhìn lại một lời nói là phần biên soạn có nhãn, không bị trộn với lời Ānanda. Bản giữ ví dụ gà, kệ Phạm thiên và lời xác nhận của Đức Phật đúng tầng người nói.",
+        "practical_integrity": "Gợi ý chọn một lời nói hoặc hành động để xét và sửa vào ngày sau là việc vừa sức, không quy định một hoàn cảnh tuổi già chung. Các việc này không được xem là đủ để đạt ba minh; toàn đường tu và kết quả đoạn lậu được giữ rõ.",
+        "technical_integrity": "Audit chỉ đọc cuối không có lỗi, map đủ 36 ý/100 khóa và fingerprint bản lớn tuổi đúng phiên bản đã đọc lại. Các source hashes trùng checkpoint đọc năm nguồn, không dựa vào trạng thái xuất bản để suy ra chất lượng."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập: đọc thực toàn Pāli/Việt dự án/Anh Sujato 100 khóa mỗi tệp (2 ô Anh trống), toàn 2 chú giải và HTML Minh Châu SC1–30 cùng phần ghi công; đọc toàn 36 ý và cả ba bản. Đã đọc lại trọn 7 mục prose và 2 summary trong map sau sửa, rồi kiểm audit/hash chỉ đọc. Không có thử đọc với độc giả con người hay xác nhận của chuyên gia Pāli.",
+      "contentHash": "a64672945f62cb2bbf86a36ae3e3f75597472bbfe073f440ee508682f0df3c24",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn53.html",
+          "sha256": "c5334a784f3e780ab57c7207c88c1d5946b5df78565ec5475daac023cd380123"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn53_root-pli-ms.json",
+          "sha256": "c88b2437ba599ed568e80dfb87bf373033b694ba06d3db6dd2126007ca845a63"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn53_translation-en-sujato.json",
+          "sha256": "c4dd4ac483c3471d6b613c76b5b25e59777227d242324d0ec4858b1870bfee54"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn53_comment-vi-project.json",
+          "sha256": "97b5b13c560e760b69acc58245e533aafe7690bf3c2fcecb83c0f139030a2667"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn53_translation-vi-project.json",
+          "sha256": "0492c846e20f5c470cafbf0a12f5685f17c0257fce27adcc3568a6f111ef9f15"
+        }
+      ]
+    }
+  ]
+}
