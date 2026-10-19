@@ -130,6 +130,7 @@ Theo dõi bằng nội dung và lịch sử đánh giá trong kho cùng PR đã 
 - [Báo cáo lô 08 — MN71–MN80](modern-explanations/batch-08-mn71-mn80.md)
 - [Báo cáo lô 09 — MN81–MN90](modern-explanations/batch-09-mn81-mn90.md)
 - [Báo cáo lô 10 — MN91–MN100](modern-explanations/batch-10-mn91-mn100.md)
+- [Báo cáo lô 11 — MN101–MN110](modern-explanations/batch-11-mn101-mn110.md)
 - [Hướng dẫn đóng góp](../AGENTS.md)
 - [Quy trình dịch và đối chiếu nguồn](../skill/translation.md)
 - [Đánh giá bản dịch và tóm tắt hiện có](quality-assessments.md)

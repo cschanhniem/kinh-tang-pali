@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn105",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "0d6c30e7-8343-4810-bb7b-08fc4b05ff1c"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "4ab2768a-0f28-494a-8b23-0090b45439ef"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "161fb665-fb81-48bc-ba1c-f1845e129db1"
+    }
+  },
+  "reviews": [
+    {
+      "id": "0d6c30e7-8343-4810-bb7b-08fc4b05ff1c",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.4,
+        "audience_fit": 9.3,
+        "clarity": 9.4,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.7,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Đã đọc đủ năm nguồn; bản trẻ giữ bác sĩ biết và nói còn độc dư ở 19.6–8 theo Pāli/dự án, không theo Anh/HTML. Bác sĩ lần hai biết hết dư; người bệnh lần đầu lại tưởng hết. Tám ô Anh trống được ghi riêng, không dùng English fill.",
+        "semantic_fidelity": "Tự nhận đã giải thoát được phân biệt với thực trạng và hành vi. Nghĩa chết hoặc khổ gần chết trong đời tu được giải rõ; câu chuyện vết thương vẫn là phép ví. Niết-bàn và việc chấm dứt sanh y giữ mục tiêu thoát khổ.",
+        "core_coverage": "Hai mươi hai mục giữ đủ 58 ý: năm hướng tâm, năm ví dụ tương ứng, cả hai bệnh nhân và lời dặn, hai lần trở lại người tu, sáu phép đối chiếu hình ảnh và ba điệp khúc sanh y với chén độc/rắn độc.",
+        "logic_context": "Lời mời dạy có hai lượt; năm điều không muốn ở từng hướng có đủ chủ thể. Hai nguyên nhân làm thương xấu đi hoặc lành lại được nêu cùng nhau. Bản trẻ giữ điều biết trước hậu quả trong chén/rắn và không đổi sự không thể trở lại sanh y thành lời khuyên đơn thuần.",
+        "terminology": "Tỳ-kheo, bất động, định, tưởng, Niết-bàn, ái, vô minh, sân hận, sáu nội xứ và ba danh hiệu Phật được giải trong câu. Sanh y có lời mở nghĩa nhất quán; đây vẫn là khái niệm khó với trẻ nên điểm không tuyệt đối.",
+        "audience_fit": "Các hình ảnh lá, đá, món ăn, cây cọ và vết thương tạo mạch cụ thể; cách gọi thầy và ví kiểm bài học phù hợp trẻ. Năm mẫu hướng tâm còn gần nhau và khá dài, có thể cần người lớn cùng đọc, dù không chỉ đổi đại từ của bản trưởng thành.",
+        "clarity": "Tiêu đề hỏi về việc đã xong đưa vào vấn đề tự đánh giá, rồi hai vết thương có đoạn riêng. Phần giải nghĩa chết đến ngay khi phép ví đã đủ dữ kiện. Chuỗi nhiều định và năm phủ định giữ đúng nhưng làm nhịp đọc tương đối chậm.",
+        "editorial_separation": "Chuyện chữa thương được giới thiệu là phép ví của Phật; các lời dặn nằm trong lời thầy thuốc. Ví kiểm vở và bài tập nhận tâm bị cuốn có nhãn riêng, không trở thành sự kiện hoặc lời Phật trong kinh.",
+        "practical_integrity": "Trẻ được mời nhận ra lúc chạy theo một hình ảnh, tiếng hay ý nghĩ rồi trở lại việc lành. Không có hướng dẫn tự chữa vết thương, thử chất độc, hoặc tự xưng đã hoàn tất tu tập; ví kiểm bài được giới hạn đúng là một liên hệ nhỏ.",
+        "technical_integrity": "Toàn bản trẻ và 58 đơn vị ý đã đọc, không chỉ kiểm mã liên kết. Audit độc lập sạch; 188 khóa xuất hiện đúng một lần trong map, năm SHA nguồn khớp checkpoint và fingerprint trẻ khớp freeze sau khi người viết sửa riêng bản lớn tuổi."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ năm nguồn, toàn 58 ý/188 khóa và ba bản; đã đọc lại trọn older-adults/two sau một chỉnh điều kiện. Không còn phát hiện chặn; audit, năm SHA và fingerprint khớp nội dung freeze cuối.",
+      "contentHash": "492dc8402556308cf15d2e8863596aee6991107ae586f737ffe0d97bc5490ea2",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn105.html",
+          "sha256": "f2c56e0c06b54ab76175bd1f5fe72250ae6eda444be74a695e997e38c3330301"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn105_root-pli-ms.json",
+          "sha256": "80da6d66cfb4355954c250e9d07c9a2b5b1097ca2046096db85075010fcb70e6"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn105_translation-en-sujato.json",
+          "sha256": "28b08abbe54c11e5ef6dab5e33d155910e31ab4365eb1ca6d72ee9ad9ebbbd15"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn105_comment-vi-project.json",
+          "sha256": "a66a5f15fb8276a30396d2f6e9cadebf4dc1aa4112918a67968437d703b8fa00"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn105_translation-vi-project.json",
+          "sha256": "3fd497eb2734a13fa3edcd50cede611a412d280a088ef5542b691f447ff9740d"
+        }
+      ]
+    },
+    {
+      "id": "4ab2768a-0f28-494a-8b23-0090b45439ef",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.6,
+        "audience_fit": 9.5,
+        "clarity": 9.6,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Năm nguồn được đọc trọn, gồm HTML SC41 và credits. Bản trưởng thành giữ lựa chọn Pāli/dự án ở dư độc và ý định dạy đổi khác; không nhận comment nói Minh Châu đồng ý làm bằng chứng thay cho HTML thực đọc.",
+        "semantic_fidelity": "Sự tự nhận và việc không nuôi các cảnh không thích hợp được đối chiếu trên mục tiêu giải thoát. Bất động, vô sở hữu và phi tưởng phi phi tưởng không bị đồng nhất với Niết-bàn; hình ảnh không gắn bất động của người thế tục không thành đã vượt chứng đạt ấy.",
+        "core_coverage": "Cả 58 ý được giải trong 22 mục, gồm sáu đặc tính của năm dục, năm hướng tâm với các mối ràng buộc khác nhau, toàn chăm sóc/trái lời dặn, da mọc lại, sáu nghĩa của phép ví và đủ ba lần công thức kết.",
+        "logic_context": "Bác sĩ thứ nhất biết còn dư, bệnh nhân lại tưởng không dư; bác sĩ và bệnh nhân thứ hai biết hết dư mà vẫn chăm. Tham xâm hoặc không xâm nối đúng với hai kết quả được giải nghĩa. Chén và rắn đều giữ bốn mong muốn cùng điều kiện biết hậu quả.",
+        "terminology": "Phạm hạnh, tăng thượng mạn qua lời tự đánh giá, các định, tưởng, dục tham, ái/vô minh và danh hiệu Phật đều có lời giải. Nội xứ và nơi tiếp xúc dùng riêng; sanh y không bị đổi thầm thành thủ hoặc giản lược chỉ còn tài sản.",
+        "audience_fit": "Bố cục lời tuyên bố, hướng tâm, phần dư cần thấy và cách sống tương ứng phù hợp việc tự xét của người trưởng thành. Ví kiểm phản hồi mạng nêu hành vi cụ thể. Các đoạn kể vẫn khá sát trình tự và nhịp của hai bản kia, nên chưa chấm mức tuyệt đối về giọng riêng.",
+        "clarity": "Hai phần residue/instructions làm rõ điều thầy thuốc biết trước khi kể bệnh nhân làm khác. Các kết quả và phần trở lại đời tu có dấu nối rõ. Danh mục lặp được chia theo hình ảnh nên có thể theo, dù thuật ngữ định còn nhiều.",
+        "editorial_separation": "Những lời dặn chữa thương nằm trong mục phép ví; phần giải nghĩa do Phật được tách khỏi ví mạng xã hội. Bài tập tự quan sát không nhận là lời kinh nguyên văn và không dùng thói quen đơn lẻ để phán mức giải thoát.",
+        "practical_integrity": "Thực hành ghi lại một lần bị ham muốn hay bực bội kéo đi, thử dừng nuôi phản ứng rồi quan sát kết quả bám mạch sáu cảnh. Không hứa một lần dừng sẽ tận vô minh; không đưa phương pháp y khoa cổ thành chỉ dẫn chữa bệnh hiện đại.",
+        "technical_integrity": "Đã đọc trọn bản trưởng thành và map, kiểm năm SHA với checkpoint thực đọc và hai blob với manifest. Audit không lỗi nội dung hoặc nguồn; fingerprint đúng bản freeze và metadata chính thức được để root quản lý."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ năm nguồn, toàn 58 ý/188 khóa và ba bản; đã đọc lại trọn older-adults/two sau một chỉnh điều kiện. Không còn phát hiện chặn; audit, năm SHA và fingerprint khớp nội dung freeze cuối.",
+      "contentHash": "8f750bb2347cc65c1ae34fc631353ca682d1e748e7225218d240f523375c76e0",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn105.html",
+          "sha256": "f2c56e0c06b54ab76175bd1f5fe72250ae6eda444be74a695e997e38c3330301"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn105_root-pli-ms.json",
+          "sha256": "80da6d66cfb4355954c250e9d07c9a2b5b1097ca2046096db85075010fcb70e6"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn105_translation-en-sujato.json",
+          "sha256": "28b08abbe54c11e5ef6dab5e33d155910e31ab4365eb1ca6d72ee9ad9ebbbd15"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn105_comment-vi-project.json",
+          "sha256": "a66a5f15fb8276a30396d2f6e9cadebf4dc1aa4112918a67968437d703b8fa00"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn105_translation-vi-project.json",
+          "sha256": "3fd497eb2734a13fa3edcd50cede611a412d280a088ef5542b691f447ff9740d"
+        }
+      ]
+    },
+    {
+      "id": "161fb665-fb81-48bc-ba1c-f1845e129db1",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.8,
+        "logic_context": 9.8,
+        "terminology": 9.5,
+        "audience_fit": 9.6,
+        "clarity": 9.5,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.8,
+        "technical_integrity": 9.8
+      },
+      "rationale": {
+        "source_fidelity": "Toàn 188 khóa, tám comments và toàn HTML đã được đọc độc lập. Bản lớn tuổi giữ dư độc theo Pāli/dự án và không đi theo HTML về nguy hại trong lần chữa thứ hai; các chữ sanh y lấy từ bản Việt thực tế, không từ lời comment cũ.",
+        "semantic_fidelity": "Việc giữ gìn của người chánh hướng được đặt cùng sự thật đã dứt độc, không thành lời thú nhận chưa giải thoát. Các cấp định vẫn khác mục tiêu Niết-bàn. Nghĩa chết trong đời tu và nghĩa thương tích trong ví dụ không bị trộn.",
+        "core_coverage": "Hai mươi bốn mục giữ toàn bộ 58 ý, tách lời dặn, người làm đúng, phần trở lại việc tu và kết Sunakkhatta. Đủ năm hình ảnh của các hướng tâm, sáu đối chiếu dụng cụ/vết thương và cả ba điệp khúc về sanh y.",
+        "logic_context": "Đã đọc lại trọn mục two sau sửa: nếu có những người đến hỏi trong tình huống ấy thì ý định dạy đổi khác, không kể như biến cố ngay cuộc gặp Sunakkhatta. Các nhánh có/không theo sáu cảnh và hai nguyên nhân của từng vết thương đều rõ.",
+        "terminology": "Các thuật ngữ được mở chậm: vô sở hữu xứ, phi tưởng phi phi tưởng, ái/vô minh, dục tham/sân hận, nội xứ và sanh y. Chỗ giải giải thoát và giác ngộ không dùng vòng từ cùng nghĩa khó; sanh y vẫn đòi người đọc suy ngẫm.",
+        "audience_fit": "Mục ngắn hơn ở lời dặn, chăm sóc, trở lại đời tu và kết giúp đọc thong thả. Ví muốn giành phần đúng trong gia đình tôn trọng khả năng tự xét, không mặc định tuổi cao là bệnh hay suy yếu. Phần công thức còn gần hai bản kia nhưng được chia nhịp riêng.",
+        "clarity": "Người thầy biết gì, người bệnh nghĩ gì và làm gì được kể thành các đoạn rõ. Ý nghĩa hai hậu quả và kết không thể quay lại chỗ bám víu đều được nhắc đúng lúc; sự lặp năm mẫu và ba công thức cần đọc chậm nhưng không thiếu cầu nối.",
+        "editorial_separation": "Câu chuyện chữa vết thương và phép đối chiếu được gắn với lời Phật; việc nhận ra muốn hơn thua trong gia đình là ví hiện đại có nhãn. Không bịa chứng quả hay quy y mới cho Sunakkhatta ở phần kết.",
+        "practical_integrity": "Bài tập dành một nhịp nhận ra bực bội, nghe hết câu rồi trả lời vừa sức và đúng mạch không nuôi cảnh bất lợi. Không dùng một phản ứng để định phẩm chất cả người, không hứa hết khổ nhờ một cuộc nói chuyện.",
+        "technical_integrity": "Đã đọc toàn bản lớn tuổi và đọc lại trọn một mục được sửa; audit sạch với fingerprint mới. Map vẫn phủ đúng một lần 188 khóa, năm SHA nguồn giữ nguyên; proposal ghi đúng nội dung sau sửa, chưa ghi metadata xuất bản."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc đủ năm nguồn, toàn 58 ý/188 khóa và ba bản; đã đọc lại trọn older-adults/two sau một chỉnh điều kiện. Không còn phát hiện chặn; audit, năm SHA và fingerprint khớp nội dung freeze cuối.",
+      "contentHash": "d3e6d89b83af5471bc96a8ed090f4ec046ad741adece94899338baea94d51443",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn105.html",
+          "sha256": "f2c56e0c06b54ab76175bd1f5fe72250ae6eda444be74a695e997e38c3330301"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn105_root-pli-ms.json",
+          "sha256": "80da6d66cfb4355954c250e9d07c9a2b5b1097ca2046096db85075010fcb70e6"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn105_translation-en-sujato.json",
+          "sha256": "28b08abbe54c11e5ef6dab5e33d155910e31ab4365eb1ca6d72ee9ad9ebbbd15"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn105_comment-vi-project.json",
+          "sha256": "a66a5f15fb8276a30396d2f6e9cadebf4dc1aa4112918a67968437d703b8fa00"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn105_translation-vi-project.json",
+          "sha256": "3fd497eb2734a13fa3edcd50cede611a412d280a088ef5542b691f447ff9740d"
+        }
+      ]
+    }
+  ]
+}

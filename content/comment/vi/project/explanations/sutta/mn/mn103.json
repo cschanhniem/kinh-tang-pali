@@ -1,0 +1,1127 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn103",
+  "sourceDependencies": [
+    {
+      "role": "pali",
+      "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn103_root-pli-ms.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "6f7e2f8d95806afee27ebaf90756e5416c49f8488bae2524d2b8491106489c59"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn103_translation-en-sujato.json",
+      "commit": "11c9d708978cde8ba61096d8a75f7ddfb846f639",
+      "sha256": "c0e36a2e4bb578e7780d5aaeb77dc8391b7200d9dfa06654fcc76790794c91a5"
+    },
+    {
+      "role": "vietnamese-project",
+      "path": "content/translation/vi/project/sutta/mn/mn103_translation-vi-project.json",
+      "commit": "ecf34c8858883d2136d36ddc59123c09c043cec9",
+      "sha256": "99683e298e206be2ce4f7289dcad832c823df95caa4b4e9038fb5c7382f34721"
+    },
+    {
+      "role": "reference",
+      "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn103.html",
+      "commit": "4d481d7cfbaeccad19fa85adc215d3c15ff43457",
+      "sha256": "56fdface0a7b534480e14fa2d65434c8577fb8229797e105bd4d0b211c912b61"
+    },
+    {
+      "role": "reference",
+      "path": "content/comment/vi/project/sutta/mn/mn103_comment-vi-project.json",
+      "commit": "ecf34c8858883d2136d36ddc59123c09c043cec9",
+      "sha256": "4dcf87754ab65d431fa5f64611f7d865658d0cc95350e1cd5c755058872e9cb1"
+    }
+  ],
+  "meaningUnits": [
+    {
+      "id": "title",
+      "title": "Tên bài",
+      "segments": [
+        "mn103:0.1",
+        "mn103:0.2"
+      ],
+      "summary": "Trung Bộ 103, Kinh Nghĩ Như Thế Nào."
+    },
+    {
+      "id": "setting",
+      "title": "Người nghe kể lại",
+      "segments": [
+        "mn103:1.1",
+        "mn103:1.2",
+        "mn103:1.3",
+        "mn103:1.4",
+        "mn103:1.5",
+        "mn103:1.6"
+      ],
+      "summary": "Người truyền kinh đã nghe: Phật ở rừng Baliharaṇa tại địa danh Việt dự án gọi Kusinārā; Ngài gọi các tỳ-kheo, các vị vâng đáp và Ngài nói."
+    },
+    {
+      "id": "motive-question",
+      "title": "Bốn động cơ được hỏi",
+      "segments": [
+        "mn103:2.1",
+        "mn103:2.2"
+      ],
+      "summary": "Phật hỏi có nghĩ Ngài thuyết pháp vì y áo, thức ăn khất thực, chỗ ở, hoặc trở thành/tái sinh trạng thái này hay khác không."
+    },
+    {
+      "id": "motive-denial",
+      "title": "Phủ nhận cả bốn",
+      "segments": [
+        "mn103:2.3",
+        "mn103:2.4"
+      ],
+      "summary": "Các tỳ-kheo thưa không nghĩ Ngài dạy vì bất cứ động cơ nào trong bốn động cơ ấy."
+    },
+    {
+      "id": "motive-followup",
+      "title": "Vậy nghĩ thế nào",
+      "segments": [
+        "mn103:2.5",
+        "mn103:2.6",
+        "mn103:2.7",
+        "mn103:2.8"
+      ],
+      "summary": "Phật nhắc lại nếu không nghĩ như thế thì các vị nghĩ gì về Ngài."
+    },
+    {
+      "id": "compassion",
+      "title": "Từ mẫn và lợi ích",
+      "segments": [
+        "mn103:2.9",
+        "mn103:2.10",
+        "mn103:2.11",
+        "mn103:2.12",
+        "mn103:2.13",
+        "mn103:2.14"
+      ],
+      "summary": "Các vị nghĩ Phật có lòng thương, mong lợi ích, thuyết pháp từ lòng thương; Phật nhắc và xác nhận rằng họ nghĩ như vậy."
+    },
+    {
+      "id": "training",
+      "title": "Cùng học bảy nhóm",
+      "segments": [
+        "mn103:3.1",
+        "mn103:3.2"
+      ],
+      "summary": "Do đó tất cả cùng học điều Phật trực tiếp biết và dạy: bốn niệm xứ, bốn chánh cần, bốn như ý túc, năm căn, năm lực, bảy giác chi, Thánh đạo tám ngành; trong hòa hợp, vui vẻ/quý mến nhau, không tranh cãi."
+    },
+    {
+      "id": "disagreement",
+      "title": "Hai người nói khác",
+      "segments": [
+        "mn103:4.1"
+      ],
+      "summary": "Ngay trong khi cùng học như vậy, có thể hai tỳ-kheo chủ trương khác nhau về giáo pháp."
+    },
+    {
+      "id": "both-different-first",
+      "title": "Khác nghĩa khác lời: bên đầu",
+      "segments": [
+        "mn103:5.1",
+        "mn103:5.2",
+        "mn103:5.3",
+        "mn103:5.4",
+        "mn103:5.5",
+        "mn103:5.6"
+      ],
+      "summary": "Nếu nhận ra khác cả nghĩa lẫn lời, đến người dễ khuyên hơn, chỉ rõ họ khác cả hai như thế nào và xin không tranh cãi."
+    },
+    {
+      "id": "both-different-second",
+      "title": "Khác nghĩa khác lời: bên kia",
+      "segments": [
+        "mn103:5.7",
+        "mn103:5.8",
+        "mn103:5.9",
+        "mn103:5.10",
+        "mn103:5.11"
+      ],
+      "summary": "Rồi đến vị dễ khuyên của phe kia, cũng chỉ rõ khác cả nghĩa lẫn lời và xin không tranh cãi."
+    },
+    {
+      "id": "both-different-memory",
+      "title": "Giữ đúng sai và nói Pháp Luật",
+      "segments": [
+        "mn103:5.12",
+        "mn103:5.13"
+      ],
+      "summary": "Nhớ điều ghi sai là sai, điều ghi đúng là đúng; rồi nói điều thuộc Pháp, thuộc Luật."
+    },
+    {
+      "id": "meaning-different-first",
+      "title": "Khác nghĩa cùng lời: bên đầu",
+      "segments": [
+        "mn103:6.1",
+        "mn103:6.2",
+        "mn103:6.3",
+        "mn103:6.4",
+        "mn103:6.5",
+        "mn103:6.6"
+      ],
+      "summary": "Nếu khác nghĩa nhưng cùng lời, đến vị dễ khuyên, chỉ rõ sự khác nghĩa/cùng lời và xin không tranh cãi."
+    },
+    {
+      "id": "meaning-different-second",
+      "title": "Khác nghĩa cùng lời: bên kia",
+      "segments": [
+        "mn103:6.7",
+        "mn103:6.8",
+        "mn103:6.9",
+        "mn103:6.10",
+        "mn103:6.11"
+      ],
+      "summary": "Đến vị dễ khuyên của phe kia, cũng chỉ rõ khác nghĩa/cùng lời và xin không tranh cãi."
+    },
+    {
+      "id": "meaning-different-memory",
+      "title": "Không lẫn ghi sai và đúng",
+      "segments": [
+        "mn103:6.12",
+        "mn103:6.13"
+      ],
+      "summary": "Ghi sai được nhớ là sai, ghi đúng là đúng; rồi nói Pháp và Luật."
+    },
+    {
+      "id": "words-different-first",
+      "title": "Cùng nghĩa khác lời: bên đầu",
+      "segments": [
+        "mn103:7.1",
+        "mn103:7.2",
+        "mn103:7.3",
+        "mn103:7.4",
+        "mn103:7.5",
+        "mn103:7.6",
+        "mn103:7.7"
+      ],
+      "summary": "Nếu cùng nghĩa khác lời, đến vị dễ khuyên, chỉ rõ; khi nghĩa đã cùng, khác lời là việc nhỏ, xin đừng tranh cãi vì việc nhỏ."
+    },
+    {
+      "id": "words-different-second",
+      "title": "Cùng nghĩa khác lời: bên kia",
+      "segments": [
+        "mn103:7.8",
+        "mn103:7.9",
+        "mn103:7.10",
+        "mn103:7.11",
+        "mn103:7.12",
+        "mn103:7.13"
+      ],
+      "summary": "Đến vị dễ khuyên của phe kia, chỉ rõ cùng nghĩa khác lời, lời là việc nhỏ trong trường hợp ấy, xin không tranh cãi."
+    },
+    {
+      "id": "words-different-memory",
+      "title": "Đúng là đúng sai là sai",
+      "segments": [
+        "mn103:7.14",
+        "mn103:7.15"
+      ],
+      "summary": "Ghi đúng được nhớ là đúng, ghi sai là sai; rồi nói Pháp và Luật."
+    },
+    {
+      "id": "same-first",
+      "title": "Cùng nghĩa cùng lời: bên đầu",
+      "segments": [
+        "mn103:8.1",
+        "mn103:8.2",
+        "mn103:8.3",
+        "mn103:8.4",
+        "mn103:8.5",
+        "mn103:8.6"
+      ],
+      "summary": "Nếu cùng cả nghĩa và lời, đến vị dễ khuyên, chỉ rõ sự đồng nhất ấy và xin không tranh cãi."
+    },
+    {
+      "id": "same-second",
+      "title": "Cùng nghĩa cùng lời: bên kia",
+      "segments": [
+        "mn103:8.7",
+        "mn103:8.8",
+        "mn103:8.9",
+        "mn103:8.10",
+        "mn103:8.11"
+      ],
+      "summary": "Đến vị dễ khuyên của phe kia, cũng chỉ rõ cùng cả nghĩa và lời, xin không tranh cãi."
+    },
+    {
+      "id": "same-memory",
+      "title": "Nhớ điều đúng",
+      "segments": [
+        "mn103:8.12",
+        "mn103:8.13"
+      ],
+      "summary": "Trong trường hợp này, giữ điều ghi đúng là đúng, rồi nói Pháp và Luật."
+    },
+    {
+      "id": "offense",
+      "title": "Có người vi phạm",
+      "segments": [
+        "mn103:9.1"
+      ],
+      "summary": "Dù đang cùng học hòa hợp, vui vẻ, không tranh cãi, một vị vẫn có thể phạm lỗi hoặc vi phạm."
+    },
+    {
+      "id": "examine",
+      "title": "Không vội buộc lỗi",
+      "segments": [
+        "mn103:10.1"
+      ],
+      "summary": "Chớ vội trách cứ; phải xem xét cá nhân ấy."
+    },
+    {
+      "id": "case-one",
+      "title": "Không ai bị phiền tổn",
+      "segments": [
+        "mn103:10.2",
+        "mn103:10.3"
+      ],
+      "summary": "Nếu mình không phiền, người kia không tổn thương vì họ không giận, không ôm hận, không chấp chặt ý kiến, dễ bỏ; mình có thể đưa họ khỏi bất thiện vào thiện, thì nên nói."
+    },
+    {
+      "id": "case-two",
+      "title": "Người nghe có thể tổn thương",
+      "segments": [
+        "mn103:11.1",
+        "mn103:11.2",
+        "mn103:11.3",
+        "mn103:11.4",
+        "mn103:11.5",
+        "mn103:11.6"
+      ],
+      "summary": "Nếu mình không phiền, người kia tổn thương vì hay giận/ôm hận nhưng không chấp chặt và dễ bỏ; vẫn có thể giúp họ khỏi bất thiện vào thiện, việc giúp ấy lớn hơn tổn thương của họ, nên nói."
+    },
+    {
+      "id": "case-three",
+      "title": "Người góp ý gặp phiền",
+      "segments": [
+        "mn103:12.1",
+        "mn103:12.2",
+        "mn103:12.3",
+        "mn103:12.4",
+        "mn103:12.5",
+        "mn103:12.6"
+      ],
+      "summary": "Nếu mình phiền, người kia không tổn thương vì không giận/ôm hận nhưng chấp chặt và khó bỏ; còn có thể giúp họ khỏi bất thiện vào thiện, lợi ích ấy lớn hơn phiền toái của mình, nên nói."
+    },
+    {
+      "id": "case-four",
+      "title": "Cả hai gặp khó nhưng còn giúp được",
+      "segments": [
+        "mn103:13.1",
+        "mn103:13.2",
+        "mn103:13.3",
+        "mn103:13.4",
+        "mn103:13.5",
+        "mn103:13.6"
+      ],
+      "summary": "Nếu mình phiền và người kia tổn thương, họ giận/ôm hận/chấp chặt/khó bỏ nhưng còn có thể giúp rời bất thiện vào thiện, lợi ích ấy lớn hơn cả hai khó khăn, nên nói."
+    },
+    {
+      "id": "case-five",
+      "title": "Không thể giúp bằng lời ấy",
+      "segments": [
+        "mn103:14.1",
+        "mn103:14.2",
+        "mn103:14.3"
+      ],
+      "summary": "Nếu mình phiền, người kia tổn thương, họ giận/ôm hận/chấp chặt/khó bỏ và không thể giúp họ rời bất thiện vào thiện, chớ xem thường xả đối với người như vậy."
+    },
+    {
+      "id": "quarrel",
+      "title": "Hiềm khích nảy sinh",
+      "segments": [
+        "mn103:15.1"
+      ],
+      "summary": "Trong lúc cùng học có thể phát sinh lời qua tiếng lại, đối chọi quan điểm, giận trong tâm, cay cú, bất mãn."
+    },
+    {
+      "id": "first-warning",
+      "title": "Hỏi bên đầu về sự quở trách",
+      "segments": [
+        "mn103:15.2",
+        "mn103:15.3",
+        "mn103:15.4",
+        "mn103:15.5"
+      ],
+      "summary": "Đến người dễ khuyên thuộc một phe; hỏi nếu vị Sa-môn biết sự hiềm khích này có quở trách không. Đáp đúng: có."
+    },
+    {
+      "id": "first-nibbana",
+      "title": "Hỏi bên đầu về Niết-bàn",
+      "segments": [
+        "mn103:15.6",
+        "mn103:15.7",
+        "mn103:15.8"
+      ],
+      "summary": "Không bỏ tình trạng ấy có thể chứng Niết-bàn không? Đáp đúng: không."
+    },
+    {
+      "id": "second-warning",
+      "title": "Hỏi bên kia về sự quở trách",
+      "segments": [
+        "mn103:16.1",
+        "mn103:16.2",
+        "mn103:16.3",
+        "mn103:16.4"
+      ],
+      "summary": "Rồi đến người dễ khuyên thuộc phe kia, hỏi cùng câu biết tình trạng ấy có quở trách không; đáp đúng: có."
+    },
+    {
+      "id": "second-nibbana",
+      "title": "Hỏi bên kia về Niết-bàn",
+      "segments": [
+        "mn103:16.5",
+        "mn103:16.6",
+        "mn103:16.7"
+      ],
+      "summary": "Cũng hỏi không từ bỏ tình trạng ấy có chứng Niết-bàn không; đáp đúng: không."
+    },
+    {
+      "id": "credit-question",
+      "title": "Nếu được hỏi ai đã giúp",
+      "segments": [
+        "mn103:17.1",
+        "mn103:17.2",
+        "mn103:17.3"
+      ],
+      "summary": "Nếu người khác hỏi phải chính vị hòa giải đã đưa các tỳ-kheo khỏi bất thiện vào thiện không, vị ấy nên trả lời đúng."
+    },
+    {
+      "id": "credit-answer",
+      "title": "Kể đúng quá trình",
+      "segments": [
+        "mn103:17.4",
+        "mn103:17.5"
+      ],
+      "summary": "Tôi đến Phật, Ngài dạy Pháp, tôi nghe rồi nói lại; các vị nghe Pháp ấy và vượt khỏi bất thiện, đứng vững trong thiện."
+    },
+    {
+      "id": "credit-result",
+      "title": "Bốn phẩm chất lời đáp",
+      "segments": [
+        "mn103:17.6"
+      ],
+      "summary": "Lời đáp không nâng mình, không hạ người, đúng theo Pháp, không tạo căn cứ chính đáng cho bác bỏ hay chỉ trích."
+    },
+    {
+      "id": "ending",
+      "title": "Hoan hỷ và nhãn kết",
+      "segments": [
+        "mn103:17.7",
+        "mn103:17.8",
+        "mn103:17.9"
+      ],
+      "summary": "Phật nói xong, các vị hoan hỷ tán đồng; Kinh Nghĩ Như Thế Nào kết thúc, bài thứ ba trong nhóm kinh này."
+    }
+  ],
+  "audiences": {
+    "children": {
+      "title": "Diễn giải dành cho trẻ em",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "begin",
+          "kind": "teaching",
+          "heading": "Trước khi giúp ai, hãy nhìn lại vì sao mình nói",
+          "paragraphs": [
+            "Kinh Nghĩ Như Thế Nào, Trung Bộ 103, mở bằng lời người truyền kinh kể điều đã nghe. Phật đang ở rừng Baliharaṇa, tại Kusinārā. Ngài gọi các tỳ-kheo, những người nam xuất gia theo Ngài. Các vị vâng đáp, rồi lắng nghe."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting"
+          ]
+        },
+        {
+          "id": "why",
+          "kind": "teaching",
+          "heading": "Phật dạy vì điều gì?",
+          "paragraphs": [
+            "Phật hỏi: các thầy có nghĩ Ngài dạy để được áo mặc, thức ăn được cúng, chỗ ở, hay để được tái sinh trong trạng thái này hoặc trạng thái khác không? Các thầy thưa rằng không nghĩ Ngài dạy vì bất cứ điều nào trong bốn điều ấy.",
+            "Ngài hỏi tiếp: vậy các thầy nghĩ thế nào? Các thầy đáp: Phật có lòng thương, muốn điều tốt cho người khác và dạy vì lòng thương ấy. Ngài nhắc lại để xác nhận điều họ đang nghĩ."
+          ],
+          "meaningUnits": [
+            "motive-question",
+            "motive-denial",
+            "motive-followup",
+            "compassion"
+          ]
+        },
+        {
+          "id": "learn",
+          "kind": "teaching",
+          "heading": "Cùng học những điều đưa đến giác ngộ",
+          "paragraphs": [
+            "Vì vậy, Phật dặn tất cả cùng học những điều Ngài đã trực tiếp hiểu biết và giảng dạy. Đó là bốn niệm xứ, những nơi đặt sự chú tâm; bốn chánh cần, những nỗ lực đúng; bốn như ý túc, những nền tảng phát triển năng lực tu tập; năm căn và năm lực, những khả năng và sức mạnh của việc tu; bảy giác chi, những yếu tố giúp giác ngộ; và Thánh đạo tám ngành, con đường tu gồm tám phần.",
+            "Các thầy cần học trong hòa hợp, vui vẻ và quý mến nhau, không cãi vã. Tuy vậy, ngay lúc cùng học, hai thầy vẫn có thể nói khác nhau về giáo pháp. Làm sao giúp họ? Phật phân biệt bốn trường hợp."
+          ],
+          "meaningUnits": [
+            "training",
+            "disagreement"
+          ]
+        },
+        {
+          "id": "different",
+          "kind": "teaching",
+          "heading": "Trường hợp một: khác cả ý lẫn lời",
+          "paragraphs": [
+            "Nếu hai bên nói khác lời và cũng hiểu khác ý, hãy tìm vị dễ nghe lời khuyên hơn. Nói rõ hai bên đang khác nhau ở cả ý và lời như thế nào, rồi khuyên đừng cãi nhau. Sau đó, đến vị dễ nghe lời khuyên trong phe bên kia và cũng giải thích, khuyên như vậy.",
+            "Điều được nhớ sai phải nhận là sai; điều được nhớ đúng phải nhận là đúng. Khi đã phân biệt rõ, hãy nói điều thuộc Pháp, tức lời dạy, và Luật, tức nếp tu cùng những điều phải giữ."
+          ],
+          "meaningUnits": [
+            "both-different-first",
+            "both-different-second",
+            "both-different-memory"
+          ]
+        },
+        {
+          "id": "meaning",
+          "kind": "teaching",
+          "heading": "Trường hợp hai: cùng lời mà khác ý",
+          "paragraphs": [
+            "Có khi hai người dùng cùng những chữ mà lại hiểu khác nhau. Hãy đến vị dễ khuyên, chỉ rõ họ giống lời nhưng khác ý, và khuyên đừng tranh cãi. Rồi đến vị dễ khuyên trong phe kia, cũng chỉ rõ như thế và khuyên như thế.",
+            "Ở đây cũng cần nhận điều nhớ sai là sai, điều nhớ đúng là đúng. Sau đó nói điều thuộc Pháp và Luật. Chỉ nghe hai bên dùng cùng một chữ chưa đủ để biết họ đã hiểu nhau."
+          ],
+          "meaningUnits": [
+            "meaning-different-first",
+            "meaning-different-second",
+            "meaning-different-memory"
+          ]
+        },
+        {
+          "id": "words",
+          "kind": "teaching",
+          "heading": "Trường hợp ba: cùng ý mà khác lời",
+          "paragraphs": [
+            "Nếu hai bên thực ra cùng một ý, chỉ nói bằng lời khác nhau, hãy gặp vị dễ khuyên của bên đầu rồi vị dễ khuyên của bên kia. Với mỗi người, chỉ rõ chỗ giống ý và khác lời. Khi ý đã giống nhau như vậy, khác lời là việc nhỏ: đừng vì việc nhỏ ấy mà cãi nhau.",
+            "Vẫn phải giữ điều nhớ đúng là đúng, điều nhớ sai là sai, rồi nói điều thuộc Pháp và Luật."
+          ],
+          "meaningUnits": [
+            "words-different-first",
+            "words-different-second",
+            "words-different-memory"
+          ]
+        },
+        {
+          "id": "same",
+          "kind": "teaching",
+          "heading": "Trường hợp bốn: ý và lời đều giống",
+          "paragraphs": [
+            "Nếu cả ý lẫn lời đều giống nhau, cũng hãy gặp vị dễ khuyên rồi đến vị dễ khuyên ở phe kia. Giúp mỗi bên nhận ra chính sự giống nhau ấy và khuyên đừng tranh cãi. Điều đã được nhớ đúng thì giữ là đúng, rồi nói điều thuộc Pháp và Luật."
+          ],
+          "meaningUnits": [
+            "same-first",
+            "same-second",
+            "same-memory"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: “Cất sách lên nhé”",
+          "paragraphs": [
+            "Hai bạn cùng nói “cất sách”, nhưng một bạn nghĩ cất vào cặp, bạn kia nghĩ xếp lên giá. Hai bạn cần hỏi lại ý nhau. Còn “xếp sách lên giá” và “để sách vào kệ” có thể cùng chỉ một việc. Ví dụ này giúp em tập nhìn cả ý lẫn lời trước khi cho rằng người khác đang chống mình."
+          ],
+          "meaningUnits": [
+            "meaning-different-first",
+            "words-different-first"
+          ]
+        },
+        {
+          "id": "pause",
+          "kind": "teaching",
+          "heading": "Khi có người làm sai",
+          "paragraphs": [
+            "Trong nhóm đang học hòa hợp, vẫn có thầy phạm lỗi hoặc vi phạm điều phải giữ. Phật dặn đừng vội trách cứ. Trước hết hãy xem xét người ấy. Mục đích của lời góp ý là giúp người ấy rời điều bất thiện, tức điều không lành, để đứng vững trong điều thiện, tức điều lành."
+          ],
+          "meaningUnits": [
+            "offense",
+            "examine",
+            "case-one"
+          ]
+        },
+        {
+          "id": "easy",
+          "kind": "teaching",
+          "heading": "Khi cả hai đều có thể nhẹ nhàng",
+          "paragraphs": [
+            "Nếu người góp ý không bị phiền toái, người nghe không bị tổn thương vì họ không hay giận, không ôm hận, không khăng khăng giữ ý kiến và dễ buông bỏ, đồng thời người góp ý có thể giúp họ chuyển từ điều không lành sang điều lành, thì nên nói."
+          ],
+          "meaningUnits": [
+            "case-one"
+          ]
+        },
+        {
+          "id": "hurt",
+          "kind": "teaching",
+          "heading": "Khi người nghe dễ giận",
+          "paragraphs": [
+            "Có trường hợp mình không gặp phiền toái, nhưng người kia sẽ bị tổn thương: họ hay giận và giữ bực tức trong lòng. Tuy vậy, họ không bám chặt ý kiến và có thể bỏ nó dễ dàng. Nếu mình còn có thể giúp họ rời điều không lành, đứng vững trong điều lành, thì lợi ích ấy lớn hơn sự tổn thương đang xét. Trong trường hợp ấy, nên nói."
+          ],
+          "meaningUnits": [
+            "case-two"
+          ]
+        },
+        {
+          "id": "effort",
+          "kind": "teaching",
+          "heading": "Khi người góp ý phải vất vả",
+          "paragraphs": [
+            "Trường hợp khác, mình sẽ phiền toái, còn người kia không bị tổn thương. Họ không hay giận, không ôm hận, nhưng bám chặt ý kiến và khó buông bỏ. Nếu mình vẫn có thể giúp họ chuyển từ điều không lành sang điều lành, thì việc giúp ấy quan trọng hơn sự phiền toái của mình. Khi đó, nên nói."
+          ],
+          "meaningUnits": [
+            "case-three"
+          ]
+        },
+        {
+          "id": "both",
+          "kind": "teaching",
+          "heading": "Khi cả hai đều gặp khó",
+          "paragraphs": [
+            "Cũng có người vừa hay giận, ôm hận, vừa giữ chặt ý kiến và khó buông bỏ. Mình sẽ phiền toái, họ sẽ bị tổn thương. Nhưng nếu mình còn có thể giúp họ rời điều không lành, đứng vững trong điều lành, thì lợi ích ấy lớn hơn cả hai khó khăn vừa nêu. Khi đó, nên nói."
+          ],
+          "meaningUnits": [
+            "case-four"
+          ]
+        },
+        {
+          "id": "equanimity",
+          "kind": "teaching",
+          "heading": "Khi lời nói chưa giúp được",
+          "paragraphs": [
+            "Nếu người ấy cũng hay giận, ôm hận, giữ chặt ý kiến, khó buông bỏ; mình sẽ phiền toái, họ sẽ bị tổn thương; và mình không thể giúp họ chuyển từ điều không lành sang điều lành, Phật dặn đừng xem thường sự xả. Xả ở đây là giữ tâm bình thản trước người như vậy."
+          ],
+          "meaningUnits": [
+            "case-five"
+          ]
+        },
+        {
+          "id": "care",
+          "kind": "clarification",
+          "heading": "Điều cần nhớ khi đọc các trường hợp này",
+          "paragraphs": [
+            "Phật đang hướng dẫn những người cùng tu cân nhắc việc nhắc lỗi. Điểm phải xem kỹ là mình có thể giúp người kia sửa đổi hay không. Những lời này không phải lý do để cố làm ai đau rồi gọi đó là giúp đỡ."
+          ],
+          "meaningUnits": [
+            "case-two",
+            "case-three",
+            "case-four",
+            "case-five"
+          ]
+        },
+        {
+          "id": "first-side",
+          "kind": "teaching",
+          "heading": "Hai câu hỏi cho một bên đang giận",
+          "paragraphs": [
+            "Nếu trong nhóm nảy sinh lời qua tiếng lại, chống đối nhau về ý kiến, giận trong lòng, cay cú và bất mãn, hãy đến người dễ khuyên ở một bên. Hỏi: nếu vị Sa-môn, ở đây là Phật, biết tình trạng này thì Ngài có quở trách không? Câu trả lời đúng là có.",
+            "Hỏi tiếp: nếu không bỏ những điều ấy, có thể chứng ngộ Niết-bàn, sự chấm dứt lòng khát khao bám víu và khổ, không? Câu trả lời đúng là không."
+          ],
+          "meaningUnits": [
+            "quarrel",
+            "first-warning",
+            "first-nibbana"
+          ]
+        },
+        {
+          "id": "other-side",
+          "kind": "teaching",
+          "heading": "Rồi cũng hỏi bên kia",
+          "paragraphs": [
+            "Sau đó, hãy đến người dễ khuyên ở phe kia và hỏi đủ hai câu như thế. Nếu Phật biết chuyện hiềm khích này, Ngài có quở trách không? Có. Không từ bỏ nó thì có thể chứng ngộ Niết-bàn không? Không. Cả hai bên đều cần nhìn lại điều đang cản trở việc tu của mình."
+          ],
+          "meaningUnits": [
+            "second-warning",
+            "second-nibbana"
+          ]
+        },
+        {
+          "id": "credit",
+          "kind": "teaching",
+          "heading": "Kể điều đã xảy ra, không khoe công",
+          "paragraphs": [
+            "Nếu có người hỏi: “Có phải thầy đã giúp các thầy ấy rời điều không lành và đứng vững trong điều lành không?”, người hòa giải nên kể đúng: tôi đến gặp Phật, được Ngài dạy; nghe xong, tôi nói lại cho các thầy ấy. Các thầy nghe lời dạy rồi vượt khỏi điều không lành, đứng vững trong điều lành.",
+            "Trả lời như vậy không nâng mình lên, không hạ người khác xuống, phù hợp lời dạy, và không tạo lý do chính đáng cho việc bác bỏ hay chỉ trích."
+          ],
+          "meaningUnits": [
+            "credit-question",
+            "credit-answer",
+            "credit-result"
+          ]
+        },
+        {
+          "id": "try",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: hỏi trước khi sửa",
+          "paragraphs": [
+            "Lần tới khi không đồng ý với một bạn, em thử hỏi: “Bạn muốn nói điều gì?” Nghe hết rồi mới nhắc lại ý bạn bằng lời của mình. Nếu nhờ một người lớn giúp hai bạn hiểu nhau, em có thể kể đúng ai đã nói, ai đã nghe, điều gì đã thay đổi, thay vì nhận hết công về mình."
+          ],
+          "meaningUnits": [
+            "examine",
+            "words-different-first",
+            "credit-result"
+          ]
+        },
+        {
+          "id": "end",
+          "kind": "teaching",
+          "heading": "Cùng học tiếp",
+          "paragraphs": [
+            "Phật nói xong, các tỳ-kheo vui mừng và tán đồng lời Ngài. Kinh Nghĩ Như Thế Nào khép lại, là bài thứ ba trong nhóm kinh này."
+          ],
+          "meaningUnits": [
+            "ending"
+          ]
+        }
+      ]
+    },
+    "adults": {
+      "title": "Diễn giải dành cho người trưởng thành",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "opening",
+          "kind": "teaching",
+          "heading": "Động cơ của người nói",
+          "paragraphs": [
+            "Kinh Nghĩ Như Thế Nào, Trung Bộ 103, được truyền lại bằng lời kể điều đã nghe. Khi ở rừng Baliharaṇa tại Kusinārā, Phật gọi các tỳ-kheo, những người nam xuất gia theo Ngài. Các vị vâng đáp. Ngài hỏi họ có nghĩ người tu Gotama dạy Pháp để được y áo, thức ăn cúng, chỗ ở hay sự tái sinh trong trạng thái này hoặc trạng thái khác không. Họ phủ nhận cả bốn động cơ ấy.",
+            "Phật nhắc lại lời phủ nhận và hỏi: vậy họ nghĩ thế nào về Ngài? Các vị đáp rằng Ngài có lòng thương, mong điều lợi ích và thuyết pháp từ lòng thương. Ngài xác nhận đó là điều họ nghĩ, rồi từ điểm ấy dạy về cách cùng học và xử lý bất đồng."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting",
+            "motive-question",
+            "motive-denial",
+            "motive-followup",
+            "compassion"
+          ]
+        },
+        {
+          "id": "shared-learning",
+          "kind": "teaching",
+          "heading": "Hòa hợp trong việc tu học",
+          "paragraphs": [
+            "Tất cả cần học những điều Phật đã trực tiếp biết rồi giảng dạy: bốn niệm xứ, các nền tảng của sự chú tâm; bốn chánh cần, những nỗ lực đúng; bốn như ý túc, những nền tảng phát triển năng lực tu tập; năm căn và năm lực, các khả năng và sức mạnh của việc tu; bảy giác chi, các yếu tố giác ngộ; Thánh đạo tám ngành, con đường tu gồm tám phần. Việc học phải diễn ra trong hòa hợp, quý mến nhau và không tranh cãi.",
+            "Ngay trong cộng đồng cùng học như thế, hai vị vẫn có thể chủ trương khác nhau về giáo pháp. Phật yêu cầu phân biệt rõ bất đồng nằm ở nghĩa, ở lời diễn đạt, hay ở cả hai. Mỗi trường hợp đều cần tiếp xúc với vị dễ tiếp nhận lời khuyên hơn, rồi với một vị dễ tiếp nhận lời khuyên thuộc phe bên kia."
+          ],
+          "meaningUnits": [
+            "training",
+            "disagreement",
+            "both-different-first",
+            "meaning-different-first",
+            "words-different-first",
+            "same-first",
+            "both-different-second"
+          ]
+        },
+        {
+          "id": "both-different",
+          "kind": "teaching",
+          "heading": "Khác cả nghĩa lẫn lời",
+          "paragraphs": [
+            "Nếu cả nghĩa lẫn lời đều khác, hãy đến vị dễ khuyên, chỉ ra sự khác nhau ấy cụ thể ra sao, và khuyên đừng tranh cãi. Sau đó đến vị dễ khuyên của phe kia, cũng chỉ rõ khác cả nghĩa và lời, cũng khuyên đừng tranh cãi.",
+            "Điều được ghi nhớ sai phải được nhận là sai; điều ghi nhớ đúng phải được nhận là đúng. Trên cơ sở phân biệt ấy, hãy nói điều thuộc Pháp và Luật: lời dạy và khuôn phép tu tập."
+          ],
+          "meaningUnits": [
+            "both-different-first",
+            "both-different-second",
+            "both-different-memory"
+          ]
+        },
+        {
+          "id": "same-words",
+          "kind": "teaching",
+          "heading": "Cùng lời nhưng khác nghĩa",
+          "paragraphs": [
+            "Nếu lời giống nhau mà nghĩa khác nhau, đến vị dễ khuyên rồi đến vị dễ khuyên của phe kia. Với từng bên, làm rõ chính sự khác nghĩa dù cùng lời, và khuyên không tranh cãi. Việc dùng cùng thuật ngữ không thay thế cho việc hiểu rõ điều mỗi bên muốn nói.",
+            "Vẫn nhận điều ghi nhớ sai là sai, điều ghi nhớ đúng là đúng; sau đó nói điều thuộc Pháp và Luật."
+          ],
+          "meaningUnits": [
+            "meaning-different-first",
+            "meaning-different-second",
+            "meaning-different-memory"
+          ]
+        },
+        {
+          "id": "same-meaning",
+          "kind": "teaching",
+          "heading": "Cùng nghĩa nhưng khác lời",
+          "paragraphs": [
+            "Nếu nghĩa đã giống mà lời khác, hãy chỉ rõ điều ấy với người dễ khuyên ở bên đầu và người dễ khuyên ở phe kia. Trong trường hợp này, khác biệt về lời là chuyện nhỏ; đừng tranh cãi vì chuyện nhỏ ấy.",
+            "Nhận điều được ghi nhớ đúng là đúng, điều ghi nhớ sai là sai, rồi nói Pháp và Luật. Lời khuyên đặt sự khác biệt về cách diễn đạt vào đúng mức khi ý nghĩa đã thống nhất."
+          ],
+          "meaningUnits": [
+            "words-different-first",
+            "words-different-second",
+            "words-different-memory"
+          ]
+        },
+        {
+          "id": "agreement",
+          "kind": "teaching",
+          "heading": "Cả nghĩa lẫn lời đều thống nhất",
+          "paragraphs": [
+            "Nếu hai bên cùng cả nghĩa lẫn lời, vẫn cần đến vị dễ khuyên rồi đến vị dễ khuyên trong phe kia, giúp mỗi bên nhận ra sự thống nhất ấy và khuyên không tranh cãi. Trong trường hợp này, giữ điều ghi nhớ đúng là đúng, rồi nói điều thuộc Pháp và Luật."
+          ],
+          "meaningUnits": [
+            "same-first",
+            "same-second",
+            "same-memory"
+          ]
+        },
+        {
+          "id": "meeting",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: một cuộc họp nhiều cách hiểu",
+          "paragraphs": [
+            "Trong một nhóm làm việc, hai người cùng nói “cần minh bạch”, nhưng một người muốn công bố quyết định, người kia muốn công bố cả quá trình ra quyết định. Hỏi rõ nghĩa sẽ hữu ích hơn lặp lại khẩu hiệu. Ngược lại, “gửi tài liệu trước cuộc họp” và “trước khi họp, gửi tài liệu” có thể cùng một ý. Ví dụ này mượn cách phân biệt nghĩa và lời để tập lắng nghe."
+          ],
+          "meaningUnits": [
+            "meaning-different-first",
+            "words-different-first"
+          ]
+        },
+        {
+          "id": "before-correction",
+          "kind": "teaching",
+          "heading": "Nhắc lỗi bắt đầu bằng việc xét người",
+          "paragraphs": [
+            "Khi đang cùng học hòa hợp, một vị vẫn có thể mắc lỗi hoặc vi phạm. Phật dặn chớ vội trách cứ; cần xem xét cá nhân ấy. Điều cần đạt là giúp vị ấy ra khỏi bất thiện, những điều không lành, và đứng vững trong thiện, những điều lành.",
+            "Trường hợp đầu: mình không bị phiền toái, người kia không bị tổn thương; họ không giận, không ôm hận, không bám chặt ý kiến và dễ buông bỏ. Nếu mình có thể giúp họ chuyển từ bất thiện sang thiện, thì nên nói."
+          ],
+          "meaningUnits": [
+            "offense",
+            "examine",
+            "case-one"
+          ]
+        },
+        {
+          "id": "difficult-correction",
+          "kind": "teaching",
+          "heading": "Ba trường hợp còn có thể giúp",
+          "paragraphs": [
+            "Trường hợp thứ hai: mình không bị phiền toái, người kia sẽ bị tổn thương. Họ hay giận và ôm hận, nhưng không giữ chặt ý kiến, dễ buông bỏ. Nếu vẫn có thể giúp họ ra khỏi bất thiện, đứng vững trong thiện, lợi ích ấy lớn hơn sự tổn thương đang xét; nên nói.",
+            "Trường hợp thứ ba: mình sẽ phiền toái, người kia không bị tổn thương. Họ không giận, không ôm hận, nhưng giữ chặt ý kiến và khó buông bỏ. Nếu còn có thể giúp họ rời bất thiện, đứng vững trong thiện, thì lợi ích ấy lớn hơn phiền toái của mình; nên nói.",
+            "Trường hợp thứ tư: mình phiền toái và người kia cũng bị tổn thương. Họ hay giận, ôm hận, giữ chặt ý kiến, khó buông bỏ. Nếu mình vẫn có thể giúp họ rời bất thiện, đứng vững trong thiện, thì lợi ích ấy lớn hơn cả hai khó khăn vừa nêu; nên nói."
+          ],
+          "meaningUnits": [
+            "case-two",
+            "case-three",
+            "case-four"
+          ]
+        },
+        {
+          "id": "equanimity",
+          "kind": "teaching",
+          "heading": "Khi khả năng giúp đỡ không còn",
+          "paragraphs": [
+            "Trường hợp cuối giữ cùng những khó khăn: mình sẽ phiền toái, người kia bị tổn thương, họ giận, ôm hận, giữ chặt ý kiến, khó buông bỏ. Nhưng lần này mình không thể giúp họ rời bất thiện để đứng vững trong thiện. Đối với người như vậy, Phật dặn đừng xem thường sự xả, tức khả năng giữ tâm bình thản. Khả năng thật sự giúp người sửa đổi là điều làm thay đổi cách ứng xử."
+          ],
+          "meaningUnits": [
+            "case-five"
+          ]
+        },
+        {
+          "id": "when-resentment-grows",
+          "kind": "teaching",
+          "heading": "Đặt lại mục tiêu khi hiềm khích đã nảy sinh",
+          "paragraphs": [
+            "Trong cộng đồng đang cùng học có thể phát sinh lời qua tiếng lại, đối chọi về quan điểm, giận trong tâm, cay cú và bất mãn. Hãy đến vị dễ khuyên thuộc một phe, hỏi: nếu vị Sa-môn, ở đây là Phật, biết tình trạng ấy, Ngài có quở trách không? Trả lời đúng là có. Hỏi tiếp: không từ bỏ tình trạng ấy thì có thể chứng Niết-bàn, sự chấm dứt lòng khát khao bám víu và khổ, không? Trả lời đúng là không.",
+            "Rồi đến vị dễ khuyên thuộc phe kia và hỏi đủ hai câu ấy. Câu trả lời đúng cũng là: Phật sẽ quở trách; không bỏ những điều ấy thì không thể chứng Niết-bàn. Hai bên đều được đưa trở lại mục tiêu tu tập mà sự hiềm khích đang cản trở."
+          ],
+          "meaningUnits": [
+            "quarrel",
+            "first-warning",
+            "first-nibbana",
+            "second-warning",
+            "second-nibbana"
+          ]
+        },
+        {
+          "id": "credit",
+          "kind": "teaching",
+          "heading": "Trả lời về phần đóng góp của mình",
+          "paragraphs": [
+            "Nếu người khác hỏi có phải chính mình đã đưa các vị khỏi bất thiện và an lập vào thiện không, người hòa giải nên kể đúng quá trình: tôi đến gặp Phật, Ngài dạy Pháp cho tôi; nghe xong, tôi nói lại với các vị. Họ nghe Pháp ấy rồi rời bất thiện và đứng vững trong thiện.",
+            "Cách đáp ấy không tự đề cao, không hạ thấp người khác, phù hợp với Pháp, và không tạo căn cứ chính đáng cho lời bác bỏ hay chỉ trích. Nó ghi nhận cả lời dạy được tiếp nhận lẫn sự chuyển đổi nơi người nghe."
+          ],
+          "meaningUnits": [
+            "credit-question",
+            "credit-answer",
+            "credit-result"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: chuẩn bị một lời góp ý",
+          "paragraphs": [
+            "Trước một cuộc góp ý trong gia đình hoặc nơi làm việc, có thể viết ngắn: việc gì cần sửa, người kia đang hiểu thế nào, lời mình định nói có thể giúp họ thay đổi ra sao. Sau cuộc nói chuyện, xem lại điều gì đã giúp được và điều gì chưa. Khi kể với người khác, chỉ nhận đúng phần mình đã làm, để công sức lắng nghe và sửa đổi của họ cũng được nhìn thấy."
+          ],
+          "meaningUnits": [
+            "examine",
+            "case-one",
+            "case-two",
+            "case-three",
+            "case-four",
+            "case-five",
+            "credit-result"
+          ]
+        },
+        {
+          "id": "ending",
+          "kind": "teaching",
+          "heading": "Lời kết của cuộc dạy",
+          "paragraphs": [
+            "Phật nói xong, các tỳ-kheo hoan hỷ và tán đồng. Kinh Nghĩ Như Thế Nào khép lại, được ghi là bài thứ ba trong nhóm kinh này."
+          ],
+          "meaningUnits": [
+            "ending"
+          ]
+        }
+      ]
+    },
+    "older-adults": {
+      "title": "Diễn giải dành cho người lớn tuổi",
+      "authors": [
+        "gpt-6-astra-pro"
+      ],
+      "sections": [
+        {
+          "id": "meeting",
+          "kind": "teaching",
+          "heading": "Một lời hỏi trước khi nói chuyện hòa hợp",
+          "paragraphs": [
+            "Kinh Nghĩ Như Thế Nào là bài 103 của Trung Bộ. Người truyền kinh kể điều đã nghe: tại rừng Baliharaṇa, ở Kusinārā, Phật gọi các tỳ-kheo, những người nam xuất gia theo Ngài. Các vị vâng đáp. Ngài bắt đầu bằng một câu hỏi về chính động cơ thuyết pháp của mình."
+          ],
+          "meaningUnits": [
+            "title",
+            "setting"
+          ]
+        },
+        {
+          "id": "compassion",
+          "kind": "teaching",
+          "heading": "Lời dạy bắt đầu từ lòng thương",
+          "paragraphs": [
+            "Các vị có nghĩ Phật thuyết pháp để được y áo, thức ăn cúng, chỗ ở, hay để được tái sinh trong trạng thái này hoặc trạng thái khác không? Các vị thưa rằng không nghĩ như thế về bất cứ điều nào trong bốn điều ấy.",
+            "Phật nhắc lại: nếu không nghĩ như vậy thì nghĩ thế nào? Các vị đáp: Ngài có lòng thương, muốn điều lợi ích cho người khác, nên từ lòng thương mà thuyết pháp. Ngài nhắc lại và xác nhận điều họ nghĩ."
+          ],
+          "meaningUnits": [
+            "motive-question",
+            "motive-denial",
+            "motive-followup",
+            "compassion"
+          ]
+        },
+        {
+          "id": "common-path",
+          "kind": "teaching",
+          "heading": "Cùng gìn giữ việc học và việc tu",
+          "paragraphs": [
+            "Từ đó, Phật dặn mọi người cùng học những điều Ngài đã trực tiếp biết rồi giảng dạy, trong hòa hợp, vui vẻ với nhau và không tranh cãi. Bảy nhóm được nêu đầy đủ: bốn niệm xứ, các nền tảng của sự chú tâm; bốn chánh cần, những nỗ lực đúng; bốn như ý túc, các nền tảng phát triển năng lực tu tập; năm căn và năm lực, những khả năng và sức mạnh của việc tu; bảy giác chi, các yếu tố giác ngộ; Thánh đạo tám ngành, con đường tu gồm tám phần.",
+            "Dù cùng học như thế, hai vị vẫn có thể có chủ trương khác nhau về giáo pháp. Phật chỉ cách nhìn cho rõ điều gì đang khác, trước khi tìm lời khuyên giải."
+          ],
+          "meaningUnits": [
+            "training",
+            "disagreement"
+          ]
+        },
+        {
+          "id": "two-differences",
+          "kind": "teaching",
+          "heading": "Khi khác cả ý nghĩa và lời nói",
+          "paragraphs": [
+            "Trường hợp đầu, hai bên khác cả ý lẫn lời. Hãy đến vị dễ khuyên hơn, chỉ rõ sự khác nhau ấy như thế nào và khuyên đừng tranh cãi. Rồi đến một vị dễ khuyên thuộc phe bên kia, cũng giúp nhận rõ cả hai chỗ khác nhau và cũng khuyên đừng tranh cãi.",
+            "Điều ghi nhớ sai cần được nhận là sai, điều ghi nhớ đúng cần được nhận là đúng. Sau đó nói điều thuộc Pháp và Luật, tức lời dạy và những khuôn phép của đời tu."
+          ],
+          "meaningUnits": [
+            "both-different-first",
+            "both-different-second",
+            "both-different-memory"
+          ]
+        },
+        {
+          "id": "meaning",
+          "kind": "teaching",
+          "heading": "Khi nói giống nhưng hiểu khác",
+          "paragraphs": [
+            "Trường hợp thứ hai, lời giống nhau nhưng ý nghĩa lại khác. Cũng đến vị dễ khuyên, rồi vị dễ khuyên trong phe kia. Với từng bên, chỉ rõ chỗ cùng lời mà khác nghĩa, khuyên không tranh cãi.",
+            "Không bỏ qua việc phân biệt đúng sai: điều nhớ sai là sai, điều nhớ đúng là đúng. Rồi nói điều thuộc Pháp và Luật. Muốn hiểu nhau, cần nghe được ý nghĩa nằm sau lời người kia dùng."
+          ],
+          "meaningUnits": [
+            "meaning-different-first",
+            "meaning-different-second",
+            "meaning-different-memory"
+          ]
+        },
+        {
+          "id": "wording",
+          "kind": "teaching",
+          "heading": "Khi khác lời nhưng đã cùng ý",
+          "paragraphs": [
+            "Trường hợp thứ ba, ý nghĩa đã thống nhất, chỉ khác cách nói. Đến người dễ khuyên ở bên đầu rồi người dễ khuyên ở phe kia, giúp mỗi bên nhận rõ sự thống nhất về nghĩa và khác biệt về lời. Trong trường hợp ấy, khác lời là việc nhỏ; chớ tranh cãi vì việc nhỏ ấy.",
+            "Vẫn giữ điều ghi nhớ đúng là đúng, điều ghi nhớ sai là sai. Sau đó nói Pháp và Luật."
+          ],
+          "meaningUnits": [
+            "words-different-first",
+            "words-different-second",
+            "words-different-memory"
+          ]
+        },
+        {
+          "id": "agreement",
+          "kind": "teaching",
+          "heading": "Khi cả ý lẫn lời đã thống nhất",
+          "paragraphs": [
+            "Trường hợp thứ tư, cả nghĩa lẫn lời đều giống nhau. Hãy đến vị dễ khuyên và rồi đến vị dễ khuyên trong phe kia, chỉ cho mỗi bên thấy sự giống nhau ấy, khuyên đừng tranh cãi. Giữ điều đã được ghi nhớ đúng là đúng, rồi nói điều thuộc Pháp và Luật."
+          ],
+          "meaningUnits": [
+            "same-first",
+            "same-second",
+            "same-memory"
+          ]
+        },
+        {
+          "id": "example",
+          "kind": "example",
+          "heading": "Ví dụ hôm nay: hai cách kể một việc",
+          "paragraphs": [
+            "Trong một cuộc gặp, người này kể “anh ấy đến trước giờ hẹn mười phút”, người kia kể “anh ấy đến sớm hơn giờ hẹn mười phút”. Hai câu cùng nói một điều bằng lời hơi khác nhau. Hỏi thêm một câu sẽ giúp thấy rõ hơn điều gì thật sự khác. Ví dụ này gợi cách chậm lại trước khi biến khác lời thành bất hòa."
+          ],
+          "meaningUnits": [
+            "words-different-first",
+            "same-first"
+          ]
+        },
+        {
+          "id": "fault",
+          "kind": "teaching",
+          "heading": "Có lỗi thì xem xét trước khi trách",
+          "paragraphs": [
+            "Ngay trong cộng đồng đang cùng học hòa hợp, một vị có thể phạm lỗi hoặc vi phạm. Phật dặn chớ vội trách cứ; cần xem xét cá nhân ấy. Lời nhắc phải hướng đến giúp người ấy rời bất thiện, tức điều không lành, để đứng vững trong thiện, tức điều lành.",
+            "Nếu mình không phiền toái, người kia không bị tổn thương, vì họ không giận, không ôm hận, không giữ chặt ý kiến, dễ buông bỏ; đồng thời mình có thể giúp họ rời bất thiện và đứng vững trong thiện, thì nên nói."
+          ],
+          "meaningUnits": [
+            "offense",
+            "examine",
+            "case-one"
+          ]
+        },
+        {
+          "id": "listener",
+          "kind": "teaching",
+          "heading": "Người nghe có thể bị tổn thương",
+          "paragraphs": [
+            "Trường hợp tiếp theo, mình không gặp phiền toái nhưng người kia bị tổn thương. Họ hay giận và ôm hận, tuy không bám chặt ý kiến và dễ buông bỏ. Nếu mình còn có thể giúp họ rời điều không lành, đứng vững trong điều lành, thì lợi ích ấy lớn hơn sự tổn thương đang xét. Khi đó nên nói."
+          ],
+          "meaningUnits": [
+            "case-two"
+          ]
+        },
+        {
+          "id": "speaker",
+          "kind": "teaching",
+          "heading": "Người nói có thể phải kiên nhẫn nhiều hơn",
+          "paragraphs": [
+            "Có trường hợp mình sẽ phiền toái, còn người kia không bị tổn thương. Họ không giận, không ôm hận, nhưng giữ chặt ý kiến và khó buông bỏ. Nếu vẫn có thể giúp họ ra khỏi bất thiện, đứng vững trong thiện, thì việc giúp ấy lớn hơn sự phiền toái của mình. Khi đó nên nói."
+          ],
+          "meaningUnits": [
+            "case-three"
+          ]
+        },
+        {
+          "id": "both",
+          "kind": "teaching",
+          "heading": "Cả hai gặp khó, nhưng vẫn còn đường sửa",
+          "paragraphs": [
+            "Nếu mình sẽ phiền toái và người kia cũng bị tổn thương, họ vừa hay giận, ôm hận, vừa giữ chặt ý kiến, khó buông bỏ, hãy xét tiếp khả năng giúp đỡ. Nếu mình còn có thể đưa họ khỏi bất thiện và giúp đứng vững trong thiện, lợi ích ấy lớn hơn cả hai khó khăn vừa nêu. Trong điều kiện ấy, nên nói."
+          ],
+          "meaningUnits": [
+            "case-four"
+          ]
+        },
+        {
+          "id": "balance",
+          "kind": "teaching",
+          "heading": "Giá trị của sự bình thản",
+          "paragraphs": [
+            "Nhưng nếu cũng có đủ những điều ấy — mình phiền toái, họ tổn thương, họ hay giận, ôm hận, chấp chặt ý kiến và khó buông bỏ — mà mình không thể giúp họ rời bất thiện để đứng vững trong thiện, thì chớ xem thường sự xả. Xả ở đây là giữ tâm bình thản trước người như vậy. Cần nhận rõ giới hạn của lời mình định nói."
+          ],
+          "meaningUnits": [
+            "case-five"
+          ]
+        },
+        {
+          "id": "resentment",
+          "kind": "teaching",
+          "heading": "Hỏi một bên về điều đang cản trở việc tu",
+          "paragraphs": [
+            "Khi lời qua tiếng lại, đối chọi về quan điểm, giận trong tâm, cay cú và bất mãn đã phát sinh, hãy tìm vị dễ khuyên thuộc một phe. Hỏi: nếu vị Sa-môn, ở đây là Phật, biết chuyện ấy thì Ngài có quở trách không? Câu trả lời đúng là có.",
+            "Rồi hỏi: không từ bỏ những điều ấy thì có thể chứng ngộ Niết-bàn, sự chấm dứt lòng khát khao bám víu và khổ, không? Câu trả lời đúng là không."
+          ],
+          "meaningUnits": [
+            "quarrel",
+            "first-warning",
+            "first-nibbana"
+          ]
+        },
+        {
+          "id": "other-party",
+          "kind": "teaching",
+          "heading": "Cũng đặt đủ hai câu hỏi với bên kia",
+          "paragraphs": [
+            "Sau đó đến vị dễ khuyên của phe bên kia. Cũng hỏi nếu Phật biết tình trạng hiềm khích ấy thì Ngài có quở trách không. Đáp đúng: có. Cũng hỏi không bỏ tình trạng ấy thì có thể chứng Niết-bàn không. Đáp đúng: không. Lời nhắc dành cho cả hai bên cùng nhìn lại việc tu của mình."
+          ],
+          "meaningUnits": [
+            "second-warning",
+            "second-nibbana"
+          ]
+        },
+        {
+          "id": "contribution",
+          "kind": "teaching",
+          "heading": "Không nhận hết công về mình",
+          "paragraphs": [
+            "Nếu có người hỏi có phải mình đã giúp các vị rời bất thiện và đứng vững trong thiện không, người hòa giải nên trả lời đúng sự việc: tôi đến gặp Phật, Ngài dạy Pháp cho tôi; nghe xong, tôi nói lại với các vị ấy. Các vị nghe Pháp, rồi vượt khỏi bất thiện và đứng vững trong thiện.",
+            "Cách trả lời ấy không đề cao mình, không hạ thấp người, phù hợp với Pháp và không tạo căn cứ chính đáng cho lời bác bỏ hay chỉ trích. Mỗi người được ghi nhận đúng phần đã làm trong sự chuyển đổi ấy."
+          ],
+          "meaningUnits": [
+            "credit-question",
+            "credit-answer",
+            "credit-result"
+          ]
+        },
+        {
+          "id": "practice",
+          "kind": "practice",
+          "heading": "Gợi ý thực hành: một lời nhắc có cân nhắc",
+          "paragraphs": [
+            "Có thể nhớ lại một lần đã muốn góp ý với người quen. Thử nhìn riêng điều cần sửa, điều khiến người ấy khó tiếp nhận và khả năng mình thật sự giúp được. Nếu có dịp nói lại, chọn lời đủ rõ để người ấy hiểu việc cần thay đổi. Khi kể chuyện đã giải quyết được, kể cả sự lắng nghe và cố gắng của người ấy."
+          ],
+          "meaningUnits": [
+            "examine",
+            "case-three",
+            "case-five",
+            "credit-result"
+          ]
+        },
+        {
+          "id": "close",
+          "kind": "teaching",
+          "heading": "Lời được đón nhận",
+          "paragraphs": [
+            "Sau lời dạy của Phật, các tỳ-kheo hoan hỷ và tán đồng. Kinh Nghĩ Như Thế Nào kết thúc, là bài thứ ba trong nhóm kinh này."
+          ],
+          "meaningUnits": [
+            "ending"
+          ]
+        }
+      ]
+    }
+  }
+}

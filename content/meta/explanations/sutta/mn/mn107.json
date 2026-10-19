@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn107",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "b05d4088-a5dd-48bd-9998-e5b29b663b46"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "ef1cb742-54b0-49ae-9992-25859415e349"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "ee7093cb-ed52-4320-88b6-342793f15250"
+    }
+  },
+  "reviews": [
+    {
+      "id": "b05d4088-a5dd-48bd-9998-e5b29b663b46",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.8,
+        "terminology": 9.7,
+        "audience_fit": 9.5,
+        "clarity": 9.6,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Đã đối chiếu đủ 104 khóa và bảy chú thích cùng toàn HTML. Bản trẻ giữ đếm tới một trăm và hơn nữa, núi trong chín nơi vắng, ngủ/thức trong tỉnh giác; các chi tiết bị Anh hoặc HTML lược không bị bỏ theo. Hai lời chỉ đường vẫn đủ dù tám ô Anh của lượt hai trống.",
+        "semantic_fidelity": "Học tuần tự giữ cả giới, căn, ăn, tỉnh thức, tỉnh giác, nơi vắng, triền cái và thiền; câu Như Lai chỉ đường không làm mất giá trị người thầy. Công dụng cho người hữu học và A-la-hán được phân biệt, không cho rằng người đã giải thoát còn phải tìm một mục đích chưa đạt.",
+        "core_coverage": "Hai mươi bảy mục giảng đủ 40 ý: bốn ví học tập, mười cặp số, ngựa, toàn tiến trình, năm chướng ngại và bốn thiền, hai người đi đường, hai nhóm người tu, ba hương, bốn ví soi sáng và ba nơi quy y. Mọi ý đều có nội dung dạy thực tế.",
+        "logic_context": "Mỗi bước tiếp nối khi nền trước đã được thực hiện; hai người nhận cùng chỉ dẫn nhưng đi khác kết quả. Hai danh mục tính cách được đặt rõ trong lời người kế toán, không gán thành lời Phật kết tội mọi người chưa đạt; ví đi đường vẫn là giả định.",
+        "terminology": "Giải bà-la-môn, Như Lai, hàm ngựa, tỳ-kheo, giới bổn, khất thực, niệm, tỉnh giác, tầm/tứ, hỷ/lạc, định/xả và cư sĩ bằng từ gần gũi. Cách gọi hỷ là niềm vui và lạc là an vui dễ chịu vẫn cho thấy khác biệt qua thiền ba; các danh mục cuối còn nhiều từ mới.",
+        "audience_fit": "Bậc thang, học đếm và học bản nhạc làm mạch gần trải nghiệm học của trẻ. Xếp sách là việc ứng dụng vừa sức; nếp nghỉ của tỳ-kheo được xác định riêng. Độ dài 2.129 đơn vị cách trắng và danh sách tính cách khá dày, nên điểm phù hợp tuổi chưa tối đa.",
+        "clarity": "Bốn tầng thiền được tách bốn mục, hai người đi đường cũng có mục riêng; tiêu đề báo rõ tác dụng và chuyển người nói. Các cặp từ ở danh sách cuối cần đọc chậm, nhưng bố cục và các ví giúp người đọc theo được chủ đề tự thực hành.",
+        "editorial_separation": "Ví dụ học nhạc có nhãn hiện đại và tự giới hạn so với đích giải thoát. Mục xếp sách thuộc practice; không nhập cô giáo hoặc sách vở vào sự kiện kinh, không làm ví nghề tính toán thành hướng dẫn nhân bảng số mới.",
+        "practical_integrity": "Gợi ý chỉ dùng việc nhớ biết khi xếp sách và so sánh nghe chỉ với tự làm. Không yêu cầu trẻ áp giới bổn, giảm ngủ, tự vào nghĩa địa hoặc thử chứng thiền; không tuyên bố kỹ năng học tập tương đương giải thoát.",
+        "technical_integrity": "Live audit sạch: 40 ý phân hoạch đúng thứ tự 104 khóa, bản trẻ 27 mục/39 đoạn có liên kết hợp lệ và đủ phần giảng. Năm SHA nguồn, hai blob Bilara và hai git show dự án đã kiểm; fingerprint hiện hành khớp hồ sơ chấm."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root, khác người viết /root/writer_b. Đã đọc trọn năm nguồn, 40 ý và cả ba bản; không thấy blocker nội dung. Đây là đánh giá biên tập AI, chưa thử với ba nhóm độc giả hoặc thẩm định chuyên gia Pāli.",
+      "contentHash": "cd6cd6aa8b44d080081bd8113f82fd52aed84d2c0158b1d34ea12f6d6b5bd3f1",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn107.html",
+          "sha256": "1cde353ca90e38438fdc008e46407d5d8de3ae027b5e26ed28f94b95501a974e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn107_root-pli-ms.json",
+          "sha256": "7de9bce60a4e63fb7fb2811db4f7794de4878307e11b20284aaa059d1fdd58df"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn107_translation-en-sujato.json",
+          "sha256": "8c5e46653c9e9f781a4029a2c226a56b792046a1e8a4a7de956fb34f29f1860b"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn107_comment-vi-project.json",
+          "sha256": "15d3cccb7a141ffe19a5c06faa69a6b282947d35ea538714a2065d8ca2a3d204"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn107_translation-vi-project.json",
+          "sha256": "d3effdadda0494fbdc0cfc34c2caef3182cdb4c6dbeca5cf8ef32459bf306069"
+        }
+      ]
+    },
+    {
+      "id": "ef1cb742-54b0-49ae-9992-25859415e349",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.8,
+        "terminology": 9.7,
+        "audience_fit": 9.7,
+        "clarity": 9.8,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Đọc toàn năm nguồn cho thấy bản giữ hơn một trăm ở 2.11, đủ chín nơi ở 8.2 và hai lượt chỉ đường 14.5–24. Phần thiền hai đến bốn được mở từ Anh và HTML của chính MN107 đã đọc; không dùng MN38/MN39 chỉ nêu trong chú thích làm nguồn ngầm.",
+        "semantic_fidelity": "Câu chuyện ngựa làm rõ nền trước và bước sau, không biến điều phục thành bạo lực. Vai trò của các pháp tu đối với hữu học và A-la-hán, cùng ý nghĩa Niết-bàn là mục đích cuối, được giữ đầy đủ; đoạn chỉ đường không rút bài thành nguyên tắc hiệu suất công việc.",
+        "core_coverage": "Hai mươi mốt mục đủ 40 ý, kể cả bốn động cơ không ăn vì chúng, bốn mục đích nuôi thân, ba kết quả, bốn thời ngày/đêm, bảy nhóm tỉnh giác và toàn hai danh mục tính cách. Lời khen bằng ba hương, hai tiếng tán thán, bốn ví, quy y trọn đời đều còn.",
+        "logic_context": "Mục restraint giữ nhân quả không giữ căn thì bất thiện có thể tràn vào; thức ăn nâng đỡ thân và đời tu. Hai người đều nhận cùng các chặng làng/thị trấn/Vương Xá; không thêm động cơ người đi sai. Gaṇaka nêu hai nhóm người tu sau khi Phật giải đáp, đúng phân vai.",
+        "terminology": "Pātimokkha, phạm hạnh, niệm/tỉnh giác, lậu hoặc, chánh trí, viễn ly và quy y đều được mở nghĩa trong mạch. Giữ tên kālānusāri vì chưa xác định chắc cây; hỷ không bị nhập vào lạc, thiền bốn không bị đồng nhất với cứu cánh.",
+        "audience_fit": "Ví xử lý tình huống căng thẳng ở nơi làm việc và giữ lời nói trong cuộc trao đổi khó phù hợp trách nhiệm của người trưởng thành. Giọng văn cho người đọc theo lập luận và tự thực hiện, không thu lời kinh thành mẹo làm việc hoặc tự kết tội người chưa đạt.",
+        "clarity": "Các mục từ foundation đến seclusion cho thấy thứ tự rõ; first-two/last-two vừa gọn vừa giữ khác biệt của bốn thiền. Wrong-turn, safe-arrival và pointing nối trọn ví với kết luận, giúp xem lý do kết quả khác nhau trong cùng điều kiện hướng dẫn.",
+        "editorial_separation": "Example ghi rõ ví dụ hiện đại và giới hạn ở phần việc người học tự làm. Practice là lời gợi ý riêng; các nhận xét xã hội của Gaṇaka và những ví dụ có thật trong kinh được giữ trong phần diễn giải nguồn, không trộn với lời biên tập.",
+        "practical_integrity": "Bài tập chọn lời nói thiện và biết rõ lúc nghe/nói/im lặng gắn với giới và tỉnh giác. Không tạo chế độ ăn hay ngủ cho người đọc, không đưa lịch xuất gia thành khuyến cáo đời thường, không hứa chỉ cần theo hướng dẫn một lần là đạt giải thoát.",
+        "technical_integrity": "Bản 21 mục/36 đoạn qua audit không lỗi, đủ 40 ý/104 khóa và tham chiếu chính xác. Nguồn pinned cùng hai tệp nguồn dự án tại ecf34c8 được xác minh; điểm và lý do được gắn hash canonical riêng, chưa dựa vào một bản có thể tiếp tục thay đổi."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root, khác người viết /root/writer_b. Đã đọc trọn năm nguồn, 40 ý và cả ba bản; không thấy blocker nội dung. Đây là đánh giá biên tập AI, chưa thử với ba nhóm độc giả hoặc thẩm định chuyên gia Pāli.",
+      "contentHash": "68802a81bba529ef95760b61117d0eb7020d1edddfaa716425c48db9ac92798b",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn107.html",
+          "sha256": "1cde353ca90e38438fdc008e46407d5d8de3ae027b5e26ed28f94b95501a974e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn107_root-pli-ms.json",
+          "sha256": "7de9bce60a4e63fb7fb2811db4f7794de4878307e11b20284aaa059d1fdd58df"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn107_translation-en-sujato.json",
+          "sha256": "8c5e46653c9e9f781a4029a2c226a56b792046a1e8a4a7de956fb34f29f1860b"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn107_comment-vi-project.json",
+          "sha256": "15d3cccb7a141ffe19a5c06faa69a6b282947d35ea538714a2065d8ca2a3d204"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn107_translation-vi-project.json",
+          "sha256": "d3effdadda0494fbdc0cfc34c2caef3182cdb4c6dbeca5cf8ef32459bf306069"
+        }
+      ]
+    },
+    {
+      "id": "ee7093cb-ed52-4320-88b6-342793f15250",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.8,
+        "terminology": 9.7,
+        "audience_fit": 9.6,
+        "clarity": 9.7,
+        "editorial_separation": 9.8,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Đối chiếu đủ Pāli/Việt/Anh, bảy chú thích và HTML đến SC26 cùng ghi công. Bản lớn tuổi giữ hơn một trăm, chín nơi vắng gồm núi, đủ tỉnh giác khi ngủ/thức và hai lượt chỉ đường; khoảng trống Anh không được coi là sự đồng thuận bổ sung.",
+        "semantic_fidelity": "Still-learning và fulfilled phân biệt lời giáo huấn cho người còn học với an trú hiện tại của người đã giải thoát. Phần chỉ đường giữ người học thực hành cùng sự chỉ dẫn có giá trị; bốn thiền được trình bày là các bước được dạy, không tự gán mọi người đã tới đích.",
+        "core_coverage": "Ba mươi mục đủ 40 ý, có mục riêng cho từng thiền, hai công dụng người học/người hoàn tất, từng người đi đường và lời kết. Hai nhóm tính cách giữ cả các nét tích cực quyết chí, niệm vững, tâm một điểm và đi đầu viễn ly, không chỉ rút thành lời khen chung.",
+        "logic_context": "Giới được thiết lập trước hộ căn, tiếp ăn/tỉnh thức/tỉnh giác/nơi vắng; ngày và cả ba canh giữ đủ việc nghỉ. Phần Gaṇaka đáp mình chỉ đường rồi Phật vận dụng trở lại Niết-bàn giữ thứ tự và cả ba điều hiện hữu, không thêm nguyên nhân chưa có trong nguồn.",
+        "terminology": "Giải các tên tu học bằng câu ngắn và giữ ý riêng của niệm, tỉnh giác, tầm, tứ, hỷ, lạc, định, xả. Hương rễ để nguyên tên Pāli và đúng nhóm rễ; không tự quyết tên cây khi các nguồn khác nhau. Một số tên và danh mục vẫn cần dừng đọc.",
+        "audience_fit": "Các phần ngắn cho phép đọc từng bước; ví chăm luống cây và nhận biết lúc trò chuyện gần sinh hoạt của người lớn tuổi. Không mặc định tuổi cao đồng nghĩa bệnh yếu hoặc không thể học thêm; danh sách cuối vẫn khá dài so với nhịp đọc chậm.",
+        "clarity": "Tách bốn tầng thiền thành bốn mục và lời về hữu học/A-la-hán thành hai phần giảm tải. Hai chặng đường có đủ làng, thị trấn và bốn vẻ đẹp giúp theo chuyện; vài chuỗi tính cách đối nhau vẫn cần đọc kỹ để giữ trọn ý.",
+        "editorial_separation": "Ví chăm cây được gọi là hiện đại, nêu rõ chỉ gợi phần thực hành và đích kinh là giải thoát. Gợi ý cuộc trò chuyện ở practice tách riêng; không biến chăm cây thành một tầng thiền hoặc việc xảy ra trong cuộc gặp của Gaṇaka.",
+        "practical_integrity": "Gợi ý nhớ biết lúc nghe, nói, im lặng và nhìn lại ứng xử vừa sức, có thể thực hiện trong sinh hoạt. Không thúc ép thiếu ngủ, thay đổi ăn uống, ngồi kiết già hay ở nơi hoang vắng; cũng không hứa kết quả sức khỏe hoặc chứng đạt.",
+        "technical_integrity": "Live audit xác nhận 30 mục/42 đoạn, mọi liên kết ý hợp lệ và đủ toàn bản đồ 40 ý/104 khóa. Năm nguồn được xác minh byte, hai blob và hai git show; fingerprint lớn tuổi khớp canonical đã đọc, không còn blocker cấu trúc hay nguồn."
+      },
+      "blockingErrors": [],
+      "notes": "Kiểm độc lập bởi /root, khác người viết /root/writer_b. Đã đọc trọn năm nguồn, 40 ý và cả ba bản; không thấy blocker nội dung. Đây là đánh giá biên tập AI, chưa thử với ba nhóm độc giả hoặc thẩm định chuyên gia Pāli.",
+      "contentHash": "44aab59d71a7689cee3d720012a55928b5829722542c2334aaa16dd8bd81400a",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn107.html",
+          "sha256": "1cde353ca90e38438fdc008e46407d5d8de3ae027b5e26ed28f94b95501a974e"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn107_root-pli-ms.json",
+          "sha256": "7de9bce60a4e63fb7fb2811db4f7794de4878307e11b20284aaa059d1fdd58df"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn107_translation-en-sujato.json",
+          "sha256": "8c5e46653c9e9f781a4029a2c226a56b792046a1e8a4a7de956fb34f29f1860b"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn107_comment-vi-project.json",
+          "sha256": "15d3cccb7a141ffe19a5c06faa69a6b282947d35ea538714a2065d8ca2a3d204"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn107_translation-vi-project.json",
+          "sha256": "d3effdadda0494fbdc0cfc34c2caef3182cdb4c6dbeca5cf8ef32459bf306069"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "uid": "mn103",
+  "audiences": {
+    "children": {
+      "status": "published",
+      "selectedReviewId": "0cf1a942-fb6f-4ee4-9cce-3454876a44c6"
+    },
+    "adults": {
+      "status": "published",
+      "selectedReviewId": "5c171312-1b98-46c4-8ff6-dc3536e37854"
+    },
+    "older-adults": {
+      "status": "published",
+      "selectedReviewId": "c5dccafa-58bc-4e75-88e5-1dfe3ed2149c"
+    }
+  },
+  "reviews": [
+    {
+      "id": "0cf1a942-fb6f-4ee4-9cce-3454876a44c6",
+      "audience": "children",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.8,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.5,
+        "audience_fit": 9.5,
+        "clarity": 9.6,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.7,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Bản giữ người truyền kinh đã nghe, Phật gọi các tỳ-kheo, bốn động cơ được hỏi rồi bị phủ nhận, sau đó là lòng thương và lợi ích. Lựa chọn Kusinārā thay Pisinārā của root có ghi nguồn riêng; phủ định mình không phiền ở 11.2 và việc nhớ sai/đúng theo Pāli, không theo chỗ Anh hoặc HTML lệch.",
+        "semantic_fidelity": "Hòa hợp không bị biến thành bỏ qua đúng sai: bản vẫn yêu cầu nhận điều nhớ sai và nhớ đúng, rồi nói Pháp và Luật. Các câu hỏi cuối giữ đích Niết-bàn và điều cần từ bỏ; việc hai bạn hiểu nhau chỉ là liên hệ nhỏ, không thay thế toàn bộ đường tu.",
+        "core_coverage": "20 mục bao quát đủ 36 ý, gồm bảy nhóm tu với các số, bốn phối hợp nghĩa/lời, hai phe ở mỗi phối hợp và năm trường hợp nhắc lỗi. Có đủ hai câu hỏi cho từng phe, lời đáp mẫu của người hòa giải, bốn nét của lời đáp và nhãn kết bài thứ ba.",
+        "logic_context": "Chỉ khi nghĩa giống mà lời khác mới gọi khác lời là chuyện nhỏ. Bốn trường hợp nên nói đều giữ nét tính cách và điều kiện có thể giúp từ bất thiện sang thiện; trường hợp thứ hai không làm người góp ý bị phiền, còn trường hợp cuối chuyển sang xả vì không thể giúp.",
+        "terminology": "Niệm xứ, chánh cần, như ý túc, căn/lực, giác chi và đạo tám ngành được mở ngắn theo tên nhóm, không tự thêm danh mục 37 mục không có trong bài. Pháp, Luật, bất thiện, thiện, xả và Niết-bàn được giải gần chỗ dùng; một số tên nhóm tu vẫn cần đọc chậm với trẻ mới học.",
+        "audience_fit": "Ví cất sách vào cặp hay lên giá gần gũi và phân biệt được cùng chữ khác ý với khác chữ cùng ý. Nhịp 20 đoạn ngắn và gợi ý hỏi bạn trước khi sửa phù hợp trẻ; phần cân nhắc tổn thương khi nhắc lỗi vẫn là nội dung cần người lớn cùng trao đổi, chưa có thử nghiệm độc giả.",
+        "clarity": "Tiêu đề gọi thẳng từng trường hợp nên trẻ theo được từ động cơ nói đến cách góp ý và không nhận hết công. Những ý lặp được giữ ngắn, ví sách xuất hiện đúng sau bốn phối hợp; nhóm năm trường hợp có tính liệt kê nhưng mỗi mục chỉ mang một tình huống.",
+        "editorial_separation": "Ví dụ hôm nay, phần làm rõ cách áp dụng và gợi ý thực hành có loại mục riêng. Các câu hỏi của Phật và lời đáp mẫu cuối giữ dạng được hỏi/nên trả lời; không kể một cuộc hòa giải đã xảy ra hoặc biến hai bạn cất sách thành nhân vật kinh.",
+        "practical_integrity": "Gợi ý hỏi lại ý bạn, nghe hết và nhờ người lớn giúp có thể thực hiện mà không đòi trẻ phán xét người khác. Phần làm rõ nêu mục tiêu giúp sửa đổi, tránh hiểu cân nhắc tổn thương thành lý do cố làm người khác đau; việc nhận công được đặt theo đúng đóng góp thực.",
+        "technical_integrity": "Audit nguồn và nội dung đều sạch; 36 ý nối đủ 128 khóa và phần giảng của bản trẻ bao quát toàn map. Cấu trúc, tác giả và nhãn ví dụ/làm rõ/thực hành đúng; năm SHA và fingerprint giữ nguyên bản freeze đã đọc, không cần chỉnh canonical."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc độc lập đủ năm nguồn thực, toàn map 36 ý và cả ba bản canonical; không yêu cầu sửa. Tác giả và người kiểm là các tác tử AI cùng công cụ; chưa có thử nghiệm độc giả hoặc thẩm định chuyên gia Pāli.",
+      "contentHash": "94b23c70772b22767be92152edbad456d34ab09d3d5549203af4541ee5060c72",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn103.html",
+          "sha256": "56fdface0a7b534480e14fa2d65434c8577fb8229797e105bd4d0b211c912b61"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn103_root-pli-ms.json",
+          "sha256": "6f7e2f8d95806afee27ebaf90756e5416c49f8488bae2524d2b8491106489c59"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn103_translation-en-sujato.json",
+          "sha256": "c0e36a2e4bb578e7780d5aaeb77dc8391b7200d9dfa06654fcc76790794c91a5"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn103_comment-vi-project.json",
+          "sha256": "4dcf87754ab65d431fa5f64611f7d865658d0cc95350e1cd5c755058872e9cb1"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn103_translation-vi-project.json",
+          "sha256": "99683e298e206be2ce4f7289dcad832c823df95caa4b4e9038fb5c7382f34721"
+        }
+      ]
+    },
+    {
+      "id": "5c171312-1b98-46c4-8ff6-dc3536e37854",
+      "audience": "adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.6,
+        "audience_fit": 9.6,
+        "clarity": 9.6,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Các cuộc hỏi đáp về động cơ, việc cùng học và lời trả lời khi được hỏi công lao giữ đúng người nói và điều kiện. Địa danh được dùng theo Việt dự án cùng hai bản tham khảo, có ghi giới hạn root; bản giữ avihesā ở 11.2 và phân biệt ghi nhớ sai/đúng dù nguồn phụ khác.",
+        "semantic_fidelity": "Bản đặt mục đích góp ý ở việc rời bất thiện, an lập thiện; giữ sự hòa hợp cùng việc nói đúng Pháp và Luật. Khả năng giúp thực sự quyết định giữa nên nói và xả, nên bài không trở thành cách thắng tranh luận hoặc một mẹo giao tiếp tách khỏi mục tiêu giải thoát.",
+        "core_coverage": "14 mục có đủ bảy nhóm tu, bốn trường hợp nghĩa/lời với cả hai phía, năm ca nhắc lỗi cùng bốn nét tính cách tương ứng. Phần hiềm khích giữ cả hai câu hỏi và đáp mẫu cho hai phe; phần công lao giữ quá trình nghe–nói lại–người nghe chuyển đổi và bốn phẩm chất lời đáp.",
+        "logic_context": "Trường hợp người nghe giận nhưng dễ buông không bị nhập với người không giận nhưng giữ chặt ý kiến. Các mức phiền mình/tổn người được phân biệt đủ; lợi ích lớn hơn khó khăn chỉ đi cùng điều kiện có thể giúp, và khi không thể thì không xem thường xả.",
+        "terminology": "Nghĩa và lời diễn đạt tách rõ, Pháp/Luật có giải thích, còn abhidhamme được diễn là giáo pháp theo ngữ cảnh. Bảy nhóm tu có lời mở thay vì giả định người đọc biết sẵn; các định nghĩa ngắn về năng lực và sức mạnh tu tập vẫn có giới hạn, không thay một bài giảng chi tiết các nhóm ấy.",
+        "audience_fit": "Ví minh bạch trong cuộc họp cho thấy cùng từ chưa chắc cùng ý, còn cách chuẩn bị góp ý gắn với gia đình và công việc. Bản dùng 14 mục tương đối gọn, tôn trọng người đọc có thể xét nhiều điều kiện; chưa có kiểm nghiệm trực tiếp với nhóm độc giả này.",
+        "clarity": "Mạch động cơ–cùng học–bất đồng–nhắc lỗi–hiềm khích–ghi nhận đóng góp có quan hệ rõ. Ba ca còn có thể giúp được gộp thành các đoạn song song dễ so, dù cần đọc kỹ để giữ đúng hai trục phiền/tổn và bốn nét tính cách.",
+        "editorial_separation": "Tình huống cuộc họp đứng trong mục ví dụ, gợi ý góp ý có mục thực hành riêng; không mang khẩu hiệu minh bạch vào lời Phật. Lời tự thuật của người hòa giải được giữ như mẫu trả lời trong một tình huống nếu được hỏi, không biến thành sự kiện lịch sử mới.",
+        "practical_integrity": "Bài tập xét việc cần sửa, cách hiểu của người kia và khả năng lời nói giúp đổi hành vi gắn đúng điều kiện của kinh. Sau đó nhìn lại hiệu quả và ghi nhận công sức người nghe, không hứa hòa giải mọi xung đột hay cho phép gây tổn thương vì mình tin là đúng.",
+        "technical_integrity": "Bản ghi bao phủ đủ 36 ý/128 khóa và các tham chiếu ở phần giảng, ví dụ, thực hành hợp lệ. Audit cuối không lỗi nguồn hoặc nội dung; năm hash và fingerprint trùng bản freeze được đọc đầy đủ, chưa ghi điểm vào metadata chính thức."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc độc lập đủ năm nguồn thực, toàn map 36 ý và cả ba bản canonical; không yêu cầu sửa. Tác giả và người kiểm là các tác tử AI cùng công cụ; chưa có thử nghiệm độc giả hoặc thẩm định chuyên gia Pāli.",
+      "contentHash": "a20d5bd56b741e6513b4e6fc7375941cb9b25bef5c9c9a80216ece0293da53a8",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn103.html",
+          "sha256": "56fdface0a7b534480e14fa2d65434c8577fb8229797e105bd4d0b211c912b61"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn103_root-pli-ms.json",
+          "sha256": "6f7e2f8d95806afee27ebaf90756e5416c49f8488bae2524d2b8491106489c59"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn103_translation-en-sujato.json",
+          "sha256": "c0e36a2e4bb578e7780d5aaeb77dc8391b7200d9dfa06654fcc76790794c91a5"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn103_comment-vi-project.json",
+          "sha256": "4dcf87754ab65d431fa5f64611f7d865658d0cc95350e1cd5c755058872e9cb1"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn103_translation-vi-project.json",
+          "sha256": "99683e298e206be2ce4f7289dcad832c823df95caa4b4e9038fb5c7382f34721"
+        }
+      ]
+    },
+    {
+      "id": "c5dccafa-58bc-4e75-88e5-1dfe3ed2149c",
+      "audience": "older-adults",
+      "reviewedAt": "2026-10-19",
+      "reviewers": [
+        "gpt-6-astra-pro"
+      ],
+      "scores": {
+        "source_fidelity": 9.8,
+        "semantic_fidelity": 9.9,
+        "core_coverage": 9.9,
+        "logic_context": 9.9,
+        "terminology": 9.6,
+        "audience_fit": 9.6,
+        "clarity": 9.7,
+        "editorial_separation": 9.9,
+        "practical_integrity": 9.8,
+        "technical_integrity": 10
+      },
+      "rationale": {
+        "source_fidelity": "Bản bảo toàn khung lời đã nghe, rừng Baliharaṇa và động cơ thuyết pháp được hỏi/đáp qua các lượt. Các lựa chọn khó về Kusinārā, phủ định 11.2 và điều ghi nhớ đúng/sai đã đối chiếu năm nguồn; không đưa cách hiểu lanh lợi/chậm chạp từ HTML vào tính cách người được góp ý.",
+        "semantic_fidelity": "Cùng học hòa hợp vẫn đi với nhận đúng sai và phát biểu đúng Pháp, Luật, không trở thành chỉ giữ vẻ yên ấm. Chỗ xả giữ bình thản khi không thể giúp người sửa đổi; hai phe đều phải nhìn điều cản Niết-bàn, nên mục tiêu vượt khỏi một cuộc chuyện trò thuận ý.",
+        "core_coverage": "18 mục giữ đủ 36 ý, bốn phối hợp nghĩa/lời, năm ca người được nhắc với các nét và khả năng giúp, cùng lời khuyên không vội trách. Hai phe nhận cùng hai câu hỏi; cuối có bốn nét lời trả lời và sự hoan hỷ của các tỳ-kheo, nhãn thứ ba trong nhóm.",
+        "logic_context": "Từng ca phân biệt ai bị phiền, ai bị tổn thương, có hoặc không giận/ôm hận/chấp chặt/khó buông, rồi mới kết nên nói hay xả. Sự nhỏ của khác lời chỉ có khi cùng nghĩa. Câu đáp cuối không bảo đảm chẳng ai chỉ trích, mà nói không tạo căn cứ chính đáng cho chỉ trích.",
+        "terminology": "Bất thiện/thiện, Pháp/Luật, xả và Niết-bàn được mở khi cần, các nhóm trợ đạo giữ tên và số cùng lời giải ngắn. Từ ngữ không giả định người lớn tuổi đã học Phật; một số tên nhóm tu vẫn cần tìm hiểu thêm ngoài phạm vi bài này.",
+        "audience_fit": "Ví hai cách kể đến sớm mười phút gần với việc trò chuyện, không dựa vào giả định suy giảm trí nhớ hay yếu sức. Các mục tách người nghe, người nói và cả hai gặp khó giúp đọc thong thả; phần thực hành nhớ lại một lần góp ý giữ quyền chủ động của người đọc.",
+        "clarity": "Những tiêu đề như nói giống nhưng hiểu khác, khác lời nhưng cùng ý giúp nhìn ra sự khác biệt ngay. Bố cục ngắn hơn các bài nhiều thuật ngữ, vẫn giữ đủ các nhánh; những câu song song làm rõ so sánh mà không phải dùng một bảng kỹ thuật giữa mạch đọc.",
+        "editorial_separation": "Ví cuộc gặp và gợi ý nhìn lại một lời nhắc có nhãn riêng. Khi được hỏi công lao, người hòa giải chỉ được hướng dẫn kể quá trình tiếp nhận và truyền lời dạy; bản không thêm một người quen cụ thể hoặc cuộc hòa giải thành công vào nội dung kinh.",
+        "practical_integrity": "Gợi ý cân nhắc điều cần sửa, khả năng tiếp nhận và phần mình có thể giúp không áp đặt vai người lớn tuổi luôn phải dạy người khác. Việc kể cả cố gắng của người nghe phù hợp đoạn không nâng mình/hạ người, và không hứa một lời góp ý sẽ sửa được mọi tình huống.",
+        "technical_integrity": "Audit nội dung và nguồn không có lỗi; 18 mục giữ toàn bản đồ 36 ý trên 128 khóa thật. Tác giả, nhãn mục và các đường dẫn nguồn hợp lệ; năm source hash cùng fingerprint trùng bản freeze đã đọc, không phát sinh sửa hoặc đánh giá hết hiệu lực."
+      },
+      "blockingErrors": [],
+      "notes": "Đã đọc độc lập đủ năm nguồn thực, toàn map 36 ý và cả ba bản canonical; không yêu cầu sửa. Tác giả và người kiểm là các tác tử AI cùng công cụ; chưa có thử nghiệm độc giả hoặc thẩm định chuyên gia Pāli.",
+      "contentHash": "202bec824a3d58cc53ba8675ab8821dd4e1a1511afe1f2320cc8e5d69f58050e",
+      "sourceHashes": [
+        {
+          "path": ".cache/upstream/sc-data/html_text/vi/pli/sutta/mn/mn103.html",
+          "sha256": "56fdface0a7b534480e14fa2d65434c8577fb8229797e105bd4d0b211c912b61"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/root/pli/ms/sutta/mn/mn103_root-pli-ms.json",
+          "sha256": "6f7e2f8d95806afee27ebaf90756e5416c49f8488bae2524d2b8491106489c59"
+        },
+        {
+          "path": ".cache/upstream/suttacentral/translation/en/sujato/sutta/mn/mn103_translation-en-sujato.json",
+          "sha256": "c0e36a2e4bb578e7780d5aaeb77dc8391b7200d9dfa06654fcc76790794c91a5"
+        },
+        {
+          "path": "content/comment/vi/project/sutta/mn/mn103_comment-vi-project.json",
+          "sha256": "4dcf87754ab65d431fa5f64611f7d865658d0cc95350e1cd5c755058872e9cb1"
+        },
+        {
+          "path": "content/translation/vi/project/sutta/mn/mn103_translation-vi-project.json",
+          "sha256": "99683e298e206be2ce4f7289dcad832c823df95caa4b4e9038fb5c7382f34721"
+        }
+      ]
+    }
+  ]
+}
